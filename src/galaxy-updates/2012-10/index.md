@@ -230,4 +230,3 @@ There were [two new Galaxy distributions](/src/docs/index.md) in September:
 * [ENCODE Virtual Machine and Cloud Resource](http://scofield.bx.psu.edu/~dannon/encodevm/) is now available.
 * [Galaxy tutorial](http://bit.ly/OgsOvJ) from [2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) is now available on the [http://gmod.org/wiki/|GMOD wiki](http://gmod.org/wiki/|GMOD wiki). 
 * [ISCB Wikipedia Competition](http://bit.ly/QLbMMq) launched and the [Galaxy Wikipedia page](http://bit.ly/gxywp) is eligible.
-

@@ -41,4 +41,3 @@ Alternatively, you may **grant Galaxy a cookie exception**:
 1. Enter the hostname of the Galaxy server in the **Address of web site:** field (for the public Galaxy site at usegalaxy.org/main.g2.bx.psu.edu, use **main.g2.bx.psu.edu**)
 1. Click **Allow** to add it to the list.
 1. Click **Close** on this dialog and the Preferences dialog to return to the browser.
-

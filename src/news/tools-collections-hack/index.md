@@ -43,6 +43,3 @@ also currently thinking September 17th and 18th.
 
 Thanks, <br />
 Galaxy IUC
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-10</div>
-

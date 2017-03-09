@@ -9,6 +9,3 @@ NBIC, the host and co-sponsor of the [2011 Galaxy Community Conference (GCC2011)
 We had several requests for this, and I would like to thank NBIC for making this happen.
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-06-11</div>
-

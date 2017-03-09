@@ -66,5 +66,3 @@ As far as apache goes, you'll need to disable auth on the repos if you want to a
         Allow from all
   </Location>
 ```
-
- 

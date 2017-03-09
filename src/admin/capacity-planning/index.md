@@ -23,4 +23,3 @@ See the [Cloud page](/src/cloud/index.md) for information on getting started wit
 
 * [Cloud](/src/cloud/index.md) - Galaxy on the cloud options
 * [Public Galaxy Servers](/src/public-galaxy-servers/index.md) - a list of known, publicly accessible, Galaxy servers.
-

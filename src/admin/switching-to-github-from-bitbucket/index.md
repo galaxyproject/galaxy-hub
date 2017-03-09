@@ -61,4 +61,3 @@ If this went good you can now remove all the mercurial files.
 #! highlight sh
 $ rm -rf .hg .hgignore .hgtags
 ```
-

@@ -26,5 +26,3 @@ If you are submitting a poster or demo, please do so *before* submitting an [app
 **The application deadline is May 1 for members of historically underrepresented groups and March 20 for those from Low and Lower-Middle Income Economies**.  Applicants will be notified of their scholarship status no later than two weeks after the deadline.
 
 Galaxy Community Fund Board
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-18</div>
-

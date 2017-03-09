@@ -425,4 +425,3 @@ See [list of tools contributed in August](/src/toolshed/contributions/2015-08/in
 # Other News
 
 * [The Galaxy Reports application got a new homepage](https://twitter.com/galaxyproject/status/635893207520407552/photo/1) by [Daniel Bouchard](https://twitter.com/D_J_Bouchard)
-

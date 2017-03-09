@@ -193,4 +193,3 @@ We have a significant amount of mailing list traffic. See the [Galaxy Project St
 * [Galaxy Development News Briefs](/src/docs/index.md)
 * [News](/src/news/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
-

@@ -34,6 +34,3 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 Enjoy and please let us know what you think,
 
 [Enis Afgan](/src/people/enis-afgan/index.md) and [Dannon Baker](/src/people/dannon-baker/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-07</div>
-

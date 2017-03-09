@@ -15,6 +15,3 @@ date: "2014-03-28"
 [Globus Genomics](/src/cloud/index.md#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/src/events/gcc2014/index.md) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-03-28</div>
-

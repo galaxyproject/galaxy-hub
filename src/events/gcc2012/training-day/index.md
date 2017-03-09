@@ -16,4 +16,3 @@ The [2012 Galaxy Community Conference](/src/events/gcc2012/training-day//index.m
 Register for the Training Day at the same time you [Register](/src/events/gcc2012/register/index.md) for the meeting.  
 
 # Schedule
-

@@ -588,4 +588,4 @@ In no particular order:
 
 ## And a Huge Thank You!
 
-The [Galaxy Team](/src/galaxy-team/index.md) would like to thank everyone who took the time to respond to the project's [call for support](/src/news/galaxy-project-grant-support/index.md).  These will be extremely helpful with our renewal.  
+The [Galaxy Team](/src/galaxy-team/index.md) would like to thank everyone who took the time to respond to the project's [call for support](/src/news/galaxy-project-grant-support/index.md).  These will be extremely helpful with our renewal.

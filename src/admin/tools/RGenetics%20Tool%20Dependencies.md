@@ -27,4 +27,3 @@
 | | RG Report, Plot, Model data | | Lped Genetic Model | | Python | |
 | | RG Report, Plot, Model data | | LD | | [HaploView](http://www.broad.mit.edu/mpg/haploview/), [JRE](http://www.java.com/), [pdfjam](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic/firth/software/pdfjam) | |
 | | RG Report, Plot, Model data | | Ancestry | | Python, [Eigenstrat](http://genepath.med.harvard.edu/~reich/Software.htm), rpy, pdfjam | |
-

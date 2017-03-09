@@ -18,6 +18,3 @@ Additional details, including workarounds for those who are unable or unwilling 
 *Thanks for using Galaxy,*
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-08</div>
-

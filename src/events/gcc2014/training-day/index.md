@@ -17,4 +17,3 @@ title: Training Day
 
 
 <div class='center'><br /><span style="font-size: larger;">**Day 0: Learning Galaxy**</span><br /></div>
-

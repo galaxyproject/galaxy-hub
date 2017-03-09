@@ -275,4 +275,3 @@ Also, supported by AWS in Education Research Grant award
     <td style=" text-align: center; width: 20%; border: none;"> <a href='https://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="" width="150" /></a> </td>
   </tr>
 </table>
-

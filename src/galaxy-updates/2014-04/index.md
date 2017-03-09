@@ -382,4 +382,3 @@ There was one new [Community Log Board](/src/community/logs/index.md) entry in M
 * Galaxy reached a milestone of [100 contributors to our codebase](http://ohloh.net/p/galaxybx)! Thank you all! 
 * Poster: "[ChemicalToolBoX and its application on the study of the drug like and purchasable space](http://bit.ly/1kzoEkF)," by Lucas. *et al.*, *Journal of Chemoinformatics* 
 * [New tools available in Galaxy @ URGI](https://urgi.versailles.inra.fr/About-us/News/new-tools-available-in-Galaxy): SnpEff, Mapsembler2, BLAST+, Blast2GO, Peak predictor, ...
-

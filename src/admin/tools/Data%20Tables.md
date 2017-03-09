@@ -113,4 +113,3 @@ mm9 mm9 Mouse (Mus musculus): mm9 /new/path/to/bowtie/mm9
 ### If You Don't Want to Change the Existing loc Files
 
 The alternative <tt>tool_data_table_conf.xml.oldlocstyle</tt> file can be used as a source for <tt>tool_data_table_conf.xml</tt> instead of <tt>tool_data_table_conf.xml.sample</tt>.
-

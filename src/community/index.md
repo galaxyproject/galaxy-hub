@@ -139,4 +139,3 @@ Member | Joined | GitHub
 | Western France | The GUGGO group is a collaborative space for scientists, biologists, and bioinformaticians based in Western France who are interested in data analysis and the Galaxy platform. GUGGO facilitates the transfer of information in western France about Galaxy. | [<i class="fa fa-external-link" aria-hidden="true"></i>](https://www.e-biogenouest.org/groups/guggo/) |
 | Japan | Pitagora Galaxy Community | [<i class="fa fa-twitter" aria-hidden="true"></i>](https://twitter.com/hashtag/usegalaxyjp) [<i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.pitagora-galaxy.org) |
 | UK | Galaxy in the United Kingdom | [<i class="fa fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyukfriends) [<i class="fa fa-external-link" aria-hidden="true"></i>](http://galaxy-community.org.uk) |
-

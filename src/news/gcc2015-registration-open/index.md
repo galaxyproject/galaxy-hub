@@ -15,7 +15,4 @@ We apologize profusely for the delay in opening registration, and we thank you f
 
 [Dave Clements](/src/people/dave-clements/index.md) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
 
-PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) submission deadline is 1 May.* 
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-27</div>
-
+PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) submission deadline is 1 May.*

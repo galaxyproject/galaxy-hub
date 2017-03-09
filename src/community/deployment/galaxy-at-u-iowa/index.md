@@ -62,4 +62,3 @@ Annotation and reporting tools.
 ## Links
 
 * The University of Iowa Galaxy deployment was presented at th [July 2012 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2012-07-09/index.md).
-

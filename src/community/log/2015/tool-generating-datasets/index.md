@@ -28,4 +28,3 @@ From the [blog post](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/
 * [Galaxy Tool Generating Datasets](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)
 * [Steve Cassidy's Blog](http://web.science.mq.edu.au/)
 * [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/)
-

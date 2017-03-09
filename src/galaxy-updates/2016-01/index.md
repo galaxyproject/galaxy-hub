@@ -440,4 +440,3 @@ See [list of tools contributed in December](/src/toolshed/contributions/2015-12/
 * Help the [MetaboHub](http://dsv.cea.fr/dsv/english/Pages/Research/national-infrastructures/MetaboHub.aspx) / [Workflow4metabolomics](http://galaxy.workflow4metabolomics.org/) and the [University of Birmingham](http://www.birmingham.ac.uk/) / [Galaxy-M](https://github.com/Viant-Metabolomics/Galaxy-M) teams! Please fill out the [Galaxy Workflows for Metabolomics](https://www.surveymonkey.co.uk/r/metabolomics-galaxy) Questionnaire 
 * From [GigaScience](https://twitter.com/GigaScience):
   * We've been busy in 2015! Read our [end of year blog](http://bit.ly/1NQl4Tk) and we have more exciting things lined up for 2016!
-

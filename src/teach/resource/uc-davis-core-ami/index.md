@@ -56,4 +56,3 @@ The AMI includes all the example datasets used in the [Using Galaxy for Analysis
 * [Workshop's resource page](/src/teach/resource/uc-davis-core-galaxy-course/index.md) on this wiki.
 * [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/)
 * [Amazon Web Services](http://aws.amazon.com/)
-

@@ -15,4 +15,3 @@ title: Abstracts
 <br /><br />
 
 # Talk Abstracts
-

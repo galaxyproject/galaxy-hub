@@ -38,6 +38,3 @@ The **[August Galactic News](/src/galaxy-updates/2015-08/index.md)** is out.  It
 <a href='/src/galaxy-updates/2015-08/index.md#community-committers'><img src="/src/images/CommunityCommitters1.png" alt="Community Committers" height="75" /></a>
 </div>
 <br />
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-07-31 </div>
-

@@ -201,4 +201,3 @@ Language specific libraries for interfacing with the Galaxy API are available.
 * The Galaxy code itself contains [JavaScript bindings](https://bitbucket.org/galaxy/galaxy-central/src/tip/static/scripts/mvc).
 * [BioBlend](https://github.com/afgane/bioblend) contains a set of Python bindings developed by Galaxy developer [Enis Afgan](/src/people/enis-afgan/index.md).
 * [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings developed by Galaxy community member [John Chilton](/src/people/john-chilton/index.md) and largely modeled after [blend](https://github.com/afgane/blend).
-

@@ -76,4 +76,3 @@ Notes from the BoF:
 We will use the [University of Iowa's Blackboard system](/src/community/galaxy-admins/meetups/2013-11-20/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
-

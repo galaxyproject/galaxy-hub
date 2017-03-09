@@ -132,5 +132,3 @@ Tools contributed to the Galaxy Project Tool Shed in [November and December 2016
    * [ngchm_dependencies](https://toolshed.g2.bx.psu.edu/view/insilico-bob/ngchm_dependencies):  Visualization directories needed for ngchm to display Heatmap in Galaxy. Visualization directories needed for ngchm to display Heatmap in Galaxy.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
    * [package_blast_plus_2_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_5_0): initial version. NCBI BLAST+ 2.5.0 (binaries only). This Tool Shed package is intended to be used as a dependency of the Galaxy wrappers for NCBI BLAST+ and any other tools which call the BLAST+ binaries internally.    Note that for compatibility with BioConda, internally this is now called "blast" rather than "blast+" as in the older Galaxy BLAST+ packages.
-
-

@@ -9,6 +9,3 @@ We have an [opening for a Bioinformatics Analyst](https://jobs.virginia.edu/appl
 
 [Stephen Turner](http://www.stephenturner.us/)<br />
 Director
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-02-24</div>
-

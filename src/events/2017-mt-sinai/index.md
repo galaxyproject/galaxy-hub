@@ -11,4 +11,4 @@ gtn: y
 speaker: Anton Nekrutenko, Andrew Sharp
 ---
 
-The Galaxy workshop will will introduce audience ro genomic data analyses. 
+The Galaxy workshop will will introduce audience ro genomic data analyses.

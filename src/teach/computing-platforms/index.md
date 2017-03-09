@@ -184,4 +184,4 @@ Users running MacOS or Linux can install Galaxy directly on their laptops. This 
   </tr>
 </table>
 
-A *virtual machine image* can be created that workshop participants can download and run on their laptops using a virtual machine image player such as [VirtualBox](http://virtualbox.org). In this case, you can pre-install any needed tools and datasets. The students will still be running analysis on their laptops, and therefore nothing too CPU- or memory-intensive can be run. 
+A *virtual machine image* can be created that workshop participants can download and run on their laptops using a virtual machine image player such as [VirtualBox](http://virtualbox.org). In this case, you can pre-install any needed tools and datasets. The students will still be running analysis on their laptops, and therefore nothing too CPU- or memory-intensive can be run.

@@ -189,4 +189,4 @@ Test components are defined as functional test definitions, files required for t
 
 ## Reviewing, rating and approving tool shed repositories
 
-[http://wiki.galaxyproject.org/ReviewingToolShedRepositories](http://wiki.galaxyproject.org/ReviewingToolShedRepositories) - this document discusses the goals for reviewing tool shed repositories, their specific contents, and the various components and features involved in their installation into local Galaxy instances and their use within them. 
+[http://wiki.galaxyproject.org/ReviewingToolShedRepositories](http://wiki.galaxyproject.org/ReviewingToolShedRepositories) - this document discusses the goals for reviewing tool shed repositories, their specific contents, and the various components and features involved in their installation into local Galaxy instances and their use within them.

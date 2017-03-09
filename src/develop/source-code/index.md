@@ -88,5 +88,3 @@ And receive updates
   ```#! highlight sh
   $ git pull
   ```
-
-

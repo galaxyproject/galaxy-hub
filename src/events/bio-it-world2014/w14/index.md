@@ -936,4 +936,3 @@ ubuntu@bioit:~/galaxy-dist$ vim tool_data_table_conf.xml
 ubuntu@bioit:~/galaxy-dist$ sh run.sh
   ...
 ```
-

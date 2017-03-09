@@ -28,4 +28,3 @@ However there doesn't appear to be much documentation about the report tool on t
 
 * [blog entry](http://galacticengineer.blogspot.co.uk/2015/06/exposing-galaxy-reports-via-nginx-in.html)
 * [Galactic Engineer Blog](http://galacticengineer.blogspot.co.uk/)
-

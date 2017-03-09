@@ -152,4 +152,3 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 ## Questions?
 
 Send them to [Dave Clements](/src/people/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
-

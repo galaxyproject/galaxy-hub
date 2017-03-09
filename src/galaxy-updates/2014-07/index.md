@@ -417,4 +417,3 @@ In no particular order:
 * [Galaxy Wikipedia page, in Hebrew](http://bit.ly/1x31aLK)!  Many thanks to מרים (Miriam) for creating it.
 * After 8+ years & 8100+ posts the [Galaxy-User mailing has retired](http://bit.ly/1rU2oIX) & passed the user support torch to Galaxy Biostar
 * The Galaxy Project's public server at http://usegalaxy.org has reached 50,000 registered users! **Thank you for using Galaxy. **
-

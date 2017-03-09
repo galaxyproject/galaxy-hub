@@ -42,4 +42,3 @@ The "best practice" for including image files within the repository is to place 
 .. image:: https://<some valid url>/<some image file name>
 .. image:: /<some directory name within ~repository root/static/images>/<some image file name>
 ```
-

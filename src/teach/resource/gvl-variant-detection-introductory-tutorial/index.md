@@ -37,4 +37,3 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Variation Detection Introductory tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
-

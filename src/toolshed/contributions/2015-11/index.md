@@ -174,4 +174,3 @@ Tools contributed to the Galaxy Project Tool Shed in October and November 2015.
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
   * [prokka](https://toolshed.g2.bx.psu.edu/view/crs4/prokka): Support Prokka 1.11. Upgrade dependencies to package_barrnap_0_7, package_blast_plus_2_2_31, package_hmmer_3_1b2, package_tbl2asn_24_3.
-

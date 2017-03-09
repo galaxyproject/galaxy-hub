@@ -112,4 +112,3 @@ All of these inbound rules are necessary for proper functioning of CloudMan and 
 1. Go to the [AWS Management Console for EC2](https://console.aws.amazon.com/ec2/home) and click **Launch Instance**
 
 2. Select the **Classic Wizard** in the popup window.
-

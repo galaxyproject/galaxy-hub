@@ -19,6 +19,3 @@ The [inaugural edition](/src/galaxy-updates/2012-02/index.md) of *[Galaxy Update
 If you have anything you would like to see in the March *Galaxy Update*, please let me know.
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-31</div>
-

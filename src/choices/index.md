@@ -37,4 +37,4 @@ Your choices depends upon your needs.  Here are the options depending on what yo
 | Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| No network transfer of data |  No  |  Yes  |  No  |  Yes  |  No  | 
+| No network transfer of data |  No  |  Yes  |  No  |  Yes  |  No  |

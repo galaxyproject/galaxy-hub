@@ -49,4 +49,3 @@ This currently requires creating a volume from the AWS Console and mounting via 
 * From **Upload option**, select **Upload files from filesystem paths**.
 * In **Paths to upload**, enter the path(s) (`/mnt/workshopData/...`) to files or directories that you would like to import.
 * Click **Upload to library**.
-

@@ -348,4 +348,3 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 * Several items relating to Galaxy have been approved for ISMB / ECCB 2013.  Will post as soon as there is a schedule.
 * [Documentation for dynamic job destinations](http://wiki.galaxyproject.org/Admin/Config/Jobs)
 * [Cloud-Based Image Analysis and Processing Toolbox](http://cloudimaging.blogspot.com/2013/03/imaging-workflows-in-galaxy.html?spref=tw)
-

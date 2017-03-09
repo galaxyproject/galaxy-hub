@@ -15,6 +15,3 @@ a unified API in a high-level language (python) that wraps the functionality of 
 Documentation is [available at ReadTheDocs](http://bioblend.readthedocs.org/).  BioBlend can be installed with [PyPI](https://pypi.python.org/pypi), and the source code is at [GitHub](https://github.com/afgane/bioblend).
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-02</div>
-

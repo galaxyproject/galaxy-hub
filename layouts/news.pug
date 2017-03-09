@@ -4,9 +4,11 @@ block content
     section.section-content
         if toc
             div.col-md-9
-                    h1 #{ title }
-                    p.small #{helpers.moment(date).format("MMMM Do YYYY")}
-                    div !{ contents }
+                h1 #{ title }
+                if tease
+                    p: em #{tease}
+                p.small #{helpers.moment(date).format("MMMM Do YYYY")}
+                div !{ contents }
             div.col-md-3
                 div.affix#sidebar
                     +renderToc(toc)
@@ -14,5 +16,7 @@ block content
             div.col-md-12
                 section.section-content
                     h1 #{ title }
+                    if tease
+                        p: em #{tease}
                     p.small #{helpers.moment(date).format("MMMM Do YYYY")}
                     div !{ contents }

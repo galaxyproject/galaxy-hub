@@ -37,6 +37,3 @@ Tools:
 We hope you all will enjoy the outcome of this Codefest and hope to see you at our next Codefest, stay tuned.
 
 [Your IUC](/src/iuc/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-29</div>
-

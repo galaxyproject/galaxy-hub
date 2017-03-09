@@ -44,4 +44,3 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [RNAseq Differential Gene Expression Advanced tutorial](https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
-

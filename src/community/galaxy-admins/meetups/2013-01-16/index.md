@@ -30,4 +30,3 @@ The January 2013 [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013
     <td> <a href='http://bitly.com/prodcloudman-slides'>Presentation @ Prezi.com</a><br /> <a href='http://bitly.com/prodcloudman'>Related Technical Documentation @ ReadTheDocs.org</a><br /> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262341808106_1358350669920'>Meetup Recording</a><br /> </td>
   </tr>
 </table>
-

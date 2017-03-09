@@ -18,9 +18,3 @@ If you are a biologist or bioinformatician performing or enabling high-throughpu
 [GCC2013 Organizing Committee](/src/events/gcc2013/organizers/index.md)
 
 PS: And please help [get the word out](/src/events/gcc2013/promotion/index.md)!
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-06-04</div>
-
-
-
-

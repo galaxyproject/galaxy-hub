@@ -12,6 +12,3 @@ If you teach with Galaxy, then please consider adding [your organization](/src/t
 Thanks,
 
 The [Galaxy Training Network (GTN)](/src/teach/trainers/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-16</div>
-

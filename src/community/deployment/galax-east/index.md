@@ -108,4 +108,3 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 * [GalaxEast poster](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/src/events/eccb2014/index.md)
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
 * [GalaxEast entry](/src/public-galaxy-servers/index.md#galaxeast) in [Public Galaxy Servers list](/src/public-galaxy-servers/index.md)
-

@@ -79,4 +79,3 @@ We use very small *c elegans* datasets.  This allows us to host many students in
 ## Contact
 
 [Ben Busby](mailto:ben DOT busby AT gmail DOT com)
-

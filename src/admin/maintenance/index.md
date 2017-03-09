@@ -24,4 +24,3 @@ Many admins update to each new release, though update frequency largely depends 
   * some of us prefer something like `vimdiff`
 1. (when prompted) Run tool migration scripts (e.g. `sh ./scripts/migrate_tools/0011_tools.sh install_dependencies`).
 1. Notify your user group and share the release notes.
-

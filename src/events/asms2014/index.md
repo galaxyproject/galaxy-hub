@@ -100,4 +100,4 @@ Scheduled speakers:
 | 3. |  **Using installed tools and workflows within GalaxyP**  |  *Pratik Jagtap, Center for Mass Spectrometry and Proteomics, St. Paul, MN*  |   | 
 | 4. |  **Using Galaxy to generate customized databases for MS-based proteogenomics**  |  *Gloria Sheynkman, University of Wisconsin, Madison, WI*  |   | 
 | 5. |  **Using Galaxy for advanced multi-omic applications**  |  *Jorrit Boekel , Karolinska Institute/Science for Life Laboratory, Sweden*  |   | 
-| 6. |  **Concluding questions/discussion**  |   |   | 
+| 6. |  **Concluding questions/discussion**  |   |   |

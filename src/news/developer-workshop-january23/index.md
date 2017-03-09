@@ -18,5 +18,3 @@ This workshop also includes contributed talks from participants.  If you have a 
 *15 December is the preferred registration deadline.* However, later registration will certainly be accepted dependent on availability.  The registration fee is $200 USD (payment terms provided upon acceptance).
 
 [Dave Clements](/src/people/dave-clements/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-11-11</div>
-

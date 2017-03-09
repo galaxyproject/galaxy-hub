@@ -28,6 +28,3 @@ For complete details on implemented changes, please see the [source code commits
 Enjoy and please let us know what you think,
 
 [Enis](/src/people/enis-afgan/index.md) & [Dannon](/src/people/dannon-baker/index.md) & [The Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-08-08</div>
-

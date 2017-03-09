@@ -13,4 +13,3 @@ There are numerous other [Public Galaxy Servers](/src/public-galaxy-servers/inde
 
 * [Microarray Analysis Tools](http://user.list.galaxyproject.org/microarray-analysis-tools-td4133127.html)
 * [How to set up a microarray analysis workflow in Galaxy](http://user.list.galaxyproject.org/how-to-set-up-a-microarray-analysis-workflow-in-Galaxy-td4133425.html)
-

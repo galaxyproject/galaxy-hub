@@ -36,6 +36,3 @@ The [next meeting](/src/community/galaxy-admins/meetups/2012-11-14/index.md) of 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-05</div>
-

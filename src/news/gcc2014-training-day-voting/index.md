@@ -28,6 +28,3 @@ As always, please let us know if you have any questions.
 Thanks,
 
 The [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-07</div>
-

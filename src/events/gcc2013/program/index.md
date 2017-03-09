@@ -25,4 +25,3 @@ The [GCC2013 Training Day](/src/events/gcc2013/program/TrainingDay/index.md) wil
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 
 <div class='center'><br /><span style="font-size: larger;">**Day 0: Learning Galaxy**</span><br /></div>
-

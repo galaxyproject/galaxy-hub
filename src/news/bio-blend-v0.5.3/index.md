@@ -36,6 +36,3 @@ This is mostly an incremental bug fix release with the following summary of chan
 Enjoy and please let us know what you think,
 
 [Enis](/src/people/enis-afgan/index.md) & [John](/src/people/john-chilton/index.md) & [Nicola Soranzo](/src/people/nicola-soranzo/index.md) & Simone Leo & [Eric Rasche](/src/people/eric-rasche/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-19</div>
-
