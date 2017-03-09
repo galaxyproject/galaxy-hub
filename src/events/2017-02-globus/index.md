@@ -8,6 +8,7 @@ location: NGS Data Analysis and Informatics, San Diego, California, United State
 image: ngs2017.jpg
 location_url: http://www.mnmconferences.com/
 external_url: http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference
+speaker: Ravi Madduri
 ---
 
 Next - generation sequencing (NGS) technology revolution has brought an influx of large-scale data, where storage and management, processing and integration, validation for quality, has become quite a challenge in biomedical industry. FDA and other regulatory bodies have been working to develop a regulatory framework for NGS applications in various fields, based on validated analytical standards that would ensure that NGS tests produce accurate and reliable results.

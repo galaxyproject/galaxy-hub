@@ -9,6 +9,7 @@ location_url: http://www.kogo.or.kr/index.asp
 image: kogo.jpg
 external_url: http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201
 speaker: Mo Heydarian, Mallory Freeberg
+gtn: y
 ---
 
 A Galaxy workshop for NGS data analysis
