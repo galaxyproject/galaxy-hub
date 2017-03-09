@@ -27,4 +27,4 @@
 
 
 
-Does your course use Galaxy? If so, please send us a message and let us know, we'll list your course on this page!
+Does your course use Galaxy? If so, please send us a message (outreach AT galaxyproject DOT org) and let us know, we'll list your course on this page!
