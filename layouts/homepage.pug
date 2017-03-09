@@ -38,7 +38,15 @@ block content
                     if events_counter < 5 && item.date != undefined && helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
                         - events_counter += 1
                         p
-                            a( href=item.link ) #{item.title}
+                            if item.external_url
+                                a( href=item.external_url ) #{item.title}
+                                if item.contents != ''
+                                    |  [
+                                    a( href=item.link )
+                                        | hub page
+                                    | ]
+                            else
+                                a( href=item.link ) #{item.title}
                             if item.tease
                                 |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
 
