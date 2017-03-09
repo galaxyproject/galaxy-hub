@@ -17,3 +17,8 @@ block content
                                     | #{item.tease}
                                 else
                                     | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,50) + "..."}
+            h2(id="add-news-item") Adding a news item
+            p
+                | To add a news item, create a new folder in 
+                a(href="https://github.com/galaxyproject/galaxy-hub/tree/master/src/news") https://github.com/galaxyproject/galaxy-hub/tree/master/src/news
+                | with an 'index.md' file.  It's probably easiest to copy the format from one of the other existing news items.
