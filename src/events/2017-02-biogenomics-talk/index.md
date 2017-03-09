@@ -7,6 +7,7 @@ continent: NA
 location:  Global Biodiversity Genomics Conference, Washington, D.C., United States
 location_url: http://biogenomics2017.org/
 external_url: http://biogenomics2017.org/
+speaker: James Taylor
 ---
 Additional Resources:
 - [A link to the slides](https://speakerdeck.com/jxtx/bio-genomics-2017)

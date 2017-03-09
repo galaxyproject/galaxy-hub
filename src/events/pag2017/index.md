@@ -7,6 +7,7 @@ continent: NA
 location: San Diego, California
 location_url: http://www.intlpag.org/
 gtn: y
+speaker: See web page
 image: PAG2017.png
 ---
 <div class="center"><a href='http://www.intlpag.org/'><img src="PAG2017.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="130" /></a></div>
@@ -15,7 +16,7 @@ image: PAG2017.png
 
 Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](http://www.intlpag.org/), being held in San Diego, California, United States, January 14-18.  There is something (and often many things) every day of the conference.
 
-<table>
+<table class="table table-striped">
   <tr class="th" >
     <th> Date </th>
     <th> Time </th>
