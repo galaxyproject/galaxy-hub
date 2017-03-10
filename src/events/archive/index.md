@@ -79,7 +79,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
      <th class="th" > December 15-16 </th>
      <td> <em><a href="https://github.com/galaxyproteomics/tools-galaxyp/issues">Metaproteomics CodeFest</a></em> </td>
-     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <em><a href="https://gitter.im/GalaxyProteomics/Lobby#">Online</a></em> </td>
+     <td> <img src="/src/images/icons/GL.png" alt="Online" align="right" /> <em><a href="https://gitter.im/GalaxyProteomics/Lobby#">Online</a></em> </td>
      <td> <a href="https://github.com/PratikDJagtap">Pratik Jagtap</a>, <a href="/src/people/bjoern-gruening/index.md">Björn Grüning</a> </td>
      <td> </td>
   </tr>
@@ -93,21 +93,21 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
      <th class="th" > December 15 </th>
      <td> <em><a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
-     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md">GalaxyAdmins Meetup, <em>Online</em></a> </td>
+     <td> <img src="/src/images/icons/GL.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md">GalaxyAdmins Meetup, <em>Online</em></a> </td>
      <td> <a href="http://galaxy.uni-freiburg.de"> Björn Grüning, Bérénice Batut</a>, <a href="/src/people/dannon-baker/">Dannon Baker</a> </td>
      <td> </td>
   </tr>   
   <tr>
      <th class="th" > December 8 </th>
      <td> <em>The Community Hub Contribution Convergence (CHCC)</em> </td>
-     <td> <img src="/src/images/icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
+     <td> <img src="/src/images/icons/GL.png" alt="Around the world" align="right" /> <em>Online</em> </td>
      <td> <a href="/src/people/dannon-baker/index.md">Dannon Baker</a>, <a href="/src/people/dave-clements/index.md">Dave Clements</a> </td>
      <td> </td>
   </tr>
   <tr>
      <th class="th" > December 6 </th>
      <td> <em><a href="https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org">Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities</a> </em> </td>
-     <td> <img src="/src/images/icons/World40.png" alt="Around the world" align="right" /> Grenoble, France, and <em>Online</em> </td>
+     <td> <img src="/src/images/icons/GL.png" alt="Around the world" align="right" /> Grenoble, France, and <em>Online</em> </td>
      <td> <a href="https://www.lri.fr/~cohen/">Sarah Cohen Boulakia</a>, <a href="http://yvanlebras.fr/">Yvan Le Bras</a> and Bruno Chopard </td>
      <td> </td>
   </tr>
@@ -174,7 +174,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> November 16 </th>
     <td> <em><a href='http://bioexcel.eu/webinar-8-2016-11-16-workflows-galaxy-globus/'>Large-scale analytical workflows on the cloud using Galaxy and Globus</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the world' align='right' /> <em><a href="https://attendee.gotowebinar.com/register/5808939110698431491">Online</a></em>, Scotland, United Kingdom </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the world' align='right' /> <em><a href="https://attendee.gotowebinar.com/register/5808939110698431491">Online</a></em>, Scotland, United Kingdom </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
     <td> </td>
   </tr>
@@ -230,7 +230,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> November 2-3 </th>
     <td> <em><a href='https://github.com/bioconda/bioconda-recipes/issues/2277'>Bioconda Contribution Fest</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
@@ -317,7 +317,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> October 6-7 </th>
     <td> <strong><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'>Galaxy Training Contribution Fest</a></strong> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
@@ -341,14 +341,14 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> September 28 </th>
     <td> <em><a href='https://www.elixir-europe.org/documents/elixir-webinar-biomaj2galaxy-sept-2016'>BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' />  <a href='https://www.elixir-europe.org/documents/elixir-webinar-biomaj2galaxy-sept-2016'>ELIXIR Webinar</a> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' />  <a href='https://www.elixir-europe.org/documents/elixir-webinar-biomaj2galaxy-sept-2016'>ELIXIR Webinar</a> </td>
     <td> Olivier Sallou </td>
     <td> <a href='https://www.elixir-europe.org/documents/elixir-webinar-biomaj2galaxy-sept-2016'>Slides & video</a> </td>
   </tr>
   <tr>
     <th> September 27-28 </th>
     <td> <strong><a href='https://github.com/galaxyproteomics/tools-galaxyp/issues/57#issuecomment-245934625'>Galaxy-P Conda hackathon</a></strong> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproteomics/tools-galaxyp/issues/57'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproteomics/tools-galaxyp/issues/57'>Online</a></em> </td>
     <td> <a href='https://github.com/PratikDJagtap'>Pratik Jagtap</a> </td>
     <td> </td>
   </tr>
@@ -421,7 +421,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> August 18 </th>
     <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>GalaxyAdmins Web Meetup</a> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Online</a></em> </td>
     <td> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Slides</a> </td>
   </tr>
@@ -567,14 +567,14 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> June 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
     <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/people/eric-rasche/index.md'>Eric Rasche</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 15 </th>
     <td> <em><a href='https://www.elixir-europe.org/events/elixir-webinar-biomaj2galaxy'>BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> ELIXIR Webinar, <em><a href='https://meetings.webex.com/collabs/#/meetings/detail?uuid=M28BZM7CBGU5CFVWCT2PHUFHID-LRGH&rnd=14582.582958'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> ELIXIR Webinar, <em><a href='https://meetings.webex.com/collabs/#/meetings/detail?uuid=M28BZM7CBGU5CFVWCT2PHUFHID-LRGH&rnd=14582.582958'>Online</a></em> </td>
     <td> Olivier Sallou, Anthony Bretaudeau </td>
     <td> </td>
   </tr>
@@ -748,7 +748,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> April 21 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></em> and <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Tool Development Developments</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Online</a></em> </td>
     <td> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a>, <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
     <td> </td>
   </tr>
@@ -790,7 +790,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> April 4 </th>
     <td> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>IUC Hackathon - Conda dependencies</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='https://github.com/galaxyproject/tools-iuc/issues/700'>Online</a></em> </td>
     <td> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a>, <a href='/src/people/remi-marenco/index.md'>Rémi Marenco</a>, <a href='/src/people/nitesh-turaga/index.md'>Nitesh Turaga</a> </td>
     <td> </td>
   </tr>
@@ -836,7 +836,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='IUC'>/src/iuc/index.md</a> </td>
     <td> <a href='https://cesgo.genouest.org/groups/guggo/wiki/RADseqHackathon'>Writeup, Slides</a> </td>
   </tr>
@@ -875,7 +875,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> February 18 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
     <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>,<a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
     <td> </td>
   </tr>
@@ -1052,7 +1052,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='IUC'>/src/iuc/index.md</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
     <td> </td>
   </tr>
@@ -1110,7 +1110,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> November 12 </th>
     <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>BioTeam & UC Davis Webinar: Introduction to Genomics Data Analysis with Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>Webinar</a> - Open to all </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>Webinar</a> - Open to all </td>
     <td> <a href="mailto:tom@bioteam.net">Email</a></td>
     <td> </td>
   </tr>
@@ -1220,7 +1220,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> October 15 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>Video, Slides</a> </td>
   </tr>
@@ -1336,7 +1336,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> September 17-18 </th>
     <td> <strong><a href='/src/news/tools-collections-hack/index.md'>Remote Hackathon for Tools and Dataset Collections</a></strong> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
     <td> </td>
   </tr>
@@ -1389,7 +1389,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> August 20 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='https://github.com/apetkau'>Aaron Petkau</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>Slides, Video</a> </td>
   </tr>
@@ -1559,7 +1559,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> June 18 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>Slides</a> </td>
   </tr>
