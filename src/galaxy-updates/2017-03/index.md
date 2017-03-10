@@ -121,39 +121,39 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> March 13 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module17.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Sandra Dérozier, Véronique Martin </td>
   </tr>
   <tr>
     <th> March 14 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module8bis.pdf'>Analyse primaire de données issues de
 séquenceurs nouvelle génération sous Galaxy </a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Valentin Loux, Véronique Martin  </td>
   </tr>
   <tr>
     <th> March 15 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module18bis.pdf'>Traitement bioinformatique des
 donnéesRNA-Seq sous Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Valentin Loux, Cyprien Guérin  </td>
   </tr>
   <tr>
     <th> March 16-17 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module16.pdf'>Analyse statistique de données RNA-Seq - Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy)</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Christelle Hennequet-Antier, Julie Aubert </td>
   </tr>
   <tr>
     <th> March 25-28 </th>
     <td> <em><a href='http://conf.abrf.org/the-galaxy-platform'>The Galaxy platform for metaproteomic characterization of microbiomes</a></em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
+    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
   </tr>
   <tr>
     <th> March 27-30 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module20.pdf'>Analyse de données métagénomiques 16S</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Mahendra Mariadassou, Anne-Laure Abraham, Olivier Rué, Sandra Dérozier </td>
   </tr>
   <tr>
@@ -162,13 +162,13 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> April 7 </th>
     <td> <em><a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'>Traitement de données de séquences par Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Rennes, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Rennes, France </td>
     <td> <a href='https://www.biogenouest.org/RNA-seq%2526microarray'>Contact</a> </td>
   </tr>
   <tr>
     <th> April 19-21 </th>
     <td> <em><a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>NGS & Cancer : Analyses DNA-Seq</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Paris, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Paris, France </td>
     <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
@@ -177,19 +177,19 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> May 15-16 </th>
     <td> <em><a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2">Data Analysis Workshop</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow</a>, Glasgow, United Kingdom </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> <a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow</a>, Glasgow, United Kingdom </td>
     <td> Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a></em> <div(class="indent red"> Applications due Feb 18 </div></td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a><a href='http://www.france-bioinformatique.fr/fr/users/caron-christophe'>Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Bioinformatics for Cancer Genomics</a></em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Toronto, Canada </td>
+    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> Toronto, Canada </td>
     <td> <a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Instructors</a> </td>
   </tr>
   <tr>
@@ -198,13 +198,13 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> June 4-8 </th>
     <td> <em>Metaproteomics For The Future: Democratizing functional analysis of microbiomes via community-based informatics development and dissemination</em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
+    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
     <td> Pratik Jagtap </td>
   </tr>
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Montpellier, France </td>
+    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Montpellier, France </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
