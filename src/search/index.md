@@ -2,4 +2,4 @@
 title: Searching the Galaxy
 layout: search.pug
 ---
-Here are the results of the pan-galactic search you requested.
+Welcome to the comprehensive Galaxy search interface.  Results will appear below.
