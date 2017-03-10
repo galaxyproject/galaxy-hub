@@ -12,11 +12,11 @@ block content
                         tr
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                             td: a( href=item.link ) #{item.title}
-                            td
+                            td: p.small
                                 if item.tease
                                     | #{item.tease}
                                 else
-                                    | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,50) + "..."}
+                                    | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
             h2(id="add-news-item") Adding a news item
             p
                 | To add a news item, create a new folder in 
