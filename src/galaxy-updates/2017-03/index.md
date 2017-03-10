@@ -354,6 +354,7 @@ Some highlights from the past two months:
 
 The Galaxy is expanding! Please help it grow.
 
+* [Postdoctoral Research Fellowship in Bioinformatics](https://www.jobbnorge.no/ledige-stillinger/stilling/134291/postdoctoral-research-fellowship-in-bioinformatics), University of Oslo
 * [BioInformaticien](https://talent.limagrain.com/Pages/Offre/detailoffre.aspx?idOffre=1407&idOrigine=2673&LCID=1036), HM.Clause, Business Unit du Groupe Limagrain,  Maine et Loire, La Bohalle, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
