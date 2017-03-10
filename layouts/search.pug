@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+    section.section-content
+        div.col-md-12
+            section.section-content
+                h1 #{ title }
+                div.blurb #{ contents }
+                script.
+                    var cx = '007594916903876912968:w0nrox8rzzy';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                | <gcse:searchresults-only></gcse:searchresults-only>
