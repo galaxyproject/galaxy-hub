@@ -95,18 +95,16 @@ body
 
                 ul.nav.navbar-nav.navbar-right
                     li
-                        a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
-                            span.fa.fa-lg.fa-github
-                            span &nbsp; Edit on GitHub
-
-                ul.nav.navbar-nav.navbar-right
-                    li
                         form(class='navbar-form' method='get' action='/search/')
                             div.input-group
                                 input(class='form-control' name='q' placeholder='Search Galaxy')
                                 span.input-group-btn
                                     button(class="btn btn-secondary" type="submit")
                                         span.fa.fa-search
+                    li
+                        a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
+                            span.fa.fa-lg.fa-github
+                            span &nbsp; Edit on GitHub
     div.container#maincontainer: div.row
         block content
             div !{ contents }
