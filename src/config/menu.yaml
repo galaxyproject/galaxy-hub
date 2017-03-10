@@ -51,12 +51,24 @@
 - Community:
   title: Community
   links:
+      - News:
+        title: Galactic News
+        link: news
+      - Events:
+        title: Galactic Events
+        link: events
+      - Publications:
+        title: Galactic Publications
+        link: cite-u-like
       - Community:
         title: Community
         link: community
       - gcc2017:
         title: GCC 2017
         link: https://gcc2017.sciencesconf.org
+      - Project Stats:
+        title: Stats
+        link: galaxy-project/statistics
 - Deploy:
   title: Deploy & Develop
   links:
@@ -75,18 +87,3 @@
       - Codebase:
         title: Development
         link: develop
-- Pulse:
-  title: Pulse
-  links:
-      - News:
-        title: Galactic News
-        link: news
-      - Events:
-        title: Galactic Events
-        link: events
-      - Publications:
-        title: Galactic Publications
-        link: cite-u-like
-      - Project Stats:
-        title: Stats
-        link: galaxy-project/statistics
