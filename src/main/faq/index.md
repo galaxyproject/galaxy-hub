@@ -30,7 +30,7 @@ See
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
+<a href='/src/search/index.md'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Search all Galaxy resources" width="120" /></a>
 
-[Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
+[Search all Galaxy resources](/src/search/index.md)
 </div>

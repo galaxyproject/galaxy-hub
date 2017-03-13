@@ -924,7 +924,7 @@ The following are great places to start when trouble shooting or planning an exp
 
 ### Galaxy
 
-1. A [custom Google search](https://galaxyproject.org/search/) is available to search all things Galaxy
+1. A [custom Google search](/src/search/index.md) is available to search all things Galaxy
   including: this hub, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
 2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) site is a Q&A site designed on Istvan Albert's original
