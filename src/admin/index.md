@@ -68,5 +68,4 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Galaxy-Admins discussion group](/src/community/galaxy-admins/index.md)
 * [Switching to Github from Bitbucket](/src/admin/switching-to-github-from-bitbucket/index.md)
 
-
-[Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
+[Search all Galaxy resources](https://galaxyproject.org/search/)

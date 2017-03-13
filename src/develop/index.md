@@ -52,4 +52,4 @@ The generated documentation will be in `doc/build/html/` and can be viewed in a 
 * [Data Sources](/src/admin/internals/data-sources/index.md) - How to work with data sources.
 * [Galaxy Ops](/src/admin/internals/galaxy-ops/index.md) - Galaxy Operations Help Information.
 
-Search all Galaxy [admin and development resources](http://galaxyproject.org/search/getgalaxy).
+Search all Galaxy [resources](https://galaxyproject.org/search/).
