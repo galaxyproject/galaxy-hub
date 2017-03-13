@@ -13,12 +13,13 @@ Galaxy now has several Google Custom Search engines that make it much easier to 
 
 | Name & URL |  Description  | 
 | ---------- | ------------ | 
-| **[Galaxy Web Search](/src/search/index.md)** |  Searches Galaxy [Main](/src/main/index.md), the [mailing list archives](/MailingLists#searching), the [Galaxy Hub](/src/index.md), Galaxy's source code, and the [/ToolShed](/src/toolshed).  The results are returned in a unified list, and are also grouped into several categories.  | 
-| **Galaxy Mailing List Search** |  Searches all the Galaxy [mailing list archives](/MailingLists#searching).   | 
-| **UseGalaxy Search** |  Search for information about *using* Galaxy.  Searches Galaxy [Main](/src/main/index.md) ([UseGalaxy.org](http://usegalaxy.org)), [this wiki](/src/learn/index.md) (excluding the [Admin](/src/admin/index.md) pages), and the [Galaxy-User and Galaxy-Announce mailing list archives](/MailingLists#searching).  | 
-| **GetGalaxy Search** |  Search for information about installing, customizing, and developing Galaxy.  Searches the Galaxy source code, the [Tool Shed](http://toolshed.g2.bx.psu.edu), [this wiki](/src/admin/index.md) (excluding the [/Learn](/src/learn/index.md) pages), and the [Galaxy-Dev and Galaxy-Announce mailing list archives](src/mailing-lists#searching).  | 
+| **[Galaxy Web Search](/src/search/index.md)** |  Searches Galaxy [Main](/src/main/index.md), the [mailing list archives](/src/mailing-lists/index.md), the [Galaxy Hub](/src/index.md), Galaxy's source code, and the [/ToolShed](/src/toolshed/index.md).  The results are returned in a unified list, and are also grouped into several categories.  | 
+| **Galaxy Mailing List Search** |  Searches all the Galaxy [mailing list archives](/src/mailing-lists/index.md).   | 
+| **UseGalaxy Search** |  Search for information about *using* Galaxy.  Searches Galaxy [Main](/src/main/index.md) ([UseGalaxy.org](http://usegalaxy.org)), [this wiki](/src/learn/index.md) (excluding the [Admin](/src/admin/index.md) pages), and the [Galaxy-User and Galaxy-Announce mailing list archives](/src/mailing-lists/index.md).  | 
+| **GetGalaxy Search** |  Search for information about installing, customizing, and developing Galaxy.  Searches the Galaxy source code, the [Tool Shed](http://toolshed.g2.bx.psu.edu), [this wiki](/src/admin/index.md) (excluding the [/Learn](/src/learn/index.md) pages), and the [Galaxy-Dev and Galaxy-Announce mailing list archives](/src/mailing-lists/index.md).  | 
 
-We strongly encourage you to give these try.  Please send feedback and suggestions to [outreach AT galaxyproject DOT org](Galaxy Outreach).
+We strongly encourage you to give these try.  Please send feedback and suggestions to [mailto:
+outreach AT galaxyproject DOT org](Galaxy Outreach).
 
 Thanks,
 

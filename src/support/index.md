@@ -10,7 +10,7 @@ End-User Support Resource Short List
 * [Learn](/src/learn/index.md)
 * [Teach](/src/teach/index.md)
 * [Vimeo](http://vimeo.com/galaxyproject)
-* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/src/support/index.md#custom_searches) through all project content
+* [GalaxyProject.org](http://galaxyproject.org) &rarr; Execute a [Custom search](/src/search/index.md) through all project content
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 
 Known issues:
@@ -44,18 +44,9 @@ analysis workflows plus presentations and tutorials for administrations, these
 are a great resource for both the scientific and technical Galaxy communities.
 
 
-## Custom Searches
+## Galaxy Search
 
-Looking for something specific? Try *[Galaxy Custom
-Searches](/src/news/custom-galaxy-search/index.md)* with a keyword or phrase.
-The *[MailingList](http://galaxyproject.org/search/mailinglists)* search finds
-all related prior Q & A from the [Galaxy
-Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing
-lists](/src/mailing-lists/index.md). The
-*[UseGalaxy](http://galaxyproject.org/search/usegalaxy)* search finds all
-online resources for information about using Galaxy.  This includes this wiki,
-tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org),
-and [Mailing Lists](/src/mailing-lists/index.md).
+Looking for something specific? Try using *[Galaxy Search](/src/search/index.md)* with a keyword or phrase.
 
 ## Biostar
 
@@ -89,7 +80,7 @@ Galaxy also has an IRC channel in which you can participate.  You can connect to
 
 Alternatively you can use the Gitter [channel](https://gitter.im/galaxyproject/Lobby) which is mirrored to the IRC.
 
-The #galaxyproject IRC channel has an [online public archive](https://botbot.me/freenode/galaxyproject/) (starting 2014/10/22) and these archives are included in the Galaxy [search engines](http://galaxyproject.org/search/web).
+The #galaxyproject IRC channel has an [online public archive](https://botbot.me/freenode/galaxyproject/) (starting 2014/10/22) and these archives are included in the Galaxy [search engine](/src/search/index.md).
 
 
 ## Galaxy Issue Board
@@ -723,7 +714,7 @@ A double check against the tool help and documentation is the first step. If the
 
         *   If the tool form help, publications & supplemental/tutorials including those from the community under [Learn](/learn), the [Transcriptome FAQ](https://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq), or tool author's web sites do not address the question or problem, then contacting the tool authors is often the next step for detailed algorithm questions: [mailto:tophat.cufflinks@gmail.com](mailto:tophat.cufflinks@gmail.com).
 
-        *   You can also try searching the [Galaxy Mailing Lists and Galaxy Biostar](http://galaxyproject.org/search/mailinglists) for prior Q&A, then ask a question at [galaxy Biostar](/src/support#Starting_a_scientific.2C_data.2C_or_tool_usage_thread) if the problem is new or you just need Galaxy-specific help.
+        *   You can also try the "Discussion" tab of [Galaxy Search](/src/search/index.md) to find prior Q&A, then ask a question at [galaxy Biostar](/src/support#Starting_a_scientific.2C_data.2C_or_tool_usage_thread) if the problem is new or you just need Galaxy-specific help.
 
         *   If you ended up with a failed dataset (red), it is sometimes better to submit that instead as a [tool error (bug report)](/src/support#Error_from_tools) unless the question is general.
 
@@ -801,16 +792,14 @@ To launch your own **[Cloudman Galaxy](https://wiki.galaxyproject.org/Cloud)** s
 
 # Community Q & A
 
-
-
 <div class="right">
-[![Search all](/src/images/logos?action=AttachFile&do=get&target=GalaxyMailingListSearch.png "Search all")](/mailing-lists#Searching)</div>
+![](/src/images/logos/GalaxyWebSearch.png)
+</div>
 
 
+Still need help not covered by the tool help, the [Learning Hub](/src/learn/index.md), a [Screencast](/src/learn/screencasts/index.md), a [Tutorial](https://usegalaxy.org/u/james/p/exercises), or an [FAQ](/src/learn/faq/index.md)?
 
-Still need help not covered by the tool help, the [Learning Hub](/learn), a [Screencast](/learn/Screencasts), a [Tutorial](https://usegalaxy.org/u/james/p/exercises), or an [FAQ](/learn/faq)?
-
-*   Start with a search in our [mailing list archives](/mailing-lists#Searching) to see if this question has come up before.
+*   Start with a [Galaxy Search query](/src/search/index.md) to see if this question has come up before.
 
 *   If you have a development topic to discuss, your data/tool situation has not come up before, and/or troubleshooting has failed (including at least one re-run, as explained in [Error from tools](/src/support#Error_from_tools) above), post to a list or [Galaxy Biostar](/src/support#Biostar)
 
