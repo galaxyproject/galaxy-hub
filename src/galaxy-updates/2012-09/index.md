@@ -242,7 +242,7 @@ The workshop is part of the SyBIT Tech Day series.
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](http://france.list.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into [Galaxy search](/src/search/index.md).
 
 ## Tool Shed Contributions
 
