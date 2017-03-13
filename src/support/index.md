@@ -793,7 +793,7 @@ To launch your own **[Cloudman Galaxy](https://wiki.galaxyproject.org/Cloud)** s
 # Community Q & A
 
 <div class="right">
-![](/src/images/logos/GalaxyWebSearch.png)
+<a href="/src/search/index.md"><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="170"></a>
 </div>
 
 

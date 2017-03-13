@@ -28,7 +28,7 @@ Many tools include also include "most common" default parameter settings that ca
 <br />
 
 <div class="right">
-<a href='/src/search/index.md'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a>
+<a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Web Search" width="170" /></a>
 </div>
 
 Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/index.md) and we hope these resources help to further *everyone's* research goals.

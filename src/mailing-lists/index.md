@@ -84,7 +84,7 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
 </table>
 
 
-<div class='right'><a href='/src/search/index.md'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Search all" width="150" /></a></div>
+<div class='right'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all" width="150" /></a></div>
 
 # Searching
 
