@@ -11,5 +11,5 @@ title: Frequently asked questions (FAQs) about Galaxy
 <div class='center'>
 <a href='http://galaxyproject.org/search/'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Search all Galaxy resources" width="120" /></a>
 
-[Search all Galaxy resources](http://galaxyproject.org/search/getgalaxy)
+[Search all Galaxy resources](https://galaxyproject.org/search/)
 </div>
