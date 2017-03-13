@@ -22,7 +22,7 @@ Starting sometime after community discussion ends (and assuming that discussion 
   1. The IRC channel (and the wiki) will be updated to clearly state that the IRC channel is publicly logged.
   1. Announcements of the change will be posted to Biostar and the mailing lists.
   1. IRC postings from the announcement onward will start showing up in the public log.
-  1. The IRC channel log will be included in the [Galaxy search engines](http://galaxyproject.org/search/).
+  1. The IRC channel log will be included in the [Galaxy search engine](/src/search/index.md).
 
 **Why now?**
 
