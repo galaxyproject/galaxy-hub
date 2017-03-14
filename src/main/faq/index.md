@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: Frequently Asked Questions about [Main](/src/main/index.md)
+title: Frequently Asked Questions about Main
 ---
 {{> FAQs/LinkBox }}
 
