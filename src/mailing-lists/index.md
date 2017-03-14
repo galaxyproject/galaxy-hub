@@ -14,7 +14,7 @@ Mailing lists play a vital role in the Galaxy community:
 
 # BioStar
 
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/images/logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a></div>
+<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/src/images/logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a></div>
 
 **For questions about *using Galaxy* please use the [Galaxy Biostar forum](https://biostar.usegalaxy.org/).  See the [Biostar hub page](/src/support/biostar/index.md) for more on how to use [Galaxy Biostar](https://biostar.usegalaxy.org/) and its integration with [usegalaxy.org](/src/main/index.md).**
 
@@ -42,37 +42,37 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
   <tr>
     <th> <a href='http://dev.list.galaxyproject.org/'>galaxy-dev</a> </th>
     <td> Local installation, configuration, and tool integration help, or to propose new features. <em><a href='/src/galaxy-project/statistics#mailing-lists'>High volume</a>.</em> </td>
-    <td> <a href="mailto:galaxy-dev AT lists DOT galaxyproject DOT org">galaxy-dev AT lists DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-dev AT lists DOT galaxyproject DOT org </td>
     <td> <a href='http://dev.list.galaxyproject.org/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-dev/'>Mailman</a> </td>
   </tr>
   <tr>
     <th> <a href='http://proteomics.list.galaxyproject.org/'>galaxy-proteomics</a> </th>
     <td> Proteomics related questions, announcements, and anything else of interest to the Galaxy proteomics community.<em> <a href='/src/galaxy-project/statistics#mailing-lists'>Low volume</a>.</em> </td>
-    <td> <a href="mailto:galaxy-proteomics AT lists DOT galaxyproject DOT org">galaxy-proteomics AT lists DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-proteomics AT lists DOT galaxyproject DOT org </td>
     <td> <a href='http://proteomics.list.galaxyproject.org/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-proteomics/'>Mailman</a> </td>
   </tr>
   <tr>
     <th> <a href='http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/'>galaxy-training</a> </th>
     <td> If you have a question about <a href='/src/teach'>teaching bioinformatics with Galaxy, or about teaching Galaxy itself</a>, then this is a good place to find an answer. This is also the official mailing list of the <a href='/src/teach/gtn'>Galaxy Training Network (GTN)</a>. </td>
-    <td> <a href="mailto:galaxy-training AT lists DOT galaxyproject DOT org">galaxy-training AT lists DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-training AT lists DOT galaxyproject DOT org </td>
     <td> <a href='http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-training/'>Mailman</a> </td>
   </tr>
   <tr>
     <th> <a href='http://france.list.galaxyproject.org/'>galaxy-france</a> </th>
     <td> Cette liste est destinée à l'information (et aux discussions) de la Communauté francaise Galaxy. (This list is for announcements to (and discussion within) the French Galaxy Community. Most list content is in French.)  <em><a href='/src/galaxy-project/statistics#mailing-lists'>Faible volume / Low volume</a>.</em> </td>
-    <td> <a href="mailto:galaxy-france AT lists DOT galaxyproject DOT org">galaxy-france AT lists DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-france AT lists DOT galaxyproject DOT org </td>
     <td> <a href='http://france.list.galaxyproject.org/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-france/'>Mailman</a> </td>
   </tr>
   <tr>
     <th> <a href='https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk'>galaxy-uk</a> </th>
     <td> Mailing list for the <a href='http://galaxy-community.org.uk/'>Galaxy-UK community</a>.  This is <em>not</em> a support list. </td>
-    <td> <a href="mailto:galaxy-uk AT groups DOT galaxyproject DOT org">galaxy-uk AT groups DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-uk AT groups DOT galaxyproject DOT org </td>
     <td> <a href='https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk'>Google Groups</a></td>
   </tr>
   <tr>
   <th> <a href='https://lists.galaxyproject.org/listinfo/galaxy-public-servers'>galaxy-public-servers</a> </th>
   <td> Llist is for system administrators, software developers, and principal investigators that are responsible for Galaxy servers that are publicly accessible. By "publicly accessible" we mean that anyone on the web can create an account, upload data, and performa analysis on the server. It does not mean that there are no limits on the server.  The list is used mainly to communicate security concerns a day or two before public announcements.  *Anyone associated with any server that is listed on the [Public Galaxy Servers](https://galaxyproject.org/public-galaxy-servers/) or [Galaxy Services]https://galaxyproject.org/galaxy-services/) pages is eligible and encouraged to be on this list.*  </td>
-    <td> <a href="mailto:galaxy-public-servers AT lists DOT galaxyproject DOT org">galaxy-public-servers AT lists DOT galaxyproject DOT org</a> </td>
+    <td> galaxy-public-servers AT lists DOT galaxyproject DOT org </td>
     <td> <a href='https://lists.galaxyproject.org/pipermail/galaxy-public-servers/'>Mailman</a> (protected)</td>
   </tr>
   <tr>
