@@ -20,6 +20,12 @@ head( lang="en" )
     link( rel="stylesheet" type="text/css" href="/css/styles.css" )
     link( rel="stylesheet" type="text/css" href="/css/font-awesome.css" )
 
+    if highlight
+        link( rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css" )
+        script( src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js" )
+        script( type='text/javascript' ).
+            hljs.initHighlightingOnLoad();
+
     script( src="/js/jquery.min.js" )
     script( src="/js/bootstrap.min.js" )
     script( type='text/javascript' ).
