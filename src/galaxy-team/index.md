@@ -120,8 +120,8 @@ Fabio Cumbo<br />
 </div>
 <div class='col-md-3'>
 <img src="/src/galaxy-team/marius.jpeg" alt="Marius van den Beek" height="150" /><br />
-[Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)<br /> <br /> <br />
-[IBPS UPMC](http://www.ibps.upmc.fr/)
+[Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)<br />
+[IBPS UPMC](http://www.ibps.upmc.fr/) <br /> <br />
 </div>
 </div>
 
