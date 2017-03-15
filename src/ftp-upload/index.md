@@ -1,7 +1,3 @@
- 
-
-<<Include(Learn/LinkBox)>>
-
 # File Upload via FTP
 
 _Please note the updated server to use for FTP: **usegalaxy.org**. This replaces the prior server "main.g2.bx.psu" in all materials below._
