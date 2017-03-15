@@ -17,14 +17,18 @@ Tool Shed allows Galaxy administrators to install thousands of freely available 
 
 ## Installing Tools into Galaxy
 
-The main goal of the Tool Shed is to allow populating any Galaxy with tools. For this you don't even need to know much about the Tool Shed. A basic installation of a tool into Galaxy is described in the [Add Tool Tutorial](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). For more in-depth explanation of how to install and manage tools please see the
+The main goal of the Tool Shed is to allow populating any Galaxy with tools. For this you don't need to know much about the Tool Shed. A basic installation of a tool into Galaxy is described in the [Add Tool Tutorial](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). For more in-depth explanation of how to install and manage tools please see the
 [Tool Shed Repositories in a Galaxy Environment](/src/installing-repositories/index.md).
 
 ## Publishing to the Tool Shed
 
 There are dozens of Galaxy public servers ([see the list](/src/public-galaxy-servers/index.md)) and hundreds of private ones. If you would like to share a Galaxy utility that you've developed with the Galaxy community, we encourage you to publish it in the Tool Shed.
 
-We assume you have your tool developed, tested, and already working in your local Galaxy instance. If you don't, please see the corresponding tutorial to [create Galaxy tools](/src/admin/tools/add-tool-tutorial/index.md).
+We assume you have your tool developed, tested, and already working in your local Galaxy instance. If you don't, please see the following resources:
+
+* Create Galaxy tools [tutorial](/src/admin/tools/add-tool-tutorial/index.md)
+* Create histogram tool [tutorial](/src/admin/tools/adding-tools/index.md)
+* Writing tools with [Planemo](http://planemo.readthedocs.io/en/latest/writing_standalone.html)
 
 To publish a tool you need to take the following steps:
 * Create an account in the Tool Shed.
