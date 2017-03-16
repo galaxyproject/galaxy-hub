@@ -12,7 +12,7 @@ If that doesn't work (perhaps the content you are looking for has not been
 migrated yet), the old wiki is still temporarily accessible at
 [moin.galaxyproject.org](https://moin.galaxyproject.org).
 
-If you could please report this on [the galaxy hub issue
+If you could please report this on [the Galaxy Community Hub issue
 tracker](https://github.com/galaxyproject/galaxy-hub/issues), it'd be helpful,
 especially if you need content that is only on the old wiki and has not been
 migrated yet.
