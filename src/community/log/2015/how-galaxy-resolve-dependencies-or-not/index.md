@@ -27,4 +27,3 @@ See the [full blog entry](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolv
 * [Blog entry](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/)
 * [All of Peter's blog entries at SANBI](http://pvh.wp.sanbi.ac.za/author/pvh/)
 * [SANBI](http://www.sanbi.ac.za/)
-

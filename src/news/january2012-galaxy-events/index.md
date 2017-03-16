@@ -56,6 +56,3 @@ There are Galaxy-related events on (at least) 3 continents next month:
 And I apologize in advance if I messed up the translation of the [event at DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ)!
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-08</div>
-

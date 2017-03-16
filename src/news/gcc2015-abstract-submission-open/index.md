@@ -15,6 +15,3 @@ date: "2015-02-25"
 [GCC2015](http://gcc2015.tsl.ac.uk/) is hosted by [The Sainsbury Lab](http://www.tsl.ac.uk/), in [Norwich, United Kingdom](http://www.visitnorwich.co.uk/), in July 2015. GCC has been expanded this year and will now [offer two hackathons, two Training Days, and a two day conference](http://gcc2015.tsl.ac.uk/programme/).  The [Training Days](http://gcc2015.tsl.ac.uk/training-day/) cover 15 different topics spanning the full Galactic spectrum of topics.  *[Take a look](http://gcc2015.tsl.ac.uk/programme/).*
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-02-25</div>
-

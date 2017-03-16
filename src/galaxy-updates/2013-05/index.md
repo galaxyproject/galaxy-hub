@@ -239,4 +239,3 @@ The most recent official distribution was on [April 1, 2013](/src/archive/dev-ne
 * [Environmental Metabolomics Collaboration](/src/news/environmental-metabolomics-collaboration/index.md)
 * [Galaxy will be well-represented at ASMS](/src/news/galaxy-at-asms2013/index.md)
 * [Ruby script for managing bundling of Galaxy tool repositories](http://bit.ly/YlMSW1) by Ira Cooke
-

@@ -76,4 +76,3 @@ The space of cloud computing is littered with technical terms, here we try to ex
 * *Object*: a file available within a bucket
 * *Volume*: a storage device like a USB flash drive that can be attached to a running instance
 * *Snapshot*: a point-in-time snapshot of a volume that can be shared with other cloud users. A snapshot must be converted into a volume before it can be used.
-

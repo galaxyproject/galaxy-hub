@@ -16,6 +16,3 @@ Thank you all for your patience while we worked on this.  I apologize for and re
 Thanks,
 
 -- DaveClements
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-04-26</div>
-

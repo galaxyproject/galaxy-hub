@@ -16,4 +16,3 @@ See the [URGI/Galaxy page](https://forge.puppetlabs.com/urgi/galaxy) at Puppet F
 ## Links
 
 * [Puppet Forge Page](https://forge.puppetlabs.com/urgi/galaxy)
-

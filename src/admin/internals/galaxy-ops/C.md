@@ -75,4 +75,3 @@ galaxyOps provides a rapid and reliable tool to process the functional data at a
 ### Example:
 
 galaxyOps hg17 knowGenes.bed exons.bed -subtract -bed=introns.bed Find subregions in file knowGenes.bed, that don't overlap with file exons.bed, and put the results in bed format file introns.bed
-

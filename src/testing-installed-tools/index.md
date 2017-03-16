@@ -29,4 +29,3 @@ To run functional tests for tools included in repositories that are manually ins
 ```
 export GALAXY_TOOL_DEPENDENCY_DIR=tool_dependencies;  sh run_tests.sh -installed
 ```
-

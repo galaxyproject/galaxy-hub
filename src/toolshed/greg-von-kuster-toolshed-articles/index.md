@@ -15,4 +15,3 @@ Here are the Tool Shed articles by Greg Von Kuster in order of publication. [Fol
 9. [The Galaxy Tool Shed: Revisiting Best Practices for Populating a Repository](http://gregvonkuster.org/galaxy-toolshed-revisiting-best-practices-populating-repository), March 3, 2014
 10. [The Galaxy Tool Shed: Building Tools with Dependencies in the Same Repository](http://gregvonkuster.org/galaxy-toolshed-building-tools-dependencies-repository), March 8, 2014
 11. [The Galaxy Tool Shed: Building Tools with Dependencies in Separate Repositories](http://gregvonkuster.org/galaxy-toolshed-building-tools-dependencies-separate-repositories), March 14, 2014
-

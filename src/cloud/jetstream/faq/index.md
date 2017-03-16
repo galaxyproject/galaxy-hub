@@ -34,4 +34,4 @@ Log files are available for problem diagnosis. Each launched server will have th
 | */var/log/nginx/* |  This directory contains log files for the NGINX web server.  | 
 | */var/log/supervisor/* |  This directory contains log files for Supervisor process, which is used to manage Galaxy and several other Galaxy-related processes running on this server.  | 
 | */var/log/postgresql/* |  This directory contains log files for the PostgreSQL database process used by Galaxy.  | 
-| */var/log/proftpd/* |  This directory contains log files for the ProFTPd process used to upload data to Galaxy via FPT.  | 
+| */var/log/proftpd/* |  This directory contains log files for the ProFTPd process used to upload data to Galaxy via FPT.  |

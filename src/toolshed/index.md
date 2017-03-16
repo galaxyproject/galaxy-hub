@@ -27,7 +27,11 @@ The main goal of the ToolShed is to allow populating any Galaxy with utilities s
 
 There are over 80 [public Galaxy servers](/src/public-galaxy-servers/index.md) and hundreds of private ones. If you would like to share a Galaxy utility that you've developed with the Galaxy community, we encourage you to publish it in the ToolShed.
 
-We assume you have your tool developed, tested, and already working in your local Galaxy instance. If you don't, please see the corresponding tutorial to [create Galaxy tools](/src/admin/tools/add-tool-tutorial/index.md).
+We assume you have your tool developed, tested, and already working in your local Galaxy instance. If you don't, please see the following resources:
+
+* Create Galaxy tools [tutorial](/src/admin/tools/add-tool-tutorial/index.md)
+* Create histogram tool [tutorial](/src/admin/tools/adding-tools/index.md)
+* Writing tools with [Planemo](http://planemo.readthedocs.io/en/latest/writing_standalone.html)
 
 To publish a tool you need to take the following steps:
 * Create an account in the ToolShed.

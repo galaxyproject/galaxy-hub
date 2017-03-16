@@ -15,6 +15,3 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 Topic nomination closes 11 January.
 
 [GCC2013 Organizing Committee](/src/events/gcc2013/organizers/index.md#organizing-committee)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-12-03</div>
-

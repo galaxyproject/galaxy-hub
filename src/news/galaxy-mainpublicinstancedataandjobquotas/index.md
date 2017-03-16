@@ -28,6 +28,3 @@ date: "2011-10-25"
 
 <br />
 For those users with current account disk usage over the quota limit, we will be implementing a step-down program over the next several weeks. Details for that program will be emailed to those users directly.
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-10-25 </div>
-

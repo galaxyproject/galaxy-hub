@@ -44,5 +44,3 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 ***Thanks for using Galaxy!***
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-05-18</div>
-

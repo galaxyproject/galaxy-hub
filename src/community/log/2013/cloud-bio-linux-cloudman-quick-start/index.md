@@ -16,4 +16,3 @@ The details of how to do this are [documented at GitHub](https://github.com/chap
 ## Links
 
 * [GitHub page](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md)
-

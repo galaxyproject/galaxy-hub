@@ -132,4 +132,3 @@ To start with, a set of initial long term goals was defined. These goals may be 
     1. pairing scientists and software engineers on new development so that both can leverage their area(s) of expertise
 1. **Community**
     Creating a place where end-users can discuss how they are using Galaxy with other data scientists outside of Q&A forums (or maybe within existing forums, but in a different space - Biostars has a forum area that may be appropriate, or a google group could be a better choice - nothing has been decided, yet)
-

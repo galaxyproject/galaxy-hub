@@ -31,4 +31,3 @@ A [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session was held
 
 * Talked about problems that a lot of us have:
   :: A common problem across the group was how to tune tools for the cluster.  IE set the number of threads, min/max heap
-

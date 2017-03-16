@@ -27,4 +27,3 @@ Georges-Köhler-Allee 106 <br />
     <td> <a href='https://github.com/bgruening'>GitHub page</a> </td>
   </tr>
 </table>
-

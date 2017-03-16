@@ -85,4 +85,3 @@ Once all the required eggs have been built and copied to the proper egg director
 ## Running Windows Tools
 
 If instead of running a Windows based Galaxy instance, you wish to just run a handful of tools on a Windows server but host Galaxy on a traditional \*nix-based system, the [Pulsar](Admin%2FConfig%2FPulsar) can used to accomplish this.
-

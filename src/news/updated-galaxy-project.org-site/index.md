@@ -18,6 +18,3 @@ Please continue to use these wherever appropriate.
 Thanks,
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-24</div>
-

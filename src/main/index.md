@@ -34,7 +34,7 @@ Most jobs initially run on Galaxy cluster. They can be automatically "resubmitte
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
 
-Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/main/index.md#quotas) section below for more on concurrency limits.
+Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/main/#user-data-and-job-quotas) section below for more on concurrency limits.
 
 ### Choosing computational resources
 

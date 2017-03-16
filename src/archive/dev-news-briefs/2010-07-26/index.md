@@ -53,4 +53,3 @@ hg pull -u -r f94f1f2fa4be
 
 * Fix bug so that fasta identifier produced by 'extract genomic dna' tool for GFF files is consistent with GFF coordinates.
 * Fix bug so that users not logged in can view accessible/published visualizations.
-

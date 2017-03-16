@@ -143,4 +143,3 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
 * *From [dcorreia](https://toolshed.g2.bx.psu.edu/view/dcorreia):*
   * [package_newick_utilities_1_6](https://toolshed.g2.bx.psu.edu/view/dcorreia/package_newick_utilities_1_6): Imported from capsule None Newick utilities version 1.6 (without extra) dependency package
   * [package_noisy_1_5_12](https://toolshed.g2.bx.psu.edu/view/dcorreia/package_noisy_1_5_12): Imported from capsule None Noisy version 1.5.12 dependency package
-

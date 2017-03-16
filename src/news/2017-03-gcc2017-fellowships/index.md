@@ -34,5 +34,3 @@ We'll review applications in two rounds, one starting on March 20, and the other
 We hope to see you at [GCC2017](https://gcc2017.sciencesconf.org/)!
 
 Galaxy Community Fund Board
-
-

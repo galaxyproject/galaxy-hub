@@ -20,6 +20,3 @@ The *[Galaxy Community Log Board](/src/community/logs/index.md)* is a place to s
 The [Galaxy Community Log Board](/src/community/logs/index.md) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *[Galaxy Deployments Catalog](/src/community/deployments/index.md)*, which describes different Galaxy installations.  Both the [Log Board](/src/community/logs/index.md) and the [Deployments Catalog](/src/community/deployments/index.md) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF.
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-06</div>
-

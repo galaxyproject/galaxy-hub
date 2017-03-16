@@ -33,4 +33,3 @@ These screencasts are supplementatl material for the  [2007 Galaxy Paper in Curr
 * [Screencast 6 - Using Galaxy to create UCSC Genome Browser custom track](http://screencast.g2.bx.psu.edu/customTrack.mov) (4 min 10 sec)
 * [Screencast 7 - Tools for editing genomic data](http://screencast.g2.bx.psu.edu/GR2007/GR_Screencast_4.mov) (4 min 55 sec)
 * [Screencast 8 - Filtering, sorting and comparing datasets with Galaxy](http://screencast.g2.bx.psu.edu/GR2007/GR_Screencast_5.mov) (5 min 19 sec)
-

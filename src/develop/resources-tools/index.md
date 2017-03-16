@@ -23,4 +23,3 @@
   * [Bjoern's Galaxy Tools](https://github.com/bgruening/galaxytools) - A collection of tools developed and maintained by [BjoernGruening](/src/people/bjoern-gruening/index.md). ([Contributing to galaxytools](https://github.com/bgruening/galaxytools/blob/master/CONTRIBUTING.md))
   * [galaxy_blast](https://github.com/peterjc/galaxy_blast) - A best practice set of tools wrapping NCBI BLAST+ and related applications maintained by Peter Cock. ([Contributing to the BLAST+ tools](https://github.com/peterjc/galaxy_blast/blob/master/CONTRIBUTING.md))
   * [GalaxyP Tools](https://github.com/galaxyproteomics/tools-galaxyp) - A collection of tools for proteomics maintained by the GalaxyP team.
-

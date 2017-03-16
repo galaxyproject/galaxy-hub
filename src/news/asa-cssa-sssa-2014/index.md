@@ -36,6 +36,3 @@ Price: $35 ($45 after Sept. 17)
 Please let us know if you have any questions, and we hope to see you there.
 
 Dave C
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-03 </div>
-

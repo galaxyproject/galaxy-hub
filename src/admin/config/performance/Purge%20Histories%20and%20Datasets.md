@@ -126,4 +126,3 @@ In this example, the -4 flag tells the cleanup\_dataset.py script to execute the
 There are times when it is not desirable to wait for the containing history or library/library folder to be deleted before purging a dataset instance and marking the base dataset as deleted. The -6 flag is used for this purpose. This script will find all Dataset records which are not deleted but are associated with a <<nwwl(DatasetAssociation)>> that is marked as deleted and updated according to the specified cut-off. If all associations are marked as deleted, the Dataset is marked as deleted and each <<nwwl(DatasetAssociation)>> is purged. The purge\_datasets.sh script will need to be run afterwards to remove the base datasets from disk.
 
 An example command is: python cleanup\_datasets.py config/galaxy.ini -d 60 -6 -r
-

@@ -44,4 +44,3 @@ Tools contributed to the Galaxy Project Tool Shed in [September 2016](/src/galax
 
 * *From [abretaud](https://toolshed.g2.bx.psu.edu/view/abretaud):*
   * [package_lordec_0_6](https://toolshed.g2.bx.psu.edu/view/abretaud/package_lordec_0_6):  Lordec 0.6 package
-

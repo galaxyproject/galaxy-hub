@@ -37,6 +37,3 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
   [Early registration deadline](http://genetics.cmc-uct.co.za/?page_id=7) for the [South African Genetics & Bioinformatics Society Joint Conference](http://genetics.cmc-uct.co.za/)
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-28</div>
-

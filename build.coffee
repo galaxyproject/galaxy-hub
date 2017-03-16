@@ -25,9 +25,9 @@ link_to_orig_path = (files, metalsmith, done) ->
 apply_collection_defaults = (files, metalsmith, done) ->
     # Simple way to apply domain templates en masse
     for k, v of files
-        if 'events' in v.collection
+        if 'events' in v.collection and not files[k].layout
             files[k].layout = 'events.pug'
-        if 'news' in v.collection
+        if 'news' in v.collection and not files[k].layout
             files[k].layout = 'news.pug'
             #if files[k].date == undefined
             #    files[k].date = '2010-01-01'

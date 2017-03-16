@@ -26,4 +26,3 @@ From the [VM's home page](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immu
 
 * [Home page](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy)
 * [ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS](http://bit.ly/1ry0gqS), by Michael J. Moorhouse, David van Zessen, Hanna IJspeert, Saskia Hiltemann, Sebastian Horsman, Peter J. van der Spek, Mirjam van der Burg, Andrew P. Stubbs, *BMC Immunology*, Vol. 15, No. 1. (13 December 2014), 59, doi:10.1186/s12865-014-0059-7
-

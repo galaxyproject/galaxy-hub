@@ -1,9 +1,6 @@
-{{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
-{{> Admin/Tools/LinkBox }}
-# Tutorial for Creating a Histogram Tool
+# Creating a histogram tool tutorial.
 
-See also the general [ tutorial for adding custom tools](/src/admin/tools/Add Tool Tutorial/index.md).
+See also the general [ tutorial for adding custom tools](/src/admin/tools/add-tool-tutorial/index.md).
 
 ## Introduction
 

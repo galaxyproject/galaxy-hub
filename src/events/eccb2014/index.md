@@ -71,4 +71,3 @@ There were several sessions and posters featuring Galaxy at the [13th European C
     <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a>, Alban Lermine, Christophe Blanchet </td>
   </tr>
 </table>
-

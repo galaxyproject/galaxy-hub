@@ -6,5 +6,5 @@ tease: Online...
 continent: GL
 location: Online
 external_url: https://github.com/galaxyproject/tools-iuc/issues/1078
-speaker: Bérénice, Björn, and Saskia
+contact: Bérénice, Björn, and Saskia
 ---

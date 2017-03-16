@@ -22,6 +22,3 @@ The second session contained three types of presentations: (i) [general galaxy a
 The third session contained three lightning talks about global feedback from different communities ([David Benaben from CBIB](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2013GalaxyDayCBIB.pdf), [Claire Toffano-Nioche from IGM](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2013GalaxyDayWorkflow.pdf), and Franck Giacomoni from INRA representing a [metabolomics research community](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2013GalaxyDayMetabolic.pdf)).
 
 [Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan) and [Jean-François Dufayard](https://sites.google.com/site/jeanfrancoisdufayard/)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-17</div>
-

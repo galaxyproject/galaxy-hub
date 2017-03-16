@@ -35,4 +35,3 @@ Clicking the "Add a new address" button displays the following page.
 When the address is saved, it is included on the Manage User Information page.
 
 ![](Admin/Config/User Information/user_information_with_address.png)
-

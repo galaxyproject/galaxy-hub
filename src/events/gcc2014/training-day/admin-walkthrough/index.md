@@ -956,4 +956,3 @@ galaxy@gcc2014:~/galaxy-dist$ vi tool_data_table_conf.xml
 galaxy@gcc2014:~/galaxy-dist$ sh run.sh
   ...
 ```
-

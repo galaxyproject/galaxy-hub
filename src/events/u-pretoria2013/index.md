@@ -52,4 +52,3 @@ Computer scientists wishing to attend the course on Friday also need to follow t
 </div>
 
 *This agenda is tentative and should be considered a work in progress.*
-

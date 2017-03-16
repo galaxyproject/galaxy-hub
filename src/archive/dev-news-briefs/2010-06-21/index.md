@@ -86,4 +86,3 @@ hg pull -u -r 4cdf4cca0f31
 * When filtering on the state of jobs in the advanced search box in the jobs reports, you now have an "all" option.
 * Jobs displayed in the jobs reports are now all color coded by job state.
 * Rewrite the jobs report queries to no longer join the job table to the galaxy_session and galaxy_user tables, just join galaxy_user since we now have a direct relation to that table.
-

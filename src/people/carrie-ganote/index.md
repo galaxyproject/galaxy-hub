@@ -55,4 +55,3 @@ I love to hike; my favorite places are Griffy Lake, the Deam Wilderness, and the
 * [Griffy](https://en.wikipedia.org/wiki/Griffy_Lake) is close to Bloomington and has nice trails and a tranquil lake to watch birds or fish.
 * [Deam Wilderness](https://en.wikipedia.org/wiki/Charles_C._Deam_Wilderness_Area) is about 45 minutes from campus, but a beautiful place for those who like to be lost in forests.
 * [Beanblossom Bottoms](https://sycamorelandtrust.org/beanblossom-bottoms) is a neat experience for seeing how much of Indiana existed before settlement - swamp and wetlands. The boardwalk keeps you up out of the water, but at this time of year you want some bug repellent.
-

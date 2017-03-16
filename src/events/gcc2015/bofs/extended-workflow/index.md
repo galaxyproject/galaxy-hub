@@ -42,4 +42,3 @@ If you are interested, please add your name below and/or send an email to [Your 
 ## Questions?
 
 Send them to [Karen Reddy](mailto:kreddy4@jhmi.edu).
-

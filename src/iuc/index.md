@@ -40,4 +40,3 @@ Member | Joined | GitHub
 Inactive members
 - **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
 - **Edward Kirton**, U.S. Department of Energy | founding member |
-

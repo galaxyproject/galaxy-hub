@@ -25,6 +25,3 @@ The [video lectures for the Galaxy material is on Vimeo](http://vimeo.com/album/
 ## Links
 
 Links to any useful datasets or information.
-
-
-

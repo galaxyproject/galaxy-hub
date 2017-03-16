@@ -36,6 +36,3 @@ Galaxy Admin Training 2016 is hosted by the [University of Utah Center for High 
 We hope to see you in Salt Lake!
 
 The [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-08-23</div>
-

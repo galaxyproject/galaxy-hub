@@ -24,4 +24,3 @@ We hope to see you this summer in Montpellier!
 Au revoir,
 
 The GCC2017 Organising Committee
-

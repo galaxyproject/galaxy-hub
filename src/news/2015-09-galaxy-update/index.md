@@ -21,6 +21,3 @@ The **[September Galactic News](/src/galaxy-updates/2015-09/index.md)** is hot o
 * [Three security advisories](/src/galaxy-updates/2015-09/index.md#security-advisories), [Recent Releases](/src/galaxy-updates/2015-09/index.md#other-releases), and [ToolShed Contributions](/src/galaxy-updates/2015-09/index.md#toolshed-contributions)
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-01 </div>
-

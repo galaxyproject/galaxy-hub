@@ -257,4 +257,3 @@ In no particular order:
 
 * *From [george-weingart](https://toolshed.g2.bx.psu.edu/view/george-weingart):*
   * [lefse](https://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): Fixed bug due to numerical approximation after normalization affecting root-level clades (e.g. &#34;Bacteria&#34; or &#34;Archaea&#34;)
-

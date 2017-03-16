@@ -18,7 +18,7 @@ Thanks to everyone who took the Galaxy Questionnaires in October.  We received 1
 
 <div class='right'><a href='https://botbot.me/freenode/galaxyproject/'><img src="/src/images/logos/BotBotLogo.png" alt="Galaxy IRC Channel archive at BotBot" width="60" /></a></div>
 
-The #galaxyproject IRC channel now has an [online public archive](https://botbot.me/freenode/galaxyproject/).  These archives have also been included in the [Galaxy search engines](http://galaxyproject.org/search/web).  The archive started on October 22, 2014.
+The #galaxyproject IRC channel now has an [online public archive](https://botbot.me/freenode/galaxyproject/).  These archives have also been included in the [Galaxy search engine](/src/search/index.md).  The archive started on October 22, 2014.
 
 This was [proposed](/src/news/irc-public-log-proposal/index.md) and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).
 
@@ -456,4 +456,3 @@ In no particular order:
 * [Björn Grüning's](/src/people/bjoern-gruening/index.md) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories. 
 * An IPython notebook demonstrating an [interactive cummeRbund analysis embedded in Galaxy](http://nbviewer.ipython.org/github/jmchilton/ipython_notebooks/blob/master/cummerbund_galaxy_1.ipynb). 
 * [GUGGO tutorial](http://bit.ly/ZQ7mdu): how to activate Docker functionality in Galaxy; create a Docker image and install Stacks on that image; and integrate a Stacks Galaxy tool using that image.
-

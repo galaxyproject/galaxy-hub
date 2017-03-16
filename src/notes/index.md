@@ -20,6 +20,3 @@ Interested in [learning more](/src/learn/index.md) about **[using Galaxy](http:/
 # Notes
 
 <div class='noteItemList'>
-
- 
-

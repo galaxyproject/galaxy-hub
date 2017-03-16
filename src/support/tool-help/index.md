@@ -23,15 +23,14 @@ Back to [Support](/src/support/index.md)
 Many tools include also include "most common" default parameter settings that can be customized along with "full parameter" choices (for those tools having advanced options available). On all tool forms, look in the upper top right middle pane corner for the [Biostar](https://biostar.usegalaxy.org/) links. Scroll down on the tool form to locate information about expected inputs/outputs, expanded definitions, sample data, example use cases, and graphics.
 <br />
 <br />
-Our [Custom Tools](/src/support/index.md#custom_searches) will locate help across Galaxy's resources, including tutorials for common analysis on [usegalaxy.org](http://usegalaxy.org) (Main) found in [Shared Data](https://usegalaxy.org/page/list_published).
+[Galaxy Search](/src/search/index.md) will locate help across Galaxy's resources, including tutorials for common analysis on [usegalaxy.org](http://usegalaxy.org) (Main) found in [Shared Data](https://usegalaxy.org/page/list_published).
 <br />
 <br />
-<a href='http://galaxyproject.org/search/web'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
-<br />
-<br />
+
+<div class="right">
+<a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Web Search" width="170" /></a>
+</div>
+
 Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/index.md) and we hope these resources help to further *everyone's* research goals.
 <br />
 <br />

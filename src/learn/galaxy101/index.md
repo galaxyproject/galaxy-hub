@@ -361,5 +361,3 @@ From there you can import histories and workflows to make them your own. For exa
 # Next
 
 We will start using Galaxy to process and map NGS data.
-
-

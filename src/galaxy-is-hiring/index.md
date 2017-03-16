@@ -55,4 +55,3 @@ We are recruiting postdoctoral scholars with expertise in Bioinformatics and Com
 * **Vertebrate functional and evolutionary genomics**, particularly through the development of novel machine learning, data mining, and data integration methods incorporating genomic sequence and experimental data.
 * **Cancer genomics**, with a focus on developing tools and pipelines for integrative data analysis to enable personalized medicine.
 * And **numerous areas of biology** including genomic and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.
-

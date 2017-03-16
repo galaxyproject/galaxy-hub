@@ -222,4 +222,3 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
 The Galaxy project started to [use Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
 
 [![](/src/galaxy-project/statistics/TwitterFollowersOverTime.png)](https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=659865406&format=interactive)
-

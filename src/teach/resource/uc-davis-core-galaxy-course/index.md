@@ -77,4 +77,3 @@ The [workshop AMI](/src/teach/resource/uc-davis-core-ami/index.md) also includes
 * [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/)
 * [Amazon Web Services](http://aws.amazon.com/)
 * [2013 UC Davis Galaxy Course Documentation](http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/)
-

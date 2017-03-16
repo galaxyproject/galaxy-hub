@@ -21,7 +21,4 @@ The wiki method requires a wiki login, but gives you control over how the page a
 
 Thanks a bunch, and please let us know if you have any questions.
 
-[Dave Clements](/src/people/dave-clements/index.md) 
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-04</div>
-
+[Dave Clements](/src/people/dave-clements/index.md)

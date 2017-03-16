@@ -37,6 +37,3 @@ If you have any questions, please don’t hesitate to contact us:
 We hope to see you in December!
 
 [The UC Davis Bioinformatics Core Team](http://training.bioinformatics.ucdavis.edu)<br />
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-10-18</div>
-

@@ -33,4 +33,4 @@ Many tool developers in the Galaxy community question the best way to organize t
 
 * [Including functional test for your tools](/src/testing-installed-tools/index.md) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
 
-* [Enabling workflow sharing](/src/toolshed/workflow-sharing/index.md) - this document describes how the tool shed enables sharing Galaxy workflows.
+* [Enabling workflow sharing](/src/toolshed-workflow-sharing/index.md) - this document describes how the tool shed enables sharing Galaxy workflows.

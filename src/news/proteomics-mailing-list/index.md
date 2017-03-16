@@ -17,6 +17,3 @@ Many thanks to Dave C. and the [Galaxy team](/src/galaxy-team/index.md) for sett
 Thanks
 
 Ira Cooke
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-31</div>
-
