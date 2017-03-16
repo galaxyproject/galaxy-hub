@@ -4,7 +4,7 @@
 
 * * *
 
-Before continuing with this section, be sure to read and understand [AddingDatatypes](Admin%2FDatatypes%2FAdding+Datatypes).
+Before continuing with this section, be sure to read and understand [AddingDatatypes](/src/admin/datatypes/adding-datatypes).
 
 Composite datatypes can be used as a more structured way to contain individual history items which are composed of multiple files. The Rgenetics package for Galaxy has been implemented using Composite Datatypes; for real-life examples, examine the configuration files (particularly lib/galaxy/datatypes/genetics.py) included with the distribution.
 
@@ -52,7 +52,7 @@ If a tool is aware of the file names for a datatype, then only input1.extra\_fil
 
 There are cases when it is desireable for the composite filenames to have varying names, but be of a similar form; for an example of this see Rgenetics below.
 
-Before continuing with this section, be sure to read and understand [AddingDatatypes](Admin%2FDatatypes%2FAdding+Datatypes).
+Before continuing with this section, be sure to read and understand [AddingDatatypes](/src/admin/datatypes/adding-datatypes).
 
 Composite datatypes can be used as a more structured way to contain individual history items which are composed of multiple files. The Rgenetics package for Galaxy has been implemented using Composite Datatypes; for real-life examples, examine the configuration files (particularly lib/galaxy/datatypes/genetics.py) included with the distribution.
 
