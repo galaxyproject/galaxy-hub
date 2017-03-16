@@ -18,7 +18,7 @@ as well as resume interrupted transfers. Compression types .gz/.gzip,
 
 Video demonstrating how it works: **[Get Data: Upload
 File](http://vimeo.com/galaxyproject/upload)** also in archive screencast [FTP
-Upload](Screencast%3Aquickie_17_ftp_upload%2Fflow.html)
+Upload](http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html)
 
 If viewing the "Upload File" tool, you'll notice a new field:
 
