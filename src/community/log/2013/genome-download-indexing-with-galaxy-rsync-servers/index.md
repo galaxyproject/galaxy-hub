@@ -27,4 +27,3 @@ This is still a work in progress and doesn't support all genomes.
 ## Links
 
 * [Script](https://github.com/chapmanb/cloudbiolinux/blob/master/cloudbio/biodata/galaxy.py)
-

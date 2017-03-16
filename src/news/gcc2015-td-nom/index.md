@@ -20,6 +20,3 @@ Nominated topics will be published on the [Training Day](http://gcc2015.tsl.ac.u
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-09</div>
-

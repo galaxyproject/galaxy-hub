@@ -107,4 +107,3 @@ In no particular order:
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
-

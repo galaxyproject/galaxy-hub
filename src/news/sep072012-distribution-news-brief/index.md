@@ -29,6 +29,3 @@ upgrade: $ hg pull -u -r e6444e7a1685
 [Jennifer Jackson](/src/people/jennifer-jackson/index.md)
 
 [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-09-07</div>
-

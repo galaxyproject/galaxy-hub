@@ -25,4 +25,3 @@ Administrative Scripting Exercises:
 * [PLACEHOLDER_ATTACHMENT_URL/src/run_as.dataset_upload.py](PLACEHOLDER_ATTACHMENT_URL/src/run_as.dataset_upload.py)]]
 * [PLACEHOLDER_ATTACHMENT_URL/src/scaffold_user.py](PLACEHOLDER_ATTACHMENT_URL/src/scaffold_user.py)]]
 * [PLACEHOLDER_ATTACHMENT_URL/src/tools.yaml](PLACEHOLDER_ATTACHMENT_URL/src/tools.yaml)]]
-

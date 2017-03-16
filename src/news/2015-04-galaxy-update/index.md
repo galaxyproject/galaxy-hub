@@ -33,6 +33,3 @@ In addition, there is news on:
 * And, [other news](/src/galaxy-updates/2015-04/index.md#other-news) as well.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-02 </div>
-

@@ -92,4 +92,3 @@ def exec_after_process(app, inp_data, out_data, param_dict, tool, stdout, stderr
 ```
 
 the content of <tt>stdout</tt> and <tt>stderr</tt> are strings containing the output of the process.
-

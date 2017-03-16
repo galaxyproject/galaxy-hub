@@ -128,5 +128,5 @@ The following alignment tools available in Galaxy enable this:
 
 ## Any other question
 
-<div class='left'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/logos/GetGalaxySearch.png" alt="Google Custom Search for information on deploying, administering and extending Galaxy" width="150" /></a></div>
-The [GetGalaxy Custom Search](http://galaxyproject.org/search/getgalaxy) searches all online Galaxy resources for information about installing, administering, extending and developing Galaxy.  This includes this wiki, the [Mailing Lists](/src/mailing-lists/index.md), [Main](/src/main/index.md), the [Tool Shed](/src/toolshed/index.md), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
+<div class='left'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
+[Galaxy Search](/src/search/index.md) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/src/mailing-lists/index.md), [Main](/src/main/index.md), the [Tool Shed](/src/toolshed/index.md), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).

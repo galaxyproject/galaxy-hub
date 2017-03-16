@@ -44,4 +44,3 @@ In general, our 'Web stack' is:
 We made two major framework decisions: 
 1. use require to ensure that dependencies are available 
 2. use Backbone as class framework
-

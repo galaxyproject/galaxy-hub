@@ -375,4 +375,3 @@ There were many...
 * [cuffmerge](http://bit.ly/Gzzqsc), [cuffcompare](http://bit.ly/17oDXYf), [cuffdiff](http://bit.ly/19V3Eyh), and [cufflinks](http://bit.ly/GzJSj4)
 * [muscle](http://bit.ly/1aJ0fVO): multiple alignment tool 
 * [CLC Assembly Cell (CLCbio)](http://bit.ly/1aTY66l) (under development and looking for comments)
-

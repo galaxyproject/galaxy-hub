@@ -398,4 +398,3 @@ In no particular order:
 * [Galaxy Community UK](http://galaxy-community.org.uk/) launches at Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)
 * [BOSC 2015 will be in Dublin with ISMB/ECCB 2015](http://news.open-bio.org/news/2014/09/bosc-2015-will-be-in-dublin/).  *We should have voted more often!*
 * [Supporting Enhanced Reproducibility for Platforms like Galaxy](https://github.com/Homebrew/homebrew-science/issues/1191), discussion on [GitHub](https://github.com/Homebrew/homebrew-science/issues/1191).
-

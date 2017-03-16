@@ -43,4 +43,3 @@ From "[SymD webserver: a platform for detecting internally symmetric protein str
 * [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
 * [Email support](mailto:taic@mail.nih.gov)
 * [Public Galaxy Server list entry](/src/public-galaxy-servers/index.md#symd)
-

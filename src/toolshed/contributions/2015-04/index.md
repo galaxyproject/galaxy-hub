@@ -77,4 +77,3 @@ In no particular order:
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
   * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Update to KggSeq v0.7_20150118
-

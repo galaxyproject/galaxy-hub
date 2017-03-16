@@ -19,6 +19,3 @@ See the [official announcement](http://www.genomics.cn/en/news/show_news?nid=995
 
 Peter Li<br />
 *[GigaScience](http://www.gigasciencejournal.com/)*
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-22</div>
-

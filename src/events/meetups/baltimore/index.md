@@ -14,4 +14,3 @@ Come meet at one of the Galaxy project hubs - the Department of Biology of Johns
 ### Location of the meetups
 
 * [Undergraduate Teaching Laboratory (UTL) Room 398, Mudd Hall, 3400 North Charles St, Baltimore, MD 21210](http://bit.ly/1xSyrt7)
-

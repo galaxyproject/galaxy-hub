@@ -307,4 +307,3 @@ A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/
 * [galaxy-bootstrap](http://bit.ly/15u71MT) - a simple Java library and download, configure, and seed a Galaxy instance
 * New [Cloud](/src/cloud/index.md) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
 * A new [Teaching with Galaxy](/src/teach/index.md) hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete [Computing Platforms for Teaching](/src/teach/computing-platforms/index.md) page.
-

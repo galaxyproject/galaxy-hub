@@ -168,4 +168,4 @@ Are you seeing one of these messages below? This indicates that you are not logg
 <br />
 ## Example history credits and source
 
-We would like to thank Galaxy community member **kawaji** for the history used in this example, sourced from the Published Page **[Tutorial (Yodosha, 2014)](https://usegalaxy.org/u/kawaji/p/tutorial-yodosha-2014)**.	
+We would like to thank Galaxy community member **kawaji** for the history used in this example, sourced from the Published Page **[Tutorial (Yodosha, 2014)](https://usegalaxy.org/u/kawaji/p/tutorial-yodosha-2014)**.

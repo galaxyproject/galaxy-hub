@@ -37,4 +37,3 @@ The data for this tutorial is from a whole genome sequencing experiment of a mul
 * [De Novo Genome Assembly Tutorial](https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
-

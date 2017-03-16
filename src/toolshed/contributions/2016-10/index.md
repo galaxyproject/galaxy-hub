@@ -48,4 +48,3 @@ Tools contributed to the Galaxy Project Tool Shed in [October 2016](/src/galaxy-
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
   * [sixgill](https://toolshed.g2.bx.psu.edu/view/galaxyp/sixgill): Build Six-frame Genome-Inferred Search Database for LC-MS/MS Sixgill (Six-frame Genome-Inferred Libraries for LC-MS/MS) is a tool for using shotgun metagenomics sequencing reads to construct databases of metapeptides: short protein fragments for database search of LC-MS/MS metaproteomics data.
-

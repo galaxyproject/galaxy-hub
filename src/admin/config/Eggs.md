@@ -95,4 +95,3 @@ Called with only the egg argument, <tt>dist-scramble.py</tt> will build for all 
 The platform argument is ignored for platform-inspecific eggs. An assumption is made that your Galaxy distribution is located at the same place on all of the hosts on which you're building (i.e. via a network filesystem).
 
 Once <tt>dist-scramble.py</tt> finishes, it will output a list of platforms on which it failed to scramble the egg. Successful eggs will be put in a new <tt>dist-eggs</tt> subdirectory of your Galaxy distribution. These eggs can then be copied to your distribution site.
-

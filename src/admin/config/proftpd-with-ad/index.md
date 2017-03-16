@@ -264,4 +264,3 @@ section that looks like this to every VirtualHost that needs to be secured
         TLSRequired                     on
 </IfModule>
 ```
-

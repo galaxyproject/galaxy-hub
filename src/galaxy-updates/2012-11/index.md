@@ -215,4 +215,3 @@ The **[October 5, 2012 distribution](/src/archive/dev-news-briefs/2012-10-05/ind
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
 * American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
 * The **[Tool Shed Wiki](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool_shed)!
-

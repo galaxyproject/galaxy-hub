@@ -137,4 +137,3 @@ Is it possible to have a persistent training server?  Some ideas:
 * Push these best practices to the GTN Best Practices area.
   * [Done](/src/teach/best-practices/index.md)
 * Include a video training directory
-

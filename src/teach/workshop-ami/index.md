@@ -1,30 +1,12 @@
 {{> Teach/LinkBox }}
+**This page describes how to launch the Cloudman instance optimized for workshop settings**
 
-For simplicity use http://usegalaxy.org/cloudlaunch.  Fill out the form, submit, and you'll be given the URL for your cloud instance.Once you're able to access the instance, you'll want to click "More Startup Options" on the initial dialog.  Paste the share string listed below into the "Cluster Share String" field, and submit.  The instance will take a minute or two to configure itself, and you'll be ready to go.
+
+For simplicity use http://usegalaxy.org/cloudlaunch.  From the launch page, provide AWS access and secret keys, provide a cluster name and password, select **"do not set cluster type"** under cluster type, and launch the instance. Once Cloudman has launched sign in with 'ubuntu' as the username and provide the password generated earlier. At the "Initial CloudMan Platform Configuration" page choose additional start-up options and select **cloned cluster**, paste the share string below in the box provided and click "Choose configuration option". The instance will take a minute or two to configure itself, and you'll be ready to go.
 
 Share string:
-**cm-4ffb3fe08bfa7f02b12cd14584b6a438/shared/2013-05-15--20-18**
+**cm-2a09a4f5e6aaf1967e44e41cf3c971ff/shared/2017-03-14--18-54/**
 
-<table>
-  <tr>
-    <td> </td>
-    <td> Has:</td>
-  </tr>
-  <tr>
-    <td> Pages </td>
-    <td> RNA-seq</td>
-  </tr>
-  <tr>
-    <td> Histories </td>
-    <td> RNA-seq, and Galaxy101</td>
-  </tr>
-  <tr>
-    <td> Data Libraries </td>
-    <td> Galaxy101, RNA-seq, and a Genotyping example</td>
-  </tr>
-  <tr>
-    <td> Visualization </td>
-    <td> Exon Repeats Overlap Example</td>
-  </tr>
-</table>
+This shared Cloudman Galaxy is on version 16.07 and was created on 3.14.2017. It contains sample data for chIP-seq and RNA-seq, along with the necessary tools to complete the respective analysis pipelines. There is also HIV1 data for assigning a custom genome, viewing gene positions with Trackster, and RNA-seq data specific to HIV1. The EBS data volume is sized at 500 GB, this can be expanded from the Cloudman page if needed. 
+
 

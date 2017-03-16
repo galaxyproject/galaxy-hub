@@ -25,4 +25,3 @@ Giving a talk to a group that might benefit from attending [Galaxy Admin Trainin
     <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GAT2016Slide16x9.pdf'><img src="/src/events/admin-training2016/publicity/GAT2016Slide16x19Thumb.png" alt="Galaxy Admin Training slide 16x9]]" /></a><br /><a href='PLACEHOLDER_ATTACHMENT_URL/src/GAT2016Slide16x9.pdf'>Slide, 16x9</a> </td>
   </tr>
 </table>
-

@@ -242,7 +242,7 @@ The workshop is part of the SyBIT Tech Day series.
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](http://france.list.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into [Galaxy search](/src/search/index.md).
 
 ## Tool Shed Contributions
 
@@ -269,4 +269,3 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/archive
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
   * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
   * Slides for [all workshops and talks](/src/events/gcc2012/program/index.md) are now available.
-

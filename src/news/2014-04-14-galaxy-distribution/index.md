@@ -51,6 +51,3 @@ date: "2014-04-14"
 ***Thanks for using Galaxy!***
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-14</div>
-

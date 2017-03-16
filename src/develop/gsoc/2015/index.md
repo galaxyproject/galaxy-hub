@@ -45,4 +45,3 @@ Resources
 
 * [GSOC Mentors-only List](http://groups.google.com/group/google-summer-of-code-mentors-list)
 * [GSOC Mentoring Manual](http://en.flossmanuals.net/GSoCMentoring/)
-

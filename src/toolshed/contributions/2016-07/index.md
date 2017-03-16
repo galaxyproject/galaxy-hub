@@ -265,4 +265,3 @@ Tools contributed to the Galaxy Project Tool Shed in [June and July 2016](/src/g
 * *From [ulfschaefer](https://toolshed.g2.bx.psu.edu/view/ulfschaefer):*
   * [package_python_2_7_lxml_3_2_3](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_lxml_3_2_3): lxml 3.2.3 for Python 2.7 This Galaxy Tool shed package installs version 3.2.3 of lxml (http://lxml.de) for use with python 2.7.10.
   * [package_phemost_1_0](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_phemost_1_0): PHE MLST tool dependency definition
-

@@ -118,5 +118,3 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2014_GenomeSpaceLiefeld.pdf'>Slides</a> </td>
   </tr>
 </table>
-
- 

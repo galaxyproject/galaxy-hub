@@ -72,4 +72,3 @@ There are storage quotas.
 * [Sigenae Team](http://www.sigenae.org/)
 * [GenoToul Bioinfo](http://bioinfo.genotoul.fr/)
 * [INRA Toulouse](http://www.toulouse.inra.fr/)
-

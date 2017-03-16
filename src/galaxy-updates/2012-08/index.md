@@ -222,4 +222,3 @@ A new Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-
 ## Other News
 
 * The [first GalaxyCzars conference call](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md) was held in July, and slides and video are now available online.
-

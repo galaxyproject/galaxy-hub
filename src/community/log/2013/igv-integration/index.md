@@ -23,4 +23,3 @@ This [IFB](http://www.renabi.fr/) [wiki page](http://wiki.sb-roscoff.fr/ifb/inde
 ## Links
 
 * [The document](http://wiki.sb-roscoff.fr/ifb/index.php/IGV_Integration)
-

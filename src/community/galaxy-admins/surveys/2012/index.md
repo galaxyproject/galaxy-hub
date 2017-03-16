@@ -555,4 +555,3 @@ The original responses, minus name, institution and email are **[also available]
     <td style=" text-align: right;"> 31 </td>
   </tr>
 </table>
-

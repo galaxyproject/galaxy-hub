@@ -26,4 +26,3 @@ From the [intro](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-ga
 * [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
 * [Galactic Engineer Blog](http://galacticengineer.blogspot.co.uk/)
 * [ProFTPd](http://www.proftpd.org/)
-

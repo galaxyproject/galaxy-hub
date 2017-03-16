@@ -16,4 +16,3 @@ title: Abstracts
 See the [GCC2014 Program](/src/events/gcc2014/program/index.md) for the complete schedule.
 
 # Talk Abstracts
-

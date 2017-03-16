@@ -79,4 +79,3 @@ galaxyOps.py provides the same operation as C version galaxyOps.
 galaxyOps.py knowGenes.bed exons.bed -s > introns.bed
 
 Find subregions in file knowGenes.bed, that don't overlap with file exons.bed, and redirect the result to file introns.bed
-

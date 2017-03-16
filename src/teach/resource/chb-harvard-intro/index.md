@@ -23,4 +23,3 @@ This is an introduction to Galaxy's functionality.  It uses text manipulation, f
 
 * [CHB Harvard Introduction to Galaxy](http://hbc.github.io/ngs-workshops/courses/introduction-to-galaxy/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/courses/)
-

@@ -9,5 +9,4 @@ Dear Community,
 
 _Thanks for using Galaxy,_
 
-[The Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) 
-
+[The Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst)

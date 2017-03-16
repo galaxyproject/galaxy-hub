@@ -326,4 +326,3 @@ The most recent official distribution was on [April 1, 2013](/src/archive/dev-ne
 * Just discovered [these tutorials](http://bit.ly/167H7AP) by Lance Parsons on RNA-Seq, ChIP-Seq, SNP & Indels, and IGV all using Galaxy   
 * [Scaling variant detection pipelines for whole genome sequencing analysis](http://j.mp/10Tk2Kq)
 * There is now a [Google+ Galaxy Group](http://gplus.to/galaxyportal).  Thanks to Samuel Lampa for setting this up.
-

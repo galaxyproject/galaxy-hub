@@ -25,6 +25,3 @@ The **[September Galaxy News](/src/galaxy-updates/2016-09/index.md) is out:**
 * And [other news](/src/galaxy-updates/2016-09/index.md#other-news) too.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-09-06</div>
-

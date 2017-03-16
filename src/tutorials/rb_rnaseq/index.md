@@ -427,4 +427,3 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >A heatmap of sample-to-sample distance matrix gives us an overview over similarities and dissimilarities between samples:
 >
 >![](/src/tutorials/rb_rnaseq/euc_dist.png)
-

@@ -143,4 +143,3 @@ rule to find the static content. For example, with nginx:
         alias /my_galaxy_dir/config/plugins/visualizations/$vis_name/static/$static_file;
     }
 ```
-

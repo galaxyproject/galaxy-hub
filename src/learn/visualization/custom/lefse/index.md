@@ -30,4 +30,3 @@ See [LEfSe wiki](https://bitbucket.org/biobakery/biobakery/wiki/lefse)
 
 * **[Tutorial](https://bitbucket.org/biobakery/biobakery/wiki/lefse)**
 * **[Paper](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848/)**
-

@@ -25,5 +25,3 @@ The [2012 Galaxy Community Conference](/src/events/gcc2012/program//index.md) in
     <td style=" border: none;"> The <a href='/src/events/gcc2012/program//index.md'>2012 Galaxy Community Conference</a> was preceded by a <em><a href='/src/events/gcc2012/training-day/index.md'>Training Day</a></em>, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.  </td>
   </tr>
 </table>
-
-

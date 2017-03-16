@@ -382,4 +382,3 @@ The latest version of [CloudMan](/src/cloudman/index.md) was [released in July](
 * The first 30 minutes of the "[Galaxy Code and Storage Architecture](/src/events/gcc2013/training-day/index.md#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
 * [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is looking into running a GMOD workshop in Malaysia, February 26-28 -- please email help@gmod.org if you're interested in attending.
 * Aussie researchers can now launch their own Galaxy instance on Nectar. See the guide at the [Genome Virtual Lab](http://genome.edu.au/wiki/Get)
-

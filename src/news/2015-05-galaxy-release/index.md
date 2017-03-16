@@ -20,6 +20,3 @@ The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs
 
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-05-14</div>
-

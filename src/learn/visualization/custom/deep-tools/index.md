@@ -47,4 +47,3 @@ List of tools:
 
 * **[example workflows](https://github.com/fidelram/deepTools/wiki/Example-workflows)**
 * **[Galaery](https://github.com/fidelram/deepTools/wiki/Gallery)**
-

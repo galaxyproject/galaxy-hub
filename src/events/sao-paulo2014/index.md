@@ -35,4 +35,3 @@ No programming or Linux command line experience is required.
 Hands-on exercises will be run on the University of São Paulo's compute cloud *[Nuvem](https://wiki.uspdigital.usp.br/nuvem/)*.  The USP cloud is based on a [Citrix cloud architecture](http://www.citrix.com/products/cloudplatform/overview.html).
 
 ## Content
-

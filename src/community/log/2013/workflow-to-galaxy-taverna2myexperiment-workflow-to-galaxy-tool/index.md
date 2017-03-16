@@ -14,4 +14,3 @@ title: 2013/01: Create Galaxy Tool from Taverna 2 Workflow
 The [workflow-to-galaxy Ruby Gem](http://rubygems.org/gems/workflow-to-galaxy) does this.
 
 ## Links
-

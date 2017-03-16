@@ -73,4 +73,3 @@ Tour of Galaxy's learning resources included:
 ## Questions?
 
 Send them to [Jennifer Hillman-Jackson](mailto:jen AT galaxyproject DOT org) with a clear subject line!
-

@@ -173,4 +173,3 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 * [Original thread on Galaxy-Dev](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) 
 * [Admin/Config/Apache Proxy](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
 * [Admin/Config/ExternalUserDatbases](/src/admin/config/ExternalUserDatbases/index.md)
-

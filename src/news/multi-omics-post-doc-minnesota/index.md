@@ -14,6 +14,3 @@ A [post-doctoral position](http://z.umn.edu/galaxypostdoc2016) is available at t
 A Ph.D. in bioinformatics, computer science, analytical chemistry or closely related field is required. Experience with MS-based proteomics data analysis is highly preferred, and familiarity with the Galaxy framework is a plus. 
 
 Interested applicants can apply directly to [Dr. Tim Griffin](mailto:tgriffin@umn.edu).
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-22</div>
-

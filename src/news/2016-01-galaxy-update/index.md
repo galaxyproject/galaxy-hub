@@ -25,6 +25,3 @@ The **[January 2016 Galactic News](/src/galaxy-updates/2016-01/index.md)** is ho
 * and [some other news too](/src/galaxy-updates/2016-01/index.md#other-news).
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-01-04 </div>
-

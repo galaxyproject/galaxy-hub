@@ -791,4 +791,3 @@ Galaxy provides tools for extracting subsets of genomic sequences and alignments
 * hg18-panTro1-bosTau2-rheMac2-musMus8-ratNor4-canFam2-echTel1-loxAfr1-oryCun1-danRer3-monDom4-dasNov1-galGal2-fr1-tetNig1-xenTro1 
 * hg18-panTro2-rheMac2-musMus8-canFam2
 * hg18-panTro2-rheMac2
-

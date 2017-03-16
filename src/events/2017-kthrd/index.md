@@ -8,7 +8,7 @@ location: KTHRD, Daejeon, South Korea
 location_url: http://www.kthrd.com/
 image: kthrd.png
 gtn: y
-speaker:  Mallory Freeberg, Mo Heydarian
+contact: Mallory Freeberg, Mo Heydarian
 ---
 
 A Galaxy workshop at KTHRD in Daejeon, South Korea

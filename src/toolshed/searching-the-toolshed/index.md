@@ -31,4 +31,3 @@ Clicking the **Search repositories** button will display a list of all tool shed
 # Related Pages
 
 * [Enabling workflow sharing](/src/toolshed/workflow-sharing/index.md) - this document describes the tool shed enables sharing Galaxy workflows.
-

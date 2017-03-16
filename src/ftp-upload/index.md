@@ -1,7 +1,3 @@
- 
-
-<<Include(Learn/LinkBox)>>
-
 # File Upload via FTP
 
 _Please note the updated server to use for FTP: **usegalaxy.org**. This replaces the prior server "main.g2.bx.psu" in all materials below._
@@ -39,4 +35,3 @@ Please note that it may not always be practical to use the public Galaxy servers
 In addition, since it's possible to upload to Amazon's Simple Storage Service (S3) in parallel, using Galaxy [CloudMan](CloudMan) may be a faster alternative. We are investigating incorporating easy access to S3 buckets for Galaxy instances on the Amazon Elastic Compute Cloud (EC2). But you don't need to wait for the pretty interface, you can already access contents of S3 buckets by pasting links to their contents in the "URL/Text:" field of the "Upload File" tool. For an example of how to do this, see the [screencast on this page](http://usegalaxy.org/heteroplasmy) entitled "Watch how the complete analysis can be performed on the Amazon Cloud."
 
 FTP upload can be enabled in local installations of Galaxy, instructions to do so can be found at [Admin/Config/UploadviaFTP](Admin%2FConfig%2FUploadviaFTP).
-

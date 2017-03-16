@@ -395,5 +395,4 @@ None of these moves should be particularly noticeable to the Galaxy community.  
 * [GVL Galaxy Launch video](https://www.youtube.com/watch?v=m3_8q9n7Z7w): How to open your own private Galaxy bioinformatics server using the Genomics Virtual Lab interface to the NeCTAR Australian research cloud. Based on the guide at [GVL](https://genome.edu.au).
 * [Galaxy RNA-Seq Analysis Tuxedo protocol video](http://www.youtube.com/watch?v=cQAuA3mtSWE):  [Video](http://www.youtube.com/watch?v=cQAuA3mtSWE) in Korean; [slides](http://www.slideshare.net/hongiiv/galaxy-rnaseq-analysis-tuxedo-protocol) in English
 * [bioblend 0.4.2 released](http://bit.ly/1m4FVDQ): CloudMan and Galaxy API library 
-* [Biocuration 2014](http://bit.ly/1eQdBj3) Workshops & Satellites announced, including [Data Curation in the age of hyperabundance](http://biocuration2014.events.oicr.on.ca/workshops).  
-
+* [Biocuration 2014](http://bit.ly/1eQdBj3) Workshops & Satellites announced, including [Data Curation in the age of hyperabundance](http://biocuration2014.events.oicr.on.ca/workshops).

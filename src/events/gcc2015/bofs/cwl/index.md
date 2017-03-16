@@ -36,4 +36,3 @@ If you are interested, please add your name below and/or send an email to [Micha
 ## Questions?
 
 Send them to [Michael R. Crusoe](mailto:crusoe@ucdavis.edu).
-

@@ -141,4 +141,3 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
 
 * "[At ISMB '13, BOSC Talks Underscore Value of Open Source Infrastructure, Data for Scientific Research](http://www.genomeweb.com/informatics/ismb-13-bosc-talks-underscore-value-open-source-infrastructure-data-scientific-r)," by Uduak Grace Thomas, [GenomeWeb](http://genomeweb.com)
 * "[Bioinformaticians breaking down barriers in Berlin](http://blogs.biomedcentral.com/gigablog/2013/08/01/bioinformaticians-breaking-down-barriers-in-berlin/)," by Scott Edmunds, *[GigaScience](http://www.gigasciencejournal.com/)*
-

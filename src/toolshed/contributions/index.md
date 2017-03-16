@@ -31,4 +31,3 @@
 ### 2014
 
 * [December 2014](/src/toolshed/contributions/2014-12/index.md)
-

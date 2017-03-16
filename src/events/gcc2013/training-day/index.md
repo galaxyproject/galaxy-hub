@@ -25,4 +25,3 @@ You [register](/src/events/gcc2013/register/index.md) for the Training Day (and 
 
 <br />
 # Schedule
-

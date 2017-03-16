@@ -924,8 +924,8 @@ The following are great places to start when trouble shooting or planning an exp
 
 ### Galaxy
 
-1. A [custom Google search](http://galaxyproject.org/search/usegalaxy/) is available here to search all things Galaxy
-  including: this wiki, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
+1. A [custom Google search](/src/search/index.md) is available to search all things Galaxy
+  including: this hub, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
 2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) site is a Q&A site designed on Istvan Albert's original
   [Biostars](http://www.biostars.org) site.
@@ -942,4 +942,3 @@ The following are great places to start when trouble shooting or planning an exp
 
 1. [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md)
 2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/events/bio-it-world2014/w14/index.md)
-

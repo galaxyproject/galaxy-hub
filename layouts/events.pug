@@ -8,6 +8,8 @@ block content
                 li
                     strong Date: 
                     | !{helpers.moment(date).format("MMMM Do YYYY")}
+                    if days > 1
+                        | - !{helpers.moment(date).add(days - 1, 'days').format("MMMM Do YYYY")}
                 if location
                     li
                         strong Location: 
@@ -16,15 +18,15 @@ block content
                                 | !{location}
                         else
                             | !{location}
-                if event_url
+                if external_url
                     li
                         strong Event URL: 
-                        a(href=location_url)
-                            | !{location_url}
-                if speaker
+                        a(href=external_url)
+                            | !{external_url}
+                if contact
                     li
-                        strong Speaker: 
-                        | !{speaker}
+                        strong Contact: 
+                        | !{contact}
             div: p !{ contents }
         div.col-md-3
             if image

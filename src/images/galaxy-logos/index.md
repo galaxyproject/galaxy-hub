@@ -90,4 +90,3 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
 * Logo, just G, 679x429 pixels
     <a href='/src/images/galaxy-logos/GalaxyScholarshipsGBig.png'><img src="/src/images/galaxy-logos/GalaxyScholarshipsGBig.png" alt=""  /></a>
-

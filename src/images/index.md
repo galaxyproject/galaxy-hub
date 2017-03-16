@@ -10,4 +10,3 @@ Common place to store images that are likely to be shared across pages.
 * [Learn](/src/images/learn/index.md) - Graphics are generally UI screenshots used in [Support](/src/support/index.md) and [Learn](/src/learn/index.md) wikis.
 * [Photos](/src/images/photos/index.md) - Photographs.
 * [NGS101](/src/images/ngs101/index.md) - Graphics used in NGS 101 tutorial page.
-

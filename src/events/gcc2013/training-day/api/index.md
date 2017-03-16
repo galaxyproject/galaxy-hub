@@ -1454,8 +1454,3 @@ happens some amount of core changes need to take place to make this as easy and 
 
 
 {{> Events/GCC2013/Footer }}
-
-
-
-
-
