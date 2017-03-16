@@ -127,4 +127,4 @@ That should be it! If all of your code is functionally correct you should now ha
 
 ## Advanced Features
 
-- [Admin/Datatypes/Composite Datatypes](Admin%2FDatatypes%2FComposite+Datatypes)
+- [admin/datatypes/composite-datatypes](/src/admin/datatypes/composite-datatypes)
