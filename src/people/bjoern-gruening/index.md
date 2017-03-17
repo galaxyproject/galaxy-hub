@@ -9,6 +9,8 @@
 2. [Galaxy Interactive Environments](https://wiki.galaxyproject.org/Admin/GIEs) (e.g. IPython in Galaxy)
 3. [IUC](https://wiki.galaxyproject.org/IUC) member
 4. Galaxy tool developer (e.g. [bgruening/galaxytools](https://github.com/bgruening/galaxytools))
+5. [Galaxy tricks](https://github.com/bgruening/galaxy-tricks)
+6. [GTN](https://galaxyproject.org/teach/gtn/)-member
 
 [University of Freiburg](http://www.bioinf.uni-freiburg.de) <br />
 Albert-Ludwigs-Universität Freiburg <br />
