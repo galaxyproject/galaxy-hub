@@ -1,20 +1,16 @@
 ---
 autotoc: true
 ---
-<div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
+* [Wiki Root](/src/toolshed/index.md)
+* [All monthly summaries](/src/toolshed/contributions/index.md)
 
-Tools contributed to the Galaxy Project Tool Shed in March 2016.
-
-### New Tools
-
-#### repository_suite_definition
+# Suites
 
 * *From [bornea](https://toolshed.g2.bx.psu.edu/view/bornea):*
   * [apostl_tools](https://toolshed.g2.bx.psu.edu/view/bornea/apostl_tools): APOSTL is an interactive affinity proteomics analysis software developed to reformat affinity proteomics data (both spectral counting and MS1) for input into the SAINTexpress statistical package and to visualize the output(s).
 
-#### unrestricted
+# Tools
 
 * *From [youngkim](https://toolshed.g2.bx.psu.edu/view/youngkim):*
   * [ezbamqc](https://toolshed.g2.bx.psu.edu/view/youngkim/ezbamqc): Quality control tool for NGS mapping files. ezBAMQC is a tool to check the quality of either one or many mapped next-generation-sequencing datasets. It conducts comprehensive evaluations of aligned sequencing data from multiple aspects including: clipping profile, mapping quality distribution, mapped read length distribution, genomic/transcriptomic mapping distribution, inner distance distribution (for paired-end reads), ribosomal RNA contamination, transcript 5\u2019 and 3\u2019 end bias, transcription dropout rate, sample correlations, sample reproducibility, sample variations. It outputs a set of tables and plots and one HTML page that contains a summary of the results. Many metrics are designed for RNA-seq data specifically, but ezBAMQC can be applied to any mapped sequencing dataset such as RNA-seq, CLIP-seq, GRO-seq, ChIP-seq, DNA-seq and so on.
@@ -77,44 +73,39 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
     * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/15-parallel
     * QTL Cartographer is employed for eQTL mapping. The results are parsed.
     * This tool must be executed 15 times in parallel; every time with a different .inp input file (every time the .map and parameters.txt input files are used). Each execution will produce one .txt output file.
-
-* [save_z_15](https://toolshed.g2.bx.psu.edu/view/nanettec/save_z_15): Run QTL Cartographer and save partial z file ### This is the third tool in the eQTL mapper workflow:
-* split_15, qtlmap_15, save_z_15, integrate_15
-* Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/15-parallel
-* QTL Cartographer is employed for eQTL mapping.
-* A partial z file is saved; this is an input file for the eQTL backend pipeline.
-
-* [frequency](https://toolshed.g2.bx.psu.edu/view/nanettec/frequency): Frequency of eQTLs and genes ### This is the third tool in the eQTL backend pipeline:
-  * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
-  * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
-  * Calculate the number of eQTLs per bin.
-  * Calculate the number of genes per bin.
-
-* [lookup](https://toolshed.g2.bx.psu.edu/view/nanettec/lookup): Lookup table for cM intervals ### This is the first tool in the eQTL backend pipeline:
-  * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
-  * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
-  * The information from the Markers file and the QTL Cartographer Z file, are combined to proportionally estimate a base pair position at each \u201cQTL Cartographer bin\u201d (e.g. 2 cM intervals).
-  * The Lookup file can then serve as a lookup table to convert between base pair and centimorgan positions.
-
-* [frequency_sliding](https://toolshed.g2.bx.psu.edu/view/nanettec/frequency_sliding): Sliding Window frequency of eQTLs and genes ### This is the fourth tool in the eQTL backend pipeline:
-  * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
-  * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
-  * Combine x cM intervals (size of lookup bins; for example 2 cM), to be used in a sliding window approach.
-  * For 2 cM lookup bins:
-    * For two intervals per sliding window, intervals smaller than 2 cM are combined with its two flanking 2 cM intervals.
-    * Calculate the number of eQTLs per sliding window (4 - 5.9 cM intervals).
-    * Calculate the number of genes per sliding window (4 - 5.9 cM intervals).
-  * For three intervals per sliding window, intervals smaller than 2 cM are combined with 3 flanking 2 cM intervals.
-    * Calculate the number of eQTLs per sliding window (6 - 7.9 cM intervals).
-    * Calculate the number of genes per sliding window (6 - 7.9 cM intervals).
-
-* [classifier](https://toolshed.g2.bx.psu.edu/view/nanettec/classifier): Classify eQTLs as cis or trans ### This is the second tool in the eQTL backend pipeline:
-  * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
-  * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
-  * Calculates the average genetic interval size across all eQTLs.
-  * Classifies an eQTL as 'cis' if it maps within half the above mentioned interval size of the gene exhibiting the eQTL.
-  * Classifies an eQTL as 'trans' if it maps to a different region on the genome than the location of the gene exhibiting the eQTL (further away than half the above mentioned interval size from the gene).
-  * Classifies an eQTL as 'no_result' if the location of the target gene is not known.
+  * [save_z_15](https://toolshed.g2.bx.psu.edu/view/nanettec/save_z_15): Run QTL Cartographer and save partial z file ### This is the third tool in the eQTL mapper workflow:
+    * split_15, qtlmap_15, save_z_15, integrate_15
+    * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/15-parallel
+    * QTL Cartographer is employed for eQTL mapping.
+    * A partial z file is saved; this is an input file for the eQTL backend pipeline.
+  * [frequency](https://toolshed.g2.bx.psu.edu/view/nanettec/frequency): Frequency of eQTLs and genes ### This is the third tool in the eQTL backend pipeline:
+    * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
+    * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
+    * Calculate the number of eQTLs per bin.
+    * Calculate the number of genes per bin.
+  * [lookup](https://toolshed.g2.bx.psu.edu/view/nanettec/lookup): Lookup table for cM intervals ### This is the first tool in the eQTL backend pipeline:
+    * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
+    * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
+    * The information from the Markers file and the QTL Cartographer Z file, are combined to proportionally estimate a base pair position at each \u201cQTL Cartographer bin\u201d (e.g. 2 cM intervals).
+    * The Lookup file can then serve as a lookup table to convert between base pair and centimorgan positions.
+  * [frequency_sliding](https://toolshed.g2.bx.psu.edu/view/nanettec/frequency_sliding): Sliding Window frequency of eQTLs and genes ### This is the fourth tool in the eQTL backend pipeline:
+    * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
+    * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
+    * Combine x cM intervals (size of lookup bins; for example 2 cM), to be used in a sliding window approach.
+    * For 2 cM lookup bins:
+      * For two intervals per sliding window, intervals smaller than 2 cM are combined with its two flanking 2 cM intervals.
+      * Calculate the number of eQTLs per sliding window (4 - 5.9 cM intervals).
+      * Calculate the number of genes per sliding window (4 - 5.9 cM intervals).
+    * For three intervals per sliding window, intervals smaller than 2 cM are combined with 3 flanking 2 cM intervals.
+      * Calculate the number of eQTLs per sliding window (6 - 7.9 cM intervals).
+      * Calculate the number of genes per sliding window (6 - 7.9 cM intervals).
+  * [classifier](https://toolshed.g2.bx.psu.edu/view/nanettec/classifier): Classify eQTLs as cis or trans ### This is the second tool in the eQTL backend pipeline:
+    * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
+    * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
+    * Calculates the average genetic interval size across all eQTLs.
+    * Classifies an eQTL as 'cis' if it maps within half the above mentioned interval size of the gene exhibiting the eQTL.
+    * Classifies an eQTL as 'trans' if it maps to a different region on the genome than the location of the gene exhibiting the eQTL (further away than half the above mentioned interval size from the gene).
+    * Classifies an eQTL as 'no_result' if the location of the target gene is not known.
 
 * *From [chrisd](https://toolshed.g2.bx.psu.edu/view/chrisd):*
   * [amrplusplus_workflow](https://toolshed.g2.bx.psu.edu/view/chrisd/amrplusplus_workflow): workflow for analyzing metagenomic sequence data.
@@ -134,7 +125,7 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
   * [uniprotxml_downloader](https://toolshed.g2.bx.psu.edu/view/galaxyp/uniprotxml_downloader): Download UniProt proteome in XML format. The Morpheus proteomics search engine uses the uniprotxml format.
 
-#### tool_dependency_definition
+# Dependency Definitions
 
 * *From [aafc-mbb](https://toolshed.g2.bx.psu.edu/view/aafc-mbb):*
   * [package_quast_3_2](https://toolshed.g2.bx.psu.edu/view/aafc-mbb/package_quast_3_2): Downloads and Installs Quast 3.2
