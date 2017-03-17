@@ -1,25 +1,37 @@
 ---
+title: Tools contributed to the Galaxy Project Tool Shed in [January and February 2017](/src/galaxy-updates/2017-03/index.md).
 autotoc: true
 ---
-<div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
+* [Wiki Root](/src/toolshed/index.md)
+* [All monthly summaries](/src/toolshed/contributions/index.md)
 
-Tools contributed to the Galaxy Project Tool Shed in [January and February 2017](/src/galaxy-updates/2017-03/index.md).
 
-### New Tools
+# Featured Updates
 
-#### tool_dependency_definition
+## Tools
+* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
+   * [align_back_trans](https://toolshed.g2.bx.psu.edu/view/peterjc/align_back_trans): v0.0.7 internal Python style fixes.
+   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): v0.2.9 Python style improvements.
+   * [venn_list](https://toolshed.g2.bx.psu.edu/view/peterjc/venn_list): v0.0.10 explicit galaxy_sequence_utils dependency etc.
+   * [venn_list](https://toolshed.g2.bx.psu.edu/view/peterjc/venn_list): v0.0.10 with fixed Biopython dependency.
+   * [sample_seqs](https://toolshed.g2.bx.psu.edu/view/peterjc/sample_seqs): v0.2.3 clarified help, internal cleanup of Python script.
+   * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): v0.0.17 Used cached URL, python style updates.
+   * [seq_rename](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_rename): v0.0.8 galaxy_sequence_utils dependency etc.
+   * [nlstradamus](https://toolshed.g2.bx.psu.edu/view/peterjc/nlstradamus): v0.0.11 dependency packaging update.
+   * [seq_primer_clip](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_primer_clip): v0.0.14 galaxy_sequence_utils dependency etc.
+
+# Dependency Definitions
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
    * [package_srst2_0_1_4_6](https://toolshed.g2.bx.psu.edu/view/nml/package_srst2_0_1_4_6):  PACKAGE_SRST2_0_1_4_6.
 * *From [jasonk](https://toolshed.g2.bx.psu.edu/view/jasonk):*
    * [package_metavelvet_sl](https://toolshed.g2.bx.psu.edu/view/jasonk/package_metavelvet_sl):  MetaVelvet-SL tool dependencies definition.
 
-#### repository_suite_definition
+# Suites
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
    * [suite_plasmid_profiler](https://toolshed.g2.bx.psu.edu/view/nml/suite_plasmid_profiler):  Plasmid Profiler suite defining all dependencies for Plasmid Profiler.
 
-#### unrestricted
+# Tools
 * *From [tomnl](https://toolshed.g2.bx.psu.edu/view/tomnl):*
    * [mzml2isa](https://toolshed.g2.bx.psu.edu/view/tomnl/mzml2isa):  Tool to generate ISA-Tab files using metadata derived from mzML files. mzML2ISA automatically generate ISA-Tab document structure metadata files from raw XML metabolomics data files (mzML open access data format). The mzml2ISA tool provides the backbone of ISA-Tab metabolomics study which can then be edited with an ISA editing tool, ISAcreator (see MetaboLights pre-packaged ISA Creator).
    * [nmrml2isa](https://toolshed.g2.bx.psu.edu/view/tomnl/nmrml2isa):  This is a Galaxy wrapper for the nmrml2isa python package tool. Full documentation: http://2isa.readthedocs.io/en/latest/  Python PyPi package: https://pypi.python.org/pypi/mzml2isa/  Github code: https://github.com/ISA-tools/mzml2isa    nmrml2isa is a program that allows you to convert metabolomic studies in .mzML format to the open ISA-Tab standard supported by the MetaboLights database. The recommended installation is by means of the toolshed (https://toolshed.g2.bx.psu.edu/). Dependencies should be installed automatically when using Galaxy version >= 16.10. The dependencies are dealt with Bioconda. To ensure that Bioconda is working check to make sure the following settings are in the config/galaxy.ini file. # dependencies before each job runs. conda_auto_install = True  # Set to True to instruct Galaxy to install Conda from the web automatically  # if it cannot find a local copy and conda_exec is not configured. conda_auto_init = True.
@@ -123,18 +135,3 @@ Tools contributed to the Galaxy Project Tool Shed in [January and February 2017]
    * [escape_excel](https://toolshed.g2.bx.psu.edu/view/pstew/escape_excel): XML. Escape Excel: a tool for preventing gene symbol and accession conversion errors.
 * *From [fgiacomoni](https://toolshed.g2.bx.psu.edu/view/fgiacomoni):*
    * [golm_ws_lib_search](https://toolshed.g2.bx.psu.edu/view/fgiacomoni/golm_ws_lib_search):  [W4M][Metabolomics][GC-MS] Golm Metabolome Database search spectrum. Tool using the Golm Library Search WS. Part of the W4M project: http://workflow4metabolomics.org.
-
-
-### Select Updates
-
-#### unrestricted
-* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-   * [align_back_trans](https://toolshed.g2.bx.psu.edu/view/peterjc/align_back_trans): v0.0.7 internal Python style fixes.
-   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): v0.2.9 Python style improvements.
-   * [venn_list](https://toolshed.g2.bx.psu.edu/view/peterjc/venn_list): v0.0.10 explicit galaxy_sequence_utils dependency etc.
-   * [venn_list](https://toolshed.g2.bx.psu.edu/view/peterjc/venn_list): v0.0.10 with fixed Biopython dependency.
-   * [sample_seqs](https://toolshed.g2.bx.psu.edu/view/peterjc/sample_seqs): v0.2.3 clarified help, internal cleanup of Python script.
-   * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): v0.0.17 Used cached URL, python style updates.
-   * [seq_rename](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_rename): v0.0.8 galaxy_sequence_utils dependency etc.
-   * [nlstradamus](https://toolshed.g2.bx.psu.edu/view/peterjc/nlstradamus): v0.0.11 dependency packaging update.
-   * [seq_primer_clip](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_primer_clip): v0.0.14 galaxy_sequence_utils dependency etc.

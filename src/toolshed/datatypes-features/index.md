@@ -19,7 +19,8 @@ Tool shed repositories that include valid **datatypes_conf.xml** files will disp
 # Including custom data types that use class modules contained in your repository
 
 Including custom data types that use class modules included in your repository is a bit tricky. As part of your development process for tools that use data types that fall into this category, it is highly recommended that you host a local Galaxy tool shed. When your newly developed tools have proven to be functionally correct within your local Galaxy instance, you should upload them, along with all associated custom data types files and modules to your local tool shed to ensure that everything is handled properly within the tool shed. When your local tool shed repository is functionally correct, install your repository from your local tool shed to a local Galaxy instance to ensure that your tools and data types properly load both at the time of installation and when you stop and restart your Galaxy server. You should not upload your tools to the main Galaxy tool shed until you have confirmed that everything works by following these steps.
-To illustrate how this works, we'll use the [gmap repository](http://toolshed.g2.bx.psu.edu/repository/browse_categories?sort=name&id=4131098bea459833&f-deleted=False&webapp=community&f-free-text-search=gmap&operation=view_or_manage_repository) in the main Galaxy tool shed as an example. The **datatypes_conf.xml** file included in this repository looks something like the following. You'll probably notice that this file is modeled after the **datatypes_conf.xml.sample** file in the Galaxy distribution, but with some slight differences.
+
+To illustrate how this works, we'll use the [gmap repository](http://toolshed.g2.bx.psu.edu/repository/browse_categories?sort=name&id=4131098bea459833&f-deleted=False&webapp=community&f-free-text-search=gmap&operation=view_or_manage_repository) in the main Galaxy tool shed as an example. The **datatypes\_conf.xml** file included in this repository looks something like the following. You'll probably notice that this file is modeled after the **datatypes_conf.xml.sample** file in the Galaxy distribution, but with some slight differences.
 
 Notice the ```<datatypes_files>``` tag set. This tag set contains ```<datatype_file>``` tags, each of which refers to the name of a class module file name within your repository (in this example, there is only one file named gmap.py), which contains the custom data type classes you've defined for your tools.
 
@@ -62,7 +63,7 @@ However, the above relative imports will not work when the gmap.py class module 
     from galaxy.datatypes.data import Text
     from galaxy.datatypes.metadata import MetadataElement
 
-The use of <converter> tags contained within <datatype> tags is supported in the same way they are supported within the **datatypes_conf.xml.sample** file in the Galaxy distribution.
+The use of ```<converter>``` tags contained within ```<datatype>``` tags is supported in the same way they are supported within the **datatypes_conf.xml.sample** file in the Galaxy distribution.
 
     <datatype extension="ref.taxonomy" type="galaxy.datatypes.metagenomics:RefTaxonomy" display_in_upload="true"
         <converter file="ref_to_seq_taxonomy_converter.xml" target_datatype="seq.taxonomy"/>
@@ -70,6 +71,6 @@ The use of <converter> tags contained within <datatype> tags is supported in the
 
 # Including datatype converters and display applications
 
-To include your custom datatype converters or display applications, add the appropriate tag set to your repository's **datatypes_conf.xml** file in the same way that they are defined in the **datatypes_conf.xml.sample** file in the Galaxy distribution.
+To include your custom datatype converters or display applications, add the appropriate tag set to your repository's **datatypes\_conf.xml** file in the same way that they are defined in the **datatypes\_conf.xml.sample** file in the Galaxy distribution.
 
 If you include datatype converter files in your repository, all files (the disk file referred to by the value of the "file" attribute) must be located in the same directory in your repository hierarchy. Similarly, your datatype display application files must all be in the same directory in your repository hierarchy (although the directory can be a different directory from the one containing your converter files). This is critical because the Galaxy components that load these custom items assume each of them are located in the same directory.

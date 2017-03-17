@@ -1,15 +1,11 @@
 ---
 autotoc: true
 ---
-<div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
+* [Wiki Root](/src/toolshed/index.md)
+* [All monthly summaries](/src/toolshed/contributions/index.md)
 
-Tools contributed to the Galaxy Project Tool Shed in [November and December 2016](/src/galaxy-updates/2017-01/index.md).
-
-### New Tools
-
-#### unrestricted
+# Tools
 * *From [davidvanzessen](https://toolshed.g2.bx.psu.edu/view/davidvanzessen):*
    * [imgt_concatenate](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/imgt_concatenate):  Concatenating IMGT zip files. Concatenates 1 or more IMGT zip files into a new IMGT zip file.
 * *From [yating-l](https://toolshed.g2.bx.psu.edu/view/yating-l):*
@@ -21,7 +17,9 @@ Tools contributed to the Galaxy Project Tool Shed in [November and December 2016
    * [ngchm](https://toolshed.g2.bx.psu.edu/view/insilico-bob/ngchm): Generate clustered Heatmaps with optional co-variate bars. Generate a clustered Heatmap from NGCHM data, or other data matrices, with many methods to choose from for clustering. Also, multiple category/co-variate bars may be added to either the columns or rows. The output is a zip file that can be displayed in Galaxy via the visualize icon at the bottom of the output file in the History ( near the save, information "I", rerun, then the visualize icon. Click the icon and the heatmap displays in the Galaxy middle region. The input matrix is assume to have both the first column and the first row containing labels  Any input co-variate bar files must have the same number of labels as in the input matrix's row or column labels (whichever the co-variate bar is to map to).
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
    * [salmon](https://toolshed.g2.bx.psu.edu/view/bgruening/salmon):  Salmon is a wicked-fast program to produce a highly-accurate, transcript-level quantification estimates from RNA-seq data. Salmon achieves    is accuracy and speed via a number of different innovations, including the use of quasi-mapping (accurate but fast-to-compute proxies for    traditional read alignments), and massively-parallel stochastic collapsed variational inference. The result is a versatile tool that fits    nicely into many differnt pipelines. For example, you can choose to make use of our quasi-mapping algorithm by providing Salmon with raw    sequencing reads, or, if it is more convenient, you can provide Salmon with regular alignments (e.g. an unsorted BAM file produced with    your favorite aligner), and it will use the same wicked-fast, state-of-the-art inference algorithm to estimate transcript-level abundances    for your experiment.
-   * [deeptools_compute_matrix_operations](https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix_operations):  Wrapper for the deepTools: computeMatrixOperations. deepTools address the challenge of visualizing the large amounts of data that  are now routinely generated from sequencing centers in a meaningful way. To do so,  deepTools contain useful routines to process the mapped reads data through removal of  duplicates and different filtering options to create coverage files in standard  bedGraph and bigWig file formats. deepTools allow the creation of normalized  coverage files or the comparison between two files (for example, treatment and control).   Finally, using such normalized and standardized files, multiple visualizations can be  created to identify enrichments with functional annotations of the genome. For a gallery of images that can be produced and a description of the tools see http://f1000.com/posters/browse/summary/1094053    https://github.com/fidelram/deepTools  doi: 10.1093/nar/gku365  Wikipage: https://github.com/fidelram/deepTools/wiki    Repository-Maintainer: Björn Grüning    https://github.com/fidelram/deepTools.
+   * [deeptools_compute_matrix_operations](https://toolshed.g2.bx.psu.edu/view/bgruening/deeptools_compute_matrix_operations):  Wrapper for the deepTools: computeMatrixOperations. deepTools address the challenge of visualizing the large amounts of data that  are now routinely generated from sequencing centers in a meaningful way. To do so,  deepTools contain useful routines to process the mapped reads data through removal of  duplicates and different filtering options to create coverage files in standard  bedGraph and bigWig file formats. deepTools allow the creation of normalized  coverage files or the comparison between two files (for example, treatment and control).   Finally, using such normalized and standardized files, multiple visualizations can be  created to identify enrichments with functional annotations of the genome. For a gallery of images that can be produced and a description of the tools see http://f1000.com/posters/browse/summary/1094053    https://github.com/fidelram/deepTools  doi: 10.1093/nar/gku365
+      * Wikipage: https://github.com/fidelram/deepTools/wiki
+      * Repository-Maintainer: Bj&ouml;rn Gr&uuml;ning    https://github.com/fidelram/deepTools.
 * *From [pdeford](https://toolshed.g2.bx.psu.edu/view/pdeford):*
    * [dotplot](https://toolshed.g2.bx.psu.edu/view/pdeford/dotplot):  Creates a dot plot of the contents of a LASTZ tabular file resulting from the alignment of one or more sequences to a single reference sequence.    If multiple query sequences are present, they will be sorted by size, offset from one another in the dot plot, and separated by a gray line.
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
@@ -127,7 +125,7 @@ Tools contributed to the Galaxy Project Tool Shed in [November and December 2016
 * *From [matteoc](https://toolshed.g2.bx.psu.edu/view/matteoc):*
    * [agame_custom_tools](https://toolshed.g2.bx.psu.edu/view/matteoc/agame_custom_tools):  agame tools. Tools of general utility for the processing of eDNA assembly data.
 
-#### tool_dependency_definition
+# Dependency Definitions
 * *From [insilico-bob](https://toolshed.g2.bx.psu.edu/view/insilico-bob):*
    * [ngchm_dependencies](https://toolshed.g2.bx.psu.edu/view/insilico-bob/ngchm_dependencies):  Visualization directories needed for ngchm to display Heatmap in Galaxy. Visualization directories needed for ngchm to display Heatmap in Galaxy.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*

@@ -2,29 +2,58 @@
 autotoc: true
 title: December, 2014 Galaxy Tool Shed Contributions
 ---
-<div class='right'></div>
-<br />
 
-<br />
-# About the Tool Shed
+* [Wiki Root](/src/toolshed/index.md)
+* [All monthly summaries](/src/toolshed/contributions/index.md)
 
-[http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed) <br />
-[Wiki](/src/toolshed/index.md) <br />
-[All monthly summaries](/src/toolshed/contributions/index.md)
+# Featured Updates
+
+## Datatypes
+
+* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/devteam):*
+  * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes): v0.0.19, adds blastdbp and pssm-asn1 datatypes.
 
 ## Tools
+
+* *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons):*
+  * [cutadapt](https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt): Updated to version 1.6
+
+* *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
+  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): Added MarkDown support
+
+* *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*
+  * [coverage_report](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/coverage_report): new version 0.0.3 (fix on headless R); changed tool.xml to request R 3.0.3; Correction to png calls to use cairo instead of x11. thanks to Eric Enns for pointing  this out
+
+* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
+  * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): Uploaded v0.0.13, embed citation, relax test for floating point differences
+  * [clinod](https://toolshed.g2.bx.psu.edu/view/peterjc/clinod): Uploaded v0.0.7, uses $GALAXY_SLOTS and embeds citation in tool XML.
+  * [predictnls](https://toolshed.g2.bx.psu.edu/view/peterjc/predictnls): Uploaded v0.0.7 with embedded citations
+  * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): Uploaded v0.1.5, NCBI BLAST+ 2.2.30 etc
+  * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Uploaded v0.2.6, embedded citations and uses $GALAXY_SLOTS
+
+* *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
+  * [mosaik2](https://toolshed.g2.bx.psu.edu/view/crs4/mosaik2): Update Orione citation. Upgrade Mosaik dependency to v. 2.2.28 (2.2.30 is buggy, see https://github.com/wanpinglee/MOSAIK/issues/11 ). Use 2.1.78 neural networks. Add package\_zlib\_1\_2\_8 and package\_samtools\_0\_1\_19 dependencies. Add ```<citations>```.
+  * [sspace](https://toolshed.g2.bx.psu.edu/view/crs4/sspace): Update Orione citation. Update dependency to SSPACE Basic v2.1 . Add ```<citations>```.
+  * [prokka](https://toolshed.g2.bx.psu.edu/view/crs4/prokka): Use <stdio> because prokka writes some warnings on stderr. Update Orione citation. Update Prokka citation. Support Prokka 1.10. Upgrade dependencies to package\_minced\_0\_1\_6, package\_barrnap\_0\_5 and package\_tbl2asn\_23\_7. Added --proteins option. Add ```<citations>```.
+
+## Dependency Definitions
+
+* *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
+  * [package_galaxy_ops_1_0_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_galaxy_ops_1_0_0): Uploaded tool dependency definition that uses pip to install gops.
+
+# Tools
 
 * *From [pjbriggs](https://toolshed.g2.bx.psu.edu/view/pjbriggs):*
   * [weeder2](https://toolshed.g2.bx.psu.edu/view/pjbriggs/weeder2): Weeder2 is a program for finding novel motifs (transcription factor binding sites) conserved in a set of regulatory regions of related genes
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [bedtools](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools): bedtools: a powerful toolset for genome arithmetic. Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations.
-    * Repository-Maintainer: Bj&ouml; Gr&uuml;ning
+    * Repository-Maintainer: Bj&ouml;rn Gr&uuml;ning
     * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
   * [mira_datatypes](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_datatypes): Defines 'mira' datatype for the MIRA Assembly Format. Note that Galaxy already has a 'maf' datatype for the Multiple (sequence) Alignment Format (MAF). This is specifically for the MIRA Assembly Format (also called MAF).
-  * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper. http://www.clcbio.com/products/clc-assembly-cell/
+  * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper.
   * [seq_composition](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_composition): Sequence composition Counts the letters in given sequence files, returning a table listing them with percentages. Suitable for use on assemblies or gene/protein sets. Probably not suitable for raw NGS reads.
   * [mummer](https://toolshed.g2.bx.psu.edu/view/peterjc/mummer): A simple wrapper allowing MUMmer to be used to draw dotplots from within Galaxy. This offers alignment with mummer, mucmer, or promer which is then drawn with mummerplot giving PNG and PDF as output. Essentially a preview. No tests yet, no gnuplot or ps2pdf dependency yet.
   * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0. Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing. The key MIRA output files are captured, but the other files are deleted when the job finishes.
@@ -47,7 +76,7 @@ title: December, 2014 Galaxy Tool Shed Contributions
   * [fathmm_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/fathmm_web): This tools calls FATHMM webservice  at http://fathmm.biocompute.org.uk
   * [mutationassessor_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/mutationassessor_web): Tool to call Mutation Assessor webse This tools calls Mutation Assessor webservice: mutationassessor.org
   * [replace_delimiters](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/replace_delimiters): A tool that allows replacing any delimiter in the input to any other delimiter This tool is similar to Galaxy's default 'Convert delimiter' tool, but allows conversion from any given type (comma, dash, pipe etc)
-  * [inchlib_clust](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/inchlib_clust): inchlib_clust is a python script that performs data clustering and prepares input data for InCHlib. inchlib_clust can be used both from command line or from Python code. Data for clustering are supplied to inchlib_clust as a csv file. This tools is a wrapper around inchlib_clust.py
+  * [inchlib_clust](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/inchlib_clust): inchlib\_clust is a python script that performs data clustering and prepares input data for InCHlib. inchlib\_clust can be used both from command line or from Python code. Data for clustering are supplied to inchlib\_clust as a csv file. This tools is a wrapper around inchlib\_clust.py
   * [vep_rest](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/vep_rest): Variant Effect Predictor Webservice Package to interact with the GRCh37 (ONLY!). Variant Effect Predictor webservice at http://grch37.rest.ensembl.org
   * [chasm_webservice](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/chasm_webservice): Tool to call CHASM webservice  This tool calls CHASM webserice at www.cravat.us
   * [polyphen2_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/polyphen2_web): Wrapper to call Polyphen2 Webservice. This tools calls Polyphen2 webservice at http://genetics.bwh.harvard.edu/pph2/
@@ -58,19 +87,19 @@ title: December, 2014 Galaxy Tool Shed Contributions
   * [protxml_to_xls](https://toolshed.g2.bx.psu.edu/view/galaxyp/protxml_to_xls): Convert ProtXML to Tabular
   * [blastxml_to_tabular_selectable](https://toolshed.g2.bx.psu.edu/view/galaxyp/blastxml_to_tabular_selectable): Converts blast xml file to a tabular with options for unmatched queries, and number of hits to convert. The unmatched queries can be useful for finding novel peptides.
 
-## Tool Suite
+# Tool Suites
 
 * *From [arkarachai-fungtammasan](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan):*
-  * [microsat_ngs_profiling_suite_trfm](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsat_ngs_profiling_suite_trfm): Uploaded all dependency for microsattelite_ngs package and microsattelite_ngs itself all dependency for microsattelite_ngs package and microsattelite_ngs itself
+  * [microsat_ngs_profiling_suite_trfm](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsat_ngs_profiling_suite_trfm): Uploaded all dependency for microsattelite\_ngs package and microsattelite\_ngs itself all dependency for microsattelite\_ngs package and microsattelite_ngs itself
 
-## Workflow
+# Workflow
 
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [chemicaltoolbox_library_hole_filling_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/chemicaltoolbox_library_hole_filling_workflow): Given one library, it extends all molecules by similar molecules of an other library and thus fill gaps in an automatic manner. This workflow is part of case study demonstrating the capability of the chemicaltoolbox. For further information please have a look at the chemicaltoolbox: https://github.com/bgruening/galaxytools/tree/master/chemicaltoolbox
     * Repository-Maintainer: Bj&ouml;rn Gr&uuml;ning
     * Repository-Development: https://github.com/bgruening/galaxytools/tree/master/workflows/chemicaltoolbox
 
-## Packages and Dependencies
+# Dependency Definitions
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons):*
   * [package_cutadapt_1_6](https://toolshed.g2.bx.psu.edu/view/lparsons/package_cutadapt_1_6): tool dependency definition that downloads and compiles cutadapt version 1.6 trim adapters from high-throughput sequencing reads
@@ -105,12 +134,10 @@ title: December, 2014 Galaxy Tool Shed Contributions
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
   * [package_tbl2asn_23_7](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_23_7): tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program. tbl2asn is a program that automates the submission of sequence records to GenBank. It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission. Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method.
     * Repository-Maintainer:Philip Mabon
-  * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder. MinCED is a program to find Clustered Regularly Interspaced Short Palindromic
-
-Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/):  Charles Bland ''et al''., CRISPR Recognition Tool (CRT): a tool for automatic  detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
-* Repository-Maintainer: Philip Mabon
-* [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap
-    & Repository-Maintainer: Philip Mabon
+  * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder. MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/):  Charles Bland ''et al''., CRISPR Recognition Tool (CRT): a tool for automatic  detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
+    * Repository-Maintainer: Philip Mabon
+  * [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap
+    * Repository-Maintainer: Philip Mabon
 
 * *From [agordon](https://toolshed.g2.bx.psu.edu/view/agordon):*
   * [package_datamash_1_0_6](https://toolshed.g2.bx.psu.edu/view/agordon/package_datamash_1_0_6): GNU Datamash is a grouping and summarizing tool on tabular data files GNU Datamash is a command-line program which performs basic numeric, textual and statistical operations on input textual data files. it is designed to be portable and reliable, and aid researchers to easily automate analysis pipelines, without writing code or even short scripts. Home page: http://www.gnu.org/software/datamash License: GPL Version 3 (or later).
@@ -126,43 +153,3 @@ Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes,
   * [package_picard_122](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_122): Picard 1.122 package definition This picard package dependency is retrieved directly from https://github.com/broadinstitute/picard/releases
 
 * [package_fastqc_0_11_2](https://toolshed.g2.bx.psu.edu/view/devteam/package_fastqc_0_11_2): GH fastqc v 0.11.2 fastqc v 0.11.2
-
-## Select Updates
-
-### Datatypes
-
-* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes): v0.0.19, adds blastdbp and pssm-asn1 datatypes.
-
-### Tools
-
-* *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons):*
-  * [cutadapt](https://toolshed.g2.bx.psu.edu/view/lparsons/cutadapt): Updated to version 1.6
-
-* *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
-  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): Added MarkDown support
-
-* *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*
-  * [coverage_report](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/coverage_report): new version 0.0.3 (fix on headless R); changed tool.xml to request R 3.0.3; Correction to png calls to use cairo instead of x11. thanks to Eric Enns for pointing  this out
-
-* *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): Uploaded v0.0.13, embed citation, relax test for floating point differences
-  * [clinod](https://toolshed.g2.bx.psu.edu/view/peterjc/clinod): Uploaded v0.0.7, uses $GALAXY_SLOTS and embeds citation in tool XML.
-  * [predictnls](https://toolshed.g2.bx.psu.edu/view/peterjc/predictnls): Uploaded v0.0.7 with embedded citations
-  * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): Uploaded v0.1.5, NCBI BLAST+ 2.2.30 etc
-  * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Uploaded v0.2.6, embedded citations and uses $GALAXY_SLOTS
-
-* *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
-  * [mosaik2](https://toolshed.g2.bx.psu.edu/view/crs4/mosaik2): Update Orione citation. Upgrade Mosaik dependency to v. 2.2.28 (2.2.30 is buggy, see https://github.com/wanpinglee/MOSAIK/issues/11 ). Use 2.1.78 neural networks. Add package_zlib_1_2_8 and package_samtools_0_1_19 dependencies. Add <citations>.
-  * [sspace](https://toolshed.g2.bx.psu.edu/view/crs4/sspace): Update Orione citation. Update dependency to SSPACE Basic v2.1 . Add <citations>.
-  * [prokka](https://toolshed.g2.bx.psu.edu/view/crs4/prokka): Use <stdio> because prokka writes some warnings on stderr. Update Orione citation. Update Prokka citation. Support Prokka 1.10. Upgrade dependencies to package_minced_0_1_6, package_barrnap_0_5 and package_tbl2asn_23_7. Added --proteins option. Add <citations>.
-
-### Packages and Dependencies
-
-* *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [package_galaxy_ops_1_0_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_galaxy_ops_1_0_0): Uploaded tool dependency definition that uses pip to install gops.
-
-# About Galaxy
-
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)

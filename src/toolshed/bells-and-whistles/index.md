@@ -6,7 +6,7 @@ In some cases, a dependency definition author may want to write a definition who
 
 The example for this discussion is the tool_dependencies.xml file contained in the [osra repository](http://testtoolshed.g2.bx.psu.edu/view/bgruening/osra).
 
-The first tag set shown below defines a complex repository dependency that ensures that changeset revision XXX of the repository named package_graphicsmagick_1_3 owned by YYY in the tool shed ZZZ has been previously installed. The assurance of previous installation is due to the use of the **prior_installation_required** attribute.
+The first tag set shown below defines a complex repository dependency that ensures that changeset revision XXX of the repository named package\_graphicsmagick\_1\_3 owned by YYY in the tool shed ZZZ has been previously installed. The assurance of previous installation is due to the use of the **prior\_installation\_required** attribute.
 
     <tool_dependency>
         <package name="graphicsmagick" version="1.3.18">
@@ -15,12 +15,12 @@ The first tag set shown below defines a complex repository dependency that ensur
         ...
 
 
-By the way, there is an env.sh file associated with version 1.3.18 of the graphicsmagick package which looks something like the following when the tool shed repository defining the graphicsmagick package dependency definition is installed into a Galaxy instance. We'll reference this file later in this discussion (*).
+By the way, there is an env.sh file associated with version 1.3.18 of the graphicsmagick package which looks something like the following when the tool shed repository defining the graphicsmagick package dependency definition is installed into a Galaxy instance. We'll reference this file later in this article (*).
 
 ```GRAPHICSMAGICK_ROOT_DIR=/<my configured tool dependency path>/graphicsmagick/1.3.18/YYY/package_graphicsmagick_1_3/XXX/gmagick; export GRAPHICSMAGICK_ROOT_DIR```
 
 
-The second tag set defines a specific package dependency that has been previously installed (guaranteed by the tag set discussed above) and compiled, where the compiled dependency is needed by the tool dependency currently being installed (osra version 2.0.0 in this case) and complied in order for it's installation and compilation to succeed. This tag set is contained within the `<package name="osra" version="2.0.0">` tag set, which implies that version 2.0.0 of the osra package requires version 1.3.18 of the graphicsmagick package in order to successfully compile.
+The second tag set defines a specific package dependency that has been previously installed (guaranteed by the tag set discussed above) and compiled, where the compiled dependency is needed by the tool dependency currently being installed (osra version 2.0.0 in this case) and complied in order for it's installation and compilation to succeed. This tag set is contained within the ```<package name="osra" version="2.0.0">``` tag set, which implies that version 2.0.0 of the osra package requires version 1.3.18 of the graphicsmagick package in order to successfully compile.
 
 When this tag set is handled, one of the effects is that the env.sh file associated with graphicsmagick version 1.3.18 is "sourced", which undoubtedly sets or alters certain environment variables (e.g. PATH, PYTHONPATH, etc).
 
@@ -34,7 +34,7 @@ When this tag set is handled, one of the effects is that the env.sh file associa
 
 
 
-The third tag set enables discovery of the same required package dependency discussed above for correctly compiling the osra version 2.0.0 package, but in this case the package can be discovered at tool execution time. Using the ```$ENV[]``` option as shown in this example, the value of the environment variable named GRAPHICSMAGICK_ROOT_DIR (which was set in the environment using the second tag set described above) will be used to automatically alter the env.sh file associated with the osra version 2.0.0 tool dependency when it is installed into Galaxy. (*) Refer to where we discussed the env.sh file for version 1.3.18 of the graphicsmagick package above.
+The third tag set enables discovery of the same required package dependency discussed above for correctly compiling the osra version 2.0.0 package, but in this case the package can be discovered at tool execution time. Using the ```$ENV[]``` option as shown in this example, the value of the environment variable named GRAPHICSMAGICK\_ROOT\_DIR (which was set in the environment using the second tag set described above) will be used to automatically alter the env.sh file associated with the osra version 2.0.0 tool dependency when it is installed into Galaxy. (*) Refer to where we discussed the env.sh file for version 1.3.18 of the graphicsmagick package above.
 
     <action type="set_environment">
         <environment_variable action="prepend_to" name="LD_LIBRARY_PATH">$ENV[GRAPHICSMAGICK_ROOT_DIR]/lib/</environment_variable>

@@ -42,13 +42,13 @@ To demonstrate how the [bwa_059](http://testtoolshed.g2.bx.psu.edu/view/greg/bwa
         </package>
     </tool_dependency>
 
-The above tool dependency definition is associated with the entry in the `<requirements>` tag set defined in the **bwa_wrapper.xml** Galaxy tool configuration file contained in the same repository. The **bwa_wrapper.xml** `<requirements>` tag set looks like the following. Notice that the type **package**, version **0.5.9** and name **bwa** match the definition in the above **tool_dependencies.xml** file.
+The above tool dependency definition is associated with the entry in the `<requirements>` tag set defined in the **bwa\_wrapper.xml** Galaxy tool configuration file contained in the same repository. The **bwa\_wrapper.xml** `<requirements>` tag set looks like the following. Notice that the type **package**, version **0.5.9** and name **bwa** match the definition in the above **tool\_dependencies.xml** file.
 
     <requirements>
         <requirement type="package" version="0.5.9">bwa</requirement>
     </requirements>
 
-Visiting the repository's main page displays various containers. There are two dependencies defined for this repository, both of which are defined in the simple **tool_dependencies.xml** file above. The repository dependency on revision **a347750db1d1** of the repository named **bwa_059** owned by **greg** is defined by the ```repository``` tag, while the tool dependency on version **0.5.9** of the **bwa package** is defined by the ```<package>``` tag set.
+Visiting the repository's main page displays various containers. There are two dependencies defined for this repository, both of which are defined in the simple **tool\_dependencies.xml** file above. The repository dependency on revision **a347750db1d1** of the repository named **bwa\_059** owned by **greg** is defined by the ```repository``` tag, while the tool dependency on version **0.5.9** of the **bwa package** is defined by the ```<package>``` tag set.
 
 ![](/src/toolshed/complex-repository-dependencies/manage_complex_repository_dependency_on_bwa_059.png)
 

@@ -1,15 +1,11 @@
 ---
 autotoc: true
 ---
-<div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
+* [Wiki Root](/src/toolshed/index.md)
+* [All monthly summaries](/src/toolshed/contributions/index.md)
 
-Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/galaxy-updates/2016-09/index.md).
-
-### New Tools
-
-#### unrestricted
+# Tools
 
 * *From [melpetera](https://toolshed.g2.bx.psu.edu/view/melpetera):*
   * [batchcorrection](https://toolshed.g2.bx.psu.edu/view/melpetera/batchcorrection): [W4M][Metabolomics][LC-MS] Correction of data intensities for signal drift and batch-effects. Instrumental drift and offset differences between batches have been described in LC-MS experiments when the number of samples is large and/or multiple batches of acquisition are needed. Recently a normalization strategy relying on the measurements of a "pooled" (or QC) sample injected periodically has been described: for each variable, a regression model is fitted to the values of the "pool" and subsequently used to adjust the intensities of the samples of interest (van der Kloet et al, 2009; Dunn et al, 2011). The current repository contains two modules: "Determine batch correction" and "Batch correction". The "Batch correction" module provides two strategies for normalization: variables can be either first checked to assess which of them should be corrected (in that case the "Determine Batch Correction" module provides the information about the correction which will be applied), or all variables can be corrected ("all loess" options). In the latter case, it is possible to fit the model on the samples instead of the pools. Output figures and files are provided to assess the quality of the normalization.
@@ -22,34 +18,27 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/galaxy-u
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [trinity_run_de_analysis](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_run_de_analysis): Differential expression analysis (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
-
-* [pilon](https://toolshed.g2.bx.psu.edu/view/iuc/pilon):  pilon is a tool for assembly improvement and variant analysis in bacteria Pilon is a software tool which can be used to:
-  * Automatically improve draft assemblies
-  * Find variation among strains, including large event detection. https://github.com/broadinstitute/pilon/wiki
-
-* [icqsol_solve_laplace](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_solve_laplace): Computes the jump of normal electric field given a potential field on the surface of a shape Contains a tool that computes the jump in flux-like (Neumann) boundary conditions given prescribed Dirichlet boundary conditions by using the boundary element method. Depending on the problem, the jump can be the surface flux or the normal electric field in electrostatic problems. The Dirichlet field is often called the potential (e.g. electrostatic potential). When the domain extends from the object to infinity and the interior of the object is perfectly conducting, the jump corresponds to the normal electric field just outside the object.
-* [trinity_abundance_estimates_to_matrix](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_abundance_estimates_to_matrix): Build expression matrix (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
-
-* [icqsol_coarsen_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_coarsen_shape): Coarsens a shape to a specified level resulting in a less detailed shape Contains a tool that coarsens a shape to a specified level resulting in a less detailed shape. Cells which have area smaller than a given tolerance are merged with their neighbors.
-* [icqsol_color_surface_field](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_color_surface_field): Colors a shape's selected surface field using a selected color map Colors a shape's selected surface field using a selected color map. This tool will restrict selected input shapes to only those that have at least one surface field.
-* [icqsol_scale_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_scale_shape): Scales a shape Contains a tool that magnifies the dimensions of a shape along some axes.
-* [icqsol_rotate_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_rotate_shape): Rotates a shape Contains a tool that applies a rotation by a given angle about an arbitrary axis.
-* [icqsol_create_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_create_shape): Creates a new selected primitive shape or a clone of a selected shape Contains a tool that creates a selected primitive shape where shapes are Box, Cone, Cylinder and Sphere with defined origin, edge lengths, radius, etc. This tool also creates a new copy of a shape selected from your history by cloning it.
-* [icqsol_add_texture](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_add_texture): Adds texture to a shape Contains a tool that adds texture by projecting a picture onto the shape.
-* [trinity_gene_to_trans_map](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_gene_to_trans_map): Generate gene to transcript map (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
-
-* [trinity_align_and_estimate_abundance](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_align_and_estimate_abundance):  Align reads and estimate abundance (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
-
-* [icqsol_translate_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_translate_shape): Translates a shape to a new position Contains a tool that applies translation operations to a shape by adding a displacement to each coordinate.
-* [icqsol_compose_shapes](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_compose_shapes): Creates a shape composed of any number of selected shapes Creates a shape composed of any number of selected shapes where the composition is based on a mathematical expression consisting of +, - and * operations. The + operator results in a union of shapes, the - operator removes a shape and the * operator results in an intersection of shapes.
-* [ucsc_twobittofa](https://toolshed.g2.bx.psu.edu/view/iuc/ucsc_twobittofa): twoBitToFa is a tool to convert all or part of .2bit file to fasta
-* [progressivemauve](https://toolshed.g2.bx.psu.edu/view/iuc/progressivemauve):  Mauve[/ProgressiveMauve](/src/toolshed/contributions/2016-08/ProgressiveMauve/index.md) Multiple Sequence Aligner Mauve is a system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. Multiple genome alignments provide a basis for research into comparative genomics and the study of genome-wide evolutionary dynamics. http://darlinglab.org/mauve/
-
-* [icqsol_add_surface_field_from_expression](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_add_surface_field_from_expression): Adds a surface field to a selected shape based on a given mathematical expression Contains a tool that adds a surface field to a selected shape based on a given mathematical expression consisting of variables x, y, z (shape point coordinates) and t (time). This tool will generate VTK POLYDATA files, so input PLY files or VTK files with a different dataset type will automatically be converted to VTK POLYDATA during tool execution.
-* [icqsol_refine_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_refine_shape): Refines a shape to a specified level resulting in a more detailed shape Contains a tool that refines a shape to a specified level resulting in a more detailed shape. A middle point is added to each edge and to the center of each of the shape's polygons for each level of refinement.
-* [trinity_filter_low_expr_transcripts](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts): Filter low expression transcripts (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
-
-* [trinity_samples_qccheck](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_samples_qccheck):  RNASeq samples quality check (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
+  * [pilon](https://toolshed.g2.bx.psu.edu/view/iuc/pilon):  pilon is a tool for assembly improvement and variant analysis in bacteria Pilon is a software tool which can be used to:
+    * Automatically improve draft assemblies
+    * Find variation among strains, including large event detection. https://github.com/broadinstitute/pilon/wiki
+  * [icqsol_solve_laplace](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_solve_laplace): Computes the jump of normal electric field given a potential field on the surface of a shape Contains a tool that computes the jump in flux-like (Neumann) boundary conditions given prescribed Dirichlet boundary conditions by using the boundary element method. Depending on the problem, the jump can be the surface flux or the normal electric field in electrostatic problems. The Dirichlet field is often called the potential (e.g. electrostatic potential). When the domain extends from the object to infinity and the interior of the object is perfectly conducting, the jump corresponds to the normal electric field just outside the object.
+  * [trinity_abundance_estimates_to_matrix](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_abundance_estimates_to_matrix): Build expression matrix (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
+  * [icqsol_coarsen_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_coarsen_shape): Coarsens a shape to a specified level resulting in a less detailed shape Contains a tool that coarsens a shape to a specified level resulting in a less detailed shape. Cells which have area smaller than a given tolerance are merged with their neighbors.
+  * [icqsol_color_surface_field](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_color_surface_field): Colors a shape's selected surface field using a selected color map Colors a shape's selected surface field using a selected color map. This tool will restrict selected input shapes to only those that have at least one surface field.
+  * [icqsol_scale_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_scale_shape): Scales a shape Contains a tool that magnifies the dimensions of a shape along some axes.
+  * [icqsol_rotate_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_rotate_shape): Rotates a shape Contains a tool that applies a rotation by a given angle about an arbitrary axis.
+  * [icqsol_create_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_create_shape): Creates a new selected primitive shape or a clone of a selected shape Contains a tool that creates a selected primitive shape where shapes are Box, Cone, Cylinder and Sphere with defined origin, edge lengths, radius, etc. This tool also creates a new copy of a shape selected from your history by cloning it.
+  * [icqsol_add_texture](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_add_texture): Adds texture to a shape Contains a tool that adds texture by projecting a picture onto the shape.
+  * [trinity_gene_to_trans_map](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_gene_to_trans_map): Generate gene to transcript map (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
+  * [trinity_align_and_estimate_abundance](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_align_and_estimate_abundance):  Align reads and estimate abundance (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
+  * [icqsol_translate_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_translate_shape): Translates a shape to a new position Contains a tool that applies translation operations to a shape by adding a displacement to each coordinate.
+  * [icqsol_compose_shapes](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_compose_shapes): Creates a shape composed of any number of selected shapes Creates a shape composed of any number of selected shapes where the composition is based on a mathematical expression consisting of +, - and * operations. The + operator results in a union of shapes, the - operator removes a shape and the * operator results in an intersection of shapes.
+  * [ucsc_twobittofa](https://toolshed.g2.bx.psu.edu/view/iuc/ucsc_twobittofa): twoBitToFa is a tool to convert all or part of .2bit file to fasta
+  * [progressivemauve](https://toolshed.g2.bx.psu.edu/view/iuc/progressivemauve):  Mauve[/ProgressiveMauve](/src/toolshed/contributions/2016-08/ProgressiveMauve/index.md) Multiple Sequence Aligner Mauve is a system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. Multiple genome alignments provide a basis for research into comparative genomics and the study of genome-wide evolutionary dynamics. http://darlinglab.org/mauve/
+  * [icqsol_add_surface_field_from_expression](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_add_surface_field_from_expression): Adds a surface field to a selected shape based on a given mathematical expression Contains a tool that adds a surface field to a selected shape based on a given mathematical expression consisting of variables x, y, z (shape point coordinates) and t (time). This tool will generate VTK POLYDATA files, so input PLY files or VTK files with a different dataset type will automatically be converted to VTK POLYDATA during tool execution.
+  * [icqsol_refine_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_refine_shape): Refines a shape to a specified level resulting in a more detailed shape Contains a tool that refines a shape to a specified level resulting in a more detailed shape. A middle point is added to each edge and to the center of each of the shape's polygons for each level of refinement.
+  * [trinity_filter_low_expr_transcripts](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts): Filter low expression transcripts (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
+  * [trinity_samples_qccheck](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_samples_qccheck):  RNASeq samples quality check (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
 
 * *From [kaymccoy](https://toolshed.g2.bx.psu.edu/view/kaymccoy):*
   * [calculate_fitnesses](https://toolshed.g2.bx.psu.edu/view/kaymccoy/calculate_fitnesses): of transposon insertion locations
@@ -102,7 +91,7 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/galaxy-u
 * *From [rmarenco](https://toolshed.g2.bx.psu.edu/view/rmarenco):*
   * [multi_fasta_glimmer_hmm](https://toolshed.g2.bx.psu.edu/view/rmarenco/multi_fasta_glimmer_hmm):  GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model (GHMM)
 
-#### repository_suite_definition
+# Suites
 
 * *From [earlhaminst](https://toolshed.g2.bx.psu.edu/view/earlhaminst):*
   * [ensembl_rest](https://toolshed.g2.bx.psu.edu/view/earlhaminst/ensembl_rest):  A suite of Ensembl-REST tools A suite of Galaxy tools designed to work with Ensembl REST API.
@@ -110,7 +99,7 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/galaxy-u
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [suite_trinity](https://toolshed.g2.bx.psu.edu/view/iuc/suite_trinity): Trinity tools to assemble transcript sequences from Illumina RNA-Seq data. Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
 
-#### tool_dependency_definition
+# Dependency Definitions
 
 * *From [abretaud](https://toolshed.g2.bx.psu.edu/view/abretaud):*
   * [package_lordec_0_6](https://toolshed.g2.bx.psu.edu/view/abretaud/package_lordec_0_6): Lordec 0.6 package
