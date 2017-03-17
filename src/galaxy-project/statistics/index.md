@@ -204,9 +204,9 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 
 # Tools
 
-## Galaxy Project ToolShed
+## Galaxy Project Tool Shed
 
-The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contributed software and workflows that can be installed at any Galaxy site.
+The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed software and workflows that can be installed at any Galaxy site.
 
 | Date    | Repos | Unique Owners | Valid Tools |
 |---------|------:|--------------:|------------:|
