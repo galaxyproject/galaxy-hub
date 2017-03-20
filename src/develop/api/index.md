@@ -23,33 +23,29 @@ Alternatively You can retrieve your API key by sending [baseauth](http://en.wiki
 
 * [Quickstart](https://docs.galaxyproject.org/en/latest/api/quickstart.html)
 * [API source code documentation](https://docs.galaxyproject.org/en/master/api_doc.html) - Documentation auto-generated for the API source code. The API source code itself can be found [here](https://github.com/galaxyproject/galaxy/tree/dev/lib/galaxy/webapps/galaxy/api) and is by its nature the most up-to-date and complete source of information.
-* [The bioblend documentation](http://bioblend.readthedocs.org/en/latest/) is the most updated and best documented source of information on consuming the Galaxy API.
+* [The BioBlend documentation](http://bioblend.readthedocs.org/en/latest/) is the most updated and best documented source of information on consuming the Galaxy API.
 
 # Programming Language Bindings
 
-Language specific libraries for interfacing with the Galaxy API are available. 
+Various language specific libraries for interfacing with the Galaxy API have been developed by the Galaxy community: 
 
 * The Galaxy code itself contains [JavaScript bindings](https://github.com/galaxyproject/galaxy/tree/dev/client/galaxy/scripts/mvc).
-* [BioBlend](https://github.com/galaxyproject/bioblend) contains a set of Python bindings developed by Galaxy developer [Enis Afgan](/src/people/enis-afgan/index.md).
+* [BioBlend](https://github.com/galaxyproject/bioblend) contains a set of Python bindings
     * [BioBlend: automating pipeline analyses within Galaxy and CloudMan.](http://www.ncbi.nlm.nih.gov/pubmed/23630176) Sloggett, et. al.
-     * [BioBlend.objects: metacomputing with Galaxy.](http://www.ncbi.nlm.nih.gov/pubmed/24928211) Leo, et. al.
-* [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings developed by Galaxy community member [John Chilton](/src/people/john-chilton/index.md) and largely modeled after BioBlend. [JavaDocs](http://jmchilton.github.io/blend4j/apidocs/).
-* [blend4php](https://github.com/galaxyproject/blend4php) contains PHP bindings developed by the Galaxy community.
+    * [BioBlend.objects: metacomputing with Galaxy.](http://www.ncbi.nlm.nih.gov/pubmed/24928211) Leo, et. al.
+* [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings largely modeled after BioBlend. [JavaDocs](http://jmchilton.github.io/blend4j/apidocs/).
+* [blend4php](https://github.com/galaxyproject/blend4php) contains PHP bindings.
   
 # Examples
 
 ## Code
 
-Many examples and API utility scripts are shipped with Galaxy. You can browse them [here](https://github.com/galaxyproject/galaxy/tree/dev/scripts/api). Notably: 
-
-* [scripts/api/workflow_execute.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/workflow_execute.py)
-* [scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/example_watch_folder.py)
-* [Running Galaxy From Command Line With Bioblend](https://www.biostars.org/p/94305/)
+Many examples and API utility scripts are shipped with Galaxy and BioBlend. You can browse them [here](https://github.com/galaxyproject/galaxy/tree/dev/scripts/api) and [here](https://github.com/galaxyproject/bioblend/tree/master/docs/examples) respectively.
 
 ## Open Source Projects
   * [Refinery](https://github.com/parklab/refinery-platform) (builds and runs workflows using [bioblend](http://bioblend.readthedocs.org/en/latest/))
   * The [Galaxy IPython Docker Runtime](https://github.com/bgruening/docker-ipython-notebook) (leverages [bioblend](http://bioblend.readthedocs.org/en/latest/) to interface with Galaxy's history). 
-  * [Molgenesis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/jmchilton/blend4j))
+  * [Molgenis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/jmchilton/blend4j))
   * [trait_workflow_runner](https://github.com/CTMM-TraIT/trait_workflow_runner) (used to run Galaxy workflows from [transMART](https://github.com/transmart) via [blend4j](https://github.com/jmchilton/blend4j)).
   * [clj-blend](https://github.com/chapmanb/clj-blend) (a Clojure library built on [blend4j](https://github.com/jmchilton/blend4j)).
 
@@ -65,9 +61,9 @@ HTTP methods correspond to operations in Galaxy. Operations are implemented as s
 | DELETE |  delete()   |  [delete.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/delete.py)  | 
 
 
-# Galaxy's API behind proxy
+# Galaxy's API behind a proxy
 
-You have to make sure, the calls are going through the proxy by adding the following lines to the Apache config file
+You have to make sure that the API calls are passing through the proxy by adding the following lines to the Apache config file:
 
    ```
     <Location "/api">
@@ -76,4 +72,4 @@ You have to make sure, the calls are going through the proxy by adding the follo
     </Location>
    ```
 
-Replace "/api" with "/api/galaxy" when serving Galaxy at a sub directory (such as /galaxy).
+Replace `/api` with `/api/galaxy` when serving Galaxy at a sub directory (such as `/galaxy/`).
