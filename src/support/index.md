@@ -1,5 +1,6 @@
 ---
 autotoc: true
+title: Galaxy Support
 ---
 
 # Support
