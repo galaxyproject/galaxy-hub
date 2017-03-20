@@ -28,7 +28,6 @@ To deploy this tool one needs to inform Galaxy about it. This is accomplished by
 ```
 <?xml version="1.0"?>
 <toolbox>
-    
     <section name="Data Sources" id="source100">
         <tool file="data_source/upload.xml"/>
     </section>

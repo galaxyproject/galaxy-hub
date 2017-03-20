@@ -1,5 +1,6 @@
 ---
 autotoc: true
+title: Installing Tools into Galaxy
 ---
 
 # Installing Tools into Galaxy
