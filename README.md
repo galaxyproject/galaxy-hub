@@ -62,7 +62,7 @@ metalsmith build process, which is defined in `build.coffee`.
 
 
 If you are having trouble building the site, your node_modules may not have
-been installed correctly and the first thing to try is to remove the directory
+been installed correctly and the first thing to try is to remove the directory#
 and/or execute the following command to have them reinstalled:
 
 ```
@@ -109,3 +109,7 @@ If your version is older than that, you may benefit from upgrading.
 
 
 [1]: http://www.metalsmith.io/
+
+## Redirects
+
+When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the ifrastructure playbook.
