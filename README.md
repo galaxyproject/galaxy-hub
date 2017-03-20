@@ -62,7 +62,7 @@ metalsmith build process, which is defined in `build.coffee`.
 
 
 If you are having trouble building the site, your node_modules may not have
-been installed correctly and the first thing to try is to remove the directory#
+been installed correctly and the first thing to try is to remove the directory
 and/or execute the following command to have them reinstalled:
 
 ```
