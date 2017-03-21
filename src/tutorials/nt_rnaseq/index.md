@@ -13,12 +13,12 @@ Here we will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI
  * Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
  * By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1
 
+|      |
+|------|
+|![](https://upload.wikimedia.org/wikipedia/commons/f/f0/Hematopoiesis_simple.svg)|
+|<small>**Schematic representation of hematopoesis** (from [Wikipedia](https://en.wikipedia.org/wiki/Haematopoiesis))</small>|
 
->![](https://upload.wikimedia.org/wikipedia/commons/f/f0/Hematopoiesis_simple.svg)
->
-><small>**Schematic representation of hematopoesis** (from [Wikipedia](https://en.wikipedia.org/wiki/Haematopoiesis))</small>
-
-# Analysis strategy
+## Analysis strategy
 
 The goal of this exercise is to:
 
@@ -27,7 +27,7 @@ The goal of this exercise is to:
 
  We will use a *de novo* transcript reconstruction strategy (not to be confused with the *de novo* RNAseq when reference genome is not known) to infer transcript structures from the mapped reads in the absence of the actual annotated transcript structures. This will allow us to identify novel transcripts and novel isoforms of known transcripts, as well as identify differentially expressed transcripts. 
 
-## Agenda
+## Tutorial Agenda
  
 In this tutorial, we will address:
 
@@ -39,7 +39,7 @@ In this tutorial, we will address:
  6. Read counting and differential expression analysis
  7. Visualization
 
-## The Data
+# Exploring the Data
 
 Due to the large size of this dataset, we have downsampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
@@ -53,11 +53,13 @@ The data is structured in the following way:
  - Each replicate has forward and reverse reads (`f` and `r`)
  - Thus, there are eight (8) fastq files
 
->![](/src/tutorials/nt_rnaseq/lib.png)
->
-><small>**Galaxy data library containing the reads**</small>
 
-### Uploading data
+|      |
+|:------:|
+|![](/src/tutorials/nt_rnaseq/lib.png)|
+|<small>**Galaxy data library containing the reads**</small>|
+
+## Uploading data
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   	<div class="panel panel-default">
@@ -105,9 +107,11 @@ The data is structured in the following way:
 
 Once you upload data into a new history you Galaxy interface should look like this:
 
->![](/src/tutorials/nt_rnaseq/afterUpload.png)
->
-><small>**Datasets are uploaded into a new history**</small>
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/afterUpload.png)|
+|<small>**Datasets are uploaded into a new history**</small>|
 
 ## Quality control
 
@@ -117,9 +121,11 @@ For quality control, we use similar tools as described in [NGS-QC tutorial](/tut
 
 Let's start by processing the smaller set of reads from Megakaryocyte set: `Mk_R1_f_ds_SRR549357` and its reverse set of mates `Mk_R1_r_ds_SRR549357`:
 
->![](/src/tutorials/nt_rnaseq/mk_qc.png)
->
-><small>**QC'ing reads with FastQC**</small>
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/mk_qc.png)|
+|<small>**QC'ing reads with FastQC**</small>|
 
 This will generate the following quality value distributions:
 
@@ -131,11 +137,9 @@ This will generate the following quality value distributions:
 
 <div class="panel panel-info">
 	<div class="panel-heading">
-  		<h3 class="panel-title"><i class="fa fa-question-circle" aria-hidden="true"></i>
-  			<a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
-     			What can you tell about these data?
-    		</a>
-   		</h3>
+  		<a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
+     		<i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
+    	</a>
   	</div>
   	<div class="panel-body collapse" id="qc">
         - The read length is 99 bp<br>
@@ -147,15 +151,19 @@ This will generate the following quality value distributions:
 
 The quality score distributions we seen above for one sample are characteristic of all reads in our dataset (you can run FastQC on remaining reads to see if this is true). To increase mapping efficiency we can trim off the low quality bases from the ends of the reads using 'Trimmomatic`:
 
->![](/src/tutorials/nt_rnaseq/trimmomatic.png)
->
-><small>**Running `trimmomatic` on all data**. Note we selected all forward reads in the `Input FASTQ file (R1/first of pair)` box and all reverse reads in the `Input FASTQ file (R2/second of pair)` box.</small>
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/trimmomatic.png)|
+|<small>**Running `trimmomatic` on all data**. Note we selected all forward reads in the `Input FASTQ file (R1/first of pair)` box and all reverse reads in the `Input FASTQ file (R2/second of pair)` box.</small>|
 
 Now that we've ran `trimmomatic` let's see if it had any effect on our data. We can do this by rerunning `FastQC` on `Mk_R1_f_ds_SRR549357` and `Mk_R1_r_ds_SRR549357` datasets after they have been trimmed:
 
->![](/src/tutorials/nt_rnaseq/fq_after_trimmomatic.png)
->
-><small>**Rerunning `FastQC` on trimmed data**</small>
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/fq_after_trimmomatic.png)|
+|<small>**Rerunning `FastQC` on trimmed data**</small>|
 
 This will generate the following quality value distributions:
 
@@ -166,11 +174,9 @@ This will generate the following quality value distributions:
 
 <div class="panel panel-info">
 	<div class="panel-heading">
-  		<h3 class="panel-title"><i class="fa fa-question-circle" aria-hidden="true"></i>
-  			<a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
-     			What is the effect of trimming on the data?
-    		</a>
-   		</h3>
+  		<a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
+     		<i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
+    	</a>
   	</div>
   	<div class="panel-body collapse" id="qc_after_trim">
         The average quality of base calls does not drop off as sharply at the 3' ends of reads.
@@ -180,10 +186,34 @@ This will generate the following quality value distributions:
 
 Now that we have trimmed our reads and are fortunate that there is a reference genome assembly for mouse, we will align our trimmed reads to the genome.
 
-> ### :nut_and_bolt: Comment
->
-> Instead of running a single tool multiple times on all your data, would you rather run a single tool on multiple datasets at once? Check out the [dataset collections](https://new.galaxyproject.org/tutorials/collections/) feature of Galaxy!
-> {: .comment}
+# Preparing dataset collections
+
+Instead of running a single tool multiple times on all your data, would you rather run a single tool on multiple datasets at once? To do this we will use [dataset collections](/tutorials/collections/) feature of Galaxy!
+
+## Copy datasets to a new history
+
+We want to create a new clean history by moving the original sequence data. To do this we click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane and choose **copy datasets**:
+
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/copy_datasets.png)|
+|<small>**Copying datasets in Galaxy** Use the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane to reveal this menu.</small>|
+
+The center pane of the Galaxy interface will change and you will see the following:
+
+>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)
+>**A.**
+>![](/src/tutorials/nt_rnaseq/datasets_copied.png)
+>**B**
+><small>**Copying datasets in Galaxy** Select datasets you want to copy (they are already checked in this image) and, if want them to be copied to a new history, name that history (in the image it is named `Novel Transcripts (RNAseq). Hit Enter or scroll done and click **Copy history Items**</small>
+
+|                                                           |                       |
+|-----------------------------------------------------------|-----------------------|
+| **A.**<br>![](/src/tutorials/nt_rnaseq/copy_datasets.png) | **B.**<br>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)<br>**C.**<br>![](/src/tutorials/nt_rnaseq/datasets_copied.png) |
+
+
+
 
 # Mapping
 
