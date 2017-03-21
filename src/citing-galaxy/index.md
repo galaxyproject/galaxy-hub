@@ -114,7 +114,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md),   "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)," in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
-1. S. Leo, L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo, [E. Afgan](/src/people/enis-afgan/index.md) and G. Zanetti, "[BioBlend.objects: metacomputing with Galaxy](http://bioinformatics.oxfordjournals.org/content/early/2014/07/01/bioinformatics.btu386)," in *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2014) doi:10.1093/bioinformatics/btu386 
+1. S. Leo, L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo, [E. Afgan](/src/people/enis-afgan/index.md) and G. Zanetti, **[BioBlend.objects: metacomputing with Galaxy](https://academic.oup.com/bioinformatics/article/30/19/2816/2422231/BioBlend-objects-metacomputing-with-Galaxy)**. *Bioinformatics* (2014) 30(19): 2816-2817 doi:10.1093/bioinformatics/btu386
 
 1. [Daniel Blankenberg](/src/people/dan/index.md) and [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), "[Analysis of Next-Generation Sequencing Data Using Galaxy](http://link.springer.com/protocol/10.1007%2F978-1-4939-0512-6_2)," in *Methods in Molecular Biology* 2014;1150:21-43. doi:10.1007/978-1-4939-0512-6_2
 
