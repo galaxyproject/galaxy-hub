@@ -6,7 +6,7 @@ title: Galaxy FTP Upload
 # File Upload via FTP
 
 <div class="alert alert-success" role="alert">
-The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email and password as for logging in to Main Galaxy.
+The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email and password as for Galaxy.
 </div>
 
 Uploading data directly from the browser can be unreliable and cumbersome.
@@ -30,18 +30,20 @@ In this example I'm using ForkLift for MacOS. Point your client to the FTP serve
 If you are having trouble connecting to the server try enabling `passive` mode in your client.
 </div>
 
-Below you can see my files copied to the destination.
+Below you can see my files copied to the destination on Galaxy's FTP server.
 ![files uploaded to Galaxy FTP server](ftp-files.png)
 
 ## Import to Galaxy
 
 Files uploaded to the FTP server won't automatically be imported to your history -
 rather, you will be presented with a list of the contents of your FTP directory
-in the standard upload interface:
+in the standard upload interface. Select the ones you want to import and hit Start.
 
 ![FTP files on the Upload File tool form](ftp-select.png)
 
+<div class="alert alert-warning" role="alert">
 Files not imported within 3 days will be cleaned up from the FTP site.
+</div>
 
 ## Configure for your Galaxy
 
