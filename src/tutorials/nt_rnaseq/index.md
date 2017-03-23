@@ -192,117 +192,168 @@ Instead of running a single tool multiple times on all your data, would you rath
 
 ## Copy datasets to a new history
 
-We want to create a new clean history by moving the original sequence data. To do this we click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane and choose **copy datasets**:
+We want to create a new clean history by moving the original sequence data. To do this we click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane and choose **copy datasets** and follow the instructions in the figure below:
 
-
-|      |
-|------|
-|![](/src/tutorials/nt_rnaseq/copy_datasets.png)|
-|<small>**Copying datasets in Galaxy** Use the cog (<i class="fa fa-cog" aria-hidden="true"></i>) above the history pane to reveal this menu.</small>|
-
-The center pane of the Galaxy interface will change and you will see the following:
-
->![](/src/tutorials/nt_rnaseq/copy_datasets2.png)
->**A.**
->![](/src/tutorials/nt_rnaseq/datasets_copied.png)
->**B**
-><small>**Copying datasets in Galaxy** Select datasets you want to copy (they are already checked in this image) and, if want them to be copied to a new history, name that history (in the image it is named `Novel Transcripts (RNAseq). Hit Enter or scroll done and click **Copy history Items**</small>
 
 |                                                           |                       |
 |-----------------------------------------------------------|-----------------------|
-| **A.**<br>![](/src/tutorials/nt_rnaseq/copy_datasets.png) | **B.**<br>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)<br>**C.**<br>![](/src/tutorials/nt_rnaseq/datasets_copied.png) |
+| **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br>Choose "**Copy Datasets**" option: <br>![](/src/tutorials/nt_rnaseq/copy_datasets.png) | **B.** Choose which datasets you need to copy:<br>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)<br>**C.** Click on the name of the newly created history:<br>![](/src/tutorials/nt_rnaseq/datasets_copied.png) |
+|<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy. **C**: Go to the new history.</small>  |
+
+Once all datasets are copied it will look something like this:
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/galaxy_after_copy.png)|
+|<small>**New history with copied datasets**</small>|
+
+## Create two dataset collections
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/create_col_1.png)|
+|<small>Make history items selectable by clicking checkbox (<i class="fa fa-check-square-o" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_2.png)|
+|<small>Show only G1E data by typing `G1E` in the search box.</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_3.png)|
+|<small>Select all shown datasets by clicking `All`.</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_4.png)|
+|<small>Use `For all selected` dropdown to start collection builder</small>
+|![](/src/tutorials/nt_rnaseq/create_col_5.png)|
+|<small>In the collection builder enter `_f_` and `_r_` in the two search boxes. Because datasets in out history are named as, for example, `G1E_R1_f_ds_SRR549355`, the `_f_` and `_r_` diffrentiate forward and reverse reads. Click `Pair these datasets` button.</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_6.png)|
+|<small>Datasets will become paired</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_7.png)|
+|<small>Scroll down, name the collection `G1E` and click `Create list`.</small>
+|![](/src/tutorials/nt_rnaseq/create_col_8.png)|
+|<small>You will get a new item in the history representing that collection</small>|
+|![](/src/tutorials/nt_rnaseq/create_col_9.png)|
+|<small>Do the same thing for Megakarycytes datasets and you should get a history that looks like the one above.</small>
 
 
+# Pre-processing, mapping, and post-processing
+
+## Pre-processing: Trimming all datasets
+
+Now that we have collections let's use `Trimmomatic` to trim all datasets in our analysis. We can do this directly on collections:
+
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/trim_col.png)|
+|<small>**Trimming an entire collection**. Note that `Single-end or paired-end reads?` is set to `Paired-end (as collection)`. This allows select collections (such `G1E`) as inputs.</small>|
+
+This will be repeated for `Mk` collection as well. Note that Trimmomatic produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; we one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
+It will be easier down the line if we rename collections to make easier to identify as analysis is progressing (collection tagging, which is currently in development, will alleviate this need in the near future). To rename a collection:
+
+|               |                  |
+|---------------|------------------|
+|![](/src/tutorials/nt_rnaseq/col_rename1.png)|![](/src/tutorials/nt_rnaseq/col_rename2.png)|
+|Click on collection to see this interface|Simply edit its name (from `Trimmomatic on collection...` to `G1E Trimmed` and hit Enter|
 
 
-# Mapping
-
-To make sense of the reads, their positions within mouse genome must be determined. This process is known as aligning or 'mapping' the reads to the reference genome.
-
-> ### :nut_and_bolt: Comment
->
-> Do you want to learn more about the principles behind mapping? Follow our [training](../../NGS-mapping)
-> {: .comment}
-
-In the case of a eukaryotic transcriptome, most reads originate from processed mRNAs lacking introns. Therefore, they cannot be simply mapped back to the genome as we normally do for reads derived from DNA sequences. Instead, the reads must be separated into two categories:
+To make sense of the reads, their positions within mouse genome must be determined. This process is known as aligning or 'mapping' the reads to the reference genome. In the case of a eukaryotic transcriptome, most reads originate from processed mRNAs lacking introns. Therefore, they cannot be simply mapped back to the genome as we normally do for reads derived from DNA sequences. Instead, the reads must be separated into two categories:
 
 - Reads contained within mature exons - these align perfectly to the reference genome
 - Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
-Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/hisat2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial.
+Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/hisat2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb_rnaseq/). 
+    
+## Spliced mapping with HiSat
 
->    > ### :nut_and_bolt: Comment
->    > As it is sometimes quite difficult to determine which settings correspond to those of other programs, the following table might be helpful to identify the library type:
->    > 
->    > Library type | **Infer Experiment** | **TopHat** | **HISAT** | **htseq-count** | **featureCounts**
->    > --- | --- | --- | --- | --- | ---
->    > PE | 1++,1--,2+-,2-+ | FR Second Strand | FR | yes | 1
->    > PE | 1+-,1-+,2++,2-- | FR First Strand | RF | reverse | 2
->    > SE | ++,-- | FR Second Strand | F | yes | 1
->    > SE | +-,-+ | FR First Strand | R | reverse | 2
->    > SE,PE | undecided | FR Unstranded | default | no | 0
->    > 
->    {: .comment}
->    
-> ### :pencil2: Hands-on: Spliced mapping
->
-> 1. **HISAT** :wrench:: Run `HISAT` on one forward/reverse read pair and modify the following settings:
->    - **Single end or paired reads?**: Individual paired-end reads
->    - **Source for the reference genome to align against**: Use a built-in genome > Mouse (Mus Musculus): mm10
->    - **Spliced alignment parameters**: Specify spliced alignment parameters
->    - **Specify strand-specific information**: First Strand (R/RF)
->    - **Transcriptome assembly reporting**: Report alignments tailored for transcript assemblers including StringTie.
->
->       ![](/src/tutorials/nt_rnaseq/hisat_tool_form.png)
->
-> 2. **HISAT** :wrench:: Run `HISAT` on the remaining forward/reverse read pairs with the same parameters.
->
+We will run HiSat with the following settings:
 
-# De novo transcript reconstruction
-Now that we have mapped our reads to the mouse genome with `HISAT`, we want to determine transcript structures that are represented by the aligned reads. This is called *de novo* transcriptome reconstruction. This unbiased approach permits the comprehensive identification of all transcripts present in a sample, including annotated genes, novel isoforms of annotated genes, and novel genes. While common gene/transcript databases are quite large, they are not comprehensive, and the *de novo* transcriptome reconstruction approach ensures complete transcriptome(s) identification from the experimental samples. The leading tool for transcript reconstruction is `Stringtie`. Here, we will use `Stringtie` to predict transcript structures based on the reads aligned by `HISAT`. 
+ - **Single end or paired reads?**: `Collection of paired reads`
+ - **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
+ - **Spliced alignment parameters**: `Specify spliced alignment parameters`
+ - **Specify strand-specific information**: `First Strand (R/RF)`
+ - **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
 
-> ### :pencil2: Hands-on: Transcriptome reconstruction
->
-> 1. **Stringtie** :wrench:: Run `Stringtie` on the `HISAT` alignments using the default parameters. 
->    - Use batch mode to run all four samples from one tool form. 
-> ![](/src/tutorials/nt_rnaseq/Stringtie.png)
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/hisat1.png)|
+|<small>**HiSat settings**. Upper part of HiSat interface showing that it is being run on a collection `G1E` against `mm10` genome build. Do not forget to scroll down and set **Spliced alignment parameters** as explained above.</small>|
 
-# Transcriptome assembly
+Run `HISAT` on the **Mk** collection as well.
 
-We just generated four transcriptomes with `Stringtie` representing each of the four RNA-seq libraries we are analyzing. Since these were generated in the absence of a reference transcriptome, and we ultimately would like to know what transcript structure corresponds to which annotated transcript (if any), we have to make a **transcriptome database**. We will use the tool `Cuffmerge` to combine redundant transcript structures across the four samples, provide non-redundant identifiers, and with the help of a reference annotation file annotate the nature/origin of each transcript (reference, novel isoform, intergenic transcript, antisense, etc.) 
+## Post-processing: cleaning the BAM 
 
-> ### :pencil2: Hands-on: Transcriptome assembly
->
-> 1. **Cuffmerge** :wrench:: Run `Cuffmerge` on the `Stringtie` assembled transcripts along with the RefSeq annotation file we imported earlier. 
->    - Use batch mode to inlcude all four `Stringtie` assemblies. 
->    - **Use Reference Annotation**: Yes, then select the "RefSeq GTF mm10" file. 
-> ![](/src/tutorials/nt_rnaseq/Cuffmerge.png)
->
->
->    > Transcript categorization used by `Cuffmerge`
->
->    > |**Class code** | **Transcript category**| 
->    > |:---:|:---|
->    > |= | Annotated in reference|
->    > |j | Novel isoform of reference| 
->    > |u | Intergenic|
->    > |x | Anti-sense|
->    > |r | Repetitive|
->    > |c | Contained in exon of reference| 
->    > |s | Anti-sense spliced intronic|
+After reads have been mapped it would make sense to restrict mapped reads to those than map in correct pairs and do not map to multiple locations. This can be done with **SAMools -> Filter SAM or BAM** tool:
 
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/filter_bam.png)|
+|<small>**BAMTools Filter**. Here we are filtering results of HiSat run (a dataset collection called `HISAT on G1E`) by retaining only reads with high [mapping quality](http://genome.sph.umich.edu/wiki/Mapping_Quality_Scores) that are paired and mapped in a proper pair.</small>
+
+We will again rename collections to `HISAT on G1E filtered` and `HISAT on Mk filtered`:
+
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/filtered_collection.png)|
+|<small>**HISAT results after filtering**</small>|
+
+
+# *De novo* transcript reconstruction
+
+## Assembling transcripts in individual sampled with Stringtie
+
+Now that we have mapped our reads to the mouse genome with `HISAT`, we want to determine transcript structures that are represented by the aligned reads. This is called *de novo* transcriptome reconstruction. This unbiased approach permits the comprehensive identification of all transcripts present in a sample, including annotated genes, novel isoforms of annotated genes, and novel genes. While common gene/transcript databases are quite large, they are not comprehensive, and the *de novo* transcriptome reconstruction approach ensures complete transcriptome(s) identification from the experimental samples. The leading tool for transcript reconstruction is `Stringtie`. Here, we will use `Stringtie` to predict transcript structures based on the reads aligned by `HISAT` and filtered as described above:
+
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/stringtie_col.png)|
+|<small>Running `Stringtie` on filtered mapped reads. Here it is run on collection `G1E` and we set `Name prefix for output transcripts` to `G1E`. When running `Stringtie` on collection `Mk` set this accordingly. </small>
+
+`Stringtie` generates assembled transcripts in [GFF format](https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual#output). Below is an example of its output:
+
+```
+chr1 StringTie transcript 160938184 160940158 1000 + . gene_id "G1E.1"; transcript_id "G1E.1.1"; cov "12.347418"; FPKM "18.040417"; TPM "25.133554";
+chr1 StringTie exon       160938184 160938232 1000 + . gene_id "G1E.1"; transcript_id "G1E.1.1"; exon_number "1"; cov "7.510204";
+```
+
+for description of fields in this dataset see [Stringtie manual](https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual#output).
+
+## Creating unified transcriptome assembly
+
+We just generated four transcriptomes with `Stringtie` representing each of the four RNA-seq libraries we are analyzing. Since these were generated in the absence of a reference transcriptome, and we ultimately would like to know what transcript structure corresponds to which annotated transcript (if any), we have to make a **transcriptome database**. We will use the tool `Stringtie merge` to combine redundant transcript structures across the four samples, provide non-redundant identifiers, and with the help of a reference annotation file annotate the nature/origin of each transcript (reference, novel isoform, intergenic transcript, antisense, etc.).
+
+However, since we have ran `Stringtie` on each collection (`G1E` and `Mk`) independently it, in turn, has produced two collections each containing transcript assemblies for each replicate. Before we run `Strigtie merge` we need to merge the collections. This is done using **Collection Operations -> Merge Collections** tool:
+
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/merge_col.png)|
+|<small>Merging collection into a single collection</small>|
+
+Now that the two collections are merged we will rename resulting collection `Transcriptome`. We are almost ready to run `Stringtie merge` on it. But in order to distinguish between novel and existing transcripts we will need provide `Stringtie merge` with a list of known annotated transcripts. For mouse genome version used in this tutorial (`mm10`) such a list can be downloaded from a [Galaxy Library](https://usegalaxy.org/library/list#folders/F59bc5dbe6dfc6d4c) as was described above. Now we can finally run `Stringtie merge`:
+
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/stringtie_merge.png)|
+|<small>Merging transcripts from `G1E` and `Mk` replicates into a single unified GFF dataset</small>|
+
+We will rename output of `Stringtie merge` as `Merged transcriptome`.
 
 # Analysis of the differential gene expression
 
-We just generated a transriptome database that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript. 
+We just generated a transcriptome database (a GFF output of `Stringtie merge`) that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript. 
 
 We now want to identify which transcripts are differentially expressed between the G1E and megakaryocyte cellular states. To do this we will implement a counting approach using `FeatureCounts` to count reads per transcript. Then we will provide this information to `DESeq2` to generate normalized transcript counts (abundance estimates) and significance testing for differential expression.
 
 ## Count the number of reads per transcript
 
-To compare the abundance of transcripts between different cellular states, the first essential step is to quantify the number of reads per transcript. [`FeatureCounts`](http://bioinf.wehi.edu.au/featureCounts/) is one of the most popular tools for counting reads in genomic features. In our case, we'll be using `FeatureCounts` to count reads aligning in exons of our `Cuffmerge` generated transcriptome database.
+To compare the abundance of transcripts between different cellular states, the first essential step is to quantify the number of reads per transcript. [`FeatureCounts`](http://bioinf.wehi.edu.au/featureCounts/) is one of the most popular tools for counting reads in genomic features. In our case, we'll be using `FeatureCounts` to count reads aligning in exons of our `Stringtie merge` generated transcriptome database.
 
-The recommended mode is "union", which counts overlaps even if a read only shares parts of its sequence with a genomic feature and disregards reads that overlap more than one feature.
+|       |
+|-------|
+|![](/src/tutorials/nt_rnaseq/fCount1.png)|
+|Set input collection. In this case this is filtered `HiSat` output for `G1E` replicates (You will have to repeat `featureCount` calculation on `Mk` collection as well.)
+|![](/src/tutorials/nt_rnaseq/fCount2.png)|
+|Expand **Options for paired-end reads**, enable **Count fragments instead of reads** and set **Orientation of the two read from the same pair** to `Reverse, Forward (rf)`.|
+|![](/src/tutorials/nt_rnaseq/fCount3.png)|
+|Finally expand **Advanced options**, set **GFF gene identifier** to `transcript_id`, Strand specificity of the protocol to `Stranded (reverse)` and hit Enter.|
+
+
+
+
 
 > ### :pencil2: Hands-on: Counting the number of reads per transcript
 >
