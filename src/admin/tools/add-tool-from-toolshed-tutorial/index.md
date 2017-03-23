@@ -3,8 +3,6 @@ autotoc: true
 title: Installing Tools into Galaxy
 ---
 
-# Installing Tools into Galaxy
-
 ## Ways to get tools into Galaxy
 
 1. Install a tool from the [Tool Shed](/src/toolshed/index.md). The process has to be completed by an administrator and can be done through the [Admin Interface](/src/admin/index.md).
