@@ -96,7 +96,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 4. Inconsistent line wrapping, common if merging chromosomes from various Genbank records (e.g. primary chroms with mito)
  * Symptoms include: Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. Or they may just fail for what appears to be a cluster error.
  * Solution: File tested and corrected locally then re-upload or test/fix within Galaxy.
- * How: Use <strong>**NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
+ * How: Use <strong>**NormalizeFasta**</strong> using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
 
 ### 5. Unsorted fasta genome file
  * Symptoms include: Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths.
