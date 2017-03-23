@@ -41,6 +41,7 @@ title: Support
 * [Galaxy Github issue board](https://galaxyproject.org/issues)
 * [Commercial Galaxy Support](https://galaxyproject.org/support/ccommercial)
 * [Scientific user guide to running a personal Galaxy server](https://galaxyproject.org/support/sci-user-galaxies)
+* [Moving data between Galaxy servers (any!)](https://galaxyproject.org/community/log/2016/moving-data-between-galaxies/)
 
 ### Troubleshooting
 
