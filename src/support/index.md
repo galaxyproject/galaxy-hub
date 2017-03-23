@@ -12,6 +12,7 @@ title: Galaxy Support
 * [NGS 101](https://galaxyproject.org/tutorials/g101)
 * [Tutorials](http://wiki.galaxyproject.org/Learn)
 * [Teaching with Galaxy](http://wiki.galaxyproject.org/Teach)
+* [Using Galaxy Choices](https://galaxyproject.org/choices)
 * [Search all Galaxy resources](/src/search/index.md)
 
 ## Help Resources
@@ -32,16 +33,16 @@ title: Galaxy Support
 * [Managing Datasets](https://galaxyproject.org/learn/managing-datasets/)
 * [Datasets and how jobs execute](https://galaxyproject.org/support/how-jobs-execute)
 * [Sharing and Publishing your work](https://galaxyproject.org/learn/share)
+* [Moving data between Galaxy servers (any!)](https://galaxyproject.org/community/log/2016/moving-data-between-galaxies/)
 * [Known Tool Issues (check here first if a tool failed)](https://galaxyproject.org/support/tool-issues)
 * [Known Data Issues](https://galaxyproject.org/support/data-issues)
 * [Galaxy Github issue board](https://galaxyproject.org/issues)
-* [Commercial Galaxy Support](https://galaxyproject.org/support/ccommercial)
 * [Scientific user guide to running a personal Galaxy server](https://galaxyproject.org/support/sci-user-galaxies)
-* [Moving data between Galaxy servers (any!)](https://galaxyproject.org/community/log/2016/moving-data-between-galaxies/)
+* [Commercial Galaxy Support](https://galaxyproject.org/support/commercial)
 
 ### Troubleshooting
 
-* [My history is missing!](https://galaxyproject.org/learn/missing-history/)
+* [My history is missing! Good news, it probably isn't.](https://galaxyproject.org/learn/missing-history/)
 * [The account usage quota seems incorrect](https://galaxyproject.org/learn/account-quotas/)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](https://galaxyproject.org/learn/managing-datasets/)
 * [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/learn/fastqsanger)
