@@ -18,13 +18,13 @@ When you run Galaxy for the first time, it will attempt to automatically downloa
 
 #### When you update Galaxy
 
-Upon updating Galaxy (via <tt>hg pull -u</tt>), it's possible that an egg has been added, or an existing egg version has changed since your old Galaxy revision. When starting Galaxy after updating, any new eggs that are missing will be downloaded automatically.
+Upon updating Galaxy (via `hg pull -u`), it's possible that an egg has been added, or an existing egg version has changed since your old Galaxy revision. When starting Galaxy after updating, any new eggs that are missing will be downloaded automatically.
 
 #### If your Galaxy server does not have Internet access
 
 Since eggs are downloaded from our repository at [eggs.g2.bx.psu.edu](http://eggs.g2.bx.psu.edu), if your server does not have Internet access, it will not be able to retrieve them. However, we provide a script to fetch the eggs you need from a system that does have Internet access, and then you can transfer those eggs to the Galaxy server. Here's how it works:
 
-If installing Galaxy for the first time, ensure you have a <tt>config/galaxy.ini</tt>. You can create <tt>config/galaxy.ini</tt> by copying it from <tt>config/galaxy.ini.sample</tt>.
+If installing Galaxy for the first time, ensure you have a `config/galaxy.ini`. You can create `config/galaxy.ini` by copying it from `config/galaxy.ini.sample`.
 
 ```
 cp config/galaxy.ini.sample config/galaxy.ini
@@ -48,7 +48,7 @@ This script can be copied to a system with Internet access and executed. It will
 galaxy_eggs-<your_platform>.zip
 ```
 
-This file should be copied back to the Galaxy server and unzipped in the root of the Galaxy installation, where it will create the <tt>eggs/</tt> subdirectory.
+This file should be copied back to the Galaxy server and unzipped in the root of the Galaxy installation, where it will create the `eggs/` subdirectory.
 
 ### How it works
 
@@ -58,7 +58,7 @@ For the most part, Galaxy handles your eggs for you. If you are attempting to ru
 
 The config file which contains all the information needed to maintain the correct versions of eggs, as well as how to build (or "scramble") them.
 
-_You should not make changes to <tt>eggs.ini</tt>_. This is the file which tells Galaxy what versions of its dependencies should be used for your exact revision of Galaxy. Changes will be merged when you update from the upstream source repository and can cause egg information to become incorrect.
+_You should not make changes to `eggs.ini`_. This is the file which tells Galaxy what versions of its dependencies should be used for your exact revision of Galaxy. Changes will be merged when you update from the upstream source repository and can cause egg information to become incorrect.
 
 The python scripts below can be run to check, download and build eggs.
 
@@ -68,30 +68,30 @@ Entries in the [sources] section of the config file can be a relative path. If r
 
 ### scripts/check\_eggs.py
 
-Checks your eggs against the versions listed in <tt>eggs.ini</tt>. If <tt>check_eggs.py</tt> determines that eggs are missing or out of date, it will direct you to run <tt>fetch_eggs.py</tt>.
+Checks your eggs against the versions listed in `eggs.ini`. If `check_eggs.py` determines that eggs are missing or out of date, it will direct you to run `fetch_eggs.py`.
 
 ### scripts/fetch\_eggs.py
 
-Connects to [the Galaxy Eggs distribution site](http://eggs.g2.bx.psu.edu/) and downloads any eggs that you need. If eggs for your platform are unavailable, <tt>fetch_eggs.py</tt> will direct you to run <tt>scramble.py</tt>
+Connects to [the Galaxy Eggs distribution site](http://eggs.g2.bx.psu.edu/) and downloads any eggs that you need. If eggs for your platform are unavailable, `fetch_eggs.py` will direct you to run `scramble.py`
 
 ### scripts/scramble.py
 
-Scrambles (builds) eggs for your platform. Using <tt>scramble.py</tt> should only necessary if pre-built eggs are not available for your platform.
+Scrambles (builds) eggs for your platform. Using `scramble.py` should only necessary if pre-built eggs are not available for your platform.
 
-<tt>scramble.py</tt> uses build scripts in the <tt>scripts/scramble/scripts</tt> directory to download and build modules. Module source and successfully built binaries of dependencies like <<nwwl(PostgreSQL)>> and <<nwwl(MySQL)>> are stored in <tt>scripts/scramble/archive</tt>. The <tt>scripts/scramble/build</tt> directory contains the latest unpacked/built source for each module you scrambled. Both <tt>archives</tt> and <tt>build</tt> can grow quite large over time, so please be aware of this, and clean as necessary.
+`scramble.py` uses build scripts in the `scripts/scramble/scripts` directory to download and build modules. Module source and successfully built binaries of dependencies like <<nwwl(PostgreSQL)>> and <<nwwl(MySQL)>> are stored in `scripts/scramble/archive`. The `scripts/scramble/build` directory contains the latest unpacked/built source for each module you scrambled. Both `archives` and `build` can grow quite large over time, so please be aware of this, and clean as necessary.
 
 ### Scrambling Eggs for Distribution
 
-A separate script, <tt>scripts/dist-scramble.py</tt> exists for building on multiple platforms. This is mostly designed for use by Galaxy Developers at Penn State who are building eggs for distribution via [the Galaxy Eggs distribution site](http://eggs.g2.bx.psu.edu). <tt>dist-scramble.py</tt> uses the <tt>dist-eggs.ini</tt> config file to determine what platforms to build for, and which hosts to build on.
+A separate script, `scripts/dist-scramble.py` exists for building on multiple platforms. This is mostly designed for use by Galaxy Developers at Penn State who are building eggs for distribution via [the Galaxy Eggs distribution site](http://eggs.g2.bx.psu.edu). `dist-scramble.py` uses the `dist-eggs.ini` config file to determine what platforms to build for, and which hosts to build on.
 
-<tt>dist-scramble.py</tt> works the same way as <tt>scramble.py</tt>:
+`dist-scramble.py` works the same way as `scramble.py`:
 
-<tt>% python scripts/dist-scramble.py galaxy_egg</tt>
+`% python scripts/dist-scramble.py galaxy_egg`
 
-Called with only the egg argument, <tt>dist-scramble.py</tt> will build for all the platforms under the **all** group in its config file (for platform-specific eggs) or the **noplatform** group (for platform-inspecific eggs). The <tt>[[hosts]</tt>|section contains information about which hosts will be used for building on each desired platform. If you don't want to build for all the platforms listed under the **all** group, you can add a platform argument (any lvalue in the <tt>[hosts]]</tt> or <tt>[groups]</tt> section is valid):
+Called with only the egg argument, `dist-scramble.py` will build for all the platforms under the **all** group in its config file (for platform-specific eggs) or the **noplatform** group (for platform-inspecific eggs). The `[[hosts]`|section contains information about which hosts will be used for building on each desired platform. If you don't want to build for all the platforms listed under the **all** group, you can add a platform argument (any lvalue in the `[hosts]]` or `[groups]` section is valid):
 
-<tt>% python scripts/dist-scramble.py galaxy_egg linux</tt>
+`% python scripts/dist-scramble.py galaxy_egg linux`
 
 The platform argument is ignored for platform-inspecific eggs. An assumption is made that your Galaxy distribution is located at the same place on all of the hosts on which you're building (i.e. via a network filesystem).
 
-Once <tt>dist-scramble.py</tt> finishes, it will output a list of platforms on which it failed to scramble the egg. Successful eggs will be put in a new <tt>dist-eggs</tt> subdirectory of your Galaxy distribution. These eggs can then be copied to your distribution site.
+Once `dist-scramble.py` finishes, it will output a list of platforms on which it failed to scramble the egg. Successful eggs will be put in a new `dist-eggs` subdirectory of your Galaxy distribution. These eggs can then be copied to your distribution site.

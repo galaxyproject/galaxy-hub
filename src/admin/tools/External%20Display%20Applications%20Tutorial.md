@@ -36,7 +36,7 @@ Lets suppose we want to write a display application which displays a BAM file at
 
 - The data to be displayed is provided by giving a public URL to the <<nwwl(UCSC)>> genome browser. 
 - 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai' 
-- The url to send data to <<nwwl(UCSC)>> is of the form: <tt> http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK </tt> 
+- The url to send data to <<nwwl(UCSC)>> is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK ` 
 
 This display application will require 3 parameters, corresponding to the 3 data files that are needed.
 
@@ -44,7 +44,7 @@ This display application will require 3 parameters, corresponding to the 3 data 
 2. The BAM file, the actual dataset being used for the display, is internally referred to as 'bam\_file', but will be available as [http://some/url/path/galaxy.bam](http://some/url/path/galaxy.bam) 
 3. The index file, which is available as a metadata attribute of the BAM file, is internally referred to as 'bai\_file', but will be available as [http://some/url/path/galaxy.bam.bai](http://some/url/path/galaxy.bam.bai) 
 
-This display application can then be defined like this example (<tt>display_applications/ucsc/bam.xml/</tt>):
+This display application can then be defined like this example (`display_applications/ucsc/bam.xml/`):
 
 ```
 <display id="ucsc_bam" version="1.0.0" name="display at UCSC">
@@ -57,7 +57,7 @@ This display application can then be defined like this example (<tt>display_appl
 </display>
 ```
 
-To instruct Galaxy to use this display app, we modify <tt> datatypes_conf.xml </tt> and add the following to the BAM datatype:
+To instruct Galaxy to use this display app, we modify ` datatypes_conf.xml ` and add the following to the BAM datatype:
 
 ```
 <datatype extension="bam" type="galaxy.datatypes.binary:Bam" mimetype="application/octet-stream" display_in_upload="true">
@@ -75,7 +75,7 @@ Items needed for this display:
 
 - The data to be displayed is provided by giving a public URL to the <<nwwl(UCSC)>> genome browser. 
 - 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict 
-- The url to send data to <<nwwl(UCSC)>> is of the form: <tt> http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE </tt> 
+- The url to send data to <<nwwl(UCSC)>> is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE ` 
 
 This display application requires 2 parameters:
 
@@ -121,9 +121,9 @@ ${chrom}:${start}-${end + 1}
 </display>
 ```
 
-_where the 'strip' attribute of 'position' indicates that whitespace should be removed from around the determined position before being substituted into the URL. This can also be accomplished using ordinary string operations like: <tt>position=${qp(str( position).strip())} </tt>. 'qp' is a shortcut to 'quote\_plus' which escapes text for use as part of a URL_
+_where the 'strip' attribute of 'position' indicates that whitespace should be removed from around the determined position before being substituted into the URL. This can also be accomplished using ordinary string operations like: `position=${qp(str( position).strip())} `. 'qp' is a shortcut to 'quote\_plus' which escapes text for use as part of a URL_
 
-To instruct Galaxy to use this display app, we modify <tt> datatypes_conf.xml </tt> and add the following to the interval datatype:
+To instruct Galaxy to use this display app, we modify ` datatypes_conf.xml ` and add the following to the interval datatype:
 
 ```
 <datatype extension="interval" type="galaxy.datatypes.interval:Interval" display_in_upload="true">
@@ -144,7 +144,7 @@ Items needed for this display:
 - The data to be displayed is provided by giving an encoded filename to the <<nwwl(GeneTrack)>> server, which has access to the appropriate filesystem. 
 - A Hashkey, used as an identity check by <<nwwl(GeneTrack)>> 
 - <<nwwl(GeneTrack)>> is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs 
-- The url to send data to <<nwwl(GeneTrack)>> is of the form: <tt> http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL </tt> 
+- The url to send data to <<nwwl(GeneTrack)>> is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL ` 
 
 This display application requires 5 parameters:
 
@@ -176,7 +176,7 @@ This display application requires 5 parameters:
 
 _where '<<nwwl(BASE\_URL)>>', 'APP' and qp are built-in parameters available to display applications_
 
-To instruct Galaxy to use this display app, we modify <tt> datatypes_conf.xml </tt> and add the following to the interval datatype:
+To instruct Galaxy to use this display app, we modify ` datatypes_conf.xml ` and add the following to the interval datatype:
 
 ```
 <datatype extension="interval" type="galaxy.datatypes.interval:Interval" display_in_upload="true">
@@ -195,17 +195,17 @@ _where our xml file was saved as /display\_applications/genetrack.xml and inheri
 
 Sometimes it can be desired to have links and parameters for a Display Application to come from an external file. In the following examples we will modify the above examples to be populated using data found in external files.
 
-The file <tt>tool-data/shared/ucsc/ucsc_build_sites.txt</tt> contains tab delimited data, with one line per display site, consisting of columns:
+The file `tool-data/shared/ucsc/ucsc_build_sites.txt` contains tab delimited data, with one line per display site, consisting of columns:
 
 1. Site Name 
 2. Site URL 
 3. Comma-separated Genome Builds Available at this site 
 
-The display will also be filtered based upon a Galaxy Application configuration variable <tt>ucsc_display_sites</tt> which is used to to restrict available sites to a list specified in universe\_wsgi.ini; alternatively the non-desired sites can be removed by commenting or deleting them out in <tt>tool-data/shared/ucsc/ucsc_build_sites.txt</tt>.
+The display will also be filtered based upon a Galaxy Application configuration variable `ucsc_display_sites` which is used to to restrict available sites to a list specified in universe\_wsgi.ini; alternatively the non-desired sites can be removed by commenting or deleting them out in `tool-data/shared/ucsc/ucsc_build_sites.txt`.
 
 #### Example 1 Advanced
 
-Display a BAM file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (<tt>tool-data/shared/ucsc/ucsc_build_sites.txt</tt>).
+Display a BAM file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
 
 ```
 <display id="ucsc_bam" version="1.0.0" name="display at UCSC">
@@ -237,7 +237,7 @@ Display a BAM file at the <<nwwl(UCSC)>> genome browser, dynamically loading sit
 
 #### Example 2 Advanced
 
-Display an Interval file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (<tt>tool-data/shared/ucsc/ucsc_build_sites.txt</tt>).
+Display an Interval file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
 
 ```
 <display id="ucsc_interval_as_bed" version="1.0.0" name="display at UCSC" inherit="True">

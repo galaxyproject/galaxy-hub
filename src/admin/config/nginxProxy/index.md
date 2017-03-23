@@ -4,7 +4,7 @@
 
 nginx is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ( [Main](Main) and [Test](Test)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
 
-Galaxy should _never_ be located on disk inside nginx's <tt>root</tt>. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
+Galaxy should _never_ be located on disk inside nginx's `root`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
 ## Basic configuration
 
@@ -49,7 +49,7 @@ include /etc/nginx/sites-enabled/*;
 
 client\_max\_body\_size specifies the maximum upload size that can be handled by <<nwwl(POST)>> requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
 
-Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to <tt>server { } </tt>:
+Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to `server { } `:
 
 ```
 #!highlight nginx
@@ -97,7 +97,7 @@ http {
 }
 ```
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the <tt>[app:main]</tt> section of <tt>config/galaxy.ini</tt> and restarting Galaxy:
+Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 [filter:proxy-prefix]
@@ -112,7 +112,7 @@ filter-with = proxy-prefix
 cookie_path = /galaxy
 ```
 
-<tt>cookie_prefix</tt> should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
+`cookie_prefix` should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
 
 ## External User Authentication
 
@@ -120,7 +120,7 @@ cookie_path = /galaxy
 
 ## SSL
 
-If you place Galaxy behind a proxy address that uses SSL (e.g. <tt>https://</tt> <<nwwl(URLs)>>), set the following in your nginx config:
+If you place Galaxy behind a proxy address that uses SSL (e.g. `https://` <<nwwl(URLs)>>), set the following in your nginx config:
 
 ```
 #!highlight nginx
@@ -129,11 +129,11 @@ location / {
 }
 ```
 
-Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing <tt>location / { } </tt> block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Compression and caching
 
-All of Galaxy's static content can be cached on the client side, and everything (including dynamic content) can be compressed on the fly. This will decrease download and page load times for your clients, as well as decrease server load and bandwidth usage. To enable, you'll need nginx gzip support (which is standard unless compiled with <tt>--without-http_gzip_module</tt>), and the following in your <tt>nginx.conf</tt>:
+All of Galaxy's static content can be cached on the client side, and everything (including dynamic content) can be compressed on the fly. This will decrease download and page load times for your clients, as well as decrease server load and bandwidth usage. To enable, you'll need nginx gzip support (which is standard unless compiled with `--without-http_gzip_module`), and the following in your `nginx.conf`:
 
 ```
 #!highlight nginx
@@ -149,7 +149,7 @@ http {
 }
 ```
 
-For caching, you'll need to add an <tt>expires</tt> directive to the <tt>location /static { } </tt> blocks:
+For caching, you'll need to add an `expires` directive to the `location /static { } ` blocks:
 
 ```
 #!highlight nginx
@@ -167,13 +167,13 @@ http {
 }
 ```
 
-The contents of <tt>location /static { } </tt> should be adjusted accordingly if you're serving Galaxy from a subdirectory.
+The contents of `location /static { } ` should be adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Sending files using nginx
 
-Galaxy sends files (e.g. dataset downloads) by opening the file and streaming it in chunks through the proxy server. However, this ties up the Galaxy process, which can impact the performance of other operations (see [Admin/Config/Performance/ProductionServer](Admin%2FConfig%2FPerformance%2FProductionServer) for a more in-depth explanation). nginx can assume this task instead and as an added benefit, speed up downloads. This is accomplished through the use of the special <tt>X-Accel-Redirect</tt> header. Dataset security is maintained in this configuration because nginx will still check with Galaxy to ensure that the requesting user has permission to access the dataset before sending it.
+Galaxy sends files (e.g. dataset downloads) by opening the file and streaming it in chunks through the proxy server. However, this ties up the Galaxy process, which can impact the performance of other operations (see [Admin/Config/Performance/ProductionServer](Admin%2FConfig%2FPerformance%2FProductionServer) for a more in-depth explanation). nginx can assume this task instead and as an added benefit, speed up downloads. This is accomplished through the use of the special `X-Accel-Redirect` header. Dataset security is maintained in this configuration because nginx will still check with Galaxy to ensure that the requesting user has permission to access the dataset before sending it.
 
-To enable it, add the following to your <tt>nginx.conf</tt>:
+To enable it, add the following to your `nginx.conf`:
 
 ```
 #!highlight nginx
@@ -187,19 +187,19 @@ http {
 }
 ```
 
-And the following to the <tt>[app:main]</tt> section of <tt>config/galaxy.ini</tt>:
+And the following to the `[app:main]` section of `config/galaxy.ini`:
 
 ```
 nginx_x_accel_redirect_base = /_x_accel_redirect
 ```
 
-For this to work, the user under which your nginx server runs will need read access to Galaxy's <tt>database/files/</tt> directory and its contents.
+For this to work, the user under which your nginx server runs will need read access to Galaxy's `database/files/` directory and its contents.
 
 ## Receiving files using nginx
 
 Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of nginx\_upload\_module, a 3rd-party nginx module.
 
-To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install nginx\_upload\_module. This means recompiling nginx. Once done, add the necessary directives to <tt>nginx.conf</tt>:
+To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install nginx\_upload\_module. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
 
 ```
 #!highlight nginx
@@ -227,9 +227,9 @@ http {
 }
 ```
 
-Note the <tt>user</tt> directive. To ensure that Galaxy has write permission on the uploaded files, nginx's workers will need to run as the same user as Galaxy.
+Note the `user` directive. To ensure that Galaxy has write permission on the uploaded files, nginx's workers will need to run as the same user as Galaxy.
 
-Finally, set the following in the <tt>[app:main]</tt> section of <tt>config/galaxy.ini</tt> and restart Galaxy:
+Finally, set the following in the `[app:main]` section of `config/galaxy.ini` and restart Galaxy:
 
 ```
 nginx_upload_store = database/tmp/upload_store

@@ -30,9 +30,9 @@ Most eggs are platform-inspecific (e.g. Pure Python), and thus you can use the p
 - pysqlite 
 - numpy 
 
-You'll need to get and build the versions specified in <tt>galaxy_dist/eggs.ini</tt>, so consult that file for proper versions and download <<nwwl(URLs)>>. The remaining eggs are required for a number of tools, as well as for some development/debuging purposes.
+You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download <<nwwl(URLs)>>. The remaining eggs are required for a number of tools, as well as for some development/debuging purposes.
 
-Galaxy's egg building script, <tt>scramble.py</tt> may or may not work for certain eggs under Windows. If not, scramble's build scripts, located at <tt>galaxy_dist/scripts/scramble/scripts/</tt> can be used as reference for building eggs.
+Galaxy's egg building script, `scramble.py` may or may not work for certain eggs under Windows. If not, scramble's build scripts, located at `galaxy_dist/scripts/scramble/scripts/` can be used as reference for building eggs.
 
 #### An example of building the bx-python egg in MinGW/MSYS:
 
@@ -66,14 +66,14 @@ Edit setup.cfg and add the following:
 compiler = mingw32
 ```
 
-Then build the egg (be sure to include the tag from the <tt>[tags]</tt> section of <tt>galaxy_dist/eggs.ini</tt>:
+Then build the egg (be sure to include the tag from the `[tags]` section of `galaxy_dist/eggs.ini`:
 
 ```
 #!highlight sh
 % python setup.py egg_info -b _dev_r4bf1f32e6b76 bdist_egg
 ```
 
-Once built, eggs need to be placed in <tt>galaxy_dist/eggs/&lt;platform&gt;</tt>, where <platform> is the platform-specific output of <tt>galaxy_dist/scripts/get_platforms.py</tt>:
+Once built, eggs need to be placed in `galaxy_dist/eggs/&lt;platform&gt;`, where <platform> is the platform-specific output of `galaxy_dist/scripts/get_platforms.py`:
 
 ```
 #!highlight sh

@@ -11,13 +11,13 @@ Built-in data files are critical for many Galaxy tools. This page will describe 
 
 ## How it works
 
-There are several steps needed for adding a genome to Galaxy. The first is to get the actual data needed and to put it into an appropriate directory accessible to the Galaxy instance. Then you need to establish the particular <tt>.loc</tt> ("location") file. Finally, make sure that the genome is referenced in the <tt>$GALAXYROOT/tool-data/shared/ucsc/builds.txt</tt> file.
+There are several steps needed for adding a genome to Galaxy. The first is to get the actual data needed and to put it into an appropriate directory accessible to the Galaxy instance. Then you need to establish the particular `.loc` ("location") file. Finally, make sure that the genome is referenced in the `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file.
 
 **Note that as of early 2014, more than a builds.txt file change is needed to establish a new reference genome. If not using** [Data Managers](Admin%2FTools%2FDataManagers) **, you must make the necessary changes/additions to the new [Data Tables](Admin%2FTools%2FData+Tables) or use the alternative configuration file (described on that same _Data Tables_ wiki, near the end).**
 
 ### Get the data
 
-First you need to determine what type of data you need. Usually these are <tt>.fasta</tt>, <tt>.nib</tt>, <tt>.2bit</tt>, or special index files, but each tool has a specific need. Open up the XML for the particular tool and identify the <tt>.loc</tt> file referred to in either a validator tag or options tag. Open the <tt>$GALAXYROOT/tool-data/&lt;filename&gt;.loc.sample</tt> file, and read it to discover the type of files necessary. Once you know what you need, you can go acquire it.
+First you need to determine what type of data you need. Usually these are `.fasta`, `.nib`, `.2bit`, or special index files, but each tool has a specific need. Open up the XML for the particular tool and identify the `.loc` file referred to in either a validator tag or options tag. Open the `$GALAXYROOT/tool-data/&lt;filename&gt;.loc.sample` file, and read it to discover the type of files necessary. Once you know what you need, you can go acquire it.
 
 There are several ways to get the data. If you don't already have the right file on your system, you will need to get it from a site such as [UCSC](http://genome.ucsc.edu).
 
@@ -25,7 +25,7 @@ Or, if you would like to obtain the data as available on the public Galaxy [Main
 
 ### Set up the loc file
 
-The <tt>.loc.sample</tt> files themselves include instructions for setting them up. In all cases, there is one reference genome per line, with tab-separated information. Create the needed <tt>.loc</tt> files, add your sequence and index data, and place these into the <tt>$GALAXYROOT/tool-data</tt> directory. This can be modified, but is the default location configured in <tt>config/galaxy.ini</tt> and the other configuration files referenced by it, in this section:
+The `.loc.sample` files themselves include instructions for setting them up. In all cases, there is one reference genome per line, with tab-separated information. Create the needed `.loc` files, add your sequence and index data, and place these into the `$GALAXYROOT/tool-data` directory. This can be modified, but is the default location configured in `config/galaxy.ini` and the other configuration files referenced by it, in this section:
 
 ```
 # -- Files and directories
@@ -79,7 +79,7 @@ Also see the **[Rsync](Admin%2FUseGalaxyRsync)** wiki if you want to obtain the 
 
 Final and most important item needed is to include any new reference genomes in the builds.txt file. This is the list of reference genomes appear in the Genome or Database/Build search box when you upload a file or change a file's metadata (Where to find these? See the Rsync link directly above for screenshots).
 
-To modify the builds.txt file, add a line to <tt>$GALAXYROOT/tool-data/shared/ucsc/builds.txt</tt> for your genome. The format of this line can vary, but should contain enough information to uniquely identify the genome, the source, any external build nomenclature, and the **dbkey** selected for use within your [Galaxy](http://getgalaxy.org) instance. See the public [Main](Main) server for examples: [http://usegalaxy.org](http://usegalaxy.org)
+To modify the builds.txt file, add a line to `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` for your genome. The format of this line can vary, but should contain enough information to uniquely identify the genome, the source, any external build nomenclature, and the **dbkey** selected for use within your [Galaxy](http://getgalaxy.org) instance. See the public [Main](Main) server for examples: [http://usegalaxy.org](http://usegalaxy.org)
 
 ### Restart the server
 
