@@ -7,11 +7,11 @@ title: Galaxy Support
 
 End-User Support Resource Short List
 
+* `Search Galaxy` field at the top of this page.
 * [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
-* [Learn](/src/learn/index.md)
-* [Teach](/src/teach/index.md)
-* [Vimeo](http://vimeo.com/galaxyproject)
-* [GalaxyProject.org](http://galaxyproject.org) &rarr; Execute a [Custom search](/src/search/index.md) through all project content
+* [Chat](https://gitter.im/galaxyproject/Lobby)
+* [Mailing Lists](/src/mailing-lists/index.md)
+* [Screencasts & Tutorials](http://vimeo.com/galaxyproject)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 
 Known issues:
@@ -111,7 +111,7 @@ Galaxy has a simplified tool interface packed with usage details. [Read more...]
 
 
 
-Having your own account on the public **[Test](/src/test)** and/or **[Main](/src/main)** server means that you can save histories, work with more data, associate an [OpenID](/learn/OpenID%20Login), and get the most out of Galaxy's functionality. Be sure to note that the public [Test](/src/test) and [Main](/src/main) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). More details **[here](/src/support#Dataset_and_History_Guides)**.
+Having your own account on the public **[Test](/src/test)** and/or **[Main](/src/main)** server means that you can save histories, work with more data, associate an [OpenID](/learn/OpenID%20Login), and get the most out of Galaxy's functionality. Be sure to note that the public [Test](/src/test) and [Main](/src/main) instance **usage policies are <span class="red">one account per user</span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). More details **[here](/src/support#Dataset_and_History_Guides)**.
 
 Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/src/learn/user-accounts)** wiki for more help.
 
@@ -224,7 +224,7 @@ $ wget -c '<link>'                        # continue an interrupted download
 Or, using curl:
 
 ```
-$ curl -o outfile '<link>' 
+$ curl -o outfile '<link>'
 $ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
 $ curl -C - -o outfile '<link>'           # continue an interrupted download
 ```
