@@ -3,10 +3,6 @@ autotoc: true
 title: Custom Genomes
 ---
 
-
-{{> Learn/LinkBox }}
-<div class='right'></div>
-
 # What is a "Custom Reference Genome" ?
 
 A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, transcripts, or contigs for a single species. It is representative of a specific genome build or release. 
