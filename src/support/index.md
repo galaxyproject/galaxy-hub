@@ -5,8 +5,6 @@ title: Galaxy Support
 
 # Galaxy Support
 
-
-
 ## Quick Start
 
 * [NGS 101](https://galaxyproject.org/tutorials/g101)
