@@ -1,14 +1,15 @@
 ---
 title: Datatypes
+autotoc: true
 ---
 Galaxy is designed to work with many different **datatypes**. Upon file upload,
 **datatype** can be detected and assigned (when possible) or user specified
 (before or after load). **Datatype** is also assigned by tools when output is
 created. It is important to note that _many tools will only accept as input
 [datasets](/Learn/Managing%20Datasets) with the appropriate **datatype**
-assigned_.  
+assigned_.
 
-A **datatype** can be altered in two ways:  
+A **datatype** can be altered in two ways:
 
 1\. By the appropriate tool to transform the data from one type to another. See
 tool groups: **Convert Formats**, **SAM Tools**, and **NGS: QC and
@@ -16,14 +17,14 @@ manipulation**, or perform a search in the top left Tool Search box.  2\. With
 the **Edit Attributes** form, reached by clicking on the pencil icon
 ![Images/Icons/pencil.png](/Images/Icons?action=AttachFile&do=get&target=pencil.png
 "Inlined image: Images/Icons/pencil.png") inside of a
-[dataset](/Learn/Managing%20Datasets) box in the history.  
+[dataset](/Learn/Managing%20Datasets) box in the history.
 
 **Tool developers**: please see [Admin/Datatypes](/Admin/Datatypes) for
-instructions about adding new datatypes to Galaxy.  
+instructions about adding new datatypes to Galaxy.
 
 **Galaxy User Interface**: "[Format
 Help](http://usegalaxy.org/static/formatHelp.html)" accessed through datatype
-links on tool forms.  
+links on tool forms.
 
 ## Ab1
 
