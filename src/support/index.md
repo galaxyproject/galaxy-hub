@@ -3,31 +3,25 @@ autotoc: true
 title: Galaxy Support
 ---
 
----
-autotoc: true
-title: Support
----
-
-# Galaxy Support
-
-
-
-## Quick Start
+# Quick Start
 
 * [NGS 101](https://galaxyproject.org/tutorials/g101)
 * [Tutorials](http://wiki.galaxyproject.org/Learn)
 * [Teaching with Galaxy](http://wiki.galaxyproject.org/Teach)
 * [Search all Galaxy resources](/src/search/index.md)
 
-## Help Resources
- * [Galaxy Biostars](https://biostar.usegalaxy.org): Activate your [ account](http://wiki.galaxyproject.org/support/biostar)
- * [Mailing lists](https://galaxyproject.org/mailing-lists)
- * Instant messaging with [Gitter](https://gitter.im/galaxyproject/Lobby) or [IRC](http://wiki.galaxyproject.org/support/irc)
- * [Videos](http://vimeo.com/galaxyproject)
+# Help Resources
 
-## FAQs
+* `Search Galaxy` field at the top of this page.
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
+* [Chat](https://gitter.im/galaxyproject/Lobby)
+* [Mailing Lists](/src/mailing-lists/index.md)
+* [Screencasts & Tutorials](http://vimeo.com/galaxyproject)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 
-### Using the Galaxy web application
+# FAQs
+
+## Using the Galaxy web application
 
 * [Getting an account at Galaxy Main (http://usegalaxy.org)](http://wiki.galaxyproject.org/support/account)
 * [Loading Data](http://wiki.galaxyproject.org/support/loading-data)
@@ -42,7 +36,7 @@ title: Support
 * [Commercial Galaxy Support](https://galaxyproject.org/support/ccommercial)
 * [Scientific user guide to running a personal Galaxy server](https://galaxyproject.org/support/sci-user-galaxies)
 
-### Troubleshooting
+## Troubleshooting
 
 * [My history is missing!](https://galaxyproject.org/learn/missing-history)
 * [The account usage quota seems incorrect](https://galaxyproject.org/learn/reset-quota)
