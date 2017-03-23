@@ -289,7 +289,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
     *   The dataset will not download when using the disk icon
     *   Tools error when using a specific dataset that has been used before successfully
-    *   Tools error with a message that ends with: <tt class="backtick">OSError: [Errno 2] No such file or directory`. Note that not all failures of this type are due to metadata and may simply be a cluster failure - rerunning the job may resolve the problem instead, but try the solution first.
+    *   Tools error with a message that ends with: `OSError: [Errno 2] No such file or directory`. Note that not all failures of this type are due to metadata and may simply be a cluster failure - rerunning the job may resolve the problem instead, but try the solution first.
 
 *   **Solution**
 
