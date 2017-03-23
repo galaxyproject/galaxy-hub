@@ -75,27 +75,3 @@
 
 1. If status is OK, then read recent posts at Galaxy Biostars, where transient issues are often reported and clarified. A new question can be asked if there is no activity about the problem. https://biostar.usegalaxy.org/
 
-- - -
-## Issue by unexpected result
-
-If a tools fails for resource allocation (memory or time), double check the inputs first. If the inputs are correct, then Section 2.8 of the Galaxy Support wiki explains alternatives. There is no need to submit a bug report for these issues.
-
-https://wiki.galaxyproject.org/Support
-
-Odd error or want to make certain that memory really is the issue? Check that the input FASTQ data really is in *.fastqsanger* format. How to confirm is described in Section 2.11 of the Galaxy Support wiki. This is one of the most common reasons for tool errors. 
-
-https://wiki.galaxyproject.org/Support
-
-Other reasons for failures can be:
-
-1. Known Issues, see top of this same page: https://github.com/jennaj/support-known-issues/wiki
-
-1. Other input format issues could be present. Read the help on the tool form. More troubleshooting help (besides that for FASTQ data) is described in Section 2.8 of the Galaxy Support wiki. Using the tools and methods listed is how most usage errors are uncovered when reported as bugs. Reviewing the inputs directly yourself will help produce the correct, successful, output faster than reporting a bug.
-
-https://wiki.galaxyproject.org/Support
-
-**If after *checking inputs* there is still a problem**, please send in the bug report along with a description of the testing you did in the comments. Be sure to leave all inputs and outputs **undeleted** or it may be difficult to offer help.
-
-
-
-- - -
