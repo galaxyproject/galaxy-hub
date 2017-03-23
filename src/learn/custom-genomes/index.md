@@ -7,7 +7,7 @@ title: Custom Genomes
 
 A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, transcripts, or contigs for a single species. It is representative of a specific genome build or release. 
 
-In [Galaxy](http://usegalaxy.org), a ** *custom* reference genome** is a [FASTA](/src/learn/datatypes/index.md#fasta) formatted [dataset](/src/learn/index.md#datasets) that can be used in place of a ** *native* reference genome** with most tools. 
+In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/src/learn/datatypes/index.md#fasta) formatted [dataset](/src/learn/index.md#datasets) that can be used in place of a **native reference genome** with most tools. 
 * **custom**: a dataset *from the history* loaded by users
 * **native**: *local* or *cached* by administrators (see [Admin/DataPreparation](/src/admin/data-preparation/index.md))
 
