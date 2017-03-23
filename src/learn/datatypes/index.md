@@ -6,7 +6,7 @@ Galaxy is designed to work with many different **datatypes**. Upon file upload,
 **datatype** can be detected and assigned (when possible) or user specified
 (before or after load). **Datatype** is also assigned by tools when output is
 created. It is important to note that _many tools will only accept as input
-[datasets](/Learn/Managing%20Datasets) with the appropriate **datatype**
+[datasets](/learn/managing-datasets) with the appropriate **datatype**
 assigned_.
 
 A **datatype** can be altered in two ways:
@@ -17,9 +17,9 @@ manipulation**, or perform a search in the top left Tool Search box.  2\. With
 the **Edit Attributes** form, reached by clicking on the pencil icon
 ![Images/Icons/pencil.png](/Images/Icons?action=AttachFile&do=get&target=pencil.png
 "Inlined image: Images/Icons/pencil.png") inside of a
-[dataset](/Learn/Managing%20Datasets) box in the history.
+[dataset](/learn/managing-datasets) box in the history.
 
-**Tool developers**: please see [Admin/Datatypes](/Admin/Datatypes) for
+**Tool developers**: please see [admin/datatypes](/admin/datatypes) for
 instructions about adding new datatypes to Galaxy.
 
 **Galaxy User Interface**: "[Format
@@ -52,8 +52,10 @@ number of fields is noted in the file extension, for example: `'.bed3'`,
 `'.bed4'`, `'.bed6'`, `'.bed12'`. Valid BED files contain columns 1-3, 1-4,
 1-5, 1-6 or 1-12\.
 
-<pre>    Example BED12: chr22 1000 5000 cloneA 960 + 1000 5000 0 2 567,488,
-0,3512 chr22 2000 6000 cloneB 900 - 2000 6000 0 2 433,399, 0,3601</pre>
+```
+Example BED12: chr22 1000 5000 cloneA 960 + 1000 5000 0 2 567,488,
+0,3512 chr22 2000 6000 cloneB 900 - 2000 6000 0 2 433,399, 0,3601
+```
 
 Coordinates have a "0-based, fully-closed start" and a "0-based, half-open end"
 and are reported with respect to the forward (+) strand. This is true for any
@@ -68,7 +70,7 @@ data formats) is at `UCSC`'s genomewiki:
 [http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms](http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms)
 
 For example, the first 100 bases of a chromosome would be given the
-coordinates: chromStart=0 and chromEnd=100\.
+coordinates: chromStart=0 and chromEnd=100.
 
 *   In a display application, a feature with these coordinates would overlap
     chromosome bases 1-100\. This overlap could be on either the (+) or (-)
@@ -350,10 +352,10 @@ other datatypes.
     [http://galaxy.raetschlab.org](http://galaxy.raetschlab.org) contains tools
     to examine [GFF](/learn/datatypes#GFF) files or convert various formats to
     [GFF3](/learn/datatypes#GFF3) under the tool group **GFF Toolkit**.
-*   The [Tool Shed](/Tool%20Shed) contains a repository named `fml_gff3togtf`
+*   The [Tool Shed](/toolshed) contains a repository named `fml_gff3togtf`
     that houses a collection of tools to convert various formats into
     [GFF3](/learn/datatypes#GFF3) format.
-*   New tools are continually added to the [Tool Shed](/Tool%20Shed) - search
+*   New tools are continually added to the [Tool Shed](/toolshed) - search
     with a phase like "GFF" to see if others are available.
 
 ## Interval
@@ -378,11 +380,15 @@ columns, use the "Edit Attributes" form (click on pencil icon in top right
 corner of dataset).
 
 Most common bioinformatics coordinate data formats can be interpreted as or
-transformed to `Interval` format. For example: `'.bed'`}} datasets (always),
+transformed to `Interval` format. For example: `'.bed'` datasets (always),
 0-based coordinate `'.tab'` or `'.txt'` datasets, 1-based `'.GFF/.GTF/.GFF3'`
 datasets (use **Convert Formats -> GFF-to-BED**), and others.
 
-<pre>Example definition line: #CHROM START END STRAND NAME SCORE COMMENT</pre>
+Example definition line:
+
+```
+#CHROM START END STRAND NAME SCORE COMMENT
+```
 
 *   1\. `CHROM` - The name of the chromosome (e.g. chr3, chrY, chr2_random) or
     contig (e.g. ctgY1).
