@@ -31,8 +31,6 @@ How to sort?
 
 Set this option to **Yes**: _Force sorting of SAM/BAM file by NAME_
 
-If the job still fails for memory after sorting, Section 2.8 of the Galaxy support wiki explains alternatives for working with data/jobs that exceed the compute resources at http://usegalaxy.org (Galaxy Main):
-
 ### NGS: SAMTools (most)
 
 Example error on bug report. Yours may differ. If there is a problem, try sorting first before reporting a bug.
@@ -59,11 +57,11 @@ This job was terminated because it used more memory than it was allocated.
 Please click the bug icon to report this problem if you need help.
 ```
 
-If the job still fails for memory after sorting, Section 2.8 of the Galaxy support wiki explains alternatives for working with data/jobs that exceed the compute resources at http://usegalaxy.org (Galaxy Main):
-
 
 ### NGS: RNA-seq: Tophat, Cufflinks, Cuffmerge, Cuffdiff
 
 Different errors can be reported and some may seem unrelated to sort order. Try sorting as a first pass troubleshooting solution.
 
-If sorting does not work, it could be that your FASTQ data is not actually in *.fastqsanger* format. This occurs quite often in reported issues. For the quickest resolution, instead of reporting the bug and being sent back this link, first double check your data format directly using the guidelines in Section 2.11 of the Galaxy support wiki:
+If sorting does not work, it could be that your FASTQ data is not actually in *.fastqsanger* format. This occurs quite often in reported issues. For the quickest resolution, instead of reporting the bug and being sent back this link, first double check your data format directly.
+* [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/learn/fastqsanger)
+* [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/learn/compressed-fastq)
