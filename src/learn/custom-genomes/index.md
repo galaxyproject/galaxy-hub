@@ -106,7 +106,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 6. Identifier and Description in ">" title lines used inconsistently by tools in the same analysis
   * Symptoms include: Will generally manifest as a false genome-mismatch problem. Solution is to get rid of the description content and re-run the tool or workflow.
   * Solution: Double check that the same reference genome was used for all steps and that the 'identifiers' are a match.
-  * How: To drop the title line description content, use <strong>**NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. Next, double check that the [chromosome identifiers are an exact match between all inputs](https://galaxyproject.org/support/chrom-identifiers).
+  * How: To drop the title line description content, use **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. Next, double check that the [chromosome identifiers are an exact match between all inputs](https://galaxyproject.org/support/chrom-identifiers).
 
 ### 7. Unassigned database
   * Symptoms include: Tools report that no build is available for the assigned reference genome.
