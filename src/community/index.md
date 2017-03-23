@@ -64,7 +64,7 @@ A vibrant community of contributors is the reason this project exists. The Galax
 
 # IUC: Keepers of Galaxy Tools
 
-The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
+The [Intergalactic Utilities Commission](/src/iuc/index.md) (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
 
 <div>
 	<img src="/src/community/iuc_graph.png" class="img-responsive center-block" alt="Responsive image">
