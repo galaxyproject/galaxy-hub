@@ -4,68 +4,44 @@
   title: Use
   links:
       - Main:
-        title: Main public site
+        title: Main Galaxy
         link: main
       - Servers:
-        title: Public servers worldwide
+        title: Public servers
         link: public-galaxy-servers
       - Cloud:
-        title: Galaxy on the Cloud
+        title: On cloud
         link: cloud
 - Learn:
   title: Learn
   links:
       - Learn:
-        title: Tutorials
+        title: Learn Galaxy
         link: learn
-      - Videos:
-        title: Videos
-        link: https://vimeo.com/groups/teachinggalaxy
-- Teach:
-  title: Teach
-  links:
-      - GTN:
-        title: Galaxy Training Network
-        link: teach/gtn
-      - Trainers:
-        title: Trainer Directory
-        link: teach/trainers
-      - Platform:
-        title: Compute Platform Advice
-        link: teach/computing-platforms
-      - BP:
-        title: Best Practices
-        link: teach/best-practices
-- Support:
-  title: Support
-  links:
-      - BioStar:
-        title: Galaxy BioStar Forum
-        link: https://biostar.usegalaxy.org
-      - Mailing Lists:
-        title: Galaxy Mailing Lists
-        link: mailing-lists
-      - IM:
-        title: Instant Messaging
-        link: https://gitter.im/galaxyproject/Lobby
+      - Support:
+        title: Get support
+        link: support
 - Community:
   title: Community
   links:
+      - Community:
+        title: About
+        link: community
+      - Teach:
+        title: Teach
+        link: teach
+      - GTN:
+        title: Training Network
+        link: teach/gtn
       - News:
-        title: Galactic News
+        title: News
         link: news
       - Events:
-        title: Galactic Events
+        title: Events
         link: events
       - Publications:
-        title: Galactic Publications
+        title: Publications
         link: cite-u-like
-      - Community:
-        title: Community
-        link: community
-      - gcc2017:
-        title: GCC 2017
-        link: https://gcc2017.sciencesconf.org
       - Project Stats:
         title: Stats
         link: galaxy-project/statistics

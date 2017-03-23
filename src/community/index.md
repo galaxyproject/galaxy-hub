@@ -3,7 +3,7 @@ autotoc: true
 title: The Galaxy Community
 ---
 
-A vibrant community of contributors is the reason this project exists. The Galaxy team alone cannot possibly maintain enough servers, wrap enough tools, teach enough workshops, implement all needed features, or answer every question on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that can differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.    
+A vibrant community of contributors is the reason this project exists. The Galaxy team alone cannot possibly maintain enough servers, wrap enough tools, teach enough workshops, implement all needed features, or answer every question on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that can differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
 
 <div>
 	<img src="/src/community/community.jpg" class="img-responsive center-block" alt="Responsive image">
@@ -14,7 +14,7 @@ A vibrant community of contributors is the reason this project exists. The Galax
 
 <div class="media">
   <div class="media-body">
-   In 2010 National Science Foundation has initiated yearly gathering of Galaxy users and developers by proving the project with a grant supplement. Since then this gathering grew into an annual event known as the Galaxy Community Conference (GCC). GCC alternates between US and Europe and provides a forum for sharing knowledge and building collaborations. 
+   In 2010 National Science Foundation has initiated yearly gathering of Galaxy users and developers by proving the project with a grant supplement. Since then this gathering grew into an annual event known as the Galaxy Community Conference (GCC). GCC alternates between US and Europe and provides a forum for sharing knowledge and building collaborations.
    </div>
    <div class="media-right media-middle">
     <a href="#">
@@ -24,22 +24,22 @@ A vibrant community of contributors is the reason this project exists. The Galax
 </div>
 
 
-| Event/Year |  Location  |  # Registered  | 
-| ---------- | --------- | ------------- | 
-| 2010 |  Cold Spring Harbor, New York |  69  | 
-| 2011 |  Lunteren, The Netherlands  |  148  | 
-| 2012 |  Chicago, Illinois  |  203  | 
-| 2013 |  Oslo, Norway  |  219  | 
-| 2014 |  Baltimore, Maryland, United States  |  214  | 
-| [2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  | 
-| [2016](https://gcc2016.iu.edu/) |  Bloomington, Indiana  |  206  | 
-| [2017](https://gcc2017.sciencesconf.org/) |  Montpellier, France  |  ...  | 
+| Event/Year |  Location  |  # Registered  |
+| ---------- | --------- | ------------- |
+| 2010 |  Cold Spring Harbor, New York |  69  |
+| 2011 |  Lunteren, The Netherlands  |  148  |
+| 2012 |  Chicago, Illinois  |  203  |
+| 2013 |  Oslo, Norway  |  219  |
+| 2014 |  Baltimore, Maryland, United States  |  214  |
+| [2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  |
+| [2016](https://gcc2016.iu.edu/) |  Bloomington, Indiana  |  206  |
+| [2017](https://gcc2017.sciencesconf.org/) |  [Montpellier, France](https://gcc2017.sciencesconf.org/)  |  TBD  |
 
 # GalaxyAdmins
 
 <div class="media">
   <div class="media-body">
-    Galaxy-Admins is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has bi-monthly conference calls and irregular gatherings at various Galaxy-related events. Table below lists recent events and provides links to videos and slides: 
+    Galaxy-Admins is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has bi-monthly conference calls and irregular gatherings at various Galaxy-related events. Table below lists recent events and provides links to videos and slides:
    </div>
    <div class="media-right media-top">
     <a href="#">
@@ -57,14 +57,14 @@ A vibrant community of contributors is the reason this project exists. The Galax
 | 2016-06-16 |  Evan Bollig and JJ Johnson (UMN) | Galaxy in Production at the University of Minnesota | [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/201606_Admins_umn.pdf) |
 | 2016-04-21 | Ivar Grytten and Geir Kjetil Sandve (University of Oslo) | The Galaxy Portal: Accessing Galaxy from Mobile Devices | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4z0ay42m73/) |
 | 2016-02-18 | Marius van den Beek and Nate Coraor | Deployment with Ansible and Python Wheels | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p2ehp5f3p2h/)|
-| 2015-10-15 | David Kovalic | Galaxy at Analome – Outreach, Opportunity and Challenges | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p5b2674yauc/) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_GalaxyAtAnalome.pdf) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_WikiReplacement.pdf)| 
+| 2015-10-15 | David Kovalic | Galaxy at Analome – Outreach, Opportunity and Challenges | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p5b2674yauc/) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_GalaxyAtAnalome.pdf) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_WikiReplacement.pdf)|
 | 2015-08-20 | Aaron Petkau | Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4cbll2iw8t/?launcher=false&fcsContent=true&pbMode=normal) |
 | 2015-06-18 | Peter Briggs | Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4e3eirmzh4/)
 | 2015-04-16 | Carrie Ganote and Aysam Guerler | Galaxy tweaks and customizations at Indiana University and New Tool Forms | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p7nf9se77p8/) |
 
 # IUC: Keepers of Galaxy Tools
 
-The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
+The [Intergalactic Utilities Commission](/src/iuc/index.md) (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
 
 <div>
 	<img src="/src/community/iuc_graph.png" class="img-responsive center-block" alt="Responsive image">
@@ -103,7 +103,7 @@ Member | Joined | GitHub
 
 <div class="media">
   <div class="media-body">
-    The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) for training-related news. 
+    The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) for training-related news.
   </div>
   <div class="media-right media-middle">
     <a href="#">
