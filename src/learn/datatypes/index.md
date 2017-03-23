@@ -28,29 +28,29 @@ links on tool forms.
 
 ## Ab1
 
-A binary sequence file in ```ab1``` format with a ```'.ab1'``` file extension.
-You must manually select this **datatype** when uploading the file.
+A binary sequence file in `ab1` format with a `'.ab1'` file
+extension. You must manually select this **datatype** when uploading the file.
 
 ## Axt
 
-```blastz``` pairwise alignment format. Each alignment block in an ```'.axt'```
-file contains three lines: a summary line and 2 sequence lines.  Blocks are
-separated from one another by blank lines. The summary line contains
+`blastz` pairwise alignment format. Each alignment block in an
+`'.axt'` file contains three lines: a summary line and 2 sequence lines.
+Blocks are separated from one another by blank lines. The summary line contains
 chromosomal position and size information about the alignment. It consists of 9
 required fields.
 
 ## BAM
 
-A binary file compressed in the ```BGZF``` format with a ```'.bam'``` file
-extension. Also see **[SAM](/Learn/Datatypes#SAM)**.
+A binary file compressed in the `BGZF` format with a `'.bam'`
+file extension. Also see **[SAM](/Learn/Datatypes#SAM)**.
 [http://samtools.sourceforge.net/samtools.shtml](http://samtools.sourceforge.net/samtools.shtml)
 
 ## Bed
 
-Tab delimited format (tabular) with a ```'.bed'``` file extension. Sometimes
+Tab delimited format (tabular) with a `'.bed'` file extension. Sometimes
 the number of fields is noted in the file extension, for example:
-```'.bed3'```, ```'.bed4'```, ```'.bed6'```, ```'.bed12'```. Valid BED files
-contain columns 1-3, 1-4, 1-5, 1-6 or 1-12\.
+`'.bed3'`, `'.bed4'`, `'.bed6'`, `'.bed12'`. Valid
+BED files contain columns 1-3, 1-4, 1-5, 1-6 or 1-12\.
 
 <pre>    Example BED12: chr22 1000 5000 cloneA 960 + 1000 5000 0 2 567,488,
 0,3512 chr22 2000 6000 cloneB 900 - 2000 6000 0 2 433,399, 0,3601</pre>
@@ -64,7 +64,7 @@ the reverse (-) strand, the "end" would be the beginning of the alignment and
 the "start" would be the end). This can be confusing when first used.
 Fortunately, an excellent discussion of the BED coordinate system (also used in
 [Interval](/Learn/Datatypes#Interval_.28Genomic_Intervals.29) and certain other
-data formats) is at ```UCSC```'s genomewiki:
+data formats) is at `UCSC`'s genomewiki:
 [http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms](http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms)
 
 For example, the first 100 bases of a chromosome would be given the
@@ -82,12 +82,12 @@ about ""0-based, half-open start, fully closed end" coordinate system.
 
 BED format does not require a header or custom track and/or browser line, but
 may have one, starting with a "#" or "track" or "browser" or all three. If
-extracted from ```UCSC```'s Table browser or Downloads area, a BED file may
-start with a ```'bin'``` column. This is an index number and the column should
-be removed as a first step prior to any analysis (use tool **Text Manipulation:
-Cut columns**). This **Cut** tool can also be used to rearrange the columns of
-an [Interval](/Learn/Datatypes#Interval_.28Genomic_Intervals.29) file to create
-a ```BED``` file.
+extracted from `UCSC`'s Table browser or Downloads area, a BED file may
+start with a `'bin'` column. This is an index number and the column
+should be removed as a first step prior to any analysis (use tool **Text
+Manipulation: Cut columns**). This **Cut** tool can also be used to rearrange
+the columns of an [Interval](/Learn/Datatypes#Interval_.28Genomic_Intervals.29)
+file to create a `BED` file.
 
 3 required fields:
 
@@ -135,8 +135,8 @@ specification can be found here:
 
 ## BCF
 
-Binary call format or "binary vcf" format has the extension ```.bcf```. Also
-see [Variant call format](/Learn/Datatypes#VCF) or ```.vcf```.
+Binary call format or "binary vcf" format has the extension `.bcf`. Also
+see [Variant call format](/Learn/Datatypes#VCF) or `.vcf`.
 
 [http://vcftools.sourceforge.net/specs.html](http://vcftools.sourceforge.net/specs.html)
 
@@ -144,7 +144,7 @@ see [Variant call format](/Learn/Datatypes#VCF) or ```.vcf```.
 
 ## Dbn
 
-The Dot-Bracket Notation format (```.dbn```) is a commonly used format to
+The Dot-Bracket Notation format (`.dbn`) is a commonly used format to
 describe 2D RNA structures, in particular as output for structure predictors
 that can't predict pseudoknots. Every entry consists of three lines:
 
@@ -171,33 +171,34 @@ aaaaaaaaaaa ...........</pre>
 #### Galaxy Dbn (Dot-Bracket notation) rules:
 
 *   The first non-empty line is a header line: no comment lines are allowed.
-    *   A header line starts with a '```>```' symbol and continues with 0 or
+    *   A header line starts with a '`>`' symbol and continues with 0 or
         multiple symbols until the line ends.
 *   The second non-empty line is a sequence line.
     *   A sequence line may only include chars that match the Fasta format
         ([https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation](https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation))
-        symbols for nucleotides: ```ACGTURYKMSWBDHVN```, and may thus not
+        symbols for nucleotides: `ACGTURYKMSWBDHVN`, and may thus not
         include whitespaces.
     *   A sequence line has no prefix and no suffix.
     *   A sequence line is case insensitive.
 *   The third non-empty line is a structure (Dot-Bracket) line and only
     describes the 2D structure of the sequence above it.
-    *   A structure line must consist of the following chars: '```.{}[]()```'.
+    *   A structure line must consist of the following chars:
+        '`.{}[]()`'.
     *   A structure line must be of the same length as the sequence line, and
         each char represents the structure of the nucleotide above it.
     *   A structure line has no prefix and no suffix.
     *   A nucleotide pairs with only 1 or 0 other nucleotides.
-        *   In a structure line, the number of '```(```' symbols equals the
-            number of '```)```' symbols, the number of '```[```' symbols equals
-            the number of '```]```' symbols and the number of '```{```' symbols
-            equals the number of '}' symbols.
+        *   In a structure line, the number of '`(`' symbols equals the
+            number of '`)`' symbols, the number of '`[`' symbols
+            equals the number of '`]`' symbols and the number of
+            '`{`' symbols equals the number of '}' symbols.
 *   The format accepts multiple entries per file, given that each entry is
     provided as three lines: the header, sequence and structure line.
 *   Empty lines are allowed.
 
 ## Fasta
 
-A sequence in ```FASTA``` format consists of a single title line and one or
+A sequence in `FASTA` format consists of a single title line and one or
 more lines of sequence data wrapped to a consistent length. The first character
 of the title line is a greater-than (">") symbol.
 
@@ -215,50 +216,50 @@ tttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatag tggcgcggt</pre>
 *   any description content in the title line after the first white space
     (space, tab, etc.) is ignored by most tools
 *   **identifier names must be unique** for each sequence contained within any
-    single ```FASTA``` dataset
+    single `FASTA` dataset
 *   all **sequence lines** are wrapped to the same length (40-80 characters is
     recommended)
 
 #### Best practices:
 
-*   confirm the format of a ```FASTA``` dataset at the start of an analysis
+*   confirm the format of a `FASTA` dataset at the start of an analysis
     project
-*   if a ```FASTA``` dataset is used as a **Custom Reference Genome**, use the
-    same dataset for all steps
+*   if a `FASTA` dataset is used as a **Custom Reference Genome**, use
+    the same dataset for all steps
 
 #### Troubleshooting:
 
 *   Some tools will compensate for **inconsistent sequence line** wrapping, but
     others will not. If a fasta dataset has inconsistent wrapping or is not
-    wrapped, use the tool **```FASTA manipulation -> FASTA Width formatter```**
-    to reformat.
-*   Including **blank lines** in a ```FASTA``` dataset will cause errors with
-    many tools. Use the tool **```Filter and Sort -> Select lines that match an
-    expression```** with the options **"that: NOT Matching" and "the pattern:
-    ^$"** to remove.
-*   Certain sources produce ```FASTA``` datasets with **non-unique identifier
-    names**. Use the tool **```NGS: QC and manipulation -> Rename
-    sequences```** to assign **unique identifier names**.
+    wrapped, use the tool **`FASTA manipulation -> FASTA Width
+    formatter`** to reformat.
+*   Including **blank lines** in a `FASTA` dataset will cause errors
+    with many tools. Use the tool **`Filter and Sort -> Select lines that
+    match an expression`** with the options **"that: NOT Matching" and "the
+    pattern: ^$"** to remove.
+*   Certain sources produce `FASTA` datasets with **non-unique
+    identifier names**. Use the tool **`NGS: QC and manipulation -> Rename
+    sequences`** to assign **unique identifier names**.
 
 For more details, please see the Wikipedia
 [FASTA_format](http://en.wikipedia.org/wiki/FASTA_format) entry.
 
 ## Fastq
 
-While the basic ```FASTQ``` format remains somewhat constant, identifiers can
-change quickly when new technologies are introduced. One of the best resource
-for understanding current formats is the Wikipedia
+While the basic `FASTQ` format remains somewhat constant, identifiers
+can change quickly when new technologies are introduced. One of the best
+resource for understanding current formats is the Wikipedia
 [FASTQ_format](http://en.wikipedia.org/wiki/FASTQ_format) entry.
 
-When using Galaxy, many tools require that input ```FASTQ``` files be
-standardized as the first step in an analysis. Use the tool **```NGS: QC and
-manipulation -> FASTQ Groomer```**. Instructions on the tool form explain how
+When using Galaxy, many tools require that input `FASTQ` files be
+standardized as the first step in an analysis. Use the tool **`NGS: QC and
+manipulation -> FASTQ Groomer`**. Instructions on the tool form explain how
 to use and the resulting output format.
 
 ## FastqSolexa
 
-```FastqSolexa``` is the Illumina (Solexa) variant of the Fastq format, which
-stores sequences and quality scores in a single file:
+`FastqSolexa` is the Illumina (Solexa) variant of the Fastq format,
+which stores sequences and quality scores in a single file:
 
 <pre>@seq1 GACAGCTTGGTTTTTAGTGAGTTGTTCCTTTCTTT +seq1
 hhhhhhhhhhhhhhhhhhhhhhhhhhPW@hhhhhh @seq2 GCAATGACGGCAGCAATAAACTCAACAGGTGCTGG
@@ -273,7 +274,7 @@ Or:
 
 ## GFF
 
-```GFF``` lines have nine required fields that must be tab-separated.
+`GFF` lines have nine required fields that must be tab-separated.
 
 *   Fields are:
 *   seqname
@@ -286,20 +287,20 @@ Or:
 *   frame
 *   group
 
-```GFF``` format is also known as
-```[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
-1``` or ```GFF1```. The official specification is at
+`GFF` format is also known as
+`[[http://en.wikipedia.org/wiki/General_feature_format|General Feature
+Format 1` or `GFF1`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
 (notes in the [GFF2](/Learn/Datatypes#GTF) specification describe
 [GFF1](/Learn/Datatypes#GFF)).
 
-The [UCSC](http://genome.ucsc.edu) Genome Browser ```GFF```
+The [UCSC](http://genome.ucsc.edu) Genome Browser `GFF`
 specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
 
 ## GTF
 
-```GTF``` lines have nine required fields that must be tab-separated.  (Similar
-to [GFF](/Learn/Datatypes#GFF) format)
+`GTF` lines have nine required fields that must be tab-separated.
+(Similar to [GFF](/Learn/Datatypes#GFF) format)
 
 *   Fields are:
 *   seqname
@@ -312,27 +313,27 @@ to [GFF](/Learn/Datatypes#GFF) format)
 *   frame
 *   attribute
 
-```GTF``` format is also known as
-```[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
-2``` or ```GFF2```. The official specification is at
+`GTF` format is also known as
+`[[http://en.wikipedia.org/wiki/General_feature_format|General Feature
+Format 2` or `GFF2`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
 ([GFF2](/Learn/Datatypes#GTF) specification).
 
-The [UCSC](http://genome.ucsc.edu) Genome Browser ```GTF```
+The [UCSC](http://genome.ucsc.edu) Genome Browser `GTF`
 specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
 
 ## GFF3
 
 Similar to [GFF](/Learn/Datatypes#GFF) and [GTF](/Learn/Datatypes#GTF) in
 having nine tab-seperated columns of data at the core of file and having a
-1-based start coordinate. However, ```GFF3``` format has data that is grouped
-differently between lines (and sets of lines), can be hierarchically ordered,
-and can contain extra content such as [FASTA](/Learn/Datatypes#Fasta) sequence.
-Seeing the official specification (and online validation tool) for details is
-highly recommended.
+1-based start coordinate. However, `GFF3` format has data that is
+grouped differently between lines (and sets of lines), can be hierarchically
+ordered, and can contain extra content such as [FASTA](/Learn/Datatypes#Fasta)
+sequence. Seeing the official specification (and online validation tool) for
+details is highly recommended.
 
 Known as [General Feature Format
-3](http://en.wikipedia.org/wiki/General_feature_format), or ```GFF3```.
+3](http://en.wikipedia.org/wiki/General_feature_format), or `GFF3`.
 
 The official specification is at
 [http://www.sequenceontology.org/gff3.shtml](http://www.sequenceontology.org/gff3.shtml).
@@ -352,7 +353,7 @@ other datatypes.
     to examine [GFF](/Learn/Datatypes#GFF) files or convert various formats to
     [GFF3](/Learn/Datatypes#GFF3) under the tool group **GFF Toolkit**.
 *   The [Tool Shed](/Tool%20Shed) contains a repository named
-    ```fml_gff3togtf``` that houses a collection of tools to convert various
+    `fml_gff3togtf` that houses a collection of tools to convert various
     formats into [GFF3](/Learn/Datatypes#GFF3) format.
 *   New tools are continually added to the [Tool Shed](/Tool%20Shed) - search
     with a phase like "GFF" to see if others are available.
@@ -371,36 +372,36 @@ start, fully closed end" coordinate system ). Or, this quick reference:
 1-relative positions, closed start and closed stop: MAF, others [1,100] ==
 1-100 in files == 1-100 in calculations == 1-100 in display
 
-```Interval``` dataset start with definition line that assigns the column
-attributes. Columns are individually assigned to an ```Interval``` attribute
-```CHROM, START, STOP, NAME, STRAND, SCORE, COMMON```. The columns may be in
-any order and only ```CHROM, START, and END``` are required. To add/assign
+`Interval` dataset start with definition line that assigns the column
+attributes. Columns are individually assigned to an `Interval` attribute
+`CHROM, START, STOP, NAME, STRAND, SCORE, COMMON`. The columns may be in
+any order and only `CHROM, START, and END` are required. To add/assign
 additional columns, use the "Edit Attributes" form (click on pencil icon in top
 right corner of dataset).
 
 Most common bioinformatics coordinate data formats can be interpreted as or
-transformed to ```Interval``` format. For example: ```'.bed'```}} datasets
-(always), 0-based coordinate ```'.tab'``` or ```'.txt'``` datasets, 1-based
-```'.GFF/.GTF/.GFF3'``` datasets (use **Convert Formats -> GFF-to-BED**), and
-others.
+transformed to `Interval` format. For example: `'.bed'`}}
+datasets (always), 0-based coordinate `'.tab'` or `'.txt'`
+datasets, 1-based `'.GFF/.GTF/.GFF3'` datasets (use **Convert Formats ->
+GFF-to-BED**), and others.
 
 <pre>Example definition line: #CHROM START END STRAND NAME SCORE COMMENT</pre>
 
-*   1\. ```CHROM``` - The name of the chromosome (e.g. chr3, chrY, chr2_random)
-    or contig (e.g. ctgY1).
-*   2\. ```START``` - The starting chromosome position of the feature. The
+*   1\. `CHROM` - The name of the chromosome (e.g. chr3, chrY,
+    chr2_random) or contig (e.g. ctgY1).
+*   2\. `START` - The starting chromosome position of the feature. The
     first base in a chromosome is numbered 0\. See [BED](/Learn/Datatypes#Bed)
     format (above).
-*   3\. ```END``` - The ending chromosome position of the feature. For example,
-    the first 100 bases of a chromosome are defined as chromStart=0,
+*   3\. `END` - The ending chromosome position of the feature. For
+    example, the first 100 bases of a chromosome are defined as chromStart=0,
     chromEnd=100.
-*   4\. ```STRAND``` - Defines the strand - either '+' or '-'. Optional value,
-    null or undefined is omitted or a "." ("dot" without quotes).
-*   5\. ```NAME``` - Name for the feature. Free text, no whitespace.  Optional
-    value.
-*   6\. ```SCORE``` - Numeric value for the feature used for calculations and
-    display. Optional value.
-*   7\. ```COMMENT``` - Free text, no whitespace. Optional value.
+*   4\. `STRAND` - Defines the strand - either '+' or '-'. Optional
+    value, null or undefined is omitted or a "." ("dot" without quotes).
+*   5\. `NAME` - Name for the feature. Free text, no whitespace.
+    Optional value.
+*   6\. `SCORE` - Numeric value for the feature used for calculations
+    and display. Optional value.
+*   7\. `COMMENT` - Free text, no whitespace. Optional value.
 
 <pre>Example:
 
@@ -409,8 +410,8 @@ chrX   1000  10050 -      gene myGene</pre>
 
 ## Lav
 
-```Lav``` is the primary output format for ```BLASTZ```. The first line of a
-```'.lav'``` file begins with ```'#:lav.'```.
+`Lav` is the primary output format for `BLASTZ`. The first line
+of a `'.lav'` file begins with `'#:lav.'`.
 
 ## MAF
 
@@ -425,27 +426,28 @@ Also see **[BAM](/Learn/Datatypes#BAM)**.
 
 ## Scf
 
-A binary sequence file in ```'scf'``` format with a ```'.scf'``` file
+A binary sequence file in `'scf'` format with a `'.scf'` file
 extension. You must manually select this 'File Format' when uploading the file.
 
 ## Sff
 
-A binary file in ```'Standard Flowgram Format'``` with a ```'.sff'``` file
-extension.
+A binary file in `'Standard Flowgram Format'` with a `'.sff'`
+file extension.
 
 ## Tabular (tab delimited)
 
 Any data in tab delimited format (tabular). May end with the extension
-```'.tab'``` or ```'.txt'```.
+`'.tab'` or `'.txt'`.
 
 ## VCF
 
 Variant call format has a few different active versions, depending on the
 source. The first comment line will note which you have. These external links
-can help with understanding the different ```.vcf``` types. It is important to
-note that many tools will not interpret v4.1 content correctly and it should be
-avoided as input (as of mid-2013). A compressed version of this data is the
-[Binary call format](/Learn/Datatypes#BCF) or "binary vcf" format ```.bcf```.
+can help with understanding the different `.vcf` types. It is important
+to note that many tools will not interpret v4.1 content correctly and it should
+be avoided as input (as of mid-2013). A compressed version of this data is the
+[Binary call format](/Learn/Datatypes#BCF) or "binary vcf" format
+`.bcf`.
 
 Current VCF specification:
 
@@ -461,17 +463,18 @@ Alternate and Prior:
 ## Wig and bigWig
 
 The wiggle format is 1-based, line-oriented, and ends with the extension
-```'.wig'```. Wiggle data is preceded by a required track definition line,
+`'.wig'`. Wiggle data is preceded by a required track definition line,
 which adds a number of options for controlling the default display of this
 track. The wiggle (WIG) format is for display of dense, continuous data. When
-large, using the related ```.bigWig``` format is recommended.
+large, using the related `.bigWig` format is recommended.
 
-This information and the ```.wig``` and ```.bigWig``` formats were developed at
-[UCSC](http://genome.ucsc.edu). The official specifications are at:
+This information and the `.wig` and `.bigWig` formats were
+developed at [UCSC](http://genome.ucsc.edu). The official specifications are
+at:
 
 *   [http://genome.ucsc.edu/goldenPath/help/wiggle.html](http://genome.ucsc.edu/goldenPath/help/wiggle.html)
 *   [https://genome.ucsc.edu/goldenPath/help/bigWig.html](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 
 ## Plain text
 
-Any plain text file, commonly ending with the file extension ```".txt"```.
+Any plain text file, commonly ending with the file extension `".txt"`.
