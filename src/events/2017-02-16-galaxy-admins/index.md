@@ -13,4 +13,3 @@ contact: Nuwan Goonasekera, Enis Afgan
 
 Additional Resources:
 - [Video](https://connect.johnshopkins.edu/p8t92n1zw9q)
-

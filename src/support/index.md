@@ -173,7 +173,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 
-If you DO NOT see any files as in the example below, **load data using FTP first**, then come back to the _Upload_ tool. ![Upload tool "Load FTP data" function](/src/images/Screenshots?action=AttachFile&do=get&target=Upload_ftp_data.png "Upload tool "Load FTP data" function")
+If you DO NOT see any files as in the example below, **load data using FTP first**, then come back to the _Upload_ tool. ![Upload tool "Load FTP data" function](/src/images/screenshots?action=AttachFile&do=get&target=Upload_ftp_data.png "Upload tool "Load FTP data" function")
 
 ### Upload tips
 
@@ -585,7 +585,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
     *   A quick way to check for this issue is to compare the chromosome identifiers in the input datasets to each other and to the reference genome used (or intended to be used).
     *   Even small differences in identifiers can cause tools to fail, produce warnings, or create incomplete results. This is the second most common cause of usage-related tool failures ([input format problems](/src/support#Error_from_tools) are the first).
 
-    *   Using an Ensembl-based chromosome identifier file on Galaxy [Main](/src/main) with a locally cached reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/src/support/ChromIdentifiers)
+    *   Using an Ensembl-based chromosome identifier file on Galaxy [Main](/src/main) with a locally cached reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/src/support/chrom-identifiers)
 
     *   _Why isn't my Ensembl GTF compatible with Cufflinks and how can I use Ensembl GTFs with Cufflinks?_
 
@@ -595,7 +595,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
             *   For certain genomes, the reference annotation GTF file is available on the public [Main](/src/main) Galaxy instance, [http://usegalaxy.org](http://usegalaxy.org), under _Shared Data -> Data Libraries -> iGenomes_.
 
-        *   Next, if you want to proceed, [confirm that your identifiers are a good candidate](/src/support/ChromIdentifiers#Reference_Genome_Contents) for the addition of the "chr" adjustment, then use the workflow available in the [Transcriptome Analaysis FAQ](http://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq#faq5).
+        *   Next, if you want to proceed, [confirm that your identifiers are a good candidate](/src/support/chrom-identifiers#Reference_Genome_Contents) for the addition of the "chr" adjustment, then use the workflow available in the [Transcriptome Analaysis FAQ](http://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq#faq5).
 
 ### Avoiding Genome Mismatch Issues
 

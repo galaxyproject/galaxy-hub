@@ -183,14 +183,14 @@ Fabio Cumbo<br />
 * Radesh Kamath
 * Ross Lazarus
 * Kanwei Li
-* [Rémi Marenco](/src/RemiMarenco/index.md)
+* [Rémi Marenco](/src/remi-marenco/index.md)
 * Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah
 * Ian Schenck
 * Kelly Vincent
-* [Nitesh Turaga](/src/NiteshTuraga/index.md)
+* [Nitesh Turaga](/src/nitesh-turaga/index.md)
 * Yi Zhang
 
 ## Past Contributors

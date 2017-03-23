@@ -7,6 +7,4 @@ For simplicity use http://usegalaxy.org/cloudlaunch.  From the launch page, prov
 Share string:
 **cm-2a09a4f5e6aaf1967e44e41cf3c971ff/shared/2017-03-14--18-54/**
 
-This shared Cloudman Galaxy is on version 16.07 and was created on 3.14.2017. It contains sample data for chIP-seq and RNA-seq, along with the necessary tools to complete the respective analysis pipelines. There is also HIV1 data for assigning a custom genome, viewing gene positions with Trackster, and RNA-seq data specific to HIV1. The EBS data volume is sized at 500 GB, this can be expanded from the Cloudman page if needed. 
-
-
+This shared Cloudman Galaxy is on version 16.07 and was created on 3.14.2017. It contains sample data for chIP-seq and RNA-seq, along with the necessary tools to complete the respective analysis pipelines. There is also HIV1 data for assigning a custom genome, viewing gene positions with Trackster, and RNA-seq data specific to HIV1. The EBS data volume is sized at 500 GB, this can be expanded from the Cloudman page if needed.
