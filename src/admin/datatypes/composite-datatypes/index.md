@@ -12,7 +12,7 @@ In composite datatypes, there is one "primary" data file and any number of speci
 
 ### Creating Composite Datatypes
 
-A datatype can be set to composite by setting the <tt>composite_type</tt> flag. There are 3 valid options:
+A datatype can be set to composite by setting the `composite_type` flag. There are 3 valid options:
 
 - None (not a composite datatype) 
 - 'basic' 
@@ -60,7 +60,7 @@ In composite datatypes, there is one "primary" data file and any number of speci
 
 ### Creating Composite Datatypes
 
-A datatype can be set to composite by setting the <tt>composite_type</tt> flag. There are 3 valid options:
+A datatype can be set to composite by setting the `composite_type` flag. There are 3 valid options:
 
 - None (not a composite datatype) 
 - 'basic' 
@@ -70,7 +70,7 @@ A datatype can be set to composite by setting the <tt>composite_type</tt> flag. 
 
 The example below defines an auto primary file composite datatype which is composed of 2 component files along with a framework generated file. In this example the primary file is an html page containing download links to the individual result files. The two component files (results.txt, results.dat) contain the results; results.txt is a text file and is handled as such during upload whereas results.dat is flaged as binary, allowing a binary file to be uploaded for that component. During upload, 2 sets of file upload/paste interfaces are provided to the user. A file must be provided for results.txt whereas results.dat is flaged as optional so may be left blank.
 
-In this composite type, the primary file is generated using the <tt>generate_primary_file</tt> method specified in the datatype definition. The <tt>generate_primary_file</tt> method here loops through the defined components and creates a link to each.
+In this composite type, the primary file is generated using the `generate_primary_file` method specified in the datatype definition. The `generate_primary_file` method here loops through the defined components and creates a link to each.
 
 ```
 #!highlight python

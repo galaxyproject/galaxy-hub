@@ -132,7 +132,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   *Watch the [Getting Data In](/src/learn/galaxy-ngs101#getting-data-in) Screencasts*
 *   Each file loaded creates one dataset in the history.
 *   The maximum size limit is 50G (uncompressed).
-*   Most individual file compression formats are supported, but multi-file archives are not (<tt>.tar</tt>, <tt>.zip</tt>).
+*   Most individual file compression formats are supported, but multi-file archives are not (`.tar`, `.zip`).
 
 ### Get Data: Upload
 
@@ -289,7 +289,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
     *   The dataset will not download when using the disk icon
     *   Tools error when using a specific dataset that has been used before successfully
-    *   Tools error with a message that ends with: <tt class="backtick">OSError: [Errno 2] No such file or directory</tt>. Note that not all failures of this type are due to metadata and may simply be a cluster failure - rerunning the job may resolve the problem instead, but try the solution first.
+    *   Tools error with a message that ends with: <tt class="backtick">OSError: [Errno 2] No such file or directory`. Note that not all failures of this type are due to metadata and may simply be a cluster failure - rerunning the job may resolve the problem instead, but try the solution first.
 
 *   **Solution**
 
@@ -746,7 +746,7 @@ Often the quickest way to get your analysis going is to load a custom genome for
 *   Use the same custom genome for all the steps in your analysis that require a reference genome. Don't switch or the data can become mismatched in your files, preventing downstream work.
 *   To add a custom **Genome Build** so that it can be assigned as a "database" attribute, or to make it known/available to certain tools, create it under "User → Custom Builds". More details [here...](/learn/custom-genomes#Custom_Builds).
 
-*   **TIP**: To modify a [dataset](/learn/managing-datasets) to have an unassigned reference genome, use the ![pencil](/src/images/icons/pencil.png "pencil") icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **<tt>unspecified (?)</tt>** ", and submit. Any prior assignments will be removed.
+*   **TIP**: To modify a [dataset](/learn/managing-datasets) to have an unassigned reference genome, use the ![pencil](/src/images/icons/pencil.png "pencil") icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **`unspecified (?)`** ", and submit. Any prior assignments will be removed.
 
 *   If you genome is available on [usegalaxy.org (Main)](http://usegalaxy.org), but just not indexed for the tool you want to use, you can get the genome from our **[rsync server](/admin/UseGalaxyRsync)**. This will ensure that all of your work uses the _same exact reference genome_ for all steps in an analysis, a critical part of a successful experiment.
 

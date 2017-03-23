@@ -4,11 +4,11 @@
 
 For various reasons (performance, authentication, etc.) in a production environment, it's recommended to run Galaxy behind a web server proxy. Although any proxy could work, Apache is the most common. Alternatively, we use [nginx](http://nginx.net/) for our public sites, and [details are available](Admin%2FConfig%2FPerformance%2Fnginx+Proxy) for it, too.
 
-Currently the only recommended way to run Galaxy with Apache is using <tt>mod_rewrite</tt> and <tt>mod_proxy</tt>. fastcgi, AJP or similar connectors may be supported in the future.
+Currently the only recommended way to run Galaxy with Apache is using `mod_rewrite` and `mod_proxy`. fastcgi, AJP or similar connectors may be supported in the future.
 
-To support proxying, the <tt>mod_proxy</tt>, <tt>mod_http_proxy</tt> and <tt>mod_rewrite</tt> modules must be enabled in the Apache config. The main proxy directives, <tt>ProxyRequests</tt> and <tt>ProxyVia</tt> do **not** need to be enabled.
+To support proxying, the `mod_proxy`, `mod_http_proxy` and `mod_rewrite` modules must be enabled in the Apache config. The main proxy directives, `ProxyRequests` and `ProxyVia` do **not** need to be enabled.
 
-Please note that Galaxy should _never_ be located on disk inside Apache's <tt>DocumentRoot</tt>. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
+Please note that Galaxy should _never_ be located on disk inside Apache's `DocumentRoot`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
 ## Basic configuration
 
@@ -24,7 +24,7 @@ RewriteRule ^(.*) http://localhost:8080$1 [P]
 
 Thus, all requests on your server (for example, [http://www.example.org/](http://www.example.org/)) are now redirected to Galaxy. Because this example uses the "root" of your web server, you may want to use a [VirtualHost](http://httpd.apache.org/docs/2.2/vhosts/) to be able to run other sites from this same server.
 
-If your Apache server is set up to use <tt>mod_security</tt>, you may need to modify the value of the <tt>SecRequestBodyLimit</tt>. The default value on some systems will limit uploads to only a few kilobytes.
+If your Apache server is set up to use `mod_security`, you may need to modify the value of the `SecRequestBodyLimit`. The default value on some systems will limit uploads to only a few kilobytes.
 
 Since Apache is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, your configuration will now become:
 
@@ -59,7 +59,7 @@ RewriteRule ^/galaxy(.*) http://localhost:8080$1 [P]
 
 Note the first rewrite rule deals with the missing trailing slash problem. If left out, [http://www.example.org/galaxy](http://www.example.org/galaxy) will result in a 404 error.
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the <tt>[app:main]</tt> section of <tt>config/galaxy.ini</tt> and restarting Galaxy:
+Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 #!highlight ini
@@ -75,7 +75,7 @@ filter-with = proxy-prefix
 cookie_path = /galaxy
 ```
 
-<tt>cookie_prefix</tt> should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
+`cookie_prefix` should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
 
 ## External user authentication
 
@@ -83,7 +83,7 @@ Moved to its [own page](Admin%2FConfig%2FExternalUserAuth), please check there.
 
 ### Display Sites
 
-Display sites such as <<nwwl(UCSC)>> work not by sending data directly from Galaxy to <<nwwl(UCSC)>> via the client's browser, but by sending <<nwwl(UCSC)>> a URL to the data in Galaxy that the <<nwwl(UCSC)>> server will retrieve data from. Since enabling authentication will place **all** of Galaxy behind authentication, such display sites will no longer be able to access data via that URL. If <tt>display_servers</tt> is set to a non-empty value in <tt>galaxy/config/galaxy.ini</tt>, this tells Galaxy it should allow the named servers access to data in Galaxy. However, you still need to configure Apache to allow access to the datasets. An example config is provided here that allows the <<nwwl(UCSC)>> Main/Test backends:
+Display sites such as <<nwwl(UCSC)>> work not by sending data directly from Galaxy to <<nwwl(UCSC)>> via the client's browser, but by sending <<nwwl(UCSC)>> a URL to the data in Galaxy that the <<nwwl(UCSC)>> server will retrieve data from. Since enabling authentication will place **all** of Galaxy behind authentication, such display sites will no longer be able to access data via that URL. If `display_servers` is set to a non-empty value in `galaxy/config/galaxy.ini`, this tells Galaxy it should allow the named servers access to data in Galaxy. However, you still need to configure Apache to allow access to the datasets. An example config is provided here that allows the <<nwwl(UCSC)>> Main/Test backends:
 
 ```
 #!highlight apache
@@ -119,11 +119,11 @@ If you place Galaxy behind a proxy address that uses SSL (e.g. https:_ <<nwwl(UR
 </Location>
 ```
 
-Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing <tt>&lt;Location "/"&gt;</tt> block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Compression and caching
 
-All of Galaxy's static content can be cached on the client side, and everything (including dynamic content) can be compressed on the fly. This will decrease download and page load times for your clients, as well as decrease server load and bandwidth usage. To enable, you'll need to load <tt>mod_deflate</tt> and <tt>mod_expires</tt> in your Apache configuration, and then set:
+All of Galaxy's static content can be cached on the client side, and everything (including dynamic content) can be compressed on the fly. This will decrease download and page load times for your clients, as well as decrease server load and bandwidth usage. To enable, you'll need to load `mod_deflate` and `mod_expires` in your Apache configuration, and then set:
 
 ```
 #!highlight apache
@@ -141,13 +141,13 @@ All of Galaxy's static content can be cached on the client side, and everything 
 </Location>
 ```
 
-The contents of <tt>&lt;Location "/"&gt;</tt> should be added to the existing <tt>&lt;Location "/"&gt;</tt> block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+The contents of `&lt;Location "/"&gt;` should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Sending files using Apache
 
 Galaxy sends files (e.g. dataset downloads) by opening the file and streaming it in chunks through the proxy server. However, this ties up the Galaxy process, which can impact the performance of other operations (see [Admin/Config/Performance/ProductionServer](Admin%2FConfig%2FPerformance%2FProductionServer) for a more in-depth explanation). Apache can assume this task instead and as an added benefit, speed up downloads. This is accomplished through the use of mod\_xsendfile, a 3rd-party Apache module. Dataset security is maintained in this configuration because Apache will still check with Galaxy to ensure that the requesting user has permission to access the dataset before sending it.
 
-To enable it, you must first [download](http://tn123.ath.cx/mod_xsendfile/), compile and install mod\_xsendfile. Once done, add the appropriate <tt>LoadModule</tt> directive to your Apache configuration to load the xsendfile module and the <tt>XSendFile</tt> directives to your proxy configuration:
+To enable it, you must first [download](http://tn123.ath.cx/mod_xsendfile/), compile and install mod\_xsendfile. Once done, add the appropriate `LoadModule` directive to your Apache configuration to load the xsendfile module and the `XSendFile` directives to your proxy configuration:
 
 ```
 #!highlight apache
@@ -157,15 +157,15 @@ To enable it, you must first [download](http://tn123.ath.cx/mod_xsendfile/), com
 </Location>
 ```
 
-This should be added to the existing <tt>&lt;Location "/"&gt;</tt> block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+This should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 Note: If you use a version of mod\_xsendfile older than 0.10, use "<<nwwl(XSendFileAllowAbove)>> on" instead of "<<nwwl(XSendFilePath)>> /"
 
-Finally, set <tt>apache_xsendfile = True</tt> in the <tt>[app:main]</tt> section of <tt>config/galaxy.ini</tt> and restart Galaxy.
+Finally, set `apache_xsendfile = True` in the `[app:main]` section of `config/galaxy.ini` and restart Galaxy.
 
 ## Proxying multiple galaxy worker threads
 
-If you've configured multiple threads for galaxy in the <tt>config/galaxy.ini</tt> file, you will need a <tt>ProxyBalancer</tt> to manage sending requests to each of the threads. You can do that with apache configuration as follows:
+If you've configured multiple threads for galaxy in the `config/galaxy.ini` file, you will need a `ProxyBalancer` to manage sending requests to each of the threads. You can do that with apache configuration as follows:
 
 ```
 #!highlight apache
