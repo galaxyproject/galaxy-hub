@@ -42,7 +42,7 @@ title: Galaxy Support
 
 ### Troubleshooting
 
-* [My history is missing! Good news, it probably isn't.](https://galaxyproject.org/learn/missing-history/)
+* [My history is missing! Good news, it probably isn't.](https://galaxyproject.org/support/missing-history/)
 * [The account usage quota seems incorrect](https://galaxyproject.org/learn/account-quotas/)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](https://galaxyproject.org/learn/managing-datasets/)
 * [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/learn/fastqsanger)
