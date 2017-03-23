@@ -15,7 +15,7 @@ A **datatype** can be altered in two ways:
 tool groups: **Convert Formats**, **SAM Tools**, and **NGS: QC and
 manipulation**, or perform a search in the top left Tool Search box.  2\. With
 the **Edit Attributes** form, reached by clicking on the pencil icon
-![/src/images/icons/pencil.png](/src/images/icons/pencil.png) inside of a
+<img src="/images/icons/pencil.png" alt="/src/images/icons/pencil.png"> inside of a
 [dataset](/learn/managing-datasets) box in the history.
 
 **Tool developers**: please see [admin/datatypes](/admin/datatypes) for
