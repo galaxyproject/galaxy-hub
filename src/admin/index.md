@@ -28,7 +28,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
 * [Subtopics in Configuration](/src/admin/config/index.md)
-* [Data Libraries](/src/admin/data-libraries/index.md)
+* [Data Libraries](/src/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
 * [Purge Histories and Datasets](/src/admin/config/performance/Purge Histories and Datasets/index.md)
