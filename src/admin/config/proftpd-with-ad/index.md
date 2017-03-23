@@ -28,7 +28,7 @@ Galaxy exchanges no messages directly with the FTP server, if files are there, i
 
 Your Galaxy serves a single institution with an AD domain and you're already using it to authenticate users in the Galaxy web pages.
 
-So your  universe_wsgi.ini  file probably has lines like:
+So your `config/galaxy.ini` file probably has lines like this in the section `# Enable Galaxy's "Upload via FTP" interface.`:
 ```bash
  use_remote_user = True
  remote_user_maildomain = example.domain
