@@ -25,6 +25,7 @@ title: Galaxy Support
 
 * [Getting an account at Galaxy Main (http://usegalaxy.org)](/src/support/account/index.md)
 * [Loading Data](/src/support/loading-data/index.md)
+* [Downloading Data](/src/support/download-data/index.md)
 * [Finding tools](/src/support/finding-tools/index.md)
 * [Where is the tool help?](/src/support/tool-help/index.md)
 * [Understanding the Analysis History](/src/tutorials/histories/index.md)
