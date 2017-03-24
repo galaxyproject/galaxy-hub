@@ -7,8 +7,8 @@
 
 Related Topics
  * [Fastq Manipulation and Quality Control](https://galaxyproject.org/tutorials/ngs/#fastq-manipulation-and-quality-control)
- * [Format help for Tabular/BED/Interval Datasets](https://galaxyproject.org/learn/tabular/)
- * [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/learn/compressed-fastq/)
+ * [Format help for Tabular/BED/Interval Datasets](https://galaxyproject.org/support/tabular/)
+ * [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/support/compressed-fastq/)
  * [Common datatypes explained](https://galaxyproject.org/learn/datatypes/)
  * [Input datatype misassignment and errors](https://galaxyproject.org/support/job-error/)
  
