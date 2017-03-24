@@ -3,7 +3,7 @@
  title: Finding Tools
 ---
  
-[Back to Support Hub](http://wiki.galaxyproject.org/support/)
+[Back to Support Hub](/src/support/index.md)
 
 ## How to find tools
 
@@ -16,8 +16,8 @@
 ### Can't find the tool you want? 
 
  * Try searching  the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. 
- * New tools are added all the time that can be used in **[local](/admin/get-galaxy)** or **[cloud](/src/cloudman)** Galaxy instances.
+ * New tools are added all the time that can be used in **[local](/admin/get-galaxy/index.md)** or **[cloud](/src/cloudman/index.md)** Galaxy instances.
  * If the tool you want to use is not wrapped yet, it could be. 
    * Should you have development resource, wrapped tool contributions are welcome additions to the *[Tool Shed](http://toolshed.g2.bx.psu.edu)**
-   * [Development Resources](https://galaxyproject.org/develop/)
+   * [Development Resources](/src/develop/index.md)
  * Requests to wrap tools can be made by opening an issue and assigning the tag `tool request` at the [IUC master repository](https://github.com/galaxyproject/tools-iuc)
