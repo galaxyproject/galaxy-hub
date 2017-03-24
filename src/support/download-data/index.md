@@ -3,16 +3,16 @@
  title: Downloading Data
 ---
  
-[Back to Support Hub](http://wiki.galaxyproject.org/support/)
+[Back to Support Hub](/src/support/index.md))
 
 Related topics
- * [Loading Data](http://wiki.galaxyproject.org/support/loading-data/)
- * [Moving data between Galaxy servers](https://galaxyproject.org/community/log/2016/moving-data-between-galaxies/)
+ * [Loading Data](/src/support/loading-data/index.md)
+ * [Moving data between Galaxy servers](/src/community/log/2016/moving-data-between-galaxies/index.md)
 
 
 ## Downloading data
 
-* **Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets). Good for smaller sizes in all browsers.
+* **Download datasets** by clicking on the disk icon inside the [dataset](/src/learn/managing-datasets/index.md). Good for smaller sizes in all browsers.
 * **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
 * **Transfer entire histories** by selecting _"Export to File"_ from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
