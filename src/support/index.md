@@ -5,49 +5,49 @@ title: Galaxy Support
 
 # Quick Start
 
-* [NGS 101](https://galaxyproject.org/tutorials/g101/)
-* [Tutorials](http://wiki.galaxyproject.org/learn/)
-* [Teaching with Galaxy](http://wiki.galaxyproject.org/teach/)
-* [Using Galaxy Choices](https://galaxyproject.org/choices/)
+* [NGS 101](/src/tutorials/g101/index.md)
+* [Tutorials](/src/learn/index.md)
+* [Teaching with Galaxy](/src/teach/index.md)
+* [Using Galaxy Choices](/src/choices/index.md)
 
 # Help Resources
 
 * Query all Galaxy resources with the search function in the top masthead
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/))
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
-* [Mailing Lists](/src/mailing-lists/)
+* [Mailing Lists](/src/mailing-lists/index.md)
 * [Screencasts & Tutorials](http://vimeo.com/galaxyproject/)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 
 # FAQs
 
 ## Using the Galaxy web application
 
-* [Getting an account at Galaxy Main (http://usegalaxy.org)](http://wiki.galaxyproject.org/support/account/)
-* [Loading Data](http://wiki.galaxyproject.org/support/loading-data/)
-* [Finding tools](http://wiki.galaxyproject.org/support/finding-tools/)
-* [Where is the tool help?](https://galaxyproject.org/support/tool-help/)
-* [Understanding the Analysis History](https://galaxyproject.org/tutorials/histories/)
-* [Managing Datasets](https://galaxyproject.org/learn/managing-datasets/)
-* [Datasets and how jobs execute](https://galaxyproject.org/support/how-jobs-execute/)
-* [Sharing and Publishing your work](https://galaxyproject.org/learn/share/)
-* [Moving data between Galaxy servers (any!)](https://galaxyproject.org/community/log/2016/moving-data-between-galaxies/)
-* [Known Tool Issues (check here first if a tool failed)](https://galaxyproject.org/support/tool-issues/)
-* [Known Data Issues](https://galaxyproject.org/support/data-issues/)
-* [Galaxy Github issue board](https://galaxyproject.org/issues/)
-* [Scientific user guide to running a personal Galaxy server](https://galaxyproject.org/support/sci-user-galaxies/)
-* [Commercial Galaxy Support](https://galaxyproject.org/support/commercial/)
+* [Getting an account at Galaxy Main (http://usegalaxy.org)](/src/support/account/index.md)
+* [Loading Data](/src/support/loading-data/index.md)
+* [Finding tools](/src/support/finding-tools/index.md)
+* [Where is the tool help?](/src/support/tool-help/index.md)
+* [Understanding the Analysis History](/src/tutorials/histories/index.md)
+* [Managing Datasets](/src/learn/managing-datasets/index.md)
+* [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+* [Sharing and Publishing your work](/src/learn/share/index.md)
+* [Moving data between Galaxy servers (any!)](/src/community/log/2016/moving-data-between-galaxies/index.md)
+* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
+* [Known Data Issues](/src/support/data-issues/index.md)
+* [Galaxy Github issue board](/src/issues/index.md)
+* [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
+* [Commercial Galaxy Support](/src/support/commercial/index.md)
 
 ## Troubleshooting
 
-* [My history is missing! Good news, it probably isn't.](https://galaxyproject.org/support/missing-history/)
-* [The account usage quota seems incorrect](https://galaxyproject.org/learn/account-quotas/)
-* [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](https://galaxyproject.org/learn/managing-datasets/)
-* [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/support/fastqsanger/)
-* [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/support/compressed-fastq/)
-* [Format help for Tabular/BED/Interval Datasets](https://galaxyproject.org/support/tabular/)
-* [Common datatypes explained](https://galaxyproject.org/learn/datatypes/)
-* [Tool error? Try Sorting Your Inputs](https://galaxyproject.org/support/sort-your-inputs/)
-* [Preparing and using a Custom Reference Genome or Build](https://galaxyproject.org/learn/custom-genomes/)
-* [Mismatched Chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers/)
-* [My job ended with an error. What can I do?](https://galaxyproject.org/support/job-error/)
+* [My history is missing! Good news, it probably isn't.](/src/support/missing-history/index.md)
+* [The account usage quota seems incorrect](/src/learn/account-quotas/index.md)
+* [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/index.md)
+* [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
+* [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
+* [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
+* [Common datatypes explained](/src/learn/datatypes/index.md)
+* [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
+* [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
+* [Mismatched Chromosome identifiers](/src/support/chrom-identifiers/index.md)
+* [My job ended with an error. What can I do?](/src/support/job-error/index.md)
