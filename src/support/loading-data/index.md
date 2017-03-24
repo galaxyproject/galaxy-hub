@@ -31,8 +31,10 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 ### Get Data: EBI-SRA
 
 *   Search for your data directly in the tool and use the Galaxy links
-*   [Visual example](/src/support/ebi-sra-data-load)
-*   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. [Here is how...](/src/support#FASTQ_Datatype_QA)
+*   There are a few links, so [which data do I load?](https://galaxyproject.org/support/ebi-sra-data-load/)
+*   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. 
+  * [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/learn/fastqsanger)
+  * [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/learn/compressed-fastq)
 
 ### Get Data: Upload tool used with FTP
 
@@ -63,7 +65,7 @@ If you DO NOT see any files as in the example below, **load data using FTP first
 *   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are supported.**
 *   Only the **first file in any compressed archive** will load as a **[dataset](/learn/managing-datasets)**.
 *   Data must be **< 50G** (uncompressed) to be successfully uploaded and added as a dataset to a history, from any source.
-*   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/learn/managing-datasets) for help or watch the screencast above for a how-to example.
+*   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/learn/managing-datasets/) for help or watch the screencast above for a how-to example.
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 
 
