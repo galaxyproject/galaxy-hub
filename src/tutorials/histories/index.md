@@ -40,9 +40,8 @@ interface needs to be updated or isn't updating properly.
 
 The history options button opens the history options menu which allows you to perform history-related tasks.
 
-
 The 'view all histories' button sends you to the interface for
-[managing multiple histories](/src/tutorials/histories/index.md#managing_multiple_histories).
+[managing multiple histories](/src/tutorials/histories/index.md).
 
 ## History Information
 
