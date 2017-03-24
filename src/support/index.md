@@ -49,5 +49,4 @@ title: Galaxy Support
 * [Preparing and using a Custom Reference Genome or Build](https://galaxyproject.org/learn/custom-genomes/)
 * [Common data formats explained](https://galaxyproject.org/learn/datatypes/)
 * [Mismatched Chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers/)
-* [Which data to load when using the tool "Get Data: EBI-SRA"?](https://galaxyproject.org/support/ebi-sra-data-load/)
 * [My job ended with an error. What can I do?](https://galaxyproject.org/support/job-error/)
