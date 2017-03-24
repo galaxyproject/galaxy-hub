@@ -50,4 +50,4 @@ Every tool page has two options to reach Galaxy Biostars in the top right corner
 
 <br /><br /><br />
 
-The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/src/support/index.md).
+The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus is to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/src/support/index.md).
