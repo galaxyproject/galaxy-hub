@@ -47,6 +47,6 @@ title: Galaxy Support
 * [Understanding compressed fastq data (fastq.gz)](https://galaxyproject.org/support/compressed-fastq/)
 * [Tool error? Try Sorting Your Inputs](https://galaxyproject.org/support/sort-your-inputs/)
 * [Preparing and using a Custom Reference Genome or Build](https://galaxyproject.org/learn/custom-genomes/)
-* [Common data formats explained](https://galaxyproject.org/learn/datatypes/)
+* [Common datatypes explained](https://galaxyproject.org/learn/datatypes/)
 * [Mismatched Chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers/)
 * [My job ended with an error. What can I do?](https://galaxyproject.org/support/job-error/)
