@@ -15,7 +15,7 @@ title: Support Tool Help
 * Links to [Galaxy Biostars](https://biostar.usegalaxy.org/) prior Q&A, tutorials, and form to ask new questions
 
 
-## Many tools include "most common" and "full parameter" parameter choices.
+## Many tools include "most common" and "full parameter" run-time options
 
 On all tool forms, look in the upper top right middle pane corner for the [Biostar](https://biostar.usegalaxy.org/) links. Scroll down on the tool form to locate information about expected inputs/outputs, expanded definitions, sample data, example use cases, and graphics.
 
