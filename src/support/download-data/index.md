@@ -3,7 +3,7 @@
  title: Downloading Data
 ---
  
-[Back to Support Hub](/src/support/index.md))
+[Back to Support Hub](/src/support/index.md)
 
 Related topics
  * [Loading Data](/src/support/loading-data/index.md)
