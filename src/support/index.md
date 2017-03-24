@@ -41,13 +41,15 @@ title: Galaxy Support
 ## Troubleshooting
 
 * [My history is missing! Good news, it probably isn't.](/src/support/missing-history/index.md)
+* [My job ended with an error. What can I do?](/src/support/job-error/index.md)
 * [The account usage quota seems incorrect](/src/learn/account-quotas/index.md)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/index.md)
 * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
 * [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
 * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
 * [Common datatypes explained](/src/learn/datatypes/index.md)
-* [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
+* [How do I find, adjust, and/or correct metadata?](/src/support/metadata/index.md)
 * [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
+* [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
 * [Mismatched Chromosome identifiers](/src/support/chrom-identifiers/index.md)
-* [My job ended with an error. What can I do?](/src/support/job-error/index.md)
+
