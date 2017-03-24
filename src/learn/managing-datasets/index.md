@@ -3,11 +3,6 @@ autotoc: true
 title: Managing Datasets in Galaxy
 ---
 
-
-
-{{> Learn/LinkBox }}
-<div class='right'></div>
-
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 
 The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/src/learn/advanced-workflow/index.md)**, making an analysis pathway transparent, reproducible, and *reusable*.
@@ -20,7 +15,7 @@ You have multiple options how to get your files into Galaxy thus making them dat
 
 <div class='right'>![Upload Modal Icon](/src/learn/managing-datasets/upload_icon.png)</div>
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
-* **FTP upload** - In case of large files (the upload modal has ~2GB browser limit) or unpredictable connection (support for pausing and resuming) you might want to use FTP. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/FTPUpload/index.md).
+* **FTP upload** - In case of large files (the upload modal has ~2GB browser limit) or unpredictable connection (support for pausing and resuming) you might want to use FTP. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
 
 # Dataset Icons & Text
 
@@ -48,7 +43,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 
 # Data size and disk Quotas
 
-* The size limit for a file loaded using [FTP](/src/support/loading-data/index.md) is 50G.
+* The size limit for a file loaded using [FTP](/src/ftp-upload//index.md) is 50G.
 * The size limit for a job's output is (unrelated to quotas):
   * 50G on the [Test](/src/test/index.md) server
   * 200G on the [Main](/src/main/index.md) server
