@@ -385,7 +385,7 @@ where:
 
 1.	Gene identifiers
 2.	Mean normalized counts, averaged over all samples from both conditions
-3.	Logarithm (base 2) of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
+3.	log<sub>2</sub> of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
 4.	Standard error estimate for the log2 fold change estimate
 5.	[Wald](https://en.wikipedia.org/wiki/Wald_test) statistic
 6.	*p*-value for the statistical significance of this change
@@ -411,9 +411,9 @@ Let's look at two first entries:
 
 ```
 Last four columns are normalized counts for:                    Mk_1     Mk_2     G1E_1    G1E_2
----------------------------------------------------------------------------------------------------
-MSTRG.977.1  697.447 -10.030  1.062 -9.444 3.583e-21 1.974e-18  2081.714 706.074    1.665     0.333
-MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000    0.000 1311.325 1268.763
+--------------------------------------------------------------------------------------------------
+MSTRG.977.1  697.447 -10.030  1.062 -9.444 3.583e-21 1.974e-18  2081.714 706.074    1.665    0.333
+MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000   0.000 1311.325 1268.763
 ```
 
 The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this cases (because we set `G1E` as the Factor level 1 while running `DeSeq2`) positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0. 
@@ -449,69 +449,47 @@ In addition to the list of genes, `DESeq2` outputs a graphical summary of the re
 For more information about `DESeq2` and its outputs, you can have a look at [`DESeq2` documentation](https://www.bioconductor.org/packages/release/bioc/manuals/DESeq2/man/DESeq2.pdf).
 
 # Visualization
-Now that we have a list of transcript expression levels and their differential expression levels, it is time to visually inspect our transcript structures and the reads they were predicted from. It is a good practice to visually inspect (and present) loci with transcripts of interest. Fortuantely, there is a built-in genome browser in Galaxy, **Trackster**, that make this task simple (and even fun!). 
 
-In this last section, we will convert our aligned read data from BAM format to bigWig format to simplify observing where our stranded RNA-seq data aligned to. We'll then initiate a session on Trackster, load it with our data, and visually inspect our interesting loci. 
+Now that we have a list of transcript expression levels and their differential expression levels, it is time to visually inspect our transcript structures and the reads they were predicted from. It is a good practice to visually inspect (and present) loci with transcripts of interest. As we've seen above, Galaxy integrates will with the IGV browser.
 
-> ### :pencil2: Hands-on: Converting aligned read files to bigWig format
->
-> 1. **bamCoverage** :wrench:: Run `bamCoverage` on all four aligned read files (`HISAT` output) with the following parameters:
->    - **Bin size in bases**: 1
->    - **Effective genome size**: mm9 (2150570000)
->    - Expand the **Advanced options**
->    - **Only include reads originating from fragments from the forward or reverse strand**: forward
-> 2. **Rename** :wrench:: Rename the outputs to reflect the origin of the reads and that they represent the reads mapping to the PLUS strand
->![](/src/tutorials/nt_rnaseq/bamCoverage_forward.png)
->
-> 3. **bamCoverage** :wrench:: Repeat Step 1 except changing the following parameter:
->    - **Only include reads originating from fragments from the forward or reverse strand**: reverse
-> 4. **Rename** :wrench:: Rename the outputs to reflect the origin of the reads and that they represent the reads mapping to the MINUS strand
-> ![](/src/tutorials/nt_rnaseq/bamCoverage_reverse.png)
+## Prepare BAM files
 
-> ### :pencil2: Hands-on: Trackster based visualization
->
-> 1. **Viz** :wrench:: On the center console at the top of the Galaxy interface, choose " Visualization" -> "New track browser"
->    - Name your visualization someting descriptive under "Browser name:"
->    - Choose "Mouse Dec. 2011 (GRCm38/mm10) (mm10)" as the "Reference genome build (dbkey)
->    - Click "Create" to initiate your Trackster session
-> ![](/src/tutorials/nt_rnaseq/Trackster_opening_window.png)
->
-> 2. **Viz** :wrench:: Click "Add datasets to visualization"
->    - Select the "RefSeq GTF mm10" file
->    - Select the output files from `Stringtie`
->    - Select the output file from `Cuffmerge`
->    - Select the output files from `bamCoverage`
->
-> 3. :wrench:: Using the grey labels on the left side of each track, drag and arrange the track order to your preference
->
-> 4. :wrench:: Hover over the grey label on the left side of the "RefSeq GTF mm10" track and click the "Edit settings" icon.
->    - Adjust the block color to blue (#0000ff) and antisense strand color to red (#ff0000) 
->
-> 5. :wrench:: Repeat the previous step on the output files from `StringTie` and `Cuffmerge`
->
-> 6. :wrench:: Hover over the grey label on the left side of the "G1E R1 plus" track and click the "Edit settings" icon.
->    - Adjust the color to blue (#0000ff) 
->
-> 7. :wrench:: Repeat the previous step on the other three bigWig files representing the plus strand
->
-> 8. :wrench:: Hover over the grey label on the left side of the "G1E R1 minus" track and click the "Edit settings" icon.
->    - Adjust the color to red (#ff0000) 
->
-> 9. :wrench:: Repeat the previous step on the other three bigWig files representing the minus strand
->
-> 10. :wrench:: Adjust the track height of the bigWig files to be consistant for each set of plus strand and minus strand tracks 
-> ![](/src/tutorials/nt_rnaseq/Trackster_viz_hoxb13_locus.png)
-> 11. :wrench:: Direct Trackster to the coordinates: chr11:96193539-96206376, what do you see?
->    >    <details>
->    >    <summary>Click to view answers</summary>
->    >    <ol type="1">
->    >    <li>There are two clusters of transcripts that are exclusively expressed in the G1E background</li>
->    >    <li>The left-most transcript is the Hoxb13 transcript</li>
->    >    <li>The center cluster of transcripts are not present in the RefSeq annotation and are determined by `Cuffmerge` to be "u" and "x"</li>
->    >    </ol>
->    >    </details>
->    {: .question}
->
+When looking at results it will helpful to see read coverage at the regions of interest. But we have four datasets corresponding to four replicates and in your own experiment these may be even more datasets. So let's first merge all HiSat BAM outputs in a single BAM file. However, to keep the relationship between individual reads and samples we need to add [readgroup tags](/tutorials/ngs/#read-groups) to each BAM file before merging. For this we will use a combination of tools:
+
+|                                 |
+|---------------------------------|
+|![](/src/tutorials/nt_rnaseq/merge_hisat_col.png)|
+|<small>**First**, merge filtered `HiSat` outputs into a single collection. This is done using **Collection Operations -> Merge Collections** tool. Rename this collection `HiSat merged`.</small>|
+|![](/src/tutorials/nt_rnaseq/addRG.png)|
+|<small>**Second**, use **NGS: Picard -> AddOrReplaceReadGroup** to add readgroups as shown above. This will automatically set readgroups based on dataset names.</small>|
+|![](/src/tutorials/nt_rnaseq/mergeBAM.png)|
+|<small>**Finally**, use  **NGS: Picard -> MergeSamFiles** to collapse the entire collection you've just produced at the previous step into a single BAM datasets. Name this dataset `HiSat single BAM`. We will use this dataset for visualization.</small>|
+
+## Starting and using IGV
+
+To start IGV expand the merged dataset we have just generated:
+
+|                                 |
+|---------------------------------|
+|![](/src/tutorials/nt_rnaseq/startIGV.png)|
+|<small>Click on `Mouse mm10` link (on Linux systems you may need to install IGV separately and use `local` link). This action will download and start IGV.</small>|
+
+After IGV has started we will add to GTF files containing merged transcripts (the one produced [here](/tutorials/nt_rnaseq/#creating-unified-transcriptome-assembly)):
+
+|                                 |
+|---------------------------------|
+|![](/src/tutorials/nt_rnaseq/gffToIgv.png)|
+|<small>To display GFF with merged transcripts click on `local` IGV link.</small>
+
+Finally, direct IGV to the locus of interest by typing `MSTRG.78.1` in the IGV's location box. `MSTRG.78.1` is novel transcript which significantly overexpressed in G1E according to [our `DeSeq2` analysis](/tutorials/nt_rnaseq/#making-sense-of-the-results):
+
+|                                 |
+|---------------------------------|
+|![](/src/tutorials/nt_rnaseq/igv1.png)|
+|<small>IGV view of the `MSTRG.78.1` locus.</small>
+|![](/src/tutorials/nt_rnaseq/igv2.png)|
+|<small>Grouping and coloring alignments by readgroup will show that only `G1E` replicates contain any read data.</small>
+
 
 # Conclusion
 
