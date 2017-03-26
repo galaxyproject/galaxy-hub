@@ -5,13 +5,17 @@ title: Finding and quantifying new transcripts
 
 # Introduction
 
-Here we will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1101/gr.164830.113](http://genome.cshlp.org/content/early/2014/10/12/gr.164830.113.abstract). The goal of this study was to investigate "*the dynamics of occupancy and the role in gene regulation of the transcription factor Tal1, a critical regulator of hematopoiesis, at multiple stages of hematopoietic differentiation.*" To this end, RNA-seq libraries were constructed from multiple mouse cell types including G1E - a GATA-null immortalized cell line derived from targeted disruption of GATA-1 in mouse embryonic stem cells - and megakaryocytes. This RNA-seq data was used to determine differential gene expression between G1E and megakaryocytes and later correlated with Tal1 occupancy. This dataset (GEO Accession: [GSE51338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51338)) consists of biological replicate, paired-end, poly(A) selected RNA-seq libraries. Because of the long processing time for the large original files, we have downsampled the original raw data files to include only reads that align to chromosome 19 and a subset of interesting genomic loci identified by Wu *et al*.
+<div class="alert alert-success" role="alert">
+**Objective**: To compare RNAseq data from two distinct cell types in order to identify and quantify differentially expressed transcripts.
+</div>
+
+We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1101/gr.164830.113](http://genome.cshlp.org/content/early/2014/10/12/gr.164830.113.abstract). The goal of this study was to investigate "*the dynamics of occupancy and the role in gene regulation of the transcription factor Tal1, a critical regulator of hematopoiesis, at multiple stages of hematopoietic differentiation.*" To this end, RNA-seq libraries were constructed from multiple mouse cell types including G1E - a GATA-null immortalized cell line derived from targeted disruption of GATA-1 in mouse embryonic stem cells - and megakaryocytes. This RNA-seq data was used to determine differential gene expression between G1E and megakaryocytes and later correlated with Tal1 occupancy. This dataset (GEO Accession: [GSE51338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51338)) consists of biological replicate, paired-end, poly(A) selected, stranded (dUTP) RNA-seq libraries. Because of the long processing time for the large original files, we have down-sampled the original raw data files to include only reads that align to chromosome 19 and a subset of interesting genomic loci identified by Wu *et al*.
 
 ## Key fact about this study:
 
- * TAL1 is a transcription factor essential for hematopoesis. It is essential for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
+ * TAL1 is a transcription factor essential for hematopoesis. It is critically needed for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
  * Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
- * By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1
+ * By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1.
 
 |      |
 |------|
@@ -32,41 +36,44 @@ The goal of this exercise is to:
 In this tutorial, we will address:
 
  1. Data upload
- 2. Read trimming
+ 2. Read QC and pre-processing
  3. Read mapping
  4. *De novo* transcript reconstruction
  5. Transcriptome assembly
  6. Read counting and differential expression analysis
  7. Visualization
 
-# Uploading the Data
+# The Data
 
-Due to the large size of this dataset, we have downsampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
+Due to the large size of this dataset, we have down-sampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
  * [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
  * [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
 
+## Data organization and naming
+
+
 The data is structured in the following way:
 
  - There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
- - There are two replicates per sample: `R1` and `R2`
+ - There are two *biological* replicates per sample: `R1` and `R2`
  - Each replicate has forward and reverse reads (`f` and `r`)
  - Thus, there are eight (8) fastq files
 
 
 |      |
-|:------:|
+|------|
 |![](/src/tutorials/nt_rnaseq/lib.png)|
-|<small>**Galaxy data library containing the reads**</small>|
+|<small>**Galaxy data library containing the reads**. Here you can see two cell types (`G1E` and `Mk`) with two replicates for each cell type (`R1` and `R2`). Each replicate is requested with paired-end reads (`f` and `r`).</small>|
 
-## Uploading data
+## How to upload the data into Galaxy
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   	<div class="panel panel-default">
     	<div class="panel-heading" role="tab" id="headingOne">
       		<h4 class="panel-title">
         		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          			Data upload from Galaxy Library
+          			Data upload from Galaxy Library (**recommended** if using http://usegalaxy.org)
         		</a>
       		</h4>
     	</div>
@@ -85,7 +92,7 @@ The data is structured in the following way:
    		<div class="panel-heading" role="tab" id="headingTwo">
       		<h4 class="panel-title">
         		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          			Data upload from Zenodo (optional if using main public server)
+          			Data upload from Zenodo
         		</a>
       		</h4>
     	</div>
@@ -111,7 +118,7 @@ Once you upload data into a new history you Galaxy interface should look like th
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/afterUpload.png)|
-|<small>**Datasets are uploaded into a new history**</small>|
+|<small>**Datasets are uploaded into a new history**. Here the history was named `Novel transcripts`. You can name history as well by clicking on its name. For more info on histories see this [tutorial](/tutorials/histories).</small>|
 
 # Exploring the data
 
@@ -121,20 +128,19 @@ To lean more about the data we will be using let's look at just one set of reads
 
 For quality control, we use similar tools as described in [NGS-QC tutorial](/tutorials/ngs/): [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic).
 
-Let's start by processing the smaller set of reads from Megakaryocyte set: `Mk_R1_f_ds_SRR549357` and its reverse set of mates `Mk_R1_r_ds_SRR549357`:
-
+Let's start by processing the smaller set of reads from Megakaryocyte set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**: 
 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/g1e_qc.png)|
-|<small>**QC'ing reads with FastQC**</small>|
+|<small>**QC'ing reads with FastQC**. Note we've pressed the <i class="fa fa-files-o" aria-hidden="true"></i> button to enable selection of multiple datasets within the **Short read data from your current history** box.</small>|
 
 This will generate the following quality value distributions:
 
 |                                        |                                        |
 |:--------------------------------------:|:--------------------------------------:|
 | ![](/src/tutorials/nt_rnaseq/f_qc.png) | ![](/src/tutorials/nt_rnaseq/r_qc.png) |
-| `G1E_R1_f_ds_SRR549355`                 | `G1E_R1_r_ds_SRR549355`                 |
+| `G1E_R1_f_ds_SRR549355`                | `G1E_R1_r_ds_SRR549355`                |
 
 
 <div class="panel panel-info">
@@ -151,13 +157,13 @@ This will generate the following quality value distributions:
 
 ## Dynamically trim low quality bases from reads` ends
 
-The quality score distributions we seen above for one sample are characteristic of all reads in our dataset (you can run FastQC on remaining reads to see if this is true). To increase mapping efficiency we can trim off the low quality bases from the ends of the reads using 'Trimmomatic`:
+The quality score distributions we seen above for one sample are characteristic of all reads in our dataset (you can run FastQC on remaining reads to see if this is true). To increase mapping efficiency we can trim off the low quality bases from the ends of the reads using **NGS: QC and manipulation -> Trimmomatic**:
 
 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/trimmomatic.png)|
-|<small>**Running `trimmomatic`** on G1E_R1 read pair</small>|
+|<small>**Running `trimmomatic`** on G1E_R1 read pair.</small>|
 
 Trimmomatic will produce four outputs as a result:
 
@@ -173,7 +179,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 |                                                |                                                |
 |:----------------------------------------------:|:----------------------------------------------:|
 | ![](/src/tutorials/nt_rnaseq/f_qc_trimmed.png) | ![](/src/tutorials/nt_rnaseq/r_qc_trimmed.png) |
-| `G1E_R1_f_ds_SRR549355`                         | `G1E_R1_r_ds_SRR549355`                         |
+| `G1E_R1_f_ds_SRR549355`                        | `G1E_R1_r_ds_SRR549355`                        |
 
 <div class="panel panel-info">
 	<div class="panel-heading">
@@ -188,7 +194,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 
 ## Is this a stranded RNAseq experiment?
 
-RNAseq data is often [stranded](/tutorials/rb_rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data. Moreover, of data stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same two forward and reverse G1E_R1 datasets. 
+RNAseq data is often [stranded](/tutorials/rb_rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets. 
 
 ### Map subset of data
 
@@ -197,16 +203,16 @@ Here we will use **NGS: RNA analysis -> HiSat** to map the reads against the mou
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/hisat_def.png)|
-|<small>Running HiSat with default parameters on trimmed data. Make sure you select correct inputs (do not select `unpaired` trimmomatic outputs by accident).</small>|
+|<small>**Running `HiSat` with default parameters on trimmed data.** Select `Individual paired reads` from **Single or paired reads?** dropdown to be able to select individual fastq datasets. Make sure you select correct inputs (do not select `unpaired` trimmomatic outputs by accident).</small>|
 
 ### Filter and restrict to a small region of interest
 
-All we need is to look at read mapping around some known gene. To do this we will filter BAM dataset using **NGS: SAMtools -> Filter SAM or BAM**:
+All we need is to look at read mapping around some known gene (pick any well expressed gene you like). To do this we will filter BAM dataset using **NGS: SAMtools -> Filter SAM or BAM**:
 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/hisat_filter_intro.png)|
-|<small>Filter data to retain only well mapped reads (**Minimum MAPQ quality score** is `20`) that are in proper pairs and mapped around position `chr11:96192361-96198599`.</small>
+|<small>**Filter BAM data** to retain only well mapped reads (**Minimum MAPQ quality score** is `20`) that are in proper pairs and mapped around position `chr11:96192361-96198599`.</small>
 
 ### Display at IGV
 
@@ -215,9 +221,9 @@ Now let's display results of this experiment in IGV. For this expand the latest 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/igv_test1.png)|
-|<small>Expand dataset and click highlighet link ((on Linux systems you may need to install IGV separately and use `local` link).</small>|
+|<small>Expand dataset and click highlighted link (on Linux systems you may need to install IGV separately and use `local` link).</small>|
 |![](/src/tutorials/nt_rnaseq/igv_test2.png)|
-|<small>Once IGV starts focus it on regions `chr11:96192361-96198599` by typing it in the location box.</small>|
+|<small>Once IGV starts, focus it on the gene of interest by typing its name into the location box. In this case the gene is *Hoxb13*.</small>|
 |![](/src/tutorials/nt_rnaseq/igv_test3.png)|
 |<small>Right click on the lift side of interface to (1) color, group, and sort alignments by `first-of-pair strand` and (2) set view to `collapsed`.</small>|
 
