@@ -39,7 +39,7 @@ In this tutorial, we will address:
  6. Read counting and differential expression analysis
  7. Visualization
 
-# Exploring the Data
+# Uploading the Data
 
 Due to the large size of this dataset, we have downsampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
@@ -113,9 +113,11 @@ Once you upload data into a new history you Galaxy interface should look like th
 |![](/src/tutorials/nt_rnaseq/afterUpload.png)|
 |<small>**Datasets are uploaded into a new history**</small>|
 
-## Quality control
+# Exploring the data
 
-### Assess data quality
+To lean more about the data we will be using let's look at just one set of reads. This will give us an idea on how good the data is and what we might need to do with it before proceeding with the analysis.
+
+## Assess data quality
 
 For quality control, we use similar tools as described in [NGS-QC tutorial](/tutorials/ngs/): [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic).
 
@@ -124,7 +126,7 @@ Let's start by processing the smaller set of reads from Megakaryocyte set: `Mk_R
 
 |      |
 |------|
-|![](/src/tutorials/nt_rnaseq/mk_qc.png)|
+|![](/src/tutorials/nt_rnaseq/g1e_qc.png)|
 |<small>**QC'ing reads with FastQC**</small>|
 
 This will generate the following quality value distributions:
@@ -132,7 +134,7 @@ This will generate the following quality value distributions:
 |                                        |                                        |
 |:--------------------------------------:|:--------------------------------------:|
 | ![](/src/tutorials/nt_rnaseq/f_qc.png) | ![](/src/tutorials/nt_rnaseq/r_qc.png) |
-| `Mk_R1_f_ds_SRR549357`                 | `Mk_R1_r_ds_SRR549357`                 |
+| `G1E_R1_f_ds_SRR549355`                 | `G1E_R1_r_ds_SRR549355`                 |
 
 
 <div class="panel panel-info">
@@ -147,7 +149,7 @@ This will generate the following quality value distributions:
   	</div>
 </div>
 
-### Dynamically trim low quality bases from reads` ends
+## Dynamically trim low quality bases from reads` ends
 
 The quality score distributions we seen above for one sample are characteristic of all reads in our dataset (you can run FastQC on remaining reads to see if this is true). To increase mapping efficiency we can trim off the low quality bases from the ends of the reads using 'Trimmomatic`:
 
@@ -155,22 +157,23 @@ The quality score distributions we seen above for one sample are characteristic 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/trimmomatic.png)|
-|<small>**Running `trimmomatic` on all data**. Note we selected all forward reads in the `Input FASTQ file (R1/first of pair)` box and all reverse reads in the `Input FASTQ file (R2/second of pair)` box.</small>|
+|<small>**Running `trimmomatic`** on G1E_R1 read pair</small>|
 
-Now that we've ran `trimmomatic` let's see if it had any effect on our data. We can do this by rerunning `FastQC` on `Mk_R1_f_ds_SRR549357` and `Mk_R1_r_ds_SRR549357` datasets after they have been trimmed:
+Trimmomatic will produce four outputs as a result:
 
+ - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
+ - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
+ - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
+ - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
 
-|      |
-|------|
-|![](/src/tutorials/nt_rnaseq/fq_after_trimmomatic.png)|
-|<small>**Rerunning `FastQC` on trimmed data**</small>|
+The `unpaired` datasets we will no longer need in our analysis. 
 
-This will generate the following quality value distributions:
+Now that we've ran `trimmomatic` let's see if it had any effect on our data. We can do this by rerunning `FastQC` on `G1E_R1_f_ds_SRR549355` and `G1E_R1_r_ds_SRR549355` datasets after they have been trimmed. This will generate the following quality value distributions:
 
 |                                                |                                                |
 |:----------------------------------------------:|:----------------------------------------------:|
 | ![](/src/tutorials/nt_rnaseq/f_qc_trimmed.png) | ![](/src/tutorials/nt_rnaseq/r_qc_trimmed.png) |
-| `Mk_R1_f_ds_SRR549357`                         | `Mk_R1_r_ds_SRR549357`                         |
+| `G1E_R1_f_ds_SRR549355`                         | `G1E_R1_r_ds_SRR549355`                         |
 
 <div class="panel panel-info">
 	<div class="panel-heading">
@@ -183,10 +186,46 @@ This will generate the following quality value distributions:
   	</div>
 </div>
 
+## Is this a stranded RNAseq experiment?
 
-Now that we have trimmed our reads and are fortunate that there is a reference genome assembly for mouse, we will align our trimmed reads to the genome.
+RNAseq data is often [stranded](/tutorials/rb_rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data. Moreover, of data stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same two forward and reverse G1E_R1 datasets. 
+
+### Map subset of data
+
+Here we will use **NGS: RNA analysis -> HiSat** to map the reads against the mouse genome:
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/hisat_def.png)|
+|<small>Running HiSat with default parameters on trimmed data. Make sure you select correct inputs (do not select `unpaired` trimmomatic outputs by accident).</small>|
+
+### Filter and restrict to a small region of interest
+
+All we need is to look at read mapping around some known gene. To do this we will filter BAM dataset using **NGS: SAMtools -> Filter SAM or BAM**:
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/hisat_filter_intro.png)|
+|<small>Filter data to retain only well mapped reads (**Minimum MAPQ quality score** is `20`) that are in proper pairs and mapped around position `chr11:96192361-96198599`.</small>
+
+### Display at IGV
+
+Now let's display results of this experiment in IGV. For this expand the latest dataset by clicking on it and choose link highlighted below:
+
+|      |
+|------|
+|![](/src/tutorials/nt_rnaseq/igv_test1.png)|
+|<small>Expand dataset and click highlighet link ((on Linux systems you may need to install IGV separately and use `local` link).</small>|
+|![](/src/tutorials/nt_rnaseq/igv_test2.png)|
+|<small>Once IGV starts focus it on regions `chr11:96192361-96198599` by typing it in the location box.</small>|
+|![](/src/tutorials/nt_rnaseq/igv_test3.png)|
+|<small>Right click on the lift side of interface to (1) color, group, and sort alignments by `first-of-pair strand` and (2) set view to `collapsed`.</small>|
+
+In the picture above you will see that the absolute majority of read pairs have their first read mapping on the negative strand (they are blue). At the same time the gene in the picture, *Hoxb13*, is on the positive strand (its arrows point from left to right). This this is a stranded RNA seq data were first cDNA strand is being sequenced. This implies that when we start actual analysis of this date we will use `First Strand (R/RF)` setting of `HiSat`.
 
 # Preparing dataset collections
+
+Now we know that we are dealing with a stranded RNAseq experiment and that it may benefit from trimming the reads. Let's begin actual analysis.
 
 Instead of running a single tool multiple times on all your data, would you rather run a single tool on multiple datasets at once? To do this we will use [dataset collections](/tutorials/collections/) feature of Galaxy!
 
