@@ -198,12 +198,12 @@ RNAseq data is often [stranded](/tutorials/rb_rnaseq/#strand-specific-rnaseq) as
 
 ### Map subset of data
 
-Here we will use **NGS: RNA analysis -> HiSat** to map the reads against the mouse genome:
+Here we will use **NGS: RNA analysis -> HISAT** to map the reads against the mouse genome:
 
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/hisat_def.png)|
-|<small>**Running `HiSat` with default parameters on trimmed data.** Select `Individual paired reads` from **Single or paired reads?** dropdown to be able to select individual fastq datasets. Make sure you select correct inputs (do not select `unpaired` trimmomatic outputs by accident).</small>|
+|<small>**Running `HISAT` with default parameters on trimmed data.** Select `Individual paired reads` from **Single or paired reads?** dropdown to be able to select individual fastq datasets. Make sure you select correct inputs (do not select `unpaired` trimmomatic outputs by accident).</small>|
 
 ### Filter and restrict to a small region of interest
 
@@ -223,17 +223,15 @@ Now let's display results of this experiment in IGV. For this expand the latest 
 |![](/src/tutorials/nt_rnaseq/igv_test1.png)|
 |<small>Expand dataset and click highlighted link (on Linux systems you may need to install IGV separately and use `local` link).</small>|
 |![](/src/tutorials/nt_rnaseq/igv_test2.png)|
-|<small>Once IGV starts, focus it on the gene of interest by typing its name into the location box. In this case the gene is *Hoxb13*.</small>|
+|<small>Once IGV starts, focus it on the gene of interest by typing its name into the location box (in the image above the location box is on top of IGV interface and has coordinates `chr11:96,192,361-96,198,599` in it) . In this case the gene is *Hoxb13*.</small>|
 |![](/src/tutorials/nt_rnaseq/igv_test3.png)|
 |<small>Right click on the lift side of interface to (1) color, group, and sort alignments by `first-of-pair strand` and (2) set view to `collapsed`.</small>|
 
-In the picture above you will see that the absolute majority of read pairs have their first read mapping on the negative strand (they are blue). At the same time the gene in the picture, *Hoxb13*, is on the positive strand (its arrows point from left to right). This this is a stranded RNA seq data were first cDNA strand is being sequenced. This implies that when we start actual analysis of this date we will use `First Strand (R/RF)` setting of `HiSat`.
+In the picture above you will see that the absolute majority of read pairs have their first read mapping on the negative strand (they are blue). At the same time the gene in the picture, *Hoxb13*, is on the positive strand (its arrows point from left to right). This this is a stranded RNA seq data were first cDNA strand is being sequenced. This implies that when we start actual analysis of this date we will use `First Strand (R/RF)` setting of `HISAT`.
 
 # Preparing dataset collections
 
-Now we know that we are dealing with a stranded RNAseq experiment and that it may benefit from trimming the reads. Let's begin actual analysis.
-
-Instead of running a single tool multiple times on all your data, would you rather run a single tool on multiple datasets at once? To do this we will use [dataset collections](/tutorials/collections/) feature of Galaxy!
+Now we know that we are dealing with a stranded RNAseq experiment and that it may benefit from trimming the reads. Let's begin actual analysis. Instead of running a single tool multiple times on all your data, would you rather run a single tool on multiple datasets at once? To do this we will use [dataset collections](/tutorials/collections/) feature of Galaxy!
 
 ## Copy datasets to a new history
 
@@ -243,7 +241,7 @@ We want to create a new clean history by moving the original sequence data. To d
 |                                                           |                       |
 |-----------------------------------------------------------|-----------------------|
 | **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br>Choose "**Copy Datasets**" option: <br>![](/src/tutorials/nt_rnaseq/copy_datasets.png) | **B.** Choose which datasets you need to copy:<br>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)<br>**C.** Click on the name of the newly created history:<br>![](/src/tutorials/nt_rnaseq/datasets_copied.png) |
-|<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy. **C**: Go to the new history.</small>  |
+|<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy and type a new for th enew history (`Novel Transcripts (RNAseq)` in this case). **C**: Go to the new history by clicking on the link with its name.</small>  |
 
 Once all datasets are copied it will look something like this:
 
@@ -253,6 +251,8 @@ Once all datasets are copied it will look something like this:
 |<small>**New history with copied datasets**</small>|
 
 ## Create two dataset collections
+
+We will create two dataset collections: one containing data for G1E cells and the other for megakaryocytes (you may want to review features of Galaxy's history system explained in this [tutorial](/tutorials/histories)):
 
 |      |
 |------|
@@ -273,21 +273,25 @@ Once all datasets are copied it will look something like this:
 |![](/src/tutorials/nt_rnaseq/create_col_8.png)|
 |<small>You will get a new item in the history representing that collection</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_9.png)|
-|<small>Do the same thing for Megakarycytes datasets and you should get a history that looks like the one above.</small>
+|<small>Repeat these steps for Megakarycytes datasets and you should get a history that looks like the one above.</small>
 
 
 # Pre-processing, mapping, and post-processing
 
+Here we will trim all reads in our dataset, map them, and filter mapped data.
+
 ## Pre-processing: Trimming all datasets
 
-Now that we have collections let's use `Trimmomatic` to trim all datasets in our analysis. We can do this directly on collections:
+Now that we have collections let's use `Trimmomatic` to trim all datasets in our analysis at once. We can do this directly on collections:
 
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/trim_col.png)|
 |<small>**Trimming an entire collection**. Note that `Single-end or paired-end reads?` is set to `Paired-end (as collection)`. This allows select collections (such `G1E`) as inputs.</small>|
 
-This will be repeated for `Mk` collection as well. Note that Trimmomatic produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; we one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Repeat this on `Mk` collection as well.</div>
+
+This should be repeated for `Mk` collection as well (do it on your own). Note that `Trimmomatic` produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; we one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
 It will be easier down the line if we rename collections to make easier to identify as analysis is progressing (collection tagging, which is currently in development, will alleviate this need in the near future). To rename a collection:
 
 |               |                  |
@@ -301,11 +305,11 @@ To make sense of the reads, their positions within mouse genome must be determin
 - Reads contained within mature exons - these align perfectly to the reference genome
 - Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
-Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/hisat2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb_rnaseq/). 
+Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb_rnaseq/). 
     
-## Spliced mapping with HiSat
+## Spliced mapping with HISAT
 
-We will run HiSat with the following settings:
+We will run HISAT with the following settings:
 
  - **Single end or paired reads?**: `Collection of paired reads`
  - **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
@@ -316,9 +320,9 @@ We will run HiSat with the following settings:
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/hisat1.png)|
-|<small>**HiSat settings**. Upper part of HiSat interface showing that it is being run on a collection `G1E` against `mm10` genome build. Do not forget to scroll down and set **Spliced alignment parameters** as explained above.</small>|
+|<small>**HISAT settings**. Upper part of HISAT interface showing that it is being run on a collection `G1E` against `mm10` genome build. Do not forget to scroll down and set **Spliced alignment parameters** as explained above.</small>|
 
-Run `HISAT` on the **Mk** collection as well.
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Run `HISAT` on the **Mk** collection as well.  Rename collections generated by `HISAT` as `HISAT on G1E` and `HISAT on Mk`, respectively.</div>
 
 ## Post-processing: cleaning the BAM 
 
@@ -327,14 +331,16 @@ After reads have been mapped it would make sense to restrict mapped reads to tho
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/filter_bam.png)|
-|<small>**BAMTools Filter**. Here we are filtering results of HiSat run (a dataset collection called `HISAT on G1E`) by retaining only reads with high [mapping quality](http://genome.sph.umich.edu/wiki/Mapping_Quality_Scores) that are paired and mapped in a proper pair.</small>
+|<small>**BAMTools Filter**. Here we are filtering results of HISAT run (a dataset collection called `HISAT on G1E`) by retaining only reads with high [mapping quality](http://genome.sph.umich.edu/wiki/Mapping_Quality_Scores) that are paired and mapped in a proper pair.</small>
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Repeat this on `HISAT on Mk` collection as well. Rename results as shown below.</div>
 
 We will again rename collections to `HISAT on G1E filtered` and `HISAT on Mk filtered`:
 
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/filtered_collection.png)|
-|<small>**HISAT results after filtering**</small>|
+|<small>**HISAT results after filtering**. Keeping names clear is important for smooth sailing!</small>|
 
 
 # *De novo* transcript reconstruction
@@ -347,6 +353,8 @@ Now that we have mapped our reads to the mouse genome with `HISAT`, we want to d
 |-------|
 |![](/src/tutorials/nt_rnaseq/stringtie_col.png)|
 |<small>Running `Stringtie` on filtered mapped reads. Here it is run on collection `G1E` and we set `Name prefix for output transcripts` to `G1E`. When running `Stringtie` on collection `Mk` set this accordingly. </small>
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Run `Stringtie` on `HISAT on Mk filtered` collection as well. Rename output collections accordingly!</div>
 
 `Stringtie` generates assembled transcripts in [GFF format](https://ccb.jhu.edu/software/stringtie/index.shtml?t=manual#output). Below is an example of its output:
 
@@ -366,14 +374,14 @@ However, since we have ran `Stringtie` on each collection (`G1E` and `Mk`) indep
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/merge_col.png)|
-|<small>Merging collection into a single collection</small>|
+|<small>**Merging collection** into a single collection. This assumes that you have renamed collections produced by `Stringtie` as `Stringtie on G1E` and `Stringtie on Mk`.</small>|
 
-Now that the two collections are merged we will rename resulting collection `Transcriptome`. We are almost ready to run `Stringtie merge` on it. But in order to distinguish between novel and existing transcripts we will need provide `Stringtie merge` with a list of known annotated transcripts. For mouse genome version used in this tutorial (`mm10`) such a list can be downloaded from a [Galaxy Library](https://usegalaxy.org/library/list#folders/F59bc5dbe6dfc6d4c) as was described above. Now we can finally run `Stringtie merge`:
+Now that the two collections are merged we will rename resulting collection `Transcriptome`. We are almost ready to run `Stringtie merge` on it. But in order to distinguish between novel and existing transcripts we will need provide `Stringtie merge` with a list of known annotated transcripts. For mouse genome version used in this tutorial (`mm10`) such a list can be downloaded from a [Galaxy Library](https://usegalaxy.org/library/list#folders/F59bc5dbe6dfc6d4c) as was [described above](/tutorials/nt_rnaseq/#how-to-upload-the-data-into-galaxy). Now we can finally run `Stringtie merge`:
 
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/stringtie_merge.png)|
-|<small>Merging transcripts from `G1E` and `Mk` replicates into a single unified GFF dataset</small>|
+|<small>**Merging transcripts** from `G1E` and `Mk` replicates into a single unified GFF dataset.</small>|
 
 We will rename output of `Stringtie merge` as `Merged transcriptome`.
 
@@ -385,18 +393,23 @@ We now want to identify which transcripts are differentially expressed between t
 
 ## Count the number of reads per transcript
 
-To compare the abundance of transcripts between different cellular states, the first essential step is to quantify the number of reads per transcript. [`FeatureCounts`](http://bioinf.wehi.edu.au/featureCounts/) is one of the most popular tools for counting reads in genomic features. In our case, we'll be using `FeatureCounts` to count reads aligning in exons of our `Stringtie merge` generated transcriptome database.
+To compare the abundance of transcripts between different cellular states, the first essential step is to quantify the number of reads per transcript. [`FeatureCounts`](http://bioinf.wehi.edu.au/featureCounts/) is one of the most popular tools for counting reads in genomic features. In our case, we'll be using **NGS: RNA Analysis -> FeatureCounts** to count reads aligning in exons of our `Stringtie merge` generated transcriptome database.
 
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/fCount1.png)|
-|<small>Set input collection. In this case this is filtered `HiSat` output for `G1E` replicates (You will have to repeat `featureCount` calculation on `Mk` collection as well.)</small>|
+|<small>Set input collection. In this case this is filtered `HISAT` output for `G1E` replicates (You will have to repeat `featureCount` calculation on `Mk` collection as well.)</small>|
 |![](/src/tutorials/nt_rnaseq/fCount2.png)|
 |<small>Expand **Options for paired-end reads**, enable **Count fragments instead of reads** and set **Orientation of the two read from the same pair** to `Reverse, Forward (rf)`.</small>|
 |![](/src/tutorials/nt_rnaseq/fCount3.png)|
 |<small>Finally expand **Advanced options**, set **GFF gene identifier** to `transcript_id`, Strand specificity of the protocol to `Stranded (reverse)` and hit Enter.</small>|
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as well. Rename output collections as shown below.</div>
+
+|       |
+|-------|
 |![](/src/tutorials/nt_rnaseq/fCount5.png)|
-|<small>Rename collection generated by `featureCount` as `featureCounts on G1E` and `featureCounts on Mk`.</small>|
+|<small>**Rename collection** generated by `featureCount` as `featureCounts on G1E` and `featureCounts on Mk`.</small>|
 
 
 ## Perform differential gene expression testing
@@ -412,7 +425,7 @@ Transcript expression is estimated from read counts, and attempts are made to co
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/deseq.png)|
-|<small>Running `DeSeq2` on `G1E` and `Mk` counts. Note how Factor Levels are set. **Output normalized counts table** parameter is set to `Yes`.</small>
+|<small>**Running `DeSeq2`** on `G1E` and `Mk` counts. Note how Factor Levels are set. **Output normalized counts table** parameter is set to `Yes`.</small>
 
 The first output of `DESeq2` is a tabular file. That looks like this (only three decimal points are shown):
 
@@ -443,14 +456,14 @@ The output of `DeSeq2` contain over 35,000 rows. Let's select transcripts with t
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/deseq_filter.png)|
-|<small>Filtering to retain only genes with adjusted *p*-value above `0.05`.</small>|
+|<small>**Filtering** to retain only genes with adjusted *p*-value above `0.05`.</small>|
 
 This retains 128 transcripts. You can see that in some cases log<sub>2</sub> fold change is positive and in some cases it is negative. To give you an idea on what this means let's look at normalized counts for genes with negative and positive change. One way to do this is to join the dataset we have just generated with **Filter** tool with normalized counts generated by `DeSeq2`. For this we will use **Join, Subtract and Group -> Join two Datasets** tool:
 
 |       |
 |-------|
 |![](/src/tutorials/nt_rnaseq/norm_count_join.png)|
-|<small>Joining filtered `DeSeq2` output with normalized counts.</small>|
+|<small>**Joining** filtered `DeSeq2` output with normalized counts.</small>|
 
 Let's look at two first entries:
 
@@ -499,16 +512,16 @@ Now that we have a list of transcript expression levels and their differential e
 
 ## Prepare BAM files
 
-When looking at results it will helpful to see read coverage at the regions of interest. But we have four datasets corresponding to four replicates and in your own experiment these may be even more datasets. So let's first merge all HiSat BAM outputs in a single BAM file. However, to keep the relationship between individual reads and samples we need to add [readgroup tags](/tutorials/ngs/#read-groups) to each BAM file before merging. For this we will use a combination of tools:
+When looking at results it will helpful to see read coverage at the regions of interest. But we have four datasets corresponding to four replicates and in your own experiment these may be even more datasets. So let's first merge all HISAT BAM outputs in a single BAM file. However, to keep the relationship between individual reads and samples we need to add [readgroup tags](/tutorials/ngs/#read-groups) to each BAM file before merging. For this we will use a combination of tools:
 
 |                                 |
 |---------------------------------|
 |![](/src/tutorials/nt_rnaseq/merge_hisat_col.png)|
-|<small>**First**, merge filtered `HiSat` outputs into a single collection. This is done using **Collection Operations -> Merge Collections** tool. Rename this collection `HiSat merged`.</small>|
+|<small>**First**, merge filtered `HISAT` outputs into a single collection. This is done using **Collection Operations -> Merge Collections** tool. Rename this collection `HISAT merged`.</small>|
 |![](/src/tutorials/nt_rnaseq/addRG.png)|
 |<small>**Second**, use **NGS: Picard -> AddOrReplaceReadGroup** to add readgroups as shown above. This will automatically set readgroups based on dataset names.</small>|
 |![](/src/tutorials/nt_rnaseq/mergeBAM.png)|
-|<small>**Finally**, use  **NGS: Picard -> MergeSamFiles** to collapse the entire collection you've just produced at the previous step into a single BAM datasets. Name this dataset `HiSat single BAM`. We will use this dataset for visualization.</small>|
+|<small>**Finally**, use  **NGS: Picard -> MergeSamFiles** to collapse the entire collection you've just produced at the previous step into a single BAM datasets. Name this dataset `HISAT single BAM`. We will use this dataset for visualization.</small>|
 
 ## Starting and using IGV
 
