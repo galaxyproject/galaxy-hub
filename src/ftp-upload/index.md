@@ -27,7 +27,7 @@ In this example I'm using ForkLift for MacOS. Point your client to the FTP serve
 ![FTP client connection details](ftp-connect.png)
 
 <div class="alert alert-warning" role="alert">
-If you are having trouble connecting to the server try enabling `passive` mode in your client. Also make sure to connect using `FTP` since both `FTP (TLS)` and `SFTP` connections will be rejected.
+If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTP` since both `FTP (TLS)` and `SFTP` connections will be rejected.
 </div>
 
 Below you can see my files copied to the destination on Galaxy's FTP server.
