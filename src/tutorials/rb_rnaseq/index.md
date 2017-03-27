@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: Finding variants in haploid genomes
+title: RNAseq - an introduction
 ---
 
 # RNAseq: Reference-based
@@ -50,7 +50,7 @@ RNAs that are typically targeted in RNAseq experiments are single stranded (e.g.
 
 >![](/src/tutorials/rb_rnaseq/dna_rna.png)
 >
->**Relationship between DNA and RNA orientation**
+><small>**Relationship between DNA and RNA orientation**</small>
 
 During a typical RNAseq experiment the information about strandedness is lost after both strands of cDNA are synthesized, size selected, and converted into sequencing library. However, this information can be quite useful for various aspects of RNAseq analysis such as transcript reconstruction and quantification. There is a number of methods for creating so called *stranded* RNAseq libraries that preserve the strand information (for an excellent overview see Levin et al. [2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)):
 
