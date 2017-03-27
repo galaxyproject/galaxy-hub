@@ -5,20 +5,20 @@ title: Galaxy Support
 
 ## Quick Start
 
-### [NGS 101](/src/tutorials/g101/index.md)
-### [Tutorials](/src/learn/index.md)
-### [Teaching with Galaxy](/src/teach/index.md)
-### [Using Galaxy Choices](/src/choices/index.md)
+* [NGS 101](/src/tutorials/g101/index.md)
+* [Tutorials](/src/learn/index.md)
+* [Teaching with Galaxy](/src/teach/index.md)
+* [Using Galaxy Choices](/src/choices/index.md)
 
 ## Help Resources
 
-### Query all Galaxy resources with the search function in the top masthead
-### [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
-### [Chat](https://gitter.im/galaxyproject/Lobby/)
-### [Mailing Lists](/src/mailing-lists/index.md)
-### [Videos](http://vimeo.com/galaxyproject/)
+* Query all Galaxy resources with the search function in the top masthead
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
+* [Chat](https://gitter.im/galaxyproject/Lobby/)
+* [Mailing Lists](/src/mailing-lists/index.md)
+* [Videos](http://vimeo.com/galaxyproject/)
 
-## FAQs for Using Galaxy
+## Using Galaxy FAQs
 
 ### Basics
 
