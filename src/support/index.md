@@ -5,46 +5,65 @@ title: Galaxy Support
 
 # Quick Start
 
-* [NGS 101](/src/tutorials/g101/index.md)
-* [Tutorials](/src/learn/index.md)
-* [Teaching with Galaxy](/src/teach/index.md)
-* [Using Galaxy Choices](/src/choices/index.md)
+#### [NGS 101](/src/tutorials/g101/index.md)
+#### [Tutorials](/src/learn/index.md)
+#### [Teaching with Galaxy](/src/teach/index.md)
+#### [Using Galaxy Choices](/src/choices/index.md)
 
 # Help Resources
 
-* Query all Galaxy resources with the search function in the top masthead
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
-* [Chat](https://gitter.im/galaxyproject/Lobby/)
-* [Mailing Lists](/src/mailing-lists/index.md)
-* [Screencasts & Tutorials](http://vimeo.com/galaxyproject/)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
+#### Query all Galaxy resources with the search function in the top masthead
+#### [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
+#### [Chat](https://gitter.im/galaxyproject/Lobby/)
+#### [Mailing Lists](/src/mailing-lists/index.md)
+#### [Videos](http://vimeo.com/galaxyproject/)
+#### [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 
 # FAQs
 
 ## Using the Galaxy web application
+
+#### Basics
 
 * [Getting an account at Galaxy Main (http://usegalaxy.org)](/src/support/account/index.md)
 * [Loading Data](/src/support/loading-data/index.md)
 * [Downloading Data](/src/support/download-data/index.md)
 * [Finding tools](/src/support/finding-tools/index.md)
 * [Where is the tool help?](/src/support/tool-help/index.md)
+
+#### Datasets and Histories
+
 * [Understanding the Analysis History](/src/tutorials/histories/index.md)
 * [Managing Datasets](/src/learn/managing-datasets/index.md)
 * [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+
+#### Data Options
+
 * [Sharing and Publishing your work](/src/learn/share/index.md)
 * [Moving data between Galaxy servers (any!)](/src/community/log/2016/moving-data-between-galaxies/index.md)
-* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
-* [Known Data Issues](/src/support/data-issues/index.md)
-* [Galaxy Github issue board](/src/issues/index.md)
+
+#### Guides
+
 * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
 ## Troubleshooting
 
+#### Account hiccups
+
 * [My history is missing! Good news, it probably isn't.](/src/support/missing-history/index.md)
-* [My job ended with an error. What can I do?](/src/support/job-error/index.md)
 * [The account usage quota seems incorrect](/src/learn/account-quotas/index.md)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/index.md)
+
+#### Unexpected results
+
+* [My job ended with an error. What can I do?](/src/support/job-error/index.md)
+* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
+* [Known Data Issues](/src/support/data-issues/index.md)
+* [Galaxy Github issue board](/src/issues/index.md)
+
+#### Input format: Getting it right to avoid problems
+
 * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
 * [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
 * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
