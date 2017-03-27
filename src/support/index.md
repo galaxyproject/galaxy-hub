@@ -27,6 +27,7 @@ title: Galaxy Support
 * [Downloading Data](/src/support/download-data/index.md)
 * [Finding tools](/src/support/finding-tools/index.md)
 * [Where is the tool help?](/src/support/tool-help/index.md)
+* [Job details: bug, info, and other useful dataset icons](/src/support/dataset-icons/index.md)
 
 ### Datasets and Histories
 
