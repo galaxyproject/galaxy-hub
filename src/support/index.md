@@ -17,7 +17,6 @@ title: Galaxy Support
 ##### [Chat](https://gitter.im/galaxyproject/Lobby/)
 ##### [Mailing Lists](/src/mailing-lists/index.md)
 ##### [Videos](http://vimeo.com/galaxyproject/)
-##### [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 
 # FAQs
 
@@ -42,9 +41,10 @@ title: Galaxy Support
 * [Sharing and Publishing your work](/src/learn/share/index.md)
 * [Moving data between Galaxy servers (any!)](/src/community/log/2016/moving-data-between-galaxies/index.md)
 
-##### Guides
+##### Help Guides
 
 * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
 ### Troubleshooting
