@@ -57,7 +57,7 @@ title: Galaxy Support
 ### Unexpected results
 
 * [My job ended with an error. What can I do?](/src/support/job-error/index.md)
-* [Troubleshooting Tool Problems](/src/support/troublshoot-an-error/index.md)
+* [Troubleshoot an error](/src/support/troublshoot-an-error/index.md)
 * [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
 * [Known Data Issues](/src/support/data-issues/index.md)
 * [Galaxy Github issue board](/src/issues/index.md)
