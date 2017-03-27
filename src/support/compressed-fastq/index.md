@@ -16,7 +16,7 @@ Related Topics
 
 A compressed version of a fastq dataset. 
  
- ## How compressed fastq data loads
+ ### How compressed fastq data loads
  
 Uploaded gz compressed FASTQ data loads in compressed format directly into the History. Tools accept compressed formatted datasets as input. 
 
