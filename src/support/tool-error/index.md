@@ -139,7 +139,8 @@ This is the top reason for tool failures.
 * The tool has specific formatting requirements for inputs that was not followed (yes, exactly).
 * Annotation files are a mismatch for the selected or assigned reference genome build.
 * The BED/Interval/GFF dataset is not really in specification.
-* Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. Capitolization counts. Also, "chr1" and "1" do not mean the same thing to a tool (or rather, most tools!).
+* Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. 
+* **Tip** "Chr1" and "chr1" and "1" do not mean the same thing to a tool (or rather, most tools!).
 
 
 #### How to detect
@@ -159,7 +160,7 @@ This is the top reason for tool failures.
 * Ask for help if you need it (Biostars or a bug report).
 * This type of issue is why keeping track of an analysis - exactly - is so important for producing reliable results.
 * It is tricky to keep track of all the details on your own. Let Galaxy take care of the details, so you can focus on the science. 
-* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/src/images/icons/arrow-circle.png and job info ![](/src/images/icons/HistoryInfo.png) functions to review your work. 
+* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/src/images/icons/arrow-circle.png) and job info ![](/src/images/icons/HistoryInfo.png) functions to review your work. 
 
 Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
 
