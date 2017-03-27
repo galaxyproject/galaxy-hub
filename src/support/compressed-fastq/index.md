@@ -31,6 +31,8 @@ Why bother? Compressed data saves space in your account. This is a priority for 
  
 **TIP** Avoid labeling compressed data with an uncompressed datatype, and the reverse. Jobs using mismatched datatype versus actual format will fail with an error.
 
+* Example - What tool errors can look like when there is a datatype assignment problem: https://github.com/galaxyproject/galaxy/issues/3511
+
 ### How do `fastq.gz` datasets relate to the `.fastqsanger` datatype metadata assignment?
 
 Before assigning `fastqsanger` or `fastqsanger.gz`, be sure to confirm the format. 
@@ -38,7 +40,6 @@ Before assigning `fastqsanger` or `fastqsanger.gz`, be sure to confirm the forma
 **TIP** Using *non-fastqsanger* scaled quality values will cause scientific problems with tools that expected fastqsanger formatted input. *Even if the tool does not fail*. Get the format right from the start to avoid problems. Incorrect format is still one of the most common reasons for tool errors or unexpected results (within Galaxy or not).
 
 * [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/support/fastqsanger/)
-* Example - What tool errors can look like when there is a datatype assignment problem: https://github.com/galaxyproject/galaxy/issues/3511
 
 ### Best practises for loading fastq data into Galaxy
 
