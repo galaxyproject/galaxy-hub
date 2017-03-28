@@ -68,7 +68,7 @@ No programming or Linux command line experience is required.
 
 The workshop is being held in Room 205 of the [VSU Engineering Building](http://bit.ly/1wQ5A9l) on the [Virginia State University Campus](http://vsu.edu/) ([map](http://www.vsu.edu/files/docs/campus-police/parking-map.pdf)) in Petersburg, Virginia.  There is a visitor parking lot directly east of the building.
 
-* [Driving directions](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf), **[including a parking pass](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf)**
+* [Driving directions](https://depot.galaxyproject.org/hub/attachments/VSU2014Parking.pdf), **[including a parking pass](https://depot.galaxyproject.org/hub/attachments/VSU2014Parking.pdf)**
 
 Please bring a wi-fi enabled laptop to the workshop.
 
@@ -83,17 +83,17 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201412VSUWorkshop.pdf) (DRAFT)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201412VSUWorkshop.pdf) (DRAFT)
 
 ## Feedback
 
 Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on the workshop.
 
-<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf'><img src="/src/events/vsu2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
+<div class='left'><a href='https://depot.galaxyproject.org/hub/attachments/VSUFlier.pdf'><img src="/src/events/vsu2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
 
 ## Flier
 
-Please print, post and distribute [the workshop flier](PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf)<br />at your organization, and or events.
+Please print, post and distribute [the workshop flier](https://depot.galaxyproject.org/hub/attachments/VSUFlier.pdf)<br />at your organization, and or events.
 ## Questions?
 
 Contact [Glenn Harris](mailto:gcharris AT vsu DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

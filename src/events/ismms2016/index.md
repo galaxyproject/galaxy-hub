@@ -91,7 +91,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201601ISMMSWorkshop.pdf)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201601ISMMSWorkshop.pdf)
 
 ## Feedback
 

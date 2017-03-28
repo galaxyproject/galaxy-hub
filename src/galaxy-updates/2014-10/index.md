@@ -250,7 +250,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 

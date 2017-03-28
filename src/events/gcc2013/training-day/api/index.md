@@ -183,7 +183,7 @@ We'll slowly build a fairly complex script using the API to:
 * Create a history
 * Upload a file from our local system to the server and place it in that history (data/myIlluminaRun.solexa.fastq -
   also available from [this published history on Galaxy Main](https://main.g2.bx.psu.edu/u/aun1/h/quickie-14))
-* Run a workflow on that file [PLACEHOLDER_ATTACHMENT_URL/src/Galaxy-Workflow-Joined_Solexa_QC.ga](PLACEHOLDER_ATTACHMENT_URL/src/Galaxy-Workflow-Joined_Solexa_QC.ga)]] (already available in your instance)
+* Run a workflow on that file [https://depot.galaxyproject.org/hub/attachments/Galaxy-Workflow-Joined_Solexa_QC.ga](https://depot.galaxyproject.org/hub/attachments/Galaxy-Workflow-Joined_Solexa_QC.ga)]] (already available in your instance)
 * Get some information about the workflow
 * Rename the file and annotate it
 * Copy the file to a library
@@ -300,8 +300,8 @@ These will both be needed in every call to the API.
 
 ## Structure
 
-We'll be using python and [scripts/api/common.py](PLACEHOLDER_ATTACHMENT_URL/src/common.py) as a layer on top of urllib2.
-[PLACEHOLDER_ATTACHMENT_URL/src/setup.py](PLACEHOLDER_ATTACHMENT_URL/src/setup.py)]] will load our key and base URL for every API call.
+We'll be using python and [scripts/api/common.py](https://depot.galaxyproject.org/hub/attachments/common.py) as a layer on top of urllib2.
+[https://depot.galaxyproject.org/hub/attachments/setup.py](https://depot.galaxyproject.org/hub/attachments/setup.py)]] will load our key and base URL for every API call.
 
 
 
@@ -324,7 +324,7 @@ in BioBlend or Blend4j - we won't use them here so we can get a closer look on t
 <br />
 ## 1. Checking your key with the user API
 
-We'll start with the scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_1.py](PLACEHOLDER_ATTACHMENT_URL/src/step_1.py)]] and [PLACEHOLDER_ATTACHMENT_URL/src/users_1.py](PLACEHOLDER_ATTACHMENT_URL/src/users_1.py)]].
+We'll start with the scripts: [https://depot.galaxyproject.org/hub/attachments/step_1.py](https://depot.galaxyproject.org/hub/attachments/step_1.py)]] and [https://depot.galaxyproject.org/hub/attachments/users_1.py](https://depot.galaxyproject.org/hub/attachments/users_1.py)]].
 
 
 
@@ -417,7 +417,7 @@ Here we'll learn how to query all our histories and query a specific history.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_2.py](PLACEHOLDER_ATTACHMENT_URL/src/step_2.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_1.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_2.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_2.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_2.py](https://depot.galaxyproject.org/hub/attachments/step_2.py)]], [https://depot.galaxyproject.org/hub/attachments/histories_1.py](https://depot.galaxyproject.org/hub/attachments/histories_1.py)]], [https://depot.galaxyproject.org/hub/attachments/histories_2.py](https://depot.galaxyproject.org/hub/attachments/histories_2.py)]]
 
 
 
@@ -567,7 +567,7 @@ Here we'll learn how to create a new history which will (automatically) become o
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_3.py](PLACEHOLDER_ATTACHMENT_URL/src/step_3.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_3.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_3.py](https://depot.galaxyproject.org/hub/attachments/step_3.py)]], [https://depot.galaxyproject.org/hub/attachments/histories_3.py](https://depot.galaxyproject.org/hub/attachments/histories_3.py)]]
 
 
 
@@ -666,7 +666,7 @@ of this API call to build its HTML.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_4.py](PLACEHOLDER_ATTACHMENT_URL/src/step_4.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_1.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_4.py](https://depot.galaxyproject.org/hub/attachments/step_4.py)]], [https://depot.galaxyproject.org/hub/attachments/hdas_1.py](https://depot.galaxyproject.org/hub/attachments/hdas_1.py)]]
 
 
 
@@ -726,7 +726,7 @@ details on the HDA that Galaxy creates for it.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_5.py](PLACEHOLDER_ATTACHMENT_URL/src/step_5.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/tools_1.py](PLACEHOLDER_ATTACHMENT_URL/src/tools_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_2.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_2.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_5.py](https://depot.galaxyproject.org/hub/attachments/step_5.py)]], [https://depot.galaxyproject.org/hub/attachments/tools_1.py](https://depot.galaxyproject.org/hub/attachments/tools_1.py)]], [https://depot.galaxyproject.org/hub/attachments/hdas_2.py](https://depot.galaxyproject.org/hub/attachments/hdas_2.py)]]
 
 
 
@@ -741,7 +741,7 @@ It's the initial data used in the screencast quickie: http://screencast.g2.bx.ps
 
 The tools_1.py contains one function: upload_hda. The Galaxy developers would like to have every tool be available to
 run through the API but this is still a work in progress. In this case, we use another module/script
-[PLACEHOLDER_ATTACHMENT_URL/src/upload_to_history.py](PLACEHOLDER_ATTACHMENT_URL/src/upload_to_history.py)]] to remove some of the complexity and it itself uses the `requests` module to handle
+[https://depot.galaxyproject.org/hub/attachments/upload_to_history.py](https://depot.galaxyproject.org/hub/attachments/upload_to_history.py)]] to remove some of the complexity and it itself uses the `requests` module to handle
 moving the file into the POST data. Be sure to check out those modules for more details on what's involved.
 
 
@@ -855,7 +855,7 @@ and ready before we start using it.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_6.py](PLACEHOLDER_ATTACHMENT_URL/src/step_6.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_6.py](https://depot.galaxyproject.org/hub/attachments/step_6.py)]]
 
 
 
@@ -929,7 +929,7 @@ Now we'll run a workflow on our uploaded file and again wait for all of it to fi
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_7.py](PLACEHOLDER_ATTACHMENT_URL/src/step_7.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/workflows_1.py](PLACEHOLDER_ATTACHMENT_URL/src/workflows_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_7.py](https://depot.galaxyproject.org/hub/attachments/step_7.py)]], [https://depot.galaxyproject.org/hub/attachments/workflows_1.py](https://depot.galaxyproject.org/hub/attachments/workflows_1.py)]]
 
 
 
@@ -1031,7 +1031,7 @@ depending on what we find.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_8.py](PLACEHOLDER_ATTACHMENT_URL/src/step_8.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/datasets_3.py](PLACEHOLDER_ATTACHMENT_URL/src/datasets_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_8.py](https://depot.galaxyproject.org/hub/attachments/step_8.py)]], [https://depot.galaxyproject.org/hub/attachments/datasets_3.py](https://depot.galaxyproject.org/hub/attachments/datasets_3.py)]]
 
 
 
@@ -1186,7 +1186,7 @@ with the quality information from step 8.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_9.py](PLACEHOLDER_ATTACHMENT_URL/src/step_9.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_3.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_9.py](https://depot.galaxyproject.org/hub/attachments/step_9.py)]], [https://depot.galaxyproject.org/hub/attachments/hdas_3.py](https://depot.galaxyproject.org/hub/attachments/hdas_3.py)]]
 
 
 
@@ -1280,7 +1280,7 @@ for everyone in our lab to use.
 
 
 
-Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_10.py](PLACEHOLDER_ATTACHMENT_URL/src/step_10.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/libraries_1.py](PLACEHOLDER_ATTACHMENT_URL/src/libraries_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/lddas_1.py](PLACEHOLDER_ATTACHMENT_URL/src/lddas_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/step_10.py](https://depot.galaxyproject.org/hub/attachments/step_10.py)]], [https://depot.galaxyproject.org/hub/attachments/libraries_1.py](https://depot.galaxyproject.org/hub/attachments/libraries_1.py)]], [https://depot.galaxyproject.org/hub/attachments/lddas_1.py](https://depot.galaxyproject.org/hub/attachments/lddas_1.py)]]
 
 
 
@@ -1446,7 +1446,7 @@ happens some amount of core changes need to take place to make this as easy and 
 -----------------------------------------------------------
 # More Resources and Thanks
 
-* a tarball of all the scripts used is here: [PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz](PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz)]]
+* a tarball of all the scripts used is here: [https://depot.galaxyproject.org/hub/attachments/all-scripts.tar.gz](https://depot.galaxyproject.org/hub/attachments/all-scripts.tar.gz)]]
 * [ReadTheDocs.org](http://galaxy-dist.readthedocs.org/en/latest/lib/galaxy.webapps.galaxy.api.html).
 * There are good examples in the `scripts/api` directory of a Galaxy installation.
 * BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
