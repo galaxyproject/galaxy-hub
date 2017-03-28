@@ -93,7 +93,7 @@ These workshops are generously supported by  the [Biological & Medical Informati
 
 ## Slides
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201412VSUWorkshop.pdf)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201412VSUWorkshop.pdf)
 
 ## Questions?
 

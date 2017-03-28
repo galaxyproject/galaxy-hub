@@ -104,7 +104,7 @@ This course will be part of both the [UNC Health Sciences Library’s](http://hs
 
 ## Slides
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201307UNCWorkshop.pdf)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201307UNCWorkshop.pdf)
 
 ## Questions?
 

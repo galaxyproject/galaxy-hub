@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Dynamic Job Expansion: Experiences using <a href='http://ccl.cse.nd.edu/software/makeflow/'>Makeflow</a> in Galaxy</em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201608_Admins_Hazecamp_Makeflow.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='http://www.nd.edu/'>University of Notre Dame</a>  </td>
+    <td> <em>Dynamic Job Expansion: Experiences using <a href='http://ccl.cse.nd.edu/software/makeflow/'>Makeflow</a> in Galaxy</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201608_Admins_Hazecamp_Makeflow.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='http://www.nd.edu/'>University of Notre Dame</a>  </td>
   </tr>
   <tr>
     <th> Links </th>

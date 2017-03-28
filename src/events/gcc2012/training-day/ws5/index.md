@@ -1,7 +1,7 @@
 # Workshop 5: Installing Your Own Galaxy
 
-* [universe_wsgi.ini modified with all of the changes below](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/WS5/universe_wsgi.ini)
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf)
+* [universe_wsgi.ini modified with all of the changes below](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5/universe_wsgi.ini)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf)
 
 Documentation for all of these features is at [Admin/Config/Performance/ProductionServer](/src/admin/config/performance/production-server/index.md).
 

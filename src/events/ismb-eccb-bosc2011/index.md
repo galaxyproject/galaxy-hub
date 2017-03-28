@@ -20,7 +20,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td rowspan=2> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
     <td> 11:55-12:05 </td>
     <td> <em>Enacting Taverna Workflows through Galaxy</em>, Kostas Karasavvas </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> 14:50-:15:10 </td>
@@ -38,26 +38,26 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
     <td> 12:05-12:15 </td>
     <td> <em>Enabling NGS Analysis with(out) the Infrastructure</em>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, Emory University </td>
-    <td> <a href='http://userwww.service.emory.edu/~eafgan/content/CloudMan_EnisAfgan_BOSC2011abstract.pdf'>Abstract</a> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/BOSC2011_Cloud.pdf'>PDF</a></td>
+    <td> <a href='http://userwww.service.emory.edu/~eafgan/content/CloudMan_EnisAfgan_BOSC2011abstract.pdf'>Abstract</a> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/BOSC2011_Cloud.pdf'>PDF</a></td>
   </tr>
   <tr>
     <td> <a href='http://bcb.med.usherbrooke.ca/3dsig11/Home.html'>3DSIG Poster/Laptop</a> </td>
     <td> 12:10-15:00 </td>
     <td> <em><a href='http://symd.nci.nih.gov/'>SymD server</a>: a platform for detecting internally symmetric protein structures</em>, Chin-Hsien (Emily) Tai, <em>et al.</em>, National Cancer Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <th rowspan=4> Monday July 18 </th>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
     <td> 12:15-12:40 </td>
     <td> TT23: <em>Enacting Taverna Workflows through Galaxy,</em> Kostas Karasavvas, NBIC - LUMC </td>
-    <td> <a href='http://www.iscb.org/uploaded/css/82/22437.pdf'>Abstract</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
+    <td> <a href='http://www.iscb.org/uploaded/css/82/22437.pdf'>Abstract</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_TavernaInGalaxy.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td rowspan=2> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/posterlist.php'>ISMB/ECCB Poster Presentations, Odd</a> </td>
     <td rowspan=2> 12:40-14:30 </td>
     <td> V7: <em><a href='http://symd.nci.nih.gov/'>SymD server</a>: a platform for detecting internally symmetric protein structures</em>, Chin-Hsien (Emily) Tai, <em>et al.</em>, National Cancer Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2011_SymD.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> J43: <em>Statistical Tests for Detecting Differential RNA-Transcript Expression from Read Counts</em>, Philipp Drewe, <em>et al.</em> Friedrich Miescher Laboratory of the Max Planck Society </td>
@@ -96,25 +96,25 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> <em>Using RAD-seq for genomic and transcriptomic studies of non-model organisms</em>, Julian Catchen, University of Oregon </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_RAD-seq.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_RAD-seq.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> <em>Using RNA-seq for gene annotation, quantitation, and function in non-model organisms</em>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_RNA-seq.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_RNA-seq.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> <em>Development of a workflow for SNP detection in grapevine species: MAPHiTS, Marc Bras, INRA-URGI </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011MAPHiTS.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011MAPHiTS.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> </em>Repeatable plant pathology bioinformatic analysis: not everything is NGS data<em>, Peter Cock, James Hutton Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_RepeatablePlantPathology.pdf'>PDF</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_RepeatablePlantPathology.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
     <td> 14:30-14:55 </td>
     <td> TT48: </em>Oqtans: A Galaxy-integrated workflow for Quantitative Transcriptome Analysis from NGS data<em>, Géraldine Jean and Sebastian J. Schultheiss, Friedrich Miescher Laboratory of Max Planck Society </td>
-    <td> <a href='http://www.iscb.org/uploaded/css/82/22477.pdf'>Abstract</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_oqtanstalk.pdf'>PDF</a> </td>
+    <td> <a href='http://www.iscb.org/uploaded/css/82/22477.pdf'>Abstract</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_oqtanstalk.pdf'>PDF</a> </td>
   </tr>
   <tr>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
@@ -125,7 +125,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
 </table>
 
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtISMB2011.pdf'><img src="/src/events/ismb-eccb-bosc-2011/GalaxyAtISMB2011Thumb.png" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/GalaxyAtISMB2011.pdf'><img src="/src/events/ismb-eccb-bosc-2011/GalaxyAtISMB2011Thumb.png" /></a></div>
 ## Flyer
 
-A [flyer](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtISMB2011.pdf) has been created listing all these talks.  Please feel free to print out a copy (or more) and take them with you.
+A [flyer](https://depot.galaxyproject.org/hub/attachments/GalaxyAtISMB2011.pdf) has been created listing all these talks.  Please feel free to print out a copy (or more) and take them with you.
