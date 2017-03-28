@@ -69,6 +69,7 @@ title: Galaxy Support
 
 * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
 * [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
+* [Reformatting fastq data loaded with NCBI SRA](/src/support/ncbi-sra-fastq/index.md)
 * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
 * [Common datatypes explained](/src/learn/datatypes/index.md)
 * [The tool I'm using does not recognize any input datasets. Why?](/src/support/datatypes-and-tools/index.md)
