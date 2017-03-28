@@ -3,14 +3,14 @@
  title: Datatype Compressed Fastq
 ---
  
- [Back to Support Hub](http://wiki.galaxyproject.org/support/)
+ [Back to Support Hub](/src/support/index.md)
 
 Related Topics
- * [Fastq Manipulation and Quality Control](https://galaxyproject.org/tutorials/ngs/#fastq-manipulation-and-quality-control)
- * [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/support/fastqsanger/)
- * [Format help for Tabular/BED/Interval Datasets](https://galaxyproject.org/support/tabular/)
- * [Common datatypes explained](https://galaxyproject.org/learn/datatypes/)
- * [Input datatype misassignment and errors](https://galaxyproject.org/support/job-error/)
+ * [Fastq Manipulation and Quality Control](/src/tutorials/ngs/#fastq-manipulation-and-quality-control)
+ * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
+ * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
+ * [Common datatypes explained](/src/learn/datatypes/index.md)
+ * [Input datatype misassignment and errors](/src/support/tool-error/index.md)
  
  ### What is `fastq.gz` data?
 
@@ -39,7 +39,7 @@ Before assigning `fastqsanger` or `fastqsanger.gz`, be sure to confirm the forma
 
 **TIP** Using *non-fastqsanger* scaled quality values will cause scientific problems with tools that expected fastqsanger formatted input. *Even if the tool does not fail*. Get the format right from the start to avoid problems. Incorrect format is still one of the most common reasons for tool errors or unexpected results (within Galaxy or not).
 
-* [How to format fastq data for tools that require .fastqsanger format?](https://galaxyproject.org/support/fastqsanger/)
+* [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
 
 ### Best practises for loading fastq data into Galaxy
 
