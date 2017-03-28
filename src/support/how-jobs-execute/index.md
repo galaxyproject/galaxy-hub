@@ -56,7 +56,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 ### Red
 
   * The job has failed.
-  * There can be many reasons for this, see: [My job ended with an error. What can I do?](/src/support/job-error/index.md)
+  * There can be many reasons for this, see: [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
   
 ### Light blue
 
@@ -65,7 +65,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". 
   * You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
   * Running out of disk space? [Permanently delete unneeded data](/src/learn/managing-datasets/#delete-vs-delete-permanently).
-  * More how-to: [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](https://galaxyproject.org/learn/data-status).
+  * More how-to: [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/data-status/index.md).
   
 ### Grey, Yellow, Grey again ???
 
@@ -81,4 +81,4 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * May be found in earlier Galaxy versions.
   * Applies to "Get Data → Upload File" tool only - the upload job is queuing or running
   * The job may run immediately, or may turn _grey_ if the server is busy, meaning that **guidelines for grey jobs apply**, and these _grey_ datasets should never be deleted/re-run, for the same reasons explained above.
-  * An upload job that seems to stay in the "_bright blue with moving arrow_" state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/learn/Upload%20via%20FTP) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
+  * An upload job that seems to stay in the "_bright blue with moving arrow_" state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/src/learn/Upload%20via%20FTP) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
