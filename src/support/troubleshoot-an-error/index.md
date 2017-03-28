@@ -1,5 +1,5 @@
 ---
-auto: toc
+autotoc: true
 title: Troubleshoot an Error
 ---
 
