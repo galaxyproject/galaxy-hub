@@ -16,10 +16,11 @@ title: Galaxy Support
 ## Help Resources
 
 * Query all Galaxy resources with the search function in the top masthead
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) 
+* [Claim your Biostars account](/src/support/biostar/index.md)
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
 * [Mailing Lists](/src/mailing-lists/index.md)
-* [Videos](http://vimeo.com/galaxyproject/)
+* [Video Help](http://vimeo.com/galaxyproject/)
 
 ## Using Galaxy FAQs
 
@@ -46,7 +47,7 @@ title: Galaxy Support
 ### Help Guides
 
 * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
-* [Why to develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
+* [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
