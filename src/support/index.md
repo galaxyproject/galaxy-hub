@@ -12,7 +12,6 @@ title: Galaxy Support
 * [Teaching with Galaxy](/src/teach/index.md)
 * [Using Galaxy Choices](/src/choices/index.md)
 * [Galaxy Project Highlights](https://galaxyproject.github.io/)
-* [Why Galaxy?](https://galaxyproject.github.io/why-galaxy/)
 
 ## Help Resources
 
@@ -47,6 +46,7 @@ title: Galaxy Support
 ### Help Guides
 
 * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
+* [Why to develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
