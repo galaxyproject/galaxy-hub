@@ -1,5 +1,6 @@
 ---
 autotoc: true
+title: Issue Reporting
 ---
 
 # Galaxy Issue Reporting and Feature Requests
@@ -14,7 +15,7 @@ Serious security problems should not be reported via GitHub - please responsibly
 
 Please report problems with tools and general usage to the [biostar](/src/support/biostar/index.md) support forum.
 
-* If you can reproduce on [Main](/src/main/index.md), you may be asked to send in a tool error report or share a history link. Use Options/Share or Publish, generate the link, and email it directly back off-list at bug [mailing list](galaxy-bugs@lists.galaxyproject.org). Note the problem dataset #'s. 
+* If you can reproduce on [Main](/src/main/index.md), you may be asked to send in a tool error report or share a history link. Use [Options/Share or Publish](/src/learn/share/index.md), generate the link, and email it directly back off-list at bug [mailing list](galaxy-bugs@lists.galaxyproject.org). Note the problem dataset #'s. 
 * If data is involved, leave all of the related datasets in the analysis thread leading up to the bug in your history undeleted until we have responded to you.
 
 ## Bug reporting
