@@ -1,5 +1,5 @@
 ---
-auto: toc
+autotoc: true
 title: Job and Tool Error Help
 ---
 
