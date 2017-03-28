@@ -3,12 +3,15 @@ autotoc: true
 title: Galaxy Support
 ---
 
+# Galaxy Support
+
 ## Quick Start
 
 * [NGS 101](/src/tutorials/g101/index.md)
 * [Tutorials](/src/learn/index.md)
 * [Teaching with Galaxy](/src/teach/index.md)
 * [Using Galaxy Choices](/src/choices/index.md)
+* [Galaxy Project Overview](https://galaxyproject.github.io/)
 
 ## Help Resources
 
