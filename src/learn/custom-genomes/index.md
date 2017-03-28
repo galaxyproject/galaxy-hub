@@ -79,39 +79,39 @@ The above sorting method is for most tools, but not all. In particular, GATK too
 If a custom genome dataset is producing errors, double check the format and that the chromosome identifiers between **ALL** inputs. Clicking on the green bug icon ![](/src/images/icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing.
 
 ### 1. Custom genome not assigned as <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
- * Symptoms include: Dataset not included in custom genome pull down menu on tool forms.
- * Solution: Check datatype assigned to dataset and assign **fasta** format.
- * How: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/src/learn/datatypes/index.md'>datatypes</a> section, type in "fasta", and save.
+  * **Symptoms include**: Dataset not included in custom genome pull down menu on tool forms.
+  * **Solution**: Check datatype assigned to dataset and assign **fasta** format.
+  * **How**: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/src/learn/datatypes/index.md'>datatypes</a> section, type in "fasta", and save.
 
 ### 2. Incomplete Custom genome file load
- * Symptoms include: Tool errors result the first time you use the Custom genome.
- * Solution: Use <strong>Text Manipulation &rarr; Select last lines from a dataset</strong> to check last 10 lines to see if file is truncated.
- * How: Reload the dataset (switch to <strong><a href='/src/FTPUpload/index.md'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
+  * **Symptoms include**: Tool errors result the first time you use the Custom genome.
+  * **Solution**: Use <strong>Text Manipulation &rarr; Select last lines from a dataset</strong> to check last 10 lines to see if file is truncated.
+  * **How**: Reload the dataset (switch to <strong><a href='/src/FTPUpload/index.md'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
 
 ### 3. Extra spaces, extra lines, inconsistent line wrapping, or any deviation from strict <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
- * Symptoms include: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>, but not Tophat) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.
- * Solution: File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run.
- * How: **Quick re-formatting** Run the tool through the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. **Detailed re-formatting** Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. Finally, use <strong>Filter and Sort &rarr; Select</strong> with "^$" to search for empty lines (use "NOT matching" to remove).
+  * **Symptoms include**: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>, but not Tophat) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.
+  * **Solution**: File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run.
+  * **How**: **Quick re-formatting** Run the tool through the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. **Detailed re-formatting** Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. Finally, use <strong>Filter and Sort &rarr; Select</strong> with "^$" to search for empty lines (use "NOT matching" to remove).
 
 ### 4. Inconsistent line wrapping, common if merging chromosomes from various Genbank records (e.g. primary chroms with mito)
- * Symptoms include: Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. Or they may just fail for what appears to be a cluster error.
- * Solution: File tested and corrected locally then re-upload or test/fix within Galaxy.
- * How: Use <strong>**NormalizeFasta**</strong> using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
+  * **Symptoms include**: Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. Or they may just fail for what appears to be a cluster error.
+  * **Solution**: File tested and corrected locally then re-upload or test/fix within Galaxy.
+  * **How**: Use <strong>**NormalizeFasta**</strong> using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
 
 ### 5. Unsorted fasta genome file
- * Symptoms include: Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths.
- * Solution: First try sorting and re-formatting in Galaxy then re-run.
- * How: To sort, follow instructions for <a href='/src/learn/custom-genomes/index.md#sorting'>Sorting</a> a Custom Genome.
+  * **Symptoms include**: Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths.
+  * **Solution**: First try sorting and re-formatting in Galaxy then re-run.
+  * **How**: To sort, follow instructions for <a href='/src/learn/custom-genomes/index.md#sorting'>Sorting</a> a Custom Genome.
  
 ### 6. Identifier and Description in ">" title lines used inconsistently by tools in the same analysis
-  * Symptoms include: Will generally manifest as a false genome-mismatch problem. Solution is to get rid of the description content and re-run the tool or workflow.
-  * Solution: Double check that the same reference genome was used for all steps and that the 'identifiers' are a match.
-  * How: To drop the title line description content, use **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. Next, double check that the [chromosome identifiers are an exact match between all inputs](https://galaxyproject.org/support/chrom-identifiers).
+  * **Symptoms include**: Will generally manifest as a false genome-mismatch problem. 
+  * **Solution**: Remove the description content and re-run all tools/workflows that used this input. Mapping tools will usually not fail, but downstream tools will. When this comes up, it usually means that an analysis needs to be started over from the mapping step to correct the problems. No one enjoys redoing this work. Avoid the problems by formatting the genome, by double checking that the same reference genome was used for all steps, and by making certain the 'identifiers' are a match between all planned inputs (including reference annotation such as GTF data) **before using your custom genome**. 
+  * **How**: To drop the title line description content, use **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. Next, double check that the [chromosome identifiers are an exact match between all inputs](https://galaxyproject.org/support/chrom-identifiers).
 
 ### 7. Unassigned database
-  * Symptoms include: Tools report that no build is available for the assigned reference genome.
-  * Solution: This occurs with tools that require an assigned <em>database</em> metadata attribute. **SAMTools** and **Picard** often require this assignment.
-  * How: Create a <a href='/src/learn/custom-genomes/index.md#custom_builds'>Custom Build</a> and assign it to the dataset 
+  * **Symptoms include**: Tools report that no build is available for the assigned reference genome.
+  * **Solution** This occurs with tools that require an assigned <em>database</em> metadata attribute. **SAMTools** and **Picard** often require this assignment.
+  * **How**: Create a <a href='/src/learn/custom-genomes/index.md#custom_builds'>Custom Build</a> and assign it to the dataset 
 
 # A problem or not a problem?
 Certain job errors with RNA-seq tools can at first appear to look like a format problem with a custom reference genome, but are actually a bit more complicated...
