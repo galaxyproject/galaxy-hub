@@ -3,6 +3,8 @@ autotoc: true
 title: Job and Tool Error Help
 ---
 
+[Back to Support Hub](/src/support/index.md)
+
 Related topics
 
 * [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
