@@ -7,9 +7,9 @@ date: "2011-07-29"
 
 Slides for for 10 of the Galaxy-related presentations at [ISMB/ECCB/BOSC 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md) are [now available online](/src/events/ISMB-ECCB-BOSC 2011/index.md).  Presentations include:
 
-* [Enacting Taverna Workflows through Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ISMB2011_TavernaInGalaxy.pdf)
-* [Enabling NGS Analysis with(out) the Infrastructure](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/BOSC2011_Cloud.pdf)
-* [SymD server: a platform for detecting internally symmetric protein structures](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/ISMB2011_SymD.pdf)
+* [Enacting Taverna Workflows through Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_TavernaInGalaxy.pdf)
+* [Enabling NGS Analysis with(out) the Infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/presentations/BOSC2011_Cloud.pdf)
+* [SymD server: a platform for detecting internally symmetric protein structures](https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2011_SymD.pdf)
 
 plus many more.
 

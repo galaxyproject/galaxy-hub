@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://connect.johnshopkins.edu/p5b2674yauc/'>Video</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/GalaxyAdmins201510_GalaxyAtAnalome.pdf'>Galaxy @ Analome Slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/GalaxyAdmins201510_WikiReplacement.pdf'>Wiki Replacement Slides</a> </td>
+    <td> <a href='https://connect.johnshopkins.edu/p5b2674yauc/'>Video</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyAdmins201510_GalaxyAtAnalome.pdf'>Galaxy @ Analome Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyAdmins201510_WikiReplacement.pdf'>Wiki Replacement Slides</a> </td>
   </tr>
 </table>
 

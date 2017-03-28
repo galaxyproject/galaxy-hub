@@ -13,8 +13,8 @@ Please help get the word out about the [2013 Galaxy Community Conference (GCC201
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2013Flier.pdf'><img src="/src/events/gcc2013/promotion/GCC2013FlierThumb.png" /></a> </td>
-    <td style=" border: none;"> Please print, post and distribute <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2013Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/GCC2013Flier.pdf'><img src="/src/events/gcc2013/promotion/GCC2013FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/GCC2013Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
 

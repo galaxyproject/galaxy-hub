@@ -89,7 +89,7 @@ The draft agenda is:
 
 ## Slides
 
-* [Introduction to Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_IowaStateIntroToGalaxy.pdf)
+* [Introduction to Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_IowaStateIntroToGalaxy.pdf)
 
 ## Support
 
@@ -99,7 +99,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_IowaState.pdf)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_IowaState.pdf)
 * [Workshop evaluation form](http://bit.ly/ISUFeedback)
 
 ## Questions?

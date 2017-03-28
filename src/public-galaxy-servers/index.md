@@ -27,7 +27,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
-  * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md).  Includes [slides](PLACEHOLDER_ATTACHMENT_URL/src/community/galaxy-admins/meetups/2013-03-20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
+  * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md).  Includes [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
   * [GCC2013](/src/events/gcc2013/index.md) [Poster](/src/events/gcc2013/abstracts/posters/index.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/events/gcc2013/lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud*
 
 * *Domain/Purpose:*
@@ -92,7 +92,7 @@ These servers implement a broad range of tools and aren't specific to any part o
   * Adds text mining tools, DBCLS DBSearch Tools, semantic web tools
 * *Comments:*
   * Can be used without understanding Japanese.
-  * See also [Galaxy入門とワークフロー構築](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2013DDBJWorkflow.pdf) by [山口 敦子](mailto:atsuko AT dbcls DOT jp)
+  * See also [Galaxy入門とワークフロー構築](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013DDBJWorkflow.pdf) by [山口 敦子](mailto:atsuko AT dbcls DOT jp)
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
@@ -131,7 +131,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Domain/Purpose:*
   * Integrative 'omics data analysis
 * *Comments:*
-  * From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+  * From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
     * provides access to up-to-date tools and algorithms such as those devoted to Next Generation Sequencing (NGS) data analysis of:
       * Epigenome: MACS, Homer
       * Genomic sequence: GATK, Samtools, BEDtools, Picard
@@ -343,7 +343,7 @@ These servers implement a broad range of tools and aren't specific to any part o
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
   * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
   * [Corresponding VM and AMI for developing workflows](/src/va/pitagora-galaxy/index.md)
-  * [Building Galaxy Japan Community](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Genome Informatics 2014.
+  * [Building Galaxy Japan Community](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Genome Informatics 2014.
 
 * *Domain/Purpose:*
   * The public, general purpose Galaxy servers of the [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en).  This server is intended for testing and sharing.  Heavy analysis should be performed using the project's identical virtual machine (VM) or Amazon Machine Image (AMI).
@@ -677,7 +677,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * Bioinformatics workbench, with rice-specific data (i.e. genomes) and tools (mostly specialized for the [IRRI Genotyping Service Laboratory](http://gsl.irri.org/)) installed.
 * *Comments:*
   * See
-    * "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
+    * "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
@@ -814,7 +814,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
-  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](PLACEHOLDER_ATTACHMENT_URL/src/events/gcc2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
+  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
   * "[QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0101079)" by Chauhan, *et al.* *PLOS One*,   DOI: 10.1371/journal.pone.0101079
 * *Domain/Purpose:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
@@ -905,7 +905,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * From "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew *et al.*<div class='indent'>[Pathogen Portal](http://www.pathogenportal.org) supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts. It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.</div>
 * *Comments:*
   * Map your RNA-Seq Reads to Reference Genomes: Align your Illumina fastQ reads (gzipped fastQ files accepted) against any sequenced genome from [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). <br />Estimate Gene Expression Values: Obtain BAM files for the resulting alignments and FPKM expression values for annotated genes and novel transcripts. <br />
-  * The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](PLACEHOLDER_ATTACHMENT_URL/src/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf) are both available.
+  * The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf) are both available.
 * *User Support:*
 * *Quotas:*
   * Need to create a login

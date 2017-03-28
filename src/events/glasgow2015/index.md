@@ -156,11 +156,11 @@ This workshop is supported by [Glasgow Polyomics](http://www.polyomics.gla.ac.uk
 
 ## Slides
 
-* [Day 1 Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2015UGlasgowWorkshop_Day1.pdf) 
+* [Day 1 Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day1.pdf) 
 * Day 2 Slides
-  * [RNA-Seq & Cloud Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2015UGlasgowWorkshop_Day2_RNA_Cloud.pdf) 
-  * [Variant Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2015UGlasgowWorkshop_Day2_Varaint.pdf) 
-* [Ecosystem Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2015UGlasgowWorkshop_Ecosystem.pdf) 
+  * [RNA-Seq & Cloud Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_RNA_Cloud.pdf) 
+  * [Variant Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_Varaint.pdf) 
+* [Ecosystem Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Ecosystem.pdf) 
 
 ## Feedback
 
