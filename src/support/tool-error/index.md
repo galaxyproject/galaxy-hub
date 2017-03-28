@@ -37,7 +37,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
 * Should you solve the problem before we reply, a follow-up email to let us know is appreciated.
 * The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**. 
-* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/src/support/troublshoot-an-error/index.md). Sharing details about what you checked is always helpful.
+* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/src/support/troubleshoot-an-error/index.md). Sharing details about what you checked is always helpful.
 
 ### Job failure reason: input problems
 
