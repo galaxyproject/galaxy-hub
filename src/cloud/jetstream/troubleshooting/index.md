@@ -20,7 +20,7 @@ There's a bug in Jetstream's configuration for instance's hostname, and our auto
 2. Run the following set of commands. These will fix the hostname and restart the necessary processes.
 
 ```bash
-eafgan@js-172-144:~$ sudo fix_hostname.sh
+eafgan@js-172-144:~$ sudo /etc/init.d/fix_hostname.sh
 stop: Unknown instance:
 hostname stop/waiting
 eafgan@js-172-144:~$ sudo supervisorctl
