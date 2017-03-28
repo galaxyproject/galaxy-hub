@@ -171,7 +171,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 <br />
 
-**The [call for hosts for GCC2017](PLACEHOLDER_ATTACHMENT_URL/src/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/src/news/gcc2017-call-for-host/index.md). 
+**The [call for hosts for GCC2017](https://depot.galaxyproject.org/hub/attachments/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/src/news/gcc2017-call-for-host/index.md). 
 
 ## October GalaxyAdmins Meetup Video and Slides
 

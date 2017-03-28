@@ -105,7 +105,7 @@ This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduct
 
 ## Slides
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/201307NIEHSWorkshop.pdf) (will be posted before the workshop)
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201307NIEHSWorkshop.pdf) (will be posted before the workshop)
 
 ## Questions?
 

@@ -100,7 +100,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 
 ## Galaxy for Developers
 
-*[Slides from Nate Coraor](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/TourDeFrance2012Coraor.pdf)*
+*[Slides from Nate Coraor](https://depot.galaxyproject.org/hub/attachments/documents/presentations/TourDeFrance2012Coraor.pdf)*
 
 **14:00-17:00**
 * Galaxy architecture

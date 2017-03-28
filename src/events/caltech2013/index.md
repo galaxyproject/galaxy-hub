@@ -25,7 +25,7 @@ There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: 
 
 <div class='indent'>
 **11am-2pm, March 5, 2013, 151 Braun** (lunch provided for participants)<br />
-**[Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2013CaltechGalaxyForBiologists.pdf)**<br />
+**[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013CaltechGalaxyForBiologists.pdf)**<br />
 **[Dave Clements](/src/people/dave-clements/index.md)**<br />
 **Emory University**<br /><br />
 
@@ -96,9 +96,9 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 
 ## Links
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
 
-* Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/CaltechGalaxyDay.pdf) in your department.
+* Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/CaltechGalaxyDay.pdf) in your department.
 
 ## Support
 
