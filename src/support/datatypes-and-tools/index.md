@@ -1,5 +1,5 @@
 ---
-auto: toc
+autotoc: true
 title: Datatypes and Tools
 ---
 
