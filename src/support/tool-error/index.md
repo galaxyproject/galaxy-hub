@@ -29,7 +29,7 @@ In a rush to solve the problem? The top reasons for failures are listed [**here*
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
 
-Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help (here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Biostars]() to get things back on track *quickly*.
+Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help (here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Biostars](https://biostar.usegalaxy.org) to get things back on track *quickly*).
 
 If you are still stuck after reviewing, please do send in the bug report and we can help.
 * Include a link to questions asked about the same problem that you may have posted online (example: at Galaxy Biostars)
