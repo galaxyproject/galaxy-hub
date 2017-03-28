@@ -57,13 +57,13 @@ Every library has to be created (and deleted) by an [admin](/src/admin/index.md)
 You save space on the Galaxy instance as every dataset in the library is stored only once no matter how many users are using it in their histories.
 </div>
 
-## Import
+## Import configuration
 
 ### User folder
 
 As an admin you can allow users to import datasets to libraries from a configured folder. This is enabled by setting
 `user_library_import_dir` in the `config/galaxy.ini` to a path accessible by the user that runs the Galaxy process.
-Galaxy expects the folder to contain subfolder named after email addresses of your instance's users. Each user will only see the contents of the folder with their email. A common setup is that the value for `user_library_import_dir` is the same as for `ftp_upload_dir` allowing users to [upload files via FTP](/src/ftp-upload/index.md) and then import them either in history or data library.
+Galaxy expects the folder to contain subfolders named after email addresses of your instance's users. Each user will only see the contents of their folder. A common setup is that the value for `user_library_import_dir` is the same as for `ftp_upload_dir` allowing users to [upload files via FTP](/src/ftp-upload/index.md) and then import them either in history or data library. This assumes you have an FTP server [running and configured](/src/admin/config/upload-via-ftp/index.md) to work with Galaxy.
 
 Example structure with `user_library_import_dir = ftp_upload`.
 
@@ -79,7 +79,7 @@ ftp_upload/
 
 ### Path paste
 
-By setting `allow_library_path_paste = True` in the `config/galaxy.ini` you enable administrators to import from any path entered. Does not work for non-admin users.
+By setting `allow_library_path_paste = True` in the `config/galaxy.ini` you enable administrators to import from any path entered. This feature is not available to non-admin users.
 
 ## Permissions
 
