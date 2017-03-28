@@ -9,10 +9,10 @@
 
 In these [FASTQ](/src/learn/datatypes/#fastq) data:
 
-* The identifier for the quality score is sometimes not a match for the identifier for the sequence.
-* The forward and reverse reads may be interleaved (merged) and need to be seperated into distinct F/R datasets.
+* The quality score identifier (+) is sometimes not a match for the sequence identifier (@).
+* The forward and reverse reads may be joined and need to be seperated into distinct datasets.
 * Format problems of any kind can cause tool failures and/or unexpected results.
-* Fix the problems before running any other tools. 
+* Fix the problems before running any other tools (including **FastQC**, **Fastq Groomer**, or other QA tools) 
 
 ## Inconsistent sequence (@) and quality (+) identifiers
 
