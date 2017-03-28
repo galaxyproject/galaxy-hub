@@ -11,7 +11,8 @@ title: Galaxy Support
 * [Tutorials](/src/learn/index.md)
 * [Teaching with Galaxy](/src/teach/index.md)
 * [Using Galaxy Choices](/src/choices/index.md)
-* [Galaxy Project Overview](https://galaxyproject.github.io/)
+* [Galaxy Project Highlights](https://galaxyproject.github.io/)
+* [Why Galaxy?](https://galaxyproject.github.io/why-galaxy/index.md)
 
 ## Help Resources
 
