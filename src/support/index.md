@@ -12,7 +12,7 @@ title: Galaxy Support
 * [Teaching with Galaxy](/src/teach/index.md)
 * [Using Galaxy Choices](/src/choices/index.md)
 * [Galaxy Project Highlights](https://galaxyproject.github.io/)
-* [Why Galaxy?](https://galaxyproject.github.io/why-galaxy/index.md)
+* [Why Galaxy?](https://galaxyproject.github.io/why-galaxy/)
 
 ## Help Resources
 
@@ -52,7 +52,7 @@ title: Galaxy Support
 
 ## Troubleshooting
 
-### Account hiccups
+### Account 
 
 * [My history is missing! Good news, it probably isn't.](/src/support/missing-history/index.md)
 * [The account usage quota seems incorrect](/src/learn/account-quotas/index.md)
@@ -66,7 +66,7 @@ title: Galaxy Support
 * [Known Data Issues](/src/support/data-issues/index.md)
 * [Galaxy Github issue board](/src/issues/index.md)
 
-### Input format: Getting it right to avoid problems
+### Getting inputs *right*
 
 * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
 * [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
