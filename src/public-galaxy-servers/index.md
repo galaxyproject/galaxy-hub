@@ -842,6 +842,28 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * Developed under the broad initiative of [OSDD (Open Source Drug Discovery)](http://www.osdd.net/) of [CSIR (Council of Scientific and Industrial Research, Govt. of India)](http://www.csir.res.in/home.asp). The site is being hosted from [IICT](http://www.iictindia.org/), Hyderabad, India.
 
+## PhenoMeNal
+
+<div class='right solid'><a href='http://public.phenomenal-h2020.eu/'><img src="/src/public-galaxy-servers/PhenoMeNal.png" alt="PhenoMeNal"  /></a></div>
+
+* *Link:*
+  * [PhenoMeNal](http://public.phenomenal-h2020.eu/) server
+* *Domain/Purpose:*
+  * Large scale computing for medical informatics
+* *Comments:*
+  * "The [PhenoMeNal Galaxy installation](http://public.phenomenal-h2020.eu/) allows users to access all of the [PhenoMeNal](http://phenomenal-h2020.eu/home/) containerised tools through a workflow environment, on an scalable infrastructure that can be deployed to public and private cloud installations.<br /><br />
+
+   This PhenoMeNal H2020 Galaxy instance, and all of its tools, run as containers on top of [Kubernetes](http://kubernetes.io/), an open source container orchestrator system backed by Google. If you wish to [deploy the PhenoMeNal Galaxy installation](https://github.com/phnmnl/docker-galaxy-k8s-runtime/tree/develop) on top of your own [Kubernetes](http://kubernetes.io/) instance, you can find instructions at our [wiki](http://phenomenal-h2020.eu/home/wiki/#galaxy-with-k8s).
+
+* *User Support:*
+  * [Submit a ticket](http://phenomenal-h2020.eu/home/help/)
+  * [PhenoMeNal: accessing metabolomics workflows in Galaxy](http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy), online training from EMBL-EBI.
+* *Quotas:*
+* *Sponsor(s):*
+  * The [PhenoMeNal consortium](http://phenomenal-h2020.eu/home/) is driven by 14 European research groups with strong experience in the development of tools and methods for large data acquisition, integration and analysis for metabolic phenotypes, genome and cross-omics data.
+  * PhenoMeNal is funded by European Commission's Horizon2020 programme, grant agreement number 654241.
+
+
 ## PopGenIE / PlantGenIE
 
 <div class='right solid'><a href='http://galaxy.popgenie.org:8080/'><img src="/src/public-galaxy-servers/PopGemIE.png" alt="PopGenIE"  /></a></div>
@@ -1209,6 +1231,24 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
   * This instance of Galaxy is managed by the [BISTRO platform](http://bioinfo-bistro.fr/bioinfo-bistro/).
+
+## BitLAB
+
+<div class='right solid'><a href='http://pistacho.ac.uma.es/galaxy/'><img src="/src/public-galaxy-servers/Bitlab.png" alt="BitLAB Galaxy" width="300" /></a></div>
+
+* *Link:*
+  * [BitLAB Galaxy](http://pistacho.ac.uma.es/galaxy/)
+* *Domain/Purpose:*
+  * Detailed analysis of metagenomes.
+* *Comments:*
+  * From [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
+      " ... provides new tools and datafile specifications that facilitate the identification of differences in abundance of reads assigned to taxa (mapping), enables the detection of reads of low-abundance bacteria (producing evidence of their presence), provides new concepts for filtering spurious matches, etc. Innovative visualization ideas for improved display of metagenomic diversity are also proposed to better understand how reads are mapped to taxa."
+* *User Support:*
+  * There is an [extensive tutorial](http://www.bitlab-es.com/gecko/documents/GalaxyGuidedExercise.pdf) on how to use the server.
+* *Quotas:*
+  * Must create a login to use it.
+* *Sponsor(s):*
+  * [Bioinformatics and Information Technologies Laboratory (BitLAB)](http://www.bitlab-es.com/bitlab/), [Department of Computer Architecture](http://www.ac.uma.es/), [University of Málaga](http://www.uma.es/)
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
