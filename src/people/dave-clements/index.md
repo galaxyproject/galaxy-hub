@@ -263,7 +263,7 @@ My pre-bioinformatics career included
     <th> June 30 - July 2 </th>
     <td> <em><a href='/src/events/gcc2014/abstracts/posters/index.md#p26-galaxy-training-network'>P26: Galaxy Training Network</a></em><div class='indent'><em>with <a href='http://www.tgac.ac.uk/training-outreach/vicky-schneider/'>Vicky Schneider</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Nikhil Joshi</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Joseph Fass</a><sup>4</sup>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Monica Britton</a>, <a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'>Andrew Lonie</a>, <a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a></em></div> </td>
     <td> <a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a>, Baltimore, Maryland, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/GCC2014/P26Clements.pdf'>Poster</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P26Clements.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
