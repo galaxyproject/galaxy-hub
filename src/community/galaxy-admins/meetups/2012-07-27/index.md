@@ -19,7 +19,7 @@ Participants:
 * Ann Black
 * ???
 
-Breakout Presentation: [https://depot.galaxyproject.org/hub/attachments/GalaxyCzars_Breakout.pdf](https://depot.galaxyproject.org/hub/attachments/GalaxyCzars_Breakout.pdf)]]
+Breakout Presentation: [https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2012-07-27/GalaxyCzars_Breakout.pdf](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2012-07-27/GalaxyCzars_Breakout.pdf)]]
 
 A [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session was held at [GCC2012](/src/events/gcc2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
 

@@ -55,8 +55,8 @@ The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://w
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/GCC2014Flier.pdf'><img src="/src/events/gcc2014/promotion/GCC2014FlierThumb.png" /></a> </td>
-    <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/GCC2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/promotion/GCC2014Flier.pdf'><img src="/src/events/gcc2014/promotion/GCC2014FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/promotion/GCC2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
 

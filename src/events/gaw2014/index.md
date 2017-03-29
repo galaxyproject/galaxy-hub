@@ -61,7 +61,7 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 11:30-13:00 </th>
-    <td style=" text-align: center;"> <strong>Galaxy 101 - a tutorial</strong><br /><a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> <a href='https://depot.galaxyproject.org/hub/attachments/mcrowe_galaxy_intro.pdf'>(download pdf slides)</a></td>
+    <td style=" text-align: center;"> <strong>Galaxy 101 - a tutorial</strong><br /><a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/mcrowe_galaxy_intro.pdf'>(download pdf slides)</a></td>
   </tr>
   <tr>
     <th> 13:00-13:50 </th>
@@ -152,7 +152,7 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 11:00 </th>
-    <td style=" text-align: center;"> <em>The Australian Genomics Virtual Lab</em><br /><a href='http://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> <a href='https://depot.galaxyproject.org/hub/attachments/GAW2014ALonie.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <em>The Australian Genomics Virtual Lab</em><br /><a href='http://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014ALonie.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 11:30 </th>
@@ -180,7 +180,7 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 13:50 </th>
-    <td style=" text-align: center;"> <em>Secure Cloud Data Storage for Galaxy Workflows</em><br /> <a href='http://www.ict.csiro.au/staff/carsten.friedrich/'>Carsten Friedrich</a> <a href='https://depot.galaxyproject.org/hub/attachments/FriedrichSecureCloud.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <em>Secure Cloud Data Storage for Galaxy Workflows</em><br /> <a href='http://www.ict.csiro.au/staff/carsten.friedrich/'>Carsten Friedrich</a> <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/FriedrichSecureCloud.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 14:10 </th>
@@ -200,11 +200,11 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 15:30 </th>
-    <td style=" text-align: center;"> <em>Building, Launching and Maintaining Galaxy on the <a href='https://www.nectar.org.au/research-cloud'>Australian Research Cloud</a></em><br /><a href='https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565'>Ron Horst</a> <a href='https://depot.galaxyproject.org/hub/attachments/GAW2014RonHorst.pdf'>(download pdf slides)</a></td>
+    <td style=" text-align: center;"> <em>Building, Launching and Maintaining Galaxy on the <a href='https://www.nectar.org.au/research-cloud'>Australian Research Cloud</a></em><br /><a href='https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565'>Ron Horst</a> <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014RonHorst.pdf'>(download pdf slides)</a></td>
   </tr>
   <tr>
     <th> 15:50 </th>
-    <td style=" text-align: center;"> <em>Scaling the <a href='https://genome.edu.au/wiki/GVL'>GVL</a>: Empirical Evaluation of Galaxy Scalability Characteristics</em><br /><a href='http://www.vlsci.org.au/researcher/ngoonasekera'>Nuwan Goonasekera</a> <a href='https://depot.galaxyproject.org/hub/attachments/Nuwan Scaling the GVL.pdf'>(download pdf slides)</a></td>
+    <td style=" text-align: center;"> <em>Scaling the <a href='https://genome.edu.au/wiki/GVL'>GVL</a>: Empirical Evaluation of Galaxy Scalability Characteristics</em><br /><a href='http://www.vlsci.org.au/researcher/ngoonasekera'>Nuwan Goonasekera</a> <a href='https://depot.galaxyproject.org/hub/attachmentsprimary or operator'>(download pdf slides)</a></td>
   </tr>
   <tr>
     <th> 16:10-17:00 </th>
@@ -249,8 +249,8 @@ Help get the word out about GAW 2014.
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/GAW2014Flier.pdf'><img src="/src/events/gaw2014/GAW2014FlierThumb.png" /></a> </td>
-    <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/GAW2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014Flier.pdf'><img src="/src/events/gaw2014/GAW2014FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
 
@@ -282,7 +282,7 @@ The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th M
 
 <div class='left'><a href='http://www.qfab.org/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB" width="50" /></a></div>
 
-*[Mark Crowe](http://www.qfab.org/mark-crowe/)* ([QFAB](http://www.qfab.org/)/[GVL](https://genome.edu.au/wiki/GVL)) presented a [tutorial on using Galaxy](https://depot.galaxyproject.org/hub/attachments/mcrowe_galaxy_intro.pdf), aimed at the members of the audience new to Galaxy.
+*[Mark Crowe](http://www.qfab.org/mark-crowe/)* ([QFAB](http://www.qfab.org/)/[GVL](https://genome.edu.au/wiki/GVL)) presented a [tutorial on using Galaxy](https://depot.galaxyproject.org/hub/attachments/events/gaw2014/mcrowe_galaxy_intro.pdf), aimed at the members of the audience new to Galaxy.
 
 The *tips and tricks open mic* session went well, with even some experienced Galaxy users learning a few things they hadn’t known.
 
@@ -311,7 +311,7 @@ Further interesting talks included *[Yousef Kowsar](http://www.vlsci.org.au/rese
 
 <div class='left'>[[<a href='http://australianbioinformatics.net/'><img src="/src/images/logos/ABNLogoOnlySmall.png" alt="Australian Bioinformatics Network" height="50" /></a></div>
 
-*[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](https://depot.galaxyproject.org/hub/attachments/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
+*[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
 
 
 Slide presentations appear on the [GAW2014 conference programme.](/src/events/gaw2014/index.md#program)

@@ -33,7 +33,7 @@ These talks have been accepted for the first lightning talks storm on Tuesday.
 
  <sup>1</sup> Latrobe University
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/CookeVisProt.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bb4e1ca7-0e8f-45b1-898f-bb2906ed4272)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/CookeVisProt.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bb4e1ca7-0e8f-45b1-898f-bb2906ed4272)**
 
 ...
 
@@ -49,7 +49,7 @@ These talks have been accepted for the first lightning talks storm on Tuesday.
  <sup>6</sup> VU university, Amsterdam, The Netherlands<br />
  <sup>7</sup> Center for Translational Molecular Medicine, Eindhoven, The Netherlands
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/vanEnckevortScalable.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2614658-29e0-49a3-882b-7d9f01eb2471)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/vanEnckevortScalable.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b2614658-29e0-49a3-882b-7d9f01eb2471)**
 
 For the national translational IT project CTMM/TraIT Galaxy has been selected as one of the tools in the experimental domain. The TraIT partners (among others NBIC and SURFsara) have developed a vision how to make Galaxy available to the research community in The Netherlands. The scalable Galaxy cluster on the SURFsara HPC Cloud will be transferred to Vancis to provide a sustainable production-level Galaxy cluster. In the design of this environment Vancis has made use of the knowledge and experience of NBIC and SURFsara hosting the public NBIC instance on the SURFsara HPC Cloud.
 
@@ -66,7 +66,7 @@ Furthermore we have established a process to ensure the quality of the tools req
 
  <sup>1</sup> [Drosophile.org](http://drosophile.org), CNRS and University Pierre-et-Marie-Curie, Paris
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/vanDenBeekMississippi.pptx), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9fed7061-735f-4c3a-93a3-95b7ff51dd35)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/vanDenBeekMississippi.pptx), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9fed7061-735f-4c3a-93a3-95b7ff51dd35)**
 
 Non-coding small RNAs (miRNA, siRNA, piRNA, …) are involved in the regulation of genes and transposable elements as well as in the defense against viral infections. Their discovery and their functional characterization rely heavily on high throughput RNA sequencing. The ~20:30nt length of small RNAs raises specific challenges for meaningful read mapping and analysis, so that standard RNAseq analysis methods have to be adapted. We provide an integrated set of galaxy tools that should streamline the most frequent small RNA analysis needs. This includes a modified bowtie-wrapper and workflows that allow users to quickly and reproducibly interrogate various aspects of small RNA biology. We provide tools for the discovery and differential expression analysis of miRNAs and a way for genome-wide visualization of miRNA precursors that complements Trackster. Furthermore we provide tools to detect the “ping-pong” biogenesis signature of piRNAs, to detect piRNA-producing loci in the genome and to study and visualize the impact of piRNAs and siRNAs on transposable elements.
 
@@ -81,7 +81,7 @@ Non-coding small RNAs (miRNA, siRNA, piRNA, …) are involved in the regulation 
  <sup>3</sup> SKIL Telecom Italia, Trento, Italy<br />
  <sup>4</sup> RIKEN BSI, Wako-Shi, Japan
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/ZarboHeartRate.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=534f4b31-1e7b-4284-91b4-0f2e84731820)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/ZarboHeartRate.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=534f4b31-1e7b-4284-91b4-0f2e84731820)**
 
 The emerging applications in physiological data processing, encouraged by the availability of wearable sensors for continuous self-monitoring and quantified self, require new platforms for time series analysis supporting real-time processing and fast prototyping capabilities. We recently proposed Physiolyze, a Galaxy-based web framework to support complex workflows for Heart Rate Variability (HRV) analysis. Here we extend Physiolyze by introducing scalable online processing capabilities. 
 
@@ -100,7 +100,7 @@ Our system can easily be adapted to other online streaming analytics application
 
  <sup>1</sup> CNRS UMR 6074 IRISA-INRIA, Rennes, France
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/LeBrasEbiogenouest.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d568c8fa-d548-489a-9b0c-3d215e452aa9)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/LeBrasEbiogenouest.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d568c8fa-d548-489a-9b0c-3d215e452aa9)**
 
 Two years after the beginning of a western France e-Science project, we propose here to highlight some results and show prospects.
 
@@ -113,7 +113,7 @@ Two years after the beginning of a western France e-Science project, we propose 
  <sup>1</sup> Galaxy Team, Penn State University, University Park, Pennsylvania<br />
  <sup>2</sup> Galaxy Team, Johns Hopkins University, Baltimore, Maryland
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/CoraorTravel.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e8720ff3-5d6b-4341-8620-b0dd82600f62)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/CoraorTravel.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e8720ff3-5d6b-4341-8620-b0dd82600f62)**
 
 Due to resource constraints, the main public Galaxy server run by the Galaxy Team, usegalaxy.org, moved from Penn State to the Texas Advanced Computing Center, with backups at the Pittsburgh Supercomputing Center. In addition to these resources, Galaxy has been awarded an XSEDE Grant of over 400,000 SUs, which we will be utilizing to further extend usegalaxy.org's computing Capacity.
 
@@ -129,7 +129,7 @@ These talks have been accepted for the second lightning talks storm on Wednesday
 
  <sup>1</sup> Center for Eukaryotic Gene Regulation, The Pennsylvania State University
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/ParkChip-exo.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b61d8ba7-a5bc-48aa-97f5-e50fad82826a)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/ParkChip-exo.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b61d8ba7-a5bc-48aa-97f5-e50fad82826a)**
 
 ### BeeGFS: Accelerating the access to BLAST and Galaxy Indices
 
@@ -146,7 +146,7 @@ Franz-Josef Pfreundt<sup>1</sup>, **Björn Grüning<sup>2</sup>**
 
  <sup>1</sup> Michigan State University 
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/CrusoeDoing.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d6c9a21d-4b22-41c9-8ab5-d031cdf11ed1)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/CrusoeDoing.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d6c9a21d-4b22-41c9-8ab5-d031cdf11ed1)**
 
 ### Running and maintaining a reliable production Galaxy server
 
@@ -154,7 +154,7 @@ Franz-Josef Pfreundt<sup>1</sup>, **Björn Grüning<sup>2</sup>**
 
  <sup>1</sup> New Zealand Genomics Ltd
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/SturrockReliable.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53ac8dbb-6708-4017-95b3-968c79fa3c5e)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/SturrockReliable.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53ac8dbb-6708-4017-95b3-968c79fa3c5e)**
 
 ### Private BLAST: Using Galaxy
 
@@ -172,7 +172,7 @@ Presented by **Gilda Le Corguillé<sup>1</sup>**
 
  <sup>1</sup> KeyGene
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/CariasoSNPedia.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55a66593-db99-4e17-8faa-2b517381ce51)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/CariasoSNPedia.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55a66593-db99-4e17-8faa-2b517381ce51)**
 
 ### Galaxy: Farm to Federation
 
@@ -181,7 +181,7 @@ Presented by **Gilda Le Corguillé<sup>1</sup>**
  <sup>1</sup> UC Santa Cruz<br />
  <sup>2</sup> John Hopkins University
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/EllrottFarm.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f0748817-ddda-461c-90a6-db7a263f0ea0)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/EllrottFarm.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f0748817-ddda-461c-90a6-db7a263f0ea0)**
 
 ### Galaxy Docker Containers: Docker, Docker, Docker
 
@@ -200,7 +200,7 @@ This talk was entirely a [live demo](http://jh.hosted.panopto.com/Panopto/Pages/
 
  <sup>1</sup> UC Santa Cruz<br />
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/EllrottSearchAPI.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=afe5f1de-84cd-41aa-b379-5fd73c22ad8c)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/EllrottSearchAPI.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=afe5f1de-84cd-41aa-b379-5fd73c22ad8c)**
 
 
 ## Goals

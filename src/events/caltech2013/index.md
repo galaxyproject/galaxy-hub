@@ -96,9 +96,9 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 
 ## Links
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
 
-* Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/CaltechGalaxyDay.pdf) in your department.
+* Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf) in your department.
 
 ## Support
 

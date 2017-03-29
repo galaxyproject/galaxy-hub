@@ -114,9 +114,9 @@ Ample time will be offered for questions from attendees and discussion. Presente
 
 <div class='right'>
 <br />
-<a href='https://depot.galaxyproject.org/hub/attachments/ASMS2015GalaxyPFlyer.pdf'><img src="/src/events/asms2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/asms2015/ASMS2015GalaxyPFlyer.pdf'><img src="/src/events/asms2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
 </div>
 
 ## Flyer
 
-You are encouraged to print [this handy flyer](https://depot.galaxyproject.org/hub/attachments/ASMS2015GalaxyPFlyer.pdf) prepared by the Galaxy-P Project and take with you.
+You are encouraged to print [this handy flyer](https://depot.galaxyproject.org/hub/attachments/events/asms2015/ASMS2015GalaxyPFlyer.pdf) prepared by the Galaxy-P Project and take with you.

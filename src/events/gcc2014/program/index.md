@@ -11,7 +11,7 @@ title: GCC2014 Program
 
 {{> Events/GCC2014/LinkBox }}
 <div class='right'><br />
-<div class='right'>**[Program (PDF)](https://depot.galaxyproject.org/hub/attachments/GCC2014Program.pdf)** &nbsp; </div>
+<div class='right'>**[Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/program/GCC2014Program.pdf)** &nbsp; </div>
 </div>
 
 The [2014 Galaxy Community Conference](/src/events/gcc2014/program//index.md) will start with a [Training Day](/src/events/gcc2014/program/TrainingDay/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2014/program/Lightning/index.md), [poster sessions](/src/events/gcc2014/abstracts/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/events/gcc2014/program/BoFs/index.md), and networking time.

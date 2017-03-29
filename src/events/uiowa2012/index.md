@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/UIowaGalaxyWorkshop.pdf) in your department.
+Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/uiowa2012/UIowaGalaxyWorkshop.pdf) in your department.
 
 ## Feedback
 
