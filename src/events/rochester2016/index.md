@@ -155,7 +155,7 @@ This workshop is generously supported by **
 
 ## Flier
 
-Please post / distribute the [workshop flier](https://depot.galaxyproject.org/hub/attachments/Rochester2016Workshop.pdf) to anyone who might be interested.
+Please post / distribute the [workshop flier](https://depot.galaxyproject.org/hub/attachments/events/rochester2016/Rochester2016Workshop.pdf) to anyone who might be interested.
 
 ## Slides
 

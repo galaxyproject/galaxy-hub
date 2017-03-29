@@ -135,6 +135,6 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
 ## Flier
 
 <div class='left'>
-<a href='https://depot.galaxyproject.org/hub/attachments/GalaxyAtPAG2014Flier.pdf'><img src="/src/events/pag-gmod-2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/events/gcc2014/promotion/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
-Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier](https://depot.galaxyproject.org/hub/attachments/GalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back](https://depot.galaxyproject.org/hub/attachments/GalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.
+<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014Flier.pdf'><img src="/src/events/pag-gmod-2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
+<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/events/gcc2014/promotion/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
+Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier](https://depot.galaxyproject.org/hub/attachments/GalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back](https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.

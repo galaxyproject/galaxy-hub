@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/JohnsHopkinsGalaxy2013.pdf'><img src="/src/events/johns-hopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/johns-hopkins2013/JohnsHopkinsGalaxy2013.pdf'><img src="/src/events/johns-hopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

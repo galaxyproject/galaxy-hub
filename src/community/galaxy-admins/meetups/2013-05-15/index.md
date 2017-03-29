@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='https://depot.galaxyproject.org/hub/attachments/201305PathogenPortalSlides.pdf'>Slides</a> </td>
+    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf'>Slides</a> </td>
   </tr>
 </table>
 

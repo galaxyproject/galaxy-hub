@@ -27,8 +27,8 @@ Topics covered:
 | Time |  Speaker  |  Title  |  Type  |  Slides  | 
 | ---- | -------- | ------ | ----- | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](https://depot.galaxyproject.org/hub/attachments/welcome_20140930.pdf)   | 
-| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  demo  |  [pdf](https://depot.galaxyproject.org/hub/attachments/intro_20140930.pdf)  | 
+| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/trainingday/welcome_20140930.pdf)   | 
+| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  demo  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/trainingday/intro_20140930.pdf)  | 
 | 9:50 - 10:30 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  datatypes, histories, datasets, tools, data sharing  |  hands-on  |   | 
 | 10:30 - 11:00 |  coffee Break  | 
 | 11:00 - 12:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  simple text manipulations, workflows  |  hands-on  |   | 
