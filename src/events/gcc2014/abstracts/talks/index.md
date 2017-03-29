@@ -5,9 +5,8 @@ autotoc: true
 
 {{> Events/GCC2014/LinkBox }}
 
+ 
 # Talk Abstracts
-
-
 
 ## Session 1, Tuesday, July 1, 9:15-10:30
 
