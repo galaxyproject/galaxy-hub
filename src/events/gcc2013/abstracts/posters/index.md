@@ -176,8 +176,6 @@ Our "virtual normal" method was able to remove up to 97% of the variants also fi
 
  <sup>1</sup> Departamento de Engenharia Elétrica, Pontifícia Universidade Católica do Rio de Janeiro
 
-*[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/EpidemiologyMansoldo.pdf)*
-
 We developed of a web system called BCIWeb (Bacterial Classifiation and Identification for Web) that could assist in bacterial identification and provide the technology necessary for the administration and control  of clinical specimen coming from the hospitals and the discovery of knowledge in database system, through data mining methods using SOM (Self Organizing Maps) and Multilayer Perceptron Neural Networks (MLP) for classification and identificatin of bacteria.
 
 In most laboratories the administration and control of the samples are made manualy through many forms of data sheets, when the samples  of biological materials are gathered at the hospital, up to the final identification at the laboratory. In this context, the organization of the information become very limited, its almost impossible to extract useful knowledge, which could help not only supporting decisions but also in the formulations of simple statistics. 

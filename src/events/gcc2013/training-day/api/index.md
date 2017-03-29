@@ -324,7 +324,7 @@ in BioBlend or Blend4j - we won't use them here so we can get a closer look on t
 <br />
 ## 1. Checking your key with the user API
 
-We'll start with the scripts: [https://depot.galaxyproject.org/hub/attachments/step_1.py](https://depot.galaxyproject.org/hub/attachments/step_1.py)]] and [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/users_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/users_1.py)]].
+We'll start with the scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_1.py)]] and [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/users_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/users_1.py)]].
 
 
 
@@ -417,7 +417,7 @@ Here we'll learn how to query all our histories and query a specific history.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_2.py](https://depot.galaxyproject.org/hub/attachments/step_2.py)]], [https://depot.galaxyproject.org/hub/attachments/histories_1.py](https://depot.galaxyproject.org/hub/attachments/histories_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_2.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_2.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_2.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_2.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_2.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_2.py)]]
 
 
 
@@ -567,7 +567,7 @@ Here we'll learn how to create a new history which will (automatically) become o
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_3.py](https://depot.galaxyproject.org/hub/attachments/step_3.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_3.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/histories_3.py)]]
 
 
 
@@ -666,7 +666,7 @@ of this API call to build its HTML.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_4.py](https://depot.galaxyproject.org/hub/attachments/step_4.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_4.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_4.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_1.py)]]
 
 
 
@@ -726,7 +726,7 @@ details on the HDA that Galaxy creates for it.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_5.py](https://depot.galaxyproject.org/hub/attachments/step_5.py)]], [https://depot.galaxyproject.org/hub/attachments/tools_1.py](https://depot.galaxyproject.org/hub/attachments/tools_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_2.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_2.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_5.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_5.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/tools_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/tools_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_2.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_2.py)]]
 
 
 
@@ -929,7 +929,7 @@ Now we'll run a workflow on our uploaded file and again wait for all of it to fi
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_7.py](https://depot.galaxyproject.org/hub/attachments/step_7.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/workflows_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/workflows_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_7.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_7.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/workflows_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/workflows_1.py)]]
 
 
 
@@ -1031,7 +1031,7 @@ depending on what we find.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_8.py](https://depot.galaxyproject.org/hub/attachments/step_8.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/datasets_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/datasets_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_8.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_8.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/datasets_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/datasets_3.py)]]
 
 
 
@@ -1186,7 +1186,7 @@ with the quality information from step 8.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_9.py](https://depot.galaxyproject.org/hub/attachments/step_9.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_3.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_9.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_9.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_3.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/hdas_3.py)]]
 
 
 
@@ -1280,7 +1280,7 @@ for everyone in our lab to use.
 
 
 
-Scripts: [https://depot.galaxyproject.org/hub/attachments/step_10.py](https://depot.galaxyproject.org/hub/attachments/step_10.py)]], [https://depot.galaxyproject.org/hub/attachments/libraries_1.py](https://depot.galaxyproject.org/hub/attachments/libraries_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/lddas_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/lddas_1.py)]]
+Scripts: [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_10.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/step_10.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/libraries_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/libraries_1.py)]], [https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/lddas_1.py](https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/api/lddas_1.py)]]
 
 
 

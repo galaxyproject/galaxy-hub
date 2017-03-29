@@ -198,9 +198,7 @@ We added Circus and Varnish usage to the Galaxy team recommendations. In doing s
 
 <br />
 
-==== GenesCloud : Bioinformatics cloud computing infrastructure	====
-
-<div class='right'>[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/GenesCloudLightning.pdf)</div>
+#### GenesCloud : Bioinformatics cloud computing infrastructure
 
 Stéphane Bortzmeyer<sup>1</sup>, Charles Loomis<sup>2</sup>, Mohammed Airaj<sup>2</sup>, Michel Fanny<sup>1</sup>, **Victoria Dominguez**<sup>1</sup>
 
@@ -343,7 +341,7 @@ But, if the user wants to run an own Galaxy instance on the cluster, the client 
 
 #### ChemicalToolBoX: Cheminformatics inside the Galaxy
 
-<div class='right'>[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/Lightning.pdf)</div>
+<div class='right'>[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/ChemicalToolBoxLightning.pdf)</div>
 
 **Björn Grüning**
 

@@ -79,10 +79,6 @@ This is a very much a hands-on workshop.  To fully participate, attendees need t
 
 This workshop is generously supported by the [Department of Biochemistry and Molecular Biology](http://www2.med.psu.edu/biochemistry), the [Institute for Personalized Medicine](http://www2.med.psu.edu/ipm/), the [Penn State College of Medicine](http://www.pennstatehershey.org/web/college), an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [National Institutes of Health (NIH)](http://www.nih.gov).
 
-## Slides
-
-* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015PennStateHersheyWorkshop.pdf) 
-
 ## Feedback
 
 * **[Please provide feedback](http://bit.ly/hershey2015feedback)!**

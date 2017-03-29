@@ -15,7 +15,7 @@ The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Cza
 
 # Links
 
-* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/Czars2012-07-09UIowa.pdf)
+* [Slides]https://depot.galaxyproject.org/hub/attachments/documents/presentations/Czars2012_07_09UIowa.pdf)
 * [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1341837832643) - This shows everything that happened on the call, except for the polls, just as it happened on the call.  
 
 # Agenda
@@ -65,7 +65,7 @@ Communication outside of meetings will continue to happen on the [Galaxy-Dev mai
 
 ## Galaxy at Iowa
 
-See the [slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/Czars2012-07-09UIowa.pdf) starting at page 3 or 4 for this material.  This was a great talk about their experiences with setting up a large Galaxy instance and their thorough benchmarking experiments with different storage architectures.  
+See the [slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/Czars2012_07_09UIowa.pdf) starting at page 3 or 4 for this material.  This was a great talk about their experiences with setting up a large Galaxy instance and their thorough benchmarking experiments with different storage architectures.  
 
 *Note: The summary here is sparse.  Please help by expanding it.*
 
@@ -102,4 +102,4 @@ There will be a [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout se
 
 ## Next Meeting
 
-The next [conference call](/src/community/galaxy-admins/meetups/2012-07-09//index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/community/galaxy-admins/meetups/2012-07-09/index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.

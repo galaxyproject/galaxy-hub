@@ -16,7 +16,7 @@ This section contains quick explanations and important references for major sequ
 
 <img src="/src/images/ngs101/454.jpeg" alt="454" height="20" />
 <a href='https://vimeo.com/121286060'><img src="/src/images/ngs101/video.png" alt="454 Screencast" height="20" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/images/ngs101/NGS101-454.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-454.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Description of 454 process - Margulies et al. (2005)](http://www.nature.com/nature/journal/v437/n7057/pdf/nature03959.pdf)
@@ -27,7 +27,7 @@ This section contains quick explanations and important references for major sequ
 
 <img src="/src/images/ngs101/illumina.png" alt="Illumina" height="20" />
 <a href='https://vimeo.com/121178846'><img src="/src/images/ngs101/video.png" alt="Illumina Screencast" height="20" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/images/ngs101/NGS101-Illumina.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-Illumina.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Human genome sequencing on Illumina - Bentley et al. (2008)](http://www.nature.com/nature/journal/v456/n7218/pdf/nature07517.pdf)
@@ -37,7 +37,7 @@ This section contains quick explanations and important references for major sequ
 
 <img src="/src/images/ngs101/ion.jpeg" alt="Ion" height="20" />
 <a href='https://vimeo.com/121289100'><img src="/src/images/ngs101/video.png" alt="IonTorrent Screencast" height="20" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/images/ngs101/NGS101-Ion.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-Ion.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Semiconmductor non-optical sequencing - Rothberg et al. (2011)](http://www.nature.com/nature/journal/v475/n7356/full/nature10242.html)
@@ -46,7 +46,7 @@ This section contains quick explanations and important references for major sequ
 
 <img src="/src/images/ngs101/pacBio.jpeg" alt="PacBio" height="20" />
 <a href='https://vimeo.com/121267426'><img src="/src/images/ngs101/video.png" alt="PacBio Screencast" height="20" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/images/ngs101/NGS101-PacBio.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-PacBio.pdf'><img src="/src/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Single Molecule Analaysis at High Concentration - Levene et al. (2003)](http://www.sciencemag.org/content/299/5607/682.full.pdf)
@@ -122,7 +122,7 @@ If Galaxy does not have a genome you need to map against, you can upload your ge
 
 ## Understanding and manipulating SAM/BAM datasets
 
-The [SAM/BAM](https://depot.galaxyproject.org/hub/attachments/images/ngs101/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. 
+The [SAM/BAM](https://depot.galaxyproject.org/hub/attachments/documents/papers/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. 
 
 ### Read groups
 
@@ -145,7 +145,7 @@ We support four toolsets for processing of SAM/BAM datasets:
 
 * [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
 * [SAMtools](http://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
-* [BAMtools](https://depot.galaxyproject.org/hub/attachments/images/ngs101/bamtools.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
+* [BAMtools](https://depot.galaxyproject.org/hub/attachments/documents/papers/bamtools.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
 * [Picard](http://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
 
 The [Screencast NGS101-9](https://vimeo.com/123113197) highlight de-duplication, filtering, and cleaning of a BAM dataset using BAMtools and Picard tools. 
