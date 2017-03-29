@@ -1,6 +1,5 @@
-<div class='right'> 
+<div class='right'>
 ![Tool Shed logo](/src/images/logos/ToolShed.jpg)
-{{> ToolShed/LinkBox }}  
 </div>
 
 # Installing Tool Shed Repositories into a Local Galaxy
@@ -126,7 +125,7 @@ All tools that are installed from a Galaxy tool shed in the way just presented i
 
 # Automatic third-party tool dependency installation and compilation with installed repositories
 
-See this [related page](http://wiki.galaxyproject.org/ToolShedToolFeatures#Automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories).
+See this [related page](/src/toolshed/tool-features/index.md#Automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories).
 
 # Installing Galaxy tool shed repository data types into a local Galaxy instance
 
@@ -187,11 +186,11 @@ Galaxy administrators should pay close attention to the potential conflicts that
 
 # Installing repositories that include simple repository dependency definitions
 
-See this [related page](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Installing_repositories_that_include_simple_repository_dependency_definitions).
+See this [related page](/src/toolshed/defining-repository-dependencies/index.md#Installing_repositories_that_include_simple_repository_dependency_definitions).
 
 # Installing repositories that include complex repository dependency definitions
 
-See this [related page](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Installing_repositories_that_include_complex_repository_dependency_definitions).
+See this [related page](/src/toolshed/defining-repository-dependencies/index.md#Installing_repositories_that_include_complex_repository_dependency_definitions).
 
 # Handling repository installation errors
 

@@ -37,7 +37,7 @@ SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
 Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) section.
 
-**[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60. 
+**[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60.
 
 
 <br />
@@ -52,11 +52,11 @@ PMID: 23024011 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed) - as supplied by pu
 
 **Short re-cap &rarr; [Read more…](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy_tool_factory)**
 
-1. The **Tool Factory** is a pure Galaxy scripting environment that makes running simple quick and dirty tasks really easy, and can also generate new Galaxy tools with functional tests! 
+1. The **Tool Factory** is a pure Galaxy scripting environment that makes running simple quick and dirty tasks really easy, and can also generate new Galaxy tools with functional tests!
 
 2. The **Tool Factory** ia available for private clone installations from the main **[Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** as the **toolfactory** - see your local **Galaxy** admin menu.
 
-3. *Before you install - THIS IS IMPORTANT!!* The **Tool Factory** allows unrestricted scripting - NO SANDBOX!! so is far too dangerous for production sites. It can only be run by *local **Galaxy** site administrators*. Please, do **NOT** install on public Galaxy instances. ***Generated tools are safe if the script they wrap is safe***. 
+3. *Before you install - THIS IS IMPORTANT!!* The **Tool Factory** allows unrestricted scripting - NO SANDBOX!! so is far too dangerous for production sites. It can only be run by *local **Galaxy** site administrators*. Please, do **NOT** install on public Galaxy instances. ***Generated tools are safe if the script they wrap is safe***.
 
 <br />
 # Dataset Cleanup
@@ -83,25 +83,25 @@ The following sections of the tool shed wiki provide information about features 
 
   In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)
 
-2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/toolshed-readme-files/index.md)**
+2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/toolshed/readme-files/index.md)**
 
-  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed-readme-files/index.md)
+  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed/readme-files/index.md)
 
-3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/toolshed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)**
+3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/toolshed/tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/toolshed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/toolshed/tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)
 
 ### Improved tool shed feature documentation
 
 The following sections of the tool shed wiki have been updated to more thoroughly describe features.
 
-1. **[Cloning a repository using hg from the command line](/src/toolshed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)**
+1. **[Cloning a repository using hg from the command line](/src/toolshed/repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)**
 
-  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)
+  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)
 
-2. **[Pushing changes to a repository using hg from the command line](/src/toolshed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)**
+2. **[Pushing changes to a repository using hg from the command line](/src/toolshed/repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)**
 
-  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)
+  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)
 
 3. **[Adding additional change sets to the initial change set in a repository](/src/repository-revisions/index.md)**
 
@@ -144,7 +144,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 2. **Other updates**
 
 * Always load the tool version with the highest lineage (newest version) into the tool panel/menu so that the newest version is always used for a new tool run (e.g. but not for a rerun/previously existing workflow unless modified by user).
-* Refactor tool version selection during rerun; previously, the currently selected version displayed in the dropdown box might not have been the version of the tool actually being displayed/run. 
+* Refactor tool version selection during rerun; previously, the currently selected version displayed in the dropdown box might not have been the version of the tool actually being displayed/run.
 * Better handling of determining tool/version in workflow tool module.
 * Fix for writing the `integrated_tool_panel.xml` when a section has been removed from `tool_conf.xml`
 * Better handling of trying to access a tool when it is no longer loaded, but the item is still listed in the tol panel (due to not refreshing the page after remove the tool).
@@ -225,7 +225,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
