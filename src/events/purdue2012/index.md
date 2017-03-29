@@ -106,9 +106,9 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/PurdueGalaxyWorkshopFlier.pdf'><img src="/src/events/purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/purdue2012/PurdueGalaxyWorkshopFlier.pdf'><img src="/src/events/purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
 
-* [Flier](https://depot.galaxyproject.org/hub/attachments/PurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
+* [Flier](https://depot.galaxyproject.org/hub/attachments/events/purdue2012/PurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
 * [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_Purdue.pdf)
 * [Workshop evaluation form](http://bit.ly/gxypurdue)
 

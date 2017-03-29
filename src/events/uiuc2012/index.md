@@ -118,9 +118,10 @@ Tuesday, October 9 at Noon, 612 Institute for Genomic Biology (lower level)
 
 ## Links
 
-* [Flier](https://depot.galaxyproject.org/hub/attachments/UIUCGalaxyWorkshopFlier.pdf) - please print / post / distribute
+* [Flier](https://depot.galaxyproject.org/hub/attachments/events/uiuc2012/UIUCGalaxyWorkshopFlier.pdf) - please print / post / distribute
 * [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_UIUC.pdf)
-* [Slides2](https://depot.galaxyproject.org/hub/attachments/UIUCGalaxy-getting-data-in.pdf) - Getting data into the UIUC Galaxy instance.
+* [Slides2](https://depot.galaxyproject.org/hub/attachments/documents/presentations/UIUCGalaxy-getting-data-in.pdf
+/tmp/AttchmentsWorking//events/uiuc2012/UIUCGalaxy-getting-data-in.pdf) - Getting data into the UIUC Galaxy instance.
 * **[Workshop evaluation form](http://bit.ly/UIUCFeedback)**
 
 ## Questions?
