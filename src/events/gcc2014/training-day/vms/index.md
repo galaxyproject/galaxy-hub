@@ -41,13 +41,13 @@ Download and install the appropriate package from [VirtualBox.org](https://www.v
 The VM(s) to download depend on the workshops you are attending:
 
 
-| Topic |  Links  |  Description  | 
-| ----- | ------ | ------------ | 
-| [Galaxy on a Cluster - User and Project Management](/src/events/gcc2014/training-day/vms//index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: UsersProjects2014</div>  | 
-| [Galaxy Installation and Administration](/src/events/gcc2014/training-day/vms//index.md#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  | 
-| [Galaxy Automation: Using the API](/src/events/gcc2014/training-day/vms//index.md#galaxy-automation-using-the-api) | 
-| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/events/gcc2014/training-day/vms//index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
-| [Tool Development from bright idea to ToolShed - Data Managers](/src/events/gcc2014/training-day/vms//index.md#tool-development-from-bright-idea-to-toolshed---data-managers) | 
+| Topic |  Links  |  Description  |
+| ----- | ------ | ------------ |
+| [Galaxy on a Cluster - User and Project Management](/src/events/gcc2014/training-day/vms//index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: UsersProjects2014</div>  |
+| [Galaxy Installation and Administration](/src/events/gcc2014/training-day/vms//index.md#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  |
+| [Galaxy Automation: Using the API](/src/events/gcc2014/training-day/vms//index.md#galaxy-automation-using-the-api) |
+| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/events/gcc2014/training-day/vms//index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) |
+| [Tool Development from bright idea to ToolShed - Data Managers](/src/events/gcc2014/training-day/data-managers/) |
 
 ## 3. Import the VM into VirtualBox
 
