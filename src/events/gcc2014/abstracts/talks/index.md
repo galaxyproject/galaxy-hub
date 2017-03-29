@@ -94,7 +94,7 @@ We present an instance of Galaxy at Indiana University, installed and maintained
 
  <sup>1</sup> [Bioinformatics Core](http://compbio.sph.harvard.edu/chb/), Harvard School of Public Health
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2014/Chapman.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=74a61ca2-a444-4850-b32a-613aa2e4cf53)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Chapman.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=74a61ca2-a444-4850-b32a-613aa2e4cf53)**
 
 The community developed [bcbio-nextgen framework](https://github.com/chapmanb/bcbio-nextgen) provides implementations of best-practice pipelines for variant calling and RNA-seq analysis. The framework handles computation, data storage and program connectivity in ways that parallel Galaxy's approaches, making it difficult to plug in as a standard tool.  We'd like to be able to integrate with Galaxy by sharing the underlying implementation code for accessing data, rather than pushing and pulling large files. This talk will discuss ideas to access shared data on external object stores like S3 or HDFS in a consistent way that does not rely on data copying. It also will incorporate approaches to compartmentalize complex sets of tools inside containers using Docker. The goal is to stimulate discussion about ways to make Galaxy a modular component within complex analysis environments. Our ultimate vision is to have an Amazon based cloud implementation that uses CloudMan to run a Galaxy front end sending out jobs to tools like bcbio-nextgen.
 
@@ -158,7 +158,7 @@ An overview of where the Galaxy Project is and where it is going.
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent, part of Life Technologies](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
-**[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2014/Lelivelt.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d06b9461-9991-46bc-94d2-6b2378432d90)**
+**[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lelivelt.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d06b9461-9991-46bc-94d2-6b2378432d90)**
 
 <br />
 

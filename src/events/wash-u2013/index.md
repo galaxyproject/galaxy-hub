@@ -115,7 +115,7 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/events/mi
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/WashUGalaxy2013.pdf'><img src="/src/events/wash-u2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/wash-u2013/WashUGalaxy2013.pdf'><img src="/src/events/wash-u2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Washington University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

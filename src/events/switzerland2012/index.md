@@ -23,21 +23,21 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  |   |   | 
 | 9:30 - 9:40 |  Peter Kunszt ([SyBIT](https://wiki.systemsx.ch/display/SyBIT))  |  Welcome and usual news  |   | 
-| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  [pdf](https://depot.galaxyproject.org/hub/attachments/Switzerland2012_hrh_intro.pdf)  | 
-| 9:50 - 10:30 |  [Dannon Baker](/src/people/dannon-baker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](https://depot.galaxyproject.org/hub/attachments/baker_swiss_galaxy_day.pdf)  | 
+| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Switzerland2012_hrh_intro.pdf)  | 
+| 9:50 - 10:30 |  [Dannon Baker](/src/people/dannon-baker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/baker_swiss_galaxy_day.pdf)  | 
 | 10:30 - 11:00 |  BREAK  |   |   | 
-| 11:00 - 11:15 |  Mark Robinson ([IMLS, University of Zurich](http://www.imls.uzh.ch/research/robinson.html))  |  edgeR and Galaxy |  [pdf](https://depot.galaxyproject.org/hub/attachments/edgeR_galaxy_robinson.pptx.pdf)  | 
-| 11:15 - 11:30 |  Tim Roloff ([FMI](http://www.fmi.ch/))  |  Microarray analaysis  |  [pdf](https://depot.galaxyproject.org/hub/attachments/Affy_analysis_TCRH.pdf)  | 
-| 11:30 - 11:45 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))   |  NGS analysis  |  [pdf](https://depot.galaxyproject.org/hub/attachments/Switzerland2012_hrh_NGS_at_FMI.pdf)  | 
-| 11:45 - 12:00 |  Manuel Kohler ([D-BSSE, ETH Zurich](http://www.bsse.ethz.ch/))  |  openBIS and Galaxy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/Galaxy_workshop_Bern_2012_MK.pdf)  | 
+| 11:00 - 11:15 |  Mark Robinson ([IMLS, University of Zurich](http://www.imls.uzh.ch/research/robinson.html))  |  edgeR and Galaxy |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/edgeR_galaxy_robinson.pptx.pdf)  | 
+| 11:15 - 11:30 |  Tim Roloff ([FMI](http://www.fmi.ch/))  |  Microarray analaysis  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Affy_analysis_TCRH.pdf)  | 
+| 11:30 - 11:45 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/))   |  NGS analysis  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Switzerland2012_hrh_NGS_at_FMI.pdf)  | 
+| 11:45 - 12:00 |  Manuel Kohler ([D-BSSE, ETH Zurich](http://www.bsse.ethz.ch/))  |  openBIS and Galaxy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Galaxy_workshop_Bern_2012_MK.pdf)  | 
 | 12:00 - 13:45 |  LUNCH Break (lunch will be at 12:15)  |   |   | 
-| 13:45 - 14:00 |  Nikolai Vazov ([USIT, University of Oslo](http://www.usit.uio.no/english/))  |  Installing Galaxy on a cluster : issues around DB server, queuing system, external authentication, etc.  |  [odp](https://depot.galaxyproject.org/hub/attachments/Swiss_Galaxy_Workshop_NikolaiVazov.odp)  | 
-| 14:00 - 14:30 |  Jelle Scholtalbers ([TRON gGmbh, University of Mainz](http://tron-mainz.de/))  |  NGS sample tracking and processing  |  [pdf](https://depot.galaxyproject.org/hub/attachments/Bern-2012-GalaxyLIMS.pdf)  | 
-| 14:30 - 14:45 |  Mario Emmenlauer ([Biozentrum, University of Basel](http://www.biozentrum.unibas.ch/))  |  High Content Screening (Bee)  |  [pdf](https://depot.galaxyproject.org/hub/attachments/SyBITTechDay-screeningBee-2012-10-03.pdf)  | 
+| 13:45 - 14:00 |  Nikolai Vazov ([USIT, University of Oslo](http://www.usit.uio.no/english/))  |  Installing Galaxy on a cluster : issues around DB server, queuing system, external authentication, etc.  |  [odp](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Swiss_Galaxy_Workshop_NikolaiVazov.odp)  | 
+| 14:00 - 14:30 |  Jelle Scholtalbers ([TRON gGmbh, University of Mainz](http://tron-mainz.de/))  |  NGS sample tracking and processing  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/Bern-2012-GalaxyLIMS.pdf)  | 
+| 14:30 - 14:45 |  Mario Emmenlauer ([Biozentrum, University of Basel](http://www.biozentrum.unibas.ch/))  |  High Content Screening (Bee)  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/SyBITTechDay-screeningBee-2012-10-03.pdf)  | 
 | 14:45 - 15:15 |  BREAK  |   |   | 
-| 15:15 - 15:30 |  Grainne Kerr ([DKFZ, Heidelberg](http://www.dkfz.de))  |  Galaxy and a high throughput screening lab  |  [pdf](https://depot.galaxyproject.org/hub/attachments/GalaxyAndHighThroughputScreeningLab.pptx.pdf)  | 
-| 15:30 - 15:45 |  Björn Grüning ([University of Freiburg](http://www.uni-freiburg.de/)) |  Chemical Tool Box  |  [html5](https://depot.galaxyproject.org/hub/attachments/ChemicalToolBoX.tar.bz2) | 
-| 15:45 - 16:00 |  Sveinung Gundersen (The Norwegian Radium Hospital)  |  [Genomic HyperBrowser](http://hyperbrowser.uio.no/hb/)  |  [pdf](https://depot.galaxyproject.org/hub/attachments/HyperBrowser Galaxy Workshop Bern 03_10_12.pdf)  | 
+| 15:15 - 15:30 |  Grainne Kerr ([DKFZ, Heidelberg](http://www.dkfz.de))  |  Galaxy and a high throughput screening lab  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/GalaxyAndHighThroughputScreeningLab.pptx.pdf)  | 
+| 15:30 - 15:45 |  Björn Grüning ([University of Freiburg](http://www.uni-freiburg.de/)) |  Chemical Tool Box  |  [html5](https://depot.galaxyproject.org/hub/attachments/events/switzerland2012/ChemicalToolBoX.tar.bz2) | 
+| 15:45 - 16:00 |  Sveinung Gundersen (The Norwegian Radium Hospital)  |  [Genomic HyperBrowser](http://hyperbrowser.uio.no/hb/)  |  [pdf](https://depot.galaxyproject.org/hub/attachmentsrimary or operator)  | 
 | 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  concluding remarks  |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  |   |   | 
 

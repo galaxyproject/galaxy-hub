@@ -125,7 +125,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
 </table>
 
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/GalaxyAtISMB2011.pdf'><img src="/src/events/ismb-eccb-bosc-2011/GalaxyAtISMB2011Thumb.png" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/ismb-eccb-bosc2011/GalaxyAtISMB2011.pdf'><img src="/src/events/ismb-eccb-bosc-2011/GalaxyAtISMB2011Thumb.png" /></a></div>
 ## Flyer
 
-A [flyer](https://depot.galaxyproject.org/hub/attachments/GalaxyAtISMB2011.pdf) has been created listing all these talks.  Please feel free to print out a copy (or more) and take them with you.
+A [flyer](https://depot.galaxyproject.org/hub/attachments/events/ismb-eccb-bosc2011/GalaxyAtISMB2011.pdf) has been created listing all these talks.  Please feel free to print out a copy (or more) and take them with you.

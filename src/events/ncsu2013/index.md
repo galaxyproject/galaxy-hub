@@ -105,7 +105,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/NCSUGalaxy2013.pdf'><img src="/src/events/ncsu2013/NCSUGalaxy2013Thumb.png" alt="" width="100" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/ncsu2013/NCSUGalaxy2013.pdf'><img src="/src/events/ncsu2013/NCSUGalaxy2013Thumb.png" alt="" width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

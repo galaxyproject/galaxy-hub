@@ -70,8 +70,8 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
 
 
 <div class='left'>
-<a href='https://depot.galaxyproject.org/hub/attachments/GalaxyAtBioITWorld2014Flier.pdf'><img src="/src/events/bioitworld2014/GalaxyAtBioITWorld2014Thumb.png" alt="Galaxy Related Events @ BioIT World 2014" height="137" /></a></div>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf'><img src="/src/events/bioitworld2014/GalaxyAtBioITWorld2014Thumb.png" alt="Galaxy Related Events @ BioIT World 2014" height="137" /></a></div>
 
 ## Flier
 
-Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier](https://depot.galaxyproject.org/hub/attachments/GalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](https://depot.galaxyproject.org/hub/attachments/GalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/events/gcc2014/index.md).  Print out a few copies and take them with you.
+Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/events/gcc2014/index.md).  Print out a few copies and take them with you.
