@@ -88,7 +88,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <th rowspan=9> Monday July&nbsp;16 </th>
     <td> 10:45-11:10 </td>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT15 - GenomeSpace: An environment for frictionless bioinformatics</a></em>, Michael Reich, Broad Institute </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_2012_GenomeSpace.pptx'>slides</a> </td>
+    <td> </td>
   </tr>
   <tr>
     <td> 11:45-12:10 </td>

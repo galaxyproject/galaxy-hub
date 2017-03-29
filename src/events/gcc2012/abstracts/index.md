@@ -193,7 +193,7 @@ Through the context of CloudMan, this talk will focus on the components required
 
  <sup>1</sup> [Pharmaceutical Bioinformatics](http://pharmaceutical-bioinformatics.com/main/), Institute of Pharmaceutical Sciences, Albert-Ludwigs-University Freiburg
 
-*[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Gruning.pdf), Video*
+* Video*
 
 Life science data constantly changes and it is challenging to keep local data repositories up to date, because many data providers do not offer a strategy to the user for keeping local data synchronized. A powerful and easy-to-use data distribution system is still missing. The lowest common denominator for data exchange is the File Transfer Protocol. Although it is approved and reliable, it does not offer options to keep track of data revisions. Incremental updates are hardly possible or not possible at all. Up-to-date data are vital to researchers, however, updating might alter downstream calculation results, annotations or predictions. Using Galaxy, it is possible to reproduce the processing of static datasets very comfortably, but reproducibility is difficult to maintain, if external databases are integrated.
 

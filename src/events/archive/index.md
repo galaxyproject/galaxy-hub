@@ -3442,7 +3442,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th rowspan=2> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a></em> </td>
     <td rowspan=2> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>, San Francisco, California, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/Prese3ntations/2013_goecks-beyond-the-genome.pdf'>Slides</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013_goecks-beyond-the-genome.pdf'>Slides</a> </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -4034,9 +4034,9 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> November 11 </th>
-    <td> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/papers:GalaxyOnGlobus_DataCloud2012.pdf'>Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision</a></em> </td>
+    <td> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/papers/GalaxyOnGlobus_DataCloud2012.pdf'>Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision</a></em> </td>
     <td> <a href='http://www.cse.buffalo.edu/faculty/tkosar/datacloud2012/program.php'>DataCloud2012</a> </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/papers:GalaxyOnGlobus_DataCloud2012.pdf'>Paper</a> </td>
+    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/papers/GalaxyOnGlobus_DataCloud2012.pdf'>Paper</a> </td>
     <td> Bo Liu </td>
   </tr>
   <tr>
@@ -4134,7 +4134,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> September 18-20 </th>
     <td> <em><a href='https://events.nordu.net/display/ndn2012web/Galaxy+-+a+collaborative+tool+for+High+Performance+Computing'>Galaxy - a collaborative tool for High Performance Computing</a></em> </td>
     <td> <a href='https://events.nordu.net/display/ndn2012web/Welcome'>NORDUnet Conference</a>, Oslo and Akershus University College, Oslo, Norway </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_VazovNORDUnet.pdf'>Slides</a> </td>
+    <td>  </td>
     <td> <a href='https://events.nordu.net/display/ndn2012web/Nikolay+Vazov'>Nikolay Vazov</a> </td>
   </tr>
   <tr>
@@ -4497,7 +4497,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> October 3-7 </th>
     <td> </em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Workshop on Genomics</a><em><br />Includes the half-day </em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Galaxy: Introduction and Introductory Laboratory</a><em> session</td>
     <td> <a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Smithsonian Institution</a>, Washington, DC, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/20112011OctWorkshopOnGenomics.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
@@ -4518,21 +4518,21 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> September 19-22 </th>
     <td> <em><a href='http://www.amiando.com/2011-beyond-the-genome.html?page=639196'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td> <a href='http://www.amiando.com/2011-beyond-the-genome.html?page=639195'>Genome Informatics Workshop @ Beyond the Genome 2011</a>, Washington DC, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011BeyondTheGenome.pdf'>Slides</a>  </td>
+    <td>  </td>
     <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 19 </th>
     <td> <em>Galaxy for high-throughput NGS analysis</em> </td>
     <td> <a href='http://www.miptec.ch'>MipTec</a>, <a href='http://www.miptec.ch/fileadmin/files/2011/miptec2011/documents/user_group_meetings_pdf/NGS%20Symposium%20Part%201%20neu.pdf'>Next Generation Sequencing for Research and Clinical Genomics User Group</a>, Basel, Switzerland </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011MipTec.pdf'>Slides</a>  </td>
+    <td> </td>
     <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 12-20 </th>
     <td> <em><a href='http://bsc2011.bioinformatics.ucdavis.edu/'>Bioinformatics and Cloud Computing Courses 2011</a></em><br />This will use Galaxy as a platform throughout the course. </td>
     <td> <a href='http://bsc2011.bioinformatics.ucdavis.edu/'>UC Davis</a>, Davis California, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011UCDavisCourse.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href="mailto:lhslin@ucdavis.ed">Dawei Lin</a> </td>
   </tr>
   <tr>
@@ -4546,7 +4546,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> July 10-23 </th>
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG#wcgna'>Workshop on Comparative Genomics North America</a></strong><br />Includes a day long Galaxy session</td>
     <td> Fort Collins, Colorado, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011JulyCompGenomics.pdf'>Slides</a> </td>
+    <td>  </td>
     <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
@@ -4602,7 +4602,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> May 20 </th>
     <td> <strong>Using Galaxy Workshop</strong> </td>
     <td> University of Manchester, United Kingdom </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011Manchester.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
@@ -4616,7 +4616,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> April 12-14 </th>
     <td> <strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=101298'>Dynamically Scalable, Accessible Analysis for High-Throughput Sequence Data</a></strong><br /><a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> Boston, Massachusetts, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011Bio-ITWorldCloud.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
@@ -4630,7 +4630,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> February 19-22 </th>
     <td> <strong><a href='http://conf.abrf.org/'>Galaxy Next Generation Sequencing Functionality from Sample Tracking to SNP Calling</a></strong><br />ABRF 2011 </td>
     <td> San Antonio, Texas, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011ABRF.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> </td>
   </tr>
   <tr>
@@ -4651,7 +4651,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> January 9-21 </th>
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG'>Workshop on Comparative Genomics, Europe</a></strong><br />Includes sessions on Galaxy </td>
     <td> Český Krumlov, Czech Republic </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011JanComparativeGenomics.pdf'>Slides</a> </td>
+    <td> </td>
     <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
 </table>
