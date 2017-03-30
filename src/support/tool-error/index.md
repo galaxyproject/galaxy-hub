@@ -188,7 +188,7 @@ Job errors with a message similiar to the above. MACS is not the only tool that 
 
 MACS/2 is not capable of interpretting sequence read names with spaces included. Two choices:
 
- * Remove unmapped reads from the SAM dataset. There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
+ * Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
  * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
 
 ### Failure reason: Tool and software problems
