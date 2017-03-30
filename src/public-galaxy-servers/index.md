@@ -410,9 +410,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * The groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany).
 
-## BIPAA (BioInformatics Platform for Agro-ecosystems Arthropods)
+## BIPAA (BioInformatics Platform for Agroecosystem Arthropods)
 
-<div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/src/public-galaxy-servers/BIPAALogo.png" alt="BIPAA (BioInformatics Platform for Agro-ecosystems Arthropods)" /></a></div>
+<div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/src/public-galaxy-servers/BIPAALogo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" /></a></div>
 
 * *Links:*
   * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
