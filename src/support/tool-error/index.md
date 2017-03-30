@@ -162,6 +162,35 @@ Sometimes the execution time of a job can be shorted by adjusting the inputs, pa
  
 Moving to a local or cloud Galaxy will often not help for these cases due to how the 3rd party wrapped tool is written. The tool would fail outside of Galaxy, too. Finding or creating a better quality (less fragmented) target genome/transcriptome is the solution.
 
+### Failure reason: ValueError: invalid literal for int() with base 10
+
+Full error is usually a longer message seen only after clicking on the bug icon ![](/src/images/icons/bug.png):
+
+```
+stderr
+
+...
+Many lines of text, may include parameters
+...
+...
+ValueError: invalid literal for int() with base 10: 'some-read-identifier-name'
+```
+
+#### Example
+
+MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
+
+#### How to detect
+
+Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
+
+#### How to resolve
+
+MACS/2 is not capable of interpretting sequence read names with spaces included. Two choices:
+
+ * Remove unmapped reads from the SAM dataset. There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
+ * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
+
 ### Failure reason: Tool and software problems
 
 Software or Tool Bug? Or a usage error? Sometimes it is hard to tell. 
@@ -195,6 +224,3 @@ Software or Tool Bug:
 * Software can fail for many reasons. If you think there is a problem, please report it.
 * Send in a bug report or ask a question at Galaxy Biostars if you want the issue vetted first.
 * If you are reasonable certain the problem is with software or tools, and not usage, please report it directly to the [Galaxy Issue Board](/src/issues/index.md).
-
-
-
