@@ -1,7 +1,8 @@
 ## Usegalaxy.org Data Rsync
 
-[Data Integration](/src/admin/data-integration/index.md)<br />
-[Data Preparation](/src/admin/data-preparation/index.md)
+Related topics
+* [Data Integration](/src/admin/data-integration/index.md)
+* [Data Preparation](/src/admin/data-preparation/index.md)
 
 ## Obtaining Reference Genome Data by Rsync
 
@@ -38,6 +39,11 @@ To download the complete directory for the **[phiX](http://en.wikipedia.org/wiki
 $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
+Most of the baterical genomes are nested one directory down (under microbes). This changes the command to this, where "63" is the assigned **dbkey** for the NCBI genome accession NC_007622, sourced from UCSC, and listed under GUI Genome Builds as **Staphyloccus aureus RF122 (63)**. For any genome, the dbkey is the value (inside_here).
+
+```
+$ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/microbes/63 .
+```
 
 ## Organization and DBKEY
 
@@ -62,7 +68,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/location .
 
 The list of available directories containing the other data referenced by location files is:
 * genomes by **dbkey**
-* microbes (genomes from http://archaea.ucsc.edu, by the index number provided by UCSC)
+* microbes (genomes from http://archaea.ucsc.edu, named by genome identifier or index number (either could be a dbkey), nested in the directory **microbes**. See help **Example Data Retrieval** above for how to format the rsync path.)
 * annotation_profiler
 * binned_scores
 * blastdb (megablast indexes)
