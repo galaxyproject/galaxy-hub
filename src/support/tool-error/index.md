@@ -178,11 +178,11 @@ ValueError: invalid literal for int() with base 10: 'some-read-identifier-name'
 
 #### Example
 
-MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
+ * MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
 
 #### How to detect
 
-Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
+ * Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
 
 #### How to resolve
 
@@ -223,4 +223,4 @@ Software or Tool Bug:
 
 * Software can fail for many reasons. If you think there is a problem, please report it.
 * Send in a bug report or ask a question at Galaxy Biostars if you want the issue vetted first.
-* If you are reasonable certain the problem is with software or tools, and not usage, please report it directly to the [Galaxy Issue Board](/src/issues/index.md).
+* If you are reasonably certain the problem is with software or tools, and not usage, please report it directly to the [Galaxy Issue Board](/src/issues/index.md).
