@@ -27,7 +27,7 @@ In a rush to solve the problem? The top reasons for failures are listed [**here*
  * But good news! The general troubleshooting help applies to any Galaxy server/tool.
  * [Job details: bug and info dataset icons](/src/support/dataset-icons/index.md)
 
-## Job failure types
+## Determining the job failure type
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
 
@@ -41,7 +41,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**. 
 * Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/src/support/troubleshoot-an-error/index.md). Sharing details about what you checked is always helpful.
 
-### Job failure reason: input problems
+### Type: input problems
 
 This is the top reason for tool failures.
 
@@ -79,7 +79,7 @@ This is the top reason for tool failures.
 
 Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
 
-### Job failure reason: cancelled by admin or a cluster failure
+### Type: cancelled by admin or a cluster failure
 
 The initial error message will be reported as below, and is found in the comments of a failed dataset (red dataset):
 
@@ -96,7 +96,7 @@ If after reviewing inputs (see section for that job falure reason below) and re-
 *   Submit a novel question at [Galaxy Biostar](https://biostar.usegalaxy.org)
 *   Report the novel issue in a bug report if working at [Galaxy Main](/src/main/index.md) (http://usegalaxy.org) or you can reproduce the error there.
 
-### Job failure reason: exceeds memory allocation
+### Type: exceeds memory allocation
 
 The full error message will be reported as below, and can be found by clicking on the bug icon for a failed job run (red dataset):
 
@@ -124,7 +124,7 @@ Often memory errors can be avoided by the user executing the job:
 * Review the parameters for the tool and determine if any changes made away from the default setting (or possibly the detail settings) are compute-intensive. Make changes if they suit your research goals. See the underlying tool's documentation to better understand specific parameters. This is often linked in the Help section on a tool's execution form.
 * If the tool used was one that compares two dataset, change the order of the inputs, and test with a re-run. Some tools consume less memory when the larger dataset is entered as the first input on the tool form.
 
-### Job failure reason: execution exceeds maximum allowed job run time (walltime)
+### Type: execution exceeds maximum allowed job run time (walltime)
 
 The full error message will be reported as below, and can be found by clicking on the bug icon for a failed job run (red dataset):
 
@@ -162,7 +162,7 @@ Sometimes the execution time of a job can be shorted by adjusting the inputs, pa
  
 Moving to a local or cloud Galaxy will often not help for these cases due to how the 3rd party wrapped tool is written. The tool would fail outside of Galaxy, too. Finding or creating a better quality (less fragmented) target genome/transcriptome is the solution.
 
-### Failure reason: ValueError: invalid literal for int() with base 10
+### Type: ValueError: invalid literal for int() with base 10
 
 Full error is usually a longer message seen only after clicking on the bug icon ![](/src/images/icons/bug.png):
 
@@ -191,7 +191,7 @@ MACS/2 is not capable of interpretting sequence read names with spaces included.
  * Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
  * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
 
-### Failure reason: Tool and software problems
+### Type: Tool and software problems
 
 Software or Tool Bug? Or a usage error? Sometimes it is hard to tell. 
 
