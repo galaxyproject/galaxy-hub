@@ -65,7 +65,7 @@ title: Galaxy Support
 * [Troubleshoot an error](/src/support/troublshoot-an-error/index.md)
 * [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
 * [Known Data Issues](/src/support/data-issues/index.md)
-* [Galaxy Github issue board](/src/issues/index.md)
+* [Reporting Usage Issues or Software bugs](/src/issues/index.md)
 
 ### Getting inputs *right*
 
