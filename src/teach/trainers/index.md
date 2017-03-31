@@ -567,6 +567,27 @@ The [Ruđer Bošković Institute](http://www.irb.hr/eng) is Croatia’s leading 
   * [South Green Platform](http://www.southgreen.fr/)
   * [Contact](http://www.southgreen.fr/contact)
 
+### Tanta University Faculty Of Medicine, Abdelazeem Abdelhameed Elhabyan
+
+<div class='right'><img src="/src/images/logos/tanta-faculty-of-medicine.png" alt="Tanta University Faculty Of Medicine" width="125" /></a></div>
+
+(As of 2017) Abdelazeem Abdelhameed Elhabyan is a 5th year medical student in Tanta University with interest in genetics and genomics.
+
+**Domains:**  
+
+  * Introduction to Galaxy project
+  * Main Features of Galaxy
+  * NGS and manipulation
+  * RNA-seq
+  * ChIP -seq
+
+**Reach:** Arabic-speaking region and Africa
+
+**Links & Contact:**
+
+  * [Email](mailto:Abdelazeem_Abdelhameed2015505@yahoo.com)
+
+
 ## Local
 
 These trainers don't travel, but their workshops are open to researchers outside their institution.
