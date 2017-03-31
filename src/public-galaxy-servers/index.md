@@ -155,6 +155,27 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), [Université Strasbourg](http://www.unistra.fr/)
 
+## Galaxy@GenOuest
+
+<div class='right solid'><a href='https://galaxy.genouest.org'><img src="/src/public-galaxy-servers/GalaxyGenOuest.png" alt="Galaxy@GenOuest" /></a></div>
+
+* *Links:*
+  * [Galaxy@GenOuest](https://galaxy.genouest.org)
+  * [Request a GenOuest account](https://my.genouest.org)
+* *Domain/Purpose:*
+  * A general purpose Galaxy server
+  * Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France.
+* *Comments:*
+* *User Support:*
+  * [Email](mailto:support AT genouest DOT org)
+* *Quotas:*
+  * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
+  * The default quota for new users is 50GB.
+* *Sponsor(s):*
+  * [GenOuest](http://www.genouest.org/)
+  * [IRISA](https://www.irisa.fr/)
+  * [Inria](https://www.inria.fr/centre/rennes)
+
 ## Galaxy@PRABI
 
 <div class='right solid'><a href='http://galaxy.prabi.fr/'><img src="/src/images/logos/PRABILogo.png" alt="Galaxy@PRABI" width="300" /></a></div>
@@ -388,6 +409,30 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*
 * *Sponsor(s):*
   * The groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany).
+
+## BIPAA (BioInformatics Platform for Agroecosystem Arthropods)
+
+<div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/src/public-galaxy-servers/BIPAALogo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" /></a></div>
+
+* *Links:*
+  * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
+  * [BIPAA home page](https://bipaa.genouest.org/)
+* *Domain/Purpose:*
+  * Insect genomics (aphids, parasitoïd wasps, lepidopterans)
+* *Comments:*
+  * Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...).
+  * Linked to genome databases hosted by BIPAA: [AphidBase](http://bipaa.genouest.org/is/aphidbase/), [LepidoDB](http://bipaa.genouest.org/is/lepidodb/) and [ParWaspDB](http://bipaa.genouest.org/is/parwaspdb/)
+  * Hosted on the GenOuest architecture (same computing resources).
+* *User Support:*
+  * [Account creation](http://bipaa.genouest.org/account/)
+  * [Contact BIPAA](mailto:bipaa@inra.fr)
+* *Quotas:*
+  * Default quota is low (<10Go), but can be increased on request.
+* *Sponsor(s):*
+  * [INRA](http://www.inra.fr)
+  * [GenOuest](http://www.genouest.org/)
+  * [IRISA](https://www.irisa.fr/)
+  * [Inria](https://www.inria.fr/centre/rennes)
 
 ## CAPER
 
@@ -1822,7 +1867,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Links:*
   * [USMI Galaxy Demonstrator](http://bioinformatics.hsanmartino.it:8080/)
 * *Domain/Purpose:*
-  * This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment. 
+  * This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment.
 * *Comments:*
   * The project is still in a development phase.
   * Colobraro DP, Romano P. (2017) [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1). *PeerJ Preprints*  5:e2766v1 DOI: 10.7287/peerj.preprints.2766v1
@@ -1830,7 +1875,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * Report issuses, request information, and send any suggestions, comments or criticisms to:
   * [Daniele Pierpaolo Colobraro](mailto:danielepierpaolo.colobraro@hsanmartino.it) or [Paolo Romano](mailto:paolo.romano@hsanmartino.it)
 * *Quotas:*
-  * Supports anonymous access and account creation. 
+  * Supports anonymous access and account creation.
 * *Sponsor(s):*
   * [IRCCS AOU San Martino IST](http://www.hsanmartino.it/), Genoa, Italy
 
@@ -1844,7 +1889,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Domain/Purpose:*
   * Reliable prediction of different types of variants even at low frequencies.
 * *Comments:*
-  * Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2017) [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997). *PeerJ* 5:e2997 
+  * Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2017) [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997). *PeerJ* 5:e2997
 * *User Support:*
   * [Tutorial](http://galaxy.csb.univie.ac.at:8080/static/welcome.html)
 * *Quotas:*
