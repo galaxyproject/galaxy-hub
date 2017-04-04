@@ -7,7 +7,7 @@ continent: NA
 location: ABRF 2017, San Diego, California, United States
 image: abrf2017.png
 location_url: http://conf.abrf.org/home
-external_url: http://conf.abrf.org/the-galaxy-platform
+external_url: https://galaxyproteomics.github.io/abrf2017/
 contact: Tim Griffin, Pratik Jagtap, James Johnson
 ---
 
