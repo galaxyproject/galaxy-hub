@@ -94,9 +94,9 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 # Galaxy Servers
 
-## Main Usage
+## Usegalaxy.org Usage
 
-[Main](/src/main/index.md) is the Galaxy project's publicly available Galaxy server.
+[Usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)) is the Galaxy project's publicly available Galaxy server.
 
 [![](/src/galaxy-project/statistics/MainUserJobPerMonth.png)](https://docs.google.com/spreadsheets/d/199EduADjqo5F-MS9eGUW1pPmzskuYyPv5PJAwEDAVcs/pubchart?oid=2&format=interactive)
 
