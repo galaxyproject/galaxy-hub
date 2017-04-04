@@ -261,7 +261,13 @@ No new resources were added to community directories in January or February.
 
 # Releases
 
+## The all-new CloudLaunch ##
 
+Technically, the [all-new Galaxy CloudLaunch service](https://beta.launch.usegalaxy.org/) has been in public beta since February but keep in mind that it will replace the [current CloudLaunch service](https://launch.usegalaxy.org/launch) eventually so give it a try and let us know how it performs for you.
+
+## Galaxy 17.01 available on the Jetstream cloud ##
+
+A new image of Galaxy with Galaxy release 17.01 is available on the NSF-sponsored academic cloud [Jetstream](http://jetstream-cloud.org/). The updated image comes with an [updated list of tools](https://github.com/ARTbio/GalaxyKickStart/blob/master/extra-files/cloud_setup/usegalaxy_main_tool_list.yml) and all the reference genomes available on Galaxy Main. **Remember that the Jetstream cloud is free to use.** Instructions on how to get started are available [here](https://galaxyproject.org/cloud/jetstream/).
 
 ## CloudBridge 0.2.0
 
