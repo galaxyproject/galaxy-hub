@@ -10,7 +10,7 @@ Welcome to the April 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 # Usegalaxy.org Passes 100,000 Registered Users
 
-<div class='right'><a href='/src/galaxy-project/statistics/index.md#galaxy-servers'><img src="/src/galaxy-updates/2017-04/100-k-users.jpg" alt="Usegalaxy.org hits 100,000 users" height="40" /></a></div>
+<div class='right'><a href='/src/galaxy-project/statistics/index.md#galaxy-servers'><img src="/src/galaxy-updates/2017-04/100-k-users.jpg" alt="Usegalaxy.org hits 100,000 users" height="60" /></a></div>
 
 [Usegalaxy.org](https://usegalaxy.org), the Galaxy Project's free public server, has surpassed 100,000 registered users. We started with 7 registered users in June 2006, and [have been climbing ever since](/src/galaxy-project/statistics/index.md#galaxy-servers).
 
@@ -84,6 +84,95 @@ A collaboration between the [Genomics Education Partnership (GEP)](http://gep.wu
 # All upcoming events
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+
+<table class="table table-striped"><thead>
+<tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th>
+</tr></thead><tbody>
+<tr>
+  <td><span class="text-nowrap">April 7th 2017</span></td>
+  <td><a href="https://www.biogenouest.org/RNA-seq%2526microarray#Traitement%20de%20données%20de%20séquences%20par%20Galaxy%20-%201%20jour">Traitement de données de séquences par Galaxy</a></td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/>Rennes, France</td>
+  <td></td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 19th 2017</span></td>
+  <td><a href="http://www.canceropole-idf.fr/formation-ngs-dnaseq/">NGS &amp; Cancer : Analyses DNA-Seq</a> [<a href="/src/events/2017-04-cancerpole">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.canceropole-idf.fr/">Cancerpole, Paris, Fance</a></td>
+  <td>formateurs</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 15th 2017</span></td>
+  <td><a href="https://biotexcel.com/event/ngs-2017-glasgow/#workshop">Data Analysis Workshop</a> [<a href="/src/events/2017-05-glasgow-ngs">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow, Glasgow, United Kingdom</a></td>
+  <td>Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 16th 2017</span></td>
+  <td><a href="http://www.france-bioinformatique.fr/en/evenements/G4I">Formation Galaxy4Imaging</a></td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/>Nantes, France</td>
+  <td>Comité d'organisation</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 22nd 2017</span></td>
+  <td><a href="https://docs.google.com/document/d/1dLCL5-2pkWTvmGTz7GyQkb5LEIZ3FBkPvCBoqUPGUOg/edit">ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use</a></td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.cam.ac.uk/">University of Cambridge, United Kingdom</a></td>
+  <td>Frederik Coppens</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2017</span></td>
+  <td><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a> [<a href="/src/events/2017-05-w4e">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.france-bioinformatique.fr/fr">Pasteur Institute, Paris, France</a></td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christophe Caron</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2017</span></td>
+  <td><a href="https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017">Bioinformatics for Cancer Genomics</a> [<a href="/src/events/2017-05-cancer-genomics">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/NA.png"/>Toronto, Ontario, Canada</td>
+  <td>organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 4th 2017</span></td>
+  <td><a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">Metaproteomics For The Future: Democratizing functional analysis of microbiomes via community-based informatics development and dissemination</a></td>
+  <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017, Indianapolis, Indiana, United States</a></td>
+  <td>Pratik Jagtap</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 6th 2017</span></td>
+  <td><a href="http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Formation-detection-et-annotation-des-elements-transposables-dans-les-genoe-td220.html">Formation détection et annotation des éléments transposables dans les génomes eucaryote</a></td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="https://urgi.versailles.inra.fr/">INRA, Versailles, France</a></td>
+  <td>Nathalie Choisne, Olivier Inizan</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 20th 2017</span></td>
+  <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
+  <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 26th 2017</span></td>
+  <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/src/events/2017-gcc">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/>Montpellier, Fance</td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 2nd 2017</span></td>
+  <td><a href="http://www.smbe2017.org/symposia/">Computation and reproducibility in molecular evolution</a></td>
+  <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="http://www.smbe2017.org/">SMBE 2017, Austin, Texas, United States</a></td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 25th 2017</span></td>
+  <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
+  <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 1st 2017</span></td>
+  <td><a href="http://www.smbe2017.org/symposia/">Introduction to Galaxy</a> [<a href="/src/events/2017-genome-10k">hub page</a>]</td>
+  <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
+  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+</tr></tbody></table>
+
 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
