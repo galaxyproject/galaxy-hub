@@ -123,34 +123,35 @@ Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private
 | 2016/01 | 84 |
 | 2016/08 | 85 |
 | 2017/01 | 90 |
+| 2017/04 | 95 |
 
 
 # Publications / Citations
 
 A Galaxy [CiteULike](/src/cite-u-like/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
 
-As of January 2017 these are the tags on papers in the Galaxy CiteULike Group:
+As of Arpil 4, 2017 these are the tags on papers in the Galaxy CiteULike Group:
 
-| Tag                    | This year | Since 2011       |
+| Tag                    | This year | Since 2005       |
 |------------------------|----------:|-----------------:|
-| Methods                |        25 |            1,974 |
-| Workbench              |        10 |            1,068 |
-| UseMain                |        10 |              421 |
-| UsePublic              |         8 |              415 |
-| Tools                  |         3 |              268 |
-| IsGalaxy               |         1 |              199 |
-| UseLocal               |         2 |              193 |
-| RefPublic              |         3 |              186 |
-| Cloud                  |         4 |              150 |
-| Other                  |         2 |              129 |
-| Shared                 |         3 |              109 |
-| Reproducibility        |         1 |              106 |
-| Unknown                |         1 |               75 |
-| HowTo                  |         - |               67 |
-| Project                |         - |               56 |
-| Visualization          |         - |               28 |
+| Methods                |       161 |            2,163 |
+| Workbench              |        45 |            1,161 |
+| UsePublic              |        65 |              484 |
+| UseMain                |        31 |              452 |
+| Tools                  |        15 |              297 |
+| UseLocal               |        23 |              225 |
+| RefPublic              |        20 |              217 |
+| IsGalaxy               |         11 |              217 |
+| Cloud                  |         3 |              166 |
+| Other                  |         9 |              152 |
+| Reproducibility        |        14 |              125 |
+| Shared                 |         5 |              115 |
+| Unknown                |         4 |               80 |
+| HowTo                  |         1 |               68 |
+| Project                |         - |               57 |
+| Visualization          |         2 |               32 |
 | UseCloud               |         - |                8 |
-| **Total**              |    **48** |        **3,924** |
+| **Total**              |    **268** |        **4,320** |
 
 
 
@@ -158,9 +159,7 @@ As of January 2017 these are the tags on papers in the Galaxy CiteULike Group:
 
 [![](/src/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1984173771&format=interactive)
 
-[![](/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1132187329&format=interactive)
-
-[![](/src/galaxy-project/statistics/PublicationTagsPerYearSansMethodsWorkbench.png)](https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1734775598&format=interactive)
+[![](/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1403468135&format=interactive)
 
 
 # Code
