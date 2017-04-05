@@ -19,30 +19,7 @@ There are also a number of [Galaxy services](/src/galaxy-services/index.md) that
 
 These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
-<!-- these two seem dead
-
-## Andromeda
-
-<div class='right solid'><a href='http://galaxy.nbic.nl/'><img src="/src/public-galaxy-servers/Andromeda.png" alt="Andromeda"  /></a></div>
-
-* *Links:*
-  * **[Andromeda server](http://galaxy.nbic.nl/)**
-  * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md).  Includes [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
-  * [GCC2013](/src/events/gcc2013/index.md) [Poster](/src/events/gcc2013/abstracts/posters/index.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/events/gcc2013/lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud*
-
-* *Domain/Purpose:*
-  * This is a fully populated Galaxy instance.
-* *Comments:*
-  * As of 2014/01/01:
-    * "Due to funding issue, the NBIC Galaxy server is running now with very limited support and maintenance as of January 1st, 2014. We hope this is temporary but please be aware that your analysis will be not performed at an optimal speed and most questions will not be answered."
-  * [Andromeda](http://galaxy.nbic.nl/) is hosted at the [SURFsara](https://www.cloud.sara.nl/) [High Performance Computing (HPC) cloud](https://www.cloud.sara.nl/).<br />
-
-* *User Support:*
-  * [Email](mailto:nbicgalaxy DASH admin AT trac DOT nbic DOT nl)
-* *Quotas:*
-  * Registered users: 10GB; Anonymous users: 10MB
-* *Sponsor(s):*
-  * [Netherlands Bioinformatics Centre (NBIC)](http://nbic.nl) and [BiG Grid](http://www.biggrid.nl/) [SURFsara](http://surfsara.nl)
+<!-- Biomina offline since 2017/02
 
 ## Biomina
 
@@ -325,7 +302,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Link:*
   * [Institut Curie Galaxy](https://galaxy-public.curie.fr/)
 * *Domain/Purpose:*
-    General purpose genomic Galaxy server.  Contains tools for Ion Torrent data, many RNA-Seq tools, [ncPRO-seq](https://www.ncbi.nlm.nih.gov/pubmed/23044543), [RSAT](https://www.ncbi.nlm.nih.gov/pubmed/22156162), Nebula tools, copy number and LOH tools, and NGS diagnostic tools.
+  * General purpose genomic Galaxy server.  Contains tools for Ion Torrent data, many RNA-Seq tools, [ncPRO-seq](https://www.ncbi.nlm.nih.gov/pubmed/23044543), [RSAT](https://www.ncbi.nlm.nih.gov/pubmed/22156162), Nebula tools, copy number and LOH tools, and NGS diagnostic tools.
 * *Comments:*
   * Includes a [wealth of published histories](https://galaxy-public.curie.fr/history/list_published).
 * *User Support:*
@@ -459,7 +436,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-pub/)
-  * [Center for Phage Technology (CPT) home page](https://cpt.tamu.edu/)
+  * [CPT home page](https://cpt.tamu.edu/)
 * *Domain/Purpose:*
   * Phage biology and automated annotation.
 * *Comments:*
@@ -625,6 +602,8 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * [Norwegian Functional Genomics Program](http://www.bioinfo.no/)
 
+<!-- Offline 2017/04
+
 ## Gene Ontololgy (GO)
 
 <div class='right solid'><a href='http://galaxy.berkeleybop.org/'><img src="/src/public-galaxy-servers/GOGalaxy.png" alt="GO Galaxy"  /></a></div>
@@ -640,7 +619,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Quotas:*
 * *Sponsor(s):*
   * [Gene Ontology Project](http://geneontology.org/)
-
+-->
 
 ## GrAPPA
 
@@ -1548,7 +1527,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)
 * *Domain/Purpose:*
-* Provides implementations of these tools:
+  * Provides implementations of these tools:
     * InMoDe  is a collection of Tools for learning and visualizing inhomogeneous parsimonious Markov models (iPMMs).
     * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
     * TALgetter allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria.
@@ -1840,6 +1819,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Sponsor(s):*
   * [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
 
+
+<!-- SymD down for maintenance in 2017/04
+
 ## SymD
 
 <div class='right solid'><a href='http://symd.nci.nih.gov/'><img src="/src/public-galaxy-servers/SymD.png" alt="SymD"  /></a></div>
@@ -1859,6 +1841,8 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Quotas:*
 * *Sponsor(s):*
   * [US National Cancer Institute (NCI)](http://nci.nih.gov/)
+
+-->
 
 ## USMI Galaxy Demonstrator
 
