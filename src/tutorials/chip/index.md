@@ -170,7 +170,7 @@ In the matrix above a large portion of ChIP reads (column 4) is concentrated in 
 |![](/src/tutorials/chip/fingerprint_dt.png)|
 |<small>**DeepTools** explanation of SES plots.</small>|
 
-So let's apply this to out own data:
+So let's apply this to our own data using **NGS: DeepTools -> plotFingerprint**:
 
 |      |
 |------|
@@ -178,3 +178,20 @@ So let's apply this to out own data:
 |<small>**A.** Running `plotFingerprint` on output of `multiBamSummary`.</small>|
 |![](/src/tutorials/chip/plotfingerprint_out.png)|
 |<small>**B.** SES fingerprint of four samples: Treatments (Rab1) show characteristic shape indicating of ChIP-signal. Approximately 30% of reads are contained in several % of genome.</small>|
+
+# Generating bigWig datasets for display
+
+In this section we will convert BAM files generated with `bwa` into [bigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html) format that will allow us to view read coverage distribution across the genome. We will also "pre-warm" a genome browser for displaying peaks we will be calling in the next section.
+
+## Generating bigWig datasets
+
+We will use **NGS: DeepTools -> bamCoverage**:
+
+|      |
+|------|
+|![](/src/tutorials/chip/bam_cov_1.png)|
+|<small>**Running bamCoverage** on a collection of filtered BAM datasets (as before you can select collection by pressing folder (<i class="fa fa-folder-o" aria-hidden="true"></i>) button). Here we set **Bin size** to `25`.  Next we set **Effective genome size** to `user specified` and enter `12000000` (approximate size of *Saccharomyces cerevisiae* genome). Because this tool has a particularly long interface we cut out importnat sections to make this image (see next two panes below). </small>|
+|![](/src/tutorials/chip/bam_cov_2.png)|
+|<small>Here we set **Smooth values using the following length (in bases)** to `20` to generate smooth peak representations (see next pane).</small>|
+|![](/src/tutorials/chip/bam_cov_3.png)|
+|<small>Finally we set **Extend reads to the given average fragment size** to `150`. This is because in this particular experiment DNA was size selected to be between 120 and 170 bp for library preparation.</small>|
