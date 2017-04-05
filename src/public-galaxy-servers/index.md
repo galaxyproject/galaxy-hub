@@ -1293,26 +1293,6 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Sponsor(s):*
   * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
 
-## CTMM-TraIT Demo Galaxy
-
-<div class='right solid'><a href='/src/CTMM-TraIT Demo Galaxy/index.md'><img src="/src/public-galaxy-servers/CTMM-TraIT.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
-
-* *Links:*
-  * [CTMM-TraIT Demo Galaxy](http://galaxy-demo.ctmm-trait.nl/)
-  * "[CGtag: complete genomics toolkit and annotation in a cloud-based Galaxy](http://www.gigasciencejournal.com/content/3/1/1/abstract)" by Hiltemann, *et al.,* *[GigaScience](http://www.gigasciencejournal.com/)* 2014, 3:1  doi:10.1186/2047-217X-3-1
-* *Domain/Purpose:*
-  * Implements CGATools, the Complete Genomics open-source suite of command-line tools for the analysis of their CG-formatted mapped sequencing files in a Galaxy instance called CGtag (Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy).
-* *Comments:*
-  * Includes two Galaxy Pages, and example data and public workflows to support themL
-    * [CGtag: Complete Genomics Analysis Toolkit and Annotation in Galaxy](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/cgtag)
-    * [Virtual Normal Analysis](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/virtual-normal-analysis)
-* *User Support:*
-  * Please email questions to [Saskia Hiltemann](mailto:s DOT hiltemann AT erasmusmc DOT nl)
-* *Quotas:*
-* *Sponsor(s):*
-  * This Galaxy Server was set up by the [Netherlands Bioinformatics Center (NBIC)](http://www.nbic.nl/) and is maintained by [CTMM-TraIT](http://ctmm-trait.nl/), running at [SurfSARA](http://www.surfsara.nl/) high-performance cloud.
-
-<br />
 
 ## deepTools2
 
