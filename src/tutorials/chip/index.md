@@ -281,5 +281,49 @@ Next, we will use **NGS: SAMtools -> Split** to separate merged file into indivi
 
 Now it is time to run MACS2. First we will run it on combined data:
 
+|                |
+|----------------|
+|![](/src/tutorials/chip/macs1.png)|
+|<small>**Calling peaks with `MACS2` on pulled data**. Here we choose multiple inputs by pressing <i class="fa fa-files-o" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then provide `12000000` (approximate size of *Saccharomyces cerevisiae* genome) as `Effective genome size` and set **Band width for picking regions to compute fragment size** TO `150`.</small>|
+
+`MACS2` will produce a number of outputs:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/macs_out.png)|
+|<small>**`MACS2` output**.</small>|
+
+Let's click on the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) adjacent to `summits` and `narrow peak` datasets and rename then as shown below:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/macs_out_renamed.png)|
+|<small>**`MACS2` output** with `summits` and `narrow peak` datasets renamed.</small>|.
+
+Now, let's rerun `MACS2` on replicate 1 only:
+
+|                |
+|----------------|
+|![](/src/tutorials/chip/macs2.png)|
+|<small>**Calling peaks with `MACS2` on Replicate 1**. All parameters as above with only exception of selecting single datasets for ChIP and control.</small>|
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
+<hr>
+	<ul>
+		<li>just like we did above, rename `summits` and `narrow peak` datasets generated with this run as `R1 summits` and `R1 narrow peaks`</li>
+		<li>run `MACS2` run on replicate 2</li>
+		<li>rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 narrow peaks`.</li>
+	</ul>
+</div>
+
+# Inspecting peaks
+
+Looking at MACS2 data we have gotten the following numers of peaks:
+
+| Pooled | Replicate 1 | Replicate 2 |
+|-------:|------------:|------------:|
+| 1,905  |  791        |  820        |
+
+
 
 
