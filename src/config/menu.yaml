@@ -12,8 +12,8 @@
       - Cloud:
         title: On cloud
         link: cloud
-- Learn:
-  title: Learn
+- Education:
+  title: Education
   links:
       - Learn:
         title: Learn Galaxy
@@ -21,18 +21,18 @@
       - Support:
         title: Get support
         link: support
-- Community:
-  title: Community
-  links:
-      - Community:
-        title: About
-        link: community
       - Teach:
         title: Teach
         link: teach
       - GTN:
         title: Training Network
         link: teach/gtn
+- Community:
+  title: Community
+  links:
+      - Community:
+        title: About
+        link: community
       - News:
         title: News
         link: news
