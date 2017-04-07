@@ -107,18 +107,18 @@ body
                             li: a( href="#") #{entry.title}
 
 
-                ul.nav.navbar-nav.navbar-right
-                    li
-                        form(class='navbar-form' method='get' action='/search/')
-                            div.input-group
-                                input(class='form-control' name='q' placeholder='Search Galaxy')
-                                span.input-group-btn
-                                    button(class="btn btn-secondary" type="submit")
-                                        span.fa.fa-search
-                    li
-                        a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
-                            span.fa.fa-lg.fa-github
-                            span(title="Edit this page") &nbsp; Edit
+            ul.nav.navbar-nav.navbar-right
+                li
+                    form(class='navbar-form' method='get' action='/search/')
+                        div.input-group
+                            input(class='form-control' name='q' placeholder='Search Galaxy')
+                            span.input-group-btn
+                                button(class="btn btn-secondary" type="submit")
+                                    span.fa.fa-search
+                li
+                    a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
+                        span.fa.fa-lg.fa-github
+                        span(title="Edit this page") &nbsp; Edit
     div.container#maincontainer: div.row
         block content
             div !{ contents }
