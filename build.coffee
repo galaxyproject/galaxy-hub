@@ -17,7 +17,7 @@ bower = (files, metalsmith, done) ->
     include('fonts', bower_files.self().ext(['eot','otf','ttf','woff','woff2']).files)
     done()
 
-apply_collection_defaults = (files, metalsmith, done) ->
+set_metadata_defaults = (files, metalsmith, done) ->
     # Simple way to apply domain templates en masse
     for k, v of files
         files[k].orig_path = k
