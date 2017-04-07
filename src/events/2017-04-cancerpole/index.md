@@ -10,5 +10,4 @@ location_url: http://www.canceropole-idf.fr/
 external_url: http://www.canceropole-idf.fr/formation-ngs-dnaseq/
 contact: formateurs
 ---
-
 Apprendre de manière pratique à réaliser un traitement complet de données NGS (Next Generation Sequencing) sur des données ADN au moyen de l’outil Galaxy

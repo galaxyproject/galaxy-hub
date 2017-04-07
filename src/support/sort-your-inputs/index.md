@@ -1,7 +1,6 @@
 ---
 title: Sorting your inputs
 ---
-
 [Back to Support Hub](/src/support/index.md)
 
 Many tools require inputs to be sorted in a specific way prior to use. The tool form help will often declare if sorting is required *and* the expected ordering. 

@@ -2,7 +2,6 @@
 title: "Galaxy Days: 2-3 December, Paris"
 date: "2014-10-15"
 ---
-
 The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](http://www.ifb-galaxy.org/index.html) is organizing a second session around the Galaxy portal.
 
 The event will be at Institut Curie in Paris over two days.  This year, we want to involve two communities: *biologists* (also known as Galaxy 'users') and *bioinformaticians* (Galaxy 'developers').

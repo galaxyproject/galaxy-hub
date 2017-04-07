@@ -1,10 +1,6 @@
 ---
 title: deepTools
 ---
-
-
-
-
 <div class='deploymentbox'>
  Resource:: **[DeepTools](/src/learn/visualization/custom/deep-tools/index.md)**
  Type:: Public

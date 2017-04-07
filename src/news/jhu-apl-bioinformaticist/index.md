@@ -2,7 +2,6 @@
 title: "Bioinformaticist @ Johns Hopkins APL"
 date: "2016-02-05"
 ---
-
 <div class='right'><a href='https://jhuapl.taleo.net/careersection/2/jobdetail.ftl?job=11077'><img src="/src/images/logos/JHU_APL.png" alt="Bioinformaticist @ Johns Hopkins APL" /></a>
 </div>
 

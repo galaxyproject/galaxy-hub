@@ -1,10 +1,6 @@
 ---
 title: 2013/10: Sharing workflows between servers: Practices
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Sharing workflows between servers](/src/community/log/2013/sharing-workflows-between-labs-practices/index.md)**
  Date:: 2013/10/23

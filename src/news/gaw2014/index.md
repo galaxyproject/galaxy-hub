@@ -2,7 +2,6 @@
 title: "Galaxy Australasia Workshop 2014"
 date: "2014-01-17"
 ---
-
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/src/events/gaw2014/index.md) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
 
 <div class='right'><a href='/src/events/gaw2014/index.md'><img src="/src/events/gaw2014/MCC.png" alt="Galaxy Australasia Workshop 2014" /></a></div>

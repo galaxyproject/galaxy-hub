@@ -2,7 +2,6 @@
 autotoc: true
 title: Customizing Galaxy CloudMan
 ---
-
 {{> CloudMan/LinkBoxHorizontal }}
 
 ## Adding system users to the cluster

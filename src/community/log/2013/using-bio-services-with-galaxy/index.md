@@ -1,8 +1,6 @@
 ---
 title: 2013/10: Using [BioServices](http://pythonhosted.org/bioservices/index.html) Python Library [with Galaxy](http://pythonhosted.org/bioservices/applications.html#galaxy)
 ---
-
-
 <div class='logbox'>
  Topic:: **[Using BioServices Python Library with Galaxy](/src/community/log/2013/using-bio-services-with-galaxy/index.md)**
  Date:: 2013/10/12

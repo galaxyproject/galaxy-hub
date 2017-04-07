@@ -2,7 +2,6 @@
 title: "Galaxy Workshops @ USC June 23-24"
 date: "2011-06-17"
 ---
-
 <div class='right'>
 <img src="/src/images/logos/USC_logo.png" alt="Galaxy Workshops at USC June 23-24" width="100" />
 </div>

@@ -2,7 +2,6 @@
 title: Galaxy News
 layout: news_index.pug
 ---
-
 This page contains announcements of interest to the Galaxy Community. These can
 include items from the Galaxy Team or the Galaxy community and can address
 anything that is of wide interest to the community.

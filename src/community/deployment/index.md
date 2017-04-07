@@ -2,8 +2,6 @@
 autotoc: true
 title: Galaxy Deployment Catalog
 ---
-
-
 <div class='right'></div>
 
 <div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></div> 

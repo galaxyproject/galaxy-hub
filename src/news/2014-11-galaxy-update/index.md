@@ -2,7 +2,6 @@
 title: "November 2014 Galaxy Newsletter"
 date: "2014-11-03"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2014-11/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>

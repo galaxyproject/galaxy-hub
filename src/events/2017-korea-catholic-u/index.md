@@ -10,5 +10,4 @@ image: cukr.jpg
 gtn: y
 contact: Mallory Freeberg, Mo Heydarian
 ---
-
 Introduction to Galaxy at the Catholic University of Korea.

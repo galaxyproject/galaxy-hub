@@ -2,7 +2,6 @@
 title: "March 2016 Galactic News"
 date: "2016-03-01"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2016-03/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="March News" width=150 /></a><br />
 </div>

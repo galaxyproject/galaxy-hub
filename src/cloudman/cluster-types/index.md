@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 {{> CloudMan/Header }}
 
 {{> CloudMan/LinkBoxHorizontal }}

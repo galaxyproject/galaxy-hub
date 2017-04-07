@@ -2,7 +2,6 @@
 title: "GCC2016 Training Topic Vote!"
 date: "2015-10-26"
 ---
-
 <div class='right'>
 <a href='/src/events/gcc2016/training/index.md'><img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /></a><br />
 <table>

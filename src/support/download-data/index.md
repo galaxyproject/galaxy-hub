@@ -2,7 +2,6 @@
  autotoc: true
  title: Downloading Data
 ---
- 
 [Back to Support Hub](/src/support/index.md)
 
 Related topics

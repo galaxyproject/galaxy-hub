@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 ![citeulike](/src/images/logos/CiteULikeLogo.png)
 
 ## Galaxy and CiteULike

@@ -10,7 +10,6 @@ image: /images/logos/GlasgowPolyomics.jpg
 external_url: http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html
 contact: David Meltzer
 ---
-
 Galaxy is an open, web-based platform for data intensive biological research
 that enables researchers to create, run, tune, and share their own
 bioinformatic analysis. The workshop will teach attendees the basics of Galaxy

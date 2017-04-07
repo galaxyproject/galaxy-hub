@@ -2,7 +2,6 @@
 title: "Custom Galaxy Search"
 date: "2011-12-20"
 ---
-
 **Note: All of these searches were consolidated [into a single search](/src/search/index.md) in March 2017.**
 
 <div class='center'>

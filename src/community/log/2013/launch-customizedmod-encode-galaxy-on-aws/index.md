@@ -1,8 +1,6 @@
 ---
 title: 2013/01: Launch a customized modENCODE Galaxy on Amazon Web Services
 ---
-
-
 <div class='logbox'>
  Topic:: **[Launch a customized modENCODE Galaxy on Amazon Web Services](/src/community/log/2013/launch-customizedmod-encode-galaxy-on-aws/index.md)**
  Date:: 2013/01/25

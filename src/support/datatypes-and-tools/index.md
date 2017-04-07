@@ -2,7 +2,6 @@
 autotoc: true
 title: Datatypes and Tools
 ---
-
 [Back to Support Hub](/src/support/index.md)
 
 ## Datatypes and Tools

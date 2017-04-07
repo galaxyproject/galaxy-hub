@@ -2,7 +2,6 @@
 title: "May Galactic News!"
 date: "2015-05-01"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2015-05/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galactic News! May 2015 Edition" width=150 /></a><br /><br />
 <a href='/src/galaxy-updates/2015-05/index.md#gcc2015-4-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015" width="150" /></a><br />

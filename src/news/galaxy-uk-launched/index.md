@@ -2,7 +2,6 @@
 title: "Galaxy-UK Community Launched"
 date: "2014-08-14"
 ---
-
 Dear UK Galaxy-devs,
 
 We're delighted to announce the launch of the UK Galaxy Community.

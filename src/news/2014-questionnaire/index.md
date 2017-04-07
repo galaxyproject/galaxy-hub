@@ -2,7 +2,6 @@
 title: "2014 Galaxy Questionnaires"
 date: "2014-09-30"
 ---
-
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  We have created two questionnaires, each focused on how you interact with Galaxy:
 **
 1. [Galaxy User Questionnaire](https://docs.google.com/forms/d/1NT3ma2g7rR-mWA_vgOg2Ia_6VTFiZ86um2JhX2SecCk/formResponse)

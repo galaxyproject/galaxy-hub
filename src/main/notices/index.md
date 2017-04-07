@@ -2,8 +2,6 @@
 autotoc: true
 title: Notices about [Main](/src/main/index.md)
 ---
-
- 
 Dated notices about known usage issues and solutions specifically for Galaxy's [free public server](/src/main/index.md). For the most current status notices as they are initially posted, please follow us at Twitter: [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject) ([Galaxy on Twitter](/src/galaxy-on-twitter/index.md)).
 
 

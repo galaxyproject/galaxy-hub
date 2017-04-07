@@ -2,7 +2,6 @@
 title: "May 2013 GalaxyAdmins Meetup"
 date: "2013-05-08"
 ---
-
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
 <a href='http://rnaseq.pathogenportal.org/'><img src="/src/community/galaxy-admins/meetups/2013-05-15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 

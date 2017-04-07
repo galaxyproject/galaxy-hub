@@ -2,7 +2,6 @@
 autotoc: true
 title: Galaxy Training Network
 ---
-
 <img src="GTNLogo600.png" class="img-responsive" alt="Galaxy Training Network">
 
 

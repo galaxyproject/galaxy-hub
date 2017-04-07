@@ -2,8 +2,6 @@
 title: "July 20, 2012 Distribution & News Brief"
 date: "2012-07-21"
 ---
-
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)**
 <div class='right'><a href='/src/archive/dev-news-briefs/2012-07-20/index.md'><img src="/src/images/news-graphics/2012_07_20_main-page.png" alt="genome-indexing" width="250px" /></a></div>
 **Highlights:**

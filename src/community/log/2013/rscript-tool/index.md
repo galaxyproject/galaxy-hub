@@ -1,10 +1,6 @@
 ---
 title: 2013/05: Creating a Galaxy tool for R scripts that output images and PDFs
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Creating a Galaxy tool for R scripts that output images and PDFs](/src/community/log/2013/rscript-tool/index.md)**
  Date:: 2013/05/06

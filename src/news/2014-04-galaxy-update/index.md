@@ -2,7 +2,6 @@
 title: "April 2014 Galaxy Update"
 date: "2014-03-31"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2014-04/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="April 2014 Galaxy Update" width=150 /></a>
 <br /><br />

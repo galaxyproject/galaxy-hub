@@ -2,9 +2,6 @@
 autotoc: true
 title: Visualization in Galaxy
 ---
-
-
-
 ### Genome Browser (aka Trackster)
 
 <div class='right'><img src="/src/New%20Visualization%20Page/t1.png" alt="Trackster, gene-level view" height=150 /></div>

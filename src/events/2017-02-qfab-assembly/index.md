@@ -11,5 +11,4 @@ external_url: http://www.qfab.org/workshops/genome-assembly-using-galaxy-28-feb-
 gtn: y
 contact: organizers
 ---
-
 This workshop will cover the concepts of de novo assembly and initial annotation of a genome from short-read NGS data. You will be introduced to the widely-used de novo assembly pipeline, including quality checking, trimming, concepts of filtering, concepts of annotation and use a selection of tools to identify genomic features of interest.

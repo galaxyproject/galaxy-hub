@@ -2,7 +2,6 @@
 title: Tools contributed to the Galaxy Project Tool Shed in [January and February 2017](/src/galaxy-updates/2017-03/index.md).
 autotoc: true
 ---
-
 * [Wiki Root](/src/toolshed/index.md)
 * [All monthly summaries](/src/toolshed/contributions/index.md)
 

@@ -2,8 +2,6 @@
 autotoc: true
 title: The March 2015 Galaxy News
 ---
-
-
 <div class='right'>
 <table>
   <tr>

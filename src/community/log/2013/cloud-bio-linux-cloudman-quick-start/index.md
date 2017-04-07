@@ -1,8 +1,6 @@
 ---
 title: 2013/07: CloudBioLinux Deployer CloudMan QuickStart
 ---
-
-
 <div class='logbox'>
  Topic:: **[CloudBioLinux Deployer CloudMan QuickStart](/src/community/log/2013/cloud-bio-linux-cloudman-quick-start/index.md)**
  Date:: 2013/07/19

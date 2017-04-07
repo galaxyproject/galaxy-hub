@@ -2,7 +2,6 @@
 title: "GalaxyCzars: July Slides & Video"
 date: "2012-07-11"
 ---
-
 <div class='right'><a href='/src/community/GalaxyCzars/Meetups/2012-07-09/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 The [first conference call](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md) of the [GalaxyCzars group](/src/community/GalaxyCzars/index.md) was held on July 9.  The [slides and a screencast](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md#links) of the call are now available. 

@@ -2,8 +2,6 @@
 autotoc: true
 title: April 2016 Galaxy News
 ---
-
-
 <div class='right'>
 <table>
   <tr>

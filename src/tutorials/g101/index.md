@@ -2,7 +2,6 @@
 autotoc: true
 title: Galaxy 101
 ---
-
 [//]: # (Here Hugo shortcodes for vimeo have been replaced to bootsrap-based HTML with the folloing command)
 [//]: # (cat <HUGO MD FILE> | sed s/\{\{\<vimeo\ /\<div\ class=\"embed-responsive\ embed-responsive-16by9\"\>\<iframe\ src=\"https:\\\/\\\/player\.vimeo\.com\\\/video\\\// | sed s/\>\}\}$/?portrait=0\"\ webkitallowfullscreen\ mozallowfullscreen\ allowfullscreen\>\<\\\/iframe\>\<\\\/div\>/ > index.md)
 

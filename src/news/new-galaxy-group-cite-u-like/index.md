@@ -2,7 +2,6 @@
 title: "New Galaxy Group @ CiteULike"
 date: "2011-12-15"
 ---
-
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
 A new [Galaxy Group](http://www.citeulike.org/group/16008/order/group_rating) has been created at the [CiteULike](http://citeulike.org) social bookmarking service to organize papers that are about, use, or reference Galaxy.  The [Galaxy Group](http://www.citeulike.org/group/16008/order/group_rating) is open to any CiteULike user (and anyone can become a CiteULike user).  Group members can add papers to the group, assign tags, and rate papers.

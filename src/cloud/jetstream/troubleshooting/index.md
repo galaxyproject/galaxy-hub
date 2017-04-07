@@ -2,8 +2,6 @@
 autotoc: true
 title: Troubleshooting Galaxy on Jetstream
 ---
-
-
 {{> Cloud/Jetstream/LinkBox }}
 
 <div class='left'></div>

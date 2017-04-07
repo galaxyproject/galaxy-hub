@@ -2,7 +2,6 @@
 title: "January 27, 2012 Distribution & News Brief"
 date: "2012-01-28"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-01-27/index.md)**
 
 **Highlights:**

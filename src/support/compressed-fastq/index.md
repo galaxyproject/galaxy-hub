@@ -2,8 +2,7 @@
  autotoc: true
  title: Datatype Compressed Fastq
 ---
- 
- [Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/src/support/index.md)
 
 Related Topics
  * [Fastq Manipulation and Quality Control](/src/tutorials/ngs/#fastq-manipulation-and-quality-control)

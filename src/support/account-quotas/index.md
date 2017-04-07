@@ -2,7 +2,6 @@
 autotoc: true
 title: Account quotas
 ---
-
 [Back to Support Hub](/src/support/index.md)
 
 # Account quotas

@@ -2,7 +2,6 @@
 title: "GCC2013 Abstract Submission & Registration"
 date: "2013-02-23"
 ---
-
 <div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a></div>
 
 **We are pleased to announce that [early registration](/src/events/gcc2013/register/index.md) and [paper and poster abstract submission](/src/events/gcc2013/abstracts/index.md) are now open for the [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).

@@ -1,8 +1,6 @@
 ---
 title: Video Viz
 ---
-
-
 <div class='center'>
 <img src="/src/learn/visualization/custom/video-viz/VizPluginVideoScreenshot.png" alt="VideoViz Plugin in Galaxy" width=800px />
 </div>

@@ -1,10 +1,6 @@
 ---
 title: LEfSe
 ---
-
-
-
-
 <div class='deploymentbox'>
  Resource:: **[LEfSe](/src/learn/visualization/custom/lefse/index.md)**
  Type:: Public

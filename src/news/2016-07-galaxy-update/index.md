@@ -2,7 +2,6 @@
 title: "July 2016 Galactic News"
 date: "2016-07-06"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2016-07/index.md#gcc2017-26-30-june-2017-montpellier-france'><img src="/src/images/logos/GCC2107.png" alt="GCC2017 Announced" width="200" /></a>
 <a href='/src/galaxy-updates/2016-07/index.md#swiss-german-galaxy-days'><img src="/src/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="200" /></a><br />

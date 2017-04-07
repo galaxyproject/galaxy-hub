@@ -2,7 +2,6 @@
 autotoc: true
 title: Galaxy FTP Upload
 ---
-
 # File Upload via FTP
 
 <div class="alert alert-success" role="alert">

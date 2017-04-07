@@ -2,7 +2,6 @@
  autotoc: true
  title: Metadata
 ---
- 
 [Back to Support Hub](/src/support/index.md)
 
 ## Metadata Explained

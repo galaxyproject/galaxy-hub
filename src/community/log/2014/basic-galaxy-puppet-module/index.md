@@ -1,8 +1,6 @@
 ---
 title: 2014/03: Basic Galaxy Puppet Module
 ---
-
-
 <div class='logbox'>
  Topic:: **[Basic Galaxy Puppet Module](/src/community/log/2014/basic-galaxy-puppet-module/index.md)
  Date:: 2014/03/20

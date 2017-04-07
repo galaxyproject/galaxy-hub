@@ -2,7 +2,6 @@
 title: "Bioinformaticians, Freiburg"
 date: "2014-10-30"
 ---
-
 ----
 
 <div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/src/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>

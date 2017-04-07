@@ -2,7 +2,6 @@
 title: "Nov 14, 2012 Distribution & News Brief"
 date: "2012-11-14"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-11-14/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012-11-14_dist-readthedocs.png" alt="dist-readthedocs" width="350" /></a><br /><a href='http://readthedocs.org'><img src="/src/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/src/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 **Highlights:**

@@ -2,7 +2,6 @@
  autotoc: true
  title: Registering Accounts
 ---
- 
 [Back to Support Hub](/src/support/index.md)
 
 # Registering for a Galaxy account

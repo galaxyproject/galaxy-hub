@@ -2,7 +2,6 @@
 autotoc: true
 title: Customizing Galaxy CloudMan
 ---
-
 ## Adding system users to the cluster
 
 By default, each CloudMan cluster comes with basic system users: *ubuntu*,

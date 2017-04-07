@@ -2,7 +2,6 @@
 autotoc: true
 title: Running Galaxy in a production environment
 ---
-
 The [basic installation instructions](/src/admin/get-galaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
 
 # Why bother?

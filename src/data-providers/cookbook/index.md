@@ -2,7 +2,6 @@
 autotoc: true
 title: [DataProviders](/src/dataProvider/index.md) Cookbook
 ---
-
 <div class='left'></div>
 
 This is a collection of examples outlining both using and creating [DataProviders](/src/data-providers/index.md).

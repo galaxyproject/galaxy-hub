@@ -2,8 +2,6 @@
 autotoc: true
 title: How to Set Up Visualizations in a Galaxy Instance
 ---
-
-
 This page describes the administration steps needed to get Galaxy visualizations working.
 
 

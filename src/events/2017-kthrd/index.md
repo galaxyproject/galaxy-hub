@@ -10,5 +10,4 @@ image: kthrd.png
 gtn: y
 contact: Mallory Freeberg, Mo Heydarian
 ---
-
 A Galaxy workshop at KTHRD in Daejeon, South Korea

@@ -2,7 +2,6 @@
 title: "January 2013 GalaxyAdmins"
 date: "2013-01-07"
 ---
-
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 
 The [next meeting](/src/community/galaxy-admins/meetups/2013-01-16/index.md) of the [GalaxyAdmins Group](/src/community/galaxy-admins/index.md) will be held on [January 16, 2013, at 10 AM Central US time](/src/community/galaxy-admins/meetups/2013-01-16/index.md).  

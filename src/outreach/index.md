@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 ![PoweredByGalaxy](/src/outreach/powered-by-galaxy/PoweredByGalaxy200.png)
 
 A number of resources are available to help connect researchers and developers with Galaxy. Broadening Galaxy's reach serves several interrelated purposes:

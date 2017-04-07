@@ -1,8 +1,6 @@
 ---
 autotoc: true
 ---
-
-
 ## External user authentication
 
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.

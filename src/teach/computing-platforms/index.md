@@ -2,7 +2,6 @@
 autotoc: true
 title: Computing Platforms for Teaching with Galaxy
 ---
-
 There are many [platform choices](/src/choices/index.md) for training with Galaxy. This page discusses the different options including the benefits and drawbacks of each. First, some introductory concepts:
 
 # Teaching 'Using' versus 'Administering' Galaxy

@@ -2,7 +2,6 @@
 title: "Galaxy Community Log Board"
 date: "2013-12-06"
 ---
-
 <div class='left'><a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
 The *[Galaxy Community Log Board](/src/community/logs/index.md)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/community/log/2013/urgi-virtualisation/index.md), or [specific stumbling blocks when configuring Galaxy](/src/community/log/2013/example/index.md).  Solutions can be [described on this wiki](/src/community/log/2013/example/index.md), or just [some metadata and a link to the description elsewhere](http://wiki.galaxyproject.org/Community/Log/2013/UsingBioServicesWithGalaxy).  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.

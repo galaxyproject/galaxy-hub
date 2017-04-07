@@ -2,7 +2,6 @@
 title: "Sept 20, 2012 Distribution & News Brief"
 date: "2012-09-21"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-09-20/index.md)**
 <div class='right'><a href='/src/archive/dev-news-briefs/2012-09-20/index.md'><img src="/src/images/news-graphics/2012_09_20_toolfactory-small.png" alt="toolfactory" /></a></div>
 **Highlights:**

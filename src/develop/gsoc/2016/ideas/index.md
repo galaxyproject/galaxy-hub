@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 Target improvements for 2016 (in part lesson learned from apply and great feedback from Nicole Deflaux and colleagues at Google Genomics.
 
 * Exciting intro at the top of the ideas page.

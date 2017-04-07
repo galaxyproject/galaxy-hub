@@ -2,8 +2,6 @@
 autotoc: true
 title: The April 2015 Galactic News!
 ---
-
-
 <div class='right'>
 <table>
   <tr>

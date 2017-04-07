@@ -2,7 +2,6 @@
 title: "April! Galactic News!"
 date: "2015-04-02"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2015-04/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galactic News! April 2015 Edition" width=150 /></a><br /><br />
 <a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a><br /><br />

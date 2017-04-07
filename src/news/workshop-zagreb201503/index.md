@@ -2,7 +2,6 @@
 title: "Bioinformatics Methods in Genomics, Zagreb"
 date: "2015-02-13"
 ---
-
 <table>
   <tr>
     <td style=" text-align: center; border: none;"> <span style="font-size: larger;"> <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop</a><br /><a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia<br />2-3 March 2015 </span></td>

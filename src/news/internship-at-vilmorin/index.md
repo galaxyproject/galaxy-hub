@@ -2,7 +2,6 @@
 title: "Internship @ Vilmorin & Co"
 date: "2012-02-01"
 ---
-
 <div class='right'><a href='http://www.vilmorin.info/'><img src="/src/images/logos/VilmorinLogo.gif" alt="Vilmorin & Co."  /></a></div>
 
 **Duration: 4-6 months**<br />

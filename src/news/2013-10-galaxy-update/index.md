@@ -2,7 +2,6 @@
 title: "October 2013 Galaxy Update"
 date: "2013-09-30"
 ---
-
 <div class='right'><a href='/src/galaxy-updates/2013-10/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="October 2013 Galaxy Update" width=150 /></a></div>
 
 The [October 2013 Galaxy Update is out](/src/galaxy-updates/2013-10/index.md):

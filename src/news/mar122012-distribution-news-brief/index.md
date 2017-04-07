@@ -2,8 +2,6 @@
 title: "March 12, 2012 Distribution & News Brief"
 date: "2012-03-12"
 ---
-
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-03-12/index.md)**
 
 **Highlights:**

@@ -3,7 +3,6 @@ title: GCC2013
 date: '2013-07-02'
 days: 4
 ---
-
 {{> Events/GCC2013/Header }}
 
 {{> Events/GCC2013/LinkBox }}

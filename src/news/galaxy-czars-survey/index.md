@@ -2,7 +2,6 @@
 title: "Deploying Galaxy? Wanna Talk?"
 date: "2012-05-07"
 ---
-
 The email post "[Interested in speaking with other institutions deploying Galaxy locally?](http://dev.list.galaxyproject.org/Interested-in-speaking-with-other-institutions-deploying-Galaxy-locally-td4593471.html)" by Ann Black-Ziegelbein generated a huge amount of interest.  Ann proposed a bi-monthly conference call to discuss the broader issues of doing Galaxy deployments.  
 
 <div class='right'>

@@ -2,7 +2,6 @@
 title: "Oct 23, 2012 Distribution & News Brief"
 date: "2012-10-24"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-10-23/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" width="400" /></a></div>
 **Highlights:**

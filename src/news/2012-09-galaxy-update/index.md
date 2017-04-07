@@ -2,7 +2,6 @@
 title: "September 2012 Galaxy Update"
 date: "2012-08-29"
 ---
-
 <div class='right'><a href='/src/galaxy-updates/2012-09/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 The [September 2012 Galaxy Update is now available](/src/galaxy-updates/2012-09/index.md). 

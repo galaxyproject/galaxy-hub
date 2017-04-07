@@ -2,7 +2,6 @@
 title: "May 2014 Galaxy News"
 date: "2014-04-30"
 ---
-
 <div class='left'>
 <a href='/src/galaxy-updates/2014-05/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 <div class='right'>

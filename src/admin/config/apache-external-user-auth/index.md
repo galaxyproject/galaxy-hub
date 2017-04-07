@@ -1,8 +1,6 @@
 ---
 autotoc: true
 ---
-
-
 ## External user authentication
 
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.  Galaxy does not do this itself - it delegates this responsibility to the upstream proxy server (e.g., Apache or Nginx).  The authentication module (basic authentication, mod_auth_kerb, mod_authn_ldap, mod_auth_cas, Cosign, etc.) is responsible for providing a username, which we will pass through the proxy to Galaxy as `$REMOTE_USER`.
