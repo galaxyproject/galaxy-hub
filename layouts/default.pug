@@ -4,7 +4,7 @@ block content
     section.section-content
         if toc
             div.col-md-9
-                    h1(style="margin-top: 0px") !{ title }
+                    h1.pageTitle !{ title }
                     div !{ contents }
             div.col-md-3
                 div.affix#sidebar
@@ -12,5 +12,5 @@ block content
         else
             div.col-md-12
                 section.section-content
-                    h1(style="margin-top: 0px") !{ title }
+                    h1.pageTitle !{ title }
                     div !{ contents }
