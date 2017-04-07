@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Troubleshoot an Error
 ---
 [Back to Support Hub](/src/support/index.md)

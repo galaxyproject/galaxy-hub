@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 {{> Events/GCC2014/Header }}
 

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Event Horizon
 layout: events_index.pug
 ---

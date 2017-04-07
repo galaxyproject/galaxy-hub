@@ -1,5 +1,4 @@
 ---
- autotoc: true
  title: Datatype Fastqsanger
 ---
 [Back to Support Hub](/src/support/index.md)

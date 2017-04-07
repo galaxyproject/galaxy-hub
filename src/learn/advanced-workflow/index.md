@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 {{> Learn/LinkBox }}
 # Creating Workflows and Advanced Workflow Options

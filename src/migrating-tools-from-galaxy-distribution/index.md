@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Migrating tools from the Galaxy distribution to the Galaxy Main Tool Shed
 

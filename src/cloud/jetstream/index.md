@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy on Jetstream
 ---
 {{> Cloud/Jetstream/LinkBox }}

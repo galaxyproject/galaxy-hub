@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: July 2016 Galaxy News
 ---
 <div class='right'>

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Data Manager JSON Syntax
 

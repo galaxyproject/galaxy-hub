@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Building Galaxy CloudMan components
 ---
 {{> CloudMan/LinkBoxHorizontal }}

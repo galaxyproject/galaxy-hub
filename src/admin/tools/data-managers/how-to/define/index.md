@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Defining Data Managers
 

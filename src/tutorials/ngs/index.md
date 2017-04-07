@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Manupulating NGS data with Galaxy
 ---
 <script type="text/javascript"

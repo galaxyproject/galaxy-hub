@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy on the Cloud
 ---
 Researchers' compute requirements vary widely over time and formerly required either buying and maintaining compute resources (with most of it idle, most of the time), or reserving time and a fixed amount of compute resources on institutional clusters.

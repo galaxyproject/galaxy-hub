@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # July 16, 2010 New Development News Brief
 

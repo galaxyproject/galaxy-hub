@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: February 2012 Galaxy Update
 ---
 <div class='center'>**Looking for the [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md)?  Click [here](/src/galaxy-updates/2012-03/index.md).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/people/dave-clements/index.md)</div>

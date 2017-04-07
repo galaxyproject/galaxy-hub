@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Birds of a Feather (BoF) Flock Together at GCC2013
 ---
 {{> Events/GCC2013/Header }}

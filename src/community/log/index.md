@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 <div class='center'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board"  /></div>
 

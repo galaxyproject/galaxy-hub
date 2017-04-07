@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy NGS 101
 ---
 <div class='right'></div>
