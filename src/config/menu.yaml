@@ -18,9 +18,6 @@
       - Learn:
         title: Learn Galaxy
         link: learn
-      - Support:
-        title: Get Support
-        link: support
       - Teach:
         title: Teach
         link: teach
@@ -66,3 +63,12 @@
       - api:
         title: API
         link: develop/api
+- Support:
+  title: Support
+  links:
+      - Support:
+        title: Hub
+        link: support
+      - Biostar:
+        title: Galaxy Biostar
+        link: support/biostar
