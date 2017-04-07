@@ -2,7 +2,6 @@
 title: "September 2015 Galactic News"
 date: "2015-09-01"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2015-09/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>
 </div>

@@ -2,8 +2,6 @@
 autotoc: true
 title: February 2015 Galaxy Update
 ---
-
-
 <div class='right'>
 <table>
   <tr>

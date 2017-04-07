@@ -2,7 +2,6 @@
 title: "GCC2016 Training Day Topic Nominations"
 date: "2015-09-28"
 ---
-
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gcc2016tdnom'>Nominate a topic now!</a> &nbsp;&nbsp; </th>

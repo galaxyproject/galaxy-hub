@@ -2,7 +2,6 @@
 title: "Tools + Dataset Collections Hackathon"
 date: "2015-08-10"
 ---
-
 Hello all,
 
 <div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>

@@ -1,7 +1,6 @@
 ---
 title: Powered by Galaxy
 ---
-
 Feel free to use these images to include a *Powered by Galaxy* logo and link on
 your web pages, or on printed material. The list below shows the "Powered by
 Galaxy" icon in various resolutions.

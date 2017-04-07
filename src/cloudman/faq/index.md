@@ -2,7 +2,6 @@
 autotoc: true
 title: Frequently Asked Questions for CloudMan
 ---
-
 {{> CloudMan/LinkBoxHorizontal }}
 
 See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance and [CloudMan](/src/cloudman/index.md) page for general information about CloudMan.

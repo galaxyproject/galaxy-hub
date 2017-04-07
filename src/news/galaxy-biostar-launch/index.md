@@ -2,7 +2,6 @@
 title: "Galaxy Biostar Launched"
 date: "2014-04-23"
 ---
-
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create a [Galaxy User support forum](https://biostar.usegalaxy.org) at https://biostar.usegalaxy.org!**

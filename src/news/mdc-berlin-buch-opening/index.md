@@ -2,7 +2,6 @@
 title: "Bioinformatician, MDC Berlin-Buch"
 date: "2015-01-17"
 ---
-
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
 
 The [MDC Berlin-Buch](https://www.mdc-berlin.de/) is a member of the [Helmholtz Association of National Research Centers](http://www.helmholtz.de/), and its focus is biomedical research in the areas of Cardiovascular and Metabolic diseases, Cancer and Function and Dysfunction of Nervous System. The [Berlin Institute for Medical Systems Biology (BIMSB)](https://www.mdc-berlin.de/40549075/de/bimsb) expands and adds systems biology approaches to major questions of gene regulatory function.

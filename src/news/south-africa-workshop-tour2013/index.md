@@ -2,7 +2,6 @@
 title: "South Africa Workshop Tour 2013"
 date: "2013-09-09"
 ---
-
 <table>
   <tr>
     <td style=" text-align: center; width: 280px; border: none;"> <a href='/src/events/u-pretoria2013/index.md'><img src="/src/images/logos/UPretoriaWide.png" alt="University of Pretoria" width="240" /></a> </td>

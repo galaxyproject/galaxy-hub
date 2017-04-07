@@ -2,7 +2,6 @@
 title: "Disease Transcriptome Postdoc, Oslo"
 date: "2016-02-01"
 ---
-
 A [postdoc position](http://uio.easycruit.com/vacancy/1566797/64290?iso=no) in bioinformatics is available in Oslo (Norway) on development of methods for transcriptome analysis of disease-specific cells.
 
 The postdoc will be part of a newly established research center and will work in the intersection between two environments: A research group at immunology will provide hypotheses and challenges at the forefront of research on autoimmunity, as well as a rich collection of unique data, including transcriptomic data on sharply selected populations of B cells in a disease-relevant setting. A research group at computer science has long experience with development of software systems, algorithms and statistical methodology for the analysis of genomic and epigenomic data, including an established codebase for genome analysis (the Galaxy-based [Genomic HyperBrowser](https://hyperbrowser.uio.no/hb/)") that can be drawn on for future computational development.

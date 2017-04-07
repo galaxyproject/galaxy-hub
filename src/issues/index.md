@@ -2,7 +2,6 @@
 autotoc: true
 title: Issue Reporting
 ---
-
 # Galaxy Issue Reporting and Feature Requests
 
 Galaxy uses GitHub [issues](https://github.com/galaxyproject/galaxy/issues) for tracking down bugs and feature requests. Please make sure you search the list for duplicates before creating a new issue.

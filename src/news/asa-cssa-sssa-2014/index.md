@@ -2,7 +2,6 @@
 title: "Galaxy @ ASA/CSSA/SSSA 2014"
 date: "2014-09-03"
 ---
-
 <table>
   <tr>
     <td style=" class="red" "> &nbsp;&nbsp; <span style="font-size: larger;"> These workshops have been cancelled. </span> &nbsp;&nbsp; </td>

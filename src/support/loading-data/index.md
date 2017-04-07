@@ -2,7 +2,6 @@
  autotoc: true
  title: Loading Data
 ---
- 
 [Back to Support Hub](https://galaxyproject.org/support/)
 
 Related topics

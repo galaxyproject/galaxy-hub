@@ -2,7 +2,6 @@
 title: "GCC Early Registration Closes May 1"
 date: "2011-04-26"
 ---
-
 [Galaxy Community Conference registration](http://galaxy.psu.edu/gcc2011/Register.html) is now open again. Early registration ends May 1.  We had limited success in finding additional lodging for on May 24 and May 26:
 
 **May 24 Lodging:** As expected, we were not able to secure additional hotel rooms at the conference centre for May 24, the evening before the meeting.  We encourage people who need a room on May 24 to stay in Amsterdam that night, and then take the train to Lunteren the next morning.  There is ample time to arrive before the 9:30am start of the meeting on the 25th.  We regret the inconvenience that this will cause for people who will not be able to stay at the conference centre on May 24.

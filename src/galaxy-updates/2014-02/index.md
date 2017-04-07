@@ -2,8 +2,6 @@
 autotoc: true
 title: February 2014 Galaxy Update
 ---
-
-
 <div class='right'></div>
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>

@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 ## Adding custom tools to Galaxy
 
 A vast number of well-implemented tools are available for Galaxy through the [Galaxy Tool Shed](/src/toolshed/index.md). Users with admin privileges can freely install any tools from the Tool Shed to their Galaxy instance via the [admin interface](/src/admin/index.md). A short tutorial describing how to install tools from the Tool Shed is available [here](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).

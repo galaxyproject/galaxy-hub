@@ -2,7 +2,6 @@
 title: "Galactic News! Feb. 2015 Edition"
 date: "2015-01-30"
 ---
-
 <div class='right'><div class='center'>
 <a href='/src/galaxy-updates/2015-02/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
 <a href='/src/galaxy-updates/2015-02/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />

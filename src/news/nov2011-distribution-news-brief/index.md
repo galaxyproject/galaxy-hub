@@ -2,7 +2,6 @@
 title: "November 18, 2011 Distribution & News Brief"
 date: "2011-11-19"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2011-11-18/index.md)**
 
 **Highlights:**

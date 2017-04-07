@@ -2,7 +2,6 @@
  autotoc: true
  title: NCBI SRA Fastq
 ---
- 
 [Back to Support Hub](http://wiki.galaxyproject.org/support/)
 
 # NCBI SRA sourced fastq data

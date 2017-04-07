@@ -2,7 +2,6 @@
 autotoc: true
 title: Galaxy Data Libraries
 ---
-
 Galaxy data libraries provide a way to conveniently share Galaxy datasets within a group of Galaxy users or with everybody that has access to a specific instance of Galaxy. The biggest advantages of the data libraries are:
 
 * You can import data from filesystem into the library without copying it.

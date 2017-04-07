@@ -3,7 +3,6 @@ autotoc: true
 title: Beyond the Galaxy Event Horizon
 layout: default.pug
 ---
-
 Listing of Galaxy events from previous years. See the main [Galactic Events](/src/events/index.md) page for current and recent events.
 
 ## 2016

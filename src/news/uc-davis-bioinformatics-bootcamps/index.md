@@ -2,7 +2,6 @@
 title: "December Bioinformatics Boot Camps"
 date: "2013-10-18"
 ---
-
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />

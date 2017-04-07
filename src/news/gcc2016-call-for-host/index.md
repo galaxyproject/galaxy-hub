@@ -2,7 +2,6 @@
 title: "GCC2016 Needs a Host!"
 date: "2015-02-03"
 ---
-
 <table>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='/src/GCC2011/index.md'><img src="/src/events/gcc2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>

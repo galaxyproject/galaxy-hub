@@ -2,9 +2,6 @@
 autotoc: true
 title: Visualization in Galaxy
 ---
-
-
-
 ----
 
 *Trackster* is Galaxy's visualization and visual analysis environment. It lets you visualize your SAM/BAM, BED, GFF/GTF, WIG, bigWig, bigBed, bedGraph, and VCF datasets from within Galaxy. Trackster is enabled on our main and test instances, but not by default on local instances. If you are running a local instance and would like to use Trackster, please refer to the Setup Instructions below.

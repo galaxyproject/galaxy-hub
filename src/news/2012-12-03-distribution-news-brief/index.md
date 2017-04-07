@@ -2,7 +2,6 @@
 title: "Dec 3, 2012 Distribution & News Brief"
 date: "2012-12-03"
 ---
-
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-12-03/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_12_03_new-history-menu.png" alt="width="350"" /></a></div>
 **Highlights:**

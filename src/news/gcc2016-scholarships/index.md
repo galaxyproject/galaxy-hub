@@ -2,7 +2,6 @@
 title: "GCC2016 Scholarships: Apply Now!"
 date: "2016-02-18"
 ---
-
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>

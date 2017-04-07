@@ -1,7 +1,6 @@
 ---
 title: Support Tool Help
 ---
-
 [Back to Support Hub](/src/support/index.md)
 
 ## Documentation is on the tool form itself

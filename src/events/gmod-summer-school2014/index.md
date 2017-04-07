@@ -2,8 +2,6 @@
 autotoc: true
 title: GMOD Summer School 2014 - Installing Galaxy
 ---
-
-
 <div class='right'></div>
 
 This page was created in May, 2014 for the 'Installing Galaxy' workshop, part of the

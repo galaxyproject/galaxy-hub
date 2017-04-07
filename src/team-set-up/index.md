@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 # Team Set up
 
 Hi!

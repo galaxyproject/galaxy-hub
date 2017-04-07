@@ -2,7 +2,6 @@
 title: "October 2016 Galactic News"
 date: "2016-10-03"
 ---
-
 <div class='right'>
 <div class='right'><a href='/src/galaxy-updates/2016-10/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
 <a href='/src/galaxy-updates/2016-10/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="105" /></a>

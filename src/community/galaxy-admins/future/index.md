@@ -2,7 +2,6 @@
 autotoc: true
 title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
 ---
-
 <div class='center'>
 ![GalaxyAdmins](/src/images/logos/GalaxyAdmins.png)
 </div>

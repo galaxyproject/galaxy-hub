@@ -2,7 +2,6 @@
 title: "Baltimore Area Galaxy Meetup Jan 22"
 date: "2015-01-07"
 ---
-
 Hey Everyone,
 
 <div class='right'><a href='/src/events/meetups/baltimore/2015-01-22/index.md'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="170" /></a></div>

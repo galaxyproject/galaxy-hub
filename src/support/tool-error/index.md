@@ -2,7 +2,6 @@
 autotoc: true
 title: Job and Tool Error Help
 ---
-
 [Back to Support Hub](/src/support/index.md)
 
 Related topics

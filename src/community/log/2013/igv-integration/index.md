@@ -1,10 +1,6 @@
 ---
 title: 2013/10: IGV Integration
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[IGV Integration](/src/community/log/2013/igv-integration/index.md)**
  Date:: 2013/10/27

@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 # Support: About Galaxy
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>

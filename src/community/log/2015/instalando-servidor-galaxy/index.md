@@ -1,10 +1,6 @@
 ---
 title: 2015/02: [Instalando um servidor do Galaxy Project](https://biscassi.wordpress.com/category/galaxy-project/)
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Instalando um servidor do Galaxy Project](/src/community/log/2015/instalando-servidor-galaxy/index.md)**
  Date:: 2015/02/09

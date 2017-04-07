@@ -2,8 +2,6 @@
 autotoc: true
 title: Galactic November News!
 ---
-
-
 <div class='right'>
 <table>
   <tr>

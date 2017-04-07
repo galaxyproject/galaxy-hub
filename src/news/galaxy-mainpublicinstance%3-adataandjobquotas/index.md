@@ -2,7 +2,6 @@
 title: "Galaxy Main public instance: data and job quotas"
 date: "2011-10-25"
 ---
-
 <div class='right'><a href='http://usegalaxy.org/'><img src="/src/images/screenshots/GalaxyMainHome.png" alt="usegalaxy.org" width="200px" /></a></div>
 ### Dear Galaxy User
 

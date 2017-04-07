@@ -2,7 +2,6 @@
 title: "Environmental Metabolomics + Galaxy"
 date: "2013-04-22"
 ---
-
 <div class='right'><a href='http://www.birmingham.ac.uk/schools/biosciences/'><img src="/src/images/logos/UBirminghamLogo.gif" alt="University of Birmingham" height="40" /></a></div>
 
 A new [UK-China collaboration in environmental metabolomics](http://www.genomics.cn/en/news/show_news?nid=99510) between the [University of Birmingham](http://www.birmingham.ac.uk/), [BGI](http://www.genomics.cn/) and *[GigaScience](http://www.gigasciencejournal.com/)* has received funding from the UK’s [Natural Environment Research Council (NERC)](http://www.nerc.ac.uk).

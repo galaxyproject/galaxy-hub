@@ -2,7 +2,6 @@
 title: "GCC2016 is Online!"
 date: "2015-12-18"
 ---
-
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference"  /></a>
 </div>

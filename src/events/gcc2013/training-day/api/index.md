@@ -1,10 +1,6 @@
 ---
 autotoc: true
 ---
-
-
-
-
 {{> Events/GCC2013/Header }}
 
 

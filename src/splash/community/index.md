@@ -2,7 +2,6 @@
 title: Viva contributors!
 date: 2030-03-04
 ---
-
 <div class="row">
   <div class="col-xs-2 col-md-1">
     <a href="https://github.com/bgruening" class="thumbnail">

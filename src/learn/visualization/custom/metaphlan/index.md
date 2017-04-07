@@ -1,10 +1,6 @@
 ---
 title: MetaPhlAn
 ---
-
-
-
-
 <div class='deploymentbox'>
  Resource:: **[MetaPhlAn](/src/learn/visualization/custom/metaphlan/index.md)**
  Type:: Public

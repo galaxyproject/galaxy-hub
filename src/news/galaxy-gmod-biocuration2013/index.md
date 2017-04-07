@@ -2,7 +2,6 @@
 title: "Galaxy, GMOD2013 & Biocuration 2013"
 date: "2013-02-19"
 ---
-
 <div class='left'><a href='/src/gmod:/index.md'><img src="/src/images/logos/GMODLogo.png" alt="GMOD Project" width="150" /></a></div>
 
 There are a couple of things going on with the [http://gmod.org/wiki/|GMOD Project](http://gmod.org/wiki/|GMOD Project) that the Galaxy Community might be interested in. If you aren't familiar with GMOD, it is a federation of open-source projects and tools  that enable visualizing, annotating, managing, and analyzing biological research data.  GMOD includes Galaxy and several other widely used tools such as [BioMart](http://gmod.org/wiki/BioMart), [InterMine](http://gmod.org/wiki/InterMine), [MAKER](http://gmod.org/wiki/MAKER), [Chado](http://gmod.org/wiki/Chado) and [GBrowse](http://gmod.org/wiki/GBrowse) and [JBrowse](http://gmod.org/wiki/JBrowse).

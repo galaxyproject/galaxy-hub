@@ -2,7 +2,6 @@
 title: "January 2013 Galaxy Update"
 date: "2013-01-02"
 ---
-
 <div class='right'><a href='/src/galaxy-updates/2013-01/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="January 2013 Galaxy Update" width=150 /></a></div>
 
 The [January 2013 Galaxy Update is now available](/src/galaxy-updates/2013-01/index.md). 

@@ -9,8 +9,6 @@ external_url: https://www.france-bioinformatique.fr/fr/evenements/EGDW2017
 contact: Organisers
 gtn: y
 ---
-
-
 # European Galaxy Developer workshop 2017
 
 **Location:**    Strasbourg, 7Hotels

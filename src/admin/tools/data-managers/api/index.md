@@ -1,9 +1,6 @@
 ---
 autotoc: true
 ---
-
-
-
 ----
 
 # Running Data Manager Tools using the API

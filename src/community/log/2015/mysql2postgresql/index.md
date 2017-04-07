@@ -1,10 +1,6 @@
 ---
 title: 2015/07: Moving from MySQL to PostgreSQL
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Moving from MySQL to PostgreSQL.](/src/community/log/2015/mysql2postgresql/index.md)**
  Date:: 2015/07/30

@@ -1,7 +1,6 @@
 ---
 title: Docker Integration
 ---
-
 <div class='right'><a href='http://getgalaxy.org/'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=300 /></a></div>
 As of the [August 2014 release](/src/news/2014-08-11-galaxy-distribution/index.md), Galaxy supports running tools within [Docker](https://www.docker.com) containers. Tool authors may annotate Docker container ids the tool works with in the Tool XML file and likewise deployers may specify Docker container ids in Galaxy's `job_conf.xml` file on a per destination basis.
 <br /><br />

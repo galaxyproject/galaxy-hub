@@ -2,7 +2,6 @@
 autotoc: true
 title: Intergalactic Utilities Commission
 ---
-
 ## Introduction
 
 The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy [Tool Shed](/src/toolshed/index.md) by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to [Galaxy tool](/src/tools/index.md) developers so that they can improve the quality of their repositories.

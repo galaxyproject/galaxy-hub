@@ -1,10 +1,6 @@
 ---
 title: 2013/04: Virtualization at URGI
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Virtualization at URGI](/src/community/log/2013/urgi-virtualisation/index.md)**
  Date:: 2013/04/10

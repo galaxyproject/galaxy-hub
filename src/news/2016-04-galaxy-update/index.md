@@ -2,7 +2,6 @@
 title: "Galactic News! April Edition"
 date: "2016-03-31"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2016-04/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />

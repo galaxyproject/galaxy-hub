@@ -2,8 +2,6 @@
 autotoc: true
 title: Galaxy NGS 101
 ---
-
-
 <div class='right'></div>
 
 This page is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).

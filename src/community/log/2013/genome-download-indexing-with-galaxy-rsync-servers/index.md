@@ -1,10 +1,6 @@
 ---
 title: 2013/02: Provide download and indexing of genomes using Galaxy rsync servers
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Genome download & indexing using Galaxy rsync servers](/src/community/log/2013/genome-download-indexing-with-galaxy-rsync-servers/index.md)**
  Date:: 2013/02/21

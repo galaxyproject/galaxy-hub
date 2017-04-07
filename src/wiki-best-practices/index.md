@@ -2,8 +2,6 @@
 autotoc: true
 title: Wiki Best Practices
 ---
-
-
 <div class='right'></div>
 
 The Galaxy Wiki editorial policies and best practices are defined here. Consistent use of these policies and practices will hopefully lead to a more consistent and readable web site.

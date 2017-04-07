@@ -2,7 +2,6 @@
 autotoc: true
 title: Managing Datasets in Galaxy
 ---
-
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 
 The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/src/learn/advanced-workflow/index.md)**, making an analysis pathway transparent, reproducible, and *reusable*.

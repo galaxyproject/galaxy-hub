@@ -2,7 +2,6 @@
 title: "Galaxy Day, 4 décembre à Paris"
 date: "2013-10-02"
 ---
-
 **Appel à contributions**
 
 Le [Groupe de Travail Galaxy-IFB](http://www.ifb-galaxy.org/index.html) organise une journée d'animation autour de la plateforme Galaxy le mercredi 4 décembre à Paris (@Institut Curie - 9H30-17H00).

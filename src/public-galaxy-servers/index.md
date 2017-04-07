@@ -2,7 +2,6 @@
 autotoc: true
 title: Publicly Accessible Galaxy Servers
 ---
-
 ![](/src/public-galaxy-servers/80PlusSlide.png)
 
 The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org/)) can meet many needs, but it is not suitable for everything (see [Choices](/src/choices/index.md) for why). Fortunately the Galaxy [Community](/src/community/index.md) is helping out by [installing Galaxy](/src/admin/get-galaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world. Some servers may require logins and enforce quotas.

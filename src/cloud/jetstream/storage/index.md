@@ -2,7 +2,6 @@
 autotoc: true
 title: Using volume storage
 ---
-
 [Jetstream instances](http://jetstream-cloud.org/general-vms.php) come with a
 predefined amount of local (i.e., ephemeral or transient) storage. It is
 possible to use persistent, volume-based storage that can also vary in size,

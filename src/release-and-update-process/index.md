@@ -2,10 +2,6 @@
 autotoc: true
 title: Galaxy Release and Update Process
 ---
-
-
-
-
 # Release Process
 
 ## Repositories, Branches and Tags

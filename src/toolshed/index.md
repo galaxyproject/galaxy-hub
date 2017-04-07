@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-
 # Galaxy ToolShed
 
 ## Common Terminology

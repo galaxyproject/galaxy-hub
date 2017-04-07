@@ -2,7 +2,6 @@
 autotoc: true
 title: January 20, 2012 Galaxy Development News Brief
 ---
-
 <div class='right'></div>
 
 ## Get Galaxy

@@ -2,7 +2,6 @@
 title: "GCC2013 Registration Ends 14 June"
 date: "2013-06-04"
 ---
-
 [Register](/src/events/gcc2013/register/index.md) for [GCC2013](/src/events/gcc2013/index.md) by 14 June and avoid the *100%* late surcharges.  Registration is still a bargain with combined registration ([Training Day](/src/events/gcc2013/training-day/index.md) + [main meeting](/src/events/gcc2013/program/index.md)) starting at ~ €165 for post-docs and students (that just €55 per day). **[Register now](/src/events/gcc2013/register/index.md)** to assure your spot in the [Training Day workshops](/src/events/gcc2013/training-day/index.md) you want to attend.  Once a Training Day session becomes full, it will be closed to new registrations. 
 
 <div class='right'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="GCC2013 Training Day" width="170px" /></a><br />

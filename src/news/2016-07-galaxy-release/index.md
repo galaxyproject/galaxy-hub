@@ -2,7 +2,6 @@
 title: "July 2016 Galaxy Release (v 16.07)"
 date: "2016-08-25"
 ---
-
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 <br />

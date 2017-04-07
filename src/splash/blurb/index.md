@@ -2,7 +2,6 @@
 title: Data intensive biology for everyone
 date: 2040-03-04
 ---
-
 Galaxy is an open, web-based platform for accessible, reproducible, and
 transparent computational biomedical research.
 

@@ -2,7 +2,6 @@
 title: "Galaxy Events Page & Calendar"
 date: "2011-07-13"
 ---
-
 The new Galaxy wiki includes a [Galaxy Events](/src/events/index.md) page that lists any upcoming events (such as [ISMB/ECCB 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md) and the [Workshop on Comparative Genomics](http://www.molecularevolution.org/workshops/WCG#wcgna)) that have Galaxy related content.
 
 The page also contains a link to the new [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com&ctz=America/New_York), that lists events and deadlines that may be of interest to the Galaxy community.  For example, this week there are 5+ events going on and these 5 deadlines as well:

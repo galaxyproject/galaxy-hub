@@ -2,7 +2,6 @@
 autotoc: true
 title: RNAseq - an introduction
 ---
-
 # RNAseq: Reference-based
 
 This tutorial is inspired by an exceptional [RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by Björn Grüning (@bgruening) and configured by Dave Bouvier (@davebx).

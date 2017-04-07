@@ -2,7 +2,6 @@
 title: "Liste de diffusion Galaxy France"
 date: "2012-08-28"
 ---
-
 <div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 
 Cette liste a pour but de partager et communiquer sur nos différentes expériences avec Galaxy au sein de l'hexagone.

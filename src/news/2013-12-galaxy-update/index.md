@@ -2,7 +2,6 @@
 title: "December 2013 Galaxy Update"
 date: "2013-12-02"
 ---
-
 <div class='right'><a href='/src/galaxy-updates/2013-11/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="December 2013 Galaxy Update" width=150 /></a></div>
 
 The [December 2013 Galaxy Update is out](/src/galaxy-updates/2013-12/index.md):

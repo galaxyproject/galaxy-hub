@@ -2,7 +2,6 @@
 title: "GCC2018 Call for Host Proposals"
 date: "2016-09-27"
 ---
-
 <table>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='http://galaxyproject.org/GCC2016'><img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>

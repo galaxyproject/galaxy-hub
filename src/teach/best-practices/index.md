@@ -2,7 +2,6 @@
 autotoc: true
 title: Best Practices for Teaching
 ---
-
 # Use the Best Compute Platform
 
 The [Computing Platforms page](/src/teach/computing-platforms/index.md) includes options and recommendations for computing backends with which to teach Galaxy.

@@ -2,7 +2,6 @@
 title: "Galaxy on Jetstream Cloud"
 date: "2016-04-07"
 ---
-
 <div class='right'><img src="https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg" alt="" width="300" /></div>
 
 **Want your own Galaxy server, for free?** You can now easily create Galaxy servers on the new [NSF Jetstream cloud](http://jetstream-cloud.org/). Each server comes preconfigured with hundreds of tools and commonly used reference datasets. It only takes a couple of minutes to start one. Once running, you can use it or change it up any way you like.

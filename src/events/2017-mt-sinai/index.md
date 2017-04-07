@@ -10,5 +10,4 @@ location_url: http://icahn.mssm.edu/
 gtn: y
 contact: Anton Nekrutenko, Andrew Sharp
 ---
-
 The Galaxy workshop will will introduce audience ro genomic data analyses.

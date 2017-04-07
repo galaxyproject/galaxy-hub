@@ -2,7 +2,6 @@
 title: "Galaxy Project Grant Support"
 date: "2015-01-07"
 ---
-
 Dear Galaxy users, developers, and friends of the project,
 
 <div class='right'><img src="/src/images/logos/galaxyLogo200.png" alt="Galaxy Project" width="170" /></div>

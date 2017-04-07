@@ -2,7 +2,6 @@
 autotoc: true
 title: March 2017 Galaxy News
 ---
-
 <div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the March 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/src/galaxy-updates/index.md), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.

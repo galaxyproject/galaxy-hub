@@ -10,7 +10,6 @@ location_url: https://biotexcel.com/event/ngs-2017-glasgow/
 external_url: https://biotexcel.com/event/ngs-2017-glasgow/#workshop
 contact: Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar
 ---
-
 The workshop will use Galaxy (usegalaxy.org), an open source web-based platform
 for informatics data analysis; we will briefly introduce Galaxy and familiarise
 users with its workings. Galaxy will then be used to create an analysis pipeline

@@ -2,8 +2,6 @@
 autotoc: true
 title: Dave Clements
 ---
-
-
 <div class='right'>
 <table>
   <tr>

@@ -1,10 +1,6 @@
 ---
 title: 2013/12: Tool Integration Short Tutorial
 ---
-
-
-
-
 <div class='logbox'>
  Topic:: **[Tool Integration Short Tutorial](/src/community/log/2013/ifb-tool-integration-short-tutorial/index.md)**
  Date:: 2013/12/05

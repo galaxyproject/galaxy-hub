@@ -2,7 +2,6 @@
 title: "GCC2015 Training Day Vote!"
 date: "2015-01-19"
 ---
-
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/training-day/'>Vote now!</a> &nbsp;&nbsp; </th>

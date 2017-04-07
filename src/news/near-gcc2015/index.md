@@ -2,7 +2,6 @@
 title: "Events Aplenty Near GCC2015"
 date: "2015-04-08"
 ---
-
 Hello all,
 
 The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is being held in early July at [The Sainsbury Lab](http://www.tsl.ac.uk/) in Norwich, United Kingdom.  It turns out that there are several other events going on nearby in the days before and after GCC2015.  Here's a list of what we know about, in case you want to extend your trip.

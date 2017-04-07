@@ -2,7 +2,6 @@
 title: "Galaxy Admin Training, Nov 7-11"
 date: "2016-08-23"
 ---
-
 <div class='right solid center'>
 <a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
 November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/src/events/admin-training2016/registration/index.md) 

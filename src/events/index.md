@@ -3,7 +3,6 @@ autotoc: true
 title: Galaxy Event Horizon
 layout: events_index.pug
 ---
-
 Upcoming (and past) events with Galaxy-related content.
 
 The events listed here are also available in the [Galaxy Events Google

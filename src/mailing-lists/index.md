@@ -2,7 +2,6 @@
 autotoc: true
 title: Galaxy Mailing Lists
 ---
-
 Mailing lists play a vital role in the Galaxy community:
 
 1. They are a key part of [Galaxy's overall support efforts](/src/support/index.md).

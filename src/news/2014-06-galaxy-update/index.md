@@ -2,7 +2,6 @@
 title: "June 2014 Galaxy News"
 date: "2014-05-30"
 ---
-
 <div class='right'>
 <a href='/src/galaxy-updates/2014-06/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a><br /><br /> <a href='/src/galaxy-updates/2014-06/index.md#registration-closes-june-6'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="150" /></a><br />
 <a href='/src/galaxy-updates/2014-05/index.md#galaxy-hackathon-at-gcc2014'><img src="/src/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a> 
