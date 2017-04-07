@@ -4,8 +4,6 @@ block content
     section.section-content
         div.col-md-12
             section.section-content
-                h1.pageTitle #{ title }
-                if tease
-                    p: em #{tease}
+                +renderPageTitle
                 p.small #{helpers.moment(date).format("MMMM Do YYYY")}
                 div !{ contents }
