@@ -168,7 +168,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 </tr>
 <tr>
   <td><span class="text-nowrap">September 1st 2017</span></td>
-  <td><a href="http://www.smbe2017.org/symposia/">Introduction to Galaxy</a> [<a href="/src/events/2017-genome-10k">hub page</a>]</td>
+  <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/src/events/2017-genome-10k">hub page</a>]</td>
   <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
   <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr></tbody></table>
