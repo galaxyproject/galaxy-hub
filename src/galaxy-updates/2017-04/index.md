@@ -26,7 +26,7 @@ Thanks for using Galaxy, all 100,000 of you.
 
 [Early registration](https://gcc2017.sciencesconf.org/page/registration) and [abstract submission](https://gcc2017.sciencesconf.org/page/submit) for the **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)** are open.
 
-**Note: The submission deadline for oral presenations is 15 April.**
+**Note: The submission deadline for oral presentations is 15 April.**
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
  
@@ -266,7 +266,7 @@ Interested in participating? See the [full call for details](/src/news/2017-03-l
 
 [LAPPS Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources into Galaxy and provided for using them interoperably in a “plug-and-play” environment. 
 
-## PhenoMeNal Online Trining Material
+## PhenoMeNal Online Training Material
 
 <div class='right'><a href='http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy'><img src="/src/public-galaxy-servers/PhenoMeNal.png" alt="PhenoMeNal" width="120" /></a>
 </div>
