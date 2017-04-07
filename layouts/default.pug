@@ -4,13 +4,15 @@ block content
     section.section-content
         if toc
             div.col-md-9
+                if !skip_title_render
                     h1.pageTitle !{ title }
-                    div !{ contents }
+                div !{ contents }
             div.col-md-3
                 div.affix#sidebar
                     +renderToc(toc)
         else
             div.col-md-12
                 section.section-content
-                    h1.pageTitle !{ title }
+                    if !skip_title_render
+                        h1.pageTitle !{ title }
                     div !{ contents }
