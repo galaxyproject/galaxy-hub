@@ -50,7 +50,7 @@ Galaxy Community Fund Board
 
 ## New GCC2017 Sponsors
 
-We are pleased to welcome [ELIXIR](http://www.elixir-europe.org/) and GigaScience as returning GCC sponors.
+We are pleased to welcome [ELIXIR](http://www.elixir-europe.org/) and GigaScience as returning GCC sponsors.
 
 <div class='right'> 
 <a href='http://www.elixir-europe.org/'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" /></a>
