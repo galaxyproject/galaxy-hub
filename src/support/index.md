@@ -3,8 +3,6 @@ autotoc: true
 title: Galaxy Support
 ---
 
-# Galaxy Support
-
 ## Quick Start
 
 * [NGS 101](/src/tutorials/g101/index.md)
