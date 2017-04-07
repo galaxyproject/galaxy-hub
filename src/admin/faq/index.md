@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Frequently Asked Questions for Galaxy Administration
 ---
 {{> Admin/LinkBox }} 

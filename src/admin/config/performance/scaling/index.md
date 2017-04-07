@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Scaling and Load Balancing
 ---
 {{> Admin/Config/Performance/LinkBox }}

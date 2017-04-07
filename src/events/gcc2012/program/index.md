@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Program
 ---
 {{> Events/GCC2012/PageHeader }}

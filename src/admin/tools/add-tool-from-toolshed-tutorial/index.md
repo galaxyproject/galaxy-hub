@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Installing Tools into Galaxy
 ---
 ## Ways to get tools into Galaxy

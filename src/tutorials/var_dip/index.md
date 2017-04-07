@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Finding variants in diploid genomes
 ---
 <script type="text/javascript"

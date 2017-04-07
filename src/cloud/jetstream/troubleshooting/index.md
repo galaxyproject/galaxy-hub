@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Troubleshooting Galaxy on Jetstream
 ---
 {{> Cloud/Jetstream/LinkBox }}

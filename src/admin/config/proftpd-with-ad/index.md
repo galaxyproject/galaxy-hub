@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Setting up ProFTPd for galaxy uploads in an Active Directory environment
 ---
 * You want to enable FTP file uploads?

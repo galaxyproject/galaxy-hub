@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Visualization in Galaxy
 ---
 ----

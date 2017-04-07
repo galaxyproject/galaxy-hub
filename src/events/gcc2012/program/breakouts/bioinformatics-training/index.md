@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Bioinformatics Training and Teaching with Galaxy
 ---
 {{> Events/GCC2012/PageHeader }}

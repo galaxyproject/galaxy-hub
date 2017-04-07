@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 ## Adding custom tools to Galaxy
 

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: [Frequently Asked Questions](/src/faqs/index.md) for Using Galaxy
 ---
 {{> Learn/LinkBox }}

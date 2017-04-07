@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Cloning and sharing CloudMan clusters
 ---
 {{> CloudMan/LinkBoxHorizontal }}

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: [DataProviders](/src/dataProvider/index.md) Cookbook
 ---
 <div class='left'></div>

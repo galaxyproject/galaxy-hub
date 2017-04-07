@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Issue Reporting
 ---
 # Galaxy Issue Reporting and Feature Requests

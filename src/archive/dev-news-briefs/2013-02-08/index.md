@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: February 8, 2013 Galaxy News Brief
 ---
 <div class='right'></div>

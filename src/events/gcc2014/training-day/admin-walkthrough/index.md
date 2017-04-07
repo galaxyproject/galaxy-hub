@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Tutorial: Galaxy Installation and Administration
 ---
 {{> Events/GCC2014/Header }}

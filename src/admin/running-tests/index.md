@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 ## Running Tests
 

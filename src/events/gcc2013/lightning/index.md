@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Lightning Talks
 ---
 {{> Events/GCC2013/Header }}

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # User Defined Toolbox Filters
 

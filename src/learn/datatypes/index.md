@@ -1,6 +1,5 @@
 ---
 title: Datatypes
-autotoc: true
 ---
 Galaxy is designed to work with many different **datatypes**. Upon file upload,
 **datatype** can be detected and assigned (when possible) or user specified

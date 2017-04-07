@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Project Logos
 ---
 These are current official Galaxy Project logos, using the current version of the Galaxy Logo created by [Petr Kadlec](http://puradesign.cz/en).

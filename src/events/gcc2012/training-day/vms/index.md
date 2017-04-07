@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 <div class='right'><a href='/src/events/gcc2012/training-day/vms//index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 

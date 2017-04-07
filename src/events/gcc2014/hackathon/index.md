@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Hackathon
 ---
 {{> Events/GCC2014/Header }}

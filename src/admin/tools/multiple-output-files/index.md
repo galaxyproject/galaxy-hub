@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Strategies for tools that create more than one output file
 

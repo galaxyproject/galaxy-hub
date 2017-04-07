@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: The Galaxy Community
 ---
 A vibrant community of contributors is the reason this project exists. The Galaxy team alone cannot possibly maintain enough servers, wrap enough tools, teach enough workshops, implement all needed features, or answer every question on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that can differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.

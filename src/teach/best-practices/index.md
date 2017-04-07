@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Best Practices for Teaching
 ---
 # Use the Best Compute Platform

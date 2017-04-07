@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: RNAseq - an introduction
 ---
 # RNAseq: Reference-based

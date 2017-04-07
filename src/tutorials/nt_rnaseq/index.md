@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Finding and quantifying new transcripts
 ---
 <blockquote>

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: The August 2015 Galactic News!
 ---
 <div class='right'>

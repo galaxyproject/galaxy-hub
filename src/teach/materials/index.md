@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Teaching with Galaxy: Materials
 ---
 {{> Teach/Header }}

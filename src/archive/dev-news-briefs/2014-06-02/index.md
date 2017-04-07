@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: June 2, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>

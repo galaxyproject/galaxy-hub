@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 ![PoweredByGalaxy](/src/outreach/powered-by-galaxy/PoweredByGalaxy200.png)
 

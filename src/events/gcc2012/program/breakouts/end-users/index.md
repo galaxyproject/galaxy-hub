@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy End Users
 ---
 {{> Events/GCC2012/PageHeader }}
