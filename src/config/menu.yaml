@@ -7,32 +7,29 @@
         title: Main Galaxy
         link: main
       - Servers:
-        title: Public servers
+        title: Public Servers
         link: public-galaxy-servers
       - Cloud:
-        title: On cloud
+        title: Cloud
         link: cloud
-- Learn:
-  title: Learn
+- Education:
+  title: Education
   links:
       - Learn:
         title: Learn Galaxy
         link: learn
-      - Support:
-        title: Get support
-        link: support
-- Community:
-  title: Community
-  links:
-      - Community:
-        title: About
-        link: community
       - Teach:
         title: Teach
         link: teach
       - GTN:
         title: Training Network
         link: teach/gtn
+- Community:
+  title: Community
+  links:
+      - Community:
+        title: About
+        link: community
       - News:
         title: News
         link: news
@@ -66,3 +63,12 @@
       - api:
         title: API
         link: develop/api
+- Support:
+  title: Support
+  links:
+      - Support:
+        title: Hub
+        link: support
+      - Biostar:
+        title: Galaxy Biostar
+        link: support/biostar
