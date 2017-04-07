@@ -7,10 +7,10 @@
         title: Main Galaxy
         link: main
       - Servers:
-        title: Public servers
+        title: Public Servers
         link: public-galaxy-servers
       - Cloud:
-        title: On cloud
+        title: Cloud
         link: cloud
 - Education:
   title: Education
@@ -19,7 +19,7 @@
         title: Learn Galaxy
         link: learn
       - Support:
-        title: Get support
+        title: Get Support
         link: support
       - Teach:
         title: Teach
