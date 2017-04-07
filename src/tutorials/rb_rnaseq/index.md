@@ -96,7 +96,7 @@ The implication of stranded RNAseq is that you can distinguish whether the reads
 >![](/src/tutorials/rb_rnaseq/stranded_result.png)
 >
 >**Stranded RNAseq data look like this**<br>
->This example contrasts unstranded and stranded RNAseq experiments. <font color="red">Red transcripts</font> are from + strand and <font color="blue">blue</font> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image from GATC Biotech.
+>This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image from GATC Biotech.
 
 ### Replicates: Biological or Technical and how many?
 
@@ -265,7 +265,7 @@ In their [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/) Dündar et al.
 
 In addition, an excellent overview of these metrics can be found [here](https://haroldpimentel.wordpress.com/2014/05/08/what-the-fpkm-a-review-rna-seq-expression-units/). 
 
-#### <font color="red">&#9888; You should NEVER EVER use RPKM, FPKM, or TPM to compare expression levels <em>across</em> samples. These are RELATIVE measures! Consider yourself warned!</font> 
+#### <span style="color: red;">&#9888; You should NEVER EVER use RPKM, FPKM, or TPM to compare expression levels <em>across</em> samples. These are RELATIVE measures! Consider yourself warned!</span> 
 
 ## Finding expression differences
 
@@ -400,7 +400,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
  * Every gene count in then divided by the geometric mean;
  * The median of these ratios is a sample's size factor used for normalization.
 
-<font color="red">&#10148;</font> Note: For a comprehensive overview of differential gene expression with DESeq2 see [Love:2016](https://www.bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf).
+<span style="color: red;">&#10148;</span> Note: For a comprehensive overview of differential gene expression with DESeq2 see [Love:2016](https://www.bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf).
 
 #### DESeq2 in Galaxy
 
