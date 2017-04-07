@@ -17,14 +17,10 @@ bower = (files, metalsmith, done) ->
     include('fonts', bower_files.self().ext(['eot','otf','ttf','woff','woff2']).files)
     done()
 
-link_to_orig_path = (files, metalsmith, done) ->
-    for k, v of files
-        files[k].orig_path = k
-    done()
-
 apply_collection_defaults = (files, metalsmith, done) ->
     # Simple way to apply domain templates en masse
     for k, v of files
+        files[k].orig_path = k
         if 'events' in v.collection and not files[k].layout
             files[k].layout = 'events.pug'
         if 'news' in v.collection and not files[k].layout
@@ -32,7 +28,6 @@ apply_collection_defaults = (files, metalsmith, done) ->
             #if files[k].date == undefined
             #    files[k].date = '2010-01-01'
     done()
-
 
 fs = require('fs')
 path = require('path')
@@ -155,10 +150,8 @@ ms = metalsmith(__dirname)
             sortBy: "date"
             reverse: true
     .use timer 'metalsmith-collections'
-    .use link_to_orig_path
-    .use timer 'link_to_orig_path'
-    .use apply_collection_defaults
-    .use timer 'apply_collection_defaults'
+    .use set_metadata_defaults
+    .use timer 'set_metadata_defaults'
     .use handlebars_partial_handling
     .use timer 'handlebars_partial_handling'
     .use subs
