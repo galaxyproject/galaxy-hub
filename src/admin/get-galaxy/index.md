@@ -2,7 +2,6 @@
 autotoc: true
 title: Get Galaxy
 ---
-
 Here you will find information on obtaining and setting up a Galaxy instance with default configuration. 
 
 # Requirements
