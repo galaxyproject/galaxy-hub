@@ -262,7 +262,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 *The [The Language Applications (LAPPS) Grid](http://www.lappsgrid.org) team intends to seek funding for a project that would create customizable NLP applications that can be used to mine scientific literature,* in response to requests from scientists in several disciplines who want to extract entities, relations, networks, and ontologies from scientific publications and identify articles in the scientific literature that have treated particular topics or entities.
 
-Interested in participating? See the [full call for details](/src/news/2017-03-lapps-grid/index.md').
+Interested in participating? See the [full call for details](/src/news/2017-03-lapps-grid/index.md).
 
 [LAPPS Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources into Galaxy and provided for using them interoperably in a “plug-and-play” environment. 
 
