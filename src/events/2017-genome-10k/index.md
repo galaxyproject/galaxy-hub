@@ -1,5 +1,5 @@
 ---
-title: The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis
+title: 'The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis'
 date: '2017-09-01'
 days: 1
 tease: at Genome 10K and Genome Science
