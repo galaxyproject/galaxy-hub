@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy API
 ---
 In addition to being accessible through a web interface, Galaxy can also be accessed programmatically, through shell scripts and other programs.  The web interface is appropriate for things like exploratory analysis, visualization, construction of workflows, and rerunning workflows on new datasets.

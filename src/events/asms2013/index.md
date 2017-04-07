@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: 61st ASMS Conference on Mass Spectrometry and Allied Topics]
 external_url: http://www.asms.org/conferences/annual-conference
 ---

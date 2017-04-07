@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: How Jobs Execute
 ---
 [Back to Support Hub](/src/support/index.md)

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy API and Extending it; Workflow Enhancements
 ---
 {{> Events/GCC2012/PageHeader }}

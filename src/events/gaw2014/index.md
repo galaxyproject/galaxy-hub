@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Australasia Workshop 2014 (GAW 2014)
 ---
 <div class='center'>

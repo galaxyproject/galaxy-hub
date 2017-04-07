@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Services
 ---
 Galaxy is available in all sorts of flavors:  This page lists Galaxy services that either aren't fixed servers, or aren't [fully publicly accessible](/src/public-galaxy-servers/index.md) but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)

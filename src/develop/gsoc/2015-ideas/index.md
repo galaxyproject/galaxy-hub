@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 The Galaxy Project was notified its application to be a Google Summer of Code mentor organization in 2015 was **declined**.
 

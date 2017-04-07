@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Training: Resources
 ---
 {{> Teach/Header }}

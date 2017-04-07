@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Using volume storage
 ---
 [Jetstream instances](http://jetstream-cloud.org/general-vms.php) come with a

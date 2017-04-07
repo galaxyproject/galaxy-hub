@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: It's a new year in the Galaxy!
 ---
 <div class='right'>

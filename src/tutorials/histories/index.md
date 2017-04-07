@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Histories
 ---
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps

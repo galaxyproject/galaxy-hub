@@ -1,5 +1,4 @@
 ---
- autotoc: true
  title: Finding Tools
 ---
 [Back to Support Hub](/src/support/index.md)

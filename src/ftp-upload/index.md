@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy FTP Upload
 ---
 # File Upload via FTP

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 <div class='right'>
 

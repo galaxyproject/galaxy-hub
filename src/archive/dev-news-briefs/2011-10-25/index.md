@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # October 25, 2011 Galaxy Development News Brief
 

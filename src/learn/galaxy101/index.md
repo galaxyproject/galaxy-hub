@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy 101
 ---
 # Introduction to Galaxy

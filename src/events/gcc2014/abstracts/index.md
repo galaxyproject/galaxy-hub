@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Abstracts
 ---
 {{> Events/GCC2014/Header }}

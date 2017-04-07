@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # How to publish a tool in the Tool Shed
 

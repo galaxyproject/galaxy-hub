@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Running Galaxy Tools on a Cluster
 ---
 {{> Admin/Config/Performance/LinkBox }}

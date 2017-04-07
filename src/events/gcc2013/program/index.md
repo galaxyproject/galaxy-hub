@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Program
 ---
 {{> Events/GCC2013/Header }}

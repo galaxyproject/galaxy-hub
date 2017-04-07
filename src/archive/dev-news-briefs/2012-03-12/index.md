@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: March 12, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>

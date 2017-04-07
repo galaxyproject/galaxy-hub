@@ -1,5 +1,4 @@
 ---
- autotoc: true
  title: NCBI SRA Fastq
 ---
 [Back to Support Hub](http://wiki.galaxyproject.org/support/)

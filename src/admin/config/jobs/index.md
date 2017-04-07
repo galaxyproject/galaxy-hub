@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Job Configuration
 ---
 {{> Admin/LinkBox }}

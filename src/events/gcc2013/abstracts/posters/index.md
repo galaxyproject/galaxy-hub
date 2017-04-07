@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Poster Abstracts
 ---
 {{> Events/GCC2013/Header }}

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Publicly Accessible Galaxy Servers
 ---
 ![](/src/public-galaxy-servers/80PlusSlide.png)

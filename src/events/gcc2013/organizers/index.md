@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Organizers
 ---
 {{> Events/GCC2013/Header }}

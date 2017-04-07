@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 ## External user authentication
 

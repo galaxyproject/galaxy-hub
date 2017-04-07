@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Galaxy development
 

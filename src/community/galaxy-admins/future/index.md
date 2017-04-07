@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
 ---
 <div class='center'>

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Getting Started with Galaxy CloudMan
 ---
 {{> CloudMan/Header }}

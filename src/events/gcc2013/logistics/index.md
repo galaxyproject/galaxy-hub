@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Logistics
 ---
 {{> Events/GCC2013/Header }}

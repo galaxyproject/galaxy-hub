@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Abstract submission is now closed
 ---
 {{> Events/GCC2012/PageHeader }}

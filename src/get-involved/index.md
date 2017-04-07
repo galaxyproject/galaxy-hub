@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Get Involved!
 ---
 <div class='right'></div>

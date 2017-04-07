@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Galaxy Screencasts and Demos
 

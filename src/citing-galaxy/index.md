@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Citing Galaxy
 ---
 <div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src="/src/citing-galaxy/GenomeBiologyColver20108.gif" alt="Genome Biology" height="125" /></a> 

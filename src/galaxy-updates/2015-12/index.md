@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galactic December News!
 ---
 <div class='right'>

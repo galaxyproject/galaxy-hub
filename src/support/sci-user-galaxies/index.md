@@ -1,5 +1,4 @@
 ---
- autotoc: true
  title: Sci User Guild for Running Galaxy
 ---
 [Back to Support Hub](http://wiki.galaxyproject.org/support/)
