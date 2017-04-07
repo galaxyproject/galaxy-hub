@@ -24,12 +24,15 @@ set_metadata_defaults = (files, metalsmith, done) ->
             # Link to original path
             files[k].orig_path = k
             # Autotoc defaults to true
-            files[k].autotoc = true if files[k].autotoc == undefined
             # Set domain templates
-            if 'events' in v.collection and not files[k].layout
-                files[k].layout = 'events.pug'
-            if 'news' in v.collection and not files[k].layout
-                files[k].layout = 'news.pug'
+            if 'events' in v.collection
+                files[k].layout = 'events.pug' if files[k].layout == undefined
+                files[k].autotoc = false if files[k].autotoc == undefined
+            else if 'news' in v.collection
+                files[k].layout = 'news.pug' if files[k].layout == undefined
+                files[k].autotoc = false if files[k].autotoc == undefined
+            else
+                files[k].autotoc = true if files[k].autotoc == undefined
     done()
 
 fs = require('fs')
