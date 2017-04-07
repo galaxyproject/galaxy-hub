@@ -33,7 +33,7 @@ Your choices depends upon your needs.  Here are the options depending on what yo
 | Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| All needed [Tools](/src/tools/index.md) are [installed on Main](/src/admin/tools/ToolDependencies/index.md). |  Yes  |  ?  |  Yes  |  Yes |  [?](/src/public-galaxy-servers/index.md)  | 
+| All needed tools are installed on Main. |  Yes  |  ?  |  Yes  |  Yes |  [?](/src/public-galaxy-servers/index.md)  | 
 | Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
 | You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
