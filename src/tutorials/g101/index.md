@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy 101
 ---
 [//]: # (Here Hugo shortcodes for vimeo have been replaced to bootsrap-based HTML with the folloing command)

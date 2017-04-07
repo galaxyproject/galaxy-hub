@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 

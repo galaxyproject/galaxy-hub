@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: August 2015 Tool Shed Contributions
 ---
 * [Wiki Root](/src/toolshed/index.md)

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Galaxy Trainer Directory
 

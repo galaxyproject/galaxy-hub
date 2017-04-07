@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Missing History
 ---
 [Back to Support Hub](http://wiki.galaxyproject.org/support/)

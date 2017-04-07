@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a> </div>
 

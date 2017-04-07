@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 # Writing Data Manager Tests
 

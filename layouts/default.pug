@@ -4,8 +4,7 @@ block content
     section.section-content
         if toc
             div.col-md-9
-                if !skip_title_render
-                    h1.pageTitle !{ title }
+                +renderPageTitle
                 div !{ contents }
             div.col-md-3
                 div.affix#sidebar
@@ -13,6 +12,5 @@ block content
         else
             div.col-md-12
                 section.section-content
-                    if !skip_title_render
-                        h1.pageTitle !{ title }
+                    +renderPageTitle
                     div !{ contents }

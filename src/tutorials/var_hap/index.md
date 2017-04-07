@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Finding variants in haploid genomes
 ---
 # Introduction

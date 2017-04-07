@@ -8,6 +8,15 @@ mixin renderToc(items)
                 if toc_item.children.length > 0
                     +renderToc(toc_item.children)
 
+mixin renderPageTitle()
+    if !skip_title_render
+        h1.pageTitle #{ title }
+        +renderPageTease
+
+mixin renderPageTease()
+    if tease
+        p: em #{tease}
+
 head( lang="en" )
     block title
         title=title

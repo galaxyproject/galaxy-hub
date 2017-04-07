@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: January 13, 2015 Galaxy Distribution News Brief
 ---
 <div class='right'></div>

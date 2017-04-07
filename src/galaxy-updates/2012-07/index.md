@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: July 2012 Galaxy Update
 ---
 <div class='right'></div>

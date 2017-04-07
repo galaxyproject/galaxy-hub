@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Learn Galaxy
 ---
 There are many approaches to learning how to *use* Galaxy. The most popular is probably to just dive in and use it. Galaxy is simple enough to use that you can do many analyses just by exploring the interface. However, you may miss much of the power this way. 

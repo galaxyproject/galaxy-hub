@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: GMOD Summer School 2014 - Installing Galaxy
 ---
 <div class='right'></div>

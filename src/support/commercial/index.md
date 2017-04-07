@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Commercial Galaxy Support
 ---
 <div class='right'></div>

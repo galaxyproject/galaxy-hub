@@ -1,5 +1,4 @@
 ---
- autotoc: true
  title: Datatype Tabular
 ---
 [Back to Support Hub](/src/support/index.md)

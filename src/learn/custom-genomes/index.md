@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Custom Genomes
 ---
 # What is a "Custom Reference Genome" ?

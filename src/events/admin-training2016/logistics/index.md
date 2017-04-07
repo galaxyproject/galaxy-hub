@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Admin Training Logistics
 ---
 {{> Events/AdminTraining2016/Header }}

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 ---
 #acl WikiAdminGroup:read,write,revert All:read
 {{> Learn/LinkBox }}

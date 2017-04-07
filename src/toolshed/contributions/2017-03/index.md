@@ -1,6 +1,5 @@
 ---
 title: March 2017 Tool Shed contributions
-autotoc: true
 ---
 Tools contributed to the Galaxy Project Tool Shed in [March 2017](/src/galaxy-updates/2017-04/index.md).
 

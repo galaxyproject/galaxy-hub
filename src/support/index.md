@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Support
 ---
 ## Quick Start

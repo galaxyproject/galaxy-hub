@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Galaxy Deployment Catalog
 ---
 <div class='right'></div>

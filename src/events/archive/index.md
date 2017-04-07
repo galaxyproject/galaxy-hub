@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Beyond the Galaxy Event Horizon
 layout: default.pug
 ---

@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: August 12, 2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>

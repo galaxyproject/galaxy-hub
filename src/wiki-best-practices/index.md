@@ -1,5 +1,4 @@
 ---
-autotoc: true
 title: Wiki Best Practices
 ---
 <div class='right'></div>
