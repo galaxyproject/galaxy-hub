@@ -12,18 +12,6 @@
       - Cloud:
         title: Cloud
         link: cloud
-- Education:
-  title: Education
-  links:
-      - Learn:
-        title: Learn Galaxy
-        link: learn
-      - Teach:
-        title: Teach
-        link: teach
-      - GTN:
-        title: Training Network
-        link: teach/gtn
 - Community:
   title: Community
   links:
@@ -42,6 +30,18 @@
       - Project Stats:
         title: Stats
         link: galaxy-project/statistics
+- Education:
+  title: Education
+  links:
+      - Learn:
+        title: Learn Galaxy
+        link: learn
+      - Teach:
+        title: Teach
+        link: teach
+      - GTN:
+        title: Training Network
+        link: teach/gtn
 - Deploy:
   title: Deploy & Develop
   links:
