@@ -1,7 +1,6 @@
 ---
+title: Galaxy Administration
 ---
-# Galaxy Administration
-
 This is a hub page on topics related to deployment and administration of your own instance of Galaxy.
 
 ## Setup admin user
