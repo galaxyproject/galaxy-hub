@@ -410,5 +410,29 @@ Let's visualize Merged peaks as well as Narrow peaks and Summits produced by `MA
 |---------|
 |![](/src/tutorials/chip/igv2.png)|
 
+## What sequence motifs are found within peaks
+
+In this experiment antibodies against Reb1 protein have been used. The recognition site for Reb1 is `TTACCCG` ([Badis:2008](http://www.sciencedirect.com/science/article/pii/S1097276508008423)) and [Harbison:2004](http://www.nature.com/nature/journal/v431/n7004/abs/nature02800.html)). To find out which sequence motifs are found within our peaks we first need to convert coordinates into underlying sequences. This is done using **Fetch Alignments/Sequences -> Extract Genomic DNA** tool:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/extract_dna.png)|
+|<small>**Extracting genomic DNA** corresponding to ChIP-seq peaks. Here we use `Merged peaks` dataset generated few steps earlier.</small>|
+
+Next, we need to make sure that all sequences are sufficiently long for finding patters. [MEME](http://meme-suite.org/), the tools we will use to find motifs, required sequences to be at least 8 nucleotides long. So we will remove short sequences using **FASTA manipulation -> Filter sequences by length** tool:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/fa_length.png)|
+|<small>**Filtering FASTA** by length. Here we are removing all sequences shorted than 8 nucleotides.</small>|
+
+Now we can run **Motif Tools -> MEME**:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/meme1.png)|
+|<small>**Running MEME** with default parameters on length-filtered FASTA sequences from the previous step.</small>|
+
+`MEME` generates a number of outputs. The most interesting is HTML Report:
 
 
