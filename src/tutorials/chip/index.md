@@ -247,7 +247,7 @@ Here is a concise description of these steps:
 
 - **Compute False Discovery Rate (FDR)** - [Feng:2012](http://www.nature.com/nprot/journal/v7/n9/full/nprot.2012.101.html) explains computing FDR in MACS as follows: <em>"When a control sample is available </em>(and you should really always use it - AN)<em>, MACS can also estimate an empirical FDR for every peak by exchanging the ChIP-seq and control samples and identifying peaks in the control sample using the same set of parameters used for the ChIP-seq sample. Because the control sample should not exhibit read enrichment, any such peaks found by MACS can be regarded as false positives. For a particular P value threshold, the empirical FDR is then calculated as the number of control peaks passing the threshold divided by the number of ChIP-seq peaks passing the same threshold." </em>
 
-## Running MACS2
+## Finding peaks
 
 In our case we have two replicates each containing ChIP and input DNA samples. We will first run MACS on pulled data (combining two ChIP samples and two inputs, respectively). We will then run MACS on each replicate individually. Finally, we will pick a robust set of peaks present in all three callsets.
 
@@ -277,9 +277,20 @@ Next, we will use **NGS: SAMtools -> Split** to separate merged file into indivi
 |![](/src/tutorials/chip/split_data.png)|
 |<small>**Resulting datasets**. Each contains aligned reads from the four original conditions.</small>|
 
-### Running MACS
+### Punning MACS2
 
-Now it is time to run MACS2. First we will run it on combined data:
+Now it is time to run MACS2. First we will use **NGS: Peak calling -> MACS2 predictd** tool from the `MACS2` package. This tool will help us to find optimal parameters for running peak calling function of `MACS2`:
+
+|                |
+|----------------|
+|![](/src/tutorials/chip/predictd1.png)|
+|<small>**Running `predictd`** for estimate the *d* parameter. Here we set **Effective genome size** to Yeast-specific value, set **Band width** to `150` (the fragment length after size selection), and increase **Set upper mfold bound** to `100` (this is a ChIP-exo experiment where we expect to have sharp, greatly enriched regions. Leaving this parameter at its default of `50` may fail to find any peaks).</small>|
+
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Do this on the other dataset as well!</div>
+
+This procedure will help us estimate the *d* parameter 
+
+
 
 |                |
 |----------------|
