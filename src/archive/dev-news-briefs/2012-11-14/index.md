@@ -1,10 +1,6 @@
 ---
 title: November 14, 2012 Galaxy Development News Brief
 ---
-<div class='right'></div>
-
-
-
 <br />
 # Get Galaxy
 

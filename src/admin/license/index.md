@@ -1,9 +1,6 @@
 ---
 title: Copyrights and Licenses
 ---
-<div class='right'></div>
-
-
 ## Copyright
 
 Copyright (c) 2005-2015 Pennsylvania State University

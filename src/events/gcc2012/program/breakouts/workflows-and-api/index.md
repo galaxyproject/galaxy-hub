@@ -6,9 +6,7 @@ title: Galaxy API and Extending it; Workflow Enhancements
 
 **A [GCC22012](/src/events/gcc2012/index.md) [Breakout Session](/src/events/gcc2012/program/breakouts/index.md)**
 
-{{> Events/GCC2012/LinkBox }} <div class='right'></div>
-
-# Participants
+{{> Events/GCC2012/LinkBox }} # Participants
 
 * Clare Sloggett
 * Scott McManus

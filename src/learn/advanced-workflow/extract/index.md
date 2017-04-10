@@ -4,8 +4,6 @@ title: Extract Workflow from a History
 {{> Learn/LinkBox }}
 
 
-<div class='right'></div>
-
 <br />
 [Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)
 

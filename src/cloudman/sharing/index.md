@@ -3,8 +3,6 @@ title: Cloning and sharing CloudMan clusters
 ---
 {{> CloudMan/LinkBoxHorizontal }}
 
-<div class='right'></div>
-
 You can customize any cluster you launch with your own datasets,
 configurations, Galaxy tools, or genomic reference data. After you complete
 your changes, you can keep it private, you can share with a specified list of

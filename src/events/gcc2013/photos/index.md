@@ -29,4 +29,3 @@ If you have some you would like to have posted here, plase send them to [Galaxy 
 <div class='left'><img src="/src/events/gcc2013/photos/Dinner4.jpg" alt="" width="300" /><br /> Conference dinner </div>
 <div class='left'><img src="/src/events/gcc2013/photos/TheJump.jpg" alt="" width="300" /><br /> Yow </div>
 <div class='left'><img src="/src/events/gcc2013/photos/Travel.jpg" alt="" width="300" /><br /> Travel </div>
-<div class='right'></div>

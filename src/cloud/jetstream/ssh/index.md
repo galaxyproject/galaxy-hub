@@ -3,8 +3,6 @@ title: SSH Access
 ---
 {{> Cloud/Jetstream/LinkBox }}
 
-<div class='right'></div>
-
 Some tasks on the Galaxy server (e.g., configuration changes) require you to connect to the VM using a command line shell. This can easily be done from within your browser by opening the VM details page and clicking the *Open Web Shell* button. 
 
 <img src="http://i.imgur.com/xYtIYoR.png" alt="" width=300 />

@@ -5,8 +5,6 @@ title: CloudMan Troubleshooting
 
 {{> CloudMan/LinkBoxHorizontal }}
 
-<div class='right'></div>
-
 The following documentation can help you troubleshoot problems that you might have with your cloud system.
 For additional help with this system, you can search the [mailing list archives](http://dev.list.galaxyproject.org/), [Biostar forum](https://biostar.usegalaxy.org/), [IRC channel log](https://botbot.me/freenode/galaxyproject/), or post a question to any of those venues.
 

@@ -1,8 +1,6 @@
 ---
 title: June 3, 2013 Galaxy Distribution News Brief
 ---
-<div class='right'></div>
-
 [All News Briefs](/src/docs/index.md)
 
 <br />

@@ -44,4 +44,4 @@ If you have some you would like to have posted here, please send them to outreac
 <div class='left'><img src="/src/events/gcc2012/photos/RichLeDuc.jpg" alt="" width="300" /><br /> Rich LeDuc </div>
 <div class='left'><img src="/src/events/gcc2012/photos/GeirKjetilSandve.jpg" alt="" width="300" /><br /> Geir Kjetil Sandve </div>
 <div class='left'><img src="/src/events/gcc2012/photos/LetUsKnow.jpg" alt="" width="300" /><br /> Let us know! </div>
-<div class='left'><img src="/src/events/gcc2012/photos/GCC2013.jpg" alt="" width="300" /><br /> See you next year! <div class='right'></div>
+<div class='left'><img src="/src/events/gcc2012/photos/GCC2013.jpg" alt="" width="300" /><br /> See you next year! 

@@ -1,7 +1,6 @@
 ---
 title:  Galaxy Project Workshop 2015 
 ---
-<div class='right'></div>
 # The Galaxy Ecosystem
 
 **[http://galaxyproject.org](http://galaxyproject.org)**
