@@ -5,8 +5,6 @@ title: Getting Started with Galaxy on the Cloud
 
 
 
-<div class='right'></div>
-
 This getting started is for non-technical users who are interested in creating their own *Galaxy on the Cloud*. By following this getting started, you’ll learn fundamental process of starting your own cloud cluster with Galaxy. It takes about 10 minutes to complete.
 
 ## Step 0: Get your cloud credentials

@@ -3,8 +3,6 @@ title: Building Galaxy CloudMan components
 ---
 {{> CloudMan/LinkBoxHorizontal }}
 
-<div class='right'></div>
-
 Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy on the Cloud](/src/cloudman/index.md) is a pretty straightforward process. [The underlying system](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full), however, is more complex and consists of a number of components. This page describes the steps required to build your own version of the components and deploy the system. You may want to do this if you are deploying the system on your own Cloud. If you would just like to have a custom version of the existing system on AWS, perhaps [cluster sharing & cloning](/src/cloudman/sharing/index.md) can help?
 
 ## Overview

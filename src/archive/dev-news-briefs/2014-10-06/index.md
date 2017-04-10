@@ -1,8 +1,6 @@
 ---
 title: October 06, 2014 Galaxy Distribution News Brief
 ---
-<div class='right'></div>
-
 [All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2014_10_06](/src/news/2014-10-06-galaxy-distribution/index.md)

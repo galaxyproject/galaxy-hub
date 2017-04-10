@@ -3,8 +3,6 @@ title: Getting Started with Galaxy on the Cloud
 ---
 {{> CloudMan/LinkBoxHorizontal }}
 
-<div class='right'></div>
-
 This getting started guide will guide you through creating their own
 *Galaxy on the Cloud* instance. It takes about 10 minutes to complete. There is
 also a video version of this documentation available

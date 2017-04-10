@@ -4,8 +4,6 @@ title: Basic Workflow Editing
 {{> Learn/LinkBox }}
 
 
-<div class='right'></div>
-
 <br />
 [Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)
 

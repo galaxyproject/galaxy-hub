@@ -1,8 +1,6 @@
 ---
 title: August 12, 2013 Galaxy Distribution News Brief
 ---
-<div class='right'></div>
-
 [All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2013_08_12](/src/news/2013-08-12-galaxy-distribution/index.md)

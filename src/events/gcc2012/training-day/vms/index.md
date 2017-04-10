@@ -8,8 +8,6 @@ If you are planning on attending any of these [GCC2012](/src/events/gcc2012/inde
 * [WS6: Galaxy API](/src/events/gcc2012/training-day/vms//index.md#ws6)
 * [WS7: Galaxy Tool Shed](/src/events/gcc2012/training-day/vms//index.md#ws7)
 
-<div class='right'></div>
-
 If you are attending this workshop
 
 * [WS5: Installing Your Own Galaxy](/src/events/gcc2012/training-day/vms//index.md#ws5)

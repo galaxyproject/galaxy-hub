@@ -1,10 +1,6 @@
 ---
 title: Commercial Galaxy Support
 ---
-<div class='right'></div>
-
-
-
 Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
 
 # Consulting

@@ -1,8 +1,6 @@
 ---
 title: Galaxy Deployment Catalog
 ---
-<div class='right'></div>
-
 <div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></div> 
 
 Welcome to the *Galaxy Deployment Catalog*. This catalog describes the details of how Galaxy is installed at different institutions.  Details include [infrastructure information](/src/community/deployments/index.md#deployments-implementation) as well as [user community and domain information](/src/community/deployments/index.md#deployments-user-and-domain-information) for each deployment.

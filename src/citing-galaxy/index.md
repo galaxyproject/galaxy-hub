@@ -15,8 +15,6 @@ title: Citing Galaxy
 
 
 
-<div class='right'></div>
-
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](/src/citing-galaxy/index.md#primary-publication) for project wide citations.  There are also several [publications on more specific topics](/src/citing-galaxy/index.md#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](/src/citing-galaxy/index.md#galaxy-project-publications-by-year).
 
 ## Which Galaxy?

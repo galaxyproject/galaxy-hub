@@ -1,10 +1,6 @@
 ---
 title: August 30, 2011 Galaxy Development News Brief
 ---
-<div class='right'></div>
-
-
-
 ## Get Galaxy
 
 **[getgalaxy.org](http://getgalaxy.org)**

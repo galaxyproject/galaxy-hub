@@ -9,8 +9,6 @@ title: Galaxy Australasia Workshop 2014 (GAW 2014)
 
 
 
-<div class='right'></div>
-
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.** 
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) was a great opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 ran 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.

@@ -1,8 +1,6 @@
 ---
 title: June 2, 2014 Galaxy Distribution News Brief
 ---
-<div class='right'></div>
-
 [All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2014_06_02](/src/news/2014-06-02-galaxy-distribution/index.md)

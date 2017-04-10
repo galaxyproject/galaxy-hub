@@ -5,8 +5,6 @@ title: Virtual Appliances
 
 
 
-<div class='right'></div>
-
 One of the [many ways that Galaxy is available](/src/choices/index.md) is in *virtual appliances* that already have Galaxy installed and configured on them - these may take the form of *cloud images*, more traditional *virtual machine images*, or *docker containers*.  Running a pre-configured Galaxy virtual appliance saves on installation and configuration work, and enables you to get up and running with Galaxy very quickly.
 
 These virtual appliances are frequently used for training, or as tool demonstration and data publishing platforms.  However, they not limited to teaching, tool demonstration, and data publishing.  Production scale/quality Galaxy servers are also deployed using them.

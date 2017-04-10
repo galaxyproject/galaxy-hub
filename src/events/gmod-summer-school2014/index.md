@@ -1,8 +1,6 @@
 ---
 title: GMOD Summer School 2014 - Installing Galaxy
 ---
-<div class='right'></div>
-
 This page was created in May, 2014 for the 'Installing Galaxy' workshop, part of the
 [GMOD Summer School Program for 2014](http://gmod.org/wiki/GMOD_Online_Training_2014) and in cooperation with
 [The Generic Model Organism Database project](http://gmod.org).
