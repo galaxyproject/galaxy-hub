@@ -2,7 +2,6 @@
 title: Galaxy Teaching Hub
 skip_title_render: true
 ---
-
 <div class='center'><a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" width="300" /></a></div>
 
 This is the *hub page* for information about how to teach bioinformatics using
