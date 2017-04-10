@@ -92,7 +92,7 @@ If it is desired that datasets be removed before their outer container
 script can be used before the purge_datasets.sh script. This script may take
 some time to complete.
 
-Available Flags:
+### Available Flags:
 
 
 | flag | short | description |
