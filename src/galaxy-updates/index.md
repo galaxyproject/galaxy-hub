@@ -12,6 +12,7 @@ title: Galaxy Updates
 
 ## 2017 Updates
 
+* [2017-04](/src/galaxy-updates/2017-04/index.md) ([Summary](/src/news/2017-04-galaxy-update/index.md))
 * [2017-03](/src/galaxy-updates/2017-03/index.md) ([Summary](/src/news/2017-03-galaxy-update/index.md))
 * [2017-01](/src/galaxy-updates/2017-01/index.md) ([Summary](/src/news/2017-01-galaxy-update/index.md))
 
