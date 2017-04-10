@@ -1,7 +1,6 @@
 ---
 title: February 8, 2013 Galaxy News Brief
 ---
-<br />
 # Get Galaxy
 
 *Please note new* **upgrade** *syntax*

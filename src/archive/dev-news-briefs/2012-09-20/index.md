@@ -1,7 +1,6 @@
 ---
 title: September 20, 2012 Galaxy Development News Brief
 ---
-<br />
 # Get Galaxy
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>

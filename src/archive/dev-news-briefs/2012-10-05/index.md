@@ -1,7 +1,6 @@
 ---
 title: October 5, 2012 Galaxy Development News Brief
 ---
-<br />
 # Get Galaxy
 
 <table>
