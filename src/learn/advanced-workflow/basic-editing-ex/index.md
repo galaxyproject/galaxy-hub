@@ -1,7 +1,6 @@
 ---
 name: "Tutorial: Basic Editing"
 ---
-
 <div class='right'></div>
 
 # **** IN PROGRESS DO NOT USE ****
