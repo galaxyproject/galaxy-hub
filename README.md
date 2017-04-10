@@ -33,6 +33,10 @@ autotoc: false
 |autotoc|boolean|(true), false|flag whether to include table of contents in the right side|
 |title|string|(empty)|value of `<title>` HTML tag in the page and first page heading|
 
+### Redirects
+
+When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
+
 ## Deploying the site locally
 
 To edit and run the site locally, start by creating a fork of this repository.
@@ -124,7 +128,3 @@ If your version is older than that, you may benefit from upgrading.
 
 
 [1]: http://www.metalsmith.io/
-
-## Redirects
-
-When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
