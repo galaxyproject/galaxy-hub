@@ -443,7 +443,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/)
   * Email: [Eric Rasche](mailto:esr+gxfaq@tamu.edu)
 * *Quotas:*
-  * An account will bump your quota from 10 Mb to 50 Mb. The administrator can increase your quota on request, and grant you access to the restricted tools (genome assembly, blast, interpro).
+  * An account will bump your quota from 50 Mb to 10 Gb. The administrator can increase your quota on request.
 * *Sponsor(s):*
   * [Center for Phage Technology (CPT)](https://cpt.tamu.edu/), Texas A&M University
 
