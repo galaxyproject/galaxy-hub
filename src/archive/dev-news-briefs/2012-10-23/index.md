@@ -1,7 +1,6 @@
 ---
 title: October 23, 2012 Galaxy Development News Brief
 ---
-<br />
 # Get Galaxy
 
 *** Upgrade NOW for an Important [Security Fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute_tool_security_fix) ***

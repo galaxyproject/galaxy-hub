@@ -1,7 +1,6 @@
 ---
 title: December 03, 2012 Galaxy Development News Brief
 ---
-<br />
 # Get Galaxy
 
 <table>
