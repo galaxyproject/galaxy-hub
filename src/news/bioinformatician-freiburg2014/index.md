@@ -2,8 +2,6 @@
 title: "Bioinformaticians, Freiburg"
 date: "2014-10-30"
 ---
-----
-
 <div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/src/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>
 
 [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs) in Freiburg, Germany has an opening for a Bioinformatician for an initial period of two years.  The successful candidate will work at the interface between an in-house deep-sequencing facility (HiSeq-2500) and the various research groups at the institute. Main responsibilities include

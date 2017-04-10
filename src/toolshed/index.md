@@ -1,7 +1,6 @@
 ---
+title: Galaxy ToolShed
 ---
-# Galaxy ToolShed
-
 ## Common Terminology
 
 * [*wrapper*](/src/toolshed/publish-tool/index.md) or *tool definition file* - The XML file that describes to Galaxy how the underlying software works, thus allowing Galaxy to execute the software in the right way.

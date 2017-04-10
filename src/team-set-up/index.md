@@ -1,7 +1,6 @@
 ---
+title: Team Set up
 ---
-# Team Set up
-
 Hi!
 
 This page is here to get the environment set up of the team members. You can use it to get inspired about your own, and be more productive on your (Galaxy) work.

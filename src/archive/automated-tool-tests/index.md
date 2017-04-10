@@ -1,10 +1,10 @@
 ---
+title: The automated tool test environment
 ---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a></div>
 
 
 
-# The automated tool test environment
 
 The automated repository installation and tool testing environment ran on an Amazon EC2 instance based on an Ubuntu image with the addition of the following core packages required for reliable testing:
 

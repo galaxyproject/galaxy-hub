@@ -1,8 +1,6 @@
 ---
+name: "Tutorial: Basic Editing"
 ---
-{{> Learn/LinkBox }}
-
-# Tutorial: Basic Editing
 
 <div class='right'></div>
 

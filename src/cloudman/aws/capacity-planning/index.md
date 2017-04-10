@@ -1,4 +1,5 @@
 ---
+title: Capacity Planning
 ---
 {{> CloudMan/LinkBoxHorizontal }}
 

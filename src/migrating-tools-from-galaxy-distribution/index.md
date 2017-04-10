@@ -1,7 +1,6 @@
 ---
+title: Migrating tools from the Galaxy distribution to the Galaxy Main Tool Shed
 ---
-# Migrating tools from the Galaxy distribution to the Galaxy Main Tool Shed
-
 In 2012, the Galaxy development team began the process of migrating the tools that were available in the Galaxy code distribution to the [Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu). This enabled those that host their own local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested.
 
 A certain set of "base tools" will continue to be included with the Galaxy distribution, but it will be smaller than it is currently. The Emboss version 5.0.0 tools was the first set of tools eliminated from the Galaxy distribution and hosted in the Galaxy Tool Shed.  There have been several more tools migrated since that time.

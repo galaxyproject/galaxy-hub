@@ -1,9 +1,6 @@
 ---
+title: Galaxy Data Manager XML File
 ---
-# Galaxy Data Manager XML File
-
-----
-
 The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values. 
 
 Pay attention to the following when creating a new Data Manager:

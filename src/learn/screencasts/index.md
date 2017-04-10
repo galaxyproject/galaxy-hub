@@ -1,7 +1,6 @@
 ---
+title: Galaxy Screencasts and Demos
 ---
-# Galaxy Screencasts and Demos
-
 Screencasts are one of several ways to [learn](/src/learn/index.md) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
 Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject).

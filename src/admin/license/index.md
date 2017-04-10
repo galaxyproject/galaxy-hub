@@ -1,8 +1,8 @@
 ---
+title: Copyrights and Licenses
 ---
 <div class='right'></div>
 
-# Copyrights and Licenses
 
 ## Copyright
 

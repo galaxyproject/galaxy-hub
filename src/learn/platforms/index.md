@@ -1,4 +1,5 @@
 ---
+title: Platforms
 ---
 {{> Learn/LinkBox }}
 

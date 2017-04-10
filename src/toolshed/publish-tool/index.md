@@ -1,7 +1,6 @@
 ---
+title: How to publish a tool in the Tool Shed
 ---
-# How to publish a tool in the Tool Shed
-
 ## Steps
 
 1. Prepare a correct set of tool files.
