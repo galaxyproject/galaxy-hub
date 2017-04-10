@@ -35,31 +35,62 @@ use it:
 
 * [Access your instance via ssh](/src/cloud/jetstream/ssh/index.md) and create
   a directory for the Galaxy files. The volume you attached to your instance
-  will be available under `/vol1` so create a directory under that one. Change
-  the ownership of the directory to the `galaxy` system user.
+  will be most likely be available under `/vol_c` so create a directory under 
+  that one. Change the ownership of the directory to the `galaxy` system user.
 
   ```
-  sudo mkdir /vol1/gxy_data
-  sudo chown galaxy:galaxy /vol1/gxy_data
+  sudo mkdir /vol_c/gxy_data
+  sudo chown galaxy:galaxy /vol_c/gxy_data
   ```
+  
+  It may be possible for the volume to have gotten mounted to the instance
+  under a directoy different than `/vol_c`. You will know this if the `mkdir`
+  command above fails. In that case, discover which where the volume got
+  mounted by running the `df` command:
+  
+  ```
+  $ df
+  Filesystem     1K-blocks     Used Available Use% Mounted on
+  udev            61883716       12  61883704   1% /dev
+  tmpfs           12377780      452  12377328   1% /run
+  /dev/sda1       61893628 19750448  39595940  34% /
+  none                   4        0         4   0% /sys/fs/cgroup
+  none                5120        0      5120   0% /run/lock
+  none            61888888        0  61888888   0% /run/shm
+  none              102400        0    102400   0% /run/user
+  /dev/sdb       980385892    95308 930466840   1% /vol1
+  ```
+  In this case, the volume is available under `/vol1`. If that is the case,
+  just replace all occurances of `vol_c` in the commands with the available
+  path.
 
 * Edit the following entries in the main Galaxy configuration file
   `/opt/galaxy/galaxy-app/config/galaxy.ini` to point to the directory you
   created.
 
   ```
-  new_file_path = /vol1/gxy_data/tmp
-  job_working_directory = /vol1/gxy_data/jobs
-  file_path = /vol1/gxy_data/datasets
-  object_store_cache_path = /vol1/gxy_data/object_store_cache
+  $ nano /opt/galaxy/galaxy-app/config/galaxy.ini
+  # (Edit the following lines in the file)
+  new_file_path = /vol_c/gxy_data/tmp
+  job_working_directory = /vol_c/gxy_data/jobs
+  file_path = /vol_c/gxy_data/datasets
+  object_store_cache_path = /vol_c/gxy_data/object_store_cache
   ```
 
 * Restart Galaxy with the following command
   `sudo supervisorctl restart galaxy:web0`
 
 Run a couple of jobs through the Galaxy web interface now and see if the files
-are being written under `/vol1/gxy_data/datasest/`. If so, you are all set.
+are being written on the new volume. You should see output similar to this:
 
+```
+$ ls -l /vol_c/gxy_data/datasets/000/
+total 21588
+-rw-r--r-- 1 galaxy users  1206112 Apr 10 07:39 dataset_1.dat
+-rw-r--r-- 1 galaxy users 20896315 Apr 10 07:40 dataset_2.dat
+``` 
+
+If so, you are all set.
 
 ## Stopping your instance
 
@@ -95,7 +126,7 @@ following steps:
   then start Galaxy:
 
   ```
-  sudo chown -R galaxy:galaxy /vol1/gxy_data
+  sudo chown -R galaxy:galaxy /vol_c/gxy_data
   sudo supervisorctl start galaxy:web0
   ```
 
