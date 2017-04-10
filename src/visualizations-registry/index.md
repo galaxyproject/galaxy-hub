@@ -1,9 +1,6 @@
 ---
+title: The Visualizations Registry
 ---
-# The Visualizations Registry
-
-
-
 The visualizations registry and plugin framework provides an easy way to create new, custom visualizations for almost
 any data.
 

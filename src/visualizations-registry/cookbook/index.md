@@ -1,9 +1,6 @@
 ---
+title: Visualizations Registry Cookbook
 ---
-<br />
-</div></div>
-
-
 ## Configuration
 
 ### I want my visualization to work on datasets of more than one type

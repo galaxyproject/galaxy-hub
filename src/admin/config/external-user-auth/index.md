@@ -1,7 +1,6 @@
 ---
+title: External User Authentication
 ---
-## External user authentication
-
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.
 
 Galaxy does now do this by itself (Before we needed to use [Nginx](/src/admin/config/nginx-external-user-auth/index.md) or [Apache](/src/admin/config/apache-external-user-auth/index.md) to handle this).

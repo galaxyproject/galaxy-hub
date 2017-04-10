@@ -1,9 +1,9 @@
 ---
+title: Extract Workflow from a History
 ---
 #acl WikiAdminGroup:read,write,revert All:read
 {{> Learn/LinkBox }}
 
-# Extract Workflow from a History
 
 <div class='right'></div>
 

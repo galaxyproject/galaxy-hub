@@ -1,7 +1,6 @@
 ---
+title: Galaxy Documentation
 ---
-# Galaxy Documentation
-
 The resources outlined here provide valuable documentation for successfully operating a Galaxy instance. Contributions from the community are highly encouraged!
 
 ## Releases

@@ -1,8 +1,6 @@
 ---
+title: Creating Workflows and Advanced Workflow Options
 ---
-{{> Learn/LinkBox }}
-# Creating Workflows and Advanced Workflow Options
-
 <div class='right'></div>
 ## A workflow is ..
 

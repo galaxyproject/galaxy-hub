@@ -1,9 +1,8 @@
 ---
+title: Workflows as Custom Tools
 ---
 #acl WikiAdminGroup:read,write,revert All:read
 {{> Learn/LinkBox }}
-
-# Workflows as Custom Tools
 
 <div class='right'></div>
 

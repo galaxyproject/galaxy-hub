@@ -1,10 +1,7 @@
 ---
+title: Including installation information or 3rd-party tool dependency licensing information in your repository
 ---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a> </div>
-
-
-
-# Including installation information or 3rd-party tool dependency licensing information in your repository
 
 Include important information like repository installation information or 3rd-party tool dependency licensing information in your repository in a file named one of the following (case is ignored):
 

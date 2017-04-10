@@ -1,9 +1,8 @@
 ---
+title: Basic Workflow Editing
 ---
-#acl WikiAdminGroup:read,write,revert All:read
 {{> Learn/LinkBox }}
 
-# Basic Workflow Editing
 
 <div class='right'></div>
 

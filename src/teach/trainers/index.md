@@ -1,8 +1,6 @@
 ---
+title: Galaxy Trainer Directory
 ---
-# Galaxy Trainer Directory
-
-
 <div class="panel panel-default">
   <div class="panel-body">
     <div class="embed-responsive embed-responsive-16by9">

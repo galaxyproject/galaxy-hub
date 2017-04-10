@@ -1,9 +1,6 @@
 ---
+title: July 16, 2010 New Development News Brief
 ---
-# July 16, 2010 New Development News Brief
-
-----
-<div class='right'></div>
 Here are the highlights of what you will get if you perform the following upgrade:
 
 hg pull -u -r 11fb3bb5b250

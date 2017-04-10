@@ -1,8 +1,7 @@
 ---
+title: Ideas for Galaxy Project in GSOC2015
 ---
 The Galaxy Project was notified its application to be a Google Summer of Code mentor organization in 2015 was **declined**.
-
-# Ideas for Galaxy Project in GSOC2015
 
 Data intensive biology for everyone! Galaxy is an open source, web-based platform allowing biologists to easily leverage advanced computational resources to build reproducible analyses.
 

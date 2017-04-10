@@ -1,7 +1,6 @@
 ---
+title: About Galaxy
 ---
-# Support: About Galaxy
-
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>
 
 Galaxy is an open, web-based platform for data intensive biomedical research. Galaxy's goal is to be *accessible*, *reproducible*, and *transparent*. 

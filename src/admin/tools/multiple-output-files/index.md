@@ -1,9 +1,6 @@
 ---
+title: Strategies for tools that create more than one output file
 ---
-# Strategies for tools that create more than one output file
-
-
-
 # Handling Multiple Output Files in Galaxy
 
 Tools which create more than one output file are common.  There are several different methods to accommodate this need.  Each one of these has their advantages and weaknesses; careful thought should be employed to determine the best method for a particular tool.

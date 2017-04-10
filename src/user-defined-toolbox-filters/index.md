@@ -1,7 +1,6 @@
 ---
+title: User Defined Toolbox Filters
 ---
-# User Defined Toolbox Filters
-
 This feature is available as of the November 2013 Galaxy distribution, being originally incorporated from Pull Request [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool)
 
 [ToolBox](/src/ToolBox/index.md) filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.

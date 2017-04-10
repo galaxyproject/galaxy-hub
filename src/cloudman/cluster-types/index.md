@@ -1,4 +1,5 @@
 ---
+title: Cluster Types
 ---
 {{> CloudMan/Header }}
 

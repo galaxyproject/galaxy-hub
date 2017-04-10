@@ -1,7 +1,6 @@
 ---
+title: Galaxy Development
 ---
-# Galaxy development
-
 This page collects resources that are helpful to development of various aspects of the Galaxy software. It is aimed to provide help to all of the numerous Galaxy's [contributors](https://www.openhub.net/p/galaxybx). We salute you!
 
 If your interest lies in the development of tools for Galaxy please see the [Adding custom tools tutorial](/src/admin/tools/add-tool-tutorial/index.md).

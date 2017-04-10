@@ -1,10 +1,7 @@
 ---
+title: A single tool or a suite of tools per repository
 ---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a> </div>
-
-
-
-# A single tool or a suite of tools per repository
 
 The recommended practice has undergone several iterations over the years. Initially, the recommendation was to create one repository for each tool one is creating. However, the creation and widespread adoption of [Planemo](http://planemo.readthedocs.io/en/latest/writing_standalone.html) for tool development obviates a substantial portion of that.
 

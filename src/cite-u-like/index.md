@@ -1,9 +1,7 @@
 ---
+title: Galaxy and CiteULike
 ---
 ![citeulike](/src/images/logos/CiteULikeLogo.png)
-
-## Galaxy and CiteULike
-
 The Galaxy Project uses the [CiteULike](http://citeulike.org) social bookmarking service to organize papers that are about, use, or reference Galaxy.
 
 CiteULike supports *groups* which allow individuals to build a collaborative *library* of references. Libraries represent a set of papers that the group has flagged as relevant to group's purpose.
