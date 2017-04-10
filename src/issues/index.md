@@ -17,6 +17,7 @@ Please report problems with tools and general usage to the [biostar](/src/suppor
 * If you can reproduce on [Main](/src/main/index.md), and the problem in within a green success dataset (but the result is still unexpected), you may be asked to send in a shared history link and possibly a workflow link if needed to reproduce. Use [Options/Share or Publish](/src/learn/share/index.md), generate the link(s), and email our team directly on the private mailing list mailto:galaxy-bugs@lists.galaxyproject.org. Note the problem dataset #'s.
 * Any problem can be reported whether it involves a job or not. Example: Odd user interface behavior. Send us a description of the problem and how to reproduce it. This can be sent along with share histories, workflows, or other Galaxy objects needed to reproduce as described above (by sharing a link).
 * If data is involved, and it usually is, please leave all of the related datasets in the analysis thread leading up to the bug in your history undeleted until we have responded to you.
+* If you first posted the problem at [Galaxy Biostars](https://biostar.usegalaxy.org), please include a link to that post in the comments. This helps us to link the two and provide the best feedback.
 * Please avoid emailing individual team members directly about problems. Use the support channels so both we and the community can help you.
 
 ## Bug reporting
