@@ -388,14 +388,16 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added i
 </table>
 
 </div>
+
 <br />
 
 Two new [Community Log Board](/src/community/logs/index.md) entires were added in February:
 
 * [FTP upload to Galaxy using ProFTPd and PBKDF2](/src/community/log/2015/proftpd-and-pbkdf2/index.md)
-    ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
+  * ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 * [Instalando um servidor do Galaxy Project](/src/community/log/2015/instalando-servidor-galaxy/index.md)
-    Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
+  * Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
+
 
 ----
 
@@ -423,7 +425,7 @@ There were several releases of [Planemo](https://github.com/galaxyproject/planem
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were released in August.
+New versions of [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were released in August.
 
 ----
 
