@@ -18,6 +18,21 @@ people, this will create a pull request that will then get reviewed and merged.
 After the merge, the content will be live on the website within a few minutes.
 Alternatively, you can edit the file locally (see below).
 
+### Special page metadata
+
+In addition to using Markdown features you can add special metadata in the header of every page like this:
+
+```
+---
+autotoc: false
+---
+```
+
+|name|type|(default) values|description|
+|-----|-----|-----|-----|
+|autotoc|boolean|(true), false|flag whether to include table of contents in the right side|
+|title|string|(empty)|value of `<title>` HTML tag in the page and first page heading|
+
 ## Deploying the site locally
 
 To edit and run the site locally, start by creating a fork of this repository.
