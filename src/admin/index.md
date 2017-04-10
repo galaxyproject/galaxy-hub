@@ -28,7 +28,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Data Libraries](/src/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
-* [Purge Histories and Datasets](/src/admin/config/performance/Purge Histories and Datasets/index.md)
+* [Purge Histories and Datasets](/src/admin/config/performance/purge-histories-and-datasets/index.md)
 * [Interactive Environments (IE)](/src/admin/gies/index.md)
 
 
