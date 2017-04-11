@@ -3,7 +3,7 @@ title: Sorting your inputs
 ---
 [Back to Support Hub](/src/support/index.md)
 
-Many tools require inputs to be sorted in a specific way prior to use. The tool form help will often declare if sorting is required *and* the expected ordering. 
+Many tools require inputs to be sorted in a specific way prior to use. 
 
 Good news! Galaxy includes tools to do this sorting.
 
@@ -16,7 +16,9 @@ Good news! Galaxy includes tools to do this sorting.
 * **VCFsort** Best choice for VFC
 * **Tool Form Options for Sorting** Some tools have a tool form option to sort inputs during job execution. This uses more resources but is a choice. Whenever possible, _sort inputs before using tools_, especially if jobs are failing for not enough memory resources.
 
-## Tools and Tool groups that require input sorting
+## Example tools and Tool groups that require input sorting 
+
+The list is not comprehensive. If a tool fails, try sorting inputs as a first pass solution, whether this is declard or not on the tool form help. Cooridnate order is the most common ordering expected by tools. If queryname order is required, the tool form will usually declare that in the help.
 
 ### Htseq_count
 
