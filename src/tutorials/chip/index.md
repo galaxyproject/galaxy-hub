@@ -134,7 +134,7 @@ For post-processing we will remove all non-uniquely mapped reads. This can be do
 |![](/src/tutorials/chip/bam_filter.png)|
 |<small>**Filtering multi-mapped reads** by restricting the data to reads with mapping quality above 20. Note that by selecting folder (<i class="fa fa-folder-o" aria-hidden="true"></i>) button you can select as entire collection of BAM datasets to filter at once.</small>
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running `Filter SAM or BAM` on a collection will generate another collection of BAM files. Name this collection `filtered data` (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video).</div>
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running `Filter SAM or BAM` on a collection will generate another collection of BAM files. Name this collection `filtered data` (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video)</a>.</div>
 
 # Assessment of ChIP quality
 
