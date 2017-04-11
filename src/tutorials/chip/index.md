@@ -300,33 +300,39 @@ In the case of these data peaks are very sharp and have narrow gap between them:
 |                |
 |----------------|
 |![](/src/tutorials/chip/macs1.png)|
-|<small>**Calling peaks with `MACS2` on pulled data**. Here we choose multiple inputs by pressing <i class="fa fa-files-o" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**, set **Build model** to `Do not build the shifting model` (we have already done this with `preductd` in the previous step) and **Set extension size* to `30` (the number we estimated in the previous step).</small>|
+|<small>**Calling peaks with `MACS2` on pulled data**. Here we choose multiple inputs by pressing <i class="fa fa-files-o" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</small>| 
+|![](/src/tutorials/chip/macs2.png)|
+|<small>In this lower part of `MACS2` interface set **Build model** to `Do not build the shifting model` (we have already done this with `preductd` in the previous step) and **Set extension size* to `30` (the number we estimated in the previous step). Finally, we will only ask `MACS2` to produce two outputs: `Peak summits` and the one it produced by default, which contains peak coordinates.</small>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Do this on the other replicate as well!</div>
-
-
-`MACS2` will produce a number of outputs:
-
-|         |
-|---------|
-|![](/src/tutorials/chip/macs_out.png)|
-|<small>**`MACS2` output**.</small>|
-
-Let's click on the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) adjacent to `summits` and `narrow peak` datasets and rename then as shown below:
+If you set parameters as was shown above `MACS2` will produce two outputs (if it produced more just find the ones called `narrow peaks` and `summits`). Let's click on the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) adjacent to `summits` and `narrow peak` datasets and rename then as shown below:
 
 |         |
 |---------|
 |![](/src/tutorials/chip/macs_out_renamed.png)|
 |<small>**`MACS2` output** with `summits` and `narrow peak` datasets renamed.</small>|.
 
+Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
+
+|                |
+|----------------|
+|![](/src/tutorials/chip/macs3.png)|
+|<small>**Calling peaks with `MACS2` on R1** With the exception of selecting only R1 datasets, all other parameters should be set as in the previous figure.</small>|
 
 <div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
 <hr>
 	<ul>
-		<li>run `MACS2` run on replicate 2</li>
-		<li>rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 narrow peaks`.</li>
+	    <li>rename resulting datasets as 'R1 summits` and `R1 peaks`,
+		<li>run `MACS2` run on Replicate 2,</li>
+		<li>rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.</li>
 	</ul>
 </div>
+
+In the end you should have something like this:
+
+|                |
+|----------------|
+|![](/src/tutorials/chip/all_macs_datasets.png)|
+|<small>**All `MACS2` datasets**. After running `MACS2` three times we should have polled, R1, and R2 datasets.</small>
 
 # Inspecting peaks
 
@@ -334,9 +340,9 @@ Let's click on the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) 
 
 Looking at MACS2 data we have gotten the following numbers of peaks:
 
-| Replicate 1 | Replicate 2 |
-|------------:|------------:|
-|  955        |  784        |
+| Pooled | Replicate 1 | Replicate 2 |
+|--------|------------:|------------:|
+|  974   |  955        |  784        |
 
 Peaks data is generated in the following format:
 
@@ -364,55 +370,54 @@ where columns  are:
 
 ## How many peaks are common between replicates?
 
-To see how many peaks are common between the two replicates we will use **Operate on Genomic Intervals -> Join** tool:
+To see how many peaks are common between the pooled datasets and the two replicates we will use **Operate on Genomic Intervals -> Join** tool twice.
 
 <div class="alert alert-danger" role="alert">Galaxy main has two tools called **Join**. Don't confuse them! Here we are using the one from **Operate on Genomic Intervals** section. </div>
 
-|         |
-|---------|
-|![](/src/tutorials/chip/join.png)|
-|<small>**Joining replicate** results with `Join` tool. Note that because we renamed the datasets they are now easily selectable.</small>|
-
-After running join 684 regions are retained. Let's create our final set of peaks by merging peak coordinates of the resulting peaks using the following logic:
-
-```
-          1         2
-012345678901234567890      <- genome coordinates
-
-----------------           <- peak in replicate 1
-   -----------------       <- peak in replicate 2
-   -------------           <- overlap
-
-Start of overlap = max(Start in R1, Start in R2) = max( 0,  3) =  3
-End of overlap   = min(  End in R1,   End in R1) = min(15, 19) = 15
-```
-
-In practice this can be accomplished using **Text Manipulation -> Compute** tool:
+First we will join `Peaks pooled` with `Peaks R1`:
 
 |         |
 |---------|
-|![](/src/tutorials/chip/compute1.png)|
-|<small>**Compute start** position using output of the `Join` tools as the input.</small>|
-|![](/src/tutorials/chip/compute2.png)|
-|<small>**Compute end** position for each peak using output from the previous step as the input.</small>|
+|![](/src/tutorials/chip/join1.png)|
+|<small>**Joining Pooled and R1** results with `Join` tool. Note that because we renamed the datasets they are now easily selectable.</small>|
+
+Next we will join the result of the previous operation with `Peaks R2`:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/join2.png)|
+|<small>**Joining Pooled/R1 with R2** results with `Join` tool. Note that because we renamed the datasets they are now easily selectable.</small>|
+
+This results in 723 regions are shared among polled, R1, and R2 peaks. Let's call this **High confidence set**. Before we can use it however, let's cut out only relevant columns. Since we have produced this dataset by joining three other datasets it is three times wider (30 columns). To cut this first three columns we can use **Text Manipulation -> Cut columns** tool:
+
+|         |
+|---------|
 |![](/src/tutorials/chip/cut.png)|
-|<small>**Cut columns** from the output of the previous step. Compute tools adds computed values as an extra column to the initial file. So in out case we added columns 21 and 22, which we will use as the new set of coordinates. Running `cut` tools will allow us to generate a new coordinate file of merged peaks.</small>|
-|![](/src/tutorials/chip/bed_type.png)|
-|<small>**Set datasets type** to bed by clicking the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) adjacent to the output of cut tool, select **Datatype tab** and select `bed` as shown above.</small>|
+|<small>**Cutting columns** from `Join` output.</small>|
 
-<div class="alert alert-warning">Rename the last dataset as `Merged peaks`. This will make it easy to find as we continue.</div>
+<div class="alert alert-warning">Rename the last dataset as `High confidence set`. This will make it easy to find as we continue.</div>
+
+<div class="alert alert-danger" role="alert">Using `Cut columns` tool produces a dataset of tabular type. However, by cutting the first ten columns we have created a dataset in BED format. Thus we need to let Galaxy know about that by resetting metadata as shown below.</div>
+
+Next we need to make sure that output of `Cut columns` tool has the type `BED`. To do this we will edit its metadata as show below:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/bed_type.png)|
+|<small>**Setting metadata** to datatype `BED`. Click the pencil icon(<i class="fa fa-pencil" aria-hidden="true"></i>) adjacent to the dataset and choose **Datatype** tab. There you will be able to set it to `BED`.</small>|
 
 ## Let's look at everything in the browser
 
-Let's visualize Merged peaks as well as Narrow peaks and Summits produced by `MACS2` in IGV by clicking on `display with IGV local` links adjacent to each of these datasets:
+Let's visualize Merged peaks as well as Narrow peaks and Summits produced by `MACS2` in IGV by clicking on `display with IGV local` links adjacent to `Peaks pooled` and `High confidence set` datasets (you should [already have browser open](/tutorials/chip/#displaying-coverage-tracks-in-a-browser)):
 
 |         |
 |---------|
 |![](/src/tutorials/chip/igv2.png)|
+|<small>**An overview in IGV**. Here you can see original bigWig datasets along with predicted peaks.</small>
 
 ## What sequence motifs are found within peaks
 
-In this experiment antibodies against Reb1 protein have been used. The recognition site for Reb1 is `TTACCCG` ([Badis:2008](http://www.sciencedirect.com/science/article/pii/S1097276508008423)) and [Harbison:2004](http://www.nature.com/nature/journal/v431/n7004/abs/nature02800.html)). To find out which sequence motifs are found within our peaks we first need to convert coordinates into underlying sequences. This is done using **Fetch Alignments/Sequences -> Extract Genomic DNA** tool:
+In this experiment antibodies against Reb1 protein have been used for immunoprecipitaion. The recognition site for Reb1 is `TTACCCG` ([Badis:2008](http://www.sciencedirect.com/science/article/pii/S1097276508008423) and [Harbison:2004](http://www.nature.com/nature/journal/v431/n7004/abs/nature02800.html)). To find out which sequence motifs are found within our peaks we first need to convert coordinates into underlying sequences. This is done using **Fetch Alignments/Sequences -> Extract Genomic DNA** tool:
 
 |         |
 |---------|
@@ -431,8 +436,50 @@ Now we can run **Motif Tools -> MEME**:
 |         |
 |---------|
 |![](/src/tutorials/chip/meme1.png)|
-|<small>**Running MEME** with default parameters on length-filtered FASTA sequences from the previous step.</small>|
+|<small>**Running MEME** on length-filtered FASTA sequences from the previous step. Note that **Options configuration** is set to `Advanced` and **Check reverse complement** is set to `Yes`.</small>|
 
-`MEME` generates a number of outputs. The most interesting is HTML Report:
+`MEME` generates a number of outputs. The most interesting is HTML Report. It shows that 620 regions contain `TTACCCG` motif:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/meme2.png)|
+|<small>**MEME Motif** found in 620 sequences corresponding to common peak regions.</small>|
+
+## Summarizing ChIP signal enrichment across all genes
+
+How many genes contain upstream regions enriched in ChIP tags. This is often represented as a heatmap:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/plotHeatmap_example.png)|
+|<small>**Heatmap example** from [DeepTools documentation](https://deeptools.readthedocs.io/en/latest/).</small>|
+
+To generate the heatmap we must first produce normalized datasets for the two replicated we have. This is done using **NGS: DeepTools -> bamCompare** tool:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/bamCompare1.png)|
+|<small>**Running `bamCompare`** on replicate 1. Here we set **Method to use for scaling the largest sample to the smallest** to `SES` (although you may want to try other methods as well. SES was briefly discussed [above](/tutorials/chip/#assessing-signal-strength).</small>|
+
+<div class="alert alert-warning">Perform the same analysis on Replicate 2 datasets and rename the two resulting items as `R1 normalized` and `R2 normalized`.</div>
+
+Because we want to plot enrichment around genes we need to download gene annotation. We will use **Get Data -> UCSC Main** for this:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/ucsc1.png)|
+|<small>**Getting data from UCSC**. Here make sure you select **assembly** called `sacCer3` and you are choosing `SGD Genes`. Clicking **get output** will show the next screen shown below.</small>|
+|![](/src/tutorials/chip/ucsc2.png)|
+|<small>Here just click **Send query to Galaxy**.</small>|
+
+Next, to prepare data necessary for drawing the heatmap we will use **NGS: DeepTools -> computeMatrix** utility:
+
+|         |
+|---------|
+|![](/src/tutorials/chip/computeMatrix1.png)|
+|<small>**Computing matrix** - the data from which heatmap will be built. Here **both** normalized datasets are select within **Score file** box, yeast genes we have just downloaded from UCSC are chosen as **Regions to plot**. 'reference-point is set as **computeMatrix main option** and, finally, upstream and downstream distances are set to 2,000 bp. Obviously you are welcome to play with these parameters. </small>|
+
+
+
 
 
