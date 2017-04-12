@@ -87,9 +87,12 @@ If a custom genome dataset is producing errors, double check the format and that
   * **How**: Reload the dataset (switch to <strong><a href='/src/FTPUpload/index.md'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
 
 ### 3. Extra spaces, extra lines, inconsistent line wrapping, or any deviation from strict <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
-  * **Symptoms include**: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>, but not Tophat) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.
+  * **Symptoms include**: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.
   * **Solution**: File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run.
-  * **How**: **Quick re-formatting** Run the tool through the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. **Detailed re-formatting** Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. Finally, use <strong>Filter and Sort &rarr; Select</strong> with "^$" to search for empty lines (use "NOT matching" to remove).
+  * **How**: 
+   * **Quick re-formatting** Run the tool through the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. 
+   * **Optional Detailed re-formatting** Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. 
+   * **With either of the above, finish by using <strong>Filter and Sort &rarr; Select</strong> with "^\w*$" to search for empty lines (use "NOT matching" to remove these lines, outputing a properly format fasta dataset).
 
 ### 4. Inconsistent line wrapping, common if merging chromosomes from various Genbank records (e.g. primary chroms with mito)
   * **Symptoms include**: Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. Or they may just fail for what appears to be a cluster error.
