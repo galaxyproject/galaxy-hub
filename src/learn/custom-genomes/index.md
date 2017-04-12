@@ -92,12 +92,12 @@ If a custom genome dataset is producing errors, double check the format and that
   * **How**: 
    * **Quick re-formatting** Run the tool through the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. 
    * **Optional Detailed re-formatting** Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. 
-   * **With either of the above, finish by using <strong>Filter and Sort &rarr; Select</strong> with "^\w*$" to search for empty lines (use "NOT matching" to remove these lines, outputing a properly format fasta dataset).
+   * **With either of the above**, finish by using <strong>Filter and Sort &rarr; Select</strong> with `^\w*$` to search for empty lines (use "NOT matching" to remove these lines and output a properly format fasta dataset).
 
 ### 4. Inconsistent line wrapping, common if merging chromosomes from various Genbank records (e.g. primary chroms with mito)
   * **Symptoms include**: Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. Or they may just fail for what appears to be a cluster error.
-  * **Solution**: File tested and corrected locally then re-upload or test/fix within Galaxy.
-  * **How**: Use <strong>**NormalizeFasta**</strong> using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace.
+  * **Solution**: File tested and corrected locally then re-upload or **test/fix within Galaxy**.
+  * **How**: Use <strong>**NormalizeFasta**</strong> using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. Finish by using <strong>Filter and Sort &rarr; Select</strong> with `^\w*$` to search for empty lines (use "NOT matching" to remove these lines and output a properly format fasta dataset).
 
 ### 5. Unsorted fasta genome file
   * **Symptoms include**: Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths.
