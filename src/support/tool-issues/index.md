@@ -4,6 +4,7 @@
 _Last updated 4-12-17_
 
 1. (48) **Diffbind 2.1.0** Produces green empty datasets with dependency issues. Tool has updated version that needs to be added to Tool Shed, then older version hidden plus new installed plus integration test. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
+1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 1. (8) **MACS2 bdgdiff 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior problems. Now errors with "macs2 command not found. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (0) **MACS2 bdgdiff 2.1.0.20151222.0** Tool version updated 4/11/17, no bugs yet. Does not have "Versions" menu on tool form. This older version errors and users should use newer version (and be notified it exists). Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
 1. (5) **Cuffmerge v 2.2.1** Older v 0.0.6 is successful with same inputs. No changes to tool wrapper, but is now failing. Problem with selecting multiple input files? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2989 Might be related to https://github.com/galaxyproject/tools-iuc/issues/988
@@ -28,7 +29,7 @@ _Retest/status update in progress_
 1. **Fetch Alignments/Sequences** Tool group. Toggle between sources does not refresh genome list on tool form. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
 1. **EBI SRA** Tool errors when loading .bz2 compressed data from the "Submit files (galaxy) link. Details and workaround: https://github.com/galaxyproject/galaxy/issues/1709
 1. **Picard Tool: CollectRnaSeqMetrics** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1710.
-1. **MEME** Likely has dependency issues. Update on Main pending. Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
+
 
 ## Integration test http://usegalaxy.org
 
