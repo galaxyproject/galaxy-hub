@@ -1,12 +1,18 @@
 
-## Issue by tool name _Last updated 4-12-17_
+## Issue by tool name 
+
+_Last updated 4-12-17_
+
 1. (48) **Diffbind 2.1.0** Produces green empty datasets with dependency issues. Tool has updated version that needs to be added to Tool Shed, then older version hidden plus new installed plus integration test. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
 1. (8) **MACS2 bdgdiff 2.1.1.20160309.0** Errors with "macs2 command not found. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (0) **MACS2 bdgdiff 2.1.0.20151222.0** Does not have "Versions" menu on tool form. Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
 1. (2) **Draw phylogeny 1.0.0** Version 1.0.0 has a dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3158
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
 
-## Issue by tool name _Retest/status update in progress_
+## Issue by tool name 
+
+_Retest/status update in progress_
+
 1. (2) **Freebayes 0.4.1** Now requires upsteam inputs have database metadata assigned. Even when a genome is selected within the workflow editor. This breaks some older workflows and published tutorials. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/409
 1. **GenomeSpace import** (genomespace_file_browser_prod). Potential run-time issues. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1010
 1. **MarkDuplicatesWithMateCigar** Problem with tool form option. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
@@ -22,16 +28,19 @@
 1. **Picard Tool: CollectRnaSeqMetrics** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1710.
 1. **MEME** Likely has dependency issues. Update on Main pending. Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 
-## Re-test to confirm correct at http://usegalaxy.org
+## Integration test http://usegalaxy.org
 
-## Fix or enhancement, but not yet implemented at http://usegalaxy.org _Retest/status update in progress_
+## Fixed but not yet at http://usegalaxy.org 
+
+_Retest/status update in progress_
+
 1. Needs main update (new repo https://github.com/galaxyproject/tools-iuc/pull/1005) **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
 1. Needs main update (new repo same as above) **Deep Tools multiBamSummary** Doesn't always produce output. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/fidelram/deepTools/issues/436
 1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. **Upload** Is assigning "pileup" as autodetected datatype in a greedy way for tabular format data. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 
 
-## Recently corrected/implemented at http://usegalaxy.org
+## Recently corrected at http://usegalaxy.org
 1. **DESEQ2 2.1.8.3** Fails after tool update - new error message in linked ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/988 Might be related to https://github.com/galaxyproject/galaxy/issues/2989
 1. **MACS2 Callpeak** Errors out but job produces result data (in red datasets). Impact Galaxy Main http://usegalaxy.org and possibly other installs. Details: https://github.com/galaxyproject/tools-iuc/issues/1033
 1. **MACS2 CallPeak** This tool has a current known issue with the option *Fold Enrichment*. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/583
