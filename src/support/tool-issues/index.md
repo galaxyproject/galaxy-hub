@@ -14,8 +14,6 @@
 1. **BWA-MEM default options produces BAM that fails ValidateSamFile**. Default options for both. New ValidateSamFile tool likely needs tuning. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 1. **Fetch Alignments/Sequences** Tool group. Toggle between sources does not refresh genome list on tool form. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
 1. **Diffbind** Produces green empty datasets with dependency issues. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
-1. **MACS2 Callpeak** Errors out but job produces result data (in red datasets). Impact Galaxy Main http://usegalaxy.org and possibly other installs. Details: https://github.com/galaxyproject/tools-iuc/issues/1033
-1. **MACS2 CallPeak** This tool has a current known issue with the option *Fold Enrichment*. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/583
 1. **MACS2 bdgdiff** Produces green emtpy datasets for all output options . Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. **EBI SRA** Tool errors when loading .bz2 compressed data from the "Submit files (galaxy) link. Details and workaround: https://github.com/galaxyproject/galaxy/issues/1709
 1. **Trackster and BED datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1722
@@ -32,6 +30,8 @@
 
 
 ## Recently corrected/implemented at http://usegalaxy.org
+1. **MACS2 Callpeak** Errors out but job produces result data (in red datasets). Impact Galaxy Main http://usegalaxy.org and possibly other installs. Details: https://github.com/galaxyproject/tools-iuc/issues/1033
+1. **MACS2 CallPeak** This tool has a current known issue with the option *Fold Enrichment*. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/583
 1. **NCBI SRA Tools** Dependency/config issue resolved, but tool version mismatch for wrapper on Main. Smaller files working on a local, but not Main. _Work-around: Use "Get Data > EBI SRA" or download from NCBI/FTP to Galaxy._ Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2533
 1. **Deeptools** Fails for a specific error. Tool has been revised and pending upgrade. Impacts Galaxy Main http://usegalaxy.org. Details and link to work-around posted at Galaxy Biostars: https://github.com/galaxyproject/galaxy/issues/2331. Other issues with tool at Galaxy Main, perhaps global (see ticket) https://github.com/galaxyproject/tools-iuc/issues/835
 1. **Convert Formats: Convert BAM to ScIdx** Fails for dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2460
