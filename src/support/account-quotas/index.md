@@ -25,20 +25,20 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
  1. Find all Histories and *purge* (aka permenently delete) those not needed.
    * Under the Histories Options (gear icon, top of right History panel), choose **Saved Histories** from the list.
    * Click on **Advanced Search**, then choose **status = all**.
-   * Located *deleted but not permemently deleted histories* and purge them.
-   
+   * Locate *deleted but not permemently deleted histories* and purge them.
+
  2. Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed.
    * All datasets can be reviewed under **User > Saved Datasets**.
    * Within a History, deleted/permenently deleted Datasets can be reviewed by clicking on the *deleted* link at the top of the History panel, found immediately under the History name.
    * Or active (shown) and hidden datasets can be reviewed the same way.
    * Click on the far right "X" to delete a dataset. 
    * To permenently delete: use the link from within the dataset, or use the Operations on Multiple Datasets function, or the Purge Deleted Datasets list item in the History menu.
-   
+ 
  Also see: [Delete versus Delete Permanently](/src/learn/managing-datasets/#delete-vs-delete-permanently)
+
+## I purged but still need more space!
  
- ## I purged but still need more space!
+Account quotas are fixed at Galaxy Main and are the largest offered on a public Galaxy server that we are aware of. For big projects, consider moving to a local or cloud Galaxy where you can control the resources. 
  
- Account quotas are fixed at Galaxy Main and are the largest offered on a public Galaxy server that we are aware of. For big projects, consider moving to a local or cloud Galaxy where you can control the resources. 
- 
-  * [Using Galaxy choices are explained here.](/src/choices/index.md)
-  * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
+  * [Using Galaxy choices are explained here](/src/choices/index.md)
+  * [Scientific user guide to running a personal Galaxy server (coming soon!)](/src/support/sci-user-galaxies/index.md)
