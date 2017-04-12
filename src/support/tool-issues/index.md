@@ -13,8 +13,8 @@
 1. **MAF tools** Switching between data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
 1. **BWA-MEM default options produces BAM that fails ValidateSamFile**. Default options for both. New ValidateSamFile tool likely needs tuning. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 1. **Fetch Alignments/Sequences** Tool group. Toggle between sources does not refresh genome list on tool form. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
-1. **Diffbind** Produces green empty datasets with dependency issues. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
-1. **MACS2 bdgdiff** Produces green emtpy datasets for all output options . Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
+1. (48) **Diffbind** Produces green empty datasets with dependency issues. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
+1. (8) **MACS2 bdgdiff** Old version problem now resolved: Produces green emtpy datasets for all output options. New version problem: "macs2 command not found. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. **EBI SRA** Tool errors when loading .bz2 compressed data from the "Submit files (galaxy) link. Details and workaround: https://github.com/galaxyproject/galaxy/issues/1709
 1. **Trackster and BED datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1722
 1. **Picard Tool: CollectRnaSeqMetrics** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1710.
