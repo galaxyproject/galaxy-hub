@@ -13,6 +13,7 @@ _Last updated 4-13-17_
 1. (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
 1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
 1. (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. May be fixed by https://github.com/galaxyproject/galaxy/pull/3931 (update pending)
+1. (0) **BWA-MEM 0.7.12.1 produces BAM that fails ValidateSamFile 1.136.0**. Default options for both. **ValidateSamFile** tool needs tuning? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
@@ -22,7 +23,7 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 _Retest/status update in progress_
 
 1. **Heatmap** 1.0.0 Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
-1. **BWA-MEM default options produces BAM that fails ValidateSamFile**. Default options for both. New ValidateSamFile tool likely needs tuning. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
+
 
 - - - 
 ## Fixed but not yet at http://usegalaxy.org 
