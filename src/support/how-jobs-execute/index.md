@@ -23,7 +23,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * When work is urgent during peak-usage times on the public **[Main](/src/main/index.md)** Galaxy instance, a **[CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. 
   * For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)** each have advantages as a longer-term solution. 
   * [Read more about Using Galaxy Choices...](/src/choices/index.md)
-  * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
+  * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md) _(comming soon!)_
 
 ## Dataset States
 
