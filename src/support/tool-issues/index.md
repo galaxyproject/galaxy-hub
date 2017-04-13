@@ -85,7 +85,7 @@ _Retest/status update in progress_
 - - - 
 ## Issue by user interface behavior
 
-Retest/status update in progress
+_Retest/status update in progress_
 
 1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
 1. **Tophat** (And potentially other tools). The Jetstream cluster may produce output datasets reporting problematic metadata. Current workaround: Expand the dataset by clicking on the name and reset metadata with the link provided in the yellow box. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2838
