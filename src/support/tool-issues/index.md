@@ -4,6 +4,7 @@
 _Last updated 4-13-17_
 
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
+1. (15) **Heatmap** 1.0.0 Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (8) **MACS2 bdgdiff 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior problems. Now errors with "macs2 command not found. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (0) **MACS2 bdgdiff 2.1.0.20151222.0** Tool version updated 4/11/17, no bugs yet. Does not have "Versions" menu on tool form. This older version errors and users should use newer version (and be notified it exists). Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
 1. (5) **Cuffmerge v 2.2.1** Older v 0.0.6 is successful with same inputs. No changes to tool wrapper, but is now failing. Problem with selecting multiple input files? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2989 Might be related to https://github.com/galaxyproject/tools-iuc/issues/988
@@ -18,17 +19,10 @@ _Last updated 4-13-17_
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
 - - - 
-## Issue by tool name: retests
-
-_Retest/status update in progress_
-
-1. **Heatmap** 1.0.0 Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
-
-
-- - - 
 ## Fixed but not yet at http://usegalaxy.org 
 
 _Integration test once installed_
+_Retest/status update in progress_
 
 1. Fix made, pending pull-request merge and implimentation in core releases plus Main. **GeneBed_Maf_Fasta2 (MAF)** Requires the legacy Galaxy environment. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/galaxyproject/galaxy/pull/3931
 1. Needs main update (new repo https://github.com/galaxyproject/tools-iuc/pull/1005) **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
