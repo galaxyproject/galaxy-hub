@@ -27,7 +27,7 @@ _Retest/status update in progress_
 
 ## Integration test http://usegalaxy.org
 1. (48) **Diffbind 2.1.0** Produces green empty datasets with dependency issues. Tool has updated version that needs to be added to Tool Shed, then older version hidden plus new installed plus integration test. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
-1. Closed but one final double check test in progress (problem with 1.136.0 linked to one semi-confusing input format. I will clarify that for users - see ticket) **Picard Tool: CollectRnaSeqMetrics** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1710.
+1. Closed but one final double check test in progress (problem with 1.136.0 linked to one semi-confusing input format. To be clarified for users on tool forms - see ticket) **Picard Tool: CollectRnaSeqMetrics** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1710.
 1. Stringtie (recently updated)
 1. MACS2 (recently updated, test against open issues above)
 
