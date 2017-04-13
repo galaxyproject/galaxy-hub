@@ -75,7 +75,13 @@ _Retest/status update in progress_
 - - - 
 ## Issue by error message
 
-1. Error from a tool in the **NGS: SAMtools** or **NGS: Picard** groups about sort order. **See: [Sort your inputs](https://github.com/jennaj/support-prior-qa/wiki/Sort-your-inputs)**
+1. Error from a tool in the **NGS: SAMtools** or **NGS: Picard** groups about sort order. 
+1. Tool is failing for memory.
+1. Tool is failing for what appears to be a cluster error.
+1. Tool is failing and you are not sure what the error message means or how to troubleshoot/get help.
+
+**[Sort your inputs](https://galaxyproject.org/support/sort-your-inputs/)**
+**[All Support help](https://galaxyproject.org/support)**
 
 - - - 
 ## Issue by user interface behavior
