@@ -12,7 +12,7 @@ _Last updated 4-13-17_
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
 1. (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
 1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
-1. (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
+1. (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. May be fixed by https://github.com/galaxyproject/galaxy/pull/3931 (update pending)
 
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
