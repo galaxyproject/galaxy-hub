@@ -10,11 +10,11 @@ Related Topics
  * [Common datatypes explained](/src/learn/datatypes/index.md)
  * [Input datatype misassignment and errors](/src/support/tool-error/index.md)
  
- ### What is `fastq.gz` data?
+### What is `fastq.gz` data?
 
 A compressed version of a fastq dataset. 
  
- ### How compressed fastq data loads
+### How compressed fastq data loads
  
 Uploaded gz compressed FASTQ data loads in compressed format directly into the History. Tools accept compressed formatted datasets as input. 
 
