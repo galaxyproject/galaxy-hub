@@ -1,7 +1,7 @@
 
 ## Issue by tool name 
 
-_Last updated 4-12-17_
+_Last updated 4-13-17_
 
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 1. (8) **MACS2 bdgdiff 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior problems. Now errors with "macs2 command not found. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
@@ -21,7 +21,6 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 
 _Retest/status update in progress_
 
-1. **MarkDuplicatesWithMateCigar** Problem with tool form option. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
 1. **Heatmap** 1.0.0 Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. **BWA-MEM default options produces BAM that fails ValidateSamFile**. Default options for both. New ValidateSamFile tool likely needs tuning. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 1. **Fetch Alignments/Sequences** Tool group. Toggle between sources does not refresh genome list on tool form. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828
@@ -32,6 +31,7 @@ _Retest/status update in progress_
 1. (48) **Diffbind 2.1.0** Produces green empty datasets with dependency issues. Tool has updated version that needs to be added to Tool Shed, then older version hidden plus new installed plus integration test. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
 1. Stringtie (recently updated)
 1. MACS2 (recently updated, test against open issues above)
+
 
 ## Fixed but not yet at http://usegalaxy.org 
 
@@ -45,6 +45,7 @@ _Retest/status update in progress_
 
 
 ## Recently corrected at http://usegalaxy.org
+1. **MarkDuplicatesWithMateCigar 1.126.0** Problem with tool form option specific to version 1.126.0. Repo updated to version 1.136.0 and now works at Main. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
 1. **Trackster and GFF/GTF datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3499
 1. **EBI SRA Main	1.0.1** Tool errors when loading .bz2 compressed data from the "Submit files (galaxy)" link. Details and workaround: https://github.com/galaxyproject/galaxy/issues/1709
 1. **Trackster and BED datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1722
