@@ -11,7 +11,6 @@ _Last updated 4-13-17_
 1. (2) **Draw phylogeny 1.0.0** Version 1.0.0 has a dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3158
 1. (2) **Freebayes 0.4.1** Now requires upsteam inputs have database metadata assigned. Even when a genome is selected within the workflow editor. This breaks some older workflows and published tutorials. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/409
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
-1. (1) **Extract Pairwise MAF blocks 1.0.1** Aka _Interval2Maf_pairwise1_ has dependency issues. Needs same fix as for **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/3934
 1. (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
 1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
 1. (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. May be fixed by https://github.com/galaxyproject/galaxy/pull/3931 (update pending)
@@ -25,6 +24,7 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 _Integration test once installed_
 _Retest/status update in progress_
 
+1. Fix made, pending implimentation in inpacted releases plus Main update. **Extract Pairwise MAF blocks 1.0.1** Aka _Interval2Maf_pairwise1_ has dependency issues. Needs same fix as for **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/3934
 1. Fix made, pending implimentation in inpacted releases plus Main update. **GeneBed_Maf_Fasta2 (MAF)** Requires the legacy Galaxy environment. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/galaxyproject/galaxy/pull/3931
 1. Needs main update (new repo https://github.com/galaxyproject/tools-iuc/pull/1005) **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
 1. Needs main update (new repo same as above) **Deep Tools multiBamSummary** Doesn't always produce output. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/fidelram/deepTools/issues/436
@@ -42,7 +42,7 @@ _Retest/status update in progress_
 1. MACS2 (recently updated, test against open issues above)
 
 - - - 
-## Recently corrected at http://usegalaxy.org
+## Recently corrected at Galaxy Main
 1. **Picard Tool: CollectRnaSeqMetrics 1.136.0** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. Update: Error due to input format - is very specific and needs to be clarified on tool form, see ticket. https://github.com/galaxyproject/galaxy/issues/1710.
 1. **MarkDuplicatesWithMateCigar 1.126.0** Problem with tool form option specific to version 1.126.0. Repo updated to version 1.136.0 and now works at Main. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
 1. **Trackster and GFF/GTF datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3499
