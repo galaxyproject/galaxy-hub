@@ -1,7 +1,7 @@
 ---
+autotoc: true
 title: Sharing Your Galaxy Items with Other People 
 ---
-{{> Learn/LinkBox }}
 
 [view an informative video tutorial]([http://vimeo.com/galaxyproject/sharepublish) on how to share and publish your Galaxy items.
 
