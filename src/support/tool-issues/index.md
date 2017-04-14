@@ -23,7 +23,7 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 _Integration test once installed_
 _Retest/status update in progress_
 
-1. Fix made, pending pull-request merge and implimentation in core releases plus Main. **GeneBed_Maf_Fasta2 (MAF)** Requires the legacy Galaxy environment. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/galaxyproject/galaxy/pull/3931
+1. Fix made, pending implimentation in inpacted releases plus Main update. **GeneBed_Maf_Fasta2 (MAF)** Requires the legacy Galaxy environment. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/galaxyproject/galaxy/pull/3931
 1. Needs main update (new repo https://github.com/galaxyproject/tools-iuc/pull/1005) **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
 1. Needs main update (new repo same as above) **Deep Tools multiBamSummary** Doesn't always produce output. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/fidelram/deepTools/issues/436
 1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
