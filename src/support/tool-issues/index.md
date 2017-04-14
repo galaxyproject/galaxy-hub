@@ -19,7 +19,7 @@ _Last updated 4-13-17_
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
 - - - 
-## Fixed but not yet at http://usegalaxy.org 
+## Fixed pending update
 
 _Integration test once installed_
 _Retest/status update in progress_
@@ -31,7 +31,7 @@ _Retest/status update in progress_
 1. **Upload** Is assigning "pileup" as autodetected datatype in a greedy way for tabular format data. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 
 - - - 
-## Integration test http://usegalaxy.org
+## Integration test
 
 _Retest/status update in progress_
 
@@ -97,7 +97,7 @@ _Retest/status update in progress_
 1. **Pileup** datasets not recognized by downstream tools. This is due to tabular datatype assignment by Mpileup/Generate pileup (SAMTools). Assignment of both start and end to the same column could be why auto-assignment of type is not possible. Workaround: Click on dataset's pencil icon and assign pileup datatype. Details: https://github.com/galaxyproject/galaxy/issues/1744
 
 - - -
-## Issue with performance at http://usegalaxy.org
+## Issue with performance at Galaxy Main
 
 1. If there are issues with delays, reports of histories not loading, a blue screen stating that Galaxy is busy ... then check the Galaxy Status page to see if there is a problem with the server first: https://status.galaxyproject.org/
 1. If status is OK, then read recent posts at Galaxy Biostars, where transient issues are often reported and clarified. A new question can be asked if there is no activity about the problem. https://biostar.usegalaxy.org/
