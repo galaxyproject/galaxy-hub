@@ -21,7 +21,7 @@ On the form, fine the section titled 'Sharing with Specific Users'. To share wit
 
 # Sharing via Web Link and Publishing an Item
 
-On the form, find the section titled 'Making _Item_type_ Accessible via Link and Publishing It.' The buttons in this section enable you to make an item accessible via link and/or publish it. Items shared with the generated _web link_ can be viewed and imported (copied) by anyone that knows the link.
+On the form, find the section titled 'Making  _Item-type_  Accessible via Link and Publishing It.' The buttons in this section enable you to make an item accessible via link and/or publish it. Items shared with the generated _web link_ can be viewed and imported (copied) by anyone that knows the link.
 
   * **[Galaxy Main](http://usegalaxy.org)**: Anonymous (unregistered account) use is [active for many functions](/src/main/#user-data-and-job-quotas).
   * **[Other public/private servers](https://galaxyproject.org/public-galaxy-servers/)**: If a registered account is required, a prompt to register first will come up. 
