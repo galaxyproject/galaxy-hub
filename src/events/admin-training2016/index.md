@@ -1,6 +1,6 @@
-{{> Events/AdminTraining2016/Header }}
-
-{{> Events/AdminTraining2016/LinkBox }}
+---
+title: Galaxy Admin Training
+---
 
 The first ever **Galaxy Project Admin Training workshop** will be held November 7-11 in [Salt Lake City](http://www.visitsaltlake.com/), Utah.  
 
