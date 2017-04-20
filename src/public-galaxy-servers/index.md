@@ -1170,7 +1170,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Comments:*
   * Consists of four parts: the demultiplex tool, the IMGT concatenate tool, the immune repertoire pipeline and the SHM&CSR pipeline. Together they allow the analysis of all different aspects of the immune repertoire. All pipelines can be run independently or combined, dependent on the available data and the question of interest
 * *User Support:*
-  * Contact [David van Zessen](d.vanzessen@erasmusmc.nl)
+  * Contact [David van Zessen](mailto:d.vanzessen@erasmusmc.nl)
 * *Quotas:*
 * *Sponsor(s):*
   * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).
