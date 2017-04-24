@@ -1,33 +1,36 @@
 extends layout.pug
 
+mixin renderEvent()
+    +renderPageTitle
+    ul.list-unstyled
+        li
+            strong Date: 
+            | !{helpers.moment(date).format("MMMM Do YYYY")}
+            if days > 1
+                | - !{helpers.moment(date).add(days - 1, 'days').format("MMMM Do YYYY")}
+        if location
+            li
+                strong Location: 
+                if location_url
+                    a(href=location_url)
+                        | !{location}
+                else
+                    | !{location}
+        if external_url
+            li
+                strong Event URL: 
+                a(href=external_url)
+                    | !{external_url}
+        if contact
+            li
+                strong Contact: 
+                | !{contact}
+    div: p !{ contents }
+
 block content
     section.section-content
         div.col-md-9
-            +renderPageTitle
-            ul.list-unstyled
-                li
-                    strong Date: 
-                    | !{helpers.moment(date).format("MMMM Do YYYY")}
-                    if days > 1
-                        | - !{helpers.moment(date).add(days - 1, 'days').format("MMMM Do YYYY")}
-                if location
-                    li
-                        strong Location: 
-                        if location_url
-                            a(href=location_url)
-                                | !{location}
-                        else
-                            | !{location}
-                if external_url
-                    li
-                        strong Event URL: 
-                        a(href=external_url)
-                            | !{external_url}
-                if contact
-                    li
-                        strong Contact: 
-                        | !{contact}
-            div: p !{ contents }
+            +renderEvent
         div.col-md-3
             if image
                 img.img-responsive(src=image style="margin-top: 20px; padding 2px; border: 1px solid #666")
