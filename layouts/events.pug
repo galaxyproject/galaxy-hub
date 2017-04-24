@@ -29,8 +29,7 @@ mixin renderEvent()
 
 block content
     section.section-content
-        div.col-md-9
-            +renderEvent
-        div.col-md-3
+        div.col-md-12
             if image
-                img.img-responsive(src=image style="margin-top: 20px; padding 2px; border: 1px solid #666")
+                img.img-responsive(src=image style="float:right; margin-top: 20px; padding 2px; border: 1px solid #666")
+            +renderEvent
