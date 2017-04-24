@@ -57,4 +57,4 @@ where the output has been directed to
          
 ## See Also
 
-See how to use [Galaxy] (https://wiki.egi.eu/wiki/Galaxy_workflows_with_EC3) in the cloud-based resources provided by [EGI] (https://www.egi.eu/)
+See how to use [Galaxy](https://wiki.egi.eu/wiki/Galaxy_workflows_with_EC3) in the cloud-based resources provided by [EGI](https://www.egi.eu/)
