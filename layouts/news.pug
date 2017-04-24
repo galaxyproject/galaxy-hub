@@ -7,5 +7,12 @@ mixin renderNews()
 
 block content
     section.section-content
-        div.col-md-12
-            +renderNews
+        if toc
+            div.col-md-9
+                +renderNews
+            div.col-md-3
+                div#sidebar
+                    +renderToc(toc)
+        else
+            div.col-md-12
+                +renderNews
