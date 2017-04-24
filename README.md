@@ -30,7 +30,7 @@ autotoc: false
 
 |name|type|(default) values|description|
 |-----|-----|-----|-----|
-|autotoc|boolean|(true), false|flag whether to include table of contents in the right side|
+|autotoc|boolean|(true on most pages, false on news/events content items), false|flag whether to include table of contents in the right side|
 |title|string|(empty)|value of `<title>` HTML tag in the page and first page heading|
 
 ### Redirects
