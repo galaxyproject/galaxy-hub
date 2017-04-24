@@ -1,9 +1,12 @@
 extends layout.pug
 
+mixin renderNews()
+    section.section-content
+        +renderPageTitle
+        p.small #{helpers.moment(date).format("MMMM Do YYYY")}
+        div !{ contents }
+
 block content
     section.section-content
         div.col-md-12
-            section.section-content
-                +renderPageTitle
-                p.small #{helpers.moment(date).format("MMMM Do YYYY")}
-                div !{ contents }
+            +renderNews
