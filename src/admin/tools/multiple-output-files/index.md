@@ -135,87 +135,109 @@ Html is a subclass of composite datasets so new subclasses of composite can be u
 
 ## Number of Output datasets cannot be determined until tool run
 
-There are times when the number of output datasets varies entirely based upon the content of an input dataset and the user needs to see all of these outputs as new individual history items rather than as a collection of related objects linked in a single new html page in the history. Tools can optionally describe how to "discover" an arbitrary number of files that will be added after the job's completion to the user's history as new datasets. Whenever possible, one of the above strategies should be used instead since these discovered datasets cannot be used with workflows and require the user to refresh their history before they are shown.
+There are times when the number of output datasets varies entirely based upon the inputs and cannot be determined ahead of time. Tools can be configured to "discover" an arbitrary number of files that will be added after the job's completion to the user's history as new datasets. There are a couple of options to handle this special case: dataset collections (workflow compatible), and regular datasets (not workflow compatible.) Whenever possible you should prefer dataset collections or one of the previously mentioned methods, so your tool can be used in workflows.
 
-Discovering datasets (arbitrarily) require a fixed 'parent' output dataset to key on - this dataset will act as the reference for our additional datasets. Sometimes the parent dataset to use makes sense from context but in instances where one does not readily make sense tool authors can just create an arbitrary text output like a report of the dataset generation.
+### Dataset Collections
 
-Each discovered dataset requires a unique 'designation' (used to describe functional tests, the default output name, etc...) and should be located in the job's working direcotry or (ideally) a sub-directory thereof. Regular expressions are used to describe how to discover the datasets and (though not required) a unique such pattern should be specified for each homogeneous group of such files.
+Discovered Datasets can also be combined with dataset collections as shown in: [Galaxy Tool Generating Dataset Collections](https://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)
 
-Examples:
+While not yet fully documented here, there are extensive [test cases](https://github.com/galaxyproject/galaxy/tree/release_17.01/test/functional/tools) which cover datasets collections. These are generally the best reference for how to build various types of dataset collections.
 
-Consider a tool that creates a bunch of text files or bam files and writes them (with extension that matches the Galaxy datatype - e.g. `txt` or `bam` to the `split` sub-directory of the working directory. Such outputs can be discovered by adding the following block of XML to your tool description:
+### Non-Dataset Collections
 
-```xml
-    <outputs>
-        <data format="txt" name="report">
-		<discover_datasets pattern="__designation_and_ext__" directory="split" visible="true" />
-        </data>
-    </outputs>
-```
+Discovering datasets require a fixed 'parent' output dataset - this dataset will act as the reference for our additional datasets. By default, this appears as an empty dataset that is output. Many tool authors use this as a text report / log of the tool run, otherwise users may think that something is wrong when the first dataset is empty.
 
+Discovered datasets require a unique designation (i.e. the default output name). Your tool should write these datasets to be discovered out to the current working directory, or to a subdirectory thereof. Regular expressions may be used in the dataset discovery statement.
 
-So for instance, if the tool creates 4 files (in addition to the report) such as `split/samp1.bam`, `split/samp2.bam`, `split/samp3.bam`, and `split/samp4.bam` - then 4 discovered datasets will be created of type `bam` with designations of `samp1`, `samp2`, `samp3`, and `samp4`.
+#### Examples
 
-If the tool doesn't create the files in `split` with extensions or does but with extensions that do not match Galaxy's datatypes - a slightly different pattern can be used and the extension/format can be statically specified:
+Consider a tool that creates a bunch of text files or bam files. To allow this tool to work with `discover_datasets`, the tool should be configured to write them to a subdirectory. We have arbitrarily chosen our subdirectory name as `split`. During the tool run, it will write the bam and text files into that directory, with the appropriate extension. The tool can then be configured to discover the outputs with the following XML:
 
 ```xml
-    <outputs>
-        <data format="txt" name="report">
-		<discover_datasets pattern="__designation__" ext="tabular" directory="tables" visible="true" />
-        </data>
-    </outputs>
+<outputs>
+  <data format="txt" name="report">
+    <discover_datasets pattern="__designation_and_ext__" directory="split" visible="true" />
+  </data>
+</outputs>
 ```
 
+If the tool produced the following files when it was run:
 
-So in this example, if the tool creates 3 tabular files such as `tables/part1.tsv`, `tables/part2.tsv`, and `tables/part3.tsv` - then 3 discovered datasets will be created of type `tabular` with designations of `part1.tsv`, `part2.tsv`, and `part3.tsv`.
+- `split/samp1.bam`
+- `split/samp2.bam`
+- `split/samp3.bam`
+- `split/samp4.bam`
+- `split/cross1.txt`
+- `split/cross2.txt`
 
-It may not be desirable for the extension (`.tsv`) to appear in the `designation` this way. These patterns `__designation__` and  `__designation_and_ext__` are replaced with regular expressions that capture metadata from the file name using named groups. A tool author can explicitly define these regular expressions instead of using these shortcuts - for instance `__designation__` is just `(?P<designation>.*)` and `__designation_and_ext__` is `(?P<designation>.*)\.(?P<ext>[^\._]+)?`. So the above example can be modified as:
+Then 6 datasets would be discovered and added to the history. The `<discover_datasets>` block would look in `directory="split"` and find a number of files which all match the generic `pattern="__designation_and_ext__"`. These files would show up in your Galaxy history as `My Tool (Samp1.bam)`, `My Tool (Samp2.bam)`, and so on. Since we have used `__designation_and_ext__`, galaxy will see the `.bam` and `.txt` extensions and set the filetype appropriately.
+
+If for some reason a different or incorrect file extension was used, such as a tool which writes out `.tsv` files, Galaxy would not know how to handle those as tabular datasets. In that case, instead of `__designation_and_ext__`, we can use `__designation__` and the `ext` option:
 
 ```xml
-    <outputs>
-        <data format="txt" name="report">
-		<discover_datasets pattern="(?P&lt;designation&gt;.+)\.tsv" ext="tabular" directory="tables" visible="true" />
-        </data>
-    </outputs>
+<outputs>
+  <data format="txt" name="report">
+    <discover_datasets pattern="__designation__" ext="tabular" directory="tables" visible="true" />
+  </data>
+</outputs>
 ```
 
+In this example, if the tool created 3 tabular files such as `tables/part1.tsv`, `tables/part2.tsv`, and `tables/part3.tsv` - then 3 datasets will be discovered, all with the type `tabular` and with dataset names like `My Tool (part1.tsv)`, `My Tool (part2.tsv)`, and `My Tool (part3.tsv)`.
 
-As a result - three datasets are still be captured - but this time with designations of `part1`, `part2`, and `part3`.
+##### Customizing the Name
 
-Notice here the `<` and `>` in the tool pattern had to be replaced with `\&lt;` and `&gt;` to be properly embedded in XML (this is very ugly - apologies).
+If you do not want `My Tool (...)` to be part of the history dataset name, you can replace `designation` with `name`. So `__designation_and_ext__` would be replaced by `__name_and_ext__` and `__designation__` would be replaced by `__name__`.
 
-The metadata elements that can be captured via regular expression named groups this way include `ext`, `designation`, `name`, `dbkey`, and `visible`. Each pattern must declare at least either a `designation` or a `name` - the other metadata parts `ext`, `dbkey`, and `visible` are all optional and may also be declared explicitly in via attributes on the `discover_datasets` element (as shown in the above examples).
+##### Hiding the Extension
 
-If no `discover_datasets` element is nested with a tool output - Galaxy will still look for datasets using the named pattern `__default__` which expands to `primary_DATASET_ID_(?P<designation>[^_]+)_(?P<visible>[^_]+)_(?P<ext>[^_]+)(_(?P<dbkey>[^_]+))?`. Many tools use this mechanism as it traditionally was the only way to discover datasets and has the nice advantage of not requiring an explicit declaration and encoding everything (including the output to map to) right in the name of the file itself.
+It may not be desirable for the extension (`.tsv`) to appear in the `designation` this way. These patterns `__designation__` and  `__designation_and_ext__` can be replaced with regular expressions that capture metadata from the file name using named groups. `__designation__` and `__designation_and_ext__` are just shortcuts, for `(?P<designation>.*)` and  `(?P<designation>.*)\.(?P<ext>[^\._]+)?`, respectively. If you need, you can override these by manually specifying the regular expressions using the `pattern` optin in your `discover_datasets` block. The above example can be modified as:
+
+```xml
+<outputs>
+  <data format="txt" name="report">
+    <discover_datasets pattern="(?P&lt;designation&gt;.+)\.tsv" ext="tabular" directory="tables" visible="true" />
+  </data>
+</outputs>
+```
+
+Going back to our `tables/part{1,2,3}.tsv` example, all three datasets are still be captured but this time with designations of `part1`, `part2`, and `part3`.
+
+Notice here the `<` and `>` in the tool pattern had to be replaced with `\&lt;` and `&gt;` to be properly embedded in XML.
+
+#### More Metadata
+
+There are more metadata elements which can be captured:
+
+- `ext`
+- `designation`
+- `name`
+- `dbkey`
+- `visible`
+
+Each pattern must declare at least either a `designation` or a `name` - the other metadata parts `ext`, `dbkey`, and `visible` are all optional and may also be declared explicitly in via attributes on the `discover_datasets` element (as shown in the above examples).
+
+If no `discover_datasets` element is nested with a tool output - Galaxy will still look for datasets using the named pattern `__default__` which expands to `primary_DATASET_ID_(?P<designation>[^_]+)_(?P<visible>[^_]+)_(?P<ext>[^_]+)(_(?P<dbkey>[^_]+))?`. Many tools use this mechanism as it traditionally was the only way to discover datasets.
 
 For instance consider the following output declaration:
 
 ```xml
-    <outputs>
-        <data format="interval" name="output1" metadata_source="input1" />
-    </outputs>
+<outputs>
+  <data format="interval" name="output1" metadata_source="input1" />
+</outputs>
 ```
 
-
-If `$output1.id` (accessible in the tool `command` block) is `546` and the tool (likely a wrapper) produces the files `primary_546_output2_visible_bed` and `primary_546_output3_visible_pdf` in the job's working directory - then after execution is complete these two additional datasets (a bed file and a pdf file) are added to the user's history.
+If `$output1.id` (accessible in the tool `command` block) is `546` and the tool produces the files `primary_546_output2_visible_bed` and `primary_546_output3_visible_pdf` in the job's working directory - then after execution is complete these two additional datasets (a bed file and a pdf file) are added to the user's history.
 
 More information:
 
-* [Contrived example tool with demonstration of more patterns and testing of discovered outputs](http://bit.ly/gxdiscovereddatasetexample)
-* [Track medium term plans for discovered datasets](https://trello.com/c/Aq08H8A5)
+* [Contrived example tool with demonstration of more patterns and testing of discovered outputs](https://github.com/galaxyproject/galaxy/blob/release_17.01/test/functional/tools/multi_output_configured.xml)
 * [Original pull request for discovered dataset enhancements with implementation details](http://bit.ly/gxdiscovereddatasetpr)
 * [Implementation of output collection code in galaxy-central](https://github.com/galaxyproject/galaxy/blob/master/lib/galaxy/tools/parameters/output_collect.py)
 
-Legacy information:
+#### Legacy information:
 
-In the past, it would be necessary to set the attribute `force_history_refresh` to `True` to force the user's history to fully refresh after the tool run has completed. This functionality is now broken and `force_history_refresh` is ignored by Galaxy. Users now //**`MUST`**// manually refresh their history to see these files. A Trello card used to track the progress on fixing this and eliminating the need to refresh histories in this manner can be found [here](https://trello.com/c/f5Ddv4CS/1993-history-api-determine-history-state-running-from-join-on-running-jobs).
+**`force_history_refresh` is deprecated.** In the past, it would be necessary to set the attribute `force_history_refresh` to `True` to force the user's history to fully refresh after the tool run has completed. This functionality is now broken and `force_history_refresh` is ignored by Galaxy. Users now //**`MUST`**// manually refresh their history to see these files. A Trello card used to track the progress on fixing this and eliminating the need to refresh histories in this manner can be found [here](https://trello.com/c/f5Ddv4CS/1993-history-api-determine-history-state-running-from-join-on-running-jobs).
 
 Discovered datasets are available via post job hooks (a deprecated feature) by using the designation - e.g. `__collected_datasets__['primary'][designation]`.
 
 In the past these datasets were typically written to `$__new_file_path__` instead of the working directory. This is not very scalable and `$__new_file_path__` should generally not be used. If you set the option `collect_outputs_from` in `galaxy.ini` ensure `job_working_directory` is listed as an option (if not the only option).
-
-### Generating Dataset Collections
-
-Discovered Datasets can also be combined with dataset collections as shown in:
-
-[Galaxy Tool Generating Dataset Collections](https://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)
