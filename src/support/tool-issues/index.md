@@ -86,7 +86,7 @@ Try this first: **[Sort your inputs](https://galaxyproject.org/support/sort-your
 
 Check all inputs: **[All Support help](https://galaxyproject.org/support)**
 
-If you cannot determine the problem from the help above, the bug report can be sent in: **[Common tool errors and solutions, including how to send in a bug report](https://galaxyproject.org/support/tool-error/).
+If you cannot determine the problem from the help above, the bug report can be sent in: **[Common tool errors and solutions, including how to send in a bug report](https://galaxyproject.org/support/tool-error/)**.
 
 - - - 
 ## Issue by user interface behavior
