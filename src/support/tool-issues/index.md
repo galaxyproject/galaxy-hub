@@ -4,7 +4,7 @@
 _Last updated 4-13-17_
 
 1. (30+ for all) **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies. Some issues appear to be localized to the roundup cluster (default). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
-1. (15) **Heatmap** 1.0.0 Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
+1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (10) **MACS2 bdgdiff + bdgbroadcall 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior macs problems with these tools (earlier version the update was intended to fix) *plus* newly reported. Now errors with "macs2 command not found". Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (0) **MACS2 bdgdiff 2.1.0.20151222.0** Tool version updated 4/11/17, no bugs yet. Does not have "Versions" menu on tool form. This older version errors and users should use newer version (and be notified it exists). Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
 1. (5) **Cuffmerge v 2.2.1** Older v 0.0.6 is successful with same inputs. No changes to tool wrapper, but is now failing. Problem with selecting multiple input files? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2989 Might be related to https://github.com/galaxyproject/tools-iuc/issues/988
