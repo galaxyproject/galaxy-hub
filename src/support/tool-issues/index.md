@@ -78,12 +78,15 @@ _Retest/status update in progress_
 ## Issue by error message
 
 1. Error from a tool in the **NGS: SAMtools** or **NGS: Picard** groups about sort order. 
-1. Tool is failing for memory.
+1. Tool is failing for memory or walltime (click on bug icon to review - this does not need to be submitted).
 1. Tool is failing for what appears to be a cluster error.
 1. Tool is failing and you are not sure what the error message means or how to troubleshoot/get help.
 
-**[Sort your inputs](https://galaxyproject.org/support/sort-your-inputs/)**
-**[All Support help](https://galaxyproject.org/support)**
+Try this first: **[Sort your inputs](https://galaxyproject.org/support/sort-your-inputs/)**
+
+Check all inputs: **[All Support help](https://galaxyproject.org/support)**
+
+If you cannot determine the problem from the help above, the bug report can be sent in: **[Common tool errors and solutions, including how to send in a bug report](https://galaxyproject.org/support/tool-error/).
 
 - - - 
 ## Issue by user interface behavior
