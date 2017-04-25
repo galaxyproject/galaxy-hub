@@ -5,7 +5,7 @@ days: 2
 tease: Galaxy at NGS 2017 Glasgow
 continent: EU
 location: NGS 2017 Glasgow, Glasgow, United Kingdom
-image: logonu.png
+image: /images/logos/GlasgowPolyomics.jpg
 location_url: https://biotexcel.com/event/ngs-2017-glasgow/
 external_url: https://biotexcel.com/event/ngs-2017-glasgow/#workshop
 contact: Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar
