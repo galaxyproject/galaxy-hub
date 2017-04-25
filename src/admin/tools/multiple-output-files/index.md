@@ -23,7 +23,7 @@ Handling cases when tools create a static number of outputs is simple.  Simply i
 </tool>
 ```
 
-  
+
 ## Variable Static Outputs determined by parameter values
 
 In cases when the number of output files varies, but can be determined based upon a user's parameter selection, the use of the filter tag can be used.  The text contents of the <filter> tag are **eval**ed and if the expression is True a dataset will be created as normal.  If the expression is False, the output dataset will not be created; instead a NoneDataset object will be created and made available - when used on the command line the text **None** will appear instead of a file path. The local namespace of the filter has been populated with the tool parameters.
@@ -131,7 +131,7 @@ The Galaxy Tool Factory includes code to gather all output files and create a pa
 
 ### Composite Datatypes
 
-Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](/src/admin/datatypes/Composite Datatypes/index.md). 
+Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](/src/admin/datatypes/Composite Datatypes/index.md).
 
 ## Number of Output datasets cannot be determined until tool run
 
