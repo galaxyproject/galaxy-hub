@@ -44,6 +44,7 @@ Tools in the previous section can also be manually submitted directly to Stamped
 | TACC Stampede                               | 48 hour walltime, 16 cores, 32 GB memory, variable wait |
 | Galaxy cluster test/development             | 30 minute walltime, 2 cores, 16 GB, no/short wait       |
 | TACC Stampede test/development              | 1 hour walltime, 16 cores, 32 GB, variable wait         |
+| Jetstream                                   | N hour walltime, N cores, N GB, N wait                  |
 
 In addition to these resources some jobs (involving tools for genome and transcriptome assembly) are submitted to [Bridges](https://www.psc.edu/index.php/resources/computing/bridges) at Pittsburgh Supercomputing Center. In addition, jobs are also being submitted to [Jetstream](https://jetstream-cloud.org/) resource at Indiana University.   
 
