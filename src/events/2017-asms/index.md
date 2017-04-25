@@ -11,7 +11,7 @@ external_url: http://www.asms.org/conferences/annual-conference/annual-conferenc
 contact: http://galaxyp.org/contact/
 ---
 
-Galaxy (and especially the [Galaxy-P Project](https://usegalaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:
+Galaxy (and especially the [Galaxy-P Project](http://galaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:
 
 | Date | Time | Topic | Presenter | Location |
 | ---- | ---- | ---- | ---- | ---- |
