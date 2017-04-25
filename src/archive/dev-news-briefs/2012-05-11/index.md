@@ -74,7 +74,7 @@ Abstract **[OpenID](http://openid.net/)** providers to be defined outside of the
 <br />
 # New Configurable Tool Output Location
 
-Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/admin/tools/multiple-output-files/index.md)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
+Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/tools/multiple-output-files/)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
 
 <br />
 # Tools
