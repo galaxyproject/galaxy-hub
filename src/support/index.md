@@ -55,6 +55,7 @@ title: Galaxy Support
 * [A history was shared with me, where can I find it?](/src/support/missing-history/index.md)
 * [The account usage quota seems incorrect](/src/support/account-quotas/index.md)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/index.md)
+* [Reset password or Change email, username, password](/src/support/account-updates/index.md)
 
 ### Unexpected results
 
