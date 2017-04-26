@@ -1,11 +1,10 @@
 ---
 title: Strategies for tools that create more than one output file
 ---
-# Handling Multiple Output Files in Galaxy
 
 Tools which create more than one output file are common.  There are several different methods to accommodate this need.  Each one of these has their advantages and weaknesses; careful thought should be employed to determine the best method for a particular tool.
 
-## Static Multiple Outputs
+# Static Multiple Outputs
 
 Handling cases when tools create a static number of outputs is simple.  Simply include an <output> tag for each output desired within the tool XML file:
 
@@ -24,7 +23,7 @@ Handling cases when tools create a static number of outputs is simple.  Simply i
 ```
 
 
-## Variable Static Outputs determined by parameter values
+# Variable Static Outputs determined by parameter values
 
 In cases when the number of output files varies, but can be determined based upon a user's parameter selection, the use of the filter tag can be used.  The text contents of the <filter> tag are **eval**ed and if the expression is True a dataset will be created as normal.  If the expression is False, the output dataset will not be created; instead a NoneDataset object will be created and made available - when used on the command line the text **None** will appear instead of a file path. The local namespace of the filter has been populated with the tool parameters.
 
@@ -108,7 +107,6 @@ If you want to the tool to write a single output in the history showing links to
 </outputs>
 ```
 
-
 ### Pass the application a specific output directory
 
 The application or script must be set up to write all the output files and/or images to a new special subdirectory passed as a command line parameter from Galaxy every time the tool is run. The paths for images and other files will end up looking something like galaxy_dist/database/files/000/dataset_56/img1.jpg when you prepend the Galaxy provided path to the filenames you want to use. The command line must pass that path to your script and it is specified using the files_path property of the html file output. For example:
@@ -116,42 +114,41 @@ The application or script must be set up to write all the output files and/or im
 <command>myscript.pl "$input1" "$html_file" "$html_file.files_path" </command>
 ```
 
-
 ### Write valid html
 
 The application must create and write valid html to setup the page `$html_file` seen by the user when they view (eye icon) the file. It must create and write that new file at the path passed by Galaxy as the `$html_file` command line parameter. All application outputs that will be included as links in that html code should be placed in the specific output directory `$html_file.files_path` passed on the command line. The external application is responsible for creating that directory before writing images and files into it. When generating the html, The files written by the application to `$html_file.files_path` are referenced in links directly by their name, without any other path decoration - eg:
+
 ```
 <a href="file1.xls">Some special output</a>
 <br/>
 <img src="image1.jpg" >
 ```
 
-
 The Galaxy Tool Factory includes code to gather all output files and create a page with links and clickable pdf thumbnail images which may be useful as a starting point - eg see https://bitbucket.org/fubar/rgalaxy/src/9932187787e592238c2c6fb514a39ff3a705a9af/tools/rgenetics/rgToolFactory.py?at=default
 
-### Composite Datatypes
+## Composite Datatypes
 
 Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](/src/admin/datatypes/Composite Datatypes/index.md).
 
-## Number of Output datasets cannot be determined until tool run
+# Number of Output datasets cannot be determined until tool run
 
 There are times when the number of output datasets varies entirely based upon the inputs and cannot be determined ahead of time. Tools can be configured to "discover" an arbitrary number of files that will be added after the job's completion to the user's history as new datasets. There are a couple of options to handle this special case: dataset collections (workflow compatible), and regular datasets (not workflow compatible.) Whenever possible you should prefer dataset collections or one of the previously mentioned methods, so your tool can be used in workflows.
 
-### Dataset Collections
+## Dataset Collections
 
 Discovered Datasets can also be combined with dataset collections as shown in: [Galaxy Tool Generating Dataset Collections](https://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)
 
-While not yet fully documented here, there are extensive [test cases](https://github.com/galaxyproject/galaxy/tree/release_17.01/test/functional/tools) which cover datasets collections. These are generally the best reference for how to build various types of dataset collections.
+While not yet fully documented here, there are extensive [test cases](https://github.com/galaxyproject/galaxy/tree/release_17.01/test/functional/tools) which cover datasets collections. These test cases are generally the best reference for how to create the various types of dataset collections.
 
-### Non-Dataset Collections
+## Non-Dataset Collections
 
-Discovering datasets require a fixed 'parent' output dataset - this dataset will act as the reference for our additional datasets. By default, this appears as an empty dataset that is output. Many tool authors use this as a text report / log of the tool run, otherwise users may think that something is wrong when the first dataset is empty.
+Discovering datasets require a fixed 'parent' output dataset - this dataset will act as the reference for our additional datasets. By default, this appears as an empty dataset that is output. Many tool authors choose to use this as a text report or log of the tool run, otherwise users may think that something is wrong when the first dataset is empty.
 
-Discovered datasets require a unique designation (i.e. the default output name). Your tool should write these datasets to be discovered out to the current working directory, or to a subdirectory thereof. Regular expressions may be used in the dataset discovery statement.
+Discovered datasets require a unique designation (the output dataset name). Your tool should write its output files to the current working directory, or to a subdirectory thereof.
 
-#### Examples
+### Examples
 
-Consider a tool that creates a bunch of text files or bam files. To allow this tool to work with `discover_datasets`, the tool should be configured to write them to a subdirectory. We have arbitrarily chosen our subdirectory name as `split`. During the tool run, it will write the bam and text files into that directory, with the appropriate extension. The tool can then be configured to discover the outputs with the following XML:
+Consider a tool that creates some text files *and* some bam files. To allow this tool to work with `discover_datasets`, the tool should be configured to write them to a subdirectory. We have arbitrarily chosen our subdirectory name as `split`, and configured our tool to place its outputs in that folder. During execution, the tool will write the bam and text files into that directory, with the appropriate extension. In our tool XML, we will then configure Galaxy to discover the outputs with the following statement:
 
 ```xml
 <outputs>
@@ -160,6 +157,8 @@ Consider a tool that creates a bunch of text files or bam files. To allow this t
   </data>
 </outputs>
 ```
+
+Here, we have a primary output named `report`. By default this is empty, but we could write a short report there to help our users. Within the `report` output, we tell Galaxy to discover some datasets by looking in the `directory` for the `pattern`, and then marking them as `visibile` in the user's history.
 
 If the tool produced the following files when it was run:
 
@@ -171,6 +170,8 @@ If the tool produced the following files when it was run:
 - `split/cross2.txt`
 
 Then 6 datasets would be discovered and added to the history. The `<discover_datasets>` block would look in `directory="split"` and find a number of files which all match the generic `pattern="__designation_and_ext__"`. These files would show up in your Galaxy history as `My Tool (Samp1.bam)`, `My Tool (Samp2.bam)`, and so on. Since we have used `__designation_and_ext__`, galaxy will see the `.bam` and `.txt` extensions and set the filetype appropriately.
+
+#### Incorrect Datatype Extension
 
 If for some reason a different or incorrect file extension was used, such as a tool which writes out `.tsv` files, Galaxy would not know how to handle those as tabular datasets. In that case, instead of `__designation_and_ext__`, we can use `__designation__` and the `ext` option:
 
@@ -184,11 +185,11 @@ If for some reason a different or incorrect file extension was used, such as a t
 
 In this example, if the tool created 3 tabular files such as `tables/part1.tsv`, `tables/part2.tsv`, and `tables/part3.tsv` - then 3 datasets will be discovered, all with the type `tabular` and with dataset names like `My Tool (part1.tsv)`, `My Tool (part2.tsv)`, and `My Tool (part3.tsv)`.
 
-##### Customizing the Name
+#### Customizing the Name
 
 If you do not want `My Tool (...)` to be part of the history dataset name, you can replace `designation` with `name`. So `__designation_and_ext__` would be replaced by `__name_and_ext__` and `__designation__` would be replaced by `__name__`.
 
-##### Hiding the Extension
+#### Hiding the Extension
 
 It may not be desirable for the extension (`.tsv`) to appear in the `designation` this way. These patterns `__designation__` and  `__designation_and_ext__` can be replaced with regular expressions that capture metadata from the file name using named groups. `__designation__` and `__designation_and_ext__` are just shortcuts, for `(?P<designation>.*)` and  `(?P<designation>.*)\.(?P<ext>[^\._]+)?`, respectively. If you need, you can override these by manually specifying the regular expressions using the `pattern` optin in your `discover_datasets` block. The above example can be modified as:
 
@@ -204,9 +205,9 @@ Going back to our `tables/part{1,2,3}.tsv` example, all three datasets are still
 
 Notice here the `<` and `>` in the tool pattern had to be replaced with `\&lt;` and `&gt;` to be properly embedded in XML.
 
-#### More Metadata
+### More Metadata
 
-There are more metadata elements which can be captured:
+Using the `pattern` option with a custom regex, there are more metadata elements which can be captured:
 
 - `ext`
 - `designation`
@@ -216,7 +217,7 @@ There are more metadata elements which can be captured:
 
 Each pattern must declare at least either a `designation` or a `name` - the other metadata parts `ext`, `dbkey`, and `visible` are all optional and may also be declared explicitly in via attributes on the `discover_datasets` element (as shown in the above examples).
 
-If no `discover_datasets` element is nested with a tool output - Galaxy will still look for datasets using the named pattern `__default__` which expands to `primary_DATASET_ID_(?P<designation>[^_]+)_(?P<visible>[^_]+)_(?P<ext>[^_]+)(_(?P<dbkey>[^_]+))?`. Many tools use this mechanism as it traditionally was the only way to discover datasets.
+If no `discover_datasets` element is nested with a tool output - Galaxy will still look for datasets using the named pattern `__default__` which expands to `primary_DATASET_ID_(?P<designation>[^_]+)_(?P<visible>[^_]+)_(?P<ext>[^_]+)(_(?P<dbkey>[^_]+))?`. Many tools use this method as it was the default historically.
 
 For instance consider the following output declaration:
 
@@ -228,13 +229,13 @@ For instance consider the following output declaration:
 
 If `$output1.id` (accessible in the tool `command` block) is `546` and the tool produces the files `primary_546_output2_visible_bed` and `primary_546_output3_visible_pdf` in the job's working directory - then after execution is complete these two additional datasets (a bed file and a pdf file) are added to the user's history.
 
-More information:
+### Further Reading
 
 * [Contrived example tool with demonstration of more patterns and testing of discovered outputs](https://github.com/galaxyproject/galaxy/blob/release_17.01/test/functional/tools/multi_output_configured.xml)
 * [Original pull request for discovered dataset enhancements with implementation details](http://bit.ly/gxdiscovereddatasetpr)
 * [Implementation of output collection code in galaxy-central](https://github.com/galaxyproject/galaxy/blob/master/lib/galaxy/tools/parameters/output_collect.py)
 
-#### Legacy information:
+### Legacy information:
 
 **`force_history_refresh` is deprecated.** In the past, it would be necessary to set the attribute `force_history_refresh` to `True` to force the user's history to fully refresh after the tool run has completed. This functionality is now broken and `force_history_refresh` is ignored by Galaxy. Users now //**`MUST`**// manually refresh their history to see these files. A Trello card used to track the progress on fixing this and eliminating the need to refresh histories in this manner can be found [here](https://trello.com/c/f5Ddv4CS/1993-history-api-determine-history-state-running-from-join-on-running-jobs).
 
