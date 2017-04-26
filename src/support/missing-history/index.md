@@ -22,9 +22,9 @@ When logged into your account, these are located under **_Histories Shared with 
 
 **Working with _Histories Shared with Me_**
 
-    *   __Make copies__ to import the history into your account where they can be worked with.
-    *   __Unshare histories__ that you no longer want shared with you or that you have already made a copy of.
-    *   __Shared Histories__ (but not copied) do count in portion toward your [total account data quota(https://galaxyproject.org/main/#user-data-and-job-quotas) at http://usegalaxy.org.
+    *   Make copies to import the history into your account where they can be worked with.
+    *   Unshare histories that you no longer want shared with you or that you have already made a copy of.
+    *   Shared Histories (but not copied) do count in portion toward your [total account data quota(https://galaxyproject.org/main/#user-data-and-job-quotas) at http://usegalaxy.org.
         
 # Related resources
 
