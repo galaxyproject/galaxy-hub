@@ -44,6 +44,7 @@ _Retest/status update in progress_
 
 - - - 
 ## Recently corrected at Galaxy Main
+1. **Trimmomatic** Update to version **0.36.3** corrected tool form option "Illumina Clip" failures. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3691
 1. **Picard Tool: CollectRnaSeqMetrics 1.136.0** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. Update: Error due to input format - is very specific and needs to be clarified on tool form, see ticket. https://github.com/galaxyproject/galaxy/issues/1710.
 1. **MarkDuplicatesWithMateCigar 1.126.0** Problem with tool form option specific to version 1.126.0. Repo updated to version 1.136.0 and now works at Main. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
 1. **Trackster and GFF/GTF datasets** Fail to load with a specific error. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3499
