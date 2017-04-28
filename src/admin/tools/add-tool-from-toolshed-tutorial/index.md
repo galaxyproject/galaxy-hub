@@ -3,9 +3,9 @@ title: Installing Tools into Galaxy
 ---
 ## Ways to get tools into Galaxy
 
-1. Install a tool from the [Tool Shed](/src/toolshed/index.md). The process has to be completed by an administrator and can be done through the [Admin Interface](/src/admin/index.md).
-1. If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
-1. Automated installation - The process of installing tools from Tool Shed can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](http://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). Please see that page for complete instructions.
+* Install a tool from the [Tool Shed](/src/toolshed/index.md). The process has to be completed by an administrator and can be done through the [Admin Interface](/src/admin/index.md).
+* If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
+* Automated installation - The process of installing tools from Tool Shed can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](http://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). Please see that page for complete instructions.
 
 ## Vocabulary
 
