@@ -8,7 +8,7 @@ location: ASMS 2017, Indianapolis, Indiana, United States
 image: /images/logos/ASMSLogo.png
 location_url: http://www.asms.org/conferences/annual-conference/annual-conference-homepage
 external_url: http://www.asms.org/conferences/annual-conference/annual-conference-homepage
-contact: http://galaxyp.org/contact/
+contact: Tim Griffin, Pratik Jagtap
 ---
 
 Galaxy (and especially the [Galaxy-P Project](http://galaxyp.org/)) will again have a strong presence at ASMS.  Want to learn more?  Plan to attend these presentations:
