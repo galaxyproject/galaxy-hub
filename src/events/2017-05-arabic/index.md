@@ -2,13 +2,13 @@
 title: Introduction to Genomics in Medicine Using Galaxy  Platform
 date: '2017-05-04'
 days: 1
-tease: 
+tease: Galaxy workshop in Arabic
 continent: AF
 location: Tanta University Faculty of Mediciene, Tanta, Egypt
 image: /images/logos/tanta-faculty-of-medicine.png
 location_url: http://med.tanta.edu.eg/
 gtn: y
-contact: Abdelazeem_Abdelhameed2015505@yahoo.com
+contact: Abdelazeem_Abdelhameed2015505 @ yahoo.com
 ---
 <div class='left'><img src="/src/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
