@@ -106,9 +106,35 @@ Services are classified here by whom they are accessible to.  This can be based 
 * *Sponsor(s):*
   * [PL-Grid NG](http://www.plgrid.pl/en/projects/ng) and [ACC CYFRONET AGH](http://www.cyfronet.krakow.pl/en/4421,main.html)
 
+## United Kingdom: CLIMB
+
+<div class='right solid'><a href='http://www.climb.ac.uk/'><img src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB (Cloud infrastructure for Microbial Bioinformatics" width="300" /></a></div>
+
+* *Links:*
+  * **[CLIMB Home](http://www.climb.ac.uk/)**
+  * [Request a CLIMB account](https://bryn.climb.ac.uk/user/register/)
+  * [Login](https://bryn.climb.ac.uk/)
+* *Eligibility:*
+  *  To register for a CLIMB group account, you must:
+    * Be a UK academic or public sector worker working on microbial genomics
+    * Run your own research group (i.e. be a principal investigator)
+    * Have a .ac.uk (or .gov.uk or .nhs.uk email account)
+    * Agree to our service terms and conditions
+* *Comments:*
+  * The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) develops and deploys a world leading cyber-infrastructure for microbial bioinformatics; providing free cloud-based compute, storage, and analysis tools for academic microbiologists in the UK.
+  * The project is supported by three world class Medical Research Fellows, a comprehensive training program and two newly refurbished Bioinformatics facilities in both Warwick and Swansea.
+  * The Galaxy component of CLIMB is based on GVL. CloudBridge, and CloudMan infrastructure.
+* *User Support:*
+  * [CLIMB Community](https://discourse.climb.ac.uk/)
+  * [Training](http://www.climb.ac.uk/training/)
+* *Quotas:* 
+* *Sponsor(s):*
+  * The CLIMB project is a collaboration between Warwick, Birmingham, Cardiff and Swansea Universities.
+  * CLIMB is funded by the UK’s [Medical Research Council](https://www.mrc.ac.uk/).
+
 ## United States: Jetstream
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
+<div class='right solid'><a href='http://jetstream-cloud.org/'><img src="/src/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
 * *Links:*
   * **[Galaxy on Jetstream](/src/cloud/jetstream/index.md)**
@@ -144,6 +170,10 @@ Services are classified here by whom they are accessible to.  This can be based 
   * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
 * *Sponsor(s):*
   * [Cancer Computer](http://www.cancercomputer.com/)
+
+## Microbial: CLIMB
+
+See [United Kingdom: CLIMB](#united-kingdom-climb) above.
 
 
 # Association Based
