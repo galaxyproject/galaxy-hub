@@ -38,9 +38,9 @@ The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-ap
 
 <div class='right'><img src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a></div>
 
-<div class="col-sm-offset-1")>
+<blockquote>
 a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
-</div>
+</blockquote>
 
 # Hosting and Commercial Cloud Solutions
 
@@ -60,7 +60,7 @@ These vendors provide support for running Galaxy on cloud infrastructures:
 <div class='right'><a href='http://www.genome-cloud.com'><img src="/src/cloud/GenomeCloudLogo.png" alt="GenomeCloud"  /></a></div>
 
 From [GenomeCloud](http://www.genome-cloud.com):
-<div class='indent'>
+<blockquote>
 [GenomeCloud](http://www.genome-cloud.com) started with combining the idea of cloud computing with bioinformatics as an integrated solution for data storage and sharing, database management, upgrading computing and analysis tools, and security. 
 
 [GenomeCloud](http://www.genome-cloud.com) is designed to aid biologists and researchers to perform bioinformatics tasks easier, as  well as support small-sized laboratories to perform researches without hurdles. 
@@ -68,7 +68,7 @@ From [GenomeCloud](http://www.genome-cloud.com):
 [GenomeCloud](http://www.genome-cloud.com) is composed of g-Analysis, g-Cluster, g-Storage, and g-Insight services, where accounts creation and management, monitoring systems, billing, and service management are offered via KT's proven superior cloud-based web system, providing convenience to the researchers and other users. 
 
 Users can easily use Galaxy using g-Cluster based on cloud computing. 
-</div>
+</blockquote>
 
 
 # Training
