@@ -36,9 +36,11 @@ With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your
 
 The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-appliance/) is 
 
-<div class='right'><a href='http://www.bioteam.net/products/galaxy-appliance/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam Appliance Galaxy Edition" /></a></div>
+<div class='right'><img src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a></div>
 
- a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
+<div class="col-sm-offset-1")>
+a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
+</div>
 
 # Hosting and Commercial Cloud Solutions
 
