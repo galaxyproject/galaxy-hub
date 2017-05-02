@@ -7,6 +7,7 @@ continent: AF
 location: Tanta University Faculty of Mediciene, Tanta, Egypt
 image: /images/logos/tanta-faculty-of-medicine.png
 location_url: http://med.tanta.edu.eg/
+external_url: https://www.facebook.com/events/1836526683279672/
 gtn: y
 contact: Abdelazeem_Abdelhameed2015505 @ yahoo.com
 ---
