@@ -3,7 +3,7 @@ title: May 2017 Galaxy News
 ---
 <div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the May 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter then please send it to outreach@galaxyproject.org.
+Welcome to the May 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # 2017 Galaxy Community Conference
@@ -38,7 +38,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## GCC2017 Call for BoFs!
 
-There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
+There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing) )* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 BoF meetups are encouraged throughout GCC2017.  **The [current list of BoFs is available on the conference web site](http://bit.ly/gcc2017bofs).** BoFs are posted as soon as they are proposed.  The exact time and schedule for each will be set in mid to late June.
 
@@ -58,11 +58,11 @@ The conference *enables and encourages* BoFs by
 
 <div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
-Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czeckia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
+Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
 Participants will learn to
-•  Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
-•  Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
+- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
+- Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
@@ -204,19 +204,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 Some highlights from the papers added last month:
 
  	
-* [Genome Build Information Is An Essential Part Of Genomic Track Files](http://dx.doi.org/10.1101/120923)
+* [Genome Build Information Is An Essential Part Of Genomic Track Files](https://doi.org/10.1101/120923)
    Chakravarthi Kanduri, Diana Domanska, Eivind Hovig, Geir K. Sandve. *bioRxiv* (2017), doi:10.1101/120923
 
-* [Antigen Receptor Galaxy: A User-Friendly, Web-Based Tool for Analysis and Visualization of T and B Cell Receptor Repertoire Data](http://dx.doi.org/10.4049/jimmunol.1601921)
+* [Antigen Receptor Galaxy: A User-Friendly, Web-Based Tool for Analysis and Visualization of T and B Cell Receptor Repertoire Data](https://doi.org/10.4049/jimmunol.1601921)
    Hanna IJspeert, Pauline A. van Schouwenburg, David van Zessen, Ingrid Pico-Knijnenburg, Andrew P. Stubbs, Mirjam van der Burg. *The Journal of Immunology* (17 April 2017), 1601921, doi:10.4049/jimmunol.1601921
 
-* [Characterization of NIST Human Mitochondrial DNA SRM-2392 and SRM-2392-I Standard Reference Materials by Next Generation Sequencing](http://dx.doi.org/10.1016/j.fsigen.2017.04.005)
+* [Characterization of NIST Human Mitochondrial DNA SRM-2392 and SRM-2392-I Standard Reference Materials by Next Generation Sequencing](https://doi.org/10.1016/j.fsigen.2017.04.005)
   Sarah Riman, Kevin M. Kiesler, Lisa A. Borsuk, Peter M. Vallone. *Forensic Science International: Genetics* (April 2017), doi:10.1016/j.fsigen.2017.04.005
 
-* [ReGaTE, Registration of Galaxy Tools in Elixir](http://dx.doi.org/10.1093/gigascience/gix022)
+* [ReGaTE, Registration of Galaxy Tools in Elixir](https://doi.org/10.1093/gigascience/gix022)
   Olivia Doppelt-Azeroual, Fabien Mareuil, Eric Deveaud, et al. *GigaScience* (10 April 2017), doi:10.1093/gigascience/gix022
 
-* [Transcriptomic Analysis of C. elegans RNA Sequencing Data Through the Tuxedo Suite on the Galaxy Project](http://dx.doi.org/10.3791/55473)
+* [Transcriptomic Analysis of C. elegans RNA Sequencing Data Through the Tuxedo Suite on the Galaxy Project](https://doi.org/10.3791/55473)
   Francis R. G. Amrit, Arjumand Ghazi. *Journal of Visualized Experiments*, No. 122. (8 April 2017), doi:10.3791/55473
 
 * [wft4galaxy: A Workflow Tester for Galaxy](https://doi.org/10.1101/132001 )
