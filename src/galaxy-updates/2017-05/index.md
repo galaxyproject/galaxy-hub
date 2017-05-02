@@ -451,7 +451,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 <div class="right"><a href="http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow"><img src='/src/images/news-graphics/gigascience-guardians.png' alt="Guardians of the Galaxy Workflow" width="150" /></a></div>
 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
-  * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
+* A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
 * From [Björn Grüning](/src/people/bjoern-gruening/index.md)
   * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
 * From [Peter Briggs](https://twitter.com/ironic_cog):
