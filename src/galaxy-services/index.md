@@ -153,7 +153,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 # Domain Based
 
-## Cancer Computer
+## Cancer: Cancer Computer
 
 <div class='right solid'><a href='http://www.cancercomputer.com/'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="200" /></a></div>
 
