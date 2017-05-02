@@ -54,7 +54,7 @@ The conference *enables and encourages* BoFs by
 
 <div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
-Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czeckia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
+Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
 Participants will learn to
 - Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
