@@ -24,6 +24,8 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## New GCC2017 Sponsors
 
+We are pleased to welcome [BioTeam](https://bioteam.net/products/galaxy-appliance/) and [GenomeWeb](https://www.genomeweb.com/?utm_source=galaxyproject_logo&utm_medium=parterships&utm_campaign=may) as returning GCC sponsors.
+
 
 ### GenomeWeb
 
@@ -34,11 +36,27 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 <br />
 
+### BioTeam
+
+<div class='right'> 
+<a href='https://bioteam.net/products/galaxy-appliance/'><img src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a>
+</div>
+
+**[BioTeam](https://bioteam.net/)** is pleased to announce special pricing for the **[BioTeam Appliance Galaxy Edition](https://bioteam.net/products/galaxy-appliance/)** now through Jun 30, 2017 (the last day of GCC2017).  The BioTeam Appliance Galaxy Edition allows the researcher to get up and running fast with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets.  "Science on Day One"  To request more information [click here](https://bioteam.net/products/galaxy-appliance/galaxy-appliance-information-request/).
+
+| Model | Price |
+| ---- | ---- |
+| Galaxy Appliance Base Model 384/32	     | $29,995 USD |
+| Galaxy Appliance Base Model 384/96		 | $45,495 USD |
+| Galaxy Appliance Enhanced Model 512/32 | $32,995 USD |
+| Galaxy Appliance Enhanced Model 512/96 | $48,995 USD |
+
+Technology Financing is available for qualified institutions/companies.  Will ship globally.
 
 
 ## GCC2017 Call for BoFs!
 
-There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing) )* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
+There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 BoF meetups are encouraged throughout GCC2017.  **The [current list of BoFs is available on the conference web site](http://bit.ly/gcc2017bofs).** BoFs are posted as soon as they are proposed.  The exact time and schedule for each will be set in mid to late June.
 
@@ -61,12 +79,13 @@ The conference *enables and encourages* BoFs by
 Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
 Participants will learn to
+
 - Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
 - Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
-We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.
+We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
 
 See you in Prague!
 
@@ -432,7 +451,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 <div class="right"><a href="http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow"><img src='/src/images/news-graphics/gigascience-guardians.png' alt="Guardians of the Galaxy Workflow" width="150" /></a></div>
 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
-  * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12 paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
+  * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
 * From [Björn Grüning](/src/people/bjoern-gruening/index.md)
   * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
 * From [Peter Briggs](https://twitter.com/ironic_cog):
