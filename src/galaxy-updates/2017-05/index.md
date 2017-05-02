@@ -56,7 +56,7 @@ Technology Financing is available for qualified institutions/companies.  Will sh
 
 ## GCC2017 Call for BoFs!
 
-There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
+There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 BoF meetups are encouraged throughout GCC2017.  **The [current list of BoFs is available on the conference web site](http://bit.ly/gcc2017bofs).** BoFs are posted as soon as they are proposed.  The exact time and schedule for each will be set in mid to late June.
 
