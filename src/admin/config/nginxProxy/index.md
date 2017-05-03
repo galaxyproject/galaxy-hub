@@ -1,5 +1,3 @@
- <<Include(Admin/Config/Performance/LinkBox)>> <<div(left)>><<TableOfContents>><<div>> 
-
 # nginx proxy to Galaxy
 
 nginx is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ( [Main](Main) and [Test](Test)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
