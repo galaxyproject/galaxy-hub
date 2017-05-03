@@ -1,7 +1,7 @@
 ---
 title: Visualization with Charts
 ---
-*Galaxy Charts* is a visualization framework for javascript-based 3rd party visualization plugins which sits on top of Galaxy's visualization framework. Currently about 30 visualizations ranging from bar diagrams, pie charts, scatterplots to molecule and protein viewers and cytoscape and phylogenetic visualizations are available. Charts allows these plugins to benefit from Galaxy's form building capabilities to easily define input parameters and data options for the configuration of 3rd party visualization plugins. It is similar to how tools are added to the Galaxy platform.
+*Galaxy Charts* is a visualization framework for JavaScript-based 3rd party visualization plugins which sits on top of Galaxy's visualization framework. Currently about 30 visualizations ranging from bar diagrams, pie charts, scatterplots to molecule and protein viewers and cytoscape and phylogenetic visualizations are available. Charts allows these plugins to benefit from Galaxy's form building capabilities to easily define input parameters and data options for the configuration of 3rd party visualization plugins. It is similar to how tools are added to the Galaxy platform.
 
 ### Why Charts?
 
