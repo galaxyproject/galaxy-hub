@@ -3,4 +3,6 @@ title: Galaxy Custom Visualizations
 ---
 There are many custom visualizations available for Galaxy which are not part of the Galaxy core package. Here, we provide an overview for such visualizations.
 
-PLACEHOLDER_DICT_COLUMNS(pagename=Learn/Visualization/Custom, names="Resource, Domain, Owners, Formats, Description, Date Created/Updated", sort="Resource", title="Hide", hide="Hide")
+| Resource | Domain | Owners | Formats | Description |
+| --- | --- | --- | --- | --- |
+| [DeepTools](/src/learn/visualization/custom/deep-tools/index.md) | NGS, QC, Normalization, Visualization | [Max-Planck-Institut für Immunbiologie und Epigenetik](http://www.ie-freiburg.mpg.de) | BAM, bigWig, BED | User-friendly tools for the normalization and visualization of deep-sequencing data |
