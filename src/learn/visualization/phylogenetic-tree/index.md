@@ -1,6 +1,7 @@
 ---
 title: Phyloviz: Interactive Phylogenetic Tree Visualizer for Galaxy
 ---
+
 Phyloviz is an interactive phylogenetic tree visualizer built for Galaxy to give its users a more effective way to access, manipulate, analyze and present data of phylogenetic tree data on galaxy. 
 
 Currently, the project is in its beta-stage and is ready to be deployed to galaxy-central for testing. 
@@ -9,11 +10,11 @@ Currently, the project is in its beta-stage and is ready to be deployed to galax
 ----
 ### Video Tutorial:
 
-Here's a short 4.5 mins video tutorial to get you started. Link: http://www.youtube.com/watch?v=NhQO7hjuW8o&feature=youtu.be For more information, you can read the detailed guide below. 
+Here's a short [4.5 mins video](http://www.youtube.com/watch?v=NhQO7hjuW8o&feature=youtu.be) tutorial to get you started. For more information, you can read the detailed guide below. 
 
 ### Step-by-Step Guide:
 
-**Step 1:**Upload phylogenetic data to galaxy. Phyloviz It is able to work with phylogenetic tree data from Newick (.nhx), Nexus (.nex) and Phyloxml (.xml) formats. You can upload them via the Get Data > Upload File function found on the main page. Do note that for newick format you will have to choose it manually. 
+**Step 1:** Upload phylogenetic data to galaxy. Phyloviz It is able to work with phylogenetic tree data from Newick (.nhx), Nexus (.nex) and Phyloxml (.xml) formats. You can upload them via the Get Data > Upload File function found on the main page. Do note that for newick format you will have to choose it manually. 
 
 **Step 2:** Launching Phyloviz. Currently phyloviz has only one entry point, which is via the “View in Phyloviz” icon that will appear for all supported phylogenetic data set. 
 
