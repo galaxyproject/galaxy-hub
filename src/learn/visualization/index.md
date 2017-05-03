@@ -87,23 +87,23 @@ via the selection box on the top-right corner of the track. **The following diag
 
 **Automatic**: Trackster chooses the level of detail based on how much data is on the screen. Currently shows feature spans without any exon detail or labels because there is a lot of data in this region.
 
-    ![Auto](/src/learn/visualization/trackster/featauto.png)
+![Auto](/src/learn/visualization/trackster/featauto.png)
 
 **Histogram**: Show the number of features in binned regions.
 
-    ![Histogram](/src/learn/visualization/trackster/feathist.png)
+![Histogram](/src/learn/visualization/trackster/feathist.png)
 
 **Dense**: draw everything stacked on top each other, in one slot. Useful to see coverage while minimizing screen real estate.
 
-    ![Dense](/src/learn/visualization/trackster/featdense.png)
+![Dense](/src/learn/visualization/trackster/featdense.png)
 
 **Squish**: draw exons but not strand/labels
 
-    ![Intensity](/src/learn/visualization/trackster/featsquish.png)
+![Intensity](/src/learn/visualization/trackster/featsquish.png)
 
 **Pack**: draw exons, strand, and labels
 
-    ![](/src/learn/visualization/trackster/featpack.png)
+![](/src/learn/visualization/trackster/featpack.png)
 
 To change between these display modes, click the dropdown at the top-right of the track.
 
