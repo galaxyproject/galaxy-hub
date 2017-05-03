@@ -1,22 +1,8 @@
 ---
 title: Video Viz
 ---
-<div class='center'>
-<img src="/src/learn/visualization/custom/video-viz/VizPluginVideoScreenshot.png" alt="VideoViz Plugin in Galaxy" width=800px />
-</div>
 
-
-
-<div class='deploymentbox'>
- Resource:: **[VideoViz](/src/learn/visualization/custom/video-viz/index.md)**
- Type:: Public
- Domain:: Imaging, Microscopy, other Video Data
- Formats:: Mp4
- Owners:: [Center for Phage Technology](https://cpt.tamu.edu)
- Link:: None currently available
- Description:: This visualization provides support for video playback inside galaxy. It is part of a push to add more tools, formats, and converters to support imaging data.
- Date Created/Updated:: 2014/07 
-</div>
+![](/src/learn/visualization/custom/video-viz/screenshot.png)
 
 In the modern world of imaging and microscopy, data is more than just sam, bam, and fastq files. This plugin allows videos to be viewed within galaxy, stepping through them frame-by-frame or playing them normally. Additionally we use the speed plugin for faster or slower playback.
 
