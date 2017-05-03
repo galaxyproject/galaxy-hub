@@ -1,16 +1,6 @@
 ---
 title: LEfSe
 ---
-<div class='deploymentbox'>
- Resource:: **[LEfSe](/src/learn/visualization/custom/lefse/index.md)**
- Type:: Public
- Domain:: NGS, Visualization
- Formats:: Microbial abundance tables with two meta rows
- Owners:: [Harvard School of Public Health](http://www.hsph.harvard.edu)
- Link:: [Access Galaxy Instance](http://huttenhower.sph.harvard.edu)
- Description:: Determines the features (organisms, clades etc.) most likely to explain differences between classes by coupling standard tests for statistical significance.
- Date Created/Updated:: 2014/07 
-</div>
 
 LEfSe (Linear discriminant analysis Effect Size) determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes by coupling standard tests for statistical significance with additional tests encoding biological consistency and effect relevance.
 LEfSe is available as a Galaxy module, and as a bitbucket repository. For additional information, please refer to the LEfSe paper.
