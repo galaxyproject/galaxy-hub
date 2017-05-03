@@ -1,6 +1,6 @@
 # nginx proxy to Galaxy
 
-nginx is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ( [Main](/src/main/index.md) and [Test](/src/test/index.md)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
+[NGINX](http://nginx.org/en/) is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ([Main](/src/main/index.md) and [Test](/src/test/index.md)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
 
 Galaxy should _never_ be located on disk inside nginx's `root`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
@@ -35,7 +35,7 @@ http {
 }
 ```
 
-Replace /srv/galaxy with the path to your copy of Galaxy.
+Replace `/srv/galaxy` with the path to your copy of Galaxy.
 
 Thus, all requests on your server (for example, [http://www.example.org/](http://www.example.org/)) are now redirected to Galaxy.
 
@@ -45,7 +45,7 @@ Make sure that you either comment out or modify line containing default configur
 include /etc/nginx/sites-enabled/*;
 ```
 
-client\_max\_body\_size specifies the maximum upload size that can be handled by <<nwwl(POST)>> requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
+`client\_max\_body\_size` specifies the maximum upload size that can be handled by <<nwwl(POST)>> requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
 
 Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to `server { } `:
 
@@ -195,9 +195,9 @@ For this to work, the user under which your nginx server runs will need read acc
 
 ## Receiving files using nginx
 
-Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of nginx\_upload\_module, a 3rd-party nginx module.
+Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of `nginx\_upload\_module`, a 3rd-party nginx module.
 
-To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install nginx\_upload\_module. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
+To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install `nginx\_upload\_module`. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
 
 ```
 #!highlight nginx
@@ -234,7 +234,7 @@ nginx_upload_store = database/tmp/upload_store
 nginx_upload_path = /_upload
 ```
 
-When serving Galaxy with a prefix, as described in the serving Galaxy in a sub-directory section above, you will need to change one line in the \_upload\_done section. If your galaxy instance is available from /galaxy, then the first line should include this prefix:
+When serving Galaxy with a prefix, as described in the serving Galaxy in a sub-directory section above, you will need to change one line in the `\_upload\_done` section. If your galaxy instance is available from `/galaxy`, then the first line should include this prefix:
 
 ```
 #!highlight nginx
