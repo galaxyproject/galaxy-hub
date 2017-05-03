@@ -1,6 +1,6 @@
 # nginx proxy to Galaxy
 
-nginx is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ( [Main](https://galaxyproject.org/main/) and [Test](https://galaxyproject.org/test/)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
+nginx is a lightweight http server designed with high performance proxying in mind. The public Galaxy sites ( [Main](/src/main/index.md) and [Test](/src/test/index.md)) use nginx to proxy rather than Apache for its simple, fast load balancing and other features.
 
 Galaxy should _never_ be located on disk inside nginx's `root`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
