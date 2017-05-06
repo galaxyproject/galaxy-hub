@@ -9,7 +9,7 @@ This section will guide you through downloading experimental metadata, organizin
 
 ### Downloading metadata
 
-*It is critical to understand the condition/replicate structure of an experiment before working with the data so that it can be imported as colelctions ready for analysis.* Direct your browser to https://www.ncbi.nlm.nih.gov/Traces/study/ and in the search box enter GEO data set identifier (for example: GSE72018). Once the study appears, click the box to download the “RunInfo Table”.
+*It is critical to understand the condition/replicate structure of an experiment before working with the data so that it can be imported as collections ready for analysis.* Direct your browser to https://www.ncbi.nlm.nih.gov/Traces/study/ and in the search box enter GEO data set identifier (for example: GSE72018). Once the study appears, click the box to download the “RunInfo Table”.
 
 ### Organizing metadata
 
