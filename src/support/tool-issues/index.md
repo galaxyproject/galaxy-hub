@@ -3,6 +3,7 @@
 
 _Last updated 5-1-17_
 
+1. (48) **Diffbind 2.2.0** Errors after tool update (from v 2.1.0). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (10) **MACS2 bdgdiff + bdgbroadcall 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior macs problems with these tools (earlier version the update was intended to fix) *plus* newly reported. Now errors with "macs2 command not found". Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (N) **MACS2 bdgdiff 2.1.0.20151222.0** Tool version updated 4/11/17, no bugs yet. Does not have "Versions" menu on tool form. This older version errors and users should use newer version (and be notified it exists). Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
@@ -44,7 +45,6 @@ _Integration test once installed_
 1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. **Upload** Is assigning "pileup" as autodetected datatype in a greedy way for tabular format data. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
-1. (48) **Diffbind 2.1.0** Produces green empty datasets with dependency issues. Tool has updated version that needs to be added to Tool Shed, then older version hidden plus new installed plus integration test. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2318
 1. **Stringtie** (recently updated to 1.3.3). UI/version issues - needs ticket if not fixed in next day or so.
 1. **MACS2** (recently updated to 2.1.1.20160309.0). Test all components against open issues above (two are confirmed to be problematic so far)
 1. Some parts fixed, some pending, see ticket. (30+ for all) **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies. Some issues appear to be localized to the roundup cluster (default). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
