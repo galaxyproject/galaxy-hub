@@ -22,6 +22,12 @@ _Last updated 5-1-17_
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
 - - - 
+## Tools that need updated usage/help
+
+1. **Trinity** Both trinity and trinity_pcs. Details: https://github.com/galaxyproject/tools-iuc/issues/1298
+
+
+- - -
 ## Fixed pending update
 
 _Integration test once installed_
