@@ -4,6 +4,9 @@
 
 Galaxy should _never_ be located on disk inside nginx's `root`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
+**Prerequisite:**
+make sure that inbound (and outbound) traffic to the TCP protocol HTTP on port 80 and HTTPS on port 443 is permitted by your server's firewall/security. 
+
 ## Basic configuration
 
 For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/) (see [SSL](https://github.com/VJalili/galaxy-site/blob/patch-1/src/admin/config/nginxProxy/index.md#ssl) section for HTTPS), the following lines in the nginx configuration will proxy requests to the Galaxy application:
@@ -67,6 +70,7 @@ http {
 
 You'll need to ensure that filesystem permissions are set such that the user running your nginx server has access to the Galaxy static/ directory.
 
+
 ### Serving Galaxy at a sub directory (such as /galaxy)
 
 It may be necessary to house Galaxy at an address other than the web server root (i.e., [http://www.example.org/galaxy](http://www.example.org/galaxy), instead of [http://www.example.org](http://www.example.org)). To do this, you need to make the following changes: 
@@ -110,16 +114,30 @@ cookie_path = /galaxy
 
 ## SSL
 
-If you place Galaxy behind a proxy address that uses SSL (e.g. `https://` <<nwwl(URLs)>>), set the following in your nginx config:
+If you place Galaxy behind a proxy address that uses SSL (i.e., `https://` URLs), set the following in your nginx config:
 
 ```
 #!highlight nginx
-location / {
-    proxy_set_header X-URL-SCHEME https;
+server {
+    listen       443 ssl http2 default_server;
+    listen       [::]:443 ssl http2 default_server;
+    server_name  _;
+    root         /usr/share/nginx/html;
+
+    ssl_certificate "/etc/pki/nginx/server.crt";
+    ssl_certificate_key "/etc/pki/nginx/private/server.key";
+
+    location / {
+        proxy_set_header X-URL-SCHEME https;
+    }
+
 }
+
+
 ```
 
-Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting `X-URL-SCHEME` makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+
 
 ## Compression and caching
 
