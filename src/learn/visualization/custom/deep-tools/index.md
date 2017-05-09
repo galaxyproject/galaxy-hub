@@ -12,13 +12,13 @@ For support, questions, or feature requests contact: deeptools@googlegroups.com
 
 List of tools:
 
-* [bamCorrelate](https://github.com/fidelram/deepTools/wiki/QC#wiki-bamCorrelate)
-* [bamFingerprint](https://github.com/fidelram/deepTools/wiki/QC#wiki-bamFingerprint)
-* [computeGCbias](https://github.com/fidelram/deepTools/wiki/QC#wiki-computeGCbias)
-* [correctGCBias](https://github.com/fidelram/deepTools/wiki/QC#wiki-correctGCbias)
-* [bamCoverage](https://github.com/fidelram/deepTools/wiki/Normalizations#wiki-bamCoverage)
-* [bamCompare](https://github.com/fidelram/deepTools/wiki/Normalizations#wiki-bamCompare)
-* [computeMatrix](https://github.com/fidelram/deepTools/wiki/Visualizations#wiki-computeMatrix)
+* [bamCorrelate](https://github.com/fidelram/deepTools/wiki/QC#wiki-bamcorrelate)
+* [bamFingerprint](https://github.com/fidelram/deepTools/wiki/QC#wiki-bamfingerprint)
+* [computeGCbias](https://github.com/fidelram/deepTools/wiki/QC#wiki-computegcbias)
+* [correctGCBias](https://github.com/fidelram/deepTools/wiki/QC#wiki-correctgcbias)
+* [bamCoverage](https://github.com/fidelram/deepTools/wiki/Normalizations#wiki-bamcoverage)
+* [bamCompare](https://github.com/fidelram/deepTools/wiki/Normalizations#wiki-bamcompare)
+* [computeMatrix](https://github.com/fidelram/deepTools/wiki/Visualizations#wiki-computematrix)
 * [heatmapper](https://github.com/fidelram/deepTools/wiki/Visualizations#wiki-heatmapper)
 * [profiler](https://github.com/fidelram/deepTools/wiki/Visualizations#wiki-profiler)
 

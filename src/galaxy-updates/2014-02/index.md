@@ -143,7 +143,7 @@ Instruction is by experienced instructors and developers with deep knowledge of 
 
 GMOD Malaysia is being held after the [Plant Genomics Congress](http://www.globalengage.co.uk/plantgenomicsasia.html), and will have a plant-specific emphasis.More information and application form on the [Workshop home page](http://gmod.org/wiki/GMOD_Malaysia_2014).
 
-**[Application deadline: 12 February 2014](http://gmod.org/wiki/GMOD_Malaysia_2014#Details)**
+**[Application deadline: 12 February 2014](http://gmod.org/wiki/GMOD_Malaysia_2014#details)**
 
 <div class='right'>
 <a href='http://nescent.org/'><img src="/src/images/logos/NESCentLogoBig.png" alt="GMOD Malaysia 2014" width="120" /></a>

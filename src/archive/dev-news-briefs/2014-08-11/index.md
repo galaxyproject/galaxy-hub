@@ -46,7 +46,7 @@ Many thanks to Inge Alexander Raknes for reporting the issue [T1eldqfK](https://
 
 # New! Citations
 
-[Wiki](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Ccitations.3E_tag_set), Authored by Björn Grüning and Peter Cock
+[Wiki](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#a.3ccitations.3e-tag-set), Authored by Björn Grüning and Peter Cock
 
 Tools now annotate citation information. Tools annotate citations using either DOIs or raw BibTeX - these in turn are shown as formatted citations below the help text on tool forms and may be copied to reference managers as raw `BibTeX`. All annotated citations in a history can also be obtained using the history options menu. [kY7RCnd0](https://trello.com/c/kY7RCnd0)	
 

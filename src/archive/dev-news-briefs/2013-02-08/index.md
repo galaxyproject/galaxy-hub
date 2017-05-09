@@ -75,7 +75,7 @@ This process will not only allow us to deploy important bug fixes on to the `sta
 
 Complex repository dependencies allow for many tool shed repository installations into a single Galaxy instance where any number of the contained tools across installed repositories can all reference a single installation of a specific 3rd party tool dependency (e.g. `bwa version 0.5.9`).
 
-Describing how this works is tricky, so let's see if we can state it in a way that can be understood: tool dependency definitions that contain repository dependency definitions define a relationship to a tool dependency that will be installed using the instructions in the required repository's tool_dependency.xml file, where the required repository is defined by the contained repository dependency definition.  Hmmm...okay, let's try to clarify this a bit... [Read more...](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions)
+Describing how this works is tricky, so let's see if we can state it in a way that can be understood: tool dependency definitions that contain repository dependency definitions define a relationship to a tool dependency that will be installed using the instructions in the required repository's tool_dependency.xml file, where the required repository is defined by the contained repository dependency definition.  Hmmm...okay, let's try to clarify this a bit... [Read more...](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#complex-repository-dependencies:-tool-dependency-definitions-that-contain-repository-dependency-definitions)
 
 #### The Tool Shed now Provides Sharable URLs for Repositories by Name or Owner
 
@@ -131,7 +131,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Tools
 
-1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool. 
+1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#bedgraph) format datasets to be used as input to `wig-to-bigwig` tool. 
   * Renamed tool as: `Wig/Bedgraph-to-bigwig`.
 2. #2 Add parameter to `Filter` tool to optionally skip header lines. Add test for new parameter usage as well.
 
@@ -140,7 +140,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 
 1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/src/main/index.md) Galaxy server dated `28jan2013`.
 2. **NGS Data Set-up** wiki updated and simplified. [View here...](http://wiki.galaxyproject.org/Admin/NGS Local Setup)
-3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
+3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#get-the-data)
 
 <br />
 # CloudLaunch

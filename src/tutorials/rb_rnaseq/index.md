@@ -306,7 +306,7 @@ Here is what to do to load the data:
 
 #### Loading the data and create dataset collections
 
->Go to the [data library](https://usegalaxy.org/library/list#folders/Ff4ce53393dae30ee) and select all fastq files. Then Click `to History` button:
+>Go to the [data library](https://usegalaxy.org/library/list#folders/ff4ce53393dae30ee) and select all fastq files. Then Click `to History` button:
 >
 >![](/src/tutorials/rb_rnaseq/rnaseq_library.png)
 >

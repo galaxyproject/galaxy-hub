@@ -16,8 +16,8 @@ title: Name of Deployment
  Audience:: Informatics core, sequencing core, researchers and students at the institution 
  User Base:: currently ~200
  Server Topology:: SGE Cluster (shared)
- Compute:: [800+ cores](https://docs.uabgrid.uab.edu/wiki/Cheaha#Hardware) 
- Memory::  2.8TB of RAM: [nodes](https://docs.uabgrid.uab.edu/wiki/Cheaha#Hardware) range form 16G to 385G
+ Compute:: [800+ cores](https://docs.uabgrid.uab.edu/wiki/Cheaha#hardware) 
+ Memory::  2.8TB of RAM: [nodes](https://docs.uabgrid.uab.edu/wiki/Cheaha#hardware) range form 16G to 385G
  Storage:: Lustre on QDR/DDR Infiniband, plus OpenStack.
  Disk Size:: 200+TB high performance storage, 500+TB data storage
  User Management:: [Shibboleth based](https://projects.uabgrid.uab.edu/galaxy/wiki/GalaxyApacheShibbolethConfiguration) institutional authn.

@@ -207,7 +207,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 ## Citing Galaxy Web Resources
 
-If you want to cite a particular URL on a Galaxy web site, see the [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else.
+If you want to cite a particular URL on a Galaxy web site, see the [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#a61262), and just about everything else.
 
 If you want to include a general Galaxy URL, we encourage you to use one of these:
 

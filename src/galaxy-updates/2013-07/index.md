@@ -386,9 +386,9 @@ The most recent official distribution was on [June 3, 2013](/src/archive/dev-new
 * Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/archive/dev-news-briefs/2013-06-03/index.md#admin) & [Core](/src/archive/dev-news-briefs/2013-06-03/index.md#core). 
 
 * Multiple [Tool](/src/archive/dev-news-briefs/2013-06-03/index.md#tools) updates, [History and Dataset](/src/archive/dev-news-briefs/2013-06-03/index.md#histories) upgrades, and other related [UI](/src/archive/dev-news-briefs/2013-06-03/index.md#ui) enhancements.
-* New features and fixes added to the [Tool Shed](/src/archive/dev-news-briefs/2013-06-03/index.md#tool_shed) and related components. 
-* [Python 2.5 Support officially ended](/src/archive/dev-news-briefs/2013-06-03/index.md#python_25_support_has_ended).
-* Plus newly [merged Pull Requests](/src/archive/dev-news-briefs/2013-06-03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/archive/dev-news-briefs/2013-06-03/index.md#bug_fixes).
+* New features and fixes added to the [Tool Shed](/src/archive/dev-news-briefs/2013-06-03/index.md#tool-shed) and related components. 
+* [Python 2.5 Support officially ended](/src/archive/dev-news-briefs/2013-06-03/index.md#python-25-support-has-ended).
+* Plus newly [merged Pull Requests](/src/archive/dev-news-briefs/2013-06-03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/archive/dev-news-briefs/2013-06-03/index.md#bug-fixes).
 
 *[http://getgalaxy.org](http://getgalaxy.org)*
 

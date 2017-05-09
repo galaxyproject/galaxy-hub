@@ -50,7 +50,7 @@ And a global status of all indexes for all genomes in progress:
 
 Automatic third-party tool dependency installation and compilation with installed repositories
 
-Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/toolshed/index.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)
+Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/toolshed/index.md#automatic-third-party-tool-dependency-installation-and-compilation-with-installed-repositories)
 
 <br />
 # Improved Error Handling

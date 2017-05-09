@@ -12,7 +12,7 @@ For a video overview on Data Managers, see this [presentation from GCC2013](http
 
 # Tutorial
 
-The most up-to-date methods, including how to use Data Manager repositories in the [ToolShed](/src/toolshed/index.md): [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
+The most up-to-date methods, including how to use Data Manager repositories in the [ToolShed](/src/toolshed/index.md): [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)
 
 # What Kind of Data is Supported
 

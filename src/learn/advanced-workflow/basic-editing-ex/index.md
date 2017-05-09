@@ -10,14 +10,14 @@ name: "Tutorial: Basic Editing"
 
 ## 3 Top Workflow Edits
 
-**[3 Most Useful Edits](/src/learn/advanced-workflow/basic-editing/index.md#a3_most_useful_edits)** are:
+**[3 Most Useful Edits](/src/learn/advanced-workflow/basic-editing/index.md#a3-most-useful-edits)** are:
  *
  *
  *
 
 ## What you will learn
 
-Using an example where the **[3 Most Useful Edits](/src/learn/advanced-workflow/basic-editing/index.md#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
+Using an example where the **[3 Most Useful Edits](/src/learn/advanced-workflow/basic-editing/index.md#a3-most-useful-edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
 
 ## Why is this needed?
 
@@ -139,7 +139,7 @@ There is a third possibility, but this only applies when the workflow has been e
 <br />
 ## How do I know the workflow is really running?
 
-The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/src/support/index.md#dataset_status_and_how_jobs_execute)**
+The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/src/support/index.md#dataset-status-and-how-jobs-execute)**
 
 <br />
 ## I want to customize my workflow further

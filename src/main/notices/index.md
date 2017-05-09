@@ -12,7 +12,7 @@ Dated notices about known usage issues and solutions specifically for Galaxy's [
 * **Update**: March 21, 2014, TACC staff members identified the cause of the intermittent access to Corral. An unscheduled, extended maintenance period will be required, however, to permanently fix the problem. Corral will be taken down at 9 a.m. (CT) on Saturday, March 22 for the repairs. The estimated time of availability of Corral will be 9 a.m. on Monday, March 24. This maintenance overlaps with prior scheduled maintenance: [http://bit.ly/1g778F1](http://bit.ly/1g778F1).
 * **Solution**: Use another [Public Galaxy](/src/public-galaxy-servers/index.md) or start up your own [Cloud Galaxy](/src/cloud/index.md), plus follow us at [Twitter](https://twitter.com/galaxyproject) for the most current [Main](/src/main/index.md) status updates
   * Twitter: https://twitter.com/galaxyproject ([Galaxy on Twitter](/src/galaxy-on-twitter/index.md))
-  * Is your reference genome not at the other server? If [FTP](/src/FTPUpload/index.md) available, try using a [Custom Genome](/src/support/index.md#custom_reference_genome) (on tool forms, option: *Using a reference genome from the history*)
+  * Is your reference genome not at the other server? If [FTP](/src/FTPUpload/index.md) available, try using a [Custom Genome](/src/support/index.md#custom-reference-genome) (on tool forms, option: *Using a reference genome from the history*)
 * **Share notice**: http://bit.ly/corralmar20
 
 <br />

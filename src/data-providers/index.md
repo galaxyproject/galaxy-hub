@@ -205,7 +205,7 @@ xhr.done( function( response ){
 (Note: the double slash escaping of '\\b' which allows us to send the regex with a proper, final '\b' and not the
 ascii bell character)
 
-For more filters, see: [Filtering using calculations](/src/data-providers/cookbook/index.md#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
+For more filters, see: [Filtering using calculations](/src/data-providers/cookbook/index.md#no2c-i-want-to-filter-my-data-using-a-calculation---not-regex)
 in the cookbook.
 
 ----

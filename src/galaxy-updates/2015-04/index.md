@@ -127,9 +127,9 @@ An [intense two-day hands-on collaboration](http://gcc2015.tsl.ac.uk/Data-Hackat
 
 Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training SunDay features these three topics:
 
-* [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Introduction_to_Galaxy)
-* [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#RNA-Seq_Analysis_with_Galaxy)
-* [Visualisation of NGS Data](http://gcc2015.tsl.ac.uk/training-day/#Visualisation_of_NGS_Data)
+* [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#introduction-to-galaxy)
+* [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#rna-seq-analysis-with-galaxy)
+* [Visualisation of NGS Data](http://gcc2015.tsl.ac.uk/training-day/#visualisation-of-ngs-data)
 
 These three topics are also offered on Monday as well.  You can register for one or both Training Days.
 
@@ -138,7 +138,7 @@ These three topics are also offered on Monday as well.  You can register for one
 
 ### Training (Mon)Day
 
-The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.ac.uk/training-day/). Training Day featuring five parallel tracks, each with three, two and a half hour workshops. There are topics on [using Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy), [interacting with it programmatically](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy_Programmatically), and [deploying, administering, and extending Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Deploying_Administering_and_Wrapping_Tools_for_Galaxy). No matter what you do with Galaxy, there are workshops for you.
+The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.ac.uk/training-day/). Training Day featuring five parallel tracks, each with three, two and a half hour workshops. There are topics on [using Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy), [interacting with it programmatically](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy_Programmatically), and [deploying, administering, and extending Galaxy](http://gcc2015.tsl.ac.uk/training-day/#deploying-administering-and-wrapping-tools-for-galaxy). No matter what you do with Galaxy, there are workshops for you.
 
 ### Early Registration opens ...
 
@@ -414,7 +414,7 @@ One new [Community Log Board](/src/community/logs/index.md) entry was added in M
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#release_versioning)**
+ **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#release-versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
@@ -422,7 +422,7 @@ One new [Community Log Board](/src/community/logs/index.md) entry was added in M
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool_redesign)**
+ **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool-redesign)**
 
   Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
 

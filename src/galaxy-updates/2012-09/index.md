@@ -257,7 +257,7 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/archive
 * Two new tutorials from [Paul-Michael Agapow](http://www.agapow.net/):
   * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
   * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
-* [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
+* [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.ud6v2vtynuo) on doing bioinformatics on the cloud, including CloudMan.
 * [Jeremy Goecks](/src/people/jeremy-goecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
 * A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) have been posted online:

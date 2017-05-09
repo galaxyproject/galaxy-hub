@@ -129,7 +129,7 @@ One of the best descriptions of BAM readgroups is on [GATK support site](http://
 As further described in the GATK forum: "*A concrete example may be instructive. Suppose I have a trio of samples: MOM, DAD, and KID. Each has two DNA libraries prepared, one with 400 bp inserts and another with 200 bp inserts. Each of these libraries is run on two lanes of an Illumina machine, requiring 3 x 2 x 2 = 12 lanes of data. When the data come off the sequencer, I would create 12 bam files, with the following @RG fields in the header*":<br />
 <div class='center'><img src="/src/images/ngs101/rg-example.png" alt="Readgroup example" height="327" /></div>
 
-The [following screencast](https://vimeo.com/123102338#t=1:40) shows how to add readgroups to a BAM dataset in Galaxy using Picard's [AddOrReplaceReadGroups](http://broadinstitute.github.io/picard/command-line-overview.html#AddOrReplaceReadGroups) tool.
+The [following screencast](https://vimeo.com/123102338#t=1:40) shows how to add readgroups to a BAM dataset in Galaxy using Picard's [AddOrReplaceReadGroups](http://broadinstitute.github.io/picard/command-line-overview.html#addorreplacereadgroups) tool.
 
 ### BAM manipulation
 

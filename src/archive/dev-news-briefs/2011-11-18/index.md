@@ -37,7 +37,7 @@ Please reserve July 25-27 on your calendars!
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
 * Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/pag2012/index.md) on using Galaxy, both on [Main](/src/main/index.md) and in the [Cloud](/src/cloudman/index.md)
-* There are also [events](/src/events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
+* There are also [events](/src/events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#ddbj) in January.
 
 ----
 ## What's New
@@ -46,11 +46,11 @@ Please reserve July 25-27 on your calendars!
 
 Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
 
-* **[Finding workflows in tool shed repositories](/src/toolshed/index.md#enabling_workflow_sharing_finding_workflows_in_tool_shed_repositories)**
+* **[Finding workflows in tool shed repositories](/src/toolshed/index.md#enabling-workflow-sharing-finding-workflows-in-tool-shed-repositories)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/src/toolshed/index.md#enabling_workflow_sharing_importing_a_workflow_from_an_installed_tool_shed_repository)** 
+* **[Importing a workflow from an installed tool shed repository](/src/toolshed/index.md#enabling-workflow-sharing-importing-a-workflow-from-an-installed-tool-shed-repository)** 
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/src/toolshed/index.md#enabling_workflow_sharing_importing_a_workflow_via_a_url)** 
+* **[Importing a workflow via a URL](/src/toolshed/index.md#enabling-workflow-sharing-importing-a-workflow-via-a-url)** 
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds

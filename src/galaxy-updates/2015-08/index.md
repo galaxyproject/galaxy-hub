@@ -43,7 +43,7 @@ GCC2015 registrations reached an all-time high, and GC2015 featured more events 
   * [GCC2015 Galaxy Community Conference - Day One](https://storify.com/pjacock/gcc2015-galaxy-community-conference)
   * [GCC2015 Galaxy Community Conference - Day Two](https://storify.com/pjacock/gcc2015-galaxy-community-conference-day-twp)
 
-The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Organising_Committee) would like to thank the [Scientific Committee](http://gcc2015.tsl.ac.uk/organisers/#Scientific_Committee), [Coding Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Coding_Hackathon_Committee), [Data Wrangling Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee), [Conference Sponsors](http://gcc2015.tsl.ac.uk/sponsors/), [BoF Organisers](/src/events/gcc2015/bofs/index.md), [Training Instructors](http://gcc2015.tsl.ac.uk/training-day) *and absolutely everyone else who contributed to the success of GCC2015.*
+The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Organising_Committee) would like to thank the [Scientific Committee](http://gcc2015.tsl.ac.uk/organisers/#Scientific_Committee), [Coding Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Coding_Hackathon_Committee), [Data Wrangling Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#data-wrangling-hackathon-committee), [Conference Sponsors](http://gcc2015.tsl.ac.uk/sponsors/), [BoF Organisers](/src/events/gcc2015/bofs/index.md), [Training Instructors](http://gcc2015.tsl.ac.uk/training-day) *and absolutely everyone else who contributed to the success of GCC2015.*
 
 Which brings us to ...
 

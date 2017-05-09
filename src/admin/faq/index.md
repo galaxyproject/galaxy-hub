@@ -113,7 +113,7 @@ The following alignment tools available in Galaxy enable this:
 
 **I want to wrap or create a tool that generates an html output with several images and other files.  Where do I write and how can I reference the images and other files when I generate html to write to the html file?**
 
-[Please take a look at this detailed description](http://wiki.galaxyproject.org/Admin/Tools/Multiple%20Output%20Files#Single_history_output_Html_file_with_links_to_any_number_of_output_files_and_images)
+[Please take a look at this detailed description](http://wiki.galaxyproject.org/Admin/Tools/Multiple%20Output%20Files#single-history-output-html-file-with-links-to-any-number-of-output-files-and-images)
 
 ----
 

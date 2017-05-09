@@ -41,7 +41,7 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 
 # Custom Builds
 
-Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool-doesn27t-recognize-dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 

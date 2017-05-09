@@ -169,7 +169,7 @@ Here is what to do to load the data:
 
 ## Loading the data
 
-Go to the [data library](https://usegalaxy.org/library/list#folders/F9ff2d127cd7ed6bc) and select both BAM and PED datasets. Then Click **to History** button:
+Go to the [data library](https://usegalaxy.org/library/list#folders/f9ff2d127cd7ed6bc) and select both BAM and PED datasets. Then Click **to History** button:
 
 ![](/src/tutorials/var_dip/library_import.png)
 
@@ -240,7 +240,7 @@ Now that we have an annotated VCF file it is time to peek inside our variation d
 
 #### Loading data into GEMINI
 
-The first step is to convert a VCF file we would like to analyze into a GEMINI database. For this we will use **GEMINI Load** tool from **NGS: GEMINI** section. GEMINI takes as input a VCF file and a [PED](http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml) file describing the relationship between samples. In the case of our dataset the PED file looks like this (accessible from [here](https://usegalaxy.org/library/list#folders/F9ff2d127cd7ed6bc/datasets/418b2500e809568b)):
+The first step is to convert a VCF file we would like to analyze into a GEMINI database. For this we will use **GEMINI Load** tool from **NGS: GEMINI** section. GEMINI takes as input a VCF file and a [PED](http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml) file describing the relationship between samples. In the case of our dataset the PED file looks like this (accessible from [here](https://usegalaxy.org/library/list#folders/f9ff2d127cd7ed6bc/datasets/418b2500e809568b)):
 
 
 #family_id | sample_id | paternal_id | maternal_id | sex | phenotype | ethnicity
@@ -412,10 +412,10 @@ This short tutorial should give you an overall idea on how generate variant data
 
 |     |     |     |     |
 |:----------|:-----:|:------:|:----------------:|
-| Introduction | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Intro-To-Gemini.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/F0283ca691a41c352) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-introduction) |
-| Identifying *de novo* mutations underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-DeNovo-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/F775008f45cbbf010) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-de-novo-mutations) |
-| Identifying autosomal recessive variants underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-Recessive-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/F35b262f5ac8aa63a) | [ Galaxy history ](https://usegalaxy.org/u/aun1/h/gemini-autosomal-recessive) |
-| Identifying autosomal dominant variants underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-Dominant-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/F1c4722ad56892a31) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-autosomal-dominant ) |
+| Introduction | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Intro-To-Gemini.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/f0283ca691a41c352) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-introduction) |
+| Identifying *de novo* mutations underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-DeNovo-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/f775008f45cbbf010) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-de-novo-mutations) |
+| Identifying autosomal recessive variants underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-Recessive-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/f35b262f5ac8aa63a) | [ Galaxy history ](https://usegalaxy.org/u/aun1/h/gemini-autosomal-recessive) |
+| Identifying autosomal dominant variants underlying Mendelian disease | [ PDF ](https://s3.amazonaws.com/gemini-tutorials/Gemini-Dominant-Tutorial.pdf) | [ Sample Data ](https://usegalaxy.org/library/list#folders/f1c4722ad56892a31) | [ Galaxy history ]( https://usegalaxy.org/u/aun1/h/gemini-autosomal-dominant ) |
 
 #### How to use these tutorials?
 

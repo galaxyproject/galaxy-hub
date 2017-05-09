@@ -54,7 +54,7 @@ There are two important sections in here, firstly the destination a job will be 
 ```
 
 
-This define a dynamic destination, called `transcriptome_role`, which will use the Python function indicated in `<param id="function">`, i.e. `is_user_in_role`. The source code of this function should be placed in a file (e.g. destinations.py) inside lib/galaxy/jobs/rules/ , as noted in [Galaxy Job Configuration](http://wiki.galaxyproject.org/Admin/Config/Jobs#Dynamic_Destination_Mapping). It is a bit of code that can raise exceptions and modify job parameters that are passed through it. We'll cover the code there, shortly.
+This define a dynamic destination, called `transcriptome_role`, which will use the Python function indicated in `<param id="function">`, i.e. `is_user_in_role`. The source code of this function should be placed in a file (e.g. destinations.py) inside lib/galaxy/jobs/rules/ , as noted in [Galaxy Job Configuration](http://wiki.galaxyproject.org/Admin/Config/Jobs#dynamic-destination-mapping). It is a bit of code that can raise exceptions and modify job parameters that are passed through it. We'll cover the code there, shortly.
 
 The other important portion of the config file is the tool-to-destination mapping.
 
@@ -112,7 +112,7 @@ At this point you can restart your Galaxy instance and you will be able to verif
 
 ## Tool Visibility
 
-The second item to restricting tool visibility is by adding in a [dynamic toolbox filter](http://wiki.galaxyproject.org/UserDefinedToolboxFilters#For_Administrators).
+The second item to restricting tool visibility is by adding in a [dynamic toolbox filter](http://wiki.galaxyproject.org/UserDefinedToolboxFilters#for-administrators).
 
 <!>  Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of tools and simplify the ToolBox.
 

@@ -50,13 +50,13 @@ There are three categories of repository dependencies which will be discussed in
 
 ### Galaxy tool shed fixes and enhancements
 
-1. The Galaxy tool shed functional test framework has undergone significant enhancements.  For details about running the tool shed functional test framework against your local tool shed, see the wiki page at: [Functional test framework for the tool shed](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed).
+1. The Galaxy tool shed functional test framework has undergone significant enhancements.  For details about running the tool shed functional test framework against your local tool shed, see the wiki page at: [Functional test framework for the tool shed](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed).
 2. Make functional tests explicitly specify which shed tool config to use.  This fixed a bug that resulted in the `migrated_tools_conf.xml` file being altered in some cases when the tool shed functional test framework was run against a local tool shed.
 
 <br />
 # Data
 
-1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/src/main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
+1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/src/main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#get-the-data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
   * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
   * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
   * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`

@@ -140,9 +140,9 @@ An [intense two-day hands-on collaboration](http://gcc2015.tsl.ac.uk/Data-Hackat
 
 Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training SunDay features these three topics:
 
-* [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Introduction_to_Galaxy)
-* [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#RNA-Seq_Analysis_with_Galaxy)
-* [Visualisation of NGS Data](http://gcc2015.tsl.ac.uk/training-day/#Visualisation_of_NGS_Data)
+* [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#introduction-to-galaxy)
+* [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#rna-seq-analysis-with-galaxy)
+* [Visualisation of NGS Data](http://gcc2015.tsl.ac.uk/training-day/#visualisation-of-ngs-data)
 
 These three topics are also offered on Monday as well.  You can register for one or both Training Days.
 
@@ -151,7 +151,7 @@ These three topics are also offered on Monday as well.  You can register for one
 
 ### Training (Mon)Day
 
-The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.ac.uk/training-day/). Training Day featuring five parallel tracks, each with three, two and a half hour workshops. There are topics on [using Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy), [interacting with it programmatically](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy_Programmatically), and [deploying, administering, and extending Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Deploying_Administering_and_Wrapping_Tools_for_Galaxy). No matter what you do with Galaxy, there are workshops for you.
+The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.ac.uk/training-day/). Training Day featuring five parallel tracks, each with three, two and a half hour workshops. There are topics on [using Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy), [interacting with it programmatically](http://gcc2015.tsl.ac.uk/training-day/#Using_Galaxy_Programmatically), and [deploying, administering, and extending Galaxy](http://gcc2015.tsl.ac.uk/training-day/#deploying-administering-and-wrapping-tools-for-galaxy). No matter what you do with Galaxy, there are workshops for you.
 
 ### Early Registration opens in March
 
@@ -413,7 +413,7 @@ More information available in [Develop/SourceCode](/src/develop/source-code/inde
 
 ## Galaxy 2015-01-13 Distribution
 
-The most recent Galaxy release was the [2015-01-13 distribution](/src/archive/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/archive/dev-news-briefs/2015-01-13/index.md#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015-01-13 distribution](/src/archive/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/archive/dev-news-briefs/2015-01-13/index.md#tool-form-upgrade-28for-beta-testing29).
 
 ## Planemo 0.5.0
 

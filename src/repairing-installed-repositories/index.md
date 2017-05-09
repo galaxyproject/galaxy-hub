@@ -4,7 +4,7 @@
 
 One of the features available for repositories installed into Galaxy is the ability to repair the repository and it's dependency hierarchy.  Repairing a repository hierarchy will attempt to ensure all repositories in the hierarchy are correctly installed and all tool dependencies defined for each repository in the hierarchy are correctly installed.
 
-This feature resets and reinstalls repositories or tool dependencies that resulted in installation or compilation errors as described in the [Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors) page as well as repositories or tool dependencies that have been uninstalled for some reason.
+This feature resets and reinstalls repositories or tool dependencies that resulted in installation or compilation errors as described in the [Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling-repository-installation-errors) page as well as repositories or tool dependencies that have been uninstalled for some reason.
 
 To repair a repository, select the **Repair repository** option in the selected repository's **Repository Actions** pop-up menu within the browser.  You can also use the enhanced Galaxy API with a command like the following from the ~/scripts/api directory.  See [The tool shed API page](/src/toolshed/api/index.md) for additional details.
 
@@ -17,7 +17,7 @@ For example, let's assume that at some point we installed the **chemicaltoolbox*
 
 ![](/src/repairing-installed-repositories/manage_chemicaltoolbox.png)
 
-Selecting the **Repair repository** option from the **Repository Actions** pop-up menu will display the following page.  Since dependencies may need to be installed in a specified order (see the [Defining repository dependencies](/src/toolshed/defining-repository-dependencies/index.md#repository_dependencies_defining_additional_required_repositories_and_repository_contents) page for details), the page displays the ordered list of repositories that will be inspected and repaired if necessary.
+Selecting the **Repair repository** option from the **Repository Actions** pop-up menu will display the following page.  Since dependencies may need to be installed in a specified order (see the [Defining repository dependencies](/src/toolshed/defining-repository-dependencies/index.md#repository-dependencies-defining-additional-required-repositories-and-repository-contents) page for details), the page displays the ordered list of repositories that will be inspected and repaired if necessary.
 
 ![](/src/repairing-installed-repositories/repair_chemicaltoolbox.png)
 

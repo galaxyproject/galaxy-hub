@@ -457,4 +457,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * From [Rob Davey](https://twitter.com/froggleston)
   * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
 * [Getting started with Galaxy on the cloud](/src/cloudman/getting-started/index.md)
-* New [step by step guide on howto upgrade a Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable#Upgrading-images) from [Rafa Hernández](https://github.com/fikipollo).
+* New [step by step guide on howto upgrade a Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable#upgrading-images) from [Rafa Hernández](https://github.com/fikipollo).

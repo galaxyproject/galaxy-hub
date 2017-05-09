@@ -66,20 +66,20 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 #### Resetting metadata on your repositories
 
-There may be occasions when the entire changelog should be inspected and all of the metadata reset on it.  You can reset all metadata on a repository that you are authorized to change by selecting the **Reset all repository metadata** option from the **Repository Actions** menu.  Sometimes it may be necessary to reset metadata on multiple repositories.  For example, if metadata is changed for a repository that is a dependency of another repository, it may be necessary to reset all metadata on each of the repositories in the dependency chain.  [Read more…](http://wiki.galaxyproject.org/RepositoryRevisions#Resetting_metadata_on_your_repositories)
+There may be occasions when the entire changelog should be inspected and all of the metadata reset on it.  You can reset all metadata on a repository that you are authorized to change by selecting the **Reset all repository metadata** option from the **Repository Actions** menu.  Sometimes it may be necessary to reset metadata on multiple repositories.  For example, if metadata is changed for a repository that is a dependency of another repository, it may be necessary to reset all metadata on each of the repositories in the dependency chain.  [Read more…](http://wiki.galaxyproject.org/RepositoryRevisions#resetting-metadata-on-your-repositories)
 
 
 ### Tool Shed feature enhancements
 
 1. #1 Supported tags sets for the tool_dependencies.xml file
-  Several new tags and attributes are supported for tool dependency definitions.  These tags and attributes are supported when installing repositories with tool dependencies in either a browser or using the enhanced Galaxy API.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#Supported_tags_sets_for_the_tool_dependencies.xml_file)
+  Several new tags and attributes are supported for tool dependency definitions.  These tags and attributes are supported when installing repositories with tool dependencies in either a browser or using the enhanced Galaxy API.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#supported-tags-sets-for-the-tool-dependencies.xml-file)
 
 1. #2 The bells and whistles of tool dependency definitions
-  In some cases, a dependency definition author may want to write a definition whose dependency package (e.g., osra) can require a previously compiled binary (e.g., graphicsmagick) during compilation as well as tool execution time when the tool is using the compiled [osra] binary.  This is possible using a combination of three tool dependency definition tag sets, which must be defined in the tool_dependencies.xml file in the order discussed here.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#The_bells_and_whistles_of_tool_dependency_definitions)
+  In some cases, a dependency definition author may want to write a definition whose dependency package (e.g., osra) can require a previously compiled binary (e.g., graphicsmagick) during compilation as well as tool execution time when the tool is using the compiled [osra] binary.  This is possible using a combination of three tool dependency definition tag sets, which must be defined in the tool_dependencies.xml file in the order discussed here.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#the-bells-and-whistles-of-tool-dependency-definitions)
 
 1. #3 Framework enhancements that process repository_dependencies.xml files
   Several enhancements have been made to the Tool Shed framework that processes repository dependency definitions contained in a repository_dependencies.xml file in a repository.  Both of the previously required "toolshed" and "changeset_revision" attributes are now optional, and a new tag attribute is supported for ordering the installation of repository dependencies.  This new attribute named "prior_installation_required", and if set to True in the repository dependency definition for a certain repository XYZ, then Galaxy's repository installation process will ensure that the required repository (XYZ's defined repository dependency) is installed prior to the installation of XYZ.  These enhancements are supported when installing repositories with repository dependencies in either a browser or using the enhanced Galaxy API. 
-  [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Simple_repository_dependencies)
+  [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#simple-repository-dependencies)
 
 1. #4 The automated tool test framework
   The Tool Shed includes an extensive installation and test framework that works with repositories that contain valid tools.  It is designed to be executed by cron regularly and sends email notification to a mail list when each run is completed.  The framework is very flexible.  It can be executed automatically or manually on a single repository revision or all revisions of all repositories in the tool shed.  [Read more…](http://wiki.galaxyproject.org/AutomatedToolTests)
@@ -88,7 +88,7 @@ There may be occasions when the entire changelog should be inspected and all of 
   The `RESTful` Tool Shed API has been significantly enhanced.  [Read more…](http://wiki.galaxyproject.org/ToolShedApi)
 
 1. #6 Tool Shed Functional Test Framework
-  Many additional tests have been added to the tool shed functional test framework.  [Read more…](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed)
+  Many additional tests have been added to the tool shed functional test framework.  [Read more…](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed)
 
 ### Miscellaneous Tool Shed fixes and enhancements
 

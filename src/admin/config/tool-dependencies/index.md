@@ -30,7 +30,7 @@ The galaxy configuration file contains an option `environment_setup_file` that i
 
 #### Local Jobs
 
-Changes to `$PATH` can be persisted by setting them in your shell's startup file(s).  This typically means `~/.bash_profile` for bash, but please see the [bash documentation on startup files](http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files) or the **INVOCATION** section of the `bash(1) man` page to understand the intricacies of how that file is read.  Of particular importance, if you are starting Galaxy in a method other than manual invocation from a shell prompt (with `sh run.sh`) such as with an init script, it is likely that your startup file will not be read.  In this instance, you should set `$PATH` in the startup file or use.
+Changes to `$PATH` can be persisted by setting them in your shell's startup file(s).  This typically means `~/.bash_profile` for bash, but please see the [bash documentation on startup files](http://www.gnu.org/software/bash/manual/bashref.html#bash-startup-files) or the **INVOCATION** section of the `bash(1) man` page to understand the intricacies of how that file is read.  Of particular importance, if you are starting Galaxy in a method other than manual invocation from a shell prompt (with `sh run.sh`) such as with an init script, it is likely that your startup file will not be read.  In this instance, you should set `$PATH` in the startup file or use.
 
 #### Cluster Jobs
 

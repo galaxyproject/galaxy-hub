@@ -37,14 +37,14 @@ Migration scripts will run upon Galaxy's first launch (after updating to this re
 <br />
 # Galaxy Tool Factory Paper E Published
 
-As reported in the [September 20th News Brief](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy_tool_factory), the **Tool Factory** is already available in the tool shed. At that time, the manuscript was accepted, but pending publication. The E publication is now available.
+As reported in the [September 20th News Brief](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy-tool-factory), the **Tool Factory** is already available in the tool shed. At that time, the manuscript was accepted, but pending publication. The E publication is now available.
 
 [Creating re-usable tools from scripts: The Galaxy Tool Factory.](http://www.ncbi.nlm.nih.gov/pubmed/23024011)
 Lazarus R, Kaspi A, Ziemann M; The Galaxy Team.
 Bioinformatics. 2012 Sep 28. (Epub ahead of print)
 PMID: 23024011 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed) - as supplied by publisher)
 
-**Short re-cap &rarr; [Read more…](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy_tool_factory)**
+**Short re-cap &rarr; [Read more…](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy-tool-factory)**
 
 1. The **Tool Factory** is a pure Galaxy scripting environment that makes running simple quick and dirty tasks really easy, and can also generate new Galaxy tools with functional tests!
 
@@ -73,29 +73,29 @@ The **[Tool Shed](/src/toolshed/index.md)** wiki has been re-written with a new,
 
 The following sections of the tool shed wiki provide information about features introduced in this Galaxy release.
 
-1. **[Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)**
+1. **[Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling-repository-installation-errors)**
 
-  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)
+  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/toolshed/installing-repositories-to-galaxy/index.md#handling-repository-installation-errors)
 
 2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/toolshed/readme-files/index.md)**
 
   This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed/readme-files/index.md)
 
-3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/toolshed/tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)**
+3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/toolshed/tool-features/index.md#updating-a-previously-installed-repository-to-a-revision-that-includes-changes-to-installed-tool-dependencies)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/toolshed/tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/toolshed/tool-features/index.md#updating-a-previously-installed-repository-to-a-revision-that-includes-changes-to-installed-tool-dependencies)
 
 ### Improved tool shed feature documentation
 
 The following sections of the tool shed wiki have been updated to more thoroughly describe features.
 
-1. **[Cloning a repository using hg from the command line](/src/toolshed/repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)**
+1. **[Cloning a repository using hg from the command line](/src/toolshed/repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)**
 
-  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)
+  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
 
-2. **[Pushing changes to a repository using hg from the command line](/src/toolshed/repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)**
+2. **[Pushing changes to a repository using hg from the command line](/src/toolshed/repository-features/index.md#pushing-changes-to-a-repository-using-hg-from-the-command-line)**
 
-  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)
+  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/repository-features/index.md#pushing-changes-to-a-repository-using-hg-from-the-command-line)
 
 3. **[Adding additional change sets to the initial change set in a repository](/src/repository-revisions/index.md)**
 
@@ -117,7 +117,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 3. A Galaxy tool migration stage is defined as the stage level (e.g., 0002, 0003, 0004, etc.) at which a specific set of tools was migrated out of the Galaxy code distribution and added to the main Galaxy tool shed.
 
- Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md#delaying_execution_of_a_tool_migration_until_later)
+ Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md#delaying-execution-of-a-tool-migration-until-later)
 
 <br />
 # Tools

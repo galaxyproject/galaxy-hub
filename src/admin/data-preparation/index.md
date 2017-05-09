@@ -2,7 +2,7 @@
 
 **Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers](/src/admin/tools/data-managers/index.md).**
 
-Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
+Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)
 
 **NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/toolshed/index.md). *This wiki is considered legacy and provided as a reference.***
 
@@ -69,7 +69,7 @@ The Extract tool is downloaded from [http://genome.ucsc.edu](http://genome.ucsc.
 
 #### Megablast installation
 
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](/src/admin/tools/ToolDependencies/index.md) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag-tools/megablast-wrapper.xml)). See [dependencies wiki](/src/admin/tools/ToolDependencies/index.md) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
 
 #### Picard/SRMA installation
 
@@ -339,7 +339,7 @@ Place a relative symbolic link to the original FASTA file in the same location a
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * You can make sure the file was created correctly by restarting the server and a tool from the **SAM Tools** tool set. Input datasets should have a database assigned that corresponds to a database having a sam index.
-* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset_icons)). 
+* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons)). 
 
 ### LASTZ and EXTRACT Genomic DNA
 
@@ -373,12 +373,12 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * Restarting the server 
 * You can make sure the `lastz_seqs.loc` is correct by opening up the LASTZ tool, and checking the dropdown menu of genomes. Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
-* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset_icons)). 
+* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons)). 
 
 ### Megablast
 
 Have Megablast installed in your `$PATH`, although it is not needed for creating indexes, you will need it for testing/using the tool.
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). 
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag-tools/megablast-wrapper.xml)). 
 Get the indexes: download directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
 Create your own, Usage: `formatdb -i <database>.fa -p F -n "<database>" -v 2000`
 

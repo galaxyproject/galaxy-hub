@@ -51,15 +51,15 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 
 **[http://galaxyproject.org/wiki/Tool%20Shed](http://galaxyproject.org/wiki/Tool%20Shed)**
 
-* [Introduction ](http://galaxyproject.org/wiki/Tool%20Shed#Introduction )
-* [Basic repository features: create repository, upload, browse and delete files ](http://galaxyproject.org/wiki/Tool%20Shed#Basic_repository_features:_create_repository.2C_upload.2C_browse_and_delete_files )
-* [Viewing or managing a repository ](http://galaxyproject.org/wiki/Tool%20Shed#Viewing_or_managing_a_repository )
-* [Contacting the owner of a repository ](http://galaxyproject.org/wiki/Tool%20Shed#Contacting_the_owner_of_a_repository )
-* [Uploading additional files ](http://galaxyproject.org/wiki/Tool%20Shed#Uploading_additional_files )
-* [The mercurial repository change log ](http://galaxyproject.org/wiki/Tool%20Shed#The_mercurial_repository_change_log )
-* [Uploading a new version of an existing tool ](http://galaxyproject.org/wiki/Tool%20Shed#Uploading_a_new_version_of_an_existing_tool )
-* [Repository revisions and download-able tool versions ](http://galaxyproject.org/wiki/Tool%20Shed#Repository_revisions_and_download-able_tool_versions )
-* [Repository rating and reviews ](http://galaxyproject.org/wiki/Tool%20Shed#Repository_rating_and_reviews )
+* [Introduction ](http://galaxyproject.org/wiki/Tool%20Shed#introduction )
+* [Basic repository features: create repository, upload, browse and delete files ](http://galaxyproject.org/wiki/Tool%20Shed#basic-repository-features:-create-repository.2c-upload.2c-browse-and-delete-files )
+* [Viewing or managing a repository ](http://galaxyproject.org/wiki/Tool%20Shed#viewing-or-managing-a-repository )
+* [Contacting the owner of a repository ](http://galaxyproject.org/wiki/Tool%20Shed#contacting-the-owner-of-a-repository )
+* [Uploading additional files ](http://galaxyproject.org/wiki/Tool%20Shed#uploading-additional-files )
+* [The mercurial repository change log ](http://galaxyproject.org/wiki/Tool%20Shed#the-mercurial-repository-change-log )
+* [Uploading a new version of an existing tool ](http://galaxyproject.org/wiki/Tool%20Shed#uploading-a-new-version-of-an-existing-tool )
+* [Repository revisions and download-able tool versions ](http://galaxyproject.org/wiki/Tool%20Shed#repository-revisions-and-download-able-tool-versions )
+* [Repository rating and reviews ](http://galaxyproject.org/wiki/Tool%20Shed#repository-rating-and-reviews )
 
 ### Upcoming Events
 
@@ -160,9 +160,9 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 ### Quotas
 
 * User data and job quota limits are now implemented at the public Galaxy [Test](http://test.g2.bx.psu.edu) instance
-    [Test Quotas](http://galaxyproject.org/wiki/Test#Quotas)
+    [Test Quotas](http://galaxyproject.org/wiki/Test#quotas)
 * While no *hard* quotas are currently implemented at the public Galaxy [Main](http://usegalaxy.org) instance, we do ask that users stay within certain usage limits:
-    [Main Quotas](http://galaxyproject.org/wiki/Main#Quotas)
+    [Main Quotas](http://galaxyproject.org/wiki/Main#quotas)
 * If you find that you require additional resources, please consider the alternative Galaxy options explained at:
     [BigPicture/Choices](/src/choices/index.md)
 

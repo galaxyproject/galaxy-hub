@@ -53,7 +53,7 @@ In this tutorial, we will address:
 Due to the large size of this dataset, we have down-sampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
  * [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
- * [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
+ * [Galaxy data library](https://usegalaxy.org/library/list#folders/f3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
 
 ## Data organization and naming
 
@@ -84,7 +84,7 @@ The data is structured in the following way:
     	</div>
     	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
     		<div class="panel-body">
-        		1. Right click on [this link](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) and use "Open link in a new tab" option<br>
+        		1. Right click on [this link](https://usegalaxy.org/library/list#folders/f3481856ea042c39d) and use "Open link in a new tab" option<br>
  				2. Select `reads` folder by clicking on it<br>
  				3. Click checkboxes for all datasets<br>
  				4. Click **to History button**<br>

@@ -168,7 +168,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div>
 * *General*
   * Fix bug in [__init__.py](http://bitbucket.org/galaxy/galaxy-central/changeset/3f12146d6d81e08f662ada2011a6973e4230512d) with respect to stdout, stderr, and exit code handling.
-  * Fix [create_all_fasta_loc.py](https://bitbucket.org/galaxy/galaxy-central/changeset/8153e8d25009d71a523e0f2df24ed12922825d8f#chg-scripts/loc_files/create_all_fasta_loc.py) to work when `inspect_dir` is not set.
+  * Fix [create_all_fasta_loc.py](https://bitbucket.org/galaxy/galaxy-central/changeset/8153e8d25009d71a523e0f2df24ed12922825d8f#chg-scripts/loc-files/create-all-fasta-loc.py) to work when `inspect_dir` is not set.
 * *UI*
   * Fixes for [positioning of help text](http://bitbucket.org/galaxy/galaxy-central/changeset/63cd6402badaf98f26080e71b1f0ed49db30e3ab) when hovering over icons in the history panel.
 * *Tools*

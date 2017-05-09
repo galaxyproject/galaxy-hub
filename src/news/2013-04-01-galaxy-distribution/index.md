@@ -11,11 +11,11 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 **Highlights:**
 
-* [Job running configuration changes and refactoring of job runner plugins](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Job_Running_Configuration_Changes)
-* [Required reset of the metadata on your installed tool shed repositories](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Required_Metadata_Reset) plus [Changes required to your environment if you are hosting a local Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Local_Tool_Shed_File_Changes)
-* [Basic Data Manager Functionality now present](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Data)
-* [Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Tool_Shed), [Trackster](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Trackster), [Cloudman](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#CloudMan), [Workflows](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Workflows), [UI](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#UI), [Admin](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Admin), and [new Pull Request](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Source) updates.
-* New [bug fixes and improvements](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Bug_Fixes_and_related_Enhancements).
+* [Job running configuration changes and refactoring of job runner plugins](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#job-running-configuration-changes)
+* [Required reset of the metadata on your installed tool shed repositories](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Required_Metadata_Reset) plus [Changes required to your environment if you are hosting a local Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#local-tool-shed-file-changes)
+* [Basic Data Manager Functionality now present](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#data)
+* [Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Tool_Shed), [Trackster](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Trackster), [Cloudman](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#CloudMan), [Workflows](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Workflows), [UI](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#UI), [Admin](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Admin), and [new Pull Request](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#source) updates.
+* New [bug fixes and improvements](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#bug-fixes-and-related-enhancements).
 
 *[http://getgalaxy.org](http://getgalaxy.org)*
 
