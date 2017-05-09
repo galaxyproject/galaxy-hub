@@ -45,7 +45,7 @@ Make sure that you either comment out or modify line containing default configur
 include /etc/nginx/sites-enabled/*;
 ```
 
-`client\_max\_body\_size` specifies the maximum upload size that can be handled by <<nwwl(POST)>> requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
+`client\_max\_body\_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
 
 Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to `server { } `:
 
@@ -95,7 +95,7 @@ http {
 }
 ```
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
+Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 [filter:proxy-prefix]
@@ -118,7 +118,7 @@ cookie_path = /galaxy
 
 ## SSL
 
-If you place Galaxy behind a proxy address that uses SSL (e.g. `https://` <<nwwl(URLs)>>), set the following in your nginx config:
+If you place Galaxy behind a proxy address that uses SSL (e.g. `https://` URLs), set the following in your nginx config:
 
 ```
 #!highlight nginx
@@ -127,7 +127,7 @@ location / {
 }
 ```
 
-Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting X-URL-SCHEME makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Compression and caching
 
