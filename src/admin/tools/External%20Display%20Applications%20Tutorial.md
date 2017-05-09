@@ -4,7 +4,7 @@
 
 ## About Display Applications
 
-There are many services available that allow users to upload their own data for use as viewing as e.g. 'custom tracks' in a genome browser. Examples of these include the <<nwwl(UCSC)>> genome browser, <<nwwl(GeneTrack)>> and [GBrowse](http://gmod.org/wiki/GBrowse). Adding a new external display applications requires two steps:
+There are many services available that allow users to upload their own data for use as viewing as e.g. 'custom tracks' in a genome browser. Examples of these include the UCSC genome browser, GeneTrack and [GBrowse](http://gmod.org/wiki/GBrowse). Adding a new external display applications requires two steps:
 
 1. define the display application (create a new XML definition file) and 
 2. instruct Galaxy to load the display application (edit datatypes\_conf.xml with the location of the new XML file). 
@@ -32,11 +32,11 @@ Display applications are defined using XML.
 
 #### Example 1
 
-Lets suppose we want to write a display application which displays a BAM file at the <<nwwl(UCSC)>> genome browser. After familiarizing ourselves with the <<nwwl(UCSC)>> genome browser, we become aware of several pieces of information which are needed to display user data:
+Lets suppose we want to write a display application which displays a BAM file at the UCSC genome browser. After familiarizing ourselves with the UCSC genome browser, we become aware of several pieces of information which are needed to display user data:
 
-- The data to be displayed is provided by giving a public URL to the <<nwwl(UCSC)>> genome browser. 
+- The data to be displayed is provided by giving a public URL to the UCSC genome browser. 
 - 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai' 
-- The url to send data to <<nwwl(UCSC)>> is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK ` 
+- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK ` 
 
 This display application will require 3 parameters, corresponding to the 3 data files that are needed.
 
@@ -69,18 +69,18 @@ _where our xml file was saved as /display\_applications/ucsc/bam.xml_
 
 #### Example 2
 
-Now lets create a display application that can view interval (BED-like) files at the <<nwwl(UCSC)>> genome browser. The <<nwwl(UCSC)>> genome browser natively handles BED files, but Galaxy allows a looser definition for BED files than that accepted at <<nwwl(UCSC)>>, so we have defined a new datatype called 'bedstrict' that has data that meets the strict definition of BED. To enable all types of intervals to be viewed at <<nwwl(UCSC)>>, we have created an interval to bedstrict datatype converter and defined it in the usual manner (<<nwwl(LINK)>> TO <<nwwl(THIS)>> <<nwwl(DOCUMENTATION)>>).
+Now lets create a display application that can view interval (BED-like) files at the UCSC genome browser. The UCSC genome browser natively handles BED files, but Galaxy allows a looser definition for BED files than that accepted at UCSC, so we have defined a new datatype called 'bedstrict' that has data that meets the strict definition of BED. To enable all types of intervals to be viewed at UCSC, we have created an interval to bedstrict datatype converter and defined it in the usual manner (LINK TO THIS DOCUMENTATION).
 
 Items needed for this display:
 
-- The data to be displayed is provided by giving a public URL to the <<nwwl(UCSC)>> genome browser. 
+- The data to be displayed is provided by giving a public URL to the UCSC genome browser. 
 - 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict 
-- The url to send data to <<nwwl(UCSC)>> is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE ` 
+- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE ` 
 
 This display application requires 2 parameters:
 
 1. The interval file converted to bestrict, named 'bed\_file', to be availabe as [http://some/url/path/galaxy.bed](http://some/url/path/galaxy.bed) 
-2. The 'position' (viewport) in the form of CHR:<<nwwl(START)>>-END. This is calculated by looking at the first 10 lines of the bed file. This is not available as a URL (viewable is not set to True); but is instead substituted in as part of the URL that users are directed to for display. 
+2. The 'position' (viewport) in the form of CHR:START-END. This is calculated by looking at the first 10 lines of the bed file. This is not available as a URL (viewable is not set to True); but is instead substituted in as part of the URL that users are directed to for display. 
 ```
 <display id="ucsc_interval_as_bed" version="1.0.0" name="display at UCSC">
     <link id="main" name="main">
@@ -136,22 +136,22 @@ _where our xml file was saved as /display\_applications/ucsc/interval\_as\_bed.x
 
 #### Example 3
 
-Create a display application that can view interval (BED-like) files at <<nwwl(GeneTrack)>>. <<nwwl(GeneTrack)>> is a browser/peakcalling program that is a server distinct from Galaxy, but which is able to directly access the file system used for storing Galaxy datasets; this direct file system access requires individual Galaxy instances to have a (local) instance of <<nwwl(GeneTrack)>> installed.
+Create a display application that can view interval (BED-like) files at GeneTrack. GeneTrack is a browser/peakcalling program that is a server distinct from Galaxy, but which is able to directly access the file system used for storing Galaxy datasets; this direct file system access requires individual Galaxy instances to have a (local) instance of GeneTrack installed.
 
 Items needed for this display:
 
-- 1 data file is needed to be provided: 1) A <<nwwl(GeneTrack)>> index binary datatype 
-- The data to be displayed is provided by giving an encoded filename to the <<nwwl(GeneTrack)>> server, which has access to the appropriate filesystem. 
-- A Hashkey, used as an identity check by <<nwwl(GeneTrack)>> 
-- <<nwwl(GeneTrack)>> is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs 
-- The url to send data to <<nwwl(GeneTrack)>> is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL ` 
+- 1 data file is needed to be provided: 1) A GeneTrack index binary datatype 
+- The data to be displayed is provided by giving an encoded filename to the GeneTrack server, which has access to the appropriate filesystem. 
+- A Hashkey, used as an identity check by GeneTrack 
+- GeneTrack is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs 
+- The url to send data to GeneTrack is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL ` 
 
 This display application requires 5 parameters:
 
 1. The interval file converted to bed or genetrack format, named 'bed\_file' 
-2. The bed or genetrack file converted to <<nwwl(GeneTrack)>> format, named 'genetrack\_file' 
-3. 'galaxy\_url' containing the url that <<nwwl(GeneTrack)>> posts back to for calling peaks. 
-4. 'hash\_key' used as a verification check by <<nwwl(GeneTrack)>> 
+2. The bed or genetrack file converted to GeneTrack format, named 'genetrack\_file' 
+3. 'galaxy\_url' containing the url that GeneTrack posts back to for calling peaks. 
+4. 'hash\_key' used as a verification check by GeneTrack 
 5. 'encoded\_filename' containing the filesystem location to the 'genetrack\_file', which has been encoded using binascii.hexlify 
 ```
 <display id="genetrack_interval" version="1.0.0" name="view in">
@@ -174,7 +174,7 @@ This display application requires 5 parameters:
 </display>
 ```
 
-_where '<<nwwl(BASE\_URL)>>', 'APP' and qp are built-in parameters available to display applications_
+_where 'BASE\_URL', 'APP' and qp are built-in parameters available to display applications_
 
 To instruct Galaxy to use this display app, we modify ` datatypes_conf.xml ` and add the following to the interval datatype:
 
@@ -185,7 +185,7 @@ To instruct Galaxy to use this display app, we modify ` datatypes_conf.xml ` and
         </datatype>
 ```
 
-_where our xml file was saved as /display\_applications/genetrack.xml and inherit is set to True, so that datatypes subclassing interval (e.g. bed, bedstrict) also have the display application available. Note that a BED to <<nwwl(GeneTrack)>> Converter has been defined for the BED datatype and is used to create the <<nwwl(GeneTrack)>> file to be displayed_
+_where our xml file was saved as /display\_applications/genetrack.xml and inherit is set to True, so that datatypes subclassing interval (e.g. bed, bedstrict) also have the display application available. Note that a BED to GeneTrack Converter has been defined for the BED datatype and is used to create the GeneTrack file to be displayed_
 
 * * *
 
@@ -205,7 +205,7 @@ The display will also be filtered based upon a Galaxy Application configuration 
 
 #### Example 1 Advanced
 
-Display a BAM file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
+Display a BAM file at the UCSC genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
 
 ```
 <display id="ucsc_bam" version="1.0.0" name="display at UCSC">
@@ -237,7 +237,7 @@ Display a BAM file at the <<nwwl(UCSC)>> genome browser, dynamically loading sit
 
 #### Example 2 Advanced
 
-Display an Interval file at the <<nwwl(UCSC)>> genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
+Display an Interval file at the UCSC genome browser, dynamically loading sites from a text file (`tool-data/shared/ucsc/ucsc_build_sites.txt`).
 
 ```
 <display id="ucsc_interval_as_bed" version="1.0.0" name="display at UCSC" inherit="True">

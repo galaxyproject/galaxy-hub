@@ -2,9 +2,9 @@
 
 # Custom Code
 
-**<<nwwl(NOTE)>>: The extensions described here can cause problems using your tool with certain components of Galaxy (like the workflow system). It is highly recommended to avoid these constructs unless absolutely necessary. We are continually adding support for more complex configuration in the tool config to eliminate the need for these features**
+**NOTE: The extensions described here can cause problems using your tool with certain components of Galaxy (like the workflow system). It is highly recommended to avoid these constructs unless absolutely necessary. We are continually adding support for more complex configuration in the tool config to eliminate the need for these features**
 
-The purpose of custom code is to provide detailed control on the way the tools are executed. This (optional) code can be deployed in a separate file in the same directory as the tool configuration files (See <<nwwl(AddToolTutorial)>>). To enable the code add the
+The purpose of custom code is to provide detailed control on the way the tools are executed. This (optional) code can be deployed in a separate file in the same directory as the tool configuration files (See AddToolTutorial). To enable the code add the
 
 ```
 #!highlight xml

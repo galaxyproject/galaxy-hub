@@ -12,7 +12,7 @@ This feature uses a Galaxy form, which must be created by a Galaxy [admin](Admin
 
 On the admin page, click on "Manage Forms" link on the left go to the "Create a new form" page.
 
-Provide a name and description of the form, select "User Information" for the "Type" and click the "Add fields" button. You can add any number of fields of any supported type ( <<nwwl(TextField)>>, <<nwwl(NumberField)>>, <<nwwl(TextArea)>>, etc ). These fields will be displayed on the user registration page. When you are finished, click the "Save" button to save the form.
+Provide a name and description of the form, select "User Information" for the "Type" and click the "Add fields" button. You can add any number of fields of any supported type ( TextField, NumberField, TextArea, etc ). These fields will be displayed on the user registration page. When you are finished, click the "Save" button to save the form.
 
 ![](Admin/Config/User Information/create_form.png)
 

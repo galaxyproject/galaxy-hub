@@ -78,7 +78,7 @@ Connects to [the Galaxy Eggs distribution site](http://eggs.g2.bx.psu.edu/) and 
 
 Scrambles (builds) eggs for your platform. Using `scramble.py` should only necessary if pre-built eggs are not available for your platform.
 
-`scramble.py` uses build scripts in the `scripts/scramble/scripts` directory to download and build modules. Module source and successfully built binaries of dependencies like <<nwwl(PostgreSQL)>> and <<nwwl(MySQL)>> are stored in `scripts/scramble/archive`. The `scripts/scramble/build` directory contains the latest unpacked/built source for each module you scrambled. Both `archives` and `build` can grow quite large over time, so please be aware of this, and clean as necessary.
+`scramble.py` uses build scripts in the `scripts/scramble/scripts` directory to download and build modules. Module source and successfully built binaries of dependencies like PostgreSQL and MySQL are stored in `scripts/scramble/archive`. The `scripts/scramble/build` directory contains the latest unpacked/built source for each module you scrambled. Both `archives` and `build` can grow quite large over time, so please be aware of this, and clean as necessary.
 
 ### Scrambling Eggs for Distribution
 
