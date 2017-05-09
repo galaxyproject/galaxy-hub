@@ -26,7 +26,7 @@ Also:
  - Design can support other types of data files
 ```
 
-In commit 4550:535d276c92bc almost all tools using loc files (and <<nwwl(TopHat)>> a bit later) were converted to data tables style. This means that they were no longer be compatible with existing loc files. See the last section on this page for information on converting.
+In commit 4550:535d276c92bc almost all tools using loc files (and TopHat a bit later) were converted to data tables style. This means that they were no longer be compatible with existing loc files. See the last section on this page for information on converting.
 
 ## The Pre-data-tables Approach
 
@@ -81,7 +81,7 @@ In the tool XML, there would need to be a parameter such as:
   </param>
 ```
 
-This would give the user a dropdown listing all of the values in the name column supplied in the loc file (in our example, "User-friendly <<nwwl(phiX174)>> Description"). The value stored as the value of the parameter `index` would be "<<nwwl(phiX\_ID)>>". The script or binary will need the actual path in the command, and since the ID is the value, some work will need to be done to extract the path. The following line would do the trick: `--ref="${ filter( lambda x: str( x[0] ) == str( $index ), $ __app__.tool_data_tables['bowtie_indexes'].get_fields() )[0][-1] }"` In this line, `str( x[0] )` refers to the unique ID in column 0 and the -1 in `[0][-1]` gets the path in the last column.
+This would give the user a dropdown listing all of the values in the name column supplied in the loc file (in our example, "User-friendly phiX174 Description"). The value stored as the value of the parameter `index` would be "phiX\_ID". The script or binary will need the actual path in the command, and since the ID is the value, some work will need to be done to extract the path. The following line would do the trick: `--ref="${ filter( lambda x: str( x[0] ) == str( $index ), $ __app__.tool_data_tables['bowtie_indexes'].get_fields() )[0][-1] }"` In this line, `str( x[0] )` refers to the unique ID in column 0 and the -1 in `[0][-1]` gets the path in the last column.
 
 ## When Converting from Old-style Approach to Data Tables
 
