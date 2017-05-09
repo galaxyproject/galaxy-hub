@@ -28,11 +28,11 @@ galaxyOps provides a rapid and reliable tool to process the functional data at a
 
 -strandCol=N The column number of strand, only for proximity
 
--<<nwwl(chromCol2)>>=N The column number of chrom of the second file
+-chromCol2=N The column number of chrom of the second file
 
--<<nwwl(startCol2)>>=N The column number of start point of the second file
+-startCol2=N The column number of start point of the second file
 
--<<nwwl(stopCol2)>>=N The column number of stop point of the second file
+-stopCol2=N The column number of stop point of the second file
 
 -chrom=chrN Restrict to one chromosome
 
