@@ -130,10 +130,7 @@ server {
     location / {
         proxy_set_header X-URL-SCHEME https;
     }
-
 }
-
-
 ```
 
 Setting `X-URL-SCHEME` makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
@@ -175,7 +172,7 @@ http {
 }
 ```
 
-The contents of `location /static { } ` should be adjusted accordingly if you're serving Galaxy from a subdirectory.
+The contents of `location /static { }` should be adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Sending files using nginx
 
@@ -205,9 +202,9 @@ For this to work, the user under which your nginx server runs will need read acc
 
 ## Receiving files using nginx
 
-Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of `nginx\_upload\_module`, a 3rd-party nginx module.
+Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of `nginx_upload_module`, a 3rd-party nginx module.
 
-To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install `nginx\_upload\_module`. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
+To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install `nginx_upload_module`. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
 
 ```
 #!highlight nginx
