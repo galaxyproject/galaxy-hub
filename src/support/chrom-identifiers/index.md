@@ -76,7 +76,7 @@ Sequence content is a match but adding "chr" is not enough to obtain an exact id
  - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the resuls will not be fully annotated and some calculations will be skipped
  - Use the iGenomes version of the reference annotation, as described below
  - Using Cuffdiff and the Gene ID is not present? Check your GTF file - the attribute gene_name is probably missing
-1. Sometimes the source can be **iGenomes**, which does contain the extra specific attributes needed for RNA-seq and certain other operationsar
+4. Sometimes the source can be **iGenomes**, which does contain the extra specific attributes needed for RNA-seq and certain other operationsar
  - Example: The tool htseq-count is used and the attributes gene_id and transcript_id need to be distinct values (also true for the tool Cuffdiff for the best results)
  - Two sources: https://support.illumina.com/sequencing/sequencing_software/igenome.html and http://cole-trapnell-lab.github.io/cufflinks/igenome_table/index.html
   - Download the .tar file locally, uncompress it, then upload just the genes.gtf dataset to Galaxy
