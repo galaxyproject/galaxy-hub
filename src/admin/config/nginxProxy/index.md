@@ -15,9 +15,6 @@ http {
     upstream galaxy_app {
         server localhost:8080;
     }
-    # if using more than one upstream, disable nginx's round-robin
-    # scheme to prevent it from submitting POST requests more than
-    # once (this is unsafe)
     proxy_next_upstream off;
     server {
         client_max_body_size 10G;
@@ -34,14 +31,14 @@ http {
     }
 }
 ```
-
-Replace `/srv/galaxy` with the path to your copy of Galaxy. Make sure that you either comment out or modify line containing default configuration for enabled sites.
-
+**Note:**
+- Make sure that you either comment out or modify line containing default configuration for enabled sites.
 ```
 include /etc/nginx/sites-enabled/*;
 ```
-
-`client_max_body_size` specifies the maximum upload size that can be handled by <<nwwl(POST)>> requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
+- The `proxy_next_upstream off;` disables nginx's round-robin scheme to prevent it from submitting POST requests more than once. This is unsafe, and is useful when using more than one upstream.
+- Replace `/srv/galaxy` with the path to your copy of Galaxy. 
+- The parameter `client_max_body_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
 
 Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to `server { } `:
 
@@ -72,7 +69,9 @@ You'll need to ensure that filesystem permissions are set such that the user run
 
 ### Serving Galaxy at a sub directory (such as /galaxy)
 
-It may be necessary to house Galaxy at an address other than the web server root ( [http://www.example.org/galaxy](http://www.example.org/galaxy), instead of [http://www.example.org](http://www.example.org)). Two changes are necessary. In the nginx config, prefix all of the location directives with your prefix, like so:
+It may be necessary to house Galaxy at an address other than the web server root (i.e., [http://www.example.org/galaxy](http://www.example.org/galaxy), instead of [http://www.example.org](http://www.example.org)). To do this, you need to make the following changes: 
+
+1. In the nginx config, prefix all of the location directives with your prefix, like so:
 
 ```
 #!highlight nginx
@@ -91,7 +90,7 @@ http {
 }
 ```
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
+2. The Galaxy application needs to be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 [filter:proxy-prefix]
