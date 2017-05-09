@@ -108,9 +108,6 @@ cookie_path = /galaxy
 
 `cookie_prefix` should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
 
-## External User Authentication
-
-[Moved here](Admin%2FConfig%2FNginxExternalUserAuth)
 
 ## SSL
 
@@ -236,3 +233,8 @@ When serving Galaxy with a prefix, as described in the serving Galaxy in a sub-d
 #!highlight nginx
             set $dst /galaxy/api/tools;
 ```
+
+
+## External User Authentication
+
+[Moved here](/src/admin/config/external-user-auth/index.md)
