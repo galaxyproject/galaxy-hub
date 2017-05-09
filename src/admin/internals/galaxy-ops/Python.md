@@ -64,13 +64,13 @@ galaxyOps.py provides the same operation as C version galaxyOps.
 
 -3, --stopCol=N: stop column number of the 1st file (default = 2)
 
--4, --<<nwwl(strandCol2)>>=N: strand col num of 2nd file (proximity only, default=5)
+-4, --strandCol2=N: strand col num of 2nd file (proximity only, default=5)
 
--5, --<<nwwl(chromCol2)>>=N: chrom column number of the 2nd file (default = 0)
+-5, --chromCol2=N: chrom column number of the 2nd file (default = 0)
 
--6, --<<nwwl(startCol2)>>=N: start column number of the 2nd file (default = 1)
+-6, --startCol2=N: start column number of the 2nd file (default = 1)
 
--7, --<<nwwl(stopCol2)>>=N: stop column number of the 2nd file (default = 2)
+-7, --stopCol2=N: stop column number of the 2nd file (default = 2)
 
 -C, --chrom=N: Restrict to one chromsome
 
