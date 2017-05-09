@@ -39,6 +39,7 @@ http {
 ```
 include /etc/nginx/sites-enabled/*;
 ```
+
 - The `proxy_next_upstream off;` disables nginx's round-robin scheme to prevent it from submitting POST requests more than once. This is unsafe, and is useful when using more than one upstream.
 - Replace `/srv/galaxy` with the path to your copy of Galaxy. 
 - The parameter `client_max_body_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
@@ -134,7 +135,6 @@ server {
 ```
 
 Setting `X-URL-SCHEME` makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
-
 
 ## Compression and caching
 

@@ -14,7 +14,7 @@ If you were able to set up Galaxy on Windows with Python Wheels please share you
 
 ### Running old Galaxy (pre 16.01) on Windows
 
-The effort required involves building architecture specific “eggs” (think of these as python’s version of Java’s jar files). Eggs are created using the setuptools package, [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools). Galaxy has been run in Windows using both <<nwwl(MinGW)>>/<<nwwl(MSYS)>> ( [http://www.mingw.org/](http://www.mingw.org/)) and <<nwwl(CYGWIN)>> ( [http://www.cygwin.com/](http://www.cygwin.com/)).
+The effort required involves building architecture specific “eggs” (think of these as python’s version of Java’s jar files). Eggs are created using the setuptools package, [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools). Galaxy has been run in Windows using both MinGW/MSYS ( [http://www.mingw.org/](http://www.mingw.org/)) and CYGWIN ( [http://www.cygwin.com/](http://www.cygwin.com/)).
 
 Please note, a simple alternative to attempting to build eggs for Windows is to simply run Linux via virtualization software (such as the free [VirtualBox](http://www.virtualbox.org/)). For best results, use a lightweight Linux such as [Xubuntu](http://www.xubuntu.org/), or disable X-Windows.
 
@@ -30,7 +30,7 @@ Most eggs are platform-inspecific (e.g. Pure Python), and thus you can use the p
 - pysqlite 
 - numpy 
 
-You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download <<nwwl(URLs)>>. The remaining eggs are required for a number of tools, as well as for some development/debuging purposes.
+You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download URLs. The remaining eggs are required for a number of tools, as well as for some development/debuging purposes.
 
 Galaxy's egg building script, `scramble.py` may or may not work for certain eggs under Windows. If not, scramble's build scripts, located at `galaxy_dist/scripts/scramble/scripts/` can be used as reference for building eggs.
 

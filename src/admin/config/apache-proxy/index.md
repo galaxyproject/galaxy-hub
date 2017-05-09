@@ -59,7 +59,7 @@ RewriteRule ^/galaxy(.*) http://localhost:8080$1 [P]
 
 Note the first rewrite rule deals with the missing trailing slash problem. If left out, [http://www.example.org/galaxy](http://www.example.org/galaxy) will result in a 404 error.
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating <<nwwl(URLs)>> in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
+Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 #!highlight ini
@@ -83,7 +83,7 @@ Moved to its [own page](Admin%2FConfig%2FExternalUserAuth), please check there.
 
 ### Display Sites
 
-Display sites such as <<nwwl(UCSC)>> work not by sending data directly from Galaxy to <<nwwl(UCSC)>> via the client's browser, but by sending <<nwwl(UCSC)>> a URL to the data in Galaxy that the <<nwwl(UCSC)>> server will retrieve data from. Since enabling authentication will place **all** of Galaxy behind authentication, such display sites will no longer be able to access data via that URL. If `display_servers` is set to a non-empty value in `galaxy/config/galaxy.ini`, this tells Galaxy it should allow the named servers access to data in Galaxy. However, you still need to configure Apache to allow access to the datasets. An example config is provided here that allows the <<nwwl(UCSC)>> Main/Test backends:
+Display sites such as UCSC work not by sending data directly from Galaxy to UCSC via the client's browser, but by sending UCSC a URL to the data in Galaxy that the UCSC server will retrieve data from. Since enabling authentication will place **all** of Galaxy behind authentication, such display sites will no longer be able to access data via that URL. If `display_servers` is set to a non-empty value in `galaxy/config/galaxy.ini`, this tells Galaxy it should allow the named servers access to data in Galaxy. However, you still need to configure Apache to allow access to the datasets. An example config is provided here that allows the UCSC Main/Test backends:
 
 ```
 #!highlight apache
@@ -102,7 +102,7 @@ Display sites such as <<nwwl(UCSC)>> work not by sending data directly from Gala
 </Location>
 ```
 
-**<<nwwl(PLEASE)>> <<nwwl(NOTE)>> that this introduces a security hole** , the impact of which depends on whether you have restricted access to the dataset via Galaxy's [internal dataset permissions](Learn%2FSecurity+Features).
+**PLEASE NOTE that this introduces a security hole** , the impact of which depends on whether you have restricted access to the dataset via Galaxy's [internal dataset permissions](Learn%2FSecurity+Features).
 
 - By default, data in Galaxy is public. Normally with a Galaxy server behind authentication in a proxy server this is of little concern since only clients who've authenticated can access Galaxy. However, if display site exceptions are made as shown above, anyone could use those public sites to bypass authentication and view any **public** dataset on your Galaxy server. If you have not changed from the default and most of your datasets are public, you should consider running your own display sites that are also behind authentication rather than using the public ones. 
 
@@ -110,7 +110,7 @@ Display sites such as <<nwwl(UCSC)>> work not by sending data directly from Gala
 
 ## SSL
 
-If you place Galaxy behind a proxy address that uses SSL (e.g. https:_ <<nwwl(URLs)>>), set the following in your Apache config: _
+If you place Galaxy behind a proxy address that uses SSL (e.g. https:_ URLs), set the following in your Apache config: _
 
 ```
 #!highlight apache
@@ -119,7 +119,7 @@ If you place Galaxy behind a proxy address that uses SSL (e.g. https:_ <<nwwl(UR
 </Location>
 ```
 
-Setting X-URL-<<nwwl(SCHEME)>> makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting X-URL-SCHEME makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Compression and caching
 
@@ -159,7 +159,7 @@ To enable it, you must first [download](http://tn123.ath.cx/mod_xsendfile/), com
 
 This should be added to the existing `&lt;Location "/"&gt;` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
-Note: If you use a version of mod\_xsendfile older than 0.10, use "<<nwwl(XSendFileAllowAbove)>> on" instead of "<<nwwl(XSendFilePath)>> /"
+Note: If you use a version of mod\_xsendfile older than 0.10, use "XSendFileAllowAbove on" instead of "XSendFilePath /"
 
 Finally, set `apache_xsendfile = True` in the `[app:main]` section of `config/galaxy.ini` and restart Galaxy.
 
