@@ -35,11 +35,7 @@ http {
 }
 ```
 
-Replace `/srv/galaxy` with the path to your copy of Galaxy.
-
-Thus, all requests on your server (for example, [http://www.example.org/](http://www.example.org/)) are now redirected to Galaxy.
-
-Make sure that you either comment out or modify line containing default configuration for enabled sites.
+Replace `/srv/galaxy` with the path to your copy of Galaxy. Make sure that you either comment out or modify line containing default configuration for enabled sites.
 
 ```
 include /etc/nginx/sites-enabled/*;
