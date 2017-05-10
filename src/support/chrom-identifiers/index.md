@@ -2,9 +2,9 @@
 
 [Back to Support Hub](/src/support/index.md)
 
-## Reference Genome Contents
+# Reference Genome Chromosome Identifiers
 
-### Any BAM dataset's chromosome identifiers
+## Find BAM dataset identifiers
 
 To learn quickly what the identifiers are in any BAM dataset, do the following:
 
@@ -14,7 +14,7 @@ To learn quickly what the identifiers are in any BAM dataset, do the following:
 
 
 
-### Any UCSC sourced genome identifiers
+## Directly obtain UCSC sourced *genome* identifiers
 
 *Method 1*
 
@@ -34,10 +34,10 @@ To learn quickly what the identifiers are in any BAM dataset, do the following:
 
 
 
-### Adjusting Identifiers
+## Adjusting Identifiers
 
 
-## Ensembl or Other sourced chromosome identifiers
+### UCSC sourced data used with Other sourced data
 
 A GTF formatted dataset (potentially a "reference annotation dataset"), with Ensembl/UCSC/Other based chromosome identifiers, is to be used with a tool that also makes use of a different sourced reference genome
 
@@ -55,7 +55,7 @@ To adjust the Ensembl/Other reference annotation to match a UCSC-sourced referen
 1. Click on the pencil icon for the result dataset, then the tab for "Datatype". Assign "bed" and save. Allow the metadata to complete assignment (the "yellow" dataset state)
 1. Now click on the tab for "Attributes" and assign the remaining columns. Strand = 6, name = 4, and score = 5. Save. For best results with certain downstream tools, allow the metadata to complete assignment
 
-### Ensembl or Other sourced chromosome identifiers
+### All mixed sourced data
 
 The inputs are a match for sequence content but simply adding "chr" will not make all chromosomes identifiers synch up between the inputs. How to fix or replace the inputs so that a match is possible:
 
