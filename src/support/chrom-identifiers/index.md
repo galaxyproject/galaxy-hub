@@ -1,10 +1,11 @@
 # Chromosome Identifier Mismatch Problems in Tool Inputs
 
 **[Back to Support Hub](/src/support/index.md)**
+**[Troubleshooting Help](/src/support/#troubleshooting)**
 
 Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content. 
 
-**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](https://galaxyproject.org/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
+**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/src/learn/custom-genomes/index.md). Improper formating is the most common root cause of CG related errors.
 
 ## Find BAM dataset identifiers
 
