@@ -41,7 +41,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 
 ### Type: input problems
 
-This is the top reason for tool failures.
+These are the top reasons for tool failures.
 
 #### Examples 
 
