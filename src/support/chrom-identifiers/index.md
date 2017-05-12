@@ -49,17 +49,17 @@ Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a d
 
 *Method 4*
 
-To adjust the Ensembl/Other reference annotation to match a UCSC-sourced reference genome (or another source that uses UCSC-style chromosome names), add a "chr" to the chromosome name, so that "N" becomes "chrN". Using tools from the group "Text Manipulation" do the following:
+To adjust the Ensembl/Other reference annotation to match a UCSC-sourced reference genome (or another source that uses UCSC-style chromosome names), add a "chr" to the chromosome name, so that "N" becomes "chrN". Using tools from the group "Text Manipulation". Examples below. 
 
-For tabular data (BED, Interval, GTF/GFF datasets with header removed):
+For **[bed](/src/learn/datatypes/#bed)** data:
 
-1. Tool **Add column** = add "chr" to the original dataset as a new column.
-1. Tool **Merge Columns** = merge "c7" with "c1"
-1. Tool **Cut** = cut "c8,c2,c3,c4,c5,c6" (replace c1 & c7 - with merged c8 - the new chrom identifier)
+1. Tool **Add column**: add "chr" to the original dataset as a new column.
+1. Tool **Merge Columns**: merge "c7" with "c1"
+1. Tool **Cut**: cut "c8,c2,c3,c4,c5,c6" (replace c1 & c7 - with merged c8 - the new chrom identifier)
 1. Click on the pencil icon for the result dataset, then the tab for "Datatype". Assign "bed" and save. Allow the metadata to complete assignment (the "yellow" dataset state)
 1. Now click on the tab for "Attributes" and assign the remaining columns. Strand = 6, name = 4, and score = 5. Save. For best results with certain downstream tools, allow the metadata to complete assignment
 
-For wig/wiggle data:
+For **[wig/wiggle](/src/learn/datatypes/#wig-and-bigwig)** data (NOT compressed bigWig):
 
 1. Tool **Replace parts of text**
 1. File to process: Use Multi-select select wig datasets to fix (one or more)
