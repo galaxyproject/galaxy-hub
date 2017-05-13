@@ -9,6 +9,7 @@ Related topics
 * [Known Data Issues](/src/support/data-issues/index.md)
 * [Galaxy Github issue board](/src/issues/index.md)
 * [Troubleshoot an error](/src/support/troublshoot-an-error/index.md)
+* [Galaxy Choices](/src/choices/index.md)
 
 ## Job and Tool Error Help
 
