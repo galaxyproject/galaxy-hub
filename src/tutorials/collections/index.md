@@ -11,7 +11,7 @@ title: Processing many samples at once with collections
 	</ul>
 </div>
 
-Galaxy has a graphical interface where you click on things. If you have just a few items in your history, clicking is easy. But in most real-world analyses you never have just two datasets. Instead you have many (sometimes thousands).
+Galaxy has a graphical interface where you click on things. If you have just a few items in your history, clicking is easy. But in most real-world analyses you never have just a few datasets. Instead you have many (sometimes thousands).
 
 
 |      |
@@ -28,11 +28,11 @@ A typical multi-dataset analysis of next-generation sequencing (NGS) data usuall
 |      |
 |------|
 |![](/src/tutorials/collections/simpleCollection.png)|
-|<small>**A collection** is simply any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet you first combine individual datasets into a collection, you will only need start mapping job **once** using the collection as input.</small>|
+|<small>**A collection** is any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet you first combine individual datasets into a collection, you will only need start mapping job **once** using the collection as input.</small>|
 
 ## Collections reflect data complexity
 
-Previous image shows how multiple fastq datasets can be combined in a single collection. But what is the sequencing data one wants to analyze is from a paired-end (or mate-pair) run where each individual sample is represented by *two* fastq files: forward and reverse? Galaxy collections can accommodate this structure:
+Previous image shows how multiple fastq datasets can be combined in a single collection. But what if the sequencing data one wants to analyze is from a paired-end (or mate-pair) run where each individual sample is represented by *two* fastq files: forward and reverse? Galaxy collections can accommodate this structure:
 
 |      |
 |------|
@@ -43,9 +43,9 @@ Previous image shows how multiple fastq datasets can be combined in a single col
 
 Below we explain how collections can be used in Galaxy. We start with an example where datasets are already in your history. Later in this tutorial we explain how to upload data into collections directly.
 
-## Creating collection from datasets in your history
+## Creating a collection from datasets in your history
 
-In Galaxy's lingo there are two interchangeable terms: collection and list. This is because the simplest collections is just a list of datasets.
+In Galaxy's language there are two interchangeable terms: collection and list. This is because the simplest collections is just a list of datasets.
 
 ### A simple collection example
 
@@ -108,7 +108,7 @@ Collections can renamed, tagged, and manipulated in a number of ways described b
 
 ## Renaming collections
 
-To rename a collection simply click on it:
+To rename a collection click on its name:
 
 |      |
 |------|
@@ -199,7 +199,7 @@ The next analysis highlights main steps if initial processing of ChIP-seq data:
 
 # The future
 
-The future implementation of dataset collections will allow representing complex experiments such as the ones shown in the two previous figures in a single collection.
+The future improvements of dataset collections will allow representing complex experiments such as the ones shown in the two previous figures in a single collection.
 
 # If things don't work...
 ...you need to complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
