@@ -4,9 +4,12 @@
 
 Galaxy should _never_ be located on disk inside nginx's `root`. By default, this would expose all of Galaxy (including datasets) to anyone on the web.
 
+**Prerequisite:**
+make sure that inbound (and outbound) traffic to the TCP protocol HTTP on port 80 and HTTPS on port 443 is permitted by your server's firewall/security. 
+
 ## Basic configuration
 
-For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/), the following lines in the nginx configuration will proxy requests to the Galaxy application:
+For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/) (see [SSL](https://github.com/VJalili/galaxy-site/blob/patch-1/src/admin/config/nginxProxy/index.md#ssl) section for HTTPS), the following lines in the nginx configuration will proxy requests to the Galaxy application:
 
 ```
 #!highlight nginx
@@ -15,9 +18,6 @@ http {
     upstream galaxy_app {
         server localhost:8080;
     }
-    # if using more than one upstream, disable nginx's round-robin
-    # scheme to prevent it from submitting POST requests more than
-    # once (this is unsafe)
     proxy_next_upstream off;
     server {
         client_max_body_size 10G;
@@ -34,18 +34,15 @@ http {
     }
 }
 ```
-
-Replace `/srv/galaxy` with the path to your copy of Galaxy.
-
-Thus, all requests on your server (for example, [http://www.example.org/](http://www.example.org/)) are now redirected to Galaxy.
-
-Make sure that you either comment out or modify line containing default configuration for enabled sites.
-
+**Note:**
+- Make sure that you either comment out or modify line containing default configuration for enabled sites.
 ```
 include /etc/nginx/sites-enabled/*;
 ```
 
-`client\_max\_body\_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
+- The `proxy_next_upstream off;` disables nginx's round-robin scheme to prevent it from submitting POST requests more than once. This is unsafe, and is useful when using more than one upstream.
+- Replace `/srv/galaxy` with the path to your copy of Galaxy. 
+- The parameter `client_max_body_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
 
 Since nginx is more efficient at serving static content, it is best to serve it directly, reducing the load on the Galaxy process and allowing for more effective compression (if enabled), caching, and pipelining. To do so, add the following to `server { } `:
 
@@ -74,9 +71,12 @@ http {
 
 You'll need to ensure that filesystem permissions are set such that the user running your nginx server has access to the Galaxy static/ directory.
 
+
 ### Serving Galaxy at a sub directory (such as /galaxy)
 
-It may be necessary to house Galaxy at an address other than the web server root ( [http://www.example.org/galaxy](http://www.example.org/galaxy), instead of [http://www.example.org](http://www.example.org)). Two changes are necessary. In the nginx config, prefix all of the location directives with your prefix, like so:
+It may be necessary to house Galaxy at an address other than the web server root (i.e., [http://www.example.org/galaxy](http://www.example.org/galaxy), instead of [http://www.example.org](http://www.example.org)). To do this, you need to make the following changes: 
+
+1. In the nginx config, prefix all of the location directives with your prefix, like so:
 
 ```
 #!highlight nginx
@@ -95,7 +95,7 @@ http {
 }
 ```
 
-Additionally, the Galaxy application needs to be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
+2. The Galaxy application needs to be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the `[app:main]` section of `config/galaxy.ini` and restarting Galaxy:
 
 ```
 [filter:proxy-prefix]
@@ -112,22 +112,29 @@ cookie_path = /galaxy
 
 `cookie_prefix` should be set to prevent Galaxy's session cookies from clobbering each other if running more than one instance of Galaxy in different subdirectories on the same hostname.
 
-## External User Authentication
-
-[Moved here](Admin%2FConfig%2FNginxExternalUserAuth)
 
 ## SSL
 
-If you place Galaxy behind a proxy address that uses SSL (e.g. `https://` URLs), set the following in your nginx config:
+If you place Galaxy behind a proxy address that uses SSL (i.e., `https://` URLs), set the following in your nginx config:
 
 ```
 #!highlight nginx
-location / {
-    proxy_set_header X-URL-SCHEME https;
+server {
+    listen       443 ssl http2 default_server;
+    listen       [::]:443 ssl http2 default_server;
+    server_name  _;
+    root         /usr/share/nginx/html;
+
+    ssl_certificate "/etc/pki/nginx/server.crt";
+    ssl_certificate_key "/etc/pki/nginx/private/server.key";
+
+    location / {
+        proxy_set_header X-URL-SCHEME https;
+    }
 }
 ```
 
-Setting X-URL-SCHEME makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
+Setting `X-URL-SCHEME` makes Galaxy aware of what type of URL it should generate for external sites like Biomart. This should be added to the existing `location / { } ` block if you already have one, and adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Compression and caching
 
@@ -165,7 +172,7 @@ http {
 }
 ```
 
-The contents of `location /static { } ` should be adjusted accordingly if you're serving Galaxy from a subdirectory.
+The contents of `location /static { }` should be adjusted accordingly if you're serving Galaxy from a subdirectory.
 
 ## Sending files using nginx
 
@@ -195,9 +202,9 @@ For this to work, the user under which your nginx server runs will need read acc
 
 ## Receiving files using nginx
 
-Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of `nginx\_upload\_module`, a 3rd-party nginx module.
+Galaxy receives files (e.g. dataset uploads) by streaming them in chunks through the proxy server and writing the files to disk. However, this again ties up the Galaxy process. nginx can assume this task instead and as an added benefit, speed up uploads. This is accomplished through the use of `nginx_upload_module`, a 3rd-party nginx module.
 
-To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install `nginx\_upload\_module`. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
+To enable it, you must first [download](http://www.grid.net.ru/nginx/upload.en.html), compile and install `nginx_upload_module`. This means recompiling nginx. Once done, add the necessary directives to `nginx.conf`:
 
 ```
 #!highlight nginx
@@ -240,3 +247,8 @@ When serving Galaxy with a prefix, as described in the serving Galaxy in a sub-d
 #!highlight nginx
             set $dst /galaxy/api/tools;
 ```
+
+
+## External User Authentication
+
+[Moved here](/src/admin/config/external-user-auth/index.md)
