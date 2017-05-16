@@ -166,7 +166,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French)
   * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr)
-  * We also provide galaxy [training courses](/src/teach/trainers/index.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
+  * We also provide galaxy [training courses](/src/teach/trainers/index.md#galaxy-40-prabi-project) for RNA-seq and ChIP-seq data analysis.
 * *Quotas:*
   * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
   * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
@@ -379,7 +379,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [ballaxy](https://ballaxy.bioinf.uni-sb.de) is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or optimal bond order assignment of ligands "BOA Constructor".
   * "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI)," by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574
 * *User Support:*
-  * [Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point_tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list).
+  * [Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point-tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list).
 * *Quotas:*
   * A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*
 * *Sponsor(s):*
@@ -1912,7 +1912,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * Includes microarray tools, the MUMmer suite, and many conversion tools.
   * Strong focus on multi-omics: next to genomics tools it also contains proteomics and metabolomics tools
 * *Comments:*
-  * Also links to [Plant Research International ChIP-seq Analysis Tool (PRI-CAT)](http://www.ab.wur.nl/pricat/#Galaxy).
+  * Also links to [Plant Research International ChIP-seq Analysis Tool (PRI-CAT)](http://www.ab.wur.nl/pricat/#galaxy).
 * *User Support:*
   * Email support on voluntary basis. Extra support could be negotiated.
   * Admins: [Eric Kuijt](mailto:eric.kuijt@wur.nl), [Alex Bossers](mailto:alex.bossers@wur.nl), and [Pieter Lukasse](mailto:pieter.lukasse@wur.nl).

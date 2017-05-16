@@ -124,7 +124,7 @@ On-time [poster abstract submission](http://gcc2015.tsl.ac.uk/Abstracts) **close
 
 ### Registration and Lodging Scholarships: Applications due TODAY
 
-The [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#Lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
+The [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
 
 See the [full announcement](/src/news/gcc2015-scholarships/index.md) for further details. 
 

@@ -52,7 +52,7 @@ title: February 10, 2014 Galaxy Distribution News Brief
 
 **This release includes additional *tools* that have been migrated from the Galaxy distribution to the Tool Shed**.  
 
-As in prior releases, Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#Migrating_tools_from_the_Galaxy_distribution_to_the_Galaxy_Main_tool_shed) are now automatically eliminated during the migration process.  
+As in prior releases, Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed) are now automatically eliminated during the migration process.  
 
 * It is no longer necessary to manually edit the `tool_conf.xml` file to eliminate entries for migrated tools.  
 * A back-up copy of the original `tool_conf.xml` file is made.

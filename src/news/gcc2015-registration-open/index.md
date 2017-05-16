@@ -8,7 +8,7 @@ We are tremendously pleased (and more than a little relieved) to announce that *
 
 [Registration costs](http://gcc2015.tsl.ac.uk/registration/) depend on [which events you register for](http://gcc2015.tsl.ac.uk/programme/), [your career stage/affiliation](http://gcc2015.tsl.ac.uk/registration/), and [when you register](http://gcc2015.tsl.ac.uk/registration/) *(register by 22 May - really, it will save you plenty).*  Early bird registration starts at less than £40 / day for students and postdocs, and at £55 / day for other attendees from non-profits.
 
-You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics/#Lodging) during (and only during) registration.
+You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics/#lodging) during (and only during) registration.
 
 We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/src/galaxy-project/statistics/index.md#events).
 

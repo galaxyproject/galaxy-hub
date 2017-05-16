@@ -320,11 +320,11 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 **[April 1, 2013 Distribution](/src/archive/dev-news-briefs/2013-04-01/index.md)**
 
-* [Job running configuration changes and refactoring of job runner plugins](/src/archive/dev-news-briefs/2013-04-01/index.md#job_running_configuration_changes)
-* [Required reset of the metadata on your installed tool shed repositories](/src/archive/dev-news-briefs/2013-04-01/index.md#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#local_tool_shed_file_changes)
+* [Job running configuration changes and refactoring of job runner plugins](/src/archive/dev-news-briefs/2013-04-01/index.md#job-running-configuration-changes)
+* [Required reset of the metadata on your installed tool shed repositories](/src/archive/dev-news-briefs/2013-04-01/index.md#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#local-tool-shed-file-changes)
 * [Basic Data Manager Functionality now present](/src/archive/dev-news-briefs/2013-04-01/index.md#data)
 * [Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#tool_shed), [Trackster](/src/archive/dev-news-briefs/2013-04-01/index.md#trackster), [Cloudman](/src/archive/dev-news-briefs/2013-04-01/index.md#cloudman), [Workflows](/src/archive/dev-news-briefs/2013-04-01/index.md#workflows), [UI](/src/archive/dev-news-briefs/2013-04-01/index.md#ui), [Admin](/src/archive/dev-news-briefs/2013-04-01/index.md#admin), and [ new Pull Request](/src/archive/dev-news-briefs/2013-04-01/index.md#source) updates.
-* New [bug fixes and improvements](/src/archive/dev-news-briefs/2013-04-01/index.md#bug_fixes_and_related_enhancements).
+* New [bug fixes and improvements](/src/archive/dev-news-briefs/2013-04-01/index.md#bug-fixes-and-related-enhancements).
 
 ## Tool Shed Contributions
 

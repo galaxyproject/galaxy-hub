@@ -32,7 +32,7 @@ Sponsorships are available at four different levels.
 <div class='center'><a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
 
 <div class='indent'>
-**Cost: 75,000 NOK ([~ €10,000](http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=75000))**
+**Cost: 75,000 NOK ([~ €10,000](http://finance.yahoo.com/currency-converter/#from=nok;to=eur;amt=75000))**
 
 * 40 minute presentation
 * Sponsorship of the conference dinner  (Thanks before and after, listing in program)
@@ -59,7 +59,7 @@ Sponsorships are available at four different levels.
 
 
 <div class='indent'>
-**Cost: 45,000 NOK ([~ €6,000](http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=45000))**
+**Cost: 45,000 NOK ([~ €6,000](http://finance.yahoo.com/currency-converter/#from=nok;to=eur;amt=45000))**
 * 20 minute presentation
 * Sponsorship of lunch one day (Thanks before and after, listing in program)
 * A single exhibit space.
@@ -80,7 +80,7 @@ Sponsorships are available at four different levels.
 <br />
 
 <div class='indent'>
-**Cost: 15,000 NOK ([~ €2,000](http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=15000))**
+**Cost: 15,000 NOK ([~ €2,000](http://finance.yahoo.com/currency-converter/#from=nok;to=eur;amt=15000))**
 
 * Your organization logo listed as a Silver Sponsor on meeting home page, with link to URL of your choice
 * Your organization logo listed as a Silver Sponsor on printed material distributed to meeting participants.
@@ -103,7 +103,7 @@ Sponsorships are available at four different levels.
 
 
 <div class='indent'>
-**Cost: 3,500 NOK ([~ €500](http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=3500))**
+**Cost: 3,500 NOK ([~ €500](http://finance.yahoo.com/currency-converter/#from=nok;to=eur;amt=3500))**
 
 * Your organization logo listed as a Bronze Sponsor on meeting home page, with link to URL of your choice
 * Your organization logo listed as a Bronze Sponsor on printed material distributed to meeting participants.

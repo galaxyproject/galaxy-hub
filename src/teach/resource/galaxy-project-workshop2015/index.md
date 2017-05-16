@@ -43,7 +43,7 @@ Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
 Review the source tutorial overview under [Teach](/src/teach/index.md) named *[Teach/Resource/GVL-RNA-SeqTutorial](/src/teach/resource/gvl-rna-seq-tutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [Support](/src/support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/learn/index.md#other_tutorials)
+Wikis: [Support](/src/support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/learn/index.md#other-tutorials)
 
 ## Known Protocol
 
@@ -283,7 +283,7 @@ Wikis: [Histories](/src/histories/index.md) and [Learn/ManagingDatasets](/src/le
 
 ## Importing
 
-Wikis: [Support](/src/support/index.md#loading_data)
+Wikis: [Support](/src/support/index.md#loading-data)
 
 ### Upload
 
@@ -337,7 +337,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * very long descriptions that will likely cause problems if used as a *Custom Reference Genome*
     * we will correct this in the sub-topic *Custom Genomes*
 1. Homework:
-  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[Support](/src/support/index.md#tools_on_the_main_server_extract_dna)
+  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[Support](/src/support/index.md#tools-on-the-main-server-extract-dna)
 
 ### External Sources
 
@@ -404,7 +404,7 @@ Wiki: [Learn/Share](/src/learn/share/index.md)
 
 ## FASTQ Dataset Prep & Troubleshooting
 
-Wiki: [Support](/src/support/index.md#fastq_datatype_qa)
+Wiki: [Support](/src/support/index.md#fastq-datatype-qa)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
@@ -425,7 +425,7 @@ BONUS as time allows
 ## Custom Genomes
 
  
-Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/learn/custom-genomes/index.md)
+Wikis: [Support](/src/support/index.md#custom-reference-genome) and [Learn/CustomGenomes](/src/learn/custom-genomes/index.md)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
@@ -438,9 +438,9 @@ Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/Custo
 1. Homework:
   1. create a workflow that includes all steps and use it whenever a new fasta dataset is loaded for use as a *Custom Genome*
   1. copy the ‘’fastqsanger’’ datasets from the History named ‘’Fastq’’ and map to this genome
-  1. follow the instruction in the wiki [Learn/CustomGenomes](/src/learn/custom-genomes/index.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
+  1. follow the instruction in the wiki [Learn/CustomGenomes](/src/learn/custom-genomes/index.md#custom-builds) to promote the *Custom Genome* to a *Custom Build*
     * assign the new build *database* to all related datasets
-    * *database* assignment is needed to visualize in Trackster using wiki guide [Learn/Visualization](/src/learn/visualization/index.md#custom_builds)
+    * *database* assignment is needed to visualize in Trackster using wiki guide [Learn/Visualization](/src/learn/visualization/index.md#custom-builds)
 
 <br /><br />
 

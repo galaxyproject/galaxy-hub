@@ -40,7 +40,7 @@ required fields.
 ## BAM
 
 A binary file compressed in the `BGZF` format with a `'.bam'` file extension.
-Also see **[SAM](/learn/datatypes#SAM)**.
+Also see **[SAM](/learn/datatypes#sam)**.
 [http://samtools.sourceforge.net/samtools.shtml](http://samtools.sourceforge.net/samtools.shtml)
 
 ## Bed
@@ -63,7 +63,7 @@ the largest coordinate is used as the "end" field (for a sequence aligned to
 the reverse (-) strand, the "end" would be the beginning of the alignment and
 the "start" would be the end). This can be confusing when first used.
 Fortunately, an excellent discussion of the BED coordinate system (also used in
-[Interval](/learn/datatypes#Interval_.28Genomic_Intervals.29) and certain other
+[Interval](/learn/datatypes#interval-.28genomic-intervals.29) and certain other
 data formats) is at `UCSC`'s genomewiki:
 [http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms](http://genomewiki.ucsc.edu/index.php/Coordinate_Transforms)
 
@@ -77,7 +77,7 @@ coordinates: chromStart=0 and chromEnd=100.
     represent a chromosome base range with the mathematical notation of
     ```[0,100)```, representing the 0-based numbered chromosome positions 0-99.
 
-Also, see [Interval](/learn/datatypes#Interval) format for more discussion
+Also, see [Interval](/learn/datatypes#interval) format for more discussion
 about ""0-based, half-open start, fully closed end" coordinate system.
 
 BED format does not require a header or custom track and/or browser line, but
@@ -86,7 +86,7 @@ extracted from `UCSC`'s Table browser or Downloads area, a BED file may start
 with a `'bin'` column. This is an index number and the column should be removed
 as a first step prior to any analysis (use tool **Text Manipulation: Cut
 columns**). This **Cut** tool can also be used to rearrange the columns of an
-[Interval](/learn/datatypes#Interval_.28Genomic_Intervals.29) file to create a
+[Interval](/learn/datatypes#interval-.28genomic-intervals.29) file to create a
 `BED` file.
 
 3 required fields:
@@ -136,7 +136,7 @@ specification can be found here:
 ## BCF
 
 Binary call format or "binary vcf" format has the extension `.bcf`. Also see
-[Variant call format](/learn/datatypes#VCF) or `.vcf`.
+[Variant call format](/learn/datatypes#vcf) or `.vcf`.
 
 [http://vcftools.sourceforge.net/specs.html](http://vcftools.sourceforge.net/specs.html)
 
@@ -166,7 +166,7 @@ aaaaaaaaaaa ...........</pre>
 
 [http://ultrastudio.org/en/Dot-Bracket_Notation](http://ultrastudio.org/en/Dot-Bracket_Notation)
 
-[http://rna.urmc.rochester.edu/Text/File_Formats.html#DotBracket](http://rna.urmc.rochester.edu/Text/File_Formats.html#DotBracket)
+[http://rna.urmc.rochester.edu/Text/File_Formats.html#DotBracket](http://rna.urmc.rochester.edu/Text/File_Formats.html#dotbracket)
 
 #### Galaxy Dbn (Dot-Bracket notation) rules:
 
@@ -175,7 +175,7 @@ aaaaaaaaaaa ...........</pre>
         multiple symbols until the line ends.
 *   The second non-empty line is a sequence line.
     *   A sequence line may only include chars that match the Fasta format
-        ([https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation](https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation))
+        ([https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation](https://en.wikipedia.org/wiki/FASTA_format#sequence-representation))
         symbols for nucleotides: `ACGTURYKMSWBDHVN`, and may thus not include
         whitespaces.
     *   A sequence line has no prefix and no suffix.
@@ -289,8 +289,8 @@ Or:
 `[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
 1` or `GFF1`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
-(notes in the [GFF2](/learn/datatypes#GTF) specification describe
-[GFF1](/learn/datatypes#GFF)).
+(notes in the [GFF2](/learn/datatypes#gtf) specification describe
+[GFF1](/learn/datatypes#gff)).
 
 The [UCSC](http://genome.ucsc.edu) Genome Browser `GFF`
 specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
@@ -298,7 +298,7 @@ specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.
 ## GTF
 
 `GTF` lines have nine required fields that must be tab-separated.  (Similar to
-[GFF](/learn/datatypes#GFF) format)
+[GFF](/learn/datatypes#gff) format)
 
 *   Fields are:
 *   seqname
@@ -315,18 +315,18 @@ specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.
 `[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
 2` or `GFF2`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
-([GFF2](/learn/datatypes#GTF) specification).
+([GFF2](/learn/datatypes#gtf) specification).
 
 The [UCSC](http://genome.ucsc.edu) Genome Browser `GTF`
 specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
 
 ## GFF3
 
-Similar to [GFF](/learn/datatypes#GFF) and [GTF](/learn/datatypes#GTF) in
+Similar to [GFF](/learn/datatypes#GFF) and [GTF](/learn/datatypes#gtf) in
 having nine tab-seperated columns of data at the core of file and having a
 1-based start coordinate. However, `GFF3` format has data that is grouped
 differently between lines (and sets of lines), can be hierarchically ordered,
-and can contain extra content such as [FASTA](/learn/datatypes#Fasta) sequence.
+and can contain extra content such as [FASTA](/learn/datatypes#fasta) sequence.
 Seeing the official specification (and online validation tool) for details is
 highly recommended.
 
@@ -337,22 +337,22 @@ The official specification is at
 [http://www.sequenceontology.org/gff3.shtml](http://www.sequenceontology.org/gff3.shtml).
 
 [GMOD](http://gmod.org) also has a nice specification at
-[GFF3_Format](http://gmod.org/wiki/GFF#GFF3_Format).
+[GFF3_Format](http://gmod.org/wiki/GFF#gff3-format).
 
-**[GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF)/[GFF3](/learn/datatypes#GFF3)**
+**[GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF)/[GFF3](/learn/datatypes#gff3)**
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
 *   The public [Main](/Main) Galaxy instance contains tools to examine and
-    manipulate [GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF) files
+    manipulate [GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#gtf) files
     under the tool group **Filter and Sort**.
 *   The public Galaxy instance at:
     [http://galaxy.raetschlab.org](http://galaxy.raetschlab.org) contains tools
-    to examine [GFF](/learn/datatypes#GFF) files or convert various formats to
-    [GFF3](/learn/datatypes#GFF3) under the tool group **GFF Toolkit**.
+    to examine [GFF](/learn/datatypes#gff) files or convert various formats to
+    [GFF3](/learn/datatypes#gff3) under the tool group **GFF Toolkit**.
 *   The [Tool Shed](/toolshed) contains a repository named `fml_gff3togtf`
     that houses a collection of tools to convert various formats into
-    [GFF3](/learn/datatypes#GFF3) format.
+    [GFF3](/learn/datatypes#gff3) format.
 *   New tools are continually added to the [Tool Shed](/toolshed) - search
     with a phase like "GFF" to see if others are available.
 
@@ -361,7 +361,7 @@ other datatypes.
 Interval format, also known as "Genomic Intervals" is a datatype developed by
 the Galaxy team. This format incorporates a 0-based genome coordinates and
 labels in a tab-delimited file with no requirements on column order. (See
-[BED](/learn/datatypes#Bed) format for a discussion of the ""0-based, half-open
+[BED](/learn/datatypes#bed) format for a discussion of the ""0-based, half-open
 start, fully closed end" coordinate system ). Or, this quick reference:
 
 0-relative positions, half-open start, closed stop: Interval, BED, others
@@ -391,7 +391,7 @@ Example definition line:
 *   1\. `CHROM` - The name of the chromosome (e.g. chr3, chrY, chr2_random) or
     contig (e.g. ctgY1).
 *   2\. `START` - The starting chromosome position of the feature. The first
-    base in a chromosome is numbered 0\. See [BED](/learn/datatypes#Bed) format
+    base in a chromosome is numbered 0\. See [BED](/learn/datatypes#bed) format
     (above).
 *   3\. `END` - The ending chromosome position of the feature. For example, the
     first 100 bases of a chromosome are defined as chromStart=0, chromEnd=100.
@@ -421,7 +421,7 @@ pairs. There should be no white space surrounding the "=".
 
 ## SAM
 
-Also see **[BAM](/learn/datatypes#BAM)**.
+Also see **[BAM](/learn/datatypes#bam)**.
 [http://samtools.sourceforge.net/samtools.shtml](http://samtools.sourceforge.net/samtools.shtml)
 
 ## Scf
@@ -445,7 +445,7 @@ source. The first comment line will note which you have. These external links
 can help with understanding the different `.vcf` types. It is important to note
 that many tools will not interpret v4.1 content correctly and it should be
 avoided as input (as of mid-2013). A compressed version of this data is the
-[Binary call format](/learn/datatypes#BCF) or "binary vcf" format `.bcf`.
+[Binary call format](/learn/datatypes#bcf) or "binary vcf" format `.bcf`.
 
 Current VCF specification:
 

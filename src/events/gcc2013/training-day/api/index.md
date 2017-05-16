@@ -153,7 +153,7 @@ A common way to construct an API command is to view it as a simple (imperative) 
   sentence metaphor well (e.g. `delete a history`) others do not (e.g. `create a workflow` would *run* a workflow).
 * The HTTP versions of CRUD are POST (Create), GET (Retrieve), PUT (Update), and DELETE (Delete). There are
   others but they don't apply (yet). These are
-  [HTTP request methods](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods).
+  [HTTP request methods](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#request-methods).
 * Often additional options and parameters must be passed to specify how the command should take place.
 
 From that then, it follows that each web API URL (command) is composed of three parts:

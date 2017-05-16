@@ -19,7 +19,7 @@ After you have your XSEDE account and an active allocation:
 * Once logged in *select* **Launch an instance**
     <a href='/src/cloud/jetstream/jetstream_GettingStarted.png'><img src="/src/cloud/jetstream/jetstream_GettingStarted.png" alt="" width="75%" /></a><br /><br />
 
-* Browse the available images and choose a Galaxy image (see [Released versions](/src/cloud/jetstream/index.md#released_versions) below for the available options)
+* Browse the available images and choose a Galaxy image (see [Released versions](/src/cloud/jetstream/index.md#released-versions) below for the available options)
     <a href='http://i.imgur.com/OCA45pA.png'><img src="http://i.imgur.com/OCA45pA.png" alt="" width="75%" /></a>   <br /><br />
 
 * Launch a Galaxy instance:
@@ -65,7 +65,7 @@ Cloud Virtual Machines (VMs) are typically transient in nature. This means that 
 
 <img src="http://i.imgur.com/m9s9h6T.png" alt="" width=300 />
 
-On Jetstream, you can stop a VM without deleting it. This will preserve any data and configuration changes you have made to your server while it was running. When you want to use the server again, just *Start* it and wait for it to come back up. While a VM is stopped, no SUs are being used. To stop a VM, click the *Stop* button. If Galaxy jobs fail after you have Started the server, [reboot the server](/src/cloud/jetstream/faq/index.md#how_do_i_restart_my_jetstream_galaxy_server3f).
+On Jetstream, you can stop a VM without deleting it. This will preserve any data and configuration changes you have made to your server while it was running. When you want to use the server again, just *Start* it and wait for it to come back up. While a VM is stopped, no SUs are being used. To stop a VM, click the *Stop* button. If Galaxy jobs fail after you have Started the server, [reboot the server](/src/cloud/jetstream/faq/index.md#how-do-i-restart-my-jetstream-galaxy-server3f).
 
 <img src="http://i.imgur.com/VCRTUS2.png" alt="" width=300 /> <img src="http://i.imgur.com/KL6LqsZ.png" alt="" width=300 />
 

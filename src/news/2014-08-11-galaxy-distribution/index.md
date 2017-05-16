@@ -9,7 +9,7 @@ date: "2014-08-11"
 <br /><br /><br />
 *Highlights:* <br />
 <br />  • [Security alert](http://tinyurl.com/nhgmbc5) from July 31st, upgrade now
-<br />  • [Citations](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Ccitations.3E_tag_set): DOIs, `BibTeX`, and much much more
+<br />  • [Citations](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#a.3ccitations.3e-tag-set): DOIs, `BibTeX`, and much much more
 <br />  • [Docker](http://wiki.galaxyproject.org/Admin/Tools/Docker): You voted, we've *got it*, with a little help from our friends (you!)
 <br />  • Significant Workflow, API, Job, Tool Shed, and Dataset management updates
 <br />  • Fixes, tunings, plus just a drop of &rarr; Gossip

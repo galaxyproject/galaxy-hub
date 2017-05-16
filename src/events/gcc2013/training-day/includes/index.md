@@ -85,7 +85,7 @@ END_INCLUDE
 
 # VM_PLAYER
 
-* [Virtual machine (VM) player software](/src/events/gcc2013/training-day/vms/index.md), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+* [Virtual machine (VM) player software](/src/events/gcc2013/training-day/vms/index.md), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop-end-user-computing/vmware-player/). 
 
 END_INCLUDE
 

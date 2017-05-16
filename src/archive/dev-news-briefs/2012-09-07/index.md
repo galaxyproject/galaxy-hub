@@ -41,7 +41,7 @@ Genomes are organized in directories by the `dbkey`. If you are not sure of the 
 <br />
 # More Updates to Output and Error Handling
 
-As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/admin/tools/tool-config-syntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
+As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/admin/tools/tool-config-syntax/index.md#a3cstdio3e2c-3cregex3e2c-and-3cexit-code3e-tag-sets)
 
 <br />
 # Tools
@@ -137,7 +137,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 * *Enhancements*
   * The Tool Shed is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**.
-  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance)
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
@@ -159,7 +159,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
-  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run_cluster_jobs_as_the_real_user).
+  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.

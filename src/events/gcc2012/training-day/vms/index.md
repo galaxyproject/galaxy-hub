@@ -258,7 +258,7 @@ Any custom configuration is [described below](/src/events/gcc2012/training-day/v
 | Eclipse |  Needed for Tools and Data Sources Workshop  | 
 | hg and Python Eclipse plugins | 
 | nginx or Apache |  proxy that accepts byte-range requests would be good  | 
-| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#Open_Source_.2F_Free_Software) |   | 
+| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#open-source-.2f-free-software) |   | 
 
 ### WS5 VM Only
 

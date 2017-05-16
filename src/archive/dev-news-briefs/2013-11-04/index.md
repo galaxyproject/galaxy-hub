@@ -97,9 +97,9 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 ### Galaxy Tool Migration Framework Enhancements
 
-**This release includes *Galaxy Tool Migration Stage 8*, which contains *48 tools* that have been migrated from the Galaxy distribution**.  The Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file (or whatever it has been named in your local Galaxy instance) for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#Migrating_tools_from_the_Galaxy_distribution_to_the_Galaxy_Main_tool_shed) are now automatically eliminated during the migration process.  It is no longer necessary to manually edit the `tool_conf.xml` file to eliminate entries for migrated tools.  A back-up copy of the original `tool_conf.xml` file is made.
+**This release includes *Galaxy Tool Migration Stage 8*, which contains *48 tools* that have been migrated from the Galaxy distribution**.  The Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file (or whatever it has been named in your local Galaxy instance) for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed) are now automatically eliminated during the migration process.  It is no longer necessary to manually edit the `tool_conf.xml` file to eliminate entries for migrated tools.  A back-up copy of the original `tool_conf.xml` file is made.
 
-[More Tool Shed related enhancements and upgrades below.](/src/archive/dev-news-briefs/2013-11-04/index.md#tool_shed)
+[More Tool Shed related enhancements and upgrades below.](/src/archive/dev-news-briefs/2013-11-04/index.md#tool-shed)
 
 <br />
 # Tools
@@ -206,14 +206,14 @@ Significant work is continuing with the [Galaxy Tool Shed automated test framewo
 
 ## Tool Shed RESTful API Enhancements
 
-The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#The_Tool_Shed_API) has some new features.   
+The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#the-tool-shed-api) has some new features.   
 1. `GET /api/repository_ids_for_setting_metadata ` : Returns a list of repository ids ordered for setting metadata.
 1. `POST /api/reset_metadata_on_repositories/{payload} ` : Resets all metadata on specified repositories in the Tool Shed in an "orderly fashion".  The order in which metadata is reset is repositories of type ` TOOL_DEPENDENCY_DEFINITION ` first followed by repositories of type ` UNRESTRICTED `.
 1. `POST /api/reset_metadata_on_repository/{payload} ` : Resets all metadata on a specified repository in the Tool Shed.
 
 ## Galaxy RESTful API Enhancements for the Tool Shed
 
-The [Galaxy API for the Tool Shed](http://wiki.galaxyproject.org/ToolShedApi#Galaxy_API_features_for_the_Tool_Shed) has some new features.
+The [Galaxy API for the Tool Shed](http://wiki.galaxyproject.org/ToolShedApi#galaxy-api-features-for-the-tool-shed) has some new features.
 1. `GET /api/tool_shed_repositories/{encoded_tool_shed_repository_id}/exported_workflows ` : Return a list of dictionaries containing information about the exported workflows contained within a Tool Shed repository.
 * `POST /api/tool_shed_repositories/import_workflow/{payload} ` : Import the specified exported workflow contained in the specified installed Tool Shed repository into Galaxy.
 1. `POST /api/tool_shed_repositories/import_workflows ` : Import all of the exported workflows contained in the specified installed Tool Shed repository into Galaxy.
@@ -221,7 +221,7 @@ The [Galaxy API for the Tool Shed](http://wiki.galaxyproject.org/ToolShedApi#Gal
 
 ## Tool Shed Repository README File Enhancements
 
-This release includes several fixes for rendering repository `README` text files correctly and safely as html and `README` files with a `.rst` extension as `ReStructured Text`.  `README` files that are contained in older revisions in the repository `changelog` will now be properly rendered when viewing the selected revision.  Repositories that contain multiple `README` files will now properly render all of them within the `Readme Files` container.  Bullets points will display in repository `README` files, and `README` files that use `ReStructured Text` can now be defined to display remote image files or image files contained within the repository. [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#Properly_defining_the_location_of_images_in_tool_configuration_files)
+This release includes several fixes for rendering repository `README` text files correctly and safely as html and `README` files with a `.rst` extension as `ReStructured Text`.  `README` files that are contained in older revisions in the repository `changelog` will now be properly rendered when viewing the selected revision.  Repositories that contain multiple `README` files will now properly render all of them within the `Readme Files` container.  Bullets points will display in repository `README` files, and `README` files that use `ReStructured Text` can now be defined to display remote image files or image files contained within the repository. [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#properly-defining-the-location-of-images-in-tool-configuration-files)
 
 ## Tool Dependency Installation Recipe Enhancements
 

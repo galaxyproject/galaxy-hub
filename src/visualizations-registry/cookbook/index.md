@@ -164,7 +164,7 @@ require([
 ### How can I add a way for the user to select a different (or additional) datasets?
 
 The javascript libraries for Galaxy have code to create a javascript control to do this. See the section
-[above](/src/visualizations-registry/cookbook/index.md#how_can_i_use_some_of_the_javascript_ui_elements_galaxy_uses_in_my_visualization3f)
+[above](/src/visualizations-registry/cookbook/index.md#how-can-i-use-some-of-the-javascript-ui-elements-galaxy-uses-in-my-visualization3f)
 for information on how to include Galaxy UI components. From within your mako template or scripts, you can
 then use this to allow a user dataset choice from datasets in the user's current history:
 ```javascript

@@ -9,9 +9,9 @@ date: "2012-11-14"
 * The **Galaxy Project** is now using *[Sphinx](http://sphinx-doc.org/) Python* hosted at [Read the Docs](http://readthedocs.org) to document the **[galaxy-central](http://galaxy-central.readthedocs.org)** and **[galaxy-dist](http://galaxy-dist.readthedocs.org)** code base. That's a peek on the right &rarr;
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
-* **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
+* **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#gff3)** format.
 * Multiple **enhancements** to the **[API](/src/archive/dev-news-briefs/2012-11-14/index.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security-fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
 

@@ -65,7 +65,7 @@ It is important to note that *only the most **specific match** will be used if t
 
 ### Tool Shed Enhancement
 
-1. The functional test framework for the tool shed has been significantly enhanced.  For details about how to run functional tests for your local tool shed, [read more here…](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed)
+1. The functional test framework for the tool shed has been significantly enhanced.  For details about how to run functional tests for your local tool shed, [read more here…](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed)
 
 ### Tool Shed Fixes
 
@@ -79,8 +79,8 @@ It is important to note that *only the most **specific match** will be used if t
 <br />
 # Tools
 
-1. Enable and document [GFF](http://wiki.galaxyproject.org/Learn/Datatypes#GFF)/[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3) annotation support for **[Cuffcompare/merge/diff](http://cufflinks.cbcb.umd.edu/manual.html)**.
-2. Fix output definition for [GTF](http://wiki.galaxyproject.org/Learn/Datatypes#GTF) filter by attribute values list.
+1. Enable and document [GFF](http://wiki.galaxyproject.org/Learn/Datatypes#GFF)/[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#gff3) annotation support for **[Cuffcompare/merge/diff](http://cufflinks.cbcb.umd.edu/manual.html)**.
+2. Fix output definition for [GTF](http://wiki.galaxyproject.org/Learn/Datatypes#gtf) filter by attribute values list.
 3. Allow spaces in **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** group names.
 4. **[TopHat2](http://tophat.cbcb.umd.edu/manual.html)**:
   * Add simple read group options.
@@ -111,8 +111,8 @@ It is important to note that *only the most **specific match** will be used if t
 
 1. *User Interface (UI)*: Tabular Display: For extremely wide datasets (50 columns or more), revert to the old (non-table) display behavior.  Rational: the incremental renderer sometimes has issues with these types of files.
 2. *Libraries*: Include custom genomes in `dbkey` field when uploading library datasets.
-3. *Histories*: Create **.bai** indexes when importing **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) (.bam)** datasets while importing/exporting histories. 
-  * note: a specific .bai index is associated with every .bam dataset, and is required, but the index file is not displayed in a history as a distinct dataset. Index files can be downloaded/accessed using the 'save' function in the **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** dataset's history item. When loading **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** datasets into Galaxy, or when they are created by tools, the .bai index is created automatically by those processes.
+3. *Histories*: Create **.bai** indexes when importing **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#bam) (.bam)** datasets while importing/exporting histories. 
+  * note: a specific .bai index is associated with every .bam dataset, and is required, but the index file is not displayed in a history as a distinct dataset. Index files can be downloaded/accessed using the 'save' function in the **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#bam)** dataset's history item. When loading **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#bam)** datasets into Galaxy, or when they are created by tools, the .bai index is created automatically by those processes.
 
 <br />
 # Source
@@ -129,7 +129,7 @@ It is important to note that *only the most **specific match** will be used if t
 
 <div class='left'><a href='http://bit.ly/gxytrello'><img src="/src/images/logos/TrelloLogo300.png" alt="Galaxy Issue Board @ Trello" width="100" /></a></div>
 
-The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#Vote) on existing issues. 
+The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#vote) on existing issues. 
 
 Want to review what we're working on, vote, or submit a new idea to the Galaxy team? Our new wiki has all the details! 
 **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**
@@ -152,7 +152,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 8. Fix text selection of dataset names in the history panel.
 9. Fixes to history-related functional tests.
 10. Fix rendering of 'save' pop-up menu downloadable composite files 
-  * *example:* [BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) datasets have two download components, .bam (primary dataset) and .bam.bai (the index)
+  * *example:* [BAM](http://wiki.galaxyproject.org/Learn/Datatypes#bam) datasets have two download components, .bam (primary dataset) and .bam.bai (the index)
 
 <br />
 # Announcements

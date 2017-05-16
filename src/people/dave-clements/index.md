@@ -456,8 +456,8 @@ My pre-bioinformatics career included
 
 ### 2010
 
-* *[GMOD Sustainability and Organization](http://gmod.org/wiki/September 2010 GMOD Meeting#GMOD Sustainability and Organization)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
-* *[Help Desk Update](http://gmod.org/wiki/September 2010 GMOD Meeting#Help Desk Update)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
+* *[GMOD Sustainability and Organization](http://gmod.org/wiki/September 2010 GMOD Meeting#gmod sustainability and organization)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
+* *[Help Desk Update](http://gmod.org/wiki/September 2010 GMOD Meeting#help desk update)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
 * *[GMOD for Evolutionary Biology](http://gmod.org/wiki/Image:GMODForIEvoBio2010.pdf)*, presentation with [Rob Buels](http://gmod.org/wiki/User:RobertBuels) at [iEvoBio 2010](http://ievobio.org), Portland, Oregon, June 2010.
 * *[Help Desk Report](http://gmod.org/wiki/:Image:Jan2010HelpDesk.pdf)*, presentation at [http://gmod.org/wiki/January 2010 GMOD Meeting](http://gmod.org/wiki/January 2010 GMOD Meeting), San Diego, January 2010.
 * *[GMOD Project Update](http://gmod.org/wiki/Image:PAG2010GMODProjectUpdate.pdf)*, presentation with [Scott Cain](http://gmod.org/wiki/User:Scott) at [http://gmod.org/wiki/PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.

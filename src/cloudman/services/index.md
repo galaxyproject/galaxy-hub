@@ -16,4 +16,4 @@ CloudMan manages a set of applications that are referred to as *services*. Some 
 * [Slurmd](https://computing.llnl.gov/linux/slurm/slurmd.html) - compute node daemon for the Slurm job manager
 * Supervisor - [Supervisord](http://supervisord.org/) daemon used to manage select services (e.g., NodeJSProxy)
 
-It is possible to add additional service to CloudMan by implementing a [service interface](https://github.com/galaxyproject/cloudman/blob/master/cm/services/__init__.py#L290) for the given application. [Get in touch with us](https://github.com/galaxyproject/cloudman/issues) if you're interested in adding a new service.
+It is possible to add additional service to CloudMan by implementing a [service interface](https://github.com/galaxyproject/cloudman/blob/master/cm/services/__init__.py#l290) for the given application. [Get in touch with us](https://github.com/galaxyproject/cloudman/issues) if you're interested in adding a new service.

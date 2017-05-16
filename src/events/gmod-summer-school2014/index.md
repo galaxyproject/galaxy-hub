@@ -80,7 +80,7 @@ $ python --version
 Python 2.7.6
 ```
 
-(See also [How to check your Python version](/src/admin/get-galaxy/index.md#check_your_python_version)).
+(See also [How to check your Python version](/src/admin/get-galaxy/index.md#check-your-python-version)).
 
 Galaxy is best downloaded using the Mercurial distibuted source management system:
 * [http://mercurial.selenic.com/](http://mercurial.selenic.com/)
@@ -96,7 +96,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/src/events/bio-it-world2014/w14/index.md#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/src/events/bio-it-world2014/w14/index.md#clone-28download29-galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -146,9 +146,9 @@ Mercurial, we can easily 'pull' changes, fixes, and updates from `bitbucket.org`
 
 More advanced users may also consider installing Galaxy in a virtual environment with `virtualenv`. This will create a
 clean slate for your python dependencies and paths (including `$PYTHONPATH`). For more information see:
-[Use a clean environment](/src/admin/config/performance/production-server/index.md#use_a_clean_environment)
+[Use a clean environment](/src/admin/config/performance/production-server/index.md#use-a-clean-environment)
 and:
-[Create a Python virtual environment](/src/events/bio-it-world2014/w14/index.md#create_a_python_virtual_environment)
+[Create a Python virtual environment](/src/events/bio-it-world2014/w14/index.md#create-a-python-virtual-environment)
 
 
 
@@ -207,7 +207,7 @@ PostgreSQL can be installed with a package manager. Installing, starting, and co
 of this tutorial but more information can be found at:
 [their admin documentation page](http://www.postgresql.org/docs/9.3/static/admin.html)
 and a quick command line example here:
-[Install and configure PostgreSQL](/src/events/bio-it-world2014/w14/index.md#install_and_configure_postgresql)
+[Install and configure PostgreSQL](/src/events/bio-it-world2014/w14/index.md#install-and-configure-postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
@@ -245,7 +245,7 @@ database_connection = postgresql:///galaxydb?host=/var/run/postgresql
 
 
 Some important points and suggestions for setting up a Galaxy server with a full database can be found here:
-[Use a clean environment](/src/admin/config/performance/production-server/index.md#use_a_clean_environment)
+[Use a clean environment](/src/admin/config/performance/production-server/index.md#use-a-clean-environment)
 
 
 <br />
@@ -275,7 +275,7 @@ Disable the debugging and development settings:
 ```
 
 
-See the [Production Server Help](/src/admin/config/performance/production-server/index.md#disable_the_developer_settings)
+See the [Production Server Help](/src/admin/config/performance/production-server/index.md#disable-the-developer-settings)
 for why you'd want to change these.
 
 If you run into problems, you can turn any of these back on and they will provide more information and may help with the
@@ -317,7 +317,7 @@ port = 8081
 
 NOTE: for our example we'll keep the port number at 8081. To provide a clean url without a port number, the best option
 is probably to start using a proxy server:
-[Using a proxy server](/src/admin/config/performance/production-server/index.md#using_a_proxy_server)
+[Using a proxy server](/src/admin/config/performance/production-server/index.md#using-a-proxy-server)
 
 Change the listening address to `0.0.0.0` and uncomment:
 ```ini
@@ -438,7 +438,7 @@ Galaxy does not delete or clear the log file between starts and stops and it app
 end of the file. That means that you're able to scan it for past information as well.
 
 This also means that the file can grow quickly. To 'rotate' your log files, see:
-[Rotating log files](/src/admin/config/performance/production-server/index.md#rotate_log_files).
+[Rotating log files](/src/admin/config/performance/production-server/index.md#rotate-log-files).
 
 It can be useful (for this tutorial or anytime you're configuring your server) when running in daemon mode to open a new
 terminal window or tab and 'follow the tail' of your log file:
@@ -599,7 +599,7 @@ parameters with help and explanation.
 See also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
-`universe_wsgi.ini` file (which we set [here](/src/events/gmod-summer-school2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
+`universe_wsgi.ini` file (which we set [here](/src/events/gmod-summer-school2014/index.md#the-tool-dependency-dir)). They can also be invoked on the command line
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
 ```hightlight bash
@@ -616,7 +616,7 @@ created from there.
 
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
-[Public tool sheds](/src/public-galaxy-servers/index.md#public_toolsheds)
+[Public tool sheds](/src/public-galaxy-servers/index.md#public-toolsheds)
 See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/toolshed/index.md);
 
 
@@ -663,7 +663,7 @@ None. You may need to enable third-party cookies in your browser.', you'll need 
 duration of this workshop).
 
 To enable 3rd-party cookies in Firefox or Chrome, see:
-[enabling 3rd-party cookies](/src/events/bio-it-world2014/w14/index.md#install_a_tool_from_the_tool_shed)
+[enabling 3rd-party cookies](/src/events/bio-it-world2014/w14/index.md#install-a-tool-from-the-tool-shed)
 
 
 Let's check that it was installed and is now available:

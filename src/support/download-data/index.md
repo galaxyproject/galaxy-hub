@@ -21,7 +21,7 @@ Related topics
 
 **Browser option:** use Google Chrome and click on the disc icon (we've found that this browser supports better continuous downloads).
 
-**Command-line option:** from a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
+**Command-line option:** from a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#download-options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
 
 The direct download link to a dataset can be obtained by right clicking the
 floppy disk icon and choosing "Copy Link Location" (for most datasets) or

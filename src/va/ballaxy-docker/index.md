@@ -22,7 +22,7 @@ Implements the same functionality as the [ballaxy](https://ballaxy.bioinf.uni-sb
 
 ## User Support
 
-[Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point_tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list).
+[Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point-tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list).
 
 ## Links
 

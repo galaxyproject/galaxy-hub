@@ -287,7 +287,7 @@ August was an eventful month for releases.  New versions of [Galaxy](/src/galaxy
 <br /><br /><br />
 *Highlights:* <br />
 <br />  • [Security alert](http://tinyurl.com/nhgmbc5) from July 31st, upgrade now
-<br />  • [Citations](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Ccitations.3E_tag_set): DOIs, `BibTeX`, and much much more
+<br />  • [Citations](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#a.3ccitations.3e-tag-set): DOIs, `BibTeX`, and much much more
 <br />  • [Docker](http://wiki.galaxyproject.org/Admin/Tools/Docker): You voted, we've *got it*, with a little help from our friends (you!)
 <br />  • Significant Workflow, API, Job, Tool Shed, and Dataset management updates
 <br />  • Fixes, tunings, plus just a drop of &rarr; Gossip
@@ -363,10 +363,10 @@ For complete details on implemented changes, please see the [source code commits
 
 ## blend4j 0.1.1 Release
 
-[blend4j version 0.1.1](http://search.maven.org/#artifactdetails%7Ccom.github.jmchilton.blend4j%7Cblend4j%7C0.1.1%7Cjar) was released on August 27th. Some key features from the [CHANGELOG](https://github.com/jmchilton/blend4j/blob/master/CHANGELOG.md):
+[blend4j version 0.1.1](http://search.maven.org/#artifactdetails%7ccom.github.jmchilton.blend4j%7cblend4j%7c0.1.1%7cjar) was released on August 27th. Some key features from the [CHANGELOG](https://github.com/jmchilton/blend4j/blob/master/CHANGELOG.md):
 
 * Dataset collection support by Aaron Petkau. Among other things the [histories client](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html)
-  can now [create](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#createDatasetCollection(java.lang.String%2C%20com.github.jmchilton.blend4j.galaxy.beans.collection.request.CollectionDescription)) and [return](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#showDatasetCollection(java.lang.String%2C%20java.lang.String)) information about collections and the [workflows client](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/WorkflowsClient.html) can [specify](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/beans/WorkflowInputs.InputSourceType.html) dataset collections as inputs.
+  can now [create](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#createDatasetCollection(java.lang.String%2C%20com.github.jmchilton.blend4j.galaxy.beans.collection.request.CollectionDescription)) and [return](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#showdatasetcollection(java.lang.string%2c%20java.lang.string)) information about collections and the [workflows client](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/WorkflowsClient.html) can [specify](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/beans/WorkflowInputs.InputSourceType.html) dataset collections as inputs.
 * Documentation overhaul - [API documentation](http://jmchilton.github.io/blend4j/apidocs/) is now available online.
 * Update tool shed client defaults to reflect the fact main tool shed is now being served over HTTPS.
 

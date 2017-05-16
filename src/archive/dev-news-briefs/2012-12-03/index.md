@@ -83,7 +83,7 @@ Opening each of the above containers (by clicking on the links) displays the con
 
 ### Functional test framework for the tool shed
 
-<div class='indent'> In addition to its rich set of features, the Galaxy tool shed provides a suite of functional test scripts that ensure the features behave as expected.  This test framework is very similar to the functional test framework provided for Galaxy itself, and consists of files mostly contained within the `~/test/tool_shed` directory hierarchy in the Galaxy root directory. [Read more…](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed).
+<div class='indent'> In addition to its rich set of features, the Galaxy tool shed provides a suite of functional test scripts that ensure the features behave as expected.  This test framework is very similar to the functional test framework provided for Galaxy itself, and consists of files mostly contained within the `~/test/tool_shed` directory hierarchy in the Galaxy root directory. [Read more…](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed).
 </div>
 
 ### Miscellaneous tool shed enhancements and fixes

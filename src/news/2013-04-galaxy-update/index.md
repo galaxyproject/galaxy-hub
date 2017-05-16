@@ -10,7 +10,7 @@ The [April 2013 Galaxy Update is now available](/src/galaxy-updates/2013-04/inde
 * the [GCC2013](/src/galaxy-updates/2013-04/index.md#gcc2013) **[oral presentation abstract deadline is 12 April](/src/events/gcc2013/abstracts/index.md)**, which is less than 2 weeks away.  [Early registration](/src/events/gcc2013/register/index.md), and [poster abstract submission](/src/events/gcc2013/abstracts/index.md) are also open.
 * [Two new public Galaxy servers](/src/galaxy-updates/2013-04/index.md#new-public-galaxy-servers) are featured
 * The [slides and screencast for the March GalaxyAdmins meetup](/src/galaxy-updates/2013-04/index.md#galaxyadmins) are available.
-  * And, please help determine [what the GalaxyAdmins group should focus on](/src/galaxy-updates/2013-04/index.md#galaxyadmins_future_directions)
+  * And, please help determine [what the GalaxyAdmins group should focus on](/src/galaxy-updates/2013-04/index.md#galaxyadmins-future-directions)
 * [32 new papers and 5 new tags](/src/galaxy-updates/2013-04/index.md#new-papers)
 * [Open Positions](/src/galaxy-updates/2013-04/index.md#whos-hiring) at six different institutions
 * [Other Upcoming Events](/src/galaxy-updates/2013-04/index.md#other-upcoming-events)

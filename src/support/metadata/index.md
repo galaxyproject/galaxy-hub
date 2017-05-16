@@ -27,9 +27,9 @@
     *   If resetting metadata does fix the issue, then there may have been a transient cluster job failure. Re-run the job at least once.
 *   **Other problematic dataset solutions are listed here**, but these are not are not based on the same underlying issue.
 
-    *   [Tool doesn't recognize dataset](/src/support#Tool_doesn.27t_recognize_dataset)
+    *   [Tool doesn't recognize dataset](/src/support#tool-doesn.27t-recognize-dataset)
 
-    *   [FASTQ Datatype QA](/src/support#FASTQ_Datatype_QA)
+    *   [FASTQ Datatype QA](/src/support#fastq-datatype-qa)
 
-    *   [Troubleshooting errors from tools](/src/support#Error_from_toolsTroubleshooting_errors_from_tools) - Includes how to check your data inputs and diagnose memory and other failure reasons.
+    *   [Troubleshooting errors from tools](/src/support#error-from-toolstroubleshooting-errors-from-tools) - Includes how to check your data inputs and diagnose memory and other failure reasons.
 

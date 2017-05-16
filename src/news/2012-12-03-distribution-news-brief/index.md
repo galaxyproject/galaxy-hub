@@ -7,7 +7,7 @@ date: "2012-12-03"
 **Highlights:**
 * **NGS: Mapping** tools **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 * Improvements in the display of **[http://wiki.galaxyproject.org/ToolShed](http://wiki.galaxyproject.org/ToolShed)** repository dependencies and contents.
-* More **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** updates including details of the [Functional test framework](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed), a new hgweb.config file and `HgWebConfigManager` tool, plus other management features.
+* More **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** updates including details of the [Functional test framework](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed), a new hgweb.config file and `HgWebConfigManager` tool, plus other management features.
 * Updated **UI** display and functionality for datasets and histories: new **paused** state and "resume/paused" toggle, new **History menu options** (seen at right &rarr;), and improved **Scatterplot** visualizations.
 * The **SGE** job runner has now been fully deprecated and replaced with **DRMAA**.
 * Several enhancements to aid with **reproducibility**: "Re-run" and "Extract workflow" validates datasets and tools, respectively, and a new data tables registry within the Administration menu, along with associated tools, corrects or warns about tool migration issues.

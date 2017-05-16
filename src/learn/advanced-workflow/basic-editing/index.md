@@ -54,19 +54,19 @@ Selecting **Edit** opens the workflow editor view. Each of the major landmarks i
 ### Workflow Canvas
 
 The *canvas* is where *inputs*, *tools*, and *noodles* are added and connected as you build and modify your workflow. If content is on your canvas, it is in your workflow.
-(annotated top center *red* panel in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above)
+(annotated top center *red* panel in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above)
 <br />
 
 ### Navigation
 
 The *navigator* provides a full view of your workflow in a condensed format. Slide the blue box around to bring sections of your workflow into *focus* within the canvas where the contents can be added, deleted, examined, or edited. If it is in the way of your work, toggle the size of the window with the the lower right corner *hide* function.
-(annotated bottom center panel *red* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above)
+(annotated bottom center panel *red* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above)
 <br />
 
 ### Editor Menu
 
 <div class='right'><img src="/src/images/learn/workflow_editor_menu_detail.png" alt="workflow editor menu detail" width="300" /></div>
-Accessed by clicking on the gear icon on the right side of the center *Workflow Canvas* upper bar, the *workflow editor menu* is for global editor actions. (annotated *orange* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above)
+Accessed by clicking on the gear icon on the right side of the center *Workflow Canvas* upper bar, the *workflow editor menu* is for global editor actions. (annotated *orange* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above)
 * **Save** - Be sure to save your changes before leaving the editor or they will be lost! If you do try to navigate away from the page without saving, you will be reminded with a pop-up warning (see *Close* below) - choose *Save Changes* to apply modifications to the workflow.
 * **Run** - After saving, you can choose to start a run with your new workflow directly from the editor.
 * **Edit Attributes** - Edit the name of your workflow and add in a description. Both will be displayed with the workflow is executed and if published (a *Sharing* option), part of the information listed on the *Published Workflows* page.
@@ -79,13 +79,13 @@ Accessed by clicking on the gear icon on the right side of the center *Workflow 
 ### Left Tools Panel
 
 <div class='right'><img src="/src/images/learn/workflow_editor_toolpanel_detail.png" alt="workflow editor toolpanel detail" width="200" /></div>
-Located at the far left in the editor layout, the *Tools* panel contains all the the tools available on the instance plus a special group for *input datasets*. (annotated left panel top *red* and underneath "blue" in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above and *Tool Panel Detail* to the right)
+Located at the far left in the editor layout, the *Tools* panel contains all the the tools available on the instance plus a special group for *input datasets*. (annotated left panel top *red* and underneath "blue" in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above and *Tool Panel Detail* to the right)
 <br />
 <br />
 * **tool search** - Search for tools by name 
-* **1: tool groups** - Click to open tool groups to reveal tools. Click on a *tool* to add it to your *workflow canvas*. More about *toolbox* features below in [ToolBox Details](/src/learn/advanced-workflow/basic-editing/index.md#toolbox_details). <br /> <img src="/src/images/learn/workflow_editor_add_tool.png" alt="workflow editor add tool" width="500" />
+* **1: tool groups** - Click to open tool groups to reveal tools. Click on a *tool* to add it to your *workflow canvas*. More about *toolbox* features below in [ToolBox Details](/src/learn/advanced-workflow/basic-editing/index.md#toolbox-details). <br /> <img src="/src/images/learn/workflow_editor_add_tool.png" alt="workflow editor add tool" width="500" />
 * **workflow control** - Scroll down to the bottom of the panel to locate this special section of workflow-editing specific canvas items.
-* **2: input dataset** - Click to add to your *workflow canvas* same as adding a tool. More about *inputs* below, see [Key Edits: Adding Inputs](/src/learn/advanced-workflow/basic-editing/index.md#adding_inputs). 
+* **2: input dataset** - Click to add to your *workflow canvas* same as adding a tool. More about *inputs* below, see [Key Edits: Adding Inputs](/src/learn/advanced-workflow/basic-editing/index.md#adding-inputs). 
 * **3: input dataset collection** - Click to add to your *workflow canvas* same as adding a tool. More about how *dataset collections* differ from *datasets* is pending wiki documentation (brand-new!).
 
 <br />
@@ -93,7 +93,7 @@ Located at the far left in the editor layout, the *Tools* panel contains all the
 ### ToolBox Details
 
 <div class='right'><img src="/src/images/learn/workflow_editor_toolbox_detail-A.png" alt="workflow editor toolbox detail-A" width="300" /></div>
-A *toolbox* on the *workflow canvas* represents a *tool* action or *job* performed on dataset(s) as they pass through a workflow. On the *canvas*, *input and tool* connections and hidden status are set. Specific settings for a *tool* are made in the far right [Details](/src/learn/advanced-workflow/basic-editing/index.md#right_details_panel) panel, explained below. (annotated center panel "purple" in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above and *toolbox detail "A"* to the right)
+A *toolbox* on the *workflow canvas* represents a *tool* action or *job* performed on dataset(s) as they pass through a workflow. On the *canvas*, *input and tool* connections and hidden status are set. Specific settings for a *tool* are made in the far right [Details](/src/learn/advanced-workflow/basic-editing/index.md#right_details_panel) panel, explained below. (annotated center panel "purple" in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above and *toolbox detail "A"* to the right)
 <br />
 * **1: tool name** - Exact tool name.
 * **2: tool description** - Short portion of the tool description or actions.
@@ -101,19 +101,19 @@ A *toolbox* on the *workflow canvas* represents a *tool* action or *job* perform
 * **4: delete** - Click the "X" to remove (delete) the tool from your workflow.
 * **5: input connection(s)** - Where the input for the tool is supplied through a connecting *noodle* from an upstream *tool* output or *input* dataset.
 * **6: output connection(s)** - Where the output from a tool exists the tool and is sent through a connecting *noodle* to a downstream *tool* (unless this tool produces a final output dataset).
-* **7: noodle(s)** - How *input* datasets and *tool* boxes are connected. More about *noodle* connections is below in [Key Functions: Noodle-y Connections](/src/learn/advanced-workflow/basic-editing/index.md#noodle-y_connections).
-* **8: hide toggle** - Datasets that result from tool execution can be displayed in a history or hidden. More about *hidden* datasets is below in [Most Useful Edits: Hidden Datasets](/src/learn/advanced-workflow/basic-editing/index.md#hidden_datasets). 
+* **7: noodle(s)** - How *input* datasets and *tool* boxes are connected. More about *noodle* connections is below in [Key Functions: Noodle-y Connections](/src/learn/advanced-workflow/basic-editing/index.md#noodle-y-connections).
+* **8: hide toggle** - Datasets that result from tool execution can be displayed in a history or hidden. More about *hidden* datasets is below in [Most Useful Edits: Hidden Datasets](/src/learn/advanced-workflow/basic-editing/index.md#hidden-datasets). 
 
 <br />
 <br />
 
 ### Right Details Panel
 
-The *details* panel is where tool settings are made and adjusted for the selected *[toolbox](/src/learn/advanced-workflow/basic-editing/index.md#toolbox_details)* on the *workflow canvas*. Some settings are the same as those made when a *tool* is executed from a history (the settings on the *tool form*). Others are workflow-specific options. (annotated right top *red* panel and underneath *purple* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor_layout) above and *toolbox detail "B-1 & B-2"* below)
+The *details* panel is where tool settings are made and adjusted for the selected *[toolbox](/src/learn/advanced-workflow/basic-editing/index.md#toolbox_details)* on the *workflow canvas*. Some settings are the same as those made when a *tool* is executed from a history (the settings on the *tool form*). Others are workflow-specific options. (annotated right top *red* panel and underneath *purple* in the [Editor Layout](/src/learn/advanced-workflow/basic-editing/index.md#editor-layout) above and *toolbox detail "B-1 & B-2"* below)
 * **tool: tool name** - The exact name of the *tool* being edited. Same as in the *toolbox*. 
 * **1: version** - The Galaxy *wrapper version* for the tool. Note that this is __not__ the same as the underlying *tool executable* version (both are available on the ![](/src/images/icons/HistoryInfo.png) *info form* for a completed job).
 * **2: tool description** - Short portion of the tool description or actions. Same as in the *toolbox*. 
-* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/src/learn/advanced-workflow/basic-editing/index.md#noodle-y_connections)* between tools (such as *[datatype](/src/learn/advanced-workflow/basic-editing/index.md#assign_datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/src/learn/advanced-workflow/AdvEditing/index.md)** and **[Using Variables](/src/learn/advanced-workflow/Variables/index.md)**.
+* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/src/learn/advanced-workflow/basic-editing/index.md#noodle-y_connections)* between tools (such as *[datatype](/src/learn/advanced-workflow/basic-editing/index.md#assign-datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/src/learn/advanced-workflow/AdvEditing/index.md)** and **[Using Variables](/src/learn/advanced-workflow/Variables/index.md)**.
 * **4: edit step attributes** - Workflow-specific annotation/info that can be provided to describe what a tool's purpose is, expected input content (if an *input* dataset box), and other communications directed to users of the workflow. This annotation is displayed when a workflow is *viewed* or when it is *run*.
 * **5: tool form info contents** - Exact contents displayed on a tool's *tool form* underneath the settings. This is provided in the *workflow editor* to assist with correct setting and connections for included *tools*.
 
@@ -136,10 +136,10 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 ### Noodle-y Connections
 
 *Noodles* represents the flow of data from one step in a workflow analysis to the next. These will link input-output connections with compatible datatypes. 
-* When dragging a *noodle* from a tool's *output connection*, tools with available *input connections* will highlight as *green* on the *workflow canvas*. See the graphic above in the section [Adding Inputs](/src/learn/advanced-workflow/basic-editing/index.md#adding_inputs) for an example.
+* When dragging a *noodle* from a tool's *output connection*, tools with available *input connections* will highlight as *green* on the *workflow canvas*. See the graphic above in the section [Adding Inputs](/src/learn/advanced-workflow/basic-editing/index.md#adding-inputs) for an example.
 * When you want to remove a connection, hover the pointer over the *noodle* until an "X" appears. Click on it to delete the *noodle*. 
 * Some tools have more than one *input connection*, some have more that one *output connection*. Each may be of a different *[datatype](/src/learn/datatypes/index.md)*. Confused? Click on the *toolbox* then review that tool's help at the bottom of the far right *Details* panel. 
-* If your connection is broken or will not link, see the help below [Most Useful Edits: Assign Datatype](/src/learn/advanced-workflow/basic-editing/index.md#assign_datatype). This will not resolve all connection problems (the data must be compatible between tools!), but the most common. 
+* If your connection is broken or will not link, see the help below [Most Useful Edits: Assign Datatype](/src/learn/advanced-workflow/basic-editing/index.md#assign-datatype). This will not resolve all connection problems (the data must be compatible between tools!), but the most common. 
 
 ## 3 Most Useful Edits
 
@@ -181,7 +181,7 @@ A *tool* may require a specific *input* **[datatype](/src/learn/datatypes/index.
 Example:
 * calculations were performed on a [bed](/src/learn/datatypes/index.md#bed) file adding extra fields
 * the result data was then processed by the *Cut* tool to create an [interval](/src/learn/datatypes/index.md#interval) dataset for further analysis
-* however, the *Cut* tool always breaks metadata column assignments, resulting in a [tabular](/src/learn/datatypes/index.md#tabular_28tab_delimited29) *datatype* assignment
+* however, the *Cut* tool always breaks metadata column assignments, resulting in a [tabular](/src/learn/datatypes/index.md#tabular-28tab-delimited29) *datatype* assignment
 * the *output connector's noodle* from the *Cut* tool will not connect with a tool that requires *interval* format, such as a tool from the group *Operate on Genomic Intervals*
 * what to do? answer = *reassign the datatype* for the output from the *Cut* tool in your workflow
 

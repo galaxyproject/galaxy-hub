@@ -135,7 +135,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 1. #1 Repository Types
 
-  The repository types feature in the Tool Shed provides a mechanism for categorizing repositories based on their contents, specifically the set of Galaxy utilities that they contain.  Galaxy utilities are tools, custom datatypes, tool and repository dependency definitions and exported Galaxy workflows.  The list of Galaxy utilities will expand in the future to include other items.  Associating a repository with a type results in certain behaviors related to generating metadata for the repository revisions.  As new repository types are introduced over time, these special behaviors may expand beyond repository metadata.  [Read more…](http://wiki.galaxyproject.org/ToolShedRepositoryFeatures#Repository_Types)
+  The repository types feature in the Tool Shed provides a mechanism for categorizing repositories based on their contents, specifically the set of Galaxy utilities that they contain.  Galaxy utilities are tools, custom datatypes, tool and repository dependency definitions and exported Galaxy workflows.  The list of Galaxy utilities will expand in the future to include other items.  Associating a repository with a type results in certain behaviors related to generating metadata for the repository revisions.  As new repository types are introduced over time, these special behaviors may expand beyond repository metadata.  [Read more…](http://wiki.galaxyproject.org/ToolShedRepositoryFeatures#repository-types)
 
 1. #2 Repairing installed tool shed repositories
 

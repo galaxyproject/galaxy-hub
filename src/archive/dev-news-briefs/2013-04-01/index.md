@@ -146,7 +146,7 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 <br />
 # Data
 
-1. The Galaxy Main **Rsync** server hosts download of the same `.loc` files and genome data used by the Galaxy team. This service now also hosts all pre-cashed datasets, such as MAF, blastdb, etc. Our updated wiki lists the available directories: [Get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
+1. The Galaxy Main **Rsync** server hosts download of the same `.loc` files and genome data used by the Galaxy team. This service now also hosts all pre-cashed datasets, such as MAF, blastdb, etc. Our updated wiki lists the available directories: [Get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#get-the-data)
 
 1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/src/admin/tools/data-managers/index.md)).
 
@@ -168,7 +168,7 @@ An abstracted interface has been created for the data manager to download, gener
 
 ### New Tool Shed Features
 
-1. The following scripts are available for inspecting and maintaining the repositories contained within a local tool shed that you are hosting.  You can configure ` cron ` to execute these scripts on a regular schedule or execute them manually against your local tool shed whenever you choose.  Each of these scripts is configured to execute regularly against both of the public tool sheds supported by the core Galaxy development team.  [Read more...](http://wiki.galaxyproject.org/Tool%20Shed#Scripts_for_inspecting_and_maintaining_the_repositories_contained_within_a_tool_shed)
+1. The following scripts are available for inspecting and maintaining the repositories contained within a local tool shed that you are hosting.  You can configure ` cron ` to execute these scripts on a regular schedule or execute them manually against your local tool shed whenever you choose.  Each of these scripts is configured to execute regularly against both of the public tool sheds supported by the core Galaxy development team.  [Read more...](http://wiki.galaxyproject.org/Tool%20Shed#scripts-for-inspecting-and-maintaining-the-repositories-contained-within-a-tool-shed)
 
 1. A ` RESTful API` framework has been added to the tool shed.  [Read more...](http://wiki.galaxyproject.org/ToolShedApi)
 
@@ -181,13 +181,13 @@ An abstracted interface has been created for the data manager to download, gener
 
 ### Enhancements to existing Tool Shed features
 
-1. In addition to repository owners, users with write permission on a repository can now browse reviews of that repository. [See the details...](http://wiki.galaxyproject.org/ReviewingToolShedRepositories#Repository_owners_and_users_with_write_permission_can_read_reviews_and_undertake_recommended_actions)
+1. In addition to repository owners, users with write permission on a repository can now browse reviews of that repository. [See the details...](http://wiki.galaxyproject.org/ReviewingToolShedRepositories#repository-owners-and-users-with-write-permission-can-read-reviews-and-undertake-recommended-actions)
 
 1. The sharable link for repositories has been enhanced to include a specific ` changeset revision ` if the link is not for the repository tip.
 
 1. Sharable links have been added to email alerts messages for new or updated repositories in the tool shed.
 
-1. Many additional tests have been added to the tool shed functional test framework. The Tool Shed's [functional test framework defined](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed).
+1. Many additional tests have been added to the tool shed functional test framework. The Tool Shed's [functional test framework defined](http://wiki.galaxyproject.org/HostingALocalToolShed#functional-test-framework-for-the-tool-shed).
 
 1. Handle all Galaxy utility types (custom datatypes, data manager tools, tools, tool dependency definitions, repository dependency definitions, workflows) when reinstalling an uninstalled tool shed repository. The shed-related tool panel configuration file can now be selected when reinstalling repositories with any contents so that a different "tool_path" location can be selected for the location of the reinstalled repository.
 
@@ -227,7 +227,7 @@ An abstracted interface has been created for the data manager to download, gener
 ``` .. image:: $PATH_TO_IMAGES/count_modes.png ```
 
 
-This reserved word will route correctly in the tool shed when the tool is displayed inside of it's containing repository, and it will also route correctly when the tool is loaded from it's repository after it has been installed into Galaxy.  [All the details...](http://wiki.galaxyproject.org/ToolShedToolFeatures#Properly_defining_the_location_of_images_in_tool_configuration_files)
+This reserved word will route correctly in the tool shed when the tool is displayed inside of it's containing repository, and it will also route correctly when the tool is loaded from it's repository after it has been installed into Galaxy.  [All the details...](http://wiki.galaxyproject.org/ToolShedToolFeatures#properly-defining-the-location-of-images-in-tool-configuration-files)
 
 <br />
 # Trackster

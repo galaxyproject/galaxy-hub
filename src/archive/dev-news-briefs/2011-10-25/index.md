@@ -67,9 +67,9 @@ title: October 25, 2011 Galaxy Development News Brief
 ### Galaxy Tool Shed
 
 <div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
-* [Search repositories for valid tools by any combination of id, name or version](/src/toolshed/index.md#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
-* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/toolshed/index.md#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
-* [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
+* [Search repositories for valid tools by any combination of id, name or version](/src/toolshed/index.md#search-repositories-for-valid-tools-by-any-combination-of-id2c-name-or-version).
+* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/toolshed/index.md#automatic-installation-of-galaxy-tool-shed-repository-tools-into-a-local-galaxy-instance).
+* [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
 ## Updated & Improved
@@ -87,7 +87,7 @@ title: October 25, 2011 Galaxy Development News Brief
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/admin/tools/tool-config-syntax/index.md#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/admin/tools/tool-config-syntax/index.md#a3ctest3e-tag-set) documentation.
 
 ### Quotas and Data Management
 
