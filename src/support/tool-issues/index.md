@@ -55,7 +55,6 @@ _Integration test once installed_
 **UI**
 
 1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
-1. **Tophat** (And potentially other tools). The Jetstream cluster may produce output datasets reporting problematic metadata. Current workaround: Expand the dataset by clicking on the name and reset metadata with the link provided in the yellow box. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2838
 1. **Workflows** Multiple input modifications within the editor triggers a browser crash. Impacts Galaxy Main http://usegalaxy.org (and potentially other Galaxy flavors). Details: https://github.com/galaxyproject/galaxy/issues/2835
 1. **Workflows** *NOTE that a new workflow form is pending and these usage issues will be re-tested.* Behavior: Reference genome selection at runtime or changes through editor are not persistent or do not allow use of a Custom Reference Genome/Build. Known issues, sometimes linked to specific tools (SAMTool, Tophat). Impacts Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1132
 
@@ -89,7 +88,8 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
-1. 1. **MAF tools 1.0.1** Fix made for legacy env updates, pending implimentation in inpacted releases plus Main update. **Extract Pairwise MAF blocks 1.0.1** Aka _Interval2Maf_pairwise1_ has dependency issues. Needs same fix as for **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/3934
+1. **Tophat** Tool is being deprecated and no longer runs on Jetstream (where original metadata problem was from). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2838
+1. **MAF tools 1.0.1** Fix made for legacy env updates. **Extract Pairwise MAF blocks 1.0.1** https://github.com/galaxyproject/galaxy/issues/3934. **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud.
 1. **Trimmomatic** Update to version **0.36.3** corrected tool form option "Illumina Clip" failures. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3691
 1. **Picard Tool: CollectRnaSeqMetrics 1.136.0** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. Update: Error due to input format - is very specific and needs to be clarified on tool form, see ticket. https://github.com/galaxyproject/galaxy/issues/1710.
 1. **MarkDuplicatesWithMateCigar 1.126.0** Problem with tool form option specific to version 1.126.0. Repo updated to version 1.136.0 and now works at Main. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
