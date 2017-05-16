@@ -1,5 +1,3 @@
- <<Include(Admin/Config/Performance/LinkBox)>> 
-
 # Apache proxy to Galaxy
 
 For various reasons (performance, authentication, etc.) in a production environment, it's recommended to run Galaxy behind a web server proxy. Although any proxy could work, Apache is the most common. Alternatively, we use [nginx](http://nginx.net/) for our public sites, and [details are available](Admin%2FConfig%2FPerformance%2Fnginx+Proxy) for it, too.
@@ -147,7 +145,7 @@ The contents of `&lt;Location "/"&gt;` should be added to the existing `&lt;Loca
 
 Galaxy sends files (e.g. dataset downloads) by opening the file and streaming it in chunks through the proxy server. However, this ties up the Galaxy process, which can impact the performance of other operations (see [Admin/Config/Performance/ProductionServer](Admin%2FConfig%2FPerformance%2FProductionServer) for a more in-depth explanation). Apache can assume this task instead and as an added benefit, speed up downloads. This is accomplished through the use of mod\_xsendfile, a 3rd-party Apache module. Dataset security is maintained in this configuration because Apache will still check with Galaxy to ensure that the requesting user has permission to access the dataset before sending it.
 
-To enable it, you must first [download](http://tn123.ath.cx/mod_xsendfile/), compile and install mod\_xsendfile. Once done, add the appropriate `LoadModule` directive to your Apache configuration to load the xsendfile module and the `XSendFile` directives to your proxy configuration:
+To enable it, you must first [download](https://tn123.org/mod_xsendfile/), compile and install mod\_xsendfile. Once done, add the appropriate `LoadModule` directive to your Apache configuration to load the xsendfile module and the `XSendFile` directives to your proxy configuration:
 
 ```
 #!highlight apache
