@@ -19,7 +19,7 @@ In Galaxy you perform data analyses and organize your data simply by clicking on
 |![](/src/tutorials/collections/smallVsLarge.png)|
 |<small>**Figure 1. A history with few datasets** is *easy* to navigate. **A history with many datasets** is *hard* to navigate.</small>
 
-Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Dollections** (also known are *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly. 
+Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Dollections** (also known as *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly. 
 
 # Collections combine datasets to minimize clutter
 
