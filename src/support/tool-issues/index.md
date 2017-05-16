@@ -51,7 +51,6 @@ _Integration test once installed_
 1. **Stringtie** (recently updated to 1.3.3). UI/version issues - needs ticket if not fixed in next day or so.
 1. **MACS2** (recently updated to 2.1.1.20160309.0). Test all components against open issues above (two are confirmed to be problematic so far)
 1. Some parts fixed, some pending, see ticket. (30+ for all) **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies. Some issues appear to be localized to the roundup cluster (default). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
-1. **MAF tools 1.0.1** Fix made for legacy env updates, pending implimentation in inpacted releases plus Main update. **Extract Pairwise MAF blocks 1.0.1** Aka _Interval2Maf_pairwise1_ has dependency issues. Needs same fix as for **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/3934
 
 **UI**
 
@@ -88,8 +87,9 @@ Check all inputs: **[All Support help](https://galaxyproject.org/support)**
 If you cannot determine the problem from the help above, the bug report can be sent in: **[Common tool errors and solutions, including how to send in a bug report](https://galaxyproject.org/support/tool-error/)**.
 
 - - - 
-## Correction Complete History
+## Correction Completed History
 
+1. 1. **MAF tools 1.0.1** Fix made for legacy env updates, pending implimentation in inpacted releases plus Main update. **Extract Pairwise MAF blocks 1.0.1** Aka _Interval2Maf_pairwise1_ has dependency issues. Needs same fix as for **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/3934
 1. **Trimmomatic** Update to version **0.36.3** corrected tool form option "Illumina Clip" failures. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3691
 1. **Picard Tool: CollectRnaSeqMetrics 1.136.0** Impacts Galaxy Main http://usegalaxy.org. Original Details: https://trello.com/c/XXlFa5ZL. Still fails with updated tool version 1.136.0. Update: Error due to input format - is very specific and needs to be clarified on tool form, see ticket. https://github.com/galaxyproject/galaxy/issues/1710.
 1. **MarkDuplicatesWithMateCigar 1.126.0** Problem with tool form option specific to version 1.126.0. Repo updated to version 1.136.0 and now works at Main. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/401
