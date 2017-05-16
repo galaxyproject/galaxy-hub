@@ -2,16 +2,16 @@
 title: Processing many samples at once with collections
 ---
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note:
+<div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that a person reading this tutorial
 <hr>
 	<ul>
-	    <li>you already have a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101) tutorial)</li>
-		<li>you have an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>
-		<li>you have your browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
+	    <li>has a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101) tutorial)</li>
+		<li>has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>
+		<li>has your browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
 	</ul>
 </div>
 
-Galaxy has a graphical interface where you perform data analysis and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. In most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and Collections help manage your data to minimize the amount of clicking you have to do. 
+In Galaxy you perform data analyses and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. However, in most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and **Collections** help manage your data to minimize the amount of clicking you have to do. 
 
 
 |      |
@@ -19,7 +19,7 @@ Galaxy has a graphical interface where you perform data analysis and organize yo
 |![](/src/tutorials/collections/smallVsLarge.png)|
 |<small>**Figure 1. A history with few datasets** is *easy* to navigate. **A history with many datasets** is *hard* to navigate.</small>
 
-Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Dataset collections** described here help to resolve this situation and make very large analyses Galaxy-friendly. 
+Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Dollections** (also known are *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly. 
 
 # Collections combine datasets to minimize clutter
 
@@ -28,7 +28,7 @@ A typical multi-dataset analysis of next-generation sequencing (NGS) data usuall
 |      |
 |------|
 |![](/src/tutorials/collections/simpleCollection.png)|
-|<small>**Figure 2. A collection** is any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet if you first combine individual datasets into a collection, you will only need start a mapping job **once** using the collection as input.</small>|
+|<small>**Figure 2. A collection** is any number of datasets bundled as a **single** entity. In this example, to, say, map *N* fastq files against the human genome you need to manually start *N* mapping jobs. Yet if you first combine individual datasets into a collection, you will only need start a mapping job **once** using the collection as the only input.</small>|
 
 ## Collections reflect data complexity
 
@@ -45,7 +45,7 @@ Below we explain how collections can be used in Galaxy. We start with an example
 
 ## Creating a collection from datasets in your history
 
-In Galaxy's language there are two interchangeable terms: collection and list. This is because the simplest collection is just a list of datasets.
+As was mentioned above in Galaxy's language there are two interchangeable terms: *a collection* and *a list*. This is because the simplest collection is just a list of datasets.
 
 ### A simple collection example
 
@@ -54,7 +54,7 @@ In this example we have six datasets representing single-end (not paired-end) se
 |      |
 |------|
 |![](/src/tutorials/collections/creating_list.png)|
-|<small>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_list.pdf)). **A**. Click the checkbox<i class="fa-check-square-o" aria-hidden="false"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown [here](/tutorials/histories/#searching-for-datasets)). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</small>|
+|<small>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_list.pdf)). **A**. Click the checkbox <i class="fa fa-check-square-o" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown [here](/tutorials/histories/#searching-for-datasets)). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</small>|
 
 ### A paired collection example
 
@@ -74,7 +74,7 @@ This is important because the fact that `-f` and `-r` differentiate forward and 
 |      |
 |------|
 |![](/src/tutorials/collections/creating_paired_list.png)|
-|<small>**Figure 5. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_paired_list.pdf)). The starting steps are identical to steps A through C of the previous example (figure 4). **A**. Here choose "Build List of Dataset pairs" to open dataset collection creator. **B**. In the left text box (highlighted in red) enter `-f`. These two characters distinguish *forward* datasets in our case. Once this is done matching datasets will appear underneath the text field. In the right text box (highlighted in green) enter `-r`. These two characters distinguish *reverse* datasets in our case. Again, matching datasets will appear under the box. Finally, click "Auto-pair". **C**. Auto-pairing will form dataset pairs. At this point scroll to the bottom of the form, name the collection, and click "Create list". **D**. A new collection will appear in your history. Clicking the collection will reveal its content. **E**. In this example the collection consists of three pairs. **F**. Clicking on any pair will reveal forward and reverse sequence datasets. </small>|
+|<small>**Figure 5. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_paired_list.pdf)). The starting steps are identical to steps A through C of the previous example (Figure 4). **A**. Here choose "Build List of Dataset pairs" to open dataset collection creator. **B**. In the left text box (highlighted in red) enter `-f`. These two characters distinguish *forward* datasets in our case. Once this is done matching datasets will appear underneath the text field. In the right text box (highlighted in green) enter `-r`. These two characters distinguish *reverse* datasets in our case. Again, matching datasets will appear under the box. Finally, click "Auto-pair". **C**. Auto-pairing will form dataset pairs. At this point scroll to the bottom of the form, name the collection, and click "Create list". **D**. A new collection will appear in your history. Clicking the collection will reveal its content. **E**. In this example the collection consists of three pairs. **F**. Clicking on any pair will reveal forward and reverse sequence datasets. </small>|
 
 ## Uploading data directly into collections
 
@@ -92,11 +92,11 @@ This approach only works for a relatively small (dozens) number of small (below 
 
 ### Uploading from FTP
 
-A more robust, preferred way of uploading data is through FTP as shown here:
+A more robust, preferred way of uploading data is through FTP. For this you need to use an FTP client (such as [FileZilla](https://filezilla-project.org/) used here) to upload data into Galaxy. Use your galaxy URL address (http://usegalaxy.org for the main site), username, and password as shown in the following video:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/217210779?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-### Uploading from short read archives
+### Uploading from short read archive
 
 Finally, if the data you are uploading has been deposited to the Short Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) at [NCBI](https://www.ncbi.nlm.nih.gov/) use this approach: 
 
@@ -113,11 +113,11 @@ To rename a collection click on its name:
 |      |
 |------|
 |![](/src/tutorials/collections/renaming_collection.png)|
-|<small>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh<i class="fa fa-refresh" aria-hidden="true"></i> icon.</small>|
+|<small>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fa fa-refresh" aria-hidden="true"></i> icon.</small>|
 
 ## Tagging collections
 
-Collections can be tagged. In particular special name tags described below can propagate through the analysis ensuring that the relationship between initial datasets and analysis results is maintained. 
+Collections can be tagged. In particular special name tags (they are pre-pended with a hash (`#`) symbol) described below can propagate through the analysis ensuring that the relationship between initial datasets and analysis results is maintained. 
 
 |      |
 |------|
@@ -179,7 +179,7 @@ Since we have assigned readgroup information while running BWA we can now merge 
 |      |
 |------|
 |![](/src/tutorials/collections/collection_use5.png)|
-|<small>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder<i class="fa fa-folder-o" aria-hidden="true"></i> button.</small>
+|<small>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="fa fa-folder-o" aria-hidden="true"></i> button.</small>
 
 We have now aligned our reads and merged them to a single file for downstream analysis. Using collections allowed us to execute these operations on groups of samples with minimal clicking.
 
