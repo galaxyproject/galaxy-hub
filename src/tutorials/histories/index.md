@@ -259,7 +259,7 @@ You can also hide, delete, and purge multiple datasets at once by **multi-select
 1. Scroll and click the checkboxes next to the datasets you want to manage. You can also 'shift+click' to select a
   range of datasets.
 1. Click the 'All' button to select all datasets. Click the 'None' button to clear/remove all selections.
-1. Click the 'For all selected...' to choose the action. The action will be performed on all selected datasets. (If
+1. Click the 'For all selected...' to choose an action. The action will be performed on all selected datasets. (If
   an action doesn't apply to a selected dataset - like deleting a deleted dataset - nothing will happen.)
 1. You can click the multi-select button again to hide the checkboxes again.
 
@@ -271,7 +271,7 @@ You can also hide, delete, and purge multiple datasets at once by **multi-select
 
 ### Searching for datasets
 
-You can filter what datasets are shown and search for datasets using the search bar at the top of the panel. Enter
+You can filter which datasets are shown and search for datasets using the search bar at the top of the panel. Enter
 any text that a dataset you'd be looking for would contain, including:
 
 * the name or part of the name
@@ -318,7 +318,7 @@ followed by '=' then the value. When using these only the property named is sear
 You can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.<br>
  All keyword searches are AND'd - all searches must be true in order for the dataset to be shown.
 
-</div>  
+</div>
 
 If you find normal searching is showing too many datasets, and not what you're looking for, try the advanced keyword
 search.
@@ -328,16 +328,16 @@ search.
 |![](/src/tutorials/histories/adv-search.png)|
 |<small>**Figure 15. Advanced search.**</small>|
 
-### Search and multiselect
+### Search and multi-select
 
-It's often useful to combine search and multiselect. Multiselections will persist over searches and the All/None buttons
+It's often useful to combine search and multi-select. Multi-selections will persist over searches and the All/None buttons
 will only apply to those datasets that are currently shown with the given search.
 
 So, for example, to select and manipulate two different sets of datasets: a) fastqsanger files tagged with 'low quality'
 and b) hg19 reference BAM files whose names contain "Output":
 
 1. In the search bar, enter: `format=fastqsanger tag="low quality"` and hit enter.
-1. Click the multiselect button to show the checkboxes.
+1. Click the multi-select button to show the checkboxes.
 1. Click the 'All' button to select all the fastqsanger files
 1. In the search bar again, enter: `database=hg19 format=BAM name=output` and hit enter.
 1. Click the 'All' button again to select all the BAM files.
@@ -347,7 +347,7 @@ and b) hg19 reference BAM files whose names contain "Output":
 
 ### Undeleting ... deleted histories
 
-If you have not purged a history and only deleted it, it is possible to 'undelete' it and reverse or undo the deletion.
+If you have not purged a history and have only deleted it, it is possible to 'undelete' it and reverse or undo the deletion.
 Since one of the purposes of deleting histories is to remove them from view, we'll use the interface to specifically
 search for deleted histories and then to undelete the one we're interested in.
 
@@ -361,7 +361,7 @@ history method is presented here:
 |![](/src/tutorials/histories/undelete.multihistory-options.png)|
 |<small>Click the '...' icon button in the grey header at the top of the page. You should see a dialog that presents some options for viewing the histories. Click the 'include deleted histories' option.</small>|
 |![](/src/tutorials/histories/undelete.thishasbeendeleted.png)|
-|<small>The page should reload and now both non-deleted and deleted histories will be displayed. Deleted histories will have a small message under their titles stating 'This history has been deleted'.</small>|
+|<small>The page should reload and now both non-deleted and deleted histories will be displayed. Deleted histories will have a small message under their title stating 'This history has been deleted'.</small>|
 |![](/src/tutorials/histories/undelete.undelete-button.png)|
 |<small>Now click the small button with the down arrow just above the deleted history you want to undelete. Then click the 'Undelete' option there. Your history should now be undeleted.</small>|
 |![](/src/tutorials/histories/undelete.switchto.png)|
@@ -371,7 +371,5 @@ history method is presented here:
 
 When you have multiple datasets that will be sent through the same analysis it can often be useful to place those
 datasets in a dataset collection. When collections are used as input when running a tool, you're telling Galaxy to run
-that tool on each  dataset in the collection using the same settings. This happens automatically and there's no need to
-fill in the tool form more than once. The following [tutorial](/tutorials/collections/) describes collections in depth. 
-
-
+that tool on each dataset in the collection using the same settings. This happens automatically and there's no need to
+fill in the tool form more than once. The following [tutorial](/tutorials/collections/) describes collections in depth.
