@@ -65,7 +65,7 @@ All histories begin with the name 'Unnamed history'. Non-anonymous users can ren
 |          |
 |----------|
 |![](/src/tutorials/histories/renaming.png)|
-|<small>**Fegure 3. Renaming a history** requires clicking on its name and entering a new one.</small>|
+|<small>**Figure 3. Renaming a history** requires clicking on its name and entering a new one.</small>|
 
 ### Tagging a history
 
@@ -99,7 +99,7 @@ To annotate a history:
 
 1. Click the annotation button at the top of the history panel. A larger text section will appear displaying any
   existing annotation (or, if there's none, italic text saying you can click on the control to create an annotation).
-2. Click the annotation section. The a larger input field will appear.
+2. Click the annotation section. The larger input field will appear.
 3. Add any annotations you desire. 'Return' will create a line break and white space is preserved. (Tabs cannot be
   entered since the 'Tab' button is used to switch between controls on the page - tabs can be pasted in however).
 4. To save the annotation, click the 'Done' button.
@@ -246,11 +246,11 @@ find out the policy used.
 
 ## Managing multiple datasets
 
-### Muti-selection
+### Multi-selection
 
 You can also hide, delete, and purge multiple datasets at once by **multi-selecting datasets**:
 
-1. Click the multiselect button containing the checkbox to the right of the history size.
+1. Click the multi-select button containing the checkbox to the right of the history size.
 1. Checkboxes will appear inside each dataset in the history.
 1. Scroll and click the checkboxes next to the datasets you want to manage. You can also 'shift+click' to select a
   range of datasets.
@@ -277,7 +277,7 @@ any text that a dataset you'd be looking for would contain, including:
 
 For example:
 
-* To find all vcf files you might enter: `vcf` alone.
+* To find all VCF files you might enter: `vcf` alone.
 * To find all files whose names contain data 1, you can enter: `data 1`
 * To search for a VCF file named 'VCF filter on data 1' and tagged with 'experiment 1', you could enter:
   `vcf filter on data 1 experiment 1`
@@ -294,7 +294,7 @@ For example:
 ### Clearing a search
 
 You can clear a search and show all visible datasets by clicking the round 'X' button in the right of the search bar
-or - while entering text in the search bar - hitting the escape key ('esc').
+or - while entering text in the search bar - hitting the escape key ('ESC').
 
 ### Advanced searching
 
@@ -312,7 +312,7 @@ followed by '=' then the value. When using these only the property named is sear
 <div class="alert alert-warning" role="alert">
 **Note** that keyword searches can be combined: `database=mm10 annotation=successful`<br>
 You can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.<br>
- All keyword searches are AND'd - all searches should be true in order for the dataset to be shown.
+ All keyword searches are AND'd - all searches must be true in order for the dataset to be shown.
 
 </div>  
 
