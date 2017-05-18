@@ -3,13 +3,13 @@ title: Histories
 ---
 
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps
-generates a dataset. These datasets (and the output datasets from later analysis on them) are stored by Galaxy in
+generates a dataset. These datasets (and the output datasets from subsequent analysis on them) are stored by Galaxy in
 **Histories**.
 
 ## The Current History
 
 All users have one 'current' history, which can be thought of as **a workspace** or **a current working directory** in
-bioinformatics terms. You current history displayed in the right hand side of the main 'Analyze Data' Galaxy page in
+bioinformatics terms. You current history is displayed in the right hand side of the main 'Analyze Data' Galaxy interface in
 what is called the history panel.
 
 |         |
@@ -18,8 +18,8 @@ what is called the history panel.
 |<small>**Figure 1. Galaxy history** is simply the right panel of the interface</small>|
 
 
-The history panel displays output datasets in the order in which they were created with the oldest/first shown on the
-bottom. As new analyses are done and new output datasets are generated, the newest datasets are added to the top of the
+The history panel displays output datasets in the order in which they were created with the oldest/first shown at the
+bottom. As new analyses are done and new output datasets are generated, the newest datasets are added to the top of
 the history panel. In this way, the history panel displays the history of your **analysis over time**.
 
 **Users that have registered an account and logged in can have many histories** and the history panel allows switching
@@ -30,22 +30,26 @@ only allowed one history. On our main, public Galaxy server, users are encourage
 benefit that they can work on many histories and switch between them.
 
 <div class="alert alert-warning" role="alert">
-The histories of anonymous users are only associated through your browser's session. **If you close the browser or clear you sessions - that history will be lost!** We can not recover it for you if it is.
+The histories of anonymous users are only associated through your browser's
+session. **If you close the browser or clear you sessions - that history will
+be lost!** and we cannot recover it for you.
 </div>
 
 ### Current history controls
 
-Above the current history panel are three buttons: the refresh, history options, and 'view all histories' button:
+Above the current history panel are three buttons: refresh, history options, and 'view all histories'
 
 |          |
 |----------|
 |![](/src/tutorials/histories/current-history-buttons.png)|
 |<small>**Figure 2. History controls.**</small>|
 
-History controls perform the following functions:
+These history controls perform the following functions:
 
-- The refresh button will entirely reload the history being viewed. This can be helpful if you believe the history interface needs to be updated or isn't updating properly.
-- The history options button opens the history options menu which allows you to perform history-related tasks.
+- The refresh button will force a reload of the history being viewed. This can
+  be helpful if you believe the history interface needs to be updated or is
+  otherwise not working properly.
+- The history options button opens a secondary menu allowing you to perform other history-related tasks.
 - The 'view all histories' button sends you to the interface for managing multiple histories.
 
 ## Manipulating histories
@@ -58,14 +62,14 @@ annotated.
 All histories begin with the name 'Unnamed history'. Non-anonymous users can rename the history as they see fit:
 
 1. Click the existing name. A text input field will appear with the current name.
-2. Entered a new name or edit the existing the way you'd like.
-3. Press 'Enter' to save the new name. The input field will disappear and the new name display.
+2. Enter a new name or edit the existing name in the way you'd like.
+3. Press 'Enter' to save the new name. The input field will disappear and the new name will display immediately.
 4. To cancel renaming, press 'ESC' or click outside the input field.
 
 |          |
 |----------|
 |![](/src/tutorials/histories/renaming.png)|
-|<small>**Figure 3. Renaming a history** requires clicking on its name and entering a new one.</small>|
+|<small>**Figure 3. Renaming a history** by clicking on its name and entering a new one.</small>|
 
 ### Tagging a history
 
@@ -91,7 +95,7 @@ To tag a history:
 ### Annotating a history
 
 Sometimes tags and names are not enough to describe the work done within a history. Galaxy allows you to create history
-annotations: longer text entries that allow more formatting options. Newlines and whitespace are preserved. Later, if
+annotations: longer text entries that allow for more formatting options. Newlines and whitespace are preserved. Later, if
 you publish or share the history, the annotation will be displayed automatically - allowing you to share additional
 notes about the analysis.
 
@@ -111,9 +115,9 @@ To annotate a history:
 
 ### History size
 
-As datasets are added to a history, Galaxy will store them in files on its file system. The total size of these files
+As datasets are added to a history, Galaxy will store them as files on its file system. The total size of these files
 for all the datasets in a history is displayed underneath the history name. For example, if a history has 200 megabytes
-of dataset data on Galaxy's filesystem, '200 MB' will be displayed underneath the name.
+of data on Galaxy's filesystem, '200 MB' will be displayed underneath the name.
 
 If your Galaxy server uses quotas, the total combined size of all your histories will be compared to your quota and
 if you're using more than the quota allows Galaxy will prevent you from running any new jobs until you've deleted some
@@ -129,7 +133,7 @@ There are several different 'states' a dataset can be in:
 
 1. When you first upload a file or run a tool, the dataset will be in the **queued** state. This indicates that the
   job that will create this dataset has not yet started and is in line to begin.
-1. When the job starts the dataset will be in the **running** state. The job that created these datasets is now
+1. When the job starts the dataset will be in the **running** state. The job that will create these datasets is now
   running on Galaxy's cluster.
 1. When the job has completed successfully, the datasets will be in the **ok** state.
 1. If there's been an error while running the tool, the datasets will be in the **error** state.
@@ -143,7 +147,7 @@ There are several different 'states' a dataset can be in:
 
 ### Summary view
 
-Datasets in the panel are initially shown in a 'summary' view, that only displays:
+Datasets in the panel are initially shown in a 'summary' view that only displays:
 
 1. a **number** indicating in what order (or what step) this dataset was created
 1. the dataset **name**
@@ -191,14 +195,14 @@ There are two types of tags that can be used as an additional level of labeling 
 |      |
 |------|
 |![](/src/tutorials/histories/standard_tags.png)|
-|<small>**Figure 9. Standard tags** provide an additional level of annotation for individual datasets. **A.** Tags are added by clicking on the tags icon <i class="fa fa-tags" aria-hidden="true"></i> and entering a name. **B.** Here tag is used to search the history. Entering `microbiome` in the search box and pressing 'Enter' shows the only dataset containing that tag.</small>|
+|<small>**Figure 9. Standard tags** provide an additional level of annotation for individual datasets. **A.** Tags are added by clicking on the tags icon <i class="fa fa-tags" aria-hidden="true"></i> and entering a name. **B.** Here the tag is used to search the history. Entering `microbiome` in the search box and pressing 'Enter' shows the only dataset containing that tag.</small>|
 
 **Name tags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
 
 |      |
 |------|
 |![](/src/tutorials/histories/name_tags.png)|
-|<small>**Figure 10. Name tags** allow to track datasets through the analysis. **A.** Name tags are added similarly to standard tags but with one important difference: they are pre-pended with a hash `#` symbol. **B.** Here you see a history where four starting datasets were given name tags. As the analysis progresses these tags stay with all datasets that are derived from the initial ones. For example, you can easily see which of the `bwa` and `MarkDuplicates` outputs are derived from, say, **mother** data.</small>|
+|<small>**Figure 10. Name tags** allow you to more easily track datasets through the analysis. **A.** Name tags are added similarly to standard tags but with one important difference: they are prepended with a hash `#` symbol. **B.** Here you see a history where four starting datasets were given name tags. As the analysis progresses these tags stay with all datasets that are derived from the initial ones. For example, you can easily see which of the `bwa` and `MarkDuplicates` outputs are derived from, say, **mother** data.</small>|
 
 The following video highlights **name tags** in action:
 
@@ -209,10 +213,10 @@ The following video highlights **name tags** in action:
 
 Some procedures in Galaxy such as workflows will often **hide** history datasets in order to simplify the history
 and hide intermediate steps of an automated analysis. These hidden datasets won't normally appear in the history panel
-but their still mentioned in the history subtitle (the smaller, grey text that appears below the history name). If you
-history has hidden datasets, the number will appear there (e.g. '3 hidden') as a clickable link. If you click this link,
-the hidden datasets are shown. Each hidden dataset has a link in the top of the summary view that allows you to unhide
-it. You can click that link again (which will now be 'hide hidden') to make them not shown again.
+but they are still mentioned in the history subtitle (the smaller, grey text that appears below the history name). If
+your history has hidden datasets, the number will appear there (e.g. '3 hidden') as a clickable link. If you click this
+link, the hidden datasets are shown. Each hidden dataset has a link in the top of the summary view that allows you to
+unhide it. You can click that link again (which will now be 'hide hidden') to make them not shown again.
 
 |          |
 |----------|
@@ -231,7 +235,7 @@ make them not shown again.
 |          |
 |----------|
 |![](/src/tutorials/histories/delete.png)|
-|<small>**Figure 12. Deleting and undeleting datasets**. Left side shows a history with one deleted dataset. We know this because a link "1 deleted" appears under the history's name. Clicking this link will reveal the deleted dataset as shown on the right side of the figure. From here it can be undeleted or deleted permanently.</small>|
+|<small>**Figure 12. Deleting and undeleting datasets**. The left side shows a history with one deleted dataset. We know this because a link "1 deleted" appears under the history's name. Clicking this link will reveal the deleted dataset as shown on the right side of the figure. From here it can be undeleted or deleted permanently.</small>|
 
 ### Purging datasets and removing them permanently from Galaxy
 
