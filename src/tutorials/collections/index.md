@@ -62,12 +62,12 @@ In this example we have data from three patients. Each is sequenced in paired-en
 
 | Name         | Description                   |
 |--------------|-------------------------------|
-| `patient1-f` | Forward dataset for parient 1 |
-| `patient1-r` | Reverse dataset for parient 1 |
-| `patient2-f` | Forward dataset for parient 2 |
-| `patient2-r` | Reverse dataset for parient 2 |
-| `patient3-f` | Forward dataset for parient 3 |
-| `patient3-r` | Reverse dataset for parient 3 |
+| `patient1-f` | Forward dataset for patient 1 |
+| `patient1-r` | Reverse dataset for patient 1 |
+| `patient2-f` | Forward dataset for patient 2 |
+| `patient2-r` | Reverse dataset for patient 2 |
+| `patient3-f` | Forward dataset for patient 3 |
+| `patient3-r` | Reverse dataset for patient 3 |
 
 This is important because the fact that `-f` and `-r` differentiate forward and reverse datasets will be used by collection creator to organize them into pairs (panel **B** of the figure below). Obviously, there may be other ways forward and reverse read datasets are identified such as `-1` and `-2` or `forward` and `reverse` or any other way. These can be used in exactly the same way we use `-f` and `-r` here.
 
