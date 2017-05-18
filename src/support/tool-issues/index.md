@@ -8,7 +8,6 @@ _Last updated 5-1-17_
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (10) **MACS2 bdgdiff + bdgbroadcall 2.1.1.20160309.0** Tool version updated 4/11/17, bugs count is for prior macs problems with these tools (earlier version the update was intended to fix) *plus* newly reported. Now errors with "macs2 command not found". Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. (N) **MACS2 bdgdiff 2.1.0.20151222.0** Tool version updated 4/11/17, no bugs yet. Does not have "Versions" menu on tool form. This older version errors and users should use newer version (and be notified it exists). Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
-1. (7) **DEXseq Count 1.20.1** Dependencies issues. Primary tool **DEXSeq** may also have the problem, but since the upstream tool is non-functional, it cannot be tested on Main. Impacts Galaxy Main http://usegalaxy.org. Details: http://usegalaxy.org
 1. (5) **Cuffmerge v 2.2.1** Older v 0.0.6 is successful with same inputs. No changes to tool wrapper, but is now failing. Problem with selecting multiple input files? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2989 Might be related to https://github.com/galaxyproject/tools-iuc/issues/988
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org.Details: https://github.com/galaxyproject/tools-devteam/issues/340
 1. (2) **Du Novo: Align families 0.7** Tool updates removed the cluster targetting for Jetstream. Jobs are failing again for walltime. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3057
@@ -42,9 +41,8 @@ _Integration test once installed_
 
 **TOOLS**
 
+1. Passes dev test, backup retest on main in progress **DEXseq Count 1.20.1** Dependencies issues. Primary tool **DEXSeq** may also have the problem, but since the upstream tool is non-functional, it cannot be tested on Main. Impacts Galaxy Main http://usegalaxy.org. Details: http://usegalaxy.org
 1. **Uniprot** Dependency fix on 5/15/17. Impacted Galaxy Main http://usegalaxy.org, locals, cloud (any install). Details: https://github.com/galaxyproject/galaxy/issues/3721
-1. Needs main update (new repo https://github.com/galaxyproject/tools-iuc/pull/1005) **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
-1. Needs main update (new repo same as above) **Deep Tools multiBamSummary** Doesn't always produce output. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/fidelram/deepTools/issues/436
 1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. **Upload** Is assigning "pileup" as autodetected datatype in a greedy way for tabular format data. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
@@ -88,6 +86,8 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **Deep Tools correctGCBias** Unrecognized arg --filterOut produces an error. Impacts Galaxy Main http://usegalaxy.org but is core tool issue. Details: https://github.com/fidelram/deepTools/issues/434
+1. **Deep Tools multiBamSummary** Doesn't always produce output. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/fidelram/deepTools/issues/436
 1. **Tophat** Tool is being deprecated and no longer runs on Jetstream (where original metadata problem was from). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2838
 1. **MAF tools 1.0.1** Fix made for legacy env updates. **Extract Pairwise MAF blocks 1.0.1** https://github.com/galaxyproject/galaxy/issues/3934. **GeneBed_Maf_Fasta2**. (https://github.com/galaxyproject/galaxy/pull/3931). Tool **Extract Pairwise MAF blocks** may also need fix. Impacts Galaxy Main http://usegalaxy.org, locals, cloud.
 1. **Trimmomatic** Update to version **0.36.3** corrected tool form option "Illumina Clip" failures. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3691
