@@ -62,12 +62,12 @@ In this example we have data from three patients. Each is sequenced in paired-en
 
 | Name         | Description                   |
 |--------------|-------------------------------|
-| `patient1-f` | Forward dataset for parient 1 |
-| `patient1-r` | Reverse dataset for parient 1 |
-| `patient2-f` | Forward dataset for parient 2 |
-| `patient2-r` | Reverse dataset for parient 2 |
-| `patient3-f` | Forward dataset for parient 3 |
-| `patient3-r` | Reverse dataset for parient 3 |
+| `patient1-f` | Forward dataset for patient 1 |
+| `patient1-r` | Reverse dataset for patient 1 |
+| `patient2-f` | Forward dataset for patient 2 |
+| `patient2-r` | Reverse dataset for patient 2 |
+| `patient3-f` | Forward dataset for patient 3 |
+| `patient3-r` | Reverse dataset for patient 3 |
 
 This is important because the fact that `-f` and `-r` differentiate forward and reverse datasets will be used by collection creator to organize them into pairs (panel **B** of the figure below). Obviously, there may be other ways forward and reverse read datasets are identified such as `-1` and `-2` or `forward` and `reverse` or any other way. These can be used in exactly the same way we use `-f` and `-r` here.
 
@@ -117,12 +117,16 @@ To rename a collection click on its name:
 
 ## Tagging collections
 
-Collections can be tagged. In particular special name tags (they are pre-pended with a hash (`#`) symbol) described below can propagate through the analysis ensuring that the relationship between initial datasets and analysis results is maintained. 
+There are two types of tags that can be used as an additional level of labeling for collections: **standard tags** and **hashtags** (also known as **propagating tags**). **Standard tags** add another level of description to collections making them easier to find. **Hashtags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
 
 |      |
 |------|
 |![](/src/tutorials/collections/tagging_collection.png)|
 |<small>**Figure 7. Tagging a collection**. **A**. Click on collection. **B**. Once collection expands, type tag name in the tagging box. **If you want the tag to propagate through the analysis add the hash (`#`) symbol in front of the tag as shown here.** **C**. Hit Enter and go back to history by clicking the "Back to..." link. **D**. The collection is now tagged.</small>|
+
+The following video shows the power of hashtags:
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/216895965?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ## Using dataset collection tools
 
