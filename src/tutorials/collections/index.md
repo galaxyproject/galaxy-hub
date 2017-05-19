@@ -117,14 +117,14 @@ To rename a collection click on its name:
 
 ## Tagging collections
 
-There are two types of tags that can be used as an additional level of labeling for collections: **standard tags** and **name tags** (also known as **propagating tags**). **Standard tags** add another level of description to collections making them easier to find. **Name tags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
+There are two types of tags that can be used as an additional level of labeling for collections: **standard tags** and **hashtags** (also known as **propagating tags**). **Standard tags** add another level of description to collections making them easier to find. **Hashtags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
 
 |      |
 |------|
 |![](/src/tutorials/collections/tagging_collection.png)|
 |<small>**Figure 7. Tagging a collection**. **A**. Click on collection. **B**. Once collection expands, type tag name in the tagging box. **If you want the tag to propagate through the analysis add the hash (`#`) symbol in front of the tag as shown here.** **C**. Hit Enter and go back to history by clicking the "Back to..." link. **D**. The collection is now tagged.</small>|
 
-The following video shows the power of propagating tags:
+The following video shows the power of hashtags:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/216895965?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
