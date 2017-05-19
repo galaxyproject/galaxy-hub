@@ -190,21 +190,21 @@ is waiting to run')
 
 ### Tagging datasets
 
-There are two types of tags that can be used as an additional level of labeling for datasets: **standard tags** and **name tags** (also known as **propagating tags**). The standard tags work similarly to history tags described above (Fig. 4) - they add another level of description to datasets making them easier to find:
+There are two types of tags that can be used as an additional level of labeling for datasets: **standard tags** and **hashtags** (also known as **propagating tags**). The standard tags work similarly to history tags described above (Fig. 4) - they add another level of description to datasets making them easier to find:
 
 |      |
 |------|
 |![](/src/tutorials/histories/standard_tags.png)|
 |<small>**Figure 9. Standard tags** provide an additional level of annotation for individual datasets. **A.** Tags are added by clicking on the tags icon <i class="fa fa-tags" aria-hidden="true"></i> and entering a name. **B.** Here the tag is used to search the history. Entering `microbiome` in the search box and pressing 'Enter' shows the only dataset containing that tag.</small>|
 
-**Name tags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
+**Hashtags** are much more powerful as they are **displayed** in the history panel and **propagate** through the analysis:
 
 |      |
 |------|
 |![](/src/tutorials/histories/name_tags.png)|
-|<small>**Figure 10. Name tags** allow you to more easily track datasets through the analysis. **A.** Name tags are added similarly to standard tags but with one important difference: they are prepended with a hash `#` symbol. **B.** Here you see a history where four starting datasets were given name tags. As the analysis progresses these tags stay with all datasets that are derived from the initial ones. For example, you can easily see which of the `bwa` and `MarkDuplicates` outputs are derived from, say, **mother** data.</small>|
+|<small>**Figure 10. Hashtags** allow you to more easily track datasets through the analysis. **A.** Hashtags are added similarly to standard tags but with one important difference: they are prepended with a hash `#` symbol. **B.** Here you see a history where four starting datasets were given name tags. As the analysis progresses hashtags stay with all datasets that are derived from the initial ones. For example, you can easily see which of the `bwa` and `MarkDuplicates` outputs are derived from, say, **mother** data.</small>|
 
-The following video highlights **name tags** in action:
+The following video highlights **hashtags** in action:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/216884518?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
