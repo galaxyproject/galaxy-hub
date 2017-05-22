@@ -1,6 +1,9 @@
 ---
+autotoc: true
 title: Galaxy 101: What is Galaxy?
 ---
+
+Before begging a practical exercise let us introduce several fundamental concepts about Galaxy.
 
 ## What is Galaxy Project?
 
@@ -31,30 +34,32 @@ In this tutorial we will introduce you to bare basics of Galaxy:
 - Getting data from external databases such as UCSC
 - Performing simple data manipulation
 - Understanding Galaxy's History system
-- Creating and running a workflow
+- Creating and running a workflow (Part 2)
 
 ### The research question
 
-Let's use Galaxy to answer the following question:
+In this example we will use Galaxy to answer the following question:
 
 <div class="well well-sm">
-Of all human coding exons, which has the highest number of single nucleotide polymorphisms (SNPs)?"
+"Of all human coding exons, which has the highest number of single nucleotide polymorphisms (SNPs)?"
 </div>
 
 ## Before you begin: Organizing your windows and setting up Galaxy account
 
+To make this demonstration smooth we would recommend setting up your workspace as described below:
+
 ### Getting your display sorted out
 
 <div class="alert alert-warning" role="alert">
-**Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible (and likely).
+**Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
 </div>
 
-To get the most of this tutorial open two browser windows. One you already have (it is this page). To open the other, **right** click [this link](http://usegalaxy.org) and choose "Open in a New Window" (or something similar depending on your operating system and browser):
+To get the most of this tutorial open two browser windows. The first is the one you already have (this page). To open the other, **right** click [this link](http://usegalaxy.org) and choose "Open in a New Window" (or something similar depending on your operating system and browser):
 
 |        |
 |--------|
 |![open in a new window](/src/tutorials/g101/newWindow.png)|
-|<small>**Figure 2. Open a new window** by right licking [this link](http://usegalaxy.org)</small>|
+|<small>**Figure 2. Open a new window** by right clicking [this link](http://usegalaxy.org).</small>|
 
 Then organize your windows as something like this (depending on the size of your monitor you may or may not be able to organize things this way, but you get the idea):
 
@@ -75,26 +80,26 @@ Then enter your information and you're in!
 
 ## Getting data
 
-Our research problem calls for using existing annotation of human genome. This is because to answer our question we need to compare already existing annotations of exons and SNPs against each other. One of the most used repositories of such data if the [Genome Informatics group](https://genome.ucsc.edu/) at the University of California at Santa Cruz. 
+Our research problem calls for using existing annotation of human genome (we will exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz. 
 
 ### Getting coding exons
 
-First thing we will do is to obtain data from UCSC by clicking **Get Data &#8594; UCSC Main**:
+First thing we will do is to obtain exon coordinate data from UCSC by clicking **Get Data &#8594; UCSC Main**:
 
 |        |
 |--------|
 |![get data from UCSC](/src/tutorials/g101/getDataUCSC.png)|
-|<small>**Figure 5**. Expand "Get Data" category and click on "UCSC Main"</small>|
+|<small>**Figure 5**. Expand "Get Data" category and click on "UCSC Main".</small>|
 
 You will see UCSC Table Browser interface appearing in your browser window:
 
 |        |
 |--------|
 |![UCSC genes](/src/tutorials/g101/ucscGenes.png)|
-|<small>**Figure 6**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set at shown here.</small>|
+|<small>**Figure 6**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set as shown here.</small>|
 
 <div class="alert alert-info" role="alert">
-Here we are restricting our analysis to chromosome 22 only to make it quicker since this is the smallest human autosome.
+Here we are restricting our analysis to chromosome 22 only to make it quicker since this is the smallest human autosome. You are welcome to do it genomewide, but it will take a bit longer.
 </div>
 
 Make sure that your settings are exactly the same as shown Fig. 6 (in particular, **position** should be set to "chr22", **output format** should be set to "BED - browser extensible data", and "Galaxy" should be checked within the **Send output to** option). Click **get output** and you will see the next screen:
@@ -113,13 +118,11 @@ Make sure **Create one BED record per:** is set to "Coding Exons" and click **Se
 
 ### Getting SNPs
 
-Now is the time to obtain SNP data (SNPs are [*single nucleotide polymorphisms*](https://ghr.nlm.nih.gov/primer/genomicresearch/snp)). This is done almost exactly the same way. First thing we will do is to again click on **Get Data &#8594; UCSC Main**:
-
-but now we need to make a different set of choices within the UCSC Table Browser interface:
+Now is the time to obtain SNP data (SNPs are [*single nucleotide polymorphisms*](https://ghr.nlm.nih.gov/primer/genomicresearch/snp)). This is done almost exactly the same way except now we will need to make a different set of choices within the UCSC Table Browser interface. First thing we will do is to again click on **Get Data &#8594; UCSC Main**:
 
 |        |
 |--------|
-|!![UCSC SNPs](/src/tutorials/g101/ucscSNPs.png)|
+|![UCSC SNPs](/src/tutorials/g101/ucscSNPs.png)|
 |<small>**Figure 9**. The UCSC Table Browser interface. Verify that parameters highlighted in red are set at shown here.</small>|
 
 click "get output" and you should see this:
@@ -138,11 +141,11 @@ where you do not need to change anything (make sure that **Whole Gene** is selec
 
 ### Tidying up
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-success" role="alert">
 History keeps the entire record of your analysis. To find more about histories take a look at this [tutorial](/tutorials/histories).
 </div>
 
-Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to each item. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
+Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
 
 |        |
 |--------|
@@ -161,7 +164,7 @@ Let's remind ourselves that our objective was to find which exon contains the mo
 |<small>**Figure 13**. To join exons with SNPs select "Exons" as the first dataset and "SNPs" as the second.</small>|
 
 
-make sure your **Exons** are first and **SNPs** are second and click **Execute**. Note that you can drag and drop datasets:
+make sure your **Exons** are first and **SNPs** are second and click **Execute**. Note that you can drag and drop datasets from History into tool interface input selectors:
 
 |        |
 |--------|
@@ -173,7 +176,7 @@ You will get the third history item:
 |        |
 |--------|
 |![Third history item](/src/tutorials/g101/thirdHistoryItem.png)|
-|<small>**Figure 14**. The third history item is the result of joint the first (Exons) with the second (SNPs). Each subsequent analysis operation will add additional items to the growing history.</small>|
+|<small>**Figure 14**. The third history item is the result of joining of the first (Exons) with the second (SNPs). Each subsequent analysis operation will add additional items to the growing history.</small>|
 
 ### Counting the number of SNPs per exon
 
@@ -202,14 +205,14 @@ Look at the rows. They all correspond to the same exon (id = `uc062bej.1_cds_9_0
 |        |
 |--------|
 |![Group](/src/tutorials/g101/group1.png)|
-|<small>**Figure 15**. Grouping tool interface. Set parameters as highlighted with red outlines. To reveal operation interface at the bottom click on **Insert operation** button.</small>|
+|<small>**Figure 15**. Grouping tool interface. Set parameters as highlighted with red outlines. To reveal operation interface at the bottom click on **Insert Operation** button.</small>|
 
 click **Execute**. Your history will look like this:
 
 |        |
 |--------|
 |![Fourth history item](/src/tutorials/g101/fourthHistoryItem.png)|
-|<small>**Figure 16. Results of grouping operation appear as the fourth item in the history.</small>|
+|<small>**Figure 16. Results of grouping** operation appear as the fourth item in the history.</small>|
 
 if you look at the above image you will see that the result of grouping (dataset #4) contains two columns. This first contains the exon name while the second shows the number of times this name has been repeated in dataset #3:
 
@@ -267,15 +270,19 @@ Thus the highest number of SNPs per exon on chromosome 22 is 40!
 
 Now we know that in this dataset the five top exons contain between 25 and 40 SNPs. But what else can we learn about these? To know more we need to get back the positional information (coordinates) of these exons. This information was lost at the grouping step and now all we have is just two columns with IDs and counts. To get coordinates back we will match the names of exons in dataset #6 (column 1) against names of the exons in the original dataset #1 (column 4). This can be done with **Join, Subtract and Group &#8594; Join** tool (note the settings of the tool in the middle pane):
 
+<div class="alert alert-danger" role="alert">
+Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in **Operate on Genomics Intervals &#8594; Join**. We used it before to join exons and SNPs (see Fig. 13). Here we use a **different kind** of join. It joins lines from two datasets is they share a common field. It can be found in **Join, Subtract and Group &#8594; Join**.
+</div>
+
 |        |
 |--------|
 |![Compare](/src/tutorials/g101/recover_coordinates.png)|
-|<small>**Figure 20**. Joining the first history dataset (Exons) with dataset six (sorting results) will retrieve those records from dataset #1 which share IDs with dataset #6.</small>|
+|<small>**Figure 20**. Joining the first history dataset (Exons) with dataset #6 (sorting results) will retrieve those records from dataset #1 which share IDs with dataset #6.</small>|
 
 this adds the seventh dataset to the history in which lines from datasets #1 and #6 are joined line-by-line:
 
 ```
-chr22 15528158 15529139 uc011agd.3_cds_0_0_chr22_15528159_f 0 +	uc011agd.3_cds_0_0_chr22_15528159_f	25
+chr22 15528158 15529139 uc011agd.3_cds_0_0_chr22_15528159_f 0 + uc011agd.3_cds_0_0_chr22_15528159_f 25
 chr22 15690077 15690709 uc010gqp.3_cds_0_0_chr22_15690078_f 0 + uc010gqp.3_cds_0_0_chr22_15690078_f 40
 chr22 15690245 15690709 uc062bek.1_cds_0_0_chr22_15690246_f 0 + uc062bek.1_cds_0_0_chr22_15690246_f 29
 chr22 22376182 22376505 uc062cbs.1_cds_1_0_chr22_22376183_f 0 + uc062cbs.1_cds_1_0_chr22_22376183_f 25
@@ -288,7 +295,7 @@ The best way to learn about these exons is to look at their genomic surrounding.
 
 However, before we begin we need to prepare data. The problem is that browsers expect data in certain format. In particular the UCSC Genome Browser "plays well" with datasets in [BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1) format. To convert the data shown above into BED format we need:
 
- 1. move replace data in column 5 with data in last column
+ 1. replace data in column 5 with data from the last column
  2. remove duplicate IDs (retain only column 4 and remove column 7)
 
 The first step will set *score* columns of BED format to the number of SNPs and the second will reduce out data to six columns required by BED specification (BED6). Both of these steps can be performed with a single tools **Text manipulation &#8594; Cut** tool by cutting out columns 1, 2, 3, 4, 8, and 6:
@@ -345,148 +352,19 @@ Filtering shows only one "User track" item on the browser:
 |![](/src/tutorials/g101/browser4.png)|
 |<small>**Figure 26**. The exon with the highest number of SNPs. Zooming in (lower part) shows that this is the first exons of [*POTEH*](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene&cmd=Retrieve&dopt=Graphics&list_uids=23784) gene.</small>|
 
------
+## Recap
 
-## Creating and editing a workflow
+In this tutorial we started with coordinates of exons and SNPs, found overlap between two datasets and narrowed it down to 5 exons containing the highest number of SNPs: 
 
-### Extracting a workflow
+|        |
+|--------|
+|![](/src/tutorials/g101/g101_outline.png)|
+|<small>**Figure 27**. Analysis outline. This looks like a workflow, doesn't it?</small>|
 
-Lets take a look at the history again:
+You can see the an outline shown in Fig. 27 looks like a workflow. This is not coincidental - let's try to make a workflow from an analysis we just performed. To see how this works go to the second part of [this tutorial](/tutorials/g101-2).
 
-![Collapsed history](/src/tutorials/g101/historyCollapsed.png)
 
-You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon and selecting **Extract Workflow** option:
+## If things don't work...
+...you need to complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
 
-![Extract workflow](/src/tutorials/g101/extractWorkflow.png)
 
-The center pane will change as shown below and you will be able to choose which steps to include/exclude and how to name the newly created workflow. In this case I named it `galaxy101-2015`:
-
-![Create workflow](/src/tutorials/g101/createWorkflow.png)
-
-once you click **Create Workflow** you will get the following message: "Workflow 'galaxy101-2015' created from current history. You can **edit** or **run** the workflow". 
-
-### Opening workflow editor
-
-Let's click **edit** (if you click something else and the message in the center page disappears, you can always access all your workflows including the one you just created using the **Workflow** link on top of Galaxy interface). This will open Galaxy's workflow editor (to get this view I clicked the arrow at the lower left corner of the screen, which collapsed the tool pane of the Galaxy interface). It will allow you to examine and change settings of this workflow as shown below. Note that the box corresponding to the **Select First** tool is selected (highlighted with the blueish border) and you can see parameters of this tool on the right pane. This is how you can view and change parameters of all tools involved in the workflow:
-
-![Workflow editor](/src/tutorials/g101/wfEditor.png)
-
-### Hiding intermediate steps
-
-Among multiple things you can do with workflows I will just mention one. When workflow is executed one is usually interested in the final product and not in the intermediate steps. These steps can be hidden by mousing over a small asterisk in the lower right corner of every tool:
-
-![Hide step](/src/tutorials/g101/hideStep.png)
-
-Yet there is a catch. In a newly created workflow all steps are hidden by default and the default behavior of Galaxy is that if all steps of a given workflow are hidden, then nothing gets hidden in the history. This may be counterintuitive, but this is done to decrease the amount of clicking if you do want to hide some steps. So in our case if we want to hide all intermediate steps with the exception of the last one we will click that asterisk in last step of the workflow:
-
-![Last step](/src/tutorials/g101/lastStep.png)
-
-Once you do this the representation of the workflow in the bottom right corner of the editor will change with the last step becoming orange. This means that this is the only step, which will generate a dataset visible in the history:
-
-![Workflow Overview](/src/tutorials/g101/workflowOverview.png)
-
-### Renaming inputs
-
-Right now both inputs to the workflow look exactly the same. This is a problem as will be very confusing which input should be **Exons** and which should be **SNPs**:
-
-![Naming inputs 1](/src/tutorials/g101/namingInputs1.png)
-
-One the image above you will see that the top input dataset (the one with the blue border) connects to the **Join tool** first, so it must correspond to the exon data. If you click on this box (in the image above it is already clicked on because it is outlined with the blue border) you will be able to rename the dataset in the right pane:
-
-![Rename Exons](/src/tutorials/g101/renameExons.png)
-
-Then click on the second input dataset and rename it "Features" (this would make this workflow a bit more generic, which will be useful later in this tutorial):
-
-![Rename features](/src/tutorials/g101/renameFeatures.png)
-
-### Renaming outputs
-
-Finally let's rename the workflow's output. For this:
-
-* click on the last dataset (**Compare two Queries**)
-* scroll down the rightmost pane and click on ![add action](/src/tutorials/g101/addAction.png)
-* Type `Top Exons` in the **Rename dataset** text box:
-
-![Top exons](/src/tutorials/g101/topExons.png)
-
-### Setting parameters "at runtime"
-
-What we are trying to do here is do design a generic workflow. This means that time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. To do this: 
-
-First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
-
-![runtime Tool Selection](/src/tutorials/g101/runtimeTool.png)
-
-Next, select parameter you would like to set at runtime. To do this just hover over the ![paramSymbol](/src/tutorials/g101/paramSymbol.png) icon so it looks like this:
-
-![runtime Param Selection](/src/tutorials/g101/runtimeParam.png)
-
-and click! Your parameter will now be set at runtime.
-
-### Save! It is important...
-
-Now let's save the changes we've made by clicking cog and selecting **Save**:
-
-![wfSave](/src/tutorials/g101/wfSave.png)
-
-## Run workflow on whole genome data
-
-Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome. 
-
-### Create a new history
-
-First go back into analysis view by clicking **Analyze Data** on top of the Galaxy's interface. Now let's create a new history by clicking cog and selecting **Create New**:
-
-![Create new history](/src/tutorials/g101/createNewHistory.png)
-
-### Get Exons
-
-Now let's get coding exons for the entire genome by going to **Get Data &#8594; UCSC Main** and setting up parameters as shown below. Note that this time `region` radio button is set to **genome**:
-
-![Get all genes](/src/tutorials/g101/getAllGenes.png)
-
-Click **get output** and you will get the next page (if it looks different from the image below, go back and make sure `output format` is set to **BED - browser extensible format**):
-
-![Get exons](/src/tutorials/g101/ucscGenes2.png)
-
-Choose **Coding exons** and click **Send query to Galaxy**.
-
-## Get Repeats
-
-Go again to **Get Data &#8594; UCSC Main** and make sure the following settings are selected (in particular `group` = **Repeats** and `track` = **RepeatMasker**):
-
-![All repeats](/src/tutorials/g101/allRepeats.png)
-
-Click **get output** and you will get the next page (if it looks different from the image below, go back and make sure `output format` is set to **BED - browser extensible format**):
-
-![All repeats 2](/src/tutorials/g101/allRepeats2.png)
-
-Select **Whole gene** and click **Send Query to Galaxy**.
-
-### Start the Workflow
-
-At this point you will have two items in your history - one with exons and one with repeats. These datasets are large (especially repeats) and it will take some time for them to become green. Luckily you do not have to wait as Galaxy will automatically start jobs once uploads have ended. So nothing stops us from starting the workflow we have created. First, click on the **Workflow link** at the top of Galaxy interface, mouse over **galaxy101-2015**, click, and select **Run**. Center pane will change to allow you launching the workflow. Select appropriate datasets for `Repeats` and `Exon` inputs as shown below. Now scroll to **Step 6** and will see that we can set up `Select first` parameter at *Runtime* (meaning Now!). So lets put `20` in there (or anything else you want) and scroll further down to click ![Run workflow](/src/tutorials/g101/runWorkflowButton.png) to see this:
-
-![Launch workflow](/src/tutorials/g101/launchWorkflow.png)
-
-Once workflow has started you will initially be able to see all its steps. Note that you are joining all exons with all repeats, so naturally this will take some time:
-
-![Launched workflow](/src/tutorials/g101/launchedWorkflow.png)
-
-### Get coffee
-
-As we mentioned above this will take some time, so go get coffee. At last you will see this:
-
-![Final view](/src/tutorials/g101/final.png)
-
-We did not fake this:
-
-The two histories and the workflow described in this page are accessible directly from this page below:
-
-* History [**Galaxy 101 (2015)**](https://usegalaxy.org/u/aun1/h/galaxy-101-2015)
-* History [**Exons vs. Repeats**]( https://usegalaxy.org/u/aun1/h/exons-vs-repeats-2015-1)
-* Workflow [**Galaxy 101-2015**](https://usegalaxy.org/u/aun1/w/galaxy101-2015-1)
-
-From there you can import histories and workflows to make them your own. For example, to import **Galaxy 101 (2015)** history simply click [this link](https://usegalaxy.org/u/aun1/h/galaxy-101-2015) and select `Import history` link:
-
-![Final view](/src/tutorials/g101/importHistory.png)
