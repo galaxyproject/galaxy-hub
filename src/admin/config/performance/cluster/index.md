@@ -413,7 +413,7 @@ The directory specified in `new_file_path` in the Galaxy config should be world-
 
 The `outputs_to_working_directory` option in the Galaxy config **must** be set to `True`. This ensures that a tool/job's outputs are written to the temporary working directory, which (when using the real user system) is owned by the real user who submitted the job. If left set to the default (`False`), the tool will attempt to write directly to the directory specified in `file_path` (by default, `galaxy-app/database/files/`), which must be owned by the Galaxy user (and thus will not be writable by the real user).
 
-Once these are set, you must set the `drmaa_external_*` and `xternal_chown_script` settings in the Galaxy config and configure `sudo(8)` to allow them to be run.  A sudo config using the `drmaa_external_*` scripts set in the sample `galaxy.ini` would be:
+Once these are set, you must set the `drmaa_external_*` and `external_chown_script` settings in the Galaxy config and configure `sudo(8)` to allow them to be run.  A sudo config using the `drmaa_external_*` scripts set in the sample `galaxy.ini` would be:
 
 ```
 galaxy  ALL = (root) NOPASSWD: SETENV: /opt/galaxy/scripts/drmaa_external_runner.py
