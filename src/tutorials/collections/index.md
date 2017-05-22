@@ -2,12 +2,12 @@
 title: Processing many samples at once with collections
 ---
 
-<div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that a person reading this tutorial
+<div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that the person reading this tutorial
 <hr>
 	<ul>
 	    <li>has a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101) tutorial)</li>
 		<li>has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>
-		<li>has your browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
+		<li>has their browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
 	</ul>
 </div>
 
