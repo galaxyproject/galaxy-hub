@@ -363,6 +363,200 @@ In this tutorial we started with coordinates of exons and SNPs, found overlap be
 
 You can see the an outline shown in Fig. 27 looks like a workflow. This is not coincidental - let's try to make a workflow from an analysis we just performed. To see how this works go to the second part of [this tutorial](/tutorials/g101-2).
 
+## Creating and editing a workflow
+
+### Extracting a workflow
+
+Lets take a look at the history again:
+
+|        |
+|--------|
+|![Collapsed history](/src/tutorials/g101/historyCollapsed.png)|
+|<small>**Figure 28.** History provides a complete record of the analysis. It can be converted into a workflow.</small>|
+
+You can see that this history contains all steps of our analysis. So by building this history we have actually created a complete record of our analysis with Galaxy preserving all parameter settings applied at every step. Wouldn't it be nice to just convert this history into a workflow that we'll be able to execute again and again? This can be done by clicking on the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Extract Workflow** option:
+
+|        |
+|--------|
+|![Extract workflow](/src/tutorials/g101/extractWorkflow.png)|
+|<small>**Figure 29**. History menu has an option for creating a workflow directly from history.</small>|
+
+The center pane will change as shown below and you will be able to choose which steps to include/exclude and how to name the newly created workflow. In this case I named it `g101`:
+
+|        |
+|--------|
+|![Create workflow](/src/tutorials/g101/createWorkflow.png)|
+|<small>**Figure 30**. Creating workflow from history. Here you can choose which steps should be included into workflow (in this case we include all) and name the workflow.</small>|
+
+once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow". 
+
+### Opening workflow editor
+
+Let's click **edit** (if you click something else and the message in the center page disappears, you can always access all your workflows including the one you just created using the **Workflow** link on top of Galaxy interface). This will open Galaxy's workflow editor. It will allow you to examine and change settings of this workflow as shown below. Note that the box corresponding to the **Cut** tool is selected (highlighted with the blueish border) and you can see parameters of this tool on the right pane. This is how you can view and change parameters of all tools involved in the workflow:
+
+|        |
+|--------|
+|![Workflow editor](/src/tutorials/g101/wfEditor.png)|
+|<small>**Figure 31. Workflow editor** can be used to modify all aspects of the workflow. Here **cut** tool is in focus and in the right pane of the interface you can see its settings. They are exactly as we set them when using this tool before (see Fig. 21).</small>|
+
+The following image shows the workflow in its entirely. You can see that is exactly as was shown in Fig. 27.
+
+|        |
+|--------|
+|![](/src/tutorials/g101/workflow_outline.png)|
+|<small>**Figure 32**. Complete view of the workflow we have just created. You can see that it is exactly the same as in out theoretical outline shown in Fig. 27.</small>|
+
+### Hiding intermediate steps
+
+Among multiple things you can do with workflows I will just mention one. When workflow is executed one is usually interested in the final product and not in the intermediate steps. These steps can be hidden by mousing over a small asterisk in the lower right corner of every tool:
+
+|        |
+|--------|
+|![Hide step](/src/tutorials/g101/hideStep.png)|
+|<small>**Figure 33**. Intermediate steps can be hidden by clicking on the asterisk within workflow elements.</small>|
+
+Yet there is a catch. In a newly created workflow all steps are hidden by default and the default behavior of Galaxy is that if all steps of a given workflow are hidden, then nothing gets hidden in the history. This may be counterintuitive, but this is done to decrease the amount of clicking if you do want to hide some steps. So in our case if we want to hide all intermediate steps with the exception of the last one we will click that asterisk in last step of the workflow:
+
+|        |
+|--------|
+|![Last step](/src/tutorials/g101/lastStep.png)|
+|<small>**Figure 34**. Clicking an asterisk of the last element will make sure that a history element corresponding to this workflow step will be shown in the history minimizing clutter.</small>|
+
+Once you do this the representation of the workflow in the bottom right corner of the editor will change with the last step becoming orange. This means that this is the only step, which will generate a dataset visible in the history:
+
+|        |
+|--------|
+|![Workflow Overview](/src/tutorials/g101/workflowOverview.png)|
+|<small>**Figure 35**. An overview of the workflow in the bottom right corner of the editor shows which steps will produce visible history datasets. They are shown in orange.</small>|
+
+### Renaming inputs
+
+Right now inputs are named after datasets that were in history from which this workflow was created. Let's give them more genetic names, so the workflow can be reused for other types of genome annotation data:
+
+|        |
+|--------|
+|![Naming inputs 1](/src/tutorials/g101/namingInputs1.png)|
+|<small>**Figure 36**. To rename an input click on it and edit its name within the highlighted box.</small>|
+
+Here we will simply rename input called "Exons" into "Feature 1" and the one called "SNPs" into "Feature 2":
+
+|        |
+|--------|
+|![Naming inputs 2](/src/tutorials/g101/namingInputs2.png)|
+|<small>**Figure 37**. Giving inputs genetic names.</small>|
+
+### Renaming outputs
+
+Finally let's rename the workflow's output. For this:
+
+* click on the last dataset (**Cut**)
+* scroll down the rightmost pane and click on ![add action](/src/tutorials/g101/addAction.png)
+* Type `Top Exons` in the **Rename dataset** text box:
+
+|        |
+|--------|
+|![Top exons](/src/tutorials/g101/topExons.png)|
+|<small>**Figure 38**. Renaming workflow output.</small>|
+
+### Setting parameters "at runtime"
+
+What we are trying to do here is do design a generic workflow. This means that time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. Here is how to do this. First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
+
+|        |
+|--------|
+|![runtime Tool Selection](/src/tutorials/g101/runtime_parameter.gif)|
+|<small>**Figure 39**. To make a tool parameter settable at runtime simply click the <i class="fa fa-caret-square-o-down" aria-hidden="true"></i> icon.</small>|
+
+### Save! It is important...
+
+Now let's save the changes we've made by clicking cog <i class="fa fa-cog" aria-hidden="true"></i> and selecting **Save**:
+
+|        |
+|--------|
+|![wfSave](/src/tutorials/g101/wfSave.png)|
+|<small>**Figure 40**. Saving the workflow.</small>|
+
+## Run workflow on whole genome data
+
+Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome. 
+
+### Get back in the **Analysis** more
+
+Curently the Galaxy interface is in the **Workflow** mode. To get back to the **Analysis** simply click "Analyze Data" link in the top of Galaxy interface.
+
+### Copy exon dataset to a new history
+
+Since we already have exons in the history let's simply copy them into a new history. To do this click the cog icon <i class="fa fa-cog" aria-hidden="true"></i> and select "Copy Datasets":
+
+|        |
+|--------|
+|![Copy datasets](/src/tutorials/g101/copyDatasets.png)|
+|<small>**Figure 41**. Copying datasets starts will invoking "Copy Datasets" option within the history menu.</small>|
+
+A new interface will appear in the middle pane. The following animated GIF shows next steps:
+
+|        |
+|--------|
+|![Copy datasets 2](/src/tutorials/g101/copy_datasets.gif)|
+|<small>**Figure 42**. To copy datasets select those you want to copy (just one in this case), give a name to the new history you want this dataset needs to be copied to ("my example 2"), click "Copy History Items". A green message "1 dataset copied to 1 history "my example 2" will appear. The name name of the history in this message will be shown as a click-able link. Click on it and Galaxy will take you to a new history with only one dataset.</small>|
+
+### Get Repeats
+
+Now let's retrieve coordinates of repetitive elements from the UCSC Table Browser. Use **Get Data &#8594; UCSC Main**:
+
+|        |
+|--------|
+|![All repeats](/src/tutorials/g101/allRepeats.png)|
+|<small>**Figure 43**. Selecting repetitive elements annotated by RepeatMasker from the UCSC Table Browser. Note parameter selection highlighted with red outlines.</small>|
+
+Click **get output** and you will get the next page (if it looks different from the image below, go back and make sure `output format` is set to **BED - browser extensible format**):
+
+|        |
+|--------|
+|![All repeats 2](/src/tutorials/g101/allRepeats2.png)|
+|<small>**Figure 44**. BED output screen of the UCSC Table Browser. You do not need to modify anything here. Just make sure **Whole gene** is selected and click **Send Query to Galaxy**.</small>|
+
+Finally, rename history item containing repetitive elements as "Repeats" (e.g., see Fig. 12).
+
+### Start the Workflow
+
+At this point you will have two items in your history - one with exons and one with repeats. These datasets are large (especially repeats) and it will take some time for them to become green. Luckily you do not have to wait as Galaxy will automatically start jobs once uploads have ended. So nothing stops us from starting the workflow we have created. First, click on the **Workflow link** at the top of Galaxy interface, mouse over **g101**, click, and select **Run**. Center pane will change to allow you launching the workflow. Select appropriate datasets for `Repeats` and `Exon` inputs as shown below. Now scroll to **Step 6** and will see that we can set up `Select first` parameter at *Runtime* (meaning Now!). So lets put `2` in there (or anything else you want) and scroll further down to click ![Run workflow](/src/tutorials/g101/runWorkflowButton.png) to see this:
+
+|        |
+|--------|
+|![Launch workflow](/src/tutorials/g101/launchWorkflow.png)|
+|<small>**Figure 45**. Workflow launch interface. Note that "Exons" are selected as **Feature 1** and "Repeats" as **Feature 2**. The number of lines in the **Select first** tool is set to "2".</small>|
+
+Once workflow has started you will initially be able to see all its steps. Note that you are joining all exons with all repeats, so naturally this will take some time:
+
+|        |
+|--------|
+|![Launched workflow](/src/tutorials/g101/launchedWorkflow.png)|
+|<small>**figure 46**. Workflow execution has started.</small>|
+
+### Get coffee
+
+As we mentioned above this will take some time, so go get coffee. At last you will see this:
+
+|        |
+|--------|
+|![Final view](/src/tutorials/g101/final.png)|
+|<small>**Figure 47**. The result of running the workflow. Only the final dataset is shown because the intermediate datasets are hidden (see Fig. 33). They can be "unhidden" by clicking on "hidden" link immediate below history name (highlighted in red).</small>|
+
+We did not fake this:
+
+The two histories and the workflow described in this page are accessible directly from this page below:
+
+* History [**my example**](https://usegalaxy.org/u/aun1/h/my-example)
+* History [**my example 2**](https://usegalaxy.org/u/aun1/h/my-example-2)
+* Workflow [**g101**]( https://usegalaxy.org/u/aun1/w/g101)
+
+From there you can import histories and workflows to make them your own. For example, to import **my example** history simply click [this link](https://usegalaxy.org/u/aun1/h/my-example) and select `Import history` link:
+
+|        |
+|--------|
+|![Final view](/src/tutorials/g101/importHistory.png)|
+|<small>**Figure 48**. To import a history simply click "Import history" link.</small>
 
 ## If things don't work...
 ...you need to complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
