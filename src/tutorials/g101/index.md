@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy 101: What is Galaxy?
 ---
 
-Before begging a practical exercise let us introduce several fundamental concepts about Galaxy.
+Before diving into a practical exercise let us introduce several fundamental concepts about Galaxy.
 
 ## What is Galaxy Project?
 
@@ -361,13 +361,13 @@ In this tutorial we started with coordinates of exons and SNPs, found overlap be
 |![](/src/tutorials/g101/g101_outline.png)|
 |<small>**Figure 27**. Analysis outline. This looks like a workflow, doesn't it?</small>|
 
-You can see the an outline shown in Fig. 27 looks like a workflow. This is not coincidental - let's try to make a workflow from an analysis we just performed. To see how this works go to the second part of [this tutorial](/tutorials/g101-2).
-
 ## Creating and editing a workflow
+
+You can see the an outline shown in Fig. 27 looks like a workflow. This is not coincidental - let's try to make a workflow from an analysis we just performed.
 
 ### Extracting a workflow
 
-Lets take a look at the history again:
+Lets take a look at the history datasets generated during the analysis described above:
 
 |        |
 |--------|
@@ -388,7 +388,7 @@ The center pane will change as shown below and you will be able to choose which 
 |![Create workflow](/src/tutorials/g101/createWorkflow.png)|
 |<small>**Figure 30**. Creating workflow from history. Here you can choose which steps should be included into workflow (in this case we include all) and name the workflow.</small>|
 
-once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow". 
+Once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow". 
 
 ### Opening workflow editor
 
@@ -399,7 +399,7 @@ Let's click **edit** (if you click something else and the message in the center 
 |![Workflow editor](/src/tutorials/g101/wfEditor.png)|
 |<small>**Figure 31. Workflow editor** can be used to modify all aspects of the workflow. Here **cut** tool is in focus and in the right pane of the interface you can see its settings. They are exactly as we set them when using this tool before (see Fig. 21).</small>|
 
-The following image shows the workflow in its entirely. You can see that is exactly as was shown in Fig. 27.
+The following image shows the workflow in its entirely. You can see that is exactly as was shown in Fig. 27 (well ... it has different shape but topologically it is the same).
 
 |        |
 |--------|
@@ -408,7 +408,7 @@ The following image shows the workflow in its entirely. You can see that is exac
 
 ### Hiding intermediate steps
 
-Among multiple things you can do with workflows I will just mention one. When workflow is executed one is usually interested in the final product and not in the intermediate steps. These steps can be hidden by mousing over a small asterisk in the lower right corner of every tool:
+When workflow is executed one is usually interested in the final product and not in the intermediate steps. These steps can be hidden by mousing over a small asterisk in the lower right corner of every tool:
 
 |        |
 |--------|
@@ -559,6 +559,8 @@ From there you can import histories and workflows to make them your own. For exa
 |<small>**Figure 48**. To import a history simply click "Import history" link.</small>
 
 ## If things don't work...
-...you need to complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
+
+ - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+ - ...complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
 
 
