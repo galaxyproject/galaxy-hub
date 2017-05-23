@@ -33,52 +33,18 @@ MathJax.Hub.Config({
 
 In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. The cover image above shows a screen dump of a SAM dataset. 
 
-# Getting NGS data in
-
-You can data in Galaxy using one of five ways:
-
-## From your computer
-
-This works well for small files because web browser do not like lengthy file transfers:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120901536?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## Using FTP
-
-FTP ([file transfer protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol)) allows transferring large collection of files: 
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120972739?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From the Web
-
-Upload from the web works when URL (addresses) of data files are known:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120973708?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From EBI short read archive
-
-This is the best way to upload published datasets deposited to EBI SRA. The problem is that not all datasets are available from EBI. Next option (below) explain how to deal with NCBI SRA datasets:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/121187220?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From NCBI short read archive
-
-Finally, datasets can be uploaded directly from NCBI's short read archive:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/121190377?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-### Try it yourself
+## Set your Galaxy to begin
 
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
-- Import the following two datasets (for help see the above video):
+- Import the following two datasets (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
   - [A set of Forward reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-1.fq.gz)
   - [A set of Reverse reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-2.fq.gz)
 
 These are paired end data (see below for explanation of what paired-end is) for a single Illumina run. Keep Galaxy history for later. We will need it again in a few minutes. 
 
-# Fastq manipulation and quality control
+## Fastq manipulation and quality control
 
-## What is Fastq?
+### What is Fastq?
 
 [FastQ](http://en.wikipedia.org/wiki/FASTQ_format) is not a very well defined format. In the beginning various manufacturers of sequencing instruments were free to interpret fastq as they saw fit, resulting in a multitude of fastq flavors. This variation stemmed primarily from different ways of encoding quality values as described [here](http://en.wikipedia.org/wiki/FASTQ_format) (below you will explanation of quality scores and their meaning). Today, [fastq Sanger](http://www.ncbi.nlm.nih.gov/pubmed/20015970) version of the format is considered to be the standard form of fastq. Galaxy is using fastq sanger as the only legitimate input for downstream processing tools and provides [a number of utilities for converting fastq files](http://www.ncbi.nlm.nih.gov/pubmed/20562416) into this form (see **NGS: QC and manipulation** section of Galaxy tools). 
 
@@ -113,10 +79,10 @@ Each sequencing read is represented by four lines:
 
 It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
 
-|   |
-|----|
+|       |
+|-------|
 | ![](/src/tutorials/ngs/pe_mp.png) |
-|<small>**Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
+|<small>**Figure 1. Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
 
 Thus in both cases (paired-end and mate-pair) a single physical piece of DNA (or RNA in the case of RNA-seq) is sequenced from two ends and so generates two reads. These can be represented as separate files (two fastq files with first and second reads) or a single file were reads for each end are interleaved. Here are examples:
 
@@ -175,7 +141,7 @@ CCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAAC
 HHHHHHHHHHHHHGHHHHHHGHHHHHHHHHHHFHHHFHHHHHHHHHHH
 ```
 
-Here the first and the second reads are identified with `/1` and `/2` tags.
+Here the first and the second reads are identified with `/1` and `/2` tags (but even without these tags we know that odd reads are in *forward* orientation and even are in *reverse*).
 
 <div class="alert alert-warning" role="alert">
 
