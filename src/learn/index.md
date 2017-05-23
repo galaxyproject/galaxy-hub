@@ -11,6 +11,7 @@ There are many approaches to learning how to *use* Galaxy. The most popular is p
 These tutorials are using Galaxy's main site at http://usegalaxy.org:
 
  - [Galaxy 101](/tutorials/g101)
+ - [Uploading data](/tutorials/upload)
  - [Understanding histories](/tutorials/histories)
  - [Dataset collections](/tutorials/collections)
  - [NGS logistics](/tutorials/ngs)
