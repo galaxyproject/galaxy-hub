@@ -31,16 +31,35 @@ MathJax.Hub.Config({
 });
 </script>
 
-In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. The cover image above shows a screen dump of a SAM dataset. 
+In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. 
 
 ## Set your Galaxy to begin
 
+- If you are new Galaxy &#8594; beging with the [Galaxy 101 tutorual](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
-- Import the following two datasets (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
-  - [A set of Forward reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-1.fq.gz)
-  - [A set of Reverse reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-2.fq.gz)
+- Import the following two datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
 
-These are paired end data (see below for explanation of what paired-end is) for a single Illumina run. Keep Galaxy history for later. We will need it again in a few minutes. 
+```
+http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-1.fq.gz
+http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-2.fq.gz
+```
+
+when uploading these dataset set datatype to `fastqsanger.gz`. The animated image below shows the details of this process:
+
+|       |
+|-------|
+|![](/src/tutorials/ngs/ngs_tutorial_data_upload.gif)|
+|<small>**Figure 1**. Uploading data from URL and setting datatype to `fastqsanger.gz` (this is a loop, so if you missed something it will repeat itself shortly).</small>|
+
+These are paired end data (`raw_mother-ds-1` is a set of forward reads and `raw_mother-ds-2` is the corresponding set of reverse reads; see below for explanation of what paired-end is) from a single Illumina run. 
+
+After uploading the datasets rename `raw_mother-ds-1` to `F` and `maw_mother-ds-2` to `R` (to rename click the pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to each dataset). If you've done everything correctly, you will see Galaxy interface looking like this:
+
+|       |
+|-------|
+|![](/src/tutorials/ngs/data_uploaded.png)|
+|<small>**Figure 2**. Data are now uploaded and renamed.</small>|
+
 
 ## Fastq manipulation and quality control
 
@@ -77,12 +96,12 @@ Each sequencing read is represented by four lines:
 
 ## Paired end data
 
-It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
+It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. This is because in addition to sequence data we know that forward and reverse reads are physically linked within the sequenced molecule. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
 
 |       |
 |-------|
-| ![](/src/tutorials/ngs/pe_mp.png) |
-|<small>**Figure 1. Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
+|![](/src/tutorials/ngs/pe_mp.png) |
+|<small>**Figure 3. Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
 
 Thus in both cases (paired-end and mate-pair) a single physical piece of DNA (or RNA in the case of RNA-seq) is sequenced from two ends and so generates two reads. These can be represented as separate files (two fastq files with first and second reads) or a single file were reads for each end are interleaved. Here are examples:
 
@@ -144,9 +163,7 @@ HHHHHHHHHHHHHGHHHHHHGHHHHHHHHHHHFHHHFHHHHHHHHHHH
 Here the first and the second reads are identified with `/1` and `/2` tags (but even without these tags we know that odd reads are in *forward* orientation and even are in *reverse*).
 
 <div class="alert alert-warning" role="alert">
-
-**Note**: Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/books/NBK242622/) for more information.
-
+Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/books/NBK242622/) for more information.
 </div>
 
 ## What are base qualities?
@@ -166,17 +183,13 @@ Illumina sequencing is based on identifying the individual nucleotides by the fl
 
 </div>
 
-Base call quality scores are represented with the Phred range. Different Illumina (formerly Solexa) versions
-used different scores and ASCII offsets. Starting with Illumina format 1.8, the score now represents the standard
+Base call qualities are represented using the [Phred score scale](https://en.wikipedia.org/wiki/Phred_quality_score). Different Illumina (formerly Solexa) versions used different scores and ASCII offsets. Starting with Illumina format 1.8, the score now represents the standard
 Sanger/Phred format that is also used by other sequencing platforms and the sequencing archives.
 
-|                                                              |
-|--------------------------------------------------------------|
-| ![](/src/tutorials/ngs/fastq_qs.png) |
-|<small>The ASCII interpretation and ranges of the different Phred score notations used by Illumina and the original
-Sanger interpretation. Although the Sanger format allows a theoretical score of 93, raw sequencing
-reads typically do not exceed a Phred score of 60. In fact, most Illumina-based sequencing will result in maximum
-scores of 41 to 45 (image from [Wikipedia](https://en.wikipedia.org/wiki/FASTQ_format)).</small>|
+|                             |
+|-----------------------------|
+|![](/src/tutorials/ngs/fastq_qs.png)|
+|<small>**Figure 4.** The ASCII interpretation and ranges of the different Phred score notations used by Illumina and the original Sanger interpretation. Although the Sanger format allows a theoretical score of 93, raw sequencing reads typically do not exceed a Phred score of 60. In fact, most Illumina-based sequencing will result in maximum scores of 41 to 45 (image from [Wikipedia](https://en.wikipedia.org/wiki FASTQ_format)).</small>|
 
 ## Assessing data quality
 
@@ -185,7 +198,7 @@ One of the first steps in the analysis of NGS data is seeing how good the data a
 |                                        |                                    |
 |:---------------------------------------|:-----------------------------------|
 | ![](/src/tutorials/ngs/good_fq.png)    | ![](/src/tutorials/ngs/bad_fq.png) |    
-|<small>**A.** Excellent quality</small> | <small>**B.** Hmmm...OK</small>    |
+|<small>**Figure 5. Left:** Excellent quality. **Right:** Hmmmm....Ok</small> |  <small>**Right:** Hmmmm....Ok</small>|
 
 Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](http://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
 
