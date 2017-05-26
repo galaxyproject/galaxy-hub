@@ -37,23 +37,25 @@ In this section we will look at practical aspects of manipulation of next-genera
 
 - If you are new Galaxy &#8594; beging with the [Galaxy 101 tutorual](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
-- Import the following two datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
+- Import the following four datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
 
 ```
-http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-1.fq.gz
-http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-2.fq.gz
+https://zenodo.org/record/583613/files/sample1-f.fq.gz
+https://zenodo.org/record/583613/files/sample1-r.fq.gz
+https://zenodo.org/record/583613/files/sample2-f.fq.gz
+https://zenodo.org/record/583613/files/sample2-r.fq.gz
 ```
 
-when uploading these dataset set datatype to `fastqsanger.gz`. The animated image below shows the details of this process:
+when uploading these dataset set datatype to `fastqsanger.gz`. The animated image below shows the details of the entire upload process:
 
 |       |
 |-------|
 |![](/src/tutorials/ngs/ngs_tutorial_data_upload.gif)|
 |<small>**Figure 1**. Uploading data from URL and setting datatype to `fastqsanger.gz` (this is a loop, so if you missed something it will repeat itself shortly).</small>|
 
-These are paired end data (`raw_mother-ds-1` is a set of forward reads and `raw_mother-ds-2` is the corresponding set of reverse reads; see below for explanation of what paired-end is) from a single Illumina run. 
+These are paired end data (datasets with `-f` is their filename are forward reads and datasets with `-r` are reverse) representing two independent sampled produced by an Illumina machine.
 
-After uploading the datasets rename `raw_mother-ds-1` to `F` and `maw_mother-ds-2` to `R` (to rename click the pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to each dataset). If you've done everything correctly, you will see Galaxy interface looking like this:
+Upload the datasets. If you've done everything correctly, you will see Galaxy interface looking like this:
 
 |       |
 |-------|
@@ -193,16 +195,49 @@ Sanger/Phred format that is also used by other sequencing platforms and the sequ
 
 ## Assessing data quality
 
-One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastqQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to gauge the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
+One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastqQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to evaluate the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
 
-|                                        |                                    |
-|:---------------------------------------|:-----------------------------------|
-| ![](/src/tutorials/ngs/good_fq.png)    | ![](/src/tutorials/ngs/bad_fq.png) |    
-|<small>**Figure 5. Left:** Excellent quality. **Right:** Hmmmm....Ok</small> |  <small>**Right:** Hmmmm....Ok</small>|
+|                                                      |                                        |
+|:-----------------------------------------------------|:---------------------------------------|
+| ![](/src/tutorials/ngs/good_fq.png)                  | ![](/src/tutorials/ngs/bad_fq.png)     |    
+|<small>**Figure 5. Left:** Excellent quality.</small> |  <small>**Right:** Hmmmm....Ok.</small>|
 
 Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](http://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
 
+It may be challenging to use fastQC when you have a lot of datasets. For example, in our case there are four datasets. FastQC needs to be run on each dataset individually and then one needs to look at each fastqQC report individually. This may not be a big problem for four datasets, but it will become an issue if you have 100s or 1,000s of datasets. [Phil Ewels](https://github.com/ewels) has developed a tool called [MultiQC](http://multiqc.info/) that allows to summarize multiple QC reports at once. To run MultiQC you need to run fastQC on individual datasets and then feed fastqQC outputs to MultiQC (note that MultiQC is not limited to processing FastQC reports but accepts outputs of many other tools). Galaxy makes this easy as shown in the following video:
+
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123453134?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
+In this video we run FastQC on the four datasets and then summarized these data with MultiQC. The following figure shows one of the graphs produced by MultiQC:
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/multiqc.png)|
+|<small>**Figure 6.** MultiQC report showing quality score distribution for the four sequences using in this tutorial. Here `sample1-f` has highest quality: its quality scores never dip below phred score of 25. The other datasets are slightly worse, but all are generally acceptable.</small>|
+
+## Trimming reads
+
+One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One if dynamically trim the reads:
+
+ - slide a window across reads
+ - at every step of the process calculate average quality of bases within the given window
+ - if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
+ - output the beginning of the read
+
+One of the tools that performs this procedure is [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) developed by Usadel [lab](http://www.usadellab.org/cms/index.php?page=staff). Let's use **NGS: QC and manipulation &#8594; Trimmomatic** to trim out four datasets:
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/trimmomatic.png)|
+|<small>**Figure 7.** Trimming our datasets with [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic). Here reads will be trimmed if the base quality averaged across four bases drops below 25.</small>|
+
+To see the effect of trimming on the reads let's take Trimmomatic output, run it through FastQC (**NGS: QC and manipulation &#8594; FastQC**and summarize with MultiQC (**NGS: QC and manipulation &#8594; multiQC**). Below is the quality score distribution graph (the same graph shown in Fig. 6):
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/multiqc2.png)|
+|<small>**Figure 8**. Quality score distribution for trimmed datasets. Compare this image with Fig. 6. You can see that sequences are shorted but quality is significantly higher.</small>|
 
 ### Try it yourself
 
