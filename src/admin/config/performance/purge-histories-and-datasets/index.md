@@ -75,7 +75,7 @@ clean up unwanted histories, libraries and datasets. There are located in the
 
 Note that you should activate the Galaxy virtual environment before running the scripts, as it follows. 
 
-    source /path/to/galaxy/root/.ven/bin/activate
+    source /path/to/galaxy/root/.venv/bin/activate
     sh delete_userless_histories.sh
     sh purge_histories.sh
 
