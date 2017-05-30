@@ -17,8 +17,6 @@ There are also a number of [Galaxy services](/src/galaxy-services/index.md) that
 
 These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
-<!-- Biomina offline since 2017/02
-
 ## Biomina
 
 <div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src="/src/public-galaxy-servers/Biomina300.png" alt="Biomina Galaxy"  /></a></div>
@@ -38,7 +36,6 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
   * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp
--->
 
 ## CBiB Galaxy
 
