@@ -35,4 +35,4 @@ Hub page for Galaxy configuration.
 * [GenomeSpace](/src/admin/config/genome-space/index.md)
 * [User Information (Collecting information during registration)](/src/admin/config/User Information/index.md)
 * [Running on Windows](/src/admin/config/Windows/index.md)
-* [Access Control (ACLs)](/src/admin/config/Access Control/index.md)
+* [Access Control (ACLs)](/src/admin/config/access-control/index.md)
