@@ -647,7 +647,7 @@ def dev_only(user_email):
 ```
 
 
-There is an additional page on [Access Control](/src/admin/config/Access Control/index.md) for those interested.
+There is an additional page on [Access Control](/src/admin/config/access-control/index.md) for those interested.
 
 ##### Additional Tricks
 
