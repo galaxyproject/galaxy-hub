@@ -239,9 +239,11 @@ To see the effect of trimming on the reads let's take Trimmomatic output, run it
 |![](/src/tutorials/ngs/multiqc2.png)|
 |<small>**Figure 8**. Quality score distribution for trimmed datasets. Compare this image with Fig. 6. You can see that sequences are shorted but quality is significantly higher.</small>|
 
+We will now use trimmed reads as the input to downstream analyses. 
+
 ### Try it yourself
 
-QC datasets you have uploaded before.
+QC, trim, and QC again datasets you have uploaded before to produce a final set of sequences we will be using downstream.
 
 # Mapping your data
 
@@ -260,12 +262,12 @@ Mappers usually compare reads against a reference sequence that has been transfo
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/cached_genome.png)                    |
-|<small>Mapping against a pre-computed index in Galaxy.</small>|
+|<small>**Figure 9**. Mapping against a pre-computed index in Galaxy.</small>|
 
 For example, the image above shows indexes for `hg38` version of the human genome. You can see that there are actually three choices: (1) `hg38`, (2) `hg38 canonical` and (3) `hg38 canonical female`. The `hg38` contains all chromosomes as well as all unplaced contigs. The `hg38 canonical` does not contain unplaced sequences and only consists of chromosomes 1 through 22, X, Y, and mitochondria. The 
 `hg38 canonical female` contains everything from the canonical set with the exception of chromosome Y. 
 
-The following video show mapping using BWA:
+The following video show mapping using BWA-MEM:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123102338?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
@@ -280,7 +282,7 @@ If Galaxy does not have a genome you need to map against, you can upload your ge
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/uploaded_genome.png) |
-|<small>Mapping against a pre-computed index in Galaxy </small>|
+|<small>**Figure 10**. Mapping against a custom index in Galaxy </small>|
 
 In this case Galaxy will first create an index from this dataset and then run mapping analysis against it. The following video shows how this works in practice:
 
@@ -288,16 +290,16 @@ In this case Galaxy will first create an index from this dataset and then run ma
 
 # SAM/BAM datasets
 
-The [SAM/BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. In the following duscussion I once again rely on [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.
+The [SAM/BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. In the following discussion I once again rely on [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.
 
-The Sequence Alignment/Map (SAM) format is, in fact, a generic nucleotide alignment format that describes the alignment of sequencing reads (or query sequences) to a reference. The human readable, TABdelimited SAM files can be compressed into the Binary Alignment/Map format. These BAM files are bigger than simply gzipped SAM files, because they have been optimized for fast random access rather than size reduction. Position-sorted BAM files can be indexed so that all reads aligning to a locus can be efficiently retrieved without loading the entire file into memory.
+The Sequence Alignment/Map (SAM) format is a generic nucleotide alignment format that describes the alignment of sequencing reads (or query sequences) to a reference. The human readable, TAB-delimited SAM files can be compressed into the Binary Alignment/Map format. These BAM files are bigger than simply gzipped SAM files, because they have been optimized for fast random access rather than size reduction. Position-sorted BAM files can be indexed so that all reads aligning to a locus can be efficiently retrieved without loading the entire file into memory.
 
-As shown below, SAM files typically contain a short header section and a very long alignment section where each row represents a single read alignment. The following sections will explain the SAM format in a bit more detail. For the most comprehensive and updated information go to https://github.com/samtools/hts-specs.
+As shown below, SAM files typically contain a header section and an alignment section where each row represents a single read alignment. The following sections will explain the SAM format in a bit more detail. For the most comprehensive and updated information go to https://github.com/samtools/hts-specs.
 
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/bam_structure.png)   |
-|<small>**Schematic representation of a SAM file**. Each line of the optional header section starts with “@”, followed by the appropriate abbreviation (e.g., SQ for sequence dictionary which lists all chromosomes names (SN) and their lengths (LN)). The vast majority of lines within a SAM file typically correspond to read alignments where each read is described by the 11 mandatory entries (black font) and a variable number of optional fields (grey font). From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.</small>|
+|<small>**Figure 11. Schematic representation of a SAM file**. Each line of the optional header section starts with “@”, followed by the appropriate abbreviation (e.g., SQ for sequence dictionary which lists all chromosomes names (SN) and their lengths (LN)). The vast majority of lines within a SAM file typically correspond to read alignments where each read is described by the 11 mandatory entries (black font) and a variable number of optional fields (grey font; from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 ## SAM Header
 
@@ -336,7 +338,7 @@ The following table gives an overview of the different properties that can be en
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/sam_flag.png) |
-|<small>The `FLAG` field of SAM files stores information about the respective read alignment in one single decimal number. The decimal number is the sum of all the answers to the Yes/No questions associated with each binary bit. The hexadecimal representation is used to refer to the individual bits (questions). A bit is set if the corresponding state is true. For example, if a read is paired, `0x1` will be set, returning the decimal value of 1. Therefore, all `FLAG` values associated with paired reads must be uneven decimal numbers. Conversely, if the `0x1` bit is unset (= read is not paired), no assumptions can be made about `0x2`, `0x8`, `0x20`, `0x40` and `0x80` because they refer to paired reads. From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo</small>|
+|<small>**Figure 12**. The `FLAG` field of SAM files stores information about the respective read alignment in one single decimal number. The decimal number is the sum of all the answers to the Yes/No questions associated with each binary bit. The hexadecimal representation is used to refer to the individual bits (questions). A bit is set if the corresponding state is true. For example, if a read is paired, `0x1` will be set, returning the decimal value of 1. Therefore, all `FLAG` values associated with paired reads must be uneven decimal numbers. Conversely, if the `0x1` bit is unset (= read is not paired), no assumptions can be made about `0x2`, `0x8`, `0x20`, `0x40` and `0x80` because they refer to paired reads (from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 In a run with single reads, the flags you most commonly see are:
 
@@ -347,8 +349,8 @@ In a run with single reads, the flags you most commonly see are:
 (`0x100`, `0x200` and `0x400` are not used by most aligners/mappers, but could, in principle be set for single reads.) Some common `FLAG` values that you may see in a PE experiment include:
 
 
-|                     |                                      |
-----------------------|---------------------------------------
+| FLAG value           |  Meaning                                   |
+|----------------------|---------------------------------------|
 |**69** (= 1 + 4 + 64) | The read is paired, is the first read in the pair, and is unmapped.|
 |**77** (= 1 + 4 + 8 + 64) | The read is paired, is the first read in the pair, both are unmapped.|
 |**83** (= 1 + 2 + 16 + 64) | The read is paired, mapped in a proper pair, is the first read in the pair, and it is mapped to the reverse strand.|
@@ -383,7 +385,7 @@ The sum of lengths of the **M**, **I**, **S**, **=**, **X** operations must equa
 |                                 |
 |---------------------------------|
 |![](/src/tutorials/ngs/cigar.png)|
-|<small>From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.</small>|
+|<small>**Figure 13**. Examples of CIGAR strings (from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 ### Optional fields
 
@@ -422,7 +424,7 @@ GATK forum also provides the following example:
 
 To see an example of read group manipulation in Galaxy see the following video:
 
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123102338#t=1:40?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219683864" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 # Manipulating SAM/BAM datasets
 
