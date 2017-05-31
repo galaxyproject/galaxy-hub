@@ -1,7 +1,6 @@
+_Last updated 6-1-17_
 
 ## Issue by tool name 
-
-_Last updated 5-24-17_
 
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org.Details: https://github.com/galaxyproject/tools-devteam/issues/340
