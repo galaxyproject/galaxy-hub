@@ -143,6 +143,10 @@ ms = metalsmith(__dirname)
             pattern: "news/*/*.md"
             sortBy: "date"
             reverse: true
+        devnewsbrief:
+            pattern: "archive/dev-news-briefs/*/*.md"
+            sortBy: "date"
+            reverse: true
         events:
             pattern: "events/*/*.md"
             sortBy: "date"

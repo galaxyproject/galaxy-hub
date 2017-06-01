@@ -1,6 +1,7 @@
-# October 5, 2010 Galaxy Development News Brief
-
-----
+---
+title: Development News Brief
+date: 2010-10-05
+---
 
 Here are the highlights of what you will get if you perform the following upgrade:
 

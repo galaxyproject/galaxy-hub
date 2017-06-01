@@ -1,4 +1,7 @@
-# January 31, 2011 Galaxy Development News Brief
+---
+title: Development News Brief
+date: 2011-01-31
+---
 
 ----
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
