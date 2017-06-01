@@ -33,7 +33,7 @@ MathJax.Hub.Config({
 
 In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. 
 
-## Set your Galaxy to begin
+# Set your Galaxy to begin
 
 - If you are new Galaxy &#8594; beging with the [Galaxy 101 tutorual](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
@@ -63,9 +63,9 @@ Upload the datasets. If you've done everything correctly, you will see Galaxy in
 |<small>**Figure 2**. Data are now uploaded and renamed.</small>|
 
 
-## Fastq manipulation and quality control
+# Fastq manipulation and quality control
 
-### What is Fastq?
+## What is Fastq?
 
 [FastQ](http://en.wikipedia.org/wiki/FASTQ_format) is not a very well defined format. In the beginning various manufacturers of sequencing instruments were free to interpret fastq as they saw fit, resulting in a multitude of fastq flavors. This variation stemmed primarily from different ways of encoding quality values as described [here](http://en.wikipedia.org/wiki/FASTQ_format) (below you will explanation of quality scores and their meaning). Today, [fastq Sanger](http://www.ncbi.nlm.nih.gov/pubmed/20015970) version of the format is considered to be the standard form of fastq. Galaxy is using fastq sanger as the only legitimate input for downstream processing tools and provides [a number of utilities for converting fastq files](http://www.ncbi.nlm.nih.gov/pubmed/20562416) into this form (see **NGS: QC and manipulation** section of Galaxy tools). 
 
@@ -107,7 +107,7 @@ It is common to prepare pair-end and mate-pair sequencing libraries. This is hig
 
 Thus in both cases (paired-end and mate-pair) a single physical piece of DNA (or RNA in the case of RNA-seq) is sequenced from two ends and so generates two reads. These can be represented as separate files (two fastq files with first and second reads) or a single file were reads for each end are interleaved. Here are examples:
 
-#### Two single files
+### Two single files
 
 **File 1**
 
@@ -141,7 +141,7 @@ CACTACCGGGGTATCTAATCCTGTTCGCTCCCCACGCTTTCGTCCATC
 
 </div>
 
-#### Interleaved file
+### Interleaved file
 
 ```
 @1/1
@@ -241,7 +241,7 @@ To see the effect of trimming on the reads let's take Trimmomatic output, run it
 
 We will now use trimmed reads as the input to downstream analyses. 
 
-### Try it yourself
+## Try it yourself
 
 QC, trim, and QC again datasets you have uploaded before to produce a final set of sequences we will be using downstream.
 
@@ -422,7 +422,7 @@ GATK forum also provides the following example:
 
 ![](/src/tutorials/ngs/rg_example.png)
 
-To see an example of read group manipulation in Galaxy see the following video:
+To see an example of read group manipulation in Galaxy see the following video. In this video we use two BAM datasets as an example. We add readgroups and shown how it changes the underling BAM (SAM) data:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219683864" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
