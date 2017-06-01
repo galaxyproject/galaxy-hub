@@ -1,3 +1,8 @@
+---
+title: Development News Brief
+date: 2015-01-13
+---
+
 # Updates added to the last Galaxy Distribution listed below
 
 These represent changes introduced after the initial release. May also be tracked in [Trello](https://trello.com/galaxyproject).<br />

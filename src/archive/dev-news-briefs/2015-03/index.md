@@ -1,5 +1,6 @@
 ---
 title: March 2015 Galaxy Release (v 15.03)
+date: 2015-03-01
 ---
 [All News Briefs](/src/docs/index.md)
 <br />
