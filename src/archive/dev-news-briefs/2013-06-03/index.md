@@ -1,6 +1,8 @@
 ---
-title: June 3, 2013 Galaxy Distribution News Brief
+title: Development News Brief
+date: 2013-06-03
 ---
+
 [All News Briefs](/src/docs/index.md)
 
 <br />

@@ -1,5 +1,6 @@
 ---
-title: July 16, 2010 New Development News Brief
+title: Development News Brief
+date: 2010-07-16
 ---
 Here are the highlights of what you will get if you perform the following upgrade:
 
