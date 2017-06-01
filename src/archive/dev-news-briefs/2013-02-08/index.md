@@ -1,6 +1,8 @@
 ---
-title: February 8, 2013 Galaxy News Brief
+title: Development News Brief
+date: 2013-02-08
 ---
+
 # Get Galaxy
 
 *Please note new* **upgrade** *syntax*

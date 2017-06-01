@@ -1,6 +1,8 @@
 ---
-title: December 20, 2012 Galaxy Development News Brief
+title: Development News Brief
+date: 2012-12-20
 ---
+
 # Get Galaxy
 
 <table>

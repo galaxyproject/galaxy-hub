@@ -1,6 +1,8 @@
 ---
-title: April 14, 2014 Galaxy Distribution News Brief
+title: Development News Brief
+date: 2014-04-14
 ---
+
 [All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2014_04_14](/src/news/2014-04-14-galaxy-distribution/index.md)

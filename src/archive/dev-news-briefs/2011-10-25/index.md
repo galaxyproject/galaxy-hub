@@ -1,5 +1,6 @@
 ---
-title: October 25, 2011 Galaxy Development News Brief
+title: Development News Brief
+date: 2011-10-25
 ---
 ## Get Galaxy
 
