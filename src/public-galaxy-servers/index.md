@@ -238,7 +238,6 @@ These servers implement a broad range of tools and aren't specific to any part o
 
 ## GigaGalaxy
 
-
 <div class='right solid'><a href='http://gigagalaxy.net/'><img src="/src/public-galaxy-servers/GigaGalaxyNebula.png" alt="GigaGalaxy" /></a></div>
 
 * *Link:*
@@ -251,9 +250,27 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/)
 
+## GVL MEL
+
+<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Melbourne" height="200" /></a></div>
+
+* *Link:*
+  * [Galaxy Melbourne](http://galaxy-mel.genome.edu.au/)
+* *Domain/Purpose:*
+  * General purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).
+* *Comments:*
+* *User Support:*
+  * [GVL Help](https://www.gvl.org.au/)
+  * Follow tutorials at [GVL Learn](https://www.gvl.org.au/learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+* *Quotas:*
+  * Registration is required. Anyone can register.
+  * Default quota of 100GB which can be increased on request.
+* *Sponsor(s):*
+  * [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au)
+
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Queensland" height="200" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -272,10 +289,10 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
 
+
 ## GVL Tutorial
 
-
-<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="200" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVLTut](http://galaxy-tut.genome.edu.au/)
