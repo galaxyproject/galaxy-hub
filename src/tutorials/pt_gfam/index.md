@@ -231,7 +231,7 @@ The `Charts` plugin provides several options for rendering the visualization.
 |      |
 |------|
 |![](/src/tutorials/pt_gfam/charts.png)|
-|<small>Figure 16. Charts visuzliation of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
+|<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
 
 ## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
 
