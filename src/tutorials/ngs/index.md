@@ -31,50 +31,37 @@ MathJax.Hub.Config({
 });
 </script>
 
-In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. The cover image above shows a screen dump of a SAM dataset. 
+In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. 
 
-# Getting NGS data in
+# Set your Galaxy to begin
 
-You can data in Galaxy using one of five ways:
-
-## From your computer
-
-This works well for small files because web browser do not like lengthy file transfers:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120901536?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## Using FTP
-
-FTP ([file transfer protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol)) allows transferring large collection of files: 
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120972739?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From the Web
-
-Upload from the web works when URL (addresses) of data files are known:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120973708?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From EBI short read archive
-
-This is the best way to upload published datasets deposited to EBI SRA. The problem is that not all datasets are available from EBI. Next option (below) explain how to deal with NCBI SRA datasets:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/121187220?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-## From NCBI short read archive
-
-Finally, datasets can be uploaded directly from NCBI's short read archive:
-
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/121190377?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-### Try it yourself
-
+- If you are new Galaxy &#8594; beging with the [Galaxy 101 tutorual](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
-- Import the following two datasets (for help see the above video):
-  - [A set of Forward reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-1.fq.gz)
-  - [A set of Reverse reads](http://www.bx.psu.edu/~anton/share/ng_test_data/var/raw_mother-ds-2.fq.gz)
+- Import the following four datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
 
-These are paired end data (see below for explanation of what paired-end is) for a single Illumina run. Keep Galaxy history for later. We will need it again in a few minutes. 
+```
+https://zenodo.org/record/583613/files/sample1-f.fq.gz
+https://zenodo.org/record/583613/files/sample1-r.fq.gz
+https://zenodo.org/record/583613/files/sample2-f.fq.gz
+https://zenodo.org/record/583613/files/sample2-r.fq.gz
+```
+
+when uploading these dataset set datatype to `fastqsanger.gz`. The animated image below shows the details of the entire upload process:
+
+|       |
+|-------|
+|![](/src/tutorials/ngs/ngs_tutorial_data_upload.gif)|
+|<small>**Figure 1**. Uploading data from URL and setting datatype to `fastqsanger.gz` (this is a loop, so if you missed something it will repeat itself shortly).</small>|
+
+These are paired end data (datasets with `-f` is their filename are forward reads and datasets with `-r` are reverse) representing two independent sampled produced by an Illumina machine.
+
+Upload the datasets. If you've done everything correctly, you will see Galaxy interface looking like this:
+
+|       |
+|-------|
+|![](/src/tutorials/ngs/data_uploaded.png)|
+|<small>**Figure 2**. Data are now uploaded.</small>|
+
 
 # Fastq manipulation and quality control
 
@@ -111,16 +98,16 @@ Each sequencing read is represented by four lines:
 
 ## Paired end data
 
-It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
+It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. This is because in addition to sequence data we know that forward and reverse reads are physically linked within the sequenced molecule. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
 
-|   |
-|----|
-| ![](/src/tutorials/ngs/pe_mp.png) |
-|<small>**Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
+|       |
+|-------|
+|![](/src/tutorials/ngs/pe_mp.png) |
+|<small>**Figure 3. Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
 
 Thus in both cases (paired-end and mate-pair) a single physical piece of DNA (or RNA in the case of RNA-seq) is sequenced from two ends and so generates two reads. These can be represented as separate files (two fastq files with first and second reads) or a single file were reads for each end are interleaved. Here are examples:
 
-#### Two single files
+### Two single files
 
 **File 1**
 
@@ -154,7 +141,7 @@ CACTACCGGGGTATCTAATCCTGTTCGCTCCCCACGCTTTCGTCCATC
 
 </div>
 
-#### Interleaved file
+### Interleaved file
 
 ```
 @1/1
@@ -175,12 +162,10 @@ CCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAAC
 HHHHHHHHHHHHHGHHHHHHGHHHHHHHHHHHFHHHFHHHHHHHHHHH
 ```
 
-Here the first and the second reads are identified with `/1` and `/2` tags.
+Here the first and the second reads are identified with `/1` and `/2` tags (but even without these tags we know that odd reads are in *forward* orientation and even are in *reverse*).
 
 <div class="alert alert-warning" role="alert">
-
-**Note**: Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/books/NBK242622/) for more information.
-
+Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/books/NBK242622/) for more information.
 </div>
 
 ## What are base qualities?
@@ -200,34 +185,65 @@ Illumina sequencing is based on identifying the individual nucleotides by the fl
 
 </div>
 
-Base call quality scores are represented with the Phred range. Different Illumina (formerly Solexa) versions
-used different scores and ASCII offsets. Starting with Illumina format 1.8, the score now represents the standard
+Base call qualities are represented using the [Phred score scale](https://en.wikipedia.org/wiki/Phred_quality_score). Different Illumina (formerly Solexa) versions used different scores and ASCII offsets. Starting with Illumina format 1.8, the score now represents the standard
 Sanger/Phred format that is also used by other sequencing platforms and the sequencing archives.
 
-|                                                              |
-|--------------------------------------------------------------|
-| ![](/src/tutorials/ngs/fastq_qs.png) |
-|<small>The ASCII interpretation and ranges of the different Phred score notations used by Illumina and the original
-Sanger interpretation. Although the Sanger format allows a theoretical score of 93, raw sequencing
-reads typically do not exceed a Phred score of 60. In fact, most Illumina-based sequencing will result in maximum
-scores of 41 to 45 (image from [Wikipedia](https://en.wikipedia.org/wiki/FASTQ_format)).</small>|
+|                             |
+|-----------------------------|
+|![](/src/tutorials/ngs/fastq_qs.png)|
+|<small>**Figure 4.** The ASCII interpretation and ranges of the different Phred score notations used by Illumina and the original Sanger interpretation. Although the Sanger format allows a theoretical score of 93, raw sequencing reads typically do not exceed a Phred score of 60. In fact, most Illumina-based sequencing will result in maximum scores of 41 to 45 (image from [Wikipedia](https://en.wikipedia.org/wiki FASTQ_format)).</small>|
 
 ## Assessing data quality
 
-One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastqQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to gauge the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
+One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastqQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to evaluate the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
 
-|                                        |                                    |
-|:---------------------------------------|:-----------------------------------|
-| ![](/src/tutorials/ngs/good_fq.png)    | ![](/src/tutorials/ngs/bad_fq.png) |    
-|<small>**A.** Excellent quality</small> | <small>**B.** Hmmm...OK</small>    |
+|                                                      |                                        |
+|:-----------------------------------------------------|:---------------------------------------|
+| ![](/src/tutorials/ngs/good_fq.png)                  | ![](/src/tutorials/ngs/bad_fq.png)     |    
+|<small>**Figure 5. Left:** Excellent quality.</small> |  <small>**Right:** Hmmmm....Ok.</small>|
 
 Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](http://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
 
+It may be challenging to use `fastQC` when you have a lot of datasets. For example, in our case there are four datasets. `FastQC` needs to be run on each dataset individually and then one needs to look at each `fastqQC` report individually. This may not be a big problem for four datasets, but it will become an issue if you have 100s or 1,000s of datasets. [Phil Ewels](https://github.com/ewels) has developed a tool called [`MultiQC`](http://multiqc.info/) that allows to summarize multiple QC reports at once. To run `MultiQC` you need to run `fastQC` on individual datasets and then feed fastqQC outputs to `MultiQC` (note that `MultiQC` is not limited to processing FastQC reports but accepts outputs of many other tools). Galaxy makes this easy as shown in the following video:
+
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123453134?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-### Try it yourself
 
-QC datasets you have uploaded before.
+In this video we run `FastQC` on the four datasets and then summarized these data with `MultiQC`. The following figure shows one of the graphs produced by `MultiQC`:
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/multiqc.png)|
+|<small>**Figure 6.** A `MultiQC` report showing quality score distribution for the four sequences using in this tutorial. Here `sample1-f` has highest quality: its quality scores never dip below phred score of 25. The other datasets are slightly worse, but all are generally acceptable.</small>|
+
+## Trimming reads
+
+One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One is dynamically trim the reads:
+
+ - slide a window across reads
+ - at every step of the process calculate average quality of bases within the given window
+ - if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
+ - output the beginning of the read
+
+One of the tools that performs this procedure is [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) developed by Usadel [lab](http://www.usadellab.org/cms/index.php?page=staff). Let's use **NGS: QC and manipulation &#8594; Trimmomatic** to trim out four datasets:
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/trimmomatic.png)|
+|<small>**Figure 7.** Trimming our datasets with [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic). Here reads will be trimmed if the base quality averaged across four bases drops below 25.</small>|
+
+To see the effect of trimming on the reads let's take Trimmomatic output, run it through FastQC (**NGS: QC and manipulation &#8594; FastQC**and summarize with MultiQC (**NGS: QC and manipulation &#8594; multiQC**). Below is the quality score distribution graph (the same graph shown in Fig. 6):
+
+|        |
+|--------|
+|![](/src/tutorials/ngs/multiqc2.png)|
+|<small>**Figure 8**. Quality score distribution for trimmed datasets. Compare this image with Fig. 6. You can see that sequences are shorted but quality is significantly higher.</small>|
+
+We will now use trimmed reads as the input to downstream analyses. 
+
+## Try it yourself
+
+QC, trim, and QC again datasets you have uploaded before to produce a final set of sequences we will be using downstream.
 
 # Mapping your data
 
@@ -246,12 +262,12 @@ Mappers usually compare reads against a reference sequence that has been transfo
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/cached_genome.png)                    |
-|<small>Mapping against a pre-computed index in Galaxy.</small>|
+|<small>**Figure 9**. Mapping against a pre-computed index in Galaxy.</small>|
 
 For example, the image above shows indexes for `hg38` version of the human genome. You can see that there are actually three choices: (1) `hg38`, (2) `hg38 canonical` and (3) `hg38 canonical female`. The `hg38` contains all chromosomes as well as all unplaced contigs. The `hg38 canonical` does not contain unplaced sequences and only consists of chromosomes 1 through 22, X, Y, and mitochondria. The 
 `hg38 canonical female` contains everything from the canonical set with the exception of chromosome Y. 
 
-The following video show mapping using BWA:
+The following video show mapping using BWA-MEM:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123102338?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
@@ -266,7 +282,7 @@ If Galaxy does not have a genome you need to map against, you can upload your ge
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/uploaded_genome.png) |
-|<small>Mapping against a pre-computed index in Galaxy </small>|
+|<small>**Figure 10**. Mapping against a custom index in Galaxy </small>|
 
 In this case Galaxy will first create an index from this dataset and then run mapping analysis against it. The following video shows how this works in practice:
 
@@ -274,16 +290,16 @@ In this case Galaxy will first create an index from this dataset and then run ma
 
 # SAM/BAM datasets
 
-The [SAM/BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. In the following duscussion I once again rely on [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.
+The [SAM/BAM](https://samtools.github.io/hts-specs/SAMv1.pdf) format is an accepted standard for storing aligned reads (it can also store unaligned reads and some mappers such as BWA are accepting unaligned BAM as input). The binary form of the format (BAM) is compact and can be rapidly searched (if indexed). In Galaxy BAM datasets are always indexed (accompanies by a .bai file) and sorted in coordinate order. In the following discussion I once again rely on [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.
 
-The Sequence Alignment/Map (SAM) format is, in fact, a generic nucleotide alignment format that describes the alignment of sequencing reads (or query sequences) to a reference. The human readable, TABdelimited SAM files can be compressed into the Binary Alignment/Map format. These BAM files are bigger than simply gzipped SAM files, because they have been optimized for fast random access rather than size reduction. Position-sorted BAM files can be indexed so that all reads aligning to a locus can be efficiently retrieved without loading the entire file into memory.
+The Sequence Alignment/Map (SAM) format is a generic nucleotide alignment format that describes the alignment of sequencing reads (or query sequences) to a reference. The human readable, TAB-delimited SAM files can be compressed into the Binary Alignment/Map format. These BAM files are bigger than simply gzipped SAM files, because they have been optimized for fast random access rather than size reduction. Position-sorted BAM files can be indexed so that all reads aligning to a locus can be efficiently retrieved without loading the entire file into memory.
 
-As shown below, SAM files typically contain a short header section and a very long alignment section where each row represents a single read alignment. The following sections will explain the SAM format in a bit more detail. For the most comprehensive and updated information go to https://github.com/samtools/hts-specs.
+As shown below, SAM files typically contain a header section and an alignment section where each row represents a single read alignment. The following sections will explain the SAM format in a bit more detail. For the most comprehensive and updated information go to https://github.com/samtools/hts-specs.
 
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/bam_structure.png)   |
-|<small>**Schematic representation of a SAM file**. Each line of the optional header section starts with “@”, followed by the appropriate abbreviation (e.g., SQ for sequence dictionary which lists all chromosomes names (SN) and their lengths (LN)). The vast majority of lines within a SAM file typically correspond to read alignments where each read is described by the 11 mandatory entries (black font) and a variable number of optional fields (grey font). From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.</small>|
+|<small>**Figure 11. Schematic representation of a SAM file**. Each line of the optional header section starts with “@”, followed by the appropriate abbreviation (e.g., SQ for sequence dictionary which lists all chromosomes names (SN) and their lengths (LN)). The vast majority of lines within a SAM file typically correspond to read alignments where each read is described by the 11 mandatory entries (black font) and a variable number of optional fields (grey font; from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 ## SAM Header
 
@@ -322,7 +338,7 @@ The following table gives an overview of the different properties that can be en
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/src/tutorials/ngs/sam_flag.png) |
-|<small>The `FLAG` field of SAM files stores information about the respective read alignment in one single decimal number. The decimal number is the sum of all the answers to the Yes/No questions associated with each binary bit. The hexadecimal representation is used to refer to the individual bits (questions). A bit is set if the corresponding state is true. For example, if a read is paired, `0x1` will be set, returning the decimal value of 1. Therefore, all `FLAG` values associated with paired reads must be uneven decimal numbers. Conversely, if the `0x1` bit is unset (= read is not paired), no assumptions can be made about `0x2`, `0x8`, `0x20`, `0x40` and `0x80` because they refer to paired reads. From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo</small>|
+|<small>**Figure 12**. The `FLAG` field of SAM files stores information about the respective read alignment in one single decimal number. The decimal number is the sum of all the answers to the Yes/No questions associated with each binary bit. The hexadecimal representation is used to refer to the individual bits (questions). A bit is set if the corresponding state is true. For example, if a read is paired, `0x1` will be set, returning the decimal value of 1. Therefore, all `FLAG` values associated with paired reads must be uneven decimal numbers. Conversely, if the `0x1` bit is unset (= read is not paired), no assumptions can be made about `0x2`, `0x8`, `0x20`, `0x40` and `0x80` because they refer to paired reads (from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 In a run with single reads, the flags you most commonly see are:
 
@@ -333,8 +349,8 @@ In a run with single reads, the flags you most commonly see are:
 (`0x100`, `0x200` and `0x400` are not used by most aligners/mappers, but could, in principle be set for single reads.) Some common `FLAG` values that you may see in a PE experiment include:
 
 
-|                     |                                      |
-----------------------|---------------------------------------
+| FLAG value           |  Meaning                                   |
+|----------------------|---------------------------------------|
 |**69** (= 1 + 4 + 64) | The read is paired, is the first read in the pair, and is unmapped.|
 |**77** (= 1 + 4 + 8 + 64) | The read is paired, is the first read in the pair, both are unmapped.|
 |**83** (= 1 + 2 + 16 + 64) | The read is paired, mapped in a proper pair, is the first read in the pair, and it is mapped to the reverse strand.|
@@ -369,7 +385,7 @@ The sum of lengths of the **M**, **I**, **S**, **=**, **X** operations must equa
 |                                 |
 |---------------------------------|
 |![](/src/tutorials/ngs/cigar.png)|
-|<small>From [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo.</small>|
+|<small>**Figure 13**. Examples of CIGAR strings (from [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, and Paul Zumbo).</small>|
 
 ### Optional fields
 
@@ -406,37 +422,18 @@ GATK forum also provides the following example:
 
 ![](/src/tutorials/ngs/rg_example.png)
 
-To see an example of read group manipulation in Galaxy see the following video:
+To see an example of read group manipulation in Galaxy see the following video. In this video we use two BAM datasets as an example. We add readgroups and shown how it changes the underling BAM (SAM) data:
 
-<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123102338#t=1:40?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219683864" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-# Manipulating SAM/BAM datasets
+## Effects of PCR duplicates
 
-We support four major toolsets for processing of SAM/BAM datasets:
-
- * [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
- * [SAMtools](http://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
- * [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
- * [Picard](http://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
-
- The following video highlights de-duplication, filtering, and cleaning of a BAM dataset using BAMtools and Picard tools:
-
- <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123113197?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-### Try it yourself
-
-Perform a similar analyses with your own data. 
-
-# The challenge of read duplicates
-
-## PCR duplicates
-
-Preparation of sequencing libraries (at least at the time of writing) for technologies such as Illumina (used in this examples) involves PCR amplification. It is required to generate sufficient number of sequencing templates so that a reliable detection can be performed by base callers. Yet PCR has it's biases, which are especially profound in cases of multitemplate PCR used for construction of sequencing libraries (Kanagawa et al. [2003](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16233530)). 
+Preparation of sequencing libraries (at least at the time of writing) for technologies such as Illumina involves PCR amplification. It is required to generate sufficient number of sequencing templates so that a reliable detection can be performed by base callers. Yet PCR has it's biases, which are especially profound in cases of multitemplate PCR used for construction of sequencing libraries (Kanagawa et al. [2003](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16233530)). 
 
 |                                              |
 |----------------------------------------------|
 | ![](/src/tutorials/ngs/pcr-duplicates.png) |
-|<small>Analyzing molecules aligning with the same outer coordinates, a mapping quality of at least 30 and a length of at least 30nt, resulted in an average coverage of 12.9 per PCR duplicate and an empirical coverage distribution similar to an exponential/power law distribution (left upper panel). This indicates that many molecules are only observed for deeper sequencing while other molecules are available at higher frequencies. Analyzing length (left middle panel) and GC content (left lower panel) patterns as well as the combination (right panel) shows higher PCR duplicate counts for a GC content between 30% to 70% as well as for shorter molecules compared to longer molecules. This effect may be due to an amplification bias from the polymerase or the cluster generation process necessary for Illumina sequencing. From Ph.D. dissertation of [Martin Kircher](http://www.qucosa.de/fileadmin/data/qucosa/documents/7110/pflichtexemplar_final.pdf)).</small>|
+|<small>**Figure 14**. Analyzing molecules aligning with the same outer coordinates, a mapping quality of at least 30 and a length of at least 30nt, resulted in an average coverage of 12.9 per PCR duplicate and an empirical coverage distribution similar to an exponential/power law distribution (left upper panel). This indicates that many molecules are only observed for deeper sequencing while other molecules are available at higher frequencies. Analyzing length (left middle panel) and GC content (left lower panel) patterns as well as the combination (right panel) shows higher PCR duplicate counts for a GC content between 30% to 70% as well as for shorter molecules compared to longer molecules. This effect may be due to an amplification bias from the polymerase or the cluster generation process necessary for Illumina sequencing. From Ph.D. dissertation of [Martin Kircher](http://www.qucosa.de/fileadmin/data/qucosa/documents/7110/pflichtexemplar_final.pdf)).</small>|
 
 Duplicates can be identified based on their outer alignment coordinates or using sequence-based clustering. One of the common ways for identification of duplicate reads is the `MarkDuplicates` utility from [Picard](https://broadinstitute.github.io/picard/command-line-overview.html) package. It is designed to identify both PCR and optical duplicates:
 
@@ -452,5 +449,52 @@ However, one has to be careful when removing duplicates in cases when the sequen
 
 |                                              |
 |----------------------------------------------|
-| ![](/src/tutorials/ngs/sampling-bias.png) |
-| The Variant Allele Frequency (VAF) bias determined by coverage and insert size variance. Reads are paired-end and read length is 76. The insert size distribution is modeled as a Gaussian distribution with mean at 200 and standard deviation shown on the x-axis. The true VAF is 0.05. The darkness at each position indicates the magnitude of the bias in the VAF. (From Zhou et al. [2013](http://bioinformatics.oxfordjournals.org/content/30/8/1073)). |
+| ![](/src/tutorials/ngs/sampling-bias.png)    |
+|<small>**Figure 15**. The Variant Allele Frequency (VAF) bias determined by coverage and insert size variance. Reads are paired-end and read length is 76. The insert size distribution is modeled as a Gaussian distribution with mean at 200 and standard deviation shown on the x-axis. The true VAF is 0.05. The darkness at each position indicates the magnitude of the bias in the VAF. (From Zhou et al. [2013](http://bioinformatics.oxfordjournals.org/content/30/8/1073)).</small>|
+
+# Putting it all together
+
+In Galaxy we support four major toolsets for processing of SAM/BAM datasets:
+
+ * [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
+ * [SAMtools](http://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
+ * [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
+ * [Picard](http://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
+
+ The following two videos highlight major steps of fastq-to-BAM analysis trajectory. 
+
+## Organizing and QC'ing multiple datasets
+
+In a typical analysis scenario a user usually processes multiple datasets. To make the two following videos representative of real-live analyses we use a set of four samples, each consisting of two forward and reverse sets of reads for a total of eight fastq datasets. The first video describes upload, QC, and preparation of these datasets for the subsequent analysis. The figure below outlines steps highlighted in the video:
+
+|                                              |
+|----------------------------------------------|
+| ![](/src/tutorials/ngs/movie1.png)           |
+|<small>**Figure 16**. The analysis shown in this figure and the following video begins with uploading of 8 datasets into history. These datasets are first combined into a flat collection - a single entity containing eight fastq datasets. This collection is then analyzed with `fastQC` tool. This analyses produces another collection containing 8 `fastQC` outputs. Because it is inconvenient to look at individual `fastQC` reports, we feed the entire collection to `multiQC` tool, which produces a single summary outputs aggregating data from 8 `fastQC` reports.  At this point we are happy with the quality of the data and ready to move on with the subsequent analysis. To do this we organize our datasets into a different type of collection - a paired collection. You can see that the paired collection is "deeper" that a flat collection: it contains samples and for each sample is lists corresponding sets of forward and reverse reads (shown and red and blue boxes with "F" and "R"). To learn more about collections see [this tutorial](/tutorials/collections).</small>|
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219916942?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<br>
+
+After QC'ing we move on to map the reads, process the resulting BAM datasets, and visualize coverage in a genome browser. The following figure and video detail these steps:
+
+|                                              |
+|----------------------------------------------|
+| ![](/src/tutorials/ngs/movie2.png)           |
+|<small>**Figure 17**. In this analysis (see video below) we begin with a paired collection of fastq datasets. Mapping this collection to human genome with `bwa mem` produces a flat collection of BAM datasets. (**EXTREMELY IMPORTANT**: when mapping with `bwa mem` we set readgroups (at time marker 00:40 in the video). This allows us to merge individual BAM datasets into one at the end of this analysis.) Next using Picard's `MarkDuplicates` tool we process output of `bwa mem`. This step produces two collections: (1) a collection of deduplicated BAMs and (2) a collection of duplicate metrics data produced by `MarkDuplicates` tool. We use `multiQC` to visualize the duplicate metrics. We then filter BAM collection produced by `MarkDuplicates` using `Filter SAM or BAM` tool to retain only properly mapped reads with mapping quality above 20 and mapping only to mitochondria (chrM). Finally output of the filtering step is merged with `MergeSAM` tool and displayed in the UCSC Genome Browser. Again, merging is only possible because we have set the readgroups during the mapping step.</small>|
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/220047465?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<br>
+
+The merged BAM file can be using in a variety of downstream analyses. In this example we only used four samples represented by eight paired fastq datasets. Collection, prominently featured in this tutorial, make it easy to apply the same exact analysis logic to 100s or 1,000s of datasets. 
+
+## Try it yourself
+
+Perform a similar analyses with your own data. 
+
+# If things don't work...
+
+ - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+ - ...complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
+
