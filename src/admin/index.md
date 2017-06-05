@@ -1,7 +1,8 @@
 ---
 title: Galaxy Administration
 ---
-This is a hub page on topics related to deployment and administration of your own instance of Galaxy.
+This is a hub page on topics related to deployment and administration of your own instance of Galaxy.<br>
+If you are new to Galaxy and want to administer your own service read the [Ten Simple Rules for Setting up a Galaxy Instance as a Service](/src/admin/ten-simple-steps-galaxy-as-a-service/index.md).
 
 ## Setup admin user
 
