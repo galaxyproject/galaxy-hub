@@ -18,6 +18,22 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 If you missed the May 31 regular registration deadline then don't worry because it has been extended to June 16.  **[Regular registration](https://gcc2017.sciencesconf.org/page/registration) starts at 75€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
 
+## Keynotes
+
+### Eytan Domany: Personalized Analysis of  Cancer Data: From Genes to Pathways (and Back)
+
+[Dr. Eytan Domany](http://www.weizmann.ac.il/complex/compphys/) will cover his work in human genomics and computational biology principally in the cancer domain. Eytan Domany is a Professor of Computational Systems Biology in the Department of Physics and Complex Systems at the [Weizmann Institute of Science](http://www.weizmann.ac.il/) in Rehovot, Israel. The main focus of his group is to mine data from large-scale experiments in biology. The work includes development of mathematical methods, their implementation in algorithms (which are incorporated in user-friendly computational tools), which are then applied to study biological data. Eytan was awarded the [Sergio Lombroso Award in Cancer Research](http://www.weizmann.ac.il/pages/prof-eytan-domany) in 2016 for his research efforts.
+
+ 
+### Anton Nekrutenko & James Taylor: The Galaxy Project: from the Planck epoch to Montpellier
+
+[Dr. Anton Nekrutenko](/src/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/index.md) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
+
+If you are reading this, you probably already know who they are.  If not, see their [bios here](https://gcc2017.sciencesconf.org/).
+
+## And the rest of the schedule ...
+
+... will be published this week on the [conference schedule web site](https://gcc2017.sched.com/).
 
 ## Submit a Lightning Talk!
 
@@ -94,6 +110,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 ## Training Material Re-use Hackathon Reports
 
+<div class="right"><a href="https://github.com/galaxyproject/training-material"><img src="/src/images/news-graphics/gtn-materials-overview-2017-05.png" alt="GTN materials overview" width="220" /></div>
+
 The ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use was held last month in Cambridge, UK.  A lot was accomplished:
 
 * [Event report at de.NBI (written by Maria Doyle](http://www.denbi.de/events/358-review-of-elixir-goblet-gtn-hackathon-supported-by-de-nbi)
@@ -121,6 +139,9 @@ Some highlights from the papers added last month:
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
    [Björn A. Grüning](/src/people/bjoern_gruening/index.md), [Eric Rasche](/src/people/eric_rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl_eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john_chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james_taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
+* [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](http://dx.doi.org/10.1093/bioinformatics/btx320)
+   Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 
+
 ## Publication Topics
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
@@ -138,6 +159,7 @@ Some highlights from the papers added last month:
 
 The Galaxy is expanding! Please help it grow.
 
+* [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 * [Adviser for Data Infrastructure](https://www.academictransfer.com/employer/SURFsara/vacancy/40163/lang/en/), SURFsara, Amsterdam, The Netherlands
 * [Automated deployment of Galaxy environments using Ansible](http://artbio.fr/?page_id=78), Institut de Biologie Paris Seine, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
@@ -155,7 +177,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ## ImmPort Galaxy Update
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="200" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
 
 A new release of [ImmPort Galaxy](http://immportgalaxy.org/) is out:
 
@@ -165,6 +187,13 @@ A new release of [ImmPort Galaxy](http://immportgalaxy.org/) is out:
 * And a couple of tools to generate 1D Density plots.
 
 More cool visualizations to look at your flow cytometry data!
+
+
+## Usegalaxy.org
+
+* The STAR RNA-seq ultra fast aligner [is now on Usegalaxy.org](https://usegalaxy.org/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frgrnastar%2Frna_star%2F2.5.2b-0) and has 64GB of memory available for each job. 
+* [TopHat is gone from usegalaxy.org because there are now superior alternatives](https://biostar.usegalaxy.org/p/23367/).
+
 
 ## New Public Galaxy Servers
 
@@ -211,6 +240,8 @@ No new resources were added to community directories in January or February.
 
 # Tools
 
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+
 ## Qiime and mothur
 
 <div class='center'>
@@ -239,18 +270,70 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 
 # Releases
 
+## May 2017 Galaxy Release (v 17.05)
+
+<div class="right">
+<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href="https://vimeo.com/216884518"><img src="/src/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
+<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/src/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
+</div>
+
+The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
+
+**Tag your data with propagating hashtags**
+
+* Large Galaxy histories used to be messy. Hashtags make it easy to track dataset (and collection) relationships.
+* These two movies (both under a minute) explain how to use this [with datasets](https://vimeo.com/216884518) and [with collections](https://vimeo.com/216895965).
+* Learn more about Galaxy histories in our updated [tutorial](https://galaxyproject.org/tutorials/histories/).
+
+**Drag & Drop datasets into tool inputs**
+
+* Interface now allows dragging datasets from history panel into the content selectors of the tool form.
+* Implemented in [Pull Request 3871](https://github.com/galaxyproject/galaxy/pull/3871).
+
+**Upload directly to a collection**
+
+* You can now bypass the history manipulation and upload your data straight into a collection for convenience.
+*  Learn more about collections and how to use them in a new [tutorial](https://galaxyproject.org/tutorials/collections/).
+
+We extend special thanks to the 64 [New Contributors](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html#new-contributors) to Galaxy in the past year.
+
+Additionaly there are [New Configuration Options](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html#new-configuration-options)  and [New Datatypes](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html#new-datatypes) sections.
+
 
 ### Galaxy Docker Image 17.05
 
 The [Galaxy Docker project has seen a new release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.05), following Galaxy 17.05. Major features are an additional Docker compose setup with SLURM and HT-Condor deployments, BioContainers integration and much more automatic testing.
 
+And
+
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+* From [John Chilton](/src/people/john-chilton/index.md): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+
 
 ## Parsec 1.0.0 - 1.0.2
 
-[Parsec]](https://github.com/galaxy-iuc/parsec) is a newly released set of command-line utilities to assist in working with Galaxy servers.  It uses automatically generated wrappers for BioBlend functions.  The README includes several examples.
+[Parsec]]https://github.com/galaxy-iuc/parsec) is a newly released set of command-line utilities to assist in working with Galaxy servers.  It uses automatically generated wrappers for BioBlend functions. Manage histories, launch workflows, and more, all from the command line. The README includes several examples.
 
 
-## galaxy-lib 17.5.8
+## Planemo 0.41.0
+
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
+
+## BioBlend 0.9.0
+
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+
+See the [release notes](https://github.com/galaxyproject/bioblend/releases) for what's new in release 0.9.0.
+
+
+## galaxy-lib 17.5.9-11
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
@@ -261,30 +344,6 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 Other packages that have been released in the prior 4 months.
 
-###  17.01 Galaxy Release
-
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
-
-The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.01 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.01_announce.html)** in February.
-
-
-#### Highlights
-
-Some highlights:
-
-* **Conda auto initialization is enabled by default**
-* **New interface for user preferences**
-* **Support for compressed FASTQ formats**
-
-#### Release Notes
-
-For full details on all of the enhancements and fixes in this release, please see the [full release notes](https://docs.galaxyproject.org/en/master/releases/17.01_announce.html).
-
-
-#### Galaxy Docker Image 17.01
-
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
-
 ### CloudLaunch ##
 
 Technically, the [all-new Galaxy CloudLaunch service](https://beta.launch.usegalaxy.org/) has been in public beta since February but keep in mind that it will replace the [current CloudLaunch service](https://launch.usegalaxy.org/launch) eventually so give it a try and let us know how it performs for you.
@@ -293,68 +352,22 @@ Technically, the [all-new Galaxy CloudLaunch service](https://beta.launch.usegal
 
 [CloudBridge](https://github.com/gvlproject/cloudbridge) aims to provide a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud. It is currently under development and is in an Alpha state.  [Release 0.2.0](https://github.com/gvlproject/cloudbridge/releases/tag/v0.2.0) includes several fixes and enhancements.
 
-
-### Planemo 0.39 - 0.40
-
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-### Starforge 0.3
-
-<div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
-</div>
-
-[Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
-
-* Build [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) dependencies
-* Build [Python Wheels](http://pythonwheels.com/) (e.g. for the [Galaxy Wheels Server](http://wheels.galaxyproject.org/))
-* Rebuild Debian or Ubuntu source packages (for modifications)
-
-These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
-
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
-
-### Pulsar 0.7.4
-
-<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
-
-A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in February.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
-
-[This release](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst) contains Conda and flake8 updates.
-
-### sequence_utils
-
-Galaxy's [sequence utilities](https://github.com/galaxyproject/sequence_utils) are a set of Python modules for reading, analyzing, and converting sequence formats.
-
-
 ### And the rest ...
 
 Other Galaxy packages that haven't had a release in the past four months can be [found on GitHub](https://github.com/galaxyproject).
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
-
-
 
 # Other News
 
-<div class="right"><a href="http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow"><img src='/src/images/news-graphics/gigascience-guardians.png' alt="Guardians of the Galaxy Workflow" width="150" /></a></div>
+* [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html), blog post by [Paul Gordon](https://www.blogger.com/profile/02637194860456629067).
+* From  [Björn Grüning](/src/people/bjoern-gruening/index.md)
+  * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
+* From [Mo Heydarian](/src/people/mo-heydarian/index.md)
+ * Creating Galaxy workflows [is easier than you think](https://depot.galaxyproject.org/hub/attachments/documents/videos/2017-05-workflow-example.gif). If you like reproducibility, you'll like workflows!
+* New video on [Creating collections by uploading from SRA](https://vimeo.com/217216264).
+* From [Nate Coraor](/src/people/nate/index.md)
+  * Heads up: Galaxy roles published on galaxy.ansible.com have changed namespaces from `galaxyprojectdotorg` to just `galaxyproject`
 
-* [TopHat is gone from usegalaxy.org because there are now superior alternatives](https://biostar.usegalaxy.org/p/23367/).
 
-
-* [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
-* A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md)
-  * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
-* From [Peter Briggs](https://twitter.com/ironic_cog):
-  * [Galactic Engineer: Securing Galaxy with HTTPS running with Nginx using Let’s Encrypt](http://galacticengineer.blogspot.co.uk/2017/04/securing-galaxy-with-https-running-with.html)
-* The [Galaxy-P Project has a brand new website](http://galaxyp.org/).
-* A new [comprehensive ChIP-seq tutorial is available](/src/tutorials/chip/index.md) using DeepTools, MACS2, and MEME.
-* From Nathan Bott
-  * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/) 
