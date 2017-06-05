@@ -60,7 +60,7 @@ Upload the datasets. If you've done everything correctly, you will see Galaxy in
 |       |
 |-------|
 |![](/src/tutorials/ngs/data_uploaded.png)|
-|<small>**Figure 2**. Data are now uploaded and renamed.</small>|
+|<small>**Figure 2**. Data are now uploaded.</small>|
 
 
 # Fastq manipulation and quality control
@@ -204,21 +204,21 @@ One of the first steps in the analysis of NGS data is seeing how good the data a
 
 Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](http://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
 
-It may be challenging to use fastQC when you have a lot of datasets. For example, in our case there are four datasets. FastQC needs to be run on each dataset individually and then one needs to look at each fastqQC report individually. This may not be a big problem for four datasets, but it will become an issue if you have 100s or 1,000s of datasets. [Phil Ewels](https://github.com/ewels) has developed a tool called [MultiQC](http://multiqc.info/) that allows to summarize multiple QC reports at once. To run MultiQC you need to run fastQC on individual datasets and then feed fastqQC outputs to MultiQC (note that MultiQC is not limited to processing FastQC reports but accepts outputs of many other tools). Galaxy makes this easy as shown in the following video:
+It may be challenging to use `fastQC` when you have a lot of datasets. For example, in our case there are four datasets. `FastQC` needs to be run on each dataset individually and then one needs to look at each `fastqQC` report individually. This may not be a big problem for four datasets, but it will become an issue if you have 100s or 1,000s of datasets. [Phil Ewels](https://github.com/ewels) has developed a tool called [`MultiQC`](http://multiqc.info/) that allows to summarize multiple QC reports at once. To run `MultiQC` you need to run `fastQC` on individual datasets and then feed fastqQC outputs to `MultiQC` (note that `MultiQC` is not limited to processing FastQC reports but accepts outputs of many other tools). Galaxy makes this easy as shown in the following video:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123453134?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 
-In this video we run FastQC on the four datasets and then summarized these data with MultiQC. The following figure shows one of the graphs produced by MultiQC:
+In this video we run `FastQC` on the four datasets and then summarized these data with `MultiQC`. The following figure shows one of the graphs produced by `MultiQC`:
 
 |        |
 |--------|
 |![](/src/tutorials/ngs/multiqc.png)|
-|<small>**Figure 6.** MultiQC report showing quality score distribution for the four sequences using in this tutorial. Here `sample1-f` has highest quality: its quality scores never dip below phred score of 25. The other datasets are slightly worse, but all are generally acceptable.</small>|
+|<small>**Figure 6.** A `MultiQC` report showing quality score distribution for the four sequences using in this tutorial. Here `sample1-f` has highest quality: its quality scores never dip below phred score of 25. The other datasets are slightly worse, but all are generally acceptable.</small>|
 
 ## Trimming reads
 
-One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One if dynamically trim the reads:
+One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One is dynamically trim the reads:
 
  - slide a window across reads
  - at every step of the process calculate average quality of bases within the given window
@@ -452,21 +452,49 @@ However, one has to be careful when removing duplicates in cases when the sequen
 | ![](/src/tutorials/ngs/sampling-bias.png)    |
 |<small>**Figure 15**. The Variant Allele Frequency (VAF) bias determined by coverage and insert size variance. Reads are paired-end and read length is 76. The insert size distribution is modeled as a Gaussian distribution with mean at 200 and standard deviation shown on the x-axis. The true VAF is 0.05. The darkness at each position indicates the magnitude of the bias in the VAF. (From Zhou et al. [2013](http://bioinformatics.oxfordjournals.org/content/30/8/1073)).</small>|
 
+# Putting it all together
 
-# Manipulating SAM/BAM datasets
-
-We support four major toolsets for processing of SAM/BAM datasets:
+In Galaxy we support four major toolsets for processing of SAM/BAM datasets:
 
  * [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
  * [SAMtools](http://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
  * [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
  * [Picard](http://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
 
- The following video highlights de-duplication, filtering, and cleaning of a BAM dataset using BAMtools and Picard tools:
+ The following two videos highlight major steps of fastq-to-BAM analysis trajectory. 
 
- <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/123113197?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+## Organizing and QC'ing multiple datasets
 
-### Try it yourself
+In a typical analysis scenario a user usually processes multiple datasets. To make the two following videos representative of real-live analyses we use a set of four samples, each consisting of two forward and reverse sets of reads for a total of eight fastq datasets. The first video describes upload, QC, and preparation of these datasets for the subsequent analysis. The figure below outlines steps highlighted in the video:
+
+|                                              |
+|----------------------------------------------|
+| ![](/src/tutorials/ngs/movie1.png)           |
+|<small>**Figure 16**. The analysis shown in this figure and the following video begins with uploading of 8 datasets into history. These datasets are first combined into a flat collection - a single entity containing eight fastq datasets. This collection is then analyzed with `fastQC` tool. This analyses produces another collection containing 8 `fastQC` outputs. Because it is inconvenient to look at individual `fastQC` reports, we feed the entire collection to `multiQC` tool, which produces a single summary outputs aggregating data from 8 `fastQC` reports.  At this point we are happy with the quality of the data and ready to move on with the subsequent analysis. To do this we organize our datasets into a different type of collection - a paired collection. You can see that the paired collection is "deeper" that a flat collection: it contains samples and for each sample is lists corresponding sets of forward and reverse reads (shown and red and blue boxes with "F" and "R"). To learn more about collections see [this tutorial](/tutorials/collections).</small>|
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/219916942?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<br>
+
+After QC'ing we move on to map the reads, process the resulting BAM datasets, and visualize coverage in a genome browser. The following figure and video detail these steps:
+
+|                                              |
+|----------------------------------------------|
+| ![](/src/tutorials/ngs/movie2.png)           |
+|<small>**Figure 17**. In this analysis (see video below) we begin with a paired collection of fastq datasets. Mapping this collection to human genome with `bwa mem` produces a flat collection of BAM datasets. (**EXTREMELY IMPORTANT**: when mapping with `bwa mem` we set readgroups (at time marker 00:40 in the video). This allows us to merge individual BAM datasets into one at the end of this analysis.) Next using Picard's `MarkDuplicates` tool we process output of `bwa mem`. This step produces two collections: (1) a collection of deduplicated BAMs and (2) a collection of duplicate metrics data produced by `MarkDuplicates` tool. We use `multiQC` to visualize the duplicate metrics. We then filter BAM collection produced by `MarkDuplicates` using `Filter SAM or BAM` tool to retain only properly mapped reads with mapping quality above 20 and mapping only to mitochondria (chrM). Finally output of the filtering step is merged with `MergeSAM` tool and displayed in the UCSC Genome Browser. Again, merging is only possible because we have set the readgroups during the mapping step.</small>|
+
+<div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/220047465?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<br>
+
+The merged BAM file can be using in a variety of downstream analyses. In this example we only used four samples represented by eight paired fastq datasets. Collection, prominently featured in this tutorial, make it easy to apply the same exact analysis logic to 100s or 1,000s of datasets. 
+
+## Try it yourself
 
 Perform a similar analyses with your own data. 
+
+# If things don't work...
+
+ - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+ - ...complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
 
