@@ -6,7 +6,7 @@ title: June 2017 Galaxy News
 Welcome to the June 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
-# GCC2017 is this month!
+# GCC2017 is almost here!
 
 <div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
 
@@ -75,13 +75,21 @@ See you in Prague!
 
 
 
-# All upcoming events
+# All events
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+
+## Training Material Re-use Hackathon Reports
+
+The ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use was held last month in Cambridge, UK.  A lot was accomplished:
+
+* [Event report at de.NBI (written by Maria Doyle](http://www.denbi.de/events/358-review-of-elixir-goblet-gtn-hackathon-supported-by-de-nbi)
+* [Simon Gladman's UK trip report](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017/)
+
 
 ----
 
@@ -136,43 +144,36 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in May
 
+## ImmPort Galaxy Update
+
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="200" /></a></div>
+
+A new release of [ImmPort Galaxy](http://immportgalaxy.org/) is out:
+
+* R is all up to date logicle trans, 
+* Added a transformation algorithm to the Automated gating
+* Transformation and Converson of FCS files to text tool,
+* And a couple of tools to generate 1D Density plots.
+
+More cool visualizations to look at your flow cytometry data!
+
 ## New Public Galaxy Servers
 
 ### GVL MEL
 
-<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Melbourne" height="200" /></a></div>
+<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Melbourne" height="100" /></a></div>
 
-* *Link:*
-  * [Galaxy Melbourne](http://galaxy-mel.genome.edu.au/)
-* *Domain/Purpose:*
-  * General purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).
-* *Comments:*
-* *User Support:*
-  * [GVL Help](https://www.gvl.org.au/)
-  * Follow tutorials at [GVL Learn](https://www.gvl.org.au/learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
-* *Quotas:*
-  * Registration is required. Anyone can register.
-  * Default quota of 100GB which can be increased on request.
-* *Sponsor(s):*
-  * [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au)
+[Galaxy Melbourne](http://galaxy-mel.genome.edu.au/) is a general purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).  Support options include [GVL Help](https://www.gvl.org.au/), tutorials at [GVL Learn](https://www.gvl.org.au/learn) and [Galaxy Tut](http://galaxy-tut.genome.edu.au/).  Registration is required but anyone can register. The default quota of 100GB which can be increased on request.  GVL MEL is supported by the [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au).
 
-## ChimeRScope
+### ChimeRScope
 
-<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/public-galaxy-servers/chimerscope.png" alt="ChimeRScope Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/public-galaxy-servers/chimerscope.png" alt="ChimeRScope Galaxy" width="200" /></a></div>
 
-* *Link:*
-  * [ChimeRScope Galaxy Server](https://galaxy.unmc.edu/)
-* *Domain/Purpose:*
-  * Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets.
-* *Comments:*
-  * ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
-  * See You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
-* *User Support:*
-* [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki) and [FAQ](https://github.com/ChimeRScope/ChimeRScope/wiki/FAQs)
-* *Quotas:*
-  * Supports anonymous access and creation of user logins.
-* *Sponsor(s):*
-  * [Guda Lab](http://unmc.edu/gudalab/) at the [University of Nebraska Medical Center](http://www.unmc.edu/).
+[ChimeRScope Galaxy](https://galaxy.unmc.edu/) is a tool publishing server for fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
+
+See You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
+
+There is a [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki) including a [FAQ](https://github.com/ChimeRScope/ChimeRScope/wiki/FAQs). The server supports anonymous access and creation of user logins. ChimeRScope Galaxy is supported by the [Guda Lab](http://unmc.edu/gudalab/) at the [University of Nebraska Medical Center](http://www.unmc.edu/).
 
 
 <!--
@@ -228,6 +229,15 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 
 
 # Releases
+
+
+### Galaxy Docker Image 17.05
+
+The [Galaxy Docker project has seen a new release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.05), following Galaxy 17.05. Major features are an additional Docker compose setup with SLURM and HT-Condor deployments, BioContainers integration and much more automatic testing.
+
+
+
+
 
 ## galaxy-lib 17.5.8
 
@@ -323,6 +333,9 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 <div class="right"><a href="http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow"><img src='/src/images/news-graphics/gigascience-guardians.png' alt="Guardians of the Galaxy Workflow" width="150" /></a></div>
+
+* [TopHat is gone from usegalaxy.org because there are now superior alternatives](https://biostar.usegalaxy.org/p/23367/).
+
 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
 * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
