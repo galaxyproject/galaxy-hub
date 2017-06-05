@@ -1330,6 +1330,26 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
 
 
+
+## ChimeRScope
+
+<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/public-galaxy-servers/chimerscope.png" alt="ChimeRScope Galaxy" width="300" /></a></div>
+
+* *Link:*
+  * [ChimeRScope Galaxy Server](https://galaxy.unmc.edu/)
+* *Domain/Purpose:*
+  * Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets.
+* *Comments:*
+  * ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
+  * See You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
+* *User Support:*
+* [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki) and [FAQ](https://github.com/ChimeRScope/ChimeRScope/wiki/FAQs)
+* *Quotas:*
+  * Supports anonymous access and creation of user logins.
+* *Sponsor(s):*
+  * [Guda Lab](http://unmc.edu/gudalab/) at the [University of Nebraska Medical Center](http://www.unmc.edu/).
+
+
 ## deepTools2
 
 <div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deepTools.png" alt="deepTools Galaxy Server"  /></a></div>
