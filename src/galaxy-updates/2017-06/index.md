@@ -36,6 +36,14 @@ Lightning talks are an excellent chance to share your work, preliminary or other
 
 GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Sponsors are potential partners in your research and sponsorships greatly lower the cost of conference registration.  Have a look at the [GCC2017 sponsor list](https://gcc2017.sciencesconf.org/page/sponsors) and plan on learning what they have to offer (and thanking them) while you are in Monpellier.
 
+## Hack the Universe: Capture the Flag at GCC2017!
+
+<div class="center"><a href="https://ctf.galaxians.org/"><img src="https://depot.galaxyproject.org/hub/attachments/events/2017-gcc/hack-the-universe.gif" alt='Capture the flag at GCC2017!' /></a>
+
+(Quite possibly the first animated GIF used in a Galaxy Newsletter.)
+</div>
+
+
 ## GCC2017 Call for BoFs!
 
 <div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRCs97OWt47qmMxWZAtSV3TTLJ24IhW0m2lHGPLiqJU0Xkzw/viewform"><img src="/src/events/2017-gcc/gcc2017-bofs.png" alt='2017 Galaxy Community Conference BoFs' width="170" /></a></div>
@@ -206,7 +214,7 @@ No new resources were added to community directories in January or February.
 
 <div class='center'>
 <a href='http://qiime.org/'><img src="/src/images/logos/qiime.png" alt="Qiime: Quantitative Insights Into Microbial Ecology" height="100" /></a> &nbsp;&nbsp;
-<a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a>
+<a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
 </div>
 
 Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/src/iuc/index.md) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
@@ -236,7 +244,9 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 The [Galaxy Docker project has seen a new release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.05), following Galaxy 17.05. Major features are an additional Docker compose setup with SLURM and HT-Condor deployments, BioContainers integration and much more automatic testing.
 
 
+## Parsec 1.0.0 - 1.0.2
 
+[Parsec]](https://github.com/galaxy-iuc/parsec) is a newly released set of command-line utilities to assist in working with Galaxy servers.  It uses automatically generated wrappers for BioBlend functions.  The README includes several examples.
 
 
 ## galaxy-lib 17.5.8
