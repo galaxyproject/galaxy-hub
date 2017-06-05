@@ -40,6 +40,7 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 
 <div class="center"><a href="https://ctf.galaxians.org/"><img src="https://depot.galaxyproject.org/hub/attachments/events/2017-gcc/hack-the-universe.gif" alt='Capture the flag at GCC2017!' /></a>
 
+<br />
 (Quite possibly the first animated GIF used in a Galaxy Newsletter.)
 </div>
 
