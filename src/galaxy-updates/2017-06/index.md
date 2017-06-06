@@ -388,7 +388,7 @@ And
 
 ## Parsec 1.0.0 - 1.0.2
 
-[Parsec]]https://github.com/galaxy-iuc/parsec) is a newly released set of command-line utilities to assist in working with Galaxy servers.  It uses automatically generated wrappers for BioBlend functions. Manage histories, launch workflows, and more, all from the command line. The README includes several examples.
+[Parsec](https://github.com/galaxy-iuc/parsec) is a newly released set of command-line utilities to assist in working with Galaxy servers.  It uses automatically generated wrappers for BioBlend functions. Manage histories, launch workflows, and more, all from the command line. The README includes several examples.
 
 
 ## Planemo 0.41.0
@@ -413,7 +413,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ## Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](https://galaxyproject.org/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](https://galaxyproject.org/cloudman/#getting-started) guide.
+A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
 
 
 ## Earlier Releases
