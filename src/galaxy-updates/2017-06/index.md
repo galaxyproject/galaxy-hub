@@ -161,6 +161,12 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Nicola Soranzo, Graham Etherington</td>
   </tr>
   <tr>
+    <td><span class="text-nowrap">September 25th 2017</span></td>
+    <td><a href="http://compgen.mdc-berlin.de/">Computational Genomics and RNA Biology</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.mdc-berlin.de/bimsb">Berlin Institute for Medical Systems Biology, Max Delbrück Center, Berlin, Germany</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>compgen@mdc-berlin.de</td>
+  </tr>
+  <tr>
     <td><span class="text-nowrap">October 23rd 2017</span></td>
     <td><a href="http://sciencegateways.org/gateways2017/">Gateways 2017</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.umich.edu/">University of Michigan, Ann Arbor, Michigan, United States</a></td>
