@@ -20,12 +20,16 @@ If you missed the May 31 regular registration deadline then don't worry because 
 
 ## Keynotes
 
-### Eytan Domany: Personalized Analysis of  Cancer Data: From Genes to Pathways (and Back)
+### Eytan Domany
+
+**Personalized Analysis of  Cancer Data: From Genes to Pathways (and Back)**
 
 [Dr. Eytan Domany](http://www.weizmann.ac.il/complex/compphys/) will cover his work in human genomics and computational biology principally in the cancer domain. Eytan Domany is a Professor of Computational Systems Biology in the Department of Physics and Complex Systems at the [Weizmann Institute of Science](http://www.weizmann.ac.il/) in Rehovot, Israel. The main focus of his group is to mine data from large-scale experiments in biology. The work includes development of mathematical methods, their implementation in algorithms (which are incorporated in user-friendly computational tools), which are then applied to study biological data. Eytan was awarded the [Sergio Lombroso Award in Cancer Research](http://www.weizmann.ac.il/pages/prof-eytan-domany) in 2016 for his research efforts.
 
  
-### Anton Nekrutenko & James Taylor: The Galaxy Project: from the Planck epoch to Montpellier
+### Anton Nekrutenko & James Taylor
+
+**The Galaxy Project: from the Planck epoch to Montpellier**
 
 [Dr. Anton Nekrutenko](/src/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/index.md) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
 
@@ -46,7 +50,7 @@ Lightning talks are an excellent chance to share your work, preliminary or other
 
 [Abstract submission](https://gcc2017.sciencesconf.org/page/submit) for regualr talks, posters and demos closed in May.  However you can still submit late oral prentations abstracts, posters and demos.  Late oral presentation abstracts are considered as cancellations occur, and posters and demos will be reviewed until the space is full.
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/page/sponsors"><img src="/src/events/2017-gcc/sponsor-cloud.png" alt='2017 Galaxy Community Conference Sponsors' width="220" /></a></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/page/sponsors"><img src="/src/events/2017-gcc/sponsor-cloud.png" alt='2017 Galaxy Community Conference Sponsors' width="180" /></a></div>
 
 ## GCC2017 Sponsors
 
@@ -67,7 +71,9 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
-[Interested?](/src/news/2017-05-call-for-bofs/index.md)
+Interested?
+* [Start a BoF](/src/news/2017-05-call-for-bofs/index.md)
+* [See already proposed BoFs](https://gcc2017.sched.com/overview/type/Conference/BoF)
 
 # Galaxy Tutorial @ ISMB/ECCB 2017
 
@@ -305,7 +311,7 @@ No new resources were added to community directories in January or February.
 ## Qiime and mothur
 
 <div class='center'>
-<a href='http://qiime.org/'><img src="/src/images/logos/qiime.png" alt="Qiime: Quantitative Insights Into Microbial Ecology" height="100" /></a> &nbsp;&nbsp;
+<a href='http://qiime.org/'><img src="/src/images/logos/qiime.png" alt="Qiime: Quantitative Insights Into Microbial Ecology" height="100" /></a> &nbsp;&nbsp;&nbsp;
 <a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
 </div>
 
@@ -425,7 +431,8 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html), blog post by [Paul Gordon](https://www.blogger.com/profile/02637194860456629067).
+* From  [Paul Gordon](https://www.blogger.com/profile/02637194860456629067)
+  * [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html)
 * From  [Björn Grüning](/src/people/bjoern-gruening/index.md)
   * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
 * From [Mo Heydarian](/src/people/mo-heydarian/index.md)
