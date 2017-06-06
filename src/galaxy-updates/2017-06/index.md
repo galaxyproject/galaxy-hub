@@ -325,7 +325,9 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
+## Galaxy CloudMan 17.05 on AWS
 
+A new release of [Galaxy CloudMan](https://galaxyproject.org/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](https://galaxyproject.org/cloudman/#getting-started) guide.
 
 
 ## Earlier Releases
