@@ -20,7 +20,6 @@ These tutorials are using Galaxy's main site at http://usegalaxy.org:
  - RNA-seq: [Introduction](/tutorials/rb_rnaseq)
  - RNA-seq: [Discovering and quantifying new transcripts](/tutorials/nt_rnaseq)
  - ChIP-seq: [A simple ChIP-seq experiment with two replicates](/tutorials/chip)
- - PlantTribes: [Perform comparative and evolutionary analyses of gene families and transcriptomes](/tutorials/pt_gfam)
 
 ## Interactive Tours
 
@@ -41,6 +40,7 @@ Thanks to a large [group of wonderful contributors](https://github.com/galaxypro
  - [Quality control of NGS data](https://galaxyproject.github.io/training-material//NGS-QC)
  - [Exome data analysis](https://galaxyproject.github.io/training-material//Exome-Seq)
  - [DNA methylation analysis](https://galaxyproject.github.io/training-material//MethylC-Seq)
+ - PlantTribes: [Perform comparative and evolutionary analyses of gene families and transcriptomes](/tutorials/pt_gfam)
 
 ## Tutorials from Lewis-Sigler Institute @ Princeton 
 
