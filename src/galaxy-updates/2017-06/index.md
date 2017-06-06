@@ -16,7 +16,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## Regular Registration Rates Extended to June 16
 
-If you missed the May 31 regular registration deadline then don't worry because it has been extended to June 16.  **[Regular registration](https://gcc2017.sciencesconf.org/page/registration) starts at 75€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
+If you missed the May 31 regular registration deadline then don't worry because it has been extended to June 16.  **[Regular registration](https://gcc2017.sciencesconf.org/page/registration)** starts at 75€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
 
 ## Keynotes
 
@@ -85,7 +85,7 @@ The conference *enables and encourages* BoFs by
 
 <div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
-Know someone whoe need to learn more deploying Galaxy in their organization? There will be a half day [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) tutorial at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
+Know someone who needs to learn more deploying Galaxy in their organization? There will be a half day [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) tutorial at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
 Participants will learn to
 
@@ -240,8 +240,6 @@ No new resources were added to community directories in January or February.
 
 # Tools
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
-
 ## Qiime and mothur
 
 <div class='center'>
@@ -264,6 +262,8 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 
 
 ## ToolShed Contributions
+
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 [Tool Shed contributions from May](/src/toolshed/contributions/2017-05/index.md).
 
