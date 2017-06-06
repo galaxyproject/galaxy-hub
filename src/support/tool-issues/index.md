@@ -1,7 +1,8 @@
-_Last updated 6-1-17_
+_Last updated 6-6-17_
 
 ## Issue by tool name 
 
+1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1322
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org.Details: https://github.com/galaxyproject/tools-devteam/issues/340
 1. (2) **Du Novo: Align families 0.7** Tool updates removed the cluster targetting for Jetstream. Jobs are failing again for walltime. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3057
