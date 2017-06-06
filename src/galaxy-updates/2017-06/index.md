@@ -92,7 +92,81 @@ See you in Prague!
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
-
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th>Date</th>
+    <th>Topic/Event</th>
+    <th>Venue/Location</th>
+    <th>Contact</th>
+  </tr></thead><tbody>
+  <tr>
+    <td><span class="text-nowrap">June 20th 2017</span></td>
+    <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">June 26th 2017</span></td>
+    <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/events/2017-gcc">hub page</a>]</td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/>Montpellier, Fance</td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">June 29th 2017</span></td>
+    <td><a href="http://www.denbi.de/22-training-cat/training-courses/353-bimsb-galaxy-course-using-galaxy-for-rna-seq-analysis">Using Galaxy for RNA-seq analysis</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/>MDC, Berlin, Germany</td>
+    <td>Dilmurat Yusuf, Bora Uyar</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 2nd 2017</span></td>
+    <td><a href="http://www.smbe2017.org/symposia/">Computation and reproducibility in molecular evolution</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.smbe2017.org/">SMBE 2017, Austin, Texas, United States</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 6th 2017</span></td>
+    <td><a href="https://tild.sciencesconf.org/">Stratégies D'Analyse Données Omiques - Ateliers Introductifs Galaxy et Cytopscape</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.univ-tours.fr/">Université François-Rabelais, Tours, France</a></td>
+    <td>Franziska Liesecke</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 20th 2017</span></td>
+    <td><a href="https://www.open-bio.org/wiki/Codefest_2017">OpenBio Codefest 2017</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://brmlab.cz/">Brmlab, Prague, Czechia</a></td>
+    <td>Brad Chapman, Matúš Kalaš, Heather Wiencko</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 21st 2017</span></td>
+    <td><a href="/events/2017-ismb-bosc">Galaxy @ ISMB/ECCB 2017 &amp; BOSC 2017 </a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.iscb.org/ismbeccb2017">Prague, Czechia</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 25th 2017</span></td>
+    <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">September 1st 2017</span></td>
+    <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/events/2017-genome-10k">hub page</a>]</td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Nicola Soranzo, Graham Etherington</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">October 23rd 2017</span></td>
+    <td><a href="http://sciencegateways.org/gateways2017/">Gateways 2017</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.umich.edu/">University of Michigan, Ann Arbor, Michigan, United States</a></td>
+    <td>Enis Afgan</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">October 23rd 2017</span></td>
+    <td><a href="http://cnrsformation.cnrs.fr/stage-17012-Analyse-avancee-de-sequences.html?axe=65">Analyse avancée de séquences</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.cbib.u-bordeaux.fr/">Carreire de l'Université Bordeaux Segalen, Bordeaux, France</a></td>
+    <td>Aurélien Barré, Raluca Uricaru, Benjamin Dartigues</td>
+  </tr>
+  </tbody></table>
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 

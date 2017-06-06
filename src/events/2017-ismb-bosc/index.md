@@ -26,13 +26,15 @@ Galaxy is expected to have a significant presence at [ISMB/ECCB 2017](https://ww
 
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
-| | | | |
+| 11:55 | Discovery and visualisation of homologous genes and gene families using Galaxy | Anil S. Thanki | BOSC |
+| 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | Björn Grüning | BOSC |
+| 15:28 | A Ubiquitous Approach to Reproducible Bioinformatics across Computational Platforms | John Chilton | BOSC |
 
 ## 23 July, Sunday
 
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
-| | | | |
+| 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | BOSC |
 
 ## 24 July, Monday
 
