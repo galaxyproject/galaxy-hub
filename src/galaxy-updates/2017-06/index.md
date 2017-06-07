@@ -79,7 +79,7 @@ Interested?
 
 <div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
-Know someone who needs to learn more deploying Galaxy in their organization? There will be a half day [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) tutorial at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
+Know someone who needs to learn more about deploying Galaxy in their organization? There will be a half day [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) tutorial at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
 Participants will learn to
 
