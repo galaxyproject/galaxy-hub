@@ -62,7 +62,7 @@ During a typical RNAseq experiment the information about strandedness is lost af
 
 |                             |
 |-----------------------------|
-|![](/src/tutorials/rb_rnaseq/stranded_protocols.png)](http://www.nature.com/nmeth/journal/v7/n9/fig_tab/nmeth.1491_F1.html)|
+|[![](/src/tutorials/rb_rnaseq/stranded_protocols.png)](http://www.nature.com/nmeth/journal/v7/n9/fig_tab/nmeth.1491_F1.html)|
 |<small>**Figure 4. Generation of stranded RNAseq libraries***
 Different types of stranded library generation protocols from [Levin:2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)
 </small>|
@@ -73,7 +73,7 @@ polarity (5' and 3' ends that are functionally distinct):
 
 |                             |
 |-----------------------------|
-|![](/src/tutorials/rb_rnaseq/lib_type.png)](http://sailfish.readthedocs.org/en/master/library_type.html)|
+|[![](/src/tutorials/rb_rnaseq/lib_type.png)](http://sailfish.readthedocs.org/en/master/library_type.html)|
 |<small>**Figure 5. Effects of RNAseq library types**
 Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)
 </small>|
@@ -141,7 +141,7 @@ After sequencing is performed you have a collection of sequencing reads for each
 
 |                             |
 |-----------------------------|
-|![](/src/tutorials/rb_rnaseq/tophat.png)](http://bioinformatics.oxfordjournals.org/content/25/9/1105/F1.expansion.html)|
+|[![](/src/tutorials/rb_rnaseq/tophat.png)](http://bioinformatics.oxfordjournals.org/content/25/9/1105/F1.expansion.html)|
 |<small>**Figure 7. TopHat and TopHat2: Mapping RNAseq regions to genome**
 In TopHat reads are mapped against the genome and are separated into two categories: (1) those that map, and (2) those that initially unmapped (IUM). "Piles" of reads representing potential exons are extended in search of potential donor/acceptor splice sites and potential splice junctions are reconstructed. IUMs are then mapped to these junctions. Image from [Trapnell:2009](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full).
 </small>|
@@ -150,7 +150,7 @@ In TopHat reads are mapped against the genome and are separated into two categor
 
 |                             |
 |-----------------------------|
-|![](/src/tutorials/rb_rnaseq/tophat2.png)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36)|
+|[![](/src/tutorials/rb_rnaseq/tophat2.png)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36)|
 |<small>**Figure 8. TopHat has been subsequently improved with the development of TopHat2**
 Image from [Kim:2012](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-4-r36) summarizes steps involved in aligning of RNAseq reads with TopHat2 </small>|
 
@@ -190,7 +190,7 @@ The previous step - mapping - assigns RNAseq reads to genomic locations and iden
 
 |                             |
 |-----------------------------|
-|![](/src/tutorials/rb_rnaseq/rnaseq_comparison.png)](http://bioinformatics.oxfordjournals.org/content/early/2015/09/08/bioinformatics.btv488/F5.large.jpg)|
+|[![](/src/tutorials/rb_rnaseq/rnaseq_comparison.png)](http://bioinformatics.oxfordjournals.org/content/early/2015/09/08/bioinformatics.btv488/F5.large.jpg)|
 |<small>**Figure 10. Comparison of transcript reconsruction approaches**
 Here *recall* (the number of correctly constructed forms divided by the total number of real forms) versus *precision* (true positives divided by the sum of true positives and false positives) are plotted for seven transcript assemblers tested on two simulated datasets: *EnsemblPerfect* and *EnsemblRealistic*. The shaded region is indicating suboptimal performance (i.e., the white, unshaded region is "good"). The figure is from [Hayer:2015](http://bioinformatics.oxfordjournals.org/content/early/2015/09/03/bioinformatics.btv488.full.pdf+html).</small>|
 
