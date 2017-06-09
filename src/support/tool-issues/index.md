@@ -1,5 +1,9 @@
 _Last updated 6-6-17_
 
+## Current tool improvements and updates
+
+Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1292
+
 ## Issue by tool name 
 
 1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1322
