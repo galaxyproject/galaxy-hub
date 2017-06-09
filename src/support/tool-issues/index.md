@@ -79,6 +79,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **GenomeDiversity PrepareInput gd_prepare_population_structure 1.1.0** Dependency/config issue resolved 1.2.0. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/4108
 1. **DEXseq 1.20.1** Dependencies issues. Related tool **DEXSeq Counts 1.20.1** already has fixed dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3709
 1. **MACS2 bdgdiff + bdgbroadcall 2.1.1.20160309.0** Tool version updated 4/11/17 errors with "macs2 command not found". Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
 1. **MACS2 bdgdiff 2.1.0.20151222.0** Did not have "Versions" menu on tool form. Cannot change versions on tool form still, but closed out anyway. Impacts Galaxy Main http://usegalaxyorg. Details: https://github.com/galaxyproject/galaxy/issues/3925
@@ -107,7 +108,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 1. **Convert Formats: Convert BAM to ScIdx** Fails for dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2460
 1. **Group** Fails under specific conditions. Fixed, pending deployment. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/pull/2166
 1. **Multi-join** Has dependencies issues. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/2511
-1. **GenomeDiversity Admixture** Dependency/config issue. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/2641
+1. **GenomeDiversity Admixture gd_specify 1.1.0** Dependency/config issue corrected on server, no version change, retested after other GD 1.2.0 tools updated = pass. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/2641
 1. **BAMTools Convert, Merge, Randomize** Fails for Convert to Bed + Yaml. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/378
 1. **VCF-VCFintersect** Needs to be updated in the Main Tool Shed and Galaxy Test/Main servers. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/391
 1. **Bedtools SpacingBed** Dependency/config issues. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/2640
