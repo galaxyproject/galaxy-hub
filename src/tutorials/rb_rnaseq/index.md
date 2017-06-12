@@ -385,12 +385,13 @@ Here is what to do to load the data:
 >![](/src/tutorials/rb_rnaseq/rnaseq_data_in_history.png)
 >
 >Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. Also, see this [tutorial](collections.html) for yet another explanation of dataset collections.
+>
 > <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/163625221" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 >
 
 ### Mapping reads
 
-We will map the reads with TopHat2. Select **TopHat** from **NGS: RNA Analysis** section of the tool menu (left pane of Galaxy's interface):
+We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** section of the tool menu (left pane of Galaxy's interface):
 
 
 
@@ -407,14 +408,8 @@ We will map the reads with TopHat2. Select **TopHat** from **NGS: RNA Analysis**
 >
 >* **Paired alignment parameters** = `Specify Paired alignment parameter`. This is done to disable looking for discordant alignments.
 >
-
-
->|                             |
-|-----------------------------|
-|![](/src/tutorials/rb_rnaseq/hisat_interface.png)|
-|<small></small>|
-
-
+>![](/src/tutorials/rb_rnaseq/hisat_interface.png)
+>
 >The same procedure is then repeated for collection **c2**. In the end it generates a lot of datasets in the history resulting in something resembling an image below. TopHat produces five types of output and because we started with dataset collections every one of the green boxes shown below is actually a collection of outputs for **c1** and **c2**, respectively.
 >
 >![](/src/tutorials/rb_rnaseq/tophat_output.png)
