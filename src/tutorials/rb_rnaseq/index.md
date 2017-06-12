@@ -63,7 +63,7 @@ During a typical RNAseq experiment the information about strandedness is lost af
 |                             |
 |-----------------------------|
 |[![](/src/tutorials/rb_rnaseq/stranded_protocols.png)](http://www.nature.com/nmeth/journal/v7/n9/fig_tab/nmeth.1491_F1.html)|
-|<small>**Figure 4. Generation of stranded RNAseq libraries***
+|<small>**Figure 4. Generation of stranded RNAseq libraries**
 Different types of stranded library generation protocols from [Levin:2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)
 </small>|
 
@@ -392,17 +392,29 @@ Here is what to do to load the data:
 
 We will map the reads with TopHat2. Select **TopHat** from **NGS: RNA Analysis** section of the tool menu (left pane of Galaxy's interface):
 
-#### Mapping with TopHat2
 
->In this case the input to TopHat is **not** individual datasets, but a collection instead. The [video](https://vimeo.com/163625221) above shows how to generate collection. Since we have created two collection as was described above, we will used them as inputs (note that **Is this single-end or paired-end data?** is set to `Paired-end (as collection)`). Make sure that the top part of TopHat interface looks like in the image below. Here the following parameters are set:
+
+#### Mapping with HISAT
+
+>In this case the input to HISAT is **not** individual datasets, but a collection instead. The [video](https://vimeo.com/163625221) above shows how to generate collection. Since we have created two collection as was described above, we will used them as inputs (note that **Is this single-end or paired-end data?** is set to `Paired-end (as collection)`). Make sure that the top part of HISAT interface looks like in the image below. Here the following parameters are set:
+
 >
->* **Mean Inner Distance between Mate Pairs** = `28` This is because paired reads are 100 bp and mean insert size is 228 bp so that 228 - (100 + 100) = 28
+>* **Paired-end options** = `Use default values`. Specifying paired end parameters allows to disable alignments of individual mates, discordant alignments, and skip reference strand of reference.
+>
 >* **Use a built in reference genome or own from your history** = `Use a build-in genome` and `dm3` is selected. This is because the reads are from *D. melanogaster*.
->* **TopHat settings to use** = `Full parameter list` This is done to be able to specify the strandedness of the library.
->* **Library Type** = `FR First Strand`
 >
->![](/src/tutorials/rb_rnaseq/tophat_interface.png)
+>* **Primary alignments** = 5 specifies the maximal number of alignements searched by HISAT. The algorithm will stopped after no more valid alignment is found of when 5 have been found. The alignements are not ordered, meaning that the 5 alignement selected are not the top 5 alignements.
 >
+>* **Paired alignment parameters** = `Specify Paired alignment parameter`. This is done to disable looking for discordant alignments.
+>
+
+
+>|                             |
+|-----------------------------|
+|![](/src/tutorials/rb_rnaseq/hisat_interface.png)|
+|<small></small>|
+
+
 >The same procedure is then repeated for collection **c2**. In the end it generates a lot of datasets in the history resulting in something resembling an image below. TopHat produces five types of output and because we started with dataset collections every one of the green boxes shown below is actually a collection of outputs for **c1** and **c2**, respectively.
 >
 >![](/src/tutorials/rb_rnaseq/tophat_output.png)
