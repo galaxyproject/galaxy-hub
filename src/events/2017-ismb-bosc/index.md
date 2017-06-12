@@ -40,8 +40,8 @@ Galaxy is expected to have a significant presence at [ISMB/ECCB 2017](https://ww
 | ---- | ---- | ---- | ---- |
 | 11:55 | Discovery and visualisation of homologous genes and gene families using Galaxy | Anil S. Thanki | BOSC |
 |12:30 | [SIAMCAT - Statistical Inference of Associations between Microbial Communities And host phenoTypes](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=B) | Konrad Zych | BOSC |
-| 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | Björn Grüning | BOSC |
-| 15:28 | A Ubiquitous Approach to Reproducible Bioinformatics across Computational Platforms | John Chilton | BOSC |
+| 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | [Bjorn Gruning](/src/people/bjoern-gruening/index.md) | BOSC |
+| 15:28 | A Ubiquitous Approach to Reproducible Bioinformatics across Computational Platforms | [John Chilton](/src/people/john-chilton/index.md) | BOSC |
 | 16:30 | [TT03: Supporting highly scalable scientific data analysis with Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/technologytrack.php) | [James Taylor](/src/people/james-taylor/index.md) | ISMB/ECCB |
 
 
