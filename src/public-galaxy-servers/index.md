@@ -17,6 +17,28 @@ There are also a number of [Galaxy services](/src/galaxy-services/index.md) that
 
 These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
+## ABiMS
+
+<div class='right solid'><a href='http://abims.sb-roscoff.fr'><img src="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/ABiMS.png" alt="ABiMS"  /></a></div>
+
+* *Links:*
+  * [ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)
+  * [Request an account](http://abims.sb-roscoff.fr/account) (require a professional/institutional email address)
+* *Domain/Purpose:*
+  * General purpose genomics analysis, featuring many standard tools plus many additional tools.
+  * Howerver, we are specialized in RNASeq with reference and RNASeq denovo 
+* *Comments:*
+  * Only available for registered users
+* *User Support:*
+  * [Email](mailto:support DOT abims AT sb-roscoff DOT fr)
+* *Quotas:*
+  * The default quota for new users is 20GB but can be extended on request
+* *Sponsor(s):*
+  * [CNRS](http://www.cnrs.fr/)
+  * [UPMC](http://www.upmc.fr/)
+  * [BioGenOuest](https://www.biogenouest.org/) and [IFB](http://www.france-bioinformatique.fr/)
+  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
+
 ## Biomina
 
 <div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src="/src/public-galaxy-servers/Biomina300.png" alt="Biomina Galaxy"  /></a></div>
