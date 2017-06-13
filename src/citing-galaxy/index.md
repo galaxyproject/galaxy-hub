@@ -47,7 +47,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### Interactive Environments
 
- [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv*, (2016) doi:10.1101/075457
+ [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
 ### Reproducibility
 
@@ -64,6 +64,15 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 ## Galaxy Project Publications by Year
 
 Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md) as authors.
+
+
+
+ **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv*, (2016) doi:10.1101/075457
+
+
+### 2017
+
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
 ### 2016
 

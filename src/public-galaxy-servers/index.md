@@ -17,7 +17,27 @@ There are also a number of [Galaxy services](/src/galaxy-services/index.md) that
 
 These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
-<!-- Biomina offline since 2017/02
+## ABiMS
+
+<div class='right solid'><a href='http://abims.sb-roscoff.fr'><img src="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/ABiMS.png" alt="ABiMS"  /></a></div>
+
+* *Links:*
+  * [ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)
+  * [Request an account](http://abims.sb-roscoff.fr/account) (require a professional/institutional email address)
+* *Domain/Purpose:*
+  * General purpose genomics analysis, featuring many standard tools plus many additional tools.
+  * Howerver, we are specialized in RNASeq with reference and RNASeq denovo 
+* *Comments:*
+  * Only available for registered users
+* *User Support:*
+  * [Email](mailto:support DOT abims AT sb-roscoff DOT fr)
+* *Quotas:*
+  * The default quota for new users is 20GB but can be extended on request
+* *Sponsor(s):*
+  * [CNRS](http://www.cnrs.fr/)
+  * [UPMC](http://www.upmc.fr/)
+  * [BioGenOuest](https://www.biogenouest.org/) and [IFB](http://www.france-bioinformatique.fr/)
+  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 
 ## Biomina
 
@@ -38,7 +58,6 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
   * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp
--->
 
 ## CBiB Galaxy
 
@@ -241,7 +260,6 @@ These servers implement a broad range of tools and aren't specific to any part o
 
 ## GigaGalaxy
 
-
 <div class='right solid'><a href='http://gigagalaxy.net/'><img src="/src/public-galaxy-servers/GigaGalaxyNebula.png" alt="GigaGalaxy" /></a></div>
 
 * *Link:*
@@ -254,9 +272,27 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/)
 
+## GVL MEL
+
+<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Melbourne" height="200" /></a></div>
+
+* *Link:*
+  * [Galaxy Melbourne](http://galaxy-mel.genome.edu.au/)
+* *Domain/Purpose:*
+  * General purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).
+* *Comments:*
+* *User Support:*
+  * [GVL Help](https://www.gvl.org.au/)
+  * Follow tutorials at [GVL Learn](https://www.gvl.org.au/learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+* *Quotas:*
+  * Registration is required. Anyone can register.
+  * Default quota of 100GB which can be increased on request.
+* *Sponsor(s):*
+  * [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au)
+
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Queensland" height="200" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -275,10 +311,10 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Sponsor(s):*
   * [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
 
+
 ## GVL Tutorial
 
-
-<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="200" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVLTut](http://galaxy-tut.genome.edu.au/)
@@ -1314,6 +1350,26 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
   * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
+
+
+
+## ChimeRScope
+
+<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/public-galaxy-servers/chimerscope.png" alt="ChimeRScope Galaxy" width="300" /></a></div>
+
+* *Link:*
+  * [ChimeRScope Galaxy Server](https://galaxy.unmc.edu/)
+* *Domain/Purpose:*
+  * Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets.
+* *Comments:*
+  * ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
+  * See You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
+* *User Support:*
+* [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki) and [FAQ](https://github.com/ChimeRScope/ChimeRScope/wiki/FAQs)
+* *Quotas:*
+  * Supports anonymous access and creation of user logins.
+* *Sponsor(s):*
+  * [Guda Lab](http://unmc.edu/gudalab/) at the [University of Nebraska Medical Center](http://www.unmc.edu/).
 
 
 ## deepTools2

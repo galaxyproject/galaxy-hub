@@ -1,16 +1,22 @@
- 
+---
+title: Galaxy on Windows
+---
 
-## Running Galaxy in Windows
+# Running Galaxy on Windows
 
 Running Galaxy under Windows was possible at one point, with a bit of effort. After recent changes to dependency management (using Python Wheels instead of Eggs) we have no tutorial or proof of concept how to do it. If you really need to run Galaxy on Windows platform please consider running a Virtual Machine with a Linux on it and then follow tutorial at [http://getgalaxy.org](http://getgalaxy.org)
 
 If you want to develop Galaxy tools please consider using the following image with preinstalled Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova)
 
+## Running Windows Tools
+
+If instead of running a Windows based Galaxy instance, you wish to just run a handful of tools on a Windows server but host Galaxy on a traditional \*nix-based system, the [Pulsar](/src/admin/config/pulsar/index.md) can used to accomplish this.
+
+## Deprecated Instructions
+
 If you were able to set up Galaxy on Windows with Python Wheels please share your experience.
 
 **The text below is outdated.**
-
-* * *
 
 ### Running old Galaxy (pre 16.01) on Windows
 
@@ -38,9 +44,8 @@ Galaxy's egg building script, `scramble.py` may or may not work for certain eggs
 
 First obtain the source code:
 
-```
-#!highlight sh
-% hg clone http://bitbucket.org/james_taylor/bx-python/
+```console
+$ hg clone http://bitbucket.org/james_taylor/bx-python/
 destination directory: bx-python
 requesting all changes
 adding changesets
@@ -53,35 +58,27 @@ updating working directory
 
 Change to the source directory:
 
-```
-#!highlight sh
-% cd bx-python/trunk
+```console
+$ cd bx-python/trunk
 ```
 
 Edit setup.cfg and add the following:
 
-```
-#!highlight sh
+```ini
 [build]
 compiler = mingw32
 ```
 
 Then build the egg (be sure to include the tag from the `[tags]` section of `galaxy_dist/eggs.ini`:
 
-```
-#!highlight sh
-% python setup.py egg_info -b _dev_r4bf1f32e6b76 bdist_egg
+```console
+$ python setup.py egg_info -b _dev_r4bf1f32e6b76 bdist_egg
 ```
 
-Once built, eggs need to be placed in `galaxy_dist/eggs/&lt;platform&gt;`, where <platform> is the platform-specific output of `galaxy_dist/scripts/get_platforms.py`:
+Once built, eggs need to be placed in `$GALAXY_ROOT/eggs/&lt;platform&gt;`, where <platform> is the platform-specific output of `$GALAXY_ROOT/scripts/get_platforms.py`:
 
-```
-#!highlight sh
-% cp dist/bx_python-0.5.0_r4bf1f32e6b76-py2.4-win32.egg galaxy_dist/eggs/<platform>
+```console
+$ cp dist/bx_python-0.5.0_r4bf1f32e6b76-py2.4-win32.egg galaxy_dist/eggs/<platform>
 ```
 
 Once all the required eggs have been built and copied to the proper egg directory, Galaxy can now be run as normal, see [Admin/GetGalaxy](Admin%2FGetGalaxy) to continue.
-
-## Running Windows Tools
-
-If instead of running a Windows based Galaxy instance, you wish to just run a handful of tools on a Windows server but host Galaxy on a traditional \*nix-based system, the [Pulsar](Admin%2FConfig%2FPulsar) can used to accomplish this.

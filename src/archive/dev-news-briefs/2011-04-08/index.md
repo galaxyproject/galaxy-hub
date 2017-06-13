@@ -1,6 +1,8 @@
 ---
-title: April 8, 2011 Galaxy Development News Brief
+title: Development News Brief
+date: 2011-04-08
 ---
+
 ----
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
  new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`<br />

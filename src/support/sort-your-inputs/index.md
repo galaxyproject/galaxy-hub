@@ -9,8 +9,8 @@ Good news! Galaxy includes tools to do this sorting.
 
 ## Sorting tools
 
-* **SortSam** Best choice for SAM/BAM
-* **Sort BAM dataset** Alternate choice for SAM/BAM
+* **SortSam**  Sort SAM/BAM
+* **Sort order of storing aligned sequences** Alternate for SAM/BAM
 * **SortBED order the intervals** Best choice for BED/Interval
 * **Sort data in ascending or descending order** Alternate choice for Tabular/BED/Interval/GTF
 * **VCFsort** Best choice for VFC

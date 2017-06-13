@@ -1,6 +1,8 @@
 ---
-title: January 13, 2015 Galaxy Distribution News Brief
+title: Development News Brief
+date: 2015-01-13
 ---
+
 [All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2015_01_13](/src/news/2015-01-13-galaxy-distribution/index.md)

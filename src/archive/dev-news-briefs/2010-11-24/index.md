@@ -1,6 +1,7 @@
-# November 24, 2010 Galaxy Development News Brief
-
-----
+---
+title: Development News Brief
+date: 2010-11-24
+---
 
 Here are the highlights of the following upgrade:
 
