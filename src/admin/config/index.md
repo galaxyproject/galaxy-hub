@@ -1,8 +1,8 @@
-{{> Admin/LinkBox }}
-{{> Admin/Config/Performance/LinkBox }}
-# Galaxy Configuration
+---
+title: Galaxy Configuration for Admins
+---
 
-Hub page for Galaxy configuration.
+{{> Admin/LinkBox }}
 
 ## Production Galaxy
 
@@ -11,7 +11,7 @@ Hub page for Galaxy configuration.
 * [Galaxy Job Configuration](/src/admin/config/jobs/index.md)
 * [Apache Proxy](/src/admin/config/apache-proxy/index.md)
   * [Apache External User Auth](/src/admin/config/apache-external-user-auth/index.md)
-* [Nginx Proxy](/src/admin/config/nginxProxy/index.md)
+* [Nginx Proxy](/src/admin/config/nginx-proxy/index.md)
   * [Nginx External User Auth](/src/admin/config/nginx-external-user-auth/index.md)
 
 ## Tools
@@ -22,7 +22,7 @@ Hub page for Galaxy configuration.
 
 ## External User Databases
 
-* [ Authentication with LDAP/AD](/src/admin/config/external-user-auth/index.md)
+* [Authentication with LDAP/AD](/src/admin/config/external-user-auth/index.md)
 
 ## FTP
 
@@ -31,8 +31,8 @@ Hub page for Galaxy configuration.
 
 ## Other
 
-* [Eggs](/src/admin/config/Eggs/index.md)
+* [Eggs](/src/admin/config/eggs/index.md)
 * [GenomeSpace](/src/admin/config/genome-space/index.md)
 * [User Information (Collecting information during registration)](/src/admin/config/User Information/index.md)
-* [Running on Windows](/src/admin/config/Windows/index.md)
+* [Running on Windows](/src/admin/config/windows/index.md)
 * [Access Control (ACLs)](/src/admin/config/access-control/index.md)
