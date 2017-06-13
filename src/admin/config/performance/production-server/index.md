@@ -8,7 +8,7 @@ The [basic installation instructions](/src/admin/get-galaxy/index.md) are suitab
 By default, Galaxy:
 
 * Uses [SQLite](http://www.sqlite.org/) (a serverless database), so you don't have to run/configure a database server for quick or basic development.  However, while SQLite [supports concurrent access](https://sqlite.org/lockingv3.html) it does not support multiple concurrent writes, which can reduce system throughput.
-* Uses a built-in HTTP server, written in Python.  Much of the work performed by this server can be moved to [nginx](/src/admin/config/nginxProxy/index.md) or Apache, which will increase performance.
+* Uses a built-in HTTP server, written in Python.  Much of the work performed by this server can be moved to [nginx](/src/admin/config/nginx-proxy/index.md) or Apache, which will increase performance.
 * Runs all tools locally.  Moving to a [cluster](/src/admin/config/performance/cluster/index.md) will greatly increase capacity.
 * Runs in a single process, which is a performance problem in [CPython](http://en.wikipedia.org/wiki/CPython).
 
@@ -112,7 +112,7 @@ Downloading and uploading data can also be moved to the proxy server.  This is e
 Virtually any server that proxies HTTP should work, although we provide configuration examples for:
 
 * [Apache](/src/admin/config/apache-proxy/index.md), and
-* [nginx](/src/admin/config/nginxProxy/index.md), a high performance reverse proxy, used by our public Galaxy sites
+* [nginx](/src/admin/config/nginx-proxy/index.md), a high performance reverse proxy, used by our public Galaxy sites
 
 ## Using a compute cluster
 
