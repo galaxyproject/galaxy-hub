@@ -10,16 +10,16 @@ There are many approaches to learning how to *use* Galaxy. The most popular is p
 
 These tutorials are using Galaxy's main site at http://usegalaxy.org:
 
- - [Galaxy 101](/tutorials/g101)
- - [Uploading data](/tutorials/upload)
- - [Understanding histories](/tutorials/histories)
- - [Dataset collections](/tutorials/collections)
- - [NGS logistics](/tutorials/ngs)
- - Variant discovery: [diploid case](/tutorials/var_dip)
- - Variant discovery: [haploid case](/tutorials/var_hap)
- - RNA-seq: [Introduction](/tutorials/rb_rnaseq)
- - RNA-seq: [Discovering and quantifying new transcripts](/tutorials/nt_rnaseq)
- - ChIP-seq: [A simple ChIP-seq experiment with two replicates](/tutorials/chip)
+ - [Galaxy 101](/tutorials/g101) - the basic introduction to Galaxy's interface, its functionality, and workflows. **Start here** if you never used Galaxy before.
+ - [Uploading data](/tutorials/upload) - how to get data into Galaxy.
+ - [Histories](/tutorials/histories) - in Galaxy uploaded data and analysis results reside within the history pane. This tutorial explains how history works. 
+ - [Dataset collections](/tutorials/collections) - modern studies usually include many samples. Collection are designed to simplify complex, multi-sample analyses as shown in this tutorial.
+ - [NGS logistics](/tutorials/ngs) - this is an introduction to Galaxy's functionality for the analysis of Next Generation Sequencing data.
+ - Variant discovery: [diploid case](/tutorials/var_dip) - this tutorial explains calling sequence variants in **diploid** systems like ... humans.
+ - Variant discovery: [haploid case](/tutorials/var_hap) - this tutorial explains calling sequence variants in **haploid** systems like ... bacteria and viruses. 
+ - RNA-seq: [Introduction](/tutorials/rb_rnaseq) - an introductory tutorial for transcriptome analysis.
+ - RNA-seq: [Discovering and quantifying new transcripts](/tutorials/nt_rnaseq) - an in-depth transcriptome analysis example.
+ - ChIP-seq: [A simple ChIP-seq experiment with two replicates](/tutorials/chip) - an example analysis for finding transcription factor binding sites.
 
 ## Interactive Tours
 
