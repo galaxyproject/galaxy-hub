@@ -17,7 +17,7 @@ title: Galaxy Configuration for Admins
 ## Tools
 
 * [Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
-* [Set up Visualizations](/src/Visualization Setup/index.md)
+* [Set up Visualizations](/src/visualization-setup/index.md)
 * [Collecting Job Metrics](/src/admin/config/job-metrics/index.md)
 
 ## External User Databases
@@ -26,7 +26,7 @@ title: Galaxy Configuration for Admins
 
 ## FTP
 
-* [Upload via FTP](/src/admin/config/Upload via FTP/index.md)
+* [Upload via FTP](/src/admin/config/upload-via-ftp/index.md)
 * [Setup ProFTPd with AD/LDAP auth](/src/admin/config/proftpd-with-ad/index.md)
 
 ## Other
