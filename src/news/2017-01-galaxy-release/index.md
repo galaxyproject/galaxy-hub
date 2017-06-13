@@ -1,5 +1,7 @@
 ---
 title: 'Galaxy Release 17.01'
+tease: Conda  enabled by default, New user preferences interface, Support for compressed FASTQ formats, ...
+
 date: '2017-02-23'
 ---
 Dear Community,

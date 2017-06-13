@@ -1,6 +1,7 @@
 ---
 title: Galaxy Development
 ---
+
 This page collects resources that are helpful to development of various aspects of the Galaxy software. It is aimed to provide help to all of the numerous Galaxy's [contributors](https://www.openhub.net/p/galaxybx). We salute you!
 
 If your interest lies in the development of tools for Galaxy please see the [Adding custom tools tutorial](/src/admin/tools/add-tool-tutorial/index.md).
@@ -18,8 +19,8 @@ You can generate your own copy of the documentation. You might want to do this i
 Contribution of documentation is very welcome. To generate the documentation:
 
 1. Install Sphinx
-1. Go to the `doc` directory and run Sphinx with `make html`
-1. Install missing dependencies, and rerun Sphinx until you get working output.
+2. Go to the `doc` directory and run Sphinx with `make html`
+3. Install missing dependencies, and rerun Sphinx until you get working output.
 
 The generated documentation will be in `doc/build/html/` and can be viewed in a web browser.
 

@@ -11,7 +11,7 @@ Related topics
 
 ## Video Tutorials
 
-[Getting Data In](/src/tutorials/ngs/#getting-ngs-data-in)
+How to load data into Galaxy: [**Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
 
 ## Supplimental Step-by-Step
 
@@ -41,7 +41,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Load the data using line command FTP or a client. [More help...](/ftp-upload/index.md)
 *   Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
     *   For the public Main Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
-    *   For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, then use that custom URL.
+    *   For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, use that custom URL.
 *   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/src/admin/config/upload-via-ftp/index.md) first.
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.

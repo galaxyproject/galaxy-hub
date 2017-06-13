@@ -1,6 +1,8 @@
 ---
-title: October 5, 2012 Galaxy Development News Brief
+title: Development News Brief
+date: 2012-10-05
 ---
+
 # Get Galaxy
 
 <table>

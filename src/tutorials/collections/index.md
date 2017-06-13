@@ -1,4 +1,5 @@
 ---
+autotoc: true
 title: Processing many samples at once with collections
 ---
 

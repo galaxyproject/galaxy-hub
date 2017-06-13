@@ -1,15 +1,18 @@
 ---
 title: External User Authentication
 ---
-By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.
 
-Galaxy does now do this by itself (Before we needed to use [Nginx](/src/admin/config/nginx-external-user-auth/index.md) or [Apache](/src/admin/config/apache-external-user-auth/index.md) to handle this).
+By default, Galaxy will manage its own users, allowing standard username/password login. However, it may be more useful at your site to tie into an external authentication system like CAS, LDAP, AD, PAM, etc.
 
-### Activate authentication through LDAP
+Galaxy supports LDAP and AD authentication natively, but you must still use upstream [Nginx](/src/admin/config/nginx-external-user-auth/index.md) or [Apache](/src/admin/config/apache-external-user-auth/index.md) for other authentication schemes like CAS.
+
+If you wish to migrate to a Galaxy-native login, from an existing deployment with upstream Apache or Nginx providing the LDAP/AD connectino, you will to set `external = 'f'` in the `galaxy_user` table for all existing users.
+
+# Activate authentication through LDAP
 
 To be able to authenticate your users through the LDAP, we are going to use a configuration file to enter all the required informations.
 
-#### Tell Galaxy to use auth_conf file
+# Tell Galaxy to use auth_conf file
 
 In `config/galaxy.ini`, uncomment the line `auth_config_file = config/auth_conf.xml`:
 
@@ -21,7 +24,7 @@ auth_config_file = config/auth_conf.xml
 ```
 
 
-#### Configure the auth_conf file
+# Configure the auth_conf file
 
 Copy the `config/auth_conf.xml.sample` and name it `config/auth_conf.xml`:
 
@@ -32,13 +35,13 @@ cp config/auth_conf.xml.sample config/auth_conf.xml
 
 Then configure it appropriately to your LDAP (the documentation in the sample file should be enough).
 
-#### Special Case: AD in CRUK
+# Special Case: AD in CRUK
 
 In CRUK, the Active Directory does not allow to get `sAMAccountName`.
 
 We had to find another solution to get the Authentication working, register properly and get the username.
 
-##### Modifications in auth_conf file
+## Modifications in auth_conf file
 
 Here are the modifications we had to do in the `config/auth_conf.xml`:
 
@@ -74,7 +77,3 @@ params['usernameFromWhoami'] = username_from_whoami
 
 
 Launch Galaxy, and try to login :).
-
-### Switching from Nginx or Apache
-
-If you have been using [Nginx](/src/admin/config/nginx-external-user-auth/index.md) or [Apache](/src/admin/config/apache-external-user-auth/index.md) to handle the external authentication, you need to set external = 'f'  in the galaxy_user table for all existing users.

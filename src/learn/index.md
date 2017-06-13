@@ -11,6 +11,7 @@ There are many approaches to learning how to *use* Galaxy. The most popular is p
 These tutorials are using Galaxy's main site at http://usegalaxy.org:
 
  - [Galaxy 101](/tutorials/g101) - the basic introduction to Galaxy's interface, its functionality, and workflows. **Start here** if you never used Galaxy before.
+ - [Uploading data](/tutorials/upload) - how to get data into Galaxy.
  - [Histories](/tutorials/histories) - in Galaxy uploaded data and analysis results reside within the history pane. This tutorial explains how history works. 
  - [Dataset collections](/tutorials/collections) - modern studies usually include many samples. Collection are designed to simplify complex, multi-sample analyses as shown in this tutorial.
  - [NGS logistics](/tutorials/ngs) - this is an introduction to Galaxy's functionality for the analysis of Next Generation Sequencing data.
@@ -39,6 +40,7 @@ Thanks to a large [group of wonderful contributors](https://github.com/galaxypro
  - [Quality control of NGS data](https://galaxyproject.github.io/training-material//NGS-QC)
  - [Exome data analysis](https://galaxyproject.github.io/training-material//Exome-Seq)
  - [DNA methylation analysis](https://galaxyproject.github.io/training-material//MethylC-Seq)
+ - PlantTribes: [Perform comparative and evolutionary analyses of gene families and transcriptomes](/tutorials/pt_gfam)
 
 ## Tutorials from Lewis-Sigler Institute @ Princeton 
 
