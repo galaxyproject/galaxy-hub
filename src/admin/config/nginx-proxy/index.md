@@ -9,7 +9,7 @@ make sure that inbound (and outbound) traffic to the TCP protocol HTTP on port 8
 
 ## Basic configuration
 
-For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/) (see [SSL](https://github.com/VJalili/galaxy-site/blob/patch-1/src/admin/config/nginxProxy/index.md#ssl) section for HTTPS), the following lines in the nginx configuration will proxy requests to the Galaxy application:
+For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/) (see [SSL](https://github.com/VJalili/galaxy-site/blob/patch-1/src/admin/config/nginx_proxy/index.md#ssl) section for HTTPS), the following lines in the nginx configuration will proxy requests to the Galaxy application:
 
 ```
 #!highlight nginx
