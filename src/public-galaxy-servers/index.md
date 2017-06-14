@@ -19,7 +19,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 
 ## ABiMS
 
-<div class='right solid'><a href='http://abims.sb-roscoff.fr'><img src="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/ABiMS.png" alt="ABiMS"  /></a></div>
+<div class='right solid'><a href='http://abims.sb-roscoff.fr'><img src="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/logos/abims/abims-LD.png" alt="ABiMS"  /></a></div>
 
 * *Links:*
   * [ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)
