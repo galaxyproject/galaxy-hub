@@ -406,17 +406,19 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 >
 >* **Primary alignments** = 5 specifies the maximal number of alignements searched by HISAT. The algorithm will stopped after no more valid alignment is found of when 5 have been found. The alignements are not ordered, meaning that the 5 alignement selected are not the top 5 alignements.
 >
+>* **Maximum number of seeds that will be extended** = 5 specifies the maximum number of seeds that will be extended by HISAT.
+>
 >* **Paired alignment parameters** = `Specify Paired alignment parameter`. This is done to disable looking for discordant alignments.
 >
 >![](/src/tutorials/rb_rnaseq/hisat_interface.png)
 >
 >The same procedure is then repeated for collection **c2**. In the end it generates a lot of datasets in the history resulting in something resembling an image below. TopHat produces five types of output and because we started with dataset collections every one of the green boxes shown below is actually a collection of outputs for **c1** and **c2**, respectively.
 >
->![](/src/tutorials/rb_rnaseq/tophat_output.png)
+>![](/src/tutorials/rb_rnaseq/hisat_output.png)
 
 Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
->First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **TopHat on collection 14: accepted_hits** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
+>First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **HISAT2 on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
 >
 >![](/src/tutorials/rb_rnaseq/accepted_hits_1.png)
 >
@@ -426,7 +428,7 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 >
 >Finally, use **D. melanogaster** link (highlighted above) and follow the on-screen instructions. By focusing IGV on genomic position `chrX:11,897,111-11,920,446` you will be able to see spliced alignments produced by TopHat:
 >
->![](/src/tutorials/rb_rnaseq/igv_tophat.png)
+>![](/src/tutorials/rb_rnaseq/igv_hisat.png)
 >
 >and [sashimi plots](https://www.broadinstitute.org/igv/Sashimi) highlighting potential splice junctions:
 >
@@ -434,7 +436,7 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 
 ### Performing differential expression analysis
 
-Using mapped reads produced by TopHat we will perform analysis of differential gene expression using HTSeq/DESeq2 pipeline.
+Using mapped reads produced by HISAT2 we will perform analysis of differential gene expression using HTSeq/DESeq2 pipeline.
 
 #### Gene-based read counting with HTseq-count
 
@@ -462,7 +464,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >
 >![](/src/tutorials/rb_rnaseq/filter_gtf.png)
 >
->Select **htseq-count** from **NGS: RNA analysis** section on the left side of the menu. Set parameters as shown below. The red arrow points that to enable `htseq-count` to see collections, you need to select the 'folder' button. In the case of this particular Galaxy [history](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial) we will need to run `htseq-count` twice. Once on TopHat alignemnts for collection **c1** (dataset #37; shown below) and then on alignments for collection **c2** (dataset # 57).|
+>Select **htseq-count** from **NGS: RNA analysis** section on the left side of the menu. Set parameters as shown below. The red arrow points that to enable `htseq-count` to see collections, you need to select the 'folder' button. In the case of this particular Galaxy [history](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial) we will need to run `htseq-count` twice. Once on HISAT2 alignments for collection **c1** (dataset #26; shown below) and then on alignments for collection **c2** (dataset # 30).|
 |![](/src/tutorials/rb_rnaseq/htseq_count_interface.png)
 >
 >This will generate [read counts per gene](https://usegalaxy.org/datasets/bbd44e69cb8906b5d1e80eae6d363142/display/?preview=True).
