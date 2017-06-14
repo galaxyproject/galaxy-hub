@@ -20,6 +20,16 @@ Please note that Galaxy should _never_ be located on disk inside Apache's `Docum
 
 ## Basic configuration
 
+### Allow Encoded Slashes in URLs
+
+Some Galaxy URLs contain encoded slashes (%2F) in the path and Apache will not serve these URLs by default. To configure Apache to serve URLs with encoded slashes in the path, add the following line to your Apache configuration file:
+
+```apache
+AllowEncodedSlashes NoDecode
+```
+
+**Note**: The `NoDecode` setting was added in httpd 2.2.18, and CentOS 6 (as RHEL 6 does) only has 2.2.15. The [CentOS SCLo SIG Repo](https://wiki.centos.org/SpecialInterestGroup/SCLo/CollectionsList) has an httpd24 package.
+
 ### Serving Galaxy at the web server root (/)
 
 For a default Galaxy configuration running on [http://localhost:8080/](http://localhost:8080/), the following lines in the Apache configuration will proxy requests to the Galaxy application:
@@ -218,12 +228,4 @@ If you've configured multiple threads for galaxy in the `config/galaxy.ini` file
 # RewriteRule ^(.*) http://localhost:8080$1 [P]
 # With:
 RewriteRule ^(.*) balancer://galaxy$1 [P]
-```
-
-### Allow Encoded Slashes in URLs
-
-Some Galaxy URLs related to Data Managers contain encoded slashes (%2F) in the path and Apache will not serve these URLs by default. To configure Apache to serve URLs with encoded slashes in the path, add the following line to your Apache configuration file:
-
-```apache
-AllowEncodedSlashes NoDecode
 ```
