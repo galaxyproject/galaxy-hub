@@ -509,6 +509,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 ></small>|
 >
 >Select **htseq-count** from **NGS: RNA analysis** section on the left side of the menu. Set parameters as shown below. The red arrow points that to enable `htseq-count` to see collections, you need to select the 'folder' button. In the case of this particular Galaxy [history](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial) we will need to run `htseq-count` twice. Once on HISAT2 alignments for collection **c1** (dataset #26; shown below) and then on alignments for collection **c2** (dataset # 30).
+>
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/htseq_count_interface.png)|
