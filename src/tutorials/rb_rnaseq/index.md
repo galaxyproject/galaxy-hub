@@ -437,6 +437,7 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
 >First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **HISAT2 on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
+>
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/accepted_hits_1.png)|
