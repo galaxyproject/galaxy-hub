@@ -378,7 +378,12 @@ Here is what to do to load the data:
 
 >Go to the [data library](https://usegalaxy.org/library/list#folders/Ff4ce53393dae30ee) and select all fastq files. Then Click `to History` button:
 >
->![](/src/tutorials/rb_rnaseq/rnaseq_library.png)
+>|                             |
+>|-----------------------------|
+>|![](/src/tutorials/rb_rnaseq/rnaseq_library.png)|
+>|<small>**Figure 20. Get data from data library**
+></small>|
+>
 >
 >The datasets will appear in your history:
 >
@@ -414,13 +419,13 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 >
 >The same procedure is then repeated for collection **c2**. In the end it generates a lot of datasets in the history resulting in something resembling an image below. TopHat produces five types of output and because we started with dataset collections every one of the green boxes shown below is actually a collection of outputs for **c1** and **c2**, respectively.
 >
->![](/src/tutorials/rb_rnaseq/hisat_output.png){ width=50% }
+>![](/src/tutorials/rb_rnaseq/hisat_output.png)
 
 Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
 >First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **HISAT2 on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
 >
->![](/src/tutorials/rb_rnaseq/accepted_hits_1.png){ width=50% }
+>![](/src/tutorials/rb_rnaseq/accepted_hits_1.png)
 >
 >Now, click on **c2-r1x** and the following will appear:
 >
