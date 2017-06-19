@@ -461,6 +461,7 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 ></small>|
 >
 >and [sashimi plots](https://www.broadinstitute.org/igv/Sashimi) highlighting potential splice junctions:
+>
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/sashimi.png)|
@@ -539,7 +540,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|<small>**Figure 32. DESeq2 tool Interface**
 ></small>|
 >
->This will produce [output](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) as shown below. The columns are: (**1**) gene identifier, (**2**) mean normalised counts, averaged over all samples from both conditions, (**3**) logarithm (base 2) of the fold change, (**4**) the standard error estimate for the log2 fold change estimate, (**5**) [Wald test](https://en.wikipedia.org/wiki/Wald_test) statistic, (**6**) p value for the statistical significance of this change, and (**7**) *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate)). There is only one gene with significant change in gene expression between conditions: `CG1803-RC` with *p*-value = 1.6x10<sup>-05</sup>
+>This will produce [output](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) as shown below. The columns are: (**1**) **GeneID** : gene identifier, (**2**) **Base Mean** : mean normalised counts, averaged over all samples from both conditions, (**3**) **log2(FC)** : logarithm (base 2) of the fold change, (**4**) **StdErr** : the standard error estimate for the log2 fold change estimate, (**5**) **Wald-Stats** : [Wald test](https://en.wikipedia.org/wiki/Wald_test) statistic, (**6**) **P-value** : p value for the statistical significance of this change, and (**7**) **P-adj** : *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate)). There is only one gene with significant change in gene expression between conditions: `CG1803-RC` with *p*-value = 3.17x10<sup>-35</sup>
 >
 >|                             |
 >|-----------------------------|
@@ -555,7 +556,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|<small>**Figure 33. Histogram of p-values for conditions X1 and X2**
 ></small>|
 >
->The [MA plot](https://en.wikipedia.org/wiki/MA_plot) below shows the relationship between the expression change (M) and average expression strength (A). Genes with adjusted *p*-value < 0.1 are in red (there is only one such gene in thi sample at the bottom of the graph):
+>The [MA plot](https://en.wikipedia.org/wiki/MA_plot) below shows the relationship between the expression change (M) and average expression strength (A). Genes with adjusted *p*-value < 0.1 are in red (there is only one such gene in this sample at the bottom of the graph):
 >
 >|                             |
 >|-----------------------------|
