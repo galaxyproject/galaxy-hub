@@ -2,9 +2,6 @@
   "name": "galaxy-community-hub",
   "version": "0.0.0",
   "private": true,
-  "main": [
-    "build.js"
-  ],
   "ignore": [
     "**/.*",
     "node_modules",
