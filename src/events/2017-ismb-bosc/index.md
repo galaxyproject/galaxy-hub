@@ -51,6 +51,7 @@ Galaxy is expected to have a significant presence at [ISMB/ECCB 2017](https://ww
 | ---- | ---- | ---- | ---- |
 | 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
 | 11:30 | Recent object formation in the core of Galaxy | [Martin Cech](/src/people/marten/index.md) | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
+| 11:45 | ToolDog - generating tool descriptors from the ELIXIR tool registry | Kenzo-Hugo Hillion | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
 
 ## 24 July, Monday
 
