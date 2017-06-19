@@ -1,12 +1,12 @@
 {
-  "name": "galaxy-site",
+  "name": "galaxy-hub",
   "version": "0.0.1",
-  "description": "Galaxy Website",
-  "main": "index.js",
+  "description": "Galaxy Community Hub",
+  "main": "build.js",
   "license": "AFL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/galaxyproject/galaxy-hub.git"
   },
   "dependencies": {
     "bower": "^1.4.1",
