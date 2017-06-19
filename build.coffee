@@ -114,9 +114,9 @@ subs = (files, metalsmith, done) ->
 # h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
 marked = require("marked")
 class Renderer extends marked.Renderer
-    heading: ( text, level, raw ) =>
+    heading: ( text, level, raw ) ->
         super( text, level + 1, raw )
-    table: (header, body) =>
+    table: (header, body) ->
         return """<table class="table table-striped">
                 <thead>
                 #{header}
@@ -125,7 +125,7 @@ class Renderer extends marked.Renderer
                 #{body}
                 </tbody>
                 </table>"""
-    image: (href, title, text) =>
+    image: (href, title, text) ->
       out = '<img class="img-responsive" src="' + href + '" alt="' + text + '"'
       if title
           out += ' title="' + title + '"'
