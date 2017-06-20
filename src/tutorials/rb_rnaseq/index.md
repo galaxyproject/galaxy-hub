@@ -19,7 +19,8 @@ The *Everything's connected* slide by Dündar et al. (2015) explains the overall
 |                             |
 |-----------------------------|
 |![](/src/tutorials/rb_rnaseq/everything_connected.png)|
-|<small>**Figure 1.** Everything is connected around the biological question : The experimental design, the bioinformatics, the sequencing, the library preparation and the sample type and quality. </small>|
+|<small>**Figure 1.**
+Everything is connected around the biological question : The experimental design, the bioinformatics, the sequencing, the library preparation and the sample type and quality. </small>|
 
 
 
@@ -55,7 +56,7 @@ RNAs that are typically targeted in RNAseq experiments are single stranded (e.g.
 |-----------------------------|
 |![](/src/tutorials/rb_rnaseq/dna_rna.png)|
 |<small>**Figure 3. Relationship between DNA and RNA orientation**
-</small>|
+The direction of transcription synthesized mRNA from the 5' end to the 3' end, meaning the DNA template strand is read from the 3' end to the 5' end. </small>|
 
 
 During a typical RNAseq experiment the information about strandedness is lost after both strands of cDNA are synthesized, size selected, and converted into sequencing library. However, this information can be quite useful for various aspects of RNAseq analysis such as transcript reconstruction and quantification. There is a number of methods for creating so called *stranded* RNAseq libraries that preserve the strand information (for an excellent overview see Levin et al. [2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)):
@@ -75,7 +76,7 @@ polarity (5' and 3' ends that are functionally distinct):
 |-----------------------------|
 |[![](/src/tutorials/rb_rnaseq/lib_type.png)](http://sailfish.readthedocs.org/en/master/library_type.html)|
 |<small>**Figure 5. Effects of RNAseq library types**
-Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)
+The type of RNAseq library depends on the relative orientation of the reads and the strandedness of the library. Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)
 </small>|
 
 The relative orientation of the reads is only relevant if the library is pair-ended. The possible options are:
@@ -109,7 +110,7 @@ The implication of stranded RNAseq is that you can distinguish whether the reads
 |-----------------------------|
 |![](/src/tutorials/rb_rnaseq/stranded_result.png)|
 |<small>**Figure 6. Stranded RNAseq data look like this**
-This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image from GATC Biotech.
+This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image is from GATC Biotech.
 </small>|
 
 
@@ -382,7 +383,7 @@ Here is what to do to load the data:
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/rnaseq_library.png)|
 >|<small>**Figure 20. Get data from data library**
-></small>|
+>The *Drosophila melanogaster* RNA-seq data can be found in the Data libraries section in the Shared Data tab. Once in the Library, open the *Tutorials* folder, the *RNA seq (RB)* folder and export the fastq files in your history. </small>|
 >
 >
 >The datasets will appear in your history:
@@ -391,9 +392,9 @@ Here is what to do to load the data:
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/rnaseq_data_in_history.png)|
 >|<small>**Figure 21. The data appears in you history**
-></small>|
+>You can now create your collections and perform your analyses. </small>|
 >
->Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. Also, see this [tutorial](collections.html) for yet another explanation of dataset collections.
+>Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. You can add tags to your collection that will be passed along the analysis to keep track on which samples you are working on. Also, see this [tutorial](collections.html) for yet another explanation of dataset collections.
 >
 > <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/163625221" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 >
@@ -423,7 +424,7 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/hisat_interface.png)|
 >|<small>**Figure 22. HISAT2 Interface**
-></small>|
+>The HISAT2 input is one of your collection of fastq files. Select the reference genome to perform the alignment. </small>|
 >
 >
 >The same procedure is then repeated for collection **c2**. In the end it generates a lot of datasets in the history resulting in something resembling an image below. TopHat produces five types of output and because we started with dataset collections every one of the green boxes shown below is actually a collection of outputs for **c1** and **c2**, respectively.
@@ -431,26 +432,26 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/hisat_output.png)|
->|<small>**Figure 23. HISAT2 Results** The result appears as collection in the history, with the tags corresponding to the initial collections.
-></small>|
+>|<small>**Figure 23. `HISAT2` Results**
+>The result appears as collection in the history, with the tags corresponding to the initial collections.</small>|
 
 Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
->First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **HISAT2 on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
+>First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **`HISAT2` on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
 >
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/accepted_hits_1.png)|
->|<small>**Figure 24. HISAT2 Result collections** Each new collection contains the files resulting from HISAT2
-></small>|
+>|<small>**Figure 24. `HISAT2` Result collections**
+>Each new collection contains the files resulting from `HISAT2`.</small>|
 >
 >Now, click on **c2-r1x** and the following will appear:
 >
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/accepted_hits_2.png)|
->|<small>**Figure 25. HISAT2 Result datasets** You can analyse the data with the tools linked in the history dataset.
-></small>|
+>|<small>**Figure 25. `HISAT2` Result datasets**
+>You can analyse the data with the tools linked in the history dataset.</small>|
 >
 >Finally, use **D. melanogaster** link (highlighted above) and follow the on-screen instructions. By focusing IGV on genomic position `chrX:11,897,111-11,920,446` you will be able to see spliced alignments produced by TopHat:
 >
@@ -458,7 +459,7 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/igv_hisat.png)|
 >|<small>**Figure 26. Visualize the data with IGV**
-></small>|
+>Open the *jnlp* file to visualize the alignement in IGV</small>|
 >
 >and [sashimi plots](https://www.broadinstitute.org/igv/Sashimi) highlighting potential splice junctions:
 >
@@ -466,11 +467,11 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/sashimi.png)|
 >|<small>**Figure 27. Sashimi plot in IGV**
-></small>|
+>Right Click on a feature to access the Sashimi plot in IGV. </small>|
 
 ### Performing differential expression analysis
 
-Using mapped reads produced by HISAT2 we will perform analysis of differential gene expression using HTSeq/DESeq2 pipeline.
+Using mapped reads produced by `HISAT2` we will perform analysis of differential gene expression using HTSeq/DESeq2 pipeline.
 
 #### Gene-based read counting with HTseq-count
 
@@ -479,8 +480,8 @@ Using mapped reads produced by HISAT2 we will perform analysis of differential g
 >|                             |
 >|-----------------------------|
 >|[![](/src/tutorials/rb_rnaseq/htseq_count.png)](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html)|
->|<small>**Figure 28. `HTseq-count` read/feature overlap modes** The `htseq-count` script of the HTSeq suite offers three different modes to handle details of read–feature overlaps that are depicted here. The default of featureCounts is the behavior of the union option. Image is from [HTseq documentation](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html); Caption by [Dündar:2015](http://chagall.med.cornell.edu/RNASEQcourse/)
-></small>|
+>|<small>**Figure 28. `HTseq-count` read/feature overlap modes**
+>The `htseq-count` script of the HTSeq suite offers three different modes to handle details of read–feature overlaps that are depicted here. The default of featureCounts is the behavior of the union option. Image is from [HTseq documentation](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html); Caption by [Dündar:2015](http://chagall.med.cornell.edu/RNASEQcourse/) </small>|
 >
 
 Before we can use `HTseq-count` we need to download gene annotations for version `dm3` of the *Drosophila melanogaster* genome. We use version `dm3` because it is the same genome we have mapped reads against during the TopHat step.
@@ -493,7 +494,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|[![](/src/tutorials/rb_rnaseq/ucsc_dm3.png)](/src/tutorials/rb_rnaseq/ucsc_dm3.png)|
 >|<small>**Figure 29. Get data from UCSC**
-></small>|
+>Select the data you want to export and then send them in Galaxy</small>|
 >
 >This [GTF](http://www.ensembl.org/info/website/upload/gff.html) dataset will be used one of the input for HTseq-count.
 
@@ -508,15 +509,15 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/filter_gtf.png)|
 >|<small>**Figure 30. Filter tool Interface**
-></small>|
+>The Filter Tool is used to filter out the unknown strand information of the dataset. </small>|
 >
->Select **htseq-count** from **NGS: RNA analysis** section on the left side of the menu. Set parameters as shown below. The red arrow points that to enable `htseq-count` to see collections, you need to select the 'folder' button. In the case of this particular Galaxy [history](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial) we will need to run `htseq-count` twice. Once on HISAT2 alignments for collection **c1** (dataset #26; shown below) and then on alignments for collection **c2** (dataset # 30).
+>Select **htseq-count** from **NGS: RNA analysis** section on the left side of the menu. Set parameters as shown below. The red arrow points that to enable `htseq-count` to see collections, you need to select the 'folder' button. In the case of this particular Galaxy [history](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial) we will need to run `htseq-count` twice. Once on HISAT2 alignments for collection **c1** (dataset `#26`; shown below) and then on alignments for collection **c2** (dataset `#30`).
 >
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/htseq_count_interface.png)|
 >|<small>**Figure 31. Htseq-count tool Interface**
-></small>|
+>Select the `HISAT2` output collection for each collection as an input for `Htseq-count`. </small>|
 >
 >This will generate [read counts per gene](https://usegalaxy.org/datasets/bbd44e69cb8906b5d1e80eae6d363142/display/?preview=True).
 
@@ -528,17 +529,17 @@ Before we can use `HTseq-count` we need to download gene annotations for version
  * Every gene count in then divided by the geometric mean;
  * The median of these ratios is a sample's size factor used for normalization.
 
-<span style="color: red;">&#10148;</span> Note: For a comprehensive overview of differential gene expression with DESeq2 see [Love:2016](https://www.bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf).
+<span style="color: red;">&#10148;</span> Note: For a comprehensive overview of differential gene expression with `DESeq2` see [Love:2016](https://www.bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf).
 
-#### DESeq2 in Galaxy
+#### `DESeq2` in Galaxy
 
->The `DESeq2` Galaxy's interface is shown below. `DESeq2` allows to incorporate multiple *factors* in the analysis. In our case we only have one factor, which we call **Conditions**. This is because we are trying to find genes that are differentially expressed between two conditions. The first condition will the first **factor level**, while condition 2 will be the second **factor level**. Here the input for this first factor level is set to a collection `84: htseq-count on collection 37` and the input for the second input is set to `92: htseq-count on collection 57`. Make sure that **Visualising the analysis results** is set to `Yes`:
+>The `DESeq2` Galaxy's interface is shown below. `DESeq2` allows to incorporate multiple *factors* in the analysis. In our case we only have one factor, which we call **Conditions**. This is because we are trying to find genes that are differentially expressed between two conditions. The first condition will the first **factor level**, while condition 2 will be the second **factor level**. Here the input for this first factor level is set to a collection `40: htseq-count on collection 26` and the input for the second input is set to `48: htseq-count on collection 30`. Make sure that **Visualising the analysis results** is set to `Yes`:
 >
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/deseq2_interface.png)|
 >|<small>**Figure 32. DESeq2 tool Interface**
-></small>|
+>Select the `HTseq-count` outputs for both of your collection as inputs for `DESeq2`</small>|
 >
 >This will produce [output](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) as shown below. The columns are: (**1**) **GeneID** : gene identifier, (**2**) **Base Mean** : mean normalised counts, averaged over all samples from both conditions, (**3**) **log2(FC)** : logarithm (base 2) of the fold change, (**4**) **StdErr** : the standard error estimate for the log2 fold change estimate, (**5**) **Wald-Stats** : [Wald test](https://en.wikipedia.org/wiki/Wald_test) statistic, (**6**) **P-value** : p value for the statistical significance of this change, and (**7**) **P-adj** : *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate)). There is only one gene with significant change in gene expression between conditions: `CG1803-RC` with *p*-value = 3.17x10<sup>-35</sup>
 >
@@ -546,7 +547,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/deseq2_output.png)|
 >|<small>**Figure 32. DESeq2 Output file**
-></small>|
+>The output file of `DESeq2` is a tabulated file.</small>|
 >
 >In addition to the [list of genes](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) DESeq2 outputs a graphical summary of the result. It includes a number of plots that should be used to evaluate the quality of the experiment. The histogram of *p*-values below shows that in our sample there is in fact just one instance of a significant *p*-value:
 >
@@ -554,7 +555,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/p_val_hist.png)|
 >|<small>**Figure 33. Histogram of p-values for conditions X1 and X2**
-></small>|
+>Only one instance of our sample has a significant p-value, as shown by the leftmost bar. </small>|
 >
 >The [MA plot](https://en.wikipedia.org/wiki/MA_plot) below shows the relationship between the expression change (M) and average expression strength (A). Genes with adjusted *p*-value < 0.1 are in red (there is only one such gene in this sample at the bottom of the graph):
 >
@@ -562,7 +563,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/MA_plot.png)|
 >|<small>**Figure 34. MA-plot for conditions X1 and X2**
-></small>|
+> Only one gene has an adjusted p-value < 0.1 as shown by the single red point at the bottom of the graph</small>|
 >
 >The Principal Component Analysis ([PCA](https://en.wikipedia.org/wiki/Principal_component_analysis)) shows the separation between Condition 1 and 2. This type of plot is useful for visualizing the overall effect of experimental covariates and batch effects (each replicate is plotted as an individual data point):
 >
@@ -570,7 +571,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/pca.png)|
 >|<small>**Figure 35. PCA plot**
-></small>|
+>This graph shows the separation between our two conditions C1 and C2. </small>|
 >
 >A heatmap of sample-to-sample distance matrix gives us an overview over similarities and dissimilarities between samples:
 >
@@ -578,4 +579,4 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/euc_dist.png)|
 >|<small>**Figure 36. Sample to sample distance**
-></small>|
+>Overview over similarities and dissimilarities between samples. </small>|
