@@ -65,8 +65,7 @@ During a typical RNAseq experiment the information about strandedness is lost af
 |-----------------------------|
 |[![](/src/tutorials/rb_rnaseq/stranded_protocols.png)](http://www.nature.com/nmeth/journal/v7/n9/fig_tab/nmeth.1491_F1.html)|
 |<small>**Figure 4. Generation of stranded RNAseq libraries**
-Different types of stranded library generation protocols from [Levin:2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)
-</small>|
+Different types of stranded library generation protocols from [Levin:2010](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth.1491.html)</small>|
 
 Depending on the approach and whether one performs single- or paired-end sequencing there are multiple possibilities on how to interpret the results of mapping of these reads onto genome/transcriptome:
 
@@ -76,8 +75,7 @@ polarity (5' and 3' ends that are functionally distinct):
 |-----------------------------|
 |[![](/src/tutorials/rb_rnaseq/lib_type.png)](http://sailfish.readthedocs.org/en/master/library_type.html)|
 |<small>**Figure 5. Effects of RNAseq library types**
-The type of RNAseq library depends on the relative orientation of the reads and the strandedness of the library. Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)
-</small>|
+The type of RNAseq library depends on the relative orientation of the reads and the strandedness of the library. Image and description below is from [Sailfish documentation](http://sailfish.readthedocs.org/en/master/library_type.html)</small>|
 
 The relative orientation of the reads is only relevant if the library is pair-ended. The possible options are:
 
@@ -110,8 +108,7 @@ The implication of stranded RNAseq is that you can distinguish whether the reads
 |-----------------------------|
 |![](/src/tutorials/rb_rnaseq/stranded_result.png)|
 |<small>**Figure 6. Stranded RNAseq data look like this**
-This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image is from GATC Biotech.
-</small>|
+This example contrasts unstranded and stranded RNAseq experiments. <span style="color: red;">Red transcripts</span> are from + strand and <span style="color: blue;">blue</span> are from - strand. In stranded example reads are clearly stratified between the two strands.  A small number of reads from opposite strand may represent anti-sense transcription. The image is from GATC Biotech.</small>|
 
 
 ### Replicates: Biological or Technical and how many?
@@ -144,8 +141,7 @@ After sequencing is performed you have a collection of sequencing reads for each
 |-----------------------------|
 |[![](/src/tutorials/rb_rnaseq/tophat.png)](http://bioinformatics.oxfordjournals.org/content/25/9/1105/F1.expansion.html)|
 |<small>**Figure 7. TopHat and TopHat2: Mapping RNAseq regions to genome**
-In TopHat reads are mapped against the genome and are separated into two categories: (1) those that map, and (2) those that initially unmapped (IUM). "Piles" of reads representing potential exons are extended in search of potential donor/acceptor splice sites and potential splice junctions are reconstructed. IUMs are then mapped to these junctions. Image from [Trapnell:2009](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full).
-</small>|
+In TopHat reads are mapped against the genome and are separated into two categories: (1) those that map, and (2) those that initially unmapped (IUM). "Piles" of reads representing potential exons are extended in search of potential donor/acceptor splice sites and potential splice junctions are reconstructed. IUMs are then mapped to these junctions. Image from [Trapnell:2009](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full).</small>|
 
 
 
@@ -391,7 +387,7 @@ Here is what to do to load the data:
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/rnaseq_data_in_history.png)|
->|<small>**Figure 21. The data appears in you history**
+>|<small>**Figure 21. The datasets appear in your history**
 >You can now create your collections and perform your analyses. </small>|
 >
 >Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. You can add tags to your collection that will be passed along the analysis to keep track on which samples you are working on. Also, see this [tutorial](collections.html) for yet another explanation of dataset collections.
@@ -437,7 +433,7 @@ We will map the reads with HISAT. Select **HISAT** from **NGS: RNA Analysis** se
 
 Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
->First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **`HISAT2` on collection 14** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
+>First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on `HISAT2 on collection 14` and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
 >
 >|                             |
 >|-----------------------------|
@@ -445,7 +441,7 @@ Let's now take a look at some of the alignments. We will use IGV for this purpos
 >|<small>**Figure 24. `HISAT2` Result collections**
 >Each new collection contains the files resulting from `HISAT2`.</small>|
 >
->Now, click on **c2-r1x** and the following will appear:
+>Now, click on `c2-r1x` and the following will appear:
 >
 >|                             |
 >|-----------------------------|
@@ -494,7 +490,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|-----------------------------|
 >|[![](/src/tutorials/rb_rnaseq/ucsc_dm3.png)](/src/tutorials/rb_rnaseq/ucsc_dm3.png)|
 >|<small>**Figure 29. Get data from UCSC**
->Select the data you want to export and then send them in Galaxy</small>|
+>Select the data you want to export and then send them in Galaxy.</small>|
 >
 >This [GTF](http://www.ensembl.org/info/website/upload/gff.html) dataset will be used one of the input for HTseq-count.
 
@@ -549,7 +545,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|<small>**Figure 32. DESeq2 Output file**
 >The output file of `DESeq2` is a tabulated file.</small>|
 >
->In addition to the [list of genes](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) DESeq2 outputs a graphical summary of the result. It includes a number of plots that should be used to evaluate the quality of the experiment. The histogram of *p*-values below shows that in our sample there is in fact just one instance of a significant *p*-value:
+>In addition to the [list of genes](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) `DESeq2` outputs a graphical summary of the result. It includes a number of plots that should be used to evaluate the quality of the experiment. The histogram of *p*-values below shows that in our sample there is in fact just one instance of a significant *p*-value:
 >
 >|                             |
 >|-----------------------------|
