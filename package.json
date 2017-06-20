@@ -1,17 +1,16 @@
 {
-  "name": "galaxy-site",
+  "name": "galaxy-hub",
   "version": "0.0.1",
-  "description": "Galaxy Website",
-  "main": "index.js",
+  "description": "Galaxy Community Hub",
+  "main": "build.js",
   "license": "AFL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/galaxyproject/galaxy-hub.git"
   },
   "dependencies": {
     "bower": "^1.4.1",
     "bower-files": "^3.14.1",
-    "coffee-script": "^1.10.0",
     "handlebars": "^4.0.6",
     "lodash": "^4.17.4",
     "marked": "^0.3.3",
@@ -33,5 +32,10 @@
     "minimist": "^1.1.1",
     "moment": "^2.10.0",
     "pug": "^2.0.0-beta6"
+  },
+  "scripts": {
+    "build": "DEBUG=metalsmith-timer node build.js",
+    "serve": "DEBUG=metalsmith-timer node build.js --serve",
+    "check": "DEBUG=metalsmith-timer node build.js --check"
   }
 }
