@@ -77,7 +77,7 @@ Please see the Makefile for more information and options, including the ability
 to use a Docker-based node binary identical to what we use to build and publish
 the final build artifacts. If you would like to learn more about how it all
 goes together, feel free to browse the build targets in the Makefile, or the
-metalsmith build process, which is defined in `build.coffee`.
+metalsmith build process, which is defined in `build.js`.
 
 
 If you are having trouble building the site, your node_modules may not have

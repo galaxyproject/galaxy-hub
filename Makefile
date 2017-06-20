@@ -1,4 +1,3 @@
-COFFEE=DEBUG=metalsmith-timer ./node_modules/coffee-script/bin/coffee
 DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/tmp/hub -w /tmp/hub
 DOCKER_NOUSER=docker run -v `pwd`:/tmp/hub -w /tmp/hub
 
@@ -21,13 +20,13 @@ help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
-	$(COFFEE) build.coffee
+	npm run build
 
 serve: npm-deps bower ## Serve locally for viewing
-	$(COFFEE) build.coffee --serve
+	npm run serve
 
 check: npm-deps bower ## Check for broken links
-	$(COFFEE) build.coffee --check
+	npm run check
 
 docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
 	$(DOCKER_NOUSER) node /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
@@ -36,7 +35,7 @@ docker-bower: ## [Docker] Install Bower
 	$(DOCKER_NOUSER) node /bin/bash -c "node node_modules/bower/bin/bower --allow-root install && chown -R `id -u`:`id -g` /tmp/hub/bower_components"
 
 docker-build: docker-npm-deps docker-bower  ## [Docker] Single endpoint for docker install
-	$(DOCKER) node node node_modules/coffee-script/bin/coffee build.coffee
+	$(DOCKER) node npm run build
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
 	$(DOCKER) dannon/gitlfs git lfs pull
