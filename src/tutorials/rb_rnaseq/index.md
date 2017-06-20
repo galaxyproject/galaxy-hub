@@ -512,7 +512,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/htseq_count_interface.png)|
->|<small>**Figure 31. Htseq-count tool Interface**
+>|<small>**Figure 31. `Htseq-count` tool Interface**
 >Select the `HISAT2` output collection for each collection as an input for `Htseq-count`. </small>|
 >
 >This will generate [read counts per gene](https://usegalaxy.org/datasets/bbd44e69cb8906b5d1e80eae6d363142/display/?preview=True).
@@ -534,7 +534,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/deseq2_interface.png)|
->|<small>**Figure 32. DESeq2 tool Interface**
+>|<small>**Figure 32. `DESeq2` tool Interface**
 >Select the `HTseq-count` outputs for both of your collection as inputs for `DESeq2`</small>|
 >
 >This will produce [output](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) as shown below. The columns are: (**1**) **GeneID** : gene identifier, (**2**) **Base Mean** : mean normalised counts, averaged over all samples from both conditions, (**3**) **log2(FC)** : logarithm (base 2) of the fold change, (**4**) **StdErr** : the standard error estimate for the log2 fold change estimate, (**5**) **Wald-Stats** : [Wald test](https://en.wikipedia.org/wiki/Wald_test) statistic, (**6**) **P-value** : p value for the statistical significance of this change, and (**7**) **P-adj** : *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate)). There is only one gene with significant change in gene expression between conditions: `CG1803-RC` with *p*-value = 3.17x10<sup>-35</sup>
@@ -542,7 +542,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 >|                             |
 >|-----------------------------|
 >|![](/src/tutorials/rb_rnaseq/deseq2_output.png)|
->|<small>**Figure 32. DESeq2 Output file**
+>|<small>**Figure 32. `DESeq2` Output file**
 >The output file of `DESeq2` is a tabulated file.</small>|
 >
 >In addition to the [list of genes](https://usegalaxy.org/datasets/bbd44e69cb8906b5d648fe21c36ac662/display/?preview=True) `DESeq2` outputs a graphical summary of the result. It includes a number of plots that should be used to evaluate the quality of the experiment. The histogram of *p*-values below shows that in our sample there is in fact just one instance of a significant *p*-value:
