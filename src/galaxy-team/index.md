@@ -176,21 +176,21 @@ Fabio Cumbo<br />
 * Istvan Albert
 * Ramkrishna Chakrabarty
 * Wen-Yu Chung
-* Carl Eberhard
+* [Carl Eberhard](/src/people/carl-eberhard/index.md)
 * Dorine Francheteau
 * Belinda Giardine
 * Jianbin He
 * Radesh Kamath
 * Ross Lazarus
 * Kanwei Li
-* [Rémi Marenco](/src/remi-marenco/index.md)
+* [Rémi Marenco](/src/people/remi-marenco/index.md)
 * Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah
 * Ian Schenck
 * Kelly Vincent
-* [Nitesh Turaga](/src/nitesh-turaga/index.md)
+* [Nitesh Turaga](/src/people/nitesh-turaga/index.md)
 * Yi Zhang
 
 ## Past Contributors
