@@ -20,7 +20,7 @@ Galaxy is expected to have a significant presence at [ISMB/ECCB 2017](https://ww
 
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
-| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) | [Martin Cech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md) | ISMB/ECCB |
+| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) | [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md) | ISMB/ECCB |
 
 ## Posters (Days not assinged yet)
 
@@ -50,14 +50,14 @@ Galaxy is expected to have a significant presence at [ISMB/ECCB 2017](https://ww
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
 | 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
-| 11:30 | Recent object formation in the core of Galaxy | [Martin Cech](/src/people/marten/index.md) | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
+| 11:30 | Recent object formation in the core of Galaxy |  [Martin Čech](/src/people/marten/index.md) | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
 | 11:45 | ToolDog - generating tool descriptors from the ELIXIR tool registry | Kenzo-Hugo Hillion | [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
 
 ## 24 July, Monday
 
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
-| | | | |
+| 12:45 | [BoF B4: What can the Galaxy Project do for you?](https://www.iscb.org/ismbeccb2017-program/ismbeccb2017-bof) | [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md), [James Taylor](/src/people/james-taylor/index.md) | ISMB/ECCB |
 
 ## 25 July, Tuesday
 
