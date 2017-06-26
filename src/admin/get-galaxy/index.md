@@ -46,7 +46,7 @@ Galaxy requires a few things to run: a virtualenv, configuration files, and depe
 $ sh run.sh
 ```
 
-This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running.
+This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
 
 To access Galaxy over the network, modify the `config/galaxy.ini` file by changing the `host` setting to
 
