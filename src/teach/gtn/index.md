@@ -10,7 +10,7 @@ These pages describes the Galaxy Training Network, and everything else related t
 
 ## Training Resources Directory
 
-The **[Training Resources Directory](https://github.com/galaxyproject/training-material)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
+The **[Training Resources Directory](http://galaxyproject.github.io/training-material/)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy. Training materials can be created and updated on the GitHub page [here](https://github.com/galaxyproject/training-material).
 
 <div class="alert alert-success" role="alert">Have you created or know of a resource that is useful for teaching with Galaxy? Then please share it! This will help others and also help get the word out about your resource. Use [this Google form](http://bit.ly/gxytrainresourceform) to describe your resource.
 </div>
