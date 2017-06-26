@@ -24,9 +24,11 @@ Related Topics
  
  > .txt to .fasta
  
- <iframe src="https://giphy.com/embed/3oKIP99ybO2AojXjCE" width="480" height="183" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+![giphy gif](https://media.giphy.com/media/3oKIP99ybO2AojXjCE/200w_d.gif)
+ 
+<iframe src="https://giphy.com/embed/3oKIP99ybO2AojXjCE" width="480" height="183" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 
-[via GIPHY](https://giphy.com/gifs/usegalaxy-datatype-3oKIP99ybO2AojXjCE)
+![via GIPHY](https://giphy.com/gifs/usegalaxy-datatype-3oKIP99ybO2AojXjCE)
  
 
 * If the required input is a [BED](/src/learn/datatypes/#bed) or [Interval](/src/learn/datatypes/#interval) datatype, adjusting (.tab → .bed, .tab → .interval) may be possible using a combination of _**Text Manipulation**_ tools, to create a [dataset](/src/learn/managing-datasets/index.md) that matches the BED or Interval [datatype](/src/learn/datatypes/index.md) specifications.
