@@ -4,7 +4,7 @@
 ----
 **Update**
 * iPython for GIEs has been deprecated as of 16.04. Jupyter replaces it and will be fully incorporated into the upcoming 16.07 release. [Reference](https://biostar.usegalaxy.org/p/18683/#18686)
-* Please see the updated documentation at RTD: http://galaxy.readthedocs.io/en/master/admin/interactive_environments.html
+* Please see the updated documentation at RTD: https://docs.galaxyproject.org/en/master/admin/interactive_environments.html
 
 ----
 
