@@ -211,6 +211,11 @@ galaxy:handler0: started
 galaxy:handler1: started
 ```
 
+### Transparent restart - Zerg Mode
+
+The standard uWSGI operation mode allows you to restart the Galaxy application while blocking client connections. Zerg Mode does away with the waiting by running a special Zerg Pool process, and connecting Zergling workers (aka Galaxy application processes) to the pool. As long as at least one is connected, requests can be served.
+
+See the [GCC2017 Admin Training session](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/10-uwsgi/ex2-zerg-mode.md) on how to set this up.
 
 ## Proxy Server
 
