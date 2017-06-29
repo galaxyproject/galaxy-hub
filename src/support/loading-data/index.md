@@ -6,8 +6,8 @@
 Related topics
   
   *  [Downloading Data](/src/support/download-data/index.md)
-  *  [Galaxy Data Libraries (Admin)](/src/data-libraries/index.md)
-  *  [Galaxy FTP Configuration (Admin)](/src/admin/config/#ftp)
+  *  [Load into a Data Library (Admin)](/src/data-libraries/index.md)
+  *  [Local Galaxy? Configure FTP Upload (Admin)](/src/admin/config/#ftp)
 
 # Loading Data
 
