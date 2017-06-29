@@ -6,12 +6,16 @@
 Related topics
   
   *  [Downloading Data](/src/support/download-data/index.md)
+  *  [Galaxy Data Libraries (Admin)](/src/data-libraries/index.md)
+  *  [Galaxy FTP Configuration (Admin)](/src/admin/config/#ftp)
 
 # Loading Data
 
 ## Video Tutorials
 
-How to load data into Galaxy: [**Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
+ * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
+ * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/)
+
 
 ## Supplimental Step-by-Step
 
