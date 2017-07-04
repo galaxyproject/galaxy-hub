@@ -38,7 +38,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
 
 ## I purged but still need more space!
  
-Account quotas are fixed at Galaxy Main and are the largest offered on a public Galaxy server that we are aware of. For big projects, consider moving to a local or cloud Galaxy where you can control the resources. 
+Account quotas are generally fixed at 250 Gb for [Galaxy Main](/src/main/index.md) and are the largest offered on a public Galaxy server that we are aware of. Quotas at [Galaxy Test](/src/test/index.md) are smaller at 10 Gb. Other Galaxy servers may differ for quota size and policy. For very large projects, consider moving to a local or cloud Galaxy where you can control the resources.
  
   * [Using Galaxy choices are explained here](/src/choices/index.md)
-  * [Scientific user guide to running a personal Galaxy server (coming soon!)](/src/support/sci-user-galaxies/index.md)
+  * If your work is academic research based and additional short-term space is needed at Galaxy Main or Test, please send an email to galaxy-bugs@lists.galaxyproject.org from your registered account explaining your project and we may be able to help.
