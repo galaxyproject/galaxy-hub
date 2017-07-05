@@ -2,8 +2,8 @@ sudo: required
 language: node_js
 services:
   - docker
-
 node_js:
   - "node"
-script: make docker-build
+before_script: git lfs pull
+script: make docker-build-sparse
 after_script: ls -lah build/
