@@ -6,6 +6,5 @@ node_js:
   - "node"
 git:
   lfs_skip_smudge: true
-before_script: git lfs pull
 script: make docker-build
 after_script: ls -lah build/
