@@ -5,5 +5,5 @@ services:
 node_js:
   - "node"
 before_script: git lfs pull
-script: make docker-build-sparse
+script: make docker-build
 after_script: ls -lah build/
