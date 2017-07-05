@@ -33,7 +33,7 @@ Galaxy visualizations require the UCSC utilities `wigToBigWig`, `bedGraphToBigWi
 
 ## Install BED tools
 
-[BEDtools](https://code.google.com/p/bedtools/) are required for generating coverage data for aligned reads, intervals, and mutations. Download, compile, and add the bedtools executable (<bedtools_dir>/bin) to your path.
+[BEDtools](https://github.com/arq5x/bedtools2/) are required for generating coverage data for aligned reads, intervals, and mutations. Download, compile, and add the bedtools executable (<bedtools_dir>/bin) to your path.
 
 ## Get genome chromosome length files
 
