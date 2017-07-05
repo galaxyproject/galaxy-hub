@@ -27,13 +27,15 @@ Alternatively You can retrieve your API key by sending [baseauth](http://en.wiki
 
 Various language specific libraries for interfacing with the Galaxy API have been developed by the Galaxy community: 
 
-* The Galaxy code itself contains [JavaScript bindings](https://github.com/galaxyproject/galaxy/tree/dev/client/galaxy/scripts/mvc).
+
 * [BioBlend](https://github.com/galaxyproject/bioblend) contains a set of Python bindings
     * [BioBlend: automating pipeline analyses within Galaxy and CloudMan.](http://www.ncbi.nlm.nih.gov/pubmed/23630176) Sloggett, et. al.
     * [BioBlend.objects: metacomputing with Galaxy.](http://www.ncbi.nlm.nih.gov/pubmed/24928211) Leo, et. al.
+* [Parsec](https://github.com/galaxy-iuc/parsec/) is a CLI tool that will allow you to use Galaxy from command line.
 * [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings largely modeled after BioBlend. [JavaDocs](http://jmchilton.github.io/blend4j/apidocs/).
 * [blend4php](https://github.com/galaxyproject/blend4php) contains PHP bindings.
-  
+* The Galaxy code itself contains [JavaScript bindings](https://github.com/galaxyproject/galaxy/tree/dev/client/galaxy/scripts/mvc).
+
 # Examples
 
 ## Code
