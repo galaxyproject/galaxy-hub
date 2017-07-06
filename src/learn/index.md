@@ -33,13 +33,14 @@ Tours guide you through interface elements interactively:
 
 Thanks to a large [group of wonderful contributors](https://github.com/galaxyproject/training-material/graphs/contributors) there is a constantly growing [set of tutorials](http://galaxyproject.github.io/training-material/) maintained by the [Galaxy Training Network](/src/teach/gtn). These include:
 
- - [Introductory topics](https://galaxyproject.github.io/training-material//Introduction)
- - [Mapping of NGS data](https://galaxyproject.github.io/training-material//NGS-mapping)
- - [ChIP-seq analysis](https://galaxyproject.github.io/training-material//ChIP-Seq)
- - [RNA-seq analysis](https://galaxyproject.github.io/training-material//RNA-Seq)
- - [Quality control of NGS data](https://galaxyproject.github.io/training-material//NGS-QC)
- - [Exome data analysis](https://galaxyproject.github.io/training-material//Exome-Seq)
- - [DNA methylation analysis](https://galaxyproject.github.io/training-material//MethylC-Seq)
+ - [Galaxy Introduction](http://galaxyproject.github.io/training-material/topics/introduction)
+ - [Analysis of sequences](http://galaxyproject.github.io/training-material/topics/sequence-analysis/)
+ - [Assembly](http://galaxyproject.github.io/training-material/topics/assembly/)
+ - [ChIP-seq analysis](http://galaxyproject.github.io/training-material/topics/chip-seq/)
+ - [Transcriptomics](http://galaxyproject.github.io/training-material/topics/transcriptomics/)
+ - [Variant Analysis](http://galaxyproject.github.io/training-material/topics/variant-analysis/)
+ - [Proteomics](http://galaxyproject.github.io/training-material/topics/proteomics/)
+ - [Metagenomics](http://galaxyproject.github.io/training-material/topics/metagenomics/)
  - PlantTribes: [Perform comparative and evolutionary analyses of gene families and transcriptomes](/tutorials/pt_gfam)
 
 ## Tutorials from Lewis-Sigler Institute @ Princeton 
