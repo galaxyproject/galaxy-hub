@@ -42,7 +42,6 @@ title: Galaxy Support
 
 ### Help Guides
 
-* [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md)
 * [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
