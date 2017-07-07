@@ -572,6 +572,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
   * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
 * *User Support:*
+  * [Two minute demo of the mzIdentML visualisation plugin](https://youtu.be/Txf_91oF52c) 
   * [Tutorial 1:Getting started with GIO](http://gio.sbcs.qmul.ac.uk/static/Tutorial1.pdf)
   * [Tutorial 2:Getting started with GIO workflows](http://gio.sbcs.qmul.ac.uk/static/Tutorial2.pdf)
   * [Tutorial 3:Proteomics Informed by Transcriptomics (PIT)](http://gio.sbcs.qmul.ac.uk/static/Tutorial3.pdf)
