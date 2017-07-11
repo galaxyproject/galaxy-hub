@@ -27,8 +27,8 @@ These hands-on workshops teach basic concepts, skills and tools for working more
 # Workshop 1: Software and Data Carpentry
 
 <div class="right">
-<a href="https://software-carpentry.org/"><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" /><br /><br />
-<a href="https://data-carpentry.org/"><img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" /><br />
+<a href="https://software-carpentry.org/"><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" /></a><br /><br />
+<a href="https://data-carpentry.org/"><img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" /></a><br />
 </div>
 
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
@@ -62,14 +62,14 @@ Bring your laptop for a series of hands-on exercises.
 | 2:45p -   3:00p | Break |
 | 3:00p -   4:15p | Loading, manipulating, and visualizing sample data |
 | 4:15p -   4:30p | Break |
-  4:30p -   5:00p | Overview of more capabilities with Python libraries and porting code from the notebook to scripts |
+| 4:30p -   5:00p | Overview of more capabilities with Python libraries and porting code from the notebook to scripts |
 
 
 # Workshop 2: Data Platforms for Life Science Researchers
 
 <div class="right">
-<a href="https://www.cyverse.org/"><img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" /><br /><br />
-<a href="https://galaxyproject.org.org/"><img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" /><br />
+<a href="https://www.cyverse.org/"><img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" /></a><br /><br />
+<a href="https://galaxyproject.org.org/"><img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" /></a><br />
 </div>
 
 Want to do data analysis and don’t know where to start?  [CyVerse](http://www.cyverse.org/) and [Galaxy](https://galaxyproject.org/)  are two widely used and freely available data analysis platforms for life science research.  This workshop will cover both platforms and by the end of the day you’ll know how to use both to manage, integrate, analyze, and visualize your data.  The focus will be on interactive hands-on exercises with life science data.  Bring your laptop and your curiosity.
@@ -100,4 +100,4 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 3:00p -   4:15p | Collaboration and repeatable recipes |
 | 4:15p -   4:30p | Break |
 | 4:30p -   4:40p | Galaxy Community |
-| 4:40p -   5:00p	Compare & Contrast: CyVerse, Galaxy, and other options |
+| 4:40p -   5:00p | Compare & Contrast: CyVerse, Galaxy, and other options |
