@@ -12,7 +12,7 @@ gtn: y
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
 ---
 
-**Do you have data and don’t know where to start with analysis?**
+## Do you have data and don’t know where to start with analysis?
 
 There will be two parallel full day pre-conference workshops at [2017 SACNAS](http://www.2017sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research.
 
@@ -22,6 +22,12 @@ There will be two parallel full day pre-conference workshops at [2017 SACNAS](ht
 Together, [CyVerse](http://www.cyverse.org/), [Galaxy](https://galaxyproject.org/), [Software Carpentry](http://www.software-carpentry.org/), and [Data Carpentry](http://www.datacarpentry.org/) will introduce participants to best practices, tools, and platforms for data-intensive research in two parallel workshops at the SACNAS pre-conference workshops. Workshops are for any researcher who has data they want to analyze, and no prior computational experience is required.
 
 These hands-on workshops teach basic concepts, skills and tools for working more effectively with data. Attendees will learn the best practices for data organization and analysis using the command line and Python (Software and Data Carpentry workshop) or working with data-analysis platforms to manage, integrate, analyze, and visualize your data (Data Platforms for Life Science Researchers).
+
+# Registration
+
+[Registration](http://bit.ly/sacnas-data-reg-2017) is *free* but space is limited.  You are strongly encouraged to register soon.
+
+**[Register Now](http://bit.ly/sacnas-data-reg-2017)**
 
 
 # Workshop 1: Software and Data Carpentry
@@ -40,8 +46,8 @@ Bring your laptop for a series of hands-on exercises.
 
 **Instructors**
 
-- Tracy Teal, Executive Director, Data Carpentry, tkteal@datacarpentry.org
-- Camille Avestruz, Postdoctoral Research Fellow at the University of Chicago, avestruz@uchicago.edu
+- [Tracy Teal](http://www.datacarpentry.org/people/), Executive Director, Data Carpentry, tkteal@datacarpentry.org
+- [Camille Avestruz](https://kicp.uchicago.edu/people/profile/camille_avestruz.html), Postdoctoral Research Fellow at the University of Chicago, avestruz@uchicago.edu
 
 ## Session 1 : Unix Shell 
 
@@ -76,7 +82,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 **Instructors**
 
-- Joslynn Lee, Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
+- [Joslynn Lee](https://www.hhmi.org/developing-scientists/meet-our-team), Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
 - [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
 
 ## Session 1 : CyVerse
