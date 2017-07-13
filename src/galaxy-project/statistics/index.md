@@ -19,41 +19,16 @@ All date ranges here are from Biostar.  For example, the "last 12 months" means 
 
 Active here means "visited", as defined by Biostar.
 
-| Date       | Last 12 Weeks | Last 6 Months | Last 12 Months |
-|------------|--------------:|--------------:|---------------:|
-| 2014-07-09 |         1,190 |         1,274 |          1,424 |
-| 2014-10-13 |         1,178 |         2,261 |          2,469 |
-| 2015-01-23 |         1,210 |         2,242 |          3,473 |
-| 2015-07-24 |         1,020 |         2,213 |          4,277 |
-| 2016-01-29 |         958   |         2,135 |          3,834 |
-| 2016-08-15 |         1,027 |         2,327 |          3,979 |
-| 2017-01-16 |         967   |         2,042 |          3,794 |
-
+[![](/src/galaxy-project/statistics/biostar_active_users.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=540758257&format=interactive)
 
 ## Active Threads
 
-| Date       | Last 12 Weeks | Last 6 Months | Last 12 Months |
-|------------|--------------:|--------------:|---------------:|
-| 2014-07-09 |           268 |           383 |            654 |
-| 2014-10-13 |           281 |           561 |            780 |
-| 2015-01-23 |           272 |           620 |            986 |
-| 2015-07-24 |           469 |           949 |          1,465 |
-| 2016-01-29 |           317 |           806 |          1,618 |
-| 2016-08-15 |           388 |         1,018 |          1,670 |
-| 2017-01-16 |           306 |           827 |          1,652 |
+[![](/src/galaxy-project/statistics/biostar_active_threads.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=1611142178&format=interactive)
 
 
 ## All Time Totals
 
-| Date       |  Posts | Threads | Questions | Answers | Comments |  Users |
-|------------|-------:|--------:|----------:|--------:|---------:|-------:|
-| 2014-07-09 |  8,223 |   2,978 |     2,959 |   2,908 |    2,337 |  2,517 |
-| 2014-10-13 |  9,230 |   3,252 |     3,220 |   3,252 |    2,726 |  3,555 |
-| 2015-01-23 | 10,298 |   3,547 |     3,505 |   3,646 |    3,105 |  4,700 |
-| 2015-07-24 | 13,275 |   4,379 |     4,303 |   4,616 |    4,280 |  6,342 |
-| 2016-01-29 | 15,742 |   5,035 |     4,958 |   5,469 |    5,284 |  7,909 |
-| 2016-08-15 | 18,823 |   5,935 |     5,826 |   6,463 |    6,425 |  9,731 |
-| 2017-01-16 | 20,843 |   6,527 |     6,389 |   7,120 |    7,334 | 10,927 |
+[![](/src/galaxy-project/statistics/biostar_totals.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=851709991&format=interactive)
 
 
 ## Mailing Lists
@@ -69,27 +44,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 ### Membership
 
-*Note that "Total" over-counts the number of subscribers, as many people belong to two or more lists.*
-
-| Date    |  User              |   Dev | Announce | Total |
-|---------|-------------------:|------:|---------:|------:|
-| 2011/01 |  1,681             |   280 |        - | 1,961 |
-| 2011/07 |  2,134             |   447 |        - | 2,581 |
-| 2012/01 |  2,687             |   607 |       58 | 3,352 |
-| 2012/07 |  2,804             |   782 |      875 | 4,461 |
-| 2013/01 |  2,733             |   858 |    1,605 | 5,196 |
-| 2013/07 |  2,709             |   930 |    2,432 | 6,071 |
-| 2014/01 |  2,675             |   993 |    3,402 | 7,070 |
-| 2014/07 |  2,655<sup>*</sup> | 1,031 |    4,111 | 7,797 |
-| 2015/01 |                    | 1,038 |    4,900 | 5,938 |
-| 2015/07 |                    | 1,050 |    5,643 | 6,693 |
-| 2016/01 |                    | 1,056 |    6,647 | 7,703 |
-| 2016/08 |                    | 1,064 |    7,535 | 8,599 |
-| 2017/01 |                    | 1,053 |    7,882 | 8,935 |
-
-<small><sup>*</sup>Membership when Galaxy-User retirement was announced and the Galaxy Biostar forum went live.</small>
-
-[![](/src/galaxy-project/statistics/MailingListMemberships.png)](https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1293859727&format=interactive)
+[![](/src/galaxy-project/statistics/MailingListMemberships.png)](https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1250178895&format=interactive)
 
 # Galaxy Servers
 
@@ -97,32 +52,15 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 [Usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)) is the Galaxy project's publicly available Galaxy server.
 
-[![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=1&format=interactive)
+[![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)]https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=558686006&format=interactive)
 
-[![](/src/galaxy-project/statistics/MainUserJobPerMonth.png)](https://docs.google.com/spreadsheets/d/199EduADjqo5F-MS9eGUW1pPmzskuYyPv5PJAwEDAVcs/pubchart?oid=2&format=interactive)
-
-[![](/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=2&format=interactive)
+[![](/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=909662767&format=interactive)
 
 ## Known Publicly Accessible Servers
 
 Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
-| Date    | # Servers |
-|---------|----------:|
-| 2011/07 | 15 |
-| 2012/01 | 21 |
-| 2012/07 | 20 |
-| 2013/01 | 25 |
-| 2013/02 | 27 |
-| 2013/07 | 35 |
-| 2014/01 | 54 |
-| 2014/07 | 60 |
-| 2015/01 | 70 |
-| 2015/07 | 73 |
-| 2016/01 | 84 |
-| 2016/08 | 85 |
-| 2017/01 | 90 |
-| 2017/04 | 95 |
+[![](/src/galaxy-project/statistics/public_servers.png)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 
 
 # Publications / Citations
@@ -174,7 +112,7 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
 | 2016-02-02 |          184 |          7,854 | 28,216 |
 | 2016-08-16 |          149 |          7,189 | 32,193 |
 | 2017-01-19 |          144 |          6,675 | 34,451 |
-
+| 2017-07-12 |          587 |          9,549 | 43,001 |
 
 
 ## Committers
@@ -185,7 +123,7 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
 |------------|-------------:|---------------:|-------:|
 | 2016-02-02 |           24 |            120 |    218 |
 | 2016-08-16 |           18 |            123 |    282 |
-
+| 2017-07-12 |           36 |            162 |    357 |
 
 
 ## Galaxy Clones
@@ -198,7 +136,8 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 | 2015-12-14 |  2,885 |            322 |
 | 2016-02-02 |  2,978 |            414 |
 | 2016-08-16 |  3,408 |            339 |
-| 2017-01-19 |  2,742 |          1,318 |
+| 2017-01-19 |  2,742 |            318 |
+| 2017-07-12 |  2.665 |            481 |
 
 # Tools
 
@@ -206,17 +145,16 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 
 The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed software and workflows that can be installed at any Galaxy site.
 
-| Date    | Repos | Unique Owners | Valid Tools |
-|---------|------:|--------------:|------------:|
-| 2014/07 | 1,140 |           254 |       2,538 |
-| 2014/10 | 1,236 |           273 |       2,684 |
-| 2015/01 | 1,355 |           293 |       2,914 |
-| 2015/07 | 1,726 |           335 |       3,374 |
-| 2016/02 | 2,093 |           380 |       3,676 |
-| 2016/08 | 2,582 |           438 |       4,167 |
-| 2017/01 | 2,689 |           466 |       4,300 |
+[![](/src/galaxy-project/statistics/toolshed.png)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
+
+
 # Twitter
 
 The Galaxy project started to [use Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
 
-[![](/src/galaxy-project/statistics/TwitterFollowersOverTime.png)](https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=659865406&format=interactive)
+[![](/src/galaxy-project/statistics/TwitterFollowersOverTime.png)](https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=1683239097&format=interactive)
+
+
+# Want the underlying numbers?
+
+All of the underlying numbers are available as TSV files.  Contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) if you would like copies.
