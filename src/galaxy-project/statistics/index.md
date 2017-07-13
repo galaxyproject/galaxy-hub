@@ -52,7 +52,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 [Usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)) is the Galaxy project's publicly available Galaxy server.
 
-[![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)]https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=558686006&format=interactive)
+[![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=558686006&format=interactive)
 
 [![](/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=909662767&format=interactive)
 
