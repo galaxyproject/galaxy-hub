@@ -67,28 +67,325 @@ Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private
 
 A Galaxy [CiteULike](/src/cite-u-like/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
 
-As of Arpil 4, 2017 these are the tags on papers in the Galaxy CiteULike Group:
+As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
 
-| Tag                    | This year | Since 2005       |
-|------------------------|----------:|-----------------:|
-| Methods                |       161 |            2,163 |
-| Workbench              |        45 |            1,161 |
-| UsePublic              |        65 |              484 |
-| UseMain                |        31 |              452 |
-| Tools                  |        15 |              297 |
-| UseLocal               |        23 |              225 |
-| RefPublic              |        20 |              217 |
-| IsGalaxy               |         11 |              217 |
-| Cloud                  |         3 |              166 |
-| Other                  |         9 |              152 |
-| Reproducibility        |        14 |              125 |
-| Shared                 |         5 |              115 |
-| Unknown                |         4 |               80 |
-| HowTo                  |         1 |               68 |
-| Project                |         - |               57 |
-| Visualization          |         2 |               32 |
-| UseCloud               |         - |                8 |
-| **Total**              |    **268** |        **4,320** |
+<table class="table">
+  <tr>
+    <th> Year </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/methods">Methods</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/workbench">Work- bench</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/usepublic">Use Public</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/usemain">Use Main</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/tools">Tools</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/uselocal">Use Local</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/refpublic">Ref Public</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/isgalaxy">Is Galaxy</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/cloud">Cloud</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/other">Other</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/reproducibility">Reprodu- cibility</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/shared">Shared</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/unknown">Un- known</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/howto">How To</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/project">Project</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/visualization">Visuali- zation</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/usecloud">Use Cloud</a> </th>
+    <th> Total </th>
+  </tr>
+  <tr>
+    <th> 2005 </th>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2005+%26%26+tag%3Aworkbench">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2005+%26%26+tag%3Aproject">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2005">2</a> </td>
+  </tr>
+  <tr>
+    <th> 2006 </th>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2006+%26%26+tag%3Aworkbench">3</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2006+%26%26+tag%3Ahowto">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2006">4</a> </td>
+  </tr>
+  <tr>
+    <th> 2007 </th>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007+%26%26+tag%3Amethods">2</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007+%26%26+tag%3Aworkbench">7</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007+%26%26+tag%3Acloud">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007+%26%26+tag%3Ahowto">2</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007+%26%26+tag%3Aproject">2</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2007">12</a> </td>
+  </tr>
+  <tr>
+    <th> 2008 </th>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Amethods">15</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Aworkbench">12</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Ausemain">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Aisgalaxy">2</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Aunknown">2</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Aproject">1</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008+%26%26+tag%3Avisualization">1</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2008">32</a> </td>
+  </tr>
+  <tr>
+    <th> 2009 </th>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Amethods">26</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Aworkbench">18</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Atools">3</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Aisgalaxy">2</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Aother">1</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Ashared">1</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Aunknown">5</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009+%26%26+tag%3Ahowto">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2009">53</a> </td>
+  </tr>
+  <tr>
+    <th> 2010 </th>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Amethods">50</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Aworkbench">36</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Atools">1</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Aisgalaxy">5</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Aother">1</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Ashared">1</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Aunknown">7</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Ahowto">3</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010+%26%26+tag%3Aproject">5</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2010">107</a> </td>
+  </tr>
+  <tr>
+    <th> 2011 </th>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Amethods">93</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Aworkbench">69</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Ausemain">1</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Atools">8</a> </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Aisgalaxy">16</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Acloud">3</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Areproducibility">6</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Ashared">8</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Aunknown">3</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Ahowto">4</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Aproject">6</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011+%26%26+tag%3Avisualization">1</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2011">204</a> </td>
+  </tr>
+  <tr>
+    <th> 2012 </th>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Amethods">196</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Aworkbench">128</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Ausepublic">1</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Ausemain">3</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Atools">29</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Auselocal">2</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Aisgalaxy">15</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Acloud">13</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Aother">9</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Areproducibility">7</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Ashared">12</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Aunknown">10</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Ahowto">12</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Aproject">10</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012+%26%26+tag%3Avisualization">2</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2012">396</a> </td>
+  </tr>
+  <tr>
+    <th> 2013 </th>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Amethods">262</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Aworkbench">150</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Ausepublic">16</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Ausemain">91</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Atools">36</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Auselocal">28</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Arefpublic">10</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Aisgalaxy">26</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Acloud">23</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Aother">9</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Areproducibility">8</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Ashared">22</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Aunknown">13</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Ahowto">7</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Aproject">6</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Avisualization">3</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013+%26%26+tag%3Ausecloud">2</a> </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2013">499</a> </td>
+  </tr>
+  <tr>
+    <th> 2014 </th>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Amethods">329</a> </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Aworkbench">223</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Ausepublic">59</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Ausemain">97</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Atools">67</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Auselocal">42</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Arefpublic">28</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Aisgalaxy">47</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Acloud">40</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Aother">40</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Areproducibility">25</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Ashared">23</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Aunknown">8</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Ahowto">11</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Aproject">7</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Avisualization">8</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014+%26%26+tag%3Ausecloud">1</a> </td>
+    <td  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2014">733</a> </td>
+  </tr>
+  <tr>
+    <th> 2015 </th>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Amethods">468</a> </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Aworkbench">232</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Ausepublic">137</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Ausemain">116</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Atools">67</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Auselocal">57</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Arefpublic">51</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Aisgalaxy">47</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Acloud">49</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Aother">34</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Areproducibility">23</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Ashared">23</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Aunknown">14</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Ahowto">8</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Aproject">11</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Avisualization">7</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015+%26%26+tag%3Ausecloud">2</a> </td>
+    <td  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2015">920</a> </td>
+  </tr>
+  <tr>
+    <th> 2016 </th>
+    <td  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Amethods">568</a> </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aworkbench">243</a> </td>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ausepublic">206</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ausemain">113</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Atools">71</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Auselocal">73</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Arefpublic">110</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aisgalaxy">46</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Acloud">34</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aother">49</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Areproducibility">42</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ashared">20</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aunknown">15</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ahowto">18</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aproject">8</a> </td>
+    <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Avisualization">9</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ausecloud">3</a> </td>
+    <td  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016">1105</a> </td>
+  </tr>
+  <tr>
+    <th> 2017 </th>
+    <td  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Amethods">355</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Aworkbench">102</a> </td>
+    <td  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Ausepublic">140</a> </td>
+    <td  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Ausemain">71</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Atools">30</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Auselocal">46</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Arefpublic">48</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Aisgalaxy">31</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Acloud">13</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Aother">17</a> </td>
+    <td  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Areproducibility">34</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Ashared">11</a> </td>
+    <td  style="text-align: right; background-color: #d8ffd8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Aunknown">12</a> </td>
+    <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Ahowto">4</a> </td>
+    <td  style="text-align: right; background-color: #f8fff8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Aproject">1</a> </td>
+    <td  style="text-align: right; background-color: #f0fff0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017+%26%26+tag%3Avisualization">2</a> </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2017">601</a> </td>
+  </tr>
+  <tr>
+    <th> Total </th>
+    <th  style="text-align: right; background-color: #68c868;" > <a href="http://www.citeulike.org/group/16008/tag/methods">2364</a> </th>
+    <th  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/group/16008/tag/workbench">1224</a> </th>
+    <th  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/group/16008/tag/usepublic">559</a> </th>
+    <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/usemain">493</a> </th>
+    <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/tools">312</a> </th>
+    <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/uselocal">248</a> </th>
+    <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/refpublic">247</a> </th>
+    <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/isgalaxy">237</a> </th>
+    <th  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/group/16008/tag/cloud">176</a> </th>
+    <th  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/group/16008/tag/other">160</a> </th>
+    <th  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/group/16008/tag/reproducibility">145</a> </th>
+    <th  style="text-align: right; background-color: #a8e8a8;" > <a href="http://www.citeulike.org/group/16008/tag/shared">121</a> </th>
+    <th  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/group/16008/tag/unknown">89</a> </th>
+    <th  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/group/16008/tag/howto">71</a> </th>
+    <th  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/group/16008/tag/project">58</a> </th>
+    <th  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/group/16008/tag/visualization">33</a> </th>
+    <th  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/group/16008/tag/usecloud">8</a> </th>
+    <th  style="text-align: right; background-color: #68c868;" > 4668 </th>
+  </tr>
+</table>
 
 
 
