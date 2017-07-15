@@ -107,3 +107,9 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 4:15p -   4:30p | Break |
 | 4:30p -   4:40p | Galaxy Community |
 | 4:40p -   5:00p | Compare & Contrast: CyVerse, Galaxy, and other options |
+
+
+# Resources and Techniques for Training Students in Computational Skills
+
+Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *Resources and Techniques for Training Students in Computational Skills* session during the 2017 SACNAS Conference.
+ 

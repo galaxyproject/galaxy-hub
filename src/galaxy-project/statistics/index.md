@@ -72,7 +72,7 @@ As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
 <table class="table">
   <tr>
     <th> Year </th>
-    <th> <a href="http://www.citeulike.org/group/16008/tag/methods">Methods</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/methods">Meth- ods</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/workbench">Work- bench</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/usepublic">Use Public</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/usemain">Use Main</a> </th>
@@ -82,12 +82,12 @@ As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
     <th> <a href="http://www.citeulike.org/group/16008/tag/isgalaxy">Is Galaxy</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/cloud">Cloud</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/other">Other</a> </th>
-    <th> <a href="http://www.citeulike.org/group/16008/tag/reproducibility">Reprodu- cibility</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/reproducibility">Re- pro</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/shared">Shared</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/unknown">Un- known</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/howto">How To</a> </th>
-    <th> <a href="http://www.citeulike.org/group/16008/tag/project">Project</a> </th>
-    <th> <a href="http://www.citeulike.org/group/16008/tag/visualization">Visuali- zation</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/project">Pro- ject</a> </th>
+    <th> <a href="http://www.citeulike.org/group/16008/tag/visualization">Viz</a> </th>
     <th> <a href="http://www.citeulike.org/group/16008/tag/usecloud">Use Cloud</a> </th>
     <th> Total </th>
   </tr>
@@ -341,7 +341,7 @@ As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
     <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Aproject">8</a> </td>
     <td  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Avisualization">9</a> </td>
     <td  style="text-align: right; background-color: #e8ffe8;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016+%26%26+tag%3Ausecloud">3</a> </td>
-    <td  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016">1105</a> </td>
+    <td  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=year%3A2016">1,105</a> </td>
   </tr>
   <tr>
     <th> 2017 </th>
@@ -366,8 +366,8 @@ As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
   </tr>
   <tr>
     <th> Total </th>
-    <th  style="text-align: right; background-color: #68c868;" > <a href="http://www.citeulike.org/group/16008/tag/methods">2364</a> </th>
-    <th  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/group/16008/tag/workbench">1224</a> </th>
+    <th  style="text-align: right; background-color: #68c868;" > <a href="http://www.citeulike.org/group/16008/tag/methods">2,364</a> </th>
+    <th  style="text-align: right; background-color: #78d078;" > <a href="http://www.citeulike.org/group/16008/tag/workbench">1,224</a> </th>
     <th  style="text-align: right; background-color: #88d888;" > <a href="http://www.citeulike.org/group/16008/tag/usepublic">559</a> </th>
     <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/usemain">493</a> </th>
     <th  style="text-align: right; background-color: #98e098;" > <a href="http://www.citeulike.org/group/16008/tag/tools">312</a> </th>
@@ -383,7 +383,7 @@ As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
     <th  style="text-align: right; background-color: #b8f0b8;" > <a href="http://www.citeulike.org/group/16008/tag/project">58</a> </th>
     <th  style="text-align: right; background-color: #c8ffc8;" > <a href="http://www.citeulike.org/group/16008/tag/visualization">33</a> </th>
     <th  style="text-align: right; background-color: #e0ffe0;" > <a href="http://www.citeulike.org/group/16008/tag/usecloud">8</a> </th>
-    <th  style="text-align: right; background-color: #68c868;" > 4668 </th>
+    <th  style="text-align: right; background-color: #68c868;" > 4,668 </th>
   </tr>
 </table>
 
