@@ -56,9 +56,8 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 ### Upload tool option to move FTP datasets into a History
 
-If you DO NOT see any files as in the example below, **load data using FTP first**, then come back to the _Upload_ tool. 
+If you DO NOT see any files, **load data using FTP first**, then come back to the _Upload_ tool. 
 
-![Upload tool "Load FTP data" function](/src/images/screenshots?action=AttachFile&do=get&target=Upload_ftp_data.png "Upload tool "Load FTP data" function")
 
 ### Upload tips
 
