@@ -14,7 +14,8 @@ Related topics
 ## Video Tutorials
 
  * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
- * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/)
+ * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/index.md)
+ * FTP/FTPS tutorial: [**FTP Upload**](/src/ftp-upload/index.md)
 
 
 ## Supplimental Step-by-Step
@@ -49,6 +50,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/src/admin/config/upload-via-ftp/index.md) first.
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
+*   FTPS was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](src/ftp-upload/#upload-from-client/index.md).
 
 ### Upload tool location
 
@@ -63,7 +65,7 @@ If you DO NOT see any files, **load data using FTP first**, then come back to th
 
 *   **Data [quota](/src/main/#user-data-and-job-quotas) is at limit**, so _no new data can be loaded_. Disk usage and quotas are reported at _**User → Preferences**_ when logged in.
 *   **Password protected data** will require a special URL format. Ask the data source. Double check that it is _publicly accessible_.
-*   Use _**[FTP](/ftp-upload/index.md)**_, not _**SFTP**_. Check with local admin if not sure.
+*   Use _**[FTP or FTPS](/src/ftp-upload/index.md)**_, not _**SFTP**_. Check with local admin if not sure.
 *   **No HTML content.** The loading error generated may state this. Remove HTML fields from your dataset before loading into Galaxy or omit HTML fields from the query if importing from a data source (such as Biomart).
 *   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are supported.**
 *   Only the **first file in any compressed archive** will load as a **[dataset](/src/learn/managing-datasets)**.
