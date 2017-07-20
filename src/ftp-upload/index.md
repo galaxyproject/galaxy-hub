@@ -25,8 +25,13 @@ In this example I'm using ForkLift for MacOS. Point your client to the FTP serve
 ![FTP client connection details](ftp-connect.png)
 
 <div class="alert alert-warning" role="alert">
-If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTP` since both `FTP (TLS)` and `SFTP` connections will be rejected.
+If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTP` or 'FTPS` since `SFTP` connections will be rejected.
 </div>
+
+In many clients, the first time you use `FPTS`, a certificate authentication will often be required (secure SLL/TSL was implimented at http://usegalaxy.org on July 19, 2017). Watch here for options about how to configure your client and to verify the secure connection certificate:
+
+<iframe src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 Below you can see my files copied to the destination on Galaxy's FTP server.
 ![files uploaded to Galaxy FTP server](ftp-files.png)
