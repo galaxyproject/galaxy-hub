@@ -30,7 +30,10 @@ If you are having trouble connecting to the [Main](/src/main/index.md) server tr
 
 In many clients, the first time you use `FPTS`, a certificate authentication will often be required (secure SLL/TSL was implimented at http://usegalaxy.org on July 19, 2017). 
 
-<iframe src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen </iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
+</div>
+
 In this video, the changes for `FTPS` are explained along with how to configure `FTP` client settings and verfify the target server's certificate.
 
 Below you can see my files copied to the destination on Galaxy's FTP server.
