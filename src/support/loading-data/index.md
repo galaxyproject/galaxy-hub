@@ -50,7 +50,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/src/admin/config/upload-via-ftp/index.md) first.
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
-*   FTPS was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](src/ftp-upload/#upload-from-client/index.md).
+*   **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](src/ftp-upload/#upload-from-client).
 
 ### Upload tool location
 
