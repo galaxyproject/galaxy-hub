@@ -17,34 +17,35 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 
 ## 21 July, Friday
 
-| Time | Topic | Presenter(s) | Where |
+| Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- |
-| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) (You can still register) | [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md) | North Hall, ISMB/ECCB |
+| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) (You can still register) | [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md) | North Hall, ISMB/ECCB | [Tutorial](https://github.com/galaxyproject/galaxytutorial-ismb17) |
 
 
 ## 22 July, Saturday
 
 | Time | Topic | Presenter(s) | Where | Links |
-| ---- | ---- | ---- | ---- |
+| ---- | ---- | ---- | ---- | ---- |
 | 12:08 | Discovery and visualisation of homologous genes and gene families using Galaxy | Anil S. Thanki | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
-| 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | [Bjorn Gruning](/src/people/bjoern-gruening/index.md) |  Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
+| 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | [Bjorn Gruning](/src/people/bjoern-gruening/index.md) |  Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1203) |
 | 15:28 | A Ubiquitous Approach to Reproducible Bioinformatics across Computational Platforms | [John Chilton](/src/people/john-chilton/index.md) | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
 | 16:30 | [TT03: Supporting highly scalable scientific data analysis with Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/technologytrack.php) | [James Taylor](/src/people/james-taylor/index.md) | Terrace 1 | [Slides](https://speakerdeck.com/jxtx/ismb-2017-supporting-highly-scalable-scientific-data-analysis-with-galaxy) |
 | 18:00 | [A-113: SIAMCAT - Statistical Inference of Associations between Microbial Communities And host phenoTypes](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=B#A-113) | Konrad Zych | BOSC, Congress Foyer, Level 2 | |
 | 18:00 | [A-149: Discovery and visualisation of homologous genes and gene families using Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=B#A-149) | Anil Thanki | BOSC, Congress Foyer, Level 2 | [Poster](http://dx.doi.org/10.7490/f1000research.1114431.1) |
+| 18:00 | [A-161: EDAM - The ontology of bioinformatics operations, types of data, topics, and data formats (2017 update)](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=B#A-161) | Hervé Ménager | BOSC, Congress Foyer, Level 2 | [Poster](https://f1000research.com/posters/6-1181)
 | 18:00 | [A-207: Scalable and accessible clustering of ncRNAs based on sequence and secondary structures](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=I#A-207) | Milad Miladi | Congress Foyer, Level 2 | |
 
 
 ## 23 July, Sunday
 
-| Time | Topic | Presenter(s) | Where |
-| ---- | ---- | ---- | ---- |
-| 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
-| 11:30 | Recent object formation in the core of Galaxy |  [Martin Čech](/src/people/marten/index.md) | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
-| 11:45 | ToolDog - generating tool descriptors from the ELIXIR tool registry | Kenzo-Hugo Hillion | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) |
-| 18:00 | [A-166: Scaling Bioinformatics Training: An ELIXIR, GOBLET & Galaxy Training Network Collaboration](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=F#A-166) | Bérénice Batut | Congress Foyer, Level 2 |
-| 18:00 | [A-170: ELIXIR-SI eLearning platform as a new tool in bioinformatics (teaching)](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=F#A-170) | Andrej Kastrin | Congress Foyer, Level 2 |
-| 18:00 | [A-402: InMoDe: tools for learning and visualizing intra-motif dependencies of DNA binding sites](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=L#A-402) | Ralf Eggeling | RegGenSig, Congress Foyer, Level 2 |
+| Time | Topic | Presenter(s) | Where | Links |
+| ---- | ---- | ---- | ---- | ---- |
+| 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
+| 11:30 | Recent object formation in the core of Galaxy |  [Martin Čech](/src/people/marten/index.md) | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1207) |
+| 11:45 | ToolDog - generating tool descriptors from the ELIXIR tool registry | Kenzo-Hugo Hillion | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1194) |
+| 18:00 | [A-166: Scaling Bioinformatics Training: An ELIXIR, GOBLET & Galaxy Training Network Collaboration](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=F#A-166) | Bérénice Batut | Congress Foyer, Level 2 | |
+| 18:00 | [A-170: ELIXIR-SI eLearning platform as a new tool in bioinformatics (teaching)](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=F#A-170) | Andrej Kastrin | Congress Foyer, Level 2 | |
+| 18:00 | [A-402: InMoDe: tools for learning and visualizing intra-motif dependencies of DNA binding sites](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=L#A-402) | Ralf Eggeling | RegGenSig, Congress Foyer, Level 2 | |
 
 ## 24 July, Monday
 
