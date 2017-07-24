@@ -32,7 +32,13 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    * Within a History, deleted/permenently deleted Datasets can be reviewed by clicking on the *deleted* link at the top of the History panel, found immediately under the History name.
    * Or active (shown) and hidden datasets can be reviewed the same way.
    * Click on the far right "X" to delete a dataset. 
-   * To permenently delete: use the link from within the dataset, or use the Operations on Multiple Datasets function, or the Purge Deleted Datasets list item in the History menu.
+   * To permenently delete: use the link from within the dataset, or use the Operations on Multiple Datasets function, or the Purge Deleted Datasets list item in the History menu. 
+
+ 3. Examine History menu items under **Histories Shared with Me**. 
+   * *Note: A small fraction of space from shared histories will count toward your quota.*
+   * Review the contents.
+   * **Copy** those you still want to work with.
+   * **Unshare** any on the list not needed (once copied, unshare and you will still have your own copy).
  
  Also see: [Delete versus Delete Permanently](/src/learn/managing-datasets/#delete-vs-delete-permanently)
 
