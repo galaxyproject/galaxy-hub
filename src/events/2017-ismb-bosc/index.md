@@ -26,7 +26,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
-| 12:08 | Discovery and visualisation of homologous genes and gene families using Galaxy | Anil S. Thanki | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
+| 12:08 | Discovery and visualisation of homologous genes and gene families using Galaxy | Anil S. Thanki | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1189) |
 | 15:00 | The backbone of research reproducibility: sustainable and flexible tool deployment | [Bjorn Gruning](/src/people/bjoern-gruening/index.md) |  Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1203) |
 | 15:28 | A Ubiquitous Approach to Reproducible Bioinformatics across Computational Platforms | [John Chilton](/src/people/john-chilton/index.md) | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
 | 16:30 | [TT03: Supporting highly scalable scientific data analysis with Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/technologytrack.php) | [James Taylor](/src/people/james-taylor/index.md) | Terrace 1 | [Slides](https://speakerdeck.com/jxtx/ismb-2017-supporting-highly-scalable-scientific-data-analysis-with-galaxy) |
@@ -61,7 +61,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 | Time | Topic | Presenter(s) | Where |
 | ---- | ---- | ---- | ---- |
 | 10:20 | [TT24: Galaxy Interactive Environments: Combining the computational power of Galaxy with the analytical flexibility of Jupyter](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/technologytrack.php) | [Anton Nekrutenko](/src/people/anton/index.md) | Terrace 1 |
-| 13:00 | [B-018: MINTIA : Metagenomic INsertT Bioinformatic Annotation in Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=H#B-108) | Christophe Klopp | Congress Foyer, Level 2 |
+| 13:00 | [B-018: MINTIA : Metagenomic INsertT Bioinformatic Annotation in Galaxy](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=H#B-018) | Christophe Klopp | Congress Foyer, Level 2 |
 
 
 
