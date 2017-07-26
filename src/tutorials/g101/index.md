@@ -1,5 +1,5 @@
 ---
-title: Galaxy 101: What is Galaxy?
+title: Galaxy 101 - What is Galaxy?
 ---
 
 Before diving into a practical exercise let us introduce several fundamental concepts about Galaxy.
