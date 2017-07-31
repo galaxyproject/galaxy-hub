@@ -29,6 +29,10 @@ These hands-on workshops teach basic concepts, skills and tools for working more
 
 **[Register Now](http://bit.ly/sacnas-data-reg-2017)**
 
+# Travel Scholarships
+
+The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2017sacnas.org/events/2017-sacnas-the-national-diversity-in-stem-conference/custom-167-344a437cdada442d9179834c162b0a21.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops.  Space is limited, and once the funds are allocated, they are gone. [Register Now](http://bit.ly/sacnas-data-reg-2017)
+
 
 # Workshop 1: Software and Data Carpentry
 
