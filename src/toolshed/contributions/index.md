@@ -1,9 +1,16 @@
-# Galaxy Tool Shed Contributions
+---
+title: Galaxy Tool Shed contributions
+---
+
+<div class="right">[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)</div>
+
+Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/):
 
 ## Monthly summaries
 
 ### 2017
 
+* [June & July 2017](/src/toolshed/contributions/2017-07/index.md)
 * [May 2017](/src/toolshed/contributions/2017-05/index.md)
 * [April 2017](/src/toolshed/contributions/2017-04/index.md)
 * [March 2017](/src/toolshed/contributions/2017-03/index.md)
