@@ -333,7 +333,7 @@ This set of revisions includes:
 * Implement mulled version 2 package hashing.
 * Fix default namespace for mulled operations from mulled to biocontainers.
 
-# gops 1.1.0
+## gops 1.1.0
 
 The [Galaxy Operations Python Package](https://github.com/galaxyproject/gops) now provides utilities for working with GFF files thanks to [@bgruening](https://github.com/bgruening) and [@nsoranzo](https://github.com/nsoranzo).
 
