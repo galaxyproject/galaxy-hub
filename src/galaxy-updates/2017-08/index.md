@@ -24,7 +24,7 @@ The event is organized by [Oregon Health & Science University (OHSU)](https://ww
 <div class="right">[<img src="/src/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
 <br />
 [Photo](https://www.flickr.com/photos/134305289@N03/34817510423/in/album-72157685584858176/) Credit: [Bérénice Batut](https://www.flickr.com/photos/134305289@N03/albums/72157685584858176)<br /><br />
-[<img src="/src/images/logos/f1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
+[<img src="/src/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
 </div>
 
 GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencesconf.org/page/location). The eighth global gathering of the Galaxy community featured two days of *[Hack the Galaxy](https://schd.ws/hosted_files/gcc2017/ea/S8_L8-9_gcc2017_hacks.pdf)*, [two days of training](https://gcc2017.sched.com/overview/type/D.x+Training+-+All), and a [two day community conference](https://gcc2017.sched.com/overview/type/E.x+Conference+-+All). Most training materials, slides, and posters are [now available online](https://gcc2017.sched.com/). Slides and posters are also being uploaded to the [F1000 Galaxy Channel](https://f1000research.com/gateways/galaxy). Take a look.
