@@ -1,3 +1,7 @@
+---
+autotoc: false
+---
+
 <div class='right'><img src="/src/people/marten/marten.jpg" alt="Marten"/></div>
 
 # Martin Cech
