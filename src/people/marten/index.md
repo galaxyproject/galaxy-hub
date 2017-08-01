@@ -1,7 +1,13 @@
+---
+autotoc: false
+---
+
+<div class='right'><img src="/src/people/marten/marten.jpg" alt="Marten"/></div>
+
 # Martin Cech
 
-* Galaxy project member.
-* Email: [marten AT SPAMFREETRALALALA bx.psu DOT edu](mailto:marten AT SPAMFREETRALALALA bx.psu DOT edu)
+* Galaxy Team member
+* Email: [marten@bx.psu.edu](mailto:marten@bx.psu.edu)
 * Twitter: https://twitter.com/martenson
-* GH: https://github.com/martenson
-* Linkedin: http://www.linkedin.com/in/cechmartin/
+* GitHub: https://github.com/martenson
+* LinkedIn: http://www.linkedin.com/in/cechmartin/
