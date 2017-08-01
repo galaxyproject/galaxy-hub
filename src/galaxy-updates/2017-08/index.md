@@ -8,13 +8,13 @@ title: August 2017 Galaxy News
 Welcome to the August 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
-# GCC2018, Portland, Oregon, United States, June 25-30
+# GCC2018: Portland, Oregon, United States, June 25-30
 
 <div class="left">
 [<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
 </div>
 
-We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and **Bioinformatics Open Source Conference 2018 (BOSC2018)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the OBF Contribution Fest, and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practiioners into a single place.  At this event the whole will be greater than the sum of the parts.
+We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and the **[Bioinformatics Open Source Conference 2018 (BOSC2018)](https://www.open-bio.org/wiki/BOSC)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the OBF Contribution Fest, and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practiioners into a single place.  At this event the whole will be greater than the sum of the parts.
 
 The event is organized by [Oregon Health & Science University (OHSU)](https://www.ohsu.edu) and will be held at [Reed College](http://www.reed.edu/), a small liberal arts college in Portland.  Portland is a vibrant city in the American Northwest, close to the Cascade Mountains, the Oregon Coast, and the Columbia River. 
 
@@ -23,26 +23,24 @@ The event is organized by [Oregon Health & Science University (OHSU)](https://ww
 
 <div class="right">[<img src="/src/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
 <br />
-[Photo](https://www.flickr.com/photos/134305289@N03/34817510423/in/album-72157685584858176/) Credit: [Bérénice Batut](https://www.flickr.com/photos/134305289@N03/albums/72157685584858176)<br /><br />
+[Photo](https://www.flickr.com/photos/134305289@N03/34817510423/in/album-72157685584858176/): [Bérénice Batut](https://www.flickr.com/photos/134305289@N03/albums/72157685584858176)<br /><br />
 [<img src="/src/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
 </div>
 
 GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencesconf.org/page/location). The eighth global gathering of the Galaxy community featured two days of *[Hack the Galaxy](https://schd.ws/hosted_files/gcc2017/ea/S8_L8-9_gcc2017_hacks.pdf)*, [two days of training](https://gcc2017.sched.com/overview/type/D.x+Training+-+All), and a [two day community conference](https://gcc2017.sched.com/overview/type/E.x+Conference+-+All). Most training materials, slides, and posters are [now available online](https://gcc2017.sched.com/). Slides and posters are also being uploaded to the [F1000 Galaxy Channel](https://f1000research.com/gateways/galaxy). Take a look.
 
-Several summaries of GCC2017 are available online:
+Two summaries of GCC2017 are available online:
 
 * [Intergalactique – the Galaxy Community Conference 2017](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/), by [Hollydawn Murray](https://blog.f1000.com/author/hmurray/), F1000 Research Publishing Editor, on the [F1000 Research Blog](https://blog.f1000.com/blogs/f1000research/).
-* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/], by [Simon Gladman](/src/people/simon-gladman/index.md), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
+* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/], by [Simon Gladman](/src/people/simon-gladman/index.md), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="170" />](/src/events/2017-sacnas/index.md) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
+[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
+[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/src/index.md)
 </div>
-
-<br />
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
 
@@ -53,17 +51,17 @@ If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Sa
 **[Data Platforms for Life Science Researchers](/src/events/2017-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](http://bit.ly/sacnas-data-reg-2017) is *free* but space is limited.  You are strongly encouraged to register soon.
-Both workshops are hel October 18, the day before SACNAS starts.
+Both workshops are held October 18, the day before SACNAS starts.
 
 **[Register Now](http://bit.ly/sacnas-data-reg-2017)**
 
 
-*Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2017sacnas.org/events/2017-sacnas-the-national-diversity-in-stem-conference/custom-167-344a437cdada442d9179834c162b0a21.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. 
+*Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2017sacnas.org/events/2017-sacnas-the-national-diversity-in-stem-conference/custom-167-344a437cdada442d9179834c162b0a21.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. (You must hve received a SACNAS Travel Scholarship to be eligible.)
 
 # Galaxy @ ISMB/ECCB/BOSC 2017: Slides and posters are available
 
 <div class="right">
-[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="170" />](/src/events/2017-ismb-bosc/index.md))
+[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/src/events/2017-ismb-bosc/index.md))
 </div>
 
 If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) then don't, um, fret!  Most slides and posters are [available online](/src/events/2017-ismb-bosc/index.md))
@@ -74,7 +72,102 @@ See you next year in Chicago!
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
-
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Topic/Event</th>
+      <th>Venue/Location</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="text-nowrap">August 2nd 2017</span></td>
+      <td><a href="http://qfab.org/workshops/genome-assembly-using-galaxy-2-3-aug-2017">Genome assembly using Galaxy</a></td>
+      <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">August 9th 2017</span></td>
+      <td><a href="http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug17.html">Introduction to Galaxy Workshop</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.polyomics.gla.ac.uk/index.html">University of Glasgow, Glasgow, United Kingdom</a></td>
+      <td>David Meltzer</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">September 1st 2017</span></td>
+      <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/events/2017-genome-10k">hub page</a>]</td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Nicola Soranzo, Graham Etherington</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">September 13th 2017</span></td>
+      <td><a href="http://qfab.org/workshops/rna-seq-analysis-using-galaxy-13-14-sep-2017">RNA-Seq analysis using Galaxy</a></td>
+      <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">September 25th 2017</span></td>
+      <td><a href="http://compgen.mdc-berlin.de/">Computational Genomics and RNA Biology</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.mdc-berlin.de/bimsb">Berlin Institute for Medical Systems Biology, Max Delbrück Center, Berlin, Germany</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>compgen@mdc-berlin.de</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 3rd 2017</span></td>
+      <td><a href="https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-registration-36300240998">Introduction to Galaxy &amp; the Genomics Virtual Laboratory</a></td>
+      <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 4th 2017</span></td>
+      <td><a href="https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-galaxy-the-gvl-registration-36300315220">RNA-Seq Differential Gene Expression Analysis using Galaxy &amp; the GVL</a></td>
+      <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 4th 2017</span></td>
+      <td><a href="http://destair.bioinf.uni-leipzig.de/event/de-stair-1-workshop/">A primer for RNA-Seq processing, interpreting and visualization</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.google.com/maps/place/University+of+Freiburg,+Faculty+of+Biology/@48.0099215,7.8554122,17z/data=!3m1!4b1!4m5!3m4!1s0x47911c876bfa3fef:0x349b8880ff5e7f3b!8m2!3d48.0099215!4d7.8576009?hl=en">University of Freiburg, Freiburg Germany</a></td>
+      <td>Steve Hoffmann, Olaf Wolkenhauer, Wolfgang Hess</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 5th 2017</span></td>
+      <td><a href="https://www.eventbrite.com.au/e/variant-calling-with-galaxy-the-gvl-for-beginners-registration-36300355340">Variant Calling with Galaxy &amp; the GVL for beginners</a></td>
+      <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 18th 2017</span></td>
+      <td><a href="/events/2017-sacnas">SACNAS 2017 Pre-Conference Workshops</a></td>
+      <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.2017sacnas.org/">2017 SACNAS, Salt Lake City, Utah, United States</a></td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 23rd 2017</span></td>
+      <td><a href="http://sciencegateways.org/gateways2017/">Gateways 2017</a></td>
+      <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.umich.edu/">University of Michigan, Ann Arbor, Michigan, United States</a></td>
+      <td>Enis Afgan</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 23rd 2017</span></td>
+      <td><a href="http://www.denbi.de/symposium2017">The Future Development of Bioinformatics in Germany and Europe</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.uni-bielefeld.de/ZIF/">ZiF, Bielefeld University, Bielefeld, Germany</a></td>
+      <td>Rolf Backofen, Björn Grüning</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">October 23rd 2017</span></td>
+      <td><a href="http://cnrsformation.cnrs.fr/stage-17012-Analyse-avancee-de-sequences.html?axe=65">Analyse avancée de séquences</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.cbib.u-bordeaux.fr/">Carreire de l'Université Bordeaux Segalen, Bordeaux, France</a></td>
+      <td>Aurélien Barré, Raluca Uricaru, Benjamin Dartigues</td>
+    </tr>
+    <tr>
+      <td><span class="text-nowrap">January 8th 2018</span></td>
+      <td><a href="https://www.elixir-europe.org/events/european-galaxy-administrator-workshop">European Galaxy Administrator Workshop</a></td>
+      <td><img style="float:right" src="/images/icons/EU.png"/>Oslo, Norway</td>
+      <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+    </tr>
+  </tbody>
+</table>
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -154,9 +247,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in May
 
-## GIO Video 
+## Galaxy Integrated Omics (GIO)
 
-A [two minute demo of the mzIdentML visualisation plugin](https://youtu.be/Txf_91oF52c) that runs in the [Galaxy Integrated Omics (GIO)](http://gio.sbcs.qmul.ac.uk/) is now available.
+* A [two minute demo of the mzIdentML visualisation plugin](https://youtu.be/Txf_91oF52c) that runs in the [Galaxy Integrated Omics (GIO)](http://gio.sbcs.qmul.ac.uk/) is now available.
 
 
 ## Usegalaxy.org
@@ -170,23 +263,8 @@ A [two minute demo of the mzIdentML visualisation plugin](https://youtu.be/Txf_9
 
 <div class='right solid'><a href='http://abims.sb-roscoff.fr'><img src="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/ABiMS.png" alt="ABiMS" width="200" /></a></div>
 
-* *Links:*
-  * [ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)
-  * [Request an account](http://abims.sb-roscoff.fr/account) (require a professional/institutional email address)
-* *Domain/Purpose:*
-  * General purpose genomics analysis, featuring many standard tools plus many additional tools.
-  * However, we are specialized in RNASeq with reference and RNASeq denovo 
-* *Comments:*
-  * Only available for registered users
-* *User Support:*
-  * [Email](mailto:support DOT abims AT sb-roscoff DOT fr)
-* *Quotas:*
-  * The default quota for new users is 20GB but can be extended on request
-* *Sponsor(s):*
-  * [CNRS](http://www.cnrs.fr/)
-  * [UPMC](http://www.upmc.fr/)
-  * [BioGenOuest](https://www.biogenouest.org/) and [IFB](http://www.france-bioinformatique.fr/)
-  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
+[ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)  supports general purpose genomics analysis, featuring many standard tools plus many additional tools. However, we are specialized in RNASeq with reference and *de novo* RNASeq. Anyone with a professional/institutional email address can [request an account](http://abims.sb-roscoff.fr/account). The server is only available for registered users, and the default quota for new users is 20GB but can be extended on request.
+ [Email support](mailto:support DOT abims AT sb-roscoff DOT fr) is available.  ABiMS is supported by [CNRS](http://www.cnrs.fr/), [UPMC](http://www.upmc.fr/), [BioGenOuest](https://www.biogenouest.org/), [IFB](http://www.france-bioinformatique.fr/), and [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 
 <!--
 
@@ -224,7 +302,7 @@ No new resources were added to community directories in January or February.
 
 ## Galaxy TourBuilder
 
-The Galaxy [TourBuilder](https://github.com/TailorDev/galaxy-tourbuilder) is recording your Galaxy analysis
+The Galaxy [TourBuilder](https://github.com/TailorDev/galaxy-tourbuilder) records your Galaxy analysis
 in real-time and creates a Galaxy Tour for you - automatically! You can edit the tour simultanously, replay the
 tour while you are analysing your data and much more!
 
@@ -233,7 +311,7 @@ Check out the [video](https://imgur.com/a/0YVvz) to get a taste of what it can d
 This extension is available under the name Galaxy Tour Builder in the [Chrome Web Store](https://chrome.google.com/webstore/detail/galaxy-tour-builder/mdfbapknmcpnbmggahhaegehbbbmhmgg), the Mozilla (Firefox) [Add-on website](https://addons.mozilla.org/de/firefox/addon/galaxy-tour-builder/), and the Opera [add-ons website](https://addons.opera.com/de/extensions/details/galaxy-tour-builder/).
 Credits
 
-This project has been initiated during the [Swiss-Germany Galaxy Days](https://galaxyproject.org/events/sg2016/) a while ago in Freiburg by Dannon Baker and William Durand. During GCC 2017 Florian Eggenhofer, Matthias Bernt, Bérénice Batut and Clemens Blank have picked up this project and with tramendous help from [TailorDev](https://tailordev.fr) a first release could be released.
+This project was initiated during the [Swiss-Germany Galaxy Days](https://galaxyproject.org/events/sg2016/) a while ago in Freiburg by Dannon Baker and William Durand. During GCC 2017 Florian Eggenhofer, Matthias Bernt, Bérénice Batut and Clemens Blank have picked up this project and with tramendous help from [TailorDev](https://tailordev.fr) so a first version could be released.
 
 
 ## Planemo 0.41.0 - 0.44.0
@@ -340,6 +418,8 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 
 # Other News
+
+<div class="right">[<img src="/src/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
