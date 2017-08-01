@@ -224,15 +224,11 @@ No new resources were added to community directories in January or February.
 
 ## Galaxy TourBuilder
 
-https://github.com/TailorDev/galaxy-tourbuilder
+The Galaxy [TourBuilder](https://github.com/TailorDev/galaxy-tourbuilder) is recording your Galaxy analysis
+in real-time and creates a Galaxy Tour for you - automatically! You can edit the tour simultanously, replay the
+tour while you are analysing your data and much more!
 
-Two new features added to the galaxy-tourbuilder today: resize the editor and export to YAML file –
-
-The amazing Galaxy Tour Builder web extension.
-
-Check out the video: https://imgur.com/a/0YVvz.
-Support all Galaxy instances · Record/Pause · Live simulation · Export · Available in all stores: 
-
+Check out the [video](https://imgur.com/a/0YVvz) to get a taste of what it can do for you.
 
 This extension is available under the name Galaxy Tour Builder in the [Chrome Web Store](https://chrome.google.com/webstore/detail/galaxy-tour-builder/mdfbapknmcpnbmggahhaegehbbbmhmgg), the Mozilla (Firefox) [Add-on website](https://addons.mozilla.org/de/firefox/addon/galaxy-tour-builder/), and the Opera [add-ons website](https://addons.opera.com/de/extensions/details/galaxy-tour-builder/).
 Credits
