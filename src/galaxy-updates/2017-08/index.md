@@ -228,16 +228,16 @@ https://github.com/TailorDev/galaxy-tourbuilder
 
 Two new features added to the galaxy-tourbuilder today: resize the editor and export to YAML file –
 
- The amazing Galaxy Tour Builder web extension.
+The amazing Galaxy Tour Builder web extension.
 
 Check out the video: https://imgur.com/a/0YVvz.
 Support all Galaxy instances · Record/Pause · Live simulation · Export · Available in all stores: 
 
 
-This extension is available under the name Galaxy Tour Builder in the [Chrome Web Store], the Mozilla (Firefox) Add-on website, and the Opera add-ons website.
+This extension is available under the name Galaxy Tour Builder in the [Chrome Web Store](https://chrome.google.com/webstore/detail/galaxy-tour-builder/mdfbapknmcpnbmggahhaegehbbbmhmgg), the Mozilla (Firefox) [Add-on website](https://addons.mozilla.org/de/firefox/addon/galaxy-tour-builder/), and the Opera [add-ons website](https://addons.opera.com/de/extensions/details/galaxy-tour-builder/).
 Credits
 
-This project has been initiated during a hackathon a while ago in Freiburg, then Dannon Baker started a Chrome extension port. In no particular order, Florian Eggenhofer, Matthias Bernt, Bérénice Batut and Clemens Blank have contributed to this port and therefore to this project.
+This project has been initiated during the [Swiss-Germany Galaxy Days](https://galaxyproject.org/events/sg2016/) a while ago in Freiburg by Dannon Baker and William Durand. During GCC 2017 Florian Eggenhofer, Matthias Bernt, Bérénice Batut and Clemens Blank have picked up this project and with tramendous help from [TailorDev](https://tailordev.fr) a first release could be released.
 
 
 ## Planemo 0.41.0 - 0.44.0
