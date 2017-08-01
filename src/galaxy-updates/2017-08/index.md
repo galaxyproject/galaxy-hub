@@ -46,7 +46,7 @@ Several summaries of GCC2017 are available online:
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
 
-If you are attneding the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/src/events/2017-sacnas/index.md):
+If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/src/events/2017-sacnas/index.md):
 
 **[Software and Data Carpentry](/src/events/2017-sacnas/index.md#workshop-1-software-and-data-carpentry)**
 
@@ -175,7 +175,7 @@ A [two minute demo of the mzIdentML visualisation plugin](https://youtu.be/Txf_9
   * [Request an account](http://abims.sb-roscoff.fr/account) (require a professional/institutional email address)
 * *Domain/Purpose:*
   * General purpose genomics analysis, featuring many standard tools plus many additional tools.
-  * Howerver, we are specialized in RNASeq with reference and RNASeq denovo 
+  * However, we are specialized in RNASeq with reference and RNASeq denovo 
 * *Comments:*
   * Only available for registered users
 * *User Support:*
