@@ -13,7 +13,7 @@ The [August 2017 Galaxy News](/src/galaxy-updates/2017-08/index.md) is out!
 
 * Events
   * Save these dates: [GCC2018: Portland, Oregon, June 25-30](/src/galaxy-updates/2017-08/index.md#gcc2018-portland-oregon-united-states-june-25-30)
-    * And we wil bo colocated with BOSC 2018.
+    * And we will be colocated with BOSC 2018.
   * [GCC2017 Slides, Posters, and Summaries](/src/galaxy-updates/2017-08/index.md#gcc2017-is-done-)
   * [Galaxy at the 2017 SACNAS meeting](/src/galaxy-updates/2017-08/index.md#galaxy-and-cyverse-and-the-carpentries-at-2017-sacnas-meeting)
   * [Galaxy @ ISMB/ECCB/BOSC 2017 slides and posters](/src/galaxy-updates/2017-08/index.md#galaxy-ismb-eccb-bosc-2017-slides-and-posters-are-available)
