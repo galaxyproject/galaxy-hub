@@ -21,14 +21,14 @@ client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_
 
 ## Upload from client
 
-In this example I'm using ForkLift for MacOS. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
+In this example I'm using FileZilla for MacOS. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
 ![FTP client connection details](ftp-connect.png)
 
 <div class="alert alert-warning" role="alert">
-If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTP` or `FTPS` since `SFTP` connections will be rejected.
+If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTPS` or `FTP-TLS` since `SFTP` and `FTP` connections will be rejected.
 </div>
 
-In many clients, the first time you use `FTPS`, a certificate authentication will often be required (secure SLL/TSL was implimented at http://usegalaxy.org on July 19, 2017). 
+In many clients, the first time you use `FTPS`, a certificate authentication will often be required (secure SLL/TSL was implemented at http://usegalaxy.org on July 19, 2017). 
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
