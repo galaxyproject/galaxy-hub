@@ -40,7 +40,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
-| 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | |
+| 11:04 | Building an open, collaborative, online infrastructure for bioinformatics training | Bérénice Batut | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://bebatut-slides.github.io/bosc_07_17/#/1) |
 | 11:30 | Recent object formation in the core of Galaxy |  [Martin Čech](/src/people/marten/index.md) | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1207) |
 | 11:45 | ToolDog - generating tool descriptors from the ELIXIR tool registry | Kenzo-Hugo Hillion | Meeting Hall IV, [BOSC](https://www.open-bio.org/w/index.php?title=BOSC_2017_Schedule) | [Slides](https://f1000research.com/slides/6-1194) |
 | 18:00 | [A-166: Scaling Bioinformatics Training: An ELIXIR, GOBLET & Galaxy Training Network Collaboration](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=F#A-166) | Bérénice Batut | Congress Foyer, Level 2 | [Poster](https://f1000research.com/posters/6-1218) |

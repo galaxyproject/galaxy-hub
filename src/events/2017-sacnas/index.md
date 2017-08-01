@@ -37,8 +37,8 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 # Workshop 1: Software and Data Carpentry
 
 <div class="right">
-<a href="https://software-carpentry.org/"><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" /></a><br /><br />
-<a href="https://data-carpentry.org/"><img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" /></a><br />
+[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
+[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
 
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
@@ -78,8 +78,8 @@ Bring your laptop for a series of hands-on exercises.
 # Workshop 2: Data Platforms for Life Science Researchers
 
 <div class="right">
-<a href="https://www.cyverse.org/"><img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" /></a><br /><br />
-<a href="https://galaxyproject.org.org/"><img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" /></a><br />
+[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
 </div>
 
 Want to do data analysis and don’t know where to start?  [CyVerse](http://www.cyverse.org/) and [Galaxy](https://galaxyproject.org/)  are two widely used and freely available data analysis platforms for life science research.  This workshop will cover both platforms and by the end of the day you’ll know how to use both to manage, integrate, analyze, and visualize your data.  The focus will be on interactive hands-on exercises with life science data.  Bring your laptop and your curiosity.
