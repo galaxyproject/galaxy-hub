@@ -477,7 +477,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * Server includes many genbank and gff3 processing tools, largely focused on annotation of phages.
 * *User Support:*
   * [FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/)
-  * Email: [Eric Rasche](mailto:esr+gxfaq@tamu.edu)
+  * Email: [Eric Rasche](mailto:	cory.maughmer@tamu.edu)
 * *Quotas:*
   * An account will bump your quota from 50 Mb to 10 Gb. The administrator can increase your quota on request.
 * *Sponsor(s):*
