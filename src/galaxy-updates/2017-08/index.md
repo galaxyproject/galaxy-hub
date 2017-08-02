@@ -32,7 +32,7 @@ GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencescon
 Two summaries of GCC2017 are available online:
 
 * [Intergalactique – the Galaxy Community Conference 2017](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/), by [Hollydawn Murray](https://blog.f1000.com/author/hmurray/), F1000 Research Publishing Editor, on the [F1000 Research Blog](https://blog.f1000.com/blogs/f1000research/).
-* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/], by [Simon Gladman](/src/people/simon-gladman/index.md), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
+* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](/src/people/simon-gladman/index.md), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
 [<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
