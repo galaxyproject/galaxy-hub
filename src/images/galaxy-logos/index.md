@@ -102,22 +102,48 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
 ## Galaxy Training Network
 
-* Icon, 16x16 pixels
-  * Transparent background
+* Icon, Transparent background
+  * [16x16 pixels](/src/images/galaxy-logos/GTN16.png)
 
-    <a href='/src/images/galaxy-logos/GTN16.png'><img src="/src/images/galaxy-logos/GTN16.png" /></a>
+    [<img src="/src/images/galaxy-logos/GTN16.png" />](/src/images/galaxy-logos/GTN16.png)
 
-* Logo, white background, 300x173 pixels
+<!--
+* Star, with gray G, white background
+  * [300x142 pixels](/src/images/galaxy-logos/GTNStarG300.png), [1000x475 pixels](/src/images/galaxy-logos/GTNStarG1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarGHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarG.xcf)
 
-    <a href='/src/images/galaxy-logos/GTNLogo300.png'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt=""  /></a>
+    ![GTN Star, transparent, with G](/src/images/galaxy-logos/GTNStarG300.png)
 
-* Logo, white background, 1000x576 pixels
+* Star, with gray G, transparent background
+  * [300x142 pixels](/src/images/galaxy-logos/GTNStarGTrans300.png), [1000x475 pixels](/src/images/galaxy-logos/GTNStarGTrans1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarGTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarGTrans.xcf)
 
-    <a href='/src/images/galaxy-logos/GTNLogo1000.png'><img src="/src/images/galaxy-logos/GTNLogo1000.png" alt="" width="600" /></a>
+    ![GTN Star, transparent, with G](/src/images/galaxy-logos/GTNStarGTrans300.png)
+-->
+    
+* Star, with Galaxy Logo, white background
+  * [300x299 pixels](/src/images/galaxy-logos/GTNStarBars300.png), [1000x998 pixels](/src/images/galaxy-logos/GTNStarBars1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBars.xcf)
 
-* Logo, white background, 7546x4345 pixels
+    [<img src="/src/images/galaxy-logos/GTNStarBars300.png" width="150" alt="GTN Star, white background, with Galaxy Logo" />](/src/images/galaxy-logos/GTNStarBars300.png)
 
-    <a href='/src/images/galaxy-logos/GTNLogoHuge.png'><img src="/src/images/galaxy-logos/GTNLogoHuge.png" alt="" width="800" /></a>
+* Star, with Galaxy Logo, transparent background
+  * [300x299 pixels](/src/images/galaxy-logos/GTNStarBarsTrans300.png), [1000x998 pixels](/src/images/galaxy-logos/GTNStarBarsTrans1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTrans.xcf)
+
+    [<img src="/src/images/galaxy-logos/GTNStarBarsTrans300.png" width="150" alt="GTN Star, transparent, with Galaxy Logo" />](/src/images/galaxy-logos/GTNStarBarsTrans300.png)
+
+* Logo, with gray text, white background
+  * [300x142 pixels](/src/images/galaxy-logos/GTNLogo300.png), [1000x475 pixels](/src/images/galaxy-logos/GTNLogo1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogo.xcf)
+
+    ![GTN Logo. white background](/src/images/galaxy-logos/GTNLogo300.png)
+
+* Logo, with gray text, transparent background
+  * [300x142 pixels](/src/images/galaxy-logos/GTNLogoTrans300.png), [1000x475 pixels](/src/images/galaxy-logos/GTNLogoTrans1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTrans.xcf)
+
+    ![GTN Logo. transparent, gray lettering](/src/images/galaxy-logos/GTNLogoTrans300.png)
+
+* Logo, with white text, transparent background
+  * [300x142 pixels](/src/images/galaxy-logos/GTNLogoTransWhite300.png), [1000x475 pixels](/src/images/galaxy-logos/GTNLogoTransWhite1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhiteHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhite.xcf)
+
+    ![GTN Logo. transparent, gray lettering](/src/images/galaxy-logos/GTNLogoTransWhite300.png)
+
 
 ## Scholarships
 

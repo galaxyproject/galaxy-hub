@@ -52,7 +52,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
 | 12:45 | [BoF B4: What can the Galaxy Project do for you?](https://www.iscb.org/ismbeccb2017-program/ismbeccb2017-bof) | [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Bjorn Gruning](/src/people/bjoern-gruening/index.md), [James Taylor](/src/people/james-taylor/index.md) | Meeting Hall V | |
-| 18:00 | [B-079: Development of a bioinformatics pipeline for the routine analysis of viral whole genome sequencing data](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=H#B-079) | Qiang Fu | Congress Foyer, Level 2 | |
+| 18:00 | [B-079: Development of a bioinformatics pipeline for the routine analysis of viral whole genome sequencing data](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=H#B-079) | Qiang Fu | Congress Foyer, Level 2 | [Poster](  https://depot.galaxyproject.org/hub/attachments/documents/posters/2017_ismb_viral_wgs_fu.pdf) |
 | 18:00 | [B-365: Comparison of open source (galaxy based) and commercial pipelines for RNA-Seq data analysis](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=P#B-365) | Slave Trajanoski | Congress Foyer, Level 2 | [Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/ismb2017-trajanoski.pdf) |
 | 20:00 | [Galaxy Community Dinner](http://bit.ly/gxyismb2017bdinner) | [Martin Čech](/src/people/marten/index.md) | [VYŠEHRADSKÝ RESTAURANT KANDELÁBR](http://bit.ly/gxyismb2017bdinner) | |
 
