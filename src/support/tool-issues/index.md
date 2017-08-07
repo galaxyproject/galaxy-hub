@@ -1,5 +1,4 @@
-_Last updated 8-7-17_
-_Updates will continue throughout the week as tools are tested and tickets closed out. Check individual linked tickets to review the most current status for any known issue._
+_Last updated 8-7-17. Updates will continue throughout the week as tools are tested and tickets closed out. Check individual linked tickets to review the most current status for any known issue._
 
 ## Current tool improvements and updates
 
@@ -11,6 +10,9 @@ Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproje
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org.Details: https://github.com/galaxyproject/tools-devteam/issues/340
 1. (1) **SnpEff Download v4.1.0**. Index problem for certain databases nested in .zip archives from the source. A newer version of all **SnpEff** tools is available (**4.3k.0**). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1354
+
+_above confirmed open and updated, below re-review in progress_
+
 1. (1) **Annovar 0.2** Wrapper problems. **Use v 0.1 as a workaround**. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/4001
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
 1. **Needs RE-TEST** (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
