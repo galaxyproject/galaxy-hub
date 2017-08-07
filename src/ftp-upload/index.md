@@ -25,7 +25,7 @@ In this example I'm using FileZilla for MacOS. Point your client to the FTP serv
 ![FTP client connection details](ftp-connect.png)
 
 <div class="alert alert-warning" role="alert">
-If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling `passive` mode in your client. Also make sure to connect using `FTPS` or `FTP-TLS` since `SFTP` and `FTP` connections will be rejected.
+If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling FTP with `passive` mode in your client. **If using Filezilla, you must use FTP in `passive` mode.** Connect using `FTP`, `FTPS`, or `FTP-TLS` as `SFTP` connections will be rejected.
 </div>
 
 In many clients, the first time you use `FTPS`, a certificate authentication will often be required (secure SLL/TSL was implemented at http://usegalaxy.org on July 19, 2017). 
