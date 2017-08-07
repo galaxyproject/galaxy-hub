@@ -1,4 +1,5 @@
-_Last updated 6-6-17_
+_Last updated 8-7-17_
+_Updates will continue throughout the week as tools are tested and tickets closed out. Check individual linked tickets to review the most current status for any known issue._
 
 ## Current tool improvements and updates
 
@@ -45,7 +46,6 @@ _Integration test once installed_
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 1. **Stringtie** (recently updated to 1.3.3). UI/version issues - needs ticket if not fixed in next day or so.
 1. **MACS2** (recently updated to 2.1.1.20160309.0). Test all components against open issues above (two are confirmed to be problematic so far)
-1. Some parts fixed, some pending, see ticket. (30+ for all) **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies. Some issues appear to be localized to the roundup cluster (default). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
 
 **UI**
 
@@ -83,6 +83,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies, some localized to the roundup cluster (default). Resolved in updated tools and versions (Kraken 1.2, Krona 2.6.1). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
 1. **GenomeDiversity PrepareInput gd_prepare_population_structure 1.1.0** Dependency/config issue resolved 1.2.0. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/4108
 1. **DEXseq 1.20.1** Dependencies issues. Related tool **DEXSeq Counts 1.20.1** already has fixed dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3709
 1. **MACS2 bdgdiff + bdgbroadcall 2.1.1.20160309.0** Tool version updated 4/11/17 errors with "macs2 command not found". Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2226
