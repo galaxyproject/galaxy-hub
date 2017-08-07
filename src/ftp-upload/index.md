@@ -28,7 +28,7 @@ In this example I'm using FileZilla for MacOS. Point your client to the FTP serv
 If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling FTP with `passive` mode in your client. **If using Filezilla, you must use FTP in `passive` mode.** Connect using `FTP`, `FTPS`, or `FTP-TLS` as `SFTP` connections will be rejected.
 </div>
 
-In many clients, the first time you use `FTPS`, a certificate authentication will often be required (secure SLL/TSL was implemented at http://usegalaxy.org on July 19, 2017). 
+In most clients, when a connection is made with `FTP` or `FTPS`, a pop-up server certificate authentication will need to be accepted.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/222236679?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
