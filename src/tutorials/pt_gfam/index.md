@@ -197,7 +197,7 @@ Select the `GeneFamilyAligner` tool from the `PlantTribes` section in your tool 
 |![](/src/tutorials/pt_gfam/gfa_settings.png)|
 |<small>Figure 12. `GeneFamilyAligner` settings</small>
 
-Executing the `GeneFamilyAligner` tool with the settings shown in `Figure 12` will produce the following item in your history.
+Executing the `GeneFamilyAligner` tool with the `Output additional dataset collection of files` option set to "Yes" (in addition to the settings shown in Figure 12) will produce an additional dataset collection item in your history. The elements of this dataset collection are orthogroup multiple sequence alignment files in fasta format. You can render graphic visualizations of these files by clicking on the visualization icon in the history item. You can render the visualization using the `MSA viewer` to visualize large MSAs interactively or you can launch Jalview (a JNLP based multiple sequence alignment editing, visualization, and analysis workbench) to perform additional tasks on the multiple sequence alignment.
 
 |      |
 |------|
@@ -208,6 +208,7 @@ Executing the `GeneFamilyAligner` tool with the settings shown in `Figure 12` wi
 
 <ul>
     <li>Trimmed gene family classification protein and coding sequences orthogroup multiple sequence alignments fasta files (history item 29)</li>
+    <li>A dataset collection of trimmed gene family classification protein and coding sequences orthogroup multiple sequence alignments fasta files (history item 29)</li>
 </ul>
 
 ## **Build and visualize phylogenetic trees of aligned orthologous gene family clusters**
@@ -226,6 +227,69 @@ Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figu
 |![](/src/tutorials/pt_gfam/gfpb_outputs.png)|
 |<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
 
+### Description of the outputs
+
+<ul>
+    <li>A dataset collection of gene family orthogroup newick phylogenetic tree files (history item 30)</li>
+</ul>
+
+## **Build and visualize phylogenetic trees of aligned orthologous gene family clusters**
+
+Select the `GeneFamilyPhylogenyBuilder` tool from the `PlantTribes` section in your tool panel and enter the following settings on the tool form to build phylogenetic trees of trimmed protein and coding sequences multiple sequence alignments (history item 29) using the `FastTree` phylogenetic inference method.
+
+|      |
+|------|
+|![](/src/tutorials/pt_gfam/gfpb_settings.png)|
+|<small>Figure 14. `GeneFamilyPhylogenyBuilder` settings</small>
+
+Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figure 14` will produce multiple items in your history, including the following dataset collection.  The elements of this dataset collection are orthogroup newick phylogenetic tree files, all having the `nhx` Galaxy datatype.  You can render graphic visualizations of these files by clicking on the `Visualize` icon for the history item which will allow you to choose to render the visualization using either the `Charts` plugin or the `Phyloviz` plugin.  The graphic to the left of the bottom arrow in `Figure 15` is produced when choosing the `Phyloviz` plugin.
+
+|      |
+|------|
+|![](/src/tutorials/pt_gfam/gfpb_outputs.png)|
+|<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
+
+The `Charts` plugin provides several options for rendering the visualization.
+
+|      |
+|------|
+|![](/src/tutorials/pt_gfam/charts.png)|
+|<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
+
+## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
+
+Select the `KaKsAnalysis` tool from the `PlantTribes` section in your tool panel and enter the following settings on the tool form to estimate paralogous pairwise synonymous (Ks) substitution rates and significant distribution Ks components and plot the distribution with fitted significant components.
+
+|      |
+|------|
+|![](/src/tutorials/pt_gfam/kaks_settings.png)|
+|<small>Figure 17. `KaKsAnalysis` settings</small>
+
+Executing the `KaKsAnalysis` tool with the settings shown in `Figure 17` will produce the items shown on the left side of `Figure 18` in your history.
+
+|      |
+|------|
+|![](/src/tutorials/pt_gfam/kaks_outputs.png)|
+|<small>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</small>
+
+### Description of the outputs (left side of `Figure 18`)
+
+<ul>
+    <li>Reformatted species1 input coding sequences (history item 187)</li>
+    <li>Reformatted species1 input amino acids (history item 188)</li>
+    <li>Species1 self blastn results (history item 189)</li>
+    <li>Species1 paralogous pairs (history item 190)</li>
+    <li>Species1 non-synonymous (Ka) and synonymous (Ks) substitution rates analysis results (history item 191)</li>
+    <li>Estimated significant components in the distribution of species1 synonymous (Ks) substitution rates (history item 192)</li>
+</ul>
+
+### Visualize the distribution with fitted significant components (process flow depicted in `Figure 18`)
+
+Select the `KsDistribution` tool from the `PlantTribes` section in your tool panel and select history items 191 and 192 for the inputs as shown in the upper right image in `Figure 18`.  Executing the tool will produce a history item with a `pdf` data format (lower right corner of `Figure 18`) which is the species1 synonymous (Ks) substitution distribution plot (history item 193).  When the `View data` icon for the history item is clicked, the dataset is rendered (lower middle of `Figure 18`).
+
+## **That's it!**
+
+Hopefully this tutorial has given you a taste for what is possible with these `PlantTribes` tools. Experiment!  There are many more things that you can do with them.  If things do not work - complain using the `Open Chat` button below or the [BioStar](https://biostar.usegalaxy.org/) channel.
 The `Charts` plugin provides several options for rendering the visualization.
 
 |      |
