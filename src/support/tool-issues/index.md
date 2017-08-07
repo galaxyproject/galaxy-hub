@@ -10,7 +10,6 @@ Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproje
 1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1322
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org.Details: https://github.com/galaxyproject/tools-devteam/issues/340
-1. (2) **Du Novo: Align families 0.7** Tool updates removed the cluster targetting for Jetstream. Jobs are failing again for walltime. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3057
 1. (2) **Freebayes 0.4.1** Now requires upsteam inputs have database metadata assigned. Even when a genome is selected within the workflow editor. This breaks some older workflows and published tutorials. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/409
 1. (1) **SnpEff Download v4.1.0**. Index problem for certain databases nested in .zip archives from the source. A newer version of all **SnpEff** tools is available (**4.3k.0**). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1354
 1. (1) **Annovar 0.2** Wrapper problems. **Use v 0.1 as a workaround**. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/4001
@@ -83,6 +82,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **Du Novo: Align families 0.7** Tool updates removed the cluster targetting for Jetstream. Fix made (increased allocated resources at target clusters). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3057
 1. **Kraken 0.10.6, Krona pie chart from taxonomic profile 2.6.0, Convert Kraken data to Galaxy taxonomy representation 1.1** Missing dependencies, some localized to the roundup cluster (default). Resolved in updated tools and versions (Kraken 1.2, Krona 2.6.1). Impacts Galaxy Main http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/3556
 1. **GenomeDiversity PrepareInput gd_prepare_population_structure 1.1.0** Dependency/config issue resolved 1.2.0. Impacts Galaxy Main http://usegalaxy.org. Details https://github.com/galaxyproject/galaxy/issues/4108
 1. **DEXseq 1.20.1** Dependencies issues. Related tool **DEXSeq Counts 1.20.1** already has fixed dependency issue. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3709
