@@ -155,7 +155,7 @@ To get started with setting up local data, please see [Data Integration](https:/
 
 ## Enable upload via FTP
 
-File sizes have grown very large thanks to rapidly advancing sequencer technology, and it is not always practical to upload these files through the browser.  Thankfully, a simple solution is to allow Galaxy users to upload them via FTP and import those files in to their histories.  Configuration for FTP is explained on the [Admin/Config/Upload via FTP](/src/admin/config/Upload via FTP/index.md) page.
+File sizes have grown very large thanks to rapidly advancing sequencer technology, and it is not always practical to upload these files through the browser.  Thankfully, a simple solution is to allow Galaxy users to upload them via FTP and import those files in to their histories.  Configuration for FTP is explained on the [File Upload via FTP](src/ftp-upload/index.md) page.
 
 # Advanced configuration
 
