@@ -5,58 +5,44 @@ These are current official Galaxy Project logos, using the current version of th
 
 Galaxy Project Logos have been provided to the Galaxy community for community building activities. You may use this logo for referential purposes only to accurately identify the Galaxy project and code base (Permitted Use) without conveying any express or implied endorsement of your company's products and services by or in connection with the Galaxy Project and without using the Galaxy Logo or Word Mark as trademarks or service marks of the Company.
 
-# Galaxy Project
+# Galaxy Project Logo
 
-* Project Logo, 292x75 pixels
-  * White background
+* White background, symbol + "Galaxy": [292x75 pixels](/src/images/galaxy-logos/galaxy_logo_25percent.png)
 
-    <a href='/src/images/galaxy-logos/galaxy_logo_25percent.png'><img src="/src/images/galaxy-logos/galaxy_logo_25percent.png" /></a>
+    [<img src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project Logo, white background" />](/src/images/galaxy-logos/galaxy_logo_25percent.png),
 
-  * Transparent background
+* Transparent background, symbol + "Galaxy": [292x75 pixels](/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png)
 
-    <a href='/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png'><img src="/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png" /></a>
+    [<img src="/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png" alt="Galaxy Project Logo, transparent background" />](/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png)
 
-* Project Logo, 1600x566 pixels
+* White background, symbol + "Galaxy Project": [2000x708 pixels](/src/images/galaxy-logos/galaxy_project_logo.jpg)
 
-  * White text, transparent background
+    [<img src="/src/images/galaxy-logos/galaxy_project_logo.jpg" alt="Galaxy Project Logo, white background" width="300" />](/src/images/galaxy-logos/galaxy_project_logo.jpg),
 
-    <a href='/src/images/galaxy-logos/galaxy_project_logo_white.png'><img src="/src/images/galaxy-logos/galaxy_project_logo_white.png" alt="" width="600" /></a>
+* Transparent background, symbol + "Galaxy Project": [2000x708 pixels](/src/images/galaxy-logos/galaxy_project_logo.png)
 
-    * While text, slate blue (#2C3143) background 
+    [<img src="/src/images/galaxy-logos/galaxy_project_logo.png" alt="Galaxy Project Logo, transparent background" width="300" />](/src/images/galaxy-logos/galaxy_project_logo.png)
 
-    <a href='/src/images/galaxy-logos/galaxy_project_logo_blue.png'><img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="" width="600" /></a>
+* White text, transparent background, symbol + "Galaxy Project": [1600x566 pixels](/src/images/galaxy-logos/galaxy_project_logo_white.png)
 
-* Project Logo, 2000x708 pixels
+    [<img src="/src/images/galaxy-logos/galaxy_project_logo_white.png" alt="Galaxy Project Logo, white text, transparent backgound" width="300" />](/src/images/galaxy-logos/galaxy_project_logo_white.png)
 
-    * White background 
+* White text, slate blue (#2C3143) background, symbol + "Galaxy Project": [1600x566 pixels](/src/images/galaxy-logos/galaxy_project_logo_blue.png)
 
-    <a href='/src/images/galaxy-logos/galaxy_project_logo.jpg'><img src="/src/images/galaxy-logos/galaxy_project_logo.jpg" alt="" width=800 /></a>
+    [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy Project Logo, White text, slate blue background" width="300" />](/src/images/galaxy-logos/galaxy_project_logo_blue.png)
 
-  * Transparent background
+* Application logo, square, transparent background, symbol + "Galaxy": [600x600 pixels](/src/images/galaxy-logos/galaxy_project_logo_square.png)
 
-    <a href='/src/images/galaxy-logos/galaxy_project_logo.png'><img src="/src/images/galaxy-logos/galaxy_project_logo.png" alt="" width=800 /></a>
-
-* Application logo, square, 600x600 pixels
-
-  * Transparent background
-
-    <img src="http://i.imgur.com/EBcrp64.png" alt="" width=300 />
+    [<img src="/src/images/galaxy-logos/galaxy_project_logo_square.png" alt="Galaxy Project Logo, Square, transparent background" width=150 />](/src/images/galaxy-logos/galaxy_project_logo_square.png)
 
 # Component Logos
 
 ## ToolShed
 
-* White background, 300x137 pixels
+* White background
+  * [300x137 pixels](/src/images/galaxy-logos/galaxy-toolshed-300.png), [1000x455 pixels](/src/images/galaxy-logos/galaxy-toolshed-1000.png), [3455x1572 pixels](/src/images/galaxy-logos/galaxy-toolshed-huge.png)
 
   [<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed Logo, 300px wide"  />](/src/images/galaxy-logos/galaxy-toolshed-300.png)
-
-* White background, 1000x455 pixels
-
-  [<img src="/src/images/galaxy-logos/galaxy-toolshed-1000.png" alt="Galaxy ToolShed Logo, 1000px wide" width="600" />](/src/images/galaxy-logos/galaxy-toolshed-1000.png)
-
-* White background, 3455x1572 pixels
-
-  [<img src="/src/images/galaxy-logos/galaxy-toolshed-huge.png" alt="Galaxy ToolShed Logo, reasonably huge" width="800" />](/src/images/galaxy-logos/galaxy-toolshed-huge.png)
 
 ## blend4php
 
