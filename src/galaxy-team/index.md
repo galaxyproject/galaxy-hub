@@ -15,7 +15,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 </div>
 <div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
 [Dan Blankenberg](/src/people/dan/index.md) <br />
-[Penn State](http://www.bx.psu.edu) <br /> <br />
+[The Cleveland Clinic](https://clevelandclinic.org/) <br /> <br />
 </div>
 <div class='col-md-3'><a href='/src/people/dave-bouvier/index.md'><img src="/src/galaxy-team/davebouvierflag.jpg" alt="Dave Bouvier" height="150" /></a><br />
 [Dave Bouvier](/src/people/dave-bouvier/index.md) <br />
@@ -62,11 +62,6 @@ Fabio Cumbo<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/mo-heydarian/index.md'><img src="/src/galaxy-team/Mo.jpg" alt="Aysam Guerler" height="150" /></a><br /> 
-[Mo Heydarian](/src/people/mo-heydarian/index.md)<br />
-[Johns Hopkins](http://www.jhu.edu)  <br /> <br />
-</div>
-<div class='col-md-3'>
 <a href='/src/people/jennifer-jackson/index.md'><img src="/src/galaxy-team/jenhjackson.png" alt="Jen Jackson" height="150" /></a><br />
 [Jennifer Hillman Jackson](/src/people/jennifer-jackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
@@ -85,6 +80,11 @@ Fabio Cumbo<br />
 <a href='/src/people/anton/index.md'><img src="/src/galaxy-team/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/people/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
+</div>
+<div class='col-md-3'>
+<img src="/src/galaxy-team/luke.jpg" alt="Luke Sargent" height="150" /><br />
+Luke Sargent<br />
+[OHSU](http://www.ohsu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
 <a href='http://nstoler.com/'><img src="/src/galaxy-team/nstoler.jpg" alt="Nick Stoler" height="150" /></a><br />
@@ -180,6 +180,7 @@ Fabio Cumbo<br />
 * Dorine Francheteau
 * Belinda Giardine
 * Jianbin He
+* [Mo Heydarian](/src/people/mo-heydarian/index.md)
 * Radesh Kamath
 * Ross Lazarus
 * Kanwei Li
