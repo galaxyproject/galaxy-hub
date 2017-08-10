@@ -2,7 +2,7 @@
 title: Careers with the Galaxy Project: Software Engineers and Postdoctoral Researchers
 ---
 
-<div class='center'>
+<div class='center-img'>
 <img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Galaxy wants YOU, damnit" width="300" />
 </div>
 
