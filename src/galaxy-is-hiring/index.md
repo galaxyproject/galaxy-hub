@@ -1,11 +1,6 @@
----
-title: Careers with the Galaxy Project: Software Engineers and Postdoctoral Researchers
----
-
 <div class='center-img'>
 <img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Galaxy wants YOU, damnit" width="300" />
 </div>
-
 <br />
 
 <div class='right'>
@@ -52,6 +47,6 @@ We are recruiting postdoctoral scholars with expertise in Bioinformatics and Com
 * Vertebrate comparative and functional genomics, particularly through the development of novel machine learning, data mining, and data integration methods incorporating genomic sequence and experimental data.
 * Distributed and high-performance computing for data intensive science, specifically genomics.
 
-# Interested?
+## Interested?
 
 We'd love to hear from you.  Please send your CV, a cover letter, and the names/e-mail addresses of three references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org).  The Galaxy Project is committed to recruiting, supporting and fostering a diverse community. Johns Hopkins University, Penn State University and George Washington University are Equal Opportunity employers.
