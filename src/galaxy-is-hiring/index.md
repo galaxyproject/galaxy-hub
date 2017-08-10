@@ -1,4 +1,4 @@
-<div class='center-img'>
+<div class='center'>
 <img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Galaxy wants YOU, damnit" width="300" />
 </div>
 <br />
