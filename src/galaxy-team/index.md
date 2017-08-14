@@ -111,11 +111,11 @@ Luke Sargent<br />
 <div class='col-md-3'>
 <img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="Eric Rasche" height="150" /><br />
 [Eric Rasche](https://github.com/erasche)<br />
-[CPT](https://cpt.tamu.edu/) <br /> <br />
+[Uni Freiburg](http://www.uni-freiburg.de/) <br /> <br />
 </div>
 <div class='col-md-3'>
 <img src="/src/galaxy-team/nicola.jpeg" alt="Nicola Soranzo" height="150" /><br />
-[Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<br />
+[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)<br />
 [Earlham Institute](http://earlham.ac.uk/) <br /> <br />
 </div>
 <div class='col-md-3'>
