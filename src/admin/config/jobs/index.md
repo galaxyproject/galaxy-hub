@@ -9,7 +9,7 @@ By default, jobs in Galaxy are run locally on the server on which the Galaxy app
 
 This document is a reference for the job configuration file.  [Detailed documentation](/src/admin/config/performance/cluster/index.md) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](/src/admin/config/performance/production-server/index.md) and [cluster configuration documentation](/src/admin/config/performance/cluster/index.md) be read before making changes to the job configuration.
 
-**The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://bitbucket.org/galaxy/galaxy-central/src/tip/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
+**The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://github.com/galaxyproject/galaxy/blob/dev/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
 
 
 
