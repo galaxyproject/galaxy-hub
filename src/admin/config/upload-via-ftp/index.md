@@ -244,3 +244,7 @@ psql yourDB
 
 
 With these steps, you should be able to allow users to connect to your server using secure protocols.
+
+
+## [File Upload via FTP](../../../ftp-upload/index.md)
+
