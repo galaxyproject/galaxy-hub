@@ -20,11 +20,11 @@ Lists software development best practices for the Galaxy Project. These are work
 # Python Standards
 
 1. Galaxy follows [PEP-8](http://www.python.org/dev/peps/pep-0008/), with *particular emphasis* on the parts about knowing when to be inconsistent, and readability being the ultimate goal.
-1. One exception to PEP-8 in Galaxy Python code is whitespace usage. Whitespace around operators and inside parentheses is generally included, particularly if it helps readability. If the thing inside the parentheses is short (a single word) often spaces are extraneous; if it is a complex expression, spacing helps to delineate different parts.
 1. 4 spaces per indent
 1. Use spaces, not tabs for indenting.
 1. Comments and documentation comments should follow the 79 character rule
-1. One other common divergence from PEP-8 is line length.  Logical (non-comment) lines should be formatted for readability, recognizing the existence of wide screens and scrollbars (sometimes a 200 character line is more readable, though rarely).
+1. One divergence from PEP-8 is line length.  Logical (non-comment) lines should be formatted for readability, recognizing the existence of wide screens and scrollbars (sometimes a 200 character line is more readable, though rarely).
+1. Other divergences from PEP-8 are listed in the `setup.cfg` file
 1. [Python docstrings](http://www.python.org/dev/peps/pep-0257/) need to be [reStructured Text (RST)](http://sphinx-doc.org/rest.html) and [Sphinx markup](http://sphinx-doc.org/markup/index.html) compatible. See [Docs](/src/docs/index.md) for more.
 1. Avoid `from module import *`. It can cause name collisions that are tedious to track down.
 
