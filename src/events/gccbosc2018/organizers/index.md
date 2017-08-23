@@ -17,7 +17,7 @@ If you have a community specific query you can contact:
 
 # GCCBOSC 2018 Organizers
 
-* *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Trinity College Dublin](http://www.tcd.ie/Genetics/about/)
+* *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Hosted Graphite](http://www.hostedgraphite.com)
 * *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Pratik Jagtap](http://z.umn.edu/pjgs)*, [University of Minnesota](https://umn.edu/)
