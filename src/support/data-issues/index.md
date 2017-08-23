@@ -10,7 +10,7 @@ _All issues related to the servers http://usegalaxy.org and https://test.galaxyp
 1. **papHam1** is reporting just "papHam" as the dbkey with (at least) Bowtie2: Needs review/ticket.
 1. **LiftOver DM** request. https://github.com/galaxyproject/galaxy/issues/1904
 1. Update **SICER** to include more genome builds (ideally all on the instance). https://github.com/galaxyproject/tools-devteam/issues/390
-1. **rheMac3** has 2 copies of the index files listed in the data table, but at different directories. 
+1. **rheMac3** has 2 copies of the index files listed in the data table, but at different directories. Bowtie2 usage is impacted - there are 2 indexes for both rheMac2 and rheMac3.
 
 ### Resolved
 1. Track promotion of **Kraken** reference data to http://usegalaxy.org. https://github.com/galaxyproject/galaxy/issues/1679
