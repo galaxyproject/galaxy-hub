@@ -1,4 +1,4 @@
-_Last updated 8-7-17. Updates will continue throughout the week as tools are tested and tickets closed out. Check individual linked tickets to review the most current status for any known issue._
+_Last updated 8-7-17. Additional updates in progress. Check individual linked tickets to review the most current status for any known issue._
 
 ## Current tool improvements and updates
 
