@@ -19,8 +19,11 @@ If you have a community specific query you can contact:
 
 * *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Hosted Graphite](http://www.hostedgraphite.com)
 * *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
+* *Bastian Greshake Tzovaras*, [Goethe University Frankfurt](http://ruleofthirds.de/)
 * *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
+* *[Hilmar Lapp](https://github.com/hlapp)*, [Duke university](https://genome.duke.edu/)
 * *[Pratik Jagtap](http://z.umn.edu/pjgs)*, [University of Minnesota](https://umn.edu/)
+* *[Karsten Hokamp](http://bioinf.gen.tcd.ie/~khokamp)*, [Trinity College Dublin](http://www.tcd.ie)
 * *[Nomi Harris](http://profiles.lbl.gov/nomi.harris)*, [Lawrence Berkeley National Laboratory](http://www.lbl.gov/)
 * *[Melissa Haendel](http://www.ohsu.edu/xd/education/library/about/staff-directory/melissa-haendel.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Christopher Fields](http://hpcbio.illinois.edu/people)*, [University of Illinois](http://illinois.edu/)
