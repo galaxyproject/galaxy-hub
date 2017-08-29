@@ -342,7 +342,7 @@ Here is a concise description of these steps:
 
 ## Finding peaks
 
-In our case we have two replicates each containing ChIP and input DNA samples. We will first run `MACS2` on pulled data (combining two ChIP samples and two inputs, respectively). We will then run `MACS2` on each replicate individually. Finally, we will pick a robust set of peaks present in all three callsets.
+In our case we have two replicates each containing ChIP and input DNA samples. We will first run `MACS2` on pooled data (combining two ChIP samples and two inputs, respectively). We will then run `MACS2` on each replicate individually. Finally, we will pick a robust set of peaks present in all three callsets.
 
 ### Splitting data into individual samples
 
@@ -393,7 +393,7 @@ In the case of these data peaks are very sharp and have narrow gap between them:
 |                |
 |----------------|
 |![](/src/tutorials/chip/macs1.png)|
-|<small>**Calling peaks with `MACS2` on pulled data**. Here we choose multiple inputs by pressing <i class="fa fa-files-o" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</small>| 
+|<small>**Calling peaks with `MACS2` on pooled data**. Here we choose multiple inputs by pressing <i class="fa fa-files-o" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</small>| 
 |![](/src/tutorials/chip/macs2.png)|
 |<small>In this lower part of `MACS2` interface set **Build model** to `Do not build the shifting model` (we have already done this with `preductd` in the previous step) and **Set extension size* to `30` (the number we estimated in the previous step). Finally, we will only ask `MACS2` to produce two outputs: `Peak summits` and the one it produced by default, which contains peak coordinates.</small>|
 
