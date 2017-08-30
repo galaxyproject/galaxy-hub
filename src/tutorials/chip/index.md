@@ -517,7 +517,7 @@ In this experiment antibodies against Reb1 protein have been used for immunoprec
 |![](/src/tutorials/chip/extract_dna.png)|
 |<small>**Extracting genomic DNA** corresponding to ChIP-seq peaks. Here we use `Merged peaks` dataset generated few steps earlier.</small>|
 
-Next, we need to make sure that all sequences are sufficiently long for finding patters. [MEME](http://meme-suite.org/), the tools we will use to find motifs, required sequences to be at least 8 nucleotides long. So we will remove short sequences using **FASTA manipulation &rarr; Filter sequences by length** tool:
+Next, we need to make sure that all sequences are sufficiently long for finding patterns. [MEME](http://meme-suite.org/), the tools we will use to find motifs, required sequences to be at least 8 nucleotides long. So we will remove short sequences using **FASTA manipulation &rarr; Filter sequences by length** tool:
 
 |         |
 |---------|
