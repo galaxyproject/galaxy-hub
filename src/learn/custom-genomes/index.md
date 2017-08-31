@@ -2,7 +2,7 @@
 title: Custom Genomes
 ---
 
-[Support Hub](/src/learn/index.md)
+[Support Hub](/src/support/index.md)
 
 [Learning Hub](/src/learn/index.md)
 
