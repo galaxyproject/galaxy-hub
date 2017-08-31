@@ -44,8 +44,8 @@ Learn from experienced trainers and share what you have learned on the
 
 ## Survey
 
-Help us improve our training materials on RNAseq Analysis,  !
-**[RNAseq analysis survey](/src/teach/survey/index.md)**
+Help us improve our training materials on RNAseq Analysis with this 
+**[RNAseq analysis survey](/src/teach/survey/index.md)** !
 
 ## Events
 
