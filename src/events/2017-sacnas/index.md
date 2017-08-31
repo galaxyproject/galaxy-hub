@@ -41,6 +41,10 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
 
+**Wednesday, October 18, 9am- 5pm**
+
+**Room 251 A**
+
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
 
 1. efficiently work in the unix shell for file manipulation and
@@ -82,6 +86,10 @@ Bring your laptop for a series of hands-on exercises.
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
 </div>
 
+**Wednesday, October 18, 9am- 5pm**
+
+**Room 251 B**
+
 Want to do data analysis and don’t know where to start?  [CyVerse](http://www.cyverse.org/) and [Galaxy](https://galaxyproject.org/)  are two widely used and freely available data analysis platforms for life science research.  This workshop will cover both platforms and by the end of the day you’ll know how to use both to manage, integrate, analyze, and visualize your data.  The focus will be on interactive hands-on exercises with life science data.  Bring your laptop and your curiosity.
 
 **Instructors**
@@ -115,5 +123,11 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 # Resources and Techniques for Training Students in Computational Skills
 
+
+**Friday, October 20, 8:45-10:15am**
+
+**Room 250 F**
+
 Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *Resources and Techniques for Training Students in Computational Skills* session during the 2017 SACNAS Conference.
+
  
