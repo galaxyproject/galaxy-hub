@@ -1,5 +1,7 @@
 {{> Cloud/Jetstream/LinkBox }}
 
+## Requesting an allocation
+
 For the time being, it is necessary for each Jetstream user to request a new resource allocation or be added to someone's allocation. This page covers the process of getting an XSEDE *Startup* type of allocation. You will need an XSEDE account before you can proceed (visit https://www.xsede.org/ to create one).
 
 * Start your allocation process by visiting http://jetstream-cloud.org/allocations.php and clicking on *Submit and manage allocation requests* link. After you logged in using your XSEDE account, choose *Startup* type of allocation.
@@ -18,3 +20,32 @@ For the time being, it is necessary for each Jetstream user to request a new res
 * Finally, submit your application and wait approximately one business day for the allocation request to be approved.
 
 <img src="http://i.imgur.com/BgL7Phr.png" alt="" width=400 />
+
+## API access
+
+To use CloudLaunch (https://beta.launch.usegalaxy.org/) or access the Jetstream
+API programmatically, it is necessary to retrieve API credentials:
+
+1. Log onto the OpenStack dashboard
+Visit https://iu.jetstream-cloud.org/dashboard and login using your TACC
+credentials. TACC credentials are the ones you can obtain and/or login at
+https://portal.xsede.org/. The _Domain_ field is always set to _tacc_.
+
+<a href='/src/cloud/jetstream/allocation/jetstream-os-dashboard.png'>
+    <img src="/src/cloud/jetstream/allocation/jetstream-os-dashboard.png" alt="" width="75%" />
+</a><br /><br />
+
+2. Navigate to the _API Access_ page and download the _OpenStack RC File v3_:
+
+<a href='/src/cloud/jetstream/allocation/jetstream-os-api-creds.png'>
+    <img src="/src/cloud/jetstream/allocation/jetstream-os-api-creds.png" alt="" width="75%" />
+</a><br /><br />
+
+By default, when using this file, you will be prompted for your TACC account
+password. A more convenient but less secure approach is to save the password
+directly in the file by editing it as follows (note the two lines being
+commented and the value of `OS_PASSWORD` variable set):
+
+<a href='/src/cloud/jetstream/allocation/rc.png'>
+    <img src="/src/cloud/jetstream/allocation/rc.png" alt="" width="75%" />
+</a><br /><br />
