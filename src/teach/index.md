@@ -29,7 +29,7 @@ Looking for someone to teach bioinformatics and Galaxy at a workshop or your
 institution?  Perhaps you are someone who teaches Galaxy and would be
 interested in helping others teach it, or in teaching Galaxy to other groups?
 The **[Galaxy Trainer Directory](/src/teach/trainers/index.md)** lists everyone
-who is interested in training in their region, or even around the world.  
+who is interested in training in their region, or even around the world.
 
 ## Compute Platform Advice
 
@@ -40,12 +40,12 @@ for advice of what works and does not work in different situations.
 ## Best Practices
 
 Learn from experienced trainers and share what you have learned on the
-**[Galaxy Training Best Practices page](/src/teach/best-practices/index.md)**.  
+**[Galaxy Training Best Practices page](/src/teach/best-practices/index.md)**.
 
 ## Survey
 
-Help us improve our training materials on RNAseq Analysis with this 
-**[RNAseq analysis survey](/src/teach/survey/index.md)** !
+Help us improve our training materials on RNAseq Analysis with this
+**[RNAseq analysis survey](/src/teach/survey/rnaseq2017/index.md)** !
 
 ## Events
 
