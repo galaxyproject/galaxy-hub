@@ -79,3 +79,7 @@ will be able to just select the credentials from the appropriate menu:
 <a href='/src/cloud/jetstream/allocation/cl-load-creds-4.png'>
     <img src="/src/cloud/jetstream/allocation/cl-load-creds-4.png" alt="" width="75%" />
 </a><br /><br />
+
+**Note** that for the time being, if you launch instances via CloudLaunch, it will be 
+necessary to shut them down using the Jetstream OpenStack Dashboard 
+(https://iu.jetstream-cloud.org/dashboard).
