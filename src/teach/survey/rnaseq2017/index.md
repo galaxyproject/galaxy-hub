@@ -11,7 +11,7 @@ Dear community, the Galaxy team is working on a set of tutorials dedicated to RN
 |:-----------------------------:|
 |![Rna seq graph](raseq2.png)|
 |<small>**Figure 1. : RNA seq analyses process**
-From you reads data (in purple), two paths can be followed depending on the available references (in green). If an existing transcriptome is available, you can map the read on the transcriptome and perform a quatitative analysis based on the read counts. If no transcriptome is available you need to assemble one. If a Genome is available, you can assemble the transcriptome by mapping the reads on the genome, otherwise you have to performe a denovo transcriptome assembly. Once you have assembles your transcriptome, you can perform your quantitative analysis using the read counts.</small>
+From you reads data (in purple), two paths can be followed depending on the available references (in green). If an existing transcriptome is available, you can map the read on the transcriptome and perform a quatitative analysis based on the read counts. If no transcriptome is available you need to assemble one. If a Genome is available, you can assemble the transcriptome by mapping the reads on the genome, otherwise you have to performe a denovo transcriptome assembly. Once you have assembled your transcriptome, you can perform your quantitative analysis using the read counts.</small>
 
 
 Another way to look at this is the following table :
