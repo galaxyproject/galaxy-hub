@@ -42,6 +42,11 @@ for advice of what works and does not work in different situations.
 Learn from experienced trainers and share what you have learned on the
 **[Galaxy Training Best Practices page](/src/teach/best-practices/index.md)**.  
 
+## Survey
+
+Help us improve our training materials on RNAseq Analysis with this 
+**[RNAseq analysis survey](/src/teach/survey/index.md)** !
+
 ## Events
 
 Want to know what training events are scheduled in the coming months?  Or
@@ -61,3 +66,4 @@ teaching Galaxy itself](/src/teach/index.md), then the
 [Galaxy-Training](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/)
 mailing list is a good place to find an answer.  This is also the official
 mailing list of the [Galaxy Training Network (GTN)](/src/teach/gtn/index.md).
+
