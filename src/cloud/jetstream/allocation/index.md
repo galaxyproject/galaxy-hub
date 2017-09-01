@@ -49,3 +49,33 @@ commented and the value of `OS_PASSWORD` variable set):
 <a href='/src/cloud/jetstream/allocation/rc.png'>
     <img src="/src/cloud/jetstream/allocation/rc.png" alt="" width="75%" />
 </a><br /><br />
+
+### Using API credentials for CloudLaunch
+
+After you have downloaded the API access credentials, you can use them to launch
+instance using CloudLaunch. Head to https://beta.launch.usegalaxy.org/ and
+choose an application you would like to launch. Note that not all applications
+support all clouds.
+
+On the application launch page, you will need to provide your credentials.
+The easiest method is to load them from the file we downloaded in the previous
+step.
+
+<a href='/src/cloud/jetstream/allocation/cl-load-creds-1.png'>
+    <img src="/src/cloud/jetstream/allocation/cl-load-creds-1.png" alt="" width="75%" />
+</a><br /><br />
+
+Once the file is loaded, fill in any missing fields and validate the
+credentials.
+
+<a href='/src/cloud/jetstream/allocation/cl-load-creds-2.png'>
+    <img src="/src/cloud/jetstream/allocation/cl-load-creds-2.png" alt="" width="75%" />
+</a><br /><br />
+
+If the credentials authenticate, click _Next_ to proceed. You also have an
+option to save the uploaded credentials to the server and in the future you
+will be able to just select the credentials from the appropriate menu:
+
+<a href='/src/cloud/jetstream/allocation/cl-load-creds-4.png'>
+    <img src="/src/cloud/jetstream/allocation/cl-load-creds-4.png" alt="" width="75%" />
+</a><br /><br />
