@@ -72,9 +72,15 @@ credentials.
     <img src="/src/cloud/jetstream/allocation/cl-load-creds-2.png" alt="" width="75%" />
 </a><br /><br />
 
-If the credentials authenticate, click _Next_ to proceed. You also have an
-option to save the uploaded credentials to the server and in the future you
-will be able to just select the credentials from the appropriate menu:
+If the credentials authenticate, click _Next_ to proceed.
+
+<a href='/src/cloud/jetstream/allocation/cl-load-creds-3.png'>
+    <img src="/src/cloud/jetstream/allocation/cl-load-creds-3.png" alt="" width="75%" />
+</a><br /><br />
+
+You also have an option to save the uploaded credentials to the server
+and in the future you will be able to just select the credentials from
+the appropriate menu:
 
 <a href='/src/cloud/jetstream/allocation/cl-load-creds-4.png'>
     <img src="/src/cloud/jetstream/allocation/cl-load-creds-4.png" alt="" width="75%" />
