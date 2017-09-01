@@ -31,6 +31,8 @@ These hands-on workshops teach basic concepts, skills and tools for working more
 
 # Travel Scholarships
 
+**NOTE: As of September 1, all funds for SACNAS Travel Scholarship Recipients to attend this workshop have been allocated.  If you register now, you will need to provide your own lodging costs for the extra night.**
+
 The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2017sacnas.org/events/2017-sacnas-the-national-diversity-in-stem-conference/custom-167-344a437cdada442d9179834c162b0a21.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops.  Space is limited, and once the funds are allocated, they are gone. [Register Now](http://bit.ly/sacnas-data-reg-2017)
 
 
