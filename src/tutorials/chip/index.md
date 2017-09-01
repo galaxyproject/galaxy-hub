@@ -169,7 +169,7 @@ we can then feed this matrix into **NGS: DeepTools &rarr; plotCorrelation** to g
 |![](/src/tutorials/chip/corr.png)|
 |<small>**B.** Heatmap of four samples: Treatments (Rab1) and controls (Input) are well correlated among themselves.</small>|
 
-Here we can see that there are good correlations between replicates(between Reb1_R1 and Reb1_R2, and between input_R1 and input_R2), while correlations between treatments(Reb1) and controls(input) were weak. This is a good sign implying that there is some signal on our data.
+Here we can see that there are good correlations between replicates (between Reb1_R1 and Reb1_R2, and between input_R1 and input_R2), while correlations between treatments (Reb1) and controls (input) are weak. This is a good sign implying that there is some signal on our data.
 
 ## Assessing signal strength
 
