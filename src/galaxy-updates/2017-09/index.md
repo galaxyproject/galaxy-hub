@@ -1,5 +1,5 @@
 ---
-title: Septemer 2017 Galaxy News
+title: September 2017 Galaxy News
 ---
 <div class='right'>
 [<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
