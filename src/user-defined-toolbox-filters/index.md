@@ -24,8 +24,8 @@ If you do not see any filters to choose (like in the following image) your admin
 
 Two types of filters exist:
 
-1. tool_* filters will be applied for all users and can not be changed by users. Useful for example to hide some tools for some users/groups
-2. user_tool_* filters will be shown under user preferences and can be toggled on and off by runtime from all users. Useful to offer specialized sets of tools for separate analysis.
+1. `tool_*` filters will be applied for all users and can not be changed by users. Useful for example to hide some tools for some users/groups
+2. `user_tool_*` filters will be shown under user preferences and can be toggled on and off by runtime from all users. Useful to offer specialized sets of tools for separate analysis.
 
 Every filter is a small python function under lib/galaxy/tools/filters/. Each function needs to be added to the config/galaxy.ini file (examples are already listed).
 
