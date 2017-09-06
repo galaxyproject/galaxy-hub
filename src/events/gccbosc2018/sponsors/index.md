@@ -10,10 +10,10 @@ Is your organization interested in playing a prominent role in the first joint g
 
 # Interested?
 
-Please contact the [conference organizers](/src/events/gccbosc2017/organizers/inidex.md) with any questions.
+Please see the information below and contact the [conference organizers](/src/events/gccbosc2017/organizers/inidex.md) with any questions.
 
-- [Sponsorship prospectus](https://doc-0c-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4nhkipp8t9b2jmmrvc8u6ia4al7ofbnb/1504735200000/08470603979676424880/*/0BxfIxI6kQS-oZThMWWlJZWZkd00)
 - [One page summary](https://doc-0o-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cvuuv7bgltrahe33ptrf75724psik2ov/1504735200000/08470603979676424880/*/0BxfIxI6kQS-obm9SSDJERV85ME0)
+- [Sponsorship prospectus](https://doc-0c-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4nhkipp8t9b2jmmrvc8u6ia4al7ofbnb/1504735200000/08470603979676424880/*/0BxfIxI6kQS-oZThMWWlJZWZkd00)
 
 # Meeting and Training Sponsorships
 
@@ -80,7 +80,7 @@ Two days of collaborative work events, also known as hackathons and codefests, w
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |
-| **Cost** $2500 | $1500 | $500 |
+| **Cost** | $2500 | $1500 | $500 |
 | **Sponsored event** | Dinner | A lunch | No |
 | **Limited** | Yes | Yes | No |
 | **Guaranteed collaborative event registration slots** | 2+ | 1+ | 1 |
