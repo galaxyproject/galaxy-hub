@@ -7,7 +7,75 @@ title: September 2017 Galaxy News
 
 Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
-# All events
+
+----
+
+# New Publications
+
+**122 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August.
+
+Some highlights from the recently added pubs:
+
+* [2017 Galaxy community update](http://dx.doi.org/10.7490/f1000research.1114388.1)
+  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremey-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
+
+* [Approaches for small RNA-seq in Galaxy](http://dx.doi.org/10.7490/f1000research.1114423.1)
+  [Mallory Freeberg](/src/people/mallory-freeberg/index.md), [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
+
+* [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](http://dx.doi.org/10.1093/gigascience/gix048)
+  Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
+
+* [Building an open, collaborative, online infrastructure for bioinformatics training](http://dx.doi.org/10.7490/f1000research.1114447.1)
+  Bérénice Batut, [Galaxy Training Network](/src/teach/gtn/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
+
+* [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](http://dx.doi.org/10.22377/ajp.v11i02.1265)
+  Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
+
+* [Hack the Galaxy report](http://dx.doi.org/10.7490/f1000research.1114391.1)
+  Anthony Bretaudeau, Frederik Coppens, Hack the Galaxy Participants. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114391.1
+
+* [Integrative analysis of hundreds of datasets in Galaxy](http://dx.doi.org/10.7490/f1000research.1114523.1)
+  Geir K. Sandve, Boris Simovski, Sveinung Gundersen, Diana Domanska, Christin Lund-Andersen. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114523.1
+
+* [Making Galaxy user Interface Pluggable with Webhooks](http://dx.doi.org/10.7490/f1000research.1114475.1)
+  Evgeny Anatskiy, Anup Kumar, Eric Rasche, et al. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114475.1
+
+* [mzML2ISA & nmrML2ISA: generating enriched ISA-Tab metadata files from metabolomics XML data](http://dx.doi.org/10.1093/bioinformatics/btx169)
+  Martin Larralde, Thomas N. Lawson, Ralf J. M. Weber, et al. *Bioinformatics* (07 April 2017), doi:10.1093/bioinformatics/btx169
+
+* [PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data](http://dx.doi.org/10.1038/s41598-017-07910-5)
+  Julian R. Garneau, Florence Depardieu, Louis-Charles C. Fortier, David Bikard, Marc Monot. *Scientific reports*, Vol. 7, No. 1. (15 August 2017), doi:10.1038/s41598-017-07910-5
+
+* [Pulling the Galaxy's strings](http://dx.doi.org/10.7490/f1000research.1114436.1)
+  Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
+
+* [Recent object formation in the core of Galaxy](http://dx.doi.org/10.7490/f1000research.1114483.1)
+  [Martin Čech](/src/people/martenson/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
+
+* [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](http://dx.doi.org/10.12688/f1000research.12168.1)
+  Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
+
+* [The backbone of research reproducibility-sustainable and flexible tool deployment](http://dx.doi.org/10.7490/f1000research.1114482.1)
+  [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
+
+* [ToolDog-generating tool descriptors from the ELIXIR tool registry](http://dx.doi.org/10.7490/f1000research.1114473.1)
+  Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1
+
+* [wft4galaxy: a workflow testing tool for galaxy](http://dx.doi.org/10.1093/bioinformatics/btx461)
+  Marco E. Piras, Luca Pireddu, Gianluigi Zanetti. *Bioinformatics* (24 July 2017), doi:10.1093/bioinformatics/btx461
+
+## Publication Topics
+
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 62 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 27 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 14 | [tools](http://www.citeulike.org/group/16008/tag/tools) | 
+| 13 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 9 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | 
+| 4 | [project](http://www.citeulike.org/group/16008/tag/project) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 3 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 2 | [other](http://www.citeulike.org/group/16008/tag/other) | 
+| 2 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 2 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | | |
+
+----
+
+# Upcoming events
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
@@ -99,79 +167,12 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 ----
-
-# New Publications
-
-**122 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August.
-
-Some highlights from the recently added pubs:
-
-* [2017 Galaxy community update](http://dx.doi.org/10.7490/f1000research.1114388.1)
-  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremey-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
-
-* [Approaches for small RNA-seq in Galaxy](http://dx.doi.org/10.7490/f1000research.1114423.1)
-  [Mallory Freeberg](/src/people/mallory-freeberg/index.md), [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
-
-* [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](http://dx.doi.org/10.1093/gigascience/gix048)
-  Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
-
-* [Building an open, collaborative, online infrastructure for bioinformatics training](http://dx.doi.org/10.7490/f1000research.1114447.1)
-  Bérénice Batut, [Galaxy Training Network](/src/teach/gtn/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
-
-* [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](http://dx.doi.org/10.22377/ajp.v11i02.1265)
-  Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
-
-* [Hack the Galaxy report](http://dx.doi.org/10.7490/f1000research.1114391.1)
-  Anthony Bretaudeau, Frederik Coppens, Hack the Galaxy Participants. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114391.1
-
-* [Integrative analysis of hundreds of datasets in Galaxy](http://dx.doi.org/10.7490/f1000research.1114523.1)
-  Geir K. Sandve, Boris Simovski, Sveinung Gundersen, Diana Domanska, Christin Lund-Andersen. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114523.1
-
-* [Making Galaxy user Interface Pluggable with Webhooks](http://dx.doi.org/10.7490/f1000research.1114475.1)
-  Evgeny Anatskiy, Anup Kumar, Eric Rasche, et al. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114475.1
-
-* [mzML2ISA & nmrML2ISA: generating enriched ISA-Tab metadata files from metabolomics XML data](http://dx.doi.org/10.1093/bioinformatics/btx169)
-  Martin Larralde, Thomas N. Lawson, Ralf J. M. Weber, et al. *Bioinformatics* (07 April 2017), doi:10.1093/bioinformatics/btx169
-
-* [PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data](http://dx.doi.org/10.1038/s41598-017-07910-5)
-  Julian R. Garneau, Florence Depardieu, Louis-Charles C. Fortier, David Bikard, Marc Monot. *Scientific reports*, Vol. 7, No. 1. (15 August 2017), doi:10.1038/s41598-017-07910-5
-
-* [Pulling the Galaxy's strings](http://dx.doi.org/10.7490/f1000research.1114436.1)
-  Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
-
-* [Recent object formation in the core of Galaxy](http://dx.doi.org/10.7490/f1000research.1114483.1)
-  [Martin Čech](/src/people/martenson/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
-
-* [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](http://dx.doi.org/10.12688/f1000research.12168.1)
-  Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
-
-* [The backbone of research reproducibility-sustainable and flexible tool deployment](http://dx.doi.org/10.7490/f1000research.1114482.1)
-  [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
-
-* [ToolDog-generating tool descriptors from the ELIXIR tool registry](http://dx.doi.org/10.7490/f1000research.1114473.1)
-  Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1
-
-* [wft4galaxy: a workflow testing tool for galaxy](http://dx.doi.org/10.1093/bioinformatics/btx461)
-  Marco E. Piras, Luca Pireddu, Gianluigi Zanetti. *Bioinformatics* (24 July 2017), doi:10.1093/bioinformatics/btx461
-
-## Publication Topics
-
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
-| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 62 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 27 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 14 | [tools](http://www.citeulike.org/group/16008/tag/tools) | 
-| 13 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 9 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | 
-| 4 | [project](http://www.citeulike.org/group/16008/tag/project) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 3 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 2 | [other](http://www.citeulike.org/group/16008/tag/other) | 
-| 2 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 2 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | | |
-
-----
-
 # Who's Hiring
 
 <div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
-* [10 Permanent Positions in Bioinformatics and Biostatistics](http://france.list.galaxyproject.org/Galaxy-france-Fwd-Job-InstitutPasteur-10-Bioinformatics-td254.html), Institut Pasteur, Paris, France (Application deadline is September 5th)
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
@@ -191,14 +192,13 @@ The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is 
 Takeru Galaxy is the newest of [many commercial support options](/src/support/commercial/index.md) for Galaxy.
 
 
-----
+<!--
 
 # Public Galaxy Server News
 
 There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in August.
 
 
-<!--
 
 # Galaxy Community Directories
 
