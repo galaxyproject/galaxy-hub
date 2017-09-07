@@ -39,6 +39,9 @@ let set_metadata_defaults = function(files, metalsmith, done) {
             } else if (Array.from(v.collection).includes('news')) {
                 if (files[k].layout === undefined) { files[k].layout = 'news.pug'; }
                 if (files[k].autotoc === undefined) { files[k].autotoc = false; }
+            } else if (Array.from(v.collection).includes('blog')) {
+                if (files[k].layout === undefined) { files[k].layout = 'blog.pug'; }
+                if (files[k].autotoc === undefined) { files[k].autotoc = true; }
             } else {
                 if (files[k].autotoc === undefined) { files[k].autotoc = true; }
             }

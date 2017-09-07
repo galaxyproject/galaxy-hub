@@ -17,7 +17,7 @@ block content
                         tr
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                             td
-                                | #{item.author}
+                                | #{item.authors}
                             td
                                 if item.external_url
                                     a.lead( href=item.external_url ) #{item.title}
