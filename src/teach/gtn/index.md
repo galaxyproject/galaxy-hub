@@ -1,8 +1,7 @@
 ---
 title: Galaxy Training Network
 ---
-<img src="GTNLogo600.png" class="img-responsive" alt="Galaxy Training Network">
-
+<img src="/src/images/galaxy-logos/GTNLogoTrans1000.png" class="img-responsive" alt="Galaxy Training Network" width="600" />
 
 The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/events/index.md) as well.
 
