@@ -173,6 +173,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 The Galaxy is expanding! Please help it grow.
 
+* [Ingénieur en développement de composants Galaxy pour l’Ecologie](https://www.sfbi.fr/content/d%C3%A9veloppement-de-composants-galaxy-pour-l%E2%80%99ecologie), [Station de Biologie marine](http://www.mnhn.fr/fr/recherche-expertise/stations-marines/station-biologie-marine-concarneau), Concarneau, France
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
