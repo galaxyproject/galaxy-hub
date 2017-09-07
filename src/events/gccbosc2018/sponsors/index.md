@@ -7,14 +7,14 @@ Is your organization interested in playing a prominent role in the first joint g
 
 <div class="right">
 <br />
-[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://doc-0o-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cvuuv7bgltrahe33ptrf75724psik2ov/1504735200000/08470603979676424880/*/0BxfIxI6kQS-obm9SSDJERV85ME0) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://doc-0c-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4nhkipp8t9b2jmmrvc8u6ia4al7ofbnb/1504735200000/08470603979676424880/*/0BxfIxI6kQS-oZThMWWlJZWZkd00)  </div>
+[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 # Interested?
 
 Please see the information below and contact the [conference organizers](/src/events/gccbosc2017/organizers/inidex.md) with any questions.
 
-- [One page summary](https://doc-0o-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cvuuv7bgltrahe33ptrf75724psik2ov/1504735200000/08470603979676424880/*/0BxfIxI6kQS-obm9SSDJERV85ME0)
-- [Sponsorship prospectus](https://doc-0c-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4nhkipp8t9b2jmmrvc8u6ia4al7ofbnb/1504735200000/08470603979676424880/*/0BxfIxI6kQS-oZThMWWlJZWZkd00)
+- [One page summary](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf)
+- [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)
 
 # Meeting and Training Sponsorships
 
