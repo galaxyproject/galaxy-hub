@@ -1,0 +1,34 @@
+extends layout.pug
+
+mixin renderBlogEntry()
+    if image
+        if external_url
+            a(href=external_url)
+                img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding 2px; border: 1px solid #666")
+        else
+            img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding 2px; border: 1px solid #666")
+    +renderPageTitle
+
+    p.lead By !{authors} 
+    p
+        strong  
+            | !{helpers.moment(date).format("MMMM Do YYYY")}       
+    if external_url
+        p
+            strong See 
+                a(href=external_url)
+                    | (external) blog entry
+    p
+    div: p !{ contents }
+
+block content
+    section.section-content
+        if toc
+            div.col-md-9
+                +renderBlogEntry
+            div.col-md-3
+                div#sidebar
+                    +renderToc(toc)
+        else
+            div.col-md-12
+                +renderBlogEntry
