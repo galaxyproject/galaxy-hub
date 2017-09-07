@@ -7,16 +7,32 @@ block content
             div !{ contents }
 
             table.table.table-striped
+                thead
+                    tr
+                        th Date
+                        th Author(s)
+                        th Topic
                 tbody
                     each item in blog
                         tr
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
-                            td: a( href=item.link ) #{item.title}
-                            td: p.small
-                                if item.tease
-                                    | #{item.tease}
+                            td
+                                | #{item.author}
+                            td
+                                if item.external_url
+                                    a.lead( href=item.external_url ) #{item.title}
+                                    if item.contents != ''
+                                        |  [
+                                        a( href=item.link )
+                                            | hub page
+                                        | ]
                                 else
-                                    | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
+                                    a.lead( href=item.link ) #{item.title}
+                                p
+                                    if item.tease
+                                        | #{item.tease}
+                                    else
+                                        | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
             h2(id="add-news-item") Adding a blog entry
             p
                 | To add a blog entry, create a new folder in 
