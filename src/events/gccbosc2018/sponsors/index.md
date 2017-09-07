@@ -6,6 +6,7 @@
 Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Becoming a GCCBOSC 2018 sponsor is an excellent way to raise your organization's visibility in these active and engaged communities.
 
 <div class="right">
+<br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://doc-0o-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cvuuv7bgltrahe33ptrf75724psik2ov/1504735200000/08470603979676424880/*/0BxfIxI6kQS-obm9SSDJERV85ME0) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://doc-0c-38-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/4nhkipp8t9b2jmmrvc8u6ia4al7ofbnb/1504735200000/08470603979676424880/*/0BxfIxI6kQS-oZThMWWlJZWZkd00)  </div>
 
 # Interested?
