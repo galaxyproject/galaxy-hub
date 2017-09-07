@@ -197,6 +197,11 @@ let ms = metalsmith(__dirname)
             sortBy: "date",
             reverse: true
         },
+        blog: {
+            pattern: "blog/*/*.md",
+            sortBy: "date",
+            reverse: true
+        },
         publications: {
             pattern: "publications/*/*.md",
             sortBy: "date",
