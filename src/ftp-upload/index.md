@@ -19,7 +19,7 @@ If you are completely new to FTP transfers you might benefit from reading a [wik
 To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. Once registered, you can initiate an FTP connection in your preferred FTP
 client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) of available FTP clients.
 
-## Upload using a client
+## Upload with a client
 
 In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
 ![FTP client connection details](ftp-connect.png)
@@ -39,7 +39,7 @@ In this video, the changes for `FTPS` are explained along with how to configure 
 Below you can see my files copied to the destination on Galaxy's FTP server.
 ![files uploaded to Galaxy FTP server](ftp-files.png)
 
-## Upload using lftp (command line)
+## Upload with lftp (command line)
 
 In this example, `lftp` for MacOS is used.
 
@@ -63,7 +63,7 @@ $ lftp -u user@email.edu usegalaxy.org
 For implicit FTPS: 
 
 ```
-lftp -u user@email.edu ftps://usegalaxy.org
+$ lftp -u user@email.edu ftps://usegalaxy.org
 ```
 
 If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure. 
@@ -71,7 +71,7 @@ If you are using a different Galaxy server, `FTPS` may or may not be enabled, or
 General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (user@email.edu) and `password` is also server specific and the same as when logging in through a browser.
 
 ```
-ftp -u user@email.edu othergalaxy.org
+$ ftp -u user@email.edu othergalaxy.org
 ```
 
 
