@@ -52,7 +52,7 @@ lftp :~>
 
 If the command is not found, `brew` can be used to install `lftp`. [Instructions when using MacOS](http://macappstore.org/lftp/). 
 
-Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (user@email.edu) and `password` are exactly the same as when logging into your account at https://usegalaxy.org. 
+Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (aka `user@email.edu`) and `password` are exactly the same as when logging into your account at https://usegalaxy.org. 
 
 For explicit FTPS: 
 
@@ -68,7 +68,7 @@ $ lftp -u user@email.edu ftps://usegalaxy.org
 
 If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure. 
 
-General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (user@email.edu) and `password` is also server specific and the same as when logging in through a browser.
+General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (aka `user@email.edu`) and `password` is also server specific and the same as when logging in through a browser.
 
 ```
 $ ftp -u user@email.edu othergalaxy.org
