@@ -1,7 +1,7 @@
 ---
 title: The Galaxy Community
 ---
-A vibrant community of contributors is the reason this project exists. The Galaxy team alone cannot possibly maintain enough servers, wrap enough tools, teach enough workshops, implement all needed features, or answer every question on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that can differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
+A vibrant community of contributors is the reason this project exists. The [Galaxy team](/src/galaxy-team/index.md) alone cannot possibly [maintain enough servers](/src/public-galaxy-servers/index.md), [wrap enough tools](/src/toolshed/contributions/index.md), [teach enough workshops](/src/teach/trainers/index.md), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/src/support/index.md) on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
 
 <div>
 	<img src="/src/community/community.jpg" class="img-responsive center-block" alt="Responsive image">
@@ -31,7 +31,8 @@ A vibrant community of contributors is the reason this project exists. The Galax
 | 2014 |  Baltimore, Maryland, United States  |  214  |
 | [2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  |
 | [2016](https://gcc2016.iu.edu/) |  Bloomington, Indiana  |  206  |
-| [2017](https://gcc2017.sciencesconf.org/) |  [Montpellier, France](https://gcc2017.sciencesconf.org/)  |  TBD  |
+| [2017](https://gcc2017.sciencesconf.org/) |  [Montpellier, France](https://gcc2017.sciencesconf.org/)  |  |
+| [2018](https://gccbosc2017.sched.com/) | Portland, Oregon (joint conference with BOSC) | |
 
 # GalaxyAdmins
 
@@ -41,7 +42,7 @@ A vibrant community of contributors is the reason this project exists. The Galax
    </div>
    <div class="media-right media-top">
     <a href="#">
-      <img class="media-object" src="/images/galaxy-logos/GalaxyAdmins_64.png">
+      <img class="media-object" src="/src/images/galaxy-logos/GalaxyAdmins_64.png">
     </a>
   </div>
 </div>
@@ -105,7 +106,7 @@ Member | Joined | GitHub
   </div>
   <div class="media-right media-middle">
     <a href="#">
-      <img class="media-object" src="/images/galaxy-logos/GTNLogo_64.png">
+      <img class="media-object" src="/src/images/galaxy-logos/GTNLogo_64.png">
     </a>
   </div>
 </div>
@@ -120,7 +121,7 @@ Member | Joined | GitHub
  	</div>
 	<div class="media-right media-middle">
     	<a href="#">
-      		<img class="media-object" src="/images/logos/bioconda_64.png">
+      		<img class="media-object" src="/src/images/logos/bioconda_64.png">
     	</a>
   	</div>
 </div>
