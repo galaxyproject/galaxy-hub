@@ -19,9 +19,9 @@ If you are completely new to FTP transfers you might benefit from reading a [wik
 To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. Once registered, you can initiate an FTP connection in your preferred FTP
 client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) of available FTP clients.
 
-## Upload from client
+## Upload using a client
 
-In this example I'm using FileZilla for MacOS. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
+In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
 ![FTP client connection details](ftp-connect.png)
 
 <div class="alert alert-warning" role="alert">
@@ -38,6 +38,42 @@ In this video, the changes for `FTPS` are explained along with how to configure 
 
 Below you can see my files copied to the destination on Galaxy's FTP server.
 ![files uploaded to Galaxy FTP server](ftp-files.png)
+
+## Upload using lftp (command line)
+
+In this example, `lftp` for MacOS is used.
+
+First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, *if installed*. Type `exit` at the prompt to back out of the session. 
+
+```
+$ lftp
+lftp :~>
+```
+
+If the command is not found, `brew` can be used to install `lftp`. [Instructions when using MacOS](http://macappstore.org/lftp/). 
+
+Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (user@email.edu) and `password` are exactly the same as when logging into your account at https://usegalaxy.org. 
+
+For explicit FTPS: 
+
+```
+$ lftp -u user@email.edu usegalaxy.org
+```
+
+For implicit FTPS: 
+
+```
+lftp -u user@email.edu ftps://usegalaxy.org
+```
+
+If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure. 
+
+General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (user@email.edu) and `password` is also server specific and the same as when logging in through a browser.
+
+```
+ftp -u user@email.edu othergalaxy.org
+```
+
 
 ## Import to Galaxy
 
