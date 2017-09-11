@@ -18,6 +18,18 @@ block content
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                             td
                                 | #{item.authors}
+                                if item.source_blog_url || item.source_blog
+                                    p(style="margin-left: 1em")
+                                        i From 
+                                            if item.source_blog_url
+                                                a(href=item.source_blog_url)
+                                                    if item.source_blog
+                                                        | !{item.source_blog}
+                                                    else
+                                                        | This Blog
+                                            else
+                                                | !{item.source_blog}
+
                             td
                                 if item.external_url
                                     a.lead( href=item.external_url ) #{item.title}

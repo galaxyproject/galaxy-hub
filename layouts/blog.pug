@@ -18,6 +18,17 @@ mixin renderBlogEntry()
             strong See 
                 a(href=external_url)
                     | (external) blog entry
+    if source_blog_url || source_blog
+        p From 
+            i
+                if source_blog_url
+                    a(href=source_blog_url)
+                        if source_blog
+                            | !{source_blog}
+                        else
+                            | This Blog
+                else
+                    | !{source_blog}
     p
     div: p !{ contents }
 
