@@ -10,7 +10,7 @@ We could describe it here, but really, see the web site that is generated from t
 
 ## Should I access the Galaxy Hub website through GitHub or  galaxyproject.org?
 
-The only reason to navigate through the website in GitHub is if you updating the web site (see [CONTRIBUTING.md](contributing.md)).  If you just want to read and explore the web site, then you should absolutely do that through [galaxyproject.org](https://galaxyproject.org).  The web site is not quite correctly rendered in the GitHub web site: it is missing some magic metalsmith, Bootstrap, and FontAwesome bits that are added when the site is generated.
+The only reason to navigate through the website in GitHub is if you updating the web site (see [CONTRIBUTING.md](/contributing.md)).  If you just want to read and explore the web site, then you should absolutely do that through [galaxyproject.org](https://galaxyproject.org).  The web site is not quite correctly rendered in the GitHub web site: it is missing some magic metalsmith, Bootstrap, and FontAwesome bits that are added when the site is generated.
 
 ## Finally,
 

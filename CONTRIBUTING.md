@@ -126,7 +126,7 @@ Once you have added comments, *click* the **Create pull request** button.  This 
 
 You can track the progess of the pull request here.  When the pull request is approved it will be merged into the main repo and then appear on the Galaxy Hub shortly thereafter.
 
-Furthermore, after a pull request or two, the reviewer will add you to the @galaxyproject `galaxy-hub` Editors group.  From that point on you can edit pages directly in the root repo.  That is, clicking the pencil icon on a page under https://github.com/galaxyproject/galaxy-hub/src will no longer fork the repo, and submitted changes will go directly to the repo and to the web site. (Our goal with this protocol is to encourage treating this like a wiki where folks are free to just edit.  (*Galaxy is [community](/src/community/index.md.*))
+Furthermore, after a pull request or two, the reviewer will add you to the @galaxyproject `galaxy-hub` Editors group.  From that point on you can edit pages directly in the root repo.  That is, clicking the pencil icon on a page under https://github.com/galaxyproject/galaxy-hub/src will no longer fork the repo, and submitted changes will go directly to the repo and to the web site. (Our goal with this protocol is to encourage treating this like a wiki where folks are free to just edit.  ( *Galaxy is [community](/src/community/index.md.)* )
 
 In the meantime, you can continue to do edits in your copy of the repo and then submitting pull requests.
 
@@ -206,24 +206,118 @@ Anything can be rendered with custom HTML styling, *but don't*.
 
 :hatched_chick: Whenever possible use Bootstrap HTML classes for styling.  Bootstrap has automatically handles rendering on small devices and it too is much easier to make site-wide changes to how it is rendered.
 
-## Special page metadata
+### Favor Font Awesome Icons over custom icons
 
-In addition to using Markdown features you can add special metadata in the header of every page like this:
+[Font Awesome](http://fontawesome.io/) is a standard collection of icons that cover a huge spectrum of what you need icons for on a web site.  As of 2017, [there are over 600 icons](http://fontawesome.io/icons/) to choose from.
+
+:hatched_chick: If there is a Font Awesome icon for your situation then use it.
+
+Font Awesome icons can be rendered in multiple sizes, shown with or without borders, floated left or right, animated (spin them!), rotated, and integrated with Bootstrap.  See the [Font Awesome Examples page](http://fontawesome.io/examples/) for how.
+
+
+## Page metadata
+
+One advantage of using metalsmith is that the site can support predefined metadata tags on pages.  These can then be rendered / processed in special ways when the final web site is generated.
+
+Metadata appears at the top of the file in this format:
 
 ```
 ---
 autotoc: false
+title: "Galaxy Hub-Bub"
 ---
 ```
+
+There are general tags that can be used on any page, and there are also specific sets of tags that can be used on specific sets of pages.
+
+Tags are writting using YAML syntax and have the form
+
+` tag: value` or `tag: "value"` or `tag: 'value'`
+
+If you add tags to a page, and the tags aren't reflected on the generated web site, then the most likely problem is one of thses:
+
+- Special characters in unquoted tag value. A lot of things, including hyphen are considered special characters.  If in doubt, quote it
+- Missing a space after the colon. That space matters.
+
+### General metadata tags
+
+These tags can be used on any page.
 
 |name|type|(default) values|description|
 |-----|-----|-----|-----|
 |autotoc|boolean|(true on most pages, false on news/events content items), false|flag whether to include table of contents in the right side|
 |title|string|(empty)|value of `<title>` HTML tag in the page and first page heading|
 
+
+## Section specific metadata
+
+Many sections of the web site use cusom metadata tags that enable advanced handling of pages in those sections.  Usually, these custom metadata tag sets are used to generate section indexes at the root of those sections.  For example, the in News and Events directory hierarchies every news item and event item starts with custom metadata tags for news and events respectively. These are then used to generate the news item and events lists on the web site.
+
+### News item metadata
+
+News items root:
+- GitHub source: [/src/news/index.md](/src/news/index.md)
+- As rendered on web site: [galaxyproject.org/news/](https://galaxyproject.org/news/)
+
+News item indexes displayed:
+- [galaxyproject.org/news/](https://galaxyproject.org/news/)
+- [galaxyproject.org/](https://galaxyproject.org/)
+
+To add a news item, you'll need to create a directory for the item under `/src/news/` and then create an `index.md` file in the new directory.  The `index.md` file should contain the news item text, and start with these metadata:
+
+### `title`
+
+- Required
+- Meaning
+  - Short title for news item
+- Use
+  - Becomes the news item page title
+  - Shown in news indexes / lists as the name of the news item. 
+- Format:
+  - Free text all on one line.  Should be wrapped in quotes.
+
+### `tease`
+
+- Optional
+- Meaning
+  - Short bit of additional text about the news item
+  - Meant to complement, rather than replace `title` 
+- Use
+  - display with the event title, when space allows.
+- Format:
+  - free text all on one line. Should be wrapped in quotes.
+
+### `date`
+
+- Required
+- Meaning
+  - Date the news item was posted, or last modified
+- Use
+  - Determines where in the news list the item shows up.
+- Format:
+  - `'YYYY-MM-DD'` - Must be wrapped in quotes
+
+| Tag | Required | Meaning | Use | Format |
+| ---- | ---- | ---- | ---- | ---- |
+| `title` | Yes | Short title for news item. | Becomes the news item page title, and shown in news indexes / lists as the name of the news item. | Free text all on one line.  Should be wrapped in quotes. |
+| `tease` | No | Short bit of additional text about the news item that is meant to complement the `title`. | Displayed with the news item title, when space allows. | Free text all on one line. Should be wrapped in quotes. |
+| `date` | Yes | Date the news item was posted, or last modified. | Determines where in the news index/list the item shows up (usually in reverse chronological order). | `'YYYY-MM-DD'` - Must be wrapped in quotes |
+
+### Example
+
+From `/src/news/2017-09-galaxy-update/index.md`
+
+```
+---
+title: 'September 2017 Galaxy News'
+tease: 'New events, pubs, openings, tools, ...'
+date: '2017-09-06'
+---
+```
+
 ## Redirects
 
-When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
+:chicken: When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
 
 # Deploying the site locally
 
