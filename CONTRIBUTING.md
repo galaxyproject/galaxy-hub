@@ -256,16 +256,18 @@ Many sections of the web site use cusom metadata tags that enable advanced handl
 ### News item metadata
 
 News items root:
+
 - GitHub source: [/src/news/index.md](/src/news/index.md)
 - As rendered on web site: [galaxyproject.org/news/](https://galaxyproject.org/news/)
 
 News item indexes displayed:
+
 - [galaxyproject.org/news/](https://galaxyproject.org/news/)
 - [galaxyproject.org/](https://galaxyproject.org/)
 
 To add a news item, you'll need to create a directory for the item under `/src/news/` and then create an `index.md` file in the new directory.  The `index.md` file should contain the news item text, and start with these metadata:
 
-### `title`
+#### `title`
 
 - Required
 - Meaning
@@ -276,18 +278,18 @@ To add a news item, you'll need to create a directory for the item under `/src/n
 - Format:
   - Free text all on one line.  Should be wrapped in quotes.
 
-### `tease`
+#### `tease`
 
 - Optional
 - Meaning
   - Short bit of additional text about the news item
-  - Meant to complement, rather than replace `title` 
+  - Meant to complement `title` 
 - Use
   - display with the event title, when space allows.
 - Format:
   - free text all on one line. Should be wrapped in quotes.
 
-### `date`
+#### `date`
 
 - Required
 - Meaning
@@ -303,7 +305,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
 | `tease` | No | Short bit of additional text about the news item that is meant to complement the `title`. | Displayed with the news item title, when space allows. | Free text all on one line. Should be wrapped in quotes. |
 | `date` | Yes | Date the news item was posted, or last modified. | Determines where in the news index/list the item shows up (usually in reverse chronological order). | `'YYYY-MM-DD'` - Must be wrapped in quotes |
 
-### Example
+#### News item example metadata
 
 From `/src/news/2017-09-galaxy-update/index.md`
 
@@ -312,6 +314,167 @@ From `/src/news/2017-09-galaxy-update/index.md`
 title: 'September 2017 Galaxy News'
 tease: 'New events, pubs, openings, tools, ...'
 date: '2017-09-06'
+---
+```
+
+### Event metadata
+
+Events root:
+
+- GitHub source: [/src/events/index.md](/src/events/index.md)
+- Rendered on web site: [galaxyproject.org/events/](https://galaxyproject.org/events/)
+
+News item indexes displayed:
+
+- [galaxyproject.org/events/](https://galaxyproject.org/events/)
+- [galaxyproject.org/](https://galaxyproject.org/)
+
+To add an event, you'll need to create a directory for the item under `/src/events/` and then create an `index.md` file in the new directory.
+
+The `index.md` file needs to have at least the event metadata.  Optionally, it can also have additional text about the event in the body of the page.  How an event page is indexed depends of several things:
+
+1. If the metadata includes an `external_url` tag then the main event link in the index will point to that URL.
+1. If the metadata does not include an `external_url` tag then the main event link in the index will point to the event's hub page.
+1. If the metadata includes an `external_url` tag *and* has additional text in the body of the event page, then main event link in the index will point to the external URL, but it will be followed by an additional link to the event's hub page.
+
+Thus you can control what links are used by setting or not setting `external_url` and by providing or not providing additional text in the body of the event page.
+
+#### `title`
+
+- Required
+- Meaning
+  - Name of the event or presentation.
+- Use
+  - Becomes the event page title
+  - Shown in the event list as the name of the event. 
+- Format:
+  - Free text all on one line, and should be wrapped in quotes
+
+
+#### `external_url`
+
+- Optional
+  - If it is not present, the `title` text in the index will link to the event's Hub page.
+- Meaning
+  - Where the `title` text links to when it is displayed in an index
+- Use
+  - If present then title in the index links to this location.
+- Format:
+  - URL
+    - Should be an external URL.
+
+#### `tease`
+
+- Optional
+- Meaning
+  - Short bit of additional text about the event.
+  - Meant to complement `title`
+- Use
+  - display with the event title, when space allows.
+- Format:
+  - Free text all on one line, and should be wrapped in quotes.
+
+#### `date`
+
+- Required
+- Meaning
+  - Date the event starts
+- Use
+  - Determines where in events lists the item shows up.
+  - Displayed as start date for the event.
+- Format:
+  - `'YYYY-MM-DD'` - Needs to be wrapped in quotes.
+
+#### `days` 
+
+- Optional
+  - If not provided then event is assumed to be one day long.
+- Meaning
+  - How many days does this event last?
+- Use
+  - Displayed end date for the event.
+- Format:
+  - an integer
+
+#### `location`
+
+- Required
+  - but can be "online" or "to be determined" or ...
+- Meaning
+  - Where in the world is this event being held.
+- Use
+  - Displayed wherever location is displayed
+- Format
+  - A location in however much detail you want to provide.
+    - There should be enough information that someday we could feed the location to a mapping service and have a reasonable expectation of it guessing at least the right city.
+  - :hatched_chick: Prefer longer region and national names to shorter ones.  For example, California over CA, and United States over USA.
+  - It's easier for people not from that country to read.
+  - If the event's `title` refers to a specific event within a larger event, then include larger event's name in the location.
+- Examples
+  - Iowa City, Iowa, United States
+  - University of Iowa, Iowa City, Iowa, United States
+  - Plant and Animal Genome XXV, San Diego, California, United States
+
+#### `location_url`
+
+- Optional
+- Meaning
+  - URL to link `location` to.
+  - This can be a conference URL, or a host UR, or a facility URL, or ...
+- Use
+  - If provided then the location text (all of it) will link to this URL.
+- Format:
+  - A URL
+
+#### `continent`
+
+- Required
+- Meaning
+  - What continent this event is being held on.
+- Use
+  - An icon showing the continent is typically displayed with the event.
+- Format
+  - Must be one of the following two letter values:
+    - `AF`, `AS`, `AU`, `EU`, `GL`, `NA`, `SA` 
+    - `GL` stands for *global* and is typically used for online events.
+
+#### `image`
+
+- Optional
+- Meaning
+  - image / logo for this event
+- Use
+  - Displayed on the event's hub page.  
+  - Display this image anywhere that events are summarized and images are included.
+- Format:
+  - a URL, preferably an internal hub path, usually pointinto to the `/src/images/` directory.
+
+#### `gtn`
+
+- Optional
+  - If not present then defaults to `n`
+- Meaning
+  - Is this a training event presented by a GTN member?
+- Use
+  - Display a GTN icon (that links to the GTN trainer directory page) in the index
+- Format:
+  - `y|n`
+
+
+#### Examples
+
+```
+---
+title: "RNA-Seq analysis using Galaxy" 
+tease: 
+date: '2017-09-13'
+days: 2
+continent: AU
+location: "QFAB, St Lucia, Queensland, Australia"
+location_url: "http://qfab.org/"
+external_url: "http://qfab.org/workshops/rna-seq-analysis-using-galaxy-13-14-sep-2017"
+contact: 'training@qfab.org'
+gtn: y
 ---
 ```
 
