@@ -15,7 +15,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 </div>
 <div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
 [Dan Blankenberg](/src/people/dan/index.md) <br />
-[The Cleveland Clinic](https://clevelandclinic.org/) <br /> <br />
+[The Cleveland Clinic](https://www.lerner.ccf.org/) <br /> <br />
 </div>
 <div class='col-md-3'><a href='/src/people/dave-bouvier/index.md'><img src="/src/galaxy-team/davebouvierflag.jpg" alt="Dave Bouvier" height="150" /></a><br />
 [Dave Bouvier](/src/people/dave-bouvier/index.md) <br />
