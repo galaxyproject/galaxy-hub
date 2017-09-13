@@ -16,7 +16,7 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
   - [One web page ≈ One directory in GitHub](#one-web-page-one-directory-in-github)
   - [index.md files](#indexmd-files)
   - [Markdown](#markdown)
-- [Submitting your first edit through the GitHub web interface](#submitting-your-first-edit-through-the-github-web-interface)
+- [Submiting your first edit through the GitHub web interface](#submiting-your-first-edit-through-the-github-web-interface)
   - [Edit the page in Github](#edit-the-page-in-github)
     - [What if I mess it up?  Are there guidelines?](#what-if-i-mess-it-up-are-there-guidelines)
     - [You mentioned guidelines?](#you-mentioned-guidelines)
@@ -70,7 +70,7 @@ The text that becomes the website at https://galaxyproject.org is in this GitHub
 
 ## One web page ≈ One directory in GitHub
 
-Every page in the [Galaxy Hub](https://galaxyproject.org/) has a corresponding directory in GitHub.  For example, the contents of the GitHub directory at [/src/community/](/src/community/)
+Every page in the [Galaxy Hub](https://galaxyproject.org/) has a coresponding directory in GitHub.  For example, the contents of the GitHub directory at [/src/community/](/src/community/)
 become the web pages at
  [https://galaxyproject.org/community/](https://galaxyproject.org/community/).
 
@@ -86,7 +86,7 @@ Markdown is a language for generating web content. It's meant to support the mos
 
 The Galaxy Hub uses a dialect of Markdown known as [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). GFM adds a few things, like table support, to the Markdown standard. GFM pages also render nicely in GitHub.  GFM is limited (by design) in comparison to HTML. However, it is easy to learn and use, and if you ever need something more, GFM supports that too (see below).
 
-# Submitting your first edit through the GitHub web interface
+# Submiting your first edit through the GitHub web interface
 
 If you aren't already familiar with Git and GitHub then the easiest way to update the site is using the GitHub web interface in your web browser.
 
@@ -183,7 +183,7 @@ Once you have added comments, *click* the **Create pull request** button.  This 
 
 ## What happens next and becoming an *Editor*
 
-You can track the progress of the pull request here.  When the pull request is approved it will be merged into the main repo and then appear on the Galaxy Hub shortly thereafter.
+You can track the progess of the pull request here.  When the pull request is approved it will be merged into the main repo and then appear on the Galaxy Hub shortly thereafter.
 
 Furthermore, after a pull request or two, the reviewer will add you to the @galaxyproject `galaxy-hub` Editors group.  From that point on you can edit pages directly in the root repo.  That is, clicking the pencil icon on a page under https://github.com/galaxyproject/galaxy-hub/src will no longer fork the repo, and submitted changes will go directly to the repo and to the web site. (Our goal with this protocol is to encourage treating this like a wiki where folks are free to just edit.  ( *Galaxy is [community](/src/community/index.md.)* )
 
@@ -229,7 +229,7 @@ In our example, the page name / path should be
 
 *Note: You can upload images and attachments through the GitHub editor, but by the time you get to this level of editing you should consider editing a local install instead.*
 
-To add an image or attachment to the repo, navigate to the directory you want to place it in, and then *click* the **Upload Files** button, near the top and on the right.  This launches a standard file upload form.  Any uploaded files are added to the directory you are in and can now be referenced from pages within the hub.
+To add an image or attachment to the repo, navigate to the directory you want to place it in, and then *click* the **Upload Files** button, near the top and on the right.  This launces a standard file upload form.  Any uploaded files are added to the directory you are in and can now be referenced from pages within the hub.
 
 #### Image and attachment guidelines.
 
@@ -251,7 +251,7 @@ This section describes the hub structure and guidelines.  This section is useful
 
 The Galaxy Hub website (galaxyproject.org) supports GitHub Flavored Markdown, [Bootstrap](http://getbootstrap.com/) [markup](https://getbootstrap.com/docs/4.0/getting-started/introduction/), the [FontAwesome](https://fontawesome.com/) library, and a smattering of items from [Metalsmith](http://www.metalsmith.io/).  That's a lot of ways to do things.
 
-What's the preferred way?
+What's the prefered way?
 
 ### Favor GitHub Flavored Markdown over HTML
 
@@ -295,9 +295,9 @@ Tags are written using YAML syntax and have the form
 
 There are general tags that can be used on any page, and there are also specific sets of tags that can be used on specific sets of pages.
 
-If you add tags to a page, and the tags aren't reflected on the generated web site, then the most likely problem is one of these:
+If you add tags to a page, and the tags aren't reflected on the generated web site, then the most likely problem is one of thses:
 
-- Special characters in unquoted tag value. A lot of things, including hyphens can cause problems.  If in doubt, quote it
+- Special characters in unquoted tag value. A lot of things, including hyphens can cause problmes.  If in doubt, quote it
 - Missing a space after the colon. That space matters.
 
 ### General metadata tags
@@ -312,7 +312,7 @@ These tags can be used on any page.
 
 ## Section specific metadata
 
-Many sections of the web site use custom metadata tags that enable advanced handling of pages in those sections.  Usually, these custom metadata tag sets are used to generate section indexes at the root of those sections.  For example, the in News and Events directory hierarchies every news item and event item starts with custom metadata tags for news and events respectively. These are then used to generate the news item and events lists on the web site.
+Many sections of the web site use cusom metadata tags that enable advanced handling of pages in those sections.  Usually, these custom metadata tag sets are used to generate section indexes at the root of those sections.  For example, the in News and Events directory hierarchies every news item and event item starts with custom metadata tags for news and events respectively. These are then used to generate the news item and events lists on the web site.
 
 ### News item metadata
 
@@ -508,7 +508,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Displayed on the event's hub page.  
   - Display this image anywhere that events are summarized and images are included.
 - Format:
-  - a URL, preferably an internal hub path, usually point into to the `/src/images/` directory.
+  - a URL, preferably an internal hub path, usually pointinto to the `/src/images/` directory.
 
 #### `contact`
 
@@ -555,7 +555,7 @@ gtn: y
 
 # Edit a local copy on your laptop
 
-Using the GitHub web editor either edits your local copy of the Galaxy Hub repo, or edits *the* Galaxy Hub repo directly (once you are an editor).  The GitHub web editor is fine for "one page at a time" edits, but you as you start doing more advanced editing or using page metadata, Bootstrap, and Font Awesome, you'll want to move towards editing and then previewing a copy of the Galaxy Hub repo on your laptop.  Unlike viewing in GitHub (which approximates the view), previewing your edits locally will show your edits as they will be rendered on the actual Galaxy Hub web site.  Once you are happy with your edits, you'll submit them to the repo at GitHub from your laptop.
+Using the GitHub web editor either edits your local copy of the Galaxy Hub repo, or edits *the* Galaxy Hub repo directly (once you are an editor).  The GitHub web editor is fine for "one page at a time" edits, but you as you start doing more advanced editing or using page metadata, Bootstrap, and Font Awsome, you'll want to move towards editing and then previewing a copy of the Galaxy Hub repo on your laptop.  Unlike viewing in GitHub (which approximates the view), previewing your edits locally will show your edits as they will be rendered on the actual Galaxy Hub web site.  Once you are happy with your edits, you'll submit them to the repo at GitHub from your laptop.
 
 :chicken: To edit and preview the site on your laptop, you will need a much better understanding of Git, GitHub, and know how to use the Linux / Unix shell.  You will also need to install software.
 
