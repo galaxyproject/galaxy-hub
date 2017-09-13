@@ -449,6 +449,16 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format:
   - a URL, preferably an internal hub path, usually pointinto to the `/src/images/` directory.
 
+#### `contact`
+
+- Optional
+- Meaning
+  - Name or email address of who to contact about this event
+- Use
+  - Display in events index.
+- Format:
+  - All on one line, and wrapped in quotes.  Can be a list of names.
+
 #### `gtn`
 
 - Optional
