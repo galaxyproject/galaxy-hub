@@ -83,7 +83,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHFHEHHHHHHHFHHHHHHHHHHHHHHHHHHHHHHFHHFHHHHHHHHHHHHFHEH
 ```
 
 
-### Solution
+### Solution 1
 
 Create distinct datasets from an interleaved fastq dataset by running the tool **Manipulate FASTQ reads on various attributes** on the original dataset. It will be run twice.
 
@@ -110,5 +110,24 @@ Miscellaneous Manipulation Type `Remove Read`
 Exact same settings as above except for this change:
 
 Match by `.+/1`
+
+### Solution 2
+
+If your data has different sequence identifiers, the "Match by" expression can be modified to suit your identifiers.
+
+Alternative identifiers such as:
+
+```
+@M00946:180:000000000-ANFB2:1:1107:14919:14410 1:N:0:1
+@M00946:180:000000000-ANFB2:1:1107:14919:14410 2:N:0:1
+```
+
+Can be split with:
+
+Match by `^.+ 1.+$`
+
+and
+
+Match by `^.+ 2.+$`
 
 ----
