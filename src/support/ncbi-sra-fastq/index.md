@@ -56,7 +56,7 @@ Replace with: `+`
 
 Note: If the quality score line is named like "+ERR" instead (or other valid options), modify the pattern search to match.
 
-## Joined forward and reverse reads
+## Interleaved forward and reverse reads
 
 ### Example
 
