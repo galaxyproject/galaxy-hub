@@ -35,6 +35,8 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
     - [Favor Font Awesome Icons over custom icons](#favor-font-awesome-icons-over-custom-icons)
   - [Page metadata](#page-metadata)
     - [General metadata tags](#general-metadata-tags)
+      - [`title`](#title)
+      - [`autotoc`](#autotoc)
   - [Section specific metadata](#section-specific-metadata)
     - [News item metadata](#news-item-metadata)
       - [`title`](#title)
@@ -60,7 +62,6 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
   - [Generate  local website](#generate-local-website)
   - [Handling of images](#handling-of-images)
   - [LFS Troubles?](#lfs-troubles)
-
 
 # Basics
 
@@ -304,11 +305,26 @@ If you add tags to a page, and the tags aren't reflected on the generated web si
 
 These tags can be used on any page.
 
-|name|type|(default) values|description|
-|-----|-----|-----|-----|
-|autotoc|boolean|(true on most pages, false on news/events content items), false|flag whether to include table of contents in the right side|
-|title|string|(empty)|value of `<title>` HTML tag in the page and first page heading|
+#### `title`
 
+- Optional
+- Meaning
+  - Title of the page
+- Use
+  - Becomes the value of `<title>` HTML tag in the page and first page heading
+- Format
+  - Free text all on one line.  Should be wrapped in quotes.
+
+#### `autotoc`
+
+- Optional
+  - Default is `true` on most pages, `false` on news and events items
+- Meaninig
+  -  Whether to include table of contents in the right side
+- Use
+  - Causes a table of contents to be displayed on the right on not.
+- Format
+  - Boolean: either `true` or  `false`
 
 ## Section specific metadata
 
@@ -336,7 +352,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
 - Use
   - Becomes the news item page title
   - Shown in news indexes / lists as the name of the news item. 
-- Format:
+- Format
   - Free text all on one line.  Should be wrapped in quotes.
 
 #### `tease`
@@ -347,7 +363,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
   - Meant to complement `title` 
 - Use
   - display with the event title, when space allows.
-- Format:
+- Format
   - free text all on one line. Should be wrapped in quotes.
 
 #### `date`
@@ -357,14 +373,8 @@ To add a news item, you'll need to create a directory for the item under `/src/n
   - Date the news item was posted, or last modified
 - Use
   - Determines where in the news list the item shows up.
-- Format:
+- Format
   - `'YYYY-MM-DD'` - Must be wrapped in quotes
-
-| Tag | Required | Meaning | Use | Format |
-| ---- | ---- | ---- | ---- | ---- |
-| `title` | Yes | Short title for news item. | Becomes the news item page title, and shown in news indexes / lists as the name of the news item. | Free text all on one line.  Should be wrapped in quotes. |
-| `tease` | No | Short bit of additional text about the news item that is meant to complement the `title`. | Displayed with the news item title, when space allows. | Free text all on one line. Should be wrapped in quotes. |
-| `date` | Yes | Date the news item was posted, or last modified. | Determines where in the news index/list the item shows up (usually in reverse chronological order). | `'YYYY-MM-DD'` - Must be wrapped in quotes |
 
 #### News item example metadata
 
@@ -408,7 +418,7 @@ Thus you can control what links are used by setting or not setting `external_url
 - Use
   - Becomes the event page title
   - Shown in the event list as the name of the event. 
-- Format:
+- Format
   - Free text all on one line, and should be wrapped in quotes
 
 
@@ -420,7 +430,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Where the `title` text links to when it is displayed in an index
 - Use
   - If present then title in the index links to this location.
-- Format:
+- Format
   - URL
     - Should be an external URL.
 
@@ -432,7 +442,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Meant to complement `title`
 - Use
   - display with the event title, when space allows.
-- Format:
+- Format
   - Free text all on one line, and should be wrapped in quotes.
 
 #### `date`
@@ -443,7 +453,7 @@ Thus you can control what links are used by setting or not setting `external_url
 - Use
   - Determines where in events lists the item shows up.
   - Displayed as start date for the event.
-- Format:
+- Format
   - `'YYYY-MM-DD'` - Needs to be wrapped in quotes.
 
 #### `days` 
@@ -454,7 +464,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - How many days does this event last?
 - Use
   - Displayed end date for the event.
-- Format:
+- Format
   - an integer
 
 #### `location`
@@ -484,7 +494,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - This can be a conference URL, or a host UR, or a facility URL, or ...
 - Use
   - If provided then the location text (all of it) will link to this URL.
-- Format:
+- Format
   - A URL
 
 #### `continent`
@@ -507,7 +517,7 @@ Thus you can control what links are used by setting or not setting `external_url
 - Use
   - Displayed on the event's hub page.  
   - Display this image anywhere that events are summarized and images are included.
-- Format:
+- Format
   - a URL, preferably an internal hub path, usually point into to the `/src/images/` directory.
 
 #### `contact`
@@ -517,7 +527,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Name or email address of who to contact about this event
 - Use
   - Display in events index.
-- Format:
+- Format
   - All on one line, and wrapped in quotes.  Can be a list of names.
 
 #### `gtn`
@@ -528,7 +538,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Is this a training event presented by a GTN member?
 - Use
   - Display a GTN icon (that links to the GTN trainer directory page) in the index
-- Format:
+- Format
   - `y|n`
 
 
