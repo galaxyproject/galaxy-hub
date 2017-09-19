@@ -18,7 +18,7 @@ block content
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                             td
                                 | #{item.authors}
-                                if item.source_blog_url || item.source_blog || item.link.startsWith("/people/")
+                                if item.source_blog_url || item.source_blog
                                     p(style="margin-left: 1em")
                                         i From 
                                             if item.source_blog_url
@@ -26,16 +26,10 @@ block content
                                                     if item.source_blog
                                                         | !{item.source_blog}
                                                     else
-                                                        | this blog
-                                            else if item.link.startsWith("/people/")
-                                                if item.source_blog
-                                                    a(href=(item.link.substring(0, item.link.indexOf("blog/") + 5)))
-                                                        | !{item.source_blog}
-                                                else
-                                                    a(href=(item.link.substring(0, item.link.indexOf("blog/") + 5)))
-                                                        | !{item.authors}'s Galaxy blog
-                                            else if item.source.blog
+                                                        | This Blog
+                                            else
                                                 | !{item.source_blog}
+
                             td
                                 if item.external_url
                                     a.lead( href=item.external_url ) #{item.title}

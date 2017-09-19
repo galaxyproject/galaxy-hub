@@ -201,12 +201,7 @@ let ms = metalsmith(__dirname)
             reverse: true
         },
         blog: {
-            pattern: "{blog/*/*.md,people/*/blog/*/*.md}",
-            sortBy: "date",
-            reverse: true
-        },
-        personal_blog: {
-            pattern: "people/*/blog/*/*.md",
+            pattern: "blog/*/*.md",
             sortBy: "date",
             reverse: true
         },
