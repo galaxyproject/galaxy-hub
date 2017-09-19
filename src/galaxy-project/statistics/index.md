@@ -65,9 +65,9 @@ Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private
 
 # Publications / Citations
 
-A Galaxy [CiteULike](/src/cite-u-like/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
+The [Galaxy Publications Library](/src/galaxy-publications/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
 
-As of mid 2017 these are the tags on papers in the Galaxy CiteULike Group:
+As of September 2017 these are the tags on papers in the Galaxy Publications Library:
 
 <table class="table">
   <tr>
