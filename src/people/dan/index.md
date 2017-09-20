@@ -2,7 +2,9 @@
 
 # Dan Blankenberg
 
-Daniel Blankenberg is currently a Post Doctoral researcher in the Nekrutenko lab at Penn State, working primarily on the Galaxy project. He is responsible for the architecting and actual coding of many of Galaxy’s key components. Dan has been working on Galaxy since its inception, even playing a role in the development of the now defunct Perl-based application described in Giardine, et al 2005. Learning a great deal from this early attempt, his focus remains on enabling accessible, reproducible and transparent research through the development of a generic framework, with a developmental goal of supporting the life sciences. Dan remains the longest running Galaxy core developer.
+Daniel Blankenberg is a faculty member in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/). Dan's lab utilizes high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
+
+Prior to moving to Cleveland Clinic, Dan was a researcher in the Nekrutenko lab at Penn State, working primarily on the Galaxy project, where he was responsible for the architecting and actual coding of many of Galaxy’s key components. Dan has been working on Galaxy since its inception, even playing a role in the development of the now defunct Perl-based application described in [Giardine, et al 2005](http://genome.cshlp.org/content/15/10/1451.long). Learning a great deal from this early attempt, his focus remains on enabling accessible, reproducible and transparent research through the development of a generic framework, with a developmental goal of supporting the life sciences. Dan remains the longest running Galaxy core developer.
 
 Shortly after the release of the original Galaxy application, Dan continued to be involved in the work on the Python-based version, appearing in 2005, that has become the Galaxy familiar to many researchers across the globe. These early efforts, which focused on the development of the Tool integration framework and tool development, resulted in the first publications describing the modern Galaxy application and framework (Blankenberg et al 2007 and Taylor et al 2007).
 
@@ -31,9 +33,4 @@ Working closely with other members of the Galaxy team, Dan has played a signific
 
 ## Contact
 
-<table>
-  <tr>
-    <th> Email </th>
-    <td> <a href="mailto:dan AT bx DOT psu DOT edu">dan AT bx DOT psu DOT edu</a> </td>
-  </tr>
-</table>
+Email: [blanked2 AT ccf.org](mailto:blanked2 AT ccf.org)
