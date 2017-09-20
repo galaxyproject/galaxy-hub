@@ -133,7 +133,7 @@ To lean more about the data we will be using let's look at just one set of reads
 
 For quality control, we use similar tools as described in [NGS-QC tutorial](/tutorials/ngs/): [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic).
 
-Let's start by processing the smaller set of reads from Megakaryocyte set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**: 
+Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**: 
 
 |      |
 |------|
