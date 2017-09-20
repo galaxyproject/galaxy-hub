@@ -20,7 +20,7 @@ block content
                                 | #{item.authors}
                                 if item.source_blog_url || item.source_blog
                                     p(style="margin-left: 1em")
-                                        i From 
+                                        i from 
                                             if item.source_blog_url
                                                 a(href=item.source_blog_url)
                                                     if item.source_blog
@@ -45,8 +45,3 @@ block content
                                         | #{item.tease}
                                     else
                                         | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
-            h2(id="add-news-item") Adding a blog entry
-            p
-                | To add a blog entry, create a new folder in 
-                a(href="https://github.com/galaxyproject/galaxy-hub/tree/master/src/blog") https://github.com/galaxyproject/galaxy-hub/tree/master/src/blog
-                |  with an 'index.md' file.  It's probably easiest to copy the format from one of the other existing blog entries.
