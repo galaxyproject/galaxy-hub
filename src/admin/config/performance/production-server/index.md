@@ -27,22 +27,8 @@ Many of the following instructions are best practices for any production applica
 * Make sure Galaxy is using a clean Python interpreter.  Conflicts in $PYTHONPATH or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):
 
 ```
-nate@weyerbacher% wget http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
---11:18:05--  http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
-           => `virtualenv.py'
-Resolving bitbucket.org... 184.73.244.143, 184.73.226.175
-Connecting to bitbucket.org|184.73.244.143|:80... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 68,601 (67K) [text/x-python]
-
-100%[====================================>] 68,601        --.--K/s
-
-11:18:05 (729.46 KB/s) - `virtualenv.py' saved [68601/68601]
-
-nate@weyerbacher% /usr/bin/python2.7 virtualenv.py --no-site-packages galaxy_env
-New python executable in galaxy_env/bin/python2.7
-Also creating executable in galaxy_env/bin/python
-Installing setuptools...............done.
+nate@weyerbacher% pip install virtualenv
+nate@weyerbacher% virtualenv --no-site-packages galaxy_env
 nate@weyerbacher% . ./galaxy_env/bin/activate
 nate@weyerbacher% cd galaxy-dist
 nate@weyerbacher% sh run.sh

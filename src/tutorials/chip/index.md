@@ -250,7 +250,7 @@ So let's apply this to our own data using **NGS: DeepTools &rarr; plotFingerprin
 |      |
 |------|
 |![](/src/tutorials/chip/plotfingerprint.png)|
-|<small>**A.** Running `plotFingerprint` on output of `multiBamSummary`.</small>|
+|<small>**A.** Running `plotFingerprint` on filtered data (15.).</small>|
 |![](/src/tutorials/chip/plotfingerprint_out.png)|
 |<small>**B.** SES fingerprint of four samples: Treatments (Rab1) show characteristic shape indicating of ChIP-signal. Approximately 30% of reads are contained in several % of genome.</small>|
 
