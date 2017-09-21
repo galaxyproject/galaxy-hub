@@ -1,5 +1,5 @@
 ---
-title: "Contibute to the Galaxy Publication Library'
+title: "Contibute to the Galaxy Publication Library"
 ---
 
 <div class="pull-right">
@@ -51,9 +51,31 @@ Especially the guidelines below.
 
 Once you are setup and understand the guidelines below, request update access the Galaxy Zotero Group.  This can be done by [TODO].
 
-# Guidelines
+# Guidelines for adding publications in Zotero
+
+Here are some things to keep in mind when adding publications to the Galaxy group.
 
 
+## Make the Galaxy group the current group in your Zotero client
 
+Before adding a publication, open Zotero on your computer and select the Galaxy group in the left hand panel.
 
+When you click on the Zotero connector in your web browser, the connector sends the publication to to whichever folder or library you currently have selected.
 
+It is possible to add papers to another library first, and then add a copy to the Galaxy Group.  It's just not as conenient.
+
+## Add at least one Galaxy Specific ("+") tag to every paper
+
+If more than one tag is relevant, then please add those too.
+
+### Refrain from creating new Galaxy Specific tags
+
+The current set of Galaxy specific tags (those that start with "+") have been in place for several years.  However, we do occassionally need new ones.  If you notice a need for a new tag, please contact outreach@galaxyproject.org to discuss your ideas.
+
+## Add Public Server tags (">") if relevant
+
+If the publication is about, uses, or references a public Galaxy server or service, then please add a tag for that.  Note that since there are over 90 public servers, you might also be creating the tag when add it.
+
+## Watch for duplicates
+
+Zotero will quite happily let you add a publication that is already in the library.  Before you add a paper, make sure it's not already in the library.  If you do add a paper that's already in the library, you can delete the new item by selecting it and hitting your delete key.
