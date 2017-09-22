@@ -1,6 +1,5 @@
 ---
 title: Publicly Accessible Galaxy Servers
-layout: server_index.pug
 ---
 ![](/src/public-galaxy-servers/80PlusSlide.png)
 
