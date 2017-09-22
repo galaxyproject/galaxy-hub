@@ -1,5 +1,6 @@
 ---
 title: Publicly Accessible Galaxy Servers
+layout: server_index.pug
 ---
 ![](/src/public-galaxy-servers/80PlusSlide.png)
 
@@ -250,8 +251,9 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Link:*
   * [Galaxy Test](https://test.galaxyproject.org/)
 * *Domain/Purpose:*
-  * [Beta version](/src/test/index.md) of Galaxy [Main](/src/main/index.md)
+  * Beta version of Galaxy Main
 * *Comments:*
+  * [Beta version](/src/test/index.md) of Galaxy [Main](/src/main/index.md)
   * Not stable or persistent.  See [Test](/src/test/index.md) for more.
 * *User Support:*
 * *Quotas:*
@@ -873,12 +875,12 @@ Domain servers specialize in either a particular branch of the tree of life or i
 <div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/public-galaxy-servers/OSDDLinuxLiveGalaxyHomePage300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
 
 * *Links:*
-  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
-  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
-  * "[QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0101079)" by Chauhan, *et al.* *PLOS One*,   DOI: 10.1371/journal.pone.0101079
+  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/)
+  * [OSDD Portal](http://sysborg2.osdd.net)
 * *Domain/Purpose:*
-  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
+  * Drug discovery
 * *Comments:*
+  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy.
 * *User Support:*
   * [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [Email](mailto:osddlinux AT gmail DOT com)
@@ -1042,8 +1044,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Link:*
   * [South Green Galaxy](http://galaxy.southgreen.fr/galaxy/)
 * *Domain/Purpose:*
-  * "[South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/) is a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."
+  * Genomic resource analysis of southern and Mediterranean plants.
 * *Comments:*
+  * "[South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/) is a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."
   * Supports many custom tools and data sources.
 * *User Support:*
 * *Quotas:*
@@ -1721,7 +1724,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [ODoSE: Ortholog Direction of Selection Engine](http://www.odose.nl/)
 * *Domain/Purpose:*
-  * [ODoSE](http://www.odose.nl/) is a webserver for genome-wide calculation of adaptive divergence in prokaryotes.
+  * Webserver for genome-wide calculation of adaptive divergence in prokaryotes.
 * *Comments:*
   * "The web-based graphical user-interface ODoSE (Ortholog Direction of Selection Engine) identifies all orthologs between a set of strains and allows the calculation of a novel extension of the [McDonald Kreitman] MK test, the Direction of Selection (DoS) statistic as well as the calculation of the Neutrality Index (NI) statistic for all genes shared by two taxonomic groups combined. The engine also generates the site frequency spectrum for each gene allowing one to apply more advanced methods for estimating the distribution of fitness effects and rates of adaptive evolution."<br />
   * See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
@@ -1757,7 +1760,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
-* *Domain/Purpose*
+* *Domain/Purpose:*
   * Microsatellite development.
 * *Comments:*
   * See [A Galaxy-based bioinformatics pipeline for optimised, streamlined microsatellite development from Illumina next-generation sequencing data](https://doi.org/10.1007/s12686-016-0570-7), Griffiths, S.M., Fox, G., Briggs, P.J. *et al. Conservation Genetics Resources* (2016). doi:10.1007/s12686-016-0570-7
@@ -1836,6 +1839,8 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * [QBRC Galaxy](http://www.galaxy.qbrc.org/)
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)
 * *Domain/Purpose:*
+  * This pair of servers hosts custom tools developed by members of the Quantitative Biomedical Research Center @ University of Texas Southwestern for statistical analysis of various High Throughput Sequencing experiments.
+* *Comments:*
   * This pair of servers hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.<br />
   * Features:
     * [SbacHTS: Spatial Background Noise Correction for HighThroughput RNAi Screening](http://bioinformatics.oxfordjournals.org/content/early/2013/06/28/bioinformatics.btt358.abstract)
@@ -1846,7 +1851,6 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
     * "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://onlinelibrary.wiley.com/doi/10.1002/sim.6066/abstract)" by Yang, *et al.*, *Statistics in Medicine*, doi: 10.1002/sim.6066
     * "[Design and bioinformatics analysis of genome-wide CLIP experiments](http://nar.oxfordjournals.org/content/early/2015/05/09/nar.gkv439.full)" by Wang, *et al.*, *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv439
     * "[PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract)" by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
-* *Comments:*
   * The QBRC galaxy server tools are constantly being updated. Please contact authors for more details regarding use.
 * *User Support:*
   * [Web form](http://qbrc.swmed.edu/contact/)
