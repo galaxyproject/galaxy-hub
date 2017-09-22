@@ -1,0 +1,27 @@
+extends layout.pug
+
+mixin renderServerRow(item)
+    tr
+        td: a( href=item.link ) #{item.title}
+        td
+            each serverLink in item.server_links
+                a( href=serverLink.url ) #{serverLink.link_text}
+        td: #{item.summary}
+
+block content
+    - var servers_malleable = servers.slice()
+    div.col-md-12
+        section.section-content
+            h1 !{title}
+            div !{ contents }
+
+            h2 Public Galaxy Servers
+            table.table.table-striped
+                thead
+                    tr
+                        th Server
+                        th Links
+                        th Summary
+                tbody
+                    each item in servers_malleable
+                        +renderServerRow(item)
