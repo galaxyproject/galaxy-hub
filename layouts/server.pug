@@ -8,6 +8,19 @@ mixin renderServer()
             img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
     +renderPageTitle
     p #{summary}
+
+    if server_group == "general"
+        p This is a 
+           strong
+               a(href="/public-galaxy-servers/#general") General Purpose / Genomics server.
+    else if server_group == "domain"
+        p This is a 
+           strong
+               a(href="/public-galaxy-servers/#domain") Domain specific server.
+    else if server_group == "tool-publishing"
+        p This is a 
+           strong
+               a(href="/public-galaxy-servers/#tool-publishing") Tool Publishing server.
     h2 Links
     ul
         each serverLink in server_links

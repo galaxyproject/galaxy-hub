@@ -1,5 +1,6 @@
 ---
 title: Publicly Accessible Galaxy Servers
+layout: server_index.pug
 ---
 ![](/src/public-galaxy-servers/80PlusSlide.png)
 
@@ -856,12 +857,12 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Orione](http://orione.crs4.it/) server
-  * "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," by Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia; *Bioinformatics* (10 March 2014)
 * *Domain/Purpose:*
   * A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.
 * *Comments:*
   * From the [GCC2013](/src/events/gcc2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/events/gcc2013/abstracts/posters/index.md#p7-engaging-galaxy-in-microbiology)"
       We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/public-galaxy-servers/index.md#nebula), [Cistrome](/src/public-galaxy-servers/index.md#cistrome) and several others.
+  * "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," by Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia; *Bioinformatics* (10 March 2014)
 * *User Support:*
   * [email](mailto:galaxyadmin AT crs4 DOT it)
 * *Quotas:*
@@ -945,10 +946,11 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Link:*
   * [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/)
-  * [Workshop on the Application of Next Generation Sequencing to Repetitive DNA Analysis in Plants](http://w3lamc.umbr.cas.cz/repeatexplorer/?page_id=14), České Budějovice, Czech Republic, May 26-28 2015
 * *Domain/Purpose:*
-  * Utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains
+  * Graph-based clustering and characterization of repetitive sequences, and detection of transposable element protein coding domains
 * *Comments:*
+  * Utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains
+  * [Workshop on the Application of Next Generation Sequencing to Repetitive DNA Analysis in Plants](http://w3lamc.umbr.cas.cz/repeatexplorer/?page_id=14), České Budějovice, Czech Republic, May 26-28 2015
 * *User Support:*
 * *Quotas:*
   * Disk space is limited to 200MB for unregistered users. Registered users are free to use up to 50GB.
@@ -1614,8 +1616,8 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 <div class='right solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/public-galaxy-servers/MBACPortalLandingPage.png" alt="MBAC Metabiome Portal" width="300px" /></a></div>
 
 * *Link(s):*
-  * [MBAC Metabiome Portal](http://mbac.gmu.edu:8080/)
-  * [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11)
+  * [MBAC Metabiome Server](http://mbac.gmu.edu:8080/)
+  * [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac_wp/)
 * *Domain/Purpose:*
   * Simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).
 * *Comments:*
