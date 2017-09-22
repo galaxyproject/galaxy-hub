@@ -23,7 +23,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 
 * *Links:*
   * [ABiMS Galaxy](http://galaxy3.sb-roscoff.fr/)
-  * [Request an account](http://abims.sb-roscoff.fr/account) (require a professional/institutional email address)
+  * [Request an account](http://abims.sb-roscoff.fr/account) 
 * *Domain/Purpose:*
   * General purpose genomics analysis, featuring many standard tools plus many additional tools.
   * Howerver, we are specialized in RNASeq with reference and RNASeq denovo 
@@ -32,6 +32,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *User Support:*
   * [Email](mailto:support DOT abims AT sb-roscoff DOT fr)
 * *Quotas:*
+  * Requires a professional/institutional email address to create and account
   * The default quota for new users is 20GB but can be extended on request
 * *Sponsor(s):*
   * [CNRS](http://www.cnrs.fr/)
@@ -359,7 +360,7 @@ These servers implement a broad range of tools and aren't specific to any part o
 * *Link:*
   * [NELLY](http://www.bioinformatica.ucr.ac.cr:8080/)
 * *Domain/Purpose:*
-    "Plataforma de servicios para análisis de datos biomédicos en bioinformática" featuring standard Galaxy Tools
+  *  "Plataforma de servicios para análisis de datos biomédicos en bioinformática" featuring standard Galaxy Tools
 * *Comments:*
 * *User Support:*
 * *Quotas:*
@@ -375,7 +376,6 @@ These servers implement a broad range of tools and aren't specific to any part o
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
   * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
   * [Corresponding VM and AMI for developing workflows](/src/va/pitagora-galaxy/index.md)
-  * [Building Galaxy Japan Community](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Genome Informatics 2014.
 
 * *Domain/Purpose:*
   * The public, general purpose Galaxy servers of the [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en).  This server is intended for testing and sharing.  Heavy analysis should be performed using the project's identical virtual machine (VM) or Amazon Machine Image (AMI).
@@ -384,7 +384,8 @@ These servers implement a broad range of tools and aren't specific to any part o
     * Access to the public web site for testing.
     * Download the virtual machine to your own PC or server.
     * Launch AMI (Amazon machine image) on AWS cloud.
-    Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
+  * Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
+  * [Building Galaxy Japan Community](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota Yamanaka at Genome Informatics 2014.
 * *User Support:*
   * Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)
 * *Quotas:*
@@ -407,13 +408,13 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [ballaxy Galaxy server](https://ballaxy.bioinf.uni-sb.de)
-  * [ballaxy wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy)
   * [ballaxy using Docker](http://www.ball-project.org/ballaxy)
 * *Domain/Purpose:*
   * Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data.
 * *Comments:*
   * [ballaxy](https://ballaxy.bioinf.uni-sb.de) is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or optimal bond order assignment of ligands "BOA Constructor".
   * "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI)," by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574
+  * [ballaxy wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy)
 * *User Support:*
   * [Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point_tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list).
 * *Quotas:*
@@ -450,11 +451,11 @@ Domain servers specialize in either a particular branch of the tree of life or i
 <div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/public-galaxy-servers/CAPER300.png" alt="CAPER"  /></a></div>
 
 * *Links:*
-  * [CAPER](http://www.bprc.ac.cn/CAPE) at [Beijing Proteome Research Center](http://www.bprc.ac.cn/), China
-  * "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the Chromosome-centric Human Proteome Project](http://pubs.acs.org/doi/abs/10.1021/pr400795c)" by Wang, *et al.*, *J. Proteome Res.*, DOI: 10.1021/pr400795c, Publication Date (Web): November 22, 2013
+  * [CAPER](http://www.bprc.ac.cn/CAPE)
 * *Domain/Purpose:*
   * "An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the [Chromosome-centric Human Proteome Project](http://www.c-hpp.org/)"
 * *Comments:*
+  * "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the Chromosome-centric Human Proteome Project](http://pubs.acs.org/doi/abs/10.1021/pr400795c)" by Wang, *et al.*, *J. Proteome Res.*, DOI: 10.1021/pr400795c, Publication Date (Web): November 22, 2013
   * The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. In addition to the previous visualization functions of [track-view and heatmap-view](http://pubs.acs.org/doi/abs/10.1021/pr300831z), CAPER 2.0 presents a powerful toolbox for C-HPP data analyses and also integrates a configurable workflow system that supports the view, construction, edit, run, and share of workflows. These features allow users to easily conduct their own C-HPP proteomic data analyses and visualization by CAPER 2.0. CAPER 2.0 now presents four specific workflows for finding missing proteins, mapping peptides to chromosomes for genome annotation, integrating peptides with transcription factor binding sites from ENCODE data sets, and functionally annotating proteins.
 * *User Support:*
   * [Tutorials](http://61.50.138.124/caper2/static/documentation/index.html)
@@ -489,10 +490,10 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Cistrome Analysis Pipeline](http://cistrome.org/ap/root)
-  * Liu T, Ortiz JA, Taing L, Meyer CA, Lee B, Zhang Y, Shin HG, Wong SS, Ma J, Lei Y, Pape UJ, Poidinger M, Chen Y, Yeung K, Brown M, Turpaz Y, Liu XS. [Cistrome: an integrative platform for transcriptional regulation studies](http://genomebiology.com/2011/12/8/r83). *Genome Biol* 2011; 12(8):R83
 * *Domain/Purpose:*
   * ChIP-chip/seq and gene expression data
 * *Comments:*
+  * Liu T, Ortiz JA, Taing L, Meyer CA, Lee B, Zhang Y, Shin HG, Wong SS, Ma J, Lei Y, Pape UJ, Poidinger M, Chen Y, Yeung K, Brown M, Turpaz Y, Liu XS. [Cistrome: an integrative platform for transcriptional regulation studies](http://genomebiology.com/2011/12/8/r83). *Genome Biol* 2011; 12(8):R83
   * The [Cistrome Analysis Pipeline](http://cistrome.org/ap/root) has the standard Galaxy tools, plus 29 additional ChIP-chip and ChIP-seq specific tools, including preliminary peak calling and correlation analyses, downstream genome feature association, gene expression analyses, and motif discovery.
 * *User Support:*
   * [Cistrome Google Group](https://groups.google.com/forum/#!forum/cistrome)
@@ -524,8 +525,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
 * *Domain/Purpose:*
-  * A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."
+  * GWA and NGS tools and modules for functional annotation of genes and gene products
 * *Comments:*
+  * A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."
   * Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."
   * "The Galaxy server has been set up to facilitate access to our **`Dintor`** tools by biologists with little background in bioinformatics. A second, expert mode of invocation is given by command line access to the tool suite, which can be downloaded"
   * [Admin and deployment documentation is available](http://dintor.eurac.edu/doc/doc/index.html).
@@ -567,8 +569,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Link:*
   * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
 * *Domain/Purpose:*
-  * "Proteomics Informed by Transcriptomics (PIT) methodology described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869), and selection of surrogate peptides for targeted proteomics."
+  * Proteomics Informed by Transcriptomics (PIT) methodology, and selection of surrogate peptides for targeted proteomics.
 * *Comments:*
+  * Proteomics Informed by Transcriptomics (PIT) methodology is described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869)
   * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
   * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
 * *User Support:*
@@ -588,7 +591,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Use Galaxy-P](https://usegalaxyp.org/)
-  * Galaxy-P user guide ([web](http://bit.ly/usegalaxyp-guide) / [pdf](http://bit.ly/usegalaxyp-guide-pdf))
 * *Domain/Purpose:*
   * Galaxy-P is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/).
 * *Comments:*
@@ -596,6 +598,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
       Pending imminent hardware upgrades, usegalaxyp.org is running with fairly limited computational resources and on disk that is not backed up. Galaxy-P is under active development - things will break and things will change, so your patience is requested.
   * [Publications using Galaxy-P](http://z.umn.edu/galaxypreferences)
 * *User Support:*
+  * Galaxy-P user guide ([web](http://bit.ly/usegalaxyp-guide) / [pdf](http://bit.ly/usegalaxyp-guide-pdf))
   * [MSI Email Support](mailto:help@msi.umn.edu)
   * We have created a [publicly-available Google Group](http://z.umn.edu/galaxypgroup) to facilitate questions, feedback and suggestions for Galaxy-P from both users and developers.  Please [request to join the group](http://z.umn.edu/galaxypgroup) to stay updated and be involved.
   * Please follow our Galaxy-P twitter account, [@usegalaxyp](http://twitter.com/usegalaxyp).  It’s a great way to stay updated on the most recent developments:
@@ -608,8 +611,8 @@ Domain servers specialize in either a particular branch of the tree of life or i
 <div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/public-galaxy-servers/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
-  * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
-  * **[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)**
+  * [PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)
+  * [Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)
 * *Domain/Purpose:*
   * This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis.
 * *Comments:*
@@ -687,10 +690,10 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
-  * [Project blog](http://cloudimaging.blogspot.com.au/)
 * *Domain/Purpose:*
   * Image analysis and processing.
 * *Comments:*
+  * [Project blog](http://cloudimaging.blogspot.com.au/)
   * This service provides a novel way of carrying out image analysis, reconstruction and processing tasks using cloud based service provided on the Australian [National eResearch Collaboration Tools and Resources (NeCTAR](http://www.nectar.org.au)) infrastructure. The toolbox allows access to a wide range of useful blocks of functionalities (imaging functions) that can be connected together in workflows allowing creation of even more complex algorithms that can be re-run on different data sets, shared with others or additionally adjusted. The functions given are in the area of cellular imaging, advanced X-ray image analysis, computed tomography and 3D medical imaging and visualisation. The service is currently available [on the website](http://www.cloudimaging.net.au).
 * *User Support:*
   * [Email](mailto:admin@cloudimaging.net.au)
@@ -731,12 +734,12 @@ Domain servers specialize in either a particular branch of the tree of life or i
 <div class='right solid'><a href='https://sites.google.com/a/irri.org/iric/resources/iric-data-portal '><img src="/src/public-galaxy-servers/IRRI.png" alt="IRRI Galaxy"  /></a></div>
 
 * *Links:*
-  * [IRRI Galaxy](http://galaxy.irri.org/) part of the [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
+  * [IRRI Galaxy](http://galaxy.irri.org/)
+  * [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
 * *Domain/Purpose:*
   * Bioinformatics workbench, with rice-specific data (i.e. genomes) and tools (mostly specialized for the [IRRI Genotyping Service Laboratory](http://gsl.irri.org/)) installed.
 * *Comments:*
-  * See
-    * "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
+  * See "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
@@ -747,10 +750,12 @@ Domain servers specialize in either a particular branch of the tree of life or i
 <div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/public-galaxy-servers/LAPPSGrid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
 
 * *Links:*
-  * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Language Application Grid](http://www.lappsgrid.org/)
+  * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/)
+  * [Language Application Grid](http://www.lappsgrid.org/)
 * *Domain/Purpose:*
-  * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
+  * An open, interoperable web service platform for natural language processing (NLP) research and development. 
 * *Comments:*
+  * The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
   * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
   * See [The Language Application Grid](http://link.springer.com/chapter/10.1007/978-3-319-31468-6_4) by Nancy Ide, James Pustejovsky, Christopher Cieri, Eric Nyberg, Denise DiPersio, Chunqi Shi, Keith Suderman, Marc Verhagen, Di Wang, Jonathan Wright. Worldwide Language Service Infrastructure, Volume 9442 of the series Lecture Notes in Computer Science pp 51-70
 * *User Support:*
@@ -758,11 +763,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Quotas:*
   * Anyone can create a login, or it can be used anonymously
 * *Sponsor(s):*
-  * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/).  Includes
-    * [Vassar College](http://www.cs.vassar.edu/)
-    * [Brandeis University](http://www.cs.brandeis.edu/)
-    * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
-    * [University of Pennsylvania](http://www.ldc.upenn.edu/)
+  * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/).  Includes [Vassar College](http://www.cs.vassar.edu/), [Brandeis University](http://www.cs.brandeis.edu/), [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/), [University of Pennsylvania](http://www.ldc.upenn.edu/)
 
 ## MetaDP
 
@@ -830,7 +831,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [Oqtans Galaxy Server](http://galaxy.inf.ethz.ch)<br />
-  * a [cloud machine image with a demo instance](http://cloud.oqtans.org/)
+  * [Cloud machine image with a demo instance](http://cloud.oqtans.org/)
 * *Domain/Purpose:*
   * Customized Galaxy, extended with machine learning based tools for sequence and tiling array data analysis.
 * *Comments:*
@@ -910,10 +911,8 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:*
   * Large scale computing for medical informatics
 * *Comments:*
-  * "The [PhenoMeNal Galaxy installation](http://public.phenomenal-h2020.eu/) allows users to access all of the [PhenoMeNal](http://phenomenal-h2020.eu/home/) containerised tools through a workflow environment, on an scalable infrastructure that can be deployed to public and private cloud installations.<br /><br />
-
-   This PhenoMeNal H2020 Galaxy instance, and all of its tools, run as containers on top of [Kubernetes](http://kubernetes.io/), an open source container orchestrator system backed by Google. If you wish to [deploy the PhenoMeNal Galaxy installation](https://github.com/phnmnl/docker-galaxy-k8s-runtime/tree/develop) on top of your own [Kubernetes](http://kubernetes.io/) instance, you can find instructions at our [wiki](http://phenomenal-h2020.eu/home/wiki/#galaxy-with-k8s).
-
+  * "The [PhenoMeNal Galaxy installation](http://public.phenomenal-h2020.eu/) allows users to access all of the [PhenoMeNal](http://phenomenal-h2020.eu/home/) containerised tools through a workflow environment, on an scalable infrastructure that can be deployed to public and private cloud installations."
+  * "This PhenoMeNal H2020 Galaxy instance, and all of its tools, run as containers on top of [Kubernetes](http://kubernetes.io/), an open source container orchestrator system backed by Google. If you wish to [deploy the PhenoMeNal Galaxy installation](https://github.com/phnmnl/docker-galaxy-k8s-runtime/tree/develop) on top of your own [Kubernetes](http://kubernetes.io/) instance, you can find instructions at our [wiki](http://phenomenal-h2020.eu/home/wiki/#galaxy-with-k8s).
 * *User Support:*
   * [Submit a ticket](http://phenomenal-h2020.eu/home/help/)
   * [PhenoMeNal: accessing metabolomics workflows in Galaxy](http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy), online training from EMBL-EBI.
@@ -962,7 +961,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Link:*
   * [RiboGalaxy](http://ribogalaxy.ucc.ie/)
 * *Domain/Purpose:*
-  * [RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique.
+  * Tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique.
 * *Comments:*
   * [RiboGalaxy](http://ribogalaxy.ucc.ie) is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
   * Audrey M. Michel, James P.A. Mullan, Vimalkumar Velayudhan, Patrick B.F. O'Connor, Claire A. Donohue & Pavel V. Baranov (2016): [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](http://www.tandfonline.com/doi/abs/10.1080/15476286.2016.1141862), *RNA Biology*, DOI: 10.1080/15476286.2016.1141862
@@ -979,12 +978,14 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Link:*
   * [RNA-Rocket at Pathogen Portal](http://rnaseq.pathogenportal.org/)
+* *Domain/Purpose:*
+  * Supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts. 
+* *Comments:*
+  * From [Lew, *et al.*](http://www.sciencedirect.com/science/article/pii/S147297921200203X)
+    * "It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis"  
   * [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](http://bioinformatics.oxfordjournals.org/content/early/2015/02/02/bioinformatics.btv002.full), by Warren *et al.*,  *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv002
   * [VBI-led Team Introduces Infectious Disease-focused Resource for Analyzing RNA-seq Data](https://www.genomeweb.com/infectious-disease/vbi-led-team-introduces-infectious-disease-focused-resource-analyzing-rna-seq), by [Andrea Anderson](https://www.genomeweb.com/about-us/our-staff/andrea-anderson), *[GenomeWeb](https://www.genomeweb.com/)*, February 3, 2015
   * [Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.*, *Tuberculosis*, Volume 93, Issue 1, January 2013, Pages 12–17
-* *Domain/Purpose:*
-  * From "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew *et al.*<div class='indent'>[Pathogen Portal](http://www.pathogenportal.org) supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts. It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.</div>
-* *Comments:*
   * Map your RNA-Seq Reads to Reference Genomes: Align your Illumina fastQ reads (gzipped fastQ files accepted) against any sequenced genome from [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). <br />Estimate Gene Expression Values: Obtain BAM files for the resulting alignments and FPKM expression values for annotated genes and novel transcripts. <br />
   * The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf) are both available.
 * *User Support:*
@@ -1000,7 +1001,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Links:*
   * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
   * [Galaxy server](http://weizhongli-lab.org:8088/)
-
 * *Domain/Purpose:*
   * Analyzing RNA-seq Data for Agricultural Animal Species.
 * *Comments:*
@@ -1014,7 +1014,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
   * [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
 * *Quotas:*
-
 * *Sponsor(s):*
   * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428).
 
@@ -1027,7 +1026,10 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:*
   * Database of curated cancer stem cell experiments coupled to Galaxy.
 * *Comments:*
-  * Includes tools for stem cell gene list comparisons. From the web site: <br />→ Compare your genes to curated experiments from the [SCDE Bioinvestigation Index](http://discovery.hsci.harvard.edu/bioinvindex/)<br />→ Compare your uploaded list ([SCDE ListMatch](http://discovery.hsci.harvard.edu/galaxy/tool_runner?tool_id=SCDEListMatch)) or multiple lists ([SCDE ListCompare](http://discovery.hsci.harvard.edu/galaxy/tool_runner?tool_id=SCDEListMatch)) against curated gene signatures from the [GeneSigDB](http://compbio.dfci.harvard.edu/genesigdb/index.jsp) and [mSigDB databases](http://www.broadinstitute.org/gsea/msigdb/index.jsp)<br />→ Compare your genes against pathways in [WikiPathways](http://www.wikipathways.org/), and show the overlap on a pathway diagram
+  * Includes tools for stem cell gene list comparisons. From the web site:
+    * Compare your genes to curated experiments from the [SCDE Bioinvestigation Index](http://discovery.hsci.harvard.edu/bioinvindex/)
+    * Compare your uploaded list ([SCDE ListMatch](http://discovery.hsci.harvard.edu/galaxy/tool_runner?tool_id=SCDEListMatch)) or multiple lists ([SCDE ListCompare](http://discovery.hsci.harvard.edu/galaxy/tool_runner?tool_id=SCDEListMatch)) against curated gene signatures from the [GeneSigDB](http://compbio.dfci.harvard.edu/genesigdb/index.jsp) and [mSigDB databases](http://www.broadinstitute.org/gsea/msigdb/index.jsp)
+    * Compare your genes against pathways in [WikiPathways](http://www.wikipathways.org/), and show the overlap on a pathway diagram
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
@@ -1378,16 +1380,16 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 <div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deepTools.png" alt="deepTools Galaxy Server"  /></a></div>
 
 * *Links:*
-  * [deepTools2](http://deeptools.ie-freiburg.mpg.de/) server
+  * [deepTools2 server](http://deeptools.ie-freiburg.mpg.de/)
   * [deepTools home page at GitHub](http://deeptools.github.io/)
-  * Fidel Ramírez, Devon P Ryan, Björn Grüning, Vivek Bhardwaj, Fabian Kilpert, Andreas S Richter, Steffen Heyne, Friederike Dündar and Thomas Manke, [deepTools2: a next generation web server for deep-sequencing data analysis](http://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.long), *Nucl. Acids Res.* (2016) doi: 10.1093/nar/gkw257
-  * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/events/gcc2014/abstracts/talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/events/gcc2014/index.md)
-  * [deepTools deployment description](/src/community/deployment/deep-tools/index.md)
 * *Domain/Purpose:*
   * deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
 * *Comments:*
   * deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
+  * Fidel Ramírez, Devon P Ryan, Björn Grüning, Vivek Bhardwaj, Fabian Kilpert, Andreas S Richter, Steffen Heyne, Friederike Dündar and Thomas Manke, [deepTools2: a next generation web server for deep-sequencing data analysis](http://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.long), *Nucl. Acids Res.* (2016) doi: 10.1093/nar/gkw257
+  * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
+  * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/events/gcc2014/abstracts/talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/events/gcc2014/index.md)
+  * [deepTools deployment description](/src/community/deployment/deep-tools/index.md)
 * *User Support:*
   * [Email](mailto:deeptools@googlegroups.com)
   * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
@@ -1426,9 +1428,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)
   * [Halogen Bonding project home](http://halogenbonding.com/)
 * *Domain/Purpose:*
-  * Visualize halogen bond contacts in the protein binding site
-  * Analyze a protein binding site for halogen bonding hotspots
-  * Evaluate halogen contacts with the protein backbone using the scoring function XBScore
+  * Visualize halogen bond contacts in the protein binding site.
+  * Analyze a protein binding site for halogen bonding hotspots.
+  * Evaluate halogen contacts with the protein backbone using the scoring function XBScore.
 * *Comments:*
   * Supports visualizations (halogen bond spheres) for:
     * the protein backbone (spherical scans and planar scans)
@@ -1440,7 +1442,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
     * [Using halogen bonds to address the protein backbone: a systematic evaluation](http://dx.doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8
 * *User Support:*
 * *Quotas:*
-  * "Files older than 30 days will be deleted, so make sure to save the results to your hard drive. "
+  * "Files older than 30 days will be deleted, so make sure to save the results to your hard drive."
 * *Sponsor(s):*
   * This webserver is provided by the group of [Prof. Dr. Frank Boeckler (University of Tuebingen, Germany)](http://www.mnf.uni-tuebingen.de/fachbereiche/pharmazie-und-biochemie/pharmazie/pharmazeutische-chemie/prof-dr-f-boeckler.html)
 
@@ -1493,8 +1495,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [In Silico Galaxy](http://insilico.utulsa.edu/galaxy/)
 * *Domain/Purpose:*
-  * Construction, analysis, and visualization of gene-gene interaction networks for sequencing data. Implements [Encore](http://onlinelibrary.wiley.com/doi/10.1002/gepi.21739/abstract), "an open source network analysis pipeline for genome-wide association studies and rare variant data. Encore constructs Genetic Association Interaction Networks or epistasis networks using two optional approaches: our previous information-theory method or a generalized linear model approach. Additionally, Encore includes multiple data filtering options, including Random Forest/Random Jungle for main effect enrichment and Evaporative Cooling and Relief-F filters for enrichment of interaction effects. Encore implements SNPrank network centrality for identifying susceptibility hubs (nodes containing a large amount of disease susceptibility information through the combination of multivariate main effects and multiple gene-gene interactions in the network)"
+  * Construction, analysis, and visualization of gene-gene interaction networks for sequencing data. 
 * *Comments:*
+  * Implements [Encore](http://onlinelibrary.wiley.com/doi/10.1002/gepi.21739/abstract), "an open source network analysis pipeline for genome-wide association studies and rare variant data. Encore constructs Genetic Association Interaction Networks or epistasis networks using two optional approaches: our previous information-theory method or a generalized linear model approach. Additionally, Encore includes multiple data filtering options, including Random Forest/Random Jungle for main effect enrichment and Evaporative Cooling and Relief-F filters for enrichment of interaction effects. Encore implements SNPrank network centrality for identifying susceptibility hubs (nodes containing a large amount of disease susceptibility information through the combination of multivariate main effects and multiple gene-gene interactions in the network)"
   * See "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](http://onlinelibrary.wiley.com/doi/10.1002/gepi.21739/abstract)," by Davis NA, Lareau CA, White BC, Pandey A, Wiley G, Montgomery CG, Gaffney PM, [McKinney BA](http://www.utulsa.edu/academics/colleges/college-of-engineering-and-natural-sciences/departments-and-schools/tandy-school-of-computer-science/Our-Faculty-and-Staff/M/brett-mckinney.aspx). in *[Genetic Epidemiology](http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1098-2272)*. 2013 Jun 5. doi: 10.1002/gepi.21739.
 * *User Support:*
   * [Insilico Research Group](http://insilico.utulsa.edu/)
@@ -1511,10 +1514,11 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
 * *Domain/Purpose:*
-  * Web based access to tools created by the [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/):
+  * Web based access to tools created by the Koslicki Lab at Oregon State University.
+* *Comments:*
+  * Implements these [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) ([Oregon State University](http://www.oregonstate.edu/)) tools:
     * [ARK](https://github.com/dkoslicki/ARK) and [Quikr](https://github.com/dkoslicki/Quikr)/[SEK](https://github.com/dkoslicki/SEK) for 16S rRNA based taxonomic profiling
     * [MetaPalette](https://github.com/dkoslicki/MetaPalette) for whole genome shotgun based taxonomic profiling
-* *Comments:*
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
@@ -1528,8 +1532,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * [kmer-SVM server](http://kmersvm.beerlab.org/)
   * [Deployment page](/src/community/deployment/kmer-svm/index.md) in the [Galaxy Deployment Catalog](/src/community/deployments/index.md)
 * *Domain/Purpose:*
-  * kmer-SVM is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
+  * Tool suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. 
 * *Comments:*
+  * Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
   * The kmer-SVN server is described in "[kmer-SVM: a web server for identifying predictive regulatory sequence features in genomic data sets](http://nar.oxfordjournals.org/content/41/W1/W544.long)." Christopher Fletez-Brant; Dongwon Lee; [Andrew S. McCallion](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html); [Michael A. Beer](http://www.beerlab.org/) *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 2013; doi: 10.1093/nar/gkt519<br />
   * A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a [Galaxy Tool Shed repository](http://toolshed.g2.bx.psu.edu/view/cafletezbrant/kmersvm) are also available.
 * *User Support:*
@@ -1566,10 +1571,10 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Link:*
   * [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai)
-  * Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 * *Domain/Purpose:*
   * Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data.
 * *Comments:*
+  * Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
   * ExomeAI is a free web-based application for detection of recurrent AI/LOH segments in Tumor samples.
 * *User Support:*
   * [Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip)
@@ -1586,6 +1591,8 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)
 * *Domain/Purpose:*
+  * Provides implementations of InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont
+* *Comments:*
   * Provides implementations of these tools:
     * InMoDe  is a collection of Tools for learning and visualizing inhomogeneous parsimonious Markov models (iPMMs).
     * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
@@ -1593,7 +1600,6 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
     * TALgetterLong allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria in large input data, but lacks some of the features of TALgetter (e.g., computation of empirical p-values).
     * TALENoffer is a tool for predicting off-targets of TAL effector nucleases (TALENs).
     * Dimont (beta) is a universal tool for de-novo motif discovery. Dimont has successfully been applied to ChIP-seq, ChIP-exo and protein-binding microarray (PBM) data.
-* *Comments:*
   * These applications were developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners.
 * *User Support:*
   * [Email](mailto:grau AT informatik DOT uni DASH halle DOT de)
@@ -1607,9 +1613,11 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Link(s):*
   * [MBAC Metabiome Portal](http://mbac.gmu.edu:8080/)
+  * [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11)
 * *Domain/Purpose:*
-  * We have developed the [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11), a flexible and customizable webserver, with the aim of simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).
+  * Simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).
 * *Comments:*
+  * We have developed the [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11), a flexible and customizable webserver, with the aim of simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).
   * The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. Users access the MBAC Metabiome Portal through a Galaxy based web browser to perform individual and group analysis and share their results. Programming support is also available to configure and run customized pipelines.
 * *User Support:*
   * [Email](mailto:pgilleve AT gmu DOT edu)
@@ -1647,8 +1655,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
 * *Domain/Purpose:*
-  * This server exposes the NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data.
+  * NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system.
 * *Comments:*
+  * [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data.
   * [CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the NacreousMap engine to obtain optimized (much smaller files that display faster) plots.
   * To install the complete MiModD package for use as a command line tool or for integration into any local Galaxy follow the [installation instructions](http://mimodd.readthedocs.org/en/latest/INSTALL.html) in the [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/).
 * *User Support:*
@@ -1667,11 +1676,12 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [MPI-HLR Bioinformatics Server](https://bioinformatics.mpi-bn.mpg.de/)
 * *Domain/Purpose:*
-  * Hosts these tools:
+  * Hosts the MIRPIPE, ADMIRE, and LimiTT tools
+* *Comments:*
+  * The tools are
     * MIRPIPE: Quantification of microRNA based on smallRNA sequencing reads
     * ADMIRE: Semi-automatic analysis pipeline and visualization tool for Illumina HumanMethylation450K BeadChip arrays.
     * LimiTT: Link your lists of miRNAs and miRNA effectors, like genes or proteins mapped onto UniProt Accessions, to validated miRNA target interactions (MTIs) coming from four databases specialized in experimentally verified MTIs.
-* *Comments:*
   * Supporting papers:
     * "[MIRPIPE – quantification of microRNAs in niche model organisms](http://bit.ly/1t4oQvo),"  C. Kuenne, J. Preussner, M. Herzog, T. Braun, M. Looso, *Bioinformatics* (26 August 2014), btu573, doi:10.1093/bioinformatics/btu573
     * "[ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](http://www.epigeneticsandchromatin.com/content/8/1/51)," Jens Preussner, Julia Bayer, Carsten Kuenne and Mario Looso, *Epigenetics & Chromatin* 2015, 8:51  doi:10.1186/s13072-015-0045-1
@@ -1691,8 +1701,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [NGS-QC Galaxy](http://galaxy.ngs-qc.org/)
 * *Domain/Purpose:*
-  * Evaluate the quality of your favorite ChIP-seq or enrichment-related NGS dataset using [NGS-QC Generator](http://www.ngs-qc.org/), which also includes a [database with preprocessed profiles](http://www.ngs-qc.org/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://www.ngs-qc.org/tutorial.php).
+  * Evaluate the quality of your favorite ChIP-seq or enrichment-related NGS dataset.
 * *Comments:*
+  * Evaluate the quality of ChIP-seq and enrichment-related NGS datasets using [NGS-QC Generator](http://www.ngs-qc.org/), which also includes a [database with preprocessed profiles](http://www.ngs-qc.org/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://www.ngs-qc.org/tutorial.php).
   * See
     * [NGS-QC Generator: A Quality Control System for ChIP-Seq and Related Deep Sequencing-Generated Datasets](http://link.springer.com/protocol/10.1007/978-1-4939-3578-9_13) by Mendoza-Parra *et al.* in Statistical Genomics, Volume 1418 of the series Methods in Molecular Biology pp 243-265
     * [A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829) by Mendoza-Parra *et al.*, in *Nucl. Acids Res.* (2013)
@@ -1726,13 +1737,13 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Links:*
   * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)
-  * "[Osiris: accessible and reproducible phylogenetic and phylogenomic analyses within the Galaxy workflow management system](http://www.biomedcentral.com/1471-2105/15/230/abstract)," by Oakley, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:230  doi:10.1186/1471-2105-15-230
-  * [Osiris Blog](http://osiris-phylogenetics.blogspot.com/)
   * [Osiris code in Bitbucket](https://bitbucket.org/osiris_phylogenetics)
 * *Domain/Purpose:*
   * Pylogenetics
 * *Comments:*
   * "This server aims to demonstrate Osiris, a set of phylogenetics tools for the Galaxy Bioinformatics platform. Because it is only a demo, some computationally intensive tools are disabled. Other tools will be slow because this is a public, shared resource."
+  * "[Osiris: accessible and reproducible phylogenetic and phylogenomic analyses within the Galaxy workflow management system](http://www.biomedcentral.com/1471-2105/15/230/abstract)," by Oakley, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:230  doi:10.1186/1471-2105-15-230
+  * [Osiris Blog](http://osiris-phylogenetics.blogspot.com/)
 * *User Support:*
   * [Osiris-Phylogenetics Google Group](https://groups.google.com/forum/?hl=en&fromgroups#!forum/osiris-phylogenetics)
   * [Screencasts](https://www.youtube.com/watch?v=mGMxwc20Yx4)
@@ -1765,12 +1776,12 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)
-  * "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract)," by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
   * [PIA code in Bitbucket](https://bitbucket.org/osiris_phylogenetics/pia/)
 * *Domain/Purpose:*
   * Phylogenetics and gene interaction
 * *Comments:*
   * "PIA (Phylogenetically Informed Annotation) is a set of tools for the Galaxy Bioinformatics Platform. In general, PIA uses BLAST, an alignment program, and RAxML's read placement algorithm to put unknown sequences into pre-calculated phylogenetic trees. We provide 102 genes called LIT (Light Interaction Toolkit) - vision genes like phototransduction genets - for use in PIA."
+  * "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract)," by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
 * *User Support:*
   * [PIA Manual](https://bytebucket.org/osiris_phylogenetics/pia/raw/05d213dcb31e4cda9ccc68201ee7f8854161b2c9/docs/PIAwebManual_090914.pdf)
   * [Getting Started with PIA](https://www.youtube.com/watch?v=m23KxhxhTAE) screencast.
@@ -1785,8 +1796,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [PredPharmTox](http://galaxy.predpharmtox.org/)
 * *Domain/Purpose:*
-  * "[PredPharmTox](http://galaxy.predpharmtox.org/) is an e-infrastructure for Large Scale Predictive Pharmacology and Toxicology, providing easy access to chemical and omics data in toxicology and pharmacology, together with methods and predictions available via user-friendly tools."
+  * Large Scale Predictive Pharmacology and Toxicology
 * *Comments:*
+  * "[PredPharmTox](http://galaxy.predpharmtox.org/) is an e-infrastructure for Large Scale Predictive Pharmacology and Toxicology, providing easy access to chemical and omics data in toxicology and pharmacology, together with methods and predictions available via user-friendly tools."
   * "The infrastructure will support open standards and be developed in close collaboration with European initiatives, and implemented as a Platform as a Service (PaaS) linking to the cloud resource of the Swedish National Infrastructure for Computing (SNIC). The infrastructure will enable Swedish researchers to perform world class science such as integrated pharmacology/toxicology approaches, chemical safety assessment, toxicogenomics and pharmacogenomics with mechanistic interpretations and discovery of chemically-initiated pathways, as well as including omics data in predictive toxicology and pharmacology modeling."
   * Implements
     * [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity,
@@ -1804,8 +1816,9 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Link:*
   * [PreSTIGE](http://prestige.case.edu/)
 * *Domain/Purpose:*
-  * "PreSTIGE (Predicting Specific Tissue Interactions of Genes and Enhancers) predicts cell-line specific gene-enhancer interactions for a user-provided cell line as well as 12 PreSTIGE cell lines."
+  * Predicting Specific Tissue Interactions of Genes and Enhancers
 * *Comments:*
+  * "PreSTIGE (Predicting Specific Tissue Interactions of Genes and Enhancers) predicts cell-line specific gene-enhancer interactions for a user-provided cell line as well as 12 PreSTIGE cell lines."
   * Users can generate predictions for any cell type of interest for which H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
@@ -1820,12 +1833,8 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 <div class='right solid'><a href='http://www.galaxy.qbrc.org/'><img src="/src/public-galaxy-servers/QBRCLogo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
-  * [QBRC Galaxy](http://www.galaxy.qbrc.org/) server
-    * "[A Model-Based Approach to Identify Binding Sites in CLIP-Seq Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093248)" by Wang, *et al.*, *[PLoS ONE](http://www.plosone.org/)* 9(4): e93248. doi:10.1371/journal.pone.0093248
-    * "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://onlinelibrary.wiley.com/doi/10.1002/sim.6066/abstract)" by Yang, *et al.*, *Statistics in Medicine*, doi: 10.1002/sim.6066
+  * [QBRC Galaxy](http://www.galaxy.qbrc.org/)
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)
-    * "[Design and bioinformatics analysis of genome-wide CLIP experiments](http://nar.oxfordjournals.org/content/early/2015/05/09/nar.gkv439.full)" by Wang, *et al.*, *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv439
-    * "[PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract)" by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
 * *Domain/Purpose:*
   * This pair of servers hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.<br />
   * Features:
@@ -1833,6 +1842,10 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
     * [DecoRNAI](http://galaxy.qbrc.org/static/DecoRNAi_Manual.pdf) (deconvolution analysis of RNAi screening data)
     * [MiClip](http://galaxy.qbrc.org/static/galaxy_manual.pdf) "a novel model-based approach to identify high-confidence protein-RNA binding sites in CLIP-Seq datasets"
     * [PIPE-CLIP](http://pipeclip.qbrc.org/static/OnlineManual.pdf)
+    * "[A Model-Based Approach to Identify Binding Sites in CLIP-Seq Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093248)" by Wang, *et al.*, *[PLoS ONE](http://www.plosone.org/)* 9(4): e93248. doi:10.1371/journal.pone.0093248
+    * "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://onlinelibrary.wiley.com/doi/10.1002/sim.6066/abstract)" by Yang, *et al.*, *Statistics in Medicine*, doi: 10.1002/sim.6066
+    * "[Design and bioinformatics analysis of genome-wide CLIP experiments](http://nar.oxfordjournals.org/content/early/2015/05/09/nar.gkv439.full)" by Wang, *et al.*, *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv439
+    * "[PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract)" by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
 * *Comments:*
   * The QBRC galaxy server tools are constantly being updated. Please contact authors for more details regarding use.
 * *User Support:*
@@ -1946,12 +1959,12 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Links:*
   * [Vinther Lab server](http://galaxy.bio.ku.dk/)
-  * [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://www.sciencedirect.com/science/article/pii/S0076687915000713) by Lukasz Jan Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, * Methods in Enzymology*, DOI: 10.1016/bs.mie.2015.01.014:
 * *Domain/Purpose:*
   * RNA structure-probing data analysis to "improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated."
 * *Comments:*
   * From [Kielpinski, et al.](http://www.sciencedirect.com/science/article/pii/S0076687915000713):
       a collection of tools, which allow raw sequencing reads to be converted to normalized probing values using different published strategies. In addition, we also provide tools for visualization of the probing data in the UCSC Genome Browser and for converting RNA coordinates to genomic coordinates and vice versa. The collection is implemented as functions in the R statistical environment and as tools in the Galaxy platform, making them easily accessible for the scientific community.
+  * [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://www.sciencedirect.com/science/article/pii/S0076687915000713) by Lukasz Jan Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, * Methods in Enzymology*, DOI: 10.1016/bs.mie.2015.01.014:
 * *User Support:*
 * *Quotas:*
   * Must have a login to use the server; anyone can create a login.
@@ -1986,7 +1999,6 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 
 * *Links:*
   * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/)
-  * [Deployment page](/src/community/deployment/zbit-bioinformatics-toolbox/index.md) in the [Galaxy Deployment Catalog](/src/community/deployments/index.md)
 * *Domain/Purpose:*
   * "This customized version of the Galaxy webservice framework was set up to allow the public access of our bioinformatics tools. These tools were developed and implemented by members of the [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/)."
 * *Comments:*
@@ -1998,6 +2010,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
     * [SBMLsqueezer](http://www.cogsys.cs.uni-tuebingen.de/software/SBMLsqueezer/): Generate kinetic rate equations for biochemical networks
     * [EDISA](http://www.cogsys.cs.uni-tuebingen.de/software/EDISA/welcome_e.html): Extracting biclusters from multiple time-series of gene expression profiles
     * [ModuleMaster](http://www.cogsys.cs.uni-tuebingen.de/software/ModuleMaster/welcome_e.html): Finding *cis*-regulatory modules using promoter analysis and microarray expression data regression.
+  * [Deployment page](/src/community/deployment/zbit-bioinformatics-toolbox/index.md) in the [Galaxy Deployment Catalog](/src/community/deployments/index.md)
 * *User Support:*
   * [Mailing List](https://listserv.uni-tuebingen.de/mailman/listinfo/galaxy)
 * *Quotas:*
