@@ -39,6 +39,9 @@ let set_metadata_defaults = function(files, metalsmith, done) {
             } else if (Array.from(v.collection).includes('news')) {
                 if (files[k].layout === undefined) { files[k].layout = 'news.pug'; }
                 if (files[k].autotoc === undefined) { files[k].autotoc = false; }
+            } else if (Array.from(v.collection).includes('servers')) {
+                if (files[k].layout === undefined) { files[k].layout = 'server.pug'; }
+                if (files[k].autotoc === undefined) { files[k].autotoc = false; }
             } else {
                 if (files[k].autotoc === undefined) { files[k].autotoc = true; }
             }
@@ -196,6 +199,11 @@ let ms = metalsmith(__dirname)
             pattern: "events/*/*.md",
             sortBy: "date",
             reverse: true
+        },
+        servers: {
+            pattern: "public-galaxy-servers/*/*.md",
+            sortBy: "title",
+            reverse: false
         },
         publications: {
             pattern: "publications/*/*.md",
