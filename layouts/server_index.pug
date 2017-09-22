@@ -5,7 +5,8 @@ mixin renderServerRow(item)
         td: a( href=item.link ) #{item.title}
         td
             each serverLink in item.server_links
-                a( href=serverLink.url ) #{serverLink.link_text}
+                a( href=serverLink.link_url ) #{serverLink.link_text}
+                br
         td: #{item.summary}
 
 block content
@@ -15,7 +16,8 @@ block content
             h1 !{title}
             div !{ contents }
 
-            h2 Public Galaxy Servers
+            h2(id="general") General Purpose / Genomics Galaxy Servers
+            p These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis. These are servers you can use when want to do general genomic analysis.
             table.table.table-striped
                 thead
                     tr
@@ -24,4 +26,33 @@ block content
                         th Summary
                 tbody
                     each item in servers_malleable
-                        +renderServerRow(item)
+                        if item.server_group == "general"
+                            +renderServerRow(item)
+
+            h2(id="domain") Domain Specific Galaxy Servers
+            p Domain servers specialize in either a particular branch of the tree of life or in particular types of analysis. However, within their specializations, domain servers offer a wide variety of tools.
+            table.table.table-striped
+                thead
+                    tr
+                        th Server
+                        th Links
+                        th Summary
+                tbody
+                    each item in servers_malleable
+                        if item.server_group == "domain"
+                            +renderServerRow(item)
+
+            h2(id="tool-publishing") Tool Publishing Galaxy Servers
+            p Tool publishing servers expose one or a few tools so that researchers can use the tools without having to install them locally or use command line.
+
+            p The distinction between domain servers and tool publishing servers is fuzzy. In general, tool publishing servers expose tools from a particular organization, while domain servers include tools / datasets from other organizations and have a larger goal in mind.
+            table.table.table-striped
+                thead
+                    tr
+                        th Server
+                        th Links
+                        th Summary
+                tbody
+                    each item in servers_malleable
+                        if item.server_group == "tool-publishing"
+                            +renderServerRow(item)

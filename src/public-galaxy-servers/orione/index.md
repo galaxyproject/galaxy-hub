@@ -5,8 +5,6 @@ server_group: "domain"
 server_links: 
   - link_url: "http://orione.crs4.it/"
     link_text: "Orione"
-  - link_url: "http://dx.doi.org/10.1093/bioinformatics/btu135"
-    link_text: "Orione, a web-based framework for NGS analysis in microbiology"
 summary: "A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines. "
 image: "/src/public-galaxy-servers/OrioneLogo.png"
 user_support: 
@@ -18,6 +16,7 @@ sponsors:
 
 * From the [GCC2013](/src/events/gcc2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/events/gcc2013/abstracts/posters/index.md#p7-engaging-galaxy-in-microbiology)"
 *   We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/public-galaxy-servers/index.md#nebula), [Cistrome](/src/public-galaxy-servers/index.md#cistrome) and several others.
+* "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," by Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia; *Bioinformatics* (10 March 2014)
 
 ## User Support
 
