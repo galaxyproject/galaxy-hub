@@ -18,17 +18,21 @@ block content
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                             td
                                 | #{item.authors}
-                                if item.source_blog_url || item.source_blog
-                                    p(style="margin-left: 1em")
-                                        i from 
-                                            if item.source_blog_url
-                                                a(href=item.source_blog_url)
-                                                    if item.source_blog
-                                                        | !{item.source_blog}
-                                                    else
-                                                        | This Blog
-                                            else
-                                                | !{item.source_blog}
+                                p(style="margin-left: 1em")
+                                    if item.external_url
+                                        if item.source_blog_url || item.source_blog
+                                            i from 
+                                                if item.source_blog_url
+                                                    a(href=item.source_blog_url)
+                                                        if item.source_blog
+                                                            | !{item.source_blog}
+                                                        else
+                                                            | This Blog
+                                                else if item.source_blog
+                                                    | !{item.source_blog}
+                                    else
+                                        i from the 
+                                            strong Galactic Blog
 
                             td
                                 if item.external_url
@@ -40,7 +44,7 @@ block content
                                         | ]
                                 else
                                     a.lead( href=item.link ) #{item.title}
-                                p
+                                p(style="margin-left: 1em")
                                     if item.tease
                                         | #{item.tease}
                                     else
