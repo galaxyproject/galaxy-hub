@@ -5,12 +5,14 @@ mixin renderServerRow(item)
         td: a( href=item.link ) #{item.title}
         td
             each serverLink in item.server_links
-                a( href=serverLink.link_url ) #{serverLink.link_text}
-                br
+                div( style="text-indent: -1em;")
+                    a( href=serverLink.link_url ) #{serverLink.link_text}
+                    br
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
-    - var servers_malleable = servers.slice()
+    - compareTitles = (a,b) -> a.title.toLowerCase().localCompare(b.title.toLowerCase())
+    - var servers_malleable = servers.slice().sort( compareTitles )
     div.col-md-12
         section.section-content
             h1 !{title}

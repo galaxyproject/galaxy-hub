@@ -7,7 +7,7 @@ mixin renderServer()
         else
             img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
     +renderPageTitle
-    p #{summary}
+    p !{helpers.marked(summary).replace("<p>","").replace("</p>","")}
 
     if server_group == "general"
         p This is a 
