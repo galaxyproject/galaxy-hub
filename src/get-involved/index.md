@@ -42,7 +42,7 @@ The [Galaxy Deployment Catalog](/src/community/deployments/index.md) includes in
 
 <div class='right'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
 
-If you have implemented a particular feature or have addressed a particular challenge with a certain Galaxy deployment, you can describe and/or link it on the [Galaxy Community Log Board](/src/community/logs/index.md).  Log board entries describe specific implementation and solutions for specific situations.  Got some experience that would be useful for others to know?  Please [share it](/src/community/logs/index.md).
+If you have implemented a particular feature or have addressed a particular challenge with a certain Galaxy deployment, you can describe and/or link it on the [Galaxy Blog](/src/blog/index.md).  Log board entries describe specific implementation and solutions for specific situations.  Got some experience that would be useful for others to know?  Please [share it](/src/blog/index.md).
 
 # Documentation
 
