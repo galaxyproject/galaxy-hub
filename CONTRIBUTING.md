@@ -5,7 +5,7 @@
 The site content resides in the GitHub repository that you are in right now.  Content is formatted using (mostly)
 [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/) and the web site itself is rendered using the  [metalsmith](http://www.metalsmith.io/) static site generator.
 
-Anyone can update and add content to the site using "standard" GitHub and Git practices, and contributions are strongly encouraged.  If are already adept at Markdown, Git, and GitHub, you may want to skip to the **Deploying the site locally** section.  If you are unfamiliar with *any* of those items, then start with the ...
+Anyone can update and add content to the site using "standard" GitHub and Git practices, and contributions are strongly encouraged.  If are already adept at Markdown, Git, and GitHub, you may want to skip to the **Deploying the site locally** section.  If you are unfamiliar with *any* of those items, then start with the [Basics]((#basics)
 
 **[Table of Contents](http://tableofcontent.eu)**
 
@@ -38,12 +38,12 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
       - [`title`](#title)
       - [`autotoc`](#autotoc)
   - [Section specific metadata](#section-specific-metadata)
-    - [News item metadata](#news-item-metadata)
+    - [News item metadata / Creating a News item](#news-item-metadata-creating-a-news-item)
       - [`title`](#title)
       - [`tease`](#tease)
       - [`date`](#date)
       - [News item example metadata](#news-item-example-metadata)
-    - [Event metadata](#event-metadata)
+    - [Event metadata / Adding an Event](#event-metadata-adding-an-event)
       - [`title`](#title)
       - [`external_url`](#external_url)
       - [`tease`](#tease)
@@ -56,6 +56,15 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
       - [`contact`](#contact)
       - [`gtn`](#gtn)
       - [Event example metadata](#event-example-metadata)
+    - [Blog metadata / Adding a Blog Entry](#blog-metadata-adding-a-blog-entry)
+      - [`title`](#title)
+      - [`tease`](#tease)
+      - [`date`](#date)
+      - [`authors`](#authors)
+      - [`external_url`](#external_url)
+      - [`source_blog`](#source_blog)
+      - [`source_blog_url`](#source_blog_url)
+      - [Blog post example metadata](#blog-post-example-metadata)
   - [Redirects](#redirects)
 - [Edit a local copy on your laptop](#edit-a-local-copy-on-your-laptop)
   - [Setup](#setup)
@@ -330,7 +339,7 @@ These tags can be used on any page.
 
 Many sections of the web site use custom metadata tags that enable advanced handling of pages in those sections.  Usually, these custom metadata tag sets are used to generate section indexes at the root of those sections.  For example, the in News and Events directory hierarchies every news item and event item starts with custom metadata tags for news and events respectively. These are then used to generate the news item and events lists on the web site.
 
-### News item metadata
+### News item metadata / Creating a News item
 
 News items root:
 
@@ -388,7 +397,7 @@ date: '2017-09-06'
 ---
 ```
 
-### Event metadata
+### Event metadata / Adding an Event
 
 Events root:
 
@@ -558,6 +567,120 @@ contact: 'training@qfab.org'
 gtn: y
 ---
 ```
+
+
+### Blog metadata / Adding a Blog Entry
+
+The Galactic Blog includes anything that is related to Galaxy and is longer than a news item.
+
+Blog root:
+
+- GitHub source: [/src/blog/index.md](/src/blog/index.md)
+- Rendered on web site: [galaxyproject.org/blog/](https://galaxyproject.org/blog/)
+
+There are two types of blog entries:
+
+* *External:* These blog entries were created outside the Hub, on some other platform.  Typically, hub pages for external blog posts contain only enough information to populate the [blog index page](https://galaxyproject.org/blog/) and link to the blog post.  Everything is in the metadata.
+* *Native:* The content of these blog posts exists in the Hub.  That is, the blog posts were first created in the Galaxy Community Hub.  These posts have metadata, but also content below the metadata.  The index points to the post's hub page.
+
+To add a blog post, you'll need to create a directory for the post under `/src/blog/` and then create an `index.md` file in the new directory.
+
+:chicken: New directories (and thus blog post URLs) are named with this convention:
+
+`YYYY-MM-topic-in-one-or-more-words`
+
+Blog posts have this metadata:
+
+#### `title`
+
+- Required
+- Meaning
+  - Title of the blog post
+- Use
+  - Becomes the blog page title
+  - Shown in the blog post list as the name of the entry. 
+- Format
+  - Free text all on one line, and should be wrapped in quotes
+
+#### `tease`
+
+- Optional
+- Meaning
+  - Short bit of additional text about the blog post.
+  - Meant to complement `title`
+- Use
+  - display with the event title, when space allows.
+- Format
+  - Free text all on one line, and should be wrapped in quotes.
+
+#### `date`
+
+- Required
+- Meaning
+  - Date the blog post was posted
+- Use
+  - Determines where in blog index the item shows up.
+- Format
+  - `'YYYY-MM-DD'` - Needs to be wrapped in quotes.
+
+#### `authors`
+
+- Required
+- Meaning
+  - Who wrote the blog post
+- Use
+  - Displayed in blog index and on blog post.
+- Format
+  - Free text all on one line, and should be wrapped in quotes.
+
+#### `external_url`
+
+- Optional
+  - If present, the `title` text in the index will link to the `external_url`
+- Meaning
+  - If a post has an `external_url` it means the post was created outside the Hub.
+- Use
+  - If present then title in the index links to this location.
+- Format
+  - URL
+    - Should be an external URL.
+
+#### `source_blog` 
+
+- Optional
+  - Only present if the post is external
+- Meaning
+  - The name of the blog / place where it was posted.
+- Use
+  - Displayed in blog index and in blog entry.
+- Format
+  - Free text all on one line, and should be wrapped in quotes.
+
+#### `source_blog_url` 
+
+- Optional
+  - Only present if the post is external
+- Meaning
+  - The URL of the blog / place where it was posted
+- Use
+  - Whenever `source_blog` is shown, it links to here.
+- Format
+  - An external URL.
+
+#### Blog post example metadata
+
+```
+---
+date: '2017-07-25'
+title: "Elixir, CLIMB, Sanger and the Galaxy Community Conference"
+tease: "UK, UK, UK, and France"
+authors: "Simon Gladman"
+external_url: "https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/"
+source_blog_url: "https://www.melbournebioinformatics.org.au/projects-blog/"
+source_blog: "Melbourne Bioinformatics Projects Blog"
+---
+```
+
 
 ## Redirects
 
