@@ -1,4 +1,4 @@
-# Chromosome Identifier Mismatch Problems in Tool Inputs
+# Chromosome Identifiers in Reference Genomes (and other -omes)
 
 **[Back to Support Hub](/src/support/index.md)**
 **[Troubleshooting Help](/src/support/#troubleshooting)**
@@ -109,4 +109,14 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. [Custom Reference Genome help](/src/learn/custom-genomes/index.md)
 1. Be aware that if the genome is large, this option may result in a memory failure. Try *Method 2* or consider moving to a local or cloud Galaxy where you can control the resources
 
+## A Note on Built-in Reference Genomes
+
+The default variant for all genomes is "Full", defined as all primary chromosomes (or scaffolds/contigs) including mitochondrial plus associated unmapped, plasmid, and other segments. 
+
+When only one version of a genome is available for a tool, it represents the default "Full" variant. 
+
+Some genomes will have more than one variant available. 
+
+ - The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM. 
+ - The "Canonical Female" variant contains the primary chromosomes excluding chrY.
 
