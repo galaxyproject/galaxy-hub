@@ -263,6 +263,47 @@ When serving Galaxy with a prefix, as described in the serving Galaxy in a sub-d
 set $dst /galaxy/api/tools;
 ```
 
+### Protect Galaxy Reports
+
+Galaxy can run a separate reports app which gives useful information about your Galaxy instance.
+To setup this reports app, have a look here https://docs.galaxyproject.org/en/master/admin/reports.html and here http://galacticengineer.blogspot.de/2015/06/exposing-galaxy-reports-via-nginx-in.html
+
+After succesfully following the blogpost you will have your galaxy reports available at e.g. http://yourgalaxy/reports
+To secure this page to only galaxy administrators, adjust your nginx config with the following snippets:
+
+```nginx
+# Add these snippets to your galaxy nginx configuration to make the reports
+# daemon running on the default port 9001 available under the same address
+# as your galaxy instance. In addition, the reports app will only be available
+# to admins logged in to the galaxy instance.
+
+upstream reports {
+    server localhost:9001;
+}
+
+server {          # This you should already have.
+    listen   80;
+    (..)          # The rest of your nginx configuration for galaxy
+
+    location /reports {             # the section to make reports available
+        proxy_pass  http://reports; # on the same host as your galaxy at e.g. http://galaxy/reports 
+        proxy_set_header   X-Forwarded-Host $host;
+        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+        satisfy any;                # Restrict access
+        deny all;
+        auth_request /auth;
+    }
+    location /auth {
+        # The used galaxy api endpoint is only available to galaxy admins and thus limits the access
+        # to only logged in admins.
+        proxy_pass http://localhost/api/configuration/dynamic_tool_confs;
+        proxy_pass_request_body off;
+        proxy_set_header Content-Length "";
+        proxy_set_header X-Original-URI $request_uri;
+    }
+    (..)
+}
+```
 
 ### External User Authentication
 
