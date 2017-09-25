@@ -7,7 +7,7 @@ mixin renderServerRow(item)
             each serverLink in item.server_links
                 a( href=serverLink.link_url ) #{serverLink.link_text}
                 br
-        td #{item.summary}
+        td #{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
     - var servers_malleable = servers.slice()
