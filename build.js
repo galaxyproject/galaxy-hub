@@ -39,6 +39,9 @@ let set_metadata_defaults = function(files, metalsmith, done) {
             } else if (Array.from(v.collection).includes('news')) {
                 if (files[k].layout === undefined) { files[k].layout = 'news.pug'; }
                 if (files[k].autotoc === undefined) { files[k].autotoc = false; }
+            } else if (Array.from(v.collection).includes('blog')) {
+                if (files[k].layout === undefined) { files[k].layout = 'blog.pug'; }
+                if (files[k].autotoc === undefined) { files[k].autotoc = true; }
             } else if (Array.from(v.collection).includes('servers')) {
                 if (files[k].layout === undefined) { files[k].layout = 'server.pug'; }
                 if (files[k].autotoc === undefined) { files[k].autotoc = false; }
@@ -200,11 +203,16 @@ let ms = metalsmith(__dirname)
             sortBy: "date",
             reverse: true
         },
+        blog: {
+            pattern: "blog/*/*.md",
+            sortBy: "date",
+            reverse: true
+        },
         servers: {
             pattern: "public-galaxy-servers/*/*.md",
             sortBy: "title.toLowerCase()",
             reverse: false
-        },
+        }
         publications: {
             pattern: "publications/*/*.md",
             sortBy: "date",
