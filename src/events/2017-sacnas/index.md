@@ -63,12 +63,13 @@ Bring your laptop for a series of hands-on exercises.
 
 | Time | Topic |
 |:----:| ----- |
-| 8:30a -   9:00a	| Software check |
-| 9:00a - 10:15a | Navigating the shell; file creation & manipulation; basic loops. |
+| 9:00a -   9:30a	| Software check |
+| 9:30a - 10:15a | Navigating the shell; file creation & manipulation; basic loops. |
 | 10:15a - 10:30a | Break |
-| 10:30a - 11:45a | Editing text files and simple bash scripts |
-| 11:45a - 12:00p | Break |
-| 12:00p - 12:30p | Overview of more capabilities in the Command Line User Interface | 
+| 10:30a - 11:15a | Editing text files and simple bash scripts |
+| 11:15a - 11:30a | Break |
+| 11:30p - 12:30p | Overview of more capabilities in the Command Line User Interface |
+| 12:30p - 1:30p | Lunch on your own |
 
 ## Session 2 : Python
 
@@ -78,8 +79,8 @@ Bring your laptop for a series of hands-on exercises.
 | 2:45p -   3:00p | Break |
 | 3:00p -   4:15p | Loading, manipulating, and visualizing sample data |
 | 4:15p -   4:30p | Break |
-| 4:30p -   5:00p | Overview of more capabilities with Python libraries and porting code from the notebook to scripts |
-
+| 4:30p -   5:15p | Overview of more capabilities with Python libraries and porting code from the notebook to scripts |
+| 5:15p - 6:00p | Final thoughts and evaluations |
 
 # Workshop 2: Data Platforms for Life Science Researchers
 
@@ -110,6 +111,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 11:15a - 11:30p | Break |
 | 11:30a - 12:00p | Cloud Computing with Atmosphere |
 | 12:00p - 12:30p | Discuss your data! |
+| 12:30p - 1:30p | Lunch on your own |
 
 # Session 2 : Galaxy
 
