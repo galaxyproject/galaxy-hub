@@ -7,7 +7,7 @@ server_links:
     link_text: "Galaxy@PRABI"
   - link_url: "http://toolshed.prabi.fr/"
     link_text: "PRABI Galaxy Tool Shed"
-summary: "A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr). [SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172), Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, and Gabriel AB Marais, *Genome Biology and Evolution* (2016), doi: 10.1093/gbe/evw172 "
+summary: "Includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam*."
 image: "/src/images/logos/PRABILogo.png"
 user_support: 
 quotas: 
@@ -16,6 +16,7 @@ sponsors:
 
 ## Comments
 
+* "A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr). [SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172), Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, and Gabriel AB Marais, *Genome Biology and Evolution* (2016), doi: 10.1093/gbe/evw172 "
 * Dedicated server:  PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space.
 
 ## User Support
