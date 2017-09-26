@@ -6,7 +6,7 @@ title: Galaxy on Windows
 
 <div class="well well-sm">
 
-**Note:** *It is again possible to run Galaxy on Windows.  You'll need the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10.  With this shell, you can install and run a Galaxy server on the localhost by using all the command on the Linux/Mac OS tutorial. Watch this space for more information as we explore this option further.  Many thanks to Arnaud Belcour from [IRISA](https://irisa.fr/) for pointing this out.*
+**Note:** *It is again possible to run Galaxy on Windows.  You'll need the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10.  With this shell, you can install and run a Galaxy server on the localhost by using all the command on the Linux/Mac OS tutorial. Watch this space for more information as we explore this option further.  Many thanks to [Arnaud Belcour](https://github.com/ArnaudBelcour) for pointing this out.*
 
 </div>
 
