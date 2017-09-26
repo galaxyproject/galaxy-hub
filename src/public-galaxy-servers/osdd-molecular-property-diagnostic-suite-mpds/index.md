@@ -5,8 +5,7 @@ server_group: "domain"
 server_links: 
   - link_url: "http://mpds.osdd.net/"
     link_text: "Molecular Property Diagnostic Suite (MPDS)"
-summary: "The mission of the OSDD-Chemoinformatics is to promote and co-ordinate world-class research (and training) in Chemoinformatics within India and to provide state-of-the-art Chemoinformatics support to Indian researchers working on myriad aspects of Chemoinformatics. Present portal introduces readers to MPDS (Molecular Property Diagnostic Suite), a software toolset that rationally diagnoses (druggable) molecules. "
-image: "/src/public-galaxy-servers/OSDD_MPDS.png"
+summary: "A software toolset to rationally diagnose druggable molecules."
 user_support: 
 quotas: 
 sponsors: 
@@ -14,6 +13,7 @@ sponsors:
 
 ## Comments
 
+* "The mission of the OSDD-Chemoinformatics is to promote and co-ordinate world-class research (and training) in Chemoinformatics within India and to provide state-of-the-art Chemoinformatics support to Indian researchers working on myriad aspects of Chemoinformatics. Present portal introduces readers to MPDS (Molecular Property Diagnostic Suite), a software toolset that rationally diagnoses (druggable) molecules. "
 * "MPDS 1.0 consists of six modules. It covers informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking)."
 
 ## User Support
