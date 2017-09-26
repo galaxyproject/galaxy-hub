@@ -210,7 +210,7 @@ let ms = metalsmith(__dirname)
         },
         servers: {
             pattern: "public-galaxy-servers/*/*.md",
-            sortBy: "title.toLowerCase()",
+            sortBy: "title",
             reverse: false
         },
         publications: {
