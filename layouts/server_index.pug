@@ -11,8 +11,7 @@ mixin renderServerRow(item)
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
-    - compareTitles = (a,b) -> a.title.toLowerCase().localCompare(b.title.toLowerCase())
-    - var servers_malleable = servers.slice().sort( compareTitles )
+    - var servers_malleable = servers.slice().sort( function(a,b){a.title.localeCompare(b.title.toLowerCase())} )
     div.col-md-12
         section.section-content
             h1 !{title}
