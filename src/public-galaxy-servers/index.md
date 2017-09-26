@@ -19,4 +19,3 @@ There are also a number of [Galaxy services](/src/galaxy-services/index.md) that
 [**Public ToolSheds**](/src/toolshed/public-toolsheds/index.md)
 
 In addition to the the [main Galaxy](http://toolshed.g2.bx.psu.edu/) and [Test](http://testtoolshed.g2.bx.psu.edu/) ToolSheds, several groups have made their [tools available through publicly accessibly ToolSheds](/src/toolsheds/public-toolsheds/index.md).
-
