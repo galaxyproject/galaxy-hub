@@ -2,10 +2,12 @@ extends layout.pug
 
 mixin renderServerRow(item)
     tr
-        td: a( href=item.link ) #{item.title}
+        td
+            div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                a( href=item.link ) #{item.title}
         td
             each serverLink in item.server_links
-                div( style="text-indent: -1em;")
+                div( style="padding-left: 0.5em; text-indent: -0.5em;")
                     a( href=serverLink.link_url ) #{serverLink.link_text}
                     br
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
