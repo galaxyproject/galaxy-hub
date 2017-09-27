@@ -4,6 +4,13 @@ title: Galaxy on Windows
 
 # Running Galaxy on Windows
 
+<div class="well well-sm">
+
+**Note:** *It is again possible to run Galaxy on Windows.  You'll need the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10.  With this shell, you can install and run a Galaxy server on the localhost by using all the command on the Linux/Mac OS tutorial. Watch this space for more information as we explore this option further.  Many thanks to [Arnaud Belcour](https://github.com/ArnaudBelcour) for pointing this out.*
+
+</div>
+
+
 Running Galaxy under Windows was possible at one point, with a bit of effort. After recent changes to dependency management (using Python Wheels instead of Eggs) we have no tutorial or proof of concept how to do it. If you really need to run Galaxy on Windows platform please consider running a Virtual Machine with a Linux on it and then follow tutorial at [http://getgalaxy.org](http://getgalaxy.org)
 
 If you want to develop Galaxy tools please consider using the following image with preinstalled Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova)

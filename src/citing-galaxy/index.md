@@ -67,11 +67,9 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 
 
- **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv*, (2016) doi:10.1101/075457
-
-
 ### 2017
 
+1. Gil Alterovitz, Dennis A Dean II, Carole Goble, Michael R Crusoe, Stian Soiland-Reyes, Amanda Bell, Anais Hayes, Charles Hadley S King IV, Elaine Johanson, Elaine E Thompson, Eric Donaldson, Hsinyi S Tsang, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Jonas S Almeida, Lydia Guo, Mark Walderhaug, Paul Walsh, Robel Kahsay, Toby Bloom, Yuching Lai, Vahan Simonyan, Raja Mazumder. **[Enabling Precision Medicine via standard communication of NGS provenance, analysis, and results](https://www.biorxiv.org/content/early/2017/09/22/191783)**, *bioRxiv* 191783; doi: 10.1101/191783 
 1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
 ### 2016

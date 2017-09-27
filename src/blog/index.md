@@ -8,7 +8,7 @@ The Galactic Blog complements the [Galxy News feed](/src/news/index.md).
 
  **Add your voice!**
 
-See the hub [CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/tree/master/CONTRIBUTING.md) in general, and the [blog section]((https://github.com/galaxyproject/galaxy-hub/tree/master/CONTRIBUTING.md#blog-metadata-adding-a-blog-entry) in particular for directions on how to add a blog entry.
+See the hub [CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/tree/master/CONTRIBUTING.md) in general, and the [blog section](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata--adding-a-blog-entry) in particular for directions on how to add a blog entry.
 
 # Here's what people are saying
 

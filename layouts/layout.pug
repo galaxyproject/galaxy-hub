@@ -17,6 +17,19 @@ mixin renderPageTease()
     if tease
         p: em #{tease}
 
+-
+    function deGitUrl(url) {
+        if (url.startsWith("/")) {
+            if (url.startsWith("/src/")) {
+                url = url.substring(4);
+            }
+            if (url.includes("/index.md")) {
+                url = url.substring(0,url.indexOf("/index.md")) + url.substring(url.indexOf("/index.md")+9);
+            }
+        }
+        return url;
+    }
+
 head( lang="en" )
     block title
         title=title
