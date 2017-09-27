@@ -14,7 +14,7 @@ sponsors:
 
 ## Comments
 
-* Includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114; and Gazzara, *et al..* "[In silico to in vivo splicing analysis using splicing code models](http://dx.doi.org/10.1016/j.ymeth.2013.11.006)," *Methods* (2013)
+* Includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)"
 
 ## User Support
 
@@ -23,6 +23,12 @@ sponsors:
 ## Quotas
 
 * Requires account creation with an educational email address.
+
+## Citation(s)
+
+* [AVISPA: a web tool for the prediction and analysis of alternative splicing](https://doi.org/10.1186/gb-2013-14-10-r114), Yoseph Barash, Jorge Vaquero-Garcia, Juan González-Vallinas, Hui Yuan Xiong, Weijun Gao, Leo J Lee and Brendan J Frey. *Genome Biology* 201314:R114 
+* [In silico to in vivo splicing analysis using splicing code models](http://dx.doi.org/10.1016/j.ymeth.2013.11.006), Matthew R. Gazzara, Jorge Vaquero-Garcia, Kristen W. Lynch, Yoseph Barash. *Methods* Volume 67, Issue 1, 1 May 2014, Pages 3-12
+* [BioCiphers tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBioCiphers) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 
