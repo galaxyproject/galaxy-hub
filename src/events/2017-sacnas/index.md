@@ -9,7 +9,7 @@ location_url: http://www.2017sacnas.org/
 external_url: 
 image: /images/logos/sacnas-no-text.jpg
 gtn: y
-contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
+contact: Camille Avestruz, Amanda Cooksey, Tracy Teal, Joslynn Lee, Dave Clements
 ---
 
 ## Do you have data and don’t know where to start with analysis?
@@ -97,6 +97,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 **Instructors**
 
+- [Amanda Cooksey](http://www.cyverse.org/amanda-cooksey), CyVerse and the University of Arizona
 - [Joslynn Lee](https://www.hhmi.org/developing-scientists/meet-our-team), Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
 - [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
 
