@@ -21,7 +21,7 @@ sponsors:
 ## User Support
 
 * [FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/)
-* Email: [Cory Maughmer](mailto:	cory.maughmer@tamu.edu)
+* Email: [Cory Maughmer](mailto:cory.maughmer@tamu.edu)
 
 ## Quotas
 
