@@ -7,7 +7,7 @@ server_links:
     link_text: "Galaxy Server"
   - link_url: "http://gitlab.com/wurssb/codonharmonizer"
     link_text: "GitHub repo" 
-summary: "Easily generate codon harmonzied variants"
+summary: "Easily generate codon harmonized variants of gene sequences for heterologous expression'"
 image: "/src/images/logos/WageningenUniversity.jpg"
 user_support: 
 quotas: 
@@ -27,7 +27,8 @@ Claassens](mailto:nicoclaassens AT gmail.com)
 
 ## Quotas
 
-* Can be used without creating an account.
+* Can only be used without creating an account.
+* Does not support account creation.
 * "There is a possibility that at some point this server will move to somewhere else and likely all (generated) data will be removed."
 
 ## Citation(s)
