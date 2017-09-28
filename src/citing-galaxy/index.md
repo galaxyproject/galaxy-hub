@@ -234,6 +234,6 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
 
 See the [Citations section](/src/galaxy-project/statistics/index.md#publications--citations) of the [project statistics page](/src/galaxy-project/statistics/index.md) for a summary of citations of project papers.
 
-## CiteULike
+## Galaxy Publication Library
 
-The Galaxy Project uses the [CiteULike](/src/cite-u-like/index.md) social bookmarking service to track all of the above papers, plus any paper that references Galaxy.  See the [CiteULike](/src/cite-u-like/index.md) page for more information.
+The [Galaxy Group](https://www.zotero.org/groups/galaxy) on [Zotero](https://zotero.org/) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  The library contains thousands of publications all classified with ~19 Galaxy specific tags.  See the [Galaxy Publication Library page](/src/publication-library/index.md) for more.
