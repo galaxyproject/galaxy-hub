@@ -34,7 +34,7 @@ Galaxy specific tags all start with "+":
 | &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy instance](/src/public-galaxy-servers/index.md) or a [Galaxy service](/src/galaxy-services/index.md) in its methods. |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |
 | [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | Referneces a [publicly accessible Galaxy instance](/src/public-galaxy-servers/index.md) or a [Galaxy service](/src/galaxy-services/index.md).  This is distinct from the *+UsePublic* tag. |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/public-galaxy-servers/index.md) or a [Galaxy service](/src/galaxy-services/index.md).  This is distinct from the *+UsePublic* tag. |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
