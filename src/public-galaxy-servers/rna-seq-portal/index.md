@@ -1,12 +1,12 @@
 ---
 title: "RNA-Seq Portal"
-url: "http://weizhongli-lab.org/RNA-seq/"
+url: "http://weizhong-lab.ucsd.edu:8080/"
 server_group: "domain"
 server_links: 
+  - link_url: "http://weizhong-lab.ucsd.edu:8080//"
+    link_text: "Galaxy server"
   - link_url: "http://weizhongli-lab.org/RNA-seq/"
     link_text: "RNA-Seq Portal"
-  - link_url: "http://weizhongli-lab.org:8088/"
-    link_text: "Galaxy server"
 summary: "Analyzing RNA-seq Data for Agricultural Animal Species. "
 image: "/src/public-galaxy-servers/RNA-SeqPortal.png"
 user_support: 
@@ -16,7 +16,7 @@ sponsors:
 
 ## Comments
 
-* From the [portal landing page](http://weizhongli-lab.org/RNA-seq/):
+* From the portal landing page:
 *   The goal of this project is to develop a web portal with integrated tools for RNA-seq based gene expression analysis for agricultural animals.
   * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
   * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
@@ -25,8 +25,8 @@ sponsors:
 
 ## User Support
 
-* [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
-* [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
+* [Example usage](http://weizhong-lab.ucsd.edu:8080/) (see center panel)
+* [Web support](http://weizhong-lab.ucsd.edu/RNA-seq/contact/)
 
 ## Quotas
 
