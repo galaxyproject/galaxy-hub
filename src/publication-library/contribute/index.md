@@ -1,5 +1,5 @@
 ---
-title: "Contibute to the Galaxy Publication Library"
+title: "Contribute to the Galaxy Publication Library"
 ---
 
 <div class="pull-right">
@@ -29,7 +29,7 @@ To help out you'll need to:
 
 ## Get a Zotero account 
 
-If you don't already have a Zotero account, you'll need to [set one up](https://www.zotero.org/user/register/). You'll need to confirm your account through your email.  You can use the free acount: you won't need any storage for this work as we don't store PDFs in the Galaxy Group.
+If you don't already have a Zotero account, you'll need to [set one up](https://www.zotero.org/user/register/). You'll need to confirm your account through your email.  You can use the free account: you won't need any storage for this work as we don't store PDFs in the Galaxy Group.
 
 ## Install the Zotero client on your computer
 
@@ -62,7 +62,7 @@ Before adding a publication, open Zotero on your computer and select the Galaxy 
 
 When you click on the Zotero connector in your web browser, the connector sends the publication to to whichever folder or library you currently have selected.
 
-It is possible to add papers to another library first, and then add a copy to the Galaxy Group.  It's just not as conenient.
+It is possible to add papers to another library first, and then add a copy to the Galaxy Group.  It's just not as convenient.
 
 ## Add at least one Galaxy Specific ("+") tag to every paper
 
@@ -70,7 +70,7 @@ If more than one tag is relevant, then please add those too.
 
 ### Refrain from creating new Galaxy Specific tags
 
-The current set of Galaxy specific tags (those that start with "+") have been in place for several years.  However, we do occassionally need new ones.  If you notice a need for a new tag, please contact outreach@galaxyproject.org to discuss your ideas.
+The current set of Galaxy specific tags (those that start with "+") have been in place for several years.  However, we do occasionally need new ones.  If you notice a need for a new tag, please contact outreach@galaxyproject.org to discuss your ideas.
 
 ## Add Public Server tags (">") if relevant
 
