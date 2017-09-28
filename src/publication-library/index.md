@@ -6,7 +6,7 @@ title: "Galaxy Publication Library"
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
 </div>
 
-The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  You can search the library at Zotero, or through the [unified Galaxy search](/src/search/index.md).
+The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/src/search/index.md).
 
 *(Need to cite Galaxy in a publication? See [Citing Galaxy](/src/citing-galaxy/index.md).)*
 
@@ -44,7 +44,7 @@ Galaxy specific tags all start with "+":
 
 ### Public server and services tags (">")
 
-Publications that mention or use a [public Galaxy server](/sr/cpublic-galaxy-servers/index.md) or [service](/src/galaxy-services/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Publications that mention or use a [public Galaxy server](/src/public-galaxy-servers/index.md) or [service](/src/galaxy-services/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 *Note: We only started using ">" tags after the move to Zotero in September 2017.  Publications before that might have these tags, but most won't.*
 
