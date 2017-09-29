@@ -1,6 +1,7 @@
 // Build with Metalsmith
 let metalsmith = require('metalsmith');
 let minimatch = require('minimatch');
+let headingsidentifier = require("metalsmith-headings-identifier");
 
 // Plugin for Bower support
 let bower = function(files, metalsmith, done) {
@@ -253,6 +254,7 @@ let ms = metalsmith(__dirname)
             _: require('lodash')
         }
     })).use(timer('metalsmith-layouts'))
+    .use(headingsidentifier())
     .use(require('metalsmith-less')())
     .use(timer('metalsmith-less'))
     .use(bower)
