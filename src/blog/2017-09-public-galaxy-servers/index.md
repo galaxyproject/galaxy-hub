@@ -21,8 +21,17 @@ datasets, how many have quotas enabled.
 
 ## Dashboards
 
-All of this data is collected together into some nice dashboards on the Freiburg Galaxy's [public Grafana instance](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers?orgId=1)
+All of this data is collected together into some nice dashboards on the Freiburg Galaxy's 
+[public Grafana instance](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers?orgId=1)
 You'll find the answers to these questions and more in our tables and graphs
+
+Now that we've started collecting this data we will be able to answer questions
+which have long plagued the development team such as:
+
+- How often do people upgrade?
+- How soon after a release do they upgrade? Do they upgrade immediately or do they wait?
+- Which releases are people running? Recent ones? Or ones that are no longer supported?
+- Which features do admins enable? Which do the community find important?
 
 ## Uptime
 
