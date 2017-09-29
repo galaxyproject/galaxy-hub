@@ -20,6 +20,7 @@
     "metalsmith-broken-link-checker": "^0.1.10",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-filepath": "^1.0.1",
+    "metalsmith-headings-identifier": "0.0.11",
     "metalsmith-in-place": "^1.0.1",
     "metalsmith-layouts": "^1.6.5",
     "metalsmith-less": "^2.0.0",
