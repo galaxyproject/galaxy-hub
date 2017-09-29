@@ -221,7 +221,7 @@ The [ImmPort Project](http://www.immport.org/) just released a new version of [I
 
 The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e/1FAIpQLSdcofOBF8hCzLB9_NARls_zXSCwe04qPDj0Dp9uC4RysBlaZA/viewform) on how people use the [ImmPort Galaxy server](http://immportgalaxy.org/).  If you are a user then [please let them know](https://docs.google.com/forms/d/e/1FAIpQLSdcofOBF8hCzLB9_NARls_zXSCwe04qPDj0Dp9uC4RysBlaZA/viewform). (And if you aren't a user and you do flow cytomety then give [ImmPort Galaxy a look](http://immportgalaxy.org/).)
 
-## New Public Servers
+## Conferences
 
 ### Codon Harmonizer
 
@@ -230,7 +230,7 @@ The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e
 
 [Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/public-galaxy-servers/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
 
-From [Classens et al.](https://doi.org/10.1371/journal.pone.0184355):
+From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 > "...different codon usage variants significantly improved production of some of the tested proteins. However, not a single algorithm performed consistently best for the membrane-integrated production of the 6 tested proteins. In conclusion, for improving heterologous membrane protein production in E. coli, the major effect is accomplished by transcriptional tuning. In addition, further improvements may be realized by attempting different codon usage variants, such as codon harmonized variants, which can now be easily generated through our online Codon Harmonizer tool."
 
 A [manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf) and email support ([Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico
