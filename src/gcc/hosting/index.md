@@ -59,7 +59,7 @@ Ideally, the event will be within 2 hours of a major airport, and lodging and ev
 
 We meet in North America in even years, and in *not-in-North-America* in odd years.  (So far *not-in-North-America* has always meant Europe, but we are open to other continents.)  We'd like to keep that pattern going.
 
-[<img class="pull-right" src="/src/events/gcc2011Logo400.png" alt="GCC2011" width="200" />](/src/GCC2011/index.md) 
+[<img class="pull-right" src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="200" />](/src/GCC2011/index.md) 
 
 ## Ideas for improvement
 

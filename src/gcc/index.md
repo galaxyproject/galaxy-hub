@@ -10,7 +10,7 @@ title: Galaxy Community Conferences (GCCs)
 [<img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" />](/src/events/gcc2014/index.md) &nbsp;&nbsp;
 [<img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" />](/src/events/gcc2013/index.md) &nbsp;&nbsp;
 [<img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" />](/src/events/gcc2012/index.md) &nbsp;&nbsp;
-[<img src="/src/events/gcc2011Logo400.png" alt="GCC2011" width="175" />](/src/GCC2011/index.md) &nbsp;&nbsp;
+[<img src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="175" />](/src/GCC2011/index.md) &nbsp;&nbsp;
 </div>
 
 ----
