@@ -178,6 +178,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 The Galaxy is expanding! Please help it grow.
 
+* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Metabarcoding, analyses écologiques et statistiques de paleocommunautés de protistes de l’écosystème côtier](https://www.sfbi.fr/content/metabarcoding-analyses-%C3%A9cologiques-et-statistiques-de-paleocommunaut%C3%A9s-de-protistes-de-l%E2%80%99%C3%A9co), IFREMER DYNECO/Pelagos, Brest, France
@@ -272,12 +273,9 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 Galaxy's [sequence utilities](https://github.com/galaxyproject/sequence_utils) are a set of Python modules for reading, analyzing, and converting sequence formats.  See the [release notes](https://github.com/galaxyproject/sequence_utils/blob/master/HISTORY.rst) for what's new this month.
 
-
-
-
 ## Earlier Releases
 
-## nebulizer 0.4.2
+$## nebulizer 0.4.2
 
 [Command-line utilities](https://pypi.python.org/pypi/nebulizer/) to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the BioBlend library.
 
@@ -286,7 +284,7 @@ Galaxy's [sequence utilities](https://github.com/galaxyproject/sequence_utils) a
 
 *CAVEAT nebulizer is still a work in progress; please exercise caution when attempting irreversible operations especially against production Galaxy instances (for example when creating users or data libraries).*
 
-## CloudBridge 0.3.3
+### CloudBridge 0.3.3
 
 [CloudBridge](https://github.com/gvlproject/cloudbridge) aims to provide a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud. It is currently under development and is in an Alpha state.  
 
@@ -337,3 +335,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From [Stephen Ficklin](https://www.drupal.org/u/spficklin)
   * [Tripal Galaxy](https://www.drupal.org/project/tripal_galaxy) in Drupal
+* Video: [MSI Tutorial: NGS Galaxy QC (QC of Illumina Data using Galaxy)](https://youtu.be/I6zmPMfiWx4), 2017/07/25. Tutorial Organizer: Lauren Mills
