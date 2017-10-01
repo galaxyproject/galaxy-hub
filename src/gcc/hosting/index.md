@@ -10,7 +10,7 @@ Thanks for considering hosting a [GCC](/src/gcc/index.md).  These events are vit
 
 [<img class="pull-right" src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="160" />](https://gcc2017.sciencesconf.org/)
 
-In the past it's been entirely *ad hoc* (2010-2015), or rigorous, with a call for proposals and formal evaluation of proposals (2016-2018).  Starting with GCC2019, we are moving to something in between.  If you are interested, then please [contact the project](#let-s-talk) and we will get back to you (immediately!).  The form is short, and it way, way shorter than the formal proposals we requested in previous years.
+In the past it's been entirely *ad hoc* (2010-2015), or rigorous, with a call for proposals and formal evaluation of proposals (2016-2018).  Starting with GCC2019, we are moving to something in between.  If you are interested, then please [contact the project](#let-s-talk) and we will get back to you (immediately!).
 
 # What is most important for hosting GCC?
 
@@ -57,9 +57,9 @@ Affordable (think dorm) housing is a big plus and goes a long way towards loweri
 
 Ideally, the event will be within 2 hours of a major airport, and lodging and event facilities will be within easy walking (or rapid transit) distance of each other.
 
-We meet in North America in even years, and in *not-in-North-America* in odd years.  (So far *not-in-North-America* has always meant Europe, but we are open to other continents.)  We'd like to keep that pattern going.
+We meet in North America in even years, and *not-in-North-America* in odd years.  (So far *not-in-North-America* has always meant Europe, but we are open to other continents.)  We'd like to keep that pattern going.
 
-[<img class="pull-right" src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="200" />](/src/GCC2011/index.md) 
+[<img class="pull-right" src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="200" />](/src/events/gcc2011/index.md) 
 
 ## Ideas for improvement
 
@@ -77,7 +77,7 @@ However, 2018 is an experiment.  We won't know for sure if we will do this again
 
 # When should we start talking?
 
-GCCs are big, with over 200 participants, running over 6 days, and featuring a lot of different events and formats.  It takes a while to get everything lined up. Given that we need a large room and several little ones, it is best to get those reserved at least 18 months in advance, and more if possible.  **Therefore the best time to start talking is *at least* 20 months before the conference.**
+GCCs are big, with over 200 participants, running over 6 days, and featuring a lot of different events and formats.  It takes a while to get everything lined up. Given that we need a large room and several little ones, it is best to get those reserved at least 18 months in advance, and more if possible.  **Ideally, the best time to start talking is *at least* 20 months before the conference.**
 
 # Let's talk
 

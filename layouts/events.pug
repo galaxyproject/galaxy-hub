@@ -9,11 +9,12 @@ mixin renderEvent()
             img.img-responsive(src=deGitUrl(image) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
     +renderPageTitle
     ul.list-unstyled
-        li
-            strong Date: 
-            | !{helpers.moment(date).format("MMMM Do YYYY")}
-            if days > 1
-                | - !{helpers.moment(date).add(days - 1, 'days').format("MMMM Do YYYY")}
+        if date
+            li
+                strong Date: 
+                | !{helpers.moment(date).format("MMMM Do YYYY")}
+                if days > 1
+                    | - !{helpers.moment(date).add(days - 1, 'days').format("MMMM Do YYYY")}
         if location
             li
                 strong Location: 
