@@ -42,7 +42,7 @@ The *Galactic* and *Stellar* publications added in September were:
   * Cheryl Waldner, National Collaborating Centre for Infectious Diseases (NCCID)
 * [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](http://dx.doi.org/10.1016/j.celrep.2017.08.043)
   * Steven Moreira, Enio Polena, Victor Gordon, Solen Abdulla, Sujeivan Mahendram, Jiayi Cao, Alexandre Blais, Geoffrey A. Wood, Anna Dvorkin-Gheva, Bradley W. Doble, *Cell Reports*, Volume 20 , Issue 10 , 2424 - 2438, doi:10.1016/j.celrep.2017.08.043
-  * [Antigen receptor sequencing of paired bone marrow samples shows homogeneous distribution of acute lymphoblastic leukemia subclones](http://www.haematologica.org/content/early/
+* [Antigen receptor sequencing of paired bone marrow samples shows homogeneous distribution of acute lymphoblastic leukemia subclones](http://www.haematologica.org/content/early/
   2017/08/28/haematol.2017.171454)
   * Prisca M.J. Theunissen, David van Zessen, Andrew P. Stubbs, Malek Faham, Michel Zwaan, Jacques J.M. van Dongen, Vincent H.J. Van der Velden, *Haematologica*, August 2017 : haematol.2017.171454; doi:10.3324/haematol.2017.171454
 
@@ -221,9 +221,8 @@ The [ImmPort Project](http://www.immport.org/) just released a new version of [I
 
 The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e/1FAIpQLSdcofOBF8hCzLB9_NARls_zXSCwe04qPDj0Dp9uC4RysBlaZA/viewform) on how people use the [ImmPort Galaxy server](http://immportgalaxy.org/).  If you are a user then [please let them know](https://docs.google.com/forms/d/e/1FAIpQLSdcofOBF8hCzLB9_NARls_zXSCwe04qPDj0Dp9uC4RysBlaZA/viewform). (And if you aren't a user and you do flow cytomety then give [ImmPort Galaxy a look](http://immportgalaxy.org/).)
 
-## Conferences
 
-### Codon Harmonizer
+## Codon Harmonizer
 
 [<img class="pull-right img-responsive" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
 
@@ -290,7 +289,7 @@ Galaxy's [sequence utilities](https://github.com/galaxyproject/sequence_utils) a
 
 ## Earlier Releases
 
-$## nebulizer 0.4.2
+### nebulizer 0.4.2
 
 [Command-line utilities](https://pypi.python.org/pypi/nebulizer/) to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the BioBlend library.
 
@@ -329,12 +328,12 @@ And
 * From [John Chilton](/src/people/john-chilton/index.md): 
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
-## Galaxy CloudMan 17.05 on AWS
+### Galaxy CloudMan 17.05 on AWS
 
 A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, visit https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
 
 
-## CloudLaunch
+### CloudLaunch
 
 Technically, the [all-new Galaxy CloudLaunch service](https://beta.launch.usegalaxy.org/) has been in public beta since February but keep in mind that it will replace the [current CloudLaunch service](https://launch.usegalaxy.org/launch) eventually so give it a try and let us know how it performs for you.
 

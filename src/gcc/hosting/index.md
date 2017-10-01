@@ -1,5 +1,5 @@
 ---
-title: Hosting a Galaxy Community Conferences (GCC)
+title: Hosting a Galaxy Community Conference (GCC)
 ---
 
 <div class="alert alert-info">
