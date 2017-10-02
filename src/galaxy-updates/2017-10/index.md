@@ -130,6 +130,18 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><a href="http://cnrsformation.cnrs.fr/stage-17012-Analyse-avancee-de-sequences.html?axe=65">Analyse avancée de séquences</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.cbib.u-bordeaux.fr/">Carreire de l'Université Bordeaux Segalen, Bordeaux, France</a></td>
   <td>Aurélien Barré, Raluca Uricaru, Benjamin Dartigues</td>
+  </tr>
+<tr>
+  <td><span class="text-nowrap">November 1st 2017</span></td>
+  <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=INFO&amp;year=17">Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=INFO&amp;year=17">Genome Informatics, CSHL, New York, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko</td>
+  </tr>
+<tr>
+  <td><span class="text-nowrap">November 1st 2017</span></td>
+  <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=INFO&amp;year=17">Hybrid assembly of small genomes in Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=INFO&amp;year=17">Genome Informatics, CSHL, New York, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Delphine Lariviere</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 6th 2017</span></td>
