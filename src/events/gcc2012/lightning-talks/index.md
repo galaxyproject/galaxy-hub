@@ -4,48 +4,19 @@
 
 # GCC2012 Lightning Talks
 
-<table>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pptx'>PPTX</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ 24:40)</em> </div> <em>Customizing Galaxy for a Hospital Environment</em> <div class='indent'> Larry Helseth, NorthShore University HealthSystem </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Coraor.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ 30:30)</em> </div> <em>ObjectStore</em> <div class='indent'> Nate Coraor, Penn State University </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Frey.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Frey.pptx'>PPTX</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ 36:35)</em> </div> <em>Galaxy and Condor: Challenges with harnessing widely-distributed resources</em> <div class='indent'> Jaime Frey, University of Wisconsin-Madison </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='http://krona.sf.net'>Link</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ xx:yy)</em></div> <em>Interactive metagenomic visualization in Galaxy</em> <div class='indent'> Brian Ondov, NBACC </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sloggett.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ xx:yy)</em></div> <em>Reusable / Scalable Workflows</em> <div class='indent'> Clare Sloggett, VLSCI </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Chilton.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ xx:yy)</em> </div> <em>The Galaxy VM Launcher</em> <div class='indent'> John Chilton, University of Minnesota </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Joshi.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad'>Video</a> (starts @ xx:yy)</em></div> <em>Differential Expression with Diagnostic Plots using sam2counts and DESeq</em> <div class='indent'> Nikhil Joshi, UC Davis </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf'>PDF</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt'>PPT</a>, Video</em></div> <em>Galaxy-P</em> <div class='indent'> Pratik Jagtap, University of Minnesota  </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421'>Video</a></em></div> <em>The Genomic Hyperbrowser: Prove Your Point</em> <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> </td>
-  </tr>
-  <tr>
-    <td style=" vertical-align: top; text-align: right; border: none;"> </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421'>Video</a> (starts @ 6:10)</em></div> <em><a href="/src/ChemicalToolBo/index.md">ChemicalToolBo</a>X</em> <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> </td>
-  </tr>
-</table>
+| Time | Topic |
+| ----: | ---- |
+| **1:30** | **Lightning Talks** |
+|  | <div class="pull-right"> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pptx), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ 24:40)* </div> *Customizing Galaxy for a Hospital Environment* <div class='indent'> Larry Helseth, NorthShore University HealthSystem </div> |
+|  | <div class="pull-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Coraor.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ 30:30)* </div> *ObjectStore* <div class='indent'> Nate Coraor, Penn State University </div> |
+|  |<div class='pull-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Frey.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Frey.pptx), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ 36:35)* </div> *Galaxy and Condor: Challenges with harnessing widely-distributed resources* <div class='indent'> Jaime Frey, University of Wisconsin-Madison </div> |
+|  |<div class='pull-right'> *[Link](http://krona.sf.net), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)*</div> *Interactive metagenomic visualization in Galaxy* <div class='indent'> Brian Ondov, NBACC </div> |
+|  |<div class='pull-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sloggett.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)*</div> *Reusable / Scalable Workflows* <div class='indent'> Clare Sloggett, VLSCI </div> |
+|  | <div class="pull-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Chilton.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)* </div> *The Galaxy VM Launcher* <div class='indent'> John Chilton, University of Minnesota </div> |
+|  | <div class="pull-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Joshi.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)*</div> *Differential Expression with Diagnostic Plots using sam2counts and DESeq* <div class='indent'> Nikhil Joshi, UC Davis </div> |
+|  |<div class='pull-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt), Video*</div> *Galaxy-P* <div class='indent'> Pratik Jagtap, University of Minnesota  </div> |
+|  |<div class='pull-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421)*</div> *The Genomic Hyperbrowser: Prove Your Point* <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> |
+|  |<div class='pull-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/src/chemical-tool-box/index.md)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
 
 
 ## Goals
