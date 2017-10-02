@@ -18,12 +18,15 @@
       - Community:
         title: About
         link: community
-      - News:
-        title: News
-        link: news
       - Events:
         title: Events
         link: events
+      - News:
+        title: News
+        link: news
+      - Blog:
+        title: Blog
+        link: blog
       - Publications:
         title: Publications
         link: publication-library
