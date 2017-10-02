@@ -39,7 +39,7 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 <table>
   <tr>
     <td style=" border: none; min-width: 40%;"> <img src="/src/events/gcc2012/sponsorships/PlatinumBanner.png" alt="" width=340; /> </td>
-    <td style=" border: none;"> </td>
+    <td style=" border: none;"> &nbsp;</td>
     <td style=" border: none; text-align: center;"> <img src="/src/events/gcc2012/sponsorships/GoldBanner.png" alt="" width=340 /> </td>
   </tr>
   <tr>
@@ -59,9 +59,18 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://www.ncsa.illinois.edu/'><img src="/src/events/gcc2012/sponsorships/NCSALogo220.png" alt="National Center for Supercomputing Applications (NCSA)"  /></a><br /><a href='http://www.biotech.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a><br /><a href='http://www.igb.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> <br /> <a href='http://www.ccts.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_CCTS_Logo.png" alt="UIC Center for Clinical and Translational Science" width="260" /></a><br /><a href='http://www.rrc.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_RRC_Logo.png" alt="UIC Research Resource Center" width="260" /></a> </td>
+    <td style=" border: none; text-align: center;">
+      <br />
+      <a href='http://www.ncsa.illinois.edu/'><img src="/src/events/gcc2012/sponsorships/NCSALogo220.png" alt="National Center for Supercomputing Applications (NCSA)"  /></a><br /><br />
+      <a href='http://www.biotech.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a><br /><br />
+      <a href='http://www.igb.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> <br /><br />
+      <a href='http://www.ccts.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_CCTS_Logo.png" alt="UIC Center for Clinical and Translational Science" width="260" /></a><br /><br />
+      <a href='http://www.rrc.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_RRC_Logo.png" alt="UIC Research Resource Center" width="260" /></a> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://uic.edu/'><img src="/src/images/logos/UICLogo.png" alt="University of Illinois Chicago"  /></a> <br /> <a href='http://illinois.edu/'><img src="/src/images/logos/UIUCLogo.png" alt="University of Illinois Urbana-Champaign"  /></a> <br /> <a href='http://http://www.ci.uchicago.edu/'><img src="/src/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height=80 /></a></td>
+    <td style=" border: none; text-align: center;">
+      <a href='http://uic.edu/'><img src="/src/images/logos/UICLogo.png" alt="University of Illinois Chicago"  /></a> <br />
+      <a href='http://illinois.edu/'><img src="/src/images/logos/UIUCLogo.png" alt="University of Illinois Urbana-Champaign"  /></a> <br /><br />
+      <a href='http://http://www.ci.uchicago.edu/'><img src="/src/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height=80 /></a></td>
   </tr>
 </table>
 
