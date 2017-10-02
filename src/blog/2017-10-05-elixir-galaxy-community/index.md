@@ -1,7 +1,8 @@
 ---
-date: '2017-10-02'
+date: '2017-10-05'
 title: "ELIXIR establishes a new official Use Case for Galaxy"
 tease: ""
+image: /src/images/logos/ElixirNoTextLogo.png
 authors: "Frederik Coppens, Gildas Le Corguillé, Björn Grüning"
 ---
 
@@ -19,7 +20,6 @@ support communities such as the new Proteomics and Metabolomics Use Cases,
 develop a strategy with the Nodes to increase availability of data visualisation tools,
 integrate the Galaxy resources with ELIXIR AAI and further develop training materials and events.
 
-For more information please see the official ELIXIR announcement:
-https://www.elixir-europe.org/news/elixir-establish-new-use-cases-proteomics-metabolomics-and-galaxy
+For more information please see the [official ELIXIR announcement](https://www.elixir-europe.org/news/elixir-establish-new-use-cases-proteomics-metabolomics-and-galaxy).
 
  
