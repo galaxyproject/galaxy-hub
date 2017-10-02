@@ -7,7 +7,6 @@ continent: NA
 location: Cold Spring Harbor Laboratory
 location_url: https://cshl.edu/
 contact: Organizers
-gtn: n
 ---
 
 ## Galaxy Developer Conference 2010
