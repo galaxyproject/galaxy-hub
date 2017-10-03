@@ -10,7 +10,7 @@ title: Galaxy Community Conferences (GCCs)
 [<img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" />](/src/events/gcc2014/index.md) &nbsp;&nbsp;
 [<img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" />](/src/events/gcc2013/index.md) &nbsp;&nbsp;
 [<img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="170" />](/src/events/gcc2012/index.md) &nbsp;&nbsp;
-[<img src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="175" />](/src/events/gcc2011/index.md)
+[<img src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="175" />](https://galaxyproject.org/gcc2011/)
 </div>
 
 ----
@@ -36,8 +36,8 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 | June 30 - July 2, 2014 | [GCC2014](/src/events/gcc2014/index.md) | Baltimore, Maryland, United States | [Dept of Biological Chemistry, Johns Hopkins University](http://biolchem.bs.jhmi.edu/) | 217 |
 | June 30 - July 2, 2013 | [GCC2013](/src/events/gcc2013/index.md) | Oslo, Norway | [University of Oslo](http://www.uio.no/) | 219 |
 | July 25-27, 2012 | [GCC2012](/src/events/gcc2012/index.md) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202 | 
-| May 25-26, 2011 | [GCC2011](/src/events/gcc2011/index.md) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
-| May 15-17, 2010 | [GDC2010](/src/events/gdc2010/index.md) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
+| May 25-26, 2011 | [GCC2011](https://galaxyproject.org/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
+| May 15-17, 2010 | [GDC2010](https://galaxyproject.org/dev2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
 
 # Interested in hosting a future GCC?
 
