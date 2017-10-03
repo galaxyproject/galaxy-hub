@@ -5,11 +5,27 @@ title: Get Involved!
 
 # Mailing Lists
 
-<div class='left'><a href='/src/mailing-lists/index.md'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div> Galaxy has *thousands* of users around the world, all using Galaxy in different and often novel ways.  When these users have a question or a topic to discuss, they post it to a [Galaxy Mailing List](/src/mailing-lists/index.md) (following [Support](/src/support/index.md) guidelines), where the whole community can respond.  You can contribute by posting your own questions, solutions, and experience.
+<div class='left'><a href='/src/mailing-lists/index.md'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
+
+Galaxy has *thousands* of users around the world, all using Galaxy in different
+and often novel ways.  When these users have a question or a topic to discuss,
+they post it to a [Galaxy Mailing List](/src/mailing-lists/index.md) (following
+[Support](/src/support/index.md) guidelines), where the whole community can
+respond.  You can contribute by posting your own questions, solutions, and
+experience.
+
 
 # IRC Channel
 
-{{> Support/IRC }}
+<div class='right'>![Galaxy IRC Channel](/Images/Icons/ChatBalloons.png)</div>
+<div class='left'>
+**Server:**   `irc.freenode.net`&nbsp;&nbsp;<br />
+**Channel**  [#galaxyproject](http://webchat.freenode.net/?channels=#galaxyproject)
+</div>
+
+Galaxy also has an *IRC channel* in which you can participate.  You can connect to the chat directly via browser  [here](http://webchat.freenode.net/?channels=#galaxyproject). This IRC channel is an informal online gathering place for the Galaxy community to post questions and help each other out.  If you are unfamiliar with IRC, it is conducive to quick discussion, much like any other casual chat program.  There is also lots of [online help about IRC](http://www.irchelp.org/).
+
+The #galaxyproject IRC channel has an [online public archive](https://botbot.me/freenode/galaxyproject/) (starting 2014/10/22) and these archives are included in the [Galaxy search engines](https://galaxyproject.org/search/).
 
 # Develop Tools and Tool Definitions
 
