@@ -15,7 +15,7 @@ this year to apply for new Use Cases/Communities for the [next Scientific Progra
 
 The [ELIXIR Galaxy Working Group](https://www.elixir-europe.org/about/groups/galaxy-wg) is glad to announce that Galaxy is now one of the seven ELIXIR Communities
 (Marine Metagenomics, Plant Sciences, Rare Diseases, Human, Proteomics and Metabolomics).
-This project built with the support of thirteen countries aims to
+This project built with the support of fourteen countries aims to
 support communities such as the new Proteomics and Metabolomics Communities,
 develop a strategy with the Nodes to increase availability of data visualisation tools,
 integrate the Galaxy resources with ELIXIR AAI and further develop training materials and events.
