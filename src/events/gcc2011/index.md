@@ -1,8 +1,21 @@
-<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/events/gcc2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
+---
+title: '2011 Galaxy Community Conference (GCC2011)'
+date: '2011-05-25'
+days: 2
+tease: "GDC becomes GCC, and moves to Europe"
+continent: EU
+location: "Lunteren, The Netherlands"
+image: /src/events/GCC2011Logo400.png
+location_url: http://www.congrescentrum.com/accommodations/de_werelt
+external_url: https://galaxyproject.org/gcc2011/
+contact: Organizers
+---
 
-The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](http://galaxy.psu.edu/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).
+The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](https://galaxyproject.org/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).
 
-See the [conference page](http://galaxy.psu.edu/gcc2011/) for more details.
+See the [conference page](https://galaxyproject.org/gcc2011/Home.html) for more details.
+
+**See [all Galaxy Community Conferences](/src/gcc/index.md).**
 
 ## Presentations
 
@@ -79,172 +92,5 @@ Many thanks to Rob Hooft for taking [these pictures](http://bit.ly/gcc-d1) on th
 
 ## Feedback
 
-We received feedback from 73 participants.
+We received [feedback](/src/events/gcc2011/feedback/index.md) from 73 participants.
 
-**Would you recommend future Galaxy meetings to others?**
-
-
-| Answer |  #  |  %  |  Comments  | 
-| ------ | --- | --- | --------- | 
-| **Yes** |  **72**  |  **99%**  |   | 
-| Yes, but ... |  1  |  1%  |  The one response was "there was a bit too much info from the field, and not enough from the core development team."  | 
-| No |  0  |  0  |   | 
-
-**How useful was the meeting?**
-<table>
-  <tr class="th" >
-    <th> Weight </th>
-    <th> Answer </th>
-    <th> # </th>
-    <th> % </th>
-    <th> Comments </th>
-  </tr>
-  <tr>
-    <td> 4 </td>
-    <td> Exceptional </td>
-    <td> 21 </td>
-    <td> 29% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 3 </td>
-    <td> <strong>Above Average</strong> </td>
-    <td> <strong>42</strong> </td>
-    <td> <strong>58%</strong> </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 2 </td>
-    <td> Average </td>
-    <td> 9 </td>
-    <td> 12% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 1 </td>
-    <td> Below Average </td>
-    <td> 1 </td>
-    <td> 1% </td>
-    <td> This <em>might</em> have been a misclick.  The same person indicated above average organization and "Exceeded my expectations" for the meeting.  No criticism was provided. </td>
-  </tr>
-  <tr>
-    <td> 0 </td>
-    <td> Not at all </td>
-    <td> 0 </td>
-    <td> 0% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td colspan=5> <strong>Average weighted score: 3.14 out of 4 (just above "Above Average")</strong> </td>
-  </tr>
-</table>
-
-
-**Was the meeting well run and organized?**
-<table>
-  <tr class="th" >
-    <th> Weight </th>
-    <th> Answer </th>
-    <th> # </th>
-    <th> % </th>
-    <th> Comments </th>
-  </tr>
-  <tr>
-    <td> 4 </td>
-    <td> Exceptional </td>
-    <td> 28 </td>
-    <td> 38% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 3 </td>
-    <td> <strong>Above Average</strong> </td>
-    <td> <strong>40</strong> </td>
-    <td> <strong>55%</strong> </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 2 </td>
-    <td> Average </td>
-    <td> 5 </td>
-    <td> 7% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 1 </td>
-    <td> Below Average </td>
-    <td> 0 </td>
-    <td> 0% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 0 </td>
-    <td> Not at all </td>
-    <td> 0 </td>
-    <td> 0% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td colspan=5> <strong>Average weighted score: 3.32 out of 4 (just above "Above Average")</strong> </td>
-  </tr>
-</table>
-
-
-**Did the meeting meet your expectations?**
-<table>
-  <tr class="th" >
-    <th> Weight </th>
-    <th> Answer </th>
-    <th> # </th>
-    <th> % </th>
-    <th> Comments </th>
-  </tr>
-  <tr>
-    <td> 2 </td>
-    <td> <strong>Exceeded</strong> </td>
-    <td> <strong>38</strong> </td>
-    <td> <strong>52%</strong> </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 1 </td>
-    <td> Met </td>
-    <td> 35 </td>
-    <td> 48% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 0 </td>
-    <td> Fell short </td>
-    <td> 0 </td>
-    <td> 0% </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td colspan=5> <strong>Average weighted score: 1.52 out of 2 (halfway between "Met" and "Exceeded")</strong> </td>
-  </tr>
-</table>
-
-
-**And a sampling of other comments in the feedback:**
-* I'm looking at setting up a new Galaxy instance for my research organisation and this conference answered all my questions and more about how best to go about this.
-* Really nice conference, nice people
-* It was awesome to meet the actual team behind all this and approach them directly with questions.
-* One big realization was the fact that we're all having the same issues on the biomedical field, it's good to share those insights.
-* I think the format was perfect. A good series of talks, lighting talks, and some nice discussion in the break out group.
-* The meeting was well orginized!
-* Just keeping on doing what you just did!
-* It was just awesome :) Keep the great work guys !
-* Thanks for all the good work, both the conference organization and galaxy itself! Keep on.
-* The organisation was excellent!
-* Conference was very well organization.  Its amazing to see participation from so many organizations.
-* Fantastic venue, relaxed atmosphere, fantastic organisation and great to interact with the community as a whole. 
-* I also found that the frequent opportunities to interact with other Galaxy users and developers very useful, and which was helped by having everything on the single site.
-* The relaxed atmosphere encouraged interaction and discussion.
-* The community aspect was most useful; the chance to talk to the devs and to other people in a similar situation to our institution.
-* Good sense of community and the desire to help each other out.
-
-And my two favorites:
-
-* Graag gedaan!
-* Avoid volcanic eruptions

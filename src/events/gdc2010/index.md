@@ -1,7 +1,17 @@
+---
+title: 'Galaxy Developer Conference 2010'
+date: '2010-05-15'
+days: 3
+tease: "The first GCC"
+continent: NA
+location: Cold Spring Harbor Laboratory
+location_url: https://cshl.edu/
+contact: Organizers
+---
+
 ## Galaxy Developer Conference 2010
 
-* [Developer Conference Information](http://galaxy.psu.edu/dev2010/)
-* [Galaxy Interactive Poster](/src/learn/Interactive Poster/index.md)
+* [Developer Conference Information](https://galaxyproject.org/dev2010/)
 
 ## Slides
 
