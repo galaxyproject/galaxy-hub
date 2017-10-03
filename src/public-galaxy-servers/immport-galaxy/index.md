@@ -27,7 +27,8 @@ sponsors:
 
 ## Quotas
 
-* Anyone can use this server. No quotas for now.
+* Anyone can use this server, but you'll need to create a login.
+- Users are limited to 20GB.  If you needs are greater, please [contact the ImmPort Galaxy team](mailto:immport DASH galaxy AT immport.org).
 
 ## Sponsor(s)
 

@@ -1,7 +1,7 @@
 ---
 title: 'Blankenberg Lab is hiring post-docs'
 tease: 'Work at one of the best research hospitals in the world'
-date: 2017-09-13
+date: "2017-09-13"
 ---
 <div class="pull-right">
 [<img src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic Lerner Research Institute" width="220" />](https://www.postdocjobs.com/posting/7048061/)

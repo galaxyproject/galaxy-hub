@@ -218,8 +218,18 @@ Runs jobs via the [HTCondor](http://research.cs.wisc.edu/htcondor/) DRM.  There 
 </destinations>
 ```
 
-
 Galaxy will submit jobs to HTCondor as the "galaxy" user (or whatever user the Galaxy server runs as).  In order for vanilla job execution to work as expected, your cluster should be configured with a common UID_DOMAIN to allow Galaxy's jobs to run as "galaxy" everywhere (instead of "nobody").
+
+If you need to add additional parameters to your condor submission, you can do so by supplying `<param/>`s:
+
+```xml
+<destinations>
+    <destination id="condor" runner="condor">
+        <param id="Requirements">(machine == some.specific.host)</param>
+        <param id="request_cpus">4</param>
+    </destination>
+</destinations>
+```
 
 ## Pulsar
 
