@@ -15,17 +15,30 @@ respond.  You can contribute by posting your own questions, solutions, and
 experience.
 
 
-# IRC Channel
+# Community Chatroom
 
-<div class='right'>![Galaxy IRC Channel](/Images/Icons/ChatBalloons.png)</div>
-<div class='left'>
-**Server:**   `irc.freenode.net`&nbsp;&nbsp;<br />
-**Channel**  [#galaxyproject](http://webchat.freenode.net/?channels=#galaxyproject)
-</div>
+<div class='right'>![Galaxy Chat](/Images/Icons/ChatBalloons.png)</div>
 
-Galaxy also has an *IRC channel* in which you can participate.  You can connect to the chat directly via browser  [here](http://webchat.freenode.net/?channels=#galaxyproject). This IRC channel is an informal online gathering place for the Galaxy community to post questions and help each other out.  If you are unfamiliar with IRC, it is conducive to quick discussion, much like any other casual chat program.  There is also lots of [online help about IRC](http://www.irchelp.org/).
+Galaxy also has an open community chatroom.  The channel exists on both IRC and
+Gitter, and the rooms are bridged together, so feel free to use whichever
+interface you prefer.  This channel is intended to be an informal online
+gathering place for the Galaxy community to post questions and help each other
+out.  If you are unfamiliar with IRC or Gitter, no worries -- we're friendly!
+Do note that the community is widely scattered across the globe, and when you
+post a question you may have to wait a little bit for someone to respond.
 
-The #galaxyproject IRC channel has an [online public archive](https://botbot.me/freenode/galaxyproject/) (starting 2014/10/22) and these archives are included in the [Galaxy search engines](https://galaxyproject.org/search/).
+To join via Gitter, you can simply click the "OPEN CHAT" button at the bottom
+right of this screen.  If you prefer IRC, you can connect directly via browser
+[here](http://webchat.freenode.net/?channels=#galaxyproject), or via
+`irc.freenode.net` in the room `#galaxyproject`, using your favorite IRC
+client.
+
+
+The `#galaxyproject` IRC channel has an [online public
+archive](https://botbot.me/freenode/galaxyproject/) (starting 2014/10/22) and
+these archives are included in the [Galaxy search
+engines](https://galaxyproject.org/search/).
+
 
 # Develop Tools and Tool Definitions
 
