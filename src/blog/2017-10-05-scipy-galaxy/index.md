@@ -3,18 +3,19 @@ date: '2017-10-05'
 title: "SciPy and scikit-learn integration into Galaxy"
 tease: ""
 authors: "Björn Grüning"
+image: /src/blog/2017-10-05-scipy-galaxy/sci-py-kit-learn.png
 ---
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),
-[pandas](http://pandas.pydata.org/) - indeed the entire scientific Python stack - provides an awesome basement for modern
+[pandas](http://pandas.pydata.org/) - indeed the entire scientific Python stack - provides an awesome foundation for modern
 scientific computing. With Jupyter now an [integral part of Galaxy](https://dx.doi.org/10.1371%2Fjournal.pcbi.1005425) 
 its time to integrate all the powerful scientific Python libraries into Galaxy.
 
-To integrate all different modules of scipy or scikit-leran into Galaxy as tools, seems to be a laborious task.
-In the classical Galaxy way, we would need to have some kind of wrapper script, that needs to acceppt hundrets of
-paremeters and call the correct scipy function. We would need to create the user interface (UI), make this really useable
-and a rock solid user experience (UX). The developer would have at least 2 places to update the code and given the
-huge turnaround of the scientific Python stack, a not easy task.
+Integrating all different modules of scipy or scikit-leran into Galaxy as tools seems to be a laborious task.
+In the classical Galaxy way, we would need to have some kind of wrapper script, that needs to accept hundreds of
+paremeters and call the correct scipy function. We would need to create the user interface (UI), and make this really useable
+and with a rock solid user experience (UX). The developer would have at least 2 places to update the code and given the
+huge turnaround of the scientific Python stack, this is not an easy task.
 
 Here we present an easy way how we can solve these issues and intergate the scientific Python stack with a first class UX,
 keeping the maintenance burden as low as possible.
@@ -25,7 +26,7 @@ For this we will rely on two features:
  * [`<configfiles>`](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-configfiles)
 
 
-The scipy API is great and for example allows us to use all cluster algorithms in a very similar way. Consider the following
+The scipy API is great, and for example allows us to use all cluster algorithms in a very similar way. Consider the following
 code.
 
 ```python
@@ -63,7 +64,7 @@ We can use Galaxy#s `configfile` feature to create script on the fly and add a U
 Now we have a few lines of general Python code, a few lines of specific code for the UI/UX and we are done. Just
 add `<option value="MeanShift">MeanShift</option>` to the UX code and your Galaxy tool will have a new clustering method.
 
-You can now `build a user interface and the Python code is "written" automatically` for you. Add functionallity to the
+You can now *build a user interface and the Python code is "written" automatically* for you. Add functionallity to the
 user interface and the general Python code will take care of it.
 
 Have a look at our first [clustering tool](https://github.com/bgruening/galaxytools/blob/master/tools/sklearn/numeric_clustering.xml)
