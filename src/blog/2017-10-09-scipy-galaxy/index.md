@@ -1,9 +1,9 @@
 ---
-date: '2017-10-05'
+date: '2017-10-09'
 title: "SciPy and scikit-learn integration into Galaxy"
 tease: ""
 authors: "Björn Grüning"
-image: /src/blog/2017-10-05-scipy-galaxy/sci-py-kit-learn.png
+image: /src/blog/2017-10-09-scipy-galaxy/sci-py-kit-learn.png
 ---
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),
@@ -46,10 +46,9 @@ options = params["input_types"]["algorithm_options"]["options"]
 cluster_object.set_params(**options)
 ```
 
-We can use Galaxy#s `configfile` feature to create script on the fly and add a UI like the following.
+We can use Galaxy's `configfile` feature to create script on the fly and add a UI like the following.
 
 ```xml
-
 <param name="selected_algorithm" type="select" label="Clustering Algorithm">
     <option value="AgglomerativeClustering">Hierarchical Agglomerative Clustering</option>
     <option value="AffinityPropagation">Affinity Propagation</option>
