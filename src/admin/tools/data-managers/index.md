@@ -1,5 +1,3 @@
-{{> Admin/LinkBox }}
-
 # What are Data Managers?
 
 Data Managers are a special class of Galaxy tool which allows for the download and/or creation of data that is stored within [Tool Data Tables](/src/admin/tools/Data Tables/index.md) and their underlying flat (e.g. .loc) files. These tools handle e.g. the creation of indexes and the addition of entries/lines to the data table / .loc file via the Galaxy admin interface. 
@@ -38,7 +36,7 @@ PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/HowTo)
 
 # See also
 
-* [Admin/Tools/Data Tables](/src/admin/tools/Data Tables/index.md)
+* [Admin/Tools/Data Tables](/src/admin/tools/Data%20Tables.md)
 
 ----
 
