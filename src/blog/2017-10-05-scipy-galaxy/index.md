@@ -11,13 +11,13 @@ image: /src/blog/2017-10-05-scipy-galaxy/sci-py-kit-learn.png
 scientific computing. With Jupyter now an [integral part of Galaxy](https://dx.doi.org/10.1371%2Fjournal.pcbi.1005425) 
 its time to integrate all the powerful scientific Python libraries into Galaxy.
 
-Integrating all different modules of scipy or scikit-leran into Galaxy as tools seems to be a laborious task.
+Integrating all different modules of scipy or scikit-learn into Galaxy as tools seems to be a laborious task.
 In the classical Galaxy way, we would need to have some kind of wrapper script, that needs to accept hundreds of
-paremeters and call the correct scipy function. We would need to create the user interface (UI), and make this really useable
+parameters and call the correct scipy function. We would need to create the user interface (UI), and make this really useable
 and with a rock solid user experience (UX). The developer would have at least 2 places to update the code and given the
 huge turnaround of the scientific Python stack, this is not an easy task.
 
-Here we present an easy way how we can solve these issues and intergate the scientific Python stack with a first class UX,
+Here we present an easy way how we can solve these issues and integrate the scientific Python stack with a first class UX,
 keeping the maintenance burden as low as possible.
 
 For this we will rely on two features:
@@ -64,7 +64,7 @@ We can use Galaxy#s `configfile` feature to create script on the fly and add a U
 Now we have a few lines of general Python code, a few lines of specific code for the UI/UX and we are done. Just
 add `<option value="MeanShift">MeanShift</option>` to the UX code and your Galaxy tool will have a new clustering method.
 
-You can now *build a user interface and the Python code is "written" automatically* for you. Add functionallity to the
+You can now *build a user interface and the Python code is "written" automatically* for you. Add functionality to the
 user interface and the general Python code will take care of it.
 
 Have a look at our first [clustering tool](https://github.com/bgruening/galaxytools/blob/master/tools/sklearn/numeric_clustering.xml)
