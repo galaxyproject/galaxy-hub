@@ -8,7 +8,7 @@ Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md
 
 # Builds list changes
 
-If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data Tables/index.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
+If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data%20Tables.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
 
 # Rsync data
 
