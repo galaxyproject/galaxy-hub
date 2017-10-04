@@ -12,7 +12,7 @@ If you still choose to do this manually, follow the instructions at [Data Integr
 
 # Rsync data
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [https://usegalaxy.org](https://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
 
 ## What's in this wiki ?
 
