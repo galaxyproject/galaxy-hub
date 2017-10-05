@@ -18,6 +18,6 @@ The *Galactic Blog* replaces the former *Community Log* and includes all content
 
 The Galaxy community needs to know what you are doing.  If you done something that others would benefit from then please think about creating a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created to the Hub, or can be posted on your favorite bloggin platform and linked to from the [Blog home page](/src/blog/index.md).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created to the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/src/blog/index.md).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
