@@ -8,11 +8,11 @@ Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md
 
 # Builds list changes
 
-If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data Tables/index.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
+If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data%20Tables.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
 
 # Rsync data
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [https://usegalaxy.org](https://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
 
 ## What's in this wiki ?
 
