@@ -3,21 +3,16 @@ title: Data management challenges for larger Galaxy installations
 ---
 {{> Events/GCC2015/Header }}
 
-
-
-
-<div class='dictbox'>
- BoF:: [Data management challenges for larger galaxy installations](/src/events/gcc2015/bofs/data-management-challenges/index.md)
- Summary:: Data management challenges for larger Galaxy installations.
- Audience:: People using Galaxy to process large numbers of files
- When:: Wednesday, 8 July, 12:30 (Lunch)
- Where:: Franklin Room, JICCC
- Contact:: [Brad Langhorst](mailto:langhorst@neb DOT com)
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+
+When: Wednesday, 8 July, 12:30 (Lunch)
+
+Where:: Franklin Room, JICCC
+
+Contact:: [Brad Langhorst](mailto:langhorst@neb DOT com)
+
 
 ## Description
 

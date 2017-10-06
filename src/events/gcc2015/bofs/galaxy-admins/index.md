@@ -3,17 +3,6 @@ title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) GCC2015 Meetup
 ---
 {{> Events/GCC2015/Header }}
 
-
-
-<div class='dictbox'>
- BoF:: [GalaxyAdmins](/src/events/gcc2015/bofs/galaxy-admins/index.md)
- Summary:: The annual in-person gathering of the [GalaxyAdmins](/src/community/galaxy-admins/index.md) group
- Audience:: If you manage a Galaxy instance, this BoF is for you 
- When:: Tuesday, 7 July, 18:20
- Where:: Franklin Room, JICCC
- Contact:: [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Dave Clements](/src/people/dave-clements/index.md)
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
 <br />
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
@@ -23,6 +12,13 @@ title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) GCC2015 Meetup
 GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/src/events/gcc2013/bof/galaxy-admins/index.md) and [GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
 
 This meetup will discuss last year's action items, plans for the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
+
+When:: Tuesday, 7 July, 18:20
+
+Where:: Franklin Room, JICCC
+
+Contact:: [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Dave Clements](/src/people/dave-clements/index.md)
+
 
 # Audience
 
