@@ -40,3 +40,8 @@ In addition to the the [main Galaxy](http://toolshed.g2.bx.psu.edu/) and
 [Test](http://testtoolshed.g2.bx.psu.edu/) ToolSheds, several groups have made
 their [tools available through publicly accessibly
 ToolSheds](/src/toolsheds/public-toolsheds/index.md).
+
+[**Public Server Dashboard**](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers)
+
+The folks are Freiburg have put together a [public Galaxy server dashboard](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers) to track the status and some of the supported features of the servers listed here.  See the [blog post](/src/blog/2017-10-public-galaxy-dashboard/index.md) for more info.
+
