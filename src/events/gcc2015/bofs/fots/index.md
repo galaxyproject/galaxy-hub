@@ -4,20 +4,15 @@ title: Friends of the Tool Shed
 {{> Events/GCC2015/Header }}
 
 
-
-
-<div class='dictbox'>
- BoF:: [Friends of the Tool Shed](/src/events/gcc2015/bofs/fots/index.md)
- Summary:: Discuss utilities distribution approaches available to Galaxy and praise the Shed
- Audience:: Tool developers and Shed enthusiasts
- When:: Tuesday, 7 July, 20:30
- Where:: we meet at the http://thecellarhouse.co.uk/
- Contact:: [Martin Cech](/src/people/marten/index.md)
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+
+When: Tuesday, 7 July, 20:30
+
+Where: we meet at the http://thecellarhouse.co.uk/
+
+Contact: [Martin Cech](/src/people/marten/index.md)
 
 ## Description
 
