@@ -18,9 +18,9 @@ image: /src/images/logos/GCC2013Logo400.png
 
 The **2013 Galaxy Community Conference (GCC2013)** was held at the University of Oslo in Oslo Norway, from 30 June through 2 July.
 
-The Galaxy Community Conference is an opportunity to participate in [two full days](/src/events/gcc2013/program/index.md) of presentations, discussion, [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md) and [Birds of a Feather sessions](/src/events/gcc2013/bof/index.md), all about high-throughput biology and the tools that support it.  The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, and more concurrent sessions.
+Galaxy Community Conference is an opportunity to participate in [two full days](/src/events/gcc2013/program/index.md) of presentations, discussion, [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md) and [Birds of a Feather sessions](/src/events/gcc2013/bof/index.md), all about high-throughput biology and the tools that support it.  The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, and more concurrent sessions.
 
-GCC2013 will continue the best of previous meetings (see [GCC2012](/src/events/gcc2013/GCC2012/index.md), [GCC2011](/src/events/gcc2013/GCC2011/index.md), [GDC2010](/src/events/gcc2013/GDC2010/index.md)), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
+GCC2013 will continue the [best of previous meetings](/src/gcc/index.md), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
 {{> Events/GCC2013/LinkBox }}
 
