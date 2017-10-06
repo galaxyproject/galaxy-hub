@@ -1,13 +1,11 @@
----
-title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
----
+
 {{> Events/GCC2013/Header }}
-
-
 
 {{> Events/GCC2013/LinkBox }}
 {{> Events/GCC2013/BoF/LinkBox }}
 {{> Community/GalaxyAdmins/LinkBox }}
+
+# [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
 
 <div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>

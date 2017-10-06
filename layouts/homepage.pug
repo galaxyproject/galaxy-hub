@@ -25,7 +25,13 @@ block content
         div.row
             div.col-sm-4
                 h2: a( href="/news/" ) News
-                each item in news.slice(0,5)
+                each item in news.slice(0,3)
+                    p
+                        a( href=item.link ) #{item.title}
+                        if item.tease
+                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                h2: a( href="/blog/" ) Blog
+                each item in blog.slice(0,2)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
