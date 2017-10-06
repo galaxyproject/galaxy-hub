@@ -28,6 +28,10 @@ sponsors:
 * Other registered users: 100GB
 * Unregistered users: 5GB
 
+## Citation(s)
+
+* [GVL-QLD tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGVL-QLD) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)

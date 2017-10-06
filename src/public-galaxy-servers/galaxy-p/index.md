@@ -27,6 +27,11 @@ sponsors:
 
 ## Quotas
 
+## Citation(s)
+
+* [Using Galaxy-P to leverage RNA-Seq for the discovery of novel protein variations](https://doi.org/10.1186/1471-2164-15-703), Gloria M Sheynkman, James E Johnson, Pratik D Jagtap, Michael R Shortreed, Getiria Onsongo, Brian L Frey, Timothy J Griffin and Lloyd M Smith. *BMC Genomics* 201415:703
+doi:10.1186/1471-2164-15-703
+* [Galaxy-P tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGalaxy-P) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

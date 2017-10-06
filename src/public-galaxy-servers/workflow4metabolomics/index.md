@@ -19,7 +19,6 @@ sponsors:
 ## Comments
 
 * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided.
-* See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
 
 ## User Support
 
@@ -29,6 +28,11 @@ sponsors:
 ## Quotas
 
 * Account required.  Anyone can [request an account](http://abims.sb-roscoff.fr/account).
+
+## Citation(s)
+
+* Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
+* [Workflow4Metabolomics tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EWorkflow4Metabolomics) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 
