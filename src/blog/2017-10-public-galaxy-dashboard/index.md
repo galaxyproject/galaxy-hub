@@ -5,7 +5,7 @@ tease: "a new view of the Universe"
 authors: "E. Rasche"
 ---
 
-[<img class="img-responsive center-block" src="/src/blog/2017-10-public-galaxy-servers/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers)
+[<img class="img-responsive center-block" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers)
 
 ## History
 
@@ -17,7 +17,7 @@ server lists to request non-sensitive information about their configuration.
 E.g. what "brand" do they have configured, how many allow users to purge
 datasets, how many have quotas enabled.
 
-[<img class="img-responsive center-block" src="/src/blog/2017-10-public-galaxy-servers/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11&from=1506589516564&to=1506611116564)
+[<img class="img-responsive center-block" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11&from=1506589516564&to=1506611116564)
 
 ## Dashboards
 
