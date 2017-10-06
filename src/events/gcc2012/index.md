@@ -1,12 +1,24 @@
-{{> Events/GCC2012/PageHeader }}
-
-{{> Events/GCC2012/LinkBox }}
+---
+title: GCC2012
+date: '2012-07-25'
+days: 3
+tease: "The 2014 gathering of the global Galaxy community"
+continent: NA
+location: "UIC Forum, University of Illinois at Chicago"
+location_url: http://www.uicforum.uic.edu/
+external_url:
+gtn: n
+contact: Organisers
+image: /src/events/gcc2012/GCC2012LogoWide400.png
+---
 
 **The 2012 Galaxy Community Conference (GCC2012) was held July 25-27 at the [UIC Forum](http://www.uicforum.uic.edu/) at [University of Illinois Chicago](http://uic.edu/).**
 <br /><br />
 GCC2012 ran for [two full days](/src/events/gcc2012/program/index.md), and was preceded by a [full day of training workshops](/src/events/gcc2012/program/index.md).  GCC2012 had things in common with previous meetings (see [GDC 2010](/src/events/gcc2012/GDC2010/index.md), [GCC 2011](/src/events/gcc2012/GCC2011/index.md)), and also incorporated new features, such as the training day, based on feedback we received after the [2011 conference](/src/GCC2011/index.md).  
 
 GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), the [University of Illinois at Urbana-Champaign](http://illinois.edu/), and the [Computation Institute](http://www.ci.anl.gov/).
+
+{{> Events/GCC2012/LinkBox }}
 
 ## Who Should Attend?
 
