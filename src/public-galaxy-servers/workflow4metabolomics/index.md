@@ -10,7 +10,7 @@ server_links:
   - link_url: "http://workflow4metabolomics.org/"
     link_text: "Workflow4metabolomics.org"
 summary: "A collaborative portal dedicated to metabolomics data processing, analysis and annotation. "
-image: "None"
+image: /src/public-galaxy-servers/Workflow4metabolomics.png
 user_support: 
 quotas: 
 sponsors: 

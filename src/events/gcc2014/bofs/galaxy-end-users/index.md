@@ -9,23 +9,17 @@ title: Galaxy End-Users
   </tr>
 </table>
 
-
-
-
-<div class='dictbox'>
- BoF:: **[Galaxy End-Users](/src/events/gcc2014/bofs/galaxy-end-users/index.md)**
- Summary:: This session will serve as a platform for end-users to share experiences they feel will be useful or helpful to other end-users. 
- Audience:: End-users or developers interested in what end-users have to say.
- When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
- Where:: Multipurpose Room<br /> and <br /> East Room 304
- Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
-</div>
-
 {{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  
 This page describes the **Galaxy End-Users** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+
+When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
+
+Where:: Multipurpose Room<br /> and <br /> East Room 304
+
+Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 
 # Description
 

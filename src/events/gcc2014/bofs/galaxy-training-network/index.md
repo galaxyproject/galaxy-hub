@@ -3,23 +3,18 @@ title: Galaxy Training Network
 ---
 {{> Events/GCC2014/Header }}
 
-
-
-
-<div class='dictbox'>
- BoF:: **[Galaxy Training Network](/src/events/gcc2014/bofs/galaxy-training-network/index.md)**
- Summary:: A BoF for people who want to teach the use of Galaxy or use Galaxy as a bioinformatics training tool. Let's get together and talk about resource requirements, available learning material etc. 
- Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching.  People who need to support such activities.   
- When:: Tuesday, July 1, 5:45pm
- Where:: Multipurpose Room 324
- Contact:: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/teach/index.md)
-</div>
-
 {{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
 This page describes the **[Galaxy Training Network](/src/teach/gtn/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+
+When: Tuesday, July 1, 5:45pm
+
+Where: Multipurpose Room 324
+
+Contact: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/teach/index.md)
+
 
 # Description
 

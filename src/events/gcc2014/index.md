@@ -1,6 +1,20 @@
-{{> Events/GCC2014/Header }}
+---
+title: GCC2014
+date: '2014-06-30'
+days: 3
+tease: "The 2014 gathering of the global Galaxy community"
+continent: NA
+location: "Johns Hopkins University, Baltimore, Maryland, United States"
+location_url: https://jhu.edu
+external_url:
+gtn: n
+contact: Organizers
+image: /src/images/logos/GCC2014LogoWide400.png
+---
 
-{{> Events/GCC2014/LinkBox }}
+<div class="text-center">
+**[Slides, posters, and videos are now available](/src/events/gcc2014/abstracts/index.md); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
+</div> 
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
@@ -8,7 +22,7 @@ Galaxy Community Conferences are an opportunity to participate in [presentations
 
 The conference also included a [Training Day](/src/events/gcc2014/training-day/index.md) offering in-depth topic coverage, across several concurrent sessions.  
 
-<br />
+{{> Events/GCC2014/LinkBox }}
 
 ## Meeting Reports
 
@@ -65,94 +79,70 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 ## GCC2014 Sponsors
 
-<table>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/sponsor-exhibit/index.md'><img src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" /></a> </td>
-  </tr>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/src/events/gcc2014/sponsor-exhibit/index.md)
 
-<br />
+[<img class="center-block" src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
-<table>
-  <tr>
-    <td colspan=5 style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/sponsor-exhibit/index.md'><img src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  /></a> </td>
-  </tr>
-  <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" /></a> </td>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" /></a> </td>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.sgi.com/solutions/genomics/'><img src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="210" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+
+[<img class="center-block" src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
+
+[<img class="center-block" src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
+
+[<img class="center-block"  src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
 
  
-<br />
-
-<table>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/sponsor-exhibit/index.md'><img src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  /></a> </td>
-  </tr>
-</table>
+<br /><br />
 
 
-<table>
-  <tr>
-    <td colspan=2 style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" /></a> </td>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" /></a> </td>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/src/cloud/ABgenomicaLogo.jpg" alt="ABgenomica"  /></a> </td>
-  </tr>
-  <tr>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a> </td>
-    <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src="/src/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
 
 <br />
 
-<table>
-  <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/sponsor-exhibit/index.md'><img src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  /></a> </td>
-  </tr>
-  <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> </td>
-  </tr>
-  <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://bio.maryland.gov/'><img src="/src/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" />](http://globus.org/genomics)
+
+[<img class="center-block" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" />](http://www.gigasciencejournal.com/)
+
+[<img class="center-block" src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
+'
+[<img class="center-block" src="/src/cloud/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
+
+[<img class="center-block" src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
+
+[<img class="center-block" src="/src/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" />](http://www.penguincomputing.com/)
+
+<br /><br />
+
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md'>)
 
 <br />
 
-<table>
-  <tr>
-    <td style=" border: none; text-align: center;"> <a href='/src/events/gcc2014/sponsor-exhibit/index.md'><img src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" />](http://bio.maryland.gov/)
 
+<br /><br />
 
-<div class='center'>
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+
+[<img class="center-block" src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
+
+<div class="text-center">
 **[Training Day](/src/events/gcc2014/training-day/index.md) Sponsor**
 </div>
-<br />
-
-<div class='center'>![](/src/events/gcc2013/sponsorships/HostsBanner.png)
 
 <br />
-<a href='http://biolchem.bs.jhmi.edu/'><img src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a> &nbsp; 
-<a href='http://jhu.edu'><img src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" /></a><br /><br />
-<a href='http://epigenetics.jhu.edu/'><img src="/src/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" /></a>
-</div>
+
+<img class="center-block" src="/src/events/gcc2013/sponsorships/HostsBanner.png" alt="Hosts and funding agencies" />
+
+[<img class="center-block" src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
+
+[<img class="center-block" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" />](http://jhu.edu)
+
+[<img class="center-block"  src="/src/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" />](http://epigenetics.jhu.edu/)
+
 <br />
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) or [exhibitor](/src/events/gcc2014/sponsor-exhibit/index.md#exhibitor).*
+
+<br />
 
 {{> Events/GCC2014/Footer }}
