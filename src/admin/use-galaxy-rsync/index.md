@@ -57,7 +57,7 @@ Genomes are organized in directories by reference genome **dbkey**. If you are n
 
 ## Location (*.loc) Files
 
-To retrieve an exact copy of the ***.loc** files used by the tools on **[http://usegalaxy.org](http://usegalaxy.org)**, execute this rsync command:
+To retrieve an exact copy of the ***.loc** files used by the tools on **[https://usegalaxy.org](https://usegalaxy.org)**, execute this rsync command:
 
 ```
 $ rsync -avzP rsync://datacache.g2.bx.psu.edu/location .

@@ -86,6 +86,14 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
     <a href='/src/images/galaxy-logos/GalaxyNews.png'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="" width="800" /></a>
 
+## Galactic Blog
+
+* Rectangular
+  * [400x156 pixels](/src/images/galaxy-logos/galactic-blog-400.png), [2048x800 pixels](/src/images/galaxy-logos/galactic-blog.png)
+
+    [<img src="/src/images/galaxy-logos/galactic-blog-400.png" />](/src/images/galaxy-logos/galactic-blog-400.png)
+
+
 ## Galaxy Training Network
 
 * Icon, Transparent background
