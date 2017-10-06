@@ -2,7 +2,7 @@
 
 {{> Events/GCC2013/LinkBox }}
 
-The [2013 Galaxy Community Conference](/src/events/gcc2013/program//index.md) will start with a [Training Day](/src/events/gcc2013/program/TrainingDay/index.md) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2013/program/Lightning/index.md), [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2013/program/BoF/index.md), and networking time.
+The [2013 Galaxy Community Conference](/src/events/gcc2013/program//index.md) will start with a [Training Day](/src/events/gcc2013/program/TrainingDay/index.md) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2013/program/lightning/index.md), [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2013/program/bof/index.md), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  However, unlike in previous years, talks will be grouped and scheduled in sessions focusing on particular topics.
 
