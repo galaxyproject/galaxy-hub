@@ -15,7 +15,6 @@ sponsors:
 ## Comments
 
 * ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
-* See You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
 
 ## User Support
 
@@ -24,6 +23,12 @@ sponsors:
 ## Quotas
 
 * Supports anonymous access and creation of user logins.
+
+## Citation(s)
+
+* You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
+* [ChimeRScope tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EChimeRScope) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

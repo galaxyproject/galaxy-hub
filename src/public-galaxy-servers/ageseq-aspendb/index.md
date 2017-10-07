@@ -18,7 +18,6 @@ sponsors:
 * AGEseq can be used for SNP calling.
 * AGEseq supports NGS short reads as well as Sanger sequences in multiple file formats
 * AGEseq is also available from the [Galaxy Tool Shed](https://toolshed.g2.bx.psu.edu/) for installation into your local Galaxy instance.
-* Xue LJ and Tsai CJ (2015) AGEseq: Analysis of Genome Editing by Sequencing. *Molecular Plant.* doi:10.1016/j.molp.2015.06.001
 
 ## User Support
 
@@ -26,6 +25,10 @@ sponsors:
 
 ## Quotas
 
+## Citation(s)
+
+* Xue LJ and Tsai CJ (2015) AGEseq: Analysis of Genome Editing by Sequencing. *Molecular Plant.* doi:10.1016/j.molp.2015.06.001
+* [AGEseq tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EAGEseq) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 
