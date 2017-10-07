@@ -9,6 +9,7 @@ title: Galaxy Configuration for Admins
 * [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md)
 * [Running Galaxy Tools on a Cluster](/src/admin/config/performance/cluster/index.md)
 * [Galaxy Job Configuration](/src/admin/config/jobs/index.md)
+* [Authentication with LDAP/AD](/src/admin/config/external-user-auth/index.md)
 * [Apache Proxy](/src/admin/config/apache-proxy/index.md)
   * [Apache External User Auth](/src/admin/config/apache-external-user-auth/index.md)
 * [Nginx Proxy](/src/admin/config/nginx-proxy/index.md)
@@ -20,9 +21,6 @@ title: Galaxy Configuration for Admins
 * [Set up Visualizations](/src/visualization-setup/index.md)
 * [Collecting Job Metrics](/src/admin/config/job-metrics/index.md)
 
-## External User Databases
-
-* [Authentication with LDAP/AD](/src/admin/config/external-user-auth/index.md)
 
 ## FTP
 
