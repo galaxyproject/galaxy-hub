@@ -24,6 +24,8 @@ sponsors:
 
 * Disk space is limited to 1 GB for unregistered users, registered users are free to use up to 10GB (to have more space, please contact [CBiB Admin](mailto:admin DOT cbib AT u-bordeaux2 DOT fr)). The maximum file size to upload is 5 GB. FTP is not operational at this time. Data will be kept 60 days after deletion from history or library.
 
+## Citation(s)
+
 ## Sponsor(s)
 
 * [Centre de Bioinformatique de Bordeaux](http://www.cbib.u-bordeaux2.fr/)
