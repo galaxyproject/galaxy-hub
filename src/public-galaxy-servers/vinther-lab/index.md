@@ -16,7 +16,6 @@ sponsors:
 
 * From [Kielpinski, et al.](http://www.sciencedirect.com/science/article/pii/S0076687915000713):
 *   a collection of tools, which allow raw sequencing reads to be converted to normalized probing values using different published strategies. In addition, we also provide tools for visualization of the probing data in the UCSC Genome Browser and for converting RNA coordinates to genomic coordinates and vice versa. The collection is implemented as functions in the R statistical environment and as tools in the Galaxy platform, making them easily accessible for the scientific community.
-* [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://www.sciencedirect.com/science/article/pii/S0076687915000713) by Lukasz Jan Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, * Methods in Enzymology*, DOI: 10.1016/bs.mie.2015.01.014:
 
 ## User Support
 
@@ -24,6 +23,12 @@ sponsors:
 ## Quotas
 
 * Must have a login to use the server; anyone can create a login.
+
+## Citation(s)
+
+* [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://www.sciencedirect.com/science/article/pii/S0076687915000713) by Lukasz Jan Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, * Methods in Enzymology*, DOI: 10.1016/bs.mie.2015.01.014:
+* [Vinther Lab tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EVinther%20Lab) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

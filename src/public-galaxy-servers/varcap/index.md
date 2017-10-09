@@ -14,7 +14,6 @@ sponsors:
 
 ## Comments
 
-* Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2017) [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997). *PeerJ* 5:e2997
 
 ## User Support
 
@@ -23,6 +22,13 @@ sponsors:
 ## Quotas
 
 * Must have a login to use the server; anyone can create a login.
+
+## Citation(s)
+
+* [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997). Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2017), *PeerJ* 5:e2997
+* [Genotyping of evolving prokaryotic populations](https://doi.org/10.7287/peerj.preprints.2449v1). Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2016), *PeerJ Preprints* 4:e2449v1 
+* [VarCap tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EVarCap) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 
