@@ -33,7 +33,7 @@ sponsors:
 
 # Citation(s)
 
-* [SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172), Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, and Gabriel AB Marais, *Genome Biology and Evolution* (2016), doi: 10.1093/gbe/evw172 "
+* [SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172), Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, and Gabriel AB Marais, *Genome Biology and Evolution* (2016), doi: 10.1093/gbe/evw172
 * [PRABI tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EPRABI) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)

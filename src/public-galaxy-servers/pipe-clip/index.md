@@ -1,5 +1,5 @@
 ---
-title: "CLIP"
+title: "PIPE-CLIP"
 url: "http://pipeclip.qbrc.org/"
 server_group: "tool-publishing"
 server_links: 
@@ -27,7 +27,7 @@ sponsors:
 
 ## Citation(s)
 
-  * [PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract) by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
+* [PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract) by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
 * [PIPE-CLIP tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EPIPE-CLIP) in [Galaxy Publication library](/src/publication-library/index.md).
 
 

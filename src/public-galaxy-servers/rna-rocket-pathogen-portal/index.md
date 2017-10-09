@@ -30,7 +30,6 @@ sponsors:
 ## Citation(s)
 
 * [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](http://bioinformatics.oxfordjournals.org/content/early/2015/02/02/bioinformatics.btv002.full), by Warren *et al.*,  *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv002
-* [Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.*, *Tuberculosis*, Volume 93, Issue 1, January 2013, Pages 12–17
 * [RNA-Rocket tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERNA-Rocket) in [Galaxy Publication library](/src/publication-library/index.md).
 
 

@@ -28,7 +28,7 @@ sponsors:
 
 ## Citation(s)
 
-* Audrey M. Michel, James P.A. Mullan, Vimalkumar Velayudhan, Patrick B.F. O'Connor, Claire A. Donohue & Pavel V. Baranov (2016): [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](http://www.tandfonline.com/doi/abs/10.1080/15476286.2016.1141862), *RNA Biology*, DOI: 10.1080/15476286.2016.1141862
+* [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](http://www.tandfonline.com/doi/abs/10.1080/15476286.2016.1141862), Audrey M. Michel, James P.A. Mullan, Vimalkumar Velayudhan, Patrick B.F. O'Connor, Claire A. Donohue & Pavel V. Baranov (2016), *RNA Biology*, DOI: 10.1080/15476286.2016.1141862
 * [RiboGalaxy tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERiboGalaxy) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
