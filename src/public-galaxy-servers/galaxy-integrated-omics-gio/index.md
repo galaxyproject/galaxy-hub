@@ -16,7 +16,6 @@ sponsors:
 
 * Proteomics Informed by Transcriptomics (PIT) methodology is described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869)
 * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
-* See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
 
 ## User Support
 
@@ -28,6 +27,13 @@ sponsors:
 * For draft documentation please visit the [GIO repository](https://code.google.com/p/gio-repository/).
 
 ## Quotas
+
+
+## Citation(s)
+
+* See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
+* [GIO tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGIO) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 
 ## Sponsor(s)

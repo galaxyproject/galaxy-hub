@@ -26,6 +26,8 @@ sponsors:
 * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
 * The default quota for new users is 50GB.
 
+## Citation(s)
+
 ## Sponsor(s)
 
 * [GenOuest](http://www.genouest.org/)

@@ -24,6 +24,8 @@ sponsors:
 * [MSI Email Support](mailto:help@msi.umn.edu)
 * We have created a [publicly-available Google Group](http://z.umn.edu/galaxypgroup) to facilitate questions, feedback and suggestions for Galaxy-P from both users and developers.  Please [request to join the group](http://z.umn.edu/galaxypgroup) to stay updated and be involved.
 * Please follow our Galaxy-P twitter account, [@usegalaxyp](http://twitter.com/usegalaxyp).  It’s a great way to stay updated on the most recent developments:
+* [Galaxy-P presentations and posters](http://galaxyp.org/conference-presentations/)
+
 
 ## Quotas
 
