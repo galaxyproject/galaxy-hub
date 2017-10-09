@@ -14,13 +14,17 @@ sponsors:
 
 ## Comments
 
-* See "[The Genomic HyperBrowser: an analysis web server for genome-scale data](http://nar.oxfordjournals.org/content/41/W1/W133.full)," by Sandve, *et al.*,  *Nucl. Acids Res*. (1 July 2013) 41 (W1): W133-W141.
-
 ## User Support
 
 * [Help documentation](http://sites.google.com/site/hyperbrowserhelp/) and [email support](mailto:hyperbrowser DASH requests AT usit DOT uio DOT no)
 
 ## Quotas
+
+
+## Citation(s)
+
+* [The Genomic HyperBrowser: an analysis web server for genome-scale data](http://nar.oxfordjournals.org/content/41/W1/W133.full), by Sandve, *et al.*,  *Nucl. Acids Res*. (1 July 2013) 41 (W1): W133-W141.
+* [GenomicHyperbrowser tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGenomicHyperbrowser) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)
