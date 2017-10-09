@@ -1,12 +1,12 @@
 ---
 title: "Galaxy Test"
-url: "None"
+url: https://test.galaxyproject.org/
 server_group: "general"
 server_links: 
   - link_url: "https://test.galaxyproject.org/"
     link_text: "Galaxy Test"
 summary: "Beta version of Galaxy Main "
-image: "None"
+image: 
 user_support: 
 quotas: 
 sponsors: 

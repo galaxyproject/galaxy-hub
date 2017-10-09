@@ -26,7 +26,7 @@ sponsors:
 
 ## Citation(s)
 
-* You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda; [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
+* [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkx315). You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda. *Nucleic Acids Research* 2017 gkx315. doi: 10.1093/nar/gkx315
 * [ChimeRScope tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EChimeRScope) in [Galaxy Publication library](/src/publication-library/index.md).
 
 

@@ -1,5 +1,5 @@
 ---
-title: "QBRC Galaxy and PIPE-CLIP"
+title: "QBRC Galaxy"
 url: "http://www.galaxy.qbrc.org/"
 server_group: "tool-publishing"
 server_links: 
@@ -29,9 +29,9 @@ sponsors:
 
 ## Citation(s)
 
-  * [A Model-Based Approach to Identify Binding Sites in CLIP-Seq Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093248) by Wang, *et al.*, *[PLoS ONE](http://www.plosone.org/)* 9(4): e93248. doi:10.1371/journal.pone.0093248
-  * [Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://onlinelibrary.wiley.com/doi/10.1002/sim.6066/abstract) by Yang, *et al.*, *Statistics in Medicine*, doi: 10.1002/sim.6066
-  * [Design and bioinformatics analysis of genome-wide CLIP experiments](http://nar.oxfordjournals.org/content/early/2015/05/09/nar.gkv439.full) by Wang, *et al.*, *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv439
+* [A Model-Based Approach to Identify Binding Sites in CLIP-Seq Data](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0093248) by Wang, *et al.*, *[PLoS ONE](http://www.plosone.org/)* 9(4): e93248. doi:10.1371/journal.pone.0093248
+* [Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://onlinelibrary.wiley.com/doi/10.1002/sim.6066/abstract) by Yang, *et al.*, *Statistics in Medicine*, doi: 10.1002/sim.6066
+* [Design and bioinformatics analysis of genome-wide CLIP experiments](http://nar.oxfordjournals.org/content/early/2015/05/09/nar.gkv439.full) by Wang, *et al.*, *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv439
 * [QBRC tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EQBRC) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)

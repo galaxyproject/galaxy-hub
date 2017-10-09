@@ -26,7 +26,8 @@ sponsors:
 
 ## Citation(s)
 
-* [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19  doi:10.1186/s13742-015-0060-y
+* [VirAmp: a galaxy-based viral genome assembly pipeline](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0060-y), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19  doi:10.1186/s13742-015-0060-y
+* [VirAmp tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EVirAmp) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)

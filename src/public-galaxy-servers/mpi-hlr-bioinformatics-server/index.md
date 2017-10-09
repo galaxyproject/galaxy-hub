@@ -31,8 +31,8 @@ sponsors:
 
 ## Citation(s)
 
-* "[MIRPIPE – quantification of microRNAs in niche model organisms](http://bit.ly/1t4oQvo),"  C. Kuenne, J. Preussner, M. Herzog, T. Braun, M. Looso, *Bioinformatics* (26 August 2014), btu573, doi:10.1093/bioinformatics/btu573
-* "[ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](http://www.epigeneticsandchromatin.com/content/8/1/51)," Jens Preussner, Julia Bayer, Carsten Kuenne and Mario Looso, *Epigenetics & Chromatin* 2015, 8:51  doi:10.1186/s13072-015-0045-1
+* [MIRPIPE – quantification of microRNAs in niche model organisms](http://bit.ly/1t4oQvo), C. Kuenne, J. Preussner, M. Herzog, T. Braun, M. Looso, *Bioinformatics* (26 August 2014), btu573, doi:10.1093/bioinformatics/btu573
+* [ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](http://www.epigeneticsandchromatin.com/content/8/1/51), Jens Preussner, Julia Bayer, Carsten Kuenne and Mario Looso, *Epigenetics & Chromatin* 2015, 8:51  doi:10.1186/s13072-015-0045-1
 * [MPI-HLR tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EMPI-HLR) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
