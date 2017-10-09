@@ -22,6 +22,8 @@ sponsors:
 
 * Requires login, anyone can create a login.
 
+## Citation(s)
+
 ## Sponsor(s)
 
 * School of Medicine, [Master in Bioinformatics and System Biology](http://www2.sep.ucr.ac.cr/MaestriasAcademicas/CBIOMEDICAS/Infodescrip.html) and [BREL (Bioinformatics Research Laboratory)](http://www.ucrbrel.com/), [University of Costa Rica](http://www.ucr.ac.cr/)
