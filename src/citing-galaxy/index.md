@@ -12,14 +12,22 @@ title: Citing Galaxy
 <a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src="/src/citing-galaxy/NatureBiotech201502Cover.gif" alt="Nature Biotechnology" height="125" /></a>
 </div>
 
-
-
+<br />
 
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](/src/citing-galaxy/index.md#primary-publication) for project wide citations.  There are also several [publications on more specific topics](/src/citing-galaxy/index.md#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](/src/citing-galaxy/index.md#galaxy-project-publications-by-year).
 
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, we also request that you specify which instance(s) of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/public-galaxy-servers/index.md), a local install, or on a [cloud install](/src/cloud/index.md)?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/public-galaxy-servers/index.md) or [Galaxy services](/src/public-galaxy-servers/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
+
+Some excellent exmples (**emphasis added**):
+
+* Used usegalaxy.org, from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
+  * *The sequencing data were uploaded to the Galaxy web platform, and* ***we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))***.
+* Used a public server, from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
+  * *RAW files generated directly from the mass spectrometer **were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>**.*
+* Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
+  * *All analyses* ***were done on the Galaxy instance of the IHPE [http://bioinfo.univ-perp.fr](http://bioinfo.univ-perp.fr/)) [[28](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789#pntd.0005789.ref028)].***
 
 ## Primary Publication
 
@@ -69,6 +77,8 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 ### 2017
 
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen,
+[Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). **[Practical computational reproducibility in the life sciences](https://www.biorxiv.org/content/early/2017/10/10/200683)**, *bioRxiv* 200683; doi: https://doi.org/10.1101/200683 
 1. Gil Alterovitz, Dennis A Dean II, Carole Goble, Michael R Crusoe, Stian Soiland-Reyes, Amanda Bell, Anais Hayes, Charles Hadley S King IV, Elaine Johanson, Elaine E Thompson, Eric Donaldson, Hsinyi S Tsang, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Jonas S Almeida, Lydia Guo, Mark Walderhaug, Paul Walsh, Robel Kahsay, Toby Bloom, Yuching Lai, Vahan Simonyan, Raja Mazumder. **[Enabling Precision Medicine via standard communication of NGS provenance, analysis, and results](https://www.biorxiv.org/content/early/2017/09/22/191783)**, *bioRxiv* 191783; doi: 10.1101/191783 
 1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
