@@ -1,9 +1,9 @@
 ---
-date: '2017-10-09'
+date: '2017-10-10'
 title: "SciPy and scikit-learn integration into Galaxy"
 tease: ""
 authors: "Björn Grüning"
-image: /src/blog/2017-10-09-scipy-galaxy/sci-py-kit-learn.png
+image: /src/blog/2017-10-10-scipy-galaxy/sci-py-kit-learn.png
 ---
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),
