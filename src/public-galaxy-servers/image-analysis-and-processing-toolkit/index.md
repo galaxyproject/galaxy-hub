@@ -26,6 +26,10 @@ sponsors:
 
 * A login is required to access the site.  Logins are free and can be [requested via email](mailto:admin@cloudimaging.net.au)
 
+## Citation(s)
+
+
+
 ## Sponsor(s)
 
 * [NeCTAR](http://www.nectar.org.au) and [CSIRO](http://www.csiro.au/)

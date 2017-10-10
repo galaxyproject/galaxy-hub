@@ -14,7 +14,7 @@ sponsors:
 
 ## Comments
 
-* From "[CART – a chemical annotation retrieval toolkit](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract)" by Samy Deghou, Georg Zeller, Murat Iskar, Marja Driessen, Mercedes Castillo, Vera van Noort, and Peer Bork. *Bioinformatics* (2016), doi: 10.1093/bioinformatics/btw233
+* From "[Deghou et al.](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract)
 *   "it matches an input list of chemical names into a comprehensive reference space to assign unambiguous chemical identifiers. In this unified space, bioactivity annotations can be easily retrieved from databases covering a wide variety of chemical effects on biological systems. Subsequently, CART can determine annotations enriched in the input set of chemicals and display these in tabular format and interactive network visualizations, thereby facilitating integrative analysis of chemical bioactivity data."
 * Source code and an easy-to-install command line tool are also available.
 
@@ -25,6 +25,11 @@ sponsors:
 ## Quotas
 
 * Supports anonymous access and creation of user logins.
+
+## Citation(s)
+
+* [CART – a chemical annotation retrieval toolkit](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract), Samy Deghou, Georg Zeller, Murat Iskar, Marja Driessen, Mercedes Castillo, Vera van Noort, and Peer Bork. *Bioinformatics* (2016), doi: 10.1093/bioinformatics/btw233
+* [CART tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ECART) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

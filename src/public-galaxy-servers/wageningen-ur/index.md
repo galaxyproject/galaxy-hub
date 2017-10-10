@@ -25,6 +25,11 @@ sponsors:
 
 * Requires login, anyone can create a login.
 
+## Citation(s)
+
+* [WUR tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EWUR) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 ## Sponsor(s)
 
 * DLO Research institutes from [Wageningen UR](http://www.wur.nl)

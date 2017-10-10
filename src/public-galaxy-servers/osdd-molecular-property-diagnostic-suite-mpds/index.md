@@ -22,6 +22,11 @@ sponsors:
 
 ## Quotas
 
+## Citation(s)
+
+* [Assessing therapeutic potential of molecules: molecular property diagnostic suite for tuberculosis (MPDSTB)](https://doi.org/10.1007/s12039-017-1268-4), Gaur, A.S., Bhardwaj, A., Sharma, A. et al. *Journal of Chemical Sciences* (2017) 129: 515. doi:10.1007/s12039-017-1268-4
+* [OSDD MPDS tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EOSDD%20MPDS) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

@@ -1827,7 +1827,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> April 1 </th>
     <td> <em><a href='/src/events/stanford-workshop/2015-04-01/index.md'>Workshop: NGS Analysis and Workflows using Galaxy</a></em> </td>
     <td> <a href='http://scgpm.stanford.edu/'>Stanford Center for Genomics & Personalized Medicine, Stanford University, Palo Alto, CA, United States</a> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> </div> <a href='http://gbsc.stanford.edu/gbscteam.html'>Ramesh V Nair</a>, <a href='http://scgpm.stanford.edu/staff.html'>Somalee Datta</a>, <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://gbsc.stanford.edu/gbscteam.html'>Ramesh V Nair</a>, <a href='http://scgpm.stanford.edu/staff.html'>Somalee Datta</a>, <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1916,7 +1916,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> March 2-3 </th>
     <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop on Bioinformatics Methods in Genomics</a></em> </td>
     <td> <a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div></div> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -3947,8 +3947,8 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; 
 <a href='/src/events/galaxy-tour-de-france2012/index.md'><img src="/src/images/logos/GalaxyTourDeFranceLogo400.png" alt="Galaxy Tour de France 2012" height="100" /></a> &nbsp; 
 <a href='http://bioinformatics.ca/workshops/2012/informatics-high-throughput-sequencing-data'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src="/src/images/logos/LilleStack.png" alt="Galaxy: un environnement d'analyses bioinformatiques" height="100" /></a> <a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height="60" /></a>   <a href='/src/events/ismb2012/index.md'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a>   <a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> 
-<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
-<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
+<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>
+<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>
 <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 <a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
