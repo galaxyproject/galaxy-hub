@@ -28,6 +28,12 @@ sponsors:
 
 * Account creation required.  Anyone can create an account. 
 
+## Citation(s)
+
+* [Antigen Receptor Galaxy: A User-Friendly, Web-Based Tool for Analysis and Visualization of T and B Cell Receptor Repertoire Data](https://doi.org/10.4049/jimmunol.1601921), Hanna IJspeert, Pauline A. van Schouwenburg, David van Zessen, Ingrid Pico-Knijnenburg, Andrew P. Stubbs and Mirjam van der Burg
+J Immunol May 15, 2017, 198 (10) 4156-4165; DOI:10.4049/jimmunol.1601921 
+* [ARGalaxy tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EARGalaxy) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).

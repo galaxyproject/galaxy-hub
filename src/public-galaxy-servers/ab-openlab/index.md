@@ -15,7 +15,6 @@ sponsors:
 ## Comments
 
 * The assigned fingerprints enables FROG to make the large number of genomic variations computationally efficient in terms of memory requirements and faster retrieval. This interface has been designed to explore the structure of FROG fingerprints and search mitochondrial variations using fingerprints with a combination of various FROG properties.
-* See [FROG - Fingerprinting Genomic Variation Ontology](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134693), by E. Abinaya, Pankaj Narang, Anshu Bhardwaj, *PLoS ONE* 10(8): e0134693. doi:10.1371/journal.pone.0134693
 
 ## User Support
 
@@ -23,6 +22,11 @@ sponsors:
 ## Quotas
 
 * Anyone can create an account.  FROG can also be accessed anonymously.
+
+## Citation(s)
+
+* [FROG - Fingerprinting Genomic Variation Ontology](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134693), by E. Abinaya, Pankaj Narang, Anshu Bhardwaj, *PLoS ONE* 10(8): e0134693. doi:10.1371/journal.pone.0134693
+* [AB-OpenLab tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EAB-OpenLab) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

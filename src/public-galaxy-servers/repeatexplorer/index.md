@@ -24,6 +24,12 @@ sponsors:
 
 * Disk space is limited to 200MB for unregistered users. Registered users are free to use up to 50GB.
 
+## Citation(s)
+
+* [RepeatExplorer: a Galaxy-based web server for genome-wide characterization of eukaryotic repetitive elements from next-generation sequence reads](https://doi.org/10.1093/bioinformatics/btt054), Petr Novák, Pavel Neumann, Jiří Pech, Jaroslav Steinhaisl, Jiří Macas,
+*Bioinformatics*, Volume 29, Issue 6, 15 March 2013, Pages 792–793, doi:10.1093/bioinformatics/btt054
+* [RepeatExplorer tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)

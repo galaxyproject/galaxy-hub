@@ -30,6 +30,10 @@ sponsors:
 
 ## Quotas
 
+## Citation(s)
+
+* [ZBIT Bioinformatics Toolbox: A Web-Platform for Systems Biology and Expression Data Analysis](    https://doi.org/10.1371/journal.pone.0149263). Michael Römer, Johannes Eichner, Andreas Dräger, Clemens Wrzodek, Finja Wrzodek, Andreas Zell, *PLOS One*, February 16, 2016 doi:10.1371/journal.pone.0149263
+* [ZBIT tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EZBIT) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

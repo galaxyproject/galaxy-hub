@@ -30,7 +30,7 @@ block content
                         a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
-                h2: a( href="/Blog/" ) Blog
+                h2: a( href="/blog/" ) Blog
                 each item in blog.slice(0,2)
                     p
                         a( href=item.link ) #{item.title}

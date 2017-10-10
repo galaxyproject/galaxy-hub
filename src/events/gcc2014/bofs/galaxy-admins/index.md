@@ -3,23 +3,19 @@ title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
 ---
 {{> Events/GCC2014/Header }}
 
-
-
-<div class='dictbox'>
- BoF:: **[GalaxyAdmins](/src/events/gcc2014/bofs/galaxy-admins/index.md)**
- Summary:: The now annual in-person gathering of the [GalaxyAdmins Community](/src/community/galaxy-admins/index.md).
- Audience:: If you manage a Galaxy instance, then this BoF is for you.  
- When:: **Wednesday, July 2, 5:45pm**
- Where:: **Multipurpose Room 324**
- Contact:: [Dave Clements](/src/people/dave-clements/index.md)
-</div>
-
 {{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
 This page describes the **[GalaxyAdmins](/src/GalaxyAdmins/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+
+
+When: **Wednesday, July 2, 5:45pm**
+
+Where: **Multipurpose Room 324**
+
+Contact: [Dave Clements](/src/people/dave-clements/index.md)
 
 # Description
 

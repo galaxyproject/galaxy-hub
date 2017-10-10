@@ -16,7 +16,7 @@ sponsors:
 
 ## Comments
 
-* From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+* From [Le Gras et al.](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf)
   * provides access to up-to-date tools and algorithms such as those devoted to Next Generation Sequencing (NGS) data analysis of:
     * Epigenome: MACS, Homer
     * Genomic sequence: GATK, Samtools, BEDtools, Picard
@@ -41,6 +41,12 @@ sponsors:
 
 * You must be part of an academic research lab and provide a valid academic email address to get a personal GalaxEast account.  Write to galaxy@igbmc.fr to request an account.
 * Academic users are allocated 50GB.
+
+## Citation(s)
+
+* [J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf), poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+* [GalaxEast tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGalaxEast) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

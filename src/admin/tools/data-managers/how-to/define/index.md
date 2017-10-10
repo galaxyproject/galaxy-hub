@@ -17,7 +17,7 @@ Data Managers are composed of two components:
 
 ## Data Manager Configuration
 
-The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md). Each Data Manager can add entries to one or more [Tool Data Tables](/src/admin/tools/Data Tables/index.md). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
+The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md). Each Data Manager can add entries to one or more [Tool Data Tables](/src/admin/tools/Data%2520Tables.md). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
 
 ## Data Manager Tool
 
@@ -51,7 +51,7 @@ Where *galaxy_data_manager_data_path* defines the location to use for storing th
 ```xml
 <?xml version="1.0"?>
 <data_managers> <!-- The root element -->
-    <data_manager tool_file="data_manager/fetch_genome_all_fasta.xml" id="fetch_genome_all_fasta"> <data_managers> <!-- Defines a single Data Manager Tool that can update one or more Data Tables -->
+    <data_manager tool_file="data_manager/fetch_genome_all_fasta.xml" id="fetch_genome_all_fasta"> <!-- Defines a single Data Manager Tool that can update one or more Data Tables -->
         <data_table name="all_fasta"> <!-- Defines a Data Table to be modified. -->
             <output> <!-- Handle the output of the Data Manager Tool -->
                 <column name="value" /> <!-- columns that are going to be specified by the Data Manager Tool -->
@@ -68,7 +68,7 @@ Where *galaxy_data_manager_data_path* defines the location to use for storing th
         </data_table>
         <!-- additional data_tables can be configured from a single Data Manager -->
     </data_manager>
-</<data_managers>>
+</data_managers>
 ```
 
 

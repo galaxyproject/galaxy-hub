@@ -28,6 +28,12 @@ sponsors:
 * Datasets will be automatically deleted after 4 weeks.
 * Unused accounts will be automatically deleted after 8 weeks.
 
+## Citation(s)
+
+* [Nebula—a web-server for advanced ChIP-seq data analysis](https://doi.org/10.1093/bioinformatics/bts463), Valentina Boeva Alban Lermine Camille Barette Christel Guillouf Emmanuel Barillot. *Bioinformatics*, Volume 28, Issue 19, 1 October 2012, Pages 2517–2519, doi:10.1093/bioinformatics/bts463
+* [Nebula tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ENebula) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 ## Sponsor(s)
 
 * [Institut Curie](http://curie.fr)

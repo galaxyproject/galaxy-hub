@@ -14,8 +14,6 @@ sponsors:
 
 ## Comments
 
-* See [Context influences on TALE–DNA binding revealed by quantitative profiling](http://www.nature.com/ncomms/2015/150611/ncomms8440/full/ncomms8440.html) by Julia M. Rogers, Luis A. Barrera, Deepak Reyon, Jeffry D. Sander, Manolis Kellis, J Keith Joung & Martha L. Bulyk, *Nature Communications* 6,7440 doi:10.1038/ncomms8440
-
 ## User Support
 
 * [How to design a TALE to optimally target a sequence](http://thebrain.bwh.harvard.edu/SIFTED_Tutorial.pdf) tutorial
@@ -24,6 +22,10 @@ sponsors:
 
 ## Quotas
 
+## Citation(s)
+
+* [Context influences on TALE–DNA binding revealed by quantitative profiling](http://www.nature.com/ncomms/2015/150611/ncomms8440/full/ncomms8440.html) by Julia M. Rogers, Luis A. Barrera, Deepak Reyon, Jeffry D. Sander, Manolis Kellis, J Keith Joung & Martha L. Bulyk, *Nature Communications* 6,7440 doi:10.1038/ncomms8440
+* [SIFTED tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ESIFTED) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

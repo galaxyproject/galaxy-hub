@@ -17,7 +17,6 @@ sponsors:
 ## Comments
 
 * "PIA (Phylogenetically Informed Annotation) is a set of tools for the Galaxy Bioinformatics Platform. In general, PIA uses BLAST, an alignment program, and RAxML's read placement algorithm to put unknown sequences into pre-calculated phylogenetic trees. We provide 102 genes called LIT (Light Interaction Toolkit) - vision genes like phototransduction genets - for use in PIA."
-* "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract)," by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
 
 ## User Support
 
@@ -25,6 +24,11 @@ sponsors:
 * [Getting Started with PIA](https://www.youtube.com/watch?v=m23KxhxhTAE) screencast.
 
 ## Quotas
+
+## Citation(s)
+
+* [Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract), by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
+* [PIA tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EPIA) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)

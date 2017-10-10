@@ -30,6 +30,10 @@ sponsors:
 
 * The tools are available without account creation. However, you are strongly invited to create an account for having access to the history, saved analyses, datasets and workflows.
 
+## Citations
+
+* [Huttenhower tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EHuttenhower) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * [Huttenhower Lab](http://huttenhower.sph.harvard.edu/)

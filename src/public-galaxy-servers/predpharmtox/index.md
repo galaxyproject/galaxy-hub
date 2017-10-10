@@ -19,12 +19,17 @@ sponsors:
 * Implements
   * [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity,
   * ToxMap for visual representations of the toxicogenomic space occupied by a query signature
-* See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013)
 
 ## User Support
 
 
 ## Quotas
+
+
+## Citations
+
+* [Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf) by Schaal, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013)
+* [PredPharmTox tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EPredPharmTox) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)
