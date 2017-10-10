@@ -18,7 +18,6 @@ sponsors:
 * Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."
 * "The Galaxy server has been set up to facilitate access to our **`Dintor`** tools by biologists with little background in bioinformatics. A second, expert mode of invocation is given by command line access to the tool suite, which can be downloaded"
 * [Admin and deployment documentation is available](http://dintor.eurac.edu/doc/doc/index.html).
-* [Dintor: functional annotation of genomic and proteomic data](http://bit.ly/1OzzTvY), Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, Yuri D’Elia, Eva König, Erik Bernstein and Francisco S. Domingues, *BMC Genomics* 201516:1081 DOI: 10.1186/s12864-015-2279-5
 
 ## User Support
 
@@ -28,6 +27,11 @@ sponsors:
 ## Quotas
 
 * Anyone can create a login. Anonymous use is also supported.
+
+## Citation(s)
+
+* [Dintor: functional annotation of genomic and proteomic data](http://bit.ly/1OzzTvY), Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, Yuri D’Elia, Eva König, Erik Bernstein and Francisco S. Domingues, *BMC Genomics* 201516:1081 DOI: 10.1186/s12864-015-2279-5
+* [Dintor tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EDintor) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

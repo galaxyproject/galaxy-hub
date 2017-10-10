@@ -25,6 +25,12 @@ sponsors:
 ## Quotas
 
 
+## Citation(s)
+
+* [The Stem Cell Discovery Engine: an integrated repository and analysis system for cancer stem cell comparisons](https://doi.org/10.1093/nar/gkr1051), Shannan J. Ho Sui, Kimberly Begley, Dorothy Reilly, Brad Chapman, Ray McGovern, Philippe Rocca-Sera, Eamonn Maguire, Gabriel M. Altschuler, Terah A. A. Hansen, Ramakrishna Sompallae, Andrei Krivtsov, Ramesh A. Shivdasani, Scott A. Armstrong, Aedín C. Culhane, Mick Correll, Susanna-Assunta Sansone, Oliver Hofmann, Winston Hide. *Nucleic Acids Research*, Volume 40, Issue D1, 1 January 2012, Pages D984–D991, doi:10.1093/nar/gkr1051
+* [SCDE tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ESCDE) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 ## Sponsor(s)
 
 * [Hide Lab](http://web.me.com/winhide/Win_Hide_Lab/Home.html) @ [Harvard School of Public Health](http://www.hsph.harvard.edu/), [Harvard Stem Cell Institute](http://www.hsci.harvard.edu/).

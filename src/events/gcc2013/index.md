@@ -1,17 +1,28 @@
 ---
 title: GCC2013
-date: '2013-07-02'
-days: 4
+date: '2013-06-30'
+days: 3
+tease: "The 2013 gathering of the global Galaxy community"
+continent: EU
+location: "University of Oslo, Oslo Norway"
+location_url: http://www.uio.no/
+external_url:
+gtn: n
+contact: Organisers
+image: /src/images/logos/GCC2013Logo400.png
 ---
-{{> Events/GCC2013/Header }}
 
-{{> Events/GCC2013/LinkBox }}
+<br /><br />
+**[Watch the talks](http://vimeo.com/channels/581875)!  [See you at GCC2018](https://gccbosc2018.sched.com/)!**
+<br /><br />
 
 The **2013 Galaxy Community Conference (GCC2013)** was held at the University of Oslo in Oslo Norway, from 30 June through 2 July.
 
-The Galaxy Community Conference is an opportunity to participate in [two full days](/src/events/gcc2013/program/index.md) of presentations, discussion, [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md) and [Birds of a Feather sessions](/src/events/gcc2013/bof/index.md), all about high-throughput biology and the tools that support it.  The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, and more concurrent sessions.
+Galaxy Community Conference is an opportunity to participate in [two full days](/src/events/gcc2013/program/index.md) of presentations, discussion, [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md) and [Birds of a Feather sessions](/src/events/gcc2013/bof/index.md), all about high-throughput biology and the tools that support it.  The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, and more concurrent sessions.
 
-GCC2013 will continue the best of previous meetings (see [GCC2012](/src/events/gcc2013/GCC2012/index.md), [GCC2011](/src/events/gcc2013/GCC2011/index.md), [GDC2010](/src/events/gcc2013/GDC2010/index.md)), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
+GCC2013 will continue the [best of previous meetings](/src/gcc/index.md), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
+
+{{> Events/GCC2013/LinkBox }}
 
 ## Meeting Reports
 
@@ -58,77 +69,54 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 ## GCC2013 Sponsors
 
-<table>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" width="80%" /></a> </td>
-  </tr>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/src/events/gcc2013/sponsorships/index.md)
+
+[<img class="center-block" src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/)
 
 <br /><br />
 
-<table>
-  <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors" width="80%" /></a> </td>
-  </tr>
-  <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" /></a> </td>
-    <td style=" border: none; width: 10%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors" />](/src/events/gcc2013/sponsorships/index.md)
 
+[<img class="center-block" src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
+
+[<img class="center-block" src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/)
 
 <br /><br />
-<table>
-  <tr>
-    <td style=" border: none; text-align: center;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsor" width="95%" /></a> </td>
-    <td colspan=2 style=" border: none; text-align: center;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors" width="95%" /></a> </td>
-  </tr>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="40%" /></a> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.illumina.com/'><img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" width="160" /></a> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="150" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsor" />](/src/events/gcc2013/sponsorships/index.md)
 
 <br />
 
-<table>
-  <tr>
-    <td> </td>
-    <td style=" border: none; text-align: center;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors" width="80%" /></a> </td>
-  </tr>
-  <tr>
-    <td> </td>
-    <td style=" text-align: center; border: none;"> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="50%" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" />](http://www.gigasciencejournal.com/)
+
+<br /><br />
+
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors" />](/src/events/gcc2013/sponsorships/index.md)
+  
+[<img class="center-block" src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" width="160" />](http://www.illumina.com/)
 
 <br />
 
-<table>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/sponsorships/index.md'><img src="/src/events/gcc2013/sponsorships/HostsBanner.png" alt="Hosts and Funding Agencies" width="80%" /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="150" />](http://globus.org/genomics)
 
+<br /><br />
 
-<table>
-  <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/src/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=120 /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/src/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/src/images/logos/FUGE.png" alt="Functional Genomics" height=120 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=120 /></a> </td>
-  </tr>
-  <tr>
-    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo"  /></a> </td>
-  </tr>
-</table>
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors" />](/src/events/gcc2013/sponsorships/index.md)
 
+[<img class="center-block" src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="200" />](http://aws.amazon.com/)
 
+<br />
+
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/HostsBanner.png" alt="Hosts and Funding Agencies" />](/src/events/gcc2013/sponsorships/index.md)
+
+[<img class="center-block" src="/src/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height="120" />](http://www.uio.no/english/research/interfaculty-research-areas/mls/)
+
+[<img class="center-block" src="/src/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" />](http://www.forskningsradet.no/english/)
+
+[<img class="center-block" src="/src/images/logos/FUGE.png" alt="Functional Genomics" height="120" />](http://www.bioinfo.no/about/)
+
+[<img class="center-block" <img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" />](http://www.elixir-europe.org/)
+
+[<img class="center-block" <img src="/src/images/logos/UiOLogo.png" alt="University of Oslo"  />](http://uio.no/)
 <br />
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2013/sponsorships/index.md).*

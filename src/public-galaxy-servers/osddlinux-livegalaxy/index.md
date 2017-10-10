@@ -26,6 +26,11 @@ sponsors:
 ## Quotas
 
 
+## Citation(s)
+
+* [QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](https://doi.org/10.1371/journal.pone.0101079), Jagat Singh Chauhan, Sandeep Kumar Dhanda, Deepak Singla, Open Source Drug Discovery Consortium, Subhash M. Agarwal, Gajendra P. S. Raghava. *PLOS One*  Published: July 3, 2014 doi:10.1371/journal.pone.0101079
+* [OSDDlinux tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EOSDDlinux) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * The [Open Source Drug Discovery Project](http://www.osdd.net/) and the [OSDD Linux Project](http://osddlinux.osdd.net/) under the direction of [Dr. GPS Raghava](http://www.imtech.res.in/raghava/about.html) of the [CSIR-Institute of Microbial Technology (IMTECH)](http://www.imtech.res.in/).

@@ -15,7 +15,6 @@ sponsors:
 ## Comments
 
 * Graphs can be exported to [Cytoscape](http://www.cytoscape.org/), OWL, and [ShEx](http://www.w3.org/2001/sw/wiki/ShEx).
-* See "[RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](http://www.jbiomedsem.com/content/6/1/39/)" by van Dam *et al.*, *Journal of Biomedical Semantics* 2015, 6:39  (2013)
 
 ## User Support
 
@@ -25,6 +24,13 @@ sponsors:
 
 * Server can be used by anyone, but you'll need to create an account.
 * The RDF resource is limited to 20,000,000 lines.
+
+## Citation(s)
+
+* [RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](http://www.jbiomedsem.com/content/6/1/39/) by van Dam *et al.*, *Journal of Biomedical Semantics* 2015, 6:39  (2013)
+* [RDF2Graph tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERDF2Graph) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 
 ## Sponsor(s)
 

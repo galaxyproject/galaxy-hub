@@ -26,6 +26,11 @@ sponsors:
 * There is NO backup of data inside this galaxy server.
 * Collaboration partner jobs have higher priority on the system.
 
+## Citation(s)
+
+* [A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
+* [Biomina tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBiomina) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)

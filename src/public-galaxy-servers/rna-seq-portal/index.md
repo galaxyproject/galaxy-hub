@@ -21,7 +21,6 @@ sponsors:
   * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
   * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
   * build a web portal that enable RNA-seq based transcriptomics analysis in aforementioned animal species.
-    * [Web-based bioinformatics workflows for end-to-end RNA-seq data computation and analysis in agricultural animal species](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3118-z), Weizhong Li, R. Alexander Richter, Yunsup Jung, Qiyun Zhu and Robert W. Li. *BMC Genomics* 2016 17:761 DOI: 10.1186/s12864-016-3118-z
 
 ## User Support
 
@@ -29,6 +28,11 @@ sponsors:
 * [Web support](http://weizhong-lab.ucsd.edu/RNA-seq/contact/)
 
 ## Quotas
+
+## Citation(s)
+
+* [Web-based bioinformatics workflows for end-to-end RNA-seq data computation and analysis in agricultural animal species](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3118-z), Weizhong Li, R. Alexander Richter, Yunsup Jung, Qiyun Zhu and Robert W. Li. *BMC Genomics* 2016 17:761 DOI: 10.1186/s12864-016-3118-z
+* [RNA-Seq Portal tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERNA-Seq Portal) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)

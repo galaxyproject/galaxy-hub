@@ -1,5 +1,5 @@
 ---
-title: Galaxy @ [PAG 2016](http://www.intlpag.org/)
+title: "Galaxy @ PAG 2016"
 ---
 <div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="100" /></a>
 </div>
@@ -8,7 +8,7 @@ title: Galaxy @ [PAG 2016](http://www.intlpag.org/)
 
 Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), being held in San Diego, California, United States, January 9-13.  This page will describe everything related to Galaxy that is happening at PAG that we know about.  If you know of something else, then [please tell us about it](mailto:outreach AT galaxyproject DOT org).
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Time </th>
@@ -24,9 +24,6 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3093'>Forest Tree</a>, Sunrise - Meeting House </td>
     <td> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Person/34155'>Emily Grau</a> </td>
-  </tr>
-  <tr>
-    <th colspan=6> </th>
   </tr>
   <tr>
     <th rowspan=5> Monday<br />January 11 </th>
@@ -62,18 +59,12 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Person/40214'>Ming Chen</a> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
-  </tr>
-  <tr>
     <th> Tuesday<br />January 12 </th>
     <td style=" text-align: center;"> 4:00-6:10</td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098'>Galaxy for SNP and Variant Data Analysis</a> </td>
     <td> Workshop, California Room </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
-  </tr>
-  <tr>
-    <th colspan=6> </th>
   </tr>
   <tr>
     <th rowspan=2> Wednesday<br />January 13 </th>

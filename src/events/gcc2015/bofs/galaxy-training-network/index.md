@@ -3,20 +3,16 @@ title: Galaxy Training Network Meetup
 ---
 {{> Events/GCC2015/Header }}
 
-
-
-<div class='dictbox'>
- BoF:: [Galaxy Training Network](/src/events/gcc2015/bofs/galaxy-training-network/index.md)
- Summary:: A BoF for people who want to teach the use of Galaxy or use Galaxy as a bioinformatics training tool. Let's get together and talk about resource requirements, available learning material etc..
- Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching. People who need to support such activities. 
- When:: Monday, 6 July, 18:50
- Where:: Franklin Room, JICCC
- Contact:: [Dave Clements](/src/people/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
 <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>
 </div>
+
+When:: Monday, 6 July, 18:50
+
+Where:: Franklin Room, JICCC
+
+Contact:: [Dave Clements](/src/people/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+
 
 The **[Galaxy Training Network (GTN)](/src/teach/gtn/index.md)** will have an in-person [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
 

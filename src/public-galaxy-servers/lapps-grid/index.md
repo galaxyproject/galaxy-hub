@@ -18,7 +18,6 @@ sponsors:
 
 * The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
-* See [The Language Application Grid](http://link.springer.com/chapter/10.1007/978-3-319-31468-6_4) by Nancy Ide, James Pustejovsky, Christopher Cieri, Eric Nyberg, Denise DiPersio, Chunqi Shi, Keith Suderman, Marc Verhagen, Di Wang, Jonathan Wright. Worldwide Language Service Infrastructure, Volume 9442 of the series Lecture Notes in Computer Science pp 51-70
 
 ## User Support
 
@@ -27,6 +26,12 @@ sponsors:
 ## Quotas
 
 * Anyone can create a login, or it can be used anonymously
+
+## Citation(s)
+
+* [The Language Application Grid](http://link.springer.com/chapter/10.1007/978-3-319-31468-6_4) by Nancy Ide, James Pustejovsky, Christopher Cieri, Eric Nyberg, Denise DiPersio, Chunqi Shi, Keith Suderman, Marc Verhagen, Di Wang, Jonathan Wright. Worldwide Language Service Infrastructure, Volume 9442 of the series Lecture Notes in Computer Science pp 51-70
+* [LAPPS Grid tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ELAPPS%20Grid) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

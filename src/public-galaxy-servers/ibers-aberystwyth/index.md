@@ -15,7 +15,6 @@ sponsors:
 ## Comments
 
 * Implements the [DISMISS package](http://link.springer.com/article/10.1186/s12859-016-1158-7) for detection of stranded methylation in MeDIP-Seq data.
-* See [DISMISS: detection of stranded methylation in MeDIP-Seq data](http://link.springer.com/article/10.1186/s12859-016-1158-7), by Umar Niazi, Kathrin K. Geyer, Martin J. Vickers, Karl F. Hoffmann, Martin T. Swain, *BMC Bioinformatics* (2016) 17: 295. doi:10.1186/s12859-016-1158-7
 
 ## User Support
 
@@ -24,6 +23,12 @@ sponsors:
 ## Quotas
 
 * Anonymous access is supported.  You can also create a login.
+
+## Citation(s)
+
+* [DISMISS: detection of stranded methylation in MeDIP-Seq data](http://link.springer.com/article/10.1186/s12859-016-1158-7), by Umar Niazi, Kathrin K. Geyer, Martin J. Vickers, Karl F. Hoffmann, Martin T. Swain, *BMC Bioinformatics* (2016) 17: 295. doi:10.1186/s12859-016-1158-7
+* [IBERS Aberystwyth tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EIBERS%20Aberystwyth) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

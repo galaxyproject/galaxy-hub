@@ -34,6 +34,8 @@ sponsors:
 * Public Server:
 * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.
 
+## Citation(s)
+
 ## Sponsor(s)
 
 * [Genome Science Division, RCAST, The University of Tokyo](http://www.genome.rcast.u-tokyo.ac.jp/en/)
