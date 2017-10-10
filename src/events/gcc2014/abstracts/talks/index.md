@@ -1,15 +1,14 @@
 ---
+title: GCC2014 Talk Abstracts
 ---
 {{> Events/GCC2014/Header }}
 
 {{> Events/GCC2014/LinkBox }}
 
  
-# Talk Abstracts
+# Session 1, Tuesday, July 1, 9:15-10:30
 
-## Session 1, Tuesday, July 1, 9:15-10:30
-
-### Transcriptomes and Exomes: Computational Challenges of NGS Data
+## Transcriptomes and Exomes: Computational Challenges of NGS Data
 
 <div class='right'><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/events/gcc2014/abstracts/Salzberg.jpg" alt="Steven Salzberg" width="120" /></a></div>
 
@@ -21,7 +20,7 @@
 
 <br />
 
-### The Galaxy framework as a unifying bioinformatics solution for multi-omic data analysis
+## The Galaxy framework as a unifying bioinformatics solution for multi-omic data analysis
 
 <div class='right'><a href='http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC&UID=pjagtap'><img src="/src/events/gcc2014/abstracts/PratikJagtap.jpg" alt="PratikJagtap" width="100" /></a></div>
 
@@ -45,7 +44,7 @@ We demonstrate the use of Galaxy for integrated analysis of multi-omic data, in 
 
 <br />
 
-### iReport: HTML Reporting in Galaxy
+## iReport: HTML Reporting in Galaxy
 
 <div class='right'><a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'><img src="/src/events/gcc2014/abstracts/SaskiaHiltemann.jpg" alt="Saskia Hiltemann" width="100" /></a></div>
 
@@ -64,9 +63,9 @@ iReport is available from the DTL toolshed ([toolshed.dtls.nl](http://toolshed.d
 
 <br />
 
-## Session 2, Tuesday, July 1, 11:00-12:15
+# Session 2, Tuesday, July 1, 11:00-12:15
 
-### Galaxy Deployment on Heterogenous Hardware
+## Galaxy Deployment on Heterogenous Hardware
 
 <div class='right'><img src="/src/events/gcc2014/abstracts/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
 
@@ -84,7 +83,7 @@ We present an instance of Galaxy at Indiana University, installed and maintained
 
 <br />
 
-### Connecting Galaxy to tools with alternative storage and compute models
+## Connecting Galaxy to tools with alternative storage and compute models
 
 <div class='right'><img src="/src/events/gcc2014/abstracts/BradChapman.jpg" alt="Brad Chapman" width="90" /></div>
 
@@ -98,7 +97,7 @@ The community developed [bcbio-nextgen framework](https://github.com/chapmanb/bc
 
 <br />
 
-### A journal’s experiences of reproducing published data analyses using Galaxy
+## A journal’s experiences of reproducing published data analyses using Galaxy
 
 <div class='right'><img src="/src/events/gcc2014/abstracts/PeterLi.jpg" alt="Peter Li" width="100" /></div>
 
@@ -117,7 +116,7 @@ Reference
 
 <br />
 
-### Enabling Dynamic Science with Flexible Infrastructure
+## Enabling Dynamic Science with Flexible Infrastructure
 
 <div class='right'><a href='http://bioteam.net/company-leadership/'><img src="/src/events/gcc2014/abstracts/AnushkaBrownley.jpg" alt="Anushka Brownley" width="100" /></a> <a href='http://bioteam.net/company-leadership/'><img src="/src/events/gcc2014/abstracts/AaronGardner.jpg" alt="Aaron Gardner" width="100" /></a></div>
 
@@ -131,9 +130,9 @@ As a trusted industry leader in designing and implementing effective scientific 
 
 <br />
 
-## Session 3, Tuesday, July 1, 1:15-2:30
+# Session 3, Tuesday, July 1, 1:15-2:30
 
-### State of the Galaxy
+## State of the Galaxy
 
 <div class='right'><img src="/src/galaxy-team/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/galaxy-team/james.jpg" alt="" width="120" /></div>
 
@@ -148,7 +147,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 <br />
 
-### Update on Ion Torrent Sequencing – Accurate, Long Reads
+## Update on Ion Torrent Sequencing – Accurate, Long Reads
 
 <div class='right'><img src="/src/people/mike-lelivelt/pic.png" alt="" width="90" /></div>
 
@@ -162,9 +161,9 @@ An overview of where the Galaxy Project is and where it is going.
 
 
 
-## Session 4, Tuesday, July 1, 4:00-5:30
+# Session 4, Tuesday, July 1, 4:00-5:30
 
-### The Galaxy Tool Shed: A Framework for Building Galaxy Tools
+## The Galaxy Tool Shed: A Framework for Building Galaxy Tools
 
 <div class='right'><img src="/src/galaxy-team/greg.jpg" alt="Greg Von Kuster" width="120" /></div>
 
@@ -182,7 +181,7 @@ Here we'll examine the various components and steps that comprise this process. 
 
 <br />
 
-### Integrating the NCBI BLAST+ suite into Galaxy
+## Integrating the NCBI BLAST+ suite into Galaxy
 
 <div class='right'><a href='http://www.hutton.ac.uk/staff/peter-cock'><img src="/src/events/gcc2014/abstracts/PeterCock.jpg" alt="Peter Cock" width="100" /></a></div>
 
@@ -209,7 +208,7 @@ Finally, an overview of how BLAST is setup on the Galaxy Instances we maintain w
 <br />
 
 
-### deepTools: a flexible platform for exploring deep-sequencing data
+## deepTools: a flexible platform for exploring deep-sequencing data
 
 <div class='right'><a href='https://github.com/bgruening'><img src="/src/events/gcc2012/abstracts/Gruening.png" alt="Björn Grüning" /></a></div>
 
@@ -225,9 +224,9 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 <br />
 
-## Session 5, Wednesday, July 2, 9:10-10:25
+# Session 5, Wednesday, July 2, 9:10-10:25
 
-### The GCC2014 Hackathon
+## The GCC2014 Hackathon
 
 <div class='right'><img src="/src/images/logos/GCC2014HackLogoSquare200.png" alt="GCC2014 Hackathon Participants" width="120" /></div>
 
@@ -246,7 +245,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 <br />
 
-### More Options, Less Time: Streamlining Access to Reference Datasets
+## More Options, Less Time: Streamlining Access to Reference Datasets
 
 <div class='right'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blenkenberg" width="120" /></a></div>
 
@@ -265,7 +264,7 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 <br />
 
-### Building More Powerful Galaxy Workflows with Dataset Collections
+## Building More Powerful Galaxy Workflows with Dataset Collections
 
 <div class='right'><a href='/src/people/john-chilton/index.md'><img src="/src/galaxy-team/JohnChiltonSmaller.jpg" alt="John Chilton" width="120" /></a></div>
 
@@ -283,7 +282,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 <br />
 
-### An Appliance for Life Science Research: Isilon, Penguin and Galaxy
+## An Appliance for Life Science Research: Isilon, Penguin and Galaxy
 
 <div class='right'><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'><img src="/src/events/gcc2014/abstracts/PatrickCombes.jpg" alt="Patrick Combes" height="100" /></a></div>
 
@@ -298,9 +297,9 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 <br />
 
 
-## Session 6, Wednesday, July 2, 10:55-12:15
+# Session 6, Wednesday, July 2, 10:55-12:15
 
-### Lab Specimen Tracking with Galaxy
+## Lab Specimen Tracking with Galaxy
 
 <div class='right'><a href='/src/people/marten/index.md'><img src="/src/galaxy-team/marten.jpg" alt="Martin Čech" width="120" /></a></div>
 
@@ -314,7 +313,7 @@ No experiment begins with sequencing. Instead it commences with a collection of 
 
 <br />
 
-### The Munich NGS-FabLab for medical sequence data
+## The Munich NGS-FabLab for medical sequence data
 
 <div class='right'><a href='http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/070_drittmittel/schaaf/'><img src="/src/events/gcc2014/abstracts/SebastianSchaaf.jpg" alt="Sebastian Schaaf" width="95" /></a></div>
 
@@ -334,7 +333,7 @@ This talk is about the experiences of nearly three years of getting from blank t
 
 <br />
 
-### Galaxydx - A Web-server dedicated to diagnosis data analysis
+## Galaxydx - A Web-server dedicated to diagnosis data analysis
 
 <div class='right'><a href='http://fr.linkedin.com/pub/vivien-deshaies/36/9b1/831'><img src="/src/events/gcc2014/abstracts/VivienDeshaies.jpg" alt="Vivien Deshaies"  /></a> 
 <a href='http://u900.curie.fr/en/profile/alban-lermine-00587'><img src="/src/events/gcc2014/abstracts/AlbanLermine.jpg" alt="Alban Lermine" height="100" /></a></div>
@@ -360,7 +359,7 @@ Analyses in Galaxydx are organized by project and user, output files are owned b
 
 <br />
 
-### Using Galaxy and Globus to deliver Science as a Service
+## Using Galaxy and Globus to deliver Science as a Service
 
 <div class='right'><img src="/src/events/gcc2014/abstracts/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
 
@@ -378,7 +377,7 @@ We will present our efforts on using Galaxy and [Globus](https://www.globus.org/
 
 <br />
 
-### SGI UV:  Harnessing the Big Brain Platform for Galaxy
+## SGI UV:  Harnessing the Big Brain Platform for Galaxy
 
 <div class='right'><img src="/src/events/gcc2014/abstracts/JamesReaney.png" alt="James Reaney" width="100" /></div>
 
@@ -393,9 +392,9 @@ GI UV scales to truly extraordinary levels – today up to 2,560 physical cores 
 <br />
 
 
-## Session 7, Wednesday, July 2, 1:15-2:35
+# Session 7, Wednesday, July 2, 1:15-2:35
 
-### Building a virtual research environment with Galaxy
+## Building a virtual research environment with Galaxy
 
 <div class='right'><a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan'><img src="/src/events/gcc2014/abstracts/OlivierInizan.png" alt="Olivier Inizan" width="100" /></a> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec'><img src="/src/events/gcc2014/abstracts/MikaelLoaec.png" alt="Mikael Loaec" width="100" /></a></div>
 
@@ -416,7 +415,7 @@ Here we describe our progress towards an automation process for the deployment o
 
 <br />
 
-### The Australian Genomics Virtual Laboratory
+## The Australian Genomics Virtual Laboratory
 
 <div class='right'><a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'><img src="/src/events/gcc2014/abstracts/AndrewLonie.jpg" alt="Andrew Lonie" width="110" /></a></div>
 
@@ -437,7 +436,7 @@ This talk will discuss the technical and practical lessons learned during the de
 <br />
 
 
-### Galaxy on the GenomeCloud : Yet another on-demand Galaxy cloud, but only powered by Apache CloudStack
+## Galaxy on the GenomeCloud : Yet another on-demand Galaxy cloud, but only powered by Apache CloudStack
 
 <div class='right'><a href='https://www.linkedin.com/in/youngkikim'><img src="/src/events/gcc2014/abstracts/YoungkiKim.jpg" alt="Youngki Kim" width="100" /></a></div>
 
@@ -459,7 +458,7 @@ This talk will be about our experiences while integrating Galaxy with GenomeClou
 <br />
 
 
-### Test-driven Evaluation of Galaxy Scalability on the Cloud
+## Test-driven Evaluation of Galaxy Scalability on the Cloud
 
 <div class='right'><a href='http://www.vlsci.org.au/researcher/ngoonasekera'><img src="/src/galaxy-team/nuwan.jpg" alt="Nuwan Goonasekera" width="120" /></a></div>
 
@@ -485,7 +484,7 @@ Data and results collected to obtain above conclusions will be made publicly ava
 
 <br />
 
-### Bioinformatics on AWS: New and Noteworthy Features
+## Bioinformatics on AWS: New and Noteworthy Features
 
 <div class='right'><a href='https://www.linkedin.com/in/angelpizarro'><img src="/src/events/gcc2014/abstracts/AngelPizarro.png" alt="Angel Pizaro" width="100" /></a></div>
 

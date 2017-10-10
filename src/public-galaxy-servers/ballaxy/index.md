@@ -17,7 +17,6 @@ sponsors:
 ## Comments
 
 * [ballaxy](https://ballaxy.bioinf.uni-sb.de) is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or optimal bond order assignment of ligands "BOA Constructor".
-* "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI)," by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574
 * [ballaxy wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy)
 
 ## User Support
@@ -27,6 +26,11 @@ sponsors:
 ## Quotas
 
 * A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*
+
+## Citation(s)
+
+* [ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI), by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574
+* [Ballaxy tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBallaxy) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

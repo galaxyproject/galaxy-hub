@@ -1,10 +1,9 @@
 ---
+title: GCC2014 Poster Abstracts
 ---
 {{> Events/GCC2014/Header }}
 
 {{> Events/GCC2014/LinkBox }}
-
-## Poster Abstracts
 
 There will be two poster sessions:
 
@@ -19,11 +18,9 @@ There will be two poster sessions:
 Poster dimensions are a maximum of 48" x 48" (122cm x 122cm).
 
 
+<br />
 
-
-<br /><br />
-
-### P1: Lifeportal - web portal to high performance computing resources at University of Oslo
+## P1: Lifeportal - web portal to high performance computing resources at University of Oslo
 
 **Nikolay Vazov<sup>1</sup>, Katerina Michalickova<sup>1</sup>**
 
@@ -48,7 +45,7 @@ essential for the Galaxy - HPC functionality. Our poster will discuss:
 
 <br />
 
-### P2: Building a scalable Galaxy cluster for biomedical research in The Netherlands
+## P2: Building a scalable Galaxy cluster for biomedical research in The Netherlands
 
 **David van Enckevort<sup>1</sup>, Anthony Potappel<sup>2</sup>**, Niek Bosch<sup>3</sup>, Jeroen Beliën<sup>4</sup>, Rita Azevedo<sup>5</sup>, Rob Hooft<sup>5</sup>, Sander Ruiter<sup>2</sup>, Sanne Abeln<sup>6</sup>, Irene Nooren<sup>3</sup>, Jan-Willem Boiten<sup>7</sup>
 
@@ -77,7 +74,7 @@ Furthermore we have established a process to ensure the quality of the tools req
 
 <br />
 
-### P3: Practical experiences from the Munich NGS-FabLab - Tools, compatibility and pitfalls off the standard tracks
+## P3: Practical experiences from the Munich NGS-FabLab - Tools, compatibility and pitfalls off the standard tracks
 
 Aarif Mohamed Nazeer Batcha<sup>1</sup>, **Sebastian Schaaf<sup>1,2</sup>**, Guokun Zhang<sup>1</sup>, Sandra Fischer<sup>1</sup>, Ashok Varadharajan<sup>1</sup>,   Ulrich Mansmann<sup>1,2</sup>
 
@@ -94,7 +91,7 @@ Experiences, fixes, improvements and new integrations are subject to this poster
 
 <br />
 
-### P4: e-Science in France, a Life science Western story
+## P4: e-Science in France, a Life science Western story
 
 **Yvan LE BRAS<sup>1</sup>**, Aurélien ROULT<sup>1</sup>, Cyril MONJEAUD<sup>1</sup>, Mathieu BAHIN<sup>2</sup>, Olivier QUENEZ<sup>3,4</sup>, Claudia HERIVEAU<sup>1</sup>, Olivier SALLOU<sup>1</sup>, Anthony BRETAUDEAU<sup>1,5</sup> and Olivier COLLIN<sup>1</sup>
 
@@ -115,7 +112,7 @@ Although the deployment of this kind of environment is challenging, it represent
 
 <br />
 
-### P5: drylab.nl.enabling.translational.research
+## P5: drylab.nl.enabling.translational.research
 
 **Christian Rausch<sup>1</sup>**, Daoud Sie<sup>1</sup>, Jeroen Galle<sup>2</sup>, Jeroen Crappe<sup>2</sup>, Gerben Menschaert<sup>2</sup>, Bauke Ylstra<sup>1</sup>, Wim Van Criekinge<sup>1,2</sup>
 
@@ -134,7 +131,7 @@ Our initial measure for success will be the actual consolidation and integration
 
 <br />
 
-### P6: Mississippi: a galaxy server centered on small RNA analysis
+## P6: Mississippi: a galaxy server centered on small RNA analysis
 
 **Marius van den Beek<sup>1</sup>**, Christophe Antoniewski<sup>1</sup>
 
@@ -146,7 +143,7 @@ Non-coding small RNAs (miRNA, siRNA, piRNA, …) are involved in the regulation 
 
 <br />
 
-### P7: Bacterial and viral NGS analysis in a public health agency using Galaxy
+## P7: Bacterial and viral NGS analysis in a public health agency using Galaxy
 
 **Ulf Schaefer<sup>1</sup>**, Anthony Underwood<sup>1</sup>, and Jonathan Green<sup>1</sup>
 
@@ -158,7 +155,7 @@ Public Health England is home to the United Kingdom's national microbiology refe
 
 <br />
 
-### P8: iReport: HTML Reporting in Galaxy
+## P8: iReport: HTML Reporting in Galaxy
 
 **Saskia Hiltemann<sup>1</sup>**, Youri Hoogstrate<sup>1</sup>, Hailiang Mei<sup>2</sup>, Guido Jenster<sup>1</sup>, Andrew Stubbs<sup>1</sup>
 
@@ -176,7 +173,7 @@ iReport is available from the DTL toolshed ([toolshed.dtls.nl](http://toolshed.d
 
 <br />
 
-### P9: workflow4metabolomics.org : Galaxy and the metabolomics analysis Universe
+## P9: workflow4metabolomics.org : Galaxy and the metabolomics analysis Universe
 
 **Misharl MONSOOR<sup>1</sup>, Gildas LE CORGUILLE<sup>1</sup>**, Marion LANDI<sup>2</sup>, Mélanie PETERA<sup>2</sup>, Pierre PERICARD<sup>1</sup>, Christophe DUPERIER<sup>2</sup>, Marie TREMBLAY-FRANCO<sup>3</sup>, Jean-François MARTIN<sup>3</sup>, Sophie GOULITQUER<sup>1</sup>, Etienne THEVENOT<sup>4</sup>, Franck GIACOMONI<sup>2</sup>, Christophe CARON<sup>1</sup>
 
@@ -191,7 +188,7 @@ Facing the emergence of new technologies in the field of metabolomics, treatment
 
 <br />
 
-### P10: The Munich NGS-FabLab - A glimpse on an IT infrastructure for medical sequence data
+## P10: The Munich NGS-FabLab - A glimpse on an IT infrastructure for medical sequence data
 
 **Sebastian Schaaf<sup>1,2</sup>**, Aarif Mohamed Nazeer Batcha<sup>2</sup>, Guokun Zhang<sup>2</sup>, Sandra Fischer<sup>2</sup>, Ashok Varadharajan<sup>2</sup>,   Ulrich Mansmann<sup>1,2</sup>
 
@@ -207,7 +204,7 @@ Apart from the operating system layer (VMWare, SLES 11), key features are fully 
 
 <br />
 
-### P11: Oqtans: Online quantitative transcriptome analysis
+## P11: Oqtans: Online quantitative transcriptome analysis
 
 **Vipin T. Sreedharan<sup>1</sup>**, Yi Zhong and Gunnar Rätsch
 
@@ -227,7 +224,7 @@ Availability
 
 <br />
 
-### P12: Locally managed Galaxy instances with access to external resources in a supercomputing environment
+## P12: Locally managed Galaxy instances with access to external resources in a supercomputing environment
 
 **Nuria Lozano<sup>1,2</sup>**, Oscar Lozano<sup>2</sup>, Beatriz Jorrin<sup>1</sup>, Juan Imperial<sup>3</sup>, **Vicente Martin<sup>2</sup>**
 
@@ -247,7 +244,7 @@ Using this approach, research group members are fully responsible for deploying 
 
 <br />
 
-### P13: Argument Parsing Libraries for Automatic Galaxy XML Generation
+## P13: Argument Parsing Libraries for Automatic Galaxy XML Generation
 
 **[Eric Rasche](/src/people/eric-rasche/index.md)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
 
@@ -261,7 +258,7 @@ With the goals of code deduplication, simplification of deployment workflow, and
 
 <br />
 
-### P14: Advantages and Challenges of Using the Galaxy API within an Integrated Data Analysis and Visualization Platform
+## P14: Advantages and Challenges of Using the Galaxy API within an Integrated Data Analysis and Visualization Platform
 
 **Ilya Sytchev<sup>1</sup>**, Nils Gehlenborg<sup>2</sup>, Shannan Ho Sui<sup>1</sup>, Richard Park<sup>2,3</sup>, Psalm Haseley<sup>2</sup>, Winston Hide<sup>1</sup>, Peter Park<sup>2</sup>
 
@@ -277,7 +274,7 @@ The recent development of the BioBlend library (http://bioblend.readthedocs.org)
 
 <br />
 
-### P15: Resistance to Toxic Compounds in Metagenomic Fosmid Library from Mangrove Sediment in São Paulo State, Brazil
+## P15: Resistance to Toxic Compounds in Metagenomic Fosmid Library from Mangrove Sediment in São Paulo State, Brazil
 
 **Lucélia Cabral<sup>1</sup>**, Sanderson Tarciso Pereira de Sousa<sup>1</sup>, Gileno Vieira Lacerda Júnior<sup>1</sup>, Júlia Ronzella Ottoni<sup>1</sup>, Daniela Ferreira Domingos<sup>1</sup>, Valéria Maia de Oliveira<sup>1</sup>.
 
@@ -290,7 +287,7 @@ The mangrove is a typically tropical ecosystem, located between land and sea, an
 <br />
 
 
-### P16: BlockClust: efficient clustering and classification of non-coding RNAs from short read profiles
+## P16: BlockClust: efficient clustering and classification of non-coding RNAs from short read profiles
 
 Pavankumar Videm<sup>1</sup>, Dominic Rose<sup>1,5</sup>, Fabrizio Costa<sup>1</sup>, Rolf Backofen<sup>1-4</sup>
 
@@ -312,7 +309,7 @@ BlockClust was tested and works with small RNA-seq data of eukaryotic organisms.
 
 <br />
 
-### P17: A Galaxy-Based framework for online streaming data analytics in Heart Rate Variability Analysis
+## P17: A Galaxy-Based framework for online streaming data analytics in Heart Rate Variability Analysis
 
 <div class='right'><img src="/src/events/gcc2013/abstracts/posters/CalogeroZarbo.jpg" alt="Calogero Zarbo" width="100" /></div>
 
@@ -335,7 +332,7 @@ Our system can easily be adapted to other online streaming analytics application
 
 <br />
 
-### P18: Implementing qDNAseq in Galaxy: a whole genome sequencing copy number analysis tool
+## P18: Implementing qDNAseq in Galaxy: a whole genome sequencing copy number analysis tool
 
 **Stef van Lieshout<sup>1</sup>**, Ilari Scheinin<sup>1</sup>, Daoud Sie<sup>1</sup>, Remond J.A. Fijneman<sup>1</sup>, Bauke Ylstra<sup>1</sup>
 
@@ -356,7 +353,7 @@ Funding was supported by the Center for Translational Molecular Medicine, Transl
 
 <br />
 
-### P19: Integrating Integrated Genome Browser with Galaxy
+## P19: Integrating Integrated Genome Browser with Galaxy
 
 **Ann Loraine<sup>1</sup>**, David Norris<sup>1</sup>, Kyle Suttlemyre<sup>1</sup>, Tarun Kanaparthi<sup>1</sup>
 
@@ -368,7 +365,7 @@ Integrated Genome Browser is a fast, flexible and free Java-based desktop softwa
 
 <br />
 
-### P20: An approach for detecting structural variations from NGS paired end reads using Split Reads, Discordant Read Pairs and Local Alignment
+## P20: An approach for detecting structural variations from NGS paired end reads using Split Reads, Discordant Read Pairs and Local Alignment
 
 **Michael Ta<sup>1</sup>**, Philip D. Cotter<sup>1</sup>, Mathew W. Moore<sup>1</sup> 
 
@@ -380,7 +377,7 @@ A major challenge in Next Generation Sequencing is the development of efficient 
 
 <br />
 
-### P21: Synapse: Software infrastructure for collaborative reproducible research
+## P21: Synapse: Software infrastructure for collaborative reproducible research
 
 **J Christopher Bare<sup>1</sup>**, Synapse Platform Team<sup>1</sup>, Michael R Kellen<sup>1</sup>, Stephen H Friend<sup>1</sup>
 
@@ -398,7 +395,7 @@ Bridging these two complementary services would benefit users of both. Synapse c
 
 <br />
 
-### P22: Integration of Galaxy with IRIDA, a Genomic Epidemiology Platform
+## P22: Integration of Galaxy with IRIDA, a Genomic Epidemiology Platform
 
 **Aaron Petkau<sup>1</sup>**, Franklin Bristow<sup>1</sup>, Thomas Matthews<sup>1</sup>, Josh Adam<sup>1</sup>, Damion Dooley<sup>2</sup>, Emma Griffiths<sup>4</sup>, Geoff Winsor<sup>4</sup>, Matthew Laird<sup>4</sup>, Melanie Courtot<sup>2,4</sup>, William Hsiao<sup>2,3</sup>, Gary Van Domselaar<sup>1</sup>, Fiona Brinkman<sup>4</sup>
 
@@ -413,7 +410,7 @@ The continuing decrease in the cost of genomic sequencing and the development of
 
 <br />
 
-### P23: Galaxy on the GenomeCloud : Yet another on-demand Galaxy cloud, but only powered by Apache CloudStack
+## P23: Galaxy on the GenomeCloud : Yet another on-demand Galaxy cloud, but only powered by Apache CloudStack
 
 **[Youngki Kim](https://www.linkedin.com/in/youngkikim)<sup>1</sup>**, CB Hong<sup>1</sup>, Kjoong Kim<sup>1</sup>, Daechul Choi<sup>1</sup>
 
@@ -449,7 +446,7 @@ The Galaxy main server is one of the first GenomeSpace-enabled tools, as well as
 
 <br />
 
-### P25: Less talking, more doing: crowd-sourcing the integration of Galaxy with a high-performance computing cluster
+## P25: Less talking, more doing: crowd-sourcing the integration of Galaxy with a high-performance computing cluster
 
 [Dirk Colbry](http://icer.msu.edu/person/dirk-colbry)<sup>1</sup>, **[Michael R. Crusoe](http://orcid.org/0000-0002-2961-9670)<sup>2</sup>**, [Andy Keen](http://icer.msu.edu/person/andrew-keen)<sup>1</sup>, [Greg Mason](http://icer.msu.edu/person/greg-mason)<sup>1</sup>, [Jason Muffett](http://icer.msu.edu/person/jason-muffett)<sup>1</sup>, [Matthew Scholz](http://icer.msu.edu/person/matthew-scholz)<sup>1</sup>, [Tracy K. Teal](http://idyll.org/~tracyt/)<sup>2</sup> 
 
@@ -462,7 +459,7 @@ On March 5th, 2014 a team of system administrators and bioinformaticians conduct
 
 <br />
 
-### P26: Galaxy Training Network
+## P26: Galaxy Training Network
 
 **[Dave Clements](/src/people/dave-clements/index.md)<sup>1,2</sup>**, [Vicky Schneider](http://www.tgac.ac.uk/training-outreach/vicky-schneider/)<sup>3</sup>, [Nikhil Joshi](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Joseph Fass](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Monica Britton](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>5,6</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5,7</sup>, [Mark Crowe](http://www.qfab.org/mark-crowe/)<sup>8</sup>
 
@@ -484,7 +481,7 @@ This poster will highlight training resources that are available for teaching bi
 <br />
 
 
-### P27: Integrating new visualization tool in Galaxy
+## P27: Integrating new visualization tool in Galaxy
 
 Alexan ANDRIEUX<sup>1</sup>, Pierre PETERLONGO<sup>1</sup>, **Yvan LE BRAS<sup>2</sup>**, Cyril MONJEAUD<sup>2</sup>, Charles DELTEL<sup>3</sup>
 
@@ -502,7 +499,7 @@ The new visualization framework was tested to facilitate Mapsembler 2 outputs in
 
 <br />
 
-### P28: Integrating GALAXY workflows in a metadata management environment
+## P28: Integrating GALAXY workflows in a metadata management environment
 
 Francois MOREEWS<sup>1</sup>, **Yvan LE BRAS<sup>2</sup>**, Olivier Dameron<sup>3</sup>, Cyril MONJEAUD<sup>2</sup> and Olivier COLLIN<sup>2</sup>
 
@@ -524,7 +521,7 @@ We plan to integrate this work to propose advanced research functionalities with
 
 <br />
 
-### P29: Genocloud : the GenOuest private cloud for Galaxy
+## P29: Genocloud : the GenOuest private cloud for Galaxy
 
 Cyril Monjeaud<sup>1</sup>, Olivier Sallou<sup>1</sup> and Olivier Collin<sup>1</sup>
 
@@ -542,7 +539,7 @@ Xgrid is an internal open-source web application integrated inside our images. T
 
 <br />
 
-### P30: Integrating Galaxy with UCSC Cancer Genomics
+## P30: Integrating Galaxy with UCSC Cancer Genomics
 
 **Melissa Cline<sup>1</sup>**, Teresa Swatloski<sup>1</sup>, Brian Craft<sup>1</sup>, Mary Goldman<sup>1</sup>, David Haussler<sup>1</sup>, Jingchun Zhu<sup>1</sup>
 

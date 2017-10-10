@@ -3,21 +3,16 @@ title: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
 ---
 {{> Events/GCC2015/Header }}
 
-
-
-
-<div class='dictbox'>
- BoF:: [Galaxy Community UK BoF](/src/events/gcc2015/bofs/galaxy-community-uk/index.md)
- Summary:: Meeting of the [Galaxy Community from the United Kingdom and Ireland](http://galaxy-community.org.uk/)
- Audience:: Galaxy Users/Devs/Admins from the British Isles and Ireland (and everybody else who's interested, we're called @GalaxyUKFriends after all).
- When:: Wednesday, 8th July. 18:00 (6pm)
- Where:: Watson Room, JICCC 
- Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **[Galaxy UK Community (GCUK)](http://galaxy-community.org.uk/)** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+
+When:: Wednesday, 8th July. 18:00 (6pm)
+
+Where:: Watson Room, JICCC 
+
+Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
+
 
 ## Description
 

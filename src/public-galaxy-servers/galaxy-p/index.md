@@ -24,9 +24,16 @@ sponsors:
 * [MSI Email Support](mailto:help@msi.umn.edu)
 * We have created a [publicly-available Google Group](http://z.umn.edu/galaxypgroup) to facilitate questions, feedback and suggestions for Galaxy-P from both users and developers.  Please [request to join the group](http://z.umn.edu/galaxypgroup) to stay updated and be involved.
 * Please follow our Galaxy-P twitter account, [@usegalaxyp](http://twitter.com/usegalaxyp).  It’s a great way to stay updated on the most recent developments:
+* [Galaxy-P presentations and posters](http://galaxyp.org/conference-presentations/)
+
 
 ## Quotas
 
+## Citation(s)
+
+* [Using Galaxy-P to leverage RNA-Seq for the discovery of novel protein variations](https://doi.org/10.1186/1471-2164-15-703), Gloria M Sheynkman, James E Johnson, Pratik D Jagtap, Michael R Shortreed, Getiria Onsongo, Brian L Frey, Timothy J Griffin and Lloyd M Smith. *BMC Genomics* 201415:703
+doi:10.1186/1471-2164-15-703
+* [Galaxy-P tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGalaxy-P) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 

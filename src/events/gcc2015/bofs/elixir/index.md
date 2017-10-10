@@ -3,23 +3,15 @@ title: [ELIXIR-Galaxy Workshop](https://docs.google.com/document/d/1k_d9A4HDTcmj
 ---
 {{> Events/GCC2015/Header }}
 
-
-
-
-<div class='dictbox'>
- BoF:: [ELIXIR-Galaxy Workshop](/src/events/gcc2015/bofs/elixir/index.md)
- Summary:: Discuss technical strategy across the ELIXIR pan-European bioinformatics infrastructure with regards the provision of Galaxy services and infrastructure
- Audience:: Any group using or planning to use Galaxy  
- When:: Tuesday, 7 July, 18:00
- Where:: Genome Seminar Room, in the nearby The Genome Analysis Center (TGAC)
- Contact:: [Manuel Corpas, Frederik Coppens](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
-</div>
-
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a> <br />
 <a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" width="160" /></a> &nbsp;&nbsp;&nbsp;
 </div>
 
-</div>
+When: Tuesday, 7 July, 18:00
+
+Where: Genome Seminar Room, in the nearby The Genome Analysis Center (TGAC)
+
+Contact: [Manuel Corpas, Frederik Coppens](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
 
 As part of [ELIXIR's](http://www.elixir-europe.org/) efforts to understand Galaxy usage across Europe and globally we have set up a [questionnaire](https://www.surveymonkey.com/r/Q7WYL2G) with the objective to identify how Galaxy is used across different institutions. Regardless of national origin, any Galaxy community user or developer is welcome to fill it in.
 

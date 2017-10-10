@@ -21,7 +21,6 @@ sponsors:
   * detect small ncRNA derived RNAs in small RNA-seq alignments (Flaimapper)
   * Generate html user defined workflow (iReport)
 * All tools are also available in the Tool Shed.
-* See [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
 
 ## User Support
 
@@ -29,6 +28,12 @@ sponsors:
 ## Quotas
 
 * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
+
+## Citation(s)
+
+* [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
+* [ErasmusMC tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EErasmusMC) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

@@ -3,17 +3,14 @@ title: Poster Abstracts
 ---
 {{> Events/GCC2013/Header }}
 
-
-
 {{> Events/GCC2013/LinkBox }}
 
 ## Abstracts
 
 
+**Odd numbered abstracts will be presented on Monday, 1 July from 14:55 to 16:10.**
 
-**Odd numbered abstracts will be presented on Monday, 1 July from 14:55 to 16:10.
-
-Even numbered abstract will be presented on Tuesday, 2 July from 14:35 to 15:50.**
+**Even numbered abstract will be presented on Tuesday, 2 July from 14:35 to 15:50.**
 
 ### P1: Towards Large-Scale Language Analysis in the Cloud
 

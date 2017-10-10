@@ -28,6 +28,11 @@ sponsors:
 * Other registered users: 100GB
 * Unregistered users: 5GB
 
+## Citation(s)
+
+* [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](https://doi.org/10.1371/journal.pone.0140829), [Enis Afgan](/src/people/enis-afgan/index.md), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie. *PLOS One*, Published: October 26, 2015 doi:10.1371/journal.pone.0140829
+* [GVL-QLD tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGVL-QLD) in [Galaxy Publication library](/src/publication-library/index.md).
+
 ## Sponsor(s)
 
 * [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)

@@ -14,7 +14,7 @@ sponsors:
 
 ## Comments
 
-* From [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
+* From Pérez-Wohlfeil et al.
 *   " ... provides new tools and datafile specifications that facilitate the identification of differences in abundance of reads assigned to taxa (mapping), enables the detection of reads of low-abundance bacteria (producing evidence of their presence), provides new concepts for filtering spurious matches, etc. Innovative visualization ideas for improved display of metagenomic diversity are also proposed to better understand how reads are mapped to taxa."
 
 ## User Support
@@ -24,6 +24,12 @@ sponsors:
 ## Quotas
 
 * Must create a login to use it.
+
+## Citation(s)
+
+* [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
+* [BitLAB tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBitLAB) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

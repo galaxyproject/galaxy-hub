@@ -17,7 +17,6 @@ sponsors:
 * APOSTL is an evolving software project with the potential to customize individual analyses with additional Galaxy tools and widgets using the R web application framework, Shiny. The source code, data and documentation are freely available from [GitHub](https://github.com/bornea/APOSTL) and other sources.
 * APOSTL utilizes Significance Analysis of INTeractome (SAINT), a popular command-line software for analyzing AP data. APOSTL can process AP results from MaxQuant, Scaffold, PeptideShaker, or any software that can export mzIdentML.
 * APOSTL can create a number of publication-quality visualizations including interactive bubble plots, protein-protein interaction networks through Cytoscape.js integration, and pathway enrichment/gene ontology plots.
-* [APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](http://dx.doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660
 * [An Interactive Tool for Reproducible Analysis of Affinity Proteomics Data](http://sched.co/73yr), presented by Paul A Stewart at GCC2016.
 
 ## User Support
@@ -25,6 +24,11 @@ sponsors:
 * [Quick Start guide](http://apostl.moffitt.org/)
 
 ## Quotas
+
+## Citation(s)
+
+* [APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](http://dx.doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660
+* [APOSTL tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EAPOSTL) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Sponsor(s)
