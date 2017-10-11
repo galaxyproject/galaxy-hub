@@ -4,7 +4,7 @@ title: Proxying Galaxy with Apache
 
 # Proxying Galaxy with Apache
 
-For various reasons (performance, authentication, etc.) in a production environment, it's recommended to run Galaxy behind a web server proxy. Although any proxy could work, Apache is the most common. Alternatively, we use [nginx](http://nginx.net/) for our public sites, and [details are available](Admin%2FConfig%2FPerformance%2Fnginx+Proxy) for it, too.
+For various reasons (performance, authentication, etc.) in a production environment, it's recommended to run Galaxy behind a web server proxy. Although any proxy could work, Apache is the most common. Alternatively, we use [nginx](http://nginx.net/) for our public sites, and [details are available](/src/admin/config/nginx-proxy/index.md) for it, too.
 
 Currently the only recommended way to run Galaxy with Apache is using `mod_rewrite` and `mod_proxy`. Either `mod_proxy_uwsgi` or `mod_proxy_http` may be used from there.
 
