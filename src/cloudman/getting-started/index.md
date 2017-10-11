@@ -139,7 +139,7 @@ Depending on your interest, the documentation contains a wealth of information. 
 * [Capacity planning](/src/cloudman/capacity-planning/index.md)
 * [Cluster applications and services](/src/cloudman/services/index.md)
 * [Sharing and publishing a cluster](/src/cloudman/sharing/index.md)
-* [Customizing your cluster](/src/cloudman/CustomizeGalaxyCloud/index.md)
+* [Customizing your cluster](/src/cloudman/customizing/index.md)
 * [Troubleshooting](/src/cloudman/troubleshooting/index.md)
 
 Getting started guide for the *cloudlaunch interface* prior to March 2017
