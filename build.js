@@ -157,8 +157,8 @@ let subs = function(files, metalsmith, done) {
 
 
 let file_staging = function(files, metalsmith, done) {
-    // We want to use metadata.md (which turns into metadata.html after
-    // processing) as the topic index.
+    // We will sometimes need to stage files post rendering as other file
+    // types.  Currently this is just json feeds, but can be expanded.
     for (let k in files) {
         let v = files[k];
         if (Array.from(v.collection).includes('json_feed')) {
