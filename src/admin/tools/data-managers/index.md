@@ -22,17 +22,12 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # List of pages in this category
 
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/DataManagerXMLSyntax)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/DataManagerXMLSyntax/)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/DataManagerJSONSyntax)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/DataManagerJSONSyntax/)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/API)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/API/)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/Testing)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/Testing/)
-PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/HowTo)
+- [Data Managers](https://galaxyproject.org/admin/tools/data-managers/)
+- [Data Manager XML Syntax](https://galaxyproject.org/admin/tools/data-managers/data-manager-xml-syntax/)
+- [Data Manager JSON Syntax](https://galaxyproject.org/admin/tools/data-managers/data-manager-json-syntax/)
+- [Data Managers API](https://galaxyproject.org/admin/tools/data-managers/api/)
+- [Writing Data Manager Tests](https://galaxyproject.org/admin/tools/data-managers/testing)
+- [Defining Data Managers](https://galaxyproject.org/admin/tools/data-managers/how-to/define/)
 
 # See also
 
