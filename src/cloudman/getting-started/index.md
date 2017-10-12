@@ -123,7 +123,7 @@ For the case of CloudMan, log in with username *ubuntu* and the password you
 chose during the launch process. It may take a few more minutes to setup the
 cluster and start Galaxy. Once the cluster is ready, a message will be shown
 saying so. At that point, click *Access Galaxy* and start using Galaxy. You
-will probably want to [register a new account](https://vimeo.com/75925027)
+will probably want to register a new account (Login or Register > Register)
 first - after all, this is your own cluster. Keep in mind that the account you
 create on your cloud cluster is separate from an account you might have created
 on another Galaxy server.
@@ -139,7 +139,7 @@ Depending on your interest, the documentation contains a wealth of information. 
 * [Capacity planning](/src/cloudman/capacity-planning/index.md)
 * [Cluster applications and services](/src/cloudman/services/index.md)
 * [Sharing and publishing a cluster](/src/cloudman/sharing/index.md)
-* [Customizing your cluster](/src/cloudman/CustomizeGalaxyCloud/index.md)
+* [Customizing your cluster](/src/cloudman/customizing/index.md)
 * [Troubleshooting](/src/cloudman/troubleshooting/index.md)
 
 Getting started guide for the *cloudlaunch interface* prior to March 2017
