@@ -89,7 +89,7 @@ Bring your laptop for a series of hands-on exercises.
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
 </div>
 
-**Wednesday, October 18, 9am- 5pm**
+**Wednesday, October 18, 9am- 6pm**
 
 **Room 251 B**
 
@@ -105,26 +105,28 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 | Time | Topic |
 |:----:| ----- |
-| 8:30a -   9:00a	| Workshop & Participant Introductions |
-| 9:00a - 10:15a | Navigating CyVerse, finding data, and exploring tools |
+| 9:00a - 9:30a	| Workshop & Participant Introductions |
+| 9:30a - 10:15a | Navigating CyVerse, finding data, and exploring tools |
 | 10:15a - 10:30a | Break |
-| 10:30a - 11:15a | Analyzing data with Discovery Environment |
+| 10:30a - 11:00a| Navigating CyVerse, continued |
+| 11:00a - 11:15a | Analyzing data with Discovery Environment |
 | 11:15a - 11:30p | Break |
-| 11:30a - 12:00p | Cloud Computing with Atmosphere |
-| 12:00p - 12:30p | Discuss your data! |
+| 11:30a - 12:00p | Analyzing data with Discovery Environment, continued |
 | 12:30p - 1:30p | Lunch on your own |
+| 1:30p - 2:00p | Discuss your data! |
 
 # Session 2 : Galaxy
 
 | Time | Topic |
 |:----:| ----- |
-| 1:30p -   2:45p | Galaxy Basics: Loading data and running and connecting tools |
+| 2:00p -   2:45p | Galaxy Basics: Loading data and running and connecting tools |
 | 2:45p -   3:00p | Break |
-| 3:00p -   4:15p | Collaboration and repeatable recipes |
+| 3:00p -   3:30p | Galaxy Basics, continued |
+| 3:30p -   4:15p | Collaboration and repeatable recipes |
 | 4:15p -   4:30p | Break |
-| 4:30p -   4:40p | Galaxy Community |
-| 4:40p -   5:00p | Compare & Contrast: CyVerse, Galaxy, and other options |
-
+| 4:30p -   5:00p | Collaboration and repeatable recipes, continued |
+| 5:00p -   5:15p | Galaxy Community |
+| 5:15p -   6:00p | Compare & Contrast: CyVerse, Galaxy, and other options |
 
 # Resources and Techniques for Training Students in Computational Skills
 
