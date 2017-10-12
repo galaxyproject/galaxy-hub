@@ -22,6 +22,8 @@ repository.
 
 ## Galaxy
 
+Please see the list of [good first issues](https://github.com/galaxyproject/galaxy/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest).
+
 ## CloudBridge
 [CloudBridge](https://github.com/gvlproject/cloudbridge) is a Python library for
 interfacing with multiple cloud providers through a single API. Implementations
