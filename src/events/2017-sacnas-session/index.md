@@ -6,7 +6,7 @@ tease: 'Want to learn more about how to train students in computational methods?
 continent: NA
 location: 2017 SACNAS, Salt Lake City, Utah, United States 
 location_url: http://www.2017sacnas.org/
-external_url: 
+external_url: https://event.crowdcompass.com/2017sacnas/activity/PgfRQW3Nrl
 image: /images/logos/sacnas-no-text.jpg
 gtn: y
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
