@@ -14,7 +14,7 @@ Here's a review of those first 2500 papers.
 
 Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/cite-u-like/index.md#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
-<table>
+<table class="table">
   <tr>
     <th> Tag </th>
     <th> 2005 </th>
@@ -339,7 +339,7 @@ There are also many unexpected publications in the list:
 
 Finally, the total number of papers per year continues to increase, and we expect 2015 to surpass 800 papers  
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> </th>
     <th> 2005 </th>
