@@ -17,13 +17,13 @@ A Galaxy Data Manager's config file consists of a subset of the following XML ta
 ## Details of XML tag sets
 
 ----
-### \<data_managers> tag set
+### `<data_managers>` tag set
 
 The outer-most tag set. It contains no attributes. Any number of `<data_manager>` tags can be included within it.
 
 ----
 
-### \<data_manager> tag set
+### `<data_manager>` tag set
 
 This tag defines a particular Data Manager. Any number of `<data_table>` tags can be included within it.
 
@@ -45,7 +45,7 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### \<data_table> tag set
+### `<data_table>` tag set
 
 This tag defines a Tool Data Table to add entries to. Any number of `<data_table>` tags can be used. Each `<data_table>` tag will contain an `<output>` tagset. 
 
@@ -65,7 +65,7 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### \<output> tag set
+### `<output>` tag set
 
 This tag defines how to handle the output of the Data Manager Tool. It has no attributes, but contains one or more `<column>` tag sets.
 
@@ -80,7 +80,7 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### \<column> tag set
+### `<column>` tag set
 
 This tag defines a particular Tool Data Table column that will be set. Any number of `<column>` tags can be used. Each `<column>` tag may contain `<move>` and / or `<value_translation>` tagsets, which are optional. 
 
@@ -101,7 +101,7 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### \<move> tag set
+### `<move>` tag set
 
 This tag defines how to handle moving files from within the Data Manager Tool output's extra_files_path into the final storage location used for the Tool Data Table entry. Individual files or the entire directory contents can be moved. Move tag sets contain a `<source>` and a `<target>` tag set.
 
@@ -122,7 +122,7 @@ The following is an example that contains all of the attributes described above.
 
 ----
 
-### \<source> tag set
+### `<source>` tag set
 
 This tag defines the source location within a `<move>` tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset.
 
@@ -143,7 +143,7 @@ The following is an example that contains the most common usage, where the value
 
 ----
 
-### \<target> tag set
+### `<target>` tag set
 
 This tag defines the target location within a `<move>` tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value.
 
@@ -164,7 +164,7 @@ The following is an example that contains a common usage, where a target value i
 
 ----
 
-### \<value_translation> tag set
+### `<value_translation>` tag set
 
 This tag allows using templating to modify the value provided by the Data Manager Tool into the actual value that should be stored within the Tool Data Table. There can be any number of value translations provided for an output. The value translations are performed in the order presented in the XML. It is important to note that a move will occur before the value translations are performed. 
 
