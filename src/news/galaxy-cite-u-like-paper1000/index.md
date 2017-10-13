@@ -12,7 +12,7 @@ The authors used the [Wageningen University public Galaxy server](http://galaxy.
 
 Each paper in the group is tagged to indicate how it is related to Galaxy.  The first 1000 papers are tagged with:
 
-<table>
+<table class="table">
   <tr>
     <th> # </th>
     <th style=" width: 20%;"> Tag </th>

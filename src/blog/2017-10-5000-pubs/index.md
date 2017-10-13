@@ -427,7 +427,9 @@ If [current trends continue](#publications-per-year) we'll hit 10,000 publicatio
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class="bg-secondary"> </div>
+----
+
+----
 
 # More on Tags
 
