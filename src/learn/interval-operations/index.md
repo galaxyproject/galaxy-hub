@@ -24,7 +24,7 @@ When finding pieces of intervals, or the regions representing the overlap betwee
 
 ## Subtract
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) **
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Subtract Screencast)**
 
 ![](/src/images/gops/Subtract.png)
 
@@ -53,7 +53,7 @@ Concatenate combines datasets, and has the ability to combine interval datasets 
 
 # Base Coverage
 
-**[Download](http://screencast.g2.bx.psu.edu/) Base Coverage and Complement Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/) Base Coverage and Complement Screencast)**
 
 The base coverage tool calculates the number of bases covered by all of the intervals in a dataset.  It does not count overlapping bases more than once; if there are two intervals referring to the same region, those bases are counted only once.
 
@@ -61,7 +61,7 @@ The base coverage tool calculates the number of bases covered by all of the inte
 
 # Complement
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast])**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast)**
 
 ![](/src/images/gops/Complement.png)
 
