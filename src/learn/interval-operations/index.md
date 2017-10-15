@@ -4,13 +4,13 @@
 
 A unique feature of Galaxy is the large number of tools for performing operations on genomic intervals. These tools are based on the `bx-python package` (https://github.com/bxlab/bx-python). These include ''intersect'', ''subtract'', ''complement'', ''merge'', ''concatenate'', ''cluster'', ''coverage'', ''base coverage'', and ''join''.   Some operations are analogous to relational database queries, such as join and coverage.  Other operations are analogous to set operations.
 
-Below, each interval operation is described in detail.  You can also view screencasts showing an actual "clicking pattern" through the Galaxy interface (note screencast link below each subheading). The examples shown in screencasts use coordinates of coding exons and transposable elements from chromosome 22. This [screencast](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov) ([stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov)) shows how to upload these coordinates.
+Below, each interval operation is described in detail.  You can also view screencasts showing an actual "clicking pattern" through the Galaxy interface (note screencast link below each subheading). The examples shown in screencasts use coordinates of coding exons and transposable elements from chromosome 22. This [screencast](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov) shows how to upload these coordinates.
 
 ----
 
 ## Intersect
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Intersect Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Intersect Screencast)**
 
 ![](/src/images/gops/Intersect.png)
 
@@ -24,7 +24,7 @@ When finding pieces of intervals, or the regions representing the overlap betwee
 
 ## Subtract
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Subtract Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) **
 
 ![](/src/images/gops/Subtract.png)
 
@@ -37,7 +37,7 @@ When subtracting overlapping subregions (by setting **Return** to `Non-overlappi
 ----
 ## Merge and Concatenate
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) Merge and Concatenate Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov)  Merge and Concatenate Screencast)**
 
 ![](/src/images/gops/MergeConcat.png)
 
@@ -53,7 +53,7 @@ Concatenate combines datasets, and has the ability to combine interval datasets 
 
 # Base Coverage
 
-**[Download](http://screencast.g2.bx.psu.edu/) [Stream](rtsp://screencast.g2.bx.psu.edu/) Base Coverage and Complement Screencast)**
+**[Download](http://screencast.g2.bx.psu.edu/) Base Coverage and Complement Screencast)**
 
 The base coverage tool calculates the number of bases covered by all of the intervals in a dataset.  It does not count overlapping bases more than once; if there are two intervals referring to the same region, those bases are counted only once.
 
@@ -61,7 +61,7 @@ The base coverage tool calculates the number of bases covered by all of the inte
 
 # Complement
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast])**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast])**
 
 ![](/src/images/gops/Complement.png)
 
@@ -75,7 +75,7 @@ The resulting dataset will contain intervals representing regions that are **NOT
 
 ## Coverage
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3E.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3E.mov) Coverage Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3E.mov) Coverage Screencast)**
 
 Coverage is a combination of intersect and base coverage.  Coverage finds the number of bases each interval in the first dataset covers of the second dataset.  In addition, it finds the fraction of the interval's total length that covers intervals in the second query.  The resulting dataset is all of the intervals from the first input dataset, with two columns added to the end: bases covered and fraction covered.  The additional two columns can be manipulated with other tools such as “Filter” under the “Filter, Sort, Join and Compare” section of the toolbox or with “Compute” under the “Edit Queries” section of the toolbox. Below is the example:
 
@@ -127,7 +127,7 @@ implies that 172 nucleotides accounting for 10.7% of this interval (chr11:520327
 
 ## Cluster
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) Cluster Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) Cluster Screencast)**
 
 ![](/src/images/gops/Cluster.png)
 
@@ -149,7 +149,7 @@ Cluster has three options for output as found in the drop-down list **Return typ
 
 ## Join
 
-**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3G.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3G.mov) Join Screencast)**
+**([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3G.mov) Join Screencast)**
 
 The join operation is similar to joins done by database management systems such as MySQL (figure below).  Join looks at two datasets of intervals, and joins them based on interval overlap.  Any interval in the second dataset that overlaps an interval in the first dataset will be appended to the line from the first dataset and output.
 
