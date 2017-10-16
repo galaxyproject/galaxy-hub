@@ -8,7 +8,7 @@ image: /src/blog/2017-10-16-UnicyclerTutorial/unicycler.png
 
 <div class="alert alert-info" role="alert"><i class="fa fa-fighter-jet" aria-hidden="true"></i> If you are impatient (like me) and would like to try assembly right away - go to [tutorial](https://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html). </div>
 
-Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When I first needed to perform assembly I was uneasy about it - I have never done it before. What I needed is to sequence a genome of an *E. coli* type C-1 that my lab is using in experimental evolution experiments (e.g., Dickins:[2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817424/)). We've generated data and were sitting figuring out what to do with it. Here I describe our logic and how we ended up with integrating genome assembly into Galaxy, so *you* can use your time more wisely. 
+Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When I first needed to perform assembly I was uneasy about it - I had never done it before. What I needed was to sequence a genome of an *E. coli* type C-1 that my lab was using in experimental evolution experiments (e.g., Dickins:[2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817424/)). We had generated data and were sitting figuring out what to do with it. Here I describe our logic and how we ended up with integrating genome assembly into Galaxy, so *you* can use your time more wisely. 
 
 ## Getting data
 
