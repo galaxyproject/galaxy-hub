@@ -12,9 +12,9 @@ We'll pretend to add a new datatype format named "Foobar" whose associated file 
 
 ### Step 1
 
-We'll add the new data type to the `&lt;registration&gt;` tag section of the `datatypes_conf.xml` file. Sample `&lt;datatype&gt;` tag attributes in this section are:
+We'll add the new data type to the `<registration>` tag section of the `datatypes_conf.xml` file. Sample `&lt;datatype&gt;` tag attributes in this section are:
 
-`&lt;datatype extension="ab1" type="galaxy.datatypes.images:Ab1" mimetype="application/octet-stream" display_in_upload="true"/&gt;`
+`<datatype extension="ab1" type="galaxy.datatypes.images:Ab1" mimetype="application/octet-stream" display_in_upload="true"/>`
 
 where:
 
@@ -40,7 +40,7 @@ where:
 
 ### Step 2
 
-Galaxy tools are configured to automatically set the data type of an output dataset. However, in some scenarios, Galaxy will attempt to determine the data type of a file using a sniffer (e.g., uploading a file from a local disk with 'Auto-detect' selected in the File Format select list). The order in which Galaxy attempts to determine data types is critical because some formats are much more loosely defined than others. The order in which the sniffer for each data type is applied to the file should be most rigidly defined formats first followed by less and less rigidly defined formats, with the most loosely defined format last, and then a default format associated with the file if none of the data type sniffers were successful. The order in which data type sniffers are applied to files is implicit in the `&lt;sniffers&gt;` tag set section of the `datatypes_conf.xml` file. We'll assume that the format of our Foobar data type is fairly rigidly defined, so it can be placed closer to the start of the sniff order.
+Galaxy tools are configured to automatically set the data type of an output dataset. However, in some scenarios, Galaxy will attempt to determine the data type of a file using a sniffer (e.g., uploading a file from a local disk with 'Auto-detect' selected in the File Format select list). The order in which Galaxy attempts to determine data types is critical because some formats are much more loosely defined than others. The order in which the sniffer for each data type is applied to the file should be most rigidly defined formats first followed by less and less rigidly defined formats, with the most loosely defined format last, and then a default format associated with the file if none of the data type sniffers were successful. The order in which data type sniffers are applied to files is implicit in the `<sniffers>` tag set section of the `datatypes_conf.xml` file. We'll assume that the format of our Foobar data type is fairly rigidly defined, so it can be placed closer to the start of the sniff order.
 
 ```
 #!highlight xml
