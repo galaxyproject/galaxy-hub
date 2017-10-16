@@ -3,7 +3,7 @@ extends layout.pug
 block content
     div.col-md-12
         section.section-content
-            h1 !{ title }
+            +renderPageTitle
             div !{ contents }
 
             table.table.table-striped
