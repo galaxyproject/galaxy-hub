@@ -14,11 +14,13 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
 
 <br />
 
-# Tags over time
+# Publications and Tags Over Time
 
 <table class="table">
   <tr>
     <th> Year </th>
+    <th> # Pubs </th>
+    <th> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Meth-ods</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">Use-Public</a> </th>
@@ -36,31 +38,33 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">Pro-ject</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">Visu-aliza-tion</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">Use-Cloud</a> </th>
-    <th> # </th>
   </tr>
   <tr>
     <th> 2005 </th>
-    <td >  </td>
-    <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td >  </td>
-    <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
-    <td >  </td>
-    <td >  </td>
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
+    <td >  </td>
+    <td >  </td>
   </tr>
   <tr>
     <th> 2006 </th>
+    <td  style="text-align: right; background-color: #dff3df;" > 4 </td>
+    <td >  </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
     <td >  </td>
@@ -78,10 +82,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td >  </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #dff3df;" > 4 </td>
   </tr>
   <tr>
     <th> 2007 </th>
+    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
     <td  style="text-align: right; background-color: #d6f0d6;" > 7 </td>
     <td >  </td>
@@ -99,10 +104,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
   </tr>
   <tr>
     <th> 2008 </th>
+    <td  style="text-align: right; background-color: #bae5ba;" > 32 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #c9eac9;" > 15 </td>
     <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
     <td >  </td>
@@ -120,10 +126,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #bae5ba;" > 32 </td>
   </tr>
   <tr>
     <th> 2009 </th>
+    <td  style="text-align: right; background-color: #b1e2b1;" > 52 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #bee7be;" > 26 </td>
     <td  style="text-align: right; background-color: #c5e9c5;" > 18 </td>
     <td >  </td>
@@ -141,10 +148,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td >  </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #b1e2b1;" > 52 </td>
   </tr>
   <tr>
     <th> 2010 </th>
+    <td  style="text-align: right; background-color: #a3dca3;" > 107 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #b2e2b2;" > 50 </td>
     <td  style="text-align: right; background-color: #b8e4b8;" > 36 </td>
     <td >  </td>
@@ -162,10 +170,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #a3dca3;" > 107 </td>
   </tr>
   <tr>
     <th> 2011 </th>
+    <td  style="text-align: right; background-color: #97d897;" > 205 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #a6dda6;" > 93 </td>
     <td  style="text-align: right; background-color: #abdfab;" > 70 </td>
     <td >  </td>
@@ -183,10 +192,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #97d897;" > 205 </td>
   </tr>
   <tr>
     <th> 2012 </th>
+    <td  style="text-align: right; background-color: #8ad38a;" > 396 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #97d897;" > 196 </td>
     <td  style="text-align: right; background-color: #a0dba0;" > 128 </td>
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
@@ -204,10 +214,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #d0edd0;" > 10 </td>
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #8ad38a;" > 396 </td>
   </tr>
   <tr>
     <th> 2013 </th>
+    <td  style="text-align: right; background-color: #85d185;" > 499 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #92d692;" > 262 </td>
     <td  style="text-align: right; background-color: #9dda9d;" > 150 </td>
     <td  style="text-align: right; background-color: #c7eac7;" > 16 </td>
@@ -225,10 +236,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
     <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
-    <td  style="text-align: right; background-color: #85d185;" > 499 </td>
   </tr>
   <tr>
     <th> 2014 </th>
+    <td  style="text-align: right; background-color: #7ece7e;" > 733 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #8dd48d;" > 329 </td>
     <td  style="text-align: right; background-color: #95d795;" > 224 </td>
     <td  style="text-align: right; background-color: #afe1af;" > 59 </td>
@@ -246,10 +258,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #d6f0d6;" > 7 </td>
     <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
-    <td  style="text-align: right; background-color: #7ece7e;" > 733 </td>
   </tr>
   <tr>
     <th> 2015 </th>
+    <td  style="text-align: right; background-color: #79cd79;" > 920 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #86d286;" > 468 </td>
     <td  style="text-align: right; background-color: #94d794;" > 232 </td>
     <td  style="text-align: right; background-color: #9edb9e;" > 137 </td>
@@ -267,10 +280,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #ceedce;" > 11 </td>
     <td  style="text-align: right; background-color: #d6f0d6;" > 7 </td>
     <td  style="text-align: right; background-color: #e9f7e9;" > 2 </td>
-    <td  style="text-align: right; background-color: #79cd79;" > 920 </td>
   </tr>
   <tr>
     <th> 2016 </th>
+    <td  style="text-align: right; background-color: #76cb76;" > 1104 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #83d083;" > 567 </td>
     <td  style="text-align: right; background-color: #93d693;" > 243 </td>
     <td  style="text-align: right; background-color: #96d896;" > 206 </td>
@@ -288,10 +302,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #d6f0d6;" > 7 </td>
     <td  style="text-align: right; background-color: #d2eed2;" > 9 </td>
     <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
-    <td  style="text-align: right; background-color: #76cb76;" > 1104 </td>
   </tr>
   <tr>
     <th> 2017 </th>
+    <td  style="text-align: right; background-color: #79cc79;" > 929 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #84d084;" > 541 </td>
     <td  style="text-align: right; background-color: #9cda9c;" > 156 </td>
     <td  style="text-align: right; background-color: #96d896;" > 207 </td>
@@ -309,10 +324,11 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
     <td  style="text-align: right; background-color: #dff3df;" > 4 </td>
     <td  style="text-align: right; background-color: #f1faf1;" > 1 </td>
-    <td  style="text-align: right; background-color: #79cc79;" > 929 </td>
   </tr>
   <tr>
     <th> 2018 </th>
+    <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
+    <td >  </td>
     <td  style="text-align: right; background-color: #dff3df;" > 4 </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
@@ -330,12 +346,13 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <td >  </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
   </tr>
   <tr>
     <th> Total </th>
-    <th  style="text-align: right; background-color: #65c565;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">2,553</a> </th>
-    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1,280</a> </th>
+    <th  style="text-align: right; background-color: #58c058;" > 5000 </th>
+    <th> </th>
+    <th  style="text-align: right; background-color: #65c565;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">2553</a> </th>
+    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1280</a> </th>
     <th  style="text-align: right; background-color: #81cf81;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">629</a> </th>
     <th  style="text-align: right; background-color: #84d184;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">529</a> </th>
     <th  style="text-align: right; background-color: #8dd48d;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">339</a> </th>
@@ -351,7 +368,6 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th  style="text-align: right; background-color: #aee0ae;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">61</a> </th>
     <th  style="text-align: right; background-color: #b9e4b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">35</a> </th>
     <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">9</a> </th>
-    <th  style="text-align: right; background-color: #58c058;" > 5,000 </th>
   </tr>
 </table>
 
