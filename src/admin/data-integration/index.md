@@ -2,7 +2,7 @@
 
 ## Data Integration for Local Instances
 
-Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see: **[Data Managers](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
+Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see: **[Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
 Built-in data files are critical for many Galaxy tools. This page will describe how to get data into your local instance of Galaxy in a general way. For instructions specific for organizing and indexing data for use with tools, see **[Data Preparation](/src/admin/data-preparation/index.md)**. Additional instructions are available for reviewing or retrieving the exact data hosted on the public [Main](/src/main/index.md) instance or for performing more complex data prep used by specific tool groups.
 
