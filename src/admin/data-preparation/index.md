@@ -1,6 +1,6 @@
 # Data Preparation
 
-**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers](/src/admin/tools/data-managers/index.md).**
+**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/src/admin/tools/data-managers/index.md).** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
 Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
