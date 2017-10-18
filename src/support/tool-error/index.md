@@ -122,6 +122,7 @@ Often memory errors can be avoided by the user executing the job:
 * Double check the inputs to the tool. Are the [data properly formatted and labeled](/src/support/#input-format-getting-it-right-to-avoid-problems)?
 * Review the parameters for the tool and determine if any changes made away from the default setting (or possibly the detail settings) are compute-intensive. Make changes if they suit your research goals. See the underlying tool's documentation to better understand specific parameters. This is often linked in the Help section on a tool's execution form.
 * If the tool used was one that compares two dataset, change the order of the inputs, and test with a re-run. Some tools consume less memory when the larger dataset is entered as the first input on the tool form.
+* Also see **How to resolve** and **Special cases** in next section. Just note that a rerun will not solve this type or error until changes are made to the inputs and/or the tool settings.
 
 ### Type: execution exceeds maximum allowed job run time (walltime)
 
