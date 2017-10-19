@@ -43,7 +43,6 @@ _Integration test once installed_
 
 **TOOLS**
 
-1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 
 
@@ -83,6 +82,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **Upload** Fixed early 2017. Tool was problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. **Uniprot** Dependency fix on 5/15/17. Impacted Galaxy Main http://usegalaxy.org, locals, cloud (any install). Details: https://github.com/galaxyproject/galaxy/issues/3721
 1. **Megablast 1.2.0**. Fails for configuration error. *Metagenomic alternative: Kraken*. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/4498
 1. **Freebayes 0.4.1 + 1.0.2.29-3** Now requires upsteam inputs have database metadata assigned - see ticket for workaround. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/409
