@@ -52,7 +52,7 @@ Try using *Coordinate sort* on the inputs with **SortSam** before using these to
 
 ### NGS: Picard (most)
 
-Tools can error for a variety of reasons that seem to be unrelated to sort order, including this one seen on the bug report (click on the green bug icon, but there is no need to submit the bug/error):
+Tools can error for a variety of reasons that seem to be unrelated to sort order, including this one seen on the bug report (click on the green bug icon, but there is no need to submit the bug/error). Instead, sort and then rerun.
 
 ```
 job info:
