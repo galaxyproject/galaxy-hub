@@ -40,15 +40,14 @@ _Integration test once installed_
 - - - 
 ## Integration test
 
-**_Retest/status update at Main and default 17.05_**
+**_Retest/status update at Main and default 17.09 (pending release)_**
 
 **TOOLS**
 
 1. **Uniprot** Dependency fix on 5/15/17. Impacted Galaxy Main http://usegalaxy.org, locals, cloud (any install). Details: https://github.com/galaxyproject/galaxy/issues/3721
 1. PASS on Test, needs Main update **Upload** Problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
-1. **Stringtie** (recently updated to 1.3.3). UI/version issues - needs ticket if not fixed in next day or so.
-1. **MACS2** (recently updated to 2.1.1.20160309.0). Test all components against open issues above (two are confirmed to be problematic so far)
+
 
 **UI**
 
