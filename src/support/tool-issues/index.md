@@ -28,18 +28,11 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 - - - 
 ## Tools that need updated usage/help
 
-1. **Trinity** Both trinity and trinity_pcs. Details: https://github.com/galaxyproject/tools-iuc/issues/1298
-
-
 - - -
-## Fixed pending update
-
-_Integration test once installed_
+## Fixed pending server update
 
 - - - 
-## Integration test
-
-**_Retest/status update at Main and default 17.09 (pending release)_**
+## Integration tests in progress
 
 **TOOLS**
 
