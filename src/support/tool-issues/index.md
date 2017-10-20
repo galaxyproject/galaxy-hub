@@ -13,6 +13,8 @@ Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproje
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/340
 1. (1) **SnpEff Download v4.1.0**. Index problem for certain databases nested in .zip archives from the source. A newer version of all **SnpEff** tools is available (**4.3k.0**). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1354
 1. (many) **Upload** Retested 6/1/17 v 17.05 then again on 10/18/17 v 17.09 on Main. Still assigning "pileup" as autodetected datatype in a greedy way for tabular format data that has a variable numbers of columns per line. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
+1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
+
 
 _above confirmed open and updated, below re-review in progress_
 
@@ -42,7 +44,6 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 
 **UI**
 
-1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
 1. **Workflows** *NOTE that a new workflow form is pending and these usage issues will be re-tested.* Behavior: Reference genome selection at runtime or changes through editor are not persistent or do not allow use of a Custom Reference Genome/Build. Known issues, sometimes linked to specific tools (SAMTool, Tophat). Impacts Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1132
 
 - - - 
