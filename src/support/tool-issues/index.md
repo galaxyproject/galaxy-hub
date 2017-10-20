@@ -14,6 +14,8 @@ Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproje
 1. (1) **SnpEff Download v4.1.0**. Index problem for certain databases nested in .zip archives from the source. A newer version of all **SnpEff** tools is available (**4.3k.0**). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1354
 1. (many) **Upload** Retested 6/1/17 v 17.05 then again on 10/18/17 v 17.09 on Main. Still assigning "pileup" as autodetected datatype in a greedy way for tabular format data that has a variable numbers of columns per line. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
+1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
+
 
 
 _above confirmed open and updated, below re-review in progress_
@@ -21,7 +23,6 @@ _above confirmed open and updated, below re-review in progress_
 1. (1) **Annovar 0.2** Wrapper problems. **Use v 0.1 as a workaround**. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/4001
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
 1. **Needs RE-TEST** (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
-1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
 1. **Needs RE-TEST** (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. 
 1. (?) **BWA-MEM 0.7.12.1 produces BAM that fails ValidateSamFile 1.136.0**. Default options for both. **ValidateSamFile** tool needs tuning? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 
