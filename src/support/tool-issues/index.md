@@ -2,9 +2,9 @@ _Last updated 10-18-17. Additional updates in progress against the pending `17.0
 
 **Check individual linked tickets to review the most current status for any known issue**
 
-## Current tool improvements and updates
+## Working at Galaxy Main https://usegalaxy.org?  
 
-Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1292
+Issues impacting https://usegalaxy.org (only) are tracked here: https://github.com/galaxyproject/usegalaxy-playbook/issues
 
 ## Issue by tool name 
 
@@ -17,13 +17,10 @@ Review of tools at http://usegalaxy.org. Details: https://github.com/galaxyproje
 1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
 
 
-
-_above confirmed open and updated, below re-review in progress_
+__retest/status in progress__
 
 1. (1) **Annovar 0.2** Wrapper problems. **Use v 0.1 as a workaround**. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/4001
 1. (1) **Picard SamToFastq 1.136.0** Does not list fastqsanger output datasets in Workflow editor. Impacts Galaxy Main http://usegalaxy.org and a local Galaxy (not tested on Cloudman). Details: https://github.com/galaxyproject/tools-devteam/issues/414
-1. **Needs RE-TEST** (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
-1. **Needs RE-TEST** (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. 
 1. (?) **BWA-MEM 0.7.12.1 produces BAM that fails ValidateSamFile 1.136.0**. Default options for both. **ValidateSamFile** tool needs tuning? Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2846
 
 
@@ -36,11 +33,13 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 ## Fixed pending server update
 
 - - - 
-## Integration tests in progress
+## Integration tests in progress ( v 17.09 )
 
 **TOOLS**
 
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
+1. **Needs RE-TEST** (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
+1. **Needs RE-TEST** (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. 
 
 
 **UI**
