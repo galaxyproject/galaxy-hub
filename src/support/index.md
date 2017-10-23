@@ -38,7 +38,7 @@ title: Galaxy Support
 ### Data Options
 
 * [Sharing and Publishing your work](/src/learn/share/index.md)
-* [Moving data between Galaxy servers (any!)](moving-data-between-galaxy-instances/)
+* [Moving data between Galaxy servers (any!)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
 ### Help Guides
 
