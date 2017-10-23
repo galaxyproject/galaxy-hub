@@ -333,23 +333,23 @@ The most recent version of CloudMan was [released in January 2014](/src/news/clo
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </td>
   </tr>
 </table>
 
 <br /><br />
 
-The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Catalog](/src/community/deployments/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/blog/index.md)* and  *[Deployment Catalog](/src/community/deployment/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
-There was one new [Community Log Board](/src/community/logs/index.md) entry in March:
+There was one new [Community Log Board](/src/blog/index.md) entry in March:
 
-* [Basic Galaxy Puppet Module](/src/community/log/2014/basic-galaxy-puppet-module/index.md) (work by Olivier Inizan, Mikael Loaec of INRA-URGI)
+* [Basic Galaxy Puppet Module](https://forge.puppetlabs.com/urgi/galaxy) (work by Olivier Inizan, Mikael Loaec of INRA-URGI)
 
 # ToolShed Contributions
 

@@ -313,7 +313,7 @@ There are [upcoming events](/src/events/index.md) on 3 continents in 4 countries
     <th> June 25-29 </th>
     <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/events/gcc2016/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -407,7 +407,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## BioBlend 0.7.0
 
-[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 ## Other Releases
@@ -456,13 +456,13 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -476,12 +476,12 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * **[University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions](/src/teach/trainers/index.md#university-of-minnesota-minnesota-supercomputing-institute-research-informatics-solutions)**
     [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
 
-And 2 new **[Community Log Board](/src/community/logs/index.md)** entries were added as well.  Both are about wrapping Tools for Galaxy:
+And 2 new **[Community Log Board](/src/blog/index.md)** entries were added as well.  Both are about wrapping Tools for Galaxy:
 
-* **[Galaxy Tool Generating Dataset Collections](/src/community/log/2015/tool-generating-datasets/index.md)**
+* **[Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)**
     [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/) documented how create dataset collections in Galaxy tool definitions. (And [Alveo](http://alveo.edu.au/) is also a cool, non-life science application of Galaxy.)
 
-* **[How Galaxy resolves dependencies (or not)](/src/community/log/2015/how-galaxy-resolve-dependencies-or-not/index.md)**
+* **[How Galaxy resolves dependencies (or not)](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/)**
     [Peter van Heusden](https://github.com/pvanheus/) documents tool dependencies that specify how to source the actual packages that implement a tool’s commands.
 
 ----

@@ -17,7 +17,7 @@ experience.
 
 # Community Chatroom
 
-<div class='right'>![Galaxy Chat](/Images/Icons/ChatBalloons.png)</div>
+<div class='right'>![Galaxy Chat](/src/images/icons/ChatBalloons.png)</div>
 
 Galaxy also has an open community chatroom.  The channel exists on both IRC and
 Gitter, and the rooms are bridged together, so feel free to use whichever
@@ -45,13 +45,13 @@ engines](https://galaxyproject.org/search/).
 <div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
 There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/main/index.md) server (and the [Galaxy Team](/src/galaxy-team/index.md)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
-The Galaxy [Tool Shed](/src/toolshed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/toolshed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/admin/tools/Add Tool Tutorial/index.md) for you.
+The Galaxy [Tool Shed](/src/toolshed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/toolshed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/admin/tools/add-tool-tutorial/index.md) for you.
 
 If you want to make your tool available to the entire Galaxy ecosystem, please contribute a tool wrapper to the [Tool Shed](/src/toolshed/index.md).
 
 # Sharing Galaxy Objects
 
-You can help other users by [sharing or publishing your Galaxy histories, workflows, and datasets](/src/Share/index.md) with other Galaxy users.  This allows others to examine your analysis in detail (histories), to reuse your analysis with their own input data (workflows), and to use your results in their own analysis (datasets).
+You can help other users by [sharing or publishing your Galaxy histories, workflows, and datasets](/src/learn/share/index.md) with other Galaxy users.  This allows others to examine your analysis in detail (histories), to reuse your analysis with their own input data (workflows), and to use your results in their own analysis (datasets).
 
 You can also go a step further and document your analysis using [Galaxy Pages](/src/learn/galaxy-pages/index.md).  These are online documents which are tightly integrated with your Galaxy objects - they provide a written explanation of your analysis.
 
@@ -63,11 +63,15 @@ Have an idea for a feature?  Found a bug?  You can submit reports on issues and 
 
 If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md), you can make it available to researchers outside your organization.  A number of groups [have done this](/src/public-galaxy-servers/index.md), often making a different tool set from Main available.  See [Public Galaxy Servers](/src/public-galaxy-servers/index.md).
 
-# Share Your Deployment Experience
+# Share Your Experience
+
+<img class="img-responsive pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
+
+The [Galactic Blog](/src/blog/index.md) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
 <div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div>
 
-The [Galaxy Deployment Catalog](/src/community/deployments/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/community/deployments/index.md).
+The [Galaxy Deployment Catalog](/src/community/deployment/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/community/deployment/index.md).
 
 <div class='right'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
 

@@ -95,7 +95,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/src/events/ismb2012/index.md'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/src/news/galaxy-workshops-in-south-africa/index.md'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a> 
+<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/src/events/ismb2012/index.md'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/src/news/galaxy-workshops-in-south-africa/index.md'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a> 
 </div>
 
 ### Deadlines
@@ -187,8 +187,6 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in June.
 
-<div class='right'><a href='http://community.completegenomics.com/thread/1121'><img src="/src/galaxy-updates/2012-07/images/Logos/CompleteGenomicsLogo.png" alt="Complete Genomics Community Site" width="150" /></a></div>
-
 * [CGA Tools](http://community.completegenomics.com/thread/1131) - [Complete Genomics](http://completegenomics.com/)' CGA Tools is now available.
 * `qiime1_3_0` - Extension of jjohnson's `qiime` repository, intended as an extension of that work. Only tools verified working in Galaxy with Qiime 1.3.0 documentation included.
 * `upload_local_file ` - Add data to histories without having to upload them through the network.
@@ -209,7 +207,7 @@ A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/
 <div class='right'><a href='/src/news/r-galaxy-wrap-r-functions-as-tools/index.md'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy: Wrap R functions as Galaxy Tools" width="200" /></a></div>
 1. [RGalaxy](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
 
-1. The first [GalaxyCzars](/src/community/GalaxyCzars/index.md) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
+1. The first [GalaxyCzars](/src/community/galaxy-admins/index.md) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
 
 1. Several new videos, screencasts, and tutorials were posted:
   * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)

@@ -132,7 +132,7 @@ GAW 2014 will be held in Melbourne, Australia on 24 and 25th March 2014.  The fi
 ## GMOD Malaysia 2014
 
 <div class='right'>
-<a href='/src/gmod:GMOD_Malaysia_2014/index.md'><img src="/src/images/logos/GMODMalaysia615.png" alt="GMOD Malaysia 2014" width="200" /></a>
+<a href='http://gmod.org/wiki/GMOD_Malaysia_2014'><img src="/src/images/logos/GMODMalaysia615.png" alt="GMOD Malaysia 2014" width="200" /></a>
 </div>
 
 **February 26-28, 2014, Kuala Lumpur, Malaysia.**
@@ -160,7 +160,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 <div class='center'> 
 <a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src="/src/images/logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
-<a href='/src/gmod:GMOD_Malaysia_2014/index.md'><img src="/src/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" height="60" /></a>&nbsp;
+<a href='http://gmod.org/wiki/GMOD_Malaysia_2014'><img src="/src/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" height="60" /></a>&nbsp;
 <a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'><img src="/src/images/logos/nowgenLogo180.png" alt="Introduction to NGS Bioinformatics" /></a>
 </div>
 
@@ -325,14 +325,14 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 **This update brings a large number of updates and new features.**  See the [release announcement](/src/news/cloudman-release201401/index.md) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
-<div class='right'><br /><div class='right'><a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
-<a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /></a><br /><br /></div>
+<div class='right'><br /><div class='right'><a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
+<a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /></a><br /><br /></div>
 <table>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -343,17 +343,17 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Catalog](/src/community/deployments/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  January saw several additions:
+The *[Community Log Board](/src/blog/index.md)* and  *[Deployment Catalog](/src/community/deployment/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  January saw several additions:
 
-**New [Galaxy Deployment Catalog](/src/community/deployments/index.md) entries:**
+**New [Galaxy Deployment Catalog](/src/community/deployment/index.md) entries:**
 * [CSIRO Galaxy Service](/src/community/deployment/csiro-service/index.md)
 * [UIUC-Galaxy](/src/community/deployment/uiuc/index.md)
 
 bringing the number of deployment descriptions to 10.
 
 
-**New [Community Log Board](/src/community/logs/index.md) entries** 
-* [LDAP remoteUser Logout](/src/community/log/2014/ldap-remote-user-logout/index.md)
+**New [Community Log Board](/src/blog/index.md) entries** 
+* [LDAP remoteUser Logout](/src/blog/2014-01-ldap-remote-user-logout/index.md)
 
 bringing the number of log entries to 12.
 

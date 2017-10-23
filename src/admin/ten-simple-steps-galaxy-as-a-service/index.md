@@ -55,7 +55,7 @@ Whatever solution fits best for you, you always need a ['Galaxy Admin' person](/
 ## Rule 4: Start small, but right
  
 As you will go through a learning process yourself, make sure the initial service you offer is as small and simple as possible. Nevertheless, there are a few points to check, when you start offering a [production Galaxy server](/src/admin/config/performance/production-server/). By default, Galaxy uses SQLite and a built-in HTTP server. This configuration works for initial development and testing. It does not work for deployment, as it can not handle concurrent jobs. The switch from SQLite to PostgreSQL as the engine for the database server running the Galaxy instance should be considered at an early stage. Using a proxy server (like Apache or nginx) allows you to delegate certain tasks (e.g. serving static content).  
-Have a look at [other installations](/src/community/deployment/) and check the Galaxy Community Log Board - a place to share how you addressed a particular [problem or task](/src/community/log/).
+Have a look at [other installations](/src/community/deployment/) and check the Galaxy Community Log Board - a place to share how you addressed a particular [problem or task](/src/blog/index.md).
 Take notes of all your changes and actions (setup, configurations, modifications, etc.), and consider storing config files in a version control system. 
  
  
