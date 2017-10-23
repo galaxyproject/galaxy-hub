@@ -5,7 +5,7 @@
 
 Related topics
  * [Loading Data](/src/support/loading-data/index.md)
- * [Moving data between Galaxy servers](/src/community/log/2016/moving-data-between-galaxies/index.md)
+ * [Moving data between Galaxy servers](moving-data-between-galaxy-instances/)
 
 
 ## Downloading data

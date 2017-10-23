@@ -360,19 +360,19 @@ upgrade:   $ hg pull
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </td>
   </tr>
 </table>
 
 <br /><br />
 
-The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Catalog](/src/community/deployments/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/blog/index.md)* and  *[Deployment Catalog](/src/community/deployment/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 # ToolShed Contributions
 

@@ -385,21 +385,21 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added in
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-One new [Community Log Board](/src/community/logs/index.md) entry was added in March:
+One new [Community Log Board](/src/blog/index.md) entry was added in March:
 
-* [Installing ANNOVAR in Galaxy](/src/community/log/2015/installing-annovar/index.md)
+* [Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 
 ----
@@ -463,7 +463,7 @@ One new [Community Log Board](/src/community/logs/index.md) entry was added in M
 
 <div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md).  ([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  ([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 

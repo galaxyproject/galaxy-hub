@@ -93,7 +93,7 @@ See the [full report](https://www.embl-abr.org.au/game2017report/) for more.
 
 ## GalaxyAdmins February Meetup Screencast
 
-<div class='left'><a href='/src/community/galaxy-admins/2017-02-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='left'><a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
 A video of the [February 16 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md) is now available.  Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
 

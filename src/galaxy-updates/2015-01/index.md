@@ -277,13 +277,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -299,7 +299,7 @@ Several new [Training Resources](/src/teach/resources/index.md) were added in De
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md).  
+[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  
 
 New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released in August.
 
@@ -388,8 +388,8 @@ In no particular order:
   * [package_r_3_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_3_1_2):  Contains a tool dependency definition that downloads and compiles version 3.0.3 of the the R package.
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
-  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/toolshed/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/toolshed/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
   * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*

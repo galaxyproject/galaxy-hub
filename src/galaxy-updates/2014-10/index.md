@@ -258,25 +258,25 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </td>
   </tr>
 </table>
 
 <br /><br />
 
 <div class='left'><br />
-<a href='/src/community/log/2014/galaxy-on-bio-linux8/index.md'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
+<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/public-galaxy-servers/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/community/logs/index.md).
+The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/public-galaxy-servers/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
 
-The *[Deployment Catalog](/src/community/deployments/index.md)* and *[Community Log Board](/src/community/logs/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/community/deployments/index.md), or [experience](/src/community/logs/index.md) you want to share then please publish them **this month.**
+The *[Deployment Catalog](/src/community/deployment/index.md)* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/community/deployment/index.md), or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 

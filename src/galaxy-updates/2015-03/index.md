@@ -197,7 +197,7 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 [Video and slides](/src/community/galaxy-admins/meetups/2015-02-19/index.md) from the first [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetup of 2015](/src/community/galaxy-admins/meetups/2015-02-19/index.md) are now available online. 
 
-[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) also lead a short discussion on *[GalaxyAdmins](/src/GalaxyAdmins/index.md) direction*.
+[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) also lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/index.md) direction*.
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
 
@@ -377,13 +377,13 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added i
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -391,11 +391,11 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added i
 
 <br />
 
-Two new [Community Log Board](/src/community/logs/index.md) entires were added in February:
+Two new [Community Log Board](/src/blog/index.md) entires were added in February:
 
-* [FTP upload to Galaxy using ProFTPd and PBKDF2](/src/community/log/2015/proftpd-and-pbkdf2/index.md)
+* [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
   * ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
-* [Instalando um servidor do Galaxy Project](/src/community/log/2015/instalando-servidor-galaxy/index.md)
+* Instalando um servidor do Galaxy Project
   * Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
 
 
@@ -421,7 +421,7 @@ There were several releases of [Planemo](https://github.com/galaxyproject/planem
 
 ## BioBlend
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 

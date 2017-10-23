@@ -393,27 +393,27 @@ Galaxy now has a formal and open policy for managing the project source code - i
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-Three new **[Community Log Board](/src/community/logs/index.md)** entries were added in July:
+Three new **[Community Log Board](/src/blog/index.md)** entries were added in July:
 
-* **[Moving from MySQL to PostgreSQL](/src/community/log/2015/mysql2postgresql/index.md)**
+* **[Moving from MySQL to PostgreSQL](/src/blog/2015-07-mysql-2-postgresql/index.md)**
     by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 
-* **[BioJS2Galaxy – A step by step guide](/src/community/log/2015/biojs2galaxy/index.md)**
+* **[BioJS2Galaxy – A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)**
     by [Benedikt Rauscher](https://twitter.com/bengrauscher) and [Benjamen White](http://www.benjamenwhite.com/2015)
 
-* **[Exposing Galaxy reports via nginx in a production instance](/src/community/log/2015/reports-via-nginx/index.md)**
+* **[Exposing Galaxy reports via nginx in a production instance](http://galacticengineer.blogspot.co.uk/2015/06/exposing-galaxy-reports-via-nginx-in.html)**
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 
 And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **[Teaching Resources Directory](/src/teach/resources/index.md)**:
@@ -440,7 +440,7 @@ You may have noticed in the past two months that an [updated Galaxy logo](/src/i
 
 ## BioBlend 0.6.0 and 0.6.1
 
-[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md)([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 * BioBlend.objects: Rename `ObjDatasetClient` abstract class to `ObjDatasetContainerClient`.
 * BioBlend.objects: Add `ABCMeta` metaclass and `list()` method to `ObjClient`.

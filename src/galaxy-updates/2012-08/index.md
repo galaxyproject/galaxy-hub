@@ -94,7 +94,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='center'>
 <a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
-<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
+<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
 <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 <a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
 </div>
@@ -211,9 +211,9 @@ A new Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories
 * **Admin Genome Indexing** is now in *BETA*. Download, index, and track progress right from the admin UI! That's a screen shot on the right ->
 * **Improved Error Handling** that captures `EXIT` codes, `STDOUT`, and `STDERR` from tools in XML. Be sure to read full details.
-* **[TopHat2](/src/TopHat2/index.md)/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
+* **TopHat2/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
 * **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now. 
 
 ## Other News
 
-* The [first GalaxyCzars conference call](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md) was held in July, and slides and video are now available online.
+* The [first GalaxyCzars conference call](/src/community/galaxy-admins/meetups/2012-07-09/index.md) was held in July, and slides and video are now available online.

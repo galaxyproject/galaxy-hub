@@ -212,7 +212,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/src/community/galaxy-admins//index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
+<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
 
 The next [GalaxyAdmins Meetup will be May 15](/src/community/galaxy-admins/meetups/2013-05-15/index.md) at 10 am central US time.  Watch your email for details.
 
