@@ -14,7 +14,7 @@ Topics were [nominated](/src/events/gcc2014/training-day/index.md#nomination-vot
 
 Workshops will be hands-on and participants are strongly encouraged to bring a laptop and follow along.
 
-Meeting participants select which Training Day topics to attend when they [register](/src/events/gcc2014/training-day/Register/index.md).
+Meeting participants select which Training Day topics to attend when they [register](/src/events/gcc2014/register/index.md).
 
 
 ## Day 0: Learning Galaxy
@@ -46,9 +46,9 @@ Meeting participants select which Training Day topics to attend when they [regis
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster---user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'> <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster-user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'> <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-automation-using-the-api'>Galaxy Automation: Using the API</a></strong><div class='indent'><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a> & <a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a></div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool'>Tool Development from bright idea to toolshed - Designing a Galaxy Tool</a></strong><div class='indent'> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='https://github.com/bgruening'>Björn Grüning</a> & <a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed-designing-a-galaxy-tool'>Tool Development from bright idea to toolshed - Designing a Galaxy Tool</a></strong><div class='indent'> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='https://github.com/bgruening'>Björn Grüning</a> & <a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#rna-seq-analysis-with-galaxy-and-the-tuxedo-suite'>RNA-Seq Analysis with Galaxy and the Tuxedo Suite</a></strong><div class='indent'> <a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'>Saskia Hiltemann</a>, Youri Hoogstrate & <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#3d-genome-analysis-with-galaxy'>3D Genome Analysis with Galaxy</a></strong><div class='indent'><a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9807'>Jonas Paulsen</a>, <a href='http://www.mn.uio.no/math/english/people/aca/tonjegl/'>Tonje Lien Gulbrandsen</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/4696'>Morten Johansen</a> & <a href='http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343'>Karen Reddy</a></div> </td>
   </tr>
@@ -59,10 +59,10 @@ Meeting participants select which Training Day topics to attend when they [regis
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#rna-seq-analysis-with-galaxy-and-alternative-tools'>RNA-Seq Analysis with Galaxy and Alternative Tools</a></strong> <div class='indent'> <a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'>Saskia Hiltemann</a>, Youri Hoogstrate & <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed-data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#visualization-of-ngs-data'>Visualization of NGS data</a></strong><div class='indent'><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> and <a href='/src/people/guerler/index.md'>Aysam Guerler</a></div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#scriptable-bioinformatics-cloud-infrastructures-with-cloud-biolinux-cloudman--galaxy'>Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan & Galaxy</a></strong> <div class='indent'><a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster---user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#scriptable-bioinformatics-cloud-infrastructures-with-cloud-biolinux-cloudman-galaxy'>Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan & Galaxy</a></strong> <div class='indent'><a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md##galaxy-on-a-cluster-user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 6:00 </th>
@@ -106,7 +106,7 @@ In general:
    Require a web browser such as Chrome, Firefox, or Safari.  The latest version of Internet Explorer should also work.
 
  **[Deployment and Development Workshops](/src/index.md#deployment-and-development-workshops):**
-   Require the [VirtualBox virtual machine (VM) software](/src/Events/GCC2014/TrainingDay/VMs/index.md) on your laptop.  See the [Training Day VMs](/src/VMs/index.md) page for more. This should be installed before you arrive at the conference.
+   Require the [VirtualBox virtual machine (VM) software](/src/events/gcc2014/training-day/vms/index.md) on your laptop.  See the [Training Day VMs](/src/events/gcc2014/training-day/vms/index.md) page for more. This should be installed before you arrive at the conference.
 
 See each individual workshop's list of prerequisite for specifics.
 
@@ -119,7 +119,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> <a href='http://www.medicine.uiowa.edu/humangenetics/biostatistics/'>Tom Bair</a>, <a href='http://uiowa.edu/'>University of Iowa</a><br /><a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> <a href='http://www.medicine.uiowa.edu/humangenetics/biostatistics/'>Tom Bair</a>, <a href='http://uiowa.edu/'>University of Iowa</a><br /><a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -191,7 +191,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td style=" vertical-align: top; background-color: #F1DDCB;"> The Tuxedo suite of RNA-Seq tools (Cuff*, Tophat, ...) are installed on many Galaxy instances, including <a href='Main'>/src/Main/index.md</a> and <a href='CloudMan'>/src/CloudMan/index.md</a> installs.  However, many other options are available.  For example, Htseq, EdgeR and DESeq are also widely used, take a different approach to RNA-Seq analysis and return different results from the Tuxedo suite. <br /><br />This workshop would introduce alternative methods for RNA-Seq analysis, cover how to install them from the <a href='Tool Shed'>/src/Tool Shed/index.md</a> and to test they are properly installed. The workshop could finish by comparing results from these tools with those from the Tuxedo suite. <br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltHandouts.pdf'>Handouts</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltSlides.pdf'>Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltAnswers.pdf'>Handout Answers</a></strong></td>
+    <td style=" vertical-align: top; background-color: #F1DDCB;"> The Tuxedo suite of RNA-Seq tools (Cuff*, Tophat, ...) are installed on many Galaxy instances, including <a href='/src/main/index.md'>Main </a> and <a href='/src/cloudman/index.md'>CloudMan</a> installs.  However, many other options are available.  For example, Htseq, EdgeR and DESeq are also widely used, take a different approach to RNA-Seq analysis and return different results from the Tuxedo suite. <br /><br />This workshop would introduce alternative methods for RNA-Seq analysis, cover how to install them from the <a href='/src/toolshed/index.md'>Tool Shed</a> and to test they are properly installed. The workshop could finish by comparing results from these tools with those from the Tuxedo suite. <br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltHandouts.pdf'>Handouts</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltSlides.pdf'>Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltAnswers.pdf'>Handout Answers</a></strong></td>
     <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
@@ -210,7 +210,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, <a href='http://www.gwu.edu/'>George Washington University</a><br /><a href='/src/guerler/index.md'>Aysam Guerler</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='http://www.gwu.edu/'>George Washington University</a><br /><a href='/src/people/guerler/index.md'>Aysam Guerler</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -255,11 +255,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a><br /><a href='/src/JohnChilton/index.md'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a><br /><a href='/src/people/john-chilton/index.md'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> Topics: <br /> &bull; Installing Galaxy on a standalone system<br /> &bull; Installing Galaxy in a cluster environment<br /> &bull; Common administrative tasks<div class='indent'> &bull; Tool installation (using Tool Shed and manually)<br /> &bull;  Reference genome installation and configuration<br /> &bull; Misc. (user authentication, data libraries, other...)</div> &bull; Upgrading<br />&bull; Troubleshooting <br /><br /><strong><a href='/src/Events/GCC2014/TrainingDay/AdminWalkthrough/index.md'>Workshop Walkthrough</a></strong> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> Topics: <br /> &bull; Installing Galaxy on a standalone system<br /> &bull; Installing Galaxy in a cluster environment<br /> &bull; Common administrative tasks<div class='indent'> &bull; Tool installation (using Tool Shed and manually)<br /> &bull;  Reference genome installation and configuration<br /> &bull; Misc. (user authentication, data libraries, other...)</div> &bull; Upgrading<br />&bull; Troubleshooting <br /><br /><strong><a href='/src/events/gcc2014/training-day/admin-walkthrough/index.md'>Workshop Walkthrough</a></strong> </td>
     <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop.  </td>
   </tr>
   <tr>
@@ -304,11 +304,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/DannonBaker/index.md'>Dannon Baker</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> <br /><a href='/src/CarlEberhard/index.md'>Carl Eberhard</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> <br /><a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy has a growing API that allows for external programs to control the system, search the resources, and issue work requests. The session would cover programmatic access of the API either by direct REST web calls or by using the BioBlend/blend4j APIs. <br /><br /><strong><a href='/src/Events/GCC2014/TrainingDay/API/index.md'>Slides and Scripts</a></strong></td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy has a growing API that allows for external programs to control the system, search the resources, and issue work requests. The session would cover programmatic access of the API either by direct REST web calls or by using the BioBlend/blend4j APIs. <br /><br /><strong><a href='/src/events/gcc2014/training-day/api/index.md'>Slides and Scripts</a></strong></td>
     <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
@@ -327,7 +327,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='http://www.psu.edu/'>Penn State University</a><br /><a href='https://github.com/bgruening'>Björn Grüning</a>, <a href='http://www.uni-freiburg.de/'>University of Freiburg</a><br /><a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a>, <a href='http://www.hutton.ac.uk/'>James Hutton Institute</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='http://www.psu.edu/'>Penn State University</a><br /><a href='https://github.com/bgruening'>Björn Grüning</a>, <a href='http://www.uni-freiburg.de/'>University of Freiburg</a><br /><a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a>, <a href='http://www.hutton.ac.uk/'>James Hutton Institute</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -351,11 +351,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a>, <a href='http://umn.edu'>University of Minnesota</a><br /><a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a>, <a href='http://umn.edu'>University of Minnesota</a><br /><a href='/src/people/dan/index.md'>Dan Blankenberg</a>, <a href='http://www.psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy tools can require installed reference data in order to be used effectively. For example, Bowtie requires prebuilt indexes in order to efficiently map sequences to a genome.<br /><br />Data Managers enable a Galaxy administrator to add reference data to a Galaxy server via the admin webpage.<br /><br />This session covers the tool and toolshed requirements for using reference data within galaxy tools, and the design and development of tool data managers to install reference data on a Galaxy server. <br /><br /><strong><a href='/src/Events/GCC2014/TrainingDay/DataManagers/index.md'>Tutorial</a></strong> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy tools can require installed reference data in order to be used effectively. For example, Bowtie requires prebuilt indexes in order to efficiently map sequences to a genome.<br /><br />Data Managers enable a Galaxy administrator to add reference data to a Galaxy server via the admin webpage.<br /><br />This session covers the tool and toolshed requirements for using reference data within galaxy tools, and the design and development of tool data managers to install reference data on a Galaxy server. <br /><br /><strong><a href='/src/events/gcc2014/training-day/data-managers/index.md'>Tutorial</a></strong> </td>
     <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
@@ -375,7 +375,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <a href='/src/people/james-taylor/index.md'>James Taylor</a>, <a href='http://www.jhu.edu/'>Johns Hopkins University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -394,7 +394,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='http://www.jcvi.org/'>JCVI</a> <br /><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /><a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://www.jcvi.org/'>JCVI</a> <br /><a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a>,  <a href='http://compbio.sph.harvard.edu/chb/'>Harvard University</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> <a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='http://www.jcvi.org/'>JCVI</a> <br /><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /><a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://www.jcvi.org/'>JCVI</a> <br /><a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a>,  <a href='http://compbio.sph.harvard.edu/chb/'>Harvard University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -449,7 +449,7 @@ Training Day topics were selected by the Galaxy Community.  Topic were first nom
 # Training Day Sponsor
 
 <div class='center'>
-<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
+<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
 
 <br />
 

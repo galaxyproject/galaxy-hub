@@ -1,5 +1,5 @@
 ---
-title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
+title: GalaxyAdmins BoF
 ---
 {{> Events/GCC2014/Header }}
 
@@ -8,7 +8,7 @@ title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
-This page describes the **[GalaxyAdmins](/src/GalaxyAdmins/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
 
 
 When: **Wednesday, July 2, 5:45pm**
@@ -49,7 +49,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 
 * [Dave Clements](/src/people/dave-clements/index.md)
 * [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
-* [Sebastian Schaaf](/src/SebastianSchaaf/index.md)
+* Sebastian Schaaf
 * [Eric Rasche](/src/people/eric-rasche/index.md)
 * [Dan Blankenberg](/src/people/dan/index.md)
 * Christine Walls
@@ -107,7 +107,7 @@ We investigated splitting the Galaxy-Dev [Mailing List](/src/mailing-lists/index
 Two items were implemented late in 2013:
 
 * Galaxy Log Board: (since moved to the [Galaxy Blog](/src/blog/index.md) a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
-* [Galaxy Deployment Catalog](/src/community/deployments/index.md): Describes how different Galaxy Servers are implemented.  This is a means for admins to learn what others have done to address particular types of demand and communities.  
+* [Galaxy Deployment Catalog](/src/community/deployment/index.md): Describes how different Galaxy Servers are implemented.  This is a means for admins to learn what others have done to address particular types of demand and communities.  
 
 # The GalaxyAdmins Group Itself
 

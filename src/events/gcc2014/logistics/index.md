@@ -85,7 +85,7 @@ There is no rail or free bus service to the Homewood Campus, but several bus rou
 </table>
 
 
-Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/src/events/gcc2014/logistics/Register/index.md). 
+Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/src/events/gcc2014/register/index.md). 
 
 Some key points:
 
