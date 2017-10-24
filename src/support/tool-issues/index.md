@@ -15,7 +15,7 @@ Issues impacting https://usegalaxy.org (only) are tracked here: https://github.c
 1. (many) **Upload** Retested 6/1/17 v 17.05 then again on 10/18/17 v 17.09 on Main. Still assigning "pileup" as autodetected datatype in a greedy way for tabular format data that has a variable numbers of columns per line. Impacts Galaxy Test and Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3001
 1. **Rerun Function (many tools)** Rerun view for grey "new" status dataset, and sometimes green successful datasets, fails to open Advanced Options on reloaded tool form. Impacts Galaxy Main http://usegalaxy.org. Details:  https://github.com/galaxyproject/galaxy/issues/2502
 1. (many) **Htseq-count 0.6.1galaxy3** Does not report standardized memory failure error message. Suggested improvements are in the ticket. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2532
-1. (a few) **Featurecounts** Featurecount being updated from 1.4.6.p5 to 1.5.3 but not in the MTS. Update once in MTS. Impacts Galaxy Main https://usegalaxy.org. Details: https://github.com/galaxyproject/usegalaxy-playbook/issues/52
+1. (a few) **Featurecounts** Is being updated from 1.4.6.p5 to 1.5.3 to address a bug is but not in the MTS yet (was just upgraded). Update Main once in MTS and test. Impacts Galaxy Main https://usegalaxy.org. Details: https://github.com/galaxyproject/usegalaxy-playbook/issues/52
 
 
 __retest/status in progress__
