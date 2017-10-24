@@ -59,6 +59,11 @@ Bring your laptop for a series of hands-on exercises.
 - [Tracy Teal](http://www.datacarpentry.org/people/), Executive Director, Data Carpentry, tkteal@datacarpentry.org
 - [Camille Avestruz](https://kicp.uchicago.edu/people/profile/camille_avestruz.html), Postdoctoral Research Fellow at the University of Chicago, avestruz@uchicago.edu
 
+## Required Software
+
+You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](http://installation.software-carpentry.org/
+) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
+
 ## Session 1 : Unix Shell 
 
 | Time | Topic |
@@ -104,6 +109,8 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 ## Session 1 : CyVerse
 
+[This website](http://www.cyverse.org/SACNAS2017) contains instructions for 1) signing up/registering for a CyVerse account and 2) downloading CyberDuck (PC/Mac). If you can do the prior to the workshop, that would be very helpful!
+
 | Time | Topic |
 |:----:| ----- |
 | 9:00a - 9:30a	| Workshop & Participant Introductions |
@@ -117,6 +124,10 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 1:30p - 2:00p | Discuss your data! |
 
 # Session 2 : Galaxy
+
+* [Introduction to Genomics and Galaxy](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+* [Extracting Workflows from Histories](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-history-to-workflow/tutorial.html)
+* [Intro and closing slides](https://depot.galaxyproject.org/hub/attachments/events/2017-sacnas/2017-sacnas-galaxy-slides.pdf)
 
 | Time | Topic |
 |:----:| ----- |
@@ -137,4 +148,4 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 **Room 250 F**
 
-Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *[Resources and Techniques for Training Students in Computational Skills](https://event.crowdcompass.com/2017sacnas/activity/PgfRQW3Nrl)* session during the 2017 SACNAS Conference.
+Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *[Resources and Techniques for Training Students in Computational Skills](/src/events/2017-sacnas-session/index.md)* session during the 2017 SACNAS Conference.
