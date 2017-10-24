@@ -12,4 +12,6 @@ gtn: y
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
 ---
 
+* [Slides](https://drive.google.com/file/d/0BxfIxI6kQS-oSzZ1MlI2UUJkN0U/view?usp=sharing)
+
 There are [also pre-conference workshops on Wednesday](/src/events/2017-sacnas/index.md).
