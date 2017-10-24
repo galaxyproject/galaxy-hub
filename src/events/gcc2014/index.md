@@ -113,7 +113,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br /><br />
 
-[<img class="center-block" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md'>)
+[<img class="center-block" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
 
 <br />
 

@@ -9,7 +9,7 @@ title: GCC2014 Program
 
 <div class='pull-right'>**[Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/program/GCC2014Program.pdf)** &nbsp; </div>
 
-The [2014 Galaxy Community Conference](/src/events/gcc2014/program//index.md) will start with a [Training Day](/src/events/gcc2014/program/training-day/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2014/program/lightning/index.md), [poster sessions](/src/events/gcc2014/abstracts/posters/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/events/gcc2014/program/bofs/index.md), and networking time.
+The [2014 Galaxy Community Conference](/src/events/gcc2014/index.md) will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2014/lightning/index.md), [poster sessions](/src/events/gcc2014/abstracts/posters/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/events/gcc2014/bofs/index.md), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  Talks will be grouped and scheduled in sessions focusing on particular topics.
 
@@ -52,9 +52,9 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster---user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'> <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster-user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'> <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-automation-using-the-api'>Galaxy Automation: Using the API</a></strong><div class='indent'><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a> & <a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a></div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool'>Tool Development from bright idea to toolshed - Designing a Galaxy Tool</a></strong><div class='indent'> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='https://github.com/bgruening'>Björn Grüning</a> & <a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed-designing-a-galaxy-tool'>Tool Development from bright idea to toolshed - Designing a Galaxy Tool</a></strong><div class='indent'> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='https://github.com/bgruening'>Björn Grüning</a> & <a href='http://www.hutton.ac.uk/staff/peter-cock'>Peter Cock</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#rna-seq-analysis-with-galaxy-and-the-tuxedo-suite'>RNA-Seq Analysis with Galaxy and the Tuxedo Suite</a></strong><div class='indent'> <a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'>Saskia Hiltemann</a>, Youri Hoogstrate & <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#3d-genome-analysis-with-galaxy'>3D Genome Analysis with Galaxy</a></strong><div class='indent'><a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9807'>Jonas Paulsen</a>, <a href='http://www.mn.uio.no/math/english/people/aca/tonjegl/'>Tonje Lien Gulbrandsen</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/4696'>Morten Johansen</a> & <a href='http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343'>Karen Reddy</a></div> </td>
   </tr>
@@ -65,10 +65,10 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#rna-seq-analysis-with-galaxy-and-alternative-tools'>RNA-Seq Analysis with Galaxy and Alternative Tools</a></strong> <div class='indent'> <a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'>Saskia Hiltemann</a>, Youri Hoogstrate & <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed-data-managers'>Tool Development from bright idea to toolshed - Data Managers</a></strong><div class='indent'> <a href='https://www.msi.umn.edu/users/jj'>JJ Johnson</a> & <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </div> </td>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> <strong><a href='/src/events/gcc2014/training-day/index.md#visualization-of-ngs-data'>Visualization of NGS data</a></strong><div class='indent'><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> and <a href='/src/people/guerler/index.md'>Aysam Guerler</a></div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#scriptable-bioinformatics-cloud-infrastructures-with-cloud-biolinux-cloudman--galaxy'>Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan & Galaxy</a></strong> <div class='indent'><a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#galaxy-on-a-cluster---user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md#scriptable-bioinformatics-cloud-infrastructures-with-cloud-biolinux-cloudman-galaxy'>Scriptable Bioinformatics Cloud Infrastructures with Cloud BioLinux, CloudMan & Galaxy</a></strong> <div class='indent'><a href='http://www.jcvi.org/cms/about/bios/kkrampis/'>Ntino Krampis</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.linkedin.com/in/rsanka'>Ravi Sanka</a>, <a href='http://bcbio.wordpress.com/about/'>Brad Chapman</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #EFFFEF;"> <strong><a href='/src/events/gcc2014/training-day/index.md##galaxy-on-a-cluster-user-and-project-management'>Galaxy on a Cluster - User and Project Management</a></strong> <div class='indent'><a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a> & <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 6:00 </th>
@@ -212,7 +212,7 @@ Moderator: [Liisa Koski](https://www.linkedin.com/pub/liisa-koski/70/164/b0b), [
   </tr>
   <tr>
     <th> 2:30-4:00 </th>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GCC2014/SponsorExhibit/index.md'>Sponsor and Vendor Exhibition</a> and<br /> <a href='/src/Events/GCC2014/Abstracts/index.md#poster-abstracts'>Poster Session 1</a></strong> (odd numbered posters) </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/gcc2014/sponsor-exhibit/index.md'>Sponsor and Vendor Exhibition</a> and<br /> <a href='/src/events/gcc2014/abstracts/index.md#poster-abstracts'>Poster Session 1</a></strong> (odd numbered posters) </td>
   </tr>
   <tr>
     <th> 4:00-5:30 </th>
@@ -274,7 +274,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
   </tr>
   <tr>
     <th> 5:45-10:00 </th>
-    <td style=" text-align: center;"> <strong>Dinner</strong> (on your own)<br /><strong><a href='/src/BoFs/index.md'>Birds-of-a-Feather Flock 2</a></strong> </td>
+    <td style=" text-align: center;"> <strong>Dinner</strong> (on your own)<br /><strong><a href='/src/events/gcc2014/bofs/index.md'>Birds-of-a-Feather Flock 2</a></strong> </td>
   </tr>
   <tr>
     <th> 10:00 </th>
@@ -285,7 +285,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
 
 # Day 2: Main Meeting, July 2
 
-The second and final day of the conference will feature more [accepted talks](/src/Events/GCC2014/Abstracts/index.md#talk_abstracts) and [posters](/src/Events/GCC2014/Abstracts/index.md#poster-abstracts).  The second day will also have a [lightning talk session](/src/Lightning/index.md), and the conference dinner
+The second and final day of the conference will feature more [accepted talks](/src/events/gcc2014/abstracts/index.md#talk_abstracts) and [posters](/src/events/gcc2014/abstracts/index.md#poster-abstracts).  The second day will also have a [lightning talk session](/src/events/gcc2014/lightning/index.md), and the conference dinner
 
 <table class="table">
   <tr class="th" >
@@ -419,7 +419,7 @@ Moderator: [Jessica Kissinger](http://mango.ctegd.uga.edu/jkissingLab/), [Univer
   </tr>
   <tr>
     <th> 2:35-4:05 </th>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GCC2014/SponsorExhibit/index.md'>Sponsor and Vendor Exhibition</a> and<br /> <a href='/src/Events/GCC2014/Abstracts/index.md#poster-abstracts'>Poster Session 2</a></strong> (even numbered posters) </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/gcc2014/sponsor-exhibit/index.md'>Sponsor and Vendor Exhibition</a> and<br /> <a href='/src/events/gcc2014/abstracts/index.md#poster-abstracts'>Poster Session 2</a></strong> (even numbered posters) </td>
   </tr>
   <tr>
     <th> 4:05-5:30 </th>
@@ -480,21 +480,21 @@ Moderator: [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [George Washingt
   </tr>
   <tr>
     <th> 5:45-7:00 </th>
-    <td style=" text-align: center;"> <strong><a href='/src/BoFs/index.md'>Birds-of-a-Feather Flock 3</a></strong> </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/gcc2014/bofs/index.md'>Birds-of-a-Feather Flock 3</a></strong> </td>
   </tr>
   <tr>
     <th> 7:00 </th>
-    <td style=" text-align: center;"> <div class='right'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/Images/Logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a></div>  <br /> <strong>Conference Dinner</strong><br /> Sponsored by <strong><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent</a>  </td>
+    <td style=" text-align: center;"> <div class='right'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a></div>  <br /> <strong>Conference Dinner</strong><br /> Sponsored by <strong><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent</a>  </td>
   </tr>
 </table>
 
-<div class='left'><br /><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_Logo200.png" alt="Birds-of-a-Feather Flock Together Damnit!" width="140" /></a></div>
+<div class='left'><br /><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_Logo200.png" alt="Birds-of-a-Feather Flock Together Damnit!" width="140" /></a></div>
 
 # Birds of a Feather (BoF) Gatherings
 
-There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2014 will include *[Birds of a Feather (BoF)](/src/Events/GCC2014/BoFs/index.md)* meetups throughout the event, including times each day that are specifically set aside for BoF *flocking*. Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
+There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2014 will include *[Birds of a Feather (BoF)](/src/events/gcc2014/bofs/index.md)* meetups throughout the event, including times each day that are specifically set aside for BoF *flocking*. Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
-If you have an idea for a Birds-of-a-Feather gathering then please add it to the [list of BoFs](/src/Events/GCC2014/BoFs/index.md).  The event organizers will fully promote all meetups on all topics.
+If you have an idea for a Birds-of-a-Feather gathering then please add it to the [list of BoFs](/src/events/gcc2014/bofs/index.md).  The event organizers will fully promote all meetups on all topics.
 
 <br /><br />
 

@@ -17,20 +17,20 @@ title: Register
 
 Our goal is to have [registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) be downright affordable, and to make early registration *outrageously* affordable for students and postdocs.  Participants will be able to register for the entire event, just the [Training Day](/src/events/gcc2014/training-day/index.md), or just the [main meeting](/src/events/gcc2014/program/index.md).  There are different registration levels for students and postdocs, other non-profit researchers, and industry.
 
-*If you are attending the [Training Day](/src/events/gcc2014/register/TrainingDay/index.md), you are encouraged to review the [schedule and topics](/src/events/gcc2014/register/TrainingDay/index.md) before registering.* You will select the topics you will attend as part of registration.  You are also encouraged to review the [lodging options](/src/events/gcc2014/register/Logistics/index.md) before registering as Charles Commons, the most affordable option, can only be booked during registration.
+*If you are attending the [Training Day](/src/events/gcc2014/training-day/index.md), you are encouraged to review the [schedule and topics](/src/events/gcc2014/training-day/index.md) before registering.* You will select the topics you will attend as part of registration.  You are also encouraged to review the [lodging options](/src/events/gcc2014/logistics/index.md) before registering as Charles Commons, the most affordable option, can only be booked during registration.
 
 <br />
 
 
 ## Training Day and Conference
 
-Register for both the [GCC2014 main meeting](/src/events/gcc2014/register/Program/index.md) and the [Training Day](/src/events/gcc2014/register/TrainingDay/index.md) and save big on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than $50 per day*.
+Register for both the [GCC2014 main meeting](/src/events/gcc2014/program/index.md) and the [Training Day](/src/events/gcc2014/training-day/index.md) and save big on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than $50 per day*.
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/gcc2014/register/TrainingDay/index.md'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>+</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/gcc2014/register/Program/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/gcc2014/program/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>
@@ -64,11 +64,11 @@ Register for both the [GCC2014 main meeting](/src/events/gcc2014/register/Progra
 <div class='red center'><br /> &nbsp;&nbsp;**Training Day only registration is sold out** &nbsp;&nbsp; <br /><br /></div>
 
 <br />
-You can, however, still register for the [Training Day](/src/events/gcc2014/register/TrainingDay/index.md) + Main Meeting package.  See above. Training Day includes a full day of workshops, offering 15 different sessions in five parallel tracks.
+You can, however, still register for the [Training Day](/src/events/gcc2014/training-day/index.md) + Main Meeting package.  See above. Training Day includes a full day of workshops, offering 15 different sessions in five parallel tracks.
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/gcc2014/register/TrainingDay/index.md'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
     <td rowspan=4 style=" text-align: center; border: none; width: 108px;"> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
@@ -106,7 +106,7 @@ Interested in only the conference?  Conference-only registration includes admiss
   <tr>
     <td rowspan=4 style=" border: none; width: 110px;"> <br /> &nbsp; </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/gcc2014/register/Program/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/gcc2014/program/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>
@@ -164,6 +164,6 @@ Interested in only the conference?  Conference-only registration includes admiss
   </tr>
 </table>
 
-See the [Key Dates page](/src/events/gcc2014/register/KeyDates/index.md) for a full timeline.
+See the [Key Dates page](/src/events/gcc2014/key-dates/index.md) for a full timeline.
 
 {{> Events/GCC2014/Footer }}
