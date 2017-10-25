@@ -1,6 +1,5 @@
 // Build with Metalsmith
 let metalsmith = require('metalsmith');
-let slug = require("slug");
 let fs = require('fs');
 let path = require('path');
 let hb_partials = require("handlebars");
@@ -159,18 +158,13 @@ let subs = function(files, metalsmith, done) {
 // h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
 class Renderer extends marked.Renderer {
     heading( text, level, raw ) {
-          return '<h'
-            + (level + 1)
-            + ' id="'
-            + this.options.headerPrefix
-            + raw.toLowerCase().replace(/[^\w]+/g, '-')
-            + '">'
-            + `<a class="heading-anchor" href="#${slug(text)}"><span></span></a>`
-            + text
-            + '</h'
-            + (level + 1)
-            + '>\n';
-    };
+        var slug = this.options.headerPrefix + raw.toLowerCase().replace(/[^\w]+/g, '-');
+        return `<h${level + 1} id="${slug}">
+            <a class="heading-anchor" href="#${slug}"><span></span></a>
+            ${text}
+            </h${level + 1}>
+`;
+    }
     table(header, body) {
         return `<table class="table table-striped">
 <thead>
