@@ -1,7 +1,10 @@
 // Build with Metalsmith
 let metalsmith = require('metalsmith');
-let minimatch = require('minimatch');
 let slug = require("slug");
+let fs = require('fs');
+let path = require('path');
+let hb_partials = require("handlebars");
+let marked = require("marked");
 
 // Plugin for Bower support
 let bower = function(files, metalsmith, done) {
@@ -54,10 +57,6 @@ let set_metadata_defaults = function(files, metalsmith, done) {
     return done();
 };
 
-let fs = require('fs');
-let path = require('path');
-
-let hb_partials = require("handlebars");
 
 var partials_from_dir = (source, dir) =>
     (() => {
@@ -158,7 +157,6 @@ let subs = function(files, metalsmith, done) {
 
 // Extend `marked.Renderer` to increase all heading levels by 1 since we reserve
 // h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
-let marked = require("marked");
 class Renderer extends marked.Renderer {
     heading( text, level, raw ) {
           return '<h'
