@@ -4,6 +4,7 @@ let fs = require('fs');
 let path = require('path');
 let hb_partials = require("handlebars");
 let marked = require("marked");
+let slug = require("slug");
 
 // Plugin for Bower support
 let bower = function(files, metalsmith, done) {
@@ -158,9 +159,9 @@ let subs = function(files, metalsmith, done) {
 // h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
 class Renderer extends marked.Renderer {
     heading( text, level, raw ) {
-        var slug = this.options.headerPrefix + raw.toLowerCase().replace(/[^\w]+/g, '-');
-        return `<h${level + 1} id="${slug}">
-            <a class="heading-anchor" href="#${slug}"><span></span></a>
+        var h_slug = this.options.headerPrefix + slug(raw.toLowerCase());
+        return `<h${level + 1} id="${h_slug}">
+            <a class="heading-anchor" href="#${h_slug}"><span></span></a>
             ${text}
             </h${level + 1}>
 `;
