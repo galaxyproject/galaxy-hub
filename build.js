@@ -1,7 +1,7 @@
 // Build with Metalsmith
 let metalsmith = require('metalsmith');
 let minimatch = require('minimatch');
-let headingsidentifier = require("metalsmith-headings-identifier");
+let slug = require("slug");
 
 // Plugin for Bower support
 let bower = function(files, metalsmith, done) {
@@ -161,8 +161,18 @@ let subs = function(files, metalsmith, done) {
 let marked = require("marked");
 class Renderer extends marked.Renderer {
     heading( text, level, raw ) {
-        return super.heading( text, level + 1, raw );
-    }
+          return '<h'
+            + (level + 1)
+            + ' id="'
+            + this.options.headerPrefix
+            + raw.toLowerCase().replace(/[^\w]+/g, '-')
+            + '">'
+            + `<a class="heading-anchor" href="#${slug(text)}"><span></span></a>`
+            + text
+            + '</h'
+            + (level + 1)
+            + '>\n';
+    };
     table(header, body) {
         return `<table class="table table-striped">
 <thead>
@@ -254,7 +264,6 @@ let ms = metalsmith(__dirname)
             _: require('lodash')
         }
     })).use(timer('metalsmith-layouts'))
-    .use(headingsidentifier())
     .use(require('metalsmith-less')())
     .use(timer('metalsmith-less'))
     .use(bower)
