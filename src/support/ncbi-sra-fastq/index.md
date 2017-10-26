@@ -25,7 +25,7 @@ We can now provide the files with SRR IDs to NCBI SRA Tools (fastq-dump) to impo
 In these [FASTQ](/src/learn/datatypes/#fastq) data:
 
 * The quality score identifier (+) is sometimes not a match for the sequence identifier (@).
-* The forward and reverse reads may be interleaved and need to be seperated into distinct datasets.
+* The forward and reverse reads may be interlaced and need to be seperated into distinct datasets.
 * Both may be present in a dataset. Correct the first, then the second, as explained below.
 * Format problems of any kind can cause tool failures and/or unexpected results.
 * Fix the problems before running any other tools (including **FastQC**, **Fastq Groomer**, or other QA tools) 
