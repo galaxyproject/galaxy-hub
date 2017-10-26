@@ -56,11 +56,11 @@ Replace with: `+`
 
 Note: If the quality score line is named like "+ERR" instead (or other valid options), modify the pattern search to match.
 
-## Interleaved forward and reverse reads
+## Interlaced forward and reverse reads
 
 ### Example
 
-The forward and reverse reads were extracted into the same dataset as interleaved sequences. These need to be filtered into two distinct fastq datasets for use with tools as paired-end datasets. 
+The forward and reverse reads were extracted into the same dataset as interlaced sequences. These need to be filtered into two distinct fastq datasets for use with tools as paired-end datasets. 
 
 ```
 @1/1
@@ -89,9 +89,9 @@ Use the tool **FASTQ de-interlacer on paired end reads**
 
 ### Solution 2 (reads named /1 and /2)
 
-Create distinct datasets from an interleaved fastq dataset by running the tool **Manipulate FASTQ reads on various attributes** on the original dataset. It will be run twice.
+Create distinct datasets from an interlaced fastq dataset by running the tool **Manipulate FASTQ reads on various attributes** on the original dataset. It will be run twice.
 
-*Note: The solution is NOT use the **FASTQ Splitter** tool. The data to be manipulated are interleaved sequences. This is different in format from data that are joined into a single sequence.*
+*Note: The solution is NOT use the **FASTQ Splitter** tool. The data to be manipulated are interlaced sequences. This is different in format from data that are joined into a single sequence.*
 
 #### Use these Manipulate FASTQ settings to produce a dataset that contains the `/1` reads
 
