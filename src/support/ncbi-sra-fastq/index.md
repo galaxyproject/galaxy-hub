@@ -83,7 +83,11 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHFHEHHHHHHHFHHHHHHHHHHHHHHHHHHHHHHFHHFHHHHHHHHHHHHFHEH
 ```
 
 
-### Solution 1
+### Solution 1 (reads named /1 and /2)
+
+Use the tool **FASTQ de-interlacer on paired end reads**
+
+### Solution 2 (reads named /1 and /2)
 
 Create distinct datasets from an interleaved fastq dataset by running the tool **Manipulate FASTQ reads on various attributes** on the original dataset. It will be run twice.
 
@@ -111,9 +115,9 @@ Exact same settings as above except for this change:
 
 Match by `.+/1`
 
-### Solution 2
+### Solution 3 (reads named without /1 and /2)
 
-If your data has different sequence identifiers, the "Match by" expression can be modified to suit your identifiers.
+If your data has differently formatted sequence identifiers, the "Match by" expression from *Solution 2* above can be modified to suit your identifiers.
 
 Alternative identifiers such as:
 
