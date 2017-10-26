@@ -8,7 +8,7 @@ location: "Converged IT & the Cloud, San Francisco, California, United States"
 location_url: http://www.triconference.com/Converged-IT-and-the-Cloud/#Day1
 external_url: 
 image: 
-gtn: n
+gtn: false
 contact: James Taylor
 ---
 

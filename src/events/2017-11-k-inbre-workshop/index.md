@@ -7,7 +7,7 @@ continent: NA
 location: Kansas State University, Manhattan, Kansas, United States
 location_url: https://www.k-state.edu/
 external_url:
-gtn: n
+gtn: false
 contact: Sherry Miller
 image: /src/images/logos/k-inbre.jpg
 ---

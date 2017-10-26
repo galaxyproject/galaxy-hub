@@ -8,7 +8,7 @@ location: "ABRF 2018, Myrtle Beach, South Carolina, United States"
 location_url: http://conf.abrf.org/
 external_url: http://conf.abrf.org/
 image: /src/images/logos/ABRFLogoSquareSmall.png
-gtn: y
+gtn: true
 contact: Pratik Jagtap
 ---
 

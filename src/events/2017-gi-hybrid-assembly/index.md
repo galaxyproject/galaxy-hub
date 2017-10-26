@@ -7,7 +7,7 @@ continent: 'NA'
 location: 'Genome Informatics, CSHL, New York, United States'
 location_url: https://meetings.cshl.edu/meetings.aspx?meet=INFO&year=17
 external_url: https://meetings.cshl.edu/abstracts.aspx?meet=INFO&year=17
-gtn: n
+gtn: false
 image: 
 contact: "Delphine Lariviere"
 ---

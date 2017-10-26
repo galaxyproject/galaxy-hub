@@ -8,7 +8,7 @@ location: 2017 SACNAS, Salt Lake City, Utah, United States
 location_url: http://www.2017sacnas.org/
 external_url: https://event.crowdcompass.com/2017sacnas/activity/PgfRQW3Nrl
 image: /images/logos/sacnas-no-text.jpg
-gtn: y
+gtn: true
 contact: Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements
 ---
 

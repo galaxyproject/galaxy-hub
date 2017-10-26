@@ -7,7 +7,7 @@ continent: NA
 location: "Johns Hopkins University, Baltimore, Maryland, United States"
 location_url: https://jhu.edu
 external_url:
-gtn: n
+gtn: false
 contact: Organizers
 image: /src/images/logos/GCC2014LogoWide400.png
 ---

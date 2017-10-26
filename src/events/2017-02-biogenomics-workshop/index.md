@@ -7,7 +7,7 @@ continent: NA
 location:  Global Biodiversity Genomics Conference, Washington, D.C., United States
 location_url: http://biogenomics2017.org/
 external_url: https://gigaworkshops.eventbrite.com/
-gtn: y
+gtn: true
 image: giga.jpg
 contact: Mallory Freeberg, Mo Heydarian
 ---

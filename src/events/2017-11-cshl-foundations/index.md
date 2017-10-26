@@ -8,7 +8,7 @@ location: CSHL, Cold Spring Harbor, New York, United States
 location_url: https://meetings.cshl.edu/ 
 external_url: https://meetings.cshl.edu/courses.aspx?course=C-ECG&year=17 
 image:
-gtn: y
+gtn: true
 contact: James Taylor
 ---
 

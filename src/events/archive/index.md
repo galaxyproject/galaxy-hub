@@ -479,7 +479,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> July 19 </th>
     <td> <em><a href='http://sched.co/7RU6'>CloudBridge: a Simple Cross-Cloud Python Library</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='https://www.xsede.org/web/xsede16/home'>XSEDE16</a>, Miami, Florida, United States </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afghan</a> </td>
+    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
     <td> </td>
   </tr>
   <tr>

@@ -7,7 +7,7 @@ continent: EU
 location: Strasbourg, France
 external_url: https://www.france-bioinformatique.fr/fr/evenements/EGDW2017
 contact: Organisers
-gtn: y
+gtn: true
 ---
 # European Galaxy Developer workshop 2017
 

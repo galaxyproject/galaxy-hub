@@ -8,7 +8,7 @@ location: Central European Institute of Technology, Brno, Czechia
 location_url: https://www.ceitec.eu/
 external_url: 
 image: /images/logos/ceitec_small.png
-gtn: y
+gtn: true
 contact: Martin Čech
 ---
 

@@ -9,5 +9,5 @@ location_url: https://www.melbournebioinformatics.org.au/
 image: /images/logos/melbourne-bioinformatics.png
 external_url: https://www.eventbrite.com.au/e/variant-calling-with-galaxy-the-gvl-for-beginners-registration-36300355340
 contact: 'enquiries@ melbournebioinformatics.org.au'
-gtn: yes
+gtn: truees
 ---
