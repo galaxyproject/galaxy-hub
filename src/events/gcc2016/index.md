@@ -7,7 +7,7 @@ continent: NA
 location: "Indiana University, Bloomington, Indiana, United States"
 location_url: https://iu.edu/
 external_url: https://gcc2016.iu.edu/
-gtn: y
+gtn: true
 contact: Organizers
 image: https://gcc2016.iu.edu/img/gcc2016-logo.png
 ---

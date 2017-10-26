@@ -7,7 +7,7 @@ continent: NA
 location: "UIC Forum, University of Illinois at Chicago"
 location_url: http://www.uicforum.uic.edu/
 external_url:
-gtn: n
+gtn: false
 contact: Organisers
 image: /src/events/gcc2012/GCC2012LogoWide400.png
 ---

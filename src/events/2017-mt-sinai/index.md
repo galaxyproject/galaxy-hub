@@ -7,7 +7,7 @@ continent: NA
 location: Icahn School of Medicine at Mt. Sinai, New York, New York, United States
 image: ms.png
 location_url: http://icahn.mssm.edu/
-gtn: y
+gtn: true
 contact: Anton Nekrutenko, Andrew Sharp
 ---
 The Galaxy workshop will will introduce audience ro genomic data analyses.

@@ -7,7 +7,7 @@ continent: 'EU'
 location: 'Leiden University Medical Center, Leiden, The Netherlands'
 location_url: https://www.lumc.nl/
 external_url: http://biosb.nl/education/course-portfolio/rna-seq/
-gtn: y
+gtn: true
 image: /images/logos/BioSBResearchSchool.png
 contact: "Peter-Bram 't Hoen,  Leon Mei, Jan Oosting, Szymon Kielbasa"
 ---

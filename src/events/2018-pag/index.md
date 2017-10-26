@@ -6,7 +6,7 @@ tease: Galaxy is for Plants and Animals too...
 continent: NA
 location: San Diego, California
 location_url: http://www.intlpag.org/
-gtn: y
+gtn: true
 contact: See web page
 image: /src/images/logos/PAGLogo114.png
 ---

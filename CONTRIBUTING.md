@@ -527,13 +527,13 @@ Thus you can control what links are used by setting or not setting `external_url
 #### `gtn`
 
 - Optional
-  - If not present then defaults to `n`
+  - If not present then defaults to `false`
 - Meaning
   - Is this a training event presented by a GTN member?
 - Use
   - Display a GTN icon (that links to the GTN trainer directory page) in the index
 - Format
-  - `y|n`
+  - `true|false`
 
 
 #### Event example metadata
@@ -549,7 +549,7 @@ location: "QFAB, St Lucia, Queensland, Australia"
 location_url: "http://qfab.org/"
 external_url: "http://qfab.org/workshops/rna-seq-analysis-using-galaxy-13-14-sep-2017"
 contact: 'training@qfab.org'
-gtn: y
+gtn: true
 ---
 ```
 

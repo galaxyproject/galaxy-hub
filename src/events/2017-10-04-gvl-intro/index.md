@@ -9,5 +9,5 @@ location_url: https://www.melbournebioinformatics.org.au/
 image: /images/logos/melbourne-bioinformatics.png
 external_url: https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-4-oct-registration-37299824780
 contact: 'enquiries@ melbournebioinformatics.org.au'
-gtn: yes
+gtn: truees
 ---

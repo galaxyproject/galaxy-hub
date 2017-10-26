@@ -8,6 +8,6 @@ continent: EU
 location: Berlin Institute for Medical Systems Biology, Max Delbrück Center, Berlin, Germany
 location_url: https://www.mdc-berlin.de/bimsb
 image: /src/events/2017-09-denbi2017-denbi-summer-school.png
-gtn: y
+gtn: true
 contact: compgen@mdc-berlin.de
 ---

@@ -7,7 +7,7 @@ continent: EU
 location: "The Sainsbury Lab, Norwich, United Kingdom"
 location_url: http://www.tsl.ac.uk/
 external_url: http://gcc2015.tsl.ac.uk/
-gtn: n
+gtn: true
 contact: Organisers
 image: /src/images/logos/GCC2015LogoSimple300.png
 ---
