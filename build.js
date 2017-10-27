@@ -155,6 +155,21 @@ let subs = function(files, metalsmith, done) {
     return done();
 };
 
+
+let file_staging = function(files, metalsmith, done) {
+    // We will sometimes need to stage files post rendering as other file
+    // types.  Currently this is just json feeds, but can be expanded.
+    for (let k in files) {
+        let v = files[k];
+        if (Array.from(v.collection).includes('json_feed')) {
+            files[k.replace('.html', '.json')] = files[k];
+            delete files[k];
+        }
+    }
+    return done();
+};
+
+
 // Extend `marked.Renderer` to increase all heading levels by 1 since we reserve
 // h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
 class Renderer extends marked.Renderer {
@@ -257,6 +272,8 @@ let ms = metalsmith(__dirname)
             _: require('lodash')
         }
     })).use(timer('metalsmith-layouts'))
+	.use(file_staging)
+	.use(timer('file staging'))
     .use(require('metalsmith-less')())
     .use(timer('metalsmith-less'))
     .use(bower)
