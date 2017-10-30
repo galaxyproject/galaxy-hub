@@ -47,11 +47,6 @@ Fabio Cumbo<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='col-md-3'>
-<a href='https://github.com/malloryfreeberg'><img src="/src/galaxy-team/Freeberg.jpg" alt="Mallory Freeberg" height="150" /></a><br />
-[Mallory Freeberg](https://github.com/malloryfreeberg)<br />
-[Johns Hopkins](http://www.jhu.edu)  <br /> <br />
-</div>
-<div class='col-md-3'>
 <a href='/src/people/jeremy-goecks/index.md'><img src="/src/galaxy-team/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<br />
 [OHSU](http://www.ohsu.edu) <br /> <br /> 
@@ -178,6 +173,7 @@ Luke Sargent<br />
 * Wen-Yu Chung
 * [Carl Eberhard](/src/people/carl-eberhard/index.md)
 * Dorine Francheteau
+* Mallory Freeberg
 * Belinda Giardine
 * Jianbin He
 * [Mo Heydarian](/src/people/mo-heydarian/index.md)
