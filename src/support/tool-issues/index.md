@@ -1,4 +1,7 @@
-_Last updated 10-18-17. Additional updates in progress against the pending `17.09` release._
+
+[Back to Support](/src/support/index.md)
+
+_Last updated 10-30-17. Additional updates in progress against the pending `17.09` release._
 
 **Check individual linked tickets to review the most current status for any known issue**
 
