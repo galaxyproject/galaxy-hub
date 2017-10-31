@@ -112,6 +112,12 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td>Delphine Lariviere</td>
   </tr>
   <tr>
+    <td><span class="text-nowrap">November 3rd 2017</span></td>
+    <td><a href="https://www.meetup.com/monthlytechtalk/events/244097042/">Adapting Galaxy for language processing</a></td>
+    <td><img style="float:right;" src="/images/icons/GL.png"/><a href="https://www.meetup.com/monthlytechtalk/">Monthly Tech Talk: Scientific Workflow Systems, Online (Australia)</a></td>
+    <td>Steve Cassidy</td>
+  </tr>  
+  <tr>
     <td><span class="text-nowrap">November 4th 2017</span></td>
     <td><a href="/events/2017-11-k-inbre-workshop">Introduction to Galaxy: A Bioinformatics Platform for Research and Classroom Use, a K-INBRE Bioinformatics Workshop</a></td>
     <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.k-state.edu/">Kansas State University, Manhattan, Kansas, United States</a></td>
@@ -122,6 +128,12 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td><a href="http://biosb.nl/education/course-portfolio/rna-seq/">RNA-seq data analysis (7th edition)</a></td>
     <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.lumc.nl/">Leiden University Medical Center, Leiden, The Netherlands</a></td>
     <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Peter-Bram 't Hoen,  Leon Mei, Jan Oosting, Szymon Kielbasa</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 15th 2017</span></td>
+    <td><a href="http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-15-16-nov-2017">RNA-Seq analysis using Galaxy</a></td>
+    <td><img style="float:right;" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">November 15th 2017</span></td>
