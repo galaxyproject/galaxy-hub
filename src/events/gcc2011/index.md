@@ -79,11 +79,11 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](/src/events/gcc2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/people/jeremy-goecks/index.md))
-* [Sample Tracking and Instrument Integration](/src/events/gcc2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
-* [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: CloudMan, Grid, and Scalability]] (Enis Afgan)
-* [Workflows and API](/src/events/gcc2011/Workflows and API/index.md) (Kanwei Li)
-* [[/Complex Tools and Datasources: Parameters, Datatypes and Metadata|Complex Tools and Datasources: Parameters, Datatypes and Metadata]] (Dan Blankenberg)
+* [Visualization and Visual Analytics](/src/events/gcc2011/visualization-and-visual-analytics/index.md) ([Jeremy Goecks](/src/people/jeremy-goecks/index.md))
+* [Sample Tracking and Instrument Integration](/src/events/gcc2011/sample-tracking-and-instrument-integration/index.md) (Greg Von Kuster)
+* [Thinking Big: CloudMan, Grid, and Scalability](/src/events/gcc2011/thinking-big-cloudman-grid-and-scalability/index.md) (Enis Afgan)
+* [Workflows and API](/src/events/gcc2011/workflows-and-api/index.md) (Kanwei Li)
+* [Complex Tools and Datasources: Parameters, Datatypes and Metadata](/src/events/gcc2011/complex-tools-and-datasources-parameters-datatypes-and-metadata/index.md) (Dan Blankenberg)
 * [Building a Data Infrastructure: Genomic Data Management](/src/events/gcc2011/building-a-data-infrastructure/index.md) (Kelly Vincent)
 
 ## Pictures
