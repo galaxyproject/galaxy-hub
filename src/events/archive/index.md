@@ -4591,7 +4591,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> May 25-26 </th>
-    <td> <strong><a href='/src/GCC2011/index.md'>2011 Galaxy Community Conference</a></strong><br />Two full days of Galaxy </td>
+    <td> <strong><a href='https://galaxyproject.org/gcc2011/'>2011 Galaxy Community Conference</a></strong><br />Two full days of Galaxy </td>
     <td> Lunteren, the Netherlands </td>
     <td> <a href='/src/events/gcc2011/index.md'>Slides, videos</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>

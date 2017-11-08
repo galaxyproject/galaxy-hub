@@ -15,7 +15,7 @@ If your organization is interested in participating in [GCC2013](/src/events/gcc
 
 ## About GCC2013
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/gcc2013/GDC2010/index.md) and [2011 (Lunteren, the Netherlands)](/src/events/gcc2013/GCC2011/index.md), and increased by a third again in [2012](/src/events/gcc2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/gcc2013/GDC2010/index.md) and [2011 (Lunteren, the Netherlands)](https://galaxyproject.org/gcc2011/), and increased by a third again in [2012](/src/events/gcc2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers
