@@ -11,7 +11,7 @@ Issues impacting https://usegalaxy.org (only) are tracked here: https://github.c
 
 ## Issue by tool name 
 
-1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details and workaround: https://github.com/galaxyproject/tools-iuc/issues/1322
+1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details and workaround: https://github.com/galaxyproject/tools-iuc/issues/1322. Status: https://github.com/galaxyproject/usegalaxy-playbook/issues/60
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/340
 1. (1) **SnpEff Download v4.1.0 and 4.3k.0**. Index problem for certain databases nested in .zip archives from the source. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-iuc/issues/1354
