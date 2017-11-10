@@ -115,7 +115,13 @@ Exact same settings as above except for this change:
 
 Match by `.+/1`
 
-### Solution 3 (reads named without /1 and /2)
+### Solution 3 (reads named /1 and /3)
+
+Use the same operations as in Solution 2 above, except change the first **Manipulate FASTQ** query term to be:
+
+Match by `.+/3`
+
+### Solution 4 (reads named without /N)
 
 If your data has differently formatted sequence identifiers, the "Match by" expression from *Solution 2* above can be modified to suit your identifiers.
 
