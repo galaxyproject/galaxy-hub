@@ -28,6 +28,7 @@ sponsors:
 ## Citation(s)
 
 * [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](https://doi.org/10.1371/journal.pone.0140829), [Enis Afgan](/src/people/enis-afgan/index.md), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie. *PLOS One*, Published: October 26, 2015 doi:10.1371/journal.pone.0140829
+* [Nectar Virtual Labs investment has huge economic and research impact](https://nectar.org.au/vls-have-huge-economic-research-impact/)
 * [GVL-MEL tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGVL-MEL in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
