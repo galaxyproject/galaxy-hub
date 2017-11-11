@@ -31,6 +31,7 @@ sponsors:
 
 ## Citation(s)
 
+* [An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43), Matthew C. Chambers, Pratik D. Jagtap, James E. Johnson, Thomas McGowan, Praveen Kumar, Getiria Onsongo, Candace R. Guerrero, Harald Barsnes, Marc Vaudel, Lennart Martens, Björn Grüning, Ira R. Cooke, Mohammad Heydarian, Karen L. Reddy and Timothy J. Griffin. *Cancer Research*, DOI: 10.1158/0008-5472.CAN-17-0331 Published November 2017
 * [Using Galaxy-P to leverage RNA-Seq for the discovery of novel protein variations](https://doi.org/10.1186/1471-2164-15-703), Gloria M Sheynkman, James E Johnson, Pratik D Jagtap, Michael R Shortreed, Getiria Onsongo, Brian L Frey, Timothy J Griffin and Lloyd M Smith. *BMC Genomics* 201415:703
 doi:10.1186/1471-2164-15-703
 * [Galaxy-P tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGalaxy-P) in [Galaxy Publication library](/src/publication-library/index.md).
