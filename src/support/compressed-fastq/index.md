@@ -41,7 +41,7 @@ Before assigning `fastqsanger` or `fastqsanger.gz`, be sure to confirm the forma
 
 ### Best practises for loading fastq data into Galaxy
 
- * If you are *certain* that the data is in `fastqsanger` format, name the file with the extension `.fastqsanger.gz` before loading to have the metadata datatype `fastqsanger` auto-detected. This saves time and is a smart choice when loading many datasets at once.
+ * As of release `17.09`, fastqsanger data Uploaded will have the datatype `fastqsanger` or `fastqsanger.gz` auto-detected. 
  * If the data is close to or over 2 GB in size, be sure to use [FTP](/src/support/loading-data/index.md)
  * If the data was already loaded as `fastq.gz`, don't worry! Just test the data for correct format (as needed) and assign the metadata type as explained above. This is currently a one-dataset-at-a-time edit, but future plans include making these assignments a batch operation.
  
