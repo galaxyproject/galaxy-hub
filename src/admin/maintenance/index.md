@@ -14,6 +14,7 @@ Many admins update to each new release, though update frequency largely depends 
 1. Update code to the chosen release branch (release_17.01 here).
  * New Galaxy repository: `$ git clone -b release_17.01 https://github.com/galaxyproject/galaxy.git`
  * Update of existing repository: `$ git checkout release_17.01 && git pull --ff-only origin release_17.01`
+1. Run `./scripts/common_startup.sh` before restarting the server to update Galaxy's virtualenv
 1. (when prompted) Update Galaxy database
  * Backup Galaxy database (e.g. `pg_dump -U <username> <database> > galaxy-backup-$(date "+%s").sql`).
  * Migrate your DB with `sh manage_db.sh upgrade`.
