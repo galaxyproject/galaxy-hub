@@ -9,6 +9,6 @@ location_url:
 external_url: https://www.elixir-europe.org/events/european-galaxy-administrator-workshop
 image:
 gtn: true
-contact: 
+contact: Instructors
 ---
 
