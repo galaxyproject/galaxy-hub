@@ -49,9 +49,9 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * [Contact](http://www.up.ac.za/en/centre-for-bioinformatics-and-computational-biology/article/29861/contact-us)
   * [The Centre for Bioinformatics and Computational Biology, University of Pretoria](http://www.up.ac.za/centre-for-bioinformatics-and-computational-biology)
 
-### The FMI Bioinformatics and Functional Genomics Core Facilities
+### The FMI Bioinformatics Core Facility
 
-<div class='right'><a href='http://www.fmi.ch'><img src="/src/images/logos/FMILogo.jpg" alt="The FMI Bioinformatics and Functional Genomics Core Facilities" width="180" /></a></div>
+<div class='right'><a href='http://www.fmi.ch'><img src="/src/images/logos/FMILogo.jpg" alt="The FMI Bioinformatics Core Facility" width="180" /></a></div>
 
 We mainly provide internal training for our local Galaxy server. However, we are also involved in training and consulting outside our institute.
 
@@ -59,14 +59,12 @@ We mainly provide internal training for our local Galaxy server. However, we are
 
   * General usage 
   * NGS analysis 
-  * Microarray analysis
 
 **Reach:** Primarily central Europe, but available globally.  Located in Basel, Switzerland.
 
 **Links & Contact:**
 
   * [FMI Bioinfomatics platform](http://www.fmi.ch/bioinformatics)   
-  * [FMI Functional Genomics platform](http://www.fmi.ch/functional.genomics)
   * Email contact: [Hans-Rudolf Hotz](mailto:hrh AT fmi DOT ch)
 
 ### Freiburger Galaxy Project
