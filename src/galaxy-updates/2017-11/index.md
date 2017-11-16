@@ -173,7 +173,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   </tr>
   <tr>
     <td><span class="text-nowrap">January 13th 2018</span></td>
-    <td><a href="/events/2018-pag">Plant &amp; Animal Gneome XXVI (PAG 2018)</a></td>
+    <td><a href="/events/2018-pag">Plant &amp; Animal Genome XXVI (PAG 2018)</a></td>
     <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.intlpag.org/">San Diego, California</a></td>
     <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>See web page</td>
   </tr>
@@ -252,6 +252,8 @@ The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally de
 One of this month's highlighted papers ([Kouylekov et al](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf)) describes the Language Analysis Portal, which is built on Galaxy and is described as:
 
 > The [UiO Language Analysis Portal (LAP)](http://www.mn.uio.no/ifi/english/research/projects/clarino/) enables non-technical end users to employ state-of-the-art tools for natural language processing processing (NLP) at the click of a few buttons; a typical scenario is for a user to upload some ‘raw’ textual data, invoke LAP linguistic analysis tools to create annotations of the text, export processing results into a format suitable for analysis by the user, and download the resulting file(s) back onto their own computer.
+
+LAP is part of the national implementation in Norway of the [European Common Language and Technology Infrastructure (CLARIN)](http://clarin.eu).
 
 It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/src/public-galaxy-servers/index.md). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
 

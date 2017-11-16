@@ -1,5 +1,5 @@
 ---
-title: Plant & Animal Gneome XXVI (PAG 2018)
+title: Plant & Animal Genome XXVI (PAG 2018)
 date: '2018-01-13'
 days: 5
 tease: Galaxy is for Plants and Animals too...
