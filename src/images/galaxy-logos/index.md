@@ -138,6 +138,15 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
     ![GTN Logo. transparent, gray lettering](/src/images/galaxy-logos/GTNLogoTransWhite300.png)
 
+## Intergalactic Utitlities Commision
+
+* Logo, white background
+  * [562x347 pixels](/src/images/galaxy-logos/iuc-logo.png)
+
+* Logo, transparent background
+  * [562x347 pixels](/src/images/galaxy-logos/iuc-logo-trans.png)
+
+    ![IUC Logo, Transparent](/src/images/galaxy-logos/iuc-logo-trans.png)
 
 ## Scholarships
 
