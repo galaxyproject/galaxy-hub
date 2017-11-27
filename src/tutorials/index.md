@@ -5,7 +5,7 @@
   - Part [1](Galaxy101-1)
   - Part [2](Galaxy101-2)
  * [**Introduction to NGS technologies**](Introduction-to-NGS-technologies) - a quick overview of next-generation sequencing technologies currently present on the market.
- * [**Processing many samples at once**](Processing-many-samples-at-once) - this tutorial expalins new feature of Galaxy interface - *dataset collections*. Dataset collections allow you to easily manipulate hundreads of samples in just a few clicks.
+ * [**Processing many samples at once**](https://galaxyproject.org/tutorials/collections/) - this tutorial expalins new feature of Galaxy interface - *dataset collections*. Dataset collections allow you to easily manipulate hundreads of samples in just a few clicks.
  * [**Diploid variant calling**](Diploid-variant-calling) - this tutorial demonstrates the use of Galaxy for finding seqeunce varinats in diploid genomes.
  * [**Reference-based RNAseq**](Reference-based-RNA-seq) - an in depth overview of reference-based RNAseq analysis including methodological details and hand-on explanation of differential gene expression analysis.
 
