@@ -27,7 +27,7 @@ Galaxy will be at [Plant and Animal Genome XXVI (PAG 2018)](http://www.intlpag.o
 | **Tuesday, January 16** | 4:00-4:20 |  [Galaxy: Introduction and ecosystem](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28292) | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Dave Clements](/src/people/dave-clements/index.md) |
 |  | 4:20-5:30 | [Using Galaxy for Genome Annotation](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28294)  | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Jeremy Goecks](/src/people/jeremy-goecks/index.md) |
 |  | 5:30-5:50 | [South Green, a Hitchhiker’s Guide to Galaxy](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29236) | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Marilyne Summo](https://scholar.google.fr/citations?user=4Pqy2aYAAAAJ&hl=fr) |
-|  | 5:50-6:10 | [TBA](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Margaret Staton](http://gst.tennessee.edu/people/meg-staton/) |
+|  | 5:50-6:10 | [Building a Bridge from the Tripal Community Database to Galaxy](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Margaret Staton](http://gst.tennessee.edu/people/meg-staton/) |
 | **Wednesday, January 17** | TBD | [Galaxy Community Update](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/31525) | [Workshop: GMOD](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806), Pacific Salon 4-5 |  |  [Dave Clements](/src/people/dave-clements/index.md) |
 
 ## Digital Tools and Resources
@@ -36,9 +36,10 @@ These submissions are still coming in and hanve not yet been assigned sessions
 
 | Date | Time | Topic | Session | Links | Contact |
 | ---- | :----: | ---- | ---- | ---- | ---- |
-| TBD | TBD | [Genomic Data Management System (GOBII-DMS)](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29246)] | Digital Tools and Resources, California Room | | Yaw A. Nti-Addae |
+| TBD | TBD | [Genomic Data Management System (GOBII-DMS)](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29246) | Digital Tools and Resources, California Room | | Yaw A. Nti-Addae |
 | TBD | TBD | [Pirate: A Pipeline to Retrieve and Annotate Transposable Elements of Non-Model Organisms](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29148) | Digital Tools and Resources, California Room | | Jérémy Berthelier |
 | TBD | TBD | [Efficiency, Design, and Analytical Improvements in Cartogratree, a Web-Framework for Association Mapping and Landscape Genomics in Forest Trees](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28855) | Digital Tools and Resources, California Room | | Taylor Falk |
+| TBD | TBD | [RepeatExplorer Galaxy Server for in-Depth Characterization of Repetitive Sequences in Next-Generation Sequencing Data](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/30509) | Digital Tools and Resources, California Room | | Petr Novak |
 
 
 ## Posters
@@ -55,4 +56,6 @@ Posters are still coming in and have not yet been assigned numbers and sessions.
 | TBD | TBD | [Orthoquery - a Tripal Module for Supporting Identification and Visualization of Orthogroups](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29048) | Poster Session | | Sumaira Zaman |
 | TBD | TBD | [James Hutton Institute Informatics Visualization Software](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29400) | Poster Session |  | Iain Milne |
 | TBD | TBD | [Apollo a Tool for Visually Editing Genome Annotations](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28848) | Poster Session |  | Nathan Dunn |
-
+| TBD | TBD | [RepeatExplorer Galaxy Server for In-Depth Characterization of Repetitive Sequences in Next-Generation Sequencing Data](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/30519) | Poster Session |  | Petr Novak |
+| TBD | TBD | [Introducing Genomics through Gene Annotation: Broadening Access to Course-Based Undergraduate Research Experiences](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29632) | Poster Session |  | Sarah C R Elgin |
+| TBD | TBD | [Phylogeny-Based Classification of Plant LTR Retrotransposons Fills the Gap between Superfamily and Family Levels and Provides Precise Annotation of Genomic Elements](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/30964) | Poster Session |  | Pavel Neumann |
