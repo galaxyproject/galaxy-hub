@@ -48,7 +48,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
   * If you are using the public [Main](/src/main/index.md) Galaxy instance, this job is queued, waiting for an opening on the appropriate cluster. 
   * **It is _very important_ to allow queued jobs to remain queued, and to not delete/re-run them**. 
-  * If re-run, this not only moves the new job back to the end of the queue, effectively lengthening the wait time to execute.
+  * If re-run, this moves the new job(s) back to the end of the queue, effectively lengthening the wait time to execute.
   * AND if done repeatedly (start, delete, rerun), the volume of "executing deleted" jobs can create additional work processes in the history as these are cleared away, using up resources, and contributing to additional delays.
 
 ### Red
