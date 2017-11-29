@@ -14,7 +14,7 @@ sponsors:
 
 ## Comments
 
-* from [Wan et al.](http://www.gigasciencejournal.com/content/4/1/19):
+* from [Wan et al.](https://www.ncbi.nlm.nih.gov/pubmed/25918639):
 *   [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
 
 ## User Support
