@@ -14,15 +14,22 @@ sponsors:
 
 ## Comments
 
-* [BioMa](/src/BioMa/index.md)S (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic studies of environmental microbial communities, "comprehensive of all the fundamental steps, from raw sequence data upload and cleaning to final taxonomic identification, that are absolutely required in an appropriately designed Meta-barcoding HTS-based experiment."
+* BioMaS (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic
+  studies of environmental microbial communities, "comprehensive of all the
+  fundamental steps, from raw sequence data upload and cleaning to final
+  taxonomic identification, that are absolutely required in an appropriately
+  designed Meta-barcoding HTS-based experiment."
 
 ## User Support
 
-* Please email questions and suggestions to [Bruno Fosso](mailto:bruno DOT fosso AT gmail.com) and/or to [Giacinto Donvito](mailto:giacinto DOT donvito AT ba.infn.it).
+* Please email questions and suggestions to [Bruno Fosso](mailto:bruno DOT
+  fosso AT gmail.com) and/or to [Giacinto Donvito](mailto:giacinto DOT donvito
+  AT ba.infn.it).
 
 ## Quotas
 
-* Requires an account. Interested users may ask for the creation of a BioMaS account sending a request to recas@lists.ba.infn.it.
+* Requires an account. Interested users may ask for the creation of a BioMaS
+  account sending a request to recas@lists.ba.infn.it.
 
 ## Citation(s)
 
