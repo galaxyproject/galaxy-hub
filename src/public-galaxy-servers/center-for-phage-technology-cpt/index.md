@@ -29,6 +29,7 @@ sponsors:
 
 ## Citation(s)
 
+* [CPT tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ECPT) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 
