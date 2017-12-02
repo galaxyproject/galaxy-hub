@@ -36,12 +36,12 @@ There are two scripts in the Galaxy source which assist with managing disk accou
 
 Users are assigned quotas are configured by creating Quota definitions and then associating these definitions with users or groups.  Quota definitions consist of a name, optional description, amount, and an operation (one of "=", "+", or "-").  Default quotas can be specified for both classes of users: unregistered and registered.
 
-The first step in managing quotas is to enable them by setting the following in `galaxy.ini`:
+The first step in managing quotas is to enable them by setting the following in `galaxy.yml`:
 
-```ini
-[app:main]
-enable_quotas = True
-allow_user_dataset_purge = True
+```yaml
+galaxy:
+  enable_quotas: true
+  allow_user_dataset_purge: true
 ```
 
 `allow_user_dataset_purge` is not explicitly required for quotas but strongly encouraged since without it users will have to wait for cleanup scripts to expire and purge their data to lower their disk usage.

@@ -97,6 +97,6 @@ galaxy.web.base.pluginframework INFO 2015-12-14 08:46:44,788 VisualizationsRegis
 ```
 
 * errors will also display there
-* it can help to change 'debug = True' in your config/galaxy.ini file (only do this on a separate development server - not you public shared instances)
+* it can help to change 'debug: true' in your config/galaxy.yml file (only do this on a separate development server - not you public shared instances)
 
 Related dev-list thread: http://dev.list.galaxyproject.org/How-does-one-run-Javascript-or-HTML-as-a-tool-tt4668518.html

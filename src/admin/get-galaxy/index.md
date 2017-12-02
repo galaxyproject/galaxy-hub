@@ -19,14 +19,14 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_17.09 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_18.01 https://github.com/galaxyproject/galaxy.git
 ```
 ### Updating exiting
 
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git checkout release_17.09 && git pull --ff-only origin release_17.09
+$ git checkout release_18.01 && git pull --ff-only origin release_17.09
 ```
 
 
@@ -48,10 +48,10 @@ $ sh run.sh
 
 This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
 
-To access Galaxy over the network, modify the `config/galaxy.ini` file by changing the `host` setting to
+To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `host` setting to
 
-```python
-host = 0.0.0.0
+```yaml
+host: 0.0.0.0
 ```
 
 Upon restarting, Galaxy will bind to any available network interfaces instead of the loopback.
@@ -62,17 +62,17 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 
 To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), users must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges, complete the following steps:
 
-- Add the user's Galaxy login email to the configuration file `config/galaxy.ini`. As shown here:
+- Add the user's Galaxy login email to the configuration file `config/galaxy.yml`. As shown here:
 
-```
-# this should be a comma-separated list of valid Galaxy users
-admin_users = user1@example.com,user2@example.com
+```yaml
+  # this should be a comma-separated list of valid Galaxy users
+  admin_users: user1@example.com,user2@example.com
 ```
 
 - If the file does not exist, copy it from the provided sample: 
 
 ```
-cp config/galaxy.ini.sample config/galaxy.ini
+cp config/galaxy.yml.sample config/galaxy.yml
 ```
 
 - Restart Galaxy after modifying the configuration file for changes to take effect.
@@ -186,26 +186,26 @@ Follow these steps to become an admin for a brand new Galaxy.
 
 *Check the default settings*
 
-The default setting for admin_users is: `#admin_users = None`. You can check this by running the following command:
+The default setting for admin_users is: `  #admin_users: null`. You can check this by running the following command:
 
 ```sh
-$ grep "admin_users" config/galaxy.ini.sample
+$ grep "admin_users" config/galaxy.yml.sample
 ```
 
-*Create a `config/galaxy.ini` file and add yourself as an administrator*
+*Create a `config/galaxy.yml` file and add yourself as an administrator*
 
-The following command will: 1) remove the leading hash (`#`) character from the `admin_users` line, 2) replace `None` with the email address of the user being added as an admin, and 3) create a `config/galaxy.ini` file with `admin_users` changed. **Be careful to type the command exactly as written except for changing `admin@email.edu` to be the user's email address**.
+The following command will: 1) remove the leading hash (`#`) character from the `admin_users` line, 2) replace `None` with the email address of the user being added as an admin, and 3) create a `config/galaxy.yml` file with `admin_users` changed. **Be careful to type the command exactly as written except for changing `admin@email.edu` to be the user's email address**.
 
 ```sh
-$ sed 's/#admin_users = None/admin_users = admin@email.edu/' config/galaxy.ini.sample > config/galaxy.ini
+$ sed 's/  #admin_users: None/admin_users: admin@email.edu/' config/galaxy.yml.sample > config/galaxy.yml
 ```
 
-*Confirm that the new `config/galaxy.ini` file is correctly formatted*
+*Confirm that the new `config/galaxy.yml` file is correctly formatted*
 
-Running the command below should result in the following output: `admin_users = admin@email.edu`
+Running the command below should result in the following output: `  admin_users: admin@email.edu`
 
 ```sh
-$ grep "admin_users" config/galaxy.ini
+$ grep "admin_users" config/galaxy.yml
 ```
 
 Start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account.
@@ -219,8 +219,8 @@ Below are simplified instructions for shutting down local Galaxy server. If your
   * If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
 
 ### I have lost the terminal window running Galaxy
-  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named `python ./scripts/paster.py serve config/galaxy.ini.sample`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
-  * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process `python ./scripts/paster.py serve config/galaxy.ini.sample` before restarting Galaxy again.
+  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named `python ./scripts/paster.py serve config/galaxy.yml.sample`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
+  * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the `uwsgi` process before restarting Galaxy again.
 
 ## Ansible Playbook
 

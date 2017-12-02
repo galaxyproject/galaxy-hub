@@ -11,14 +11,14 @@ The introduction of these various tool panel configuration files has resulted in
 # Managing the layout of your Galaxy tool panel
 
 The 3 or more files described in the previous section (tool_conf.xml, one or more shed_tool_conf.xml files, and migrated_tools_conf.xml) are all used to load tool panel items (tools, sections, labels and workflows). A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel.
-If this file does not exist in your Galaxy installation directory, it will be automatically created and populated when you start your Galaxy server. It is initially populated based on the order in which the tool panel items are loaded. The items are loaded as each tool panel configuration file is parsed and its items are loaded. The order in which these configuration files are parsed is the order of the comma-separated list of files defined in your tool_config_file setting in your config/galaxy.ini configuration file. The new migrated_tools_conf.xml file is always parsed and loaded last. Let's look at an example to help clarify how this works.
+If this file does not exist in your Galaxy installation directory, it will be automatically created and populated when you start your Galaxy server. It is initially populated based on the order in which the tool panel items are loaded. The items are loaded as each tool panel configuration file is parsed and its items are loaded. The order in which these configuration files are parsed is the order of the comma-separated list of files defined in your ``tool_config_file`` setting in your config/galaxy.yaml configuration file. The new migrated_tools_conf.xml file is always parsed and loaded last. Let's look at an example to help clarify how this works.
 
 Assume we have a Galaxy instance with the following entry in the config/galaxy.ini configuration file.
 
-```
+```yaml
 # Locally installed tools and tools installed from tool sheds
-tool_config_files = tool_conf.xml,shed_tool_conf.xml```
-
+  tool_config_files: tool_conf.xml,shed_tool_conf.xml```
+```
 
 We also have a tool_conf.xml file that looks like the following and no repositories containing tools have been installed (shed_tool_conf.xml and migrated_tools_conf.xml contain no repository tag sets).
 

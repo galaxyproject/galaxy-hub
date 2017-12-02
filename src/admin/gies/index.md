@@ -21,7 +21,7 @@ And more on the way
 ## Setup IE's on your server
 
 To enable IE's in your Galaxy instance you need to do the following:
-* Set interactive_environment_plugins_directory to `config/plugins/interactive_environments` in config/galaxy.ini
+* Set `interactive_environment_plugins_directory` to `config/plugins/interactive_environments` in `config/galaxy.yml`
 * Copy `config/plugins/interactive_environments/ipython/config/ipython.ini.sample` over to `config/plugins/interactive_environments/ipython/config/ipython.ini`
 * Adjust the config file if needed, for example to set the docker command if Galaxy cannot run sudo-less docker with `docker` command.
 * Install the Galaxy IE proxy (you might need set this sym-link first:  *ln -s /usr/bin/nodejs /usr/bin/node* )
@@ -35,7 +35,7 @@ $ cd -
 
 
 If your IE shows up, but you get an error like: "Could not connect to a galaxy instance. Please contact your sysadmin for help with this error", try the following: 
-* set 'host' to the IP address of your galaxy server in config/galaxy.ini (instead of 127.0.0.1)
+* set 'host' to the IP address of your galaxy server in config/galaxy.yml (instead of 127.0.0.1)
 * set 'galaxy_url' to  <IP address>:8080 in the config file (i.e. ipython.ini)
 
 ## "Enterprise" Deployments
@@ -52,15 +52,15 @@ See the [Nginx configuration page](/src/admin/config/nginx-proxy/index.md#config
 
 #### 15.10+
 
-Most larger deployments have an apache or nginx proxy sitting in front of Galaxy. To support this, first adjust your galaxy.ini file:
+Most larger deployments have an apache or nginx proxy sitting in front of Galaxy. To support this, first adjust your galaxy.yml file:
 
-```
-dynamic_proxy_manage=True
-dynamic_proxy_session_map=database/session_map.sqlite
-dynamic_proxy_bind_port=8800
-dynamic_proxy_bind_ip=0.0.0.0
-dynamic_proxy_external_proxy=True
-dynamic_proxy_prefix=gie_proxy
+```yaml
+  dynamic_proxy_manage: true
+  dynamic_proxy_session_map: database/session_map.sqlite
+  dynamic_proxy_bind_port: 8800
+  dynamic_proxy_bind_ip: 0.0.0.0
+  dynamic_proxy_external_proxy: true
+  dynamic_proxy_prefix: gie_proxy
 ```
 
 

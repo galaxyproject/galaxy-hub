@@ -1,3 +1,6 @@
+The information on this page is quite out of date,  https://docs.galaxyproject.org/en/master/admin/authentication.html#user-activation
+may contain the information you are looking for.
+
 Galaxy supports the following authentication mechanisms:
 
 * Galaxy-specific login using e-mail address and password

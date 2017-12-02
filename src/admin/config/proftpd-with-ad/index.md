@@ -26,11 +26,11 @@ Galaxy exchanges no messages directly with the FTP server, if files are there, i
 
 Your Galaxy serves a single institution with an AD domain and you're already using it to authenticate users in the Galaxy web pages.
 
-So your `config/galaxy.ini` file probably has lines like this in the section `# Enable Galaxy's "Upload via FTP" interface.`:
-```bash
- use_remote_user = True
- remote_user_maildomain = example.domain
- ftp_upload_dir = /galaxy/database/ftp
+So your `config/galaxy.yml` file probably has lines like this in the section `# Enable Galaxy's "Upload via FTP" interface.`:
+```yaml
+  use_remote_user: true
+  remote_user_maildomain: example.domain
+  ftp_upload_dir: /galaxy/database/ftp
 ```
  
 Line 1 means you are already using remote (apache or nginx) authentication and that your users log in using their ident as their name not their email.

@@ -21,7 +21,7 @@ There are three main steps to creating a visualization:
 The visualizations registry uses a plugin architecture where the configuration, code, and markup for your
 visualization's web page is placed within the `visualization_plugins_directory` of your Galaxy installation.
 
-The `visualization_plugins_directory` is a setting in your `galaxy.ini` file (located in `<your galaxy directory>/config/`) that tells Galaxy where to scan
+The `visualization_plugins_directory` is a setting in your `galaxy.yml` file (located in `<your galaxy directory>/config/`) that tells Galaxy where to scan
 for visualization plugins. It currently defaults to `<your galaxy directory>/config/plugins/visualizations`
 but can be set to any relative (to the galaxy directory) or absolute path reachable on the file system.
 

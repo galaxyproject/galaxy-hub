@@ -29,13 +29,13 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 
 # Data Manager Server Configuration Options
 
-In your "[galaxy.ini](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample)" file these settings exist in the `[app:main]` section:
-```python
+In your "[galaxy.yml](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.yml.sample)" file these settings exist in the `[galaxy]` section:
+```yaml
 # Data manager configuration options
-enable_data_manager_user_view = True
-data_manager_config_file = data_manager_conf.xml 
-shed_data_manager_config_file = shed_data_manager_conf.xml 
-galaxy_data_manager_data_path = tool-data
+enable_data_manager_user_view: True
+data_manager_config_file: data_manager_conf.xml 
+shed_data_manager_config_file: shed_data_manager_conf.xml 
+galaxy_data_manager_data_path: tool-data
 ```
 
 Where *enable_data_manager_user_view* allows non-admin users to view the available data that has been managed.  

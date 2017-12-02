@@ -47,7 +47,7 @@ chrX 28883322
 ```
 
 
-Length files are stored in `GALAXY_HOME_DIR/tool-data/shared/ucsc/chrom/` by default, but this location can be configured in the `galaxy.ini` file:
+Length files are stored in `GALAXY_HOME_DIR/tool-data/shared/ucsc/chrom/` by default, but this location can be configured in the `galaxy.yml` file:
 
 ```
 # Directory where chrom len files are kept, currently mainly used by trackster
