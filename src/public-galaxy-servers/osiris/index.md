@@ -7,7 +7,7 @@ server_links:
     link_text: "Osiris Galaxy"
   - link_url: "https://bitbucket.org/osiris_phylogenetics"
     link_text: "Osiris code in Bitbucket"
-summary: "Pylogenetics "
+summary: "Phylogenetics "
 image: "/src/public-galaxy-servers/OsirisLogo.jpg"
 user_support: 
 quotas: 
