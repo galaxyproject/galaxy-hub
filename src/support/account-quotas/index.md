@@ -18,6 +18,10 @@ Should you have problems after reviewing the options below, please let us know. 
 
 Log out of Galaxy, then back in again. This refreshes the disk usage calculation.
 
+## How to log in or out of Galaxy? 
+
+The options are included under the **User** menu in the top masthead.
+
 ## I need more space for my work
 
 If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/index.md):
