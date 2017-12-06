@@ -37,7 +37,7 @@ Tools and workflows managed by the primary Galaxy team (but contributed by [comm
 
 **I have downloaded and installed a local instance of Galaxy.  How can I get rid of unwanted histories and their associated datasets?**
 
-There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](/src/admin/config/performance/Purge Histories and Datasets/index.md) for details.
+There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](/src/admin/config/performance/purge-histories-and-datasets/index.md) for details.
 
 ----
 
