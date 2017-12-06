@@ -1,18 +1,6 @@
 ---
 title: Citing Galaxy
 ---
-<div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src="/src/citing-galaxy/GenomeBiologyColver20108.gif" alt="Genome Biology" height="125" /></a> 
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src="/src/citing-galaxy/CurrentProtocolsInMolBioCover.gif" alt="Current Protocols in Molecular Biology" height="125" /></a> 
-<a href='http://genome.cshlp.org/content/15/10/1451.long'><img src="/src/citing-galaxy/GenomeResearchCover200510.gif" alt="Genome Research" height="125" /></a>
-<a href='http://bit.ly/VMUz7p'><img src="/src/citing-galaxy/NatureBiotechnologyCover201211.gif" alt="Nature Biotechnology" height="125" /></a>
-<a href='http://bit.ly/11AuV4O'><img src="/src/citing-galaxy/BioinformaticsCover.gif" alt="Bioinformatics" height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi1502s39/abstract'><img src="/src/citing-galaxy/CurrentProtocolsInBioinformaticsCover.gif" alt="Current Protocols in Bioinformatics" height="125" /></a>
-<a href='http://dx.doi.org/10.1136/amiajnl-2013-002059'><img src="/src/citing-galaxy/JAMIACover.gif" alt="Journal of the American Medical Informatics Association (JAMIA)" height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full'><img src="/src/citing-galaxy/CancerMedicine.gif" alt="Cancer Medicine" height="125" /></a>
-<a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src="/src/citing-galaxy/NatureBiotech201502Cover.gif" alt="Nature Biotechnology" height="125" /></a>
-</div>
-
-<br />
 
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](/src/citing-galaxy/index.md#primary-publication) for project wide citations.  There are also several [publications on more specific topics](/src/citing-galaxy/index.md#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](/src/citing-galaxy/index.md#galaxy-project-publications-by-year).
 
@@ -20,14 +8,19 @@ Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the
 
 If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/public-galaxy-servers/index.md) or [Galaxy services](/src/public-galaxy-servers/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
 
-Some excellent exmples (**emphasis added**):
+Some excellent exmples (*emphasis added*):
 
 * Used usegalaxy.org, from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
-  * *The sequencing data were uploaded to the Galaxy web platform, and* ***we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))***.
+
+     "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
+
 * Used a public server, from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
-  * *RAW files generated directly from the mass spectrometer **were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>**.*
+
+     "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
+
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
-  * *All analyses* ***were done on the Galaxy instance of the IHPE [http://bioinfo.univ-perp.fr](http://bioinfo.univ-perp.fr/)) [[28](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789#pntd.0005789.ref028)].***
+     
+     "All analyses *were done on the Galaxy instance of the IHPE [http://bioinfo.univ-perp.fr](http://bioinfo.univ-perp.fr/)) [[28](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789#pntd.0005789.ref028)].*"
 
 ## Primary Publication
 
@@ -65,6 +58,10 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
  [Daniel Blankenberg](/src/people/dan/index.md), [Gregory Von Kuster](/src/people/greg_vonkuster/index.md), [Emil Bouvier](/src/people/dave-bouvier/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
 
+### Training
+
+ Bérénice Batut, Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Freeberg, Simon Gladman, Youri Hoogstrate, [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon Ryan, Florian Sigloch, Nicola Soranzo, Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). **[Community-driven data analysis training for biology](https://www.biorxiv.org/content/early/2017/11/29/225680)**, *bioRxiv* 225680; doi: https://doi.org/10.1101/225680
+
 ### Visualization
 
  [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, The [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md) and [James Taylor](/src/people/james-taylor/index.md). **[Web-based visual analysis for high-throughput genomics](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-397)**. *BMC Genomics* (2013) 14:397 doi:10.1186/1471-2164-14-397
@@ -77,6 +74,8 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 ### 2017
 
+1. Bérénice Batut, Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Freeberg, Simon Gladman, Youri Hoogstrate, [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon Ryan, Florian Sigloch, Nicola Soranzo, Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). **[Community-driven data analysis training for biology](https://www.biorxiv.org/content/early/2017/11/29/225680)**, *bioRxiv* 225680; doi: https://doi.org/10.1101/225680
+1. Baekdoo Kim, Thahmina Ali, Carlos Lijeron, [Enis Afgan](/src/people/enis-afgan/index.md), Konstantinos Krampis. **[Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](https://academic.oup.com/gigascience/article/6/8/1/3894236)**, *GigaScience*, Volume 6, Issue 8, 1 August 2017, Pages 1–7, https://doi.org/10.1093/gigascience/gix048
 1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen,
 [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). **[Practical computational reproducibility in the life sciences](https://www.biorxiv.org/content/early/2017/10/10/200683)**, *bioRxiv* 200683; doi: https://doi.org/10.1101/200683 
 1. Gil Alterovitz, Dennis A Dean II, Carole Goble, Michael R Crusoe, Stian Soiland-Reyes, Amanda Bell, Anais Hayes, Charles Hadley S King IV, Elaine Johanson, Elaine E Thompson, Eric Donaldson, Hsinyi S Tsang, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Jonas S Almeida, Lydia Guo, Mark Walderhaug, Paul Walsh, Robel Kahsay, Toby Bloom, Yuching Lai, Vahan Simonyan, Raja Mazumder. **[Enabling Precision Medicine via standard communication of NGS provenance, analysis, and results](https://www.biorxiv.org/content/early/2017/09/22/191783)**, *bioRxiv* 191783; doi: 10.1101/191783 
@@ -116,7 +115,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Yin Tang, [Emil Bouvier](/src/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/index.md), Philip C. Bevilacqua and Sarah M. Assmann, "[StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://bit.ly/1Erhglz)," *Bioinformatics* (2015) doi:10.1093/bioinformatics/btv213
 
-1. [Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md), "[Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://bit.ly/1AyYacs),  *[Cold Spring Harbor Protocols](http://cshprotocols.cshlp.org/)*  doi:10.1101/pdb.top083667
+1. [Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md), "[Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://bit.ly/1AyYacs), *[Cold Spring Harbor Protocols](http://cshprotocols.cshlp.org/)*  doi:10.1101/pdb.top083667
 
 1. Jorrit Boekel, [John M Chilton](/src/people/john-chilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, "[Multi-omic data analysis using Galaxy](http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html)," *Nature Biotechnology* 33, 137–139 (2015) doi:10.1038/nbt.3134
 
