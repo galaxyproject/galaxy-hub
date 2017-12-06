@@ -25,11 +25,11 @@ Positions are currently available at
 
 ## Postdoctoral Scholars
 
-### [At Cleveland Clinic](https://www.postdocjobs.com/posting/7048061)
+### [At Cleveland Clinic](http://www.lerner.ccf.org/jobs/postdoctoral/#760)
 
-[<img src="/src/images/logos/cleveland-clinic.svg" class="pull-right" alt="Postdoc positions at Cleveland Clinic Lerner Research Institute" width="200" />](https://www.postdocjobs.com/posting/7048061)
+[<img src="/src/images/logos/cleveland-clinic.svg" class="pull-right" alt="Postdoc positions at Cleveland Clinic Lerner Research Institute" width="200" />](http://www.lerner.ccf.org/jobs/postdoctoral/#760)
 
-The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) has several [Postdoctoral Fellowships](https://www.postdocjobs.com/posting/7048061) available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions. The PI is a founding member of the Galaxy Project (https://galaxyproject.org), a platform that is used throughout the world for large-scale data analysis.
+The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) has several [Postdoctoral Fellowships](http://www.lerner.ccf.org/jobs/postdoctoral/#760) available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions. The PI is a founding member of the Galaxy Project (https://galaxyproject.org), a platform that is used throughout the world for large-scale data analysis.
 
 Both wet lab and computational positions are available and opportunities for crossover exist. Candidates will be highly motivated, ambitious, enthusiastic, and be able to work independently and in a collaborative environment.
 
