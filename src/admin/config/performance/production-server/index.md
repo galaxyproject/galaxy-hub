@@ -110,7 +110,7 @@ Configuration is not difficult once your cluster is set up.  Details can be foun
 
 ### Cleaning up datasets
 
-When datasets are deleted from a history or library, it is simply marked as deleted and not actually removed, since it can later be undeleted.  To free disk space, a set of scripts can be run (e.g. from `cron`) to remove the data files as specified by local policy.  See the [Purge histories and datasets](/src/admin/config/performance/Purge Histories and Datasets/index.md) page for instructions.
+When datasets are deleted from a history or library, it is simply marked as deleted and not actually removed, since it can later be undeleted.  To free disk space, a set of scripts can be run (e.g. from `cron`) to remove the data files as specified by local policy.  See the [Purge histories and datasets](/src/admin/config/performance/purge-histories-and-datasets/index.md) page for instructions.
 
 ### Rotate log files
 
