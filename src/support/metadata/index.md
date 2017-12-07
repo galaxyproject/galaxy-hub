@@ -13,8 +13,6 @@
 
 Click on the the dataset's pencil icon to reach the _Edit Attributes_ forms in the center panel to change or update metadata. Metadata attributes can include: database (dbkey, genome, transcriptome, custom genome), datatype (including compression format, e.g. gzipped versus not), column assignments (chrom, start, end, and more), row assignments (specify comments lines), permissions, and others.
 
-compression format (gzipped versus not)
-
 # Tool errors related to metadata
 
 Many tools can error when the wrong dataset attributes (metadata) are assigned. Some assignments are automatic without user action (example: tool outputs), others are or can be "autodetected" if incorrect or need modification (example: most datatypes), and others required action by the user if the attribute cannot be autodetected (example: assigning database to newly uploaded data).
