@@ -3,25 +3,32 @@
 ---
 [Back to Support Hub](/src/support/index.md)
 
-## Metadata Explained
+# Changing or updating dataset metadata
 
-### Example: Dataset metadata missing or incomplete
+Click on the the dataset's pencil icon to reach the _Edit Attributes_ forms in the center panel to change or update metadata. This can include database, datatype, column assignments (chrom, start, end, and more), row assignments (specify comments lines), change compression (gzipped versus not), permissions, and others.
+
+# Tool errors related to metadata
+
+Many tools can error when the wrong dataset attributes (metadata) are assigned. Some assignments are automatic, other can be "detected", and others required action by the user. 
+
+## Example: Dataset metadata missing or incomplete
 
 
-**How to notice if this is a problem**
+### How to notice the problem**
 
-    *   The dataset will not download when using the disk icon
-    *   Tools error when using a specific dataset that has been used before successfully
-    *   Tools error with a message that ends with: `OSError: [Errno 2] No such file or directory`. Note that not all failures of this type are due to metadata and may simply be a cluster failure - rerunning the job may resolve the problem instead, but try the solution first.
+ * The dataset will not download when using the disk icon
+ * Tools error when using a specific dataset that has been used before successfully
+ * Tools error with a message that ends with: `OSError: [Errno 2] No such file or directory`. 
+ 
 
-**Solution**
+### **Common solutions**
 
-    *   Reset the metadata on the dataset(s). This may be an uploaded dataset or one created by prior tools. It could be one of the input datasets to a failed job.
-        *   Directly reset metadata: click on the the dataset's ![pencil](/src/images/icons/pencil.png "pencil") icon, then click into the _Dataype_ tab and reset to the correct format. Don't forget to save! The dataset will turn yellow in the history while the job is processing.
-        *   Autodetect: click on the dataset's ![pencil](/src/images/icons/pencil.png "pencil") icon, cthen lick on the _**Auto-detect**_ button found near the bottom of the _**Edit Attributes**_ form. The dataset will turn yellow in the history while the job is processing.
+ * **Reset the dataset(s) metadata**. This could be a newly uploaded dataset or one created by prior tools. If a job failed, it is one or more of the input datasets to the tool that errored. Click on the the dataset's pencil icon to reach the _Edit Attributes_ forms in the center panel. Then do one of the following as applies:
+  * _**Directly reset metadata**_: Find the tab for the metadata you want to change, make the change, and **save**. 
+  * _**Autodetect metadata**_: Click on the _**Auto-detect**_ button found on the first _**Edit Attributes**_ tab. The dataset will turn yellow in the history while the job is processing. Datatype can often be detected as can column assigments. Database assignments are either made by upstream tools based on the those tool's input database assignments **or** are made directly by user upon data upload or after. 
+  
+  The dataset will turn yellow in the history while the job is processing. Once compeleted, other attributes can be changed and/or the dataset can be used.
 
-**If this does not resolve the problem**
+### **If problems persist**
 
-    *   If resetting metadata does fix the issue, then there may have been a transient cluster job failure. Re-run the job at least once.
-    
-**Other problematic dataset FAQ solutions are listed back at the [Support hub under "Troubleshooting]((/src/support/#troubleshooting)**, but these are not are not based on the same underlying issue.
+Your error may not really be related to metadata, or changing metadat may not be enough. Review the **other FAQ solutions back at the [Support hub under *Troubleshooting*]((/src/support/#troubleshooting)** for more help.
