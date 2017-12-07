@@ -76,7 +76,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>See web page</td></tr>
 <tr>
   <td><span class="text-nowrap">February 12th 2018</span></td>
-  <td><a href="/events/2018-02-converged">The Galaxy Platform as an Accessible, Core Laboratory Solution for Proteogenomic Analysis and Informatics</a></td>
+  <td><a href="/events/2018-02-converged">Supporting Highly Scalable Scientific Data Analysis with Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.triconference.com/Converged-IT-and-the-Cloud/#Day1">Converged IT &amp; the Cloud, San Francisco, California, United States</a></td>
   <td>James Taylor</td></tr>
 <tr>
