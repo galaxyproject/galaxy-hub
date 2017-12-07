@@ -19,7 +19,7 @@ Welcome to the December 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a 
 * Python room, Blindern, UiO campus, [Ole Johan Dahls hus](https://www.uio.no/english/about/getting-around/areas/gaustad/ga06/
 ), Gaustadalléen 23B, Oslo, 0373, Norway
 
-Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018. 
+Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [ELIXIR Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018. 
 
 *Participants are to cover their own travel and accommodation, while the workshop participation is free of charge.*
 
