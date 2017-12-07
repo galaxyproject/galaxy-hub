@@ -31,4 +31,4 @@ Many tools can error when the wrong dataset attributes (metadata) are assigned. 
 
 ### **If problems persist**
 
-Your error may not really be related to metadata, or changing metadat may not be enough. Review the **other FAQ solutions back at the [Support hub under *Troubleshooting*]((/src/support/#troubleshooting)** for more help.
+Your error may not really be related to metadata, or changing metadat may not be enough to resolve the input/tool usage problems. Review the other **[FAQ solutions](/src/support/#troubleshooting)** for more data input help. Review the **[Galaxy Tutorials](/src/support/learn/index.md)** for tool usage help.
