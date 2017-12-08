@@ -72,7 +72,7 @@ The file `tool_data_table_conf.xml.sample` can be used as a source for `tool_dat
 
 Note that the `value` is now the first column (index 0). This is what we are calling the "unique ID" because this is now the value that is stored for the index parameter. This approach allows variants of the same build to be listed, since the dbkey is specified for each entry. The `name` is still what is displayed in the browser dropdown. `path` is still the actual path to the data file(s). `value`, `path`, and `name` should all be included. Other columns are possible, but by convention the Unique ID should be in the first column and path in the last.
 
-The loc file could like like this:
+The loc file could look like this:
 
 ```
 phiX_ID phiX174 User-friendly phiX174 Description /path/to/phiX
