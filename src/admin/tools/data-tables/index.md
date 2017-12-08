@@ -41,7 +41,7 @@ The old way of handling this in the loc file looked like this:
   </param>
 ```
 
-The test that is displayed in the browser's dropdown is what's in the `name` column, and the value that would be stored for the parameter is in the `value` column.
+The text that is displayed in the browser's dropdown is what's in the `name` column, and the value that would be stored for the parameter is in the `value` column.
 
 If the loc file looked like this:
 
