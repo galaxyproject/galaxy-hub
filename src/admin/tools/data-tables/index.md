@@ -26,7 +26,7 @@ Also:
  - Design can support other types of data files
 ```
 
-In commit 4550:535d276c92bc almost all tools using loc files (and TopHat a bit later) were converted to data tables style. This means that they were no longer be compatible with existing loc files. See the last section on this page for information on converting.
+In commit 4550:535d276c92bc almost all tools using loc files (and TopHat a bit later) were converted to data tables style. This means that they are no longer compatible with existing loc files. See the last section on this page for information on converting.
 
 ## The Pre-data-tables Approach
 
