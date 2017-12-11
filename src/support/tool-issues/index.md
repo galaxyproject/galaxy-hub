@@ -1,15 +1,14 @@
 
 [Back to Support](/src/support/index.md)
 
-_Last updated 11-13-17. Additional updates in progress against the pending `17.09` release._
+_Last updated 12-11-17_
 
 **Check individual linked tickets to review the most current status for any known issue**
 
 ## Working at Galaxy Main https://usegalaxy.org?  
 
-Issues impacting https://usegalaxy.org (only) are tracked here: https://github.com/galaxyproject/usegalaxy-playbook/issues
+Server-specific issues: https://github.com/galaxyproject/usegalaxy-playbook/issues
 
-Tophat, Tophat2, Bowtie2 jobs may end with metadata warning. Track issue and review workaround here: https://github.com/galaxyproject/usegalaxy-playbook/issues/62
 
 ## Issue by tool name 
 
