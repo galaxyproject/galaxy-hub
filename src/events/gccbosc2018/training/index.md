@@ -1,6 +1,8 @@
 {{> Events/GCCBOSC2018/Header }}
 
-**[Nominate a training topic Now](http://bir.ly/gccbosc2018-nom)**
+## Nominate a training topic!
+
+**[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
 
 The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and *the training topics that will be offered **are determined by you***. Please take a few minutes to consider which training topics you would like to see offered at GCCBOSC2018. Any topics of interest to these communities can be nominated. 
 
