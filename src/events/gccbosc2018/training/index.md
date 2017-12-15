@@ -1,6 +1,6 @@
 {{> Events/GCCBOSC2018/Header }}
 
-## Nominate a training topic!
+# Nominate a training topic!
 
 **[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
 
@@ -21,4 +21,41 @@ These are only examples.  If you think the communities would be interested in a 
 Nominated topics will be published on this page as they come in.
 
 **Topic Nominations close January 7.** Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community starting one week later.
+
+# Nominated Topics
+
+Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
+
+As of December 15, 2017 these topics have been nominated:
+
+## Practical use of the Galaxy API command line tools
+
+
+How to use the Galaxy API to automate workflows
+
+**Prerequisites**
+
+* Unix command line
+
+## The Galaxy Database Schema
+
+Running a production Galaxy server, you some times end up in a situation, where you manually need to interact with the database, e.g. you want to extract usage information, which can not be gathered from the built in reports tool. Or, a more  risky adventure: you need to change the state of a job to 'error'. For both cases, you require a good understanding of the Galaxy database schema. In this training session, you will learn some of the design concepts of the database, and how to extract (or if necessary change) information useful for a Galaxy admin.	Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements.
+
+**Prerequisites**
+
+* Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements
+
+## GATK4
+
+Training and presentations on the new version of GATK.
+
+**Prerequisites**
+
+* Sample input files
+
+## Open workflow languages
+
+Hands on with CWL/WDL and jobrunners.
+
+* Sample data
 
