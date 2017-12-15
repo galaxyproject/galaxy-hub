@@ -31,11 +31,16 @@ As of December 15, 2017 these topics have been nominated:
 ## Practical use of the Galaxy API command line tools
 
 
-How to use the Galaxy API to automate workflows
+How to use the Galaxy [API](https://galaxyproject.org/develop/api/) to automate workflows.
+
+Galaxy has an always-growing API that allows for external programs to upload and download data, manage histories and datasets, run tools and workflows, and even perform admin tasks. This session will cover various approaches to access the API, in particular using the [BioBlend Python library](https://bioblend.readthedocs.io/en/latest/).
 
 **Prerequisites**
 
 * Unix command line
+* Basic understanding of Galaxy from a developer point of view.
+* Python programming.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## The Galaxy Database Schema
 
@@ -56,6 +61,8 @@ Training and presentations on the new version of GATK.
 ## Open workflow languages
 
 Hands on with CWL/WDL and jobrunners.
+
+**Prerequisites**
 
 * Sample data
 
