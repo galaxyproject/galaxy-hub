@@ -22,7 +22,7 @@ Galaxy software framework is an open-source application (distributed under the p
 
 ### The Public Galaxy Service
 
-The main Galaxy instance at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see http://bit.ly/gxystats). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](www.cyverse.org/) project.  
+The main Galaxy instance at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see http://bit.ly/gxystats). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
 
 In addition to the main Galaxy instance there numerous other sites running Galaxy software framework featuring different sets of tools and alternative interfaces. These can be explored at out [public servers](/public-galaxy-servers/) page.
 
