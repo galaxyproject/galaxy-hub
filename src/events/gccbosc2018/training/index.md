@@ -30,7 +30,6 @@ As of December 15, 2017 these topics have been nominated:
 
 ## Practical use of the Galaxy API command line tools
 
-
 How to use the Galaxy [API](https://galaxyproject.org/develop/api/) to automate workflows.
 
 Galaxy has an always-growing API that allows for external programs to upload and download data, manage histories and datasets, run tools and workflows, and even perform admin tasks. This session will cover various approaches to access the API, in particular using the [BioBlend Python library](https://bioblend.readthedocs.io/en/latest/).
@@ -50,6 +49,8 @@ Running a production Galaxy server, you some times end up in a situation, where 
 
 * Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements
 
+# Nominations in Progress
+
 ## GATK4
 
 Training and presentations on the new version of GATK.
@@ -65,4 +66,20 @@ Hands on with CWL/WDL and jobrunners.
 **Prerequisites**
 
 * Sample data
+
+## Command line workflow management systems: Snakemake, Cluster Flow, Bpipe
+
+How to use workflow management systems that are designed for the command line, such as [Snakemake](http://snakemake.readthedocs.io/en/stable/), [Cluster Flow](http://clusterflow.io/), and [Bpipe](https://github.com/ssadedin/bpipe#welcome-to-bpipe--).
+
+**Prerequisites**
+
+* Linux command line experience
+
+## Analysis of scRNA sequencing data
+
+How to analyze single cell RNA sequencing data, e.g. in [cellranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) or with dedicated R packages
+
+**Prerequisites**
+
+* TBD
 
