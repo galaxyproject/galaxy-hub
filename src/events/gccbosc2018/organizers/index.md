@@ -20,6 +20,7 @@ If you have a community specific query you can contact:
 * *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Hosted Graphite](http://www.hostedgraphite.com), BOSC 2018 Co-Chair
 * *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/), GCC2018 Co-Chair
 * *Bastian Greshake Tzovaras*, [Goethe University Frankfurt](http://ruleofthirds.de/)
+* *[Christopher Sullivan](https://www.researchgate.net/profile/Christopher_Sullivan3)*, [Oregon State University](http://oregonstate.edu/)
 * *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Hilmar Lapp](https://github.com/hlapp)*, [Duke university](https://genome.duke.edu/)
 * *[Pratik Jagtap](http://z.umn.edu/pjgs)*, [University of Minnesota](https://umn.edu/)
@@ -33,4 +34,3 @@ If you have a community specific query you can contact:
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
 * *[Robin Champieux](http://www.ohsu.edu/xd/education/library/about/staff-directory/robin-champieux.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
-* *[Christopher Sullivan](https://www.researchgate.net/profile/Christopher_Sullivan3)*, [Oregon State University](http://oregonstate.edu/)
