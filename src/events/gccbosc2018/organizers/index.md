@@ -33,6 +33,4 @@ If you have a community specific query you can contact:
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
 * *[Robin Champieux](http://www.ohsu.edu/xd/education/library/about/staff-directory/robin-champieux.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
-
-
-
+* *[Christopher Sullivan](https://www.researchgate.net/profile/Christopher_Sullivan3)*, [Oregon State University](http://oregonstate.edu/)
