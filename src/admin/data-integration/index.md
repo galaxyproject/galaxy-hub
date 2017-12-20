@@ -13,13 +13,13 @@ Built-in data files are critical for many Galaxy tools. This page will describe 
 
 There are several steps needed for adding a genome to Galaxy. The first is to get the actual data needed and to put it into an appropriate directory accessible to the Galaxy instance. Then you need to establish the particular `.loc` ("location") file. Finally, make sure that the genome is referenced in the `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file.
 
-**Note that as of early 2014, more than a builds.txt file change is needed to establish a new reference genome. If not using** [Data Managers](/src/admin/tools/data-managers/index.md) **, you must make the necessary changes/additions to the new [Data Tables](/src/admin/tools/Data%2520Tables.md) or use the alternative configuration file.**
+**Note that as of early 2014, more than a builds.txt file change is needed to establish a new reference genome. If not using** [Data Managers](/src/admin/tools/data-managers/index.md) **, you must make the necessary changes/additions to the new [Data Tables](/src/admin/tools/data-tables) or use the alternative configuration file.**
 
 ### Get the data
 
 First you need to determine what type of data you need. Usually these are `.fasta`, `.nib`, `.2bit`, or special index files, but each tool has a specific need. Open up the XML for the particular tool and identify the `.loc` file referred to in either a validator tag or options tag. Open the `$GALAXYROOT/tool-data/&lt;filename&gt;.loc.sample` file, and read it to discover the type of files necessary. Once you know what you need, you can go acquire it.
 
-There are several ways to get the data. If you don't already have the right file on your system, you will need to get it from a site such as [UCSC](http://genome.ucsc.edu).
+There are several ways to get the data. If you don't already have the right file on your system, you will need to get it from a site such as [UCSC](http://hgdownload.soe.ucsc.edu/downloads.html).
 
 Or, if you would like to obtain the data as available on the public Galaxy [Main](/src/main/index.md) instance, these can retrieved from the rsync server. Read more here: **[Rsync](/src/admin/use-galaxy-rsync/index.md)**
 
