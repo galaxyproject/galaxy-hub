@@ -4,7 +4,7 @@ Galaxy provides a method for managing the dependencies of Galaxy tools installed
 
 However, some tools which have not been migrated to the Tool Shed still require manual installation of dependent binaries. In addition, administrators may choose to utilize existing versions of dependencies already installed on the system, rather than rely on versions installed from the Tool Shed. The documentation below covers these cases.
 
-A list of dependencies for unmigrated tools can be found on the [Admin/Tools/ToolDependencies](/src/admin/tools/ToolDependencies/index.md) page.
+A list of dependencies for unmigrated tools can be found on the [Admin/Tools/Tool-Dependencies-List](/src/admin/config/tool-dependencies-list/index.md) page.
 
 ### $PATH
 

@@ -26,7 +26,7 @@ Also:
  - Design can support other types of data files
 ```
 
-In commit 4550:535d276c92bc almost all tools using loc files (and TopHat a bit later) were converted to data tables style. This means that they were no longer be compatible with existing loc files. See the last section on this page for information on converting.
+In commit 4550:535d276c92bc almost all tools using loc files (and TopHat a bit later) were converted to data tables style. This means that they are no longer compatible with existing loc files. See the last section on this page for information on converting.
 
 ## The Pre-data-tables Approach
 
@@ -41,7 +41,7 @@ The old way of handling this in the loc file looked like this:
   </param>
 ```
 
-The test that is displayed in the browser's dropdown is what's in the `name` column, and the value that would be stored for the parameter is in the `value` column.
+The text that is displayed in the browser's dropdown is what's in the `name` column, and the value that would be stored for the parameter is in the `value` column.
 
 If the loc file looked like this:
 
@@ -53,7 +53,12 @@ But more importantly, since the value that was stored for the parameter `index` 
 
 ## How to Use Data Tables
 
-There are three major components to data tables: an entry in the `tool_data_table_conf.xml`, a reference to the relevant data table in the tool XML file, and an appropriate expression added to the tool XML file to pass the correct value to the supporting script (Python, Perl, etc.). The file `tool_data_table_conf.xml.sample` can be used as a source for `tool_data_table_conf.xml`. The `tool_data_table_conf.xml` file looks something like this:
+There are three major components to data tables: 
+1. An entry in the `tool_data_table_conf.xml`
+2. A reference to the relevant data table in the tool XML file
+3. An appropriate expression added to the tool XML file to pass the correct value to the supporting script (Python, Perl, etc.).
+
+The file `tool_data_table_conf.xml.sample` can be used as a source for `tool_data_table_conf.xml`. The `tool_data_table_conf.xml` file looks something like this:
 
 ```
 <tables>
@@ -67,7 +72,7 @@ There are three major components to data tables: an entry in the `tool_data_tabl
 
 Note that the `value` is now the first column (index 0). This is what we are calling the "unique ID" because this is now the value that is stored for the index parameter. This approach allows variants of the same build to be listed, since the dbkey is specified for each entry. The `name` is still what is displayed in the browser dropdown. `path` is still the actual path to the data file(s). `value`, `path`, and `name` should all be included. Other columns are possible, but by convention the Unique ID should be in the first column and path in the last.
 
-The loc file could like like this:
+The loc file could look like this:
 
 ```
 phiX_ID phiX174 User-friendly phiX174 Description /path/to/phiX
