@@ -5,17 +5,17 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 # Consulting
 
-<div class='left'><br /><a href='http://www.deenabio.com/'><img src="/src/images/logos/DeenaBionformaticsBlack.png" alt="Deena Bioinformatics" width="170" /></a></div>
-
 ## Deena Bioinformatics
+
+[<img class="pull-right" src="/src/images/logos/DeenaBionformaticsBlack.png" alt="Deena Bioinformatics" width="150" />](http://www.deenabio.com/)
 
 [Deena Bioinformatics](http://www.deenabio.com/) can help you to setup your own Galaxy Server.  Give your your researchers an easy to use web interface to the command-line utilities they need to work with.
 
 ## Intero Life Sceinces
 
-[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
-
 [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
+
+[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
 * Subscription/Contract Based Enterprise-Level Support
 * Turn-key Customized Workflows
@@ -46,7 +46,7 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your microbial genomics data
 
 
-# Turnkey Onsite Servers
+# Onsite Turnkey Servers
 
 ## BioTeam Appliance: Galaxy Edition
 
