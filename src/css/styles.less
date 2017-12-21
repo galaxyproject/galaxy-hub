@@ -33,7 +33,20 @@
 
 @grid-float-breakpoint: 1000px;
 
+
+// splashpage carousel styling
 @jumbotron-bg: white;
+@carousel-indicator-border-color: gray;
+@carousel-indicator-active-bg: @navbar-inverse-bg;
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.carousel .carousel-control {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
 
 html {
     position: relative;
