@@ -7,7 +7,7 @@ The *cloud* provides another option for this situation that can be cost-effectiv
 
 Cloud infrastructures are just [one of the many ways that Galaxy is available](/src/choices/index.md).
 
-## CloudMan
+# CloudMan
 
 <div class='left'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="250" /></a></div>
 
@@ -15,7 +15,7 @@ Cloud infrastructures are just [one of the many ways that Galaxy is available](/
 
 See the CloudMan page for more.
 
-## Globus Genomics
+# Globus Genomics
 
 <div class='right'><a href='http://www.globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="200" /></a></div>
 
@@ -23,26 +23,24 @@ See the CloudMan page for more.
 
 <div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="200" /></a><br /><a href='http://opennebula.org'><img src="/src/images/logos/OpenNebulaLogo.png" alt="OpenNebula" width="200" /></a></div>
 
-## Commercial Cloud Solutions
+# Commercial Cloud Solutions
 
-<div class='left'><a href='http://openstack.org'><img src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" /></a>
-</div>
+[<img class="pull-left" src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" />](http://openstack.org)
 
 Both CloudMan and [Globus Genomics](/src/cloud/index.md#globus-genomics) use [Amazon Web Services](http://aws.amazon.com).  CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 You can also set up your own Galaxy server using any cloud provider, but not CloudMan.  In this situation you handle the Galaxy installation and the cloud aspects of the install.
 
-### Galaxy Specific Commercial Cloud Solutions
+## Galaxy Specific Commercial Cloud Solutions
 
 Finally, these vendors also provide support for running Galaxy on cloud infrastructures:
 
-#### GenomeCloud
-![GenomeCloud](/src/cloud/GenomeCloudLogo.png)
+### Intero Life Sciences
 
-[GenomeCloud](http://www.genome-cloud.com) started with combining the idea of cloud computing with bioinformatics as an integrated solution for data storage and sharing, database management, upgrading computing and analysis tools, and security. 
+[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
-GenomeCloud is designed to aid biologists and researchers to perform bioinformatics tasks easier, as  well as support small-sized laboratories to perform researches without hurdles. 
+[Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise Cloud](https://www.galaxyinformatics.com/)*:
 
-GenomeCloud is composed of g-Analysis, g-Cluster, g-Storage, and g-Insight services, where accounts creation and management, monitoring systems, billing, and service management are offered via KT's proven superior cloud-based web system, providing convenience to the researchers and other users. 
+* Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+* Dedicated servers with dedicated secure access (VPN) including data storage and management.
 
-Users can easily use Galaxy using g-Cluster based on cloud computing.
