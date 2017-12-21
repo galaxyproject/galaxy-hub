@@ -11,6 +11,22 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 [Deena Bioinformatics](http://www.deenabio.com/) can help you to setup your own Galaxy Server.  Give your your researchers an easy to use web interface to the command-line utilities they need to work with.
 
+## Intero Life Sceinces
+
+[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
+
+[Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
+
+* Subscription/Contract Based Enterprise-Level Support
+* Turn-key Customized Workflows
+* Professional Services & Consulting
+* Production Environment Optimization
+* Data Integration Outsourcing Services
+* Enterprise Cloud Environment with SLA
+  * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+  * Dedicated servers with dedicated secure access (VPN) including data storage and management.
+* Galaxy Enterprise Training (see below)
+
 ## Noor Biotechnologies
 
 <div class='right'><a href='http://noorbiotech.com/'><img src="/src/images/logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
@@ -30,17 +46,18 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your microbial genomics data
 
 
-# Servers
+# Turnkey Onsite Servers
 
 ## BioTeam Appliance: Galaxy Edition
 
 The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-appliance/) is 
 
-<div class='right'><img src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></div>
+[<img class="pull-right" src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" />](http://www.bioteam.net/products/galaxy-appliance/)
 
 <blockquote>
 a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
 </blockquote>
+
 
 ## Takeru Galaxy
 
@@ -56,7 +73,7 @@ The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is 
 
 [CloudMan](/src/cloudman/index.md) and [Globus Genomics](/src/cloud/index.md#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
-See the Galaxy [Cloud](/src/cloud/index.md) page for more.
+See the Galaxy [Cloud](/src/cloud/index.md) page for more and specific offerings..
 
 
 # Training
@@ -66,8 +83,11 @@ Training on how to use Galaxy is offered by several companies around the world:
 * **[Geneclat Technologies](/src/teach/trainers/index.md#geneclat-technologies)**
   * Based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
+* **[Intero Life Sciences](https://www.galaxyinformatics.com/training)**
+  * Offers a certification program for those seeking verified expertise in [Galaxy Enterprise](https://www.galaxyinformatics.com/). Based in North Carolina, United States.
+
 * **[Noor Biotechnologies Ltd.](/src/teach/trainers/index.md#noor-biotechnologies-ltd)**
   * Based in Malaysia and Saudi Arabia. We are available to train around the world.
 
 * **[OpenHelix](/src/teach/trainers/index.md#openhelix)**
-  * Based in North America, but available Globally and via webinar.
+  * Based in North America, but available globally and via webinar.
