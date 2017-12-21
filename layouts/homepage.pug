@@ -10,17 +10,23 @@ block content
         div.row#splash-row
             div.col-sm-12
                 div.carousel.slide(data-ride="carousel" id="splash-box")
+                    ol.carousel-indicators
+                        each item, index in splash
+                            if index === 0
+                                li.active(data-target="#splash-box" data-slide-to=`${index}`)
+                            else
+                                li(data-target="#splash-box" data-slide-to=`${index}`)
                     div.carousel-inner(role="listbox")
                         div.item.carousel-item.active.jumbotron
                             +renderSplash(splash[0])
                         each item in splash.slice(1,5)
                             div.item.carousel-item.jumbotron
                                 +renderSplash(item)
-                    a.carousel-control-prev(href="#carouselExampleControls" role="button" data-slide="prev")
-                        span.carousel-control-prev-icon( aria-hidden="true")
+                    a.left.carousel-control(href="#splash-box" role="button" data-slide="prev")
+                        span.icon-prev(aria-hidden="true")
                         span.sr-only: Previous
-                    a.carousel-control-next(href="#carouselExampleControls" role="button" data-slide="next")
-                        span.carousel-control-prev-icon( aria-hidden="true")
+                    a.right.carousel-control(href="#splash-box" role="button" data-slide="next")
+                        span.icon-next(aria-hidden="true")
                         span.sr-only: Next
         div.row
             div.col-sm-4
