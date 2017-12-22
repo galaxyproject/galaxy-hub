@@ -239,7 +239,9 @@ let ms = metalsmith(__dirname)
         },
         splash: {
             pattern: "splash/*/*.md",
-            sortBy: "date",
+            sortBy: function randomSort(a,b) {
+                        return( parseInt( Math.random()*10 ) %2 );
+                    },
             reverse: true
         }
     })).use(timer('metalsmith-collections'))
