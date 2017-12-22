@@ -97,6 +97,15 @@ head( lang="en" )
         ga('create', 'UA-45719423-4', 'auto');
         ga('send', 'pageview');
 
+    script(type='text/javascript').
+        $(document).ready(function(){
+            // select a random valid slide from carousel and make it active
+            var items = $(".carousel-item");
+            var random_slide = Math.floor(Math.random() * (items.length));
+            $(items[random_slide]).addClass("active");
+            $($(".carousel-indicators li")[random_slide]).addClass("active");
+        });
+
     if redirect
         script(type='text/javascript').
             $(function(){
