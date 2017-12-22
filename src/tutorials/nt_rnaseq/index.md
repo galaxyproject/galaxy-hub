@@ -268,7 +268,7 @@ We will create two dataset collections: one containing data for G1E cells and th
 |![](/src/tutorials/nt_rnaseq/create_col_3.png)|
 |<small>Select all shown datasets by clicking `All`.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_4.png)|
-|<small>Use `For all selected` dropdown and select option `Build List of Dataset Pairs` to start collection builder</small>
+|<small>Use `For all selected` dropdown and select option `Build List of Dataset Pairs` to start collection builder.</small>
 |![](/src/tutorials/nt_rnaseq/create_col_5.png)|
 |<small>In the collection builder enter `_f_` and `_r_` in the two search boxes. Because datasets in out history are named as, for example, `G1E_R1_f_ds_SRR549355`, the `_f_` and `_r_` diffrentiate forward and reverse reads. Click `Pair these datasets` button.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_6.png)|
