@@ -517,7 +517,7 @@ Now that we have a list of transcript expression levels and their differential e
 
 ## Prepare BAM files
 
-When looking at results it will helpful to see read coverage at the regions of interest. But we have four datasets corresponding to four replicates and in your own experiment there may be even more datasets. So let's first merge all HISAT BAM outputs in a single BAM file. However, to keep the relationship between individual reads and samples we need to add [readgroup tags](/tutorials/ngs/#read-groups) to each BAM file before merging. For this we will use a combination of tools:
+When looking at results it will helpful to see read coverage at the regions of interest. But we have four datasets corresponding to four replicates and in your own experiment there may be even more datasets. So let's first merge all HISAT BAM outputs into a single BAM file. However, to keep the relationship between individual reads and samples we need to add [readgroup tags](/tutorials/ngs/#read-groups) to each BAM file before merging. For this we will use a combination of tools:
 
 |                                 |
 |---------------------------------|
@@ -526,7 +526,7 @@ When looking at results it will helpful to see read coverage at the regions of i
 |![](/src/tutorials/nt_rnaseq/addRG.png)|
 |<small>**Second**, use **NGS: Picard -> AddOrReplaceReadGroup** to add readgroups as shown above. This will automatically set readgroups based on dataset names.</small>|
 |![](/src/tutorials/nt_rnaseq/mergeBAM.png)|
-|<small>**Finally**, use  **NGS: Picard -> MergeSamFiles** to collapse the entire collection you've just produced at the previous step into a single BAM datasets. Name this dataset `HISAT single BAM`. We will use this dataset for visualization.</small>|
+|<small>**Finally**, use  **NGS: Picard -> MergeSamFiles** to collapse the entire collection you've just produced at the previous step into a single BAM dataset. Name this dataset `HISAT single BAM`. We will use this dataset for visualization.</small>|
 
 ## Starting and using IGV
 
