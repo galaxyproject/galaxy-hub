@@ -513,7 +513,7 @@ For more information about `DESeq2` and its outputs, you can have a look at [`DE
 
 # Visualization
 
-Now that we have a list of transcript expression levels and their differential expression levels, it is time to visually inspect our transcript structures and the reads they were predicted from. It is a good practice to visually inspect (and present) loci with transcripts of interest. As we've seen above, Galaxy integrates will with the IGV browser.
+Now that we have a list of transcript expression levels and their differential expression levels, it is time to visually inspect our transcript structures and the reads they were predicted from. It is a good practice to visually inspect (and present) loci with transcripts of interest. As we've seen above, Galaxy integrates well with the IGV browser.
 
 ## Prepare BAM files
 
