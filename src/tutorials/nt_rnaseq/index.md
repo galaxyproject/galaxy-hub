@@ -479,7 +479,7 @@ MSTRG.977.1  697.447 -10.030  1.062 -9.444 3.583e-21 1.974e-18  2081.714 706.074
 MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000   0.000 1311.325 1268.763
 ```
 
-The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this cases (because we set `G1E` as the Factor level 1 while running `DeSeq2`) positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0. 
+The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0. 
 
 <div class="panel panel-info">
 	<div class="panel-heading">
