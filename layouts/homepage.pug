@@ -5,6 +5,7 @@ mixin renderSplash(item)
    h1.display-3 !{item.title}
    p.lead !{item.contents}
 
+
 block content
     section.section-content
         div.row#splash-row
@@ -12,14 +13,9 @@ block content
                 div.carousel.slide(data-ride="carousel" id="splash-box")
                     ol.carousel-indicators
                         each item, index in splash
-                            if index === 0
-                                li.active(data-target="#splash-box" data-slide-to=`${index}`)
-                            else
-                                li(data-target="#splash-box" data-slide-to=`${index}`)
+                            li(data-target="#splash-box" data-slide-to=`${index}`)
                     div.carousel-inner(role="listbox")
-                        div.item.carousel-item.active.jumbotron
-                            +renderSplash(splash[0])
-                        each item in splash.slice(1,5)
+                        each item, index in splash
                             div.item.carousel-item.jumbotron
                                 +renderSplash(item)
                     a.left.carousel-control(href="#splash-box" role="button" data-slide="prev")
