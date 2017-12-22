@@ -232,7 +232,7 @@ Now let's display results of this experiment in IGV. For this expand the latest 
 |![](/src/tutorials/nt_rnaseq/igv_test3.png)|
 |<small>Right click on the lift side of interface to (1) color, group, and sort alignments by `first-of-pair strand` and (2) set view to `collapsed`.</small>|
 
-In the picture above you will see that the absolute majority of read pairs have their first read mapping on the negative strand (they are blue). At the same time the gene in the picture, *Hoxb13*, is on the positive strand (its arrows point from left to right). This this is a stranded RNA seq data were first cDNA strand is being sequenced. This implies that when we start actual analysis of this date we will use `First Strand (R/RF)` setting of `HISAT`.
+In the picture above you will see that the absolute majority of read pairs have their first read mapping on the negative strand (they are blue). At the same time the gene in the picture, *Hoxb13*, is on the positive strand (its arrows point from left to right). This this is a stranded RNA seq data were first cDNA strand is being sequenced. This implies that when we start actual analysis of this data we will use `First Strand (R/RF)` setting of `HISAT`.
 
 # Preparing dataset collections
 
