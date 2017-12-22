@@ -1,5 +1,4 @@
-# Galaxy Community Hub [![Build
-Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
+# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
 
 Source for the [Galaxy Hub Website
 (galaxyproject.org)](https://galaxyproject.org/).  The Galaxy Hub is the
@@ -20,7 +19,7 @@ save a lot of typing.
 ## Should I access the Galaxy Hub website through GitHub or  galaxyproject.org?
 
 The only reason to navigate through the GitHub is if you are making updates to
-the web site (see [CONTRIBUTING.md](/contributing.md)).  If you just want to
+the web site (see [CONTRIBUTING.md](CONTRIBUTING.md)).  If you just want to
 read and explore the web site, then you should absolutely do that through
 [galaxyproject.org](https://galaxyproject.org).  The site is not quite rendered
 correctly in the GitHub web site: it is missing some magic metalsmith,
