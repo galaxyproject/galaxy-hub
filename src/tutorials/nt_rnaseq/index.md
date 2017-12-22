@@ -296,7 +296,7 @@ Now that we have collections let's use `Trimmomatic` to trim all datasets in our
 
 <div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Repeat this on `Mk` collection as well.</div>
 
-This should be repeated for `Mk` collection as well (do it on your own). Note that `Trimmomatic` produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; we one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
+This should be repeated for `Mk` collection as well (do it on your own). Note that `Trimmomatic` produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; the one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
 It will be easier down the line if we rename collections to make easier to identify as analysis is progressing (collection tagging, which is currently in development, will alleviate this need in the near future). To rename a collection:
 
 |               |                  |
