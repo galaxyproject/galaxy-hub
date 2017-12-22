@@ -34,20 +34,6 @@
 @grid-float-breakpoint: 1000px;
 
 
-// splashpage carousel styling
-@jumbotron-bg: white;
-@carousel-indicator-border-color: gray;
-@carousel-indicator-active-bg: @navbar-inverse-bg;
-.carousel-control.left, .carousel-control.right {
-    background-image: none
-}
-.carousel .carousel-control {
-  visibility: hidden;
-}
-.carousel:hover .carousel-control {
-  visibility: visible;
-}
-
 html {
     position: relative;
     min-height: 100%;
@@ -250,7 +236,7 @@ div.newsItemFooter, div.noteItemFooter {
 
 /* Used on News page */
 div.newsItemList div.newsItemHeader, div.noteItemList div.noteItemHeader {
-    // background-color: #eee;
+    background-color: #eee;
     border: 1px solid #aaa;
     padding: 0.5em;
     margin: 1em 0 0.7em 0;
@@ -291,10 +277,24 @@ div.linkbox a:visited {
     color: #ddd;
 }
 
+// splashpage carousel styling
+@jumbotron-bg: white;
+@carousel-indicator-border-color: gray;
+@carousel-indicator-active-bg: @navbar-inverse-bg;
+@carousel-control-width: 5%;
 #splash-box {
     .carousel-item, .carousel-inner {
         height:420px;
     }
+    .carousel-control.left, .carousel-control.right {
+        background-image: none
+    }
+}
+.carousel .carousel-control {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control {
+    visibility: visible;
 }
 
 h1.pageTitle {
