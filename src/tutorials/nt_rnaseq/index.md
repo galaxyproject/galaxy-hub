@@ -246,7 +246,7 @@ We want to create a new clean history by moving the original sequence data. To d
 |                                                           |                       |
 |-----------------------------------------------------------|-----------------------|
 | **A.** Click on the cog (<i class="fa fa-cog" aria-hidden="true"></i>)<br>Choose "**Copy Datasets**" option: <br>![](/src/tutorials/nt_rnaseq/copy_datasets.png) | **B.** Choose which datasets you need to copy:<br>![](/src/tutorials/nt_rnaseq/copy_datasets2.png)<br>**C.** Click on the name of the newly created history:<br>![](/src/tutorials/nt_rnaseq/datasets_copied.png) |
-|<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy and type a new for th enew history (`Novel Transcripts (RNAseq)` in this case). **C**: Go to the new history by clicking on the link with its name.</small>  |
+|<small>**Copying datasets into a new history**</small> |  <small>**A**: Use history options dropdown. **B**: Select datasets to copy and type a new for the new history (`Novel Transcripts (RNAseq)` in this case). **C**: Go to the new history by clicking on the link with its name.</small>  |
 
 Once all datasets are copied it will look something like this:
 
@@ -272,11 +272,11 @@ We will create two dataset collections: one containing data for G1E cells and th
 |![](/src/tutorials/nt_rnaseq/create_col_5.png)|
 |<small>In the collection builder enter `_f_` and `_r_` in the two search boxes. Because datasets in out history are named as, for example, `G1E_R1_f_ds_SRR549355`, the `_f_` and `_r_` diffrentiate forward and reverse reads. Click `Pair these datasets` button.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_6.png)|
-|<small>Datasets will become paired</small>|
+|<small>Datasets will become paired.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_7.png)|
 |<small>Scroll down, name the collection `G1E` and click `Create list`.</small>
 |![](/src/tutorials/nt_rnaseq/create_col_8.png)|
-|<small>You will get a new item in the history representing that collection</small>|
+|<small>You will get a new item in the history representing that collectio.n</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_9.png)|
 |<small>Repeat these steps for Megakarycytes datasets and you should get a history that looks like the one above.</small>
 
