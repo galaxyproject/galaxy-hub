@@ -11,7 +11,7 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 [Deena Bioinformatics](http://www.deenabio.com/) can help you to setup your own Galaxy Server.  Give your your researchers an easy to use web interface to the command-line utilities they need to work with.
 
-## Intero Life Sceinces
+## Intero Life Sciences
 
 [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
 
@@ -25,7 +25,7 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 * Enterprise Cloud Environment with SLA
   * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
   * Dedicated servers with dedicated secure access (VPN) including data storage and management.
-* Galaxy Enterprise Training (see below)
+* Galaxy Enterprise Certification Training
 
 ## Noor Biotechnologies
 
@@ -84,7 +84,7 @@ Training on how to use Galaxy is offered by several companies around the world:
   * Based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
 * **[Intero Life Sciences](https://www.galaxyinformatics.com/training)**
-  * Offers a certification program for those seeking verified expertise in [Galaxy Enterprise](https://www.galaxyinformatics.com/). Based in North Carolina, United States.
+  * Offers a certification program for those seeking verified expertise in [Galaxy Enterprise](https://www.galaxyinformatics.com/). Based in North Carolina (US Headquarters) and Freiburg, Germany (EU Headquarters)
 
 * **[Noor Biotechnologies Ltd.](/src/teach/trainers/index.md#noor-biotechnologies-ltd)**
   * Based in Malaysia and Saudi Arabia. We are available to train around the world.
