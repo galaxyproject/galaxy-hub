@@ -6,7 +6,7 @@ title: Apache External User Authentication
 
 By default, Galaxy manages its own users. However, it may be more useful at your site to tie into a local authentication system. Galaxy does not do this itself - it delegates this responsibility to the upstream proxy server.
 
-The authentication module (basic authentication, `mod_auth_kerb`, `mod_authn_ldap`, `mod_auth_cas`, `Cosign`, etc.) is responsible for providing a username, which we will pass through the proxy to Galaxy as `$REMOTE_USER`.
+The authentication module (basic authentication, `mod_auth_kerb`, `mod_authnz_ldap`, `mod_auth_cas`, `Cosign`, etc.) is responsible for providing a username, which we will pass through the proxy to Galaxy as `$REMOTE_USER`.
 
 In addition to the chosen module above, `mod_headers` must be enabled in the Apache config, for some types of authentication.
 
