@@ -26,7 +26,38 @@ Nominated topics will be published on this page as they come in.
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of December 15, 2017 these topics have been nominated:
+As of January 2, 2018 these topics have been nominated:
+
+## How to analyze microbiota data with Galaxy
+
+The study of complex microorganism communities has been eased by the development of sequencing platforms and dedicated powerful bioinformatics tools. Several tools have recently been integrated into Galaxy for microbiota data analysis: Mothur, QIIME, MetaPhlAN, HUMAnN, FROGS, MEGAHIT, MetaSPAdes,...
+
+In this training, we will show in this training how to analyze metagenomic and amplicon data inside Galaxy:
+
+- Extraction of the OTUs using [QIIME](http://qiime.org/)/[Mothur](https://www.mothur.org/)
+- Reconstruction of the taxonomic composition of a sample without OTUs using [MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan2)
+- Find the metabolic functions realized in an environment using [HUMAnN](https://huttenhower.sph.harvard.edu/humann)
+
+**Prerequisites**
+
+* Galaxy 101 or equivalent experience
+* Ideally participants will already be familiar with the concepts behind metagenomics (e.g., OTU)
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
+
+## Bioinformatics Training and Education with the Galaxy Training Network
+
+Galaxy with its flexibility, reproducibility, and scalability is an ideal environment for teaching and training diverse scientific topics. 
+
+The Galaxy Training Network is a community initiative dedicated to high-quality Galaxy-based training around the world. One of its objectives is to support trainers with complete training material and recommendations about bioinformatics training. Templates and best training practices were defined to help trainers create new material, unify the different material, and make training materials more accessible and easy for users to learn and for teachers to teach (https://training.galaxyproject.org).
+
+This workshop will introduce participants to the infrastructure of the GTN training materials and describe how to generate training materials following best practices. Participants will be introduced to the generation Galaxy Interactive Tours and the creation of Docker Flavors dedicated to teaching and training sessions. The workshop will also cover best practices for running Galaxy-based workshops (how to plan a training session based on number of attendees, time constraints, resource availability, etc).
+
+**Prerequisites**
+
+* Basic familiarity with using Galaxy (how to import datasets and run tools)
+* Basic familiarity with git and Docker will also be helpful for parts of the workshop.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
+
 
 ## Practical use of the Galaxy API command line tools
 

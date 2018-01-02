@@ -26,6 +26,9 @@ sponsors:
 
 ## Citation(s)
 
+* [CBIB tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ECBIB) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 ## Sponsor(s)
 
 * [Centre de Bioinformatique de Bordeaux](http://www.cbib.u-bordeaux2.fr/)

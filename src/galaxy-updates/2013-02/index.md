@@ -39,7 +39,7 @@ These servers join the [growing list of public Galaxy servers](/src/public-galax
 ## New Papers
 
 <div class='left'>
-<table>
+<table class="table">
   <tr>
     <th> # </th>
     <th> Tag </th>
@@ -151,7 +151,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### Events
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
