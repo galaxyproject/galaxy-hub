@@ -11,7 +11,7 @@ contact: See web page
 image: /src/events/2018-pag/galaxy-at-pag-2018.png
 ---
 
-Galaxy will be at [Plant and Animal Genome XXVI (PAG 2018)](http://www.intlpag.org/), being held in San Diego, California, United States, January 13-17. Ther will also be pre-conference events this year as well.
+Galaxy will be at [Plant and Animal Genome XXVI (PAG 2018)](http://www.intlpag.org/), being held in San Diego, California, United States, January 13-17. There will also be pre-conference events this year as well.
 
 | Date | Time | Topic | Session | Links | Contact |
 | ---- | :----: | ---- | ---- | ---- | ---- |
