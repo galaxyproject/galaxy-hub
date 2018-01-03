@@ -33,4 +33,3 @@ If you have a community specific query you can contact:
 * *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/), GCC2018 Co-Chair
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
-* *[Robin Champieux](http://www.ohsu.edu/xd/education/library/about/staff-directory/robin-champieux.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
