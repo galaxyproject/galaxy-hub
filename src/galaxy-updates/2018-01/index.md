@@ -11,11 +11,11 @@ Welcome to the January 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
-## GCCBOSC 2018 Training Topic Nominations close January 7
-
-[<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
+## GCCBOSC 2018 Training Topic Nominations *Close January 7*
 
 **[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
+
+[<img class="pull-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
 
 The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic Nominations close January 7**. Any topics of interest to these communities can be nominated. 
 
@@ -31,11 +31,11 @@ Nominated topics can cover a wide range. For example:
 
 *These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.  *Training is not limited to Galaxy-related topics.  Don't be afraid to think inside the BOSC!*
 
-Nominated topics are [published](/src/events/gccbosc2018/training/index.md) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community.
+Nominated topics have been, and will continue to be [published](/src/events/gccbosc2018/training/index.md) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community later this month.
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="pull-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
+[<img class="pull-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be (at least):
 
@@ -43,6 +43,7 @@ The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held 
 * a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806)
 * 10 other Galaxy-related talks, and 
 * 12 Galaxy-related posters.
+* 4 pre-conference [GMOD](#gmod-pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
 
 See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
 
@@ -59,15 +60,31 @@ See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
 
 If you are interested in supporting better integration of Galaxy with other GMOD components then please give the two hackathons a look.
 
-### Pre-PAG Intro to Galaxy Workshop at CSUSM
+### Intro to Galaxy Workshop at CSUSM
 
 [<img class="pull-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
 
 If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/src/events/2018-01-csusm-workshop/index.md) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
+## ELIXIR Galaxy Community Kickoff and Meeting
+
+<div class="pull-left">
+[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
+[<img src="/src/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
+</div>
+
+The ELIXIR Galaxy community will have a [kickoff meeting](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) 14-16th March 2018, in Freiburg/Germany. We will combine this with a Galaxy User Conference and the **official launch of the usegalaxy.eu server.**
+
+This event will also be coordinated with the [EMBL Australia](http://www.emblaustralia.org/) to also **launch usegalaxy.au at the same time.**
+
+Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discuss and plan our roadmap in 2018 and 2019. Thursday and Friday (15th, 16th) will be a conference where Galaxy users talk about their research and use-cases. However, a few spots we will reserved for official talks from ELIXIR.
+
+*Register now as space is limited.*
+
+
 ## 2018 Big Genomics Data Skills Training course
 
-[<img class="pull-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="pull-right" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
  
