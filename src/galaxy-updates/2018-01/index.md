@@ -165,6 +165,12 @@ As a grant funded activity housing is included; however you will need to cover y
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Andrea Bagnacani, Markus Wolfien</td>
 </tr>
 <tr>
+  <td><span class="text-nowrap">March 14th 2018</span></td>
+  <td><a href="https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference">Galaxy community kickoff meeting and Galaxy User Conference</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.openstreetmap.org/?mlat=48.00189&amp;mlon=7.84628#map=17/48.00189/7.84628">Freiburg, Germany</a></td>
+  <td>ELIXIR Galaxy Working Group</td>
+</tr>
+<tr>
   <td><span class="text-nowrap">March 20th 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/rna-seq-dge-analysis-galaxy-gvl/#more-1720">RNA-Seq Differential Gene Expression Analysis using Galaxy and the GVL</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
