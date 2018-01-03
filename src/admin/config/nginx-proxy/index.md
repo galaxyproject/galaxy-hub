@@ -46,12 +46,10 @@ http {
 
 **Notes:**
 
-Make sure that you either comment out or modify line containing default configuration for enabled sites.
-
+- Make sure that you either comment out or modify the line containing default configuration for enabled sites (if present, e.g. on Debian/Ubuntu systems).
 ```
 include /etc/nginx/sites-enabled/*;
 ```
-
 - The `proxy_next_upstream off;` disables nginx's round-robin scheme to prevent it from submitting POST requests more than once. This is unsafe, and is useful when using more than one upstream.
 - Replace `$GALAXY_ROOT` with the path to your copy of Galaxy.
 - The parameter `client_max_body_size` specifies the maximum upload size that can be handled by POST requests through nginx. You should set this to the largest file size that could be reasonable handled by your network. It defaults to 1M files, so will probably need to be increased if you are dealing with genome sized datasets.
