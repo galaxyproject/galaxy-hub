@@ -79,7 +79,7 @@ This event will also be coordinated with the [EMBL Australia](http://www.emblaus
 
 Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discuss and plan our roadmap in 2018 and 2019. Thursday and Friday (15th, 16th) will be a conference where Galaxy users talk about their research and use-cases. However, a few spots we will reserved for official talks from ELIXIR.
 
-*Register now as space is limited.*
+*[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfqKqyPwW-s6m64ObleUSv4B8RbGxCRIddBY1cpt3Za7af6XQ/viewform) as space is limited.*
 
 
 ## 2018 Big Genomics Data Skills Training course
