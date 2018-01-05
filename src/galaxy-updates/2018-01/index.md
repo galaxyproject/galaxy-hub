@@ -11,13 +11,13 @@ Welcome to the January 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
-## GCCBOSC 2018 Training Topic Nominations *Close January 7*
+## GCCBOSC 2018 Training Nominations Extended to January 12
 
-**[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
+**[Nominate a training topic now](http://bit.ly/gccbosc2018-tr-nom)**.
 
 [<img class="pull-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
 
-The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic Nominations close January 7**. Any topics of interest to these communities can be nominated. 
+The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic nominations have been extended January 12**. Any topics of interest to these communities can be nominated. 
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  
 
@@ -29,7 +29,7 @@ Nominated topics can cover a wide range. For example:
 - Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)
 - Open source community (Building a Curation Community using Apollo, or Training using the Galaxy Training Network)
 
-*These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.  *Training is not limited to Galaxy-related topics.  Don't be afraid to think inside the BOSC!*
+*These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.  Training is not limited to Galaxy-related topics.  *Don't be afraid to think inside the BOSC!*
 
 Nominated topics have been, and will continue to be [published](/src/events/gccbosc2018/training/index.md) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community later this month.
 

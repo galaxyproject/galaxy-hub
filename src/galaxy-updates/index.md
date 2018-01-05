@@ -11,8 +11,13 @@ title: Galaxy Updates
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 * [Mailing Lists](/src/mailing-lists/index.md)
 
+## 2018 Updates
+
+* [2018-01](/src/galaxy-updates/2018-01/index.md) ([Summary](/src/news/2018-01-galaxy-update/index.md))
+
 ## 2017 Updates
 
+* [2017-12](/src/galaxy-updates/2017-12/index.md) ([Summary](/src/news/2017-12-galaxy-update/index.md))
 * [2017-11](/src/galaxy-updates/2017-11/index.md) ([Summary](/src/news/2017-11-galaxy-update/index.md))
 * [2017-10](/src/galaxy-updates/2017-10/index.md) ([Summary](/src/news/2017-10-galaxy-update/index.md))
 * [2017-09](/src/galaxy-updates/2017-09/index.md) ([Summary](/src/news/2017-09-galaxy-update/index.md))
