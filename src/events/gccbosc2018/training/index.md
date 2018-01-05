@@ -26,9 +26,23 @@ Nominated topics will be published on this page as they come in.
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of January 2, 2018 these topics have been nominated:
+As of January 5, 2018 these topics have been nominated:
 
-## How to analyze microbiota data with Galaxy
+## 5. ChIPseq analysis using deepTools and MACS2
+
+Did my IP work? Where is my signal? How well do my replicates correlate? What might my peaks even look like? Where are my peaks (or signal) in relationship to transcription start sites (or other features)? These are common questions that biologists first pose when dealing with ChIPseq data. We will use deepTools and MACS within Galaxy to demonstrate effective methods of
+
+1. performing ChIPseq-specific quality control,
+2. calling peaks and
+3. visualising signal and peak enrichment around genes or other features."	"
+
+**Prerequisites**
+
+- Galaxy 101 or equivalent experience.
+- Ideally participants will already be familiar with generic NGS quality control and read mapping, since those won't be covered
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. "
+
+## 4. How to analyze microbiota data with Galaxy
 
 The study of complex microorganism communities has been eased by the development of sequencing platforms and dedicated powerful bioinformatics tools. Several tools have recently been integrated into Galaxy for microbiota data analysis: Mothur, QIIME, MetaPhlAN, HUMAnN, FROGS, MEGAHIT, MetaSPAdes,...
 
@@ -44,7 +58,7 @@ In this training, we will show in this training how to analyze metagenomic and a
 * Ideally participants will already be familiar with the concepts behind metagenomics (e.g., OTU)
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
-## Bioinformatics Training and Education with the Galaxy Training Network
+## 3. Bioinformatics Training and Education with the Galaxy Training Network
 
 Galaxy with its flexibility, reproducibility, and scalability is an ideal environment for teaching and training diverse scientific topics. 
 
@@ -59,7 +73,7 @@ This workshop will introduce participants to the infrastructure of the GTN train
 * A wi-fi enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
 
 
-## Practical use of the Galaxy API command line tools
+## 2. Practical use of the Galaxy API command line tools
 
 How to use the Galaxy [API](https://galaxyproject.org/develop/api/) to automate workflows.
 
@@ -72,7 +86,7 @@ Galaxy has an always-growing API that allows for external programs to upload and
 * Python programming.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-## The Galaxy Database Schema
+## 1. The Galaxy Database Schema
 
 Running a production Galaxy server, you some times end up in a situation, where you manually need to interact with the database, e.g. you want to extract usage information, which can not be gathered from the built in reports tool. Or, a more  risky adventure: you need to change the state of a job to 'error'. For both cases, you require a good understanding of the Galaxy database schema. In this training session, you will learn some of the design concepts of the database, and how to extract (or if necessary change) information useful for a Galaxy admin.	Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements.
 
