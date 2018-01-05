@@ -28,6 +28,16 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 5, 2018 these topics have been nominated:
 
+## 6. Deploying (Galaxy and your) applications into clouds
+
+This tutorial will have two parts. Part 1 will demonstrate how to use the all-new CloudLaunch service to launch and manage instances of Galaxy on the Cloud on multiple cloud providers. In part 2, we will cover the technical process of adding custom applications into CloudLaunch and making them available for launching on any supported cloud (AWS, Azure, GCE, OpenStack). This part will also cover use of the CloudLaunch API, enabling external applications to leverage CloudLaunch capabilities.
+
+**Prerequisites**
+
+* Part 1: a laptop with WiFi and a modern browser
+* Part 2: Basic programming skills (Python, Angular 2/4/5 useful but not essential?)
+
+
 ## 5. ChIPseq analysis using deepTools and MACS2
 
 Did my IP work? Where is my signal? How well do my replicates correlate? What might my peaks even look like? Where are my peaks (or signal) in relationship to transcription start sites (or other features)? These are common questions that biologists first pose when dealing with ChIPseq data. We will use deepTools and MACS within Galaxy to demonstrate effective methods of
