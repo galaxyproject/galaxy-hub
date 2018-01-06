@@ -26,7 +26,25 @@ Nominated topics will be published on this page as they come in.
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of January 5, 2018 these topics have been nominated:
+As of January 6, 2018 these topics have been nominated:
+
+## 8. Hi-C analysis in Galaxy
+
+This session will introduce the basics of chromosome conformation capture assays and their applications, followed by best practices in mapping, QC'ing, visualazing and assigning 'topological associated domains' with Hi-C data.
+
+**Prerequisites**
+
+* Understanding of chromosome conformation capture (3C) and variants (HiC, 5C, 4C). Understanding of Illumina based "NGS".
+* Understanding of Galaxy user interface.
+
+## 7. Handling integrated biological data using Python (or R) and InterMine
+
+This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic) in [InterMine](http://intermine.org/) via an API in Python or R. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
+
+**Prerequisites**
+
+* Basic Python or R skills are advantageous but not required. 
+* A laptop with wifi and Python or R Studio.
 
 ## 6. Deploying (Galaxy and your) applications into clouds
 
@@ -106,21 +124,20 @@ Running a production Galaxy server, you some times end up in a situation, where 
 
 # Nominations in Progress
 
+
+## Genome-wide sgRNA screen analysis using GALAXY
+
+Identify sgRNAs enriched in a screen with specific treatment.  Raw data processing, mapping, MAGeCK-VISPR.
+
 ## GATK4
 
 Training and presentations on the new version of GATK.
 
-**Prerequisites**
-
-* Sample input files
 
 ## Open workflow languages
 
 Hands on with CWL/WDL and jobrunners.
 
-**Prerequisites**
-
-* Sample data
 
 ## Command line workflow management systems: Snakemake, Cluster Flow, Bpipe
 
@@ -133,8 +150,4 @@ How to use workflow management systems that are designed for the command line, s
 ## Analysis of scRNA sequencing data
 
 How to analyze single cell RNA sequencing data, e.g. in [cellranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) or with dedicated R packages
-
-**Prerequisites**
-
-* TBD
 
