@@ -20,13 +20,24 @@ These are only examples.  If you think the communities would be interested in a 
 
 Nominated topics will be published on this page as they come in.
 
-**Topic Nominations close January 7.** Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community starting one week later.
+**Topic Nominations close January 12.** Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community starting one week later.
 
 # Nominated Topics
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of January 6, 2018 these topics have been nominated:
+As of January 7, 2018 these topics have been nominated:
+
+## 10. Galaxy Interactive Environments
+
+In this session you will get in-depth introduction to Interactive Environments (IE). You will learn how to setup and secure IE’s ([Jupyter](http://jupyter.org/), [RStudio](https://www.rstudio.com/), etc.) in a production Galaxy instance. Moreover, we will create an IE on-the-fly to get you started in creating your own Interactive Environments.In this session you will get an introduction to Interactive Environments (IE) as an easy and powerful way to integrate arbitrary interactive web services into Galaxy. We will demonstrate the [IPython Galaxy Project](https://github.com/bgruening/galaxy-ipython) and the general concept of IE’s.
+
+**Prerequisites:**
+
+* Basic understanding of Galaxy from a developer point of view.
+* General knowledge about Docker
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
 
 
 ## 9. GATK4
