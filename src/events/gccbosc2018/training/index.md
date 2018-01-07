@@ -28,6 +28,22 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 6, 2018 these topics have been nominated:
 
+
+## 9. GATK4
+
+1. Intro to GATK
+  - reminder of what GATK is about; purpose, variant calling for newbs, major file formats and so on
+2. What's new in GATK4 specifically
+  - new syntax/invocations, new engine capabilities, new scope of analysis, key improvements, tips & tricks.
+3. Options for running GATK -- hands-on 
+  - run  "straight up" on laptop (with Docker)
+  - run Spark tools on Google Dataproc
+  - run pipeline on Cromwell on laptop
+  - run pipeline on Google via Cromwell+Pipelines API (some scripty goodness)
+  - run pipeline on FireCloud in GUI (briefly)
+  - run pipeline on FireCloud via API + python bindings (lots of scripty goodness)
+  - run pipeline on Galaxy
+
 ## 8. Hi-C analysis in Galaxy
 
 This session will introduce the basics of chromosome conformation capture assays and their applications, followed by best practices in mapping, QC'ing, visualazing and assigning 'topological associated domains' with Hi-C data.
@@ -128,11 +144,6 @@ Running a production Galaxy server, you some times end up in a situation, where 
 ## Genome-wide sgRNA screen analysis using GALAXY
 
 Identify sgRNAs enriched in a screen with specific treatment.  Raw data processing, mapping, MAGeCK-VISPR.
-
-## GATK4
-
-Training and presentations on the new version of GATK.
-
 
 ## Open workflow languages
 
