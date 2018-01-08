@@ -137,7 +137,8 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td style=" text-align: center;"> 1:35-2:00 </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25649'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>
-    <td>  </td>
+    <td> [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2017-pag-gmod-community-update.pdf)
+  </td>
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>

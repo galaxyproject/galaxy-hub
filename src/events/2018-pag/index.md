@@ -47,6 +47,7 @@ Galaxy will be at [Plant and Animal Genome XXVI (PAG 2018)](http://www.intlpag.o
 |  | 5:50-6:10 | [Building a Bridge from the Tripal Community Database to Galaxy](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) | [Workshop: Galaxy: An Open Platform for Data Analysis and Integration](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), California Room |  | [Margaret Staton](http://gst.tennessee.edu/people/meg-staton/) |
 | **Wednesday, January 17** | 10:30-10:45 | [C25: Pirate: A Pipeline to Retrieve and Annotate Transposable Elements of Non-Model Organisms](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/29148) | [Digital Tools and Resources Session 4](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/5105), California Room | | Jérémy Berthelier |
 | | 11:05-11:25 | [Galaxy Community Update](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/31525) | [Workshop: GMOD](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806), Pacific Salon 4-5 |  |  [Dave Clements](/src/people/dave-clements/index.md) |
+| | 11:25-11:45 | [G-OnRamp: Collaborative Eukaryotic Genome Annotations with Galaxy and Apollo](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/31526) | [Workshop: GMOD](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806), Pacific Salon 4-5 |  |  Luke Sargent |
 
 ## Posters
 
