@@ -26,7 +26,19 @@ Nominated topics will be published on this page as they come in.
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of January 7, 2018 these topics have been nominated:
+As of January 8, 2018 these topics have been nominated:
+
+## 11. Workflow Description Language
+
+The advent of open, portable workflow languages is an exciting development which allows for the definition of a workflow to be decoupled from the execution. One can create workflows which can run unmodified on local compute, HPC clusters, or the cloud. As these languages are not tied to a specific execution environment, the descriptions can easily be shared, discovered and even composed together to form more complex workflows. The [Workflow Description Language](http://openwdl.org/) (WDL) is an open, community driven standard that is designed from the ground up as a human-readable and -writable way to express portable tasks and workflows.
+
+In this session we’ll walk through the lifecycle of writing, sharing and discovering portable workflows in WDL. We’ll introduce the WDL syntax. You’ll learn how to write and run a workflow locally. We’ll demonstrate how to use [EPAM’s Pipeline Builder tool](https://github.com/epam/pipeline-builder) to visualize WDL workflows. We’ll look at [Dockstore](https://dockstore.org/), an open platform where one can publish, share and discover workflows. Finally we’ll put everything together and see how we can compose workflows we find on Dockstore together with our own additions to create new, more powerful workflows.
+
+**Prerequisites:**
+
+* Mac or Linux computer
+* Java 8 installed and runnable from the command line
+* A workshop bundle downloaded from TBD
 
 ## 10. Galaxy Interactive Environments
 
