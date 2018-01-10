@@ -766,11 +766,21 @@ image: "/src/public-galaxy-servers/BioCiphersLandingPage300.png"
 user_support: 
 quotas: 
 sponsors: 
----```
+---
+```
 
 ## Redirects
 
-:chicken: When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
+- :hatching_chick: To automatically redirect an existing hub page to another URL, delete all page content and replace the header with
+
+   ```
+   ---
+   redirect: "new-url"
+   ---
+   ```
+   - `new-url` can be either an internal relative URL or point outside the hub. 
+
+- :chicken: When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
 
 # Edit a local copy on your laptop
 
