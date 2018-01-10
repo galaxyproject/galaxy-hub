@@ -28,6 +28,33 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 8, 2018 these topics have been nominated:
 
+## 12. Galaxy For Proteogenomics !
+
+Large-scale ‘omics’ data generation is driven by high throughput genome and transcriptome sequencing, and proteome characterization using mass spectrometry. As a result, many researchers are turning to generating integrative analysis of these ‘multi-omics’ datasets given the great potential to provide novel biological insights. These multi-omics applications are particularly challenging for data analysis, as they require the use of multiple, domain-specific software programs on scalable infrastructure capable of handling the computing and storage needs of this large-scale data.
+
+Galaxy has been shown to solve the problems of software integration and scalability for multi-omics analysis, and additionally offer benefits for sharing complete workflows in a user-friendly environment accessible by wet-bench scientists. In this workshop, we will introduce the use of Galaxy platform for multi-omics data analysis applications. As a representative example, we will focus on the maturing field of proteogenomic applications. Proteogenomics most commonly integrates RNA-Seq data, for generating customized protein sequence databases, with mass spectrometry-based proteomics data, which are matched to these databases to identify novel protein sequence variants. (*Cancer Res.* (2017); 77(21):e43-e46. [doi: 10.1158/0008-5472.CAN-17-0331](http://cancerres.aacrjournals.org/content/77/21/e43.long).) 
+
+*Workshop Content:* 
+
+The course will include a basic introduction to proteomics and will include a hands-on session that will cover use of analytical workflows to generate proteomic databases from RNASeq data. The use and understanding of modules for analytical workflows for proteogenomics analysis will be discussed.
+
+*Workshop Schedule:*
+
+* Introduction to multi-omic studies
+* RNASeq Data Processing: Generating protein sequence search databases using Galaxy platform
+* Hands-on session for proteomics data analysis using Galaxy
+* Identification of novel proteoforms and visualization
+    
+*Workshop Goals:*
+    
+* Introduce the Galaxy framework as a solution for data analysis across ‘omics’ domains
+* Demonstrate use of Galaxy for a proteogenomic analysis (RNA-seq and proteomic integrative analysis)
+* Lay the foundation for attendees to implement Galaxy at their own facility or institution to meet ‘omics’ data analysis and informatics needs
+
+**Prerequisites:**
+
+* Users will need laptop for hands-on training
+
 ## 11. Workflow Description Language
 
 The advent of open, portable workflow languages is an exciting development which allows for the definition of a workflow to be decoupled from the execution. One can create workflows which can run unmodified on local compute, HPC clusters, or the cloud. As these languages are not tied to a specific execution environment, the descriptions can easily be shared, discovered and even composed together to form more complex workflows. The [Workflow Description Language](http://openwdl.org/) (WDL) is an open, community driven standard that is designed from the ground up as a human-readable and -writable way to express portable tasks and workflows.
