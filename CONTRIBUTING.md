@@ -50,6 +50,11 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
     - [Public Galaxy Server metadata](#public-galaxy-server-metadata)
       - [Add a public server](#add-a-public-server)
       - [Server entry example metadata](#server-entry-example-metadata)
+  - [Redirects](#redirects)
+- [Edit a local copy on your laptop](#edit-a-local-copy-on-your-laptop)
+  - [Setup](#setup)
+  - [Generate  local website](#generate-local-website)
+  - [Handling of images](#handling-of-images)
   - [LFS Troubles?](#lfs-troubles)
 
 
@@ -771,14 +776,22 @@ sponsors:
 
 ## Redirects
 
-- :hatching_chick: To automatically redirect an existing hub page to another URL, delete all page content and replace the header with
+- :hatching_chick: To automatically redirect an existing hub page to another URL,
+  - replace the header with
 
-   ```
-   ---
-   redirect: "new-url"
-   ---
-   ```
-   - `new-url` can be either an internal relative URL or point outside the hub. 
+      ```
+      ---
+      redirect: "new-url"
+      ---
+      ```
+
+    - `new-url` can be either an internal relative URL or point outside the hub.
+     - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
+
+        ```
+        This tutorials index page has been merged with the new [Learn Galaxy](/learn/)
+hub page, please check there for up-to-date references to tutorials.
+        ```
 
 - :chicken: When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
 
