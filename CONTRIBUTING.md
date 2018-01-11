@@ -786,12 +786,12 @@ sponsors:
       ```
 
     - `new-url` can be either an internal relative URL or point outside the hub.
-     - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
+    - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
 
-        ```
-        This tutorials index page has been merged with the new [Learn Galaxy](/learn/)
-hub page, please check there for up-to-date references to tutorials.
-        ```
+      ```
+      This tutorials index page has been merged with the new [Learn Galaxy](/learn/)
+      hub page, please check there for up-to-date references to tutorials.
+      ```
 
 - :chicken: When deleting, consolidating, or renaming pages please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
 

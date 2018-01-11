@@ -13,7 +13,7 @@ contact: Arun Sethuraman, Dave Clements
 ---
 
 * **9:00-5:00**
-* **2101 [Social & Behavioral Sciences Building (SBSB)](https://www.myatlascms.com/map/?id=712&mrkIid=94176)**, room TBA.  Parking: [Map](https://www.myatlascms.com/map/?id=712&mrkIid=94176#!ce/14022?ct/9061,14177,14178,14416,14417,14419,14420,14421,14581,14582,14176,17112,14022), [Info](https://www.csusm.edu/parking/index.html)
+* **2101 [Social & Behavioral Sciences Building (SBSB)](https://www.myatlascms.com/map/?id=712&mrkIid=94176)**.  Parking: [Map](https://www.myatlascms.com/map/?id=712&mrkIid=94176#!ce/14022?ct/9061,14177,14178,14416,14417,14419,14420,14421,14581,14582,14176,17112,14022), [Info](https://www.csusm.edu/parking/index.html)
 
 * **[Register Now](http://bit.ly/gxy-csusm-2018-reg)**
 
