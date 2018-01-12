@@ -28,13 +28,13 @@ No programming or Linux command line experience is required.  A basic knowledge 
 | Time | Topic |
 | ----: | ---- |
 | 9:00 | **[Welcome]( https://depot.galaxyproject.org/hub/attachments/documents/presentations/2018-san-marcos.pdf):** Introductions, logistics, and background |
-| 9:30 | **[Galaxy with RNA-Seq, Part I](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html):** Introduce Galaxy using a hands-on RNA-Seq analysis example: Concepts, formats, and quality control |
+| 9:30 | **[Galaxy with RNA-Seq, Part I](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html):** Introduce Galaxy using a hands-on RNA-Seq analysis example: Concepts, formats, and quality control |
 | 10:45 | **Break** |
-| 11:00 | **[Galaxy with RNA-Seq, Part II](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html):** Mapping reads to genomes and splice junction calling
+| 11:00 | **[Galaxy with RNA-Seq, Part II](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html):** Mapping reads to genomes and splice junction calling
 | 12:20 | **Lunch** (catered)
-| 1:20 | **[Galaxy with RNA-Seq, Part III](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html):** Differential expression |
+| 1:20 | **[Galaxy with RNA-Seq, Part III](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html):** Differential expression |
 | 2:50 | **Break** |
-| 3:05 | **[Galaxy with RNA-Seq, Part IV](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html):** Creating reusable workflows |
+| 3:05 | **[Galaxy with RNA-Seq, Part IV](http://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html):** Creating reusable workflows |
 | 5:00 | **Done** |
 
 ## Registration
