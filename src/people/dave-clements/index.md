@@ -1,24 +1,16 @@
 ---
 title: Dave Clements
 ---
-<div class='right'>
-<table>
-  <tr>
-    <td style=" border: none; width: 20em;">  </td>
-  </tr>
-</table>
 
-</div>
-
-<div class='right'><br />![](/src/galaxy-team/Clements.jpg)</div>
+<img class="pull-right" src="/src/galaxy-team/Clements.jpg" />
 
 I work on the [Galaxy Project](http://galaxyproject.org) for [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)), where I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, wiki, and web presence.  I'm also hoping to touch the (Python!) code.
 
-Prior to working on Galaxy I ran the [http://gmod.org/wiki/GMOD Help Desk](http://gmod.org/wiki/GMOD Help Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. From 2007 through 2012 I telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) at the [University of Oregon](http://uoregon.edu).  (That was the first time I got to stay in the same office while changing employers!)  Since 2013 I have telecommuted from the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Geological Sciences](http://geology.uoregon.edu/), also at the University of Oregon. 
+Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD Help Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. From 2007 through 2012 I telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) at the [University of Oregon](http://uoregon.edu).  (That was the first time I got to stay in the same office while changing employers!)  Since 2013 I have telecommuted from the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Geological Sciences](http://geology.uoregon.edu/), also at the University of Oregon. 
 
 ## Details
 
-<table>
+<table class="table">
   <tr>
     <th> E-mail </th>
     <td> <a href="mailto:clements AT galaxyproject DOT org">clements AT galaxyproject DOT org</a> </td>
@@ -110,7 +102,7 @@ My pre-bioinformatics career included
 
 ### 2016
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -183,7 +175,7 @@ My pre-bioinformatics career included
 
 ### 2015
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -231,7 +223,7 @@ My pre-bioinformatics career included
 
 ### 2014
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -325,7 +317,7 @@ My pre-bioinformatics career included
 
 ### 2013
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
