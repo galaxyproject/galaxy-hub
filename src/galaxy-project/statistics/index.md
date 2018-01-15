@@ -447,6 +447,7 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
 | 2016-08-16 |          149 |          7,189 | 32,193 |
 | 2017-01-19 |          144 |          6,675 | 34,451 |
 | 2017-07-12 |          587 |          9,549 | 43,001 |
+| 2018-01-15 |          225 |          9,843 | 48,522 |
 
 
 ## Committers
@@ -458,7 +459,7 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
 | 2016-02-02 |           24 |            120 |    218 |
 | 2016-08-16 |           18 |            123 |    282 |
 | 2017-07-12 |           36 |            162 |    357 |
-
+| 2018-01-15 |           35 |            158 |    405 |
 
 ## Galaxy Clones
 
@@ -472,6 +473,7 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 | 2016-08-16 |  3,408 |            339 |
 | 2017-01-19 |  2,742 |            318 |
 | 2017-07-12 |  2.665 |            481 |
+| 2018-01-15 |  2,609 |            579 |
 
 # Tools
 
