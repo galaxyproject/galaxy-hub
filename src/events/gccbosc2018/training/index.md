@@ -18,6 +18,30 @@ If you see a topic with a brief description that you would like to expand on the
 
 As of January 15, 2018 these topics have been nominated:
 
+## 30. RNA-Seq Analysis in Galaxy
+
+This workshop will introduce the concepts behind transcriptomics with NGS data and how to analyze this data in Galaxy. Specifically, this workshop will focus on de novo transcriptome reconstruction of RNA-seq data with the following goals:
+
+* comprehensive identification of all transcripts across an experiment
+* appropriately annotating classes of transcripts
+* generating abundance estimates across a transcriptome
+* significance testing of differentially expressed transcripts
+* visualisation of reads and transcript structures
+
+**Prerequisites:**
+
+* a general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
+* a wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
+
+## 29. Galaxy 101 - A gentle introduction to Galaxy
+
+This workshop will focus on introducing the Galaxy user interface and how it can be used to analyze large datasets. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
+
+**Prerequisites:**
+
+* Little or no experience using Galaxy.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
+
 ## 28. The Galaxy Docker Project
 
 In this session you will learn the internals of the Docker Galaxy Image. We will show you tips and tricks on how to run the Galaxy Docker Image successfully in production, how to manage updates and how to bind the container to a cluster scheduler. Moreover, you will learn how to create your own Galaxy flavour mixing a variety of different tools and visualisations.
