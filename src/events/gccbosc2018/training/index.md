@@ -4,29 +4,72 @@
 
 **[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
 
-The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and *the training topics that will be offered **are determined by you***. Please take a few minutes to consider which training topics you would like to see offered at GCCBOSC2018. Any topics of interest to these communities can be nominated. 
+The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and *the training topics that will be offered **are determined by you***. Please take a few minutes to consider which training topics you would like to see offered at GCCBOSC2018. 
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  
 
-Nominated topics can cover a wide range. For example:
+**Topic Nominations closed January 12.** Nominated topics are listed below.
 
-- How to use open source software using just a web browser (e.g., Intro to Using Galaxy) 
-- How to use software packages (The Newbie's Guide to BioRuby)
-- Advanced applications of software (Genome Assembly with Galaxy, or Proteomics with BioPython)
-- Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)
-- Open source community (Building a Curation Community using Apollo, or Training using the Galaxy Training Network)
-
-These are only examples.  If you think the communities would be interested in a topic, then please  [nominate it](http://bit.ly/gccbosc2018-tr-nom)!
-
-Nominated topics will be published on this page as they come in.
-
-**Topic Nominations close January 12.** Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community starting one week later.
+Topics will be recompiled into a uniform list by the GCCBOSC2018 organizers, posted here, and then voted on by the community starting one week later.
 
 # Nominated Topics
 
-Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
+If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
 As of January 15, 2018 these topics have been nominated:
+
+## 28. The Galaxy Docker Project
+
+In this session you will learn the internals of the Docker Galaxy Image. We will show you tips and tricks on how to run the Galaxy Docker Image successfully in production, how to manage updates and how to bind the container to a cluster scheduler. Moreover, you will learn how to create your own Galaxy flavour mixing a variety of different tools and visualisations.
+
+**Prerequisites**
+
+* Basic understanding of Galaxy from a developer point of view.
+* General knowledge about Docker
+* Familiarity with Unix command line and text editors"
+
+## 27. Building a Community Genome Database with Tripal v3
+
+Tripal v3 is the newest version of a popular and open source genomics website construction software. Using Docker containers, we will install a Tripal v3 site (including Apache, PostGreSQL, and Drupal), to create an empty genome database and site. We will review how to load many data types used by many of the core and extension Drupal modules, including organisms, analyses, genes and genomes, functional annotations and controlled vocabularies. We will provide credits on the XSEDE cloud system Jetstream for this training, so students can follow along on their own laptops.
+
+**Prerequisites:**
+
+* Linux command line.
+
+## 26. Adding Galaxy Workflows to a Tripal Website
+
+Learn to integrate two popular and widely adopted open source GMOD tools: Tripal, a content management system for building community genome websites, and Galaxy, a web-based workflow engine for biological data analysis. The new Tripal-to-Galaxy bridge allows users of community databases to select pre-designed workflows for common analyses and upload their own data or utilize site data as input. We will also use new R Markdown wrapped Galaxy tools (Aurora Galaxy Tools) to construct HTML reports summarizing and visualizing the workflow output.
+
+**Prerequisites**
+
+* Familiarity with Galaxy user interface and basic Galaxy server administration. 
+
+## 25. Setting up a Galaxy instance as a service
+
+In this workshop, you will learn what is important when you set up a Galaxy server from scratch, what are the pitfalls you might run into, how to interact with the potential users of the service you gonna offer, and how to make sure, the Galaxy instance you have set up is really used in the end. After a general introduction, several Galaxy installations are presented. The session will include some demonstrations and hands-on exercises. We will finish with a panel discussion, where we intend to discuss questions from the workshop participants.
+
+**Prerequisites:**
+
+* Familiar with the Bioinformatics problems (and their solutions) that wet lab scientists run into.
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+
+## 24. Galaxy for Power Users
+
+Learn new tricks to optimize your research.
+
+- scratch-book
+- (propagating) tags
+- history searching and filtering 
+- collections and lists
+- post-job triggers
+- data libraries
+- (hierarchical ) upload to collections
+- other QoL tricks
+
+**Prerequistes:**
+
+* At least attendance of Galaxy 101.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
 
 ## 23. Setting up for success: Everything you need to know when planning for an RNA-seq analysis
 
