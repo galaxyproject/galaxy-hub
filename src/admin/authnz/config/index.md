@@ -1,0 +1,3 @@
+---
+title: OpenID Connect configuration
+---
