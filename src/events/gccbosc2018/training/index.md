@@ -28,6 +28,17 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 8, 2018 these topics have been nominated:
 
+## 13. Community built analyses that run everywhere with bcbio
+
+**[bcbio](http://bcb.io/)** is community built analyses for germline and somatic
+variant calling, RNA-seq, single cell, smallRNA and ChIP-seq. This workshop
+will focus on using bcbio to run analysis pipelines in heterogenous
+environments -- local machines, HPC, cloud providers and commercial services
+(and also hopefully Galaxy). Attendees will learn how to practically run their
+analyses on their platform of choice, while discussing how the community can
+contribute to building, sharing and maintaining workflows across multiple
+platforms. Recent presentations of bcbio show [some of the topics we plan to cover](http://bcbio-nextgen.readthedocs.io/en/latest/contents/presentations.html#presentations).
+
 ## 12. Galaxy For Proteogenomics !
 
 Large-scale ‘omics’ data generation is driven by high throughput genome and transcriptome sequencing, and proteome characterization using mass spectrometry. As a result, many researchers are turning to generating integrative analysis of these ‘multi-omics’ datasets given the great potential to provide novel biological insights. These multi-omics applications are particularly challenging for data analysis, as they require the use of multiple, domain-specific software programs on scalable infrastructure capable of handling the computing and storage needs of this large-scale data.
