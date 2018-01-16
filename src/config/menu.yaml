@@ -1,81 +1,77 @@
 # This file describes the menu layout
 ---
-- Communicate:
-  title: Communicate
+- Use:
+  title: Use
   links:
-      - News:
-        title: News
-        link: news
+      - Main:
+        title: Main Galaxy
+        link: main
+      - Servers:
+        title: Public Servers
+        link: public-galaxy-servers
+      - Cloud:
+        title: Cloud
+        link: cloud
+- Community:
+  title: Community
+  links:
+      - Community:
+        title: About
+        link: community
       - Events:
         title: Events
         link: events
-      - Support:
-        title: Support
-        link: support
-      - Biostar:
-        title: Biostar
-        link: https://biostar.usegalaxy.org
-- Using Galaxy:
-  title: Using Galaxy
-  link: UsingGalaxy
+      - News:
+        title: News
+        link: news
+      - Blog:
+        title: Blog
+        link: blog
+      - Publications:
+        title: Publications
+        link: publication-library
+      - Project Stats:
+        title: Stats
+        link: galaxy-project/statistics
+- Education:
+  title: Education
   links:
-      - Servers:
-        title: Servers
-        link: PublicGalaxyServers
       - Learn:
-        title: Learn
-        link: Learn
-      - Main:
-        title: Main
-        link: Main
-      - Choices:
-        title: Choices
-        link: BigPicture/Choices
-      - Tutorials:
-        title: Support
-        link: support
-- Galaxy Project:
-  title: Galaxy Project
-  links:
-      - About:
-        title: About
-        link: GalaxyProject
-- Deploy:
-  title: Deploy Galaxy
-  links:
-      - Get Galaxy:
-        title: Get Galaxy
-        link: Admin/GetGalaxy
-      - Cloud:
-        title: Cloud
-        link: Cloud
-      - Administration:
-        title: Admin
-        link: Admin
-      - Tool Config:
-        title: Tool Config
-        link: Admin/Tools/ToolConfigSyntax
-      - Tool Shed:
-        title: Tool Shed
-        link: ToolShed
-- Contribute:
-  title: Contribute
-  links:
-      - Develop:
-        title: Develop
-        link: Develop
-      - Tools:
-        title: Tools
-        link: Tools
-      - Issues & Requests:
-        title: Issues & Requests
-        link: Issues
-      - Logs:
-        title: Logs
-        link: Community/Logs
-      - Deployments:
-        title: Deployments
-        link: Community/Deployments
+        title: Learn Galaxy
+        link: learn
       - Teach:
         title: Teach
-        link: Teach
+        link: teach
+      - GTN:
+        title: Training Network
+        link: teach/gtn
+- Deploy:
+  title: Deploy & Develop
+  links:
+      - Install:
+        title: Get Galaxy
+        link: admin/get-galaxy
+      - Administer:
+        title: Administration
+        link: admin
+      - docs:
+        title: Documentation
+        link: docs
+      - Tools:
+        title: Tools
+        link: tools
+      - Codebase:
+        title: Development
+        link: develop
+      - api:
+        title: API
+        link: develop/api
+- Support:
+  title: Support
+  links:
+      - Support:
+        title: Hub
+        link: support
+      - Biostar:
+        title: Galaxy Biostar
+        link: support/biostar

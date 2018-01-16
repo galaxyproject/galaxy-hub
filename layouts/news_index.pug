@@ -1,18 +1,24 @@
-
 extends layout.pug
 
 block content
+    div.col-md-12
+        section.section-content
+            h1 !{ title }
+            div !{ contents }
 
-    div.row !{ contents }
-
-    each item in news
-        p.row
-            a( href=item.link ) #{item.title} 
-            if item.tease
-                br
-                | !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}       
-            br
-            small 
-                if item.author
-                    | Posted by #{item.author} on 
-                | #{helpers.moment(item.date).format("MMMM Do YYYY")}
+            table.table.table-striped
+                tbody
+                    each item in news
+                        tr
+                            td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                            td: a( href=item.link ) #{item.title}
+                            td: p.small
+                                if item.tease
+                                    | #{item.tease}
+                                else
+                                    | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
+            h2(id="add-news-item") Adding a news item
+            p
+                | To add a news item, create a new folder in 
+                a(href="https://github.com/galaxyproject/galaxy-hub/tree/master/src/news") https://github.com/galaxyproject/galaxy-hub/tree/master/src/news
+                |  with an 'index.md' file.  It's probably easiest to copy the format from one of the other existing news items.

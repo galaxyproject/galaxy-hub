@@ -1,68 +1,30 @@
-# Galaxy Community Hub
+# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
 
-Source for the [Galaxy Community Website](https://new.galaxyproject.org/). This
-is a static website built using [metalsmith][1].
+Source for the [Galaxy Hub Website
+(galaxyproject.org)](https://galaxyproject.org/).  The Galaxy Hub is the
+community and documentation hub for the Galaxy Project.  It is maintained by
+the community through this GitHub repository.  It is a static website built
+using the [metalsmith](http://www.metalsmith.io/) static site generator.
 
-## Editing the site
+Interested in contributing?  To get started all you need is a GitHub account
+and a basic understanding of GitHub and Markdown.  See
+[CONTRIBUTING.md](CONTRIBUTING.md) for more.
 
-The site content is formatted using
-[Markdown](https://en.wikipedia.org/wiki/Markdown). To edit the content on the
-live Galaxy project site, just edit the corresponding file in this repository.
-The content for the pages is stored under the `src` directory and the
-directories map directly onto the URLs.
+## About the Galaxy Project.
 
-You can contribute by simply editing the source page in question via the GitHub
-web editor. For most people, this will create a pull request that will
-then get reviewed and merged. After the merge, the content will be live on the
-website within a few minutes. Alternatively, you can edit the file locally
-(see below).
+We could describe it here, but really, see the web site that is generated from
+this repository: [galaxyproject.org](https://galaxyproject.org).  That will
+save a lot of typing.
 
-## Installing the site locally
+## Should I access the Galaxy Hub website through GitHub or  galaxyproject.org?
 
-To edit and run the site locally, start by creating a fork of this
-repository. Before you clone your fork locally, make sure to
-[install git-lfs](https://packagecloud.io/github/git-lfs/install) because
-that's what we use for [managing images](#handling-of-images).
+The only reason to navigate through the GitHub is if you are making updates to
+the web site (see [CONTRIBUTING.md](CONTRIBUTING.md)).  If you just want to
+read and explore the web site, then you should absolutely do that through
+[galaxyproject.org](https://galaxyproject.org).  The site is not quite rendered
+correctly in the GitHub web site: it is missing some magic metalsmith,
+Bootstrap, and Font Awesome bits that are added when the site is generated.
 
-Once cloned, to build the website (into the `build` directory), run:
+## Finally,
 
-```
-make build
-```
-
-To serve the site locally, on port 8080, run:
-
-```
-make serve
-```
-
-Please see the Makefile for more information and options, including the ability
-to use a Docker-based node binary identical to what we use to build and publish
-the final build artifacts. If you would like to learn more about how it all
-goes together, feel free to browse the build targets in the Makefile, or the
-metalsmith build process, which is defined in `build.coffee`.
-
-## Handling of images
-
-Handling of image files is done using [git-lfs](https://git-lfs.github.com/).
-If you want to add new images, make sure you have
-[installed git-lfs](https://packagecloud.io/github/git-lfs/install) and run
-
-```
-git lfs install
-```
-
-From here, everything else should work as expected with standard git commands.
-You `add` and `commit` your changes and images, while git-lfs handles
-everything automatically. Currently, `png` and `jpg` are recognized by git-lsf.
-To track other types of images, edit `.gitattributes` file.
-
-Image files that are local to a page should be placed in the directory with the
-page content. Image files that are likely to be reused by multiple pages can be
-placed in an appropriate directory under `/src/images`.
-
-If you have not installed git-lfs before cloning the repository and local
-images have no content, just run `git lsf pull`.
-
-
-[1]: http://www.metalsmith.io/
+Thanks for using Galaxy!

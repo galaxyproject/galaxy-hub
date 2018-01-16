@@ -1,25 +1,67 @@
 extends layout.pug
 
-block section
+
+mixin renderSplash(item)
+   h1.display-3 !{item.title}
+   p.lead !{item.contents}
+
+
+block content
     section.section-content
+        div.row#splash-row
+            div.col-sm-12
+                div.carousel.slide(data-ride="carousel" id="splash-box")
+                    ol.carousel-indicators
+                        each item, index in splash
+                            li(data-target="#splash-box" data-slide-to=`${index}`)
+                    div.carousel-inner(role="listbox")
+                        each item, index in splash
+                            div.item.carousel-item.jumbotron
+                                +renderSplash(item)
+                    a.left.carousel-control(href="#splash-box" role="button" data-slide="prev")
+                        span.icon-prev(aria-hidden="true")
+                        span.sr-only: Previous
+                    a.right.carousel-control(href="#splash-box" role="button" data-slide="next")
+                        span.icon-next(aria-hidden="true")
+                        span.sr-only: Next
         div.row
-            div.col-sm-12 !{ contents }
-        div.row
-            div.col-sm-6
-                h2 News
-                each item in news.slice(0,5)
+            div.col-sm-4
+                h2: a( href="/news/" ) News
+                each item in news.slice(0,3)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
-                p: a( href="/news/" ) More...
-
-            div.col-sm-6
-                h2 Events
-                each item in events.slice(0,5)
+                h2: a( href="/blog/" ) Blog
+                each item in blog.slice(0,2)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
-                p: a( href="/events/" ) More...
 
+            div.col-sm-4
+                h2: a( href="/events/" ) Events
+                - var events_counter = 0
+                each item in events.slice().reverse()
+                    if events_counter < 5 && item.date != undefined && helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                        - events_counter += 1
+                        p
+                            if item.external_url
+                                a( href=item.external_url ) #{item.title}
+                                if item.contents != ''
+                                    |  [
+                                    a( href=item.link )
+                                        | hub page
+                                    | ]
+                            else
+                                a( href=item.link ) #{item.title}
+                            if item.tease
+                                |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+
+            div.col-sm-4
+                div#twitter_timeline( style="height:400px" )
+                    h2
+                        a(href="http://twitter.com/galaxyproject") @galaxyproject
+                        a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
+                    script(type='text/javascript').
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
