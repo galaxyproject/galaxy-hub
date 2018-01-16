@@ -28,6 +28,23 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 15, 2018 these topics have been nominated:
 
+## 22. Introduction to Common Workflow Language
+
+Common Workflow Language  (http://commonwl.org) is a standard for writing portable scientific workflows that can execute on a variety of compute environments and workflow systems.
+
+* What is CWL, history
+* Status of CWL implementations (Arvados, Toil, Rabix, Galaxy, Cromwell, cwtool, ...)
+* Wrapping bioinformatics tools in CWL
+* Connecting tools together into workflows
+* Best practices for writing portable workflows
+* Hands on "bring your own pipeline" session
+* Q&A on advanced topics based on audience
+
+**Prerequisites**
+
+* Unix command line experience
+* Experience with Docker
+
 ## 21. Administration of Galaxy Infrastructures with Puppet
 
 Administering Galaxy infrastructures can be a daunting task. Configuration management allows one to implement infrastructure using code as opposed to checklists and HowTo guides in order to have reliable installations and the ability to replicate an installation. 
@@ -307,10 +324,6 @@ Running a production Galaxy server, you some times end up in a situation, where 
 ## Genome-wide sgRNA screen analysis using GALAXY
 
 Identify sgRNAs enriched in a screen with specific treatment.  Raw data processing, mapping, MAGeCK-VISPR.
-
-## Open workflow languages
-
-Hands on with CWL/WDL and jobrunners.
 
 
 ## Command line workflow management systems: Snakemake, Cluster Flow, Bpipe
