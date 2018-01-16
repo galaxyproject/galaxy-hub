@@ -26,7 +26,31 @@ Nominated topics will be published on this page as they come in.
 
 Topics are posted here as they are nominated.  If you see a topic with a brief description that you would like to expand on then please send an email to outreach@galaxyproject.org.
 
-As of January 8, 2018 these topics have been nominated:
+As of January 15, 2018 these topics have been nominated:
+
+## 15. Data Carpentry Genomics Workshop: Data Organization and Automation with Shell
+
+The goal of this **one-day** tutorial is to teach participants the fundamental data management and analysis skills and needed to conduct genomics research including: best practices for organization of bioinformatics projects and data as well as use of command line utilities for managing large volumes of genomic data. This tutorial is derived from the Data Carpentry Genomics Workshop, focused on the organization and intro to command line lessons. The tutorial uses active learning and hands-on practice to teach participants the skills and perspectives needed to work effectively with genomic data. Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain.
+
+Lessons:
+
+* http://www.datacarpentry.org/organization-genomics/
+* http://www.datacarpentry.org/shell-genomics/
+
+The tutorial assumes no prior experience with the tools covered. However, learners are expected to have some familiarity with biological concepts, including nucleotide abbreviations. Participants should bring their laptops and plan to participate actively.
+
+**Prerequisites**
+
+* None
+
+## 14. Small genome de novo assembly using Galaxy
+
+Workshop will cover the basics of de novo genome assembly using a small genome example. This includes project planning steps, selecting fragment sizes, initial assembly of reads into fully covered contigs, and then assembling those contigs into larger scaffolds that may include gaps. The end result will be a set of contigs and scaffolds with sufficient average length to perform further analysis on, including genome annotation. This workshop will use tools and methods targeted at small genomes. The basics of assembly and scaffolding presented here will be useful for building larger genomes, but the specific tools and much of the project planning will be different.
+
+**Prerequisites**
+
+* Galaxy 101
+* A wifi enabled laptop with a web browser
 
 ## 13. Community built analyses that run everywhere with bcbio
 
