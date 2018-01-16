@@ -1,16 +1,18 @@
 @import "bower_components/bootstrap/less/bootstrap.less";
 
-@font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif: Charter, Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 
-@headings-font-family: @font-family-serif;
+@headings-font-family: @font-family-sans-serif;
 @headings-font-weight: 300;
 
 @font-family-base: @font-family-sans-serif;
 
-@font-size-base: 16px;
-@line-height-base: 1.8;
-@headings-line-height: 1.4;
+@font-size-base: 14px;
+@line-height-base: 1.6;
+@headings-line-height: 1.6;
 
 @font-size-h1:            floor((@font-size-base * 1.8)); // ~36px
 @font-size-h2:            floor((@font-size-base * 1.6)); // ~30px
@@ -22,12 +24,23 @@
 @brand-primary: #336699;
 @headings-small-color: inherit;
 
-@body-bg: @gray-dark;
+@body-bg: white;
 @navbar-default-bg: rgb(255,255,255);
+@navbar-default-border:none;
+@navbar-padding-horizontal: 10px;
 
+@navbar-inverse-bg: rgb(44, 49, 67);
+
+@grid-float-breakpoint: 1000px;
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
-    background: white;
+    margin-bottom: 60px;
 }
 
 aside {
@@ -35,52 +48,48 @@ aside {
     z-index: 1500 !important;
 }
 
-a, a:hover {
-    text-decoration: none;
+.container-fluid {
+    max-width: 1200px;
 }
 
-#logonav {
-    background: rgb(44, 49, 67);
-    margin:0;
-
-    div.logo {
-        padding: 15px 15px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1005;
-
-        a {
-            display: block;
-            background: url('/images/galaxy_logo_white.svg') no-repeat top;
-            height:100px;
-            text-indent:100%;
-            white-space: nowrap;
-            overflow: hidden;
-        }
-    }
-
-    h1 {
-        color: white !important;
-        margin: 30px 0 0 0;
-        line-height: 1.1em;
-
-        span.small {
-            display: block;
-            line-height: 1em;
-        }
-    }
+.navbar-brand {
+    padding: 6px 15px;
 }
 
-#topnavbar.affix {
-    top: 0;
+.navbar-static-bottom {
+  @extend .navbar-fixed-bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#maincontainer {
+    background: white;
+    padding-top: 70px;
+    a {
+        color: #2882dc;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    code {
+        color: black;
+        background-color: #f5f5f5;
+    }
+    pre {
+        border: none;
+    }
 }
 
 #sidebar {
-    h4 {
-        padding-left: 5px;
-        padding-right: 5px;
+    a {
+      padding: 2px 15px;
     }
+    & > ul > li > a { font-weight: bold; }
+    & > ul ul > li > a { padding-left: 30px; }
+    & > ul ul ul > li > a { padding-left: 45px; }
+    & > ul ul ul ul > li > a { padding-left: 60px; }
 }
 
 #edit_page {
@@ -102,44 +111,25 @@ div.post {
 }
 
 footer {
-        font-size: 85%;
-        padding-top: 48px;
-        padding-bottom: 48px;
-        background: rgb(44, 49, 67);
-        text-align: center;
-        color: @gray-lighter;
-        a {
-            color: @gray-dark;
-        }
+    font-size: 85%;
 }
 
 /* Custom CSS for Galaxy wiki doc
    Most of this was initially copied from old wiki
-   https://wiki.galaxyproject.org/moin_static198/mandaring/style.custom.css
+   https://moin.galaxyproject.org/moin_static198/mandaring/style.custom.css
 
    Classes should probably stay the same.
    Setting for classes can change quite a bit.
 */
 
+/* override bootstrap blockquote styling */
 
-/* ******
-   Make stuff look better
-   ******/
-
-table {
-    margin-left: auto;
-    margin-right: auto;
+blockquote {
+    font-size: 14px;
 }
 
-table, th, td {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #dddddd;
-} 
 
-th, td {
-    padding: 0.2em;
-}
+
 
 
 /* *******
@@ -186,24 +176,34 @@ div.indent {
     text-align: center;
 }
 
-
-
 /* Link Boxes are like infobox's at wikipedia.  They are a list of links, in a box. */
 div.linkbox {
     float: right;
     margin: 0 0 0.5em 0.5em;
     padding: 0 0.5em 0.5em 0.5em;
-    border: 1px solid gray;
-    background-color: #2C3143;
-    color: white;
+    border: 1px solid #ddd;
+    background-color: #DFE5F9;
     font-size: 90%;
     text-align: center;
 }
 
 div.linkbox hr {
     padding: 0;
-    margin: 0.25em 0 0 0;
-    background-color: #fff;
+    margin: 0 0 0 0;
+    color: #bbb;
+    border: 1px solid #ddd;
+    background-color: #bbb;
+    border-color: #bbb;
+    text-align: center;
+}
+
+div.linkbox-horizontal {
+    margin-bottom: 15px;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #EFEFF9;
+    text-align: center;
 }
 
 div.linkbox p {
@@ -212,11 +212,9 @@ div.linkbox p {
 }
 
 div.linkbox a:link {
-    color: white;
 }
 
 div.linkbox a:visited {
-    color: #d8d8d8;
 }
 
 
@@ -279,8 +277,68 @@ div.linkbox a:visited {
     color: #ddd;
 }
 
+// splashpage carousel styling
+@jumbotron-bg: white;
+@carousel-indicator-border-color: gray;
+@carousel-indicator-active-bg: @navbar-inverse-bg;
+@carousel-control-width: 5%;
+#splash-box {
+    .carousel-item, .carousel-inner {
+        height:420px;
+    }
+    .carousel-control.left, .carousel-control.right {
+        background-image: none
+    }
+}
+.carousel .carousel-control {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control {
+    visibility: visible;
+}
 
+h1.pageTitle {
+    margin-top: 0px;
+}
 
-
-
-
+/* headingsidentifier */
+.heading-anchor {
+  display: block;
+  padding-right: 6px;
+  padding-left: 20px;
+  margin-left: -20px;
+  cursor: pointer;
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  height: 100%;
+  background: transparent;
+  vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6 {
+  position: relative;
+}
+h1:hover .heading-anchor span:before,
+h2:hover .heading-anchor span:before,
+h3:hover .heading-anchor span:before,
+h4:hover .heading-anchor span:before,
+h5:hover .heading-anchor span:before,
+h6:hover .heading-anchor span:before {
+  content: "\f0c1"; // fa-chain fa-link
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 14px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+h1:hover .heading-anchor span:before{
+  top: 8px;
+}
+h4:hover .heading-anchor span:before,
+h5:hover .heading-anchor span:before,
+h6:hover .heading-anchor span:before{
+  font-size: 12px;
+}

@@ -1,0 +1,71 @@
+extends layout.pug
+
+mixin renderEventRow(item)
+    tr
+        td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+        td
+            if item.external_url
+                a( href=item.external_url ) #{item.title}
+                if item.contents != ''
+                    |  [
+                    a( href=item.link )
+                        | hub page
+                    | ]
+            else
+                a( href=item.link ) #{item.title}
+        td
+            if item.continent
+                img(style="float:right;" src='/images/icons/' + item.continent + '.png')
+            if item.location_url
+                a(href=item.location_url)
+                    | #{item.location}
+            else
+                | #{item.location}
+
+        td
+            if item.gtn
+                a( href="/teach/gtn/" )
+                    img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+            | #{item.contact}
+
+block content
+    - var events_malleable = events.slice().reverse()
+    div.col-md-12
+        section.section-content
+            h1 !{title}
+            div !{ contents }
+
+            h2 Upcoming Events
+            table.table.table-striped
+                thead
+                    tr
+                        th Date
+                        th Topic/Event
+                        th Venue/Location
+                        th Contact
+                tbody
+                    each item in events_malleable
+                        if item.date != undefined
+                            if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                                +renderEventRow(item)
+            h2 Past Events
+            table.table.table-striped
+                thead
+                    tr
+                        th Date
+                        th Topic/Event
+                        th Venue/Location
+                        th Contact
+                tbody
+                    each item in events_malleable.reverse()
+                        if item.date != undefined
+                            if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                                +renderEventRow(item)
+
+            h2 Other Calendars
+            ul
+                li: a(href="http://iann.pro/iannviewer") iAnn Events Calendar
+                li: a(href="http://blueseq.com/knowledgebank/ngs-conferences-and-meetings/") BlueSEQ NGS Conferences and Meetings List
+                li: a(href="http://www.embo.org/events/calendar.html") EMBO Events Calendar
+                li: a(href="http://www.iscb.org/iscb-conference-events") International Society for Computational Biology Calendar
+                li: a(href="http://www.genomeweb.com/eventlisting") GenomeWeb Events Listing
