@@ -28,6 +28,84 @@ Topics are posted here as they are nominated.  If you see a topic with a brief d
 
 As of January 15, 2018 these topics have been nominated:
 
+## 21. Administration of Galaxy Infrastructures with Puppet
+
+Administering Galaxy infrastructures can be a daunting task. Configuration management allows one to implement infrastructure using code as opposed to checklists and HowTo guides in order to have reliable installations and the ability to replicate an installation. 
+
+Building off of the work started at the GCC2017 Hackathon, this training will introduce the idea of using puppet for configuration management of systems using existing puppet code and other open source tools available that augment puppet. This session requires no prior experience with puppet or other configuration management tools. 
+
+**Prerequisites:**
+
+* You have setup a Galaxy instance before…  maybe.
+* Knowledge and comfort with the Unix/Linux command line interface and use of a text editor.
+* A CentOS 7 virtual machine that is setup has at a minimum the Infrastructure Server group installation type.
+* No Puppet, Chef, or Ansible experience is required.
+
+## 20.  Conda and Containers
+
+This workshop is aimed at people with some desire to develop dependencies for tools (either Galaxy or Common Workflow Language (CWL) tools).
+
+We believe the best practice for declaring dependencies for either Galaxy or the CWL is using Conda and Bioconda. Conda is a cross platform package manager that has minimal requirements to use which makes it ideal for HPC. It can also build isolated environments ideal for platforms like Galaxy or CWL implementations. The Bioconda project is a set of Conda recipes for bioinformatics. The BioContainers project builds best practice containers automatically for all Bioconda recipes, so building a BioConda recipe for a package allows the same binaries to be used by both Galaxy (inside or outside a container) and by any conformant CWL implementation.
+
+We will go through the process of creating, testing, and publishing a Bioconda package and we will work through an example of connecting these packages to a real world tool. Participants will be able to work through the examples using either Galaxy or CWL tools.
+
+**Prerequisites**
+
+* Some knowledge of tool development - either CWL or Galaxy.
+
+## 19. Advanced accelerated Galaxy admin
+
+A compressed top level review of the advanced parts of the weeklong Galaxy Administrators Course delivered multiple times in the past 2 years. Given the size of the scope of this topic we will be explaining advanced concepts, pointing out resources and providing guidance, tips, and tricks rather than going through the exercises and into details.
+
+* Introduction to Galaxy admin: Setting up a Galaxy instance as a service, or equivalent experience
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+
+## 18. Advanced customisation of a Galaxy instance
+
+Do you have your lab's Galaxy instance set up and configured but want to give it some more love without diving too deep into the code? This training will show you step by step how to modify some advanced but not complex parts of the installation. We will teach you how to:
+
+* modify the menu
+* prepare a custom tour
+* adjust the graphical interface
+* translate the UI labels to different language
+* set up a built-in user/group chat
+* write and activate interface webhooks 
+
+**Prerequisites**
+
+* Introduction to Galaxy admin: Setting up a Galaxy instance as a service, or equivalent experience
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## 17. Galaxy Architecture
+
+Want to know the big picture about what is going on inside Galaxy? This workshop will give participants a practical introduction to the Galaxy code base with a focus on changing those parts of Galaxy most often modified by local deployers and new contributors.
+
+The workshop will include the following specific content:
+
+* A description of the various file and top-level directories in the Galaxy code base.
+* An overview of important Python modules - including models, tools, jobs, workflows, visualisations, and API controllers.
+* An overview of important Python objects and concepts in the Galaxy codebase - including the Galaxy transaction object ("trans"), the application object ("app") , and the configuration object ("config").
+* An overview of various plugin extension points. - An overview of important JavaScript modules that power the front-end.
+* An overview of important JavaScript concepts used by Galaxy - in particular Backbone MVC, Webpack, ES6, and Vue.
+* An overview of the client build system used to generate compressed JavaScript, cascading stylesheets, and other static web assets. 
+* A demonstration of a complete start-to-finish modification of Galaxy - including forking the project on Github, modifying files, running the tests, checking style guidelines, committing the change, pushing it back to your local Github fork, and opening a pull request. 
+* A brief description of other projects in the Galaxy ecosystem (CloudMan, the Tool Shed, Ephemeris, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
+
+**Prerequisites:**
+
+* Your interest.
+
+## 16. Writing & Publishing Galaxy Tools
+
+This session will walk developers and bioinformaticians through the process of taking a working script or application and turning it into a Galaxy tool. It will also cover the basics of using Planemo: a command-line utility to assist in building and publishing Galaxy tools. We will investigate wrapping, common parameters, tool linting, best practices, loading tools into Galaxy, citations, and publishing tools to Github and the Galaxy Tool Shed. Common tips and tricks will be discussed as well as insights from experienced tool developers.
+
+**Prerequisites:**
+
+* A general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what commands like cd, mv, rm, mkdir, chmod, grep can do then you will struggle in this workshop.
+* A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best.
+
 ## 15. Data Carpentry Genomics Workshop: Data Organization and Automation with Shell
 
 The goal of this **one-day** tutorial is to teach participants the fundamental data management and analysis skills and needed to conduct genomics research including: best practices for organization of bioinformatics projects and data as well as use of command line utilities for managing large volumes of genomic data. This tutorial is derived from the Data Carpentry Genomics Workshop, focused on the organization and intro to command line lessons. The tutorial uses active learning and hands-on practice to teach participants the skills and perspectives needed to work effectively with genomic data. Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain.
