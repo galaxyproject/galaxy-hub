@@ -37,7 +37,7 @@ At the moment, we support login to Galaxy using identities defined on Google (an
     
     ![image](/src/admin/authnz/gdc_create_credentials.png)
     
-    2. For _Authorized redirect URIs_ field, you need to enter your instance’s OIDC redirect URI which is in the following structure:
+    2. For _Authorized redirect URIs_ field, you need to enter your instance’s OIDC redirect URI which is in the following template:
     
            <base>/authnz/<provider>/callback
        
@@ -52,4 +52,20 @@ At the moment, we support login to Galaxy using identities defined on Google (an
     ![image](/src/admin/authnz/gdc_result.png)
     
         
+## Configure Galaxy
+
+1. In the `galaxy.ini` file set the OIDC configuration as the following: 
+
+       enable_oidc = True
+       oidc_config_file = config/oidc_config.xml
+       oidc_backends_config_file = config/oidc_backends_config.xml
+       
+2. Create `config/oidc_config.xml` file (you may use the `config/oidc_config.xml.sample` file as reference). For common application scenarios, the default settings as are in the sample file should be adequate.
+
+3. Create `config/oidc_backends_config.xml` file (you may use the `config/oidc_backends_config.xml.sample` file as reference), and update the file as it follows: 
+    1. Make sure the the provider name is `Google` (i.e., `<provider name="Google">`);
+    2. Set the value of `client_id` and `client_secret` to the ID and secret obtained from Google in the previous step (i.e., step: `4.iii`);
+    3. Set `redirect_uri` to the URI provided to Google (e.g., `http://localhost:8080/authnz/google/callback`). 
     
+    
+
