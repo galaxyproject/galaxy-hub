@@ -17,6 +17,8 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Bronze Sponsors
 
+[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="200" />](https://peerj.com/)
+
 # CollaborationFest Sponsors
 
 ## Peta Sponsors
