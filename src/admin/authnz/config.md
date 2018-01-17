@@ -54,6 +54,8 @@ At the moment, we support login to Galaxy using identities defined on Google (an
         
 ## Configure Galaxy
 
+Take the following steps to configure your Galaxy instance to leverage the OIDC IdP setup in the previous section for user login. 
+
 1. In the `galaxy.ini` file set the OIDC configuration as the following: 
 
        enable_oidc = True
@@ -66,6 +68,7 @@ At the moment, we support login to Galaxy using identities defined on Google (an
     1. Make sure the the provider name is `Google` (i.e., `<provider name="Google">`);
     2. Set the value of `client_id` and `client_secret` to the ID and secret obtained from Google in the previous step (i.e., step: `4.iii`);
     3. Set `redirect_uri` to the URI provided to Google (e.g., `http://localhost:8080/authnz/google/callback`). 
-    
-    
+  
+
+Restart the Galaxy instance and enjoy the simplified login!
 
