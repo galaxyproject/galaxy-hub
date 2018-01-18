@@ -372,7 +372,7 @@ start, fully closed end" coordinate system ). Or, this quick reference:
 
 `Interval` dataset start with definition line that assigns the column
 attributes. Columns are individually assigned to an `Interval` attribute
-`CHROM, START, END, NAME, STRAND, SCORE, COMMON`. The columns may be in any
+`CHROM, START, END, NAME, STRAND, SCORE, COMMENT`. The columns may be in any
 order and only `CHROM, START, and END` are required. To add/assign additional
 columns, use the "Edit Attributes" form (click on pencil icon in top right
 corner of dataset).
