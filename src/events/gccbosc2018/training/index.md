@@ -137,13 +137,15 @@ Did my IP work? Where is my signal? How well do my replicates correlate? What mi
 
 1. performing ChIPseq-specific quality control,
 2. calling peaks and
-3. visualising signal and peak enrichment around genes or other features."	"
+3. visualising signal and peak enrichment around genes or other features.
+
+We will also touch on aspects of ATAC-seq and techniques such as ribosomal profiling.
 
 **Prerequisites**
 
 - Galaxy 101 or equivalent experience.
 - Ideally participants will already be familiar with generic NGS quality control and read mapping, since those won't be covered
-- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. "
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## Hi-C analysis in Galaxy
 
