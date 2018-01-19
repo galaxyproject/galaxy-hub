@@ -537,6 +537,30 @@ The [Ruđer Bošković Institute](http://www.irb.hr/eng) is Croatia’s leading 
 
   * [Ruđer Bošković Institute (RBI)](http://www.irb.hr/eng)
   * Contacts: [Davor Davidović](http://www.irb.hr/eng/People/Davor-Davidovic), [Centre for Informatics and Computing](http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing)
+  
+### Systems Biology and Bioinformatics (SBI)
+
+<div class='right'><div class='center'>
+<a href='https://sbi.uni-rostock.de'><img src="/src/images/logos/SBILogo.png" alt="Systems Biology and Bioinformatics (SBI)" width="135" /></a><br /><br />
+</div></div>
+
+The Department of [Systems Biology and Bioinformatics](https://sbi.uni-rostock.de) focuses on the development of systems- and control methodologies, using mathematical modelling, statistical data analysis, and computational approaches applied to complex dynamical systems.
+
+**Domains:**  
+
+  * General usage
+  * Quality control and data preprocessing
+  * RNA-Seq analysis
+  * Mapping
+  * Visualization
+  
+**Reach:** We organize and contribute to training within Germany.
+
+**Links & Contact:**
+
+  * [Systems Biology and Bioinformatics (SBI)](https://sbi.uni-rostock.de)
+  * Contacts: [Olaf Wolkenhauer](https://www.sbi.uni-rostock.de/team/single/prof-olaf-wolkenhauer/)
+
 
 ### South Green Platform
 
