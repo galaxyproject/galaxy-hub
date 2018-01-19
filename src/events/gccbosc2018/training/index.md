@@ -73,6 +73,9 @@ The focus of this workshop is to outline current standards and required resource
 
 * None
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Galaxy 101 - A gentle introduction to Galaxy
 
 This workshop will focus on introducing the Galaxy user interface and how it can be used to analyze large datasets. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
@@ -81,6 +84,9 @@ This workshop will focus on introducing the Galaxy user interface and how it can
 
 * Little or no experience using Galaxy.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## RNA-Seq Analysis in Galaxy
 
@@ -96,6 +102,9 @@ This workshop will introduce the concepts behind transcriptomics with NGS data a
 
 * a general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
 * a wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## Galaxy for Power Users
 
@@ -115,6 +124,9 @@ Learn new tricks to optimize your research.
 * At least attendance of Galaxy 101.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best. 
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## How to analyze microbiota data with Galaxy
 
 The study of complex microorganism communities has been eased by the development of sequencing platforms and dedicated powerful bioinformatics tools. Several tools have recently been integrated into Galaxy for microbiota data analysis: Mothur, QIIME, MetaPhlAN, HUMAnN, FROGS, MEGAHIT, MetaSPAdes,...
@@ -130,6 +142,9 @@ In this training, we will show in this training how to analyze metagenomic and a
 * Galaxy 101 or equivalent experience
 * Ideally participants will already be familiar with the concepts behind metagenomics (e.g., OTU)
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## ChIPseq analysis using deepTools and MACS2
 
@@ -147,6 +162,9 @@ We will also touch on aspects of ATAC-seq and techniques such as ribosomal profi
 - Ideally participants will already be familiar with generic NGS quality control and read mapping, since those won't be covered
 - A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Hi-C analysis in Galaxy
 
 This session will introduce the basics of chromosome conformation capture assays and their applications, followed by best practices in mapping, QC'ing, visualazing and assigning 'topological associated domains' with Hi-C data.
@@ -155,6 +173,9 @@ This session will introduce the basics of chromosome conformation capture assays
 
 * Understanding of chromosome conformation capture (3C) and variants (HiC, 5C, 4C). Understanding of Illumina based "NGS".
 * Understanding of Galaxy user interface.
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## Galaxy For Proteogenomics !
 
@@ -183,6 +204,9 @@ The course will include a basic introduction to proteomics and will include a ha
 
 * Users will need laptop for hands-on training
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Small genome de novo assembly using Galaxy
 
 Workshop will cover the basics of de novo genome assembly using a small genome example. This includes project planning steps, selecting fragment sizes, initial assembly of reads into fully covered contigs, and then assembling those contigs into larger scaffolds that may include gaps. The end result will be a set of contigs and scaffolds with sufficient average length to perform further analysis on, including genome annotation. This workshop will use tools and methods targeted at small genomes. The basics of assembly and scaffolding presented here will be useful for building larger genomes, but the specific tools and much of the project planning will be different.
@@ -191,6 +215,9 @@ Workshop will cover the basics of de novo genome assembly using a small genome e
 
 * Galaxy 101
 * A wifi enabled laptop with a web browser
+
+
+<img class="pull-right" src="/src/images/logos/gatk-logo-wrench.png" width="60" alt="GATK" />
 
 ## GATK4
 
@@ -208,6 +235,8 @@ Workshop will cover the basics of de novo genome assembly using a small genome e
   - run pipeline on Galaxy
 
 
+<img class="pull-right" src="/src/images/logos/DataCarpentryLogo.png" width="140" alt="Data Carpentry" />
+
 ## Data Carpentry Genomics Workshop: Data Organization and Automation with Shell
 
 The goal of this **one-day** tutorial is to teach participants the fundamental data management and analysis skills and needed to conduct genomics research including: best practices for organization of bioinformatics projects and data as well as use of command line utilities for managing large volumes of genomic data. This tutorial is derived from the Data Carpentry Genomics Workshop, focused on the organization and intro to command line lessons. The tutorial uses active learning and hands-on practice to teach participants the skills and perspectives needed to work effectively with genomic data. Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working with data so that they can get more done in less time, and with less pain.
@@ -218,6 +247,9 @@ Lessons:
 * http://www.datacarpentry.org/shell-genomics/
 
 The tutorial assumes no prior experience with the tools covered. However, learners are expected to have some familiarity with biological concepts, including nucleotide abbreviations. Participants should bring their laptops and plan to participate actively.
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/GTNStarBars300.png" width="60" alt="Galaxy Training Network" />
 
 ## Bioinformatics Training and Education with the Galaxy Training Network
 
@@ -233,6 +265,9 @@ This workshop will introduce participants to the infrastructure of the GTN train
 * Basic familiarity with git and Docker will also be helpful for parts of the workshop.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
 
+
+<img class="pull-right" src="/src/images/logos/intermine-squareish-trans-300.png" width="55" alt="InterMine" />
+
 ## Handling integrated biological data using Python (or R) and InterMine
 
 This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic) in [InterMine](http://intermine.org/) via an API in Python or R. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
@@ -242,6 +277,8 @@ This tutorial will guide you through loading and analyzing integrated biological
 * Basic Python or R skills are advantageous but not required. 
 * A laptop with wifi and Python or R Studio.
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## Practical use of the Galaxy API command line tools
 
@@ -256,6 +293,9 @@ Galaxy has an always-growing API that allows for external programs to upload and
 * Python programming.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+
+<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="100" alt="Tripal" />
+
 ## Building a Community Genome Database with Tripal v3
 
 [Tripal](https://tripal.info/) v3 is the newest version of a popular and open source genomics website construction software. Using Docker containers, we will install a Tripal v3 site (including Apache, PostGreSQL, and Drupal), to create an empty genome database and site. We will review how to load many data types used by many of the core and extension Drupal modules, including organisms, analyses, genes and genomes, functional annotations and controlled vocabularies. We will provide credits on the XSEDE cloud system Jetstream for this training, so students can follow along on their own laptops.
@@ -263,6 +303,9 @@ Galaxy has an always-growing API that allows for external programs to upload and
 **Prerequisites:**
 
 * Linux command line.
+
+
+<img class="pull-right" src="/src/images/logos/wdl-logo_white.png" width="85" alt="WDL" />
 
 ## Workflow Description Language
 
@@ -276,6 +319,9 @@ In this session we’ll walk through the lifecycle of writing, sharing and disco
 * Java 8 installed and runnable from the command line
 * A workshop bundle downloaded from TBD
 
+
+<img class="pull-right" src="/src/images/logos/bcbio-logo-no-text.png" width="70" alt="bcbio" />
+
 ##  Community built analyses that run everywhere with bcbio
 
 **[bcbio](http://bcb.io/)** is community built analyses for germline and somatic
@@ -286,6 +332,9 @@ environments -- local machines, HPC, cloud providers and commercial services
 analyses on their platform of choice, while discussing how the community can
 contribute to building, sharing and maintaining workflows across multiple
 platforms. Recent presentations of bcbio show [some of the topics we plan to cover](http://bcbio-nextgen.readthedocs.io/en/latest/contents/presentations.html#presentations).
+
+
+<img class="pull-right" src="/src/images/logos/cwl-logo-small-trans.png" width="110" alt="CWL" />
 
 ## Introduction to Common Workflow Language
 
@@ -305,6 +354,8 @@ Common Workflow Language  (http://commonwl.org) is a standard for writing portab
 * Experience with Docker
 
 
+<img class="pull-right" src="/src/images/galaxy-logos/cloudlaunch-small-blue.png" width="100" alt="CloudLaunch" />
+
 ## Deploying (Galaxy and your) applications into clouds
 
 This tutorial will have two parts. Part 1 will demonstrate how to use the all-new CloudLaunch service to launch and manage instances of Galaxy on the Cloud on multiple cloud providers. In part 2, we will cover the technical process of adding custom applications into CloudLaunch and making them available for launching on any supported cloud (AWS, Azure, GCE, OpenStack). This part will also cover use of the CloudLaunch API, enabling external applications to leverage CloudLaunch capabilities.
@@ -313,6 +364,9 @@ This tutorial will have two parts. Part 1 will demonstrate how to use the all-ne
 
 * Part 1: a laptop with WiFi and a modern browser
 * Part 2: Basic programming skills (Python, Angular 2/4/5 useful but not essential?)
+
+
+<img class="pull-right" src="/src/images/logos/Conda_480.png" width="85" alt="Conda" />
 
 ## Conda and Containers
 
@@ -326,6 +380,9 @@ We will go through the process of creating, testing, and publishing a Bioconda p
 
 * Some knowledge of tool development - either CWL or Galaxy.
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Writing & Publishing Galaxy Tools
 
 This session will walk developers and bioinformaticians through the process of taking a working script or application and turning it into a Galaxy tool. It will also cover the basics of using Planemo: a command-line utility to assist in building and publishing Galaxy tools. We will investigate wrapping, common parameters, tool linting, best practices, loading tools into Galaxy, citations, and publishing tools to Github and the Galaxy Tool Shed. Common tips and tricks will be discussed as well as insights from experienced tool developers.
@@ -336,6 +393,9 @@ This session will walk developers and bioinformaticians through the process of t
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what commands like cd, mv, rm, mkdir, chmod, grep can do then you will struggle in this workshop.
 * A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best.
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Setting up a Galaxy instance as a service
 
 In this workshop, you will learn what is important when you set up a Galaxy server from scratch, what are the pitfalls you might run into, how to interact with the potential users of the service you gonna offer, and how to make sure, the Galaxy instance you have set up is really used in the end. After a general introduction, several Galaxy installations are presented. The session will include some demonstrations and hands-on exercises. We will finish with a panel discussion, where we intend to discuss questions from the workshop participants.
@@ -344,6 +404,9 @@ In this workshop, you will learn what is important when you set up a Galaxy serv
 
 * Familiar with the Bioinformatics problems (and their solutions) that wet lab scientists run into.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## Advanced customization of a Galaxy instance
 
@@ -362,12 +425,18 @@ Do you have your lab's Galaxy instance set up and configured but want to give it
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Advanced accelerated Galaxy admin
 
 A compressed top level review of the advanced parts of the weeklong Galaxy Administrators Course delivered multiple times in the past 2 years. Given the size of the scope of this topic we will be explaining advanced concepts, pointing out resources and providing guidance, tips, and tricks rather than going through the exercises and into details.
 
 * Introduction to Galaxy admin: Setting up a Galaxy instance as a service, or equivalent experience
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+
+
+<img class="pull-right" src="/src/images/logos/puppet_logo_trans.png" width="100" alt="Puppet" />
 
 ## Administration of Galaxy Infrastructures with Puppet
 
@@ -385,6 +454,8 @@ Draft training materials are [available online](https://github.com/millerjl1701/
 * No Puppet, Chef, or Ansible experience is required.
 
 
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## Galaxy Interactive Environments
 
 In this session you will get in-depth introduction to Interactive Environments (IE). You will learn how to setup and secure IE’s ([Jupyter](http://jupyter.org/), [RStudio](https://www.rstudio.com/), etc.) in a production Galaxy instance. Moreover, we will create an IE on-the-fly to get you started in creating your own Interactive Environments.In this session you will get an introduction to Interactive Environments (IE) as an easy and powerful way to integrate arbitrary interactive web services into Galaxy. We will demonstrate the [IPython Galaxy Project](https://github.com/bgruening/galaxy-ipython) and the general concept of IE’s.
@@ -396,6 +467,9 @@ In this session you will get in-depth introduction to Interactive Environments (
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
 
+
+<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="100" alt="Tripal" />
+
 ## Adding Galaxy Workflows to a Tripal Website
 
 Learn to integrate two popular and widely adopted open source [GMOD](https://gmod.org/) tools: [Tripal](https://tripal.info/), a content management system for building community genome websites, and Galaxy, a web-based workflow engine for biological data analysis. The new Tripal-to-Galaxy bridge allows users of community databases to select pre-designed workflows for common analyses and upload their own data or utilize site data as input. We will also use new R Markdown wrapped Galaxy tools (Aurora Galaxy Tools) to construct HTML reports summarizing and visualizing the workflow output.
@@ -403,6 +477,9 @@ Learn to integrate two popular and widely adopted open source [GMOD](https://gmo
 **Prerequisites**
 
 * Familiarity with Galaxy user interface and basic Galaxy server administration. 
+
+
+<img class="pull-right" src="/src/images/logos/DockerInGalaxy.png" width="100" alt="Galaxy Docker Project" />
 
 ## The Galaxy Docker Project
 
@@ -414,6 +491,9 @@ In this session you will learn the internals of the Docker Galaxy Image. We will
 * General knowledge about Docker
 * Familiarity with Unix command line and text editors"
 
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
+
 ## The Galaxy Database Schema
 
 Running a production Galaxy server, you some times end up in a situation, where you manually need to interact with the database, e.g. you want to extract usage information, which can not be gathered from the built in reports tool. Or, a more  risky adventure: you need to change the state of a job to 'error'. For both cases, you require a good understanding of the Galaxy database schema. In this training session, you will learn some of the design concepts of the database, and how to extract (or if necessary change) information useful for a Galaxy admin.
@@ -422,6 +502,9 @@ Running a production Galaxy server, you some times end up in a situation, where 
 
 * Experience maintaining a production Galaxy server
 * Basic knowledge of relational databases and SQL statements
+
+
+<img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
 ## Galaxy Architecture
 
@@ -444,11 +527,6 @@ The workshop will include the following specific content:
 
 
 
-
-
-
-
-
 # Nominations in Progress
 
 
@@ -464,8 +542,3 @@ How to use workflow management systems that are designed for the command line, s
 **Prerequisites**
 
 * Linux command line experience
-
-## Analysis of scRNA sequencing data
-
-How to analyze single cell RNA sequencing data, e.g. in [cellranger](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger) or with dedicated R packages
-
