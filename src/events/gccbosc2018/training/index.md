@@ -39,7 +39,7 @@ A: Attending at least one beginning bioinformatics session.
 | -  | XB | -  | -  | | GG | CL | | [Handling integrated biological data using Python (or R) and InterMine](#handling-integrated-biological-data-using-python-or-r-and-intermine) |
 | -  | XB | IP | -  | | -  | CL | | [Practical use of the Galaxy API command line tools](#practical-use-of-the-galaxy-api-command-line-tools) |
 | -  | XB | IP | -  | | -  | CL | | [Building a Community Genome Database with Tripal v3](#building-a-community-genome-database-with-tripal-v3) |
-| -  | XB | IP | TD | | -  | CL | | [Workflow Description Language](#workflow-description-language) |
+| -  | XB | IP | TD | | -  | CL | | [WDL, the Workflow Description Language](#wdl-the-workflow-description-language) |
 | -  | XB | IP | TD | | -  | CL | | [Community built analyses that run everywhere with bcbio](#community-built-analyses-that-run-everywhere-with-bcbio) |
 | -  | XB | IP | TD | | -  | CL | | [Introduction to Common Workflow Language](#introduction-to-common-workflow-language) |
 | -  | XB | IP | TD | | GG | CL | | [Deploying (Galaxy and your) applications into clouds](#deploying-galaxy-and-your-applications-into-clouds) |
@@ -317,7 +317,7 @@ Galaxy has an always-growing API that allows for external programs to upload and
 
 <img class="pull-right" src="/src/images/logos/wdl-logo_white.png" width="85" alt="WDL" />
 
-## Workflow Description Language
+## WDL, the Workflow Description Language
 
 The advent of open, portable workflow languages is an exciting development which allows for the definition of a workflow to be decoupled from the execution. One can create workflows which can run unmodified on local compute, HPC clusters, or the cloud. As these languages are not tied to a specific execution environment, the descriptions can easily be shared, discovered and even composed together to form more complex workflows. The [Workflow Description Language](http://openwdl.org/) (WDL) is an open, community driven standard that is designed from the ground up as a human-readable and -writable way to express portable tasks and workflows.
 
