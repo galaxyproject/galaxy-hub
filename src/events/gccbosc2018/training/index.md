@@ -385,13 +385,14 @@ Administering Galaxy infrastructures can be a daunting task. Configuration manag
 
 Building off of the work started at the GCC2017 Hackathon, this training will introduce the idea of using puppet for configuration management of systems using existing puppet code and other open source tools available that augment puppet. This session requires no prior experience with puppet or other configuration management tools. 
 
+Draft training materials are [available online](https://github.com/millerjl1701/jedha-temple).
+
 **Prerequisites:**
 
 * You have setup a Galaxy instance before…  maybe.
 * Knowledge and comfort with the Unix/Linux command line interface and use of a text editor.
-* A CentOS 7 virtual machine that is setup has at a minimum the Infrastructure Server group installation type.
+* Vagrant with puppetlabs/centos-7.2-64-nocm box available or a CentOS 7 virtual machine (Infrastructure Server group install)
 * **No** Puppet, Chef, or Ansible experience is required.
-
 
 ## Galaxy Interactive Environments
 
