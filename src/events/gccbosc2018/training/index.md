@@ -412,11 +412,12 @@ In this session you will learn the internals of the Docker Galaxy Image. We will
 
 ## The Galaxy Database Schema
 
-Running a production Galaxy server, you some times end up in a situation, where you manually need to interact with the database, e.g. you want to extract usage information, which can not be gathered from the built in reports tool. Or, a more  risky adventure: you need to change the state of a job to 'error'. For both cases, you require a good understanding of the Galaxy database schema. In this training session, you will learn some of the design concepts of the database, and how to extract (or if necessary change) information useful for a Galaxy admin.	Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements.
+Running a production Galaxy server, you some times end up in a situation, where you manually need to interact with the database, e.g. you want to extract usage information, which can not be gathered from the built in reports tool. Or, a more  risky adventure: you need to change the state of a job to 'error'. For both cases, you require a good understanding of the Galaxy database schema. In this training session, you will learn some of the design concepts of the database, and how to extract (or if necessary change) information useful for a Galaxy admin.
 
 **Prerequisites**
 
-* Experience maintaining a production Galaxy server and a basic knowledge of relational databases and SQL statements
+* Experience maintaining a production Galaxy server
+* Basic knowledge of relational databases and SQL statements
 
 ## Galaxy Architecture
 
