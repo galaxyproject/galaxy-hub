@@ -334,10 +334,6 @@ This session will walk developers and bioinformaticians through the process of t
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what commands like cd, mv, rm, mkdir, chmod, grep can do then you will struggle in this workshop.
 * A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best.
 
-**Prerequisites**
-
-* None
-
 ## Setting up a Galaxy instance as a service
 
 In this workshop, you will learn what is important when you set up a Galaxy server from scratch, what are the pitfalls you might run into, how to interact with the potential users of the service you gonna offer, and how to make sure, the Galaxy instance you have set up is really used in the end. After a general introduction, several Galaxy installations are presented. The session will include some demonstrations and hands-on exercises. We will finish with a panel discussion, where we intend to discuss questions from the workshop participants.
