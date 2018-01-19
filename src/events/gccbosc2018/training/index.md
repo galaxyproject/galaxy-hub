@@ -149,12 +149,14 @@ We will also touch on aspects of ATAC-seq and techniques such as ribosomal profi
 
 ## Hi-C analysis in Galaxy
 
-This session will introduce the basics of chromosome conformation capture assays and their applications, followed by best practices in mapping, QC'ing, visualazing and assigning 'topological associated domains' with Hi-C data.
+This session will introduce the basics of chromosome conformation capture assays and their applications,
+followed by best practices in mapping, QC'ing, visualazing and assigning 'topological associated domains' with Hi-C data.
 
 **Prerequisites**
 
-* Understanding of chromosome conformation capture (3C) and variants (HiC, 5C, 4C). Understanding of Illumina based "NGS".
-* Understanding of Galaxy user interface.
+- Galaxy 101 or equivalent experience.
+- Understanding of chromosome conformation capture (3C) and variants (HiC, 5C, 4C).
+- Understanding of Illumina based "NGS".
 
 ## Galaxy For Proteogenomics !
 
@@ -221,17 +223,26 @@ The tutorial assumes no prior experience with the tools covered. However, learne
 
 ## Bioinformatics Training and Education with the Galaxy Training Network
 
-Galaxy with its flexibility, reproducibility, and scalability is an ideal environment for teaching and training diverse scientific topics. 
+Galaxy with its flexibility, reproducibility, and scalability is an ideal environment for teaching
+and training diverse scientific topics. 
 
-The Galaxy Training Network is a community initiative dedicated to high-quality Galaxy-based training around the world. One of its objectives is to support trainers with complete training material and recommendations about bioinformatics training. Templates and best training practices were defined to help trainers create new material, unify the different material, and make training materials more accessible and easy for users to learn and for teachers to teach (https://training.galaxyproject.org).
+The Galaxy Training Network is a community initiative dedicated to high-quality Galaxy-based
+training around the world. One of its objectives is to support trainers with complete training
+material and recommendations about bioinformatics training. Templates and best training practices
+were defined to help trainers create new material, unify the different material, and make training
+materials more accessible and easy for users to learn and for teachers to teach (https://training.galaxyproject.org).
 
-This workshop will introduce participants to the infrastructure of the GTN training materials and describe how to generate training materials following best practices. Participants will be introduced to the generation Galaxy Interactive Tours and the creation of Docker Flavors dedicated to teaching and training sessions. The workshop will also cover best practices for running Galaxy-based workshops (how to plan a training session based on number of attendees, time constraints, resource availability, etc).
+This workshop will introduce participants to the infrastructure of the GTN training materials
+and describe how to generate training materials following best practices.
+Participants will be introduced to the generation of Galaxy Interactive Tours
+and Docker Galaxy flavors dedicated to teaching and training sessions.
+The workshop will also cover best practices for running Galaxy-based workshops - how to plan a training session based on number of attendees, time constraints, resource availability, etc.
 
 **Prerequisites**
 
-* Basic familiarity with using Galaxy (how to import datasets and run tools)
+* Basic familiarity with using Galaxy (how to import datasets and run tools).
 * Basic familiarity with git and Docker will also be helpful for parts of the workshop.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
+* A WiFi-enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
 
 ## Handling integrated biological data using Python (or R) and InterMine
 
@@ -240,8 +251,7 @@ This tutorial will guide you through loading and analyzing integrated biological
 **Prerequisites**
 
 * Basic Python or R skills are advantageous but not required. 
-* A laptop with wifi and Python or R Studio.
-
+* WiFi-enabled laptop with Python or R Studio.
 
 ## Practical use of the Galaxy API command line tools
 
@@ -382,8 +392,7 @@ Draft training materials are [available online](https://github.com/millerjl1701/
 * You have setup a Galaxy instance before…  maybe.
 * Knowledge and comfort with the Unix/Linux command line interface and use of a text editor.
 * Vagrant with puppetlabs/centos-7.2-64-nocm box available or a CentOS 7 virtual machine (Infrastructure Server group install)
-* No Puppet, Chef, or Ansible experience is required.
-
+* **No** Puppet, Chef, or Ansible experience is required.
 
 ## Galaxy Interactive Environments
 
@@ -406,13 +415,18 @@ Learn to integrate two popular and widely adopted open source [GMOD](https://gmo
 
 ## The Galaxy Docker Project
 
-In this session you will learn the internals of the Docker Galaxy Image. We will show you tips and tricks on how to run the Galaxy Docker Image successfully in production, how to manage updates and how to bind the container to a cluster scheduler. Moreover, you will learn how to create your own Galaxy flavour mixing a variety of different tools and visualisations.
+In this session you will learn the internals of the Docker Galaxy Image.
+We will show you tips and tricks on how to run the Galaxy Docker Image successfully in production,
+how to manage updates and how to bind the container to a cluster scheduler.
+Moreover, you will learn how to create your own Galaxy flavour mixing a variety of different tools and visualisations.
+A composed Galaxy setup will be demonstrated and you will learn how you can orchestrate Galaxy to dynamically scale
+with rising user demand.
 
 **Prerequisites**
 
-* Basic understanding of Galaxy from a developer point of view.
+* Basic understanding of Galaxy from an admin point of view
 * General knowledge about Docker
-* Familiarity with Unix command line and text editors"
+* Familiarity with Unix command line
 
 ## The Galaxy Database Schema
 
