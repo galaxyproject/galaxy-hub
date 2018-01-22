@@ -1,12 +1,19 @@
 {{> Events/GCCBOSC2018/Header }}
 
-The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and *the training topics that will be offered **are determined by you***. Please take a few minutes to consider which training topics you would like to see offered at GCCBOSC2018. 
+
+The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and *the training topics that will be offered **are determined by you***. 
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  
 
+# Topic Voting open through January 31
+
+**[Vote Now!](https://docs.google.com/forms/d/e/1FAIpQLSdaRyU-5OuIbApSK20QRCB-Rlhhel70VHs3Cjvrm-Kyywi86A/viewform)**
+
+Please take a few minutes to consider which training topics you would like to see offered at GCCBOSC2018.
+
 # Nominated Topics
 
-Topics were nominated by the community, and refined by potential instructors.  Topics are categorized below by the **potential audience** and **the interface(s) to be used** in the workshop.
+Topics were nominated by the community, and refined by potential instructors.  Topics are categorized by the **potential audience** and **the interface(s) to be used** in the workshop.
 
 |  | Code | Explanation |
 | --- | --- | --- |
