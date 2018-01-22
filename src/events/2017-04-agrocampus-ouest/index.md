@@ -9,6 +9,6 @@ location_url: http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/z
 external_url: http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733&nomModule=Galaxy--Traitement-de-donnees-de-sequences-par-Galaxy-module-7/8
 image: 
 gtn: true
-contact: "Sandrine LAGARRIGUE, formco@agrocampus-ouest.fr"
+contact: "Yvan Le Bras, Sandrine LAGARRIGUE, formco@agrocampus-ouest.fr"
 ---
 
