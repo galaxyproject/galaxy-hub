@@ -39,6 +39,7 @@ A: Attending at least one beginning bioinformatics session.
 | -  | XB | -  | -  | | GG | CL | | [Handling integrated biological data using Python (or R) and InterMine](#handling-integrated-biological-data-using-python-or-r-and-intermine) |
 | -  | XB | IP | -  | | -  | CL | | [Practical use of the Galaxy API command line tools](#practical-use-of-the-galaxy-api-command-line-tools) |
 | -  | XB | IP | -  | | -  | CL | | [Building a Community Genome Database with Tripal v3](#building-a-community-genome-database-with-tripal-v3) |
+| -  | XB | IP | TD | | -  | CL | | [Command line workflow management systems: Snakemake and Nextflow](#command-line-workflow-management-systems-snakemake-and-nextflow) |
 | -  | XB | IP | TD | | -  | CL | | [WDL, the Workflow Description Language](#wdl-the-workflow-description-language) |
 | -  | XB | IP | TD | | -  | CL | | [Community built analyses that run everywhere with bcbio](#community-built-analyses-that-run-everywhere-with-bcbio) |
 | -  | XB | IP | TD | | -  | CL | | [Introduction to Common Workflow Language](#introduction-to-common-workflow-language) |
@@ -325,7 +326,7 @@ Galaxy has an always-growing API that allows for external programs to upload and
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 
-<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="100" alt="Tripal" />
+<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="110" alt="Tripal" />
 
 ## Building a Community Genome Database with Tripal v3
 
@@ -335,8 +336,36 @@ Galaxy has an always-growing API that allows for external programs to upload and
 
 * Linux command line.
 
+<div class="pull-right"><img src="/src/images/logos/snakemake-logo-trans.png" width="60" alt="Snakemake" /> &nbsp; <img src="/src/images/logos/nextflow-logo-no-text-trans.png" width="50" alt="Nextflow" />
+</div>
 
-<img class="pull-right" src="/src/images/logos/wdl-logo_white.png" width="85" alt="WDL" />
+## Command line workflow management systems: Snakemake and Nextflow
+
+This session introduces command line and text based workflow management systems by the examples of Snakemake and Nextflow.  We will start with an overview of concepts and challenges then spend an hour on each of these platforms.
+
+*Snakemake*
+
+We will show how to define a workflow in the Snakemake workflow language, and how to execute it using the Snakemake command line interface. In particular, we will show how Snakemake enables reproducible science by allowing
+
+* automation of every step of a data analysis from raw data to final figures
+* scalability of the workflow to any major computing architecture (compute server, cluster, grid, cloud) without having to modify the workflow definition
+* portability of the workflow by integration with the Conda package manager and Singularity containers.
+
+*Nextflow*
+
+This session will introduce the Nextflow framework, the tool basic concepts and how it enables the definition and the deployment of large-scale distributed computational pipeline in a portable and reproducible manner across cloud and clusters. In particular it will be discussed: 
+
+* installation and introduction to the dataflow processing model
+* workflows parallelisation and scalability
+* portable workflows containerisation with Docker, Singularity and Shifter 
+* cloud deployment strategies
+
+**Prerequisites**
+
+* Linux command line experience
+
+
+<img class="pull-right" src="/src/images/logos/wdl-logo_white.png" width="95" alt="WDL" />
 
 ## WDL, the Workflow Description Language
 
@@ -351,7 +380,7 @@ In this session we’ll walk through the lifecycle of writing, sharing and disco
 * A workshop bundle downloaded from TBD
 
 
-<img class="pull-right" src="/src/images/logos/bcbio-logo-no-text.png" width="70" alt="bcbio" />
+<img class="pull-right" src="/src/images/logos/bcbio-logo-no-text.png" width="80" alt="bcbio" />
 
 ##  Community built analyses that run everywhere with bcbio
 
@@ -365,7 +394,7 @@ contribute to building, sharing and maintaining workflows across multiple
 platforms. Recent presentations of bcbio show [some of the topics we plan to cover](http://bcbio-nextgen.readthedocs.io/en/latest/contents/presentations.html#presentations).
 
 
-<img class="pull-right" src="/src/images/logos/cwl-logo-small-trans.png" width="110" alt="CWL" />
+<img class="pull-right" src="/src/images/logos/cwl-logo-small-trans.png" width="130" alt="CWL" />
 
 ## Introduction to Common Workflow Language
 
@@ -385,7 +414,7 @@ Common Workflow Language  (http://commonwl.org) is a standard for writing portab
 * Experience with Docker
 
 
-<img class="pull-right" src="/src/images/galaxy-logos/cloudlaunch-small-blue.png" width="100" alt="CloudLaunch" />
+<img class="pull-right" src="/src/images/galaxy-logos/cloudlaunch-small-blue.png" width="120" alt="CloudLaunch" />
 
 ## Deploying (Galaxy and your) applications into clouds
 
@@ -397,7 +426,7 @@ This tutorial will have two parts. Part 1 will demonstrate how to use the all-ne
 * Part 2: Basic programming skills (Python, Angular 2/4/5 useful but not essential?)
 
 
-<img class="pull-right" src="/src/images/logos/Conda_480.png" width="85" alt="Conda" />
+<img class="pull-right" src="/src/images/logos/Conda_480.png" width="95" alt="Conda" />
 
 ## Conda and Containers
 
@@ -498,7 +527,7 @@ In this session you will get in-depth introduction to Interactive Environments (
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
 
 
-<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="100" alt="Tripal" />
+<img class="pull-right" src="/src/images/logos/tripal-logo-dark.png" width="110" alt="Tripal" />
 
 ## Adding Galaxy Workflows to a Tripal Website
 
@@ -560,20 +589,3 @@ The workshop will include the following specific content:
 
 * Your interest.
 
-
-
-# Nominations in Progress
-
-
-## Genome-wide sgRNA screen analysis using GALAXY
-
-Identify sgRNAs enriched in a screen with specific treatment.  Raw data processing, mapping, MAGeCK-VISPR.
-
-
-## Command line workflow management systems: Snakemake, Cluster Flow, Bpipe
-
-How to use workflow management systems that are designed for the command line, such as [Snakemake](http://snakemake.readthedocs.io/en/stable/), [Cluster Flow](http://clusterflow.io/), and [Bpipe](https://github.com/ssadedin/bpipe#welcome-to-bpipe--).
-
-**Prerequisites**
-
-* Linux command line experience
