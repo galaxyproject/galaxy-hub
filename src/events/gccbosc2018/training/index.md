@@ -1,3 +1,7 @@
+---
+title: 2018 GCCBOSC2018 Conferences
+---
+
 {{> Events/GCCBOSC2018/Header }}
 
 
