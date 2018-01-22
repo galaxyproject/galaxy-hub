@@ -33,7 +33,7 @@ A: Attending at least one beginning bioinformatics session.
 | BB | XB | -  | -  | | GG | -  | | [Hi-C analysis in Galaxy](#hi-c-analysis-in-galaxy) |
 | BB | XB | -  | -  | | GG | -  | | [Galaxy For Proteogenomics !](#galaxy-for-proteogenomics) |
 | BB | XB | -  | -  | | GG | -  | | [Small genome de novo assembly using Galaxy](#small-genome-de-novo-assembly-using-galaxy) | 
-| BB | XB | -  | -  | | GG | CL | | [GATK4](#gatk4) |
+| BB | XB | -  | -  | | GG | CL | | [GATK4: What's new and how to run it](#gatk4-whats-new-and-how-to-run-it) |
 | BB | XB | -  | -  | | GG | CL | | [Data Carpentry Genomics Workshop: Data Organization and Automation with Shell](#data-carpentry-genomics-workshop-data-organization-and-automation-with-shell) |
 | -  | XB | IP | -  | | GG | -  | | [Bioinformatics Training and Education with the Galaxy Training Network](#bioinformatics-training-and-education-with-the-galaxy-training-network) |
 | -  | XB | -  | -  | | GG | CL | | [Handling integrated biological data using Python (or R) and InterMine](#handling-integrated-biological-data-using-python-or-r-and-intermine) |
@@ -55,6 +55,8 @@ A: Attending at least one beginning bioinformatics session.
 | -  | -  | IP | -  | | -  | CL | | [The Galaxy Database Schema](#the-galaxy-database-schema) |
 | -  | -  | IP | -  | | -  | -  | | [Galaxy Architecture](#galaxy-architecture) |
 
+
+<img class="pull-right" src="/src/events/gccbosc2018/training/rna-helix.jpg" width="60" alt="RNA-Seq" />
 
 ## Setting up for success: Everything you need to know when planning for an RNA-seq analysis
 
@@ -221,21 +223,40 @@ Workshop will cover the basics of de novo genome assembly using a small genome e
 
 <img class="pull-right" src="/src/images/logos/gatk-logo-wrench.png" width="60" alt="GATK" />
 
-## GATK4
+## GATK4: What's new and how to run it
 
-1. Intro to GATK
-  - reminder of what GATK is about; purpose, variant calling for newbs, major file formats and so on
-2. What's new in GATK4 specifically
-  - new syntax/invocations, new engine capabilities, new scope of analysis, key improvements, tips & tricks.
-3. Options for running GATK -- hands-on 
-  - run  "straight up" on laptop (with Docker)
-  - run Spark tools on Google Dataproc
-  - run pipeline on Cromwell on laptop
-  - run pipeline on Google via Cromwell+Pipelines API (some scripty goodness)
-  - run pipeline on FireCloud in GUI (briefly)
-  - run pipeline on FireCloud via API + python bindings (lots of scripty goodness)
-  - run pipeline on Galaxy
+GATK4 is the brand new version of the Genome Analysis Toolkit (GATK), an open-source genomics software package focused on variant discovery. This workshop will highlight the key changes and updates in the new 4.0 version which was released in January 2018 (see https://software.broadinstitute.org/gatk/gatk4). 
 
+The goal of the workshop is to equip participants with the essential know-how to get started with GATK4, whether they have previously used GATK or not. We will walk participants through hands-on exercises aimed at developing familiarity with the GATK4 command line. We will also guide participants through several different ways of running GATK4 tools and pipelines on publicly available platforms including but not limited to Galaxy. We hope this will help participants understand what are their options and choose the platform that best suits their needs and abilities.
+ 
+The workshop will cover the following topics:
+
+1. Introduction to GATK and the Best Practices: 
+  - Purpose, variant calling basics and standard data types
+
+2. What's new in GATK4:
+  - New syntax/invocations, performance improvements and tips & tricks for using GATK effectively
+  - Expanded scope of analysis: 
+	- Scaling germline variant discovery with GenomicsDB
+	- Calling somatic short variants with the new and improved Mutect2
+	- Calling somatic copy number variants with GATK CNV
+
+3. Options for running GATK 
+  - Running tools individually on a laptop (with Docker)
+  - Running Spark-capable tools individually on a Spark cluster (via Google Dataproc)
+  - Running pipelines on a laptop using Cromwell
+  - Running pipelines on Google Cloud using Cromwell + Pipelines API
+  - Running pipelines on the FireCloud analysis portal through the web GUI 
+  - Running pipelines on FireCloud through the API + Python bindings 
+  - Running tools and pipelines on Galaxy
+
+Free credits will be provided for running on Google Cloud. For more information on FireCloud, see https://software.broadinstitute.org/firecloud.
+
+**Prerequisites:**
+
+- Basic familiarity with terms and concepts of genetics and genomics, including high-level understanding of high-throughput sequencing technologies and file formats used in genomic analysis. 
+- Basic familiarity with the command line environment and usage of command line tools.
+- NO familiarity is expected with Spark or cloud computing concepts.
 
 <img class="pull-right" src="/src/images/logos/DataCarpentryLogo.png" width="140" alt="Data Carpentry" />
 
