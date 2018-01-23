@@ -6,7 +6,7 @@ date: "2018-01-22"
 
 [<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/src/events/gccbosc2018/training/index.md)
 
-**[Vote now on the trining topics you want!](/src/events/gccbosc2018/training/index.md)**
+**[Vote now on the training topics you want!](/src/events/gccbosc2018/training/index.md)**
 
 [Voting is now open](http://bit.ly/gccbosc2018-vote) on what [training topics](/src/events/gccbosc2018/training/index.md) will be offered at [GCCBOSC 2018](https://gccbosc2018.sched.com/).
 
