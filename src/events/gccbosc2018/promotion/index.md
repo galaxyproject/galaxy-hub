@@ -2,6 +2,12 @@
 
 Help get the word out about the joint GCC2018 & BOSC 2018 conference.
 
+[<img class="pull-right" src="/src/events/gccbosc2018/promotion/gccbosc2018-flyer-thumb.png" alt="Help get the word out!" />](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-flyer.pdf)
+
+# Flyer
+
+* Help get the word out by distributing / posting the conference [flyer](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-flyer.pdf)
+
 # Conference Graphics
 
 ## Logo
@@ -27,7 +33,3 @@ Giving a presentation?  Include a slide or two about the conference.
 
 * [PowerPoint](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gccbosc2018-slides.pptx)
 * [PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gccbosc2018-slides.pdf)
-
-# Flyer
-
-Coming ...
