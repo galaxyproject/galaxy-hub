@@ -46,8 +46,8 @@ A: Attending at least one beginning bioinformatics session.
 | BB | XB | -  | -  | | GG | -  | | [Small genome de novo assembly using Galaxy](#small-genome-de-novo-assembly-using-galaxy) | 
 | BB | XB | -  | -  | | GG | CL | | [GATK4: What's new and how to run it](#gatk4-whats-new-and-how-to-run-it) |
 | BB | XB | -  | -  | | GG | CL | | [Data Carpentry Genomics Workshop: Data Organization and Automation with Shell](#data-carpentry-genomics-workshop-data-organization-and-automation-with-shell) |
+| BB | XB | -  | -  | | GG | CL | | [Handling integrated biological data using Python (or R) and InterMine](#handling-integrated-biological-data-using-python-or-r-and-intermine) |
 | -  | XB | IP | -  | | GG | -  | | [Bioinformatics Training and Education with the Galaxy Training Network](#bioinformatics-training-and-education-with-the-galaxy-training-network) |
-| -  | XB | -  | -  | | GG | CL | | [Handling integrated biological data using Python (or R) and InterMine](#handling-integrated-biological-data-using-python-or-r-and-intermine) |
 | -  | XB | IP | -  | | -  | CL | | [Practical use of the Galaxy API command line tools](#practical-use-of-the-galaxy-api-command-line-tools) |
 | -  | XB | IP | -  | | -  | CL | | [Building a Community Genome Database with Tripal v3](#building-a-community-genome-database-with-tripal-v3) |
 | -  | XB | IP | TD | | -  | CL | | [Command line workflow management systems: Snakemake and Nextflow](#command-line-workflow-management-systems-snakemake-and-nextflow) |
@@ -284,6 +284,18 @@ Lessons:
 The tutorial assumes no prior experience with the tools covered. However, learners are expected to have some familiarity with biological concepts, including nucleotide abbreviations. Participants should bring their laptops and plan to participate actively.
 
 
+<img class="pull-right" src="/src/images/logos/intermine-squareish-trans-300.png" width="55" alt="InterMine" />
+
+## Handling integrated biological data using Python (or R) and InterMine
+
+This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic) in [InterMine](http://intermine.org/) via an API in Python or R. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
+
+**Prerequisites**
+
+* Basic Python or R skills are advantageous but not required. 
+* WiFi-enabled laptop with Python or R Studio.
+
+
 <img class="pull-right" src="/src/images/galaxy-logos/GTNStarBars300.png" width="60" alt="Galaxy Training Network" />
 
 ## Bioinformatics Training and Education with the Galaxy Training Network
@@ -309,17 +321,6 @@ The workshop will also cover best practices for running Galaxy-based workshops -
 * Basic familiarity with git and Docker will also be helpful for parts of the workshop.
 * A WiFi-enabled laptop with a modern web browser. Google Chrome or Firefox will work best.
 
-
-<img class="pull-right" src="/src/images/logos/intermine-squareish-trans-300.png" width="55" alt="InterMine" />
-
-## Handling integrated biological data using Python (or R) and InterMine
-
-This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic) in [InterMine](http://intermine.org/) via an API in Python or R. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
-
-**Prerequisites**
-
-* Basic Python or R skills are advantageous but not required. 
-* WiFi-enabled laptop with Python or R Studio.
 
 <img class="pull-right" src="/src/images/galaxy-logos/galaxy_project_logo_square_no_text.png" width="60" alt="Galaxy" />
 
