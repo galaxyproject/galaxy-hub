@@ -27,6 +27,7 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Giga Sponsors
 
+[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
 
 
 <div class="right">
