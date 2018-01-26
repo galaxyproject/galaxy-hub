@@ -8,7 +8,7 @@ Related topics
 * [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
 * [Known Data Issues](/src/support/data-issues/index.md)
 * [Galaxy Github issue board](/src/issues/index.md)
-* [Troubleshoot an error](/src/support/troublshoot-an-error/index.md)
+* [Troubleshoot an error](/src/support/troubleshoot-an-error/index.md)
 * [Galaxy Choices](/src/choices/index.md)
 
 ## Job and Tool Error Help
