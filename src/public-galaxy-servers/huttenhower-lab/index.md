@@ -1,7 +1,7 @@
 ---
 title: "Huttenhower Lab"
 url: "http://huttenhower.sph.harvard.edu/galaxy/"
-server_group: "tool-publishing"
+server_group: "domain"
 server_links: 
   - link_url: "http://huttenhower.sph.harvard.edu/galaxy/"
     link_text: "Huttenhower Lab"

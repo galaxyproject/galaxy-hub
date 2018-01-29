@@ -2,6 +2,8 @@
 
 # CollaborationFest
 
+<img class="pull-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
+
 GCC BOSC 2018 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work event where our communities gather to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
 Both BOSC/OBF and GCC have had collaborative events in the past. We'll be continuing these traditions, but also trying some new things this year:
@@ -31,9 +33,9 @@ CollaborationFest's goals are much wider:
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to register (and select either 2 or 4 days).  You will need to cover some, and possibly all, of you meal expenses.  Organizers will provide coffee / beverages throughout, and we will attempt to get funding for as many lunches as possible as well.
+CollaborationFest is free, for all 4 days.  You still need to register (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
-You can register for CollaborationFest at the same time you register for other GCCBOSC events.
+You register for CollaborationFest at the same time you register for other GCCBOSC events.
 
 # Venue
 
