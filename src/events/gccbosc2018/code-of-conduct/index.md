@@ -2,7 +2,7 @@
 
 # GCCBOSC 2018 Code of Conduct
 
-This code of conduct outlines our expectations for GCCBOSC 2018 participants, as well as steps to reporting unacceptable behavior. We are
+This code of conduct outlines our expectations for GCCBOSC 2018 participants, as well as describing how to report unacceptable behavior. We are
 committed to providing a welcoming and inspiring community for all and expect
 our code of conduct to be honored. Anyone who violates this code of conduct may
 be banned from the community.
@@ -84,7 +84,7 @@ report please include:
 
 - Any additional information that may be helpful.
 
-After filing a report, a representative will contact you personally, review the
+If you file a report, a representative will contact you personally, review the
 incident, follow up with any additional questions, and make a decision as to
 how to respond. If the person who is harassing you is part of the response
 team, they will recuse themselves from handling your incident. If the complaint
