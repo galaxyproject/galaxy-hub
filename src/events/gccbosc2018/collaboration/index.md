@@ -1,6 +1,6 @@
 {{> Events/GCCBOSC2018/Header }}
 
-# CollaborationFest
+# CollaborationFest!
 
 <img class="pull-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
