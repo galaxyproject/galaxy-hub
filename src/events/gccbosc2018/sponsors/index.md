@@ -102,7 +102,7 @@ Other a la carte sponsorship opportunities are also available. Many additional o
 
 # CollaborationFest Sponsorships
 
-Two days of collaborative work events, also known as hackathons and codefests, will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/src/events/gccbosc2017/organizers/inidex.md) if you are interested in sponsoring these two days. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/src/events/gccbosc2017/organizers/inidex.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |
@@ -147,13 +147,3 @@ Cost: $500
 - An eighth page color ad in printed material
 - A guaranteed participant slot for sponsor organisation representative 
 - Thanks and acknowledgements from organisers before and during the collaborative events
-
-## CollaborationFest Extension Sponsorships
-
-Cost: $ ??
-
-We are informally extending the collaborative events by an additional  two days.  This will likely be a significantly smaller group than during the first two days.  We estimate 35-50 participants.  The extended days will happen at Reed.
-
-Please contact the  [GCC & BOSC organizers](/src/events/gccbosc2017/organizers/inidex.md) if your organization is interested in helping make this happen.
-
-
