@@ -89,7 +89,134 @@ A very successful and inspiring Ggalaxy admin workshop was held in Oslo in Janua
 Plenty of materials for Galaxy administration are now [up to date and available online](https://github.com/galaxyproject/dagobah-training).  The workshop included a sneak [preview of what's coming in the 18.01 release](https://galaxyproject.github.io/dagobah-training/2018-oslo/whatsnew/18.01.html#1) from [Nate Coraor](/src/people/nate/index.md).
 
 
-# All Upcoming events
+# Select Upcoming events
+
+<table class="table table-striped">
+<thead>
+<tr>
+  <th>Date</th>
+  <th>Topic/Event</th>
+  <th>Venue/Location</th>
+  <th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="text-nowrap">February 1st 2018</span></td>
+  <td><a href="/events/2018-02-lorne-proteomics">Galaxy-P: an accessible resource for multi-omics analysis</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.australasianproteomics.org/lorne-proteomics-symposium-2018/">Lorne Proteomics Symposium, Lorne, Victoria, Australia</a></td>
+  <td>Maria Doyle</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 6th 2018</span></td>
+  <td><a href="https://faes.org/events/biotech-45-bioinformatic-analysis-next-generation-sequencing-data-4-day-hands-workshop-1">Bioinformatic Analysis of Next Generation Sequencing Data</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://events.r20.constantcontact.com/register/eventReg?llr=k4uamblab&amp;oeidk=a07ee6s3vec288242fe">National Institutes of Health (NIH), Bethesda, Maryland, United States</a></td>
+  <td>training@faes.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 7th 2018</span></td>
+  <td><a href="http://www.cpsa-europe.com/2018/program.shtml">An Introduction to Integrative Bioinformatics and Novel Tools in Multi-Omics</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.cpsa-europe.com/2018/index.shtml">CPSA Europe, Cambridge, United Kingdom</a></td>
+  <td>Stephan Kang</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 12th 2018</span></td>
+  <td><a href="http://www.triconference.com/Converged-IT-and-the-Cloud/#Day1">Supporting Highly Scalable Scientific Data Analysis with Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.triconference.com/">Converged IT &amp; the Cloud, San Francisco, California, United States</a></td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 17th 2018</span></td>
+  <td><a href="http://opensource101.com/raleigh/talks/open-source-breakthroughs-life-sciences-precision-medicine/">Open Source Breakthroughs in Life Sciences and Precision Medicine</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://opensource101.com/raleigh/">Open Source 101 - Raleigh, North Carolina, United States</a></td>
+  <td>Stephan Kang</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 21st 2018</span></td>
+  <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/RNA_Sequencing_2018.pdf">RNA Sequencing and Differential Expression</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 26th 2018</span></td>
+  <td><a href="http://www.denbi.de/22-training-cat/training-courses/460-galaxy5">5th Galaxy high-throughput sequencing (HTS) data analysis workshop</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/>University of Freiburg, Freiburg Germany</td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Freiburg Galaxy Team</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 7th 2018</span></td>
+  <td><a href="http://www.denbi.de/22-training-cat/training-courses/469-introduction-to-rna-seq-data-analysis-with-galaxy">Introduction to RNA-Seq data analysis with Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/>Am Botanischen Garten, Kiel, Germany</td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Andrea Bagnacani, Markus Wolfien</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 14th 2018</span></td>
+  <td><a href="https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference">Galaxy community kickoff meeting and Galaxy User Conference</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.openstreetmap.org/?mlat=48.00189&amp;mlon=7.84628#map=17/48.00189/7.84628">Freiburg, Germany</a></td>
+  <td>ELIXIR Galaxy Working Group</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 20th 2018</span></td>
+  <td><a href="https://www.melbournebioinformatics.org.au/training-events/rna-seq-dge-analysis-galaxy-gvl/#more-1720">RNA-Seq Differential Gene Expression Analysis using Galaxy and the GVL</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 20th 2018</span></td>
+  <td><a href="https://www.melbournebioinformatics.org.au/training-events/intro-galaxy-gvl/">Introduction to Galaxy and the GVL</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 21st 2018</span></td>
+  <td><a href="https://www.melbournebioinformatics.org.au/training-events/variant-calling-galaxy-gvl/#more-1012">Variant Calling with Galaxy &amp; the GVL for beginners</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 21st 2018</span></td>
+  <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Alignment_2018.pdf">Alignment, Visualisation and Variant Calling</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 3rd 2018</span></td>
+  <td><a href="http://galaxyafrica.sanbi.ac.za/">Galaxy Africa</a></td>
+  <td><img style="float:right" src="/images/icons/AF.png"/><a href="http://www.sanbi.ac.za/">SANBI, University of the Western Cape, Cape Town, South Africa</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>galaxyafrica@sanbi.ac.za</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 10th 2018</span></td>
+  <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733&amp;nomModule=Galaxy--Traitement-de-donnees-de-sequences-par-Galaxy-module-7/8">Galaxy : Traitement de données de séquences par Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/zoom?contentId=12699">AGROCAMPUS OUEST, Campus de Rennes, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Yvan Le Bras, Sandrine LAGARRIGUE, formco@agrocampus-ouest.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 22nd 2018</span></td>
+  <td><a href="http://conf.abrf.org/sw2-galaxy-platform-accessible-core-laboratory-solution-proteogenomic-analysis-and-informatics">The Galaxy Platform as an Accessible, Core Laboratory Solution for Proteogenomic Analysis and Informatics</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://conf.abrf.org/">ABRF 2018, Myrtle Beach, South Carolina, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Pratik Jagtap</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.tacc.utexas.edu/">TACC, Austin, Texas, United States</a></td>
+  <td>help@sciencegateways.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors">Big Genomics Data Skills Training course</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.jax.org/about-us/locations/farmington">JAX Genomic Medicine, Farmington, Connecticut, United States</a></td>
+  <td>Charlie Wray</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 25th 2018</span></td>
+  <td><a href="https://gccbosc2018.sched.com">GCC2018 &amp; BOSC 2018</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+</tbody>
+</table>
 
 ----
 
@@ -291,15 +418,3 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From [John Chilton](/src/people/john-chilton/index.md):
   * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/) 
-
-
-
-* Would you like to learn some Python or JavaScript and improve Galaxy at the same time? Check out our collection of very friendly issues tagged [help wanted](https://github.com/galaxyproject/galaxy/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen). Please feel free to ask, comment, and request guidance. 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md)
-  *  `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
-  * Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/src/people/nate/index.md) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
-* From [John Chilton](/src/people/john-chilton/index.md)
-  * WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...   
-  * [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors. 
-  * Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!
-
