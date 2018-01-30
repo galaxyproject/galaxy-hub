@@ -248,6 +248,10 @@ January was a big month foe Galaxy in the cloud:
 
 The *Galactic* and *Stellar* publications added in January were:
 
+* [META-pipe cloud setup and execution](https://f1000research.com/articles/6-2060/v2), Agafonov A, Mattila K, Tuan CD *et al.* *F1000Research* 2018, 6(ELIXIR):2060 (doi: 10.12688/f1000research.13204.2)
+* [Precise temporal regulation of alternative splicing during neural development](https://www.biorxiv.org/content/early/2018/01/14/247601), Sebastien M Weyn-Vanhentenryck, Huijuan Feng, Dmytro Ustianenko, Rachel Duffie, Qinghong Yan, Martin Jacko, Jose C Martinez, Marianne Goodwin, Xuegong Zhang, Ulrich Hengst, Stavros Lomvardas, Maurice S Swanson, Chaolin Zhang. *bioRxiv* 247601; doi: 10.1101/247601
+* [A-GAME: improving the assembly of pooled functional metagenomics sequence data](https://doi.org/10.1186/s12864-017-4369-z), Matteo Chiara, Antonio Placido, Ernesto Picardi, Luigi Ruggiero Ceci, David Stephen Horner and Graziano Pesole, *BMC Genomics* 2018 19:44 doi: 10.1186/s12864-017-4369-z
+
 
 ## Publication Topics
 
