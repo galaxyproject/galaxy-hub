@@ -235,7 +235,7 @@ January saw one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 # Galaxy Cloud News
 
-January was a big month foe Galaxy in the cloud:
+January was a big month for Galaxy in the cloud:
 
 * [Galaxy Cloud embraces the GVL](/src/news/2018-01-22-gvl430/index.md)
 * [All-new CloudLaunch release](/src/news/2018-01-05-cloudlaunch/index.md)
