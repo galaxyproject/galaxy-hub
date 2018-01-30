@@ -269,6 +269,7 @@ The *Galactic* and *Stellar* publications added in January were:
 
 The Galaxy is expanding! Please help it grow.
 
+* The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
@@ -278,9 +279,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month.
-
-There are 2 new public servers:
+There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month, including two new public servers:
 
 [<img class="pull-right" src="/src/public-galaxy-servers/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
 
@@ -298,6 +297,10 @@ A-Game is supported by [BEACON](https://bioscienzebio.unimi.it/gruppo.php?id=26)
 [Splicescope](http://galaxy.splicebase.net/) is a tool-publishing server for predicting neuronal maturation using splicing profiles. Splicescope takes either an exon inclusion ratio matrix file or junction bed files from multiple samples as input and outputs a zip file including prediction results, PCA analysis results and a PCA plot based on reference samples and an html file to summarize the prediction.
 
 Splicescope can be accessed anonymously, or with an account, and anyone can create an account.  It is supported by the [Zhang Laboratory](https://zhanglab.c2b2.columbia.edu/index.php/Main_Page), Department of Systems Biology, the Department of Biochemistry and Molecular Biophysics, and the Motor Neuron Center at Columbia University Medical Center.
+
+## New video from the Galaxy-P team
+
+* [Community-driven data analysis training for Metaproteomics](https://www.youtube.com/watch?v=Vywt_-D5Kek)
 
 ## Public Servers in Publications
 
@@ -422,5 +425,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
+* The semi-annual update of the project statistics page is done.  [See what's new](/src/galaxy-project/statistics/index.md).
 * From [John Chilton](/src/people/john-chilton/index.md):
   * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/) 
