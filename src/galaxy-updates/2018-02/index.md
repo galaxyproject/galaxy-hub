@@ -79,7 +79,7 @@ This is an opportunity to learn from leading bioinformaticists, systems administ
 Our programme will start with keynote speakers introducing biology, data science and Galaxy. In the afternoon there will be tutorials on biological data analysis using Galaxy.  The Wednesday
 morning session will include presentations on genomic and metagenomic data analysis workflows and uses of Galaxy. In the afternoon we will continue our tutorial series. The final day of the meeting will focus on the technology underlying Galaxy and biological data analysis with a focus on containerisation, software packaging for easier use and cloud deployment. Tutorials on this day will focus on similar topics.
 
-Registration is not yet open. In the meantime please complete [this form](https://docs.google.com/forms/d/1XdFmiFzKYnGxXcJeRzPRgkWPTGGQ5pSwK5XupVMSAbs) to be added to the conference mailing list.
+**[Register now](https://www.quicket.co.za/events/39729-galaxy-africa-2018/)**.
 
 ## Galaxy Administrators Course Report
 
