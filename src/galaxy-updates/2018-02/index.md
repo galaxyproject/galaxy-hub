@@ -84,7 +84,7 @@ Registration is not yet open. In the meantime please complete [this form](https:
 [<img  src="/src/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
 </div>
 
-A very successful and inspiring Ggalaxy admin workshop was held in Oslo in January, Thanks to 30+ highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/src/people/bjoern-gruening/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), and a remote  [Nate Coraor](/src/people/nate/index.md) as instructors!  Thanks too to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
+A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/src/people/bjoern-gruening/index.md) and [Enis Afgan](/src/people/enis-afgan/index.md) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
 
 Plenty of materials for Galaxy administration are now [up to date and available online](https://github.com/galaxyproject/dagobah-training).  The workshop included a sneak [preview of what's coming in the 18.01 release](https://galaxyproject.github.io/dagobah-training/2018-oslo/whatsnew/18.01.html#1) from [Nate Coraor](/src/people/nate/index.md).
 
