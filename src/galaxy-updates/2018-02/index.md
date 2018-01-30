@@ -38,6 +38,8 @@ We are happy to have announced several [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 GCCBOSC attendees may be interested to hear that, in addition to research articles, *PeerJ* welcomes articles describing bioinformatics software tools. These articles provide descriptions of new software tools (or significant new functionality in existing software) of interest to the bioinformatics and/or computational biology communities. You can browse the [PeerJ Bioinformatics Software Tools Collection](http://bit.ly/PeerJBioinfo). Submit your bioinformatics manuscript [here](https://peerj.com/manuscripts/start/).
 
+*PeerJ* is also excited to offer APC discounts to all GCCBOSC attendees - we'll be in touch with more details soon!
+
 <div class="pull-right">
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
