@@ -75,7 +75,7 @@ If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, th
 
 The ELIXIR Galaxy community will have a [kickoff meeting](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) 14-16th March 2018, in Freiburg/Germany. We will combine this with a Galaxy User Conference and the **official launch of the usegalaxy.eu server.**
 
-This event will also be coordinated with the [EMBL Australia](http://www.emblaustralia.org/) to also **launch usegalaxy.au at the same time.**
+This event will also be coordinated with the [EMBL Australia](http://www.emblaustralia.org/) to also **launch usegalaxy.org.au at the same time.**
 
 Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discuss and plan our roadmap in 2018 and 2019. Thursday and Friday (15th, 16th) will be a conference where Galaxy users talk about their research and use-cases. However, a few spots we will reserved for official talks from ELIXIR.
 
