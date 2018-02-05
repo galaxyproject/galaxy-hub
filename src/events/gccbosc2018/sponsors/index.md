@@ -13,11 +13,11 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Silver Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="200" />](https://bioinformatics.uoregon.edu/)
+[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="200" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) 
 
 ## Bronze Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="200" />](https://peerj.com/)
+[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="180" />](https://peerj.com/)
 
 # CollaborationFest Sponsors
 
