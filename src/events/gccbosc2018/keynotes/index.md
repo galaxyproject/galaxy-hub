@@ -5,7 +5,7 @@
 
 Both conferences have a tradition of excellent keynote speakers that address the big picture and current trends in bioinformatics. GCC BOSC is delighted to continue this tradition in 2018.
 
-## BOSC / GCC Keynote: Fernando Pérez
+## BOSC / GCC Joint Keynote: Fernando Pérez
 
 **[Berkeley Institute for Data Science](https://bids.berkeley.edu/), [University of California Berkeley](https://berkeley.edu/)**
 
