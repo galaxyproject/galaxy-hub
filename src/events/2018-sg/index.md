@@ -1,8 +1,16 @@
 ---
 title: Swiss German Galaxy Tour/Day 2018
+date: '2018-11-22'
+days: 2
+tease:
+continent: EU
+location: Freiburg, Germany
+location_url:
+external_url:
+image:
+gtn: false
+contact: Hans-Rudolf Hotz, Björn Grüning
 ---
-
-
 
 
 There will be a *Swiss-German Galaxy Tour* on 22. and 23 November 2018 in Freiburg (Germany) . 
