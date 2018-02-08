@@ -1,4 +1,6 @@
 /* global require */
+/* global __dirname */
+/* global process */
 
 // Build with Metalsmith
 let metalsmith = require("metalsmith");
@@ -325,11 +327,11 @@ let ms = metalsmith(__dirname)
 
 let argv = require("minimist")(process.argv.slice(2));
 
-if (argv["serve"]) {
+if (argv.serve) {
     ms.use(require("metalsmith-serve")({ port: 8080 }));
 }
 
-if (argv["check"]) {
+if (argv.check) {
     ms.use(
         require("metalsmith-broken-link-checker")({
             allowRedirects: true,
@@ -338,22 +340,23 @@ if (argv["check"]) {
     );
 }
 
-if (argv['watch']) {
+if (argv.watch) {
     ms.use(
-        require('metalsmith-watch')({
+        require("metalsmith-watch")({
             paths: {
                 "${source}/**/*": true,
                 "${source}/config/menu.yaml": true,
                 "layouts/**/*": "**/*.md"
             },
-        livereload: true
+            livereload: true
         })
-    )
+    );
     ms.use(
-        require('metalsmith-serve')({
-        port: 8080,
-        host: "0.0.0.0"
-        }))
+        require("metalsmith-serve")({
+            port: 8080,
+            host: "0.0.0.0"
+        })
+    );
 }
 
 ms.build(function(e) {
