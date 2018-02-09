@@ -5,7 +5,7 @@
 Looking for something to do during your stay here? Check out the [Travel Portland site](http://www.travelportland.com/) for popular events, sightseeing, dining, and more!
 
 
-# Transportation
+# Getting to GCC/BOSC-2018
 
 ## Public transportation:
 
@@ -24,6 +24,16 @@ Radio Cab will show up in a clean, well maintained taxi cab and the driver/veter
 **[Lucky Limo](http://www.besolucky.com/)**, *+1 503-254-0010*<br />
 Luxury ground transportation services with vehicles ranging from luxurious sedans and towncars to 33 passenger coach buses
 
+# Lunches are included with your GCC/BOSC-2018 registration!
+
+On each day of the event, lunches will be provided to registered
+GCC/BOSC-2018 attendees in the Reed College Commons Cafe. Lunches will be
+catered by the Reed College caterer,
+[Bon Appetit](http://reed.cafebonappetit.com/). The online form for conference
+registration will have a text-box for indicating any relevant dietary
+restrictions; the GCC/BOSC-2018 organizers will do their best to work with Reed
+Dining and Food Service to provide lunch options consistent with dietary
+restrictions indicated in the registration form.
 
 # Recommended pubs and restaurants near Reed:
 
