@@ -1,5 +1,5 @@
 ---
-title: "Supporting Highly Scalable Scientific Data Analysis with Galaxy"
+title: "Delivering Data Analysis Environments on Multiple Clouds"
 date: '2018-02-12'
 days: 3
 tease: ""
@@ -9,6 +9,6 @@ location_url: http://www.triconference.com/
 external_url: http://www.triconference.com/Converged-IT-and-the-Cloud/#Day1
 image: 
 gtn: false
-contact: James Taylor
+contact: Enis Afgan
 ---
 
