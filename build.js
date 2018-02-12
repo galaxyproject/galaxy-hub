@@ -340,8 +340,7 @@ if (argv.watch) {
             paths: {
                 "${source}/**/*": true,
                 "layouts/**/*": "**/*.md"
-            },
-            livereload: true
+            }
         })
     );
     ms.use(
