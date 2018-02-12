@@ -25,6 +25,9 @@ build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
 serve: npm-deps bower ## Serve locally for viewing
 	npm run serve
 
+watch: npm-deps bower ## Watches/serves locally.  Useful for local development.
+	npm run watch
+
 check: npm-deps bower ## Check for broken links
 	npm run check
 
