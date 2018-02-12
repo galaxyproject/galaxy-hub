@@ -30,6 +30,7 @@
     "metalsmith-serve": "^0.0.3",
     "metalsmith-timer": "0.0.2",
     "metalsmith-uglify": "^1.0.1",
+    "metalsmith-watch": "^1.0.3",
     "minimist": "^1.1.1",
     "moment": "^2.10.0",
     "pug": "^2.0.0-beta6",
@@ -38,6 +39,7 @@
   "scripts": {
     "build": "DEBUG=metalsmith-timer node build.js",
     "serve": "DEBUG=metalsmith-timer node build.js --serve",
-    "check": "DEBUG=metalsmith-timer node build.js --check"
+    "check": "DEBUG=metalsmith-timer node build.js --check",
+    "watch": "DEBUG=metalsmith-timer node build.js --watch"
   }
 }
