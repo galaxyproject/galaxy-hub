@@ -227,12 +227,6 @@ let timer = require("metalsmith-timer");
 
 let ms = metalsmith(__dirname)
     .use(
-        require("metalsmith-metadata")({
-            menu: "config/menu.yaml"
-        })
-    )
-    .use(timer("metalsmith-metadata"))
-    .use(
         require("metalsmith-collections")({
             news: {
                 pattern: "news/*/*.md",
@@ -345,7 +339,6 @@ if (argv.watch) {
         require("metalsmith-watch")({
             paths: {
                 "${source}/**/*": true,
-                "${source}/config/menu.yaml": true,
                 "layouts/**/*": "**/*.md"
             },
             livereload: true

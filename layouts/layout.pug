@@ -128,25 +128,71 @@ body
               img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
         div.navbar-collapse.collapse
             ul.nav.navbar-nav
-                each entry in menu
-                    if entry.links
-                        li.dropdown
-                            a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
-                                span.caret
-                            ul.dropdown-menu
-                                each val in entry.links
-                                    li
-                                        if val.link.substring(0,4) == "http"
-                                            a( href=val.link ) #{val.title}
-                                        else
-                                           a( href="/" + val.link + "/" ) #{val.title}
-                    else
-                        if entry.link
-                            li: a( href="/" + entry.link + "/") #{entry.title}
-                        else
-                            li: a( href="#") #{entry.title}
-
-
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                        | Use
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='/main/') Main Galaxy
+                        li
+                            a(href='/public-galaxy-servers/') Public Servers
+                        li
+                            a(href='/cloud/') Cloud
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                        | Community
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='/community/') About
+                        li
+                            a(href='/events/') Events
+                        li
+                            a(href='/news/') News
+                        li
+                            a(href='/blog/') Blog
+                        li
+                            a(href='/publication-library/') Publications
+                        li
+                            a(href='/galaxy-project/statistics/') Stats
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                        | Education
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='/learn/') Learn Galaxy
+                        li
+                            a(href='/teach/') Teach
+                        li
+                            a(href='/teach/gtn/') Training Network
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                        | Deploy & Develop
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='/admin/get-galaxy/') Get Galaxy
+                        li
+                            a(href='/admin/') Administration
+                        li
+                            a(href='/docs/') Documentation
+                        li
+                            a(href='/tools/') Tools
+                        li
+                            a(href='/develop/') Development
+                        li
+                            a(href='/develop/api/') API
+                li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                        | Support
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                            a(href='/support/') Hub
+                        li
+                            a(href='/support/biostar/') Galaxy Biostar
             ul.nav.navbar-nav.navbar-right
                 li
                     form(class='navbar-form' method='get' action='/search/')
