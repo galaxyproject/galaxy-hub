@@ -8,6 +8,12 @@ mixin renderToc(items)
                 if toc_item.children.length > 0
                     +renderToc(toc_item.children)
 
+mixin renderTeaseOrSlice(item)
+    if item.tease
+        | #{item.tease}
+    else if item.contents && typeof item.contents === "string"
+        | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
+
 mixin renderPageTitle()
     if !skip_title_render
         h1.pageTitle #{ title }
