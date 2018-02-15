@@ -4,7 +4,7 @@
 
 <img class="pull-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
-GCC BOSC 2018 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work event where our communities gather to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
+GCC BOSC 2018 will finish with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gather to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
 Both BOSC/OBF and GCC have had collaborative events in the past. We'll be continuing these traditions, but also trying some new things this year:
 
@@ -12,20 +12,22 @@ Both BOSC/OBF and GCC have had collaborative events in the past. We'll be contin
   everyone to get oriented with potential projects at the
   [Training days](https://galaxyproject.org/events/gccbosc2018/training/) and conference.
 * CollaborationFest will happen in two stages
-  * Friday & Saturday: There will be lots of collaborative work, but also lots of learning about projects and software.
-  * Sunday & Monday: The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
+  * Friday & Saturday: **CollaborationFest: Core:**
+    * There will be lots of collaborative work, but also lots of learning about projects and software.
+  * Sunday & Monday: **CollaborationFest: Encore**
+    * The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
 
 CollaborationFest will have three tracks that will meet both jointly and separately:
 
-* *OBF:* Contribute to *any* open source bioinformatics project.
+* **OBF:** Contribute to *any* open source bioinformatics project.
   CollaborationFest is not Galaxy specific and we welcome anyone interested in
   open source projects. See last year's
   [OpenBio Codefest](https://www.open-bio.org/wiki/Codefest_2017) for examples
   of projects.
-* *Galaxy development (Galaxy Dev):* Learn how Galaxy and Galaxy code development works, and contribute to the Galaxy code base
-* *Galaxy documentation, analysis, and training (Galaxy DAT):* Focus on expanding Galaxy community resources like training materials and documentation.
+* **Galaxy development (Galaxy Dev):** Learn how Galaxy and Galaxy code development works, and contribute to the Galaxy code base
+* **Galaxy documentation, analysis, and training (Galaxy DAT):** Focus on expanding Galaxy community resources like training materials and documentation.
 
-While these three communities will exist, the groups will be fluid and highly interactive with each other.  There will be a joint gathering of all communities at least once a day.
+These three communities will be fluid and highly interactive with each other.  There will be a joint gathering of all communities at least once a day.
 
 # Event goals, and who should attend
 
@@ -39,7 +41,7 @@ CollaborationFest's goals are much wider:
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to register (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to register (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
 You register for CollaborationFest at the same time you register for other GCCBOSC events.
 
