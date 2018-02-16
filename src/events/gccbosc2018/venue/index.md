@@ -1,13 +1,72 @@
 {{> Events/GCCBOSC2018/Header }}
 
-# Welcome to Portland, Oregon!
+# Welcome to Reed College and Portland, Oregon!
 
-Looking for something to do during your stay here? Check out the [Travel Portland site](http://www.travelportland.com/) for popular events, sightseeing, dining, and more!
+All GCCBOSC 2018 events will be at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland).
 
+GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed.edu/cep/venues/index.html):
 
-# Getting to GCC/BOSC-2018
+* The Performing Arts Building
+* Eliot Chapel
+* Reed Commons
+* Vollum College Center Lecture Hall and Classrooms
 
-## Public transportation:
+# Housing
+
+**The housing booking site will open shortly.**
+
+Conference housing is on campus in two Reed College dorm complexes.
+
+## Old Dorm Block
+
+* On the main campus and adjacent to the conference venues
+* Older dorms
+* Not air conditioned (see this Portland Climate graph) 
+* Not ADA compliant
+* Open for all events
+* Cheapest option
+
+## Sitka Block
+
+* A less than 10 minute walk to the conference venues
+* Newer dorms
+* Air conditioned
+* ADA compliant
+* Really nice common spaces
+* Not open during CollaborationFest: Encore
+* Around $10 / night more costly than ODB
+
+## Both blocks
+
+* Include breakfast at Reed Commons
+* Have shared, gender specific bathrooms
+* Come with a bed, linens, towels, desk, and chair
+* Have common spaces with a limited kitchen
+* Bring your own soap and shampoo
+* Minors are prohibited from staying in the dorms (see Other Options below)
+
+## Nightly rates
+
+Rooms are cheaper the longer you stay.
+
+| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
+| ODB | $68.54 | $61.79 | $59.54 | $58.41 | $57.74 | $57.29 | $56.96 | $56.72 | $56.54 |
+| Sitka | $78.54 | $71.79 | $69.54 | $68.41 | $67.74 | $67.29 | $66.96 |  |  |
+
+## Double Rooms
+
+There are a limited number of double rooms available in each block.  Double rooms have two sets of furniture, including two twin beds.  If you are interested in booking a double room then please [contact the organizers](/src/events/gccbosc/organizers/index.md) and we will send you a custom booking link.
+
+## Other Options
+
+If you prefer to stay elsewhere, Reed College has a [list of recommended hotels](https://www.reed.edu/accommodations.html), many offering a discount for those attending events at Reed. The Reed Campus can be reached via [public transit](#public-transportation), and there is free parking on campus if you wish to drive.
+
+The conference will be offering subsidized childcare in downtown Portland on the Portland State University campus.  If you are using childcare it may be most convenient to stay close to the PSU campus.
+
+# Getting to GCCBOSC 2018
+
+## Public transportation
 
 [Trimet Public Transit](http://trimet.org/index.htm) provides bus, light rail, and commuter rail service in the Portland region. Their transportation options connect people with their community, while easing traffic congestion and reducing air pollution—making our region a better place to live.  See [Trimet](http://trimet.org/index.htm) for more information on fares, schedules, and maps.
 
@@ -24,18 +83,16 @@ Radio Cab will show up in a clean, well maintained taxi cab and the driver/veter
 **[Lucky Limo](http://www.besolucky.com/)**, *+1 503-254-0010*<br />
 Luxury ground transportation services with vehicles ranging from luxurious sedans and towncars to 33 passenger coach buses
 
-# Lunches are included with your GCC/BOSC-2018 registration!
 
-On each day of the event, lunches will be provided to registered
-GCC/BOSC-2018 attendees in the Reed College Commons Cafe. Lunches will be
-catered by the Reed College caterer,
-[Bon Appetit](http://reed.cafebonappetit.com/). The online form for conference
-registration will have a text-box for indicating any relevant dietary
-restrictions; the GCC/BOSC-2018 organizers will do their best to work with Reed
-Dining and Food Service to provide lunch options consistent with dietary
-restrictions indicated in the registration form.
+# Portland
 
-# Recommended pubs and restaurants near Reed:
+Looking for something to do during your stay here? Check out the [Travel Portland site](http://www.travelportland.com/) for popular events, sightseeing, dining, and more!
+
+## Dining
+
+Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock neighborhood](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064), and the rest of Portland.
+
+### Recommended pubs and restaurants near Reed
 
 **[Gigantic Brewing](https://www.giganticbrewing.com/)** *- .8 miles from Reed College*<br />
 Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: make the best IPA in Portland, Oregon and produce seasonal, exciting, flavorful beers, most of which will be brewed only once. Our goal is simultaneously to create new interpretations of classic styles and to ignore those same style guidelines completely and brew whatever our creative natures produce. 
@@ -52,9 +109,9 @@ A Reed hangout. Bar founded in 1947 but remodeled with new style, offering fresh
 **[Otto's Sausage Kitchen & Meat Market](https://www.ottossausage.com/)** - *0.5 miles from Reed College*<br />
 Longtime German deli with sidewalk picnic tables selling homemade sausages, hot dogs & sandwiches.
 
-# Our favorite restaurants:
+### Our favorite restaurants around Portland
 
-## Casual
+#### Casual
 
 **[10 Barrel Brewing](https://10barrel.com/pub/portland/)** - *1411 NW Flanders St*<br />
 Second location for the brewery, the main brewery is based in Bend, Oregon. Now owned by Anheuser-Busch. Very popular spot in NW Portland. There is a rooftop bar but it gets very crowded.
@@ -69,7 +126,7 @@ Happening pizzeria with wood-fired pies & top-shelf cocktails in a lively, music
 **[Podnah’s Pit](http://www.podnahspit.com/)** - *1625 NE Killingsworth St*<br />
 BBQ joint in NE Portland that was once awarded ‘restaurant of the year’. The owner is from Austin and does a nice job on the smoker. It can get very crowded and there often is a wait.
  
-## Fine dining
+#### Fine dining
 
 **[Accanto](http://accantopdx.com/)** - *2838 SE Belmont St*<br />
 Accanto serves Italian fare like handmade pasta, plus cocktails.
