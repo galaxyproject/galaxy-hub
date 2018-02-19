@@ -34,3 +34,15 @@ If you have a community specific query you can contact:
 * *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/), GCC2018 Co-Chair
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
+
+# GCC2018 Scientific Program Committee
+
+* *[Bérénice Batut](http://research.bebatut.fr/)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Carrie Ganote](https://www.researchgate.net/profile/Carrie_Ganote),* [Indiana University](https://www.indiana.edu/)
+* *[Jeremy Goecks](https://goeckslab.org/people/jeremy.html)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
+* *[Saskia Hiltemann](https://www.researchgate.net/profile/Saskia_Hiltemann)*, [Erasmus Medical Center, Erasmus University Rotterdam](https://www.erasmusmc.nl/research/?lang=en)
+* *[Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2)*, [University of Minnesota](https://www.umn.edu/), Committee Chair
+* *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
+* *[Anna Ritz](http://www.reed.edu/biology/ritz/index.html),* [Reed College](http://www.reed.edu/)
+* *[Margaret Staton](http://gst.tennessee.edu/people/meg-staton/)*, [University of Tennessee Knoxville](http://www.utk.edu/)
+* *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
