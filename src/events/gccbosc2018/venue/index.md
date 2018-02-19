@@ -21,7 +21,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 
 * On the main campus and adjacent to the conference venues
 * Older dorms
-* Not air conditioned (see this Portland Climate graph) 
+* Not air conditioned (see [this Portland Climate graph](https://en.wikipedia.org/wiki/Portland,_Oregon#Climate)) 
 * Not ADA compliant
 * Open for all events
 * Cheapest option

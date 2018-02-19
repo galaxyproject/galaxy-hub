@@ -24,7 +24,7 @@ You can pick and chose which events you'll attend when you register.
 
 *These rates are per training day.*
 
-| | Early | Advanced | Full |
+| | Early (by May 11) | Advanced (by June 1) | Full |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $63 | $75 | $125 |
 | Non-Profit      | $83 | $100 | $150
@@ -34,7 +34,7 @@ You can pick and chose which events you'll attend when you register.
 
 *You'll be able to attend presentations at both meetings.*
 
-| | Early | Advanced | Full |
+| | Early (by May 11) | Advanced (by June 1) | Full |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $138 | $165 | $275 |
 | Non-Profit | $183 | $220 | $330 |
