@@ -1,8 +1,12 @@
 {{> Events/GCCBOSC2018/Header }}
 
+<div class='center' style="font-size: large;">
+**[Book housing now](https://gccbosc2018housing.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/).**
+</div><br />
+
 # Welcome to Reed College and Portland, Oregon!
 
-All GCCBOSC 2018 events will be at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland).
+All GCCBOSC 2018 events will be at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland), Oregon.
 
 GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed.edu/cep/venues/index.html):
 
@@ -12,8 +16,6 @@ GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed
 * Vollum College Center Lecture Hall and Classrooms
 
 # Housing
-
-**The housing booking site will open shortly.**
 
 Conference housing is on campus in two Reed College dorm complexes.
 
