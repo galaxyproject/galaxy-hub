@@ -4,7 +4,9 @@ title: 2018 GCCBOSC2018 Conferences: Register
 
 {{> Events/GCCBOSC2018/Header }}
 
-**[Register now](https://gccbosc2018.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/) .**
+<div class='center' style="font-size: large;">
+**[Register now](https://gccbosc2018.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/).**
+</div>
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States.  The [first day of training](https://gccbosc2018.sched.com/2018-06-25/overview/) is focused on Galaxy and offers two introductory tracks, one for researchers analyzing their data, and one for Galaxy admins.
 
@@ -24,7 +26,7 @@ You can pick and chose which events you'll attend when you register.
 
 *These rates are per training day.*
 
-| | Early (by May 11) | Advanced (by June 1) | Full |
+| | Early (by May 11) | Advanced (by June 1) | Full (after June 1) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $63 | $75 | $125 |
 | Non-Profit      | $83 | $100 | $150
@@ -34,7 +36,7 @@ You can pick and chose which events you'll attend when you register.
 
 *You'll be able to attend presentations at both meetings.*
 
-| | Early (by May 11) | Advanced (by June 1) | Full |
+| | Early (by May 11) | Advanced (by June 1) | Full (after June 1) |
 | --- | ---: | ---: | ---: |
 | Student/postdoc | $138 | $165 | $275 |
 | Non-Profit | $183 | $220 | $330 |
@@ -66,3 +68,10 @@ We don't yet know if lunch will be provided during [CollaborationFest](/src/even
 ## Dinner
 
 Except for the conference dinner (included with meeting registration), dinner is not included in your event registrations.  There are a number of restaurants and pubs in the [nearby Woodstock neighborhood](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064), including [these recommendations](/src/events/gccbosc2018/venue/#recommended-pubs-and-restaurants-near-reed).  The [Reed College Commons Cafe](http://reed.cafebonappetit.com/cafe/commons-cafe/) will also be open on select nights for dinner.
+
+# Travel Fellowships
+
+Both OBF and the Galaxy Community Fund are offering fellowships to attend GCCBOSC 2018:
+
+* [OBF Travel Fellowships](https://github.com/OBF/obf-docs/blob/master/Travel_fellowships.md), deadline is April 15.
+* [GCC2018 Fellowships](/src/news/2018-02-20-gcc-fellowships/index.md), first deadline is March 16.
