@@ -5,7 +5,7 @@ title: Missing History
 
 # My History is missing!
 
-If you were working with an unregistered account, the History could really be now lost to you_. [Get Registered](http://wiki.galaxyproject.org/support/account) before starting again!
+If you were working with an unregistered account, the History could really be now lost to you. [Get Registered](http://wiki.galaxyproject.org/support/account) before starting again!
 
 **Find any History in your account**
 
