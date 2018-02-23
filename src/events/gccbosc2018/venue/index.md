@@ -94,7 +94,7 @@ Looking for something to do during your stay here? Check out the [Travel Portlan
 
 ## Dining
 
-Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock] (https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR) neighborhoods, and the rest of Portland.
+Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock] (https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
 
 ### Recommended pubs and restaurants near Reed
 
