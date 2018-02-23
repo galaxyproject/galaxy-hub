@@ -60,7 +60,7 @@ Rooms are cheaper the longer you stay.
 
 ## Double Rooms
 
-There are a limited number of double rooms available in each block.  Double rooms have two sets of furniture, including two twin beds.  If you are interested in booking a double room then please [contact the organizers](/src/events/gccbosc/organizers/index.md) and we will send you a custom booking link.
+There are a limited number of double rooms available in each block.  Double rooms have two sets of furniture, including two twin beds.  To book a double room, you'll need to line up a roommate before booking the room, and only one of you should book the room.  Breakfast is included for both you and your roommate.  If your roommate is a different gender than you, then their bathroom may be on a different floor than the room.  Your roommate is not required to also be registered for GCCBOSC.
 
 ## Other Options
 
