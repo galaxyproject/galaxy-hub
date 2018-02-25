@@ -41,6 +41,8 @@ Conference housing is on campus in two Reed College dorm complexes.
 ## Both blocks
 
 * Include breakfast at Reed Commons
+* Offer single, double and triple-bed rooms
+* Come with a bed, linens, towels, desk, and chair for each resident
 * Have shared, gender specific bathrooms
 * Come with a bed, linens, towels, desk, and chair
 * Have common spaces with a limited kitchen
@@ -49,18 +51,41 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Checkin during [conference desk hours](https://gccbosc2018.sched.com/overview/type/A.+Help)
 * Checkin outside of conference desk hours is also possible by special arrangement.  [Contact the organizers](/src/events/gccbosc/organizers/index.md).
 
+
 ## Nightly rates
 
-Rooms are cheaper the longer you stay.
+Rooms costs drop per night the longer you stay:
+
+### Single occupancy rates
 
 | # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $68.54 | $61.79 | $59.54 | $58.41 | $57.74 | $57.29 | $56.96 | $56.72 | $56.54 |
-| Sitka | $78.54 | $71.79 | $69.54 | $68.41 | $67.74 | $67.29 | $66.96 |  |  |
+| ODB | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
+| Sitka | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
 
-## Double Rooms
+### Double and triple rooms
 
-There are a limited number of double rooms available in each block.  Double rooms have two sets of furniture, including two twin beds.  To book a double room, you'll need to line up a roommate before booking the room, and only one of you should book the room.  Breakfast is included for both you and your roommate.  If your roommate is a different gender than you, then their bathroom may be on a different floor than the room.  Your roommate is not required to also be registered for GCCBOSC.
+There are a limited number of double and triple occupancy rooms available in each block. **Shared rooms are discounted 20% for doubles, and 40% for triples.**  These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
+
+* You and your roommate(s) need to both register for housing, and to request each other as roommates. 
+* Breakfast is included for all roommates. 
+* If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room. 
+* Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events.
+
+**Double occupancy rates per bed per night**
+
+| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
+| ODB | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
+| Sitka | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+
+**Triple occupancy rates per bed per night**
+
+| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
+| ODB | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
+| Sitka | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+
 
 ## Other Options
 
