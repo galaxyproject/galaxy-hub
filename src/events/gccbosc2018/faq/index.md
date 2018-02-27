@@ -29,6 +29,8 @@ Send your request to *vasilevs [at] ohsu.edu*  and include your
 * date of birth (YYYY/MM/DD),
 * passport number, and
 * country of issuance,
+* registration confirmation number
+* title of your abstract submission
 
 In addition, a letter verifying your student status or employment status may be required to obtain a visa to enter the US. Please see [this template](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-employment-student-letter-example.docx) for an example.
 
