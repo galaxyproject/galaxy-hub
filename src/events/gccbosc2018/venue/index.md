@@ -70,7 +70,7 @@ There are a limited number of double and triple occupancy rooms available in eac
 * You and your roommate(s) need to both register for housing, and to request each other as roommates. 
 * Breakfast is included for all roommates. 
 * If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room. 
-* Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events.
+* Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events).
 
 **Double occupancy rates per bed per night**
 
