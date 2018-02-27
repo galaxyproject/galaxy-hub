@@ -24,7 +24,7 @@ For [international visitors requiring a visa](https://help.cbp.gov/app/answers/d
 
 Send your request to *vasilevs [at] ohsu.edu*  and include your
 
-* full (given/legal) name,
+* full (given/legal) name (as it appears in your passport),
 * institution/company name and address,
 * date of birth (YYYY/MM/DD),
 * passport number, and
