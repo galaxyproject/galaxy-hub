@@ -86,6 +86,15 @@ There are a limited number of double and triple occupancy rooms available in eac
 | ODB | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
 | Sitka | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
 
+### Guests
+
+You don't have to be attending GCCBOSC 2018 events to book GCCBOSC 2018 lodging in the Reed College residence halls. Guests are welcome and encouraged.  There are a few requirements for guest lodging:
+
+* Guests need to share a room with the conference attendee that is hosting them as a guest.
+* The the conference participant *and* guest(s) need to register and pay for housing.
+  * The guest(s) and the conference participant need to book either a double or triple room
+  * The conference participant and guest(s) need to name each other as roommates when booking housing.
+  * Anyone staying on campus must be at least 18 years old.
 
 ## Other Options
 
