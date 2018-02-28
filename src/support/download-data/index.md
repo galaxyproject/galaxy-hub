@@ -23,6 +23,8 @@ Related topics
 
 **Command-line option:** from a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
 
+> Note that this works for indivual datasets only. Dataset collections (complete) and datasets within collections cannot be retrieved with this method (currently - development for this feature is in progress).
+
 The direct download link to a dataset can be obtained by right clicking the
 floppy disk icon and choosing "Copy Link Location" (for most datasets) or
 "Download Dataset/Download bam_index" (for BAM datasets there are two
