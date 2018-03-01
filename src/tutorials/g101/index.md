@@ -8,7 +8,7 @@ Before diving into a practical exercise let us introduce several fundamental con
 
 According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including: 
 
- - **The Galaxy Software Famework**
+ - **The Galaxy Software Framework**
  - **The Public Galaxy Service**
 
 ### The Galaxy software framework
