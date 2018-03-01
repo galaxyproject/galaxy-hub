@@ -72,7 +72,7 @@ We are pleased to announce two of our keynote speakers:
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html). This month we are highlighting *F1000Research*:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html). This month we are highlighting *F1000Research* and the *Technology Association of Oregon*:
 
 ### F1000Research
 
@@ -80,9 +80,20 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 For the first time, the *Galaxy Community Conference* and *Bioinformatics Open Source Conference* are joining together for a unified event. To mark this occasion, the [BOSC Collection](https://f1000research.com/collections/BOSC) and the [Galaxy Gateway](https://f1000research.com/gateways/galaxy) on [F1000Research](https://f1000research.com/) will be publishing a series of articles in the run up to the conference in June and are now inviting contributions.  The submission deadline is April 30<sup>th</sup>, to ensure papers are published before GCCBOSC 2018 starts. If you are interested in contributing or have any other questions, please email [research@f1000.com](mailto:research@f1000.com).
 
+
+### Technology Association of Oregon
+
+[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+
+[Technology Association of Oregon](http://www.techoregon.org/) is the force behind the Oregon tech industry. Supporting entrepreneurs, connecting peers and decision makers, and helping grow the Northwest as a global hub for innovation. We are proud to be a leader in the regional technology community and offer many ways for individuals, companies, and community organizations to partner with us in Oregon and SW Washington.
+
+
 <div class="pull-right">
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+
+
+
 
 ### Call for sponsors!
 
