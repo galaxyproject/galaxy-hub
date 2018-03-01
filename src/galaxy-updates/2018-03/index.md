@@ -10,11 +10,11 @@ Welcome to the March 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 # GCCBOSC 2018
 [<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
-## Registration and housing are now open
+## Abstract submission, registration & housing are open
 
 We are pleased to announce that abstract submission and early registration for [GCCBOSC2018](https://gccbosc2018.sched.com/) are now open.
 
-* [Submit an abstract](https://easychair.org/conferences/?conf=gccbosc2018) (oral presentation abstracts due March 16)
+* **[Submit an abstract](https://easychair.org/conferences/?conf=gccbosc2018) (oral presentation abstracts due March 16)**
 * [Register](https://gccbosc2018.eventbrite.com)
 * [Book conference housing](https://gccbosc2018housing.eventbrite.com)
 
@@ -45,7 +45,7 @@ The second day has five parallel track, and covers a full spectrum of topics of 
 * [Introduction to Common Workflow Language](http://sched.co/Dn9R) 
 * [Conda and Containers](http://sched.co/Dn3G) 
 * [Galaxy Interactive Environments](http://sched.co/DnAc)
-* [Galaxy Architecture](http://sched.co/DnB7) |
+* [Galaxy Architecture](http://sched.co/DnB7) 
 
 ## Keynote speakers
 
@@ -129,7 +129,7 @@ The inaugural Galaxy Africa meeting represents the start of building a data inte
 
 If you would like to attend, but need financial assistance to get there, then you are encouraged to [apply for a conference fellowship](http://bit.ly/gxyafrica2018-apply).  Fellowship application review will start 10 March.  Fellowships are provided by the Galaxy Community Fund.
 
-# Select Upcoming events
+# Upcoming events
 
 These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
 
@@ -261,7 +261,7 @@ February had one new *[Galactic Blog](/src/blog/index.md)* entry:
 The *Galactic* and *Stellar* publications added in February were:
 
 * [GeneSeqToFamily: a Galaxy workflow to find gene families based on the Ensembl Compara GeneTrees](https://doi.org/10.1093/gigascience/giy005), Anil S Thanki, Nicola Soranzo, Wilfried Haerty, Robert P Davey. *GigaScience*, giy005, doi: 10.1093/gigascience/giy005
-* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](](http://dx.doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
+* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
 * [Mind your gaps: Overlooking assembly gaps confounds statistical testing in genome analysis](https://doi.org/10.1101/252973), Diana Domanska, Chakravarthi Kanduri, Boris Simovski, Geir Kjetil Sandve. *bioRxiv* 252973; doi: doi: 10.1101/252973
 * [MAJIQ-SPEL: web-tool to interrogate classical and complex splicing variations from RNA-Seq data](https://doi.org/10.1093/bioinformatics/btx565), Christopher J Green, Matthew R Gazzara, Yoseph Barash. *Bioinformatics*, Volume 34, Issue 2, 15 January 2018, Pages 300–302, doi: 10.1093/bioinformatics/btx565
 * [Low-pass single-chromosome sequencing of human small supernumerary marker chromosomes (sSMCs) and *Apodemus* B chromosomes](https://link.springer.com/article/10.1007/s00412-018-0662-0), Makunin, A.I., Rajičić, M., Karamysheva, T.V. et al. *Chromosoma* (2018). doi: 10.1007/s00412-018-0662-0
@@ -423,4 +423,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From Björn Grüning 
   * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html). 
-  * This is big: [Aysam Guerler](/src/people/aysam-guerler/index.md) has reworked the Galaxy visualization plugin architecture.
+  * This is big: [Aysam Guerler](/src/people/guerler/index.md) has reworked the Galaxy visualization plugin architecture.
