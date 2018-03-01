@@ -1,5 +1,5 @@
 ---
-title: Latest Tutorials and Trainings
+title: Latest Training Materials
 date: 2025-03-04
 ---
 The Galaxy community maintains a wide variety of trainings at [https://training.galaxyproject.org](https://training.galaxyproject.org).
