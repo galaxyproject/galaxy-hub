@@ -24,7 +24,7 @@ We are pleased to announce that abstract submission and early registration for [
 
 ## Training schedule set
 
-A big thank you to everyone who nominated topics, voted on topics, helped create workshop descriptions, and to the instructors who will be presenting in June.  All your efforts and input have helped us create [two full days of training at GCCBOSC]((https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All).
+A big thank you to everyone who nominated topics, voted on topics, helped create workshop descriptions, and to the instructors who will be presenting in June.  All your efforts and input have helped us create [two full days of training at GCCBOSC](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All).
 
 The first day has two tracks about Galaxy, each with three sessions:
 
