@@ -271,6 +271,9 @@ The *Galactic* and *Stellar* publications added in February were:
 
 The Galaxy is expanding! Please help it grow.
 
+* [Software Engineer - 8 months contract](https://www.sfbi.fr/content/software-engineer-8-months-contract-institut-pasteur), Institut Pasteur, Paris, France
+* [Développement d'outils bioinformatiques et statistiques pour l'analyse de l'air expiré en médecine par spectrométrie de masse en temps-réel](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA Saclay, France
+* [Ingénieur en développement de composants Galaxy pour la protéomique](https://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique-0), MaIAGE , INRA, Jouy-en-Josas, France
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
@@ -292,6 +295,10 @@ The [Galaxy-P Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) pr
 [Step-by-step training instructions and related information](http://z.umn.edu/supps1) and a [Metaproteomics Tutorial Video](http://z.umn.edu/mpvideo2018) are available.  The server can be accessed anonymously or you can create an account.  It is maintained by [@galaxyproteomics](https://github.com/galaxyproteomics).
 
 See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
+
+## deepTools 3.0 is live
+
+deepTools 3.0 is now available on the [deepTools Galaxy Server](https://deeptools.ie-freiburg.mpg.de/). Changes include a completely revamped normalization interface (and new methods), CRAM support, interactive plots,  a more homogenized interface, new tools and better MultiQC integration
 
 ## ARGs-OAP v2.0 published
 
@@ -403,3 +410,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
+* From Björn Grüning 
+  * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html). 
+  * This is big: [Aysam Guerler](/src/people/aysam-guerler/index.md) has reworked the Galaxy visualization plugin architecture.
