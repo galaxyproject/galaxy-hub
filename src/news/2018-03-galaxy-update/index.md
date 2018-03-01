@@ -19,10 +19,10 @@ The [March 2018 Galaxy News](/src/galaxy-updates/2018-03/index.md) brings much n
     * [F1000Research](/src/galaxy-updates/2018-03/index.md#f1000research)
     * [Technology Association of Oregon](/src/galaxy-updates/2018-03/index.md#technology-association-of-oregon)
     * [Call for sponsors](/src/galaxy-updates/2018-03/index.md#call-for-sponsors)
-    * *Continental* community meetings:
-      * [**Europe, 14-16 March, Freiburg**](/src/galaxy-updates/2018-03/index.md#elixir-galaxy-community-kickoff-and-meeting-march-freiburg)
-      * [**Africa, 3-5 April, Cape Town**](/src/galaxy-updates/2018-03/index.md#galaxy-africa-3-5-april-cape-town)
-        * Apply for a [Conference Fellowship](/src/galaxy-updates/2018-03/index.md#conference-fellowships) **by 10 March**.
+* *Continental* community meetings:
+  * [**Europe, 14-16 March, Freiburg**](/src/galaxy-updates/2018-03/index.md#elixir-galaxy-community-kickoff-and-meeting-march-freiburg)
+  * [**Africa, 3-5 April, Cape Town**](/src/galaxy-updates/2018-03/index.md#galaxy-africa-3-5-april-cape-town)
+    * Apply for a [Conference Fellowship](/src/galaxy-updates/2018-03/index.md#conference-fellowships) **by 10 March**.
 * [Upcoming events](/src/galaxy-updates/2018-03/index.md#upcoming-events) (on four continents)
 * New:
   * Galactic Blog post from Arun Decano: [Coding in the Winter Wonderland: Galaxy Admin Training](/src/galaxy-updates/2018-03/index.md#new-galactic-blog-entry-coding-in-the-winter-wonderland-galaxy-admin-training)
