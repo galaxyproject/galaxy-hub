@@ -15,6 +15,7 @@ Related topics
 
  * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
  * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/index.md)
+ * Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
  * FTP/FTPS tutorial: [**FTP Upload**](/src/ftp-upload/index.md)
 
 
