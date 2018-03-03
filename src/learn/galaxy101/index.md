@@ -277,7 +277,7 @@ Finally let's rename the workflow's output. For this:
 
 ### 4.5. Setting parameters "at runtime"
 
-What we are trying to do here is do design a generic workflow. This means that time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. To do this: 
+What we are trying to do here is do design a generic workflow. This means that from time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. To do this: 
 
 First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
 
