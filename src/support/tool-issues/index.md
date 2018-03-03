@@ -82,6 +82,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 - - - 
 ## Correction Completed History
 
+1. **Convert BIOM 2.1.5.0** Dependency issues (now resolved). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/usegalaxy-playbook/issues/63
 1. **Workflows** Multiple input modifications within the editor triggers a browser crash. Impacts Galaxy Main http://usegalaxy.org (and potentially other Galaxy flavors). Details: https://github.com/galaxyproject/galaxy/issues/2835
 1. **Upload** Fixed early 2017. Tool was problematically padding spaces to tabs when number of pasted columns varies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2602
 1. **Uniprot** Dependency fix on 5/15/17. Impacted Galaxy Main http://usegalaxy.org, locals, cloud (any install). Details: https://github.com/galaxyproject/galaxy/issues/3721
