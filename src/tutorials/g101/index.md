@@ -79,7 +79,7 @@ Then enter your information and you're in!
 
 ## Getting data
 
-Our research problem calls for using existing annotation of human genome (we will exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz. 
+Our research problem calls for using existing annotation of human genome (we will use exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz. 
 
 ### Getting coding exons
 
@@ -297,7 +297,7 @@ However, before we begin we need to prepare data. The problem is that browsers e
  1. replace data in column 5 with data from the last column
  2. remove duplicate IDs (retain only column 4 and remove column 7)
 
-The first step will set *score* columns of BED format to the number of SNPs and the second will reduce out data to six columns required by BED specification (BED6). Both of these steps can be performed with a single tools **Text manipulation &#8594; Cut** tool by cutting out columns 1, 2, 3, 4, 8, and 6:
+The first step will set *score* columns of BED format to the number of SNPs and the second will reduce out data to six columns required by BED specification (BED6). Both of these steps can be performed with a single tool **Text manipulation &#8594; Cut** tool (the second one in the list, not the first one) by cutting out columns 1, 2, 3, 4, 8, and 6:
 
 |        |
 |--------|
@@ -328,7 +328,7 @@ After changing the datatype the history item will reveal UCSC Browser link:
 |![](/src/tutorials/g101/item8.png)|
 |<small>**Figure 23**. After changing format to BED UCSC link becomes visible.</small>|
 
-Let's click in this "display at UCSC main" link. This open a new tag within your web browser:
+Let's click in this "display at UCSC main" link. This open a new tab within your web browser:
 
 |        |
 |--------|
@@ -403,7 +403,7 @@ The following image shows the workflow in its entirely. You can see that is exac
 |        |
 |--------|
 |![](/src/tutorials/g101/workflow_outline.png)|
-|<small>**Figure 32**. Complete view of the workflow we have just created. You can see that it is exactly the same as in out theoretical outline shown in Fig. 27.</small>|
+|<small>**Figure 32**. Complete view of the workflow we have just created. You can see that it is exactly the same as in the theoretical outline shown in Fig. 27.</small>|
 
 ### Hiding intermediate steps
 
@@ -459,7 +459,7 @@ Finally let's rename the workflow's output. For this:
 
 ### Setting parameters "at runtime"
 
-What we are trying to do here is do design a generic workflow. This means that time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. Here is how to do this. First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
+What we are trying to do here is do design a generic workflow. This means that from time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. Here is how to do this. First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
 
 |        |
 |--------|
@@ -479,7 +479,7 @@ Now let's save the changes we've made by clicking cog <i class="fa fa-cog" aria-
 
 Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome. 
 
-### Get back in the **Analysis** more
+### Get back in the **Analysis** mode
 
 Curently the Galaxy interface is in the **Workflow** mode. To get back to the **Analysis** simply click "Analyze Data" link in the top of Galaxy interface.
 
