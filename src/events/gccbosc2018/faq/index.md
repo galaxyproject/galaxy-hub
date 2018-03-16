@@ -52,11 +52,11 @@ Full refunds are available up to 30 days before the conference starts on June 25
 [<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
 </div>
 
-Subsidized childcare will be available for kids between 6 weeks and 12 years of age.  [Little Vikings Childcare](http://www.littlevikings.org/), the official child care provider for [Portland State University](https://www.pdx.edu/), will be providing childcare on the Portland Sate campus downtown.  Their goal is to provide your children with a comfortable, safe, and happy experience. Lunch, snacks and beverages are provided. There will be a fridge to store food/drinks from parents. Little Vikings enforces a strict **nut free** policy. 
+Subsidized child care will be available for children ages 6 weeks to 12 years of age will be provided by [Little Vikings child care](http://www.littlevikings.org/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings child care’s goal is to provide a safe, comfortable, joyful experience. Little Vikings will also be providing lunch, snacks and beverages for the children who are in our care.  We ask that parents bring pre-made bottles, and baby food and snacks for your infants and toddlers. **Little Vikings is a Nut Free Facility.**
 
-**Childcare will be available from 7:30am to 6:30pm, Monday-Friday, June 25-29.**  You will be able to get your kids checked in and then get to Reed in plenty of time for the start of each day's activities.  Since childcare closes at 6:30, it won't be available during any evening sessions such as birds-of-a-feather or the conference dinner.  However, *you are encouraged to bring your kids along to the evening sessions.*  Evening sessions and the conference dinner tend to be informal events and having kids around contributes to that vibe.
+**Childcare will be available from 7:30am to 6:30pm, Monday-Friday, June 25<sup>th</sup> - June 29<sup>th</sup>.**  You will have time to check in, get your children settled, and then get to Reed in plenty of time for the start of each day's activities.  Since childcare closes at 6:30, it won't be available during any evening sessions such as birds-of-a-feather or the conference dinner.  However, *you are encouraged to bring your kids along to the evening sessions.*  Evening sessions and the conference dinner tend to be informal events and having kids around contributes to that vibe.
 
-Registration for childcare is not yet open.  We hope to have it open before April.
+Registration for childcare is not yet open.  We plan to have it open before April.
 
 ## Infants and nursing mothers
 
@@ -71,7 +71,7 @@ If you have an infant and you want to have them with you during the day, then pl
 
 There are several other options within a 15 minute walk:
 
-* [University Place Hotel](https://www.pdx.edu/university-place/), 1136 SW Montgomery St, 14 minute walk (Portland State's own hotel, use code STAYPDX)
+* [University Place Hotel](https://www.pdx.edu/university-place/), 310 SW Lincoln St, 14 minute walk (Portland State's own hotel, use code STAYPDX)
 * [Hotel Modera](https://www.hotelmodera.com/)
 * [Duniway Hotel](http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html), 545 SW Taylor, 
 
