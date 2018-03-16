@@ -27,7 +27,7 @@ CollaborationFest will have three tracks that will meet both jointly and separat
 * **Galaxy development (Galaxy Dev):** Learn how Galaxy and Galaxy code development works, and contribute to the Galaxy code base
 * **Galaxy documentation, analysis, and training (Galaxy DAT):** Focus on expanding Galaxy community resources like training materials and documentation.
 
-These three communities will be fluid and highly interactive with each other.  There will be a joint gathering of all communities at least once a day.
+**These three communities will be fluid and highly interactive with each other.**  There will be a joint gathering of all communities at least once a day.
 
 # Event goals, and who should attend
 
@@ -39,11 +39,35 @@ CollaborationFest's goals are much wider:
 1. Extend, enhance, and otherwise improve open source bioinformatics code.
 1. Create, extend, and otherwise improve non-code objects, such as documentation and training materials.
 
+# Cluster early, cluster often
+
+*Clusters* are groups of CollaborationFest participants that coalesce around shared interests and they address common challenges related to those interests.  Clusters form before, at the beginning of, and throughout CollaborationFest.  In fact, CollaborationFest can be thought of as a two (or four) day jam of Brownian motion where clusters form, interact, and exchange ideas and members with each other.
+
+If you have an idea for a Cluster at ContributionFest then please send it to the CollaborationFest organizers.  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
+
+Please note that many clusters will form *during* CollaborationFest.  We'll encourage that.  The clusters listed here will just have a head start.
+
+## JBrowse
+
+[JBrowse](https://jbrowse.org/) "is a fast, embeddable genome browser built completely with JavaScript and HTML5, with optional run-once data formatting tools written in Perl."  JBrowse contributors (current *and future!)*will be gathering at CoFest to extend JBrowse's functionality and ecosystem.
+
+**Contact and Communications**
+
+* Contact Eric Yao and Rob Buels on the ...
+* ... [JBrowse Gitter channel](https://gitter.im/GMOD/jbrowse)
+
+## NIH Data Commons
+
+The [NIH Data Commons](https://commonfund.nih.gov/bd2k/commons) will be at CollaborationFest and working on integrating Data Commons efforts into open bioinformtics software.  There is also interest in helping to develop training materials to help others integrate with and use the Data Commons.  See [this blog post from Titus Brown](http://ivory.idyll.org/blog/2017-commonspilot-kickoff.html) for background and goals of the Data Commons
+
+**Contact and Communications**
+
+
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to register (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gccbosc2018/register) (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
-You register for CollaborationFest at the same time you register for other GCCBOSC events.
+You register for CollaborationFest at the same time you [register](/src/events/gccbosc2018/register) for other GCCBOSC events.
 
 # Venue
 
