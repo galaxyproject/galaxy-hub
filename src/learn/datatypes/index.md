@@ -330,6 +330,10 @@ and can contain extra content such as [FASTA](/learn/datatypes#Fasta) sequence.
 Seeing the official specification (and online validation tool) for details is
 highly recommended.
 
+**TIP** When using `GFF3` datasets in Galaxy, the dataset must containly **only the single header line and the primary data lines** or tools may error. Extra comment lines (###), repeats, and fasta content is not accepted. 
+
+ > When obtaining reference annotation from the **Ensembl** downloads area, choose the `GTF` annotation for use with Galaxy's tools. Avoid the `GFF3` annotation as it contains this extra content.
+
 Known as [General Feature Format
 3](http://en.wikipedia.org/wiki/General_feature_format), or `GFF3`.
 
