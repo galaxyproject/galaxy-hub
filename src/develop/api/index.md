@@ -32,7 +32,7 @@ Various language specific libraries for interfacing with the Galaxy API have bee
     * [BioBlend: automating pipeline analyses within Galaxy and CloudMan.](http://www.ncbi.nlm.nih.gov/pubmed/23630176) Sloggett, et. al.
     * [BioBlend.objects: metacomputing with Galaxy.](http://www.ncbi.nlm.nih.gov/pubmed/24928211) Leo, et. al.
 * [Parsec](https://github.com/galaxy-iuc/parsec/) is a CLI tool that will allow you to use Galaxy from command line.
-* [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings largely modeled after BioBlend. [JavaDocs](http://jmchilton.github.io/blend4j/apidocs/).
+* [blend4j](https://github.com/galaxyproject/blend4j) contains Java bindings largely modeled after BioBlend. [JavaDocs](http://galaxyproject.github.io/blend4j/apidocs/)
 * [blend4php](https://github.com/galaxyproject/blend4php) contains PHP bindings.
 * The Galaxy code itself contains [JavaScript bindings](https://github.com/galaxyproject/galaxy/tree/dev/client/galaxy/scripts/mvc).
 
@@ -45,9 +45,9 @@ Many examples and API utility scripts are shipped with Galaxy and BioBlend. You 
 ## Open Source Projects
   * [Refinery](https://github.com/parklab/refinery-platform) (builds and runs workflows using [bioblend](http://bioblend.readthedocs.org/en/latest/))
   * The [Galaxy IPython Docker Runtime](https://github.com/bgruening/docker-ipython-notebook) (leverages [bioblend](http://bioblend.readthedocs.org/en/latest/) to interface with Galaxy's history). 
-  * [Molgenis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/jmchilton/blend4j))
+  * [Molgenis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/galaxyproject/blend4j))
   * [trait_workflow_runner](https://github.com/CTMM-TraIT/trait_workflow_runner) (used to run Galaxy workflows from [transMART](https://github.com/transmart) via [blend4j](https://github.com/jmchilton/blend4j)).
-  * [clj-blend](https://github.com/chapmanb/clj-blend) (a Clojure library built on [blend4j](https://github.com/jmchilton/blend4j)).
+  * [clj-blend](https://github.com/chapmanb/clj-blend) (a Clojure library built on [blend4j](https://github.com/galaxyproject/blend4j)).
 
 ## HTTP Methods
 
