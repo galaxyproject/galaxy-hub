@@ -3,8 +3,6 @@ title: Account quotas
 ---
 [Back to Support Hub](/src/support/index.md)
 
-# Account quotas
-
 ## How account quotas work
 
 Each Galaxy server is independent. How much disk space to allocate for users is determined by the administrators of the instance.
