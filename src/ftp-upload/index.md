@@ -8,7 +8,7 @@ The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email
 </div>
 
 Uploading data directly from the browser can be unreliable and cumbersome.
-Because of this the [Main](/src/main/index.md) Galaxy allows you to upload data via FTP.
+Because of this some Galaxies including the [Main](/src/main/index.md) allow you to upload data via FTP.
 FTP will allow you to monitor the upload status as well as resume interrupted transfers.
 Compression types .gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are also supported.
 
