@@ -19,11 +19,9 @@ Related topics
 ### Download tip: Big data
 
 
-**Browser option:** use Google Chrome and click on the disc icon (we've found that this browser supports better continuous downloads).
+**Browser option:** try with Google Chrome (sometimes this browser supports better continuous downloads).
 
 **Command-line option:** from a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
-
-> Note that this works for indivual datasets only. Dataset collections (complete) and datasets within collections cannot be retrieved with this method (currently - development for this feature is in progress).
 
 The direct download link to a dataset can be obtained by right clicking the
 floppy disk icon and choosing "Copy Link Location" (for most datasets) or
@@ -48,4 +46,14 @@ $ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
 $ curl -C - -o outfile '<link>'           # continue an interrupted download
 ```
 
+### Downloading Dataset Collections
 
+For dataset collections and datasets within collections you have to supply your [API key](https://galaxyproject.org/develop/api/#enabling) with the request. You can add it to the end of the collection download url, the command would look something like this:
+
+```
+$ wget https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
+```
+or 
+```
+$ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
+```
