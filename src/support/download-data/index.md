@@ -7,17 +7,12 @@ Related topics
  * [Loading Data](/src/support/loading-data/index.md)
  * [Moving data between Galaxy servers](moving-data-between-galaxy-instances/)
 
-
-## Downloading data
-
 * **Download datasets** by clicking on the disk icon inside the [dataset](/src/learn/managing-datasets/index.md). Good for smaller sizes in all browsers.
 * **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
 * **Transfer entire histories** by selecting _"Export to File"_ from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
 
-
-### Download tip: Big data
-
+# Large Files
 
 **Browser option:** try with Google Chrome (sometimes this browser supports better continuous downloads).
 
@@ -46,7 +41,7 @@ $ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
 $ curl -C - -o outfile '<link>'           # continue an interrupted download
 ```
 
-### Downloading Dataset Collections
+# Dataset Collections
 
 For dataset collections and datasets within collections you have to supply your [API key](https://galaxyproject.org/develop/api/#enabling) with the request. You can add it to the end of the collection download url, the command would look something like this:
 
