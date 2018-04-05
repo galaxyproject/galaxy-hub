@@ -9,6 +9,8 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Platinum Sponsors
 
+[<img src="/src/events/gccbosc2018/sponsors/google-cloud-horiz-600.png" alt="Google Cloud" width="600" />](https://cloud.google.com/solutions/healthcare-life-sciences/)
+
 ## Gold Sponsors
 
 ## Silver Sponsors
@@ -68,6 +70,8 @@ Cost: $8000 ($6000 for non-profit)
 - 4 complete registrations
 - Be one of just 2 Platinum Sponsors 
 
+*There is one Platinum sponsorship remaining.*
+
 ## Gold Sponsorships
 
 Cost: $4000 ($3000 for non-profit) 
@@ -87,7 +91,7 @@ Cost $2000 ($1500 for non-profit)
 - Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a silver sponsor on printed material distributed to meeting participants.
 - Quarter page full-color ad in printed materials
-- One full registration
+- Two full registrations
 
 ## Bronze Sponsorships
 
