@@ -19,6 +19,19 @@ block content
             h1 !{title}
             div !{ contents }
 
+            h2(id="usegalaxy") UseGalaxy Servers
+            p These servers implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server.  
+            table.table.table-striped
+                thead
+                    tr
+                        th Name
+                        th Links
+                        th Summary
+                tbody
+                    each item in servers_malleable
+                        if item.server_group == "usegalaxy"
+                            +renderServerRow(item)
+
             h2(id="general") General Purpose / Genomics Galaxy Servers
             p These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis. These are servers you can use when want to do general genomic analysis.
             table.table.table-striped
