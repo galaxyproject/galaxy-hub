@@ -140,15 +140,15 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month, including a new public server:
 
-## Proteogenomics Galaxy
+## Proteogenomics Gateway
 
-[<img class="pull-right" src="/src/public-galaxy-servers/proteogenomics-galaxy/proteogenomcs-landing-400.png" width="250" alt="Proteogenomics Galaxy Server" />](http://z.umn.edu/proteogenomicsgateway)
+[<img class="pull-right" src="/src/public-galaxy-servers/proteogenomics-gateway/proteogenomics-landing-400.png" width="250" alt="Proteogenomics Gateway" />](http://z.umn.edu/proteogenomicsgateway)
 
-The [Galaxy-P Proteogenomics Galaxy](http://z.umn.edu/proteogenomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
+The [Galaxy-P Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
 
 [Step-by-step training instructions](http://z.umn.edu/accessusegalaxyporg) and a wealth of other material are available.  The server can be accessed anonymously or you can create an account.  This Galaxy is also [available on Jetstream](http://z.umn.edu/accessjetstream).  It is maintained by [@galaxyproteomics](https://github.com/galaxyproteomics).  
 
-See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
+See [An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43.long) by Matt Chambers *et al.* for more.
 
 ## PhenoMeNal release Cerebellin now live
 
