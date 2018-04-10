@@ -72,6 +72,17 @@ Housing is included; however you will need to cover your own travel.  If you tea
  
 *The course is for faculty who primarily teach undergraduate students* and will be held at JAX Genomic Medicine in Farmington CT, May 21-25.
 
+
+# Gateways 2018 Call for Participation (1st deadline: May 7)
+
+[<img class="pull-right" src="/src/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/call)
+
+[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) (2–4 pages) on the topic of science or engineering gateways. Gateways are user-friendly interfaces to scientific computing, data, and other domain-specific resources to support research and education. 
+
+Topics may include their design, use, impact, development processes, sustainability, best practices, or any other aspect that you think fellow gateway creators or users will find interesting to learn. We also welcome educational topics directed toward the next generation of gateway creators. 
+
+The primary submission deadline is May 7, 2018, and a poster session deadline (open to all) will be August 1. Read more details in the [Call for Participation](http://sciencegateways.org/gateways2018/call)
+
 # Upcoming events
 
 These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
