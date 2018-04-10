@@ -9,7 +9,11 @@ mixin renderServer()
     +renderPageTitle
     p !{helpers.marked(summary).replace("<p>","").replace("</p>","")}
 
-    if server_group == "general"
+    if server_group == "usegalaxy"
+        p This is a 
+           strong
+               a(href="/public-galaxy-servers/#usegalaxy") UseGalaxy server.
+    else if server_group == "general"
         p This is a 
            strong
                a(href="/public-galaxy-servers/#general") General Purpose / Genomics server.
