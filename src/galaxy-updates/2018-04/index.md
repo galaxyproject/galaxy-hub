@@ -64,7 +64,7 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 # 2018 Big Genomics Data Skills Training course
 
-[<img class="pull-right" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="pull-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 There are still a few spaces left in  [Jackson Lab (JAX)](https://www.jax.org/)'s 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The workshop will enable participants to integrate genomic data analysis into their courses or launch new courses. Participants will gain experience using Galaxy, R and Python.
  
@@ -138,7 +138,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month, including a new public server:
+There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them recently, including a newly cataloged public server:
 
 ## Proteogenomics Gateway
 
