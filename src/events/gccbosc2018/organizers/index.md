@@ -19,21 +19,21 @@ If you have a community specific query you can contact:
 
 * *[Heather Wiencko](https://twitter.com/hlwiencko)*, [Hosted Graphite](http://www.hostedgraphite.com), BOSC 2018 Co-Chair
 * *[Nicole Vasilevsky](Http://www.ohsu.edu/xd/education/library/about/staff-directory/nicole-vasilevsky.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/), GCC2018 Co-Chair
-* *Bastian Greshake Tzovaras*, [Goethe University Frankfurt](http://ruleofthirds.de/)
+* *[Bastian Greshake Tzovaras](http://ruleofthirds.de/)*, [Open Humans](https://www.openhumans.org/)
 * *[Christopher Sullivan](https://www.researchgate.net/profile/Christopher_Sullivan3)*, [Oregon State University](http://oregonstate.edu/)
 * *[Stephen Ramsey](http://eecs.oregonstate.edu/people/ramsey-stephen)*, [Oregon State University](http://oregonstate.edu/)
 * *[Abhinav Nellore](http://nellore.bio/)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
-* *[Hilmar Lapp](https://github.com/hlapp)*, [Duke university](https://genome.duke.edu/)
+* *[Hilmar Lapp](https://github.com/hlapp)*, [Duke University](https://genome.duke.edu/)
 * *[Pratik Jagtap](http://z.umn.edu/pjgs)*, [University of Minnesota](https://umn.edu/)
 * *[Karsten Hokamp](http://bioinf.gen.tcd.ie/~khokamp)*, [Trinity College Dublin](http://www.tcd.ie)
-* *[Nomi Harris](http://profiles.lbl.gov/nomi.harris)*, [Lawrence Berkeley National Laboratory](http://www.lbl.gov/), BOSC 2018 Co-Chair
+* *[Nomi Harris](http://profiles.lbl.gov/nomi.harris)*, [Lawrence Berkeley National Laboratory](http://www.lbl.gov/), BOSC 2018 Chair
 * *[Melissa Haendel](http://www.ohsu.edu/xd/education/library/about/staff-directory/melissa-haendel.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Christopher Fields](http://hpcbio.illinois.edu/people)*, [University of Illinois](http://illinois.edu/)
 * *Maria Doyle*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
 * *[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock),* [The James Hutton Institute](http://www.hutton.ac.uk/) 
 * *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/), GCC2018 Co-Chair
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
-* *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
+* *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/), BOSC 2018 Co-Chair
 
 # GCC2018 Scientific Program Committee
 
