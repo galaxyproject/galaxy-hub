@@ -318,7 +318,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another pubic server was added to the directory, and one was updated:
+There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
 
 ## Proteogenomics Gateway
 
