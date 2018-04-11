@@ -5,7 +5,7 @@ date: '2018-04-11'
 ---
 [<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2018-04/index.md>)
 
-The [April 2018 Galactic News](/src/galaxy-updates/2018-04/index.md) highlights the near what's going on, and it's actually quite cool.  Take a look:
+The [April 2018 Galactic News](/src/galaxy-updates/2018-04/index.md) highlights what's going on in the Galaxy, and it's actually quite cool.  Take a look:
 
 * **[UseGalaxy.eu and UseGalaxy.org.au Launched](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched)**
 * Lots of [GCCBOSC 2018 news](/src/galaxy-updates/2018-04/index.md#gccbosc-2018):
