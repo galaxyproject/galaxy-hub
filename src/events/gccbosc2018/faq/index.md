@@ -52,15 +52,19 @@ Full refunds are available up to 30 days before the conference starts on June 25
 [<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
 </div>
 
-Subsidized child care will be available for children ages 6 weeks to 12 years of age will be provided by [Little Vikings child care](http://www.littlevikings.org/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings child care’s goal is to provide a safe, comfortable, joyful experience. Little Vikings will also be providing lunch, snacks and beverages for the children who are in our care.  We ask that parents bring pre-made bottles, and baby food and snacks for your infants and toddlers. **Little Vikings is a Nut Free Facility.**
+Subsidized child care [is available](https://gccbsoc2018-childcare.eventbrite.com/) for children ages 6 weeks to 12 years of age and is being provided by [Little Vikings child care](http://www.littlevikings.org/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings’s goal is to provide a safe, comfortable, joyful experience. Little Vikings will also be providing lunch, snacks and beverages for children ages 3-12 who are in our care.  We ask that parents of kids under 3 bring pre-made bottles, baby food and snacks for your infants and toddlers. **Little Vikings is a Nut Free Facility.**
 
-**Childcare will be available from 7:30am to 6:30pm, Monday-Friday, June 25<sup>th</sup> - June 29<sup>th</sup>.**  You will have time to check in, get your children settled, and then get to Reed in plenty of time for the start of each day's activities.  Since childcare closes at 6:30, it won't be available during any evening sessions such as birds-of-a-feather or the conference dinner.  However, *you are encouraged to bring your kids along to the evening sessions.*  Evening sessions and the conference dinner tend to be informal events and having kids around contributes to that vibe.
+**Childcare is available from 8am to 7pm, Monday-Saturday, June 25<sup>th</sup> - June 30<sup>th</sup>.**  Each day's core conference activities start at 9 and end by 6, giving you time to get kids settled, and to pick them up. If you want to attend evening sessions such as birds-of-a-feather or the conference dinner then *you are encouraged to bring your kids along to the evening sessions.* Evening sessions and the conference dinner tend to be informal events and having kids around contributes to that vibe.
 
-Registration for childcare is not yet open.  We plan to have it open before April.
+Space is extremely limited.
 
-## Infants and nursing mothers
+**[Sign up for childcare now](https://gccbsoc2018-childcare.eventbrite.com/)**
 
-If you have an infant and you want to have them with you during the day, then please bring them along.  The conference will provide a nearby room each day for nursing mothers.  Please let us know when you register so we can plan.
+## Infants and nursing parents
+
+If you have an infant and you want to have them with you during the day, then please bring them along.  The conference will provide a nearby room each day for nursing parents.  Please let us know so we can plan.
+
+**[Register your interest in a nursing room now](https://gccbsoc2018-childcare.eventbrite.com/)**
 
 ## Lodging
 
