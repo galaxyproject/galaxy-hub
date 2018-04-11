@@ -10,7 +10,7 @@ Support is offered for everyone from nursing infants though 12 year olds.
 
 If you have an infant and you want to have them with you during the day, then please bring them along.  The conference will provide a nearby room each day for nursing parents.  Please let us know so we can plan.
 
-**[Register your interest in a nursing room now](https://gccbsoc2018-childcare.eventbrite.com/)**
+**[Register your interest in a nursing room](https://docs.google.com/forms/d/e/1FAIpQLSfBj9iscgZaX5iC5UG3yoZjZMWvsE3pe98qRe4gbn44S_UXjw/viewform)**
 
 ## Childcare
 
