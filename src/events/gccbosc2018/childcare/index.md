@@ -2,6 +2,8 @@
 
 # Childcare at GCCBOSC
 
+<img class="pull-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />
+
 The Galaxy Community and Bioinformatics Open Source Conference aims to make events accessible to parents. If you will be bringing kids along then please consider taking advantage of the services that GCCBOSC is offering.
 
 Support is offered for everyone from nursing infants though 12 year olds.
