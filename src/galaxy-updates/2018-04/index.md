@@ -362,7 +362,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in March](/src/toolshed/contributions/2018-32/index.md).
+[Tool Shed contributions in March](/src/toolshed/contributions/2018-03/index.md).
 
 # Releases
 
