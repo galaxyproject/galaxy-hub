@@ -9,7 +9,7 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 # UseGalaxy.eu and UseGalaxy.org.au Launched
 
-[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
+[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
 
 **UseGalaxy.eu** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
 
