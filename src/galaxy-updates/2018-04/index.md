@@ -67,11 +67,11 @@ So c'mon, register already:
 
 ## Childcare at GCCBOSC
 
-[<img class="pull-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](https://gccbsoc2018-childcare.eventbrite.com)
+[<img class="pull-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/src/events/gccbosc2018/childcare/index.md)
 
 Subsidized childcare for children 6 weeks to 12 years old is available at Portland State University for $7-10 / hour. If you want, you can also bring your infant with you to the conference.  A nursing room will be available on any day it is requested.
 
-Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](https://gccbsoc2018-childcare.eventbrite.com).  **Space in childcare is very limited.**
+Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](/src/events/gccbosc2018/childcare/index.md).  **Space in childcare is very limited.**
 
 
 ## GCCBOSC 2018 Sponsors
