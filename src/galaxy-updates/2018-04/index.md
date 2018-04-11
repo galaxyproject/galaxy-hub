@@ -7,6 +7,25 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 ----
 
+# UseGalaxy.eu and UseGalaxy.org.au Launched
+
+[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
+
+**UseGalaxy.eu** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
+
+* [Green Light for Galaxy Europe](http://www.pr.uni-freiburg.de/pm-en/press-releases-2018/green-light-for-galaxy-europe)
+* [UseGalaxy.eu public server directory entry](/src/public-galaxy-servers/usegalaxy-eu/index.md)
+
+**UseGalaxy.org.au** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
+
+* [Synergising Australian bioinformatics resources through the launch of Galaxy Australia](https://www.qcif.edu.au/index.php/news/412-synergising-australian-bioinformatics-resources-through-the-launch-of-galaxy-australia)
+* [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
+* [UseGalaxy.org.au public server directory entry](/src/public-galaxy-servers/usegalaxy-org-au/index.md)
+
+And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
+
+----
+
 # GCCBOSC 2018
 [<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
@@ -14,23 +33,6 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 
 [GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md).  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
-
-## Submit GCC lightning talks, posters and demos by April 16
-
-**[Submit an abstract](https://easychair.org/conferences/?conf=gccbosc2018)**
-
-## Early registration ends May 11
-
-* [Register](https://gccbosc2018.eventbrite.com)
-* [Book conference housing](https://gccbosc2018housing.eventbrite.com)
-
-## Childcare at GCCBOSC
-
-GCCBOSC 2018 is striving to parent friendly!
-
-Subsidized childcare is available at Portland State University for $9-11 / hour, and parents with infants can also bring them with you to the conference.  A nursing room will be available on any day it is requested.
-
-Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](https://gccbsoc2018-childcare.eventbrite.com).  Space in childcare is very limited and you are encouraged to [signup](https://gccbsoc2018-childcare.eventbrite.com) now.
 
 ## Keynote speakers
 
@@ -41,8 +43,33 @@ We are pleased to announce our third [keynote speaker](/src/events/gccbosc2018/k
 **GCC2018 Keynote: [Lucia Peixoto](/src/events/gccbosc2018/keynotes/index.md#galaxy-community-conference-2018-keynote-lucia-peixoto)**
 
 * **[Elson S. Floyd College of Medicine](https://medicine.wsu.edu/), [Washington State University](https://wsu.edu/)**
+* Keynote title: *Confound it! Reproducible biology from "omics" data analysis*
 
 [Dr. Peixoto](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/) is an Assistant Professor at the [Elson S. Floyd College of Medicine](https://medicine.wsu.edu/) at [Washington State University](https://wsu.edu/).  Her research focuses on using genomic and computational biology approaches to study brain function. She also advises the [WSU Spokane Genomics Core](https://labs.wsu.edu/genomicscore/), and has published work on how analysis of complex datasets affects power and reproducibly in RNA-seq and Epigenomic-seq.
+
+## Submit GCC lightning talks, posters and demos by April 16
+
+The deadline for submitting **lightning talks** for GCC2018 is April 16, less than a week away. You are strongly encouraged to submit a talk (or two) by the deadline.  Depending on response we may also open up for *late-breaking lightning talks* in May. 
+
+On-time **poster and demo** submissions are also closing April 16. To assure a place for your poster and/or demo, please submit these by that deadline as well.  Depending on space, we will (likely) also open a call for *late-breaking posters and demos* in May.
+
+**[Submit an abstract](https://easychair.org/conferences/?conf=gccbosc2018)**
+
+## Early registration ends May 11
+
+So c'mon, register already:
+
+* [Register](https://gccbosc2018.eventbrite.com)
+* [Book conference housing](https://gccbosc2018housing.eventbrite.com)
+
+## Childcare at GCCBOSC
+
+[<img class="pull-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](https://gccbsoc2018-childcare.eventbrite.com)
+
+Subsidized childcare for children 6 weeks to 12 years old is available at Portland State University for $9-11 / hour. If you want, you can also bring your infant with you to the conference.  A nursing room will be available on any day it is requested.
+
+Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](https://gccbsoc2018-childcare.eventbrite.com).  **Space in childcare is very limited.**
+
 
 ## GCCBOSC 2018 Sponsors
 
@@ -72,12 +99,11 @@ Housing is included; however you will need to cover your own travel.  If you tea
  
 *The course is for faculty who primarily teach undergraduate students* and will be held at JAX Genomic Medicine in Farmington CT, May 21-25.
 
-
 # Gateways 2018 Call for Participation (1st deadline: May 7)
 
 [<img class="pull-right" src="/src/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/call)
 
-[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) (2–4 pages) on the topic of science or engineering gateways. Gateways are user-friendly interfaces to scientific computing, data, and other domain-specific resources to support research and education. 
+[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) on the topic of science or engineering gateways. Gateways are user-friendly interfaces (including Galaxy) to scientific computing, data, and other domain-specific resources to support research and education. 
 
 Topics may include their design, use, impact, development processes, sustainability, best practices, or any other aspect that you think fellow gateway creators or users will find interesting to learn. We also welcome educational topics directed toward the next generation of gateway creators. 
 
@@ -89,12 +115,152 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 
 <table class="table table-striped"><thead>
 <tr>
-<th>Date</th>
-<th>Topic/Event</th>
-<th>Venue/Location</th>
-<th>Contact</th>
-</tr></thead>
+  <th>Date</th>
+  <th>Topic/Event</th>
+  <th>Venue/Location</th>
+  <th>Contact</th>
+</tr>
+</thead>
 <tbody>
+<tr>
+  <td><span class="text-nowrap">April 12th 2018</span></td>
+  <td><a href="https://depot.galaxyproject.org/hub/attachments/events/2018-04-tanta/2018-04-tanta-workshop.pdf">Introduction to Genomic Medicine Using Galaxy  Platform</a></td>
+  <td><img style="float:right" src="/images/icons/AF.png"/><a href="https://depot.galaxyproject.org/hub/attachments/events/2018-04-tanta/2018-04-tanta-workshop.pdf">Tanta University, Egypt </a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Abdelazeem Abdelhameed Elhabyan</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 18th 2018</span></td>
+  <td><a href="https://www.ebi.ac.uk/training/events/2018/statistical-workflows-phenomenal?platform=hootsuite">Statistical workflows in PhenoMeNal</a></td>
+  <td><img style="float:right" src="/images/icons/GL.png"/><a href="https://attendee.gototraining.com/r/7638146038538604290">Online</a></td>
+  <td>Etienne Thévenot</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 22nd 2018</span></td>
+  <td><a href="http://conf.abrf.org/sw2-galaxy-platform-accessible-core-laboratory-solution-proteogenomic-analysis-and-informatics">The Galaxy Platform as an Accessible, Core Laboratory Solution for Proteogenomic Analysis and Informatics</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://conf.abrf.org/">ABRF 2018, Myrtle Beach, South Carolina, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Pratik Jagtap</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 23rd 2018</span></td>
+  <td><a href="http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/formations_2018/module_formation_abims-galaxy_initiation.pdf">Galaxy Initiation</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://abims.sb-roscoff.fr/training/courses">Station Biologique Roscoff, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Loraine Guéguen, Gildas Le Corguillé, Annie Le Breton</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 23rd 2018</span></td>
+  <td><a href="http://www.denbi.de/22-training-cat/training-courses/513-4th-de-nbi-genomics-training-course">4th de.NBI Genomics training course</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.uni-giessen.de/index.html">Justus-Liebig-Universität, Gießen, Freiburg Germany</a></td>
+  <td>denbi_genomics @ computational.bio</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 24th 2018</span></td>
+  <td><a href="http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formation-qualifiante-FC6/sciences-technologies-sante-STS/analyse-rnaseq-sous-galaxy-program-analyse-rnaseq-sous-galaxy-2.html?search-keywords=rnaseq">Analyse RNAseq sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://abims.sb-roscoff.fr/training/courses">Station Biologique Roscoff, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>E. Corre, Gildas Le Corguillé, X. Liu</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 1st 2018</span></td>
+  <td><a href="https://qfab.org/workshops/variant-detection-using-galaxy-15-16-may-2018">RNA-Seq analysis using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2018">Formation metabarcoding 2018</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.sb-roscoff.fr/">Station Biologique de Roscoff, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Intervenants</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.tacc.utexas.edu/">TACC, Austin, Texas, United States</a></td>
+  <td>help@sciencegateways.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module17.pdf">Initiation à Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 15th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module8bis.pdf">Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 15th 2018</span></td>
+  <td><a href="https://qfab.org/workshops/rna-seq-analysis-using-galaxy-1-2-may-2018">Variant detection using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 16th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module18bis.pdf">Traitement bioinformatique des données RNA-seq sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors">Big Genomics Data Skills Training course</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.jax.org/about-us/locations/farmington">JAX Genomic Medicine, Farmington, Connecticut, United States</a></td>
+  <td>Charlie Wray</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="http://www.hicomb.org/">HiCOMB 2018: 17th IEEE International Workshop on High Performance Computational Biology</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/>Vancouver, British Columbia, Canada</td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2018</span></td>
+  <td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-29-30-may-2018">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2018</span></td>
+  <td><a href="http://cnrsformation.cnrs.fr/stage-18239-Analyse-avancee-de-sequences.html?axe=65">Bioinformatique - Analyse avancée de séquences</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.labri.fr/">Bordeaux, France</a></td>
+  <td>Intervenants</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 12th 2018</span></td>
+  <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 18th 2018</span></td>
+  <td><a href="https://hackathon.colorado.edu/">Computational Genomics</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://hackathon.colorado.edu/">Rocky Mountain Genomics HackCon 2018, University of Colorado, Boulder, Colorado, United States</a></td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 19th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module23.pdf">Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 25th 2018</span></td>
+  <td><a href="https://gccbosc2018.sched.com"><strong>GCCBOSC 2018</strong></a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 16th 2018</span></td>
+  <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 25th 2018</span></td>
+  <td><a href="https://sciencegateways.org/web/gateways2018">Gateways 2018</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://sciencegateways.org/web/gateways2018/about">University of Texas, Austin, Texas, United States</a></td>
+  <td>Katherine Lawrence</td>
+</tr>
+</tbody></table>
 
 ----
 
@@ -149,7 +315,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them recently, including a newly cataloged public server:
+There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another pubic server was added to the directory, and one was updated:
 
 ## Proteogenomics Gateway
 
@@ -172,6 +338,7 @@ We are pleased to announce the [2018.02 release “Cerebellin”](http://phenome
 * The first interactive [Galaxy tours](https://public.phenomenal-h2020.eu/tours) have been added that help follow the steps in a workflow
 
 For more information about the release, see [Release notes 2018 02](https://github.com/phnmnl/phenomenal-h2020/wiki/Release-notes-2018-02).
+
 
 ## Public Servers in Publications
 
