@@ -100,7 +100,7 @@ You don't have to be attending GCCBOSC 2018 events to book GCCBOSC 2018 lodging 
 
 If you prefer to stay elsewhere, Reed College has a [list of recommended hotels](https://www.reed.edu/accommodations.html), many offering a discount for those attending events at Reed. The Reed Campus can be reached via [public transit](#public-transportation), and there is free parking on campus if you wish to drive.
 
-The conference will be offering subsidized childcare in downtown Portland on the Portland State University campus.  If you are using childcare it may be most convenient to stay close to the PSU campus.
+The conference is [offering subsidized childcare](https://gccbsoc2018-childcare.eventbrite.com/) in downtown Portland on the Portland State University campus.  If you are using childcare it may be most convenient to [stay close to the PSU campus](/src/events/gccbosc2018/faq/index.md#lodging).
 
 # Getting to GCCBOSC 2018
 
