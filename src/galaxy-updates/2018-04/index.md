@@ -11,13 +11,15 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 [UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
 
-**UseGalaxy.eu** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
+[<img class="pull-right" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="useGalaxy.eu" width="160" />](https://usegalaxy.eu/)
+
+**[UseGalaxy.eu](https://usegalaxy.eu/)** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
 
 * [Green Light for Galaxy Europe](http://www.pr.uni-freiburg.de/pm-en/press-releases-2018/green-light-for-galaxy-europe)
 * [Flyer with more information](https://github.com/usegalaxy-eu/branding/raw/master/freiburg-flyer/flyer.pdf)
 * [UseGalaxy.eu public server directory entry](/src/public-galaxy-servers/usegalaxy-eu/index.md)
 
-**UseGalaxy.org.au** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
+**[UseGalaxy.org.au](https://usegalaxy.org.au/)** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
 
 * [Synergising Australian bioinformatics resources through the launch of Galaxy Australia](https://www.qcif.edu.au/index.php/news/412-synergising-australian-bioinformatics-resources-through-the-launch-of-galaxy-australia)
 * [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
