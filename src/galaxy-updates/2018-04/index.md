@@ -14,6 +14,7 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 **UseGalaxy.eu** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
 
 * [Green Light for Galaxy Europe](http://www.pr.uni-freiburg.de/pm-en/press-releases-2018/green-light-for-galaxy-europe)
+* [Flyer with more information](https://github.com/usegalaxy-eu/branding/raw/master/freiburg-flyer/flyer.pdf)
 * [UseGalaxy.eu public server directory entry](/src/public-galaxy-servers/usegalaxy-eu/index.md)
 
 **UseGalaxy.org.au** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
