@@ -6,8 +6,6 @@ The Galaxy Community and Bioinformatics Open Source Conference aims to make even
 
 Support is offered for everyone from nursing infants though 12 year olds.
 
-**Please use this site to sign up.**
-
 ## Infants and Nursing Parents
 
 If you have an infant and you want to have them with you during the day, then please bring them along.  The conference will provide a nearby room each day for nursing parents.  Please let us know so we can plan.
