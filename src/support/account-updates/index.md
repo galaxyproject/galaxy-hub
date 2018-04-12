@@ -26,6 +26,6 @@
   1. Click on the reset link in the email or copy and paste it into a web browser window
   1. Enter your new password and submit
   
-  ## Other changes or updates
+## Other changes or updates
   
   API keys, OpenIDs, and other account related preferences and settings can also be made or changed under **User > Preferences**
