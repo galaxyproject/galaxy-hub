@@ -133,6 +133,12 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 </tr>
 <tr>
   <td><span class="text-nowrap">April 18th 2018</span></td>
+  <td><a href="https://github.com/manabuishii/workflow-meetup/wiki/20180418">Workflow Meetup</a></td>
+  <td><img style="float:right;" src="/images/icons/AS.png"/><a href="http://www.riken.jp/about/map/#jpMapFacilityD">理化学研究所、東京連絡事務所, Tokyo, Japan</a></td>
+  <td>Manabu Ishii</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">April 18th 2018</span></td>
   <td><a href="https://www.ebi.ac.uk/training/events/2018/statistical-workflows-phenomenal?platform=hootsuite">Statistical workflows in PhenoMeNal</a></td>
   <td><img style="float:right" src="/images/icons/GL.png"/><a href="https://attendee.gototraining.com/r/7638146038538604290">Online</a></td>
   <td>Etienne Thévenot</td>
