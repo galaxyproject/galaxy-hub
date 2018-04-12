@@ -4,6 +4,10 @@ Related topics
 * [Data Integration](/src/admin/data-integration/index.md)
 * [Data Preparation](/src/admin/data-preparation/index.md)
 
+## Overview
+
+All methods to access the data and indexes hosted at the public [Main](/src/main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) are described at http://datacache.galaxyproject.org/.
+
 ## Obtaining Reference Genome Data by Rsync
 
 This page will describe how to rsync the same exact data that is used on the public [Main](/src/main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](/src/admin/get-galaxy/index.md)** or **[cloud](/src/cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
