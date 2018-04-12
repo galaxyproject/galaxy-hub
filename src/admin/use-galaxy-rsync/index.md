@@ -20,12 +20,12 @@ There are two primary directories in the reference data repository:
 These directories have somewhat different structures:
 
 * **/managed** is organized by index type, then by genome build (Galaxy **dbkey**)
-* **/indexes** is organzied by genome build, then by index type
+* **/byhand** is organzied by genome build, then by index type
 
 Both directories contain a `location` subdirectory, and each of these contain a `tool_data_table_conf.xml` file:
 
 * [/managed/location/tool_data_table_conf.xml](http://datacache.galaxyproject.org/managed/location/tool_data_table_conf.xml)
-* [/indexes/location/tool_data_table_conf.xml](http://datacache.galaxyproject.org/indexes/location/tool_data_table_conf.xml)
+* [/byhand/location/tool_data_table_conf.xml](http://datacache.galaxyproject.org/indexes/location/tool_data_table_conf.xml)
 
 Galaxy consumes these `tool_data_table_conf.xml` files and the `.loc` "location" files they reference. The paths
 contained in these files are valid if the data is mounted via CVMFS.
@@ -89,10 +89,10 @@ Galaxy server and any compute resources (i.e. cluster nodes) on which you will r
 requires root privileges. CVMFS does provide workarounds for systems where direct mounting is not an option, these are
 discussed in the [CernVM-FS on Supercomputers][cvmfs-hpc] documentation.
 
-**If you are running more than a small cluster (~5 nodes) and/or are run tools that aggressively access the reference
-data with a very small cache, please configure at least a [local proxy][cvmfs-squid], if not a full [Stratum
-1][cvmfs-stratum1] (replica/mirror). Overloading the public Stratum 1 servers can result in a traffic block in order to
-maintain service availability.**
+If you are running more than a small cluster (~5 nodes) and/or are run tools that aggressively access the reference data
+with a very small cache, please configure at least a [local proxy][cvmfs-squid], if not a full [Stratum
+1][cvmfs-stratum1] (replica/mirror). **Overloading the public Stratum 1 servers can result in a traffic block in order
+to maintain service availability.**
 
 Before you begin, it is a good idea to become acquianted with the CVMFS [Overview][cvmfs-overview], [Getting
 Started][cvmfs-getting-started] and [Client Configuration][cvmfs-client-config] documentation.
@@ -163,10 +163,20 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 
 | Server | Host | Location |
 | --- | --- | --- |
-| `http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
-| `http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
-| `http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
-| `http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
+| `cvmfs1-psu0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
+| `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
+| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
+| `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
+
+The full path to the repository, e.g. for use in the `CVMFS_SERVER_URL` configuration parameter, where `<SERVER:[PORT]>`
+is one of the servers above and `<REPO>` is the CVMFS repo name, is:
+
+```
+http://<SERVER:[PORT]>/cvmfs/<REPO>
+```
+
+The reference data repo name is `data.galaxyproject.org`, but for use in `CVMFS_SERVER_URL`, you should use `@fqrn`, as
+CVMFS templates the repository name in to the URL for you.
 
 [galaxyproject]: http://galaxyproject.org
 [psu]: http://www.psu.edu/
@@ -179,9 +189,9 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 
 ## Obtaining Reference Data with Rsync or HTTP
 
-In addition to directly mounting the data, it can be fetched with [Rsync][rsync.samba.org] or over the web using HTTP.
-Rsync is a particularly useful tool for this as it is able to both recursively retrieve data, as well as skip data that
-is already present on the local side that has not changed.
+In addition to directly mounting the data, it can be fetched with [Rsync][rsync] or over the web using HTTP.  Rsync is a
+particularly useful tool for this as it is able to both recursively retrieve data, as well as skip data that is already
+present on the local side that has not changed.
 
 The [Rsync Data Manager][rsync-dm] also fetches data from the reference data rsync server.
 
@@ -247,7 +257,7 @@ two specific places in the [usegalaxy.org](https://usegalaxy.org/) interface:
 
 ## Location (*.loc) Files
 
-To retrieve an exact copy of the `.loc` files used by the tools on **[https://usegalaxy.org](https://usegalaxy.org)**, execute these rsync commands:
+To retrieve an exact copy of the `.loc` files used by the tools on **[usegalaxy.org](https://usegalaxy.org)**, execute these rsync commands:
 
 ```
 $ rsync -avzP rsync://datacache.galaxyproject.org/indexes/location/ location/byhand
