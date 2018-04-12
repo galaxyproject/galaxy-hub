@@ -10,7 +10,7 @@ All methods to access the data and indexes hosted at the public [Main](/src/main
 
 ## Legacy: Obtaining Reference Genome Data by Rsync
 
-See **http://datacache.galaxyproject.org/** for the most current help, include help for using the **[rsync Data Manager](https://github.com/galaxyproject/tools-iuc/tree/master/data_managers/data_manager_rsync_g2)**.
+See **http://datacache.galaxyproject.org/** for the most current methods, including help for using the **[rsync Data Manager](https://github.com/galaxyproject/tools-iuc/tree/master/data_managers/data_manager_rsync_g2)**.
 
 This page will describe how to manually rsync the same exact data that is used on the public [Main](/src/main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](/src/admin/get-galaxy/index.md)** or **[cloud](/src/cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
 
