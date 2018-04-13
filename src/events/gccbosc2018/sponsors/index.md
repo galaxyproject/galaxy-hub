@@ -9,17 +9,17 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Platinum Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/google-cloud-horiz-600.png" alt="Google Cloud" width="600" />](https://cloud.google.com/solutions/healthcare-life-sciences/)
+[<img src="/src/events/gccbosc2018/sponsors/google-cloud-horiz-600.png" alt="Google Cloud" width="660" />](https://cloud.google.com/solutions/healthcare-life-sciences/)
 
 ## Gold Sponsors
 
 ## Silver Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="200" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) 
+[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="180" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) 
 
 ## Bronze Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="180" />](https://peerj.com/)
+[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="160" />](https://peerj.com/)
 
 # CollaborationFest Sponsors
 
@@ -29,10 +29,16 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Giga Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="220" />](http://www.techoregon.org/)
+[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+
+# Other Sponsors
+
+[<img src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt-"Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Icebreaker Sponsor**
 
 
-<div class="right">
+<div class="pull-right">
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
