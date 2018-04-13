@@ -7,7 +7,7 @@ However, to facilitate using Galaxy for new users, we also allow login using ide
 (e.g., Google). 
 
 This feature should be enabled on your instance by the instance admin
-([see how to enable it](/src/admin/authentication/config.md)); then you can use it is shown in the following.
+([see how to enable it](/src/admin/authentication/config/index.md)); then you can use it is shown in the following.
 
 Just hit the **Login with Google** button, and you're all set!
 
