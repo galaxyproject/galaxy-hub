@@ -32,7 +32,7 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 | [2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  |
 | [2016](https://gcc2016.iu.edu/) |  Bloomington, Indiana  |  206  |
 | [2017](https://gcc2017.sciencesconf.org/) |  [Montpellier, France](https://gcc2017.sciencesconf.org/)  |  |
-| [2018](https://gccbosc2017.sched.com/) | Portland, Oregon (joint conference with BOSC) | |
+| [2018](https://gccbosc2018.sched.com/) | Portland, Oregon (joint conference with BOSC) | |
 
 # GalaxyAdmins
 
