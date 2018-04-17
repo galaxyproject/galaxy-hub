@@ -30,7 +30,7 @@ So, *get out there and start connecting!*
 
 **[Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/)**
 
-In addition to providing cool stuff for cool conferences, [Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/) also provides consulting and customized high-performance solutions for life science research.  [Chek 'em out](https://www.advancedhpc.com/industries/life-sciences/).
+In addition to providing cool stuff for cool conferences, [Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/) also provides consulting and customized high-performance solutions for life science research.  [Check 'em out](https://www.advancedhpc.com/industries/life-sciences/).
 
 ----
 
