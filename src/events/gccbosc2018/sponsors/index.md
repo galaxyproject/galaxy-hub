@@ -35,7 +35,7 @@ Is your organization interested in playing a prominent role in the first joint g
 
 [<img src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt-"Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **Icebreaker Sponsor**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **[Icebreaker](/src/events/gccbosc2018/icebreaker/index.md) Sponsor**
 
 
 <div class="pull-right">
