@@ -57,11 +57,16 @@ At the moment, we support login to Galaxy using identities defined on Google (an
 
 Take the following steps to configure your Galaxy instance to leverage the OIDC IdP setup in the previous section for user login. 
 
-1. In the `galaxy.ini` file set the OIDC configuration as the following: 
+1. In the `galaxy.yml` file set the OIDC configuration as the following: 
 
-       enable_oidc = True
-       oidc_config_file = config/oidc_config.xml
-       oidc_backends_config_file = config/oidc_backends_config.xml
+       # Enables and disables OpenID Connect (OIDC) support.
+       enable_oidc: true
+       
+       # Sets the path to OIDC configuration file.
+       oidc_config_file: config/oidc_config.xml
+       
+       # Sets the path to OIDC backends configuration file.
+       oidc_backends_config_file: config/oidc_backends_config.xml
        
 2. Create `config/oidc_config.xml` file (you may use the `config/oidc_config.xml.sample` file as reference). For common application scenarios, the default settings as are in the sample file should be adequate.
 
