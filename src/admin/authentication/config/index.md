@@ -60,7 +60,7 @@ Take the following steps to configure your Galaxy instance to leverage the OIDC 
 1. In the `galaxy.yml` file set the OIDC configuration as the following: 
 
        # Enables and disables OpenID Connect (OIDC) support.
-       enable_oidc: True
+       enable_oidc: true
        
        # Sets the path to OIDC configuration file.
        oidc_config_file: config/oidc_config.xml
