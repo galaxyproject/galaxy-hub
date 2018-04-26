@@ -56,7 +56,7 @@ including many training events.
 
 ## Courses that Use Galaxy
 
-**[A list of university courses that use
+**[A list of higher education courses that use
 Galaxy](/src/teach/higher-ed-courses/index.md).**
 
 ## Mailing List
