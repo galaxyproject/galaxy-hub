@@ -57,7 +57,7 @@ including many training events.
 ## Courses that Use Galaxy
 
 **[A list of university courses that use
-Galaxy](/src/university-courses/index.md).**
+Galaxy](/src/teach/university-courses/index.md).**
 
 ## Mailing List
 
