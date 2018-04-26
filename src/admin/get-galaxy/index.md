@@ -48,10 +48,10 @@ $ sh run.sh
 
 This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
 
-To access Galaxy over the network, modify the `config/galaxy.ini` file by changing the `host` setting to
+To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `host` setting to
 
 ```python
-host = 0.0.0.0
+http: 0.0.0.0
 ```
 
 Upon restarting, Galaxy will bind to any available network interfaces instead of the loopback.
@@ -62,7 +62,7 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 
 To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), users must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges, complete the following steps:
 
-- Add the user's Galaxy login email to the configuration file `config/galaxy.ini`. As shown here:
+- Add the user's Galaxy login email to the configuration file `config/galaxy.yml`. As shown here:
 
 ```
 # this should be a comma-separated list of valid Galaxy users
@@ -72,7 +72,7 @@ admin_users = user1@example.com,user2@example.com
 - If the file does not exist, copy it from the provided sample: 
 
 ```
-cp config/galaxy.ini.sample config/galaxy.ini
+cp config/galaxy.yml.sample config/galaxy.yml
 ```
 
 - Restart Galaxy after modifying the configuration file for changes to take effect.
