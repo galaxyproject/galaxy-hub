@@ -16,21 +16,3 @@ Galaxy is particularly well-suited for teaching data analysis and reproducibilit
 ## Use Galaxy in your courses?
 
 If you use Galaxy in your courses then [please let us know](https://docs.google.com/forms/d/e/1FAIpQLSdj-jJRBtk8Vrr0hGReCNjO8exsw0rIAHsZpy1yOhWFnTWvgw/viewform) and we'll add you to this directory.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Does your course use Galaxy? If so, please send us a message (outreach AT galaxyproject DOT org) and let us know, we'll list your course on this page!
