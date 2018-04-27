@@ -186,6 +186,6 @@ Below are simplified instructions for shutting down local Galaxy server. If your
   * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named `python ./scripts/paster.py serve config/galaxy.ini.sample`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
   * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process `python ./scripts/paster.py serve config/galaxy.ini.sample` before restarting Galaxy again.
 
-## Ansible Playbook
+## Installation automation
 
 Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart). To deploy Galaxy on your local machine or on the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
