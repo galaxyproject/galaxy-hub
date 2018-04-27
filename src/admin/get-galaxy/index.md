@@ -48,36 +48,34 @@ $ sh run.sh
 
 This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running. If galaxy does not start, you may be using the conda python. See the [admin docs](https://docs.galaxyproject.org/en/master/admin/framework_dependencies.html#conda) for more details.
 
-To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `host` setting to
-
-```python
-http: 0.0.0.0
-```
-
-Upon restarting, Galaxy will bind to any available network interfaces instead of the loopback.
-
 # Next Steps
 
-## Become an Admin
+## Configure
 
-To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), users must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges, complete the following steps:
-
-- Add the user's Galaxy login email to the configuration file `config/galaxy.yml`. As shown here:
-
-```
-# this should be a comma-separated list of valid Galaxy users
-admin_users = user1@example.com,user2@example.com
-```
-
-- If the file does not exist, copy it from the provided sample: 
+Since the release 18.01 Galaxy will run fine without an explicit configuration file, but if you want to modify its settings you need to create one. A good start is to copy the sample and rename it to `galaxy.yml`. You can do so with this command:
 
 ```
 cp config/galaxy.yml.sample config/galaxy.yml
 ```
 
-- Restart Galaxy after modifying the configuration file for changes to take effect.
-- Additional details can be found [below](/src/admin/get-galaxy/index.md#become-an-admin-example).
+To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting to
 
+```
+http: 0.0.0.0
+```
+
+Upon restarting (which needs to be done after a configuration file change), Galaxy will bind to any available network interfaces instead of the localhost.
+
+## Become an Admin
+
+To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), user must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges add the user's Galaxy login email to the configuration file `config/galaxy.yml`. If you don't have the file set it up using the instructions [above](#configure). The entry looks like this:
+
+```
+# this should be a comma-separated list of valid Galaxy users
+admin_users: user1@example.com,user2@example.com
+```
+
+Additional details can be found [below](/src/admin/get-galaxy/index.md#become-an-admin-example).
 
 ## Install Tools
 
@@ -173,42 +171,6 @@ Be aware that using archives makes it more difficult to stay up-to-date with Gal
 ## Get Galaxy for Development
 
 If you're doing development or making changes to Galaxy, it is best practice to fork Galaxy in GitHub and update to/from your fork. See the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
-
-## Become an Admin: Example
-
-Follow these steps to become an admin for a brand new Galaxy.
-
-*Prerequisites*
-
-* Galaxy was installed using Git.
-* Galaxy was started at least once using `sh run.sh`.
-* Galaxy is currently stopped. See our [documentaion](/src/admin/get-galaxy/index.md#shutting-down-galaxy) for help stopping Galaxy.
-
-*Check the default settings*
-
-The default setting for admin_users is: `#admin_users = None`. You can check this by running the following command:
-
-```sh
-$ grep "admin_users" config/galaxy.ini.sample
-```
-
-*Create a `config/galaxy.ini` file and add yourself as an administrator*
-
-The following command will: 1) remove the leading hash (`#`) character from the `admin_users` line, 2) replace `None` with the email address of the user being added as an admin, and 3) create a `config/galaxy.ini` file with `admin_users` changed. **Be careful to type the command exactly as written except for changing `admin@email.edu` to be the user's email address**.
-
-```sh
-$ sed 's/#admin_users = None/admin_users = admin@email.edu/' config/galaxy.ini.sample > config/galaxy.ini
-```
-
-*Confirm that the new `config/galaxy.ini` file is correctly formatted*
-
-Running the command below should result in the following output: `admin_users = admin@email.edu`
-
-```sh
-$ grep "admin_users" config/galaxy.ini
-```
-
-Start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account.
 
 ## Shutting down Galaxy
 
