@@ -5,6 +5,8 @@ server_group: "tool-publishing"
 server_links: 
   - link_url: "http://irprofiler.med.auth.gr:8080/"
     link_text: "IRProfiler Galaxy Toolbox"
+  - link_url: "https://hub.docker.com/r/chmaramis/irprofiler/"
+    link_text: "Docker image of the IRProfiler Galaxy toolbox"
 summary: "Immune Repertoire Profiler (IRProfiler), a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data."
 image: "/src/public-galaxy-servers/irprofiler/irprofiler.gif"
 user_support: 
@@ -15,6 +17,7 @@ sponsors:
 ## Comments
 
 * Dedicated Galaxy installation that deploys IRProfiler, a novel Galaxy toolbox. This is made available as supplementary material for the article "[IRProfiler - A Software Toolbox for High Throughput Immune Receptor Profiling](https://link.springer.com/article/10.1186%2Fs12859-018-2144-z)", authored by C. Maramis et al. in *BMC Bioinformatics*
+* A [Docker image of the IRProfiler Galaxy toolbox](https://hub.docker.com/r/chmaramis/irprofiler/) is also available.
 
 ## User Support
 
