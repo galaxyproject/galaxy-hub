@@ -7,10 +7,8 @@ Welcome to the May 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
 
 ----
 
-
-----
-
 # GCCBOSC 2018
+
 [<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
@@ -102,7 +100,8 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 </tr>
 <tr>
   <td><span class="text-nowrap">May 14th 2018</span></td>
-  <td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a></td>
+  <td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a>
+    <div class="indent">*Call for Participation extended to Wednesday, May 16, 2018*</div></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.tacc.utexas.edu/">TACC, Austin, Texas, United States</a></td>
   <td>help@sciencegateways.org</td>
 </tr>
@@ -198,7 +197,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 </tr>
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
-  <td><a href="https://gccbosc2018.sched.com">GCCBOSC 2018</a></td>
+  <td><a href="https://gccbosc2018.sched.com">**GCCBOSC 2018**</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
@@ -216,7 +215,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 </tr>
 <tr>
   <td><span class="text-nowrap">November 22nd 2018</span></td>
-  <td><a href="/events/2018-europe-dev">European Galaxy Developer Days</a></td>
+  <td><a href="/events/2018-europe-dev">**European Galaxy Developer Days**</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/>Freiburg, Germany</td>
   <td>Hans-Rudolf Hotz, Björn Grüning</td>
 </tr>
