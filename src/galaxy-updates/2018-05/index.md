@@ -76,6 +76,148 @@ Even though the event ended, it planted a seed for a new Galaxy community that s
 
 These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
 
+<table class="table table-striped">
+<thead>
+<tr>
+  <th>Date</th>
+    <th>Topic/Event</th>
+    <th>Venue/Location</th>
+    <th>Contact</th>
+</tr>
+</thead><tbody>
+<tr>
+  <td><span class="text-nowrap">May 1st 2018</span></td>
+  <td><a href="https://qfab.org/workshops/variant-detection-using-galaxy-15-16-may-2018">RNA-Seq analysis using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 8th 2018</span></td>
+  <td><a href="https://faes.org/events/biotech-45-bioinformatic-analysis-next-generation-sequencing-data-4-day-hands-workshop-2">Bioinformatics Analysis of Next Generation Sequencing Data</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://events.r20.constantcontact.com/register/eventReg?llr=k4uamblab&amp;oeidk=a07ef2kmozmbd90f112">NIH, Bethesda, Maryland, United States</a></td>
+  <td>registration@faes.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.tacc.utexas.edu/">TACC, Austin, Texas, United States</a></td>
+  <td>help@sciencegateways.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2018">Formation metabarcoding 2018</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.sb-roscoff.fr/">Station Biologique de Roscoff, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Intervenants</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module17.pdf">Initiation à Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 15th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module8bis.pdf">Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 15th 2018</span></td>
+  <td><a href="https://qfab.org/workshops/rna-seq-analysis-using-galaxy-1-2-may-2018">Variant detection using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 16th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module18bis.pdf">Traitement bioinformatique des données RNA-seq sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="http://www.hicomb.org/">HiCOMB 2018: 17th IEEE International Workshop on High Performance Computational Biology</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/>Vancouver, British Columbia, Canada</td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors">Big Genomics Data Skills Training course</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://www.jax.org/about-us/locations/farmington">JAX Genomic Medicine, Farmington, Connecticut, United States</a></td>
+  <td>Charlie Wray</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2018</span></td>
+  <td><a href="http://cnrsformation.cnrs.fr/stage-18239-Analyse-avancee-de-sequences.html?axe=65">Bioinformatique - Analyse avancée de séquences</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.labri.fr/">Bordeaux, France</a></td>
+  <td>Intervenants</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 29th 2018</span></td>
+  <td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-29-30-may-2018">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 6th 2018</span></td>
+  <td><a href="https://www.ebi.ac.uk/training/events/2018/phenomenal-gateway-portal-metabolomics-data-analysis-cloud">PhenoMeNal Gateway: Portal to metabolomics data analysis in the cloud</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.google.com/maps?q=Wellcome+Genome+Campus+Wellcome+Genome+Campus,+Hinxton,+Cambridge,+CB10+1SD,+United+Kingdom">Wellcome Genome Campus, Hinxton, United Kingdom</a></td>
+  <td>Organisers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 12th 2018</span></td>
+  <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 13th 2018</span></td>
+  <td><a href="http://imbio.de/ib2018">Integrative Bioinformatics</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/>Rothamsted Research, Harpenden, United Kingdom</td>
+  <td>Björn Grüning</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 18th 2018</span></td>
+  <td><a href="https://hackathon.colorado.edu/">Computational Genomics</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://hackathon.colorado.edu/">Rocky Mountain Genomics HackCon 2018, University of Colorado, Boulder, Colorado, United States</a></td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 19th 2018</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module23.pdf">Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 25th 2018</span></td>
+  <td><a href="https://www.genopole.fr/spip.php?page=rubrique_event&amp;id_rubrique=1108&amp;event=1108">Genopole Summer School</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.genopole.fr/spip.php?page=rubrique_event&amp;id_rubrique=1111&amp;event=1108">Campus des Berges de Seine, Seine-Port, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Roxane Brachet </td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 25th 2018</span></td>
+  <td><a href="https://gccbosc2018.sched.com">GCCBOSC 2018</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 27th 2018</span></td>
+  <td><a href="http://www.denbi.de/22-training-cat/training-courses/555-a-primer-for-rna-seq-processing-interpreting-and-visualization">A primer for RNA-Seq processing, interpreting and visualization</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/>Leibniz Institute on Aging - Fritz Lipmann Institute (FLI), Jena, Germany</td>
+  <td>Steve Hoffmann, Olaf Wolkenhauer, Wolfgang Hess</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 16th 2018</span></td>
+  <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">November 22nd 2018</span></td>
+  <td><a href="/events/2018-europe-dev">European Galaxy Developer Days</a></td>
+  <td><img style="float:right" src="/images/icons/EU.png"/>Freiburg, Germany</td>
+  <td>Hans-Rudolf Hotz, Björn Grüning</td>
+</tr>
+</tbody></table>
 
 ----
 
