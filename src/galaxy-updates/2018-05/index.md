@@ -36,7 +36,7 @@ We are happy to have [sponsors](/src/events/gccbosc2018/sponsors/index.html) con
 
 ### GigaScience and Oxford University Press
 
-[<img src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="230" />](https://academic.oup.com/gigascience)
+[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
 
 **[GigaScience](https://academic.oup.com/gigascience)** is an online open access, open data, open peer-review journal published by **[Oxford University Press](https://academic.oup.com/)**. The journal offers ‘big data’ research from the life and biomedical sciences, including the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, cohort, systems biology, and other new types of sharable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, bioboxes/docker and other elements related to the work underpinning the findings in the article).
 
