@@ -4,7 +4,7 @@ autotoc: true
 layout: server_index.pug
 ---
 
-<img src="/src/public-galaxy-servers/80PlusSlide.png" alt="and counting"
+<img src="/src/public-galaxy-servers/90-plus-slide.png" alt="and counting"
 class="img-responsive center-block" />
 
 The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org/)) can
