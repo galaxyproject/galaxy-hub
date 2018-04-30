@@ -270,8 +270,17 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
+There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Another public server was added to the directory in April:
 
+## IRProfiler
+
+[<img class="pull-right" src="/src/public-galaxy-servers/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />](http://irprofiler.med.auth.gr:8080/)
+
+[Immune Repertoire Profiler (IRProfiler)](http://irprofiler.med.auth.gr:8080/) is a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data. IRProfiler can be used anonymously or through an account.
+
+This server is made available as supplementary material for the article "[IRProfiler - A Software Toolbox for High Throughput Immune Receptor Profiling](https://link.springer.com/article/10.1186%2Fs12859-018-2144-z)", authored by C. Maramis et al. in *BMC Bioinformatics*.  A [Docker image of the IRProfiler Galaxy toolbox](https://hub.docker.com/r/chmaramis/irprofiler/) is also available.
+
+IRProfiler is supported by the [Lab of Computing, Medical Informatics & Biomedical-Imaging Technologies](http://www1.med.auth.gr/depts/lomi/en/index_en.htm), [Department of Medicine](https://www.auth.gr/en/med), Aristotle University of Thessaloniki, in Thessaloniki, Greece; and the [Institute of Applied Biosiences](http://hbio.gr/member/institute-applied-biosciences-inab-centre-research-and-technology-certh), [Centre for Research & Technology Hellas](https://www.certh.gr/root.en.aspx), in Thermi, Greece
 
 ## Public Servers in Publications
 
