@@ -15,7 +15,7 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Silver Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="180" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) 
+[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="180" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) [<img src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="230" />](https://academic.oup.com/gigascience) 
 
 ## Bronze Sponsors
 
