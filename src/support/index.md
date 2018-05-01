@@ -75,5 +75,5 @@ title: Galaxy Support
 * [How do I find, adjust, and/or correct metadata?](/src/support/metadata/index.md)
 * [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
 * [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
-* [Mismatched Chromosome identifiers](/src/support/chrom-identifiers/index.md)
+* [Mismatched Chromosome identifiers (and how to avoid them)](/src/support/chrom-identifiers/index.md)
 
