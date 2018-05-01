@@ -15,11 +15,11 @@ Welcome to the May 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
 
 [GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md).  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
 
-## GCC2018 talks posted
+## GCC2018 schedule posted
 
 The schedule of accepted long talks for GCC2018 is [now available online](https://gccbosc2018.sched.com/).  [Sixteen topics](https://gccbosc2018.sched.com/overview/type/B.g+Conference+-+GCC) have been scheduled spanning the full Galactic spectrum from [deployment details](http://sched.co/EYCM) to [novel applications of Galaxy](http://sched.co/EYNG) and everything in between.
 
-BOSC talks, and GCC & BOSC lightning talks will be added in the coming week or so.
+BOSC talks and GCC lightning talks will be added in the next week or so.
 
 ## Early registration ends May 11
 
@@ -30,6 +30,10 @@ Did you catch that?  **Early registration ends May 11!**  *So c'mon, register al
 * [Childcare](/src/events/gccbosc2018/childcare/index.md).  **Space in childcare is very limited.**
 
 If you register after May 11, you will have less money to fund reagents, storage, compute timepost-docs, field work, 3D printers, [VR systems](/src/events/gccbosc2018/icebreaker/index.md)...
+
+## BOSC deadline for late-breaking lightning talks, demos and posters is May 17
+
+* Submit your abstract [here](https://www.open-bio.org/wiki/BOSC_Abstract_Submission).
 
 ## GCCBOSC 2018 Sponsors
 
