@@ -41,9 +41,10 @@ We are happy to have [sponsors](/src/events/gccbosc2018/sponsors/index.html) con
 
 ### GigaScience and Oxford University Press
 
-[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
+[<img class="pull-left" src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
 
-**[GigaScience](https://academic.oup.com/gigascience)** is an online open access, open data, open peer-review journal published by **[Oxford University Press](https://academic.oup.com/)**. The journal offers ‘big data’ research from the life and biomedical sciences, including the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, cohort, systems biology, and other new types of sharable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, bioboxes/docker and other elements related to the work underpinning the findings in the article).
+**[GigaScience](https://academic.oup.com/gigascience)** is an online open access, open data, open peer-review journal published by **[Oxford University Press](https://academic.oup.com/)** and **[BGI](https://www.bgi.com/us/)**. The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net](http://gigagalaxy.net/) server, novel work presented at the meeting utilising Galaxy is eligible to a 15% APC if it is submitted to our [Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
+
 
 ### Advanced HPC
 
@@ -90,12 +91,6 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
     <th>Contact</th>
 </tr>
 </thead><tbody>
-<tr>
-  <td><span class="text-nowrap">May 1st 2018</span></td>
-  <td><a href="https://qfab.org/workshops/variant-detection-using-galaxy-15-16-may-2018">RNA-Seq analysis using Galaxy</a></td>
-  <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
 <tr>
   <td><span class="text-nowrap">May 8th 2018</span></td>
   <td><a href="https://faes.org/events/biotech-45-bioinformatic-analysis-next-generation-sequencing-data-4-day-hands-workshop-2">Bioinformatics Analysis of Next Generation Sequencing Data</a></td>
