@@ -323,7 +323,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Releases
 
-### BioBlend 0.11.0
+## BioBlend 0.11.0
 
 [BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
 
@@ -426,7 +426,6 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 Other Galaxy packages that haven't had a release in the past four months can be [found on GitHub](https://github.com/galaxyproject).
 
-# Other News
 
 
 
