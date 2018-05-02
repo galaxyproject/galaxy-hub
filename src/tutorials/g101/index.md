@@ -497,7 +497,7 @@ A new interface will appear in the middle pane. The following animated GIF shows
 |        |
 |--------|
 |![Copy datasets 2](/src/tutorials/g101/copy_datasets.gif)|
-|<small>**Figure 42**. To copy datasets select those you want to copy (just one in this case), give a name to the new history you want this dataset needs to be copied to ("my example 2"), click "Copy History Items". A green message "1 dataset copied to 1 history "my example 2" will appear. The name name of the history in this message will be shown as a click-able link. Click on it and Galaxy will take you to a new history with only one dataset.</small>|
+|<small>**Figure 42**. To copy datasets select those you want to copy (just one in this case), give a name to the new history you want this dataset needs to be copied to ("my example 2"), click "Copy History Items". A green message "1 dataset copied to 1 history "my example 2" will appear. The name of the history in this message will be shown as a click-able link. Click on it and Galaxy will take you to a new history with only one dataset.</small>|
 
 ### Get Repeats
 
