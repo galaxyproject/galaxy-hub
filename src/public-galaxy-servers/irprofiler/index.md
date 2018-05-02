@@ -18,6 +18,7 @@ sponsors:
 
 * Dedicated Galaxy installation that deploys IRProfiler, a novel Galaxy toolbox. This is made available as supplementary material for the article "[IRProfiler - A Software Toolbox for High Throughput Immune Receptor Profiling](https://link.springer.com/article/10.1186%2Fs12859-018-2144-z)", authored by C. Maramis et al. in *BMC Bioinformatics*
 * A [Docker image of the IRProfiler Galaxy toolbox](https://hub.docker.com/r/chmaramis/irprofiler/) is also available.
+* IRProfiler tools are [also available in the ToolShed](https://toolshed.g2.bx.psu.edu/repository?repository_id=8660186ea1d6b696&changeset_revision=acaa8e8a0b88)
 
 ## User Support
 
@@ -25,7 +26,7 @@ sponsors:
 ## Quotas
 
 * Can be used anonymously.
-* Also supports account creattion.
+* Also supports account creation.
 
 ## Citation(s)
 
