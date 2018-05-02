@@ -71,6 +71,8 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/src/events/
 
 **The [ELIXIR Workshop for Galaxy training material and skills improvement](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement) will be held 21-23 May at the [Earlham Institute](http://www.earlham.ac.uk/) in Norwich, UK.**
 
+[<img class="pull-right" src="/src/images/logos/ElixirNoTextLogo.png" width="140" />](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement)
+
 Education and training is an integral part of the Galaxy community. The Galaxy Training Network (GTN) has been working for several years with [GOBLET](http://www.mygoblet.org/) and the [ELIXIR Training Platform](https://www.elixir-europe.org/platforms/training) to create material and deliver training for scientists, developers and system administrators. A selection of 72 tutorials, developed by more than 60 contributors, is [already available](http://training.galaxyproject.org). 
 In this workshop, we intend to improve the participants’ understanding of learning principles, training techniques and best practices for materials preparation. **We will then work together to expand the existing collection of Galaxy training materials by covering more topics relevant to the ELIXIR use cases, add missing annotation and metadata and make the materials easily accessible.**
 
