@@ -3,7 +3,7 @@ title: 'May 2018 Galactic News'
 tease: 'GCCBOSC and other event news; new pubs, servers, jobs, ...'
 date: '2018-05-02'
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2018-05/index.md>)
+[<img class="pull-right" src="/src/news/2018-05-galaxy-update/2018-05-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/2018-05/index.md>)
 
 The [May 2018 Galactic News](/src/galaxy-updates/2018-05/index.md) highlights what's going on in the Galaxy this month, including:
 
