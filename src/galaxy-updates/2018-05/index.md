@@ -380,7 +380,7 @@ The [Galaxy Docker project has a matching release](https://github.com/bgruening/
 
 ### blend4j 0.2.0
 
-blend4j is a partial reimplemenation of the Python library [bioblend](https://github.com/galaxyproject/bioblend) for the JVM. bioblend for Python is a library for scripting interactions with Galaxy.
+blend4j is a partial reimplementation of the Python library [bioblend](https://github.com/galaxyproject/bioblend) for the JVM. bioblend for Python is a library for scripting interactions with Galaxy.
 
 * Update to galaxy-bootstrap 0.7.0.
 * Added support for accessing Galaxy Tool Data tables. Thanks to [Dan Fornika](https://github.com/apetkau/blend4j/pull/9).
