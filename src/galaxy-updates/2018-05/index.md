@@ -67,6 +67,17 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/src/events/
 
 <br />
 
+## ELIXIR Workshop for Galaxy training material and skills improvement
+
+**The [ELIXIR Workshop for Galaxy training material and skills improvement](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement) will be held 21-23 May at the [Earlham Institute](http://www.earlham.ac.uk/) in Norwich, UK.**
+
+Education and training is an integral part of the Galaxy community. The Galaxy Training Network (GTN) has been working for several years with [GOBLET](http://www.mygoblet.org/) and the [ELIXIR Training Platform](https://www.elixir-europe.org/platforms/training) to create material and deliver training for scientists, developers and system administrators. A selection of 72 tutorials, developed by more than 60 contributors, is [already available](http://training.galaxyproject.org). 
+In this workshop, we intend to improve the participants’ understanding of learning principles, training techniques and best practices for materials preparation. **We will then work together to expand the existing collection of Galaxy training materials by covering more topics relevant to the ELIXIR use cases, add missing annotation and metadata and make the materials easily accessible.**
+
+The workshop will start with a 1-day "Train the Trainer" course, similar to the Caprentries' [Instructor Training](https://carpentries.github.io/instructor-training/) and the [ELIXIR-EXCELERATE Train the Trainer](https://github.com/TrainTheTrainer/EXCELERATE-TtT). Here Galaxy trainers will develop an insight into different learning styles, understand what makes a good trainer, and learn new approaches to training from experienced trainers. This course will help them to better contribute and shape the materials during the hackathon.
+
+**[Register now](https://www.eiseverywhere.com/galaxy).**
+
 ## Galaxy Africa Report
 
 <div class="pull-left">
@@ -133,6 +144,11 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module18bis.pdf">Traitement bioinformatique des données RNA-seq sous Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 21st 2018</span></td>
+  <td><a href="http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement"><strong>ELIXIR Workshop for Galaxy training material and skills improvement</strong></a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/">Earlham Institute, Norwich, United Kingdom</a></td><td>training@earlham.ac.uk</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 21st 2018</span></td>
