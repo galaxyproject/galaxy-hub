@@ -24,6 +24,9 @@ sponsors:
 
 ## Citation(s)
 
+* [CoSSci tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ECoSSci) in [Galaxy Publication library](/src/publication-library/index.md).
+
+
 ## Sponsor(s)
 
 * [InterSci: Hosted by the Institute for Mathematical Behavioral Science](http://intersci.ss.uci.edu/)
