@@ -9,4 +9,5 @@ image: /images/logos/GlasgowPolyomics.jpg
 location_url: "http://www.polyomics.gla.ac.uk/events.html"
 external_url: "http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jul18_transcriptomics.html"
 contact: "David Meltzer"
+gtn: false
 ---

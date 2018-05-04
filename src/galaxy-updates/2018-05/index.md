@@ -251,7 +251,7 @@ April added three *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items
 * [IRProfiler – a software toolbox for high throughput immune receptor profiling](https://doi.org/10.1186/s12859-018-2144-z), Christos Maramis, Athanasios Gkoufas, Anna Vardi, Evangelia Stalika, Kostas Stamatopoulos, Anastasia Hatzidimitriou, Nicos Maglaveras and Ioanna Chouvarda. *BMC Bioinformatics* (2018) 19:144, doi:10.1186/s12859-018-2144-z
 * [SECIMTools: a suite of metabolomics data analysis tools](https://doi.org/10.1186/s12859-018-2134-1), 
 Alexander S. Kirpich, Miguel Ibarra, Oleksandr Moskalenko, Justin M. Fear, Joseph Gerken, Xinlei Mi, Ali Ashrafi, Alison M. Morse and Lauren M. McIntyre. *BMC Bioinformatics* (2018) 19:151, doi:10.1186/s12859-018-2134-1
-* [Notos - a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types](https://doi.org/10.1186/s12859-018-2115-4), Ingo Bulla, Benoît Aliaga, Virginia Lacal, Jan Bulla* , Christoph Grunau and Cristian Chaparro, *BMC Bioinformatics* (2018) 19:105, doi:10.1186/s12859-018-2115-4
+* [Notos - a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types](https://doi.org/10.1186/s12859-018-2115-4), Ingo Bulla, Benoît Aliaga, Virginia Lacal, Jan Bulla, Christoph Grunau and Cristian Chaparro, *BMC Bioinformatics* (2018) 19:105, doi:10.1186/s12859-018-2115-4
 
 
 ## Publication Topics
