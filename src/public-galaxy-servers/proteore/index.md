@@ -21,6 +21,7 @@ sponsors:
   * Functional analysis (e.g. GOterms frequencies, enrichment analysis) including graphical representation.
   * Pathway analysis (e.g. Reactome)
 * This version also includes Galaxy generic tools and some tools from the [GalaxyP project](https://usegalaxyp.org/) that should be of great help for people who want to (re)process their MS-based proteomics data (e.g. peptide/protein identification). 
+* [ProteoRE tools in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/view/proteore)
 
 ## User Support
 
@@ -34,6 +35,7 @@ sponsors:
 
 ## Citation(s)
 
+* [P17: ProteoRE, a Galaxy-based infrastructure for interpreting and exploring mass spectrometry-based proteomics data](http://sched.co/B8U9), [GCC2017](https://gcc2017.sched.com/) poster presentation, Lien Nguyen, Maud Lacombe, Sandra Dérozier, Lisa Perus, Olivier Rué, Florence Combes, Christophe Caron, Virginie Brun, Valentin Loux, Yves Vandenbrouck 
 
 ## Sponsor(s)
 
