@@ -127,7 +127,7 @@ cleanup_dataset.py script can be used to delete these types of histories that
 have not been altered for a specified period of time. The command for deleting
 userless histories is something like:
 
-    python cleanup_datasets.py config/galaxy.ini -d 60 -1
+    python cleanup_datasets.py -d 60 -1
 
 Notice that the first parameter passed into the script is the Galaxy
 configuration file. This is necessary for the script to acquire information
@@ -158,7 +158,7 @@ files are removed from disk (the primary Dataset File still remains on disk and
 can be retrieved by an admin) . The command for purging histories and
 associated HDAs is something like:
 
-    python cleanup_datasets.py config/galaxy.ini -d 60 -2 -r
+    python cleanup_datasets.py -d 60 -2 -r
 
 In this example, the -2 flag tells the `cleanup_dataset.py` script to execute the
 `purge_histories()` method included in the script. This method retrieves all
@@ -185,7 +185,7 @@ The next stage in the lifecycle of a deleted Dataset record is the "purged"
 stage, the last stage in the `Dataset` record's lifecycle. The command for
 purging datasets is something like:
 
-    python cleanup_datasets.py config/galaxy.ini -d 60 -3 -r
+    python cleanup_datasets.py -d 60 -3 -r
 
 In this example, the -3 flag tells the `cleanup_dataset.py` script to execute the
 `purge_datasets()` method included in the script. This method retrieves all
@@ -205,7 +205,7 @@ Besides existing in user's history, dataset association objects exist with in
 Purging a library folder is similar to purging a History. An example command
 is:
 
-    python cleanup_datasets.py config/galaxy.ini -d 60 -5 -r
+    python cleanup_datasets.py -d 60 -5 -r
 
 In this example, the -5 flag tells the `cleanup_dataset.py` script to execute the
 `purge_folders()` method included in the script. This method retrieves all
@@ -236,7 +236,7 @@ are not purged, but are deleted and exceed the modified date are retrieved. The
 library is marked as purged and `purge_folder` is called on the library's root
 folder, deleting all contents. An example command is:
 
-    python cleanup_datasets.py config/galaxy.ini -d 60 -4 -r
+    python cleanup_datasets.py -d 60 -4 -r
 
 In this example, the -4 flag tells the `cleanup_dataset.py` script to execute the
 `purge_libraries()` method included in the script. This method retrieves all
@@ -268,4 +268,4 @@ is marked as deleted and each `DatasetAssociation` is purged. The
 `purge_datasets.sh` script will need to be run afterwards to remove the base
 datasets from disk.
 
-An example command is: `python cleanup_datasets.py config/galaxy.ini -d 60 -6 -r`
+An example command is: `python cleanup_datasets.py -d 60 -6 -r`
