@@ -49,7 +49,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Bring your own soap and shampoo
 * Minors are prohibited from staying in the dorms (see Other Options below)
 * Checkin during [conference desk hours](https://gccbosc2018.sched.com/overview/type/A.+Help)
-* Checkin outside of conference desk hours is also possible by special arrangement.  [Contact the organizers](/src/events/gccbosc/organizers/index.md).
+* Checkin outside of conference desk hours is also possible by special arrangement.  [Contact the organizers](/src/events/gccbosc2018/organizers/index.md).
 
 
 ## Nightly rates
