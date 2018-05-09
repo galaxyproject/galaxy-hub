@@ -8,6 +8,10 @@
 
 Conference attendees 18 years or older, and their guests.  See [requirements for guests](/src/events/gccbosc2018/venue/index.md#guests). 
 
+## Can I stay in the Reed College residence halls (dorms) on Saturday night, June 23rd?
+
+No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/src/events/gccbosc2018/venue/index.md#other-options) for other options off campus. 
+
 ## Are there off-campus housing options?
 
 [Yes](/src/events/gccbosc2018/venue/index.md#other-options). 
