@@ -32,7 +32,7 @@ You can pick and chose which events you'll attend when you register.
 | Non-Profit      | $83 | $100 | $150
 | Industry          | $125 | $150 | $250
 
-## BOSC and GCC Meeting(s), Wednesday-Thursday, June 26-27
+## BOSC and GCC Meeting(s), Wednesday-Thursday, June 27-28
 
 *You'll be able to attend presentations at both meetings.*
 
