@@ -11,7 +11,7 @@
 <br />
 These are revolutionary components of Galaxy allowing users to do interactive data processing from within Galaxy. IEs are built as standard Galaxy visualization plugins, however they launch Docker containers and use some additional routing information to connect end users through the Galaxy server, to the Docker images.
 
-There is currently one IE built into Galaxy:
+There are currently two IEs built into Galaxy:
 
 * [IPython](https://github.com/bgruening/galaxy-ipython/)
 * [RStudio](https://github.com/erasche/galaxy-rstudio/)
