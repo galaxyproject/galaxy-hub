@@ -7,7 +7,7 @@ date: '2018-05-09'
 
 Hello all,
 
-We are sorry to pass on the news that [Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) suffered a fatal heart attack last week while playing football (his favorite sport). He was not yet 50 years old.
+We are sorry to pass on the news that [Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) suffered a fatal heart attack last week while playing football (his favorite sport). He was 50 years old.
 
 SFBI has set up a [tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron).  A post by Jacques van Helden and Claudine Medigue includes this:
 
