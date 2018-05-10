@@ -13,9 +13,11 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Gold Sponsors
 
+[<img src="/src/events/gccbosc2018/sponsors/lenovo-intel-wide.png" alt="Lenovo + Intel" width="400" />](http://www.lenovo.com/systems)
+
 ## Silver Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="180" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="250" />](https://f1000research.com/) [<img src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="230" />](https://academic.oup.com/gigascience) 
+[<img src="/src/events/gccbosc2018/sponsors/bgmp-plus-uo-logo.png" alt="University of Oregon Applied Bioinformatics and Genomics Masters Program and the Knight Campus for Accelerating Scientific Impact" width="180" />](https://bioinformatics.uoregon.edu/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="240" />](https://f1000research.com/) [<img src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="230" />](https://academic.oup.com/gigascience) 
 
 ## Bronze Sponsors
 
