@@ -110,7 +110,7 @@ Or
 ```
 stderr:
 Fatal error: Exit code 1 ()
-slurmstepd: error: Detected 1 oom-kill event(s) in step 13361793.batch cgroup.
+slurmstepd: error: Detected 1 oom-kill event(s) in step XXXXXXX.batch cgroup.
 ```
 
 Or this somewhere in the error message (usually at the end)
