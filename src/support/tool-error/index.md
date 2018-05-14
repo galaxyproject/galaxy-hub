@@ -113,6 +113,12 @@ Fatal error: Exit code 1 ()
 slurmstepd: error: Detected 1 oom-kill event(s) in step 13361793.batch cgroup.
 ```
 
+Or this somewhere in the error message (usually at the end)
+
+```
+slurmstepd: error: Detected 1 oom-kill event(s) in step XXXXXXX.batch cgroup.
+```
+
 On rare cases when the memory quota is exceeded very quickly, an error message such as the following can appear:
 
 ```
