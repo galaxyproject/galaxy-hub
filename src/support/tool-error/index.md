@@ -105,6 +105,14 @@ This job was terminated because it used more memory than it was allocated.
 Please click the bug icon to report this problem if you need help.
 ```
 
+Or
+
+```
+stderr:
+Fatal error: Exit code 1 ()
+slurmstepd: error: Detected 1 oom-kill event(s) in step 13361793.batch cgroup.
+```
+
 On rare cases when the memory quota is exceeded very quickly, an error message such as the following can appear:
 
 ```
