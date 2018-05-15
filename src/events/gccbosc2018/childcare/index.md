@@ -63,5 +63,8 @@ There are several other options within a 15 minute walk:
 
 Reed College also has a [list of recommended hotels](https://www.reed.edu/accommodations.html), including [several that are downtown](https://www.reed.edu/accommodations.html#downtown).
 
+## Support
 
+[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="220" />](https://www.biocuration.org/)
 
+We thank the [International Society for Biocuration](https://www.biocuration.org/) for an [ISB Microgrant](https://www.biocuration.org/community/microgrants/) to support childcare at GCCBOSC.  The ISB is a non profit organization for biocurators, developers, and researchers with an interest in biocuration. The society promotes the field of biocuration and provides a forum for information exchange through meeting and workshops.
