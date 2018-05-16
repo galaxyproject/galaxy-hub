@@ -48,11 +48,11 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 
 # Custom Builds
 
-Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tools **Featurecounts**, **Extract Genomic DNA**, certain **Picard** tools, and the functions under  **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 
-* Start with an existing fasta Custom Reference Genome in your history
+* Start with an existing fasta Custom Reference Genome in your history. It is *very important* make sure the [format](/src/learn/custom-genomes/#format) is correct.
 * Go to the top "User" menu and select "Custom Builds"
 * Enter in the labels (no spaces and no special characters other than "_")
 * Select the fasta Custom Reference Genome
