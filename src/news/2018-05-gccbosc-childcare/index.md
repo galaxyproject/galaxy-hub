@@ -5,7 +5,7 @@ date: '2018-05-18'
 ---
 [<img class="pull-right" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="GCCBOSC Childcare Update" width="270" />](http://localhost:8080/events/gccbosc2018/childcare/)
 
-You may not be aware that [childcare]((/src/events/gccbosc2018/childcare/index.md) is available for the upcoming [GCCBOSC 2018 Conference](https://gccbosc2018.sched.com/), or **that the cost of childcare has recently dropped significantly due to sponsorship from [eLIFE](https://elifesciences.org/) and a microgrant from [ISB](https://www.biocuration.org/)**.
+You may not be aware that [childcare](/src/events/gccbosc2018/childcare/index.md) is available for the upcoming [GCCBOSC 2018 Conference](https://gccbosc2018.sched.com/), or **that the cost of childcare has recently dropped significantly due to sponsorship from [eLIFE](https://elifesciences.org/) and a microgrant from [ISB](https://www.biocuration.org/)**.
 
 <div class="pull-left">
 [<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="180" />](https://elifesciences.org/)
