@@ -128,7 +128,7 @@ Looking for something to do during your stay here? Check out the [Travel Portlan
 
 ## Dining
 
-Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock] (https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
+Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
 
 ### Recommended pubs and restaurants near Reed
 
@@ -138,11 +138,17 @@ Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: m
 **[Bible Club](http://bibleclubpdx.com/)** *– 1.3 miles from Reed College*<br />
 Antiques-filled speakeasy serving inventive & classic cocktails plus small bites in stylish digs.
 
+**[Bird + Bear](http://www.birdbearpdx.com/)** - *1.1 miles from Reed College*<br />
+Happy Hour food and drink
+
 **[Double Mountain](http://www.doublemountainbrewery.com/taproom/woodstock-taproom/)** - *0.6 miles from Reed College*<br />
 Offshoot of a popular Hood River brewery serving craft beer, pizza, salads & sandwiches. This place is really popular and can get very crowded, but can accommodate fairly large groups.
 
 **Lutz Tavern** - *0.8 miles from Reed College*<br />
 A Reed hangout. Bar founded in 1947 but remodeled with new style, offering fresh-squeezed juices & hefty burgers.
+
+**Nudi Noodle** - *0.6 miles from Reed College*<br/>
+Global takes on noodles (most with an Asian bent) in a unique space covered with faux grass & bark.
 
 **[Otto's Sausage Kitchen & Meat Market](https://www.ottossausage.com/)** - *0.5 miles from Reed College*<br />
 Longtime German deli with sidewalk picnic tables selling homemade sausages, hot dogs & sandwiches.
