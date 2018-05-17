@@ -2,7 +2,7 @@
 
 # Childcare at GCCBOSC
 
-<img class="pull-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />
+<img class="pull-right" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />
 
 The Galaxy Community and Bioinformatics Open Source Conference aims to make events accessible to parents. If you will be bringing kids along then please consider taking advantage of the services that GCCBOSC is offering.
 
@@ -20,7 +20,7 @@ If you have an infant and you want to have them with you during the day, then pl
 [<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
 </div>
 
-Subsidized childcare for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
+Subsidized childcare *([thank eLIFE and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
 
 * Lunch, snacks and beverages are provided for kids between 3 and 12.
 * We ask that parents bring pre-made bottles, and baby food and snacks for your infants and toddlers.
@@ -31,20 +31,40 @@ Little Vikings is a Nut Free Facility.
 
 Space is extremely limited.
 
+### Register for Childcare
 
-### Childcare costs and sign up
+**[Please use this form to signup for daycare](https://docs.google.com/forms/d/e/1FAIpQLSd0hcy41htUaXJi4Pcjcqlhpvws0YV_aoT0j1VXuq0kY9bwlw/viewform?c=0&w=1).**
+
+Once you have signed up, Little Vikings will contact you about payment.
+
+
+### Rates
 
 Childcare can be booked in half day increments and works out to be either $7 per hour (for children of students and postdocs), or $10 per hours for everyone else.  The rates are:
 
 | Ages | Package | Times | Meals | Student & Post-doc | Others |
 | ---- | ---- | :----: | :----: | :----: | :----: |
-| 6 weeks to 2 years old | Morning | 8am-1pm | None | $35.00 | $50.00 |
-|          | Afternoon | 1pm-7pm | None | $42.00 | $60.00 |
-| 3 to 12 years old | Morning | 8am-1pm | Snacks, Lunch | $35.00 | $50.00 |
-|          | Afternoon | 1pm-7pm | Snacks, Dinner | $42.00 | $60.00 |
+| 6 weeks to 2 years old       | Morning | 8am-1pm | None | $27.50 | $38.75 |
+|                                          | Afternoon | 1pm-7pm | None | $33.00 | $46.50 |
+| 3 to 12 years old | Morning | 8am-1pm | Snacks, Lunch | $27.50 | $38.75 |
+|                          | Afternoon | 1pm-7pm | Snacks, Dinner | $33.00 | $46.50 |
 
-**Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSd0hcy41htUaXJi4Pcjcqlhpvws0YV_aoT0j1VXuq0kY9bwlw/viewform?c=0&w=1) to signup for daycare.** Once you have signed up, Little Vikings will contact you about payment.
+***That works out to only $5.50 or $7.75 per hour, thanks to generous ...***
 
+## Support from eLIFE and ISB
+
+Childcare at GCCBOSC is generously supported by a sponsorship from [eLIFE](https://elifesciences.org/) and an
+[International Society for Biocuration (ISB)](https://www.biocuration.org/) [Microgrant](https://www.biocuration.org/community/microgrants/).
+
+[<img class="pull-left" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
+
+**[eLife](https://elifesciences.org/)** is an open-access journal that publishes promising research in the life and biomedical sciences.  eLife is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
+
+eLife publishes work of the highest scientific standards and importance in all areas of the life and biomedical sciences. The research is selected and evaluated by working scientists and is made freely available to all readers without delay. eLife also invests in [innovation](https://elifesciences.org/about/innovation) through open-source tool development to accelerate research communication and discovery. Our work is guided by the [communities](https://elifesciences.org/about/people) we serve.
+
+[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="220" />](https://www.biocuration.org/)
+
+**[ISB](https://www.biocuration.org/)** is a non profit organization for biocurators, developers, and researchers with an interest in biocuration. The society promotes the field of biocuration and provides a forum for information exchange through meeting and workshops.
 
 ## Location and Lodging
 
@@ -62,9 +82,3 @@ There are several other options within a 15 minute walk:
 * [Duniway Hotel](http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html), 545 SW Taylor, 
 
 Reed College also has a [list of recommended hotels](https://www.reed.edu/accommodations.html), including [several that are downtown](https://www.reed.edu/accommodations.html#downtown).
-
-## Support
-
-[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="220" />](https://www.biocuration.org/)
-
-We thank the [International Society for Biocuration](https://www.biocuration.org/) for an [ISB Microgrant](https://www.biocuration.org/community/microgrants/) to support childcare at GCCBOSC.  The ISB is a non profit organization for biocurators, developers, and researchers with an interest in biocuration. The society promotes the field of biocuration and provides a forum for information exchange through meeting and workshops.

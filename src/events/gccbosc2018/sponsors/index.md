@@ -43,7 +43,11 @@ Is your organization interested in playing a prominent role in the first joint g
     </td>
     <td style="width: 5%"> </td>
     <td>
-      [<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="220" />](https://www.biocuration.org/)
+      [<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
+    </td>
+    <td style="width: 8%"> </td>
+    <td>
+      [<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="200" />](https://www.biocuration.org/)
     </td>
   </tr>
   <tr style="text-align: center">
@@ -54,14 +58,18 @@ Is your organization interested in playing a prominent role in the first joint g
     <td>
       **[Childcare](/src/events/gccbosc2018/childcare/index.md) Sponsor**
     </td>
+    <td style="width: 8%"> </td>
+    <td>
+      **[Childcare](/src/events/gccbosc2018/childcare/index.md) Sponsor**
+    </td>
   </tr>
 </table>
+
+# Interested?
 
 <div class="pull-right">
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
-
-# Interested?
 
 Please see the information below and contact the [conference organizers](/src/events/gccbosc2017/organizers/inidex.md) with any questions.
 
