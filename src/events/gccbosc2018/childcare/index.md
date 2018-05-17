@@ -40,7 +40,7 @@ Once you have signed up, Little Vikings will contact you about payment.
 
 ### Rates
 
-Childcare can be booked in half day increments and works out to be either $7 per hour (for children of students and postdocs), or $10 per hours for everyone else.  The rates are:
+Childcare can be booked in half day increments.  The rates are:
 
 | Ages | Package | Times | Meals | Student & Post-doc | Others |
 | ---- | ---- | :----: | :----: | :----: | :----: |
