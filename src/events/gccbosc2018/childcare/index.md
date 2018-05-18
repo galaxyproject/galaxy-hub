@@ -20,7 +20,7 @@ If you have an infant and you want to have them with you during the day, then pl
 [<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
 </div>
 
-Subsidized childcare *([thank eLIFE and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
+Subsidized childcare *([thank eLife and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
 
 * Lunch, snacks and beverages are provided for kids between 3 and 12.
 * We ask that parents bring pre-made bottles, and baby food and snacks for your infants and toddlers.
@@ -51,9 +51,9 @@ Childcare can be booked in half day increments.  The rates are:
 
 ***That works out to only $5.50 or $7.75 per hour, thanks to generous ...***
 
-## Support from eLIFE and ISB
+## Support from eLife and ISB
 
-Childcare at GCCBOSC is generously supported by a sponsorship from [eLIFE](https://elifesciences.org/) and an
+Childcare at GCCBOSC is generously supported by a sponsorship from [eLife](https://elifesciences.org/) and an
 [International Society for Biocuration (ISB)](https://www.biocuration.org/) [Microgrant](https://www.biocuration.org/community/microgrants/).
 
 [<img class="pull-left" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
