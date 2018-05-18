@@ -40,6 +40,12 @@ In addition, a letter verifying your student status or employment status may be 
 
 Note, the GCCBOSC 2018 organizers are not experts on US immigration and cannot offer any advice.
 
+## ESTA 
+If you need a US based contact name (address and phone number), please contact Nicole Vasilevsky at: vasilevs@ohsu.edu
+
+For your address while in the US, the address of Reed College is:
+3203 SE Woodstock Blvd
+Portland, OR 97202
 
 # Refunds
 
