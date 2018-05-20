@@ -9,5 +9,5 @@ location_url: "https://www.pasteur.fr/"
 external_url: "https://www.linkedin.com/pulse/workflow4experimenters-2018-course-analyze-your-lcms-gcms-giacomoni/?published=t"
 image: 
 gtn: True
-contact: "Christophe Caron, Gildas Le Corguillé"
+contact: "Gildas Le Corguillé"
 ---
