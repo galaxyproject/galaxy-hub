@@ -58,7 +58,7 @@ Childcare at GCCBOSC is generously supported by a sponsorship from [eLife](https
 
 [<img class="pull-left" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
 
-**[eLife](https://elifesciences.org/)** is an open-access journal that publishes promising research in the life and biomedical sciences.  eLife is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
+**[eLife](https://elifesciences.org/)** is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
 
 eLife publishes work of the highest scientific standards and importance in all areas of the life and biomedical sciences. The research is selected and evaluated by working scientists and is made freely available to all readers without delay. eLife also invests in [innovation](https://elifesciences.org/about/innovation) through open-source tool development to accelerate research communication and discovery. Our work is guided by the [communities](https://elifesciences.org/about/people) we serve.
 
