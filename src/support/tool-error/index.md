@@ -164,7 +164,7 @@ Sometimes the execution time of a job can be shorted by adjusting the inputs, pa
 * There is a banner at the web site noting that there are known cluster issues or maintainance is in progress.
 * Status of the server is noted as being down. Check here: https://status.galaxyproject.org/
 
-#### How to resolve - walltime
+#### How to resolve - memory or walltime
 
 * Rerunning the job is often the only way forward. 
 * Give a longer-running cluster a try.
@@ -209,7 +209,7 @@ MACS/2 is not capable of interpretting sequence read names with spaces included.
  * Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
  * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
 
-### Type: Tool and software problems/bugs
+### Type: Tool and software problems
 
 Software or Tool Bug? Or a usage error? Sometimes it is hard to tell. 
 
