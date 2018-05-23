@@ -44,7 +44,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 
 These are the top reasons for tool failures.
 
-#### Examples 
+#### Examples - input
 
 * You need to sort your inputs.
 * The datatype or database is either not assigned or is incorrect.
@@ -57,17 +57,17 @@ These are the top reasons for tool failures.
 * **Tip** "Chr1" and "chr1" and "1" do not mean the same thing to a tool (or rather, most tools!).
 
 
-#### How to detect
+#### How to detect - input
 
 * Tool errors can vary. Widely.
 
-#### How to resolve
+#### How to resolve - input
 
 * Fix the inputs. 
 * Read the tool form help.
 * **Follow the guidelines and troubleshooting help at the [Support Hub](/src/support/index.md).**
 
-#### Special cases
+#### Special cases - input
 
 * There are no special cases. This problem is ubiquitous no matter where or with what tools you happen to be using.
 * Or how experienced you are. Everyone makes little errors. Catching and fixing them is what matters. 
@@ -88,6 +88,8 @@ Please click the bug icon to report this problem if you need help.
 ```
 
 It is possible that there was a server or cluster error. However, very often input problems can contribute to these types of failures.
+
+#### How to resolve - cancelled
 
 If after reviewing inputs (see section for that job falure reason below) and re-running, and the cause of the error remains unclear, try the following:
 
@@ -131,6 +133,8 @@ Memory Error
 
 The error indicates that the job ran out of memory while executing on the cluster node that ran the job. **This memory is different than the amount of disk usage in an account**.
 
+#### How to resolve - memory
+
 Often memory errors can be avoided by the user executing the job:
 
 * Double check the inputs to the tool. Are the [data properly formatted and labeled](/src/support/#input-format-getting-it-right-to-avoid-problems)?
@@ -153,14 +157,14 @@ The error indicates that the job execution time exceeded the "wall-time" on the 
 Sometimes the execution time of a job can be shorted by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/src/main/index.md)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
 
 
-#### How to detect
+#### How to detect - walltime
 
 * A previously run job didn't re-run well.
 * The error message is cluster-specific. See examples above.
 * There is a banner at the web site noting that there are known cluster issues or maintainance is in progress.
 * Status of the server is noted as being down. Check here: https://status.galaxyproject.org/
 
-#### How to resolve
+#### How to resolve - walltime
 
 * Rerunning the job is often the only way forward. 
 * Give a longer-running cluster a try.
@@ -168,7 +172,7 @@ Sometimes the execution time of a job can be shorted by adjusting the inputs, pa
 * In some cases, reporting the memory or wall-time issue to our team as a bug report is a good way to let us know about tools that run out of resource. Please have the expectation that we cannot probably not solve your issue immediately, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
 * If the job remains too large to run at [Galaxy Main](/src/main/index.md)(http://usegalaxy.org)(http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
 
-#### Special cases
+#### Special cases - memory or walltime
 
 * Certain inputs are very large and/or fragmented.
  * Example 1: A highly fragmented transcriptome/genome used as a custom reference genome. The size is generally **several thousands of "chromosomes"** instead of one to a few dozen. Consider only using the primary chromosomes and skipping unmapped/unplaced/other partial data. Calculating or filtering by length can reveal the extent of the fragmentation and help you to make choices about how to proceed.
@@ -190,26 +194,26 @@ Many lines of text, may include parameters
 ValueError: invalid literal for int() with base 10: 'some-read-identifier-name'
 ```
 
-#### Example
+#### Example - ValueError
 
  * MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
 
-#### How to detect
+#### How to detect - ValueError
 
  * Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
 
-#### How to resolve
+#### How to resolve - ValueError
 
 MACS/2 is not capable of interpretting sequence read names with spaces included. Two choices:
 
  * Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
  * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
 
-### Type: Tool and software problems
+### Type: Tool and software problems/bugs
 
 Software or Tool Bug? Or a usage error? Sometimes it is hard to tell. 
 
-#### Examples
+#### Examples - bugs
 
 Usage error:
 
@@ -221,19 +225,19 @@ Software or Tool Bug:
 * A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/src/support/tool-issues/index.md) and a search against [all issues](/src/issues/index.md) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
 * When importing an older workflow, a pop-up notice informs that an upgraded tool is available. This tool is editted into the workflow. However, now the workflow fails - at that same tool that was updated. The issue is reported and fixed. Now your workflow runs without problems.
 
-#### How to detect
+#### How to detect - bugs
 
 * The tool ended with what appears to be a tool problem message.
 * See examples above.
 * The tool or input data is listed on the pages of [Known Tool Issues](/src/support/tool-issues/index.md) or [Known Data Issues](/src/support/data-issues/index.md).
 
-#### How to resolve
+#### How to resolve - bugs
 
 * If you are on the public [Galaxy Main](/src/main/index.md) (http://usegalaxy.org) server, and ran a tool that produced a red error dataset, then you will probably want to start by reviewing the error reasons here first. 
 * Fixing inputs first, as needed, and rerunning is recommended.
 * If you cannot determine the problem, report the error in a bug report. Add in comments about your reasons why this seems like a tool bug and not a usage/input problem if you can.
 
-#### Special cases
+#### Special cases - bugs
 
 * Software can fail for many reasons. If you think there is a problem, please report it.
 * Send in a bug report or ask a question at Galaxy Biostars if you want the issue vetted first.
