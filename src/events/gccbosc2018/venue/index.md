@@ -132,9 +132,9 @@ Sun, June 24 - [North Portland Sunday Parkways](https://www.portlandoregon.gov/t
 
 Fri-Sun, June 22-24 - [Portland International Beer Fest](http://www.portland-beerfest.com/) will be held in the Pearl District North Park Blocks, and will be showcasing beers from all over the world.
 
-June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland. 
+June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland, as part of the Broadway Across American series. 
 
-Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale in Pioneer Square in downtown Portland. 
+Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) is a free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale, held from 3-5pm in Pioneer Square in downtown Portland. 
 
 ## Dining
 
