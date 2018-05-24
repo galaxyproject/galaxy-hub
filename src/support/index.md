@@ -34,6 +34,7 @@ title: Galaxy Support
 * [Understanding the Analysis History](/src/tutorials/histories/index.md)
 * [Managing Datasets](/src/learn/managing-datasets/index.md)
 * [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+* [More about moving Datasets and Histories (includes GVL)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
 ### Data Options
 
