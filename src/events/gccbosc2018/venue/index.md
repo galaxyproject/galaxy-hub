@@ -126,6 +126,16 @@ Luxury ground transportation services with vehicles ranging from luxurious sedan
 
 Looking for something to do during your stay here? Check out the [Travel Portland site](http://www.travelportland.com/) for popular events, sightseeing, dining, and more!
 
+If you are arriving early, we'd like to highlight some events happening in Portland the weekend before the conference:
+
+Sun, June 24 - [North Portland Sunday Parkways](https://www.portlandoregon.gov/transportation/67622): [Grab a bike](https://www.biketownpdx.com/) and ride the 9.5 mile stretch of neighborhoods, or walk the route. You can stop at parks along the way, that will have food, music and other attractions.
+
+Fri-Sun, June 22-24 - [Portland International Beer Fest](http://www.portland-beerfest.com/) will be held in the Pearl District North Park Blocks, and will be showcasing beers from all over the world.
+
+June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland. 
+
+Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale in Pioneer Square in downtown Portland. 
+
 ## Dining
 
 Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
