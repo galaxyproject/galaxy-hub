@@ -7,3 +7,5 @@ external_url: "https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-b
 source_blog_url: "https://genomicsvirtuallab.wordpress.com/"
 source_blog: "Genomics Virtual Lab – Queensland"
 ---
+
+Also linked from primary Support FAQ hub under: [**Datasets and Histories**](/src/support/#datasets-and-histories)
