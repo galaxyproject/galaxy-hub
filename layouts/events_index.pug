@@ -1,6 +1,7 @@
 extends layout.pug
 
 mixin renderEventRow(item)
+    +renderEventJSONLD(item)     
     tr
         td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
         td
@@ -27,6 +28,38 @@ mixin renderEventRow(item)
                 a( href="/teach/gtn/" )
                     img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
             | #{item.contact}
+
+mixin renderEventJSONLD(item)
+    script(type="application/ld+json")
+        | {  "@context": "http://schema.org/",
+        |    "@type": "Event",
+        |    "name": "#{item.title}",
+        if item.external_url
+            | "url": "#{item.external_url}",
+        else
+            | "url": "#{item.link}",
+        if item.days
+            |  "duration": "#{item.days}D",
+        if item.location
+            |  "location": {
+            |    "@type": "Place",
+            |    "address": "#{item.location}"
+            if item.location_url
+                | , "url": "#{item.location_url}"
+            |  },
+        if item.image
+            |  "image": "#{item.image}",
+        if item.gtn == true
+            | "eventType": "workshops and courses",
+        if item.contact
+            | "contact": {
+            |  "@type": "person",
+            |  "name": "#{item.contact}"
+            | },
+        | "startDate": "#{item.date}"
+        | }
+
+
 
 block content
     - var events_malleable = events.slice().reverse()
