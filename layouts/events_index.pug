@@ -39,7 +39,7 @@ mixin renderEventJSONLD(item)
         else
             | "url": "#{item.link}",
         if item.days
-            |  "duration": "#{item.days}D",
+            |  "duration": "P#{item.days}D",
         if item.location
             |  "location": {
             |    "@type": "Place",
