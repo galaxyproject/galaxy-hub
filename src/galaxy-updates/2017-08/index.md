@@ -423,7 +423,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
-* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Eric Rasche](https://github.com/erasche). 
+* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [E. Rasche](https://github.com/erasche). 
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
 * From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
 * From [Mallory Freeberg](/src/people/mallory-freeberg/index.md): [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial

@@ -176,7 +176,7 @@ Where ever it's getting the information mod_ldap is looking for:
 
 ## Configuring ProFTPD with OpenLDAP
 
-Eric Rasche found a set of working options for using ProFTPD with OpenLDAP
+E. Rasche found a set of working options for using ProFTPD with OpenLDAP
 servers (instead of AD).
 
 This configuration file can be modified and placed in

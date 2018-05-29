@@ -447,7 +447,7 @@ And one new [Training Resource](/src/teach/resources/index.md):
 * Add pulsar-run script for issues commands against a Pulsar server (experimental). [3cc7f74](https://github.com/galaxyproject/pulsar/commit/3cc7f74)
 * Changed the name of project to Pulsar, moved to [Github](https://github.com/galaxyproject/pulsar/).
 * New RESTful web services interface.
-* SCP and Rsync file staging options added by [Eric Rasche](/src/people/eric-rasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
+* SCP and Rsync file staging options added by [E. Rasche](/src/people/helena-rasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
 * Allow YAML based configuration.
 * Support for more traditional pip/setup.py-style installs.
 

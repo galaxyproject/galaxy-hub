@@ -374,7 +374,7 @@ For complete details on implemented changes, please see the [source code commits
 
 <div class='right'><a href='http://ipython.org/'><img src="/src/images/logos/IPythonSqaure.png" alt="IPython"  /></a></div>
 
-*And ...* Björn Grüning and Eric Rasche also released **[Galaxy IPython](https://github.com/bgruening/galaxy-ipython)**:
+*And ...* Björn Grüning and E. Rasche also released **[Galaxy IPython](https://github.com/bgruening/galaxy-ipython)**:
 
 <div class='indent'>
 

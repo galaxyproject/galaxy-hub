@@ -126,13 +126,13 @@ As a grant funded activity housing is included; however you will need to cover y
   <td><span class="text-nowrap">January 18th 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/bioconda-workshop/">Packaging your bioinformatics tool with Bioconda and Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Saskia Hiltemann, Eric Rasche</td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Saskia Hiltemann, Helena Rasche</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">January 22nd 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/developing-bioinformatics-training-materials/">Developing bioinformatics training materials</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Saskia Hiltemann, Eric Rasche</td>
+  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Saskia Hiltemann, Helena Rasche</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">February 1st 2018</span></td>

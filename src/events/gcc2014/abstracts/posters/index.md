@@ -246,7 +246,7 @@ Using this approach, research group members are fully responsible for deploying 
 
 ## P13: Argument Parsing Libraries for Automatic Galaxy XML Generation
 
-**[Eric Rasche](/src/people/eric-rasche/index.md)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
+**[E. Rasche](/src/people/helena-rasche/index.md)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
 
  <sup>1</sup> [Center for Phage Technology](https://cpt.tamu.edu), Texas A&M University, College Station, TX
 
