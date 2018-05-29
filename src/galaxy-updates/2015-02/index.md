@@ -341,7 +341,7 @@ There is [CVRG Galaxy Wiki Page](http://wiki.cvrgrid.org/index.php/CVRG_Galaxy) 
 
 The [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-public/) includes 50 additional tools, and PAUSE (Pile-Up Analysis Using Starts & Ends) V1 and V2 tool sets. There are also several [published workflows](https://cpt.tamu.edu/galaxy-public/workflow/list_published) demonstrating PAUSE for both paired and single-end reads.
 
-An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/) or contact [Eric Rasche](mailto:esr+gxfaq@tamu.edu) for support.
+An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/).
 
 CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.tamu.edu/), Texas A&M University
 
@@ -386,7 +386,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 **IPython Integration**
 
-Thanks to the awesome work of community members [Björn Grüning](/src/people/bjoern-gruening/index.md) and [Eric Rasche](/src/people/eric-rasche/index.md), [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members [Björn Grüning](/src/people/bjoern-gruening/index.md) and [E. Rasche](/src/people/helena-rasche/index.md), [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
 
 ** Tool Form Upgrade (for Beta Testing) **
 

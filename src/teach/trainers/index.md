@@ -658,9 +658,7 @@ The TAMU Galaxy offers access a local Galaxy instance for TAMU Staff, faculty, a
 **Links & Contact:**
 
   * [TAMU Galaxy](http://galaxy.tamu.edu)
-  * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
-  * [Eric Rasche](/src/people/eric-rasche/index.md) (CPT Staff)
-  * [esr@tamu.edu](mailto:esr@tamu.edu) 
+  * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-pub/)
 
 ### UC Davis Genome Center's Bioinformatics Core Facility
 

@@ -151,7 +151,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Workflow steps are now assigned UUIDs. [4U9e1och](https://trello.com/c/4U9e1och)
 1. Updated the Workflow API by replacing preferred usage terminology (s/usage/invocation). [XNInq5KH](https://trello.com/c/XNInq5KH)
 1. Tuning for History panel functions: Dataset search, multi-select Datasets to perform batch operations, related database modifications. [D4nLl5Ky](https://trello.com/c/D4nLl5Ky)
-1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Eric Rasche](/src/people/eric-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
+1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [E. Rasche](/src/people/helena-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
 1. Load the »Available Genomes« list from data tables for visualizations (Trackster). Thanks to Anthony Bretaudeau. [x8LMSD7Z](https://trello.com/c/x8LMSD7Z)
 1. The History »Options« menu has been updated to better compliment other recent UI changes. [EEsM0abM](https://trello.com/c/EEsM0abM)
 1. Several improvements to the History list view. [ltNMDNbZ](https://trello.com/c/ltNMDNbZ)
@@ -215,7 +215,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 1. Galaxy logs no longer leak database connection information. [VjEqTxlT](https://trello.com/c/VjEqTxlT)
 1. The email for resetting an account password is now a link. [SKjU40t6](https://trello.com/c/SKjU40t6)
-1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Eric Rasche](/src/people/eric-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
+1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [E. Rasche](/src/people/helena-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
 
 # Upgrades
 

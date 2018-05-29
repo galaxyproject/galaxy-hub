@@ -104,8 +104,8 @@ Luke Sargent<br />
 [Uni Freiburg](http://www.uni-freiburg.de/) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="Eric Rasche" height="150" /><br />
-[Eric Rasche](https://github.com/erasche)<br />
+<img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="E. Rasche" height="150" /><br />
+[E. Rasche](https://github.com/erasche)<br />
 [Uni Freiburg](http://www.uni-freiburg.de/) <br /> <br />
 </div>
 <div class='col-md-3'>

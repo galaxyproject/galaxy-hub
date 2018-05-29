@@ -146,7 +146,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
   * Improve `View data tables registry` for developers. https://trello.com/c/gmClxfV8
   * Update `phantomjs 1.9` and `casperjs 1.1` plus tests and modules in `test/casperjs`. https://trello.com/c/VjDIpgt3
   * Page controls now loaded with `history/list_published.mako`. https://trello.com/c/nR2X7VJW
-  * Added rolling restart script to kill servers sequentially. Eric Rasche, [PR#393](https://bitbucket.org/galaxy/galaxy-central/pull-request/393/). https://trello.com/c/jdldxhlk
+  * Added rolling restart script to kill servers sequentially. E. Rasche, [PR#393](https://bitbucket.org/galaxy/galaxy-central/pull-request/393/). https://trello.com/c/jdldxhlk
 1. Config: 
   * Admin action to reload ".loc" files without restarting Galaxy. https://trello.com/c/c7nUco3u
   * Allow for an arbitrary number of `tool_data_table_config_path` files. https://trello.com/c/rm2p8PpZ

@@ -393,9 +393,9 @@ Thanks to everyone who helped put these together.
 **[Release Notes v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
 
 **Release Highlights **
-* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Eric Rasche](/src/people/eric-rasche/index.md).
+* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [E. Rasche](/src/people/helena-rasche/index.md).
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
-* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/people/bjoern-gruening/index.md), [Nicola Soranzo](/src/people/nicola-soranzo/index.md), and [Eric Rasche](/src/people/eric-rasche/index.md).
+* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/people/bjoern-gruening/index.md), [Nicola Soranzo](/src/people/nicola-soranzo/index.md), and [E. Rasche](/src/people/helena-rasche/index.md).
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 ## Mid 2015 Galaxy CloudMan Release
