@@ -385,7 +385,7 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
 
 # Community Committers!
 
-Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [Eric Rasche](https://github.com/erasche)** are now committers.
+Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [E. Rasche](https://github.com/erasche)** are now committers.
 
 
 # Galaxy Community Hubs

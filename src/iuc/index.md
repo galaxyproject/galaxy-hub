@@ -27,7 +27,7 @@ Member | Joined | GitHub
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
-**Eric Rasche**, Texas A&M University |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
+**Helena Rasche**, University of Freiburg |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
 **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
 **Marius van den Beek**, Institut Curie | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)

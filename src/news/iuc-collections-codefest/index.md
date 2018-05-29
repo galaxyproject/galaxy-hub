@@ -16,7 +16,7 @@ which the IUC would like to repeat more often.
 A list of all awesome contributions from all participants is given below.
 
 Tools:
-* Swap all repeats to multiple='True' where appropriate by [Eric Rasche](/src/people/eric-rasche/index.md) (@erasche)
+* Swap all repeats to multiple='True' where appropriate by [E. Rasche](/src/people/helena-rasche/index.md) (@erasche)
   * https://github.com/galaxyproject/tools-iuc/pull/276
   * https://github.com/bgruening/galaxytools/issues/246
   * https://github.com/galaxyproject/tools-devteam/issues/226

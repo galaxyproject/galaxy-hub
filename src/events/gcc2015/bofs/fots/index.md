@@ -32,7 +32,7 @@ All are welcome, even [John](/src/people/john-chilton/index.md)
 If you are interested, please add your name below and/or send an email to [Martin Cech](/src/people/marten/index.md).
 
 * [Martin Cech](/src/people/marten/index.md)
-* Eric Rasche
+* E. Rasche
 * John Chilton
 * Peter Cock
 * Bjoern Gruening

@@ -371,7 +371,7 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 * Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/erasche/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [Eric Rasche](/src/people/eric-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
+**Possible Mentors** [E. Rasche](/src/people/helena-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
 
 **Required Skills** Docker, NodeJS
 

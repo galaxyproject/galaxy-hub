@@ -385,7 +385,7 @@ See [list of tools contributed in October and November](/src/toolshed/contributi
     'Hidden' Galaxy features which are really useful. For Scratchbook see [this video](http://vimeo.com/120839821).
 * Ever wondered who writes Galaxy? 
     [These people do](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTORS.md).
-* See the [executive summary](https://galaxyproject.github.io) of free open source software the Galaxy community provides. (Big thanks to [Eric Rasche](https://twitter.com/Eric_Rasche).)
+* See the [executive summary](https://galaxyproject.github.io) of free open source software the Galaxy community provides. (Big thanks to E. Rasche.)
 * From [Nate Coraor](https://github.com/natefoo)
     An Ansible role for installing Galaxy Interactive Environments 
 * [Expanding the Galaxy Platform](https://www.msi.umn.edu/content/expanding-galaxy-platform) at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).

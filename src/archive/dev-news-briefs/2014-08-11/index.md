@@ -56,7 +56,7 @@ Tools now annotate citation information. Tools annotate citations using either D
 
 <div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
 
-[Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by Eric Rasche
+[Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by E. Rasche
 
 Added tool-to-container mechanism to package dependencies that tool developers can provide as an alternative to requirements and Galaxy's `tool_dependency_dir`. You can now create »Dockerized« tools, meaning tools which run within a docker container. [9lGgDlOJ](https://trello.com/c/9lGgDlOJ)
 
