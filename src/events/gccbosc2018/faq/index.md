@@ -59,6 +59,7 @@ Full refunds are available up to 30 days before the conference starts on June 25
 See the [childcare page](/src/events/gccbosc2018/childcare/index.md) for details.
 
 # Sales Tax?
+
 There is no sales tax in Oregon. There is no tax on the registration fee. 
 
 # Other questions?
