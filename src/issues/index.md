@@ -30,7 +30,7 @@ If you can reproduce on [Main](/src/main/index.md), and the problem presents in 
 
 ### Functionality problems
 
-Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/src/support/biostar/index.md) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the other public server you are working at. 
+Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/src/support/biostar/index.md) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the public server you are working at. 
 
 If using your own [local/docker/cloud Galaxy server](https://galaxyproject.github.io/), details about the Galaxy Version, server OS/version, advanced configurations applied, whether the server is new or not, and if the behavior changed after making admin changes (tool installs, upgrading). See **Administrative problems** below.
 
