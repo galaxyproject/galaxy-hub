@@ -40,9 +40,14 @@ If the problem is presenting in your own Galaxy, administrative configuration ma
 
  ### TIPS
  
+Reviewing the problematic output content, the original tool form as submitted, the Job Details' `stdout/stderr`, and a bug report preview can often help to self-diagnose and correct a problem. If enough information, a bug report/Biostars post does not need to be actually submitted. 
+ * ![](/src/images/icons/eye.png) Display data in browser "eye icon"
+ * ![](/src/images/icons/HistoryInfo.png) Job Details and run Info
+ * ![](/src/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
+ * ![](/src/images/icons/bug.png) Review and optionally submit a bug report
+ 
 1. How to share a History or Workflow: [Options/Share or Publish](/src/learn/share/index.md) 
 1. If a Workflow was used, please include a share link to the workflow in the bug report's form comments or the direct email.
-1. Reviewing a bug report preview (green bug icon) and/or the Job Details' ("i" icon) `stdout/stderr` can often help to self-diagnose and correct a problem. If enough information, the bug report does not need to be actually submitted. 
 1. If still not enough information, the problem can be posted to the **Galaxy Biostars** forum (public) or the bug report can be sent in (private). 
 1. When submitting a bug report, you'll get cc'd copy of the full report with more details that may help, plus we will review unless you state in the comments that the intention is to see the full report (you can always reply later and request a review). 
 1. Should you resolve the problem before hearing back from us, or through other resources/your own testing, a reply email/post stating that is also appreciated.
