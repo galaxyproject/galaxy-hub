@@ -60,10 +60,12 @@ title: Galaxy Support
 ### Unexpected results
 
 * [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
-* [Troubleshoot an error](/src/support/troubleshoot-an-error/index.md)
-* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
-* [Known Data Issues](/src/support/data-issues/index.md)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
+
 
 ### Getting inputs *right*
 
