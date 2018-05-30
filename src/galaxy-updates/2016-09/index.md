@@ -271,16 +271,16 @@ Some highlights from last month:
 * **[DISMISS: detection of stranded methylation in MeDIP-Seq data](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1158-7)**
     Umar Niazi, Kathrin K Geyer, Martin J Vickers, Karl F Hoffmann, Martin T Swain. *BMC Bioinformatics*, Vol. 17, No. 1. (2016), pp. 1-12, doi:10.1186/s12859-016-1158-7
 
-* **[SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172)**
+* **[SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](https://doi.org/10.1093/gbe/evw172)**
     Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, Gabriel A. B. Marais. *Genome Biology and Evolution* (04 August 2016), evw172, doi:10.1093/gbe/evw172
 
-* **[Galaxy Workflows for Web-based Bioinformatics Analysis of Aptamer High-throughput Sequencing Data](http://dx.doi.org/10.1038/mtna.2016.54)**
+* **[Galaxy Workflows for Web-based Bioinformatics Analysis of Aptamer High-throughput Sequencing Data](https://doi.org/10.1038/mtna.2016.54)**
     William H. Thiel. *Molecular Therapy — Nucleic Acids*, Vol. 5, No. 8. (01 August 2016), e345, doi:10.1038/mtna.2016.54
 
-* **[RNAcommender: genome-wide recommendation of RNA-protein interactions](http://dx.doi.org/10.1093/bioinformatics/btw517)**
+* **[RNAcommender: genome-wide recommendation of RNA-protein interactions](https://doi.org/10.1093/bioinformatics/btw517)**
     Gianluca Corrado, Toma Tebaldi, Fabrizio Costa, Paolo Frasconi, Andrea Passerini. *Bioinformatics* (08 August 2016), btw517, doi:10.1093/bioinformatics/btw517
 
-* **[Tools and techniques for computational reproducibility](http://dx.doi.org/10.1186/s13742-016-0135-4)**
+* **[Tools and techniques for computational reproducibility](https://doi.org/10.1186/s13742-016-0135-4)**
     Stephen R. Piccolo, Michael B. Frampton. *GigaScience*, Vol. 5, No. 1. (11 July 2016), doi:10.1186/s13742-016-0135-4
 
 * ** [Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4)**

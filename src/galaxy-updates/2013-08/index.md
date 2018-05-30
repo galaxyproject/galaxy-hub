@@ -103,9 +103,9 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
-* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)" by [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
-* "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](http://dx.doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
-* "[The Banana Genome Hub](http://dx.doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
+* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+* "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](https://doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
+* "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
 
 <br />
 

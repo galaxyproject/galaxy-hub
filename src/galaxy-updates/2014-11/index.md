@@ -215,12 +215,12 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
 
 38 papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in October, including:
 
-* [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](http://dx.doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
+* [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](https://doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
 
   	
-* [iReport: a generalised Galaxy solution for integrated experimental reporting](http://dx.doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
+* [iReport: a generalised Galaxy solution for integrated experimental reporting](https://doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
 
-* [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](http://dx.doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
+* [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](https://doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
 
   	
 The new papers were tagged in these areas:

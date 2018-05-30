@@ -20,16 +20,16 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 **81** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November. Highlights include:
 
-* [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://dx.doi.org/10.1371/journal.pone.0140829)
+* [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](https://doi.org/10.1371/journal.pone.0140829)
     by [Enis Afgan](/src/people/enis-afgan/index.md), Clare Sloggett, Nuwan Goonasekera *et al.*, *PloS One*, Vol. 10, No. 10. (2015)
 
-* [Cost-Aware Cloud Provisioning](http://dx.doi.org/10.1109/escience.2015.67)
+* [Cost-Aware Cloud Provisioning](https://doi.org/10.1109/escience.2015.67)
     by Ryan Chard, Kyle Chard, Kris Bubendorfer, Lukasz Lacinski, Ravi Madduri, Ian Foster, In e-Science (e-Science), 2015 IEEE 11th International Conference on (August 2015), pp. 136-144, doi:10.1109/escience.2015.67
 
-* [DNA data bank of Japan (DDBJ) progress report](http://dx.doi.org/10.1093/nar/gkv1105)
+* [DNA data bank of Japan (DDBJ) progress report](https://doi.org/10.1093/nar/gkv1105)
     by Jun Mashima, Yuichi Kodama, Takehide Kosuge, *et al.* *Nucleic Acids Research* (17 November 2015), gkv1105, doi:10.1093/nar/gkv1105
 
-* [antaRNA – Multi-objective inverse folding of pseudoknot RNA using ant-colony optimization](http://dx.doi.org/10.1186/s12859-015-0815-6)
+* [antaRNA – Multi-objective inverse folding of pseudoknot RNA using ant-colony optimization](https://doi.org/10.1186/s12859-015-0815-6)
     by Robert Kleinkauf, Torsten Houwaart, Rolf Backofen, Martin Mann, *BMC Bioinformatics*, Vol. 16, No. 1. (18 November 2015), 389, doi:10.1186/s12859-015-0815-6
 
 The new papers were tagged with:

@@ -81,10 +81,10 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
 
 These papers may be of interest to the Galaxy community:
 
-* [Identifying elemental genomic track types and representing them uniformly](http://dx.doi.org/10.1186/1471-2105-12-494), Sveinung Gundersen, Matus Kalas, Osman Abul, Arnoldo Frigessi, Eivind Hovig, Geir Sandve, BMC Bioinformatics, Vol. 12, No. 1. (30 December 2011), 494
-* [CodonLogo: A sequence logo based viewer for codon patterns](http://dx.doi.org/10.1093/bioinformatics/bts295), Virag Sharma, David P. Murphy, Gregory Provan, Pavel V. Baranov, Bioinformatics (17 May 2012)
-* [Tavaxy: Integrating Taverna and Galaxy workflows with cloud computing support](http://dx.doi.org/10.1186/1471-2105-13-77), Mohamed Abouelhoda, Shadi Issa, Moustafa Ghanem, BMC Bioinformatics, Vol. 13, No. 1. (2012), 77
-* [CADDSuite - a workflow-enabled suite of open-source tools for drug discovery](http://dx.doi.org/10.1186/1758-2946-4-S1-O2), Oliver Kohlbacher, Journal of Cheminformatics, Vol. 4, No. Suppl 1. (2012), O2
+* [Identifying elemental genomic track types and representing them uniformly](https://doi.org/10.1186/1471-2105-12-494), Sveinung Gundersen, Matus Kalas, Osman Abul, Arnoldo Frigessi, Eivind Hovig, Geir Sandve, BMC Bioinformatics, Vol. 12, No. 1. (30 December 2011), 494
+* [CodonLogo: A sequence logo based viewer for codon patterns](https://doi.org/10.1093/bioinformatics/bts295), Virag Sharma, David P. Murphy, Gregory Provan, Pavel V. Baranov, Bioinformatics (17 May 2012)
+* [Tavaxy: Integrating Taverna and Galaxy workflows with cloud computing support](https://doi.org/10.1186/1471-2105-13-77), Mohamed Abouelhoda, Shadi Issa, Moustafa Ghanem, BMC Bioinformatics, Vol. 13, No. 1. (2012), 77
+* [CADDSuite - a workflow-enabled suite of open-source tools for drug discovery](https://doi.org/10.1186/1758-2946-4-S1-O2), Oliver Kohlbacher, Journal of Cheminformatics, Vol. 4, No. Suppl 1. (2012), O2
 
 These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools). 
 

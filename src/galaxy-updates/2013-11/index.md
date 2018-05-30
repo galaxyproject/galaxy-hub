@@ -91,7 +91,7 @@ The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user frien
 A record *53 new papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in October. Some papers that may be particularly interesting to the Galaxy community:
 
 * Li, *et al.,* "[Expanding roles in a library-based bioinformatics service program: a case study](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3794686/)," *[Journal of the Medical Library Association](http://www.ncbi.nlm.nih.gov/pmc/journals/93/latest/)* : JMLA, Vol. 101, No. 4. (October 2013), pp. 303-309, doi:10.3163/1536-5050.101.4.012
-* Nagasaki, *et al.* "[DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data](http://dx.doi.org/10.1093/dnares/dst017)," *[DNA Research](http://dnaresearch.oxfordjournals.org/)*, Vol. 20, No. 4. (1 August 2013), pp. 383-390, doi:10.1093/dnares/dst017
+* Nagasaki, *et al.* "[DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data](https://doi.org/10.1093/dnares/dst017)," *[DNA Research](http://dnaresearch.oxfordjournals.org/)*, Vol. 20, No. 4. (1 August 2013), pp. 383-390, doi:10.1093/dnares/dst017
 
 And ...
 

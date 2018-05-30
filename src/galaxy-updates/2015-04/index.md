@@ -18,9 +18,9 @@ Welcome to the April 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 68 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March, bring the total to 2200 publications. Some highlights:
 
-* [Transcriptionally Active Regions Are the Preferred Targets for Chromosomal HPV Integration in Cervical Carcinogenesis](http://dx.doi.org/10.1371/journal.pone.0119566), by Irene Kraus K. Christiansen, Geir Kjetil K. Sandve, Martina Schmitz, Matthias Dürst, Eivind Hovig; *PloS One*, Vol. 10, No. 3. (2015)
+* [Transcriptionally Active Regions Are the Preferred Targets for Chromosomal HPV Integration in Cervical Carcinogenesis](https://doi.org/10.1371/journal.pone.0119566), by Irene Kraus K. Christiansen, Geir Kjetil K. Sandve, Martina Schmitz, Matthias Dürst, Eivind Hovig; *PloS One*, Vol. 10, No. 3. (2015)
 
-* [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://dx.doi.org/10.1016/bs.mie.2015.01.014), by Lukasz J. Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, *Methods in Enzymology* (2015), doi:10.1016/bs.mie.2015.01.014
+* [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](https://doi.org/10.1016/bs.mie.2015.01.014), by Lukasz J. Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, *Methods in Enzymology* (2015), doi:10.1016/bs.mie.2015.01.014
 
 * [The Globus Galaxies Platform: Delivering Science Gateways as a Service](http://1.usa.gov/1I223bq), by Madduri, R, Chard, K, Chard, R, Lacinski, L, Rodriguez, A, Sulakhe, D, Kelly, D, Dave, U, Foster, I, Argonne National Laboratory Report, 2015
 

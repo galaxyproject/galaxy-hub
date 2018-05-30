@@ -87,22 +87,22 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 
 **156** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in January. *(Note: that is a record, but it reflects back-curation efforts for papers from 2014 & 2015 that we couldn't curate the first time.)*  Highlights include:
 
-* [Varying levels of complexity in transcription factor binding motifs](http://dx.doi.org/10.1093/nar/gkv577)
+* [Varying levels of complexity in transcription factor binding motifs](https://doi.org/10.1093/nar/gkv577)
     Jens Keilwagen, Jan Grau, *Nucleic Acids Research*, Vol. 43, No. 18. (26 June 2015), pp. gkv577-e119, doi:10.1093/nar/gkv577
 
-* [Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow](http://dx.doi.org/10.1109/escience.2015.39)
+* [Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow](https://doi.org/10.1109/escience.2015.39)
     Nicholas Hazekamp, Joseph Sarro, Olivia Choudhury, Sandra Gesing, Scott Emrich, Douglas Thain, In e-Science (e-Science), 2015 IEEE 11th International Conference on (August 2015), pp. 332-341, doi:10.1109/escience.2015.39
 
-* [RiboTools: a Galaxy toolbox for qualitative ribosome profiling analysis](http://dx.doi.org/10.1093/bioinformatics/btv174)
+* [RiboTools: a Galaxy toolbox for qualitative ribosome profiling analysis](https://doi.org/10.1093/bioinformatics/btv174)
     Rachel Legendre, Agnès Baudin-Baillieu, Isabelle Hatin, Olivier Namy, *Bioinformatics*, Vol. 31, No. 15. (01 August 2015), pp. 2586-2588, doi:10.1093/bioinformatics/btv174
 
-* [Integrating UIMA with Alveo, a human communication science virtual laboratory](http://dx.doi.org/10.3115/v1/W14-5202)
+* [Integrating UIMA with Alveo, a human communication science virtual laboratory](https://doi.org/10.3115/v1/W14-5202)
     Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202 
 
 * [Alveo, a Human Communication Science Virtual Laboratory](http://www.aclweb.org/anthology/U/U14/U14-1013.pdf)
     Dominique Estival, Steve Cassidy, In Proceedings of the Australasian Language Technology Association Workshop 2014 (November 2014), pp. 104-107
 
-* [Integrating Data-Intensive Computing Systems with Biological Data Analysis Frameworks](http://dx.doi.org/10.1109/pdp.2015.106)
+* [Integrating Data-Intensive Computing Systems with Biological Data Analysis Frameworks](https://doi.org/10.1109/pdp.2015.106)
     Edvard Pedersen, Inge A. Raknes, Martin Ernstsen, Lars Ailo Bongo, In Parallel, Distributed and Network-Based Processing (PDP), 2015 23rd Euromicro International Conference on (March 2015), pp. 733-740, doi:10.1109/pdp.2015.106
 
 * [Deciphering regulation in eukaryotic cell: from sequence to function](http://arxiv.org/abs/1409.6661) 

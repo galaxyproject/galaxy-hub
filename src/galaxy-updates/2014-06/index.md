@@ -189,11 +189,11 @@ There are [at least 13 other Galaxy related events](/src/events/index.md) in the
 
 *49 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](http://dx.doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/src/people/john-chilton/index.md), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
+* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](https://doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/src/people/john-chilton/index.md), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
 
-* [deepTools: a flexible platform for exploring deep-sequencing data](http://dx.doi.org/10.1093/nar/gku365), by Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, Thomas Manke, *Nucleic Acids Research* (05 May 2014), gku365, doi:10.1093/nar/gku365
+* [deepTools: a flexible platform for exploring deep-sequencing data](https://doi.org/10.1093/nar/gku365), by Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, Thomas Manke, *Nucleic Acids Research* (05 May 2014), gku365, doi:10.1093/nar/gku365
 
-* [Galaxy + Hadoop: Toward a Collaborative and Scalable Image Processing Toolbox in Cloud](http://dx.doi.org/10.1007/978-3-319-06859-6_30), by Shiping Chen, Tomasz Bednarz, Piotr Szul, Dadong Wang, Yulia Arzhaeva, Neil Burdett, Alex Khassapov, John Zic, Surya Nepal, Tim Gurevey, John Taylor, In "Service-Oriented Computing – ICSOC 2013 Workshops", Vol. 8377 (2014), pp. 339-351, doi:10.1007/978-3-319-06859-6_30
+* [Galaxy + Hadoop: Toward a Collaborative and Scalable Image Processing Toolbox in Cloud](https://doi.org/10.1007/978-3-319-06859-6_30), by Shiping Chen, Tomasz Bednarz, Piotr Szul, Dadong Wang, Yulia Arzhaeva, Neil Burdett, Alex Khassapov, John Zic, Surya Nepal, Tim Gurevey, John Taylor, In "Service-Oriented Computing – ICSOC 2013 Workshops", Vol. 8377 (2014), pp. 339-351, doi:10.1007/978-3-319-06859-6_30
 
 The new papers were tagged in many different areas:
 

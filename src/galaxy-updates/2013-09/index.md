@@ -121,7 +121,7 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
 
 30 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August. This paper may be particularly interesting to the Galaxy community:
 
-* Richard LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/people/james-taylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
+* Richard LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/people/james-taylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](https://doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
 
 <br />
 

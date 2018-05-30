@@ -200,20 +200,20 @@ The ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use was held las
 
 Some highlights from the papers added last month:
 
-* [GSuite HyperBrowser: integrative analysis of dataset collections across the genome and epigenome](http://dx.doi.org/10.1093/gigascience/gix032)
+* [GSuite HyperBrowser: integrative analysis of dataset collections across the genome and epigenome](https://doi.org/10.1093/gigascience/gix032)
    Boris Simovski, Daniel Vodák, Sveinung Gundersen, Diana Domanska Abdulrahman Azab, Lars Holden, Marit Holden, Ivar Grytten, Knut Rand, Finn Drabløs Morten Johansen, Antonio Mora, Christin Lund-Andersen, Bastian Fromm Ragnhild Eskeland, Odd Stokke Gabrielsen, Egil Ferkingstad, Sigve Nakken Mads Bengtsen, Alexander Johan Nederbragt, Hildur Sif Thorarensen Johannes Andreas Akse, Ingrid Glad, Eivind Hovig, Geir Kjetil Sandve. *GigaScience* (27 April 2017), doi:10.1093/gigascience/gix032
 
-* [Coherent Application Delivery on Hybrid Distributed Computing Infrastructures of Virtual Machines and Docker Containers](http://dx.doi.org/10.1109/pdp.2017.29)
+* [Coherent Application Delivery on Hybrid Distributed Computing Infrastructures of Virtual Machines and Docker Containers](https://doi.org/10.1109/pdp.2017.29)
    German Molto, Miguel Caballer, Alfonso Perez, Carlos Alfonso, Ignacio Blanquer. In 2017 25th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP) (2017), pp. 486-490, doi:10.1109/pdp.2017.29
 
-* [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](http://dx.doi.org/10.1093/nar/gkx315)
+* [ChimeRScope: a novel alignment-free algorithm for fusion transcript prediction using paired-end RNA-Seq data](https://doi.org/10.1093/nar/gkx315)
    You Li, Tayla B. Heavican, Neetha N. Vellichirammal, Javeed Iqbal, Chittibabu Guda
 *Nucleic Acids Research* (02 May 2017), doi:10.1093/nar/gkx315
 
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
    [Björn A. Grüning](/src/people/bjoern_gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl_eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john_chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james_taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
-* [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](http://dx.doi.org/10.1093/bioinformatics/btx320)
+* [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
    Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 
 
 ## Publication Topics

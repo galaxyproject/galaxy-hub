@@ -132,9 +132,9 @@ The newly added servers are:
 
 *61 papers* (a new record) were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data](http://dx.doi.org/10.1186/1471-2164-14-774)" by Guo, *et al.,* *BMC Genomics*, Vol. 14, No. 1. (10 November 2013), 774, doi:10.1186/1471-2164-14-774
+* "[BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data](https://doi.org/10.1186/1471-2164-14-774)" by Guo, *et al.,* *BMC Genomics*, Vol. 14, No. 1. (10 November 2013), 774, doi:10.1186/1471-2164-14-774
 
-* "[Ten recommendations for creating usable bioinformatics command line software](http://dx.doi.org/10.1186/2047-217x-2-15)" by Torsten Seemann, *GigaScience*, Vol. 2, No. 1. (2013), 15, doi:10.1186/2047-217x-2-15
+* "[Ten recommendations for creating usable bioinformatics command line software](https://doi.org/10.1186/2047-217x-2-15)" by Torsten Seemann, *GigaScience*, Vol. 2, No. 1. (2013), 15, doi:10.1186/2047-217x-2-15
 
 <br />
 

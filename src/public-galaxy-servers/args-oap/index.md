@@ -28,7 +28,7 @@ sponsors:
 ## Citations
 
 * [ARGs-OAP v2.0 with an Expanded SARG Database and Hidden Markov Models for Enhancement Characterization and Quantification of Antibiotic Resistance Genes in Environmental Metagenomes](https://doi.org/10.1093/bioinformatics/bty053), Xiaole Yin, Xiao-Tao Jiang, Benli Chai, Liguan Li, Ying Yang, James R Cole, James M Tiedje, Tong Zhang. *Bioinformatics*, bty053, doi:10.1093/bioinformatics/bty053, 02 February 2018
-* [ARGs-OAP: online analysis pipeline for antibiotic resistance genes detection from metagenomic data using an integrated structured ARG-database](http://dx.doi.org/10.1093/bioinformatics/btw136), Ying Yang, Xiaotao Jiang, Benli Chai, Liping Ma, Bing Li, Anni Zhang, James R. Cole, James M. Tiedje, and Tong Zhang. *Bioinformatics* (2016) 32 (15): 2346-2351. doi: 10.1093/bioinformatics/btw136
+* [ARGs-OAP: online analysis pipeline for antibiotic resistance genes detection from metagenomic data using an integrated structured ARG-database](https://doi.org/10.1093/bioinformatics/btw136), Ying Yang, Xiaotao Jiang, Benli Chai, Liping Ma, Bing Li, Anni Zhang, James R. Cole, James M. Tiedje, and Tong Zhang. *Bioinformatics* (2016) 32 (15): 2346-2351. doi: 10.1093/bioinformatics/btw136
 * [ARGs-OAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EARGs-OAP) in [Galaxy Publication library](/src/publication-library/index.md).
 
 

@@ -27,7 +27,7 @@ sponsors:
 
 ## Citation(s)
 
-* [APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](http://dx.doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660
+* [APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](https://doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660
 * [APOSTL tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EAPOSTL) in [Galaxy Publication library](/src/publication-library/index.md).
 
 

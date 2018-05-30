@@ -51,8 +51,8 @@ This server joins the [growing list of public Galaxy servers](/src/public-galaxy
 
 These papers may be of interest to the Galaxy community. 
 
-* "[RepeatExplorer: a Galaxy-based web server for genome-wide characterization of eukaryotic repetitive elements from next generation sequence reads](http://dx.doi.org/10.1093/bioinformatics/btt054)," by Petr Novák, Pavel Neumann, Jiří Pech, Jaroslav Steinhaisl, Jiří Macas, *Bioinformatics* (1 February 2013)
-* "[A unified framework for the deployment, exposure and access of HPC applications as services in clouds](http://dx.doi.org/10.1016/j.future.2013.01.014)," by Adam K. L. Wonga, Andrzej M. Goscinskia, *Future Generation Computer Systems* (February 2013)
+* "[RepeatExplorer: a Galaxy-based web server for genome-wide characterization of eukaryotic repetitive elements from next generation sequence reads](https://doi.org/10.1093/bioinformatics/btt054)," by Petr Novák, Pavel Neumann, Jiří Pech, Jaroslav Steinhaisl, Jiří Macas, *Bioinformatics* (1 February 2013)
+* "[A unified framework for the deployment, exposure and access of HPC applications as services in clouds](https://doi.org/10.1016/j.future.2013.01.014)," by Adam K. L. Wonga, Andrzej M. Goscinskia, *Future Generation Computer Systems* (February 2013)
 
 There are now over [880 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

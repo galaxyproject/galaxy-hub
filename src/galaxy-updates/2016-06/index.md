@@ -282,13 +282,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from May:
 
-* [LimiTT: link miRNAs to targets](http://dx.doi.org/10.1186/s12859-016-1070-1) 
+* [LimiTT: link miRNAs to targets](https://doi.org/10.1186/s12859-016-1070-1) 
   * by Julia Bayer, Carsten Kuenne, Jens Preussner, Mario Looso. *BMC Bioinformatics*, Vol. 17, No. 1. (11 May 2016), doi:10.1186/s12859-016-1070-1
 
 * [From Scientific Workflow Patterns to 5-star Linked Open Data](https://www.usenix.org/conference/tapp16/workshop-program/presentation/gaignard)
     by Alban Gaignard, Hala Skaf-Molli, and Audrey Bihouée. In 8th USENIX Workshop on the Theory and Practice of Provenance (TaPP 16) (June 2016)
 
-* [Computational analysis of fitness landscapes and evolutionary networks from in vitro evolution experiments](http://dx.doi.org/10.1016/j.ymeth.2016.05.012)
+* [Computational analysis of fitness landscapes and evolutionary networks from in vitro evolution experiments](https://doi.org/10.1016/j.ymeth.2016.05.012)
     by Ramon Xulvi-Brunet, Gregory W. Campbell, Sudha Rajamani, José I. Jiménez, Irene A. Chen. *Methods* (May 2016), doi:10.1016/j.ymeth.2016.05.012
 
 and ...
@@ -297,7 +297,7 @@ and ...
 
 The [project and the developer community](/src/galaxy-team/index.md) has published a new paper, 
 
-  [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://dx.doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
+  [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
 that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/src/main/index.md) in particular.  Check it out.
 
