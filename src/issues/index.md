@@ -26,11 +26,11 @@ If you can reproduce on [Galaxy Main https://usegalaxy.org](/src/main/index.md),
 
 ### Green unexpected-result datasets
 
-If you can reproduce on [Main](/src/main/index.md), and the problem presents in a **green success dataset (but the result is unexpected)**, you may be asked to send in a shared history link and possibly a shared workflow link. Email our team directly on the private mailing list mailto:galaxy-bugs@lists.galaxyproject.org. Include the share link(s) and note the problem dataset numbers involved.
+If you can reproduce on [Main](/src/main/index.md), and the problem presents in a **green success dataset (but the result is unexpected)**, you may be asked to send in a shared history link and possibly a shared workflow link. Email our team directly on the private mailing list galaxy-bugs@lists.galaxyproject.org. Include the share link(s) and note the problem dataset numbers involved.
 
 ### Functionality problems
 
-Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/src/support/biostar/index.md) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the other public server you are working. 
+Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/src/support/biostar/index.md) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the other public server you are working at. 
 
 If using your own [local/docker/cloud Galaxy server](https://galaxyproject.github.io/), details about the Galaxy Version, server OS/version, advanced configurations applied, whether the server is new or not, and if the behavior changed after making admin changes (tool installs, upgrading). See **Administrative problems** below.
 
@@ -52,14 +52,14 @@ If the problem is presenting in your own Galaxy, administrative configuration ma
 
 ## Bug reporting
 
-If you are cetain that a problem is a software bug, please create a GitHub [issue](https://github.com/galaxyproject/galaxy/issues). If you are not sure, these issues can be vetted by following the help for **Usage problem reporting** above. 
+If you are cetain that a problem is a software bug, please create a GitHub [issue](https://github.com/galaxyproject/galaxy/issues). If you are not sure, issues can be vetted by following the help for **Usage problem reporting** above. 
 
 ### TIPS
 
 When creating an issue or sharing details about an error that does not include a shared history (through a link or bug report), be sure to include:
 
-1. Where you are using Galaxy ([Main](/src/main/index.md), local, or cloud instance). 
-1. Bug reports from [Test](/src/test/index.md) are generally not sent
+1. Where you are using Galaxy ([Main](/src/main/index.md), local, docker, or cloud instance). 
+1. Bug reports from [Test](/src/test/index.md) are generally not sent in. We really do test here and the configuration changes frequently.
 1. Galaxy version (usually can be obtained at https://galaxy.example/api/version)
 1. The date/time the bug was detected
 1. Exact steps to reproduce the issue
