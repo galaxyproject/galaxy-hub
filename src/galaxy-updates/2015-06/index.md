@@ -18,11 +18,11 @@ Welcome to the June 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summ
 
 70 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Highlights include:
 
-* [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](http://dx.doi.org/10.1186/s13742-015-0063-8)
+* [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](https://doi.org/10.1186/s13742-015-0063-8)
     by Anthony Bretaudeau, Cyril Monjeaud, Yvan Le Bras, Fabrice Legeai, Olivier Collin, *GigaScience*, Vol. 4, No. 1. (9 May 2015), doi:10.1186/s13742-015-0063-8
-* [Design and bioinformatics analysis of genome-wide CLIP experiments](http://dx.doi.org/10.1093/nar/gkv439), 
+* [Design and bioinformatics analysis of genome-wide CLIP experiments](https://doi.org/10.1093/nar/gkv439), 
     by Tao Wang, Guanghua Xiao, Yongjun Chu, Michael Q. Zhang, David R. Corey, Yang Xie, *Nucleic Acids Research* (09 May 2015), gkv439, doi:10.1093/nar/gkv439
-* [The Globus Galaxies platform: delivering science gateways as a service](http://dx.doi.org/10.1002/cpe.3486)
+* [The Globus Galaxies platform: delivering science gateways as a service](https://doi.org/10.1002/cpe.3486)
     Ravi Madduri, Kyle Chard, Ryan Chard, Lukasz Lacinski, Alex Rodriguez, Dinanath Sulakhe, David Kelly, Utpal Dave and Ian Foster, *Concurrency and Computation: Practice and Experience* (April 2015), doi:10.1002/cpe.3486
 
 The new papers were tagged with:

@@ -289,16 +289,16 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from last month:
 
-* [Integration and Visualization of Translational Medicine Data for Better Understanding of Human Diseases](http://dx.doi.org/10.1089/big.2015.0057)
+* [Integration and Visualization of Translational Medicine Data for Better Understanding of Human Diseases](https://doi.org/10.1089/big.2015.0057)
     by Venkata Satagopam, Wei Gu, Serge Eifes *et al.* *Big Data*, Vol. 4, No. 2. (1 June 2016), pp. 97-108, doi:10.1089/big.2015.0057
 
-* [biosigner: a new method for the discovery of significant molecular signatures from omics data](http://dx.doi.org/10.3389/fmolb.2016.00026)
+* [biosigner: a new method for the discovery of significant molecular signatures from omics data](https://doi.org/10.3389/fmolb.2016.00026)
     by Philippe Rinaudo, Samia Boudah, Christophe Junot, Etienne A. Thevenot, *Frontiers in Molecular Biosciences,* Vol. 3, No. 26. (2016), doi:10.3389/fmolb.2016.00026
 
-* [CART – a chemical annotation retrieval toolkit](http://dx.doi.org/10.1093/bioinformatics/btw233) 
+* [CART – a chemical annotation retrieval toolkit](https://doi.org/10.1093/bioinformatics/btw233) 
     by Samy Deghou, Georg Zeller, Murat Iskar *et al.,* *Bioinformatics* (02 June 2016), btw233, doi:10.1093/bioinformatics/btw233
 
-* [Experiences in integrated data and research object publishing using GigaDB](http://dx.doi.org/10.1007/s00799-016-0174-6)
+* [Experiences in integrated data and research object publishing using GigaDB](https://doi.org/10.1007/s00799-016-0174-6)
     by Scott C Edmunds, Peter Li, Christopher I Hunter *et al.*, In *International Journal on Digital Libraries* (2016), pp. 1-13, doi:10.1007/s00799-016-0174-6
 
 ## Tagged Publications

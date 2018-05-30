@@ -276,22 +276,22 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
 
 It was a banner month for Galaxy-related papers.  Some of the highlights:
 
-* [The Language Application Grid](http://dx.doi.org/10.1007/978-3-319-31468-6_4)
+* [The Language Application Grid](https://doi.org/10.1007/978-3-319-31468-6_4)
     Nancy Ide, James Pustejovsky, Christopher Cieri, *et al.*, edited by Yohei Murakami, Donghui Lin. In Worldwide Language Service Infrastructure, Vol. 9442 (2016), pp. 51-70, doi:10.1007/978-3-319-31468-6_4
 
-* [NGS-QC Generator: A Quality Control System for ChIP-Seq and Related Deep Sequencing-Generated Datasets](http://dx.doi.org/10.1007/978-1-4939-3578-9_13)
+* [NGS-QC Generator: A Quality Control System for ChIP-Seq and Related Deep Sequencing-Generated Datasets](https://doi.org/10.1007/978-1-4939-3578-9_13)
     Marco Antonio Mendoza-Parra, Mohamed-AshickM Saleem, Matthias Blum, Pierre-Etienne Cholley, Hinrich Gronemeyer, edited by Ewy Mathé, Sean Davis. In Statistical Genomics, Vol. 1418 (2016), pp. 243-265, doi:10.1007/978-1-4939-3578-9_13
 
-* [Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data](http://dx.doi.org/10.1186/s13742-016-0115-8)
+* [Galaxy-M: a Galaxy workflow for processing and analyzing direct infusion and liquid chromatography mass spectrometry-based metabolomics data](https://doi.org/10.1186/s13742-016-0115-8)
     Robert L. Davidson, Ralf J. M. Weber, Haoyu Liu, Archana Sharma-Oates, Mark R. Viant. *GigaScience*, Vol. 5, No. 1. (23 February 2016), doi:10.1186/s13742-016-0115-8
 
-* [Models and Simulations as a Service: Exploring the Use of Galaxy for Delivering Computational Models](http://dx.doi.org/10.1016/j.bpj.2015.12.041)
+* [Models and Simulations as a Service: Exploring the Use of Galaxy for Delivering Computational Models](https://doi.org/10.1016/j.bpj.2015.12.041)
     Mark A. Walker, Ravi Madduri, Alex Rodriguez, Joseph L. Greenstein, Raimond L. Winslow. *Biophysical Journal*, Vol. 110, No. 5. (March 2016), pp. 1038-1043, doi:10.1016/j.bpj.2015.12.041
 
-* [ZBIT Bioinformatics Toolbox: A Web-Platform for Systems Biology and Expression Data Analysis](http://dx.doi.org/10.1371/journal.pone.0149263)
+* [ZBIT Bioinformatics Toolbox: A Web-Platform for Systems Biology and Expression Data Analysis](https://doi.org/10.1371/journal.pone.0149263)
     Michael Römer, Johannes Eichner, Andreas Dräger, Clemens Wrzodek, Finja Wrzodek, Andreas Zell. *PLoS ONE*, Vol. 11, No. 2. (16 February 2016), e0149263, doi:10.1371/journal.pone.0149263
 
-* [A User-Friendly Computational Workflow for the Analysis of MicroRNA Deep Sequencing Data](http://dx.doi.org/10.1007/978-1-62703-083-0_3)
+* [A User-Friendly Computational Workflow for the Analysis of MicroRNA Deep Sequencing Data](https://doi.org/10.1007/978-1-62703-083-0_3)
     Anna Majer, KyleA Caligiuri, StephanieA Booth. In MicroRNA Protocols, Vol. 936 (2013), pp. 35-45, doi:10.1007/978-1-62703-083-0_3
 
 The new papers were tagged with:
@@ -402,8 +402,8 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     * histidine
   * More visualizations and evaluation tools will be added in the near future.
   * See 
-    * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](http://dx.doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118 
-    * [Using halogen bonds to address the protein backbone: a systematic evaluation](http://dx.doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8 
+    * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](https://doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118 
+    * [Using halogen bonds to address the protein backbone: a systematic evaluation](https://doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8 
 * *User Support:*
 * *Quotas:* 
   * "Files older than 30 days will be deleted, so make sure to save the results to your hard drive. "

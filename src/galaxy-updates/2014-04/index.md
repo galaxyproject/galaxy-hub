@@ -9,17 +9,17 @@ Welcome to the April 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 *63 papers* (a new monthly record) were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
+* "[Wrangling Galaxy's Reference Data](https://doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
 
 * "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/src/people/dan/index.md), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/src/people/anton/index.md), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
 
-* "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia, *Bioinformatics* (Oxford, England) (10 March 2014), doi:10.1093/bioinformatics/btu135
+* "[Orione, a web-based framework for NGS analysis in microbiology](https://doi.org/10.1093/bioinformatics/btu135)," Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia, *Bioinformatics* (Oxford, England) (10 March 2014), doi:10.1093/bioinformatics/btu135
 
-* "[Galaxy as a Platform for Identifying Candidate Pathogen Effectors](http://dx.doi.org/10.1007/978-1-62703-986-4_1)," Peter J. Cock, Leighton Pritchard, In *Plant-Pathogen Interactions*, Vol. 1127 (2014), pp. 3-15, doi:10.1007/978-1-62703-986-4_1
+* "[Galaxy as a Platform for Identifying Candidate Pathogen Effectors](https://doi.org/10.1007/978-1-62703-986-4_1)," Peter J. Cock, Leighton Pritchard, In *Plant-Pathogen Interactions*, Vol. 1127 (2014), pp. 3-15, doi:10.1007/978-1-62703-986-4_1
 
-* "[GigaDB: promoting data dissemination and reproducibility](http://dx.doi.org/10.1093/database/bau018)," Tam P. Sneddon, Xiao S. Zhe, Scott C. Edmunds, Peter Li, Laurie Goodman, Christopher I. Hunter, *Database*, Vol. 2014 (01 January 2014), bau018, doi:10.1093/database/bau018
+* "[GigaDB: promoting data dissemination and reproducibility](https://doi.org/10.1093/database/bau018)," Tam P. Sneddon, Xiao S. Zhe, Scott C. Edmunds, Peter Li, Laurie Goodman, Christopher I. Hunter, *Database*, Vol. 2014 (01 January 2014), bau018, doi:10.1093/database/bau018
 
-* "[Prediction of Gene Activity in Early B Cell Development Based on an Integrative Multi-Omics Analysis](http://dx.doi.org/10.4172/jpb.1000302)," Mohammad Heydarian, Teresa Romeo Luperchio, Jevon Cutler, Christopher J. Mitchell1, Min-Sik Kim, Akhilesh Pandey, Barbara Sollner-Webb, Karen Reddy, *Journal of Proteomics & Bioinformatics*, Vol. 07, No. 02. (2014), doi:10.4172/jpb.1000302
+* "[Prediction of Gene Activity in Early B Cell Development Based on an Integrative Multi-Omics Analysis](https://doi.org/10.4172/jpb.1000302)," Mohammad Heydarian, Teresa Romeo Luperchio, Jevon Cutler, Christopher J. Mitchell1, Min-Sik Kim, Akhilesh Pandey, Barbara Sollner-Webb, Karen Reddy, *Journal of Proteomics & Bioinformatics*, Vol. 07, No. 02. (2014), doi:10.4172/jpb.1000302
 
 The new papers covered:
 

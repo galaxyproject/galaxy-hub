@@ -153,17 +153,17 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
 
 **96 papers** (a new record) referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November.  That's a new record.  Some of those papers are:
 
-* "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/src/people/enis-afgan/index.md), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
+* "[Galaxy Cluster to Cloud - Genomics at Scale](https://doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/src/people/enis-afgan/index.md), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
-* "[Automatically exposing OpenLifeData via SADI semantic Web Services](http://dx.doi.org/10.1186/2041-1480-5-46)" by Alejandro Gonzalez, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 46, doi:10.1186/2041-1480-5-46
+* "[Automatically exposing OpenLifeData via SADI semantic Web Services](https://doi.org/10.1186/2041-1480-5-46)" by Alejandro Gonzalez, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 46, doi:10.1186/2041-1480-5-46
 
-* "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://dx.doi.org/10.1186/s12859-014-0350-x)" by Daniel I. Speiser, *et al.* *BMC Bioinformatics*, Vol. 15, No. 1. (19 November 2014), 350, doi:10.1186/s12859-014-0350-x
+* "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](https://doi.org/10.1186/s12859-014-0350-x)" by Daniel I. Speiser, *et al.* *BMC Bioinformatics*, Vol. 15, No. 1. (19 November 2014), 350, doi:10.1186/s12859-014-0350-x
 
-* "[A case study for cloud based high throughput analysis of NGS data using the Globus Genomics system](http://dx.doi.org/10.1016/j.csbj.2014.11.001)" by Krithika Bhuvaneshwar, *et al.* *Computational and Structural Biotechnology Journal* (November 2014), doi:10.1016/j.csbj.2014.11.001
+* "[A case study for cloud based high throughput analysis of NGS data using the Globus Genomics system](https://doi.org/10.1016/j.csbj.2014.11.001)" by Krithika Bhuvaneshwar, *et al.* *Computational and Structural Biotechnology Journal* (November 2014), doi:10.1016/j.csbj.2014.11.001
 
 * "[RNA-Seq Analysis of Differential Gene Expression in Electroporated Chick Embryonic Spinal Cord](http://bit.ly/112U5OV)" by Felipe M. Vieceli, C. Y. Irene Yan, *Journal of Visualized Experiments,* No. 93. (1 November 2014), doi:10.3791/51951
 
-* "[A Hadoop-Galaxy Adapter for User-friendly and Scalable Data-intensive Bioinformatics in Galaxy](http://dx.doi.org/10.1145/2649387.2649429)" by Luca Pireddu, *et al.* in Proceedings of the 5th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (2014), pp. 184-191, doi:10.1145/2649387.2649429
+* "[A Hadoop-Galaxy Adapter for User-friendly and Scalable Data-intensive Bioinformatics in Galaxy](https://doi.org/10.1145/2649387.2649429)" by Luca Pireddu, *et al.* in Proceedings of the 5th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (2014), pp. 184-191, doi:10.1145/2649387.2649429
 
 The new papers covered these topics:
 
@@ -421,7 +421,7 @@ In no particular order:
 * [Claus from the University of Oslo](https://github.com/Tarostar) developed an [app for checking Galaxy on your phone](https://github.com/Tarostar/QMLGalaxyPortal). [You can help test it](https://biostar.usegalaxy.org/p/9624/).
 * From [CRS4 Galaxy](https://twitter.com/CRS4Galaxy): [Seven Mycoplasma hyosynoviae strains assembled using Orione CRS4 Galaxy](http://goo.gl/XMMci1) 
 * From [Enis Afgan](https://twitter.com/EnisAfgan): Just wrapped up my first talk at Supercomputing 14: [Deciphering Big Data Stacks: An Overview of Big Data Tools](http://bit.ly/BDStacks).
-* From [Robert Davidson](https://twitter.com/bobbledavidson): My conference presentation on metabolomics and Galaxy Project at [#MMW2014](https://twitter.com/hashtag/MMW2014?src=hash) citable via [FigShare](http://dx.doi.org/10.6084/m9.figshare.1243500)
+* From [Robert Davidson](https://twitter.com/bobbledavidson): My conference presentation on metabolomics and Galaxy Project at [#MMW2014](https://twitter.com/hashtag/MMW2014?src=hash) citable via [FigShare](https://doi.org/10.6084/m9.figshare.1243500)
 * From [Ron Horst](https://twitter.com/Captnupoz): Been away for a month, come back to a new GVL with Galaxy, IPython, Rstudio. See the [GVL Dashboard](http://130.56.250.190) and GET your own from http://genome.edu.au
 * From [Edinburgh Genomics](https://twitter.com/edgenome): Workshop announcement (Feb 2015): "[Introduction to Python for Biologists](http://bit.ly/1uKSsBu)"
 * [Discussion on Command to compare repositories in different Tool Sheds](https://github.com/galaxyproject/planemo/issues/27) started by Peter Cock.

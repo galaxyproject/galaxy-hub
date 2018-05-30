@@ -18,19 +18,19 @@ Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a sum
 
 82 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in February. Some highlights:
 
-* [Multi-omic data analysis using Galaxy](http://dx.doi.org/10.1038/nbt.3134)
+* [Multi-omic data analysis using Galaxy](https://doi.org/10.1038/nbt.3134)
     Jorrit Boeke, [John M Chilton](/src/people/john-chilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
-* [Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://dx.doi.org/10.1101/pdb.top083667)
+* [Online Resources for Genomic Analysis Using High-Throughput Sequencing](https://doi.org/10.1101/pdb.top083667)
     [Daniel Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
-* [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](http://dx.doi.org/10.12694/scpe.v16i1.1058)
+* [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](https://doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058
 
-* [Data Interlocking: Coupling Analytics to the Data](http://dx.doi.org/10.1109/ucc.2014.113)
+* [Data Interlocking: Coupling Analytics to the Data](https://doi.org/10.1109/ucc.2014.113)
     Yousef Kowsar, Harriet Dashnow, Andrew Lonie, in Utility and Cloud Computing (UCC), 2014 IEEE/ACM 7th International Conference on (December 2014), pp. 696-701, doi:10.1109/ucc.2014.113
 
-* [A Quick Guide for Building a Successful Bioinformatics Community](http://dx.doi.org/10.1371/journal.pcbi.1003972)
+* [A Quick Guide for Building a Successful Bioinformatics Community](https://doi.org/10.1371/journal.pcbi.1003972)
     Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
 
 * [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/)
@@ -362,7 +362,7 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added i
   * "Dedicated to the analysis of whale shark *(Rhincodon typus)* genome."
 * *Comments:*
   * See:
-    [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/), Read TD, Petit III RA, Joseph SJ, Alam MT, RW, Ahmad M, Bhimani R, Vuong JS, Haase CP, Webb H, Dove ADM. (2015). *[PeerJ PrePrints](https://peerj.com/preprints/)* 3:e1036 http://dx.doi.org/10.7287/peerj.preprints.837v1
+    [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/), Read TD, Petit III RA, Joseph SJ, Alam MT, RW, Ahmad M, Bhimani R, Vuong JS, Haase CP, Webb H, Dove ADM. (2015). *[PeerJ PrePrints](https://peerj.com/preprints/)* 3:e1036 https://doi.org/10.7287/peerj.preprints.837v1
 * *User Support:*
 * *Quotas:* 
   * Max file size to upload: 2 GB

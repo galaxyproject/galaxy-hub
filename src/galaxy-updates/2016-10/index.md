@@ -363,16 +363,16 @@ Some highlights from last month:
  **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://biorxiv.org/content/early/2016/09/22/075457)**
    [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nathan Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
 
- **[Genotyping of evolving prokaryotic populations](http://dx.doi.org/10.7287/peerj.preprints.2449v1)**
+ **[Genotyping of evolving prokaryotic populations](https://doi.org/10.7287/peerj.preprints.2449v1)**
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ Preprints* (14 September 2016), doi:10.7287/peerj.preprints.2449v1
 
  **[Identifying Regions Enriched in a ChIP-seq Data Set (Peak Finding)](https://www.ncbi.nlm.nih.gov/pubmed/27574193)**
    Jui-Hung Hung, Zhiping Weng. *Cold Spring Harbor Protocols* (29 August 2016), doi:10.1101/pdb.prot093187
 
- **[Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](http://dx.doi.org/10.1101/048983)**
+ **[Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](https://doi.org/10.1101/048983)**
    Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D. Vernick, Christophe Antoniewski. *bioRxiv* (2016), doi:10.1101/048983
 
- **[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](http://dx.doi.org/10.1109/mipro.2015.7160259)**
+ **[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](https://doi.org/10.1109/mipro.2015.7160259)**
    Lukas Forer, [Enis Afgan](/src/people/enis-afgan/index.md), Hansi Weißensteiner, Davor Davidović, Günther Specht, Florian Kronenberg, Sebastian Schönherr. 2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2015), pp. 172-177, doi:10.1109/mipro.2015.7160259
 
 ## Tagged Publications

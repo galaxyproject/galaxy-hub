@@ -27,7 +27,7 @@ sponsors:
 
 ## Citation(s)
 
-* [AGEseq: Analysis of Genome Editing by Sequencing](http://dx.doi.org/10.1016/j.molp.2015.06.001). Xue LJ and Tsai CJ (2015). *Molecular Plant.* doi:10.1016/j.molp.2015.06.001
+* [AGEseq: Analysis of Genome Editing by Sequencing](https://doi.org/10.1016/j.molp.2015.06.001). Xue LJ and Tsai CJ (2015). *Molecular Plant.* doi:10.1016/j.molp.2015.06.001
 * [AGEseq tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EAGEseq) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)

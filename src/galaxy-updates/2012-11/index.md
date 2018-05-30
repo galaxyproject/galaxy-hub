@@ -57,14 +57,14 @@ These papers may be of interest to the Galaxy community:
 
 </div>
 
-* "[Rapid positional cloning of zebrafish mutations by linkage and homozygosity mapping using whole-genome sequencing](http://dx.doi.org/10.1242/dev.083931)," Nikolaus Obholzer, Ian A. Swinburne, Evan Schwab, Alex V. Nechiporuk, Teresa Nicolson, Sean G. Megason; *[Development](http://dev.biologists.org/)* (10 October 2012) <br />
+* "[Rapid positional cloning of zebrafish mutations by linkage and homozygosity mapping using whole-genome sequencing](https://doi.org/10.1242/dev.083931)," Nikolaus Obholzer, Ian A. Swinburne, Evan Schwab, Alex V. Nechiporuk, Teresa Nicolson, Sean G. Megason; *[Development](http://dev.biologists.org/)* (10 October 2012) <br />
   &rarr; *The [MegaMapper](http://bit.ly/QupZs1) package is implemented in Galaxy and [is available as a VirtualBox VM and an Amazon AMI](http://bit.ly/QupZs1).*<br /><br />
 
-* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](http://dx.doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/src/people/dan/index.md), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
+* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](https://doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/src/people/dan/index.md), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
 
-* "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](http://dx.doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
+* "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](https://doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
 
-* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](http://dx.doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/src/people/fubar/index.md), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/index.md), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
+* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/src/people/fubar/index.md), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/index.md), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
 
 These papers were among [44 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  
 

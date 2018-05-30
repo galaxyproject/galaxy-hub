@@ -1100,10 +1100,10 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> November 12-13 </th>
-    <td> <em><a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Engaging Biologists with Big Data Using Interactive Genome Annotation</a></em> </td>
+    <td> <em><a href='https://doi.org/10.6084/m9.figshare.1597671'>Engaging Biologists with Big Data Using Interactive Genome Annotation</a></em> </td>
     <td> <a href='https://datascience.nih.gov/bd2k/events/NOV2015-AllHands'>BD2K All-Hands Grantee Meeting</a>, Bethesda, Maryland, United States </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
-    <td> <a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Poster</a> </td>
+    <td> <a href='https://doi.org/10.6084/m9.figshare.1597671'>Poster</a> </td>
   </tr>
   <tr>
     <th> November 12 </th>
@@ -2226,12 +2226,12 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <td> <em>FACE-IT: A Science Gateway for Food Security Research</em> </td>
-    <td> <a href='http://dx.doi.org/10.1109/gce.2014.17'>Paper</a> </td>
+    <td> <a href='https://doi.org/10.1109/gce.2014.17'>Paper</a> </td>
     <td> Raffaele Montella </td>
   </tr>
   <tr>
     <td> <em>Cloud-based Image Analysis Gateway for Traumatic Brain Injury Research</em> </td>
-    <td> <a href='http://dx.doi.org/10.1109/gce.2014.8'>Paper</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014_GCE_TBI_Chard.pdf'>Slides</a> </td>
+    <td> <a href='https://doi.org/10.1109/gce.2014.8'>Paper</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014_GCE_TBI_Chard.pdf'>Slides</a> </td>
     <td> Kyle Chard </td>
   </tr>
   <tr>

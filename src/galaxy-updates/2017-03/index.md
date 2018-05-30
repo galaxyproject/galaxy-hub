@@ -253,33 +253,33 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 Some highlights from the past two months:
 
-* [GraphFlow: Workflow-based big graph processing](http://dx.doi.org/10.1109/BigData.2016.7840993)
+* [GraphFlow: Workflow-based big graph processing](https://doi.org/10.1109/BigData.2016.7840993)
    S. Riazi, B. Norris. In 2016 IEEE International Conference on Big Data (Big Data) (Dec 2016), pp. 3336-3343, doi:10.1109/BigData.2016.7840993
 
-* [blend4php: a PHP API for galaxy](http://dx.doi.org/10.1093/database/baw154)
+* [blend4php: a PHP API for galaxy](https://doi.org/10.1093/database/baw154)
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
-* [A guide and best practices for R/Bioconductor tool integration in Galaxy](http://dx.doi.org/10.12688/f1000research.9821.1)
+* [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
    [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/james=taylor/index.md). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
-* [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](http://dx.doi.org/10.1007/s41048-016-0033-4)
+* [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4
 
-* [A complete workflow for high-resolution spectral-stitching nanoelectrospray direct-infusion mass-spectrometry-based metabolomics and lipidomics](http://dx.doi.org/10.1038/nprot.2016.156)
+* [A complete workflow for high-resolution spectral-stitching nanoelectrospray direct-infusion mass-spectrometry-based metabolomics and lipidomics](https://doi.org/10.1038/nprot.2016.156)
    Andrew D. Southam, Ralf J. M. Weber, Jasper Engel, Martin R. Jones, Mark R. Viant. *Nature Protocols*, Vol. 12, No. 2. (12 January 2017), pp. 255-273, doi:10.1038/nprot.2016.156
 
-* [Computational tools and workflows in metabolomics: An international survey highlights the opportunity for harmonisation through Galaxy](http://dx.doi.org/10.1007/s11306-016-1147-x)
+* [Computational tools and workflows in metabolomics: An international survey highlights the opportunity for harmonisation through Galaxy](https://doi.org/10.1007/s11306-016-1147-x)
    Ralf J. M. Weber, Thomas N. Lawson, Reza M. Salek, Timothy M. D. Ebbels, Robert C. Glen, Royston Goodacre, Julian L. Griffin, Kenneth Haug, Albert Koulman, Pablo Moreno, Markus Ralser, Christoph Steinbeck, Warwick B. Dunn, Mark R. Viant.  *Metabolomics*, Vol. 13, No. 2. (2016), pp. 1-5, doi:10.1007/s11306-016-1147-x
 
-* [Variant profiling of evolving prokaryotic populations](http://dx.doi.org/10.7717/peerj.2997)
+* [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997)
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ*, Vol. 5 (16 February 2017), e2997, doi:10.7717/peerj.2997
 
-* [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](http://dx.doi.org/10.7287/peerj.preprints.2766v1)
+* [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1)
    Daniele P. Colobraro, Paolo Romano. *PeerJ Preprints* (31 January 2017), doi:10.7287/peerj.preprints.2766v1
 
 * Three papers on natural language processing:
 
-   * [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](http://dx.doi.org/10.1016/j.csl.2017.01.003)
+   * [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](https://doi.org/10.1016/j.csl.2017.01.003)
       Steve Cassidy, Dominique Estival. *Computer Speech & Language* (February 2017), doi:10.1016/j.csl.2017.01.003
 
    * [LAPPS/Galaxy: Current State and Next Steps](http://aclweb.org/anthology/W16-5202)  

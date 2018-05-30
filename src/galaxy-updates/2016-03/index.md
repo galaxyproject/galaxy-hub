@@ -101,13 +101,13 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 * [MetaPalette: A $k$-mer painting approach for metagenomic taxonomic profiling and quantification of novel strain variation](http://arxiv.org/abs/1602.05328)
     David Koslicki, Daniel Falush, arXiv:1602.05328 [q-bio.GN] (17 Feb 2016)
 
-* [Colib’read on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](http://dx.doi.org/10.1186/s13742-015-0105-2)
+* [Colib’read on galaxy: a tools suite dedicated to biological information extraction from raw NGS reads](https://doi.org/10.1186/s13742-015-0105-2)
     by Yvan Le Bras, Olivier Collin, Cyril Monjeaud, Vincent Lacroix, Éric Rivals, Claire Lemaitre, Vincent Miele, Gustavo Sacomoto, Camille Marchet, Bastien Cazaux, Amal Zine El Aabidine, Leena Salmela, Susete Alves-Carvalho, Alexan Andrieux, Raluca Uricaru and Pierre Peterlongo, *GigaScience*, Vol. 5, No. 1. (11 February 2016), doi:10.1186/s13742-015-0105-2
 
-* [Impact of soil heat on reassembly of bacterial communities in the rhizosphere microbiome and plant disease suppression](http://dx.doi.org/10.1111/ele.12567)
+* [Impact of soil heat on reassembly of bacterial communities in the rhizosphere microbiome and plant disease suppression](https://doi.org/10.1111/ele.12567)
     Menno van der Voort, Marcel Kempenaar, Marc van Driel, Jos M. Raaijmakers, Rodrigo Mendes, *Ecology Letters* (January 2016), pp. n/a-n/a, doi:10.1111/ele.12567
 
-* [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](http://dx.doi.org/10.1080/15476286.2016.1141862)
+* [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](https://doi.org/10.1080/15476286.2016.1141862)
     Audrey M. Michel, James P. A. Mullan, Vimalkumar Velayudhan, Patrick B. F. O'Connor, Claire A. Donohue, Pavel V. Baranov, *RNA Biology* (29 January 2016), pp. 00-00, doi:10.1080/15476286.2016.1141862
 
 The new papers were tagged with:

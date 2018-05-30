@@ -53,11 +53,11 @@ Welcome to the October 2012 edition of *[Galaxy Update](/src/galaxy-updates/inde
 
 These papers may be of interest to the Galaxy community:
 
-* [Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
+* [Turning pipe dreams into reality](https://doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
 
-* [Some Phenotype Association Tools in Galaxy: Looking for Disease SNPs in a Full Genome](http://dx.doi.org/10.1002/0471250953.bi1502s39), by Belinda M. Giardine, Cathy Riemer, Richard Burhans, Aakrosh Ratan, Webb Miller; in *Current Protocols in Bioinformatics* 39:15.2.1-15.2.27
+* [Some Phenotype Association Tools in Galaxy: Looking for Disease SNPs in a Full Genome](https://doi.org/10.1002/0471250953.bi1502s39), by Belinda M. Giardine, Cathy Riemer, Richard Burhans, Aakrosh Ratan, Webb Miller; in *Current Protocols in Bioinformatics* 39:15.2.1-15.2.27
 
-* [Galaxy Workflow Integration on Garuda Grid](http://dx.doi.org/10.1109/WETICE.2012.51), by  K. Karuna, N. Mangala, C. Janaki, S. Shashi, and C. Subrata; in Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE), 2012 IEEE 21st International Workshop on (June 2012), pp. 194-196
+* [Galaxy Workflow Integration on Garuda Grid](https://doi.org/10.1109/WETICE.2012.51), by  K. Karuna, N. Mangala, C. Janaki, S. Shashi, and C. Subrata; in Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE), 2012 IEEE 21st International Workshop on (June 2012), pp. 194-196
 
 These papers were among [35 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 456 papers in the last ~20 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 

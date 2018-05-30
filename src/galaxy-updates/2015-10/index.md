@@ -18,16 +18,16 @@ Welcome to the October 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 **60** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in September. Highlights include:
 
-* [WiseScaffolder: an algorithm for the semi-automatic scaffolding of Next Generation Sequencing data](http://dx.doi.org/10.1186/s12859-015-0705-y)
+* [WiseScaffolder: an algorithm for the semi-automatic scaffolding of Next Generation Sequencing data](https://doi.org/10.1186/s12859-015-0705-y)
     *BMC Bioinformatics*, Vol. 16, No. 1. (03 September 2015), 281, doi:10.1186/s12859-015-0705-y, by Gregory K. Farrant, Mark Hoebeke, Frédéric Partensky, Gwendoline Andres, Erwan Corre, Laurence Garczarek
 
-* [Discriminating somatic and germline mutations in tumor DNA samples without matching normals](http://dx.doi.org/10.1101/gr.183053.114)
+* [Discriminating somatic and germline mutations in tumor DNA samples without matching normals](https://doi.org/10.1101/gr.183053.114)
     *Genome Research*, Vol. 25, No. 9. (01 September 2015), pp. 1382-1390, doi:10.1101/gr.183053.114. Saskia Hiltemann, Guido Jenster, Jan Trapman, Peter van der Spek, Andrew Stubbs
 
-* [VING: a software for visualization of deep sequencing signals](http://dx.doi.org/10.1186/s13104-015-1404-5)
+* [VING: a software for visualization of deep sequencing signals](https://doi.org/10.1186/s13104-015-1404-5)
     *BMC Research Notes*, Vol. 8, No. 1. (07 September 2015), 419, doi:10.1186/s13104-015-1404-5. Marc Descrimes, Yousra B. Zouari, Maxime Wery, Rachel Legendre, Daniel Gautheret, Antonin Morillon
 
-* [Hammock: A Hidden Markov model-based peptide clustering algorithm to identify protein-interaction consensus motifs in large datasets](http://dx.doi.org/10.1093/bioinformatics/btv522)
+* [Hammock: A Hidden Markov model-based peptide clustering algorithm to identify protein-interaction consensus motifs in large datasets](https://doi.org/10.1093/bioinformatics/btv522)
     *Bioinformatics* (05 September 2015), btv522, doi:10.1093/bioinformatics/btv522. Adam Krejci, Theodore Hupp, Matej Lexa, Borivoj Vojtesek, Petr Muller
 
 The new papers were tagged with:
