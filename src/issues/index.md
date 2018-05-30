@@ -19,6 +19,10 @@ A summary of common troubleshooting solutions can also be found in this **Troubl
 
  * [Support FAQs](/src/support/index.md)
  * [Galaxy Tutorials](/src/learn/index.md)
+ * [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+ * [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+ * [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+ * [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 
 ### Red error datasets
 
