@@ -16,52 +16,52 @@ Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a
 
 Some highlights from the recently added pubs:
 
-* [2017 Galaxy community update](http://dx.doi.org/10.7490/f1000research.1114388.1)
+* [2017 Galaxy community update](https://doi.org/10.7490/f1000research.1114388.1)
   [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremey-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
 
-* [Approaches for small RNA-seq in Galaxy](http://dx.doi.org/10.7490/f1000research.1114423.1)
+* [Approaches for small RNA-seq in Galaxy](https://doi.org/10.7490/f1000research.1114423.1)
   [Mallory Freeberg](/src/people/mallory-freeberg/index.md), [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
 
-* [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](http://dx.doi.org/10.1093/gigascience/gix048)
+* [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](https://doi.org/10.1093/gigascience/gix048)
   Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
 
-* [Building an open, collaborative, online infrastructure for bioinformatics training](http://dx.doi.org/10.7490/f1000research.1114447.1)
+* [Building an open, collaborative, online infrastructure for bioinformatics training](https://doi.org/10.7490/f1000research.1114447.1)
   Bérénice Batut, [Galaxy Training Network](/src/teach/gtn/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
 
-* [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](http://dx.doi.org/10.22377/ajp.v11i02.1265)
+* [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](https://doi.org/10.22377/ajp.v11i02.1265)
   Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
 
-* [Hack the Galaxy report](http://dx.doi.org/10.7490/f1000research.1114391.1)
+* [Hack the Galaxy report](https://doi.org/10.7490/f1000research.1114391.1)
   Anthony Bretaudeau, Frederik Coppens, Hack the Galaxy Participants. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114391.1
 
-* [Integrative analysis of hundreds of datasets in Galaxy](http://dx.doi.org/10.7490/f1000research.1114523.1)
+* [Integrative analysis of hundreds of datasets in Galaxy](https://doi.org/10.7490/f1000research.1114523.1)
   Geir K. Sandve, Boris Simovski, Sveinung Gundersen, Diana Domanska, Christin Lund-Andersen. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114523.1
 
-* [Making Galaxy user Interface Pluggable with Webhooks](http://dx.doi.org/10.7490/f1000research.1114475.1)
+* [Making Galaxy user Interface Pluggable with Webhooks](https://doi.org/10.7490/f1000research.1114475.1)
   Evgeny Anatskiy, Anup Kumar, Eric Rasche, et al. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114475.1
 
-* [mzML2ISA & nmrML2ISA: generating enriched ISA-Tab metadata files from metabolomics XML data](http://dx.doi.org/10.1093/bioinformatics/btx169)
+* [mzML2ISA & nmrML2ISA: generating enriched ISA-Tab metadata files from metabolomics XML data](https://doi.org/10.1093/bioinformatics/btx169)
   Martin Larralde, Thomas N. Lawson, Ralf J. M. Weber, et al. *Bioinformatics* (07 April 2017), doi:10.1093/bioinformatics/btx169
 
-* [PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data](http://dx.doi.org/10.1038/s41598-017-07910-5)
+* [PhageTerm: a tool for fast and accurate determination of phage termini and packaging mechanism using next-generation sequencing data](https://doi.org/10.1038/s41598-017-07910-5)
   Julian R. Garneau, Florence Depardieu, Louis-Charles C. Fortier, David Bikard, Marc Monot. *Scientific reports*, Vol. 7, No. 1. (15 August 2017), doi:10.1038/s41598-017-07910-5
 
-* [Pulling the Galaxy's strings](http://dx.doi.org/10.7490/f1000research.1114436.1)
+* [Pulling the Galaxy's strings](https://doi.org/10.7490/f1000research.1114436.1)
   Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
 
-* [Recent object formation in the core of Galaxy](http://dx.doi.org/10.7490/f1000research.1114483.1)
+* [Recent object formation in the core of Galaxy](https://doi.org/10.7490/f1000research.1114483.1)
   [Martin Čech](/src/people/martenson/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
 
-* [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](http://dx.doi.org/10.12688/f1000research.12168.1)
+* [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](https://doi.org/10.12688/f1000research.12168.1)
   Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
 
-* [The backbone of research reproducibility-sustainable and flexible tool deployment](http://dx.doi.org/10.7490/f1000research.1114482.1)
+* [The backbone of research reproducibility-sustainable and flexible tool deployment](https://doi.org/10.7490/f1000research.1114482.1)
   [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
 
-* [ToolDog-generating tool descriptors from the ELIXIR tool registry](http://dx.doi.org/10.7490/f1000research.1114473.1)
+* [ToolDog-generating tool descriptors from the ELIXIR tool registry](https://doi.org/10.7490/f1000research.1114473.1)
   Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1
 
-* [wft4galaxy: a workflow testing tool for galaxy](http://dx.doi.org/10.1093/bioinformatics/btx461)
+* [wft4galaxy: a workflow testing tool for galaxy](https://doi.org/10.1093/bioinformatics/btx461)
   Marco E. Piras, Luca Pireddu, Gianluigi Zanetti. *Bioinformatics* (24 July 2017), doi:10.1093/bioinformatics/btx461
 
 ## Publication Topics

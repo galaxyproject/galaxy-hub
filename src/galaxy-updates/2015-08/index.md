@@ -216,15 +216,15 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/people/enis-afgan/index.md) *et al.*
 
-* [LiSIs: An Online Scientific Workflow System for Virtual Screening](http://dx.doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
+* [LiSIs: An Online Scientific Workflow System for Virtual Screening](https://doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
 
-* [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](http://dx.doi.org/10.1093/bioinformatics/btv002), Warren *et al.*
+* [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](https://doi.org/10.1093/bioinformatics/btv002), Warren *et al.*
 
-* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](http://dx.doi.org/10.1186/s12864-015-1712-0), Fuller, *et al.*
+* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](https://doi.org/10.1186/s12864-015-1712-0), Fuller, *et al.*
 
-* [Context influences on TALE–DNA binding revealed by quantitative profiling](http://dx.doi.org/10.1038/ncomms8440), Rogers, *et al.*
+* [Context influences on TALE–DNA binding revealed by quantitative profiling](https://doi.org/10.1038/ncomms8440), Rogers, *et al.*
 
-* [Compact graphical representation of phylogenetic data and metadata with GraPhlAn](http://dx.doi.org/10.7717/peerj.1029), Asnicar *et al.*
+* [Compact graphical representation of phylogenetic data and metadata with GraPhlAn](https://doi.org/10.7717/peerj.1029), Asnicar *et al.*
 
 * [ARC Control Tower A flexible generic distributed job management framework](http://bit.ly/1ROmd1q), Nilsen *et al.* 
 

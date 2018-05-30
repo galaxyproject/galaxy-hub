@@ -128,11 +128,11 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 
 44 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in September. In addition to papers featuring the [kmer-SVM](/src/galaxy-updates/2013-10/index.md#kmer-svm) and [NGS-QC Generator](/src/galaxy-updates/2013-10/index.md#ngs-qc-generator) (see [above](/src/galaxy-updates/2013-10/index.md#new-public-servers)) these papers may be particularly interesting to the Galaxy community:
 
-* "[Genomics in the clouds](http://dx.doi.org/10.1038/nmeth.2654)" by Vivien Marx, *[Nature Methods](http://www.nature.com/nmeth/index.html)* 10, 941–945 (2013)
+* "[Genomics in the clouds](https://doi.org/10.1038/nmeth.2654)" by Vivien Marx, *[Nature Methods](http://www.nature.com/nmeth/index.html)* 10, 941–945 (2013)
 
-* "[Galaxy tools and workflows for sequence analysis with applications in molecular plant pathology](http://dx.doi.org/10.7717/peerj.167)." by Cock PJ, Grüning BA, Paszkiewicz K, Pritchard L. *[PeerJ](https://peerj.com/)* 1:e167
+* "[Galaxy tools and workflows for sequence analysis with applications in molecular plant pathology](https://doi.org/10.7717/peerj.167)." by Cock PJ, Grüning BA, Paszkiewicz K, Pritchard L. *[PeerJ](https://peerj.com/)* 1:e167
 
-* "[TALENoffer: genome-wide TALEN off-target prediction](http://dx.doi.org/10.1093/bioinformatics/btt501)" by Jan Grau, Jens Boch, Stefan Posch, *Bioinformatics* (30 August 2013), doi:10.1093/bioinformatics/btt501
+* "[TALENoffer: genome-wide TALEN off-target prediction](https://doi.org/10.1093/bioinformatics/btt501)" by Jan Grau, Jens Boch, Stefan Posch, *Bioinformatics* (30 August 2013), doi:10.1093/bioinformatics/btt501
 
 And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/galaxy/galaxy-central/src/tip/CITATION). [CITATION files](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html) "tell readers how best to cite that software."  Also see the [Citing Galaxy](/src/citing-galaxy/index.md) wiki page.
 

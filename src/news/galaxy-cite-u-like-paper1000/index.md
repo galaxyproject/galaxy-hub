@@ -6,7 +6,7 @@ date: "2013-06-06"
 
 The 1000<sup>th</sup> Galaxy-related paper was added to the [Galaxy CiteULike group](http://www.citeulike.org/group/16008/) today. That paper was:
 
- "[HvLUX1 is a candidate gene underlying the early maturity 10 locus in barley: phylogeny, diversity, and interactions with the circadian clock and photoperiodic pathways](http://dx.doi.org/10.1111/nph.12346)" by Chiara Campoli, Artem Pankin, Benedikt Drosse, Cristina M. Casao, Seth J. Davis, Maria von Korff; *New Phytologist* (1 June 2013)
+ "[HvLUX1 is a candidate gene underlying the early maturity 10 locus in barley: phylogeny, diversity, and interactions with the circadian clock and photoperiodic pathways](https://doi.org/10.1111/nph.12346)" by Chiara Campoli, Artem Pankin, Benedikt Drosse, Cristina M. Casao, Seth J. Davis, Maria von Korff; *New Phytologist* (1 June 2013)
 
 The authors used the [Wageningen University public Galaxy server](http://galaxy.wur.nl), and the paper includes a full explanation of their analysis methods.  To top it all off, the paper is open access.  It was given the [methods](http://www.citeulike.org/group/16008/tag/methods) and [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) tags.
 

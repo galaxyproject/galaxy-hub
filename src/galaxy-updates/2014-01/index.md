@@ -145,8 +145,8 @@ Many, many thanks to everyone who talked about Galaxy last year and for making t
 *52 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in December. Some papers that may be particularly interesting to the Galaxy community:
 
 * "[Galaxy tools to study genome diversity](http://bit.ly/1cQUjwU)" by Bedoya-Reina, *et al.*, *[GigaScience](http://gigasciencejounal.com)*, Vol. 2, No. 1. (2013), 17, doi:10.1186/2047-217x-2-17
-* "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://dx.doi.org/10.1002/sim.6066)" by Yang, *et al.*, *Statistics in Medicine* (1 December 2013), doi:10.1002/sim.6066
-* "[In silico to in vivo splicing analysis using splicing code models](http://dx.doi.org/10.1016/j.ymeth.2013.11.006)" by Gazzara, *et al.*, *Methods* (December 2013), doi:10.1016/j.ymeth.2013.11.006
+* "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](https://doi.org/10.1002/sim.6066)" by Yang, *et al.*, *Statistics in Medicine* (1 December 2013), doi:10.1002/sim.6066
+* "[In silico to in vivo splicing analysis using splicing code models](https://doi.org/10.1016/j.ymeth.2013.11.006)" by Gazzara, *et al.*, *Methods* (December 2013), doi:10.1016/j.ymeth.2013.11.006
 
 This brings the total number of papers to 1330.
 

@@ -40,7 +40,7 @@ The *Galactic* and *Stellar* publications added in September were:
   * Audrey M. Michel, Stephen J. Kiniry, Patrick B. F. O’Connor, James P. Mullan, Pavel V. Baranov, *Nucleic Acids Research*, gkx790, doi:10.1093/nar/gkx790  
 * [Big Data for Infectious Diseases Surveillance and the Potential Contribution to the Investigation of Foodborne Disease in Canada](https://nccid.ca/publications/big-data-for-infectious-diseases-surveillance/)
   * Cheryl Waldner, National Collaborating Centre for Infectious Diseases (NCCID)
-* [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](http://dx.doi.org/10.1016/j.celrep.2017.08.043)
+* [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](https://doi.org/10.1016/j.celrep.2017.08.043)
   * Steven Moreira, Enio Polena, Victor Gordon, Solen Abdulla, Sujeivan Mahendram, Jiayi Cao, Alexandre Blais, Geoffrey A. Wood, Anna Dvorkin-Gheva, Bradley W. Doble, *Cell Reports*, Volume 20 , Issue 10 , 2424 - 2438, doi:10.1016/j.celrep.2017.08.043
 * [Antigen receptor sequencing of paired bone marrow samples shows homogeneous distribution of acute lymphoblastic leukemia subclones](http://www.haematologica.org/content/early/
   2017/08/28/haematol.2017.171454)

@@ -183,10 +183,10 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from the papers added in March:
 
-* [High-resolution TADs reveal DNA sequences underlying genome organization in flies](http://dx.doi.org/10.1101/115063)
+* [High-resolution TADs reveal DNA sequences underlying genome organization in flies](https://doi.org/10.1101/115063)
    Fidel Ramirez, Vivek Bhardwaj, Jose Villaveces, et al. *bioRxiv* (08 March 2017), 115063, doi:10.1101/115063
 
-* [Enhancing Knowledge Discovery from Cancer Genomics Data with Galaxy](http://dx.doi.org/10.1093/gigascience/gix015)
+* [Enhancing Knowledge Discovery from Cancer Genomics Data with Galaxy](https://doi.org/10.1093/gigascience/gix015)
    Marco A. Albuquerque, Bruno M. Grande, Elie J. Ritch, et al. *GigaScience* (09 March 2017), doi:10.1093/gigascience/gix015
 
 * [Tools for cluster analysis of data from genome-wide association studies](http://urn.nb.no/URN:NBN:no-56327)
@@ -207,16 +207,16 @@ Some highlights from the papers added in March:
 * [Enhancing Access to Media Collections and Archives Using Computational Linguistic Tools](http://ceur-ws.org/Vol-1786/pustejovsky.pdf)
    James Pustejovsky, Marc Verhagen, Nancy Ide, Keith Suderman. In Corpora in the Digital Humanities (CDH), Bloomington, Indiana (2017)
 
-* [DNApod: DNA polymorphism annotation database from next-generation sequence read archives](http://dx.doi.org/10.1371/journal.pone.0172269)
+* [DNApod: DNA polymorphism annotation database from next-generation sequence read archives](https://doi.org/10.1371/journal.pone.0172269)
   Takako Mochizuki, Yasuhiro Tanizawa, Takatomo Fujisawa, et al. *PLOS ONE*, Vol. 12, No. 2. (24 February 2017), e0172269, doi:10.1371/journal.pone.0172269
 
 * [Deep and Surface Causality: Global Teaching and Access to HPC Social Science](https://pdfs.semanticscholar.org/b056/c9c5deda9ce754a3d4bf9b45fc46e40ddc9e.pdf)
    Douglas W. Uci, Paul Rodriguez, Eric Blau, et al. (2015)
 
-* [Blood-based omic profiling supports female susceptibility to tobacco smoke-induced cardiovascular diseases](http://dx.doi.org/10.1038/srep42870)
+* [Blood-based omic profiling supports female susceptibility to tobacco smoke-induced cardiovascular diseases](https://doi.org/10.1038/srep42870)
    Aristotelis Chatziioannou, Panagiotis Georgiadis, Dennie G. Hebels, et al. *Scientific Reports*, Vol. 7 (22 February 2017), 42870, doi:10.1038/srep42870
 
-* [Architectural models for deploying and running virtual laboratories in the cloud](http://dx.doi.org/10.1109/MIPRO.2016.7522153)
+* [Architectural models for deploying and running virtual laboratories in the cloud](https://doi.org/10.1109/MIPRO.2016.7522153)
    E. Afgan, A. Lonie, J. Taylor, K. Skala, N. Goonasekera. In 39th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2016), pp. 282-286, doi:10.1109/MIPRO.2016.7522153
 
 

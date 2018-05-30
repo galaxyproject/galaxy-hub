@@ -49,7 +49,7 @@ Welcome to the January 2013 edition of *[Galaxy Update](/src/galaxy-updates/inde
 
 These papers may be of interest to the Galaxy community:
 
-* "[The ChIP-seq-Defined Networks of Bcl-3 Gene Binding Support Its Required Role in Skeletal Muscle Atrophy](http://dx.doi.org/10.1371/journal.pone.0051478)", by Robert W. Jackman, Chia-Ling Wu, Susan C. Kandarian, *PLoS ONE* Vol. 7, No. 12
+* "[The ChIP-seq-Defined Networks of Bcl-3 Gene Binding Support Its Required Role in Skeletal Muscle Atrophy](https://doi.org/10.1371/journal.pone.0051478)", by Robert W. Jackman, Chia-Ling Wu, Susan C. Kandarian, *PLoS ONE* Vol. 7, No. 12
     &rarr; Uses [Cistrome](http://cistrome.org/ap/root) & [Nebula Galaxy](http://nebula.curie.fr/) Servers</div>
 
 * "[Latent Regulatory Potential of Human-Specific Repetitive Elements](http://bit.ly/TY4tBr)," by Michelle C. Ward, Michael D. Wilson, Nuno L. Barbosa-Morais, *et al.*; *Molecular Cell* (December 2012) 

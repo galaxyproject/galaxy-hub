@@ -238,13 +238,13 @@ Over the rest of the few months there are many [Galaxy related events](/src/even
 
 * [HiBrowse: multi-purpose statistical analysis of genome-wide chromatin 3D organization](http://bit.ly/1r90Wil), by Paulsen, *et al.,* *Bioinformatics* (2014) 30 (11): 1620-1622. doi: 10.1093/bioinformatics/btu082 
 
-* [Osiris: accessible and reproducible phylogenetic and phylogenomic analyses within the Galaxy workflow management system](http://dx.doi.org/10.1186/1471-2105-15-230), by Todd H. Oakley, Markos A. Alexandrou, Roger Ngo, *et al.,* *BMC bioinformatics*, Vol. 15, No. 1. (2 July 2014), 230, doi:10.1186/1471-2105-15-230
+* [Osiris: accessible and reproducible phylogenetic and phylogenomic analyses within the Galaxy workflow management system](https://doi.org/10.1186/1471-2105-15-230), by Todd H. Oakley, Markos A. Alexandrou, Roger Ngo, *et al.,* *BMC bioinformatics*, Vol. 15, No. 1. (2 July 2014), 230, doi:10.1186/1471-2105-15-230
 
-* [QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](http://dx.doi.org/10.1371/journal.pone.0101079), by Jagat S. Chauhan, Sandeep K. Dhanda, Deepak Singla, Subhash M. Agarwal, Gajendra P. S. Raghava, Open Source Drug Discovery Consortium, *PLoS ONE*, Vol. 9, No. 7. (3 July 2014), e101079, doi:10.1371/journal.pone.0101079
+* [QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](https://doi.org/10.1371/journal.pone.0101079), by Jagat S. Chauhan, Sandeep K. Dhanda, Deepak Singla, Subhash M. Agarwal, Gajendra P. S. Raghava, Open Source Drug Discovery Consortium, *PLoS ONE*, Vol. 9, No. 7. (3 July 2014), e101079, doi:10.1371/journal.pone.0101079
 
-* [A Survey of Approaches and Frameworks to Carry Out Genomic Data Analysis on the Cloud](http://dx.doi.org/10.1109/ccgrid.2014.127), by Philip C. Church, Andrzej Goscinski, in "Cluster, Cloud and Grid Computing (CCGrid)", 2014 14th IEEE/ACM International Symposium on (May 2014), pp. 701-710, doi:10.1109/ccgrid.2014.127
+* [A Survey of Approaches and Frameworks to Carry Out Genomic Data Analysis on the Cloud](https://doi.org/10.1109/ccgrid.2014.127), by Philip C. Church, Andrzej Goscinski, in "Cluster, Cloud and Grid Computing (CCGrid)", 2014 14th IEEE/ACM International Symposium on (May 2014), pp. 701-710, doi:10.1109/ccgrid.2014.127
 
-* [Physiolyze: A Galaxy-based web service for Heart Rate Variability analysis with online processing](http://dx.doi.org/10.1109/esgco.2014.6847537), by Andrea Bizzego, Marco Mina, Calogero Zarbo, Gianluca Esposito, Cesare Furlanello, in "Cardiovascular Oscillations (ESGCO)," 2014 8th Conference of the European Study Group on (May 2014), pp. 97-98, doi:10.1109/esgco.2014.6847537
+* [Physiolyze: A Galaxy-based web service for Heart Rate Variability analysis with online processing](https://doi.org/10.1109/esgco.2014.6847537), by Andrea Bizzego, Marco Mina, Calogero Zarbo, Gianluca Esposito, Cesare Furlanello, in "Cardiovascular Oscillations (ESGCO)," 2014 8th Conference of the European Study Group on (May 2014), pp. 97-98, doi:10.1109/esgco.2014.6847537
 
 The new papers were tagged in many different areas:
 

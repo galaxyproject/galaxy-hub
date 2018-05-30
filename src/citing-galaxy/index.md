@@ -85,7 +85,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). **[A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1)**. *F1000Research* (2016) 5:2757 doi:10.12688/f1000research.9821.1
 
-1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv* (2016) doi:10.1101/075457 
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](https://doi.org/10.1101/075457)**. *bioRxiv* (2016) doi:10.1101/075457 
 
 1. Nicholas Stoler, Barbara Arbeithuber, Wilfried Guiblet, Kateryna D. Makova, [Anton Nekrutenko](/src/people/anton/index.md). **[Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4)**. *Genome Biology* (2016) 17:180 doi:10.1186/s13059-016-1039-4
 
@@ -111,7 +111,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Enis Afgan](/src/people/enis-afgan/index.md), [Nate Coraor](/src/people/nate/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [James Taylor](/src/people/james-taylor/index.md), [The Galaxy Team](/src/galaxy-team/index.md), "[Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl)," in *Concurrency and Computation: Practice and Experience* (1 June 2015), doi:10.1002/cpe.3536  
 
-1. [Enis Afgan](/src/people/enis-afgan/index.md), Konstantinos Krampis, Nuwan Goonasekera, Karolj Skala, [James Taylor](/src/people/james-taylor/index.md), "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://dx.doi.org/10.6084/m9.figshare.1424740)," in [Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015 38th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7153596)
+1. [Enis Afgan](/src/people/enis-afgan/index.md), Konstantinos Krampis, Nuwan Goonasekera, Karolj Skala, [James Taylor](/src/people/james-taylor/index.md), "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](https://doi.org/10.6084/m9.figshare.1424740)," in [Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015 38th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7153596)
 
 1. Yin Tang, [Emil Bouvier](/src/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/index.md), Philip C. Bevilacqua and Sarah M. Assmann, "[StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://bit.ly/1Erhglz)," *Bioinformatics* (2015) doi:10.1093/bioinformatics/btv213
 
@@ -119,13 +119,13 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Jorrit Boekel, [John M Chilton](/src/people/john-chilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, "[Multi-omic data analysis using Galaxy](http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html)," *Nature Biotechnology* 33, 137–139 (2015) doi:10.1038/nbt.3134
 
-1. Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, "[A Quick Guide for Building a Successful Bioinformatics Community](http://dx.doi.org/10.1371/journal.pcbi.1003972)," *[PLOS Computational Biology](http://journals.plos.org/ploscompbiol/)*, doi:10.1371/journal.pcbi.1003972
+1. Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, "[A Quick Guide for Building a Successful Bioinformatics Community](https://doi.org/10.1371/journal.pcbi.1003972)," *[PLOS Computational Biology](http://journals.plos.org/ploscompbiol/)*, doi:10.1371/journal.pcbi.1003972
 
 1. [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Bassel F. El-Rayes, Shishir K. Maithel, H. Jean Khoury, [James Taylor](/src/people/james-taylor/index.md) and Michael R. Rossi, "[Open pipelines for integrated tumor genome profiles reveal differences between pancreatic cancer tumors and cell lines](http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full)," *Cancer Medicine*, doi:10.1002/cam4.360
 
 ### 2014
 
-1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md),   "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)," in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
+1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md),   "[Galaxy Cluster to Cloud - Genomics at Scale](https://doi.org/10.1109/GCE.2014.13)," in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
 1. S. Leo, L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo, [E. Afgan](/src/people/enis-afgan/index.md) and G. Zanetti, **[BioBlend.objects: metacomputing with Galaxy](https://academic.oup.com/bioinformatics/article/30/19/2816/2422231/BioBlend-objects-metacomputing-with-Galaxy)**. *Bioinformatics* (2014) 30(19): 2816-2817 doi:10.1093/bioinformatics/btu386
 
@@ -145,7 +145,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Richard LeDuc, Matthew Vaughn, John M. Fonner, Michael Sullivan, James G. Williams, Philip D. Blood, [James Taylor](/src/people/james-taylor/index.md), William Barnett. **[Leveraging the national cyberinfrastructure for biomedical research](http://jamia.oxfordjournals.org/content/21/2/195)**. *Journal of the American Medical Informatics Association (JAMIA)* (2013) 21(2): 195-199 doi:10.1136/amiajnl-2013-002059
 
-1. [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)," *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+1. [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)," *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 
 1. Yousef Kowsar and [Enis Afgan](/src/people/enis-afgan/index.md), "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," [Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635), 243-248; 2013
 
@@ -163,7 +163,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Ross Lazarus](/src/people/fubar/index.md), Antony Kaspi, Mark Ziemann and [The Galaxy Team](/src/galaxy-team/index.md), "[Creating re-usable tools from scripts: The Galaxy Tool Factory](http://bioinformatics.oxfordjournals.org/content/28/23/3139)."  *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)*  (2012) doi:10.1093/bioinformatics/bts573.
 
-1. Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, "[Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039)." *[Genome Biology](http://genomebiology.com/)*, Vol. 13, No. 8. (2012), 318.
+1. Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, "[Turning pipe dreams into reality](https://doi.org/10.1186/gb4039)." *[Genome Biology](http://genomebiology.com/)*, Vol. 13, No. 8. (2012), 318.
 
 1. [Anton Nekrutenko](/src/people/anton/index.md) & [James Taylor](/src/people/james-taylor/index.md), "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)."  *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*.  13, 667-672 (September 2012).
 

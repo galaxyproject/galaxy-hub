@@ -11,7 +11,7 @@ Welcome to the February 2013 edition of *[Galaxy Update](/src/galaxy-updates/ind
 
 <div class='left'> <a href='http://yeoman.usask.ca/'><img src="/src/images/logos/USaskatchewanBIRLLogo.jpg" alt="SAPHIRE on Yeoman by the University of Saskatchewan Bioinformatics Research Group" width="120" /></a></div>
 
-The **[Yeoman Galaxy Server](http://yeoman.usask.ca/)** runs the **SA**skatchewan **PH**osphorylation **I**nternet **RE**source (SAPHIRE). This tool by the [University of Saskatchewan Bioinformatics Research Group](http://www.cs.usask.ca/research/research_groups/birl/) allows you to predict phosphorylation sites in soybean proteins, and will be expanded to other plants in the near future. See also "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](http://dx.doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
+The **[Yeoman Galaxy Server](http://yeoman.usask.ca/)** runs the **SA**skatchewan **PH**osphorylation **I**nternet **RE**source (SAPHIRE). This tool by the [University of Saskatchewan Bioinformatics Research Group](http://www.cs.usask.ca/research/research_groups/birl/) allows you to predict phosphorylation sites in soybean proteins, and will be expanded to other plants in the near future. See also "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](https://doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
 
 **Note:** The Yeoman Galaxy server is no longer running.  From Brett Trost:
 
@@ -74,10 +74,10 @@ These servers join the [growing list of public Galaxy servers](/src/public-galax
 
 These papers may be of interest to the Galaxy community.  The first three describe the [Public Galaxy servers](/src/public-galaxy-servers/index.md) listed above.
 
-* "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](http://dx.doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
-* "[Database resources for the tuberculosis community](http://dx.doi.org/10.1016/j.tube.2012.11.003)," by Lew, *et al.*, *Tuberculosis* (January 2013)
-* "[OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows](http://dx.doi.org/10.1186/2041-1480-4-2)," by Aranguren, *et al.*, *Journal of Biomedical Semantics*, Vol. 4, No. 1. (2013), 2
-* "[A genome-wide view of mutation rate co-variation using multivariate analyses](http://dx.doi.org/10.1186/gb-2011-12-3-r27)," by Ananda, *et al.*, *Genome Biology*, Vol. 12, No. 3. (22 March 2011), R27
+* "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](https://doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
+* "[Database resources for the tuberculosis community](https://doi.org/10.1016/j.tube.2012.11.003)," by Lew, *et al.*, *Tuberculosis* (January 2013)
+* "[OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows](https://doi.org/10.1186/2041-1480-4-2)," by Aranguren, *et al.*, *Journal of Biomedical Semantics*, Vol. 4, No. 1. (2013), 2
+* "[A genome-wide view of mutation rate co-variation using multivariate analyses](https://doi.org/10.1186/gb-2011-12-3-r27)," by Ananda, *et al.*, *Genome Biology*, Vol. 12, No. 3. (22 March 2011), R27
 
 There are now over [830 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

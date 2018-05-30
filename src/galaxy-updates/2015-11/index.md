@@ -24,25 +24,25 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
     [Enis Afgan](/src/people/enis-afgan/index.md), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie, *PLoS ONE* October 26, 2015 DOI: 10.1371/journal.pone.0140829.<br />
     See also [Australian-made Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud, ...](https://www.vlsci.org.au/news/GVLnews2015).
 
-* **[Analyzing HT-SELEX data with the Galaxy Project tools - a web based bioinformatics platform for biomedical research](http://dx.doi.org/10.1016/j.ymeth.2015.10.008)**
+* **[Analyzing HT-SELEX data with the Galaxy Project tools - a web based bioinformatics platform for biomedical research](https://doi.org/10.1016/j.ymeth.2015.10.008)**
     William H. Thiel, Paloma H. Giangrande, *Methods* (October 2015), doi:10.1016/j.ymeth.2015.10.008
 
-* **[ReproPhylo: An Environment for Reproducible Phylogenomics](http://dx.doi.org/10.1371/journal.pcbi.1004447)**  
+* **[ReproPhylo: An Environment for Reproducible Phylogenomics](https://doi.org/10.1371/journal.pcbi.1004447)**  
     Amir Szitenberg, Max John, Mark L. Blaxter, David H. Lunt, *PLoS Comput Biol*, Vol. 11, No. 9. (3 September 2015), e1004447, doi:10.1371/journal.pcbi.1004447
 
-* **[RNA-Seq UD: A bioinformatics platform for RNA-Seq analysis](http://dx.doi.org/10.1109/cisti.2015.7170565)**
+* **[RNA-Seq UD: A bioinformatics platform for RNA-Seq analysis](https://doi.org/10.1109/cisti.2015.7170565)**
     Miguel Ramirez, Cristian A. Rojas-Quintero, Nelson E. Vera-Parra, in "Information Systems and Technologies (CISTI), 2015 10th Iberian Conference on" (June 2015), pp. 1-5, doi:10.1109/cisti.2015.7170565
 
 * **[BioImg.org](http://bioimg.org): [A Catalog of Virtual Machine Images for the Life Sciences](http://ow.ly/S3VJU)**
     Martin Dahlö, Frédéric Haziza, Aleksi Kallio, Eija Korpelainen, Erik Bongcam-Rudloff and Ola Spjuth, *Bioinformatics and Biology Insights* 2015:9 125–128 doi: 10.4137/BBI.S28636
 
-* **[SBMLsqueezer 2: context-sensitive creation of kinetic equations in biochemical networks](http://dx.doi.org/10.1186/s12918-015-0212-9)**
+* **[SBMLsqueezer 2: context-sensitive creation of kinetic equations in biochemical networks](https://doi.org/10.1186/s12918-015-0212-9)**
     Andreas Dräger, Daniel C. Zielinski, Roland Keller, *et al*., *BMC Systems Biology*, Vol. 9, No. 1. (09 October 2015), 68, doi:10.1186/s12918-015-0212-9
 
-* **[RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](http://dx.doi.org/10.1186/s13326-015-0038-9)**
+* **[RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](https://doi.org/10.1186/s13326-015-0038-9)**
     Jesse C. J. van Dam, Jasper J. Koehorst, Peter J. Schaap, Vitor A. P. Martins dos Santos, Maria Suarez-Diez, *Journal of Biomedical Semantics*, Vol. 6, No. 1. (23 October 2015), 39, doi:10.1186/s13326-015-0038-9
 
-* **[MicRhoDE: a curated database for the analysis of microbial rhodopsin diversity and evolution](http://dx.doi.org/10.1093/database/bav080)**
+* **[MicRhoDE: a curated database for the analysis of microbial rhodopsin diversity and evolution](https://doi.org/10.1093/database/bav080)**
     Dominique Boeuf, Stéphane Audic, Loraine Brillet-Guéguen, Christophe Caron, Christian Jeanthon, *Database*, Vol. 2015 (01 January 2015), bav080, doi:10.1093/database/bav080
 
 The new papers were tagged with:

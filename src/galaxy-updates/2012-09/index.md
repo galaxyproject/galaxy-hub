@@ -52,7 +52,7 @@ These papers may be of interest to the Galaxy community:
 
 * "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/people/anton/index.md) & [Taylor](/src/people/james-taylor/index.md), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
 
-* "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://dx.doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
+* "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](https://doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
 
 * "[Data Mining as a Discovery Tool for Imprinted Genes Genomic Imprinting](http://rd.springer.com/protocol/10.1007/978-1-62703-011-3_7)", by  Chelsea Brideau, Paul Soloway, *[Methods in Molecular Biology](http://www.springerlink.com/content/1064-3745/)*, Vol. 925 (2012)
 

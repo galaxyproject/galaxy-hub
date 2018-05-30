@@ -22,8 +22,8 @@ sponsors:
   * histidine
 * More visualizations and evaluation tools will be added in the near future.
 * See
-  * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](http://dx.doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118
-  * [Using halogen bonds to address the protein backbone: a systematic evaluation](http://dx.doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8
+  * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](https://doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118
+  * [Using halogen bonds to address the protein backbone: a systematic evaluation](https://doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8
 
 ## User Support
 

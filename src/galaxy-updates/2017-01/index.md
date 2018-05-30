@@ -213,7 +213,7 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 Some highlights from December:
 
-* [Chapter 13. Using Galaxy for Proteomics](http://dx.doi.org/10.1039/9781782626732-00289)
+* [Chapter 13. Using Galaxy for Proteomics](https://doi.org/10.1039/9781782626732-00289)
    Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in 
 Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039/9781782626732-00289
 * [EuPathDB: the eukaryotic pathogen genomics database resource](http://nar.oxfordjournals.org/content/early/2016/11/29/nar.gkw1105.full)

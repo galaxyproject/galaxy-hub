@@ -261,7 +261,7 @@ February had one new *[Galactic Blog](/src/blog/index.md)* entry:
 The *Galactic* and *Stellar* publications added in February were:
 
 * [GeneSeqToFamily: a Galaxy workflow to find gene families based on the Ensembl Compara GeneTrees](https://doi.org/10.1093/gigascience/giy005), Anil S Thanki, Nicola Soranzo, Wilfried Haerty, Robert P Davey. *GigaScience*, giy005, doi: 10.1093/gigascience/giy005
-* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
+* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
 * [Mind your gaps: Overlooking assembly gaps confounds statistical testing in genome analysis](https://doi.org/10.1101/252973), Diana Domanska, Chakravarthi Kanduri, Boris Simovski, Geir Kjetil Sandve. *bioRxiv* 252973; doi: 10.1101/252973
 * [MAJIQ-SPEL: web-tool to interrogate classical and complex splicing variations from RNA-Seq data](https://doi.org/10.1093/bioinformatics/btx565), Christopher J Green, Matthew R Gazzara, Yoseph Barash. *Bioinformatics*, Volume 34, Issue 2, 15 January 2018, Pages 300–302, doi: 10.1093/bioinformatics/btx565
 * [Low-pass single-chromosome sequencing of human small supernumerary marker chromosomes (sSMCs) and *Apodemus* B chromosomes](https://link.springer.com/article/10.1007/s00412-018-0662-0), Makunin, A.I., Rajičić, M., Karamysheva, T.V. et al. *Chromosoma* (2018). doi: 10.1007/s00412-018-0662-0
@@ -305,7 +305,7 @@ The [Galaxy-P Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) pr
 
 [Step-by-step training instructions and related information](http://z.umn.edu/supps1) and a [Metaproteomics Tutorial Video](http://z.umn.edu/mpvideo2018) are available.  The server can be accessed anonymously or you can create an account.  It is maintained by [@galaxyproteomics](https://github.com/galaxyproteomics).
 
-See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
+See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
 
 ## deepTools 3.0 is live
 
