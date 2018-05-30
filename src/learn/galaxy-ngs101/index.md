@@ -50,7 +50,7 @@ This section contains quick explanations and important references for major sequ
 * [Modification detection with PacBio - Flusberg et al. (2010)](http://www.nature.com/nmeth/journal/v7/n6/pdf/nmeth.1459.pdf)
 * [Error correction of PacBio reads - Koren et al. (2012)](http://www.nature.com/nbt/journal/v30/n7/pdf/nbt.2280.pdf)
 * [Transcriptome with PacBio - Taligner et al. (2014)](http://www.pnas.org/cgi/doi/10.1073/pnas.1400447111)
-* [Resolving complex regions with PacBio - Chaisson et al. (2015)](http://dx.doi.org/10.1038/nature13907)
+* [Resolving complex regions with PacBio - Chaisson et al. (2015)](https://doi.org/10.1038/nature13907)
 
 ---------
 

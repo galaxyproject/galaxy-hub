@@ -27,7 +27,7 @@ sponsors:
 
 ## Citation(s)
 
-* [Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135), by Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia; *Bioinformatics* (10 March 2014)
+* [Orione, a web-based framework for NGS analysis in microbiology](https://doi.org/10.1093/bioinformatics/btu135), by Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia; *Bioinformatics* (10 March 2014)
 * [Orione tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EOrione) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)

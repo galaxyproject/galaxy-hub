@@ -133,13 +133,13 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
 
 *48 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[BioBlend.objects: metacomputing with Galaxy](http://dx.doi.org/10.1093/bioinformatics/btu386)", by S. Leo, L. Pireddu, G. Cuccuru, *et al.* *Bioinformatics* (12 June 2014), doi:10.1093/bioinformatics/btu386
+* "[BioBlend.objects: metacomputing with Galaxy](https://doi.org/10.1093/bioinformatics/btu386)", by S. Leo, L. Pireddu, G. Cuccuru, *et al.* *Bioinformatics* (12 June 2014), doi:10.1093/bioinformatics/btu386
 
-* "[RPPApipe: A pipeline for the analysis of reverse-phase protein array data](http://dx.doi.org/j.biosystems.2014.06.009)" by Johannes Eichner, Yvonne Heubach, Manuel Ruff, *et al.* *Biosystems* (June 2014), doi:10.1016/j.biosystems.2014.06.009
+* "[RPPApipe: A pipeline for the analysis of reverse-phase protein array data](https://doi.org/j.biosystems.2014.06.009)" by Johannes Eichner, Yvonne Heubach, Manuel Ruff, *et al.* *Biosystems* (June 2014), doi:10.1016/j.biosystems.2014.06.009
 
-* "[Using Bioinformatics Tools to Study the Role of microRNA in Cancer](http://dx.doi.org/10.1007/978-1-4939-0847-9_7)", by Fabio Passetti, Natasha Andressa Nogueira Jorge, Alan Durham; In *Clinical Bioinformatics*, Vol. 1168 (2014), pp. 99-116, doi:10.1007/978-1-4939-0847-9_7
+* "[Using Bioinformatics Tools to Study the Role of microRNA in Cancer](https://doi.org/10.1007/978-1-4939-0847-9_7)", by Fabio Passetti, Natasha Andressa Nogueira Jorge, Alan Durham; In *Clinical Bioinformatics*, Vol. 1168 (2014), pp. 99-116, doi:10.1007/978-1-4939-0847-9_7
 
-* "[Ocular and Extraocular Expression of Opsins in the Rhopalium of Tripedalia cystophora (Cnidaria: Cubozoa)](http://dx.doi.org/10.1371/journal.pone.0098870)" by Jan Bielecki, Alexander K. Zaharoff, Nicole Y. Leung, Anders Garm, Todd H. Oakley, *PLoS ONE*, Vol. 9, No. 6. (5 June 2014), e98870, doi:10.1371/journal.pone.0098870
+* "[Ocular and Extraocular Expression of Opsins in the Rhopalium of Tripedalia cystophora (Cnidaria: Cubozoa)](https://doi.org/10.1371/journal.pone.0098870)" by Jan Bielecki, Alexander K. Zaharoff, Nicole Y. Leung, Anders Garm, Todd H. Oakley, *PLoS ONE*, Vol. 9, No. 6. (5 June 2014), e98870, doi:10.1371/journal.pone.0098870
 
 The new papers were tagged in many different areas:
 

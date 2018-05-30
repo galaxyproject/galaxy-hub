@@ -371,24 +371,24 @@ Some April highlights:
     by Luca Pireddu
 
 * [qpMerge: Merging different peptide isoforms using a motif centric strategy](http://biorxiv.org/content/early/2016/04/05/047100)
-    by Matthew M Hindle, Thierry Le Bihan, Johanna Krahmer, Sarah F Martin, Zeenat B Noordally, T. Ian Simpson, Andrew J. Millar, doi: http://dx.doi.org/10.1101/047100 
+    by Matthew M Hindle, Thierry Le Bihan, Johanna Krahmer, Sarah F Martin, Zeenat B Noordally, T. Ian Simpson, Andrew J. Millar, doi: https://doi.org/10.1101/047100 
 
 * [Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](http://biorxiv.org/content/early/2016/04/20/048983)
-    by Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D Vernick, Christophe Antoniewski, doi: http://dx.doi.org/10.1101/048983 
+    by Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D Vernick, Christophe Antoniewski, doi: https://doi.org/10.1101/048983 
 
-* [MutSpec: a Galaxy toolbox for streamlined analyses of somatic mutation spectra in human and mouse cancer genomes](http://dx.doi.org/10.1186/s12859-016-1011-z)
+* [MutSpec: a Galaxy toolbox for streamlined analyses of somatic mutation spectra in human and mouse cancer genomes](https://doi.org/10.1186/s12859-016-1011-z)
     by Maude Ardin, Vincent Cahais, Xavier Castells, *et al.* *BMC Bioinformatics*, Vol. 17, No. 1. (18 April 2016), doi:10.1186/s12859-016-1011-z
 
-* [deepTools2: a next generation web server for deep-sequencing data analysis](http://dx.doi.org/10.1093/nar/gkw257)
+* [deepTools2: a next generation web server for deep-sequencing data analysis](https://doi.org/10.1093/nar/gkw257)
     by Fidel Ramírez, Devon P. Ryan, Björn Grüning, *et al.* *Nucleic Acids Research* (13 April 2016), gkw257, doi:10.1093/nar/gkw257
 
 * [META-pipe - Pipeline Annotation, Analysis and Visualization of Marine Metagenomic Sequence Data](http://arxiv.org/abs/1604.04103)
     by Espen M. Robertsen, Tim Kahlke, Inge A. Raknes, et al.
 
-* [MGEScan: a Galaxy based system for identifying retrotransposons in genomes](http://dx.doi.org/10.1093/bioinformatics/btw157)
+* [MGEScan: a Galaxy based system for identifying retrotransposons in genomes](https://doi.org/10.1093/bioinformatics/btw157)
     by Hyungro Lee, Minsu Lee, Wazim M. Ismail, *et al.* *Bioinformatics* (07 April 2016), btw157, doi:10.1093/bioinformatics/btw157
 
-* [R-Syst::diatom: an open-access and curated barcode database for diatoms and freshwater monitoring](http://dx.doi.org/10.1093/database/baw016)
+* [R-Syst::diatom: an open-access and curated barcode database for diatoms and freshwater monitoring](https://doi.org/10.1093/database/baw016)
     by Frédéric Rimet, Philippe Chaumeil, François Keck, *et al.* *Database*, Vol. 2016 (1 January 2016), doi:10.1093/database/baw016
 
 The new papers were tagged with:

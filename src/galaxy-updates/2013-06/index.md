@@ -75,9 +75,9 @@ See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Pr
 
 39 new papers were added to the Galaxy CiteULike Group in May, including:
 
-* "[The Genomic HyperBrowser: an analysis web server for genome-scale data](http://dx.doi.org/10.1093/nar/gkt342)" by Geir K. Sandve, Sveinung Gundersen, Morten Johansen, *et al.*; *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* (30 April 2013)
+* "[The Genomic HyperBrowser: an analysis web server for genome-scale data](https://doi.org/10.1093/nar/gkt342)" by Geir K. Sandve, Sveinung Gundersen, Morten Johansen, *et al.*; *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* (30 April 2013)
 
-* "[ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://dx.doi.org/10.1371/journal.pone.0062447)" by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; *[PLoS ONE](http://www.plosone.org/)*, Vol. 8, No. 5. (6 May 2013), e62447
+* "[ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](https://doi.org/10.1371/journal.pone.0062447)" by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; *[PLoS ONE](http://www.plosone.org/)*, Vol. 8, No. 5. (6 May 2013), e62447
 
 There are now almost [1000 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

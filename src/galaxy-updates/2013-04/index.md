@@ -110,11 +110,11 @@ We will likely back-annotate papers with these new tags from the beginning of 20
 
 Finally, 32 new papers were added to the Galaxy CiteULike Group in March, including these which might be of general interest to the Galaxy community. 
 
-* "[NightShift: NMR Shift Inference by General Hybrid Model Training - a Framework for NMR Chemical Shift Prediction](http://dx.doi.org/10.1186/1471-2105-14-98)" by Dehof *et al.* *BMC Bioinformatics*, Vol. 14, No. 1. (16 March 2013), 98
+* "[NightShift: NMR Shift Inference by General Hybrid Model Training - a Framework for NMR Chemical Shift Prediction](https://doi.org/10.1186/1471-2105-14-98)" by Dehof *et al.* *BMC Bioinformatics*, Vol. 14, No. 1. (16 March 2013), 98
 
-* "[Computational Predictions Provide Insights into the Biology of TAL Effector Target Sites](http://dx.doi.org/10.1371/journal.pcbi.1002962)" by *Grau et al.* *PLoS computational biology*, Vol. 9, No. 3. (14 March 2013), e1002962
+* "[Computational Predictions Provide Insights into the Biology of TAL Effector Target Sites](https://doi.org/10.1371/journal.pcbi.1002962)" by *Grau et al.* *PLoS computational biology*, Vol. 9, No. 3. (14 March 2013), e1002962
 
-* "[Aye-aye population genomic analyses highlight an important center of endemism in northern Madagascar](http://dx.doi.org/10.1073/pnas.1211990110)," by Perry, *et al.* Proceedings of the National Academy of Sciences (25 March 2013)
+* "[Aye-aye population genomic analyses highlight an important center of endemism in northern Madagascar](https://doi.org/10.1073/pnas.1211990110)," by Perry, *et al.* Proceedings of the National Academy of Sciences (25 March 2013)
 
 There are now over [900 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

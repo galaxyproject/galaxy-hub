@@ -18,7 +18,7 @@ Welcome to the February *[Galaxy Update](/src/galaxy-updates/index.md)*, a summa
 
 55 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in January. Some highlights:
 
-* [Open pipelines for integrated tumor genome profiles reveal differences between pancreatic cancer tumors and cell lines](http://dx.doi.org/10.1002/cam4.360)
+* [Open pipelines for integrated tumor genome profiles reveal differences between pancreatic cancer tumors and cell lines](https://doi.org/10.1002/cam4.360)
     [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Bassel F. El-Rayes, Shishir K. Maithel, H. Jean Khoury, [James Taylor](/src/people/james-taylor/index.md), Michael R. Rossi, *Cancer Medicine* (December 2014), doi:10.1002/cam4.360
 * [Merging OpenLifeData with SADI services using Galaxy and Docker](http://www.biorxiv.org/content/biorxiv/early/2015/01/10/013615)
     Mikel E. Aranguren, *bioRxiv*

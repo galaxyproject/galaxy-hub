@@ -9,17 +9,17 @@ Welcome to the January *[Galaxy Update](/src/galaxy-updates/index.md)*, a summar
 
 63 papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in December, *bringing the total to over 2000 papers*. Some of those new papers are:
 
-* [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813)
+* [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813)
     *Bioinformatics* (19 December 2014), btu813, doi:10.1093/bioinformatics/btu813, by Franck Giacomoni, Gildas Le Corguillé, Misharl Monsoor, *et al.*
 
-* [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](http://dx.doi.org/10.1186/s12918-014-0130-2)
+* [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](https://doi.org/10.1186/s12918-014-0130-2)
     *BMC Systems Biology*, Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2, by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn
 
-* [ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS](http://dx.doi.org/10.1186/s12865-014-0059-7)
+* [ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS](https://doi.org/10.1186/s12865-014-0059-7)
     *BMC Immunology*, Vol. 15, No. 1. (13 December 2014), 59, doi:10.1186/s12865-014-0059-7, by Michael J. Moorhouse, David van Zessen, Hanna IJspeert, *et al.*<br />
     Also see the [Immunoglobulin Galaxy VM](http://bit.ly/IGGXY_VM)
 
-* [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://dx.doi.org/10.1093/nar/gku1117)
+* [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](https://doi.org/10.1093/nar/gku1117)
     *Nucleic Acids Research* (15 December 2014), doi:10.1093/nar/gku1117, by Gloria I. Giraldo-Calderón, Scott J. Emrich, Robert M. MacCallum, *et al.*
 
 The new papers covered these topics:
@@ -241,7 +241,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://metanet.osdd.net/'><img src="/src/public-galaxy-servers/MetaNETLogo200.png" alt="MetaNET"  /></a></div>
 * *Links:*
   * [MetaNET server](http://metanet.osdd.net/)
-  * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](http://dx.doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2
+  * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](https://doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2
 * *Domain/Purpose:*
   * [MetaNET](http://metanet.osdd.net/) is a web-accessible interactive platform for biological metabolic network analysis.
 * *Comments:*
