@@ -5,11 +5,13 @@ title: Job and Tool Error Help
 
 Related topics
 
-* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
-* [Known Data Issues](/src/support/data-issues/index.md)
-* [Galaxy Github issue board](/src/issues/index.md)
-* [Troubleshoot an error](/src/support/troubleshoot-an-error/index.md)
+* [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 * [Galaxy Choices](/src/choices/index.md)
+* [The Galaxy Ecosystem](https://galaxyproject.github.io/)
 
 ## Job and Tool Error Help
 
@@ -17,14 +19,16 @@ So you started a job and it ended up failing. The result datasets are red in the
 
 What to do? It depends on the **failure type** and where you are using Galaxy. 
 
-In a rush to solve the problem? The top reasons for failures are listed [**here**](/src/support/index.md#input-format-getting-it-right-to-avoid-problems)
+***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/index.md#input-format-getting-it-right-to-avoid-problems). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Biostars posts, documentation, and/or Galaxy tutorials that include a solution.
 
-**TIPs**
+### Query all Galaxy resources with the "Search Galaxy" box above
 
- * The advice on this page is primarily about errors at [Galaxy Main](/src/main/index.md). 
- * In particular, the cluster help is server specific for http://usegalaxy.org. 
- * But good news! The general troubleshooting help applies to any Galaxy server/tool.
- * [Job details: bug and info dataset icons](/src/support/dataset-icons/index.md)
+### TIPS
+
+1. The advice on this page is primarily about errors at [Galaxy Main](/src/main/index.md). 
+1. In particular, the cluster help is server specific for http://usegalaxy.org. 
+1. But good news! The general troubleshooting help applies to most Galaxy servers/tools/functions.
+1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems if often necessary. Each Galaxy is independently administered.
 
 ## Determining the job failure type
 
@@ -32,7 +36,10 @@ Did the job fail with some comments that are not descriptive of the problem? Are
 
 Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help (here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Biostars](https://biostar.usegalaxy.org) to get things back on track *quickly*).
 
+Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+
 If you are still stuck after reviewing, please do send in the bug report and we can help.
+
 * Include a link to questions asked about the same problem that you may have posted online (example: at Galaxy Biostars)
 * Leave the input and output datasets undeleted
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
