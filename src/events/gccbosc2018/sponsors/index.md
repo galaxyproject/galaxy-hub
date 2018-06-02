@@ -63,6 +63,31 @@ Is your organization interested in playing a prominent role in the first joint g
       **[Childcare](/src/events/gccbosc2018/childcare/index.md) Sponsor**
     </td>
   </tr>
+  <tr style="text-align: center">
+    <td> <br /><br /> </td>
+  </tr>
+  <tr style="text-align: center">
+    <td>
+      [<img src="/src/images/logos/jetstream-logo-332.png" alt-"Advanced HPC" width="200" />](https://jetstream-cloud.org/)
+    </td>
+    <td style="width: 5%"> </td>
+    <td>
+    </td>
+    <td style="width: 8%"> </td>
+    <td>
+    </td>
+  </tr>
+  <tr style="text-align: center">
+    <td>
+      **[Intro to Galaxy Admin](http://sched.co/Dn2O) & [Galaxy for Proteogenomics](http://sched.co/Dn1V) Sponsor**
+    </td>
+    <td style="width: 5%"> </td>
+    <td>
+    </td>
+    <td style="width: 8%"> </td>
+    <td>
+    </td>
+  </tr>
 </table>
 
 # Interested?
