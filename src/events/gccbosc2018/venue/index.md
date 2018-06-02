@@ -54,37 +54,39 @@ Conference housing is on campus in two Reed College dorm complexes.
 
 ## Nightly rates
 
-Rooms costs drop per night the longer you stay:
+Rooms are available for single, double, and triple occupancy.  There are significant discounts for double and triple occupancy, and cost per night drops the longer you stay.
 
-### Single occupancy rates
+**Single rooms**
 
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
-| Sitka | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
+There are a limited number of single rooms, and they have sold out on a few nights already.
 
-### Double and triple rooms
+**Double and triple rooms**
 
-There are a limited number of double and triple occupancy rooms available in each block. **Shared rooms are discounted 20% for doubles, and 40% for triples.**  These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
+There are a limited number of double and triple occupancy rooms available in each block. These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
 
 * You and your roommate(s) need to both register for housing, and to request each other as roommates. 
 * Breakfast is included for all roommates. 
 * If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room. 
 * Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events).
 
-**Double occupancy rates per bed per night**
+**Rates per bed per night**
 
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
-| Sitka | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+In increasing order of cost:
 
-**Triple occupancy rates per bed per night**
-
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
-| Sitka | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+| Block | Occupancy | Booked | #Nights<br /> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ODB  | Triple   | By June 1     | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
+| ODB  | Triple   | After&nbsp;June&nbsp;1 | $56.76 | $48.85 | $46.21 | $44.89 | $44.10 | $43.57 | $43.19 | $42.91 | $42.69 | 
+| Sitka | Triple   | By June 1     | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+| Sitka | Triple   | After June 1 | $65.34 | $57.39 | $54.74 | $53.42 | $52.62 | $52.09 | $51.72 | | |
+| ODB  | Double | By June 1     | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
+| ODB  | Double | After June 1 | $75.68 | $65.13 | $61.61 | $59.85 | $58.79 | $58.09 | $57.59 | $57.21 | $56.92 |
+| Sitka | Double | By June 1     | $79.20 | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+| Sitka | Double | After June 1 | $87.12 | $76.52 | $72.99 | $71.23 | $70.17 | $69.46 | $68.96 | | |
+| ODB  | Single  | By June 1      | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
+| Sitka | Single  | By June 1      | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
+| ODB  | Single  | After June 1  | $114.38 | $98.43 | $93.11 | $90.46 | $88.86 | $87.80 | $87.04 | $86.47 | $86.02 |
+| Sitka | Single  | After June 1  | $131.67 | $115.66 | $110.32 | $107.65 | $106.05 | $104.98 | $104.22 | | |
 
 ### Guests
 
