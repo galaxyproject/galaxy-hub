@@ -20,7 +20,10 @@ If you have an infant and you want to have them with you during the day, then pl
 [<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
 </div>
 
-Subsidized childcare *([thank eLife and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
+
+***Note: We need to nail down our rooms by the end of this week.  Therefore registration for childcare will close this Friday, June 8.*** You will still be able to signup for a nursing room.
+
+Subsidized childcare *([thank you eLife and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
 
 * Lunch, snacks and beverages are provided for kids between 3 and 12.
 * We ask that parents bring pre-made bottles, and baby food and snacks for your infants and toddlers.
