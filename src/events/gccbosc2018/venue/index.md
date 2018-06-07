@@ -50,6 +50,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Minors are prohibited from staying in the dorms (see Other Options below)
 * Checkin during [conference desk hours](https://gccbosc2018.sched.com/grid/)
 * Checkin outside of conference desk hours is also possible by special arrangement.  [Contact Dave Clements](/src/people/dave-clements/index.md).
+* Please see the [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) for information on policies and rules while staying at Reed. 
 
 
 ## Nightly rates
