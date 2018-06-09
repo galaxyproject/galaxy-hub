@@ -44,7 +44,7 @@ title: Galaxy Support
 ### Help Guides
 
 * [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/blob/master/README.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
 ## Troubleshooting
