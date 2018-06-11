@@ -21,7 +21,7 @@ If you have an infant and you want to have them with you during the day, then pl
 </div>
 
 
-***Note: We need to nail down our rooms by the end of this week.  Therefore registration for childcare will close this Friday, June 8.*** You will still be able to signup for a nursing room.
+***Note: Registration for childcare closed Friday, June 8.*** You can still sign up for the nursing room.
 
 Subsidized childcare *([thank you eLife and ISB](/src/events/gccbosc2018/childcare/index.md#support-from-elife-and-isb)!)*  for kids ages 6 weeks to 12 years of age is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland. Little Vikings' goal is to provide a safe, comfortable, joyful experience.
 
@@ -36,10 +36,7 @@ Space is extremely limited.
 
 ### Register for Childcare
 
-**[Please use this form to signup for daycare](https://docs.google.com/forms/d/e/1FAIpQLSd0hcy41htUaXJi4Pcjcqlhpvws0YV_aoT0j1VXuq0kY9bwlw/viewform?c=0&w=1).**
-
-Once you have signed up, Little Vikings will contact you about payment.
-
+Registration for childcare closed Friday, June 8.
 
 ### Rates
 
