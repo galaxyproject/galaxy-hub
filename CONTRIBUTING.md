@@ -5,7 +5,7 @@
 The site content resides in the GitHub repository that you are in right now.  Content is formatted using (mostly)
 [GitHub Flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/) and the web site itself is rendered using the  [metalsmith](http://www.metalsmith.io/) static site generator.
 
-Anyone can update and add content to the site using "standard" GitHub and Git practices, and contributions are strongly encouraged.  If are already adept at Markdown, Git, and GitHub, you may want to skip to the **Deploying the site locally** section.  If you are unfamiliar with *any* of those items, then start with the [Basics]((#basics)
+Anyone can update and add content to the site using "standard" GitHub and Git practices, and contributions are strongly encouraged.  If are already adept at Markdown, Git, and GitHub, you may want to skip to the **Deploying the site locally** section.  If you are unfamiliar with *any* of those items, then start with the [Basics](#basics)
 
 **[Table of Contents](http://tableofcontent.eu)**
 
