@@ -68,10 +68,11 @@ Is your organization interested in playing a prominent role in the first joint g
   </tr>
   <tr style="text-align: center">
     <td>
-      [<img src="/src/images/logos/jetstream-logo-332.png" alt-"Advanced HPC" width="200" />](https://jetstream-cloud.org/)
+      [<img src="/src/images/logos/jetstream-logo-332.png" alt-"NSF Jetstream" width="200" />](https://jetstream-cloud.org/)
     </td>
     <td style="width: 5%"> </td>
     <td>
+      [<img src="/src/images/logos/iscb_logo.png" alt-"ISCB" width="200" />](https://www.iscb.org/)
     </td>
     <td style="width: 8%"> </td>
     <td>
@@ -83,6 +84,7 @@ Is your organization interested in playing a prominent role in the first joint g
     </td>
     <td style="width: 5%"> </td>
     <td>
+      **[ISCB Affiliated Conference](https://www.iscb.org/)**
     </td>
     <td style="width: 8%"> </td>
     <td>
