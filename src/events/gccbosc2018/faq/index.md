@@ -17,9 +17,13 @@ No, unfortunately the dorms are only available starting Sunday, June 24th. Pleas
 Yes, mail services is on the lower level of the Gray Campus Center (below commons) and is open from 9 a.m. to 4 p.m. Monday through Thursday, and from 9 a.m. to noon on Friday. USPS and FedEx shipping options are available. Incoming mail will not be delivered to dorms. Your dorm host will gladly notify your conference organizer when a package arrives for you. If you are receiving mail at Reed, please use the following address:  
  
 YOUR NAME 
+
 GCCBOSC conference
+
 Reed College 
+
 3203 SE Woodstock Blvd. 
+
 Portland OR 97202-8199
 
 ## Are there off-campus housing options?
