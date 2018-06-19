@@ -9,7 +9,7 @@ location_url:
 external_url:
 image: /src/events/2018-europe-dev/2018-europe-logo.small.png
 gtn: false
-contact: Hans-Rudolf Hotz, Björn Grüning
+contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 ---
 
 **[#EGD2018](https://twitter.com/hashtag/EGD2018)**
@@ -19,5 +19,5 @@ contact: Hans-Rudolf Hotz, Björn Grüning
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/index.md)
+Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/index.md) or [Jean-François Dufayard](/src/people/jeanfrancois-dufayard/index.md)
 
