@@ -12,6 +12,10 @@ Conference attendees 18 years or older, and their guests.  See [requirements for
 
 No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/src/events/gccbosc2018/venue/index.md#other-options) for other options off campus. 
 
+## Checking in after hours?
+Check in with Reed Community Safety, located at [28 West](http://www.reed.edu/facilities_services/reed_static_map.html), or call 503/517-5355 or text 503/849-8678. More info about Community Safety is here: https://www.reed.edu/community_safety/. 
+
+
 ## Can I have mail/a package delivered to me at Reed?
 
 Yes, mail services is on the lower level of the Gray Campus Center (below commons) and is open from 9 a.m. to 4 p.m. Monday through Thursday, and from 9 a.m. to noon on Friday. USPS and FedEx shipping options are available. Incoming mail will not be delivered to dorms. Your dorm host will gladly notify your conference organizer when a package arrives for you. If you are receiving mail at Reed, please use the following address:  
