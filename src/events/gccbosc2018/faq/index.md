@@ -13,8 +13,7 @@ Conference attendees 18 years or older, and their guests.  See [requirements for
 No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/src/events/gccbosc2018/venue/index.md#other-options) for other options off campus. 
 
 ## Checking in after hours?
-Check in with Reed Community Safety, located at [28 West](http://www.reed.edu/facilities_services/reed_static_map.html), or call 503/517-5355 or text 503/849-8678. More info about Community Safety is here: https://www.reed.edu/community_safety/. 
-
+If you are you picking up your key packet outside of the registration desk hours, your key packet will be available at Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: 5436 SE 28th Ave, Portland, OR 97202. 503/517-5355
 
 ## Can I have mail/a package delivered to me at Reed?
 
