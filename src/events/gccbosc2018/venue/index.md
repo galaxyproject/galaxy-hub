@@ -109,6 +109,8 @@ The conference is [offering subsidized childcare](/src/events/gccbosc2018/childc
 
 ## Public transportation
 
+Click [here](https://www.reed.edu/getting-to-reed.html) for information about getting to Reed. The address at Reed is: 3203 SE Woodstock Blvd. 
+
 [Trimet Public Transit](http://trimet.org/index.htm) provides bus, light rail, and commuter rail service in the Portland region. Their transportation options connect people with their community, while easing traffic congestion and reducing air pollution—making our region a better place to live.  See [Trimet](http://trimet.org/index.htm) for more information on fares, schedules, and maps.
 
 ## Towncars/Shuttles, Taxis:
