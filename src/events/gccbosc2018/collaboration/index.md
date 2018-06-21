@@ -6,6 +6,12 @@
 
 GCC BOSC 2018 will finish with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gather to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
+# Preparing for CoFest
+
+* [Add or expand the cluster ideas document](http://bit.ly/cofest2018-ideas)
+* [Add an introduction and indicate your preferred working clusters](http://bit.ly/cofest2018-intro)
+* Ask questions on the [Conference gitter channel](https://gitter.im/GCC-BOSC-2018/Lobby)
+
 # What's New: Core and Encore
 
 Both BOSC/OBF and GCC have had collaborative events in the past. We'll be continuing these traditions, but also trying some new things this year:
