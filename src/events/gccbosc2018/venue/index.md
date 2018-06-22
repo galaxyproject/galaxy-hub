@@ -150,6 +150,8 @@ Some [meals are included with registration and/or conference lodging](/src/event
 **[Gigantic Brewing](https://www.giganticbrewing.com/)** *- .8 miles from Reed College*<br />
 Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: make the best IPA in Portland, Oregon and produce seasonal, exciting, flavorful beers, most of which will be brewed only once. Our goal is simultaneously to create new interpretations of classic styles and to ignore those same style guidelines completely and brew whatever our creative natures produce. 
 
+Note - there are food carts next to Gigantic Brewing, which would be a good option if you wanted a quick meal.
+
 **[Bible Club](http://bibleclubpdx.com/)** *– 1.3 miles from Reed College*<br />
 Antiques-filled speakeasy serving inventive & classic cocktails plus small bites in stylish digs.
 
@@ -158,6 +160,9 @@ Happy Hour food and drink
 
 **[Double Mountain](http://www.doublemountainbrewery.com/taproom/woodstock-taproom/)** - *0.6 miles from Reed College*<br />
 Offshoot of a popular Hood River brewery serving craft beer, pizza, salads & sandwiches. This place is really popular and can get very crowded, but can accommodate fairly large groups.
+
+**[Laughing Planet](https://laughingplanetcafe.com/locations/]** - *0.5 miles from Reed College*<br/>
+Featuring burritos, bowls, etc using local ingredients. A good place for a quick meal.
 
 **Lutz Tavern** - *0.8 miles from Reed College*<br />
 A Reed hangout. Bar founded in 1947 but remodeled with new style, offering fresh-squeezed juices & hefty burgers.
