@@ -161,7 +161,7 @@ Happy Hour food and drink
 **[Double Mountain](http://www.doublemountainbrewery.com/taproom/woodstock-taproom/)** - *0.6 miles from Reed College*<br />
 Offshoot of a popular Hood River brewery serving craft beer, pizza, salads & sandwiches. This place is really popular and can get very crowded, but can accommodate fairly large groups.
 
-**[Laughing Planet](https://laughingplanetcafe.com/locations/]** - *0.5 miles from Reed College*<br/>
+**[Laughing Planet](https://laughingplanetcafe.com/locations)** - *0.5 miles from Reed College*<br/>
 Featuring burritos, bowls, etc using local ingredients. A good place for a quick meal.
 
 **Lutz Tavern** - *0.8 miles from Reed College*<br />
