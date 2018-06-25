@@ -1,8 +1,6 @@
 {{> Events/GCCBOSC2018/Header }}
 
-<div class='center' style="font-size: large;">
-**[Book housing now](https://gccbosc2018housing.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/).**
-</div><br />
+<br />
 
 # Welcome to Reed College and Portland, Oregon!
 
@@ -15,7 +13,11 @@ GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed
 * Reed Commons
 * Vollum College Center Lecture Hall and Classrooms
 
+*See the [online Reed Campus map](https://www.reed.edu/facilities_services/reed_static_map.html) and [the online conference map](https://drive.google.com/open?id=1rYNYrnJlS_cogqd1iQOef0BjEeCEjLPx&usp=sharing) for locations.*
+
 # Housing
+
+**Note: conference housing registration is now closed.**
 
 Conference housing is on campus in two Reed College dorm complexes.
 
@@ -28,7 +30,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Open for all events
 * Cheapest option
 
-## Sitka Block
+## Sitka (Grove) Block
 
 * A less than 10 minute walk to the conference venues
 * Newer dorms
@@ -78,16 +80,16 @@ In increasing order of cost:
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | ODB  | Triple   | By June 1     | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
 | ODB  | Triple   | After&nbsp;June&nbsp;1 | $56.76 | $48.85 | $46.21 | $44.89 | $44.10 | $43.57 | $43.19 | $42.91 | $42.69 | 
-| Sitka | Triple   | By June 1     | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
-| Sitka | Triple   | After June 1 | $65.34 | $57.39 | $54.74 | $53.42 | $52.62 | $52.09 | $51.72 | | |
+| Sitka (Grove) | Triple   | By June 1     | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+| Sitka (Grove) | Triple   | After June 1 | $65.34 | $57.39 | $54.74 | $53.42 | $52.62 | $52.09 | $51.72 | | |
 | ODB  | Double | By June 1     | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
 | ODB  | Double | After June 1 | $75.68 | $65.13 | $61.61 | $59.85 | $58.79 | $58.09 | $57.59 | $57.21 | $56.92 |
-| Sitka | Double | By June 1     | $79.20 | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
-| Sitka | Double | After June 1 | $87.12 | $76.52 | $72.99 | $71.23 | $70.17 | $69.46 | $68.96 | | |
+| Sitka (Grove) | Double | By June 1     | $79.20 | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+| Sitka (Grove) | Double | After June 1 | $87.12 | $76.52 | $72.99 | $71.23 | $70.17 | $69.46 | $68.96 | | |
 | ODB  | Single  | By June 1      | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
-| Sitka | Single  | By June 1      | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
+| Sitka (Grove) | Single  | By June 1      | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
 | ODB  | Single  | After June 1  | $114.38 | $98.43 | $93.11 | $90.46 | $88.86 | $87.80 | $87.04 | $86.47 | $86.02 |
-| Sitka | Single  | After June 1  | $131.67 | $115.66 | $110.32 | $107.65 | $106.05 | $104.98 | $104.22 | | |
+| Sitka (Grove) | Single  | After June 1  | $131.67 | $115.66 | $110.32 | $107.65 | $106.05 | $104.98 | $104.22 | | |
 
 ### Guests
 
