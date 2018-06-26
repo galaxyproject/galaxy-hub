@@ -51,7 +51,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Bring your own soap and shampoo
 * Minors are prohibited from staying in the dorms (see Other Options below)
 * Checkin during [conference desk hours](https://gccbosc2018.sched.com/grid/)
-* Checkin outside of conference desk hours is also possible by special arrangement.  [Contact Dave Clements](/src/people/dave-clements/index.md).
+* To checkin or checkout, outside of conference desk hours go to Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: [5436 SE 28th Ave, Portland, OR 97202](https://www.google.com/maps/d/viewer?mid=1rYNYrnJlS_cogqd1iQOef0BjEeCEjLPx&ll=45.48334080000003%2C-122.63702469999998&z=15). 503/517-5355.
 * Please see the [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) for information on policies and rules while staying at Reed. 
 
 
