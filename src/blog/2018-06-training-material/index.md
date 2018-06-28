@@ -87,7 +87,7 @@ Over the last year, we have improved the infrastructure. All the material is now
 
 To describe our effort, our training materials, and our philosophy, we wrote an article: [Community-driven data analysis training for biology](https://www.biorxiv.org/content/early/2017/11/29/225680). We submitted the preprint on [bioRxiv](https://www.biorxiv.org), got nice feedback, then submitted the full article on [Cell Systems](https://www.cell.com/cell-systems/home) and got it accepted there with positive reviews!
 
-So we are happy to say that the article should be published on the June issue!
+So we are happy to say that the article has been published on the [June issue](https://t.co/jIwWZ3qrrr)! 
 
 # An AWESOME Community!
 
