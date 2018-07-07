@@ -160,7 +160,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/admin/config/performance/production-server/index.md) with login enabled, please make sure you and your end-users are current.
 
-* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/tools/ToolDependencies/index.md).
+* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/config/tool-dependencies/index.md).
 
 # Additional Info
 
