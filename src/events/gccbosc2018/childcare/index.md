@@ -2,11 +2,21 @@
 
 # Childcare at GCCBOSC
 
-<img class="pull-right" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />
+<div class="pull-left">
+<img src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  /></div>
 
-The Galaxy Community and Bioinformatics Open Source Conference aims to make events accessible to parents. If you will be bringing kids along then please consider taking advantage of the services that GCCBOSC is offering.
+<div class="pull-right">
+[<img src="/src/events/gccbosc2018/childcare/cris-myhero-tweet.png" alt="Cris Thomas presenting ImmPort at GCCBOSC 2018" width="200" />](https://twitter.com/pattysnick/status/1012769006703411201)<br />
+[Cris Thomas](https://twitter.com/crstlthms) presenting at<br />
+GCCBOSC (and by far the<br />
+event's most popular tweet)
+</div>
 
-Support is offered for everyone from nursing infants though 12 year olds.
+The Galaxy Community and Bioinformatics Open Source Conference aimed to make events accessible to parents. We encouraged people to bring their kids and to please take advantage of the services that GCCBOSC offered.
+
+Support was offered for everyone from nursing infants though 12 year olds and was quite successful.  One of the keynote speakers was able to attend and present because of the availability of childcare, and another speaker presented her talk with her 4 month old asleep on her chest.
+
+----
 
 ## Infants and Nursing Parents
 
@@ -16,8 +26,8 @@ If you have an infant and you want to have them with you during the day, then pl
 
 ## Childcare
 
-<div class="pull-right">
-[<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="200" />](http://www.littlevikings.org/)
+<div class="pull-left">
+[<img src="/src/events/gccbosc2018/faq/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="140" />](http://www.littlevikings.org/)
 </div>
 
 
