@@ -4,13 +4,9 @@ title: 2018 GCCBOSC2018 Conferences: Register
 
 {{> Events/GCCBOSC2018/Header }}
 
-<div class='center' style="font-size: large;">
-**[Register now](https://gccbosc2018.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/).**
-</div>
+[GCCBOSC2018](https://gccbosc2018.sched.com/) was held 25-30 June in Portland, Oregon, United States.
 
-[GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States.  The [first day of training](https://gccbosc2018.sched.com/2018-06-25/overview/) is focused on Galaxy and offers two introductory tracks, one for researchers analyzing their data, and one for Galaxy admins.
-
-GCCBOSC 2018 features several events:
+GCCBOSC 2018 featured several events:
 
 * [Galaxy Training Day](https://gccbosc2018.sched.com/2018-06-25/overview/), Monday, June 25
 * [All topics Training Day](https://gccbosc2018.sched.com/2018-06-26/overview/), Tuesday, June 26
@@ -18,7 +14,6 @@ GCCBOSC 2018 features several events:
 * [CollaborationFest: Core](/src/events/gccbosc2018/collaboration/index.md), Friday-Saturday, June 29-30
 * [CollaborationFest: Encore](/src/events/gccbosc2018/collaboration/index.md), Sunday-Monday, July 1-2
 
-You can pick and chose which events you'll attend when you register.  
 
 # Rates
 

@@ -4,7 +4,9 @@
 
 <img class="pull-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
-GCC BOSC 2018 will finish with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gather to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
+GCCBOSC 2018 finished with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gathered to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
+
+----
 
 # Preparing for CoFest
 

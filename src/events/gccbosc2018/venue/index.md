@@ -4,7 +4,7 @@
 
 # Welcome to Reed College and Portland, Oregon!
 
-All GCCBOSC 2018 events will be at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland), Oregon.
+All GCCBOSC 2018 events were at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland), Oregon.
 
 GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed.edu/cep/venues/index.html):
 
