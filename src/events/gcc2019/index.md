@@ -1,7 +1,9 @@
 <div class="center">
+ <img class="img-responsive" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />
  <div style="font-size: x-large;"> **2019 Galaxy Community Conference (GCC2019)** </div><br />
  <div style="font-size: large;">Freiburg, Germany, 1-6 July 2019 </div>
- </div>
+</div>
+
 
 <br />
 
