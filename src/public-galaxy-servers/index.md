@@ -43,5 +43,5 @@ ToolSheds](/src/toolsheds/public-toolsheds/index.md).
 
 [**Public Server Dashboard**](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers)
 
-The folks are Freiburg have put together a [public Galaxy server dashboard](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers) to track the status and some of the supported features of the servers listed here.  See the [blog post](/src/blog/2017-10-public-galaxy-dashboard/index.md) for more info.
+The folks are Freiburg have put together a [public Galaxy server dashboard](https://stats.usegalaxy.eu/d/000000020/public-galaxy-servers?orgId=1) to track the status and some of the supported features of the servers listed here.  See the [blog post](/src/blog/2017-10-public-galaxy-dashboard/index.md) for more info.
 
