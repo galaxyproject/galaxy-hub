@@ -1,3 +1,3 @@
 ---
-redirect: "admin/config/tool-dependencies/index.md"
+redirect: "/admin/config/tool-dependencies"
 ---
