@@ -6,11 +6,11 @@ If you are new to Galaxy and want to administer your own service read the [Ten S
 
 ## Setup admin user
 
-To give a Galaxy user admin privileges you have to add their Galaxy login ( email ) to the Galaxy configuration file `config/galaxy.ini`. If the file does not exist yet you can create it from the provided sample (`config/galaxy.ini.sample`). Make sure you rename it correctly. Note that you have to restart Galaxy after modifying the configuration for changes to take effect. Also make sure you don't specify it twice - the line with `admin_users` is already present in every sample config and should be there only once.
+To give a Galaxy user admin privileges you have to add their Galaxy login ( email ) to the Galaxy configuration file `config/galaxy.yml`. If the file does not exist yet you can create it from the provided sample (`config/galaxy.yml.sample`). Make sure you rename it correctly. Note that you have to restart Galaxy after modifying the configuration for changes to take effect. Also make sure you don't specify it twice - the line with `admin_users` is already present in every sample config and should be there only once.
 
 ```
 # this should be a comma-separated list of valid Galaxy users
-admin_users = user1@example.com,user2@example.com
+admin_users: user1@example.com,user2@example.com
 ```
 
 When an admin user logs into Galaxy, they will see an "Admin" menu item in the top Galaxy menu bar which will take them to the Galaxy Admin page with an administration panel.
