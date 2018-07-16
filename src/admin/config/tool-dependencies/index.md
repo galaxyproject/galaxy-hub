@@ -23,15 +23,15 @@ bowtie is /galaxy/software/linux2.6-x86_64/bin/bowtie
 ```
 
 
-#### Galaxy-specific environment file
+### Galaxy-specific environment file
 
 The galaxy configuration file contains an option `environment_setup_file` that if set to the path of a file, will cause that file to be sourced prior to running a job. You may find it more convenient to persist your environment changes in this file as opposed to the user's startup files due to the complications described below.
 
-#### Local Jobs
+### Local Jobs
 
 Changes to `$PATH` can be persisted by setting them in your shell's startup file(s).  This typically means `~/.bash_profile` for bash, but please see the [bash documentation on startup files](http://www.gnu.org/software/bash/manual/bashref.html#Bash-Startup-Files) or the **INVOCATION** section of the `bash(1) man` page to understand the intricacies of how that file is read.  Of particular importance, if you are starting Galaxy in a method other than manual invocation from a shell prompt (with `sh run.sh`) such as with an init script, it is likely that your startup file will not be read.  In this instance, you should set `$PATH` in the startup file or use.
 
-#### Cluster Jobs
+### Cluster Jobs
 
 Setting `$PATH` in your shell startup files may work depending on your DRM - this is how we set up the environment for the [Public Galaxy Site](http://usegalaxy.org/) which runs TORQUE PBS.  However, this may not work for other DRMs such as Sun Grid Engine (SGE).  For SGE, please see the `-v` and `-V` options to [qsub](http://gridscheduler.sourceforge.net/htmlman/htmlman1/qsub.html) and how to set these in [sge_request](http://gridscheduler.sourceforge.net/htmlman/htmlman5/sge_request.html) or [the job runner URL](/src/admin/config/performance/cluster/index.md).
 
@@ -59,7 +59,7 @@ $ ln -s 0.12.7 default
 ```
 
 
-#### Using the bin/ subdirectory
+### Using the bin/ subdirectory
 
 Since most *nix tools install to a `bin/` subdirectory of their package root, a simple shortcut exists for installing tools directly into the `tool_dependency_dir`.  With the bowtie example above, simply:
 
@@ -74,7 +74,7 @@ In this case, Galaxy will prepend `<tool_dependency_dir>/bowtie/0.12.7/bin` to `
 
 If you prefer, you could also symlink the `bin/` directory to the location of your bowtie bin directory if you already have bowtie installed elsewhere on your system, or symlink the `0.12.7` directory to the location of the real bin directory's parent directory.
 
-#### Using the env.sh file
+### Using the env.sh file
 
 For more complete control over how the environment is configured, you can instead choose to create an `env.sh` file.  This is a file that is sourced (**not** executed) by the shell to set up any appropriate environment variables needed to execute the software.  In the bowtie example, this would be `<tool_dependency_dir>/bowtie/0.12.7/env.sh` and would look like this:
 
