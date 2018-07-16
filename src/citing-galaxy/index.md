@@ -47,7 +47,8 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### Cloud
 
-* [Enis Afgan](/src/people/enis-afgan/index.md), Brad Chapman and [James Taylor](/src/people/james-taylor/index.md). **[CloudMan as a platform for tool, data, and analysis distribution](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-315)**. *BMC Bioinformatics* (2012) 13:315 doi:10.1186/1471-2105-13-315
+*  [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.
+**[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
 ### Data Managers
 
@@ -80,7 +81,9 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 ### 2018
 
 1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
-
+1. [Anton Nekrutenko](/src/people/anton/index.md),  [Galaxy Team](/src/galaxy-team/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Daniel Blankenberg](/src/people/dan/index.md), **[Biology Needs Evolutionary Software Tools: Let’s Build Them Right](https://doi.org/10.1093/molbev/msy084)**, *Molecular Biology and Evolution*, Volume 35, Issue 6, 1 June 2018, Pages 1372–1375, doi:10.1093/molbev/msy084
+1. [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.
+**[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
 ### 2017
 
