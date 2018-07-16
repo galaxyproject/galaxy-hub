@@ -8,8 +8,7 @@ A list of dependencies for unmigrated tools can be found on the [Admin/Tools/Too
 
 ### $PATH
 
-```$PATH```
- is the shell environment variable that instructs the shell (i.e. bash) what directories to search for binaries.  Originally, Galaxy expected all binaries to be located on the `$PATH` set when the Galaxy server starts.  This is still an acceptable method to provide dependencies to Galaxy.  You can manipulate this variable as in this example:
+`$PATH` is the shell environment variable that instructs the shell (i.e. bash) what directories to search for binaries.  Originally, Galaxy expected all binaries to be located on the `$PATH` set when the Galaxy server starts.  This is still an acceptable method to provide dependencies to Galaxy.  You can manipulate this variable as in this example:
 
 ```sh
 $ echo $PATH
