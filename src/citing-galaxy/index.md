@@ -60,7 +60,8 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### Reproducibility
 
- * Geir Kjetil Sandve, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md), Eivind Hovig. **[Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)**. *PLoS Computational Biology* (2013) 9(10): e1003285 doi:10.1371/journal.pcbi.1003285
+* [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md).
+**[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
 ### ToolShed
 
@@ -84,6 +85,8 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 1. [Anton Nekrutenko](/src/people/anton/index.md),  [Galaxy Team](/src/galaxy-team/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Daniel Blankenberg](/src/people/dan/index.md), **[Biology Needs Evolutionary Software Tools: Let’s Build Them Right](https://doi.org/10.1093/molbev/msy084)**, *Molecular Biology and Evolution*, Volume 35, Issue 6, 1 June 2018, Pages 1372–1375, doi:10.1093/molbev/msy084
 1. [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.
 **[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md).
+**[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
 ### 2017
 
