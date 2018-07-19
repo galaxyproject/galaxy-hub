@@ -19,7 +19,7 @@ So you started a job and it ended up failing. The result datasets are red in the
 
 What to do? It depends on the **failure type** and where you are using Galaxy. 
 
-***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/index.md#input-format-getting-it-right-to-avoid-problems). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Biostars posts, documentation, and/or Galaxy tutorials that include a solution.
+***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Biostars posts, documentation, and/or Galaxy tutorials that include a solution.
 
 ### Query all Galaxy resources with the "Search Galaxy" box above
 
@@ -28,7 +28,8 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 1. The advice on this page is primarily about errors at [Galaxy Main](/src/main/index.md). 
 1. In particular, the cluster help is server specific for http://usegalaxy.org. 
 1. But good news! The general troubleshooting help applies to most Galaxy servers/tools/functions.
-1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems if often necessary. Each Galaxy is independently administered.
+1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems is often necessary. Each Galaxy is independently administered.
+1. Most if not all input problems would result in errors whether the tools were used in Galaxy or line-command. Learning how to properly prepare data is worth learning and Galaxy is a friendly place to experiment.
 
 ## Determining the job failure type
 
@@ -175,8 +176,8 @@ Sometimes the execution time of a job can be shorted by adjusting the inputs, pa
 
 * Rerunning the job is often the only way forward. 
 * Give a longer-running cluster a try.
-* If the re-run fails again, and there are no known server issues, the issue is probably not cluster/server related but an input problem that needs to be corrected.
-* In some cases, reporting the memory or wall-time issue to our team as a bug report is a good way to let us know about tools that run out of resource. Please have the expectation that we cannot probably not solve your issue immediately, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
+* If the re-run fails again, and there are no known server issues, the issue is probably not cluster/server related but an input problem that needs to be corrected. 
+* In some cases, reporting the memory or wall-time issue to our team as a bug report is a good way to let us know about tools that run out of resource. Please have the expectation that we probably can not solve your specific issue immediately, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
 * If the job remains too large to run at [Galaxy Main](/src/main/index.md)(http://usegalaxy.org)(http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
 
 #### Special cases - memory or walltime
