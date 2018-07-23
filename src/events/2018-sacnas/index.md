@@ -25,13 +25,13 @@ These hands-on workshops teach basic concepts, skills and tools for working more
 
 # Registration
 
-[Registration](http://bit.ly/sacnas-data-reg-2018) is *free* but space is limited.  You are strongly encouraged to register soon.
+[Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
 
-**[Register Now](http://bit.ly/sacnas-data-reg-2018)**
+**[Register Now](https://sacnas-data.eventbrite.com/)**
 
 # Travel Scholarships
 
-The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops.  Space is limited, and once the funds are allocated, they are gone. [Register Now](http://bit.ly/sacnas-data-reg-2018)
+The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops.  Space is limited, and once the funds are allocated, they are gone. [Register Now](https://sacnas-data.eventbrite.com/
 
 
 # Workshop 1: Software and Data Carpentry
