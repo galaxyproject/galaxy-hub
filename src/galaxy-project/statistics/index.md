@@ -76,23 +76,23 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
     <th> Year </th>
     <th> # Pubs </th>
     <th> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Meth-ods</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">Use-Public</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">Use-Main</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">Tools</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">Use-Local</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">Ref-Public</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">Is-Galaxy</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">Cloud</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">Repro-duci-bility</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">Oth-er</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">Shar-ed</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">Un-known</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">How-To</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">Pro-ject</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">Visu-aliza-tion</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">Use-Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">+Meth-ods</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">+Work-bench</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">+Use-Public</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">+Use-Main</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">+Tools</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">+Ref-Public</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">+Use-Local</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">+Is-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">+Repro-duci-bility</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">+Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">+Oth-er</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">+Shar-ed</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">+Un-known</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">+How-To</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">+Pro-ject</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">+Visu-aliza-tion</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">+Use-Cloud</a> </th>
   </tr>
   <tr>
     <th> 2005 </th>
@@ -121,7 +121,7 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
     <td  style="text-align: right; background-color: #e0f3e0;" > 4 </td>
     <td> </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td >  </td>
     <td >  </td>
     <td >  </td>
@@ -140,10 +140,11 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
   </tr>
   <tr>
     <th> 2007 </th>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
+    <td  style="text-align: right; background-color: #ceedce;" > 12 </td>
     <td> </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
+    <td >  </td>
     <td >  </td>
     <td >  </td>
     <td >  </td>
@@ -154,7 +155,6 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
     <td >  </td>
     <td >  </td>
     <td >  </td>
-    <td >  </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
     <td >  </td>
@@ -162,10 +162,10 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
   </tr>
   <tr>
     <th> 2008 </th>
-    <td  style="text-align: right; background-color: #bbe5bb;" > 32 </td>
+    <td  style="text-align: right; background-color: #bce6bc;" > 32 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #c9ebc9;" > 15 </td>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 15 </td>
+    <td  style="text-align: right; background-color: #ceedce;" > 12 </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
     <td >  </td>
@@ -184,13 +184,13 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
   </tr>
   <tr>
     <th> 2009 </th>
-    <td  style="text-align: right; background-color: #b2e2b2;" > 52 </td>
+    <td  style="text-align: right; background-color: #b3e2b3;" > 52 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #bfe7bf;" > 26 </td>
-    <td  style="text-align: right; background-color: #c6e9c6;" > 18 </td>
+    <td  style="text-align: right; background-color: #c0e7c0;" > 26 </td>
+    <td  style="text-align: right; background-color: #c7eac7;" > 18 </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td >  </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
@@ -206,225 +206,226 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
   </tr>
   <tr>
     <th> 2010 </th>
-    <td  style="text-align: right; background-color: #a4dda4;" > 107 </td>
+    <td  style="text-align: right; background-color: #a6dda6;" > 107 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #b3e2b3;" > 50 </td>
-    <td  style="text-align: right; background-color: #b9e5b9;" > 36 </td>
+    <td  style="text-align: right; background-color: #b4e3b4;" > 50 </td>
+    <td  style="text-align: right; background-color: #bae5ba;" > 36 </td>
     <td >  </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
     <td >  </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
-    <td  style="text-align: right; background-color: #dcf2dc;" > 5 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
     <td >  </td>
     <td >  </td>
   </tr>
   <tr>
     <th> 2011 </th>
-    <td  style="text-align: right; background-color: #98d898;" > 205 </td>
+    <td  style="text-align: right; background-color: #99d999;" > 205 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #a7dea7;" > 93 </td>
-    <td  style="text-align: right; background-color: #ace0ac;" > 70 </td>
+    <td  style="text-align: right; background-color: #a8dea8;" > 93 </td>
+    <td  style="text-align: right; background-color: #aee0ae;" > 70 </td>
     <td >  </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
     <td >  </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #c8eac8;" > 16 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
-    <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
+    <td  style="text-align: right; background-color: #c9ebc9;" > 16 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td  style="text-align: right; background-color: #e0f3e0;" > 4 </td>
-    <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
     <td >  </td>
   </tr>
   <tr>
     <th> 2012 </th>
-    <td  style="text-align: right; background-color: #8bd38b;" > 397 </td>
+    <td  style="text-align: right; background-color: #8dd48d;" > 397 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #98d898;" > 196 </td>
-    <td  style="text-align: right; background-color: #a1dba1;" > 128 </td>
+    <td  style="text-align: right; background-color: #9ad99a;" > 196 </td>
+    <td  style="text-align: right; background-color: #a2dca2;" > 128 </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
-    <td  style="text-align: right; background-color: #bce6bc;" > 30 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #bde6bd;" > 30 </td>
     <td >  </td>
-    <td  style="text-align: right; background-color: #c9ebc9;" > 15 </td>
-    <td  style="text-align: right; background-color: #cceccc;" > 13 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 15 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 9 </td>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
-    <td  style="text-align: right; background-color: #d0edd0;" > 10 </td>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
-    <td  style="text-align: right; background-color: #d0edd0;" > 10 </td>
+    <td  style="text-align: right; background-color: #cdeccd;" > 13 </td>
+    <td  style="text-align: right; background-color: #d3eed3;" > 9 </td>
+    <td  style="text-align: right; background-color: #ceedce;" > 12 </td>
+    <td  style="text-align: right; background-color: #d1eed1;" > 10 </td>
+    <td  style="text-align: right; background-color: #ceedce;" > 12 </td>
+    <td  style="text-align: right; background-color: #d1eed1;" > 10 </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
     <td >  </td>
   </tr>
   <tr>
     <th> 2013 </th>
-    <td  style="text-align: right; background-color: #86d186;" > 499 </td>
+    <td  style="text-align: right; background-color: #88d288;" > 500 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #93d693;" > 262 </td>
-    <td  style="text-align: right; background-color: #9eda9e;" > 150 </td>
-    <td  style="text-align: right; background-color: #c8eac8;" > 16 </td>
-    <td  style="text-align: right; background-color: #a7dea7;" > 91 </td>
-    <td  style="text-align: right; background-color: #b8e4b8;" > 37 </td>
-    <td  style="text-align: right; background-color: #bee6be;" > 28 </td>
-    <td  style="text-align: right; background-color: #d0edd0;" > 10 </td>
-    <td  style="text-align: right; background-color: #bee7be;" > 27 </td>
-    <td  style="text-align: right; background-color: #c2e8c2;" > 22 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 9 </td>
-    <td  style="text-align: right; background-color: #c2e8c2;" > 22 </td>
-    <td  style="text-align: right; background-color: #cceccc;" > 13 </td>
+    <td  style="text-align: right; background-color: #94d794;" > 263 </td>
+    <td  style="text-align: right; background-color: #9fdb9f;" > 150 </td>
+    <td  style="text-align: right; background-color: #c9ebc9;" > 16 </td>
+    <td  style="text-align: right; background-color: #a8dea8;" > 92 </td>
+    <td  style="text-align: right; background-color: #b9e5b9;" > 37 </td>
+    <td  style="text-align: right; background-color: #d1eed1;" > 10 </td>
+    <td  style="text-align: right; background-color: #bfe7bf;" > 28 </td>
+    <td  style="text-align: right; background-color: #bfe7bf;" > 27 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
+    <td  style="text-align: right; background-color: #c3e8c3;" > 22 </td>
+    <td  style="text-align: right; background-color: #d3eed3;" > 9 </td>
+    <td  style="text-align: right; background-color: #c3e8c3;" > 22 </td>
+    <td  style="text-align: right; background-color: #cdeccd;" > 13 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
   </tr>
   <tr>
     <th> 2014 </th>
-    <td  style="text-align: right; background-color: #7fcf7f;" > 734 </td>
+    <td  style="text-align: right; background-color: #81cf81;" > 734 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #8ed58e;" > 330 </td>
-    <td  style="text-align: right; background-color: #96d796;" > 224 </td>
-    <td  style="text-align: right; background-color: #b0e1b0;" > 59 </td>
-    <td  style="text-align: right; background-color: #a6dda6;" > 97 </td>
-    <td  style="text-align: right; background-color: #ade0ad;" > 67 </td>
-    <td  style="text-align: right; background-color: #b6e3b6;" > 43 </td>
-    <td  style="text-align: right; background-color: #bee6be;" > 28 </td>
-    <td  style="text-align: right; background-color: #b4e3b4;" > 47 </td>
-    <td  style="text-align: right; background-color: #b7e4b7;" > 40 </td>
-    <td  style="text-align: right; background-color: #c0e7c0;" > 25 </td>
-    <td  style="text-align: right; background-color: #b7e4b7;" > 40 </td>
-    <td  style="text-align: right; background-color: #c1e8c1;" > 23 </td>
+    <td  style="text-align: right; background-color: #90d590;" > 330 </td>
+    <td  style="text-align: right; background-color: #98d898;" > 224 </td>
+    <td  style="text-align: right; background-color: #b1e1b1;" > 59 </td>
+    <td  style="text-align: right; background-color: #a7dea7;" > 97 </td>
+    <td  style="text-align: right; background-color: #aee1ae;" > 67 </td>
+    <td  style="text-align: right; background-color: #bfe7bf;" > 28 </td>
+    <td  style="text-align: right; background-color: #b7e4b7;" > 43 </td>
+    <td  style="text-align: right; background-color: #b5e3b5;" > 47 </td>
+    <td  style="text-align: right; background-color: #c1e8c1;" > 25 </td>
+    <td  style="text-align: right; background-color: #b8e4b8;" > 40 </td>
+    <td  style="text-align: right; background-color: #b8e4b8;" > 40 </td>
+    <td  style="text-align: right; background-color: #c2e8c2;" > 23 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #cfedcf;" > 11 </td>
+    <td  style="text-align: right; background-color: #d0edd0;" > 11 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
   </tr>
   <tr>
     <th> 2015 </th>
-    <td  style="text-align: right; background-color: #7acd7a;" > 923 </td>
+    <td  style="text-align: right; background-color: #7cce7c;" > 924 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #88d288;" > 470 </td>
-    <td  style="text-align: right; background-color: #95d795;" > 233 </td>
-    <td  style="text-align: right; background-color: #9fdb9f;" > 137 </td>
-    <td  style="text-align: right; background-color: #a3dca3;" > 116 </td>
-    <td  style="text-align: right; background-color: #ade0ad;" > 67 </td>
-    <td  style="text-align: right; background-color: #b0e1b0;" > 59 </td>
-    <td  style="text-align: right; background-color: #b2e2b2;" > 51 </td>
-    <td  style="text-align: right; background-color: #b3e3b3;" > 48 </td>
-    <td  style="text-align: right; background-color: #b3e3b3;" > 48 </td>
-    <td  style="text-align: right; background-color: #c1e8c1;" > 23 </td>
-    <td  style="text-align: right; background-color: #bae5ba;" > 34 </td>
-    <td  style="text-align: right; background-color: #c1e8c1;" > 23 </td>
-    <td  style="text-align: right; background-color: #caebca;" > 14 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
-    <td  style="text-align: right; background-color: #cfedcf;" > 11 </td>
+    <td  style="text-align: right; background-color: #89d389;" > 470 </td>
+    <td  style="text-align: right; background-color: #97d897;" > 233 </td>
+    <td  style="text-align: right; background-color: #a1dba1;" > 137 </td>
+    <td  style="text-align: right; background-color: #a4dda4;" > 116 </td>
+    <td  style="text-align: right; background-color: #aee1ae;" > 67 </td>
+    <td  style="text-align: right; background-color: #b4e3b4;" > 51 </td>
+    <td  style="text-align: right; background-color: #b1e1b1;" > 59 </td>
+    <td  style="text-align: right; background-color: #b5e3b5;" > 48 </td>
+    <td  style="text-align: right; background-color: #c1e8c1;" > 24 </td>
+    <td  style="text-align: right; background-color: #b5e3b5;" > 48 </td>
+    <td  style="text-align: right; background-color: #bbe5bb;" > 34 </td>
+    <td  style="text-align: right; background-color: #c2e8c2;" > 23 </td>
+    <td  style="text-align: right; background-color: #cbebcb;" > 14 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
+    <td  style="text-align: right; background-color: #d0edd0;" > 11 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
   </tr>
   <tr>
     <th> 2016 </th>
-    <td  style="text-align: right; background-color: #77cc77;" > 1113 </td>
+    <td  style="text-align: right; background-color: #79cc79;" > 1115 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #84d184;" > 570 </td>
-    <td  style="text-align: right; background-color: #94d794;" > 246 </td>
-    <td  style="text-align: right; background-color: #97d897;" > 208 </td>
-    <td  style="text-align: right; background-color: #a3dca3;" > 113 </td>
-    <td  style="text-align: right; background-color: #abdfab;" > 73 </td>
-    <td  style="text-align: right; background-color: #abdfab;" > 73 </td>
-    <td  style="text-align: right; background-color: #a4dda4;" > 110 </td>
-    <td  style="text-align: right; background-color: #b4e3b4;" > 46 </td>
-    <td  style="text-align: right; background-color: #b9e5b9;" > 36 </td>
-    <td  style="text-align: right; background-color: #b6e3b6;" > 43 </td>
-    <td  style="text-align: right; background-color: #b3e2b3;" > 49 </td>
-    <td  style="text-align: right; background-color: #c4e9c4;" > 20 </td>
-    <td  style="text-align: right; background-color: #caebca;" > 14 </td>
-    <td  style="text-align: right; background-color: #c5e9c5;" > 19 </td>
+    <td  style="text-align: right; background-color: #86d186;" > 572 </td>
+    <td  style="text-align: right; background-color: #96d796;" > 246 </td>
+    <td  style="text-align: right; background-color: #99d899;" > 210 </td>
+    <td  style="text-align: right; background-color: #a5dda5;" > 113 </td>
+    <td  style="text-align: right; background-color: #ade0ad;" > 73 </td>
+    <td  style="text-align: right; background-color: #a5dda5;" > 110 </td>
+    <td  style="text-align: right; background-color: #ade0ad;" > 73 </td>
+    <td  style="text-align: right; background-color: #b5e3b5;" > 46 </td>
+    <td  style="text-align: right; background-color: #b7e4b7;" > 43 </td>
+    <td  style="text-align: right; background-color: #bae5ba;" > 36 </td>
+    <td  style="text-align: right; background-color: #b4e3b4;" > 49 </td>
+    <td  style="text-align: right; background-color: #c5e9c5;" > 20 </td>
+    <td  style="text-align: right; background-color: #cbebcb;" > 14 </td>
+    <td  style="text-align: right; background-color: #c6e9c6;" > 19 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 9 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
+    <td  style="text-align: right; background-color: #d3eed3;" > 9 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
   </tr>
   <tr>
     <th> 2017 </th>
-    <td  style="text-align: right; background-color: #74cb74;" > 1265 </td>
+    <td  style="text-align: right; background-color: #76cb76;" > 1314 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #7fcf7f;" > 737 </td>
-    <td  style="text-align: right; background-color: #97d897;" > 212 </td>
-    <td  style="text-align: right; background-color: #92d692;" > 267 </td>
-    <td  style="text-align: right; background-color: #a0dba0;" > 135 </td>
-    <td  style="text-align: right; background-color: #aadfaa;" > 77 </td>
-    <td  style="text-align: right; background-color: #a6dea6;" > 96 </td>
-    <td  style="text-align: right; background-color: #a5dda5;" > 104 </td>
-    <td  style="text-align: right; background-color: #ade0ad;" > 67 </td>
-    <td  style="text-align: right; background-color: #c1e7c1;" > 24 </td>
-    <td  style="text-align: right; background-color: #ace0ac;" > 71 </td>
-    <td  style="text-align: right; background-color: #bee6be;" > 28 </td>
-    <td  style="text-align: right; background-color: #c2e8c2;" > 22 </td>
-    <td  style="text-align: right; background-color: #c1e8c1;" > 23 </td>
+    <td  style="text-align: right; background-color: #80cf80;" > 753 </td>
+    <td  style="text-align: right; background-color: #97d897;" > 232 </td>
+    <td  style="text-align: right; background-color: #93d693;" > 277 </td>
+    <td  style="text-align: right; background-color: #a1dba1;" > 137 </td>
+    <td  style="text-align: right; background-color: #ace0ac;" > 77 </td>
+    <td  style="text-align: right; background-color: #a6dda6;" > 107 </td>
+    <td  style="text-align: right; background-color: #a7dea7;" > 97 </td>
+    <td  style="text-align: right; background-color: #aee0ae;" > 69 </td>
+    <td  style="text-align: right; background-color: #ade0ad;" > 74 </td>
+    <td  style="text-align: right; background-color: #bde6bd;" > 31 </td>
+    <td  style="text-align: right; background-color: #bee6be;" > 29 </td>
+    <td  style="text-align: right; background-color: #c2e8c2;" > 23 </td>
+    <td  style="text-align: right; background-color: #c2e8c2;" > 23 </td>
+    <td  style="text-align: right; background-color: #d5efd5;" > 8 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
     <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d7f0d7;" > 7 </td>
-    <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
   </tr>
   <tr>
     <th> 2018 </th>
-    <td  style="text-align: right; background-color: #a3dca3;" > 111 </td>
+    <td  style="text-align: right; background-color: #7ece7e;" > 849 </td>
     <td> </td>
-    <td  style="text-align: right; background-color: #aee0ae;" > 64 </td>
-    <td  style="text-align: right; background-color: #bfe7bf;" > 26 </td>
-    <td  style="text-align: right; background-color: #c1e8c1;" > 23 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
+    <td  style="text-align: right; background-color: #87d287;" > 546 </td>
+    <td  style="text-align: right; background-color: #a2dca2;" > 128 </td>
+    <td  style="text-align: right; background-color: #9ad99a;" > 198 </td>
+    <td  style="text-align: right; background-color: #a8dea8;" > 93 </td>
+    <td  style="text-align: right; background-color: #bee6be;" > 29 </td>
+    <td  style="text-align: right; background-color: #aee0ae;" > 69 </td>
+    <td  style="text-align: right; background-color: #afe1af;" > 66 </td>
+    <td  style="text-align: right; background-color: #c1e8c1;" > 25 </td>
+    <td  style="text-align: right; background-color: #b8e4b8;" > 40 </td>
+    <td  style="text-align: right; background-color: #cdeccd;" > 13 </td>
+    <td  style="text-align: right; background-color: #d0edd0;" > 11 </td>
+    <td  style="text-align: right; background-color: #ceedce;" > 12 </td>
+    <td  style="text-align: right; background-color: #c8eac8;" > 17 </td>
+    <td  style="text-align: right; background-color: #cdeccd;" > 13 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
     <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
-    <td  style="text-align: right; background-color: #cdeccd;" > 12 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 8 </td>
-    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
-    <td >  </td>
-    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
-    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #e4f5e4;" > 3 </td>
-    <td  style="text-align: right; background-color: #e0f3e0;" > 4 </td>
-    <td  style="text-align: right; background-color: #d9f1d9;" > 6 </td>
-    <td >  </td>
-    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td >  </td>
   </tr>
   <tr>
     <th> Total </th>
-    <th  style="text-align: right; background-color: #58c058;" > 5455 </th>
+    <th  style="text-align: right; background-color: #58c058;" > 6246 </th>
     <th> </th>
-    <th  style="text-align: right; background-color: #65c565;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">2815</a> </th>
-    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1365</a> </th>
-    <th  style="text-align: right; background-color: #80cf80;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">711</a> </th>
-    <th  style="text-align: right; background-color: #84d184;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">565</a> </th>
-    <th  style="text-align: right; background-color: #8cd48c;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">365</a> </th>
-    <th  style="text-align: right; background-color: #8fd58f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">314</a> </th>
-    <th  style="text-align: right; background-color: #90d590;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">311</a> </th>
-    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">277</a> </th>
-    <th  style="text-align: right; background-color: #99d999;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">187</a> </th>
-    <th  style="text-align: right; background-color: #9ad99a;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">185</a> </th>
-    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">172</a> </th>
-    <th  style="text-align: right; background-color: #a0dba0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">135</a> </th>
-    <th  style="text-align: right; background-color: #a5dda5;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">101</a> </th>
-    <th  style="text-align: right; background-color: #a9dfa9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">81</a> </th>
-    <th  style="text-align: right; background-color: #aee1ae;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">63</a> </th>
-    <th  style="text-align: right; background-color: #b8e4b8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">38</a> </th>
-    <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">9</a> </th>
+    <th  style="text-align: right; background-color: #64c564;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">3316</a> </th>
+    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1487</a> </th>
+    <th  style="text-align: right; background-color: #7dce7d;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">898</a> </th>
+    <th  style="text-align: right; background-color: #83d083;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">653</a> </th>
+    <th  style="text-align: right; background-color: #8dd48d;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">392</a> </th>
+    <th  style="text-align: right; background-color: #8ed48e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">375</a> </th>
+    <th  style="text-align: right; background-color: #8ed48e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">369</a> </th>
+    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">302</a> </th>
+    <th  style="text-align: right; background-color: #97d897;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">227</a> </th>
+    <th  style="text-align: right; background-color: #99d999;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">207</a> </th>
+    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">183</a> </th>
+    <th  style="text-align: right; background-color: #a0dba0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">145</a> </th>
+    <th  style="text-align: right; background-color: #a4dda4;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">114</a> </th>
+    <th  style="text-align: right; background-color: #a9dfa9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">89</a> </th>
+    <th  style="text-align: right; background-color: #aee1ae;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">67</a> </th>
+    <th  style="text-align: right; background-color: #b8e4b8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">41</a> </th>
+    <th  style="text-align: right; background-color: #d0edd0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">11</a> </th>
   </tr>
 </table>
+
 
 
 
@@ -453,7 +454,6 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
 | 2017-07-12 |          587 |          9,549 | 43,001 |
 | 2018-01-15 |          225 |          9,843 | 48,522 |
 
-
 ## Committers
 
 From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/contributors):
@@ -478,6 +478,8 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 | 2017-01-19 |  2,742 |            318 |
 | 2017-07-12 |  2.665 |            481 |
 | 2018-01-15 |  2,609 |            579 |
+| 2018-07-24 |  2,982 |            246 |
+
 
 # Tools
 
