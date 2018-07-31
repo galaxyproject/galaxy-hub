@@ -24,6 +24,8 @@ sponsors:
 
 ## Citation(s)
 
+* [Mississippi tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EMississippi) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 
