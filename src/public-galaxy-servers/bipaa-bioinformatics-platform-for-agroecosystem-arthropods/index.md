@@ -31,6 +31,8 @@ sponsors:
 
 ## Citation(s)
 
+* [BIPPA tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBIPAA) in [Galaxy Publication library](/src/publication-library/index.md).
+
 
 ## Sponsor(s)
 

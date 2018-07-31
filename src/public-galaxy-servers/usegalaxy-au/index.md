@@ -33,6 +33,7 @@ sponsors:
 * [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140829) [Afgan E](/src/people/enis-afgan/index.md), Sloggett C, Goonasekera N, Makunin I, Benson D, Crowe M, Gladman S, Kowsar Y, Pheasant M, Horst R, Lonie A., *PLoS One.* 2015 Oct 26;10(10):e0140829. doi: 10.1371/journal.pone.0140829.
 * [Nectar Virtual Labs investment has huge economic and research impact](https://nectar.org.au/vls-have-huge-economic-research-impact/)
 * [GVL-QLD tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EGVL-QLD) in [Galaxy Publication library](/src/publication-library/index.md).
+* [UseGalaxy.org.au tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EUseGalaxy.org.au) in [Galaxy Publication library](/src/publication-library/index.md).
 
 ## Sponsor(s)
 
