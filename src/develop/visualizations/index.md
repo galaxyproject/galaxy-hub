@@ -16,8 +16,8 @@ You often have two elements to incorporate:
 ## The datatype
 
 For the datatype you often want to subclass the binary datatype and add it to your galaxy installation. Start here:
-* https://galaxyproject.org/admin/datatypes/
-* https://galaxyproject.org/admin/datatypes/adding-complete-datatypes/
+* [Galaxy Datatypes hub page](/src/admin/datatypes/index.md)
+* [Adding completely new datatypes](/src/admin/datatypes/adding-complete-datatypes/index.md)
 
 Note: to see if your datatype was loaded successfully, with your server running - you can go to: `/api/datatypes/mapping`. You should be able to see your datatype listed at the first level of the json map, generally beginning with 'galaxy.datatypes.' and the python module name you added it to (like a python import namespace): e.g. `galaxy.datatypes.binary.H5` or `galaxy.datatypes.binary.mydatatype`
 
@@ -28,7 +28,7 @@ To simplify:
 
 ## The plugin
 
-For the plugin good place to start: https://galaxyproject.org/visualizations-registry/
+For the plugin good place to start is the [Visualizations Registry](/src/visualizations-registry/index.md)
 
 ### The filesystem layout
 
@@ -37,11 +37,12 @@ Here's a simplified process for creating an outline for a visualization plugin p
 2. think of an id for your plugin. This can be any (filesystem permissible) file name and is only used as an id by the registry - the users never see it. It should be unique from any other plugins in that directory. (e.g. myplugin)
 3. create a main directory using your id. (e.g. `<your galaxy>/config/plugins/visualizations/myplugin`)
 4. inside that directory, create three more directories: config, templates, static. This is where the plugin configuration, the mako templates, and any (optional) javascript or static files are kept respectively.
-5. the configuration file should use the same id you used above for the directory: e.g. `config/myplugin.xml`. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at: https://galaxyproject.org/visualizations-registry/#the-visualization-configuration-file and https://galaxyproject.org/visualizations-registry/configuration/
-6. a mako template file should go into the templates directory: e.g. `templates/myplugin.mako`. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization. https://galaxyproject.org/visualizations-registry/#creating-the-code-and-markup-for-your-visualization
+5. the configuration file should use the same id you used above for the directory: e.g. `config/myplugin.xml`. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at:
+  * [The visualization configuration file](/src/visualizations-registry/index.md#the-visualization-configuration-file) and
+  * [Visualizations Registry Configuration](/src/visualizations-registry/configuration/index.md)
+6. [a mako template file](/src/visualizations-registry/index.md#creating-the-code-and-markup-for-your-visualization) should go into the templates directory: e.g. `templates/myplugin.mako`. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization. 
 
-At this point, your config/plugins/visualizations/myplugin directory should look like one of the two trees displayed here:
-https://galaxyproject.org/visualizations-registry/#configuring-your-visualization-plugin-in-the-visualization_plugins_directory
+At this point, your config/plugins/visualizations/myplugin directory should look like [one of the two trees displayed here](/src/visualizations-registry/index.md#configuring-your-visualization-plugin-in-the-visualization_plugins_directory).
 
 ### The configuration
 
@@ -99,4 +100,6 @@ galaxy.web.base.pluginframework INFO 2015-12-14 08:46:44,788 VisualizationsRegis
 * errors will also display there
 * it can help to change 'debug = True' in your `config/galaxy.ini` file (only do this on a separate development server - not you public shared instances)
 
-Related dev-list thread: http://dev.list.galaxyproject.org/How-does-one-run-Javascript-or-HTML-as-a-tool-tt4668518.html
+Related dev-list thread:
+
+* [How does one run Javascript or HTML as a tool?](http://dev.list.galaxyproject.org/How-does-one-run-Javascript-or-HTML-as-a-tool-tt4668518.html)

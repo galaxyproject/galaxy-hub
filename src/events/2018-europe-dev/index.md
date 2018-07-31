@@ -14,7 +14,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 
 **[#EGD2018](https://twitter.com/hashtag/EGD2018)**
 
-**European Galaxy Days** will be held  19 and 20 November 2018 in Freiburg, Germany. This two day gathering will be similar to the events we held in [2016](https://galaxyproject.org/events/sg2016/), [2014](https://galaxyproject.org/events/sg2014/), and [2012](https://galaxyproject.org/events/switzerland2012/). The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**European Galaxy Days** will be held  19 and 20 November 2018 in Freiburg, Germany. This two day gathering will be similar to the events we held in [2016](/src/events/sg2016/), [2014](/src/events/sg2014/), and [2012](/src/events/switzerland2012/). The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
 
 ## Registration
@@ -26,14 +26,15 @@ Registration will open soon
 
 
 ## Venue    
-Albert-Ludwigs-University Freiburg
-Institute for Informatics
-Georges-Köhler-Allee 101
-2nd floor, room 2.16-18
-79110 Freiburg
-Germany
 
-![](https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg)
+<img class="pull-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
+
+Albert-Ludwigs-University Freiburg<br />
+Institute for Informatics<br />
+Georges-Köhler-Allee 101<br />
+2nd floor, room 2.16-18<br />
+79110 Freiburg<br />
+Germany
 
 ### How to get to the campus of the Technische Fakultät
 
@@ -48,35 +49,27 @@ From Freiburg Hauptbahnhof
 http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 
-### Accommodation for foreign visitors (suggestions)
+### Suggested Accommodations
 
-Motel One
-Friedrichring 1
-https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg
+* **[Motel One](https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg)**<br />
+  Friedrichring 1
 
-Hotel Stadt Freiburg 
-Breisacher Str. 84
-79110 Freiburg im Breisgau
-https://www.hotel-stadt-freiburg.de
+* **[Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)**<br />
+  Breisacher Str. 84<br />
+  79110 Freiburg im Breisgau
 
-Hotel am Rathaus
-Rathausgasse 4-8
-http://www.am-rathaus.de
+* **[Hotel am Rathaus](http://www.am-rathaus.de)**<br />
+  Rathausgasse 4-8
 
-Hotel Barbara
-Poststrasse 4
-http://www.hotel-barbara.de
+* **[Hotel Barbara](http://www.hotel-barbara.de)**<br />
+  Poststrasse 4
 
-Intercity Hotel Freiburg
-Bismarckallee 3
-http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg
+* **[Intercity Hotel Freiburg](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)**<br />
+  Bismarckallee 3
 
-Note:
-In Freiburg you have to pay an additional accommodation tax. For business trips this tax has not to be paid if your employer fills out this form: 
-http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf
-and show this form to the hotel.
-
-
+Note:<br />
+In Freiburg you have to pay an additional accommodation tax. For business trips this tax does not have to be paid [if your employer fills out this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf)
+and you show this form to the hotel.
 
 ## Questions?
 
