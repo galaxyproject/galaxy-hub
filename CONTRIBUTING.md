@@ -785,7 +785,7 @@ sponsors:
       ---
       ```
 
-    - `new-url` can be either an internal relative URL ("/admin/config/tool-dependencies") or point outside the hub .
+    - `new-url` can be either an internal relative URL ("/src/admin/config/tool-dependencies/index.md") or point outside the hub.
     - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
 
       ```
