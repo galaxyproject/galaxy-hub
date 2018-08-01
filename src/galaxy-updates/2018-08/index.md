@@ -108,6 +108,13 @@ Both workshops are held October 10, the day before SACNAS starts.
 
 The event is free. Registration will open soon.  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
 
+## Gateways 2018
+
+[<img class="pull-left" src="/src/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/)
+
+[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) early bird registration ends Monday!  So, [get on it](https://sciencegateways.org/web/gateways2018/attend/register).
+
+Gateways are user-friendly interfaces (including Galaxy) to scientific computing, data, and other domain-specific resources to support research and education. The third Gateways annual conference is an opportunity for gateway creators and enthusiasts to learn, share, connect, and shape the future of gateways as part of a vibrant community with common interests.
 
 # Upcoming events
 
