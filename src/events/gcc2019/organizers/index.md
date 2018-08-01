@@ -15,4 +15,5 @@ We can be reached at:
 * *[Monika Degen-Hellmuth](https://portal.uni-freiburg.de/iif/institut/Personen/direktor/sekretariat)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * [Anika Erxleben](https://github.com/erxleben), [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)*, [FMI](http://www.fmi.ch/)
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
