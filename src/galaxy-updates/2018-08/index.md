@@ -120,13 +120,175 @@ Gateways are user-friendly interfaces (including Galaxy) to scientific computing
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
+<table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "RNA-Seq analysis using Galaxy","url": "https://qfab.org/workshops/rna-seq-analysis-using-galaxy-7-8-august-2018", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/src/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "training@qfab.org"
+},"startDate": "2018-08-07"
+}</script><tr><td><span class="text-nowrap">August 7th 2018</span></td><td><a href="https://qfab.org/workshops/rna-seq-analysis-using-galaxy-7-8-august-2018">RNA-Seq analysis using Galaxy</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Science Gateways Bootcamp","url": "https://sciencegateways.org/engage/bootcamp", "duration": "P5D", "location": {
+   "@type": "Place",
+   "address": "Chicago, Illinois, United States" },"contact": {
+ "@type": "person",
+ "name": "help@sciencegateways.org"
+},"startDate": "2018-08-13"
+}</script><tr><td><span class="text-nowrap">August 13th 2018</span></td><td><a href="https://sciencegateways.org/engage/bootcamp">Science Gateways Bootcamp</a></td><td><img style="float:right" src="/images/icons/NA.png"/>Chicago, Illinois, United States</td><td>help@sciencegateways.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "GTN CoFest on Metagenomics Training Material","url": "/events/2018-08-gtn", "duration": "P1D", "location": {
+   "@type": "Place",
+   "address": "Online" },"contact": {
+ "@type": "person",
+ "name": "Bérénice Batut, Saskia Hiltemann"
+},"startDate": "2018-08-17"
+}</script><tr><td><span class="text-nowrap">August 17th 2018</span></td><td><a href="/events/2018-08-gtn">GTN CoFest on Metagenomics Training Material</a></td><td><img style="float:right" src="/images/icons/GL.png"/>Online</td><td>Bérénice Batut, Saskia Hiltemann</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Genome Assembly using Galaxy Australia ","url": "https://www.eventbrite.com.au/o/embl-abr-10948923698", "duration": "P1D", "location": {
+   "@type": "Place",
+   "address": "University of Melbourne, James Cook University (Townsville + Cairns), University of Queensland, University of Southern Queensland, Australia", "url": "https://www.eventbrite.com.au/o/embl-abr-10948923698" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Anna Syme"
+},"startDate": "2018-08-22"
+}</script><tr><td><span class="text-nowrap">August 22nd 2018</span></td><td><a href="https://www.eventbrite.com.au/o/embl-abr-10948923698">Genome Assembly using Galaxy Australia </a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.eventbrite.com.au/o/embl-abr-10948923698">University of Melbourne, James Cook University (Townsville + Cairns), University of Queensland, University of Southern Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anna Syme</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Genome assembly using Galaxy","url": "https://qfab.org/workshops/genome-assembly-using-galaxy-4-5-september-2018", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "training@qfab.org"
+},"startDate": "2018-09-04"
+}</script><tr><td><span class="text-nowrap">September 4th 2018</span></td><td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-4-5-september-2018">Genome assembly using Galaxy</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Variant Detection using Galaxy Australia","url": "https://www.eventbrite.com.au/e/variant-detection-using-galaxy-australia-embl-abr-melbourne-bioinformatics-node-tickets-48266015953", "duration": "P1D", "location": {
+   "@type": "Place",
+   "address": "University of Melbourne, Victoria, Australia", "url": "https://www.eventbrite.com.au/e/variant-detection-using-galaxy-australia-embl-abr-melbourne-bioinformatics-node-tickets-48266015953#map-target" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Igor Makunin"
+},"startDate": "2018-09-12"
+}</script><tr><td><span class="text-nowrap">September 12th 2018</span></td><td><a href="https://www.eventbrite.com.au/e/variant-detection-using-galaxy-australia-embl-abr-melbourne-bioinformatics-node-tickets-48266015953">Variant Detection using Galaxy Australia</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.eventbrite.com.au/e/variant-detection-using-galaxy-australia-embl-abr-melbourne-bioinformatics-node-tickets-48266015953#map-target">University of Melbourne, Victoria, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Igor Makunin</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "6th Galaxy high-throughput sequencing (HTS) data analysis workshop","url": "/events/2018-09-denbi-hts", "duration": "P5D", "location": {
+   "@type": "Place",
+   "address": "University of Freiburg, Freiburg Germany" }, "image": "/src/images/logos/deNBILogo.png","eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Freiburg Galaxy Team"
+},"startDate": "2018-09-17"
+}</script><tr><td><span class="text-nowrap">September 17th 2018</span></td><td><a href="/events/2018-09-denbi-hts">6th Galaxy high-throughput sequencing (HTS) data analysis workshop</a></td><td><img style="float:right" src="/images/icons/EU.png"/>University of Freiburg, Freiburg Germany</td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Freiburg Galaxy Team</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "RNA-Seq analysis using Galaxy","url": "https://qfab.org/workshops/rna-seq-analysis-using-galaxy-18-19-september-2018", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/src/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "training@qfab.org"
+},"startDate": "2018-09-18"
+}</script><tr><td><span class="text-nowrap">September 18th 2018</span></td><td><a href="https://qfab.org/workshops/rna-seq-analysis-using-galaxy-18-19-september-2018">RNA-Seq analysis using Galaxy</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Variant detection using Galaxy","url": "https://qfab.org/workshops/variant-detection-using-galaxy-18-19-september-2018", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "training@qfab.org"
+},"startDate": "2018-09-18"
+}</script><tr><td><span class="text-nowrap">September 18th 2018</span></td><td><a href="https://qfab.org/workshops/variant-detection-using-galaxy-18-19-september-2018">Variant detection using Galaxy</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Gateways 2018","url": "https://sciencegateways.org/web/gateways2018", "duration": "P3D", "location": {
+   "@type": "Place",
+   "address": "University of Texas, Austin, Texas, United States", "url": "https://sciencegateways.org/web/gateways2018/about" },"contact": {
+ "@type": "person",
+ "name": "Katherine Lawrence"
+},"startDate": "2018-09-25"
+}</script><tr><td><span class="text-nowrap">September 25th 2018</span></td><td><a href="https://sciencegateways.org/web/gateways2018">Gateways 2018</a></td><td><img style="float:right" src="/images/icons/NA.png"/><a href="https://sciencegateways.org/web/gateways2018/about">University of Texas, Austin, Texas, United States</a></td><td>Katherine Lawrence</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Genome assembly using Galaxy","url": "https://qfab.org/workshops/genome-assembly-using-galaxy-2-3-october-2018", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "training@qfab.org"
+},"startDate": "2018-10-02"
+}</script><tr><td><span class="text-nowrap">October 2nd 2018</span></td><td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-2-3-october-2018">Genome assembly using Galaxy</a></td><td><img style="float:right" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Workflow4Experimenters 2018 Course","url": "https://www.linkedin.com/pulse/workflow4experimenters-2018-course-analyze-your-lcms-gcms-giacomoni/?published=t", "duration": "P5D", "location": {
+   "@type": "Place",
+   "address": "Pasteur Institute, Paris, France", "url": "https://www.pasteur.fr/" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Gildas Le Corguillé"
+},"startDate": "2018-10-08"
+}</script><tr><td><span class="text-nowrap">October 8th 2018</span></td><td><a href="https://www.linkedin.com/pulse/workflow4experimenters-2018-course-analyze-your-lcms-gcms-giacomoni/?published=t">Workflow4Experimenters 2018 Course</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.pasteur.fr/">Pasteur Institute, Paris, France</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gildas Le Corguillé</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "SACNAS 2018 Pre-Conference Workshops","url": "/events/2018-sacnas", "duration": "P1D", "location": {
+   "@type": "Place",
+   "address": "2018 SACNAS, San Antonio, Texas, United States", "url": "http://www.2018sacnas.org/" }, "image": "/images/logos/sacnas-no-text.jpg","eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee"
+},"startDate": "2018-10-10"
+}</script><tr><td><span class="text-nowrap">October 10th 2018</span></td><td><a href="/events/2018-sacnas">SACNAS 2018 Pre-Conference Workshops</a></td><td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.2018sacnas.org/">2018 SACNAS, San Antonio, Texas, United States</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Analyse RNAseq sous Galaxy","url": "http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formation-qualifiante-FC6/sciences-technologies-sante-STS/analyse-rnaseq-sous-galaxy-program-analyse-rnaseq-sous-galaxy-2.html?search-keywords=rnaseq", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "Station marine de Roscoff, France", "url": "http://www.sb-roscoff.fr/en" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "christine.mantecon @upmc.fr"
+},"startDate": "2018-10-15"
+}</script><tr><td><span class="text-nowrap">October 15th 2018</span></td><td><a href="http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formation-qualifiante-FC6/sciences-technologies-sante-STS/analyse-rnaseq-sous-galaxy-program-analyse-rnaseq-sous-galaxy-2.html?search-keywords=rnaseq">Analyse RNAseq sous Galaxy</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.sb-roscoff.fr/en">Station marine de Roscoff, France</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>christine.mantecon @upmc.fr</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Bioinformatique - Analyse avancée de séquences","url": "http://cnrsformation.cnrs.fr/stage.php?stage=18239", "duration": "P3D", "location": {
+   "@type": "Place",
+   "address": "Bordeaux, France", "url": "http://www.labri.fr/" },"contact": {
+ "@type": "person",
+ "name": "Intervenants"
+},"startDate": "2018-10-16"
+}</script><tr><td><span class="text-nowrap">October 16th 2018</span></td><td><a href="http://cnrsformation.cnrs.fr/stage.php?stage=18239">Bioinformatique - Analyse avancée de séquences</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.labri.fr/">Bordeaux, France</a></td><td>Intervenants</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it","url": "https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/", "duration": "P3D", "location": {
+   "@type": "Place",
+   "address": "VU, Amsterdam, The Netherlands", "url": "https://www.vu.nl/en" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Celia van Gelder"
+},"startDate": "2018-10-17"
+}</script><tr><td><span class="text-nowrap">October 17th 2018</span></td><td><a href="https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/">Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.vu.nl/en">VU, Amsterdam, The Netherlands</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Celia van Gelder</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "BioHackathon 2018 Paris","url": "/events/2018-11-biohackathon", "duration": "P5D", "location": {
+   "@type": "Place",
+   "address": "Campus des Berges de Seine, Paris, France", "url": "https://www.chateauform.com/fr/maison/les-berges-de-seine/" }, "image": "/src/events/2018-11-biohackathon/biohack2018.png","contact": {
+ "@type": "person",
+ "name": "Bérénice Batut, Hervé Ménager"
+},"startDate": "2018-11-12"
+}</script><tr><td><span class="text-nowrap">November 12th 2018</span></td><td><a href="/events/2018-11-biohackathon">BioHackathon 2018 Paris</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.chateauform.com/fr/maison/les-berges-de-seine/">Campus des Berges de Seine, Paris, France</a></td><td>Bérénice Batut, Hervé Ménager</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "Analyse des données RNA-Seq sous l'environnement Galaxy","url": "https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/", "duration": "P3D", "location": {
+   "@type": "Place",
+   "address": "Lyon, France" }, "image": "/src/images/logos/biosciences-and-co.png","eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "contact@biosciencesco.fr"
+},"startDate": "2018-11-14"
+}</script><tr><td><span class="text-nowrap">November 14th 2018</span></td><td><a href="https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/">Analyse des données RNA-Seq sous l'environnement Galaxy</a></td><td><img style="float:right" src="/images/icons/EU.png"/>Lyon, France</td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "European Galaxy Days","url": "/events/2018-europe-dev", "duration": "P2D", "location": {
+   "@type": "Place",
+   "address": "Freiburg, Germany" }, "image": "/src/events/2018-europe-dev/2018-europe-logo.small.png","contact": {
+ "@type": "person",
+ "name": "Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard"
+},"startDate": "2018-11-19"
+}</script><tr><td><span class="text-nowrap">November 19th 2018</span></td><td><a href="/events/2018-europe-dev">European Galaxy Days</a></td><td><img style="float:right" src="/images/icons/EU.png"/>Freiburg, Germany</td><td>Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard</td></tr><script type="application/ld+json">{  "@context": "http://schema.org/",
+   "@type": "Event",
+   "name": "2019 Galaxy Community Conference (GCC2019)","url": "https://galaxyproject.org/gcc2019", "duration": "P6D", "location": {
+   "@type": "Place",
+   "address": "Freiburg, Germany", "url": "http://www.konzerthaus.freiburg.de/" },"eventType": "workshops and courses","contact": {
+ "@type": "person",
+ "name": "Organizers"
+},"startDate": "2019-07-01"
+}</script><tr><td><span class="text-nowrap">July 1st 2019</span></td><td><a href="https://galaxyproject.org/gcc2019">2019 Galaxy Community Conference (GCC2019)</a></td><td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td><td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td></tr></tbody></table>
+
+----
+
 # Christophe Caron, 1968-2018
 
 [<img class="pull-right" src="/src/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" width="170" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
 
 [Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/src/news/2018-05-caron/index.md) for more about Christophe, his passing, and his many contributions over the years.
-
-----
 
 # Publications
 
