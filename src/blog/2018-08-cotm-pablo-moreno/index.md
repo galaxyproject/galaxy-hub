@@ -1,5 +1,5 @@
 ---
-date: '2018-08-02'
+date: '2018-08-01'
 title: "Contributor of the Month: Pablo Moreno"
 authors: "Björn Grüning"
 image: "/src/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
