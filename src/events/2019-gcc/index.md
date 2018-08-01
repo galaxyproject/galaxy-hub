@@ -6,7 +6,7 @@ tease: "The annual gathering of the Galaxy Community"
 continent: EU
 location: "Freiburg, Germany"
 location_url: http://www.konzerthaus.freiburg.de/
-external_url: https://galaxyproject/gcc2019
+external_url: https://galaxyproject.org/gcc2019
 image: 
 gtn: true
 contact: Organizers
