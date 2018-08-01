@@ -350,15 +350,11 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 
 The Galaxy is expanding! Please help it grow.
 
-* [Postdoctoral fellow in multi-omics microbiome bioinformatics](https://fems-microbiology.org/opportunities/postdoctoral-fellow-multi-omics-microbiome-bioinformatics-denmark/), [University of Copenhagen](https://www.ku.dk/english/), Denmark **PROBABLY NOT**
-* [Ingénieur en Bioinformatique NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-en-bioinformatique-ngs-0), [Institut de Biologie Intégrative de la Cellule](https://www.i2bc.paris-saclay.fr/), Orsay, France **PROBABLY NOT**
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
-
-<br />
 
 # New Galactic Blog Entries
 
