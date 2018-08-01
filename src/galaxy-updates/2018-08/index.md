@@ -191,16 +191,18 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 <br />
 
-# New Galactic Blog Entry: A fruitful year for the Galaxy Training material
+# New Galactic Blog Entries
 
 <div class="pull-right" >
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
 </div>
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+There are two new *[Galactic Blog](/src/blog/index.md)* entry:
 
-* [A fruitful year for the Galaxy Training material](src/blog/2018-06-training-material/index.md), by Bérénice Batut
-
+* [A fruitful year for the Galaxy Training material](/src/blog/2018-06-training-material/index.md), by Bérénice Batut
+  * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
+* [Contributor of the Month: Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), By Björn Grüning
+  * The first of a monthly series highlighting Galaxy contributors.
 
 # Public Galaxy Server News
 
