@@ -29,6 +29,45 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 ## 2019 Galaxy Community Conference: 1-6 July, Freiburg, Germany
 
+[<img  class="img-responsive pull-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+
+**[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+
+<div class="pull-left">
+[<img src="/src/events/gcc2019/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
+</div>
+
+[Freiburg](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)!. Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*
+
+GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.de/) in central Freiburg, adjacent to the [Freiburg train station](https://www.bahnhof.de/bahnhof-de/Freiburg__Breisgau__Hbf-1039062).
+
+GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
+
+<div class="center">
+[<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="100" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="100" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="50" />](https://www.denbi.de/)
+</div>
+
+<br />
+
+
+
+### What about BOSC?
+
+2018 was the first time GCC and BOSC held a joint conference.  There is significant overlap between the communities and we had been considering a joint event since at least 2015.  Organizers from both communities felt that GCCBOSC 2018 was a success, and that future joint meetings have even more potential for success.  Not everything went as smoothly as it could have, but we now have a year's experience and a plethora of excellent feedback and suggestions from conference participants. Both the GCC and BOSC organizers feel that we should explore doing this again. 
+
+On the flip side, there are also significant reasons to not *permanently* join the conferences together:  A permanently joint conference risks diluting both communities. GCC also has a different focus from ISMB (BOSC's usual conference partner), and many BOSCers (while still enthused about the GCC partnership) really hesitate to give that up.  Planning a joint conference is also more work than planning a standalone GCC.
+
+**The Decision**
+
+Both sets of organizers, independently and simultaneously (that has to be a good sign :-), decided
+
+1. **Not to hold a joint GCC and BOSC conference in 2019.**
+2. **To look into holding a joint meeting every few years, starting as soon as 2020.**
+
+This approach preserves both communities, and has the potential to further increase the synergy between the communities (which was our primary motivating goal in 2018). This also gets BOSC back to ISMB on a regular basis, and helps us avoid some logistical challenges a joint conference would pose in 2019.
+
+A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attendees, and more parallel events is just harder) and several other stars aligning, but our aim to bring these communities back together. 
+
 ## GTN CoFest on Metagenomics Training Material, 17 August
 
 <img class="img-responsive pull-right" style="max-width: 200px;" src="/src/events/2018-08-gtn/cofests.png" alt="GTN cofest logo"/>
@@ -39,12 +78,12 @@ The Galaxy Training Network is organizing regular online CoFests (Collaboration/
 
 ## 2018 SACNAS Workshops
 
-<div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/src/index.md)
+<div class="pull-left"><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
+[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
+[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
 </div>
 
 If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/src/events/2018-sacnas/index.md):
