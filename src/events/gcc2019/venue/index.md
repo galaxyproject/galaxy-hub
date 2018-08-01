@@ -1,8 +1,6 @@
 {{> Events/GCC2019/Header }}
 
-**We are pleased to announce that GCC2019 will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
-
-## Location
+# GCC2019 Venue
 
 <div class="pull-right">
 [<img src="/src/events/gcc2019/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
@@ -22,11 +20,4 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 <br />
 
 GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
-
-
-## BOSC 2019?
-
-**Q:** BOSC 2018 was co-located with GCC2018 (to form [GCCBOSC 2018](https://gccbosc2018.sched.com/)).  Will BOSC 2019 be colocated with GCC2019 as well?
-
-**A:** This won't be decided until after GCCBOSC 2018 is over.
 
