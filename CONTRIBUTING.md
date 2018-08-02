@@ -56,7 +56,8 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
   - [Generate  local website](#generate-local-website)
   - [Handling of images](#handling-of-images)
   - [LFS Troubles?](#lfs-troubles)
-
+- [Advanced Topics](#advanced-topics)
+  - [Update Slide Carousel on Landing Page](#update-slide-carousel-on-landing-page)
 
 # Basics
 
@@ -895,3 +896,20 @@ This should show at least
 If your version is older than that, you may benefit from upgrading.
 
 
+# Advanced Topics
+
+## Update Slide Carousel on Landing Page
+
+The slide carousel on the hub landing page is populated from the `/src/splash/` directory.  This has a [standard hub source structure](#one-web-page-one-directory-in-github) with a directory and `index.md` file for each "slide" in the rotation.
+
+**To add a slide**, add a directory to `/src/splash/` and add an `index.md` file to the new directory.
+
+Every `index.md` starts with [page metadata](#page-metadata) containing `title` and `date` tags.  The `title` is displayed in large font at the top of the slide frame.  The date is used for .... 
+
+After the metadata there is page content, which is sometimes text (in Markdown) and sometimes just an image that links somewhere.
+
+When creating a new slide, please test how it looks in as many browsers and window widths as possible.  The content has to fit in the `splash-box` `div` on the home page. `/src/css/styles.less` defines `splash-box`. The `splash-box`uses the Bootstrap [`@jumbotron`](http://bootstrapdocs.com/v3.3.4/docs/components/#jumbotron/) and [`carousel`](http://bootstrapdocs.com/v3.3.4/docs/javascript/#carousel) components.
+
+**To drop a slide**, use `git mv` to move the slide's directory from `/src/splash/` to `/src/splash-archive/`. 
+
+The code that renders slides is in the `/layouts/homepage.pug` file.
