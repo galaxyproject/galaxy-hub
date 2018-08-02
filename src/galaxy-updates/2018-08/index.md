@@ -510,6 +510,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From [Björn Grüning](https://twitter.com/bjoerngruening)
   * [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher/wiki) is a "multi-omics pathway mapping and proteoform network generation" biorxiv.org/content/early/… by Luis Francisco Hernandez Sanchez and colleagues. [Try it now](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/reactome_pathwaymatcher/reactome_pathwaymatcher/1.8.1.2) on [usegalaxy.eu](https://usegalaxy.eu) 
-  * [New Training Platform for Big Data Analysis](https://www.pr.uni-freiburg.de/pm-en/press-releases-2018/new-training-platform-for-big-data-analysis), press release from the University of Freiburg
+* [New Training Platform for Big Data Analysis](https://www.pr.uni-freiburg.de/pm-en/press-releases-2018/new-training-platform-for-big-data-analysis), press release from the University of Freiburg
   
 
