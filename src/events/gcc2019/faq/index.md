@@ -7,9 +7,9 @@
 **No.** In the month after GCCBOSC 2018, both sets of organizers, independently and simultaneously, decided
 
 1. Not to hold a joint GCC and BOSC conference in 2019.
-2. To look into holding a joint meeting every few years, starting possibly as soon as 2020.
+2. To look into holding a joint meeting every few years, starting as soon as 2020.
 
-BOSCers, don't get too nostalgic: you are encouraged to attend GCC2019 (and we hope you do), and you will also see many of Galaxy community members at BOSC 2019.
+BOSCers, don't get too nostalgic: you are encouraged to attend GCC2019 (and we hope you do!), and you will see many Galaxy community members at BOSC 2019.
 
 ### Why?
 
