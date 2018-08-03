@@ -10,6 +10,8 @@ let hb_partials = require("handlebars");
 let marked = require("marked");
 let slug = require("slug");
 
+process.env.DEBUG = "metalsmith-timer";
+
 let set_metadata_defaults = function(files, metalsmith, done) {
     // Simple way to apply metadata defaults
     for (let k in files) {
@@ -291,11 +293,7 @@ let ms = metalsmith(__dirname)
     )
     .use(timer("metalsmith-layouts"))
     .use(file_staging)
-    .use(timer("file staging"))
-    .use(require("metalsmith-less")())
-    .use(timer("metalsmith-less"))
-    .use(require("metalsmith-uglify")())
-    .use(timer("metalsmith-uglify"));
+    .use(timer("file staging"));
 
 let argv = require("minimist")(process.argv.slice(2));
 
