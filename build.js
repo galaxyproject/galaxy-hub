@@ -10,26 +10,6 @@ let hb_partials = require("handlebars");
 let marked = require("marked");
 let slug = require("slug");
 
-// Plugin for Bower support
-let bower = function(files, metalsmith, done) {
-    let bower_files = require("bower-files")();
-    let { readFileSync } = require("fs");
-    let { basename } = require("path");
-    let include = (root, included) =>
-        (() => {
-            let result = [];
-            for (let file of Array.from(included)) {
-                let contents = readFileSync(file);
-                result.push((files[`${root}/${basename(file)}`] = { contents }));
-            }
-            return result;
-        })();
-    include("css", bower_files.self().ext("css").files);
-    include("js", bower_files.self().ext("js").files);
-    include("fonts", bower_files.self().ext(["eot", "otf", "ttf", "woff", "woff2"]).files);
-    return done();
-};
-
 let set_metadata_defaults = function(files, metalsmith, done) {
     // Simple way to apply metadata defaults
     for (let k in files) {
@@ -314,8 +294,6 @@ let ms = metalsmith(__dirname)
     .use(timer("file staging"))
     .use(require("metalsmith-less")())
     .use(timer("metalsmith-less"))
-    .use(bower)
-    .use(timer("bower"))
     .use(require("metalsmith-uglify")())
     .use(timer("metalsmith-uglify"));
 
