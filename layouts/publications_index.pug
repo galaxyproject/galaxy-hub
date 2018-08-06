@@ -5,7 +5,7 @@ block content
     each item in publications
         div.post.row
             if item.doi
-                div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed pull-right" )
+                div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed float-right" )
             if item.authors
                 - var authors = item.authors
                 - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
