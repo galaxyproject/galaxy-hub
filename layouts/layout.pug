@@ -119,94 +119,87 @@ head( lang="en" )
 
 body
 
-    header.navbar.navbar-default.navbar-inverse.navbar-fixed-top( role="navigation" ): div.container-fluid
-        div.navbar-header
-            button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
-                span.sr-only Toggle navigation
-                span.icon-bar
-                span.icon-bar
-                span.icon-bar
-            a.navbar-brand( href="/" )
-              img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
-        div.navbar-collapse.collapse
-            ul.nav.navbar-nav
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
-                        | Use
-                        span.caret
-                    ul.dropdown-menu
-                        li
-                            a(href='/main/') Main Galaxy
-                        li
-                            a(href='/public-galaxy-servers/') Public Servers
-                        li
-                            a(href='/cloud/') Cloud
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
-                        | Community
-                        span.caret
-                    ul.dropdown-menu
-                        li
-                            a(href='/community/') About
-                        li
-                            a(href='/events/') Events
-                        li
-                            a(href='/news/') News
-                        li
-                            a(href='/blog/') Blog
-                        li
-                            a(href='/publication-library/') Publications
-                        li
-                            a(href='/galaxy-project/statistics/') Stats
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
-                        | Education
-                        span.caret
-                    ul.dropdown-menu
-                        li
-                            a(href='/learn/') Learn Galaxy
-                        li
-                            a(href='/teach/') Teach
-                        li
-                            a(href='/teach/gtn/') Training Network
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
-                        | Deploy & Develop
-                        span.caret
-                    ul.dropdown-menu
-                        li
-                            a(href='/admin/get-galaxy/') Get Galaxy
-                        li
-                            a(href='/admin/') Administration
-                        li
-                            a(href='/docs/') Documentation
-                        li
-                            a(href='/tools/') Tools
-                        li
-                            a(href='/develop/') Development
-                        li
-                            a(href='/develop/api/') API
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
-                        | Support
-                        span.caret
-                    ul.dropdown-menu
-                        li
-                            a(href='/support/') Hub
-                        li
-                            a(href='/support/biostar/') Galaxy Biostar
-            ul.nav.navbar-nav.navbar-right
-                li
-                    form(class='navbar-form' method='get' action='/search/')
-                        div.input-group
-                            input(class='form-control' name='q' placeholder='Search Galaxy')
-                            span.input-group-btn
-                                button(class="btn btn-secondary" type="submit")
-                                    span.fa.fa-search
-                li
-                    a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
-                        span.fa.fa-lg.fa-github
-                        span(title="Edit this page") &nbsp; Edit
+    nav.navbar.navbar-expand.navbar-dark.justify-content-center( role="navigation" )
+        a.navbar-brand( href="/" )
+          img.navbar-brand-image( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
+        ul.navbar-nav
+            li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                    | Use
+                    span.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/main/') Main Galaxy
+                    li
+                        a(href='/public-galaxy-servers/') Public Servers
+                    li
+                        a(href='/cloud/') Cloud
+            li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                    | Community
+                    span.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/community/') About
+                    li
+                        a(href='/events/') Events
+                    li
+                        a(href='/news/') News
+                    li
+                        a(href='/blog/') Blog
+                    li
+                        a(href='/publication-library/') Publications
+                    li
+                        a(href='/galaxy-project/statistics/') Stats
+            li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                    | Education
+                    span.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/learn/') Learn Galaxy
+                    li
+                        a(href='/teach/') Teach
+                    li
+                        a(href='/teach/gtn/') Training Network
+            li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                    | Deploy & Develop
+                    span.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/admin/get-galaxy/') Get Galaxy
+                    li
+                        a(href='/admin/') Administration
+                    li
+                        a(href='/docs/') Documentation
+                    li
+                        a(href='/tools/') Tools
+                    li
+                        a(href='/develop/') Development
+                    li
+                        a(href='/develop/api/') API
+            li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                    | Support
+                    span.caret
+                ul.dropdown-menu
+                    li
+                        a(href='/support/') Hub
+                    li
+                        a(href='/support/biostar/') Galaxy Biostar
+        ul.nav.navbar-nav.navbar-right
+            li
+                form(class='navbar-form' method='get' action='/search/')
+                    div.input-group
+                        input(class='form-control' name='q' placeholder='Search Galaxy')
+                        span.input-group-btn
+                            button(class="btn btn-secondary" type="submit")
+                                span.fa.fa-search
+            li
+                a( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
+                    span.fa.fa-lg.fa-github
+                    span(title="Edit this page") &nbsp; Edit
     div.container#maincontainer: div.row
         block content
             div !{ contents }

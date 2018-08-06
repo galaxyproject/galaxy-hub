@@ -3,7 +3,7 @@ extends layout.pug
 block content
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
     if doi
-        div( data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed pull-right" )
+        div( data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed float-right" )
     h1 #{title}. 
     p
         - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
