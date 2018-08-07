@@ -52,6 +52,8 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 [Usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)) is the Galaxy project's publicly available Galaxy server.
 
+[![](/src/galaxy-project/statistics/usegalaxy-org-jobs.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrV-9EbO-9e4d7AM0vq9LoJYkQnIS6dJQZrOogDUXHKQihdOaGb1I6XxU9SH61NJgrjHgHM6ZXeMWC/pubchart?oid=770653561&format=interactive)
+
 [![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=558686006&format=interactive)
 
 [![](/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=909662767&format=interactive)
@@ -69,7 +71,7 @@ The [Galaxy Publications Library](/src/galaxy-publications/index.md) lists every
 
 In October 2017 [the 5,000th pub was added to that library](/src/blog/2017-10-5000-pubs/index.md).
 
-Here are the tags on papers in the Galaxy Publications Library as of January 2018:
+Here are the tags on papers in the Galaxy Publications Library as of July 2018:
 
 <table class="table">
   <tr>
@@ -427,10 +429,6 @@ Here are the tags on papers in the Galaxy Publications Library as of January 201
 </table>
 
 
-
-
-
-
 [![](/src/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
 
 [![](/src/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1984173771&format=interactive)
@@ -489,6 +487,9 @@ The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed soft
 
 [![](/src/galaxy-project/statistics/toolshed.png)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
+# Events
+
+As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) since the 2012 meeting.
 
 # Twitter
 

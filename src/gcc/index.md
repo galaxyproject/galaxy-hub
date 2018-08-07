@@ -26,7 +26,7 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 # Conferences
 
-GCC has met annually since 2010 and the program has grown and transformed each year.  [GCC2018](https://gccbosc2018.sched.com/) will feature two days of training, followed by a two day conference, and ending with a CollaborationFest. GCC2018 will also be [held concurrently with BOSC 2018](https://gccbosc2018.sched.com/), the first time we have done that.
+GCC has met annually since 2010 and the program has grown and transformed each year.  [GCC2019](/src/events/gcc2019/index.md) will feature two days of training, a two day conference, and ending with a CollaborationFest. 
 
 | Dates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Event | Where | Hosts | # |
 | ---- | ---- | ---- | ----|
