@@ -119,9 +119,9 @@ head( lang="en" )
 
 body
 
-    nav.navbar.navbar-expand.navbar-dark.justify-content-center( role="navigation" )
+    nav.container-fluid.navbar.navbar-expand.navbar-dark.justify-content-center#masthead( role="navigation" )
         a.navbar-brand( href="/" )
-          img.navbar-brand-image( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
+          img.navbar-brand-image( src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" )
         ul.navbar-nav
             li.dropdown
                 a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
@@ -188,7 +188,7 @@ body
                         a(href='/support/') Hub
                     li
                         a(href='/support/biostar/') Galaxy Biostar
-        ul.nav.navbar-nav.navbar-right
+        ul.nav.navbar-nav.ml-auto
             li
                 form(class='navbar-form' method='get' action='/search/')
                     div.input-group
