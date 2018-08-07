@@ -1,27 +1,26 @@
 @import "variables.scss";
-@import "bootstrap/scss/bootstrap.scss";
-@import "overrides.scss";
-
+/* hub-specific overrides to variables */
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
+
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 300;
 
 $font-family-base: $font-family-sans-serif;
 
-$font-size-base: 14px;
+$font-size-base: 0.75rem;
 $line-height-base: 1.6;
 $headings-line-height: 1.6;
 
-$font-size-h1:            floor(($font-size-base * 1.8)); // ~36px
-$font-size-h2:            floor(($font-size-base * 1.6)); // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.4)); // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.2)); // ~18px
-$font-size-h5:            $font-size-base;
-$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
+$h1-font-size: $font-size-base * 2; // default 2.5
+$h2-font-size: $font-size-base * 1.75; // default 2
+$h3-font-size: $font-size-base * 1.5; // default 1.75
+$h4-font-size: $font-size-base * 1.25; // default 1.5
+$h5-font-size: $font-size-base; // default 1.25
+$h6-font-size: $font-size-base * 0.85; // default 1
 
 $brand-primary: #336699;
 $headings-small-color: inherit;
@@ -29,12 +28,13 @@ $headings-small-color: inherit;
 $body-bg: white;
 $navbar-default-bg: rgb(255,255,255);
 $navbar-default-border:none;
-$navbar-padding-horizontal: 10px;
 
 $navbar-inverse-bg: rgb(44, 49, 67);
 
 $grid-float-breakpoint: 1000px;
 
+@import "bootstrap/scss/bootstrap.scss";
+@import "overrides.scss";
 
 html {
     position: relative;
@@ -114,6 +114,73 @@ div.post {
 
 footer {
     font-size: 85%;
+}
+
+// Masthead
+#masthead {
+    padding: 0;
+    margin-bottom: 0px;
+    background-color: $base-color-1;
+    height: 2.5rem;
+    .navbar-nav {
+        min-height: 100%;
+        > li {
+            // This allows the background color to fill the full height of the
+            // masthead, while still keeping the contents centered (using flex)
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            &.active {
+                background: black;
+            }
+            .nav-link {
+                cursor: pointer;
+                text-decoration: none;
+                &:hover {
+                    color: gold;
+                }
+                &.nav-icon {
+                    font-size: 1.7em;
+                }
+                &.toggle {
+                    color: gold;
+                }
+            }
+            .nav-note {
+                font-weight: bold;
+                font-size: 10px;
+                position: relative;
+                right: 5px;
+                top: 10px;
+                color: gold;
+                width: 0px;
+            }
+        }
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 0;
+        // top: 0;
+        font-family: verdana;
+        font-weight: bold;
+        font-size: 20px;
+        // line-height: 1;
+        color: white;
+        // Override margin and padding due to shorter navbar height
+        padding: 5px 20px 12px;
+        margin-left: -15px;
+        text-decoration: none;
+        .navbar-brand-image {
+            display: inline;
+            height: 2rem;
+            // vertical-align: top;
+            margin-left: 0.35em;
+            border: none;
+        }
+        .navbar-brand-title {
+            color: white;
+        }
+    }
 }
 
 /* Custom CSS for Galaxy wiki doc
