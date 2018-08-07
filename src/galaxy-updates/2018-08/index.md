@@ -29,7 +29,7 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 ## 2019 Galaxy Community Conference: 1-6 July, Freiburg, Germany
 
-[<img  class="img-responsive pull-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img  class="img-fluid pull-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
 **[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
@@ -70,7 +70,7 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 ## GTN CoFest on Metagenomics Training Material, 17 August
 
-<img class="img-responsive pull-right" style="max-width: 200px;" src="/src/events/2018-08-gtn/cofests.png" alt="GTN cofest logo"/>
+<img class="img-fluid pull-right" style="max-width: 200px;" src="/src/events/2018-08-gtn/cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 

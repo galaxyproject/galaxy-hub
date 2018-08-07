@@ -3,9 +3,9 @@ extends layout.pug
 mixin renderServer()
     if image
         if image.startsWith("/src")
-            img.img-responsive(src=image.substring(4) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
+            img.img-fluid(src=image.substring(4) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
         else
-            img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
+            img.img-fluid(src=image style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
     +renderPageTitle
     p !{helpers.marked(summary).replace("<p>","").replace("</p>","")}
 

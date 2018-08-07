@@ -5,7 +5,7 @@ tease: "CVMFS and Singularity support"
 authors: "B. Grüning"
 ---
 
-[<img class="img-responsive center-block" src="https://raw.githubusercontent.com/bgruening/docker-galaxy-stable/dev/galaxy/GalaxyDocker.png" alt="Public Galaxy Server Dashboard" />](https://github.com/bgruening/docker-galaxy-stable)
+[<img class="img-fluid center-block" src="https://raw.githubusercontent.com/bgruening/docker-galaxy-stable/dev/galaxy/GalaxyDocker.png" alt="Public Galaxy Server Dashboard" />](https://github.com/bgruening/docker-galaxy-stable)
 
 Galaxy Docker 17.09 is now available as `bruening/galaxy-stable:17.09` or `quay.io/bruening/galaxy:17.09`!
 

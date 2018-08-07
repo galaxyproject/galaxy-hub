@@ -11,7 +11,7 @@ Welcome to the October 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 # Hacktoberfest
 
-[<img class="pull-left img-responsive" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
+[<img class="pull-left img-fluid" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
 
 What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, we should say [Hacktoberfest](https://hacktoberfest.digitalocean.com/). From Oct 1st through Oct 31st, Hacktoberfest is a celebration of open source coding organized by Digital Ocean and GitHub. This is a great opportunity to get involved with a project and get some help along the way. Plus, if you issue 4 pull request during the month, you get a limited edition t-shirt! Any project on GitHub can participate simply by creating and tagging issues with Hacktoberfest tag. If you'd like to participate on a Galaxy-related project, see the [Galaxy Hacktoberfest dashboard](https://galaxyproject.org/events/2017-10-hacktoberfest/).
 
@@ -236,7 +236,7 @@ The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e
 
 ## Codon Harmonizer
 
-[<img class="pull-right img-responsive" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
+[<img class="pull-right img-fluid" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
 
 
 [Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/public-galaxy-servers/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research

@@ -65,7 +65,7 @@ If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md)
 
 # Share Your Experience
 
-<img class="img-responsive pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
+<img class="img-fluid pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
 The [Galactic Blog](/src/blog/index.md) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 

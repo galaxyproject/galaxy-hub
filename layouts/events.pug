@@ -4,9 +4,9 @@ mixin renderEvent()
     if image
         if external_url
             a(href=external_url)
-                img.img-responsive(src=deGitUrl(image) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
+                img.img-fluid(src=deGitUrl(image) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
         else
-            img.img-responsive(src=deGitUrl(image) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
+            img.img-fluid(src=deGitUrl(image) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
     +renderPageTitle
     ul.list-unstyled
         if date

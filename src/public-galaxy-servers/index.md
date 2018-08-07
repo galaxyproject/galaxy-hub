@@ -5,7 +5,7 @@ layout: server_index.pug
 ---
 
 <img src="/src/public-galaxy-servers/90-plus-slide.png" alt="and counting"
-class="img-responsive center-block" />
+class="img-fluid center-block" />
 
 The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org/)) can
 meet many needs, but it is not suitable for everything (see
