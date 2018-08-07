@@ -10,7 +10,7 @@ Thanks for considering hosting a [GCC](/src/gcc/index.md).  These events are vit
 
 [<img class="pull-right" src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="160" />](https://gcc2017.sciencesconf.org/)
 
-In the past it's been entirely *ad hoc* (2010-2015), or rigorous, with a call for proposals and formal evaluation of proposals (2016-2018).  Starting with GCC2019, we are moving to something in between.  If you are interested, then please [contact the project](#let-s-talk) and we will get back to you (immediately!).
+In the past it's been entirely *ad hoc* (2010-2015), or rigorous, with a call for proposals and formal evaluation of proposals (2016-2018).  Starting with GCC2019, we moved to something in between.  If you are interested, then please [contact the project](#let-s-talk) and we will get back to you (immediately!).
 
 # What is most important for hosting GCC?
 
@@ -41,7 +41,7 @@ Needed facilities
 [<img class="pull-right" src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180px" />](/src/events/gcc2013/index.md)
 
   - A large meeting space for all attendees
-  - Smaller spaces for training, birds-of-a-feather, hackathons, and informal gatherings
+  - Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
   - Robust WiFi in all spaces is essential - expect everyone to be connected simultaneously
   - High foot traffic areas for vendors/sponsors to have exhibits
   - Space for posters and/or demos
@@ -63,17 +63,13 @@ We meet in North America in even years, and *not-in-North-America* in odd years.
 
 ## Ideas for improvement
 
-*We think GCC is already a great meeting, and that it always has been!  Despite that, the meeting keep getting better, and that's largely due to fresh ideas from each new conference's organizers.*  An inclination to propose new ideas is welcomed.
+*We think GCC is already a great meeting, and that it always has been!  Despite that, the meetings keep getting better, and that's largely due to fresh ideas from each new conference's organizers.*  An inclination to propose new ideas is welcomed.
 
 # What about BOSC?
 
 [<img class="pull-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" width="170" />](https://gccbosc2018.sched.com/)
 
-We've been trying for years to co-locate with BOSC, and we finally pulled it off in 2018.  *We are very excited to bring these two communities together and we are expecting great things from the unified event.*
-
-However, 2018 is an experiment.  We won't know for sure if we will do this again until after GCCBOSC 2018 is done.  This adds some uncertainty for anyone interested in hosting GCC2019 (and possibly BOSC too).  We'll need to commit to a host before we know for sure.  That will require some flexibility in contracts.
-
-*Note: We are hopeful that we will continue to meet with BOSC, and so far for 2018, it's going **really** well.*
+We've been trying for years to co-locate with BOSC, and we finally pulled it off in 2018. [GCCBOSC 2018](https://gccbosc2018.sched.com/) was an experiment and it went so well that we are planning on doing it again, every few years. This adds some uncertainty for anyone interested in hosting GCC because it may also involve hosting BOSC too.  We are thinking we will co-locate every 2 or 3 years, so the next joint meeting will be in 2020 or 2021
 
 # When should we start talking?
 
