@@ -196,7 +196,7 @@ ${body}
 </table>`;
     }
     image(href, title, text) {
-        let out = `<img class="img-responsive" src="${href}" alt="${text}"`;
+        let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
         if (title) {
             out += ` title="${title}"`;
         }
