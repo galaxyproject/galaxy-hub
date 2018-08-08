@@ -305,7 +305,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Galaxy@Pasteur
 
-<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/public-galaxy-servers/Pasteur300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/public-galaxy-servers/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
 
 * *Link:*
   * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
@@ -320,7 +320,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Galaxy Sigenae / BioInfo Genotoul
 
-<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/public-galaxy-servers/GalaxySigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
+<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/public-galaxy-servers/archive/galaxy-sigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
 
 * *Link:*
   * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)

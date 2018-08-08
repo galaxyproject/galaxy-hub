@@ -253,7 +253,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Galaxy Integrated Omics (GIO)
 
-<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/public-galaxy-servers/GIOLogo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
+<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/public-galaxy-servers/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
 
 * *Link:*
   * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
@@ -274,7 +274,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## RNA-Seq Portal
 
-<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/src/public-galaxy-servers/RNA-SeqPortal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
+<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/src/public-galaxy-servers/archive/rna-seq-portal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
 
 * *Links:*
   * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)

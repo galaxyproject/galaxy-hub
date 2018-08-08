@@ -387,7 +387,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## BISTRO
 
-<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/src/public-galaxy-servers/Bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/src/public-galaxy-servers/archive/bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BISTRO Galaxy](http://galaxy.bioinfo-bistro.fr/galaxy/)
@@ -404,7 +404,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MiModD NacreousMap
 
-<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/public-galaxy-servers/Baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
+<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/public-galaxy-servers/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
 
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
@@ -424,7 +424,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## NIOO-KNAW PhyloProfiler
 
-<div class='right solid'><a href='https://galaxy.bioinf.nioo.knaw.nl/public/'><img src="/src/public-galaxy-servers/NIOO-KNAW-Logo.jpg" alt="NIOO-KHAN Public Galaxy Server featuring PhyloPofiler" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.bioinf.nioo.knaw.nl/public/'><img src="/src/public-galaxy-servers/archive/nioo-knaw-loggo.jpg" alt="NIOO-KHAN Public Galaxy Server featuring PhyloPofiler" width="300" /></a></div>
 
 * *Link:*
   * [NIOO-KHAN Public Galaxy Server featuring PhyloPofiler](https://galaxy.bioinf.nioo.knaw.nl/public/)

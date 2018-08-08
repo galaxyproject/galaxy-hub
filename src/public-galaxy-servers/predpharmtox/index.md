@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.predpharmtox.org/"
     link_text: "PredPharmTox"
 summary: "Large Scale Predictive Pharmacology and Toxicology "
-image: "/src/public-galaxy-servers/PredPharmTox300.png"
+image: "/src/public-galaxy-servers/predpharmtox/predpharmtox-300.png"
 user_support: 
 quotas: 
 sponsors: 

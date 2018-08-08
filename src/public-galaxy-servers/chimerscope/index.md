@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://galaxy.unmc.edu/"
     link_text: "ChimeRScope Galaxy Server"
 summary: "Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. "
-image: "/src/public-galaxy-servers/chimerscope.png"
+image: "/src/public-galaxy-servers/chimerscope/chimerscope.png"
 user_support: 
 quotas: 
 sponsors: 

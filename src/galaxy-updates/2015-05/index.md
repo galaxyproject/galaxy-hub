@@ -391,7 +391,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Server: The ReproGenomics Viewer
 
-<div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/src/public-galaxy-servers/ReproGenomicsViewer.png" alt="The ReproGenomics Viewer"  /></a></div>
+<div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/src/public-galaxy-servers/archive/repro-genomics-viewer.png" alt="The ReproGenomics Viewer"  /></a></div>
  
 * *Link:*
   * [The ReproGenomics Viewer working environment](http://rgv.genouest.org/galaxy/)

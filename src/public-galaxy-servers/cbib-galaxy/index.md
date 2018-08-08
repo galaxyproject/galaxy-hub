@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://services.cbib.u-bordeaux2.fr/galaxy/"
     link_text: "CBiB Galaxy"
 summary: "A general purpose Galaxy instance that includes EMBOSS (a software analysis package for molecular biology) and fibronectin (diversity analysis of synthetic libraries of a Fibronectin domain). "
-image: "/src/public-galaxy-servers/CBiBLogo300.png"
+image: "/src/public-galaxy-servers/cbib-galaxy/cbib-logo-300.png"
 user_support: 
 quotas: 
 sponsors: 

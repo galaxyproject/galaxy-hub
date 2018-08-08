@@ -316,7 +316,7 @@ Several new [public Galaxy servers](/src/public-galaxy-servers/index.md) were ad
 
 ## RiboGalaxy
 
-<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/src/public-galaxy-servers/RiboGalaxyLogo.png" alt="RiboGalaxy" width="200" /></a></div>
+<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/src/public-galaxy-servers/ribogalaxy/ribogalaxy-logo.png" alt="RiboGalaxy" width="200" /></a></div>
  
 [RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. It is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
 
@@ -327,7 +327,7 @@ RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
 
 ## CardioVascular Research Grid (CVRG)
 
-<div class='left solid'><a href='http://cvrg.galaxycloud.org/'><img src="/src/public-galaxy-servers/CVRGHome.png" alt="CardioVascular Research Grid (CVRG)" width="200" /></a></div>
+<div class='left solid'><a href='http://cvrg.galaxycloud.org/'><img src="/src/public-galaxy-servers/archive/cvrg-home.png" alt="CardioVascular Research Grid (CVRG)" width="200" /></a></div>
 
 The [CardioVascular Research Grid (CVRG)](http://www.cvrgrid.org/) project provides [CVRG Galaxy](http://cvrg.galaxycloud.org/) for secure seamless access to study data and analysis tools.  Users can transfer data to CVRG Galaxy at high speed using [Globus Connect](https://www.globus.org/globus-connect-personal). CVRG Galaxy provides a wide range of analysis algorithms, including [Physionet](http://www.physionet.org/) algorithms for ECG analysis, and stored workflows  that simplify the process of data analysis. CVRG Galaxy also has tools that help users run their analyses faster by using multiple processors on the  Amazon Elastic Compute Cloud. CVRG Galaxy can annotate data by  retrieving ontology terms from the [Bioportal](http://bioportal.bioontology.org/) ontology server.
 
@@ -337,7 +337,7 @@ There is [CVRG Galaxy Wiki Page](http://wiki.cvrgrid.org/index.php/CVRG_Galaxy) 
 
 ## Center for Phage Technology (CPT)
 
-<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src="/src/public-galaxy-servers/CPTLogo.png" alt="Center for Phage Technology (CPT)" width="200" /></a></div>
+<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src="/src/public-galaxy-servers/center-for-phage-technology-cpt/cpt-logo.png" alt="Center for Phage Technology (CPT)" width="200" /></a></div>
 
 The [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-public/) includes 50 additional tools, and PAUSE (Pile-Up Analysis Using Starts & Ends) V1 and V2 tool sets. There are also several [published workflows](https://cpt.tamu.edu/galaxy-public/workflow/list_published) demonstrating PAUSE for both paired and single-end reads.
 

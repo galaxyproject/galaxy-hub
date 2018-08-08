@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://apostl.moffitt.org/"
     link_text: "APOSTL Galaxy Server"
 summary: "Automated Processing of SAINT Templated Layouts (APOSTL) is a freely available software suite and analysis pipeline for reproducible, interactive analysis of AP-MS data. "
-image: "/src/public-galaxy-servers/APOSTLlogo300.png"
+image: "/src/public-galaxy-servers/apostl/apostl-logo-300.png"
 user_support: 
 quotas: 
 sponsors: 

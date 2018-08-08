@@ -386,7 +386,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Halogen Bonding
 
-<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/public-galaxy-servers/HalogenBonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
+<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/public-galaxy-servers/halogen-bonding/halogen-bonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
 
 * *Link:*
   * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)

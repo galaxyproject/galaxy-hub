@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://semantics.systemsbiology.nl/RDF2Graph/"
     link_text: "RDF2Graph Server"
 summary: "RDF2Graph recovers the structure of an RDF resource. "
-image: "/src/public-galaxy-servers/RDF2Graph_reactome.png"
+image: "/src/public-galaxy-servers/rdf2graph/rdf2graph_reactome.png"
 user_support: 
 quotas: 
 sponsors: 

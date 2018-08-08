@@ -157,7 +157,7 @@ We have efficient computational methods in modeling all processes involved in RN
 
 ### MMG@IICT
 
-<div class='right'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/OSDD_MPDS.png" alt="MMG@IICT" width="170" /></a></div>
+<div class='right'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/osdd-mpds.png" alt="MMG@IICT" width="170" /></a></div>
  
 Workshops and training about the Molecular Property Diagnostic Suite (MPDS).
 

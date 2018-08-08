@@ -5,7 +5,7 @@ server_group: "usegalaxy"
 server_links: 
   - link_url: "https://usegalaxy.org"
     link_text: "Main"
-summary: "The [Galaxy Project](/src/galaxy-project/index.md) free public server; biomedical research "
+summary: "The [Galaxy Project](/galaxy-project/) free public server; biomedical research "
 image: "/src/images/logos/UseGalaxy.orgLogo600.png"
 user_support: 
 quotas: 

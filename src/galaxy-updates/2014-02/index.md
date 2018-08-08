@@ -279,7 +279,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## CTMM-TraIT Demo Galaxy
 
-<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/src/public-galaxy-servers/CTMM-TraIT.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/src/public-galaxy-servers/archive/ctmm-trait.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [CTMM-TraIT Demo Galaxy](http://galaxy.ctmm-trait.nl/)
@@ -298,7 +298,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## PIPE-CLIP
 
-<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/public-galaxy-servers/QBRCLogo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/public-galaxy-servers/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)

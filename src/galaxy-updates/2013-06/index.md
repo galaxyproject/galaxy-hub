@@ -13,7 +13,7 @@ Welcome to the June 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 
 ### ODoSE
 
-<div class='left'><a href='http://www.odose.nl/'><img src="/src/public-galaxy-servers/ODoSEScatterplot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
+<div class='left'><a href='http://www.odose.nl/'><img src="/src/public-galaxy-servers/archive/odose-scatter-plot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
 
 The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) supports genome-wide calculation of adaptive divergence in prokaryotes:
 
@@ -21,7 +21,7 @@ The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) suppo
 
 See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
 
-<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/public-galaxy-servers/CBiBLogo300.png" alt="CBiB Galaxy" width="200" /></a></div>
+<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/public-galaxy-servers/cbib-galaxy/cbib-logo-300.png" alt="CBiB Galaxy" width="200" /></a></div>
 
 ### CBiB Galaxy
 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://bioinformatics.hsanmartino.it:8080/"
     link_text: "USMI Galaxy Demonstrator"
 summary: "This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment. "
-image: "/src/public-galaxy-servers/usmi.png"
+image: "/src/public-galaxy-servers/usmi-galaxy-demonstrator/usmi.png"
 user_support: 
 quotas: 
 sponsors: 

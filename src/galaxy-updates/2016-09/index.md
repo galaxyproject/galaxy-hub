@@ -374,7 +374,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### ImmPort Galaxy
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
 * *Links:*
   * [ImmPort Galaxy](http://immportgalaxy.org/)
 * *Domain/Purpose:*
@@ -400,7 +400,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Palfinder
 
-<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/public-galaxy-servers/Palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
+<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/public-galaxy-servers/palfinder/palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)

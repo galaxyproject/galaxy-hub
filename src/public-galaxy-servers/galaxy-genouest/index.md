@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://my.genouest.org"
     link_text: "Request a GenOuest account"
 summary: "A general purpose Galaxy server Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France. "
-image: "/src/public-galaxy-servers/GalaxyGenOuest.png"
+image: "/src/public-galaxy-servers/galaxy-genouest/galaxy-genouest.png"
 user_support: 
 quotas: 
 sponsors: 

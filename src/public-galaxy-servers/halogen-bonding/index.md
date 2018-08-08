@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://halogenbonding.com/"
     link_text: "Halogen Bonding project home"
 summary: "Visualize halogen bond contacts in the protein binding site. Analyze a protein binding site for halogen bonding hotspots. Evaluate halogen contacts with the protein backbone using the scoring function XBScore. "
-image: "/src/public-galaxy-servers/HalogenBonding.png"
+image: "/src/public-galaxy-servers/halogen-bonding/halogen-bonding.png"
 user_support: 
 quotas: 
 sponsors: 

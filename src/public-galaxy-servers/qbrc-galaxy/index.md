@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://www.galaxy.qbrc.org/"
     link_text: "QBRC Galaxy"
 summary: "Hosts custom tools developed by members of the Quantitative Biomedical Research Center @ University of Texas Southwestern for statistical analysis of various High Throughput Sequencing experiments. "
-image: "/src/public-galaxy-servers/QBRCLogo.jpg"
+image: "/src/public-galaxy-servers/qbrc-galaxy/qbrc-logo.jpg"
 user_support: 
 quotas: 
 sponsors: 

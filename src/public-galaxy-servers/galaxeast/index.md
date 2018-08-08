@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://wiki.galaxeast.fr/doku.php?id=request:account"
     link_text: "Request an account"
 summary: "Integrative 'omics data analysis "
-image: "/src/public-galaxy-servers/GalaxEast.png"
+image: "/src/public-galaxy-servers/galaxeast/galaxeast.png"
 user_support: 
 quotas: 
 sponsors: 

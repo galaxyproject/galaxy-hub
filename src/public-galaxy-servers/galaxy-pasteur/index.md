@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://galaxy.pasteur.fr/"
     link_text: "Galaxy@Pasteur"
 summary: "General purpose genomics analysis server. "
-image: "/src/public-galaxy-servers/Pasteur300.png"
+image: "/src/public-galaxy-servers/galaxy-pasteur/pasteur-300.png"
 user_support: 
 quotas: 
 sponsors: 

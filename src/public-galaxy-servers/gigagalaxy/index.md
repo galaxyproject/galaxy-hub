@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://gigagalaxy.net/"
     link_text: "GigaGalaxy"
 summary: "Standard Galaxy tools set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling. "
-image: "/src/public-galaxy-servers/GigaGalaxyNebula.png"
+image: "/src/public-galaxy-servers/gigagalaxy/gigagalaxy-nebula.png"
 user_support: 
 quotas: 
 sponsors: 

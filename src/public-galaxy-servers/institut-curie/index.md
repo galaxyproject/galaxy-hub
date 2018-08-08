@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://galaxy-public.curie.fr/"
     link_text: "Institut Curie Galaxy"
 summary: "General purpose genomic Galaxy server.  Contains tools for Ion Torrent data, many RNA-Seq tools, [ncPRO-seq](https://www.ncbi.nlm.nih.gov/pubmed/23044543), [RSAT](https://www.ncbi.nlm.nih.gov/pubmed/22156162), Nebula tools, copy number and LOH tools, and NGS diagnostic tools. "
-image: "/src/public-galaxy-servers/InstitutCurieGalaxy.png"
+image: "/src/public-galaxy-servers/institut-curie/institut-curie-galaxy.png"
 user_support: 
 quotas: 
 sponsors: 

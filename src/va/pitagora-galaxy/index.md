@@ -2,11 +2,8 @@
 title: [Pitagora-Galaxy](http://www.pitagora-galaxy.org/)
 ---
 <div class='center'>
-<a href='http://www.pitagora-galaxy.org/'><img src="/src/public-galaxy-servers/Pitagora.png" alt="Pitagora-Galaxy" /></a>
+<a href='http://www.pitagora-galaxy.org/'><img src="/src/public-galaxy-servers/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" /></a>
 </div>
-
-
-
 
 
 <div class='dictbox'>

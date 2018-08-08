@@ -304,9 +304,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 ## Workflow4Metabolomics
 
 <div class='right'>
-<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/public-galaxy-servers/Workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
+<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/public-galaxy-servers/workflow4metabolomics/workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
 <br />
-<div class='right solid'><a href='/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png'><img src="/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
+<div class='right solid'><a href='/src/public-galaxy-servers/workflow4metabolomics/workflow4metabolomics-sponsors.png'><img src="/src/public-galaxy-servers/workflow4metabolomics/workflow4metabolomics-sponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
 <br /><div class='center'>*Sponsors*</div> 
 </div></div>
 
@@ -325,11 +325,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Quotas:* 
   * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph](/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png)
+  * See [sponsor graph](/src/public-galaxy-servers/workflow4metabolomics/workflow4metabolomics-sponsors.png)
 
 ## EpiToolKit
 
-<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/public-galaxy-servers/EpiToolKit_moleculepeptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
+<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/public-galaxy-servers/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
   * [EpiToolKit Galaxy](http://www.epitoolkit.de/)

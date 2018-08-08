@@ -375,7 +375,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## RDF2Graph
 
-<div class='right solid'><a href='http://semantics.systemsbiology.nl/RDF2Graph/'><img src="/src/public-galaxy-servers/RDF2Graph_reactome.png" alt="RDF2Graph using Reactome" width="200" /></a></div>
+<div class='right solid'><a href='http://semantics.systemsbiology.nl/RDF2Graph/'><img src="/src/public-galaxy-servers/rdf2graph/rdf2graph_reactome.png" alt="RDF2Graph using Reactome" width="200" /></a></div>
 
 * *Link:*
   * [RDF2Graph Server](http://semantics.systemsbiology.nl/RDF2Graph/)

@@ -340,7 +340,7 @@ One new server was added to [the list of publicly accessible Galaxy servers](/sr
 
 The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. 
 
-<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/public-galaxy-servers/CAPER300.png" alt="CAPER"  /></a></div>
+<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/public-galaxy-servers/archive/caper-300.png" alt="CAPER"  /></a></div>
 
 In addition to the previous visualization functions of [track-view and heatmap-view](http://pubs.acs.org/doi/abs/10.1021/pr300831z), CAPER 2.0 presents a powerful toolbox for C-HPP data analyses and also integrates Galaxy, allowing users to easily conduct their own C-HPP proteomic data analyses and visualization. CAPER 2.0 presents four specific workflows for finding missing proteins, mapping peptides to chromosomes for genome annotation, integrating peptides with transcription factor binding sites from ENCODE data sets, and functionally annotating proteins.
 

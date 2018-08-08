@@ -307,7 +307,7 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md), [PGTB](/src
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
-<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/public-galaxy-servers/pgtb.png" alt="PGTB Galaxy"  /></a></div>
+<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/public-galaxy-servers/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
   * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**

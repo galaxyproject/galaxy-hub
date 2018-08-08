@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://bioinformatics.mpi-bn.mpg.de/"
     link_text: "MPI-HLR Bioinformatics Server"
 summary: "Hosts the MIRPIPE, ADMIRE, and LimiTT tools "
-image: "/src/public-galaxy-servers/MPI-HLRHomePage.png"
+image: "/src/public-galaxy-servers/mpi-hlr-bioinformatics-server/mpi-hlr-home-page.png"
 user_support: 
 quotas: 
 sponsors: 

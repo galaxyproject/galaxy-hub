@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://sites.google.com/a/irri.org/iric/resources/iric-data-portal"
     link_text: "IRIC Data and Analysis Portal"
 summary: "Bioinformatics workbench, with rice-specific data (i.e. genomes) and tools (mostly specialized for the [IRRI Genotyping Service Laboratory](http://gsl.irri.org/)) installed. "
-image: "/src/public-galaxy-servers/IRRI.png"
+image: "/src/public-galaxy-servers/international-rice-research-institute-irri-galaxy/irri.png"
 user_support: 
 quotas: 
 sponsors: 

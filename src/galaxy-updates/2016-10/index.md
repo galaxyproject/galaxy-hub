@@ -464,7 +464,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Galaxy-CEFAP
 
-<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/public-galaxy-servers/CEFAP-Logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
+<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/public-galaxy-servers/galaxy-cefap/cefap-logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
 
 [Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) offers a set of tools to perform RNA-Seq and miRNA. User support is available via [Email](mailto:geninfo AT icb DOT usp DOT br), and there is an [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf) as well.  Anyone can use the server, but it is necessary to create a login first.  Email [geninfo AT icb DOT usp DOT br](mailto:geninfo AT icb DOT usp DOT br) to request an account. There is a storage quota for all users.
 
@@ -472,7 +472,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### VarCap
 
-<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/public-galaxy-servers/VarCapWorkflow.png" alt="VarCap" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/public-galaxy-servers/varcap/varcap-workflow.png" alt="VarCap" width="200" /></a></div>
 
 [VarCap Galaxy](http://galaxy.csb.univie.ac.at:8080/) performs reliable prediction of different types of variants even at low frequencies. See
  Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2016) [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/). *PeerJ Preprints* 4:e2449v1 doi: 10.7287/peerj.preprints.2449v1

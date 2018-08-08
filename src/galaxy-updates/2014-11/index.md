@@ -303,7 +303,7 @@ Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were added 
 
 ## Majewski Lab Galaxy
 
-<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/public-galaxy-servers/McGillGQIC.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
+<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/public-galaxy-servers/majewski-lab/mcgill-qgic.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
 
 The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [email](mailto:Javad DOT Nadaf AT gmail DOT com).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 
@@ -311,7 +311,7 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/OSDD_MPDS.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/osdd-mpds.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
 
 The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 

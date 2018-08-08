@@ -12,7 +12,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a m
 
 *A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in September.
 
-<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/CNIC.DarwinTreeHome.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
+<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/archive/cnic-darwin-tree-home.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
 
 ## CNIC.DarwinTree
 
@@ -22,7 +22,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a m
 
 ## Fast UniFrac
 
-<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/src/public-galaxy-servers/FastUniFracHomePage.png" alt="Fast UniFrac" width="200" /></a></div>
+<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/src/public-galaxy-servers/archive/fast-unifrac-home-page.png" alt="Fast UniFrac" width="200" /></a></div>
 
 [Fast UniFrac](http://unifrac.colorado.edu) provides a suite of tools for the comparison of microbial communities using phylogenetic information. See "[Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data](http://www.nature.com/ismej/journal/v4/n1/full/ismej200997a.html)" by M Hamady, C Lozupone and R Knight, *[The ISME Journal](http://www.nature.com/ismej/index.html)* (2010) 4, 17–27; doi:10.1038/ismej.2009.97
 
@@ -30,7 +30,7 @@ No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the 
 
 ## kmer-SVM
 
-<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-SVM.png" alt="kmer-SVM" height="133" /></a></div>
+<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
 
 [kmer-SVM](http://kmersvm.beerlab.org/) is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
 
@@ -40,7 +40,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 ## NGS-QC Generator
 
-<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/public-galaxy-servers/NGS-QC_Generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/public-galaxy-servers/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
 
 [NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php). 
 
@@ -50,7 +50,7 @@ The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department
 
 ## USP-FCFRP
 
-<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/public-galaxy-servers/USP-FCFRP.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
+<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/public-galaxy-servers/archive/usp-fcrp.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
 
 The [Laboratory of Biological Physics at USP-FCFRP](http://fisbio.fcfrp.usp.br:8080/) Galaxy server has these tools:
  **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 

@@ -370,7 +370,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ## Pathogen Portal RNA-Rocket seeking funding
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/public-galaxy-servers/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/public-galaxy-servers/rna-rocket-pathogen-portal/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
 
 Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.pathogenportal.org/) supports RNA-Seq analysis for literally thousands of microbial reference genomes.  If you use, have used, or are going to start using RNA-Rocket, then the folks behind RNA-Rocket ask that you "please consider writing a brief statement of support to [pathporthelp@vbi.vt.edu](mailto:pathporthelp@vbi.vt.edu)."
 
@@ -378,7 +378,7 @@ Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.
 
 ### GrAPPA
 
-<div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/src/public-galaxy-servers/GrAPPALogo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
+<div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/src/public-galaxy-servers/grappa/grappa-logo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
 
   * [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
 
@@ -391,7 +391,7 @@ Efforts to increase GrAPPA’s functionality are underway. Features now being in
 
 ### USMI Galaxy Demonstrator
 
-<div class='right'><a href='http://bioinformatics.hsanmartino.it:8080/'><img src="/src/public-galaxy-servers/usmi.png" alt="USMI Galaxy Demonstrator" width="200" /></a></div>
+<div class='right'><a href='http://bioinformatics.hsanmartino.it:8080/'><img src="/src/public-galaxy-servers/usmi-galaxy-demonstrator/usmi.png" alt="USMI Galaxy Demonstrator" width="200" /></a></div>
 
 The [USMI Galaxy Demonstrator](http://bioinformatics.hsanmartino.it:8080/) demonstrates integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment.   The server supports anonymous access and account creation, and is supported by [IRCCS AOU San Martino IST](http://www.hsanmartino.it/), Genoa, Italy.  Please report issuses, request information, and send any suggestions, comments or criticisms to: [Daniele Pierpaolo Colobraro](mailto:danielepierpaolo.colobraro@hsanmartino.it) or [Paolo Romano](mailto:paolo.romano@hsanmartino.it)
 

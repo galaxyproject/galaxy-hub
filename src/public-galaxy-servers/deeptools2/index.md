@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://deeptools.github.io/"
     link_text: "deepTools home page at GitHub"
 summary: "deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments. "
-image: "/src/public-galaxy-servers/deepTools.png"
+image: "/src/public-galaxy-servers/deeptools2/deeptools.png"
 user_support: 
 quotas: 
 sponsors: 

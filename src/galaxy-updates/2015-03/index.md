@@ -354,7 +354,7 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added i
 
 ## Whale Shark
 
-<div class='right solid'><a href='http://whaleshark.georgiaaquarium.org/'><img src="/src/public-galaxy-servers/WhaleSharkLanding300.png" alt="Whale Shark Galaxy @ The Georgia Aquarium" width=300 /></a></div>
+<div class='right solid'><a href='http://whaleshark.georgiaaquarium.org/'><img src="/src/public-galaxy-servers/archive/whate-shark-landing-300.png" alt="Whale Shark Galaxy @ The Georgia Aquarium" width=300 /></a></div>
 
 * *Link:*
   * [Whale Shark Galaxy](http://whaleshark.georgiaaquarium.org/)

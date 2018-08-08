@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://www.pgtb.u-bordeaux2.fr/"
     link_text: "Plateforme Genome Transcriptome de Bordeaux"
 summary: "This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis. "
-image: "/src/public-galaxy-servers/pgtb.png"
+image: "/src/public-galaxy-servers/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png"
 user_support: 
 quotas: 
 sponsors: 

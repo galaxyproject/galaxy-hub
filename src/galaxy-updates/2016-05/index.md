@@ -503,7 +503,7 @@ There are [two new publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ## MGEScan
 
-<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/public-galaxy-servers/MGEScanVideoStart.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
+<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/public-galaxy-servers/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
 
 * *Link(s):*
   * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)

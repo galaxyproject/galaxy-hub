@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://mgescan.readthedocs.org/en/latest/server.html"
     link_text: "MGEScan on Galaxy Workflow System"
 summary: "Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences. "
-image: "/src/public-galaxy-servers/MGEScanVideoStart.png"
+image: "/src/public-galaxy-servers/mgescan/mgescan-video-start.png"
 user_support: 
 quotas: 
 sponsors: 

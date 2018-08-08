@@ -2,7 +2,7 @@
 title: Microbial analysis with Orione
 ---
 <div class='center'>
-<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement'><img src="/src/public-galaxy-servers/OrioneLogo.png" alt="Microbial analysis with Orione" height="200" /></a>
+<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement'><img src="/src/public-galaxy-servers/orione/orione-logo.png" alt="Microbial analysis with Orione" height="200" /></a>
 </div>
 
 

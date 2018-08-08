@@ -768,7 +768,7 @@ server_links:
   - link_url: "http://avispa.biociphers.org/"
     link_text: "BioCiphers Galaxy"
 summary: "BCL Galaxy gives a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania. "
-image: "/src/public-galaxy-servers/BioCiphersLandingPage300.png"
+image: "/src/public-galaxy-servers/biociphers-lab-galaxy/biociphers-landing-page-300.png"
 user_support: 
 quotas: 
 sponsors: 

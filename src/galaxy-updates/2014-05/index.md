@@ -386,7 +386,7 @@ Two [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to t
 
 ## SunLab
 
-<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/public-galaxy-servers/SunLab.png" alt="SunLab Galaxy Server"  /></a></div>
+<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/public-galaxy-servers/archive/sun-lab.png" alt="SunLab Galaxy Server"  /></a></div>
  
 * *Links:*
     [SunLab Galaxy Server](http://meta.cmb.usc.edu/)

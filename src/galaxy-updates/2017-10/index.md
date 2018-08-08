@@ -220,7 +220,7 @@ The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was re
 
 ## ImmPort Galaxy: New Release and Feedback Needed
 
-<img class="pull-right" src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="200" />
+<img class="pull-right" src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
 
 The [ImmPort Project](http://www.immport.org/) just released a new version of [ImmPort Galaxy](http://immportgalaxy.org/). You can now upload your flow data as flowFrames, and there are new tools too:
 

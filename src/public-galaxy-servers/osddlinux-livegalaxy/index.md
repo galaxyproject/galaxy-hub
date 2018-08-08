@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://sysborg2.osdd.net"
     link_text: "OSDD Portal"
 summary: "Drug discovery "
-image: "/src/public-galaxy-servers/OSDDLinuxLiveGalaxyHomePage300.png"
+image: "/src/public-galaxy-servers/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -9,14 +9,14 @@ Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 ## New Public Galaxy Servers
 
-<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src="/src/public-galaxy-servers/BallaxyHomePage.png" alt="ballaxy Galaxy public server"  /></a></div>
+<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src="/src/public-galaxy-servers/ballaxy/ballaxy-home-page.png" alt="ballaxy Galaxy public server"  /></a></div>
 
 [ballaxy](https://ballaxy.bioinf.uni-sb.de) hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data.  It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or  optimal bond order assignment of ligands "BOA Constructor".
 A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*  ballaxy is supported by the groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany).
 
 <br />
 
-<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src="/src/public-galaxy-servers/SouthGreenHomePage.png" alt="South Green Galaxy public server"  /></a></div>
+<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src="/src/public-galaxy-servers/south-green/south-green-home-page.png" alt="South Green Galaxy public server"  /></a></div>
 
 [South Green Galaxy](http://gohelle.cirad.fr/galaxy/) is a part of the [South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/), "a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."  It supports many custom tools and data sources relevant to plants.  It also has a *10 MB storage quota for anonymous users.*  Account creation is restricted to those with an [active collaboration](http://umr-agap.cirad.fr/en) and that work on southern and Mediterranean plants.  South Green Galaxy is sponsored by [CIRAD](http://www.cirad.fr/en/), [IRD (Institut de recherche pour le développement)](http://en.ird.fr/), [Bioversity International](http://www.bioversityinternational.org/), [INRA](http://www.international.inra.fr/), [Montpellier SupAgro](http://www.supagro.fr/web/?idl=20)
 

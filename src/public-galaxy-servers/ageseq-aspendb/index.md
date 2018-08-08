@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://aspendb.uga.edu:8085/"
     link_text: "AGEseq Galaxy @ AspenDB"
 summary: "This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance. "
-image: "/src/public-galaxy-servers/AspenDB300.png"
+image: "/src/public-galaxy-servers/ageseq-aspendb/aspen-db-300.png"
 user_support: 
 quotas: 
 sponsors: 

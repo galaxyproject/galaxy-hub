@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://hub.docker.com/r/riboseq/ribogalaxy"
     link_text: "RiboGalaxy on Docker Hub"
 summary: "Tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. "
-image: "/src/public-galaxy-servers/RiboGalaxyLogo.png"
+image: "/src/public-galaxy-servers/ribogalaxy/ribogalaxy-logo.png"
 user_support: 
 quotas: 
 sponsors: 

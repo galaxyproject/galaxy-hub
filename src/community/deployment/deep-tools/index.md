@@ -2,7 +2,7 @@
 title: [deepTools](http://deeptools.ie-freiburg.mpg.de/)
 ---
 <div class='center'>
-<a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deepTools.png" alt="deepTools" height="200" /></a>
+<a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deeptools2/deeptools.png" alt="deepTools" height="200" /></a>
 </div>
 
 

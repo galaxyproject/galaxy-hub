@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.southgreen.fr/galaxy/"
     link_text: "South Green Galaxy"
 summary: "Genomic resource analysis of southern and Mediterranean plants. "
-image: "/src/public-galaxy-servers/SouthGreenHomePage.png"
+image: "/src/public-galaxy-servers/south-green/south-green-home-page.png"
 user_support: 
 quotas: 
 sponsors: 

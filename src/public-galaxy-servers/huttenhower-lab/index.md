@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://huttenhower.sph.harvard.edu/galaxy/"
     link_text: "Huttenhower Lab"
 summary: "metagenomic and functional genomic analyses, intended for research and academic use "
-image: "/src/public-galaxy-servers/HuttenhowerLab.png"
+image: "/src/public-galaxy-servers/huttenhower-lab/huttenhower-lab.png"
 user_support: 
 quotas: 
 sponsors: 

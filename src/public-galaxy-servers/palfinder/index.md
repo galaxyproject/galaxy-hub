@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://palfinder.ls.manchester.ac.uk/"
     link_text: "Galaxy Palfinder Service"
 summary: "Microsatellite development. "
-image: "/src/public-galaxy-servers/Palfinder.png"
+image: "/src/public-galaxy-servers/palfinder/palfinder.png"
 user_support: 
 quotas: 
 sponsors: 

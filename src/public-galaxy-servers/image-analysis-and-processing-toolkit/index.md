@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://cloudimaging.net.au/"
     link_text: "Image Analysis and Processing Toolkit Server"
 summary: "Image analysis and processing. "
-image: "/src/public-galaxy-servers/ImageAnalysisToolkit.png"
+image: "/src/public-galaxy-servers/image-analysis-and-processing-toolkit/image-analysis-toolkit.png"
 user_support: 
 quotas: 
 sponsors: 

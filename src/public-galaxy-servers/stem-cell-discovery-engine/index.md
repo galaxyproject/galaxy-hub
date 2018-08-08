@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://discovery.hsci.harvard.edu/galaxy"
     link_text: "Stem Cell Discovery Engine (SCDE)"
 summary: "Database of curated cancer stem cell experiments coupled to Galaxy. "
-image: "/src/public-galaxy-servers/SCDE.png"
+image: "/src/public-galaxy-servers/stem-cell-discovery-engine/scde.png"
 user_support: 
 quotas: 
 sponsors: 

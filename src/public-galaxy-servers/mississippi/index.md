@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://mississippi.fr/"
     link_text: "MISSISSIPPI Server"
 summary: "Support for analyses of RNA and small RNA sequencing datasets as well as for epigenetics or metagenomics studies. "
-image: "/src/public-galaxy-servers/MISSISSIPPILogo.png"
+image: "/src/public-galaxy-servers/mississippi/mississippi-logo.png"
 user_support: 
 quotas: 
 sponsors: 

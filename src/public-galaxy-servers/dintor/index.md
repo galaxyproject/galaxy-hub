@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://dintor.eurac.edu/"
     link_text: "Dintor: Data Integrator Tool Suite"
 summary: "GWA and NGS tools and modules for functional annotation of genes and gene products "
-image: "/src/public-galaxy-servers/Dintor.png"
+image: "/src/public-galaxy-servers/dintor/dintor.png"
 user_support: 
 quotas: 
 sponsors: 

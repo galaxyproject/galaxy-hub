@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://www.lappsgrid.org/"
     link_text: "Language Application Grid"
 summary: "An open, interoperable web service platform for natural language processing (NLP) research and development.  "
-image: "/src/public-galaxy-servers/LAPPSGrid.png"
+image: "/src/public-galaxy-servers/lapps-grid/lapps-grid.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://nebula.curie.fr/"
     link_text: "Nebula"
 summary: "allows users (Bioinformaticians as far as Biologists) to analyze their ChIP-seq data. "
-image: "/src/public-galaxy-servers/Nebula.png"
+image: "/src/public-galaxy-servers/nebula/nebula.png"
 user_support: 
 quotas: 
 sponsors: 

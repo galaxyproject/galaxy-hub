@@ -8,7 +8,7 @@ server_links:
   - link_url: "/src/community/deployment/kmer-svm/index.md"
     link_text: "Deployment page"
 summary: "Tool suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay.  "
-image: "/src/public-galaxy-servers/kmer-SVM.png"
+image: "/src/public-galaxy-servers/kmer-svm/kmer-svm.png"
 user_support: 
 quotas: 
 sponsors: 

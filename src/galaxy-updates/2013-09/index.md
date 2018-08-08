@@ -14,7 +14,7 @@ A record *five new servers* joined [the list of over 40 publicly accessible Gala
 
 ## Galaxy-P
 
-<div class='left solid'><a href='https://usegalaxyp.org/'><img src="/src/public-galaxy-servers/GetGalaxyPHomePage.png" alt="Galaxy-P" width="200" /></a></div>
+<div class='left solid'><a href='https://usegalaxyp.org/'><img src="/src/public-galaxy-servers/galaxy-p/get-galaxy-p-home.png" alt="Galaxy-P" width="200" /></a></div>
 
 [Galaxy-P](https://usegalaxyp.org/) is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/).  Pending imminent hardware upgrades, usegalaxyp.org is running with fairly limited computational resources and on disk that is not backed up. Galaxy-P is under active development - things will break and things will change, so your patience is requested.
 
@@ -22,7 +22,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 ## GWIS
 
-<div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src="/src/public-galaxy-servers/GWISPosterTop.png" alt="GWIS" width="200" /></a></div>
+<div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src="/src/public-galaxy-servers/archive/gwis-poster-top.png" alt="GWIS" width="200" /></a></div>
 
 [NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [via email](mailto:gwis AT nicta DOT com DOT au).
 
@@ -43,7 +43,7 @@ See
 
 ## MBAC Metabiome Portal
 
-<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/public-galaxy-servers/MBACPortalLandingPage.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
+<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/public-galaxy-servers/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
 
 The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. 
 
@@ -51,7 +51,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 
 ## ZBIT Bioinformatics Toolbox
 
-<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/public-galaxy-servers/ZBITHomePage.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
+<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/public-galaxy-servers/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors

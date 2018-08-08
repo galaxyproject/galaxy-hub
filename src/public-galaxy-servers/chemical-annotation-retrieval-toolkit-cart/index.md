@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://cart.embl.de/"
     link_text: "Server"
 summary: "Retrieves annotations on biological effects of chemicals and determines which ones are enriched. "
-image: "/src/public-galaxy-servers/CART.png"
+image: "/src/public-galaxy-servers/chemical-annotation-retrieval-toolkit-cart/cart.png"
 user_support: 
 quotas: 
 sponsors: 

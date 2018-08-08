@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://ab-openlab.csir.res.in/frog/"
     link_text: "FROG Server"
 summary: "FROG stands for **F**inge**R**printing **O**ntology of **G**enomic variations. FROG fingerprints have been devised to capture genomic variations at various levels. "
-image: "/src/public-galaxy-servers/FROG.png"
+image: "/src/public-galaxy-servers/ab-openlab/frog.png"
 user_support: 
 quotas: 
 sponsors: 
