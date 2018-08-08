@@ -6,12 +6,43 @@ block content
             section.section-content
                 h1 #{ title }
                 div.blurb !{ contents }
-                script.
-                    var cx = '007594916903876912968:w0nrox8rzzy';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                | <gcse:searchresults-only></gcse:searchresults-only>
+                ul.nav.nav-tabs
+                    li.nav-item
+                        a.nav-link.active#google-tab(data-toggle="tab" href="#google-pane" role="tab" aria-controls="google-pane" aria-selected="true") Pan-Galactic Google Search
+                    li.nav-item
+                        a.nav-link#zotero-tab(data-toggle="tab" href="#zotero-pane"  role="tab" aria-controls="zotero-pane" aria-selected="false") Zotero Publication Search
+                div.tab-content
+                    div.tab-pane.active#google-pane(role="tabpanel" aria-labelledby="home-tab")
+                        script.
+                            var cx = '007594916903876912968:w0nrox8rzzy';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        | <gcse:searchresults-only></gcse:searchresults-only>
+                    div.tab-pane#zotero-pane(role="tabpanel" aria-labelledby="zotero-tab")
+                        p
+                            | Loading Zotero Results - 
+                            i.fa.fa-spinner.fa-spin
+
+    script(type='text/javascript').
+        $(function(){
+            var match = RegExp('[?&]q=([^&]*)').exec(window.location.search);
+            var qstr = match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+            if (qstr){
+                axios.get('https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q='+qstr).then(function(response){
+                    if (response.data.length != 0){
+                        var tmpl = _.template('<ul class="list-group list-group-flush"><% _.forEach(results, function(result) { %><li class="list-group-item"><h4><%- result.data.title %></h4><a href="<%- result.data.url %>"><%- result.data.url %></a> <% if (result.data.abstractNote) { %> <p> <%- result.data.abstractNote.slice(0, 450) %>...</p> <% } %></li><% }); %></ul>');
+                        $("#zotero-pane").html(tmpl({"results": response.data}));
+                    }
+                    else{
+                        $("#zotero-pane").html("<p>Search finished for <strong>'" + qstr + "'</strong> with no results.  Please refine your query and try again!</p>");
+                     }
+                }).catch(function(error){
+                    $("#zotero-pane").text(error);
+                    console.log(error);
+                });
+            }
+        });
