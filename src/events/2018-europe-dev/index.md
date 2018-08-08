@@ -27,7 +27,7 @@ Registration will open soon
 
 ## Venue    
 
-<img class="pull-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
+<img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
 
 Albert-Ludwigs-University Freiburg<br />
 Institute for Informatics<br />

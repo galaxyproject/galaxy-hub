@@ -3,7 +3,7 @@ title: 'November 2017 Galaxy News'
 tease: 'Galactic Blog launches, new events, pubs, tools, ...'
 date: '2017-10-31'
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2017-11/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2017-11/index.md>)
 
 The [November 2017 Galaxy News](/src/galaxy-updates/2017-11/index.md) is out!
 

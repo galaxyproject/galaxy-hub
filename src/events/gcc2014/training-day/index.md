@@ -6,7 +6,7 @@ title: Training Day
 
 {{> Events/GCC2014/LinkBox }}
 
-<img class="pull-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
+<img class="float-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
 
 The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) started on June 30 with a *Training Day* featuring five parallel tracks, each with several two and a half hour workshops.  Tracks cover *using* Galaxy for biological research, and *deploying and managing* Galaxy instances, and everything in between.
 
