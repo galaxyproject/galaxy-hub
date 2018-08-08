@@ -51,7 +51,7 @@
   },
   "scripts": {
     "build": "concurrently \"node build.js\" \"webpack\"",
-    "serve": "node build.js --serve",
+    "serve": "concurrently \"$npm_execpath run webpack\" \"node build.js --serve\"",
     "check": "node build.js --check",
     "watch": "node build.js --watch",
     "webpack": "webpack --config webpack.config.js"
