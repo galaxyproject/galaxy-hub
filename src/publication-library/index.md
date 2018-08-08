@@ -2,7 +2,7 @@
 title: "Galaxy Publication Library"
 ---
 
-<div class="pull-right">
+<div class="float-right">
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
 </div>
 
@@ -69,7 +69,7 @@ Please see the [instructions for contributing](/src/publication-library/contribu
 
 ## CiteULike
 
-<div class="pull-right">
+<div class="float-right">
 ![citeulike](/src/images/logos/CiteULikeLogo.png)
 </div>
 
@@ -77,7 +77,7 @@ The Galaxy publication library resided in CiteULike from 2011-2017.  In that tim
 
 ## Mendeley
 
-<div class="pull-right">
+<div class="float-right">
 ![Mendeley](/src/images/logos/MendeleyLogo.png)
 </div>
 

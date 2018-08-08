@@ -2,7 +2,7 @@
 title: "Contribute to the Galaxy Publication Library"
 ---
 
-<div class="pull-right">
+<div class="float-right">
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
 </div>
 

@@ -11,14 +11,14 @@ Welcome to the October 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 # Hacktoberfest
 
-[<img class="pull-left img-fluid" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
+[<img class="float-left img-fluid" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
 
 What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, we should say [Hacktoberfest](https://hacktoberfest.digitalocean.com/). From Oct 1st through Oct 31st, Hacktoberfest is a celebration of open source coding organized by Digital Ocean and GitHub. This is a great opportunity to get involved with a project and get some help along the way. Plus, if you issue 4 pull request during the month, you get a limited edition t-shirt! Any project on GitHub can participate simply by creating and tagging issues with Hacktoberfest tag. If you'd like to participate on a Galaxy-related project, see the [Galaxy Hacktoberfest dashboard](https://galaxyproject.org/events/2017-10-hacktoberfest/).
 
 
 # The Galaxy Publication Library has moved to Zotero.
 
-[<img class="pull-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
+[<img class="float-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
 
 After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/src/news/2017-09-publication-lib-on-zotero/index.md) for full details. 
 
@@ -220,7 +220,7 @@ The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was re
 
 ## ImmPort Galaxy: New Release and Feedback Needed
 
-<img class="pull-right" src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
+<img class="float-right" src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
 
 The [ImmPort Project](http://www.immport.org/) just released a new version of [ImmPort Galaxy](http://immportgalaxy.org/). You can now upload your flow data as flowFrames, and there are new tools too:
 
@@ -236,7 +236,7 @@ The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e
 
 ## Codon Harmonizer
 
-[<img class="pull-right img-fluid" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
+[<img class="float-right img-fluid" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
 
 
 [Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/public-galaxy-servers/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
@@ -263,7 +263,7 @@ See the [Codon Harmonizer page](/src/public-galaxy-servers/codon-harmonizer/inde
 
 ## Pulsar 0.8.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -283,7 +283,7 @@ This set of revisions includes:
 
 ## Planemo 0.45 - 0.46.1
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

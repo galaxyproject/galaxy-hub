@@ -197,13 +197,13 @@ blockquote {
     font-size: 14px;
 }
 
-/* override bootstrap pull-left and pull-right styling */
+/* override bootstrap float-left and float-right styling */
 
-.pull-right {
+.float-right {
     margin: 0em 0em 1em 1em;
 }
 
-.pull-left {
+.float-left {
     margin: 0em 1em 1em 0em;
 }
 

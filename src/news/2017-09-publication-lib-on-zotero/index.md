@@ -3,7 +3,7 @@ title: 'Galaxy publication library moves to Zotero'
 tease: '4956 pubs and counting'
 date: "2017-09-28"
 ---
-<div class="pull-right">
+<div class="float-right">
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication library is now on Zotero" />](https://www.zotero.org/groups/1732893/galaxy)
 </div>
 
