@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://public.phenomenal-h2020.eu/"
     link_text: "PhenoMeNal"
 summary: "Large scale computing for medical informatics "
-image: "/src/public-galaxy-servers/PhenoMeNal.png"
+image: "/src/public-galaxy-servers/phenomenal/phenomenal.png"
 user_support: 
 quotas: 
 sponsors: 

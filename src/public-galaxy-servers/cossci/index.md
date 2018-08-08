@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://socscicompute.ss.uci.edu/"
     link_text: "CoSSci Complex Social Science Gateway"
 summary: "Tools for solving [Galton's problem](http://en.wikipedia.org/wiki/Galton's_problem) in Comparative Research and complex network problems in Social Science. "
-image: "/src/public-galaxy-servers/CoSSciMap.png"
+image: "/src/public-galaxy-servers/cossci/cossci-map.png"
 user_support: 
 quotas: 
 sponsors: 

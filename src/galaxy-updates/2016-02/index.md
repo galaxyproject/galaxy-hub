@@ -370,7 +370,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 ## LAPPS Grid
 
-<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/public-galaxy-servers/LAPPSGrid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
+<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/public-galaxy-servers/lapps-grid/lapps-grid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://repeatexplorer.umbr.cas.cz/"
     link_text: "RepeatExplorer"
 summary: "Graph-based clustering and characterization of repetitive sequences, and detection of transposable element protein coding domains "
-image: "/src/public-galaxy-servers/RepeatExplorerHomePage300.png"
+image: "/src/public-galaxy-servers/repeatexplorer/repeatexplorer-home-page-300.png"
 user_support: 
 quotas: 
 sponsors: 

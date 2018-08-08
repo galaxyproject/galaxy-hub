@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://pistacho.ac.uma.es/galaxy/"
     link_text: "BitLAB Galaxy"
 summary: "Detailed analysis of metagenomes. "
-image: "/src/public-galaxy-servers/Bitlab.png"
+image: "/src/public-galaxy-servers/bitlab/bitlab.png"
 user_support: 
 quotas: 
 sponsors: 

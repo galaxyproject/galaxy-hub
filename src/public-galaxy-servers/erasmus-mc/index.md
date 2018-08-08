@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://bioinf-galaxian.erasmusmc.nl/galaxy/"
     link_text: "Erasmus MC Bioinformatics Galaxy Server"
 summary: "General purpose genomics analysis, featuring many standard tools plus many additional tools. "
-image: "/src/public-galaxy-servers/ErasmusMCBioinf300.png"
+image: "/src/public-galaxy-servers/erasmus-mc/erasmus-mc-bioinf-300.png"
 user_support: 
 quotas: 
 sponsors: 

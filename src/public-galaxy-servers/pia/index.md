@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://bitbucket.org/osiris_phylogenetics/pia/"
     link_text: "PIA code in Bitbucket"
 summary: "Phylogenetics and gene interaction "
-image: "/src/public-galaxy-servers/PiaImage.jpg"
+image: "/src/public-galaxy-servers/pia/pia-image.jpg"
 user_support: 
 quotas: 
 sponsors: 

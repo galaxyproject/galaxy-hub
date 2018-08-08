@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://cistrome.org/ap/root"
     link_text: "Cistrome Analysis Pipeline"
 summary: "ChIP-chip/seq and gene expression data "
-image: "/src/public-galaxy-servers/Cistrome.png"
+image: "/src/public-galaxy-servers/cistrome-analysis-pipeline/cistrome.png"
 user_support: 
 quotas: 
 sponsors: 
@@ -32,4 +32,4 @@ sponsors:
 
 ## Sponsor(s)
 
-* [Cistrome](/src/community/cistrome/index.md)
+* [Cistrome](http://cistrome.org/)

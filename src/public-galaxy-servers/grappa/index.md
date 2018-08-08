@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://grappa.eecs.utk.edu/grappa/"
     link_text: "Graph Algorithms Pipeline for Pathway Analysis (GrAPPA) Server"
 summary: "GrAPPA is a web-based interface constructed on the Galaxy framework for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results. "
-image: "/src/public-galaxy-servers/GrAPPALogo.png"
+image: "/src/public-galaxy-servers/grappa/grappa-logo.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://mapping-by-sequencing.vm.uni-freiburg.de:8080/"
     link_text: "MiModD NacreousMap"
 summary: "NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. "
-image: "/src/public-galaxy-servers/Baumeister.png"
+image: "/src/public-galaxy-servers/mimodd-nacreousmap/baumeister.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -386,7 +386,7 @@ One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
-<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/public-galaxy-servers/CART.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/public-galaxy-servers/chemical-annotation-retrieval-toolkit-cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Server](http://cart.embl.de/)

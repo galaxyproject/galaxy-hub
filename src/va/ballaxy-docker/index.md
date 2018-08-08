@@ -2,7 +2,7 @@
 title: ballaxy
 ---
 <div class='center'>
-<a href='http://www.ball-project.org/ballaxy'><img src="/src/public-galaxy-servers/BallaxySlide.png" alt="ballaxy" height="200" /></a>
+<a href='http://www.ball-project.org/ballaxy'><img src="/src/public-galaxy-servers/ballaxy/ballaxy-slide.png" alt="ballaxy" height="200" /></a>
 </div>
 
 

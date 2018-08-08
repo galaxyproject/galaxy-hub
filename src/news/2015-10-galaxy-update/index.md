@@ -7,7 +7,7 @@ date: "2015-10-01"
 <a href='/src/galaxy-updates/2015-10/index.md#october-galaxyadmins-meetup'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="170" /></a><br />
 <a href='/src/galaxy-updates/2015-10/index.md#gcc2016-call-for-training-topic-nominations'><img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="80" /></a>
 <a href='/src/galaxy-updates/2015-10/index.md#upcoming-events'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="90" /></a><br />
-<a href='/src/galaxy-updates/2015-10/index.md#new-public-galaxy-servers'><img src="/src/public-galaxy-servers/ABiMSToolsLogos.png" alt="ABiMS Tools Galaxy Server" width="170" /></a>
+<a href='/src/galaxy-updates/2015-10/index.md#new-public-galaxy-servers'><img src="/src/public-galaxy-servers/abims-tools/abims-tools-logos.png" alt="ABiMS Tools Galaxy Server" width="170" /></a>
 </div>
 
 The **[October Galactic News](/src/galaxy-updates/2015-10/index.md)** is hot off the presses.

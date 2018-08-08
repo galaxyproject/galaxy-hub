@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://www.ball-project.org/ballaxy"
     link_text: "ballaxy using Docker"
 summary: "Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data. "
-image: "/src/public-galaxy-servers/BallaxySlide.png"
+image: "/src/public-galaxy-servers/ballaxy/ballaxy-slide.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://cefap.icb.usp.br/galaxy"
     link_text: "Galaxy-CEFAP"
 summary: "Galaxy-CEFAP offers a set of tools to perform RNA-Seq and miRNA analysis. "
-image: "/src/public-galaxy-servers/CEFAP-Logo.png"
+image: "/src/public-galaxy-servers/galaxy-cefap/cefap-logo.png"
 user_support: 
 quotas: 
 sponsors: 

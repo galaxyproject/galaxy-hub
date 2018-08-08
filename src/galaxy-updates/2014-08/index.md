@@ -325,7 +325,7 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 
 ## IM-PET
 
-<div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/src/public-galaxy-servers/IM-PET.png" alt="IM-PET" width="300" /></a></div>
+<div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/src/public-galaxy-servers/archive/im-pet.png" alt="IM-PET" width="300" /></a></div>
 
 * *Link:*
   * [IM-PET](http://impet.int-med.uiowa.edu/) 

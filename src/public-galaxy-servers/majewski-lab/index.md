@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://genomequebec.mcgill.ca/exomeai"
     link_text: "Majewski Lab ExomeAI Server"
 summary: "Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data. "
-image: "/src/public-galaxy-servers/McGillGQIC.png"
+image: "/src/public-galaxy-servers/majewski-lab/mcgill-qgic.png"
 user_support: 
 quotas: 
 sponsors: 

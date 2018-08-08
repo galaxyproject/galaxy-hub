@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.dbcls.jp/"
     link_text: "DBCLS Galaxy"
 summary: "Adds text mining tools, DBCLS DBSearch Tools, semantic web tools "
-image: "/src/public-galaxy-servers/DBCLS.png"
+image: "/src/public-galaxy-servers/dbcls-galaxy/dbcls.png"
 user_support: 
 quotas: 
 sponsors: 

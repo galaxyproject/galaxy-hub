@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://www.epitoolkit.de/"
     link_text: "EpiToolKit Galaxy"
 summary: "Computational immunology for the development of novel epitope-based vaccines. "
-image: "/src/public-galaxy-servers/EpiToolKit_moleculepeptide.png"
+image: "/src/public-galaxy-servers/epitoolkit/epitoolkit-molecule-peptide.png"
 user_support: 
 quotas: 
 sponsors: 

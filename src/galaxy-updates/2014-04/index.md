@@ -269,7 +269,7 @@ Three [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to
 
 ## Biomina
 
-<div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src="/src/public-galaxy-servers/Biomina300.png" alt="Biomina Galaxy"  /></a></div>
+<div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src="/src/public-galaxy-servers/biomina/biomina-300.png" alt="Biomina Galaxy"  /></a></div>
 
 * *Link:*
     [Biomina Galaxy](http://biominavm-galaxy.biomina.be/galaxy/)
@@ -289,7 +289,7 @@ Three [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to
 
 ## Image Analysis and Processing Toolkit
 
-<div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/src/public-galaxy-servers/ImageAnalysisToolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
+<div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/src/public-galaxy-servers/image-analysis-and-processing-toolkit/image-analysis-toolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
   * [Project blog](http://cloudimaging.blogspot.com.au/)
@@ -307,7 +307,7 @@ Three [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to
 
 ## Osiris
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/src/public-galaxy-servers/OsirisLogo.jpg" alt="Osiris" /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/src/public-galaxy-servers/osiris/osiris-logo.jpg" alt="Osiris" /></a></div>
 
 * *Links:*
   * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)

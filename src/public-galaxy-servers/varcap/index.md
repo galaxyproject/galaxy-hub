@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.csb.univie.ac.at:8080/"
     link_text: "VarCap Galaxy"
 summary: "Reliable prediction of different types of variants even at low frequencies. "
-image: "/src/public-galaxy-servers/VarCapWorkflow.png"
+image: "/src/public-galaxy-servers/varcap/varcap-workflow.png"
 user_support: 
 quotas: 
 sponsors: 

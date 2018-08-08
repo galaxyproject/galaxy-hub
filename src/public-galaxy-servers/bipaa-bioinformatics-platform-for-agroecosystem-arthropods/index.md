@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://bipaa.genouest.org/"
     link_text: "BIPAA home page"
 summary: "Insect genomics (aphids, parasitoïd wasps, lepidopterans) "
-image: "/src/public-galaxy-servers/BIPAALogo.png"
+image: "/src/public-galaxy-servers/bipaa-bioinformatics-platform-for-agroecosystem-arthropods/bipaa-logo.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -8,7 +8,7 @@ server_links:
   - link_url: "https://cpt.tamu.edu/"
     link_text: "CPT home page"
 summary: "Phage biology and automated annotation. "
-image: "/src/public-galaxy-servers/CPTLogo.png"
+image: "/src/public-galaxy-servers/center-for-phage-technology-cpt/cpt-logo.png"
 user_support: 
 quotas: 
 sponsors: 

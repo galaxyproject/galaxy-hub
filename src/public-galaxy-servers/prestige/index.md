@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://prestige.case.edu/"
     link_text: "PreSTIGE"
 summary: "Predicting Specific Tissue Interactions of Genes and Enhancers "
-image: "/src/public-galaxy-servers/PreSTIGE.png"
+image: "/src/public-galaxy-servers/prestige/prestige.png"
 user_support: 
 quotas: 
 sponsors: 

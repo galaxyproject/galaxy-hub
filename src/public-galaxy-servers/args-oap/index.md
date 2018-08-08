@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://smile.hku.hk/SARGs"
     link_text: "ARGs-OAP Galaxy Server"
 summary: "Fast annotation and classification of antibiotic resistance gene-like sequences from metagenomic data. "
-image: "/src/public-galaxy-servers/ARGs-OAP.png"
+image: "/src/public-galaxy-servers/args-oap/args-oap.png"
 user_support: 
 quotas: 
 sponsors: 

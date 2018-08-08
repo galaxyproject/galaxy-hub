@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://thebrain.bwh.harvard.edu/sifted.html"
     link_text: "SIFTED Galaxy Server"
 summary: "Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins. "
-image: "/src/public-galaxy-servers/SIFTEDLandingPage.png"
+image: "/src/public-galaxy-servers/sifted/sifted-landing-page.png"
 user_support: 
 quotas: 
 sponsors: 

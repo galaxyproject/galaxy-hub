@@ -267,7 +267,7 @@ Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were announ
 
 ## Pitagora-Galaxy
 
-<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/public-galaxy-servers/Pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/public-galaxy-servers/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
@@ -294,7 +294,7 @@ Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were announ
 
 ## PIA
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/public-galaxy-servers/PiaImage.jpg" alt="PIA" /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/public-galaxy-servers/pia/pia-image.jpg" alt="PIA" /></a></div>
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)

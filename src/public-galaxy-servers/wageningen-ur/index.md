@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.wur.nl/"
     link_text: "Wageningen UR Galaxy"
 summary: "Includes microarray tools, the MUMmer suite, and many conversion tools. Strong focus on multi-omics: next to genomics tools it also contains proteomics and metabolomics tools "
-image: "/src/public-galaxy-servers/Wageningen.png"
+image: "/src/public-galaxy-servers/wageningen-ur/wageningen.png"
 user_support: 
 quotas: 
 sponsors: 

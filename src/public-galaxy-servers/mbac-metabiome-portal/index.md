@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://mbac.gmu.edu/mbac_wp/"
     link_text: "MBAC Metabiome Portal"
 summary: "Simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome). "
-image: "/src/public-galaxy-servers/MBACPortalLandingPage.png"
+image: "/src/public-galaxy-servers/mbac-metabiome-portal/mbac-portal-landing-page.png"
 user_support: 
 quotas: 
 sponsors: 

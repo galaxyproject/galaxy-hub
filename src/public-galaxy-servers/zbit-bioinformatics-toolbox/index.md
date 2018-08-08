@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://webservices.cs.uni-tuebingen.de/"
     link_text: "ZBIT Bioinformatics Toolbox"
 summary: "This customized version of the Galaxy webservice framework was set up to allow the public access of our bioinformatics tools. These tools were developed and implemented by members of the [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/). "
-image: "/src/public-galaxy-servers/ZBIT.png"
+image: "/src/public-galaxy-servers/zbit-bioinformatics-toolbox/zbit.png"
 user_support: 
 quotas: 
 sponsors: 
@@ -22,7 +22,7 @@ sponsors:
   * [SBMLsqueezer](http://www.cogsys.cs.uni-tuebingen.de/software/SBMLsqueezer/): Generate kinetic rate equations for biochemical networks
   * [EDISA](http://www.cogsys.cs.uni-tuebingen.de/software/EDISA/welcome_e.html): Extracting biclusters from multiple time-series of gene expression profiles
   * [ModuleMaster](http://www.cogsys.cs.uni-tuebingen.de/software/ModuleMaster/welcome_e.html): Finding *cis*-regulatory modules using promoter analysis and microarray expression data regression.
-* [Deployment page](/src/community/deployment/zbit-bioinformatics-toolbox/index.md) in the [Galaxy Deployment Catalog](/src/community/deployments/index.md)
+* [Deployment page](/src/community/deployment/zbit-bioinformatics-toolbox/index.md) in the [Galaxy Deployment Catalog](/src/community/deployment/index.md)
 
 ## User Support
 

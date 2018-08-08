@@ -266,7 +266,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Dintor
 
-<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/public-galaxy-servers/Dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
+<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/public-galaxy-servers/dintor/dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
@@ -288,7 +288,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/public-galaxy-servers/ErasmusMCBioinf300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/public-galaxy-servers/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)

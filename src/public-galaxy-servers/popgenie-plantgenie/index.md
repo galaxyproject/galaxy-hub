@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.plantgenie.org:8080/"
     link_text: "PlantGenIE"
 summary: "The [Populus Genome Integrative Explorer](http://popgenie.org/) Galaxy instance. "
-image: "/src/public-galaxy-servers/PopGemIE.png"
+image: "/src/public-galaxy-servers/popgenie-plantgenie/popgenie.png"
 user_support: 
 quotas: 
 sponsors: 

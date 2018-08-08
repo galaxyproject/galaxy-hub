@@ -9,7 +9,9 @@ Welcome to the March 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 ## New Public Galaxy Servers
 
-<div class='left'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src="/src/public-galaxy-servers/UCostaRicaLogo.png" alt="University of Costa Rica" /></a></div> The [University of Costa Rica](http://www.ucr.ac.cr/) School of Medicine, [Master in Bioinformatics and System Biology](http://www2.sep.ucr.ac.cr/MaestriasAcademicas/CBIOMEDICAS/Infodescrip.html) and [BREL (Bioinformatics Research Laboratory)](http://www.ucrbrel.com/) have made the [Galaxy NELLY](http://www.bioinformatica.ucr.ac.cr:8080/) server publicly accessible.  NELLY features the standard Galaxy tool set.  It requires a login, but anyone can create a login.
+<div class='left'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src="/src/public-galaxy-servers/nelly/u-costa-rica-logo.png" alt="University of Costa Rica" /></a></div>
+
+The [University of Costa Rica](http://www.ucr.ac.cr/) School of Medicine, [Master in Bioinformatics and System Biology](http://www2.sep.ucr.ac.cr/MaestriasAcademicas/CBIOMEDICAS/Infodescrip.html) and [BREL (Bioinformatics Research Laboratory)](http://www.ucrbrel.com/) have made the [Galaxy NELLY](http://www.bioinformatica.ucr.ac.cr:8080/) server publicly accessible.  NELLY features the standard Galaxy tool set.  It requires a login, but anyone can create a login.
 
 This server joins the [growing list of public Galaxy servers](/src/public-galaxy-servers/index.md).
 

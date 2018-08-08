@@ -350,11 +350,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 ----
 
 <div class='right solid blue'> 
-<a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/public-galaxy-servers/FROG.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
-<a href='http://aspendb.uga.edu/ageseq'><img src="/src/public-galaxy-servers/AspenDB300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
-<a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/public-galaxy-servers/BioMaSLogo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
-<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/public-galaxy-servers/SIFTEDLandingPage.png" alt="SIFTED" width="160" /></a><br />
-<a href='http://mississippi.fr/'><img src="/src/public-galaxy-servers/MISSISSIPPILogo.png" alt="MISSIPPI" width="160" /></a><br />
+<a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/public-galaxy-servers/ab-openlab/frog.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
+<a href='http://aspendb.uga.edu/ageseq'><img src="/src/public-galaxy-servers/ageseq-aspendb/aspen-db-300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
+<a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/public-galaxy-servers/biomas/biomas-logo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
+<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/public-galaxy-servers/sifted/sifted-landing-page.png" alt="SIFTED" width="160" /></a><br />
+<a href='http://mississippi.fr/'><img src="/src/public-galaxy-servers/mississippi/mississippi-logo.png" alt="MISSIPPI" width="160" /></a><br />
 <a href='/src/public-galaxy-servers/index.md'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
 </div>
 
@@ -366,10 +366,10 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
   * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/src/public-galaxy-servers/index.md#ab-openlab) for more.
 
 1. **[AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)**, from the [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
-  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/src/public-galaxy-servers/index.md#ageseq--aspendb) for more.
+  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/src/public-galaxy-servers/ageseq-aspendb/index.md) for more.
 
 1. **[BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)** from the [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
-  * Taxonomic studies of environmental microbial communities.  See [the server description](/src/public-galaxy-servers/index.md#biomas-galaxy) for more.
+  * Taxonomic studies of environmental microbial communities.  See [the server description](/src/public-galaxy-servers/biomas/index.md) for more.
 
 1. **[MISSISSIPPI Server](http://mississippi.fr/)** from The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
   * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/public-galaxy-servers/index.md#mississippi) for more.

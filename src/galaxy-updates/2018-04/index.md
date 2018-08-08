@@ -23,7 +23,7 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 * [Synergising Australian bioinformatics resources through the launch of Galaxy Australia](https://www.qcif.edu.au/index.php/news/412-synergising-australian-bioinformatics-resources-through-the-launch-of-galaxy-australia)
 * [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
-* [UseGalaxy.org.au public server directory entry](/src/public-galaxy-servers/usegalaxy-org-au/index.md)
+* [UseGalaxy.org.au public server directory entry](/src/public-galaxy-servers/usegalaxy-au/index.md)
 
 And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
 

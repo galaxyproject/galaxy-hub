@@ -11,7 +11,7 @@ Welcome to the July 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 
 Four new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in June.
 
-<div class='left'><br /><div class='solid'><a href='http://p-galaxy.ddbj.nig.ac.jp/'><img src="/src/public-galaxy-servers/DDBJ-GIL.jpg" alt="P-Galaxy" width="150" /></a></div></div>
+<div class='left'><br /><div class='solid'><a href='http://p-galaxy.ddbj.nig.ac.jp/'><img src="/src/public-galaxy-servers/archive/ddbj-gil.jpg" alt="P-Galaxy" width="150" /></a></div></div>
 
 ## P-Galaxy
 
@@ -35,7 +35,7 @@ an open source network analysis pipeline for genome-wide association studies and
    
 ## Orione
 
-<div class='right solid'><a href='http://orione.crs4.it/'><img src="/src/public-galaxy-servers/OrioneHomePage300.png" alt="Orione"  /></a></div>
+<div class='right solid'><a href='http://orione.crs4.it/'><img src="/src/public-galaxy-servers/orione/orione-home-page-300.png" alt="Orione"  /></a></div>
 
 [Orione](http://orione.crs4.it/) is a Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.  From the [GCC2013](/src/events/gcc2013/index.md) poster abstract "[Engaging Galaxy in Microbiology](/src/events/gcc2013/abstracts/posters/index.md#p7-engaging-galaxy-in-microbiology)"
  We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/public-galaxy-servers/index.md#nebula), [Cistrome](/src/public-galaxy-servers/index.md#cistrome) and several others.  

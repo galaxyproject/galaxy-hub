@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://share-galaxy.ibers.aber.ac.uk/"
     link_text: "IBERS @ Aberystwyth Galaxy"
 summary: "Software, tools and pages written by IBERS researchers for release to the wider community. "
-image: "/src/public-galaxy-servers/IBERS.gif"
+image: "/src/public-galaxy-servers/ibers-aberystwyth/ibers.gif"
 user_support: 
 quotas: 
 sponsors: 

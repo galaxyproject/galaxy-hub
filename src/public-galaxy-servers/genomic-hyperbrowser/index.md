@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://hyperbrowser.uio.no/hb/"
     link_text: "Genomic Hyperbrowser"
 summary: "statistical methodology and computing power to handle a variety of biological inquires on genomic datasets "
-image: "/src/public-galaxy-servers/GenomicHyperbrowser.png"
+image: "/src/public-galaxy-servers/genomic-hyperbrowser/genomic-hyperbrowser.png"
 user_support: 
 quotas: 
 sponsors: 

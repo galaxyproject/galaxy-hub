@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://webtools.sb-roscoff.fr/"
     link_text: "ABiMS Tools Server"
 summary: "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/). "
-image: "/src/public-galaxy-servers/ABiMSToolsLogos.png"
+image: "/src/public-galaxy-servers/abims-tools/abims-tools-logos.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -10,7 +10,7 @@ server_links:
   - link_url: "/src/va/pitagora-galaxy/index.md"
     link_text: "Corresponding VM and AMI for developing workflows"
 summary: "The public, general purpose Galaxy servers of the [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en).  This server is intended for testing and sharing.  Heavy analysis should be performed using the project's identical virtual machine (VM) or Amazon Machine Image (AMI). "
-image: "/src/public-galaxy-servers/Pitagora.png"
+image: "/src/public-galaxy-servers/pitagora-galaxy/pitagora.png"
 user_support: 
 quotas: 
 sponsors: 

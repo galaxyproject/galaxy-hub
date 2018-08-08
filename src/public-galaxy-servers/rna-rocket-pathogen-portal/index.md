@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://rnaseq.pathogenportal.org/"
     link_text: "RNA-Rocket at Pathogen Portal"
 summary: "Supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  "
-image: "/src/public-galaxy-servers/PathogenPortalHome300.png"
+image: "/src/public-galaxy-servers/rna-rocket-pathogen-portal/pathogen-portal-home-300.png"
 user_support: 
 quotas: 
 sponsors: 

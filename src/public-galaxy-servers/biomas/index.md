@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.cloud.ba.infn.it:8080/"
     link_text: "BioMaS Galaxy"
 summary: "Taxonomic studies of environmental microbial communities "
-image: "/src/public-galaxy-servers/BioMaSLogo.jpg"
+image: "/src/public-galaxy-servers/biomas/biomas-logo.jpg"
 user_support: 
 quotas: 
 sponsors: 

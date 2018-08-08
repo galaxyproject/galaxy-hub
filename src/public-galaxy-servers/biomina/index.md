@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://biominavm-galaxy.biomina.be/galaxy/"
     link_text: "Biomina Galaxy"
 summary: "A general purpose Galaxy instance that includes most standard tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis. "
-image: "/src/public-galaxy-servers/Biomina300.png"
+image: "/src/public-galaxy-servers/biomina/biomina-300.png"
 user_support: 
 quotas: 
 sponsors: 

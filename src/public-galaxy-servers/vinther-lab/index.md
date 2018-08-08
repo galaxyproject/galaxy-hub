@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://galaxy.bio.ku.dk/"
     link_text: "Vinther Lab server"
 summary: "RNA structure-probing data analysis to improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated. "
-image: "/src/public-galaxy-servers/VintherLab300.png"
+image: "/src/public-galaxy-servers/vinther-lab/vinther-lab-300.png"
 user_support: 
 quotas: 
 sponsors: 

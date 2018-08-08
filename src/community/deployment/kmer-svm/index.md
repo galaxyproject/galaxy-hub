@@ -2,7 +2,7 @@
 title: [kmer-SVM](http://kmersvm.beerlab.org/)
 ---
 <div class='center'>
-<a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-SVM.png" alt="kmer-SVM"  /></a>
+<a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-svm/kmer-svm.png" alt="kmer-SVM"  /></a>
 </div>
 
 

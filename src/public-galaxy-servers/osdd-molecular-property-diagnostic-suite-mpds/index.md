@@ -6,6 +6,7 @@ server_links:
   - link_url: "http://mpds.osdd.net/"
     link_text: "Molecular Property Diagnostic Suite (MPDS)"
 summary: "A software toolset to rationally diagnose druggable molecules."
+image: "/src/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/osdd-mpds.png"
 user_support: 
 quotas: 
 sponsors: 

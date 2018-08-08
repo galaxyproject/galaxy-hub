@@ -6,7 +6,7 @@ server_links:
   - link_url: "https://bioinf-galaxian.erasmusmc.nl/argalaxy/"
     link_text: "Antigen Receptor Galaxy (ARGalaxy)"
 summary: "Automate the analysis and visual reporting of T- and B-cell receptor repertoire sequencing data. "
-image: "/src/public-galaxy-servers/argalaxy-logo.png"
+image: "/src/public-galaxy-servers/antigen-receptor-galaxy-argalaxy/argalaxy-logo.png"
 user_support: 
 quotas: 
 sponsors: 

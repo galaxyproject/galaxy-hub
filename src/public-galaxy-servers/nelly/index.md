@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://www.bioinformatica.ucr.ac.cr:8080/"
     link_text: "NELLY"
 summary: "Plataforma de servicios para análisis de datos biomédicos en bioinformática featuring standard Galaxy Tools "
-image: "/src/public-galaxy-servers/UCostaRicaLogo.png"
+image: "/src/public-galaxy-servers/nelly/u-costa-rica-logo.png"
 user_support: 
 quotas: 
 sponsors: 

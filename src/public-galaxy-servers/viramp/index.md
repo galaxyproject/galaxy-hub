@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://viramp.com/"
     link_text: "VirAmp Galaxy"
 summary: "VirAmp is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. "
-image: "/src/public-galaxy-servers/VirAmpHome.png"
+image: "/src/public-galaxy-servers/viramp/viramp-home.png"
 user_support: 
 quotas: 
 sponsors: 

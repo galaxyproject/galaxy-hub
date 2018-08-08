@@ -2,7 +2,7 @@
 title: [GalaxyEast](http://www.galaxeast.fr)
 ---
 <div class='center'>
-<a href='http://www.galaxeast.fr'><img src="/src/public-galaxy-servers/GalaxEast.png" alt="GalaxEast" height="200" /></a>
+<a href='http://www.galaxeast.fr'><img src="/src/public-galaxy-servers/galaxeast/galaxeast.png" alt="GalaxEast" height="200" /></a>
 </div>
 
 

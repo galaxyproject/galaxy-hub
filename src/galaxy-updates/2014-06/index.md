@@ -272,7 +272,7 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added t
 
 ## deepTools
 
-<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deepTools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
+<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deeptools2/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
 
 * *Links:*
   * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server

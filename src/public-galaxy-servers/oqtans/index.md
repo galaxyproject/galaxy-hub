@@ -8,7 +8,7 @@ server_links:
   - link_url: "http://cloud.oqtans.org/"
     link_text: "Cloud machine image with a demo instance"
 summary: "Customized Galaxy, extended with machine learning based tools for sequence and tiling array data analysis. "
-image: "/src/public-galaxy-servers/Oqtans.png"
+image: "/src/public-galaxy-servers/oqtans/oqtans.png"
 user_support: 
 quotas: 
 sponsors: 

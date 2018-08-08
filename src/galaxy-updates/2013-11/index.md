@@ -13,7 +13,7 @@ Two new servers were added to [the list of publicly accessible Galaxy servers](/
 
 ## CoSSci: Complex Social Science Gateway
 
-<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/src/public-galaxy-servers/CoSSciMap.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions" width="275" /></a></div>
+<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/src/public-galaxy-servers/cossci/cossci-map.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions" width="275" /></a></div>
    
 *Tools for solving [Galton's problem](http://en.wikipedia.org/wiki/Galton's_problem) in Comparative Research and complex network problems in Social Science.*
 
@@ -23,7 +23,7 @@ The initial modeling software solves for autocorrelation effects (spatial, phylo
 
 A [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual) is available
 
-<div class='right solid'><a href='http://http://avispa.biociphers.org/'><img src="/src/public-galaxy-servers/BioCiphersLandingPage300.png" alt="BioCiphers Galaxy" width="275" /></a></div>
+<div class='right solid'><a href='http://http://avispa.biociphers.org/'><img src="/src/public-galaxy-servers/biociphers-lab-galaxy/biociphers-landing-page-300.png" alt="BioCiphers Galaxy" width="275" /></a></div>
 
 ## BioCiphers Lab Galaxy
 

@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://orione.crs4.it/"
     link_text: "Orione"
 summary: "A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines. "
-image: "/src/public-galaxy-servers/OrioneLogo.png"
+image: "/src/public-galaxy-servers/orione/orione-logo.png"
 user_support: 
 quotas: 
 sponsors: 

@@ -238,7 +238,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MetaNET
 
-<div class='right solid'><a href='http://metanet.osdd.net/'><img src="/src/public-galaxy-servers/MetaNETLogo200.png" alt="MetaNET"  /></a></div>
+<div class='right solid'><a href='http://metanet.osdd.net/'><img src="/src/public-galaxy-servers/archive/metanet-logo-200.png" alt="MetaNET"  /></a></div>
 * *Links:*
   * [MetaNET server](http://metanet.osdd.net/)
   * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](https://doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2

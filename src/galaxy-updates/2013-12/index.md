@@ -22,7 +22,7 @@ The newly added servers are:
 
 ## OSDDlinux LiveGalaxy
 
-<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/public-galaxy-servers/OSDDLinuxLiveGalaxyHomePage300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
+<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/public-galaxy-servers/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
@@ -56,7 +56,7 @@ The newly added servers are:
 
 ## PreSTIGE
 
-<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/public-galaxy-servers/PreSTIGE.png" alt="PreSTIGE" width="300" /></a></div>
+<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/public-galaxy-servers/prestige/prestige.png" alt="PreSTIGE" width="300" /></a></div>
 
 * *Link:*
     [PreSTIGE](http://prestige.case.edu/)

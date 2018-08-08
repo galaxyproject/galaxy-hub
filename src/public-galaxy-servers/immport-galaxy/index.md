@@ -6,7 +6,7 @@ server_links:
   - link_url: "http://immportgalaxy.org/"
     link_text: "ImmPort Galaxy"
 summary: "Flow Cytometry Analysis. "
-image: "/src/public-galaxy-servers/ImmPort.png"
+image: "/src/public-galaxy-servers/immport-galaxy/immport.png"
 user_support: 
 quotas: 
 sponsors: 

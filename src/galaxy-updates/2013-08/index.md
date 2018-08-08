@@ -32,13 +32,13 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 
 ## PredPharmTox
 
-<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/PredPharmToxLogo.png" alt="PredPharmTox" width="200" /></a></div>
+<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/predpharmtox/predpharmtox-logo.png" alt="PredPharmTox" width="200" /></a></div>
 
 [PredPharmTox](http://galaxy.predpharmtox.org/) implements the [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity. See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013), for more.
 
 ## QBRC Galaxy
 
-<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/QBRCLogo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
+<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
 
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 
