@@ -32,8 +32,12 @@ $navbar-default-border:none;
 $navbar-inverse-bg: rgb(44, 49, 67);
 
 $grid-float-breakpoint: 1000px;
-
 @import "bootstrap/scss/bootstrap.scss";
+
+@import '~font-awesome/scss/_variables.scss';
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
 @import "overrides.scss";
 
 html {
