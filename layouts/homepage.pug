@@ -2,13 +2,13 @@ extends layout.pug
 
 
 mixin renderSplash(item)
-   h1.display-3 !{item.title}
+   h1.display-4 !{item.title}
    p.lead !{item.contents}
 
 
 block content
     section.section-content
-        div.row#splash-row
+        div.row.mb-3#splash-row
             div.col-sm-12
                 div.carousel.slide(data-ride="carousel" id="splash-box")
                     ol.carousel-indicators
