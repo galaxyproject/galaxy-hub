@@ -3,7 +3,7 @@ extends layout.pug
 mixin renderEventRow(item)
     +renderEventJSONLD(item)     
     tr
-        td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+        td: span.text-nowrap #{moment(item.date).format("MMMM Do YYYY")}
         td
             if item.external_url
                 a( href=item.external_url ) #{item.title}
@@ -79,7 +79,7 @@ block content
                 tbody
                     each item in events_malleable
                         if item.date != undefined
-                            if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                            if moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
             h2 Past Events
             table.table.table-striped
@@ -92,7 +92,7 @@ block content
                 tbody
                     each item in events_malleable.reverse()
                         if item.date != undefined
-                            if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                            if moment(item.date) < moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
 
             h2 Other Calendars

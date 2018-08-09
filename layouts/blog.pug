@@ -12,7 +12,7 @@ mixin renderBlogEntry()
     p.lead By !{authors} 
     p
         strong  
-            | !{helpers.moment(date).format("MMMM Do YYYY")}       
+            | !{moment(date).format("MMMM Do YYYY")}
     if external_url
         p
             strong See 

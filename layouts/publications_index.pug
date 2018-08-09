@@ -8,13 +8,13 @@ block content
                 div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed float-right" )
             if item.authors
                 - var authors = item.authors
-                - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
+                - _.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
                 | !{authors}. 
             a( href=item.link ) #{item.title}. 
             if item.journal
                 i #{item.journal}. 
                 if item.date
-                    | #{helpers.moment(item.date).format("MMMM YYYY")}; 
+                    | #{moment(item.date).format("MMMM YYYY")}; 
                 if item.volume
                     strong #{item.volume}
                 if item.number

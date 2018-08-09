@@ -12,7 +12,7 @@ mixin renderTeaseOrSlice(item)
     if item.tease
         | #{item.tease}
     else if item.contents && typeof item.contents === "string"
-        | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
+        | !{_.replace(_.replace(marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
 
 mixin renderPageTitle()
     if !skip_title_render

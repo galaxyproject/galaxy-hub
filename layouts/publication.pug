@@ -6,13 +6,13 @@ block content
         div( data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed float-right" )
     h1 #{title}. 
     p
-        - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
+        - _.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
         div !{authors}.
         div 
             if journal
                 i #{journal}. 
             if date
-                | #{helpers.moment(date).format("MMMM YYYY")}; 
+                | #{moment(date).format("MMMM YYYY")}; 
             if volume
                 strong #{volume}
             if number
