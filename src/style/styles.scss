@@ -32,6 +32,13 @@ $navbar-default-border:none;
 $navbar-inverse-bg: rgb(44, 49, 67);
 
 $grid-float-breakpoint: 1000px;
+
+// splashpage carousel styling
+$jumbotron-bg: white;
+$carousel-indicator-border-color: gray;
+$carousel-indicator-active-bg: $navbar-inverse-bg;
+$carousel-control-width: 5%;
+
 @import "bootstrap/scss/bootstrap.scss";
 
 @import '~font-awesome/scss/_variables.scss';
@@ -358,11 +365,6 @@ div.linkbox a:visited {
     color: #ddd;
 }
 
-// splashpage carousel styling
-$jumbotron-bg: white;
-$carousel-indicator-border-color: gray;
-$carousel-indicator-active-bg: $navbar-inverse-bg;
-$carousel-control-width: 5%;
 #splash-box {
     .carousel-item, .carousel-inner {
         height:420px;
