@@ -15,7 +15,7 @@ block content
                 tbody
                     each item in blog
                         tr
-                            td: span.text-nowrap #{helpers.moment(item.date).format("YYYY MMM DD")}
+                            td: span.text-nowrap #{moment(item.date).format("YYYY MMM DD")}
                             td
                                 | #{item.authors}
                                 p(style="margin-left: 1em")

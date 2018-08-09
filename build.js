@@ -1,14 +1,21 @@
 /* global require */
 /* global __dirname */
 /* global process */
+/* global global */
 
 // Build with Metalsmith
-let metalsmith = require("metalsmith");
-let fs = require("fs");
-let path = require("path");
-let hb_partials = require("handlebars");
-let marked = require("marked");
-let slug = require("slug");
+const metalsmith = require("metalsmith");
+const fs = require("fs");
+const path = require("path");
+const hb_partials = require("handlebars");
+const marked = require("marked");
+const slug = require("slug");
+const moment = require("moment");
+const _ = require("lodash");
+
+global.moment = moment;
+global._ = _;
+global.marked = marked;
 
 process.env.DEBUG = "metalsmith-timer";
 
@@ -269,8 +276,6 @@ let ms = metalsmith(__dirname)
         })
     )
     .use(timer("metalsmith-autotoc"))
-    .use(require("metalsmith-alias")())
-    .use(timer("metalsmith-alias"))
     .use(
         require("metalsmith-filepath")({
             absolute: true,
@@ -280,14 +285,11 @@ let ms = metalsmith(__dirname)
     .use(timer("metalsmith-filepath"))
     .use(
         require("metalsmith-layouts")({
-            engine: "pug",
-            cache: true,
             default: "default.pug",
             pattern: "**/*.html",
-            helpers: {
-                moment: require("moment"),
-                marked: require("marked"),
-                _: require("lodash")
+            engineOptions: {
+                cache: true,
+                globals: ["moment", "marked", "_"]
             }
         })
     )

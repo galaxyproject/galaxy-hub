@@ -31,19 +31,19 @@ block content
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
-                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
                 h2: a( href="/blog/" ) Blog
                 each item in blog.slice(0,2)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
-                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
             div.col-sm-4
                 h2: a( href="/events/" ) Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
-                    if events_counter < 5 && item.date != undefined && helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                    if events_counter < 5 && item.date != undefined && moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                         - events_counter += 1
                         p
                             if item.external_url
@@ -56,7 +56,7 @@ block content
                             else
                                 a( href=item.link ) #{item.title}
                             if item.tease
-                                |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                                |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
             div.col-sm-4
                 div#twitter_timeline( style="height:400px" )
