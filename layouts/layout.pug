@@ -188,9 +188,9 @@ body
                         a.dropdown-item(href='/support/') Hub
                     li
                         a.dropdown-item(href='/support/biostar/') Galaxy Biostar
-        ul.navbar-nav.float-right
+        ul.navbar-nav
             li
-                form(class='navbar-form' method='get' action='/search/')
+                form.my-2(class='navbar-form' method='get' action='/search/')
                     div.input-group
                         input(class='form-control' name='q' placeholder='Search Galaxy')
                         span.input-group-btn
@@ -198,7 +198,7 @@ body
                                 span.fa.fa-search
             li
                 a.nav-link( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
-                    span.fa.fa-lg.fa-github
+                    i.fa.fa-lg.fa-github
                     span(title="Edit this page") &nbsp; Edit
     div.container#maincontainer: div.row
         block content
