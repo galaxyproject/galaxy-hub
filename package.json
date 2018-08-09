@@ -53,7 +53,7 @@
     "build": "concurrently \"node build.js\" \"webpack\"",
     "serve": "concurrently \"$npm_execpath run webpack\" \"node build.js --serve\"",
     "check": "node build.js --check",
-    "watch": "node build.js --watch",
+    "watch": "concurrently \"$npm_execpath run webpack --watch\" \"node build.js --watch\"",
     "webpack": "webpack --config webpack.config.js"
   },
   "engines": {
