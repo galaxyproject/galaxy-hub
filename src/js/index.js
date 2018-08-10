@@ -15,11 +15,13 @@ export function zoteroSearchOnLoad(){
                     <% _.forEach(results, function(result) { %>
                         <li class="list-group-item">
                             <h4>
-                                <%- result.data.title %>
+                                <a href="<%- result.data.url %>">
+                                    <%- result.data.title %>
+                                </a>
                             </h4>
-                            <a href="<%- result.data.url %>">
+                            <p style="color: #093">
                                 <%- result.data.url %>
-                            </a>
+                            </p>
                             <% if (result.data.abstractNote) { %>
                                 <p><%- result.data.abstractNote.slice(0, 450) %>...</p>
                             <% } %>
