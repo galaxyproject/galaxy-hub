@@ -8,6 +8,7 @@ export function zoteroSearchOnLoad(){
     var match = RegExp('[?&]q=([^&]*)').exec(window.location.search);
     var qstr = match && decodeURIComponent(match[1].replace(/\+/g, ' '));
     if (qstr){
+        $("#search-input").val(qstr);
         axios.get('https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q='+qstr).then(function(response){
             if (response.data.length != 0){
                 var tmpl = _.template(`
