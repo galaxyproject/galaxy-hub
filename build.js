@@ -60,6 +60,13 @@ let set_metadata_defaults = function(files, metalsmith, done) {
                 if (files[k].autotoc === undefined) {
                     files[k].autotoc = true;
                 }
+            } else if (Array.from(v.collection).includes("use")) {
+                if (files[k].layout === undefined) {
+                    files[k].layout = "use.pug";
+                }
+                if (files[k].autotoc === undefined) {
+                    files[k].autotoc = false;
+                }
             } else if (Array.from(v.collection).includes("servers")) {
                 if (files[k].layout === undefined) {
                     files[k].layout = "server.pug";
@@ -247,6 +254,11 @@ let ms = metalsmith(__dirname)
                 pattern: "blog/*/*.md",
                 sortBy: "date",
                 reverse: true
+            },
+            use: {
+                pattern: "use/*/*.md",
+                sortBy: "title",
+                reverse: false
             },
             servers: {
                 pattern: "public-galaxy-servers/*/*.md",

@@ -1,0 +1,45 @@
+extends layout.pug
+
+mixin renderResource()
+    if image
+        if image.startsWith("/src")
+            img.img-responsive(src=image.substring(4) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #666")
+        else
+            img.img-responsive(src=image style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
+    +renderPageTitle
+    p !{helpers.marked(summary).replace("<p>","").replace("</p>","")}
+
+    if resource_group == "usegalaxy"
+        p This is a 
+           strong
+               a(href="/use/#usegalaxy") UseGalaxy server.
+    else if resource_group == "general"
+        p This is a 
+           strong
+               a(href="/use/#general") General Purpose / Genomics resource.
+    else if resource_group == "domain"
+        p This is a 
+           strong
+               a(href="/use/#domain") Domain specific resource.
+    else if resource_group == "tool-publishing"
+        p This is a 
+           strong
+               a(href="/use/#tool-publishing") Tool Publishing resource.
+    h2 Links
+    ul
+        each serverLink in server_links
+            li
+                a( href=deGitUrl(serverLink.link_url) ) #{serverLink.link_text}
+    div: p !{ contents }
+
+block content
+    section.section-content
+        if toc
+            div.col-md-9
+                +renderServer
+            div.col-md-3
+                div#sidebar
+                    +renderToc(toc)
+        else
+            div.col-md-12
+                +renderResource
