@@ -10,6 +10,9 @@ mixin renderResourceRow(item)
                 div( style="padding-left: 0.5em; text-indent: -0.5em;")
                     a( href=deGitUrl(serverLink.link_url) ) #{serverLink.link_text}
                     br
+        td
+            if item.platform == "public-server"
+                | Public server
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
@@ -28,6 +31,7 @@ block content
                     tr
                         th Name
                         th Links
+                        th Platform
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -41,6 +45,7 @@ block content
                     tr
                         th Name
                         th Links
+                        th Platform
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -54,6 +59,7 @@ block content
                     tr
                         th Name
                         th Links
+                        th Platform
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -69,6 +75,7 @@ block content
                     tr
                         th Name
                         th Links
+                        th Platform
                         th Summary
                 tbody
                     each item in resources_malleable
