@@ -2,6 +2,7 @@
 title: "A-Game"
 url: "http://beaconlab.it/agame"
 resource_group: "domain"
+platform: "public-server"
 server_links: 
   - link_url: "http://beaconlab.it/agame"
     link_text: "A-Game Galaxy server"
