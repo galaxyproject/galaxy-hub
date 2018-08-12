@@ -40,19 +40,22 @@ mixin renderPageTease()
         if (platform_group_tag == "public-server") {
             return 'Public Server';
         }
+        if (platform_group_tag == "regional-cloud") {
+            return 'Regional Cloud Service';
+        }
         return 'NOT RECOGNIZED!'
     }
-    function resourceGroupTagToHTML(resource_group_tag) {
-        if (resource_group_tag == "usegalaxy") {
+    function scopeTagToHTML(scope_tag) {
+        if (scope_tag == "usegalaxy") {
             return '<a href="/use/#usegalaxy">UseGalaxy server</a>';
         }
-        if (resource_group_tag == "general") {
+        if (scope_tag == "general") {
             return '<a href="/use/#general">General Purpose / Genomics</a>';
         }
-        if (resource_group_tag == "domain") {
+        if (scope_tag == "domain") {
             return '<a href="/use/#domain">Domain specific</a>';
         }
-        if (resource_group_tag == "tool-publishing") {
+        if (scope_tag == "tool-publishing") {
             return '<a href="/use/#tool-publishing">Tool Publishing</a>';
         }
         return 'NOTHING!'

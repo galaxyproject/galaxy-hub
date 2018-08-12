@@ -9,19 +9,19 @@ mixin renderResource()
     +renderPageTitle
     table(class="table table-striped" style="width: auto")
         tr
-            th Summary:
-            td
-                != helpers.marked(summary).replace("<p>","").replace("</p>","")
-        tr
-            th Resource type(s):
-            td
-                != resourceGroupTagToHTML(resource_group)
-        tr
             th Platform(s):
             td
                 each platform in platforms
                      a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
                      br
+        tr
+            th Summary:
+            td
+                != helpers.marked(summary).replace("<p>","").replace("</p>","")
+        tr
+            th Scope:
+            td
+                != scopeTagToHTML(scope)
 
     h2 Comments
     ul
@@ -43,9 +43,10 @@ mixin renderResource()
 
     h2 Citations
     ul
-        each citation in citations
-            li
-                != helpers.marked(citation).replace("<p>","").replace("</p>","")
+        if citations > ""
+            each citation in citations
+                li
+                    != helpers.marked(citation).replace("<p>","").replace("</p>","")
 
         if pub_library > ""
             li

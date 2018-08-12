@@ -1,10 +1,13 @@
 extends layout.pug
 
-mixin renderResourceRow(item)
+mixin renderResourceRow(item, with_scope)
     tr
         td
             div( style="padding-left: 0.5em; text-indent: -0.5em;")
                 a( href=item.link ) #{item.title}
+        if with_scope
+            td
+                != scopeTagToHTML(item.scope)
         td
             each platform in item.platforms
                 div( style="padding-left: 0.5em; text-indent: -0.5em;")
@@ -19,6 +22,20 @@ block content
             h1 !{title}
             div !{ contents }
 
+            h2(id="everthing") All Resources
+            p
+                | Complete listing of resources for using Galaxy. 
+            table.table.table-striped
+                thead
+                    tr
+                        th Resource
+                        th Scope
+                        th Platform(s)
+                        th Summary
+                tbody
+                    each item in resources_malleable
+                        +renderResourceRow(item, true)
+
             h2(id="usegalaxy") UseGalaxy Servers
             p
                 a(href="/usegalaxy/") UseGalaxy servers 
@@ -26,39 +43,39 @@ block content
             table.table.table-striped
                 thead
                     tr
-                        th Name
+                        th Resource
                         th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
                         if item.resource_group == "usegalaxy"
-                            +renderResourceRow(item)
+                            +renderResourceRow(item, false)
 
             h2(id="general") General Purpose / Genomics Galaxy Servers
             p These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis. These are servers you can use when want to do general genomic analysis.
             table.table.table-striped
                 thead
                     tr
-                        th Name
+                        th Resource
                         th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
                         if item.resource_group == "general"
-                            +renderResourceRow(item)
+                            +renderResourceRow(item, false)
 
             h2(id="domain") Domain Specific Galaxy Servers
             p Domain servers specialize in either a particular branch of the tree of life or in particular types of analysis. However, within their specializations, domain servers offer a wide variety of tools.
             table.table.table-striped
                 thead
                     tr
-                        th Name
+                        th Resource
                         th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
                         if item.resource_group == "domain"
-                            +renderResourceRow(item)
+                            +renderResourceRow(item, false)
 
             h2(id="tool-publishing") Tool Publishing Galaxy Servers
             p Tool publishing servers expose one or a few tools so that researchers can use the tools without having to install them locally or use command line.
@@ -67,10 +84,10 @@ block content
             table.table.table-striped
                 thead
                     tr
-                        th Name
+                        th Resource
                         th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
                         if item.resource_group == "tool-publishing"
-                            +renderResourceRow(item)
+                            +renderResourceRow(item, false)
