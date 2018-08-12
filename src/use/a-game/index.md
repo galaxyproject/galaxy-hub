@@ -1,7 +1,7 @@
 ---
 title: "A-Game"
 url: "http://beaconlab.it/agame"
-resource_group: "domain"
+scope: "domain"
 platforms: 
   - platform_group: "public-server"
     platform_url: "http://beaconlab.it/agame"

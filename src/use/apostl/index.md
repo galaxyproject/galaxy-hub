@@ -1,7 +1,7 @@
 ---
 title: "APOSTL"
 url: "http://apostl.moffitt.org/"
-resource_group: "tool-publishing"
+scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
     platform_url: "http://apostl.moffitt.org/"
