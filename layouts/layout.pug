@@ -46,6 +46,9 @@ mixin renderPageTease()
         if (platform_group_tag == "container") {
             return 'Container';
         }
+        if (platform_group_tag == "install-locally") {
+            return 'Install it locally';
+        }
         return 'NOT RECOGNIZED!'
     }
     function scopeTagToHTML(scope_tag) {

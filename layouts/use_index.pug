@@ -48,7 +48,7 @@ block content
                         th Summary
                 tbody
                     each item in resources_malleable
-                        if item.resource_group == "usegalaxy"
+                        if item.scope == "usegalaxy"
                             +renderResourceRow(item, false)
 
             h2(id="general") General Purpose / Genomics Galaxy Servers
@@ -61,7 +61,7 @@ block content
                         th Summary
                 tbody
                     each item in resources_malleable
-                        if item.resource_group == "general"
+                        if item.scope == "general"
                             +renderResourceRow(item, false)
 
             h2(id="domain") Domain Specific Galaxy Servers
@@ -74,7 +74,7 @@ block content
                         th Summary
                 tbody
                     each item in resources_malleable
-                        if item.resource_group == "domain"
+                        if item.scope == "domain"
                             +renderResourceRow(item, false)
 
             h2(id="tool-publishing") Tool Publishing Galaxy Servers
@@ -89,5 +89,5 @@ block content
                         th Summary
                 tbody
                     each item in resources_malleable
-                        if item.resource_group == "tool-publishing"
+                        if item.scope == "tool-publishing"
                             +renderResourceRow(item, false)
