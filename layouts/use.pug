@@ -7,29 +7,51 @@ mixin renderResource()
         else
             img.img-responsive(src=image class="pull-right" style="margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ddd")
     +renderPageTitle
-    p !{helpers.marked(summary).replace("<p>","").replace("</p>","")}
     table(class="table table-striped" style="width: auto")
+        tr
+            th Summary:
+            td
+                != helpers.marked(summary).replace("<p>","").replace("</p>","")
         tr
             th Resource type(s):
             td
-                if resource_group == "usegalaxy"
-                    a(href="/use/#usegalaxy") UseGalaxy server;
-                if resource_group == "general"
-                    a(href="/use/#general") General Purpose / Genomics;
-                if resource_group == "domain"
-                    a(href="/use/#domain") Domain specific;
-                if resource_group == "tool-publishing"
-                    a(href="/use/#tool-publishing") Tool Publishing;
+                != resourceGroupTagToHTML(resource_group)
         tr
             th Platform(s):
             td
-                if platform=="public-server"
-                    | Publicly server.
-    h2 Links
+                each platform in platforms
+                     a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
+                     br
+
+    h2 Comments
     ul
-        each serverLink in server_links
+        each comment in comments
             li
-                a( href=deGitUrl(serverLink.link_url) ) #{serverLink.link_text}
+                != helpers.marked(comment).replace("<p>","").replace("</p>","")
+
+    h2 User Support
+    ul
+        each support in user_support
+            li
+                != helpers.marked(support).replace("<p>","").replace("</p>","")
+
+    h2 Quotas
+    ul
+        each quota in quotas
+            li
+                != helpers.marked(quota).replace("<p>","").replace("</p>","")
+
+    h2 Citations
+    ul
+        each citation in citations
+            li
+                != helpers.marked(citation).replace("<p>","").replace("</p>","")
+
+        if pub_library > ""
+            li
+                a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_library ) ) #{pub_library} tagged publications
+                |  in the 
+                a( href="/publication-library/" ) Galaxy Publication library
     div: p !{ contents }
 
 block content
