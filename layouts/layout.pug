@@ -43,6 +43,9 @@ mixin renderPageTease()
         if (platform_group_tag == "regional-cloud") {
             return 'Regional Cloud Service';
         }
+        if (platform_group_tag == "container") {
+            return 'Container';
+        }
         return 'NOT RECOGNIZED!'
     }
     function scopeTagToHTML(scope_tag) {
