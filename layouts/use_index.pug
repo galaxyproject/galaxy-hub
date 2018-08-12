@@ -6,13 +6,10 @@ mixin renderResourceRow(item)
             div( style="padding-left: 0.5em; text-indent: -0.5em;")
                 a( href=item.link ) #{item.title}
         td
-            each serverLink in item.server_links
+            each platform in item.platforms
                 div( style="padding-left: 0.5em; text-indent: -0.5em;")
-                    a( href=deGitUrl(serverLink.link_url) ) #{serverLink.link_text}
+                    a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
                     br
-        td
-            if item.platform == "public-server"
-                | Public server
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
@@ -30,8 +27,7 @@ block content
                 thead
                     tr
                         th Name
-                        th Links
-                        th Platform
+                        th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -44,8 +40,7 @@ block content
                 thead
                     tr
                         th Name
-                        th Links
-                        th Platform
+                        th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -58,8 +53,7 @@ block content
                 thead
                     tr
                         th Name
-                        th Links
-                        th Platform
+                        th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -74,8 +68,7 @@ block content
                 thead
                     tr
                         th Name
-                        th Links
-                        th Platform
+                        th Platform(s)
                         th Summary
                 tbody
                     each item in resources_malleable

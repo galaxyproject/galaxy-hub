@@ -36,6 +36,29 @@ mixin renderPageTease()
         return url;
     }
 
+    function platformGroupTagToText(platform_group_tag) {
+        if (platform_group_tag == "public-server") {
+            return 'Public Server';
+        }
+        return 'NOT RECOGNIZED!'
+    }
+    function resourceGroupTagToHTML(resource_group_tag) {
+        if (resource_group_tag == "usegalaxy") {
+            return '<a href="/use/#usegalaxy">UseGalaxy server</a>';
+        }
+        if (resource_group_tag == "general") {
+            return '<a href="/use/#general">General Purpose / Genomics</a>';
+        }
+        if (resource_group_tag == "domain") {
+            return '<a href="/use/#domain">Domain specific</a>';
+        }
+        if (resource_group_tag == "tool-publishing") {
+            return '<a href="/use/#tool-publishing">Tool Publishing</a>';
+        }
+        return 'NOTHING!'
+    }
+
+
 head( lang="en" )
     block title
         title=title
