@@ -39,7 +39,19 @@ block content
                         +renderResourceRow(item, true, true)
 
             h1(id="by-scope") Resources by Scope
-            h2(id="usegalaxy") UseGalaxy Servers
+            p
+                | A resource's scope describes it's general purpose.  Resources fall into one of 4 scopes:
+            ul
+                li
+                    a(href="#usegalaxy") UseGalaxy
+                li
+                    a(href="#general") General / Genomics
+                li
+                    a(href="#domain") Domain Specific
+                li
+                    a(href="#tool-publishing") Tool Publishing
+
+            h2(id="usegalaxy") UseGalaxy Resources
             p
                 a(href="/usegalaxy/") UseGalaxy servers 
                 | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results. 
@@ -95,7 +107,21 @@ block content
                             +renderResourceRow(item, false, true)
 
             h1(id="by-platform") Resources by Platform
-            | Galaxy is available through all sorts of different technologies, from web sites you can just use, to virtual machines you can download and deploy.
+            p
+                | Galaxy is available through all sorts of different technologies, from web sites you can just use, to virtual machines you can download and deploy.
+            ul
+                li
+                    a(href="#public-servers") Public Servers
+                li
+                    a(href="#commercial-cloud") Commercial Cloud Services
+                li
+                    a(href="#academic-cloud") Academic Cloud Services
+                li
+                    a(href="#containers") Containers
+                li
+                    a(href="#vms") Virtual Machines
+                li
+                    a(href="#install-locally") Install Locally
 
             h2(id="public-servers") Public Servers
             p
