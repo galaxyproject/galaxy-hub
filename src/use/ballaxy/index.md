@@ -23,7 +23,8 @@ quotas:
   - "A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*"
 citations:
   - "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI), by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574"
-pub_librray: "Ballaxy"
+pub_libraries:
+  - "Ballaxy"
 sponsors:
   - "The groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany)."
 ---
