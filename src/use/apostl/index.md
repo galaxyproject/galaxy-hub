@@ -18,8 +18,9 @@ user_support:
 quotas:
   - "Empty Quota"
 citations:
- - "[APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](https://doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660"
-pub_library: "APOSTL"
+  - "[APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](https://doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660"
+pub_libraries:
+  - "APOSTL"
 sponsors:
  - "APOSTL support is provided by the [Haura](http://labpages2.moffitt.org/haura) and [Rix](https://moffitt.org/research-science/researchers/uwe-rix/) labs at the [Moffitt Cancer Center](https://moffitt.org/):
   * [Adam Borne](mailto:bornea27@gmail.com)

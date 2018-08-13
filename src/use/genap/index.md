@@ -19,7 +19,8 @@ user_support:
 quotas:
   - "The default allocation of each project is 500GB"
 citations:
-pub_library: "GenAP"
+pub_libraries:
+  - "GenAP"
 sponsors:
  - "[Canarie](http://www.canarie.ca/), [Genome Quebec](http://www.genomequebec.com/en/home.html), [Compute Canada](https://www.computecanada.ca), [Canada Foundation for Innovation (CFI)](https://www.innovation.ca/), [Natural Sciences and Engineering Research Council (NSERC)](http://www.nserc-crsng.gc.ca/), [Université de Sherbrooke](http://www.usherbrooke.ca), and [Mcgill University](https://www.mcgill.ca/)"
 ---

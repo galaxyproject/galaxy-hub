@@ -1,25 +1,25 @@
 extends layout.pug
 
 mixin renderResource()
+    +renderPageTitle
     if image
         if image.startsWith("/src")
-            img.img-responsive(src=image.substring(4) style="float:right; margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
+            img.img-responsive(src=image.substring(4) style="float:right; margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
         else
-            img.img-responsive(src=image class="pull-right" style="margin: 20px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
-    +renderPageTitle
+            img.img-responsive(src=image class="pull-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
     table(class="table table-striped" style="width: auto")
-        tr
-            th Scope:
-            td
-                div( style="padding-left: 0.5em; text-indent: -0.5em;")
-                    - var scopeLinkInfo = getScopeTagUrlAndText(scope)
-                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         tr
             th Platform(s):
             td
                 each platform in platforms
                     div( style="padding-left: 0.5em; text-indent: -0.5em;")
                         a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
+        tr
+            th Scope:
+            td
+                div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                    - var scopeLinkInfo = getScopeTagUrlAndText(scope)
+                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         tr
             th Summary:
             td
@@ -38,9 +38,10 @@ mixin renderResource()
 
     h2 Quotas
     ul
-        each quota in quotas
-            li
-                != helpers.marked(quota).replace("<p>","").replace("</p>","")
+        if quotas > ""
+            each quota in quotas
+                li
+                    != helpers.marked(quota).replace("<p>","").replace("</p>","")
 
     h2 Citations
     ul
@@ -54,6 +55,14 @@ mixin renderResource()
                 a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_library ) ) #{pub_library} tagged publications
                 |  in the 
                 a( href="/publication-library/" ) Galaxy Publication library
+
+    h2 Sponsors
+    ul
+        if sponsors > ""
+            each sponsor in sponsors
+                li
+                    != helpers.marked(sponsor).replace("<p>","").replace("</p>","")
+
     div: p !{ contents }
 
 block content
