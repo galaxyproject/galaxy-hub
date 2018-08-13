@@ -13,12 +13,12 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
 # Directories
 
 * [All resources](/src/use/index.md#all-resources)
-* Resources by Scope
+* [Resources by Scope](/src/use/index.md#by-scope)
   * [UseGalaxy](/src/use/index.md#usegalaxy)
   * [General / Genomics](/src/use/index.md#general)
   * [Domain Specific](/src/use/index.md#domain)
   * [Tool Publishing](/src/use/index.md#tool-publishing)
-* Resources by Platform
+* [Resources by Platform](/src/use/index.md#by-platform)
   * [Public Servers](/src/use/index.md#public-servers)
   * [Commercial Cloud Services](/src/use/index.md#commercial-cloud)
   * [Academic Cloud Services](/src/use/index.md#academic-cloud)
