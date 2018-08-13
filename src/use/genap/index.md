@@ -3,7 +3,7 @@ title: "GenAP"
 url: "https://www.genap.ca/"
 scope: "general"
 platforms:
-  - platform_group: "regional-cloud"
+  - platform_group: "academic-cloud"
     platform_url: "https://www.genap.ca/"
     platform_text: "Canada: GenAP Cloud Service"
 summary: "All Canadian researchers are [eligible for a GenAP account](https://ccdb.computecanada.ca/account_application). International researchers that have a Canadian collaborator can also be sponsored and become eligible to a GenAP account as well."

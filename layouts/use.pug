@@ -9,20 +9,21 @@ mixin renderResource()
     +renderPageTitle
     table(class="table table-striped" style="width: auto")
         tr
+            th Scope:
+            td
+                div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                    - var scopeLinkInfo = getScopeTagUrlAndText(scope)
+                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
+        tr
             th Platform(s):
             td
                 each platform in platforms
-                     a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
-                     br
+                    div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                        a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
         tr
             th Summary:
             td
                 != helpers.marked(summary).replace("<p>","").replace("</p>","")
-        tr
-            th Scope:
-            td
-                != scopeTagToHTML(scope)
-
     h2 Comments
     ul
         each comment in comments
