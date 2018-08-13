@@ -7,13 +7,14 @@ mixin renderResourceRow(item, with_scope, with_platform)
                 a( href=item.link ) #{item.title}
         if with_scope
             td
-                != scopeTagToHTML(item.scope)
+                div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                    - var scopeLinkInfo = getScopeTagUrlAndText(item.scope)
+                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         if with_platform
             td
                 each platform in item.platforms
                      div( style="padding-left: 0.5em; text-indent: -0.5em;")
                          a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
-                         br
         td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content

@@ -40,29 +40,47 @@ mixin renderPageTease()
         if (platform_group_tag == "public-server") {
             return 'Public Server';
         }
-        if (platform_group_tag == "regional-cloud") {
-            return 'Regional Cloud Service';
+        if (platform_group_tag == "commercial-cloud") {
+            return 'Commercial Cloud Service';
+        }
+        if (platform_group_tag == "academic-cloud") {
+            return 'Academic Cloud Service';
         }
         if (platform_group_tag == "container") {
             return 'Container';
+        }
+        if (platform_group_tag == "vm") {
+            return 'Virtual Machine';
         }
         if (platform_group_tag == "install-locally") {
             return 'Install it locally';
         }
         return 'NOT RECOGNIZED!'
     }
-    function scopeTagToHTML(scope_tag) {
+    function getScopeTagUrlAndText(scope_tag) {
         if (scope_tag == "usegalaxy") {
-            return '<a href="/use/#usegalaxy">UseGalaxy server</a>';
+            return {
+                link: "/use/#usegalaxy",
+                text: "UseGalaxy server"
+            }
         }
         if (scope_tag == "general") {
-            return '<a href="/use/#general">General Purpose / Genomics</a>';
+            return {
+                link: "/use/#general",
+                text: "General Purpose / Genomics"
+            }
         }
         if (scope_tag == "domain") {
-            return '<a href="/use/#domain">Domain specific</a>';
+            return {
+                link: "/use/#domain",
+                text: "Domain specific"
+            }
         }
         if (scope_tag == "tool-publishing") {
-            return '<a href="/use/#tool-publishing">Tool Publishing</a>';
+            return {
+                link: "/use/#tool-publishing",
+                text: "Tool Publishing"
+            }
         }
         return 'NOTHING!'
     }
