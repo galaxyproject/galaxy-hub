@@ -50,11 +50,12 @@ mixin renderResource()
                 li
                     != helpers.marked(citation).replace("<p>","").replace("</p>","")
 
-        if pub_library > ""
-            li
-                a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_library ) ) #{pub_library} tagged publications
-                |  in the 
-                a( href="/publication-library/" ) Galaxy Publication library
+        if pub_libraries > ""
+            each pub_lib in pub_libraries
+                li
+                    a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_lib ) ) #{pub_lib} tagged publications
+                    |  in the 
+                    a( href="/publication-library/" ) Galaxy Publication library
 
     h2 Sponsors
     ul
