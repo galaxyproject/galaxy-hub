@@ -12,54 +12,16 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 
 <div class="media">
   <div class="media-body">
-   In 2010 National Science Foundation has initiated yearly gathering of Galaxy users and developers by proving the project with a grant supplement. Since then this gathering grew into an annual event known as the Galaxy Community Conference (GCC). GCC alternates between US and Europe and provides a forum for sharing knowledge and building collaborations.
+  In 2010 National Science Foundation has initiated yearly gathering of Galaxy users and developers by proving the project with a grant supplement. Since then this gathering grew into an annual event known as the **[Galaxy Community Conference (GCC)](/src/gcc/index.md)**. GCC alternates between US and Europe and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
+
    </div>
    <div class="media-right media-middle">
-    <a href="#">
-      <img class="media-object" src="/src/community/gcc2017_64.png">
+      <a href="https://galaxyproject.org/gcc2019">
+      <img class="media-object" src="/src/events/gcc2019/gcc2019-logo-213.png">
     </a>
   </div>
 </div>
 
-
-| Event/Year |  Location  |  # Registered  |
-| ---------- | --------- | ------------- |
-| 2010 |  Cold Spring Harbor, New York |  69  |
-| 2011 |  Lunteren, The Netherlands  |  148  |
-| 2012 |  Chicago, Illinois  |  203  |
-| 2013 |  Oslo, Norway  |  219  |
-| 2014 |  Baltimore, Maryland, United States  |  214  |
-| [2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  |
-| [2016](https://gcc2016.iu.edu/) |  Bloomington, Indiana  |  206  |
-| [2017](https://gcc2017.sciencesconf.org/) |  [Montpellier, France](https://gcc2017.sciencesconf.org/)  |  |
-| [2018](https://gccbosc2018.sched.com/) | Portland, Oregon (joint conference with BOSC) | |
-
-# GalaxyAdmins
-
-<div class="media">
-  <div class="media-body">
-    Galaxy-Admins is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has bi-monthly conference calls and irregular gatherings at various Galaxy-related events. Table below lists recent events and provides links to videos and slides:
-   </div>
-   <div class="media-right media-top">
-    <a href="#">
-      <img class="media-object" src="/src/images/galaxy-logos/GalaxyAdmins_64.png">
-    </a>
-  </div>
-</div>
-
-| Date | Organizer | Topic | Video/Slides |
-|------|-----------|-------|-------|
-| 2017-02-16 | Nuwan Goonesekera and Enis Afgan (GalaxyProject) | Galaxy on the Cloud with CloudLaunch | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p8t92n1zw9q)|
-| 2016-12-15 | Bérénice Batut, Björn Grüning and Dannon Baker (Freiburg) | Community creation, curation and use of training materials and Galaxy documentaiton | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p8t92n1zw9q) |
-| 2016-10-20  | Hans-Rudolf Hotz, Björn Grüning (FMI) | Swiss Galaxy workshop | |
-| 2016-08-18 | Olivia Choudhury, Nick Hazekamp, and Scott Emrich (Notre Dame) | MakeFlow | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p9nqie63c7a/) |
-| 2016-06-16 |  Evan Bollig and JJ Johnson (UMN) | Galaxy in Production at the University of Minnesota | [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/201606_Admins_umn.pdf) |
-| 2016-04-21 | Ivar Grytten and Geir Kjetil Sandve (University of Oslo) | The Galaxy Portal: Accessing Galaxy from Mobile Devices | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4z0ay42m73/) |
-| 2016-02-18 | Marius van den Beek and Nate Coraor | Deployment with Ansible and Python Wheels | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p2ehp5f3p2h/)|
-| 2015-10-15 | David Kovalic | Galaxy at Analome – Outreach, Opportunity and Challenges | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p5b2674yauc/) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_GalaxyAtAnalome.pdf) [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](/src/community/galaxy-admins/GalaxyAdmins201510_WikiReplacement.pdf)|
-| 2015-08-20 | Aaron Petkau | Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4cbll2iw8t/?launcher=false&fcsContent=true&pbMode=normal) |
-| 2015-06-18 | Peter Briggs | Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p4e3eirmzh4/)
-| 2015-04-16 | Carrie Ganote and Aysam Guerler | Galaxy tweaks and customizations at Indiana University and New Tool Forms | [<i class="fa fa-play-circle" aria-hidden="true"></i>](https://connect.johnshopkins.edu/p7nf9se77p8/) |
 
 # IUC: Keepers of Galaxy Tools
 
@@ -126,6 +88,18 @@ Member | Joined | GitHub
   	</div>
 </div>
 
+# GalaxyAdmins
+
+<div class="media">
+  <div class="media-body">
+    [Galaxy-Admins](community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has [conference calls and irregular gatherings](/src/community/galaxy-admins/meetups/index.md) at various Galaxy-related events.
+   </div>
+   <div class="media-right media-top">
+    <a href="#">
+      <img class="media-object" src="/src/images/galaxy-logos/GalaxyAdmins_64.png">
+    </a>
+  </div>
+</div>
 
 
 # Regional Communities
