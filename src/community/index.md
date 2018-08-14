@@ -92,7 +92,7 @@ Member | Joined | GitHub
 
 <div class="media">
   <div class="media-body">
-    [Galaxy-Admins](community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has [conference calls and irregular gatherings](/src/community/galaxy-admins/meetups/index.md) at various Galaxy-related events.
+    [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for running and maintaining large Galaxy installations. It has [conference calls and irregular gatherings](/src/community/galaxy-admins/meetups/index.md) at various Galaxy-related events.
    </div>
    <div class="media-right media-top">
     <a href="#">
