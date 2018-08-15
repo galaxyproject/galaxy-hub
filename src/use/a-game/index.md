@@ -7,7 +7,7 @@ platforms:
     platform_url: "http://beaconlab.it/agame"
     platform_text: "A-Game server"
 summary: "A Galaxy suite for tArgeted MEtagenomics"
-image: "/src/public-galaxy-servers/a-game/agame-logo.png"
+image: "/src/use/a-game/agame-logo.png"
 comments:
   - "A web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data."
 user_support:

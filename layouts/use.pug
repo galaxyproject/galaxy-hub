@@ -32,9 +32,10 @@ mixin renderResource()
 
     h2 User Support
     ul
-        each support in user_support
-            li
-                != helpers.marked(support).replace("<p>","").replace("</p>","")
+        if user_support > ""
+            each support in user_support
+                li
+                    != helpers.marked(support).replace("<p>","").replace("</p>","")
 
     h2 Quotas
     ul
