@@ -7,7 +7,7 @@ platforms:
     platform_url: "http://apostl.moffitt.org/"
     platform_text: "APOSTL Galaxy Server"
 summary: "Automated Processing of SAINT Templated Layouts (APOSTL) is a freely available software suite and analysis pipeline for reproducible, interactive analysis of AP-MS data. "
-image: "/src/public-galaxy-servers/apostl/apostl-logo-300.png"
+image: "/src/use/apostl/apostl-logo-300.png"
 comments:
   - "APOSTL is an evolving software project with the potential to customize individual analyses with additional Galaxy tools and widgets using the R web application framework, Shiny. The source code, data and documentation are freely available from [GitHub](https://github.com/bornea/APOSTL) and other sources."
   - "APOSTL utilizes Significance Analysis of INTeractome (SAINT), a popular command-line software for analyzing AP data. APOSTL can process AP results from MaxQuant, Scaffold, PeptideShaker, or any software that can export mzIdentML."
@@ -16,7 +16,6 @@ comments:
 user_support:
   - "[Quick Start guide](http://apostl.moffitt.org/)"
 quotas:
-  - "Empty Quota"
 citations:
   - "[APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](https://doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660"
 pub_libraries:
