@@ -13,7 +13,7 @@ platforms:
     platform_url: "https://github.com/BALL-Project/ball/wiki/SetupBallaxyInstance"
     platform_text: "Install ballaxy locally"
 summary: "Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data. "
-image: "/src/public-galaxy-servers/ballaxy/ballaxy-slide.png"
+image: "/src/use/ballaxy/ballaxy-slide.png"
 comments: 
   - "[ballaxy](https://ballaxy.bioinf.uni-sb.de) is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction"
 user_support:
@@ -23,7 +23,6 @@ quotas:
 citations:
   - "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI), by Hildebrandt, *et al.,* *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574"
   - "[NightShift: NMR shift inference by general hybrid model training - a framework for NMR chemical shift prediction](https://doi.org/10.1186/1471-2105-14-98), Anna Katharina Dehof, Simon Loew, Hans-Peter Lenhof and Andreas Hildebrandt. *BMC Bioinformatics* 201314:98, doi:10.1186/1471-2105-14-98"
-
 pub_libraries:
   - "Ballaxy"
 sponsors:
