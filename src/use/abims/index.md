@@ -12,7 +12,8 @@ comments:
   - "General purpose genomics analysis, featuring many standard tools plus many additional tools. Howerver, we are specialized in RNASeq with reference and RNASeq denovo."
   - "[Request an account](http://abims.sb-roscoff.fr/account)"
 user_support:
-  - "For any question send an email at support.abims@sb-roscoff.fr"
+  - "For any question send an email to support.abims@sb-roscoff.fr"
+  - "Tutorials (see [home page](http://galaxy.sb-roscoff.fr/))"
 quotas: 
   - "Requires a professional/institutional email address to create and account"
   - "The default quota for new users is 20GB but can be extended on request"
