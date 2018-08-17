@@ -3,7 +3,7 @@ title: "EuPathDB Galaxy"
 url: "http://eupathdb.org/eupathdb/app/galaxy-orientation"
 scope: "domain"
 platforms:
-  - platform_group: "public-server"
+  - platform_group: "academic-cloud"
     platform_url: "http://eupathdb.org/eupathdb/app/galaxy-orientation"
     platform_text: "EuPathDB Galaxy Data Analysis Service"
 summary: "A free, interactive, web-based platform for large-scale data analysis focused on eukaryotic pathogens."
