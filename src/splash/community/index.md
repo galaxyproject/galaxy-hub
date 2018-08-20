@@ -15,7 +15,7 @@ date: 2030-03-04
   </div>
   <div class="col-xs-2 col-md-1">
     <a href="https://github.com/nsoranzo">
-      <img src="https://avatars0.githubusercontent.com/u/4924623?v=3&s=60">
+      <img class="img-thumbnail" src="https://avatars0.githubusercontent.com/u/4924623?v=3&s=60">
     </a>
   </div>
   <div class="col-xs-2 col-md-1">
