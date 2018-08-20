@@ -21,4 +21,4 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 
 <br />
 
-GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
+GCC2019 is hosted by the [Freiburg Galaxy Project](https://usegalaxy.eu/freiburg), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
