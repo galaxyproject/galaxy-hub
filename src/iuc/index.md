@@ -37,6 +37,7 @@ Member | Joined | GitHub
 **Bérénice Batut**, University of Freiburg | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
 **Maria Doyle**, Peter MacCallum Cancer Centre | Nov 11, 2017 | [@mblue9](https://github.com/mblue9)
 **Simon Gladman**, University of Melbourne | Nov 11, 2017 | [@Slugger70](https://github.com/slugger70)
+**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | Jul 20, 2018 | [@bernt-matthias](https://github.com/bernt-matthias)
 
 Inactive members
 - **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
