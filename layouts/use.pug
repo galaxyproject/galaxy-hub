@@ -1,0 +1,80 @@
+extends layout.pug
+
+mixin renderResource()
+    +renderPageTitle
+    if image
+        if image.startsWith("/src")
+            img.img-responsive(src=image.substring(4) style="float:right; margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
+        else
+            img.img-responsive(src=image class="pull-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
+    table(class="table table-striped" style="width: auto")
+        tr
+            th Platform(s):
+            td
+                each platform in platforms
+                    div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                        a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
+        tr
+            th Scope:
+            td
+                div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                    - var scopeLinkInfo = getScopeTagUrlAndText(scope)
+                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
+        tr
+            th Summary:
+            td
+                != helpers.marked(summary).replace("<p>","").replace("</p>","")
+    h2 Comments
+    ul
+        each comment in comments
+            li
+                != helpers.marked(comment).replace("<p>","").replace("</p>","")
+
+    h2 User Support
+    ul
+        if user_support > ""
+            each support in user_support
+                li
+                    != helpers.marked(support).replace("<p>","").replace("</p>","")
+
+    h2 Quotas
+    ul
+        if quotas > ""
+            each quota in quotas
+                li
+                    != helpers.marked(quota).replace("<p>","").replace("</p>","")
+
+    h2 Citations
+    ul
+        if citations > ""
+            each citation in citations
+                li
+                    != helpers.marked(citation).replace("<p>","").replace("</p>","")
+
+        if pub_libraries > ""
+            each pub_lib in pub_libraries
+                li
+                    a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_lib ) ) #{pub_lib} tagged publications
+                    |  in the 
+                    a( href="/publication-library/" ) Galaxy Publication library
+
+    h2 Sponsors
+    ul
+        if sponsors > ""
+            each sponsor in sponsors
+                li
+                    != helpers.marked(sponsor).replace("<p>","").replace("</p>","")
+
+    div: p !{ contents }
+
+block content
+    section.section-content
+        if toc
+            div.col-md-9
+                +renderResource
+            div.col-md-3
+                div#sidebar
+                    +renderToc(toc)
+        else
+            div.col-md-12
+                +renderResource
