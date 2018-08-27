@@ -21,8 +21,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 
 There will be no conference fee. Though, you need to cover for your food and accomodation (we are currently looking for sponsors to cover the lunches on the two days) 
 
-
-Registration will open soon
+https://tinyurl.com/EGD2018
 
 
 ## Venue    
