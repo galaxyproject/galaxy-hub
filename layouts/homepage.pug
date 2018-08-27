@@ -18,10 +18,10 @@ block content
                         each item, index in splash
                             div.item.carousel-item.jumbotron
                                 +renderSplash(item)
-                    a.left.carousel-control(href="#splash-box" role="button" data-slide="prev")
+                    a.carousel-control-prev(href="#splash-box" role="button" data-slide="prev")
                         span.icon-prev(aria-hidden="true")
                         span.sr-only: Previous
-                    a.right.carousel-control(href="#splash-box" role="button" data-slide="next")
+                    a.carousel-control-next(href="#splash-box" role="button" data-slide="next")
                         span.icon-next(aria-hidden="true")
                         span.sr-only: Next
         div.row
