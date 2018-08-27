@@ -17,6 +17,21 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 **European Galaxy Days** will be held  19 and 20 November 2018 in Freiburg, Germany. This two day gathering will be similar to the events we held in [2016](/src/events/sg2016/), [2014](/src/events/sg2014/), and [2012](/src/events/switzerland2012/). The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
 
+## preliminary schedule
+
+**Monday, November 19th**
+
+We intend to have a full day of talks from you. We especially encourage Galaxy User to present their work with Galaxy. 
+Please indicate your interest in presenting when you register (we will then get in contact with you). Or contact us directly.
+
+**Tuesday, November 20th**
+
+This day is more on the technical side, with presentation, tutorials and hands on exercises. Currently we plan to discuss/present:
+ - Galaxy and Machine learning
+ - Single Cell RNA Seq analysis with Galaxy
+- Combining Galaxy with Shiny
+
+
 ## Registration
 
 There will be no conference fee. Though, you need to cover for your food and accomodation (we are currently looking for sponsors to cover the lunches on the two days) 
