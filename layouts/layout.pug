@@ -36,6 +36,56 @@ mixin renderPageTease()
         return url;
     }
 
+    function platformGroupTagToText(platform_group_tag) {
+        if (platform_group_tag == "public-server") {
+            return 'Public Server';
+        }
+        if (platform_group_tag == "commercial-cloud") {
+            return 'Commercial Cloud Service';
+        }
+        if (platform_group_tag == "academic-cloud") {
+            return 'Academic Cloud Service';
+        }
+        if (platform_group_tag == "container") {
+            return 'Container';
+        }
+        if (platform_group_tag == "vm") {
+            return 'Virtual Machine';
+        }
+        if (platform_group_tag == "install-locally") {
+            return 'Install it locally';
+        }
+        return 'NOT RECOGNIZED!'
+    }
+    function getScopeTagUrlAndText(scope_tag) {
+        if (scope_tag == "usegalaxy") {
+            return {
+                link: "/use/#usegalaxy",
+                text: "UseGalaxy server"
+            }
+        }
+        if (scope_tag == "general") {
+            return {
+                link: "/use/#general",
+                text: "General Purpose / Genomics"
+            }
+        }
+        if (scope_tag == "domain") {
+            return {
+                link: "/use/#domain",
+                text: "Domain specific"
+            }
+        }
+        if (scope_tag == "tool-publishing") {
+            return {
+                link: "/use/#tool-publishing",
+                text: "Tool Publishing"
+            }
+        }
+        return 'NOTHING!'
+    }
+
+
 head( lang="en" )
     block title
         title=title
