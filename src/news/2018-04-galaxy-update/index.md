@@ -3,7 +3,7 @@ title: 'April 2018 Galactic News'
 tease: 'UseGalaxy.org gets some siblings, GCCBOSC and other event news; new pubs, servers, jobs, ...'
 date: '2018-04-11'
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2018-04/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2018-04/index.md>)
 
 The [April 2018 Galactic News](/src/galaxy-updates/2018-04/index.md) highlights what's going on in the Galaxy, and it's actually quite cool.  Take a look:
 

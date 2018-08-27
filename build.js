@@ -1,34 +1,23 @@
 /* global require */
 /* global __dirname */
 /* global process */
+/* global global */
 
 // Build with Metalsmith
-let metalsmith = require("metalsmith");
-let fs = require("fs");
-let path = require("path");
-let hb_partials = require("handlebars");
-let marked = require("marked");
-let slug = require("slug");
+const metalsmith = require("metalsmith");
+const fs = require("fs");
+const path = require("path");
+const hb_partials = require("handlebars");
+const marked = require("marked");
+const slug = require("slug");
+const moment = require("moment");
+const _ = require("lodash");
 
-// Plugin for Bower support
-let bower = function(files, metalsmith, done) {
-    let bower_files = require("bower-files")();
-    let { readFileSync } = require("fs");
-    let { basename } = require("path");
-    let include = (root, included) =>
-        (() => {
-            let result = [];
-            for (let file of Array.from(included)) {
-                let contents = readFileSync(file);
-                result.push((files[`${root}/${basename(file)}`] = { contents }));
-            }
-            return result;
-        })();
-    include("css", bower_files.self().ext("css").files);
-    include("js", bower_files.self().ext("js").files);
-    include("fonts", bower_files.self().ext(["eot", "otf", "ttf", "woff", "woff2"]).files);
-    return done();
-};
+global.moment = moment;
+global._ = _;
+global.marked = marked;
+
+process.env.DEBUG = "metalsmith-timer";
 
 let set_metadata_defaults = function(files, metalsmith, done) {
     // Simple way to apply metadata defaults
@@ -221,7 +210,7 @@ ${body}
 </table>`;
     }
     image(href, title, text) {
-        let out = `<img class="img-responsive" src="${href}" alt="${text}"`;
+        let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
         if (title) {
             out += ` title="${title}"`;
         }
@@ -299,8 +288,6 @@ let ms = metalsmith(__dirname)
         })
     )
     .use(timer("metalsmith-autotoc"))
-    .use(require("metalsmith-alias")())
-    .use(timer("metalsmith-alias"))
     .use(
         require("metalsmith-filepath")({
             absolute: true,
@@ -310,26 +297,17 @@ let ms = metalsmith(__dirname)
     .use(timer("metalsmith-filepath"))
     .use(
         require("metalsmith-layouts")({
-            engine: "pug",
-            cache: true,
             default: "default.pug",
             pattern: "**/*.html",
-            helpers: {
-                moment: require("moment"),
-                marked: require("marked"),
-                _: require("lodash")
+            engineOptions: {
+                cache: true,
+                globals: ["moment", "marked", "_"]
             }
         })
     )
     .use(timer("metalsmith-layouts"))
     .use(file_staging)
-    .use(timer("file staging"))
-    .use(require("metalsmith-less")())
-    .use(timer("metalsmith-less"))
-    .use(bower)
-    .use(timer("bower"))
-    .use(require("metalsmith-uglify")())
-    .use(timer("metalsmith-uglify"));
+    .use(timer("file staging"));
 
 let argv = require("minimist")(process.argv.slice(2));
 

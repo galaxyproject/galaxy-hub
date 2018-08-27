@@ -1,7 +1,7 @@
 ---
 title: January 2018 Galaxy News
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
 
 Welcome to the January 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -15,7 +15,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 
 **[Nominate a training topic now](http://bit.ly/gccbosc2018-tr-nom)**.
 
-[<img class="pull-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
+[<img class="float-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
 
 The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic nominations have been extended January 12**. Any topics of interest to these communities can be nominated. 
 
@@ -35,7 +35,7 @@ Nominated topics have been, and will continue to be [published](/src/events/gccb
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="pull-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
+[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be (at least):
 
@@ -49,7 +49,7 @@ See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
 
 ### GMOD @ PAG
 
-<img class="pull-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
+<img class="float-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
@@ -62,13 +62,13 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 ### Intro to Galaxy Workshop at CSUSM
 
-[<img class="pull-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
+[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
 
 If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/src/events/2018-01-csusm-workshop/index.md) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
 ## ELIXIR Galaxy Community Kickoff and Meeting
 
-<div class="pull-left">
+<div class="float-left">
 [<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
 [<img src="/src/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
 </div>
@@ -84,7 +84,7 @@ Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discus
 
 ## 2018 Big Genomics Data Skills Training course
 
-[<img class="pull-right" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="float-right" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
  
@@ -215,7 +215,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Galactic Blog Entries: Galaksio
 
-<div class="pull-right" >
+<div class="float-right" >
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md) <br /><br />
 [<img src="/src/images/logos/galaksio_logo.png" alt="Galaksio in the Galactic Blog" width="200" />](/src/blog/index.md)
 </div>
@@ -280,7 +280,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ## EuPathDB Galaxy Data Analysis Service
 
-[<img class="pull-right" src="/src/public-galaxy-servers/eu-path-db/eupathdb-logo.png" width="240" />](EuPathDB Galaxy Data Analysis Service)
+[<img class="float-right" src="/src/public-galaxy-servers/eu-path-db/eupathdb-logo.png" width="240" />](EuPathDB Galaxy Data Analysis Service)
 
 The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/galaxy-orientation) is a free Galaxy server for large-scale data analysis focused on eukaryotic pathogens.
 
@@ -293,7 +293,7 @@ User support is available via a [web form](http://eupathdb.org/eupathdb/contact.
 
 ## Langille Lab PICRUSt server
 
-[<img class="pull-right" src="/src/public-galaxy-servers/langille-lab/picrust-workflow-450.jpg" width="280" alt="Langille Lab PICRUSt server" />](http://galaxy.morganlangille.com/)
+[<img class="float-right" src="/src/public-galaxy-servers/langille-lab/picrust-workflow-450.jpg" width="280" alt="Langille Lab PICRUSt server" />](http://galaxy.morganlangille.com/)
 
 The [Langille Lab PICRUSt server](http://galaxy.morganlangille.com/) hosts PICRUSt, a bioinformatics software package designed to predict metagenome functional content from marker gene (e.g., 16S rRNA) surveys and full genomes. [PICRUSt Documentation](http://picrust.github.io/picrust/index.html) and the [PICRUSt users list](https://groups.google.com/group/picrust-users/subscribe?note=1&hl=en&noredirect=true&pli=1) are available.
 
@@ -319,7 +319,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Commercial Support: Intero Life Sciences and Galaxy Enterprise
 
-[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
+[<img class="float-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
 We are pleased to announce a new option for [commercial Galaxy support](/src/support/commercial/index.md). [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
 
@@ -355,7 +355,7 @@ Ephemeris is a small Python library and set of scripts for managing the bootstra
 
 ## blend4php 0.1 beta
 
-[<img class='pull-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
+[<img class='float-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
 
 The beta version of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html), was released in December. It provides a PHP package for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
@@ -408,7 +408,7 @@ This revision:
 
 ### Planemo 0.47.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -447,7 +447,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ### Pulsar 0.8.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

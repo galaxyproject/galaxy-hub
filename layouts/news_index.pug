@@ -10,7 +10,7 @@ block content
                 tbody
                     each item in news
                         tr
-                            td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                            td: span.text-nowrap #{moment(item.date).format("MMMM Do YYYY")}
                             td: a( href=item.link ) #{item.title}
                             td: p.small
                                 +renderTeaseOrSlice(item)

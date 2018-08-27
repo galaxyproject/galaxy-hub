@@ -1,7 +1,7 @@
 ---
 title: November 2017 Galaxy News
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
 
 Welcome to the November 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -9,7 +9,7 @@ Welcome to the November 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a 
 
 # The Galactic Blog
 
-[<img class="pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
 
 The new *[Galactic Blog](/src/blog/index.md)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
 
@@ -65,13 +65,13 @@ We also added tags to papers that reference, use, or implement a Galaxy Public S
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="pull-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/src/events/2018-pag/index.md)
+[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/src/events/2018-pag/index.md)
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.  (We'll also list Galaxy related posters and Digital Tools and Resources talks once they are scheduled.)
 
 ### GMOD @ PAG
 
-<img class="pull-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="200" />
+<img class="float-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="200" />
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
@@ -234,7 +234,7 @@ The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was up
 
 ## BF2I-MAP
 
-[<img class="pull-right" src="/src/public-galaxy-servers/bf2i-map/bf21-map-sponsors.png" alt="BF2I-MAP" />](http://bf2i-galaxy.insa-lyon.fr:8080/)
+[<img class="float-right" src="/src/public-galaxy-servers/bf2i-map/bf21-map-sponsors.png" alt="BF2I-MAP" />](http://bf2i-galaxy.insa-lyon.fr:8080/)
 
 The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally developed (as well as standard tools) including ThreaDNA, which "allows generalising the approach to a large class of DNA-binding proteins." ([Cevost et al.](https://doi.org/10.1093/bioinformatics/btx634)).  BF2I-MAP is supported by the [Laboratoire de Microbiologie, Adaptation et Pathogénie](http://map.univ-lyon1.fr/), [Biologie Fonctionnelle Insectes et Interactions](http://bf2i.insa-lyon.fr/), [L'Université Claude Bernard Lyon 1](https://www.univ-lyon1.fr/), and [INSA de Lyon](https://www.insa-lyon.fr/)
 
@@ -247,7 +247,7 @@ The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally de
 
 ## Almost a public server: Language Analysis Portal
 
-[<img class="pull-right" src="/src/images/logos/clarino-logo-trans.png" alt="UiO Language Analysis Portal" />](http://www.mn.uio.no/ifi/english/research/projects/clarino/)
+[<img class="float-right" src="/src/images/logos/clarino-logo-trans.png" alt="UiO Language Analysis Portal" />](http://www.mn.uio.no/ifi/english/research/projects/clarino/)
 
 One of this month's highlighted papers ([Kouylekov et al](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf)) describes the Language Analysis Portal, which is built on Galaxy and is described as:
 
@@ -296,7 +296,7 @@ Other packages that have been released in the prior 4 months.
 
 ### Planemo 0.45 - 0.46.1
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -322,7 +322,7 @@ This set of revisions includes:
 
 ### Pulsar 0.8.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
