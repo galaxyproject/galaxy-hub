@@ -15,7 +15,7 @@ mixin renderResourceRow(item, with_scope, with_platform)
                 each platform in item.platforms
                      div( style="padding-left: 0.5em; text-indent: -0.5em;")
                          a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
-        td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
+        td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
     - var resources_malleable = use.slice().sort( function(a,b){return a.title.toLowerCase().localeCompare(b.title.toLowerCase())} )
