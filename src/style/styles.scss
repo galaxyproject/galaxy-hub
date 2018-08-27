@@ -65,10 +65,6 @@ aside {
     max-width: 1200px;
 }
 
-.navbar-brand {
-    padding: 6px 15px;
-}
-
 .navbar-static-bottom {
   @extend .fixed-bottom;
   position: absolute;
@@ -129,44 +125,7 @@ footer {
 
 // Masthead
 #masthead {
-    padding: 0;
-    margin-bottom: 0px;
     background-color: $base-color-1;
-    .navbar-nav {
-        min-height: 100%;
-        > li {
-            // This allows the background color to fill the full height of the
-            // masthead, while still keeping the contents centered (using flex)
-            min-height: 100%;
-            display: flex;
-            align-items: center;
-            &.active {
-                background: black;
-            }
-            .nav-link {
-                cursor: pointer;
-                text-decoration: none;
-                &:hover {
-                    color: gold;
-                }
-                &.nav-icon {
-                    font-size: 1.7em;
-                }
-                &.toggle {
-                    color: gold;
-                }
-            }
-            .nav-note {
-                font-weight: bold;
-                font-size: 10px;
-                position: relative;
-                right: 5px;
-                top: 10px;
-                color: gold;
-                width: 0px;
-            }
-        }
-    }
 }
 
 /* Custom CSS for Galaxy wiki doc
