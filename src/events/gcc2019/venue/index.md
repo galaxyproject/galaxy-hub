@@ -2,7 +2,7 @@
 
 # GCC2019 Venue
 
-<div class="pull-right">
+<div class="float-right">
 [<img src="/src/events/gcc2019/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>
 

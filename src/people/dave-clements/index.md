@@ -2,7 +2,7 @@
 title: Dave Clements
 ---
 
-<img class="pull-right" src="/src/galaxy-team/Clements.jpg" />
+<img class="float-right" src="/src/galaxy-team/Clements.jpg" />
 
 I work on the [Galaxy Project](http://galaxyproject.org) for [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)), where I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, wiki, and web presence.  I'm also hoping to touch the (Python!) code.
 

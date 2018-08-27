@@ -3,7 +3,7 @@
 </div>
 <br />
 
-<div class='pull-right'>
+<div class='float-right'>
 <br />
 [<img src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic Lerner Research Institute" width="160" />](https://www.lerner.ccf.org/)<br /><br />
 
@@ -27,7 +27,7 @@ Positions are currently available at
 
 ### [At Cleveland Clinic](http://www.lerner.ccf.org/jobs/postdoctoral/#760)
 
-[<img src="/src/images/logos/cleveland-clinic.svg" class="pull-right" alt="Postdoc positions at Cleveland Clinic Lerner Research Institute" width="200" />](http://www.lerner.ccf.org/jobs/postdoctoral/#760)
+[<img src="/src/images/logos/cleveland-clinic.svg" class="float-right" alt="Postdoc positions at Cleveland Clinic Lerner Research Institute" width="200" />](http://www.lerner.ccf.org/jobs/postdoctoral/#760)
 
 The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) has several [Postdoctoral Fellowships](http://www.lerner.ccf.org/jobs/postdoctoral/#760) available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions. The PI is a founding member of the Galaxy Project (https://galaxyproject.org), a platform that is used throughout the world for large-scale data analysis.
 
@@ -40,7 +40,7 @@ Exceptional applicants should send a letter of application, curriculum vitae, st
 
 ### [At Johns Hopkins University](http://taylorlab.org/joining/postdocs/)
 
-[<img src="/src/images/logos/JohnsHopkins.png" class="pull-right" alt="Postdoc openings at Johns Hopkins University" width="160" />](http://taylorlab.org/joining/postdocs/)
+[<img src="/src/images/logos/JohnsHopkins.png" class="float-right" alt="Postdoc openings at Johns Hopkins University" width="160" />](http://taylorlab.org/joining/postdocs/)
 
 We are recruiting [postdoctoral scholars](http://taylorlab.org/joining/postdocs/) with expertise in Bioinformatics and Computational Biology. Our work on Galaxy is driven by our biological and biomedical research programs, and we are interested in hearing from potential postdocs with a wide variety of research interests:
 
@@ -54,7 +54,7 @@ We are recruiting [postdoctoral scholars](http://taylorlab.org/joining/postdocs/
 
 ### [At Johns Hopkins University](http://taylorlab.org/joining/sw/)
 
-[<img src="/src/images/logos/JohnsHopkins.png" class="pull-right" alt="Postdoc openings at Johns Hopkins University" width="160" />](http://taylorlab.org/joining/sw/)
+[<img src="/src/images/logos/JohnsHopkins.png" class="float-right" alt="Postdoc openings at Johns Hopkins University" width="160" />](http://taylorlab.org/joining/sw/)
 
 We have a wide variety of active projects. Current areas of expertise sought include:
 

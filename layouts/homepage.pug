@@ -2,13 +2,13 @@ extends layout.pug
 
 
 mixin renderSplash(item)
-   h1.display-3 !{item.title}
+   h1.display-4 !{item.title}
    p.lead !{item.contents}
 
 
 block content
     section.section-content
-        div.row#splash-row
+        div.row.mb-3#splash-row
             div.col-sm-12
                 div.carousel.slide(data-ride="carousel" id="splash-box")
                     ol.carousel-indicators
@@ -18,10 +18,10 @@ block content
                         each item, index in splash
                             div.item.carousel-item.jumbotron
                                 +renderSplash(item)
-                    a.left.carousel-control(href="#splash-box" role="button" data-slide="prev")
+                    a.carousel-control-prev(href="#splash-box" role="button" data-slide="prev")
                         span.icon-prev(aria-hidden="true")
                         span.sr-only: Previous
-                    a.right.carousel-control(href="#splash-box" role="button" data-slide="next")
+                    a.carousel-control-next(href="#splash-box" role="button" data-slide="next")
                         span.icon-next(aria-hidden="true")
                         span.sr-only: Next
         div.row
@@ -31,19 +31,19 @@ block content
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
-                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
                 h2: a( href="/blog/" ) Blog
                 each item in blog.slice(0,2)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
-                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
             div.col-sm-4
                 h2: a( href="/events/" ) Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
-                    if events_counter < 5 && item.date != undefined && helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                    if events_counter < 5 && item.date != undefined && moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                         - events_counter += 1
                         p
                             if item.external_url
@@ -56,7 +56,7 @@ block content
                             else
                                 a( href=item.link ) #{item.title}
                             if item.tease
-                                |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                                |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
             div.col-sm-4
                 div#twitter_timeline( style="height:400px" )

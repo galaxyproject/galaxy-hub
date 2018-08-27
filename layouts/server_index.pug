@@ -10,7 +10,7 @@ mixin renderServerRow(item)
                 div( style="padding-left: 0.5em; text-indent: -0.5em;")
                     a( href=deGitUrl(serverLink.link_url) ) #{serverLink.link_text}
                     br
-        td !{helpers.marked(item.summary).replace("<p>","").replace("</p>","")}
+        td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
     - var servers_malleable = servers.slice().sort( function(a,b){return a.title.toLowerCase().localeCompare(b.title.toLowerCase())} )
