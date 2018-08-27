@@ -23,33 +23,33 @@ mixin renderResource()
         tr
             th Summary:
             td
-                != helpers.marked(summary).replace("<p>","").replace("</p>","")
+                != marked(summary).replace("<p>","").replace("</p>","")
     h2 Comments
     ul
         each comment in comments
             li
-                != helpers.marked(comment).replace("<p>","").replace("</p>","")
+                != marked(comment).replace("<p>","").replace("</p>","")
 
     h2 User Support
     ul
         if user_support > ""
             each support in user_support
                 li
-                    != helpers.marked(support).replace("<p>","").replace("</p>","")
+                    != marked(support).replace("<p>","").replace("</p>","")
 
     h2 Quotas
     ul
         if quotas > ""
             each quota in quotas
                 li
-                    != helpers.marked(quota).replace("<p>","").replace("</p>","")
+                    != marked(quota).replace("<p>","").replace("</p>","")
 
     h2 Citations
     ul
         if citations > ""
             each citation in citations
                 li
-                    != helpers.marked(citation).replace("<p>","").replace("</p>","")
+                    != marked(citation).replace("<p>","").replace("</p>","")
 
         if pub_libraries > ""
             each pub_lib in pub_libraries
@@ -63,7 +63,7 @@ mixin renderResource()
         if sponsors > ""
             each sponsor in sponsors
                 li
-                    != helpers.marked(sponsor).replace("<p>","").replace("</p>","")
+                    != marked(sponsor).replace("<p>","").replace("</p>","")
 
     div: p !{ contents }
 
