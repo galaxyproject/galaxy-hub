@@ -167,30 +167,6 @@ footer {
             }
         }
     }
-    .navbar-brand {
-        position: absolute;
-        left: 0;
-        // top: 0;
-        font-family: verdana;
-        font-weight: bold;
-        font-size: 20px;
-        // line-height: 1;
-        color: white;
-        // Override margin and padding due to shorter navbar height
-        padding: 5px 20px 12px;
-        margin-left: -15px;
-        text-decoration: none;
-        .navbar-brand-image {
-            display: inline;
-            height: 2rem;
-            // vertical-align: top;
-            margin-left: 0.35em;
-            border: none;
-        }
-        .navbar-brand-title {
-            color: white;
-        }
-    }
 }
 
 /* Custom CSS for Galaxy wiki doc
