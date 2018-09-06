@@ -23,13 +23,14 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 
 We intend to have a full day of talks from you. We especially encourage Galaxy User to present their work with Galaxy. 
 Please indicate your interest in presenting when you register (we will then get in contact with you). Or contact us directly.
+We will start at 10AM.
 
 **Tuesday, November 20th**
 
 This day is more on the technical side, with presentation, tutorials and hands on exercises. Currently we plan to discuss/present:
  - Galaxy and Machine learning
  - Single Cell RNA Seq analysis with Galaxy
-- Combining Galaxy with Shiny
+ - Combining Galaxy with Shiny
 
 
 ## Registration
@@ -59,7 +60,7 @@ http://www.freiburger-reisedienst.de/en/airportbus/timetable.php
 
 From Freiburg Hauptbahnhof
  - by local train: Take the Breisgau S-Bahn from Hauptbahnhof Freiburg in the direction of Gottenheim/Breisach to Neue Messe/Universität.
- -by Tram 4, direction Messe, stop “Technische Fakultät/Messe”
+ - by Tram 4, direction Messe, stop “Technische Fakultät/Messe”
 http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 
