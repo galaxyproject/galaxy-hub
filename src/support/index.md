@@ -1,65 +1,82 @@
 ---
-autotoc: true
-title: Support
+title: Galaxy Support
 ---
+## Quick Start
 
-<div class='right'>{{> Support/LinkBox }}</div>
+* [NGS 101](/src/tutorials/g101/index.md)
+* [Tutorials](/src/learn/index.md)
+* [Teaching with Galaxy](/src/teach/index.md)
+* [Using Galaxy Choices](/src/choices/index.md)
+* [Galaxy Project Highlights](https://galaxyproject.github.io/)
+
+## Help Resources
+
+* Query all Galaxy resources with the search function in the top masthead
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) 
+* [Claim your Biostars account](/src/support/biostar/index.md)
+* [Chat](https://gitter.im/galaxyproject/Lobby/)
+* [Mailing Lists](/src/mailing-lists/index.md)
+* [Video Help](http://vimeo.com/galaxyproject/)
+
+## Using Galaxy FAQs
+
+### Basics
+
+* [Getting an account at Galaxy Main (http://usegalaxy.org)](/src/support/account/index.md)
+* [Loading Data](/src/support/loading-data/index.md)
+* [Downloading Data](/src/support/download-data/index.md)
+* [Finding tools](/src/support/finding-tools/index.md)
+* [Where is the tool help?](/src/support/tool-help/index.md)
+* [Job details: bug, info, and other useful dataset icons](/src/support/dataset-icons/index.md)
+
+### Datasets and Histories
+
+* [Understanding the Analysis History](/src/tutorials/histories/index.md)
+* [Managing Datasets](/src/learn/managing-datasets/index.md)
+* [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+* [More about moving Datasets and Histories](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/) (external GVL blog)
+
+### Data Options
+
+* [Sharing and Publishing your work](/src/learn/share/index.md)
+* [Moving data between Galaxy servers (any!)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
+
+### Help Guides
+
+* [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/blob/master/README.md)
+* [Commercial Galaxy Support](/src/support/commercial/index.md)
+
+## Troubleshooting
+
+### Account 
+
+* [My history is missing! Good news, it probably isn't.](/src/support/missing-history/#my-history-is-missing-)
+* [A history was shared with me, where can I find it?](/src/support/missing-history/index.md)
+* [The account usage quota seems incorrect](/src/support/account-quotas/index.md)
+* [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/#delete-vs-delete-permanently)
+* [Reset password or Change email, username, password](/src/support/account-updates/index.md)
+
+### Unexpected results
+
+* [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
+* [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 
 
-**What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**
+### Getting inputs *right*
 
-**Learning Galaxy?** Get started with **[Galaxy NGS 101](http://wiki.galaxyproject.org/Learn/GalaxyNGS101)**
-
-**Ready for your test drive?** Follow the 101 Tutorials here **[http://usegalaxy.org/galaxy101](http://usegalaxy.org/galaxy101)**
-
-**End-User Support Resource Short List**
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](http://wiki.galaxyproject.org/Support/Biostar))
-* [Learn](http://wiki.galaxyproject.org/Learn)
-* [Teach](http://wiki.galaxyproject.org/Teach)
-* [Vimeo](http://vimeo.com/galaxyproject)
-* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/src/support/index.md#custom_searches) through all project content
-* [Galaxy Project Workshop 2015](https://wiki.galaxyproject.org/Teach/Resource/GalaxyProjectWorkshop2015)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
-* [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
-
-
-# Using Galaxy
-
-## Galaxy NGS 101
-
-The Big Picture: **[Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)**
-
-## Learning Hub
-
-See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [Main](/src/Main/index.md) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. **Also see the section at the top of this wiki *End-User Support Resource Short List***.
-
-## Screencasts
-
-[Screencast](/src/Learn/Screencasts/index.md) videos demonstrate the step-by-step for a range of topics. Packed with tips and methods usable across analysis workflows plus presentations and tutorials for administrations, these are a great resource for both the scientific and technical Galaxy communities.
-
-**Watch MOST videos** at *Vimeo* here at **[Galaxy Project on Vimeo](http://vimeo.com/user20484153)**
-
-## Custom Searches
-
-Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/CustomGalaxySearch/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
-
-## Biostar
-
-Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User support forum at **[https://biostar.usegalaxy.org](https://biostar.usegalaxy.org)**.
-<br />
- **[How to login and use...](/src/support/Biostar/index.md)**
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="250" /></a></div>
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/src/PublicGalaxyServers/index.md) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
-
-## Mailing Lists
-
-Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/src/Issues/index.md)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
-<div class='right'>![](/src/images/Logos/MailmanLogoSmall.png)</div>
-* [Error from tools: Sending in a specific-use bug report](/src/support/index.md#error_from_tools)
-* [Starting a technical tool, local, cloud instance, or development thread](/src/support/index.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
-* [Reporting/vetting a software bug](/src/support/index.md#reporting_a_software_bug)
-
-Note: The galaxy-user mailing list has been retired. Galaxy scientific user and tool help has moved to **[Galaxy Biostar](/src/support/Biostar/index.md)**. 
-
-## IRC Channel
+* [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
+* [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
+* [Reformatting fastq data loaded with NCBI SRA](/src/support/ncbi-sra-fastq/index.md)
+* [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
+* [Common datatypes explained](/src/learn/datatypes/index.md)
+* [The tool I'm using does not recognize any input datasets. Why?](/src/support/datatypes-and-tools/index.md)
+* [How do I find, adjust, and/or correct metadata?](/src/support/metadata/index.md)
+* [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
+* [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
+* [Mismatched Chromosome identifiers (and how to avoid them)](/src/support/chrom-identifiers/index.md)
 

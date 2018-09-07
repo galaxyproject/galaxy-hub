@@ -1,0 +1,18 @@
+extends layout.pug
+
+mixin renderNews()
+    section.section-content
+        +renderPageTitle
+        p.small #{moment(date).format("MMMM Do YYYY")}
+        div !{ contents }
+
+block content
+    if toc
+        div.col-md-9
+            +renderNews
+        div.col-md-3
+            div#sidebar
+                +renderToc(toc)
+    else
+        div.col-md-12
+            +renderNews

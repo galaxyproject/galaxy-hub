@@ -1,2 +1,0 @@
-{{> Develop/LinkBox }}
-{{> Develop/ResourcesAPI }}
