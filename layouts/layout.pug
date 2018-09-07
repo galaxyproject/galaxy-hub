@@ -1,12 +1,90 @@
 doctype html
 
 mixin renderToc(items)
-    ul.nav.nav-stacked.toc
+    ul.nav.flex-column
         each toc_item in items
-            li
-                a( href="#"+toc_item.id ) #{toc_item.text}
+            li.nav-item
+                a.nav-link( href="#"+toc_item.id ) !{toc_item.text}
                 if toc_item.children.length > 0
                     +renderToc(toc_item.children)
+
+mixin renderTeaseOrSlice(item)
+    if item.tease
+        | #{item.tease}
+    else if item.contents && typeof item.contents === "string"
+        | !{_.replace(_.replace(marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,80) + "..."}
+
+mixin renderPageTitle()
+    if !skip_title_render
+        h1.pageTitle #{ title }
+        +renderPageTease
+
+mixin renderPageTease()
+    if tease
+        p: em #{tease}
+
+-
+    function deGitUrl(url) {
+        if (url.startsWith("/")) {
+            if (url.startsWith("/src/")) {
+                url = url.substring(4);
+            }
+            if (url.includes("/index.md")) {
+                url = url.substring(0,url.indexOf("/index.md")) + url.substring(url.indexOf("/index.md")+9);
+            }
+        }
+        return url;
+    }
+
+    function platformGroupTagToText(platform_group_tag) {
+        if (platform_group_tag == "public-server") {
+            return 'Public Server';
+        }
+        if (platform_group_tag == "commercial-cloud") {
+            return 'Commercial Cloud Service';
+        }
+        if (platform_group_tag == "academic-cloud") {
+            return 'Academic Cloud Service';
+        }
+        if (platform_group_tag == "container") {
+            return 'Container';
+        }
+        if (platform_group_tag == "vm") {
+            return 'Virtual Machine';
+        }
+        if (platform_group_tag == "install-locally") {
+            return 'Install it locally';
+        }
+        return 'NOT RECOGNIZED!'
+    }
+    function getScopeTagUrlAndText(scope_tag) {
+        if (scope_tag == "usegalaxy") {
+            return {
+                link: "/use/#usegalaxy",
+                text: "UseGalaxy server"
+            }
+        }
+        if (scope_tag == "general") {
+            return {
+                link: "/use/#general",
+                text: "General Purpose / Genomics"
+            }
+        }
+        if (scope_tag == "domain") {
+            return {
+                link: "/use/#domain",
+                text: "Domain specific"
+            }
+        }
+        if (scope_tag == "tool-publishing") {
+            return {
+                link: "/use/#tool-publishing",
+                text: "Tool Publishing"
+            }
+        }
+        return 'NOTHING!'
+    }
+
 
 head( lang="en" )
     block title
@@ -16,11 +94,14 @@ head( lang="en" )
     meta( name="viewport" content="width=device-width, initial-scale=1" )
     meta( name="description" content="" )
     meta( name="author" content="" )
+    script( src="/js/bundle.js" )
 
-    link( rel="stylesheet" type="text/css" href="/css/styles.css" )
-    link( rel="stylesheet" type="text/css" href="/css/font-awesome.css" )
+    if highlight
+        link( rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css" )
+        script( src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js" )
+        script( type='text/javascript' ).
+            hljs.initHighlightingOnLoad();
 
-    script( src="http://localhost:35729/livereload.js" )
     script( type='text/javascript' ).
         // Gitter integrated #galaxyproject chat.
         window.gitter = {}
@@ -31,74 +112,152 @@ head( lang="en" )
         if (location.hash) shiftWindow();
         window.addEventListener("hashchange", shiftWindow);
         window.onload = shiftWindow;
+
     script( src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer )
 
+    if mathjax
+        // set mathjax: true to use mathjax on content pages.
+        script(src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
+
+        script(type="text/x-mathjax-config").
+            MathJax.Hub.Config({
+              tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                displayMath: [['$$','$$'], ['\[','\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: { equationNumbers: { autoNumber: "AMS" },
+                     extensions: ["AMSmath.js", "AMSsymbols.js"] }
+              }
+            });
+            MathJax.Hub.Queue(function() {
+                // Fix <code> tags after MathJax finishes running. This is a
+                // hack to overcome a shortcoming of Markdown. Discussion at
+                // https://github.com/mojombo/jekyll/issues/199
+                var all = MathJax.Hub.getAllJax(), i;
+                for(i = 0; i < all.length; i += 1) {
+                    all[i].SourceElement().parentNode.className += ' has-jax';
+                }
+            });
+
+    script(type='text/javascript').
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-45719423-4', 'auto');
+        ga('send', 'pageview');
+
+    script(type='text/javascript').
+        $(document).ready(function(){
+            // select a random valid slide from carousel and make it active
+            var items = $(".carousel-item");
+            var random_slide = Math.floor(Math.random() * (items.length));
+            $(items[random_slide]).addClass("active");
+            $($(".carousel-indicators li")[random_slide]).addClass("active");
+        });
+
+    if redirect
+        script(type='text/javascript').
+            $(function(){
+                $('#maincontainer').prepend("<div class='alert alert-warning'><strong>Note: </strong>This content has a new home at <a href='#{redirect}'>#{redirect}</a>, which you will be redirected to in 5 seconds.</div>");
+                window.setTimeout(function(){
+                    window.location.href = "#{redirect}";
+                }, 5000)
+            });
+
 body
-
-    header.navbar.navbar-default.navbar-inverse.navbar-fixed-top( role="navigation" ): div.container: div.row
-        div.col-md-12
-            div.navbar-header
-                button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
-                    span.sr-only Toggle navigation
-                    span.icon-bar
-                    span.icon-bar
-                    span.icon-bar
-                a.navbar-brand( href="/" )
-                  img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
-            div.navbar-collapse.collapse
-                ul.nav.navbar-nav
-                    each entry in menu
-                        if entry.links
-                            li.dropdown
-                                a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
-                                    span.caret
-                                ul.dropdown-menu
-                                    each val in entry.links
-                                        li
-                                            if val.link.substring(0,4) == "http"
-                                                a( href=val.link ) #{val.title}
-                                            else
-                                               a( href="/" + val.link + "/" ) #{val.title}
-                        else
-                            li: a( href="#") #{entry.title}
-
-                ul.nav.navbar-nav.navbar-right
+    div#masthead
+        nav.container.navbar.navbar-expand-lg.navbar-dark.justify-content-center( role="navigation" )
+            a.navbar-brand( href="/" )
+                img( height="30" src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" )
+            button.navbar-toggler.ml-auto(type="button" data-toggle="collapse" data-target="#navbarToggleWrapper" aria-controls="navbarToggleWraper" aria-expanded="false" aria-label="Toggle navigation")
+                span.navbar-toggler-icon
+            div.collapse.navbar-collapse.mx-auto#navbarToggleWrapper
+                ul.navbar-nav
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                            | Use
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a.dropdown-item(href='/main/') Main Galaxy
+                            li
+                                a.dropdown-item(href='/public-galaxy-servers/') Public Servers
+                            li
+                                a.dropdown-item(href='/cloud/') Cloud
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                            | Community
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a.dropdown-item(href='/community/') About
+                            li
+                                a.dropdown-item(href='/events/') Events
+                            li
+                                a.dropdown-item(href='/news/') News
+                            li
+                                a.dropdown-item(href='/blog/') Blog
+                            li
+                                a.dropdown-item(href='/publication-library/') Publications
+                            li
+                                a.dropdown-item(href='/galaxy-project/statistics/') Stats
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                            | Education
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a.dropdown-item(href='/learn/') Learn Galaxy
+                            li
+                                a.dropdown-item(href='/teach/') Teach
+                            li
+                                a.dropdown-item(href='/teach/gtn/') Training Network
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                            | Deploy & Develop
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a.dropdown-item(href='/admin/get-galaxy/') Get Galaxy
+                            li
+                                a.dropdown-item(href='/admin/') Administration
+                            li
+                                a.dropdown-item(href='/docs/') Documentation
+                            li
+                                a.dropdown-item(href='/tools/') Tools
+                            li
+                                a.dropdown-item(href='/develop/') Development
+                            li
+                                a.dropdown-item(href='/develop/api/') API
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                            | Support
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a.dropdown-item(href='/support/') Hub
+                            li
+                                a.dropdown-item(href='/support/biostar/') Galaxy Biostar
+                ul.navbar-nav.ml-auto
                     li
-                        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/"+orig_path )
-                            span.fa.fa-github
-                            span &nbsp; Edit on GitHub
-
-                // ul.nav.navbar-nav.navbar-right
-                //     li
-                //         form(class='navbar-form')
-                //             div.input-group
-                //                 input(class='form-control' placeholder='Search Galaxy')
-                //                 span.input-group-btn
-                //                     button(class="btn btn-secondary" type="submit")
-                //                         span.fa.fa-search
-
+                        form.my-2(class='navbar-form' method='get' action='/search/')
+                            div.input-group
+                                input.form-control#search-input(name='q' placeholder='Search Galaxy')
+                                span.input-group-btn
+                                    button(class="btn btn-secondary" type="submit")
+                                        span.fa.fa-search
+                    li.my-auto
+                        a.nav-link( href="https://github.com/galaxyproject/galaxy-hub/blob/master/src/"+orig_path )
+                            i.fa.fa-lg.fa-github
+                            span(title="Edit this page") &nbsp; Edit
     div.container#maincontainer: div.row
-
-        if toc
-            div.col-md-9
-                block section
-                    section.section-content
-                        block content
-                            div !{ contents }
-            div.col-md-3
-                div#sidebar
-                    +renderToc(toc)
-        else
-            div.col-md-12
-                block section
-                    section.section-content
-                        block content
-                            div !{ contents }
+        block content
+            div !{ contents }
 
     footer.navbar-default.navbar-static-bottom
         div.container: div.row: div.col-md-12
             block footer:
               p.navbar-text The Galaxy Project is supported in part by NSF, NHGRI, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Johns Hopkins University.
-
-    script( src="/js/jquery.min.js" )
-    script( src="/js/bootstrap.min.js" )

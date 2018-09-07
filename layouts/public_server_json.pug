@@ -1,0 +1,2 @@
+- var servers_for_display = _.map(servers, function(r){ return _.omit(r, ['previous', 'next', 'stats', 'mode', 'collection', 'orig_path', 'layout', 'autotoc'])})
+| !{JSON.stringify(servers_for_display, null, 2)}
