@@ -50,7 +50,7 @@ In addition to these resources some jobs (involving tools for genome and transcr
 
 ## User data and job quotas
 
-Jobs that have low mamory and CPU requirements are subject to the following limits:
+Jobs that have low memory and CPU requirements are subject to the following limits:
 
 | Maximum total accounts per user   | 1 registered/unregistered                              |
 |-----------------------------------|--------------------------------------------------------|
