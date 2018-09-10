@@ -124,7 +124,8 @@ The following is an example that contains all of the attributes described above.
 
 ### `<source>` tag set
 
-This tag defines the source location within a `<move>` tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset.
+This tag defines the source location within a `<move>` tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset. Both the `base` attribute and the text of the `<source>` tag are treated as [Cheetah](https://pythonhosted.org/Cheetah/) templates, with the columns names specified in the `<column>` tagsets available as variables (with values taken from the corresponding data table entries. The strings produced for the `base` attribute and the tag text
+should resolve to a single line.
 
 
 | attribute |  values  |  details  |  required  |  example  | 
@@ -145,7 +146,9 @@ The following is an example that contains the most common usage, where the value
 
 ### `<target>` tag set
 
-This tag defines the target location within a `<move>` tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value.
+This tag defines the target location within a `<move>` tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value. The values of the `base` and the tag text are treated as
+templates as with the `<source>` tag. In addition the variables from the `<column>` tagset the value of `galaxy_data_manager_data_path` configuration value is available using the `${GALAXY_DATA_MANAGER_DATA_PATH}` 
+variable.
 
 
 | attribute |  values  |  details  |  required  |  example  | 
@@ -156,6 +159,7 @@ This tag defines the target location within a `<move>` tag set. When not specifi
 #### Example
 
 The following is an example that contains a common usage, where a target value is constructed using several of the values provided by the Data Manager Tool, relative to the *galaxy_data_manager_data_path*, is used as the source.
+
 ```xml
 <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>
 ```
@@ -176,7 +180,8 @@ This tag allows using templating to modify the value provided by the Data Manage
 
 #### Example
 
-The following is an example that contains a common usage, where a value is constructed using several of the values provided by the Data Manager Tool and that value is then turned into an absolute path.
+The following is an example that contains a common usage, where a value is constructed using several of the values provided by the Data Manager Tool and that value is then turned into an absolute path. If `<value_translation>` is a string (not a function)
+it is treated as a template, much like `<source>` and `<target>`, and must return a single line string.
 ```xml
 <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${value}/seq/${path}</value_translation>
 <value_translation type="function">abspath</value_translation>
