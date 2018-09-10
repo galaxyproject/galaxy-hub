@@ -55,6 +55,7 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
   - [Setup](#setup)
   - [Generate  local website](#generate-local-website)
   - [Handling of images](#handling-of-images)
+  - [Git lfs clone Troubles?](#git-lfs-clone-troubles) 
   - [LFS Troubles?](#lfs-troubles)
 - [Advanced Topics](#advanced-topics)
   - [Update Slide Carousel on Landing Page](#update-slide-carousel-on-landing-page)
