@@ -830,13 +830,19 @@ nodejs.org](https://nodejs.org) if you would like to update.
 
 ## Generate  local website
 
+Direct your terminal to the newly cloned `galaxy-hub` directory
+
+```
+cd galaxy-hub
+```
+
 To build and serve the site locally on port 8080, run:
 
 ```
 make serve
 ```
 
-To build the website into the `build` directory, without serving (for example,
+Alternatively, to build the website into the `build` directory, without serving (for example,
 if you had an external web server configured to serve these files), run:
 
 ```
@@ -858,6 +864,10 @@ and/or execute the following command to have them reinstalled:
 touch package.json; make node_modules
 ```
 
+If you are using MacOS and see a `error: xcrun` message, you will need to install Command Line Tools. Enter the command:
+```
+xcode-select --install
+```
 
 ## Handling of images
 
@@ -879,6 +889,16 @@ placed in an appropriate directory under `/src/images`.
 
 Note: Please do not upload images using the GitHub web interface -- there's a
 feature request open with GitHub, but currently this does not support LFS.
+
+## Git lfs clone Troubles?
+
+If you encounter an authentication error where permission is denied upon executing git lfs clone, you may need to generate a SSH key and add that SSH key to your git hub account. Follow the instructions provided at the links below.
+
+[Generation of SSH key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+)
+
+[Adding new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
 
 ## LFS Troubles?
 
