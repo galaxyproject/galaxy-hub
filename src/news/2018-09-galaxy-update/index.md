@@ -168,7 +168,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 New additions to the Galaxy Community.
 
-# Cloudbridge
+# CloudBridge
 
 [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released! 
 
