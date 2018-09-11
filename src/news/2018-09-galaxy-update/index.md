@@ -1,8 +1,9 @@
 ---
 title: 'September 2018 Galactic News'
-tease: 'New events (GCC2019!), pubs (400+), blog posts, jobs, ...'
+tease: 'New events, pubs, blog post, jobs, ...'
 ---
-[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/2018-09/index.md>)
+
+[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
 
 The *Septermber  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -230,5 +231,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* [CellOrganizer for Galaxy](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html)
-  * CellOrganizer for Galaxy is a set of tools that enables users to train generative models of the cell from microscopy images, analyze trained generative models, and synthesize instances using [CellOrganizer](http://www.cellorganizer.org/), a tool for learning and managing generative models of cell organization directly from images.
+[<img class="float-right" src="/src/images/logos/cell-organizer-logo.jpg" alt="CellOrganizer for Galaxy" width="180px" />](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html)
+
+* [CellOrganizer for Galaxy](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html) is a set of tools that enables users to train generative models of the cell from microscopy images, analyze trained generative models, and synthesize instances using [CellOrganizer](http://www.cellorganizer.org/), a tool for learning and managing generative models of cell organization directly from images.
