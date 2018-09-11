@@ -237,7 +237,7 @@ Software or Tool Bug:
 
 * The tool ended with what appears to be a tool problem message.
 * See examples above.
-* The tool or input data is listed on the pages of [Known Tool Issues](/src/support/tool-issues/index.md) or [Known Data Issues](/src/support/data-issues/index.md).
+* [Search Galaxy Resources](/src/search) to see if the problem is a current known problem with a workaround.
 
 #### How to resolve - bugs
 
