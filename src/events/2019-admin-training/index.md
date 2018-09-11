@@ -12,7 +12,7 @@ contact: Instructors
 image: /src/events/2019-admin-training/2019-admin-training-logo.png
 ---
 
-A **Galaxy Admin Training workshop** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.
+A **Galaxy Admin Training workshop** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.  The workshop is split into a 2 day introductory session and a 3 day advanced topics session.  Participants can register for one or both sessions.
 
 This workshop will cover basic and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
@@ -23,7 +23,9 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 
 **Please review the prerequisites carefully before registering.**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
 
-## Comfortable with the Unix/Linux command line
+## Introduction Session
+
+### Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
   ```
@@ -45,11 +47,15 @@ Linux has several text editors available in it.  You’ll need to be competent i
 * [Emacs](https://www.gnu.org/software/emacs/): Powerful and a wee bit scary.
 * [VIM](http://www.vim.org/): Powerful, efficient, and more than a wee bit scary.
 
-## Some experience with Linux Package Management
+### Some experience with Linux Package Management
 
 You don’t need to be an expert at Linux package management, but you do need to have some experience at installing and upgrading packages on a Linux system.
 
 We’ll be using Ubuntu based images during the workshop, which means we’ll be using **[apt](https://help.ubuntu.com/community/AptGet/Howto)** to do package management.  Get to know it.
+
+## Advanced Topics 
+
+Prerequisites include all of the Introduction Session prerequisites, plus familiarity with the topics presented in that session.
 
 # Laptop Requirements
 
@@ -62,6 +68,8 @@ All participants should bring a wifi-enabled laptop with
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Schedule
+
+The workshop is split into a 2 day introductory session and a 3 day advanced topics session.
 
 The workshop schedule will be posted on GitHub shortly.  Sessions start at 9am and end by by 5 or 6pm every day.
 
@@ -77,23 +85,29 @@ Additional instructors will be added in the coming months.
 
 # Registration
 
-Registration will open shortly and will be available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.
-
-| | Early <br /> by Oct 31 | Advance <br /> by Dec 31 | Full |
-| ---- | ---- | ---- | ---- |
-| Non-profit / academic | $175 | $225 | $325 |
-| Industry | $295 | $395 | $595 |
+Registration will open shortly and will be available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.  The workshop is split into a 2 day introductory session and a 3 day advanced topics session.  Participants can register for one or both sessions.
 
 Space is limited and the 2016 and 2018 admin training workshops sold out.
 
+## Introduction to Galaxy Administration, 2 days
+
+| | Early <br /> by Oct 31 | Advance <br /> by Dec 31 | Full |
+| ---- | ---- | ---- | ---- |
+| Non-profit / academic |   $80 |   $90 | $130 |
+| Industry                        | $120 | $160 | $240 |
+
+## Galaxy Administration Advanced Topics, 3 days
+
+| | Early <br /> by Oct 31 | Advance <br /> by Dec 31 | Full |
+| ---- | ---- | ---- | ---- |
+| Non-profit / academic | $120 | $135 | $195 |
+| Industry                        | $180 | $240 | $360 |
 
 ## Cancellations
 
-Cancellations received before the early registration deadline (October 31) will receive a full refund.
-
-Cancellations received after early registration closes, but before Advance registration closes (December 31) will receive a 50% refund.
-
-Cancellations received after December 31 will not receive a refund.
+* Cancellations received before the early registration deadline (October 31) will receive a full refund.
+* Cancellations received after early registration closes, but before Advance registration closes (December 31) will receive a 50% refund.
+* Cancellations received after December 31 will not receive a refund.
 
 # Transportation
 
