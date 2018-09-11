@@ -1,11 +1,11 @@
 ---
 title: 'CloudBridge v1 release'
-tease: Style update, Unlimited uploads, Rule-based uploader
+tease: Support for Microsoft Azure, better consistency
 date: '2018-09-07'
 ---
 We are pleased to announce the release of CloudBridge v1. 
 
-CloudBridge is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds. This release is further characterized by improved consistency.
+[CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds. This release is further characterized by improved consistency.
 
 Key features of this release are as follows:
 
