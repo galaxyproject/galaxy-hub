@@ -58,7 +58,7 @@ These are the top reasons for tool failures.
 * The datatype or database is either not assigned or is incorrect.
 * The original fastq input was not really in fastsanger format.
 * Key fields on the tool form were left blank (please report this so we can fix it!).
-* The tool has specific formatting requirements for inputs that was not followed (yes, exactly).
+* The tool has specific formatting requirements for inputs that were not met.
 * Annotation files are a mismatch for the selected or assigned reference genome build.
 * The BED/Interval/GFF dataset is not really in specification.
 * Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. 
