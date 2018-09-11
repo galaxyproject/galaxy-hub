@@ -166,6 +166,17 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 Packages released since May.
 
+## BioMAJ2Galaxy
+
+[BioMAJ2Galaxy](https://github.com/genouest/biomaj2galaxy) does the following actions on a Galaxy server:
+
+* Add new items to data libraries
+* Remove items from data libraries
+* Add new items to tool data tables using data managers
+* Remove items from tool data tables
+
+These scripts are primarily designed to be used as [BioMAJ](http://biomaj.genouest.org) post processes, but they can probably used directly from the command line if you need to.
+
 ## 18.05 Galaxy Release
 
 <div class="right">
@@ -219,5 +230,5 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-  
-
+* [CellOrganizer for Galaxy](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html)
+  * CellOrganizer for Galaxy is a set of tools that enables users to train generative models of the cell from microscopy images, analyze trained generative models, and synthesize instances using [CellOrganizer](http://www.cellorganizer.org/), a tool for learning and managing generative models of cell organization directly from images.
