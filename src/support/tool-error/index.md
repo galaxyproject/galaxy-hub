@@ -58,7 +58,7 @@ These are the top reasons for tool failures.
 * The datatype or database is either not assigned or is incorrect.
 * The original fastq input was not really in fastsanger format.
 * Key fields on the tool form were left blank (please report this so we can fix it!).
-* The tool has specific formatting requirements for inputs that was not followed (yes, exactly).
+* The tool has specific formatting requirements for inputs that were not met.
 * Annotation files are a mismatch for the selected or assigned reference genome build.
 * The BED/Interval/GFF dataset is not really in specification.
 * Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. 
@@ -74,14 +74,11 @@ These are the top reasons for tool failures.
 * Fix the inputs. 
 * Read the tool form help.
 * **Follow the guidelines and troubleshooting help at the [Support Hub](/src/support/index.md).**
+* **Review a [Galaxy Tutorial](/src/learn/index.md) that covers your analysis and/or tool.**
 
 #### Special cases - input
 
 * There are no special cases. This problem is ubiquitous no matter where or with what tools you happen to be using.
-* Or how experienced you are. Everyone makes little errors. Catching and fixing them is what matters. 
-* Ask for help if you need it (Biostars or a bug report).
-* This type of issue is why keeping track of an analysis - exactly - is so important for producing reliable results.
-* It is tricky to keep track of all the details on your own. Let Galaxy take care of the details, so you can focus on the science. 
 * *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/src/images/icons/arrow-circle.png) and job info ![](/src/images/icons/HistoryInfo.png) functions to review your work. 
 
 Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
