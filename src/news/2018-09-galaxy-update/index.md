@@ -18,6 +18,7 @@ Here's all the news that fits:
   * [Public Galaxy Server News](#public-galaxy-server-news): epiGeEC and MetaCentrum
   * [ToolShed contributions](#toolshed-contributions)
   * [Hub and Documentation updates](#hub-and-doc-updates)
+  * [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released! 
   * [Releases](#releases)
 * And [other news](#other-news) too
 
@@ -165,7 +166,18 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Releases
 
-Packages released since May.
+New additions to the Galaxy Community.
+
+# Cloudbridge
+
+[CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released! 
+
+* One interface to major Infrastructure-as-a-Service (IaaS) cloud providers
+* CloudBridge v1 supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds
+* Thanks to help from the [AnswerALS project](https://www.answerals.org/) and Microsoft, Azure now has complete implementation of all CloudBridge capabilities
+
+For other features and changes contained in this release, please take a look at the [CHANGELOG](https://github.com/CloudVE/cloudbridge/blob/master/CHANGELOG.rst).
+
 
 ## BioMAJ2Galaxy
 
@@ -178,50 +190,10 @@ Packages released since May.
 
 These scripts are primarily designed to be used as [BioMAJ](http://biomaj.genouest.org) post processes, but they can probably used directly from the command line if you need to.
 
-## 18.05 Galaxy Release
-
-<div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
-</div>
-
-The [18.05 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_18.05/releases/18.05_announce.html ). Thanks to the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) and you, our community!
-
-**Highlights:**
-
-* *New Interface Style Library* - Bootstrap 4 leading to VueJS
-* *Unlimited Browser Upload Size* - Chunked and resumable file uploads out-of-the-box
-* *New Powerful Rule-Based Data Uploader* - Use lists of rules for processing metadata tht describes the upload of arbitrarily complex collections
-* *GDPR Beta Mode* - We introduce beta GDPR privacy mode
-* *New HIV-TRACE Plugin* - Integration of a new visualization plugin - HIV-TRACE
-* *Visualization Frameworks Unified* - The charts and generic visualization frameworks have been merged together
-
-See the [full release notes](https://docs.galaxyproject.org/en/release_18.05/releases/18.05_announce.html) for more.
-
-Thanks for using Galaxy!
 
 ### Galaxy Docker Image 18.05
 
 The [Galaxy Docker project has a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/18.05), for Galaxy 18.05. The release features the 18.05 enhancements.
-
-## Planemo 0.49.0-0.54.0
-
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst) (~50 of them).
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-## galaxy-lib 18.5.8 - 18.5.13
-
-galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
-
-## ephemeris 0.8-0.9
-
-[Ephemeris](https://github.com/galaxyproject/ephemeris) is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows. It has [extensive documentation](https://ephemeris.readthedocs.org/).  These [latest releases](https://github.com/galaxyproject/ephemeris/blob/master/HISTORY.rst) features numerous newly contributed features.
-
-## sequence_utils 1.1.3
-
-[Galaxy's sequence utilities](https://github.com/galaxyproject/sequence_utils) are a set of Python modules for reading, analyzing, and converting sequence formats.
 
 
 ## And the rest ...
