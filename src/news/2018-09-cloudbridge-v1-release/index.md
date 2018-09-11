@@ -5,7 +5,7 @@ date: '2018-09-07'
 ---
 We are pleased to announce the release of CloudBridge v1. 
 
-[CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds. This release is further characterized by improved consistency.
+[CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds. This release is further characterized by improved code consistency.
 
 Key features of this release are as follows:
 
@@ -23,10 +23,11 @@ Take a look at the diagram in the documentation for a graphical overview and lin
 
 ### Consistent use of id, name, and label properties
 After much deliberation (about which you can read in the [design decisions](http://cloudbridge.cloudve.org/en/latest/topics/design_decisions.html#resource-identification-naming-and-labeling) part of the documentation), each CloudBridge resource now has three properties when it comes to naming and identifying objects:
-id is a unique identifier for an object, always auto-generated;
-name is a read-only, user-friendly value which is suitable for display to the end-user;
-label is a user-assignable value that can be changed.
-This consistency and clarity will help in more readily dealing with resource properties not only  across providers but also among different resources. 
+- `id` is a unique identifier for an object, always auto-generated;
+- `name` is a read-only, user-friendly value which is suitable for display to the end-user;
+- `label` is a user-assignable value that can be changed.
+
+This consistency and clarity will help in more readily dealing with resource properties not only across providers but also among different resources. 
 
 
 For other features and changes contained in this release, please take a look at the [CHANGELOG](https://github.com/CloudVE/cloudbridge/blob/master/CHANGELOG.rst).
