@@ -8,7 +8,6 @@ Related topics
 * [Tutorials](/src/learn/index.md)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
-* [Search the Galaxy](/src/search/)
 * [Choices](/src/choices/index.md)
 * [Ecosystem](https://galaxyproject.github.io/)
 
