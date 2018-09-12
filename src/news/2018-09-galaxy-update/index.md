@@ -5,11 +5,11 @@ tease: 'New events, pubs, blog post, jobs, ...'
 
 [<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
 
-The *Septermber  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+The *September  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 Here's all the news that fits:
 * Events
-  * [2018 SACNAS Workshops](#2018-sacnas-workshops)
+  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops)
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
   * [All upcoming events](#upcoming-events)
 * New:
@@ -27,7 +27,7 @@ Here's all the news that fits:
 
 # Events
 
-## 2018 SACNAS Workshops
+## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
 [<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
@@ -37,14 +37,13 @@ Here's all the news that fits:
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
 </div>
 
-If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio next month, then please consider signing up for one of [these preconference workshops](/src/events/2018-sacnas/index.md):
+If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/src/events/2018-sacnas/index.md).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  Everyone is eligible and the workshops are free.
 
 **[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
 
 **[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
 
-[Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
-Both workshops are held October 10, the day before SACNAS starts.
+[Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.  Both workshops are held October 10, the day before SACNAS starts.
 
 **[Register Now](https://sacnas-data.eventbrite.com/)**
 
