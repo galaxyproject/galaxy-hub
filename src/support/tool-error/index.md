@@ -5,13 +5,19 @@ title: Job and Tool Error Help
 
 Related topics
 
+* [Tutorials](/src/learn/index.md)
+* [Getting Inputs Right](/src/support/#getting-inputs-right)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
-* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
-* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
-* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
-* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
-* [Galaxy Choices](/src/choices/index.md)
-* [The Galaxy Ecosystem](https://galaxyproject.github.io/)
+* [Search the Galaxy](/src/search/)
+* [Choices](/src/choices/index.md)
+* [Ecosystem](https://galaxyproject.github.io/)
+
+Known Issues
+
+* [Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 
 ## Job and Tool Error Help
 
