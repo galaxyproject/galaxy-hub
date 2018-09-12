@@ -5,7 +5,7 @@ title: Job and Tool Error Help
 
 Related topics
 
-* [Tutorials(/src/learn/index.md)
+* [Tutorials](/src/learn/index.md)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
 * [Search the Galaxy](/src/search/)
