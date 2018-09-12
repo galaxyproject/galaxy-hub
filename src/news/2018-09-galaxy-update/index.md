@@ -22,10 +22,11 @@ Here's all the news that fits:
   * [Releases](#releases)
 * And [other news](#other-news) too
 
-
 ----
 
 # Events
+
+As always, there is a lot going on in the Galaxy:
 
 ## 2018 SACNAS Pre-conference Workshops
 
@@ -88,6 +89,7 @@ Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAd
 | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 2 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
 
 ----
+
 # Who's Hiring
 
 <div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
@@ -106,12 +108,14 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 </div>
 
 There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 * [Contributor of the Month: Carrie Ganote](/src/blog/2018-09-cotm-carrie-ganote/index.md), By Björn Grüning
+
+----
 
 # Public Galaxy Server News
 
@@ -147,6 +151,15 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ----
 
+# Hub and Doc Updates
+
+* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/src/people/dannon-backer/index.md). Search for something and click on the pub library tab.
+* [Data Manager XML syntax descrption](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
+* [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/src/people/mo-heydarian/index.md)
+* There was a massive Hub infrastructure update by [Dannon Baker](/src/people/dannon-backer/index.md), but it's one of those you won't even notice.
+
+----
+
 # Tools
 
 ## ToolShed Contributions
@@ -154,13 +167,6 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in August 2018](/src/toolshed/contributions/2018-08/index.md).
-
-# Hub and Doc Updates
-
-* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/src/people/dannon-backer/index.md). Search for something and click on the pub library tab.
-* [Data Manager XML syntax descrption](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
-* [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/src/people/mo-heydarian/index.md)
-* There was a massive Hub infrastructure update by [Dannon Baker](/src/people/dannon-backer/index.md), but it's one of those you won't even notice.
 
 
 # Releases
@@ -199,6 +205,7 @@ The [Galaxy Docker project has a matching release](https://github.com/bgruening/
 
 Other Galaxy packages that haven't had a release in the past four months can be [found on GitHub](https://github.com/galaxyproject).
 
+----
 
 # Other News
 
