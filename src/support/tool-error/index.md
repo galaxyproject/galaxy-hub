@@ -30,11 +30,10 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 ### TIPS
 
-1. The advice on this page is primarily about errors at [Galaxy Main](/src/main/index.md). 
-1. In particular, the cluster help is server specific for http://usegalaxy.org. 
-1. But good news! The general troubleshooting help applies to most Galaxy servers/tools/functions.
+1. The general troubleshooting help applies to most Galaxy servers/tools/functions.
+1. The cluster error help is server specific for [Galaxy Main](/src/main/index.md) at http://usegalaxy.org. 
 1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems is often necessary. Each Galaxy is independently administered.
-1. Most if not all input problems would result in errors whether the tools were used in Galaxy or line-command. Learning how to properly prepare data is worth learning and Galaxy is a friendly place to experiment.
+
 
 ## Determining the job failure type
 
