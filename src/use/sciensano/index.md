@@ -1,5 +1,5 @@
 ---
-title: "Sciensno Galaxy"
+title: "Sciensano Galaxy"
 url: "https://galaxy.sciensano.be/"
 scope: "tool-publishing"
 platforms:
@@ -9,7 +9,7 @@ platforms:
 summary: "Tools from Sciensano, the Institute of Public Health (Belgium)"
 image: "/src/use/sciensano/sciensano-logo.jpg"
 comments:
-  - "The [Sciensno Galaxy](https://galaxy.sciensano.be/) features standard text and file manipulation tools, plus..."
+  - "The [Sciensano Galaxy](https://galaxy.sciensano.be/) features standard text and file manipulation tools, plus..."
   - "polymeraSe Chain Reaction Evaluation through largE-scale miNing of gEnomic Data (SCREENED)"
   - "Neisseria Pipeline a complete pipeline for the characterization of N. meningitidis (quality control, assembly, resistance characterization, sequence typing and serogroup determination)"
 user_support:
