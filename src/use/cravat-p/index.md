@@ -9,7 +9,7 @@ platforms:
 summary: "A Docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P."
 image: "/src/use/cravat-p/cravat-p-landing-500.png"
 comments:
-  - "The [CRAVAT-P Galaxy Docker instance](https://jraysajulga.github.io/cravatp-galaxy-docker/) includes a Galaxy Instance (version 17.09); CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool; CRAVAT-P Galaxy Viewer; Input files (i.e., VCF and proBED files); and a Basic CRAVAT-P Workflow."
+  - "The [CRAVAT-P Galaxy Docker instance](https://jraysajulga.github.io/cravatp-galaxy-docker/) includes a Galaxy Instance (version 17.09); CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool; CRAVAT-P visualization plugin; input files (i.e., VCF and proBED files); and a basic CRAVAT-P workflow."
 user_support:
   - "[Installation guide and tutorial](https://jraysajulga.github.io/cravatp-galaxy-docker/)"
 quotas:
@@ -19,7 +19,7 @@ citations:
 pub_libraries:
   - "CRAVAT-P"
 sponsors:
-  - "University of Minnesota, Minneapolis, Minnesota United States"
+  - "University of Minnesota, Minneapolis, Minnesota, United States"
   - "In-Silico Solutions, Falls Church, Virginia, United States"
   - "Johns Hopkins University, Baltimore, Maryland, United States"
 ---
