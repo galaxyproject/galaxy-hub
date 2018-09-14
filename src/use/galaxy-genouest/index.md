@@ -17,6 +17,7 @@ quotas:
   - "The default quota for new users is 50GB."
 citations:
 pub_libraries:
+  - "GenOuest"
 sponsors:
   - "[GenOuest](http://www.genouest.org/)"
   - "[IRISA](https://www.irisa.fr/)"
