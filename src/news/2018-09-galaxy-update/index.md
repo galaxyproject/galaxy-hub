@@ -278,7 +278,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 # Hub and Doc Updates
 
 * The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/src/people/dannon-backer/index.md). Search for something and click on the pub library tab.
-* [Data Manager XML syntax descrption](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
+* [Data Manager XML syntax description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
 * [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/src/people/mo-heydarian/index.md)
 * There was a massive Hub infrastructure update by [Dannon Baker](/src/people/dannon-backer/index.md), but it's one of those you won't even notice.
 
