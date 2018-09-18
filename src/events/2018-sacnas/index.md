@@ -14,6 +14,8 @@ contact: Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee
 
 ## Do you have data and don’t know where to start with analysis?
 
+[<img class="float-right" src="/src/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
+
 There will be two parallel full day pre-conference workshops at [2018 SACNAS](http://www.2018sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research.
 
 1. **[Software and Data Carpentry](#workshop-1-software-and-data-carpentry)**
@@ -36,7 +38,7 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 
 # Workshop 1: Software and Data Carpentry
 
-<div class="right">
+<div class="float-right">
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
@@ -134,3 +136,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 5:00p - 5:15p | Galaxy Community |
 | 5:15p - 5:55p | Compare & Contrast: CyVerse, Galaxy, and other options |
 | 5:55p - 6:00p | Group Picture |
+
+# Help Get the Word Out!
+
+**We need your help advertising this workshop.  Please distribute the [workshop flier](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf) to your colleagues.**
