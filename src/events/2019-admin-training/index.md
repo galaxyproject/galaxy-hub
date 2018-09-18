@@ -12,12 +12,15 @@ contact: Instructors
 image: /src/events/2019-admin-training/2019-admin-training-logo.png
 ---
 
-A **Galaxy Admin Training workshop** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.  The workshop is split into a 2 day introductory session and a 3 day advanced topics session.  Participants can register for one or both sessions.
+**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.  The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions.  Participants can register for one or both sessions.
 
-This workshop will cover basic and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
+This workshop will cover [basic](https://github.com/galaxyproject/dagobah-training#basic-sessions) and [advanced topics](https://github.com/galaxyproject/dagobah-training#advanced-sessions) you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.   
 
 Galaxy is an open web based platform for biomedical data integration and analysis. It is deployed at large and small organizations around the world and used in a broad range of biomedical research domains, and across the tree of life.
 
+# Schedule
+
+The [workshop](https://github.com/galaxyproject/dagobah-training) is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions).
 
 # Prerequisites
 
@@ -67,12 +70,6 @@ All participants should bring a wifi-enabled laptop with
   * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
-# Schedule
-
-The workshop is split into a 2 day introductory session and a 3 day advanced topics session.
-
-The workshop schedule will be posted on GitHub shortly.  Sessions start at 9am and end by by 5 or 6pm every day.
-
 # Instructors
 
 We currently have three confirmed (and highly experienced!) instructors:
@@ -85,9 +82,9 @@ Additional instructors will be added in the coming months.
 
 # Registration
 
-Registration will open shortly and will be available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.  The workshop is split into a 2 day introductory session and a 3 day advanced topics session.  Participants can register for one or both sessions.
+**[Registration is open](https://2019galaxyadmin.eventbrite.com/)** and is available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.  The workshop is split into a 2 day introductory session and a 3 day advanced topics session.  Participants can register for one or both sessions.
 
-Space is limited and the 2016 and 2018 admin training workshops sold out.
+Space is limited and the 2016 and 2018 admin training workshops sold out.  **[Register now](https://2019galaxyadmin.eventbrite.com/).**
 
 ## Introduction to Galaxy Administration, 2 days
 
