@@ -25,6 +25,7 @@ Please indicate your interest in presenting when you register (we will then get 
 confirmed speakers: 
  - Musumba Awori: *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*
  - Jochen Bick: 
+ - Matthias Bernt: *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*
 
 **preliminary schedule**
 
