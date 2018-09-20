@@ -1,5 +1,5 @@
 ---
-title: Galaxy @ [PAG 2014](http://www.intlpag.org/) and [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting)
+title: Galaxy @ PAG 2014 and GMOD 2014
 ---
 <div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/images/logos/GMOD2014.png" alt="2014 GMOD Meeting" height="90" /></a> 
 </div>
@@ -10,7 +10,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
 
 # Galaxy at PAG
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Time </th>
@@ -110,7 +110,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
 
 The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has two talks related to Galaxy:
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic </th>
