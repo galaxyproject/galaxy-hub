@@ -36,66 +36,50 @@ mixin renderPageTease()
         return url;
     }
 
-    function platformGroupTagToText(platform_group_tag) {
-        if (platform_group_tag == "public-server") {
-            return 'Public Server';
-        }
-        if (platform_group_tag == "commercial-cloud") {
-            return 'Commercial Cloud Service';
-        }
-        if (platform_group_tag == "academic-cloud") {
-            return 'Academic Cloud Service';
-        }
-        if (platform_group_tag == "container") {
-            return 'Container';
-        }
-        if (platform_group_tag == "vm") {
-            return 'Virtual Machine';
-        }
-        if (platform_group_tag == "install-locally") {
-            return 'Install it locally';
-        }
-        return 'NOT RECOGNIZED!'
-    }
     function getPlatformGroupUrlAndText(platform_group_tag) {
-        var platform_text = platformGroupTagToText(platform_group_tag)
         if (platform_group_tag == "public-server") {
             return {
                 link: "/use/#public-servers",
-                text: platform_text
+                text: 'Public Server'
             }
         }
         if (platform_group_tag == "commercial-cloud") {
             return {
                 link: "/use/#commercial-cloud",
-                text: platform_text
+                text: 'Commercial Cloud Service'
             }
         }
         if (platform_group_tag == "academic-cloud") {
             return {
                 link: "/use/#academic-cloud",
-                text: platform_text
+                text: 'Academic Cloud Service'
             }
         }
         if (platform_group_tag == "container") {
             return {
                 link: "/use/#containers",
-                text: platform_text
+                text: 'Container'
             }
         }
         if (platform_group_tag == "vm") {
             return {
                 link: "/use/#vms",
-                text: platform_text
+                text: 'Virtual Machine'
             }
         }
         if (platform_group_tag == "install-locally") {
             return {
                 link: "/use/#install-locally",
-                text: platform_text
+                text: 'Install it locally'
             }
         }
-        return 'NOTHING!'
+        return {
+           link: "NOTHING",
+           text: 'NOTHING'
+        }
+    }
+    function platformGroupTagToText(platform_group_tag) {
+        return getPlatformGroupUrlAndText(platform_group_tag).text
     }
     function getScopeTagUrlAndText(scope_tag) {
         if (scope_tag == "usegalaxy") {
