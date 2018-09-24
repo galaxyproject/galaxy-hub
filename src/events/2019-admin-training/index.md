@@ -77,8 +77,7 @@ We currently have three confirmed (and highly experienced!) instructors:
 * [Martin Čech](/src/people/marten/index.md), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
 * [Nate Coraor](/src/people/nate/index.md), lead sys admin for usegalaxy.org and a software engineer for the Galaxy Project
 * [John Chilton](/src/people/john-chilton/), software engineer for the Galaxy Project working on both the front and back ends, with an emphasis on scalability.
-
-Additional instructors will be added in the coming months.
+* [Simon Gladman](https://github.com/Slugger70)
 
 # Registration
 
@@ -90,15 +89,15 @@ Space is limited and the 2016 and 2018 admin training workshops sold out.  **[Re
 
 | | Early <br /> by Oct 31 | Advance <br /> by Dec 31 | Full |
 | ---- | ---- | ---- | ---- |
-| Non-profit / academic |   $80 |   $90 | $130 |
-| Industry                        | $120 | $160 | $240 |
+| Non-profit / academic |   $80 | $130 | $190 |
+| Industry                        | $120 | $200 | $320 |
 
 ## Galaxy Administration Advanced Topics, 3 days
 
 | | Early <br /> by Oct 31 | Advance <br /> by Dec 31 | Full |
 | ---- | ---- | ---- | ---- |
-| Non-profit / academic | $120 | $135 | $195 |
-| Industry                        | $180 | $240 | $360 |
+| Non-profit / academic | $120 | $195 | $285 |
+| Industry                        | $180 | $300 | $480 |
 
 ## Cancellations
 

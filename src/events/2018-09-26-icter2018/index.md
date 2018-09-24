@@ -9,5 +9,5 @@ location_url: "http://www.icter.org/conference/workshops/"
 external_url: "http://www.icter.org/conference/workshops/"
 image: 
 gtn: false
-contact: "Nuwan Goonasekera"
+contact: "Nuwan Goonasekera, Simon Gladman"
 ---
