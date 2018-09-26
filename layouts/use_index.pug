@@ -18,6 +18,10 @@ mixin renderResourceRow(item, with_scope, with_platform)
         td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
+    link( rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" )
+    link( rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css")
+    script( src="//code.jquery.com/jquery-3.3.1.js" )
+    script( src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" )
     script(type='text/javascript').
         $(document).ready( function () {
         $('#all-resources-table').DataTable();
