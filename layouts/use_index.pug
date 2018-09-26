@@ -1,6 +1,6 @@
 extends layout.pug
 
-mixin renderResourceRow(item, with_scope, with_platform)
+mixin renderResourceRow(item, with_scope, with_platforms)
     tr
         td
             div( class="hanging-indent" )
@@ -10,11 +10,13 @@ mixin renderResourceRow(item, with_scope, with_platform)
                 div( class="hanging-indent" )
                     - var scopeLinkInfo = getScopeTagUrlAndText(item.scope)
                     a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
-        if with_platform
-            td
-                each platform in item.platforms
-                    div( class="hanging-indent" )
-                        a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
+        if with_platforms
+            each possible_platform in possible_platforms
+                td
+                    each platform in item.platforms
+                        if platform.platform_group == possible_platform.tag
+                            div( class="hanging-indent" )
+                                a( href=deGitUrl(platform.platform_url) ) #{possible_platform.short_text}
         td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
@@ -48,7 +50,8 @@ block content
                     tr
                         th Resource
                         th Scope
-                        th Platform(s)
+                        each possible_platform in possible_platforms
+                            th !{possible_platform.short_text}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -75,7 +78,8 @@ block content
                 thead
                     tr
                         th Resource
-                        th Platform(s)
+                        each possible_platform in possible_platforms
+                            th !{possible_platform.short_text}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -88,7 +92,8 @@ block content
                 thead
                     tr
                         th Resource
-                        th Platform(s)
+                        each possible_platform in possible_platforms
+                            th !{possible_platform.short_text}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -101,7 +106,8 @@ block content
                 thead
                     tr
                         th Resource
-                        th Platform(s)
+                        each possible_platform in possible_platforms
+                            th !{possible_platform.short_text}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -115,7 +121,8 @@ block content
                 thead
                     tr
                         th Resource
-                        th Platform(s)
+                        each possible_platform in possible_platforms
+                            th !{possible_platform.short_text}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -136,8 +143,6 @@ block content
                     a(href="#containers") Containers
                 li
                     a(href="#vms") Virtual Machines
-                li
-                    a(href="#install-locally") Install Locally
 
             h2(id="public-servers") Public Servers
             p
@@ -218,21 +223,5 @@ block content
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "vm"
-                                +renderResourceRow(item, true, false)
-
-            h2(id="install-locally") Install Locally
-            p
-                | A few resources provide instructions on how to install that resource as a local Galaxy server.
-                | These instances run directly on your infrastructure and do not rely on container or VM technology.  These installs are maximally customizable, but also more work.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Scope
-                        th Summary
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "install-locally"
                                 +renderResourceRow(item, true, false)
 

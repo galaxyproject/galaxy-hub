@@ -38,36 +38,46 @@ mixin renderPageTease()
 
     var use_platforms = new Map();
     use_platforms.set("public-server", {
+        tag: "public-server",
         link: "/use/#public-servers",
-        text: 'Public Server'
+        short_text: 'Server',
+        text: "Public server"
     } );
     use_platforms.set("commercial-cloud", {
+        tag: "commercial-cloud",
         link: "/use/#commercial-cloud",
-        text: 'Commercial Cloud Service'
+        short_text: 'Comm. Cloud',
+        text: "Commercial Cloud"
     } );
     use_platforms.set("academic-cloud", {
+        tag: "academic-cloud",
         link: "/use/#academic-cloud",
-        text: 'Academic Cloud Service'
+        short_text: 'Acad. Cloud',
+        text: "Academic Cloud"
     } );
     use_platforms.set("container", {
+        tag: "container",
         link: "/use/#containers",
+        short_text: 'Cont.',
         text: 'Container'
     } );
     use_platforms.set("vm", {
+        tag: "vm",
         link: "/use/#vms",
+        short_text: 'VM',
         text: 'Virtual Machine'
     } );
-    use_platforms.set("install-locally", {
-        link: "/use/#install-locally",
-        text: 'Install it locally'
-    } );
+    var possible_platforms = [];
+    use_platforms.forEach(function(p){ possible_platforms.push(p)});
 
     function getPlatformGroupUrlAndText(platform_group_tag) {
         if (use_platforms.has(platform_group_tag)) {
             return use_platforms.get(platform_group_tag);
         }
         return {
+            tag: "NOTHING",
             link: "NOTHING",
+            short_text: 'NOTHING',
             text: 'NOTHING'
         }
     }
