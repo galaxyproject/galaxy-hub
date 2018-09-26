@@ -24,7 +24,9 @@ block content
     script( src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" )
     script(type='text/javascript').
         $(document).ready( function () {
-        $('#all-resources-table').DataTable();
+            $('#all-resources-table').DataTable( {
+                "lengthMenu": [ [-1, 100, 50, 25], ["All", 100, 50, 25] ]
+            } );
         } );
 
     - var resources_malleable = use.slice().sort( function(a,b){return a.title.toLowerCase().localeCompare(b.title.toLowerCase())} )
