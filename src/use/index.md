@@ -19,12 +19,11 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
   * [Domain Specific](/src/use/index.md#domain)
   * [Tool Publishing](/src/use/index.md#tool-publishing)
 * [Resources by Platform](/src/use/index.md#by-platform)
-  * [Public Servers](/src/use/index.md#public-servers)
+  * [Public Servers](/src/use/index.md#public-server)
   * [Commercial Cloud Services](/src/use/index.md#commercial-cloud)
   * [Academic Cloud Services](/src/use/index.md#academic-cloud)
-  * [Containers](/src/use/index.md#containers)
-  * [Virtual Machines (VMs)](/src/use/index.md#vms)
-  * [Install Locally](/src/use/index.md#install-locally)
+  * [Containers](/src/use/index.md#container)
+  * [Virtual Machines (VMs)](/src/use/index.md#vm)
 
 (*What about listing these by the resource's domain, for example, the research methodology (e.g., RNA-Seq), the clade (e.g., crops), or field e.g., metagenomics) that a resource is targeted at? We are working on it.*)
 
