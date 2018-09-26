@@ -32,7 +32,7 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 
 ## PredPharmTox
 
-<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/predpharmtox/predpharmtox-logo.png" alt="PredPharmTox" width="200" /></a></div>
+<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/use/archive/predpharmtox-logo.png" alt="PredPharmTox" width="200" /></a></div>
 
 [PredPharmTox](http://galaxy.predpharmtox.org/) implements the [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity. See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013), for more.
 
