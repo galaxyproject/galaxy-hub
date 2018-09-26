@@ -36,7 +36,7 @@ mixin renderPageTease()
         return url;
     }
 
-    var platform_columns = [ "Server", "Cloud", "Deployable" ]; 
+    var platform_columns = [ "Server", "Cloud", "Deploy- able" ]; 
     var use_platforms = new Map();
     use_platforms.set("public-server", {
         tag: "public-server",
@@ -62,14 +62,14 @@ mixin renderPageTease()
     use_platforms.set("container", {
         tag: "container",
         link: "/use/#container",
-        column: "Deployable",
+        column: "Deploy- able",
         short_text: 'Container',
         text: 'Container'
     } );
     use_platforms.set("vm", {
         tag: "vm",
         link: "/use/#vm",
-        column: "Deployable",
+        column: "Deploy- able",
         short_text: 'VM',
         text: 'Virtual Machine'
     } );
@@ -87,32 +87,33 @@ mixin renderPageTease()
             text: 'NOTHING'
         }
     }
-    function platformGroupTagToText(platform_group_tag) {
-        return getPlatformInfo(platform_group_tag).text
-    }
-    function getScopeTagUrlAndText(scope_tag) {
+    function getScopeInfo(scope_tag) {
         if (scope_tag == "usegalaxy") {
             return {
-                link: "/use/#usegalaxy",
-                text: "UseGalaxy server"
+                link: "/use/#usegalaxy-dir",
+                text: "UseGalaxy server",
+                short_text: "UseGalaxy"
             }
         }
         if (scope_tag == "general") {
             return {
-                link: "/use/#general",
-                text: "General Purpose / Genomics"
+                link: "/use/#genomics",
+                text: "Genomics",
+                short_text: "Genomics"
             }
         }
         if (scope_tag == "domain") {
             return {
                 link: "/use/#domain",
-                text: "Domain specific"
+                text: "Domain specific",
+                short_text: "Domain"
             }
         }
         if (scope_tag == "tool-publishing") {
             return {
                 link: "/use/#tool-publishing",
-                text: "Tool Publishing"
+                text: "Tool Publishing",
+                short_text: "Tools"
             }
         }
         return 'NOTHING!'

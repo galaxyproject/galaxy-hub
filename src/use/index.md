@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Servers, Services, and Deployable Resources"
+title: "Galaxy Servers, Cloud, and Deployable Resources"
 autotoc: true
 layout: use_index.pug
 ---
@@ -13,11 +13,6 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
 # Directories
 
 * [All resources](/src/use/index.md#all-resources)
-* [Resources by Scope](/src/use/index.md#by-scope)
-  * [UseGalaxy](/src/use/index.md#usegalaxy)
-  * [General / Genomics](/src/use/index.md#general)
-  * [Domain Specific](/src/use/index.md#domain)
-  * [Tool Publishing](/src/use/index.md#tool-publishing)
 * [Resources by Platform](/src/use/index.md#by-platform)
   * [Public Servers](/src/use/index.md#public-server)
   * [Commercial Cloud Services](/src/use/index.md#commercial-cloud)
@@ -25,7 +20,33 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
   * [Containers](/src/use/index.md#container)
   * [Virtual Machines (VMs)](/src/use/index.md#vm)
 
+# Resource Keywords
+
+Each resource has a set of keywords associated with them.
+
+## Real keywords 
+
 (*What about listing these by the resource's domain, for example, the research methodology (e.g., RNA-Seq), the clade (e.g., crops), or field e.g., metagenomics) that a resource is targeted at? We are working on it.*)
+
+## Scope
+
+Initially, there is only one keyword per resource and that defines the *scope* of the resource:
+
+### UseGalaxy
+
+UseGalaxy servers implement a common core set of tools and reference genomes, and are open to anyone to use. See the [UseGalaxy directory below](#usegalaxy-dir).  
+
+### Genomics
+
+These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any type of analysis.
+
+### Domain
+
+Domain resources specialize in either a particular branch of the tree of life or in particular types of analysis. Within their specializations, domain resources offer a wide variety of tools.
+
+### Tool Publishing
+
+Tool publishing resources make tools easily available so that researchers can use them without having to install and use command line versions. The distinction between *domain* resources and *tool publishing* resources is fuzzy. In general, tool publishing resources expose tools from a particular organization, while domain resources include tools / datasets from other organizations and have a larger goal in mind.
 
 # Add a resource to this directory
 
