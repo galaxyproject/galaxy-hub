@@ -11,12 +11,13 @@ mixin renderResourceRow(item, with_scope, with_platforms)
                     - var scopeLinkInfo = getScopeTagUrlAndText(item.scope)
                     a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         if with_platforms
-            each possible_platform in possible_platforms
+            each platform_column in platform_columns
                 td
                     each platform in item.platforms
-                        if platform.platform_group == possible_platform.tag
+                        - var platform_info = use_platforms.get(platform.platform_group)
+                        if platform_info.column == platform_column 
                             div( class="hanging-indent" )
-                                a( href=deGitUrl(platform.platform_url) ) #{possible_platform.short_text}
+                                a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
         td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
@@ -55,8 +56,8 @@ block content
                     tr
                         th Resource
                         th Scope
-                        each possible_platform in possible_platforms
-                            th !{possible_platform.short_text}
+                        each platform_column in platform_columns
+                            th !{platform_column}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -83,8 +84,8 @@ block content
                 thead
                     tr
                         th Resource
-                        each possible_platform in possible_platforms
-                            th !{possible_platform.short_text}
+                        each platform_column in platform_columns
+                            th !{platform_column}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -97,8 +98,8 @@ block content
                 thead
                     tr
                         th Resource
-                        each possible_platform in possible_platforms
-                            th !{possible_platform.short_text}
+                        each platform_column in platform_columns
+                            th !{platform_column}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -111,8 +112,8 @@ block content
                 thead
                     tr
                         th Resource
-                        each possible_platform in possible_platforms
-                            th !{possible_platform.short_text}
+                        each platform_column in platform_columns
+                            th !{platform_column}
                         th Summary
                 tbody
                     each item in resources_malleable
@@ -126,8 +127,8 @@ block content
                 thead
                     tr
                         th Resource
-                        each possible_platform in possible_platforms
-                            th !{possible_platform.short_text}
+                        each platform_column in platform_columns
+                            th !{platform_column}
                         th Summary
                 tbody
                     each item in resources_malleable

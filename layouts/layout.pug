@@ -36,41 +36,47 @@ mixin renderPageTease()
         return url;
     }
 
+    var platform_columns = [ "Server", "Cloud", "Deployable" ]; 
     var use_platforms = new Map();
     use_platforms.set("public-server", {
         tag: "public-server",
         link: "/use/#public-server",
+        column: "Server",
         short_text: 'Server',
         text: "Public server"
     } );
     use_platforms.set("commercial-cloud", {
         tag: "commercial-cloud",
         link: "/use/#commercial-cloud",
-        short_text: 'Comm. Cloud',
+        column: "Cloud",
+        short_text: 'Commercial',
         text: "Commercial Cloud"
     } );
     use_platforms.set("academic-cloud", {
         tag: "academic-cloud",
         link: "/use/#academic-cloud",
-        short_text: 'Acad. Cloud',
+        column: "Cloud",
+        short_text: 'Academic',
         text: "Academic Cloud"
     } );
     use_platforms.set("container", {
         tag: "container",
         link: "/use/#container",
-        short_text: 'Cont.',
+        column: "Deployable",
+        short_text: 'Container',
         text: 'Container'
     } );
     use_platforms.set("vm", {
         tag: "vm",
         link: "/use/#vm",
+        column: "Deployable",
         short_text: 'VM',
         text: 'Virtual Machine'
     } );
     var possible_platforms = [];
     use_platforms.forEach(function(p){ possible_platforms.push(p)});
 
-    function getPlatformGroupUrlAndText(platform_group_tag) {
+    function getPlatformInfo(platform_group_tag) {
         if (use_platforms.has(platform_group_tag)) {
             return use_platforms.get(platform_group_tag);
         }
@@ -82,7 +88,7 @@ mixin renderPageTease()
         }
     }
     function platformGroupTagToText(platform_group_tag) {
-        return getPlatformGroupUrlAndText(platform_group_tag).text
+        return getPlatformInfo(platform_group_tag).text
     }
     function getScopeTagUrlAndText(scope_tag) {
         if (scope_tag == "usegalaxy") {

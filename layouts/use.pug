@@ -16,7 +16,7 @@ mixin renderResource()
                         a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
                         em
                             | &nbsp;  (
-                            - var platformGroupLinkInfo = getPlatformGroupUrlAndText(platform.platform_group)
+                            - var platformGroupLinkInfo = getPlatformInfo(platform.platform_group)
                             a( href=platformGroupLinkInfo.link ) #{platformGroupLinkInfo.text}
                             | )
         tr
