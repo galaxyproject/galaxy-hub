@@ -23,7 +23,7 @@ mixin renderResource()
             th Scope:
             td
                 div( style="padding-left: 0.5em; text-indent: -0.5em;")
-                    - var scopeLinkInfo = getScopeTagUrlAndText(scope)
+                    - var scopeLinkInfo = getScopeInfo(scope)
                     a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         tr
             th Summary:

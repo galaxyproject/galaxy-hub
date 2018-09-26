@@ -1,24 +1,20 @@
 extends layout.pug
 
-mixin renderResourceRow(item, with_scope, with_platforms)
+mixin renderResourceRow(item, with_platforms)
     tr
         td
-            div( class="hanging-indent" )
-                a( href=item.link ) #{item.title}
-        if with_scope
-            td
-                div( class="hanging-indent" )
-                    - var scopeLinkInfo = getScopeTagUrlAndText(item.scope)
-                    a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
+            a( href=item.link ) #{item.title}
         if with_platforms
             each platform_column in platform_columns
                 td
                     each platform in item.platforms
                         - var platform_info = use_platforms.get(platform.platform_group)
                         if platform_info.column == platform_column 
-                            div( class="hanging-indent" )
-                                a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
-        td !{marked(item.summary).replace("<p>","").replace("</p>","")}
+                            a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
+        td !{marked(item.summary).replace("<p>","").replace("</p>","")}            
+        td
+            - var scopeInfo = getScopeInfo(item.scope)
+            a( href=scopeInfo.link ) #{scopeInfo.short_text}
 
 block content
     link( rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" )
@@ -35,13 +31,6 @@ block content
                 });
         });
 
-
-    style
-        | .hanging-indent {
-        |     padding-left: 0.5em;
-        |     text-indent: -0.5em;
-        | }
-
     - var resources_malleable = use.slice().sort( function(a,b){return a.title.toLowerCase().localeCompare(b.title.toLowerCase())} )
     div.col-md-12
         section.section-content
@@ -55,28 +44,15 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         each platform_column in platform_columns
                             th !{platform_column}
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
-                        +renderResourceRow(item, true, true)
+                        +renderResourceRow(item, true)
 
-            h1(id="by-scope") Resources by Scope
-            p
-                | A resource's scope describes it's general purpose.  Resources fall into one of 4 scopes:
-            ul
-                li
-                    a(href="#usegalaxy") UseGalaxy
-                li
-                    a(href="#general") General / Genomics
-                li
-                    a(href="#domain") Domain Specific
-                li
-                    a(href="#tool-publishing") Tool Publishing
-
-            h2(id="usegalaxy") UseGalaxy Resources
+            h1(id="usegalaxy-dir") UseGalaxy Resources
             p
                 a(href="/usegalaxy/") UseGalaxy servers
                 | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results.
@@ -87,53 +63,11 @@ block content
                         each platform_column in platform_columns
                             th !{platform_column}
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         if item.scope == "usegalaxy"
-                            +renderResourceRow(item, false, true)
-
-            h2(id="general") General Purpose / Genomics Resources
-            p These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis. These are servers you can use when want to do general genomic analysis.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                tbody
-                    each item in resources_malleable
-                        if item.scope == "general" || item.scope == "usegalaxy"
-                            +renderResourceRow(item, false, true)
-
-            h2(id="domain") Domain Specific Resources
-            p Domain resources specialize in either a particular branch of the tree of life or in particular types of analysis. However, within their specializations, domain resources offer a wide variety of tools.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                tbody
-                    each item in resources_malleable
-                        if item.scope == "domain"
-                            +renderResourceRow(item, false, true)
-
-            h2(id="tool-publishing") Tool Publishing Galaxy Servers
-            p Tool publishing resources make tools easily available so that researchers can use the tools without having to install and use the command line versions of the tools. Galaxy, it turns out, is an excellent way to make your tools easy to try out and use.
-            p The distinction between domain servers and tool publishing servers is fuzzy. In general, tool publishing servers expose tools from a particular organization, while domain servers include tools / datasets from other organizations and have a larger goal in mind.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                tbody
-                    each item in resources_malleable
-                        if item.scope == "tool-publishing"
-                            +renderResourceRow(item, false, true)
+                            +renderResourceRow(item, true)
 
             h1(id="by-platform") Resources by Platform
             p
@@ -163,13 +97,13 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "public-server"
-                                +renderResourceRow(item, true, false)
+                                +renderResourceRow(item, false)
 
             h2(id="commercial-cloud") Commercial Cloud Services
             p
@@ -178,13 +112,13 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "commercial-cloud"
-                                +renderResourceRow(item, true, false)
+                                +renderResourceRow(item, false)
 
             h2(id="academic-cloud") Academic Cloud Services
             p
@@ -193,13 +127,13 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "academic-cloud"
-                                +renderResourceRow(item, true, false)
+                                +renderResourceRow(item, false)
 
             h2(id="container") Containers
             p
@@ -208,13 +142,13 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "container"
-                                +renderResourceRow(item, true, false)
+                                +renderResourceRow(item, false)
 
             h2(id="vm") Virtual Machines (VMs)
             p
@@ -223,11 +157,10 @@ block content
                 thead
                     tr
                         th Resource
-                        th Scope
                         th Summary
+                        th Key word(s)
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "vm"
-                                +renderResourceRow(item, true, false)
-
+                                +renderResourceRow(item,false)
