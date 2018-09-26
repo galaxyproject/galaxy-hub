@@ -27,9 +27,55 @@ block content
     script(type='text/javascript').
         $(document).ready( function () {
             $('#all-resources-table').DataTable( {
-                "lengthMenu": [ [-1, 100, 50, 25], ["All", 100, 50, 25] ]
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
             } );
         } );
+        $(document).ready( function () {
+            $('#usegalaxy-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#general-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#domain-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#tool-publishing-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#public-server-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#commercial-cloud-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#academic-cloud-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#container-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+        $(document).ready( function () {
+            $('#vm-table').DataTable( {
+                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+            } );
+        } );
+
     style
         | .hanging-indent {
         |     padding-left: 0.5em;
@@ -74,7 +120,7 @@ block content
             p
                 a(href="/usegalaxy/") UseGalaxy servers 
                 | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results. 
-            table.table.table-striped
+            table.table.table-striped(id="usegalaxy-table")
                 thead
                     tr
                         th Resource
@@ -88,7 +134,7 @@ block content
 
             h2(id="general") General Purpose / Genomics Resources
             p These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis. These are servers you can use when want to do general genomic analysis.
-            table.table.table-striped
+            table.table.table-striped(id="general-table")
                 thead
                     tr
                         th Resource
@@ -102,7 +148,7 @@ block content
 
             h2(id="domain") Domain Specific Resources
             p Domain resources specialize in either a particular branch of the tree of life or in particular types of analysis. However, within their specializations, domain resources offer a wide variety of tools.
-            table.table.table-striped
+            table.table.table-striped(id="domain-table")
                 thead
                     tr
                         th Resource
@@ -117,7 +163,7 @@ block content
             h2(id="tool-publishing") Tool Publishing Galaxy Servers
             p Tool publishing resources make tools easily available so that researchers can use the tools without having to install and use the command line versions of the tools. Galaxy, it turns out, is an excellent way to make your tools easy to try out and use.
             p The distinction between domain servers and tool publishing servers is fuzzy. In general, tool publishing servers expose tools from a particular organization, while domain servers include tools / datasets from other organizations and have a larger goal in mind.
-            table.table.table-striped
+            table.table.table-striped(id="tool-publishing-table")
                 thead
                     tr
                         th Resource
@@ -134,17 +180,17 @@ block content
                 | Galaxy is available through all sorts of different technologies, from web sites you can just use, to virtual machines you can download and deploy.
             ul
                 li
-                    a(href="#public-servers") Public Servers
+                    a(href="#public-server") Public Servers
                 li
                     a(href="#commercial-cloud") Commercial Cloud Services
                 li
                     a(href="#academic-cloud") Academic Cloud Services
                 li
-                    a(href="#containers") Containers
+                    a(href="#container") Containers
                 li
-                    a(href="#vms") Virtual Machines
+                    a(href="#vm") Virtual Machines
 
-            h2(id="public-servers") Public Servers
+            h2(id="public-server") Public Servers
             p
                 | Public Servers are acccessible to (at least) any academic researcher in the world.  Some require you to create/request an account, aand they may have restrictive quotas, but often, to use these, just go the website and start running analyses. These are free to use.
             P
@@ -153,7 +199,7 @@ block content
                 | to track the status and some of the supported features of the servers listed here.  See the 
                 a(href="/src/blog/2017-10-public-galaxy-dashboard/index.md") blog post
                 | for more info.
-            table.table.table-striped
+            table.table.table-striped(id="public-server-table")
                 thead
                     tr
                         th Resource
@@ -168,7 +214,7 @@ block content
             h2(id="commercial-cloud") Commercial Cloud Services
             p
                 | These are commercial cloud providers where ready to run Galaxy instances are available.  You need to pay for these, but you only need to pay for as long as you need the instance to be up.
-            table.table.table-striped
+            table.table.table-striped(id="commercial-cloud-table")
                 thead
                     tr
                         th Resource
@@ -183,7 +229,7 @@ block content
             h2(id="academic-cloud") Academic Cloud Services
             p
                 | These are academic cloud providers where ready to run Galaxy instances are available. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
-            table.table.table-striped
+            table.table.table-striped(id="academic-cloud-table")
                 thead
                     tr
                         th Resource
@@ -195,10 +241,10 @@ block content
                             if platform.platform_group == "academic-cloud"
                                 +renderResourceRow(item, true, false)
 
-            h2(id="containers") Containers
+            h2(id="container") Containers
             p
                 | These Galaxy instances are prepackaged using container technology, usually Docker.  You run these locally by first installing the container technology (Docker is easy), and then launching the containerized Galaxy within that technology.  These use local resources.
-            table.table.table-striped
+            table.table.table-striped(id="container-table")
                 thead
                     tr
                         th Resource
@@ -210,10 +256,10 @@ block content
                             if platform.platform_group == "container"
                                 +renderResourceRow(item, true, false)
 
-            h2(id="vms") Virtual Machines (VMs)
+            h2(id="vm") Virtual Machines (VMs)
             p
                 | VMs are similar to containers but use a different technology.  Containers take significant advantage of your computer's underlying operating system.  Virtual Machines include an entire supporting operating system, and are significantly larger than containers.  You run these locally by first installing a VM player like VirtualBox, and then downloading and launching the VM within that player.  These use local resources.
-            table.table.table-striped
+            table.table.table-striped(id="vm-table")
                 thead
                     tr
                         th Resource
