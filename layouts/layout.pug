@@ -36,46 +36,49 @@ mixin renderPageTease()
         return url;
     }
 
+    var use_platforms = new Map();
+    use_platforms.set("public-server", {
+        tag: "public-server",
+        link: "/use/#public-server",
+        short_text: 'Server',
+        text: "Public server"
+    } );
+    use_platforms.set("commercial-cloud", {
+        tag: "commercial-cloud",
+        link: "/use/#commercial-cloud",
+        short_text: 'Comm. Cloud',
+        text: "Commercial Cloud"
+    } );
+    use_platforms.set("academic-cloud", {
+        tag: "academic-cloud",
+        link: "/use/#academic-cloud",
+        short_text: 'Acad. Cloud',
+        text: "Academic Cloud"
+    } );
+    use_platforms.set("container", {
+        tag: "container",
+        link: "/use/#container",
+        short_text: 'Cont.',
+        text: 'Container'
+    } );
+    use_platforms.set("vm", {
+        tag: "vm",
+        link: "/use/#vm",
+        short_text: 'VM',
+        text: 'Virtual Machine'
+    } );
+    var possible_platforms = [];
+    use_platforms.forEach(function(p){ possible_platforms.push(p)});
+
     function getPlatformGroupUrlAndText(platform_group_tag) {
-        if (platform_group_tag == "public-server") {
-            return {
-                link: "/use/#public-servers",
-                text: 'Public Server'
-            }
-        }
-        if (platform_group_tag == "commercial-cloud") {
-            return {
-                link: "/use/#commercial-cloud",
-                text: 'Commercial Cloud Service'
-            }
-        }
-        if (platform_group_tag == "academic-cloud") {
-            return {
-                link: "/use/#academic-cloud",
-                text: 'Academic Cloud Service'
-            }
-        }
-        if (platform_group_tag == "container") {
-            return {
-                link: "/use/#containers",
-                text: 'Container'
-            }
-        }
-        if (platform_group_tag == "vm") {
-            return {
-                link: "/use/#vms",
-                text: 'Virtual Machine'
-            }
-        }
-        if (platform_group_tag == "install-locally") {
-            return {
-                link: "/use/#install-locally",
-                text: 'Install it locally'
-            }
+        if (use_platforms.has(platform_group_tag)) {
+            return use_platforms.get(platform_group_tag);
         }
         return {
-           link: "NOTHING",
-           text: 'NOTHING'
+            tag: "NOTHING",
+            link: "NOTHING",
+            short_text: 'NOTHING',
+            text: 'NOTHING'
         }
     }
     function platformGroupTagToText(platform_group_tag) {
