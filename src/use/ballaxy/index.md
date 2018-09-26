@@ -9,9 +9,6 @@ platforms:
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/anhi/ballaxy/"
     platform_text: "ballaxy using Docker"
-  - platform_group: "install-locally"
-    platform_url: "https://github.com/BALL-Project/ball/wiki/SetupBallaxyInstance"
-    platform_text: "Install ballaxy locally"
 summary: "Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data. "
 image: "/src/use/ballaxy/ballaxy-slide.png"
 comments: 
