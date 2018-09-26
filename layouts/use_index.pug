@@ -25,56 +25,24 @@ block content
     script( src="//code.jquery.com/jquery-3.3.1.js" )
     script( src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" )
     script(type='text/javascript').
-        $(document).ready( function () {
-            $('#all-resources-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
+        var table_ids = [
+            'all-resources-table',
+            'usegalaxy-table', 'general-table', 'domain-table', 'tool-publishing-table',
+            'public-server-table', 'commercial-cloud-table', 'academic-cloud-table', 'container-table', 'vm-table'
+        ]
+        var table_id;
+        for (table_id of table_ids) {
+            var table_anchor = "#" + table_id;
+            $(document).ready( function () {
+                $(table_anchor).DataTable( {
+                    "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+                    "search": {
+                        "regex": true
+                    }
+                } );
             } );
-        } );
-        $(document).ready( function () {
-            $('#usegalaxy-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#general-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#domain-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#tool-publishing-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#public-server-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#commercial-cloud-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#academic-cloud-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#container-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
-        $(document).ready( function () {
-            $('#vm-table').DataTable( {
-                "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ]
-            } );
-        } );
+            console.debug(table_anchor);
+        }
 
     style
         | .hanging-indent {
