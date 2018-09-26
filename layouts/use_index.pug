@@ -3,18 +3,18 @@ extends layout.pug
 mixin renderResourceRow(item, with_scope, with_platform)
     tr
         td
-            div( style="padding-left: 0.5em; text-indent: -0.5em;")
+            div( class="hanging-indent" )
                 a( href=item.link ) #{item.title}
         if with_scope
             td
-                div( style="padding-left: 0.5em; text-indent: -0.5em;")
+                div( class="hanging-indent" )
                     - var scopeLinkInfo = getScopeTagUrlAndText(item.scope)
                     a( href=scopeLinkInfo.link ) #{scopeLinkInfo.text}
         if with_platform
             td
                 each platform in item.platforms
-                     div( style="padding-left: 0.5em; text-indent: -0.5em;")
-                         a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
+                    div( class="hanging-indent" )
+                        a( href=deGitUrl(platform.platform_url) ) #{platformGroupTagToText(platform.platform_group)}
         td !{marked(item.summary).replace("<p>","").replace("</p>","")}
 
 block content
@@ -28,6 +28,11 @@ block content
                 "lengthMenu": [ [-1, 100, 50, 25], ["All", 100, 50, 25] ]
             } );
         } );
+    style
+        | .hanging-indent {
+        |     padding-left: 0.5em;
+        |     text-indent: -0.5em;
+        | }
 
     - var resources_malleable = use.slice().sort( function(a,b){return a.title.toLowerCase().localeCompare(b.title.toLowerCase())} )
     div.col-md-12
