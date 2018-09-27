@@ -13,7 +13,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
   * [All upcoming events](#upcoming-events)
 * New:
-  * [XXXXX publications](#publications)
+  * [167 publications](#publications)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
   * [Hub and Documentation updates](#hub-and-doc-updates)
@@ -212,11 +212,30 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**XXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
+**167 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
 
 ## Highlighted Publications
 
-XXXX *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+
+[Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., Consortium, MPDS, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
+
+[OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf) by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. _WOSP 2018 Workshop Proceedings_.
+
+[Computational workflow to study the seasonal variation of secondary metabolites in nine different bryophytes](https://www.nature.com/articles/sdata2018179) by Peters, K., Gorzolka, K., Bruelheide, H., and Neumann, S. _Scientific Data_.
+
+[Bridging the Chromosome-centric and Biology/Disease-driven Human Proteome Projects: Accessible and Automated Tools for Interpreting the Biological and Pathological Impact of Protein Sequence Variants Detected via Proteogenomics](https://doi.org/10.1021/acs.jproteome.8b00404) by Sajulga, R., Mehta, S., Kumar, P., Johnson, J. E., Guerrero, C. R., Ryan, M. C., Karchin, R., Jagtap, P. D., and Griffin, T. J. _Journal of Proteome Research_.
+
+[Approaches for containerized scientific workflows in cloud environments with applications in life science](https://peerj.com/preprints/27141) by Spjuth, O., Capuccini, M.,	Carone, M.,	Larsson, A.,	Schaal, W.,	Novella, J.,	Tommaso, P. D.,	Notredame, C.,	Moreno, P.,	Khoonsari, P. E.,	Herman, S.,	Kultima, K., and	Lampa, S. _Peer J_.
+
+[The 2018 Bioinformatics Open Source Conference (GCCBOSC 2018)](https://f1000research.com/articles/7-1309/v1) by Harris, N., Wiencko, H., Chapman, B., Cock, P. J ., Hokamp, K., Lapp, H., Fields, C., and Greshke Tzovaras, B. _F1000 Research_.
+
+[sRNAPipe: a Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data](https://doi.org/10.1186/s13100-018-0130-7) by Pogorelcnik, R., Vaury, C., Pouchin, P., Jensen, S., and Brasset, E. _Mobile DNA_.
+
+[Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study](https://doi.org/10.1186/s12859-018-2313-0) by Vanneste, K., Garlant, L., Broeders, S., Van Gucht, S., and Roosens, N. H. _BMC Bioinformatics_.
+
+[Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform](https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html) by Ali, T., Kim, B., Lijeron, C., Dong, C., Wultsch, C., and Krampis, K. _Journal of Computer Science & Systems Biology_. 
+
 
 
 ## Publication Topics
