@@ -37,6 +37,23 @@ block content
             h1 !{title}
             div !{ contents }
 
+            h1(id="usegalaxy-dir") UseGalaxy Resources
+            p
+                a(href="/usegalaxy/") UseGalaxy servers 
+                | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results.
+            table.table.table-striped
+                thead
+                    tr
+                        th Resource
+                        each platform_column in platform_columns
+                            th !{platform_column}
+                        th Summary
+                        th Keywords
+                tbody
+                    each item in resources_malleable
+                        if item.scope == "usegalaxy"
+                            +renderResourceRow(item, true)
+
             h1(id="all-resources") All Resources
             p
                 | Complete listing of resources for using Galaxy.
@@ -47,27 +64,10 @@ block content
                         each platform_column in platform_columns
                             th !{platform_column}
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         +renderResourceRow(item, true)
-
-            h1(id="usegalaxy-dir") UseGalaxy Resources
-            p
-                a(href="/usegalaxy/") UseGalaxy servers
-                | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                        th Key word(s)
-                tbody
-                    each item in resources_malleable
-                        if item.scope == "usegalaxy"
-                            +renderResourceRow(item, true)
 
             h1(id="by-platform") Resources by Platform
             p
@@ -98,7 +98,7 @@ block content
                     tr
                         th Resource
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
@@ -113,7 +113,7 @@ block content
                     tr
                         th Resource
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
@@ -128,7 +128,7 @@ block content
                     tr
                         th Resource
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
@@ -143,7 +143,7 @@ block content
                     tr
                         th Resource
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms
@@ -158,7 +158,7 @@ block content
                     tr
                         th Resource
                         th Summary
-                        th Key word(s)
+                        th Keywords
                 tbody
                     each item in resources_malleable
                         each platform in item.platforms

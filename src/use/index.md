@@ -12,6 +12,7 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
 
 # Directories
 
+* [UseGalaxy Servers](/src/use/index.md#usegalaxy-dir)
 * [All resources](/src/use/index.md#all-resources)
 * [Resources by Platform](/src/use/index.md#by-platform)
   * [Public Servers](/src/use/index.md#public-server)
