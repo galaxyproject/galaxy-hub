@@ -162,6 +162,16 @@ blockquote {
     margin: 0em 1em 1em 0em;
 }
 
+/* Redefine HR; Default HR is quite subtle. */
+hr {
+    background-color: #405080;
+    height: 3px;
+    border-radius: 1.5px;
+    margin: 0.6em 0em;
+}
+
+
+
 /* *******
    Leftovers from MoinMoin.  Only used these because they were already in Moin.
  * *******/

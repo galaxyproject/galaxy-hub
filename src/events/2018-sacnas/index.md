@@ -14,6 +14,8 @@ contact: Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee
 
 ## Do you have data and don’t know where to start with analysis?
 
+[<img class="float-right" src="/src/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
+
 There will be two parallel full day pre-conference workshops at [2018 SACNAS](http://www.2018sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research.
 
 1. **[Software and Data Carpentry](#workshop-1-software-and-data-carpentry)**
@@ -36,7 +38,7 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 
 # Workshop 1: Software and Data Carpentry
 
-<div class="right">
+<div class="float-right">
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
@@ -71,14 +73,14 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:15a | Editing text files and simple bash scripts |
 | 11:15a - 11:30a | Break |
-| 11:30p - 12:30p | Overview of more capabilities in the Command Line User Interface |
-| 12:30p - 1:30p | Lunch on your own |
+| 11:30p - 12:15p | Overview of more capabilities in the Command Line User Interface |
+| 12:15p - 1:45p | Lunch on your own |
 
 ## Session 2 : Python
 
 | Time | Topic |
 |:----:| ----- |
-| 1:30p -   2:45p | Navigating Python in the Jupyter notebook; object orientation; basic loops and function syntax |
+| 1:45p -   2:45p | Navigating Python in the Jupyter notebook; object orientation; basic loops and function syntax |
 | 2:45p -   3:00p | Break |
 | 3:00p -   4:15p | Loading, manipulating, and visualizing sample data |
 | 4:15p -   4:30p | Break |
@@ -117,15 +119,15 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 10:30a - 11:00a| Navigating CyVerse, continued |
 | 11:00a - 11:15a | Analyzing data with Discovery Environment |
 | 11:15a - 11:30p | Break |
-| 11:30a - 12:00p | Analyzing data with Discovery Environment, continued |
-| 12:30p - 1:30p | Lunch on your own |
-| 1:30p - 2:00p | Discuss your data! |
+| 11:30a - 12:15p | Analyzing data with Discovery Environment, continued |
+| 12:15p - 1:45p | Lunch on your own |
+| 1:45p - 2:15p | Discuss your data! |
 
 # Session 2 : Galaxy
 
 | Time | Topic |
 |:----:| ----- |
-| 2:00p - 2:45p | Galaxy Basics: Loading data and running and connecting tools |
+| 2:15p - 2:45p | Galaxy Basics: Loading data and running and connecting tools |
 | 2:45p - 3:00p | Break |
 | 3:00p - 3:30p | Galaxy Basics, continued |
 | 3:30p - 4:15p | Collaboration and repeatable recipes |
@@ -134,3 +136,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 5:00p - 5:15p | Galaxy Community |
 | 5:15p - 5:55p | Compare & Contrast: CyVerse, Galaxy, and other options |
 | 5:55p - 6:00p | Group Picture |
+
+# Help Get the Word Out!
+
+**We need your help advertising this workshop.  Please distribute the [workshop flier](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf) to your colleagues.**
