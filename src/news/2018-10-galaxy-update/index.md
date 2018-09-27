@@ -13,7 +13,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
   * [All upcoming events](#upcoming-events)
 * New:
-  * [167 publications](#publications)
+  * [199 publications](#publications)
   * Galactic Blog entry: [Contributor of the Month: Yvan le Bras ](#contributor-of-the-month-yvan-le-bras)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
@@ -213,7 +213,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**167 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
+**199 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
 
 ## Highlighted Publications
 
@@ -241,12 +241,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ## Publication Topics
 
-
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 118 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 46 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 20 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) |  
-| 16 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
-| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
+| 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
+| 14 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
+| 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | 
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
+| 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
 
 ----
 # Contributor of the month: Yvan Le Bras
@@ -288,7 +289,16 @@ There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-serve
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for the past month's publications:
 
-
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 20 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 4 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | 
+| 2 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MGEScan) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | 
+| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>ANASTASIA](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ANASTASIA) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | 
+| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CLIMB) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CRAVAT-P) | | 1 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DBCLS) | 
+| 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | 
+| 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | 
+| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
+| 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | | | | | | | |
 ----
 
 # Hub and Doc Updates
