@@ -14,6 +14,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
   * [All upcoming events](#upcoming-events)
 * New:
   * [167 publications](#publications)
+  * Galactic Blog entry: [Contributor of the Month: Yvan le Bras ](#contributor-of-the-month-yvan-le-bras)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
   * [Hub and Documentation updates](#hub-and-doc-updates)
@@ -248,7 +249,19 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 | 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
 
 ----
+# Contributor of the month: Yvan Le Bras
 
+<div class="float-right" >
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
+</div>
+
+There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+
+* [Contributor of the Month: Yvan Le Bras](/src/blog/____FILL ME IN______), By Björn Grüning
+
+
+
+---- 
 # Who's Hiring
 
 <div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
