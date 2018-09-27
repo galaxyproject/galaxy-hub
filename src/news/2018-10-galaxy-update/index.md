@@ -285,6 +285,12 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [several Galaxy services](/src/galaxy-services/index.md).  XXXXX
 
+## MPDS-DM
+
+The [Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)](http://www.mpds-diabetes.in/) is a Galaxy web portal that serves as an open source data repository that contains available chemical and gene-level information on diabetes. MPDS-DM contains tools that allow users to identify, explore, and characterize drug:gene relationships. 
+
+See the [MPDS-DM directory entry](https://galaxyproject.org/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/) for more. 
+
 ## Public Servers in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for the past month's publications:
@@ -324,12 +330,6 @@ New additions to the Galaxy Community.
 [CRAVAT-P](https://jraysajulga.github.io/cravatp-galaxy-docker) is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the [Galaxy-P](http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.
 
 See the [CRAVAT-P directory entry](https://galaxyproject.org/use/cravat-p/) for more. 
-
-## MPDS-DM
-
-The [Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)](http://www.mpds-diabetes.in/) is a Galaxy web portal that serves as an open source data repository that contains available chemical and gene-level information on diabetes. MPDS-DM contains tools that allow users to identify, explore, and characterize drug:gene relationships. 
-
-See the [MPDS-DM directory entry](https://galaxyproject.org/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/) for more. 
 
 ## And the rest ...
 
