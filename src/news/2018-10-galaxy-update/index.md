@@ -61,6 +61,14 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## 2019 Galaxy Admin Training
 
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" />](/src/events/2019-admin-training/index.md)
+
+**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
+
+[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open. Early registration rates end October 31st. 
+
+See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+
 ## Upcoming events
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
