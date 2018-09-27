@@ -218,7 +218,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
 
-[Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., Consortium, MPDS, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
+[Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
 
 [OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf) by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. _WOSP 2018 Workshop Proceedings_.
 
