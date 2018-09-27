@@ -5,13 +5,18 @@ title: Job and Tool Error Help
 
 Related topics
 
+* [Tutorials](/src/learn/index.md)
+* [Getting Inputs Right](/src/support/#getting-inputs-right)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
-* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
-* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
-* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
-* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
-* [Galaxy Choices](/src/choices/index.md)
-* [The Galaxy Ecosystem](https://galaxyproject.github.io/)
+* [Choices](/src/choices/index.md)
+* [Ecosystem](https://galaxyproject.github.io/)
+
+Known Issues
+
+* [Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 
 ## Job and Tool Error Help
 
@@ -25,11 +30,10 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 ### TIPS
 
-1. The advice on this page is primarily about errors at [Galaxy Main](/src/main/index.md). 
-1. In particular, the cluster help is server specific for http://usegalaxy.org. 
-1. But good news! The general troubleshooting help applies to most Galaxy servers/tools/functions.
+1. The general troubleshooting help applies to most Galaxy servers/tools/functions.
+1. The cluster error help is server specific for [Galaxy Main](/src/main/index.md) at http://usegalaxy.org. 
 1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems is often necessary. Each Galaxy is independently administered.
-1. Most if not all input problems would result in errors whether the tools were used in Galaxy or line-command. Learning how to properly prepare data is worth learning and Galaxy is a friendly place to experiment.
+
 
 ## Determining the job failure type
 
@@ -58,7 +62,7 @@ These are the top reasons for tool failures.
 * The datatype or database is either not assigned or is incorrect.
 * The original fastq input was not really in fastsanger format.
 * Key fields on the tool form were left blank (please report this so we can fix it!).
-* The tool has specific formatting requirements for inputs that was not followed (yes, exactly).
+* The tool has specific formatting requirements for inputs that were not met.
 * Annotation files are a mismatch for the selected or assigned reference genome build.
 * The BED/Interval/GFF dataset is not really in specification.
 * Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. 
@@ -74,14 +78,11 @@ These are the top reasons for tool failures.
 * Fix the inputs. 
 * Read the tool form help.
 * **Follow the guidelines and troubleshooting help at the [Support Hub](/src/support/index.md).**
+* **Review a [Galaxy Tutorial](/src/learn/index.md) that covers your analysis and/or tool.**
 
 #### Special cases - input
 
 * There are no special cases. This problem is ubiquitous no matter where or with what tools you happen to be using.
-* Or how experienced you are. Everyone makes little errors. Catching and fixing them is what matters. 
-* Ask for help if you need it (Biostars or a bug report).
-* This type of issue is why keeping track of an analysis - exactly - is so important for producing reliable results.
-* It is tricky to keep track of all the details on your own. Let Galaxy take care of the details, so you can focus on the science. 
 * *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/src/images/icons/arrow-circle.png) and job info ![](/src/images/icons/HistoryInfo.png) functions to review your work. 
 
 Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
@@ -145,7 +146,7 @@ The error indicates that the job ran out of memory while executing on the cluste
 
 Often memory errors can be avoided by the user executing the job:
 
-* Double check the inputs to the tool. Are the [data properly formatted and labeled](/src/support/#input-format-getting-it-right-to-avoid-problems)?
+* Double check the inputs to the tool. Are the [data properly formatted and labeled](/src/support/#getting-inputs-right)?
 * Review the parameters for the tool and determine if any changes made away from the default setting (or possibly the detail settings) are compute-intensive. Make changes if they suit your research goals. See the underlying tool's documentation to better understand specific parameters. This is often linked in the Help section on a tool's execution form.
 * If the tool used was one that compares two dataset, change the order of the inputs, and test with a re-run. Some tools consume less memory when the larger dataset is entered as the first input on the tool form.
 * Also see **How to resolve** and **Special cases** in next section. Just note that a rerun will not solve this type or error until changes are made to the inputs and/or the tool settings.
@@ -237,7 +238,7 @@ Software or Tool Bug:
 
 * The tool ended with what appears to be a tool problem message.
 * See examples above.
-* The tool or input data is listed on the pages of [Known Tool Issues](/src/support/tool-issues/index.md) or [Known Data Issues](/src/support/data-issues/index.md).
+* [Search Galaxy Resources](/src/search) to see if the problem is a current known problem with a workaround.
 
 #### How to resolve - bugs
 

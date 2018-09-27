@@ -3,19 +3,13 @@ title: "ballaxy"
 url: "https://ballaxy.bioinf.uni-sb.de"
 scope: "domain"
 platforms: 
-  - platform_group: "public-server"
-    platform_url: "https://ballaxy.bioinf.uni-sb.de"
-    platform_text: "ballaxy server"
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/anhi/ballaxy/"
     platform_text: "ballaxy using Docker"
-  - platform_group: "install-locally"
-    platform_url: "https://github.com/BALL-Project/ball/wiki/SetupBallaxyInstance"
-    platform_text: "Install ballaxy locally"
 summary: "Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data. "
 image: "/src/use/ballaxy/ballaxy-slide.png"
 comments: 
-  - "[ballaxy](https://ballaxy.bioinf.uni-sb.de) is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction"
+  - "ballaxy is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction"
 user_support:
   - "[Support](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#1.1.Support) options include [a wiki](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy), [tutorials](http://ball-trac.bioinf.uni-sb.de/wiki/ballaxy#point_tutorials), and a [mailing list](http://groups.google.com/group/ball-user-list)."
 quotas:
