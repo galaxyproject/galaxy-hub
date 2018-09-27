@@ -16,8 +16,7 @@ user_support:
   - "Includes [several example workflows](http://motherbox.chemeng.ntua.gr/anastasia_dev/workflow/list_published)"
 quotas:
 citations:
-  - "[Discovering novel hydrolases from hot environments
-Author links open overlay](https://doi.org/10.1016/j.biotechadv.2018.09.004), Roland Wohlgemuth, Jennifer Littlechild, Daniela Monti, Kirk Schnorr, Teunke van Rossum, Bettina Siebers, Peter Menzel, Ilya V. Kublanov, Anne Gunn Rike, Georgios Skretas, Zalan Szabo, Xu Peng, Mark J. Young. *Biotechnology Advances* 2018, doi: 10.1016/j.biotechadv.2018.09.004"
+  - "[Discovering novel hydrolases from hot environments](https://doi.org/10.1016/j.biotechadv.2018.09.004), Roland Wohlgemuth, Jennifer Littlechild, Daniela Monti, Kirk Schnorr, Teunke van Rossum, Bettina Siebers, Peter Menzel, Ilya V. Kublanov, Anne Gunn Rike, Georgios Skretas, Zalan Szabo, Xu Peng, Mark J. Young. *Biotechnology Advances* 2018, doi: 10.1016/j.biotechadv.2018.09.004"
 pub_libraries:
   - "ANASTASIA"
 sponsors:
