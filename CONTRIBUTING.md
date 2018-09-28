@@ -130,10 +130,6 @@ Thanks for your concern!  But, *we got this:*
 
 Guidelines are distributed throughout this document.  Each is tagged with one of these icons:
 
-- :hatching_chick:  - A basic guideline, represented by a hatching chick.  Try to follow these from the start.
-- :hatched_chick: - A more than basic guideline, represented by a hatched chick..  Once you get used to the basic guidelines, try to incorporate these into your edits.
-- :chicken: - An advanced guideline, represented by a fully grown and ready to take on the world chicken.  Only worry about these if you are doing something, well, *advanced*.
-
 | Icon | Level | Guidance |
 | :----: | ---- | ---- |
 | :hatching_chick: |  A basic guideline. |  Try to follow these from the start. |
