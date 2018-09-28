@@ -51,9 +51,9 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 *Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. (You must have received a SACNAS Travel Scholarship to be eligible.)
 
-## European Galaxy Days, 19-20 November, Freiburg, Germany
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+## European Galaxy Days, 19-20 November, Freiburg, Germany
 
 **[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
@@ -62,7 +62,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
 
 **[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
@@ -113,13 +113,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </tr>
 <tr>
   <td><span class="text-nowrap">October 10th 2018</span></td>
-  <td><a href="/events/2018-sacnas">SACNAS 2018 Pre-Conference Workshops</a></td>
+  <td> **<a href="/events/2018-sacnas">SACNAS 2018 Pre-Conference Workshops</a>** </td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.2018sacnas.org/">2018 SACNAS, San Antonio, Texas, United States</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 15th 2018</span></td>
-  <td><a href="/events/2018-eresearch">Galaxy @ eResearch Australasia</a></td>
+  <td> **<a href="/events/2018-eresearch">Galaxy @ eResearch Australasia</a>** </td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://conference.eresearch.edu.au/">Melbourne, Victoria, Australia</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
 </tr>
@@ -154,7 +154,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr>
 <tr>
-  <td><span class="text-nowrap">November 12th 2018</span></td>
+  <td> **<span class="text-nowrap">November 12th 2018</span>** </td>
   <td><a href="/events/2018-11-biohackathon">BioHackathon 2018 Paris</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.chateauform.com/fr/maison/les-berges-de-seine/">Campus des Berges de Seine, Paris, France</a></td>
   <td>Bérénice Batut, Hervé Ménager</td>
@@ -178,7 +178,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td>mo@galaxyproject.org</td>
 </tr>
 <tr>
-  <td><span class="text-nowrap">November 19th 2018</span></td>
+  <td> **<span class="text-nowrap">November 19th 2018</span>** </td>
   <td><a href="/events/2018-europe-dev">European Galaxy Days</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/>Freiburg, Germany</td>
   <td>Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard</td>
@@ -197,13 +197,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </tr>
 <tr>
   <td><span class="text-nowrap">January 28th 2019</span></td>
-  <td><a href="https://galaxyproject.org/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
+  <td> **<a href="https://galaxyproject.org/events/2019-admin-training">2019 Galaxy Admin Training</a>** </td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 1st 2019</span></td>
-  <td><a href="https://galaxyproject.org/gcc2019">2019 Galaxy Community Conference (GCC2019)</a></td>
+  <td> **<a href="https://galaxyproject.org/gcc2019">2019 Galaxy Community Conference (GCC2019)</a>** </td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
@@ -219,24 +219,23 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
 
-[Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
+* [Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
 
-[OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf) by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. _WOSP 2018 Workshop Proceedings_.
+* [OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf) by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. _WOSP 2018 Workshop Proceedings_.
 
-[Computational workflow to study the seasonal variation of secondary metabolites in nine different bryophytes](https://www.nature.com/articles/sdata2018179) by Peters, K., Gorzolka, K., Bruelheide, H., and Neumann, S. _Scientific Data_.
+* [Computational workflow to study the seasonal variation of secondary metabolites in nine different bryophytes](https://www.nature.com/articles/sdata2018179) by Peters, K., Gorzolka, K., Bruelheide, H., and Neumann, S. _Scientific Data_.
 
-[Bridging the Chromosome-centric and Biology/Disease-driven Human Proteome Projects: Accessible and Automated Tools for Interpreting the Biological and Pathological Impact of Protein Sequence Variants Detected via Proteogenomics](https://doi.org/10.1021/acs.jproteome.8b00404) by Sajulga, R., Mehta, S., Kumar, P., Johnson, J. E., Guerrero, C. R., Ryan, M. C., Karchin, R., Jagtap, P. D., and Griffin, T. J. _Journal of Proteome Research_.
+* [Bridging the Chromosome-centric and Biology/Disease-driven Human Proteome Projects: Accessible and Automated Tools for Interpreting the Biological and Pathological Impact of Protein Sequence Variants Detected via Proteogenomics](https://doi.org/10.1021/acs.jproteome.8b00404) by Sajulga, R., Mehta, S., Kumar, P., Johnson, J. E., Guerrero, C. R., Ryan, M. C., Karchin, R., Jagtap, P. D., and Griffin, T. J. _Journal of Proteome Research_.
 
-[Approaches for containerized scientific workflows in cloud environments with applications in life science](https://peerj.com/preprints/27141) by Spjuth, O., Capuccini, M.,	Carone, M.,	Larsson, A.,	Schaal, W.,	Novella, J.,	Tommaso, P. D.,	Notredame, C.,	Moreno, P.,	Khoonsari, P. E.,	Herman, S.,	Kultima, K., and	Lampa, S. _Peer J_.
+* [Approaches for containerized scientific workflows in cloud environments with applications in life science](https://peerj.com/preprints/27141) by Spjuth, O., Capuccini, M.,	Carone, M.,	Larsson, A.,	Schaal, W.,	Novella, J.,	Tommaso, P. D.,	Notredame, C.,	Moreno, P.,	Khoonsari, P. E.,	Herman, S.,	Kultima, K., and	Lampa, S. _Peer J_.
 
-[The 2018 Bioinformatics Open Source Conference (GCCBOSC 2018)](https://f1000research.com/articles/7-1309/v1) by Harris, N., Wiencko, H., Chapman, B., Cock, P. J ., Hokamp, K., Lapp, H., Fields, C., and Greshke Tzovaras, B. _F1000 Research_.
+* [The 2018 Bioinformatics Open Source Conference (GCCBOSC 2018)](https://f1000research.com/articles/7-1309/v1) by Harris, N., Wiencko, H., Chapman, B., Cock, P. J ., Hokamp, K., Lapp, H., Fields, C., and Greshke Tzovaras, B. _F1000 Research_.
 
-[sRNAPipe: a Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data](https://doi.org/10.1186/s13100-018-0130-7) by Pogorelcnik, R., Vaury, C., Pouchin, P., Jensen, S., and Brasset, E. _Mobile DNA_.
+* [sRNAPipe: a Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data](https://doi.org/10.1186/s13100-018-0130-7) by Pogorelcnik, R., Vaury, C., Pouchin, P., Jensen, S., and Brasset, E. _Mobile DNA_.
 
-[Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study](https://doi.org/10.1186/s12859-018-2313-0) by Vanneste, K., Garlant, L., Broeders, S., Van Gucht, S., and Roosens, N. H. _BMC Bioinformatics_.
+* [Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study](https://doi.org/10.1186/s12859-018-2313-0) by Vanneste, K., Garlant, L., Broeders, S., Van Gucht, S., and Roosens, N. H. _BMC Bioinformatics_.
 
-[Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform](https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html) by Ali, T., Kim, B., Lijeron, C., Dong, C., Wultsch, C., and Krampis, K. _Journal of Computer Science & Systems Biology_. 
-
+* [Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform](https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html) by Ali, T., Kim, B., Lijeron, C., Dong, C., Wultsch, C., and Krampis, K. _Journal of Computer Science & Systems Biology_. 
 
 
 ## Publication Topics
@@ -250,22 +249,23 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
 
 ----
-# Contributor of the month: Yvan Le Bras
+# New Galactic Blog Posts
 
 <div class="float-right" >
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 </div>
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+There are three new *[Galactic Blog](/src/blog/index.md)* entries:
 
+* [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
+* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/src/blog/2018-09-totm/index.md), by Bérénice Batut
+  * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
 * [Contributor of the Month: Yvan Le Bras](/src/blog/____FILL ME IN______), By Björn Grüning
-
-
 
 ---- 
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -277,23 +277,37 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
-<div class="small"> <sup> * </sup> Seems more sinister than *dark matter* don't you think? </div>
+<div class="small"> <sup>* </sup> Seems more sinister than *dark matter* don't you think? </div>
 
 ----
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [several Galaxy services](/src/galaxy-services/index.md).  XXXXX
+## Public Galaxy Servers is becoming something ... more
+
+In October the venerable [Public Galaxy Server list](/src/public-galaxy-servers/index.md) and the relative upstart [Galaxy Services list](/src/galaxy-services/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
+
+Here's what's new:
+
+[<img class="float-right" src="/src/use/mpdsdm/mpdsdm.png" alt="Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)" width="150" />](/src/use/mpdsdm/index.md)
 
 ## MPDS-DM
 
-The [Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)](http://www.mpds-diabetes.in/) is a Galaxy web portal that serves as an open source data repository that contains available chemical and gene-level information on diabetes. MPDS-DM contains tools that allow users to identify, explore, and characterize drug:gene relationships. 
+The [Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)](http://www.mpds-diabetes.in/) is a Galaxy web portal that serves as an open access data repository containing available chemical and gene-level information on diabetes. MPDS-DM tools allow users to identify, explore, and characterize drug:gene relationships. 
 
-See the [MPDS-DM directory entry](https://galaxyproject.org/public-galaxy-servers/osdd-molecular-property-diagnostic-suite-mpds/) for more. 
+See the [MPDS-DM directory entry](/src/use/mpdsdm/index.md) for more. 
 
-## Public Servers in Publications
+## CRAVAT-P
 
-We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for the past month's publications:
+[<img class="float-right" src="/src/use/cravat-p/cravat-p-landing-500.png" alt="CRAVAT-P" width="150" />](/src/use/cravat-p/index.md)
+
+[CRAVAT-P](https://jraysajulga.github.io/cravatp-galaxy-docker) is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the [Galaxy-P](http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.
+
+See the [CRAVAT-P directory entry](/src/use/cravat-p/index.md) for more. 
+
+## Public Servers/Resources in Publications
+
+We tag papers that use, mention, implement or extend public Galaxy servers, services and other resources.  Here are the counts for the past month's publications:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
@@ -305,10 +319,12 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 | 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | 
 | 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
 | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | | | | | | | |
+
 ----
 
 # Hub and Doc Updates
 
+* [Job and Tool Error Help](/src/support/tool-error/index.md) updated by [Jennifer Hillman-Jackson](/src/people/jen-jackson/index.md)
 
 ----
 
@@ -325,11 +341,6 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 New additions to the Galaxy Community.
 
-## CRAVAT-P
-
-[CRAVAT-P](https://jraysajulga.github.io/cravatp-galaxy-docker) is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the [Galaxy-P](http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.
-
-See the [CRAVAT-P directory entry](https://galaxyproject.org/use/cravat-p/) for more. 
 
 ## And the rest ...
 
