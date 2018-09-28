@@ -2,6 +2,7 @@
 title: 'October 2018 Galactic News'
 tease: 'New ...'
 date: ""
+layout: twocol-notoc.pug
 ---
 
 [<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
@@ -74,7 +75,7 @@ See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
-<table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
+<table class="table table-responsive table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
 <tr>
   <td><span class="text-nowrap">October 1st 2018</span></td>
   <td><a href="https://pitagora.connpass.com/event/94966/">Reference-based RNA-seq data analysis</a></td>
