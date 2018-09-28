@@ -325,6 +325,13 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 New additions to the Galaxy Community.
 
+## GVL 4.4
+
+The [Genomics Virtual Lab (GVL) 4.4.0](https://www.gvl.org.au/) has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
+This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. 
+
+See the [GVL 4.4.0 release](https://galaxyproject.org/news/2018-09-28-gvl-440/) note for more. 
+
 ## CRAVAT-P
 
 [CRAVAT-P](https://jraysajulga.github.io/cravatp-galaxy-docker) is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the [Galaxy-P](http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.
