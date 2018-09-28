@@ -13,7 +13,7 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
 
 - [Basics](#basics)
   - [Where's the source for the web site content?](#wheres-the-source-for-the-web-site-content)
-  - [One web page ≈ One directory in GitHub](#one-web-page-one-directory-in-github)
+  - [One web page ≈ One directory in GitHub](#one-web-page--one-directory-in-github)
   - [index.md files](#indexmd-files)
   - [Markdown](#markdown)
 - [Submitting your first edit through the GitHub web interface](#submitting-your-first-edit-through-the-github-web-interface)
@@ -921,7 +921,7 @@ If your version is older than that, you may benefit from upgrading.
 
 ## Update Slide Carousel on Landing Page
 
-The slide carousel on the hub landing page is populated from the `/src/splash/` directory.  This has a [standard hub source structure](#one-web-page-one-directory-in-github) with a directory and `index.md` file for each "slide" in the rotation.
+The slide carousel on the hub landing page is populated from the `/src/splash/` directory.  This has a [standard hub source structure](#one-web-page--one-directory-in-github) with a directory and `index.md` file for each "slide" in the rotation.
 
 **To add a slide**, add a directory to `/src/splash/` and add an `index.md` file to the new directory.
 
