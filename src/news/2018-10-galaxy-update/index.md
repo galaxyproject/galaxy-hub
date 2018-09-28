@@ -14,7 +14,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
   * [All upcoming events](#upcoming-events)
 * New:
-  * [199 publications](#publications)
+  * [200 publications](#publications)
   * Galactic Blog entry: [Contributor of the Month: Yvan le Bras ](#contributor-of-the-month-yvan-le-bras)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
@@ -214,11 +214,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**199 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
+**200 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
 
 ## Highlighted Publications
 
-9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+
+* [Federated Galaxy: Biomedical Computing at the Frontier](https://ieeexplore.ieee.org/document/8457892) by [Enis Afgan](/src/people/enis-afgan/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), Nuwan Goonasekera, [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md).  2018 IEEE 11th International Conference on Cloud Computing (CLOUD) ([PDF](https://www.researchgate.net/publication/327670377_Federated_Galaxy_Biomedical_Computing_at_the_Frontier)).
 
 * [Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
 
@@ -244,10 +246,10 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
-| 14 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
-| 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | 
+| 15 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
+| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 5 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | 
 | 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
-| 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
+| 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
 
 ----
 # New Galactic Blog Posts
@@ -319,7 +321,7 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | 
 | 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | 
 | 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
-| 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | | | | | | | |
+| 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Jetstream) | | | | | | | |
 
 ----
 
