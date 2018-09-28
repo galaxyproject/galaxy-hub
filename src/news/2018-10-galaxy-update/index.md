@@ -2,6 +2,7 @@
 title: 'October 2018 Galactic News'
 tease: 'New ...'
 date: ""
+layout: twocol-notoc.pug
 ---
 
 [<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
@@ -74,7 +75,7 @@ See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
-<table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
+<table class="table table-responsive table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
 <tr>
   <td><span class="text-nowrap">October 1st 2018</span></td>
   <td><a href="https://pitagora.connpass.com/event/94966/">Reference-based RNA-seq data analysis</a></td>
@@ -340,6 +341,27 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 # Releases
 
 New additions to the Galaxy Community.
+
+## GVL 4.4
+
+The [Genomics Virtual Lab (GVL) 4.4.0](https://www.gvl.org.au/) has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
+This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. 
+
+See the [GVL 4.4.0 release](https://galaxyproject.org/news/2018-09-28-gvl-440/) note for more. 
+
+
+## Planemo 0.55.0
+
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst) on this release.
+
+
+## galaxy-lib 18.5.14 - 18.9.1
+
+galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
+
+This month's updates are about mulled, Conda, and CWL tools.
 
 
 ## And the rest ...
