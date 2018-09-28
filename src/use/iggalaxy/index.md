@@ -19,7 +19,7 @@ quotas:
   - "None"
 citations:
   - "[ImmunoGlobulin galaxy (IGGalaxy) for simple determination and quantitation of immunoglobulin heavy chain rearrangements from NGS](https://doi.org/10.1186/s12865-014-0059-7), Michael J Moorhouse, David van Zessen, Hanna IJspeert, Saskia Hiltemann, Sebastian Horsman, Peter J van der Spek, Mirjam van der Burg and Andrew P Stubbs. *BMC Immunology* 201415:59 doi:10.1186/s12865-014-0059-7"
-pub-libraries:
+pub_libraries:
   - "IGGalaxy"
 sponsors: 
   - "[ErasmusMC Bioinformatics](http://bioinformatics.erasmusmc.nl/)"
