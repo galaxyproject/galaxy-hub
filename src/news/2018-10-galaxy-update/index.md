@@ -339,3 +339,5 @@ Other Galaxy packages that didn't have a release in the past month can be [found
 
 # Other News
 
+The Galaxy Training Network is starting a Community for Galaxy Instructors. This group will share best practices for giving Galaxy workshops and provide support for new instructors to get involved with Galaxy Training! Catch the first meeting October 5th, details [here](https://github.com/galaxyproject/training-material/issues/1009).
+
