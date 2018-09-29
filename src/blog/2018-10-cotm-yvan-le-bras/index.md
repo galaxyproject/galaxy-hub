@@ -12,6 +12,8 @@ This month we welcome Yvan Le Bras, also called the magic Yvan ([@yvanlebras](ht
 
 ### Can you tell us a little about yourself (hobbies, education, background, etc.)?
 
+<img class="float-right" src="shark.jpg" alt="One the more beautiful animals I have seen and succeeded capturing on my camera" style="max-width: 250px" />
+
 Originally a marine ecologist, learning molecular ecology aspect related to population genetics, I obtained a PhD in 2010 after 3 years devoted to quantitative genetics and functional genomics approach of rainbow trout capacities to cope with osmoregulation issues during transfer from freshwater to seawater. Postdoctoral opportunities drop me definitely deeper to the black matter of Bioinformatics and Biostatistics working for Biogenouest western France Life sciences core facilities network through INSERM and CNRS then at INRIA to build a first french e-Science centre dedicated to life sciences. This was the time for me to concretise a several year old project idea of creating the Enancio start-up. Then, a wonderful opportunity brought me back to my first love, ecology and conservation, working 2 years for the "65 Millions d'observateurs" national project coordinated by French National Museum of Natural History where was set-up the Galaxy-E initiative, initially devoted to citizen science projects related to Biodiversity. Now, my mission is to coordinate the national research infrastructure **Pôle national des données de Biodiversité (PNDB)**, e-infrastructure in creation who will act as the French Biodiversity data hub.
 
 My hobbies are related to marine activities in particular sailing and fishing demonstrating each time as I can to family, friends and unknown people the beauty of nature and wildlife....
@@ -40,12 +42,19 @@ Sure that communities behind Ecology force to explore new ways! A part of these 
 
 Missions of the PNDB e-infrastructure project are:
 
+[<img class="float-right" src="concarneau-pet.jpg" style="max-width: 200px" alt='Concarneau "pet" ;) with marine station in background' />](concarneau-pet.jpg)
+
 1. Providing access to datasets and metadata, related services and derived products from the analysis.
 2. Promoting scientific animation to identify gaps and promote the emergence of initiatives carried by communities of users and producers.
 3. Facilitating the sharing of practices with other research communities, promote data sharing and reuse, and feed into the thinking of a future global Earth System infrastructure.
 4. Promoting coherence with national, European and international efforts to access and exploit biodiversity research data, promote products and services.
 
 To achieve these objectives, the PNDB proposes to:
+
+<div class="float-right">
+[<img src="concarneau.jpg" style="max-width: 250px" alt='My actual lab in Concarneau, Brittany, at the world oldest marine station in activity' />](concarneau.jpg)<br /><br />
+[<img src="jardin-des-plantes.jpg" style="max-width: 250px" alt='My other lab Jardin des Plantes in Paris' />](jardin-des-plantes.jpg)
+</div>
 
 - link existing French initiatives and data sources to pool expertise, promote interoperability, openness, access, reuse of data; and stimulate collaborative research projects;
 - develop the fine description of datasets for contextualization; optimize harvesting and access to metadata through a common portal;
@@ -135,6 +144,7 @@ Notably regarding [GCCBOSC 2018 Galaxy Community update presentation](https://gc
 - in the meantime, continue to deal with dataset size and complexity on the first community of Galaxy user, so biomedical related research
 - continue and increase its role in democratising / presenting / explaining / commonizing / introducing complex data analysis processes to newcomers / young scientists / lost scientists through [Galaxy Training Network](https://galaxyproject.org/teach/gtn/) activity notably. 
 
+<img src="dolphin.jpg" class="img-fluid" alt="Heading out" />
 
 ### Thanks for doing the interview!
 
