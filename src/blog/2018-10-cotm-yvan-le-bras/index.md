@@ -1,5 +1,5 @@
 ---
-date: ''
+date: '2018-10-01'
 title: "Contributor of the Month: Yvan Le Bras"
 authors: "Björn Grüning"
 tease: "Citizen Science and Galaxy for Ecology"
