@@ -412,3 +412,8 @@ h5:hover .heading-anchor span:before,
 h6:hover .heading-anchor span:before {
     font-size: 12px;
 }
+
+.twocol{
+    column-count: 2;
+    column-gap: 2rem;
+}
