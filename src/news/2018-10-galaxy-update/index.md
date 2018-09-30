@@ -268,7 +268,7 @@ There are three new *[Galactic Blog](/src/blog/index.md)* entries:
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
 * [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/src/blog/2018-09-totm/index.md), by Bérénice Batut
   * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
-* [Contributor of the Month: Yvan Le Bras](/src/blog/____FILL ME IN______), By Björn Grüning
+* [Contributor of the Month: Yvan Le Bras](/src/blog/2018-10-cotm-yvan-le-bras/index.md), By Björn Grüning
 
 ---- 
 # Who's Hiring
