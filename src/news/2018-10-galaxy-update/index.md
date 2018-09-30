@@ -2,7 +2,6 @@
 title: 'October 2018 Galactic News'
 tease: 'New ...'
 date: ""
-layout: twocol-notoc.pug
 ---
 
 [<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
@@ -220,25 +219,30 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
 
-* [Federated Galaxy: Biomedical Computing at the Frontier](https://ieeexplore.ieee.org/document/8457892) by [Enis Afgan](/src/people/enis-afgan/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), Nuwan Goonasekera, [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md).  2018 IEEE 11th International Conference on Cloud Computing (CLOUD) ([PDF](https://www.researchgate.net/publication/327670377_Federated_Galaxy_Biomedical_Computing_at_the_Frontier)).
-
-* [Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.sciencedirect.com/science/article/pii/S1532046418301588) by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,	Poroikov, V. V., and Sastry, G. N. _SAR and QSAR in Environmental Research_.
-
-* [OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf) by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. _WOSP 2018 Workshop Proceedings_.
-
-* [Computational workflow to study the seasonal variation of secondary metabolites in nine different bryophytes](https://www.nature.com/articles/sdata2018179) by Peters, K., Gorzolka, K., Bruelheide, H., and Neumann, S. _Scientific Data_.
-
-* [Bridging the Chromosome-centric and Biology/Disease-driven Human Proteome Projects: Accessible and Automated Tools for Interpreting the Biological and Pathological Impact of Protein Sequence Variants Detected via Proteogenomics](https://doi.org/10.1021/acs.jproteome.8b00404) by Sajulga, R., Mehta, S., Kumar, P., Johnson, J. E., Guerrero, C. R., Ryan, M. C., Karchin, R., Jagtap, P. D., and Griffin, T. J. _Journal of Proteome Research_.
-
-* [Approaches for containerized scientific workflows in cloud environments with applications in life science](https://peerj.com/preprints/27141) by Spjuth, O., Capuccini, M.,	Carone, M.,	Larsson, A.,	Schaal, W.,	Novella, J.,	Tommaso, P. D.,	Notredame, C.,	Moreno, P.,	Khoonsari, P. E.,	Herman, S.,	Kultima, K., and	Lampa, S. _Peer J_.
-
-* [The 2018 Bioinformatics Open Source Conference (GCCBOSC 2018)](https://f1000research.com/articles/7-1309/v1) by Harris, N., Wiencko, H., Chapman, B., Cock, P. J ., Hokamp, K., Lapp, H., Fields, C., and Greshke Tzovaras, B. _F1000 Research_.
-
-* [sRNAPipe: a Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data](https://doi.org/10.1186/s13100-018-0130-7) by Pogorelcnik, R., Vaury, C., Pouchin, P., Jensen, S., and Brasset, E. _Mobile DNA_.
-
-* [Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study](https://doi.org/10.1186/s12859-018-2313-0) by Vanneste, K., Garlant, L., Broeders, S., Van Gucht, S., and Roosens, N. H. _BMC Bioinformatics_.
-
-* [Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform](https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html) by Ali, T., Kim, B., Lijeron, C., Dong, C., Wultsch, C., and Krampis, K. _Journal of Computer Science & Systems Biology_. 
+<div class="twocol">
+    <ul>
+    <li><p><a href="https://ieeexplore.ieee.org/document/8457892">Federated Galaxy: Biomedical Computing at the Frontier</a> by <a href="/people/enis-afgan/">Enis Afgan</a>, <a href="/people/vahid-jalili/">Vahid Jalili</a>, Nuwan Goonasekera, <a href="/people/james-taylor/">James Taylor</a>, <a href="/people/jeremy-goecks/">Jeremy Goecks</a>.  2018 IEEE 11th International Conference on Cloud Computing (CLOUD) (<a href="https://www.researchgate.net/publication/327670377_Federated_Galaxy_Biomedical_Computing_at_the_Frontier">PDF</a>).</p>
+    </li>
+    <li><p><a href="http://www.sciencedirect.com/science/article/pii/S1532046418301588">Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery</a> by Nagamani, S., Gaur, A. S., Tanneeru, K.,Muneeswaran, G.,Madugula, S. S., MPDS Consortium, Druzhilovskiy, D.,    Poroikov, V. V., and Sastry, G. N. <em>SAR and QSAR in Environmental Research</em>.</p>
+    </li>
+    <li><p><a href="http://oro.open.ac.uk/55790/1/openminted-platform-facilitating%20%283%29.pdf">OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content</a> by Labropoulou, P., Galanis, D., Lempesis, A., Greenwood, M.A., Knoth, P., de Castilho, R.E., Sachtouris, S., Georgantopoulos, B., Anastasiou, L., Martziou, S., Gkirtzou, K., Manola, N., and Piperidis, S. <em>WOSP 2018 Workshop Proceedings</em>.</p>
+    </li>
+    <li><p><a href="https://www.nature.com/articles/sdata2018179">Computational workflow to study the seasonal variation of secondary metabolites in nine different bryophytes</a> by Peters, K., Gorzolka, K., Bruelheide, H., and Neumann, S. <em>Scientific Data</em>.</p>
+    </li>
+    <li><p><a href="https://doi.org/10.1021/acs.jproteome.8b00404">Bridging the Chromosome-centric and Biology/Disease-driven Human Proteome Projects: Accessible and Automated Tools for Interpreting the Biological and Pathological Impact of Protein Sequence Variants Detected via Proteogenomics</a> by Sajulga, R., Mehta, S., Kumar, P., Johnson, J. E., Guerrero, C. R., Ryan, M. C., Karchin, R., Jagtap, P. D., and Griffin, T. J. <em>Journal of Proteome Research</em>.</p>
+    </li>
+    <li><p><a href="https://peerj.com/preprints/27141">Approaches for containerized scientific workflows in cloud environments with applications in life science</a> by Spjuth, O., Capuccini, M.,    Carone, M.,    Larsson, A.,    Schaal, W.,    Novella, J.,    Tommaso, P. D.,    Notredame, C.,    Moreno, P.,    Khoonsari, P. E.,    Herman, S.,    Kultima, K., and    Lampa, S. <em>Peer J</em>.</p>
+    </li>
+    <li><p><a href="https://f1000research.com/articles/7-1309/v1">The 2018 Bioinformatics Open Source Conference (GCCBOSC 2018)</a> by Harris, N., Wiencko, H., Chapman, B., Cock, P. J ., Hokamp, K., Lapp, H., Fields, C., and Greshke Tzovaras, B. <em>F1000 Research</em>.</p>
+    </li>
+    <li><p><a href="https://doi.org/10.1186/s13100-018-0130-7">sRNAPipe: a Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data</a> by Pogorelcnik, R., Vaury, C., Pouchin, P., Jensen, S., and Brasset, E. <em>Mobile DNA</em>.</p>
+    </li>
+    <li><p><a href="https://doi.org/10.1186/s12859-018-2313-0">Application of whole genome data for in silico evaluation of primers and probes routinely employed for the detection of viral species by RT-qPCR using dengue virus as a case study</a> by Vanneste, K., Garlant, L., Broeders, S., Van Gucht, S., and Roosens, N. H. <em>BMC Bioinformatics</em>.</p>
+    </li>
+    <li><p><a href="https://www.omicsonline.org/open-access/implementation-of-a-reproducible-accessible-and-transparent-rnaseq-bioinformatics-pipeline-within-the-galaxy-platform-jcsb-1000272-102094.html">Implementation of a Reproducible, Accessible and Transparent RNA-seq Bioinformatics Pipeline within the Galaxy Platform</a> by Ali, T., Kim, B., Lijeron, C., Dong, C., Wultsch, C., and Krampis, K. <em>Journal of Computer Science &amp; Systems Biology</em>. </p>
+    </li>
+    </ul>
+</div>
 
 
 ## Publication Topics
@@ -291,22 +295,22 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 In October the venerable [Public Galaxy Server list](/src/public-galaxy-servers/index.md) and the relative upstart [Galaxy Services list](/src/galaxy-services/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
 
 Here's what's new:
-
-[<img class="float-right" src="/src/use/mpdsdm/mpdsdm.png" alt="Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)" width="150" />](/src/use/mpdsdm/index.md)
-
-## MPDS-DM
-
-The [Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)](http://www.mpds-diabetes.in/) is a Galaxy web portal that serves as an open access data repository containing available chemical and gene-level information on diabetes. MPDS-DM tools allow users to identify, explore, and characterize drug:gene relationships. 
-
-See the [MPDS-DM directory entry](/src/use/mpdsdm/index.md) for more. 
-
-## CRAVAT-P
-
-[<img class="float-right" src="/src/use/cravat-p/cravat-p-landing-500.png" alt="CRAVAT-P" width="150" />](/src/use/cravat-p/index.md)
-
-[CRAVAT-P](https://jraysajulga.github.io/cravatp-galaxy-docker) is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the [Galaxy-P](http://galaxyp.org) bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.
-
-See the [CRAVAT-P directory entry](/src/use/cravat-p/index.md) for more. 
+<div class="twocol">
+    <p><a href="/use/mpdsdm/"><img class="float-right" src="/use/mpdsdm/mpdsdm.png" alt="Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)" width="150" /></a></p>
+    <h3 id="mpds-dm">
+                <a class="heading-anchor" href="#mpds-dm"><span></span></a>
+                MPDS-DM
+                </h3>
+    <p>The <a href="http://www.mpds-diabetes.in/">Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)</a> is a Galaxy web portal that serves as an open access data repository containing available chemical and gene-level information on diabetes. MPDS-DM tools allow users to identify, explore, and characterize drug:gene relationships. </p>
+    <p>See the <a href="/use/mpdsdm/">MPDS-DM directory entry</a> for more. </p>
+    <h3 id="cravat-p">
+                <a class="heading-anchor" href="#cravat-p"><span></span></a>
+                CRAVAT-P
+                </h3>
+    <p><a href="/use/cravat-p/"><img class="float-right" src="/use/cravat-p/cravat-p-landing-500.png" alt="CRAVAT-P" width="150" /></a></p>
+    <p><a href="https://jraysajulga.github.io/cravatp-galaxy-docker">CRAVAT-P</a> is a proteomic extension of the Cancer-Related Analysis of VAriants Toolkit (CRAVAT) developed for the <a href="http://galaxyp.org">Galaxy-P</a> bioinformatics platform. CRAVAT-P exists as a downstream analysis suite for peptide variants. Current support is tailored towards workflows that generate peptide sequences mapped to genomic locations.</p>
+    <p>See the <a href="/use/cravat-p/">CRAVAT-P directory entry</a> for more. </p>
+</div>
 
 ## Public Servers/Resources in Publications
 
@@ -343,32 +347,32 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 # Releases
 
 New additions to the Galaxy Community.
-
-## GVL 4.4
-
-The [Genomics Virtual Lab (GVL) 4.4.0](https://www.gvl.org.au/) has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
-This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. 
-
-See the [GVL 4.4.0 release](https://galaxyproject.org/news/2018-09-28-gvl-440/) note for more. 
-
-
-## Planemo 0.55.0
-
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst) on this release.
-
-
-## galaxy-lib 18.5.14 - 18.9.1
-
-galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
-
-This month's updates are about mulled, Conda, and CWL tools.
-
-
-## And the rest ...
-
-Other Galaxy packages that didn't have a release in the past month can be [found on GitHub](https://github.com/galaxyproject).
+<div class="twocol">
+    <h3 id="gvl-44">
+                <a class="heading-anchor" href="#gvl-44"><span></span></a>
+                GVL 4.4
+                </h3>
+    <p>The <a href="https://www.gvl.org.au/">Genomics Virtual Lab (GVL) 4.4.0</a> has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
+    This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. </p>
+    <p>See the <a href="https://galaxyproject.org/news/2018-09-28-gvl-440/">GVL 4.4.0 release</a> note for more. </p>
+    <h3 id="planemo-0550">
+                <a class="heading-anchor" href="#planemo-0550"><span></span></a>
+                Planemo 0.55.0
+                </h3>
+    <p><a href="https://pypi.python.org/pypi/planemo/"><img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" /></a></p>
+    <p><a href="https://pypi.python.org/pypi/planemo">Planemo</a> is a set of command-line utilities to assist in building tools for the Galaxy project.  See <a href="https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst">GitHub for details</a> on this release.</p>
+    <h3 id="galaxy-lib-18514-1891">
+                <a class="heading-anchor" href="#galaxy-lib-18514-1891"><span></span></a>
+                galaxy-lib 18.5.14 - 18.9.1
+                </h3>
+    <p>galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It&#39;s available from <a href="https://github.com/galaxyproject/galaxy-lib">GitHub</a> and <a href="https://pypi.python.org/pypi/galaxy-lib">PyPi</a>.</p>
+    <p>This month&#39;s updates are about mulled, Conda, and CWL tools.</p>
+    <h3 id="and-the-rest">
+                <a class="heading-anchor" href="#and-the-rest"><span></span></a>
+                And the rest ...
+                </h3>
+    <p>Other Galaxy packages that didn&#39;t have a release in the past month can be <a href="https://github.com/galaxyproject">found on GitHub</a>.</p>
+</div>
 
 ----
 
