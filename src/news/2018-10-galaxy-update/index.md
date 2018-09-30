@@ -1,7 +1,7 @@
 ---
 title: 'October 2018 Galactic News'
-tease: 'New ...'
-date: ""
+tease: 'New events, pubs, blog posts, servers, tools and releases (and a Galaxy song too)'
+date: "2018-10-01"
 ---
 
 [<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
@@ -9,15 +9,16 @@ date: ""
 The *October  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * Events
-  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops)
+  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
+  * [2019 Galaxy Admin Training](/src/news/2018-10-galaxy-update/index.md#2019-galaxy-admin-training)
   * [All upcoming events](#upcoming-events)
 * New:
-  * [200 publications](#publications)
-  * Galactic Blog entry: [Contributor of the Month: Yvan le Bras ](#contributor-of-the-month-yvan-le-bras)
+  * [200 publications](#publications), including 10 highlighted ones
+  * Three new [Galactic Blog entries](http://localhost:8080/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
+  * [Open positions with 5 organizations](/src/news/2018-10-galaxy-update/#whos-hiring)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
-  * [Hub and Documentation updates](#hub-and-doc-updates)
   * [Releases](#releases)
 * And [other news](#other-news) too
 
@@ -276,15 +277,16 @@ There are three new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
-* [Développement d’interopérabilité entre ressources bioinformatique](https://www.france-bioinformatique.fr/fr/liste-des-offres/d%C3%A9veloppement-d%E2%80%99interop%C3%A9rabilit%C3%A9-entre-ressources-bioinformatiques-0), IFB, France
-* [Bioinformaticien/biostatisticien biologiste](http://www.sfbi.fr/content/offre-de-poste-de-bioinformaticienbiostatisticien-biologiste-soci%C3%A9t%C3%A9-phylogene),  Phylogene S.A, Bernis, France
+* [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
+* [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
+* [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
-<div class="small"> <sup>* </sup> Seems more sinister than *dark matter* don't you think? </div>
+<div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
 ----
 
@@ -326,12 +328,6 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 | 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | 
 | 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
 | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Jetstream) | | | | | | | |
-
-----
-
-# Hub and Doc Updates
-
-* [Job and Tool Error Help](/src/support/tool-error/index.md) updated by [Jennifer Hillman-Jackson](/src/people/jen-jackson/index.md)
 
 ----
 
