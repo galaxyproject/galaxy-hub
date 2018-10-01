@@ -84,7 +84,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </tr>
 <tr>
   <td><span class="text-nowrap">October 1st 2018</span></td>
-  <td><a href="http://wiki.pitagora-galaxy.org/wiki/index.php/Meetup_2018-10">Pitogora Meetup</a></td>
+  <td><a href="http://wiki.pitagora-galaxy.org/wiki/index.php/Meetup_2018-10">Pitagora Meetup</a></td>
   <td><img style="float:right;" src="/images/icons/AS.png"/><a href="https://www.google.com/maps/place/1+Chome-4-1+Nihonbashi,+Ch%C5%AB%C5%8D-ku,+T%C5%8Dky%C5%8D-to+103-0027,+Japan/@35.682599,139.774644,16z/data=!4m5!3m4!1s0x601889564b8dc18b:0xbcd97409b2ee3f23!8m2!3d35.6825992!4d139.7746442">理研 革新知能統合研究センター（日本橋）, Tokyo, Japan and Online</a></td>
   <td>Atsushi Asai</td>
 </tr>
