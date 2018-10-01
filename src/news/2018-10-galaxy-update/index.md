@@ -15,7 +15,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
   * [All upcoming events](#upcoming-events)
 * New:
   * [200 publications](#publications), including 10 highlighted ones
-  * Three new [Galactic Blog entries](http://localhost:8080/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
+  * Three new [Galactic Blog entries](/src/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
   * [Open positions with 5 organizations](/src/news/2018-10-galaxy-update/#whos-hiring)
   * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
