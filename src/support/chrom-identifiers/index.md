@@ -96,6 +96,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
   - Download the .tar file locally, uncompress it, then upload just the genes.gtf dataset to Galaxy
   - Note: the compression format .tar is not accepted by the Upload tool
   - If a .tar dataset is attempted to be uploaded, the load may fail or just the first file in the archive is uploaded (and it will not be the genes.gtf file)
+5. Genecode Genes is also a choice, please see:  https://biostar.usegalaxy.org/p/29343/
 
 *Method 7*
 
