@@ -1,10 +1,10 @@
 ---
 title: "Jetstream"
-url: "ttp://jetstream-cloud.org//"
+url: "http://jetstream-cloud.org//"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
-    platform_url: "ttp://jetstream-cloud.org/"
+    platform_url: "http://jetstream-cloud.org/"
     platform_text: "Jetstream"
 summary: '[Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF.'  image: "/src/images/logos/JetstreamRectClipped.jpg"
 comments:
