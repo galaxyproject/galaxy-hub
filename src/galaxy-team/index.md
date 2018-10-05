@@ -42,18 +42,23 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="/src/galaxy-team/cumbo.png" alt="Fabio Cumbo" height="150" /></a><br />
-Fabio Cumbo<br />
-[Penn State](http://www.bx.psu.edu)
-</div>
-<div class='col-md-3'>
 <a href='/src/people/jeremy-goecks/index.md'><img src="/src/galaxy-team/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<br />
 [OHSU](http://www.ohsu.edu) <br /> <br /> 
 </div>
 <div class='col-md-3'>
+<a href='http://ic4f.me/'><img src="/src/galaxy-team/sergey.jpg" alt="Sergey Golitsynskiy" height="150" /></a><br />
+[Sergey Golitsynskiy](http://ic4f.me/)<br />
+[Johns Hopkins](http://www.jhu.edu)  <br /> <br />
+</div>
+<div class='col-md-3'>
 <a href='/src/people/guerler/index.md'><img src="/src/galaxy-team/guerler.jpg" alt="Aysam Guerler" height="150" /></a><br /> 
 [Aysam Guerler](/src/people/guerler/index.md)<br />
+[Johns Hopkins](http://www.jhu.edu)  <br /> <br />
+</div>
+<div class='col-md-3'>
+<a href='/src/people/mo-heydarian/index.md'><img src="/src/galaxy-team/mheydarian.jpg" alt="Mo Heydarian" height="150" /></a><br />
+[Mo Heydarian](/src/people/mo-heydarian/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
@@ -104,7 +109,7 @@ Luke Sargent<br />
 [Uni Freiburg](http://www.uni-freiburg.de/) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="E. Rasche" height="150" /><br />
+<img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="H. Rasche" height="150" /><br />
 [E. Rasche](https://github.com/erasche)<br />
 [Uni Freiburg](http://www.uni-freiburg.de/) <br /> <br />
 </div>
@@ -171,6 +176,7 @@ Luke Sargent<br />
 * Istvan Albert
 * Ramkrishna Chakrabarty
 * Wen-Yu Chung
+* Fabio Cumbo
 * [Carl Eberhard](/src/people/carl-eberhard/index.md)
 * Dorine Francheteau
 * Mallory Freeberg
