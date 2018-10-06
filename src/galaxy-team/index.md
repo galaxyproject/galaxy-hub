@@ -52,6 +52,11 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
+<img src="/src/galaxy-team/qiang.jpg" alt="Qiang Gu" height="150" /></a><br />
+Qiang Gu<br />
+[OHSU](http://www.ohsu.edu) <br /> <br /> 
+</div>
+<div class='col-md-3'>
 <a href='/src/people/guerler/index.md'><img src="/src/galaxy-team/guerler.jpg" alt="Aysam Guerler" height="150" /></a><br /> 
 [Aysam Guerler](/src/people/guerler/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
