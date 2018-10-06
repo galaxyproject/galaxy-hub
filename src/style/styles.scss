@@ -93,8 +93,9 @@ aside {
 }
 
 #sidebar {
+    line-height: 140%;
     a {
-        padding: 2px 15px;
+        padding: 3px 15px;
     }
     & > ul > li > a {
         font-weight: bold;
