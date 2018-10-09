@@ -47,8 +47,8 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [OHSU](http://www.ohsu.edu) <br /> <br /> 
 </div>
 <div class='col-md-3'>
-<a href='http://ic4f.me/'><img src="/src/galaxy-team/sergey.jpg" alt="Sergey Golitsynskiy" height="150" /></a><br />
-[Sergey Golitsynskiy](http://ic4f.me/)<br />
+<a href='/src/people/sergey/index.md'><img src="/src/galaxy-team/sergey.jpg" alt="Sergey Golitsynskiy" height="150" /></a><br />
+[Sergey Golitsynskiy](/src/people/sergey/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
