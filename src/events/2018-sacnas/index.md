@@ -124,6 +124,8 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 # Session 2 : Galaxy
 
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnac-galaxy-slides.pdf)**
+
 | Time | Topic |
 |:----:| ----- |
 | 2:15p - 2:45p | Galaxy Basics: Loading data and running and connecting tools |
