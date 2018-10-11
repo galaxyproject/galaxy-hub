@@ -123,7 +123,7 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 
 **/etc/cvmfs/domain.d/galaxyproject.org.conf**
 ```bash
-CVMFS_SERVER_URL="http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@"
+CVMFS_SERVER_URL="http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@;http://cvmfs1-mel0.gvl.org.au/cvmfs/@fqrn@"
 ```
 
 **/etc/cvmfs/keys/data.galaxyproject.org.pub**
@@ -166,6 +166,7 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 | `cvmfs1-psu0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
 | `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
 | `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
+| `cvmfs1-mel0.gvl.org.au` | [GVL Project][gvlproject] | Melbourne, Australia |
 | `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
 
 The full path to the repository, e.g. for use in the `CVMFS_SERVER_URL` configuration parameter, where `<SERVER:[PORT]>`
@@ -186,6 +187,7 @@ CVMFS templates the repository name in to the URL for you.
 [tacc]: http://www.tacc.utexas.edu/
 [utexas]: http://www.utexas.edu/
 [jrc]: https://ec.europa.eu/jrc
+[gvlproject]: https://gvl.org.au
 
 ## Obtaining Reference Data with Rsync or HTTP
 
