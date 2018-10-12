@@ -22,26 +22,21 @@ Yvan, we are looking forward to learn more about your choice!
 
 ### We learn about you and Galaxy in the [*Galaxy contributor of the Month!* post](2018-10-cotm-yvan-le-bras). Can you do a small recap here?
 
-*Add more here*
+Since 2010, the year I discovered Galaxy, I obtained my PhD, begun to focus on Bioinformatics/Biostatistics through NGS and proteomics approaches, animated a western France Galaxy group of users, given dozens of hours of Galaxy training, created the French CeSGO e-Science Center, co-founded the Enancio start-up and finally returned to my first love, Ecology and biodiversity conservation through the birth of Galaxy-E initiative thanks to the national "65 Millions d'observateurs" project dedicated to facilitate and extend participation into citizen science projects and now coordinating the national "Pôle national de données de biodiversité" French Research Infrastructure. A big sentence isn't it ;) And... this is the view from my office:
 
-Originally a marine ecologist, learning molecular ecology aspect related to population genetics, I obtained a PhD in 2010 after 3 years devoted to quantitative genetics and functional genomics approach of rainbow trout capacities to cope with osmoregulation issues during transfer form freshwater to seawater. Postdoctoral opportunities drop me definitely deeper to the black matter of Bioinformatics and Biostatistics working for Biogenouest western France Life sciences core facilities network through INSERM and CNRS then at INRIA to build a first french e-Science centre dedicated to life sciences. In addition, this was the time for me to concretise a several years old project idea creating the Enancio start-up.
-
-Then, a wonderful opportunity bring me back to my first love, ecology and conservation, working 2 years for the "65 Millions d'observateurs" national project coordinated by French National Museum of Natural History where was set-up the Galaxy-E initiative, initially devoted to citizen science projects related to Biodiversity. Now, my mission is to coordinate the national research infrastructure "Pôle national des données de Biodiversité" (PNDB), e-infrastructure in creation who will act as the French Biodiversity data hub.
-
-My hobbies are related to marine activities in particular sailing and fishing demonstrating every time that I can to family, friends and unknown people the beauty of nature and wild life....
+<img class="float-right" src="20170120_091518.jpg" alt="Galaxy-E window" style="max-width: 250px" />
 
 ### Can you tell us a little about yourself and your relationship to training?
 
-*Add more here*
+Since my PhD, I'm convinced that training is a key element for science to go faster and further. My first try in 2011 was the creation of a 2 days thematic school on integrative biology... This was a success in the way that this event confirmed the importance of training and putting people, from different domains, from differnet level of skills, exchanging together in good spirits! 2012 was the creation of the western France Galaxy user group, named GUGGO, and the begining of periodic training sessions on unix, SGE, and most importantly introduction to Galaxy, RNAseq data analysis with Galaxy and finally RADseq data treatment with Galaxy, in total I counted 110 hours in 4 years!
 
 ### Why have you selected this particular tutorial as the tutorial of the month?
 
-I gave something like 30 Galaxy training sessions, always beginning by this introductory tutorial, and this fundamental question: "Which gene in the Human genome contains the most important Exons density?"
+I gave something like 30 Galaxy training sessions, always beginning by this introductory tutorial, and this fundamental question: "Which exon has the highest density of SNPs on human chromosome 22?"
 
+Writing these lines, I can see Cyril (Monjeaud), with whom I gave almost all the training sessions, face expression as it was always like a game to me to transform this "simple" question into a fundamental research one! Concretly, this is a perfect manner to introduce Galaxy functionnalities, interest, using a "simple" few-steps workflow, dealing with remote datasets, well known data banks (here UCSC), and basic but so important and powerfull pre-processing/filtering tools! For sure kind of tools that a lot of people use on the ~every-day lab life!
 
-Writing these lines, I can see Cyril (Monjeaud), with whom I gave all the training sessions, face expression as it was always like a game to me to transform this "simple" question into a fundamental research one! Concretly, this is a perfect manner to introduce Galaxy functionnalities, interest, using a "simple" few-steps workflow, dealing with remote datasets, well known data banks (here UCSC), and basic but so important and powerfull pre-processing/filtering tools! For sure kind of tools that a lot of people use on the ~every-day lab life!
-
-Another important point, as instructor, is that datasets are very small, so it's easy to treat it rapidly, even on a training session with 20 people
+Another important point, as instructor, is that datasets are very small, so it's easy to treat it rapidly, even on a training session with 20 people. As I was using this tuto as a basis to introduce all/major Galaxy functionalities, I can remember that the introductory session was something like 1.5h in 2013, and 2.5h in 2016, showing the incredible dynamic there is on Galaxy project and functionalities improvement.
 
 ---
 
