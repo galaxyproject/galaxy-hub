@@ -4,6 +4,7 @@ url: "http://globusgenomics.org/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Global"
     platform_url: "http://globusgenomics.org/"
     platform_text: "Globus Genomics"
 summary: "Globus Genomics provides hardened high-performance Galaxy servers running with Globus on AWS."

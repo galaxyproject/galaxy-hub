@@ -4,6 +4,7 @@ url: "https://cloud.snic.se/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Sweden"
     platform_url: "https://cloud.snic.se/"
     platform_text: "SNIC Science Cloud"
 summary: "A national-scale cloud infrastructure for Swedish Academia"
