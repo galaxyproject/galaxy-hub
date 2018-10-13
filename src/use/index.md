@@ -19,7 +19,7 @@ This is a directory of publicly accessible Galaxy servers, cloud services that s
   * [Containers](/src/use/index.md#container)
   * [Virtual Machines (VMs)](/src/use/index.md#vm)
 * [Resource Keywords](/src/use/index.md#resource-keywords)
-  * [Real keywords](/src/use/index.md#resource-keywords)
+  * [Real keywords](/src/use/index.md#real-keywords)
   * [Scope](/src/use/index.md#scope)
 * [Add a resource to this directory](/src/use/index.md#add-a-resource-to-this-directory)
 
