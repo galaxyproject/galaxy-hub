@@ -1,6 +1,6 @@
 extends layout.pug
 
-mixin renderResourceRow(item, with_platforms)
+mixin renderResourceRow(item, with_platforms, with_purview)
     tr
         td
             a( href=item.link ) #{item.title}
@@ -11,7 +11,12 @@ mixin renderResourceRow(item, with_platforms)
                         - var platform_info = use_platforms.get(platform.platform_group)
                         if platform_info.column == platform_column 
                             a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
-        td !{marked(item.summary).replace("<p>","").replace("</p>","")}            
+        td !{marked(item.summary).replace("<p>","").replace("</p>","")}
+        if with_purview
+            td
+                each platform in item.platforms
+                    if platform.platform_purview
+                        | #{platform.platform_purview}
         td
             - var scopeInfo = getScopeInfo(item.scope)
             a( href=scopeInfo.link ) #{scopeInfo.short_text}
@@ -24,7 +29,7 @@ block content
     script(type='text/javascript').
         $(document).ready( function () {
             $(".table.table-striped").DataTable({
-                    "lengthMenu": [ [25, 50, 100, -1], [25, 50, 100, "All"] ],
+                    "lengthMenu": [ [20, 40, 80, -1], [20, 40, 80, "All"] ],
                     "search": {
                         "regex": true
                     }
@@ -52,7 +57,7 @@ block content
                 tbody
                     each item in resources_malleable
                         if item.scope == "usegalaxy"
-                            +renderResourceRow(item, true)
+                            +renderResourceRow(item, true, false)
 
             h1(id="all-resources") All Resources
             p
@@ -67,7 +72,7 @@ block content
                         th Keywords
                 tbody
                     each item in resources_malleable
-                        +renderResourceRow(item, true)
+                        +renderResourceRow(item, true, false)
 
             h1(id="by-platform") Resources by Platform
             p
@@ -76,9 +81,9 @@ block content
                 li
                     a(href="#public-server") Public Servers
                 li
-                    a(href="#commercial-cloud") Commercial Cloud Services
-                li
                     a(href="#academic-cloud") Academic Cloud Services
+                li
+                    a(href="#commercial-cloud") Commercial Cloud Services
                 li
                     a(href="#container") Containers
                 li
@@ -103,7 +108,23 @@ block content
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "public-server"
-                                +renderResourceRow(item, false)
+                                +renderResourceRow(item, false, false)
+
+            h2(id="academic-cloud") Academic Cloud Services
+            p
+                | These are academic cloud providers where ready to run Galaxy instances are available. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
+            table.table.table-striped
+                thead
+                    tr
+                        th Resource
+                        th Summary
+                        th Purview
+                        th Keywords
+                tbody
+                    each item in resources_malleable
+                        each platform in item.platforms
+                            if platform.platform_group == "academic-cloud"
+                                +renderResourceRow(item, false, true)
 
             h2(id="commercial-cloud") Commercial Cloud Services
             p
@@ -118,22 +139,7 @@ block content
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "commercial-cloud"
-                                +renderResourceRow(item, false)
-
-            h2(id="academic-cloud") Academic Cloud Services
-            p
-                | These are academic cloud providers where ready to run Galaxy instances are available. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "academic-cloud"
-                                +renderResourceRow(item, false)
+                                +renderResourceRow(item, false, false)
 
             h2(id="container") Containers
             p
@@ -148,7 +154,7 @@ block content
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "container"
-                                +renderResourceRow(item, false)
+                                +renderResourceRow(item, false, false)
 
             h2(id="vm") Virtual Machines (VMs)
             p
@@ -163,4 +169,36 @@ block content
                     each item in resources_malleable
                         each platform in item.platforms
                             if platform.platform_group == "vm"
-                                +renderResourceRow(item,false)
+                                +renderResourceRow(item, false, false)
+
+            h1(id="resource-keywords") Resource Keywords
+            p
+                | Each resource has a set of keywords associated with them.
+
+            h2(id="real-keywords") Real keywords 
+            p
+            | (<em>What about listing these by the resource's domain, for example, the research methodology (e.g., RNA-Seq), the clade (e.g., crops), or field e.g., metagenomics) that a resource is targeted at? We are working on it.</em>)
+
+            h2(id="scope") Scope
+            p
+                | Initially, there is only one keyword per resource and that defines the <em>scope</em> of the resource:
+
+            h3(id="usegalaxy") UseGalaxy
+            p
+                | UseGalaxy servers implement a common core set of tools and reference genomes, and are open to anyone to use. See the [UseGalaxy directory below](#usegalaxy-dir).
+
+            h3(id="genomics") Genomics
+            p
+                | These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any type of analysis.
+
+            h3(id="domain") Domain
+            p
+                | Domain resources specialize in either a particular branch of the tree of life or in particular types of analysis. Within their specializations, domain resources offer a wide variety of tools.
+
+            h3(id="tool-publishing") Tool Publishing
+            p
+                | Tool publishing resources make tools easily available so that researchers can use them without having to install and use command line versions. The distinction between <em>domain</em> resources and <em>tool publishing</em> resources is fuzzy. In general, tool publishing resources expose tools from a particular organization, while domain resources include tools / datasets from other organizations and have a larger goal in mind.
+
+            h1(id="add-a-resource-to-this-directory") Add a resource to this directory
+            p
+                | If you maintain a Galaxy resource that can be listed on this directory, then please <strong><a href="https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form">describe your Galaxy resource here</a></strong>.  We'll contact you with any question and then post it this directory.

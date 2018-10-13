@@ -3,9 +3,10 @@ title: "Laniakea/INDIGO-DataCloud"
 url: "https://elixir-italy-science-gateway.cloud.ba.infn.it"
 scope: "general"
 platforms:
- - platform_group: "academic-cloud"
-   platform_url: "https://www.indigo-datacloud.eu/"
-   platform_text: "INDIGO-DataCloud"
+  - platform_group: "academic-cloud"
+    platform_purview: "Italy"
+    platform_url: "https://www.indigo-datacloud.eu/"
+    platform_text: "INDIGO-DataCloud"
 summary: '[Laniakea](https://elixir-italy-science-gateway.cloud.ba.infn.it) provides the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.'
 image: "/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png"
 comments:

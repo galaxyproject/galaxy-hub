@@ -4,6 +4,7 @@ url: "https://galaxy.plgrid.pl/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Poland"
     platform_url: "https://galaxy.plgrid.pl"
     platform_text: "PL-Grid Galaxy Server"
 summary: "*The PL-Grid project is [free of charge](https://docs.plgrid.pl/pages/viewpage.action?pageId=11306686#Diagnostykamolekularna(GalaxyServer)-platformaanalizydanychzNGS-becoming_userBecomingauser(Aktywowanieusługi)) for any Polish scientist. It is also free for any foreign collaborator of Polish scientists.*"
