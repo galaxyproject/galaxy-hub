@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://bipaa-galaxy.genouest.org"
     platform_text: "BIPAA Galaxy Server"
 summary: "Insect genomics (aphids, parasitoïd wasps, lepidopterans)"
-image: "/src/use/bipaa-bioinformatics-platform-for-agroecosystem-arthropods/bipaa-logo.png"
+image: "/src/use/bipaa/bipaa-logo.png"
 comments:
   - "[BIPAA home page](https://bipaa.genouest.org/)"
   - "Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...)."
