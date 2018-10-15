@@ -50,134 +50,144 @@ block content
             h1 !{title}
             div !{ contents }
 
-            h1(id="usegalaxy-dir") UseGalaxy Resources
-            p
-                a(href="/usegalaxy/") UseGalaxy servers 
-                | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        if item.scope == "usegalaxy"
-                            +renderResourceRow(item, true, false)
+            ul( class="nav nav-tabs" id="resource-tabs" role="tablist" )
+                li( class="nav-item" )
+                    a( class="nav-link active" id="usegalaxy-tab" data-toggle="tab" href="#usegalaxy-pane" role="tab" aria-controls="usegalaxy-pane" aria-selected="true" ) UseGalaxy 
+                li( class="nav-item" )
+                    a( class="nav-link" id="all-resources-tab" data-toggle="tab" href="#all-resources-pane" role="tab" aria-controls="all-resources-pane" aria-selected="true" ) All
+                li( class="nav-item" )
+                    a( class="nav-link" id="public-server-tab" data-toggle="tab" href="#public-server-pane" role="tab" aria-controls="public-server-pane" aria-selected="true" ) Public Servers
+                li( class="nav-item" )
+                    a( class="nav-link" id="academic-cloud-tab" data-toggle="tab" href="#academic-cloud-pane" role="tab" aria-controls="academic-cloud-pane" aria-selected="true" ) Academic Clouds
+                li( class="nav-item" )
+                    a( class="nav-link" id="commercial-cloud-tab" data-toggle="tab" href="#commercial-cloud-pane" role="tab" aria-controls="commercial-cloud-pane" aria-selected="true" ) Commercial Clouds
+                li( class="nav-item" )
+                    a( class="nav-link" id="containers-tab" data-toggle="tab" href="#containers-pane" role="tab" aria-controls="containers-pane" aria-selected="true" ) Containers
+                li( class="nav-item" )
+                    a( class="nav-link" id="vms-tab" data-toggle="tab" href="#vms-pane" role="tab" aria-controls="vms-pane" aria-selected="true" ) VMs
 
-            h1(id="all-resources") All Resources
-            p
-                | Complete listing of resources for using Galaxy.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        each platform_column in platform_columns
-                            th !{platform_column}
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        +renderResourceRow(item, true, false)
+            div( class="tab-content" id="resource-tabs-content" )
+                div( class="tab-pane fade show active" id="usegalaxy-pane" role="tabpanel" aria-labelledby="usegalaxy-tab" ) 
+                    h1(id="usegalaxy-dir" class="nav-item") UseGalaxy Resources
+                    p
+                        a(href="/usegalaxy/") UseGalaxy servers 
+                        | implement a common core set of tools and reference genomes, and are open to anyone to use.  They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                each platform_column in platform_columns
+                                    th !{platform_column}
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                if item.scope == "usegalaxy"
+                                    +renderResourceRow(item, true, false)
 
-            h1(id="by-platform") Resources by Platform
-            p
-                | Galaxy is available through all sorts of different technologies, from web sites you can just use, to virtual machines you can download and deploy.
-            ul
-                li
-                    a(href="#public-server") Public Servers
-                li
-                    a(href="#academic-cloud") Academic Cloud Services
-                li
-                    a(href="#commercial-cloud") Commercial Cloud Services
-                li
-                    a(href="#container") Containers
-                li
-                    a(href="#vm") Virtual Machines
+                div( class="tab-pane fade show" id="all-resources-pane" role="tabpanel" aria-labelledby="all-resources-tab" ) 
+                    h1(id="all-resources" class="nav-item") All Resources
+                    p
+                        | Complete listing of resources for using Galaxy.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                each platform_column in platform_columns
+                                    th !{platform_column}
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                +renderResourceRow(item, true, false)
 
-            h2(id="public-server") Public Servers
-            p
-                | Public Servers are acccessible to (at least) any academic researcher in the world.  Some require you to create/request an account, aand they may have restrictive quotas, but often, to use these, just go the website and start running analyses. These are free to use.
-            P
-                | The folks are Freiburg have put together a
-                a(href="https://stats.usegalaxy.eu/d/000000020/public-galaxy-servers?orgId=1") public Galaxy server dashboard
-                | to track the status and some of the supported features of the servers listed here.  See the
-                a(href="/src/blog/2017-10-public-galaxy-dashboard/index.md") blog post
-                | for more info.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "public-server"
-                                +renderResourceRow(item, false, false)
+                div( class="tab-pane fade show" id="public-server-pane" role="tabpanel" aria-labelledby="public-server-tab" ) 
+                    h1(id="public-server") Public Servers
+                    p
+                        | Public Servers are acccessible to (at least) any academic researcher in the world.  Some require you to create/request an account, aand they may have restrictive quotas, but often, to use these, just go the website and start running analyses. These are free to use.
+                    P
+                        | The folks are Freiburg have put together a
+                        a(href="https://stats.usegalaxy.eu/d/000000020/public-galaxy-servers?orgId=1") public Galaxy server dashboard
+                        | to track the status and some of the supported features of the servers listed here.  See the
+                        a(href="/src/blog/2017-10-public-galaxy-dashboard/index.md") blog post
+                        | for more info.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                each platform in item.platforms
+                                    if platform.platform_group == "public-server"
+                                        +renderResourceRow(item, false, false)
 
-            h2(id="academic-cloud") Academic Cloud Services
-            p
-                | These are academic cloud providers where ready to run Galaxy instances are available. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Purview
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "academic-cloud"
-                                +renderResourceRow(item, false, true)
+                div( class="tab-pane fade show" id="academic-cloud-pane" role="tabpanel" aria-labelledby="academic-cloud-tab" ) 
+                    h1(id="academic-cloud") Academic Cloud Services
+                    p
+                        | These are academic cloud providers where ready to run Galaxy instances are available. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                th Summary
+                                th Purview
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                each platform in item.platforms
+                                    if platform.platform_group == "academic-cloud"
+                                        +renderResourceRow(item, false, true)
 
-            h2(id="commercial-cloud") Commercial Cloud Services
-            p
-                | These are commercial cloud providers where ready to run Galaxy instances are available.  You need to pay for these, but you only need to pay for as long as you need the instance to be up.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "commercial-cloud"
-                                +renderResourceRow(item, false, false)
+                div( class="tab-pane fade show" id="commercial-cloud-pane" role="tabpanel" aria-labelledby="commercial-cloud-tab" ) 
+                    h1(id="commercial-cloud") Commercial Cloud Services
+                    p
+                        | These are commercial cloud providers where ready to run Galaxy instances are available.  You need to pay for these, but you only need to pay for as long as you need the instance to be up.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                each platform in item.platforms
+                                    if platform.platform_group == "commercial-cloud"
+                                        +renderResourceRow(item, false, false)
 
-            h2(id="container") Containers
-            p
-                | These Galaxy instances are prepackaged using container technology, usually Docker.  You run these locally by first installing the container technology (Docker is easy), and then launching the containerized Galaxy within that technology.  These use local resources.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "container"
-                                +renderResourceRow(item, false, false)
+                div( class="tab-pane fade show" id="containers-pane" role="tabpanel" aria-labelledby="containers-tab" ) 
+                    h1(id="container") Containers
+                    p
+                        | These Galaxy instances are prepackaged using container technology, usually Docker.  You run these locally by first installing the container technology (Docker is easy), and then launching the containerized Galaxy within that technology.  These use local resources.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                each platform in item.platforms
+                                    if platform.platform_group == "container"
+                                        +renderResourceRow(item, false, false)
 
-            h2(id="vm") Virtual Machines (VMs)
-            p
-                | VMs are similar to containers but use a different technology.  Containers take significant advantage of your computer's underlying operating system.  Virtual Machines include an entire supporting operating system, and are significantly larger than containers.  You run these locally by first installing a VM player like VirtualBox, and then downloading and launching the VM within that player.  These use local resources.
-            table.table.table-striped
-                thead
-                    tr
-                        th Resource
-                        th Summary
-                        th Keywords
-                tbody
-                    each item in resources_malleable
-                        each platform in item.platforms
-                            if platform.platform_group == "vm"
-                                +renderResourceRow(item, false, false)
+                div( class="tab-pane fade show" id="vms-pane" role="tabpanel" aria-labelledby="vms-tab" ) 
+                    h2(id="vm") Virtual Machines (VMs)
+                    p
+                        | VMs are similar to containers but use a different technology.  Containers take significant advantage of your computer's underlying operating system.  Virtual Machines include an entire supporting operating system, and are significantly larger than containers.  You run these locally by first installing a VM player like VirtualBox, and then downloading and launching the VM within that player.  These use local resources.
+                    table.table.table-striped
+                        thead
+                            tr
+                                th Resource
+                                th Summary
+                                th Keywords
+                        tbody
+                            each item in resources_malleable
+                                each platform in item.platforms
+                                    if platform.platform_group == "vm"
+                                        +renderResourceRow(item, false, false)
+            hr
 
             h1(id="resource-keywords") Resource Keywords
             p
