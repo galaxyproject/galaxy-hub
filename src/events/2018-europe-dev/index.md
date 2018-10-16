@@ -62,6 +62,8 @@ This day is more on the technical side, with presentation, tutorials and hands o
 Confirmed speakers:
  - Marco Tangaro: *Providing Galaxy based bioinformatic environments through cloud technologies*
  - Nicola Soranzo: *Beta Python 3 support for Galaxy in release 18.09, at last!*
+ - Sveinung Gundersen: *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*
+ - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
 
 Currently we also plan to discuss/present:
