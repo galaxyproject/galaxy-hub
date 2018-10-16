@@ -230,11 +230,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-Two new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to the published list in September:
+Two new [public Galaxy server](/src/use/index.md) was added to the published list in September:
 
 ## GalaxEast
 
-<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/src/public-galaxy-servers/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
+<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/src/use/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
 
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
@@ -249,7 +249,7 @@ See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data
 
 ## MIRPIPE
 
-<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/public-galaxy-servers/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/use/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
 
 [MIRPIPE](https://bioinformatics.mpi-bn.mpg.de/) focuses on quantification of microRNA based on smallRNA sequencing reads.  From the home page:
  In opposition to present algorithms that generally rely on genomic data to identify miRNAs, MIRPIPE focuses on niche model organisms that lack such information. Among the MIRPIPE features are automatic trimming and adapter removal of raw RNA-Seq reads originating from various sequencing instruments, clustering of isomiRs, and quantification of detected miRNAs by homology search versus public or user uploaded reference databases.
@@ -274,7 +274,7 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/public-galaxy-servers/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
+The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/use/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
 
 The *[Deployment Catalog](/src/community/deployment/index.md)* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/community/deployment/index.md), or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
 

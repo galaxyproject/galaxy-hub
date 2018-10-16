@@ -18,7 +18,7 @@ title: GVL RNA-seq Differential Gene Expression Introductory Tutorial
  Date:: 2014/08
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/use/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we cover the concepts of RNA-Seq differential gene expression (DGE) analysis using a very small synthetic dataset from a well studied organism.
 

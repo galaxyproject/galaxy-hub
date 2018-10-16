@@ -247,11 +247,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
 
 ## ImmPort Galaxy Update
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
 
 A new release of [ImmPort Galaxy](http://immportgalaxy.org/) is out:
 
@@ -279,7 +279,7 @@ More cool visualizations to look at your flow cytometry data!
 
 ### ChimeRScope
 
-<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/public-galaxy-servers/chimerscope/chimerscope.png" alt="ChimeRScope Galaxy" width="200" /></a></div>
+<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/use/chimerscope/chimerscope.png" alt="ChimeRScope Galaxy" width="200" /></a></div>
 
 [ChimeRScope Galaxy](https://galaxy.unmc.edu/) is a tool publishing server for fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
 

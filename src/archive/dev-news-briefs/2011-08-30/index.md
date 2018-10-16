@@ -46,7 +46,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
   * [Outreach](/src/outreach/index.md)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.
-      [PublicGalaxyServers](/src/public-galaxy-servers/index.md)
+      [PublicGalaxyServers](/src/use/index.md)
 
 ### Tool Shed
 

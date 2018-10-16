@@ -262,11 +262,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/public-galaxy-servers/index.md#mpi-hlr-bioinformatics-server).
+[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/use/index.md#mpi-hlr-bioinformatics-server).
 
 ## Dintor
 
-<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/public-galaxy-servers/dintor/dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
+<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/use/dintor/dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
@@ -288,7 +288,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/public-galaxy-servers/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)

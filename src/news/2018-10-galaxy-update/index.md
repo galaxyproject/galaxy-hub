@@ -294,7 +294,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 ## Public Galaxy Servers is becoming something ... more
 
-In October the venerable [Public Galaxy Server list](/src/public-galaxy-servers/index.md) and the relative upstart [Galaxy Services list](/src/galaxy-services/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
+In October the venerable [Public Galaxy Server list](/src/use/index.md) and the relative upstart [Galaxy Services list](/src/use/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
 
 Here's what's new:
 <div class="twocol">

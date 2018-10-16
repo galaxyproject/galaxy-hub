@@ -16,7 +16,7 @@ Test Tool Shed is made for breaking. If you have some tools you want to try out 
 
 <div class='right'><a href='http://toolshed.prabi.fr/'><img src="/src/images/logos/PRABILogo.png" alt="Galaxy@PRABI" width="150" /></a></div>
 
-[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/public-galaxy-servers/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam*.
+[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/use/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam*.
 
 ## DTL ToolShed
 

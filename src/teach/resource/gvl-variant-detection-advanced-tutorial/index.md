@@ -18,7 +18,7 @@ title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/documen
  Date:: 2013/06 
 </div>
 
-[|This tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
+[|This tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/use/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based variant detection tools:
 * SAMtools: Mpileup

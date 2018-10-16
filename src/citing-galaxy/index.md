@@ -11,7 +11,7 @@ This page emphasizes publications from the core Galaxy team.  However, the set o
 
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/public-galaxy-servers/index.md) or [Galaxy services](/src/public-galaxy-servers/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/use/index.md) or [Galaxy services](/src/use/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
 
 Some excellent exmples (*emphasis added*):
 
@@ -19,11 +19,11 @@ Some excellent exmples (*emphasis added*):
 
      "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
 
-* Used a [public server](/src/public-galaxy-servers/index.md): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
+* Used a [public server](/src/use/index.md): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
 
-     Which publication should you cite when using a public server?  Most of the [descriptions of public servers](/src/public-galaxy-servers/index.md) include a *Citation(s)* section.
+     Which publication should you cite when using a public server?  Most of the [descriptions of public servers](/src/use/index.md) include a *Citation(s)* section.
 
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
      
@@ -252,7 +252,7 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
  Direct people here for information on how to download and configure your own local installation:
   http://getgalaxy.org/
 
- Using or referring to any of the [public Galaxy server instances](/src/public-galaxy-servers/index.md):
+ Using or referring to any of the [public Galaxy server instances](/src/use/index.md):
   Please include the name, URL, and primary publication for the server.
 
 ## Citations

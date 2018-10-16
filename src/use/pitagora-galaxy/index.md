@@ -17,7 +17,7 @@ comments:
   - "We are running a website for sharing users' know-how, and distributing a virtual environment where we configured Galaxy with selected workflows and tools. Now, you can perform our analysis workflows on three environments: public server, VM, and an AWS AMI."
   - "Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools."
   - "[Building Galaxy Japan Community](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota Yamanaka at Genome Informatics 2014."
-image: "/src/public-galaxy-servers/pitagora-galaxy/pitagora.png"
+image: "/src/use/pitagora-galaxy/pitagora.png"
 user_support:
   - "Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)" 
 quotas:

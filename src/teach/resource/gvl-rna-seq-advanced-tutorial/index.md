@@ -18,7 +18,7 @@ title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
  Date:: 2013/06 
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/use/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based differential expression tools:
 * [CuffDiff](/src/CuffDiff/index.md)

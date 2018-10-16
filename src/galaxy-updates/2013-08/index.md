@@ -28,7 +28,7 @@ In addition to the videos and presentation materials, there are also several mee
 
 # New Public Servers
 
-Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in July.
+Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/use/index.md) in July.
 
 ## PredPharmTox
 
@@ -38,7 +38,7 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 
 ## QBRC Galaxy
 
-<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src="/src/public-galaxy-servers/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
+<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src="/src/use/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
 
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 

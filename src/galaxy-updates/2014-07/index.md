@@ -215,7 +215,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to the published list in June:
+One new [public Galaxy server](/src/use/index.md) was added to the published list in June:
 
 ## GVL QLD
 

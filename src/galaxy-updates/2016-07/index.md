@@ -382,11 +382,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) was added to [the list](/src/public-galaxy-servers/index.md) in June:
+One [new publicly accessible Galaxy servers](/src/use/index.md) was added to [the list](/src/use/index.md) in June:
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
-<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/public-galaxy-servers/chemical-annotation-retrieval-toolkit-cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/use/cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Server](http://cart.embl.de/)
@@ -405,7 +405,7 @@ One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md
 
 # New Semi-Public Galaxy Servers
 
-And one [new set of Semi-Public Galaxy server](/src/galaxy-services/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/public-galaxy-servers/index.md), but that are accessible to a larger group than just the host institution's members.  
+And one [new set of Semi-Public Galaxy server](/src/use/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/use/index.md), but that are accessible to a larger group than just the host institution's members.  
 
 ## Norway: NeLS
 

@@ -202,7 +202,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in September.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in September.
 
 ## Public Servers in September's Publications
 
@@ -216,11 +216,11 @@ As mentioned above, as part of the move to Zotero, we have started tagging paper
 
 ## Public Server Directory Rebuilt
 
-The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/src/public-galaxy-servers/index.md).
+The [public Galaxy server directory](/src/use/index.md) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/src/use/index.md).
 
 ## ImmPort Galaxy: New Release and Feedback Needed
 
-<img class="float-right" src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
+<img class="float-right" src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
 
 The [ImmPort Project](http://www.immport.org/) just released a new version of [ImmPort Galaxy](http://immportgalaxy.org/). You can now upload your flow data as flowFrames, and there are new tools too:
 
@@ -239,7 +239,7 @@ The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e
 [<img class="float-right img-fluid" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
 
 
-[Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/public-galaxy-servers/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
+[Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/use/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
 
 From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 > "...different codon usage variants significantly improved production of some of the tested proteins. However, not a single algorithm performed consistently best for the membrane-integrated production of the 6 tested proteins. In conclusion, for improving heterologous membrane protein production in E. coli, the major effect is accomplished by transcriptional tuning. In addition, further improvements may be realized by attempting different codon usage variants, such as codon harmonized variants, which can now be easily generated through our online Codon Harmonizer tool."
@@ -247,7 +247,7 @@ From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 A [manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf) and email support ([Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico
 Claassens](mailto:nicoclaassens AT gmail.com)) are available.
 
-See the [Codon Harmonizer page](/src/public-galaxy-servers/codon-harmonizer/index.md) for more.
+See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
 
 ----
 

@@ -299,13 +299,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in December.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in December.
 
 ## New Public Galaxy Servers
 
 ### Galaxy@Pasteur
 
-<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/public-galaxy-servers/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/use/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
 
 * *Link:*
   * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)

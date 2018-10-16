@@ -17,7 +17,7 @@ Another option is to install Galaxy on the [Cloud](/src/cloud/index.md). Cloud i
 
 ## Use Public Galaxy Server
 
-Many [Galaxy servers](/src/public-galaxy-servers/index.md) besides [Main](/src/main/index.md) have been made publicly available by other organizations. One of these may meet your needs. See [Public Galaxy Servers](/src/public-galaxy-servers/index.md) for a list.
+Many [Galaxy servers](/src/use/index.md) besides [Main](/src/main/index.md) have been made publicly available by other organizations. One of these may meet your needs. See [Public Galaxy Servers](/src/use/index.md) for a list.
 
 ## Get the SlipStream Galaxy Appliance
 
@@ -28,13 +28,13 @@ Get a dedicated server pre-configured with a fully operational Galaxy instance. 
 Your choices depends upon your needs.  Here are the options depending on what you need:
 
 
-| |  [Main](/src/main/index.md)  |  [Local](/src/admin/get-galaxy/index.md)  |  [Cloud](/src/cloud/index.md)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/public-galaxy-servers/index.md)  | 
+| |  [Main](/src/main/index.md)  |  [Local](/src/admin/get-galaxy/index.md)  |  [Cloud](/src/cloud/index.md)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/use/index.md)  | 
 | --- | --------------------------- | --------------------------------------- | ----------------------------- | -------------------------------------------------------------- | ------------------------------------------- | 
-| Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| All needed tools are installed on Main. |  Yes  |  ?  |  Yes  |  Yes |  [?](/src/public-galaxy-servers/index.md)  | 
-| Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
-| You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](/src/public-galaxy-servers/index.md)  | 
+| Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
+| Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
+| You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
+| All needed tools are installed on Main. |  Yes  |  ?  |  Yes  |  Yes |  [?](/src/use/index.md)  | 
+| Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
+| Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
+| You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](/src/use/index.md)  | 
 | No network transfer of data |  No  |  Yes  |  No  |  Yes  |  No  |

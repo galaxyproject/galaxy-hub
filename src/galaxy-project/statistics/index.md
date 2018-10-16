@@ -60,7 +60,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 ## Known Publicly Accessible Servers
 
-Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
+Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/use/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
 [![](/src/galaxy-project/statistics/public_servers.png)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 

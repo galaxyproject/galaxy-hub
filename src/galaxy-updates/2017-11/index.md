@@ -214,7 +214,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in October.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in October.
 
 ## Public Servers in October's Publications
 
@@ -230,11 +230,11 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 ## Citation sections added to Public servers directory
 
-The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
+The [public Galaxy server directory](/src/use/index.md) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
 
 ## BF2I-MAP
 
-[<img class="float-right" src="/src/public-galaxy-servers/bf2i-map/bf21-map-sponsors.png" alt="BF2I-MAP" />](http://bf2i-galaxy.insa-lyon.fr:8080/)
+[<img class="float-right" src="/src/use/bf2i-map/bf21-map-sponsors.png" alt="BF2I-MAP" />](http://bf2i-galaxy.insa-lyon.fr:8080/)
 
 The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally developed (as well as standard tools) including ThreaDNA, which "allows generalising the approach to a large class of DNA-binding proteins." ([Cevost et al.](https://doi.org/10.1093/bioinformatics/btx634)).  BF2I-MAP is supported by the [Laboratoire de Microbiologie, Adaptation et Pathogénie](http://map.univ-lyon1.fr/), [Biologie Fonctionnelle Insectes et Interactions](http://bf2i.insa-lyon.fr/), [L'Université Claude Bernard Lyon 1](https://www.univ-lyon1.fr/), and [INSA de Lyon](https://www.insa-lyon.fr/)
 
@@ -255,7 +255,7 @@ One of this month's highlighted papers ([Kouylekov et al](https://www.clarin.eu/
 
 LAP is part of the national implementation in Norway of the [European Common Language and Technology Infrastructure (CLARIN)](http://clarin.eu).
 
-It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/src/public-galaxy-servers/index.md). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
+It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/src/use/index.md). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
 
 ----
 

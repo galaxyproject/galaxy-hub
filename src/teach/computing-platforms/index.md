@@ -96,9 +96,9 @@ However, a class full of users all running the same analyses will stress any ser
   </tr>
 </table>
 
-There are many [publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) that may be appropriate for training purposes. Many of these servers have specialized and domain-specific tools, and many of them will not be as heavily and unpredictably used as as [Main](/src/main/index.md).
+There are many [publicly accessible Galaxy servers](/src/use/index.md) that may be appropriate for training purposes. Many of these servers have specialized and domain-specific tools, and many of them will not be as heavily and unpredictably used as as [Main](/src/main/index.md).
 
-You are encouraged to [explore the list of pubic Galaxy servers](/src/public-galaxy-servers/index.md) to see if one or more matches your needs. However, these are also shared public resources. If you want to use a public server for training, be sure to contact the server's support people well in advance.
+You are encouraged to [explore the list of pubic Galaxy servers](/src/use/index.md) to see if one or more matches your needs. However, these are also shared public resources. If you want to use a public server for training, be sure to contact the server's support people well in advance.
 
 ## Cloud-Based Galaxy Servers
 

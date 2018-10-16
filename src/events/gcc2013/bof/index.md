@@ -30,7 +30,7 @@ This is a list of all the BoFs that have been proposed for GCC2013.  See the [Bo
 * **[Galaxy Professionals (Birds of Prey)](/src/events/gcc2013/bof/galaxy-professionals/index.md)**
 * **[Proteomics](/src/events/gcc2013/bof/proteomics/index.md)**
 * **[Tool Developers](/src/events/gcc2013/bof/tool-developers/index.md)**
-* **[Public Galaxy Servers](/src/events/gcc2013/bof/public-galaxy-servers/index.md)**
+* **[Public Galaxy Servers](/src/events/gcc2013/bof/use/index.md)**
 * **[Galaxy wrappers for NCBI BLAST+ BoF](/src/events/gcc2013/bof/galaxy-blast/index.md)**
 * **[Galaxy Clinical Use Survey and HPC Filesystems](/src/events/gcc2013/bof/clinical-use-hpc-file-systems/index.md)**
 
@@ -53,7 +53,7 @@ Please add your BoF to this table so that other's can plan their BoF so as to mi
   </tr>
   <tr>
     <th> <a href='/src/events/gcc2013/program/index.md#escape-to-the-pub'>Evening</a> </th>
-    <td> <a href='/src/events/gcc2013/bof/public-galaxy-servers/index.md'>Public Galaxy Servers</a>  </td>
+    <td> <a href='/src/events/gcc2013/bof/use/index.md'>Public Galaxy Servers</a>  </td>
     <td> <a href='/src/events/gcc2013/bof/tool-developers/index.md'>Tool Developers</a> </td>
     <td> Conference<br />Dinner </td>
   </tr>

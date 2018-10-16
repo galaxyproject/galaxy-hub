@@ -366,11 +366,11 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 # New Public Galaxy Servers
 
-[One new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
+[One new publicly accessible Galaxy servers](/src/use/index.md) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
 
 ## LAPPS Grid
 
-<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/public-galaxy-servers/lapps-grid/lapps-grid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
+<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/use/lapps-grid/lapps-grid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 
