@@ -2,7 +2,7 @@ The [main Galaxy server](/src/main/index.md) does not currently (2011/07) provid
 
 ## Public Galaxy Servers
 
-There are numerous other [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These are known to provide some support for microarrays:
+There are numerous other [Public Galaxy Servers](/src/use/index.md).  These are known to provide some support for microarrays:
 
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 

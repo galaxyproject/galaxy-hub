@@ -273,13 +273,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [five semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in November.
+There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [five semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in November.
 
 ## New Public Galaxy Servers
 
 ### PhenoMeNal
 
-<div class='right solid'><a href='http://public.phenomenal-h2020.eu/'><img src="/src/public-galaxy-servers/phenomenal/phenomenal.png" alt="PhenoMeNal"  /></a></div>
+<div class='right solid'><a href='http://public.phenomenal-h2020.eu/'><img src="/src/use/phenomenal/phenomenal.png" alt="PhenoMeNal"  /></a></div>
 
 * *Link:*
   * [PhenoMeNal](http://public.phenomenal-h2020.eu/) server
@@ -299,7 +299,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### BitLAB
 
-<div class='right solid'><a href='http://pistacho.ac.uma.es/galaxy/'><img src="/src/public-galaxy-servers/bitlab/bitlab.png" alt="BitLAB Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://pistacho.ac.uma.es/galaxy/'><img src="/src/use/bitlab/bitlab.png" alt="BitLAB Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BitLAB Galaxy](http://pistacho.ac.uma.es/galaxy/)

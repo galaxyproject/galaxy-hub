@@ -257,7 +257,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 
 # New Public Servers
 
-Several new servers were added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) last month.
+Several new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.
 
 ## Genomics Virtual Lab
 
@@ -298,7 +298,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## PIPE-CLIP
 
-<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/public-galaxy-servers/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/use/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)

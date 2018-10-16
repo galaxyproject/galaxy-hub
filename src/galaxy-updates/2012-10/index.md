@@ -69,7 +69,7 @@ These papers were among [35 papers added to the Galaxy CiteULike group](http://w
 
 The [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/) has now made its [Galaxy server](http://galaxy.cbiit.cuhk.edu.hk/) publicly available.  The CBIIT Galaxy Server has the standard Galaxy tool set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling.  
 
-The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other publicly accessible servers on [Public Galaxy Servers list](/src/public-galaxy-servers/index.md).
+The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other publicly accessible servers on [Public Galaxy Servers list](/src/use/index.md).
 
 ## Who's Hiring
 

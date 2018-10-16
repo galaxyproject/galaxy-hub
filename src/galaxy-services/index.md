@@ -1,7 +1,7 @@
 ---
 title: Galaxy Services
 ---
-Galaxy is available in all sorts of flavors:  This page lists Galaxy services that either aren't fixed servers, or aren't [fully publicly accessible](/src/public-galaxy-servers/index.md) but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+Galaxy is available in all sorts of flavors:  This page lists Galaxy services that either aren't fixed servers, or aren't [fully publicly accessible](/src/use/index.md) but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
 Services are classified here by whom they are accessible to.  This can be based on research domain, geography (regional or national), or by membership in a multi-organization association that provides Galaxy Servers. 
 
@@ -178,8 +178,8 @@ See [United Kingdom: CLIMB](#united-kingdom-climb) above.
 
 # Association Based
 
-<div class='right'><br /><div class='solid'><a href='/src/galaxy-services/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
+<div class='right'><br /><div class='solid'><a href='/src/use/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
 
 ## Australian Access Federation (AAF)
 
-[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/galaxy-services/index.md#australia-genomics-virtual-lab-gvl).
+[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/use/index.md#australia-genomics-virtual-lab-gvl).

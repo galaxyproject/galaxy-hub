@@ -263,11 +263,11 @@ This brings total membership to [22 training organizations on 5 continents](http
 
 # New Public Servers
 
-Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were announced in November:
+Two new [public Galaxy servers](/src/use/index.md) were announced in November:
 
 ## Pitagora-Galaxy
 
-<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/public-galaxy-servers/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/use/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
@@ -294,7 +294,7 @@ Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were announ
 
 ## PIA
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/public-galaxy-servers/pia/pia-image.jpg" alt="PIA" /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/use/pia/pia-image.jpg" alt="PIA" /></a></div>
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)

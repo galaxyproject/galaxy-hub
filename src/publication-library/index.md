@@ -31,10 +31,10 @@ Galaxy specific tags all start with "+":
 | &nbsp; [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
 | &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. | 
 | &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. |
-| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy instance](/src/public-galaxy-servers/index.md) or a [Galaxy service](/src/galaxy-services/index.md) in its methods. |
+| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md) in its methods. |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |
 | [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/public-galaxy-servers/index.md) or a [Galaxy service](/src/galaxy-services/index.md).  This is distinct from the *+UsePublic* tag. |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
@@ -44,7 +44,7 @@ Galaxy specific tags all start with "+":
 
 ### Public server and services tags (">")
 
-Publications that mention or use a [public Galaxy server](/src/public-galaxy-servers/index.md) or [service](/src/galaxy-services/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Publications that mention or use a [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 *Note: We only started using ">" tags after the move to Zotero in September 2017.  Publications before that might have these tags, but most won't.*
 

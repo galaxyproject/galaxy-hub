@@ -311,11 +311,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) was added in September, bringing the total dangerously close to 80.
+[1 new publicly accessible Galaxy servers](/src/use/index.md) was added in September, bringing the total dangerously close to 80.
 
 ## ABiMS Tools
 
-<div class='float-right'><a href='http://webtools.sb-roscoff.fr/'><img src="/src/public-galaxy-servers/abims-tools/abims-tools-logos.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
+<div class='float-right'><a href='http://webtools.sb-roscoff.fr/'><img src="/src/use/abims-tools/abims-tools-logos.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
 
 * *Link:*
   * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)

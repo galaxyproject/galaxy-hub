@@ -7,22 +7,22 @@ Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a 
 
 # 50+ Public Servers
 
-Three new servers were added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
+Three new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
 
 The server list has also been reorganized from a single alphabetical list into three distinct depending on server breadth of coverage. From generality to specificity the 3 lists are:
 
- **[General Purpose Servers](/src/public-galaxy-servers/index.md#general-purpose-servers)**
+ **[General Purpose Servers](/src/use/index.md#general-purpose-servers)**
     These servers support analysis across a wide range of biology.
- **[Domain Servers](/src/public-galaxy-servers/index.md#domain-servers)**
+ **[Domain Servers](/src/use/index.md#domain-servers)**
     These servers are dedicated to a particular domain, either within the tree of life, or in a particular type of analysis.
- **[Tool Publishing Servers](/src/public-galaxy-servers/index.md#tool-publishing-servers)**
+ **[Tool Publishing Servers](/src/use/index.md#tool-publishing-servers)**
     These servers' primary function is to enable researchers to use a specific set of locally developed tools, without having to install them locally and use command line interfaces.
 
 The newly added servers are:
 
 ## OSDDlinux LiveGalaxy
 
-<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/public-galaxy-servers/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
+<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/use/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
@@ -56,7 +56,7 @@ The newly added servers are:
 
 ## PreSTIGE
 
-<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/public-galaxy-servers/prestige/prestige.png" alt="PreSTIGE" width="300" /></a></div>
+<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/use/prestige/prestige.png" alt="PreSTIGE" width="300" /></a></div>
 
 * *Link:*
     [PreSTIGE](http://prestige.case.edu/)
