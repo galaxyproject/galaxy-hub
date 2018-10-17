@@ -64,6 +64,7 @@ Confirmed speakers:
  - Nicola Soranzo: *Beta Python 3 support for Galaxy in release 18.09, at last!*
  - Sveinung Gundersen: *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*
  - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
+ - Nikolay Vazov: TBA
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
 
 Currently we also plan to discuss/present:
