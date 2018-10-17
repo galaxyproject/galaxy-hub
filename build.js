@@ -392,7 +392,7 @@ let ms = metalsmith(__dirname)
             pattern: "**/*.html",
             engineOptions: {
                 cache: true,
-                globals: ["moment", "mymarked", "marked", "_"]
+                globals: ["moment", "marked", "_"]
             }
         })
     )
