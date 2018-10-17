@@ -388,7 +388,7 @@ No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [th
 
 <div class='right'><br />
 <div class='center'>
-<a href='https://launch.genome.edu.au/launch'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="GVL" width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/PL-Grid_Logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
+<a href='https://launch.genome.edu.au/launch'><img src="/src/images/logos/gvl-300.png" alt="GVL" width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/PL-Grid_Logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
 <a href='https://www.genap.ca/'><img src="/src/galaxy-services/GenAP_Logo_Trans_250.png" alt="GenAP" width="120" /></a><br />
 <a href='/src/use/index.md#australian-access-federation-aaf'><img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="200" /></a>
 </div></div>
