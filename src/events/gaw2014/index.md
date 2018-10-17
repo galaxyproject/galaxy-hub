@@ -273,7 +273,7 @@ The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th M
 
 *[Ross Lazarus](/src/people/fubar/index.md)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_repro_research.pdf).
 
-<div class='right'>[[<a href='https://genome.edu.au/wiki/GVL'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="GVL" width="75" /></a></div>
+<div class='right'>[[<a href='https://genome.edu.au/wiki/GVL'><img src="/src/images/logos/gvl-300.png" alt="GVL" width="75" /></a></div>
 
 *[Andrew Lonie](http://www.vlsci.org.au/researcher/alonie)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)), despite the usual risks of doing anything live, successfully demonstrated how to Launch a bioinformatics analysis server installed with Galaxy on the [Australian Research Cloud](https://www.nectar.org.au/research-cloud) and a handful of attendees followed along and launched their own GVL Galaxy server.
 

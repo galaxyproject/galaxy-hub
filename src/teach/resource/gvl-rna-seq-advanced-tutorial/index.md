@@ -2,7 +2,7 @@
 title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src="/src/images/logos/gvl-300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
 </div>
 
 

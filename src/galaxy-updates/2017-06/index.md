@@ -273,7 +273,7 @@ More cool visualizations to look at your flow cytometry data!
 
 ### GVL MEL
 
-<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab Melbourne" height="100" /></a></div>
+<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab Melbourne" height="100" /></a></div>
 
 [Galaxy Melbourne](http://galaxy-mel.genome.edu.au/) is a general purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).  Support options include [GVL Help](https://www.gvl.org.au/), tutorials at [GVL Learn](https://www.gvl.org.au/learn) and [Galaxy Tut](http://galaxy-tut.genome.edu.au/).  Registration is required but anyone can register. The default quota of 100GB which can be increased on request.  GVL MEL is supported by the [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au).
 
