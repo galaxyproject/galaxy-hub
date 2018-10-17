@@ -8,14 +8,138 @@ const metalsmith = require("metalsmith");
 const fs = require("fs");
 const path = require("path");
 const hb_partials = require("handlebars");
-const marked = require("marked");
 const slug = require("slug");
 const moment = require("moment");
 const _ = require("lodash");
+const timer = require("metalsmith-timer");
+const marked = require("marked");
 
+/* PULLED FROM MARKED */
+
+// Remove trailing 'c's. Equivalent to str.replace(/c*$/, '').
+// /c*$/ is vulnerable to REDOS.
+// invert: Remove suffix of non-c chars instead. Default falsey.
+function rtrim(str, c, invert) {
+    if (str.length === 0) {
+        return "";
+    }
+
+    // Length of suffix matching the invert condition.
+    var suffLen = 0;
+
+    // Step left until we fail to match the invert condition.
+    while (suffLen < str.length) {
+        var currChar = str.charAt(str.length - suffLen - 1);
+        if (currChar === c && !invert) {
+            suffLen++;
+        } else if (currChar !== c && invert) {
+            suffLen++;
+        } else {
+            break;
+        }
+    }
+
+    return str.substr(0, str.length - suffLen);
+}
+var baseUrls = {};
+var originIndependentUrl = /^$|^[a-z][a-z0-9+.-]*:|^[?#]/i;
+
+function resolveUrl(base, href) {
+    if (!baseUrls[" " + base]) {
+        // we can ignore everything in base after the last slash of its path component,
+        // but we might need to add _that_
+        // https://tools.ietf.org/html/rfc3986#section-3
+        if (/^[^:]+:\/*[^/]*$/.test(base)) {
+            baseUrls[" " + base] = base + "/";
+        } else {
+            baseUrls[" " + base] = rtrim(base, "/", true);
+        }
+    }
+    base = baseUrls[" " + base];
+
+    if (href.slice(0, 2) === "//") {
+        return base.replace(/:[\s\S]*/, ":") + href;
+    } else if (href.charAt(0) === "/") {
+        return base.replace(/(:\/*[^/]*)[\s\S]*/, "$1") + href;
+    } else {
+        return base + href;
+    }
+}
+
+/* EXTENSION FOR MARKED RENDERER */
+class Renderer extends marked.Renderer {
+    heading(text, level, raw) {
+        var h_slug = this.options.headerPrefix + slug(raw.toLowerCase());
+        return `<h${level + 1} id="${h_slug}">
+            <a class="heading-anchor" href="#${h_slug}"><span></span></a>
+            ${text}
+            </h${level + 1}>
+`;
+    }
+    table(header, body) {
+        return `<table class="table table-striped">
+<thead>
+${header}
+</thead>
+<tbody>
+${body}
+</tbody>
+</table>`;
+    }
+    image(href, title, text) {
+        let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
+        if (title) {
+            out += ` title="${title}"`;
+        }
+        out += "/>";
+        return out;
+    }
+    link(href, title, text) {
+        if (href.startsWith("/src/")) {
+            href = href.substring(4);
+        }
+        if (href.includes("/index.md")) {
+            href = href.substring(0, href.indexOf("/index.md")) + href.substring(href.indexOf("/index.md") + 9);
+        }
+        if (this.options.sanitize) {
+            try {
+                var prot = decodeURIComponent(unescape(href))
+                    .replace(/[^\w:]/g, "")
+                    .toLowerCase();
+            } catch (e) {
+                return text;
+            }
+            if (prot.indexOf("javascript:") === 0 || prot.indexOf("vbscript:") === 0 || prot.indexOf("data:") === 0) {
+                return text;
+            }
+        }
+        if (this.options.baseUrl && !originIndependentUrl.test(href)) {
+            href = resolveUrl(this.options.baseUrl, href);
+        }
+        try {
+            href = encodeURI(href).replace(/%25/g, "%");
+        } catch (e) {
+            return text;
+        }
+        //var out = '<a href="' + escape(href) + '"';
+        //TODO: That should be escaped?
+        var out = '<a href="' + href + '"';
+        if (title) {
+            out += ' title="' + title + '"';
+        }
+        out += ">" + text + "</a>";
+        return out;
+    }
+}
+
+// Cache renderer between marked invocations.
+function getMarkedWithRenderer(stuff) {
+    return marked(stuff, { renderer: new Renderer() });
+}
+
+global.marked = getMarkedWithRenderer;
 global.moment = moment;
 global._ = _;
-global.marked = marked;
 
 process.env.DEBUG = "metalsmith-timer";
 
@@ -180,39 +304,6 @@ let file_staging = function(files, metalsmith, done) {
     }
     return done();
 };
-
-// Extend `marked.Renderer` to increase all heading levels by 1 since we reserve
-// h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
-class Renderer extends marked.Renderer {
-    heading(text, level, raw) {
-        var h_slug = this.options.headerPrefix + slug(raw.toLowerCase());
-        return `<h${level + 1} id="${h_slug}">
-            <a class="heading-anchor" href="#${h_slug}"><span></span></a>
-            ${text}
-            </h${level + 1}>
-`;
-    }
-    table(header, body) {
-        return `<table class="table table-striped">
-<thead>
-${header}
-</thead>
-<tbody>
-${body}
-</tbody>
-</table>`;
-    }
-    image(href, title, text) {
-        let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
-        if (title) {
-            out += ` title="${title}"`;
-        }
-        out += "/>";
-        return out;
-    }
-}
-
-let timer = require("metalsmith-timer");
 
 let ms = metalsmith(__dirname)
     .use(
