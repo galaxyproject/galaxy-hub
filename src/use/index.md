@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Servers, Cloud, and Deployable Resources"
+title: "Galaxy Platform Directory: Servers, Clouds, and Deployable Resources"
 autotoc: true
 layout: use_index.pug
 ---
