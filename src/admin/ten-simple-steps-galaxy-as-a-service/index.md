@@ -19,7 +19,7 @@ Björn Grüning (gruening@informatik.uni-freiburg.de)⁵⋅⁶
 
 
 
-Galaxy is an open source, web-based platform for data intensive biomedical research (https://galaxyproject.org). Its popularity has been steadily increasing world wide well beyond the Bioinformatics field. More and more [public](/src/use/index.md/) and private Galaxy servers are being set up. Providing 10 basic rules, this document tells you what is important when you set up a Galaxy server from scratch, what are the pitfalls you might run into, how to interact with the potential users of the service you are going to offer, how to make efficient use of your resources, and how to make sure, the Galaxy instance you have set up is really used in the end. Although, the Galaxy platform is evolving very fast, these rules will continue to be applicable, because they are very general, and less of a technical nature.
+Galaxy is an open source, web-based platform for data intensive biomedical research (https://galaxyproject.org). Its popularity has been steadily increasing world wide well beyond the Bioinformatics field. More and more [public](/src/use/index.md) and private Galaxy servers are being set up. Providing 10 basic rules, this document tells you what is important when you set up a Galaxy server from scratch, what are the pitfalls you might run into, how to interact with the potential users of the service you are going to offer, how to make efficient use of your resources, and how to make sure, the Galaxy instance you have set up is really used in the end. Although, the Galaxy platform is evolving very fast, these rules will continue to be applicable, because they are very general, and less of a technical nature.
 This article has been based on a presentation given at the Training Day at the Galaxy Community Conferences in Norwich, UK and Bloomington, IN in July 2015 and June 2016, respectively.
 
 ## Rule 1: There is no such thing as 'Free Lunch'
@@ -33,7 +33,7 @@ Before you start any work, talk to the person(s) who asked you to set up a Galax
 Once, you agreed on using Galaxy, you need to define which tools the new Galaxy server should offer. The [Galaxy Tool Shed](/src/toolshed/index.md) provide access to thousands of freely available tools and dependencies packages. Getting tools from the Tool Shed also helps to manage external tool dependencies. Of course you can develop your own tools. Often this might be the very reason why setting up a new, local Galaxy server. But keep in mind, there is no need for inventing the wheel again. Most likely, you can improve an existing tool instead. If you develop your own tools, please consider sharing them with the community and make them available through the Galaxy Tool Shed.
 There are also other decisions you need to make early, which you hopefully can agree on during these discussions with the potential users and sponsors, as they will have effects on how to set-up the server:
 
-* Will this be a public server, or just an internal service for your lab or institute?
+* Will this be a [public server](/src/use/index.md), or just an internal service for your lab or institute?
 * Do you rely on local (i.e. Galaxy managed) or on [external authentication](/src/admin/config/external-user-auth/)?
 * Will there be sensible data on the server?
 * Will the data be stored in one place or [distributed](/src/object-store/)?

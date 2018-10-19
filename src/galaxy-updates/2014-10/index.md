@@ -274,7 +274,7 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/use/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
+The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/use/galaxeast/index.md) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
 
 The *[Deployment Catalog](/src/community/deployment/index.md)* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/community/deployment/index.md), or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
 

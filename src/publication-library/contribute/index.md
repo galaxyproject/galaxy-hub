@@ -100,11 +100,10 @@ in place for several years.  However, we do occasionally need new ones.  If you
 notice a need for a new tag, please contact outreach@galaxyproject.org to
 discuss your ideas.
 
-## Add Public Server tags (">") if relevant
+## Add Platform Resource tags (">") if relevant
 
-If the publication is about, uses, or references a public Galaxy server or
-service, then please add a tag for that.  Note that since there are over 90
-public servers, you might also be creating the tag when add it.
+If the publication is about, uses, or references a [public Galaxy platform](/src/use/index.md), then please add a tag for that.  Note that since there are over 100
+public platforms, you might also be creating the tag when add it.
 
 ## Watch for duplicates
 

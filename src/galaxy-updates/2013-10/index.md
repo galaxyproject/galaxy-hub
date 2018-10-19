@@ -46,7 +46,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/index.md#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/ngs-qc/index.md) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 
