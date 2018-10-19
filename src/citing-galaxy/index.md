@@ -11,7 +11,7 @@ This page emphasizes publications from the core Galaxy team.  However, the set o
 
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/use/index.md) or [Galaxy services](/src/use/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers, cloud sevices, VMs or containers](/src/use/index.md) (see each resource's page for citation info), or a local install?
 
 Some excellent exmples (*emphasis added*):
 
@@ -23,7 +23,7 @@ Some excellent exmples (*emphasis added*):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
 
-     Which publication should you cite when using a public server?  Most of the [descriptions of public servers](/src/use/index.md) include a *Citation(s)* section.
+     Which publication should you cite when using public accessible Galaxy platform?  Most of the [platform descriptions](/src/use/index.md) include a *Citation(s)* section.
 
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
      

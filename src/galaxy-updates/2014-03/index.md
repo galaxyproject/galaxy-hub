@@ -303,7 +303,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
 
 # New Public Servers
 
-One new [public Galaxy server](/src/use/index.md), [PGTB](/src/use/index.md#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/use/index.md#nelly) is back.
+One new [public Galaxy server](/src/use/index.md), [PGTB](/src/use/galaxy-pgtb-virtual-biodiversity-lab/index.md) was added, and the [NELLY server](/src/use/nelly/index.md) is back.
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 

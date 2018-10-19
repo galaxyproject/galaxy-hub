@@ -383,7 +383,7 @@ The most obvious "trend" is that **there are a lot of pubs using Galaxy in their
 
 Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BMethods)* paper say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
 
-**The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy servers.**  In 2013-2014, there are 2 1/2 times as many *UseMain* pubs as *UsePublic* pubs.  In 2015 they were about the same, and in 2016-2017, there are nearly twice as many *UsePublic* pubs as there are *UseMain* pubs. This rise reflects the increase in available public servers from 21 servers at the start of 2012 to over 90 servers, and 6 services today.
+**The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy servers.**  In 2013-2014, there are 2 1/2 times as many *UseMain* pubs as *UsePublic* pubs.  In 2015 they were about the same, and in 2016-2017, there are nearly twice as many *UsePublic* pubs as there are *UseMain* pubs. This rise reflects the increase in available [public servers](/src/use/index.md) from 21 servers at the start of 2012 to over 90 servers, and 6 services today.
 
 ## Reproducibility Rising
 
@@ -486,7 +486,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Public server and services tags
 
-The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
 
 ## Publisher Tags
 

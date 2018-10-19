@@ -27,7 +27,7 @@ A [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual) is av
 
 ## BioCiphers Lab Galaxy
 
-The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/src/use/index.md#biociphers-lab-galaxy).  It is open to anyone from an educational organization.
+The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/src/use/biociphers-lab-galaxy/index.md).  It is open to anyone from an educational organization.
 
 <br />
 # New Papers
