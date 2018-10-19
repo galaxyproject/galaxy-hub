@@ -1,16 +1,22 @@
 extends layout.pug
 
-mixin renderResourceRow(item, with_platforms, with_purview)
+mixin renderResourceRow(item, platform_tag, with_purview)
     tr
         td
             a( href=item.link ) #{item.title}
-        if with_platforms
+        if platform_tag == "all"
             each platform_column in platform_columns
                 td
                     each platform in item.platforms
                         - var platform_info = use_platforms.get(platform.platform_group)
-                        if platform_info.column == platform_column 
+                        if platform_info.column == platform_column
                             a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
+        else
+            td
+                - var platform_info = use_platforms.get(platform_tag)
+                each platform in item.platforms
+                    if platform.platform_group == platform_tag 
+                        a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
         td !{marked(item.summary).replace("<p>","").replace("</p>","")}
         if with_purview
             td
@@ -83,14 +89,13 @@ block content
                         thead
                             tr
                                 th Resource
-                                each platform_column in platform_columns
-                                    th !{platform_column}
+                                th Server
                                 th Summary
                                 th Keywords
                         tbody
                             each item in resources_malleable
                                 if item.scope == "usegalaxy"
-                                    +renderResourceRow(item, true, false)
+                                    +renderResourceRow(item, "public-server", false)
 
                 div( class="tab-pane fade show" id="all-resources-pane" role="tabpanel" aria-labelledby="all-resources-tab" ) 
                     h2(id="all-resources" class="nav-item") All Resources
@@ -106,7 +111,7 @@ block content
                                 th Keywords
                         tbody
                             each item in resources_malleable
-                                +renderResourceRow(item, true, false)
+                                +renderResourceRow(item, "all", false)
 
                 div( class="tab-pane fade show" id="public-server-pane" role="tabpanel" aria-labelledby="public-server-tab" ) 
                     h2(id="public-server") Public Servers
@@ -122,13 +127,14 @@ block content
                         thead
                             tr
                                 th Resource
+                                th Link
                                 th Summary
                                 th Keywords
                         tbody
                             each item in resources_malleable
                                 each platform in item.platforms
                                     if platform.platform_group == "public-server"
-                                        +renderResourceRow(item, false, false)
+                                        +renderResourceRow(item, platform.platform_group, false)
 
                 div( class="tab-pane fade show" id="academic-cloud-pane" role="tabpanel" aria-labelledby="academic-cloud-tab" ) 
                     h2(id="academic-cloud") Academic Cloud Services
@@ -138,6 +144,7 @@ block content
                         thead
                             tr
                                 th Resource
+                                th Link
                                 th Summary
                                 th Purview
                                 th Keywords
@@ -145,7 +152,7 @@ block content
                             each item in resources_malleable
                                 each platform in item.platforms
                                     if platform.platform_group == "academic-cloud"
-                                        +renderResourceRow(item, false, true)
+                                        +renderResourceRow(item, platform.platform_group, true)
 
                 div( class="tab-pane fade show" id="commercial-cloud-pane" role="tabpanel" aria-labelledby="commercial-cloud-tab" ) 
                     h2(id="commercial-cloud") Commercial Cloud Services
@@ -155,13 +162,14 @@ block content
                         thead
                             tr
                                 th Resource
+                                th Link
                                 th Summary
                                 th Keywords
                         tbody
                             each item in resources_malleable
                                 each platform in item.platforms
                                     if platform.platform_group == "commercial-cloud"
-                                        +renderResourceRow(item, false, false)
+                                        +renderResourceRow(item, platform.platform_group, false)
 
                 div( class="tab-pane fade show" id="containers-pane" role="tabpanel" aria-labelledby="containers-tab" ) 
                     h2(id="container") Containers
@@ -171,13 +179,14 @@ block content
                         thead
                             tr
                                 th Resource
+                                th Link
                                 th Summary
                                 th Keywords
                         tbody
                             each item in resources_malleable
                                 each platform in item.platforms
                                     if platform.platform_group == "container"
-                                        +renderResourceRow(item, false, false)
+                                        +renderResourceRow(item, platform.platform_group, false)
 
                 div( class="tab-pane fade show" id="vms-pane" role="tabpanel" aria-labelledby="vms-tab" ) 
                     h2(id="vm") Virtual Machines (VMs)
@@ -187,13 +196,14 @@ block content
                         thead
                             tr
                                 th Resource
+                                th Link
                                 th Summary
                                 th Keywords
                         tbody
                             each item in resources_malleable
                                 each platform in item.platforms
                                     if platform.platform_group == "vm"
-                                        +renderResourceRow(item, false, false)
+                                        +renderResourceRow(item, platform.platform_group, false)
 
             br
             br
