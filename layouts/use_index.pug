@@ -187,7 +187,30 @@ block content
                                 each platform in item.platforms
                                     if platform.platform_group == "vm"
                                         +renderResourceRow(item, false, false)
+
+            br
+            br
             hr
+            br
+
+            p
+                | The Galaxy Project's public server 
+                a( href="http://usegalaxy.org/" ) usegalaxy.org
+                |  can meet many needs, but it is not suitable for everything (see 
+                a( href="/choices/" ) Choices
+                |  for why). Fortunately the Galaxy 
+                a( href="/community/" ) Community
+                |  has created Galaxy instances in many different forms and for many different applications.
+
+            p
+                | This directory lists publicly accessible
+            ul
+                li Galaxy servers,
+                li cloud services that support Galaxy instances, and
+                li virtual machines and containers that can be easily deployed for your own server.
+
+            p
+                strong If you want to use Galaxy with little or no effort creating an instance, this is where you should start.
 
             h1(id="resource-keywords") Resource Keywords
             p
