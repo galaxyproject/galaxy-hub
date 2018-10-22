@@ -266,7 +266,7 @@ You can also hide, delete, and purge multiple datasets at once by **multi-select
 |          |
 |----------|
 |![](/src/tutorials/histories/multiselect.png)|
-|<small>**Figure 12. Operating on multiple datasets** can be enabled by clicking on the checkbox icon <i class="fa fa-check-square-o" aria-hidden="true"></i>.</small>|
+|<small>**Figure 12. Operating on multiple datasets** can be enabled by clicking on the checkbox icon <i class="far fa-check-square" aria-hidden="true"></i>.</small>|
 
 
 ### Searching for datasets
