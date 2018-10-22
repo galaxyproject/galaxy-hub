@@ -32,7 +32,7 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 1. The general troubleshooting help applies to most Galaxy servers/tools/functions.
 1. The cluster error help is server specific for [Galaxy Main](/src/main/index.md) at http://usegalaxy.org. 
-1. If working at a different public Galaxy server, [contacting the admins directly](https://galaxyproject.org/public-galaxy-servers/) to address server-related problems is often necessary. Each Galaxy is independently administered.
+1. If working at a different public Galaxy server, [contacting the admins directly](/src/use/index.md) to address server-related problems is often necessary. Each Galaxy is independently administered.
 
 
 ## Determining the job failure type

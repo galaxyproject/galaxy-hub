@@ -2,7 +2,7 @@
 title: UseGalaxy Servers
 ---
 
-The [UseGalaxy](/src/use/index.md#usegalaxy) servers are [publicly accessible Galaxy servers](/src/use/index.md) that [will support](#work-in-progress)
+The [UseGalaxy](/src/use/index.md) servers are [publicly accessible Galaxy servers](/src/use/index.md) that [will support](#work-in-progress)
  a common and synchronized set of tools and reference genomes.
 These servers have significant computational resources behind them and are capable of powering large user communities. Some may have a regional focus, but they are all accessible to anyone.
 
@@ -23,7 +23,7 @@ There are currently three UseGalaxy servers:
 [UseGalaxy.org.au](https://usegalaxy.org.au) aims to support the Australian research community.  It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server.
 
 
-(See the [UseGalaxy server directory](/src/use/index.md#usegalaxy) for more information on each.)
+(See the [UseGalaxy server directory](/src/use/index.md) for more information on each.)
 
 # Work in Progress
 

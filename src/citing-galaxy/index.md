@@ -11,7 +11,7 @@ This page emphasizes publications from the core Galaxy team.  However, the set o
 
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/use/index.md) or [Galaxy services](/src/use/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers, cloud sevices, VMs or containers](/src/use/index.md) (see each resource's page for citation info), or a local install?
 
 Some excellent exmples (*emphasis added*):
 
@@ -23,7 +23,7 @@ Some excellent exmples (*emphasis added*):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
 
-     Which publication should you cite when using a public server?  Most of the [descriptions of public servers](/src/use/index.md) include a *Citation(s)* section.
+     Which publication should you cite when using public accessible Galaxy platform?  Most of the [platform descriptions](/src/use/index.md) include a *Citation(s)* section.
 
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
      
@@ -81,6 +81,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 ### 2018
 
+1. [Vahid Jalili](/src/people/vahid-jalili/index.md), Matteo Matteucci, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Yashar Deldjoo, Stefano Ceri, [Next Generation Indexing for Genomic Intervals](https://doi.org/10.1109/TKDE.2018.2871031), *IEEE Transactions on Knowledge and Data Engineering* (2018), doi:10.1109/TKDE.2018.2871031
 1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
 1. [Anton Nekrutenko](/src/people/anton/index.md),  [Galaxy Team](/src/galaxy-team/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Daniel Blankenberg](/src/people/dan/index.md), **[Biology Needs Evolutionary Software Tools: Let’s Build Them Right](https://doi.org/10.1093/molbev/msy084)**, *Molecular Biology and Evolution*, Volume 35, Issue 6, 1 June 2018, Pages 1372–1375, doi:10.1093/molbev/msy084
 1. [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.

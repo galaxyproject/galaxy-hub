@@ -219,7 +219,7 @@ One new [public Galaxy server](/src/use/index.md) was added to the published lis
 
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
     [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)

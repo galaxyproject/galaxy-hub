@@ -11,11 +11,11 @@ Three new servers were added to [the list of publicly accessible Galaxy servers]
 
 The server list has also been reorganized from a single alphabetical list into three distinct depending on server breadth of coverage. From generality to specificity the 3 lists are:
 
- **[General Purpose Servers](/src/use/index.md#general-purpose-servers)**
+ **General Purpose Servers**
     These servers support analysis across a wide range of biology.
- **[Domain Servers](/src/use/index.md#domain-servers)**
+ **Domain Servers**
     These servers are dedicated to a particular domain, either within the tree of life, or in a particular type of analysis.
- **[Tool Publishing Servers](/src/use/index.md#tool-publishing-servers)**
+ **Tool Publishing Servers**
     These servers' primary function is to enable researchers to use a specific set of locally developed tools, without having to install them locally and use command line interfaces.
 
 The newly added servers are:
@@ -321,7 +321,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 **[Nov 04, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-11-04/index.md)**
 
 <div class='right'>
-<a href='/src/http:usegalaxy.org/index.md'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<a href='https://usegalaxy.org/'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 <br />
 **Highlights:**
 
