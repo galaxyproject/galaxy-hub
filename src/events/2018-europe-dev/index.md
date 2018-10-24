@@ -65,11 +65,9 @@ Confirmed speakers:
  - Sveinung Gundersen: *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*
  - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
  - Nikolay Vazov: TBA
+ - Anup Kumar: *Machine learning with Galaxy*
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
 
-Currently we also plan to discuss/present:
- - Galaxy and Machine learning
- - Single Cell RNA Seq analysis with Galaxy
  
 **preliminary schedule**
 
