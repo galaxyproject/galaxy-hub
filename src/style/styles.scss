@@ -400,7 +400,7 @@ h3:hover .heading-anchor span:before,
 h4:hover .heading-anchor span:before,
 h5:hover .heading-anchor span:before,
 h6:hover .heading-anchor span:before {
-    content: "\f0c1"; // fa-chain fa-link
+    content: fa-content($fa-var-link);
     font-family: FontAwesome;
     position: absolute;
     font-size: 14px;
