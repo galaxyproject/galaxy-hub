@@ -401,7 +401,8 @@ h4:hover .heading-anchor span:before,
 h5:hover .heading-anchor span:before,
 h6:hover .heading-anchor span:before {
     content: fa-content($fa-var-link);
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     position: absolute;
     font-size: 14px;
     left: 0px;
