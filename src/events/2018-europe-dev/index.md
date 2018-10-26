@@ -27,6 +27,7 @@ confirmed speakers:
  - Jochen Bick: 
  - Matthias Bernt: *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*
  - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
+ - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
  
 
 **preliminary schedule**
