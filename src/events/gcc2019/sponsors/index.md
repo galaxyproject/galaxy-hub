@@ -24,8 +24,8 @@ Sponsorship are offered at many levels, with an option for every budget:
 
 | | Platinum | Gold | Silver | Bronze |
 | ----: | :----: | :----: | :----: | :----: |
-| **Cost** | €8000 | €4000 | €2000 | €1000 |
-| **Non-profit cost** | €6000 | €3000 | €1500 | €750 |
+| **Cost** | €8000 <span class="small">(+VAT)</div> | €4000 <span class="small">(+VAT)</div> | €2000 <span class="small">(+VAT)</div> | €1000 <span class="small">(+VAT)</div> |
+| **Non-profit cost** | €6000  <span class="small">(+VAT)</div> | €3000 <span class="small">(+VAT)</div> | €1500 <span class="small">(+VAT)</div> | €750 <span class="small">(+VAT)</div> |
 | **Sponsored event** | Dinner or opening reception | A lunch, or all breaks for a day | No | No |
 | **Limited** | Yes | Yes | No | No |
 | **Exhibit space** | Yes | Yes | Yes | No |
@@ -35,7 +35,7 @@ Sponsorship are offered at many levels, with an option for every budget:
 
 ## Platinum Sponsorships
 
-Cost: €8000 (€6000 for non-profit)
+Cost: €8000 (€6000 for non-profit) <span class="small">(+VAT)</div>
 
 - Be the exclusive sponsor of the conference dinner or the conference opening reception
 - An exhibit space
@@ -49,7 +49,7 @@ Cost: €8000 (€6000 for non-profit)
 
 ## Gold Sponsorships
 
-Cost: €4000 (€3000 for non-profit) 
+Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 
 - Be the exclusive sponsor of a lunch during the meeting or the second day of training; or sponsor all breaks during a meeting day, or during the second day of training
 - An exhibit space
@@ -60,7 +60,7 @@ Cost: €4000 (€3000 for non-profit)
 
 ## Silver Sponsorships
 
-Cost €2000 (€1500 for non-profit) 
+Cost €2000 (€1500 for non-profit) <span class="small">(+VAT)</div>
 
 - An exhibit space
 - Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL of your choice
@@ -70,7 +70,7 @@ Cost €2000 (€1500 for non-profit)
 
 ## Bronze Sponsorships
 
-Cost €1000 (€750 for non-profit)
+Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
 
 - Organization logo listed as a bronze sponsor on meeting home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a bronze sponsor on printed material distributed to meeting participants.
@@ -85,7 +85,7 @@ Other *a la carte* sponsorship opportunities are also available. Many additional
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |
-| **Cost** | €3000 | €1500 | €500 |
+| **Cost** | €3000 <span class="small">(+VAT)</div> | €1500 <span class="small">(+VAT)</div>| €500 <span class="small">(+VAT)</div> |
 | **Sponsored event** | Event Dinner | A lunch | No |
 | **Limited** | Yes | Yes | No |
 | **Guaranteed collaborative event registration slots** | 2+ | 1+ | 1 |
@@ -94,7 +94,7 @@ Other *a la carte* sponsorship opportunities are also available. Many additional
 
 ## Peta Sponsorship
 
-Cost: €3000
+Cost: €3000 <span class="small">(+VAT)</div>
 
 - Sponsorship of the dinner
 - Organization logo listed as a Peta level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
@@ -106,7 +106,7 @@ Cost: €3000
 
 ## Tera Sponsorships
 
-Cost: €1500
+Cost: €1500 <span class="small">(+VAT)</div>
 
 - Organization logo listed as a Tera level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a collaborative events Tera sponsor on printed material distributed to meeting participants.
@@ -119,7 +119,7 @@ Cost: €1500
 
 ## Giga Sponsorships
 
-Cost: €500
+Cost: €500 <span class="small">(+VAT)</div>
 
 - Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a Giga sponsor on printed material distributed to meeting participants.
