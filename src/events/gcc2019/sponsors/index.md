@@ -9,14 +9,14 @@ Is your organization interested in playing a prominent role in the 2019 gatherin
 # Interested?
 
 <div class="float-right">
-[<img src="/src/events/gcc2019/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gcc2019_sponsorship_summary.pdf)
-[<img src="/src/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gcc2019_sponsorship_prospectus.pdf)
+[<img src="/src/events/gcc2019/sponsors/summary-thumb.png" alt="Download the one page summary." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
+[<img src="/src/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
 </div>
 
 Please see the information below and contact the [conference organizers](/src/events/gcc2019/organizers/inidex.md) with any questions.
 
-- [One page summary](https://depot.galaxyproject.org/hub/attachments/documents/gcc2019_sponsorship_summary.pdf)
-- [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/documents/gcc2019_sponsorship_prospectus.pdf)
+- [One page summary](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
+- [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
 
 # Meeting and Training Sponsorships
 
@@ -111,7 +111,6 @@ Cost: €1500 <span class="small">(+VAT)</div>
 - Organization logo listed as a Tera level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a collaborative events Tera sponsor on printed material distributed to meeting participants.
 - An eighth page color ad in printed material
-- A guaranteed participant slot for a sponsor organization representative (additional slots are possible, dependent on space)
 - A guaranteed participant slot for a sponsor organization representative (additional slots are possible, dependent on space)
 - Sponsorship of one of the collaborative event lunches
 - Thanks and acknowledgements from organisers before and during the collaborative events and the lunch
