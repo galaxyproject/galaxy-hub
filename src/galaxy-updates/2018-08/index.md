@@ -371,11 +371,11 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entry:
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Another public server was added in the past quarter:
+There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added in the past quarter:
 
 ## ProteoRE
 
-[<img class="float-right" src="/src/public-galaxy-servers/proteore/proteore.png" alt="ProteoRE" />](http://www.proteore.org/)
+[<img class="float-right" src="/src/use/proteore/proteore.png" alt="ProteoRE" />](http://www.proteore.org/)
 
 "[ProteoRE (Proteomics Research Environment)](http://www.proteore.org/) aims at centrally providing the proteomics community with an online research service enabling biologists/clinicians without programming expertise to **annotate and interpret** their proteomics data through the Web."
 
@@ -388,7 +388,7 @@ ProteoRE currently comprises tools (including graphical display) for:
 
 This version also includes Galaxy generic tools and some tools from the [GalaxyP project](https://usegalaxyp.org/) that should be of great help for people who want to (re)process their MS-based proteomics data (e.g. peptide/protein identification). [ProteoRE tools are in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/view/proteore).
 
-See the [ProteoRE pubic server directory page](/src/public-galaxy-servers/index.md) for more.
+See the [ProteoRE pubic server directory page](/src/use/index.md) for more.
 
 ## Public Servers in Publications
 

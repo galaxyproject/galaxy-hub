@@ -55,7 +55,7 @@ In this example we have six datasets representing single-end (not paired-end) se
 |      |
 |------|
 |![](/src/tutorials/collections/creating_list.png)|
-|<small>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_list.pdf)). **A**. Click the checkbox <i class="fa fa-check-square-o" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown [here](/tutorials/histories/#searching-for-datasets)). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</small>|
+|<small>**Figure 4. Creating a list (collection) or datasets** (To see a higher resolution image right-click [here](/src/tutorials/collections/creating_list.pdf)). **A**. Click the checkbox <i class="far fa-check-square" aria-hidden="true"></i> icon. This will reveal checkboxes to the left of all datasets in the history. **B**. In this case we want to select all datasets, so press "All" button (alternatively datasets can be filtered as shown [here](/tutorials/histories/#searching-for-datasets)). This will put a check mark into all checkboxes. **C**. Click "For all selected..." button. This will reveal a dropdown. **D**. Since this is **not** paired-end (or mate-pair) data we will choose to "Build Dataset List". This will open a dataset collection creator interface. **E**. Within the dataset collection creator interface use the "Name" box to name the collection. "Hide original elements" checkbox ensures that upon creating the collection the original datasets will be hidden from the history as shown in the next figure. Click "Create list". **F**. A collection named "patients" is now added to the history and original datasets are hidden, so that the history only has one item. **G**. Clicking on collection reveals its content.</small>|
 
 ### A paired collection example
 
@@ -114,7 +114,7 @@ To rename a collection click on its name:
 |      |
 |------|
 |![](/src/tutorials/collections/renaming_collection.png)|
-|<small>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fa fa-refresh" aria-hidden="true"></i> icon.</small>|
+|<small>**Figure 6. Renaming a collection.** **A**. Click on the collection. **B**. Once the collection expands, click on its name. **C**. Enter a new name and hit Enter. **D**. Go back to history (click "Back to..." link). You may need to refresh the history by clicking on the refresh <i class="fas fa-sync" aria-hidden="true"></i> icon.</small>|
 
 ## Tagging collections
 
@@ -184,7 +184,7 @@ Since we have assigned readgroup information while running BWA we can now merge 
 |      |
 |------|
 |![](/src/tutorials/collections/collection_use5.png)|
-|<small>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="fa fa-folder-o" aria-hidden="true"></i> button.</small>
+|<small>**Figure 14. Merging collection** into a single BAM dataset. **Note** that in order to make collections visible to the tool interface you need to click on the folder <i class="far fa-folder" aria-hidden="true"></i> button.</small>
 
 We have now aligned our reads and merged them to a single file for downstream analysis. Using collections allowed us to execute these operations on groups of samples with minimal clicking.
 

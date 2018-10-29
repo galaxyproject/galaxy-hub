@@ -357,11 +357,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added in March:
+One new [public Galaxy server](/src/use/index.md) was added in March:
 
 ## Vinther Lab
 
-<div class='right solid'><a href='http://galaxy.bio.ku.dk/'><img src="/src/public-galaxy-servers/vinther-lab/vinther-lab-300.png" alt="Vinther Lab: User-Friendly Tools for Sequencing-Based RNA Structure Probing Data"  /></a></div>
+<div class='right solid'><a href='http://galaxy.bio.ku.dk/'><img src="/src/use/vinther-lab/vinther-lab-300.png" alt="Vinther Lab: User-Friendly Tools for Sequencing-Based RNA Structure Probing Data"  /></a></div>
 
 * *Links:*
   * [Vinther Lab server](http://galaxy.bio.ku.dk/)

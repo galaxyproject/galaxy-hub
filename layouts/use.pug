@@ -8,17 +8,14 @@ mixin renderResource()
         else
             img.img-responsive(src=image class="pull-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
     table(class="table table-striped" style="width: auto")
-        tr
-            th Platform(s):
-            td
-                each platform in platforms
+        each platform in platforms
+            tr
+                th
+                    - var platformGroupLinkInfo = getPlatformInfo(platform.platform_group)
+                    | #{platformGroupLinkInfo.text}:
+                td
                     div( style="padding-left: 0.5em; text-indent: -0.5em;")
                         a( href=deGitUrl(platform.platform_url) ) #{platform.platform_text}
-                        em
-                            | &nbsp;  (
-                            - var platformGroupLinkInfo = getPlatformInfo(platform.platform_group)
-                            a( href=platformGroupLinkInfo.link ) #{platformGroupLinkInfo.text}
-                            | )
         tr
             th Scope:
             td

@@ -61,8 +61,7 @@ Bring your laptop for a series of hands-on exercises.
 
 ## Required Software
 
-You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](http://installation.software-carpentry.org/
-) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
+You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](https://tracykteal.github.io/2018-10-10-SACNAS/) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
 
 ## Session 1 : Unix Shell 
 
@@ -124,6 +123,8 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 | 1:45p - 2:15p | Discuss your data! |
 
 # Session 2 : Galaxy
+
+**[Slides](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnac-galaxy-slides.pdf)**
 
 | Time | Topic |
 |:----:| ----- |

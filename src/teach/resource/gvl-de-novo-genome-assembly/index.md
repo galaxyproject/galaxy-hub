@@ -2,12 +2,8 @@
 title: GVL De Novo Genome Assembly (Small Genome)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM'><img src="/src/images/logos/gvl-300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
 </div>
-
-
-
-
 
 <div class='deploymentbox'>
  Resource:: **[GVL de Novo Genome Assembly (Small Genome)](/src/teach/resource/gvl-de-novo-genome-assembly/index.md)**
@@ -18,7 +14,7 @@ title: GVL De Novo Genome Assembly (Small Genome)
  Date:: 2012/12 
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/use/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we carry out de novo assembly of a microbial genome.
 

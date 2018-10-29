@@ -234,7 +234,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-2 new [public Galaxy servers](/src/public-galaxy-servers/index.md) were added in December
+2 new [public Galaxy servers](/src/use/index.md) were added in December
 
 ## MetaNET
 

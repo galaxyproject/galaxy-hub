@@ -66,7 +66,7 @@ These papers were among [37 papers added to the Galaxy CiteULike group](http://w
 
 * **[RepeatExplorer](http://repeatexplorer.umbr.cas.cz/):** Features utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains.  [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/) is hosted by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)
 
-See [the list of public Galaxy servers](/src/public-galaxy-servers/index.md) for more open and accessible Galaxy instances.
+See [the list of public Galaxy servers](/src/use/index.md) for more open and accessible Galaxy instances.
 
 ## Who's Hiring
 

@@ -332,7 +332,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
 
 # New Public Servers
 
-One new server was added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) last month.
+One new server was added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.
 
 ## CAPER
 

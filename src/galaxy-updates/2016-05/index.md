@@ -499,11 +499,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-There are [two new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md):
+There are [two new publicly accessible Galaxy servers](/src/use/index.md):
 
 ## MGEScan
 
-<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/public-galaxy-servers/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
+<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/use/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
 
 * *Link(s):*
   * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)

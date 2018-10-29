@@ -13,7 +13,7 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
 
 - [Basics](#basics)
   - [Where's the source for the web site content?](#wheres-the-source-for-the-web-site-content)
-  - [One web page ≈ One directory in GitHub](#one-web-page-one-directory-in-github)
+  - [One web page ≈ One directory in GitHub](#one-web-page--one-directory-in-github)
   - [index.md files](#indexmd-files)
   - [Markdown](#markdown)
 - [Submitting your first edit through the GitHub web interface](#submitting-your-first-edit-through-the-github-web-interface)
@@ -47,15 +47,15 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
     - [Blog metadata](#blog-metadata)
       - [Add a blog post](#add-a-blog-post)
       - [Blog post example metadata](#blog-post-example-metadata)
-    - [Public Galaxy Server metadata](#public-galaxy-server-metadata)
-      - [Add a public server](#add-a-public-server)
-      - [Server entry example metadata](#server-entry-example-metadata)
+    - [Use Galaxy Resource Directory metadata](#use-galaxy-resource-directory-metadata)
+      - [Add a resource](#add-a-resource)
+      - [Resource entry example metadata](#resource-entry-example-metadata)
   - [Redirects](#redirects)
 - [Edit a local copy on your laptop](#edit-a-local-copy-on-your-laptop)
   - [Setup](#setup)
   - [Generate  local website](#generate-local-website)
   - [Handling of images](#handling-of-images)
-  - [Git lfs clone Troubles?](#git-lfs-clone-troubles) 
+  - [Git lfs clone Troubles?](#git-lfs-clone-troubles)
   - [LFS Troubles?](#lfs-troubles)
 - [Advanced Topics](#advanced-topics)
   - [Update Slide Carousel on Landing Page](#update-slide-carousel-on-landing-page)
@@ -129,10 +129,6 @@ Thanks for your concern!  But, *we got this:*
 ### You mentioned guidelines?
 
 Guidelines are distributed throughout this document.  Each is tagged with one of these icons:
-
-- :hatching_chick:  - A basic guideline, represented by a hatching chick.  Try to follow these from the start.
-- :hatched_chick: - A more than basic guideline, represented by a hatched chick..  Once you get used to the basic guidelines, try to incorporate these into your edits.
-- :chicken: - An advanced guideline, represented by a fully grown and ready to take on the world chicken.  Only worry about these if you are doing something, well, *advanced*.
 
 | Icon | Level | Guidance |
 | :----: | ---- | ---- |
@@ -675,29 +671,33 @@ source_blog: "Melbourne Bioinformatics Projects Blog"
 ---
 ```
 
-### Public Galaxy Server metadata
+### Use Galaxy Resource Directory metadata
 
-Public Galaxy Server Directory:
+Use Galaxy Resource Directory:
 
-- GitHub source: [/src/public-galaxy-servers/index.md](/src/blog/index.md)
-- Rendered on web site: [galaxyproject.org/public-galaxy-servers/](https://galaxyproject.org/public-galaxy-servers/)
+- GitHub source: [/src/use/index.md](/src/use/index.md)
+- Rendered on web site: [galaxyproject.org/use/](https://galaxyproject.org/use/)
 
-The [public Galaxy server directory](https://galaxyproject.org/public-galaxy-servers/) lists all know Galaxy servers that are *publicly accessible*.  
+The [Use Galaxy resource directory](https://galaxyproject.org/use/) lists
 
-#### Add a public server
+* all know Galaxy servers that are *publicly accessible*.
+* cloud services that support ready to launch Galaxy instances
+* Galaxy containers and virtual machines.
 
-To add a new server, you'll need to create a directory for the server under `/src/public-galaxy-servers/` and then create an `index.md` file in the new directory.
+#### Add a resource
 
-Server entries have this metadata:
+To add a new resource, you'll need to create a directory for the resource under `/src/use/` and then create an `index.md` file in the new directory.
+
+Resource entries have this metadata:
 
 #### `title`
 
 - Required
 - Meaning
-  - Name of the public server
+  - Name of the resource
 - Use
-  - Becomes the server page title
-  - Shown in the server list as the name of the entry. 
+  - Becomes the resource page title
+  - Shown in the directory as the name of the resource. 
 - Format
   - Free text all on one line, and should be wrapped in quotes
   - Short is good.
@@ -706,21 +706,21 @@ Server entries have this metadata:
 
 - Required
 - Meaning
-  - URL of the server
+  - URL of the project the resource is for.  If the resource is available on only one platform, then this can be a link to the resource itself.
 - Use
-  - Displayed on the server page
+  - Displayed on the resource page as the title
 - Format
   - URL
 
-#### `server-group`
+#### `scope`
 
 - Required
 - Meaning
-  - Servers are categorized into three groups.  See Format. This say which group this server belongs to.
+  - Why does the resource exist?  See *Format* below for options.
 - Use
-  - Determines which section in the public server index the server is listed in.
+  - Becomes a keyword for the resource
 - Format
-  - Must be one of these three:
+  - Must be one of these three values:
     - `"general"`
       - This a general purpose genomics server providing tools useful across a wide range of domains
     - `"domain"`
@@ -728,51 +728,124 @@ Server entries have this metadata:
     - `"tool-publishing"`
       - Primary purpose of the server is to make a group's tools easy to use by publishing them here.
 
+#### `platforms`
+
+- Required
+- Meaning
+  - an array that describes each platform the resource is available on.  This array must have at least one entry
+- Use
+  - Just brackets the list of platforms.
+- Format
+  - Nothing on `platforms` line.  Array following it must be well-formed.
+
+Each `platforms` array entry has 3 items in it.
+
+##### `platform-group`
+
+- Required
+- Meaning
+  - What type of platform is this.
+- Use
+  - Used to group resource with other resources of same type.
+- Format
+  - Options are `public-server`, `academic-cloud`, `commercial-cloud`, `container` and `vm`.
+
+##### `platform-url`
+
+- Required
+- Meaning
+  - Link to this resource for this platform.  This can link to a page that describes the resource, or directly to the resource.
+- Use
+  - Used with `platform-text` to link to resource on this platform.
+- Format
+  - URL, should be quoted.
+
+##### `platform-text`
+
+- Required
+- Meaning
+  - Name of this resource on this platform.
+- Use
+  - Will appear in the link to the resource on this platform.
+- Format
+  - Text, quoted.
+
 #### `summary`
 
 - Required
 - Meaning
-  - A brief description of the server
+  - A brief description of the resource
 - Use
-  - Displayed in server index, and on server page.
+  - Displayed in resource directory index page, and on the resource's page.
 - Format
-  - Free text all on one line, and wrapped in quotes.  Can contain Markdown links.
+  - Free text all on one line, and wrapped in quotes.  Can contain Markdown.
 
 #### `image`
 
 - Optional
-  - Path to an image for this server
+  - Path to an image for this resource
 - Meaning
-  - The single image most likely to succinctly communicate what this server is about.
+  - The single image most likely to succinctly communicate what this resource is about.
   - At some point in the future a thumbnail of this image *might* be displayed in the server index too.
 - Use
-  - If present then this is displayed in the upper right of the server page.
+  - If present then this is displayed in the upper right of the resource page.
 - Format
   - URL
     - an internal hub path is prefered, as those images don't disappear
   - Small images, around 300px wide or less work best.
 
-#### `user_support`, `quotas` and `sponsors` 
+#### `user_support`, `quotas`, `citations` and `sponsors` 
 
-These are listed on all server pages, are all currently empty, and are all currently ignored.  We may implement these or drop them in the future.  Don't worry about them for now.
+- Optional
+  - All are optional.
+- Meaning
+  - `user_support`: options for getting help; can include tutorials.
+  - `quotas`: any limitations on using the system: disk, execution, is an account required, ...
+  - `citations`: One or two publications that are about this resource.
+  - `sponsors`: Who is behind this resource?
+- Use
+  - Displayed on the resource page, each in it's own section.
+- Format
+  - Each is a YAML bullet list with 0, 1, or more entries.
+  - Each bullet item is quoted and can contain markdown.
 
-Actual user support, quota and sponsor information is listed in the body of the page.
+#### `pub_libraries`
 
-#### Server entry example metadata
+- Optional
+- Meaning
+  - This is the tag used to identify papers in the Galaxy Publication Library that use/reference/implement this resource.
+- Use
+  - Causes a link to those papers to be displayed in the Citations section.
+- Format
+  - Bullet list (some resources have more than one tag).
+  - Each bullet item is quoted plain text.
+
+
+#### Resource entry example metadata
 
 ```
 ---
-title: "BioCiphers Lab Galaxy"
-url: "http://avispa.biociphers.org/galaxy/"
-server_group: "tool-publishing"
-server_links: 
-  - link_url: "http://avispa.biociphers.org/"
-    link_text: "BioCiphers Galaxy"
-summary: "BCL Galaxy gives a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania. "
-image: "/src/public-galaxy-servers/biociphers-lab-galaxy/biociphers-landing-page-300.png"
-user_support: 
-quotas: 
-sponsors: 
+title: "A-Game"
+url: "http://beaconlab.it/agame"
+scope: "domain"
+platforms: 
+  - platform_group: "public-server"
+    platform_url: "http://beaconlab.it/agame"
+    platform_text: "A-Game server"
+summary: "A Galaxy suite for tArgeted MEtagenomics"
+image: "/src/use/a-game/agame-logo.png"
+comments:
+  - "A web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data."
+user_support:
+  - "[A-Game Manual](http://159.149.160.68/galaxy/static/manual/)"
+  - "[Example workflows](http://159.149.160.68/galaxy/workflow/list_published)"
+quotas:
+citations:
+  - "[A-GAME: improving the assembly of pooled functional metagenomics sequence data](https://doi.org/10.1186/s12864-017-4369-z), Matteo Chiara, Antonio Placido, Ernesto Picardi, Luigi Ruggiero Ceci, David Stephen Horner and Graziano Pesole. *BMC Genomics* 201819:44, doi:10.1186/s12864-017-4369-z"
+pub_libraries:
+  - "A-Game"
+sponsors:
+  - "[BEACON](https://bioscienzebio.unimi.it/gruppo.php?id=26), [Dipartimento di Bioscienze](https://bioscienzebio.unimi.it/), [University of Milan](http://www.unimi.it/ENG/)"
 ---
 ```
 
@@ -787,7 +860,7 @@ sponsors:
       ---
       ```
 
-    - `new-url` can be either an internal relative URL ("/src/admin/config/tool-dependencies/index.md") or point outside the hub.
+    - `new-url` can be either an internal relative URL ("/admin/config/tool-dependencies/", note the missing `src` at the front and the missing `index.md` at the end.) or point outside the hub.
     - You are encouraged to also drop all text from the page.  Optionally, you can include something like:
 
       ```
@@ -921,7 +994,7 @@ If your version is older than that, you may benefit from upgrading.
 
 ## Update Slide Carousel on Landing Page
 
-The slide carousel on the hub landing page is populated from the `/src/splash/` directory.  This has a [standard hub source structure](#one-web-page-one-directory-in-github) with a directory and `index.md` file for each "slide" in the rotation.
+The slide carousel on the hub landing page is populated from the `/src/splash/` directory.  This has a [standard hub source structure](#one-web-page--one-directory-in-github) with a directory and `index.md` file for each "slide" in the rotation.
 
 **To add a slide**, add a directory to `/src/splash/` and add an `index.md` file to the new directory.
 

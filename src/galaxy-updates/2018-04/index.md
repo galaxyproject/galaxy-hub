@@ -17,13 +17,13 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 * [Green Light for Galaxy Europe](http://www.pr.uni-freiburg.de/pm-en/press-releases-2018/green-light-for-galaxy-europe)
 * [Flyer with more information](https://github.com/usegalaxy-eu/branding/raw/master/freiburg-flyer/flyer.pdf)
-* [UseGalaxy.eu public server directory entry](/src/public-galaxy-servers/usegalaxy-eu/index.md)
+* [UseGalaxy.eu public server directory entry](/src/use/usegalaxy-eu/index.md)
 
 **[UseGalaxy.org.au](https://usegalaxy.org.au/)** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
 
 * [Synergising Australian bioinformatics resources through the launch of Galaxy Australia](https://www.qcif.edu.au/index.php/news/412-synergising-australian-bioinformatics-resources-through-the-launch-of-galaxy-australia)
 * [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
-* [UseGalaxy.org.au public server directory entry](/src/public-galaxy-servers/usegalaxy-au/index.md)
+* [UseGalaxy.org.au public server directory entry](/src/use/usegalaxy-au/index.md)
 
 And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
 
@@ -324,11 +324,11 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
+There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
 
 ## Proteogenomics Gateway
 
-[<img class="float-right" src="/src/public-galaxy-servers/proteogenomics-gateway/proteogenomics-landing-400.png" width="250" alt="Proteogenomics Gateway" />](http://z.umn.edu/proteogenomicsgateway)
+[<img class="float-right" src="/src/use/proteogenomics-gateway/proteogenomics-landing-400.png" width="250" alt="Proteogenomics Gateway" />](http://z.umn.edu/proteogenomicsgateway)
 
 The [Galaxy-P Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
 

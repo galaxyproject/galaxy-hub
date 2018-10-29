@@ -243,7 +243,7 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [several Galaxy services](/src/galaxy-services/index.md).  One of each were added in the past month.
+There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [several Galaxy services](/src/use/index.md).  One of each were added in the past month.
 
 ## epiGeEC
 

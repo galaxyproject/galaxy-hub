@@ -62,7 +62,7 @@ These papers were among [46 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Servers
 
-*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/src/public-galaxy-servers/index.md) page in August:
+*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/src/use/index.md) page in August:
 
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 

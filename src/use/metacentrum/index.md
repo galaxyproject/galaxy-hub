@@ -4,6 +4,7 @@ url: "https://galaxy.metacentrum.cz/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Czechia"
     platform_url: "https://galaxy.metacentrum.cz/"
     platform_text: "Czech National Grid Infrastructure (NGI)"
 summary: "MetaCentrum regional virtual organization of the Czech National Grid Infrastructure (NGI) and is accessible to employees and students of research and academic organizations of the Czech Republic and for scientific purposes only."

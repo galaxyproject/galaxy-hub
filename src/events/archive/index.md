@@ -2293,7 +2293,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/src/public-galaxy-servers/index.md#qbrc-galaxy-and-pipe-clip'>PIPE-CLIP</a>)</div> </td>
+    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/src/use/pipe-clip/index.md'>PIPE-CLIP</a>)</div> </td>
     <td> </td>
     <td> <a href='http://qbrc.swmed.edu/portfolio/beibei-chenpostdoctoral-researcher/'>Beibei Chen</a> </td>
   </tr>

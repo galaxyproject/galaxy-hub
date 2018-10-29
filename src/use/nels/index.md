@@ -4,6 +4,7 @@ url: "https://nels.bioinfo.no/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Norway"
     platform_url: "https://nels.bioinfo.no"
     platform_text: "Norwegian e-Infrastructure for Life Sciences (NeLS)"
 summary: "Life Science platform for Norwegian academic researchers."

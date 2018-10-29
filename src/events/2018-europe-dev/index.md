@@ -27,6 +27,7 @@ confirmed speakers:
  - Jochen Bick: 
  - Matthias Bernt: *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*
  - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
+ - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
  
 
 **preliminary schedule**
@@ -62,11 +63,13 @@ This day is more on the technical side, with presentation, tutorials and hands o
 Confirmed speakers:
  - Marco Tangaro: *Providing Galaxy based bioinformatic environments through cloud technologies*
  - Nicola Soranzo: *Beta Python 3 support for Galaxy in release 18.09, at last!*
+ - Sveinung Gundersen: *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*
+ - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
+ - Nikolay Vazov: TBA
+ - Anup Kumar: *Machine learning with Galaxy*
+ - Marius van den Beek, John Chilton: *Travelling with warp-speed, an update on Galaxy workflows*
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
 
-Currently we also plan to discuss/present:
- - Galaxy and Machine learning
- - Single Cell RNA Seq analysis with Galaxy
  
 **preliminary schedule**
 
