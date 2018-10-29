@@ -67,6 +67,7 @@ Confirmed speakers:
  - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
  - Nikolay Vazov: TBA
  - Anup Kumar: *Machine learning with Galaxy*
+ - Marius van den Beek, John Chilton: *Travelling with warp-speed, an update on Galaxy workflows*
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
 
  
