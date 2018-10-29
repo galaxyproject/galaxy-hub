@@ -350,7 +350,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added in February:
+One new [public Galaxy servers](/src/use/index.md) was added in February:
 
 ## Whale Shark
 

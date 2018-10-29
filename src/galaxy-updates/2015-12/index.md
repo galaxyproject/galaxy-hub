@@ -249,11 +249,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were added in November, bringing the total precipitously close to 80.
+[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in November, bringing the total precipitously close to 80.
 
 ## Galaxy Integrated Omics (GIO)
 
-<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/public-galaxy-servers/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
+<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/use/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
 
 * *Link:*
   * [GIO Server](http://gio.sbcs.qmul.ac.uk/)

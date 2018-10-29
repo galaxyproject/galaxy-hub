@@ -38,9 +38,12 @@ $carousel-control-width: 5%;
 
 @import "bootstrap/scss/bootstrap.scss";
 
-@import "~font-awesome/scss/_variables.scss";
-$fa-font-path: "~font-awesome/fonts";
-@import "~font-awesome/scss/font-awesome.scss";
+//@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
 
 @import "overrides.scss";
 
@@ -93,8 +96,9 @@ aside {
 }
 
 #sidebar {
+    line-height: 140%;
     a {
-        padding: 2px 15px;
+        padding: 3px 15px;
     }
     & > ul > li > a {
         font-weight: bold;
@@ -396,8 +400,9 @@ h3:hover .heading-anchor span:before,
 h4:hover .heading-anchor span:before,
 h5:hover .heading-anchor span:before,
 h6:hover .heading-anchor span:before {
-    content: "\f0c1"; // fa-chain fa-link
-    font-family: FontAwesome;
+    content: fa-content($fa-var-link);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     position: absolute;
     font-size: 14px;
     left: 0px;
@@ -411,4 +416,9 @@ h4:hover .heading-anchor span:before,
 h5:hover .heading-anchor span:before,
 h6:hover .heading-anchor span:before {
     font-size: 12px;
+}
+
+.twocol{
+    column-count: 2;
+    column-gap: 2rem;
 }

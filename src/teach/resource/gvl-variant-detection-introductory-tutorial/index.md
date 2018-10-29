@@ -2,7 +2,7 @@
 title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Variant Detection Introductory Tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src="/src/images/logos/gvl-300.png" alt="Variant Detection Introductory Tutorial" height="200" /></a>
 </div>
 
 
@@ -18,7 +18,7 @@ title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/doc
  Date:: 2012/12 
 </div>
 
-[This tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
+[This tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/use/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we cover the concepts of detecting small variants (SNVs and indels) in human genomic DNA using a small set of reads from chromosome 22.
 

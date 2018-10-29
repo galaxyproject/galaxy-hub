@@ -383,7 +383,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Three new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were listed in February:
+[Three new publicly accessible Galaxy servers](/src/use/index.md) were listed in February:
 
 ## BISTRO
 
@@ -404,7 +404,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MiModD NacreousMap
 
-<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/public-galaxy-servers/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
+<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/use/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
 
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)

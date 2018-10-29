@@ -382,11 +382,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy server](/src/public-galaxy-servers/index.md) was listed in March:
+[1 new publicly accessible Galaxy server](/src/use/index.md) was listed in March:
 
 ## Halogen Bonding
 
-<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/public-galaxy-servers/halogen-bonding/halogen-bonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
+<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/use/halogen-bonding/halogen-bonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
 
 * *Link:*
   * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)

@@ -368,13 +368,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [four semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in August.
+There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [four semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in August.
 
 ## New Public Galaxy Servers
 
 ### ImmPort Galaxy
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
 * *Links:*
   * [ImmPort Galaxy](http://immportgalaxy.org/)
 * *Domain/Purpose:*
@@ -400,7 +400,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Palfinder
 
-<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/public-galaxy-servers/palfinder/palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
+<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/use/palfinder/palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
@@ -437,7 +437,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 No new entries were added in August, but a new virtual appliance was added to the VA directory:
 
-* **[RNAcommender](/src/va/rnacommender/index.md)**
+* **[RNAcommender](/src/use/rnacommender/index.md)**
     A tool for genome-wide recommendation of RNA-protein interactions. 
 
 ----

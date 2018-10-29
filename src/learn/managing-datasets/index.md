@@ -74,7 +74,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
     * Options include a single existing history, multiple existing histories, or a newly created and named history.
 * ***TIP*** to *Copy* a **Hidden** dataset (see below), in the *From* histories right pane, use *gear icon &rarr; Unhide Hidden Datasets*, then once the datasets refresh, use *This dataset has been hidden. Click  _here_ to unhide.*
 
-# Clone
+# Clone (deprecated)
 
 * To clone a history is to create an exact copy of the prior history in one step. The new history will be named with the original history's name prefixed by *Clone of*. Clone is the simplest way to manage datasets when some items in a history need to be retained but the remainder can be deleted (permanently, to reduce disk usage).
   * Options are:

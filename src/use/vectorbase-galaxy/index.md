@@ -4,6 +4,7 @@ url: "https://www.vectorbase.org/galaxy"
 scope: "domain"
 platforms:
   - platform_group: "academic-cloud"
+    platform_purview: "Global"
     platform_url: "https://www.vectorbase.org/galaxy"
     platform_text: "Vectorbase Galaxy"
 summary: "A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens. "

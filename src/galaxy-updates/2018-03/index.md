@@ -295,11 +295,11 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month, including a new public server:
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including a new public server:
 
 ## Metaproteomics Gateway Server
 
-[<img class="float-right" src="/src/public-galaxy-servers/metaproteomics-gateway/metaproteomics-gateway-landing-400.png" width="250" alt="Metaproteomics Gateway Server" />](http://z.umn.edu/metaproteomicsgateway)
+[<img class="float-right" src="/src/use/metaproteomics-gateway/metaproteomics-gateway-landing-400.png" width="250" alt="Metaproteomics Gateway Server" />](http://z.umn.edu/metaproteomicsgateway)
 
 The [Galaxy-P Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized metaproteomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
 
@@ -313,7 +313,7 @@ deepTools 3.0 is now available on the [deepTools Galaxy Server](https://deeptool
 
 ## ARGs-OAP v2.0 published
 
-In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/src/public-galaxy-servers/args-oap/index.md) was upgraded as well:
+In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/src/use/args-oap/index.md) was upgraded as well:
 
 * [ARGs-OAP v2.0 with an expanded SARG database and Hidden Markov Models for enhancement characterization and quantification of antibiotic resistance genes in environmental metagenomes](https://doi.org/10.1093/bioinformatics/bty053), Xiaole Yin, Xiao-Tao Jiang, Benli Chai, Liguan Li, Ying Yang, James R Cole, James M Tiedje, Tong Zhang. *Bioinformatics*, bty053, doi: 10.1093/bioinformatics/bty053
 

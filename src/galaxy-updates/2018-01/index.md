@@ -276,11 +276,11 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month.
 
 ## EuPathDB Galaxy Data Analysis Service
 
-[<img class="float-right" src="/src/public-galaxy-servers/eu-path-db/eupathdb-logo.png" width="240" />](EuPathDB Galaxy Data Analysis Service)
+[<img class="float-right" src="/src/use/eu-path-db/eupathdb-logo.png" width="240" />](EuPathDB Galaxy Data Analysis Service)
 
 The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/galaxy-orientation) is a free Galaxy server for large-scale data analysis focused on eukaryotic pathogens.
 
@@ -293,7 +293,7 @@ User support is available via a [web form](http://eupathdb.org/eupathdb/contact.
 
 ## Langille Lab PICRUSt server
 
-[<img class="float-right" src="/src/public-galaxy-servers/langille-lab/picrust-workflow-450.jpg" width="280" alt="Langille Lab PICRUSt server" />](http://galaxy.morganlangille.com/)
+[<img class="float-right" src="/src/use/langille-lab/picrust-workflow-450.jpg" width="280" alt="Langille Lab PICRUSt server" />](http://galaxy.morganlangille.com/)
 
 The [Langille Lab PICRUSt server](http://galaxy.morganlangille.com/) hosts PICRUSt, a bioinformatics software package designed to predict metagenome functional content from marker gene (e.g., 16S rRNA) surveys and full genomes. [PICRUSt Documentation](http://picrust.github.io/picrust/index.html) and the [PICRUSt users list](https://groups.google.com/group/picrust-users/subscribe?note=1&hl=en&noredirect=true&pli=1) are available.
 

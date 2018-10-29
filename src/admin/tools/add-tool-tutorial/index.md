@@ -100,6 +100,6 @@ Note the correspondence between elements of the tool definition file (Step 3) an
 
 ### 6. (optional) Upload the tool to Galaxy's Tool Shed.
 
-To share the tool with the Galaxy community, upload it to the [Galaxy Tool Shed](/src/toolshed/index.md). Users can now install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/index.md). If the tool is well-written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/public-galaxy-servers/index.md)!
+To share the tool with the Galaxy community, upload it to the [Galaxy Tool Shed](/src/toolshed/index.md). Users can now install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/index.md). If the tool is well-written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/use/index.md)!
 
 To get started sharing and publishing your tool, check out the [How to publish a tool in the Tool Shed](/src/toolshed/publish-tool/index.md) tutorial.

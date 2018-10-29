@@ -21,7 +21,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <br />
 
-<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/src/public-galaxy-servers/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
+<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
 
 **[Pathogen Portal](http://www.pathogenportal.org)** supports comparative analysis of host response to pathogens.  It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.  See "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.* 
 
@@ -33,7 +33,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <br />
 
-These servers join the [growing list of public Galaxy servers](/src/public-galaxy-servers/index.md).
+These servers join the [growing list of public Galaxy servers](/src/use/index.md).
 
 
 ## New Papers
@@ -72,7 +72,7 @@ These servers join the [growing list of public Galaxy servers](/src/public-galax
 
 </div>
 
-These papers may be of interest to the Galaxy community.  The first three describe the [Public Galaxy servers](/src/public-galaxy-servers/index.md) listed above.
+These papers may be of interest to the Galaxy community.  The first three describe the [Public Galaxy servers](/src/use/index.md) listed above.
 
 * "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](https://doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
 * "[Database resources for the tuberculosis community](https://doi.org/10.1016/j.tube.2012.11.003)," by Lew, *et al.*, *Tuberculosis* (January 2013)

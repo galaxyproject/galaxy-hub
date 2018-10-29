@@ -138,7 +138,7 @@ Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SR
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/g1e_qc.png)|
-|<small>**QC'ing reads with FastQC**. Note we've pressed the <i class="fa fa-files-o" aria-hidden="true"></i> button to enable selection of multiple datasets within the **Short read data from your current history** box.</small>|
+|<small>**QC'ing reads with FastQC**. Note we've pressed the <i class="far fa-copy" aria-hidden="true"></i> button to enable selection of multiple datasets within the **Short read data from your current history** box.</small>|
 
 This will generate the following quality value distributions:
 
@@ -262,7 +262,7 @@ We will create two dataset collections: one containing data for G1E cells and th
 |      |
 |------|
 |![](/src/tutorials/nt_rnaseq/create_col_1.png)|
-|<small>Make history items selectable by clicking checkbox (<i class="fa fa-check-square-o" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</small>|
+|<small>Make history items selectable by clicking checkbox (<i class="far fa-check-square" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_2.png)|
 |<small>Show only G1E data by typing `G1E` in the search box.</small>|
 |![](/src/tutorials/nt_rnaseq/create_col_3.png)|

@@ -24,7 +24,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## New Public Server: MGTAXA
 
-[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [Public Galaxy Servers](/src/public-galaxy-servers/index.md) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
+[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [Public Galaxy Servers](/src/use/index.md) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
 
 ## Who's Hiring
 

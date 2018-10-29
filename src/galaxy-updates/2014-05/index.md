@@ -11,7 +11,7 @@ Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create [Galaxy Biostar](https://biostar.usegalaxy.org), a Galaxy User support forum.**
 
-Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/public-galaxy-servers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
+Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/use/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
 
 **Current integration with usegalaxy.org**
 
@@ -363,7 +363,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-Two [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to the published list in April:
+Two [public Galaxy servers](/src/use/index.md) were added to the published list in April:
 
 ## Globus Genomics Proteomics
 

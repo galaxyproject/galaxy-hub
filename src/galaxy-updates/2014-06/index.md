@@ -268,11 +268,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added to the published list in May:
+One new [public Galaxy servers](/src/use/index.md) was added to the published list in May:
 
 ## deepTools
 
-<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/public-galaxy-servers/deeptools2/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
+<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/use/deeptools/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
 
 * *Links:*
   * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
@@ -448,4 +448,4 @@ In no particular order:
 
 **Access to all [TACC](https://www.tacc.utexas.edu/)-based resources and services, including [usegalaxy.org](http://usegalaxy.org) and the [Galaxy Project Test Server](https://test.galaxyproject.org/), will be unavailable from 9 a.m. to 5 p.m., central US time, on Saturday, May ~~24~~ 31, 2014.** TACC staff will be performing an upgrade to the networking infrastructure. During this time, jobs will continue to run.
 
-During this time you are encouraged to use [any of the 60+ public Galaxy servers](/src/public-galaxy-servers/index.md).
+During this time you are encouraged to use [any of the 60+ public Galaxy servers](/src/use/index.md).

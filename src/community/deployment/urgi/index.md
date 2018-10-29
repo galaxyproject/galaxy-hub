@@ -67,5 +67,4 @@ Instance deployed on virtual machine.
 
 ## Links
 
-* [Description of server](/src/public-galaxy-servers/index.md#inra-urgi) in [list of publicly accessible Galaxy Servers](/src/public-galaxy-servers/index.md)
 * [DevOps Ignition to reach Galaxy continuous integration](/src/events/gcc2013/abstracts/talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/src/events/gcc2013/index.md)

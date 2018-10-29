@@ -287,11 +287,11 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Another public server was added to the directory in April:
+There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added to the directory in April:
 
 ## IRProfiler
 
-[<img class="float-right" src="/src/public-galaxy-servers/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />](http://irprofiler.med.auth.gr:8080/)
+[<img class="float-right" src="/src/use/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />](http://irprofiler.med.auth.gr:8080/)
 
 [Immune Repertoire Profiler (IRProfiler)](http://irprofiler.med.auth.gr:8080/) is a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data. IRProfiler can be used anonymously or through an account.
 
