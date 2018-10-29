@@ -77,7 +77,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 * [Contributor of the month: XXX]
-* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras], by Bérénice Batut
+* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm), by Bérénice Batut
 
 ---- 
 # Who's Hiring
