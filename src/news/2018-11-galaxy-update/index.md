@@ -13,12 +13,12 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
   * [2019 Galaxy Admin Training](/src/news/2018-11-galaxy-update/index.md#2019-galaxy-admin-training)
   * [All upcoming events](#upcoming-events)
 * New:
+  * [Galaxy Platforms Directory Reoragnization](#public-galaxy-server-news), all of the Galaxies in one spot!
   * [XXX publications](#publications), including XXX highlighted ones
   * XXX new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
   * [Open positions with XXX organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
-  * [Public Galaxy Server News](#public-galaxy-server-news)
   * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)
+  * [Releases](#releases)Galaxy 18.09 is out!
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -75,8 +75,9 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 </div>
 
-There are XXX new *[Galactic Blog](/src/blog/index.md)* entries:
-
+There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+* [Contributor of the month: XXX]
+* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras], by Bérénice Batut
 
 ---- 
 # Who's Hiring
@@ -85,6 +86,7 @@ There are XXX new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626) 
 * [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
@@ -100,9 +102,16 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-## Public Galaxy Servers is becoming something ... more
+## The Galaxy Platform Directory 
+We are pleased to announce the new [Galaxy Platform Directory](https://galaxyproject.org/use/) for:
+   * public Galaxy servers,
+   * academic and commercial cloud services,
+   * containers, and
+   * VMs
 
-In October the venerable [Public Galaxy Server list](/src/use/index.md) and the relative upstart [Galaxy Services list](/src/use/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
+These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
+
+This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot](https://galaxyproject.org/use/).
 
 Here's what's new:
 
@@ -126,6 +135,10 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 # Releases
 
 New additions to the Galaxy Community.
+
+## Galaxy Release 18.09 
+We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has exetensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
+
 
 ----
 
