@@ -72,7 +72,7 @@ All participants should bring a wifi-enabled laptop with
 
 # Instructors
 
-We currently have three confirmed (and highly experienced!) instructors:
+We currently have five confirmed (and highly experienced!) instructors:
 
 * [Martin Čech](/src/people/marten/index.md), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
 * [Nate Coraor](/src/people/nate/index.md), lead sys admin for usegalaxy.org and a software engineer for the Galaxy Project
