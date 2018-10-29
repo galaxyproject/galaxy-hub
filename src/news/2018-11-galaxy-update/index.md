@@ -55,6 +55,48 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ----
 
+# The new Galaxy Platforms Directory
+
+[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="220" />](/src/use/index.md>)
+
+We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md), for
+
+- public Galaxy servers,
+- academic and commercial cloud services,
+- containers, and
+- VMs
+
+This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort.
+
+- Almost all of them are free to use (Commercial clouds are the exception)
+- Almost all of them are open to everyone (Academic clouds are the exception).
+- All of the resources can be used, either immediately, or shortly after getting an account.
+
+These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
+
+This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot]((/src/use/index.md).
+
+## New Galaxy Platforms
+
+And there are several new platforms for running Galaxy this month too:
+
+### SMAGEXP
+
+[<img src="/src/use/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="400" />](/src/use/smagexp/index.md)
+
+[SMAGEXP (Statistical Meta-Analysis for Gene EXPression)](/src/use/smagexp/index.md) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. A Galaxy instance is provided in a Docker container.  SMAGEXP comes with an [Installation and user guide, including two step-by-step examples](https://github.com/sblanck/smagexp#table-of-contents-).  It is supported by Univ. Lille Droit et Santé, Lille, France and Inria Lille-Nord Europe, MODAL, Lille, France.
+
+### SNIC Science Cloud (SSC)
+
+[<img src="/src/use/snic-science-cloud/snic-science-cloud.png" class="float-left" alt="SNIC Science Cloud (SSC)" width="200" />](/src/use/snic-science-cloud/index.md)
+
+[Swedish National Infrastructure for Computing (SNIC)](http://snic.se/) [Science Cloud (SSC)](https://cloud.snic.se/) is a community cloud and use of the resources is free of charge to Swedish PIs and their collaborators. As for other SNIC allocations you need an affiliation with a Swedish higher education institution to be eligible to apply for a project.  It's a national-scale cloud infrastructure for Swedish Academia.
+
+SNIC offers [support and training](https://www.snic.se/support/).  SNIC Science Cloud is currently a pilot project and not a production resource.  You can  [request a project here](https://cloud.snic.se/index.php/request-a-project-on-the-snic-community-cloud/).
+quotas:
+
+----
+
 # Publications
 
 **XXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
@@ -66,6 +108,12 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 
 ## Publication Topics
+
+
+## Galaxy Platforms in Publications
+
+We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
+
 
 
 ----
@@ -96,23 +144,6 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
-----
-
-# Public Galaxy Server News
-
-## Public Galaxy Servers is becoming something ... more
-
-In October the venerable [Public Galaxy Server list](/src/use/index.md) and the relative upstart [Galaxy Services list](/src/use/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
-
-Here's what's new:
-
-
-## Public Servers/Resources in Publications
-
-We tag papers that use, mention, implement or extend public Galaxy servers, services and other resources.  Here are the counts for the past month's publications:
-
-
-----
 
 # Tools
 
