@@ -28,31 +28,31 @@ confirmed speakers:
  - Matthias Bernt: *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*
  - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
  - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
+ - Thomas Wollman: *Galaxy Image Analysis: Web-based systematic phenotyping*
  
 
 **preliminary schedule**
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
-| 9:45 - 10:00 |  ARRIVAL  | 
-| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and short introduction into the Galaxy Project  |  |
+| 9:45 - 10:00 |  ARRIVAL  |   |   |
+| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and short introduction into the Galaxy Project  |   |
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)), [Jean-François Dufayard ](/src/people/jeanfrancois-dufayard/index.md) ([cirad](https://www.cirad.fr/)) |  State of the Galaxy Project - priorities, plans, and community  |   | 
-| 10:50 - 11:10 |  Coffee Break  | 
-| 11:10 - 11:30 |  TBA  |    |
-| 11:30 - 15:50 |  TBA  |    |
+| 10:50 - 11:10 |  Coffee Break  |   |   |
+| 11:10 - 11:30 |  TBA  |    |   |
+| 11:30 - 15:50 |  TBA  |    |   |
 | 11:50 - 12:10 |  TBA  |    |   | 
 | 12:10 - 13:30 |  Lunch Break in nearby restaurant  | 
 | 13:30 - 13:50 |  TBA  |    |   | 
 | 13:50 - 14:10 |  TBA  |    |   |
-| 14:10 - 14:30 |  TBA  |    |    
-| 14:30 - 14:50 |  TBA |  |   | 
-| 14:50 - 15:20 |  Coffee Break  | 
-| 15:20 - 15:40 |  TBA  |  | |
-| 15:40 - 16:00 |  TBA  |   |   | 
-| 16:00 - 17:00 |  lightning talks  |   |   | 
+| 14:10 - 14:30 |  TBA  |    |   |
+| 14:30 - 14:50 |  TBA  |    |   | 
+| 14:50 - 15:20 |  Coffee Break  |   |   |
+| 15:20 - 15:40 |  TBA  |    |   |
+| 15:40 - 16:00 |  TBA  |    |   | 
+| 16:00 - 17:00 |  Lightning talks  |   |   | 
 | 17:00 - 17:01 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
-| 17:01 - 17:15 |  ...going to the pub  | 
-
+| 17:01 - 17:15 |  ...going to the pub  |   |   |
 
 
 
@@ -75,15 +75,15 @@ Confirmed speakers:
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
-| 9:30 - 9:40 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  | 
-| 9:40 - 10:50 |  talks, presentations, demos |   | 
-| 10:50 - 11:10 |  Coffee Break  | 
-| 11:10 - 12:10 |  talks, presentations, demos |    |   |  
-| 12:10 - 13:30 |  Lunch Break in nearby restaurant  | 
-| 13:30 - 14:40 |  talks, presentations, demos |    |    
+| 9:30 - 9:40 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
+| 9:40 - 10:50 |  talks, presentations, demos |   |   | 
+| 10:50 - 11:10 |  Coffee Break  |   |   |
+| 11:10 - 12:10 |  talks, presentations, demos |    |   |
+| 12:10 - 13:30 |  Lunch Break in nearby restaurant  |   |   |
+| 13:30 - 14:40 |  talks, presentations, demos |    |   |
 | 14:40 - 14:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
-| 14:50 - 15:20 |  Coffee Break  | 
-| 15:20 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  | 
+| 14:50 - 15:20 |  Coffee Break  |   |   |
+| 15:20 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  |   |   |  |
 
 ## Registration
 
@@ -92,7 +92,7 @@ There will be no conference fee. Though, you need to cover for your food and acc
 https://tinyurl.com/EGD2018
 
 
-## Venue    
+## Venue
 
 <img class="float-right" src="https://www.informatik.uni-freiburg.de/data/intern/bilder/1756.jpg" />
 
