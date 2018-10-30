@@ -15,10 +15,10 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
 * New:
   * [Galaxy Platforms Directory Reoragnization](#public-galaxy-server-news), all of the Galaxies in one spot!
   * [XXX publications](#publications), including XXX highlighted ones
-  * XXX new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
-  * [Open positions with XXX organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
+  * Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
+  * [Open positions with seven organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
   * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)Galaxy 18.09 is out!
+  * [Releases](#releases)Galaxy 18.09 is released!
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -76,7 +76,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </div>
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
-* [Contributor of the month: XXX]
+* [Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/), by Marten Čech
 * [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm), by Bérénice Batut
 
 ---- 
