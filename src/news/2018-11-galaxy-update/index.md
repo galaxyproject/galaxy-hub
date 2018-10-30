@@ -33,7 +33,7 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The [first day](/src/events/2018-europe-dev/index.md#monday-november-19th) will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The [second day](/src/events/2018-europe-dev/index.md#tuesday-november-20th) will focus on developing and extending the Galaxy ecosystem.
 
 **The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
 
@@ -44,7 +44,7 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 
 **[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open. Early registration rates end October 31st. 
+**[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
 
 See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
 
@@ -123,7 +123,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 </div>
 
-There are XXX new *[Galactic Blog](/src/blog/index.md)* entries:
+There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+
+* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](/src//blog/2018-10-totm/index.md)
 
 
 ---- 
