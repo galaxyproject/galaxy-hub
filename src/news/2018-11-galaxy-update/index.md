@@ -13,12 +13,12 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
   * [2019 Galaxy Admin Training](/src/news/2018-11-galaxy-update/index.md#2019-galaxy-admin-training)
   * [All upcoming events](#upcoming-events)
 * New:
+  * [Galaxy Platforms Directory Reoragnization](#public-galaxy-server-news), all of the Galaxies in one spot!
   * [XXX publications](#publications), including XXX highlighted ones
-  * XXX new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
-  * [Open positions with XXX organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
-  * [Public Galaxy Server News](#public-galaxy-server-news)
+  * Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
+  * [Open positions with seven organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
   * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)
+  * [Releases](#releases)Galaxy 18.09 is released!
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -123,9 +123,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 </div>
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
-
-* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](/src//blog/2018-10-totm/index.md)
+There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+* [Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/), by Marten Čech
+* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm), by Bérénice Batut
 
 
 ---- 
@@ -135,6 +135,7 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626) 
 * [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
@@ -145,7 +146,6 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
-
 
 # Tools
 
@@ -159,6 +159,10 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Releases
 
 New additions to the Galaxy Community.
+
+## Galaxy Release 18.09 
+We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has exetensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
+
 
 ----
 
