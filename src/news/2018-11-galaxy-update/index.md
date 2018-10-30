@@ -59,15 +59,11 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 [<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="220" />](/src/use/index.md>)
 
-We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md), for
-
+We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort:
 - public Galaxy servers,
 - academic and commercial cloud services,
 - containers, and
-- VMs
-
-This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort.
-
+- VMs.
 - Almost all of them are free to use (Commercial clouds are the exception)
 - Almost all of them are open to everyone (Academic clouds are the exception).
 - All of the resources can be used, either immediately, or shortly after getting an account.
