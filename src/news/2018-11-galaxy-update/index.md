@@ -44,7 +44,7 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 
 **[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-**[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
+**[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
 
 See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
 
@@ -55,9 +55,9 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ----
 
-# The new Galaxy Platforms Directory
+# New Galaxy Platforms Directory
 
-[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="220" />](/src/use/index.md>)
+[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/src/use/index.md>)
 
 We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort:
 - public Galaxy servers,
@@ -78,7 +78,7 @@ And there are several new platforms for running Galaxy this month too:
 
 ### SMAGEXP
 
-[<img src="/src/use/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="400" />](/src/use/smagexp/index.md)
+[<img src="/src/use/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="300" />](/src/use/smagexp/index.md)
 
 [SMAGEXP (Statistical Meta-Analysis for Gene EXPression)](/src/use/smagexp/index.md) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. A Galaxy instance is provided in a Docker container.  SMAGEXP comes with an [Installation and user guide, including two step-by-step examples](https://github.com/sblanck/smagexp#table-of-contents-).  It is supported by Univ. Lille Droit et Santé, Lille, France and Inria Lille-Nord Europe, MODAL, Lille, France.
 
@@ -95,29 +95,45 @@ quotas:
 
 # Publications
 
-**XXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
+**104 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in October.
 
 ## Highlighted Publications
 
-10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+*[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from October.
 
+* [Dynamic Framework for Reconfiguring Computing Resources in the Inter-cloud and Its Application to Genome Analysis Workflows](https://link.springer.com/chapter/10.1007/978-3-030-02738-4_14), Tomoya Tanjo, Jingtao Sun, Kazushige Saga, Atsuko Takefusa, Kento Aida. In: Xiang Y., Sun J., Fortino G., Guerrieri A., Jung J. (eds) Internet and Distributed Computing Systems. IDCS 2018. Lecture Notes in Computer Science, vol 11226. Springer, Cham
+* [Improve your Galaxy text life: The Query Tabular Tool](https://f1000research.com/articles/7-1604/v1), James E. Johnson, Praveen Kumar, Caleb Easterly, Mark Esler, Subina Mehta, Arthur C. Eschenlauer, Adrian D. Hegeman, Pratik D. Jagtap. *F1000Research* 2018, 7:1604
+* [Next Generation Indexing for Genomic Intervals](https://ieeexplore.ieee.org/document/8468044),  Vahid Jalili, Matteo Matteucci, Jeremy Goecks, Yashar Deldjoo, Stefano Ceri. *IEEE Transactions on Knowledge and Data Engineering* 2018, doi:10.1109/TKDE.2018.2871031
 
 
 ## Publication Topics
+
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 34 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 15 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
+| 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
+| 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | 1 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | |
 
 
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | 
+| 2 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>A-Game) | 
+| 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 1 | [>Biomina](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Biomina) | | 1 | [>ErasmusMC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ErasmusMC) | 
+| 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GalaxEast) | | 1 | [>GigaGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GigaGalaxy) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GIO) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | 
+| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | | 1 | [>MPI-HLR](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPI-HLR) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>PSC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PSC) | 
+| 1 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | | | | | | | | | |
 
 
 ----
 # New Galactic Blog Posts
 
-<div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
-</div>
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 * [Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/), by Marten Čech
@@ -131,8 +147,13 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
 * [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626) 
 * [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
+* [Galaxy Developer](https://www.linkedin.com/jobs/view/932281766/), Cambridge, United Kingdom
+* [Specialist Solutions Architect - Biological Sciences](https://us-amazon.icims.com/jobs/728182/specialist-solutions-architect----biological-sciences/job?mobile=false&width=1090&height=1200&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Amazon Web Services, United States
+* [Bioinformatics Scientist](https://www.indeed.com/job/bioinformatics-scientist-2ebc0d6975949ec8), ResearchDx, Irvine, California, United States
+* [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/), Integrated DNA technologies, Iowa City, Iowa, United States
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
@@ -164,3 +185,7 @@ We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.o
 
 # Other News
 
+* [Selbst ist der Forscher: Big-Data-Analysen leicht gemacht](https://www.laborpraxis.vogel.de/selbst-ist-der-forscher-big-data-analysen-leicht-gemacht-a-768506/), an article inn [LABORPRAXIS](https://www.laborpraxis.vogel.de/) about the Galaxy Freiburg team and the Backofen Lab.
+* [Broad, Johns Hopkins Tapped to Develop Cloud Infrastructure for NHGRI-Funded Research](https://www.genomeweb.com/informatics/broad-johns-hopkins-tapped-develop-cloud-infrastructure-nhgri-funded-research?utm_source=addthis_shares#.W9jYNlJRdTa), *GenomeWeb* article about the newly launched [NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL)](https://grants.nih.gov/grants/guide/rfa-files/RFA-HG-17-011.html) program, of which Galaxy will be a key component.
+* From [Bérénice Batut](https://github.com/bebatut):
+  * [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
