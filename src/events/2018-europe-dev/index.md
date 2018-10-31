@@ -29,6 +29,8 @@ confirmed speakers:
  - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
  - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
  - Thomas Wollman: *Galaxy Image Analysis: Web-based systematic phenotyping*
+ - Krzysztof Poterlowicz:
+
  
 
 **preliminary schedule**
