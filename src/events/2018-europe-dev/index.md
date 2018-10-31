@@ -29,9 +29,9 @@ confirmed speakers:
  - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
  - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
  - Thomas Wollman: *Galaxy Image Analysis: Web-based systematic phenotyping*
- - Krzysztof Poterlowicz:
+ - Krzysztof Poterlowicz: *EWAS tool development / Training / Elixir-CNV community*
 
- 
+
 
 **preliminary schedule**
 
@@ -71,6 +71,7 @@ Confirmed speakers:
  - Anup Kumar: *Machine learning with Galaxy*
  - Marius van den Beek, John Chilton: *Travelling with warp-speed, an update on Galaxy workflows*
  - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
+
 
  
 **preliminary schedule**
