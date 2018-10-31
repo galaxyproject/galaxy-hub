@@ -15,7 +15,7 @@ Galaxy will be featured several presentations at the [Cold Spring Harbor 2018 Bi
 
 | Date | Time | Topic | Contact |
 | ---- | :----: | ---- | ---- | ---- | ---- |
-| **October 7 - 10** | TBD | Can UI handle 10x datasets where X > 3? Yes, it can!| Anton Nekrutenko|
+| **October 7 - 10** | TBD | Can UI handle 10<sup>x</sup> datasets where X > 3? Yes, it can!| Anton Nekrutenko|
 | **October 7 - 10** | TBD | Accessible and scalable machine learning for biomedical data analysis | Jeremy Goecks|
 | **October 7 - 10** | TBD | Scaling scalable infrastructure to analysis tools| Daniel J Blankenberg|
 | **October 7 - 10** | TBD | Bacterial genomic at large scale with Galaxy - a Tn-SEQ example| Delphine Lariviere|
