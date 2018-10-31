@@ -3,7 +3,7 @@ title: Sorting your inputs
 ---
 [Back to Support Hub](/src/support/index.md)
 
-Many tools require inputs to be sorted in a specific way prior to use. 
+~~Many tools require inputs to be sorted in a specific way prior to use.~~
 
 Good news! Galaxy includes tools to do this sorting.
 
@@ -16,11 +16,34 @@ Good news! Galaxy includes tools to do this sorting.
 * **VCFsort** Best choice for VFC
 * **Tool Form Options for Sorting** Some tools have a tool form option to sort inputs during job execution. This uses more resources but is a choice. Whenever possible, _sort inputs before using tools_, especially if jobs are failing for not enough memory resources.
 
-## Example tools and Tool groups that require input sorting 
+## Updates 
+
+### Current usage as of the 18.09 release
+
+Uploaded BAM data will be assigned the `bam` datatype if it is already coordinate-sorted (header contains "SO:coordinate").
+
+Other BAM data will be assigned the `unsorted.bam` datatype. In most use cases, the data can be used without changes with tools (the proper sort/index will be created temporarily during runtime).
+
+Avoid assigning the `bam` datatype to datasets that are not actually coordinate sorted. Downsteam tools will either pause or fail. If you reassigned before reading this, changing the datatype back to `unsorted.bam` will resolve most issues.
+
+
+----
+
+**Note: All usage help below is now deprecated if it involves BAM datasets.**
+
+----
+
+## Deprecated: Example tools and Tool groups that require input sorting 
+
+`Deprecated help below`
 
 The list is not comprehensive. If a tool fails, try sorting inputs as a first pass solution, whether this is declard or not on the tool form help. Cooridnate order is the most common ordering expected by tools. If queryname order is required, the tool form will usually declare that in the help.
 
-### Htseq_count
+### Deprecated: Htseq_count
+
+The tool now queryname sorts at runtime with default seetings.
+
+`Deprecated help below`
 
 Example error on bug report. 
 
@@ -34,7 +57,11 @@ How to sort?
 
 Set this option to **Yes**: _Force sorting of SAM/BAM file by NAME_
 
-### NGS: SAMTools (most)
+### Deprecated: SAMTools
+
+The tool now coordinate sorts at runtime with default seetings.
+
+`Deprecated help below`
 
 Example error on bug report. Yours may differ. If there is a problem, try sorting first before reporting a bug.
 
@@ -50,7 +77,11 @@ How to sort?
 Try using *Coordinate sort* on the inputs with **SortSam** before using these tools. This is often required as a distinct step even if the input dataset states in the name that it is already sorted.
 
 
-### NGS: Picard (most)
+### Deprecated: Picard
+
+The tool now coordinate sorts at runtime with default seetings.
+
+`Deprecated help below`
 
 Tools can error for a variety of reasons that seem to be unrelated to sort order, including this one seen on the bug report (click on the green bug icon, but there is no need to submit the bug/error). Instead, coordinate sort and then rerun.
 
@@ -61,7 +92,7 @@ Please click the bug icon to report this problem if you need help.
 ```
 
 
-### NGS: RNA-seq: Tophat, Cufflinks, Cuffmerge, Cuffdiff
+#### NGS: RNA-seq: Tophat, Cufflinks, Cuffmerge, Cuffdiff
 
 Different errors can be reported and some may seem unrelated to sort order. Try sorting as a first pass troubleshooting solution.
 
