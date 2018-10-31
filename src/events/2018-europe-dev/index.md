@@ -44,8 +44,8 @@ confirmed speakers:
 | 11:10 - 11:30 |  TBA  |    |   |
 | 11:30 - 15:50 |  TBA  |    |   |
 | 11:50 - 12:10 |  TBA  |    |   | 
-| 12:10 - 13:30 |  Lunch Break in nearby restaurant  | 
-| 13:30 - 13:50 |  TBA  |    |   | 
+| 12:10 - 13:30 |  Lunch Break  | 
+| 13:30 - 13:50 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  Galaxy Community Conference 2019 in Freiburg  |   | 
 | 13:50 - 14:10 |  TBA  |    |   |
 | 14:10 - 14:30 |  TBA  |    |   |
 | 14:30 - 14:50 |  TBA  |    |   | 
@@ -81,10 +81,11 @@ Confirmed speakers:
 | 9:40 - 10:50 |  talks, presentations, demos |   |   | 
 | 10:50 - 11:10 |  Coffee Break  |   |   |
 | 11:10 - 12:10 |  talks, presentations, demos |    |   |
-| 12:10 - 13:30 |  Lunch Break in nearby restaurant  |   |   |
-| 13:30 - 14:40 |  talks, presentations, demos |    |   |
-| 14:40 - 14:50 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
-| 14:50 - 15:20 |  Coffee Break  |   |   |
+| 12:10 - 13:30 |  Lunch Break  |   |   |
+| 13:30 - 13:50 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the Galaxy Training Network  |   | 
+| 13:50 - 14:50 |  talks, presentations, demos |    |   |
+| 14:50 - 15:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
+| 15:00 - 15:20 |  Coffee Break  |   |   |
 | 15:20 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  |   |   |  |
 
 ## Registration
