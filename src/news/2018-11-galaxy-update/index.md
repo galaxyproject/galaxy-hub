@@ -14,11 +14,11 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
   * [All upcoming events](#upcoming-events)
 * New:
   * [Galaxy Platforms Directory Reoragnization](#public-galaxy-server-news), all of the Galaxies in one spot!
-  * [XXX publications](#publications), including XXX highlighted ones
+  * [104 publications](#publications), including three highlighted ones
   * Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
   * [Open positions with seven organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
   * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)Galaxy 18.09 is released!
+  * [Releases](#releases) Galaxy 18.09 is released!
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
