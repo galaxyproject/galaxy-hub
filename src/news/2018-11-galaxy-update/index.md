@@ -25,37 +25,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ----
 
-# Events
-
-Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming events to help get you out and about.
-
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
-
-## European Galaxy Days, 19-20 November, Freiburg, Germany
-
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The [first day](/src/events/2018-europe-dev/index.md#monday-november-19th) will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The [second day](/src/events/2018-europe-dev/index.md#tuesday-november-20th) will focus on developing and extending the Galaxy ecosystem.
-
-**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
-
-
-## 2019 Galaxy Admin Training
-
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
-
-**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
-
-**[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
-
-See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
-
-## Upcoming events
-
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
-
-
-----
-
-# New Galaxy Platforms Directory
+# The Galaxy Platforms Directory
 
 [<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/src/use/index.md>)
 
@@ -90,6 +60,37 @@ And there are several new platforms for running Galaxy this month too:
 
 SNIC offers [support and training](https://www.snic.se/support/).  SNIC Science Cloud is currently a pilot project and not a production resource.  You can  [request a project here](https://cloud.snic.se/index.php/request-a-project-on-the-snic-community-cloud/).
 quotas:
+
+----
+
+# Events
+
+Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming events to help get you out and about.
+
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+
+## European Galaxy Days, 19-20 November, Freiburg, Germany
+
+**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The [first day](/src/events/2018-europe-dev/index.md#monday-november-19th) will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The [second day](/src/events/2018-europe-dev/index.md#tuesday-november-20th) will focus on developing and extending the Galaxy ecosystem.
+
+**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+
+
+## 2019 Galaxy Admin Training
+
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+
+**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
+
+**[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
+
+See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+
+## Upcoming events
+
+These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+
+
 
 ----
 
@@ -133,7 +134,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 ----
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/src/blog/index.md)
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 * [Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/), by Marten Čech
@@ -164,9 +165,32 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
-# Tools
+---
 
-## ToolShed Contributions
+# Doc, Hub, and Training Updates
+
+There was a mind-boggling amount of activity in the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in October:
+
+## Training Materials
+
+* New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
+* New [Ansible hands-on tutoral](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
+* New [Network analysis with Heinz slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html) and an updated [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html) from Cico Zhang and Saskia Hiltemann
+* A general update to the [Contributing to the Galaxy Training Material](https://galaxyproject.github.io/training-material/topics/contributing/) materials from Saskia Hiltemann
+* Update to [Genome annotation with Prokka](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) tutorial from Bérénice Batut and Ekaterina Polkh
+* Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from Anthony Bretaudeau
+* Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Helena Rasche
+* Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Helena Rasche
+* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from Yvan Le Bras 
+
+## Hub
+
+* [Sort Your Inputs](/src/support/sort-your-inputs/index.md), support article by [Jennifer Hillman-Jackson](/src/people/jennifer-hillman/index.md)
+* And the Hub now supports [DataTables](https://datatables.net/) (in a limited fashion, look for more in the future) and [Font Awesome 5](https://fontawesome.com/) (look for more spiffy icons).
+
+---
+
+# ToolShed Contributions
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
