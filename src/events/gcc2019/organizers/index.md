@@ -12,8 +12,10 @@ We can be reached at:
 
 * *[Bérénice Batut](http://research.bebatut.fr/)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/)
+* *[Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)*, [VIB-UGent Center for Plants and Systems Biology](https://www.psb.ugent.be/)
 * *[Monika Degen-Hellmuth](https://portal.uni-freiburg.de/iif/institut/Personen/direktor/sekretariat)*, [University of Freiburg](https://www.uni-freiburg.de/)
-* [Anika Erxleben](https://github.com/erxleben), [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)*, [FMI](http://www.fmi.ch/)
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
