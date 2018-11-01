@@ -90,7 +90,114 @@ See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
-
+<table class="table table-striped">
+<thead>
+  <tr>
+    <th>Date</th>
+    <th>Topic/Event</th>
+    <th>Venue/Location</th>
+    <th>Contact</th>
+  </tr></thead><tbody>
+</thead>
+<tbody>
+  <tr>
+    <td><span class="text-nowrap">November 4th 2018</span></td>
+    <td><a href="https://agtaconference.org/pre-conference-workshops/">Galaxy Australia – The Free Genetics and Genomics Analysis Platform</a></td>
+    <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://agtaconference.org/">AGTA, Adelaide, Australia</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gareth Price</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 5th 2018</span></td>
+    <td><a href="https://www.ics.forth.gr/index_main.php?l=e&amp;n=4&amp;id=531">An introduction to the Galaxy platform for computational biology</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.forth.gr/index_main.php?c=83">FORTH, Heraklion, Crete</a></td>
+    <td>Alexandros Kanterakis, Vangelis Kritsotakis</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 6th 2018</span></td>
+    <td><a href="http://www.vib.be/en/training/research-training/courses/Pages/NGS-Introduction-using-Galaxy.aspx">NGS Introduction using Galaxy</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://soleway.ugent.be/routes/2293">Ghent University, Ghent, Belgium</a></td>
+    <td>Paula Andrea Martinez, VIB</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 7th 2018</span></td>
+    <td><a href="/events/2018-csh-bds">Galaxy @ Cold Spring Harbor 2018 Biological Data Science meeting</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=DATA&amp;year=18">Cold Spring Harbor, New York, USA</a></td>
+    <td>Presenters</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 12th 2018</span></td>
+    <td><a href="/events/2018-11-biohackathon">BioHackathon 2018 Paris</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.chateauform.com/fr/maison/les-berges-de-seine/">Campus des Berges de Seine, Paris, France</a></td>
+    <td>Bérénice Batut, Hervé Ménager</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 12th 2018</span></td>
+    <td><a href="https://www.ceitec.eu/bioinformatics-workshop-next-generation-sequencing-data-analysis-using-galaxy/a3508">Brno Bioinformatics Workshop</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://goo.gl/maps/Fi6aYiRapBQ2">CEITEC, Brno, Czechia</a></td>
+    <td>Jan Oppelt, Jelle Scholtalbers</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 13th 2018</span></td>
+    <td><a href="https://qcb.ucla.edu/collaboratory/workshops/galaxy/">Galaxy for NGS Data Analysis</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/>UCLA, Los Angeles, California, United States, and Online</td>
+    <td>Weihong Yan</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 14th 2018</span></td>
+    <td><a href="https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/">Analyse des données RNA-Seq sous l'environnement Galaxy</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/>Lyon, France</td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 14th 2018</span></td>
+    <td><a href="http://www.embl-abr.org.au/about/events/">Introduction to Galaxy Australia – Metagenomics</a></td>
+    <td><img style="float:right;" src="/images/icons/AU.png"/>Universities: Melbourne, Queensland, Southern Queensland, Sydney, New South Wales, Adelaide, James Cook, Monash, Tasmania; Australia</td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 15th 2018</span></td>
+    <td><a href="/events/2018-11-gtn">GTN CoFest on Training Material</a></td>
+    <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
+    <td>Bérénice Batut, Saskia Hiltemann</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 19th 2018</span></td>
+    <td><a href="https://faes.org/content/advanced-studies-bioinformatics-and-data-science">RNA-seq analysis in Galaxy</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/>National Institutes of Health (NIH), Bethesda, Maryland, United States</td>
+    <td>mo@galaxyproject.org</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 19th 2018</span></td>
+    <td><a href="/events/2018-europe-dev">European Galaxy Days</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/>Freiburg, Germany</td>
+    <td>Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">November 28th 2018</span></td>
+    <td><a href="https://meetings.cshl.edu/courses.aspx?course=C-ECG&amp;year=18">Computational Genomics</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/index.aspx">CSHL, Cold Spring Harbor, New York, United States</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>James Taylor</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">December 6th 2018</span></td>
+    <td><a href="https://docs.google.com/document/d/1sBwuWNdWVymOqajbrzp8Xg-IcPRXeBpiZz217oAieYI/edit">Molecular Dynamics and Analysis using BRIDGE</a></td>
+    <td><img style="float:right;" src="/images/icons/AF.png"/><a href="https://events.chpc.ac.za/event/33/page/35-venue">Cape Town, South Africa</a></td>
+    <td>Organizers</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">January 28th 2019</span></td>
+    <td><a href="/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
+    <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+  </tr>
+  <tr>
+    <td><span class="text-nowrap">July 1st 2019</span></td>
+    <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
+    <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  </tr>
+</tbody>
+</table>
 
 ----
 
@@ -183,6 +290,10 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 * Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Helena Rasche
 * Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from Yvan Le Bras 
 
+And from [Bérénice Batut](https://github.com/bebatut):
+  * [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
+
+
 ## Hub
 
 * [Sort Your Inputs](/src/support/sort-your-inputs/index.md), support article by [Jennifer Hillman-Jackson](/src/people/jennifer-hillman/index.md)
@@ -211,5 +322,3 @@ We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.o
 
 * [Selbst ist der Forscher: Big-Data-Analysen leicht gemacht](https://www.laborpraxis.vogel.de/selbst-ist-der-forscher-big-data-analysen-leicht-gemacht-a-768506/), an article inn [LABORPRAXIS](https://www.laborpraxis.vogel.de/) about the Galaxy Freiburg team and the Backofen Lab.
 * [Broad, Johns Hopkins Tapped to Develop Cloud Infrastructure for NHGRI-Funded Research](https://www.genomeweb.com/informatics/broad-johns-hopkins-tapped-develop-cloud-infrastructure-nhgri-funded-research?utm_source=addthis_shares#.W9jYNlJRdTa), *GenomeWeb* article about the newly launched [NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL)](https://grants.nih.gov/grants/guide/rfa-files/RFA-HG-17-011.html) program, of which Galaxy will be a key component.
-* From [Bérénice Batut](https://github.com/bebatut):
-  * [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
