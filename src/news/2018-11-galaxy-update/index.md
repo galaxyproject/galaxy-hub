@@ -290,8 +290,8 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 * A general update to the [Contributing to the Galaxy Training Material](https://galaxyproject.github.io/training-material/topics/contributing/) materials from Saskia Hiltemann
 * Update to [Genome annotation with Prokka](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) tutorial from [Bérénice Batut](https://github.com/bebatut) and [Ekaterina Polkh](https://github.com/polkhe)
 * Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from [Anthony Bretaudeau](https://github.com/abretaud)
-* Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Helena Rasche
-* Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Helena Rasche
+* Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Nicola Soranzo and Peter van Heusden
+* Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Nicola Soranzo
 * Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from [Yvan Le Bras](https://github.com/yvanlebras) 
 
 And from [Bérénice Batut](https://github.com/bebatut):
@@ -321,7 +321,7 @@ New additions to the Galaxy Community.
 
 ## Galaxy Release 18.09 
 
-We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has exetensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
+We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has extensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
 
 ## Planemo 0.56.0
 
