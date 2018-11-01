@@ -1,6 +1,6 @@
 ---
 title: 'November 2018 Galactic News'
-tease: 'New events, pubs, blog posts, servers, tools and releases'
+tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and releases'
 date: ""
 ---
 
@@ -8,18 +8,18 @@ date: ""
 
 The *November  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* Events
-  * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
-  * [2019 Galaxy Admin Training](/src/news/2018-11-galaxy-update/index.md#2019-galaxy-admin-training)
-  * [All upcoming events](#upcoming-events)
-* New:
-  * [Galaxy Platforms Directory Reoragnization](#public-galaxy-server-news), all of the Galaxies in one spot!
-  * [104 publications](#publications), including three highlighted ones
-  * Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/#new-galactic-blog-posts)
-  * [Open positions with seven organizations](/src/news/2018-11-galaxy-update/#whos-hiring)
-  * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases) Galaxy 18.09 is released!
-* And [other news](#other-news) too
+* The [Galaxy Platforms Directory](/src/news/2018-11-galaxy-update/index.md#the-galaxy-platforms-directory): 125 ways to use Galaxy
+  * [New Galaxy Platforms](/src/news/2018-11-galaxy-update/index.md#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
+* [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), **19-20 November**, Freiburg, Germany
+* [2019 Galaxy Admin Training](/src/news/2018-11-galaxy-update/index.md#2019-galaxy-admin-training), January at Penn State
+* [All upcoming events](#upcoming-events)
+* [104 publications](#publications), including three highlighted ones
+* Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/index.md#new-galactic-blog-posts)
+* [Open positions](/src/news/2018-11-galaxy-update/#whos-hiring) (at least 12 of them)
+*  [Doc, Hub, and Training Updates](/src/news/2018-11-galaxy-update/index.md#doc-hub-and-training-updates)
+* [ToolShed contributions](/src/news/2018-11-galaxy-update/index.md#toolshed-contributions)
+* [Releases](/src/news/2018-11-galaxy-update/index.md#releases) Galaxy 18.09 is released!
+* And [other news](/src/news/2018-11-galaxy-update/index.md#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -29,14 +29,17 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/src/use/index.md>)
 
-We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort:
-- public Galaxy servers,
-- academic and commercial cloud services,
-- containers, and
-- VMs.
+We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
+
+- Public Galaxy servers
+- Academic and commercial cloud services that support Galaxy
+- Containers and VMs that run Galaxy
+
+And
+
 - Almost all of them are free to use (Commercial clouds are the exception)
-- Almost all of them are open to everyone (Academic clouds are the exception).
-- All of the resources can be used, either immediately, or shortly after getting an account.
+- Almost all of them are open to everyone (Academic clouds are the exception)
+- All of the resources can be used, either immediately, or shortly after getting an account
 
 These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
 
@@ -97,7 +100,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
     <th>Topic/Event</th>
     <th>Venue/Location</th>
     <th>Contact</th>
-  </tr></thead><tbody>
+  </tr>
 </thead>
 <tbody>
   <tr>
@@ -276,27 +279,32 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-There was a mind-boggling amount of activity in the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in October:
+There was a mind-boggling amount of activity in the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in October, and some Hub activity as well:
 
 ## Training Materials
 
-* New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+
+* New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](https://github.com/erasche)
 * New [Ansible hands-on tutoral](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
-* New [Network analysis with Heinz slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html) and an updated [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html) from Cico Zhang and Saskia Hiltemann
+* New [Network analysis with Heinz slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html) and an updated [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html) from [Cico Zhang](https://github.com/CicoZhang) and [Saskia Hiltemann](https://github.com/shiltemann)
 * A general update to the [Contributing to the Galaxy Training Material](https://galaxyproject.github.io/training-material/topics/contributing/) materials from Saskia Hiltemann
-* Update to [Genome annotation with Prokka](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) tutorial from Bérénice Batut and Ekaterina Polkh
-* Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from Anthony Bretaudeau
+* Update to [Genome annotation with Prokka](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) tutorial from [Bérénice Batut](https://github.com/bebatut) and [Ekaterina Polkh](https://github.com/polkhe)
+* Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from [Anthony Bretaudeau](https://github.com/abretaud)
 * Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Helena Rasche
 * Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Helena Rasche
-* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from Yvan Le Bras 
+* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from [Yvan Le Bras](https://github.com/yvanlebras) 
 
 And from [Bérénice Batut](https://github.com/bebatut):
+
   * [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
+
+And we would especially like to welcome new contributors [Matthias313](https://github.com/Matthias313), [foellmelanie](https://github.com/foellmelanie), and [Florian-H-Lab](https://github.com/Florian-H-Lab).
 
 
 ## Hub
 
-* [Sort Your Inputs](/src/support/sort-your-inputs/index.md), support article by [Jennifer Hillman-Jackson](/src/people/jennifer-hillman/index.md)
+* [Sorting Your Inputs](/src/support/sort-your-inputs/index.md), a how-to page by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)
 * And the Hub now supports [DataTables](https://datatables.net/) (in a limited fashion, look for more in the future) and [Font Awesome 5](https://fontawesome.com/) (look for more spiffy icons).
 
 ---
@@ -313,7 +321,16 @@ And from [Bérénice Batut](https://github.com/bebatut):
 New additions to the Galaxy Community.
 
 ## Galaxy Release 18.09 
+
 We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has exetensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
+
+## Planemo 0.56.0
+
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
 
 ----
