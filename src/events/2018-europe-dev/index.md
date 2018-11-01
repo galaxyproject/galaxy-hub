@@ -22,39 +22,30 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 We intend to have a full day of talks from you. We especially encourage Galaxy User to present their work with Galaxy. 
 Please indicate your interest in presenting when you register (we will then get in contact with you). Or contact us directly.
 
-confirmed speakers: 
- - Musumba Awori: *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*
- - Jochen Bick: 
- - Matthias Bernt: *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*
- - Geoffrey Nelson: *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*
- - Bérénice Batut: *RNA-Seq data analysis in Galaxy: lessons learned and what next?*
- - Thomas Wollman: *Galaxy Image Analysis: Web-based systematic phenotyping*
- - Krzysztof Poterlowicz: *EWAS tool development / Training / Elixir-CNV community*
 
 
-
-**preliminary schedule**
+**schedule**
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
-| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and short introduction into the Galaxy Project  |   |
+| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |   |
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)), [Jean-François Dufayard ](/src/people/jeanfrancois-dufayard/index.md) ([cirad](https://www.cirad.fr/)) |  State of the Galaxy Project - priorities, plans, and community  |   | 
 | 10:50 - 11:10 |  Coffee Break  |   |   |
-| 11:10 - 11:30 |  TBA  |    |   |
-| 11:30 - 15:50 |  TBA  |    |   |
-| 11:50 - 12:10 |  TBA  |    |   | 
-| 12:10 - 13:30 |  Lunch Break  | 
-| 13:30 - 13:50 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
-| 13:50 - 14:10 |  TBA  |    |   |
-| 14:10 - 14:30 |  TBA  |    |   |
-| 14:30 - 14:50 |  TBA  |    |   | 
-| 14:50 - 15:20 |  Coffee Break  |   |   |
-| 15:20 - 15:40 |  TBA  |    |   |
-| 15:40 - 16:00 |  TBA  |    |   | 
-| 16:00 - 17:00 |  Lightning talks  |   |   | 
-| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
-| 17:01 - 17:15 |  ...going to the pub  |   |   |
+| 11:10 - 11:35 |  Matthias Bernt  |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
+| 11:35 - 12:00 |  Geoffrey Nelson  |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*  |    |   |
+| 12:00 - 12:25 |  Thomas Wollman  |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
+| 12:25 - 13:30 |  Lunch Break  | 
+| 13:30 - 13:45 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
+| 13:45 - 14:10 |  Musumba Awori  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
+| 14:10 - 14:35 |  Jochen Bick  |  TBA  |    |
+| 14:35 - 15:00 |  Coffee Break  |   |   |
+| 15:00 - 15:25 |  Krzysztof Poterlowicz  |  *EWAS tool development / Training / Elixir-CNV community* |    |
+| 15:25 - 15:50 |  Bérénice Batut  |  RNA-Seq data analysis in Galaxy: lessons learned and what next?  |    |
+| 15:50 - 16:15 |  TBA  |   |   |
+| 16:15 - 16:40 |  TBA  |   |   | 
+| 16:40 - 16:45 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
+| 16:45 |  ...going to the pub  |   |   |
 
 
 
