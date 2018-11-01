@@ -31,18 +31,17 @@ Please indicate your interest in presenting when you register (we will then get 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
 | 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |   |
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)), [Jean-François Dufayard ](/src/people/jeanfrancois-dufayard/index.md) ([cirad](https://www.cirad.fr/)) |  State of the Galaxy Project - priorities, plans, and community  |   | 
-| 10:50 - 11:10 |  Coffee Break  |   |   |
-| 11:10 - 11:35 |  Matthias Bernt  |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
-| 11:35 - 12:00 |  Geoffrey Nelson  |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench*  |    |   |
-| 12:00 - 12:25 |  Thomas Wollman  |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
-| 12:25 - 13:30 |  Lunch Break  | 
+| 10:50 - 11:20 |  Coffee Break  |   |   |
+| 11:20 - 11:45 |  Matthias Bernt  |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
+| 11:45 - 12:20 |  Geoffrey Nelson  |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |   |
+| 12:20 - 13:30 |  Lunch Break  | 
 | 13:30 - 13:45 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:45 - 14:10 |  Musumba Awori  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
-| 14:10 - 14:35 |  Jochen Bick  |  TBA  |    |
+| 14:10 - 14:35 |  Thomas Wollman  |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
 | 14:35 - 15:00 |  Coffee Break  |   |   |
-| 15:00 - 15:25 |  Krzysztof Poterlowicz  |  *EWAS tool development / Training / Elixir-CNV community* |    |
-| 15:25 - 15:50 |  Bérénice Batut  |  RNA-Seq data analysis in Galaxy: lessons learned and what next?  |    |
-| 15:50 - 16:15 |  TBA  |   |   |
+| 15:00 - 15:25 |  Jochen Bick  |  TBA  |    |
+| 15:25 - 15:50 |  Krzysztof Poterlowicz  |  *EWAS tool development / Training / Elixir-CNV community* |    |
+| 15:50 - 16:15 |  Bérénice Batut  |  RNA-Seq data analysis in Galaxy: lessons learned and what next?  |    |
 | 16:15 - 16:40 |  TBA  |   |   | 
 | 16:40 - 16:45 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
 | 16:45 |  ...going to the pub  |   |   |
@@ -53,32 +52,27 @@ Please indicate your interest in presenting when you register (we will then get 
 
 This day is more on the technical side, with presentation, tutorials and hands on exercises. 
 
-Confirmed speakers:
- - Marco Tangaro: *Providing Galaxy based bioinformatic environments through cloud technologies*
- - Nicola Soranzo: *Beta Python 3 support for Galaxy in release 18.09, at last!*
- - Sveinung Gundersen: *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*
- - Yvan Le Bras: *GalaxyE, a new vision of workflow oriented Biodiversity research?*
- - Nikolay Vazov: TBA
- - Anup Kumar: *Machine learning with Galaxy*
- - Marius van den Beek, John Chilton: *Travelling with warp-speed, an update on Galaxy workflows*
- - Hans-Rudolf Hotz: *Combining Galaxy with Shiny*
-
 
  
-**preliminary schedule**
+**schedule**
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:30 - 9:40 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
-| 9:40 - 10:50 |  talks, presentations, demos |   |   | 
-| 10:50 - 11:10 |  Coffee Break  |   |   |
-| 11:10 - 12:10 |  talks, presentations, demos |    |   |
-| 12:10 - 13:30 |  Lunch Break  |   |   |
-| 13:30 - 13:50 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
-| 13:50 - 14:50 |  talks, presentations, demos |    |   |
-| 14:50 - 15:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
-| 15:00 - 15:20 |  Coffee Break  |   |   |
-| 15:20 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  |   |   |  |
+| 9:40 - 10:05 |  Marius van den Beek, John Chilton  |  *Travelling with warp-speed, an update on Galaxy workflows* |   |
+| 10:05 - 10:30 |  Nicola Soranzo  | *Beta Python 3 support for Galaxy in release 18.09, at last!*  |   | 
+| 10:30 - 11:00 |  Coffee Break  |   |   |
+| 11:00 - 11:35 |  Marco Tangaro  | *Providing Galaxy based bioinformatic environments through cloud technologies* (plus demo) |    |   |
+| 11:35 - 12:00 | Sveinung Gundersen  |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |    |
+| 12:00 - 12:25 |  talks, presentations, demos |    |   |
+| 12:25 - 13:35 |  Lunch Break  |   |   |
+| 13:35 - 13:50 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
+| 13:50 - 14:15 |  Nikolay Vazov  | TBA |  |
+| 14:15 - 14:40 |  Yvan Le Bras  | *GalaxyE, a new vision of workflow oriented Biodiversity research?* |    | 
+| 14:40 - 15:05 |  Anup Kumar: *Machine learning with Galaxy*
+| 15:05 - 15:10 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
+| 15:00 - 15:30 |  Coffee Break  |   |   |
+| 15:30 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  |   |   |  |
 
 ## Registration
 
