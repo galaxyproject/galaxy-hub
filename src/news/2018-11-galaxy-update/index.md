@@ -1,10 +1,10 @@
 ---
 title: 'November 2018 Galactic News'
 tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and releases'
-date: ""
+date: "2018-11-01"
 ---
 
-[<img class="float-right" src="/src/news/2018-11-galaxy-update/2018-11-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2018-11-galaxy-update/2018-11-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *November  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -247,9 +247,8 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/src/blog/index.md)
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
-* [Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/), by Marten Čech
-* [Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm), by Bérénice Batut
-
+* **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/)**, by Marten Čech
+* **[Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm)**, by Bérénice Batut
 
 ---- 
 # Who's Hiring
@@ -283,7 +282,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 ## Training Materials
 
-[<img class="float-right" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](https://github.com/erasche)
 * New [Ansible hands-on tutoral](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
