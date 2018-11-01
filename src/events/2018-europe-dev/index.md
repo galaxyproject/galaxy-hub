@@ -27,8 +27,8 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)), [Jean-François Dufayard ](/src/people/jeanfrancois-dufayard/index.md) ([cirad](https://www.cirad.fr/)) |  State of the Galaxy Project - priorities, plans, and community  |   | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
 | 11:20 - 11:45 |  Matthias Bernt  |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
-| 11:45 - 12:20 |  Geoffrey Nelson  |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |   |
-| 12:20 - 13:30 |  Lunch Break  |  |
+| 11:45 - 12:20 |  Geoffrey Nelson  |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |
+| 12:20 - 13:30 |  Lunch Break  |   |  |
 | 13:30 - 13:45 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:45 - 14:10 |  Musumba Awori  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
 | 14:10 - 14:35 |  Thomas Wollman  |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
@@ -53,7 +53,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | 10:30 - 11:00 |  Coffee Break  |   |   |
 | 11:00 - 11:35 |  Marco Tangaro  | [*Providing Galaxy based bioinformatic environments through cloud technologies*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marco-tangaro) (plus demo) |    |   |
 | 11:35 - 12:00 | Sveinung Gundersen  |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |    |
-| 12:00 - 12:25 |  talks, presentations, demos |    |   |
+| 12:00 - 12:25 |  TBA |    |   |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
 | 13:35 - 13:50 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
 | 13:50 - 14:15 |  Nikolay Vazov  | TBA |  |
