@@ -112,9 +112,7 @@ http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 * **[Intercity Hotel Freiburg](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)**<br />
   Bismarckallee 3
 
-Note:<br />
-In Freiburg you have to pay an additional accommodation tax. For business trips this tax does not have to be paid [if your employer fills out this form](http://www.freiburg.de/servicebw/UebernachtungSt_Arbeitgeberbescheinigung.pdf)
-and you show this form to the hotel.
+**Note**: In Freiburg you have to pay an additional accommodation tax. For business trips this tax does not have to be paid if your employer fills out the [form available at this page](https://www.freiburg.de/pb/,Lde/591062.html) and you show this form to the hotel.
 
 ## Questions?
 
