@@ -24,7 +24,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | ---- | -------- | ------ | ------- | 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
 | 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |   |
-| 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)), [Jean-François Dufayard ](/src/people/jeanfrancois-dufayard/index.md) ([cirad](https://www.cirad.fr/)) |  State of the Galaxy Project - priorities, plans, and community  |   | 
+| 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  State of the Galaxy Project - priorities, plans, and community (from a European perspective)  |   | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
 | 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |
@@ -53,7 +53,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | 10:30 - 11:00 |  Coffee Break  |   |   |
 | 11:00 - 11:35 |  Marco Tangaro ([IBIOM](http://www.ibiom.cnr.it/))  | [*Providing Galaxy based bioinformatic environments through cloud technologies*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marco-tangaro) (plus demo) |    |   |
 | 11:35 - 12:00 | Sveinung Gundersen ([UiO](https://www.usit.uio.no/))   |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |    |
-| 12:00 - 12:25 |  TBA |    |   |
+| 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | State of the European Galaxy Project |  |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
 | 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
 | 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | *TBA* |  |
