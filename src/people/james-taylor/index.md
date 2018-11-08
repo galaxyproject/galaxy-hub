@@ -13,6 +13,6 @@ Associate Professor of  [Biology](http://www.bio.jhu.edu/) at [Johns Hokins Univ
   </tr>
   <tr>
     <th> URL </th>
-    <td> <a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'>Home page</a> </td>
+    <td> <a href="https://www.taylorlab.org/">Home page</a> </td>
   </tr>
 </table>
