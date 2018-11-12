@@ -17,6 +17,11 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 **European Galaxy Days** will be held  19 and 20 November 2018 in Freiburg, Germany. This two day gathering will be similar to the events we held in [2016](/src/events/sg2016/), [2014](/src/events/sg2014/), and [2012](/src/events/switzerland2012/). The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
 
+## Latest News
+
+12-Nov: If you travel on Sunday to Freiburg, and want to meet up in the late afternoon: We meet in the middle of old town, in front of the cathedral ("Freiburger Muenster"), near the fountain ([Georgsbrunnen](https://de.wikipedia.org/wiki/Georgsbrunnen_(Freiburg_im_Breisgau))) at 5PM. The place where we will have dinner (and/or beer) will be posted here and on [gitter](https://gitter.im/usegalaxy-eu/Lobby).
+
+
 ## Monday, November 19th
 
 
