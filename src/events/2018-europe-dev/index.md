@@ -19,7 +19,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 
 ## Latest News
 
-12-Nov: If you travel on Sunday to Freiburg, and want to meet up in the late afternoon: We meet in the middle of old town, in front of the cathedral ("Freiburger Muenster"), near the fountain ([Georgsbrunnen](https://de.wikipedia.org/wiki/Georgsbrunnen_(Freiburg_im_Breisgau))) at 5PM. The place where we will have dinner (and/or beer) will be posted here and on [gitter](https://gitter.im/usegalaxy-eu/Lobby).
+12-Nov: If you travel on Sunday (November 18th) to Freiburg, and want to meet up in the late afternoon: We meet in the middle of the old town, in front of the cathedral ("Freiburger Muenster"), near the fountain ([Georgsbrunnen](https://de.wikipedia.org/wiki/Georgsbrunnen_(Freiburg_im_Breisgau )) at 5PM. The place where we will have dinner (and/or beer) will be posted here and on [gitter](https://gitter.im/usegalaxy-eu/Lobby).
 
 
 ## Monday, November 19th
