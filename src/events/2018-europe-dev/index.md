@@ -37,7 +37,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:55 - 14:20 |  Musumba Awori ([Goethe University of Frankfurt](http://www.goethe-university-frankfurt.de))  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
 | 14:20 - 14:45 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
-| 14:45 - 15:10 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *TBA*  |    |
+| 14:45 - 15:10 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |    |
 | 15:10 - 15:40 |   Coffee Break  |   |   |
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) |    |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  |    |
@@ -61,7 +61,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 | 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | State of the European Galaxy Project |  |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
 | 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
-| 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | *TBA* |  |
+| 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) |  |
 | 14:10 - 14:35 |  Yvan Le Bras ([Muséum national d’histoire naturelle](https://www.mnhn.fr/)) | [*GalaxyE, a new vision of workflow oriented Biodiversity research?*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#yvan-le-bras) |    | 
 | 14:35 - 15:00 |  Anup Kumar ([University of Freiburg](http://www.uni-freiburg.de/))  | *Machine learning with Galaxy* |   |
 | 15:00 - 15:10 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
