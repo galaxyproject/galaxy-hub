@@ -1,6 +1,6 @@
 ---
 title: "GCCBOSC 2018 Videos are Online"
-tease: "Missed it? Here are the 70+ talks from GCCBOSC 2018."
+tease: "Missed it? Now you can watch all 70+ talks from GCCBOSC 2018."
 date: '2018-11-14'
 ---
 
