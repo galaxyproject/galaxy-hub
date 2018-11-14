@@ -26,7 +26,6 @@ I did a Master's degree in computer science with a specialisation in bioinformat
 
 ### Can you tell us a little about yourself and your relationship to training?
 
-Can you tell us a little about yourself and your relationship to training?
 I have always enjoyed teaching, having worked as a tutor all througout university. I strongly believe that the domain experts (scientists, clinicians) should be empowered to run their own analyses, without being reliant on a specialist bioinformatician. I think Galaxy is an ideal platform for delivering training, because it allows learners to really focus on the analysis concepts, instead of details of the implementation or unix commandline. When the Galaxy Training Materials project started I was very excited, and have loved contributing to this project and being a part of the awesome community behind it.
 
 ### Why have you selected this particular tutorial as the tutorial of the month?
