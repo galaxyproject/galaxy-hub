@@ -21,7 +21,7 @@ If you do not have a Galaxy repository yet or you do not want to update the exis
 ```
 $ git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git
 ```
-### Updating exiting
+### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
 
