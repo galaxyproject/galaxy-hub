@@ -34,7 +34,7 @@ However you can add as many Tool Sheds as you want to the configuration file of 
 
 ## Open the Tool Shed
 
-Go to Galaxy [Admin Interface](/src/admin/index.md) and click `Search Tool Shed`.
+Go to Galaxy [Admin Interface](/src/admin/index.md) and click `Install new tools`.
 
 You will see the following in the middle panel:
 
