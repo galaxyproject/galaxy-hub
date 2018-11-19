@@ -21,9 +21,12 @@ user_support:
 quotas:
 - "To be defined"
 citations:
+- '[Laniakea: an open solution to provide Galaxy "on-demand" instances over heterogeneous cloud infrastructures]( https://doi.org/10.1101/472464).
+Marco Antonio Tangaro, Giacinto Donvito, Marica Antonacci, Matteo Chiara, Pietro Mandreoli, Graziano Pesole, Federico Zambelli. *bioRxiv* 472464; doi: 10.1101/472464'
 - '[INDIGO-DataCloud: a Platform to Facilitate Seamless Access to E-Infrastructures
 ](https://doi.org/10.1007/s10723-018-9453-3), Salomoni, D., Campos, I., Gaido, L. et al. *J Grid Computing* (2018) 16: 381. doi:10.1007/s10723-018-9453-3'
 pub_libraries:
+- "Laniakea"
 sponsors:
 - "[ELIXIR-Italy](http://elixir-italy.org/)"
 ---
