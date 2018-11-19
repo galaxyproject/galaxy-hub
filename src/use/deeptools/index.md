@@ -6,6 +6,9 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://deeptools.ie-freiburg.mpg.de/"
     platform_text: "deepTools server"
+  - platform_group: "container"
+    platform_url: "https://hub.docker.com/r/bgruening/galaxy-deeptools"
+    platform_text: "Galaxy deepTools Docker"
 summary: "deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments."
 image: "/src/use/deeptools/deeptools.png"
 comments:
