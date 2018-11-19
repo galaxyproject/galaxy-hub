@@ -12,7 +12,7 @@ We can be reached at:
 
 * *[Bérénice Batut](http://research.bebatut.fr/)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/)
-* *[Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)*, [VIB-UGent Center for Plants and Systems Biology](https://www.psb.ugent.be/)
+* *[Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)*, [VIB](https://www.psb.ugent.be/), [UGent](https://www.ugent.be), [ELIXIR Belgium](https://www.elixir-belgium.org)
 * *[Monika Degen-Hellmuth](https://portal.uni-freiburg.de/iif/institut/Personen/direktor/sekretariat)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
