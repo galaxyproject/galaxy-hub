@@ -23,6 +23,11 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 
 12-Nov: If you travel on Sunday (November 18th) to Freiburg, and want to meet up in the late afternoon: We meet in the middle of the old town, in front of the cathedral ("Freiburger Muenster"), near the fountain ([Georgsbrunnen](https://de.wikipedia.org/wiki/Georgsbrunnen_(Freiburg_im_Breisgau )) at 5PM. The place where we will have dinner (and/or beer) will be posted here and on [gitter](https://gitter.im/usegalaxy-eu/Lobby).
 
+## Dinner, November 19th, 19:00
+
+We have reserved a few tables at the [Mehlwaage](https://mehlwaage.wordpress.com) at 19:00. Its in the city, nearby
+Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
+
 
 ## Monday, November 19th
 
