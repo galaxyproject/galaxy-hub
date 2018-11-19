@@ -6,7 +6,7 @@ tease: "bring together disparate data and compute resources to effectively handl
 continent: GL
 location: "Online"
 location_url: "https://bluewaters.ncsa.illinois.edu/webinars"
-external_url: ""
+external_url: "https://bluewaters.ncsa.illinois.edu/webinars/workflows/galaxy"
 gtn: false
 contact: "Enis Afgan"
 image: 
