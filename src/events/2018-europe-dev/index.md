@@ -42,10 +42,9 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |
 | 12:20 - 13:30 |  Lunch Break  |   |  |
 | 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
-| 13:55 - 14:20 |  Musumba Awori ([Goethe University of Frankfurt](http://www.goethe-university-frankfurt.de))  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
-| 14:20 - 14:45 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
-| 14:45 - 15:10 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |    |
-| 15:10 - 15:40 |   Coffee Break  |   |   |
+| 13:55 - 14:20 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
+| 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |    |
+| 14:45 - 15:40 |   Coffee Break  |   |   |
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) |    |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  |    |
 | 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* |   | 
@@ -59,10 +58,11 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
-| 9:30 - 9:40 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
-| 9:40 - 10:05 |  Marius van den Beek ([Institut Curie](https://institut-curie.org/)), John Chilton ([Penn State](http://www.bx.psu.edu/)) |  [*Travelling with warp-speed, an update on Galaxy workflows*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marius-van-den-beek-john-chilton) |   |
-| 10:05 - 10:30 |  Nicola Soranzo ([Earlham Institute](http://www.earlham.ac.uk/)) | *Beta Python 3 support for Galaxy in release 18.09, at last!*  |   | 
-| 10:30 - 11:00 |  Coffee Break  |   |   |
+| 9:00 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
+| 9:30 - 09:55 |  Marius van den Beek ([Institut Curie](https://institut-curie.org/)), John Chilton ([Penn State](http://www.bx.psu.edu/)) |  [*Travelling with warp-speed, an update on Galaxy workflows*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marius-van-den-beek-john-chilton) |   |
+| 09:55 - 10:20 |  Nicola Soranzo ([Earlham Institute](http://www.earlham.ac.uk/)) | *Beta Python 3 support for Galaxy in release 18.09, at last!*  |   | 
+| 10:20 - 10:450 |  Musumba Awori ([Goethe University of Frankfurt](http://www.goethe-university-frankfurt.de))  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
+| 10:45 - 11:00 |  Coffee Break  |   |   |
 | 11:00 - 11:35 |  Marco Tangaro ([IBIOM](http://www.ibiom.cnr.it/))  | [*Providing Galaxy based bioinformatic environments through cloud technologies*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marco-tangaro) (plus demo) |    |   |
 | 11:35 - 12:00 | Sveinung Gundersen ([UiO](https://www.usit.uio.no/))   |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |    |
 | 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | State of the European Galaxy Project |  |
