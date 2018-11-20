@@ -51,7 +51,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 14:45 - 15:40 |   Coffee Break  |   |   |
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) |    |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  | [slides](http://bebatut.fr/talks/18/11_19_egd/#/1) |
-| 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* |   | 
+| 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* | [slides](https://docs.google.com/presentation/d/1uLub5IfCjhMr52R8spCRdkk4yAvKyx2M7z9JmLrqVwM/edit?usp=sharing)  | 
 | 16:55 - 17:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
 | 17:00 |  ...going to the pub  |   |   |
 
