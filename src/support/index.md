@@ -34,6 +34,7 @@ title: Galaxy Support
 * [Understanding the Analysis History](/src/tutorials/histories/index.md)
 * [Managing Datasets](/src/learn/managing-datasets/index.md)
 * [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+* [More about moving Datasets and Histories](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/) (external GVL blog)
 
 ### Data Options
 
@@ -43,7 +44,7 @@ title: Galaxy Support
 ### Help Guides
 
 * [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/index.md)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/blob/master/README.md)
 * [Commercial Galaxy Support](/src/support/commercial/index.md)
 
 ## Troubleshooting
@@ -59,10 +60,12 @@ title: Galaxy Support
 ### Unexpected results
 
 * [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
-* [Troubleshoot an error](/src/support/troubleshoot-an-error/index.md)
-* [Known Tool Issues (check here first if a tool failed)](/src/support/tool-issues/index.md)
-* [Known Data Issues](/src/support/data-issues/index.md)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
+
 
 ### Getting inputs *right*
 

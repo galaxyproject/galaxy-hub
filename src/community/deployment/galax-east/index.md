@@ -2,7 +2,7 @@
 title: [GalaxyEast](http://www.galaxeast.fr)
 ---
 <div class='center'>
-<a href='http://www.galaxeast.fr'><img src="/src/public-galaxy-servers/GalaxEast.png" alt="GalaxEast" height="200" /></a>
+<a href='http://www.galaxeast.fr'><img src="/src/use/galaxeast/galaxeast.png" alt="GalaxEast" height="200" /></a>
 </div>
 
 
@@ -107,4 +107,4 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 * [GalaxEast Server](http://www.galaxeast.fr)
 * [GalaxEast poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/src/events/eccb2014/index.md)
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
-* [GalaxEast entry](/src/public-galaxy-servers/index.md#galaxeast) in [Public Galaxy Servers list](/src/public-galaxy-servers/index.md)
+* [GalaxEast entry](/src/use/galaxeast/index.md) in [Public Galaxy Servers list](/src/use/index.md)

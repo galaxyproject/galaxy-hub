@@ -180,37 +180,37 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from the recently added publications:
 
-* [Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics](http://dx.doi.org/10.1016/j.biocel.2017.07.002)
+* [Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics](https://doi.org/10.1016/j.biocel.2017.07.002)
   Yann Guitton, Marie Tremblay-Franco, Gildas Le Corguillé, et al. *The International Journal of Biochemistry & Cell Biology* (July 2017), doi:10.1016/j.biocel.2017.07.002
 
-* [Workflow Integration and Orchestration, Opportunities and the Challenges](http://dx.doi.org/10.1007/978-3-319-56982-6_8)
+* [Workflow Integration and Orchestration, Opportunities and the Challenges](https://doi.org/10.1007/978-3-319-56982-6_8)
   G. Kousalya, P. Balakrishnan, C. Pethuru Raj. In Automated Workflow Scheduling in Self-Adaptive Clouds (2017), pp. 137-156, doi:10.1007/978-3-319-56982-6_8
 
-* [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](http://dx.doi.org/10.1093/nar/gkx409)
+* [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](https://doi.org/10.1093/nar/gkx409)
   Björn A. Grüning, Jörg Fallmann, Dilmurat Yusuf, et al. *Nucleic Acids Research*, Vol. 45, No. W1. (03 July 2017), pp. W560-W566, doi:10.1093/nar/gkx409
 
-* [RNA-bioinformatics: Tools, services and databases for the analysis of RNA-based regulation](http://dx.doi.org/10.1016/j.jbiotec.2017.05.019)
+* [RNA-bioinformatics: Tools, services and databases for the analysis of RNA-based regulation](https://doi.org/10.1016/j.jbiotec.2017.05.019)
   Rolf Backofen, Jan Engelhardt, Anika Erxleben, et al. *Journal of Biotechnology* (May 2017), doi:10.1016/j.jbiotec.2017.05.019
 
-* [Assessing therapeutic potential of molecules: molecular property diagnostic suite for tuberculosis (MPDS<sup>TB</sup>)](http://dx.doi.org/10.1007/s12039-017-1268-4)
+* [Assessing therapeutic potential of molecules: molecular property diagnostic suite for tuberculosis (MPDS<sup>TB</sup>)](https://doi.org/10.1007/s12039-017-1268-4)
   AnamikaSingh Gaur, Anshu Bhardwaj, Arun Sharma, et al. *Journal of Chemical Sciences*, Vol. 129, No. 5. (2017), pp. 515-531, doi:10.1007/s12039-017-1268-4
 
-* [Computational Generation of RNA Nanorings](http://dx.doi.org/10.1007/978-1-4939-7138-1_2)
+* [Computational Generation of RNA Nanorings](https://doi.org/10.1007/978-1-4939-7138-1_2)
   Rishabh Sharan, Eckart Bindewald, WojciechK Kasprzak, BruceA Shapiro; edited by Eckart Bindewald, Bruce A. Shapiro. In RNA Nanostructures, Vol. 1632 (2017), pp. 19-32, doi:10.1007/978-1-4939-7138-1_2
 
-* [Globus: A Case Study in Software As a Service for Scientists](http://dx.doi.org/10.1145/3086567.3086570)
+* [Globus: A Case Study in Software As a Service for Scientists](https://doi.org/10.1145/3086567.3086570)
   Bryce Allen, Rachana Ananthakrishnan, Kyle Chard, et al. In Proceedings of the 8th Workshop on Scientific Cloud Computing (2017), pp. 25-32, doi:10.1145/3086567.3086570
 
-* [Demonstrating Distributed Workflow Computing with a Federating Wide-Area File System](http://dx.doi.org/10.1145/3093338.3093389)
+* [Demonstrating Distributed Workflow Computing with a Federating Wide-Area File System](https://doi.org/10.1145/3093338.3093389)
   Philip D. Blood, Anjana Kar, Jason Sommerfield, Beth L. Eicher, Richard Angeletti, J. Ray Scott. In Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact (2017), doi:10.1145/3093338.3093389
 
-* [Customized workflow development and data modularization concepts for RNA-Sequencing and metatranscriptome experiments](http://dx.doi.org/10.1016/j.jbiotec.2017.06.1203)
+* [Customized workflow development and data modularization concepts for RNA-Sequencing and metatranscriptome experiments](https://doi.org/10.1016/j.jbiotec.2017.06.1203)
   Steffen C. Lott, Markus Wolfien, Konstantin Riege, et al. *Journal of Biotechnology* (July 2017), doi:10.1016/j.jbiotec.2017.06.1203
 
-* [TAREAN: a computational tool for identification and characterization of satellite DNA from unassembled short reads](http://dx.doi.org/10.1093/nar/gkx257)
+* [TAREAN: a computational tool for identification and characterization of satellite DNA from unassembled short reads](https://doi.org/10.1093/nar/gkx257)
   Petr Novák, Laura Ávila Robledillo, Andrea Koblížková, Iva Vrbová, Pavel Neumann, Jiří Macas. *Nucleic Acids Research*, Vol. 45, No. 12. (07 July 2017), pp. e111-e111, doi:10.1093/nar/gkx257
 
-* [proFIA: A data preprocessing workflow for Flow Injection Analysis coupled to High-Resolution Mass Spectrometry](http://dx.doi.org/10.1093/bioinformatics/btx458)
+* [proFIA: A data preprocessing workflow for Flow Injection Analysis coupled to High-Resolution Mass Spectrometry](https://doi.org/10.1093/bioinformatics/btx458)
   Alexis Delabrière, Ulli M. Hohenester, Benoit Colsch, Christophe Junot, François Fenaille, Etienne A. Thévenot. *Bioinformatics* (2017), doi:10.1093/bioinformatics/btx458
 
 ## Publication Topics
@@ -245,7 +245,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
 
 ## Galaxy Integrated Omics (GIO)
 
@@ -423,7 +423,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
-* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Eric Rasche](https://github.com/erasche). 
+* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [E. Rasche](https://github.com/erasche). 
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
 * From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
 * From [Mallory Freeberg](/src/people/mallory-freeberg/index.md): [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial

@@ -15,6 +15,12 @@ Cloud infrastructures are just [one of the many ways that Galaxy is available](/
 
 See the CloudMan page for more.
 
+
+# Cloud Storage
+
+Galaxy can store user data on a cloud-based storage, and can also download data from a cloud-based storage to a user history; providing users with _theoretically_ unlimited storage and facilitate joint data analysis. For details see [the documentaiton page](/src/cloud/storage/index.md).
+
+
 # Globus Genomics
 
 <div class='right'><a href='http://www.globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="200" /></a></div>
@@ -25,7 +31,7 @@ See the CloudMan page for more.
 
 # Commercial Cloud Solutions
 
-[<img class="pull-left" src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" />](http://openstack.org)
+[<img class="float-left" src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" />](http://openstack.org)
 
 Both CloudMan and [Globus Genomics](/src/cloud/index.md#globus-genomics) use [Amazon Web Services](http://aws.amazon.com).  CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
@@ -37,7 +43,7 @@ Finally, these vendors also provide support for running Galaxy on cloud infrastr
 
 ### Intero Life Sciences
 
-[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
+[<img class="float-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
 [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise Cloud](https://www.galaxyinformatics.com/)*:
 

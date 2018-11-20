@@ -42,7 +42,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 
 * [Dave Clements](/src/people/dave-clements/index.md), organiser
 * [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie), organiser
-* [Eric Rasche](/src/people/eric-rasche/index.md)
+* [E. Rasche](/src/people/helena-rasche/index.md)
 * [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * Mark Fernandes
 * Catriona McInerney

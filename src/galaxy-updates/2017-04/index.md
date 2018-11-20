@@ -183,10 +183,10 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from the papers added in March:
 
-* [High-resolution TADs reveal DNA sequences underlying genome organization in flies](http://dx.doi.org/10.1101/115063)
+* [High-resolution TADs reveal DNA sequences underlying genome organization in flies](https://doi.org/10.1101/115063)
    Fidel Ramirez, Vivek Bhardwaj, Jose Villaveces, et al. *bioRxiv* (08 March 2017), 115063, doi:10.1101/115063
 
-* [Enhancing Knowledge Discovery from Cancer Genomics Data with Galaxy](http://dx.doi.org/10.1093/gigascience/gix015)
+* [Enhancing Knowledge Discovery from Cancer Genomics Data with Galaxy](https://doi.org/10.1093/gigascience/gix015)
    Marco A. Albuquerque, Bruno M. Grande, Elie J. Ritch, et al. *GigaScience* (09 March 2017), doi:10.1093/gigascience/gix015
 
 * [Tools for cluster analysis of data from genome-wide association studies](http://urn.nb.no/URN:NBN:no-56327)
@@ -207,16 +207,16 @@ Some highlights from the papers added in March:
 * [Enhancing Access to Media Collections and Archives Using Computational Linguistic Tools](http://ceur-ws.org/Vol-1786/pustejovsky.pdf)
    James Pustejovsky, Marc Verhagen, Nancy Ide, Keith Suderman. In Corpora in the Digital Humanities (CDH), Bloomington, Indiana (2017)
 
-* [DNApod: DNA polymorphism annotation database from next-generation sequence read archives](http://dx.doi.org/10.1371/journal.pone.0172269)
+* [DNApod: DNA polymorphism annotation database from next-generation sequence read archives](https://doi.org/10.1371/journal.pone.0172269)
   Takako Mochizuki, Yasuhiro Tanizawa, Takatomo Fujisawa, et al. *PLOS ONE*, Vol. 12, No. 2. (24 February 2017), e0172269, doi:10.1371/journal.pone.0172269
 
 * [Deep and Surface Causality: Global Teaching and Access to HPC Social Science](https://pdfs.semanticscholar.org/b056/c9c5deda9ce754a3d4bf9b45fc46e40ddc9e.pdf)
    Douglas W. Uci, Paul Rodriguez, Eric Blau, et al. (2015)
 
-* [Blood-based omic profiling supports female susceptibility to tobacco smoke-induced cardiovascular diseases](http://dx.doi.org/10.1038/srep42870)
+* [Blood-based omic profiling supports female susceptibility to tobacco smoke-induced cardiovascular diseases](https://doi.org/10.1038/srep42870)
    Aristotelis Chatziioannou, Panagiotis Georgiadis, Dennie G. Hebels, et al. *Scientific Reports*, Vol. 7 (22 February 2017), 42870, doi:10.1038/srep42870
 
-* [Architectural models for deploying and running virtual laboratories in the cloud](http://dx.doi.org/10.1109/MIPRO.2016.7522153)
+* [Architectural models for deploying and running virtual laboratories in the cloud](https://doi.org/10.1109/MIPRO.2016.7522153)
    E. Afgan, A. Lonie, J. Taylor, K. Skala, N. Goonasekera. In 39th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2016), pp. 282-286, doi:10.1109/MIPRO.2016.7522153
 
 
@@ -251,11 +251,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in January.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in January.
 
 ## Want to Mine Scientific Literature? LAPPS Grid Needs You
 
-<div class='right'><a href='/src/news/2017-03-lapps-grid/index.md'><img src="/src/public-galaxy-servers/lapps-grid-logo.png" alt="LAPPS Grid" width="120" /></a>
+<div class='right'><a href='/src/news/2017-03-lapps-grid/index.md'><img src="/src/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="120" /></a>
 </div>
 
 *The [The Language Applications (LAPPS) Grid](http://www.lappsgrid.org) team intends to seek funding for a project that would create customizable NLP applications that can be used to mine scientific literature,* in response to requests from scientists in several disciplines who want to extract entities, relations, networks, and ontologies from scientific publications and identify articles in the scientific literature that have treated particular topics or entities.
@@ -266,7 +266,7 @@ Interested in participating? See the [full call for details](/src/news/2017-03-l
 
 ## PhenoMeNal Online Training Material
 
-<div class='right'><a href='http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy'><img src="/src/public-galaxy-servers/PhenoMeNal.png" alt="PhenoMeNal" width="120" /></a>
+<div class='right'><a href='http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy'><img src="/src/use/phenomenal/phenomenal.png" alt="PhenoMeNal" width="120" /></a>
 </div>
 
 New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-accessing-metabolomics-workflows-galaxy) for the [PhenoMeNal Galaxy server](http://public.phenomenal-h2020.eu/) is available from EMBL-EBI.  "PhenoMeNal (Phenome and Metabolome aNalysis) is a standardised e-infrastructure that supports the data processing and analysis pipelines for molecular phenotype data generated by metabolomics applications.  This course will give you an overview of PhenoMeNal, how to create your cloud research environment, and how to access Galaxy workflows for metabolomics data."
@@ -275,7 +275,7 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 
 ### Galaxy@GenOuest
 
-<div class='right solid'><a href='https://galaxy.genouest.org'><img src="/src/public-galaxy-servers/GalaxyGenOuest.png" alt="Galaxy@GenOuest" /></a></div>
+<div class='right solid'><a href='https://galaxy.genouest.org'><img src="/src/use/galaxy-genouest/galaxy-genouest.png" alt="Galaxy@GenOuest" /></a></div>
 
 * *Links:*
   * [Galaxy@GenOuest](https://galaxy.genouest.org)
@@ -296,7 +296,8 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 
 
 ### BIPAA (BioInformatics Platform for Agroecosystem Arthropods)
-<div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/src/public-galaxy-servers/BIPAALogo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" width="120" /></a></div>
+
+<div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/src/use/bipaa/bipaa-logo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" width="120" /></a></div>
 
 * *Links:*
   * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)

@@ -225,13 +225,13 @@ Some highlights from last month:
 * **[SparkGalaxy: Workflow-based Big Data Processing](http://www.cs.uoregon.edu/Reports/DRP-201603-Riazi.pdf)**
     Sara Riazi, directed research project
 
-* **[A GPU-based high performance computing infrastructure for specialized NGS analyses](http://dx.doi.org/10.7287/peerj.preprints.2175v1)**
+* **[A GPU-based high performance computing infrastructure for specialized NGS analyses](https://doi.org/10.7287/peerj.preprints.2175v1)**
     Andrea Manconi *et al., PeerJ Preprints* (28 June 2016), doi:10.7287/peerj.preprints.2175v1
 
-* **[A resource provisioning framework for bioinformatics applications in multi-cloud environments](http://dx.doi.org/10.1016/j.future.2016.06.008)**
+* **[A resource provisioning framework for bioinformatics applications in multi-cloud environments](https://doi.org/10.1016/j.future.2016.06.008)**
     Senturk *et al., Future Generation Computer Systems* (July 2016), doi:10.1016/j.future.2016.06.008
 
-* **[VisualGraphX: Interactive Graph Visualization within Galaxy](http://dx.doi.org/10.1093/bioinformatics/btw414)**
+* **[VisualGraphX: Interactive Graph Visualization within Galaxy](https://doi.org/10.1093/bioinformatics/btw414)**
     Richard A. Schäfer and Björn Voß, *Bioinformatics* (13 July 2016), btw414, doi:10.1093/bioinformatics/btw414
 
 ## Tagged Publications
@@ -320,7 +320,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [four semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in July.
+There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [four semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in July.
 
 ## Galaxy-P
 

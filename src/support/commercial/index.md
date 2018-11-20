@@ -7,7 +7,7 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 ## Deena Bioinformatics
 
-[<img class="pull-right" src="/src/images/logos/DeenaBionformaticsBlack.png" alt="Deena Bioinformatics" width="150" />](http://www.deenabio.com/)
+[<img class="float-right" src="/src/images/logos/DeenaBionformaticsBlack.png" alt="Deena Bioinformatics" width="150" />](http://www.deenabio.com/)
 
 [Deena Bioinformatics](http://www.deenabio.com/) can help you to setup your own Galaxy Server.  Give your your researchers an easy to use web interface to the command-line utilities they need to work with.
 
@@ -15,7 +15,7 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
 
-[<img class="pull-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
+[<img class="float-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
 * Subscription/Contract Based Enterprise-Level Support
 * Turn-key Customized Workflows
@@ -52,7 +52,7 @@ With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your
 
 The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-appliance/) is 
 
-[<img class="pull-right" src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" />](http://www.bioteam.net/products/galaxy-appliance/)
+[<img class="float-right" src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" />](http://www.bioteam.net/products/galaxy-appliance/)
 
 <blockquote>
 a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.

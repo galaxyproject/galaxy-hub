@@ -5,7 +5,7 @@ title: GCC2012 Training Day
 
 {{> Events/GCC2012/LinkBox }}
 
-<img class="pull-left" src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
+<img class="float-left" src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
 
 The [2012 Galaxy Community Conference](/src/events/gcc2012/training-day//index.md) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
 

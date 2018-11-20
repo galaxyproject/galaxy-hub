@@ -22,7 +22,7 @@ title: August 2015 Tool Shed Contributions
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
   * [mira_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_assembler): v0.0.11 move dependency to package_mira_3_4_1_1 etc
-  * [get_orfs_or_cdss](https://toolshed.g2.bx.psu.edu/view/peterjc/get_orfs_or_cdss): v0.1.1 fix typo; v0.1.0 BED output (Eric Rasche), NCBI genetic code 24; v0.0.7 embeds citation
+  * [get_orfs_or_cdss](https://toolshed.g2.bx.psu.edu/view/peterjc/get_orfs_or_cdss): v0.1.1 fix typo; v0.1.0 BED output (E. Rasche), NCBI genetic code 24; v0.0.7 embeds citation
   * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): v0.0.15 internal changes; v0.0.14 fixed error handling
   * [sample_seqs](https://toolshed.g2.bx.psu.edu/view/peterjc/sample_seqs): v0.2.2 use format_source and other internal changes
   * [nlstradamus](https://toolshed.g2.bx.psu.edu/view/peterjc/nlstradamus): v0.0.10 internal changes; v0.0.9 citation

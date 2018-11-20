@@ -11,14 +11,14 @@ Welcome to the October 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 # Hacktoberfest
 
-[<img class="pull-left img-responsive" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
+[<img class="float-left img-fluid" src="/src/images/logos/hacktoberfest-2017.png" alt "Galaxy in Hacktoberfest" />](https://github.com/orgs/galaxyproject/projects/1)
 
 What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, we should say [Hacktoberfest](https://hacktoberfest.digitalocean.com/). From Oct 1st through Oct 31st, Hacktoberfest is a celebration of open source coding organized by Digital Ocean and GitHub. This is a great opportunity to get involved with a project and get some help along the way. Plus, if you issue 4 pull request during the month, you get a limited edition t-shirt! Any project on GitHub can participate simply by creating and tagging issues with Hacktoberfest tag. If you'd like to participate on a Galaxy-related project, see the [Galaxy Hacktoberfest dashboard](https://galaxyproject.org/events/2017-10-hacktoberfest/).
 
 
 # The Galaxy Publication Library has moved to Zotero.
 
-[<img class="pull-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
+[<img class="float-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
 
 After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/src/news/2017-09-publication-lib-on-zotero/index.md) for full details. 
 
@@ -40,7 +40,7 @@ The *Galactic* and *Stellar* publications added in September were:
   * Audrey M. Michel, Stephen J. Kiniry, Patrick B. F. O’Connor, James P. Mullan, Pavel V. Baranov, *Nucleic Acids Research*, gkx790, doi:10.1093/nar/gkx790  
 * [Big Data for Infectious Diseases Surveillance and the Potential Contribution to the Investigation of Foodborne Disease in Canada](https://nccid.ca/publications/big-data-for-infectious-diseases-surveillance/)
   * Cheryl Waldner, National Collaborating Centre for Infectious Diseases (NCCID)
-* [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](http://dx.doi.org/10.1016/j.celrep.2017.08.043)
+* [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](https://doi.org/10.1016/j.celrep.2017.08.043)
   * Steven Moreira, Enio Polena, Victor Gordon, Solen Abdulla, Sujeivan Mahendram, Jiayi Cao, Alexandre Blais, Geoffrey A. Wood, Anna Dvorkin-Gheva, Bradley W. Doble, *Cell Reports*, Volume 20 , Issue 10 , 2424 - 2438, doi:10.1016/j.celrep.2017.08.043
 * [Antigen receptor sequencing of paired bone marrow samples shows homogeneous distribution of acute lymphoblastic leukemia subclones](http://www.haematologica.org/content/early/
   2017/08/28/haematol.2017.171454)
@@ -202,7 +202,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in September.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in September.
 
 ## Public Servers in September's Publications
 
@@ -216,11 +216,11 @@ As mentioned above, as part of the move to Zotero, we have started tagging paper
 
 ## Public Server Directory Rebuilt
 
-The [public Galaxy server directory](/src/public-galaxy-servers/index.md) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/src/public-galaxy-servers/index.md).
+The [public Galaxy server directory](/src/use/index.md) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/src/use/index.md).
 
 ## ImmPort Galaxy: New Release and Feedback Needed
 
-<img class="pull-right" src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="200" />
+<img class="float-right" src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="200" />
 
 The [ImmPort Project](http://www.immport.org/) just released a new version of [ImmPort Galaxy](http://immportgalaxy.org/). You can now upload your flow data as flowFrames, and there are new tools too:
 
@@ -236,10 +236,10 @@ The ImmPort Project is also [seeking feedback](https://docs.google.com/forms/d/e
 
 ## Codon Harmonizer
 
-[<img class="pull-right img-responsive" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
+[<img class="float-right img-fluid" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen UR" />](http://codonharmonizer.systemsbiology.nl/)
 
 
-[Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This [tool-publishing server](/src/public-galaxy-servers/index.md#tool-publishing) comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
+[Codon Harmonizer](http://codonharmonizer.systemsbiology.nl/) supports generating codon harmonized variants of gene sequences for heterologous expression. This tool-publishing server comes from the [Laboratory of Microbiology](http://www.wur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Microbiology.htm) at Wageningen University and Research
 
 From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 > "...different codon usage variants significantly improved production of some of the tested proteins. However, not a single algorithm performed consistently best for the membrane-integrated production of the 6 tested proteins. In conclusion, for improving heterologous membrane protein production in E. coli, the major effect is accomplished by transcriptional tuning. In addition, further improvements may be realized by attempting different codon usage variants, such as codon harmonized variants, which can now be easily generated through our online Codon Harmonizer tool."
@@ -247,7 +247,7 @@ From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 A [manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf) and email support ([Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico
 Claassens](mailto:nicoclaassens AT gmail.com)) are available.
 
-See the [Codon Harmonizer page](/src/public-galaxy-servers/codon-harmonizer/index.md) for more.
+See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
 
 ----
 
@@ -263,7 +263,7 @@ See the [Codon Harmonizer page](/src/public-galaxy-servers/codon-harmonizer/inde
 
 ## Pulsar 0.8.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -283,7 +283,7 @@ This set of revisions includes:
 
 ## Planemo 0.45 - 0.46.1
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

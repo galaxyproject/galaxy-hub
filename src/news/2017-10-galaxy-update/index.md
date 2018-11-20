@@ -3,7 +3,7 @@ title: 'October 2017 Galaxy News'
 tease: 'New events, pubs, openings, tools, ...'
 date: '2017-10-02'
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2017-10/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/src/galaxy-updates/2017-10/index.md>)
 
 The [October 2017 Galaxy News](/src/galaxy-updates/2017-10/index.md) is out!
 

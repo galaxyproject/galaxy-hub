@@ -216,15 +216,15 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/people/enis-afgan/index.md) *et al.*
 
-* [LiSIs: An Online Scientific Workflow System for Virtual Screening](http://dx.doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
+* [LiSIs: An Online Scientific Workflow System for Virtual Screening](https://doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
 
-* [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](http://dx.doi.org/10.1093/bioinformatics/btv002), Warren *et al.*
+* [RNA-Rocket: an RNA-Seq analysis resource for infectious disease research](https://doi.org/10.1093/bioinformatics/btv002), Warren *et al.*
 
-* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](http://dx.doi.org/10.1186/s12864-015-1712-0), Fuller, *et al.*
+* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](https://doi.org/10.1186/s12864-015-1712-0), Fuller, *et al.*
 
-* [Context influences on TALE–DNA binding revealed by quantitative profiling](http://dx.doi.org/10.1038/ncomms8440), Rogers, *et al.*
+* [Context influences on TALE–DNA binding revealed by quantitative profiling](https://doi.org/10.1038/ncomms8440), Rogers, *et al.*
 
-* [Compact graphical representation of phylogenetic data and metadata with GraPhlAn](http://dx.doi.org/10.7717/peerj.1029), Asnicar *et al.*
+* [Compact graphical representation of phylogenetic data and metadata with GraPhlAn](https://doi.org/10.7717/peerj.1029), Asnicar *et al.*
 
 * [ARC Control Tower A flexible generic distributed job management framework](http://bit.ly/1ROmd1q), Nilsen *et al.* 
 
@@ -350,32 +350,32 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 ----
 
 <div class='right solid blue'> 
-<a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/public-galaxy-servers/FROG.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
-<a href='http://aspendb.uga.edu/ageseq'><img src="/src/public-galaxy-servers/AspenDB300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
-<a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/public-galaxy-servers/BioMaSLogo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
-<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/public-galaxy-servers/SIFTEDLandingPage.png" alt="SIFTED" width="160" /></a><br />
-<a href='http://mississippi.fr/'><img src="/src/public-galaxy-servers/MISSISSIPPILogo.png" alt="MISSIPPI" width="160" /></a><br />
-<a href='/src/public-galaxy-servers/index.md'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
+<a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/use/ab-openlab/frog.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
+<a href='http://aspendb.uga.edu/ageseq'><img src="/src/use/ageseq-aspendb/aspen-db-300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
+<a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/use/biomas/biomas-logo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
+<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/use/sifted/sifted-landing-page.png" alt="SIFTED" width="160" /></a><br />
+<a href='http://mississippi.fr/'><img src="/src/use/mississippi/mississippi-logo.png" alt="MISSIPPI" width="160" /></a><br />
+<a href='/src/use/index.md'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
 </div>
 
 # New Public Galaxy Servers
 
-July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md), bringing the list of public servers to *over 70*.
+July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/src/use/index.md), bringing the list of public servers to *over 70*.
 
 1. **[AB-OpenLab FROG](http://ab-openlab.csir.res.in/frog/)**, from  [CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)
-  * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/src/public-galaxy-servers/index.md#ab-openlab) for more.
+  * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/src/use/ab-openlab/index.md) for more.
 
 1. **[AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)**, from the [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
-  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/src/public-galaxy-servers/index.md#ageseq--aspendb) for more.
+  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/src/use/ageseq-aspendb/index.md) for more.
 
 1. **[BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)** from the [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
-  * Taxonomic studies of environmental microbial communities.  See [the server description](/src/public-galaxy-servers/index.md#biomas-galaxy) for more.
+  * Taxonomic studies of environmental microbial communities.  See [the server description](/src/use/biomas/index.md) for more.
 
 1. **[MISSISSIPPI Server](http://mississippi.fr/)** from The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
-  * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/public-galaxy-servers/index.md#mississippi) for more.
+  * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/use/mississippi/index.md) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
-  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.  See the [server description](/src/public-galaxy-servers/index.md#sifted) for more.
+  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.  See the [server description](/src/use/sifted/index.md) for more.
 
 <br />
 
@@ -385,7 +385,7 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
 
 # Community Committers!
 
-Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [Eric Rasche](https://github.com/erasche)** are now committers.
+Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [E. Rasche](https://github.com/erasche)** are now committers.
 
 
 # Galaxy Community Hubs

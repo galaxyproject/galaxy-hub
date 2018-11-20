@@ -2,7 +2,7 @@
 title: Galaxy Tool Shed contributions
 ---
 
-[<img class="pull-right" src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
+[<img class="float-right" src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
 
 Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/):
 
@@ -10,6 +10,11 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 
 ### 2018
 
+* [November 2018](/src/toolshed/contributions/2018-11/index.md)
+* [October 2018](/src/toolshed/contributions/2018-10/index.md)
+* [September 2018](/src/toolshed/contributions/2018-09/index.md)
+* [August 2018](/src/toolshed/contributions/2018-08/index.md)
+* [May, June and July 2018](/src/toolshed/contributions/2018-07/index.md)
 * [April 2018](/src/toolshed/contributions/2018-04/index.md)
 * [March 2018](/src/toolshed/contributions/2018-03/index.md)
 * [February 2018](/src/toolshed/contributions/2018-02/index.md)

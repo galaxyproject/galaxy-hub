@@ -616,7 +616,7 @@ created from there.
 
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
-[Public tool sheds](/src/public-galaxy-servers/index.md#public_toolsheds)
+[Public tool sheds](/src/use/index.md#public_toolsheds)
 See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/toolshed/index.md);
 
 

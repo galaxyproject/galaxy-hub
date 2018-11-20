@@ -94,7 +94,7 @@ So after doing all of this the obvious question is why not to enable assembly is
 
 Unicycler has proven to be a great tool. So with help of [Bj&#246;rn Gr&#252;ning](https://github.com/bgruening), [Delphine Lariviere](https://github.com/Delphine-L), and [Dave Bouvier](https://github.com/davebx) we [added it to Bioconda](https://bioconda.github.io/recipes/unicycler/README.html) and [wrapped](https://github.com/galaxyproject/tools-iuc/tree/master/tools/unicycler) it for [Galaxy](http://usegalaxy.org), so anyone can repeat this entire analysis on-line without installing and configuring anything.
 
-<div class="pull-right">
+<div class="float-right">
 ![Bridges](/src/blog/2017-10-16-UnicyclerTutorial/bridges.jpg)
 </div> 
 
@@ -107,7 +107,7 @@ The Unicycler interface in Galaxy looks like this:
 |![](/src/blog/2017-10-16-UnicyclerTutorial/unicycler_galaxy.png)|
 |<small>**Figure 5.** Unicycler interface in Galaxy.</small>|
 
-<div class="pull-right">
+<div class="float-right">
 ![Bridges](/src/blog/2017-10-16-UnicyclerTutorial/prokka.jpg)
 </div> 
 

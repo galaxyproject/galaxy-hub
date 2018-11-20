@@ -289,16 +289,16 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from last month:
 
-* [Integration and Visualization of Translational Medicine Data for Better Understanding of Human Diseases](http://dx.doi.org/10.1089/big.2015.0057)
+* [Integration and Visualization of Translational Medicine Data for Better Understanding of Human Diseases](https://doi.org/10.1089/big.2015.0057)
     by Venkata Satagopam, Wei Gu, Serge Eifes *et al.* *Big Data*, Vol. 4, No. 2. (1 June 2016), pp. 97-108, doi:10.1089/big.2015.0057
 
-* [biosigner: a new method for the discovery of significant molecular signatures from omics data](http://dx.doi.org/10.3389/fmolb.2016.00026)
+* [biosigner: a new method for the discovery of significant molecular signatures from omics data](https://doi.org/10.3389/fmolb.2016.00026)
     by Philippe Rinaudo, Samia Boudah, Christophe Junot, Etienne A. Thevenot, *Frontiers in Molecular Biosciences,* Vol. 3, No. 26. (2016), doi:10.3389/fmolb.2016.00026
 
-* [CART – a chemical annotation retrieval toolkit](http://dx.doi.org/10.1093/bioinformatics/btw233) 
+* [CART – a chemical annotation retrieval toolkit](https://doi.org/10.1093/bioinformatics/btw233) 
     by Samy Deghou, Georg Zeller, Murat Iskar *et al.,* *Bioinformatics* (02 June 2016), btw233, doi:10.1093/bioinformatics/btw233
 
-* [Experiences in integrated data and research object publishing using GigaDB](http://dx.doi.org/10.1007/s00799-016-0174-6)
+* [Experiences in integrated data and research object publishing using GigaDB](https://doi.org/10.1007/s00799-016-0174-6)
     by Scott C Edmunds, Peter Li, Christopher I Hunter *et al.*, In *International Journal on Digital Libraries* (2016), pp. 1-13, doi:10.1007/s00799-016-0174-6
 
 ## Tagged Publications
@@ -382,11 +382,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) was added to [the list](/src/public-galaxy-servers/index.md) in June:
+One [new publicly accessible Galaxy servers](/src/use/index.md) was added to [the list](/src/use/index.md) in June:
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
-<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/public-galaxy-servers/CART.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/use/cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Server](http://cart.embl.de/)
@@ -405,7 +405,7 @@ One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md
 
 # New Semi-Public Galaxy Servers
 
-And one [new set of Semi-Public Galaxy server](/src/galaxy-services/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/public-galaxy-servers/index.md), but that are accessible to a larger group than just the host institution's members.  
+And one [new set of Semi-Public Galaxy server](/src/use/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/use/index.md), but that are accessible to a larger group than just the host institution's members.  
 
 ## Norway: NeLS
 

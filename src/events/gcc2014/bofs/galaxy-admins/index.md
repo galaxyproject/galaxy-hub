@@ -50,7 +50,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * [Dave Clements](/src/people/dave-clements/index.md)
 * [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * Sebastian Schaaf
-* [Eric Rasche](/src/people/eric-rasche/index.md)
+* [E. Rasche](/src/people/helena-rasche/index.md)
 * [Dan Blankenberg](/src/people/dan/index.md)
 * Christine Walls
 * Alistair Chilcott

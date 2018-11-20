@@ -18,11 +18,11 @@ Welcome to the June 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summ
 
 70 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Highlights include:
 
-* [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](http://dx.doi.org/10.1186/s13742-015-0063-8)
+* [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](https://doi.org/10.1186/s13742-015-0063-8)
     by Anthony Bretaudeau, Cyril Monjeaud, Yvan Le Bras, Fabrice Legeai, Olivier Collin, *GigaScience*, Vol. 4, No. 1. (9 May 2015), doi:10.1186/s13742-015-0063-8
-* [Design and bioinformatics analysis of genome-wide CLIP experiments](http://dx.doi.org/10.1093/nar/gkv439), 
+* [Design and bioinformatics analysis of genome-wide CLIP experiments](https://doi.org/10.1093/nar/gkv439), 
     by Tao Wang, Guanghua Xiao, Yongjun Chu, Michael Q. Zhang, David R. Corey, Yang Xie, *Nucleic Acids Research* (09 May 2015), gkv439, doi:10.1093/nar/gkv439
-* [The Globus Galaxies platform: delivering science gateways as a service](http://dx.doi.org/10.1002/cpe.3486)
+* [The Globus Galaxies platform: delivering science gateways as a service](https://doi.org/10.1002/cpe.3486)
     Ravi Madduri, Kyle Chard, Ryan Chard, Lukasz Lacinski, Alex Rodriguez, Dinanath Sulakhe, David Kelly, Utpal Dave and Ian Foster, *Concurrency and Computation: Practice and Experience* (April 2015), doi:10.1002/cpe.3486
 
 The new papers were tagged with:
@@ -383,11 +383,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy servers](/src/public-galaxy-servers/index.md) in May:
+The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy servers](/src/use/index.md) in May:
 
 ## VirAmp
 
-<div class='right solid'><a href='http://viramp.com/'><img src="/src/public-galaxy-servers/VirAmpHome.png" alt="VirAmp" width=300 /></a></div>
+<div class='right solid'><a href='http://viramp.com/'><img src="/src/use/viramp/viramp-home.png" alt="VirAmp" width=300 /></a></div>
 
 **[VirAmp](http://viramp.com/)** is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. From [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19 doi:10.1186/s13742-015-0060-y
       [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
@@ -458,9 +458,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 # Other News
 
 * From [John Chilton](https://twitter.com/jmchilton):
-  * EDAM ([edamontology.org](http://edamontology.org)) format added to all Galaxy datatypes. Huge thanks to Pasteur team & [Eric Rasche](https://twitter.com/Eric_Rasche)!
+  * EDAM ([edamontology.org](http://edamontology.org)) format added to all Galaxy datatypes. Huge thanks to Pasteur team & E. Rasche!
   * [Connecting a dockerized Galaxy container to a Condor cluster](https://registry.hub.docker.com/u/dpryan79/htcondor-galaxy/) pretty awesome stuff from [Devon Ryan](https://twitter.com/dpryan79).
-  * Just merged [collaborative work](https://github.com/galaxyproject/galaxy/pull/230) spearheaded by [Eric Rasche](https://twitter.com/Eric_Rasche) adding RStudio integration to Galaxy
+  * Just merged [collaborative work](https://github.com/galaxyproject/galaxy/pull/230) spearheaded by E. Rasche adding RStudio integration to Galaxy
 * [Videos from Pitagora Galaxy workshop](http://bit.ly/1CPXf8v) are now online
 * [GigaScience Pushes Metabolomics Open Data & Training](http://blogs.biomedcentral.com/gigablog/2015/05/13/gigascience-pushes-metabolomics-open-data-training/), by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds)
 

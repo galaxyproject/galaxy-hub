@@ -10,7 +10,7 @@ As in past years, talks will cover a wide range of biology, bioinformatics, and 
 
 ## Day 0: Training Day, 30 June
 
-[<img class="pull-left" src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" />](/src/events/gcc2013/training-day/index.md)
+[<img class="float-left" src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" />](/src/events/gcc2013/training-day/index.md)
 
 The [GCC2013 Training Day](/src/events/gcc2013/program/TrainingDay/index.md) will be Sunday, 30 June, and feature ~~four~~ *five* parallel tracks, each with three workshops, each of which are two hours long, for a total of ~~twelve~~ *fifteen* sessions on twelve different topics.  Sessions are evenly split between topics aimed at biological research, topics aimed at Galaxy deployers and developers, and those that are geared twoards both audiences.  The topics were nominated and selected by the Galaxy Community in early 2013. The increased number of parallel tracks and topics was driven by unexpected demand.
 

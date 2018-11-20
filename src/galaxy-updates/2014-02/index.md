@@ -9,10 +9,10 @@ Welcome to the February 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a 
 
 *42 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in January. Some papers that may be particularly interesting to the Galaxy community:
 
-* [CGtag: Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy](http://dx.doi.org/10.1186/2047-217x-3-1), by Hiltemann, *et al.,* *GigaScience*, Vol. 3, No. 1. (2014), 1, doi:10.1186/2047-217x-3-1
-* [PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://dx.doi.org/10.1186/gb-2014-15-1-r18), by Chen, *et al.,* *Genome biology,* Vol. 15, No. 1. (22 January 2014), R18, doi:10.1186/gb-2014-15-1-r18
-* [Oqtans: The RNA-seq Workbench in the Cloud for Complete and Reproducible Quantitative Transcriptome Analysis, by by Sreedharan](http://dx.doi.org/10.1093/bioinformatics/btt731), *et al.,* *Bioinformatics* (Oxford, England) (11 January 2014), btt731, doi:10.1093/bioinformatics/btt731
-* [Learn2Mine: Data Science Practice and Education through Gameful Experiences](http://dx.doi.org/10.7763/ijeeee.2014.v4.338), *International Journal of e-Education, e-Business, e-Management and e-Learning,* by Turner, *et al.,*Vol. 4, No. 3. (2014), doi:10.7763/ijeeee.2014.v4.338
+* [CGtag: Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy](https://doi.org/10.1186/2047-217x-3-1), by Hiltemann, *et al.,* *GigaScience*, Vol. 3, No. 1. (2014), 1, doi:10.1186/2047-217x-3-1
+* [PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](https://doi.org/10.1186/gb-2014-15-1-r18), by Chen, *et al.,* *Genome biology,* Vol. 15, No. 1. (22 January 2014), R18, doi:10.1186/gb-2014-15-1-r18
+* [Oqtans: The RNA-seq Workbench in the Cloud for Complete and Reproducible Quantitative Transcriptome Analysis, by by Sreedharan](https://doi.org/10.1093/bioinformatics/btt731), *et al.,* *Bioinformatics* (Oxford, England) (11 January 2014), btt731, doi:10.1093/bioinformatics/btt731
+* [Learn2Mine: Data Science Practice and Education through Gameful Experiences](https://doi.org/10.7763/ijeeee.2014.v4.338), *International Journal of e-Education, e-Business, e-Management and e-Learning,* by Turner, *et al.,*Vol. 4, No. 3. (2014), doi:10.7763/ijeeee.2014.v4.338
 
 How those papers were tagged:
 
@@ -257,7 +257,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 
 # New Public Servers
 
-Several new servers were added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) last month.
+Several new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.
 
 ## Genomics Virtual Lab
 
@@ -279,7 +279,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## CTMM-TraIT Demo Galaxy
 
-<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/src/public-galaxy-servers/CTMM-TraIT.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/src/public-galaxy-servers/archive/ctmm-trait.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [CTMM-TraIT Demo Galaxy](http://galaxy.ctmm-trait.nl/)
@@ -298,7 +298,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## PIPE-CLIP
 
-<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/public-galaxy-servers/QBRCLogo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/use/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)

@@ -51,8 +51,9 @@ number of fields is noted in the file extension, for example: `'.bed3'`,
 1-5, 1-6 or 1-12\.
 
 ```
-Example BED12: chr22 1000 5000 cloneA 960 + 1000 5000 0 2 567,488,
-0,3512 chr22 2000 6000 cloneB 900 - 2000 6000 0 2 433,399, 0,3601
+Example BED12: 
+chr22 1000 5000 cloneA 960 + 1000 5000 0 2 567,488,0,3512
+chr22 2000 6000 cloneB 900 - 2000 6000 0 2 433,399, 0,3601
 ```
 
 Coordinates have a "0-based, fully-closed start" and a "0-based, half-open end"

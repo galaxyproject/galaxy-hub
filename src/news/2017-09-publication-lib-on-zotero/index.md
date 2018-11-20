@@ -3,7 +3,7 @@ title: 'Galaxy publication library moves to Zotero'
 tease: '4956 pubs and counting'
 date: "2017-09-28"
 ---
-<div class="pull-right">
+<div class="float-right">
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication library is now on Zotero" />](https://www.zotero.org/groups/1732893/galaxy)
 </div>
 
@@ -22,7 +22,7 @@ Two tags were added to highlight pubs that particularly focus on Galaxy.
 
 **Public Server Tags**
 
-Starting with the papers added this month (over 100 of them): Publications that mention or use a [public Galaxy server](/src/public-galaxy-servers/index.md) or [service](/src/galaxy-services/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Starting with the papers added this month (over 100 of them): Publications that mention or use a [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) are tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 **Content / domain tags**
 

@@ -1,12 +1,10 @@
 {{> Events/GCCBOSC2018/Header }}
 
-<div class='center' style="font-size: large;">
-**[Book housing now](https://gccbosc2018housing.eventbrite.com/) for [GCCBOSC2018](https://gccbosc2018.sched.com/).**
-</div><br />
+<br />
 
 # Welcome to Reed College and Portland, Oregon!
 
-All GCCBOSC 2018 events will be at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland), Oregon.
+All GCCBOSC 2018 events were at [Reed College](http://www.reed.edu/), a small liberal arts college in [Portland](#portland), Oregon.
 
 GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed.edu/cep/venues/index.html):
 
@@ -15,7 +13,11 @@ GCCBOSC 2018 events will be held at these [Reed College venues](https://www.reed
 * Reed Commons
 * Vollum College Center Lecture Hall and Classrooms
 
+*See the [online Reed Campus map](https://www.reed.edu/facilities_services/reed_static_map.html) and [the online conference map](https://drive.google.com/open?id=1rYNYrnJlS_cogqd1iQOef0BjEeCEjLPx&usp=sharing) for locations.*
+
 # Housing
+
+**Note: conference housing registration is now closed.**
 
 Conference housing is on campus in two Reed College dorm complexes.
 
@@ -28,14 +30,14 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Open for all events
 * Cheapest option
 
-## Sitka Block
+## Sitka (Grove) Block
 
 * A less than 10 minute walk to the conference venues
 * Newer dorms
 * Air conditioned
 * ADA compliant
 * Really nice common spaces
-* Not open during CollaborationFest: Encore
+* Not open during [CollaborationFest: Encore](/src/events/gccbosc2018/collaboration/index.md#whats-new-core-and-encore)
 * Around $10 / night more costly than ODB
 
 ## Both blocks
@@ -48,43 +50,46 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Have common spaces with a limited kitchen
 * Bring your own soap and shampoo
 * Minors are prohibited from staying in the dorms (see Other Options below)
-* Checkin during [conference desk hours](https://gccbosc2018.sched.com/overview/type/A.+Help)
-* Checkin outside of conference desk hours is also possible by special arrangement.  [Contact the organizers](/src/events/gccbosc/organizers/index.md).
+* Checkin during [conference desk hours](https://gccbosc2018.sched.com/grid/)
+* To checkin or checkout, outside of conference desk hours go to Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: [5436 SE 28th Ave, Portland, OR 97202](https://www.google.com/maps/d/viewer?mid=1rYNYrnJlS_cogqd1iQOef0BjEeCEjLPx&ll=45.48334080000003%2C-122.63702469999998&z=15). 503/517-5355.
+* Please see the [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) for information on policies and rules while staying at Reed. 
 
 
 ## Nightly rates
 
-Rooms costs drop per night the longer you stay:
+Rooms are available for single, double, and triple occupancy.  There are significant discounts for double and triple occupancy, and cost per night drops the longer you stay.
 
-### Single occupancy rates
+**Single rooms**
 
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
-| Sitka | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
+There are a limited number of single rooms, and they have sold out on a few nights already.
 
-### Double and triple rooms
+**Double and triple rooms**
 
-There are a limited number of double and triple occupancy rooms available in each block. **Shared rooms are discounted 20% for doubles, and 40% for triples.**  These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
+There are a limited number of double and triple occupancy rooms available in each block. These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
 
 * You and your roommate(s) need to both register for housing, and to request each other as roommates. 
 * Breakfast is included for all roommates. 
 * If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room. 
 * Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events).
 
-**Double occupancy rates per bed per night**
+**Rates per bed per night**
 
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
-| Sitka | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+In increasing order of cost:
 
-**Triple occupancy rates per bed per night**
-
-| # Nights | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | 
-| ODB | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
-| Sitka | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+| Block | Occupancy | Booked | #Nights<br /> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ODB  | Triple   | By June 1     | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
+| ODB  | Triple   | After&nbsp;June&nbsp;1 | $56.76 | $48.85 | $46.21 | $44.89 | $44.10 | $43.57 | $43.19 | $42.91 | $42.69 | 
+| Sitka (Grove) | Triple   | By June 1     | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
+| Sitka (Grove) | Triple   | After June 1 | $65.34 | $57.39 | $54.74 | $53.42 | $52.62 | $52.09 | $51.72 | | |
+| ODB  | Double | By June 1     | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
+| ODB  | Double | After June 1 | $75.68 | $65.13 | $61.61 | $59.85 | $58.79 | $58.09 | $57.59 | $57.21 | $56.92 |
+| Sitka (Grove) | Double | By June 1     | $79.20 | $69.57 | $66.36 | $64.75 | $63.79 | $63.15 | $62.69 | | |
+| Sitka (Grove) | Double | After June 1 | $87.12 | $76.52 | $72.99 | $71.23 | $70.17 | $69.46 | $68.96 | | |
+| ODB  | Single  | By June 1      | $86.00 | $74.01 | $70.01 | $68.01 | $66.81 | $66.01 | $65.44 | $65.01 | $64.68 |
+| Sitka (Grove) | Single  | By June 1      | $99.00 | $86.96 | $82.95 | $80.94 | $79.73 | $78.93 | $78.36 | | |
+| ODB  | Single  | After June 1  | $114.38 | $98.43 | $93.11 | $90.46 | $88.86 | $87.80 | $87.04 | $86.47 | $86.02 |
+| Sitka (Grove) | Single  | After June 1  | $131.67 | $115.66 | $110.32 | $107.65 | $106.05 | $104.98 | $104.22 | | |
 
 ### Guests
 
@@ -106,6 +111,8 @@ The conference is [offering subsidized childcare](/src/events/gccbosc2018/childc
 
 ## Public transportation
 
+Click [here](https://www.reed.edu/getting-to-reed.html) for information about getting to Reed. The address at Reed is: 3203 SE Woodstock Blvd. 
+
 [Trimet Public Transit](http://trimet.org/index.htm) provides bus, light rail, and commuter rail service in the Portland region. Their transportation options connect people with their community, while easing traffic congestion and reducing air pollution—making our region a better place to live.  See [Trimet](http://trimet.org/index.htm) for more information on fares, schedules, and maps.
 
 ## Towncars/Shuttles, Taxis:
@@ -126,23 +133,44 @@ Luxury ground transportation services with vehicles ranging from luxurious sedan
 
 Looking for something to do during your stay here? Check out the [Travel Portland site](http://www.travelportland.com/) for popular events, sightseeing, dining, and more!
 
+If you are arriving early, we'd like to highlight some events happening in Portland the weekend before the conference:
+
+Sun, June 24 - [North Portland Sunday Parkways](https://www.portlandoregon.gov/transportation/67622): [Grab a bike](https://www.biketownpdx.com/) and ride the 9.5 mile stretch of neighborhoods, or walk the route. You can stop at parks along the way, that will have food, music and other attractions.
+
+Fri-Sun, June 22-24 - [Portland International Beer Fest](http://www.portland-beerfest.com/) will be held in the Pearl District North Park Blocks, and will be showcasing beers from all over the world.
+
+June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland, as part of the Broadway Across American series. 
+
+Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) is a free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale, held from 3-5pm in Pioneer Square in downtown Portland. 
+
 ## Dining
 
-Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock] (https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
+Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
 
 ### Recommended pubs and restaurants near Reed
 
 **[Gigantic Brewing](https://www.giganticbrewing.com/)** *- .8 miles from Reed College*<br />
 Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: make the best IPA in Portland, Oregon and produce seasonal, exciting, flavorful beers, most of which will be brewed only once. Our goal is simultaneously to create new interpretations of classic styles and to ignore those same style guidelines completely and brew whatever our creative natures produce. 
 
+Note - there are food carts next to Gigantic Brewing, which would be a good option if you wanted a quick meal.
+
 **[Bible Club](http://bibleclubpdx.com/)** *– 1.3 miles from Reed College*<br />
 Antiques-filled speakeasy serving inventive & classic cocktails plus small bites in stylish digs.
+
+**[Bird + Bear](http://www.birdbearpdx.com/)** - *1.1 miles from Reed College*<br />
+Happy Hour food and drink
 
 **[Double Mountain](http://www.doublemountainbrewery.com/taproom/woodstock-taproom/)** - *0.6 miles from Reed College*<br />
 Offshoot of a popular Hood River brewery serving craft beer, pizza, salads & sandwiches. This place is really popular and can get very crowded, but can accommodate fairly large groups.
 
+**[Laughing Planet](https://laughingplanetcafe.com/locations)** - *0.5 miles from Reed College*<br/>
+Featuring burritos, bowls, etc using local ingredients. A good place for a quick meal.
+
 **Lutz Tavern** - *0.8 miles from Reed College*<br />
 A Reed hangout. Bar founded in 1947 but remodeled with new style, offering fresh-squeezed juices & hefty burgers.
+
+**Nudi Noodle** - *0.6 miles from Reed College*<br/>
+Global takes on noodles (most with an Asian bent) in a unique space covered with faux grass & bark.
 
 **[Otto's Sausage Kitchen & Meat Market](https://www.ottossausage.com/)** - *0.5 miles from Reed College*<br />
 Longtime German deli with sidewalk picnic tables selling homemade sausages, hot dogs & sandwiches.

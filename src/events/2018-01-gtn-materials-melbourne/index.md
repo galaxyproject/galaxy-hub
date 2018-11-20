@@ -9,5 +9,5 @@ location_url: https://www.melbournebioinformatics.org.au/training-and-events/
 external_url: https://www.melbournebioinformatics.org.au/training-events/developing-bioinformatics-training-materials/
 image: 
 gtn: true
-contact: Saskia Hiltemann, Eric Rasche
+contact: Saskia Hiltemann, Helena Rasche
 ---

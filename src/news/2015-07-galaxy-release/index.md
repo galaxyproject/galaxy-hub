@@ -9,7 +9,7 @@ date: "2015-09-03"
 
 #### Release Highlights
 
-* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by Eric Rasche.
+* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by E. Rasche.
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
 * **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - Björn Grüning, Nicola Soranzo, and Eric Rasche.
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*

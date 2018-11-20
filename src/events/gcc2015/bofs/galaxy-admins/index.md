@@ -32,7 +32,7 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 * [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * [Dave Clements](/src/people/dave-clements/index.md)
-* [Eric Rasche](/src/people/eric-rasche/index.md)
+* [E. Rasche](/src/people/helena-rasche/index.md)
 * Peter Briggs
 * Peter Cock
 * [Nate Coraor](/src/people/nate/index.md)

@@ -3,7 +3,7 @@ title: Intergalactic Utilities Commission
 ---
 ## Introduction
 
-<img class="pull-right" src="/src/images/galaxy-logos/iuc-logo-trans.png" alt="Intergalactic Utilities Commission" width="250" />
+<img class="float-right" src="/src/images/galaxy-logos/iuc-logo-trans.png" alt="Intergalactic Utilities Commission" width="250" />
 
 The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy [Tool Shed](/src/toolshed/index.md) by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to [Galaxy tool](/src/tools/index.md) developers so that they can improve the quality of their repositories.
 
@@ -27,7 +27,7 @@ Member | Joined | GitHub
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
-**Eric Rasche**, Texas A&M University |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
+**Helena Rasche**, University of Freiburg |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
 **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
 **Marius van den Beek**, Institut Curie | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
@@ -37,6 +37,7 @@ Member | Joined | GitHub
 **Bérénice Batut**, University of Freiburg | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
 **Maria Doyle**, Peter MacCallum Cancer Centre | Nov 11, 2017 | [@mblue9](https://github.com/mblue9)
 **Simon Gladman**, University of Melbourne | Nov 11, 2017 | [@Slugger70](https://github.com/slugger70)
+**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | Jul 20, 2018 | [@bernt-matthias](https://github.com/bernt-matthias)
 
 Inactive members
 - **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)

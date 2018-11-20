@@ -61,11 +61,11 @@ Have an idea for a feature?  Found a bug?  You can submit reports on issues and 
 
 # Setup a Public Server
 
-If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md), you can make it available to researchers outside your organization.  A number of groups [have done this](/src/public-galaxy-servers/index.md), often making a different tool set from Main available.  See [Public Galaxy Servers](/src/public-galaxy-servers/index.md).
+If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md), you can make it available to researchers outside your organization.  A number of groups [have done this](/src/use/index.md), often making a different tool set from Main available.  See [Public Galaxy Servers](/src/use/index.md).
 
 # Share Your Experience
 
-<img class="img-responsive pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
+<img class="img-fluid float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
 The [Galactic Blog](/src/blog/index.md) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 

@@ -50,7 +50,7 @@ This section contains quick explanations and important references for major sequ
 * [Modification detection with PacBio - Flusberg et al. (2010)](http://www.nature.com/nmeth/journal/v7/n6/pdf/nmeth.1459.pdf)
 * [Error correction of PacBio reads - Koren et al. (2012)](http://www.nature.com/nbt/journal/v30/n7/pdf/nbt.2280.pdf)
 * [Transcriptome with PacBio - Taligner et al. (2014)](http://www.pnas.org/cgi/doi/10.1073/pnas.1400447111)
-* [Resolving complex regions with PacBio - Chaisson et al. (2015)](http://dx.doi.org/10.1038/nature13907)
+* [Resolving complex regions with PacBio - Chaisson et al. (2015)](https://doi.org/10.1038/nature13907)
 
 ---------
 
@@ -197,7 +197,7 @@ Galaxy has a number of display applications allowing visualization of various da
 
 There is a number of established strategies for performing RNA-seq analyses when the reference genome of an organism in question is available (for a recent comprehensive comparison see [an assement of spliced aligners](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2722.html) and [an evaluation of transcript reconstruction methods](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2714.html)).
 
-The public Galaxy instance at http://usegalaxy.org has been successfully employing [Tuxedo](http://salzberg-lab.org/software/) suite of tools for references-based RNA-seq originating from Computational Biology and Genomics Lab at Johns Hopkins. However, there are also great resources such as [Oqtans](http://oqtans.org/) developed at the Memorial Sloan-Kettering Cancer Center and [others](/src/public-galaxy-servers/index.md). Below are some of the key publications on the reference-based RNA-seq:
+The public Galaxy instance at http://usegalaxy.org has been successfully employing [Tuxedo](http://salzberg-lab.org/software/) suite of tools for references-based RNA-seq originating from Computational Biology and Genomics Lab at Johns Hopkins. However, there are also great resources such as [Oqtans](http://oqtans.org/) developed at the Memorial Sloan-Kettering Cancer Center and [others](/src/use/index.md). Below are some of the key publications on the reference-based RNA-seq:
 
 * [TopHat: discovering splice junctions with RNA-Seq - Trapnell et al. (2009)](http://bioinformatics.oxfordjournals.org/content/25/9/1105.short)
 * [Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation - Trapnell et al. (2010)](http://nature.com/nbt/journal/v28/n5/full/nbt.1621.html)

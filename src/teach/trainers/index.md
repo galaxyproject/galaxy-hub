@@ -157,7 +157,7 @@ We have efficient computational methods in modeling all processes involved in RN
 
 ### MMG@IICT
 
-<div class='right'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/OSDD_MPDS.png" alt="MMG@IICT" width="170" /></a></div>
+<div class='right'><a href='http://mpds.osdd.net/'><img src="/src/use/mpdstb/mpdstb.png" alt="MMG@IICT" width="170" /></a></div>
  
 Workshops and training about the Molecular Property Diagnostic Suite (MPDS).
 
@@ -658,9 +658,7 @@ The TAMU Galaxy offers access a local Galaxy instance for TAMU Staff, faculty, a
 **Links & Contact:**
 
   * [TAMU Galaxy](http://galaxy.tamu.edu)
-  * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
-  * [Eric Rasche](/src/people/eric-rasche/index.md) (CPT Staff)
-  * [esr@tamu.edu](mailto:esr@tamu.edu) 
+  * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-pub/)
 
 ### UC Davis Genome Center's Bioinformatics Core Facility
 

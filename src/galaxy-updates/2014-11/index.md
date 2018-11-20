@@ -215,12 +215,12 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
 
 38 papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in October, including:
 
-* [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](http://dx.doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
+* [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](https://doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
 
   	
-* [iReport: a generalised Galaxy solution for integrated experimental reporting](http://dx.doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
+* [iReport: a generalised Galaxy solution for integrated experimental reporting](https://doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
 
-* [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](http://dx.doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
+* [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](https://doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
 
   	
 The new papers were tagged in these areas:
@@ -299,11 +299,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-Two new [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to the published list in October:
+Two new [public Galaxy servers](/src/use/index.md) were added to the published list in October:
 
 ## Majewski Lab Galaxy
 
-<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/public-galaxy-servers/McGillGQIC.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
+<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/use/majewski-lab/mcgill-qgic.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
 
 The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [email](mailto:Javad DOT Nadaf AT gmail DOT com).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 
@@ -311,7 +311,7 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/public-galaxy-servers/OSDD_MPDS.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/use/mpdstb/mpdstb.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
 
 The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 

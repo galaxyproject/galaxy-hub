@@ -29,13 +29,13 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 * [Globus Nexus: A Platform-as-a-Service provider of research identity, profile, and group management](http://bit.ly/1PesQHO)
     by Kyle Chard, Mattias Lidman, Brendan McCollam, *et al.* *Future Generation Computer Systems*, Vol. 56 (March 2016), pp. 571-583, doi:10.1016/j.future.2015.09.006
 
-* [Enhanced reproducibility of SADI web service workflows with Galaxy and Docker](http://dx.doi.org/10.1186/s13742-015-0092-3)
+* [Enhanced reproducibility of SADI web service workflows with Galaxy and Docker](https://doi.org/10.1186/s13742-015-0092-3)
     by Mikel Egaña E. Aranguren, Mark D. Wilkinson *GigaScience*, Vol. 4, No. 1. (3 December 2015), doi:10.1186/s13742-015-0092-3
 
 * [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bit.ly/1Qyy6qT)
     by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster, Andrew P. Stubbs, *Bioinformatics* (10 December 2015), btv721, doi:10.1093/bioinformatics/btv721
 
-* [ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](http://dx.doi.org/10.1186/s13072-015-0045-1)
+* [ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](https://doi.org/10.1186/s13072-015-0045-1)
     by Jens Preussner, Julia Bayer, Carsten Kuenne, Mario Looso *Epigenetics & chromatin*, Vol. 8, doi:10.1186/s13072-015-0045-1
 
 The new papers were tagged with:
@@ -262,11 +262,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/public-galaxy-servers/index.md#mpi-hlr-bioinformatics-server).
+[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/use/mpi-hlr-bioinformatics-server/index.md).
 
 ## Dintor
 
-<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/public-galaxy-servers/Dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
+<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/use/dintor/dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
@@ -288,7 +288,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/public-galaxy-servers/ErasmusMCBioinf300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)

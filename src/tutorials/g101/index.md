@@ -24,7 +24,7 @@ Galaxy software framework is an open-source application (distributed under the p
 
 The main Galaxy instance at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see http://bit.ly/gxystats). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
 
-In addition to the main Galaxy instance there numerous other sites running Galaxy software framework featuring different sets of tools and alternative interfaces. These can be explored at out [public servers](/public-galaxy-servers/) page.
+In addition to the main Galaxy instance there numerous other sites running Galaxy software framework featuring different sets of tools and alternative interfaces. These can be explored at out [public servers](/src/use/index.md) page.
 
 ## What is the goal of this tutorial?
 
@@ -144,7 +144,7 @@ where you do not need to change anything (make sure that **Whole Gene** is selec
 History keeps the entire record of your analysis. To find more about histories take a look at this [tutorial](/tutorials/histories).
 </div>
 
-Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
+Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
 
 |        |
 |--------|
@@ -179,7 +179,7 @@ You will get the third history item:
 
 ### Counting the number of SNPs per exon
 
-Look at the data obtained from the join operation above (you can do it by clicking the eye icon <i class="fa fa-eye" aria-hidden="true"></i> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
+Look at the data obtained from the join operation above (you can do it by clicking the eye icon <i class="far fa-eye" aria-hidden="true"></i> adjacent to the dataset). Below is a subsample of rows from the joined datasets (you may need to scroll sideways to see the entire length of the rows below):
 
 
 ```
@@ -314,7 +314,7 @@ chr22 22376182 22376505 uc062cbs.1_cds_1_0_chr22_22376183_f 25 +
 chr22 46256560 46263322 uc003bhh.4_cds_0_0_chr22_46256561_r 31 -
 ```
 
-This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <i class="fa fa-pencil" aria-hidden="true"></i> adjacent to the latest history dataset and click on "Datatype" tab:
+This is exactly as BED6 should look like. However, Galaxy does not know that this is BED6, so we need to tell it that. To do this click on pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to the latest history dataset and click on "Datatype" tab:
 
 |        |
 |--------|
@@ -464,7 +464,7 @@ What we are trying to do here is do design a generic workflow. This means that f
 |        |
 |--------|
 |![runtime Tool Selection](/src/tutorials/g101/runtime_parameter.gif)|
-|<small>**Figure 39**. To make a tool parameter settable at runtime simply click the <i class="fa fa-caret-square-o-down" aria-hidden="true"></i> icon.</small>|
+|<small>**Figure 39**. To make a tool parameter settable at runtime simply click the <i class="far fa-caret-square-down" aria-hidden="true"></i> icon.</small>|
 
 ### Save! It is important...
 

@@ -27,7 +27,7 @@ Tools and workflows managed by the primary Galaxy team (but contributed by [comm
 
 *Which is **right** for you?*
 * Review the **[Big Picture](/src/choices/index.md)**
-* Explore **Community [Public Galaxy Servers](/src/public-galaxy-servers/index.md)**
+* Explore **Community [Public Galaxy Servers](/src/use/index.md)**
 * Watch a screencast about **setting up a [EC2 Cloud](http://screencast.g2.bx.psu.edu//cloud/)**
 * Or, follow the ***galaxy-dev@bx.psu.edu* [mailing list](/src/mailing-lists/index.md)** to find out **[more...](http://galaxyproject.org)**
 

@@ -398,7 +398,7 @@ GI UV scales to truly extraordinary levels – today up to 2,560 physical cores 
 
 <div class='right'><a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan'><img src="/src/events/gcc2014/abstracts/OlivierInizan.png" alt="Olivier Inizan" width="100" /></a> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec'><img src="/src/events/gcc2014/abstracts/MikaelLoaec.png" alt="Mikael Loaec" width="100" /></a></div>
 
-**[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [Eric Rasche](https://www.biostars.org/u/5504/)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
+**[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [E. Rasche](https://www.biostars.org/u/5504/)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
 
  <sup>1</sup> [URGI-INRA](https://urgi.versailles.inra.fr/), Versailles, France
  <sup>2</sup> [Center for Phage Technology](https://cpt.tamu.edu/), [Texas A&M University](http://tamu.edu), College Station, Texas, United States 

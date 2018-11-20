@@ -282,13 +282,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from May:
 
-* [LimiTT: link miRNAs to targets](http://dx.doi.org/10.1186/s12859-016-1070-1) 
+* [LimiTT: link miRNAs to targets](https://doi.org/10.1186/s12859-016-1070-1) 
   * by Julia Bayer, Carsten Kuenne, Jens Preussner, Mario Looso. *BMC Bioinformatics*, Vol. 17, No. 1. (11 May 2016), doi:10.1186/s12859-016-1070-1
 
 * [From Scientific Workflow Patterns to 5-star Linked Open Data](https://www.usenix.org/conference/tapp16/workshop-program/presentation/gaignard)
     by Alban Gaignard, Hala Skaf-Molli, and Audrey Bihouée. In 8th USENIX Workshop on the Theory and Practice of Provenance (TaPP 16) (June 2016)
 
-* [Computational analysis of fitness landscapes and evolutionary networks from in vitro evolution experiments](http://dx.doi.org/10.1016/j.ymeth.2016.05.012)
+* [Computational analysis of fitness landscapes and evolutionary networks from in vitro evolution experiments](https://doi.org/10.1016/j.ymeth.2016.05.012)
     by Ramon Xulvi-Brunet, Gregory W. Campbell, Sudha Rajamani, José I. Jiménez, Irene A. Chen. *Methods* (May 2016), doi:10.1016/j.ymeth.2016.05.012
 
 and ...
@@ -297,7 +297,7 @@ and ...
 
 The [project and the developer community](/src/galaxy-team/index.md) has published a new paper, 
 
-  [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://dx.doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
+  [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
 that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/src/main/index.md) in particular.  Check it out.
 
@@ -384,22 +384,22 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-No [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were added to [the list](/src/public-galaxy-servers/index.md) in May.  To make up for this sad state of affairs, we created the ...
+No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [the list](/src/use/index.md) in May.  To make up for this sad state of affairs, we created the ...
 
 <div class='right'><br />
 <div class='center'>
-<a href='https://launch.genome.edu.au/launch'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="GVL" width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/PL-Grid_Logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
-<a href='https://www.genap.ca/'><img src="/src/galaxy-services/GenAP_Logo_Trans_250.png" alt="GenAP" width="120" /></a><br />
-<a href='/src/galaxy-services/index.md#australian-access-federation-aaf'><img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="200" /></a>
+<img src="/src/images/logos/gvl-300.png" alt="GVL" width="80" /> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/use/pl-grid/pl-grid-logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
+<a href='https://www.genap.ca/'><img src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" width="120" /></a><br />
+<img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="200" />
 </div></div>
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/src/galaxy-services/index.md) lists Galaxy servers that aren't [fully publicly accessible](/src/public-galaxy-servers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/src/use/index.md) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/galaxy-services/index.md#domain-based), [Geography Based](/src/galaxy-services/index.md), or by [membership in a multi-organization association](/src/galaxy-services/index.md#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on research domain, geography based, or by membership in a multi-organization association that provides Galaxy Servers. 
 
-**To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
+**To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/e/1FAIpQLSd4xzUP3pSYjTHiLoRE10zSJbplDVW7EbGy8EJ9JS0yy2SySg/viewform) and we'll post it this directory.
 
 # Galaxy Community Hubs
 
