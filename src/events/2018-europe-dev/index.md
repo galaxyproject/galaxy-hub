@@ -58,7 +58,7 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
-| 9:00 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
+| 9:30 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
 | 9:30 - 09:55 |  Marius van den Beek ([Institut Curie](https://institut-curie.org/)), John Chilton ([Penn State](http://www.bx.psu.edu/)) |  [*Travelling with warp-speed, an update on Galaxy workflows*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marius-van-den-beek-john-chilton) |   |
 | 09:55 - 10:20 |  Nicola Soranzo ([Earlham Institute](http://www.earlham.ac.uk/)) | *Beta Python 3 support for Galaxy in release 18.09, at last!*  |   | 
 | 10:20 - 10:45 |  Musumba Awori ([Goethe University of Frankfurt](http://www.goethe-university-frankfurt.de))  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |    |
