@@ -36,7 +36,7 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 | ---- | -------- | ------ | ------- | 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
 | 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |  [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/EGD_SG2018T_intro_Monday.pdf)  |
-| 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  |   | 
+| 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | [slides](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
 | 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  |   |
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |
