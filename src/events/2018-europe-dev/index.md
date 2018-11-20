@@ -47,9 +47,9 @@ We will meet at 19 in Bertholdsbrunnen
 | 12:20 - 13:30 |  Lunch Break  |   |  |
 | 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:55 - 14:20 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
-| 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |  [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/Interactive%20plotting%20with%20ggplot%20and%20shiny%20in%20Galaxy.pptx)  |
+| 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |  [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/Interactive%20plotting%20with%20ggplot%20and%20shiny%20in%20Galaxy.pptx) |
 | 14:45 - 15:40 |   Coffee Break  |   |   |
-| 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) |    |
+| 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) | [slides](https://github.com/kpoterlowicz/presentations/blob/master/EuropeanGalaxyDays18_Poterlowicz.pdf) |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  | [slides](http://bebatut.fr/talks/18/11_19_egd/#/1) |
 | 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* | [slides](https://docs.google.com/presentation/d/1uLub5IfCjhMr52R8spCRdkk4yAvKyx2M7z9JmLrqVwM/edit?usp=sharing)  | 
 | 16:55 - 17:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
