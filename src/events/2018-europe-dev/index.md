@@ -24,7 +24,7 @@ contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 19-Nov: We have reserved a few tables at the [Mehlwaage](https://mehlwaage.wordpress.com) at 19:00. Its in the city, nearby
 Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 
-18-Nov: We are in the Martinsbraeu (https://www.google.com/maps/place/Martinsbr%C3%A4u/@47.9936826,7.8474061,17z/data=!3m1!4b1!4m5!3m4!1s0x47911c9ed01deeef:0x9bdf5e91204fc379!8m2!3d47.993679!4d7.8496) Kaiser-Joseph-Straße 237 
+18-Nov: We are in the [Martinsbraeu](https://www.google.com/maps/place/Martinsbr%C3%A4u/@47.9936826,7.8474061,17z/data=!3m1!4b1!4m5!3m4!1s0x47911c9ed01deeef:0x9bdf5e91204fc379!8m2!3d47.993679!4d7.8496) Kaiser-Joseph-Straße 237 
 
 12-Nov: If you travel on Sunday (November 18th) to Freiburg, and want to meet up in the late afternoon: We meet in the middle of the old town, in front of the cathedral ("Freiburger Muenster"), near the fountain ([Georgsbrunnen](https://de.wikipedia.org/wiki/Georgsbrunnen_(Freiburg_im_Breisgau )) at 5PM. The place where we will have dinner (and/or beer) will be posted here and on [gitter](https://gitter.im/usegalaxy-eu/Lobby).
 
@@ -39,15 +39,15 @@ We will meet at 19 in Bertholdsbrunnen
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
-| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |  [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/EGD_SG2018T_intro_Monday.pdf)  |
+| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |  [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/EGD_SG2018T_intro_Monday.pdf)  |
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | [slides](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
-| 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  | [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/egd-bernt.pdf)  |
+| 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  | [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/egd-bernt.pdf)  |
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) | [slides](https://github.com/refinery-platform/refinery-platform/blob/gh-pages/presentations/EGD18.pdf)  |
 | 12:20 - 13:30 |  Lunch Break  |   |  |
 | 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:55 - 14:20 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
-| 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |  [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/Interactive%20plotting%20with%20ggplot%20and%20shiny%20in%20Galaxy.pptx) |
+| 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |  [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/interactive_plotting_with_ggplot_and_shiny_in_galaxy.pptx) |
 | 14:45 - 15:40 |   Coffee Break  |   |   |
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) | [slides](https://github.com/kpoterlowicz/presentations/blob/master/EuropeanGalaxyDays18_Poterlowicz.pdf) |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  | [slides](http://bebatut.fr/talks/18/11_19_egd/#/1) |
