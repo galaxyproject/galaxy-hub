@@ -39,7 +39,7 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 | 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | [slides](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
 | 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  | [slides](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2018-europe-dev/egd-bernt.pdf)  |
-| 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) |    |
+| 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) | [slides](https://github.com/refinery-platform/refinery-platform/blob/gh-pages/presentations/EGD18.pdf)  |
 | 12:20 - 13:30 |  Lunch Break  |   |  |
 | 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  |   | 
 | 13:55 - 14:20 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
