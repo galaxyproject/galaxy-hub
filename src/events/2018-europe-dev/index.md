@@ -46,7 +46,7 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 | 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |    |
 | 14:45 - 15:40 |   Coffee Break  |   |   |
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) |    |
-| 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  |    |
+| 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  | [slides](http://bebatut.fr/talks/18/11_19_egd/#/1) |
 | 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* |   | 
 | 16:55 - 17:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
 | 17:00 |  ...going to the pub  |   |   |
@@ -67,7 +67,7 @@ Martinstor, here is the [GoogleMap link](https://goo.gl/maps/r9AZgu1YKbK2).
 | 11:35 - 12:00 | Sveinung Gundersen ([UiO](https://www.usit.uio.no/))   |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |    |
 | 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | [State of the European Galaxy Project](https://github.com/erasche/presentations/blob/master/2018-11-egd/main.pdf) |  |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
-| 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  |   | 
+| 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  | [slides](http://bebatut.fr/talks/18/11_20_egd/#/1) | 
 | 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) |  |
 | 14:10 - 14:35 |  Yvan Le Bras ([Muséum national d’histoire naturelle](https://www.mnhn.fr/)) | [*GalaxyE, a new vision of workflow oriented Biodiversity research?*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#yvan-le-bras) |    | 
 | 14:35 - 15:00 |  Anup Kumar ([University of Freiburg](http://www.uni-freiburg.de/))  | *Machine learning with Galaxy* |   |
