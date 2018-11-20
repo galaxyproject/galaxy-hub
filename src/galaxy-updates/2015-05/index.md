@@ -18,16 +18,16 @@ Welcome to the May 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
 
 66 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April. Highlights include:
 
-* [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](http://dx.doi.org/10.1093/nar/gkv345)
+* [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](https://doi.org/10.1093/nar/gkv345)
     Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel, *Nucleic Acids Research* (16 April 2015), gkv345, doi:10.1093/nar/gkv345
 
 * [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19)
     Yinan Wan1, Daniel W Renner2, Istvan Albert and Moriah L Szpara, *GigaScience* 2015, 4:19  doi:10.1186/s13742-015-0060-y	
 
-* [ClusTrack: Feature Extraction and Similarity Measures for Clustering of Genome-Wide Data Sets](http://dx.doi.org/10.1371/journal.pone.0123261) 
+* [ClusTrack: Feature Extraction and Similarity Measures for Clustering of Genome-Wide Data Sets](https://doi.org/10.1371/journal.pone.0123261) 
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
-* [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://dx.doi.org/10.1093/bioinformatics/btv213)
+* [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](https://doi.org/10.1093/bioinformatics/btv213)
     Yin Tang, [Emil Bouvier](/src/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/index.md), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
 
 The new papers were tagged with:
@@ -391,7 +391,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Server: The ReproGenomics Viewer
 
-<div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/src/public-galaxy-servers/ReproGenomicsViewer.png" alt="The ReproGenomics Viewer"  /></a></div>
+<div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/src/public-galaxy-servers/archive/repro-genomics-viewer.png" alt="The ReproGenomics Viewer"  /></a></div>
  
 * *Link:*
   * [The ReproGenomics Viewer working environment](http://rgv.genouest.org/galaxy/)
@@ -447,7 +447,7 @@ And one new [Training Resource](/src/teach/resources/index.md):
 * Add pulsar-run script for issues commands against a Pulsar server (experimental). [3cc7f74](https://github.com/galaxyproject/pulsar/commit/3cc7f74)
 * Changed the name of project to Pulsar, moved to [Github](https://github.com/galaxyproject/pulsar/).
 * New RESTful web services interface.
-* SCP and Rsync file staging options added by [Eric Rasche](/src/people/eric-rasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
+* SCP and Rsync file staging options added by [E. Rasche](/src/people/helena-rasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
 * Allow YAML based configuration.
 * Support for more traditional pip/setup.py-style installs.
 

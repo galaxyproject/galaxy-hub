@@ -335,7 +335,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 ## Public Galaxy Server Tools Registry and Search
 
-There are [over 60 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.  
+There are [over 60 publicly accessible Galaxy servers](/src/use/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.  
 
 The Galaxy Tool bar search could additionally be modified to to show an item at the bottom of the matching tools to say something like
 
@@ -371,7 +371,7 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 * Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/erasche/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [Eric Rasche](/src/people/eric-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
+**Possible Mentors** [E. Rasche](/src/people/helena-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
 
 **Required Skills** Docker, NodeJS
 

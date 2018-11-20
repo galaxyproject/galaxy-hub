@@ -213,7 +213,7 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 Some highlights from December:
 
-* [Chapter 13. Using Galaxy for Proteomics](http://dx.doi.org/10.1039/9781782626732-00289)
+* [Chapter 13. Using Galaxy for Proteomics](https://doi.org/10.1039/9781782626732-00289)
    Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in 
 Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039/9781782626732-00289
 * [EuPathDB: the eukaryotic pathogen genomics database resource](http://nar.oxfordjournals.org/content/early/2016/11/29/nar.gkw1105.full)
@@ -299,13 +299,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in December.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in December.
 
 ## New Public Galaxy Servers
 
 ### Galaxy@Pasteur
 
-<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/public-galaxy-servers/Pasteur300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/use/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
 
 * *Link:*
   * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
@@ -320,7 +320,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Galaxy Sigenae / BioInfo Genotoul
 
-<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/public-galaxy-servers/GalaxySigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
+<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/public-galaxy-servers/archive/galaxy-sigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
 
 * *Link:*
   * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)

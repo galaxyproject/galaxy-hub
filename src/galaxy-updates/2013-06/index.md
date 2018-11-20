@@ -9,11 +9,11 @@ Welcome to the June 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 
 ## New Public Servers
 
-[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in May.
+[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/src/use/index.md) in May.
 
 ### ODoSE
 
-<div class='left'><a href='http://www.odose.nl/'><img src="/src/public-galaxy-servers/ODoSEScatterplot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
+<div class='left'><a href='http://www.odose.nl/'><img src="/src/public-galaxy-servers/archive/odose-scatter-plot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
 
 The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) supports genome-wide calculation of adaptive divergence in prokaryotes:
 
@@ -21,7 +21,7 @@ The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) suppo
 
 See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
 
-<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/public-galaxy-servers/CBiBLogo300.png" alt="CBiB Galaxy" width="200" /></a></div>
+<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/use/cbib-galaxy/cbib-logo-300.png" alt="CBiB Galaxy" width="200" /></a></div>
 
 ### CBiB Galaxy
 
@@ -75,9 +75,9 @@ See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Pr
 
 39 new papers were added to the Galaxy CiteULike Group in May, including:
 
-* "[The Genomic HyperBrowser: an analysis web server for genome-scale data](http://dx.doi.org/10.1093/nar/gkt342)" by Geir K. Sandve, Sveinung Gundersen, Morten Johansen, *et al.*; *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* (30 April 2013)
+* "[The Genomic HyperBrowser: an analysis web server for genome-scale data](https://doi.org/10.1093/nar/gkt342)" by Geir K. Sandve, Sveinung Gundersen, Morten Johansen, *et al.*; *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* (30 April 2013)
 
-* "[ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://dx.doi.org/10.1371/journal.pone.0062447)" by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; *[PLoS ONE](http://www.plosone.org/)*, Vol. 8, No. 5. (6 May 2013), e62447
+* "[ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](https://doi.org/10.1371/journal.pone.0062447)" by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; *[PLoS ONE](http://www.plosone.org/)*, Vol. 8, No. 5. (6 May 2013), e62447
 
 There are now almost [1000 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

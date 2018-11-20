@@ -56,7 +56,7 @@ Tools now annotate citation information. Tools annotate citations using either D
 
 <div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
 
-[Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by Eric Rasche
+[Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by E. Rasche
 
 Added tool-to-container mechanism to package dependencies that tool developers can provide as an alternative to requirements and Galaxy's `tool_dependency_dir`. You can now create »Dockerized« tools, meaning tools which run within a docker container. [9lGgDlOJ](https://trello.com/c/9lGgDlOJ)
 
@@ -159,4 +159,4 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/use/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)

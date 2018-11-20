@@ -2,7 +2,7 @@
 title: [kmer-SVM](http://kmersvm.beerlab.org/)
 ---
 <div class='center'>
-<a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-SVM.png" alt="kmer-SVM"  /></a>
+<a href='http://kmersvm.beerlab.org/'><img src="/src/use/kmer-svm/kmer-svm.png" alt="kmer-SVM"  /></a>
 </div>
 
 
@@ -57,4 +57,4 @@ General Genomics Researchers
 ## Links
 
 * [kmer-SVM server](http://kmersvm.beerlab.org/)
-* [kmer-svm](/src/public-galaxy-servers/index.md#kmer-svm) server description on [list of public Galaxy Servers](/src/public-galaxy-servers/index.md)
+* [kmer-svm](/src/use/kmer-svm/index.md) server description on [list of public Galaxy Servers](/src/use/index.md)

@@ -7,7 +7,7 @@ title: Galaxy @ PAG 2012
 
 Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://www.intlpag.org/), January 14-18 in San Diego, California:
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Time </th>

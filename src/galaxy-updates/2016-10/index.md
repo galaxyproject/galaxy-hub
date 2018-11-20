@@ -361,18 +361,18 @@ Some highlights from last month:
    Annette McGrath, Steve McMahon, Sean Li, Joel Ludbey, Tim Ho. *Journal of Grid Computing* (2016), pp. 1-11, doi:10.1007/s10723-016-9379-6
 
  **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://biorxiv.org/content/early/2016/09/22/075457)**
-   [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nathan Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
+   [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nathan Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
 
- **[Genotyping of evolving prokaryotic populations](http://dx.doi.org/10.7287/peerj.preprints.2449v1)**
+ **[Genotyping of evolving prokaryotic populations](https://doi.org/10.7287/peerj.preprints.2449v1)**
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ Preprints* (14 September 2016), doi:10.7287/peerj.preprints.2449v1
 
  **[Identifying Regions Enriched in a ChIP-seq Data Set (Peak Finding)](https://www.ncbi.nlm.nih.gov/pubmed/27574193)**
    Jui-Hung Hung, Zhiping Weng. *Cold Spring Harbor Protocols* (29 August 2016), doi:10.1101/pdb.prot093187
 
- **[Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](http://dx.doi.org/10.1101/048983)**
+ **[Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](https://doi.org/10.1101/048983)**
    Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D. Vernick, Christophe Antoniewski. *bioRxiv* (2016), doi:10.1101/048983
 
- **[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](http://dx.doi.org/10.1109/mipro.2015.7160259)**
+ **[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](https://doi.org/10.1109/mipro.2015.7160259)**
    Lukas Forer, [Enis Afgan](/src/people/enis-afgan/index.md), Hansi Weißensteiner, Davor Davidović, Günther Specht, Florian Kronenberg, Sebastian Schönherr. 2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2015), pp. 172-177, doi:10.1109/mipro.2015.7160259
 
 ## Tagged Publications
@@ -458,13 +458,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [five semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in September.
+There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [five semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in September.
 
 ## New Public Galaxy Servers
 
 ### Galaxy-CEFAP
 
-<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/public-galaxy-servers/CEFAP-Logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
+<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/use/galaxy-cefap/cefap-logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
 
 [Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) offers a set of tools to perform RNA-Seq and miRNA. User support is available via [Email](mailto:geninfo AT icb DOT usp DOT br), and there is an [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf) as well.  Anyone can use the server, but it is necessary to create a login first.  Email [geninfo AT icb DOT usp DOT br](mailto:geninfo AT icb DOT usp DOT br) to request an account. There is a storage quota for all users.
 
@@ -472,7 +472,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### VarCap
 
-<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/public-galaxy-servers/VarCapWorkflow.png" alt="VarCap" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/use/varcap/varcap-workflow.png" alt="VarCap" width="200" /></a></div>
 
 [VarCap Galaxy](http://galaxy.csb.univie.ac.at:8080/) performs reliable prediction of different types of variants even at low frequencies. See
  Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2016) [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/). *PeerJ Preprints* 4:e2449v1 doi: 10.7287/peerj.preprints.2449v1
@@ -481,7 +481,7 @@ for a description.  A [tutorial](http://galaxy.csb.univie.ac.at:8080/static/welc
 
 ## Semi-Public Galaxy Services
 
-Jetstream was officially launched in September and was added to the [Semi-Public Galaxy Services list](/src/galaxy-services/index.md):
+Jetstream was officially launched in September and was added to the [Semi-Public Galaxy Services list](/src/use/index.md):
 
 ### United States: Jetstream
 

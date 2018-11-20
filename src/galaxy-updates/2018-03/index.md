@@ -1,14 +1,14 @@
 ---
 title: March 2018 Galaxy News
 ---
-[<img class="pull-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
 
 Welcome to the March 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
 # GCCBOSC 2018
-[<img class="pull-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 ## Abstract submission, registration & housing are open
 
@@ -51,7 +51,7 @@ The second day has five parallel track, and covers a full spectrum of topics of 
 
 We are pleased to announce two of our keynote speakers:
 
-[<img class="pull-right" src="/src/events/gccbosc2018/keynotes/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
+[<img class="float-right" src="/src/events/gccbosc2018/keynotes/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
 
 **BOSC / GCC Joint Keynote: [Fernando Pérez](/src/events/gccbosc2018/keynotes/index.md#bosc-gcc-joint-keynote-fernando-perez)**
 
@@ -60,7 +60,7 @@ We are pleased to announce two of our keynote speakers:
 
 [Dr. Pérez](https://bids.berkeley.edu/people/fernando-perez) is an assistant professor in Statistics at UC Berkeley and a Faculty Scientist in the Department of Data Science and Technology at Lawrence Berkeley National Laboratory.  He also created IPython while a graduate student and co-founded its successor, [Project Jupyter](http://jupyter.org/).
 
-[<img class="pull-right" src="/src/events/gccbosc2018/keynotes/teal.jpg" alt="Tracy Teal" width="110" />](http://www.datacarpentry.org/people/)
+[<img class="float-right" src="/src/events/gccbosc2018/keynotes/teal.jpg" alt="Tracy Teal" width="110" />](http://www.datacarpentry.org/people/)
 
 **BOSC 2018 Keynote: [Tracy K. Teal](http://www.datacarpentry.org/people/)**
 
@@ -76,19 +76,19 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 ### F1000Research
 
-[<img class="pull-right" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" width="200" />](https://f1000research.com/)
+[<img class="float-right" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" width="200" />](https://f1000research.com/)
 
 For the first time, the *Galaxy Community Conference* and *Bioinformatics Open Source Conference* are joining together for a unified event. To mark this occasion, the [BOSC Collection](https://f1000research.com/collections/BOSC) and the [Galaxy Gateway](https://f1000research.com/gateways/galaxy) on [F1000Research](https://f1000research.com/) will be publishing a series of articles in the run up to the conference in June and are now inviting contributions.  The submission deadline is April 30<sup>th</sup>, to ensure papers are published before GCCBOSC 2018 starts. If you are interested in contributing or have any other questions, please email [research@f1000.com](mailto:research@f1000.com).
 
 
 ### Technology Association of Oregon
 
-[<img class="pull-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+[<img class="float-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
 
 [Technology Association of Oregon](http://www.techoregon.org/) is the force behind the Oregon tech industry. Supporting entrepreneurs, connecting peers and decision makers, and helping grow the Northwest as a global hub for innovation. We are proud to be a leader in the regional technology community and offer many ways for individuals, companies, and community organizations to partner with us in Oregon and SW Washington.
 
 
-<div class="pull-right">
+<div class="float-right">
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
@@ -102,7 +102,7 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 # ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
 
-<div class="pull-left">
+<div class="float-left">
 [<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
 [<img src="/src/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
 </div>
@@ -117,7 +117,7 @@ Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy community, to discus
 
 # Galaxy Africa, 3-5 April, Cape Town
 
-[<img class="pull-right" src="/src/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
+[<img class="float-right" src="/src/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
 
 [Galaxy Africa](http://galaxyafrica.sanbi.ac.za/) will be held 3-5 April in Cape Town, South Africa at [SANBI](http://www.sanbi.ac.za/) on the [Universtiy of the Western Cape](https://www.uwc.ac.za/Pages/default.aspx) campus.
 
@@ -244,7 +244,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 
 # New Galactic Blog Entry: Coding in the Winter Wonderland: Galaxy Admin Training
 
-<div class="pull-right" >
+<div class="float-right" >
 [<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
 </div>
 
@@ -261,7 +261,7 @@ February had one new *[Galactic Blog](/src/blog/index.md)* entry:
 The *Galactic* and *Stellar* publications added in February were:
 
 * [GeneSeqToFamily: a Galaxy workflow to find gene families based on the Ensembl Compara GeneTrees](https://doi.org/10.1093/gigascience/giy005), Anil S Thanki, Nicola Soranzo, Wilfried Haerty, Robert P Davey. *GigaScience*, giy005, doi: 10.1093/gigascience/giy005
-* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
+* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
 * [Mind your gaps: Overlooking assembly gaps confounds statistical testing in genome analysis](https://doi.org/10.1101/252973), Diana Domanska, Chakravarthi Kanduri, Boris Simovski, Geir Kjetil Sandve. *bioRxiv* 252973; doi: 10.1101/252973
 * [MAJIQ-SPEL: web-tool to interrogate classical and complex splicing variations from RNA-Seq data](https://doi.org/10.1093/bioinformatics/btx565), Christopher J Green, Matthew R Gazzara, Yoseph Barash. *Bioinformatics*, Volume 34, Issue 2, 15 January 2018, Pages 300–302, doi: 10.1093/bioinformatics/btx565
 * [Low-pass single-chromosome sequencing of human small supernumerary marker chromosomes (sSMCs) and *Apodemus* B chromosomes](https://link.springer.com/article/10.1007/s00412-018-0662-0), Makunin, A.I., Rajičić, M., Karamysheva, T.V. et al. *Chromosoma* (2018). doi: 10.1007/s00412-018-0662-0
@@ -295,17 +295,17 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them last month, including a new public server:
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including a new public server:
 
 ## Metaproteomics Gateway Server
 
-[<img class="pull-right" src="/src/public-galaxy-servers/metaproteomics-gateway/metaproteomics-gateway-landing-400.png" width="250" alt="Metaproteomics Gateway Server" />](http://z.umn.edu/metaproteomicsgateway)
+[<img class="float-right" src="/src/use/metaproteomics-gateway/metaproteomics-gateway-landing-400.png" width="250" alt="Metaproteomics Gateway Server" />](http://z.umn.edu/metaproteomicsgateway)
 
 The [Galaxy-P Metaproteomics Gateway](http://z.umn.edu/metaproteomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized metaproteomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
 
 [Step-by-step training instructions and related information](http://z.umn.edu/supps1) and a [Metaproteomics Tutorial Video](http://z.umn.edu/mpvideo2018) are available.  The server can be accessed anonymously or you can create an account.  It is maintained by [@galaxyproteomics](https://github.com/galaxyproteomics).
 
-See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](http://dx.doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
+See [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007) by Clemens Blank *et al.* for more.
 
 ## deepTools 3.0 is live
 
@@ -313,7 +313,7 @@ deepTools 3.0 is now available on the [deepTools Galaxy Server](https://deeptool
 
 ## ARGs-OAP v2.0 published
 
-In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/src/public-galaxy-servers/args-oap/index.md) was upgraded as well:
+In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/src/use/args-oap/index.md) was upgraded as well:
 
 * [ARGs-OAP v2.0 with an expanded SARG database and Hidden Markov Models for enhancement characterization and quantification of antibiotic resistance genes in environmental metagenomes](https://doi.org/10.1093/bioinformatics/bty053), Xiaole Yin, Xiao-Tao Jiang, Benli Chai, Liguan Li, Ying Yang, James R Cole, James M Tiedje, Tong Zhang. *Bioinformatics*, bty053, doi: 10.1093/bioinformatics/bty053
 
@@ -345,7 +345,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## Planemo 0.48.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -353,7 +353,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ## Pulsar 0.8.1-3
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) updates were [released in February](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst).  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -407,7 +407,7 @@ Ephemeris is a small Python library and set of scripts for managing the bootstra
 
 ### blend4php 0.1 beta
 
-[<img class='pull-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
+[<img class='float-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
 
 The beta version of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html), was released in December. It provides a PHP package for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 

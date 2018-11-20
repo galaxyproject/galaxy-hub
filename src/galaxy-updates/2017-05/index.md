@@ -272,7 +272,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in April
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in April
 
 ## New Galaxy Services
 
@@ -307,7 +307,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Antigen Receptor Galaxy (ARGalaxy)
 	
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/src/public-galaxy-servers/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/src/use/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Antigen Receptor Galaxy (ARGalaxy)](https://bioinf-galaxian.erasmusmc.nl/argalaxy/)

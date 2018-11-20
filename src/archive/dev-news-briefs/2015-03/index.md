@@ -151,7 +151,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Workflow steps are now assigned UUIDs. [4U9e1och](https://trello.com/c/4U9e1och)
 1. Updated the Workflow API by replacing preferred usage terminology (s/usage/invocation). [XNInq5KH](https://trello.com/c/XNInq5KH)
 1. Tuning for History panel functions: Dataset search, multi-select Datasets to perform batch operations, related database modifications. [D4nLl5Ky](https://trello.com/c/D4nLl5Ky)
-1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Eric Rasche](/src/people/eric-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
+1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [E. Rasche](/src/people/helena-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
 1. Load the »Available Genomes« list from data tables for visualizations (Trackster). Thanks to Anthony Bretaudeau. [x8LMSD7Z](https://trello.com/c/x8LMSD7Z)
 1. The History »Options« menu has been updated to better compliment other recent UI changes. [EEsM0abM](https://trello.com/c/EEsM0abM)
 1. Several improvements to the History list view. [ltNMDNbZ](https://trello.com/c/ltNMDNbZ)
@@ -202,7 +202,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 * [All Galaxy News](/src/news/index.md) and the [Hub for Release News](/src/docs/index.md)
 * [Twitter](/src/galaxy-on-twitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
 * [Events](/src/events/index.md), [Learn](/src/learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/support/index.md) with FAQ help, [Mailing list](/src/mailing-lists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
-* All know of [Public Galaxy Main](/src/main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/public-galaxy-servers/index.md) lately?
+* All know of [Public Galaxy Main](/src/main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/use/index.md) lately?
 * [Teach](/src/teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
 * [Community](/src/community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
@@ -215,7 +215,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 1. Galaxy logs no longer leak database connection information. [VjEqTxlT](https://trello.com/c/VjEqTxlT)
 1. The email for resetting an account password is now a link. [SKjU40t6](https://trello.com/c/SKjU40t6)
-1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Eric Rasche](/src/people/eric-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
+1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [E. Rasche](/src/people/helena-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
 
 # Upgrades
 
@@ -225,4 +225,4 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/use/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)

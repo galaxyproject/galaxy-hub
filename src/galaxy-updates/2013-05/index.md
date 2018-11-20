@@ -49,7 +49,7 @@ Welcome to the May 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 39 new papers were added to the Galaxy CiteULike Group in April, including:
 
-* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](http://dx.doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Bioinformatics (28 April 2013)
+* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](https://doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Bioinformatics (28 April 2013)
 
 There are now over [950 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

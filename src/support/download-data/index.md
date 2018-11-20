@@ -5,7 +5,7 @@
 
 Related topics
  * [Loading Data](/src/support/loading-data/index.md)
- * [Moving data between Galaxy servers](moving-data-between-galaxy-instances/)
+ * [Moving data between Galaxy servers](/src/blog/2016-07-moving-data-between-galaxy-instances/)
 
 * **Download datasets** by clicking on the disk icon inside the [dataset](/src/learn/managing-datasets/index.md). Good for smaller sizes in all browsers.
 * **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.

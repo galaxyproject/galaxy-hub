@@ -12,7 +12,7 @@ title: Creating Workflows and Advanced Workflow Options
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
 * Workflows can be executed using the API (including workflows that exist on the public [Main](/src/main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/learn/api/index.md)**
-* Check the usage information on other [public Galaxy servers](/src/public-galaxy-servers/index.md) to see if they support API access.
+* Check the usage information on other [public Galaxy servers](/src/use/index.md) to see if they support API access.
 
 ## Learn from an example
 

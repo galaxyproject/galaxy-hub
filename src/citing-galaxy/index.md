@@ -4,19 +4,26 @@ title: Citing Galaxy
 
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](/src/citing-galaxy/index.md#primary-publication) for project wide citations.  There are also several [publications on more specific topics](/src/citing-galaxy/index.md#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](/src/citing-galaxy/index.md#galaxy-project-publications-by-year).
 
+## Galaxy Publication Library
+
+This page emphasizes publications from the core Galaxy team.  However, the set of publications from the community is orders of magnitude larger.  The [Galaxy Group](https://www.zotero.org/groups/galaxy) on [Zotero](https://zotero.org/) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  The library contains thousands of publications all classified with ~19 Galaxy specific tags.  See the [Galaxy Publication Library page](/src/publication-library/index.md) for more.
+
+
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/src/public-galaxy-servers/index.md) or [Galaxy services](/src/public-galaxy-servers/index.md) (see each server's page for citation info), a local install, or on a [cloud install](/src/cloud/index.md)?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers, cloud sevices, VMs or containers](/src/use/index.md) (see each resource's page for citation info), or a local install?
 
 Some excellent exmples (*emphasis added*):
 
-* Used usegalaxy.org, from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
+* Used usegalaxy.org: from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
 
      "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
 
-* Used a public server, from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
+* Used a [public server](/src/use/index.md): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
+
+     Which publication should you cite when using public accessible Galaxy platform?  Most of the [platform descriptions](/src/use/index.md) include a *Citation(s)* section.
 
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
      
@@ -24,10 +31,10 @@ Some excellent exmples (*emphasis added*):
 
 ## Primary Publication
 
-If you use or extend Galaxy in your published work, please cite this publication:
+If you use, extend or reference Galaxy in your published work, please cite this publication:
 
- [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/people/dan/index.md), [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Greg Von Kuster](/src/people/greg_vonkuster/index.md), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/people/nitesh-turaga/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full)**. *Nucleic Acids Research* (2016) 44(W1): W3-W10 doi:10.1093/nar/gkw343
- 
+* [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
+
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html). 
 
 ## Citing Specific Galaxy Components / Features
@@ -36,41 +43,51 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### Application Programming Interface (API)
 
- Clare Sloggett, Nuwan Goonasekera and [Enis Afgan](/src/people/enis-afgan/index.md). **[BioBlend: automating pipeline analyses within Galaxy and CloudMan](https://academic.oup.com/bioinformatics/article/29/13/1685/185761/BioBlend-automating-pipeline-analyses-within)**. *Bioinformatics* (2013) 29(13): 1685-1686 doi:10.1093/bioinformatics/btt199
+* Clare Sloggett, Nuwan Goonasekera and [Enis Afgan](/src/people/enis-afgan/index.md). **[BioBlend: automating pipeline analyses within Galaxy and CloudMan](https://academic.oup.com/bioinformatics/article/29/13/1685/185761/BioBlend-automating-pipeline-analyses-within)**. *Bioinformatics* (2013) 29(13): 1685-1686 doi:10.1093/bioinformatics/btt199
 
 ### Cloud
 
- [Enis Afgan](/src/people/enis-afgan/index.md), Brad Chapman and [James Taylor](/src/people/james-taylor/index.md). **[CloudMan as a platform for tool, data, and analysis distribution](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-315)**. *BMC Bioinformatics* (2012) 13:315 doi:10.1186/1471-2105-13-315
+*  [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.
+**[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
 ### Data Managers
 
- [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Wrangling Galaxy's Reference Data](https://academic.oup.com/bioinformatics/article/30/13/1917/205199/Wrangling-Galaxy-s-reference-data)**. *Bioinformatics* (2014) 30(13): 1917-1919 doi:10.1093/bioinformatics/btu119
+* [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Wrangling Galaxy's Reference Data](https://academic.oup.com/bioinformatics/article/30/13/1917/205199/Wrangling-Galaxy-s-reference-data)**. *Bioinformatics* (2014) 30(13): 1917-1919 doi:10.1093/bioinformatics/btu119
 
 ### Interactive Environments
 
- [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
+* [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
 ### Reproducibility
 
- Geir Kjetil Sandve, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md), Eivind Hovig. **[Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)**. *PLoS Computational Biology* (2013) 9(10): e1003285 doi:10.1371/journal.pcbi.1003285
+* [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md).
+**[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
 ### ToolShed
 
- [Daniel Blankenberg](/src/people/dan/index.md), [Gregory Von Kuster](/src/people/greg_vonkuster/index.md), [Emil Bouvier](/src/people/dave-bouvier/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
+* [Daniel Blankenberg](/src/people/dan/index.md), [Gregory Von Kuster](/src/people/greg_vonkuster/index.md), [Emil Bouvier](/src/people/dave-bouvier/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
 
 ### Training
 
- Bérénice Batut, Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Freeberg, Simon Gladman, Youri Hoogstrate, [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon Ryan, Florian Sigloch, Nicola Soranzo, Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). **[Community-driven data analysis training for biology](https://www.biorxiv.org/content/early/2017/11/29/225680)**, *bioRxiv* 225680; doi: https://doi.org/10.1101/225680
+* [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate,  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/src/people/james-taylor/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). **[Community-Driven Data Analysis Training for Biology](https://doi.org/10.1016/j.cels.2018.05.012)**, *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
 
 ### Visualization
 
- [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, The [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md) and [James Taylor](/src/people/james-taylor/index.md). **[Web-based visual analysis for high-throughput genomics](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-397)**. *BMC Genomics* (2013) 14:397 doi:10.1186/1471-2164-14-397
+* [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, The [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md) and [James Taylor](/src/people/james-taylor/index.md). **[Web-based visual analysis for high-throughput genomics](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-397)**. *BMC Genomics* (2013) 14:397 doi:10.1186/1471-2164-14-397
 
 ## Galaxy Project Publications by Year
 
 Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md) as authors.
 
+### 2018
 
+1. [Vahid Jalili](/src/people/vahid-jalili/index.md), Matteo Matteucci, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Yashar Deldjoo, Stefano Ceri, [Next Generation Indexing for Genomic Intervals](https://doi.org/10.1109/TKDE.2018.2871031), *IEEE Transactions on Knowledge and Data Engineering* (2018), doi:10.1109/TKDE.2018.2871031
+1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
+1. [Anton Nekrutenko](/src/people/anton/index.md),  [Galaxy Team](/src/galaxy-team/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Daniel Blankenberg](/src/people/dan/index.md), **[Biology Needs Evolutionary Software Tools: Let’s Build Them Right](https://doi.org/10.1093/molbev/msy084)**, *Molecular Biology and Evolution*, Volume 35, Issue 6, 1 June 2018, Pages 1372–1375, doi:10.1093/molbev/msy084
+1. [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera.
+**[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md).
+**[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
 ### 2017
 
@@ -79,19 +96,19 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen,
 [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). **[Practical computational reproducibility in the life sciences](https://www.biorxiv.org/content/early/2017/10/10/200683)**, *bioRxiv* 200683; doi: https://doi.org/10.1101/200683 
 1. Gil Alterovitz, Dennis A Dean II, Carole Goble, Michael R Crusoe, Stian Soiland-Reyes, Amanda Bell, Anais Hayes, Charles Hadley S King IV, Elaine Johanson, Elaine E Thompson, Eric Donaldson, Hsinyi S Tsang, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Jonas S Almeida, Lydia Guo, Mark Walderhaug, Paul Walsh, Robel Kahsay, Toby Bloom, Yuching Lai, Vahan Simonyan, Raja Mazumder. **[Enabling Precision Medicine via standard communication of NGS provenance, analysis, and results](https://www.biorxiv.org/content/early/2017/09/22/191783)**, *bioRxiv* 191783; doi: 10.1101/191783 
-1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
 
 ### 2016
 
 1. [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). **[A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1)**. *F1000Research* (2016) 5:2757 doi:10.12688/f1000research.9821.1
 
-1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv* (2016) doi:10.1101/075457 
+1. [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](https://doi.org/10.1101/075457)**. *bioRxiv* (2016) doi:10.1101/075457 
 
 1. Nicholas Stoler, Barbara Arbeithuber, Wilfried Guiblet, Kateryna D. Makova, [Anton Nekrutenko](/src/people/anton/index.md). **[Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4)**. *Genome Biology* (2016) 17:180 doi:10.1186/s13059-016-1039-4
 
 1. [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [JamesTaylor](/src/people/james-taylor/index.md), Karolj Skala, Nuwan Goonasekera. **[Architectural Models for Deploying and Running Virtual Laboratories in the Cloud](http://docs.mipro-proceedings.com/dcvis/dcvis_22_3774.pdf)** *MIPRO 2016 Proceedings* (2016), Petar Biljanović editor, 298-302, ISSN 1847-3938, ISBN 978-953-233-087-8
 
-1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/people/dan/index.md), [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Greg Von Kuster](/src/people/greg_vonkuster/index.md), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/people/nitesh-turaga/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full)**. *Nucleic Acids Research* (2016) 44(W1): W3-W10 doi:10.1093/nar/gkw343
+1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/people/dan/index.md), [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Greg Von Kuster](/src/people/greg_vonkuster/index.md), [E. Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/people/nitesh-turaga/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full)**. *Nucleic Acids Research* (2016) 44(W1): W3-W10 doi:10.1093/nar/gkw343
 
 1. Kun Qu, Sara Garamszegi, Felix Wu, Helga Thorvaldsdottir, Ted Liefeld, Marco Ocana, Borges-Rivera, Diego Borges-Rivera, Pochet, Nathalie Pochet, James T. Robinson, Barry Demchak, Tim Hull, Gil Ben-Artzi, [Daniel Blankenberg](/src/people/dan/index.md), Galt P. Barber, Brian T. Lee, Robert M. Kuhn, [Anton Nekrutenko](/src/people/anton/index.md), Eran Segal, Trey Ideker, Michael Reich, Aviv Regev, Howard Y. Chang, Jill P. Mesirov. **[Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace](http://www.nature.com/nmeth/journal/v13/n3/full/nmeth.3732.html)**. *Nature Methods* (2016) 13(3): 245-247 doi:10.1038/nmeth.3732
 
@@ -111,7 +128,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Enis Afgan](/src/people/enis-afgan/index.md), [Nate Coraor](/src/people/nate/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [James Taylor](/src/people/james-taylor/index.md), [The Galaxy Team](/src/galaxy-team/index.md), "[Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl)," in *Concurrency and Computation: Practice and Experience* (1 June 2015), doi:10.1002/cpe.3536  
 
-1. [Enis Afgan](/src/people/enis-afgan/index.md), Konstantinos Krampis, Nuwan Goonasekera, Karolj Skala, [James Taylor](/src/people/james-taylor/index.md), "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://dx.doi.org/10.6084/m9.figshare.1424740)," in [Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015 38th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7153596)
+1. [Enis Afgan](/src/people/enis-afgan/index.md), Konstantinos Krampis, Nuwan Goonasekera, Karolj Skala, [James Taylor](/src/people/james-taylor/index.md), "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](https://doi.org/10.6084/m9.figshare.1424740)," in [Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015 38th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7153596)
 
 1. Yin Tang, [Emil Bouvier](/src/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/index.md), Philip C. Bevilacqua and Sarah M. Assmann, "[StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://bit.ly/1Erhglz)," *Bioinformatics* (2015) doi:10.1093/bioinformatics/btv213
 
@@ -119,13 +136,13 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Jorrit Boekel, [John M Chilton](/src/people/john-chilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, "[Multi-omic data analysis using Galaxy](http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html)," *Nature Biotechnology* 33, 137–139 (2015) doi:10.1038/nbt.3134
 
-1. Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, "[A Quick Guide for Building a Successful Bioinformatics Community](http://dx.doi.org/10.1371/journal.pcbi.1003972)," *[PLOS Computational Biology](http://journals.plos.org/ploscompbiol/)*, doi:10.1371/journal.pcbi.1003972
+1. Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, "[A Quick Guide for Building a Successful Bioinformatics Community](https://doi.org/10.1371/journal.pcbi.1003972)," *[PLOS Computational Biology](http://journals.plos.org/ploscompbiol/)*, doi:10.1371/journal.pcbi.1003972
 
 1. [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Bassel F. El-Rayes, Shishir K. Maithel, H. Jean Khoury, [James Taylor](/src/people/james-taylor/index.md) and Michael R. Rossi, "[Open pipelines for integrated tumor genome profiles reveal differences between pancreatic cancer tumors and cell lines](http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full)," *Cancer Medicine*, doi:10.1002/cam4.360
 
 ### 2014
 
-1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md),   "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)," in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
+1. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md),   "[Galaxy Cluster to Cloud - Genomics at Scale](https://doi.org/10.1109/GCE.2014.13)," in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
 1. S. Leo, L. Pireddu, G. Cuccuru, L. Lianas, N. Soranzo, [E. Afgan](/src/people/enis-afgan/index.md) and G. Zanetti, **[BioBlend.objects: metacomputing with Galaxy](https://academic.oup.com/bioinformatics/article/30/19/2816/2422231/BioBlend-objects-metacomputing-with-Galaxy)**. *Bioinformatics* (2014) 30(19): 2816-2817 doi:10.1093/bioinformatics/btu386
 
@@ -145,7 +162,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Richard LeDuc, Matthew Vaughn, John M. Fonner, Michael Sullivan, James G. Williams, Philip D. Blood, [James Taylor](/src/people/james-taylor/index.md), William Barnett. **[Leveraging the national cyberinfrastructure for biomedical research](http://jamia.oxfordjournals.org/content/21/2/195)**. *Journal of the American Medical Informatics Association (JAMIA)* (2013) 21(2): 195-199 doi:10.1136/amiajnl-2013-002059
 
-1. [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)," *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+1. [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)," *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 
 1. Yousef Kowsar and [Enis Afgan](/src/people/enis-afgan/index.md), "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," [Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635), 243-248; 2013
 
@@ -163,7 +180,7 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. [Ross Lazarus](/src/people/fubar/index.md), Antony Kaspi, Mark Ziemann and [The Galaxy Team](/src/galaxy-team/index.md), "[Creating re-usable tools from scripts: The Galaxy Tool Factory](http://bioinformatics.oxfordjournals.org/content/28/23/3139)."  *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)*  (2012) doi:10.1093/bioinformatics/bts573.
 
-1. Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, "[Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039)." *[Genome Biology](http://genomebiology.com/)*, Vol. 13, No. 8. (2012), 318.
+1. Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, "[Turning pipe dreams into reality](https://doi.org/10.1186/gb4039)." *[Genome Biology](http://genomebiology.com/)*, Vol. 13, No. 8. (2012), 318.
 
 1. [Anton Nekrutenko](/src/people/anton/index.md) & [James Taylor](/src/people/james-taylor/index.md), "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)."  *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*.  13, 667-672 (September 2012).
 
@@ -236,13 +253,10 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
  Direct people here for information on how to download and configure your own local installation:
   http://getgalaxy.org/
 
- Using or referring to any of the [public Galaxy server instances](/src/public-galaxy-servers/index.md):
+ Using or referring to any of the [public Galaxy server instances](/src/use/index.md):
   Please include the name, URL, and primary publication for the server.
 
 ## Citations
 
 See the [Citations section](/src/galaxy-project/statistics/index.md#publications--citations) of the [project statistics page](/src/galaxy-project/statistics/index.md) for a summary of citations of project papers.
 
-## Galaxy Publication Library
-
-The [Galaxy Group](https://www.zotero.org/groups/galaxy) on [Zotero](https://zotero.org/) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  The library contains thousands of publications all classified with ~19 Galaxy specific tags.  See the [Galaxy Publication Library page](/src/publication-library/index.md) for more.

@@ -1,12 +1,12 @@
 extends layout.pug
 
 block content
-    section.section-content
         if toc
             div.col-md-9
-                +renderPageTitle
-                div !{ contents }
-            div.col-md-3
+                section.section-content
+                    +renderPageTitle
+                    div !{ contents }
+            div.col
                 div#sidebar
                     +renderToc(toc)
         else

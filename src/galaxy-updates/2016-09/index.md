@@ -271,16 +271,16 @@ Some highlights from last month:
 * **[DISMISS: detection of stranded methylation in MeDIP-Seq data](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1158-7)**
     Umar Niazi, Kathrin K Geyer, Martin J Vickers, Karl F Hoffmann, Martin T Swain. *BMC Bioinformatics*, Vol. 17, No. 1. (2016), pp. 1-12, doi:10.1186/s12859-016-1158-7
 
-* **[SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172)**
+* **[SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](https://doi.org/10.1093/gbe/evw172)**
     Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, Gabriel A. B. Marais. *Genome Biology and Evolution* (04 August 2016), evw172, doi:10.1093/gbe/evw172
 
-* **[Galaxy Workflows for Web-based Bioinformatics Analysis of Aptamer High-throughput Sequencing Data](http://dx.doi.org/10.1038/mtna.2016.54)**
+* **[Galaxy Workflows for Web-based Bioinformatics Analysis of Aptamer High-throughput Sequencing Data](https://doi.org/10.1038/mtna.2016.54)**
     William H. Thiel. *Molecular Therapy — Nucleic Acids*, Vol. 5, No. 8. (01 August 2016), e345, doi:10.1038/mtna.2016.54
 
-* **[RNAcommender: genome-wide recommendation of RNA-protein interactions](http://dx.doi.org/10.1093/bioinformatics/btw517)**
+* **[RNAcommender: genome-wide recommendation of RNA-protein interactions](https://doi.org/10.1093/bioinformatics/btw517)**
     Gianluca Corrado, Toma Tebaldi, Fabrizio Costa, Paolo Frasconi, Andrea Passerini. *Bioinformatics* (08 August 2016), btw517, doi:10.1093/bioinformatics/btw517
 
-* **[Tools and techniques for computational reproducibility](http://dx.doi.org/10.1186/s13742-016-0135-4)**
+* **[Tools and techniques for computational reproducibility](https://doi.org/10.1186/s13742-016-0135-4)**
     Stephen R. Piccolo, Michael B. Frampton. *GigaScience*, Vol. 5, No. 1. (11 July 2016), doi:10.1186/s13742-016-0135-4
 
 * ** [Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4)**
@@ -368,13 +368,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [four semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in August.
+There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [four semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in August.
 
 ## New Public Galaxy Servers
 
 ### ImmPort Galaxy
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/public-galaxy-servers/ImmPort.png" alt="ImmPort Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
 * *Links:*
   * [ImmPort Galaxy](http://immportgalaxy.org/)
 * *Domain/Purpose:*
@@ -400,7 +400,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Palfinder
 
-<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/public-galaxy-servers/Palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
+<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/use/palfinder/palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
@@ -437,7 +437,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 No new entries were added in August, but a new virtual appliance was added to the VA directory:
 
-* **[RNAcommender](/src/va/rnacommender/index.md)**
+* **[RNAcommender](/src/use/rnacommender/index.md)**
     A tool for genome-wide recommendation of RNA-protein interactions. 
 
 ----

@@ -19,14 +19,14 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_18.01 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_18.09 https://github.com/galaxyproject/galaxy.git
 ```
-### Updating exiting
+### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_18.01 && git pull --ff-only origin release_18.01
+$ git fetch origin && git checkout release_18.09 && git pull --ff-only origin release_18.09
 ```
 
 
@@ -160,7 +160,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/admin/config/performance/production-server/index.md) with login enabled, please make sure you and your end-users are current.
 
-* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/tools/ToolDependencies/index.md).
+* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/config/tool-dependencies/index.md).
 
 # Additional Info
 

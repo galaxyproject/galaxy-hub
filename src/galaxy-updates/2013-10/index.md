@@ -10,9 +10,9 @@ Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a m
 
 # New Public Servers
 
-*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in September.
+*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/use/index.md) in September.
 
-<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/CNIC.DarwinTreeHome.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
+<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/archive/cnic-darwin-tree-home.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
 
 ## CNIC.DarwinTree
 
@@ -22,7 +22,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a m
 
 ## Fast UniFrac
 
-<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/src/public-galaxy-servers/FastUniFracHomePage.png" alt="Fast UniFrac" width="200" /></a></div>
+<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/src/public-galaxy-servers/archive/fast-unifrac-home-page.png" alt="Fast UniFrac" width="200" /></a></div>
 
 [Fast UniFrac](http://unifrac.colorado.edu) provides a suite of tools for the comparison of microbial communities using phylogenetic information. See "[Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data](http://www.nature.com/ismej/journal/v4/n1/full/ismej200997a.html)" by M Hamady, C Lozupone and R Knight, *[The ISME Journal](http://www.nature.com/ismej/index.html)* (2010) 4, 17–27; doi:10.1038/ismej.2009.97
 
@@ -30,7 +30,7 @@ No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the 
 
 ## kmer-SVM
 
-<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-SVM.png" alt="kmer-SVM" height="133" /></a></div>
+<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/use/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
 
 [kmer-SVM](http://kmersvm.beerlab.org/) is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
 
@@ -40,17 +40,17 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 ## NGS-QC Generator
 
-<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/public-galaxy-servers/NGS-QC_Generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/use/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
 
 [NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php). 
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/public-galaxy-servers/index.md#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/ngs-qc/index.md) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 
-<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/public-galaxy-servers/USP-FCFRP.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
+<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/public-galaxy-servers/archive/usp-fcrp.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
 
 The [Laboratory of Biological Physics at USP-FCFRP](http://fisbio.fcfrp.usp.br:8080/) Galaxy server has these tools:
  **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 
@@ -128,11 +128,11 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 
 44 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in September. In addition to papers featuring the [kmer-SVM](/src/galaxy-updates/2013-10/index.md#kmer-svm) and [NGS-QC Generator](/src/galaxy-updates/2013-10/index.md#ngs-qc-generator) (see [above](/src/galaxy-updates/2013-10/index.md#new-public-servers)) these papers may be particularly interesting to the Galaxy community:
 
-* "[Genomics in the clouds](http://dx.doi.org/10.1038/nmeth.2654)" by Vivien Marx, *[Nature Methods](http://www.nature.com/nmeth/index.html)* 10, 941–945 (2013)
+* "[Genomics in the clouds](https://doi.org/10.1038/nmeth.2654)" by Vivien Marx, *[Nature Methods](http://www.nature.com/nmeth/index.html)* 10, 941–945 (2013)
 
-* "[Galaxy tools and workflows for sequence analysis with applications in molecular plant pathology](http://dx.doi.org/10.7717/peerj.167)." by Cock PJ, Grüning BA, Paszkiewicz K, Pritchard L. *[PeerJ](https://peerj.com/)* 1:e167
+* "[Galaxy tools and workflows for sequence analysis with applications in molecular plant pathology](https://doi.org/10.7717/peerj.167)." by Cock PJ, Grüning BA, Paszkiewicz K, Pritchard L. *[PeerJ](https://peerj.com/)* 1:e167
 
-* "[TALENoffer: genome-wide TALEN off-target prediction](http://dx.doi.org/10.1093/bioinformatics/btt501)" by Jan Grau, Jens Boch, Stefan Posch, *Bioinformatics* (30 August 2013), doi:10.1093/bioinformatics/btt501
+* "[TALENoffer: genome-wide TALEN off-target prediction](https://doi.org/10.1093/bioinformatics/btt501)" by Jan Grau, Jens Boch, Stefan Posch, *Bioinformatics* (30 August 2013), doi:10.1093/bioinformatics/btt501
 
 And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/galaxy/galaxy-central/src/tip/CITATION). [CITATION files](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html) "tell readers how best to cite that software."  Also see the [Citing Galaxy](/src/citing-galaxy/index.md) wiki page.
 

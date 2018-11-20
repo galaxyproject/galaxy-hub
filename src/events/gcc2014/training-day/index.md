@@ -6,7 +6,7 @@ title: Training Day
 
 {{> Events/GCC2014/LinkBox }}
 
-<img class="pull-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
+<img class="float-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
 
 The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) started on June 30 with a *Training Day* featuring five parallel tracks, each with several two and a half hour workshops.  Tracks cover *using* Galaxy for biological research, and *deploying and managing* Galaxy instances, and everything in between.
 
@@ -147,7 +147,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> The <a href='http://genome.edu.au'>Australian Genomics Virtual Laboratory (GVL)</a> has developed a range of online tutorials based on Galaxy to aid in training and dissemination of bioinformatics expertise.  The tutorials are completely self contained (data, workflows, rationale and background) and cover a range of introductory and advanced topics including genome assembly, variant detection and RNA-seq. This workshop will provide an overview of the available tutorials followed by a hands-on session based on a microbial genome assembly tutorial. To perform the analysis, participants will use cloud instances of the GVL platform.<br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/LonieGVL.pdf'>Slides</a></strong> </td>
-    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='https://genome.edu.au/wiki/GVL'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" width="70" /></a>&nbsp; <br />This workshop uses [GVL](https://genome.edu.au/wiki/GVL)-based compute infrastructure
+    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='https://genome.edu.au/wiki/GVL'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab" width="70" /></a>&nbsp; <br />This workshop uses [GVL](https://genome.edu.au/wiki/GVL)-based compute infrastructure
 </td>
   </tr>
   <tr>

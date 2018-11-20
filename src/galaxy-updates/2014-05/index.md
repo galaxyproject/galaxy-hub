@@ -11,7 +11,7 @@ Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create [Galaxy Biostar](https://biostar.usegalaxy.org), a Galaxy User support forum.**
 
-Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/public-galaxy-servers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
+Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/use/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
 
 **Current integration with usegalaxy.org**
 
@@ -39,7 +39,7 @@ Galaxy Biostar was launched on April 23.  We hope you like the change and look f
 
 *47 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Analysis of Next-Generation Sequencing Data Using Galaxy](http://dx.doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/src/people/dan/index.md) and [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
+* "[Analysis of Next-Generation Sequencing Data Using Galaxy](https://doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/src/people/dan/index.md) and [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
 
 * "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," Yousef Kowsar and [Enis Afgan](/src/people/enis-afgan/index.md),  *[Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635),* (May 2013), pp. 243-248
 
@@ -363,7 +363,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-Two [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to the published list in April:
+Two [public Galaxy servers](/src/use/index.md) were added to the published list in April:
 
 ## Globus Genomics Proteomics
 
@@ -386,7 +386,7 @@ Two [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to t
 
 ## SunLab
 
-<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/public-galaxy-servers/SunLab.png" alt="SunLab Galaxy Server"  /></a></div>
+<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/public-galaxy-servers/archive/sun-lab.png" alt="SunLab Galaxy Server"  /></a></div>
  
 * *Links:*
     [SunLab Galaxy Server](http://meta.cmb.usc.edu/)

@@ -145,8 +145,8 @@ Many, many thanks to everyone who talked about Galaxy last year and for making t
 *52 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in December. Some papers that may be particularly interesting to the Galaxy community:
 
 * "[Galaxy tools to study genome diversity](http://bit.ly/1cQUjwU)" by Bedoya-Reina, *et al.*, *[GigaScience](http://gigasciencejounal.com)*, Vol. 2, No. 1. (2013), 17, doi:10.1186/2047-217x-2-17
-* "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](http://dx.doi.org/10.1002/sim.6066)" by Yang, *et al.*, *Statistics in Medicine* (1 December 2013), doi:10.1002/sim.6066
-* "[In silico to in vivo splicing analysis using splicing code models](http://dx.doi.org/10.1016/j.ymeth.2013.11.006)" by Gazzara, *et al.*, *Methods* (December 2013), doi:10.1016/j.ymeth.2013.11.006
+* "[Detection of candidate tumor driver genes using a fully integrated Bayesian approach](https://doi.org/10.1002/sim.6066)" by Yang, *et al.*, *Statistics in Medicine* (1 December 2013), doi:10.1002/sim.6066
+* "[In silico to in vivo splicing analysis using splicing code models](https://doi.org/10.1016/j.ymeth.2013.11.006)" by Gazzara, *et al.*, *Methods* (December 2013), doi:10.1016/j.ymeth.2013.11.006
 
 This brings the total number of papers to 1330.
 
@@ -332,7 +332,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
 
 # New Public Servers
 
-One new server was added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) last month.
+One new server was added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.
 
 ## CAPER
 
@@ -340,7 +340,7 @@ One new server was added to [the list of publicly accessible Galaxy servers](/sr
 
 The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. 
 
-<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/public-galaxy-servers/CAPER300.png" alt="CAPER"  /></a></div>
+<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/public-galaxy-servers/archive/caper-300.png" alt="CAPER"  /></a></div>
 
 In addition to the previous visualization functions of [track-view and heatmap-view](http://pubs.acs.org/doi/abs/10.1021/pr300831z), CAPER 2.0 presents a powerful toolbox for C-HPP data analyses and also integrates Galaxy, allowing users to easily conduct their own C-HPP proteomic data analyses and visualization. CAPER 2.0 presents four specific workflows for finding missing proteins, mapping peptides to chromosomes for genome annotation, integrating peptides with transcription factor binding sites from ENCODE data sets, and functionally annotating proteins.
 

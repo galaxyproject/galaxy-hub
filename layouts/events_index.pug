@@ -1,8 +1,9 @@
 extends layout.pug
 
 mixin renderEventRow(item)
+    +renderEventJSONLD(item)     
     tr
-        td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+        td: span.text-nowrap #{moment(item.date).format("MMMM Do YYYY")}
         td
             if item.external_url
                 a( href=item.external_url ) #{item.title}
@@ -28,6 +29,38 @@ mixin renderEventRow(item)
                     img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
             | #{item.contact}
 
+mixin renderEventJSONLD(item)
+    script(type="application/ld+json")
+        | {  "@context": "http://schema.org/",
+        |    "@type": "Event",
+        |    "name": "#{item.title}",
+        if item.external_url
+            | "url": "#{item.external_url}",
+        else
+            | "url": "#{item.link}",
+        if item.days
+            |  "duration": "P#{item.days}D",
+        if item.location
+            |  "location": {
+            |    "@type": "Place",
+            |    "address": "#{item.location}"
+            if item.location_url
+                | , "url": "#{item.location_url}"
+            |  },
+        if item.image
+            |  "image": "#{item.image}",
+        if item.gtn == true
+            | "eventType": "workshops and courses",
+        if item.contact
+            | "contact": {
+            |  "@type": "person",
+            |  "name": "#{item.contact}"
+            | },
+        | "startDate": "#{item.date}"
+        | }
+
+
+
 block content
     - var events_malleable = events.slice().reverse()
     div.col-md-12
@@ -46,7 +79,7 @@ block content
                 tbody
                     each item in events_malleable
                         if item.date != undefined
-                            if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                            if moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
             h2 Past Events
             table.table.table-striped
@@ -59,7 +92,7 @@ block content
                 tbody
                     each item in events_malleable.reverse()
                         if item.date != undefined
-                            if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                            if moment(item.date) < moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
 
             h2 Other Calendars

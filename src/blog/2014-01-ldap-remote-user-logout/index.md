@@ -8,7 +8,7 @@ source_blog_url:
 source_blog: 
 ---
 
-Alper Kucukural posted this [Galaxy-Dev thread](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, Eric Rasche also brought these pages up to date to reflect this discussion:
+Alper Kucukural posted this [Galaxy-Dev thread](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, E. Rasche also brought these pages up to date to reflect this discussion:
 
 * [Proxying Galaxy with Apache](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
 * [External User Authentication](/src/admin/config/external-user-auth/index.md)

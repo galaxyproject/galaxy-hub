@@ -47,7 +47,6 @@ Please add your BoF to this table so that other's can plan their BoF so as to mi
   </tr>
   <tr>
     <th> Lunch </th>
-    <td> <a href='/src/events/gcc2013/bof/BoFName/index.md'>...</a>, ... </td>
     <td> <a href='/src/events/gcc2013/bof/galaxy-blast/index.md'>BLAST+ Wrappers</a>, ... </td>
     <td> <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GalaxyAdmins BoF</a>, <a href='/src/events/gcc2013/bof/proteomics/index.md'>Proteomics</a>, <a href='/src/events/gcc2013/bof/clinical-use-hpc-file-systems/index.md'>Galaxy Clinical Use Survey and HPC Filesystems</a> <a href='/src/events/gcc2013/bof/galaxy-professionals/index.md'>Galaxy Professionals</a></td>
   </tr>

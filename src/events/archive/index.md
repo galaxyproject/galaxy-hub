@@ -64,7 +64,6 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
 <a href='/src/community/galaxy-admins/meetups/2016-12-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="15 December GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 </div>
-<br />
 
 <table class="table table-striped">
   <tr class="th" >
@@ -566,7 +565,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> June 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
-    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/people/eric-rasche/index.md'>Eric Rasche</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/people/helena-rasche/index.md'>E. Rasche</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Slides</a> </td>
   </tr>
   <tr>
@@ -990,7 +989,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'><img src="/src/images/logos/MIPRO2015Logo.png" alt="MIPRO 2015" height="90" /></a> &nbsp;
 <a href='/src/events/psu-medicine2015/index.md'><img src="/src/images/logos/PSUMedicine.png" alt="Penn State University College of Medicine" height="70" /></a>
 <a href='/src/events/asms2015/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt="Cycle "Bioinformatique par la pratique" 2015" height="70" /></a> 
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Cycle "Bioinformatique par la pratique" 2015' height="70" /></a> 
 <a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'><img src="/src/images/logos/QFABLogo.png" alt="Workshop: RNA-Seq analysis using Galaxy" height="80" /></a> &nbsp;
 <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 June GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='https://www.rcpa.edu.au/Events/Event-Details/2015/June/SCourse-Medical-Genetics-and-Genetic-Pathology'><img src="/src/images/logos/RCPALogo.jpg" alt="Short Course in Medical Genetics and Genetic Pathology 2015" height="60" /></a>
@@ -1100,10 +1099,10 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> November 12-13 </th>
-    <td> <em><a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Engaging Biologists with Big Data Using Interactive Genome Annotation</a></em> </td>
+    <td> <em><a href='https://doi.org/10.6084/m9.figshare.1597671'>Engaging Biologists with Big Data Using Interactive Genome Annotation</a></em> </td>
     <td> <a href='https://datascience.nih.gov/bd2k/events/NOV2015-AllHands'>BD2K All-Hands Grantee Meeting</a>, Bethesda, Maryland, United States </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
-    <td> <a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Poster</a> </td>
+    <td> <a href='https://doi.org/10.6084/m9.figshare.1597671'>Poster</a> </td>
   </tr>
   <tr>
     <th> November 12 </th>
@@ -2226,12 +2225,12 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <td> <em>FACE-IT: A Science Gateway for Food Security Research</em> </td>
-    <td> <a href='http://dx.doi.org/10.1109/gce.2014.17'>Paper</a> </td>
+    <td> <a href='https://doi.org/10.1109/gce.2014.17'>Paper</a> </td>
     <td> Raffaele Montella </td>
   </tr>
   <tr>
     <td> <em>Cloud-based Image Analysis Gateway for Traumatic Brain Injury Research</em> </td>
-    <td> <a href='http://dx.doi.org/10.1109/gce.2014.8'>Paper</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014_GCE_TBI_Chard.pdf'>Slides</a> </td>
+    <td> <a href='https://doi.org/10.1109/gce.2014.8'>Paper</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014_GCE_TBI_Chard.pdf'>Slides</a> </td>
     <td> Kyle Chard </td>
   </tr>
   <tr>
@@ -2294,7 +2293,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/src/public-galaxy-servers/index.md#qbrc-galaxy-and-pipe-clip'>PIPE-CLIP</a>)</div> </td>
+    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/src/use/pipe-clip/index.md'>PIPE-CLIP</a>)</div> </td>
     <td> </td>
     <td> <a href='http://qbrc.swmed.edu/portfolio/beibei-chenpostdoctoral-researcher/'>Beibei Chen</a> </td>
   </tr>
@@ -3038,7 +3037,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='http://bit.ly/VyBEcS'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>&nbsp;
 <a href='https://www.eshg.org/sunday2013.0.html#W1'><img src="/src/images/logos/ESHG2013Narrow.png" alt="Galaxy Workshop @ ESHG" height="80px" /></a>
 <a href='/src/events/asms2013/index.md'><img src="/src/images/logos/ASMS2013LogoClipped.png" alt="61st ASMS Conference" height="80px" /></a>&nbsp;
-<a href='http://sdcsb.ucsd.edu/rna-seq-analysis-workshop/'><img src="/src/images/logos/SDCSBLogo.png" alt="RNA-Seq Analysis Workshop" height=80" /></a>&nbsp;
+<a href='http://sdcsb.ucsd.edu/rna-seq-analysis-workshop/'><img src="/src/images/logos/SDCSBLogo.png" alt="RNA-Seq Analysis Workshop" height="80" /></a>&nbsp;
 <a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 <a href='/src/events/rt-workshop-tour2013/index.md'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
 <a href='/src/events/ismb2013/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="100" /></a> &nbsp;
@@ -3050,7 +3049,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
 <a href='http://bit.ly/153avr8'><img src="/src/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
-<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/src/images/logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height=80" /></a>
+<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/src/images/logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height="80" /></a>
 <a href='/src/events/sa-workshop-tour2013/index.md'><img src="/src/images/logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a> &nbsp;
 <a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src="/src/images/logos/eResearchAustralAsiaSmall.png" alt="eResearch Australasia 2013" height="60" /></a>
 <a href='http://www.ashg.org/2013meeting/'><img src="/src/images/logos/ASH2013.png" alt="ASHG 2013" height="60" /></a>

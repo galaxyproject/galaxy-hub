@@ -9,7 +9,7 @@ You are strongly encouraged to [add your local Galaxy deployment](/src/community
 
 There are also several other sources of information about deployments.  These either aren't specifically about deployment details, or they aren't organized as usefully:
 
-* The [Public Galaxy Server List](/src/public-galaxy-servers/index.md) describes servers that are publicly accessible.  The descriptions don't focus on implementation, but they do give an idea of what can be done and who to contact at each.
+* The [Public Galaxy Server List](/src/use/index.md) describes servers that are publicly accessible.  The descriptions don't focus on implementation, but they do give an idea of what can be done and who to contact at each.
 * The results of [GalaxyAdmins questionnaires in 2012 and 2014](/src/community/galaxy-admins/surveys/index.md).  These are about deployment details.
 
 # Deployments: User and Domain Information

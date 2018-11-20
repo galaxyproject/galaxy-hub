@@ -9,18 +9,18 @@ Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 ## New Public Galaxy Servers
 
-<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src="/src/public-galaxy-servers/BallaxyHomePage.png" alt="ballaxy Galaxy public server"  /></a></div>
+<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src="/src/use/ballaxy/ballaxy-home-page.png" alt="ballaxy Galaxy public server"  /></a></div>
 
 [ballaxy](https://ballaxy.bioinf.uni-sb.de) hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data.  It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or  optimal bond order assignment of ligands "BOA Constructor".
 A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*  ballaxy is supported by the groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany).
 
 <br />
 
-<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src="/src/public-galaxy-servers/SouthGreenHomePage.png" alt="South Green Galaxy public server"  /></a></div>
+<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src="/src/use/south-green/south-green-home-page.png" alt="South Green Galaxy public server"  /></a></div>
 
 [South Green Galaxy](http://gohelle.cirad.fr/galaxy/) is a part of the [South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/), "a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."  It supports many custom tools and data sources relevant to plants.  It also has a *10 MB storage quota for anonymous users.*  Account creation is restricted to those with an [active collaboration](http://umr-agap.cirad.fr/en) and that work on southern and Mediterranean plants.  South Green Galaxy is sponsored by [CIRAD](http://www.cirad.fr/en/), [IRD (Institut de recherche pour le développement)](http://en.ird.fr/), [Bioversity International](http://www.bioversityinternational.org/), [INRA](http://www.international.inra.fr/), [Montpellier SupAgro](http://www.supagro.fr/web/?idl=20)
 
-These servers join the [growing list of public Galaxy servers](/src/public-galaxy-servers/index.md).
+These servers join the [growing list of public Galaxy servers](/src/use/index.md).
 
 ## New Papers
 
@@ -89,7 +89,7 @@ Second several new tags were added, most of them attached to papers with the `me
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>usepublic</code>: </td>
-    <td style=" text-align: left; border: none;"> Analysis run on <a href='/src/public-galaxy-servers/index.md'>other public Galaxy servers</a> </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/src/use/index.md'>other public Galaxy servers</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>useprivate</code>: </td>
@@ -110,11 +110,11 @@ We will likely back-annotate papers with these new tags from the beginning of 20
 
 Finally, 32 new papers were added to the Galaxy CiteULike Group in March, including these which might be of general interest to the Galaxy community. 
 
-* "[NightShift: NMR Shift Inference by General Hybrid Model Training - a Framework for NMR Chemical Shift Prediction](http://dx.doi.org/10.1186/1471-2105-14-98)" by Dehof *et al.* *BMC Bioinformatics*, Vol. 14, No. 1. (16 March 2013), 98
+* "[NightShift: NMR Shift Inference by General Hybrid Model Training - a Framework for NMR Chemical Shift Prediction](https://doi.org/10.1186/1471-2105-14-98)" by Dehof *et al.* *BMC Bioinformatics*, Vol. 14, No. 1. (16 March 2013), 98
 
-* "[Computational Predictions Provide Insights into the Biology of TAL Effector Target Sites](http://dx.doi.org/10.1371/journal.pcbi.1002962)" by *Grau et al.* *PLoS computational biology*, Vol. 9, No. 3. (14 March 2013), e1002962
+* "[Computational Predictions Provide Insights into the Biology of TAL Effector Target Sites](https://doi.org/10.1371/journal.pcbi.1002962)" by *Grau et al.* *PLoS computational biology*, Vol. 9, No. 3. (14 March 2013), e1002962
 
-* "[Aye-aye population genomic analyses highlight an important center of endemism in northern Madagascar](http://dx.doi.org/10.1073/pnas.1211990110)," by Perry, *et al.* Proceedings of the National Academy of Sciences (25 March 2013)
+* "[Aye-aye population genomic analyses highlight an important center of endemism in northern Madagascar](https://doi.org/10.1073/pnas.1211990110)," by Perry, *et al.* Proceedings of the National Academy of Sciences (25 March 2013)
 
 There are now over [900 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 

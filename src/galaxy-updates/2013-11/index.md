@@ -9,11 +9,11 @@ Welcome to the November 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a 
 
 # New Public Servers
 
-Two new servers were added to [the list of publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) in October, include one that covers some radically new territory for Galaxy:
+Two new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) in October, include one that covers some radically new territory for Galaxy:
 
 ## CoSSci: Complex Social Science Gateway
 
-<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/src/public-galaxy-servers/CoSSciMap.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions" width="275" /></a></div>
+<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/src/use/cossci/cossci-map.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions" width="275" /></a></div>
    
 *Tools for solving [Galton's problem](http://en.wikipedia.org/wiki/Galton's_problem) in Comparative Research and complex network problems in Social Science.*
 
@@ -23,11 +23,11 @@ The initial modeling software solves for autocorrelation effects (spatial, phylo
 
 A [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual) is available
 
-<div class='right solid'><a href='http://http://avispa.biociphers.org/'><img src="/src/public-galaxy-servers/BioCiphersLandingPage300.png" alt="BioCiphers Galaxy" width="275" /></a></div>
+<div class='right solid'><a href='http://http://avispa.biociphers.org/'><img src="/src/use/biociphers-lab-galaxy/biociphers-landing-page-300.png" alt="BioCiphers Galaxy" width="275" /></a></div>
 
 ## BioCiphers Lab Galaxy
 
-The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/src/public-galaxy-servers/index.md#biociphers-lab-galaxy).  It is open to anyone from an educational organization.
+The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/src/use/biociphers-lab-galaxy/index.md).  It is open to anyone from an educational organization.
 
 <br />
 # New Papers
@@ -91,7 +91,7 @@ The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user frien
 A record *53 new papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in October. Some papers that may be particularly interesting to the Galaxy community:
 
 * Li, *et al.,* "[Expanding roles in a library-based bioinformatics service program: a case study](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3794686/)," *[Journal of the Medical Library Association](http://www.ncbi.nlm.nih.gov/pmc/journals/93/latest/)* : JMLA, Vol. 101, No. 4. (October 2013), pp. 303-309, doi:10.3163/1536-5050.101.4.012
-* Nagasaki, *et al.* "[DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data](http://dx.doi.org/10.1093/dnares/dst017)," *[DNA Research](http://dnaresearch.oxfordjournals.org/)*, Vol. 20, No. 4. (1 August 2013), pp. 383-390, doi:10.1093/dnares/dst017
+* Nagasaki, *et al.* "[DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data](https://doi.org/10.1093/dnares/dst017)," *[DNA Research](http://dnaresearch.oxfordjournals.org/)*, Vol. 20, No. 4. (1 August 2013), pp. 383-390, doi:10.1093/dnares/dst017
 
 And ...
 
@@ -336,7 +336,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <div class='right'><a href='https://lifeportal.uio.no/'><img src="/src/images/logos/LifeportalLeaf.jpg" alt="Lifeportal" /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/gcc2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/public-galaxy-servers/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/gcc2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/use/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.

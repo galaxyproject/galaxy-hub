@@ -1,7 +1,7 @@
 ---
 title: December 2017 Galaxy News
 ---
-[<img class="pull-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
 
 Welcome to the December 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -13,7 +13,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 
 ## European Galaxy Administrator Workshop
 
-[<img class="pull-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="160" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
+[<img class="float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="160" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
 
 **[Registration](https://skjema.uio.no/galaxy-admin-workshop-2018) opened in November for the [European Galaxy Administrator Workshop](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)**.  
 
@@ -31,13 +31,13 @@ See the [full event description](https://www.elixir-europe.org/events/european-g
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="pull-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
+[<img class="float-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
 
 ### GMOD @ PAG
 
-<img class="pull-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
+<img class="float-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
@@ -50,13 +50,13 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 ### Pre-PAG Intro to Galaxy Workshop at CSUSM
 
-[<img class="pull-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
+[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
 
 If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/src/events/2018-01-csusm-workshop/index.md) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
 ## 2018 Big Genomics Data Skills Training course
 
-[<img class="pull-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="float-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
  
@@ -169,7 +169,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Galactic Blog Entries
 
-[<img class="pull-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
 
 We've got two new *[Galactic Blog](/src/blog/index.md)* entries:
 
@@ -194,7 +194,7 @@ Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
 The *Galactic* and *Stellar* publications added in October were:
 
-* [Using bio.tools to generate and annotate workbench tool descriptions](https://f1000research.com/articles/6-2074/v1), Kenzo-Hugo Hillion, Ivan Kuzmin, Anton Khodak, [Eric Rasche](/src/people/eric-rasche/index.md), Michael Crusoe, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* 2017, 6(ELIXIR):2074 (doi: 10.12688/f1000research.12974.1)
+* [Using bio.tools to generate and annotate workbench tool descriptions](https://f1000research.com/articles/6-2074/v1), Kenzo-Hugo Hillion, Ivan Kuzmin, Anton Khodak, [E. Rasche](/src/people/helena-rasche/index.md), Michael Crusoe, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* 2017, 6(ELIXIR):2074 (doi: 10.12688/f1000research.12974.1)
 * [Galaksio, a user friendly workflow-centric front end for Galaxy](http://journal.embnet.org/index.php/embnetjournal/article/view/897), Tomas Klingström, Rafael Hernández-de-Diego, Théo Collard, Erik Bongcam-Rudloff. *EMBnet.journal*, [S.l.], v. 23, p. e897, nov. 2017. ISSN 2226-6089.
   * [Data integration and handling](https://pub.epsilon.slu.se/14669/), Klingström, Tomas.  Doctoral thesis, Uppsala : Sveriges lantbruksuniv., Acta Universitatis agriculturae Sueciae, 1652-6880 ; 2017:99, ISBN 978-91-7760-088-6, eISBN 978-91-7760-089-3
 * [TED toolkit: a comprehensive approach for convenient transcriptomic profiling as a clinically-oriented application](https://peerj.com/preprints/3385/), Ali T, Kim B, Lijeron C, Ogunwobi OO, Mazumder R, Krampis K. (2017). *PeerJ Preprints* 5:e3385v1 https://doi.org/10.7287/peerj.preprints.3385v1
@@ -231,7 +231,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in November.
+There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in November.
 
 ## MiModD 0.1.8 Released
 
@@ -303,7 +303,7 @@ This revision:
 
 ### Planemo 0.47.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -343,7 +343,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ### Pulsar 0.8.0
 
-[<img class="pull-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

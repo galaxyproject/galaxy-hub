@@ -18,25 +18,25 @@ Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a
 
 **97** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August. Highlights include:
 
-* [FROG - Fingerprinting Genomic Variation Ontology](http://dx.doi.org/10.1371/journal.pone.0134693)
+* [FROG - Fingerprinting Genomic Variation Ontology](https://doi.org/10.1371/journal.pone.0134693)
     E. Abinaya, Pankaj Narang, Anshu Bhardwaj, *PLoS ONE*, Vol. 10, No. 8. (5 August 2015), e0134693, doi:10.1371/journal.pone.0134693
 
-* [EpiToolKit—a web-based workbench for vaccine design](http://dx.doi.org/10.1093/bioinformatics/btv116)
+* [EpiToolKit—a web-based workbench for vaccine design](https://doi.org/10.1093/bioinformatics/btv116)
     Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges, Oliver Kohlbacher, *Bioinformatics*, Vol. 31, No. 13. (01 July 2015), pp. 2211-2213, doi:10.1093/bioinformatics/btv116
 
-* [Experimental validation of methods for differential gene expression analysis and sample pooling in RNA-seq](http://dx.doi.org/10.1186/s12864-015-1767-y)
+* [Experimental validation of methods for differential gene expression analysis and sample pooling in RNA-seq](https://doi.org/10.1186/s12864-015-1767-y)
     Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/src/people/fubar/index.md), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. BÃ¸rglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
 
-* [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://dx.doi.org/10.1074/mcp.o115.048777)
+* [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](https://doi.org/10.1074/mcp.o115.048777)
     Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews, Conrad Bessant, *Molecular & Cellular Proteomics* (12 August 2015), mcp.O115.048777, doi:10.1074/mcp.o115.048777
 
-* [From Peer-Reviewed to Peer-Reproduced in Scholarly Publishing: The Complementary Roles of Data Models and Workflows in Bioinformatics](http://dx.doi.org/10.1371/journal.pone.0127612)
+* [From Peer-Reviewed to Peer-Reproduced in Scholarly Publishing: The Complementary Roles of Data Models and Workflows in Bioinformatics](https://doi.org/10.1371/journal.pone.0127612)
     Alejandra González-Beltrán, Peter Li, Jun Zhao, Maria S. Avila-Garcia, Marco Roos, Mark Thompson, Eelke van der Horst, Rajaram Kaliyaperumal, Ruibang Luo, Tin-Lap Lee, Tak-wah Lam, Scott C. Edmunds, Susanna-Assunta Sansone, Philippe Rocca-Serra, *PLoS ONE*, Vol. 10, No. 7. (8 July 2015), e0127612, doi:10.1371/journal.pone.0127612
 
-* [Experiences with workflows for automating data-intensive bioinformatics](http://dx.doi.org/10.1186/s13062-015-0071-8)
+* [Experiences with workflows for automating data-intensive bioinformatics](https://doi.org/10.1186/s13062-015-0071-8)
     Ola Spjuth, Erik Bongcam-Rudloff, Guillermo Carrasco C. Hernández, Lukas Forer, Mario Giovacchini, Roman Valls V. Guimera, Aleksi Kallio, Eija Korpelainen, Maciej M. Kańduła, Milko Krachunov, David P. Kreil, Ognyan Kulev, Paweł P. Łabaj, Samuel Lampa, Luca Pireddu, Sebastian Schönherr, Alexey Siretskiy, Dimitar Vassilev, *Biology Direct*, Vol. 10, No. 1. (19 August 2015), 43, doi:10.1186/s13062-015-0071-8
 
-* [Challenges of Large-Scale Biomedical Workflows on the Cloud -- A Case Study on the Need for Reproducibility of Results](http://dx.doi.org/10.1109/cbms.2015.28)
+* [Challenges of Large-Scale Biomedical Workflows on the Cloud -- A Case Study on the Need for Reproducibility of Results](https://doi.org/10.1109/cbms.2015.28)
     Sehrish Kanwal, Andrew Lonie, Richard O. Sinnott, Charlotte Anderson, In Computer-Based Medical Systems (CBMS), 2015 IEEE 28th International Symposium on (June 2015), pp. 220-225, doi:10.1109/cbms.2015.28
 
 The new papers were tagged with:
@@ -299,14 +299,14 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[2 new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) were added in August.
+[2 new publicly accessible Galaxy servers](/src/use/index.md) were added in August.
 
 ## Workflow4Metabolomics
 
 <div class='right'>
-<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/public-galaxy-servers/Workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
+<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/use/workflow4metabolomics/workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
 <br />
-<div class='right solid'><a href='/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png'><img src="/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
+<div class='right solid'><a href='/src/use/workflow4metabolomics/workflow4metabolomics-sponsors.png'><img src="/src/use/workflow4metabolomics/workflow4metabolomics-sponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
 <br /><div class='center'>*Sponsors*</div> 
 </div></div>
 
@@ -318,18 +318,18 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * A collaborative portal dedicated to metabolomics data processing, analysis and annotation.
 * *Comments:*
   * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided. 
-  * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
+  * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
 * *User Support:*
   * [HowTo Tutorials](http://workflow4metabolomics.org/howto) 
   * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
 * *Quotas:* 
   * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph](/src/public-galaxy-servers/Workflow4MetabolomicsSponsors.png)
+  * See [sponsor graph](/src/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
 
 ## EpiToolKit
 
-<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/public-galaxy-servers/EpiToolKit_moleculepeptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
+<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/use/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
   * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
