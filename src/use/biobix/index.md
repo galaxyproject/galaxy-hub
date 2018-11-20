@@ -1,11 +1,11 @@
 ---
-title: "Biobix"
+title: "BioBix"
 url: "http://galaxy.ugent.be/"
 scope: "general"
 platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.ugent.be/"
-    platform_text: "Biobix Galaxy"
+    platform_text: "BioBix Galaxy"
 summary: "A general genomics server. Includes the PROTEOFORMER pipeline tools."
 image: "/src/use/biobix/biobix_logo.png"
 comments:
@@ -17,7 +17,7 @@ quotas:
 citations:
   - "[mQC: A post-mapping data exploration tool for ribosome profiling](https://doi.org/10.1016/j.cmpb.2018.10.018), Steven Verbruggen, Gerben Menschaert. *Computer Methods and Programs in Biomedicine*, doi:10.1016/j.cmpb.2018.10.018"
 pub_libraries:
-  - "Biobix"
+  - "BioBix"
 sponsors:
   - "[Lab of Computational Genomics & Bioinformatics
 Ghent University, Belgium](http://www.biobix.be/)"
