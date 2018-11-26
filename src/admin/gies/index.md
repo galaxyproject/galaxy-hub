@@ -1,4 +1,6 @@
-# Galaxy Interactive Environments (GIEs)
+---
+title: "Galaxy Interactive Environments (GIEs)"
+---
 
 <br />
 ----
