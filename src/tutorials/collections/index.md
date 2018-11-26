@@ -209,4 +209,4 @@ The next analysis highlights main steps if initial processing of ChIP-seq data:
 The future improvements of dataset collections will allow representing complex experiments such as the ones shown in the two previous figures in a single collection.
 
 # If things don't work...
-...you need to complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
+...you need to complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
