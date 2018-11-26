@@ -61,7 +61,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ----
 
-# New Galaxy Platforms
+# Galaxy Platforms News
 
 And there are several new additions to the [Galaxy Platform Directory](/src/use/index.md) this month:
 
