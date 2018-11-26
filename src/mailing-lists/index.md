@@ -4,21 +4,21 @@ title: Galaxy Mailing Lists
 Mailing lists play a vital role in the Galaxy community:
 
 1. They are a key part of [Galaxy's overall support efforts](/src/support/index.md).
-1. **They complement the [Galaxy Biostar forum](/src/support/biostar/index.md), which is focused on questions about *using* Galaxy.**
+1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) (and formerly the [Galaxy Biostar forum](/src/support/biostar/index.md)).**
 1. They are a place where the community *[can ask and answer](/src/mailing-lists/index.md#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
 1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/mailing-lists/index.md#searching)*.  
 1. Finally, they are a great way to learn what is going on in the Galaxy Community.  
 
-# BioStar
+# Galaxy Help Forum
 
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/src/images/logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a></div>
+If you prefer an online forum to a mailing list, or if you have a question about *using Galaxy* then please use the [online Galaxy Help Forum](https://help.galaxyproject.org/).
 
-**For questions about *using Galaxy* please use the [Galaxy Biostar forum](https://biostar.usegalaxy.org/).  See the [Biostar hub page](/src/support/biostar/index.md) for more on how to use [Galaxy Biostar](https://biostar.usegalaxy.org/) and its integration with [usegalaxy.org](/src/main/index.md).**
+# BioStar (deprecated)
 
-(The Galaxy-User mailing was migrated to the [Galaxy Biostar forum](https://biostar.usegalaxy.org/) in Spring 2014.  All posts to Galaxy-User were migrated to the [forum](https://biostar.usegalaxy.org/) at that time.) 
+***Note: [Galaxy BioStar](https://biostar.usegalaxy.org/)) was deprecated in November 2018.  The old site and questions and answers are still online, but all new questions should go to the [online Galaxy Help Forum](https://help.galaxyproject.org/).***
 
-
+(The Galaxy-User mailing was migrated to the [Galaxy Biostar forum](https://biostar.usegalaxy.org/) in Spring 2014.  All posts to Galaxy-User were migrated to Galaxy BioStar at that time.) 
 
 # The lists
 
@@ -86,7 +86,7 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
 
 # Searching
 
-You can search all lists at any of the archives above.  We recommend using [Galaxy Search](/src/search/index.md) to search all mailing list archives and [BioStar forum posts](https://biostar.usegalaxy.org/).
+You can search all lists at any of the archives above.  We recommend using [Galaxy Search](/src/search/index.md) to search all mailing list archives and [online forum posts](https://help.galaxyproject.org/).
 
 
 # Subscribing and Unsubscribing
