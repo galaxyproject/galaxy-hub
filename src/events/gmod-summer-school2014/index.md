@@ -922,10 +922,10 @@ The following are great places to start when trouble shooting or planning an exp
 1. A [custom Google search](/src/search/index.md) is available to search all things Galaxy
   including: this hub, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
-2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) site is a Q&A site designed on Istvan Albert's original
+2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) (now [help.galaxyproject.org](https://help.galaxyproject.org/)) site is a Q&A site designed on Istvan Albert's original
   [Biostars](http://www.biostars.org) site.
-3. Our [Trello board](https://trello.com/b/75c1kASa/galaxy-development), which can be used to track our development and allows you to vote on our priorities.
-4. A Wiki page for all support resources is here: [Support](https://wiki.galaxyproject.org/Support).
+3. Our Trello board (now replaced by [GitHub issues](https://github.com/galaxyproject/galaxy/issues)), which can be used to track our development and allows you to vote on our priorities.
+4. A Wiki page for all support resources is here: [Support](/src/support/index.md).
 
 ### Unix System Administration
 

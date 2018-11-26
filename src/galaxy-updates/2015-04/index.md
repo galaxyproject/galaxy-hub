@@ -520,7 +520,7 @@ New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudma
 
 * From [Björn Grüning](/src/people/bjoern-gruening/index.md): 
     [New release of our Galaxy Docker container](https://biostar.usegalaxy.org/p/11376/) with a lot of new features 
-* You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/). 
+* You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/) (*Note: Deprecated. Now see [training.galaxyproject.org](https://training.galaxyproject.org/)*)
 * [Should Galaxy use Trello or Github for issue tracking?](http://trello.com/c/iddlQT2p)
 * Every contribution and every pull request to the Galaxy repo is now [being publicly built on Travis-CI](https://travis-ci.org/galaxyproject/galaxy/builds).
 * [Galaxy Training Network (GTN) Joins GOBLET](/src/news/gtn-joins-goblet/index.md)
