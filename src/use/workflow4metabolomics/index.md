@@ -1,6 +1,6 @@
 ---
 title: "Workflow4Metabolomics"
-url: "None"
+url: "http://workflow4metabolomics.org/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"

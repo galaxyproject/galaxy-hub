@@ -1,6 +1,6 @@
 ---
 title: "ballaxy"
-url: "https://ballaxy.bioinf.uni-sb.de"
+url: "https://github.com/BALL-Project/ball/tree/master/workflow_support/galaxy"
 scope: "domain"
 platforms: 
   - platform_group: "container"
