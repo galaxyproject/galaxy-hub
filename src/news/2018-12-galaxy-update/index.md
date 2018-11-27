@@ -63,7 +63,37 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Galaxy Platforms News
 
-And there are several new additions to the [Galaxy Platform Directory](/src/use/index.md) this month:
+The [Galaxy Platform Directory](/src/use/index.md) was launched lat month.  It lists every resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.
+
+## New Public Servers and Services
+
+### BioBix
+
+[<img class="float-left" src="/src/use/biobix/biobix_logo.png" alt="BioBix" />](http://galaxy.ugent.be/)
+
+The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/src/use/biobix/index.md) for more details.
+
+### Laniakea / INDIGO-DataCloud
+
+[<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](http://galaxy.ugent.be/)
+
+[Laniakea](https://www.indigo-datacloud.eu/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea-indigo-datacloud/indesx.md) for full details.
+
+
+# *New* Containers
+
+This month several containers were added to the directory.  These aren't new containers, but they are new in the directory:
+
+* [Constructive Solid Geometry](/src/use/csg/index.md)
+* [deepTools](/src/use/deeptools/index.md)
+* [Exome-Seq](/src/use/exome-seq/index.md)
+* [Galaxy BLAST+](/src/use/blast/index.md)
+* [Galaxy for basic sequence manipulation](/src/use/basic-sequence-manipulation/index.md)
+* [Galaxy for Imaging](/src/use/imaging/index.md)
+* [Galaxy Genome Annotation](/src/use/gga/index.md)
+* [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md)
+
+All of these are Docker containers.
 
 ## Galaxy Platforms in Publications
 
