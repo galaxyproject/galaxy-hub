@@ -2,6 +2,38 @@
 
 # GCC2019 Frequently Asked questions
 
+## What will be the format for GCC in 2019?
+
+The format of GCC this year will be a bit different than the previous years. 
+
+It will starts with 1 day of training, continues with 3 days of conference featuring 
+unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training, 
+and ends with 2 days of CollaborationFest.
+
+Day | Event | Details
+--- | --- | ---
+Mon, 1 July | Training | 3 2h training sessions for those new to Galaxy, either using it, or deploying it
+Tue, 2 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Wed, 3 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Thu, 4 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Fri, 5 July | CollaborationFest | Collaborative work event
+Sat, 6 July | CollaborationFest | Collaborative work event
+
+## How are the training choosen?
+
+The training topics that are offered during GGCC2019 are determined by the community via a nomination and voting process.
+
+Nominated topics can cover a wide range. For example:
+- Introduction to Using Galaxy
+- Scientific topic oriented trainings
+- Community specific trainings
+- Development and administration around Galaxy
+- Train the trainers
+
+This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
+
+The training nomination will open on the **December, 10** and close it on the **December, 31**. The voting process will then go from the **January, 15** to the **January, 31st**.
+
 ## Will BOSC be joining GCC in 2019?
 
 **No.** In the month after GCCBOSC 2018, both sets of organizers, independently and simultaneously, decided
