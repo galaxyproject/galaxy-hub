@@ -46,7 +46,7 @@ My first contributions where some very minor things for docker-galaxy-stable som
 
 I don’t think I have one, I’m more on the infrastructure side of things. I did enjoy a lot when I managed to get [Escher (doi: 10.1371/journal.pcbi.1004321)](https://doi.org/10.1371/journal.pcbi.1004321) - a Javascript visualization toolkit for fluxomics data - to work inside Galaxy. I normally demo that a lot as part of the PhenoMeNal fluxomics workflow.
 
-###What is your favorite Galaxy feature?
+### What is your favorite Galaxy feature?
 
 I find both the new Galaxy Tours and and having an API access very appealing. 
 
