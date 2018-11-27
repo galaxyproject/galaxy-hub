@@ -6,6 +6,9 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.workflow4metabolomics.org/"
     platform_text: "workflow4metabolomics Galaxy server"
+  - platform_group: "container"
+    platform_url: "https://hub.docker.com/r/workflow4metabolomics/galaxy-workflow4metabolomics/"
+    platform_text: "Workflow4Metabolomics in Docker"
 summary: "A collaborative portal dedicated to metabolomics data processing, analysis and annotation. "
 image: "/src/use/workflow4metabolomics/workflow4metabolomics.png"
 comments:
