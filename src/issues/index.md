@@ -11,7 +11,7 @@ Serious security problems should not be reported via GitHub - please responsibly
 
 ## Usage problem reporting
 
-Please report usage problems with tools and functions to the [Galaxy Help](https://help.galaxyproject.org/) site.
+Please report usage problems with tools and functions to the **[Galaxy Help](https://help.galaxyproject.org/)** site.
 
 **It is good practise to first perform a [Galaxy Search](https://galaxyproject.org/search/)** to find prior Q and A, FAQs, Tutorials, and other documentation across all Galaxy resources. **Your problem may have an existing solution already posted**. 
 
