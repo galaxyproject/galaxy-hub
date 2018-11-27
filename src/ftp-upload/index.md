@@ -39,7 +39,7 @@ In this video, the changes for `FTPS` are explained along with how to configure 
 Below you can see my files copied to the destination on Galaxy's FTP server.
 ![files uploaded to Galaxy FTP server](ftp-files.png)
 
-Need more help? [Review recent Q&A with screenshots](https://biostar.usegalaxy.org/p/24618/)
+Need more help? See: [Galaxy Help](https://help.galaxyproject.org/)
 
 
 
