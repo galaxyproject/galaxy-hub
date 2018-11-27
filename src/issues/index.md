@@ -11,7 +11,7 @@ Serious security problems should not be reported via GitHub - please responsibly
 
 ## Usage problem reporting
 
-Please report usage problems with tools and functions to the [Galaxy Biostars](/src/support/biostar/index.md) support forum.
+Please report usage problems with tools and functions to the [Galaxy Help](https://help.galaxyproject.org/) site.
 
 **It is good practise to first perform a [Galaxy Search](https://galaxyproject.org/search/)** to find prior Q and A, FAQs, Tutorials, and other documentation across all Galaxy resources. **Your problem may have an existing solution already posted**. 
 
@@ -52,11 +52,11 @@ Reviewing the problematic output content, the original tool form as submitted, t
  
 1. How to share a History or Workflow: [Options/Share or Publish](/src/learn/share/index.md) 
 1. If a Workflow was used, please include a share link to the workflow in the bug report's form comments or the direct email.
-1. If still not enough information, the problem can be posted to the **Galaxy Biostars** forum (public) or the bug report can be sent in (private). 
+1. If still not enough information, the problem can be posted to the [Galaxy Help](https://help.galaxyproject.org/) site (public) or the bug report can be sent in (private). 
 1. When submitting a bug report, you'll get cc'd copy of the full report with more details that may help, plus we will review unless you state in the comments that the intention is to see the full report (you can always reply later and request a review). 
 1. Should you resolve the problem before hearing back from us, or through other resources/your own testing, a reply email/post stating that is also appreciated.
 1. Please leave all of the datasets undeleted in your history. This includes input and output datasets used in the analysis thread leading up to the problem. Red error datasets are not applied to your account's usage quota. Inputs are often needed to reproduce/troubleshoot a problem.
-1. If you first posted the problem at [Galaxy Biostars](https://biostar.usegalaxy.org), please include a link to that post in the bug/email comments. This helps us to link the two and provide the best feedback.
+1. If you first posted the problem at [Galaxy Help](https://help.galaxyproject.org/), please include a link to that post in the bug/email comments. This helps us to link the two and provide the best feedback.
 1. Please avoid emailing individual team members directly about problems. Use the support channels so both we and the community can help you.
 
 ## Bug reporting
