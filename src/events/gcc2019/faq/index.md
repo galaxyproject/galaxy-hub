@@ -2,6 +2,23 @@
 
 # GCC2019 Frequently Asked questions
 
+## What will be the format for GCC in 2019?
+
+The format of GCC this year will be a bit different than the previous years. 
+
+It will starts with 1 day of training, continues with 3 days of conference featuring 
+unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training, 
+and ends with 2 days of CollaborationFest.
+
+Day | Event | Details
+--- | --- | ---
+Mon, 1 July | Training | 3 2h training sessions for those new to Galaxy, either using it, or deploying it
+Tue, 2 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Wed, 3 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Thu, 4 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
+Fri, 5 July | CollaborationFest | Collaborative work event
+Sat, 6 July | CollaborationFest | Collaborative work event
+
 ## Will BOSC be joining GCC in 2019?
 
 **No.** In the month after GCCBOSC 2018, both sets of organizers, independently and simultaneously, decided
