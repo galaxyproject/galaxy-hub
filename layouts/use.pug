@@ -3,10 +3,12 @@ extends layout.pug
 mixin renderResource()
     +renderPageTitle
     if image
-        if image.startsWith("/src")
-            img.img-responsive(src=image.substring(4) style="float:right; margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
-        else
-            img.img-responsive(src=image class="pull-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
+        div(class="float-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
+            a(href=url)
+                if image.startsWith("/src")
+                    img.img-responsive(src=image.substring(4))
+                else
+                    img.img-responsive(src=image)
     table(class="table table-striped" style="width: auto")
         each platform in platforms
             tr
