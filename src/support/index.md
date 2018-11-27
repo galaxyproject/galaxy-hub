@@ -12,8 +12,7 @@ title: Galaxy Support
 ## Help Resources
 
 * Query all Galaxy resources with the search function in the top masthead
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) 
-* [Claim your Biostars account](/src/support/biostar/index.md)
+* [Galaxy Help](https://help.galaxyproject.org/) 
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
 * [Mailing Lists](/src/mailing-lists/index.md)
 * [Video Help](http://vimeo.com/galaxyproject/)
