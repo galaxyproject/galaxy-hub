@@ -16,6 +16,7 @@ title: Galaxy Support
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
 * [Mailing Lists](/src/mailing-lists/index.md)
 * [Video Help](http://vimeo.com/galaxyproject/)
+* [Galaxy Biostars: retired Q&A archive](https://biostar.usegalaxy.org/)
 
 ## Using Galaxy FAQs
 
