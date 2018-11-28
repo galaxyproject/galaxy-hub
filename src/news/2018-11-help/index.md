@@ -1,5 +1,5 @@
 ---
-title: "Galaxy has a new Q&A site: Galaxy Help"
+title: "Galaxy Help: A new Q&A site for Galaxy"
 tease: "Got questions? Get answers."
 date: '2018-11-29'
 ---
