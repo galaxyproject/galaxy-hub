@@ -16,6 +16,7 @@ We can be reached at:
 * *[Monika Degen-Hellmuth](https://portal.uni-freiburg.de/iif/institut/Personen/direktor/sekretariat)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Mo Heydarian](/src/people/mo-heydarian/index.md)*, [Johns Hopkins University](https://jhu.edu/)
 * *[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)*, [Friedrich Miescher Institute](http://www.fmi.ch/)
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
