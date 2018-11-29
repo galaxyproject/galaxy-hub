@@ -1,6 +1,6 @@
 ---
 title:  "Introduction to Galaxy"
-date: '2019-1-08'
+date: '2019-01-08'
 days: 1
 tease: "A hands-on workshop" 
 continent: NA
