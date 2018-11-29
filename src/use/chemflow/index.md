@@ -11,7 +11,8 @@ image: "/src/use/chemflow/chemflow-logo.png"
 comments:
   - "A free online analytical pipeline for developing chemometric approaches."
 user_support:
-  - "[Online email form](https://chemproject.org/wakka.php?wiki=NousContacter)"
+  - "[Tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow)"
+  - "[Online support form](https://chemproject.org/wakka.php?wiki=NousContacter)"
 quotas:
   - "Must create an account to use the server.  Anyone can create an account."
 citations:
