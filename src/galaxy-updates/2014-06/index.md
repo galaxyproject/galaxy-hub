@@ -10,6 +10,9 @@ Welcome to the June 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 <div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a><br />Join the conversation! Learn how [here](/src/support/biostar/index.md).</div>
 <br />
 
+***Note: Galaxy's support forum has moved to [help.galaxyproject.org](https://help.galaxyproject.org/).***
+<br />
+
 The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/src/mailing-lists/index.md).  
 
 During the past 5 weeks, Galaxy Biostar has been wildly successful with over 125 active threads, *more than 5 times the number of active threads on Galaxy-user in the 5 weeks before the switch.*

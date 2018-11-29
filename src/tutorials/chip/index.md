@@ -593,7 +593,7 @@ This entire analysis is available as a Galaxy history [here](https://usegalaxy.o
 
 # And so it goes...
 
-Hopefully this tutorial has given you the taste for what is possible. There are more tools out there so experiment! If things do not work - complain using `Open Chat` button below or our [BioStar](https://biostar.usegalaxy.org/) channel.
+Hopefully this tutorial has given you the taste for what is possible. There are more tools out there so experiment! If things do not work - complain using `Open Chat` button below or our [support forum](https://help.galaxyproject.org/).
 
 
 

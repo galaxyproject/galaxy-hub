@@ -3,6 +3,15 @@ title: About Galaxy
 ---
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>
 
+# Warning: This page is incomplete and deprecated
+
+For the most current information about Galaxy, or help, please see:
+
+* [Galaxy Ecosytem](https://galaxyproject.github.io/)
+* [Galaxy Help](https://help.galaxyproject.org/)
+
+----
+
 Galaxy is an open, web-based platform for data intensive biomedical research. Galaxy's goal is to be *accessible*, *reproducible*, and *transparent*. 
 
 * **Accessible:** Users without programming experience can easily specify parameters and run tools and workflows.
@@ -23,4 +32,3 @@ Thank you for your for *Using Galaxy!* We hope these resources help to further *
 
 [Galaxy team](https://wiki.galaxyproject.org/GalaxyTeam)
 
-This [Support](/src/support/index.md) resource is also published within [Biostar](http://biostar.usegalaxy.org/) as a Tutorial: [About Galaxy !](https://biostar.usegalaxy.org/p/7744/)

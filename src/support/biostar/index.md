@@ -1,6 +1,14 @@
 ---
-title: Galaxy Biostars
+title: Galaxy Biostars - Retired
 ---
+
+Please join us at the new [Galaxy Help](https://help.galaxyproject.org/) site for usage questions, public server support, and general discussions.
+
+Galaxy Biostars has been retired and is available as an archived resource at the same original URL: [https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/)
+
+----
+
+
 <div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 

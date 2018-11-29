@@ -72,7 +72,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | [State of the European Galaxy Project](https://github.com/erasche/presentations/blob/master/2018-11-egd/main.pdf) | [slides](https://github.com/erasche/presentations/blob/master/2018-11-egd/main.pdf) |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
 | 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  | [slides](http://bebatut.fr/talks/18/11_20_egd/#/1) | 
-| 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) |  |
+| 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) | [slides](https://drive.google.com/open?id=1Hdi9cV49FJ7eL4XrnJXs5kNIs68y4HJ3) |
 | 14:10 - 14:35 |  Yvan Le Bras ([Muséum national d’histoire naturelle](https://www.mnhn.fr/)) | [*GalaxyE, a new vision of workflow oriented Biodiversity research?*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#yvan-le-bras) |    | 
 | 14:35 - 15:00 |  Anup Kumar ([University of Freiburg](http://www.uni-freiburg.de/))  | *Machine learning with Galaxy* | [slides](https://github.com/anuprulez/issues/raw/master/EuropeanGalaxyDays18_AnupKumar.pdf) |
 | 15:00 - 15:10 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
