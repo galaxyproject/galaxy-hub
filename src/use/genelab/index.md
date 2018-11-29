@@ -12,7 +12,6 @@ comments:
   - "Bioinformatics software platform (powered by Galaxy), including tools for performing sequence data processing, and differential gene expression and epigenetic analyses."
 user_support:
   - "[RNA-Seq with GeneLab Galaxy Tutorial](https://genelab-data.ndc.nasa.gov/genelab/help/RNA-Seq_analysis_tutorial.pdf) and [Video](https://youtu.be/7BptYySvQYw)"
-  - "[Online support form](https://chemproject.org/wakka.php?wiki=NousContacter)"
 quotas:
   - "Must create an account to use the server.  Anyone can create an account, but you will need a Google ID to create one."
 citations:
