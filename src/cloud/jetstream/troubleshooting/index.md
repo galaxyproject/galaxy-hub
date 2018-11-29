@@ -9,7 +9,7 @@ title: Troubleshooting Galaxy on Jetstream
 
 ## Galaxy does not run jobs
 
-There could be many reasons so if the following method does not help, please [contact us](https://biostar.usegalaxy.org/).
+There could be many reasons so if the following method does not help, please [contact us](https://help.galaxyproject.org/).
 
 There's a bug in Jetstream's configuration for instance's hostname, and our automated workaround does not always apply. If you queue jobs on your instance, but Galaxy won't actually execute any, try the following:
  

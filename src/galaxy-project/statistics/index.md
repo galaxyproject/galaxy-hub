@@ -7,17 +7,23 @@ This page contains statistics about the [Galaxy Project](/src/galaxy-project/ind
 
 # Community Support Channels
 
+## Galaxy Help Forum
+
+The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from BioStar were copied over.
+
+Since the help forum is so new, we don't have any meaningful statistics yet.
+
 ## Galaxy BioStar
 
-The [Galaxy Biostar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014.  Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy Biostar at that time, and people were strongly advised to post future questions to Galaxy Biostar.  On June 6, 2014, all posting to Galaxy-User was suspended.
+The [Galaxy BioStar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014 and **retired on November 29, 2018. (The site still exists and can be searched.)**
 
-The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy Biostar.
+Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy BioStar at that time, and people were strongly advised to post future questions to Galaxy BioStar.  On June 6, 2014, all posting to Galaxy-User was suspended.  The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy BioStar.
 
-All date ranges here are from Biostar.  For example, the "last 12 months" means anything that Biostar identifies as having happened between now and "12 months ago", inclusive.
+All date ranges here are from BioStar.  For example, the "last 12 months" means anything that BioStar identifies as having happened between now and "12 months ago", inclusive.
 
 ## Active Users
 
-Active here means "visited", as defined by Biostar.
+Active here means "visited", as defined by BioStar.
 
 [![](/src/galaxy-project/statistics/biostar_active_users.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=540758257&format=interactive)
 
@@ -39,8 +45,9 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2012/08: Galaxy-France list launched.
 * 2013/06: Galaxy-Proteomics list launched.
-* 2014/04: Most of Galaxy-User traffic moved to the [Galaxy Biostar online forum](https://biostar.usegalaxy.org).
-* 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy Biostar
+* 2014/04: Most of Galaxy-User traffic moved to the [Galaxy BioStar online forum](https://biostar.usegalaxy.org).
+* 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy BioStar
+* 2018/11: [Galaxy Help Forum launched](https://help.galaxyproject.org/), superseding Galaxy BioStar site
 
 ### Membership
 

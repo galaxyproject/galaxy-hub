@@ -9,6 +9,8 @@ Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
+***Note: Galaxy's support forum has moved to [help.galaxyproject.org](https://help.galaxyproject.org/).***
+
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create [Galaxy Biostar](https://biostar.usegalaxy.org), a Galaxy User support forum.**
 
 Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/use/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.

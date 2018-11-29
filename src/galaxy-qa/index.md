@@ -1,5 +1,10 @@
 # Warning: This page is outdated and no longer accurate
 
+* As of 12/1/2018, Q&A is now at [Galaxy Help](https://help.galaxyproject.org/)
+* Prior Q&A is at [Galaxy Biostars: retired archive](https://biostar.usegalaxy.org/)
+
+----
+
 # Galaxy Q&A
 
 This wiki page has been created to regroup all the informations about the Galaxy Q&A.

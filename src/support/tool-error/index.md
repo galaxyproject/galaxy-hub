@@ -39,13 +39,13 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
 
-Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help (here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Biostars](https://biostar.usegalaxy.org) to get things back on track *quickly*).
+Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
 
 Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/src/issues/index.md)
 
 If you are still stuck after reviewing, please do send in the bug report and we can help.
 
-* Include a link to questions asked about the same problem that you may have posted online (example: at Galaxy Biostars)
+* Include a link to questions asked about the same problem that you may have posted online (example: at [Galaxy Help](https://help.galaxyproject.org/))
 * Leave the input and output datasets undeleted
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
 * Should you solve the problem before we reply, a follow-up email to let us know is appreciated.
@@ -102,8 +102,8 @@ It is possible that there was a server or cluster error. However, very often inp
 
 If after reviewing inputs (see section for that job falure reason below) and re-running, and the cause of the error remains unclear, try the following:
 
-*   Search prior questions/answers at [Galaxy Biostar](https://biostar.usegalaxy.org)
-*   Submit a novel question at [Galaxy Biostar](https://biostar.usegalaxy.org)
+*   Search prior questions/answers at [Galaxy Help](https://help.galaxyproject.org/) (current Q&A) or at [Galaxy Biostar](https://biostar.usegalaxy.org) (archived Q&A)
+*   Submit a novel question at [Galaxy Help](https://help.galaxyproject.org/)
 *   Report the novel issue in a bug report if working at [Galaxy Main](/src/main/index.md) (http://usegalaxy.org) or you can reproduce the error there.
 
 ### Type: exceeds memory allocation
