@@ -36,7 +36,7 @@ This hands-on Galaxy workshop will cover several common analysis pathways with a
 While the workshop will be useful and informative for new Galaxy users, attendees will get the most out of the hands-on exercises if they have some basic familiarity with using Galaxy.
 * The first thing you should try: [Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101)
 * Review a set of introductory-level tutorials: [Using Galaxy](https://usegalaxy.org/u/galaxyproject/p/using-galaxy-2012)
-* Get involved with the Galaxy Scientific user community by joining in on the conversations at [Galaxy Biostars](https://biostar.usegalaxy.org) ([Instant registration](https://wiki.galaxyproject.org/Support/Biostar))
+* Get involved with the Galaxy Scientific user community by joining in on the conversations at [Galaxy Biostars](https://biostar.usegalaxy.org) (which has now moved to [help.galaxyproject.org](https://help.galaxyproject.org/)
 * Resources: [Learn](/src/learn/index.md) and [Support](/src/support/index.md)
 
 #### What is Galaxy and why could it be interesting to me?

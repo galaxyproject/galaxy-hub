@@ -1,6 +1,12 @@
 
 [Back to Support](/src/support/index.md)
 
+# Warning: This page has been deprecated. 
+
+* Please review these [Galaxy Support](/src/support/index.md) FAQs instead: [Unexpected Results](/src/support/#unexpected-results)
+
+----
+
 _Last updated 12-11-17_
 
 **Check individual linked tickets to review the most current status for any known issue**

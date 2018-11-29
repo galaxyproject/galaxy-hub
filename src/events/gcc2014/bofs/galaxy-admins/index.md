@@ -148,7 +148,7 @@ A significant percentage of attendees were not familiar with Galaxy's search eng
 
 ## Remedies
 
-Galaxy-Dev is going to remain a firehose of information.  The Galaxy Web Search and Galaxy Mailing List Search both make all Galaxy mailing lists (and the Galaxy Biostar forum) easily searchable.  They both use Google Custom Search.  They don't address the problem of finding the best answer buried in a long thread.
+Galaxy-Dev is going to remain a firehose of information.  The Galaxy Web Search and Galaxy Mailing List Search both make all Galaxy mailing lists (and the Galaxy Biostar, now  [help.galaxyproject.org](https://help.galaxyproject.org)) easily searchable.  They both use Google Custom Search.  They don't address the problem of finding the best answer buried in a long thread.
 
 The Galaxy-Announce list is a good resource for keeping up with what's new in Galaxy.  It only gets 3-5 emails per month.
 

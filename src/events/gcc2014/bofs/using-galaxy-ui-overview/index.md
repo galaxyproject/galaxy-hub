@@ -51,7 +51,7 @@ Tour of Galaxy's learning resources included:
   * Learn, all resources including: video, object wikis, tutorials
   * Support, general
   * Events, how to navigate and drill-down into workshop slides (using specific examples as models)
-  * Biostar (including searches) and Mailing lists
+  * Biostar (now [help.galaxyproject.org](https://help.galaxyproject.org/), including searches) and Mailing lists
   * Google custom searches, general
 * Resources: public Main Galaxy instance http://usegalaxy.org:
   * Reminders about of core objects, layout, definitions (mirrored earlier slide content)
