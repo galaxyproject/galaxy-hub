@@ -496,5 +496,5 @@ Perform a similar analyses with your own data.
 # If things don't work...
 
  - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
- - ...complain. Use [Galaxy's BioStar Channel](https://usegalaxy.org/biostar/biostar_redirect) to do this.
+ - ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
 
