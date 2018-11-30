@@ -52,6 +52,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
 *   **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](/src/ftp-upload/#upload-from-client).
+ 
 
 ### Upload tool location
 
@@ -74,5 +75,14 @@ If you DO NOT see any files, **load data using FTP first**, then come back to th
 *   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/src/learn/managing-datasets/index.md) for help or watch the screencast above for a how-to example.
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 
+### GenomeSpace Importer/Exporter
 
+Create your GenomeSpace OpenID token at the Galaxy server you are working at. Not all public Galaxy servers will have this option enabled, but it is available at **Galaxy Main** [https://usegalaxy.org](https://usegalaxy.org). 
+
+_Note:_ GS OpenID tokens can become stale over time. If your account is not connecting properly when using these tools in Galaxy, resetting the token is the first thing to try when troubleshooting.
+
+Steps:
+*   Open a browser window at http://www.genomespace.org/, log into your account, and leave that window open
+*   Log into your Galaxy Account and go to _User > Preferences > 	Manage OpenIDs_
+*   Delete the existing GS OpenID and create a new one, or just create a new one if you don't have one already
 
