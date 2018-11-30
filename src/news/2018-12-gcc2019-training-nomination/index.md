@@ -2,7 +2,7 @@
 title: 'Nominate a training for the 2019 Galaxy Community Conference (GCC2019)'
 date: '2018-12-01'
 ---
-<img class="img-fluid mx-auto" src="/src/news/gcc2019_training_nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" />
+<img class="img-fluid mx-auto" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" />
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. But wThe format of GCC this year will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
