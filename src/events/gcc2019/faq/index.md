@@ -32,7 +32,9 @@ Nominated topics can cover a wide range. For example:
 
 This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
-The training nomination will open on the **December, 10** and close it on the **December, 31**. The voting process will then go from the **January, 15** to the **January, 31st**.
+The training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled by the GCC2017 Organizing Committee, and voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+
+Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session. Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
 ## Will BOSC be joining GCC in 2019?
 
