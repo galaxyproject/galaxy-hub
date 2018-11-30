@@ -31,25 +31,21 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/src/events/2019-admin-training/index.md)
 
-**[Advanced registration](/src/events/2019-admin-training/index.md#registration) ends December 31.** Register now and avoid the 45 to 60% price increase in the new year.
+**[Advanced registration](/src/events/2019-admin-training/index.md#registration) ends December 31. Register now and avoid the 45 to 60% price increase in the new year.**
 
-**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
-
-**[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
-
-See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+[Galaxy Admin Training](/src/events/2018-europe-dev/index.md) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
 
 ## Nominate Topics for GCC2019 Training!
 
-<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>
+[<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
-**The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/prefill)***
+**The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/prefill). 
+Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/). 
 
 Nominated topics can cover a wide range. For example:
 
@@ -150,6 +146,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pitagora) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | 
 | 1 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | 1 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | | | | | | |
 ----
+
 # New Galactic Blog Posts
 
 [<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/src/blog/index.md)
@@ -165,13 +162,10 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Principal Technical Business Development Manager: AWS Research in Biomedical](https://us-amazon.icims.com/jobs/745693/principal-technical-business-development-manager%3a-aws-research-in-biomedical/job), Amazon Web Services, United States
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
-* [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626) 
-* [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
-* [Galaxy Developer](https://www.linkedin.com/jobs/view/932281766/), Cambridge, United Kingdom
-* [Specialist Solutions Architect - Biological Sciences](https://us-amazon.icims.com/jobs/728182/specialist-solutions-architect----biological-sciences/job?mobile=false&width=1090&height=1200&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Amazon Web Services, United States
-* [Bioinformatics Scientist](https://www.indeed.com/job/bioinformatics-scientist-2ebc0d6975949ec8), ResearchDx, Irvine, California, United States
-* [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/), Integrated DNA technologies, Iowa City, Iowa, United States
+* [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
+* [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
@@ -192,19 +186,28 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 [<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-* New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](https://github.com/erasche)
-* New [Ansible hands-on tutoral](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/slides.html), by [Helena Rasche](/src/people/helena-rasche/index.md)
-* New [Network analysis with Heinz slides](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/slides.html) and an updated [tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/network-analysis-with-heinz/tutorial.html) from [Cico Zhang](https://github.com/CicoZhang) and [Saskia Hiltemann](https://github.com/shiltemann)
-* A general update to the [Contributing to the Galaxy Training Material](https://galaxyproject.github.io/training-material/topics/contributing/) materials from Saskia Hiltemann
-* Update to [Genome annotation with Prokka](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) tutorial from [Bérénice Batut](https://github.com/bebatut) and [Ekaterina Polkh](https://github.com/polkhe)
-* Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from [Anthony Bretaudeau](https://github.com/abretaud)
-* Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Nicola Soranzo and Peter van Heusden
-* Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Nicola Soranzo
-* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from [Yvan Le Bras](https://github.com/yvanlebras) 
+* New [Basics of Machine Learning Tutorial](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/machinelearning/tutorial.html) by [Anna Syme](https://github.com/annasyme), [Anup Kumar](https://github.com/anuprulez), and [Levi Baber](https://github.com/baberlevi).
+* New [Proteogenomics](https://galaxyproject.github.io/training-material/topics/proteomics/) tutorials by [Subina Mehta](https://github.com/subinamehta)
+  * [Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html)
+  * [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)
+  * [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html)
+* New [Mass spectrometry imaging 1: Loading and exploring MSI data](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
+* New [Introduction to Metabolomics slides](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) by [Gildas Le Corguillé](https://github.com/lecorguille) and Cécile Canlet
+* New Tutorials on [how to Teach and Host Galaxy Training](https://galaxyproject.github.io/training-material/topics/instructors/) by [Bérénice Batut](https://github.com/bebatut), [Helena Rasche](https://github.com/erasche), and [Saskia Hiltemann](https://github.com/shiltemann):
+  * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html) 
+  * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
+  * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
+  * [UseGalaxy.eu's Training Infrastructure as a Service](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html)
+metabolomics/tutorials/lcms-data-import/tutorial.md
+* Update to [Visualization of RNA-Seq results with CummeRbund](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Andrea Bagnacani](https://github.com/bagnacan)
 
+And a few enhancements to the [training materials website](https://galaxyproject.github.io/training-material/)
 
-And we would especially like to welcome new contributors XXXX
+* **[Automatic translation of tutorials](https://github.com/galaxyproject/training-material/pull/1131) into 5 languages** (français, 日本語, Español, Português, and العربية), by [Bérénice Batut](https://github.com/bebatut).
+* More flexible [training material hosting and incremental build support](https://github.com/galaxyproject/training-material/pull/968) by [Mehmet Tekman](https://github.com/mtekman)
+* Site search [searches the entire TeSS catalog of training materials](https://github.com/galaxyproject/training-material/pull/1137) (which includes all of the Galaxy Training materials).
 
+And we would especially like to welcome new contributors [Anup Kumar](https://github.com/anuprulez), [Andrea Bagnacani](https://github.com/bagnacan), [Subina Mehta](https://github.com/subinamehta), [Cécile Canlet](https://galaxyproject.github.io/training-material/hall-of-fame#cecilecanlet).
 
 ## Hub
 
