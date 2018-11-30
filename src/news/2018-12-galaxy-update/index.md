@@ -27,17 +27,42 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # Events
 
-Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming events to help get you out and about.
+Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events to help get you out and about.
 
 ## 2019 Galaxy Admin Training
 
 [<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+
+**[Advanced registration](/src/events/2019-admin-training/index.md#registration) ends December 31.** Register now and avoid the 45 to 60% price increase in the new year.
 
 **[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
 **[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
 
 See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+
+## Nominate Topics for GCC2019 Training!
+
+<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>
+
+The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+
+**The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/prefill)***
+
+Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/prefill). 
+
+Nominated topics can cover a wide range. For example:
+
+- Introduction to Using Galaxy
+- Scientific topic oriented trainings
+- Community specific trainings
+- Development and administration around Galaxy
+- Train the trainers
+
+This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
+
+Training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+
 
 ## Upcoming events
 
@@ -48,16 +73,31 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**xxx new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in November.
+**170 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in November.
 
 ## Highlighted Publications
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from November.
 
+* [Laniakea: an open solution to provide Galaxy "on-demand" instances over heterogeneous cloud infrastructures](https://www.biorxiv.org/content/early/2018/11/19/472464), Marco Antonio Tangaro, Giacinto Donvito, Marica Antonacci, Matteo Chiara, Pietro Mandreoli, Graziano Pesole, Federico Zambelli. *bioRxiv* doi: 10.1101/472464 
+* [Aequatus: an open-source homology browser](https://doi.org/10.1093/gigascience/giy128), Anil S Thanki, Nicola Soranzo, Javier Herrero, Wilfried Haerty, Robert P Davey. *GigaScience*, Volume 7, Issue 11, 1 November 2018, giy128, doi: 10.1093/gigascience/giy128
+* [Automatic generation of bioinformatics tools for predicting protein–ligand binding sites](https://doi.org/10.1093/bioinformatics/btv593), Yusuke Komiyama, Masaki Banno, Kokoro Ueki, Gul Saad, Kentaro Shimizu. *Bioinformatics*, Volume 32, Issue 6, 15 March 2016, Pages 901–907, doi:10.1093/bioinformatics/btv593
+* [Workflow-based automatic processing for Internet of Floating Things crowdsourced data](https://doi.org/10.1016/j.future.2018.11.025), Raffaele Montella, Diana Di Luccioa, Livia Marcellino, Ardelio Galletti, Sokol Kosta, Giulio Giunta, Ian Foster. *Future Generation Computer Systems*, Volume 94, May 2019, Pages 103-119 doi: 10.1016/j.future.2018.11.025
+* [FAIRness and Usability for Open-Access Omics Data Systems](https://ntrs.nasa.gov/search.jsp?R=20180007593),  Daniel C. Berrios, Afshin Beheshti, Sylvain V. Costes. AMIA 2018 Annual Symposium
+* [SyNDI: synchronous network data integration framework](https://doi.org/10.1186/s12859-018-2426-5), Erno Lindfors, Jesse C. J. van Dam, Carolyn Ming Chi Lam, Niels A. Zondervan, Vitor A. P. Martins dos Santos and Maria Suarez-Diez. *BMC Bioinformatics* 201819:403 doi: 10.1186/s12859-018-2426-5
+* [Satellite DNAs Unveil Clues about the Ancestry and Composition of B Chromosomes in Three Grasshopper Species](https://doi.org/10.3390/genes9110523), Diogo Milani, Vanessa B. Bardella, Ana B. S. M. Ferretti, Octavio M. Palacios-Gimenez, Adriana de S. Melo, Rita C. Moura, Vilma Loreto, Hojun Song and Diogo C. Cabral-de-Mello.  *Genes* 2018, 9(11), 523; doi: 10.3390/genes9110523 
+* [FAIR  Bioinformatics  computation  and  data  management:  FAIRDOM  and  the Norwegian Digital Life initiative](https://www.research.manchester.ac.uk/portal/files/70129474/NETTAB2018_paper_8.pdf), Natalie J Stanford, Finn Bacall, Fatemeh Zamanzad Ghavidel, Martin Golebiewski, Inge Jonassen, Rune Kleppe, Olga Krebs, Hadas Leonov, Stuart Owen, Kjell Petersen, Maja Rey, Stian Soiland-Reyes, Kidane Tekle, Andreas Weidemann, Alan Williams, Ulrike Wittig, Katy Wolstencroft, Anders Goksøyr, Jacky L. Snoep, Jon Olav Vik, Wolfgang Müller and Carole Goble. NETTAB 2018
 
+Seven out of eight of these papers are open access.
 
 ## Publication Topics
 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 109 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 40 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 22 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
+| 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
+| 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
 
 ----
 
@@ -99,7 +139,16 @@ All of these are Docker containers.
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
+| 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | | 2 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Nebula) | 
+| 2 | [>PIPE-CLIP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PIPE-CLIP) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UTProt](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UTProt) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | 
+| 1 | [>BioBix](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioBix) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CBIB) | | 1 | [>ChemFlow](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ChemFlow) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | 
+| 1 | [>CTMM-TRAIT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CTMM-TRAIT) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>FACE-IT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FACE-IT) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GeneLab) | 
+| 1 | [>Laniakea](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Laniakea) | | 1 | [>NeLS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NeLS) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NGS-QC) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | 
+| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pitagora) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | 
+| 1 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | 1 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | | | | | | |
 ----
 # New Galactic Blog Posts
 
