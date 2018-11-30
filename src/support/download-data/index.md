@@ -52,3 +52,7 @@ or
 ```
 $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
+
+# GenomeSpace Importer/Exporter
+
+Please see: https://galaxyproject.org/support/loading-data/#genomespace-importerexporter
