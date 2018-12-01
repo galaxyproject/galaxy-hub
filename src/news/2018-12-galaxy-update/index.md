@@ -8,15 +8,16 @@ date: ""
 
 The *December  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* The [Galaxy Platforms Directory](/src/news/2018-12-galaxy-update/index.md#the-galaxy-platforms-directory): 125 ways to use Galaxy
-  * [New Galaxy Platforms](/src/news/2018-12-galaxy-update/index.md#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
-* [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), **19-20 December**, Freiburg, Germany
-* [2019 Galaxy Admin Training](/src/news/2018-12-galaxy-update/index.md#2019-galaxy-admin-training), January at Penn State
-* [All upcoming events](#upcoming-events)
-* [104 publications](#publications), including three highlighted ones
+* [Galaxy Help: A new Q&A site for Galaxy](/src/news/2018-12-galaxy-update/index.md#galaxy-help-a-new-qa-site-for-galaxy) 
+* [Event News](/src/news/2018-12-galaxy-update/index.md#event-news)
+  * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/src/news/2018-12-galaxy-update/index.md#2019-galaxy-admin-training-advance-registration-closes-dec-31)
+  * [Nominate Topics for GCC2019 Training!](/src/news/2018-12-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
+  * [GCCBOSC 2018 videos](/src/news/2018-12-galaxy-update/index.md#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/src/news/2018-12-galaxy-update/index.md#european-galaxy-days-slides-are-online) are now online
+* [170 new publications](/src/news/2018-12-galaxy-update/index.md#publications), including eight highlighted ones
+* [Galaxy Platform News](/src/news/2018-12-galaxy-update/index.md#galaxy-platforms-news): Two new public servers and eight containers added to the platform directory.
 * Two new [Galactic Blog entries](/src/news/2018-12-galaxy-update/index.md#new-galactic-blog-posts)
-* [Open positions](/src/news/2018-12-galaxy-update/#whos-hiring) (at least 12 of them)
-*  [Doc, Hub, and Training Updates](/src/news/2018-12-galaxy-update/index.md#doc-hub-and-training-updates)
+* [Open positions](/src/news/2018-12-galaxy-update/index.md#whos-hiring)
+* [Doc, Hub, and Training Updates](/src/news/2018-12-galaxy-update/index.md#doc-hub-and-training-updates)
 * [ToolShed contributions](/src/news/2018-12-galaxy-update/index.md#toolshed-contributions)
 * [Releases](/src/news/2018-12-galaxy-update/index.md#releases) Galaxy 18.09 is released!
 * And [other news](/src/news/2018-12-galaxy-update/index.md#other-news) too
@@ -35,12 +36,13 @@ Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which 
 
 *[Join the discussion](https://help.galaxyproject.org/).*
 
+---
 
 # Event News
 
 Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events to help get you out and about.
 
-## 2019 Galaxy Admin Training
+## 2019 Galaxy Admin Training: Advance Registration Closes Dec 31
 
 [<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/src/events/2019-admin-training/index.md)
 
@@ -74,9 +76,16 @@ Training nomination is open from **December, 1st** to **December, 31**. Topics w
 
 <div class="float-left">[<i class="fa fa-video" style="font-size:48px; color: SteelBlue;"></i>](https://vimeo.com/channels/gccbosc2018)</div>
 
-**We are pleased to announce that videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).
+**We are pleased to announce that videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).  There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
 
-There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
+If you want to know more about what happened at GCCBOSC 2018, take a look at these meeting reports:
+
+* [GCCBOSC 2018 post-meeting report](https://news.open-bio.org/2018/07/27/gccbosc-2018-post-meeting-report/), by Nomi Harris
+* [City of roses they call it – Portland Oregon (USA)](https://news.open-bio.org/2018/08/18/city-of-roses-they-call-it-portland-oregon-usa/), by Farah Zaib Khan
+* [The color of bioinformatics: what is it and how can it be modified?](https://news.open-bio.org/2018/08/29/the-color-of-bioinformatics/), by Tendai Mutangadura
+* [Code is Science at GCCBOSC](https://software.ac.uk/blog/2018-09-12-code-science-gccbosc), by Yo Yehudi
+* [Event photo album](https://www.flickr.com/photos/134305289@N03/sets/72157695693844792/), by Bérénice Batut
+* [Final Conference Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-printed-program.pdf)
 
 **See you next year in [Freiburg (Galaxy)](/src/events/gcc2019/index.md) and [Basel (BOSC)](https://www.iscb.org/ismbeccb2019)!**
 
@@ -129,24 +138,31 @@ Seven out of eight of these papers are open access.
 
 The [Galaxy Platform Directory](/src/use/index.md) was launched lat month.  It lists every resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.
 
-## New Public Servers and Services
-
-### BioBix
+## BioBix
 
 [<img class="float-left" src="/src/use/biobix/biobix_logo.png" alt="BioBix" />](http://galaxy.ugent.be/)
 
 The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/src/use/biobix/index.md) for more details.
 
-### Laniakea / INDIGO-DataCloud
-
 [<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](http://galaxy.ugent.be/)
+
+## Laniakea / INDIGO-DataCloud
 
 [Laniakea](https://www.indigo-datacloud.eu/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea-indigo-datacloud/indesx.md) for full details.
 
+[<img class="float-left" src="/src/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
 
-# *New* Containers
+## Hardwood Genomics
 
-This month several containers were added to the directory.  These aren't new containers, but they are new in the directory:
+The [Hardwood Genomics Project](https://www.hardwoodgenomics.org/) has launched [a simplified, workflow-centered interface to Galaxy](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows). Workflows for quality control, short read mapping, functional gene annotation, RNA-Seq differential gene expression and variant analysis.
+
+## UseGalaxy.eu Hardware Upgraded
+
+The head node for [UseGalaxy.eu](https://usegalaxy.eu/) was [upgraded on 12 November](https://galaxyproject.eu/posts/2018/11/07/migration/) and *there was no interruption of service.*
+
+## New Containers
+
+This month several containers were added to the directory.  These aren't actually new containers, but they are new in the platform directory:
 
 * [Constructive Solid Geometry](/src/use/csg/index.md)
 * [deepTools](/src/use/deeptools/index.md)
@@ -190,6 +206,10 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
+* [Cloud Computing Bioinformatics Programmer](Abingdon, Oxfordshire, United Kingdom) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
+* [Platform technical support](https://euraxess.ec.europa.eu/jobs/355872),  University of Barcelona, Spain. *Experience in working and developing tools for Galaxy*
+* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…* 
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://us-amazon.icims.com/jobs/745693/principal-technical-business-development-manager%3a-aws-research-in-biomedical/job), Amazon Web Services, United States
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
@@ -198,7 +218,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md) (and [see this for more details on software engineer posisitons](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/)), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
@@ -226,7 +246,6 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
   * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
   * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
   * [UseGalaxy.eu's Training Infrastructure as a Service](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html)
-metabolomics/tutorials/lcms-data-import/tutorial.md
 * Update to [Visualization of RNA-Seq results with CummeRbund](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Andrea Bagnacani](https://github.com/bagnacan)
 
 And a few enhancements to the [training materials website](https://galaxyproject.github.io/training-material/)
@@ -238,6 +257,8 @@ And a few enhancements to the [training materials website](https://galaxyproject
 And we would especially like to welcome new contributors [Anup Kumar](https://github.com/anuprulez), [Andrea Bagnacani](https://github.com/bagnacan), [Subina Mehta](https://github.com/subinamehta), [Cécile Canlet](https://galaxyproject.github.io/training-material/hall-of-fame#cecilecanlet).
 
 ## Hub
+
+* [Galaxy Federation](/src/federation/index.md), by [Enis Afgan](/src/people/enis-afgan/index.md)
 
 
 ---
@@ -251,10 +272,29 @@ And we would especially like to welcome new contributors [Anup Kumar](https://gi
 
 # Releases
 
-New additions to the Galaxy Ecosystem..
+New additions to the Galaxy Ecosystem.
+
+## Planemo 0.57.1
+
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
 
 
 ----
 
 # Other News
+
+* From Andrew Page at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest) 
+  * At the [Quadram](https://quadram.ac.uk/) we will have 4 Illumina seqeuncers, 1 PromethION long read sequencer, and piles of minION sequencers. My team has 6 PhD level bioinformaticians and computer scientists, and we use Galaxy.
+* From [ELIXIR Europe](https://twitter.com/ELIXIREurope)
+  * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:   
+* From [Graham Etherington](https://github.com/ethering) and [Nicola Soranzo](https://github.com/nsoranzo)
+  * [Wrappers for Scater v1.8.4](https://github.com/ethering/scater_1.8.4_wrappers), a [Single-Cell Analysis Toolkit for Gene Expression Data in R](https://bioconductor.org/packages/release/bioc/html/scater.html)
+* From [Björn Grüning](https://github.com/bgruening)
+  * If you want to test your Galaxy workflows against the [European Galaxy server](https://usegalaxy.eu/) please contribute to [UseGalaxy.eu Workflow Testing](https://github.com/usegalaxy-eu/workflow-testing) or [contact us](mailto:contact@usegalaxy.eu).
+
 
