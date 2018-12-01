@@ -25,7 +25,18 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ----
 
-# Events
+# Galaxy Help: A new Q&A site for Galaxy
+
+[<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
+
+**We are pleased to announce *[Galaxy Help](https://help.galaxyproject.org/)*, the new Galaxy Community Q&A web site.**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
+
+Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+
+*[Join the discussion](https://help.galaxyproject.org/).*
+
+
+# Event News
 
 Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events to help get you out and about.
 
@@ -59,6 +70,23 @@ This list only shows some examples. **Any topic of interest to the Galaxy Commun
 
 Training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
 
+## GCCBOSC 2018 Videos are now available
+
+<div class="float-left">[<i class="fa fa-video" style="font-size:48px; color: SteelBlue;"></i>](https://vimeo.com/channels/gccbosc2018)</div>
+
+**We are pleased to announce that videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).
+
+There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
+
+**See you next year in [Freiburg (Galaxy)](/src/events/gcc2019/index.md) and [Basel (BOSC)](https://www.iscb.org/ismbeccb2019)!**
+
+*And, taking considerably less time than the GCCBOSC 2018 videos...*
+
+## European Galaxy Days: Slides are online
+
+<div class="float-right">[<i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i>]((/src/events/2018-europe-dev/index.md)</div>
+
+Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
 
 ## Upcoming events
 
@@ -149,11 +177,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
-* **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-12-cotm-saskia-hiltemann/)**, by Marten Čech
-* **[Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm)**, by Bérénice Batut
+* **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
+* **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/src/blog/2018-11-totm/index.md)**, by Bérénice Batut
 
 ---- 
 # Who's Hiring
