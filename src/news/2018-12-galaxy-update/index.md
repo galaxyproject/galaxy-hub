@@ -168,7 +168,7 @@ This month several containers were added to the directory.  These aren't actuall
 * [deepTools](/src/use/deeptools/index.md)
 * [Exome-Seq](/src/use/exome-seq/index.md)
 * [Galaxy BLAST+](/src/use/blast/index.md)
-* [Galaxy for basic sequence manipulation](/src/use/basic-sequence-manipulation/index.md)
+* [Galaxy for basic sequence manipulation](/src/use/basic-sequence/index.md)
 * [Galaxy for Imaging](/src/use/imaging/index.md)
 * [Galaxy Genome Annotation](/src/use/gga/index.md)
 * [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md)
