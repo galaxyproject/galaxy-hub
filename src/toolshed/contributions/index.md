@@ -10,6 +10,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 
 ### 2018
 
+* [December 2018](/src/toolshed/contributions/2018-12/index.md)
 * [November 2018](/src/toolshed/contributions/2018-11/index.md)
 * [October 2018](/src/toolshed/contributions/2018-10/index.md)
 * [September 2018](/src/toolshed/contributions/2018-09/index.md)
