@@ -16,6 +16,7 @@ user_support:
 quotas:
   - "Requires that you create a login to access it."
   - "Only 4 jobs can be run simultaneously for a single user. Other jobs will be put into queue."
+  - "Only 50 jobs can be run simultaneously for all users. Other jobs will be put into queue."
   - "Jobs running over than 72hrs (after the job actually runs on the server) will automatically been terminated."
   - "Each user have a 400Gb quota."
   - "Datasets and Histories will be automatically deleted after 10 weeks."
