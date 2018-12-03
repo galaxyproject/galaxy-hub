@@ -1,7 +1,7 @@
 ---
 title: 'December 2018 Galactic News'
 tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and releases'
-date: ""
+date: "2018-12-02"
 ---
 
 [<img class="float-right" src="/src/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
@@ -14,12 +14,12 @@ The *December  2018 Galactic News* is here!  This is a summary of what is going 
   * [Nominate Topics for GCC2019 Training!](/src/news/2018-12-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
   * [GCCBOSC 2018 videos](/src/news/2018-12-galaxy-update/index.md#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/src/news/2018-12-galaxy-update/index.md#european-galaxy-days-slides-are-online) are now online
 * [170 new publications](/src/news/2018-12-galaxy-update/index.md#publications), including eight highlighted ones
-* [Galaxy Platform News](/src/news/2018-12-galaxy-update/index.md#galaxy-platforms-news): Two new public servers and eight containers added to the platform directory.
+* [Galaxy Platform News](/src/news/2018-12-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
 * Two new [Galactic Blog entries](/src/news/2018-12-galaxy-update/index.md#new-galactic-blog-posts)
-* [Open positions](/src/news/2018-12-galaxy-update/index.md#whos-hiring)
+* [16 Open positions](/src/news/2018-12-galaxy-update/index.md#whos-hiring) in 7 countries on 3 continents. 
 * [Doc, Hub, and Training Updates](/src/news/2018-12-galaxy-update/index.md#doc-hub-and-training-updates)
 * [ToolShed contributions](/src/news/2018-12-galaxy-update/index.md#toolshed-contributions)
-* [Releases](/src/news/2018-12-galaxy-update/index.md#releases) Galaxy 18.09 is released!
+* [Planemo 0.57.1](/src/news/2018-12-galaxy-update/index.md#releases) 
 * And [other news](/src/news/2018-12-galaxy-update/index.md#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -100,6 +100,73 @@ Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/i
 ## Upcoming events
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+
+<table class="table table-striped">
+<thead>
+<tr>
+  <th>Date</th>
+  <th>Topic/Event</th>
+  <th>Venue/Location</th>
+  <th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="text-nowrap">December 3rd 2018</span></td>
+  <td><a href="/events/2018-12-metaproteome">Galaxy-P @ Metaproteome Symposium 2018</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/">Helmholtz-UFZ, Leipzig Germany</a></td>
+  <td>Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">December 6th 2018</span></td>
+  <td><a href="https://docs.google.com/document/d/1sBwuWNdWVymOqajbrzp8Xg-IcPRXeBpiZz217oAieYI/edit">Molecular Dynamics and Analysis using BRIDGE</a></td>
+  <td><img style="float:right;" src="/images/icons/AF.png"/><a href="https://events.chpc.ac.za/event/33/page/35-venue">Cape Town, South Africa</a></td>
+  <td>Organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 8th 2019</span></td>
+  <td><a href="/events/2019-01-gwu">Introduction to Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>Washington, DC</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dr. Ian Toma (itoma at gwu dot edu)</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 12th 2019</span></td>
+  <td><a href="/events/2019-pag">Galaxy @ Plant &amp; Animal Genome XXVII (PAG 2019)</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.intlpag.org/">San Diego, California</a></td>
+  <td>Presenters</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 23rd 2019</span></td>
+  <td><a href="https://bluewaters.ncsa.illinois.edu/webinars/workflows/galaxy">Cloud Resource Federation for Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/GL.png"/><a href="https://bluewaters.ncsa.illinois.edu/webinars">Online</a></td>
+  <td>Enis Afgan</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 28th 2019</span></td>
+  <td><a href="/events/2019-admin-training"> **2019 Galaxy Admin Training** </a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 4th 2019</span></td>
+  <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733">Traitement de données de séquences par Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.agrocampus-ouest.fr/ecole/implantations/campus-de-rennes">AGROCAMPUS OUEST, Rennes, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sandrine Lagarrigue</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 25th 2019</span></td>
+  <td><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/">Galaxy HTS data analysis workshop</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/#venue">University of Freiburg, Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 1st 2019</span></td>
+  <td><a href="/events/gcc2019/"> **2019 Galaxy Community Conference (GCC2019)** </a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+</tbody>
+</table>
 
 
 ----
@@ -221,7 +288,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md): distributed computing engineer and a full stack developer; see this for more details on the positions: https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
@@ -291,7 +358,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* From Andrew Page at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest) 
+* From [Andrew Page](https://quadram.ac.uk/people/andrew-page/) at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest) 
   * At the [Quadram](https://quadram.ac.uk/) we will have 4 Illumina seqeuncers, 1 PromethION long read sequencer, and piles of minION sequencers. My team has 6 PhD level bioinformaticians and computer scientists, and we use Galaxy.
 * From [ELIXIR Europe](https://twitter.com/ELIXIREurope)
   * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:   
