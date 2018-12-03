@@ -207,8 +207,11 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
 * [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
+* [M2 - bio-informatique](http://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Cloud Computing Bioinformatics Programmer](Abingdon, Oxfordshire, United Kingdom) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
+* [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
 * [Platform technical support](https://euraxess.ec.europa.eu/jobs/355872),  University of Barcelona, Spain. *Experience in working and developing tools for Galaxy*
+* [Réalisation d’outils Galaxy pour l’analyse de données GCMS au sein de la Plateforme d’Exploration du Métabolisme](http://www.sfbi.fr/content/r%C3%A9alisation-d%E2%80%99outils-galaxy-pour-l%E2%80%99analyse-de-donn%C3%A9es-gcms-au-sein-de-la-plateforme-d%E2%80%99explor), INRA de Clermont Ferrand-Theix, France
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…* 
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://us-amazon.icims.com/jobs/745693/principal-technical-business-development-manager%3a-aws-research-in-biomedical/job), Amazon Web Services, United States
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
