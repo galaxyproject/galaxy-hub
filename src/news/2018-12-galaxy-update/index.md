@@ -8,7 +8,7 @@ date: ""
 
 The *December  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* [Galaxy Help: A new Q&A site for Galaxy](/src/news/2018-12-galaxy-update/index.md#galaxy-help-a-new-qa-site-for-galaxy) 
+* [Galaxy Help: A new Q&A site for Galaxy](/src/news/2018-12-galaxy-update/index.md#galaxy-help-a-new-qa-site-for-galaxy)
 * [Event News](/src/news/2018-12-galaxy-update/index.md#event-news)
   * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/src/news/2018-12-galaxy-update/index.md#2019-galaxy-admin-training-advance-registration-closes-dec-31)
   * [Nominate Topics for GCC2019 Training!](/src/news/2018-12-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
@@ -58,7 +58,7 @@ The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.m
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/). 
+Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/).
 
 Nominated topics can cover a wide range. For example:
 
@@ -112,24 +112,24 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from November.
 
-* [Laniakea: an open solution to provide Galaxy "on-demand" instances over heterogeneous cloud infrastructures](https://www.biorxiv.org/content/early/2018/11/19/472464), Marco Antonio Tangaro, Giacinto Donvito, Marica Antonacci, Matteo Chiara, Pietro Mandreoli, Graziano Pesole, Federico Zambelli. *bioRxiv* doi: 10.1101/472464 
+* [Laniakea: an open solution to provide Galaxy "on-demand" instances over heterogeneous cloud infrastructures](https://www.biorxiv.org/content/early/2018/11/19/472464), Marco Antonio Tangaro, Giacinto Donvito, Marica Antonacci, Matteo Chiara, Pietro Mandreoli, Graziano Pesole, Federico Zambelli. *bioRxiv* doi: 10.1101/472464
 * [Aequatus: an open-source homology browser](https://doi.org/10.1093/gigascience/giy128), Anil S Thanki, Nicola Soranzo, Javier Herrero, Wilfried Haerty, Robert P Davey. *GigaScience*, Volume 7, Issue 11, 1 November 2018, giy128, doi: 10.1093/gigascience/giy128
 * [Automatic generation of bioinformatics tools for predicting protein–ligand binding sites](https://doi.org/10.1093/bioinformatics/btv593), Yusuke Komiyama, Masaki Banno, Kokoro Ueki, Gul Saad, Kentaro Shimizu. *Bioinformatics*, Volume 32, Issue 6, 15 March 2016, Pages 901–907, doi:10.1093/bioinformatics/btv593
 * [Workflow-based automatic processing for Internet of Floating Things crowdsourced data](https://doi.org/10.1016/j.future.2018.11.025), Raffaele Montella, Diana Di Luccioa, Livia Marcellino, Ardelio Galletti, Sokol Kosta, Giulio Giunta, Ian Foster. *Future Generation Computer Systems*, Volume 94, May 2019, Pages 103-119 doi: 10.1016/j.future.2018.11.025
 * [FAIRness and Usability for Open-Access Omics Data Systems](https://ntrs.nasa.gov/search.jsp?R=20180007593),  Daniel C. Berrios, Afshin Beheshti, Sylvain V. Costes. AMIA 2018 Annual Symposium
 * [SyNDI: synchronous network data integration framework](https://doi.org/10.1186/s12859-018-2426-5), Erno Lindfors, Jesse C. J. van Dam, Carolyn Ming Chi Lam, Niels A. Zondervan, Vitor A. P. Martins dos Santos and Maria Suarez-Diez. *BMC Bioinformatics* 201819:403 doi: 10.1186/s12859-018-2426-5
-* [Satellite DNAs Unveil Clues about the Ancestry and Composition of B Chromosomes in Three Grasshopper Species](https://doi.org/10.3390/genes9110523), Diogo Milani, Vanessa B. Bardella, Ana B. S. M. Ferretti, Octavio M. Palacios-Gimenez, Adriana de S. Melo, Rita C. Moura, Vilma Loreto, Hojun Song and Diogo C. Cabral-de-Mello.  *Genes* 2018, 9(11), 523; doi: 10.3390/genes9110523 
+* [Satellite DNAs Unveil Clues about the Ancestry and Composition of B Chromosomes in Three Grasshopper Species](https://doi.org/10.3390/genes9110523), Diogo Milani, Vanessa B. Bardella, Ana B. S. M. Ferretti, Octavio M. Palacios-Gimenez, Adriana de S. Melo, Rita C. Moura, Vilma Loreto, Hojun Song and Diogo C. Cabral-de-Mello.  *Genes* 2018, 9(11), 523; doi: 10.3390/genes9110523
 * [FAIR  Bioinformatics  computation  and  data  management:  FAIRDOM  and  the Norwegian Digital Life initiative](https://www.research.manchester.ac.uk/portal/files/70129474/NETTAB2018_paper_8.pdf), Natalie J Stanford, Finn Bacall, Fatemeh Zamanzad Ghavidel, Martin Golebiewski, Inge Jonassen, Rune Kleppe, Olga Krebs, Hadas Leonov, Stuart Owen, Kjell Petersen, Maja Rey, Stian Soiland-Reyes, Kidane Tekle, Andreas Weidemann, Alan Williams, Ulrike Wittig, Katy Wolstencroft, Anders Goksøyr, Jacky L. Snoep, Jon Olav Vik, Wolfgang Müller and Carole Goble. NETTAB 2018
 
 Seven out of eight of these papers are open access.
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 109 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 40 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 22 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
+| 109 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 40 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 22 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) |
+| 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) |
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) |
 | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
 
 ----
@@ -179,15 +179,15 @@ All of these are Docker containers.
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
-| 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | | 2 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Nebula) | 
-| 2 | [>PIPE-CLIP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PIPE-CLIP) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UTProt](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UTProt) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | 
-| 1 | [>BioBix](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioBix) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CBIB) | | 1 | [>ChemFlow](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ChemFlow) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | 
-| 1 | [>CTMM-TRAIT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CTMM-TRAIT) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>FACE-IT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FACE-IT) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GeneLab) | 
-| 1 | [>Laniakea](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Laniakea) | | 1 | [>NeLS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NeLS) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NGS-QC) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | 
-| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pitagora) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | 
+| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) |
+| 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | | 2 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Nebula) |
+| 2 | [>PIPE-CLIP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PIPE-CLIP) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UTProt](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UTProt) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) |
+| 1 | [>BioBix](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioBix) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CBIB) | | 1 | [>ChemFlow](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ChemFlow) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) |
+| 1 | [>CTMM-TRAIT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CTMM-TRAIT) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>FACE-IT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FACE-IT) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GeneLab) |
+| 1 | [>Laniakea](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Laniakea) | | 1 | [>NeLS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NeLS) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NGS-QC) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) |
+| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pitagora) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) |
 | 1 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | 1 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | | | | | | |
 ----
 
@@ -199,7 +199,7 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
 * **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/src/blog/2018-11-totm/index.md)**, by Bérénice Batut
 
----- 
+----
 # Who's Hiring
 
 <div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
@@ -212,7 +212,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
 * [Platform technical support](https://euraxess.ec.europa.eu/jobs/355872),  University of Barcelona, Spain. *Experience in working and developing tools for Galaxy*
 * [Réalisation d’outils Galaxy pour l’analyse de données GCMS au sein de la Plateforme d’Exploration du Métabolisme](http://www.sfbi.fr/content/r%C3%A9alisation-d%E2%80%99outils-galaxy-pour-l%E2%80%99analyse-de-donn%C3%A9es-gcms-au-sein-de-la-plateforme-d%E2%80%99explor), INRA de Clermont Ferrand-Theix, France
-* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…* 
+* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://us-amazon.icims.com/jobs/745693/principal-technical-business-development-manager%3a-aws-research-in-biomedical/job), Amazon Web Services, United States
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
@@ -245,7 +245,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 * New [Mass spectrometry imaging 1: Loading and exploring MSI data](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
 * New [Introduction to Metabolomics slides](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) by [Gildas Le Corguillé](https://github.com/lecorguille) and Cécile Canlet
 * New Tutorials on [how to Teach and Host Galaxy Training](https://galaxyproject.github.io/training-material/topics/instructors/) by [Bérénice Batut](https://github.com/bebatut), [Helena Rasche](https://github.com/erasche), and [Saskia Hiltemann](https://github.com/shiltemann):
-  * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html) 
+  * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html)
   * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
   * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
   * [UseGalaxy.eu's Training Infrastructure as a Service](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html)
@@ -254,6 +254,8 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 And a few enhancements to the [training materials website](https://galaxyproject.github.io/training-material/)
 
 * **[Automatic translation of tutorials](https://github.com/galaxyproject/training-material/pull/1131) into 5 languages** (français, 日本語, Español, Português, and العربية), by [Bérénice Batut](https://github.com/bebatut).
+* A new [Learning Paths](https://github.com/galaxyproject/training-material/pull/1149) feature was implemented by [Bérénice Batut](https://github.com/bebatut) to show a list of recommended follow-up tutorials at the end of the hands-on training manuals.
+* [Training Philosophies](https://github.com/galaxyproject/training-material/pull/1146) added by [Helena Rasche](https://github.com/erasche). We all teach Galaxy in different ways depending on our audience, surroundings, culture and preferences. Instructors can now share their own training stories and read about those of others. Add your own [here](https://github.com/galaxyproject/training-material/issues/1056)!
 * More flexible [training material hosting and incremental build support](https://github.com/galaxyproject/training-material/pull/968) by [Mehmet Tekman](https://github.com/mtekman)
 * Site search [searches the entire TeSS catalog of training materials](https://github.com/galaxyproject/training-material/pull/1137) (which includes all of the Galaxy Training materials).
 
@@ -291,10 +293,10 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* From Andrew Page at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest) 
+* From Andrew Page at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest)
   * At the [Quadram](https://quadram.ac.uk/) we will have 4 Illumina seqeuncers, 1 PromethION long read sequencer, and piles of minION sequencers. My team has 6 PhD level bioinformaticians and computer scientists, and we use Galaxy.
 * From [ELIXIR Europe](https://twitter.com/ELIXIREurope)
-  * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:   
+  * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:
 * From [Graham Etherington](https://github.com/ethering) and [Nicola Soranzo](https://github.com/nsoranzo)
   * [Wrappers for Scater v1.8.4](https://github.com/ethering/scater_1.8.4_wrappers), a [Single-Cell Analysis Toolkit for Gene Expression Data in R](https://bioconductor.org/packages/release/bioc/html/scater.html)
 * From [Björn Grüning](https://github.com/bgruening)
