@@ -208,7 +208,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 
 * [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
 * [M2 - bio-informatique](http://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
-* [Cloud Computing Bioinformatics Programmer](Abingdon, Oxfordshire, United Kingdom) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
+* [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
 * [Platform technical support](https://euraxess.ec.europa.eu/jobs/355872),  University of Barcelona, Spain. *Experience in working and developing tools for Galaxy*
 * [Réalisation d’outils Galaxy pour l’analyse de données GCMS au sein de la Plateforme d’Exploration du Métabolisme](http://www.sfbi.fr/content/r%C3%A9alisation-d%E2%80%99outils-galaxy-pour-l%E2%80%99analyse-de-donn%C3%A9es-gcms-au-sein-de-la-plateforme-d%E2%80%99explor), INRA de Clermont Ferrand-Theix, France
@@ -221,7 +221,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md) (and [see this for more details on software engineer posisitons](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/)), Baltimore, Maryland, United States
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md): distributed computing engineer and a full stack developer; see this for more details on the positions: https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
