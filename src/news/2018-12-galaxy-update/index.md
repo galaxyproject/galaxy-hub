@@ -215,7 +215,7 @@ The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with ma
 
 ## Laniakea / INDIGO-DataCloud
 
-[Laniakea](https://www.indigo-datacloud.eu/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea-indigo-datacloud/indesx.md) for full details.
+[Laniakea](https://www.indigo-datacloud.eu/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea-indigo-datacloud/index.md) for full details.
 
 [<img class="float-left" src="/src/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
 
