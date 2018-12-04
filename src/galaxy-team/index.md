@@ -82,6 +82,11 @@ Qiang Gu<br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
+<a href='/src/people/almahmoud/index.md'><img src="/src/galaxy-team/almahmoud.jpg" alt="Alexandru Mahmoud" height="150" /></a><br />
+[Alexandru Mahmoud](/src/people/almahmoud/index.md)<br />
+[Johns Hopkins](http://www.jhu.edu) <br /> <br />
+</div>
+<div class='col-md-3'>
 <a href='/src/people/anton/index.md'><img src="/src/galaxy-team/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/people/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
