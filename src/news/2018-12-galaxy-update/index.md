@@ -211,7 +211,7 @@ The [Galaxy Platform Directory](/src/use/index.md) was launched lat month.  It l
 
 The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/src/use/biobix/index.md) for more details.
 
-[<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](http://galaxy.ugent.be/)
+[<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/src/use/laniakea-indigo-datacloud/index.md)
 
 ## Laniakea / INDIGO-DataCloud
 
