@@ -57,3 +57,31 @@ In general, to use this API, `POST` the following payload to `/api/cloud/storage
 
 The `send` API allows a user to copy data from a Galaxy `history` to a cloud-based storage (e.g., Amazon S3, and 
 Microsoft Azure BLOB).
+
+In general, to use this API, `POST` the following payload to `/api/cloud/storage/send`:
+
+    {
+        "history_id": "...",
+        "authz_id": "...",
+        "bucket": "..."
+    }
+
+Using this payload, Galaxy will `send` **all** the datasets in the given `history` to the cloud-based storage 
+as defined by `authz_id`. Optionally one can define a list of datasets in the `history` using `dataset_ids` 
+key. 
+
+Galaxy will then return a JSON object similar to the following that informs two datasets (i.e., `rep1.bed` and 
+`rep2.bed`) are successfully queued to be sent to the cloud-based storage.
+
+
+    {
+        "sent_dataset_labels": [
+            "{\"object\": \"rep1.bed\", \"job_id\": \"3f5830403180d620\"}",
+            "{\"object\": \"rep2.bed\", \"job_id\": \"e85a3be143d5905b\"}"
+        ],
+        "bucket_name": "...",
+        "failed_dataset_labels": []
+    }
+
+[Read this page](/src/cloud/storage/send_step_by_step.md) for step-by-step description on how to use this API.
+
