@@ -37,7 +37,19 @@ communication with Galaxy APIs; however, for demonstration reason only we use [P
 The `get` API allows a user to copy data from a cloud-based storage (e.g., Amazon S3, and Microsoft Azure BLOB)
 to a specified Galaxy `history`. 
 
-In general, to use this API, `POST` the following payload to `/api/cloud/storage/get`:
+
+In general, to use this API, `POST` a payload with following fields to `/api/cloud/storage/get`.
+
+
+| key          | required | description |
+|--------------|----------|-------------|
+| `history_id` | ✔        | The ID of a `history` to which data should be copied from cloud. |
+| `authz_id`   | ✔        | The ID of a cloud authorization record to be used to _read_ data from cloud. (see [this page](/src/cloud/authnz/index.md))|
+| `bucket`     | ✔        | The name of a bucket from which data should be read. |
+| `objects`    | ✔        | A list of objects from the `bucket` that should be copied to Galaxy. |
+
+
+A sample payload:
 
     {
         "history_id": "...",
@@ -58,30 +70,38 @@ In general, to use this API, `POST` the following payload to `/api/cloud/storage
 The `send` API allows a user to copy data from a Galaxy `history` to a cloud-based storage (e.g., Amazon S3, and 
 Microsoft Azure BLOB).
 
-In general, to use this API, `POST` the following payload to `/api/cloud/storage/send`:
+In general, to use this API, `POST` a payload with the following fields `/api/cloud/storage/send`.
+
+
+| key                  | required | description |
+|----------------------|----------|-------------|
+| `history_id`         | ✔        | The ID of a `history` from which data should be copied to cloud.|
+| `authz_id`           | ✔        | The ID of a cloud authorization record to be used to _write_ data to cloud. (see [this page](/src/cloud/authnz/index.md))            |
+| `bucket`             | ✔        | The name of a bucket to which data should be written.|
+| `dataset_ids`        |          | A list of encoded dataset IDs belonging to the specified history that should be sent to the given bucket. If not provided, Galaxy sends all the datasets belonging the specified history.|
+| `overwrite_existing` |          | A boolean value. If set to "True", and an object with same name of the dataset to be sent already exist in the bucket, Galaxy replaces the existing object with the dataset to be sent. If set to "False", Galaxy appends datetime to the dataset name to prevent overwriting an existing object.            |
+
+A sample payload:
 
     {
         "history_id": "...",
         "authz_id": "...",
         "bucket": "..."
     }
-
-Using this payload, Galaxy will `send` **all** the datasets in the given `history` to the cloud-based storage 
-as defined by `authz_id`. Optionally one can define a list of datasets in the `history` using `dataset_ids` 
-key. 
-
-Galaxy will then return a JSON object similar to the following that informs two datasets (i.e., `rep1.bed` and 
-`rep2.bed`) are successfully queued to be sent to the cloud-based storage.
-
+    
+Or:
 
     {
-        "sent_dataset_labels": [
-            "{\"object\": \"rep1.bed\", \"job_id\": \"3f5830403180d620\"}",
-            "{\"object\": \"rep2.bed\", \"job_id\": \"e85a3be143d5905b\"}"
+        "history_id": "03501d7626bd192f",
+        "authz_id": "f2db41e1fa331b3e",
+        "bucket": "vahid-objectstore-tests",
+        "dataset_ids": [
+            "0a248a1f62a0cc04",
+            "03501d7626bd192f"
         ],
-        "bucket_name": "...",
-        "failed_dataset_labels": []
+        "overwrite_existing": true
     }
+
 
 [Read this page](/src/cloud/storage/send_step_by_step.md) for step-by-step description on how to use this API.
 
