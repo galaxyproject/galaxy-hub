@@ -75,6 +75,21 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 * [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, The [Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md) and [James Taylor](/src/people/james-taylor/index.md). **[Web-based visual analysis for high-throughput genomics](http://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-397)**. *BMC Genomics* (2013) 14:397 doi:10.1186/1471-2164-14-397
 
+
+## Citing Galaxy Web Resources
+
+If you want to cite a particular URL on a Galaxy web site, see the [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else.
+
+If you want to include a general Galaxy URL, we encourage you to use one of these:
+
+* The project as a whole:
+  * http://galaxyproject.org/
+* Direct people here for information on how to download and configure your own local installation:
+  * http://getgalaxy.org/
+* Using or referring to any of the [public Galaxy platforms](/src/use/index.md):
+  * Please include the name, URL, and primary publication for the server.
+
+
 ## Galaxy Project Publications by Year
 
 Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md) as authors.
@@ -239,23 +254,6 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 
 1. Giardine B, Riemer C, Hardison RC, Burhans R, Elnitski L, Shah P, Zhang Y, [Blankenberg D](/src/people/dan/index.md), Albert I, [Taylor J](/src/people/james-taylor/index.md), Miller W, Kent WJ, [Nekrutenko A](/src/people/anton/index.md). "[Galaxy: a platform for interactive large-scale genome analysis](http://genome.cshlp.org/content/15/10/1451.long)." *Genome Research*. 2005 Oct; 15(10):1451-5.
 
-## Citing Galaxy Web Resources
-
-If you want to cite a particular URL on a Galaxy web site, see the [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else.
-
-If you want to include a general Galaxy URL, we encourage you to use one of these:
-
- The project as a whole:
-  http://galaxyproject.org/
-
- If you used the public galaxy server ("[Main](/src/main/index.md)") to do analysis:
-  http://usegalaxy.org/
-
- Direct people here for information on how to download and configure your own local installation:
-  http://getgalaxy.org/
-
- Using or referring to any of the [public Galaxy server instances](/src/use/index.md):
-  Please include the name, URL, and primary publication for the server.
 
 ## Citations
 
