@@ -18,8 +18,8 @@ To use this method a user needs to take the following steps:
 1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/src/admin/authentication/index.md) for details;
 2. Setup a provider-specific _cloud authorization_ in Galaxy:
 
-	2.1. read [how to setup cloud authorization for AWS]();
+	2.1. read [how to setup cloud authorization for AWS](/src/cloud/authnz/aws.md);
 
-	2.2. read [how to setup cloud authorization for Azure]().
+	2.2. read [how to setup cloud authorization for Azure](/src/cloud/authnz/azure.md).
 
 
