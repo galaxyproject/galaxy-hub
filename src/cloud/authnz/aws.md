@@ -2,7 +2,7 @@
 
 On this page we explain how to setup a *role* on AWS, and how to setup Galaxy to assume that *role*. 
 
-## Create an AWS Role
+## Step 1: Create an AWS Role
 
 1. Goto [aws.amazon.com/iam/](https://aws.amazon.com/iam/) and login with your AWS credentials. 
 2. If not on IAM page, click on `Services` button and type `IAM` in the search textbox, and choose the shown
@@ -36,7 +36,7 @@ click on the `Create role` button.
 
 (You may also refer to AWS documentation [on creating roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp.html).)
 
-## Setup Galaxy to Use the Role
+## Step 2: Setup Galaxy to Use an AWS Role
 
 To setup Galaxy to use a role, you need to `POST` a payload as the following to 
 `/api/cloud/authz` API of Galaxy: 
@@ -53,6 +53,8 @@ To setup Galaxy to use a role, you need to `POST` a payload as the following to
 You can obtain `authn_id` by submitting a `GET` request to the `/api/authnz/` API. 
 
 
-**Note that the `provider` of authentication refered to by the `authn_id` you choose, must be 
+
+> **NOTE** that the `provider` of authentication refered to by the `authn_id` you choose, must be 
 Google (or any provider you chose when creating AWS role) and the audience ID of Galaxy instance 
-on which you are using this feature, must equal with auidence you entered when creating the role.**
+on which you are using this feature, must equal with auidence you entered when creating the role.
+
