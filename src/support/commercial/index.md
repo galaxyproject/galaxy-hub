@@ -46,18 +46,7 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your microbial genomics data
 
 
-# Onsite Turnkey Servers
-
-## BioTeam Appliance: Galaxy Edition
-
-The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-appliance/) is 
-
-[<img class="float-right" src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" />](http://www.bioteam.net/products/galaxy-appliance/)
-
-<blockquote>
-a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
-</blockquote>
-
+# Onsite Turnkey Systems
 
 ## Takeru Galaxy
 
