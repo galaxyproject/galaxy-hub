@@ -202,11 +202,14 @@ A sequence in `FASTA` format consists of a single title line and one or more
 lines of sequence data wrapped to a consistent length. The first character of
 the title line is a greater-than (">") symbol.
 
-<pre>>sequence1 atgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc
-gtcggtttcgttgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc atgcgtttgcgtgc
+<pre>>sequence1 
+atgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc
+gtcggtttcgttgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc
+atgcgtttgcgtgc
 >sequence2
 tttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatag
-tttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatag tggcgcggt</pre>
+tttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatagtttcgtgcgtatag
+tggcgcggt</pre>
 
 #### Galaxy FASTA format rules:
 
