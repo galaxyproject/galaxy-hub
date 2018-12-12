@@ -1,4 +1,6 @@
-# Cloud Storage API
+---
+title: "Cloud Storage API"
+---
 
 Galaxy allows a user to `get` /`send` data from/to a cloud-based storage, a functionality that is exposed via 
 two APIs:
@@ -62,7 +64,7 @@ A sample payload:
         ]
     }
 
-[Read this page](/src/cloud/storage/get_step_by_step.md) for step-by-step description on how to use this API.
+[Read this page](/src/cloud/storage/get_step_by_step/index.md) for step-by-step description on how to use this API.
     
 
 ## `Send` Data to Cloud
@@ -103,5 +105,5 @@ Or:
     }
 
 
-[Read this page](/src/cloud/storage/send_step_by_step.md) for step-by-step description on how to use this API.
+[Read this page](/src/cloud/storage/send_step_by_step/index.md) for step-by-step description on how to use this API.
 
