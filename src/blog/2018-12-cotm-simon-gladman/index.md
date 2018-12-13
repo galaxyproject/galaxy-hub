@@ -34,7 +34,7 @@ My favourite feature is hard to pick. There are so many. I love the re-run butto
 
 *What projects are you working on now?*
 
-I’m currently one of the administrators of Galaxy Australia and have been getting our server to spread it’s compute load around our large and sparsely populated country. :) I’m also working on adding more tools and data to Galaxy.
+I’m currently one of the administrators of Galaxy Australia and have been getting our server to spread its compute load around our large and sparsely populated country. :) I’m also working on adding more tools and data to Galaxy.
 
 I still get to work on research projects for microbiology in public and oral health too.
 
@@ -52,7 +52,7 @@ The project is very much a work in progress but we have set up a globally shared
 
 *What is your vision for the usegalaxy.org.au and the Galaxy project itself for the next years?*
 
-In the short term, our plans for usegalaxy.org.au are to increase it’s compute resources by distributing them around the country via a network of Pulsar nodes and the introduction of cloud-bursting capabilities. We plan on supporting a much larger set of tools for areas like single cell analyses, long read technologies and other omics such as metabolomics and proteomics. We also plan to synchronize our toolset with Galaxy Europe and Galaxy Main.
+In the short term, our plans for usegalaxy.org.au are to increase its compute resources by distributing them around the country via a network of Pulsar nodes and the introduction of cloud-bursting capabilities. We plan on supporting a much larger set of tools for areas like single cell analyses, long read technologies and other omics such as metabolomics and proteomics. We also plan to synchronize our toolset with Galaxy Europe and Galaxy Main.
 
 Our ultimate goal is to be able to use our Galaxy servers and infrastructure to support the concept of “single sign on” for Galaxy. We would have federated Galaxy web servers supported by a globally distributed backend. Where a user anywhere in the world can login to Galaxy and have their jobs run on infrastructure close to where their data is located. For example, if a user in Australia logs in to the global server, their jobs will be run on Australian infrastructure and their data stored locally to them. Similar for users elsewhere.
 
