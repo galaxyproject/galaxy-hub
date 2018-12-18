@@ -1,5 +1,5 @@
 ---
-title: 'Galaxy in Google Summer of Code 2019'
+title: 'Galaxy and Google Summer of Code 2019'
 tease:  "Projects Wanted"
 date: '2018-12-18'
 ---
