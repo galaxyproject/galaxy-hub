@@ -93,7 +93,7 @@ Like any other application, Galaxy directories and Galaxy database tables should
 
 ## Configure for production
 
-The above instructions are intended for users wishing to develop Galaxy tools and Galaxy itself. To deploy a production-ready installation of Galaxy, some changes from the default configuration are highly recommended. If nothing else, switching to PostgreSQL or MySQL (from the default SQLite) is heavily endorsed to prevent database locking issues that can arise with multiple users.
+The above instructions are intended for users wishing to develop Galaxy tools and Galaxy itself. To deploy a production-ready installation of Galaxy, some changes from the default configuration are highly recommended. If nothing else, switching to PostgreSQL database (from the default SQLite) is heavily endorsed to prevent database locking issues that can arise with multiple users.
 
 Please see the [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md) page for more details.
 
