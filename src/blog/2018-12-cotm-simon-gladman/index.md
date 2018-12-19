@@ -42,7 +42,7 @@ I still get to work on research projects for microbiology in public and oral hea
 
 Dive in! Everyone here is really friendly and so welcoming to new people. Certainly don’t be afraid to ask questions. If possible, try and come to the Galaxy Community Conference and associated codefests as you will get to meet everyone, have a beer (or other beverage) with them and talk about ideas and efforts.
 
-*Could you please tell us about usegalaxy.\* efforts?*
+*Could you please tell us about `usegalaxy.*` efforts?*
 
 The UseGalaxy servers are publicly accessible Galaxy servers that will support a common and synchronized set of tools and reference genomes. These servers have significant computational resources behind them and are capable of powering large user communities. Some may have a regional focus with locally interesting tools and reference genomes, but they are all accessible to anyone.
 
