@@ -62,9 +62,19 @@ There will be a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441
 
 See the [Galaxy @ PAG 2019](/src/events/2019-pag/index.md) page for a complete list.
 
+## Galaxy needs your Google Summer of Code Project suggestions
+
+[<img class="float-left" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/news/2018-12-gsoc/index.md)
+
+Galaxy will be applying to participate in the [2019 Google Summer of Code](https://summerofcode.withgoogle.com/).  We will again be participating as part of the **[Open Genome Informatics Group](http://gmod.org/wiki/GSoC)** that also includes [Bioconda](https://bioconda.github.io/), [GMOD](http://gmod.org/), [Reactome](https://reactome.org), [MGI](http://www.informatics.jax.org/), [OICR](https://oicr.on.ca/research-portfolio/), and [WormBase](http://www.wormbase.org/).
+
+We are currently building our group's proposal.  If you have an idea for a project that you would be interested in mentoring someone for, then please add it to the proposal, either [directly on this page](http://gmod.org/wiki/GSOC_Project_Ideas_2019) (requires an account), of via this [online form](http://bit.ly/gsoc-2019-ogi-propose).
+
+The deadline for submitting your project proposals is February 1.
+
 ## Nominate Topics for GCC2019 Training!
 
-[<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
+[<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
@@ -83,6 +93,16 @@ Nominated topics can cover a wide range. For example:
 This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
 Training nomination is open from **January, 1st** to **January, 31**. Topics will be compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+
+## GalaxyAdmins needs your topic suggestions
+
+[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+
+After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-02-28/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+
+**But, before we start meeting next year, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
+
+Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform)**
 
 ## Upcoming events
 
