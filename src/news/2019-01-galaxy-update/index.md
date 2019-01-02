@@ -112,16 +112,31 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**XXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
+**80 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
 
 ## Highlighted Publications
 
-*[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from December.
+*[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from December:
 
+* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
+doi: 10.1101/488643 
+* **[PhenoMeNal: Processing and analysis of Metabolomics data in the Cloud](https://doi.org/10.1093/gigascience/giy149)**,
+Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
+* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/src/people/vahid-jalili/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), *bioRxiv* 506238, doi: 10.1101/506238 
+* **[SkeletalVis: an exploration and meta-analysis data portal of cross-species skeletal transcriptomics data](https://doi.org/10.1093/bioinformatics/bty947
+)**, Jamie Soul, Tim E Hardingham, Ray P Boot-Handford, Jean-Marc Schwartz, *Bioinformatics*, bty947, doi: 10.1093/bioinformatics/bty947
 
-XXXX out of YYYYY of these papers are open access.
+All of the highlighted papers are open access.
 
 ## Publication Topics
+
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 23 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 11 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
+| 8 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
+| 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 2 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
+| 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | | | | |
+
 
 ----
 
@@ -152,6 +167,13 @@ This isn't new in the world, but it is new in the Galaxy Platform Directory: A [
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | 
+| 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | 
+| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CRAVAT-P) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
+| 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IGGalaxy) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | | 1 | [>MPDSTB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSTB) | 
+| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SkeletalVis](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SkeletalVis) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
 
 ----
 
