@@ -9,13 +9,12 @@ date: ""
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
-  * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training-advance-registration-closes-dec-31)
-  * [Nominate Topics for GCC2019 Training!](/src/news/2019-01-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
-  * [GCCBOSC 2018 videos](/src/news/2019-01-galaxy-update/index.md#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/src/news/2019-01-galaxy-update/index.md#european-galaxy-days-slides-are-online) are now online
-* [170 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including eight highlighted ones
-* [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
-* Two new [Galactic Blog entries](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)
-* [16 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 7 countries on 3 continents. 
+  * [2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)
+  * [Vote on Topics for GCC2019 Training!](/src/news/2019-01-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
+* [XXX new publications](/src/news/2019-01-galaxy-update/index.md#publications), including eight highlighted ones
+* [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services added to the platform directory.
+* One new [Galactic Blog entry](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)
+* [16 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
 * [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates)
 * [ToolShed contributions](/src/news/2019-01-galaxy-update/index.md#toolshed-contributions)
 * [Planemo 0.57.1](/src/news/2019-01-galaxy-update/index.md#releases) 
@@ -76,11 +75,9 @@ The deadline for submitting your project proposals is February 1.
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
-
-Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/).
 
 Nominated topics can cover a wide range. For example:
 
@@ -92,7 +89,9 @@ Nominated topics can cover a wide range. For example:
 
 This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
-Training nomination is open from **January, 1st** to **January, 31**. Topics will be compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+Training nomination was open from **December, 1st** to **December, 31**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+
+Please give some thought to what topics you would like to see offered, or that you would like to offer, and start voting on January, 15th. 
 
 ## GalaxyAdmins needs your topic suggestions
 
@@ -227,7 +226,6 @@ And we would especially like to welcome new contributors [Anup Kumar](https://gi
 
 ## Hub
 
-* [Galaxy Federation](/src/federation/index.md), by [Enis Afgan](/src/people/enis-afgan/index.md)
 
 ---
 
@@ -254,3 +252,21 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
+## Galaxy Help: The new Q&A site for Galaxy
+
+[<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
+
+**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
+
+Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+
+*[Join the discussion](https://help.galaxyproject.org/).*
+
+
+## GCCBOSC 2018 Videos are now available
+
+**Videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).  There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
+
+## European Galaxy Days: Slides are online
+
+Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
