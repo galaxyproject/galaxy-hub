@@ -18,6 +18,7 @@ user_support:
 - "[Documentation](https://laniakea.readthedocs.io)"
 - "[Contact us](mailto:laniakea.helpdesk@gmail.com)"
 - "[Github issue](https://github.com/Laniakea-elixir-it/elixir-italy-science-gateway/issues)"
+- "[Demo Video](https://www.youtube.com/watch?v=rub3skcs84Q)"
 quotas:
 - "To be defined"
 citations:

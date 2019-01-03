@@ -167,6 +167,17 @@ The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) suppor
 
 This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](src/use/chip-seq-docker/index.md).
 
+## Other Platform News
+
+**Galaxy-P**
+
+The [Galaxy-P](/src/use/galaxy-p/index.md) team has compiled all their talks, workshops, and posters from 2018 (and there were a lot of them) in this [handy list](http://galaxyp.org/conference-presentations/).  Tim Griffin and Pratik Jagtap will also be [presenting at PAG this month](/src/events/2019-pag/index.md).
+
+**usegalaxy.org.au**
+
+The [Australian Environmental Microbiome Research Data Cloud Project](https://bioscience-rdc.blogspot.com/2018/12/functions-are-live.html) is now complete and is live on the Bioplatforms Australia Data Portal and [Galaxy Australia](https://usegalxy.org.au/).
+
+
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
@@ -232,7 +243,7 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 * New [Visualization of RNA-Seq results with Volcano Plot tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html), by [Maria Doyle](https://github.com/mblue9)
 * New [Visualization of RNA-Seq results with heatmap2 tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html), [Maria Doyle](https://github.com/mblue9)
-* New [Small Non-coding RNA Clustering using BlockClust tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/tutorial.html), by [Peter van Heusden](https://github.com/pvanheus/)
+* New [Small Non-coding RNA Clustering using BlockClust tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/tutorial.html), by [Pavankumar Videm](https://github.com/pavanvidem)
 
 ## Hub
 
@@ -283,10 +294,12 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418), by [Anup Kumar](https://twitter.com/musafirtweetsz)
-* From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol) on Twitter:
+* From [Anup Kumar](https://twitter.com/musafirtweetsz) on Twitter
+  * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418)
+* From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol/status/1075893609629503488) on Twitter:
   * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules 
-* There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
+* From RC Carter:
+  * There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
 * [The times when you couldn't use emoji to tag Galaxy datasets are past. Behold!](https://twitter.com/galaxyproject/status/1070415381645455360)
 
 ## Galaxy Help: The new Q&A site for Galaxy
