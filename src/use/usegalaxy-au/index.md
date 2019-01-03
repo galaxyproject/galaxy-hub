@@ -11,6 +11,7 @@ image: "/src/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/main/index.md) for more."
 user_support:
+  - "[Training Materials](https://galaxy-au-training.github.io/tutorials/)"
   - "[Support](/src/support/index.md)"
   - "[Email (Igor Makunin and Derek Benson)]https://usegalaxy.org.au/galaxy)"
   - "[@GVL_QLD on Twitter](https://twitter.com/GVL_QLD)"
