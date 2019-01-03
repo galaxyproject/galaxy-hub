@@ -11,3 +11,8 @@ external_url: "http://z.umn.edu/mumbaidocs"
 contact: "Pratik Jagtap"
 gtn: true
 ---
+
+Documents:
+
+* [Slides](http://z.umn.edu/mumbaislides)
+* [Tutorial](http://z.umn.edu/mumbaidocs)

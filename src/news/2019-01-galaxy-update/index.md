@@ -74,7 +74,7 @@ We are currently building our group's proposal.  If you have an idea for a proje
 
 The deadline for submitting your project proposals is February 1.
 
-## Nominate Topics for GCC2019 Training!
+## GCC2019 Training Topic Nomination Extended to 15 January
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
@@ -92,7 +92,7 @@ Nominated topics can cover a wide range. For example:
 
 This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
-Training nomination was open from **December, 1st** to **December, 31**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+Training nomination has been extended to **15th January**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
 Please give some thought to what topics you would like to see offered, or that you would like to offer, and start voting on January, 15th. 
 
@@ -198,13 +198,14 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [assemblage et annotation des génomes](https://www.sfbi.fr/content/assemblage-et-annotation-des-g%C3%A9nomes), Faculté des Sciences et Techniques, Tours, France
 * [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
 * [M2 - bio-informatique](http://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
-* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
+* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://www.amazon.jobs/en/jobs/745693/principal-technical-business-development-manager-aws-research-in-biomedical), Amazon Web Services, United States
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
@@ -224,15 +225,23 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 Here some significant activity from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in December, and the Hub as well:
 
-## Training Materials
+## GTN Training Materials
 
 [<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
+* New [Visualization of RNA-Seq results with Volcano Plot tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html), by [Maria Doyle](https://github.com/mblue9)
+* New [Visualization of RNA-Seq results with heatmap2 tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html), [Maria Doyle](https://github.com/mblue9)
+* New [Small Non-coding RNA Clustering using BlockClust tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/small_ncrna_clustering/tutorial.html), by [Peter van Heusden](https://github.com/pvanheus/)
 
 ## Hub
 
 * [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Securely Authorize Galaxy to Access Protected Data on Cloud ](/src/cloud/authnz/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
+## Other Training Materials and Doc
+
+* [Tackling Analytical challenges in Cancer proteogenomics using Galaxy framework tutorial](http://z.umn.edu/mumbaidocs) and [slides](http://z.umn.edu/mumbaislides), by Pratik Jagtap, first presented at the [Cancer Proteogenomics Workshop](http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/), in Pune, India
+* [Genomics: gentle introduction to genomic data analysis with Galaxy](http://guides.uflib.ufl.edu/c.php?g=147545&p=6481743), a set of videos by Joe Wu at the University of Florida
 
 ---
 
@@ -274,7 +283,10 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 # Other News
 
 * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418), by [Anup Kumar](https://twitter.com/musafirtweetsz)
-
+* From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol) on Twitter:
+  * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules 
+* There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
+* [The times when you couldn't use emoji to tag Galaxy datasets are past. Behold!](https://twitter.com/galaxyproject/status/1070415381645455360)
 
 ## Galaxy Help: The new Q&A site for Galaxy
 
