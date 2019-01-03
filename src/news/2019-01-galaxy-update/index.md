@@ -11,7 +11,7 @@ The *January  2019 Galactic News* is here!  This is a summary of what is going o
 * [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
   * [2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)
   * [Vote on Topics for GCC2019 Training!](/src/news/2019-01-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
-* [XXX new publications](/src/news/2019-01-galaxy-update/index.md#publications), including eight highlighted ones
+* [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including four highlighted ones
 * [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services added to the platform directory.
 * One new [Galactic Blog entry](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)
 * [16 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
@@ -26,9 +26,12 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # Event News
 
-Tired of sitting in the same old *time zone* ?  Here are some upcoming events to help get you out and about.
+<div class="float-right">
+<img style="max-width: 460px" src="/src/events/admin-training2016/2016-admin-training-feedback-cloud.png" alt="Feedback from 2016 Admin Training Participants" />
+<div class="center">Feedback from a previous Admin Training.</div>
+</div>
 
-<img class="float-right" style="max-width: 460px" src="/src/events/admin-training2016/2016-admin-training-feedback-cloud.png" alt="Feedback from 2016 Admin Training Participants" />
+Tired of sitting in the same old *time zone* ?  Here are some upcoming events to help get you out and about.
 
 ## 2019 Galaxy Admin Training
 
@@ -38,13 +41,13 @@ Tired of sitting in the same old *time zone* ?  Here are some upcoming events to
 
 [Galaxy Admin Training](/src/events/2018-europe-dev/index.md) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
 
-Still wondering if you should go? Here's some feedback from the last time this group taught this workshop (2 years ago),
+Still wondering if you should go? Here's some feedback from the last time this group taught this workshop (2 years ago).
 
 ## Galaxy @ PAG 2019
 
 Going to **[Plant and Animal Genome](http://www.intlpag.org/)** in San Diego this month?  Do you have a colleague who will be there? PAG is an ideal venue for learning about Galaxy and how to apply it to complex research analysis problems.
 
-There will be a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community, plus a [page full of other talks and posters](/src/events/2019-pag/index.md) during the rest of the conference.  Some Galaxy highlights from PAG 2019:
+There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a [page full of other talks and posters](/src/events/2019-pag/index.md) during the rest of the conference.  Some Galaxy highlights from PAG 2019:
 
 [<img class="float-right" src="/src/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/events/2019-pag/index.md)
 
@@ -179,11 +182,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/events/gcc2013/abstracts/talks/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
-* **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md)**, by [Martin Čech](/src/people/martin-cech/index.md)
+* **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
+  * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
+  * by [Martin Čech](/src/people/martin-cech/index.md)
 
 ----
 
@@ -193,11 +198,12 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
+* [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
+* [assemblage et annotation des génomes](https://www.sfbi.fr/content/assemblage-et-annotation-des-g%C3%A9nomes), Faculté des Sciences et Techniques, Tours, France
 * [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
 * [M2 - bio-informatique](http://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
-* [Réalisation d’outils Galaxy pour l’analyse de données GCMS au sein de la Plateforme d’Exploration du Métabolisme](http://www.sfbi.fr/content/r%C3%A9alisation-d%E2%80%99outils-galaxy-pour-l%E2%80%99analyse-de-donn%C3%A9es-gcms-au-sein-de-la-plateforme-d%E2%80%99explor), INRA de Clermont Ferrand-Theix, France
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?city=abingdon),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://www.amazon.jobs/en/jobs/745693/principal-technical-business-development-manager-aws-research-in-biomedical), Amazon Web Services, United States
