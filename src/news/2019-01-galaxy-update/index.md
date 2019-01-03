@@ -247,7 +247,21 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 New additions to the Galaxy Ecosystem.
 
-## Planemo 0.57.1
+## Tripal Galaxy Module 1.0
+
+[<img class="float-right" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Galaxy" width="200" />](https://tripal-galaxy.readthedocs.io/en/latest/)
+
+[Tripal Galaxy](https://tripal-galaxy.readthedocs.io/en/latest/) is a [Drupal](https://www.drupal.org/) module is designed to support integration of the [Tripal online database construction toolkit](http://tripal.info/) with Galaxy. It uses the [blend4php](https://github.com/galaxyproject/blend4php) library. In the past, community databases have often provided analytical tools that come prepared with site-specific data. Examples include BLAST, CAP3, and InterProScan servers, for example. By integrating Tripal with Galaxy, the Tripal-based community database can offer more complicated analytical tools that support larger data sets using Galaxy as a backend.
+
+The Tripal Galaxy module provides more than just a “wrapper” for Galaxy. Site administrators can provide files to help end-users easily integrate data from the site within workflows. On [Tripal v3](http://tripal.info/news/Tripal-v3.0) sites, user’s can create data collection containing data gleaned from the site which in turn can be used in Galaxy workflows. Quotas are provided to prevent users from overunning the storage space of the server and usage statistics help a site admin learn which workflows are most used and who are the biggest users.
+
+## BioBlend 0.12.0
+
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+
+See the [release notes](https://github.com/galaxyproject/bioblend/releases) for what's new in release 0.12.0.
+
+## Planemo 0.58.0
 
 [<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
@@ -258,6 +272,9 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 ----
 
 # Other News
+
+* [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418), by [Anup Kumar](https://twitter.com/musafirtweetsz)
+
 
 ## Galaxy Help: The new Q&A site for Galaxy
 
