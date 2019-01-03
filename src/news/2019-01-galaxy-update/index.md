@@ -9,17 +9,22 @@ date: ""
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
-  * [2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)
-  * [Training topic nomination for GCC2019 Training extended through 15JAN19!](/src/news/2019-01-galaxy-update/index.md#gcc2019-training-topic-nomination-extended-to-15-january)
-  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](src/news/2019-01-galaxy-update/index.md#galaxy-pag-2019)
-* [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including four highlighted ones
-* [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services added to the platform directory.
-* One new [Galactic Blog entry](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)
-* [16 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates)
+  * **[2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)**
+  * **[Training topic nomination for GCC2019 Training extended through 15 January!](/src/news/2019-01-galaxy-update/index.md#gcc2019-training-topic-nomination-extended-to-15-january)**
+  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/src/news/2019-01-galaxy-update/index.md#galaxy-pag-2019)
+  * [Galaxy needs your Google Summer of Code Project suggestions](/src/news/2019-01-galaxy-update/index.md#galaxy-needs-your-google-summer-of-code-project-suggestions)
+  * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-01-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
+* [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including several spectacular ones
+* Some most excellent [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news), including the *EGI Marketplace*.
+* The Contributor of the Month is [Simon Gladman](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)!
+* [17 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
+* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductor videos
 * [ToolShed contributions](/src/news/2019-01-galaxy-update/index.md#toolshed-contributions)
-* [Planemo 0.57.1](/src/news/2019-01-galaxy-update/index.md#releases) 
-* And [other news](/src/news/2019-01-galaxy-update/index.md#other-news) too
+* [New releases](/src/news/2019-01-galaxy-update/index.md#releases):
+  * Tripal Galaxy - connect Galaxy to your online database
+  * BioBlend - a Python API for Galaxy and CloudMan
+  * Planemo - utilities for building tools for Galaxy
+* And [a bunch of other news](/src/news/2019-01-galaxy-update/index.md#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -54,7 +59,7 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
 
 * **[ELIXIR Resources for Interoperability](https://plan.core-apps.com/pag_2019/abstract/8d1a2a44-8bdc-42f3-90ab-90637edc71cf)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
 * **[Execution of Scientific Workflows for Tripal-Based Community Databases](https://plan.core-apps.com/pag_2019/abstract/d86d6711-9cff-438c-8e1f-af12a4b993e5)**, Shawna Spoor
-* **[Integrated Genomic Selection Galaxy Analysis Pipeline and Workflows](https://plan.core-apps.com/pag_2019/abstract/eb8d2b76e25358daf4c927eba4649409)**, [Juan D. Arbelaez](https://www.researchgate.net/profile/Juan_Arbelaez8)
+* **[Integrated Genomic Selection Galaxy Analysis Pipeline and Workflows](https://plan.core-apps.com/pag_2019/abstract/eb8d2b76e25358daf4c927eba4649409)**, Star Yanxin Gao
 * **[Galaxy Workshop: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302)**
   * **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
   *  **[A Phenomenal Workflow to Study the Metabolites Variation in Bryophytes across Seasons](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281815)**, [Steffen Neumann](https://www.researchgate.net/profile/Steffen_Neumann) 
@@ -111,6 +116,91 @@ Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv25
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
+<table class="table table-striped">
+<thead>
+<tr>
+  <th>Date</th>
+  <th>Topic/Event</th>
+  <th>Venue/Location</th>
+  <th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="text-nowrap">January 8th 2019</span></td>
+  <td><a href="/events/2019-01-gwu">Introduction to Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>Washington, DC</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dr. Ian Toma (itoma at gwu dot edu)</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 12th 2019</span></td>
+  <td><a href="/events/2019-pag">Galaxy @ Plant &amp; Animal Genome XXVII (PAG 2019)</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.intlpag.org/">San Diego, California</a></td>
+  <td>Presenters</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 15th 2019</span></td>
+  <td><a href="https://faes.org/biotech82">Bioinformatics for Beginners</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>National Institutes of Health, Bethesda, Maryland, United States</td>
+  <td>registration@faes.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 23rd 2019</span></td>
+  <td><a href="https://bluewaters.ncsa.illinois.edu/webinars/workflows/galaxy">Cloud Resource Federation for Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/GL.png"/><a href="https://bluewaters.ncsa.illinois.edu/webinars">Online</a></td>
+  <td>Enis Afgan</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">January 28th 2019</span></td>
+  <td><a href="/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 4th 2019</span></td>
+  <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733">Traitement de données de séquences par Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.agrocampus-ouest.fr/ecole/implantations/campus-de-rennes">AGROCAMPUS OUEST, Rennes, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sandrine Lagarrigue</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 25th 2019</span></td>
+  <td><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/">Galaxy HTS data analysis workshop</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/#venue">University of Freiburg, Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">February 28th 2019</span></td>
+  <td><a href="/community/galaxy-admins/meetups/2019-02-28/">GalaxyAdmins February 2019 Meetup</a></td>
+  <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
+  <td>Helena Rasche, Dave Clements</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 6th 2019</span></td>
+  <td><a href="https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing">Galaxy for linking bisulfite sequencing with RNA sequencing</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>University of Rostock, Rostock, Germany</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>destair [at] leibniz-fli.de</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 18th 2019</span></td>
+  <td><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/">Gatersleben Research Conference: Applied Bioinformatics for Crops</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/accomodation/">Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
+  <td>Björn Grüning</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">March 20th 2019</span></td>
+  <td><a href="http://meetings.ipk-gatersleben.de/compbiostarter/index.php/program/">Introduction into Galaxy and how to design your own analysis workflow</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/compbiostarter/">Computational Biology Starter, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
+  <td>Anne Fiebig</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 1st 2019</span></td>
+  <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+</tbody>
+</table>
+
 
 ----
 
@@ -161,7 +251,9 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="float-right" src="/src/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/src/use/chemflow/index.md)
 
-The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) supports chemometrics and infrared spectrometry data analysis.  ChemFlow has a [detailed tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow) (although it's in French), and an [onlinie support form](https://chemproject.org/wakka.php?wiki=NousContacter).  ChemFlow is supported by the [ChemProject](https://chemproject.org/wakka.php?wiki=PagePrincipale), a consortium of French research organizations.
+The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) supports *Chemometrics* and infrared spectrometry data analysis.  ChemFlow has a [detailed tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow) (although it's in French), and an [onlinie support form](https://chemproject.org/wakka.php?wiki=NousContacter).  ChemFlow is supported by the [ChemProject](https://chemproject.org/wakka.php?wiki=PagePrincipale), a consortium of French research organizations.
+
+*Chemometrics* is a collection of tools for extracting information from spectral data. The methods are essentially linear, with regressions, discriminant analyzes, unsupervised classifications, spectral decompositions, multi-array-multipath methods, plus pretreatments. Many applications focus on the near infrared. Its complementarity with the [Chemoocs mooc on France Digital University](https://www.fun-mooc.fr/) guarantees the correct use of chemometrics tools.
 
 ## ChIP-Seq Docker
 
@@ -309,6 +401,14 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 **Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
 
 Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+
+Here are some exemplary recent threads in Galaxy Help
+
+* [How to Add gene information (gene name, strand etc.,) to the DESEQ2 output file generated by Galaxy](https://help.galaxyproject.org/t/how-to-add-gene-information-gene-name-strand-etc-to-the-deseq2-output-file-generated-by-galaxy/209), by [James PC](https://help.galaxyproject.org/u/biologist) and [Pavankumar Videm](https://help.galaxyproject.org/u/pavanvidem)
+* [Regarding Understanding Quality of Mutation](https://help.galaxyproject.org/t/regarding-understanding-quality-of-mutation/234), by [Debanjan Roy](https://help.galaxyproject.org/u/debanjan_roy) and [Wolfgang Maier](https://help.galaxyproject.org/u/wm75)
+* [multithreading and parallel processing files](https://help.galaxyproject.org/t/multithreading-and-parallel-processing-files/203), by [Hiba Shaban](https://help.galaxyproject.org/u/hiba_shaban), [James Taylor](https://help.galaxyproject.org/u/jxtx), and [Enis Afgan](https://help.galaxyproject.org/t/multithreading-and-parallel-processing-files/203/10)
+
+
 
 *[Join the discussion](https://help.galaxyproject.org/).*
 
