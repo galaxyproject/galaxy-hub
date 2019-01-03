@@ -10,8 +10,8 @@ The *January  2019 Galactic News* is here!  This is a summary of what is going o
 
 * [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
   * [2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)
-  * [Training topic nomination for GCC2019 Training extended through 15JAN19!](/src/news/2019-01-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
-  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](src/news/2019-01-galaxy-update/index.md#galaxy-@-PAG-2019)
+  * [Training topic nomination for GCC2019 Training extended through 15JAN19!](/src/news/2019-01-galaxy-update/index.md#gcc2019-training-topic-nomination-extended-to-15-january)
+  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](src/news/2019-01-galaxy-update/index.md#galaxy-PAG-2019)
 * [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including four highlighted ones
 * [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services added to the platform directory.
 * One new [Galactic Blog entry](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)
