@@ -18,7 +18,7 @@ The *January  2019 Galactic News* is here!  This is a summary of what is going o
 * Some most excellent [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news), including the *EGI Marketplace*.
 * The Contributor of the Month is ... [Simon Gladman](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)!
 * [17 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductor videos
+* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
 * [ToolShed contributions](/src/news/2019-01-galaxy-update/index.md#toolshed-contributions)
 * [New releases](/src/news/2019-01-galaxy-update/index.md#releases):
   * Tripal Galaxy - connect Galaxy to your online database
