@@ -292,7 +292,7 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 * **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
   * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
-  * by [Martin Čech](/src/people/martin-cech/index.md)
+  * by [Martin Čech](/src/people/marten/index.md)
 
 ----
 
