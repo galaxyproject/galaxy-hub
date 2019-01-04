@@ -47,13 +47,13 @@ Tired of sitting in the same old *time zone* ?  Here are some upcoming events to
 
 [Galaxy Admin Training](/src/events/2018-europe-dev/index.md) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
 
-Still wondering if you should go? Here's some feedback from the last time this group taught this workshop (2 years ago).
+Still wondering if you should go? Here's some feedback from the last time this group taught this workshop.
 
 ## Galaxy @ PAG 2019
 
 Going to **[Plant and Animal Genome](http://www.intlpag.org/)** in San Diego this month?  Do you have a colleague who will be there? PAG is an ideal venue for learning about Galaxy and how to apply it to complex research analysis problems.
 
-There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a [page full of other talks and posters](/src/events/2019-pag/index.md) during the rest of the conference.  Some Galaxy highlights from PAG 2019:
+There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a **[page full of other talks and posters](/src/events/2019-pag/index.md)** during the rest of the conference.  Some Galaxy highlights from PAG 2019:
 
 [<img class="float-right" src="/src/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/events/2019-pag/index.md)
 
@@ -68,7 +68,7 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
   * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2) 
   * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, [Luke Sargent](/src/people/luke-sargent/index.md) 
 
-See the [Galaxy @ PAG 2019](/src/events/2019-pag/index.md) page for a complete list.
+See the **[Galaxy @ PAG 2019](/src/events/2019-pag/index.md)** page for a complete list.
 
 ## Galaxy needs your Google Summer of Code Project suggestions
 
@@ -100,7 +100,7 @@ This list only shows some examples. **Any topic of interest to the Galaxy Commun
 
 Training nomination has been extended to **15th January**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer, and start voting on January, 15th. 
+Please give some thought to what topics you would like to see offered, or that you would like to offer. 
 
 ## GalaxyAdmins needs your topic suggestions
 
