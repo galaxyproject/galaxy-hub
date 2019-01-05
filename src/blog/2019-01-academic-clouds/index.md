@@ -2,7 +2,7 @@
 date: ''
 title: "Galaxy on Academic Research Clouds"
 tease: "You should do this."
-authors: "Dave Clements"
+authors: "Dave Clements, Marco Antonio Tangaro, Federico Zambelli"
 external_url: 
 source_blog: 
 ---
@@ -51,7 +51,17 @@ If you need something, you can add it.
 
 ### Czechia: MetaCentrum
 
-### Italy: Laniakea on INDIGO-DataCloud
+### Italy: Laniakea@ReCaS Bari
+
+<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea@ReCaS Bari" style="max-width: 240px" />
+
+[Laniakea@ReCaS](https://elixir-italy-science-gateway.cloud.ba.infn.it/) is the pilot deployment of [Laniakea](https://www.biorxiv.org/content/early/2018/12/04/472464). Laniakea is a software suite designed to allow academic clouds to add a Galaxy on-demand service to their portfolio easily. It is based on the modular and flexible [INDIGO-DataCloud](https://www.indigo-datacloud.eu/) middleware solution for e-science. This first instance of Laniakea, based at [ReCaS-Bari](https://www.recas-bari.it/index.php/en/), is undergoing beta testing right now and is foreseen to switch to production phase by June 2019. Laniakea@ReCaS has already received more beta-test account requests then the ones available for this initial phase. However, the number of available beta-test user slots will be gradually increased during the first half of 2019; anyone is for now welcome to apply and enroll to become a new beta tester. The standard resource package granted to beta accounts includes 14 CPUs, 28 GBs of RAM and 500 GBs of storage. 
+
+Laniakea features include: full admin access (so Galaxy instances are fully customizable), dynamic scalability, a set of pre-configured Galaxy flavors with an extensive set of tools and workflows for RNA-Seq, variants calling, somatic variants calling and ChIP-Seq data analysis, and an encryption layer for users that need to process sensitive human data (or very jealous of their datasets!). Once in the production phase, Laniakea@ReCaS will be an [ELIXIR-IT](http://elixir-italy.org/en/) service available to Italian and European researchers through a program similar to the [HPC@CINECA](https://drive.google.com/file/d/0B9G1T7Qh3zvCRTdyNkJDOFpzbDQ/view?usp=sharing) one, that already provides HPC resources to Italian life science researchers since 2016. The details of the program will be available soon.
+
+You can have a better look at Laniakea watching this [video demo](https://www.youtube.com/watch?v=rub3skcs84Q).
+
+For info and beta-tester account applications: laniakea.helpdesk@gmail.com
 
 ### Poland: PL-Grid
 
