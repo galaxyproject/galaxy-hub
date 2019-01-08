@@ -65,7 +65,15 @@ For info and beta-tester account applications: laniakea.helpdesk@gmail.com
 
 ### Poland: PL-Grid
 
-### Sweden: SNIC Science Cloud
+
+
+### Sweden: cPouta and SNIC Science Cloud
+
+Swedish researchers have two local choices for running Galaxy on academic clouds.
+
+#### cPouta
+
+#### SNIC Science Cloud (SSC)
 
 ### United Kingdom: CLIMB
 
