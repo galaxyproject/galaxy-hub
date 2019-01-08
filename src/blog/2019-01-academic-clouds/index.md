@@ -2,7 +2,7 @@
 date: ''
 title: "Galaxy on Academic Research Clouds"
 tease: "You should do this."
-authors: "Dave Clements, Marco Antonio Tangaro, Federico Zambelli"
+authors: "Dave Clements, Marco Antonio Tangaro, Federico Zambelli, Nikolay Aleksandrov Vazov"
 external_url: 
 source_blog: 
 ---
@@ -71,9 +71,9 @@ For info and beta-tester account applications: laniakea.helpdesk@gmail.com
 
 ### And Norway: Lifeportal (University of Oslo)
 
-<img class="float-right" src="/src/use/lifeportal_oslo/lifeportal.png" alt="Lifeportal at University of Oslo" style="max-width: 240px" />
+<img class="float-right" src="/src/use/lifeportal-oslo/lifeportal.png" alt="Lifeportal at University of Oslo" style="max-width: 300px" />
 
-The [Lifeportal](https://lifeportal.uio.no) is a Galaxy instance which is supposed to satisfy the computational needs of the Norwegian research community in life sciences but also of any other user willing to use the service. We would definitely prefer a collaboration between local and external users/groups as collaborating groups get allocated more resources than unique independent users.
+The [Lifeportal](https://lifeportal.uio.no) is a Galaxy instance to satisfy the computational needs of the Norwegian research community in life sciences but also of any other user willing to use the service. We would definitely prefer a collaboration between local and external users/groups as collaborating groups get allocated more resources than unique independent users.
 
 Norwegian academic users log in via a national academic provider FEIDE. All other users may select Facebook, Twitter or Linkedin to log in. A real email address is compulsory for feedback and job-reports management. All login methods use Xauth (OpenIDC).  All users receive 200 hrs CPU time at first login. FEIDE users can then apply for a project within Lifeportal, up to 20 000 hrs. The applications are considered immediately and resources are allocated within minutes by a routine which is implemented within Lifeportal (Galaxy). All other users may write to lifeportal-help@usit.uio.no and their applications will be considered by our committee. If approved, they will be given access to common projects with larger resource allocations. Every user with their own project in Lifeportal can manage it through the menus built in the Galaxy GUI.
 
