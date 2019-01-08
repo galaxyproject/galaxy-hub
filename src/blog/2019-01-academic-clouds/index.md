@@ -79,7 +79,7 @@ Norwegian academic users log in via a national academic provider FEIDE. All othe
 
 Here are the [slides](https://drive.google.com/open?id=1Hdi9cV49FJ7eL4XrnJXs5kNIs68y4HJ3) with a detailed description of the login procedure.
 
-Our instance, called Lifeportal, implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using slurm-drmaa library.
+Our instance, called Lifeportal, implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.
 
 We have tailored our application set to run either locally, or on the cluster with regard to the requested resources for the job. Resources (memory, walltime, number of tasks, number of cpus) are allocated on a per job basis which gives an exceptional flexibility to use and save requested resources. The instance is among the few in the world implementing a resource allocation management system plugged into Galaxy (and Galaxy GUI) which reserves, charges and refunds the user accounts after each executed job.
 
