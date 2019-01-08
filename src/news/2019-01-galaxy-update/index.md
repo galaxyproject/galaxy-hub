@@ -340,11 +340,11 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 ## Hub
 
 * [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-* [Securely Authorize Galaxy to Access Protected Data on Cloud ](/src/cloud/authnz/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/cloud/authnz/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 ## Other Training Materials and Doc
 
-* [Tackling Analytical challenges in Cancer proteogenomics using Galaxy framework tutorial](http://z.umn.edu/mumbaidocs) and [slides](http://z.umn.edu/mumbaislides), by Pratik Jagtap, first presented at the [Cancer Proteogenomics Workshop](http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/), in Pune, India
+* [Tackling Analytical challenges in Cancer proteogenomics using Galaxy framework tutorial](http://z.umn.edu/mumbaidocs) and [slides](http://z.umn.edu/mumbaislides), presented by Pratik Jagtap of the [Galaxy-P team](https://useglaxyp.org), at the [Cancer Proteogenomics Workshop](http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/), in Pune, India
 * [Genomics: gentle introduction to genomic data analysis with Galaxy](http://guides.uflib.ufl.edu/c.php?g=147545&p=6481743), a set of videos by Joe Wu at the University of Florida
 
 ---
