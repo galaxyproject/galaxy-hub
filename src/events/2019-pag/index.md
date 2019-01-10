@@ -38,4 +38,10 @@ Galaxy will be at [Plant and Animal Genome XXVII (PAG 20189](http://www.intlpag.
 |  | 5:45-6:05 | **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)** | **[Galaxy: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302)**, California Room | | [Luke Sargent](/src/people/luke-sargent/index.md) |
 | **Wednesday, January 16** | 11:45-12:00 | [OrthoQuery: A Tripal Database Module to Assess and Visualize Gene Family Evolution](https://plan.core-apps.com/pag_2019/abstract/353f25d23822c2a17aa4cfc5b3441593) | [Digital Tools and Resources Session 4](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40aae0d), California Room |  | Sumaira Zaman |
 
-**Presentations that prominently feature Galaxy are shown in bold.**
+# Galaxy @ PAG 2019 Flier
+
+[<img class="float-right" src="/src/events/2019-pag/galaxy-at-pag-2019-flier-thumb.png" alt="download flier" />](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf)
+
+**Presentations that prominently feature Galaxy are shown in bold** and are highlighted in the [Galaxy @ PAG 2019 Flier](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf).
+
+[Get yourself a copy now](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf).
