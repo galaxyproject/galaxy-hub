@@ -5,7 +5,7 @@ This page contains statistics about the [Galaxy Project](/src/galaxy-project/ind
 
 
 
-# Community Support Channels
+# Support Channels
 
 ## Galaxy Help Forum
 
@@ -31,6 +31,16 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 ### Membership
 
 [![](/src/galaxy-project/statistics/MailingListMemberships.png)](https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1250178895&format=interactive)
+
+This graph will be replaced in the next update with one that integrates Gitter and Galaxy Help membership as well.
+
+# Communication Channels
+
+The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) in February 2012.  The Galaxy project started [using Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.
+
+Here's membership in both channels since they were launched.
+
+[![](/src/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
 
 
 # Galaxy Platforms
@@ -465,12 +475,6 @@ The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed soft
 # Events
 
 As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) since the 2012 meeting.
-
-# Twitter
-
-The Galaxy project started to [use Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
-
-[![](/src/galaxy-project/statistics/TwitterFollowersOverTime.png)](https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=1683239097&format=interactive)
 
 
 # Galaxy BioStar
