@@ -13,28 +13,7 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 Since the help forum is so new, we don't have any meaningful statistics yet.
 
-## Galaxy BioStar
-
-The [Galaxy BioStar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014 and **retired on November 29, 2018. (The site still exists and can be searched.)**
-
-Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy BioStar at that time, and people were strongly advised to post future questions to Galaxy BioStar.  On June 6, 2014, all posting to Galaxy-User was suspended.  The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy BioStar.
-
-All date ranges here are from BioStar.  For example, the "last 12 months" means anything that BioStar identifies as having happened between now and "12 months ago", inclusive.
-
-## Active Users
-
-Active here means "visited", as defined by BioStar.
-
-[![](/src/galaxy-project/statistics/biostar_active_users.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=540758257&format=interactive)
-
-## Active Threads
-
-[![](/src/galaxy-project/statistics/biostar_active_threads.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=1611142178&format=interactive)
-
-
-## All Time Totals
-
-[![](/src/galaxy-project/statistics/biostar_totals.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=851709991&format=interactive)
+[![](/src/galaxy-project/statistics/discourse-posts.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=762163567&format=interactive)
 
 
 ## Mailing Lists
@@ -53,23 +32,12 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 [![](/src/galaxy-project/statistics/MailingListMemberships.png)](https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1250178895&format=interactive)
 
-# Galaxy Servers
 
-## Usegalaxy.org Usage
+# Galaxy Platforms
 
-[Usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)) is the Galaxy project's publicly available Galaxy server.
+Galaxy is available in a number of ways.  While most [installations of Galaxy](/src/admin/get-galaxy/index.md) are private, many groups support [Galaxy instances in many different forms](/src/use/index.md), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
 
-[![](/src/galaxy-project/statistics/usegalaxy-org-jobs.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vTrV-9EbO-9e4d7AM0vq9LoJYkQnIS6dJQZrOogDUXHKQihdOaGb1I6XxU9SH61NJgrjHgHM6ZXeMWC/pubchart?oid=770653561&format=interactive)
-
-[![](/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=558686006&format=interactive)
-
-[![](/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png)](https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=909662767&format=interactive)
-
-## Known Publicly Accessible Servers
-
-Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/use/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
-
-[![](/src/galaxy-project/statistics/public_servers.png)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
+[![](/src/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 
 
 # Publications / Citations
@@ -505,6 +473,32 @@ The Galaxy project started to [use Twitter](/src/galaxy-on-twitter/index.md) on 
 [![](/src/galaxy-project/statistics/TwitterFollowersOverTime.png)](https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=1683239097&format=interactive)
 
 
-# Want the underlying numbers?
+# Galaxy BioStar
+
+The [Galaxy BioStar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014 and **retired on November 29, 2018. (The site still exists and can be searched.)**
+
+**The January 2019 update to this page will be the last one to include BioStar stats.**
+
+Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy BioStar at that time, and people were strongly advised to post future questions to Galaxy BioStar.  On June 6, 2014, all posting to Galaxy-User was suspended.  The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy BioStar.
+
+All date ranges here are from BioStar.  For example, the "last 12 months" means anything that BioStar identifies as having happened between now and "12 months ago", inclusive.
+
+## Active Users
+
+Active here means "visited", as defined by BioStar.
+
+[![](/src/galaxy-project/statistics/biostar_active_users.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=540758257&format=interactive)
+
+## Active Threads
+
+[![](/src/galaxy-project/statistics/biostar_active_threads.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=1611142178&format=interactive)
+
+
+## All Time Totals
+
+[![](/src/galaxy-project/statistics/biostar_totals.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=851709991&format=interactive)
+
+
+## Want the underlying numbers?
 
 All of the underlying numbers are available as TSV files.  Contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) if you would like copies.
