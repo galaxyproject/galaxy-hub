@@ -470,7 +470,7 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 
 The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed software and workflows that can be installed at any Galaxy site.
 
-[![](/src/galaxy-project/statistics/toolshed.png)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
+[![](/src/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
 # Events
 
