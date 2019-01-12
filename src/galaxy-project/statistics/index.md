@@ -42,6 +42,26 @@ Here's membership in both channels since they were launched.
 
 [![](/src/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
 
+# Communities
+
+Several domain-specific and regional/language-based Galaxy Communities also exist.  Here are their numbers as of January 2019.
+
+| Geography/Language-based Community / Channel | Membership / Followers|
+|---|---|
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) |292|
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 244|
+| [Galaxy France Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-france) |233|
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) |52|
+| [Galaxy Africa Mailing List]() |46|
+| [Galaxy UK Mailing list](https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk) |33|
+
+| Topic-Based Community / Channel | Membership / Followers|
+|---|---|
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-training) |114|
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) |116|
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) |106|
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-proteomics) |81|
+
 
 # Galaxy Platforms
 
