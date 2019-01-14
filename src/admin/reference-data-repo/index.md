@@ -168,6 +168,7 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 | `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
 | `cvmfs1-mel0.gvl.org.au` | [GVL Project][gvlproject] | Melbourne, Australia |
 | `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
+| `cvmfs1-ufr0.galaxyproject.eu` | [Galaxy Project Europe/UseGalaxy.eu][jrc] | Freiburg, Germany |
 
 The full path to the repository, e.g. for use in the `CVMFS_SERVER_URL` configuration parameter, where `<SERVER:[PORT]>`
 is one of the servers above and `<REPO>` is the CVMFS repo name, is:
