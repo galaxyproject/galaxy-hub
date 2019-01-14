@@ -193,3 +193,44 @@ In this workshop participants will learn how to develop such visualisations in G
 * Basic understanding of Galaxy from a developer point of view.
 * Some familiarity with Javascript.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Proteomic Data Analysis with Galaxy
+
+Protein identification and quantification.
+
+**Prerequisites**
+
+- Galaxy introduction.
+
+## MALDI imaging of peptides data analysis with Galaxy
+
+Quality control and preprocessing of MALDI imaging data.
+
+**Prerequisites**
+
+- Galaxy introduction.
+
+
+## Advanced usage of the Galaxy frontend - focus on NGS
+
+Advanced workflows, tricks, novel features, data organization and collections, tags.
+
+**Prerequisites**
+
+- basic knowledge and experience with the Galaxy user interface
+
+## Visualization 
+
+Visualization of NGS data, Integration of various methods (Hi-C, WGBS, RNA, ChIP..)
+
+**Prerequisites**
+
+- advanced experience with NGS data processing and Galaxy usage
+
+## Single cell analysis
+
+- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
+
+**Prerequisites**
+
+- Intro to Galaxy
