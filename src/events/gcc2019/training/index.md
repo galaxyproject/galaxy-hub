@@ -234,3 +234,34 @@ Visualization of NGS data, Integration of various methods (Hi-C, WGBS, RNA, ChIP
 **Prerequisites**
 
 - Intro to Galaxy
+
+## A Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data
+
+The field of small RNA is one of the most investigated research areas since they were shown to regulate transposable elements and gene expression and play essential roles in fundamental biological processes. Small RNA deep sequencing (sRNA-seq) is now routinely used for large-scale analyses of small RNA. Such high-throughput sequencing typically produces several millions reads.
+
+Here we present a computational pipeline (sRNAPipe: small RNA pipeline) based on the Galaxy framework that takes as input a fastq file of small RNA-seq reads and performs successive steps of mapping to categories of genomic sequences: transposable elements, gene transcripts, microRNAs, small nuclear RNAs, ribosomal RNAs and transfer RNAs. It also provides individual mapping and counting for chromosomes, transposable elements and gene transcripts, normalization, small RNA length analysis and plotting of the data along genomic coordinates to build publication-quality graphs and figures. sRNAPipe evaluates 10-nucleotide 5′-overlaps of reads on opposite strands to test ping-pong amplification for putative PIWI-interacting RNAs, providing counts of overlaps and corresponding z-scores.
+
+sRNAPipe is easy to use and does not require command-line or coding knowledge. This pipeline gives quick visual and quantitative results, which are usable for publications. sRNAPipe is freely available as a Galaxy tool and via GitHub.
+
+**Prerequisites**
+
+- Intro to Galaxy
+
+## Handling integrated biological data using Python, Jupyter, and InterMine
+
+This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic data) using InterMine, either via UI or via an API in Python. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
+
+Users will also be shown how to import and export their gene and protein lists to and from Galaxy to link Galaxy pipelines with InterMine analyses
+
+**Prerequisites**
+
+- Basic Python skills are advantageous but not required.
+- A laptop with wifi. Python optional as we can use Jupyter notebooks to run analyses.
+
+## Making your open source project awesome
+
+Many journals require that scientific / research code to be open source in order to be published, but simply sharing source code alone isn’t usually enough to draw in new users and contributors. This session will teach researchers and coders the basics of how to make their open source code repositories inclusive and welcoming to contributors.
+
+**Prerequisites**
+- A laptop with wifi
+- Interest in open source code.
