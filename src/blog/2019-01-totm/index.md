@@ -8,7 +8,7 @@ The Galaxy community is developing and maintaining a collection of tutorials tha
 
 To help highlight our tutorials and the training effort of the community, every month a member of the community will select one tutorial and explain in the *Galactic Blog* why they selected this tutorial.
 
-## Reference-based RNA Seq
+## Genome annotation with Prokka
 
 This month, the [*Galaxy contributor of the Month!*](../2018-12-cotm-simon-gladman), Simon Gladman, selects and presents the tutorial: ["Genome annotation with Prokka"](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html), from the topic ["Genome Annotation"](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/):
 
