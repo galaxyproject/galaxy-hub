@@ -18,13 +18,11 @@ Nominated topics can cover a wide range. For example:
 
 This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
-[Training topic nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) is open from **December, 1st** to **December, 31**. Topics will be compiled by the GCC2017 Organizing Committee, and voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+[Training topic nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) is open from **December, 1st** to **January, 15th**. Topics will be compiled by the GCC2019 Organizing Committee, and voted on by the Galaxy Community in February.
 
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session. Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
-**[Nominate a topic now](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/).**
-
-Here are the topics that have been nominated as of 4 January:
+Here are the topics that have been nominated as of 15 January:
 
 ## CLIP-Seq data analysis from pre-processing to motif detection
 
@@ -265,3 +263,66 @@ Many journals require that scientific / research code to be open source in order
 **Prerequisites**
 - A laptop with wifi
 - Interest in open source code.
+
+## Intro to Galaxy Administration - step I
+
+After attending this session you will be able to set up, configure, and administer a fairly polished Galaxy instance. 
+
+Topics include:
+* deployment and platform options
+* using Ansible to install and configure your own server
+* customizing and extending your instance
+* defining and importing genomes, running data managers"
+
+**Prerequisites**
+- Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+## Intro to Galaxy Administration - step II
+
+After attending this and the previous 'step [I](#intro-to-galaxy-administration-step-i)' you will be able to maintain and optimize a pretty good Galaxy instance
+
+Topics include:
+* upgrading to a new Galaxy release
+* configure nginX webserver with Galaxy
+* database overview and best practices
+* running tools in containers
+* users and groups and quotas
+* storage management and using heterogeneous storage services"
+
+**Prerequisites**
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* Knowledge of topics from or attendance of step [I](#intro-to-galaxy-administration-step-i)
+
+## Intro to Galaxy Administration - step III
+
+After attending this and both previous 'steps [I](#intro-to-galaxy-administration-step-i) & [II](#intro-to-galaxy-administration-step-ii)' you will be able to interconnect and troubleshoot a darn good Galaxy instance. Topics include:
+* exploring the Galaxy job configuration file
+* connecting Galaxy to compute clusters
+* polishing Galaxy on uWSGI application server
+* instance monitoring using Grafana
+* shared data management with CVMFS
+* when things go wrong: Galaxy server troubleshooting tips & examples"
+
+**Prerequisites**
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* Knowledge of topics from or attendance of steps [I](#intro-to-galaxy-administration-step-i) and [II](#intro-to-galaxy-administration-step-ii)"
+
+## How to create a Galaxy Tool
+
+This session will walk bioinformaticians, developers, and admins through the process of taking a working script, app, or software and turning it into a Galaxy Tool. It will cover the basics of using Planemo, a command-line utility that assists in building and publishing Galaxy Tools. We will explore basics of wrapping, common parameters, tool linting, best practices, loading and modifying tools, citations, and publishing to Github and the Galaxy Tool Shed. Common tips and tricks will be discussed as well as insights from experienced tool developers.
+
+**Prerequisites**
+* A general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best
