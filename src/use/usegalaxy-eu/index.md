@@ -11,6 +11,8 @@ image: "/src/use/usegalaxy-eu/usegalaxy-eu-landing-page-500.png"
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects."
 user_support:
+  - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
+  - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/src/support/index.md)"
 quotas:
   - "Storage and computational quotas."
