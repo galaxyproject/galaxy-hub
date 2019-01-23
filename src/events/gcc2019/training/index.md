@@ -4,8 +4,66 @@
 
 Training on a wide range of topics will be offered before *and during* the GCC2019 meeting.
 
-**Training topics are determined by the community via a [nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) and voting process. The topic nomination deadline has been extended to 15 January.**
+Training topics are determined by the community via a [nomination](#training-topic-nominations) and [voting](#training-topic-votes) process. **The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
 
+# Training Topic Votes
+
+[More than 25 topics have been nominated by the community](#clip-seq-data-analysis-from-pre-processing-to-motif-detection). The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
+
+- Introductions
+    - Introduction to Galaxy (Galaxy 101)
+    - Visualization of HTS Data in Galaxy
+    - [Advanced usage of the Galaxy interface](#advanced-usage-of-the-galaxy-frontend-focus-on-ngs)
+    - [Big data analysis with Galaxy](#visualization)
+    - Data file conversion
+    - [Integration of various methods (Hi-C, WGBS, RNA, ChIP..)](#visualization)
+    - Quality control of HTS data
+    - Mapping of HTS data
+- Topic-specific data analysis
+    - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
+    - A[ssembly, annotation and analysis of bacterial genomes](#analysis-of-bacterial-genomes)
+    - Small genome de novo assembly
+    - Metagenomics with Galaxy
+    - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
+    - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
+    - [Alternative splicing](#alternative-splicing)
+    - Reference-based RNA-seq analysis
+    - [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](#rna-workbench)
+    - [RNA folding and design](#rna-folding-and-design)
+    - [Single cell RNA-seq analysis](#single-cell-analysis)
+    - Exome sequencing data analysis
+    - ATAC-seq data analysis
+    - Variant annotation
+    - [In-depth exploration of small RNAseq data](#a-galaxy-based-pipeline-for-bioinformatic-in-depth-exploration-of-small-rnaseq-data)
+    - [Populations genomics with RADseq](#population-genomics)
+    - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
+    - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
+    - ChIP-seq data analysis
+    - DNA Methylation data analysis
+    - Hi-C analysis
+    - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
+    - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
+    - Metabolomics data analysis
+    - Galaxy for proteogenomics
+- Misc
+    - [Handling integrated biological data using Python, Jupyter, and InterMine](#handling-integrated-biological-data-using-python-jupyter-and-intermine)
+    - [Train the Galaxy Trainer](#train-the-galaxy-trainer)
+    - [Making your open source project awesome](#making-your-open-source-project-awesome)
+    - Machine learning with Galaxy
+- Admin & Dev
+    - [Scripting Galaxy through BioBlend](#scripting-galaxy-through-bioblend)
+    - [Running Galaxy on Kubernetes](#unning-galaxy-on-kubernetes)
+    - [Using Galaxy for bridging WGS and Clinical Genetic Diagnostics](#using-galaxy-for-bridging-wgs-and-clinical-genetic-diagnostics)
+    - [Intro to Galaxy Administration - step I](#intro-to-galaxy-administration-step-i)
+    - [Intro to Galaxy Administration - step II](#intro-to-galaxy-administration-step-ii)
+    - [Intro to Galaxy Administration - step III](#intro-to-galaxy-administration-step-iii)
+    - Galaxy Interactive Environments
+    - Galaxy Architecture
+    - [How to create a Galaxy Tool](#how-to-create-a-galaxy-tool)
+    - Conda and containers for tool dependencies
+    - [Visualisation development in Galaxy](#visualisation-development-in-galaxy)
+
+[Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 24th** to **February, 1st**.
 
 # Training Topic Nominations
 
@@ -18,13 +76,11 @@ Nominated topics can cover a wide range. For example:
 
 This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
 
-[Training topic nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) is open from **December, 1st** to **December, 31**. Topics will be compiled by the GCC2017 Organizing Committee, and voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
+[Training topic nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) is open from **December, 1st** to **January, 15th**. Topics will be compiled by the GCC2019 Organizing Committee, and voted on by the Galaxy Community in February.
 
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session. Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
-**[Nominate a topic now](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/).**
-
-Here are the topics that have been nominated as of 4 January:
+Here are the topics that have been nominated as of 15 January:
 
 ## CLIP-Seq data analysis from pre-processing to motif detection
 
@@ -265,3 +321,66 @@ Many journals require that scientific / research code to be open source in order
 **Prerequisites**
 - A laptop with wifi
 - Interest in open source code.
+
+## Intro to Galaxy Administration - step I
+
+After attending this session you will be able to set up, configure, and administer a fairly polished Galaxy instance. 
+
+Topics include:
+* deployment and platform options
+* using Ansible to install and configure your own server
+* customizing and extending your instance
+* defining and importing genomes, running data managers"
+
+**Prerequisites**
+- Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+## Intro to Galaxy Administration - step II
+
+After attending this and the previous 'step [I](#intro-to-galaxy-administration-step-i)' you will be able to maintain and optimize a pretty good Galaxy instance
+
+Topics include:
+* upgrading to a new Galaxy release
+* configure nginX webserver with Galaxy
+* database overview and best practices
+* running tools in containers
+* users and groups and quotas
+* storage management and using heterogeneous storage services"
+
+**Prerequisites**
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* Knowledge of topics from or attendance of step [I](#intro-to-galaxy-administration-step-i)
+
+## Intro to Galaxy Administration - step III
+
+After attending this and both previous 'steps [I](#intro-to-galaxy-administration-step-i) & [II](#intro-to-galaxy-administration-step-ii)' you will be able to interconnect and troubleshoot a darn good Galaxy instance. Topics include:
+* exploring the Galaxy job configuration file
+* connecting Galaxy to compute clusters
+* polishing Galaxy on uWSGI application server
+* instance monitoring using Grafana
+* shared data management with CVMFS
+* when things go wrong: Galaxy server troubleshooting tips & examples"
+
+**Prerequisites**
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* Knowledge of topics from or attendance of steps [I](#intro-to-galaxy-administration-step-i) and [II](#intro-to-galaxy-administration-step-ii)"
+
+## How to create a Galaxy Tool
+
+This session will walk bioinformaticians, developers, and admins through the process of taking a working script, app, or software and turning it into a Galaxy Tool. It will cover the basics of using Planemo, a command-line utility that assists in building and publishing Galaxy Tools. We will explore basics of wrapping, common parameters, tool linting, best practices, loading and modifying tools, citations, and publishing to Github and the Galaxy Tool Shed. Common tips and tricks will be discussed as well as insights from experienced tool developers.
+
+**Prerequisites**
+* A general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor
+
+    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+
+* A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best
