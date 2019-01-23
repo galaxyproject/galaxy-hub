@@ -4,7 +4,7 @@
 
 Training on a wide range of topics will be offered before *and during* the GCC2019 meeting.
 
-Training topics are determined by the community via a [nomination](#training-topic-nominations) and [voting](#training-topic-votes) process. **The votes are now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
+Training topics are determined by the community via a [nomination](#training-topic-nominations) and [voting](#training-topic-votes) process. **The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
 
 # Training Topic Votes
 
