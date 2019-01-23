@@ -17,7 +17,9 @@ pub_libraries:
   - "UseMain"
   - "Project"
 image: "/src/images/logos/UseGalaxy.orgLogo600.png"
-user_support: 
+user_support:
+  - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
+  - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/src/support/index.md)"
 quotas: 
   - "Storage and computational quotas.  See [Main](/src/main/index.md) for details."

@@ -12,8 +12,10 @@ comments:
   - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/main/index.md) for more."
 user_support:
   - "[Training Materials](https://galaxy-au-training.github.io/tutorials/)"
+  - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
+  - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/src/support/index.md)"
-  - "[Email (Igor Makunin and Derek Benson)]https://usegalaxy.org.au/galaxy)"
+  - "[Email (Igor Makunin and Derek Benson)](https://usegalaxy.org.au/galaxy)"
   - "[@GVL_QLD on Twitter](https://twitter.com/GVL_QLD)"
 quotas:
   - "Disk Quotas"
