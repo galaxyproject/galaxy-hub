@@ -16,6 +16,7 @@ quotas:
   - "Must create an account to use the server.  Anyone can create an account, but you will need a Google ID to create one."
 citations:
   - "[FAIRness and Usability for Open-Access Omics Data Systems](https://ntrs.nasa.gov/search.jsp?R=20180007593), Daniel C. Berrios, Afshin Beheshti, Sylvain V. Costes. AMIA 2018 Annual Symposium; 3-7 Nov. 2018" 
+  - "[Exploring the Effects of Spaceflight on Mouse Physiology using the Open Access NASA GeneLab Platform](https://dx.doi.org/10.3791/58447), Afshin Beheshti, Yasaman Shirazi-Fard, Sungshin Choi, Daniel Berrios, Samrawit G. Gebre, Jonathan M. Galazka, Sylvain V. Costes. *Journal of Visual Experiments*, (143), e58447, doi:10.3791/58447 (2019)."
 pub_libraries:
   - "GeneLab"
 sponsors:
