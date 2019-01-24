@@ -10,7 +10,7 @@ Training topics are determined by the community via a nomination and [voting](#t
 
 # Training Topic Votes
 
-[More than 25 topics have been nominated by the community](#nominated-training-topics). The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
+More than 25 topics have been nominated by the community. The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
 
 - Introductions
     - [Introduction to Galaxy (Galaxy 101)](#introduction-to-galaxy)
@@ -26,31 +26,32 @@ Training topics are determined by the community via a nomination and [voting](#t
         - [RNA folding and design](#rna-folding-and-design)
         - [Single cell RNA-seq analysis](#single-cell-analysis)
         - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
-        - Reference-based RNA-seq analysis
-        - ATAC-seq data analysis
-    - Assembly
+        - [Reference-based RNA-seq analysis](#reference-based-rna-seq-analysis)
+    - Assembly & annotation
         - [Assembly and annotation and analysis of bacterial genomes](#assembly-and-annotation-of-bacterial-genomes)
         - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
-        - Small genome de novo assembly
+        - [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes-i)
+        - [Annotation of Eukaryotic Genomes II](#annotation-of-eukaryotic-genomes-ii)
     - Proteomics
         - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
         - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
     - Epigenetics
-        - ChIP-seq data analysis
         - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
-        - Exome sequencing data analysis
-        - DNA Methylation data analysis
-        - Hi-C analysis
-        - [Populations Genomics](#population-genomics)
+        - [DNA Methylation data analysis](#dna-methylation-data-analysis)
+        - [Hi-C analysis](#hi-c-analysis)
+        - [ChIP-seq data analysis](#chip-seq-data-analysis)
+    - Variant analysis
+        - [Variant calling I - from sequenced reads to variant lists](#variant-calling-i-from-sequenced-reads-to-variant-lists)
+        - [Variant Calling II - causative variant discovery](#variant-calling-ii-causative-variant-discovery)
+    - [Populations Genomics](#population-genomics)
     - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
     - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
-    - Variant annotation
-    - Metabolomics data analysis
+    - [Metabolomics data analysis](#metabolomics-data-analysis) (WIP)
 - Misc
     - [Handling integrated biological data using Python, Jupyter, and InterMine](#handling-integrated-biological-data-using-python-jupyter-and-intermine)
     - [Train the Galaxy Trainer](#train-the-galaxy-trainer)
     - [Making your open source project awesome](#making-your-open-source-project-awesome)
-    - Machine learning with Galaxy
+    - [Machine learning with Galaxy](#machine-learning-with-galaxy) (WIP)
 - Admin & Dev
     - [Intro to Galaxy Administration - step I](#intro-to-galaxy-administration-step-i)
     - [Intro to Galaxy Administration - step II](#intro-to-galaxy-administration-step-ii)
@@ -60,9 +61,8 @@ Training topics are determined by the community via a nomination and [voting](#t
     - [Running Galaxy on Kubernetes](#unning-galaxy-on-kubernetes)
     - [Using Galaxy for bridging WGS and Clinical Genetic Diagnostics](#using-galaxy-for-bridging-wgs-and-clinical-genetic-diagnostics)
     - [Visualisation development in Galaxy](#visualisation-development-in-galaxy)
-    - Galaxy Interactive Environments
-    - Galaxy Architecture
-    - Conda and containers for tool dependencies
+    - [Galaxy Interactive Environments](#galaxy-interactive-environments)
+    - [Galaxy Code Architecture](#galaxy-interactive-environments)
 
 [Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 24th** to **February, 1st**.
 
@@ -221,6 +221,24 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+### Reference-based RNA-seq analysis
+
+- How to analyze RNA sequencing data using a reference genome?
+
+**Learning objectives**
+
+- Apply proper mapper for RNA-sequencing data using a reference genome
+- Understand the process to identify differentially expressed genes
+- Apply a functional enrichment tool on differentially expressed genes
+
+**Prerequisites**
+
+* Slight biological background (you should know what proteins, RNA and DNA are).
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
 ## Population Genomics
 
 Use of RAD-seq, Genotyping by sequencing and similar data for analysis of populations, effects of selection, phylogeography studies.
@@ -231,7 +249,7 @@ Use of RAD-seq, Genotyping by sequencing and similar data for analysis of popula
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-## Assembly
+## Assembly & annotation
 
 ### Assembly and Annotation of Bacterial Genomes
 
@@ -257,6 +275,25 @@ The session would cover an introduction long read sequencing with technologies l
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+
+### Annotation of Eukaryotic Genomes I
+
+This training will give an introduction on the specificities of eukaryotic genome annotation to learn how to produce the structural annotation of a new eukaryotic genome.
+
+**Prerequisites**
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Annotation of Eukaryotic Genomes II
+
+After the [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes-i), we will use MAKER to annotate the genome sequence of a small eukaryote: Schizosaccharomyces pombe (a yeast).
+
+**Prerequisites**
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes-i) or prior exposure to eukaryotic genome annotation
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## Proteomics
 
@@ -290,6 +327,110 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+### DNA Methylation data analysis
+
+- What is methylation and why it cannot be recognised by a normal NGS procedure?
+- Can a different methylation influence the expression of a gene? How?
+- Which tools you can use to analyse methylation data?
+
+**Learning objectives**
+
+- Learn how to analyse methylation data
+- Get a first intuition what are common pitfalls in DNA methylation
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Hi-C analysis
+
+- Why is a Hi-C analysis useful?
+- What is 'chromosome conformation capture'?
+- What are main steps in order to generate and plot a Hi-C contact matrix?
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### ChIP-seq data analysis
+
+- What is an histone modification?
+- How is a raw set of ChIP-seq data processed and analyzed?
+
+**Learning objectives**
+
+- Assess the quality of a ChIP-seq experiment
+- Create coverage files
+- Call enriched regions or peaks
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Variant analysis
+
+### Variant calling I - from sequenced reads to variant lists
+
+- What exactly is variant calling?
+- How can I use Galaxy to call variants from my
+  (exome-, whole-genome-)sequenced samples?
+
+**Learning objectives**
+
+- Perform simple variant calling workflows including sequencing data quality control, read mapping and variant calling
+- Learn about different variant callers available for Galaxy and their
+  strengths and weaknesses
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Variant Calling II - causative variant discovery
+
+- Why is a simple list of variants for a sample not enough?
+- How can I explore called variants and compare them across samples?
+- How can I link variants to phenotypes, i.e., identify causative variants?
+
+**Learning objectives**
+
+- Use joint variant calling to facilitate variant comparison across samples
+- Filter, annotate and report lists of variants
+- Discover variant inheritance and linkage patterns
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* [Variant calling I - from sequenced reads to variant lists](#variant-calling-i-from-sequenced-reads-to-variant-lists) or variant calling
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
+### Exome sequencing data analysis
+
+- How to identify the genetic variation with the use of exome sequencing?
+- What is the pipeline of the process of finding genetic variation which caused the disease?
+
+**Learning objectives**
+
+- Identify the genetic variation using the exome sequencing
+- Use FreeBayes calls for variants generating
+- Run variant analysis and GEMINI queries
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
 ## Ecology
 
 The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
@@ -314,6 +455,13 @@ The Ecology session will introduce using Galaxy to import (from external sources
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+## Metabolomics data analysis
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ----
 
@@ -372,6 +520,9 @@ Many journals require that scientific / research code to be open source in order
 - Interest in open source code.
 
 
+## Machine learning with Galaxy
+
+----
 # Administration & Development
 
 ## Intro to Galaxy Administration - step I
@@ -461,14 +612,15 @@ As WGS price dropped below 1k USD the usage of WGS became a reality for clinical
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-
 ## Visualisation Development in Galaxy
 
 In this age of high-throughput analysis and big data, visualisations have become an invaluable resource for the presentation and exploration of these often high-dimensional, complex, and large datasets.
 
 While many tools in Galaxy produce static visual outputs (graphs, trees, etc), often some more interactivity is desired to aid in the exploration of these datasets. To support this need, Galaxy offers a range of visualisation options, such as Trackster for browsing genomic data and Charts for the interactive visualisation of tabular data and other datatypes.
 
-In this workshop participants will learn how to develop such visualisations in Galaxy, more specifically: - Develop a module within the Charts visualisation plugin using Javascript - Develop a simple visualisation plugin from scratch
+In this workshop participants will learn how to develop such visualisations in Galaxy, more specifically: 
+- Develop a module within the Charts visualisation plugin using Javascript 
+- Develop a simple visualisation plugin from scratch
 
 **Prerequisites**
 
@@ -476,5 +628,31 @@ In this workshop participants will learn how to develop such visualisations in G
 * Some familiarity with Javascript.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+## Galaxy Interactive Environments
 
+- What are Galaxy Interactive Environments (GIEs)?
+- How to enable GIEs in Galaxy?
+- How to develop your own GIE?
 
+**Learning objectives**
+- Implement a Hello-World Galaxy Interactive Environment
+
+**Prerequisites**
+
+* Basic understanding of Galaxy from a developer point of view.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
+
+## Galaxy Code Architecture
+
+- How is the Galaxy code structured?
+- What do the various other projects related to Galaxy do?
+- What happens when I start Galaxy?
+
+**Learning objectives**
+- Explore various aspects of the Galaxy codebase.
+- Understand the various top-level files and modules in Galaxy.
+- Understand how dependencies work in Galaxy's frontend and backend.
+
+**Prerequisites**
+
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
