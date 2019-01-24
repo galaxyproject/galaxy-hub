@@ -4,24 +4,23 @@
 
 Training on a wide range of topics will be offered before *and during* the GCC2019 meeting.
 
-Training topics are determined by the community via a [nomination](#training-topic-nominations) and [voting](#training-topic-votes) process. **The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
+Training topics are determined by the community via a nomination and [voting](#training-topic-votes) process.
+
+**The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
 
 # Training Topic Votes
 
-[More than 25 topics have been nominated by the community](#clip-seq-data-analysis-from-pre-processing-to-motif-detection). The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
+[More than 25 topics have been nominated by the community](#nominated-training-topics). The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
 
 - Introductions
-    - Introduction to Galaxy (Galaxy 101)
-    - Visualization of HTS Data in Galaxy
-    - [Advanced usage of the Galaxy interface](#advanced-usage-of-the-galaxy-frontend-focus-on-ngs)
-    - [Big data analysis with Galaxy](#visualization)
-    - Data file conversion
-    - [Integration of various methods (Hi-C, WGBS, RNA, ChIP..)](#visualization)
-    - Quality control of HTS data
-    - Mapping of HTS data
+    - [Introduction to Galaxy (Galaxy 101)](#introduction-to-galaxy)
+    - [Beyond the Intro: Further Adventures in Using Galaxy](#beyond-the-intro-further-adventures-in-using-galaxy)
+    - [Quality control of HTS Data](#quality-control-of-hts-data)
+    - [Analyzing Large / Complex Experimental Designs with Galaxy](#analyzing-large-complex-experimental-designs-with-galaxy)
+    - [Visualization of HTS Data in Galaxy](#visualization-of-hts-data-in-galaxy)
 - Topic-specific data analysis
     - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
-    - A[ssembly, annotation and analysis of bacterial genomes](#analysis-of-bacterial-genomes)
+    - [Assembly, annotation and analysis of bacterial genomes](#analysis-of-bacterial-genomes)
     - Small genome de novo assembly
     - Metagenomics with Galaxy
     - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
@@ -63,26 +62,102 @@ Training topics are determined by the community via a [nomination](#training-top
     - Conda and containers for tool dependencies
     - [Visualisation development in Galaxy](#visualisation-development-in-galaxy)
 
+    - [Advanced usage of the Galaxy interface](#advanced-usage-of-the-galaxy-frontend-focus-on-ngs)
+    - [Big data analysis with Galaxy](#visualization)
+    - Data file conversion
+    - [Integration of various methods (Hi-C, WGBS, RNA, ChIP..)](#visualization)
+    - Mapping of HTS data
+
+
 [Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 24th** to **February, 1st**.
 
-# Training Topic Nominations
+# Nominated Training Topics
 
-Nominated topics can cover a wide range. For example:
-- Introduction to Using Galaxy
-- Scientific topic oriented trainings
-- Community specific trainings
-- Development and administration around Galaxy
-- Train the trainers
+## Introductions
 
-This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](bit.ly/gcc2016noms), [2015](bit.ly/gcc2015vote), [2014](bit.ly/1s6NtMN), [2013]( bit.ly/1i2j1gN) and the [Galaxy Events page](galaxyproject.org/events/).
+These topics are about general platform usage, and cover features that are useful across the research domains covered under [Topic-specific Data Analysis](#topic-specific-data-analysis) nominations.
 
-[Training topic nomination](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/) is open from **December, 1st** to **January, 15th**. Topics will be compiled by the GCC2019 Organizing Committee, and voted on by the Galaxy Community in February.
+### Introduction to Galaxy
 
-Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session. Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
+Introduce the Galaxy user interface and how it can be used to analyze large datasets. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
 
-Here are the topics that have been nominated as of 15 January:
+**Prerequisites**
 
-## CLIP-Seq data analysis from pre-processing to motif detection
+* Little or no experience using Galaxy.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+ ### Advanced usage of the Galaxy frontend - focus on NGS
+
+Advanced workflows, tricks, novel features, data organization and collections, tags.
+
+became
+
+### Beyond the Intro: Further Adventures in Using Galaxy
+
+This workshop continues where the Introduction to Galaxy session ends. Additional features of Galaxy will be introduced and several topics introduced in that first session will be explored in more detail. Topics covered will include
+
+- Uploading data via FTP
+- History management
+- Defining and using custom reference genomes
+- Using Tagging and Annotation to manage your Galaxy objects
+- More on workflow editing and management
+- More on sharing and publishing
+- Using Galaxy to help debug your analyses
+
+**Prerequisites**
+
+- [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Quality Control of HTS Data
+
+Often the first step in high throughput sequencing data analysis is quality control. How reliable is the data? Does it have GC bias, or inaccuracies at the read ends, or contamination, or barcode corruption, or any number of other conditions that need to be detected and dealt with before the science begins. This workshop will provide hands-on experience performing quality control checks and how to get your data analysis-ready using Galaxy.
+
+If you are unfamiliar with high throughput sequencing data, then this is a good introduction to HTS data.
+
+**Prerequisites**
+
+- [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+ ### Big data analysis with Galaxy
+
+Became
+
+### Analyzing Large / Complex Experimental Designs with Galaxy
+
+Learn how to successfully manage the analysis of large, complex experimental designs in Galaxy, from raw data intake through final summarized (and publishable) results.  This workshop will focus on enhancements to Galaxy from the last few years that enable Galaxy to scale to handle large studies with tens of thousands of datasets.
+
+**Prerequisites**
+
+- [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Visualization of HTS Data in Galaxy
+
+Visualization of NGS data from various methods (Hi-C, WGBS, RNA, ChIP...). This workshop will focus on visualization of large datasets in Galaxy, focusing on high-throughput sequencing (HTS) data and the resulting downstream, aggregated data. Participants will visualise alignments, variation, expression levels, and annotations. The workshop will use widely available visualization tools.
+
+**Prerequisites**
+
+- [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+- Experience with HTS data processing
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Topic-specific data analysis
+
+These nominations are about how to do specific types of analysis within Galaxy.
+
+## RNA Workbench
+
+- *The RNA Workbench:* best practices for RNA and high-throughput sequencing bioinformatics in Galaxy.
+
+**Prerequisites**
+
+- Introduction to Galaxy.
+
+
+### CLIP-Seq data analysis from pre-processing to motif detection
 
 - Introduction to CLIP-Seq (What is CLIP-Seq? Why is it important? What are the standard protocols?).
 - Data Analysis:
@@ -143,14 +218,6 @@ Here are the topics that have been nominated as of 15 January:
 
 - Participants should have some experience programming in Python, and maybe a running Docker Galaxy instance on their laptops
 
-
-## RNA Workbench
-
-- *The RNA Workbench:* best practices for RNA and high-throughput sequencing bioinformatics in Galaxy
-
-**Prerequisites**
-
-- Introduction to Galaxy.
 
 ## RNA Folding and Design
 
@@ -267,21 +334,6 @@ Quality control and preprocessing of MALDI imaging data.
 - Galaxy introduction.
 
 
-## Advanced usage of the Galaxy frontend - focus on NGS
-
-Advanced workflows, tricks, novel features, data organization and collections, tags.
-
-**Prerequisites**
-
-- basic knowledge and experience with the Galaxy user interface
-
-## Visualization 
-
-Visualization of NGS data, Integration of various methods (Hi-C, WGBS, RNA, ChIP..)
-
-**Prerequisites**
-
-- advanced experience with NGS data processing and Galaxy usage
 
 ## Single cell analysis
 
