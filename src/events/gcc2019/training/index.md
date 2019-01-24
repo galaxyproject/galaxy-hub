@@ -12,14 +12,14 @@ Training topics are determined by the community via a nomination and [voting](#t
 
 More than 25 topics have been nominated by the community. The GCC2019 Organizing Committee compiled them and expanded this list with community requests and topics from the previous GCC to offer a large list of possible training to the community:
 
-- Introductions
+- [Introductions](#introductions)
     - [Introduction to Galaxy (Galaxy 101)](#introduction-to-galaxy)
     - [Beyond the Intro: Further Adventures in Using Galaxy](#beyond-the-intro-further-adventures-in-using-galaxy)
     - [Quality control of HTS Data](#quality-control-of-hts-data)
     - [Analyzing Large / Complex Experimental Designs with Galaxy](#analyzing-large-complex-experimental-designs-with-galaxy)
     - [Visualization of HTS Data in Galaxy](#visualization-of-hts-data-in-galaxy)
-- Topic-specific data analysis
-    - RNA and transcriptomics
+- [Topic-specific data analysis](#topic-specific-data-analysis)
+    - [RNA and transcriptomics](#rna-and-transcriptomics)
         - [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](#rna-workbench)
         - [Alternative Splicing](#alternative-splicing)
         - [In-depth exploration of small RNAseq data](#a-galaxy-based-pipeline-for-bioinformatic-in-depth-exploration-of-small-rnaseq-data)
@@ -27,32 +27,32 @@ More than 25 topics have been nominated by the community. The GCC2019 Organizing
         - [Single cell RNA-seq analysis](#single-cell-analysis)
         - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
         - [Reference-based RNA-seq analysis](#reference-based-rna-seq-analysis)
-    - Assembly & annotation
+    - [Assembly & annotation](#assembly-annotation)
         - [Assembly and annotation and analysis of bacterial genomes](#assembly-and-annotation-of-bacterial-genomes)
         - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
         - [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes-i)
         - [Annotation of Eukaryotic Genomes II](#annotation-of-eukaryotic-genomes-ii)
-    - Proteomics
+    - [Proteomics](#proteomics)
         - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
         - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
-    - Epigenetics
+    - [Epigenetics](#epigenetics)
         - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
         - [DNA Methylation data analysis](#dna-methylation-data-analysis)
         - [Hi-C analysis](#hi-c-analysis)
         - [ChIP-seq data analysis](#chip-seq-data-analysis)
-    - Variant analysis
+    - [Variant analysis](#variant-analysis)
         - [Variant calling I - from sequenced reads to variant lists](#variant-calling-i-from-sequenced-reads-to-variant-lists)
         - [Variant Calling II - causative variant discovery](#variant-calling-ii-causative-variant-discovery)
     - [Populations Genomics](#population-genomics)
     - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
     - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
     - [Metabolomics data analysis](#metabolomics-data-analysis) (WIP)
-- Misc
+- [Misc](#misc)
     - [Handling integrated biological data using Python, Jupyter, and InterMine](#handling-integrated-biological-data-using-python-jupyter-and-intermine)
     - [Train the Galaxy Trainer](#train-the-galaxy-trainer)
     - [Making your open source project awesome](#making-your-open-source-project-awesome)
     - [Machine learning with Galaxy](#machine-learning-with-galaxy) (WIP)
-- Admin & Dev
+- [Admin & Dev](#administration-development)
     - [Intro to Galaxy Administration - step I](#intro-to-galaxy-administration-step-i)
     - [Intro to Galaxy Administration - step II](#intro-to-galaxy-administration-step-ii)
     - [Intro to Galaxy Administration - step III](#intro-to-galaxy-administration-step-iii)
@@ -83,11 +83,6 @@ Introduce the Galaxy user interface and how it can be used to analyze large data
 * Little or no experience using Galaxy.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
- ### Advanced usage of the Galaxy frontend - focus on NGS
-
-Advanced workflows, tricks, novel features, data organization and collections, tags.
-
-became
 
 ## Beyond the Intro: Further Adventures in Using Galaxy
 
@@ -116,10 +111,6 @@ If you are unfamiliar with high throughput sequencing data, then this is a good 
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
- ### Big data analysis with Galaxy
-
-Became
 
 ## Analyzing Large / Complex Experimental Designs with Galaxy
 
@@ -194,7 +185,7 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 
 ### Single cell analysis
 
-- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
+Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
 
 **Prerequisites**
 
@@ -223,7 +214,7 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 
 ### Reference-based RNA-seq analysis
 
-- How to analyze RNA sequencing data using a reference genome?
+How to analyze RNA sequencing data using a reference genome?
 
 **Learning objectives**
 
@@ -308,7 +299,7 @@ Protein identification and quantification.
 
 ### MALDI imaging of peptides data analysis with Galaxy
 
-Quality control and preprocessing of MALDI imaging data.
+Quality control and preprocessing of [MALDI imaging data](https://en.wikipedia.org/wiki/MALDI_imaging).
 
 **Prerequisites**
 
@@ -346,7 +337,7 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 
 ### Hi-C analysis
 
-- Why is a Hi-C analysis useful?
+- Why is a [Hi-C](https://en.wikipedia.org/wiki/Chromosome_conformation_capture#Hi-C_(all-vs-all)) analysis useful?
 - What is 'chromosome conformation capture'?
 - What are main steps in order to generate and plot a Hi-C contact matrix?
 
@@ -433,7 +424,7 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 
 ## Ecology
 
-The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
+The Ecology session will introduce using Galaxy to import (from external sources as [GBIF](https://www.gbif.org/), [iNaturalist](https://www.inaturalist.org/), [Atlas of Living Australia](https://www.ala.org.au/) or [Zenodo repositories](https://zenodo.org/search?page=1&size=20&q=ecology)), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
 
 **Prerequisites**
 
@@ -457,6 +448,10 @@ The Ecology session will introduce using Galaxy to import (from external sources
 
 ## Metabolomics data analysis
 
+Metabolomics data analysis is a complex, multistep process, which is constantly evolving with the development of new analytical technologies, mathematical methods, and bioinformatics tools and databases. The [Workflow4Metabolomics (W4M)](https://workflow4metabolomics.org/) project aims to develop full LC/MS, GC/MS, FIA/MS and NMR pipelines using Galaxy framework for data analysis including preprocessing, normalization, quality control, statistical analysis and annotation steps.
+
+This workshop will introduce W4M and how to use it for metabolomics data analysis.
+
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
@@ -469,7 +464,7 @@ The Ecology session will introduce using Galaxy to import (from external sources
 
 ## Handling integrated biological data using Python, Jupyter, and InterMine
 
-This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic data) using InterMine, either via UI or via an API in Python. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
+This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic data) using [InterMine](http://intermine.org/), either via UI or via an API in Python. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
 
 Users will also be shown how to import and export their gene and protein lists to and from Galaxy to link Galaxy pipelines with InterMine analyses
 
@@ -492,7 +487,7 @@ This workshop will introduce:
     * TIaaS
     * Your own
 * The available materials
-    * GTN tutorials
+    * [GTN tutorials](https://training.galaxyproject.org/)
     * and/or write your own; including how to contribute it to GTN
     * Customising materials for your needs (Slides, language etc.)
 * Distributed workshops
@@ -503,7 +498,7 @@ This workshop will introduce:
     * eg. choose a topic from GTN
     * check that it runs on Galaxy server of choice
     * time it  // modify if need be (e.g. cut down data set more?)
-    * create schedule, eg google doc -> publish -> tinyurl
+    * create schedule, eg google doc &rarr; publish &rarr; tinyurl
 * Getting good feedback!
 
 **Prerequisites**
@@ -513,9 +508,12 @@ This workshop will introduce:
 
 ## Making your open source project awesome
 
-Many journals require that scientific / research code to be open source in order to be published, but simply sharing source code alone isn’t usually enough to draw in new users and contributors. This session will teach researchers and coders the basics of how to make their open source code repositories inclusive and welcoming to contributors.
+Many journals require that scientific / research code to be open source in order to be published, but simply sharing source code alone isn’t usually enough to draw in new users and contributors. This session will discuss how researchers and coders can make their open source code repositories inclusive and welcoming to contributors.
+
+This workshop will be led by members of the [InterMine](http://intermine.org) and Galaxy teams *(and hopefully other equally awesome projects).*
 
 **Prerequisites**
+
 - A laptop with wifi
 - Interest in open source code.
 
@@ -523,6 +521,7 @@ Many journals require that scientific / research code to be open source in order
 ## Machine learning with Galaxy
 
 ----
+
 # Administration & Development
 
 ## Intro to Galaxy Administration - step I
@@ -531,7 +530,7 @@ After attending this session you will be able to set up, configure, and administ
 
 Topics include:
 * deployment and platform options
-* using Ansible to install and configure your own server
+* using [Ansible](https://www.ansible.com/) to install and configure your own server
 * customizing and extending your instance
 * defining and importing genomes, running data managers"
 
@@ -549,7 +548,7 @@ Topics include:
 * database overview and best practices
 * running tools in containers
 * users and groups and quotas
-* storage management and using heterogeneous storage services"
+* storage management and using heterogeneous storage services
 
 **Prerequisites**
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor
@@ -562,14 +561,14 @@ After attending this and both previous 'steps [I](#intro-to-galaxy-administratio
 * exploring the Galaxy job configuration file
 * connecting Galaxy to compute clusters
 * polishing Galaxy on uWSGI application server
-* instance monitoring using Grafana
-* shared data management with CVMFS
+* instance monitoring using [Grafana](http://docs.grafana.org/)
+* shared data management with [CVMFS](https://cernvm.cern.ch/portal/filesystem)
 * when things go wrong: Galaxy server troubleshooting tips & examples"
 
 **Prerequisites**
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor
   *  If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
-* Knowledge of topics from or attendance of steps [I](#intro-to-galaxy-administration-step-i) and [II](#intro-to-galaxy-administration-step-ii)"
+* Knowledge of topics from or attendance of steps [I](#intro-to-galaxy-administration-step-i) and [II](#intro-to-galaxy-administration-step-ii)
 
 ## How to create a Galaxy Tool
 
@@ -584,7 +583,7 @@ This session will walk bioinformaticians, developers, and admins through the pro
 
 ## Scripting Galaxy through BioBlend
 
-Galaxy has an always-growing API that allows for external programs to upload and download data, manage histories and datasets, run tools and workflows, and even perform admin tasks. This session will cover various approaches to access the API, in particular using the BioBlend Python library.
+Galaxy has an always-growing API that allows for external programs to upload and download data, manage histories and datasets, run tools and workflows, and even perform admin tasks. This session will cover various approaches to access the API, in particular using the [BioBlend Python library](https://bioblend.readthedocs.io/en/latest/).
 
 **Prerequisites**
 
@@ -596,7 +595,7 @@ Galaxy has an always-growing API that allows for external programs to upload and
 
 ## Running Galaxy on Kubernetes
 
-Do technologies like Docker, Kubernetes, and Helm sound interesting? How about standardized, production-grade deployment of Galaxy with a single command, or no-downtime configuration changes? In this training we will take a look at the basics of Helm and Kubernetes, a Helm Chart for Galaxy, delve into how to set and change Galaxy deployment configurations, how to interface Galaxy jobs with Kubernetes, etc.
+Do technologies like [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), and [Helm](https://helm.sh/) sound interesting? How about standardized, production-grade deployment of Galaxy with a single command, or no-downtime configuration changes? In this training we will take a look at the basics of Helm and Kubernetes, a Helm Chart for Galaxy, delve into how to set and change Galaxy deployment configurations, how to interface Galaxy jobs with Kubernetes, etc.
 
 **Prerequisites**
 
@@ -604,7 +603,7 @@ Do technologies like Docker, Kubernetes, and Helm sound interesting? How about s
 
 ## Using Galaxy for bridging WGS and Clinical Genetic Diagnostics
 
-As WGS price dropped below 1k USD the usage of WGS became a reality for clinical genetic diagnostics. On the other hand several laboratories of clinical genetic diagnostics have set up their data analysis environments based on the Exome-Seq specifications. Galaxy can be used to provide a smooth transition from Exome Seq data analysis to WGS by performing the first steps of data analysis on remote servers and transfering to the diagnostic lab the vcf file. Moreover these standard analysis pipelines could be accessed directly by the clinical diagnostic staff and could be connected to the local EGA repositories for immediate achieving of the generated datasets. Galaxy container technology would allow the maximal reproducibility and safety of these processes. In our session we will focus on presenting the typical diagnostic environment, diagnostic requirements, and the ethical and legal aspects to be taken into consideration when dealing with clinical diagnostic genomic data analysis.
+As [WGS](https://en.wikipedia.org/wiki/Whole_genome_sequencing) price dropped below 1k USD the usage of WGS became a reality for clinical genetic diagnostics. On the other hand several laboratories of clinical genetic diagnostics have set up their data analysis environments based on the Exome-Seq specifications. Galaxy can be used to provide a smooth transition from Exome Seq data analysis to WGS by performing the first steps of data analysis on remote servers and transfering to the diagnostic lab the vcf file. Moreover these standard analysis pipelines could be accessed directly by the clinical diagnostic staff and could be connected to the local [EGA repositories](https://ega-archive.org/) for immediate achieving of the generated datasets. Galaxy container technology would allow the maximal reproducibility and safety of these processes. In our session we will focus on presenting the typical diagnostic environment, diagnostic requirements, and the ethical and legal aspects to be taken into consideration when dealing with clinical diagnostic genomic data analysis.
 
 **Prerequisites**
 
