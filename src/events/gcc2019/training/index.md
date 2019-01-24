@@ -19,29 +19,31 @@ Training topics are determined by the community via a nomination and [voting](#t
     - [Analyzing Large / Complex Experimental Designs with Galaxy](#analyzing-large-complex-experimental-designs-with-galaxy)
     - [Visualization of HTS Data in Galaxy](#visualization-of-hts-data-in-galaxy)
 - Topic-specific data analysis
-    - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
-    - [Assembly, annotation and analysis of bacterial genomes](#analysis-of-bacterial-genomes)
+    - RNA
+        - [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](#rna-workbench)
+        - [Alternative Splicing](#alternative-splicing)
+        - [In-depth exploration of small RNAseq data](#a-galaxy-based-pipeline-for-bioinformatic-in-depth-exploration-of-small-rnaseq-data)
+        - [RNA folding and design](#rna-folding-and-design)
+    - [Populations Genomics](#population-genomics)
+    - Assembly
+        - [Assembly and annotation and analysis of bacterial genomes](#assembly-and-annotation-of-bacterial-genomes)
+        - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
+    - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
+    - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
+    - [Single cell RNA-seq analysis](#single-cell-analysis)
+    - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
+    - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
+    - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
+    - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
     - Small genome de novo assembly
     - Metagenomics with Galaxy
-    - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
-    - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
-    - [Alternative splicing](#alternative-splicing)
     - Reference-based RNA-seq analysis
-    - [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](#rna-workbench)
-    - [RNA folding and design](#rna-folding-and-design)
-    - [Single cell RNA-seq analysis](#single-cell-analysis)
     - Exome sequencing data analysis
     - ATAC-seq data analysis
     - Variant annotation
-    - [In-depth exploration of small RNAseq data](#a-galaxy-based-pipeline-for-bioinformatic-in-depth-exploration-of-small-rnaseq-data)
-    - [Populations genomics with RADseq](#population-genomics)
-    - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
-    - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
     - ChIP-seq data analysis
     - DNA Methylation data analysis
     - Hi-C analysis
-    - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
-    - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
     - Metabolomics data analysis
     - Galaxy for proteogenomics
 - Misc
@@ -50,34 +52,29 @@ Training topics are determined by the community via a nomination and [voting](#t
     - [Making your open source project awesome](#making-your-open-source-project-awesome)
     - Machine learning with Galaxy
 - Admin & Dev
-    - [Scripting Galaxy through BioBlend](#scripting-galaxy-through-bioblend)
-    - [Running Galaxy on Kubernetes](#unning-galaxy-on-kubernetes)
-    - [Using Galaxy for bridging WGS and Clinical Genetic Diagnostics](#using-galaxy-for-bridging-wgs-and-clinical-genetic-diagnostics)
     - [Intro to Galaxy Administration - step I](#intro-to-galaxy-administration-step-i)
     - [Intro to Galaxy Administration - step II](#intro-to-galaxy-administration-step-ii)
     - [Intro to Galaxy Administration - step III](#intro-to-galaxy-administration-step-iii)
+    - [How to create a Galaxy Tool](#how-to-create-a-galaxy-tool)
+    - [Scripting Galaxy through BioBlend](#scripting-galaxy-through-bioblend)
+    - [Running Galaxy on Kubernetes](#unning-galaxy-on-kubernetes)
+    - [Using Galaxy for bridging WGS and Clinical Genetic Diagnostics](#using-galaxy-for-bridging-wgs-and-clinical-genetic-diagnostics)
+    - [Visualisation development in Galaxy](#visualisation-development-in-galaxy)
     - Galaxy Interactive Environments
     - Galaxy Architecture
-    - [How to create a Galaxy Tool](#how-to-create-a-galaxy-tool)
     - Conda and containers for tool dependencies
-    - [Visualisation development in Galaxy](#visualisation-development-in-galaxy)
-
-    - [Advanced usage of the Galaxy interface](#advanced-usage-of-the-galaxy-frontend-focus-on-ngs)
-    - [Big data analysis with Galaxy](#visualization)
-    - Data file conversion
-    - [Integration of various methods (Hi-C, WGBS, RNA, ChIP..)](#visualization)
-    - Mapping of HTS data
-
 
 [Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 24th** to **February, 1st**.
 
+----
+
 # Nominated Training Topics
 
-## Introductions
+# Introductions
 
 These topics are about general platform usage, and cover features that are useful across the research domains covered under [Topic-specific Data Analysis](#topic-specific-data-analysis) nominations.
 
-### Introduction to Galaxy
+## Introduction to Galaxy
 
 Introduce the Galaxy user interface and how it can be used to analyze large datasets. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
 
@@ -92,7 +89,7 @@ Advanced workflows, tricks, novel features, data organization and collections, t
 
 became
 
-### Beyond the Intro: Further Adventures in Using Galaxy
+## Beyond the Intro: Further Adventures in Using Galaxy
 
 This workshop continues where the Introduction to Galaxy session ends. Additional features of Galaxy will be introduced and several topics introduced in that first session will be explored in more detail. Topics covered will include
 
@@ -109,7 +106,7 @@ This workshop continues where the Introduction to Galaxy session ends. Additiona
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-### Quality Control of HTS Data
+## Quality Control of HTS Data
 
 Often the first step in high throughput sequencing data analysis is quality control. How reliable is the data? Does it have GC bias, or inaccuracies at the read ends, or contamination, or barcode corruption, or any number of other conditions that need to be detected and dealt with before the science begins. This workshop will provide hands-on experience performing quality control checks and how to get your data analysis-ready using Galaxy.
 
@@ -124,7 +121,7 @@ If you are unfamiliar with high throughput sequencing data, then this is a good 
 
 Became
 
-### Analyzing Large / Complex Experimental Designs with Galaxy
+## Analyzing Large / Complex Experimental Designs with Galaxy
 
 Learn how to successfully manage the analysis of large, complex experimental designs in Galaxy, from raw data intake through final summarized (and publishable) results.  This workshop will focus on enhancements to Galaxy from the last few years that enable Galaxy to scale to handle large studies with tens of thousands of datasets.
 
@@ -134,30 +131,105 @@ Learn how to successfully manage the analysis of large, complex experimental des
 - [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-### Visualization of HTS Data in Galaxy
+## Visualization of HTS Data in Galaxy
 
 Visualization of NGS data from various methods (Hi-C, WGBS, RNA, ChIP...). This workshop will focus on visualization of large datasets in Galaxy, focusing on high-throughput sequencing (HTS) data and the resulting downstream, aggregated data. Participants will visualise alignments, variation, expression levels, and annotations. The workshop will use widely available visualization tools.
 
 **Prerequisites**
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-- Experience with HTS data processing
+- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-## Topic-specific data analysis
+----
+
+# Topic-specific data analysis
 
 These nominations are about how to do specific types of analysis within Galaxy.
 
-## RNA Workbench
+## RNA
 
-- *The RNA Workbench:* best practices for RNA and high-throughput sequencing bioinformatics in Galaxy.
+### RNA Workbench
+
+Learn best practices for RNA and high-throughput sequencing bioinformatics in Galaxy using tools available in *the [RNA Workbench](/src/use/rna-workbench/index.md):* 
 
 **Prerequisites**
 
-- Introduction to Galaxy.
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Alternative splicing
+
+A deep dive into qualitative and quantitative analysis of alternative splice variants. Special emphasis on reliability of predictions and quantifications. Comparison of different approaches: e.g. Stringtie, Cufflinks, kallisto-sleuth, MISO, SpliceSeq, ... Some tools might be outside of Galaxy.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [RNA Workbench](#rna-workbench) or prior exposure to RNA-Seq data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### A Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data
+
+The field of small RNA is one of the most investigated research areas since they were shown to regulate transposable elements and gene expression and play essential roles in fundamental biological processes. Small RNA deep sequencing (sRNA-seq) is now routinely used for large-scale analyses of small RNA. Such high-throughput sequencing typically produces several millions reads.
+
+Here we present a computational pipeline (sRNAPipe: small RNA pipeline) based on the Galaxy framework that takes as input a fastq file of small RNA-seq reads and performs successive steps of mapping to categories of genomic sequences: transposable elements, gene transcripts, microRNAs, small nuclear RNAs, ribosomal RNAs and transfer RNAs. It also provides individual mapping and counting for chromosomes, transposable elements and gene transcripts, normalization, small RNA length analysis and plotting of the data along genomic coordinates to build publication-quality graphs and figures. sRNAPipe evaluates 10-nucleotide 5′-overlaps of reads on opposite strands to test ping-pong amplification for putative PIWI-interacting RNAs, providing counts of overlaps and corresponding z-scores.
+
+sRNAPipe is easy to use and does not require command-line or coding knowledge. This pipeline gives quick visual and quantitative results, which are usable for publications. sRNAPipe is freely available as a Galaxy tool and via GitHub.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### RNA Folding and Design
+
+*in silico* (using Galaxy) folding of RNA secondary structure and structure guided design of RNAs
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 
-### CLIP-Seq data analysis from pre-processing to motif detection
+## Population Genomics
+
+Use of RAD-seq, Genotyping by sequencing and similar data for analysis of populations, effects of selection, phylogeography studies.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Assembly
+
+### Assembly and Annotation of Bacterial Genomes
+
+Assembly and annotation of bacterial genomes: Antibiotics resistance predictions, Virulence genes, Insertion sequences, Phages/prophages and Plasmid profiling
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing
+
+The session would cover an introduction long read sequencing with technologies like Oxford Nanopore. Followed by presenting tools in Galaxy to
+  - description of best practices to perform genome assembly from long reads or hybrid long-short reads,
+  - determine and plot the structure of genome
+  - application use-cases such as determining antimicrobial resistance genes from the data
+
+**Prerequisites**
+
+* Basic understanding of Genomics
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## CLIP-Seq data analysis from pre-processing to motif detection
 
 - Introduction to CLIP-Seq (What is CLIP-Seq? Why is it important? What are the standard protocols?).
 - Data Analysis:
@@ -171,93 +243,10 @@ These nominations are about how to do specific types of analysis within Galaxy.
 
 **Prerequisites**
 
-- Slight biological background (you should know what proteins, RNA and DNA is).
-
-## Population Genomics
-
-- Use of Radseq, Genotyping by sequencing and similar data for analysis of populations, effects of selection, phylogeography studies
-
-**Prerequisites**
-
-- Basic Galaxy and genomics data analysis
-
-
-## Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing
-
-- The session would cover an introduction long read sequencing with technologies like Oxford Nanopore. Followed by presenting tools in Galaxy to
-  - quality control of reads,
-  - description of best practices to perform genome assembly from long reads or hybrid long-short reads,
-  - determine and plot the structure of genome
-  - application use-cases such as determining antimicrobial resistance genes from the data
-
-**Prerequisites**
-
-- Basic understanding of Genomics
-
-## Analysis of bacterial genomes
-
-- Assembly and annotation of bacterial genomes: Antibiotics resistance predictions, Virulence genes, Insertion sequences, Phages/prophages and Plasmid profiling
-
-**Prerequisites**
-
-- Introduction to Galaxy
-
-## Alternative splicing
-
-- Qualitative and quantitative analysis of alternative splice variants. Special emphasis on reliability of predictions and quantifications. Comparison of different approaches: e.g. Stringtie, Cufflinks, kallisto-sleuth, MISO, SpliceSeq, ... Some tools might be outside of Galaxy.
-
-**Prerequisites**
-
-- Introduction to Galaxy.
-
-## Scripting Galaxy through BioBlend
-
--
-
-**Prerequisites**
-
-- Participants should have some experience programming in Python, and maybe a running Docker Galaxy instance on their laptops
-
-
-## RNA Folding and Design
-
-- *in silico* (using Galaxy) folding of RNA secondary structure and structure guided design of RNAs
-
-**Prerequisites**
-
-- Introduction to Galaxy.
-
-## Using Galaxy for bridging WGS and Clinical Genetic Diagnostics
-
-As WGS price dropped below 1k USD the usage of WGS became a reality for clinical genetic diagnostics. On the other hand several laboratories of clinical genetic diagnostics have set up their data analysis environments based on the Exome-Seq specifications. Galaxy can be used to provide a smooth transition from Exome Seq data analysis to WGS by performing the first steps of data analysis on remote servers and transfering to the diagnostic lab the vcf file. Moreover these standard analysis pipelines could be accessed directly by the clinical diagnostic staff and could be connected to the local EGA repositories for immediate achieving of the generated datasets. Galaxy container technology would allow the maximal reproducibility and safety of these processes. In our session we will focus on presenting the typical diagnostic environment, , diagnostic requirements, and the ethical and legal aspects to be taken into consideration when dealing with clinical diagnostic genomic data analysis.
-
-**Prerequisites**
-
-- Introduction to Galaxy.
-
-## Running Galaxy on Kubernetes
-
-Do technologies like Docker, Kubernetes, and Helm sound interesting? How about standardized, production-grade deployment of Galaxy with a single command, or no-downtime configuration changes? In this training we will take a look at the basics of Helm and Kubernetes, a Helm Chart for Galaxy, delve into how to set and change Galaxy deployment configurations, how to interface Galaxy jobs with Kubernetes, etc.
-
-**Prerequisites**
-
-- An understanding of Galaxy deployment requirements, comfortable on the command line, ideally, an understanding of container principles.
-
-## Ecology
-
-The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
-
-**Prerequisites**
-
-- Galaxy introduction training
-
-## EWAS data analysis for population epigenetics integrated into Galaxy
-
-Epigenetic aberrations which involve DNA modifications give researchers an interest to identify novel non-genetic factors responsible for complex human phenotypes such as height, weight, and disease. The goal of this session is to analyse differentially methylated regions in treatment resistant melanomas using Galaxy.
-
-**Prerequisites**
-
-- Introduction to Galaxy
+* Slight biological background (you should know what proteins, RNA and DNA are).
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## Metatranscriptomics & multi-omics microbiome analysis
 
@@ -270,7 +259,72 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 **Prerequisites**
 
 * Basic knowledge and interest in microbiome analysis.
-* Basic knowledge of use of Galaxy usage (Galaxy 101).
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Single cell analysis
+
+- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Proteomic Data Analysis with Galaxy
+
+Protein identification and quantification.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## MALDI imaging of peptides data analysis with Galaxy
+
+Quality control and preprocessing of MALDI imaging data.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Ecology
+
+The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## EWAS data analysis for population epigenetics integrated into Galaxy
+
+Epigenetic aberrations which involve DNA modifications give researchers an interest to identify novel non-genetic factors responsible for complex human phenotypes such as height, weight, and disease. The goal of this session is to analyse differentially methylated regions in treatment resistant melanomas using Galaxy.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+----
+
+# Misc
+
+## Handling integrated biological data using Python, Jupyter, and InterMine
+
+This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic data) using InterMine, either via UI or via an API in Python. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
+
+Users will also be shown how to import and export their gene and protein lists to and from Galaxy to link Galaxy pipelines with InterMine analyses
+
+**Prerequisites**
+
+- Basic Python skills are advantageous but not required.
+- A laptop with wifi. Python optional as we can use Jupyter notebooks to run analyses.
+
 
 ## Train the Galaxy Trainer
 
@@ -303,68 +357,6 @@ This workshop will introduce:
 
 * An interest in using Galaxy to teach/train people
 
-## Visualisation Development in Galaxy
-
-In this age of high-throughput analysis and big data, visualisations have become an invaluable resource for the presentation and exploration of these often high-dimensional, complex, and large datasets.
-
-While many tools in Galaxy produce static visual outputs (graphs, trees, etc), often some more interactivity is desired to aid in the exploration of these datasets. To support this need, Galaxy offers a range of visualisation options, such as Trackster for browsing genomic data and Charts for the interactive visualisation of tabular data and other datatypes.
-
-In this workshop participants will learn how to develop such visualisations in Galaxy, more specifically: - Develop a module within the Charts visualisation plugin using Javascript - Develop a simple visualisation plugin from scratch
-
-**Prerequisites**
-
-* Basic understanding of Galaxy from a developer point of view.
-* Some familiarity with Javascript.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-## Proteomic Data Analysis with Galaxy
-
-Protein identification and quantification.
-
-**Prerequisites**
-
-- Galaxy introduction.
-
-## MALDI imaging of peptides data analysis with Galaxy
-
-Quality control and preprocessing of MALDI imaging data.
-
-**Prerequisites**
-
-- Galaxy introduction.
-
-
-
-## Single cell analysis
-
-- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
-
-**Prerequisites**
-
-- Intro to Galaxy
-
-## A Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data
-
-The field of small RNA is one of the most investigated research areas since they were shown to regulate transposable elements and gene expression and play essential roles in fundamental biological processes. Small RNA deep sequencing (sRNA-seq) is now routinely used for large-scale analyses of small RNA. Such high-throughput sequencing typically produces several millions reads.
-
-Here we present a computational pipeline (sRNAPipe: small RNA pipeline) based on the Galaxy framework that takes as input a fastq file of small RNA-seq reads and performs successive steps of mapping to categories of genomic sequences: transposable elements, gene transcripts, microRNAs, small nuclear RNAs, ribosomal RNAs and transfer RNAs. It also provides individual mapping and counting for chromosomes, transposable elements and gene transcripts, normalization, small RNA length analysis and plotting of the data along genomic coordinates to build publication-quality graphs and figures. sRNAPipe evaluates 10-nucleotide 5′-overlaps of reads on opposite strands to test ping-pong amplification for putative PIWI-interacting RNAs, providing counts of overlaps and corresponding z-scores.
-
-sRNAPipe is easy to use and does not require command-line or coding knowledge. This pipeline gives quick visual and quantitative results, which are usable for publications. sRNAPipe is freely available as a Galaxy tool and via GitHub.
-
-**Prerequisites**
-
-- Intro to Galaxy
-
-## Handling integrated biological data using Python, Jupyter, and InterMine
-
-This tutorial will guide you through loading and analyzing integrated biological data (generally genomic or proteomic data) using InterMine, either via UI or via an API in Python. Topics covered will include automatically generating code to perform queries, customising the code to meet your needs, and automated analysis of sets, e.g gene sets, including enrichment statistics. Skills gained can be re-used in any of the dozens of InterMines available, covering a broad range of organisms and dedicated purposes, from model organisms to plants, drug targets, and mitochondrial DNA.
-
-Users will also be shown how to import and export their gene and protein lists to and from Galaxy to link Galaxy pipelines with InterMine analyses
-
-**Prerequisites**
-
-- Basic Python skills are advantageous but not required.
-- A laptop with wifi. Python optional as we can use Jupyter notebooks to run analyses.
 
 ## Making your open source project awesome
 
@@ -373,6 +365,9 @@ Many journals require that scientific / research code to be open source in order
 **Prerequisites**
 - A laptop with wifi
 - Interest in open source code.
+
+
+# Administration & Development
 
 ## Intro to Galaxy Administration - step I
 
@@ -386,8 +381,7 @@ Topics include:
 
 **Prerequisites**
 - Knowledge and comfort with the Unix/Linux command line interface and a text editor
-
-    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
+  * If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
 
 ## Intro to Galaxy Administration - step II
 
@@ -403,9 +397,7 @@ Topics include:
 
 **Prerequisites**
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor
-
-    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
-
+  * If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
 * Knowledge of topics from or attendance of step [I](#intro-to-galaxy-administration-step-i)
 
 ## Intro to Galaxy Administration - step III
@@ -420,9 +412,7 @@ After attending this and both previous 'steps [I](#intro-to-galaxy-administratio
 
 **Prerequisites**
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor
-
-    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
-
+  *  If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
 * Knowledge of topics from or attendance of steps [I](#intro-to-galaxy-administration-step-i) and [II](#intro-to-galaxy-administration-step-ii)"
 
 ## How to create a Galaxy Tool
@@ -430,9 +420,56 @@ After attending this and both previous 'steps [I](#intro-to-galaxy-administratio
 This session will walk bioinformaticians, developers, and admins through the process of taking a working script, app, or software and turning it into a Galaxy Tool. It will cover the basics of using Planemo, a command-line utility that assists in building and publishing Galaxy Tools. We will explore basics of wrapping, common parameters, tool linting, best practices, loading and modifying tools, citations, and publishing to Github and the Galaxy Tool Shed. Common tips and tricks will be discussed as well as insights from experienced tool developers.
 
 **Prerequisites**
+
 * A general knowledge of Galaxy (for example, you should be familiar with the material in Galaxy 101 or have attended Introduction to Galaxy).
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor
-
-    If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
-
+  * If you don't know what `cd`, `mv`, `rm`, `mkdir`, `chmod`, `grep` and so on can do then you will struggle
 * A wi-fi enabled laptop with a modern web browser. Chrome or Firefox will work best
+
+## Scripting Galaxy through BioBlend
+
+Galaxy has an always-growing API that allows for external programs to upload and download data, manage histories and datasets, run tools and workflows, and even perform admin tasks. This session will cover various approaches to access the API, in particular using the BioBlend Python library.
+
+**Prerequisites**
+
+* Unix command line
+* Basic understanding of Galaxy from a developer point of view.
+* Python programming.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
+## Running Galaxy on Kubernetes
+
+Do technologies like Docker, Kubernetes, and Helm sound interesting? How about standardized, production-grade deployment of Galaxy with a single command, or no-downtime configuration changes? In this training we will take a look at the basics of Helm and Kubernetes, a Helm Chart for Galaxy, delve into how to set and change Galaxy deployment configurations, how to interface Galaxy jobs with Kubernetes, etc.
+
+**Prerequisites**
+
+- An understanding of Galaxy deployment requirements, comfortable on the command line, ideally, an understanding of container principles.
+
+## Using Galaxy for bridging WGS and Clinical Genetic Diagnostics
+
+As WGS price dropped below 1k USD the usage of WGS became a reality for clinical genetic diagnostics. On the other hand several laboratories of clinical genetic diagnostics have set up their data analysis environments based on the Exome-Seq specifications. Galaxy can be used to provide a smooth transition from Exome Seq data analysis to WGS by performing the first steps of data analysis on remote servers and transfering to the diagnostic lab the vcf file. Moreover these standard analysis pipelines could be accessed directly by the clinical diagnostic staff and could be connected to the local EGA repositories for immediate achieving of the generated datasets. Galaxy container technology would allow the maximal reproducibility and safety of these processes. In our session we will focus on presenting the typical diagnostic environment, diagnostic requirements, and the ethical and legal aspects to be taken into consideration when dealing with clinical diagnostic genomic data analysis.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
+## Visualisation Development in Galaxy
+
+In this age of high-throughput analysis and big data, visualisations have become an invaluable resource for the presentation and exploration of these often high-dimensional, complex, and large datasets.
+
+While many tools in Galaxy produce static visual outputs (graphs, trees, etc), often some more interactivity is desired to aid in the exploration of these datasets. To support this need, Galaxy offers a range of visualisation options, such as Trackster for browsing genomic data and Charts for the interactive visualisation of tabular data and other datatypes.
+
+In this workshop participants will learn how to develop such visualisations in Galaxy, more specifically: - Develop a module within the Charts visualisation plugin using Javascript - Develop a simple visualisation plugin from scratch
+
+**Prerequisites**
+
+* Basic understanding of Galaxy from a developer point of view.
+* Some familiarity with Javascript.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+
+
