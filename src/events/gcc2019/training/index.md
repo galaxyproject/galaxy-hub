@@ -19,33 +19,33 @@ Training topics are determined by the community via a nomination and [voting](#t
     - [Analyzing Large / Complex Experimental Designs with Galaxy](#analyzing-large-complex-experimental-designs-with-galaxy)
     - [Visualization of HTS Data in Galaxy](#visualization-of-hts-data-in-galaxy)
 - Topic-specific data analysis
-    - RNA
+    - RNA and transcriptomics
         - [The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](#rna-workbench)
         - [Alternative Splicing](#alternative-splicing)
         - [In-depth exploration of small RNAseq data](#a-galaxy-based-pipeline-for-bioinformatic-in-depth-exploration-of-small-rnaseq-data)
         - [RNA folding and design](#rna-folding-and-design)
-    - [Populations Genomics](#population-genomics)
+        - [Single cell RNA-seq analysis](#single-cell-analysis)
+        - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
+        - Reference-based RNA-seq analysis
+        - ATAC-seq data analysis
     - Assembly
         - [Assembly and annotation and analysis of bacterial genomes](#assembly-and-annotation-of-bacterial-genomes)
         - [Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing](#genomic-assembly-and-data-analysis-in-galaxy-with-nanopore-ont-long-read-sequencing)
-    - [CLIP-Seq data analysis from pre-processing to motif detection](#clip-seq-data-analysis-from-pre-processing-to-motif-detection)
-    - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
-    - [Single cell RNA-seq analysis](#single-cell-analysis)
-    - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
-    - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
+        - Small genome de novo assembly
+    - Proteomics
+        - [Proteomic data analysis](#proteomic-data-analysis-with-galaxy)
+        - [MALDI imaging of peptides data analysis](#maldi-imaging-of-peptides-data-analysis-with-galaxy)
+    - Epigenetics
+        - ChIP-seq data analysis
+        - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
+        - Exome sequencing data analysis
+        - DNA Methylation data analysis
+        - Hi-C analysis
+        - [Populations Genomics](#population-genomics)
     - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
-    - [EWAS data analysis for population epigenetics integrated into Galaxy](#ewas-data-analysis-for-population-epigenetics-integrated-into-galaxy)
-    - Small genome de novo assembly
-    - Metagenomics with Galaxy
-    - Reference-based RNA-seq analysis
-    - Exome sequencing data analysis
-    - ATAC-seq data analysis
+    - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
     - Variant annotation
-    - ChIP-seq data analysis
-    - DNA Methylation data analysis
-    - Hi-C analysis
     - Metabolomics data analysis
-    - Galaxy for proteogenomics
 - Misc
     - [Handling integrated biological data using Python, Jupyter, and InterMine](#handling-integrated-biological-data-using-python-jupyter-and-intermine)
     - [Train the Galaxy Trainer](#train-the-galaxy-trainer)
@@ -147,7 +147,7 @@ Visualization of NGS data from various methods (Hi-C, WGBS, RNA, ChIP...). This 
 
 These nominations are about how to do specific types of analysis within Galaxy.
 
-## RNA
+## RNA and transcriptomics
 
 ### RNA Workbench
 
@@ -192,6 +192,34 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
+### Single cell analysis
+
+- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### CLIP-Seq data analysis from pre-processing to motif detection
+
+- Introduction to CLIP-Seq (What is CLIP-Seq? Why is it important? What are the standard protocols?).
+- Data Analysis:
+  1. Remove Adapters, Barcodes and Unique Molecular Identifiers (UMIs) from the reads,
+  1. Align trimmed reads with STAR,
+  1. De-duplicate the read library,
+  1. Inspect the read mapping and de-duplication quality, Perform peak calling,
+  1. Analyse the peaks and find potential binding motifs and targets,
+  1. Check the quality of the peak calling.
+- Final evaluation and summary of the data analysis.
+
+**Prerequisites**
+
+* Slight biological background (you should know what proteins, RNA and DNA are).
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## Population Genomics
 
@@ -229,23 +257,46 @@ The session would cover an introduction long read sequencing with technologies l
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-## CLIP-Seq data analysis from pre-processing to motif detection
 
-- Introduction to CLIP-Seq (What is CLIP-Seq? Why is it important? What are the standard protocols?).
-- Data Analysis:
-  1. Remove Adapters, Barcodes and Unique Molecular Identifiers (UMIs) from the reads,
-  1. Align trimmed reads with STAR,
-  1. De-duplicate the read library,
-  1. Inspect the read mapping and de-duplication quality, Perform peak calling,
-  1. Analyse the peaks and find potential binding motifs and targets,
-  1. Check the quality of the peak calling.
-- Final evaluation and summary of the data analysis.
+## Proteomics
+
+### Proteomic Data Analysis with Galaxy
+
+Protein identification and quantification.
 
 **Prerequisites**
 
-* Slight biological background (you should know what proteins, RNA and DNA are).
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+### MALDI imaging of peptides data analysis with Galaxy
+
+Quality control and preprocessing of MALDI imaging data.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Epigenetics
+
+### EWAS data analysis for population epigenetics integrated into Galaxy
+
+Epigenetic aberrations which involve DNA modifications give researchers an interest to identify novel non-genetic factors responsible for complex human phenotypes such as height, weight, and disease. The goal of this session is to analyse differentially methylated regions in treatment resistant melanomas using Galaxy.
+
+**Prerequisites**
+
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+
+## Ecology
+
+The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ## Metatranscriptomics & multi-omics microbiome analysis
@@ -263,52 +314,6 @@ The session would cover an introduction long read sequencing with technologies l
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
 * A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
-## Single cell analysis
-
-- Mapping of single cell data, cluster analysis, diff. gene expression, workflows for standard platforms (10x, cell-seq2...)
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-## Proteomic Data Analysis with Galaxy
-
-Protein identification and quantification.
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-## MALDI imaging of peptides data analysis with Galaxy
-
-Quality control and preprocessing of MALDI imaging data.
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-## Ecology
-
-The Ecology session will introduce using Galaxy to import (from external sources as GBIF, iNaturalist, Atlas of Living Australia or Zenodo repositories), handle (filter, rename fields, search/replace text patterns), visualize (stacked histograms) and analyze (calculate species abundance, phenology and trends) biodiversity data.
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-## EWAS data analysis for population epigenetics integrated into Galaxy
-
-Epigenetic aberrations which involve DNA modifications give researchers an interest to identify novel non-genetic factors responsible for complex human phenotypes such as height, weight, and disease. The goal of this session is to analyse differentially methylated regions in treatment resistant melanomas using Galaxy.
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
 
 ----
 
