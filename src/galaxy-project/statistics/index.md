@@ -465,7 +465,120 @@ Galaxy is available in a number of ways.  While most [installations of Galaxy](/
 
 ## Platforms in Publications
 
-...is coming.
+In late 2017 the project started tracking which specific [platforms](/src/use/index.md) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 10 publications since we started tracking this. 
+
+<table class="table">
+  <tr>
+    <th> Year </th>
+    <th> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">Hutten-hower</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">Repeat-Explorer</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">Workflow-4Metabo-lomics</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">Galaxy-P</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">ARGs-OAP</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">Cistrome</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">Ribo-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Globus Genomics">Globus Genomics</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Genomic Hyperbrowser">Genomic Hyper-browser</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>PhenoMeNal">Pheno-MeNal</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGalaxy">AR-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Orione">Orione</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">Use-Galaxy.eu</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>GVL-QLD">GVL-QLD</a> </th>
+  </tr>
+  <tr>
+    <th> Pre 2017 </th>
+    <td> </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 2 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
+    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+  </tr>
+  <tr>
+    <th> 2017 </th>
+    <td> </td>
+    <td  style="text-align: right; background-color: #b7e4b7;" > 45 </td>
+    <td  style="text-align: right; background-color: #c3e8c3;" > 23 </td>
+    <td  style="text-align: right; background-color: #c9eac9;" > 17 </td>
+    <td  style="text-align: right; background-color: #cfedcf;" > 12 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
+    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #e1f4e1;" > 4 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+  </tr>
+  <tr>
+    <th> 2018 </th>
+    <td> </td>
+    <td  style="text-align: right; background-color: #9fdb9f;" > 159 </td>
+    <td  style="text-align: right; background-color: #b2e2b2;" > 58 </td>
+    <td  style="text-align: right; background-color: #bbe5bb;" > 36 </td>
+    <td  style="text-align: right; background-color: #cbebcb;" > 15 </td>
+    <td  style="text-align: right; background-color: #c9eac9;" > 17 </td>
+    <td  style="text-align: right; background-color: #c9eac9;" > 17 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 16 </td>
+    <td  style="text-align: right; background-color: #d6efd6;" > 8 </td>
+    <td  style="text-align: right; background-color: #d4efd4;" > 9 </td>
+    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
+    <td  style="text-align: right; background-color: #d8f0d8;" > 7 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+    <td  style="text-align: right; background-color: #d4efd4;" > 9 </td>
+    <td  style="text-align: right; background-color: #ddf2dd;" > 5 </td>
+  </tr>
+  <tr>
+    <th> 2019 </th>
+    <td> </td>
+    <td  style="text-align: right; background-color: #c2e8c2;" > 25 </td>
+    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
+    <td  style="text-align: right; background-color: #e1f4e1;" > 4 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #d8f0d8;" > 7 </td>
+    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
+    <td >  </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
+    <td >  </td>
+  </tr>
+  <tr>
+    <th> Total </th>
+    <th> </th>
+    <th  style="text-align: right; background-color: #98d898;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">230</a> </th>
+    <th  style="text-align: right; background-color: #a9dfa9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">93</a> </th>
+    <th  style="text-align: right; background-color: #b2e2b2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">59</a> </th>
+    <th  style="text-align: right; background-color: #bce6bc;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">34</a> </th>
+    <th  style="text-align: right; background-color: #bee6be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">31</a> </th>
+    <th  style="text-align: right; background-color: #c0e7c0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">28</a> </th>
+    <th  style="text-align: right; background-color: #c6e9c6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">20</a> </th>
+    <th  style="text-align: right; background-color: #c7eac7;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Globus Genomics">19</a> </th>
+    <th  style="text-align: right; background-color: #cceccc;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Genomic Hyperbrowser">14</a> </th>
+    <th  style="text-align: right; background-color: #cdeccd;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>PhenoMeNal">13</a> </th>
+    <th  style="text-align: right; background-color: #d0edd0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGalaxy">11</a> </th>
+    <th  style="text-align: right; background-color: #d0edd0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Orione">11</a> </th>
+    <th  style="text-align: right; background-color: #d0edd0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">11</a> </th>
+    <th  style="text-align: right; background-color: #d0edd0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>GVL-QLD">11</a> </th>
+  </tr>
+</table>
+
+
 
 # Code
 
