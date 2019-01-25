@@ -6,7 +6,10 @@ Training on a wide range of topics will be offered before *and during* the GCC20
 
 Training topics are determined by the community via a nomination and [voting](#training-topic-votes) process.
 
-**The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 1st.**
+**The voting is now [open](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) until February, 4th.**
+
+You can vote for as many topics as you want, but please note that the more topics you vote for the less your vote for each one counts.
+What? Here's an example. If Moni votes for 4 topics then each of her votes counts for 1/4 of a point. If Dave votes for 22 topics then each of his votes counts for 1/22 of a point.
 
 # Training Topic Votes
 
@@ -46,12 +49,12 @@ More than 25 topics have been nominated by the community. The GCC2019 Organizing
     - [Populations Genomics](#population-genomics)
     - [Import, handle, visualize and analyze biodiversity data in Galaxy](#ecology)
     - [Metatranscriptomics & multi-omics microbiome analysis](#metatranscriptomics-multi-omics-microbiome-analysis)
-    - [Metabolomics data analysis](#metabolomics-data-analysis) (WIP)
+    - [Metabolomics data analysis](#metabolomics-data-analysis)
 - [Misc](#misc)
     - [Handling integrated biological data using Python, Jupyter, and InterMine](#handling-integrated-biological-data-using-python-jupyter-and-intermine)
     - [Train the Galaxy Trainer](#train-the-galaxy-trainer)
     - [Making your open source project awesome](#making-your-open-source-project-awesome)
-    - [Machine learning with Galaxy](#machine-learning-with-galaxy) (WIP)
+    - [Machine learning with Galaxy](#machine-learning-with-galaxy)
 - [Admin & Dev](#administration-development)
     - [Intro to Galaxy Administration - step I](#intro-to-galaxy-administration-step-i)
     - [Intro to Galaxy Administration - step II](#intro-to-galaxy-administration-step-ii)
@@ -64,7 +67,7 @@ More than 25 topics have been nominated by the community. The GCC2019 Organizing
     - [Galaxy Interactive Environments](#galaxy-interactive-environments)
     - [Galaxy Code Architecture](#galaxy-interactive-environments)
 
-[Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 24th** to **February, 1st**.
+[Training topic votes](https://goo.gl/forms/lcPoMt4iZ8hwcdM12) is open from **January, 25th** to **February, 4th**.
 
 ----
 
@@ -80,8 +83,8 @@ Introduce the Galaxy user interface and how it can be used to analyze large data
 
 **Prerequisites**
 
-* Little or no experience using Galaxy.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* Little or no experience using Galaxy
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 
 ## Beyond the Intro: Further Adventures in Using Galaxy
@@ -99,7 +102,7 @@ This workshop continues where the Introduction to Galaxy session ends. Additiona
 **Prerequisites**
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Quality Control of HTS Data
 
@@ -110,7 +113,7 @@ If you are unfamiliar with high throughput sequencing data, then this is a good 
 **Prerequisites**
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Analyzing Large / Complex Experimental Designs with Galaxy
 
@@ -119,8 +122,8 @@ Learn how to successfully manage the analysis of large, complex experimental des
 **Prerequisites**
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Visualization of HTS Data in Galaxy
 
@@ -129,8 +132,8 @@ Visualization of NGS data from various methods (Hi-C, WGBS, RNA, ChIP...). This 
 **Prerequisites**
 
 - [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+- [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ----
 
@@ -147,8 +150,8 @@ Learn best practices for RNA and high-throughput sequencing bioinformatics in Ga
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Alternative splicing
 
@@ -157,8 +160,8 @@ A deep dive into qualitative and quantitative analysis of alternative splice var
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [RNA Workbench](#rna-workbench) or prior exposure to RNA-Seq data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [RNA Workbench](#rna-workbench) or prior exposure to RNA-Seq data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### A Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data
 
@@ -171,8 +174,8 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### RNA Folding and Design
 
@@ -181,7 +184,7 @@ sRNAPipe is easy to use and does not require command-line or coding knowledge. T
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Single cell analysis
 
@@ -190,8 +193,8 @@ Mapping of single cell data, cluster analysis, diff. gene expression, workflows 
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### CLIP-Seq data analysis from pre-processing to motif detection
 
@@ -207,10 +210,10 @@ Mapping of single cell data, cluster analysis, diff. gene expression, workflows 
 
 **Prerequisites**
 
-* Slight biological background (you should know what proteins, RNA and DNA are).
+* Slight biological background (you should know what proteins, RNA and DNA are)
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Reference-based RNA-seq analysis
 
@@ -224,10 +227,10 @@ How to analyze RNA sequencing data using a reference genome?
 
 **Prerequisites**
 
-* Slight biological background (you should know what proteins, RNA and DNA are).
+* Slight biological background (you should know what proteins, RNA and DNA are)
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 
 ## Population Genomics
@@ -237,8 +240,8 @@ Use of RAD-seq, Genotyping by sequencing and similar data for analysis of popula
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Assembly & annotation
 
@@ -249,8 +252,8 @@ Assembly and annotation of bacterial genomes: Antibiotics resistance predictions
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Genomic assembly and data analysis in Galaxy with Nanopore ONT long read sequencing
 
@@ -263,8 +266,8 @@ The session would cover an introduction long read sequencing with technologies l
 
 * Basic understanding of Genomics
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 
 ### Annotation of Eukaryotic Genomes I
@@ -273,8 +276,8 @@ This training will give an introduction on the specificities of eukaryotic genom
 
 **Prerequisites**
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Annotation of Eukaryotic Genomes II
 
@@ -284,7 +287,7 @@ After the [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
 * [Annotation of Eukaryotic Genomes I](#annotation-of-eukaryotic-genomes-i) or prior exposure to eukaryotic genome annotation
-- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+- A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Proteomics
 
@@ -295,7 +298,7 @@ Protein identification and quantification.
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### MALDI imaging of peptides data analysis with Galaxy
 
@@ -304,7 +307,7 @@ Quality control and preprocessing of [MALDI imaging data](https://en.wikipedia.o
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Epigenetics
 
@@ -315,8 +318,8 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### DNA Methylation data analysis
 
@@ -332,8 +335,8 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Hi-C analysis
 
@@ -344,8 +347,8 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### ChIP-seq data analysis
 
@@ -361,8 +364,8 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Variant analysis
 
@@ -382,7 +385,7 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ### Variant Calling II - causative variant discovery
 
@@ -401,25 +404,7 @@ Epigenetic aberrations which involve DNA modifications give researchers an inter
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
 * [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
 * [Variant calling I - from sequenced reads to variant lists](#variant-calling-i-from-sequenced-reads-to-variant-lists) or variant calling
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
-
-
-### Exome sequencing data analysis
-
-- How to identify the genetic variation with the use of exome sequencing?
-- What is the pipeline of the process of finding genetic variation which caused the disease?
-
-**Learning objectives**
-
-- Identify the genetic variation using the exome sequencing
-- Use FreeBayes calls for variants generating
-- Run variant analysis and GEMINI queries
-
-**Prerequisites**
-
-* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 
 ## Ecology
@@ -429,22 +414,22 @@ The Ecology session will introduce using Galaxy to import (from external sources
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Metatranscriptomics & multi-omics microbiome analysis
 
-* Introduction to Microbiome analysis and multiomics analysis.
-* Metatranscriptomics analysis using ASaiM workflow.
-* Generating metaproteins database for metaproteomics using Graph2Pro workflow.
-* Using metagenomics inputs for ASaiM and Graph2Pro workflow.
+* Introduction to Microbiome analysis and multiomics analysis
+* Metatranscriptomics analysis using ASaiM workflow
+* Generating metaproteins database for metaproteomics using Graph2Pro workflow
+* Using metagenomics inputs for ASaiM and Graph2Pro workflow
 * Metaproteomics workflow and quantitative functional microbiome analysis using metaQuantome
 
 **Prerequisites**
 
 * Basic knowledge and interest in microbiome analysis.
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Metabolomics data analysis
 
@@ -455,8 +440,7 @@ This workshop will introduce W4M and how to use it for metabolomics data analysi
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ----
 
@@ -515,10 +499,24 @@ This workshop will be led by members of the [InterMine](http://intermine.org) an
 **Prerequisites**
 
 - A laptop with wifi
-- Interest in open source code.
-
+- Interest in open source code
 
 ## Machine learning with Galaxy
+
+* What is machine learning?
+* Why is it useful?
+* What are its different approaches?
+
+**Learning objectives**
+
+* Provide the basics of machine learning and its variants
+* Learn how to do classification using the training and test data
+* Learn how to use Galaxy's machine learning tools
+
+**Prerequisites**
+
+* [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ----
 
@@ -590,7 +588,7 @@ Galaxy has an always-growing API that allows for external programs to upload and
 * Unix command line
 * Basic understanding of Galaxy from a developer point of view.
 * Python programming.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 
 ## Running Galaxy on Kubernetes
@@ -608,8 +606,7 @@ As [WGS](https://en.wikipedia.org/wiki/Whole_genome_sequencing) price dropped be
 **Prerequisites**
 
 * [Introduction to Galaxy](#introduction-to-galaxy) or equivalent experience
-* [Quality Contol of HTS Data](#quality-control-of-hts-data) or prior exposure to HTS data.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Visualisation Development in Galaxy
 
@@ -623,9 +620,9 @@ In this workshop participants will learn how to develop such visualisations in G
 
 **Prerequisites**
 
-* Basic understanding of Galaxy from a developer point of view.
-* Some familiarity with Javascript.
-* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best.
+* Basic understanding of Galaxy from a developer point of view
+* Some familiarity with Javascript
+* A wi-fi enabled laptop with a modern web browser. Google Chrome, Firefox and Safari will work best
 
 ## Galaxy Interactive Environments
 
@@ -648,9 +645,9 @@ In this workshop participants will learn how to develop such visualisations in G
 - What happens when I start Galaxy?
 
 **Learning objectives**
-- Explore various aspects of the Galaxy codebase.
-- Understand the various top-level files and modules in Galaxy.
-- Understand how dependencies work in Galaxy's frontend and backend.
+- Explore various aspects of the Galaxy codebase
+- Understand the various top-level files and modules in Galaxy
+- Understand how dependencies work in Galaxy's frontend and backend
 
 **Prerequisites**
 
