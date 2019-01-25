@@ -70,7 +70,7 @@ The [Galaxy Publications Library](/src/galaxy-publications/index.md) lists every
 
 In October 2017 [the 5,000th pub was added to that library](/src/blog/2017-10-5000-pubs/index.md).
 
-Here are the tags on papers in the Galaxy Publications Library as of July 2018:
+Here are the tags on papers in the Galaxy Publications Library as of January 2019:
 
 <table class="table">
   <tr>
