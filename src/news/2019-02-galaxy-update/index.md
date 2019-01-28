@@ -172,31 +172,23 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**80 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
+**XXXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
 
 ## Highlighted Publications
 
-*[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from December:
+*[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from January:
 
-* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
-doi: 10.1101/488643 
-* **[PhenoMeNal: Processing and analysis of Metabolomics data in the Cloud](https://doi.org/10.1093/gigascience/giy149)**,
-Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
-* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/src/people/vahid-jalili/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), *bioRxiv* 506238, doi: 10.1101/506238 
-* **[SkeletalVis: an exploration and meta-analysis data portal of cross-species skeletal transcriptomics data](https://doi.org/10.1093/bioinformatics/bty947
-)**, Jamie Soul, Tim E Hardingham, Ray P Boot-Handford, Jean-Marc Schwartz, *Bioinformatics*, bty947, doi: 10.1093/bioinformatics/bty947
 
-All of the highlighted papers are open access.
+158 of the highlighted papers are open access.
 
 ## Publication Topics
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 23 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 11 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
-| 8 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 2 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
-| 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | | | | |
-
+| 111 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
+| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | |
 
 ----
 
@@ -204,36 +196,7 @@ All of the highlighted papers are open access.
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
 
-## EGI Marketplace
-
-[<img class="float-left" style="max-width: 400px" src="/src/use/egi/egi.png" alt="EGI Marketplace" />](/src/use/egi/index.md)
-
-[EGI](https://www.egi.eu/) is a [federation of hundreds of data and compute centres worldwide and tens of cloud providers](https://marketplace.egi.eu/content/4-about-us) united by a mission to support research activities.  Galaxy instances are available to users worldwide under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program. You need to create an account and then apply for an allocation.
-
-**If you are an academic researcher, want a Galaxy instance running on a research cloud, and you don't live in a country where you already have ready access to Galaxy on a cloud (see the *Academic Cloud* tab in the [Platforms Directory](/src/use/index.md)), then take a look at the EGI Marketplace.**
-
-
-## ChemFlow
-
-[<img class="float-right" src="/src/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/src/use/chemflow/index.md)
-
-The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) supports *Chemometrics* and infrared spectrometry data analysis.  ChemFlow has a [detailed tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow) (although it's in French), and an [onlinie support form](https://chemproject.org/wakka.php?wiki=NousContacter).  ChemFlow is supported by the [ChemProject](https://chemproject.org/wakka.php?wiki=PagePrincipale), a consortium of French research organizations.
-
-*Chemometrics* is a collection of tools for extracting information from spectral data. The methods are essentially linear, with regressions, discriminant analyzes, unsupervised classifications, spectral decompositions, multi-array-multipath methods, plus pretreatments. Many applications focus on the near infrared. Its complementarity with the [Chemoocs mooc on France Digital University](https://www.fun-mooc.fr/) guarantees the correct use of chemometrics tools.
-
-## ChIP-Seq Docker
-
-This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](src/use/chip-seq-docker/index.md).
-
 ## Other Platform News
-
-**Galaxy-P**
-
-The [Galaxy-P](/src/use/galaxy-p/index.md) team has compiled all their talks, workshops, and posters from 2018 (and there were a lot of them) in this [handy list](http://galaxyp.org/conference-presentations/).  Tim Griffin and Pratik Jagtap will also be [presenting at PAG this month](/src/events/2019-pag/index.md).
-
-**usegalaxy.org.au**
-
-The [Australian Environmental Microbiome Research Data Cloud Project](https://bioscience-rdc.blogspot.com/2018/12/functions-are-live.html) is now complete and is live on the Bioplatforms Australia Data Portal and [Galaxy Australia](https://usegalxy.org.au/).
 
 
 ## Galaxy Platforms in Publications
@@ -242,11 +205,14 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | 
-| 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | 
-| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CRAVAT-P) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
-| 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IGGalaxy) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | | 1 | [>MPDSTB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSTB) | 
-| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>SkeletalVis](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SkeletalVis) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
+| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 3 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | 
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 2 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>LAPPS Grid) | 
+| 2 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RNA Workbench) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AmrPlusPlus) | | 1 | [>ASH](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ASH) | 
+| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>G-OnRamp) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GeneLab) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GIO) | 
+| 1 | [>GmT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GmT) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | | 1 | [>Halogen Bonding](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Halogen Bonding) | 
+| 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Martin Luther) | | 1 | [>miCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>miCloud) | | 1 | [>Peptimapper](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Peptimapper) | 
+| 1 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PRABI) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | 
+| 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | | | | |
 
 ----
 
