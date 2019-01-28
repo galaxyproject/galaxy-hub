@@ -172,21 +172,21 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**XXXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
+**159 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
 
 ## Highlighted Publications
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from January:
 
 
-158 of the highlighted papers are open access.
+XXXX of the highlighted papers are open access.
 
 ## Publication Topics
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 111 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
 | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | |
 
@@ -212,7 +212,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 1 | [>GmT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GmT) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | | 1 | [>Halogen Bonding](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Halogen Bonding) | 
 | 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Martin Luther) | | 1 | [>miCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>miCloud) | | 1 | [>Peptimapper](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Peptimapper) | 
 | 1 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PRABI) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | 
-| 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | | | | |
+| 1 | [>TreeGenes](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TreeGenes) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) |  | | | |
 
 ----
 
