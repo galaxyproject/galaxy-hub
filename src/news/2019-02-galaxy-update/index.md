@@ -8,21 +8,20 @@ date: ""
 
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
-  * **[Training topic nomination for GCC2019 Training extended through 15 January!](/src/news/2019-01-galaxy-update/index.md#gcc2019-training-topic-nomination-extended-to-15-january)**
-  * [Galaxy needs your Google Summer of Code Project suggestions](/src/news/2019-01-galaxy-update/index.md#galaxy-needs-your-google-summer-of-code-project-suggestions)
-  * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-01-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
-* [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including several spectacular ones
-* Some most excellent [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news), including the *EGI Marketplace*.
-* The Contributor of the Month is ... [Simon Gladman](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)!
-* [17 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
-* [ToolShed contributions](/src/news/2019-01-galaxy-update/index.md#toolshed-contributions)
-* [New releases](/src/news/2019-01-galaxy-update/index.md#releases):
+* [Event News](/src/news/2019-02-galaxy-update/index.md#event-news)
+  * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**
+  * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
+* [159 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
+* Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
+* The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
+* [17 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
+* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
+* [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions)
+* [New releases](/src/news/2019-02-galaxy-update/index.md#releases):
   * Tripal Galaxy - connect Galaxy to your online database
   * BioBlend - a Python API for Galaxy and CloudMan
   * Planemo - utilities for building tools for Galaxy
-* And [a bunch of other news](/src/news/2019-01-galaxy-update/index.md#other-news) too
+* And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -35,38 +34,22 @@ If you have anything to add to next month's newsletter, then please send it to o
 <div class="center">Feedback from a previous Admin Training.</div>
 </div>
 
-## Galaxy needs your Google Summer of Code Project suggestions
 
-[<img class="float-left" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/news/2018-12-gsoc/index.md)
-
-Galaxy will be applying to participate in the [2019 Google Summer of Code](https://summerofcode.withgoogle.com/).  We will again be participating as part of the **[Open Genome Informatics Group](http://gmod.org/wiki/GSoC)** that also includes [Bioconda](https://bioconda.github.io/), [GMOD](http://gmod.org/), [Reactome](https://reactome.org), [MGI](http://www.informatics.jax.org/), [OICR](https://oicr.on.ca/research-portfolio/), and [WormBase](http://www.wormbase.org/).
-
-We are currently building our group's proposal.  If you have an idea for a project that you would be interested in mentoring someone for, then please add it to the proposal, either [directly on this page](http://gmod.org/wiki/GSOC_Project_Ideas_2019) (requires an account), of via this [online form](http://bit.ly/gsoc-2019-ogi-propose).
-
-The deadline for submitting your project proposals is February 1.
-
-## GCC2019 Training Topic Voting Starts ____ ___
+## GCC2019 Training Topic Voting Is Open
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
-**The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
+The GCC2019 Organizing Committee compiled [training topics nominated by the community] (https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
 
-Nominated topics can cover a wide range. For example:
+**Training topics that are offered at GCC2019 are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform)***
 
-- Introduction to Using Galaxy
-- Scientific topic oriented trainings
-- Community specific trainings
-- Development and administration around Galaxy
-- Train the trainers
+You can vote for as many topics as you want, but please note that the more topics you vote for the less your vote for each one counts. What? Here's an example. If Moni votes for 4 topics then each of her votes counts for 1/4 of a point. If Dave votes for 22 topics then each of his votes counts for 1/22 of a point.
 
-This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform) on which training topics you would like to see at GCC2019, your vote matters! 
 
-Training nomination has been extended to **15th 
-**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer. 
 
 ## GalaxyAdmins needs your topic suggestions
 
@@ -288,13 +271,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/events/gcc2013/abstracts/talks/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="img-fluid mx-auto" src="/src/blog/2019-01-totm/annotation_with_prokka.png" alt="Genome annotation with Prokka"/>](/src/blog/index.md)
 
 There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
-* **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
-  * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
-  * by [Martin Čech](/src/people/marten/index.md)
+* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-1-totm/index.md):**
+  * read about using Prokka for annotation of draft genome sequences
+  * by Bérénice Batut
 
 ----
 
@@ -329,7 +312,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-Here some significant activity from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in December, and the Hub as well:
+Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in January, and the Hub as well:
 
 ## GTN Training Materials
 
@@ -337,6 +320,8 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 * New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
 * New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
+* Join the February 2019 GTN CoFest. Held on 21 February, the CoFest will be coordinated via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.7q82sbcupg0j59li0fqo9pots6) (drop-in channel will be open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+
 
 ## Hub
 
