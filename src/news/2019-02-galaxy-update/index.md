@@ -259,13 +259,13 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 
 [AmrPlusPlus](http://megares.meglab.org/amrplusplus/latest/html/) is a Docker container with a Galaxy-based metagenomics pipeline that is intuitive and easy to use.  AmrPlusPlus takes advantage of current and new tools to help identify and characterize resistance genes within metagenomic sequence data. The pipeline can be used under a local instance of Galaxy and installed via Galaxy's Main Tool Shed. It is also available as a Galaxy-based Docker Image, using base images developed by [Björn Grüning](/src/people/bjoern-gruening/index.md) at the University of Freiburg. It has [Documentation](http://megares.meglab.org/amrplusplus/latest/html/) and [Email support](http://megares.meglab.org/amrplusplus/latest/html/contact.html).  AmrPlusPlus is supported by [Colorado State University](https://www.colostate.edu/).
 
-## LifePortal
+## Lifeportal
 
 [<img class="float-left" style="max-width: 300px" src="/src/use/lifeportal-oslo/lifeportal.png" alt="LifePortal" />](/src/use/lifeportal-oslo/index.md)
 
 [Lifeportal](https://lifeportal.uio.no) is a Galaxy server available to any researcher in Norway (and possibly any other user willing to use the service). LifePortal implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.  User support is available [via email](mailto:lifeportal-help@usit.uio.no).
 
-Every user with their own project in Lifeportal can manage it through the menus built in the Galaxy GUI. LifePortal is supported by [University of Oslo](http://www.uio.no/), [Norwegian Bioinformatics Platform](https://bioinfo.no/), [MLS UiO](https://www.uio.no/english/research/interfaculty-research-areas/mls/), and [UninetT Sigma2](https://www.uninett.no/en/sigma)
+Every user with their own project in Lifeportal can manage it through the menus built in the Galaxy GUI. Lifeportal is supported by [University of Oslo](http://www.uio.no/), [Norwegian Bioinformatics Platform](https://bioinfo.no/), [MLS UiO](https://www.uio.no/english/research/interfaculty-research-areas/mls/), and [UninetT Sigma2](https://www.uninett.no/en/sigma)
 
 
 
@@ -306,18 +306,14 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 
 * [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
-* [assemblage et annotation des génomes](https://www.sfbi.fr/content/assemblage-et-annotation-des-g%C3%A9nomes), Faculté des Sciences et Techniques, Tours, France
-* [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
-* [M2 - bio-informatique](http://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
-* [M2 - Epigénétique : effet de la température sur le méthylome lors de la masculinisation du tilapia du Nil](http://www.sfbi.fr/content/m2-epig%C3%A9n%C3%A9tique-effet-de-la-temp%C3%A9rature-sur-le-m%C3%A9thylome-lors-de-la-masculinisation-du-tilap), UMR 116 ISEM au Cirad, Campus International de Baillarguet, Montpellier, France
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://www.amazon.jobs/en/jobs/745693/principal-technical-business-development-manager-aws-research-in-biomedical), Amazon Web Services, United States
-* [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
-* [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
+* The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
+  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States).
 
