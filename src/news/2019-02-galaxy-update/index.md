@@ -210,7 +210,63 @@ Nine of the 13 highlighted publications are open access.
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
 
-## Other Platform News
+[<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/src/use/quantp/index.md)
+
+## QuanTP
+
+[QuanTP](https://z.umn.edu/quantpdocker) is a Docker image containing a fully-operational Galaxy instance with pre-installed QuanTP, a suite of tools and functionalities critical for proteo-transcriptomics, including statistical algorithms for assessing the correlation between single transcript–protein pairs as well as across two cohorts, outlier identification and clustering, along with a diverse set of results visualizations.
+
+QuanTP is available in this Docker image, and on the [Proteogenomics Gateway](/src/use/proteogenomics-gateway/index.md) and [UseGalaxy.eu](https://usegalaxy.eu/).  It has an [Installation guide](https://jraysajulga.github.io/quanTP-docker/), and [Supporting information](http://z.umn.edu/quantpsi), including *Instructions for accessing the QuanTP tool on Jetstream*, *Instructions for accessing and running the Mouse data*, and *Accessing the QuanTP on the usegalaxy.eu.* QuanTP is supported by the University of Minnesota, Minneapolis.
+
+## miCloud
+
+[miCloud](http://github.com/BCIL/Personal-NGS-Cloud) is a Docker Image that leverages cloud technologies to provide an easy-to-use streamlined NGS data analysis using local computational hardware.  It includes three preconfigured and ready-to-execute NGS pipelines: two for single or paired-end ChIP-Seq data and one for paired-end RNA-Seq data. miCloud can also provide access to a large selection of ready-to-execute bioinformatics pipelines, available from online Docker repositories such as BioContainers, DockStore, or BioShadock.  It provides a workflow-centric interface to a Galaxy engine, using BioBlend.
+
+miCloud is supported  by Weill Cornell Medicine and Department of Biological Sciences, Hunter College of the City University of New York.
+
+## RNA Workbench
+
+[<img class="float-right" style="max-width: 300px" src="/src/use/rna-workbench/rna-workbench-logo.png" alt="RNA Workbench" />](/src/use/rna-workbench/index.md)
+
+[RNA Workbench](/src/use/rna-workbench/index.md), in addition to being available as a [Docker container](https://github.com/bgruening/galaxy-rna-workbench), is also available as [public server](https://rna.usegalaxy.eu/) hosted at UseGalaxy.eu.  RNA Workbench has a collection of over 50 tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.  This server has been up for a while, but we are just adding it to the platforms directory.
+
+The workbench is developed by the RNA Bioinformatics Center (RBC). This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure](http://www.denbi.de), running the German [ELIXIR Node](https://www.elixir-europe.org/).
+
+## Hi-C Explorer
+
+[Hi-C Explorer](https://hicexplorer.usegalaxy.eu) is another server that has been up for a while, but is also new to the [Galaxy Platform Directory](/src/ues/index.md).   It facilitates the study of the 3D conformation of chromatin by allowing Hi-C data processing, analysis and visualization.  See the "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training).
+
+Hi-C Explorer is also hosted at UseGalaxy.eu.
+
+## G-OnRamp
+
+[<img class="float-right" style="max-width: 300px" src="/src/images/logos/g-onramp-logo-trans.png" alt="G-OnRamp" />](/src/use/g-onramp/index.md)
+
+[G-OnRamp](http://gonramp.wustl.edu/?page_id=1031) provides a user-friendly, web-based platform for collaborative, end-to-end annotation of eukaryotic genomes using UCSC Assembly Hubs and JBrowse/Apollo genome browsers with evidence tracks derived from sequence alignments, ab initio gene predictors, RNA-Seq data, and repeat finders. It is available as a [virtual machine](https://wustl.app.box.com/v/g-onramp-vm-v1) that can be deployed locally, and as an Amazon Machine Image that can be run on AWS and launched with [CloudLaunch](https://launch.usegalaxy.org/catalog).
+
+Use the G-OnRamp output to visualize large genomics datasets, and can utilize the output to drive collaborative genome annotation projects in both research and educational settings. It has documentation:
+
+- [How to use G-OnRamp](http://gonramp.wustl.edu/?page_id=384/#use)
+- [Learn G-OnRamp](http://old-gep.wustl.edu/~galaxy/gonramp/?page_id=32/#materials)
+- [Virtual Machine Installation Walkthrough](https://wustl.app.box.com/s/9626q6n2mjnd3vuas26j20w419f5v0fc)
+- [CloudLaunch Deployment Walkthrough](https://wustl.app.box.com/s/rg7xaezf22p75d8yardsooa2izbdlkd5) (using the AMI)
+
+[<img class="float-right" style="max-width: 200px" src="/src/use/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />](/src/use/amrplusplus/index.md)
+
+G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/) and [Oregon Health & Science University](https://ohsu.edu/)
+
+## AmrPlusPlus
+
+[AmrPlusPlus](http://megares.meglab.org/amrplusplus/latest/html/) is a Docker container with a Galaxy-based metagenomics pipeline that is intuitive and easy to use.  AmrPlusPlus takes advantage of current and new tools to help identify and characterize resistance genes within metagenomic sequence data. The pipeline can be used under a local instance of Galaxy and installed via Galaxy's Main Tool Shed. It is also available as a Galaxy-based Docker Image, using base images developed by [Björn Grüning](/src/people/bjoern-gruening/index.md) at the University of Freiburg. It has [Documentation](http://megares.meglab.org/amrplusplus/latest/html/) and [Email support](http://megares.meglab.org/amrplusplus/latest/html/contact.html).  AmrPlusPlus is supported by [Colorado State University](https://www.colostate.edu/).
+
+## LifePortal
+
+[<img class="float-left" style="max-width: 300px" src="/src/use/lifeportal-oslo/lifeportal.png" alt="LifePortal" />](/src/use/lifeportal-oslo/index.md)
+
+[Lifeportal](https://lifeportal.uio.no) is a Galaxy server available to any researcher in Norway (and possibly any other user willing to use the service). LifePortal implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.  User support is available [via email](mailto:lifeportal-help@usit.uio.no).
+
+Every user with their own project in Lifeportal can manage it through the menus built in the Galaxy GUI. LifePortal is supported by [University of Oslo](http://www.uio.no/), [Norwegian Bioinformatics Platform](https://bioinfo.no/), [MLS UiO](https://www.uio.no/english/research/interfaculty-research-areas/mls/), and [UninetT Sigma2](https://www.uninett.no/en/sigma)
+
 
 
 ## Galaxy Platforms in Publications
@@ -281,10 +337,10 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 * New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
 * New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
+
 ## Hub
 
-* [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/cloud/authnz/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Configure Cloud Authorizatoin for Azure](src/cloud/authnz/azure/index.md)), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 ## Other Training Materials and Doc
 
@@ -330,37 +386,9 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* From [Anup Kumar](https://twitter.com/musafirtweetsz) on Twitter
-  * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418)
-* From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol/status/1075893609629503488) on Twitter:
-  * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules 
-* From RC Carter:
-  * There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
-* [The times when you couldn't use emoji to tag Galaxy datasets are past. Behold!](https://twitter.com/galaxyproject/status/1070415381645455360)
-
-## Galaxy Help: The new Q&A site for Galaxy
-
-[<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
-
-**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
-
-Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
-
-Here are some exemplary recent threads in Galaxy Help
-
-* [How to Add gene information (gene name, strand etc.,) to the DESEQ2 output file generated by Galaxy](https://help.galaxyproject.org/t/how-to-add-gene-information-gene-name-strand-etc-to-the-deseq2-output-file-generated-by-galaxy/209), by [James PC](https://help.galaxyproject.org/u/biologist) and [Pavankumar Videm](https://help.galaxyproject.org/u/pavanvidem)
-* [Regarding Understanding Quality of Mutation](https://help.galaxyproject.org/t/regarding-understanding-quality-of-mutation/234), by [Debanjan Roy](https://help.galaxyproject.org/u/debanjan_roy) and [Wolfgang Maier](https://help.galaxyproject.org/u/wm75)
-* [multithreading and parallel processing files](https://help.galaxyproject.org/t/multithreading-and-parallel-processing-files/203), by [Hiba Shaban](https://help.galaxyproject.org/u/hiba_shaban), [James Taylor](https://help.galaxyproject.org/u/jxtx), and [Enis Afgan](https://help.galaxyproject.org/t/multithreading-and-parallel-processing-files/203/10)
+* The [Galaxy statistics page](/src/galaxy-project/statistics/index.md) has received it's semi-annual update.
 
 
+## PAG 2019 Presentations and Posters are Available
 
-*[Join the discussion](https://help.galaxyproject.org/).*
-
-
-## GCCBOSC 2018 Videos are now available
-
-**Videos from [GCCBOSC 2018](https://gccbosc2018.sched.com/) are available online** and are linked to from the [conference web site](https://gccbosc2018.sched.com/).  Talks from the GCC parts of the meeting are available on a **[Galaxy Vimeo channel](https://vimeo.com/channels/gccbosc2018)**, and talks from the BOSC parts are available on a **[BOSC YouTube channel](https://www.youtube.com/playlist?list=PLir-OOQiOhXaHvCY_KYshsOMULuXDqvh7)** (and joint keynotes are available on both).  There are over 70 presentations across both channels, showing every talk from the opening keynote to the closing keynote.
-
-## European Galaxy Days: Slides are online
-
-Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
+Copies of most of the Galaxy related presentations and posters form the Plant and Animal Genome Conference [are now online](/src/events/2019-pag/index.md).  Many thanks to the all the presenters for sharing their during and after the conference.
