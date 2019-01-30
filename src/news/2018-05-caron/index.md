@@ -11,7 +11,7 @@ We are sorry to pass on the news that [Christophe Caron](https://www.sfbi.fr/con
 
 SFBI has set up a [tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron).  A post by Jacques van Helden and Claudine Medigue includes this:
 
-<blockquote>
+<blockquote class="blockquote">
 Christophe was appreciated by all of us for his enthusiasm, his energy, his will to move forward everything he was undertaking, his ability to federate, his love of collective work, his continuously good humor and joie de vivre ... the list is long.
 </blockquote>
 
@@ -19,7 +19,7 @@ Indeed it is. Christophe seemed to be everywhere in the Galaxy community.  His d
 
 Fred de Lamotte, another GCC2017 organizer, ends his tribute with:
 
-<blockquote>
+<blockquote class="blockquote">
 The void he leaves is immense, we still had so much to do together.
 </blockquote>
 

@@ -18,6 +18,7 @@ $h3-font-size: $font-size-base * 1.5; // default 1.75
 $h4-font-size: $font-size-base * 1.25; // default 1.5
 $h5-font-size: $font-size-base; // default 1.25
 $h6-font-size: $font-size-base * 0.85; // default 1
+$blockquote-font-size: $font-size-base;
 
 $brand-primary: #336699;
 $headings-small-color: inherit;
@@ -152,8 +153,9 @@ footer {
 
 /* override bootstrap blockquote styling */
 
-blockquote {
-    font-size: 14px;
+.blockquote {
+    border-left: 1rem solid #f5f5f5;  // same as code
+    padding-left: 1rem;
 }
 
 /* override bootstrap float-left and float-right styling */
