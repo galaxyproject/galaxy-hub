@@ -47,7 +47,7 @@ Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd7
 
 After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-02-28/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
-**But, before we start meeting next year, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
+**But, before we start meeting this month, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
 
 Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform)**
 
@@ -163,7 +163,7 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 
 ## Lifeportal
 
-[<img class="float-left" style="max-width: 300px" src="/src/use/lifeportal-oslo/lifeportal.png" alt="LifePortal" />](/src/use/lifeportal-oslo/index.md)
+[<img class="float-left" style="max-width: 200px" src="/src/use/lifeportal-oslo/lifeportal-logo.png" alt="LifePortal" />](/src/use/lifeportal-oslo/index.md)
 
 [Lifeportal](https://lifeportal.uio.no) is a Galaxy server available to any researcher in Norway (and possibly any other user willing to use the service). LifePortal implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.  User support is available [via email](mailto:lifeportal-help@usit.uio.no).
 
