@@ -1,7 +1,7 @@
 ---
 title: Finding and quantifying new transcripts
 ---
-<blockquote>
+<blockquote class="blockquote">
 <small>
 This tutorial is built upon efforts of [Mo Heydarian](https://galaxyproject.org/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg) and tools wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](https://galaxyproject.org/iuc/) members.
 </small>
