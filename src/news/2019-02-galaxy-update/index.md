@@ -29,12 +29,6 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # Event News
 
-<div class="float-right">
-<img style="max-width: 460px" src="/src/events/admin-training2016/2016-admin-training-feedback-cloud.png" alt="Feedback from 2016 Admin Training Participants" />
-<div class="center">Feedback from a previous Admin Training.</div>
-</div>
-
-
 ## GCC2019 Training Topic Voting Is Open
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
@@ -48,7 +42,6 @@ The GCC2019 Organizing Committee compiled [training topics nominated by the comm
 You can vote for as many topics as you want, but please note that the more topics you vote for the less your vote for each one counts. What? Here's an example. If Moni votes for 4 topics then each of her votes counts for 1/4 of a point. If Dave votes for 22 topics then each of his votes counts for 1/22 of a point.
 
 Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform) on which training topics you would like to see at GCC2019, your vote matters! 
-
 
 
 ## GalaxyAdmins needs your topic suggestions
@@ -75,78 +68,6 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </tr>
 </thead>
 <tbody>
-<tr>
-  <td><span class="text-nowrap">January 8th 2019</span></td>
-  <td><a href="/events/2019-01-gwu">Introduction to Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/>Washington, DC</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dr. Ian Toma (itoma at gwu dot edu)</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">January 12th 2019</span></td>
-  <td><a href="/events/2019-pag">Galaxy @ Plant &amp; Animal Genome XXVII (PAG 2019)</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.intlpag.org/">San Diego, California</a></td>
-  <td>Presenters</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">January 15th 2019</span></td>
-  <td><a href="https://faes.org/biotech82">Bioinformatics for Beginners</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/>National Institutes of Health, Bethesda, Maryland, United States</td>
-  <td>registration@faes.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">January 23rd 2019</span></td>
-  <td><a href="https://bluewaters.ncsa.illinois.edu/webinars/workflows/galaxy">Cloud Resource Federation for Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/GL.png"/><a href="https://bluewaters.ncsa.illinois.edu/webinars">Online</a></td>
-  <td>Enis Afgan</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">January 28th 2019</span></td>
-  <td><a href="/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">February 4th 2019</span></td>
-  <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733">Traitement de données de séquences par Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.agrocampus-ouest.fr/ecole/implantations/campus-de-rennes">AGROCAMPUS OUEST, Rennes, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sandrine Lagarrigue</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">February 25th 2019</span></td>
-  <td><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/">Galaxy HTS data analysis workshop</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/#venue">University of Freiburg, Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">February 28th 2019</span></td>
-  <td><a href="/community/galaxy-admins/meetups/2019-02-28/">GalaxyAdmins February 2019 Meetup</a></td>
-  <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
-  <td>Helena Rasche, Dave Clements</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">March 6th 2019</span></td>
-  <td><a href="https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing">Galaxy for linking bisulfite sequencing with RNA sequencing</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/>University of Rostock, Rostock, Germany</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>destair [at] leibniz-fli.de</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">March 18th 2019</span></td>
-  <td><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/">Gatersleben Research Conference: Applied Bioinformatics for Crops</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/accomodation/">Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
-  <td>Björn Grüning</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">March 20th 2019</span></td>
-  <td><a href="http://meetings.ipk-gatersleben.de/compbiostarter/index.php/program/">Introduction into Galaxy and how to design your own analysis workflow</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/compbiostarter/">Computational Biology Starter, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
-  <td>Anne Fiebig</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">July 1st 2019</span></td>
-  <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
-</tr>
 </tbody>
 </table>
 
@@ -155,7 +76,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**159 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in December.
+**159 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January.
 
 ## Highlighted Publications
 
@@ -191,7 +112,7 @@ Nine of the 13 highlighted publications are open access.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's been added.
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/src/use/quantp/index.md)
 
@@ -251,6 +172,15 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 Every user with their own project in Lifeportal can manage it through the menus built in the Galaxy GUI. Lifeportal is supported by [University of Oslo](http://www.uio.no/), [Norwegian Bioinformatics Platform](https://bioinfo.no/), [MLS UiO](https://www.uio.no/english/research/interfaculty-research-areas/mls/), and [UninetT Sigma2](https://www.uninett.no/en/sigma)
 
 
+## LAPPS Grid
+
+And from this cool writeup (that has nothing to do with life science): [Learning from data: Using technology to gain deeper meaning from archives](https://works.bepress.com/emily-mercer/1/), by Emily Mercer of San Jose State University, describing work by [James Pustejovsky](http://www.pusto.com/) of Brandeis University:
+
+<blockquote class="blockquote">
+One example is the collaboration between the American Archive of Public Broadcasting and James Pustejovsky, professor at Brandeis University. In this collaboration James and his research team have created a software package using the Galaxy Workflow Engine and Language Application Grid ([LAPPS Grid](/src/use/lapps-grid/index.md)) for automatic extraction of metadata from video assets using machine learning methodologies (Oomen et al., 2018; [Pustejovsky et al., 2017](https://doi.org/10.1145/3093338.3104171)). What was once a time exhaustive process of real-time viewing and transcribing of film and video is now as simple as uploading a video file and applying a workflow. Processing takes seconds and afterwards the user has access to the metadata, for example, the text captions on the screen. This metadata can be exported as PBCore, a metadata standard specific to public broadcasting (Oomen et al., 2018; Pustejovsky et al., 2017).
+</blockquote>
+
+There's also some [Jetstream](/src/use/jetstream/index.md) in the mix too.
 
 ## Galaxy Platforms in Publications
 
@@ -273,11 +203,20 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 [<img class="img-fluid mx-auto" src="/src/blog/2019-01-totm/annotation_with_prokka.png" alt="Genome annotation with Prokka"/>](/src/blog/index.md)
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+
+
+<div class="float-right">
+[<img class="img-fluid mx-auto" style="max-width: 70px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)<br />
+[<img class="img-fluid mx-auto" style="max-width: 70px;" src="/src/news/2019-02-galaxy-update/i-need-quantp.jpg" alt="I need QuanTP!" />]((https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)
+</div>
+
+There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 * **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-1-totm/index.md):**
   * read about using Prokka for annotation of draft genome sequences
   * by Bérénice Batut
+* **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
+  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/src/news/2019-02-galaxy-update/index#quantp)
 
 ----
 
@@ -285,8 +224,16 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 <div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
-The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
+The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Genomic data analyst](/src/news/2019-01-artbio-postdoc/index.md), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
+* [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
+* ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
+  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+  * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
+  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
@@ -334,7 +281,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in December 2018](/src/toolshed/contributions/2018-12/index.md).
+[Tool Shed contributions in January  2019](/src/toolshed/contributions/2019-01/index.md).
 
 
 # Releases
@@ -368,7 +315,8 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 # Other News
 
 * The [Galaxy statistics page](/src/galaxy-project/statistics/index.md) has received it's semi-annual update.
-
+* From [James Taylor](/src/people/james-taylor/index.md):
+  * [Visualizing scrRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available
 
