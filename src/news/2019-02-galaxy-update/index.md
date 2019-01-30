@@ -4,23 +4,20 @@ tease: 'Events (GSOC, GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!,
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
+The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/src/news/2019-02-galaxy-update/index.md#event-news)
   * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**
   * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
-* [159 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [160 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
-* [17 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
+* At least [23 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 2 continents. 
 * [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
 * [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions)
-* [New releases](/src/news/2019-02-galaxy-update/index.md#releases):
-  * Tripal Galaxy - connect Galaxy to your online database
-  * BioBlend - a Python API for Galaxy and CloudMan
-  * Planemo - utilities for building tools for Galaxy
+* [New releases](/src/news/2019-02-galaxy-update/index.md#releases) of galaxy-lib and Planemo.
 * And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -76,7 +73,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**159 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January.
+**160 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January.
 
 ## Highlighted Publications
 
@@ -92,21 +89,22 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 * **[VAPPER: High-throughput Variant Antigen Profiling in African trypanosomes](https://doi.org/10.1101/492074)**, Sara Silva Pereira, John Heap, Andrew R Jones, Andrew P. Jackson. *bioRxiv* 492074; doi: 10.1101/492074
 * **[PrediTALE: A novel model learned from quantitative data allows for new perspectives on TALE targeting](https://doi.org/10.1101/522458)**, Annett Erkes, Stefanie Mücke, Maik Reschke, Jens Boch, Jan Grau. *bioRxiv* 522458; doi: 10.1101/522458 
 * **[Enhancing Access to Digital Media: The Language Application Grid in the HTRC Data Capsule](https://doi.org/10.1145/3093338.3104171)**, James Pustejovsky, Marc Verhagen, Keongmin Rim, Yu Ma, Liang Ran, Samitha Liyanage,  Jaimie Murdock, Robert H. McDonald, Beth Plale. In PEARC17 Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact, Article No. 60. doi: 10.1145/3093338.3104171
+* **[Predicting runtimes of bioinformatics tools based on historical data: Five years of Galaxy usage](https://doi.org/10.1093/bioinformatics/btz054)**, Anastasia Tyryshkina, [Nate Coraor](/src/people/nate/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *Bioinformatics*, btz054, doi: 10.1093/bioinformatics/btz054
 * **[Tools for Understanding miRNA–mRNA Interactions for Reproducible RNA Analysis](https://link.springer.com/protocol/10.1007%2F978-1-4939-8982-9_8)**, Andrea Bagnacani, Markus Wolfien, Olaf Wolkenhauer. In: Lai X., Gupta S., Vera J. (eds) Computational Biology of Non-Coding RNA. Methods in Molecular Biology, vol 1912. Humana Press, New York, NY
 * **[QuanTP: A Software Resource for Quantitative Proteo-Transcriptomic Comparative Data Analysis and Informatics](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727)**, Praveen Kumar, Priyabrata Panigrahi, James Johnson, Wanda J. Weber, Subina Mehta, Ray Sajulga, Caleb  Easterly, Brian A. Crooker, Mohammad Heydarian, Krishanpal Anamika, Timothy J. Griffin , and Pratik D. Jagtap. *Journal of Proteome Research*, Article ASAP
 DOI: 10.1021/acs.jproteome.8b00727
 * **[*miCloud:* A Plug-n-Play, Extensible, On-Premises Bioinformatics Cloud for Seamless Execution of Complex Next-Generation Sequencing Data Analysis Pipelines](https://www.liebertpub.com/doi/10.1089/cmb.2018.0218)**, Baekdoo Kim, Thahmina Ali, Changsu Dong, Carlos Lijeron, Raja Mazumder, Claudia Wultsch, and Konstantinos Krampis. *Journal of Computational Biology* doi: 10.1089/cmb.2018.0218
 
-Nine of the 13 highlighted publications are open access.
+Ten of the fourteen highlighted publications are open access.
 
 ## Publication Topics
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 111 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 10 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
 | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
-| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | |
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | |
 
 ----
 
@@ -195,19 +193,15 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 1 | [>GmT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GmT) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | | 1 | [>Halogen Bonding](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Halogen Bonding) | 
 | 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Martin Luther) | | 1 | [>miCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>miCloud) | | 1 | [>Peptimapper](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Peptimapper) | 
 | 1 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PRABI) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | 
-| 1 | [>TreeGenes](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TreeGenes) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) |  | | | |
+| 1 | [>TreeGenes](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TreeGenes) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | | 1 |  [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics)  | |
 
 ----
 
 # New Galactic Blog Posts
 
-[<img class="img-fluid mx-auto" src="/src/blog/2019-01-totm/annotation_with_prokka.png" alt="Genome annotation with Prokka"/>](/src/blog/index.md)
-
-
-
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 70px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)<br />
-[<img class="img-fluid mx-auto" style="max-width: 70px;" src="/src/news/2019-02-galaxy-update/i-need-quantp.jpg" alt="I need QuanTP!" />]((https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)<br />
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/i-need-quantp.jpg" alt="I need QuanTP!" />]((https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)
 </div>
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
@@ -216,7 +210,7 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entries:
   * read about using Prokka for annotation of draft genome sequences
   * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
-  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/src/news/2019-02-galaxy-update/index#quantp)
+  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/src/news/2019-02-galaxy-update/index.md#quantp)
 
 ----
 
@@ -234,6 +228,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
   * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
+* [M2 - bio-informatique](https://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
@@ -288,21 +283,11 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 New additions to the Galaxy Ecosystem.
 
-## Tripal Galaxy Module 1.0
+## galaxy-lib 18.9.2
 
-[<img class="float-right" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Galaxy" width="200" />](https://tripal-galaxy.readthedocs.io/en/latest/)
+galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
-[Tripal Galaxy](https://tripal-galaxy.readthedocs.io/en/latest/) is a [Drupal](https://www.drupal.org/) module is designed to support integration of the [Tripal online database construction toolkit](http://tripal.info/) with Galaxy. It uses the [blend4php](https://github.com/galaxyproject/blend4php) library. In the past, community databases have often provided analytical tools that come prepared with site-specific data. Examples include BLAST, CAP3, and InterProScan servers, for example. By integrating Tripal with Galaxy, the Tripal-based community database can offer more complicated analytical tools that support larger data sets using Galaxy as a backend.
-
-The Tripal Galaxy module provides more than just a “wrapper” for Galaxy. Site administrators can provide files to help end-users easily integrate data from the site within workflows. On [Tripal v3](http://tripal.info/news/Tripal-v3.0) sites, user’s can create data collection containing data gleaned from the site which in turn can be used in Galaxy workflows. Quotas are provided to prevent users from overunning the storage space of the server and usage statistics help a site admin learn which workflows are most used and who are the biggest users.
-
-## BioBlend 0.12.0
-
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
-
-See the [release notes](https://github.com/galaxyproject/bioblend/releases) for what's new in release 0.12.0.
-
-## Planemo 0.58.0
+## Planemo 0.58.1
 
 [<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
