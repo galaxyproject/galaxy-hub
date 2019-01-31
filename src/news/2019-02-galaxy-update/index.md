@@ -9,17 +9,17 @@ date: ""
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/src/news/2019-02-galaxy-update/index.md#event-news)
-  * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**
-  * **[ELIXIR Galaxy Community Workshop]**(https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) pre-registration is open! 
-* [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
+  * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**.
+  * **[ELIXIR Galaxy Community Workshop](/src/news/2019-02-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
+* [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions).
 * [160 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
 * At least [23 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 2 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
-* [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions)
+* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos.
+* [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions).
 * [New releases](/src/news/2019-02-galaxy-update/index.md#releases) of galaxy-lib and Planemo.
-* And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too
+* And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -45,9 +45,9 @@ Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd7
 
 [<img class="img-fluid mx-auto float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
 
-Join the Galaxy Community of Elixir for a three day workshop at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
+Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
 
-During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts.
+During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
 Find pre-registration **[here]**(https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
