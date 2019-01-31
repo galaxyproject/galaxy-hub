@@ -275,7 +275,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 * [Configure Cloud Authorizatoin for Azure](src/cloud/authnz/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
-## Other Training Materials and Doc
+## Other Training Materials and Docs
 
 * [Tackling Analytical challenges in Cancer proteogenomics using Galaxy framework tutorial](http://z.umn.edu/mumbaidocs) and [slides](http://z.umn.edu/mumbaislides), presented by Pratik Jagtap of the [Galaxy-P team](https://useglaxyp.org), at the [Cancer Proteogenomics Workshop](http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/), in Pune, India
 * [Genomics: gentle introduction to genomic data analysis with Galaxy](http://guides.uflib.ufl.edu/c.php?g=147545&p=6481743), a set of videos by Joe Wu at the University of Florida
@@ -311,7 +311,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 * The [Galaxy statistics page](/src/galaxy-project/statistics/index.md) has received it's semi-annual update.
 * From [James Taylor](/src/people/james-taylor/index.md):
-  * [Visualizing scrRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
+  * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available
 
