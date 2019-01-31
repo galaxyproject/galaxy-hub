@@ -1,6 +1,6 @@
 ---
 title: 'February 2019 Galactic News'
-tease: 'Events (GSOC, GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
+tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
 date: ""
 ---
 
@@ -10,7 +10,8 @@ The *February  2019 Galactic News* is here!  This is a summary of what is going 
 
 * [Event News](/src/news/2019-02-galaxy-update/index.md#event-news)
   * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**
-  * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
+  * **[ELIXIR Galaxy Community Workshop]**(https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) pre-registration is open! 
+* [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
 * [160 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
@@ -39,6 +40,16 @@ The GCC2019 Organizing Committee compiled [training topics nominated by the comm
 You can vote for as many topics as you want, but please note that the more topics you vote for the less your vote for each one counts. What? Here's an example. If Moni votes for 4 topics then each of her votes counts for 1/4 of a point. If Dave votes for 22 topics then each of his votes counts for 1/22 of a point.
 
 Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform) on which training topics you would like to see at GCC2019, your vote matters! 
+
+## ELIXIR Galaxy Community Workshop
+
+[<img class="img-fluid mx-auto float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+
+Join the Galaxy Community of Elixir for a three day workshop at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
+
+During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts.
+
+Find pre-registration **[here]**(https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
 
 ## GalaxyAdmins needs your topic suggestions
@@ -200,8 +211,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)<br />
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/i-need-quantp.jpg" alt="I need QuanTP!" />]((https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)
 </div>
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
@@ -263,7 +273,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub
 
-* [Configure Cloud Authorizatoin for Azure](src/cloud/authnz/azure/index.md)), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Configure Cloud Authorizatoin for Azure](src/cloud/authnz/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 ## Other Training Materials and Doc
 
