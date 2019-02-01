@@ -333,10 +333,6 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 * [Configure Cloud Authorizatoin for Azure](src/cloud/authnz/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
-## Other Training Materials and Docs
-
-* [Tackling Analytical challenges in Cancer proteogenomics using Galaxy framework tutorial](http://z.umn.edu/mumbaidocs) and [slides](http://z.umn.edu/mumbaislides), presented by Pratik Jagtap of the [Galaxy-P team](https://useglaxyp.org), at the [Cancer Proteogenomics Workshop](http://www.bio.iitb.ac.in/~sanjeeva/cpg2018/), in Pune, India
-* [Genomics: gentle introduction to genomic data analysis with Galaxy](http://guides.uflib.ufl.edu/c.php?g=147545&p=6481743), a set of videos by Joe Wu at the University of Florida
 
 ---
 
