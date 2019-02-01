@@ -276,7 +276,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:
 
-* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-1-totm/index.md):**
+* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-01-totm/index.md):**
   * read about using Prokka for annotation of draft genome sequences
   * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
