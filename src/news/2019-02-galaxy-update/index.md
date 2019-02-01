@@ -33,7 +33,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
-The GCC2019 Organizing Committee compiled [training topics nominated by the community] (https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
+The GCC2019 Organizing Committee compiled [training topics nominated by the community](https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
 
 **Training topics that are offered at GCC2019 are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform)***
 
