@@ -1,7 +1,7 @@
 ---
 title: 'February 2019 Galactic News'
 tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
-date: ""
+date: "2019-02-01"
 ---
 
 [<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
@@ -16,7 +16,7 @@ The *February  2019 Galactic News* is here!  This is a summary of what is going 
 * Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
 * At least [23 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 2 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos.
+* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates), including *GO enrichment analysis*  and *Age prediction using machine learning*.
 * [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions).
 * [New releases](/src/news/2019-02-galaxy-update/index.md#releases) of galaxy-lib and Planemo.
 * And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too.
