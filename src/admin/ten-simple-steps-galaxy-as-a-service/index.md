@@ -36,7 +36,7 @@ There are also other decisions you need to make early, which you hopefully can a
 * Will this be a [public server](/src/use/index.md), or just an internal service for your lab or institute?
 * Do you rely on local (i.e. Galaxy managed) or on [external authentication](/src/admin/config/external-user-auth/)?
 * Will there be sensible data on the server?
-* Will the data be stored in one place or [distributed](/src/object-store/)?
+* Will the data be stored in one place or [distributed](/src/admin/objectstore/)?
 * Do you want to put users in groups? 
 
 
