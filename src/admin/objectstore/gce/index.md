@@ -22,8 +22,8 @@ on Google Cloud Platform:
 
     ![image](/src/admin/objectstore/gce/01.png)
  
- 2. Go to _[service accounts](https://cloud.google.com/compute/docs/access/service-accounts)_
- page as shown in the following figure:
+2. Go to _[service accounts](https://cloud.google.com/compute/docs/access/service-accounts)_
+page as shown in the following figure:
  
     ![image](/src/admin/objectstore/gce/02.png)
     
