@@ -49,7 +49,7 @@ Join the Galaxy Community of Elixir for a [three day workshop](https://www.franc
 
 During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
-Find pre-registration [**here**](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
+Find pre-registration **[here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance)**.
 
 
 ## GalaxyAdmins needs your topic suggestions
