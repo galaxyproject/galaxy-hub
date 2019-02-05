@@ -77,7 +77,15 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
 - Eighth page full color ad in printed materials
 
 ## Other Sponsorships
+
 Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
+
+<div class="center">
+[<img style="max-width: 250px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/labs)<br />
+**Childcare** Sponsor
+</div>
+
+<br />
 
 # CollaborationFest Sponsorships
 
@@ -125,7 +133,6 @@ Cost: €500 <span class="small">(+VAT)</div>
 - An eighth page color ad in printed material
 - A guaranteed participant slot for sponsor organisation representative 
 - Thanks and acknowledgements from organisers before and during the collaborative events
-
 
 
 ## Hosts
