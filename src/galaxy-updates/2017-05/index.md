@@ -93,7 +93,7 @@ See you in Prague!
 # Gateways 2017 Call for Participation (1st deadline: June 5)
 
 <div class='right'> 
-<a href='http://sciencegateways.org/gateways2017/call'><img src="/src/images/logos/scgi-logo-trans-big.png" alt="Gateways 120" height="90" /></a>
+<a href='http://sciencegateways.org/gateways2017/call'><img src="/src/images/logos/sgci-logo-trans-big.png" alt="Gateways 120" height="90" /></a>
 </div>
 
 [Gateways 2017](http://sciencegateways.org/gateways2017/) (October 23-25, at the University of Michigan, Ann Arbor) is now accepting submissions of papers, demos, tutorials, and panels (2-4 pages) on the topic of science or engineering gateways, which are integrated, user-friendly interfaces to scientific computing, data, and other domain-specific resources to support research and education.

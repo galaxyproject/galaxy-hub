@@ -5,7 +5,7 @@ days: 3
 tease: 'Early registration ends Sept 1'
 continent: NA
 location: 'Gateways 2017, University of Michigan, Ann Arbor, Michigan, United States'
-image: /images/logos/scgi-logo-trans-big.png
+image: /images/logos/sgci-logo-trans-big.png
 location_url: http://sciencegateways.org/gateways2017/
 external_url: http://sched.co/Bl3d
 contact: 'Enis Afgan, Marcus Christie, Nuwan Goonasekera'
