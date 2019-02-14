@@ -78,14 +78,30 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
 
 ## Other Sponsorships
 
-Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
-
 <div class="center">
-[<img style="max-width: 250px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/labs)<br />
-**Childcare** Sponsor
+<table>
+  <tr style="text-align: center">
+    <td style="vertical-align: middle;">
+      [<img style="max-width: 260px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
+    </td>
+    <td style="width: 5%"> </td>
+    <td style="vertical-align: middle;">
+      [<img style="padding-bottom: 1em" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
+    </td>
+    <td style="width: 8%"> </td>
+  </tr>
+  <tr>
+    <td>**Childcare** Sponsor</td>
+    <td></td>
+    <td>**Childcare** Sponsor</td>
+  </tr>
+</table>
 </div>
 
 <br />
+
+Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
+
 
 # CollaborationFest Sponsorships
 
