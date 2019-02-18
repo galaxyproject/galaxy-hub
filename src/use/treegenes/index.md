@@ -6,12 +6,14 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://treegenes.cam.uchc.edu/galaxy"
     platform_text: "TreeGenes Galaxy"
-summary: "We bring resources together to accelerate the use of stress adapted trees."
+summary: " TreeGenes integrates genotype, phenotype, and environmental data that can be processed for association mapping and landscape genomics, with a focus on forest trees. This functionality is provided by [Tripal Galaxy](https://github.com/tripal/tripal_galaxy), a module for [Tripal](http://tripal.info) that provides seamless support for running Galaxy workflows directly in the site. Users can analyze data provided by TreeGenes or their own."
 image: "/src/use/treegenes/treegenes-flowchart.png"
 comments:
-  - "A Galaxy server for the [TreeGenes](http://treegenesdb.org/) community."
-  - "Includes tools specifically for tree genomics including  the [Aurora Galaxy Tools](https://github.com/statonlab/aurora-galaxy-tools/blob/master/README.md) and [Samβada](https://lasig.epfl.ch/page-101934-en-html/sambada/) for landscape genomics."
+  - "[TreeGenes](https://treegenesdb.org) is utilizing the [Tripal Galaxy API](https://github.com/tripal/tripal_galaxy) in order to provide seamless Galaxy workflow support to users on the site. Examples currently in development"
+  - "[CartograTree](https://treegenesdb.org/cartogratree): Web-based map-driven module to provide association and landscape genomics. Uses [Sambada](https://github.com/Sylvie/sambada)"
+  - "[Orthoquery](https://treegenesdb.org/orthoquery): Module to assess and visualize gene family evolution. Uses tools: [VSEARCH](https://github.com/torognes/vsearch), [OrthoFinder](https://github.com/davidemms/OrthoFinder), [Diamond](https://github.com/bbuchfink/diamond) and [TransDecoder](https://github.com/TransDecoder/TransDecoder/wiki)"
 user_support:
+  - "Accounts can be requested through the TreeGenes site"
 quotas:
   - "Anonymous access and account creation are goth supported."
 citations:
