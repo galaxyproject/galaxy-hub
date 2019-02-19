@@ -16,7 +16,6 @@ user_support:
   - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/src/support/index.md)"
-  - "[@GVL_QLD on Twitter](https://twitter.com/GVL_QLD)"
 quotas:
   - "Disk Quotas"
   - "Registered users get 100GB"
