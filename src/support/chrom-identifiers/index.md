@@ -77,6 +77,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 
 **Sequence content is a match but adding "chr" is not enough to obtain an exact identifier match. You want to try to fix the identifiers anyway!!**
 
+1. If the data is in a tabular format (BED, Interval, GTF -- with any headers removed first), and a suitable identifier mapping file can be obtained or created, the tool *Replace column by values which are defined in a convert file* can be used. Note that this will NOT work with BAM, VCF, Wiggle or other structured formats, as these are not tabular formatted data. 
 1. Manipuations with tools can often be used to split up a dataset, perform text substitutions and additions, concatinate datasets, and most other common operations one could do with command-line shell tools. 
 1. The dataset could also be downloaded locally to your computer and manipulated there using command-line tools or the text editor of choice.
 
