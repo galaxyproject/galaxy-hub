@@ -187,7 +187,7 @@ Please join us for the [next GalaxyAdmins meetup on June 18](/src/community/gala
 
  **Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester**
 
-[GalaxyAdmins](/src/GalaxyAdmins/index.md) will also have an [in-person meetup at GCC2015](/src/events/gcc2015/bofs/galaxy-admins/index.md).
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) will also have an [in-person meetup at GCC2015](/src/events/gcc2015/bofs/galaxy-admins/index.md).
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 

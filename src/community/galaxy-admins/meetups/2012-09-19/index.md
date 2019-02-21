@@ -33,4 +33,4 @@ Special thanks to Alex Moskalenko for presenting!
 
 ## Next Meeting
 
-The next [conference call](/src/community/galaxy-admins/meetups/2012-09-19//index.md) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/community/galaxy-admins/meetups/2012-09-19/index.md) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.

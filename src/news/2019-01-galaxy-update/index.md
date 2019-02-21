@@ -106,7 +106,7 @@ Please give some thought to what topics you would like to see offered, or that y
 
 [<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
 
-After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-02-28/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-03-21/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 **But, before we start meeting next year, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
 
@@ -170,7 +170,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 </tr>
 <tr>
   <td><span class="text-nowrap">February 28th 2019</span></td>
-  <td><a href="/community/galaxy-admins/meetups/2019-02-28/">GalaxyAdmins February 2019 Meetup</a></td>
+  <td><a href="/community/galaxy-admins/meetups/2019-03-21/">GalaxyAdmins February 2019 Meetup</a></td>
   <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
   <td>Helena Rasche, Dave Clements</td>
 </tr>

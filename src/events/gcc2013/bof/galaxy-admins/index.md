@@ -45,7 +45,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * [Graham Etherington](mailto:Graham dot Etherington AT tsl DOT ac DOT uk)
 * [Chris Bridson](mailto:Chris . Bridson AT nbi DOT ac DOT uk)
 * Scott Edmunds, GigaScience
-* [Steve McMahon, CSIRO, Australia](/src/SteveMcMahon/index.md)
+* Steve McMahon, CSIRO, Australia
 * Subazini Thankaswamy
 * Sebastian Schaaf
 * Calogero Zarbo
@@ -75,7 +75,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 1. We can be sure that some relevant postings would not have the tag
 2. Therefore people would have to subscribe to the full list anyway.
 
-If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/src/GalaxyAdmins/index.md)" in it. 
+If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/src/community/galaxy-admins/index.md)" in it. 
 </div>
 
 **Meetups:**

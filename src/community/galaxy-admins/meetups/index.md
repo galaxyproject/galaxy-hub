@@ -2,15 +2,15 @@
 
 {{> Community/GalaxyAdmins/LinkBox }}
 
-The [GalaxyAdmins](/src/community/galaxy-admins/meetups//index.md) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
+The [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
 
 
 ## Meetups
 
 **2019**
 
-* [2019-02-28 Web Meetup](/src/community/galaxy-admins/meetups/2019-02-28/index.md)
-  * [TBD, *TBD*](/src/news/2018-12-galaxy-admins/index.md)
+* [2019-03-21 Web Meetup](/src/community/galaxy-admins/meetups/2019-03-21/index.md)
+  * TBD, *TBD*
 
 **2018**
 

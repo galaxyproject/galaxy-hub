@@ -10,6 +10,6 @@ The [GalaxyAdmins group](/src/community/galaxy-admins/index.md) is coming up on 
 * [Leadership Models and Selection](/src/community/galaxy-admins/future/index.md#leadership)
 * and a summary of the [group's history](/src/community/galaxy-admins/future/index.md#history).
 
-These topics are currently being discussed in [this email thread](/src/this email thread/index.md).  Whatever consensus and plan we reach will be posted to the [wiki page](/src/community/galaxy-admins/future/index.md).  Ideally we should have a plan of action in place before [GCC2103](/src/events/gcc2013/index.md) at the end of June.
+These topics are currently being discussed in email thread.  Whatever consensus and plan we reach will be posted to the [wiki page](/src/community/galaxy-admins/future/index.md).  Ideally we should have a plan of action in place before [GCC2103](/src/events/gcc2013/index.md) at the end of June.
 
 [Dave Clements](/src/people/dave-clements/index.md)
