@@ -68,7 +68,7 @@ Send them to Jennifer Hillman-Jackson, Karen Ready or Mo Heydarian.
 
 Form the group! Please reserve discussion topics to those that directly concern the core targets. 
 
-Heads up [GalaxyAdmins](/src/GalaxyAdmins/index.md), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
+Heads up [GalaxyAdmins](/src/community/galaxy-admins/index.md), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
 
 ## Ideas
 

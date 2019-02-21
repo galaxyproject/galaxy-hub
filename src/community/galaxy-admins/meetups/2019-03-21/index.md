@@ -1,12 +1,12 @@
 ---
-title: 'GalaxyAdmins February 2019 Meetup'
+title: 'GalaxyAdmins March 2019 Meetup'
 tease: "Get together with your fellow GalaxyAdmins"
-date: '2019-02-28'
+date: '2019-03-21'
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" alt="GalaxyAdmins" style="max-width: 220" />](/src/community/galaxy-admins/index.md)
 
-* **Date:** 28 February 2019
+* **Date:** 21 March 2019
 * **Topic:**  TBD
 * **Presenter:**  TBD 
 * **Links:** We'll link to slides and live and recorded video here

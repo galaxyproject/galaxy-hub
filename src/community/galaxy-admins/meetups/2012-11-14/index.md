@@ -4,7 +4,7 @@
 
 {{> Community/GalaxyAdmins/LinkBox }}
 
-<div class='center'>**Note:** Next [GalaxyAdmins](/src/community/galaxy-admins/meetups//index.md) Meetup: [January 16](/src/community/galaxy-admins/meetups/2012-11-14/2013-01-16/index.md) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
+<div class='center'>**Note:** Next [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) Meetup: [January 16](/src/community/galaxy-admins/meetups/2013-01-16/index.md) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
 
 <br />
 
@@ -42,4 +42,4 @@ We thank Ann profusely for her contributions, and Srinivas for taking this on.
 
 ## Call Technology
 
-We used the [University of Iowa's Blackboard system](/src/community/galaxy-admins/meetups/2012-11-14/WebinarTech/index.md) for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*
+We used the University of Iowa's Blackboard system for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*
