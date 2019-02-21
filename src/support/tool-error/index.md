@@ -10,6 +10,8 @@ Related topics
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
 * [Choices](/src/choices/index.md)
 * [Ecosystem](https://galaxyproject.github.io/)
+* [Galaxy Help](https://help.galaxyproject.org/)
+* [Search all Prior Q&A and Galaxy Resources](https://galaxyproject.org/search/)
 
 Known Issues
 
@@ -24,7 +26,7 @@ So you started a job and it ended up failing. The result datasets are red in the
 
 What to do? It depends on the **failure type** and where you are using Galaxy. 
 
-***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Biostars posts, documentation, and/or Galaxy tutorials that include a solution.
+***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
 
 ### Query all Galaxy resources with the "Search Galaxy" box above
 
