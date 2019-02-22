@@ -79,7 +79,7 @@ If you have implemented a particular feature or have addressed a particular chal
 
 # Documentation
 
-This wiki contains a large amount of documentation about using and administering Galaxy.  You can help keep this wiki current and relevant by maintaining it and by addressing gaps in the current documentation.  See [WWiki Best Practices](/src/wiki-best-practices/index.md) for more on updating this wiki.
+This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) for more on updating this site.
 
 # Code
 
