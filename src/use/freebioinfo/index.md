@@ -7,7 +7,7 @@ platforms:
     platform_url: "http://www.freebioinfo.org/"
     platform_text: "FreeBionfo Galaxy Server"
 summary: "Galaxy for metagenomic analysis."
-image: "/src/use/freebioinfo/freebioinfo-fig2.png"
+image: "/src/use/freebioinfo/freebioinfologo.jpg"
 comments:
   - "Includes a wide range of metagenomics and other tools"
 user_support:
