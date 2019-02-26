@@ -25,17 +25,6 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # Event News
 
-## ELIXIR Galaxy Community Workshop
-
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR" />](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance)
-
-Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
-
-During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
-
-Find pre-registration **[here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance)**.
-
-
 ## GalaxyAdmins 
 
 [<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
@@ -57,35 +46,67 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications from February:
 
+* **[Développement d’outils et de méthodes pour l’analyse de données épigénomiques](https://savoirs.usherbrooke.ca/handle/11143/14918?show=full)**, Jonathan Laperle, M. Sc thesis, Université de Sherbrooke, 2019
+* **[GCAC: galaxy workflow system for predictive model building for virtual screening](https://doi.org/10.1186/s12859-018-2492-8)**, Deepak R. Bharti, Anmol J. Hemrom and Andrew M. Lynn. *BMC Bioinformatics* 2019 19 (Suppl 13) :550 doi:10.1186/s12859-018-2492-8
+* **[EWAS-Galaxy: a tools suite for population epigeneticsintegrated into Galaxy](https://doi.org/10.1101/553784 )**, Katarzyna Murat, [Björn Grüning](/src/people/bjoern-gruening/index.md), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, *Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
+* **[Statistical Mitogenome Assembly with Repeats](https://dna.engr.uconn.edu/bibtexmngr/upload/AM18.pdf)**, Fahad Alqahtani and Ion I. Mandoiu. 2018 IEEE 8th International Conference on Computational Advances in Bio and Medical Sciences (ICCABS)
+* **[SMAGEXP: a galaxy tool suite for transcriptomics data meta-analysis](https://academic.oup.com/gigascience/article/8/2/giy167/5304063)**, Samuel Blanck and Guillemette Marot. *GigaScience*, Volume 8, Issue 2, 1 February 2019, giy167, doi:10.1093/gigascience/giy167
+* **[Enrichment of phosphate solubilizing bacteria during late developmental stages of eggplant (*Solanum melongena* L.)](https://academic.oup.com/femsec/advance-article/doi/10.1093/femsec/fiz023/5319216)**, Huixiu Li, Xiaoyan Ding, Chen Chen, Xiangnan Zheng, Hui Han, Chennan Li, Jingyang Gong, Ting Xu, Qing X Li, Guo-chun Ding, Ji Li. *FEMS Microbiology Ecology*, fiz023, doi:10.1093/femsec/fiz023
+* **[Optimized Storing of Workflow Outputs through Mining Association Rules](https://doi.org/10.1109/BigData.2018.8622351)**,  Debasish Chakroborti, Manishankar Mondal, Banani Roy, Chanchal K. Roy, Kevin A. Schneider.  2018 IEEE International Conference on Big Data (Big Data), doi:10.1109/BigData.2018.8622351
+* **[Biomolecular Reaction & Interaction Dynamics Global Environment (BRIDGE)](https://doi.org/10.1093/bioinformatics/btz107)**, Tharindu Senapathi, Simon Bray, Christopher B. Barnett, [Björn Grüning](/src/people/bjoern-gruening/index.md), Kevin J Naidoo. *Bioinformatics*, btz107, doi:10.1093/bioinformatics/btz107
 
-XXXXXX of the XXXXXX highlighted publications are open access.
+Five of the eight highlighted publications are open access.
 
 ## Publication Topics
+
+### New Tag: Education
+
+We added a new tag to the [Galaxy Publication Library](/src/publication-library/index.md) this month: *[Education](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BEducation)*.  This tag highlights papers that focus on training, teaching, and/or education in general.  Galaxy is well suited for teaching bioinformatics and this has been reflected in publications for several years.  There are three new pubs this month about education. We also selectively back-curated several papers.  *Education* is the first new tag added to the library in six years.
+
 
 
 ----
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's what's been added since last month:
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in February:
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/src/use/quantp/index.md)
+## FreeBioInfo
 
+[<img class="float-left" style="max-width: 400px" src="/src/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/src/use/freebioinfo/index.md)
+
+[FreeBioinfo](http://www.freebioinfo.org/) is a public server for metagenomic analysis.  The server supports a wide range of metagenomics and other tools. Ther is a [Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) for the site (although it is in Chinese). BreeBioInfo is hosted at the [China Agricultural University](https://cau.edu.cn/), in Beijing, China.
+
+[<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="GCAC" />](/src/use/gcac/index.md)
+
+## GCAC
+
+[GCAC : Galaxy for Compound Activity Classification](https://github.com/LynnLab-JNU/gcac-galaxy-tools) is available as a [public server](http://ccbb.jnu.ac.in/gcac), as a [virtual machine](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and as a [tool suite in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54)."
+u.  GCAC is a web enabled paltform for predictive model building using R and caret package for virtual screening. GCAC is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrieval of potential lead molecules. The [GCAC Manual](https://drive.google.com/open?id=1eWJT05zSFxFNwjaTjjPFE0zZp6g7fO9mxutRtSbc9zU) describes how to use the service.  GCAC is supported by [Jawaharlal Nehru University](https://www.jnu.ac.in/main/).
+
+## EWAS-Galaxy
+
+[EWAS-Galaxy](https://github.com/kpbioteam/docker_ewas) is a Docker image for population epigenetics data analysis. Epigenome-wide association studies (EWAS) analyse genome-wideactivity of epigenetic marks in cohorts of different individuals to find associationsbetween epigenetic variation and phenotype. It is supported by the [University of Bradford](https://bradford.ac.uk/external/)
+
+[<img class="float-right" style="max-width: 300px" src="/src/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/src/use/mandoiu/index.md)
+
+## Mandoiu Lab
+
+The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the [Mandoiu Lab](http://dna.engr.uconn.edu/) at the [University of Connecticut](http://www.uconn.edu/) for high-throughput sequencing and immunogenomics data analysis.  Source code and relevant publications for these and other tools developed in the lab are available on the lab software page.  
+
+## DocMethyl 
+
+[DocMethyl EpiMOLAS](https://hub.docker.com/r/lsbnb/docmethyl) is Docker image  for DNA methylation analysis in WGBS. This Galaxy docker container have tested with demo dataset under the Ubuntu 16.04 64 bit system equipped with four-core CPU, 32GB RAM, 400GB storage.  The image is maintained by the [Institute of Information Science, Academia Sinica](http://eln.iis.sinica.edu.tw), in Taipei, Taiwan.
+
+## Trinity
+
+[<img class="float-left" style="max-width: 300px" src="/src/use/trinity-ctat/trinity-pti-logo.jpg" alt="Trinity CTAT" />](/src/use/trinity-ctat/index.md)
+
+[Trinity CTAT Galaxy](https://galaxy.ncgas-trinity.indiana.edu/) is a [public server](https://galaxy.ncgas-trinity.indiana.edu/) and [Docker container](https://github.com/NCIP/Trinity_CTAT_galaxy/wiki/Intro) providing users with access to large memory resources required for *de novo* transcriptome assembly and downstream analysis.  Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki). The resource has slides available for tasks such as moving data, and help can be reached at trinity@ncgas.org. There are no quotas, however, there is an aggressive purge policy for the disk usage. Files over 60 days old are removed by the system. An account is needed to access the resource and users are asked to fill out a registration form about your research (this helps us stay funded).
 
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
-
-----
-
-# New Galactic Blog Posts
-
-<div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)
-</div>
-
-There are two new *[Galactic Blog](/src/blog/index.md)* entries:
-
 
 ----
 
@@ -103,9 +124,6 @@ The *dark energy* of irreproducible research is threatening the science universe
   * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
-* [M2 - bio-informatique](https://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
-* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
-* [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
@@ -143,7 +161,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in February  2019](/src/toolshed/contributions/2019-01/index.md).
+[Tool Shed contributions in February  2019](/src/toolshed/contributions/2019-02/index.md).
 
 
 # Releases
