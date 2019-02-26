@@ -9,7 +9,6 @@ date: ""
 The *March  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
-  * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
 * [XXXXX new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-posts)!
@@ -27,9 +26,14 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ## GalaxyAdmins 
 
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+<div class="float-right">
+[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md) <br /><br />
+<img class="img-fluid mx-auto" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
+</div>
 
-After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md), with a community discussion, and a presentation from [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/src/community/galaxy-admins/meetups/index.md)).
+
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 ## Upcoming events
 
@@ -116,7 +120,6 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
-* [Genomic data analyst](/src/news/2019-01-artbio-postdoc/index.md), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
 * [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
