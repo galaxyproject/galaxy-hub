@@ -150,8 +150,29 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 [<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-* New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
-* New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
+
+* New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial by [Helena Rasche](https://github.com/erasche).
+* New [Galaxy Tool Management](https://github.com/polkhe) by [Marten Cech](https://github.com/martenson).
+* New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) by [Helena Rasche](https://github.com/erasche).
+* New [Upstream Authentication](https://github.com/jmchilton) tutorial by [Helena Rasche](https://github.com/erasche). 
+* New [Empathy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/empathy/slides.html#1) for admins Slides by [Helena Rasche](https://github.com/erasche).
+* New [Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html#1) slides by [Mehmet Tekman](https://github.com/mtekman).
+* New [Understanding Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
+* New [Mass spectrometry imaging: Examining the spatial distribution of analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) tutorial by [foellmelanie](https://github.com/foellmelanie).
+* New [Pre-processing of Single-Cell RNA Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna_preprocessing/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
+* Addition of [data-library.yaml file](https://github.com/galaxyproject/training-material/pull/1255) for describing sample data of tutorials by [Bert Droesbeke](https://github.com/bedroesb).
+* Update to [Visualization of RNA-Seq results with CummeRbund](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Pavankumar Videm](https://github.com/pavanvidem).
+* Update to [Making sense of a newly assembled genome](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html) by [Ekaterina Polkh](https://github.com/polkhe).
+* Update to [Docker and Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/galaxy-docker/slides.html) slides by [John Chilton](https://github.com/jmchilton).
+* Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html) by [John Chilton](https://github.com/jmchilton).
+* Update to [Server Maintenance](https://training.galaxyproject.org/training-material/topics/admin/tutorials/maintenance/slides.html#1) slides by [Helena Rasche](https://github.com/erasche).
+* Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html) by [Marten Cech](https://github.com/martenson).
+* Updates to [Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) by [Andrea Bagnacani](https://github.com/bagnacan).
+* Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides by [Helena Rasche](https://github.com/erasche).
+* Update to [De Bruijn Graph Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/tutorial.html), by [Ekaterina Polkh](https://github.com/polkhe).
+* Update to [CLIP-Seq data analysis from pre-processing to motif detection](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html) by [Florian-H-Lab](https://github.com/Florian-H-Lab).
+* Update to [GO Enrichment Analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html) by [dsobral](https://github.com/dsobral).
+* Updates to [Mapping and molecular identification of phenotype-causing mutations](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html) and [Analysis of metagenomics data - The global picture](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html) by [Anna Syme](https://github.com/AnnaSyme).
 
 ## Hub
 
