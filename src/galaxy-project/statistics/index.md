@@ -53,7 +53,6 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 | [Galaxy France Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-france) |233|
 | [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) |52|
 | [Galaxy Africa Mailing List]() |46|
-| [Galaxy UK Mailing list](https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk) |33|
 
 | Topic-Based Community / Channel | Membership / Followers|
 |---|---|
