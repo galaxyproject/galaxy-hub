@@ -141,9 +141,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-# New Galactic Blog Post
-
 [<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+
+# New Galactic Blog Post
 
 This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](LINK) about what CVMFS actually is and what it does for Galaxy. 
 
@@ -227,23 +227,12 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 # Releases
 
 New additions to the Galaxy Ecosystem.
+
 ## Galaxy Release 19.01
 
 We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**. This release includes the revised UI style, addition of colorful tags, extensive workflow enhancements, and enhanced support for Singularity. 
 
 Please see the [release notes]((https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)) for additional information. 
-
-## galaxy-lib 18.9.2
-
-galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
-
-## Planemo 0.58.1
-
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
 ----
 
