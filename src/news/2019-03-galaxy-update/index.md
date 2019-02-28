@@ -10,8 +10,8 @@ The *March  2019 Galactic News* is here!  This is a summary of what is going on 
 
 * [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
 * [XXXXX new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
-* The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-posts)!
+* Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
+* BLOG - An interview with Nate Coraor where he tells us about the evolution of CVMFS and Galaxy. 
 * At least [XXXXX Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in XXXXX countries on XXXXX continents. 
 * [Doc, Hub, and Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates), including 
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
@@ -79,24 +79,23 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="float-left" style="max-width: 400px" src="/src/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/src/use/freebioinfo/index.md)
 
-[FreeBioinfo](http://www.freebioinfo.org/) is a public server for metagenomic analysis.  The server supports a wide range of metagenomics and other tools. Ther is a [Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) for the site (although it is in Chinese). BreeBioInfo is hosted at the [China Agricultural University](https://cau.edu.cn/), in Beijing, China.
+[FreeBioinfo](http://www.freebioinfo.org/) is a public server for metagenomic analysis.  The server supports a wide range of metagenomics and other tools. Ther is a [Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) for the site (although it is in Chinese). FreeBioInfo is hosted at the [China Agricultural University](https://cau.edu.cn/), in Beijing, China.
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="GCAC" />](/src/use/gcac/index.md)
 
 ## GCAC
 
-[GCAC : Galaxy for Compound Activity Classification](https://github.com/LynnLab-JNU/gcac-galaxy-tools) is available as a [public server](http://ccbb.jnu.ac.in/gcac), as a [virtual machine](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and as a [tool suite in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54)."
-u.  GCAC is a web enabled paltform for predictive model building using R and caret package for virtual screening. GCAC is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrieval of potential lead molecules. The [GCAC Manual](https://drive.google.com/open?id=1eWJT05zSFxFNwjaTjjPFE0zZp6g7fO9mxutRtSbc9zU) describes how to use the service.  GCAC is supported by [Jawaharlal Nehru University](https://www.jnu.ac.in/main/).
+[GCAC : Galaxy for Compound Activity Classification](https://github.com/LynnLab-JNU/gcac-galaxy-tools) is available as a [public server](http://ccbb.jnu.ac.in/gcac), as a [virtual machine](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and as a [tool suite in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54). GCAC is a web enabled paltform for predictive model building using R and caret package for virtual screening. GCAC is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrieval of potential lead molecules. The [GCAC Manual](https://drive.google.com/open?id=1eWJT05zSFxFNwjaTjjPFE0zZp6g7fO9mxutRtSbc9zU) describes how to use the service.  GCAC is supported by [Jawaharlal Nehru University](https://www.jnu.ac.in/main/).
 
 ## EWAS-Galaxy
 
-[EWAS-Galaxy](https://github.com/kpbioteam/docker_ewas) is a Docker image for population epigenetics data analysis. Epigenome-wide association studies (EWAS) analyse genome-wideactivity of epigenetic marks in cohorts of different individuals to find associationsbetween epigenetic variation and phenotype. It is supported by the [University of Bradford](https://bradford.ac.uk/external/)
+[EWAS-Galaxy](https://github.com/kpbioteam/docker_ewas) is a Docker image for population epigenetics data analysis. Epigenome-wide association studies (EWAS) analyse genome-wide activity of epigenetic marks in cohorts of different individuals to find associations between epigenetic variation and phenotype. EWAS-Galaxy is supported by the [University of Bradford](https://bradford.ac.uk/external/).
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/src/use/mandoiu/index.md)
 
 ## Mandoiu Lab
 
-The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the [Mandoiu Lab](http://dna.engr.uconn.edu/) at the [University of Connecticut](http://www.uconn.edu/) for high-throughput sequencing and immunogenomics data analysis.  Source code and relevant publications for these and other tools developed in the lab are available on the lab software page.  
+The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the [Mandoiu Lab](http://dna.engr.uconn.edu/) at the [University of Connecticut](http://www.uconn.edu/) for high-throughput sequencing and immunogenomics data analysis.  Source code and relevant publications for these and other tools developed in the lab are available on the [Mandoiu lab software page](https://dna.engr.uconn.edu/?page_id=40).  
 
 ## DocMethyl 
 
@@ -111,6 +110,10 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
+
+----
+# Blog
+
 
 ----
 
@@ -150,12 +153,6 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 [<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-
-* New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial by [Helena Rasche](https://github.com/erasche).
-* New [Galaxy Tool Management](https://github.com/polkhe) by [Marten Cech](https://github.com/martenson).
-* New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) by [Helena Rasche](https://github.com/erasche).
-* New [Upstream Authentication](https://github.com/jmchilton) tutorial by [Helena Rasche](https://github.com/erasche). 
-* New [Empathy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/empathy/slides.html#1) for admins Slides by [Helena Rasche](https://github.com/erasche).
 * New [Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html#1) slides by [Mehmet Tekman](https://github.com/mtekman).
 * New [Understanding Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
 * New [Mass spectrometry imaging: Examining the spatial distribution of analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) tutorial by [foellmelanie](https://github.com/foellmelanie).
@@ -163,16 +160,23 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 * Addition of [data-library.yaml file](https://github.com/galaxyproject/training-material/pull/1255) for describing sample data of tutorials by [Bert Droesbeke](https://github.com/bedroesb).
 * Update to [Visualization of RNA-Seq results with CummeRbund](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Pavankumar Videm](https://github.com/pavanvidem).
 * Update to [Making sense of a newly assembled genome](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html) by [Ekaterina Polkh](https://github.com/polkhe).
-* Update to [Docker and Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/galaxy-docker/slides.html) slides by [John Chilton](https://github.com/jmchilton).
-* Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html) by [John Chilton](https://github.com/jmchilton).
-* Update to [Server Maintenance](https://training.galaxyproject.org/training-material/topics/admin/tutorials/maintenance/slides.html#1) slides by [Helena Rasche](https://github.com/erasche).
-* Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html) by [Marten Cech](https://github.com/martenson).
 * Updates to [Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) by [Andrea Bagnacani](https://github.com/bagnacan).
-* Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides by [Helena Rasche](https://github.com/erasche).
 * Update to [De Bruijn Graph Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/debruijn-graph-assembly/tutorial.html), by [Ekaterina Polkh](https://github.com/polkhe).
 * Update to [CLIP-Seq data analysis from pre-processing to motif detection](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/clipseq/tutorial.html) by [Florian-H-Lab](https://github.com/Florian-H-Lab).
 * Update to [GO Enrichment Analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html) by [dsobral](https://github.com/dsobral).
 * Updates to [Mapping and molecular identification of phenotype-causing mutations](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html) and [Analysis of metagenomics data - The global picture](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html) by [Anna Syme](https://github.com/AnnaSyme).
+
+There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](link) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/erasche), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
+* New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial.
+* New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html).
+* New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html).
+* New [Upstream Authentication](https://github.com/jmchilton) tutorial. 
+* New [Empathy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/empathy/slides.html#1) for admins slides.
+* Update to [Docker and Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/galaxy-docker/slides.html) slides.
+* Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html).
+* Update to [Server Maintenance](https://training.galaxyproject.org/training-material/topics/admin/tutorials/maintenance/slides.html#1) slides.
+* Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html).
+* Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides.
 
 ## Hub
 
@@ -191,6 +195,11 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 # Releases
 
 New additions to the Galaxy Ecosystem.
+## Galaxy Release 19.01
+
+We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**. This release includes the revised UI style, addition of colorful tags, extensive workflow enhancements, and enhanced support for Singularity. 
+
+Please see the [release notes]((https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)) for additional information. 
 
 ## galaxy-lib 18.9.2
 
@@ -208,3 +217,25 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
+* We are excited to announce eLife and F1000 will sponsor childcare for [GCC2019 in Freiberg, Germany](https://galaxyproject.org/events/gcc2019/)!
+<div class="center">
+<table>
+  <tr style="text-align: center">
+    <td style="vertical-align: middle;">
+      [<img style="max-width: 260px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
+    </td>
+    <td style="width: 5%"> </td>
+    <td style="vertical-align: middle;">
+      [<img style="padding-bottom: 1em" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
+    </td>
+    <td style="width: 8%"> </td>
+  </tr>
+  <tr>
+    <td>**Childcare** Sponsor</td>
+    <td></td>
+    <td>**Childcare** Sponsor</td>
+  </tr>
+</table>
+</div>
+
+<br />
