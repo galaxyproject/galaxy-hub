@@ -22,8 +22,6 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 
 * 2011/12: Galaxy-Announce list launched.
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
-* 2012/08: Galaxy-France list launched.
-* 2013/06: Galaxy-Proteomics list launched.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy BioStar online forum](https://biostar.usegalaxy.org).
 * 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy BioStar
 * 2018/11: [Galaxy Help Forum launched](https://help.galaxyproject.org/), superseding Galaxy BioStar site
@@ -50,7 +48,6 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 |---|---|
 | [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) |292|
 | [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 244|
-| [Galaxy France Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-france) |233|
 | [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) |52|
 | [Galaxy Africa Mailing List]() |46|
 

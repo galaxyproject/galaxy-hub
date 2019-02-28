@@ -56,12 +56,6 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
     <td> <a href='http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-training/'>Mailman</a> </td>
   </tr>
   <tr>
-    <th> <a href='http://france.list.galaxyproject.org/'>galaxy-france</a> </th>
-    <td> Cette liste est destinée à l'information (et aux discussions) de la Communauté francaise Galaxy. (This list is for announcements to (and discussion within) the French Galaxy Community. Most list content is in French.)  <em><a href='/src/galaxy-project/statistics#mailing-lists'>Faible volume / Low volume</a>.</em> </td>
-    <td> galaxy-france AT lists DOT galaxyproject DOT org </td>
-    <td> <a href='http://france.list.galaxyproject.org/'>Nabble</a>, <a href='https://lists.galaxyproject.org/pipermail/galaxy-france/'>Mailman</a> </td>
-  </tr>
-  <tr>
   <th> <a href='https://lists.galaxyproject.org/listinfo/galaxy-public-servers'>galaxy-public-servers</a> </th>
   <td> List is for system administrators, software developers, and principal investigators that are responsible for Galaxy servers that are publicly accessible. By "publicly accessible" we mean that anyone on the web can create an account, upload data, and perform analyses on the server. It does not mean that there are no limits on the server.  The list is used mainly to communicate security concerns a day or two before public announcements.  *Anyone associated with any server that is listed on the [Public Galaxy Servers](/src/use/index.md) or [Galaxy Services](/src/use/index.md) pages is eligible and encouraged to be on this list.*  </td>
     <td> galaxy-public-servers AT lists DOT galaxyproject DOT org </td>
@@ -95,7 +89,6 @@ To subscribe or unsubscribe from a list, click the link below and then follow th
 | galaxy-dev        | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-dev)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-dev#subscribers) |
 | galaxy-proteomics | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics#subscribers) |
 | galaxy-training   | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-training)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-training#subscribers) |
-| galaxy-france     | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-france)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-france#subscribers) |
 | galaxy-public-servers | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-public-servers) | [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-public-servers)
 | galaxy-commits    | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-commits)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-commits#subscribers) |
 
