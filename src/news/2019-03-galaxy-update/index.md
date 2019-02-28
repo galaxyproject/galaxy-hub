@@ -11,7 +11,7 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
 * [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
     * **[The GalaxyAdmins]((/src/news/2019-03-galaxy-update/index.md#galaxyadmins))** meeting is back!
     * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
-* [XXXXX new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
 * A interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor where he tells us about the evolution of CVMFS use for Galaxy. 
 * At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
@@ -55,7 +55,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 # Publications
 
-**XXXXXX new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in February.
+**184 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in February.
 
 ## Highlighted Publications
 
@@ -78,7 +78,12 @@ Five of the eight highlighted publications are open access.
 
 We added a new tag to the [Galaxy Publication Library](/src/publication-library/index.md) this month: *[Education](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BEducation)*.  This tag highlights papers that focus on training, teaching, and/or education in general.  Galaxy is well suited for teaching bioinformatics and this has been reflected in publications for several years.  There are three new pubs this month about education. We also selectively back-curated several papers.  *Education* is the first new tag added to the library in six years.
 
-
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 124 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 26 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
+| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
+| 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | | | | | | |
 
 ----
 
@@ -121,6 +126,18 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
+
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | 
+| 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>epiGeEC) | | 1 | [>EWAS-Galaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EWAS-Galaxy) | | 1 | [>FreeBioinfo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FreeBioinfo) | 
+| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>G-OnRamp) | | 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GalaxEast) | | 1 | [>GCAC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GCAC) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | 
+| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | | 1 | [>Mandoiu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mandoiu) | | 1 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MGEScan) | | 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Nebula) | 
+| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | 
+| 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Sciensano) | | 1 | [>SMAGEXP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SMAGEXP) | | 1 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | 
+| 1 | [>ZBIT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ZBIT) | | | | | | | | | | |
+
 
 ----
 
