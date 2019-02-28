@@ -168,14 +168,14 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](link) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/erasche), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
 * New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial.
-* New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html).
-* New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html).
+* New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html) tutorial and slides.
+* New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) tutorial.
 * New [Upstream Authentication](https://github.com/jmchilton) tutorial. 
 * New [Empathy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/empathy/slides.html#1) for admins slides.
 * Update to [Docker and Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/galaxy-docker/slides.html) slides.
-* Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html).
+* Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html) tutorial and slides.
 * Update to [Server Maintenance](https://training.galaxyproject.org/training-material/topics/admin/tutorials/maintenance/slides.html#1) slides.
-* Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html).
+* Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html) tutorial.
 * Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides.
 
 ## Hub
