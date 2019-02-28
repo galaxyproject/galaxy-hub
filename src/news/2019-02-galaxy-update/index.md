@@ -207,7 +207,7 @@ The workbench is developed by the RNA Bioinformatics Center (RBC). This center i
 
 ## Hi-C Explorer
 
-[Hi-C Explorer](https://hicexplorer.usegalaxy.eu) is another server that has been up for a while, but is also new to the [Galaxy Platform Directory](/src/ues/index.md).   It facilitates the study of the 3D conformation of chromatin by allowing Hi-C data processing, analysis and visualization.  See the "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training).
+[Hi-C Explorer](https://hicexplorer.usegalaxy.eu) is another server that has been up for a while, but is also new to the [Galaxy Platform Directory](/src/use/index.md).   It facilitates the study of the 3D conformation of chromatin by allowing Hi-C data processing, analysis and visualization.  See the "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training).
 
 Hi-C Explorer is also hosted at UseGalaxy.eu.
 
@@ -271,7 +271,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-1-totm/index.md)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-01-totm/index.md)
 </div>
 
 There are two new *[Galactic Blog](/src/blog/index.md)* entries:

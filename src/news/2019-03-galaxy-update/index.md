@@ -9,7 +9,7 @@ date: ""
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
-    * **[The GalaxyAdmins]((/src/news/2019-03-galaxy-update/index.md#galaxyadmins))** meeting is back!
+    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meeting is back!
     * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
@@ -50,6 +50,108 @@ During the first 1 1/2 days, the attendees will learn about the integration of h
 
 These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
 
+<table class="table table-striped">
+<thead>
+  <tr>
+      <th>Date</th>
+      <th>Topic/Event</th>
+      <th>Venue/Location</th>
+      <th>Contact</th>    
+    </tr>
+</thead>
+<tbody>
+  <tr>
+       <td><span class="text-nowrap">March 6th 2019</span></td>
+       <td><a href="https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing">Galaxy for linking bisulfite sequencing with RNA sequencing</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/>University of Rostock, Rostock, Germany</td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>destair [at] leibniz-fli.de</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">March 18th 2019</span></td>
+       <td><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/">Gatersleben Research Conference: Applied Bioinformatics for Crops</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/grc2019-abc/accomodation/">Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
+       <td>Björn Grüning</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">March 20th 2019</span></td>
+       <td><a href="http://meetings.ipk-gatersleben.de/compbiostarter/index.php/program/">Introduction into Galaxy and how to design your own analysis workflow</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://meetings.ipk-gatersleben.de/compbiostarter/">Computational Biology Starter, Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany</a></td>
+       <td>Anne Fiebig</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">March 21st 2019</span></td>
+       <td><a href="/community/galaxy-admins/meetups/2019-03-21/">GalaxyAdmins February 2019 Meetup</a></td>
+       <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
+       <td>Helena Rasche, Dave Clements</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">March 21st 2019</span></td>
+       <td><a href="http://artbio.fr/?page_id=341">RNAseq analysis with Galaxy</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.google.com/maps/d/viewer?mid=1hOogl-2tKCtwgsyf0v7ztigLBU0&amp;ll=48.847069261929576%2C2.3571523499999785&amp;z=17">Sorbonne Université, Paris, France</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>https://gitter.im/ARTbio/Hotline</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 1st 2019</span></td>
+       <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
+       <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 2nd 2019</span></td>
+       <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
+       <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 3rd 2019</span></td>
+       <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+       <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 4th 2019</span></td>
+       <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
+       <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 5th 2019</span></td>
+       <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+       <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 15th 2019</span></td>
+       <td><a href="https://faes.org/content/advanced-studies-bioinformatics-and-data-science">Genome assembly and annotation using Galaxy</a></td>
+       <td><img style="float:right;" src="/images/icons/NA.png"/>National Institutes of Health (NIH), Bethesda, Maryland, United States</td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>mo@galaxyproject.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 23rd 2019</span></td>
+       <td><a href="https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance">Elixir Galaxy Community - Workshop at Roscoff/France</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.google.com/maps?ll=48.726635,-3.987479&amp;z=14&amp;t=m&amp;hl=en&amp;gl=US&amp;mapclient=embed&amp;cid=7841494204688338171">Station Biological De Roscoff, Roscoff, France</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gildas Le Corguillé</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">April 29th 2019</span></td>
+       <td><a href="https://ittraining.iu.edu/explore-topics/titles/denovo/index.html">de novo assembly of transcriptomes using HPC resources</a></td>
+       <td><img style="float:right;" src="/images/icons/NA.png"/>Indiana University, Bloomington, Indiana, United States</td>
+       <td>help@ncgas.org</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">May 13th 2019</span></td>
+       <td><a href="http://sciencegateways.org/bootcamp">Science Gateways Bootcamp</a></td>
+       <td><img style="float:right;" src="/images/icons/NA.png"/>Indianapolis, Indiana, United States'</td>
+       <td>help@sciencegateways.org.</td>
+  </tr>
+  <tr>
+       <td><span class="text-nowrap">July 1st 2019</span></td>
+       <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
+       <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+       <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  </tr>
+</tbody>
+</table>
 
 ----
 
@@ -198,7 +300,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 * Update to [GO Enrichment Analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html) by [Daniel Sobral](https://github.com/dsobral).
 * Updates to [Mapping and molecular identification of phenotype-causing mutations](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html) and [Analysis of metagenomics data - The global picture](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html) by [Anna Syme](https://github.com/AnnaSyme).
 
-There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](link) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/erasche), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
+There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](/src/events/2019-admin-training/index.md) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/erasche), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
 * New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial.
 * New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html) tutorial and slides.
 * New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) tutorial.
@@ -232,12 +334,15 @@ New additions to the Galaxy Ecosystem.
 
 We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**. This release includes the revised UI style, addition of colorful tags, extensive workflow enhancements, and enhanced support for Singularity. 
 
-Please see the [release notes]((https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)) for additional information. 
+Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html) for additional information. 
 
 ----
 
 # Other News
 
+* From [QCIF](https://www.qcif.edu.au/)
+  * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)", highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
+  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)
 * We are excited to announce eLife and F1000 will sponsor childcare for [GCC2019 in Freiberg, Germany](https://galaxyproject.org/events/gcc2019/)!
 <div class="center">
 <table>
