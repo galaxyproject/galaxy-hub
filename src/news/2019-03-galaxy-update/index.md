@@ -1,21 +1,23 @@
 ---
 title: 'March 2019 Galactic News'
-tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, Training, Tools, Releases and more'
+tease: 'Events (GalaxyAdmins, ELIXIR Galaxy Community Workshop), Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
 date: ""
 ---
 
 [<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-The *March  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
+The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
+    * **[The GalaxyAdmins]((/src/news/2019-03-galaxy-update/index.md#galaxyadmins))** meeting is back!
+    * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
 * [XXXXX new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
-* BLOG - An interview with Nate Coraor where he tells us about the evolution of CVMFS and Galaxy. 
-* At least [XXXXX Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in XXXXX countries on XXXXX continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates), including 
+* A interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor where he tells us about the evolution of CVMFS use for Galaxy. 
+* At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
-* [New releases](/src/news/2019-03-galaxy-update/index.md#releases).
+* [New releases](/src/news/2019-03-galaxy-update/index.md#releases), including the releases of Galaxy 19.01!
 * And [a bunch of other news](/src/news/2019-03-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -34,6 +36,15 @@ If you have anything to add to next month's newsletter, then please send it to o
 After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md), with a community discussion, and a presentation from [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/src/community/galaxy-admins/meetups/index.md)).
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+
+## ELIXIR Galaxy Community Workshop
+
+[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+
+Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
+
+During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
+
 
 ## Upcoming events
 
@@ -112,8 +123,12 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
 ----
-# Blog
 
+# New Galactic Blog Post
+
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](LINK) about what CVMFS actually is and what it does for Galaxy. 
 
 ----
 
@@ -131,7 +146,7 @@ The *dark energy* of irreproducible research is threatening the science universe
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
-* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
+* [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools: Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
 * [Principal Technical Business Development Manager: AWS Research in Biomedical](https://www.amazon.jobs/en/jobs/745693/principal-technical-business-development-manager-aws-research-in-biomedical), Amazon Web Services, United States
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
@@ -239,3 +254,4 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 </div>
 
 <br />
+* We got an [early look at the future of Galaxy management](https://twitter.com/EnisAfgan/status/1098026864948465664) with Kubernates from Enis Afgan, stay tuned friends. 
