@@ -170,7 +170,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 * New [Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html#1) slides by [Mehmet Tekman](https://github.com/mtekman).
 * New [Understanding Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
-* New [Mass spectrometry imaging: Examining the spatial distribution of analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) tutorial by [foellmelanie](https://github.com/foellmelanie).
+* New [Mass spectrometry imaging: Examining the spatial distribution of analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-analyte-distribution/tutorial.html) tutorial by [Melanie Föll](https://github.com/foellmelanie).
 * New [Pre-processing of Single-Cell RNA Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna_preprocessing/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
 * Addition of [data-library.yaml file](https://github.com/galaxyproject/training-material/pull/1255) for describing sample data of tutorials by [Bert Droesbeke](https://github.com/bedroesb).
 * Update to [Visualization of RNA-Seq results with CummeRbund](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Pavankumar Videm](https://github.com/pavanvidem).
