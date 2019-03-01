@@ -8,25 +8,23 @@ date: ""
 
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
-* [Event News](/src/news/2019-03-galaxy-update/index.md#event-news)
-    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meeting is back!
-    * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
+* Event News
+    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meetup is back March 21!
+    * **[eLife and F1000Research sponsor childcare at GCC2019](/src/news/2019-03-galaxy-update/index.md#gcc2019-sponsors)**
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
-* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor about CVMFS & Galaxy. 
+* Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
+* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with [Nate Coraor](/src/people/nate/index.md) about CVMFS & Galaxy. 
 * At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
-* [New releases](/src/news/2019-03-galaxy-update/index.md#releases), including the releases of Galaxy 19.01!
+* [Galaxy 19.01 released](/src/news/2019-03-galaxy-update/index.md#releases)!
 * And [a bunch of other news](/src/news/2019-03-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
-# Event News
-
-## GalaxyAdmins 
+# GalaxyAdmins 
 
 <div class="float-right">
 [<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md) <br /><br />
@@ -37,18 +35,40 @@ After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
-## ELIXIR Galaxy Community Workshop
+# GCC2019 Sponsors
 
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+We are very pleased to announce that **[eLife](https://elifesciences.org/)** and **[F1000Research](https://f1000research.com/)** are first two [sponsors for GCC2019](/src/events/gcc2019/sponsors/index.md). *And they are both sponsoring childcare.*  **Yes, there will be childcare at GCC2019!**
 
-Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
+## eLife
 
-During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
+[<img class="float-right img-fluid mx-auto" style="max-width: 240px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/) 
+
+***[eLife](https://elifesciences.org/)*** is a non-profit open access journal, publishing research from across the life and biomedical sciences. We also invest heavily in software development, new product design, collaboration and outreach. This includes the development of open-source tools, with extensible capabilities, that can be used, adopted and modified by any interested party to help move towards an ecosystem that serves science and scientists as efficiently and as cost-effectively as possible.
+
+Have you got an idea that will bring cutting-edge technology to open research communication? We are here to help. 
+
+eLife’s **Innovation Initiative** was set up to identify and support innovative, small-to-medium-scale open-source projects aiming to improve the sharing and reuse of scientific discoveries. The primary outputs of the Initiative are open tools, technologies and processes aimed at improving the discovery, sharing, consumption and evaluation of important scientific research.
+
+Through this Initiative, we’re always on the lookout for opportunities to engage with the best emerging talent and ideas at the interface of research and technology. You can find out more about some of these engagements [on eLife Labs](https://elifesciences.org/labs), or contact our Innovation Community Manager for more information (innovation@elifesciences.org).
+
+## The Galaxy Gateway on F1000Research
+
+[<img class="float-right img-fluid mx-auto" style="max-width: 200px" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" />](https://f1000research.com/) 
+
+[F1000Research](https://f1000research.com/) is proud this year to be sponsoring childcare for GCC2019, which we feel is vital for inclusivity. F1000Research is an Open Access publishing platform for the life sciences that publishes a range of different article types, from traditional research articles, to method articles and software tools. The platform is particularly well suited to publishing software tool articles as our versioning system allows small updates at any time, we have proper syntax highlighting and we can support LaTeX and markdown submissions.
+
+Our [Galaxy Gateway](https://f1000research.com/gateways/galaxy) on the platform brings together articles, posters and slides from Galaxy events. The Gateway allows authors to quickly share their work with the community, boosting visibility and giving researchers proper credit for their contribution. 
+
+We’re pleased to be running a call for papers for GCC2019 and **would like to invite the Galaxy community to submit their articles to the [Galaxy Gateway](https://f1000research.com/gateways/galaxy) by 20<sup>th</sup> July 2019.** These can be any type of article, such as a new Galaxy workflow or an update to an existing method or software tool. This is a great opportunity to shine a light on your research, improve its impact and be credited with an academic paper for your work. Please submit via the Galaxy gateway and if you have any questions at all do not hesitate to get in touch at publishers@f1000.com.
+
+## Your Organization/Vendor Here!
+
+[GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
 
-## Upcoming events
+# Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 <table class="table table-striped">
 <thead>
@@ -184,7 +204,7 @@ We added a new tag to the [Galaxy Publication Library](/src/publication-library/
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 124 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 26 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
 | 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [**+Education**](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | | | | | | |
 
 ----
@@ -319,7 +339,7 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in February  2019](/src/toolshed/contributions/2019-02/index.md).
+[Tool Shed contributions in February  2019](/src/toolshed/contributions/2019-02/index.md) (there were a lot).
 
 
 # Releases
@@ -332,33 +352,15 @@ We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxypr
 
 Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html) for additional information. 
 
+## galaxy-lib 19.5.0
+
+galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
+
 ----
 
 # Other News
 
-* From [QCIF](https://www.qcif.edu.au/)
-  * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)", highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
+* From [QCIF](https://www.qcif.edu.au/), both highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
+  * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)"
   * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
-* We are excited to announce eLife and F1000 will sponsor childcare for [GCC2019 in Freiberg, Germany](https://galaxyproject.org/events/gcc2019/)!
-<div class="center">
-<table>
-  <tr style="text-align: center">
-    <td style="vertical-align: middle;">
-      [<img style="max-width: 260px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
-    </td>
-    <td style="width: 5%"> </td>
-    <td style="vertical-align: middle;">
-      [<img style="padding-bottom: 1em" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
-    </td>
-    <td style="width: 8%"> </td>
-  </tr>
-  <tr>
-    <td>**Childcare** Sponsor</td>
-    <td></td>
-    <td>**Childcare** Sponsor</td>
-  </tr>
-</table>
-</div>
-
-<br />
 * We got an [early look at the future of Galaxy management](https://twitter.com/EnisAfgan/status/1098026864948465664) with Kubernates from Enis Afgan, stay tuned friends. 
