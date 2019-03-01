@@ -13,7 +13,7 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
     * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
-* A interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor where he tells us about the evolution of CVMFS use for Galaxy. 
+* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor about CVMFS & Galaxy. 
 * At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
