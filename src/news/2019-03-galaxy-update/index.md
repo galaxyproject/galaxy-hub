@@ -247,7 +247,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](LINK) about what CVMFS actually is and what it does for Galaxy. 
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy. 
 
 ----
 
@@ -311,10 +311,6 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 * Update to [Server Maintenance](https://training.galaxyproject.org/training-material/topics/admin/tutorials/maintenance/slides.html#1) slides.
 * Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html) tutorial.
 * Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides.
-
-## Hub
-
-* [Galaxy ObjectStore](/src/admin/objectstore/index.md), and [Configure ObjectStore to persist data on a Google Cloud Storage](/src/admin/objectstore/gce/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 
 ---
