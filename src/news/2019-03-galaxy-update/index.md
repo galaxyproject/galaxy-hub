@@ -338,7 +338,7 @@ Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/r
 
 * From [QCIF](https://www.qcif.edu.au/)
   * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)", highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
-  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)
+  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
 * We are excited to announce eLife and F1000 will sponsor childcare for [GCC2019 in Freiberg, Germany](https://galaxyproject.org/events/gcc2019/)!
 <div class="center">
 <table>
