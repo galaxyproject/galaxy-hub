@@ -25,7 +25,7 @@ Galaxy specific tags all start with "+":
 | **[+Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/)** | Publication is about Galaxy. |
 | **[+Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/)** | Publication features Galaxy prominently. |
 | [+Cloud](https://www.zotero.org/groups/galaxy/items/tag/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. |
-| [+Education]((https://www.zotero.org/groups/galaxy/items/tag/+Education/) | Publications using / referencing / discussing Galaxy in an education/training  context. |
+| [+Education](https://www.zotero.org/groups/galaxy/items/tag/+Education/) | Publications using / referencing / discussing Galaxy in an education/training  context. |
 | [+HowTo](https://www.zotero.org/groups/galaxy/items/tag/+HowTo) | Papers about how to use Galaxy for specific analyses. These are tutorials. |
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
