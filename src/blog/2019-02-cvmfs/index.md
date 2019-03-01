@@ -1,5 +1,5 @@
 ---
-date: ''
+date: '2019-02-28'
 title: "Interview with Nate Coraor: CVMFS & Galaxy"
 authors: "Mo Heydarian"
 image: "/src/blog/2019-02-cvmfs/Nate_face.jpeg"
@@ -38,9 +38,6 @@ As news of this success got out, others wanted to use the same data. It’s now 
 
 |![cvmfs-server-distribution](/src/blog/2019-02-cvmfs/cvmfs-server-distribution.png)|
 |<small>**Galaxy Project CVMFS infrastructure, February 2019**.</small>|
-
-Galaxy Project CVMFS infrastructure, February 2019
-
 
 _How can current system admins of Galaxy implement CVMFS reference management for their Galaxy instance?_
 
