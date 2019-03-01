@@ -4,7 +4,7 @@ tease: 'Events (GalaxyAdmins, ELIXIR Galaxy Community Workshop), Platforms, Pubs
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
