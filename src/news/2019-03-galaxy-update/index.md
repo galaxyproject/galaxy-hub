@@ -4,7 +4,7 @@ tease: 'Events (GalaxyAdmins, ELIXIR Galaxy Community Workshop), Platforms, Pubs
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -13,7 +13,7 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
     * **[ELIXIR Galaxy Community Workshop](/src/news/2019-03-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!  
-* A interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor where he tells us about the evolution of CVMFS use for Galaxy. 
+* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with Nate Coraor about CVMFS & Galaxy. 
 * At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
@@ -247,7 +247,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](LINK) about what CVMFS actually is and what it does for Galaxy. 
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy. 
 
 ----
 
@@ -312,10 +312,6 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 * Update to [Galaxy Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html) tutorial.
 * Update to [External Authentication](https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html) slides.
 
-## Hub
-
-* [Galaxy ObjectStore](/src/admin/objectstore/index.md), and [Configure ObjectStore to persist data on a Google Cloud Storage](/src/admin/objectstore/gce/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-
 
 ---
 
@@ -342,7 +338,7 @@ Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/r
 
 * From [QCIF](https://www.qcif.edu.au/)
   * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)", highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
-  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)
+  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
 * We are excited to announce eLife and F1000 will sponsor childcare for [GCC2019 in Freiberg, Germany](https://galaxyproject.org/events/gcc2019/)!
 <div class="center">
 <table>
