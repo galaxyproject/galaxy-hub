@@ -19,6 +19,8 @@ CVMFS (or CernVM-FS) is a filesystem developed at Cern for the purpose of distri
 
 CVMFS uses a tiered model to distribute data in a scalable and fault tolerant manner. From the canonical Stratum 0 source of the data, multiple full copies are made to geographically disparate Stratum 1 replica servers. An optional level of site-local proxy servers helps to reduce load on Stratum 1 servers. This infrastructure allows clients to mount the filesystem, but only pull in the file attributes and contents that they need. The system is very well load balanced and fault tolerant through the aforementioned geographic distribution and aggressive caching.
 
+|        |
+|--------|
 |![cvmfs-tiered-architecture-example](/src/blog/2019-02-cvmfs/cvmfs-tiered-architecture-example.png)|
 |<small>**CVMFS tiered architecture example** source: [https://cvmfs.readthedocs.io/en/stable/cpt-replica.html](https://cvmfs.readthedocs.io/en/stable/cpt-replica.html).</small>|
 
@@ -36,6 +38,8 @@ It turned out that getting CloudMan to use CVMFS was quite simple: Enis simply a
 
 As news of this success got out, others wanted to use the same data. It’s now available in Björn Grüning’s [Galaxy Stable Docker image])https://github.com/bgruening/docker-galaxy-stable), as well as the [usegalaxy.eu](https://usegalaxy.eu/) and [usegalaxy.org.au](https://usegalaxy.org.au/) public servers, among others. My usegalaxy.* admin counterparts, Helena Rasche and Simon Gladman, have even deployed their own Stratum 1 replicas in Freiburg and Melbourne, respectively, and the EU’s Joint Research Centre hosts one in Ispra, Italy.
 
+|        |
+|--------|
 |![cvmfs-server-distribution](/src/blog/2019-02-cvmfs/cvmfs-server-distribution.png)|
 |<small>**Galaxy Project CVMFS infrastructure, February 2019**.</small>|
 
