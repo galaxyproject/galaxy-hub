@@ -1,6 +1,6 @@
 ---
 title: 'March 2019 Galactic News'
-tease: 'Events (GalaxyAdmins, ELIXIR Galaxy Community Workshop), Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
+tease: 'GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
 date: ""
 ---
 
