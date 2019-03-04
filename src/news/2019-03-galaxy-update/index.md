@@ -1,7 +1,7 @@
 ---
 title: 'March 2019 Galactic News'
 tease: 'GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: ""
+date: "2019-03-04"
 ---
 
 [<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
