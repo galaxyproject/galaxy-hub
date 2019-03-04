@@ -9,8 +9,8 @@ date: "2019-03-04"
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meetup is back March 21!
     * **[eLife and F1000Research sponsor childcare at GCC2019](/src/news/2019-03-galaxy-update/index.md#gcc2019-sponsors)**
+    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meetup is back March 21!
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
 * An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with [Nate Coraor](/src/people/nate/index.md) about CVMFS & Galaxy. 
@@ -23,17 +23,6 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
-
-# GalaxyAdmins 
-
-<div class="float-right">
-[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md) <br /><br />
-<img class="img-fluid mx-auto" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
-</div>
-
-After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md), with a community discussion, and a presentation from [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/src/community/galaxy-admins/meetups/index.md)).
-
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 # GCC2019 Sponsors
 
@@ -65,6 +54,16 @@ We’re pleased to be running a call for papers for GCC2019 and **would like to 
 
 [GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
+# GalaxyAdmins 
+
+<div class="float-right">
+[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md) <br /><br />
+<img class="img-fluid mx-auto" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
+</div>
+
+After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md), with a community discussion, and a presentation from [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/src/community/galaxy-admins/meetups/index.md)).
+
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 # Upcoming events
 
