@@ -1,6 +1,6 @@
 {{> Events/GCC2019/Header }}
 
-# GCCBOSC 2019 Code of Conduct
+# GCC 2019 Code of Conduct
 
 This code of conduct outlines our expectations for GCC2019 participants, as well as describing how to report unacceptable behavior. We are
 committed to providing a welcoming and inspiring community for all and expect
