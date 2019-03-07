@@ -324,6 +324,14 @@ specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.
 The [UCSC](http://genome.ucsc.edu) Genome Browser `GTF`
 specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
 
+
+**TIP** When using `GTF` datasets in Galaxy, the dataset should not contain any header lines or blank lines. Extra comment lines (usually staring with a #) or blank lines at the start and sometimes internal to the file should be removed before using the data.
+
+* Remove the headers (lines that start with a "#") with the **Select** tool using the option "NOT Matching" with the regular expression: `^#`
+* Remove blank lines with the **Select** tool using the option "NOT Matching" with the regular expression: `^$`
+* Once the formatting is fixed, change the datatype to be `gft` under Edit Attributes (pencil icon). 
+* Often `gft` data will be given the datatype `gff` by default when formatting problems are present, which works fine with some tools and but not with others. It is a good idea to fix the data first, at the start of an analysis, to avoid confusing tool errors.
+
 ## GFF3
 
 Similar to [GFF](/learn/datatypes#GFF) and [GTF](/learn/datatypes#GTF) in
@@ -351,6 +359,7 @@ The official specification is at
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
+*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](https://galaxyproject.org/support/chrom-identifiers/#any-mixed-sourced-data) 
 *   The public [Main](/Main) Galaxy instance contains tools to examine and
     manipulate [GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF) files
     under the tool group **Filter and Sort**.
