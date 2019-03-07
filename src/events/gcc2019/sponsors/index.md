@@ -91,9 +91,9 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
     <td style="width: 8%"> </td>
   </tr>
   <tr>
-    <td>**Childcare** Sponsor</td>
+    <td>**[Childcare](/src/events/gcc2019/childcare/index.md)** Sponsor</td>
     <td></td>
-    <td>**Childcare** Sponsor</td>
+    <td>**[Childcare](/src/events/gcc2019/childcare/index.md)** Sponsor</td>
   </tr>
 </table>
 </div>
