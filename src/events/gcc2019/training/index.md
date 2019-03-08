@@ -79,7 +79,7 @@ These topics are about general platform usage, and cover features that are usefu
 
 ## Introduction to Galaxy
 
-Introduce the Galaxy user interface and how it can be used to analyze large datasets. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
+This workshop will introduce the Galaxy user interface and how it can be used for reproducible data analysis. We will cover the basic features of Galaxy, including where to find tools, how to import and use your data, and an introduction to workflows. This session is recommended for anyone who has not used, or only rarely uses Galaxy.
 
 **Prerequisites**
 
