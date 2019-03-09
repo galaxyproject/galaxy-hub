@@ -53,13 +53,13 @@ Barring a strong outcry from deployers, 16.01 will be the last release of Galaxy
 
 Multiple security vulnerabilities were recently discovered in Galaxy that allow malicious actors to read and write files on the Galaxy server. Additionally, Galaxy servers on which a rarely used feature has been enabled are vulnerable to an arbitrary code execution exploit.  
 
-*This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcement](http://dev.list.galaxyproject.org/Galaxy-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-arbitrary-code-execution-td4668936.html) for details.
+*This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcement](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/TXP6BGNZG5Y75ASM5HPQALI2UOPKXXTH/#TXP6BGNZG5Y75ASM5HPQALI2UOPKXXTH) for details.
 
 **Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths**
 
 Multiple security vulnerabilities were recently discovered in the Tool Shed that allow malicious actors to read and write files on the Tool Shed server outside of normal Tool Shed repository directories. 
 
-*This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcment](http://dev.list.galaxyproject.org/Galaxy-Tool-Shed-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-td4668935.html) for details.
+*This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcment](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/#TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ) for details.
 <br /><br />
 
 </div></div>

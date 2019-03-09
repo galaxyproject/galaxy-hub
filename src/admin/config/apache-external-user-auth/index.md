@@ -158,7 +158,7 @@ However, this is a common problem and many people have come up with varying qual
 * https://stackoverflow.com/questions/233507/how-to-log-out-user-from-web-site-using-basic-authentication
 * https://trac-hacks.org/wiki/TrueHttpLogoutPatch
 
-This was [discussed on the galaxy-dev mailing list](https://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html), and the solution provided by Tim Booth is detailed below. Please test this thoroughly before using it in your galaxy.
+This was [discussed on the galaxy-dev mailing list](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/5T5EW5P5VDHXEH3ZDY43N4EXD3OW4OSQ/#5T5EW5P5VDHXEH3ZDY43N4EXD3OW4OSQ), and the solution provided by Tim Booth is detailed below. Please test this thoroughly before using it in your galaxy.
 
 ### Creating the Logout area
 

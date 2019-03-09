@@ -258,7 +258,7 @@ The original responses, minus name, institution and email are **[also available]
   2. Make DRMAA configuration data-set dependent. 
     Right now there's now way for a job submitter to easily select different resource requests (like RAM) depending on the size/complexity of the genome being worked on (eg, human[big] vs vaccinia virus[very small] vs tree-shrew[thousands of contigs]). Thus, we have to size resource requests for the biggest possible data set, which causes the small runs to wait a LONG time in the queue for resources they don't need. Nor does it seem possible to set up a formula for DRMAA based on the size of the genome being used (ie, make the choice automatically). This is compounded by lack of good data on the performance/requirements of many of the underlying programs for different input types).
 1. Capturing 'failed/aborted' jobs by the scheduler: There are cases (listed below) where a job is aborted by the scheduler but it still shows up as successful in the galaxy (green-boxes):
-  1. Job exceeds requested resource limits such as memory and run-time -  http://dev.list.galaxyproject.org/job-status-when-SGE-kills-aborts-job-td4141007.html 
+  1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ) 
   2. Compute node on which job was running fails/restarted
 
  Job failures because of # 2 rarely happen however # 1 is very common if you have a shared cluster environment and galaxy tool's drmaa/job-runner configuration is not liberal (e.g. configure tool with 64GB RAM, 96-hrs run-time..).

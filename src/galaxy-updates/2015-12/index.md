@@ -334,9 +334,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
    Three security vulnerabilities were announced and patched in August.  The Galaxy Committers have released a number of fixes which have been rolled in to affected versions of Galaxy dating back to the 14.10 release.
 
 <div class='indent'><div class='indent'>
-* **[Galaxy XSS Reflection Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000148.html)**
-* **[Galaxy LDAP Authentication Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000147.html)**
-* **[Tool Shed Unauthorized Upload Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)**
+* **[Galaxy XSS Reflection Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/EVXN3G5FZUPOEA4OYCC6V25TWGYBBWDV/)**
+* **[Galaxy LDAP Authentication Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/GOZKUUTSB2AQSBXIGCFC6RVH37MDBQQZ/)**
+* **[Tool Shed Unauthorized Upload Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/KNJIV2QCT52SPLXMCENLA2N5747ALSSK/)**
 
 </div></div>
 

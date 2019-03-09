@@ -6,7 +6,7 @@ title: CloudMan Troubleshooting
 {{> CloudMan/LinkBoxHorizontal }}
 
 The following documentation can help you troubleshoot problems that you might have with your cloud system.
-For additional help with this system, you can search the [mailing list archives](http://dev.list.galaxyproject.org/), [help forum](https://help.galaxyproject.org/), [IRC channel log](https://botbot.me/freenode/galaxyproject/), or post a question to any of those venues.
+For additional help with this system, you can search the [mailing list archives](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/), [help forum](https://help.galaxyproject.org/), [IRC channel log](https://botbot.me/freenode/galaxyproject/), or post a question to any of those venues.
 
 ### Log files
 

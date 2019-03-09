@@ -9,7 +9,7 @@ title: Galaxy-Admins
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations.  
 
-Galaxy-Admins was started with [this email thread in April 2012](http://dev.list.galaxyproject.org/Interested-in-speaking-with-other-institutions-deploying-Galaxy-locally-td4593471.html). This proposal got a [huge response](http://dev.list.galaxyproject.org/Interested-in-speaking-with-other-institutions-deploying-Galaxy-locally-td4593471.html), and thus this group was born.
+Galaxy-Admins was started with [this email thread in April 2012](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/ON7MIOYB2H4PSXBNTRBFNCTLG4HU7LFR/#5DXKB3GIUGMOZSAM3SPKJ5AN3KBDOBXU). This proposal got a huge response, and thus this group was born.
 
 ## Meetups
 

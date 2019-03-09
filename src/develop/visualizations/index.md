@@ -102,4 +102,4 @@ galaxy.web.base.pluginframework INFO 2015-12-14 08:46:44,788 VisualizationsRegis
 
 Related dev-list thread:
 
-* [How does one run Javascript or HTML as a tool?](http://dev.list.galaxyproject.org/How-does-one-run-Javascript-or-HTML-as-a-tool-tt4668518.html)
+* [How does one run Javascript or HTML as a tool?](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OMELXBD5NIIIXU3BGVKXWCU72UBRQ7S7/#O6VEGILHS2AZPGAAZUO6UW43L2VRD47O)

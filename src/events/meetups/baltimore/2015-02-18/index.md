@@ -32,7 +32,7 @@ Thanks and hope to see you there!
 
 Please RSVP using [this form](https://docs.google.com/forms/d/1JDAiGv5Z1XpFmNENlzDhGzbkeVfbTzuiXBzjewa1WfY/viewform#start=openform).
 
-Also, if you would like to be notified of future Baltimore Area Galaxy Meetups, please [subscribe to the Baltimore Area Galaxy mailing list](https://lists.galaxyproject.org/listinfo/baltimore).
+Also, if you would like to be notified of future Baltimore Area Galaxy Meetups, please subscribe to the Baltimore Area Galaxy mailing list.
 
 ### General agenda
 

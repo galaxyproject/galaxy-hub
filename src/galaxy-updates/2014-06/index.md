@@ -17,7 +17,7 @@ The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched 
 
 During the past 5 weeks, Galaxy Biostar has been wildly successful with over 125 active threads, *more than 5 times the number of active threads on Galaxy-user in the 5 weeks before the switch.*
 
-Galaxy-User has remained open during the transition, but now it's time to retire it.  All new posting to Galaxy-User will be stopped on Friday, June 6, **some 101 months, and 8,100 postings** after it was launched.  All those postings will remain available both in Galaxy Biostar (where they have been imported), and in the [online list archives](http://user.list.galaxyproject.org/).
+Galaxy-User has remained open during the transition, but now it's time to retire it.  All new posting to Galaxy-User will be stopped on Friday, June 6, **some 101 months, and 8,100 postings** after it was launched.  All those postings will remain available both in Galaxy Biostar (where they have been imported), and in the [online list archives](https://lists.galaxyproject.org/archives/list/galaxy-user@lists.galaxyproject.org/).
 
 Thanks for making Galaxy Biostar, and Galaxy-User before it, such a great resource.
 

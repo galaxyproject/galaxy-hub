@@ -77,7 +77,7 @@ These papers were among [44 papers added to the Galaxy CiteULike group](http://w
 
 The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/src/issues/index.md#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello''' and submit (use markdown for formatting, if desired).  You can also ''[comment on](/src/issues/index.md#add-a-comment) and [vote for issues](/src/issues/index.md#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
 
-The same guidelines for creating issues used previously apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: [galaxy-dev@bx.psu.edu](http://dev.lists.galaxyproject.org/).  
+The same guidelines for creating issues used previously apply here as well - report software issues and change requests, but get support and ask questions on the [mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/).
 
 All open [galaxy-central bitbucket issues](https://bitbucket.org/galaxy/galaxy-central) were imported and, though they still need to be sorted out, comments/voting on them are more than welcome.  Our hope is that this issue tracker will be a more effective community interface than the *Bitbucket* issues were, with the voting features and simpler visibility.
 
@@ -204,7 +204,7 @@ The **[October 5, 2012 distribution](/src/archive/dev-news-briefs/2012-10-05/ind
 
 ## Other News
 
-* Phylogenies! Hacking! Tucson in January!  And, hopefully Galaxy too.  If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](http://dev.list.galaxyproject.org/phylotastic-hackathon-Jan-28-Feb-1-Tucson-AZ-of-possible-interest-to-galaxy-developers-td4656850.html).  Apply by November 16.
+* Phylogenies! Hacking! Tucson in January!  And, hopefully Galaxy too.  If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PS4SY66TLUILQM6CZC7DXT52RPESVHYJ/#SEPCOC7HDXEYD552RUKHSUCWGJIRU422).  Apply by November 16.
 * Slides for all [11 talks at 1st Swiss Galaxy Day](http://bit.ly/gxyswiss) are now available online.
 * Slides for [5 other Galaxy related events](/src/events/index.md#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).

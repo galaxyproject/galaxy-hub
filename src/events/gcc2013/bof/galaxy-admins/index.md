@@ -14,7 +14,7 @@ This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)*
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/community/galaxy-admins/future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/community/galaxy-admins/future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).* 
 
 We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/src/community/galaxy-admins/future/index.md).  However, the current talking points are:
 
@@ -120,6 +120,6 @@ Leadership / Governance
 
 ## Questions?
 
-Send them to [Dave Clements](mailto:clemetns AT galaxyproject DOT org).
+Send them to [Dave Clements](mailto:clements AT galaxyproject DOT org).
 
-Please add any questions or discussion to the [Galaxy-Dev thread on the future of GalaxyAdmins](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).
+Please add any questions or discussion to the [Galaxy-Dev thread on the future of GalaxyAdmins](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).

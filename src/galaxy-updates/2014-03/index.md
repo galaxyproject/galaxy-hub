@@ -84,8 +84,8 @@ The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive 
 
 The Galaxy is expanding! Please help it grow.
 
-* [Stage M2 Recherche : Provenance dans un système de workflows pour la bioinformatique](http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Stage-M2-Recherche-Provenance-dans-un-systeme-de-workflows-pour-la-bioinfoe-td93.html)
-* [Stage M1/M2, Development and integration of computational methods into the Galaxy analysis framework](http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Stage-M1-M2-Institut-Curie-Paris-td92.html), Institut Curie, Paris
+* [Stage M2 Recherche : Provenance dans un système de workflows pour la bioinformatique](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/3PXIAVFR2YHMZAZXCDHDXNMGBSZJVFGR/#3PXIAVFR2YHMZAZXCDHDXNMGBSZJVFGR)
+* [Stage M1/M2, Development and integration of computational methods into the Galaxy analysis framework](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/BUHZTVWUF4P7X3WXMR4BVZTK45QVCNPD/#BUHZTVWUF4P7X3WXMR4BVZTK45QVCNPD), Institut Curie, Paris
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**, *including positions at George Washington University*.
 

@@ -28,7 +28,7 @@ We'll talk about
 * What should GTN emphasise moving forward?
 * What ever issues participants want to cover.
 
-Discussion before and after the meetup will happen on the [Galaxy-Training mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).  If you aren't already on that list, you are encouraged to [join](https://lists.galaxyproject.org/listinfo/galaxy-training).  It's pretty low volume.
+Discussion before and after the meetup will happen on the [Galaxy-Training mailing list](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/).  If you aren't already on that list, you are encouraged to [join](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/).  It's pretty low volume.
 
 # Audience
 

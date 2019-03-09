@@ -10,7 +10,7 @@ Restricting tool usage can be done in two levels
 
 ## Disabling tools
 
-You can read a [thread](http://dev.list.galaxyproject.org/pass-user-groups-to-dynamic-job-runner-tp4661753p4661889.html) about restricting tool usage, but I will summarise the necessary changes here. Credit goes to Nicola Soranzo for illustrating this method of implementing tool access control.
+You can read a [thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/KVZ3FUDZBX4ZMPM6B5DMZ4TNYK4A6OPD/#QJ2LWTX2QGXQKX3XXFZCSAZCB7ZDCGIW) about restricting tool usage, but I will summarise the necessary changes here. Credit goes to Nicola Soranzo for illustrating this method of implementing tool access control.
 
 ### job_conf.xml
 

@@ -63,7 +63,7 @@ Galaxy](/src/teach/higher-ed-courses/index.md).**
 
 If you have a question about [teaching bioinformatics with Galaxy, or about
 teaching Galaxy itself](/src/teach/index.md), then the
-[Galaxy-Training](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/)
+[Galaxy-Training](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
 mailing list is a good place to find an answer.  This is also the official
 mailing list of the [Galaxy Training Network (GTN)](/src/teach/gtn/index.md).
 

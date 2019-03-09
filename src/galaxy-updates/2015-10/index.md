@@ -340,7 +340,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Galaxy Training Network News
 
-There are two active discussions happening on the [Galaxy-Training mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).
+There are two active discussions happening on the [Galaxy-Training mailing list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/).
 
 ## Software & Data Carpentry Train the Trainer Workshop at GCC2016?
 
@@ -354,7 +354,7 @@ We are considering offering a [Software Carpentry](https://software-carpentry.or
 
 This idea came up at the [GCC2015 GTN BoF](/src/events/gcc2015/bofs/galaxy-training-network/index.md).  Software and Data Carpentry (S/DC) teach scientists core essentials of programming and data management. Their model is to train and certify trainers, and then provide a common curriculum and teaching infrastructure that enables those trainers to teach scientists how to program and manage data well.
 
-If you think we should (or should not) offer this training at GCC2016, please [contribute](mailto:galaxy-training@lists.galaxyproject.org) to the [discussion on the mailing list](http://bit.ly/1V9Dd3Q).
+If you think we should (or should not) offer this training at GCC2016, please contribute to the [discussion on the mailing list.
 
 ## Galaxy Training Network and GOBLET
 
@@ -418,9 +418,9 @@ See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGE
 
 Three security vulnerabilities were announced and patched in August.  The Galaxy Committers have released a number of fixes which have been rolled in to affected versions of Galaxy dating back to the 14.10 release.
 
-* **[Galaxy XSS Reflection Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000148.html)**
-* **[Galaxy LDAP Authentication Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000147.html)**
-* **[Tool Shed Unauthorized Upload Vulnerability](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)**
+* **[Galaxy XSS Reflection Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/EVXN3G5FZUPOEA4OYCC6V25TWGYBBWDV/)**
+* **[Galaxy LDAP Authentication Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/GOZKUUTSB2AQSBXIGCFC6RVH37MDBQQZ/)**
+* **[Tool Shed Unauthorized Upload Vulnerability](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/KNJIV2QCT52SPLXMCENLA2N5747ALSSK/)**
 
 ## Other Releases
 

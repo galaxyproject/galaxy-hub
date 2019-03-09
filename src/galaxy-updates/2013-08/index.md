@@ -119,9 +119,9 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # New Galaxy Proteomics Mailing List
 
-<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
+<div class='right'><a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
-The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics).  In case you missed it, there is also a [proteomics wiki page](/src/proteomics/index.md). 
+The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a [proteomics wiki page](/src/proteomics/index.md). 
 
 See [the complete list of mailing lists](/src/mailing-lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
@@ -241,7 +241,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 
 # Galaxy Distributions
 
-The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was a minor [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
+The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was a minor [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/).
 
 ## CloudMan Release
 

@@ -33,7 +33,7 @@ Read more about how to get started on the [Biostar wiki page](/src/support/biost
 **What’s next**
 
 * Notice will be given when the galaxy-user@bx.psu.edu mailing list is retired.
-* [Archives of galaxy-user@bx.psu.edu](http://user.list.galaxyproject.org/) will remain accessible.
+* [Archives of galaxy-user@bx.psu.edu](https://lists.galaxyproject.org/archives/list/galaxy-user@lists.galaxyproject.org/) will remain accessible.
 
 Galaxy Biostar was launched on April 23.  We hope you like the change and look forward to any feedback you may have.
 

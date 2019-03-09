@@ -1073,7 +1073,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> November 18 </th>
-    <td> <a href='http://france.list.galaxyproject.org/Re-bioinfo-Hackathon-Galaxy-2015-ouverture-des-inscriptions-td152.html'>Hackathon Galaxy 2015</a> <div class='indent'><a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2/Hackathon_18nov'>Register here</a></div> </td>
+    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/message/ITNWD4ZGHH5L6LZLVVSA3FVFOLWPLUFX/'>Hackathon Galaxy 2015</a> <div class='indent'><a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2/Hackathon_18nov'>Register here</a></div> </td>
     <td rowspan=2> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
     <td rowspan=2> <a href="mailto:gtgalaxy@groupes.france-bioinformatique.fr">Email</a> </td>
     <td> </td>
@@ -1483,24 +1483,24 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> July 4-8 </th>
     <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td rowspan=6> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
-    <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
+    <td> GCC2015 Organisers </td>
     <td> </td>
   </tr>
   <tr>
     <th rowspan=2> July 4-5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
-    <td> <a href="mailto:gcc2015-data-org@lists.galaxyproject.org">Data Hackathon Organisers</a> </td>
+    <td> Data Hackathon Organisers </td>
     <td> </td>
   </tr>
   <tr>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div></strong> </td>
-    <td> <a href="mailto:gcc2015-hack-org@lists.galaxyproject.org">Coding Hackathon Organisers</a> </td>
+    <td> Coding Hackathon Organisers </td>
     <td> </td>
   </tr>
   <tr>
     <th> July 5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
-    <td rowspan=2> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
+    <td rowspan=2> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> GCC2015 Organisers  </td>
     <td> </td>
   </tr>
   <tr>
@@ -1511,7 +1511,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   <tr>
     <th> July 6-8 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a></strong></div> </td>
-    <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
+    <td> GCC2015 Organisers </td>
     <td> </td>
   </tr>
   <tr>

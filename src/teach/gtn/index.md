@@ -31,7 +31,7 @@ Learn from experienced trainers and share what you have learned on the **[Galaxy
 
 ## Mailing List
 
-The [Galaxy-Training mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) is the place to post questions and announcements related to Galaxy training.  It is also the official mailing list of the GTN.
+The [Galaxy-Training mailing list](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) is the place to post questions and announcements related to Galaxy training.  It is also the official mailing list of the GTN.
 
 ## Events
 
