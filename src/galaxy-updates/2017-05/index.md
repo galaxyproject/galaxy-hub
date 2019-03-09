@@ -157,7 +157,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 </tr>
 <tr>
   <td><span class="text-nowrap">June 6th 2017</span></td>
-  <td><a href="http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Formation-detection-et-annotation-des-elements-transposables-dans-les-genoe-td220.html">Formation détection et annotation des éléments transposables dans les génomes eucaryote</a></td>
+  <td><a href="https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/message/PHXFO7BB724GSZ5TXE7WNH543OUYFKGY/">Formation détection et annotation des éléments transposables dans les génomes eucaryote</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://urgi.versailles.inra.fr/">INRA, Versailles, France</a></td>
   <td>Nathalie Choisne, Olivier Inizan</td>
 </tr>

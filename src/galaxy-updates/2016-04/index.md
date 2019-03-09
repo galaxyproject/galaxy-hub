@@ -86,7 +86,7 @@ See the [full announcement](/src/news/gcc2016-scholarships/index.md) for details
 
 Please welcome the **[Indiana Health Industry Forum (IHIF)](http://ihif.org/)** as a new [GCC2016 Sponsor](https://gcc2016.iu.edu/sponsors/index.php). IHIF is a statewide trade association representing members of Indiana's health science business community. Our mission is to connect key stakeholders to: enhance business networks, advocate for member interests, develop workforce skills, and provide strategic vision in the interest of growing the state’s health industry economy and reputation.
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ----
 
@@ -483,8 +483,8 @@ See the [announcement](https://docs.galaxyproject.org/en/master/releases/16.01_a
 
 <div class='red'>
 Galaxy administrators should also be aware of [these security announcements](/src/galaxy-updates/2016-04/index.md#security-announcements) below.
-* [Read/write arbitrary filesystem paths, arbitrary code execution](http://dev.list.galaxyproject.org/Galaxy-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-arbitrary-code-execution-td4668936.html)
-* [Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths](http://dev.list.galaxyproject.org/Galaxy-Tool-Shed-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-td4668935.html)
+* [Read/write arbitrary filesystem paths, arbitrary code execution](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TXP6BGNZG5Y75ASM5HPQALI2UOPKXXTH/)
+* [Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/)
 
 </div>
 

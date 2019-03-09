@@ -5,10 +5,10 @@ I am a research associate in the Nekrutenko lab at Penn State. I have been invol
 Some of my key contributions to Galaxy include the following:
 
 * [Pulsar](https://github.com/galaxyproject/pulsar). This component started as a way to allow jobs to run remotely without the need for full queue manager to be installed, added flexibility that allowed remote jobs to run under Windows also, but has become a multi-faceted tool that allows many different Galaxy job running scenarios.
-* [Dynamic job desitnations](http://lists.bx.psu.edu/pipermail/galaxy-dev/2012-June/010080.html). This allows various queue settings to be specified at runtime and to depend on properties such the user, inputs, and tool parameters. 
+* [Dynamic job desitnations](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU/#4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU). This allows various queue settings to be specified at runtime and to depend on properties such the user, inputs, and tool parameters. 
 * [Blend4j](https://github.com/jmchilton/blend4j) A Java client targeting the API.
 * [Galaxy Bootstrap](https://github.com/jmchilton/galaxy-bootstrap) A Java library for deploying and configuring Galaxy instances on the fly.
-* [Rewriting the Tool Testing Backend](http://dev.list.galaxyproject.org/Tool-Testing-Enhancements-tt4663799.html#a4663821)
+* [Rewriting the Tool Testing Backend](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PSFAGUOLAZ6VRSQAY6VA2KP5JPE3JEY6/#PSFAGUOLAZ6VRSQAY6VA2KP5JPE3JEY6)
 * [Assertion based functional testing](/src/admin/tools/tool-config-syntax/index.md#a3cassert_contents3e_tag_set_28functional_tests29). This allows tool writers to build tests iteratively that test specific properties of outputs for given inputs. This is meant as a stepping stone toward allowing test-driven development of Galaxy tool wrappers.
 * [Job Metric Plugin Framework](https://bitbucket.org/galaxy/galaxy-central/pull-request/352)
 * [Tool Depednency Resolver Plugin Framework](https://bitbucket.org/galaxy/galaxy-central/pull-request/228/tool-dependency-resolver-plugins-revision)

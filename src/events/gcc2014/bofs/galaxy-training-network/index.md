@@ -126,7 +126,7 @@ Is it possible to have a persistent training server?  Some ideas:
 # Action Items
 
 * Create a galaxy-teach or galaxy-train mailing list / forum
-  * [Done](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/)
+  * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
   * [Resource Directory](/src/teach/resources/index.md) and [Trainer Directory](/src/teach/trainers/index.md) are up.
 * Push these best practices to the GTN Best Practices area.

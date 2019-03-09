@@ -376,7 +376,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <div class='right'>
 <a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
 
-The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was minor  [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
+The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was minor  [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/thread/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/#MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS).
 
 ## June 3, 2013 Distribution
 

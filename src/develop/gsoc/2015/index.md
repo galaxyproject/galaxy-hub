@@ -20,7 +20,7 @@ Galaxy has submitted an application to become a mentoring organization for Googl
 
 **Contact:**
 
-* We will be using the [galaxy development mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev) for communication.
+* We will be using the [galaxy development mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/) for communication.
 * The organizing administrator is John Chilton (jmchilton@gmail.com) - please feel free to contact him directly after reading through the [GSOC 2015 FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page) and this page carefully.
 * Backup administrators include Dannon Baker (dannon.baker@gmail.com).
 * Tweet using the #usegalaxy hash tag.

@@ -168,7 +168,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 <div class='right'><a href='http://bit.ly/PmKgUI'><img src="/src/images/logos/PhylotasticLogo.png" alt="Phylotastic Hackathon" width="150" /></a></div>
 * There are now [over 500 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/library)
-* Phylogenies! Hacking! Tucson in January! And, hopefully Galaxy too. If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](http://dev.list.galaxyproject.org/phylotastic-hackathon-Jan-28-Feb-1-Tucson-AZ-of-possible-interest-to-galaxy-developers-td4656850.html). Apply by ***November 16*** (that's this *Friday!!*).
+* Phylogenies! Hacking! Tucson in January! And, hopefully Galaxy too. If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PS4SY66TLUILQM6CZC7DXT52RPESVHYJ/#PS4SY66TLUILQM6CZC7DXT52RPESVHYJ). Apply by ***November 16*** (that's this *Friday!!*).
 
 ### Find a great Galactic job!
 

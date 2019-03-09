@@ -46,7 +46,7 @@ A [landing page for Proteomics](/src/proteomics/index.md)
  
 A [ proteomics use cases](/src/proteomics/use-cases/index.md) page to help tool developers focus their efforts and new users to learn about what tools exist and what common proteomics workflows are covered by galaxy.
 
-Both users and tool developers were encouraged to use the [galaxy-proteomics mailing list](http://proteomics.list.galaxyproject.org/) for discussion.
+Both users and tool developers were encouraged to use the [galaxy-proteomics mailing list](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) for discussion.
 
 ### Galaxy-P
 

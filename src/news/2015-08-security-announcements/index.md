@@ -10,7 +10,7 @@ This vulnerability, affecting all known versions of Galaxy, would allow a malici
 
 Exploitation of reflected XSS vulnerabilities typically requires some coordination, but the consequences of exploitation can result in data or account exposure, so the risk of leaving the issue unfixed is moderate. Administrators of affected servers are encouraged to update immediately.
 
-[See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000148.html)
+[See the announcement for full details and update instructions](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/EVXN3G5FZUPOEA4OYCC6V25TWGYBBWDV/)
 
 <span style="font-size: larger;">**Galaxy LDAP Authentication Vulnerability**</span>
 
@@ -18,7 +18,7 @@ This vulnerability would allow unauthorized access to Galaxy accounts only on Ga
 
 Administrators of affected servers are STRONGLY encouraged to update immediately, as the vulnerability allows unauthorized access to Galaxy accounts.
 
-[See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000147.html)
+[See the announcement for full details and update instructions](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/GOZKUUTSB2AQSBXIGCFC6RVH37MDBQQZ/)
 
 <span style="font-size: larger;">**Tool Shed Unauthorized Upload Vulnerability**</span>
 
@@ -26,4 +26,4 @@ This vulnerability would allow a malicious actor to upload new versions to repos
 
 Because the Tool Shed is used to install software in Galaxy, if exploited, the impact could result in arbitrary code execution on Galaxy servers if a malicious tool is uploaded to a previously trusted repository, and that compromised version is subsequently installed by a Galaxy administrator. As such, Tool Shed administrators are strongly encouraged to update immediately.
 
-[See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)
+[See the announcement for full details and update instructions](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/KNJIV2QCT52SPLXMCENLA2N5747ALSSK/)

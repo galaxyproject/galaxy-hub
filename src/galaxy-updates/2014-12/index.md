@@ -51,7 +51,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the GCC2015 Organising Committee know if you are interested in helping make this event a success.
 
 ### GCC2015 Training Day Topic Nominations ...
 
@@ -238,6 +238,7 @@ The Galaxy is expanding! Please help it grow.
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
+
 # Mailing Lists Moved
 
 The [Galaxy mailing lists](/src/mailing-lists/index.md) have been moved from the lists.bx.psu.edu domain to the lists.galaxyproject.org domain.  This transition should be largely transparent, but there are a few things to be aware of:
@@ -249,9 +250,9 @@ The prior bx.psu.edu list posting email addresses will continue to accept email,
 
 # New Galaxy-Training Mailing List
 
-The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/galaxy-training) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/src/teach/gtn/index.md), a [world-wide](/src/teach/trainers/index.md) group of training organizations that give Galaxy-based training.
+The [Galaxy-Training mailing list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/src/teach/gtn/index.md), a [world-wide](/src/teach/trainers/index.md) group of training organizations that give Galaxy-based training.
 
-If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/listinfo/galaxy-training). Messages to this list are [publicly archived](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) and will be included in the [Galaxy search engine](/src/search/index.md) as well.
+If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/). Messages to this list are publicly archived and will be included in the [Galaxy search engine](/src/search/index.md) as well.
 
 <div class='right'><a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 

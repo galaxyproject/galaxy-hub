@@ -186,7 +186,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is s
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the [organisers](http://gcc2015.tsl.ac.uk/) know if you are interested in helping make this event a success.
 
 ## April GalaxyAdmins Meetup: Slides and Video
 
@@ -320,31 +320,31 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> July 4-8 </th>
     <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td rowspan=6> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
-    <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
+    <td> GCC2015 Organisers </td>
   </tr>
   <tr>
     <th rowspan=2> July 4-5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
-    <td> <a href="mailto:gcc2015-data-org@lists.galaxyproject.org">Data Hackathon Organisers</a> </td>
+    <td> Data Hackathon Organisers </td>
   </tr>
   <tr>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div></strong> </td>
-    <td> <a href="mailto:gcc2015-hack-org@lists.galaxyproject.org">Coding Hackathon Organisers</a> </td>
+    <td> Coding Hackathon Organisers </td>
   </tr>
   <tr>
     <th> July 5 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> GCC2015 Organisers  </td>
   </tr>
   <tr>
     <th> July 6 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div></strong> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> GCC2015 Organisers  </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
     <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a></strong></div> </td>
-    <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
+    <td> GCC2015 Organisers </td>
   </tr>
   <tr>
     <th> July 6-10 </th>

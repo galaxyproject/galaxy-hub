@@ -83,9 +83,12 @@ Additional details can be found [below](/src/admin/get-galaxy/index.md#become-an
 
 Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
 
-## Join the Mailing List
+## Join the Discussion
 
-To stay up-to-date on new Galaxy features and bug fixes, as well as to discuss future features, consider joining the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/). See [Mailing Lists](/src/mailing-lists/index.md) for other options.
+To stay up-to-date on new Galaxy features and bug fixes, as well as to discuss future features, consider joining
+
+* the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). (See [Mailing Lists](/src/mailing-lists/index.md) for other options.)
+* the [Galaxy Gitter Channel](https://gitter.im/galaxyproject/Lobby) for a chat-based interface.
 
 ## Keep your instance backed up
 
@@ -101,7 +104,7 @@ Please see the [Running Galaxy in a production environment](/src/admin/config/pe
 
 Galaxy development occurs in [GitHub](https://github.com/galaxyproject/galaxy/). Changes are stabilized in the `release_YY.MM` branches and then merged to `master` for each `YY.MM.point` release.
 
-To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/). Each release is accompanied by [release notes](https://docs.galaxyproject.org/en/master/releases/index.html).
+To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). Each release is accompanied by [release notes](https://docs.galaxyproject.org/en/master/releases/index.html).
 
 At any time, you can check to see if a new stable release is available by using the `git log` command:
 

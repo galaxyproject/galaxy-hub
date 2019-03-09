@@ -16,7 +16,7 @@ All sorts of ways.  See [Support](/src/support/index.md).
 ## How do tools get on to Main?
 
 See this email thread:
-* [contribute tools to galaxy?](http://dev.list.galaxyproject.org/contribute-tools-to-galaxy-td4141388.html), 2011/08
+* [contribute tools to galaxy?](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/JUGJJIKL23XLLIFVNEES5YTZVZDSK22N/#JUGJJIKL23XLLIFVNEES5YTZVZDSK22N), 2011/08
 
 ## Are there quotas on Main?
 

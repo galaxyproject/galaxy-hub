@@ -49,7 +49,7 @@ Lists software development best practices for the Galaxy Project. These are work
 
 # Email Threads
 
-* [Suggestion / Request for Comments on Galaxy Best Practices - Gradual migration to standard indentation](http://dev.list.galaxyproject.org/Suggestion-Request-for-Comments-on-Galaxy-Best-Practices-Gradual-migration-to-standard-indentation-td4141448.html), 2011/09
+* [Suggestion / Request for Comments on Galaxy Best Practices - Gradual migration to standard indentation](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PB2NRH2JNTZALG6LSVR3ZRYAAMAKUMCP/#V7YQQV5S46CNS3U57CCUIWHTFNTIEYJS), 2011/09
 
 # Tool Development Best Practices
 

@@ -53,10 +53,10 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 | Topic-Based Community / Channel | Membership / Followers|
 |---|---|
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-training) |114|
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) |114|
 | [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) |116|
 | [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) |106|
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/listinfo/galaxy-proteomics) |81|
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) |81|
 
 
 

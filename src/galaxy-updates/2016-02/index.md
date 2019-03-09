@@ -79,7 +79,7 @@ Also, please welcome **[Globus Genomics](https://www.globus.org/genomics)** as a
 
 
 <br />
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ----
 

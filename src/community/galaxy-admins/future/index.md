@@ -41,7 +41,7 @@ Starting in February 2015, we will resume our bi-monthly web meetups.
 
 The GalaxyAdmins group has been hiatus for a while. Though, the discussion about this group's future has never stopped:
 
-* [In this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html) prior to [GCC2013](/src/events/gcc2013/index.md)
+* [In this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI) prior to [GCC2013](/src/events/gcc2013/index.md)
 * At the [Future of GalaxyAdmins BoF](/src/events/gcc2013/bof/galaxy-admins/index.md) at [GCC2013](/src/events/gcc2013/index.md).
 * At the [GalaxyAdmins BoF](/src/events/gcc2014/bofs/galaxy-admins/index.md) at [GCC2014](/src/events/gcc2014/index.md).
 

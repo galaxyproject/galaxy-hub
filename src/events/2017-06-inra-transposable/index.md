@@ -6,5 +6,6 @@ continent: EU
 location: INRA, Versailles, France
 image: /images/logos/URGILogo.png
 location_url: https://urgi.versailles.inra.fr/
-external_url: http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Formation-detection-et-annotation-des-elements-transposables-dans-les-genoe-td220.html
+external_url: https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/PHXFO7BB724GSZ5TXE7WNH543OUYFKGY/#PHXFO7BB724GSZ5TXE7WNH543OUYFKGY
 contact: Nathalie Choisne, Olivier Inizan
+---

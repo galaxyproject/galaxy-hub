@@ -64,7 +64,7 @@ Member | Joined | GitHub
 
 <div class="media">
   <div class="media-body">
-    The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) for training-related news.
+    The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) for training-related news.
   </div>
   <div class="media-right media-middle">
     <a href="#">
@@ -106,9 +106,9 @@ Member | Joined | GitHub
 
 | Region | Info | Links |
 |--------|------|-------|
-| [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/listinfo/galaxy-arabic) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) | 
+| [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) | 
 | Australia | Australian Galaxy community | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyaustralia) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://www.embl-abr.org.au/galaxyaustralia/) |
-| France | Galaxy in French Speaking World | [<i class="fa fa-envelope" aria-hidden="true"></i>](http://france.list.galaxyproject.org/) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://www.france-bioinformatique.fr/fr/groupes-de-travail/galaxy) |
+| France | Galaxy in French Speaking World | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://www.france-bioinformatique.fr/fr/groupes-de-travail/galaxy) |
 | Western France | The GUGGO group is a collaborative space for scientists, biologists, and bioinformaticians based in Western France who are interested in data analysis and the Galaxy platform. GUGGO facilitates the transfer of information in western France about Galaxy. | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://www.e-biogenouest.org/groups/guggo/) |
 | Japan | Pitagora Galaxy Community | [<i class="fab fa-twitter" aria-hidden="true"></i>](https://twitter.com/hashtag/usegalaxyjp) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://wiki.pitagora-galaxy.org) |
 | UK | Galaxy in the United Kingdom | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyukfriends) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://galaxy-community.org.uk) |

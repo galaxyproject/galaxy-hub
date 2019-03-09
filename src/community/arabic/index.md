@@ -15,7 +15,7 @@ autotoc: false
 <br />
 The **Galaxy Arabic speaking community** supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
 
-If you are interested, please [follow @Galaxy_Arabic on Twitter](http://twitter.com/galaxy_arabic), subscribe to the [Galaxy Arabic mailing list](https://lists.galaxyproject.org/listinfo/galaxy-arabic), and join the [Galaxy Arabic Facebook group](http://bit.ly/2ek7fTh).
+If you are interested, please [follow @Galaxy_Arabic on Twitter](http://twitter.com/galaxy_arabic), subscribe to the [Galaxy Arabic mailing list](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/), and join the [Galaxy Arabic Facebook group](http://bit.ly/2ek7fTh).
 
 ## Other Resources
 

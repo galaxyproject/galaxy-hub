@@ -245,7 +245,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 A security vulnerability was discovered this last release cycle by [Björn Grüning](https://bitbucket.org/BjoernGruening) with Galaxy's "user impersonation" feature that can expose an administrator's active history to users whom they impersonate.  It is corrected by upgrading to this distribution.
 <br />
 <br />
-Details: Only Galaxy instances with `allow_user_impersonation = True` set in their configurations are affected, and only if an administrator makes use of the impersonation feature.  By default, user impersonation is disabled. [Read the original alert email, sent on June 12th, 2013, that includes a work-around should you choose not to upgrade immediately…](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html)
+Details: Only Galaxy instances with `allow_user_impersonation = True` set in their configurations are affected, and only if an administrator makes use of the impersonation feature.  By default, user impersonation is disabled. [Read the original alert email, sent on June 12th, 2013, that includes a work-around should you choose not to upgrade immediately…](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/)
 
 <br />
 # Bug Fixes

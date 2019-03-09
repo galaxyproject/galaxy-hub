@@ -121,7 +121,7 @@ Thanks also go to **the [Indiana University Pervasive Technology Institute (PTI)
 
 ### Seeking Sponsors
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ### Registration will open this month
 
@@ -248,7 +248,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
 * [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
-* [Bioinformatician Post-doc at [[http://www.sb-roscoff.fr/](http://france.list.galaxyproject.org/Galaxy-france-Fwd-BBC-bioinformatics-Post-doc-position-for-2-years-td160.html) working on parasitic dinoflagellate genomics
+* [Bioinformatician Post-doc at SB Roscoff](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/message/IC6W3TYHDUB2BSI2SCJQPU2KK3MA7NQM/) working on parasitic dinoflagellate genomics
 * [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     *Extended until 10 January 2016.*

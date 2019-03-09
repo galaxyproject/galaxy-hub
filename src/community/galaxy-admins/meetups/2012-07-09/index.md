@@ -5,12 +5,7 @@ title: 2012-07-09 Conference Call
 
 {{> Community/GalaxyAdmins/LinkBox }}
 
-
-
-The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Czars-Doodle-pool-for-first-Teleconference-tt4655444.html#a4655472) was held on Monday July 9, at 9am Central US time.  There were 27 connections to the call, some with multiple people on the connection.  The call was run by Ann Black-Ziegelbein of the University of Iowa.  Ann was also the main presenter.
-
-
-
+The group's first conference call was held on Monday July 9, at 9am Central US time.  There were 27 connections to the call, some with multiple people on the connection.  The call was run by Ann Black-Ziegelbein of the University of Iowa.  Ann was also the main presenter.
 
 # Links
 

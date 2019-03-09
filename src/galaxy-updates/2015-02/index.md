@@ -154,7 +154,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the organisers know if you are interested in helping make this event a success.
 
 ## 19 February GalaxyAdmins Meetup
 
@@ -172,7 +172,7 @@ Thanks to everyone for letting us know what dates and times worked best for you.
 
 The [first Baltimore Area Galaxy meetup](/src/events/meetups/baltimore/2015-01-22/index.md) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/src/galaxy-team/index.md) as well. 
 
-The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a [Baltimore newsletter](https://lists.galaxyproject.org/listinfo/baltimore) ([subscribe](https://lists.galaxyproject.org/listinfo/baltimore) if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
+The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
 
 [Enis Afgan](/src/people/enis-afgan/index.md) & [Nitesh Turaga](/src/people/nitesh-turaga/index.md)
 
