@@ -23,8 +23,8 @@ GCC2019 spans more than a week of activity:
     <th> </th>
     <th> [Training Day](https://gcc2019.sched.com/overview/type/A.+Training+Day)<br />Mon 1 Jul </th>
     <th> [Conference](https://gcc2019.sched.com/overview/type/B.+Conference)<br />Tue-Thu 2-4 Jul </th>
-    <th> CoFest: Core<br />Fri-Sat 5-6 Jul </th>
-    <th> CoFest: Encore<br />Sun-Mon 7-8 Jul </th>
+    <th> [CoFest: Core](/src/events/gcc2019/cofest/index.md)<br />Fri-Sat 5-6 Jul </th>
+    <th> [CoFest: Encore](/src/events/gcc2019/cofest/index.md)<br />Sun-Mon 7-8 Jul </th>
   </tr>
 </thead>
 <tbody>
