@@ -6,7 +6,7 @@ title: "GCC2019 Registration
 
 **Registration for GCC2019 will open shortly.**
 
-GCC2019 features several events, all of which can be registered for separately, or all at the same time.  Steep discounts are offered to students and postdocs, and for registering early.
+GCC2019 features [several events](https://gcc2019.sched.com/), all of which can be registered for separately, or all at the same time.  Steep discounts are offered to students and postdocs, and for registering early.
 
 # Rates
 
