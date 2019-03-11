@@ -1,6 +1,6 @@
 {{> Events/GCC2019/Header }}
 
-**We are pleased to announce that GCC2019 will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+**We are pleased to announce that GCC2019 will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will [feature](https://gcc2019.sched.com/) invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 ## Location
 
@@ -12,6 +12,54 @@
 
 GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.de/) in central Freiburg, adjacent to the [Freiburg train station](https://www.bahnhof.de/bahnhof-de/Freiburg__Breisgau__Hbf-1039062).
 
+
+## Program
+
+GCC2019 spans more than a week of activity:
+
+<table class="table table-striped" style="text-align: center">
+<thead>
+  <tr>
+    <th> </th>
+    <th> [Training Day](https://gcc2019.sched.com/overview/type/A.+Training+Day)<br />Mon 1 Jul </th>
+    <th> [Conference](https://gcc2019.sched.com/overview/type/B.+Conference)<br />Tue-Thu 2-4 Jul </th>
+    <th> CoFest: Core<br />Fri-Sat 5-6 Jul </th>
+    <th> CoFest: Encore<br />Sun-Mon 7-8 Jul </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th> Morning </th>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
+    <td> Talks: Invited, accepted, and lightning </td>
+    <td> Collaboration!</td>
+    <td> More collaboration! </td>
+  </tr>
+  <tr>
+    <th> Early Afternoon </th>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
+    <td> Training sessions: 6 tracks <br /> [Poster, Demo and Sponsor Session](https://gcc2019.sched.com/overview/type/B.+Conference/Posters+%2B+Demos)</td>
+    <td> Collaboration!</td>
+    <td> More collaboration! </td>
+  </tr>
+  <tr>
+    <th> Late Afternoon </th>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
+    <td> Training sessions: 6 tracks <br /> Talks: Invited, accepted, and lightning</td>
+    <td> Collaboration!</td>
+    <td> More collaboration! </td>
+  </tr>
+  <tr>
+    <th> Evening </th>
+    <td> [Birds-of-a-Feather (BoFs)](https://gcc2019.sched.com/overview/type/B.+Conference/Break+%2F+Social+%2F+Networking) and other informal networking </td>
+    <td> [BoFs](https://gcc2019.sched.com/overview/type/B.+Conference/Break+%2F+Social+%2F+Networking) and other informal networking; [Conference Dinner (Wed)](https://sched.co/LufW)</td>
+    <td> Informal networking </td>
+    <td> *Really* informal networking </td>
+  </tr>
+</tbody>
+</table>
+
+**See the [full online program](https://gcc2019.sched.com/) for details.**
 
 ## Hosts
 
