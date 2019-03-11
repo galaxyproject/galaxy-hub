@@ -14,9 +14,9 @@ GCC2019 features several events, all of which can be registered for separately, 
 
 | | Early (by 17 May) | Advance (by 7 June) | Full (after 7 June) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc | €65.00 | €94.25 | €143.00 |
-| Non-Profit      | €97.50 | €136.50 | €195.00 |
-| Industry          | €162.50 | €234.00 | €325 |
+| Student/postdoc | €49 | €79 | €129 |
+| Non-Profit           | €79 | €129 | €189 |
+| Industry            | €159 | €229 | €319 |
 
 ## Meeting, Tuesday-Thursday
 
@@ -24,9 +24,9 @@ GCC2019 features several events, all of which can be registered for separately, 
 
 | | Early (by 17 May) | Advance (by 7 June ) | Full (after 7 June) |
 | --- | ---: | ---: | ---: |
-| Student/postdoc | €195.00 | €282.75 | €429.00 |
-| Non-Profit | €292.50 | €409.50 | €585.00 |
-| Industry | €487.00 | €702.00 | €975.00 |
+| Student/postdoc | €149 | €239 | €389 |
+| Non-Profit | €239 | €389 | €569 |
+| Industry | €479 | €689 | €959 |
 
 ## Conference Dinner, Wednesday evening
 
