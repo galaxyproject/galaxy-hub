@@ -61,12 +61,6 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
     <td> galaxy-public-servers AT lists DOT galaxyproject DOT org </td>
     <td> </td>
   </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-commits.lists.galaxyproject.org/>galaxy-commits</a> </th>
-    <td> Galaxy source control commit messages. </td>
-    <td> </td>
-    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-commits@lists.galaxyproject.org/'>Mailman</a> </td>
-  </tr>
 </table>
 
 
