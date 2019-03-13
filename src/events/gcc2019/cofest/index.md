@@ -29,7 +29,7 @@ There will be lots of collaborative work, but also lots of learning about projec
 
 The smaller (and dare we say *more intense*) of the two stages, these two days will focus on collaboration, collaboration, collaboration.
 
-#  Galaxy-Dev, and Galaxy-DAT
+#  Galaxy-Dev and Galaxy-DAT
 
 CollaborationFest will have two tracks that will meet both jointly and separately:
 
@@ -70,11 +70,8 @@ Childcare won't be available during CoFest:Encore.
 
 # CollaborationFest Organizers
 
-* *[Dannon Baker](/src/people/dannon-baker/index.md)*,  [Johns Hopkins University](https://jhu.edu/)
-* *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](http://www.bx.psu.edu)
-* *[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)*, [VIB](http://www.vib.be/) and [ELIXIR Belgium](https://www.elixir-belgium.org/)
-* *[Björn Grüning](https://github.com/bgruening)*, [University of Freiburg](http://www.uni-freiburg.de/)
-* *[Christian Schudoma](http://www.earlham.ac.uk/christian-schudoma)*, [Earlham Institute](http://www.earlham.ac.uk/)
+* [Marius van den Beek](https://github.com/mvdbeek), [Institut Curie](https://institut-curie.org/)
+* (more to come)
 
 Contact us at
 * CoFest 2019 Organizers <cofest2019-org@lists.galaxyproject.org>

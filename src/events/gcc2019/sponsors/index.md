@@ -60,6 +60,11 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 
 ## Silver Sponsorships
 
+<br />
+[<img style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+
+<br/><br />
+
 Cost €2000 (€1500 for non-profit) <span class="small">(+VAT)</div>
 
 - An exhibit space
