@@ -39,7 +39,7 @@ Registration for both CollaborationFest events is *free*, but space is limited s
 
 # Lodging
 
-Freiburg has many options for lodging, from four-star hotels to hostels.  Conference organizers have [identified a number of recommended lodging options](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en), ranging in price from 59€ to 123€ per night.
+Freiburg has many options for lodging, from four-star hotels to hostels. Freiburg Convention Bureau - official booking service of Freiburg - has blocked an allotment with special rates, ranging in price from 59€ to 123€ per night. Please book directly [online](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en) or by telephone: +49 761 3881 1444.
 
 # Got kids?
 
