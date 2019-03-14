@@ -12,7 +12,7 @@ platforms:
 summary: "The Trinity CTAT Galaxy provides users with access to large memory resources required for *de novo* transcriptome assembly and downstream analysis."
 image: "/src/use/trinity-ctat/trinity-pti-logo.jpg"
 comments:
-  - Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki)"
+  - "Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki)."
 user_support:
   - "The resource has slides available for tasks such as moving data, and help can be reached at trinity@ncgas.org"
 quotas:
