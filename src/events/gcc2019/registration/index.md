@@ -4,9 +4,15 @@ title: "GCC2019 Registration
 
 {{> Events/GCC2019/Header }}
 
-**Registration for GCC2019 will open shortly.**
+**Registration for GCC2019 is open**
 
-GCC2019 features [several events](https://gcc2019.sched.com/), all of which can be registered for separately, or all at the same time.  Steep discounts are offered to students and postdocs, and for registering early.
+<a href="https://www.conftool.com/gcc2019/"><button type="button" class="btn btn-success">Register for GCC 2019 Now!</button></a>
+   
+GCC2019 features [several events](https://gcc2019.sched.com/), which can be registered for separately or all at once.  Steep discounts are offered to students and postdocs, and for registering early.
+
+# Training
+
+If you are participating in training on Monday, you will need to decide [which track to participate in](https://gcc2019.sched.com/) when you register.  You do not need to register for individual traing sessions during the meeting (Tuesday through Thursday).  We will poll meeting participants about training interests in early June.
 
 # Rates
 
