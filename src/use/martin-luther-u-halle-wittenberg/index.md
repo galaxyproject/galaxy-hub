@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.informatik.uni-halle.de"
     platform_text: "Martin Luther University Halle-Wittenberg"
-summary: "Provides implementations of InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont "
+summary: "Provides implementations of GeMoMa, InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont "
 image: "/src/images/logos/MartinLutherU.png"
 comments:
   - "Provides implementations of these tools:"
