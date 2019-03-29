@@ -96,6 +96,10 @@ block content
                             each item in resources_malleable
                                 if item.scope == "usegalaxy"
                                     +renderResourceRow(item, "public-server", false)
+                    p
+                        | You can 
+                        a(href="https://status.galaxyproject.org/") check the status of all UseGalaxy resources here
+                        | .
 
                 div( class="tab-pane fade show" id="all-resources-pane" role="tabpanel" aria-labelledby="all-resources-tab" ) 
                     h2(id="all-resources" class="nav-item") All Resources

@@ -25,6 +25,10 @@ There are currently three UseGalaxy servers:
 
 (See the [UseGalaxy server directory](/src/use/index.md) for more information on each.)
 
+# Status
+
+The uptime status of all UseGalaxy servers, as well as other key Galaxy resources, [is shown here](https://status.galaxyproject.org/). The status page *currently tracks whether the sites load at all - there may still be issues with subsystems like job scheduling that are not reported here yet.*
+
 # Work in Progress
 
 This effort was launched in March 2018 and is very much a work in progress.  Support for a synchronized set of core tools and reference genomes is not yet implemented.  (It is one of our first goals.)  We also have long term goals that include welcoming other servers, and (really long term) things like integrated login and federation support.
