@@ -17,7 +17,8 @@ The *April  2019 Galactic News* is here! This is a summary of what is going on i
 * At least [XX Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
-* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md#releases)!
+* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md##cloudbridge-2.0-release).
+* [Galaxy Status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is alive! 
 * And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -50,7 +51,6 @@ Join the Galaxy Community of Elixir for a [three day workshop](https://www.franc
 
 During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
-Find pre-registration **[here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance)**.
 
 # Upcoming events
 
@@ -203,14 +203,14 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 The [language analysis portal (LAP)](https://galaxyproject.org/use/lap/) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
 
-# CAFU
+## CAFU
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/src/use/cafu/index.md)
 
 [CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
 
-# GraphClust
+## GraphClust
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
@@ -305,6 +305,10 @@ New additions to the Galaxy Ecosystem.
 
 Please see the [release notes](https://galaxyproject.org/news/2019-03-cloudbridge-v2/) for additional information. 
 
+## Galaxy Status
+
+We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance.
+
 ## galaxy-lib 19.5.1
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
@@ -314,3 +318,4 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 # Other News
 
 * **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](https://galaxyproject.org/news/2019-03-galaxy-carpentries/) for additional details. 
+* 
