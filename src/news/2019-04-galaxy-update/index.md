@@ -9,7 +9,7 @@ date: ""
 The *April  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration)**
+    * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
     * **[ELIXIR Galaxy Community Workshop](/src/news/2019-04-galaxy-update/index.md#elixir-galaxy-community-workshop)** 23 - 26 April in Roscoff, France!
 * [XXX new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
@@ -25,9 +25,11 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ----
 
-# GCC2019 Registration
+# GCC2019 Registration & Abstract Submission
 
 **We are pleased to announce that [registration](/src/events/gcc2019/registration/index.md) and [abstract submission](/src/events/gcc2019/abstracts/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) are now open.**
+
+[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
 GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](https://galaxyproject.org/events/gcc2019/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
@@ -41,6 +43,22 @@ GCC2019, like every GCC before it, will be built around **community**.  Training
 If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
 Please find additional information on GCC2019 [here](https://galaxyproject.org/events/gcc2019/).
+
+# GCC2019 Sponsors
+
+We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](/src/events/gcc2019/sponsors/index.md).
+
+## Limagrain
+
+[<img class="float-left img-fluid mx-auto" style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+
+As the fourth largest seed company worldwide, **[Limagrain](https://www.limagrain.com/en/)**’s mission is to move agriculture forward to meet global food related challenges. Limagrain is a cooperative group founded and managed by French farmers. Its parent company, Coopérative Limagrain, brings together nearly 2,000 farmers located in the center of France, in the Limagne Val d'Allier plain. The Group creates, produces and distributes field seeds, vegetable seeds and cereal products. Limagrain is present in 56 countries and has more than 10,000 employees. It makes nearly 2.5 billion Euros of sales with recognized brands on their markets: LG, Vilmorin, Hazera, Harris Moran, Jacquet, Brossard.
+
+After participating for several years, Limagrain has the pleasure to help out with the Galaxy Community Conference organization for the first time ever. With over 200 Limagrain users worldwide and hundreds of tools dedicated to agronomic research, Galaxy has become central to Bioinformatics and Bioanalysis platforms of Limagrain research activities. By leveraging access to sequencing data of the plant species and by  gathering tools and workflows tailored towards breeding, Galaxy is key to Limagrain competitiveness.
+
+## Your Organization/Vendor Here!
+
+[GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
 
 # Elixir Galaxy Community Workshop 
@@ -224,6 +242,7 @@ Comming on 02APR19
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Biostatistician](https://staff-emory.icims.com/jobs/34339/biostatistician/job?codes=IND&mobile=false&width=669&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Emory University, Atlanta, Georgia, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
@@ -285,4 +304,4 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 # Other News
 
 * **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](https://galaxyproject.org/news/2019-03-galaxy-carpentries/) for additional details. 
-* 
+* [Biohackathon2019 Call for Hacking projects](https://biohackathon-europe.org/index.html#landing-processprop) is officially open. **Apply by 7 April.**
