@@ -17,6 +17,14 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 
 Freiburg has many options for lodging, from four-star hotels to hostels.  Conference organizers have [identified a number of recommended lodging options](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en), ranging in price from 59€ to 123€ per night.
 
+## Airports
+
+Freiburg is located nearby two airports. 
+
+The [Euroairport](https://www.euroairport.com/en) in the south is close to Basel (CH) and Mulhouse (F). From there, Freiburg is connected by bus within 55 min, e.g. [Flixbus](www.flixbus.com) or [Euroairport Bus](https://www.freiburger-reisedienst.de/tickets.php?lang=en). Round trip tickets are available for 46€.
+
+The airport in the north is close to Karlsruhe and [Baden-Baden](https://www.baden-airpark.de). From there, Freiburg is connected by bus and [train](https://www.bahn.de) within ~90min. Train round trip tickets are available for 50€.
+
 ## Hosts
 
 <div class="center">
