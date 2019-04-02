@@ -2,7 +2,7 @@
 date: '2019-04-02'
 title: "A sneak peak at GCC2019"
 authors: "Björn Grüning"
-tease: "Find out about Galaxy's favorite filesystem"
+tease: "New scheduling format this year"
 image: "/src/blog/2019-04-gcc2019/bjorn-gcc2017.jpg"
 ---
 
