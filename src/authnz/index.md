@@ -50,6 +50,10 @@ logins for the user.
 we enable login to Galaxy without explicitly creating a Galaxy user account. This protocol is the current latest 
 industry-level standard for user authentication, and has been widely adopted by various platforms.
 
+    - Admins: [read how to set it up](/src/authnz/config/oidc/index.md).
+    
+    - Users: read how to use it. 
+
 
 Cloud Authorization Delegation
 ---
