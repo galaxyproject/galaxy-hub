@@ -19,7 +19,7 @@ Generally, to use the `get` and `send` APIs one should take the following steps:
 * **Initialization**
 
     1. Login to Galaxy using your Google account (read 
-    [how to login to Galaxy using social identities](/src/admin/authentication/index.md));
+    [how to login to Galaxy using social identities](/src/authnz/config/oidc/index.md));
 
     2. Securely authorize Galaxy to read/write to your cloud-based storage ([read how](/src/cloud/authnz/index.md)).
     
