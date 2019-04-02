@@ -10,8 +10,7 @@ The *April  2019 Galactic News* is here! This is a summary of what is going on i
 
 * Event News
     * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
-    * **[ELIXIR Galaxy Community Workshop](/src/news/2019-04-galaxy-update/index.md#elixir-galaxy-community-workshop)** 23 - 26 April in Roscoff, France!
-* [XXX new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [120 new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * Galactic Blog!
 * At least [XX Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
