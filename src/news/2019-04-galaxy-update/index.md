@@ -242,6 +242,7 @@ Comming on 02APR19
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * [Biostatistician](https://staff-emory.icims.com/jobs/34339/biostatistician/job?codes=IND&mobile=false&width=669&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Emory University, Atlanta, Georgia, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
