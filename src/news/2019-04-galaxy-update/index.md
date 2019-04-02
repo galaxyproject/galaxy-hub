@@ -60,14 +60,6 @@ After participating for several years, Limagrain has the pleasure to help out wi
 [GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
 
-# Elixir Galaxy Community Workshop 
-
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
-
-Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTN materials. 
-
-During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
-
 
 # Upcoming events
 
