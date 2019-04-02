@@ -12,7 +12,7 @@ GCC2019 features [several events](https://gcc2019.sched.com/), which can be regi
 
 # Training
 
-If you are participating in training on Monday, you will need to decide [which track to participate in](https://gcc2019.sched.com/) when you register.  You do not need to register for individual traing sessions during the meeting (Tuesday through Thursday).  We will poll meeting participants about training interests in early June.
+If you are participating in training on Monday, you will need to decide [which track to participate in](https://gcc2019.sched.com/) when you register.  You do not need to register for individual training sessions during the meeting (Tuesday through Thursday).  We will poll meeting participants about training interests in early June.
 
 # Rates
 
