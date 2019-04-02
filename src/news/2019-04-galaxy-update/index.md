@@ -4,7 +4,7 @@ tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blo
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-04-galaxy-update/2019-04-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *April  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -12,12 +12,12 @@ The *April  2019 Galactic News* is here! This is a summary of what is going on i
     * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
 * [120 new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
-* Galactic Blog!
-* At least [XX Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* A new entry to [The Galactic Blog](/src/news/2019-04-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
+* At least [9 Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
 * [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
 * [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md##cloudbridge-2.0-release).
-* [Galaxy Status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is alive! 
+* [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is alive! 
 * And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -222,8 +222,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-Comming on 02APR19
-
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Bjorn Gruning](https://github.com/bgruening) gives a [sneak peak at GCC2019](blog link).
 
 ----
 
