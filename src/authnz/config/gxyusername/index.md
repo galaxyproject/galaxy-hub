@@ -1,45 +1,61 @@
-# User Accounts Administration
+---
+title: Galaxy Username and Password
+---
 
-Galaxy admins have an option to turn on the email verification feature to force users to provide working email during the registration. You can also turn on the disposable email domains filter to disable registration for users using known disposable email provider. 
+Without any additional configuration Galaxy will simply use its database to maintain 
+usernames and passwords. The Galaxy user interface and API provide functions allowing 
+users to register accounts, change passwords, and etc.
 
-How to set up this config is presented here.
 
-*Note: SQLite database is not supported with this feature. Please use PostgreSQL.*
+User Activation
+---
 
-## Account activation feature
+Galaxy admins using the default authentication mechanism have an option to turn on 
+the email verification feature to force users to provide working email during the 
+registration. You can also turn on the disposable email domains filter to disable 
+registration for users using known disposable email provider.
 
-In the Galaxy config file **config/galaxy.ini** there is the user activation setting that you have to turn on.
+Note: SQLite database is not supported with this feature. Please use PostgreSQL.
+
+In the Galaxy config file config/galaxy.yml there is the user activation setting that you have to turn on.
 
 ```
-user_activation_on = True
+user_activation_on: true
 ```
 
-
-There is also the option for tracking jobs in database that is required to be turned on for the account activation to be effective. By default it is off.
+There is also the option for tracking jobs in database that is required to be 
+turned on for the account activation to be effective. By default it is off.
 
 ```
-track_jobs_in_database = True
+track_jobs_in_database: true
 ```
 
-
-After you turn on both of these every user that will try to register after this configuration file takes effect will have the verification email sent to the email address provided. Unless the Grace period (see below) is set, the user won't be able to login before the verification happens.
+After you turn on both of these every user that will try to register after this 
+configuration file takes effect will have the verification email sent to the email 
+address provided. Unless the Grace period (see below) is set, the user won’t 
+be able to login before the verification happens.
 
 Furthermore in order for this to work correctly smtp server and admin email should be set:
+
 ```
-#smtp_server = some.server.edu:587
-#smtp_username = example_username
-#smtp_password = example_passsword
-#activation_email = activation-noreply@example.com
-#error_email_to = admin@example.com
+smtp_server: some.server.edu:587
+smtp_username: example_username
+smtp_password: example_passsword
+activation_email: activation-noreply@example.com
+error_email_to: admin@example.com
 ```
 
-Smtp server takes care of the email sending and the activation_email email is used as the *From* address in the verification email. Furthermore the error_email_to is being shown to the user if the Galaxy detects its own misconfiguration.
 
-You can also set the instance_resource_url which is shown in the activation emails so you can point users to your wiki or other materials.
-```
-instance_resource_url = http://wiki.galaxyproject.org/
-```
+Smtp server takes care of the email sending and the activation_email email is used as 
+the From address in the verification email. Furthermore the error_email_to is being 
+shown to the user if the Galaxy detects its own misconfiguration.
 
+You can also set the instance_resource_url which is shown in the activation emails 
+so you can point users to your wiki or other materials.
+
+```
+instance_resource_url = http://galaxyproject.org/
+```
 
 The final activation email looks like this:
 
@@ -57,16 +73,25 @@ Please contact us if you need help with your account at: <error_email_to_config>
 More about the Galaxy Project can be found at galaxyproject.org
 
 Your Galaxy Team
-
 ```
 
-### Changing email address
 
-If activated user changes email address in user settings his/her account will be deactivated. A new activation link will be sent and user is required to visit it to activate the account again.
+Changing email address
+---
 
-### Grace period
+If an activated user changes email address in user settings, his/her account will be 
+deactivated. A new activation link will be sent and the user will have to visit 
+it to activate the account again.
 
-In case you want the account activation feature but don't want to disable login completely you can set the **activation_grace_period** parameter. It specifies, in hours, the period in between registration time and the login time that the user will be allowed to log in even with an inactive account. 
+
+Grace period
+---
+
+In case you want the account activation feature but don’t want to disable 
+login completely you can set the activation_grace_period parameter. It specifies, 
+in hours, the period in between registration time and the login time that 
+the user will be allowed to log in even with an inactive account.
+
 ```
 # Activation grace period. Activation is not forced (login is not disabled) until 
 # grace period has passed. Users under grace period can't run jobs (see inactivity_box_content).
@@ -75,28 +100,34 @@ In case you want the account activation feature but don't want to disable login 
 #activation_grace_period = 3
 ```
 
-However with inactive account the user won't be able to run jobs and warning message will be shown to him at the top of the page. It is customizable via the **inactivity_box_content** parameter.
+However with inactive account the user won’t be able to run jobs and warning message 
+will be shown to him at the top of the page. It is customizable via the 
+inactivity_box_content parameter.
+
 ```
 # Used for warning box for inactive accounts (unable to run jobs).
 # In use only if activation_grace_period is set.
 #inactivity_box_content = Your account has not been activated yet. Please activate your account by verifying your email address. For now you can access everything at Galaxy but your jobs won't run.
 ```
 
-## Disposable email address filtering
+Disposable email address filtering
+---
 
-<a name="disposable_email_filter"></a>
+To prevent users from using disposable email addresses as a workaround for 
+the email verification the domain blacklist can be turned on through the 
+blacklist_file path parameter. Users that use disposable email domains 
+defined at the file in this provided path will be refused registration.
 
-To prevent users from using disposable email addresses as a workaround for the email verification the domain blacklist can be turned on through the **blacklist_file** path parameter. Users that use disposable email domains defined at the file in this provided path will be refused registration.
 ```
 # E-mail domains blacklist is used for filtering out users that are using disposable email address
 # during the registration. If their address domain matches any domain in the BL they are refused the registration.
 blacklist_file = config/disposable_email_blacklist.conf
 ```
 
+Disposable domains blacklist file for download and modification is [at GitHub](https://github.com/martenson/disposable-email-domains/blob/master/disposable_email_blocklist.conf).
 
-Disposable domains blacklist file for download and modification is [at GitHub](https://github.com/martenson/disposable-email-domains/blob/master/disposable_email_blacklist.conf)
 
-In the file each domain is on its own line and without the *@* sign. Example of the blacklist file format:
+In the file each domain is on its own line and without the @ sign. Example of the blacklist file format:
 
 ```
 drdrb.com
@@ -115,3 +146,4 @@ wegwerfmail.de
 wegwerfmail.net
 wegwerfmail.org
 ```
+
