@@ -28,6 +28,10 @@ username and password. Without any additional configuration, Galaxy use its data
 maintain usernames and passwords, and stores passwords encrypted using 
 [Password-Based Key Derivation Function 2 (PBKDF2)](https://en.wikipedia.org/wiki/PBKDF2) algorithm.
 
+    - Admins: [read how to set it up](/src/authnz/config/gxyusername/index.md).
+    
+    - Users: read how to use it. 
+
 - **Plugin-driven authentication:** This framework allows an instance of Galaxy to 
 delegate authentication to an [Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 server, or to [Pluggable Authentication Module (PAM)](https://en.wikipedia.org/wiki/Pluggable_authentication_module).
