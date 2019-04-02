@@ -222,7 +222,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Bjorn Gruning](https://github.com/bgruening) gives a [sneak peak at GCC2019](blog link).
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Bjorn Gruning](https://github.com/bgruening) gives a [sneak peak at GCC2019](https://galaxyproject.org/blog/2019-04-gcc2019/).
 
 ----
 
