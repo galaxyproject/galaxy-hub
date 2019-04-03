@@ -1,12 +1,12 @@
 ---
 title: 'April 2019 Galactic News'
 tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: ""
+date: "04-03-2019"
 ---
 
 [<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-The *April  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
+The *April 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
     * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
@@ -17,7 +17,7 @@ The *April  2019 Galactic News* is here! This is a summary of what is going on i
 * [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
 * [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md##cloudbridge-2.0-release).
-* [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is alive! 
+* [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is live! 
 * And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -45,7 +45,7 @@ Please find additional information on GCC2019 [here](https://galaxyproject.org/e
 
 # GCC2019 Sponsors
 
-We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](/src/events/gcc2019/sponsors/index.md).
+We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](https://galaxyproject.org/events/gcc2019/sponsors/).
 
 ## Limagrain
 
@@ -193,15 +193,16 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
-## Language Analysis Portal
-
-The [language analysis portal (LAP)](https://galaxyproject.org/use/lap/) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
-
 ## GraphClust
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
 The [GraphClust2 server](https://galaxyproject.org/use/graphclust/) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
+
+## Language Analysis Portal
+
+The [language analysis portal (LAP)](https://galaxyproject.org/use/lap/) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
+
 
 ## Galaxy Platforms in Publications
 
@@ -222,7 +223,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Bjorn Gruning](https://github.com/bgruening) gives a [sneak peak at GCC2019](https://galaxyproject.org/blog/2019-04-gcc2019/).
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](https://galaxyproject.org/blog/2019-04-gcc2019/).
 
 ----
 
@@ -250,17 +251,16 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in March, and the Hub as well:
+Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in March:
 
 ## GTN Training Materials
 
 [<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Group tags for complex experimental designs](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial.html) mini-tutorial by [Marius van den Beek](https://github.com/mvdbeek).
-* New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Berenice Batut](https://github.com/bebatut).
+* New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Bérénice Batut](https://github.com/bebatut).
 * New [Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html) tutorial by [Wolfgang Maier](https://github.com/wm75).
 * New [Downstream single-cell RNA analysis with RaceID](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
-
 
 
 ---
@@ -284,7 +284,7 @@ Please see the [release notes](https://galaxyproject.org/news/2019-03-cloudbridg
 
 ## Galaxy Status
 
-We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance.
+We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance. 
 
 ## galaxy-lib 19.5.1
 
