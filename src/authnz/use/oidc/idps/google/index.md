@@ -1,5 +1,6 @@
 ---
 title: Login to Galaxy Using Your Google Account
+highlight: true
 ---
 
 You can login to a Galaxy instance (if this feature is enabled on that instance)using your Google account 
