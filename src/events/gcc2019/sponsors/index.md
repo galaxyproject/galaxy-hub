@@ -60,7 +60,6 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 
 ## Silver Sponsorships
 
-<br />
 <div class="center">
 <table>
   <tr style="text-align: center">
