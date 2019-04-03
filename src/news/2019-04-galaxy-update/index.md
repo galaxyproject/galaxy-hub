@@ -1,7 +1,7 @@
 ---
 title: 'April 2019 Galactic News'
 tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: "04-03-2019"
+date: "2019-04-03"
 ---
 
 [<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
