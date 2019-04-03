@@ -131,8 +131,8 @@ For instance:
     http://localhost:8080/authnz/globus/callback
     ```
 
- - using an instance hosted at `https://usegalaxy.org` with Google:
- 
+- using an instance hosted at `https://usegalaxy.org` with Google:
+
     ```
     https://usegalaxy.org/authnz/google/callback
     ```
