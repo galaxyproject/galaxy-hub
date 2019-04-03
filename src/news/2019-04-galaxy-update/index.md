@@ -243,7 +243,7 @@ The *dark energy* of irreproducible research is threatening the science universe
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
+  * Software engineer, system analysts/administrators, data analyst, and a comnunity and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
