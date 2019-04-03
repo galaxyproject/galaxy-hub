@@ -154,4 +154,46 @@ For instance:
 
 # Global OIDC Configuration
 
+Some configurations are common between all the IdPs, these configurations are set in the `oidc_config.xml` file. 
+Currently, the following properties are set in via this file: 
+
+- **Verify SSL**: sets whether the hosts SSL certificates for HTTPS requests shall be verified, or not. See 
+[this documentation](http://docs.python-requests.org/en/v1.0.4/user/advanced/#ssl-cert-verification) for details.
+
+- **Requests Timeout**: sets the maximum number of seconds Galaxy should wait for a response from the IdP.
+See [this documentation](http://docs.python-requests.org/en/master/user/advanced/#timeouts) for details.
+
+- **ID Token Max Age**: sets the duration of time, in seconds, starting from the token issue time, during which
+the token must be valid. This number will be sent to IdP, requesting for token valid for the given seconds. Note that
+this number set the **maximum** duration for token validity; however, a token can be invalidated by IdP upon the
+resource owner's request, even before the expiration time has reached. 
+
+
+To configure OIDC IdPs with these attributes, you would need to add a `Setter` in the `oidc_config.xml` file. 
+The `setter` takes the a `Property` (e.g., `VERIFY_SSL`), a `Value` for that property, and the `Type` of that 
+value. For instance: 
+
+```xml
+<Setter Property="VERIFY_SSL" Value="False" Type="bool"/>
+```
+
+See the following table for the currently supported values for each attribute: 
+
+|   | Property           | Default Value | Type  |
+|---|--------------------|---------------|-------|
+| 1 | `VERIFY_SSL`       | False         | bool  |
+| 2 | `REQUESTS_TIMEOUT` | 3600          | float |
+| 3 | `ID_TOKEN_MAX_AGE` | 3600          | float |
+
+
+The following is an example on how to setup this file:
+
+```xml
+<?xml version="1.0"?>
+<OIDC>
+    <Setter Property="VERIFY_SSL" Value="False" Type="bool"/>
+    <Setter Property="REQUESTS_TIMEOUT" Value="3600" Type="float"/>
+    <Setter Property="ID_TOKEN_MAX_AGE" Value="3600" Type="float"/>
+</OIDC>
+```
 
