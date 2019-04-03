@@ -30,7 +30,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
-GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](https://galaxyproject.org/events/gcc2019/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
+GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
 * some training will be integrated with the main conference,
 * three days of conference instead of two,
@@ -41,11 +41,11 @@ GCC2019, like every GCC before it, will be built around **community**.  Training
 
 If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
-Please find additional information on GCC2019 [here](https://galaxyproject.org/events/gcc2019/).
+Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
 
 # GCC2019 Sponsors
 
-We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](https://galaxyproject.org/events/gcc2019/sponsors/).
+We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](/src/events/gcc2019/sponsors/index.md).
 
 ## Limagrain
 
@@ -197,11 +197,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
-The [GraphClust2 server](https://galaxyproject.org/use/graphclust/) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
+The [GraphClust2 server](/src/use/graphclust/index.md) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
 
 ## Language Analysis Portal
 
-The [language analysis portal (LAP)](https://galaxyproject.org/use/lap/) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
+The [language analysis portal (LAP)](/src/use/lap/index.md) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
 
 
 ## Galaxy Platforms in Publications
@@ -223,7 +223,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](https://galaxyproject.org/blog/2019-04-gcc2019/).
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](/src/blog/2019-04-gcc2019/index.md).
 
 ----
 
@@ -280,7 +280,7 @@ New additions to the Galaxy Ecosystem.
 
 [CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, OpenStack, and now Goodle cloud. This release is further characterized by improved code consistency.
 
-Please see the [release notes](https://galaxyproject.org/news/2019-03-cloudbridge-v2/) for additional information. 
+Please see the [release notes](/src/news/2019-03-cloudbridge-v2/index.md) for additional information. 
 
 ## Galaxy Status
 
@@ -294,5 +294,5 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 # Other News
 
-* **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](https://galaxyproject.org/news/2019-03-galaxy-carpentries/) for additional details. 
+* **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](/src/news/2019-03-galaxy-carpentries/index.md) for additional details. 
 * [Biohackathon2019 Call for Hacking projects](https://biohackathon-europe.org/index.html#landing-processprop) is officially open. **Apply by 7 April.**
