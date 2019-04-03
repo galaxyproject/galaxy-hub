@@ -3,10 +3,60 @@ title: Login to Galaxy Using Your Google Account
 highlight: true
 ---
 
-You can login to a Galaxy instance (if this feature is enabled on that instance)using your Google account 
+You can login to a Galaxy instance (if this feature is enabled on that instance) using your Google account.
 
 
+## Login via User Interface 
 
+In order to login to Galaxy using your Google account, take the following steps:
+
+1. Click on the **Login or Register** button:
+
+    ![image](/src/authnz/use/oidc/idps/google/01.png)
+
+2. Click on the **Sign in with Google** button:
+
+    ![image](/src/authnz/use/oidc/idps/google/02.png)
+
+    _*NOTE:*_
+    If this button is not displayed, then either OIDC is 
+    not enabled on the instance of Galaxy you are using, or its Google backend is not configured, regardless 
+    you would need to contact the admin of that Galaxy instance.
+
+3. This will take you to Google's login page, where you would need
+to login with your Google account:
+
+    ![image](/src/authnz/use/oidc/idps/google/03.png)
+
+    _*NOTE:*_
+    You will **NOT** see Google's **consent** screen, that is because Galaxy asks Google for your
+    basic profile info---the minimum possible information---and Google does not show consent for 
+    this basic information. In other words, Galaxy sets OIDC `scope` to `openid`, which is the
+    minimum scope value that request only your email address and profile name; and by design, Google
+    does NOT show consent screen for this scope.
+
+4. Having login to Google, Google will redirect you to 
+Galaxy, and you will be logged in.
+
+## Login Programmatically
+
+You can login to Galaxy using your Google credentials by directly interacting with Galaxy's `authnz` controller. 
+To do so, you may take the following steps:
+
+1. Type the following address in your browser, after replacing `[Base URI]` with the URI of your Galaxy instance:
+
+    ```
+    [Base URI]/authnz/google/login
+    ```
+
+In other words, send an HTTP [GET](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3) request the 
+aforementioned URI.
+
+2. In response, Galaxy will return a JSON object containing `redirect_uri`, which is a URL to Google's 
+authorization endpoint with all the information required to identifying your Galaxy instance. Copy this 
+URI and pasted it in your browsers's address bar. In other words, send a GET request to this URL.
+
+3. 
 
 Just hit the **Login with Google** button, and you're all set!
 
