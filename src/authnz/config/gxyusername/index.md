@@ -1,5 +1,6 @@
 ---
 title: Galaxy Username and Password
+highlight: true
 ---
 
 Without any additional configuration Galaxy will simply use its database to maintain 

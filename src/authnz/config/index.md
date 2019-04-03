@@ -1,5 +1,6 @@
 ---
 title: User Authentication Methods Configuration
+highlight: true
 ---
 
 Authentication Related Code

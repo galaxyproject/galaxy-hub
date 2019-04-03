@@ -1,5 +1,6 @@
 ---
 title: Federated Identity and Access Management
+highlight: true
 ---
 
 Galaxy's identity and access management (IAM) is a set of protocols and methods that enable users

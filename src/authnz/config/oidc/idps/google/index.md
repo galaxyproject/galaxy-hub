@@ -1,5 +1,6 @@
 ---
 title: OpenID Connect configuration
+highlight: true
 ---
 
 # Introduction
