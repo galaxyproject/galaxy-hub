@@ -61,7 +61,21 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 ## Silver Sponsorships
 
 <br />
-[<img style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+<div class="center">
+<table>
+  <tr style="text-align: center">
+    <td style="vertical-align: middle;">
+      [<img style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+    </td>
+    <td style="width: 5%"> </td>
+    <td style="vertical-align: middle;">
+[<img style="max-width: 260px" src="/src/images/logos/kws-logo.jpg" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+    </td>
+    <td style="width: 8%"> </td>
+  </tr>
+</table>
+</div>
+
 
 <br/><br />
 
