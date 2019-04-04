@@ -203,6 +203,12 @@ head( lang="en" )
 
 body
     div#masthead
+        if localdev
+            div.d-flex.w-100.p-2.justify-content-center(style="color: orange")
+                strong
+                    i.fas.fa-exclamation-triangle
+                    | This is a Galaxy Hub under construction, served up locally
+                    i.fas.fa-exclamation-triangle
         nav.container.navbar.navbar-expand-lg.navbar-dark.justify-content-center( role="navigation" )
             a.navbar-brand( href="/" )
                 img( height="30" src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" )
