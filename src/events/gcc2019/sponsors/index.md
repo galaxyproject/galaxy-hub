@@ -68,7 +68,7 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
     </td>
     <td style="width: 5%"> </td>
     <td style="vertical-align: middle;">
-[<img style="max-width: 260px" src="/src/images/logos/kws-logo.jpg" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+[<img style="max-width: 260px" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
     </td>
     <td style="width: 8%"> </td>
   </tr>
