@@ -19,6 +19,6 @@ on the method you choose, you may be creating a Galaxy user account explicitly
 define a username and password, instead you will login with your social identities).
 In this sections we will explain how to use each of these methods. 
 
-- [Explicitly create a Galaxy user account](/src/authnz/use/gxyusername/index.md);
+- [Explicitly create a Galaxy user account](/src/authnz/use/gxy/index.md);
 - [Use your social identities](/src/authnz/use/oidc/index.md), such as your Google
 account.

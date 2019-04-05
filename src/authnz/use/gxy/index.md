@@ -7,4 +7,4 @@ This is the default and simplest method for creating a
 Galaxy user account, where you would provide Galaxy 
 with an email address, a password, and a username.
 
-![image](/src/authnz/use/gxyusername/01.png)
+![image](/src/authnz/use/gxy/01.png)

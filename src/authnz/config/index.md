@@ -8,7 +8,7 @@ Galaxy offers [various methods for user authentication](/src/authnz/index.md#use
 this page, and the method-specific configurations are explained at the following
 pages:
 
-- [Galaxy Username and Password](/src/authnz/config/gxyusername/index.md);
+- [Galaxy Username and Password](/src/authnz/config/gxy/index.md);
 - [User Authentication via OpenID Connect Protocol](/src/authnz/config/oidc/index.md).
 
 
