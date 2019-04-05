@@ -82,5 +82,5 @@ and defines a separate role for a Galaxy instance, whose access can be restricte
 user's access. Providing Galaxy with the information about the role, Galaxy will then assume it 
 on-behalf-of the user. 
 
-See [this page](/src/cloud/authnz/index.md) for the details on how we implement this 
+See [this page](/src/authnz/cloud/index.md) for the details on how we implement this 
 method for different resource providers, and how it can be used.
