@@ -1,5 +1,6 @@
 ---
-title: "Configure Cloud Authorizatoin for Azure"
+title: Configure Cloud Authorizatoin for Azure
+highlight: true
 ---
 
 On this page we explain how to setup a *service principal* on Azure, and how to configure Galaxy to assume 
