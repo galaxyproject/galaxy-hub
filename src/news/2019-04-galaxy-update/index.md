@@ -187,21 +187,21 @@ Three of the four highlighted publications are open access.
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
-## CAFU
-
-[<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/src/use/cafu/index.md)
-
-[CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
+[<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
 ## GraphClust
-
-[<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
 The [GraphClust2 server](/src/use/graphclust/index.md) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
 
 ## Language Analysis Portal
 
 The [language analysis portal (LAP)](/src/use/lap/index.md) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
+
+## CAFU
+
+[<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/src/use/cafu/index.md)
+
+[CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
 
 ## Galaxy Platforms in Publications

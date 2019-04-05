@@ -20,4 +20,5 @@ pub_libraries:
   - "MGS-Fast"
 sponsors:
   - "New York University Langonne Medical Center, Department of Biological Sciences and Center for Translational and Basic Research, Hunter College of The City University of New York, Research Foundation of The City University of New York, Sackler Institute for Comparative Genomics, American Museum of Natural History, Department of Veterans Affairs New York Harbor Healthcare System, Institute ofComputational Biomedicine, Weill Cornell Medical College"
+  - "Supported by CTBR NIMHD award G12 MD007599, WCMC-CTSC 2UL1TR000457, NYU Langone Medical Center, Assoc. of Chinese American Physicians, NCI, NIAID, NICDR awards UH3CA140233, U01CA182370, R01CA159036, R01AI110372, R21DE025352, U54CA22170401A16152."
 ---
