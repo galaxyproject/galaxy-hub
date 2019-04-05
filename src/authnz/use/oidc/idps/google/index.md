@@ -28,22 +28,29 @@ In order to login to Galaxy using your Google account, take the following steps:
 
     ![image](/src/authnz/use/oidc/idps/google/02.png)
 
-    _*NOTE:*_
-    If this button is not displayed, then either OIDC is 
-    not enabled on the instance of Galaxy you are using, or its Google backend is not configured, regardless 
-    you would need to contact the admin of that Galaxy instance.
+    <div class="alert alert-info" role="alert">
+        **NOTE:**
+        
+        If this button is not displayed, then either OIDC is 
+        not enabled on the instance of Galaxy you are using, or its Google backend is not configured, regardless 
+        you would need to contact the admin of that Galaxy instance.
+    </div>
 
 3. Clicking on the **Sign in with Google** button will take you to Google's login page, 
 where you would need to login with your Google account:
 
     ![image](/src/authnz/use/oidc/idps/google/03.png)
+    
+    <div class="alert alert-info" role="alert">
+        **NOTE:**
+        
+        You will **NOT** see Google's **consent** screen, that is because Galaxy asks Google for your
+        basic profile info---the minimum possible information---and Google does not show consent for 
+        this basic information. In other words, Galaxy sets OIDC "scope" to "openid", which is the
+        minimum scope value that request only your email address and profile name; and by design, Google
+        does NOT show consent screen for this scope.
+    </div>
 
-    _*NOTE:*_
-    You will **NOT** see Google's **consent** screen, that is because Galaxy asks Google for your
-    basic profile info---the minimum possible information---and Google does not show consent for 
-    this basic information. In other words, Galaxy sets OIDC `scope` to `openid`, which is the
-    minimum scope value that request only your email address and profile name; and by design, Google
-    does NOT show consent screen for this scope.
 
 4. Having logged in to Google, Google will redirect you back to 
 Galaxy, and you will be logged in to Galaxy with your Google account.
@@ -92,9 +99,12 @@ These information are _email address_ and _basic profile info_.
 You may [see this Google's page](https://developers.google.com/identity/protocols/googlescopes#openid_connect) 
 about what information of your account is shared with Galaxy. 
 
-**Note:**
-Neither your _email address_ and _basic profile info_, nor the OIDC tokens Google sends to Galaxy, 
-grants Galaxy with access to services tied to your Google account, such as your Google drive. 
+
+<div class="alert alert-info" role="alert">
+    **Note:**
+    Neither your _email address_ and _basic profile info_, nor the OIDC tokens that Google sends to Galaxy, 
+    grants Galaxy with access to services tied to your Google account, such as your Google drive.
+</div> 
 
 
 ## How to disconnect my Google account from Galaxy? 
