@@ -16,7 +16,7 @@ The *April 2019 Galactic News* is here! This is a summary of what is going on in
 * At least [9 Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
 * [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
-* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md##cloudbridge-2.0-release).
+* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md#releases).
 * [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is live! 
 * And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
 
@@ -255,7 +255,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Group tags for complex experimental designs](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial.html) mini-tutorial by [Marius van den Beek](https://github.com/mvdbeek).
 * New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Bérénice Batut](https://github.com/bebatut).

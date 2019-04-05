@@ -9,7 +9,7 @@ platforms:
 summary: "Galaxy Docker image for ChipSeq analysis"
 image: "/src/images/logos/DockerInGalaxy.png"
 comments:
-  - "he Galaxy Docker ChipSeq image contains a complete Galaxy installation with some tools useful for ChipSeq analysis."
+  - "The Galaxy Docker ChipSeq image contains a complete Galaxy installation with some tools useful for ChipSeq analysis."
 user_support:
 quotas:
   - "None."
