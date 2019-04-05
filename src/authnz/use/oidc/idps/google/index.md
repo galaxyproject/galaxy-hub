@@ -5,13 +5,13 @@ highlight: true
 
 _This is page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/idps/google/index.md) page._
 
-You can login to a Galaxy instance (if this feature is enabled on that instance) using your Google account. You 
-may use this feature to: 
+You can login to a Galaxy instance (if this feature is enabled on that instance) using your Google account. 
+You may use this feature if: 
 
-a. you do not have a Galaxy user account, and instead of creating one, you can login to Galaxy 
+- you do not have a Galaxy user account, and instead of creating one, you may want to login to Galaxy 
 using your Google account;
 
-b. you do have a Galaxy user account, and want to associate that account with your Google account, 
+- you do have a Galaxy user account, and want to associate that account with your Google account, 
 hence you would be able to login to Galaxy either using you Galaxy username and password, or 
 your Google account. 
 
@@ -140,8 +140,13 @@ different name and icon. However, once you clicked on the icon, Google informs y
 access the application has. 
 
 
-_*NOTE*_
-Your Galaxy account is independent from your third-party identity (e.g., Google account). Therefore, regardless of 
-disconnecting your third-party identity or revoking Galaxy's OIDC-based access to your account, your Galaxy account
-stays active. The only tie this account has to your third-party identity after the disconnect and access revoke, is
-your email address. To delete this, you need to delete your Galaxy user. 
+<div class="alert alert-info" role="alert">
+    **Note:**
+    
+    Your Galaxy account is independent from your third-party identity (e.g., Google account). 
+    Therefore, regardless of disconnecting your third-party identity or revoking Galaxy's 
+    OIDC-based access to your account, your Galaxy account stays active. The only tie this 
+    account has to your third-party identity after the disconnect and access revoke, is
+    your email address. To delete this, you need to delete your Galaxy user.
+</div>
+ 
