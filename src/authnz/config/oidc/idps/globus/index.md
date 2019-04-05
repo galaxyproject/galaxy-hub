@@ -77,7 +77,7 @@ the following:
     <provider name="Globus">
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8080/globus/google/callback</redirect_uri>
+        <redirect_uri>http://localhost:8080/authnz/globus/callback</redirect_uri>
         <prompt>consent</prompt>
     </provider>
 </OIDC>
