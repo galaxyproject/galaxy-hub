@@ -23,7 +23,7 @@ are required to have a user account on Galaxy.
 
 For user's convenience, Galaxy offers a wide-variety of methods to create a user account, listed as it follows:
  
-- **[Galaxy Username and Password](/src/authnz/use/gxyusername/index.md):** 
+- **[Galaxy Username and Password](/src/authnz/use/gxy/index.md):** 
 This is a built-in mechanism for creating user accounts via 
 username and password. Without any additional configuration, Galaxy use its database to 
 maintain usernames and passwords, and stores passwords encrypted using 
