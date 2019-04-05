@@ -65,7 +65,7 @@ unlimited storage space, and facilitates their data sharing through a cloud stor
 
 
 To access user's private cloud-based resources, Galaxy requires credentials to sign read/write requests to 
-user's storage account. However, Galaxy does NOT ask for user credentials as there are some drawbacks to 
+user's storage account. However, Galaxy does NOT ask for users credentials as there are some drawbacks to 
 that, such as:
 
 - user credentials would grant a Galaxy instance with the same level of privileges as the user themselves;
@@ -76,7 +76,7 @@ credentials;
 - it adds liability concerns to Galaxy.
 
 Therefore, for user data security, Galaxy implements the current-latest protocols that allow users to 
-securely delegate Galaxy to access their resources without having to share their credentials. Galaxy's implemented 
+securely delegate Galaxy to access their resources without having to share their credentials. This 
 method leverages the Role-Based Access Control (RBAC) model implemented in cloud-based resource providers,
 and defines a separate role for a Galaxy instance, whose access can be restricted/revoked independent from 
 user's access. Providing Galaxy with the information about the role, Galaxy will then assume it 
