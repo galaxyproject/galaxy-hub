@@ -19,7 +19,7 @@ Galaxy user account.
 Currently Galaxy supports the following OIDC IdPs: 
 
 - Google (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
-- Globus (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
+- Globus (read [how to configure this provider](/src/authnz/config/oidc/idps/globus/index.md));
 
 
 # Enable OIDC-based Login 
