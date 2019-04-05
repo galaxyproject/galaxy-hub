@@ -62,7 +62,7 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 
 <div class="center">
 [<img style="max-height: 9em; padding: 1em  2em 1em 0em;" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
-[<img style="max-height: 9.5em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+[<img style="max-height: 10.5em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
 </div>
 
 
