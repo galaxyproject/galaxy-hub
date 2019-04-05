@@ -1,5 +1,6 @@
 ---
-title:  "Securely Authorize Galaxy to Access Protected Data on Cloud"
+title:  Securely Authorize Galaxy to Access Protected Data on Cloud
+highlight: true
 ---
 
 On this page we explain a method that enables a user to securely authorize Galaxy to access their privately 
