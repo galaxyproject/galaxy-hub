@@ -14,6 +14,14 @@ Galaxy user account.
 - Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.
 
 
+# Supported OIDC IdPs
+
+Currently Galaxy supports the following OIDC IdPs: 
+
+- Google (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
+- Globus (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
+
+
 # Enable OIDC-based Login 
 
 The OIDC-based login is disabled by default, and to enable it take the following steps:
@@ -63,16 +71,13 @@ to that IdP. For instance, using the following configuration we define Google an
 </OIDC>
 ```
 
-Currently Galaxy supports the following IdPs: 
-
-- Google (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
-
-- Globus (read [how to configure this provider](/src/authnz/config/oidc/idps/google/index.md));
-
 Since all providers are OIDC-based IdPs, they have mostly common configuration keys 
 (e.g., `client_id` and `client_secret`). In the following we explain the most common 
 configuration keys, and you may visit aforementioned provider configuration pages for 
 their specific configuration keys. 
+
+Also note that you may define multiple **different** IdPs, but you cannot define 
+multiple instances of same IdP (e.g., you cannot have multiple `Google` configurations). 
 
 ## Client ID
 
