@@ -3,13 +3,14 @@ title: Galaxy Username and Password
 highlight: true
 ---
 
+_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/gxy/index.md) page._
+
 Without any additional configuration Galaxy will simply use its database to maintain 
 usernames and passwords. The Galaxy user interface and API provide functions allowing 
 users to register accounts, change passwords, and etc.
 
 
-User Activation
----
+# User Activation
 
 Galaxy admins using the default authentication mechanism have an option to turn on 
 the email verification feature to force users to provide working email during the 
@@ -77,16 +78,14 @@ Your Galaxy Team
 ```
 
 
-Changing email address
----
+# Changing email address
 
 If an activated user changes email address in user settings, his/her account will be 
 deactivated. A new activation link will be sent and the user will have to visit 
 it to activate the account again.
 
 
-Grace period
----
+# Grace period
 
 In case you want the account activation feature but don’t want to disable 
 login completely you can set the activation_grace_period parameter. It specifies, 
@@ -111,8 +110,7 @@ inactivity_box_content parameter.
 #inactivity_box_content = Your account has not been activated yet. Please activate your account by verifying your email address. For now you can access everything at Galaxy but your jobs won't run.
 ```
 
-Disposable email address filtering
----
+# Disposable email address filtering
 
 To prevent users from using disposable email addresses as a workaround for 
 the email verification the domain blacklist can be turned on through the 

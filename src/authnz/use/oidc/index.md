@@ -3,6 +3,8 @@ title: Login to Galaxy Using Social and Institutional Identities
 highlight: true
 ---
 
+_This is page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/index.md) page._
+
 In addition to the [built-in mechanism](/src/authnz/use/gxy/index.md) for creating and managing users accounts, 
 Galaxy also allows login using social and institutional identities (e.g., Google). 
 

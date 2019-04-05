@@ -3,6 +3,8 @@ title: Configuration of User Authentication Methods
 highlight: true
 ---
 
+_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/index.md) page._
+
 Galaxy offers [various methods for user authentication](/src/authnz/index.md#user-authentication-and-authorization)
 (aka login). All the methods share some common concepts, which are explain on 
 this page, and the method-specific configurations are explained at the following

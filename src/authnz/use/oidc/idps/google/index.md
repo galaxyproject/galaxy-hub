@@ -3,6 +3,8 @@ title: Login to Galaxy Using Your Google Account
 highlight: true
 ---
 
+_This is page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/idps/google/index.md) page._
+
 You can login to a Galaxy instance (if this feature is enabled on that instance) using your Google account. You 
 may use this feature to: 
 

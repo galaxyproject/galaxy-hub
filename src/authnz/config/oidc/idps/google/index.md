@@ -3,13 +3,12 @@ title: OpenID Connect configuration
 highlight: true
 ---
 
-# Introduction
----
+_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/google/index.md) page._
+
 
 Leveraging OpenID Connect (OIDC) protocol, we enable login to Galaxy without explicitly creating a Galaxy user. This feature should be enabled and configured by an admin of a Galaxy instance. In the following we explain how to configure and enable/disable this feature (see [this](/src/authnz/oidc/index.md) page on how to use it).
 
 # Configuration
----
 
 The configuration is a two-step process, first an admin defines a Galaxy instance on an OIDC identity provider (IdP, e.g., Google), then uses obtained tokens to setup Galaxy. These steps are explained in details in the following.  
 
