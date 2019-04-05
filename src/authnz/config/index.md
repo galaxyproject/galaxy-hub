@@ -1,35 +1,36 @@
 ---
-title: User Authentication Methods Configuration
+title: Configuration of User Authentication Methods
 highlight: true
 ---
 
-Authentication Related Code
----
+Galaxy offers [various methods for user authentication](/src/authnz/index.md#user-authentication-and-authorization)
+(aka login). All the methods share some common concepts, which are explain on 
+this page, and the method-specific configurations are explained at the following
+pages:
 
-The `lib/galaxy/webapps/galaxy/controllers/user.py` file provides much of the 
-authentication-related logic in the User class. Of the supported mechanisms, 
-only those needing to perform actual authentication work require any substantial 
-amount of code in this file; the integration of “remote user” information is 
-performed in the `lib/galaxy/web/framework/__init__.py` file.
-
-
-Within the User class, code supporting authentication mechanisms will need to 
-provide the following things:
+- [Galaxy Username and Password](/src/authnz/config/gxyusername/index.md);
+- [User Authentication via OpenID Connect Protocol](/src/authnz/config/oidc/index.md).
 
 
-- Support within the login method for any additional information shown in the 
-login screen. Since the login screen is likely to be modified to show alternative 
-authentication methods alongside the conventional e-mail and password fields, 
-it is possible that information such as identity providers will also need to 
-be made available in order to simplify the experience for users.
+# Authentication Related Code
 
-- A separate method to handle the initial stage of authentication for the 
-mechanism. For example, OpenID authentication requests are handled by the 
-openid_auth method initially.
+The main **controllers** for user authentication are: 
 
-- Additional methods to handle any subsequent stages of authentication. 
-For example, OpenID authentication involves the handling of subsequent 
-requests in the openid_process, openid_associate and openid_manage methods.
+- `User` controller: [lib/galaxy/webapps/galaxy/controllers/user.py](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/webapps/galaxy/controllers/user.py#L35);
+- `OIDC` controller: [lib/galaxy/webapps/galaxy/controllers/authnz.py](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/webapps/galaxy/controllers/authnz.py#L17)
+
+
+The related **managers** are:
+
+- [UserManager](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/managers/users.py#L41);
+- [AuthManager](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/auth/__init__.py#L13) (relates to authentication agains local database, LDAP, and PAM);
+- [AuthnzManager](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/authnz/managers.py#L31) (relates to OIDC-based authentication). 
+
+And the primary related **models** are: 
+
+- [User](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/__init__.py#L294);
+- OIDC:
+    - [UserAuthnzToken](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/__init__.py#L5040);
 
 
 Database Tables
