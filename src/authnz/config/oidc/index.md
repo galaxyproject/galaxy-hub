@@ -3,6 +3,8 @@ title: User Authentication via OpenID Connect Protocol
 highlight: true
 ---
 
+_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/index.md) page._
+
 Leveraging the OpenID Connect (OIDC) protocol users can login to Galaxy using their social and institutional 
 identities (e.g., their Google account); as new users or associate multiple identities with an existing 
 Galaxy user account.
