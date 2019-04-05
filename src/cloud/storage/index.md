@@ -1,5 +1,6 @@
 ---
-title: "Cloud Storage API"
+title: Cloud Storage API
+highlight: true
 ---
 
 Galaxy allows a user to `get` /`send` data from/to a cloud-based storage, a functionality that is exposed via 
