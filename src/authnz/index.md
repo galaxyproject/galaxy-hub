@@ -23,18 +23,21 @@ are required to have a user account on Galaxy.
 
 For user's convenience, Galaxy offers a wide-variety of methods to create a user account, listed as it follows:
  
-- **Galaxy Username and Password:** This is a built-in mechanism for creating user accounts via 
+- **[Galaxy Username and Password](/src/authnz/use/gxyusername/index.md):** 
+This is a built-in mechanism for creating user accounts via 
 username and password. Without any additional configuration, Galaxy use its database to 
 maintain usernames and passwords, and stores passwords encrypted using 
 [Password-Based Key Derivation Function 2 (PBKDF2)](https://en.wikipedia.org/wiki/PBKDF2) algorithm.
 
 
-- **Plugin-driven authentication:** This framework allows an instance of Galaxy to 
+- **Plugin-driven authentication:** 
+This framework allows an instance of Galaxy to 
 delegate authentication to an [Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 server, or to [Pluggable Authentication Module (PAM)](https://en.wikipedia.org/wiki/Pluggable_authentication_module).
 
 
-- **External User Authentication:** If Galaxy is deployed with either [NGINX](https://www.nginx.com) or 
+- **External User Authentication:** 
+If Galaxy is deployed with either [NGINX](https://www.nginx.com) or 
 [Apache](https://httpd.apache.org) serving as a front-end proxy for Galaxy requests, they can be configured 
 to authenticate users and pass this authentication information along to Galaxy using the HTTP remote user mechanism. 
 Thus, by the time Galaxy is aware of a request, the user identity will have been determined and there will be no 
@@ -45,7 +48,8 @@ user is “external” and also creating a random password in order to effective
 logins for the user. 
 
 
-- **[OpenID Connect (OIDC)](https://en.wikipedia.org/wiki/OpenID_Connect):** Leveraging the OIDC protocol, 
+- **[OpenID Connect (OIDC)](/src/authnz/use/oidc/index.md):** 
+Leveraging the [OIDC protocol](https://en.wikipedia.org/wiki/OpenID_Connect), 
 we enable login to Galaxy without explicitly creating a Galaxy user account. This protocol is the current latest 
 industry-level standard for user authentication, and has been widely adopted by various platforms.
 
