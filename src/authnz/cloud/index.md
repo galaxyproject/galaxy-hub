@@ -23,4 +23,6 @@ To use this method a user needs to take the following steps:
 	1. read [how to setup cloud authorization for AWS](/src/authnz/cloud/aws/index.md);
 	1. read [how to setup cloud authorization for Azure](/src/authnz/cloud/azure/index.md).
 
-
+	
+**Related publications:**
+- Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.
