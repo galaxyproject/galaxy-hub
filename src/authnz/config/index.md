@@ -33,22 +33,28 @@ And the primary related **models** are:
     - [UserAuthnzToken](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/__init__.py#L5040);
 
 
-Database Tables
----
+# Database Tables
 
-The database employs a galaxy_user table which records the details of all 
-registered users, and this table is exposed to the code through the User 
-abstraction found in lib/galaxy/model/mapping.py. Each logged-in user is 
-assigned a session which references the user in the galaxy_session table 
-(exposed via GalaxySession).
+The database employs a [galaxy_user](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L58-L73)
+table which records the details of all registered users, and this table 
+is exposed to the code through the [User](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/__init__.py#L294) 
+abstraction found in [lib/galaxy/model/mapping.py](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L1796-L1830). 
+Each logged-in user is assigned a session which references the user 
+in the galaxy_session table (exposed via GalaxySession).
 
-User information from external sources, such as OpenID, is found in 
-peripheral tables such as galaxy_user_openid (exposed by UserOpenID) 
-and references the registered user and session of that user.
+User information from external sources, such as OIDC, is found in 
+peripheral tables such as:
+
+- Tokens are stored in [UserAuthnzToken](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L124-L132) table;
+- implementation-specific (transient) information are stored in peripheral tables such as: 
+[PSAAssociation](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L93-L101), 
+[PSACode](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L103-L107),
+[PSANonce](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L109-L114), and 
+[PSAPartial](https://github.com/galaxyproject/galaxy/blob/95d9bfb021bd088cd4adfb950e87a2c6deb6a8ec/lib/galaxy/model/mapping.py#L116-L122).
 
 
-Authenticating a User
----
+
+# Authenticating a User
 
 The following steps are followed in any code that seeks to recognise a 
 user within Galaxy and allow access to the application:
