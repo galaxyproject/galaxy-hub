@@ -24,7 +24,7 @@ The OIDC-based login is disabled by default, and to enable it take the following
 2. Open the `/config/galaxy.yml` file, and uncomment `enable_oidc`, `oidc_config_file`, and `oidc_backends_config_file` 
 attributes and set them as the following:
 
-    ```yaml
+    ```
     # Enables and disables OpenID Connect (OIDC) support.
     enable_oidc: true
     
