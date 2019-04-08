@@ -17,41 +17,38 @@ Galaxy [supports anonymous users](https://github.com/galaxyproject/galaxy/blob/d
 hence enabling researchers to use Galaxy without needing to create a user account. For instance, anyone can use
 [Galaxy **Main**](https://usegalaxy.org) without having to create a user account. Despite of its convenience, 
 anonymous users can only benefit from a subset of Galaxy's features. For instance, they cannot save their 
-[histories](/src/tutorials/histories/index.md). Therefore, to fully appreciate Galaxy's features, researchers 
-are required to have a user account on Galaxy.
+[histories](/src/tutorials/histories/index.md), workflows, or visualization. Therefore, to fully appreciate Galaxy's features, researchers are required to have a user account on Galaxy.
 
 
-For user's convenience, Galaxy offers a wide-variety of methods to create a user account, listed as it follows:
+For user's convenience, Galaxy offers a wide-variety of methods to create a user account:
  
 - **[Galaxy Username and Password](/src/authnz/use/gxy/index.md):** 
-This is a built-in mechanism for creating user accounts via 
-username and password. Without any additional configuration, Galaxy use its database to 
+This has a built-in mechanism for creating user accounts via a local
+username and password. Without any additional configuration, Galaxy uses its database to 
 maintain usernames and passwords, and stores passwords encrypted using 
 [Password-Based Key Derivation Function 2 (PBKDF2)](https://en.wikipedia.org/wiki/PBKDF2) algorithm.
 
 
-- **Plugin-driven authentication:** 
-This framework allows an instance of Galaxy to 
-delegate authentication to an [Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-server, or to [Pluggable Authentication Module (PAM)](https://en.wikipedia.org/wiki/Pluggable_authentication_module).
-
-
-- **External User Authentication:** 
-If Galaxy is deployed with either [NGINX](https://www.nginx.com) or 
-[Apache](https://httpd.apache.org) serving as a front-end proxy for Galaxy requests, they can be configured 
-to authenticate users and pass this authentication information along to Galaxy using the HTTP remote user mechanism. 
-Thus, by the time Galaxy is aware of a request, the user identity will have been determined and there will be no 
-need for Galaxy to do any additional authentication work, such as showing a login screen or checking user credentials.
-However, accepting an identity asserted by the Web server does not relieve Galaxy from having to create a user account 
-for such an identity. Thus, Galaxy automatically creates a user for each identity of this kind, recording that the 
-user is “external” and also creating a random password in order to effectively disable traditionally performed 
-logins for the user. 
-
-
 - **[OpenID Connect (OIDC)](/src/authnz/use/oidc/index.md):** 
 Leveraging the [OIDC protocol](https://en.wikipedia.org/wiki/OpenID_Connect), 
-we enable login to Galaxy without explicitly creating a Galaxy user account. This protocol is the current latest 
-industry-level standard for user authentication, and has been widely adopted by various platforms.
+login to Galaxy is enabled without explicitly creating a local Galaxy user account. This protocol is the current latest 
+industry-level standard for user authentication, and has been widely adopted by various platforms. This mechanism
+can be used in combination with the Galaxy username and password option.
+
+
+- **[External authentication](/src/admin/config/external-user-auth/index.md):** 
+This framework allows an instance of Galaxy to 
+delegate authentication to an external authentication system such as 
+[Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+server, [Pluggable Authentication Module (PAM)](https://en.wikipedia.org/wiki/Pluggable_authentication_module),
+or an upstream proxy server (e.g., [NGINX](https://www.nginx.com) or [Apache](https://httpd.apache.org)).
+These systems are aconfigured to authenticate users and pass this authentication information along to Galaxy using 
+the HTTP remote user mechanism. Thus, by the time Galaxy is aware of a request, the user identity will have 
+been determined and there will be no need for Galaxy to do any additional authentication work, such as 
+showing a login screen or checking user credentials. However, accepting an identity asserted by the Web server 
+does not relieve Galaxy from having to create a user account for such an identity. Thus, Galaxy automatically 
+creates a user for each identity of this kind, recording that the user is “external” and also creating 
+a random password in order to effectively disable traditionally performed logins for the user. 
 
 
 Depending on your role/interests, please refer to the following pages for more details:
