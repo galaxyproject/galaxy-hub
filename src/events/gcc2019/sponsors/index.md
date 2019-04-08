@@ -60,8 +60,12 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 
 ## Silver Sponsorships
 
-<br />
-[<img style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+<div class="center">
+[<img style="max-height: 9em; padding: 1em  2em 1em 0em;" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+[<img style="max-height: 10.5em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+</div>
+
+
 
 <br/><br />
 
@@ -83,7 +87,6 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
 
 ## Other Sponsorships
 
-<div class="center">
 <table>
   <tr style="text-align: center">
     <td style="vertical-align: middle;">
@@ -101,7 +104,6 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
     <td>**[Childcare](/src/events/gcc2019/childcare/index.md)** Sponsor</td>
   </tr>
 </table>
-</div>
 
 <br />
 

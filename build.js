@@ -14,6 +14,8 @@ const _ = require("lodash");
 const timer = require("metalsmith-timer");
 const marked = require("marked");
 
+let argv = require("minimist")(process.argv.slice(2));
+
 /* PULLED FROM MARKED */
 
 // Remove trailing 'c's. Equivalent to str.replace(/c*$/, '').
@@ -140,6 +142,7 @@ function getMarkedWithRenderer(stuff) {
 global.marked = getMarkedWithRenderer;
 global.moment = moment;
 global._ = _;
+global.localdev = argv.serve !== undefined;
 
 process.env.DEBUG = "metalsmith-timer";
 
@@ -380,15 +383,13 @@ let ms = metalsmith(__dirname)
             pattern: "**/*.html",
             engineOptions: {
                 cache: true,
-                globals: ["moment", "marked", "_"]
+                globals: ["moment", "marked", "_", "localdev"]
             }
         })
     )
     .use(timer("metalsmith-layouts"))
     .use(file_staging)
     .use(timer("file staging"));
-
-let argv = require("minimist")(process.argv.slice(2));
 
 if (argv.serve) {
     ms.use(require("metalsmith-serve")({ port: 8080 }));
