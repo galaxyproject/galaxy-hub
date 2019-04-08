@@ -15,12 +15,11 @@ The configuration is a two-step process, first an admin defines a Galaxy instanc
 ## Configure the instance on an IdP
 At the moment, we support login to Galaxy using identities defined on Google (and we’ll extend this list by supporting more trusted identity providers). Hence, to configure your instance on Google take the following steps: 
 
-1. Go to [Google+ API](https://console.developers.google.com/apis/api/plus/overview) page, and enabled it;
-2. Go to [Google developers console](https://console.developers.google.com/);
-3. Go to _Credentials_ section (see the following image);
+1. Go to [Google+ API](https://console.developers.google.com/apis/library/plus.googleapis.com) page, and enabled it;
+2. Go to _Credentials_ section on the [Google developers console](https://console.developers.google.com/apis/credentials) (see the following image);
 ![image](/src/admin/authentication/gdc_credentials.png)
 
-4. Create a _Project_:
+3. Create a _Project_:
     1. If this is your first time visiting this page, you’ll see a prompt to create a new project (see the above figure). Click on the _Create_ button to create a project. If you have previously used this page, to create a new project, click on the drop down with your previous project name, and hit _+_ (create project). See the following figure. 
     
     ![image](/src/admin/authentication/gdc_previous_project.png)
@@ -33,7 +32,7 @@ At the moment, we support login to Galaxy using identities defined on Google (an
     
     ![image](/src/admin/authentication/gdc_consent.png)
 
-5. Hit _Create credentials_ button in credentials tab, and choose _OAuth client ID_ from the popped-up window.
+4. Click the _Create credentials_ button in credentials tab, and choose _OAuth client ID_ from the popped-up window.
     1. Choose web application from the list and provide a name (e.g., _Web client 1_). See the the following figure. 
     
     ![image](/src/admin/authentication/gdc_create_credentials.png)
@@ -70,11 +69,10 @@ Take the following steps to configure your Galaxy instance to leverage the OIDC 
        
 2. Create `config/oidc_config.xml` file (you may use the `config/oidc_config.xml.sample` file as reference). For common application scenarios, the default settings as are in the sample file should be adequate.
 
-3. Create `config/oidc_backends_config.xml` file (you may use the `config/oidc_backends_config.xml.sample` file as reference), and update the file as it follows: 
+3. Create `config/oidc_backends_config.xml` file (you may use the `config/oidc_backends_config.xml.sample` file as reference), and update the file as follows: 
     1. Make sure the the provider name is `Google` (i.e., `<provider name="Google">`);
     2. Set the value of `client_id` and `client_secret` to the ID and secret obtained from Google in the previous step (i.e., step: `4.iii`);
     3. Set `redirect_uri` to the URI provided to Google (e.g., `http://localhost:8080/authnz/google/callback`). 
   
 
 Restart the Galaxy instance and enjoy the simplified login!
-
