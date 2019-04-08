@@ -19,11 +19,10 @@ Take the following steps in order to register your Galaxy instance as an OIDC RP
 on Google's OAuth2.0 authorization server:
 
 1. Go to [Google+ API](https://console.developers.google.com/apis/api/plus/overview) page, and enabled it;
-2. Go to [Google developers console](https://console.developers.google.com/);
-3. Go to _Credentials_ section (see the following image);
+2. Go to _Credentials_ section on the [Google developers console](https://console.developers.google.com/apis/credentials) (see the following image);
 ![image](/src/authnz/config/oidc/idps/google/gdc_credentials.png)
 
-4. Create a _Project_:
+3. Create a _Project_:
     1. If this is your first time visiting this page, you’ll see a prompt to 
     create a new project (see the above figure). Click on the _Create_ button 
     to create a project. If you have previously used this page, to create a 
@@ -41,7 +40,7 @@ on Google's OAuth2.0 authorization server:
     
     ![image](/src/authnz/config/oidc/idps/google/gdc_consent.png)
 
-5. Hit _Create credentials_ button in credentials tab, and choose 
+4. Hit _Create credentials_ button in credentials tab, and choose 
 _OAuth client ID_ from the popped-up window.
 
     1. Choose web application from the list and provide a name (e.g., _Web client 1_). 
