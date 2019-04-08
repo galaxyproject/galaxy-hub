@@ -889,11 +889,10 @@ Note that you should use the authenticated github URL (ie,
 `git@github.com:galaxyproject/galaxy-hub.git`) because otherwise you may get
 _API rate limit exceeded_ error.
 
-An example clone command, using lfs optimizations and the authenticated URL
-would be:
+An example clone command, using the authenticated URL would be:
 
 ```
-git lfs clone git@github.com:galaxyproject/galaxy-hub.git
+git clone git@github.com:galaxyproject/galaxy-hub.git
 ```
 
 The only other dependency you should need is [node.js](https://nodejs.org/en/).
