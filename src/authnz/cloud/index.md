@@ -1,5 +1,6 @@
 ---
-title:  "Securely Authorize Galaxy to Access Protected Data on Cloud"
+title:  Securely Authorize Galaxy to Access Protected Data on Cloud
+highlight: true
 ---
 
 On this page we explain a method that enables a user to securely authorize Galaxy to access their privately 
@@ -17,9 +18,11 @@ independent from any other service and the user themself.
 
 To use this method a user needs to take the following steps: 
 
-1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/src/admin/authentication/index.md) for details;
+1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/src/authnz/config/oidc/index.md) for details;
 2. Setup a provider-specific _cloud authorization_ in Galaxy:
-	1. read [how to setup cloud authorization for AWS](/src/cloud/authnz/aws/index.md);
-	1. read [how to setup cloud authorization for Azure](/src/cloud/authnz/azure/index.md).
+	1. read [how to setup cloud authorization for AWS](/src/authnz/cloud/aws/index.md);
+	1. read [how to setup cloud authorization for Azure](/src/authnz/cloud/azure/index.md).
 
-
+	
+**Related publications:**
+- Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.

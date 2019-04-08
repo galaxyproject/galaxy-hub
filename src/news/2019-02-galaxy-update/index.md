@@ -331,7 +331,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub
 
-* [Configure Cloud Authorizatoin for Azure](/src/cloud/authnz/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Configure Cloud Authorizatoin for Azure](/src/authnz/cloud/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 
 ---

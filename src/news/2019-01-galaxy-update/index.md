@@ -340,7 +340,7 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 ## Hub
 
 * [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/cloud/authnz/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/authnz/cloud/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
 
 ## Other Training Materials and Doc
 
