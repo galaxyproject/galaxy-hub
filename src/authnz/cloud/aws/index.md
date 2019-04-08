@@ -1,5 +1,6 @@
 ---
-title: "Configure Cloud Authorizatoin for AWS"
+title: Configure Cloud Authorizatoin for AWS
+highlight: true
 ---
 
 On this page we explain how to setup a *role* on AWS, and how to setup Galaxy to assume that *role*. 
@@ -10,24 +11,24 @@ On this page we explain how to setup a *role* on AWS, and how to setup Galaxy to
 2. If not on IAM page, click on `Services` button and type `IAM` in the search textbox, and choose the shown
 option (see the following figure).
 
-  ![image](/src/cloud/authnz/aws/aws_01.png)
+  ![image](/src/authnz/cloud/aws/aws_01.png)
 
 3. On the AWS IAM page, goto `Roles` tab and hit `Creat role` button (see the following figure).
 
-  ![image](/src/cloud/authnz/aws/aws_02.png)
+  ![image](/src/authnz/cloud/aws/aws_02.png)
 
 4. Then click on the `Web identity` button, and then choose `Google` from the dropdown of the 
 `Identity provider`, then enter `Audience` (the `client id` as issued by Google when registering 
-the Galaxy instance; see [this page](/src/admin/authentication/config/index.md)), and then click on 
+the Galaxy instance; see [this page](/src/authnz/config/oidc/idps/google/index.md)), and then click on 
 the `Next: Permissions` button (see the following figure).
 
-  ![image](/src/cloud/authnz/aws/aws_03.png)
+  ![image](/src/authnz/cloud/aws/aws_03.png)
 
 5. Type `s3` in the `Filter policies` search textbox, and choose `AmazonS3FullAccess`, then 
 click on `Next: Tags` button. (see the following figure). Alternatively, you can click on the 
 `Create policy` button and define a custom policy for Galaxy.
 
-  ![image](/src/cloud/authnz/aws/aws_04.png)
+  ![image](/src/authnz/cloud/aws/aws_04.png)
 
 6. You may optionally add descriptive tags, then click on the `Next: Review` button.
 7. On the review page, enter a name for the role on the `Role name` textbox, then
@@ -42,7 +43,7 @@ click on the `Create role` button.
 To setup Galaxy to use a role, you need to `POST` a payload as the following to 
 `/api/cloud/authz` API of Galaxy: 
 
-```
+```json
 {
     "authn_id": "...",
     "provider": "aws",
@@ -55,8 +56,9 @@ To setup Galaxy to use a role, you need to `POST` a payload as the following to
 
 You can obtain `authn_id` by submitting a `GET` request to the `/api/authnz/` API. 
 
-
-> **NOTE** that the `provider` of authentication referred to by the `authn_id` you choose, must be 
-Google (or any provider you chose when creating AWS role) and the audience ID of Galaxy instance 
-on which you are using this feature, must equal with audience you entered when creating the role.
+<div class="alert alert-info" role="alert">
+    **NOTE** that the "provider" of authentication referred to by the "authn_id" you choose, must be 
+    Google (or any provider you chose when creating AWS role) and the audience ID of Galaxy instance 
+    on which you are using this feature, must equal with audience you entered when creating the role.
+</div.
 

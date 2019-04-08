@@ -388,4 +388,4 @@ There were many...
 # Other News
 
 * [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
-* New accounts on [Main](/src/main/index.md) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/admin/user-accounts/index.md) page.
+* New accounts on [Main](/src/main/index.md) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/authnz/config/gxy/index.md) page.

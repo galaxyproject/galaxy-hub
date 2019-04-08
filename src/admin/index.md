@@ -36,7 +36,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 
 ## Users
 
-* [User Accounts](/src/admin/user-accounts/index.md)
+* [User Accounts](/src/authnz/config/gxy/index.md)
 * [Disk Accounting and Quotas](/src/admin/disk-quotas/index.md)
 * [Usage Reports](/src/admin/usage-reports/index.md)
 
