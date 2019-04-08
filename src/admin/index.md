@@ -18,27 +18,27 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 ## Deploying
 
 * [Install own Galaxy](/src/admin/get-galaxy/index.md)
-* [Install on the Cloud Infrastructure](/src/cloudman/index.md)
+* [Run on the Cloud Infrastructure](/src/cloudman/index.md)
 * [Maintaining an Instance](/src/admin/maintenance/index.md)
 
 ## Configuration
 
-* [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
+* [Authentication and Authorization](/src/authnz/index.md)
+* [Production Configuration](/src/admin/config/index.md)
+* [Installing Tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
-* [Subtopics in Configuration](/src/admin/config/index.md)
-* [Local reference data](/src/admin/data-integration/index.md)
+* [Local Reference Data](/src/admin/data-integration/index.md)
 * [Data Libraries](/src/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
-* [Purge Histories and Datasets](/src/admin/config/performance/purge-histories-and-datasets/index.md)
 * [Interactive Environments (IE)](/src/admin/gies/index.md)
 
 
 ## Users
 
-* [User Accounts](/src/authnz/config/gxy/index.md)
 * [Disk Accounting and Quotas](/src/admin/disk-quotas/index.md)
 * [Usage Reports](/src/admin/usage-reports/index.md)
+* [Purge Histories and Datasets](/src/admin/config/performance/purge-histories-and-datasets/index.md)
 
 
 ## Learning Resources
