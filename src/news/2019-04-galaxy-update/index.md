@@ -1,35 +1,36 @@
 ---
 title: 'April 2019 Galactic News'
 tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: ""
+date: "2019-04-03"
 ---
 
-[<img class="float-right" src="/src/news/2019-04-galaxy-update/2019-04-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-The *April  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
+The *April 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration)**
-    * **[ELIXIR Galaxy Community Workshop](/src/news/2019-04-galaxy-update/index.md#elixir-galaxy-community-workshop)** 23 - 26 April in Roscoff, France!
-* [XXX new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
+    * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
+* [120 new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
-* Galactic Blog!
-* At least [XX Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* A new entry to [The Galactic Blog](/src/news/2019-04-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
+* At least [9 Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
 * [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
-* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md##cloudbridge-2.0-release).
-* [Galaxy Status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is alive! 
+* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md#releases).
+* [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is live! 
 * And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
-# GCC2019 Registration
+# GCC2019 Registration & Abstract Submission
 
 **We are pleased to announce that [registration](/src/events/gcc2019/registration/index.md) and [abstract submission](/src/events/gcc2019/abstracts/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) are now open.**
 
-GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](https://galaxyproject.org/events/gcc2019/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
+[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+
+GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
 * some training will be integrated with the main conference,
 * three days of conference instead of two,
@@ -40,16 +41,24 @@ GCC2019, like every GCC before it, will be built around **community**.  Training
 
 If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
-Please find additional information on GCC2019 [here](https://galaxyproject.org/events/gcc2019/).
+Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
 
+# GCC2019 Sponsors
 
-# Elixir Galaxy Community Workshop 
+We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](/src/events/gcc2019/sponsors/index.md).
 
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+## Limagrain
 
-Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTN materials. 
+[<img class="float-left img-fluid mx-auto" style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
 
-During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
+As the fourth largest seed company worldwide, **[Limagrain](https://www.limagrain.com/en/)**’s mission is to move agriculture forward to meet global food related challenges. Limagrain is a cooperative group founded and managed by French farmers. Its parent company, Coopérative Limagrain, brings together nearly 2,000 farmers located in the center of France, in the Limagne Val d'Allier plain. The Group creates, produces and distributes field seeds, vegetable seeds and cereal products. Limagrain is present in 56 countries and has more than 10,000 employees. It makes nearly 2.5 billion Euros of sales with recognized brands on their markets: LG, Vilmorin, Hazera, Harris Moran, Jacquet, Brossard.
+
+After participating for several years, Limagrain has the pleasure to help out with the Galaxy Community Conference organization for the first time ever. With over 200 Limagrain users worldwide and hundreds of tools dedicated to agronomic research, Galaxy has become central to Bioinformatics and Bioanalysis platforms of Limagrain research activities. By leveraging access to sequencing data of the plant species and by  gathering tools and workflows tailored towards breeding, Galaxy is key to Limagrain competitiveness.
+
+## Your Organization/Vendor Here!
+
+[GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
+
 
 
 # Upcoming events
@@ -178,21 +187,22 @@ Three of the four highlighted publications are open access.
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
+[<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
+
+## GraphClust
+
+The [GraphClust2 server](/src/use/graphclust/index.md) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
+
+## Language Analysis Portal
+
+The [language analysis portal (LAP)](/src/use/lap/index.md) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
+
 ## CAFU
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/src/use/cafu/index.md)
 
 [CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
-## Language Analysis Portal
-
-The [language analysis portal (LAP)](https://galaxyproject.org/use/lap/) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
-
-## GraphClust
-
-[<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
-
-The [GraphClust2 server](https://galaxyproject.org/use/graphclust/) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
 
 ## Galaxy Platforms in Publications
 
@@ -213,8 +223,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-Comming on 02APR19
-
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](/src/blog/2019-04-gcc2019/index.md).
 
 ----
 
@@ -224,6 +233,8 @@ Comming on 02APR19
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
+* [Biostatistician](https://staff-emory.icims.com/jobs/34339/biostatistician/job?codes=IND&mobile=false&width=669&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Emory University, Atlanta, Georgia, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
@@ -232,7 +243,7 @@ The *dark energy* of irreproducible research is threatening the science universe
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
+  * Software engineer, system analysts/administrators, data analyst, and a comnunity and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
@@ -240,17 +251,16 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in March, and the Hub as well:
+Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in March:
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Group tags for complex experimental designs](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial.html) mini-tutorial by [Marius van den Beek](https://github.com/mvdbeek).
-* New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Berenice Batut](https://github.com/bebatut).
+* New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Bérénice Batut](https://github.com/bebatut).
 * New [Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html) tutorial by [Wolfgang Maier](https://github.com/wm75).
 * New [Downstream single-cell RNA analysis with RaceID](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
-
 
 
 ---
@@ -270,11 +280,11 @@ New additions to the Galaxy Ecosystem.
 
 [CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, OpenStack, and now Goodle cloud. This release is further characterized by improved code consistency.
 
-Please see the [release notes](https://galaxyproject.org/news/2019-03-cloudbridge-v2/) for additional information. 
+Please see the [release notes](/src/news/2019-03-cloudbridge-v2/index.md) for additional information. 
 
 ## Galaxy Status
 
-We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance.
+We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance. 
 
 ## galaxy-lib 19.5.1
 
@@ -284,5 +294,5 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 # Other News
 
-* **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](https://galaxyproject.org/news/2019-03-galaxy-carpentries/) for additional details. 
-* 
+* **Galaxy + Carperntries == _Gallantries!_**  A cross community training effort to combine the best of both worlds. See the [announcement](/src/news/2019-03-galaxy-carpentries/index.md) for additional details. 
+* [Biohackathon2019 Call for Hacking projects](https://biohackathon-europe.org/index.html#landing-processprop) is officially open. **Apply by 7 April.**
