@@ -74,6 +74,7 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](https://galaxyproject.eu/frei
 # Sponsors
 
 <div class="center">
+[<img style="max-height: 7em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
 [<img style="max-height: 8em; padding: 1em;" src="/src/images/logos/limagrain-logo-red.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
 [<img style="max-height: 7em; padding-right: 0.5em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
 [<img style="max-height: 8em" src="/src/images/logos/elife-logo-squarish.png" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)

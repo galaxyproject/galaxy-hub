@@ -61,11 +61,10 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</div>
 ## Silver Sponsorships
 
 <div class="center">
-[<img style="max-height: 9em; padding: 1em  2em 1em 0em;" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
-[<img style="max-height: 10.5em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+[<img style="max-height: 8em; padding: 1em  1em 1em 0em;" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+[<img style="max-height: 10em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+[<img style="max-height: 10.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
 </div>
-
-
 
 <br/><br />
 
@@ -148,6 +147,11 @@ Cost: €1500 <span class="small">(+VAT)</div>
 - Be one of only two Tera Sponsors
 
 ## Giga Sponsorships
+
+<div class="center">
+[<img style="max-height: 9.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
+</div>
+
 
 Cost: €500 <span class="small">(+VAT)</div>
 
