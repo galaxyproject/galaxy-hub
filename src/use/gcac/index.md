@@ -9,7 +9,7 @@ platforms:
   - platform_group: "vm"
     platform_url: "https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing"
     platform_text: "GCAC VM"
-summary: "GCAC is a web enabled paltform for predictive model building using R and caret package for virtual screening."
+summary: "GCAC is a web enabled platform for predictive model building using R and caret package for virtual screening."
 image: "/src/use/gcac/gcac-landing.png"
 comments:
   - "The GCAC is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrival of potential lead molecules."
