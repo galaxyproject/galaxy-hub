@@ -64,7 +64,7 @@ Anyone can update and add content to the site using "standard" GitHub and Git pr
 
 ## Where's the source for the web site content?
 
-The text that becomes the website at https://galaxyproject.org is in this GitHub repository (the repo you are looking at right now) under the [`/src` directory](/src).  
+The text that becomes the website at https://galaxyproject.org is in this GitHub repository (the repo you are looking at right now) under the [`/src` directory](/src).
 
 ## One web page ≈ One directory in GitHub
 
@@ -110,7 +110,7 @@ To edit an `index.md` file in GitHub, *click* the **pencil icon**. (The icon onl
 
 More on that in a bit.  Clicking the pencil icon takes you to a web form where you can edit the page text. The top of the edit page says:
 
-> You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request. 
+> You’re editing a file in a project you don’t have write access to. We’ve created a fork of this project for you to commit your proposed changes to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request.
 
 GitHub has now given you your own copy of the `galaxy-hub` repository *and you are now editing that copy under your account.*  Edit the text of the page in the web form.  There is a **Preview Changes** tab you can use to review your edits before you commit them.
 
@@ -346,7 +346,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
   - Short title for news item
 - Use
   - Becomes the news item page title
-  - Shown in news indexes / lists as the name of the news item. 
+  - Shown in news indexes / lists as the name of the news item.
 - Format
   - Free text all on one line.  Should be wrapped in quotes.
 
@@ -355,7 +355,7 @@ To add a news item, you'll need to create a directory for the item under `/src/n
 - Optional
 - Meaning
   - Short bit of additional text about the news item
-  - Meant to complement `title` 
+  - Meant to complement `title`
 - Use
   - display with the event title, when space allows.
 - Format
@@ -414,7 +414,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - Name of the event or presentation.
 - Use
   - Becomes the event page title
-  - Shown in the event list as the name of the event. 
+  - Shown in the event list as the name of the event.
 - Format
   - Free text all on one line, and should be wrapped in quotes
 
@@ -453,7 +453,7 @@ Thus you can control what links are used by setting or not setting `external_url
 - Format
   - `'YYYY-MM-DD'` - Needs to be wrapped in quotes.
 
-#### `days` 
+#### `days`
 
 - Optional
   - If not provided then event is assumed to be one day long.
@@ -503,7 +503,7 @@ Thus you can control what links are used by setting or not setting `external_url
   - An icon showing the continent is typically displayed with the event.
 - Format
   - Must be one of the following two letter values:
-    - `AF`, `AS`, `AU`, `EU`, `GL`, `NA`, `SA` 
+    - `AF`, `AS`, `AU`, `EU`, `GL`, `NA`, `SA`
     - `GL` stands for *global* and is typically used for online events.
 
 #### `image`
@@ -512,7 +512,7 @@ Thus you can control what links are used by setting or not setting `external_url
 - Meaning
   - image / logo for this event
 - Use
-  - Displayed on the event's hub page.  
+  - Displayed on the event's hub page.
   - Display this image anywhere that events are summarized and images are included.
 - Format
   - a URL, preferably an internal hub path, usually point into to the `/src/images/` directory.
@@ -543,8 +543,8 @@ Thus you can control what links are used by setting or not setting `external_url
 
 ```
 ---
-title: "RNA-Seq analysis using Galaxy" 
-tease: 
+title: "RNA-Seq analysis using Galaxy"
+tease:
 date: '2017-09-13'
 days: 2
 continent: AU
@@ -557,7 +557,7 @@ gtn: true
 ```
 
 
-### Blog metadata 
+### Blog metadata
 
 The Galactic Blog includes anything that is related to Galaxy and is longer than a news item.
 
@@ -588,7 +588,7 @@ Blog posts have this metadata:
   - Title of the blog post
 - Use
   - Becomes the blog page title
-  - Shown in the blog post list as the name of the entry. 
+  - Shown in the blog post list as the name of the entry.
 - Format
   - Free text all on one line, and should be wrapped in quotes
 
@@ -635,7 +635,7 @@ Blog posts have this metadata:
   - URL
     - Should be an external URL.
 
-#### `source_blog` 
+#### `source_blog`
 
 - Optional
   - Only present if the post is external
@@ -646,7 +646,7 @@ Blog posts have this metadata:
 - Format
   - Free text all on one line, and should be wrapped in quotes.
 
-#### `source_blog_url` 
+#### `source_blog_url`
 
 - Optional
   - Only present if the post is external
@@ -697,7 +697,7 @@ Resource entries have this metadata:
   - Name of the resource
 - Use
   - Becomes the resource page title
-  - Shown in the directory as the name of the resource. 
+  - Shown in the directory as the name of the resource.
 - Format
   - Free text all on one line, and should be wrapped in quotes
   - Short is good.
@@ -794,7 +794,7 @@ Each `platforms` array entry has 3 items in it.
     - an internal hub path is prefered, as those images don't disappear
   - Small images, around 300px wide or less work best.
 
-#### `user_support`, `quotas`, `citations` and `sponsors` 
+#### `user_support`, `quotas`, `citations` and `sponsors`
 
 - Optional
   - All are optional.
@@ -828,7 +828,7 @@ Each `platforms` array entry has 3 items in it.
 title: "A-Game"
 url: "http://beaconlab.it/agame"
 scope: "domain"
-platforms: 
+platforms:
   - platform_group: "public-server"
     platform_url: "http://beaconlab.it/agame"
     platform_text: "A-Game server"
@@ -900,7 +900,7 @@ Most modern versions should work fine, but follow the instructions [on
 nodejs.org](https://nodejs.org) if you would like to update.
 
 
-## Generate  local website
+## Generate local website
 
 Direct your terminal to the newly cloned `galaxy-hub` directory
 
@@ -997,12 +997,12 @@ The slide carousel on the hub landing page is populated from the `/src/splash/` 
 
 **To add a slide**, add a directory to `/src/splash/` and add an `index.md` file to the new directory.
 
-Every `index.md` starts with [page metadata](#page-metadata) containing `title` and `date` tags.  The `title` is displayed in large font at the top of the slide frame.  The date is used for .... 
+Every `index.md` starts with [page metadata](#page-metadata) containing `title` and `date` tags.  The `title` is displayed in large font at the top of the slide frame.  The date is used for ....
 
 After the metadata there is page content, which is sometimes text (in Markdown) and sometimes just an image that links somewhere.
 
 When creating a new slide, please test how it looks in as many browsers and window widths as possible.  The content has to fit in the `splash-box` `div` on the home page. `/src/css/styles.less` defines `splash-box`. The `splash-box`uses the Bootstrap [`@jumbotron`](http://bootstrapdocs.com/v3.3.4/docs/components/#jumbotron/) and [`carousel`](http://bootstrapdocs.com/v3.3.4/docs/javascript/#carousel) components.
 
-**To drop a slide**, use `git mv` to move the slide's directory from `/src/splash/` to `/src/splash-archive/`. 
+**To drop a slide**, use `git mv` to move the slide's directory from `/src/splash/` to `/src/splash-archive/`.
 
 The code that renders slides is in the `/layouts/homepage.pug` file.
