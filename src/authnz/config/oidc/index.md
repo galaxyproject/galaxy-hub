@@ -51,7 +51,7 @@ section on how to set each of these files.
 
 # Configure OIDC Backends
 
-The OIDC identity providers (IdPs) are configured in the `config/oidc_config.xml`, via a `provider` block per IdP.
+The OIDC identity providers (IdPs) are configured in the `config/oidc_backends_config.xml`, via a `provider` block per IdP.
 There could be multiple providers defined in this file, and each provider is configured with settings specific
 to that IdP. For instance, using the following configuration we define Google and Globus backends:
 
