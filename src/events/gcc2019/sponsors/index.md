@@ -78,6 +78,12 @@ Cost €2000 (€1500 for non-profit) <span class="small">(+VAT)</div>
 
 ## Bronze Sponsorships
 
+<div class="center">
+[<img style="max-height: 6.75em; padding: 1em;" src="/src/images/logos/GigaSCienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
+</div>
+
+<br/>
+
 Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</div>
 
 - Organization logo listed as a bronze sponsor on meeting home and sponsor pages, with link to URL of your choice
