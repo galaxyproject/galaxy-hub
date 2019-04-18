@@ -79,7 +79,7 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](https://galaxyproject.eu/frei
 [<img style="max-height: 7em; padding-right: 0.5em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
 [<img style="max-height: 8em" src="/src/images/logos/elife-logo-squarish.png" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
 [<img  style="padding: 1em; max-height: 7em;" src="/src/images/logos/f1000research-squarish.png" alt="F1000Research: Open for Science" />](https://f1000research.com/)
-[<img style="max-height: 5em; padding: 1em  1em 1em 0em;" src="/src/images/logos/GigaSCienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
+[<img style="max-height: 5em; padding: 1em  1em 1em 0em;" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
 </div>
 
 Please thank [our sponsors](/src/events/gcc2019/sponsors/index.md) for helping make GCC2019 a success:
