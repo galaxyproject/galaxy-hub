@@ -1,6 +1,6 @@
 ---
 title: "GCC2019 Talk Abstract Deadline Extended to 26 April"
-tease: "Easter, apparently is a big thing."
+tease: "Easter Holiday, Deadlines and GCC2019"
 date: ""
 ---
 
@@ -11,15 +11,15 @@ Hello all,
 When I picked Monday, 22 April, as the (original) deadline for GCC2019 oral presentation and lightning talk [abstracts](/src/events/gcc2019/abstracts/index.md) I had no idea
 
 * that 21 April was Easter, or
-* that Easter was a much bigger holiday outside the US, than inside the US.
+* that Easter weekend is a much bigger holiday outside the US, than inside the US.
 
-I am now keenly aware of both facts as we have heard from many folks that 22 April was quite possibly the worst possible date for this deadline.
+I am now keenly aware of that second fact as we have heard from many folks that 22 April was quite possibly the worst possible date for this deadline.
 
 **We are extending the deadline to [submit a talk abstract](/src/events/gcc2019/abstracts/index.md) to the end of this Friday, 26 April ([anywhere in the world](https://www.timeanddate.com/countdown/launch?iso=20190427T00&p0=3399&msg=GCC+Abstract+EXTENSION%21&font=cursive)).**
 
 Thanks,
 
-[Dave "Easter? What is Easter?" Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 ----
 
