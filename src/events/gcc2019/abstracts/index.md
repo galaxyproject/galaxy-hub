@@ -6,10 +6,10 @@ There are several options for presentations at GCC2019:
 
 * **Oral presentations**
   * 15 to 20 minutes long.
-  * Review starts on 22 April. Authors notified by 6 May
+  * **Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md).** Authors notified by 6 May
 * **Lightning talks**
-  * 5 to 10 minutes long 
-  * Review starts on 22 April. Authors notified by 6 May
+  * 5 to 7 minutes long 
+  * **Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md).** Authors notified by 6 May
 * **Poster presentations**
   * Presented during one of three hour-long poster/demo sessions.
   * Posters will remain up for the duration of the meeting.
