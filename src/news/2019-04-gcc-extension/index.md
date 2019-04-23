@@ -1,7 +1,7 @@
 ---
 title: "GCC2019 Talk Abstract Deadline Extended to 26 April"
 tease: "Easter Holiday, Deadlines and GCC2019"
-date: ""
+date: "2019-04-23"
 ---
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
@@ -17,7 +17,7 @@ I am now keenly aware of that second fact as we have heard from many folks that 
 
 **We are extending the deadline to [submit a talk abstract](/src/events/gcc2019/abstracts/index.md) to the end of this Friday, 26 April ([anywhere in the world](https://www.timeanddate.com/countdown/launch?iso=20190427T00&p0=3399&msg=GCC+Abstract+EXTENSION%21&font=cursive)).**
 
-Thanks,
+With apologies for the original date,
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
