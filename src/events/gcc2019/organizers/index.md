@@ -20,3 +20,29 @@ We can be reached at:
 * *[Mo Heydarian](/src/people/mo-heydarian/index.md)*, [Johns Hopkins University](https://jhu.edu/)
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
+
+
+# GCC2019 Scientific Program Committee
+
+* *[Matthias Bernt](https://www.ufz.de/index.php?en=43047)*, [Helmholtz Centre for Environmental Research – UFZ](https://www.ufz.de/)
+* *[Dan Blankenberg](/src/people/dan/index.md)*, [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/)
+* *[Gildas Le Corguillé](https://github.com/lecorguille)*, [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
+* *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Melanie Föll](https://github.com/foellmelanie)*, [University of Freiburg](https://www.uni-freiburg.de/) 
+* *[Anne Claire Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)*, [University of Oslo](https://www.uio.no/)
+* *[Jeremy Goecks](/src/people/jeremy-goecks/index.md)*, [Oregon Health & Science University](https://www.ohsu.edu/) 
+* *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](https://www.psu.edu/)
+* *[Saskia Hiltemann](https://github.com/shiltemann)*, [ErasmusMC](https://www.erasmusmc.nl/)
+* *[Pratik Jagtap](https://www.msi.umn.edu/group/mscls)*, [University of Minnesota](http://umn.edu/)
+* *[Yvan Le Bras](http://cesco.mnhn.fr/fr/annuaire/yvan-le-bras-6200)*, [Muséum national d’histoire naturelle](https://www.mnhn.fr/)
+* *[Thomas Manke](https://www.ie-freiburg.mpg.de/bioinformaticsfac)*,  [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
+* *[Pablo Moreno](https://www.ebi.ac.uk/about/people/pablo-moreno)*, [EMBL-EBI](https://www.ebi.ac.uk/)
+* *[Anton Nekrutenko](/src/people/anton/index.md)*, [Penn State University](https://www.psu.edu/)
+* *[Krzysztof Poterlowicz](https://www.bradford.ac.uk/life-sciences/chemistry-and-biosciences/our-staff/dr-krzysztof-poterlowicz.php)*, [University of Bradford](https://bradford.ac.uk/external/)
+* *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
+* *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
+* *[Beata Scholz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
+* *[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)*, [Earlham Institute](http://www.earlham.ac.uk/)
+* *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Brmingham](https://www.birmingham.ac.uk/) 
+
+The SPC can be reached at GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;
