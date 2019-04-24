@@ -5,7 +5,7 @@ scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.compbio.cs.cmu.edu:8080"
-    platform_text: "CellOrganier Galaxy"
+    platform_text: "CellOrganizer Galaxy"
 summary: '"Create generative models of the spatial organization of cells from microscope images and automatically provide geometries for spatial simulations of cell processes and behaviors"'
 image: "/src/use/cell-organizer/cell-organizer-logo2-250.jpg"
 comments:
