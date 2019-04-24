@@ -67,6 +67,7 @@ Please see the [instructions for contributing](/src/publication-library/contribu
 * [1000th Galaxy CiteULike Paper](/src/news/galaxy-cite-u-like-paper1000/index.md), June 6, 2013
 * [2500 Galaxy Papers & Counting](/src/news/first2500-papers/index.md), August 12, 2015
 * [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), October 16, 2017
+* [7,500 pubs in library](https://twitter.com/tnabtaf/status/1121086728293343232), April 23, 2019
 
 ## CiteULike
 
