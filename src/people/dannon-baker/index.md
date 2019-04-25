@@ -13,6 +13,10 @@ Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Joh
     <td> <a href="mailto:dannon.baker AT gmail DOT com">dannon.baker AT gmail DOT com</a> </td>
   </tr>
   <tr>
+    <th> Gitter </th>
+    <td> https://gitter.im/dannon </td>
+  </tr>
+  <tr>
     <th> IRC </th>
     <td> irc.freenode.net : dannon </td>
   </tr>
