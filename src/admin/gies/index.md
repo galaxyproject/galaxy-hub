@@ -14,7 +14,7 @@ There are currently nine IEs built into Galaxy, including:
 * [RStudio](https://github.com/erasche/galaxy-rstudio/)
 
 
-## Setup IEs on your server
+## Set up IEs on your server
 
 See the [comprehensive admin
 documentation](https://docs.galaxyproject.org/en/master/admin/special_topics/interactive_environments.html)
