@@ -1,5 +1,5 @@
 ---
-title: User Authentication via OpenID Connect Protocol
+title: User Authentication via 3rd Party Identity
 highlight: true
 ---
 
@@ -14,13 +14,14 @@ Galaxy user account with external identities.
 - Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.
 
 
-# Supported OIDC IdPs
+# Supported Identity Providers
 
 Before using OIDC-based login, it is necessary for a Galaxy system administrator
 to configure their Galaxy instance as well as obtain the necessary registrations
-from the Identity Providers (IdP). Galaxy currently supports the following OIDC
-IdPs:
+from the Identity Providers (IdP).The IdP needs to support the OIDC protocol and
+Galaxy currently supports the following OIDC IdPs:
 
+- Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
 - Google: [how to configure Google](/src/authnz/config/oidc/idps/google/index.md)
 - Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
 
@@ -28,8 +29,8 @@ IdPs:
 
 The OIDC-based login is disabled by default, and to enable it take the following steps:
 
-1. In your Galaxy instance directory, goto the `/config` folder and create a copy of `galaxy.yml.sample` and name it
-`galaxy.yml`; if you have not done that yet.
+1. In your Galaxy instance directory, go to the `/config` folder and create a copy
+of `galaxy.yml.sample` and name it `galaxy.yml`; if you have not done that yet.
 
 2. Open the `/config/galaxy.yml` file, and uncomment `enable_oidc`, `oidc_config_file`, and `oidc_backends_config_file`
 attributes and set them as the following:
@@ -51,13 +52,20 @@ section on how to set each of these files.
 
 # Configure OIDC Backends
 
-The OIDC identity providers (IdPs) are configured in the `config/oidc_backends_config.xml`, via a `provider` block per IdP.
+The OIDC IdPs are configured in the `config/oidc_backends_config.xml`, via a `provider` block per IdP.
 There could be multiple providers defined in this file, and each provider is configured with settings specific
-to that IdP. For instance, using the following configuration we define Google and Globus backends:
+to that IdP. The following default configurations currently exist:
 
 ```xml
 <?xml version="1.0"?>
 <OIDC>
+    <provider name="Custos">
+        <url> ... </url>
+        <client_id> ... </client_id>
+        <client_secret> ... </client_secret>
+        <redirect_uri>http://localhost:8000/authnz/custos/callback</redirect_uri>
+        <realm> ... </realm>
+    </provider>
     <provider name="Google">
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
