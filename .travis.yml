@@ -1,10 +1,12 @@
 sudo: required
 language: node_js
-services:
-  - docker
 node_js:
   - "lts/*"
 git:
   lfs_skip_smudge: true
-script: make docker-build
-after_script: ls -lah build/
+before_script:
+    - yarn
+script:
+    - yarn run build
+after_script:
+    - ls -lah build/
