@@ -13,32 +13,15 @@ title: "Galaxy Interactive Environments (GIEs)"
 <br />
 These are revolutionary components of Galaxy allowing users to do interactive data processing from within Galaxy. IEs are built as standard Galaxy visualization plugins, however they launch Docker containers and use some additional routing information to connect end users through the Galaxy server, to the Docker images.
 
-There are currently two IEs built into Galaxy:
+There are currently nine IEs built into Galaxy, including:
 
 * [IPython](https://github.com/bgruening/galaxy-ipython/)
 * [RStudio](https://github.com/erasche/galaxy-rstudio/)
 
-And more on the way
 
-## Setup IE's on your server
+## Setup IEs on your server
 
-To enable IE's in your Galaxy instance you need to do the following:
-* Set interactive_environment_plugins_directory to `config/plugins/interactive_environments` in config/galaxy.ini
-* Copy `config/plugins/interactive_environments/ipython/config/ipython.ini.sample` over to `config/plugins/interactive_environments/ipython/config/ipython.ini`
-* Adjust the config file if needed, for example to set the docker command if Galaxy cannot run sudo-less docker with `docker` command.
-* Install the Galaxy IE proxy (you might need set this sym-link first:  *ln -s /usr/bin/nodejs /usr/bin/node* )
-
-```
-$ cd lib/galaxy/web/proxy/js
-$ npm install
-$ cd -
-```
-
-
-
-If your IE shows up, but you get an error like: "Could not connect to a galaxy instance. Please contact your sysadmin for help with this error", try the following: 
-* set 'host' to the IP address of your galaxy server in config/galaxy.ini (instead of 127.0.0.1)
-* set 'galaxy_url' to  <IP address>:8080 in the config file (i.e. ipython.ini)
+See the [comprehensive admin documentation](https://docs.galaxyproject.org/en/master/admin/special_topics/interactive_environments.html) to learn how to set up IEs on your own Galaxy.
 
 ## "Enterprise" Deployments
 
