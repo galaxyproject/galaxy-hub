@@ -13,7 +13,7 @@ This page emphasizes publications from the core Galaxy team.  However, the set o
 
 If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers, cloud sevices, VMs or containers](/src/use/index.md) (see each resource's page for citation info), or a local install?
 
-Some excellent exmples (*emphasis added*):
+Some excellent examples (*emphasis added*):
 
 * Used usegalaxy.org: from [Hoyt *et al.*](http://www.g3journal.org/content/7/9/2979):
 
