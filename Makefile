@@ -1,5 +1,6 @@
 DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/tmp/hub -w /tmp/hub
 DOCKER_NOUSER=docker run -v `pwd`:/tmp/hub -w /tmp/hub
+BUILD_IMAGE=node:lts-jessie
 
 node_modules: package.json
 	npm install
@@ -27,10 +28,10 @@ check: npm-deps ## Check for broken links
 	npm run check
 
 docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
-	$(DOCKER_NOUSER) node /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
+	$(DOCKER_NOUSER) $(BUILD_IMAGE) /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
 
 docker-build: docker-npm-deps ## [Docker] Single endpoint for docker install
-	$(DOCKER) node npm run build
+	$(DOCKER) $(BUILD_IMAGE) npm run build
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
 	$(DOCKER) dannon/gitlfs git lfs pull
