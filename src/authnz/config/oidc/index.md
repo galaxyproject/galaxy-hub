@@ -24,6 +24,7 @@ Galaxy currently supports the following OIDC IdPs:
 - Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
 - Google: [how to configure Google](/src/authnz/config/oidc/idps/google/index.md)
 - Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
+- Elixir AAI: [how to configure Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
 
 # Enable OIDC-based Login
 
@@ -76,6 +77,12 @@ to that IdP. The following default configurations currently exist:
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
         <redirect_uri>http://localhost:8080/authnz/globus/callback</redirect_uri>
+        <prompt>consent</prompt>
+    </provider>
+    <provider name="Elixir">
+        <client_id> ... </client_id>
+        <client_secret> ... </client_secret>
+        <redirect_uri>http://localhost:8080/authnz/elixir/callback</redirect_uri>
         <prompt>consent</prompt>
     </provider>
 </OIDC>

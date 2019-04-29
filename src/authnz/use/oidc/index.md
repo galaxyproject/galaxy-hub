@@ -25,5 +25,5 @@ different Galaxy instances can be different):
 - Custos: see [this page](/src/authnz/use/oidc/idps/custos/index.md) on how to use it
 - Google: see [this page](/src/authnz/use/oidc/idps/google/index.md) on how to use it
 - Globus: see [this page](/src/authnz/use/oidc/idps/globus/index.md) on how to use it
-
+- Elixi AII: see [this page](/src/authnz/use/oidc/idps/elixir-aai/index.md) on how to use it
 
