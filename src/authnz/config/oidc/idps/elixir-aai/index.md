@@ -45,12 +45,14 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
     g. Drop the following information by e-mail to aai-contact@elixir-europe.org: 
        - Name of your service
+
        - Description of your service
+
        - Your service’s Client_id
 
     h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recomment to only request openid and email scopes, as this is the minimum that is needed and will be utilized by Galaxy.
 
-    i. Return the prefilled form and when accepted, the Elixir AAI service is ready to receive autentication requests from your Galaxy server! Of course you also need to confiugure your Galaxy first, so read on!  
+    i. Return the prefilled form and when accepted, the Elixir AAI service is ready to receive autentication requests from your Galaxy server! Of course you also need to confiugure your Galaxy first, so read on under "Galaxy Configuration" below!  
 
    
 3. Step 3 - When you are ready for production deployment, you can promote your service from the test environment to the prod environment following the described administrative provedures in Step 3 of the  [Elixir AAI - Manual for Service Providers](https://docs.google.com/document/d/1ihb0hH2YJqSCPZS0syVpvAOeQP1HTxdf_XMsZZLe_W0/edit).
@@ -65,8 +67,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 You would need to setup you Galaxy instance to leverage OIDC protocol.
 This setup is common for all OIDC IdPs, and is
 [documented at this page](/src/authnz/config/oidc/index.md#configure-oidc-backends).
-Then you would need to add Elixir AAI-specific setters to the `config/oidc_backends_config.xml` file as the
-the following:
+Then you would need to add Elixir AAI-specific setters to the `config/oidc_backends_config.xml` matching the values you got from the client registration process, as well as the exact same redirect_uri you specified (depending on your setup):
 
 ```xml
 <?xml version="1.0"?>
@@ -74,7 +75,7 @@ the following:
     <provider name="Elixir">
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8080/authnz/elixir/callback</redirect_uri>
+        <redirect_uri>https://my-glx.ex/authnz/elixir/callback</redirect_uri>
         <prompt>consent</prompt>
     </provider>
 </OIDC>
