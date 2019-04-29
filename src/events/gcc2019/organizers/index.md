@@ -30,6 +30,7 @@ We can be reached at:
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Melanie Föll](https://github.com/foellmelanie)*, [University of Freiburg](https://www.uni-freiburg.de/) 
 * *[Anne Claire Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)*, [University of Oslo](https://www.uio.no/)
+* *[Carrie Ganote](https://www.researchgate.net/profile/Carrie_Ganote)*, [Indiana University](https://iu.edu/)
 * *[Jeremy Goecks](/src/people/jeremy-goecks/index.md)*, [Oregon Health & Science University](https://www.ohsu.edu/)
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](https://www.psu.edu/)
@@ -46,6 +47,6 @@ We can be reached at:
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
 * *[Beata Scholz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
 * *[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)*, [Earlham Institute](http://www.earlham.ac.uk/)
-* *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Brmingham](https://www.birmingham.ac.uk/) 
+* *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/) 
 
 The SPC can be reached at GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;
