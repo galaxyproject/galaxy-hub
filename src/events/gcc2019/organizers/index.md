@@ -34,6 +34,7 @@ We can be reached at:
 * *[Björn Grüning](/src/people/bjoern-gruening/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](https://www.psu.edu/)
 * *[Saskia Hiltemann](https://github.com/shiltemann)*, [ErasmusMC](https://www.erasmusmc.nl/)
+* *[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)*, [Friedrich Miescher Institute for Biomedical Research](https://fmi.ch/)
 * *[Nancy Ide](https://www.cs.vassar.edu/~ide/)*, [Vassar College](https://www.vassar.edu/)
 * *[Pratik Jagtap](https://www.msi.umn.edu/group/mscls)*, [University of Minnesota](http://umn.edu/)
 * *[Yvan Le Bras](http://cesco.mnhn.fr/fr/annuaire/yvan-le-bras-6200)*, [Muséum national d’histoire naturelle](https://www.mnhn.fr/)
