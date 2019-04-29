@@ -26,31 +26,32 @@ In order to login to Galaxy using your Elixir AAI identity, take the following s
 
     ![image](/src/authnz/use/oidc/idps/elixir-aai/01.png)
 
-2. Click on the **Elixir AAI login** button:
+2. Click on the **Sign in with Elixir** button:
 
     ![image](/src/authnz/use/oidc/idps/elixir-aai/02.png)
 
     <div class="alert alert-info" role="alert">
         **NOTE:**
         
-        If this button is not displayed, then either OIDC is 
-        not enabled on the instance of Galaxy you are using, or its Elixir AAI backend is not configured, regardless 
-        you would need to contact the admin of that Galaxy instance.
+        If this button is not displayed, then either OIDC is not enabled on the instance of 
+	Galaxy you are using, or its Elixir AAI backend is not configured, regardless you 
+	would need to contact the admin of that Galaxy instance.
     </div>
 
-3. Clicking on the **Elixir AAI** button will take you to the login page, 
-where you would need to login with your Elixir AAI credentials:
+3. Clicking on the **Sign in with Elixir** button will take you to the login page, 
+where you would need to login with your Elixir AAI associated credentials, such as your home institution:
 
     ![image](/src/authnz/use/oidc/idps/elixir-aai/03.png)
     
     <div class="alert alert-info" role="alert">
         **NOTE:**
         
-        Upon your first login using Elixir AAI from a Galaxy server, you will be asked to consent to Elixir AAI service 
-	sharing some basic information about you to the Galaxy server. This would normally be your email address and a unique 
-        openid identity string. Galaxy asks Elixir AAI for your basic profile info---the minimum possible information---. 
-	In other words, Galaxy sets OIDC "scope" to "openid" and "email", which is the minimum scope values 
-	that request only your email address and profile name.
+        Upon your first login using Elixir AAI from a Galaxy server, you will be asked to consent 
+	to Elixir AAI service sharing some basic information about you to the Galaxy server. 
+	This would normally be your email address and a unique openid identity string. 
+	Galaxy asks Elixir AAI for your basic profile info ---the minimum possible 
+	information---. In other words, Galaxy sets OIDC "scope" to "openid" and "email", 
+	which is the minimum scope values that request only your email address and profile name.
     </div>
 
 
@@ -89,21 +90,24 @@ your authentication information, which Galaxy uses to log you in.
 
 
 ## What happens behind-the-scenes when I login to Galaxy using my Elixir AAI identity?
-In nutshell, Galaxy receives basic information about you from the Elixir AAI service (e.g., email address) and some OIDC security
-tokens such as [ID token](http://openid.net/specs/openid-connect-core-1_0.html#IDToken) and 
-[Access token](https://www.oauth.com/oauth2-servers/access-tokens/). Galaxy stores these information, and 
-then it automatically creates a Galaxy user with its username and email set to the information provided by Elixir AAI
-(if you do not have a Galaxy user account).
+
+In nutshell, Galaxy receives basic information about you from the Elixir AAI service (e.g., email 
+address) and some OIDC security tokens such as [ID token](http://openid.net/specs/openid-connect-core-1_0.html#IDToken) 
+and [Access token](https://www.oauth.com/oauth2-servers/access-tokens/). Galaxy stores these 
+information, and  then it automatically creates a Galaxy user with its username and email set to 
+the information provided by Elixir AAI (if you do not have a Galaxy user account).
 
 
 <div class="alert alert-info" role="alert">
     **Note:**
-    Neither your _email address_ and _basic profile info_, nor the OIDC tokens that Elixir AAI sends to Galaxy, 
-    grants Galaxy with access to any other services tied to your Elixir AAI identity.
+    Neither your _email address_ and _basic profile info_, nor the OIDC tokens that Elixir AAI 
+    sends to Galaxy, grants Galaxy with access to any other services tied to your Elixir AAI 
+    identity.
 </div> 
 
 
 ## How to disconnect my Elixir account from Galaxy? 
+
 When you're logged into Galaxy using your Elixir identity, visit the following page:
 
 ```
@@ -121,11 +125,12 @@ will keep your Galaxy user account active (this user is registered automatically
 
 
 ## How to revoke the OIDC tokens shared with Galaxy also from the Elixir AAI service?
-These tokens are used to validate your identity for
-the first time, and re-validate when the tokens are expired. You can revoke these tokens (a complementary step to 
+
+These tokens are used to validate your identity for the first time, and re-validate when the 
+tokens are expired. You can revoke these tokens (a complementary step to 
 the disconnect process), which will (a) invalidate the tokens stored in Galaxy's database, and (b) will prevent Galaxy from being able to refresh expired tokens. 
 
-This needs to be done through the Elixir AAI's own profile management portal, ---links to more detailed information will follow---
+This is not yet supported in a self-service manner for the Elixir AAI service, please contact email:aai-contact[at]elixir-europe[dot]org if you wish to have your tokens revoked.
 
 
 <div class="alert alert-info" role="alert">
