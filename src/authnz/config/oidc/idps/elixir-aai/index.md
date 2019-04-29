@@ -41,7 +41,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
     f. Click the green "Save" button at the bottom (or at the top) and make a note of alle the generated credentials that is made available to you (you will need it later, in the next step of and to configure your Galaxy):
 
-    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-3.png)
+    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-4.png)
 
     g. Drop the following information by e-mail to aai-contact@elixir-europe.org: 
 
@@ -76,7 +76,7 @@ Then you would need to add Elixir AAI-specific setters to the `config/oidc_backe
     <provider name="Elixir">
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
-        <redirect_uri>https://my-glx.ex/authnz/elixir/callback</redirect_uri>
+        <redirect_uri>https://your-galaxy.ex/authnz/elixir/callback</redirect_uri>
         <prompt>consent</prompt>
     </provider>
 </OIDC>
