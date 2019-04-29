@@ -44,11 +44,12 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
     ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-3.png)
 
     g. Drop the following information by e-mail to aai-contact@elixir-europe.org: 
-       - Name of your service
 
-       - Description of your service
+         - Name of your service
 
-       - Your service’s Client_id
+         - Description of your service
+
+         - Your service’s Client_id
 
     h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recomment to only request openid and email scopes, as this is the minimum that is needed and will be utilized by Galaxy.
 
