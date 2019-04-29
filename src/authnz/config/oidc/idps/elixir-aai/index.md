@@ -51,7 +51,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
          - Your service’s Client_id
 
-    h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recomment to only request openid and email scopes, as this is the minimum that is needed and will be utilized by Galaxy.
+    h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recomment to only request **openid** and **email scopes**, as this is the minimum that is needed and will be utilized by Galaxy.
 
     i. Return the prefilled form and when accepted, the Elixir AAI service is ready to receive autentication requests from your Galaxy server! Of course you also need to confiugure your Galaxy first, so read on under "Galaxy Configuration" below!  
 
