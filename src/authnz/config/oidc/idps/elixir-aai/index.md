@@ -23,7 +23,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
 2. Step 2 - Register the RP to the Elixir AAI test environment. Here you really only need to complete sub points 5-7:
 
-    a. [Click here to start register your client](https://login.elixir-czech.org/oidc/manage/dev/dynreg) (Elixir AAI login required) and you'll see this dashboard 
+    a. [Click here to start register your client](https://login.elixir-czech.org/oidc/manage/dev/dynreg) (Elixir AAI login required) and you'll see this dashboard: 
 
     ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-1.png)
 
@@ -39,7 +39,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
     e. For the other tabs: Access, Credentials etc, you can let them be as they are using the default choices (and we'll deal with attribute scopes shortly below).
 
-    f. Click the green "Save" button at the bottom (or at the top) and make a note of alle the generated credentials that is made available to you (you will need it later, in the next step of and to configure your Galaxy):
+    f. Click the green "Save" button at the bottom (or at the top) and make a note of alle the generated credentials that is made available to you (you will need it soon, in the next step of the client registration and later to configure your Galaxy):
 
     ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-4.png)
 
@@ -51,7 +51,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
          - Your service’s Client_id
 
-    h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recomment to only request **openid** and **email** scopes, as this is the minimum that is needed and will be utilized by Galaxy.
+    h. Wait for a reply from Elixir AAI with a form for you to complete. It includes requesting which attribute scopes should be returned to Galaxy when users authenticate. We recommend to only request **openid** and **email** scopes, as this is the minimum that is needed and will be utilized by Galaxy.
 
     i. Return the prefilled form and when accepted, the Elixir AAI service is ready to receive autentication requests from your Galaxy server! Of course you also need to confiugure your Galaxy first, so read on under "Galaxy Configuration" below!  
 
@@ -65,7 +65,7 @@ The [Elixir AAI - Manual for Service Providers](https://docs.google.com/document
 
 # Galaxy Configuration
 
-You would need to setup you Galaxy instance to leverage OIDC protocol.
+You would need to setup your Galaxy instance to leverage OIDC protocol.
 This setup is common for all OIDC IdPs, and is
 [documented at this page](/src/authnz/config/oidc/index.md#configure-oidc-backends).
 Then you would need to add Elixir AAI-specific setters to the `config/oidc_backends_config.xml` matching the values you got from the client registration process, as well as the exact same redirect_uri you specified (depending on your setup):
@@ -87,6 +87,6 @@ for more details.
 
 
 Having set this configuration, restart Galaxy to have the option of login to
-Galaxy with Elixir AAI enabled.
+Galaxy with Elixir AAI enabled:
 
 ![image](/src/authnz/config/oidc/idps/elixir-aai/login-including-elixir.png)
