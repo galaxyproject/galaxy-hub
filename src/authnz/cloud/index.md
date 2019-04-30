@@ -15,14 +15,16 @@ independent privileges;
 * Galaxy's access can be audited, restricted, elevate, and revoked by the user at anytime, 
 independent from any other service and the user themself.
 
+To provide readers with a gist of this method, we have prepared a demo with all the 
+pre-bake settings and configurations, which is discussed on [this page](/src/authnz/cloud/demo/index.md).
+
 
 To use this method a user needs to take the following steps: 
 
 1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/src/authnz/config/oidc/index.md) for details;
 2. Setup a provider-specific _cloud authorization_ in Galaxy:
 	1. read [how to setup cloud authorization for AWS](/src/authnz/cloud/aws/index.md);
-	1. read [how to setup cloud authorization for Azure](/src/authnz/cloud/azure/index.md).
-
+	1. read [how to setup cloud authorization for Azure](/src/authnz/cloud/azure/index.md). 
 	
 **Related publications:**
 - Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.

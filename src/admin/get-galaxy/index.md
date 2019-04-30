@@ -77,8 +77,6 @@ To control Galaxy through the UI (installing tools, managing users, creating gro
 admin_users: user1@example.com,user2@example.com
 ```
 
-Additional details can be found [below](/src/admin/get-galaxy/index.md#become-an-admin-example).
-
 ## Install Tools
 
 Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
