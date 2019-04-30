@@ -62,7 +62,7 @@ configure your Galaxy first, so read on under [Galaxy Configuration](#galaxy-con
 <div class="alert alert-warning" role="alert">
     **Note:**
     
-    Without complition of steps **7** and **8**, your Galaxy instances can NOT verify users 
+    Without the complition of steps **7** and **8**, your Galaxy instances can NOT verify users 
     authentication based on the information it receives from ELIXIR AAI, because this 
     provider does not provide a client with all information required as per OIDC 
     specifications (e.g., `id_token`) by default.   
