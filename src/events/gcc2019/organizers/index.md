@@ -2,12 +2,6 @@
 
 GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).  The event is organized by members of the host organizations and the larger Galaxy Community.
 
-# Contact Us
-
-We can be reached at:
-
-* GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org&gt;
-
 # GCC2019 Organizers
 
 * *[Bérénice Batut](http://research.bebatut.fr/)*, [University of Freiburg](https://www.uni-freiburg.de/)
@@ -21,12 +15,16 @@ We can be reached at:
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
 
+We can be reached at:
+
+* GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org&gt;
 
 # GCC2019 Scientific Program Committee
 
 * *[Matthias Bernt](https://www.ufz.de/index.php?en=43047)*, [Helmholtz Centre for Environmental Research – UFZ](https://www.ufz.de/)
 * *[Dan Blankenberg](/src/people/dan/index.md)*, [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/)
 * *[Gildas Le Corguillé](https://github.com/lecorguille)*, [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
+* *[Maria Doyle](https://www.researchgate.net/profile/Maria_Doyle4)*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Melanie Föll](https://github.com/foellmelanie)*, [University of Freiburg](https://www.uni-freiburg.de/) 
 * *[Anne Claire Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)*, [University of Oslo](https://www.uio.no/)
