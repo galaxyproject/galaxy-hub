@@ -45,6 +45,7 @@ We can be reached at:
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
 * *[Beata Scholz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
 * *[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)*, [Earlham Institute](http://www.earlham.ac.uk/)
+* *[Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden)*, [University of the Western Cape](https://www.uwc.ac.za/), [South African National Bioinformatics Institute (SANBI)](https://www.sanbi.ac.za/)
 * *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/) 
 
 The SPC can be reached at GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;
