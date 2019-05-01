@@ -9,8 +9,8 @@ date: ""
 The *May 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 registration and abstract submission are open!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration-abstract-submission)**
-* [120 new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
+    * **[GCC2019 discounted registration ends soon!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration)**
+* [XXX new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * A new entry to [The Galactic Blog](/src/news/2019-04-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
 * At least [9 Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
@@ -24,9 +24,9 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ----
 
-# GCC2019 Registration & Abstract Submission
+# GCC2019 Registration 
 
-**We are pleased to announce that [registration](/src/events/gcc2019/registration/index.md) and [abstract submission](/src/events/gcc2019/abstracts/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) are now open.**
+**[Registration](/src/events/gcc2019/registration/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) is open! Discounted registration rates are available until 17MAY19.** 
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
@@ -42,22 +42,6 @@ GCC2019, like every GCC before it, will be built around **community**.  Training
 If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
 Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
-
-# GCC2019 Sponsors
-
-We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as a [Silver Sponsor for GCC2019](/src/events/gcc2019/sponsors/index.md).
-
-## Limagrain
-
-[<img class="float-left img-fluid mx-auto" style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
-
-As the fourth largest seed company worldwide, **[Limagrain](https://www.limagrain.com/en/)**’s mission is to move agriculture forward to meet global food related challenges. Limagrain is a cooperative group founded and managed by French farmers. Its parent company, Coopérative Limagrain, brings together nearly 2,000 farmers located in the center of France, in the Limagne Val d'Allier plain. The Group creates, produces and distributes field seeds, vegetable seeds and cereal products. Limagrain is present in 56 countries and has more than 10,000 employees. It makes nearly 2.5 billion Euros of sales with recognized brands on their markets: LG, Vilmorin, Hazera, Harris Moran, Jacquet, Brossard.
-
-After participating for several years, Limagrain has the pleasure to help out with the Galaxy Community Conference organization for the first time ever. With over 200 Limagrain users worldwide and hundreds of tools dedicated to agronomic research, Galaxy has become central to Bioinformatics and Bioanalysis platforms of Limagrain research activities. By leveraging access to sequencing data of the plant species and by  gathering tools and workflows tailored towards breeding, Galaxy is key to Limagrain competitiveness.
-
-## Your Organization/Vendor Here!
-
-[GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
 
 
@@ -135,7 +119,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Björn Grüning](https://github.com/bgruening) gives a [sneak peak at GCC2019](/src/blog/2019-04-gcc2019/index.md).
+This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/src/blog/2019-04-gcp/index.md).
+
+[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 220px" />](/src/blog/index.md)
 
 ----
 
