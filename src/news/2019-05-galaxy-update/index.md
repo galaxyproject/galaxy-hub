@@ -4,21 +4,19 @@ tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blo
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-05-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *May 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[GCC2019 discounted registration ends soon!](/src/news/2019-04-galaxy-update/index.md#gcc2019-registration)**
-* [XXX new publications](/src/news/2019-04-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-04-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
-* A new entry to [The Galactic Blog](/src/news/2019-04-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
-* At least [9 Open positions](/src/news/2019-04-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
-* [Updates to training materials](/src/news/2019-04-galaxy-update/index.md#doc-hub-and-training-updates).
-* [ToolShed contributions](/src/news/2019-04-galaxy-update/index.md#toolshed-contributions).
-* [CloudBridge 2.0 released](/src/news/2019-04-galaxy-update/index.md#releases).
-* [Galaxy status page](/src/news/2019-04-galaxy-update/index.md##galaxy-status) is live! 
-* And [a bunch of other news](/src/news/2019-04-galaxy-update/index.md#other-news) too.
+    * **[GCC2019 discounted registration ends soon!](/src/news/2019-05-galaxy-update/index.md#gcc2019-registration)**
+* [XXX new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
+* Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
+* A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
+* At least [XXX Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
+* [Updates to training materials](/src/news/2019-05-galaxy-update/index.md#doc-hub-and-training-updates).
+* [ToolShed contributions](/src/news/2019-05-galaxy-update/index.md#toolshed-contributions).
+* And [a bunch of other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -85,19 +83,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/src/use/graphclust/index.md)
 
-## GraphClust
-
-The [GraphClust2 server](/src/use/graphclust/index.md) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. [GraphClust2 is implemented within the Galaxy framework](https://graphclust.usegalaxy.eu/) and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow.
-
-## Language Analysis Portal
-
-The [language analysis portal (LAP)](/src/use/lap/index.md) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
-
-## CAFU
-
-[<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/src/use/cafu/index.md)
-
-[CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
 
 ## Galaxy Platforms in Publications
@@ -149,16 +134,23 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in March:
+Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in April:
+
+## Hub 
+[User Authentication and Authorization](/src/authnz/index.md) in Galaxy by [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili).
 
 ## GTN Training Materials
 
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-* New [Group tags for complex experimental designs](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial.html) mini-tutorial by [Marius van den Beek](https://github.com/mvdbeek).
-* New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Bérénice Batut](https://github.com/bebatut).
-* New [Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html) tutorial by [Wolfgang Maier](https://github.com/wm75).
-* New [Downstream single-cell RNA analysis with RaceID](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-raceid/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
+* New [Creating a new tutorial - Writing content in Markdown](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html) tutorial by [Bérénice Batut](https://github.com/bebatut), [Björn Grüning](https://github.com/bgruening), [Saskia Hiltemann](https://github.com/shiltemann), and [Helena Rasche](https://github.com/erasche).
+* New [Name tags for following complex histories](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/name-tags/tutorial.html) tutorial by [Helena Rasche](https://github.com/erasche).
+* New [Bibliography](https://github.com/galaxyproject/training-material/pull/1324/files) feature for tutorials by [Saskia Hiltemann](https://github.com/shiltemann) and [Helena Rasche](https://github.com/erasche).
+* New [RNA-Seq reads to counts](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html) tutorial by [Maria Doyle](https://github.com/mblue9). 
+* New [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial by [Maria Doyle](https://github.com/mblue9). 
+* New [RNA-seq genes to pathways](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html)tutorial by [Maria Doyle](https://github.com/mblue9). 
+* Update to [Understanding UMIs](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman). 
+
 
 
 ---
@@ -167,27 +159,20 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in March 2019](/src/toolshed/contributions/2019-03/index.md).
+[Tool Shed contributions in April 2019](/src/toolshed/contributions/2019-04/index.md).
 
 
 # Releases
 
 New additions to the Galaxy Ecosystem.
 
-## CloudBridge 2.0 release 
 
-[CloudBridge](http://cloudbridge.cloudve.org/en/latest/) is a Python library that offers a uniform interface to major Infrastructure-as-a-Service (IaaS) cloud providers. CloudBridge ensures operational consistency across the supported providers allowing the same code to run consistently across multiple cloud providers. With this release, CloudBridge supports Amazon Web Service (AWS), Microsoft Azure, OpenStack, and now Goodle cloud. This release is further characterized by improved code consistency.
 
-Please see the [release notes](/src/news/2019-03-cloudbridge-v2/index.md) for additional information. 
-
-## Galaxy Status
-
-We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance. 
-
-## galaxy-lib 19.5.1
+## galaxy-lib 19.5.2
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
 ----
 
 # Other News
+* The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) held a training and tools workshop in Roscoff, France. Check out the [meeting summary](https://galaxyproject.eu/posts/2019/04/26/elixir-galaxy-roscoff-ws/).
