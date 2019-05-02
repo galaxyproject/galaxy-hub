@@ -36,7 +36,7 @@ mixin renderPageTease()
         return url;
     }
 
-    var platform_columns = [ "Server", "Cloud", "Deploy- able" ]; 
+    var platform_columns = [ "Server", "Cloud", "Deploy- able" ];
     var use_platforms = new Map();
     use_platforms.set("public-server", {
         tag: "public-server",
@@ -216,15 +216,20 @@ body
                 span.navbar-toggler-icon
             div.collapse.navbar-collapse.mx-auto#navbarToggleWrapper
                 ul.navbar-nav
-                    li.nav-item.dropdown
-                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-expanded='false')
+                    li.nav-item
+                        a.nav-link.dropdown(href='/use/', role='button', aria-expanded='false')
                             | Use
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
+                            | Learn
                             span.caret
                         ul.dropdown-menu
                             li
-                                a.dropdown-item(href='/use/') Use Galaxy
+                                a.dropdown-item(href='/learn/') How to use Galaxy
                             li
-                                a.dropdown-item(href='/cloud/') Cloud
+                                a.dropdown-item(href='/teach/') Teach with Galaxy
+                            li
+                                a.dropdown-item(href='/teach/gtn/') Training Network
                     li.nav-item.dropdown
                         a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
                             | Community
@@ -246,39 +251,28 @@ body
                                 a.dropdown-item(href='/galaxy-project/statistics/') Stats
                     li.nav-item.dropdown
                         a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
-                            | Education
-                            span.caret
-                        ul.dropdown-menu
-                            li
-                                a.dropdown-item(href='/learn/') Learn Galaxy
-                            li
-                                a.dropdown-item(href='/teach/') Teach
-                            li
-                                a.dropdown-item(href='/teach/gtn/') Training Network
-                    li.nav-item.dropdown
-                        a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
                             | Deploy & Develop
                             span.caret
                         ul.dropdown-menu
                             li
-                                a.dropdown-item(href='/admin/get-galaxy/') Get Galaxy
+                                a.dropdown-item(href='/admin/get-galaxy/') Install Galaxy
                             li
-                                a.dropdown-item(href='/admin/') Administration
-                            li
-                                a.dropdown-item(href='/docs/') Documentation
+                                a.dropdown-item(href='/admin/') Server administration
                             li
                                 a.dropdown-item(href='/tools/') Tools
                             li
-                                a.dropdown-item(href='/develop/') Development
+                                a.dropdown-item(href='/develop/api/') Working with the API
                             li
-                                a.dropdown-item(href='/develop/api/') API
+                                a.dropdown-item(href='/develop/') Contributing
+                            li
+                                a.dropdown-item(href='/docs/') Code documentation
                     li.nav-item.dropdown
                         a.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', role='button')
                             | Support
                             span.caret
                         ul.dropdown-menu
                             li
-                                a.dropdown-item(href='/support/') Hub
+                                a.dropdown-item(href='/support/') FAQ
                             li
                                 a.dropdown-item(href='https://help.galaxyproject.org/') Galaxy Help Forum
                 ul.navbar-nav.ml-auto
