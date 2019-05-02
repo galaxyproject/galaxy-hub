@@ -124,7 +124,7 @@ to assume, is defined as the following:
 }
 ```
 
-Accordingly, this role grant the local Galaxy instance with read access 
+Accordingly, this role grants the local Galaxy instance with read access 
 (`"Action": "s3:GetObject"`) to only one object, i.e., 
 `arn:aws:s3:::encode-public/2008/11/24/034e3689-9903-4c86-9237-040f8f795b73/ENCFF001SNN.broadPeak.gz`
 
