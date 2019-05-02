@@ -3,7 +3,7 @@ title: Login to Galaxy
 highlight: true
 ---
 
-_This is page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/index.md) page._
+_This page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/index.md) page._
 
 While anyone can use Galaxy anonymously, it is required to have a Galaxy user account
 to benefit from all the features Galaxy has to offer. For instance, anonymous users 

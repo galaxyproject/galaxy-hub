@@ -3,7 +3,7 @@ title: Login to Galaxy with Custos
 highlight: true
 ---
 
-_This is page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/idps/custos/index.md) page._
+_This page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/idps/custos/index.md) page._
 
 Custos is an [NSF-funded project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false), backed by open source software, that will provide science gateways such as Galaxy
 with federated authentication, single sign-on across multiple science gateway
