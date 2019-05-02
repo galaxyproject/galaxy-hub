@@ -10,7 +10,7 @@ The *May 2019 Galactic News* is here! This is a summary of what is going on in t
 
 * Event News
     * **[GCC2019 discounted registration ends soon!](/src/news/2019-05-galaxy-update/index.md#gcc2019-registration)**
-* [XXX new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [265 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
 * At least [XXX Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
@@ -41,39 +41,179 @@ If you are working in data intensive life science research then there will not b
 
 Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
 
+## Poster & Demo Abstract Submission is Still Open
+
+The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/src/events/gcc2019/abstracts).
 
 
 # Upcoming events
 
 These and [other Galaxy related events](/src/events/index.md) are coming up:
 
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic/Event</th>
+<th>Venue/Location</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="text-nowrap">May 7th 2019</span></td>
+  <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=GENOME&amp;year=19">Streamlining accessibility and computability of large-scale genomic datasets with the NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL)</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=GENOME&amp;year=19">Biology of Genomies, CSHL, Cold Spring Harbor, New York, United States</a></td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 13th 2019</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module17.pdf">Initiation à l’utilisation de Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 13th 2019</span></td>
+  <td><a href="http://sciencegateways.org/bootcamp">Science Gateways Bootcamp</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>Indianapolis, Indiana, United States</td>
+  <td>help@sciencegateways.org.</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2019</span></td>
+  <td><a href="https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.html?axe=98">Analyse avancée de séquences</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>Bordeaux, France</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Macha Nikolski</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 14th 2019</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module8bis.pdf">Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 16th 2019</span></td>
+  <td><a href="/events/2019-05-gtn">GTN CoFest and community call</a></td>
+  <td><img style="float:right;" src="/images/icons/GL.png"/>Online</td>
+  <td>Bérénice Batut, Saskia Hiltemann</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 17th 2019</span></td>
+  <td><a href="https://southgreenplatform.github.io/trainings//files/formation-plateformeSG-2019.pdf#page=9">Initiation aux analyses de données transcriptomiques</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://southgreenplatform.github.io/trainings/trainings2019/">IRD, Montpellier, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">May 23rd 2019</span></td>
+  <td><a href="https://southgreenplatform.github.io/trainings//files/formation-plateformeSG-2019.pdf#page=10">Initiation aux analyses de données metabarcoding</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://southgreenplatform.github.io/trainings/trainings2019/">IRD, Montpellier, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 2nd 2019</span></td>
+  <td><a href="/events/2019-asms">Galaxy @ ASMS 2019</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2019, Atlanta, Georgia, United States</a></td>
+  <td>Tim Griffin, Pratik Jagtap</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 11th 2019</span></td>
+  <td><a href="https://faes.org/biotech82june">Bioinformatics for Beginners</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>National Institutes of Health (NIH), Bethesda, Maryland, United States</td>
+  <td>training@faes.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">June 12th 2019</span></td>
+  <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module23.pdf">Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 1st 2019</span></td>
+  <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 3rd 2019</span></td>
+  <td><a href="http://bioinformatics.org.au/winterschool/program/">An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="http://bioinformatics.org.au/winterschool/">2019 Winter School in Mathematical &amp; Computational Biology, Brisbane, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Igor Makunin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 29th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 30th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 31st 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="/events/2019-asmcue">&quot;Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy&quot;</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mohammad Heydarian, Anton Nekrutenko</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 2nd 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+</tbody>
+</table>
 
 ----
 
 # Publications
 
-**120 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in March.
+**265 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month, pushing the total number of pubs past 7500.
 
 ## Highlighted Publications
 
 Recently added *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications:
 
-* **[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335)**, Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/src/people/bjoern-gruening/index.md), Rolf Backofen. *bioRxiv* 550335; doi: 10.1101/550335 
-* **[CAFU: a Galaxy framework for exploring unmapped RNA-Seq data](https://doi.org/10.1093/bib/bbz018)**, Siyuan Chen, Chengzhi Ren, Jingjing Zhai, Jiantao Yu, Xuyang Zhao, Zelong Li, Ting Zhang, Wenlong Ma, Zhaoxue Han, Chuang Ma. *Briefings in Bioinformatics*, bbz018,doi:10.1093/bib/bbz018. 28 February 2019
-* **[Visualization to Support Advanced Analysis of Genomic Data](http://urn.nb.no/URN:NBN:no-69721)**, Kumar Aman. Master Thesis, University of Oslo
-* **[Designing an In Silico Strategy to Select Tissue-Leakage Biomarkers Using the Galaxy Framework](https://doi.org/10.1007/978-1-4939-9164-8_18)**, Nguyen L., Brun V., Combes F., Loux V., Vandenbrouck Y. (2019)
- In: Proteomics for Biomarker Discovery. Methods in Molecular Biology, Brun V., Couté Y. (eds), vol 1959. 
+* **[Tackling “Big Data” with Biology Undergrads: A Simple RNA-seq Data Analysis Tutorial Using Galaxy](https://www.coursesource.org/courses/tackling-big-data-with-biology-undergrads-a-simple-rna-seq-data-analysis-tutorial-using)**, Matthew Anthony Escobar, William Morgan, Irina Makarevitch, Sabrina Robertson. *CourseSource*. https://doi.org/10.24918/cs.2019.13
+* **[Containerization of Galaxy Workflows increases Reproducibility](https://publikationen.uni-tuebingen.de/xmlui/handle/10900/83810)**, Felix Bartusch, Maximilian Hanussek,  Jens Krüger. Proceedings of the 4th bwHPC Symposium
+* **[Desarrollo y despliegue de un workflow para el análisis genómico de *Campylobacter Jejuni*](https://repositorio.uam.es/handle/10486/687147)**, José Antonio Barbero Aparicio, thesis, Universidad Autónoma de Madrid
+* **[MGS-Fast: Metagenomic shotgun data fast annotation using microbial gene catalogs](https://doi.org/10.1093/gigascience/giz020)**, Stuart M Brown, Hao Chen, Yuhan Hao, Bobby P Laungani, Thahmina A Ali, Changsu Dong, Carlos Lijeron, Baekdoo Kim, Claudia Wultsch, Zhiheng Pei, Konstantinos Krampis. *GigaScience*, Volume 8, Issue 4, April 2019, giz020, doi: 10.1093/gigascience/giz020
+* **[NetworkAnalyst 3.0: a visual analytics platform for comprehensive gene expression profiling and meta-analysis](https://doi.org/10.1093/nar/gkz240)**, Guangyan Zhou, Othman Soufan, Jessica Ewald, Robert E W Hancock, Niladri Basu, Jianguo Xia. *Nucleic Acids Research*, gkz240, doi: 10.1093/nar/gkz240
+* **[Comparative Dissection of Three Giant Genomes: *Allium cepa, Allium sativum*, and *Allium ursinum*](https://doi.org/10.3390/ijms20030733)**, Vratislav Peška, Terezie Mandáková, Veronika Ihradská, Jiří Fajkus. *Int. J. Mol. Sci.* 2019, 20, 733. 
+* **[A rapid and simple method for assessing and representing genome sequence relatedness](https://www.biorxiv.org/content/10.1101/569640v2)**, *bioRxiv*, M Briand, M Bouzid, G Hunault, M Legeay, M Fischer-Le Saux, M Barret, doi: 10.1101/569640 
+* **[Identification of genetic relationships and subspecies signatures in *Xylella fastidiosa*](https://doi.org/10.1186/s12864-019-5565-9)**, Nicolas Denancé, Martial Briand, Romain Gaborieau, Sylvain Gaillard, Marie-Agnès Jacques. *BMC Genomics* 201920:239, doi: 10.1186/s12864-019-5565-9
+* **[Genotyping by sequencing can reveal the complex mosaic genomes in gene pools resulting from reticulate evolution: a case study in diploid and polyploid citrus](https://doi.org/10.1093/aob/mcz029)**, 
+Dalel Ahmed, Aurore Comte, Franck Curk, Gilles Costantino, François Luro, Alexis Dereeper, Pierre Mournet, Yann Froelicher, Patrick Ollitrault. * Annals of Botany*, mcz029, doi: 10.1093/aob/mcz029. Published: 29 March 2019
+* **[Genomic Variants Among Threatened *Acropora* Corals]()**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. G3: Genes, Genomes, Genetics Early online March 26, 2019; doi: 10.1534/g3.119.400125 
+* **[The Galaxy Platform for Reproducible Affinity Proteomic Mass Spectrometry Data Analysis](https://doi.org/10.1007/978-1-4939-9232-4_16)**, Paul A. Stewart, Brent M. Kuenzi, Subina Mehta, Praveen Kumar, James E. Johnson, Pratik Jagtap, Timothy J. Griffin, Eric B. Haura. In: Evans C., Wright P., Noirel J. (eds) Mass Spectrometry of Proteins. Methods in Molecular Biology, vol 1977. Humana Press, New York, NY
+* **[Enabling multi-task computation on Galaxy-based gateways using swift](https://doi.org/10.1109/CLUSTER.2013.6702701)**,  Ketan Maheshwari, Alex Rodriguez, David Kelly, Ravi Madduri, Justin Wozniak, Michael Wilde, Ian Foster.  2013 IEEE International Conference on Cluster Computing (CLUSTER), doi: 10.1109/CLUSTER.2013.6702701
+* **[A comprehensive pipeline for translational top-down proteomics from a single blood draw](https://www.nature.com/articles/s41596-018-0085-7)**, Timothy K. Toby, Luca Fornelli, Kristina Srzentić, Caroline J. DeHart, Josh Levitsky, John Friedewald, Neil L. Kelleher. *Nature Protocols* volume 14, pages119–152 (2019)
+* **[The large genome size variation in the Hesperis clade was shaped by the prevalent proliferation of DNA repeats and rarer genome downsizing](https://doi.org/10.1093/aob/mcz036)**, Petra Hloušková, Terezie Mandáková, Milan Pouch, Pavel Trávníček, Martin A Lysak. *Annals of Botany*, mcz036, doi: 10.1093/aob/mcz036
+* **[CellOrganizer: Learning and Using Cell Geometries for Spatial Cell Simulations](https://doi.org/10.1007/978-1-4939-9102-0_11)**, Timothy D. Majarian, Ivan, Cao-Berg, Xiongtao Ruan, Robert F. Murphy.  In: Hlavacek W. (eds) Modeling Biomolecular Site Dynamics. Methods in Molecular Biology, vol 1945. Humana Press, New York, NY
 
-Three of the four highlighted publications are open access.
+Ten of the fifteen highlighted publications are open access.
 
 ## Publication Topics
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 83 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 27 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 16 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 14 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
-| 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | | | | | | | | | |
+| 162 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 66 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 36 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 26 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
+| 19 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 18 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
+| 8 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 6 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 5 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 4 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | 
 
 ----
 
@@ -131,12 +271,17 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 11 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 4 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 4 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | 
-| 2 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | | 2 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AmrPlusPlus) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARIES) | 
-| 1 | [>CAFU](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CAFU) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 1 | [>EGI](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EGI) | 
-| 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GraphClust](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GraphClust) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSDM) | 
-| 1 | [>MPDSTB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MPDSTB) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>ProteoRE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ProteoRE) | 
-| 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RNA Workbench) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | | | | | | |
+| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 11 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
+| 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 4 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | | 4 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 4 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au) | 
+| 3 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>epiGeEC) | | 2 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 2 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 2 | [>CIRM-CFBP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CIRM-CFBP) | 
+| 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | 
+| 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AGEseq) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AmrPlusPlus) | | 1 | [>Bio-Docklets](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Bio-Docklets) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioMaS) | 
+| 1 | [>Biomina](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Biomina) | | 1 | [>CellOrganizer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CellOrganizer) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CLIMB) | 
+| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>FACE-IT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FACE-IT) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | 
+| 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IGGalaxy) | | 1 | [>MGS-Fast](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MGS-Fast) | 
+| 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | | 1 | [>NetworkAnalyst](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NetworkAnalyst) | | 1 | [>Proteogenomics Gateway](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Proteogenomics Gateway) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | 
+| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | 
+| 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | | | | | | | | | | 
 
 ----
 
@@ -156,6 +301,7 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics andDevelopmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * [Biostatistician](https://staff-emory.icims.com/jobs/34339/biostatistician/job?codes=IND&mobile=false&width=669&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Emory University, Atlanta, Georgia, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
