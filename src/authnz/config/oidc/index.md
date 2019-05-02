@@ -1,5 +1,5 @@
 ---
-title: User Authentication via 3rd Party Identity
+title: User Authentication Using Social and Institutional Identities
 highlight: true
 ---
 
