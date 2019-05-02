@@ -3,7 +3,7 @@ title: Configure Your Galaxy Instance as an OIDC Client of ELIXIR Authentication
 highlight: true
 ---
 
-_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/elixir-aai/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/elixir-aai/index.md) page._
 
 
 Leveraging OpenID Connect (OIDC) protocol, users can login to Galaxy using their

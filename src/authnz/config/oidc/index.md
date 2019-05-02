@@ -3,7 +3,7 @@ title: User Authentication via 3rd Party Identity
 highlight: true
 ---
 
-_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/index.md) page._
 
 Leveraging the OpenID Connect (OIDC) protocol users can login to Galaxy using their social and institutional
 identities (e.g., their Google account). This method allows for new user registration or linking of an existing

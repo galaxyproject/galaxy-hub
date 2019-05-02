@@ -3,7 +3,7 @@ title: Configuration of User Authentication Methods
 highlight: true
 ---
 
-_This is page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/index.md) page._
 
 # Galaxy Authentication Configuration Options
 
