@@ -13,7 +13,7 @@ The *May 2019 Galactic News* is here! This is a summary of what is going on in t
 * [265 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including ways to investigate unmapped RNA-seq reads, language analysis, and RNA structure tools!  
 * A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), about the upcomming GCC.  
-* At least [XXX Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in three countries on two continents. 
+* At least [11 Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in six countries on two continents. 
 * [Updates to training materials](/src/news/2019-05-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-05-galaxy-update/index.md#toolshed-contributions).
 * And [a bunch of other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
@@ -44,6 +44,11 @@ Please find additional information on GCC2019 [here](/src/events/gcc2019/index.m
 ## Poster & Demo Abstract Submission is Still Open
 
 The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/src/events/gcc2019/abstracts).
+
+## Fellowships: 2nd Round Due this Friday
+
+[Travel fellowships to attend GCC2019](/src/news/2019-04-gcc-fellowships/index.md) are available.  If you are interested, **apply by this Friday, 10 May**.
+
 
 ## Sponsors
 
@@ -279,22 +284,14 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 ## Galaxy Platforms in Publications
 
-We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
+We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 11 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
 | 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 4 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | | 4 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 4 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au) | 
 | 3 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>epiGeEC) | | 2 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 2 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 2 | [>CIRM-CFBP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CIRM-CFBP) | 
-| 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | 
-| 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AGEseq) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AmrPlusPlus) | | 1 | [>Bio-Docklets](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Bio-Docklets) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioMaS) | 
-| 1 | [>Biomina](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Biomina) | | 1 | [>CellOrganizer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CellOrganizer) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CLIMB) | 
-| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>FACE-IT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>FACE-IT) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-MEL) | 
-| 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IGGalaxy) | | 1 | [>MGS-Fast](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MGS-Fast) | 
-| 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | | 1 | [>NetworkAnalyst](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NetworkAnalyst) | | 1 | [>Proteogenomics Gateway](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Proteogenomics Gateway) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | 
-| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | 
-| 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | | | | | | | | | | |
-
+| 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | | | | 
 ----
 
 [<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/src/blog/index.md)
@@ -311,6 +308,7 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Post-doc position in Computational Biology / Genomics / Transcriptomics / Bioinformatics](/src/news/2019-04-eth/index.md), ETH Zurich, Switzerland
 * [Senior IT Systems Administrator](https://jobs.rothamsted.ac.uk/vacancies/246/senior-it-systems-administrator.html), [Rothamsted Research](http://www.rothamsted.ac.uk/), Harpenden, United Kingdom
 * [Experienced Galaxy user / programmer / administrator for consulting work](/src/news/2019-05-sarepta/index.md), [Sarepta Therapeutics](https://www.sarepta.com/)
 * [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics andDevelopmental Biology, Paris, France
@@ -342,6 +340,7 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
+* New [Mass spectrometry imaging: Finding differential analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
 * New [Creating a new tutorial - Writing content in Markdown](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html) tutorial by [Bérénice Batut](https://github.com/bebatut), [Björn Grüning](https://github.com/bgruening), [Saskia Hiltemann](https://github.com/shiltemann), and [Helena Rasche](https://github.com/erasche).
 * New [Name tags for following complex histories](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/name-tags/tutorial.html) tutorial by [Helena Rasche](https://github.com/erasche).
 * New [Bibliography](https://github.com/galaxyproject/training-material/pull/1324/files) feature for tutorials by [Saskia Hiltemann](https://github.com/shiltemann) and [Helena Rasche](https://github.com/erasche).
@@ -350,21 +349,29 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 * New [RNA-seq genes to pathways](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html)tutorial by [Maria Doyle](https://github.com/mblue9). 
 * Update to [Understanding UMIs](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman). 
 
-
-
 ---
 
 # ToolShed Contributions
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in April 2019](/src/toolshed/contributions/2019-04/index.md).
-
+We didn't get to this this month.  Look forward to a double dose of tools next month.
 
 # Releases
 
 New additions to the Galaxy Ecosystem.
 
+## Galaxy-parsec 1.12.1
+
+[Parsec](https://pypi.org/project/galaxy-parsec/) is a set of automatically generated wrappers for BioBlend functions. I found myself writing a large number of small / one-off scripts that invoked simple bioblend functions. These scripts were impossible to compose and use in a linux-friendly manner. I copied and pasted code between all of these utility scripts.
+
+Parsec is the answer to all of these problems. It extracts all of the individual functions I was writing as separate CLI commands that can be piped together, run in parallel, etc.
+
+## Pulsar 0.9.1
+
+[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+
+[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
 
 ## galaxy-lib 19.5.2
@@ -376,5 +383,6 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 # Other News
 
 * The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) held a training and tools workshop in Roscoff, France. Check out the [meeting summary](https://galaxyproject.eu/posts/2019/04/26/elixir-galaxy-roscoff-ws/).
+* [SGCI Consultation Allows CloudLaunch to Benefit Researchers Across a Wide Variety of Fields](https://sciencegateways.org/-/sgci-consultation-allows-cloudlaunch-to-benefit-researchers-across-a-wide-variety-of-fields), by Nayiri Mullinix
 * [Galaxy-ML](https://github.com/ohsu-comp-bio/Galaxy-ML): a GitHub repo from [Qiang Gu](https://github.com/qiagu) of [OHSU](https://ohsu.edu/), providing a set of Galaxy tools wrapped with cutting-edge machine learning algorithms.
 
