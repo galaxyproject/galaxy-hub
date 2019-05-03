@@ -165,7 +165,7 @@ Please click the bug icon to report this problem if you need help.
 
 The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/src/main/index.md) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available on the different clusters [here](/src/main/index.md).
 
-Sometimes the execution time of a job can be shorted by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/src/main/index.md)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
+Sometimes the execution time of a job can be decreased by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/src/main/index.md)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
 
 
 #### How to detect - walltime
