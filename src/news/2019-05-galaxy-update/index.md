@@ -4,7 +4,7 @@ tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blo
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-05-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *May 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
