@@ -45,6 +45,31 @@ Please find additional information on GCC2019 [here](/src/events/gcc2019/index.m
 
 The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/src/events/gcc2019/abstracts).
 
+## Sponsors
+
+We are delighted to have *GigaScience* as a returning sponsor:
+
+### GigaScience
+
+[<img class="mx-auto float-right" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" />](https://academic.oup.com/gigascience)
+
+*[GigaScience](https://academic.oup.com/gigascience)* is an online open access, open data, open peer-review journal published by [Oxford University Press](https://academic.oup.com/) and [BGI](https://www.bgi.com/us/). The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net](http://gigagalaxy.net/) server, **novel work presented at the meeting utilising Galaxy is eligible to a 15% APC if it is submitted to our [Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research)**. 
+
+## GTN CoFest and community call
+
+The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: [one central place](https://training.galaxyproject.org) to aggregate training materials covering many current research topics. Each topic is supported by different tutorials developed and maintained by the community via a [GitHub repository](https://github.com/galaxyproject/training-material).
+
+<img class="float-right" style="max-width: 200px;" src="/events/2019-05-gtn/cofests.png" alt="GTN cofest logo"/>
+
+The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Thursday for a day of the collaborative work on the training content.
+
+**The next one will be on the 16th of May.** Anyone who would like to contribute on any other topics is very welcome to join.
+
+We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.4k1elbsb4dutc8e1lu17030nqs) (drop-in channel we will keep open the whole day) and [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+
+During the day, we plan to have **GTN community calls** to discuss the recent changes and future directions. To accommodate different time zones and schedules, we will have 2 calls (with similar discussions) at [8am (UTC + 2)](http://arewemeetingyet.com/Berlin/2019-05-16/08:00/GTN%20meeting) and [4pm (UTC + 2)](http://arewemeetingyet.com/Berlin/2019-05-16/16:00/GTN%20meeting) via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.4k1elbsb4dutc8e1lu17030nqs).
+
+*If you want to join to help or to talk and learn about the project, let us know on the [Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) or by leaving a comment on the [issue on GitHub](https://github.com/galaxyproject/training-material/issues/1339)*
 
 # Upcoming events
 
@@ -185,7 +210,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 ## Highlighted Publications
 
-Recently added *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications:
+There were 15 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added.  Here are the 10 that are open access.
 
 * **[Tackling “Big Data” with Biology Undergrads: A Simple RNA-seq Data Analysis Tutorial Using Galaxy](https://www.coursesource.org/courses/tackling-big-data-with-biology-undergrads-a-simple-rna-seq-data-analysis-tutorial-using)**, Matthew Anthony Escobar, William Morgan, Irina Makarevitch, Sabrina Robertson. *CourseSource*. https://doi.org/10.24918/cs.2019.13
 * **[Containerization of Galaxy Workflows increases Reproducibility](https://publikationen.uni-tuebingen.de/xmlui/handle/10900/83810)**, Felix Bartusch, Maximilian Hanussek,  Jens Krüger. Proceedings of the 4th bwHPC Symposium
@@ -197,14 +222,7 @@ Recently added *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/or
 * **[Identification of genetic relationships and subspecies signatures in *Xylella fastidiosa*](https://doi.org/10.1186/s12864-019-5565-9)**, Nicolas Denancé, Martial Briand, Romain Gaborieau, Sylvain Gaillard, Marie-Agnès Jacques. *BMC Genomics* 201920:239, doi: 10.1186/s12864-019-5565-9
 * **[Genotyping by sequencing can reveal the complex mosaic genomes in gene pools resulting from reticulate evolution: a case study in diploid and polyploid citrus](https://doi.org/10.1093/aob/mcz029)**, 
 Dalel Ahmed, Aurore Comte, Franck Curk, Gilles Costantino, François Luro, Alexis Dereeper, Pierre Mournet, Yann Froelicher, Patrick Ollitrault. * Annals of Botany*, mcz029, doi: 10.1093/aob/mcz029. Published: 29 March 2019
-* **[Genomic Variants Among Threatened *Acropora* Corals]()**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. G3: Genes, Genomes, Genetics Early online March 26, 2019; doi: 10.1534/g3.119.400125 
-* **[The Galaxy Platform for Reproducible Affinity Proteomic Mass Spectrometry Data Analysis](https://doi.org/10.1007/978-1-4939-9232-4_16)**, Paul A. Stewart, Brent M. Kuenzi, Subina Mehta, Praveen Kumar, James E. Johnson, Pratik Jagtap, Timothy J. Griffin, Eric B. Haura. In: Evans C., Wright P., Noirel J. (eds) Mass Spectrometry of Proteins. Methods in Molecular Biology, vol 1977. Humana Press, New York, NY
-* **[Enabling multi-task computation on Galaxy-based gateways using swift](https://doi.org/10.1109/CLUSTER.2013.6702701)**,  Ketan Maheshwari, Alex Rodriguez, David Kelly, Ravi Madduri, Justin Wozniak, Michael Wilde, Ian Foster.  2013 IEEE International Conference on Cluster Computing (CLUSTER), doi: 10.1109/CLUSTER.2013.6702701
-* **[A comprehensive pipeline for translational top-down proteomics from a single blood draw](https://www.nature.com/articles/s41596-018-0085-7)**, Timothy K. Toby, Luca Fornelli, Kristina Srzentić, Caroline J. DeHart, Josh Levitsky, John Friedewald, Neil L. Kelleher. *Nature Protocols* volume 14, pages119–152 (2019)
-* **[The large genome size variation in the Hesperis clade was shaped by the prevalent proliferation of DNA repeats and rarer genome downsizing](https://doi.org/10.1093/aob/mcz036)**, Petra Hloušková, Terezie Mandáková, Milan Pouch, Pavel Trávníček, Martin A Lysak. *Annals of Botany*, mcz036, doi: 10.1093/aob/mcz036
-* **[CellOrganizer: Learning and Using Cell Geometries for Spatial Cell Simulations](https://doi.org/10.1007/978-1-4939-9102-0_11)**, Timothy D. Majarian, Ivan, Cao-Berg, Xiongtao Ruan, Robert F. Murphy.  In: Hlavacek W. (eds) Modeling Biomolecular Site Dynamics. Methods in Molecular Biology, vol 1945. Humana Press, New York, NY
-
-Ten of the fifteen highlighted publications are open access.
+* **[Genomic Variants Among Threatened *Acropora* Corals]()**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. *G3: Genes, Genomes, Genetics*, Early online March 26, 2019; doi: 10.1534/g3.119.400125 
 
 ## Publication Topics
 
@@ -213,7 +231,7 @@ Ten of the fifteen highlighted publications are open access.
 | 162 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 66 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 36 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 26 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
 | 19 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 18 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
 | 8 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 6 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 5 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 4 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | 
+| 4 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | |
 
 ----
 
@@ -224,43 +242,37 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 ## Single Cell Omics Galaxy workbench 
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/src/use/singlecell/index.md)
+[<img class="float-right" style="max-width: 120px" src="/src/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/src/use/singlecell/index.md)
 
 The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a comprehensive set of analysis tools and consolidated workflows for single cell analysis. The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.
 
 ## NetworkAnalyst 
 
-[<img class="float-right" style="max-width: 300px" src="/src/news/2019-05-galaxy-update/networkanalyst.png" alt="networkanalyst" />](https://www.networkanalyst.ca)
+[<img class="float-right" style="max-width: 170px" src="/src/news/2019-05-galaxy-update/networkanalyst.png" alt="networkanalyst" />](https://www.networkanalyst.ca)
 
 [NetworkAnalyst](https://www.networkanalyst.ca/) is an online analysis environment for transcriptome profiling, network analysis, and meta analysis for gene expression data. NetworkAnalyst has developed and made available a [public Galaxy server](https://galaxy.networkanalyst.ca/) to support raw RNAseq processing for 17 species covering mammals, birds, bacteria, plants and parasites. 
 
-## MiModD NacreousMap
-
-[<img class="float-right" style="max-width: 300px" src="/src/use/mimodd-nacreousmap/baumeister.png" alt="mimodd" />](/src/use/mimodd-nacreousmap/index.md)
-
-The [MiModD NacreousMap server](/src/use/mimodd-nacreousmap/index.md) provides access to the variant identification/annotation and plotting subfunctionality of the MiModD package. Users of CloudMap on the [Galaxy Main](Usegalaxy.org) server or elsewhere who may want to replot their CloudMap analysis results [here](http://mapping-by-sequencing.vm.uni-freiburg.de:8080)users of CloudMap on the Galaxy Main server or elsewhere who may want to replot their CloudMap analysis results here to take advantage of the improved plots generated by the NacreousMap engine. to take advantage of the improved plots generated by the NacreousMap engine.
-
 ## CellOrganizer
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/cell-organizer/cell-organizer-logo2-250.jpg" alt="cellorg" />](/src/use/cell-organizer/index.md)
+[<img class="float-right" style="max-width: 170px" src="/src/use/cell-organizer/cell-organizer-logo2-250.jpg" alt="cellorg" />](/src/use/cell-organizer/index.md)
 
 [CellOragnizer](http://www.cellorganizer.org/) creates generative models of the spatial organization of cells from microscope images and automatically provides geometries for spatial simulations of cell processes and behaviors. A [Galaxy] server provides access to CellOrganizer tools for users who do not have the resources to run the Matlab or Docker versions.
 
 ## CIRM-CFBP
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/cirm-cfbp/cirm-cfbp-banner.png" alt="cirmcfbp" />](/src/use/cirm-cfbp/index.md)
+[<img class="float-right" style="max-width: 200px" src="/src/use/cirm-cfbp/cirm-cfbp-banner.png" alt="cirmcfbp" />](/src/use/cirm-cfbp/index.md)
 
 [International Center for Microbial Resources - Plant Associated Bacteria (CIRM-CFBP)](https://www6.inra.fr/cirm_eng/CFBP-Plant-Associated-Bacteria) is providing web based access to tools ([SkIf](https://sourcesup.renater.fr/wiki/skif/) and [KI-S](https://sourcesup.renater.fr/wiki/ki-s/)) of IRHS-EmerSys lab on the [CIRM-CFBP Galaxy](https://iris.angers.inra.fr/galaxypub-cfbp) instance.
 
-## Galaxy for Compound Activity Classification
+[<img class="float-right" style="max-width: 200px" src="/src/use/gcac/gcac-landing.png" alt="gcac" />](/src/use/gcac/index.md)
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="gcac" />](/src/use/gcac/index.md)
+## Galaxy for Compound Activity Classification
 
 [Galaxy for Compound Activity Classification (GCAC)](https://github.com/LynnLab-JNU/gcac-galaxy-tools)is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrival of potential molecules. [GCAC](/src/use/gcac/index.md) is available as a [public Galaxy server](http://ccbb.jnu.ac.in/gcac), a [VM](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and an installable [Galaxy tool suite](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54) from the toolshed.
 
 ## MGS-FAST
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />](/src/use/mgs-fast/index.md)
+[<img class="float-right" style="max-width: 200px" src="/src/use/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />](/src/use/mgs-fast/index.md)
 
 [MGS-Fast](https://github.com/BCIL/MGS-Fast) is an analysis approach to rapidly map a metagenomics shotgun sequencing (MGS) data set and assign known functions to reads originating from microbial genes, producing counts of KEGG gene orthologs as output. This rapid annotation method is freely available as a [Galaxy workflow within a Docker image](https://hub.docker.com/r/bcil/metagenome).
 
@@ -281,17 +293,15 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>HiCExplorer) | | 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IGGalaxy) | | 1 | [>MGS-Fast](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MGS-Fast) | 
 | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Mississippi) | | 1 | [>NetworkAnalyst](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NetworkAnalyst) | | 1 | [>Proteogenomics Gateway](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Proteogenomics Gateway) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>QuanTP) | 
 | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>TDPortal) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Trinity) | 
-| 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | | | | | | | | | | 
+| 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | | | | | | | | | | |
 
 ----
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/src/blog/index.md)
 
 # New Galactic Blog Post
 
 This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/src/blog/2019-04-gcp/index.md).
-
-[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 220px" />](/src/blog/index.md)
 
 ----
 
@@ -301,14 +311,14 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Senior IT Systems Administrator](https://jobs.rothamsted.ac.uk/vacancies/246/senior-it-systems-administrator.html), [Rothamsted Research](http://www.rothamsted.ac.uk/), Harpenden, United Kingdom
+* [Experienced Galaxy user / programmer / administrator for consulting work](/src/news/2019-05-sarepta/index.md), [Sarepta Therapeutics](https://www.sarepta.com/)
 * [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics andDevelopmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
-* [Biostatistician](https://staff-emory.icims.com/jobs/34339/biostatistician/job?codes=IND&mobile=false&width=669&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Emory University, Atlanta, Georgia, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
-* ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
+* ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
@@ -324,11 +334,9 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub 
 
-[User Authentication and Authorization](/src/authnz/index.md) in Galaxy by 
+The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)]((/src/authnz/cloud/demo/index.md) and [users (how to use that feature)]((/src/authnz/cloud/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
 
-The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)]((/src/authnz/cloud/demo/index.md) and [users (how to use that feature)]((/src/authnz/cloud/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili) and [Enis Afgan](https://github.com/afgane) for their contributions. 
-
-
+Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentication and Cloud Authorization in the Galaxy project](https://www.slideshare.net/jalilivahid/user-authentication-and-cloud-authorization-in-the-galaxy-project)
 
 ## GTN Training Materials
 
@@ -366,4 +374,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 ----
 
 # Other News
+
 * The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) held a training and tools workshop in Roscoff, France. Check out the [meeting summary](https://galaxyproject.eu/posts/2019/04/26/elixir-galaxy-roscoff-ws/).
+* [Galaxy-ML](https://github.com/ohsu-comp-bio/Galaxy-ML): a GitHub repo from [Qiang Gu](https://github.com/qiagu) of [OHSU](https://ohsu.edu/), providing a set of Galaxy tools wrapped with cutting-edge machine learning algorithms.
+
