@@ -1,6 +1,6 @@
 ---
 title: 'May 2019 Galactic News'
-tease: 'GCC2019 registration / Poster/Demo abstrcts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
+tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
 date: "2019-05-06"
 ---
 
@@ -267,7 +267,7 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 [<img class="float-right" style="max-width: 170px" src="/src/use/cell-organizer/cell-organizer-logo2-250.jpg" alt="cellorg" />](/src/use/cell-organizer/index.md)
 
-[CellOragnizer](http://www.cellorganizer.org/) creates generative models of the spatial organization of cells from microscope images and automatically provides geometries for spatial simulations of cell processes and behaviors. A [Galaxy](http://galaxy.compbio.cs.cmu.edu:8080/) server provides access to CellOrganizer tools for users who do not have the resources to run the Matlab or Docker versions.
+[CellOrganizer](http://www.cellorganizer.org/) creates generative models of the spatial organization of cells from microscope images and automatically provides geometries for spatial simulations of cell processes and behaviors. A [Galaxy](http://galaxy.compbio.cs.cmu.edu:8080/) server provides access to CellOrganizer tools for users who do not have the resources to run the Matlab or Docker versions.
 
 ## CIRM-CFBP
 
@@ -338,7 +338,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub 
 
-The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)]((/src/authnz/cloud/demo/index.md) and [users (how to use that feature)]((/src/authnz/cloud/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
+The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)](/src/authnz/config/index.md) and [users (how to use that feature)](/src/authnz/use/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
 
 Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentication and Cloud Authorization in the Galaxy project](https://www.slideshare.net/jalilivahid/user-authentication-and-cloud-authorization-in-the-galaxy-project)
 
