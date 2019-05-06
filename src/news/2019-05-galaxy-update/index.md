@@ -1,22 +1,28 @@
 ---
 title: 'May 2019 Galactic News'
-tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: ""
+tease: 'GCC2019 registration / Poster/Demo abstrcts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
+date: "2019-05-06"
 ---
 
 [<img class="float-right" src="/src/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *May 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
-* Event News
-    * **[GCC2019 discounted registration ends soon!](/src/news/2019-05-galaxy-update/index.md#gcc2019-registration)**
+* Events
+  * **[GCC2019](/src/news/2019-05-galaxy-update/index.md#gcc2019-registration):**
+    * **Early registration ends 17 May**
+    * Poster and Demo Abstract Submission is open
+    * Travel Fellowships: 2nd round ends this Friday
+    * *GigaScience* returns as a GCC sponsor!
+  * [GTN CoFest and Community Call: 16 May](/src/news/2019-05-galaxy-update/index.md#gtn-cofest-and-community-call)
+  * Plus [17 other upcoming events](/src/news/2019-05-galaxy-update/index.md#upcoming-events) in the next 90 days
 * [265 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including a single cell 'omics workbench, network analysis, subcellular spatial organization modeling, and more!
 * A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), Galaxy hearts GCP.  
 * At least [11 Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in six countries on two continents. 
 * [Updates to training materials](/src/news/2019-05-galaxy-update/index.md#doc-hub-and-training-updates).
-* [ToolShed contributions](/src/news/2019-05-galaxy-update/index.md#toolshed-contributions).
-* And [a bunch of other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
+* [New releases](/src/news/2019-05-galaxy-update/index.md#releases).
+* And [some other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -247,7 +253,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 ## Single Cell Omics Galaxy workbench 
 
-[<img class="float-right" style="max-width: 120px" src="/src/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/src/use/singlecell/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/src/use/singlecell/index.md)
 
 The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a comprehensive set of analysis tools and consolidated workflows for single cell analysis. The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.
 
@@ -269,9 +275,9 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 [International Center for Microbial Resources - Plant Associated Bacteria (CIRM-CFBP)](https://www6.inra.fr/cirm_eng/CFBP-Plant-Associated-Bacteria) is providing web based access to tools ([SkIf](https://sourcesup.renater.fr/wiki/skif/) and [KI-S](https://sourcesup.renater.fr/wiki/ki-s/)) of IRHS-EmerSys lab on the [CIRM-CFBP Galaxy](https://iris.angers.inra.fr/galaxypub-cfbp) instance.
 
-## Galaxy for Compound Activity Classification
-
 [<img class="float-right" style="max-width: 200px" src="/src/use/gcac/gcac-landing.png" alt="gcac" />](/src/use/gcac/index.md)
+
+## Galaxy for Compound Activity Classification
 
 [Galaxy for Compound Activity Classification (GCAC)](https://github.com/LynnLab-JNU/gcac-galaxy-tools)is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrival of potential molecules. [GCAC](/src/use/gcac/index.md) is available as a [public Galaxy server](http://ccbb.jnu.ac.in/gcac), a [VM](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and an installable [Galaxy tool suite](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54) from the toolshed.
 
