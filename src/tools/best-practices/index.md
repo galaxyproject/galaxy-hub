@@ -1,3 +1,5 @@
-#REFRESH 0 https://galaxy-iuc-standards.readthedocs.org/en/latest/
+---
+redirect: "https://galaxy-iuc-standards.readthedocs.org/en/latest/"
+---
 
-This document moved to https://galaxy-iuc-standards.readthedocs.org/en/latest/
+This document has moved to https://galaxy-iuc-standards.readthedocs.org/en/latest/
