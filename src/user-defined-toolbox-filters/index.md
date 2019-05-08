@@ -6,8 +6,9 @@ This feature is available as of the November 2013 Galaxy distribution, being ori
 
 [ToolBox](/src/ToolBox/index.md) filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.
 
-<!> 
-Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox. 
+<div class="alert alert-info" role="alert">
+Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said this is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox. 
+</div>
 
 ## For Users
 
