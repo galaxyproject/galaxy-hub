@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://vm-chemflow-francegrille.eu/"
     platform_text: "ChemFlow"
+    platform_location: FR
 summary: "Chemometrics without programming: infrared spectrometry on a Galaxy platform."
 image: "/src/use/chemflow/chemflow-logo.png"
 comments:

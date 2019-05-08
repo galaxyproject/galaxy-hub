@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://cpt.tamu.edu/galaxy-pub/"
     platform_text: "Center for Phage Technology (CPT) Galaxy Server"
+    platform_location: US
 summary: "Phage biology and automated annotation. "
 image: "/src/use/center-for-phage-technology-cpt/cpt-logo.png"
 comments:

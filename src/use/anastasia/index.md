@@ -2,11 +2,12 @@
 title: "ANASTASIA"
 url: "http://motherbox.chemeng.ntua.gr/anastasia_dev/"
 scope: "general"
-platforms: 
+platforms:
   - platform_group: "public-server"
     platform_url: "http://motherbox.chemeng.ntua.gr/anastasia_dev/"
     platform_text: "ANASTASIA Server"
-summary: "**A**utomated **N**ucleotide **A**minoacid **S**equences **T**ranslational pl**A**tform 
+    platform_location: GR
+summary: "**A**utomated **N**ucleotide **A**minoacid **S**equences **T**ranslational pl**A**tform
 for **S**ystemic **I**nterpretation and **A**nalysis"
 image: "/src/use/anastasia/anastasia-landing-page-450.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://bioinf-galaxian.erasmusmc.nl/galaxy/"
     platform_text: "Erasmus MC Bioinformatics Galaxy Server"
+    platform_location: NL
 summary: "General purpose genomics analysis, featuring many standard tools plus many additional tools. "
 image: "/src/use/erasmus-mc/erasmus-mc-bioinf-300.png"
 comments:

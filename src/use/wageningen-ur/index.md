@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.wur.nl/"
     platform_text: "Wageningen UR Galaxy"
+    platform_location: NL
 summary: "Includes microarray tools, the MUMmer suite, and many conversion tools. Strong focus on multi-omics: next to genomics tools it also contains proteomics and metabolomics tools "
 image: "/src/use/wageningen-ur/wageningen.png"
 comments:

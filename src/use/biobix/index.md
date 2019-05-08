@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.ugent.be/"
     platform_text: "BioBix Galaxy"
+    platform_location: BE
 summary: "A general genomics server. Includes the PROTEOFORMER pipeline tools."
 image: "/src/use/biobix/biobix_logo.png"
 comments:

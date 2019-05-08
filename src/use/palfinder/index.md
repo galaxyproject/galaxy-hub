@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://palfinder.ls.manchester.ac.uk/"
     platform_text: "Galaxy Palfinder Service"
+    platform_location: UK
 summary: "Microsatellite development."
 image: "/src/use/palfinder/palfinder.png"
 comments:

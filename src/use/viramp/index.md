@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://viramp.com/"
     platform_text: "VirAmp Galaxy"
+    platform_location: US
 summary: "VirAmp is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. "
 image: "/src/use/viramp/viramp-home.png"
 comments:

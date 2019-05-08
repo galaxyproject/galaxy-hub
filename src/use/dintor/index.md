@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://dintor.eurac.edu/"
     platform_text: "Dintor: Data Integrator Tool Suite"
+    platform_location: US
 summary: "GWA and NGS tools and modules for functional annotation of genes and gene products "
 image: "/src/use/dintor/dintor.png"
 comments:

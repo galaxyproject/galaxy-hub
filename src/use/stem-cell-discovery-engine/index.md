@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://discovery.hsci.harvard.edu/galaxy"
     platform_text: "Stem Cell Discovery Engine (SCDE)"
+    platform_location: US
 summary: "Database of curated cancer stem cell experiments coupled to Galaxy. "
 image: "/src/use/stem-cell-discovery-engine/scde.png"
 comments:

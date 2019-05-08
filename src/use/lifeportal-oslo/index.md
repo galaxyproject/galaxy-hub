@@ -7,6 +7,7 @@ platforms:
     platform_purview: "Norway"
     platform_url: "https://lifeportal.uio.no"
     platform_text: "Server"
+    platform_location: NO
 summary: "a Galaxy instance to satisfy the computational needs of the Norwegian research community in life sciences but also of any other user willing to use the service."
 image: "/src/use/lifeportal-oslo/lifeportal.png"
 comments:

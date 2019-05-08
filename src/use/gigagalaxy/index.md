@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://gigagalaxy.net/"
     platform_text: "GigaGalaxy"
+    platform_location: HK
 summary: "GigaGalaxy hosts tools and data analyses from papers published in *[GigaScience](http://www.gigasciencejournal.com/)*."
 image: "/src/use/gigagalaxy/gigagalaxy-nebula.png"
 comments:

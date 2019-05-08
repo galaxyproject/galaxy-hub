@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://mpds.osdd.net/"
     platform_text: "Molecular Property Diagnostic Suite - Tuberculosis (MPDSTB)"
+    platform_location: IN
 summary: "A disease-specific web portal for Tuberculosis for drug discovery and development. "
 image: "/src/use/mpdstb/mpdstb.png"
 comments:

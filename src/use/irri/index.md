@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.irri.org/"
     platform_text: "IRRI Galaxy"
+    platform_location: PH
 summary: "Bioinformatics workbench, with rice-specific data (i.e. genomes) and tools (mostly specialized for the [IRRI Genotyping Service Laboratory](http://gsl.irri.org/)) installed. "
 image: "/src/use/irri/irri.png"
 comments:
