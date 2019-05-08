@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://bioinformatics.mpi-bn.mpg.de/"
     platform_text: "MPI-HLR Bioinformatics Server"
+    platform_location: DE
 summary: "Hosts the MIRPIPE, ADMIRE, and LimiTT tools "
 image: "/src/use/mpi-hlr-bioinformatics-server/mpi-hlr-home-page.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.splicebase.net/"
     platform_text: "Splicescope"
+    platform_location: US
 summary: "Prediction of neuronal maturation using splicing profiles"
 image: "/src/use/splicescope/zhang-lab.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxyp.org/"
     platform_text: "Use Galaxy-P"
+    platform_location: US
 summary: "Galaxy-P is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/)."
 image: "/src/use/galaxy-p/get-galaxy-p-home.png"
 comments:

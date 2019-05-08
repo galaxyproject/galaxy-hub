@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.mpds-diabetes.in/"
     platform_text: "Molecular Property Diagnostic Suite - Diabetes Mellitus Portal (MPDSDM)"
+    platform_location: IN
 summary: "A disease-specific open source web portal for Diabetes Mellitus."
 image: "/src/use/mpdsdm/mpdsdm.png"
 comments:

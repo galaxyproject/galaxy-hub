@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://cart.embl.de/"
     platform_text: "Server"
+    platform_location: DE
 summary: "Retrieves annotations on biological effects of chemicals and determines which ones are enriched. "
 image: "/src/use/cart/cart.png"
 comments:

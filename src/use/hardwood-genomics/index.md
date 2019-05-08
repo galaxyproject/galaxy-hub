@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows"
     platform_text: "Hardwood Genomics"
+    platform_location: US
 summary: "A simplified, workflow-centic interface to Galaxy, focused on genomics data from hardwood trees."
 image: "/src/use/hardwood-genomics/hardwood-geonomics-logo.jpg"
 comments:

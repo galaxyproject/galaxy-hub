@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.hunter.cuny.edu:8080/"
     platform_text: "Hunter College Server"
+    platform_location: US
 summary: "A general purpose genomics server"
 image: "/src/use/hunter/hunter-college-logo-trans.png"
 comments:

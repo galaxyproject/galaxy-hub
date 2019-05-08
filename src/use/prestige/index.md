@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://prestige.case.edu/"
     platform_text: "PreSTIGE"
+    platform_location: US
 summary: "Predicting Specific Tissue Interactions of Genes and Enhancers "
 image: "/src/use/prestige/prestige.png"
 comments:

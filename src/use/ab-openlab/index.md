@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://ab-openlab.csir.res.in/frog/"
     platform_text: "FROG Server"
+    platform_country: IN
 summary: "FROG stands for **F**inge**R**printing **O**ntology of **G**enomic variations. FROG fingerprints have been devised to capture genomic variations at various levels."
 image: "/src/use/ab-openlab/frog.png"
 comments:

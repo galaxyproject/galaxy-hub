@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://repeatexplorer-elixir.cerit-sc.cz/"
     platform_text: "RepeatExplorer"
+    platform_location: CZ
 summary: "Graph-based clustering and characterization of repetitive sequences, and detection of transposable element protein coding domains."
 image: "/src/use/repeatexplorer/repeatexplorer-home-page-300.png"
 comments:

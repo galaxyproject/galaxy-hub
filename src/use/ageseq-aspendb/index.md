@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://aspendb.uga.edu:8085/"
     platform_text: "AGEseq Galaxy @ AspenDB"
+    platform_country: US
 summary: "This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance. "
 image: "/src/use/ageseq-aspendb/aspen-db-300.png"
 comments:
@@ -15,11 +16,11 @@ comments:
   - "AGEseq is also available from the [Galaxy Tool Shed](https://toolshed.g2.bx.psu.edu/) for installation into your local Galaxy instance."
 user_support:
   - "Please email questions and suggestions to [Liangjiao Xue](mailto:lxue AT uga DOT edu)."
-quotas: 
+quotas:
 citations:
   - "[AGEseq: Analysis of Genome Editing by Sequencing](https://doi.org/10.1016/j.molp.2015.06.001). Xue LJ and Tsai CJ (2015). *Molecular Plant.* doi:10.1016/j.molp.2015.06.001"
 pub_libraries:
   - "AGEseq"
-sponsors: 
+sponsors:
   - "[Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia."
 ---

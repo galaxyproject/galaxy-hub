@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.ngs-qc.org/"
     platform_text: "NGS-QC Server"
+    platform_location: FR
 summary: "Evaluate the quality of your favorite ChIP-seq or enrichment-related NGS dataset using [NGS-QC Generator](http://www.ngs-qc.org/), which also includes a [database with preprocessed profiles and a tutorial on how to analyze sequencing profiles yourself](http://www.ngs-qc.org/database.php)."
 image: "/src/use/ngs-qc/ngs-qc-generator.png"
 comments:

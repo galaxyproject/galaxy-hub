@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://gio.sbcs.qmul.ac.uk/"
     platform_text: "GIO Server"
+    platform_location: UK
 summary: "Proteomics Informed by Transcriptomics (PIT) methodology, and selection of surrogate peptides for targeted proteomics. "
 image: "/src/use/galaxy-integrated-omics-gio/gio-logo.png"
 comments:

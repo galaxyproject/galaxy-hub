@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://cefap.icb.usp.br/galaxy"
     platform_text: "Galaxy-CEFAP"
+    platform_location: BR
 summary: "Galaxy-CEFAP offers a set of tools to perform RNA-Seq and miRNA analysis. "
 image: "/src/use/galaxy-cefap/cefap-logo.png"
 comments:

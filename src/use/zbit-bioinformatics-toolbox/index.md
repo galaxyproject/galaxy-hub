@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://webservices.cs.uni-tuebingen.de/"
     platform_text: "ZBIT Bioinformatics Toolbox"
+    platform_location: DE
 summary: "This customized version of the Galaxy webservice framework was set up to allow the public access of our bioinformatics tools. These tools were developed and implemented by members of the [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/). "
 image: "/src/use/zbit-bioinformatics-toolbox/zbit.png"
 comments:

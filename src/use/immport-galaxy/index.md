@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://immportgalaxy.org/"
     platform_text: "ImmPort Galaxy"
+    platform_location: US
 summary: "Flow Cytometry Analysis. "
 image: "/src/use/immport-galaxy/immport.png"
 comments:

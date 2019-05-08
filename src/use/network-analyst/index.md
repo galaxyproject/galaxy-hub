@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://galaxy.networkanalyst.ca/"
     platform_text: "NetworkAnalyst Galaxy Server"
+    platform_location: CA
 summary: "For mapping and quantification of raw RNA-seq data"
 image: "/src/use/network-analyst/networkanalyst-logo.png"
 comments:

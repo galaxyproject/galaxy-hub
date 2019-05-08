@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://huttenhower.sph.harvard.edu/galaxy/"
     platform_text: "Huttenhower Lab"
+    platform_location: US
 summary: "metagenomic and functional genomic analyses, intended for research and academic use "
 image: "/src/use/huttenhower-lab/huttenhower-lab.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://socscicompute.ss.uci.edu/"
     platform_text: "CoSSci Complex Social Science Gateway"
+    platform_location: US
 summary: "Tools for solving [Galton's problem](http://en.wikipedia.org/wiki/Galton's_problem) in Comparative Research and complex network problems in Social Science. "
 image: "/src/use/cossci/cossci-map.png"
 comments:

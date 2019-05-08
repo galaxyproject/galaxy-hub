@@ -7,6 +7,7 @@ platforms:
     platform_purview: "Norway"
     platform_url: "https://nels.bioinfo.no"
     platform_text: "Norwegian e-Infrastructure for Life Sciences (NeLS)"
+    platform_location: NO
 summary: "Life Science platform for Norwegian academic researchers."
 image: "/src/use/nels/nels-logo-300.png"
 comments:
