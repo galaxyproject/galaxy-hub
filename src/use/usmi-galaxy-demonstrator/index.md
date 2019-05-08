@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://bioinformatics.hsanmartino.it:8080/"
     platform_text: "USMI Galaxy Demonstrator"
+    platform_location: IT
 summary: "This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment. "
 image: "/src/use/usmi-galaxy-demonstrator/usmi.png"
 comments:

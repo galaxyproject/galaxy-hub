@@ -6,6 +6,7 @@ platforms:
   - platform_group: "container"
     platform_url: "http://megares.meglab.org/amrplusplus/latest/html/"
     platform_text: "AmrPlusPlus Docker"
+    platform_location: US
 summary: "A Galaxy-based metagenomics pipeline that is intuitive and easy to use."
 image: "/src/use/amrplusplus/amrplusplus-flowchart.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://osddlinux.osdd.net:8001/"
     platform_text: "OSDDlinux LiveGalaxy"
+    platform_location: IN
 summary: "Drug discovery "
 image: "/src/use/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png"
 comments:

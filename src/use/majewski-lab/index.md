@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://genomequebec.mcgill.ca/exomeai"
     platform_text: "Majewski Lab ExomeAI Server"
+    platform_location: CA
 summary: "Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data. "
 image: "/src/use/majewski-lab/mcgill-qgic.png"
 comments:

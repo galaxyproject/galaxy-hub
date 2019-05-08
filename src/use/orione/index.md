@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://orione.crs4.it/"
     platform_text: "Orione"
+    platform_location: IT
 summary: "A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines. "
 image: "/src/use/orione/orione-logo.png"
 comments:

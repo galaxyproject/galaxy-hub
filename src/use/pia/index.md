@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy-dev.cnsi.ucsb.edu/pia/"
     platform_text: "PIA Galaxy"
+    platform_location: US
 summary: "Phylogenetics and gene interaction "
 image: "/src/use/pia/pia-image.jpg"
 comments:

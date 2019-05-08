@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://pistacho.ac.uma.es/galaxy/"
     platform_text: "BitLAB Galaxy"
+    platform_location: ES
 summary: "Detailed analysis of metagenomes. "
 image: "/src/use/bitlab/bitlab.png"
 comments:

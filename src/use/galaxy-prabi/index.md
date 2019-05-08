@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.prabi.fr/"
     platform_text: "Galaxy@PRABI"
+    platform_location: FR
 summary: "Includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam*."
 image: "/src/images/logos/PRABILogo.png"
 comments:
