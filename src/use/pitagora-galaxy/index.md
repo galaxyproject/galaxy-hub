@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://try.pitagora-galaxy.org/galaxy/"
     platform_text: "Pitagora-Galaxy Server"
+    platform_location: JP
   - platform_group: "vm"
     platform_url: "http://www.pitagora-galaxy.org/download"
     platform_text: "Pitagora-Galaxy VM"
@@ -19,13 +20,13 @@ comments:
   - "[Building Galaxy Japan Community](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota Yamanaka at Genome Informatics 2014."
 image: "/src/use/pitagora-galaxy/pitagora.png"
 user_support:
-  - "Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)" 
+  - "Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)"
 quotas:
   - "Public Server: See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server."
 citations:
 pub_libraries:
   - Pitagora
-sponsors: 
+sponsors:
   - "[Genome Science Division, RCAST, The University of Tokyo](http://www.genome.rcast.u-tokyo.ac.jp/en/)"
   - "[Laboratory for Disease Systems Modeling, IMS, RIKEN](http://www.riken.jp/en/research/labs/ims/dis_sys_model/)"
   - "[Database Center for Life Science, ROIS](http://dbcls.rois.ac.jp/en/)"

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://math-galaxy.cgrb.oregonstate.edu:8080/"
     platform_text: "Koslicki Lab Galaxy server"
+    platform_location: US
 summary: "Web based access to tools created by the Koslicki Lab at Oregon State University. "
 image: "/src/images/logos/OregonStateU.jpg"
 comments:

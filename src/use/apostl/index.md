@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://apostl.moffitt.org/"
     platform_text: "APOSTL Galaxy Server"
+    platform_location: US
 summary: "Automated Processing of SAINT Templated Layouts (APOSTL) is a freely available software suite and analysis pipeline for reproducible, interactive analysis of AP-MS data. "
 image: "/src/use/apostl/apostl-logo-300.png"
 comments:

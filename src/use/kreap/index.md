@@ -6,6 +6,7 @@ platforms:
   - platform_group: "vm"
     platform_url: "https://erasmusmc-bioinformatics.github.io/KREAP/"
     platform_text: "KREAP"
+    platform_location: NL
 summary: "Kinetic Re-Epithelialization Analysis Pipeline"
 comments:
   - "This service is available for downloads as a virtual machine as a Galaxy service."
@@ -23,6 +24,6 @@ citations:
   - "[KREAP: an automated Galaxy platform to quantify *in vitro* re-epithelialization kinetics](https://doi.org/10.1093/gigascience/giy078), Marcela M. Fernandez-Gutierrez, David B.H. van Zessen, Peter van Baarlen, Michiel Kleerebezem and Andrew P. Stubbs. *GigaScience*, 7, 2018, 1–9 doi: 10.1093/gigascience/giy078"
 pub_libraries:
   - "KREAP"
-sponsors: 
+sponsors:
   - "[ErasmusMC Bioinformatics](http://bioinformatics.erasmusmc.nl/)"
 ---

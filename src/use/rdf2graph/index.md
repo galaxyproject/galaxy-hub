@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://semantics.systemsbiology.nl/RDF2Graph/"
     platform_text: "RDF2Graph Server"
+    platform_location: NL
 summary: "RDF2Graph recovers the structure of an RDF resource. "
 image: "/src/use/rdf2graph/rdf2graph_reactome.png"
 comments:

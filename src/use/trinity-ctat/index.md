@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://galaxy.ncgas-trinity.indiana.edu/"
     platform_text: "Trinity CTAT Galaxy"
+    platform_location: US
   - platform_group: "container"
     platform_url: "https://github.com/NCIP/Trinity_CTAT_galaxy/wiki/Intro"
     platform_text: "Docker-ctat-galaxy"

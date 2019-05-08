@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy-dev.cnsi.ucsb.edu/osiris/"
     platform_text: "Osiris Galaxy"
+    platform_location: US
 summary: "Phylogenetics "
 image: "/src/use/osiris/osiris-logo.jpg"
 comments:

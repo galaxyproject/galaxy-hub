@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://ccbb.jnu.ac.in/gcac"
     platform_text: "GCAC server"
+    platform_location: IN
   - platform_group: "vm"
     platform_url: "https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing"
     platform_text: "GCAC VM"
@@ -21,7 +22,7 @@ quotas:
 citations:
   - "[GCAC: galaxy workflow system for predictive model building for virtual screening](https://doi.org/10.1186/s12859-018-2492-8), Deepak R. Bharti, Anmol J. Hemrom and Andrew M. Lynn. *BMC Bioinformatics* 2019 19 (Suppl 13) :550 doi:10.1186/s12859-018-2492-8"
 pub_libraries:
-  - "GCAC"  
+  - "GCAC"
 sponsors:
   - "[Jawaharlal Nehru University](https://www.jnu.ac.in/main/)"
 ---

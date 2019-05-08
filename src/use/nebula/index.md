@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://nebula.curie.fr/"
     platform_text: "Nebula"
+    platform_location: FR
 summary: "allows users (Bioinformaticians as far as Biologists) to analyze their ChIP-seq data. "
 image: "/src/use/nebula/nebula.png"
 comments:

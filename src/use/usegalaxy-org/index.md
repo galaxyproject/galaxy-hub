@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxy.org"
     platform_text: "UseGalaxy.org Server (Main)"
+    platform_location: US
 summary: "The [Galaxy Project](/galaxy-project/) free public server; biomedical research "
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/main/index.md) for more."
@@ -21,8 +22,8 @@ user_support:
   - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
   - "[Support](/src/support/index.md)"
-quotas: 
+quotas:
   - "Storage and computational quotas.  See [Main](/src/main/index.md) for details."
-sponsors: 
+sponsors:
   - "[Galaxy Project](/src/galaxy-project/index.md)"
 ---

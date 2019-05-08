@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.lappsgrid.org/"
     platform_text: "LAPPS Grid Galaxy Workflow Engine"
+    platform_location: NO
 summary: "An open, interoperable web service platform for natural language processing (NLP) research and development.  "
 image: "/src/use/lapps-grid/lapps-grid.png"
 comments:

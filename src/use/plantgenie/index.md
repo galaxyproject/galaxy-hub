@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.plantgenie.org:8080/"
     platform_text: "PlantGenIE"
+    platform_location: SE
 summary: "Plant Genome Integrative Explorer Galaxy instance"
 image: "/src/use/plantgenie/plantgenie-logo.png"
 comments:

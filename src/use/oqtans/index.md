@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.inf.ethz.ch"
     platform_text: "Oqtans Galaxy Server"
+    platform_location: CH
   - platform_group: "commercial-cloud"
     platform_url: "http://www.oqtans.org/instantiate"
     platform_text: "Oqtans on AWS"

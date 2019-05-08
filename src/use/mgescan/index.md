@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://mgescan.readthedocs.org/en/latest/server.html"
     platform_text: "MGEScan on Galaxy Workflow System"
+    platform_location: US
   - platform_group: "commercial-cloud"
     platform_url: "http://mgescan.readthedocs.org/en/latest/aws.html"
     platform_text: "MGEScan on Amazon Web Services"

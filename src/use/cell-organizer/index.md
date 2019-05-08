@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.compbio.cs.cmu.edu:8080"
     platform_text: "CellOrganizer Galaxy"
+    platform_location: US
 summary: '"Create generative models of the spatial organization of cells from microscope images and automatically provide geometries for spatial simulations of cell processes and behaviors"'
 image: "/src/use/cell-organizer/cell-organizer-logo2-250.jpg"
 comments:
@@ -21,5 +22,5 @@ citations:
 pub_libraries:
   - "CellOrganizer"
 sponsors:
-  - "Support for *CellOrganizer* has been provided by grants GM075205, GM090033 and GM103712 from the [National Institute of General Medical Sciences](http://www.nigms.nih.gov), grants MCB1121919 and MCB1121793 from the [U.S. National Science Foundation](http://nsf.gov), by a Forschungspreis from the [Alexander von Humboldt Foundation](http://www.humboldt-foundation.de), and by the [Freiburg Institute for Advanced Studies](http://www.frias.uni-freiburg.de/en/home?set_language=en)."				
+  - "Support for *CellOrganizer* has been provided by grants GM075205, GM090033 and GM103712 from the [National Institute of General Medical Sciences](http://www.nigms.nih.gov), grants MCB1121919 and MCB1121793 from the [U.S. National Science Foundation](http://nsf.gov), by a Forschungspreis from the [Alexander von Humboldt Foundation](http://www.humboldt-foundation.de), and by the [Freiburg Institute for Advanced Studies](http://www.frias.uni-freiburg.de/en/home?set_language=en)."
 ---

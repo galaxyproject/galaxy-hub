@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://cloudimaging.net.au/"
     platform_text: "Image Analysis and Processing Toolkit Server"
+    platform_location: AU
 summary: "Image analysis and processing. "
 image: "/src/use/iaptk/image-analysis-toolkit.png"
 comments:

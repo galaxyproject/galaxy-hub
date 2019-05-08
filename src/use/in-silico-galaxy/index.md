@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://insilico.utulsa.edu/galaxy/"
     platform_text: "In Silico Galaxy"
+    platform_location: US
 summary: "Construction, analysis, and visualization of gene-gene interaction networks for sequencing data.  "
 image: "/src/images/logos/UTulsaLogo.png"
 comments:

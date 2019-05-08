@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://mbac.gmu.edu:8080/"
     platform_text: "MBAC Metabiome Server"
+    platform_location: US
 summary: "Simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome). "
 image: "/src/use/mbac-metabiome-portal/mbac-portal-landing-page.png"
 comments:

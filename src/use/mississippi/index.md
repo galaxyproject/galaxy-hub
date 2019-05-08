@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://mississippi.fr/"
     platform_text: "MISSISSIPPI Server"
+    platform_location: FR
 summary: "Support for analyses of RNA and small RNA sequencing datasets as well as for epigenetics or metagenomics studies. "
 image: "/src/use/mississippi/mississippi-logo.png"
 comments:

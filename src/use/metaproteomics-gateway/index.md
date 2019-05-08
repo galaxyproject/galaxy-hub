@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://z.umn.edu/metaproteomicsgateway"
     platform_text: "Galaxy-P Metaproteomics Gateway"
+    platform_location: US
 summary: "Metaproteomics gateway providing access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized metaproteomics workflows"
 image: "/src/use/metaproteomics-gateway/metaproteomics-gateway-landing-400.png"
 comments:
