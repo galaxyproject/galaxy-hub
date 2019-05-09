@@ -1,6 +1,6 @@
 ---
 title: 'May 2019 Galactic News'
-tease: 'GCC2019 registration / Poster/Demo abstrcts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
+tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
 date: "2019-05-06"
 ---
 
@@ -99,7 +99,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 <tr>
   <td><span class="text-nowrap">May 7th 2019</span></td>
   <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=GENOME&amp;year=19">Streamlining accessibility and computability of large-scale genomic datasets with the NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-Space (AnVIL)</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=GENOME&amp;year=19">Biology of Genomies, CSHL, Cold Spring Harbor, New York, United States</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=GENOME&amp;year=19">Biology of Genomes, CSHL, Cold Spring Harbor, New York, United States</a></td>
   <td>James Taylor</td>
 </tr>
 <tr>
@@ -221,12 +221,11 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 ## Highlighted Publications
 
-There were 15 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added.  Here are the 10 that are open access.
+There were 15 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added.  Here are the open access ones.
 
 * **[Tackling “Big Data” with Biology Undergrads: A Simple RNA-seq Data Analysis Tutorial Using Galaxy](https://www.coursesource.org/courses/tackling-big-data-with-biology-undergrads-a-simple-rna-seq-data-analysis-tutorial-using)**, Matthew Anthony Escobar, William Morgan, Irina Makarevitch, Sabrina Robertson. *CourseSource*. https://doi.org/10.24918/cs.2019.13
 * **[Containerization of Galaxy Workflows increases Reproducibility](https://publikationen.uni-tuebingen.de/xmlui/handle/10900/83810)**, Felix Bartusch, Maximilian Hanussek,  Jens Krüger. Proceedings of the 4th bwHPC Symposium
 * **[Desarrollo y despliegue de un workflow para el análisis genómico de *Campylobacter Jejuni*](https://repositorio.uam.es/handle/10486/687147)**, José Antonio Barbero Aparicio, thesis, Universidad Autónoma de Madrid
-* **[MGS-Fast: Metagenomic shotgun data fast annotation using microbial gene catalogs](https://doi.org/10.1093/gigascience/giz020)**, Stuart M Brown, Hao Chen, Yuhan Hao, Bobby P Laungani, Thahmina A Ali, Changsu Dong, Carlos Lijeron, Baekdoo Kim, Claudia Wultsch, Zhiheng Pei, Konstantinos Krampis. *GigaScience*, Volume 8, Issue 4, April 2019, giz020, doi: 10.1093/gigascience/giz020
 * **[NetworkAnalyst 3.0: a visual analytics platform for comprehensive gene expression profiling and meta-analysis](https://doi.org/10.1093/nar/gkz240)**, Guangyan Zhou, Othman Soufan, Jessica Ewald, Robert E W Hancock, Niladri Basu, Jianguo Xia. *Nucleic Acids Research*, gkz240, doi: 10.1093/nar/gkz240
 * **[Comparative Dissection of Three Giant Genomes: *Allium cepa, Allium sativum*, and *Allium ursinum*](https://doi.org/10.3390/ijms20030733)**, Vratislav Peška, Terezie Mandáková, Veronika Ihradská, Jiří Fajkus. *Int. J. Mol. Sci.* 2019, 20, 733. 
 * **[A rapid and simple method for assessing and representing genome sequence relatedness](https://www.biorxiv.org/content/10.1101/569640v2)**, *bioRxiv*, M Briand, M Bouzid, G Hunault, M Legeay, M Fischer-Le Saux, M Barret, doi: 10.1101/569640 
@@ -279,7 +278,7 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 ## Galaxy for Compound Activity Classification
 
-[Galaxy for Compound Activity Classification (GCAC)](https://github.com/LynnLab-JNU/gcac-galaxy-tools)is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrival of potential molecules. [GCAC](/src/use/gcac/index.md) is available as a [public Galaxy server](http://ccbb.jnu.ac.in/gcac), a [VM](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and an installable [Galaxy tool suite](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54) from the toolshed.
+[Galaxy for Compound Activity Classification (GCAC)](https://github.com/LynnLab-JNU/gcac-galaxy-tools)is a one stop solution for data generation, data preparation, feature selection, model building, prediction and retrieval of potential molecules. [GCAC](/src/use/gcac/index.md) is available as a [public Galaxy server](http://ccbb.jnu.ac.in/gcac), a [VM](https://drive.google.com/file/d/1ZQM5x-9J49rvPy9SoWOrM3Xm1MHZdr1I/view?usp=sharing), and an installable [Galaxy tool suite](https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54) from the toolshed.
 
 ## MGS-FAST
 
@@ -317,7 +316,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Post-doc position in Computational Biology / Genomics / Transcriptomics / Bioinformatics](/src/news/2019-04-eth/index.md), ETH Zurich, Switzerland
 * [Senior IT Systems Administrator](https://jobs.rothamsted.ac.uk/vacancies/246/senior-it-systems-administrator.html), [Rothamsted Research](http://www.rothamsted.ac.uk/), Harpenden, United Kingdom
 * [Experienced Galaxy user / programmer / administrator for consulting work](/src/news/2019-05-sarepta/index.md), [Sarepta Therapeutics](https://www.sarepta.com/)
-* [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics andDevelopmental Biology, Paris, France
+* [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics and Developmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
@@ -326,7 +325,7 @@ The *dark energy* of irreproducible research is threatening the science universe
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comnunity and/or research manager
+  * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
