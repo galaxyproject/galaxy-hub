@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://kmersvm.beerlab.org/"
     platform_text: "kmer-SVM server"
+    platform_location: US
 summary: "Tool suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay.  "
 image: "/src/use/kmer-svm/kmer-svm.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://graphclust.usegalaxy.eu/"
     platform_text: "GraphClust Server"
+    platform_location: DE
   - platform_group: "container"
     platform_url: "https://zenodo.org/record/1135094"
     platform_text: "Docker"

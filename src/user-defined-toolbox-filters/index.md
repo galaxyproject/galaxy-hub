@@ -1,12 +1,13 @@
 ---
 title: User Defined Toolbox Filters
+highlight: true
 ---
-This feature is available as of the November 2013 Galaxy distribution, being originally incorporated from Pull Request [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool)
 
 [ToolBox](/src/ToolBox/index.md) filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.
 
-<!> 
-Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox. 
+<div class="alert alert-info" role="alert">
+Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said this is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox. 
+</div>
 
 ## For Users
 
@@ -178,3 +179,7 @@ def restrict_prims_metabolomics( context, tool ):
         # return true for any other tool
         return True
 ```
+
+### Note
+
+This feature is available as of the November 2013 Galaxy distribution, being originally incorporated from Pull Request [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool)

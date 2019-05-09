@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://codonharmonizer.systemsbiology.nl/"
     platform_text: "Galaxy Server"
+    platform_location: NL
 summary: "Easily generate codon harmonized variants of gene sequences for heterologous expression"
 image: "/src/images/logos/WageningenUniversity.jpg"
 comments:

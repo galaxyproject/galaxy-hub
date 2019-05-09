@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://singlecell.usegalaxy.eu/"
     platform_text: "Single Cell Workbench Server"
+    platform_location: DE
 summary: "The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows"
 image: "/src/use/singlecell/logo_single_cell.svg"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://www.mn.uio.no/ifi/english/research/projects/clarino/"
     platform_text: "LAP Galaxy Server"
+    platform_location: NO
 summary: "Web interface to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster."
 image: "/src/images/logos/clarino-logo-trans.png"
 comments:
@@ -14,7 +15,7 @@ user_support:
 quotas:
   - "A wide range of academic credentials are accepted to login."
 citations:
-  - "[An Arranged Marriage: Integrating DKPro Core in the Language Analysis Portal](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf), Milen Kouylekov, Emanuele Lapponi, Stephan Oepen, and Richard Eckart de Castilho. CLARIN2017 Book of Abstracts"  
+  - "[An Arranged Marriage: Integrating DKPro Core in the Language Analysis Portal](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf), Milen Kouylekov, Emanuele Lapponi, Stephan Oepen, and Richard Eckart de Castilho. CLARIN2017 Book of Abstracts"
 pub_libraries:
   - "LAP"
 sponsors:

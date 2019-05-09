@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://lisis.cs.ucy.ac.cy/"
     platform_text: "LiSIs"
+    platform_location: CY
 summary: "A platform for Virtual Screening. "
 image: "/src/images/logos/LiSisLogo.png"
 comments:

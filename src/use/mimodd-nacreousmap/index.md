@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://mapping-by-sequencing.vm.uni-freiburg.de:8080/"
     platform_text: "MiModD NacreousMap"
+    platform_location: DE
 summary: "NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. "
 image: "/src/use/mimodd-nacreousmap/baumeister.png"
 comments:

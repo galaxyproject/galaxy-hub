@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.southgreen.fr/galaxy/"
     platform_text: "South Green Galaxy"
+    platform_location: FR
 summary: "Genomic resource analysis of southern and Mediterranean plants. "
 image: "/src/use/south-green/south-green-home-page.png"
 comments:

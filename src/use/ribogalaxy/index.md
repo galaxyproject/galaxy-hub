@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://ribogalaxy.ucc.ie/"
     platform_text: "RiboGalaxy"
+    platform_location: IE
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/riboseq/ribogalaxy"
     platform_text: "RiboGalaxy on Docker Hub"

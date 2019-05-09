@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://bioinfo.nwafu.edu.cn:4001/"
     platform_text: "CAFU Server"
+    platform_location: CN
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/malab/cafu"
     platform_text: "CAFU Docker"

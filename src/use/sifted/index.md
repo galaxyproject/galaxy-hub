@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://thebrain.bwh.harvard.edu/sifted.html"
     platform_text: "SIFTED Galaxy Server"
+    platform_location: US
 summary: "Specificity Inference For TAL-Effector Design (SIFTED)"
 image: "/src/use/sifted/sifted-landing-page.png"
 comments:

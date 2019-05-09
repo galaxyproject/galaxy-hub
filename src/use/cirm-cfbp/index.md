@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://iris.angers.inra.fr/galaxypub-cfbp"
     platform_text: "CIRM-CFBP Server"
+    platform_location: FR
 summary: "Web based access to tools ([SkIf](https://sourcesup.renater.fr/wiki/skif/), [KI-S](https://sourcesup.renater.fr/wiki/ki-s/)) of IRHS-EmerSys lab."
 image: "/src/use/cirm-cfbp/cirm-cfbp-banner.png"
 comments:

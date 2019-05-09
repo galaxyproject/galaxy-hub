@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://share-galaxy.ibers.aber.ac.uk/"
     platform_text: "IBERS @ Aberystwyth Galaxy"
+    platform_location: UK
 summary: "Software, tools and pages written by IBERS researchers for release to the wider community. "
 image: "/src/use/ibers-aberystwyth/ibers.gif"
 comments:

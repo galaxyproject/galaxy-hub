@@ -6,11 +6,12 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://avispa.biociphers.org/"
     platform_text: "BioCiphers Galaxy"
+    platform_location: US
 summary: "BCL Galaxy gives a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania. "
 image: "/src/use/biociphers-lab-galaxy/biociphers-landing-page-300.png"
 comments:
   - "Includes the AVISPA alternative splicing prediction and analysis tool."
-user_support: 
+user_support:
   - "Please report any problems with any of the tools or ask questions regarding their use to  [avispa AT biociphers DOT org](mailto:avispa AT biociphers DOT org)"
 quotas:
   - "Requires account creation with an educational email address."
@@ -20,6 +21,6 @@ citations:
   - "[In silico to in vivo splicing analysis using splicing code models](https://doi.org/10.1016/j.ymeth.2013.11.006), Matthew R. Gazzara, Jorge Vaquero-Garcia, Kristen W. Lynch, Yoseph Barash. *Methods* Volume 67, Issue 1, 1 May 2014, Pages 3-12"
 pub_libraries:
   - "BioCiphers"
-sponsors: 
+sponsors:
   - "The [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania."
 ---

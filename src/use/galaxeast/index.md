@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.galaxeast.fr"
     platform_text: "GalaxEast"
+    platform_location: FR
 summary: "Integrative 'omics data analysis "
 image: "/src/use/galaxeast/galaxeast.png"
 comments:

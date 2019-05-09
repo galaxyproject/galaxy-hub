@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.informatik.uni-halle.de"
     platform_text: "Martin Luther University Halle-Wittenberg"
+    platform_location: DE
 summary: "Provides implementations of [GeMoMa](http://www.jstacs.de/index.php/GeMoMa), InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont "
 image: "/src/images/logos/MartinLutherU.png"
 comments:

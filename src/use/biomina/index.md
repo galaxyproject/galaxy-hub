@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://biominavm-galaxy.biomina.be/galaxy/"
     platform_text: "Biomina Galaxy"
+    platform_location: BE
 summary: "A general purpose Galaxy instance that includes most standard tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis. "
 image: "/src/use/biomina/biomina-300.png"
 comments:

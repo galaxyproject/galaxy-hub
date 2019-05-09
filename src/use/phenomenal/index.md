@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://public.phenomenal-h2020.eu/"
     platform_text: "PhenoMeNal"
+    platform_location: EU
 summary: "Large scale computing for medical informatics "
 image: "/src/use/phenomenal/phenomenal.png"
 comments:

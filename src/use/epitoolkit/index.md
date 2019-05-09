@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.epitoolkit.de/"
     platform_text: "EpiToolKit Galaxy"
+    platform_location: DE
 summary: "Computational immunology for the development of novel epitope-based vaccines. "
 image: "/src/use/epitoolkit/epitoolkit-molecule-peptide.png"
 comments:

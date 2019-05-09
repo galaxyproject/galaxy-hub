@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://galaxy.pasteur.fr/"
     platform_text: "Galaxy@Pasteur"
+    platform_location: FR
 summary: "General purpose genomics analysis server. "
 image: "/src/use/galaxy-pasteur/pasteur-300.png"
 comments:

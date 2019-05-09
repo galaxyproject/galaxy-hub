@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.bioinformatica.ucr.ac.cr:8080/"
     platform_text: "NELLY"
+    platform_location: CR
 summary: "Plataforma de servicios para análisis de datos biomédicos en bioinformática featuring standard Galaxy Tools "
 image: "/src/use/nelly/u-costa-rica-logo.png"
 comments:

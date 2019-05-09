@@ -6,12 +6,13 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.freebioinfo.org/"
     platform_text: "FreeBionfo Galaxy Server"
+    platform_location: CN
 summary: "Galaxy for metagenomic analysis."
 image: "/src/use/freebioinfo/freebioinfologo.jpg"
 comments:
   - "Includes a wide range of metagenomics and other tools"
 user_support:
-  - "[Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) (in Chinese)" 
+  - "[Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) (in Chinese)"
 quotas:
   - "Anonymous access supported."
 citations:
