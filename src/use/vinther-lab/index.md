@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.bio.ku.dk/"
     platform_text: "Vinther Lab server"
+    platform_location: DK
 summary: "RNA structure-probing data analysis to improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated. "
 image: "/src/use/vinther-lab/vinther-lab-300.png"
 comments:

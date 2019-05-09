@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://irprofiler.med.auth.gr:8080/"
     platform_text: "IRProfiler Galaxy Toolbox"
+    platform_location: GR
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/chmaramis/irprofiler/"
     platform_text: "Docker image of the IRProfiler Galaxy toolbox"

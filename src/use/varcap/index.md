@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.csb.univie.ac.at:8080/"
     platform_text: "VarCap Galaxy"
+    platform_location: AT
 summary: "Reliable prediction of different types of variants even at low frequencies. "
 image: "/src/use/varcap/varcap-workflow.png"
 comments:

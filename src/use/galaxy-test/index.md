@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://test.galaxyproject.org/"
     platform_text: "Galaxy Test"
+    platform_location: US
 summary: "Beta version of Galaxy Main "
 image: "/src/use/galaxy-test/galaxy-test-300.png"
 comments:

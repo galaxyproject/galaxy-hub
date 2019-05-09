@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://grappa.eecs.utk.edu/grappa/"
     platform_text: "Graph Algorithms Pipeline for Pathway Analysis (GrAPPA) Server"
+    platform_location: US
 summary: "GrAPPA is a web-based interface constructed on the Galaxy framework for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results. "
 image: "/src/use/grappa/grappa-logo.png"
 comments:

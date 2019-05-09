@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://134.2.17.68:8081/"
     platform_text: "Halogen Bonding Galaxy Server"
+    platform_location: DE
 summary: "Visualize halogen bond contacts in the protein binding site. Analyze a protein binding site for halogen bonding hotspots. Evaluate halogen contacts with the protein backbone using the scoring function XBScore."
 image: "/src/use/halogen-bonding/halogen-bonding.png"
 comments:

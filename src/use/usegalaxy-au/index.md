@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxy.org.au/"
     platform_text: "UseGalaxy Australia"
+    platform_location: AU
 summary: "The Australian UseGalaxy server."
 image: "/src/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
 comments:

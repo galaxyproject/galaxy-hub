@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://epigeec.genap.ca/galaxy/"
     platform_text: "epiGeEC server"
+    platform_location: CA
 summary: "Compare user-provided epigenomic datasets with thousands of public datasets."
 image: "/src/use/epigeec/epigeec-heatmap.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.morganlangille.com/"
     platform_text: "Langille Lab PICRUSt server"
+    platform_location: CA
 summary: "Prediction of the unobserved character states in a community of organisms from phylogenetic information."
 image: "/src/use/langille-lab/picrust-workflow-450.jpg"
 comments:

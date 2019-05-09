@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.workflow4metabolomics.org/"
     platform_text: "workflow4metabolomics Galaxy server"
+    platform_location: FR
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/workflow4metabolomics/galaxy-workflow4metabolomics/"
     platform_text: "Workflow4Metabolomics in Docker"

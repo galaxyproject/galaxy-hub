@@ -6,12 +6,13 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://bf2i-galaxy.insa-lyon.fr:8080/"
     platform_text: "BF2I-MAP Galaxy Server"
+    platform_location: FR
 summary: "Locally developed as well as standard tools are available on a 16-core server with 32GB memory, accessible to all users, and located in the BF2I lab."
 image: "/src/use/bf2i-map/bf21-map-sponsors.png"
 comments:
   - "ThreaDNA allows generalising the approach to a large class of DNA-binding proteins."
-user_support: 
-quotas: 
+user_support:
+quotas:
 citations:
   - "[ThreaDNA: predicting DNA mechanics’ contribution to sequence selectivity of proteins along whole genomes](https://doi.org/10.1093/bioinformatics/btx634) by Jasmin Cevost, Cédric Vaillant and Sam Meyer, *Bioinformatics*, btx634, doi: 10.1093/bioinformatics/btx634, Published: 09 October 2017"
 sponsors:

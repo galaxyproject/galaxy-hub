@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.galaxy.qbrc.org/"
     platform_text: "QBRC Galaxy"
+    platform_location: US
 summary: "Hosts custom tools developed by members of the Quantitative Biomedical Research Center @ University of Texas Southwestern for statistical analysis of various High Throughput Sequencing experiments. "
 image: "/src/use/qbrc-galaxy/qbrc-logo.jpg"
 comments:

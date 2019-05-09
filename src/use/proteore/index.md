@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://www.proteore.org/"
     platform_text: "ProteoRE Galaxy"
+    platform_location: FR
 summary: "ProteoRE (Proteomics Research Environment)"
 image: "/src/use/proteore/proteore.png"
 comments:

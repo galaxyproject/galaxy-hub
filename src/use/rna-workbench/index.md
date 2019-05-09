@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://rna.usegalaxy.eu/"
     platform_text: "RNA Workbench Server"
+    platform_location: DE
   - platform_group: "container"
     platform_url: "https://github.com/bgruening/galaxy-rna-workbench"
     platform_text: "Docker"

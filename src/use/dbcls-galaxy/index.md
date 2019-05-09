@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.dbcls.jp/"
     platform_text: "DBCLS Galaxy"
+    platform_location: JP
 summary: "Adds text mining tools, DBCLS DBSearch Tools, semantic web tools "
 image: "/src/use/dbcls-galaxy/dbcls.png"
 comments:

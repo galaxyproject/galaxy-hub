@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://galaxy.unmc.edu/"
     platform_text: "ChimeRScope Galaxy Server"
+    platform_location: US
 summary: "Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. "
 image: "/src/use/chimerscope/chimerscope.png"
 comments:

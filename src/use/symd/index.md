@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://symd.nci.nih.gov/"
     platform_text: "SymD Galaxy Server"
+    platform_location: US
 summary: "a platform for detecting internally symmetric protein structures"
 image: "/src/use/symd/symd.png"
 comments:

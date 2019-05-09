@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://rnaseq.pathogenportal.org/"
     platform_text: "RNA-Rocket at Pathogen Portal"
+    platform_location: US
 summary: "Supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  "
 image: "/src/use/rna-rocket-pathogen-portal/pathogen-portal-home-300.png"
 comments:

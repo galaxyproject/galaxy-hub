@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.cloud.ba.infn.it:8080/"
     platform_text: "BioMaS Galaxy"
+    platform_location: IT
 summary: "Taxonomic studies of environmental microbial communities "
 image: "/src/use/biomas/biomas-logo.jpg"
 comments:

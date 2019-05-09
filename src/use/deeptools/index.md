@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://deeptools.ie-freiburg.mpg.de/"
     platform_text: "deepTools server"
+    platform_location: DE
   - platform_group: "container"
     platform_url: "https://hub.docker.com/r/bgruening/galaxy-deeptools"
     platform_text: "Galaxy deepTools Docker"

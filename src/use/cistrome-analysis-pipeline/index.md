@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://cistrome.org/ap/root"
     platform_text: "Cistrome Analysis Pipeline"
+    platform_location: US
 summary: "ChIP-chip/seq and gene expression data "
 image: "/src/use/cistrome-analysis-pipeline/cistrome.png"
 comments:

@@ -5,7 +5,8 @@ scope: "domain"
 platforms:
   - platform_group: "public-server"
     platform_url: "https://hicexplorer.usegalaxy.eu"
-    platform_text: "Public server hosted by usegalxy.eu"
+    platform_text: "Public server hosted by usegalaxy.eu"
+    platform_location: DE
 summary: "Tools to process and visualize chromosome conformation."
 image: "/src/use/hic-explorer/hic.png"
 comments:

@@ -6,6 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://services.cbib.u-bordeaux2.fr/galaxy/"
     platform_text: "CBiB Galaxy"
+    platform_location: FR
 summary: "A general purpose Galaxy instance that includes EMBOSS (a software analysis package for molecular biology) and fibronectin (diversity analysis of synthetic libraries of a Fibronectin domain). "
 image: "/src/use/cbib-galaxy/cbib-logo-300.png"
 comments:
