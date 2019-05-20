@@ -7,12 +7,14 @@ There are several options for presentations at GCC2019:
 * **Late Oral Presentations and Lightning Talks**
   * *Late* submissions will be considered to fill cancellations for talks accepted in the initial review. 
 * **Poster presentations**
+  * Deadline: 10 June
   * Presented during one of three hour-long poster/demo sessions.
   * Posters will remain up for the duration of the meeting.
-  * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.  Open until out of space.
+  * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.
 * **Software demos**
+  * Deadline: 10 June
   * Presented during one of three hour-long poster/demo sessions.
-  * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.  Open until out of space.
+  * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.
 * ~~Oral presentations~~
   * 15 to 20 minutes long.
   * Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md). Authors notified by 9 May
