@@ -1,7 +1,7 @@
 ---
 title: "ARGs-OAP"
 url: "http://smile.hku.hk/SARGs"
-scope: "tool-publishing"
+scope: "domain"
 platforms:
   - platform_group: "public-server"
     platform_url: "http://smile.hku.hk/SARGs"
