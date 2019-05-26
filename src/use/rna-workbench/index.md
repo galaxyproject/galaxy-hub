@@ -24,6 +24,7 @@ quotas:
   - "Docker Container: None"
   - "Public Server: Storage and computational quotas."
 citations:
+  - "[The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353), Jörg Fallmann, Pavankumar Videm, Andrea Bagnacani, Bérénice Batut, Maria A Doyle, Tomas Klingstrom, Florian Eggenhofer, Peter F Stadler, Rolf Backofen, Björn Grüning. *Nucleic Acids Research*, gkz353, doi: 10.1093/nar/gkz353"
   - "[The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy](https://doi.org/10.1093/nar/gkx409), Björn A. Grüning,  Jörg Fallmann, Dilmurat Yusuf, Sebastian Will, Anika Erxleben, Florian Eggenhofer, Torsten Houwaart, Bérénice Batut, Pavankumar Videm, Andrea Bagnacani, Markus Wolfien, Steffen C. Lott, Youri Hoogstrate, Wolfgang R. Hess, Olaf Wolkenhauer, Steve Hoffmann, Altuna Akalin, Uwe Ohler, Peter F. Stadler, Rolf Backofen. *Nucleic Acids Research*, Volume 45, Issue W1, 3 July 2017, Pages W560–W566, doi: 10.1093/nar/gkx409"
 pub_libraries:
   - "RNA Workbench"
