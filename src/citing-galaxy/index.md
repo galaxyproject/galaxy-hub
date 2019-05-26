@@ -94,6 +94,10 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
 
 Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md) as authors.
 
+### 2019
+
+1. [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md), [Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280). *bioRxiv* 642280; doi: 10.1101/642280 
+
 ### 2018
 
 1. David Y. Hancock, Craig A. Stewart, Matthew Vaughn, Jeremy Fischer, John Michael Lowe, George Turner, Tyson L. Swetnam, Tyler K. Chafin, [Enis Afgan](/src/people/enis-afgan/index.md), Marlon E. Pierce, Winona Snapp‐Childs, [Jetstream—Early operations performance, adoption, and impacts](https://doi.org/10.1002/cpe.4683). *Concurrency and Computation: Practice and Experience*. 2018;e4683. doi:10.1002/cpe.4683 
