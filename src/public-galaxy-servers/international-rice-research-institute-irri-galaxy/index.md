@@ -1,3 +1,3 @@
 ---
-redirect: "/use/irri/"
+redirect: "/use/rice-galaxy/"
 ---
