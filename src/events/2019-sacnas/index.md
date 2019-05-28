@@ -62,9 +62,9 @@ The goals of this workshop are to
 
 ## Registration
 
-[Registration](https://sacnas-data-2019.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
+[Registration](https://sacnas-genomic-2019.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
 
-**[Register Now](https://sacnas-data-2109.eventbrite.com/)**
+**[Register Now](https://sacnas-genomic-2019.eventbrite.com/)**
 
 ## Travel Scholarships
 
