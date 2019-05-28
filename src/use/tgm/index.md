@@ -19,5 +19,5 @@ citations:
 pub_libraries:
   - "TGM"
 sponsors:
-  - "[R3lab](http://r3lab.uni.lu/), Université du Luxembourg"
+  - "[Bioinformatics Core](https://wwwfr.uni.lu/lcsb/research/bioinformatics_core), Université du Luxembourg"
 ---
