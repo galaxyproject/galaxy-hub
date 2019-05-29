@@ -158,7 +158,7 @@ Luke Sargent<br />
 <div class='col-md-3'>
 <img src="/src/galaxy-team/nuwan.jpg" alt="Nuwan Goonasekera" height="150" /><br />
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)<br />
-[VeRSI](http://versi.edu.au/) <br /> <br />
+[Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/) <br /> <br />
 </div>
 <div class='col-md-3'>
 <img src="/src/galaxy-team/greg.jpg" alt="Greg von Kuster" height="150" /><br /> 
