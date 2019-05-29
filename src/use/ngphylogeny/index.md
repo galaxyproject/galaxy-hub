@@ -27,5 +27,5 @@ citations:
 pub_libraries:
   - "NGPhylogeny.fr"
 sponsors:
-  - "[C3BI](https://c3bi.pasteur.fr), [LIRMM](http://www.lirmm.fr/), [ATGC](http://www.atgc-montpellier.fr/), [LRI](https://www.lri.fr/), [IFB](https://www.france-bioinformatique.fr/), and [IGS](https://www.igs.cnrs-mrs.fr/)"
+  - "[C3BI](https://c3bi.pasteur.fr), [LIRMM](http://www.lirmm.fr/), [ATGC](http://www.atgc-montpellier.fr/), [LRI](https://www.lri.fr/), and [IFB](https://www.france-bioinformatique.fr/)"
 ---
