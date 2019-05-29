@@ -97,6 +97,9 @@ Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md)
 ### 2019
 
 1. [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md), [Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280). *bioRxiv* 642280; doi: 10.1101/642280 
+1. Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and
+[Jeremy Goecks](/src/people/jeremy-goecks/index.md), [G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
+1. Anastasia Tyryshkina, [Nate Coraor](/src/people/nate/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Predicting runtimes of bioinformatics tools based on historical data: Five years of Galaxy usage](https://doi.org/10.1093/bioinformatics/btz054). *Bioinformatics*, btz054, doi: 10.1093/bioinformatics/btz054
 
 ### 2018
 
