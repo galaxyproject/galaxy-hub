@@ -4,7 +4,7 @@ tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Pla
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-06-galaxy-update/2019-06-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -14,11 +14,11 @@ The *June 2019 Galactic News* is here! This is a summary of what is going on in 
     * Poster and Demo Abstract Submission closes 10 June
     * *GigaScience* returns as a GCC sponsor!
   * [GTN CoFest and Community Call: 16 May](/src/news/2019-05-galaxy-update/index.md#gtn-cofest-and-community-call)
-  * Plus [17 other upcoming events](/src/news/2019-05-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [265 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
+  * Plus [XXXX other upcoming events](/src/news/2019-05-galaxy-update/index.md#upcoming-events) in the next 90 days
+* [150 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including a single cell 'omics workbench, network analysis, subcellular spatial organization modeling, and more!
 * A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), Galaxy hearts GCP.  
-* At least [11 Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in six countries on two continents. 
+* At least [XXXX Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in six countries on two continents. 
 * [Updates to training materials](/src/news/2019-05-galaxy-update/index.md#doc-hub-and-training-updates).
 * [New releases](/src/news/2019-05-galaxy-update/index.md#releases).
 * And [some other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
@@ -40,13 +40,11 @@ GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/src/even
 * several parallel sessions,
 * and a strong emphasis on organizing content by domain.
 
-GCC2019, like every GCC before it, will be built around **community**.  Training topics are nominated, selected, and presented by the community.  Presentations will  feature the full spectrum of Galaxy applications, enhancements and deployments from the community as well.
-
 If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
 Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
 
-## Poster & Demo Abstract Submission is Still Open
+## Poster & Demo Abstract Submission Ends 7 June
 
 Abstracts for [poster presentations and software demonstrations](/src/events/gcc2019/abstracts/index.md) are still being accepted for consideration. 
 Discounted registration rates are available until 07JUN19.** Got something to show? [Submit your abstract before the 10JUN19 deadlne!](/src/events/gcc2019/abstracts).
@@ -61,31 +59,24 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 # Publications
 
-**265 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month, pushing the total number of pubs past 7500.
+**150 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.
 
 ## Highlighted Publications
 
-There were 15 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added.  Here are the open access ones.
+There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and 9 of those are open access:
 
-* **[Tackling “Big Data” with Biology Undergrads: A Simple RNA-seq Data Analysis Tutorial Using Galaxy](https://www.coursesource.org/courses/tackling-big-data-with-biology-undergrads-a-simple-rna-seq-data-analysis-tutorial-using)**, Matthew Anthony Escobar, William Morgan, Irina Makarevitch, Sabrina Robertson. *CourseSource*. https://doi.org/10.24918/cs.2019.13
-* **[Containerization of Galaxy Workflows increases Reproducibility](https://publikationen.uni-tuebingen.de/xmlui/handle/10900/83810)**, Felix Bartusch, Maximilian Hanussek,  Jens Krüger. Proceedings of the 4th bwHPC Symposium
-* **[Desarrollo y despliegue de un workflow para el análisis genómico de *Campylobacter Jejuni*](https://repositorio.uam.es/handle/10486/687147)**, José Antonio Barbero Aparicio, thesis, Universidad Autónoma de Madrid
-* **[NetworkAnalyst 3.0: a visual analytics platform for comprehensive gene expression profiling and meta-analysis](https://doi.org/10.1093/nar/gkz240)**, Guangyan Zhou, Othman Soufan, Jessica Ewald, Robert E W Hancock, Niladri Basu, Jianguo Xia. *Nucleic Acids Research*, gkz240, doi: 10.1093/nar/gkz240
-* **[Comparative Dissection of Three Giant Genomes: *Allium cepa, Allium sativum*, and *Allium ursinum*](https://doi.org/10.3390/ijms20030733)**, Vratislav Peška, Terezie Mandáková, Veronika Ihradská, Jiří Fajkus. *Int. J. Mol. Sci.* 2019, 20, 733. 
-* **[A rapid and simple method for assessing and representing genome sequence relatedness](https://www.biorxiv.org/content/10.1101/569640v2)**, *bioRxiv*, M Briand, M Bouzid, G Hunault, M Legeay, M Fischer-Le Saux, M Barret, doi: 10.1101/569640 
-* **[Identification of genetic relationships and subspecies signatures in *Xylella fastidiosa*](https://doi.org/10.1186/s12864-019-5565-9)**, Nicolas Denancé, Martial Briand, Romain Gaborieau, Sylvain Gaillard, Marie-Agnès Jacques. *BMC Genomics* 201920:239, doi: 10.1186/s12864-019-5565-9
-* **[Genotyping by sequencing can reveal the complex mosaic genomes in gene pools resulting from reticulate evolution: a case study in diploid and polyploid citrus](https://doi.org/10.1093/aob/mcz029)**, 
-Dalel Ahmed, Aurore Comte, Franck Curk, Gilles Costantino, François Luro, Alexis Dereeper, Pierre Mournet, Yann Froelicher, Patrick Ollitrault. * Annals of Botany*, mcz029, doi: 10.1093/aob/mcz029. Published: 29 March 2019
-* **[Genomic Variants Among Threatened *Acropora* Corals]()**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. *G3: Genes, Genomes, Genetics*, Early online March 26, 2019; doi: 10.1534/g3.119.400125 
+* **[Accessible and reproducible mass spectrometry imaging data analysis in Galaxy]( https://doi.org/10.1101/628719)**, Melanie Christine Föll, Lennart Moritz, Thomas Wollmann, Maren Nicole Stillger, Niklas Vockert, Martin Werner, Peter Bronsert, Karl Rohr, Björn Andreas Grüning, Oliver Schilling. *bioRxiv* 628719; doi: 10.1101/628719
+* **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
+* **[MetaDEGalaxy: Galaxy workflow for differential abundance analysis of 16s metagenomic data](https://f1000research.com/articles/8-726)**, Mike W.C. Thang, Xin-Yi Chua, Gareth Price, Dominique Gorse, Matt A. Field. *F1000Research* 2019, 8:726, doi: 10.12688/f1000research.18866.1)
+* **[NGPhylogeny.fr: new generation phylogenetic services for non-specialists](https://doi.org/10.1093/nar/gkz303)**, Frédéric Lemoine, Damien Correia, Vincent Lefort, Olivia Doppelt-Azeroual, Fabien Mareuil, Sarah Cohen-Boulakia, Olivier Gascuel. *Nucleic Acids Research*, gkz303, doi: 10.1093/nar/gkz303
+* **[Rice Galaxy: an open resource for plant science](https://academic.oup.com/gigascience/article/8/5/giz028/5492234)**, Venice Juanillas, Alexis Dereeper, Nicolas Beaume, Gaetan Droc, Joshua Dizon, John Robert Mendoza, Jon Peter Perdon, Locedie Mansueto, Lindsay Triplett, Jillian Lang, Gabriel Zhou, Kunalan Ratharanjan, Beth Plale, Jason Haga, Jan E. Leach, Manuel Ruiz, Michael Thomson, Nickolai Alexandrov, Pierre Larmande, Tobias Kretzschmar and Ramil P. Mauleon. *GigaScience*, 8, 2019, 1–14, doi: 10.1093/gigascience/giz028
+* **[The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353)**, Jorg Fallmann, Pavankumar Videm, Andrea Bagnacani, Bérénice Batut, Maria A. Doyle, Tomas Klingstrom, Florian Eggenhofer, Peter F. Stadler, Rolf Backofen and [Björn Grüning](https://github.com/bgruening). *Nucleic Acids Research*, gkz353, doi: 10.1093/nar/gkz353
+* **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**, [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). *bioRxiv* 642280; doi: 10.1101/642280
+* **[Prediction and Characterization of miRNA/Target Pairs in Non‐Model Plants Using RNA‐seq]()**, Kira C. M. Neller, Alexander Klenov, Katalin A. Hudak. *Current Protocols in Plant Biology*, e20090. doi: 10.1002/cppb.20090
+* **[The Repetitive DNA Composition in the Natural Pesticide Producer *Tanacetum cinerariifolium:* Interindividual Variation of Subtelomeric Tandem Repeats](https://doi.org/10.3389/fpls.2019.00613)**, Jelena Mlinarec, Ana Skuhala, Adela Jurković, Nenad Malenica, Jamie McCann, Hanna Weiss-Schneeweiss, Borut Bohanec and Višnja Besendorfer. *Frontiers in Plant Science*, 16 May 2019, doi: 10.3389/fpls.2019.00613
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
-| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 162 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 66 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 36 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 26 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
-| 19 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 18 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 8 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 6 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 5 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 4 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | |
 
 ----
 
@@ -121,16 +112,13 @@ The [Antibiotic Resistance Gene Analyzer (ARGA)](http://mem.rcees.ac.cn:8083/) i
 [<img class="float-right" style="max-width: 110px" src="/src/use/nanogalaxy/nanogalaxy-toolkit.png" alt="nanogalaxy" />](/src/use/nanogalaxy/index.md)
 
 [NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instane provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.  
+
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
-| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 11 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
-| 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 4 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | | 4 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | 4 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au) | 
-| 3 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>epiGeEC) | | 2 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 2 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 2 | [>CIRM-CFBP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CIRM-CFBP) | 
-| 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>SymD) | | | | | 
+
+
 ----
 
 [<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/src/blog/index.md)
@@ -147,12 +135,9 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
-* [Post-doc position in Computational Biology / Genomics / Transcriptomics / Bioinformatics](/src/news/2019-04-eth/index.md), ETH Zurich, Switzerland
-* [Senior IT Systems Administrator](https://jobs.rothamsted.ac.uk/vacancies/246/senior-it-systems-administrator.html), [Rothamsted Research](http://www.rothamsted.ac.uk/), Harpenden, United Kingdom
 * [Experienced Galaxy user / programmer / administrator for consulting work](/src/news/2019-05-sarepta/index.md), [Sarepta Therapeutics](https://www.sarepta.com/)
 * [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics and Developmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
-* [Cloud Architect](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
@@ -221,7 +206,4 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 # Other News
 
-* The [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) held a training and tools workshop in Roscoff, France. Check out the [meeting summary](https://galaxyproject.eu/posts/2019/04/26/elixir-galaxy-roscoff-ws/).
-* [SGCI Consultation Allows CloudLaunch to Benefit Researchers Across a Wide Variety of Fields](https://sciencegateways.org/-/sgci-consultation-allows-cloudlaunch-to-benefit-researchers-across-a-wide-variety-of-fields), by Nayiri Mullinix
-* [Galaxy-ML](https://github.com/ohsu-comp-bio/Galaxy-ML): a GitHub repo from [Qiang Gu](https://github.com/qiagu) of [OHSU](https://ohsu.edu/), providing a set of Galaxy tools wrapped with cutting-edge machine learning algorithms.
 
