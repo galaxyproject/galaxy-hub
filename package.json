@@ -20,7 +20,7 @@
     "file-loader": "^2.0.0",
     "handlebars": "^4.0.6",
     "highlight.js": "^9.12.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "jstransformer-pug": "^0.3.0",
     "lodash": "^4.17.4",
     "marked": "^0.5.0",
