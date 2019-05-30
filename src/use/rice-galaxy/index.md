@@ -1,11 +1,11 @@
 ---
-title: "RiceGalaxy"
+title: "Rice Galaxy"
 url: "https://github.com/InternationalRiceResearchInstitute/RiceGalaxy"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.irri.org/"
-    platform_text: "RiceGalaxy"
+    platform_text: "Rice Galaxy"
     platform_location: PH
 summary: "Tools for designing single-nucleotide polymorphism assays, analyzing genome-wide association studies, population diversity, rice−bacterial pathogen diagnostics, and a suite of published genomic prediction methods."
 image: "/src/use/rice-galaxy/rice-galaxy-3k.jpg"

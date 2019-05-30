@@ -49,6 +49,13 @@ Please find additional information on GCC2019 [here](/src/events/gcc2019/index.m
 Abstracts for [poster presentations and software demonstrations](/src/events/gcc2019/abstracts/index.md) are still being accepted for consideration. 
 Discounted registration rates are available until 07JUN19.** Got something to show? [Submit your abstract before the 10JUN19 deadlne!](/src/events/gcc2019/abstracts).
 
+## Sponsor: *GigaScience*
+
+<img class="mx-auto" src="" alt="GigaScience Journal" />](http://www.gigasciencejournal.com/)
+
+[<img class="float-right" style="max-width: 200px" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience" />](https://academic.oup.com/gigascience)
+
+***[GigaScience](https://academic.oup.com/gigascience)*** is an online open access, open data, open peer-review journal published by [Oxford University Press](https://academic.oup.com/) and [BGI](https://www.bgi.com/us/). The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. GigaScience is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net server](http://gigagalaxy.net/), *novel work from GCC2019 is eligible to a 15% APC if it is submitted to our Galaxy series.*
 
 # Upcoming events
 
@@ -84,8 +91,6 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/ord
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
-
-
 ## The TGM pipeline
 
 [<img class="float-right" style="max-width: 110px" src="/src/use/tgm/tgm-fig1.png" alt="tgmpipeline" />](/src/use/tgm/index.md)
@@ -100,18 +105,29 @@ The *[TGM pipeline](http://r3lab.uni.lu/web/tgm-pipeline/)* is a platform combin
 The [Antibiotic Resistance Gene Analyzer (ARGA)](http://mem.rcees.ac.cn:8083/) is a pipeline used for identification of antibiotic resistance genes using the Sequence Database for ARGS (SDARGS). The ARGA Galaxy instance provides all of the nucleotide and protein sequences in SDARG and ARGs primer databases in the Shared Data and Data Libraries sections for users. A guide for recommended usage of ARGA can be found [here](http://mem.rcees.ac.cn:8083/static/SDARG_Galaxy_pipeline_user_guide.pdf).  
 
 
-## NGPhylogeny
+## NGPhylogeny.fr
 
 [<img class="float-right" style="max-width: 110px" src="/src/use/ngphylogeny/ngphylogeny-steps.png" alt="ngphylogeny" />](/src/use/ngphylogeny/index.md)
 
-[NGPhylogeny](https://ngphylogeny.fr/) is a free and simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences. The NGPhylogeny service allows users to execute and customize Galaxy workflows while employing a novel interface to Galaxy. Additional documentation can be found [here](https://ngphylogeny.fr/documentation).
+[NGPhylogeny.fr](https://ngphylogeny.fr/) is a free and simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences. The NGPhylogeny service allows users to execute and customize Galaxy workflows while employing a novel interface to Galaxy. Additional documentation can be found [here](https://ngphylogeny.fr/documentation).
 
 
 ## NanoGalaxy
 
 [<img class="float-right" style="max-width: 110px" src="/src/use/nanogalaxy/nanogalaxy-toolkit.png" alt="nanogalaxy" />](/src/use/nanogalaxy/index.md)
 
-[NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instane provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.  
+[NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instane provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.
+
+## Galaxy Workbench for Mass Spectrometry Imaging
+
+This is a [custom docker image](https://hub.docker.com/r/mcfoell/galaxy-msi) for doing mass spectrometry image processing in a Galaxy platform.  The tools available in this image are also available on the [UseGalaxy.eu](https://usegalaxy.eu/) platform.
+
+## Rice Galaxy
+
+[<img class="float-right" style="max-width: 110px" src="/src/use/rice-galaxy/rice-galaxy-3k.jpg" alt="Rice Galaxy" />](/src/use/rice-galaxy/index.md)
+
+The [Rice Galaxy server](http://galaxy.irri.org/) is a revamped version of IRRI's previously existing Galaxy server.  It features tools for designing single-nucleotide polymorphism assays, analyzing genome-wide association studies, population diversity, rice−bacterial pathogen diagnostics, and a suite of published genomic prediction methods and has shared datasets that include high-density genotypes from the 3,000 Rice Genomes project and sequences with corresponding annotations from 9 published rice genomes.
+
 
 ## Galaxy Platforms in Publications
 
@@ -135,7 +151,7 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
-* [Experienced Galaxy user / programmer / administrator for consulting work](/src/news/2019-05-sarepta/index.md), [Sarepta Therapeutics](https://www.sarepta.com/)
+* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
 * [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics and Developmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
@@ -164,14 +180,8 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-* New [Mass spectrometry imaging: Finding differential analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
-* New [Creating a new tutorial - Writing content in Markdown](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html) tutorial by [Bérénice Batut](https://github.com/bebatut), [Björn Grüning](https://github.com/bgruening), [Saskia Hiltemann](https://github.com/shiltemann), and [Helena Rasche](https://github.com/erasche).
-* New [Name tags for following complex histories](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/name-tags/tutorial.html) tutorial by [Helena Rasche](https://github.com/erasche).
-* New [Bibliography](https://github.com/galaxyproject/training-material/pull/1324/files) feature for tutorials by [Saskia Hiltemann](https://github.com/shiltemann) and [Helena Rasche](https://github.com/erasche).
-* New [RNA-Seq reads to counts](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-reads-to-counts/tutorial.html) tutorial by [Maria Doyle](https://github.com/mblue9). 
-* New [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial by [Maria Doyle](https://github.com/mblue9). 
-* New [RNA-seq genes to pathways](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html)tutorial by [Maria Doyle](https://github.com/mblue9). 
-* Update to [Understanding UMIs](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman). 
+* A [short version of 16S Microbial Analysis with mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) has been added to the training library.  This complements the [extended version of the same tutorial](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html).  You can switch at any point from the extended one to the short one, which is great if you are running out of time.  Tutorials were created by [Saskia Hiltemann](https://github.com/shiltemann), [Bérénice Batut](https://github.com/bebatut), and [Dave Clements](/src/peoiple/dave-clements/index.md).
+
 
 ---
 
@@ -206,4 +216,24 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 # Other News
 
+[<img class="float-right" src="/src/news/2019-06-galaxy-update/galaxy-status.png" alt="Galaxy Status web site" width="220" />](https://status.galaxyproject.org/)
+
+## Galaxy Services Status Web Site
+
+Automated status tracking of our most important services is available at  [status.galaxyproject.org](https://status.galaxyproject.org/).  This is updated in real time, and will be used to post status updates whenever there are issues.
+
+
+## Black Duck Open Hub updates it's Galaxy project stats
+
+[Black Duck](http://www.blackducksoftware.com/)'s [Open Hub](https://www.openhub.net/) web site reports stats on open source projects such as Galaxy.  They just updated [their summary of Galaxy](https://www.openhub.net/p/galaxybx):
+
+> Over the past twelve months, 198 developers contributed new code to Galaxy Bioinformatics Platform. This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Black Duck's Open Hub.
+
+[Take a look](https://www.openhub.net/p/galaxybx).
+
+## data.galaxyproject.org directory view.
+
+From [Enis Afgan](/src/people/enis-afgan/index.md):
+
+> If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f).
 
