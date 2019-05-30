@@ -42,6 +42,6 @@ export function zoteroSearchOnLoad(){
 }
 
 window.zoteroSearchOnLoad = zoteroSearchOnLoad;
-window.$ = $;
+window.$ = window.jQuery = $;
 window.axios = axios;
 window._ = _;
