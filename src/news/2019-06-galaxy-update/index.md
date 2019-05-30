@@ -152,7 +152,6 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
 * [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
-* [Genome Stability of Adult Stem Cells](https://science.curie.fr/wp-content/uploads/2017/04/Bardin_Servant-Bioinformatician-ad-2019.pdf), Institut Curie, Dept. of Genetics and Developmental Biology, Paris, France
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology

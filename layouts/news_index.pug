@@ -11,7 +11,11 @@ block content
                     each item in news
                         tr
                             td: span.text-nowrap #{moment(item.date).format("MMMM Do YYYY")}
-                            td: a( href=item.link ) #{item.title}
+                            td
+                                if item.external_url
+                                    a( href=item.external_url ) #{item.title}
+                                else
+                                    a( href=item.link ) #{item.title}
                             td: p.small
                                 +renderTeaseOrSlice(item)
             h2(id="add-news-item") Adding a news item
