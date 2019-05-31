@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "https://usegalaxy.eu"
     platform_text: "UseGalaxy Europe"
-    platform_location: EU
+    platform_location: DE
 summary: "The European UseGalaxy server."
 image: "/src/use/usegalaxy-eu/usegalaxy-eu-landing-page-500.png"
 comments:
