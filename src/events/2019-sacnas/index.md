@@ -59,12 +59,12 @@ The goals of this workshop are to
 
 ## Registration
 
-[Registration](https://sacnas-genomic-2019.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
+[Registration](https://sacnas-genomics-2019.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
 
-<a href="https://sacnas-genomic-2019.eventbrite.com/"><button type="button" class="btn btn-success">Register for Workshop Now!</button></a>
+<a href="https://sacnas-genomics-2019.eventbrite.com/"><button type="button" class="btn btn-success">Register for Workshop Now!</button></a>
 
 
-**[Register Now](https://sacnas-genomic-2019.eventbrite.com/)**
+**[Register Now](https://sacnas-genomics-2019.eventbrite.com/)**
 
 ## Travel Scholarships
 
