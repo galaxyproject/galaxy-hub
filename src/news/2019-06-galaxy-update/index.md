@@ -167,19 +167,16 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/) in April:
-
-## Hub 
-
-The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)](/src/authnz/config/index.md) and [users (how to use that feature)](/src/authnz/use/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
-
-Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentication and Cloud Authorization in the Galaxy project](https://www.slideshare.net/jalilivahid/user-authentication-and-cloud-authorization-in-the-galaxy-project)
-
-## GTN Training Materials
-
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
-* A [short version of 16S Microbial Analysis with mothur](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) has been added to the training library.  This complements the [extended version of the same tutorial](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html).  You can switch at any point from the extended one to the short one, which is great if you are running out of time.  Tutorials were created by [Saskia Hiltemann](https://github.com/shiltemann), [Bérénice Batut](https://github.com/bebatut), and [Dave Clements](/src/peoiple/dave-clements/index.md).
+Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/training-material/):
+
+* A [short version of the "16S Microbial Analysis with mothur"](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) was added.  This complements the [longer version](https://galaxyproject.github.io/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html). You can switch at any point from the extended one to the short one. Which is great if you are running out of time.
+* Tired of individually loading training datasets from Zenodo?  Tutorials can now support [bulk copying of URL lists](https://github.com/galaxyproject/training-material/pull/1383).  Thanks to [Helena Rasche](https://github.com/erasche).
+
+Hub updates:
+
+* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/src/people/martin/index.md)
 
 
 ---
@@ -188,28 +185,30 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-We didn't get to this this month.  Look forward to a double dose of tools next month.
+[Tool Shed contributions in April and May 2019](/src/toolshed/contributions/2019-05/index.md).
 
 # Releases
 
-New additions to the Galaxy Ecosystem.
+New additions to (and editions in) the Galaxy Ecosystem.
 
-## Galaxy-parsec 1.12.1
+## Planemo 0.60.0
 
-[Parsec](https://pypi.org/project/galaxy-parsec/) is a set of automatically generated wrappers for BioBlend functions. I found myself writing a large number of small / one-off scripts that invoked simple bioblend functions. These scripts were impossible to compose and use in a linux-friendly manner. I copied and pasted code between all of these utility scripts.
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
-Parsec is the answer to all of these problems. It extracts all of the individual functions I was writing as separate CLI commands that can be piped together, run in parallel, etc.
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
-## Pulsar 0.9.1
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+
+## Pulsar 0.11.0
 
 [<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
+## ephemeris 0.10.0
 
-## galaxy-lib 19.5.2
+[Ephemeris](https://github.com/galaxyproject/ephemeris) is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows. It has [extensive documentation](https://ephemeris.readthedocs.org/).  This [release](https://github.com/galaxyproject/ephemeris/blob/master/HISTORY.rst) features numerous newly contributed features.
 
-galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
 ----
 
