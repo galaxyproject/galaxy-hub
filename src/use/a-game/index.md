@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://beaconlab.it/agame"
     platform_text: "A-Game server"
-    platform_country: IT
+    platform_location: IT
 summary: "A Galaxy suite for tArgeted MEtagenomics"
 image: "/src/use/a-game/agame-logo.png"
 comments:

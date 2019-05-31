@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://aspendb.uga.edu:8085/"
     platform_text: "AGEseq Galaxy @ AspenDB"
-    platform_country: US
+    platform_location: US
 summary: "This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance. "
 image: "/src/use/ageseq-aspendb/aspen-db-300.png"
 comments:
