@@ -84,6 +84,12 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/ord
 
 ## Publication Topics
 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 95 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 43 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 18 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
+| 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
+| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
+| 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | | | | | | |
 
 ----
 
@@ -133,7 +139,11 @@ The [Rice Galaxy server](http://galaxy.irri.org/) is a revamped version of IRRI'
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
 
-
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 9 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | 
+| 3 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 3 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | 
+| 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 2 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IRProfiler) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | |  | | |
 
 ----
 
@@ -225,7 +235,7 @@ Automated status tracking of our most important services is available at  [statu
 
 [Black Duck](http://www.blackducksoftware.com/)'s [Open Hub](https://www.openhub.net/) web site reports stats on open source projects such as Galaxy.  They just updated [their summary of Galaxy](https://www.openhub.net/p/galaxybx):
 
-> Over the past twelve months, 198 developers contributed new code to Galaxy Bioinformatics Platform. This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Black Duck's Open Hub.
+* Over the past twelve months, 198 developers contributed new code to Galaxy Bioinformatics Platform. This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Black Duck's Open Hub.
 
 [Take a look](https://www.openhub.net/p/galaxybx).
 
@@ -233,5 +243,5 @@ Automated status tracking of our most important services is available at  [statu
 
 From [Enis Afgan](/src/people/enis-afgan/index.md):
 
-> If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f).
+* If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f).
 
