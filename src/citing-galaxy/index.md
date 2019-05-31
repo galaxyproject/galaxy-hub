@@ -54,6 +54,14 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 * [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, The [Galaxy Team](/src/galaxy-team/index.md), [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md). **[Wrangling Galaxy's Reference Data](https://academic.oup.com/bioinformatics/article/30/13/1917/205199/Wrangling-Galaxy-s-reference-data)**. *Bioinformatics* (2014) 30(13): 1917-1919 doi:10.1093/bioinformatics/btu119
 
+### DataSource Tools
+
+* [Daniel Blankenberg](/src/people/dan/index.md), [Nate Coroar](/src/people/nate/index.md), [Gregory Von Kuster](/src/people/greg_vonkuster/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and The [Galaxy Team](/src/galaxy-team/index.md). **[Integrating diverse databases into an unified analysis framework: a Galaxy approach](https://academic.oup.com/database/article/doi/10.1093/database/bar011/463445)**. *Database (Oxford)*. 2011 Apr 29;2011:bar011. doi:10.1093/database/bar011.
+
+### External Display Applications
+
+* [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**. *bioRxiv* 642280; doi: 10.1101/642280 
+
 ### Interactive Environments
 
 * [Björn Grüning](/src/people/bjoern-gruening/index.md), [E. Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coroar](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). **[Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005425)**, *PLOS Computational Biology*, doi:10.1371/journal.pcbi.1005425
