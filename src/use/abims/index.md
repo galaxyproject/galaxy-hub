@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.sb-roscoff.fr/"
     platform_text: "ABiMS Galaxy"
-    platform_country: FR
+    platform_location: FR
 summary: "Analysis and bioinformatics for Marine Science."
 image: "http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/logos/abims/abims-LD.png"
 comments:

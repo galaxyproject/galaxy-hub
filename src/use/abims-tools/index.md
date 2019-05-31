@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy3.sb-roscoff.fr/"
     platform_text: "ABiMS Tools Galaxy server"
-    platform_country: FR
+    platform_location: FR
 summary: "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)."
 image: "/src/use/abims-tools/abims-tools-logos.png"
 comments:

@@ -6,7 +6,7 @@ platforms:
   - platform_group: "public-server"
     platform_url: "http://galaxy.alveo.edu.au/"
     platform_text: "Alveo Galaxy Server"
-    platform_country: AU
+    platform_location: AU
 summary: "Human Communication Science (HCS)."
 image: "/src/use/alveo/alveo-logo-w-text.png"
 comments:
