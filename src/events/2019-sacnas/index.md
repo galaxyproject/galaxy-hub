@@ -48,8 +48,8 @@ The goals of this workshop are to
 | 1 pm | **Lunch** (provided)
 | 2 pm | **Data Science - Galaxy GWAS analysis** (hands-on) <br /> GWAS <br /> Non coding variation is important |
 | 3 pm | **Data Science - Galaxy , variant characterization/viz** (hands-on) <br /> Simple/complex variants <br /> Multi-omic variant resolution <br /> Genome browser viz  |
-| 4 pm | Data Science - RStudio interactive viz (hands-on) <br /> ggplot2 <br /> [Ggplot2](https://ggplot2.tidyverse.org/) (for scripting figures + layouts) <br /> Heatmaps |
-| 5 pm | Data Science - Galaxy/RStudio - advanced exercises (hands-on) <br /> Transcriptome reconstruction <br /> ChIP-seq analysis <br /> Metagenomics |
+| 4 pm | **Data Science - RStudio interactive viz** (hands-on) <br /> [ggplot2](https://ggplot2.tidyverse.org/) (for scripting figures + layouts) <br /> Heatmaps |
+| 5 pm | **Data Science - Galaxy/RStudio - advanced exercises** (hands-on) <br /> Transcriptome reconstruction <br /> ChIP-seq analysis <br /> Metagenomics |
 | 6 pm | *Fin* |
 
 ## Instructors
