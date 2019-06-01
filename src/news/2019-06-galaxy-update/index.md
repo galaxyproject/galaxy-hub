@@ -161,6 +161,7 @@ This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afga
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
+* [Bioinformaticien h/f - INNOLEA](https://www.sfbi.fr/node/11698), Mondonville, France. "Le développement d'outils pour l'analyse de données génétiques, génomiques et la mise en œuvre dans une plateforme Galaxy"
 * [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
