@@ -2,10 +2,10 @@
 date: '2017-10-06'
 title: "Public Galaxy Server Dashboard"
 tease: "a new view of the Universe"
-authors: "E. Rasche"
+authors: "Helena Rasche"
 ---
 
-[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers)
+[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard/db/public-galaxy-servers)
 
 ## History
 
@@ -17,12 +17,12 @@ server lists to request non-sensitive information about their configuration.
 E.g. what "brand" do they have configured, how many allow users to purge
 datasets, how many have quotas enabled.
 
-[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://grafana.denbi.uni-freiburg.de/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11&from=1506589516564&to=1506611116564)
+[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11)
 
 ## Dashboards
 
-All of this data is collected together into some nice dashboards on the [Freiburg Galaxy](http://www.bioinf.uni-freiburg.de/Galaxy/)'s 
-[public Grafana instance](https://grafana.denbi.uni-freiburg.de/dashboard/db/public-galaxy-servers?orgId=1)
+All of this data is collected together into some nice dashboards on the [Freiburg Galaxy](http://www.bioinf.uni-freiburg.de/Galaxy/)'s
+[public Grafana instance](https://stats.galaxyproject.eu/dashboard/db/public-galaxy-servers?orgId=1)
 You'll find the answers to these questions and more in our tables and graphs
 
 Now that we've started collecting this data we will be able to answer questions
@@ -45,11 +45,11 @@ congrats on finding the cheat code to 100% uptime)
 
 Freiburg Galaxy's uptime:
 
- ![](https://grafana.denbi.uni-freiburg.de/raw/badges/Freiburg_Galaxy.svg)
+ ![](https://stats.galaxyproject.eu/raw/badges/Freiburg_Galaxy.svg)
 
 (note that this embedded badge will update in real time.)
 
-[Grab your badge here.](https://grafana.denbi.uni-freiburg.de/raw/badges/)
+[Grab your badge here.](https://stats.galaxyproject.eu/raw/badges/)
 
 That said, please note that this data is not perfectly accurate. We have
 improved the heuristics over time, and our script only checks in once an hour,
@@ -65,6 +65,6 @@ The code that collects this data is [freely available](https://github.com/marten
 license](https://github.com/martenson/public-galaxy-servers/blob/master/LICENSE).
 The tool produces some `.json` files containing the results of talking to every
 Galaxy, and we've made that
-[available](https://grafana.denbi.uni-freiburg.de/raw/) under CC0. The JSON
+[available](https://stats.galaxyproject.eu/raw/) under CC0. The JSON
 files are available with an `Access-Control-Allow-Origin: *` in case you want
 to build something cool off of this data.
