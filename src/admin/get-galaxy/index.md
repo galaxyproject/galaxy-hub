@@ -58,8 +58,6 @@ Since the release 18.01 Galaxy will run fine without an explicit configuration f
 cp config/galaxy.yml.sample config/galaxy.yml
 ```
 
-You need to restart Galaxy after configuration file changes.
-
 ## Galaxy over network
 
 To access Galaxy over the network, modify the `config/galaxy.yml` file by changing the `http` setting. Galaxy will bind to any available network interfaces instead of the localhost if you change it like this:
@@ -76,6 +74,10 @@ To control Galaxy through the UI (installing tools, managing users, creating gro
 # this should be a comma-separated list of valid Galaxy users
 admin_users: user1@example.com,user2@example.com
 ```
+
+<div class="alert alert-info" role="alert">
+You need to restart Galaxy after configuration file changes.
+</div>
 
 ## Install Tools
 
