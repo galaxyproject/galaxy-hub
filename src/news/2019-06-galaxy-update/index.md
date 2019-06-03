@@ -1,61 +1,65 @@
 ---
 title: 'June 2019 Galactic News'
 tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
-date: ""
+date: "2019-06-03"
 ---
 
 [<img class="float-right" src="/src/news/2019-06-galaxy-update/2019-06-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
-* Events
-  * **[GCC2019](/src/news/2019-05-galaxy-update/index.md#gcc2019-registration):**
-    * **Advance registration ends 7 June**
-    * Poster and Demo Abstract Submission closes 10 June
-    * *GigaScience* returns as a GCC sponsor!
-  * [GTN CoFest and Community Call: 16 May](/src/news/2019-05-galaxy-update/index.md#gtn-cofest-and-community-call)
-  * Plus [XXXX other upcoming events](/src/news/2019-05-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [150 new publications](/src/news/2019-05-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-05-galaxy-update/index.md#galaxy-platforms-news), including a single cell 'omics workbench, network analysis, subcellular spatial organization modeling, and more!
-* A new entry to [The Galactic Blog](/src/news/2019-05-galaxy-update/index.md#new-galactic-blog-post), Galaxy hearts GCP.  
-* At least [XXXX Open positions](/src/news/2019-05-galaxy-update/index.md#whos-hiring) in six countries on two continents. 
-* [Updates to training materials](/src/news/2019-05-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New releases](/src/news/2019-05-galaxy-update/index.md#releases).
-* And [some other news](/src/news/2019-05-galaxy-update/index.md#other-news) too.
+* **[GCC2019](/src/news/2019-06-galaxy-update/index.md#gcc2019-1-8-july-freiburg-germany):**
+  * **[Advance registration ends 7 June](/src/news/2019-06-galaxy-update/index.md#advance-registration-ends-7-june-this-friday)**
+  * **[Poster and Demo Abstract Submission deadline: 10 June](/src/news/2019-06-galaxy-update/index.md#poster-demo-abstract-submission-deadline-10-june)**
+  * [Conference schedule is online](/src/news/2019-06-galaxy-update/index.md#conference-schedule-is-online)
+* Plus [13 other upcoming events](/src/news/2019-06-galaxy-update/index.md#upcoming-events) in the next 90 days
+* [150 new publications](/src/news/2019-06-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [Galaxy Platform News](/src/news/2019-06-galaxy-update/index.md#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
+* A new entry to [The Galactic Blog](/src/news/2019-06-galaxy-update/index.md#new-galactic-blog-post-enabling-cloud-bursting-for-galaxy) on Galaxy cloud bursting
+* At least [8 Open positions](/src/news/2019-06-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* [Updates to training materials and documentation](/src/news/2019-06-galaxy-update/index.md#doc-hub-and-training-updates).
+* [New tools](/src/news/2019-06-galaxy-update/index.md#toolshed-contributions) and [new releases](/src/news/2019-06-galaxy-update/index.md#releases).
+* And [some cool other news](/src/news/2019-06-galaxy-update/index.md#other-news) too:
+  * The new [Galaxy Services Status Web Site](/src/news/2019-06-galaxy-update/index.md#galaxy-services-status-web-site)
+  * [Black Duck Open Hub updates it's Galaxy project stats](/src/news/2019-06-galaxy-update/index.md#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
-# GCC2019 Registration 
-
-**[Advance registration](/src/events/gcc2019/registration/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) is still open! Discounted registration rates are available until 07JUN19.**
+# GCC2019, 1-8 July, Freiburg, Germany
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
-GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
+GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) features [more presentations](https://gcc2019.sched.com/#2019-07-02) and [more training](https://gcc2019.sched.com/overview/type/A.+Training) than any [GCC](/src/gcc/index.md) before it. If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
-* some training will be integrated with the main conference,
-* three days of conference instead of two,
-* several parallel sessions,
-* and a strong emphasis on organizing content by domain.
+## Advance Registration ends 7 June - this Friday
 
-If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
+**[Advance registration](/src/events/gcc2019/registration/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) is ends this *this Friday*, 7 June.**  Register this week and avoid late registration fee hikes that start on Saturday morning. *(Insert your favorite Saturday morning hangover joke here.)*
 
-Please find additional information on GCC2019 [here](/src/events/gcc2019/index.md).
+## Poster & Demo Abstract Submission Deadline: 10 June
 
-## Poster & Demo Abstract Submission Ends 7 June
+Abstracts for [poster presentations and software demonstrations](/src/events/gcc2019/abstracts/index.md) are still being accepted for consideration.  Got something to show? [Submit your abstract before the 10 June deadline!](/src/events/gcc2019/abstracts).
 
-Abstracts for [poster presentations and software demonstrations](/src/events/gcc2019/abstracts/index.md) are still being accepted for consideration. 
-Discounted registration rates are available until 07JUN19.** Got something to show? [Submit your abstract before the 10JUN19 deadlne!](/src/events/gcc2019/abstracts).
+## Conference Schedule is Online
 
-## Sponsor: *GigaScience*
+The [full conference schedule is now online](https://gcc2019.sched.com/).  There are
 
-<img class="mx-auto" src="" alt="GigaScience Journal" />](http://www.gigasciencejournal.com/)
+[<img class="mx-auto float-right" style="max-width: 200px" src="/src/news/2019-06-galaxy-update/gcc2019-sched-com.png" alt="GCC2019 Schedule is available" />](https://gcc2019.sched.com/)
 
-[<img class="float-right" style="max-width: 200px" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience" />](https://academic.oup.com/gigascience)
-
-***[GigaScience](https://academic.oup.com/gigascience)*** is an online open access, open data, open peer-review journal published by [Oxford University Press](https://academic.oup.com/) and [BGI](https://www.bgi.com/us/). The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. GigaScience is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net server](http://gigagalaxy.net/), *novel work from GCC2019 is eligible to a 15% APC if it is submitted to our Galaxy series.*
+* Over 35 training topics ranging from [Beyond the Intro: Further Adventures in Using Galaxy](https://sched.co/MDTP) to [Visualisation development in Galaxy](https://sched.co/LufQ)
+* 15 Sessions, including dedicated sessions on
+  * [Epigenetics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics), [Galaxy Administration & Development](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev) (3 sessions), [Outside the Genome & Community](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community) (3 sessions),  [Proteomics and Metabolomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%26+Metabolomics), [Transcriptomics & Genomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics) (2 sessions), [Variation / Metagenomics / Assembly](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+* Five invited talks:
+  * [Evolution of X chromosome recognition during Drosophila Dosage Compensation](https://sched.co/PSGJ), Claudia Isabelle Keller Valsecchi, Max Planck Institute of Immunobiology and Epigenetics
+  * [Pou5f3, SoxB1 and Nanog control the Zygotic Genome Activation in Zebrafish by Chromatin Remodeling](https://sched.co/PSeo), Marina Veil, Albert Ludwigs University of Freiburg
+  * [Galaxy Community Update](https://sched.co/PSfp), Jeremy Goecks, OHSU; Daniel Blankenberg, Cleveland Clinic; Anton Nekrutenko, Penn State University; James Taylor, Johns Hopkins University
+  * [Data visualisation by citizen science participants: the case of birds and bats monitoring schemes and Galaxy-E](https://sched.co/PSq5), Romain Lorrilière, French National Museum of Natural History
+  * [UseGalaxy: Elucidating chromatin biology of mouse cardiomyocytes](https://sched.co/PSr9), Stephan Nothjunge, University of Freiburg
+* *Over 70 talks*
+* Three Poster, Demo, and Sponsor Sessions (Posters & demos to be posted next week)
+* Three hour long sessions for BoFs (call for BoFs going out next week)
+* 4 days of CollaborationFest
 
 # Upcoming events
 
@@ -102,7 +106,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 </tr>
 <tr>
   <td><span class="text-nowrap">July 1st 2019</span></td>
-  <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
+  <td><a href="/events/gcc2019/">**2019 Galaxy Community Conference (GCC2019)**</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
@@ -154,72 +158,6 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
   <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
-<tr>
-  <td><span class="text-nowrap">September 8th 2019</span></td>
-  <td><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/">NGS data analysis with Galaxy for clinical applications</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/">GMDS-Jahrestagung, Dortmund, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Markus Wolfien</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 23rd 2019</span></td>
-  <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 23rd 2019</span></td>
-  <td><a href="https://sciencegateways.org/web/gateways2019/welcome">Gateways 2019</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/>San Diego, California, United States</td>
-  <td>James Taylor</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 24th 2019</span></td>
-  <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 25th 2019</span></td>
-  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 26th 2019</span></td>
-  <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">September 27th 2019</span></td>
-  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
-  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">October 3rd 2019</span></td>
-  <td><a href="https://lists.dtls.nl/pipermail/nlgalaxy-team/2019-May/000212.html">GalaxyNL Face2Face Meeting</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/>Utrecht, the Netherlands</td>
-  <td>Saskia Hiltemann</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">October 14th 2019</span></td>
-  <td><a href="http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy">Reproducible and Transparent Genomic Analysis with Galaxy</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.ashg.org/2019meeting/">ASHG 2019, Houston, Texas, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Mohammad Heydarian</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">October 30th 2019</span></td>
-  <td><a href="/events/2019-sacnas">Genomic data science with the Galaxy workbench</a></td>
-  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.2019sacnas.org/">2019 SACNAS, Honolulu, Hawai'i, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mo Heydarian, Dave Clements</td>
-</tr>
-<tr>
-  <td><span class="text-nowrap">October 31st 2019</span></td>
-  <td><a href="https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.html?axe=98">Analyse avancée de séquences</a></td>
-  <td><img style="float:right;" src="/images/icons/EU.png"/>Bordeaux, France</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Macha Nikolski</td>
-</tr>
 </tbody>
 </table>
 
@@ -240,7 +178,7 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/ord
 * **[Rice Galaxy: an open resource for plant science](https://academic.oup.com/gigascience/article/8/5/giz028/5492234)**, Venice Juanillas, Alexis Dereeper, Nicolas Beaume, Gaetan Droc, Joshua Dizon, John Robert Mendoza, Jon Peter Perdon, Locedie Mansueto, Lindsay Triplett, Jillian Lang, Gabriel Zhou, Kunalan Ratharanjan, Beth Plale, Jason Haga, Jan E. Leach, Manuel Ruiz, Michael Thomson, Nickolai Alexandrov, Pierre Larmande, Tobias Kretzschmar and Ramil P. Mauleon. *GigaScience*, 8, 2019, 1–14, doi: 10.1093/gigascience/giz028
 * **[The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353)**, Jorg Fallmann, Pavankumar Videm, Andrea Bagnacani, Bérénice Batut, Maria A. Doyle, Tomas Klingstrom, Florian Eggenhofer, Peter F. Stadler, Rolf Backofen and [Björn Grüning](https://github.com/bgruening). *Nucleic Acids Research*, gkz353, doi: 10.1093/nar/gkz353
 * **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**, [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). *bioRxiv* 642280; doi: 10.1101/642280
-* **[Prediction and Characterization of miRNA/Target Pairs in Non‐Model Plants Using RNA‐seq]()**, Kira C. M. Neller, Alexander Klenov, Katalin A. Hudak. *Current Protocols in Plant Biology*, e20090. doi: 10.1002/cppb.20090
+* **[Prediction and Characterization of miRNA/Target Pairs in Non‐Model Plants Using RNA‐seq](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cppb.20090)**, Kira C. M. Neller, Alexander Klenov, Katalin A. Hudak. *Current Protocols in Plant Biology*, e20090. doi: 10.1002/cppb.20090
 * **[The Repetitive DNA Composition in the Natural Pesticide Producer *Tanacetum cinerariifolium:* Interindividual Variation of Subtelomeric Tandem Repeats](https://doi.org/10.3389/fpls.2019.00613)**, Jelena Mlinarec, Ana Skuhala, Adela Jurković, Nenad Malenica, Jamie McCann, Hanna Weiss-Schneeweiss, Borut Bohanec and Višnja Besendorfer. *Frontiers in Plant Science*, 16 May 2019, doi: 10.3389/fpls.2019.00613
 
 ## Publication Topics
@@ -283,7 +221,7 @@ The [Antibiotic Resistance Gene Analyzer (ARGA)](http://mem.rcees.ac.cn:8083/) i
 
 [<img class="float-right" style="max-width: 110px" src="/src/use/nanogalaxy/nanogalaxy-toolkit.png" alt="nanogalaxy" />](/src/use/nanogalaxy/index.md)
 
-[NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instane provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.
+[NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instance provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.
 
 ## Galaxy Workbench for Mass Spectrometry Imaging
 
@@ -308,11 +246,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/src/blog/index.md)
 
-# New Galactic Blog Post
+# New Galactic Blog Post: Enabling Cloud Bursting for Galaxy
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/src/blog/2019-04-gcp/index.md).
+For the second month in a row we have a new *[Galactic Blog](/src/blog/index.md)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
+
+* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/src/blog/2019-05-gcr/index.md)
 
 ----
 
@@ -348,7 +288,7 @@ Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/
 
 Hub updates:
 
-* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/src/people/martin/index.md)
+* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/src/people/marten/index.md)
 
 
 ---
