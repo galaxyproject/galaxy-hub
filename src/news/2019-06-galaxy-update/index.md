@@ -284,6 +284,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/):
 
 * A [short version of the "16S Microbial Analysis with mothur"](https://training.galaxyproject.org/topics/metagenomics/tutorials/mothur-miseq-sop-short/tutorial.html) was added by [Saskia Hiltemann](https://github.com/shiltemann).  This complements the [longer version](https://training.galaxyproject.org//topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html). You can switch at any point from the extended one to the short one. Which is great if you are running out of time.
+* [Three new tutorials](https://galaxyproject.github.io/training-material/topics/computational-chemistry/) were added by [Chris Barnett](https://github.com/chrisbarnettster), [Tharindu Senapathi](https://github.com/tsenapathi) and [Simon Bray](https://github.com/simonbray), providing an introduction to performing molecular dynamics simulations and analysis in Galaxy.
 * Tired of individually loading training datasets from Zenodo?  Tutorials can now support [bulk copying of URL lists](https://github.com/galaxyproject/training-material/pull/1383).  Thanks to [Helena Rasche](https://github.com/erasche).
 
 Hub updates:
