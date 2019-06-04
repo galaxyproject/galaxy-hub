@@ -1,4 +1,4 @@
-let path = require("path");
+const path = require("path");
 
 module.exports = {
     mode: "production",
@@ -25,6 +25,46 @@ module.exports = {
                 use: {
                     loader: "file-loader"
                 }
+            },
+            {
+                test: require.resolve("jquery"),
+                use: [
+                    {
+                        loader: "expose-loader",
+                        options: "$"
+                    },
+                    {
+                        loader: "expose-loader",
+                        options: "jQuery"
+                    }
+                ]
+            },
+            {
+                test: require.resolve("lodash"),
+                use: [
+                    {
+                        loader: "expose-loader",
+                        options: "_"
+                    }
+                ]
+            },
+            {
+                test: require.resolve("axios"),
+                use: [
+                    {
+                        loader: "expose-loader",
+                        options: "axios"
+                    }
+                ]
+            },
+            {
+                test: path.join(__dirname, `src/js/index`),
+                use: [
+                    {
+                        loader: "expose-loader",
+                        options: "zoteroSearchOnLoad"
+                    }
+                ]
             },
             {
                 test: /\.scss$/,

@@ -40,8 +40,3 @@ export function zoteroSearchOnLoad(){
         });
     }
 }
-
-window.zoteroSearchOnLoad = zoteroSearchOnLoad;
-window.$ = window.jQuery = $;
-window.axios = axios;
-window._ = _;
