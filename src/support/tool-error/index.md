@@ -98,6 +98,13 @@ This job failed because it was cancelled by an administrator.
 Please click the bug icon to report this problem if you need help.
 ```
 
+Or sometimes:
+
+```
+job info:
+Remote job server indicated a problem running or monitoring this job.
+```
+
 It is possible that there was a server or cluster error. However, very often input problems can contribute to these types of failures.
 
 #### How to resolve - cancelled
@@ -129,6 +136,7 @@ slurmstepd: error: Detected 1 oom-kill event(s) in step XXXXXXX.batch cgroup.
 Or this somewhere in the error message (usually at the end)
 
 ```
+job stderr:
 slurmstepd: error: Detected 1 oom-kill event(s) in step XXXXXXX.batch cgroup.
 ```
 
@@ -163,9 +171,21 @@ This job was terminated because it ran longer than the maximum allowed job run t
 Please click the bug icon to report this problem if you need help.
 ```
 
+Or sometimes, you'll see both of these:
+
+```
+job stderr:
+slurmstepd: error: *** JOB XXXX ON XXXX CANCELLED AT 2019-XX-XXTXX:XX:XX DUE TO TIME LIMIT ***
+
+job info:
+Remote job server indicated a problem running or monitoring this job.
+```
+
 The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/src/main/index.md) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available on the different clusters [here](/src/main/index.md).
 
 Sometimes the execution time of a job can be decreased by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/src/main/index.md)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
+
+If you are excuting a tool that runs on certain remote clusters (example tools: Trinity, Unicycler), the problem could be input problems, exceeding memory, or actually exceeding the "wall-time". These clusters have fixed resources.
 
 
 #### How to detect - walltime
