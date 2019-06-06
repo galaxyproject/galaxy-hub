@@ -1,6 +1,6 @@
 {{> Events/GCC2019/Header }}
 
-**We are pleased to announce that GCC2019 will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will [feature](https://gcc2019.sched.com/) invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+**We are pleased to announce that GCC2019 will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will [feature](https://gcc2019.sched.com/) invited talks, accepted talks, [posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters) and [demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos), [birds-of-a-feather (BoF) gatherings](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs), multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 ## Location
 
@@ -8,7 +8,7 @@
 [<img src="/src/events/gcc2019/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>
 
-[Freiburg](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)!. Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*
+[Freiburg](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)! Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*
 
 GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.de/) in central Freiburg, adjacent to the [Freiburg train station](https://www.bahnhof.de/bahnhof-de/Freiburg__Breisgau__Hbf-1039062).
 
@@ -21,8 +21,8 @@ GCC2019 spans more than a week of activity:
 <thead>
   <tr>
     <th> </th>
-    <th> [Training Day](https://gcc2019.sched.com/overview/type/A.+Training+Day)<br />Mon 1 Jul </th>
-    <th> [Conference](https://gcc2019.sched.com/overview/type/B.+Conference)<br />Tue-Thu 2-4 Jul </th>
+    <th> [Training Day](https://gcc2019.sched.com/#2019-07-01)<br />Mon 1 Jul </th>
+    <th> [Conference](https://gcc2019.sched.com/#2019-07-02)<br />Tue-Thu 2-4 Jul </th>
     <th> [CoFest: Core](/src/events/gcc2019/cofest/index.md)<br />Fri-Sat 5-6 Jul </th>
     <th> [CoFest: Encore](/src/events/gcc2019/cofest/index.md)<br />Sun-Mon 7-8 Jul </th>
   </tr>
@@ -30,29 +30,29 @@ GCC2019 spans more than a week of activity:
 <tbody>
   <tr>
     <th> Morning </th>
-    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/#2019-07-01) </td>
     <td> Talks: Invited, accepted, and lightning </td>
     <td> Collaboration!</td>
     <td> More collaboration! </td>
   </tr>
   <tr>
     <th> Early Afternoon </th>
-    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
-    <td> Training sessions: 6 tracks <br /> [Poster, Demo and Sponsor Session](https://gcc2019.sched.com/overview/type/B.+Conference/Posters+%2B+Demos)</td>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/#2019-07-01) </td>
+    <td> Training sessions: 6 tracks <br /> [Poster, Demo and Sponsor Session](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors)</td>
     <td> Collaboration!</td>
     <td> More collaboration! </td>
   </tr>
   <tr>
     <th> Late Afternoon </th>
-    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/overview/type/A.+Training+Day) </td>
+    <td> [Parallel introductory training tracks](https://gcc2019.sched.com/#2019-07-01) </td>
     <td> Training sessions: 6 tracks <br /> Talks: Invited, accepted, and lightning</td>
     <td> Collaboration!</td>
     <td> More collaboration! </td>
   </tr>
   <tr>
     <th> Evening </th>
-    <td> [Birds-of-a-Feather (BoFs)](https://gcc2019.sched.com/overview/type/B.+Conference/Break+%2F+Social+%2F+Networking) and other informal networking </td>
-    <td> [BoFs](https://gcc2019.sched.com/overview/type/B.+Conference/Break+%2F+Social+%2F+Networking) and other informal networking; [Conference Dinner (Wed)](https://sched.co/LufW)</td>
+    <td> [Birds-of-a-Feather (BoFs)](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs) and other informal networking </td>
+    <td> [BoFs](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs) and other informal networking; [Conference Dinner (Wed)](https://sched.co/LufW)</td>
     <td> Informal networking </td>
     <td> *Really* informal networking </td>
   </tr>
