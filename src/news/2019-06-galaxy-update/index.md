@@ -346,5 +346,5 @@ Automated status tracking of our most important services is available at  [statu
 
 From [Enis Afgan](/src/people/enis-afgan/index.md):
 
-* If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f).
+* If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f), and here's the [equivalent navigable view](http://datacache.galaxyproject.org/).
 
