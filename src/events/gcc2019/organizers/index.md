@@ -15,9 +15,7 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freibur
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
 
-We can be reached at:
-
-* GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org&gt;
+We can be reached at *GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org&gt;*
 
 # GCC2019 Scientific Program Committee
 
@@ -48,4 +46,16 @@ We can be reached at:
 * *[Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden)*, [University of the Western Cape](https://www.uwc.ac.za/), [South African National Bioinformatics Institute (SANBI)](https://www.sanbi.ac.za/)
 * *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/) 
 
-The SPC can be reached at GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;
+The SPC can be reached at *GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;*
+
+# CollaborationFest Organizers
+
+* *[Dannon Baker](/src/people/dannon-baker/index.md)*,  [Johns Hopkins University](https://jhu.edu/)
+* *[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)*, [VIB](http://www.vib.be/) and [ELIXIR Belgium](https://www.elixir-belgium.org/)
+* *Maria Doyle*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
+* *[Mo Heydarian](/src/people/mo-heydarian/index.md)*, [Johns Hopkins University](https://jhu.edu/)
+* *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](http://www.bx.psu.edu)
+* *[Brad Langhorst](https://scholar.google.com/citations?user=75w73LQAAAAJ&hl=en)*, [New England Biolabs](https://www.neb.com/)
+* *[Marius van den Beek](https://github.com/mvdbeek)*, [Institut Curie](https://institut-curie.org/) 
+
+The CoFest organizers can be reached at *GCC2019 CoFest Organizers &lt;gcc2019-cofest-org@lists.galaxyproject.org&gt;*
