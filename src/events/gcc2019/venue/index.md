@@ -15,7 +15,12 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 
 ## Lodging
 
-Freiburg has many options for lodging, from four-star hotels to hostels.  Conference organizers have [identified a number of recommended lodging options](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en), ranging in price from 59€ to 123€ per night.
+Freiburg has many options for lodging, from four-star hotels to hostels. Please book your room directly [online](https://visit.freiburg.de/en). 
+
+Additional to this Freiburg Convention Bureau can assist by finding the perfect accommodation:
+
+E-Mail: groups@fwtm.de
+Tel.: +49 761 3881 1516
 
 ## Airports
 
