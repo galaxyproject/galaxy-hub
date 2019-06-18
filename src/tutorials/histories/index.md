@@ -286,8 +286,8 @@ For example:
 * To search for a VCF file named 'VCF filter on data 1' and tagged with 'experiment 1', you could enter:
   `vcf filter on data 1 experiment 1`
 
-<div class="alert alert-warning" role="alert">
-**Note:** searches are case-insensitive. For example, `VCF` and `vcf` are equivalent.
+<div class="alert alert-info" role="alert">
+Searches are case-insensitive. For example, `VCF` and `vcf` are equivalent.
 </div>
 
 |          |
@@ -303,7 +303,9 @@ or - while entering text in the search bar - hitting the escape key ('ESC').
 ### Advanced searching
 
 You can also specify what dataset properties you're searching using keyword search. These are the property names
-followed by '=' then the value. When using these only the property named is searched for that value:
+followed by '=' then the value. When using these only the property named is searched for that value. Keyword searches can be combined: `database=mm10 annotation=successful` and you can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.
+
+**Supported keywords**:
 
 * *name*: for example, `name=my-dataset` would show all datasets whose names contain 'my-dataset' - *but* not
   search other properties such as annotation, etc.
@@ -315,15 +317,9 @@ followed by '=' then the value. When using these only the property named is sear
 * *hid*: to search for an item with a specific history id `hid=25`
 * *state*: to show only datasets in a given state: `state=error`
 
-<div class="alert alert-warning" role="alert">
-**Note** that keyword searches can be combined: `database=mm10 annotation=successful`<br>
-You can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.<br>
- All keyword searches are AND'd - all searches must be true in order for the dataset to be shown.
-
+<div class="alert alert-info" role="alert">
+All keyword searches are connected with logical ANDs which means all searches must be true in order for the dataset to be shown.
 </div>
-
-If you find normal searching is showing too many datasets, and not what you're looking for, try the advanced keyword
-search.
 
 |          |
 |----------|
