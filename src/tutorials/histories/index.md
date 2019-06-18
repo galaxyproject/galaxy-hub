@@ -308,18 +308,18 @@ followed by '=' then the value. When using these only the property named is sear
 All keyword searches are connected with logical ANDs which means all searches must be true in order for the dataset to be shown.
 
 <div class="alert alert-info" role="alert">
-**Supported keywords**:
+**Supported keywords**:<br>
 
-* `name=my-dataset` would show all datasets whose names contain 'my-dataset'
-* `format=vcf`: to search for datasets in a particular format
-* `database=hg19` to search for all datasets with a particular reference set
-* `annotation="first of five"` for the dataset annotation
-* `description="This is data of a Borneo Orangutan"` for dataset summary description
-* `info="started mapping"` for searching on job info
-* `tag=experiment1` for searching on (a partial) dataset tag. Note: you can search for
-  datasets that have multiple tags by re-using the tag keyword search: `tag=experiment1 tag=to_publish`
-* `hid=25` to search for an item with a specific history id (which usually corresponds to its order in the history)
-* `state=error` to show only datasets in a given state
+* `name=my-dataset` would show all datasets whose names contain 'my-dataset'<br>
+* `format=vcf`: to search for datasets in a particular format<br>
+* `database=hg19` to search for all datasets with a particular reference set<br>
+* `annotation="first of five"` for the dataset annotation<br>
+* `description="This is data of a Borneo Orangutan"` for dataset summary description<br>
+* `info="started mapping"` for searching on job info<br>
+* `tag=experiment1` for searching on (a partial) dataset tag. Note: you can search for<br
+  datasets that have multiple tags by re-using the tag keyword search: `tag=experiment1 tag=to_publish`<br>
+* `hid=25` to search for an item with a specific history id (which usually corresponds to its order in the history)<br>
+* `state=error` to show only datasets in a given state<br>
 </div>
 
 |          |
