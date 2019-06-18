@@ -305,21 +305,20 @@ or - while entering text in the search bar - hitting the escape key ('ESC').
 You can also specify what dataset properties you're searching using keyword search. These are the property names
 followed by '=' then the value. When using these only the property named is searched for that value. Keyword searches can be combined: `database=mm10 annotation=successful` and you can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.
 
-All keyword searches are connected with logical ANDs which means all searches must be true in order for the dataset to be shown.
+All keyword searches are connected with logical ANDs which means all searches must be true/hit in order for the dataset to be shown.
 
 <div class="alert alert-info" role="alert">
 **Supported keywords**:<br>
 
-* `name=my-dataset` would show all datasets whose names contain 'my-dataset'<br>
-* `format=vcf`: to search for datasets in a particular format<br>
-* `database=hg19` to search for all datasets with a particular reference set<br>
-* `annotation="first of five"` for the dataset annotation<br>
-* `description="This is data of a Borneo Orangutan"` for dataset summary description<br>
-* `info="started mapping"` for searching on job info<br>
-* `tag=experiment1` for searching on (a partial) dataset tag. Note: you can search for<br
-  datasets that have multiple tags by re-using the tag keyword search: `tag=experiment1 tag=to_publish`<br>
-* `hid=25` to search for an item with a specific history id (which usually corresponds to its order in the history)<br>
-* `state=error` to show only datasets in a given state<br>
+`name=my-dataset` would show all datasets whose names contain 'my-dataset'<br>
+`format=vcf`: to search for datasets in a particular format<br>
+`database=hg19` to search for all datasets with a particular reference set<br>
+`annotation="first of five"` for the dataset annotation<br>
+`description="This is data of a Borneo Orangutan"` for dataset summary description<br>
+`info="started mapping"` for searching on job info<br>
+`tag=experiment1` for searching on (a partial) dataset tag. You can repeat to search for more tags.<br>
+`hid=25` to search for an item with a specific history id (which usually corresponds to its order in the history)<br>
+`state=error` to show only datasets in a given state<br>
 </div>
 
 |          |
