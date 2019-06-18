@@ -312,6 +312,8 @@ followed by '=' then the value. When using these only the property named is sear
 * *annotation*, *description*, *info*: the annotation, summary description, or job info respectively
 * *tag*: to show only datasets with that tag (or partial tag): `tag=experiment1`. Note: you can search for
   datasets that have multiple tags by re-using the tag keyword search: `tag=experiment1 tag=to_publish`
+* *hid*: to search for an item with a specific history id `hid=25`
+* *state*: to show only datasets in a given state: `state=error`
 
 <div class="alert alert-warning" role="alert">
 **Note** that keyword searches can be combined: `database=mm10 annotation=successful`<br>
