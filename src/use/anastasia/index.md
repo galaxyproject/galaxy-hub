@@ -17,7 +17,7 @@ user_support:
   - "Includes [several example workflows](http://motherbox.chemeng.ntua.gr/anastasia_dev/workflow/list_published)"
 quotas:
 citations:
-  - "[Discovering novel hydrolases from hot environments](https://doi.org/10.1016/j.biotechadv.2018.09.004), Roland Wohlgemuth, Jennifer Littlechild, Daniela Monti, Kirk Schnorr, Teunke van Rossum, Bettina Siebers, Peter Menzel, Ilya V. Kublanov, Anne Gunn Rike, Georgios Skretas, Zalan Szabo, Xu Peng, Mark J. Young. *Biotechnology Advances* 2018, doi: 10.1016/j.biotechadv.2018.09.004"
+  - "[ANASTASIA: An Automated Metagenomic Analysis Pipeline for Novel Enzyme Discovery Exploiting Next Generation Sequencing Data](https://doi.org/10.3389/fgene.2019.00469), Theodoros Koutsandreas, Efthymios Ladoukakis, Eleftherios Pilalis, Dimitra Zarafeta, Fragiskos N. Kolisis, Georgios Skretas and Aristotelis A. Chatziioannou. *Frontiers in Genetics*, 24 May 2019, doi: 10.3389/fgene.2019.00469"
 pub_libraries:
   - "ANASTASIA"
 sponsors:
