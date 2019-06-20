@@ -108,10 +108,58 @@ Started][cvmfs-getting-started] and [Client Configuration][cvmfs-client-config] 
 
 The CVMFS documentation is very thorough, so we do not provide step by step instructions on configuring a client, as
 this can be performed simply by following the [Getting Started][cvmfs-getting-started] and [Client
-Configuration][cvmfs-client-config] documentation.
+Configuration][cvmfs-client-config] documentation. Alternatively, the [galaxyproject.cvmfs Ansible role][ansible-cvmfs]
+can be used to quickly set up the client configuration.
 
-Once installed, you should be able to run `cvmfs_config` to perform the basic CVMFS setup, then add the Galaxy-specific
-configuration with the following files:
+If configuring by hand, once installed, you should be able to run `cvmfs_config` to perform the basic CVMFS setup.
+
+#### Dynamic
+
+The preferred configuration method is to use the `cvmfs-config.galaxyproject.org` [CVMFS Config
+Repository][cvmfs-config-repo], which will provide automatic configuration for all galaxyproject.org CVMFS repositories
+(including `data.galaxyproject.org`) and keep them up to date.
+
+To configure, add the Galaxy-specific configuration files:
+
+**/etc/cvmfs/default.local**
+```bash
+CVMFS_HTTP_PROXY="DIRECT"
+CVMFS_QUOTA_LIMIT="4000"    # the cache size in MB
+CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from client
+```
+
+**/etc/cvmfs/config.d/cvmfs-config.galaxyproject.org.conf**
+```bash
+CVMFS_SERVER_URL="http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@"
+CVMFS_PUBLIC_KEY="/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub"
+```
+
+**/etc/cvmfs/default.d/80-galaxyproject-cvmfs.conf**
+```bash
+CVMFS_CONFIG_REPOSITORY="cvmfs-config.galaxyproject.org"
+CVMFS_DEFAULT_DOMAIN="galaxyproject.org"
+```
+
+**/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub**
+```pub
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
+TWuuT2Zzoo1cAskKpKu5gsUAyDFbZfYBEy91qbLPC3TuUm2zdPNsjCQbbq1Liufk
+uNPZJ8Ubn5PR6kndwrdD13NVHZpXVml1+ooTSF5CL3x/KUkYiyRz94sAr9trVoSx
+THW2buV7ADUYivX7ofCvBu5T6YngbPZNIxDB4mh7cEal/UDtxV683A/5RL4wIYvt
+S5SVemmu6Yb8GkGwLGmMVLYXutuaHdMFyKzWm+qFlG5JRz4okUWERvtJ2QAJPOzL
+mAG1ceyBFowj/r3iJTa+Jcif2uAmZxg+cHkZG5KzATykF82UH1ojUzREMMDcPJi2
+dQIDAQAB
+-----END PUBLIC KEY-----
+```
+
+[ansible-cvmfs]: https://galaxy.ansible.com/galaxyproject/cvmfs
+[cvmfs-config-repo]: https://cvmfs.readthedocs.io/en/stable/cpt-configure.html#the-config-repository
+
+#### Static
+
+If not using the dynamic config repository method in the previous section, you can statically configure the
+`data.galaxyproject.org` CVMFS repository. To do so, add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
 ```bash
@@ -124,9 +172,10 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 **/etc/cvmfs/domain.d/galaxyproject.org.conf**
 ```bash
 CVMFS_SERVER_URL="http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@;http://cvmfs1-mel0.gvl.org.au/cvmfs/@fqrn@"
+CVMFS_KEYS_DIR="/etc/cvmfs/keys/galaxyproject.org"
 ```
 
-**/etc/cvmfs/keys/data.galaxyproject.org.pub**
+**/etc/cvmfs/keys/galaxyproject.org/data.galaxyproject.org.pub**
 ```pub
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5LHQuKWzcX5iBbCGsXGt
@@ -138,6 +187,8 @@ NVNhhcb66OJHah5ppI1N3cZehdaKyr1XcF9eedwLFTvuiwTn6qMmttT/tHX7rcxT
 owIDAQAB
 -----END PUBLIC KEY-----
 ```
+
+#### Test the Client
 
 Once configured, you should be able to access the data with `cd /cvmfs/data.galaxyproject.org`. You may need to restart
 AutoFS first with `systemctl restart autofs` (the exact command depends on your specific Linux distribution and
