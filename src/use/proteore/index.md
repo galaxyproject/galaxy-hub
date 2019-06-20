@@ -21,6 +21,7 @@ comments:
 user_support:
   - "Help and support: contact@proteore.org"
   - "Tutorial: [Annotating a protein list identified by LC-MS/MS experiments](http://proteore.org/u/proteore/p/proteore-tutorial-1-annotating-a-protein-list-identified-by-lc-msms-experiments)"
+  - "Tutorial: [Biomarker candidate identification](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html)"
 quotas:
   - "Unregistered user: allocated storage space is limited to 20 Mb and is not conserved between sessions."
   - "Registered user: up to 20 Gb per registered user"
