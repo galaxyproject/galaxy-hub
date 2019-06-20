@@ -605,6 +605,23 @@ The Department of [Systems Biology and Bioinformatics](https://sbi.uni-rostock.d
 
   * [Email](mailto:Abdelazeem_Abdelhameed2015505@yahoo.com)
 
+### Qookka - Transmitting Science
+
+<div class='right'><a href='http://qookka.com.br/'><img src="/src/images/logos/QookkaLogo.png" alt="Qookka - Transmitting Science" width="160" /></a></div>
+
+We at [Qookka - Transmitting Science](http://qookka.com.br/) provide Training for individual or group of people who are interested in NGS and Bioinformatics
+
+**Domains:** 
+
+* General usage.
+
+**Reach:** 
+
+* Regional. Trainings are offered primarily in Brazil, but available in South America.
+
+**Links & Contact:** 
+
+* [Qookka - Transmitting Science](http://qookka.com.br/)
 
 ## Local
 
