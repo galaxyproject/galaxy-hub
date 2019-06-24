@@ -70,8 +70,7 @@ Childcare won't be available during CoFest:Encore.
 
 # CollaborationFest Organizers
 
-* [Marius van den Beek](https://github.com/mvdbeek), [Institut Curie](https://institut-curie.org/)
-* (more to come)
+* [The team](https://galaxyproject.org/events/gcc2019/organizers/#collaborationfest-organizers)
 
 Contact us at
 * CoFest 2019 Organizers <cofest2019-org@lists.galaxyproject.org>
