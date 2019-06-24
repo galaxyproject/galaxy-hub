@@ -78,11 +78,11 @@ Contact us at
 
 # CollaborationFest Sponsors
 
-## Peta Sponsors
-
-## Tera Sponsors
-
 ## Giga Sponsors
+
+<div class="center">
+[<img style="max-height: 9.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
+</div>
 
 ## CollaborationFest Sponsorship Opportunities
 
