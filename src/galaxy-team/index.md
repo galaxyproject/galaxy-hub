@@ -5,12 +5,12 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 ## Core Team
 <div class="row row-fluid text-center">
-<div class='col-md-3'><a href='/src/people/enis-afgan/index.md'><img src="/src/galaxy-team/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br /> 
-[Enis Afgan](/src/people/enis-afgan/index.md) <br /> 
+<div class='col-md-3'><a href='/src/people/enis-afgan/index.md'><img src="/src/galaxy-team/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br />
+[Enis Afgan](/src/people/enis-afgan/index.md) <br />
 [Johns Hopkins](http://www.jhu.edu) <br /><br />
 </div>
-<div class='col-md-3'><a href='/src/people/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="Dannon Baker" height="150" /></a><br /> 
-[Dannon Baker](/src/people/dannon-baker/index.md) <br /> 
+<div class='col-md-3'><a href='/src/people/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="Dannon Baker" height="150" /></a><br />
+[Dannon Baker](/src/people/dannon-baker/index.md) <br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
@@ -22,8 +22,8 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/marten/index.md'><img src="/src/galaxy-team/marten.jpg" alt="Marten Cech" height="150" /></a><br /> 
-[Martin Cech](/src/people/marten/index.md) <br /> 
+<a href='/src/people/marten/index.md'><img src="/src/galaxy-team/marten.jpg" alt="Marten Cech" height="150" /></a><br />
+[Martin Cech](/src/people/marten/index.md) <br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
@@ -44,7 +44,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 <div class='col-md-3'>
 <a href='/src/people/jeremy-goecks/index.md'><img src="/src/galaxy-team/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<br />
-[OHSU](http://www.ohsu.edu) <br /> <br /> 
+[OHSU](http://www.ohsu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
 <a href='/src/people/sergey/index.md'><img src="/src/galaxy-team/sergey.jpg" alt="Sergey Golitsynskiy" height="150" /></a><br />
@@ -54,10 +54,10 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 <div class='col-md-3'>
 <img src="/src/galaxy-team/qiang.jpg" alt="Qiang Gu" height="150" /></a><br />
 Qiang Gu<br />
-[OHSU](http://www.ohsu.edu) <br /> <br /> 
+[OHSU](http://www.ohsu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/guerler/index.md'><img src="/src/galaxy-team/guerler.jpg" alt="Aysam Guerler" height="150" /></a><br /> 
+<a href='/src/people/guerler/index.md'><img src="/src/galaxy-team/guerler.jpg" alt="Aysam Guerler" height="150" /></a><br />
 [Aysam Guerler](/src/people/guerler/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
@@ -90,6 +90,11 @@ Qiang Gu<br />
 <a href='/src/people/anton/index.md'><img src="/src/galaxy-team/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/people/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
+</div>
+<div class='col-md-3'>
+<a href='/src/people/alex-ostrovsky/index.md'><img src="/src/galaxy-team/ostrovsky.jpg" alt="Alex Ostrovsky" height="150" /></a><br />
+[Alex Ostrovsky](/src/people/alex-ostrovsky/index.md)<br />
+[Johns Hopkins](http://www.jhu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
 <img src="/src/galaxy-team/luke.jpg" alt="Luke Sargent" height="150" /><br />
@@ -161,7 +166,7 @@ Luke Sargent<br />
 [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="/src/galaxy-team/greg.jpg" alt="Greg von Kuster" height="150" /><br /> 
+<img src="/src/galaxy-team/greg.jpg" alt="Greg von Kuster" height="150" /><br />
 [Greg von Kuster](/src/people/greg_vonkuster/index.md) <br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
@@ -177,7 +182,7 @@ Luke Sargent<br />
 ## Inspiration Comes From
 
 * Ross Hardison
-* Laura Elnitski 
+* Laura Elnitski
 * Kateryna Makova
 * Webb Miller
 
@@ -209,7 +214,7 @@ Luke Sargent<br />
 ## Past Contributors
 
 * David King
-* Cathy Riemer 
+* Cathy Riemer
 * Finn Bacall
 
 ## Special thanks to
