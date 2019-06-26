@@ -6,10 +6,10 @@ date: ""
 
 [<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-The *July 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
+The *July 2019 Galactic News* is here!
 
-* **[GCC2019 is upon us!](/src/news/2019-07-galaxy-update/index.md#gcc2019-is-here:**
-* Plus [13 other upcoming events](/src/news/2019-07-galaxy-update/index.md#upcoming-events) in the next 90 days
+* **[GCC2019 is here!](/src/news/2019-07-galaxy-update/index.md#gcc2019-is-here)**
+* Plus [17 other upcoming events](/src/news/2019-07-galaxy-update/index.md#upcoming-events) in the next 90 days
 * [153 new publications](/src/news/2019-07-galaxy-update/index.md#publications), great resources lead to great insight. 
 * [Galaxy Platform News](/src/news/2019-07-galaxy-update/index.md#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
 * At least [6 Open positions](/src/news/2019-07-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
@@ -17,7 +17,7 @@ The *July 2019 Galactic News* is here! This is a summary of what is going on in 
 * [New tools](/src/news/2019-07-galaxy-update/index.md#toolshed-contributions) and [new releases](/src/news/2019-07-galaxy-update/index.md#releases).
 * And [some other news](/src/news/2019-07-galaxy-update/index.md#other-news) too.
 
-If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
@@ -35,16 +35,130 @@ See you in Freiburg!
 
 # Upcoming events
 
-Deadlines this month:
+**Deadlines this month:**
 
 * [NGS & Cancer : Analyses épigénomiques](https://www.canceropole-idf.fr/formation-ngs-cancer-analyses-epigenomiques/), limite d’inscription : lundi 8 juillet 2019, midi
 * [Formation metabarcoding 2019](https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2019), limite des inscriptions: 15 juillet
 * [Gateway Focus Week (formerly Science Gateways Bootcamp)](https://mailchi.mp/8607266eb461/apply-now-for-september-2019-focus-week), applications due July 19.
 * [Single cell RNA-seq analysis: From questions to clusters](https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters), applications due 29 July.
 
-[Upcoming events](/src/events/index.md) include:
+**[Upcoming events](/src/events/index.md):**
 
-
+<table class="table table-striped">
+<thead>
+<tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th>
+</tr></thead>
+<tbody>
+<tr>
+  <td><span class="text-nowrap">July 1st 2019</span></td>
+  <td><a href="/events/gcc2019/"><strong>2019 Galaxy Community Conference (GCC2019)</strong></a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Organizers</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 2nd 2019</span></td>
+  <td><a href="/events/2019-07-jobim">Galaxy @ JOBIM 2019</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"><a href="https://jobim2019.sciencesconf.org/">Nantes, France</a></td>
+  <td>Presenters</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 3rd 2019</span></td>
+  <td><a href="http://bioinformatics.org.au/winterschool/program/">An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="http://bioinformatics.org.au/winterschool/">2019 Winter School in Mathematical &amp; Computational Biology, Brisbane, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Igor Makunin</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 10th 2019</span></td>
+  <td><a href="https://www.biogenouest.org/actualites/article/10-1107-%C2%AB-analyse-fonctionnelle-et-interpretation-de-donnees-de-proteomique-avec-">Analyse fonctionnelle et interprétation de données de protéomique avec la plate-forme ProteoRE</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png">Campus de Beaulieu, Rennes, France</td>
+  <td>proteome@univ-rennes1.fr</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 29th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 30th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">July 31st 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="/events/2019-asmcue">"Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy"</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Mohammad Heydarian, Anton Nekrutenko</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 2nd 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 8th 2019</span></td>
+  <td><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/">NGS data analysis with Galaxy for clinical applications</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/">GMDS-Jahrestagung, Dortmund, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>Markus Wolfien</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 9th 2019</span></td>
+  <td><a href="https://sciencegateways.org/engage/focus-week">Gateways Focus Week</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png">Chicago, Illinois, United States</td>
+  <td>help @ sciencegateways.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 23rd 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 23rd 2019</span></td>
+  <td><a href="https://sciencegateways.org/web/gateways2019/welcome">Gateways 2019</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png">San Diego, California, United States</td>
+  <td>James Taylor</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 24th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 25th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 26th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 27th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"></a>training@qfab.org</td>
+</tr>
+</tbody>
+</table>
 
 ----
 
@@ -78,7 +192,7 @@ There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/orde
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 ## UseGalaxy.eu News
 
@@ -102,7 +216,7 @@ OpenMinTeD will be [presented at GCC2019](https://sched.co/PSOh).
 
 ## Galaxy Platforms in Publications
 
-We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
+Platforms that were referenced at least twice in the past month's publications:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
@@ -140,11 +254,6 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 * Slides for the [Galaxy Mapping tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html#1) were thoroughly updated by [Saskia Hiltemann](https://github.com/shiltemann). Lots of new information, an overview of real life mappers, and an interactive game! 
 * [Biomarker candidate identification](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html), a new Galaxy tutorial from [Florence Combes](https://github.com/combesf), [David Christiany](https://github.com/davidchristiany), [Valentin Loux](https://github.com/vloux), and [Yves Vandenbrouck](https://github.com/yvandenb) - All of them first time contributors! 
 
-
-Hub updates:
-
-
-
 ---
 
 # ToolShed Contributions
@@ -155,7 +264,7 @@ Hub updates:
 
 # Releases
 
-New additions to (and editions in) the Galaxy Ecosystem.
+New additions (and editions) in the Galaxy Ecosystem.
 
 ## Galaxy v 19.05
 

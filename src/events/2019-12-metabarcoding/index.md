@@ -4,10 +4,10 @@ date: '2019-12-02'
 days: 5
 tease: "Application deadline:  Monday 29 July 2019 "
 continent: EU
-location: "EBI, Hinxton, United Kingdom"
+location: "Station Biologique de Roscoff, Roscoff, France"
 location_url: ""
-external_url: "https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters"
+external_url: "https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2019"
 gtn: false
-contact: "Marina Pujol"
+contact: "Laure Quintric, Patrick Durand, Erwan Corre"
 image: 
 ---
