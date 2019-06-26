@@ -8,26 +8,20 @@ date: ""
 
 The *July 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
-* **[GCC2019 is upon us!](/src/news/2019-07-galaxy-update/index.md#gcc2019-1-8-july-freiburg-germany):**
-  * **[Advance registration ends 7 June](/src/news/2019-07-galaxy-update/index.md#advance-registration-ends-7-june-this-friday)**
-  * **[Poster and Demo Abstract Submission deadline: 10 June](/src/news/2019-07-galaxy-update/index.md#poster-demo-abstract-submission-deadline-10-june)**
-  * [Conference schedule is online](/src/news/2019-07-galaxy-update/index.md#conference-schedule-is-online)
+* **[GCC2019 is upon us!](/src/news/2019-07-galaxy-update/index.md#gcc2019-is-here:**
 * Plus [13 other upcoming events](/src/news/2019-07-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [150 new publications](/src/news/2019-07-galaxy-update/index.md#publications), great resources lead to great insight. 
-* [Galaxy Platform News](/src/news/2019-07-galaxy-update/index.md#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
-* A new entry to [The Galactic Blog](/src/news/2019-07-galaxy-update/index.md#new-galactic-blog-post-enabling-cloud-bursting-for-galaxy) on Galaxy cloud bursting
-* At least [8 Open positions](/src/news/2019-07-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* [153 new publications](/src/news/2019-07-galaxy-update/index.md#publications), great resources lead to great insight. 
+* [Galaxy Platform News](/src/news/2019-07-galaxy-update/index.md#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
+* At least [6 Open positions](/src/news/2019-07-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [Updates to training materials and documentation](/src/news/2019-07-galaxy-update/index.md#doc-hub-and-training-updates).
 * [New tools](/src/news/2019-07-galaxy-update/index.md#toolshed-contributions) and [new releases](/src/news/2019-07-galaxy-update/index.md#releases).
-* And [some cool other news](/src/news/2019-07-galaxy-update/index.md#other-news) too:
-  * The new [Galaxy Services Status Web Site](/src/news/2019-07-galaxy-update/index.md#galaxy-services-status-web-site)
-  * [Black Duck Open Hub updates it's Galaxy project stats](/src/news/2019-07-galaxy-update/index.md#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
+* And [some other news](/src/news/2019-07-galaxy-update/index.md#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
-# GCC2019 is upon us!
+# GCC2019 is here!
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
@@ -162,23 +156,15 @@ Hub updates:
 
 New additions to (and editions in) the Galaxy Ecosystem.
 
-## Planemo 0.60.0
+## Galaxy v 19.05
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+The May 2019 Galaxy release comes with [additional user-facing release notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce_user.html), and the [full release notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce.html) as well.  Big improvements in this release include a rewrite of the login and registration system, and improvements in workflow expressivity.
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-## Pulsar 0.11.0
+## Pulsar 0.13.0
 
 [<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
-
-## ephemeris 0.10.0
-
-[Ephemeris](https://github.com/galaxyproject/ephemeris) is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows. It has [extensive documentation](https://ephemeris.readthedocs.org/).  This [release](https://github.com/galaxyproject/ephemeris/blob/master/HISTORY.rst) features numerous newly contributed features.
 
 
 ----
