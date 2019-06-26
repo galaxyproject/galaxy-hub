@@ -38,6 +38,7 @@ See you in Freiburg!
 
 Deadlines this month:
 
+* [NGS & Cancer : Analyses épigénomiques](https://www.canceropole-idf.fr/formation-ngs-cancer-analyses-epigenomiques/), limite d’inscription : lundi 8 juillet 2019, midi
 * [Formation metabarcoding 2019](https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2019), limite des inscriptions: 15 juillet
 * [Gateway Focus Week (formerly Science Gateways Bootcamp)](https://mailchi.mp/8607266eb461/apply-now-for-september-2019-focus-week), applications due July 19.
 * [Single cell RNA-seq analysis: From questions to clusters](https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters), applications due 29 July.
