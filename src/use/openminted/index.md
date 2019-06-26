@@ -14,6 +14,8 @@ user_support:
   - "[Guidelines](https://guidelines.openminted.eu) and [other support material](http://openminted.eu/support-training/)."
 quotas:
   - "Anyone can create a login. Galaxy can be used to build workflows, but interactive use of Galaxy is restricted - i.e. you cannot interact with the history. The execution of workflows happens via the [the platform](https://services.openminted.eu)."
+pub_libraries:
+  - "OpenMinTeD"
 citations:
   - "[OpenMinTeD: A Platform Facilitating Text Mining of Scholarly Content](http://lrec-conf.org/workshops/lrec2018/W24/pdf/13_W24.pdf), Penny Labropoulou, Dimitrios Galanis, Antonis Lempesis,
 Mark A. Greenwood, Petr Knoth, Richard Eckart de Castilho, Stavros Sachtouris‡, Byron Georgantopoulos, Lucas Anastasiou, Stefania Martziou, Katerina Gkirtzou, Natalia Manola, Stelios Piperidis, *Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)*, May 2018"
