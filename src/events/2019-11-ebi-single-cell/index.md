@@ -2,11 +2,11 @@
 title: "Single cell RNA-seq analysis: From questions to clusters"
 date: '2019-11-27'
 days: 5
-tease: "Date limite des inscriptions : lundi 15 juillet 2019."
+tease: "Application deadline:  Monday 29 July 2019"
 continent: EU
-location: "Station Biologique de Roscoff, Roscoff, France"
+location: "EBI, Hinxton, United Kingdom"
 location_url: ""
-external_url: "https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2019"
+external_url: "https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters"
 gtn: false
 contact: "Marina Pujol"
 image: 
