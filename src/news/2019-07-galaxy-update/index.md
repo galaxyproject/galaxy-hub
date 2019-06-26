@@ -1,6 +1,6 @@
 ---
 title: 'July 2019 Galactic News'
-tease: 'GCC2019 is upon us, Platforms, Pubs, Jobs, Blog!, Training, Tools, Releases and more!'
+tease: 'GCC2019 is here! And other new stuff too"
 date: ""
 ---
 
@@ -97,16 +97,6 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
 | 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
 | 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | 
-
-----
-
-[<img class="float-right" src="/src/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/src/blog/index.md)
-
-# New Galactic Blog Post: Enabling Cloud Bursting for Galaxy
-
-For the second month in a row we have a new *[Galactic Blog](/src/blog/index.md)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
-
-* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/src/blog/2019-05-gcr/index.md)
 
 ----
 
