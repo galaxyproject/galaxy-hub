@@ -29,7 +29,6 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 * If you haven't registered yet, then [you still can](/src/events/gcc2019/registration/index.md).  We still have space in the training sessions on Monday, as well as in the conference itself on Tuesday through Thursday.
 * We still have poster and demo space (although not much).  [Submit an abstract right now](/src/events/gcc2019/abstracts/index.md).
-* We have opened a [call for late-breaking lightning talks].  Space is tight, but we can get a few on the schedule.  Submit your idea now.
 * There are more [talks, posters, demos, BoFs and training at GCC2019](https://gcc2019.sched.com/) then at any GCC before it.
 
 See you in Freiburg!
@@ -44,6 +43,7 @@ Deadlines this month:
 * [Single cell RNA-seq analysis: From questions to clusters](https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters), applications due 29 July.
 
 [Upcoming events](/src/events/index.md) include:
+
 
 
 ----
@@ -90,6 +90,16 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 * [Galaxy Australia wins three Queensland iAwards](https://www.qcif.edu.au/index.php/news/573-galaxy-australia-wins-three-queensland-iawards)
 
+## OpenMinTeD: Open Mining Infrastructure for Text & Data
+
+[<img class="float-right" style="max-width: 300px" src="/src/use/openminted/OpenMINTED_Tag_Color.png" alt="GCC2019" />](/src/use/openminted/index.md)
+
+[OpenMinTeD](http://openminted.eu) is dedicated to offering advanced high-quality TDM-related services to researchers, TDM experts, SMEs and industry – anyone interested in making sense and extracting hidden knowledge from the huge bulks of scientific and scholarly content. Galaxy is used to build and execute workflows on the platform. Sign in to [the platform](https://services.openminted.eu), choose *Add* in the menu and then *Applications*. Then choose *Build an application with existing components* to access the Galaxy-based workflow editor. To run a workflow use the *Process* menu item.
+
+[Guidelines](https://guidelines.openminted.eu) and [other support material](http://openminted.eu/support-training/) are available. Anyone can create a login. Galaxy can be used to build workflows, but interactive use of Galaxy is restricted - i.e. you cannot interact with the history. The execution of workflows happens via the [the platform](https://services.openminted.eu).
+
+OpenMinTeD will be [presented at GCC2019](https://sched.co/PSOh).
+
 ## Galaxy Platforms in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
@@ -124,7 +134,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
 
-Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/):
+**Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/):**
 
 * [Antibiotic resistance detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html), a new tutorial (including a tour) from new contributor [Willem de Koning](https://github.com/willemdek11) and veteran [Saskia Hiltemann](https://github.com/shiltemann)
 * Slides for the [Galaxy Mapping tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html#1) were thoroughly updated by [Saskia Hiltemann](https://github.com/shiltemann). Lots of new information, an overview of real life mappers, and an interactive game! 
