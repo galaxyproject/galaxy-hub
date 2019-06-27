@@ -1,6 +1,6 @@
 ---
 title: 'July 2019 Galactic News'
-tease: 'GCC2019 is here! And other new stuff too"
+tease: 'GCC2019 is here! And other new stuff too'
 date: ""
 ---
 
