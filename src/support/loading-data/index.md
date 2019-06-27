@@ -69,7 +69,7 @@ If you DO NOT see any files, **load data using FTP first**, then come back to th
 *   **Password protected data** will require a special URL format. Ask the data source. Double check that it is _publicly accessible_.
 *   Use _**[FTP or FTPS](/src/ftp-upload/index.md)**_, not _**SFTP**_. Check with local admin if not sure.
 *   **No HTML content.** The loading error generated may state this. Remove HTML fields from your dataset before loading into Galaxy or omit HTML fields from the query if importing from a data source (such as Biomart).
-*   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are (usually) supported -- but if your .zip data does not load, unpack the archive and upload the data directly.**
+*   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and _single-file_ .tar and .zip are (usually) supported -- but if your tar/zip data does not load -- download the data locally, unpack the archive, and upload the data directly.**
 *   Only the **first file in any compressed archive** will load as a **[dataset](/src/learn/managing-datasets)**.
 *   Data must be **< 50G** (uncompressed) to be successfully uploaded and added as a dataset to a history, from any source.
 *   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/src/learn/managing-datasets/index.md) for help or watch the screencast above for a how-to example.
