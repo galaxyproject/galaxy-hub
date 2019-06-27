@@ -2,7 +2,7 @@
 title: "Formation metabarcoding 2019"
 date: '2019-12-02'
 days: 5
-tease: "Application deadline:  Monday 29 July 2019 "
+tease: "Date limite des inscriptions : lundi 15 juillet 2019."
 continent: EU
 location: "Station Biologique de Roscoff, Roscoff, France"
 location_url: ""
