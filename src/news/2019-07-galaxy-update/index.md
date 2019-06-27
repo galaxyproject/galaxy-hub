@@ -196,6 +196,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 ## UseGalaxy.eu News
 
+* [Tool Recommendation: What do I do next?](https://galaxyproject.eu/posts/2019/06/27/tool-prediction/), usegalaxy.eu has implemented tool recommendation, finally answering the question "what to do next."
 * [UseGalaxy.eu Tool Updates for 2019-06-21](https://galaxyproject.eu/posts/2019/06/21/tool-update/), usegalaxy.eu is getting ready for GCC 2019
 * [TIaaS Queue Status](https://galaxyproject.eu/posts/2019/06/17/tiaas-queue/), using UseGalaxy.eu’s Training infrastructure as a Service (TIaaS).
 * [Native support for Elixir-AAI in Galaxy v.19.05](https://galaxyproject.eu/posts/2019/06/13/elixir-aai-done/): the European Galaxy Server hosted by Elixir Germany is now ready to accept logins from users using their Elixir AAI identity for authentication.
