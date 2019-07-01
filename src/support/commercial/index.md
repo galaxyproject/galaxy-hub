@@ -5,12 +5,6 @@ Galaxy [servers](/src/choices/index.md) and [support](/src/support/index.md) are
 
 # Consulting
 
-## Deena Bioinformatics
-
-[<img class="float-right" src="/src/images/logos/DeenaBionformaticsBlack.png" alt="Deena Bioinformatics" width="150" />](http://www.deenabio.com/)
-
-[Deena Bioinformatics](http://www.deenabio.com/) can help you to setup your own Galaxy Server.  Give your your researchers an easy to use web interface to the command-line utilities they need to work with.
-
 ## Intero Life Sciences
 
 [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
