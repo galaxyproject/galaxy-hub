@@ -1,5 +1,6 @@
 ---
 title: GCC2019 - Freiburg, DE
+skip_title_render: true
 ---
 {{> Events/GCC2019/Header }}
 
