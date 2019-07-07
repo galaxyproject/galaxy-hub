@@ -3,6 +3,12 @@ extends layout.pug
 mixin renderNews()
     section.section-content
         +renderPageTitle
+        if external_url
+            p
+                strong See 
+                    a(href=external_url)
+                        | (external) news items
+
         p.small #{moment(date).format("MMMM Do YYYY")}
         div !{ contents }
 
