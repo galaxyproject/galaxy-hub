@@ -29,13 +29,19 @@ block content
                 h2: a( href="/news/" ) News
                 each item in news.slice(0,3)
                     p
-                        a( href=item.link ) #{item.title}
+                        if item.external_url
+                            a( href=item.external_url ) #{item.title}
+                        else
+                            a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
                 h2: a( href="/blog/" ) Blog
                 each item in blog.slice(0,2)
                     p
-                        a( href=item.link ) #{item.title}
+                        if item.external_url
+                            a( href=item.external_url ) #{item.title}
+                        else
+                            a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
