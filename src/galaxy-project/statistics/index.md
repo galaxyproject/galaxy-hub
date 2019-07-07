@@ -9,9 +9,7 @@ This page contains statistics about the [Galaxy Project](/src/galaxy-project/ind
 
 ## Galaxy Help Forum
 
-The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from BioStar were copied over.
-
-Since the help forum is so new, we don't have any meaningful statistics yet.
+The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from out old BioStar site were copied over.
 
 [![](/src/galaxy-project/statistics/discourse-posts.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=762163567&format=interactive)
 
@@ -65,15 +63,15 @@ The [Galaxy Publications Library](/src/galaxy-publications/index.md) lists every
 
 In October 2017 [the 5,000th pub was added to that library](/src/blog/2017-10-5000-pubs/index.md).
 
-Here are the tags on papers in the Galaxy Publications Library as of January 2019:
+Here are the tags on papers in the Galaxy Publications Library as of June 2019:
 
 <table class="table">
   <tr>
     <th> Year </th>
     <th> # Pubs </th>
     <th> </th>
-    <td> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Me-thods</a> </th>
-    <td> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Me-thods</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">Use-Pub-lic</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">Use-Main</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">Ref-Pub-lic</a> </th>
@@ -616,32 +614,6 @@ The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed soft
 # Events
 
 As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) since the 2012 meeting.
-
-
-# Galaxy BioStar
-
-The [Galaxy BioStar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014 and **retired on November 29, 2018. (The site still exists and can be searched.)**
-
-**The January 2019 update to this page will be the last one to include BioStar stats.**
-
-Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy BioStar at that time, and people were strongly advised to post future questions to Galaxy BioStar.  On June 6, 2014, all posting to Galaxy-User was suspended.  The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy BioStar.
-
-All date ranges here are from BioStar.  For example, the "last 12 months" means anything that BioStar identifies as having happened between now and "12 months ago", inclusive.
-
-## Active Users
-
-Active here means "visited", as defined by BioStar.
-
-[![](/src/galaxy-project/statistics/biostar_active_users.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=540758257&format=interactive)
-
-## Active Threads
-
-[![](/src/galaxy-project/statistics/biostar_active_threads.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=1611142178&format=interactive)
-
-
-## All Time Totals
-
-[![](/src/galaxy-project/statistics/biostar_totals.png)](https://docs.google.com/spreadsheets/d/1mKs0ImBWgBPqi_05w2e2dvQw22O7cxZkavKSfZ1n2aA/pubchart?oid=851709991&format=interactive)
 
 
 ## Want the underlying numbers?
