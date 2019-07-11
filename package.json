@@ -25,7 +25,7 @@
     "highlight.js": "^9.15.8",
     "jquery": "^3.4.1",
     "jstransformer-pug": "^0.3.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "marked": "0.6.1",
     "metalsmith": "^2.3.0",
     "metalsmith-autotoc": "^0.1.5",
