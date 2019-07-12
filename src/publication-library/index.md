@@ -75,7 +75,7 @@ Please see the [instructions for contributing](/src/publication-library/contribu
 ![citeulike](/src/images/logos/CiteULikeLogo.png)
 </div>
 
-The Galaxy publication library resided in CiteULike from 2011-2017.  In that time the library went from 0 to over 4800 publications.  (That library is still [available on CiteULike](http://www.citeulike.org/group/16008/), by the way.)  In 2017 we started looking for a replacement and settled on Zotero, which has a desktop client and great collaborative features, and was already in use by the [Galaxy Training Network](/src/teach/gtn/index.md).  We made the switch from CiteULike to Zotero in September 2017.
+The Galaxy publication library resided in CiteULike from 2011-2017.  In that time the library went from 0 to over 4800 publications.  (That library is still [available on CiteULike](http://www.citeulike.org/group/16008/), by the way.)  In 2017 we started looking for a replacement and settled on Zotero, which has a desktop client and great collaborative features.  We made the switch from CiteULike to Zotero in September 2017.
 
 ## Mendeley
 
