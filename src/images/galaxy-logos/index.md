@@ -159,3 +159,10 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 * Logo, just G, 679x429 pixels
 
     <a href='/src/images/galaxy-logos/GalaxyScholarshipsGBig.png'><img src="/src/images/galaxy-logos/GalaxyScholarshipsGBig.png" alt=""  /></a>
+
+## Help.GalaxyProject.org
+
+* Logo, full text, transparent background, 5081x701 pixels
+
+    <a href='/src/images/galaxy-logos/help-galaxyproject-org-big.png'><img src="/src/images/galaxy-logos/help-galaxyproject-org-big.png" alt="" width="800" /></a>
+
