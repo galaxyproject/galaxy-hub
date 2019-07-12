@@ -18,7 +18,7 @@ Galaxy will be among the topics covered at [BioHackathon-Europe 2019](https://ww
 * [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3), Hervé Ménager, [John Chilton](/src/people/john-chilton/index.md), Michael Crusoe
 * [Towards seamless Galaxy and InterMine integration: Enhanced region analysis](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7), Yo Yehudi
 * [Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8), [Helena Rasche](/src/people/helena-rasche/index.md), Saskia Hiltemann, Bérénice Batut
-* [Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17), Gianmauro Cuccuru Marco Antonio Tangaro
+* [Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17), Gianmauro Cuccuru, Marco Antonio Tangaro
 * [Updating the Galaksio workflow management interface for Galaxy and migrating it to Vue.js](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19), Tomas Klingstrom
 * [A graph database of Galaxy tool interoperability](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/30), Wolfgang Maier, Jon Ison
 * [Bioconda and Biocontainers helpdesk](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31), [Björn Grüning](/src/people/bjoern-gruening/index.md), Devon Ryan
