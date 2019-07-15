@@ -1,5 +1,5 @@
 ---
-title: "RNA Seq analysis using Galaxy " 
+title: "Variant detection using Galaxy" 
 tease: ""
 date: '2019-08-01'
 days: 1
