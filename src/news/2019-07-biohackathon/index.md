@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ BioHackathon-Europe 2019"
 tease: "Register now"
-date: ""
+date: "2019-07-16"
 ---
 
 <div class="float-right">
