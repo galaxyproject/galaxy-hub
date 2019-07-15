@@ -1,6 +1,5 @@
 ---
-title: "Getting started with Galaxy and NGS Platforms" 
-tease: "how data generation impacts bioinformatics analysis"
+title: "NGS Platforms: how data generation impacts bioinformatics analysis - quality control"
 date: '2019-09-23'
 days: 1
 continent: AU
