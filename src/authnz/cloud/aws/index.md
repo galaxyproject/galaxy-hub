@@ -1,5 +1,5 @@
 ---
-title: Configure Cloud Authorizatoin for AWS
+title: Configure Cloud Authorization for AWS
 highlight: true
 ---
 
