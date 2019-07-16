@@ -30,7 +30,7 @@ to assume the role. To do so, take the following steps:
     that you would like to authorize Galaxy to authorize access its 
     resources. If you do not have a project, 
     [refer to this page](https://cloud.google.com/resource-manager/docs/creating-managing-projects)
-    for how to create one.
+    on how to create one.
     
 2. Click on the  `+ CREATE SERVICE ACCOUNT` button:
 
@@ -83,54 +83,54 @@ then click on the `Create a new key` button, and copy the generated API key:
 
 3. Send a `POST` request to cloud authorization API at: 
 
-```
-api/cloud/authz
-```
-
-with the following payload:
-
-```json
-{
-  "provider": "gcp",
-  "authn_id":"f2db41e1fa331b3e",
-  "config": {
-    "project_id": "...",
-    "private_key_id": "...",
-    "private_key": "...",
-    "client_email": "...",
-    "client_id": "..."
-  }
-}
-```
-
-You may send a `GET` request to `/authnz` controller to obtain the `authn_id`. 
-You may obtain the values for the keys in the `config` section, from the service
-account's secretes file downloaded from GCP at first step.
-
-Galaxy will respond to the `POST` method as the following:
-
-```json
-{
-    "authn_id": "f2db41e1fa331b3e",
-    "user_id": "f2db41e1fa331b3e",
-    "description": "",
-    "last_update": "2019-07-15 21:59:26.171779",
-    "last_activity": "2019-07-15 21:59:26.171791",
-    "create_time": "2019-07-16 04:59:26.173277",
-    "provider": "gcp",
-    "model_class": "CloudAuthz",
-    "config": {
-        "private_key": "...",
+    ```
+    api/cloud/authz
+    ```
+    
+    with the following payload:
+    
+    ```json
+    {
+      "provider": "gcp",
+      "authn_id":"f2db41e1fa331b3e",
+      "config": {
         "project_id": "...",
-        "client_email": "...",
         "private_key_id": "...",
+        "private_key": "...",
+        "client_email": "...",
         "client_id": "..."
-    },
-    "id": "f2db41e1fa331b3e"
-}
-```
-
-Take a note of the authorization ID (i.e., `"id": "f2db41e1fa331b3e"`), which you would need 
-to provide in order to interact with GCP. Having defined the cloud authorization, you may 
-[send your data from Galaxy to Google Cloud Storage (GCS)](/src/cloud/storage/#send-data-to-cloud), 
-or [copy your data from GCS to your Galaxy history](/src/cloud/storage/#get-data-from-cloud).
+      }
+    }
+    ```
+    
+    You may send a `GET` request to `/authnz` controller to obtain the `authn_id`. 
+    You may obtain the values for the keys in the `config` section, from the service
+    account's secretes file downloaded from GCP at first step.
+    
+    Galaxy will respond to the `POST` method as the following:
+    
+    ```json
+    {
+        "authn_id": "f2db41e1fa331b3e",
+        "user_id": "f2db41e1fa331b3e",
+        "description": "",
+        "last_update": "2019-07-15 21:59:26.171779",
+        "last_activity": "2019-07-15 21:59:26.171791",
+        "create_time": "2019-07-16 04:59:26.173277",
+        "provider": "gcp",
+        "model_class": "CloudAuthz",
+        "config": {
+            "private_key": "...",
+            "project_id": "...",
+            "client_email": "...",
+            "private_key_id": "...",
+            "client_id": "..."
+        },
+        "id": "f2db41e1fa331b3e"
+    }
+    ```
+    
+    Take a note of the authorization ID (i.e., `"id": "f2db41e1fa331b3e"`), which you would need 
+    to provide in order to interact with GCP. Having defined the cloud authorization, you may 
+    [send your data from Galaxy to Google Cloud Storage (GCS)](/src/cloud/storage/#send-data-to-cloud), 
+    or [copy your data from GCS to your Galaxy history](/src/cloud/storage/#get-data-from-cloud).
