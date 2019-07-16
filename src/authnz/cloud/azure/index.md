@@ -1,5 +1,5 @@
 ---
-title: Configure Cloud Authorizatoin for Azure
+title: Configure Cloud Authorization for Azure
 highlight: true
 ---
 
