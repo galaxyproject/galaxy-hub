@@ -69,7 +69,7 @@ We meet in North America in even years, and *not-in-North-America* in odd years.
 
 # What about BOSC?
 
-[<img class="float-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" style="max-width: 150px" />](https://gccbosc2018.sched.com/)
+[<img class="float-left" src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" style="max-width: 120px" />](https://gccbosc2018.sched.com/)
 
 We tried for years to co-locate with BOSC, and we finally pulled it off in 2018. [GCCBOSC 2018](https://gccbosc2018.sched.com/) was an experiment that went so well that we are planning on doing it again in 2020.
 
