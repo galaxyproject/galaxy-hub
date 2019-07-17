@@ -575,6 +575,7 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
 | 2017-01-19 |          144 |          6,675 | 34,451 |
 | 2017-07-12 |          587 |          9,549 | 43,001 |
 | 2018-01-15 |          225 |          9,843 | 48,522 |
+| 2019-07-17 |          371 |          8,291 | 64,215 |
 
 ## Committers
 
@@ -586,10 +587,17 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
 | 2016-08-16 |           18 |            123 |    282 |
 | 2017-07-12 |           36 |            162 |    357 |
 | 2018-01-15 |           35 |            158 |    405 |
+| 2019-07-17 |           26 |            186 |    546 |
+
+[According to Open Hub](https://www.openhub.net/p/galaxybx/factoids#FactoidTeamSizeVeryLarge):
+
+<div class="blockquote">
+This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Open Hub.
+</div>
 
 ## Galaxy Clones
 
-The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **GitHub exposes the number of clones and cloners in the most recent 14 day period.**
+The [Galaxy server repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **GitHub exposes the number of clones and cloners in the most recent 14 day period.**
 
 | Date       | Clones | Unique Cloners |
 |------------|-------:|---------------:|
@@ -601,7 +609,7 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 | 2017-07-12 |  2.665 |            481 |
 | 2018-01-15 |  2,609 |            579 |
 | 2018-07-24 |  2,982 |            246 |
-
+| 2019-07-17 |  2,828 |            355 |
 
 # Tools
 
