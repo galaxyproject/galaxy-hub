@@ -58,6 +58,16 @@ Galaxy has a strong community in Japan.  To keep up with it, follow the [#UseGal
 
 The Galaxy Training Network is a large, community-based project to create, maintain, support and present Galaxy training and training materials.  Follow the [@gxytraining account](https://twitter.com/gxytraining) for training focused news.
 
+### Galaxy Platform Accounts
+
+Several [Galaxy Platforms](/src/use) have Twitter accounts for news about those platforms.  If you use a particular platform then follow it's Twitter account.
+
+Here's a sample:
+
+* [@GalaxyAustralia](https://twitter.com/GalaxyAustralia) for news about [UseGalaxy.org.au](https://usegalaxy.org.au/)
+* [@galaxyproject](https://twitter.com/galaxyproject) for news about [UseGalaxy.org](https://usegalaxy.org/)
+* more to come....
+
 ------------------
 
 Or an alternative presentation
@@ -73,8 +83,14 @@ The two main organizing principles of Twitter are accounts and hashtags.  **Acco
 | [@Galaxy_Arabic](https://twitter.com/Galaxy_Arabic) | Want to know about Galaxy in the Arabic-speaking world?  Follow the [Galaxy_Arabic account](https://twitter.com/Galaxy_Arabic) to keep in the know. | < 5 / month |
 | [#UseGalaxyJP](https://twitter.com/hashtag/UseGalaxyJP) | Galaxy has a strong community in Japan.  To keep up with it, follow the [#UseGalaxyJP hashtag](https://twitter.com/hashtag/UseGalaxyJP). | < 5 / month |
 | [@gxytraining](https://twitter.com/gxytraining) | The Galaxy Training Network is a large, community-based project to create, maintain, support and present Galaxy training and training materials.  Follow the [@gxytraining account](https://twitter.com/gxytraining) to keep up with this group. | Brand new |
+| [@GalaxyAustralia](https://twitter.com/GalaxyAustralia) ([UseGalaxy.org.au](https://usegalaxy.org.au/)), [@galaxyproject](https://twitter.com/galaxyproject) ([UseGalaxy.org](https://usegalaxy.org/)) more to come.... | Several [Galaxy Platforms](/src/use) have Twitter accounts for news about those platforms.  If you use a particular platform then follow it's Twitter account. | Varies |
 
 <sup>*</sup> Except during [GCC](/src/gcc/index.md), when posts go way up.
+
+
+# Got something to say?
+
+Twitter is not a passive platform (you may have heard that already :-).  If you have news that's relevant to the Galaxy community then please include the #UseGalaxy hashtag, or one of the other accounts or hashtags if those are more relevant.
 
 
 # Keeping up without drowning: TweetDeck
@@ -82,5 +98,6 @@ The two main organizing principles of Twitter are accounts and hashtags.  **Acco
 We recommend [TweetDeck](https://tweetdeck.twitter.com/) for using Twitter.  TweetDeck lets you track multiple accounts and hashtags simultaneously, each in it's own column.  
 
 
+See you on Twitter,
 
-
+Dave Clements, Martin Cech, Mo Heydarian, Hans-Rudolf Hotz and Nicola Soranzo
