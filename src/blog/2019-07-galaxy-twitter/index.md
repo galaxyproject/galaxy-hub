@@ -32,7 +32,7 @@ Hashtags (they start with a `#`) can be used by anyone and indicate that a tweet
 
 ## I want to be in the know: The @galaxyproject account
 
-The [@galaxyproject account](https://twitter.com/galaxyproject) is the project's "official" Twitter channel.  We (Dave C, Martin C, Mo H, Nicola S, and Hans-Rudolf H) use this channel to announce events, news, publications, and resources that we think will be of interest to the Galaxy community.  This account sends between 25 and 50 tweets and retweets per month (except during GCC, when that number goes way up).
+The [@galaxyproject account](https://twitter.com/galaxyproject) is the project's "official" Twitter channel.  We (Dave C, Martin C, Mo H, Nicola S, and Hans-Rudolf H) use this channel to announce events, news, publications, and resources that we think will be of interest to the Galaxy community.  This account sends between 25 and 50 tweets and retweets per month (except during [GCC](https://galaxyproject.org/gcc/), when that number goes way up).
 
 ## I'm Interested In Particular Communities
 
