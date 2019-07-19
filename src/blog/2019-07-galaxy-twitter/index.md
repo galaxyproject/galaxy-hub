@@ -48,7 +48,7 @@ Using or running Galaxy in the United Kingdom?  The [@GalaxyUKFriends account](h
 
 ### @Galaxy_Arabic
 
-Want to know about Galaxy in the Arabic-speaking world?  Follow the [Galaxy_Arabic account](https://twitter.com/Galaxy_Arabic) to keep in the know.
+Want to know about Galaxy in the Arabic-speaking world?  Follow the [@Galaxy_Arabic account](https://twitter.com/Galaxy_Arabic) to keep in the know.
 
 ### #UseGalaxyJP
 
@@ -72,7 +72,9 @@ Here's a sample:
 
 Or an alternative presentation
 
-The two main organizing principles of Twitter are accounts and hashtags.  **Accounts** are what you would expect.  They start with an `@`.  **Hashtags** can be used by anyone and indicate that a tweet is relevant to a particular topic.  They start with a `#`.
+The two main organizing principles of Twitter are accounts and hashtags:
+- **Accounts** are what you would expect. They start with an `@`.
+- **Hashtags** can be used by anyone and indicate that a tweet is relevant to a particular topic. They start with a `#`.
 
 | @account or #hashtag | Description | Volume |
 | ---- | ---- | ---- |
@@ -95,7 +97,7 @@ Twitter is not a passive platform (you may have heard that already :-).  If you 
 
 # Keeping up without drowning: TweetDeck
 
-We recommend [TweetDeck](https://tweetdeck.twitter.com/) for using Twitter.  TweetDeck lets you track multiple accounts and hashtags simultaneously, each in it's own column.  
+We recommend [TweetDeck](https://tweetdeck.twitter.com/) for using Twitter.  TweetDeck lets you track multiple accounts and hashtags simultaneously, each in its own column.  
 
 
 See you on Twitter,
