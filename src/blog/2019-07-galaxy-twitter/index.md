@@ -66,6 +66,7 @@ Here's a sample:
 
 * [@GalaxyAustralia](https://twitter.com/GalaxyAustralia) for news about [UseGalaxy.org.au](https://usegalaxy.org.au/)
 * [@galaxyproject](https://twitter.com/galaxyproject) for news about [UseGalaxy.org](https://usegalaxy.org/)
+* [@usegalaxyp](https://twitter.com/usegalaxyp) for news about the [Galaxy for Proteomics project](http://galaxyp.org/)
 * more to come....
 
 ------------------
