@@ -176,6 +176,26 @@ hr {
     margin: 0.6em 0em;
 }
 
+/* Card overrides */
+div.card {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+div.card p {
+    padding: 0.75rem 1.25rem 0rem 1.25rem;
+}
+
+card-img-top {
+    margin: 0rem 0rem 0.75rem 0rem;
+}
+
+.card-header {
+    font-size: larger;
+    font-weight: 500;
+}
+
 
 
 /* *******

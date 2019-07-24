@@ -4,9 +4,9 @@ tease: "GCC2019 is done; BCC2020 is coming"
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
-
 The *August 2019 Galactic News* is here!
+
+[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
 * **[GCC2019 is done](/src/news/2019-08-galaxy-update/index.md#gcc2019-is-here) and BCC2020 is coming**
 * Plus [xxxx other upcoming events](/src/news/2019-08-galaxy-update/index.md#upcoming-events) in the next 90 days
@@ -19,19 +19,36 @@ The *August 2019 Galactic News* is here!
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
-----
+# GCCs: Past and Future
 
-# GCC2019 is done. BCC2020 is Coming!
+<div class="card-deck">
+<div class="card border-info">
+<div class="card-header">GCC2019 is Done.</div>
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
 **The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)**
+</div>
+
+<div class="card border-primary">
+<div class="card-header">BCC2020 is Coming!</div>
+
+In Toronto!
+
+</div>
+</div>
 
 # Upcoming events
 
-**Deadlines this month:**
+<div class="card border-info">
+<div class="card-header">Deadlines this month</div>
 
-**[Upcoming events](/src/events/index.md):**
+There will be some
+
+</div>
+
+<div class="card border-info">
+<div class="card-header">[Upcoming events](/src/events/index.md)</div>
 
 <table class="table table-striped">
 <thead>
@@ -42,24 +59,34 @@ If you have anything to include to next month's newsletter, then please send it 
 </tbody>
 </table>
 
-----
+</div>
+
 
 # Publications
 
 **xxxx new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.
 
-## Highlighted Publications
+<div class="card-deck">
+<div class="card border-info">
+<div class="card-header">Highlighted Publications</div>
 
 There were xxxx *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and xxxx of them are open access:
 
-## Publication Topics
+</div>
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
-| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 21 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 20 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
-| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseCloud) | 
+<div class="card border-info">
+<div class="card-header">Publication Topics</div>
+
+| # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | 
+| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | 
+| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | 
+| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
+| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
+
+</div>
+</div>
+
 
 ----
 
@@ -84,20 +111,57 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Onderzoekassistent Bioinformatica](https://www.academictransfer.com/nl/284710/onderzoekassistent-bioinformatica/apply/)</div>
 
-* [Bioinformaticien h/f - INNOLEA](https://www.sfbi.fr/node/11698), Mondonville, France. "Le développement d'outils pour l'analyse de données génétiques, génomiques et la mise en œuvre dans une plateforme Galaxy"
-* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
-* ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
-* The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
+Wageningen University & Research is hiring.
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+<img class="card-img-bottom" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen University & Research" />
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197)</div>
+
+In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Cleveland, Ohio, United States.
+
+<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager)</div>
+
+At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools)</div>
+
+At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator)</div>
+
+At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium in Ghent.
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
+
+The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
+</div>
+</div>
 
 ---
 
