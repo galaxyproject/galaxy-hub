@@ -10,4 +10,4 @@ autotoc: false
 * Email: [marten@bx.psu.edu](mailto:marten@bx.psu.edu)
 * Twitter: https://twitter.com/martenson
 * GitHub: https://github.com/martenson
-* LinkedIn: http://www.linkedin.com/in/cechmartin/
+
