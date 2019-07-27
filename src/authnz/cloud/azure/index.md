@@ -8,7 +8,7 @@ that *service principal*.
 
 ## Step 1: Create an Azure Service Principal
 
-1. Goto [portal.azure.com](portal.azure.com) and login with your Azure credentials. 
+1. Goto [portal.azure.com](https://portal.azure.com) and login with your Azure credentials. 
 2. Select **Azure Active Directory > App registrations (Preview)**, then click **New registration** 
 (as shown on the following figure).
 
