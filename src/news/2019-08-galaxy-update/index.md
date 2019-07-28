@@ -23,14 +23,14 @@ If you have anything to include to next month's newsletter, then please send it 
 
 <div class="card-deck">
 <div class="card border-info">
+[<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 <div class="card-header">GCC2019 is Done.</div>
-
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
 **The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)**
 </div>
 
 <div class="card border-primary">
+<img class="card-img-top" src="/src/images/logos/bcc2020-wide-100.png" alt="BCC2020" />
 <div class="card-header">BCC2020 is Coming!</div>
 
 In Toronto!
@@ -64,28 +64,44 @@ There will be some
 
 # Publications
 
-**xxxx new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.
+**178 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.
+
+There were 5 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and 4 of them are open access:
 
 <div class="card-deck">
-<div class="card border-info">
-<div class="card-header">Highlighted Publications</div>
+<div class="card border-info" style="min-width: 8rem;">
+<div class="card-header">[Social support for collaboration and group awareness in life science research teams](https://doi.org/10.1186/s13029-019-0074-4)</div>
 
-There were xxxx *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and xxxx of them are open access:
-
+Delfina Malandrino, Ilaria Manno, Alberto Negro, Andrea Petta, Luigi Serra, Concita Cantarella & Vittorio Scarano.  *Source Code for Biology and Medicine* volume 14, Article number: 4 (2019) doi: 10.1186/s13029-019-0074-4
 </div>
 
-<div class="card border-info">
-<div class="card-header">Publication Topics</div>
+<div class="card border-info" style="min-width: 8rem;">
+<div class="card-header">[The Dark Matter of Large Cereal Genomes: Long Tandem Repeats](https://doi.org/10.3390/ijms20102483 )</div>
 
-| # | Tag | | # | Tag | 
-| ---: | --- | --- | ---: | --- | 
-| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | 
-| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | 
-| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
-| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
+Veronika Kapustová, Zuzana Tulpová, Helena Toegelová, Petr Novák, Jiří Macas, Miroslava Karafiátová, Eva Hřibová, Jaroslav Doležel and Hana Šimková. *Int. J. Mol. Sci.* 2019, 20(10), 2483; doi: 10.3390/ijms20102483 
+</div>
 
+<div class="card border-info" style="min-width: 8rem;">
+<div class="card-header">[Quantifying the RNA cap epitranscriptome reveals novel caps in cellular and viral RNA](https://doi.org/10.1101/683045)</div>
+
+Jin Wang, Bing Liang Alvin Chew, Yong Lai, Hongping Dong, Luang Xu, Seetharamsingh Balamkundu, Weiling Maggie Cai, Liang Cui, Chuan Fa Liu, Xin-Yuan Fu, Zhenguo Lin, Pei-Yong Shi, Timothy K. Lu, Dahai Luo, Samie R. Jaffrey, Peter C. Dedon. *bioRxiv* doi: 10.1101/683045
+</div>
+
+<div class="card border-info" style="min-width: 8rem;">
+<div class="card-header">[metaQuantome: An integrated, quantitative metaproteomics approach reveals connections between taxonomy and protein function in complex microbiomes](https://doi.org/10.1074/mcp.RA118.001240)</div>
+
+Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, View ORCID ProfileShane Hubler, Bart Mesuere, Joel Rudney, Timothy J. Griffin and Pratik D Jagtap. *Molecular & Cellular Proteomics* June 24, 2019, mcp.RA118.001240; doi: 10.1074/mcp.RA118.001240 
 </div>
 </div>
+
+## Publication Topics
+
+| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
+| 127 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 24 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
+| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | |
 
 
 ----
