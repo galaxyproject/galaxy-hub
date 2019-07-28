@@ -24,38 +24,33 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card-deck">
 <div class="card border-info">
 [<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
-<div class="card-header">GCC2019 was the biggest GCC ever</div>
+<div class="card-header">GCC2019: Biggest GCC Ever</div>
 
 **The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).
 
-It was a smashing success by any measurement.*
+It was a smashing success by any measurement
 
 * 231 total participants
 * 65 Talks
-<!--
   * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
   * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
   * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
-  * &nbsp;&nbsp; [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
-  * &nbsp;&nbsp; [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
-  * &nbsp;&nbsp; [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
-  * &nbsp;&nbsp; [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
--->
-* [54 Posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters)
+  * [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
+  * [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
+  * [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
+  * [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+* [54 Posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters) and [14 Demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos)
 * [39 Training Sessions](https://gcc2019.sched.com/overview/type/A.+Training)
-* [14 Demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos)
 * [~30 Birds of a Feather meetups](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs)
 
 The slides for most talks and posters are [online](https://gcc2019.sched.com/).  Videos of selected trainings and most talks will be posted (we hope) in August.
 
 *Many, many thanks to all the instructors, presenters, scientific committee members, and BOF, conference and CoFest organizers for making 2019 such an excellent year.*
-
-<sup>*</sup>We believe that all of those numbers are new highs in the annals of GCCs.
 </div>
 
 <div class="card border-primary">
 <img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
-<div class="card-header">BCC2020 is Coming!</div>
+<div class="card-header">BCC2020: July 18-25, 2020, Toronto</div>
 
 We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
