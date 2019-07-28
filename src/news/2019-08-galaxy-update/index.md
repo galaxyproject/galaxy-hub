@@ -19,22 +19,51 @@ The *August 2019 Galactic News* is here!
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
-# GCCs: Past and Future
+# GCC2019 + GCC2020!
 
 <div class="card-deck">
 <div class="card border-info">
 [<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
-<div class="card-header">GCC2019 is Done.</div>
+<div class="card-header">GCC2019 was the biggest GCC ever</div>
 
-**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)**
+**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).
+
+It was a smashing success by any measurement.*
+
+* 231 total participants
+* 65 Talks
+<!--
+  * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
+  * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
+  * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
+  * &nbsp;&nbsp; [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
+  * &nbsp;&nbsp; [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
+  * &nbsp;&nbsp; [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
+  * &nbsp;&nbsp; [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+-->
+* [54 Posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters)
+* [39 Training Sessions](https://gcc2019.sched.com/overview/type/A.+Training)
+* [14 Demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos)
+* [~30 Birds of a Feather meetups](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs)
+
+The slides for most talks and posters are [online](https://gcc2019.sched.com/).  Videos of selected trainings and most talks will be posted (we hope) in August.
+
+*Many, many thanks to all the instructors, presenters, scientific committee members, and BOF, conference and CoFest organizers for making 2019 such an excellent year.*
+
+<sup>*</sup>We believe that all of those numbers are new highs in the annals of GCCs.
 </div>
 
 <div class="card border-primary">
-<img class="card-img-top" src="/src/images/logos/bcc2020-wide-100.png" alt="BCC2020" />
+<img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
 <div class="card-header">BCC2020 is Coming!</div>
 
-In Toronto!
+We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
+The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.  
+
+BCC2020 will be held July 18-25, at [Victoria University](http://www.vicu.utoronto.ca/about.htm), on the [University of Toronto](https://www.utoronto.ca/) campus, in Toronto, Ontario, Canada, immediately after [ISMB 2020 ends in Montreal](https://www.iscb.org/ismb2020).  BCC2020 will be hosted by the [Ontario Institute for Cancer Research (OICR)](https://oicr.on.ca/) and the University of Toronto.
+
+BCC2020 will feature a similar mix of training, conference, and CollaborationFest, that [GCCBOSC2018](https://gccbosc2018.sched.com/) did.
 </div>
 </div>
 
@@ -47,8 +76,9 @@ There will be some
 
 </div>
 
-<div class="card border-info">
-<div class="card-header">[Upcoming events](/src/events/index.md)</div>
+## All [Upcoming events](/src/events/index.md)
+
+There is a lot going on in the next 3 months.
 
 <table class="table table-striped">
 <thead>
@@ -58,8 +88,6 @@ There will be some
 
 </tbody>
 </table>
-
-</div>
 
 
 # Publications
@@ -81,16 +109,16 @@ Delfina Malandrino, Ilaria Manno, Alberto Negro, Andrea Petta, Luigi Serra, Conc
 Veronika Kapustová, Zuzana Tulpová, Helena Toegelová, Petr Novák, Jiří Macas, Miroslava Karafiátová, Eva Hřibová, Jaroslav Doležel and Hana Šimková. *Int. J. Mol. Sci.* 2019, 20(10), 2483; doi: 10.3390/ijms20102483 
 </div>
 
-<div class="card border-info" style="min-width: 8rem;">
+<div class="card border-info" style="min-width: 23%;">
 <div class="card-header">[Quantifying the RNA cap epitranscriptome reveals novel caps in cellular and viral RNA](https://doi.org/10.1101/683045)</div>
 
 Jin Wang, Bing Liang Alvin Chew, Yong Lai, Hongping Dong, Luang Xu, Seetharamsingh Balamkundu, Weiling Maggie Cai, Liang Cui, Chuan Fa Liu, Xin-Yuan Fu, Zhenguo Lin, Pei-Yong Shi, Timothy K. Lu, Dahai Luo, Samie R. Jaffrey, Peter C. Dedon. *bioRxiv* doi: 10.1101/683045
 </div>
 
-<div class="card border-info" style="min-width: 8rem;">
+<div class="card border-info" style="min-width: 25%;">
 <div class="card-header">[metaQuantome: An integrated, quantitative metaproteomics approach reveals connections between taxonomy and protein function in complex microbiomes](https://doi.org/10.1074/mcp.RA118.001240)</div>
 
-Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, View ORCID ProfileShane Hubler, Bart Mesuere, Joel Rudney, Timothy J. Griffin and Pratik D Jagtap. *Molecular & Cellular Proteomics* June 24, 2019, mcp.RA118.001240; doi: 10.1074/mcp.RA118.001240 
+Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shane Hubler, Bart Mesuere, Joel Rudney, Timothy J. Griffin and Pratik D Jagtap. *Molecular & Cellular Proteomics* June 24, 2019, mcp.RA118.001240; doi: 10.1074/mcp.RA118.001240 
 </div>
 </div>
 
@@ -118,10 +146,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 Platforms that were referenced at least twice in the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Platform | | # | Platform | | # | Platform | | # | Platform | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
-| 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | 
+| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 7 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
+| 4 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | 
+| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | | | | | | |
 
 ----
 
@@ -149,7 +178,7 @@ In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Clev
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager)</div>
 
-At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
+At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
@@ -157,7 +186,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools)</div>
 
-At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
+At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
@@ -165,12 +194,12 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium in Ghent.
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator)</div>
 
-At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium in Ghent.
+At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info"  style="min-width: 12rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 48%;">
 <div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
