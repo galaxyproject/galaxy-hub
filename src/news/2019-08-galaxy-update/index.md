@@ -26,9 +26,7 @@ If you have anything to include to next month's newsletter, then please send it 
 [<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 <div class="card-header">GCC2019: Biggest GCC Ever</div>
 
-**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).
-
-It was a smashing success by any measurement
+**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
 
 * 231 total participants
 * 65 Talks
@@ -87,7 +85,7 @@ There is a lot going on in the next 3 months.
 
 # Publications
 
-**178 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.
+**178 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month, pushing the total number of publications past 8,000.
 
 There were 5 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and 4 of them are open access:
 
@@ -126,6 +124,31 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
 | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | |
 
+
+----
+
+# Galactic Blog Activity
+
+
+<div class="card-deck">
+<div class="card border-info" style="min-width: 8rem;">
+<img class="card-img-top" src="/src/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
+<div class="card-header">[Galaxy on Twitter: An Update](/src/blog/2019-07-galaxy-twitter/index.md)</div>
+
+An update from the team behind [@galaxyproject](https://twitter.com/galaxyproject) tweets, motivated by the new [@gxytraining](https://twitter.com/gxytraining) account.
+
+There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.com/hashtag/UseGalaxy). 
+</div>
+
+<div class="card border-info" style="min-width: 8rem;">
+<img class="card-img-top" src="/src/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
+<div class="card-header">[Looking for Galaxy (info), in all the right places](/src/blog/2019-07-looking-for-galaxy//index.md)</div>
+
+How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
+
+Also answers the question of "Where do cars go after they die?" 
+</div>
+</div>
 
 ----
 
@@ -209,7 +232,24 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 [<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
 
-**Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/):**
+The **[Galaxy Training Materials](https://training.galaxyproject.org/)** received some infrastructure improvements:
+
+* The [tutorials in the Administration topic (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start!, thanks to Helena Rasche and Saskia Hiltemann.
+* There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
+
+The there are new tutorials as well:
+
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<img class="card-img-top" src="bc-theo.png" alt="normalisation" />
+<div class="card-header">[Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
+
+[Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)
+
+How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.
+</div>
+</div>
+
 
 * [Workflows: Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/workflow-parameters/tutorial.html), a new tutorial by [Marius van den Beek](https://github.com/mvdbeek) and [Helena Rasche](https://github.com/erasche).
 * [Antibiotic resistance detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html), a new tutorial (including a tour) from new contributor [Willem de Koning](https://github.com/willemdek11) and veteran [Saskia Hiltemann](https://github.com/shiltemann)
