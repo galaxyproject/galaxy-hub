@@ -21,7 +21,7 @@ There will be a full day pre-conference workshop at [2019 SACNAS](http://www.201
 *Bring your laptop and your curiosity.*
 
 
-**Wednesday, October 29, 9am- 6pm**<br />
+**Wednesday, October 30, 9am- 6pm**<br />
 **Room TBA**
 
 [<img class="float-left" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)
