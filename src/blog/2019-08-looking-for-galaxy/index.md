@@ -1,18 +1,18 @@
 ---
 date: ""
-title: "Looking for Galaxy info, in all the right places"
+title: "Looking for Galaxy (info), in all the right places"
 authors: "Dave Clements"
 tease: "Which are dangerously close to the wrong places..."
 ---
 
-Ever search for "Galaxy" on [Google](https://www.google.com/search?q=galaxy), or [Bing](https://www.bing.com/search?q=galaxy), or [DuckDuckGo](https://duckduckgo.com/?q=galaxy), or [Yahoo!](https://search.yahoo.com/search?q=galaxy)?  Well, if you are interested in [phones](https://www.samsung.com/global/galaxy/), [astronomy](https://davecl.wordpress.com/), [soccer](https://www.lagalaxy.com/), [cars](https://www.ford.co.uk/cars/galaxy) *, [chocolate](https://www.galaxychocolate.co.uk/), or [Ansible](https://galaxy.ansible.com/) (ok, that last one is close), then you are in luck.  But, if you are interested in *the one true Galaxy* then the pickings are pretty thin.
+Ever search for "Galaxy" on [Google](https://www.google.com/search?q=galaxy), or [Bing](https://www.bing.com/search?q=galaxy), or [DuckDuckGo](https://duckduckgo.com/?q=galaxy), or [Yahoo!](https://search.yahoo.com/search?q=galaxy)?  Well, if you are interested in [phones](https://www.samsung.com/global/galaxy/), [astronomy](https://davecl.wordpress.com/), [soccer](https://www.lagalaxy.com/), [cars](https://www.ford.co.uk/cars/galaxy)<sup>&#42;</sup>, [chocolate](https://www.galaxychocolate.co.uk/), or [Ansible](https://galaxy.ansible.com/) (ok, that last one is close), then you are in luck.  But, if you are interested in *the one true Galaxy* then the pickings are pretty thin.
 
 There are *many* lessons here:
 
-1. Don't give your project a general and widely used word.
-1. Don't give your project a general and widely used word.
-1. Don't give your project a general and widely used word.
-1. Don't give your project a general and widely used word.
+1. Don't name your project with a widely used word.
+1. Don't name your project with a widely used word.
+1. Don't name your project with a widely used word.
+1. Don't name your project with a widely used word.
 1. Don't use a general search tool when searching for information about a so named project.
 
 Fortunately there is a solution to lesson #5: The **[PanGalactic Search](/src/serach/index.md)** is a custom Google search engine that searches only websites related to *our* Galaxy.  It is available at the top of every page on the Galaxy Community Hub.
