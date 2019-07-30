@@ -10,11 +10,11 @@ The *August 2019 Galactic News* is here!
 
 * [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
   * Plus deadlines this month and 19 other events in the next 90 days.
-* [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones. 
+* [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones.
 * [Two new Galactic Blog posts](/src/news/2019-08-galaxy-update/index.md#galactic-blog-activity):
   * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
 * [Galaxy Platform News](/src/news/2019-08-galaxy-update/index.md#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
-* [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents. 
+* [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents.
 * [Updates to training materials and documentation](/src/news/2019-08-galaxy-update/index.md#doc-hub-and-training-updates).
 * [New releases](/src/news/2019-08-galaxy-update/index.md#releases).
 * And [some other news](/src/news/2019-08-galaxy-update/index.md#other-news) too.
@@ -54,7 +54,7 @@ The slides for most talks and posters are [online](https://gcc2019.sched.com/). 
 
 We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
-The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.  
+The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.
 
 BCC2020 will be held July 18-25, at [Victoria University](http://www.vicu.utoronto.ca/about.htm), on the [University of Toronto](https://www.utoronto.ca/) campus, in Toronto, Ontario, Canada, immediately after [ISMB 2020 ends in Montreal](https://www.iscb.org/ismb2020).  BCC2020 will be hosted by the [Ontario Institute for Cancer Research (OICR)](https://oicr.on.ca/) and the University of Toronto.
 
@@ -86,7 +86,7 @@ Interested? Registration is available on a first come, first serve basis. Regist
 <div class="card-header">Deadlines this month</div>
 
 * [Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy), [ASHG 2019](https://www.ashg.org/2019meeting/), Houston, Texas, United States. Early registration: August 20.
-* [NGS data analysis with Galaxy for clinical applications](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30. 
+* [NGS data analysis with Galaxy for clinical applications](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
 </div>
 
 ## All [Upcoming events](/src/events/index.md)
@@ -239,7 +239,7 @@ Delfina Malandrino, Ilaria Manno, Alberto Negro, Andrea Petta, Luigi Serra, Conc
 <div class="card border-info" style="min-width: 8rem;">
 <div class="card-header">[The Dark Matter of Large Cereal Genomes: Long Tandem Repeats](https://doi.org/10.3390/ijms20102483 )</div>
 
-Veronika Kapustová, Zuzana Tulpová, Helena Toegelová, Petr Novák, Jiří Macas, Miroslava Karafiátová, Eva Hřibová, Jaroslav Doležel and Hana Šimková. *Int. J. Mol. Sci.* 2019, 20(10), 2483; doi: 10.3390/ijms20102483 
+Veronika Kapustová, Zuzana Tulpová, Helena Toegelová, Petr Novák, Jiří Macas, Miroslava Karafiátová, Eva Hřibová, Jaroslav Doležel and Hana Šimková. *Int. J. Mol. Sci.* 2019, 20(10), 2483; doi: 10.3390/ijms20102483
 </div>
 
 <div class="card border-info" style="min-width: 23%;">
@@ -251,17 +251,17 @@ Jin Wang, Bing Liang Alvin Chew, Yong Lai, Hongping Dong, Luang Xu, Seetharamsin
 <div class="card border-info" style="min-width: 25%;">
 <div class="card-header">[metaQuantome: An integrated, quantitative metaproteomics approach reveals connections between taxonomy and protein function in complex microbiomes](https://doi.org/10.1074/mcp.RA118.001240)</div>
 
-Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shane Hubler, Bart Mesuere, Joel Rudney, Timothy J. Griffin and Pratik D Jagtap. *Molecular & Cellular Proteomics* June 24, 2019, mcp.RA118.001240; doi: 10.1074/mcp.RA118.001240 
+Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shane Hubler, Bart Mesuere, Joel Rudney, Timothy J. Griffin and Pratik D Jagtap. *Molecular & Cellular Proteomics* June 24, 2019, mcp.RA118.001240; doi: 10.1074/mcp.RA118.001240
 </div>
 </div>
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 127 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 24 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
-| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | 
+| 127 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 24 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) |
+| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) |
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) |
 | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | |
 
 
@@ -276,7 +276,7 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 
 An update from the team behind [@galaxyproject](https://twitter.com/galaxyproject) tweets, motivated by the new [@gxytraining](https://twitter.com/gxytraining) account.
 
-There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.com/hashtag/UseGalaxy). 
+There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.com/hashtag/UseGalaxy).
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
@@ -285,7 +285,7 @@ There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.c
 
 How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
 
-Also answers the question of "Where do cars go after they die?" 
+Also answers the question of "Where do cars go after they die?"
 </div>
 </div>
 
@@ -310,7 +310,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="card-img-top" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />](https://humancellatlas.usegalaxy.eu/)
 
-The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.  This server is hosted by the UseGalaxy.eu team. 
+The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.  This server is hosted by the UseGalaxy.eu team.
 </div>
 </div>
 
@@ -319,10 +319,10 @@ The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.use
 
 Platforms that were referenced at least twice in the past month's publications:
 
-| # | Platform | | # | Platform | | # | Platform | | # | Platform | 
+| # | Platform | | # | Platform | | # | Platform | | # | Platform |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 7 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
-| 4 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | 
+| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 7 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) |
+| 4 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) |
 | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | | | | | | |
 
 <br />
@@ -410,10 +410,10 @@ By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hal
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">2 New Tutorials for Galaxy on Kubernetes: [Deploying Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html) and [Managing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</div>
-<img class="card-img-top" src="empty_gene.png" alt="normalisation" />
+<img class="card-img-top" src="k8s-logo.png" alt="normalisation" />
 <div class="card-body">
 <p class="card-text">
-By Pablo Moreno, Enis Afgan, Nuwan Goonasekera, Alex Mahmoud, Sergey Golitsynskiy.</p>
+By [Pablo Moreno](https://training.galaxyproject.org/training-material/hall-of-fame#pcm32), [Enis Afgan](https://training.galaxyproject.org/training-material/hall-of-fame#afgane), [Nuwan Goonasekera](https://training.galaxyproject.org/training-material/hall-of-fame#nuwang), [Alex Mahmoud](https://training.galaxyproject.org/training-material/hall-of-fame#almahmoud), [Sergey Golitsynskiy](https://training.galaxyproject.org/training-material/hall-of-fame#ic4f).</p>
 
 <p class="card-text">A uniform way to install a production-grade Galaxy with a single command in a variety of environments.</p>
 </div>
