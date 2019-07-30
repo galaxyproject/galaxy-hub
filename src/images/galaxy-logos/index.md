@@ -37,6 +37,18 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
     [<img src="/src/images/galaxy-logos/galaxy_project_logo_square.png" alt="Galaxy Project Logo, Square, transparent background" width=150 />](/src/images/galaxy-logos/galaxy_project_logo_square.png)
 
+# UseGalaxy Logos
+
+## UseGalaxy.*
+
+* White background
+  * [SVG](/src/images/galaxy-logos/usegalaxy-dot-star-white.svg), [925x352 pixels](/src/images/galaxy-logos/usegalaxy-dot-star-white.png)
+* Transparent background
+  * [SVG](/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
+
+    [<img src="/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg" alt="UseGalaxy.* Logo, transparent background" width=300 />](/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
+
+
 # Component Logos
 
 ## ToolShed

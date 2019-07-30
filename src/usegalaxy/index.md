@@ -2,6 +2,8 @@
 title: UseGalaxy Servers
 ---
 
+<img class="float-right img-responsive" style="max-width: 300px;" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.svg" alt="UseGalaxy.*" />
+
 The [UseGalaxy](/src/use/index.md) servers are [publicly accessible Galaxy servers](/src/use/index.md) that [will support](#work-in-progress)
  a common and synchronized set of tools and reference genomes.
 These servers have significant computational resources behind them and are capable of powering large user communities. Some may have a regional focus, but they are all accessible to anyone.
