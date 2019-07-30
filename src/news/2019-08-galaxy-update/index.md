@@ -8,11 +8,13 @@ The *August 2019 Galactic News* is here!
 
 [<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-* **[GCC2019 is done](/src/news/2019-08-galaxy-update/index.md#gcc2019-is-here) and BCC2020 is coming**
-* Plus [xxxx other upcoming events](/src/news/2019-08-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [xxxx new publications](/src/news/2019-08-galaxy-update/index.md#publications), great resources lead to great insight. 
-* [Galaxy Platform News](/src/news/2019-08-galaxy-update/index.md#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
-* At least [xxxxx Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
+* [Events: GCC2019 is donel BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
+  * Plus deadlines this month and 19 other events in the next 90 days.
+* [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones. 
+* [Two new Galactic Blog posts](/src/news/2019-08-galaxy-update/index.md#galactic-blog-activity):
+  * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
+* [Galaxy Platform News](/src/news/2019-08-galaxy-update/index.md#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
+* [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents. 
 * [Updates to training materials and documentation](/src/news/2019-08-galaxy-update/index.md#doc-hub-and-training-updates).
 * [New releases](/src/news/2019-08-galaxy-update/index.md#releases).
 * And [some other news](/src/news/2019-08-galaxy-update/index.md#other-news) too.
@@ -85,7 +87,6 @@ Interested? Registration is available on a first come, first serve basis. Regist
 
 * [Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy), [ASHG 2019](https://www.ashg.org/2019meeting/), Houston, Texas, United States. Early registration: August 20.
 * [NGS data analysis with Galaxy for clinical applications](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30. 
-
 </div>
 
 ## All [Upcoming events](/src/events/index.md)
@@ -298,10 +299,10 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">UseGalaxy.* News</div>
 
-[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](/src/usegalaxy/index.md/)
+[<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />](/src/usegalaxy/index.md/)
 
-* UseGalaxy.eu hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
-* UseGalaxy.org and UseGalaxy.org.au now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
+* [UseGalaxy.eu](https://usegalaxy.eu/) hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
+* [UseGalaxy.org](https://usegalaxy.org/) and [UseGalaxy.org.au](https://usegalaxy.org.au/) now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -309,11 +310,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [<img class="card-img-top" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />](https://humancellatlas.usegalaxy.eu/)
 
-The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.
-
-This server gives users access to as much granularity as possible in terms of the downstream analysis steps provided by the major software for single cell data analysis: Scanpy, SC3, Scater and Seurat. For each of these tools, this Galaxy instance has decomposed modules for each the main functionalities: ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation, clustering, marker genes, and dimensionality reduction, among others. In the short term we expect to have interoperability between these tools through the Loom exchange format. Additionally, we provide specialised viewers for single cell clustering data: UCSC CellBrowser (currently active) and cellxgene (coming up soon). 
-
-This server is hosted by the UseGalaxy.eu team. 
+The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.  This server is hosted by the UseGalaxy.eu team. 
 </div>
 </div>
 
@@ -441,12 +438,18 @@ Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 30%">
-<div class="card-header">GTN Infrastructure & Twitter</div>
+<div class="card-header">GTN is on Twitter!</div>
 
 [<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
-The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched a Twitter account, and some new infrastructure.
+The **[Galaxy Training Network](https://training.galaxyproject.org/)** now has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements!
+</div>
 
-* The GTN has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 30%">
+<div class="card-header">GTN Infrastructure</div>
+
+The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched some new infrastructure.
+
 * The [Admin topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start. Thanks to Helena Rasche and Saskia Hiltemann.
 * There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
 </div>
