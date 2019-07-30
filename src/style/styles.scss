@@ -191,6 +191,10 @@ div.card p + p, div.card ul + p {
     padding: 0.3rem 1.25rem 0rem 1.25rem;
 }
 
+div.card ul li {
+    padding-right: 1.25rem;
+}
+
 card-img-top {
     margin: 0rem 0rem 0.75rem 0rem;
 }
