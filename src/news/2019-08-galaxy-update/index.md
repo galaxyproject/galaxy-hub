@@ -234,29 +234,31 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 The **[Galaxy Training Materials](https://training.galaxyproject.org/)** received some infrastructure improvements:
 
+* The [Galaxy Training Network](https://twitter.com/gxytraining) has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
 * The [tutorials in the Administration topic (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start!, thanks to Helena Rasche and Saskia Hiltemann.
 * There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
 
 The there are new tutorials as well:
 
 <div class="card-deck">
-<div class="card border-info"  style="min-width: 12rem; max-width: 48%;">
-<div class="card-header">[Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
+<div class="card border-info"  style="min-width: 12rem;">
 <img class="card-img-top" src="bc-theo.png" alt="normalisation" />
-<div class="card-body card-text">
+<div class="card-header">[Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
+
 [Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)
 
 How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.
 </div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<img class="card-img-top" src="empty_gene.png" alt="normalisation" />
+<div class="card-header">[Essential genes detection with Transposon insertion sequencing](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html)</div>
+
+[Delphine Lariviere](https://training.galaxyproject.org/training-material/hall-of-fame#delphine-l) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut).
+
+Identification of essential prokaryotic genes using Transposon insertion sequencing in Galaxy. 
 </div>
 </div>
-
-
-* [Workflows: Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/workflow-parameters/tutorial.html), a new tutorial by [Marius van den Beek](https://github.com/mvdbeek) and [Helena Rasche](https://github.com/erasche).
-* [Antibiotic resistance detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html), a new tutorial (including a tour) from new contributor [Willem de Koning](https://github.com/willemdek11) and veteran [Saskia Hiltemann](https://github.com/shiltemann)
-* Slides for the [Galaxy Mapping tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html#1) were thoroughly updated by [Saskia Hiltemann](https://github.com/shiltemann). Lots of new information, an overview of real life mappers, and an interactive game! 
-* [Biomarker candidate identification](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html), a new Galaxy tutorial from [Florence Combes](https://github.com/combesf), [David Christiany](https://github.com/davidchristiany), [Valentin Loux](https://github.com/vloux), and [Yves Vandenbrouck](https://github.com/yvandenb) - All of them first time contributors! Florence will be presenting [ProteoRE](http://www.proteore.org/), the server used in this tutorial, in a [talk](https://sched.co/PSqZ) and a [demo](https://sched.co/R1uW) at GCC2019.
-* [Exome sequencing data analysis for diagnosing a genetic disease](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/exome-seq/tutorial.html) tutorial completely revamped by [Wolfgang Maier](https://github.com/wm75) (who will be teaching the [Variant Calling I - from sequenced reads to variant lists](https://sched.co/Lug9) and [Variant Calling II - causative variant discovery](https://sched.co/LugR) sessions at GCC2019)
 
 ---
 
@@ -264,15 +266,17 @@ How to conduct metabolomic data analysis from preprocessing to annotation using 
 
 New additions (and editions) in the Galaxy Ecosystem.
 
-## Galaxy v 19.05
+## Planemo 0.60.0
 
-The May 2019 Galaxy release comes with [additional user-facing release notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce_user.html), and the [full release notes](https://docs.galaxyproject.org/en/release_19.05/releases/19.05_announce.html) as well.  Big improvements in this release include a rewrite of the login and registration system, and improvements in workflow expressivity.
+[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
-## Pulsar 0.13.0
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
-[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
+## Ephemeris v 0.10.3
+
+[Ephemeris](https://github.com/galaxyproject/ephemeris) is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows. It has [extensive documentation](https://ephemeris.readthedocs.org/).  This [release](https://github.com/galaxyproject/ephemeris/blob/master/HISTORY.rst) features numerous newly contributed features.
 
 
 ----
