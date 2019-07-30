@@ -240,13 +240,14 @@ The **[Galaxy Training Materials](https://training.galaxyproject.org/)** receive
 The there are new tutorials as well:
 
 <div class="card-deck">
-<div class="card border-info"  style="min-width: 12rem;">
-<img class="card-img-top" src="bc-theo.png" alt="normalisation" />
+<div class="card border-info"  style="min-width: 12rem; max-width: 48%;">
 <div class="card-header">[Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
-
+<img class="card-img-top" src="bc-theo.png" alt="normalisation" />
+<div class="card-body card-text">
 [Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)
 
 How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.
+</div>
 </div>
 </div>
 
