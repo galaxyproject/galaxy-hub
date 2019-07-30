@@ -8,7 +8,7 @@ The *August 2019 Galactic News* is here!
 
 [<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-* [Events: GCC2019 is donel BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
+* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
   * Plus deadlines this month and 19 other events in the next 90 days.
 * [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones. 
 * [Two new Galactic Blog posts](/src/news/2019-08-galaxy-update/index.md#galactic-blog-activity):
@@ -26,7 +26,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 15rem;">
 [<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
-<div class="card-header">GCC2019: Biggest GCC Ever</div>
+<div class="card-header">GCC2019: Biggest GCC Yet</div>
 
 **The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
 
@@ -102,7 +102,7 @@ There is a lot going on in the next 3 months.
   <td><span class="text-nowrap">August 1st 2019</span></td>
   <td><a href="/events/2019-asmcue">&quot;Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy&quot;</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mohammad Heydarian, Anton Nekrutenko</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mo Heydarian, Anton Nekrutenko</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 1st 2019</span></td>
@@ -198,7 +198,7 @@ There is a lot going on in the next 3 months.
   <td><span class="text-nowrap">October 14th 2019</span></td>
   <td><a href="http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy">Reproducible and Transparent Genomic Analysis with Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.ashg.org/2019meeting/">ASHG 2019, Houston, Texas, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Mohammad Heydarian</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Mo Heydarian</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 29th 2019</span></td>
@@ -405,6 +405,17 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hall-of-fame#delphine-l) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut).</p>
 
 <p class="card-text">Identification of essential prokaryotic genes using Transposon insertion sequencing in Galaxy. </p>
+</div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">2 New Tutorials for Galaxy on Kubernetes: [Deploying Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html) and [Managing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</div>
+<img class="card-img-top" src="empty_gene.png" alt="normalisation" />
+<div class="card-body">
+<p class="card-text">
+By Pablo Moreno, Enis Afgan, Nuwan Goonasekera, Alex Mahmoud, Sergey Golitsynskiy.</p>
+
+<p class="card-text">A uniform way to install a production-grade Galaxy with a single command in a variety of environments.</p>
 </div>
 </div>
 
