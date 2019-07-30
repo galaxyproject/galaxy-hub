@@ -170,6 +170,8 @@ Platforms that were referenced at least twice in the past month's publications:
 | 4 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | 
 | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | | | | | | |
 
+<br />
+
 ----
 
 # Who's Hiring
@@ -209,7 +211,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 31%;">
 <div class="card-header">[ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator)</div>
 
 At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium.
@@ -217,7 +219,7 @@ At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium.
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 48%;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 31%;">
 <div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
@@ -230,37 +232,44 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 # Doc, Hub, and Training Updates
 
-[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">GTN Infrastructure & Twitter</div>
 
-The **[Galaxy Training Materials](https://training.galaxyproject.org/)** received some infrastructure improvements:
+[<img class="float-right img-responsive" style="max-width: 10rem;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+The **[Galaxy Training Network](https://training.galaxyproject.org/)** got a Twitter account, and some new infrastructure.
 
 * The [Galaxy Training Network](https://twitter.com/gxytraining) has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
 * The [tutorials in the Administration topic (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start!, thanks to Helena Rasche and Saskia Hiltemann.
 * There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
+</div>
 
-The there are new tutorials as well:
-
-<div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">New Tutorial: [Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
 <img class="card-img-top" src="bc-theo.png" alt="normalisation" />
-<div class="card-header">[Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
 
-[Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)
+<div class="card-body">
+<p class="card-text">By  [Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)</p>
 
-How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.
+<p class="card-text">How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.</p>
+</div>
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">New Tutorial: [Essential genes detection with Transposon insertion sequencing](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html)</div>
 <img class="card-img-top" src="empty_gene.png" alt="normalisation" />
-<div class="card-header">[Essential genes detection with Transposon insertion sequencing](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html)</div>
+<div class="card-body">
+<p class="card-text">
+By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hall-of-fame#delphine-l) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut).</p>
 
-[Delphine Lariviere](https://training.galaxyproject.org/training-material/hall-of-fame#delphine-l) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut).
-
-Identification of essential prokaryotic genes using Transposon insertion sequencing in Galaxy. 
+<p class="card-text">Identification of essential prokaryotic genes using Transposon insertion sequencing in Galaxy. </p>
 </div>
 </div>
+</div>
 
----
+<br />
+
+----
 
 # Releases
 
