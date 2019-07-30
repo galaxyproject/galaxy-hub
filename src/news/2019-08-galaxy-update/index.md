@@ -19,10 +19,10 @@ The *August 2019 Galactic News* is here!
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
-# GCC2019 + GCC2020!
+# Events
 
 <div class="card-deck">
-<div class="card border-info">
+<div class="card border-info" style="min-width: 15rem;">
 [<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 <div class="card-header">GCC2019: Biggest GCC Ever</div>
 
@@ -46,7 +46,7 @@ The slides for most talks and posters are [online](https://gcc2019.sched.com/). 
 *Many, many thanks to all the instructors, presenters, scientific committee members, and BOF, conference and CoFest organizers for making 2019 such an excellent year.*
 </div>
 
-<div class="card border-primary">
+<div class="card border-primary" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
 <div class="card-header">BCC2020: July 18-25, 2020, Toronto</div>
 
@@ -58,11 +58,29 @@ BCC2020 will be held July 18-25, at [Victoria University](http://www.vicu.utoron
 
 BCC2020 will feature a similar mix of training, conference, and CollaborationFest, that [GCCBOSC2018](https://gccbosc2018.sched.com/) did.
 </div>
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="bh-banner.png" alt="BCC2020" />
+<div class="card-header">Galaxy @ BioHackathon-Europe 2019</div>
+
+Galaxy will be featured at [BioHackathon-Europe 2019](https://www.biohackathon-europe.org/index.html) as a prominent part of many of [this year's selected projects](https://www.biohackathon-europe.org/projects):
+
+* [Interoperable Workflows for Communities](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/1)
+* [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)
+* [Towards seamless Galaxy and InterMine integration: Enhanced region analysis](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7)
+* [Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8)
+* [Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17)
+* [Updating the Galaksio workflow management interface for Galaxy and migrating it to Vue.js](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19)
+* [A graph database of Galaxy tool interoperability](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/30)
+* [Bioconda and Biocontainers helpdesk](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)
+
+Join us to learn from and work with experts of the Open Source Life Science community, and discuss the future of the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
+
+Interested? Registration is available on a first come, first serve basis. Registration is free, *but space is limited.*  **[Register now](https://www.biohackathon-europe.org/registration.html).**
+</div>
 </div>
 
-# Upcoming events
-
-<div class="card border-info">
+<div class="card border-warning">
 <div class="card-header">Deadlines this month</div>
 
 There will be some
@@ -129,7 +147,6 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 
 # Galactic Blog Activity
 
-
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem;">
 <img class="card-img-top" src="/src/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
@@ -156,8 +173,28 @@ Also answers the question of "Where do cars go after they die?"
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
-## UseGalaxy.eu News
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">UseGalaxy.* News</div>
 
+[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](/src/usegalaxy/index.md/)
+
+* UseGalaxy.eu hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
+* UseGalaxy.org and UseGalaxy.org.au now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Human Cell Atlas gets a Galaxy</div>
+
+[<img class="card-img-top" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />](https://humancellatlas.usegalaxy.eu/)
+
+The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.
+
+This server gives users access to as much granularity as possible in terms of the downstream analysis steps provided by the major software for single cell data analysis: Scanpy, SC3, Scater and Seurat. For each of these tools, this Galaxy instance has decomposed modules for each the main functionalities: ingestion from 10x/loom, filtering (by cells or genes), scaling, normalisation, clustering, marker genes, and dimensionality reduction, among others. In the short term we expect to have interoperability between these tools through the Loom exchange format. Additionally, we provide specialised viewers for single cell clustering data: UCSC CellBrowser (currently active) and cellxgene (coming up soon). 
+
+This server is hosted by the UseGalaxy.eu team. 
+</div>
+</div>
 
 
 ## Galaxy Platforms in Publications
@@ -179,6 +216,15 @@ Platforms that were referenced at least twice in the past month's publications:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Bioinformatics Developer, Scientific Computing and Bioinformatics](https://absci.bamboohr.com/jobs/view.php?id=32)</div>
+
+[AbSci](http://www.absci.com/), Vancouver, Washington, United States
+
+<img class="card-img-bottom" src="/src/images/logos/absci-logo.svg" alt="AbSci" />
+</div>
+
+
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Onderzoekassistent Bioinformatica](https://www.academictransfer.com/nl/284710/onderzoekassistent-bioinformatica/apply/)</div>
 
@@ -219,7 +265,7 @@ At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium.
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 31%;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 30%;">
 <div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
@@ -236,11 +282,11 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">GTN Infrastructure & Twitter</div>
 
-[<img class="float-right img-responsive" style="max-width: 10rem;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
-The **[Galaxy Training Network](https://training.galaxyproject.org/)** got a Twitter account, and some new infrastructure.
+[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched a Twitter account, and some new infrastructure.
 
 * The [Galaxy Training Network](https://twitter.com/gxytraining) has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
-* The [tutorials in the Administration topic (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start!, thanks to Helena Rasche and Saskia Hiltemann.
+* The [Administration topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start! Thanks to Helena Rasche and Saskia Hiltemann.
 * There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
 </div>
 
@@ -263,6 +309,15 @@ The **[Galaxy Training Network](https://training.galaxyproject.org/)** got a Twi
 By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hall-of-fame#delphine-l) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut).</p>
 
 <p class="card-text">Identification of essential prokaryotic genes using Transposon insertion sequencing in Galaxy. </p>
+</div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Updated Tutorial: [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)</div>
+<img class="card-img-top" src="galaxy-ansible.png" alt="Example configuration from tutorial" />
+<div class="card-body">
+<p class="card-text">
+Updated by [Nate Coraor](https://training.galaxyproject.org/training-material/hall-of-fame#natefoo), [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche), and all of the awesome participants at GCC2019 who provided valuable feedback and great questions during [the first day of training](https://gcc2019.sched.com/type/a.+training/admin+%2F+dev)!</p>
 </div>
 </div>
 </div>
@@ -291,4 +346,6 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 ----
 
 # Other News
+
+* [Galaxy can now access Google Cloud Storage (GCS)](https://github.com/galaxyproject/cloudauthz#cloudauthz) (joining AWS and Azure).  Builds on Google Cloud Platform support in new release of CloudAuthz.
 
