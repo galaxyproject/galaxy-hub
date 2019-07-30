@@ -83,7 +83,8 @@ Interested? Registration is available on a first come, first serve basis. Regist
 <div class="card border-warning">
 <div class="card-header">Deadlines this month</div>
 
-There will be some
+* [Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy), [ASHG 2019](https://www.ashg.org/2019meeting/), Houston, Texas, United States. Early registration: August 20.
+* [NGS data analysis with Galaxy for clinical applications](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30. 
 
 </div>
 
@@ -94,11 +95,131 @@ There is a lot going on in the next 3 months.
 <table class="table table-striped">
 <thead>
 <tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th>
-</tr></thead>
-<tbody>
-
+</tr>
+</thead><tbody>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="/events/2019-asmcue">&quot;Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy&quot;</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mohammad Heydarian, Anton Nekrutenko</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 1st 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">August 2nd 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://www.tri.edu.au/">Translational Research Institute (TRI), Woolloongabba, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 7th 2019</span></td>
+  <td><a href="/events/2019-09-acm-bcb">You wrote it, now get it used: Publishing your software with Galaxy and Bioconda</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://acm-bcb.org/">ACM BCB, Niagara Falls, New York, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dan Blankenberg, Martin Čech</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 8th 2019</span></td>
+  <td><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/">NGS data analysis with Galaxy for clinical applications</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/">GMDS-Jahrestagung, Dortmund, Germany</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Markus Wolfien</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 9th 2019</span></td>
+  <td><a href="https://sciencegateways.org/engage/focus-week">Gateways Focus Week</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/>Chicago, Illinois, United States</td>
+  <td>help @ sciencegateways.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 16th 2019</span></td>
+  <td><a href="https://www.elixir-belgium.org/events/elixir-belgium-all-hands-meeting-2019">UseGalaxy.be: platform for data-intensive research</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>ELIXIR Belgium All Hands Meeting 2019, Brussels, Belgium</td>
+  <td>Frederik Coppens</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 23rd 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">NGS Platforms: how data generation impacts bioinformatics analysis - quality control</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 23rd 2019</span></td>
+  <td><a href="/events/2019-09-gateways">Galaxy @ Gateways 2019</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://sciencegateways.org/web/gateways2019/welcome">Gateways 2019, San Diego, California, United States</a></td>
+  <td>James Taylor, Dave Clements</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 24th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 25th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 26th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">September 27th 2019</span></td>
+  <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
+  <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 3rd 2019</span></td>
+  <td><a href="https://lists.dtls.nl/pipermail/nlgalaxy-team/2019-May/000212.html">GalaxyNL Face2Face Meeting</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>Utrecht, the Netherlands</td>
+  <td>Saskia Hiltemann</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 8th 2019</span></td>
+  <td><a href="https://training.vib.be/galaxy-training-using-galaxy-rna-seq">Using Galaxy for RNA-seq</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>VIB, Ghent, Belgium</td>
+  <td>Lieven Sterck, Tuur Muyldermans</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 10th 2019</span></td>
+  <td><a href="/events/2019-10-aises">Reproducible Genomic Data Analysis with the Galaxy Workbench</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://conference.aises.org/agenda">AISES 2019, Milwaukee, Wisconsin, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mo Heydarian, Dave Clements</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 14th 2019</span></td>
+  <td><a href="http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy">Reproducible and Transparent Genomic Analysis with Galaxy</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.ashg.org/2019meeting/">ASHG 2019, Houston, Texas, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Mohammad Heydarian</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 29th 2019</span></td>
+  <td><a href="https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.html?axe=98">Analyse avancée de séquences</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/>Bordeaux, France</td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Macha Nikolski</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">October 30th 2019</span></td>
+  <td><a href="/events/2019-sacnas">Genomic data science with the Galaxy workbench</a></td>
+  <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.2019sacnas.org/">2019 SACNAS, Honolulu, Hawai'i, United States</a></td>
+  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mo Heydarian, Dave Clements</td>
+</tr>
+<tr>
+  <td><span class="text-nowrap">November 18th 2019</span></td>
+  <td><a href="/events/2019-11-biohackathon-europe">Galaxy @ BioHackathon-Europe 2019</a></td>
+  <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.biohackathon-europe.org/index.html">Campus des Berges de Seine, Paris, France</a></td>
+  <td>Project organizers</td>
+</tr>
 </tbody>
 </table>
+
 
 
 # Publications
@@ -280,28 +401,6 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">GTN Infrastructure & Twitter</div>
-
-[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
-The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched a Twitter account, and some new infrastructure.
-
-* The [Galaxy Training Network](https://twitter.com/gxytraining) has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
-* The [Administration topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start! Thanks to Helena Rasche and Saskia Hiltemann.
-* There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
-</div>
-
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">New Tutorial: [Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
-<img class="card-img-top" src="bc-theo.png" alt="normalisation" />
-
-<div class="card-body">
-<p class="card-text">By  [Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)</p>
-
-<p class="card-text">How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.</p>
-</div>
-</div>
-
-<div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">New Tutorial: [Essential genes detection with Transposon insertion sequencing](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/tnseq/tutorial.html)</div>
 <img class="card-img-top" src="empty_gene.png" alt="normalisation" />
 <div class="card-body">
@@ -319,6 +418,37 @@ By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hal
 <p class="card-text">
 Updated by [Nate Coraor](https://training.galaxyproject.org/training-material/hall-of-fame#natefoo), [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche), and all of the awesome participants at GCC2019 who provided valuable feedback and great questions during [the first day of training](https://gcc2019.sched.com/type/a.+training/admin+%2F+dev)!</p>
 </div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">New doc: [Configure Cloud Authorization for GCP](/src/authnz/cloud/gcp/index.md)</div>
+<img class="card-img-top" src="/src/images/logos/google-cloud-platform-wide.png" alt="Google Cloud Platform" />
+<div class="card-body">
+<p class="card-text">
+Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) Google Cloud Storage, (joining AWS and Azure).  This builds on Google Cloud Platform support in new release of CloudAuthz.
+</div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">New Tutorial: [Mass spectrometry: LC-MS analysis](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/lcms/tutorial.html)</div>
+<img class="card-img-top" src="bc-theo.png" alt="normalisation" />
+
+<div class="card-body">
+<p class="card-text">By  [Mélanie Petera](https://training.galaxyproject.org/training-material/hall-of-fame#melpetera), [Gildas Le Corguillé](https://training.galaxyproject.org/training-material/hall-of-fame#lecorguille), [Jean-François Martin](https://training.galaxyproject.org/training-material/hall-of-fame#jfrancoismartin), [Yann Guitton](https://training.galaxyproject.org/training-material/hall-of-fame#yguitton), [Workflow4Metabolomics core team](https://training.galaxyproject.org/training-material/hall-of-fame#workflow4metabolomics)</p>
+
+<p class="card-text">How to conduct metabolomic data analysis from preprocessing to annotation using Galaxy.</p>
+</div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 30%">
+<div class="card-header">GTN Infrastructure & Twitter</div>
+
+[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched a Twitter account, and some new infrastructure.
+
+* The GTN has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements! 
+* The [Admin topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start. Thanks to Helena Rasche and Saskia Hiltemann.
+* There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
 </div>
 </div>
 
@@ -347,5 +477,4 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* [Galaxy can now access Google Cloud Storage (GCS)](https://github.com/galaxyproject/cloudauthz#cloudauthz) (joining AWS and Azure).  Builds on Google Cloud Platform support in new release of CloudAuthz.
 
