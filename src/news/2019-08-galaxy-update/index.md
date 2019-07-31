@@ -81,12 +81,12 @@ Interested? Registration is available on a first come, first serve basis. Regist
 </div>
 </div>
 
-<div class="card border-warning">
-<div class="card-header">Deadlines this month</div>
+
+### Deadlines this month
 
 * [Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy), [ASHG 2019](https://www.ashg.org/2019meeting/), Houston, Texas, United States. Early registration: August 20.
 * [NGS data analysis with Galaxy for clinical applications](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
-</div>
+
 
 ## All [Upcoming events](/src/events/index.md)
 
