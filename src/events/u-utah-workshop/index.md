@@ -92,10 +92,6 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 * [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016UUtahWorkshop.pdf)
 
-## Feedback
-
-* **[We'll ask for it!](/src/We'll ask for it!/index.md)**
-
 ## Questions?
 
 Contact [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org) or [Karen Eilbeck](http://www.bioscience.utah.edu/faculty/molecular-biology-faculty/eilbeck/eilbeck.php).
