@@ -455,15 +455,28 @@ The **[Galaxy Training Network](https://training.galaxyproject.org/)** now has a
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 30%">
-<div class="card-header">GTN Infrastructure</div>
 
-The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched some new infrastructure.
 
-* The [Admin topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start. Thanks to Helena Rasche and Saskia Hiltemann.
-* There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, Saskia Hiltemann and Helena Rasche.
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">GTN Infrastructure: [Subtopics](https://training.galaxyproject.org/training-material/topics/admin/)</div>
+<img class="card-img-top" src="subtopics.png" alt="Subtopics in the Training material" />
+<div class="card-body">
+<p class="card-text">
+The [Admin topic tutorials (31 of them!)](https://training.galaxyproject.org/training-material/topics/admin/) are now organised into subtopics to make it easier to know where to start. This feature is generically available and will be expanded other topics in the future to help users find content that is important to them. Thanks to [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann) and [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche).
+</p>
 </div>
 </div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">GTN Infrastructure: Search</div>
+<img class="card-img-top" src="search.gif" alt="Search feature in the Training material" />
+<div class="card-body">
+<p class="card-text">
+There is now a search box in each topic, to help find what you are looking for.  Thanks again to, you guessed it, [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann) and [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche).
+</p>
+</div>
+</div>
+
 
 <br />
 
