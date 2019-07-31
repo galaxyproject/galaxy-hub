@@ -3,19 +3,17 @@ title: Sponsorships
 ---
 {{> Events/GCC2013/Header }}
 
-
-
 {{> Events/GCC2013/LinkBox }}
 
-Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a [2013 Galaxy Community Conference](/src/events/gcc2013/sponsorships//index.md) Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
+Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a 2013 Galaxy Community Conference Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
 ## Interested?
 
-If your organization is interested in participating in [GCC2013](/src/events/gcc2013/sponsorships//index.md) as a sponsor then please contact Dave Clements at [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org).
+If your organization is interested in participating in GCC2013 as a sponsor then please contact Dave Clements at [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org).
 
 ## About GCC2013
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/gcc2013/GDC2010/index.md) and [2011 (Lunteren, the Netherlands)](https://galaxyproject.org/gcc2011/), and increased by a third again in [2012](/src/events/gcc2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/gdc2010/index.md) and [2011 (Lunteren, the Netherlands)](https://galaxyproject.org/gcc2011/), and increased by a third again in [2012](/src/events/gcc2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

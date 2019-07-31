@@ -2,7 +2,7 @@
 
 {{> Events/GCC2013/LinkBox }}
 
-The [2013 Galaxy Community Conference](/src/events/gcc2013/program//index.md) will start with a [Training Day](/src/events/gcc2013/program/TrainingDay/index.md) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2013/program/lightning/index.md), [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2013/program/bof/index.md), and networking time.
+The 2013 Galaxy Community Conference will start with a [Training Day](/src/events/gcc2013/training-day/index.md) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md), [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2013/bof/index.md), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  However, unlike in previous years, talks will be grouped and scheduled in sessions focusing on particular topics.
 
@@ -12,7 +12,7 @@ As in past years, talks will cover a wide range of biology, bioinformatics, and 
 
 [<img class="float-left" src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" />](/src/events/gcc2013/training-day/index.md)
 
-The [GCC2013 Training Day](/src/events/gcc2013/program/TrainingDay/index.md) will be Sunday, 30 June, and feature ~~four~~ *five* parallel tracks, each with three workshops, each of which are two hours long, for a total of ~~twelve~~ *fifteen* sessions on twelve different topics.  Sessions are evenly split between topics aimed at biological research, topics aimed at Galaxy deployers and developers, and those that are geared twoards both audiences.  The topics were nominated and selected by the Galaxy Community in early 2013. The increased number of parallel tracks and topics was driven by unexpected demand.
+The [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) will be Sunday, 30 June, and feature ~~four~~ *five* parallel tracks, each with three workshops, each of which are two hours long, for a total of ~~twelve~~ *fifteen* sessions on twelve different topics.  Sessions are evenly split between topics aimed at biological research, topics aimed at Galaxy deployers and developers, and those that are geared twoards both audiences.  The topics were nominated and selected by the Galaxy Community in early 2013. The increased number of parallel tracks and topics was driven by unexpected demand.
 
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 
@@ -94,7 +94,7 @@ The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House (
 
 # Day 1: Main Meeting, 1 July
 
-The first day of the conference will feature [accepted talks](/src/events/gcc2013/abstracts/talks/index.md) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a biology and bioinformatics emphasis.  The first day will include a [lightning talk session](/src/events/gcc2013/ightning/index.md).
+The first day of the conference will feature [accepted talks](/src/events/gcc2013/abstracts/talks/index.md) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a biology and bioinformatics emphasis.  The first day will include a [lightning talk session](/src/events/gcc2013/lightning/index.md).
 
 <div class='center'><br /><span style="font-size: larger;">**Day 1: Using Galaxy for genomics research**</span><br /></div>
 
@@ -212,7 +212,7 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
   </tr>
   <tr>
     <th> 16:10-17:30 </th>
-    <td style=" text-align: center;"> <strong>Session 4</strong> <br />Moderator: <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a>
+    <td style=" text-align: center;"> <strong>Session 4</strong> <br />Moderator: <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a>
 
 <table class="table">
           <tr>
@@ -273,7 +273,7 @@ The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House (
 
 # Day 2: Main Meeting, 2 July
 
-The second and final day of the conference will feature  [accepted talks](/src/events/gcc2013/abstracts/talks/index.md#talk_abstracts) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a bioinformatics and informatics emphasis.  The second day will have a [lightning talk session](/src/Lightning/index.md), and the conference dinner
+The second and final day of the conference will feature  [accepted talks](/src/events/gcc2013/abstracts/talks/index.md#talk_abstracts) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a bioinformatics and informatics emphasis.  The second day will have a [lightning talk session](/src/events/gcc2013/lightning/index.md), and the conference dinner
 
 <div class='center'><br /><span style="font-size: larger;">**Day 2: Extending and customizing the Galaxy system**</span><br /></div>
 
@@ -325,7 +325,7 @@ The second and final day of the conference will feature  [accepted talks](/src/e
   </tr>
   <tr>
     <th> 11:10-12:30 </th>
-    <td style=" text-align: center;"> <strong>Session 6: Extending Galaxy</strong> <br />Moderator: <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a>
+    <td style=" text-align: center;"> <strong>Session 6: Extending Galaxy</strong> <br />Moderator: <a href='/src/people/jennifer-jackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a>
 
 <table class="table">
           <tr>
@@ -390,7 +390,7 @@ The second and final day of the conference will feature  [accepted talks](/src/e
   </tr>
   <tr>
     <th> 15:50-17:30 </th>
-    <td style=" text-align: center;"> <strong>Session 8</strong> <br />Moderator: <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='http://fmi.ch/'>Friedrich Miescher Institute for Biomedical Research</a><br />
+    <td style=" text-align: center;"> <strong>Session 8</strong> <br />Moderator: <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='http://fmi.ch/'>Friedrich Miescher Institute for Biomedical Research</a><br />
 
 <table class="table">
           <tr>
@@ -452,10 +452,10 @@ The second and final day of the conference will feature  [accepted talks](/src/e
 
 # Birds of a Feather (BoF) Gatherings
 
-<div class='right'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="170" /></a></div>
+<div class='right'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="170" /></a></div>
 
-There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2013 will include *[Birds of a Feather (BoF)](/src/Events/GCC2013/BoF/index.md)* meetups throught the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
+There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2013 will include *[Birds of a Feather (BoF)](/src/events/gcc2013/bof/index.md)* meetups throught the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
 
-If you have an idea for a BoF, then you are *[strongly encouraged to start one](/src/Events/GCC2013/BoF/index.md#want-to-plan-a-bof).*
+If you have an idea for a BoF, then you are *[strongly encouraged to start one](/src/events/gcc2013/bof/index.md#want-to-plan-a-bof).*
 
 {{> Events/GCC2013/Footer }}

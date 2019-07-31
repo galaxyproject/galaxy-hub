@@ -245,7 +245,7 @@ Reload, test etc.
 
 ## 1:30 – 1:45pm hello_datasource
 
-Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/admin/internals/Data Sources/index.md).
+Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/admin/internals/data-sources/index.md).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
 ```

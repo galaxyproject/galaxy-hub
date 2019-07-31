@@ -68,15 +68,6 @@ To plan a Birds of a Feather meetup:
 1. Tweet it (use the hashtag #usegalaxy), or notify [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  In the near future there will also be a conference mailing list you can send an announcement to.
 1. If you want, you can also [create a Galaxy News Item](/src/news/index.md#add-a-news-item) about the BoF (or again, send the text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
-### Create Your BoF's Wiki Page
-
-Create a wiki page for the Birds of a Feather meetup with this form
-
-**Enter a good CamelCase name for your BoF page** (embedded spaces make bad URLs):
-. PLACEHOLDER_NEW_PAGE(Events/GCC2013/BoF/BoFTemplate, "Create BoF Page", Events/GCC2013/BoF)
-
-This will create a wiki page using the [BoF Template](/src/events/gcc2013/bof/BoFTemplate/index.md).  Edit that page as directed and then save it.
-
 ## BoF Support
 
 The conference will *enable and encourage* BoFs by

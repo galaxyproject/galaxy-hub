@@ -101,7 +101,7 @@ In general:
    Require a web browser such as Chrome, Firefox, or Safari.  The latest version of Internet Explorer should also work.
 
  **[Galaxy Deployment and Development Workshops](/src/index.md#galaxy-deployment-and-development-workshops):**
-   Require [virtual machine (VM) player software](/src/Events/GCC2013/TrainingDay/VMs/index.md) on your laptop, either *VirtualBox*, or *VMware player*.  See the [Training Day VMs](/src/VMs/index.md) page for more. This should be installed before you arrive at the conference.
+   Require [virtual machine (VM) player software](/src/events/gcc2013/training-day/vms/index.md) on your laptop, either *VirtualBox*, or *VMware player*.  See the [Training Day VMs](/src/events/gcc2013/training-day/vms/index.md) page for more. This should be installed before you arrive at the conference.
 
 See each individual workshop's list of prerequisite for specifics.
 
@@ -114,7 +114,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #cceeff;"> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -133,7 +133,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC_2013_intro_workshop.pdf'>Slides</a> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <a href=''https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/GCC_2013_intro_workshop.pdf'>Slides</a> </td>
     <td> </td>
   </tr>
 </table>
@@ -144,7 +144,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/src/DannonBaker/index.md'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan=2 style=" background-color: #cceeff;"> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -164,7 +164,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC_2013_cloud_workshop.pdf'>Slides</a> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/GCC_2013_cloud_workshop.pdf'>Slides</a> </td>
     <td> </td>
   </tr>
 </table>
@@ -199,7 +199,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013_TD_RNASeqSlides.pdf'>Slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013_TD_RNASeqHandouts.pdf'>Handouts</a> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2013_TD_RNASeqSlides.pdf'>Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2013_TD_RNASeqHandouts.pdf'>Handouts</a> </td>
   </tr>
 </table>
 
@@ -227,7 +227,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013_TD_Statistical.pdf'>Slides</a> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2013_TD_Statistical.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -259,7 +259,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/NebulaChIP-SeqTutorial2013.pdf'>Tutorial</a> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day//NebulaChIP-SeqTutorial2013.pdf'>Tutorial</a> </td>
   </tr>
 </table>
 
@@ -269,7 +269,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ddffcc;"> <a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='http://bc.edu/'>Boston College</a><br /><a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ddffcc;"> <a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='http://bc.edu/'>Boston College</a><br /><a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -326,7 +326,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013_TD_Installing.pdf'>Slides</a> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2013_TD_Installing.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -336,11 +336,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/people/dan/index.md'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/Events/GCC2013/TrainingDay/IntroToolData/index.md'>Learn to integrate new tools and data sources into your Galaxy installation</a>. </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/events/gcc2013/training-day/intro-tool-data/index.md'>Learn to integrate new tools and data sources into your Galaxy installation</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -361,7 +361,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/IntroToolData/index.md'>Workshop material</a> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/events/gcc2013/training-day/intro-tool-data/index.md'>Workshop material</a> </td>
   </tr>
 </table>
 
@@ -371,11 +371,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/src/people/dan/index.md'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> This topic would cover the <a href='/src/Events/GCC2013/TrainingDay/AdvanceToolData/index.md'>advanced tool configuration</a>, specifically designed for people that want to add their own tools or need to modify existing tools. Specific emphasis on using CHEETAH code and explanation of all the XML tags used in defining a tool </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> This topic would cover the <a href='/src/events/gcc2013/training-day/advance-tool-data/index.md'>advanced tool configuration</a>, specifically designed for people that want to add their own tools or need to modify existing tools. Specific emphasis on using CHEETAH code and explanation of all the XML tags used in defining a tool </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -395,7 +395,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Outcomes </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/AdvanceToolData/index.md'>Workshop materials</a> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/events/gcc2013/training-day/advance-tool-data/index.md'>Workshop materials</a> </td>
   </tr>
 </table>
 
@@ -405,11 +405,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/dave-bouvier/index.md'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/src/Tool Shed/index.md'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/src/toolshed/index.md'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -446,11 +446,11 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/src/CarlEberhard/index.md'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. For details, see <a href='Events/GCC2013/TrainingDay/API'>/src/Events/GCC2013/TrainingDay/API/index.md</a> </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/src/events/gcc2013/training-day/api'>Details</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -470,7 +470,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/API/index.md'>Workshop Materials</a> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <a href='/src/events/gcc2013/training-day/api/index.md'>Workshop Materials</a> </td>
   </tr>
 </table>
 
@@ -480,7 +480,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td style=" background-color: #ffffcc;"> <a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='http://emory.edu/'>Emory University</a> <br /> <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td style=" background-color: #ffffcc;"> <a href='/src/people/james-taylor/index.md'>James Taylor</a>, <a href='http://emory.edu/'>Emory University</a> <br /> <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -498,14 +498,14 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" background-color: #ffffcc;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/2013.30.06_Taylor_GCC.pdf'>Slides</a><br /><a href='https://vimeo.com/82179199'>Video</a> (<a href='http://youtu.be/kphYnONMOP8'>on YouTube as well</a>), taken by Samuel Lampa, first 30 minutes only </td>
+    <td style=" background-color: #ffffcc;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/2013.30.06_Taylor_GCC.pdf'>Slides</a><br /><a href='https://vimeo.com/82179199'>Video</a> (<a href='http://youtu.be/kphYnONMOP8'>on YouTube as well</a>), taken by Samuel Lampa, first 30 minutes only </td>
   </tr>
 </table>
 
 
 <br />
 
-<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo400.png" alt="Amazon Web Services" width="250" /></a></div>
+<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="250" /></a></div>
 
 # Training Day Sponsor
 
@@ -521,7 +521,7 @@ Thanks to everyone who participated in the nomination and voting process.
 
 # Software Carpentry Boot Camp
 
-<div class='left'><a href='http://bit.ly/14EmcSA'><img src="/src/Images/Logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="150" /></a></div>
+<div class='left'><a href='http://bit.ly/14EmcSA'><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="150" /></a></div>
 
 We are happy to announce that a [Software Carpentry Boot Camp](http://bit.ly/14EmcSA) has been scheduled for 3-4 July (immediately following GCC2013), also at the University of Oslo. [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions. 
 

@@ -3,17 +3,15 @@ title: Registration
 ---
 {{> Events/GCC2013/Header }}
 
-
-
 {{> Events/GCC2013/LinkBox }}
 
 *Save 55% off Training Day registration when you register for it and the meeting at the same time.* 
 
 Our goal is to have registration be downright affordable, and to make early registration *outrageously* affordable for students and postdocs, with combined *on-time* registration ([Training Day](/src/events/gcc2013/training-day/index.md) + main meeting) starting at ~ €165.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.
 
-<div class='left'><a href='/src/events/gcc2013/register/TrainingDay/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a></div>
+<div class='left'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a></div>
 
-**If you are attending the [Training Day](/src/events/gcc2013/register/TrainingDay/index.md), you are encouraged to review the [schedule and topics](/src/events/gcc2013/register/TrainingDay/index.md) before registering.** You will select the topics you will attend as part of registration.
+**If you are attending the [Training Day](/src/events/gcc2013/training-day/index.md), you are encouraged to review the [schedule and topics](/src/events/gcc2013/training-day/index.md) before registering.** You will select the topics you will attend as part of registration.
 
 <br />
 
@@ -25,14 +23,14 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/register/Program/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/program/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
     <td style=" border: none;"> <strong>+</strong> </td>
-    <td style=" border: none;"> <a href='/src/events/gcc2013/register/TrainingDay/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
+    <td style=" border: none;"> <a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
   </tr>
 </table>
 
 
-[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](/src/events/gcc2013/register/Program/index.md) and the [Training Day](/src/events/gcc2013/register/TrainingDay/index.md) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
+[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](/src/events/gcc2013/program/index.md) and the [Training Day](/src/events/gcc2013/training-day/index.md) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
 
 <table>
   <tr>
@@ -66,7 +64,7 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/register/Program/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2013/program/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
   </tr>
 </table>
 
@@ -105,12 +103,12 @@ Interested in only the conference?  [Conference-only registration](http://bit.ly
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/events/gcc2013/register/Program/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
+    <td style=" border: none;"> <a href='/src/events/gcc2013/program/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
   </tr>
 </table>
 
 
-Interested in the [Training Day](/src/events/gcc2013/register/TrainingDay/index.md), but not the main meeting itself?  [Training Day only registration](http://bit.ly/gcc2013reg) covers admission to a full day of workshops, offering 15 different sessions in five parallel tracks.
+Interested in the [Training Day](/src/events/gcc2013/training-day/index.md), but not the main meeting itself?  [Training Day only registration](http://bit.ly/gcc2013reg) covers admission to a full day of workshops, offering 15 different sessions in five parallel tracks.
 
 <table>
   <tr>
@@ -174,6 +172,6 @@ Interested in the [Training Day](/src/events/gcc2013/register/TrainingDay/index.
 </table>
 
 
-See [Key Dates](/src/events/gcc2013/register/KeyDates/index.md) for a full timeline.
+See [Key Dates](/src/events/gcc2013/key-dates/index.md) for a full timeline.
 
 {{> Events/GCC2013/Footer }}

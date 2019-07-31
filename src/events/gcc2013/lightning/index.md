@@ -10,8 +10,8 @@ title: Lightning Talks
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/src/people/fubar/index.md)) and [Session 8 on Tuesday](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
 If you wish to give a lightning talk, please send an abstract to [GCC2013 Scientific Committee](mailto:gcc2013-sci AT galaxyproject DOT org), either 
-* any time before the start of [Session 2](/src/events/gcc2013/lightning/Program/index.md#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
-* before [Session 6](/src/events/gcc2013/lightning/Program/index.md#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
+* any time before the start of [Session 2](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
+* before [Session 6](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 

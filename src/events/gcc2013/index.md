@@ -114,9 +114,9 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 [<img class="mx-auto" src="/src/images/logos/FUGE.png" alt="Functional Genomics" height="120" />](http://www.bioinfo.no/about/)
 
-[<img class="mx-auto" <img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" />](http://www.elixir-europe.org/)
+[<img class="mx-auto" src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" />](http://www.elixir-europe.org/)
 
-[<img class="mx-auto" <img src="/src/images/logos/UiOLogo.png" alt="University of Oslo"  />](http://uio.no/)
+[<img class="mx-auto" src="/src/images/logos/UiOLogo.png" alt="University of Oslo"  />](http://uio.no/)
 <br />
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2013/sponsorships/index.md).*
