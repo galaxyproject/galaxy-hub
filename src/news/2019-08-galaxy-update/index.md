@@ -1,7 +1,7 @@
 ---
 title: 'August 2019 Galactic News'
 tease: "GCC2019 is done; BCC2020 is coming"
-date: ""
+date: "2019-08-01"
 ---
 
 The *August 2019 Galactic News* is here!
@@ -369,15 +369,15 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info" style="min-width: 12rem; max-width: 31%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator)</div>
 
-At the VIB-UGent Center for Plant Systems Biology, ith ELIXIR Belgium.
+At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 30%;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
@@ -441,7 +441,7 @@ Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) 
 </div>
 </div>
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 30%">
+<div class="card border-info"  style="min-width: 12rem; max-width: 28rem">
 <div class="card-header">GTN Tweets!</div>
 
 [<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
@@ -467,7 +467,7 @@ The [Admin topic tutorials (31 of them!)](https://training.galaxyproject.org/tra
 </div>
 </div>
 
-<div class="card border-info"  style="min-width: 12rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">GTN Infrastructure: Search</div>
 <img class="card-img-top" src="search.gif" alt="Search feature in the Training material" />
 <div class="card-body">
