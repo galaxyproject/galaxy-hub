@@ -454,8 +454,14 @@ Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) 
 The **[Galaxy Training Network](https://training.galaxyproject.org/)** now has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements!
 </div>
 
-
-
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Updated Tutorial: [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)</div>
+<img class="card-img-top" src="grafana-graph-final.png" alt="Hands-on: Add a second query to an existing graph" />
+<div class="card-body">
+<p class="card-text">
+Monitoring is an incredibly important part of server maintenance. Being able to observe trends and identify hot spots by collecting metrics gives you the ability to respond to issues that arise in production. Updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche) to include additional details.</p>
+</div>
+</div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">GTN Infrastructure: [Subtopics](https://training.galaxyproject.org/training-material/topics/admin/)</div>
@@ -476,7 +482,7 @@ There is now a search box in each topic, to help find what you are looking for. 
 </p>
 </div>
 </div>
-
+</div>
 
 <br />
 
