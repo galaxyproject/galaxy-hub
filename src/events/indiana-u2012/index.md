@@ -91,7 +91,6 @@ This is a hands-on workshop.  **Please bring a wifi-enabled laptop with a curren
 
 *Registration is open to any member of the Indiana University community. However, space is limited and the workshop is now at capacity.*
 
-**If you attended this workshop, [please provide your feedback](http://bit.ly/IUFeedbackG4B).**
 </div>
 
 
@@ -132,7 +131,6 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 <div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/indiana-u2012/IndianaUGalaxyWorkshop.pdf'><img src="/src/events/indiana-u2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/indiana-u2012/IndianaUGalaxyWorkshop.pdf) in your department.
-* Please take a minute to give us [your feedback on the workshops](/src/Feedback Link/index.md).
 
 ## Questions?
 

@@ -130,7 +130,7 @@ $
 ```
 
 
-NOTE: cloning the full Galaxy code repository can take some time. Please, jump to [More Resources](/src/More Resources/index.md) while we wait for
+NOTE: cloning the full Galaxy code repository can take some time. Please, jump to [More Resources](#more-resources) while we wait for
 it to install.
 
 4. When the download is complete, update Galaxy to the most stable version/branch:

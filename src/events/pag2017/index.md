@@ -26,7 +26,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <th> Saturday<br />January 14 </th>
     <td style=" text-align: center;"> 4:00-4:15 </td>
     <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/26172">Data Stewardship in the Life Sciences</a> </td>
-    <td> <a hef="https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4171">Challenges and Opportunities in Plant Science Data Management</a>, Pacific Salon 4-5</td>
+    <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4171">Challenges and Opportunities in Plant Science Data Management</a>, Pacific Salon 4-5</td>
     <td> </td>
     <td> Robert Davey </td>
   </tr>

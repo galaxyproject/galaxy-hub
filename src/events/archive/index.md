@@ -834,7 +834,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='IUC'>/src/iuc/index.md</a> </td>
+    <td> <a href='/src/iuc/index.md'>IUC</a> </td>
     <td> <a href='https://cesgo.genouest.org/groups/guggo/wiki/RADseqHackathon'>Writeup, Slides</a> </td>
   </tr>
   <tr>
@@ -1050,7 +1050,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='IUC'>/src/iuc/index.md</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href='/src/iuc/index.md'>IUC</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2084,13 +2084,13 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src="/src/images/logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
 <a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'><img src="/src/images/logos/nowgenLogo180.png" alt="Introduction to NGS Bioinformatics" height="45" /></a> &nbsp;
-<a href='/src/gmod:GMOD_Malaysia_2014/index.md'><img src="/src/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" height="60" /></a>&nbsp;
+<a href='http://gmod.org/wiki/GMOD_Malaysia_2014'><img src="/src/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" height="60" /></a>&nbsp;
 <a href='https://wiki.ctmmtrait.nl/display/WP4/TraIT+Hackathon'><img src="/src/images/logos/TraITLogoSmall.png" alt="CTMM TraIT Hackathon" height="60" /></a>
 <a href='/src/events/gaw2014/index.md'><img src="/src/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" height="60" /></a> &nbsp;
 <a href='http://globusworld.org/'><img src="/src/images/logos/GlobusWorld2014Logo.png" alt="GlobusWorld 2014" height="60" /></a> &nbsp;
 <a href='/src/events/bioitworld2014/index.md'><img src="/src/images/logos/BioITWorld2014Logo.png" alt="Bio-IT World 2014" /></a> &nbsp;
 <a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="" height="80" /></a>&nbsp;
-<a href='/src/gmod:GMOD_Online_Training_2014/index.md'><img src="/src/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
+<a href='http://gmod.org/wiki/GMOD_Online_Training_2014'><img src="/src/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
 <a href='http://www.mipro.hr/'><img src="/src/images/logos/mipro2014Logo.png" alt="MIPRO 2014" height="70" /></a> &nbsp;
 <a href='http://www.embnet.org/agm/2014/embnet_tutorial'><img src="/src/images/logos/PRABILogo.png" alt="" height="60" /></a>
 <a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=80 /></a>&nbsp;
@@ -3027,7 +3027,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 <a href='http://bit.ly/UFefFx'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" height="70" /></a>
 <a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a>
 <a href='/src/events/missouri-workshop-tour2013/index.md'><img src="/src/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="Missouri Galaxy Workshop Tour 2013" height="70px" /></a>
 <a href='http://www.iscb.org/glbio2013'><img src="/src/images/logos/GLBioLogo.png" alt="Great Lakes Bioinformatics Conference (GLBIO) 2013" height="50" /></a>
@@ -3627,7 +3627,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <th> June 9-13 </th>
     <td> <strong><a href='/src/events/asms2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
-    <td> <a href='Events/ASMS2013'>/src/events/asms2013/index.md</a> </td>
+    <td> <a href='/src/events/asms2013/index.md'>ASMS2013</a> </td>
     <td> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
@@ -3943,11 +3943,11 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
 
 <div class='center'>
 <a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'><img src="/src/images/photos/CeskyKrumlov.jpg" alt="Workshop on Genomics" height="90" /></a>&nbsp;&nbsp;<a href='/src/events/pag2012/index.md'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="90" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/src/images/logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src="/src/images/logos/DDBJLogo.png" alt="DDBJ" /></a>&nbsp;&nbsp;
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; 
+<a href='http://gmod.org/wiki/April_2012_GMOD_Meeting'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; 
 <a href='/src/events/galaxy-tour-de-france2012/index.md'><img src="/src/images/logos/GalaxyTourDeFranceLogo400.png" alt="Galaxy Tour de France 2012" height="100" /></a> &nbsp; 
 <a href='http://bioinformatics.ca/workshops/2012/informatics-high-throughput-sequencing-data'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src="/src/images/logos/LilleStack.png" alt="Galaxy: un environnement d'analyses bioinformatiques" height="100" /></a> <a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height="60" /></a>   <a href='/src/events/ismb2012/index.md'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height="100" /></a>   <a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> 
 <a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>
-<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>
+<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>
 <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 <a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
@@ -4555,14 +4555,14 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
   </tr>
   <tr>
     <th> July 15-19 </th>
-    <td> <strong><a href='/src/events/ISMB-ECCB-BOSC 2011/index.md'>BOSC, 3DSIG, and ISMB / ECCB 2011</a></strong><br />Including over 15 talks, workshops and posters related to Galaxy. </td>
+    <td> <strong><a href='/src/events/ismb-eccb-bosc2011/index.md'>BOSC, 3DSIG, and ISMB / ECCB 2011</a></strong><br />Including over 15 talks, workshops and posters related to Galaxy. </td>
     <td> Vienna, Austria </td>
-    <td> <a href='/src/events/ISMB-ECCB-BOSC 2011/index.md'>Slides</a> </td>
+    <td> <a href='/src/events/ismb-eccb-bosc2011/index.md'>Slides</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> June 23-24 </th>
-    <td> <strong><a href='/src/news/Galaxy Workshops @ USC June 23-24/index.md'>Galaxy Workshops @ USC</a></strong> </td>
+    <td> <strong><a href='/src/news/galaxy-workshops-usc-june23-24'>Galaxy Workshops @ USC</a></strong> </td>
     <td> Los Angeles, California, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011USC.pdf'>Intro talk slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011USC-2.pdf'>NGS analyses slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011USCResearch.pdf'>ISI seminar slides</a>  </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
@@ -4607,7 +4607,7 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <td> <strong><a href='https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project'>NBIC Galaxy Hackathon</a></strong> </td>
     <td> Belgium/Netherlands </td>
     <td> </td>
-    <td> <a href='/src/community/nbic/index.md'>NBIC</a> </td>
+    <td> NBIC </td>
   </tr>
   <tr>
     <th> April 12-14 </th>
