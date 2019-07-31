@@ -17,7 +17,6 @@ The *August 2019 Galactic News* is here!
 * [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents.
 * [Updates to training materials and documentation](/src/news/2019-08-galaxy-update/index.md#doc-hub-and-training-updates).
 * [New releases](/src/news/2019-08-galaxy-update/index.md#releases).
-* And [some other news](/src/news/2019-08-galaxy-update/index.md#other-news) too.
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -221,7 +220,7 @@ There is a lot going on in the next 3 months.
 </tbody>
 </table>
 
-
+----
 
 # Publications
 
@@ -281,7 +280,7 @@ There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.c
 
 <div class="card border-info" style="min-width: 8rem;">
 <img class="card-img-top" src="/src/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
-<div class="card-header">[Looking for Galaxy (info), in all the right places](/src/blog/2019-07-looking-for-galaxy//index.md)</div>
+<div class="card-header">[Looking for Galaxy (info), in all the right places](/src/blog/2019-07-looking-for-galaxy/index.md)</div>
 
 How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
 
@@ -297,9 +296,9 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">UseGalaxy.* News</div>
+<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
-[<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />](/src/usegalaxy/index.md/)
+<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [UseGalaxy.eu](https://usegalaxy.eu/) hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
 * [UseGalaxy.org](https://usegalaxy.org/) and [UseGalaxy.org.au](https://usegalaxy.org.au/) now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
@@ -410,7 +409,7 @@ By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hal
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">2 New Tutorials for Galaxy on Kubernetes: [Deploying Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html) and [Managing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</div>
-<img class="card-img-top" src="k8s-logo.png" alt="normalisation" />
+<img class="card-img-top" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" />
 <div class="card-body">
 <p class="card-text">
 By [Pablo Moreno](https://training.galaxyproject.org/training-material/hall-of-fame#pcm32), [Enis Afgan](https://training.galaxyproject.org/training-material/hall-of-fame#afgane), [Nuwan Goonasekera](https://training.galaxyproject.org/training-material/hall-of-fame#nuwang), [Alex Mahmoud](https://training.galaxyproject.org/training-material/hall-of-fame#almahmoud), [Sergey Golitsynskiy](https://training.galaxyproject.org/training-material/hall-of-fame#ic4f).</p>
@@ -449,7 +448,7 @@ Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 30%">
-<div class="card-header">GTN is on Twitter!</div>
+<div class="card-header">GTN Tweets!</div>
 
 [<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
 The **[Galaxy Training Network](https://training.galaxyproject.org/)** now has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements!
@@ -474,21 +473,18 @@ The **[Galaxy Training Network](https://training.galaxyproject.org/)** launched 
 
 New additions (and editions) in the Galaxy Ecosystem.
 
-## Planemo 0.60.0
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Planemo 0.61.0</div>
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
+<div class="card-body">
+<p class="card-text">[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).</p>
+</div>
+</div>
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
-
-## Ephemeris v 0.10.3
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Ephemeris v 0.10.3</div>
 
 [Ephemeris](https://github.com/galaxyproject/ephemeris) is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows. It has [extensive documentation](https://ephemeris.readthedocs.org/).  This [release](https://github.com/galaxyproject/ephemeris/blob/master/HISTORY.rst) features numerous newly contributed features.
-
-
-----
-
-# Other News
-
-
+</div>
+</div>
