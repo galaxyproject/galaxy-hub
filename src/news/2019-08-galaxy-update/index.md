@@ -220,7 +220,6 @@ There is a lot going on in the next 3 months.
 </tbody>
 </table>
 
-----
 
 # Publications
 
@@ -264,7 +263,6 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | |
 
 
-----
 
 # Galactic Blog Activity
 
@@ -288,7 +286,6 @@ Also answers the question of "Where do cars go after they die?"
 </div>
 </div>
 
-----
 
 # Galaxy Platforms News
 
@@ -324,9 +321,7 @@ Platforms that were referenced at least twice in the past month's publications:
 | 4 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) |
 | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 2 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu) | | | | | | | |
 
-<br />
 
-----
 
 # Who's Hiring
 
@@ -391,7 +386,6 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 </div>
 </div>
 
----
 
 # Doc, Hub, and Training Updates
 
@@ -484,9 +478,6 @@ There is now a search box in each topic, to help find what you are looking for. 
 </div>
 </div>
 
-<br />
-
-----
 
 # Releases
 
