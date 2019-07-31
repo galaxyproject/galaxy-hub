@@ -74,7 +74,7 @@ My pre-bioinformatics career included
 * [2013 Research Triangle Workshop Tour](/src/events/rt-workshop-tour2013/index.md), May 18-22, 2013, Research Triangle Area, North Carolina, United States
 * [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md), June 30 - July 2, 2013, Oslo, Norway
   * [GalaxyAdmins Birds of a Feather Meetup](/src/events/gcc2013/bof/galaxy-admins/index.md)
-  * [Public Galaxy Server Birds of a Feather Meetup](/src/events/gcc2013/bof/use/index.md)
+  * [Public Galaxy Server Birds of a Feather Meetup](/src/events/gcc2013/bof/galaxy-admins/index.md)
 * [Missouri Workshop Tour 2013](/src/events/missouri-workshop-tour2013/index.md), April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
 
 * [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md), July 25-27, Chicago, Illinois, United States
