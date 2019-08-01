@@ -1,6 +1,6 @@
 ---
-title: '"Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy"'
-tease: ""
+title: 'Galaxy @ ASM CUE'
+tease: "Teaching genomics to undergrads"
 date: '2019-08-01'
 days: 4
 continent: NA
@@ -12,11 +12,9 @@ image: "/src/events/2019-asmcue/asmcue-2019.jpg"
 gtn: true
 ---
 
-[Mo Heydarian](/src/people/mo-heydarian/index.md) and [Anton Nekrutenko](/src/people/anton/index.md) of the Galaxy Project will present two sessions at the [2019 ASM Conference for Undergraduate Educators (ASMCUE)](https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home)
+[Mo Heydarian](/src/people/mo-heydarian/index.md) of the Galaxy Project will present two sessions at the [2019 ASM Conference for Undergraduate Educators (ASMCUE)](https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home)
 
-* Teaching undergraduate genomics with Galaxy
-* Resources and recommendations for teaching undergraduate genomics with Galaxy
-
-These will be presented as two 45-minute education sessions.
- 
-
+| Day | Time | Topic | Where |
+| ---- | ---- | ---- | ---- |
+| Friday | 8am | [Teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673616/ ) | Great Falls Room |
+| Friday | 9am | [Resources and recommendations for teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673614/ ) | Great Falls Room |
