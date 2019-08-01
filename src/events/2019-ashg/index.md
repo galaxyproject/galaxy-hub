@@ -7,7 +7,7 @@ continent: NA
 location: "ASHG 2019, Houston, Texas, United States"
 external_url: "http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy"
 location_url: "https://www.ashg.org/2019meeting/"
-contact: 'Jeremy Goecks, Mohammad Heydarian'
+contact: 'Jeremy Goecks, Dan Blankenberg, Mohammad Heydarian'
 image: ""
 gtn: true
 ---
