@@ -7,6 +7,7 @@ Related topics
 
 * [Tutorials](/src/learn/index.md)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
+* [Extended Help for Differential Expression Analysis Tools](/src/support/diff-expression/index.md)
 * [Reporting Usage Issues or Software bugs](/src/issues/index.md)
 * [Choices](/src/choices/index.md)
 * [Ecosystem](https://galaxyproject.github.io/)
