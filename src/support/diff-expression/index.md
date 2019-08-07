@@ -17,7 +17,7 @@ Related topics
 * [Common datatypes explained](/src/learn/datatypes/index.md)
 * [Search all Prior Q&A and Galaxy Resources](https://galaxyproject.org/search/)
 
-# Help for Differential Expression Analysis Tools
+# Tools
 
 The error and usage help in this FAQ applies to:
 
