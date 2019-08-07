@@ -34,7 +34,7 @@ The error and usage help in this FAQ applies to:
 * Sailfish
 * DexSeq-count
 
-# Errors
+# Troubleshooting Errors and Unexpected Results
 
 Expect odd errors or content problems if any of the usage requirements below are not met:
 
