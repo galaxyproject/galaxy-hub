@@ -79,4 +79,5 @@ title: Galaxy Support
 * [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
 * [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
 * [Mismatched Chromosome identifiers (and how to avoid them)](/src/support/chrom-identifiers/index.md)
+* [Extended Help for Differential Expression Analysis Tools](/src/support/diff-expression/index.md)
 
