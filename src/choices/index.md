@@ -33,7 +33,7 @@ UseGalaxy servers implement a common core set of tools and reference genomes, an
 
 Public Galaxy servers are acccessible to (at least) any academic researcher in the world.  Some require you to create/request an account, aand they may have restrictive quotas, but often, to use these, just go the website and start running analyses. These are free to use.
 
-## [TIaaS ](https://galaxyproject.eu/tiaas)
+## [TIaaS](https://galaxyproject.eu/tiaas)
 
 TIaaS (Training Infrastructure as a Service) is a special service for the Galaxy training community. You provide the training, we provide the infrastructure at no cost. It is like a UseGalaxy server (indeed it is currently the usegalaxy.eu Server) but you can register for special resources for your training, to avoid queing time or other limitations. Just contact the TIaaS provider.
 
