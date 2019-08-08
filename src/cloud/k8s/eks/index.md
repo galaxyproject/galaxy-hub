@@ -5,7 +5,7 @@ highlight: true
 
 We break the steps of deploying Galaxy on 
 [Amazon Elastic Kubernetes Service (Amazon EKS)](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
-to the following sections:
+into the following sections:
 
 - [Create a k8s cluster](#create-a-cluster);
 - [Install Helm](#install-helm);
@@ -15,15 +15,16 @@ to the following sections:
 
 # Create a Cluster
 
-Amazon EKS offers two methods for creating a cluster: via console and a tool named `eksctl`.
+Amazon EKS offers two methods for creating a cluster: either via console, 
+or by using a tool named `eksctl`.
 
-When creating a cluster, you would need to make the following 
-decisions, and take a note of the choices you make: 
+When creating a cluster, you will need to make the following 
+decisions, taking note of the choices you make: 
 
 1. Choose a [region](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html):
-you would need to choose a region where Amazon Secure Token Service (STS) is 
+the region selected must have Amazon Secure Token Service (STS)  
 activated for your account. You do not necessarily have STS activate for all
-regions under your account, please consult with your account admin. If you 
+regions under your account; please consult with your account admin. If you 
 choose a region where STS is not activated for your account, you may get an 
 error message as the following: 
 
@@ -35,9 +36,9 @@ error message as the following:
 
 2. Choose an [instance type](https://aws.amazon.com/ec2/instance-types/); 
 two points to consider: first, not necessarily all instance types are available in 
-all the regions; therefore, choose an instance type that is available in the 
-zone where you have STS activated. Second, choose an instance with "reasonable"
-amount of resources as you will be running multiple pods within that instance,
+all regions; therefore, choose an instance type that is available in the 
+zone where you have STS activated. Second, choose an instance with a "reasonable"
+amount of resources, as you will be running multiple pods within that instance,
 and if you do not have enough resources, your pods will fail to schedule. For 
 instance, avoid instance types such as `a1.medium`.
 
@@ -47,14 +48,15 @@ a single node, as there is an additional step for deployment on a multi-node
 cluster that will be discussed separately. 
 
 To create a cluster on on EKS, you may follow these tutorials:
-- via console; read [how to start a cluster using console](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html);
+- via console; read [how to start a cluster using the console](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html);
 - via the `eksctl` CLI tool; read [how to start a cluster using eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)
 
-If you have used the `eksctl` tool, in summary you may have run the following 
-command to create a cluster with `1` node of `m5.4xlarge` instance type in `us-east-1` zone:
+If you have used the `eksctl` tool to start a cluster, you may have run a 
+command similar to the following, which creates a cluster with `1` node of 
+`m5.4xlarge` instance type in `us-east-1` zone:
 
 ```bash
-$ eksctl create cluster --name [CLUSTER_NAME] --version 1.13 --nodegroup-name standard-workers --node-type m5.4xlarge --nodes 1 --nodes-min 1 --nodes-max 1 --node-ami auto --region us-east-1
+$ eksctl create cluster --name CLUSTER-NAME --version 1.13 --nodegroup-name standard-workers --node-type m5.4xlarge --nodes 1 --nodes-min 1 --nodes-max 1 --node-ami auto --region us-east-1
 ```
 
 Note that the instance type and zone values are arbitrary and you may choose any 
@@ -69,23 +71,23 @@ If the command execution is successful, you may see an output as:
 [ℹ]  subnets for us-east-1c - public:192.168.32.0/19 private:192.168.96.0/19
 [ℹ]  nodegroup "standard-workers" will use "ami-..." [AmazonLinux2/1.13]
 [ℹ]  using Kubernetes version 1.13
-[ℹ]  creating EKS cluster "CLUSTER_NAME" in "us-east-1" region
+[ℹ]  creating EKS cluster "CLUSTER-NAME" in "us-east-1" region
 [ℹ]  will create 2 separate CloudFormation stacks for cluster itself and the initial nodegroup
-[ℹ]  if you encounter any issues, check CloudFormation console or try 'eksctl utils describe-stacks --region=us-east-1 --name=CLUSTER_NAME'
-[ℹ]  2 sequential tasks: { create cluster control plane "CLUSTER_NAME", create nodegroup "standard-workers" }
-[ℹ]  building cluster stack "eksctl-CLUSTER_NAME-cluster"
-[ℹ]  deploying stack "eksctl-CLUSTER_NAME-cluster"
-[ℹ]  building nodegroup stack "eksctl-CLUSTER_NAME-nodegroup-standard-workers"
-[ℹ]  deploying stack "eksctl-CLUSTER_NAME-nodegroup-standard-workers"
-[✔]  all EKS cluster resource for "CLUSTER_NAME" had been created
-[✔]  saved kubeconfig as "/Users/CLUSTER_NAME/.kube/config"
-[ℹ]  adding role "arn:aws:iam::...:role/eksctl-CLUSTER_NAME-nodegroup-standard-w-NodeInstanceRole-..." to auth ConfigMap
+[ℹ]  if you encounter any issues, check CloudFormation console or try 'eksctl utils describe-stacks --region=us-east-1 --name=CLUSTER-NAME'
+[ℹ]  2 sequential tasks: { create cluster control plane "CLUSTER-NAME", create nodegroup "standard-workers" }
+[ℹ]  building cluster stack "eksctl-CLUSTER-NAME-cluster"
+[ℹ]  deploying stack "eksctl-CLUSTER-NAME-cluster"
+[ℹ]  building nodegroup stack "eksctl-CLUSTER-NAME-nodegroup-standard-workers"
+[ℹ]  deploying stack "eksctl-CLUSTER-NAME-nodegroup-standard-workers"
+[✔]  all EKS cluster resource for "CLUSTER-NAME" had been created
+[✔]  saved kubeconfig as "/Users/CLUSTER-NAME/.kube/config"
+[ℹ]  adding role "arn:aws:iam::...:role/eksctl-CLUSTER-NAME-nodegroup-standard-w-NodeInstanceRole-..." to auth ConfigMap
 [ℹ]  nodegroup "standard-workers" has 0 node(s)
 [ℹ]  waiting for at least 1 node(s) to become ready in "standard-workers"
 [ℹ]  nodegroup "standard-workers" has 1 node(s)
 [ℹ]  node "ip-192-168-47-193.ec2.internal" is ready
-[ℹ]  kubectl command should work with "/Users/CLUSTER_NAME/.kube/config", try 'kubectl get nodes'
-[✔]  EKS cluster "CLUSTER_NAME" in "us-east-1" region is ready
+[ℹ]  kubectl command should work with "/Users/CLUSTER-NAME/.kube/config", try 'kubectl get nodes'
+[✔]  EKS cluster "CLUSTER-NAME" in "us-east-1" region is ready
 ```
 
 # Install Helm
@@ -96,7 +98,9 @@ In order to install and configure Helm on an EKS cluster, you may use
 
 # Deploy Galaxy on the Cluster
 
-The deployment of a Galaxy on a k8s cluster consists of two steps: 
+Once you have established that you have Helm and have configured the `tiller` 
+server (as detailed in the above documentation), the deployment of a Galaxy on 
+a k8s cluster consists of two steps: 
 
 1. [Optional] deploy the [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem) chart.
 You may run the following commands for this deployment: 
@@ -176,9 +180,9 @@ You may run the following commands for this deployment:
 2. Deploy Galaxy chart, using the following commands:
 
     ```bash
-    $ helm dependency update
     $ git clone https://github.com/galaxyproject/galaxy-helm.git
     $ cd galaxy-helm/galaxy/
+    $ helm dependency update
     $ helm install . --set persistence.accessMode=ReadWriteOnce --set service.type=LoadBalancer --set service.port=80 -f values-cvmfs.yaml
     ``` 
     
@@ -257,7 +261,9 @@ Having deployed Galaxy on an EKS cluster, you may access the instance as the fol
     wistful-quoll-galaxy-postgres-headless   ClusterIP      None             <none>             5432/TCP       9m
     ```
 
-2. Copy the `Name` of the `LoadBalancer` service, and run the following command:
+2. Copy the `Name` of the `LoadBalancer` service (in this case, 
+'wistful-quoll-galaxy'), and run the following command:
+
     ```bash
     $ kubectl describe svc wistful-quoll-galaxy
     ```
@@ -296,15 +302,8 @@ Having deployed Galaxy on an EKS cluster, you may access the instance as the fol
     
 # Delete EKS Cluster
 
-You may `uninstall` the chart (Galaxy deployment), using the following command: 
-
-```bash
-$ helm del --purge galaxy
-```
-
-However, this will only delete the deployment, and will leave behind the resources 
-bound to cluster, such as nodes, and volumes. Therefore, take the following steps to 
-delete the deployment and cluster:
+To delete all resources associated with the cluster (such as nodes, the load 
+balancer, and volumes) and avoid orphaned resources, a few steps must be taken:
 
 1. Run `kubectl get svc --all-namespaces`, whose output may look like the following:
 
@@ -319,33 +318,35 @@ delete the deployment and cluster:
     kube-system   kube-dns                                 ClusterIP      10.100.0.10      <none>             53/UDP,53/TCP   56m
     ```
     
-2. Copy the `Name` of the `LoadBalancer` service, and run the following command:
+2. Copy the `NAME` of the `LoadBalancer` service, and run the following command:
 
     ```bash
     $ kubectl delete svc wistful-quoll-galaxy
     ```
     
-    where `wistful-quoll-galaxy` is the `Name` of the `LoadBalancer` in our example.
+    where `wistful-quoll-galaxy` is the `NAME` of the `LoadBalancer` in our 
+    example. This will prevent normal failure recovery procedures from 
+    recreating any terminated instances.
     
-3. To delete the cluster, run the following command replacing `CLUSTER_NAME` and `REGION` 
+3. To delete the cluster, run the following command replacing `CLUSTER-NAME` and `REGION` 
 with the name of your cluster and region, respectively, that you assigned when 
 creating the cluster.  
 
     ```bash
-    $ eksctl delete cluster --name CLUSTER_NAME --region REGION
+    $ eksctl delete cluster --name CLUSTER-NAME --region REGION
     ```
     
     Output:
     
     ```bash
     [ℹ]  using region us-east-1
-    [ℹ]  deleting EKS cluster "vahid"
+    [ℹ]  deleting EKS cluster "CLUSTER-NAME"
     [✔]  kubeconfig has been updated
     [ℹ]  cleaning up LoadBalancer services
-    [ℹ]  2 sequential tasks: { delete nodegroup "standard-workers", delete cluster control plane "vahid" [async] }
-    [ℹ]  will delete stack "eksctl-vahid-nodegroup-standard-workers"
-    [ℹ]  waiting for stack "eksctl-vahid-nodegroup-standard-workers" to get deleted
-    [ℹ]  will delete stack "eksctl-vahid-cluster"
+    [ℹ]  2 sequential tasks: { delete nodegroup "standard-workers", delete cluster control plane "CLUSTER-NAME" [async] }
+    [ℹ]  will delete stack "eksctl-CLUSTER-NAME-nodegroup-standard-workers"
+    [ℹ]  waiting for stack "eksctl-CLUSTER-NAME-nodegroup-standard-workers" to get deleted
+    [ℹ]  will delete stack "eksctl-CLUSTER-NAME-cluster"
     [✔]  all cluster resources were deleted
     ```
     
@@ -355,4 +356,4 @@ volumes may not delete automatically. To delete them manually, take the followin
     - Goto [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/);
     - Choose `Volumes` under the `ELASTIC BLOCK STORE` category;
     - choose the related volumes for the list;
-    - click on `Actions` button, then the `Delete Volumes` menu item. 
+    - click on the `Actions` button, then the `Delete Volumes` menu item. 
