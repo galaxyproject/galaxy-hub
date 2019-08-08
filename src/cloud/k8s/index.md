@@ -22,3 +22,4 @@ specifics of creating and managing a k8s cluster. However, as an example, here
 we describe how to deploy Galaxy on the following managed kubernetes services:
 
 - [Amazon Elastic Kubernetes Service (Amazon EKS)](/src/cloud/k8s/eks/index.md)
+- [Google Kubernetes Engine (GKE)](/src/cloud/k8s/gke/index.md)
