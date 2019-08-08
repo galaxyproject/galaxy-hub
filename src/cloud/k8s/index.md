@@ -8,7 +8,7 @@ developed a [Helm chart](https://github.com/galaxyproject/galaxy-helm)
 that can be executed on a k8s cluster to deploy an instance of Galaxy.
 
 In general, the following steps are required to deploy Galaxy on k8s using 
-the helm charts: 
+the Helm charts: 
 
 1. Create a k8s cluster;
 2. Install/configure [Helm](https://helm.sh);
