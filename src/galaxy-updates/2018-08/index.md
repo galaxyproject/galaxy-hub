@@ -70,7 +70,7 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 ## GTN CoFest on Metagenomics Training Material, 17 August
 
-<img class="img-fluid float-right" style="max-width: 200px;" src="/src/events/2018-08-gtn/cofests.png" alt="GTN cofest logo"/>
+<img class="img-fluid float-right" style="max-width: 200px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 
