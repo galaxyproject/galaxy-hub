@@ -152,6 +152,14 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
     ![GTN Logo. transparent, gray lettering](/src/images/galaxy-logos/GTNLogoTransWhite300.png)
 
+### GTN CoFests
+
+* Logo, transparent background
+  * [2963x1394 pixels](/src/images/galaxy-logos/gtn-cofests.png), [7944x3244 pixels](/src/images/galaxy-logos/gtn-cofests-huge.png)
+
+    ![GTN CoFests Logo. transparent](/src/images/galaxy-logos/gtn-cofests.png)
+
+
 ## Intergalactic Utitlities Commision
 
 * Logo, white background

@@ -12,7 +12,7 @@ contact: "Bérénice Batut"
 gtn: false
 ---
 
-<img class="float-right" style="max-width: 500px;" src="/events/2019-09-gtn/cofests.png" alt="GTN cofest logo"/>
+<img class="float-right" style="max-width: 500px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing every 3 months one day dedicated to the training community: collaborative work on the training content but also calls with the community.
 

@@ -70,7 +70,7 @@ We are delighted to have *GigaScience* as a returning sponsor:
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: [one central place](https://training.galaxyproject.org) to aggregate training materials covering many current research topics. Each topic is supported by different tutorials developed and maintained by the community via a [GitHub repository](https://github.com/galaxyproject/training-material).
 
-<img class="float-right" style="max-width: 200px;" src="/events/2019-05-gtn/cofests.png" alt="GTN cofest logo"/>
+<img class="float-right" style="max-width: 200px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Thursday for a day of the collaborative work on the training content.
 
