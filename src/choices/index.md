@@ -8,15 +8,15 @@ Galaxy is available in *many* different ways and some of those ways are better s
 
 Your choices depends upon your needs. If you want to use Galaxy with a minimum of setup work, then start with the [**Galaxy Platforms Directory**](/src/use/index.md).  This directory lists well over 100 resources in several different classes of Galaxy resources, all of which can be use with little or no setup on your part. The resource types are explained below.
 
-|                                  | UseGalaxy Servers | Public Servers | Academic Cloud Services | Commercial Cloud Services | Containers | VMs | Local |
-| :-------------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
-| Free to use               | Yes | Yes | Yes<sup>1</sup> | No | Yes | Yes | Yes |
-| Uses your local compute infrastructure | No | No | No | No | Yes<sup>2</sup> | Yes<sup>2</sup> | Yes |
-| Your have large datasets with many intermediate datasets ( > 250GB) | No |  ?  | Yes | Yes | ?<sup>3</sup> | ?<sup>3</sup> | Yes |
-| Your computational requirements are similarly large |  No  | ?  | Yes | Yes | ?<sup>3</sup> | ?<sup>3</sup> | Yes |
-| You want to share your Galaxy objects with others outside your organization |  Yes  |  Yes  |  Yes | Yes | Yes<sup>4</sup> | Yes<sup>4</sup> | ?<sup>5</sup> |
-| You have control over the tools and reference genomes that are installed | No  | No  |  Yes<sup>5</sup>  | Yes  | Yes | Yes | Yes |
-| You have absolute data security requirements |  No  |  No  |  ?  |  ?  | ? | ? | Yes |
+|                                  | UseGalaxy Servers | Public Servers | TIaaS | Academic Cloud Services | Commercial Cloud Services | Containers | VMs | Local |
+| :-------------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Free to use               | Yes | Yes | Yes | Yes<sup>1</sup> | No | Yes | Yes | Yes |
+| Uses your local compute infrastructure | No | No | No | No | No | Yes<sup>2</sup> | Yes<sup>2</sup> | Yes |
+| Your have large datasets with many intermediate datasets ( > 250GB) | No |  ?  | Yes | Yes | Yes | ?<sup>3</sup> | ?<sup>3</sup> | Yes |
+| Your computational requirements are similarly large |  No  | ?  | Yes | Yes | Yes | ?<sup>3</sup> | ?<sup>3</sup> | Yes |
+| You want to share your Galaxy objects with others outside your organization |  Yes  |  Yes  | Yes | Yes | Yes | Yes<sup>4</sup> | Yes<sup>4</sup> | ?<sup>5</sup> |
+| You have control over the tools and reference genomes that are installed | No  | No | No |  Yes<sup>5</sup>  | Yes  | Yes | Yes | Yes |
+| You have absolute data security requirements |  No  |  No | No |  ?  |  ?  | ? | ? | Yes |
 
 <sup>1</sup> If you qualify for the service.<br />
 <sup>2</sup> Although these technologies can also be deployed on clouds.<br />
@@ -32,6 +32,10 @@ UseGalaxy servers implement a common core set of tools and reference genomes, an
 ## Public Servers
 
 Public Galaxy servers are acccessible to (at least) any academic researcher in the world.  Some require you to create/request an account, aand they may have restrictive quotas, but often, to use these, just go the website and start running analyses. These are free to use.
+
+## [TIaaS ](https://galaxyproject.eu/tiaas)
+
+TIaaS (Training Infrastructure as a Service) is a special service for the Galaxy training community. You provide the training, we provide the infrastructure at no cost. It is like a UseGalaxy server (indeed it is currently the usegalaxy.eu Server) but you can register for special resources for your training, to avoid queing time or other limitations. Just contact the TIaaS provider.
 
 ## Academic Cloud Services
 
