@@ -9,7 +9,7 @@ location_url: "https://sciencegateways.org/web/gateways2019/welcome"
 external_url:
 gtn: false
 contact: "James Taylor, Dave Clements"
-image: 
+image: "gateways-2019-logo.png"
 ---
 
 There are several Galaxy related presentations at [Gateways 2019](https://sciencegateways.org/web/gateways2019/welcome):
