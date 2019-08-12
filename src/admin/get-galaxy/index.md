@@ -1,7 +1,7 @@
 ---
 title: Get Galaxy
 ---
-Here you will find information on obtaining and setting up a Galaxy instance with default configuration. 
+Here you will find information on obtaining and setting up a Galaxy instance with default configuration.
 
 # Requirements
 
@@ -191,4 +191,4 @@ Below are simplified instructions for shutting down local Galaxy server. If your
 
 ## Installation automation
 
-Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart). To deploy Galaxy on your local machine or on the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
+If you're looking to automate your installation, try the [Galaxy Ansible Training](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html) that's available from the Galaxy Training Network. Alternatively you can look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart).
