@@ -1,6 +1,6 @@
  
 
-# Displaying Datasets at External Display Applications / Websites
+# Displaying Datasets at External Display Applications / Websites using GEDAs
 
 ## About Display Applications
 
@@ -13,7 +13,14 @@ There are many services available that allow users to upload their own data for 
 
 ## Citation
 
-If you add a new external display application to Galaxy in your published work, please cite: Blankenberg D, et al. _In preparation_.
+If you add a new external display application to Galaxy in your published work, please cite: [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**. *bioRxiv* 642280; doi: 10.1101/642280.
+
+* * *
+
+## Additional Resources
+
+* This preprint provides additional information on the structure and configuration of Galaxy External Display Applications (GEDAs): https://www.biorxiv.org/content/10.1101/642280v1.full
+* There is also an annotated XML Schema Definition (XSD) available: [geda.xsd](https://raw.githubusercontent.com/galaxyproject/galaxy/a50dcf092a1d33c5b097783131719f3f93616e75/lib/galaxy/datatypes/display_applications/xsd/geda.xsd).
 
 * * *
 
