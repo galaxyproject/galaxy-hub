@@ -17,10 +17,10 @@ Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a
 Some highlights from the recently added pubs:
 
 * [2017 Galaxy community update](https://doi.org/10.7490/f1000research.1114388.1)
-  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremey-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
+  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
 
 * [Approaches for small RNA-seq in Galaxy](https://doi.org/10.7490/f1000research.1114423.1)
-  [Mallory Freeberg](/src/people/mallory-freeberg/index.md), [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
+  Mallory Freeberg, [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
 
 * [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](https://doi.org/10.1093/gigascience/gix048)
   Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
@@ -50,7 +50,7 @@ Some highlights from the recently added pubs:
   Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
 
 * [Recent object formation in the core of Galaxy](https://doi.org/10.7490/f1000research.1114483.1)
-  [Martin Čech](/src/people/martenson/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
+  [Martin Čech](/src/people/marten/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
 
 * [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](https://doi.org/10.12688/f1000research.12168.1)
   Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
@@ -159,7 +159,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 <tr>
 <td><span class="text-nowrap">June 25th 2018</span></td>
 <td><a href="https://gccbosc2018.sched.com">GCC2018 &amp; BOSC 2018</a></td>
-<td><img style="float:right;" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+<td><img style="float:right;" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
 <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td></tr>
 </tbody>
 </table>

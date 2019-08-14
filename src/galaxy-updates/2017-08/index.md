@@ -32,7 +32,7 @@ GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencescon
 Two summaries of GCC2017 are available online:
 
 * [Intergalactique – the Galaxy Community Conference 2017](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/), by [Hollydawn Murray](https://blog.f1000.com/author/hmurray/), F1000 Research Publishing Editor, on the [F1000 Research Blog](https://blog.f1000.com/blogs/f1000research/).
-* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](/src/people/simon-gladman/index.md), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
+* [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
 [<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
@@ -426,6 +426,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [E. Rasche](https://github.com/erasche). 
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
 * From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
-* From [Mallory Freeberg](/src/people/mallory-freeberg/index.md): [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
-* From [Enis Afgan](/src/people/enis-afgan/index.md): [First launch of #usegalaxy on Microsoft Azure!](First launch of #usegalaxy on Microsoft #Azure! A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
+* From Mallory Freeberg: [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
+* From [Enis Afgan](/src/people/enis-afgan/index.md): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
 
