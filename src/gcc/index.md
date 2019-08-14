@@ -3,7 +3,7 @@ title: Galaxy Community Conferences (GCCs)
 ---
 
 <div class="text-center">
-[<img src="/src/events//gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" />](https://galaxyproject.org/gcc2019) &nbsp;&nbsp;
+[<img src="/src/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" />](https://galaxyproject.org/gcc2019) &nbsp;&nbsp;
 [<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" width="140" />](https://gccbosc2018.sched.com/) &nbsp;&nbsp;
 [<img src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="200" />](https://gcc2017.sciencesconf.org/) &nbsp;&nbsp;
 [<img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" />](https://gcc2016.iu.edu/) &nbsp;&nbsp;

@@ -7,7 +7,7 @@ title: Hosting a Galaxy Community Conference (GCC)
 </div>
 
 <div class="float-right">
-[<img src="/src/events//gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" style="max-width: 180px" />](https://galaxyproject.org/gcc2019)<br /><br />
+[<img src="/src/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" style="max-width: 180px" />](https://galaxyproject.org/gcc2019)<br /><br />
 [<img src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" style="max-width: 180px" />](https://gcc2017.sciencesconf.org/)<br /><br />
 [<img class="float-right" src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" style="max-width: 180px" />](https://gcc2016.iu.edu/)
 </div>

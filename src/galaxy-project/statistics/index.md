@@ -47,7 +47,7 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 | [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 358 |
 | [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 275 |
 | [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 61 |
-| [Galaxy Africa Mailing List]() | 48 |
+| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 48 |
 
 | Topic-Based Community / Channel | Membership / Followers|
 |---|---|
@@ -59,7 +59,7 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 # Publications / Citations
 
-The [Galaxy Publications Library](/src/galaxy-publications/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
+The [Galaxy Publications Library](/src/publication-library/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
 
 In October 2017 [the 5,000th pub was added to that library](/src/blog/2017-10-5000-pubs/index.md).
 

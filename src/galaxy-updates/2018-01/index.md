@@ -203,7 +203,7 @@ As a grant funded activity housing is included; however you will need to cover y
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://gccbosc2018.sched.com">GCC2018 &amp; BOSC 2018</a></td>
-  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 </tbody>
@@ -280,7 +280,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ## EuPathDB Galaxy Data Analysis Service
 
-[<img class="float-right" src="/src/use/eu-path-db/eupathdb-logo.png" width="240" />](EuPathDB Galaxy Data Analysis Service)
+[<img class="float-right" src="/src/use/eu-path-db/eupathdb-logo.png" alt="EuPathDB Galaxy Data Analysis Service" width="240" />](http://eupathdb.org/eupathdb/app/galaxy-orientation)
 
 The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/galaxy-orientation) is a free Galaxy server for large-scale data analysis focused on eukaryotic pathogens.
 

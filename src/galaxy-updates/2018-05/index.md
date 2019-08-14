@@ -215,7 +215,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://gccbosc2018.sched.com">**GCCBOSC 2018**</a></td>
-  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/location/">Reed College, Portland, Oregon, United States</a></td>
+  <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
   <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 <tr>

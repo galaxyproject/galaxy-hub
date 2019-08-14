@@ -9,4 +9,3 @@ anything that is of wide interest to the community.
 Also see the *[Galactic Blog](/src/blog/index.md)* for more.
 
 *See [Add a News Item](#add-news-item) below for how to get an item on this page and the RSS feed.*
-Older news items are available in the Galaxy [News Archive](/src/news/archive/index.md).
