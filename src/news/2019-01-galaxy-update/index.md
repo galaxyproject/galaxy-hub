@@ -66,7 +66,7 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
   * **[Galaxy Tools for Comparative Gene Family Analysis in Plant Genomics](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49271d78)**, [Eric Wafula](http://bio.psu.edu/directory/ekw10), [Claude dePamphilis](http://cwd.huck.psu.edu/) 
   * **[Galaxy Metabolomics from the Ground up](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34c6da2)**, [Arthur Eschenlauer](http://hegemanlab.cfans.umn.edu/) 
   * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2) 
-  * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, [Luke Sargent](/src/people/luke-sargent/index.md) 
+  * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent 
 
 See the **[Galaxy @ PAG 2019](/src/events/2019-pag/index.md)** page for a complete list.
 
@@ -257,7 +257,7 @@ The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) suppor
 
 ## ChIP-Seq Docker
 
-This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](src/use/chip-seq-docker/index.md).
+This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](/src/use/chip-seq-docker/index.md).
 
 ## Other Platform News
 

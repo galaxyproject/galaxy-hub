@@ -98,7 +98,7 @@ Is your organization interested in playing a prominent role in the first joint g
 <br />
 [<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
-Please see the information below and contact the [conference organizers](/src/events/gccbosc2017/organizers/inidex.md) with any questions.
+Please see the information below and contact the [conference organizers](/src/events/gccbosc2018/organizers/index.md) with any questions.
 
 - [One page summary](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf)
 - [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)
@@ -166,7 +166,7 @@ Other a la carte sponsorship opportunities are also available. Many additional o
 
 # CollaborationFest Sponsorships
 
-[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/src/events/gccbosc2017/organizers/inidex.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/src/events/gccbosc2018/organizers/index.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |

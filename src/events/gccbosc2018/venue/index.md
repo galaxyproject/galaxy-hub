@@ -200,7 +200,7 @@ Accanto serves Italian fare like handmade pasta, plus cocktails.
 **[Andina](http://www.andinarestaurant.com/)** - *1314 NW Glisan St*<br />
 Andina is Peruvian cuisine and tapas bar with live music. The kitchen sources native and local ingredients to develop a menu that celebrates the owner’s family’s Andean roots.
 
-**[Le Pigeon](lepigeon.com)** - *738 E Burnside St*<br />
+**[Le Pigeon](http://lepigeon.com)** - *738 E Burnside St*<br />
 Rotating menu of creative French-inspired fare served at communal tables or the bar in a snug room.
 
 **[Little Bird Bistro](http://littlebirdbistro.com/)** - *215 SW 6th Ave*<br />

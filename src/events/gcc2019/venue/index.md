@@ -26,7 +26,7 @@ Tel.: +49 761 3881 1516
 
 Freiburg is located nearby several airports. 
 
-The [Euroairport](https://www.euroairport.com/en) in the south is close to Basel (CH) and Mulhouse (F). From there, Freiburg is connected by bus within 55 min, e.g. [Flixbus](www.flixbus.com) or [Euroairport Bus](https://www.freiburger-reisedienst.de/tickets.php?lang=en). Round trip tickets are available for 46€.
+The [Euroairport](https://www.euroairport.com/en) in the south is close to Basel (CH) and Mulhouse (F). From there, Freiburg is connected by bus within 55 min, e.g. [Flixbus](http://www.flixbus.com) or [Euroairport Bus](https://www.freiburger-reisedienst.de/tickets.php?lang=en). Round trip tickets are available for 46€.
 
 The airport in the north is close to Karlsruhe and [Baden-Baden](https://www.baden-airpark.de). From there, Freiburg is connected by bus and [train](https://www.bahn.de) within ~90min. Train round trip tickets are available for 50€.
 

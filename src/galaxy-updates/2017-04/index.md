@@ -35,7 +35,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## GCC2017 Travel Fellowships
 
-[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017. 
+[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](/src/news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017. 
 
 See the [application](http://bit.ly/gcc2017apply) for full details on what's covered and what we ask you to provide.
 
@@ -198,7 +198,7 @@ Some highlights from the papers added in March:
 * [Utilisation de Docker en bioinformatique dans le cloud de IFB](https://jobim2016.sciencesconf.org/conference/jobim2016/pages/book_jobim2016.pdf#page=394)
   Sandrine Perrin, Bryan Branco, Jonathan Lorenzo, et al. In Journées Ouvertes en Biologie, Informatique et Mathématiques (JOBIM) (2016)
 
-* [I'll take that to go: Big data bags and minimal identifiers for exchange of large, complex datasets]()
+* [I'll take that to go: Big data bags and minimal identifiers for exchange of large, complex datasets](https://static.aminer.org/pdf/fa/bigdata2016/BigD418.pdf)
   K. Chard, M. D'Arcy, B. Heavner, et al. In 2016 IEEE International Conference on Big Data (Big Data) (Dec 2016), pp. 319-328, doi:10.1109/BigData.2016.7840618
 
 * [Functional and Evolutionary Genomics in Aphids](http://www.crcnetbase.com/doi/abs/10.1201/b19967-4)

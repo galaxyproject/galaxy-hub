@@ -232,7 +232,7 @@ There were 15 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/ord
 * **[Identification of genetic relationships and subspecies signatures in *Xylella fastidiosa*](https://doi.org/10.1186/s12864-019-5565-9)**, Nicolas Denancé, Martial Briand, Romain Gaborieau, Sylvain Gaillard, Marie-Agnès Jacques. *BMC Genomics* 201920:239, doi: 10.1186/s12864-019-5565-9
 * **[Genotyping by sequencing can reveal the complex mosaic genomes in gene pools resulting from reticulate evolution: a case study in diploid and polyploid citrus](https://doi.org/10.1093/aob/mcz029)**, 
 Dalel Ahmed, Aurore Comte, Franck Curk, Gilles Costantino, François Luro, Alexis Dereeper, Pierre Mournet, Yann Froelicher, Patrick Ollitrault. * Annals of Botany*, mcz029, doi: 10.1093/aob/mcz029. Published: 29 March 2019
-* **[Genomic Variants Among Threatened *Acropora* Corals]()**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. *G3: Genes, Genomes, Genetics*, Early online March 26, 2019; doi: 10.1534/g3.119.400125 
+* **[Genomic Variants Among Threatened *Acropora* Corals](https://doi.org/10.1534/g3.119.400125)**, Sheila A. Kitchen, Aakrosh Ratan, Oscar C. Bedoya-Reina, Richard Burhans, Nicole D. Fogarty, Webb Miller, Iliana B. Baums. *G3: Genes, Genomes, Genetics*, Early online March 26, 2019; doi: 10.1534/g3.119.400125 
 
 ## Publication Topics
 
