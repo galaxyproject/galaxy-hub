@@ -13,7 +13,7 @@ Is your organization interested in playing a prominent role in the 2019 gatherin
 [<img src="/src/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
 </div>
 
-Please see the information below and contact the [conference organizers](/src/events/gcc2019/organizers/inidex.md) with any questions.
+Please see the information below and contact the [conference organizers](/src/events/gcc2019/organizers/index.md) with any questions.
 
 - [One page summary](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
 - [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
@@ -117,7 +117,7 @@ Other *a la carte* sponsorship opportunities are also available. Many additional
 
 # CollaborationFest Sponsorships
 
-[CollaborationFest](/src/events/gcc2019/collaboration/index.md) will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are also seeking sponsorships for this event. Please contact the [GCC organizers](/src/events/gcc2019/organizers/inidex.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+[CollaborationFest](/src/events/gcc2019/cofest/index.md) will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are also seeking sponsorships for this event. Please contact the [GCC organizers](/src/events/gcc2019/organizers/index.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |

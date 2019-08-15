@@ -93,7 +93,7 @@ If you want to know more about what happened at GCCBOSC 2018, take a look at the
 
 ## European Galaxy Days: Slides are online
 
-<div class="float-right">[<i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i>]((/src/events/2018-europe-dev/index.md)</div>
+<div class="float-right">[<i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i>](/src/events/2018-europe-dev/index.md)</div>
 
 Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
 

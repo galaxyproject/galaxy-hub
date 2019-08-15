@@ -56,11 +56,11 @@ Please note that many clusters will form *during* CollaborationFest.  We encoura
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gcc2019/register/index.md) (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gcc2019/registration/index.md) (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
 ## Lodging
 
-See the [Venue page]((/src/events/gcc2019/venue/index.md)
+See the [Venue page](/src/events/gcc2019/venue/index.md)
 
 ## Childcare
 

@@ -43,7 +43,7 @@ And
 
 These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
 
-This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot]((/src/use/index.md).
+This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot](/src/use/index.md).
 
 ## New Galaxy Platforms
 

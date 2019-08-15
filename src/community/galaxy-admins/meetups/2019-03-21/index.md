@@ -19,5 +19,5 @@ date: '2019-03-21'
 
 ## Meetup Technology
 
-We'll be using Zoom and will provide a link shortly before the meetup (here and on [Twitter](https//twitter.com/galaxyproject/)).  If you don't already have the Zoom client installed, then you'll need to [download it](https://support.zoom.us/hc/en-us/articles/207373866-Zoom-Installers).
+We'll be using Zoom and will provide a link shortly before the meetup (here and on [Twitter](https://twitter.com/galaxyproject/)).  If you don't already have the Zoom client installed, then you'll need to [download it](https://support.zoom.us/hc/en-us/articles/207373866-Zoom-Installers).
 

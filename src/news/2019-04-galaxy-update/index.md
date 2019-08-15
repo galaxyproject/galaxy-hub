@@ -284,7 +284,7 @@ Please see the [release notes](/src/news/2019-03-cloudbridge-v2/index.md) for ad
 
 ## Galaxy Status
 
-We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](usegalaxy.org), [usegalaxy.eu](usegalaxy.eu), and [usegalaxy.org.au](usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance. 
+We are happy to announce that we now have a status page to monitor the status of our public useGalaxy.* servers and certain Galaxy services. This page tracks the operational status of [usegalaxy.org](https://usegalaxy.org), [usegalaxy.eu](https://usegalaxy.eu), and [usegalaxy.org.au](https://usegalaxy.org.au) servers, as well as Galaxy services including the Galaxy [(Main) Tool Shed](https://toolshed.g2.bx.psu.edu/), [Galaxy CloudLaunch](https://launch.usegalaxy.org), and Galaxy test services. [Status.galaxyproject.org](https://status.galaxyproject.org/) will serve as the central channel for announcing and tracking planned downtime and routine maintenance. 
 
 ## galaxy-lib 19.5.1
 

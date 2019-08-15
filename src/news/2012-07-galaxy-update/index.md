@@ -20,7 +20,7 @@ The [July 2012 Galaxy Update is now available](/src/galaxy-updates/2012-07/index
 * [A new CloudMan distribution was released last month](/src/galaxy-updates/2012-07/index.md#new-distributions)
 * [Plus](/src/galaxy-updates/2012-07/index.md#other-news)
   * Easily wrap your R functions as Galaxy tools
-  * help schedule the first [GalaxyCzars](/src/community/GalaxyCzars/index.md) conference call on July 9 or 10
+  * help schedule the first [GalaxyCzars](/src/community/galaxy-admins/index.md) conference call on July 9 or 10
   * and lots of new screencasts, tutorials, and new genomes on main 
 
 If you have anything you would like to see in the August *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.

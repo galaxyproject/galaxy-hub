@@ -13,7 +13,7 @@ GCC2019 aims to make events accessible to parents. We encourage people to bring 
 
 ## Support from eLife and F1000Research
 
-Childcare at GCC2019 is generously supported sponsorships from [eLife](https://elifesciences.org/) and [F1000Research]().
+Childcare at GCC2019 is generously supported sponsorships from [eLife](https://elifesciences.org/) and [F1000Research](https://f1000research.com/).
 
 [<img class="float-left img-fluid mx-auto" style="max-width: 220px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/)
 
