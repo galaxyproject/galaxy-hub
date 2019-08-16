@@ -1,4 +1,7 @@
-# Galaxy ObjectStore
+---
+title: Galaxy ObjectStore
+highlight: true
+---
 
 ObjectStore is Galaxy's data virtualization technology; it abstracts 
 Galaxy's business logic for data persistence technology and topology. 
