@@ -20,7 +20,7 @@ Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org
 
 | Date | Time | Topic / Title | Presenter(s) |
 | ---- | --- | --- | --- |
-| TBD | TBD | Building a regional Galaxy Community and Platform | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), Nuwan Goonesekera, [Dave Clements](/src/people/dave-clements/index.md) |
+| TBD | TBD | Building a regional Galaxy Community and Platform | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
 | Wed Sept 11 | 1:30-5:00 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://incob2019.org/workshop2/) | Gareth, Simon, Nuwan, Dave |
 | TBD | TBD | Galaxy Australia - a truly national open-source bioinformatics platform | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
 
