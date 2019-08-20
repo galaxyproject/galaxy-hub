@@ -16,5 +16,5 @@ gtn: true
 
 | Day | Time | Topic | Where |
 | ---- | ---- | ---- | ---- |
-| Friday | 8am | [Teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673616/ ) | Great Falls Room |
-| Friday | 9am | [Resources and recommendations for teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673614/ ) | Great Falls Room |
+| Friday | 8am | [Teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673616/ ) [(slides)](https://docs.google.com/presentation/d/1F-J8Nph9C0lYHkLw0AG25AWqFpbN3BkR5GHxRGsSSC4/edit?usp=sharing)| Great Falls Room |
+| Friday | 9am | [Resources and recommendations for teaching undergraduate genomics with Galaxy](https://guidebook.com/guide/157564/event/23673614/ ) [(slides)](https://docs.google.com/presentation/d/192ha5qlFaJBP0pYg0TAChz9yzac90jh8eiOHhtSJqjA/edit?usp=sharing)| Great Falls Room |
