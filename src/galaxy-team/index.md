@@ -13,10 +13,6 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Dannon Baker](/src/people/dannon-baker/index.md) <br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
-<div class='col-md-3'><a href='/src/people/matthias/index.md'><img src="/src/galaxy-team/matthias.jpg" alt="Matthias Bernt" height="150" /></a><br />
-[Matthias Bernt](/src/people/matthias/index.md) <br />
-[UFZ Leipzig](https://www.ufz.de/) <br /> <br />
-</div>
 <div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
 [Dan Blankenberg](/src/people/dan/index.md) <br />
 [The Cleveland Clinic](https://www.lerner.ccf.org/) <br /> <br />
@@ -122,6 +118,10 @@ Luke Sargent<br />
 ## Contributors with Commit Access
 
 <div class="row row-fluid text-center">
+<div class='col-md-3'><a href='/src/people/matthias/index.md'><img src="/src/galaxy-team/matthias.jpg" alt="Matthias Bernt" height="150" /></a><br />
+[Matthias Bernt](/src/people/matthias/index.md) <br />
+[UFZ Leipzig](https://www.ufz.de/) <br /> <br />
+</div>
 <div class='col-md-3'>
 <img src="/src/galaxy-team/bjoern.jpeg" alt="Björn Grüning" height="150" /><br />
 [Björn Grüning](https://github.com/bgruening)<br />
