@@ -1,5 +1,5 @@
 ---
-title: `Get` Data from Cloud
+title: Get Data from Cloud
 highlight: true
 ---
 
