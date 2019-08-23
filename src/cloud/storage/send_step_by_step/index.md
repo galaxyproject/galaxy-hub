@@ -1,5 +1,5 @@
 ---
-title: `Send` Data to Cloud 
+title: Send Data to Cloud
 highlight: true
 ---
 
