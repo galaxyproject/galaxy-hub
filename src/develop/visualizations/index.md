@@ -28,7 +28,9 @@ To simplify:
 
 ## The plugin
 
-For the plugin good place to start is the [Visualizations Registry](/src/visualizations-registry/index.md)
+Check out the [training materials](https://training.galaxyproject.org/training-material/topics/dev/) for hands-on exercises!
+
+Another good place to check is the [Visualizations Registry](/src/visualizations-registry/index.md)
 
 ### The filesystem layout
 
