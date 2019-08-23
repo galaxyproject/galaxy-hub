@@ -1,4 +1,7 @@
-## `Send` Data to Cloud 
+---
+title: `Send` Data to Cloud 
+highlight: true
+---
 
 The `send` API allows a user to copy data from a Galaxy `history` to a cloud-based storage (e.g., Amazon S3, and 
 Microsoft Azure BLOB).
