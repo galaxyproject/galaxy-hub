@@ -54,16 +54,18 @@ In general, to use this API, `POST` a payload with following fields to `/api/clo
 
 A sample payload:
 
-    {
-        "history_id": "...",
-        "authz_id": "...",
-        "bucket": "...",
-        "objects": [
-            "obj1",
-            "obj2",
-            ...
-        ]
-    }
+```json
+{
+    "history_id": "...",
+    "authz_id": "...",
+    "bucket": "...",
+    "objects": [
+        "obj1",
+        "obj2",
+        ...
+    ]
+}
+```
 
 [Read this page](/src/cloud/storage/get_step_by_step/index.md) for step-by-step description on how to use this API.
     
@@ -86,25 +88,27 @@ In general, to use this API, `POST` a payload with the following fields `/api/cl
 
 A sample payload:
 
-    {
-        "history_id": "...",
-        "authz_id": "...",
-        "bucket": "..."
-    }
-    
+```json
+{
+    "history_id": "...",
+    "authz_id": "...",
+    "bucket": "..."
+}
+```    
 Or:
 
-    {
-        "history_id": "03501d7626bd192f",
-        "authz_id": "f2db41e1fa331b3e",
-        "bucket": "vahid-objectstore-tests",
-        "dataset_ids": [
-            "0a248a1f62a0cc04",
-            "03501d7626bd192f"
-        ],
-        "overwrite_existing": true
-    }
-
+```json
+{
+    "history_id": "03501d7626bd192f",
+    "authz_id": "f2db41e1fa331b3e",
+    "bucket": "vahid-objectstore-tests",
+    "dataset_ids": [
+        "0a248a1f62a0cc04",
+        "03501d7626bd192f"
+    ],
+    "overwrite_existing": true
+}
+```
 
 [Read this page](/src/cloud/storage/send_step_by_step/index.md) for step-by-step description on how to use this API.
 
