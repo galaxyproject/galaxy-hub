@@ -9,7 +9,7 @@ location_url: "https://acm-bcb.org/"
 external_url: ""
 gtn: true
 contact: "Dan Blankenberg, Martin Čech"
-image: 
+image: "acm-bcb-2019-banner.png"
 ---
 
 **Tutorial**
@@ -29,4 +29,4 @@ This will be hands-on.  Please bring a wifi-enabled laptop. Instructors will wor
 
 **When**
 
-The tutorial will be held the first day of the conference, Saturday, September 7.
+The tutorial will be held the first day of the conference, Saturday, September 7, from 1pm-5pm, in the Governor's Room.
