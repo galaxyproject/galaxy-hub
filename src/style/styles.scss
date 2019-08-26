@@ -204,6 +204,19 @@ card-img-top {
     font-weight: 500;
 }
 
+/* 
+   Button overrides; 
+
+   more space between buttons on multiple consecutive lines 
+   overall line-height is unchanged.
+*/
+
+.btn {
+    margin-top: 0.075rem ;
+    margin-bottom: 0.075rem ;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
 
 
 /* *******
