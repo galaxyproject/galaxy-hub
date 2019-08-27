@@ -22,6 +22,21 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Events
 
+<div class="card-deck">
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/upcoming-events-2019-09.png" alt="Upcoming Events" />
+<div class="card-header">Upcoming Events</div>
+
+There are
+
+* [30 upcoming events](/src/events/index.md)
+* on 4 continents (plus online)
+* in Sri Lanka, Ireland, US, Germany, Indonesia, Japan, UK, Belgium, Australia, the Netherlands, and France.
+* on or about installing Galaxy, getting your tools used, clinical applications, expanding the Galaxy and Bioconda ecosystems, microscopy image analysis, QC, assembly, RNA-Seq, variant detection, and metagenomics - and that's just in September.
+
+</div>
+
 <div class="card border-primary" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/news/2019-08-galaxy-update/bh-banner.png" alt="BCC2020" />
 <div class="card-header">Galaxy @ BioHackathon-Europe 2019</div>
