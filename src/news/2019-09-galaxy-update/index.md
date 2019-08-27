@@ -25,6 +25,19 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card-deck">
 
 <div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/toolshed-bioconda.png" alt="You wrote it, now get it used: Publishing your software with Galaxy and Bioconda" />
+<div class="card-header">Publishing your software with Galaxy and Bioconda</div>
+
+Learn how to increase the ease with which others can install and use your bioinformatics software.
+
+[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/src/toolshed/index.md), and [Bioconda](https://bioconda.github.io/).
+
+Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.
+
+</div>
+
+
+<div class="card border-primary" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/upcoming-events-2019-09.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
@@ -32,29 +45,59 @@ There are
 
 * [30 upcoming events](/src/events/index.md)
 * on 4 continents (plus online)
-* in Sri Lanka, Ireland, US, Germany, Indonesia, Japan, UK, Belgium, Australia, the Netherlands, and France.
-* on or about installing Galaxy, getting your tools used, clinical applications, expanding the Galaxy and Bioconda ecosystems, microscopy image analysis, QC, assembly, RNA-Seq, variant detection, and metagenomics - and that's just in September.
+* in Sri Lanka, Ireland, US, Germany, Indonesia, Japan, UK, Belgium, Australia, the Netherlands, and France
+* on installing Galaxy, getting your tools used, clinical applications, expanding the Galaxy and Bioconda ecosystems, microscopy image analysis, QC, assembly, RNA-Seq, variant detection, metagenomics, ...
 
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-08-galaxy-update/bh-banner.png" alt="BCC2020" />
-<div class="card-header">Galaxy @ BioHackathon-Europe 2019</div>
+<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN Day" />
+<div class="card-header">Galaxy Training Network day - (online) CoFest and community call</div>
 
-Galaxy will be featured at [BioHackathon-Europe 2019](https://www.biohackathon-europe.org/index.html) as a prominent part of many of [this year's selected projects](https://www.biohackathon-europe.org/projects):
+The Galaxy Training Network organizes one day, every three months, for collaborative work on the training materials and calls with the community.
 
-* [Interoperable Workflows for Communities](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/1)
-* [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)
-* [Towards seamless Galaxy and InterMine integration: Enhanced region analysis](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7)
-* [Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8)
-* [Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17)
-* [Updating the Galaksio workflow management interface for Galaxy and migrating it to Vue.js](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19)
-* [A graph database of Galaxy tool interoperability](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/30)
-* [Bioconda and Biocontainers helpdesk](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)
+The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 
-Join us to learn from and work with experts of the Open Source Life Science community, and discuss the future of the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
+See the [event page](/src/events/2019-09-gtn/index.md) for details.
+</div>
 
-Interested? Registration is available on a first come, first serve basis. Registration is free, *but space is limited.*  **[Register now](https://www.biohackathon-europe.org/registration.html).**
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
+<div class="card-header">Galaxy @ INCOB</div>
+
+Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/src/events/2019-09-incob/index.md) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
+
+In addition, **we are hoping to bring together all interested parties to discuss launching a larger regional Galaxy community and platform,** using *Galaxy Australia* as a starting point, and *Galaxy Europe* as a model. Interested? We'll see you in Jakarta.
+</div>
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/logos/qfab-bioinformatics-wide.png" alt="Galaxy @ QFAB in September" />
+<div class="card-header">Galaxy Training @ QFAB</div>
+
+[QFAB Training](https://qfab.org/training) is offering 5 training  topics in 5 days at the end of September:
+
+* [NGS Platforms: how data generation impacts bioinformatics analysis - quality control](https://qfab.org/training/NGS%20Platforms%3A%20how%20data%20generation%20impacts%20bioinformatics%20analysis), 23 September
+* [Genome assembly using Galaxy](https://qfab.org/training/Genome%20assembly%20with%20Galaxy), 24 September 	
+* [RNA-Seq analysis using Galaxy](https://qfab.org/training/RNA-Seq%20analysis%20using%20Galaxy), 25 September
+* [Variant detection using Galaxy](https://qfab.org/training/Variant%20detection%20using%20Galaxy), 26 September
+* [Metagenomics analysis using Galaxy](https://qfab.org/training/Metagenomics%20using%20Galaxy), 27 September
+
+All training is offered at the [Translational Research Institute (TRI)](https://www.tri.edu.au/) in Woolloongabba, Queensland, Australia
+
+</div>
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<div class="card-header">GalaxyNL Face2Face Meeting</div>
+
+This year's Galaxy Netherlands Face2Face meeting will take place at:
+
+* Time: October 3, 13:30-16:00, with drinks afterwards
+* Location: GROW room, DTL offices, JIM 6th floor, Jaarbeursplein 6, 3521 AL Utrecht
+
+**Interested? Please [register for the meeting](https://forms.gle/fn36wXwM55iHKsAz9).**
+
+Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have any agenda items you would like to raise for discussion, or if you would like to present any Galaxy-related work/plans you have.
 </div>
 </div>
 
