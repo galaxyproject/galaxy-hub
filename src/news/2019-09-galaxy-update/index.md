@@ -56,9 +56,7 @@ There are
 
 The Galaxy Training Network organizes one day, every three months, for collaborative work on the training materials and calls with the community.
 
-The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
-
-See the [event page](/src/events/2019-09-gtn/index.md) for details.
+The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.  See the [event page](/src/events/2019-09-gtn/index.md) for details.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
@@ -83,7 +81,6 @@ In addition, **we are hoping to bring together all interested parties to discuss
 * [Metagenomics analysis using Galaxy](https://qfab.org/training/Metagenomics%20using%20Galaxy), 27 September
 
 All training is offered at the [Translational Research Institute (TRI)](https://www.tri.edu.au/) in Woolloongabba, Queensland, Australia
-
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
@@ -101,20 +98,11 @@ Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have an
 </div>
 </div>
 
+## Deadlines this month
 
-### Deadlines this month
-
-
-
-* [Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy), [ASHG 2019](https://www.ashg.org/2019meeting/), Houston, Texas, United States. Early registration: August 20.
-* [NGS data analysis with Galaxy for clinical applications](
-https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
-
-
-## All [Upcoming events](/src/events/index.md)
-
-There is a lot going on in the next 3 months.
-
+* [ELIXIR Belgium All Hands Meeting 2019](https://www.elixir-belgium.org/events/elixir-belgium-all-hands-meeting-2019), Brussels, Belgium. Registration: September 6
+* [AISES 2019](https://conference.aises.org/agenda), Milwaukee, Wisconsin, United States: Regular registration: September 29
+* [SACNAS 2019](https://www.2019sacnas.org/), Honolulu, Hawai'i, United States. Regular registration: September 30
 
 
 # Publications
@@ -180,8 +168,9 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* [UseGalaxy.eu](https://usegalaxy.eu/) hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
-* [UseGalaxy.org](https://usegalaxy.org/) and [UseGalaxy.org.au](https://usegalaxy.org.au/) now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
+* [PathwayMatcher published and running on usegalaxy.eu](https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/). [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.
+* [MaxQuant goes Galaxy](https://galaxyproject.eu/posts/2019/08/02/max-quant/). The European Galaxy server now contains two MaxQuant tools. 
+* [Galaxy Australia moves to new hardware](https://usegalaxy-au.github.io/posts/2019/08/07/galaxy-australia-to-new-hardware/plain.html). Galaxy Australia moves to the new QRIS cloud stage 5 hardware
 </div>
 </div>
 
@@ -198,6 +187,20 @@ Platforms that were referenced in the past month's publications:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Five permanent positions in bioinformatics / biostatistics](https://c3bi.pasteur.fr/four-permanent-positions-in-bioinformatics-biostatistics-m-f-at-the-institut-pasteur-paris/)</div>
+
+Five permanent positions in bioinformatics / biostatistics (M/F) [are open at the Institut Pasteur (Paris)](https://c3bi.pasteur.fr/four-permanent-positions-in-bioinformatics-biostatistics-m-f-at-the-institut-pasteur-paris/)
+<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Grad Students: Plant Computational Genomics](http://plantcompgenomics.com/graduate-students/)</div>
+
+The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Department of Ecology and Evolutionary Biology at the University of Connecticut seeks motivated MS and PhD students to join the lab in the Summer/Fall 2020.
+<img class="card-img-bottom" src="/src/images/logos/uconn-plant-comp-genomics.png" alt="Plant Computational Genomics at UConn " />
+</div>
+
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Bioinformatics Developer, Scientific Computing and Bioinformatics](https://absci.bamboohr.com/jobs/view.php?id=32)</div>
 
@@ -228,15 +231,48 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">2 New Tutorials for Galaxy on Kubernetes: [Deploying Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html) and [Managing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</div>
-<img class="card-img-top" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" />
+<div class="card-header">[Introduction to image analysis using Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/image-analyze-screen-workflow.png" alt="Image analysis in Galaxy" />
 <div class="card-body">
 <p class="card-text">
-By [Pablo Moreno](https://training.galaxyproject.org/training-material/hall-of-fame#pcm32), [Enis Afgan](https://training.galaxyproject.org/training-material/hall-of-fame#afgane), [Nuwan Goonasekera](https://training.galaxyproject.org/training-material/hall-of-fame#nuwang), [Alex Mahmoud](https://training.galaxyproject.org/training-material/hall-of-fame#almahmoud), [Sergey Golitsynskiy](https://training.galaxyproject.org/training-material/hall-of-fame#ic4f).</p>
+By [Thomas Wollman](https://github.com/thomaswollmann)</p>
 
-<p class="card-text">A uniform way to install a production-grade Galaxy with a single command in a variety of environments.</p>
+<p class="card-text">How to segment and extract features from cell nuclei Galaxy for image analysis.</p>
 </div>
 </div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Analyse HeLa fluorescence siRNA screen](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/viz_segmentation_mask.png" alt="Viz segmentation" />
+<div class="card-body">
+<p class="card-text">
+By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/topics/instructors/philosophies/#shiltemann)</p>
+
+<p class="card-text">How to use Galaxy to perform basic image analysis tasks such as format conversion, image enhancement, segmentation, and feature extraction.</p>
+</div>
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Automation with Jenkins](https://training.galaxyproject.org/training-material/topics/admin/tutorials/jenkins/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/jenkins-09-permissions.png" alt="Jenkins security" />
+<div class="card-body">
+<p class="card-text">
+By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche)</p>
+
+<p class="card-text">Continuous integration with Jenkins to make your Galaxy admin life easier.</p>
+</div>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[TIaaS Upgrades](https://galaxyproject.eu/tiaas.html)</div>
+<img class="card-img-top" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<div class="card-body">
+<p class="card-text">[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) is just one service that the European UseGalaxy project is providing.   TIaaS got a lot of updates this summer thanks to [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche). [Read more about it](https://galaxyproject.eu/tiaas.html).
+</p>
+</div>
+</div>
+
 
 </div>
 
@@ -260,3 +296,7 @@ See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/relea
 
 # Other News
 
+* From Peter van Heusden:
+  * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.01741).
+* From [Marius van den Beek](https://github.com/mvdbeek):
+  * Are you using #usegalaxy dataset collections? Is there something that just doesn't work for you or that could be easier? [Please let us know on GitHub](https://github.com/galaxyproject/galaxy/issues/8403)
