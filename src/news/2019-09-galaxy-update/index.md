@@ -1,6 +1,6 @@
 ---
 title: 'September 2019 Galactic News'
-tease: "GCC2019 is done; BCC2020 is coming"
+tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news too."
 date: ""
 ---
 
@@ -8,15 +8,14 @@ The *September 2019 Galactic News* is here!
 
 [<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-09-galaxy-update/index.md#events)
-  * Plus deadlines this month and XXXX other events in the next 90 days.
-* [150 new publications](/src/news/2019-09-galaxy-update/index.md#publications), including 2 highlighted ones.
-* [Three new Galactic Blog posts](/src/news/2019-09-galaxy-update/index.md#galactic-blog-activity):
-  * SlamDunk, the Galaxy Genome Annotation Project, and the GCC2019 Summary
-* [Galaxy Platform News](/src/news/2019-09-galaxy-update/index.md#galaxy-platforms-news) from UseGalaxy.*.
-* [XXXX Open positions](/src/news/2019-09-galaxy-update/index.md#whos-hiring) in XXX countries on XXXX continents.
-* [Updates to training materials and documentation](/src/news/2019-09-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New releases](/src/news/2019-09-galaxy-update/index.md#releases).
+* [Events: Lots of them](/src/news/2019-09-galaxy-update/index.md#events)
+* [150 new publications](/src/news/2019-09-galaxy-update/index.md#publications)
+* [Three new Galactic Blog posts](/src/news/2019-09-galaxy-update/index.md#galactic-blog-activity)
+* [Galaxy Platform News](/src/news/2019-09-galaxy-update/index.md#galaxy-platforms-news)
+* [6 Openings](/src/news/2019-09-galaxy-update/index.md#whos-hiring) 
+* [Training material and doc updates](/src/news/2019-09-galaxy-update/index.md#doc-hub-and-training-updates)
+* [New release](/src/news/2019-09-galaxy-update/index.md#releases)
+* [Other news](/src/news/2019-09-galaxy-update/index.md#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -101,7 +100,7 @@ Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have an
 <img class="card-img-top" src="/src/images/logos/bioconda.png" alt="Bioconda" />
 <div class="card-header">[Bioconda Collaboration Fest](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/)</div>
 
-A [collaboration fest will be held in Freiburg and elsewhere](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/) on 30 September through 1 Octopber for [Bioconda](https://bioconda.github.io/) and its ecosystem. This CoFest is organised globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.
+A [collaboration fest will be held in Freiburg and elsewhere](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/) on 30 September through 1 October for [Bioconda](https://bioconda.github.io/) and its ecosystem. This CoFest is organised globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
@@ -154,10 +153,10 @@ The [Galaxy Genome Annotation (GGA) Project](https://galaxyproject.eu/posts/2019
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="Galaxy Community Conference Summary" />
+<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="Galaxy Community Conference Summary" />
 <div class="card-header">[Galaxy Community Conference Summary](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
 
-A [summary of the 2019 Galaxy Community Conference](https://galaxyproject.eu/posts/2019/08/06/gcc/) by Anika Erxleben, Helena Rashce, and Björn Grüning.
+A [summary of the 2019 Galaxy Community Conference](https://galaxyproject.eu/posts/2019/08/06/gcc/) by Anika Erxleben, Helena Rasche, and Björn Grüning.
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
@@ -286,7 +285,7 @@ By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-
 
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Help for Differential Expression Analysis](src/support/diff-expression/index.md)</div>
+<div class="card-header">[Help for Differential Expression Analysis](/src/support/diff-expression/index.md)</div>
 <div class="card-body">
 <p class="card-text">
 By [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)</p>
