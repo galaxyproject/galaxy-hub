@@ -4,9 +4,9 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other 
 date: ""
 ---
 
-The *September 2019 Galactic News* is here!
-
 [<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+
+The *September 2019 Galactic News* continues 1) the reformatting that started last month, and 2) the fine tradition of including all Galactic news under this or any other sun:
 
 * [30 Upcoming Events](/src/news/2019-09-galaxy-update/index.md#events)
 * [150 new publications](/src/news/2019-09-galaxy-update/index.md#publications)
@@ -137,7 +137,6 @@ Jochen T Bick, Shuqin Zeng, Mark D Robinson, Susanne E Ulbrich, Stefan Bauersach
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
 
 <a class="btn"  style="text-align: right; background-color: #64c564;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods"> 103 : <strong>Methods</strong></a> <a class="btn"  style="text-align: right; background-color: #80cf80;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic"> 45 : <strong>UsePublic</strong></a> <a class="btn"  style="text-align: right; background-color: #9fdb9f;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench"> 17 : <strong>Workbench</strong></a> <a class="btn"  style="text-align: right; background-color: #a1dba1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic"> 16 : <strong>RefPublic</strong></a> <a class="btn"  style="text-align: right; background-color: #aadfaa;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain"> 12 : <strong>UseMain</strong></a> <a class="btn"  style="text-align: right; background-color: #b6e3b6;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility"> 8 : <strong>Reproducibility</strong></a> <a class="btn"  style="text-align: right; background-color: #bae5ba;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal"> 7 : <strong>UseLocal</strong></a> <a class="btn"  style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools"> 4 : <strong>Tools</strong></a> <a class="btn"  style="text-align: right; background-color: #e8f6e8;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud"> 1 : <strong>Cloud</strong></a> 
-
 </div>
 </div>
 
@@ -163,7 +162,6 @@ A [summary of the 2019 Galaxy Community Conference](https://galaxyproject.eu/pos
 <div class="card-header">[Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
 
 This post by Tobias Neumann describes SlamDunk, a novel and fully automated software tool for automated, robust, scalable and reproducible SLAMseq data analysis, that is now available on [UseGalaxy.eu](https://usegalaxy.eu/).
-
 </div>
 </div>
 
@@ -191,12 +189,12 @@ Features a comprehensive set of analysis tools and consolidated workflows for cl
 * [Galaxy Australia moves to new hardware](https://usegalaxy-au.github.io/posts/2019/08/07/galaxy-australia-to-new-hardware/plain.html). Galaxy Australia moves to the new QRIS cloud stage 5 hardware
 </div>
 
-<div class="card border-info"  style="min-width: 12rem;">
+<div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">Galaxy Platforms in Publications</div>
 
 Platforms that were referenced at least twice in the past month's publications:
 
-<html><head></head><body><a class="btn" style="text-align: right; background-color: #9fdb9f;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower"> 17 : <strong>Huttenhower</strong></a> <a class="btn" style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT"> 4 : <strong>CPT</strong></a> <a class="btn" style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics"> 4 : <strong>Workflow4Metabolomics</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP"> 3 : <strong>ARGs-OAP</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer"> 3 : <strong>RepeatExplorer</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy"> 3 : <strong>RiboGalaxy</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome"> 2 : <strong>Cistrome</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DDBJ"> 2 : <strong>DDBJ</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified"> 2 : <strong>GVL-Unspecified</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder"> 2 : <strong>Palfinder</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur"> 2 : <strong>Pasteur</strong></a>
+<a class="btn" style="text-align: right; background-color: #9fdb9f;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower"> 17 : <strong>Huttenhower</strong></a> <a class="btn" style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT"> 4 : <strong>CPT</strong></a> <a class="btn" style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics"> 4 : <strong>Workflow4Metabolomics</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP"> 3 : <strong>ARGs-OAP</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer"> 3 : <strong>RepeatExplorer</strong></a> <a class="btn" style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy"> 3 : <strong>RiboGalaxy</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome"> 2 : <strong>Cistrome</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DDBJ"> 2 : <strong>DDBJ</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified"> 2 : <strong>GVL-Unspecified</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Palfinder"> 2 : <strong>Palfinder</strong></a> <a class="btn" style="text-align: right; background-color: #daf1da;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur"> 2 : <strong>Pasteur</strong></a>
 </div>
 </div>
 
@@ -347,6 +345,6 @@ See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/relea
 # Other News
 
 * From Peter van Heusden:
-  * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.01741).
+  * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.0174)
 * From [Marius van den Beek](https://github.com/mvdbeek):
   * Are you using #usegalaxy dataset collections? Is there something that just doesn't work for you or that could be easier? [Please let us know on GitHub](https://github.com/galaxyproject/galaxy/issues/8403)
