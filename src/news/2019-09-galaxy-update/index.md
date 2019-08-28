@@ -8,7 +8,7 @@ The *September 2019 Galactic News* is here!
 
 [<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
 
-* [Events: Lots of them](/src/news/2019-09-galaxy-update/index.md#events)
+* [30 Upcoming Events](/src/news/2019-09-galaxy-update/index.md#events)
 * [150 new publications](/src/news/2019-09-galaxy-update/index.md#publications)
 * [Three new Galactic Blog posts](/src/news/2019-09-galaxy-update/index.md#galactic-blog-activity)
 * [Galaxy Platform News](/src/news/2019-09-galaxy-update/index.md#galaxy-platforms-news)
@@ -22,6 +22,14 @@ If you have anything to include to next month's newsletter, then please send it 
 # Events
 
 <div class="card-deck">
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
+<div class="card-header">Galaxy @ INCOB</div>
+
+Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/src/events/2019-09-incob/index.md) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
+
+In addition, **[we will also be organiziing a regional Galaxy community and platform](http://incob2019.org/breakout-session/) for Asia, Australia, and Oceania at INCOB**. Interested? We hope to see you in Jakarta.
+</div>
 
 <div class="card border-primary" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/toolshed-bioconda.png" alt="You wrote it, now get it used: Publishing your software with Galaxy and Bioconda" />
@@ -56,15 +64,6 @@ There are
 The Galaxy Training Network organizes one day, every three months, for collaborative work on the training materials and calls with the community.
 
 The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.  See the [event page](/src/events/2019-09-gtn/index.md) for details.
-</div>
-
-<div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
-<div class="card-header">Galaxy @ INCOB</div>
-
-Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/src/events/2019-09-incob/index.md) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
-
-In addition, **we are hoping to bring together all interested parties to discuss launching a larger regional Galaxy community and platform,** using *Galaxy Australia* as a starting point, and *Galaxy Europe* as a model. Interested? We'll see you in Jakarta.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
