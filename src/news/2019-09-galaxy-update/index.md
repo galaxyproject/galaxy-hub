@@ -174,6 +174,14 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Climate Science Workbench](/src/use/climate-science-workbench/index.md)</div>
+
+<img class="card-img-top" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
+
+Features a comprehensive set of analysis tools and consolidated workflows for climate science data analysis and visualization.  [This server](https://climate.usegalaxy.eu/) supports general GIS data handling tools and climate analysis-specific tools.  It is hosted by by the UesGalaxy.eu team. This work was [presented at GCC2019](https://gcc2019.sched.com/event/PSGY/climate-analysis-with-galaxy) by [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/).
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
