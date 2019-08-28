@@ -133,7 +133,7 @@ Nils Pilotte, Jacqueline R. M. A. Maasch, Alice V. Easton, Eric Dahlstrom, Thoma
 Jochen T Bick, Shuqin Zeng, Mark D Robinson, Susanne E Ulbrich, Stefan Bauersachs.  *Database,* Volume 2019, 2019, baz086, doi: 10.1093/database/baz086
 </div>
 
-<div class="card border-info" style="min-width: 8rem;">
+<div class="card border-info" style="min-width: 10rem;">
 <div class="card-header">Publication Topics</div>
 
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
@@ -281,6 +281,30 @@ By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](ht
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche)</p>
 
 <p class="card-text">Continuous integration with Jenkins to make your Galaxy admin life easier.</p>
+</div>
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Help for Differential Expression Analysis](src/support/diff-expression/index.md)</div>
+<div class="card-body">
+<p class="card-text">
+By [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)</p>
+
+<p class="card-text">
+A new support page for one of Galaxy's most popular applications: differential gene expression analysis.</p>
+</div>
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/src/admin/tools/external-display-applications-tutorial/index.md)</div>
+<img class="card-img-top" src="/src/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
+<div class="card-body">
+<p class="card-text">
+By [Dan Blankenberg](/src/people/dan/index.md)</p>
+
+<p class="card-text">How to add a new external display application (UCSC genome browser, GeneTrack, JBrowse, etc. to Galaxy.</p>
 </div>
 </div>
 
