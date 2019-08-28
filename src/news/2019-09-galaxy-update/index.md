@@ -224,6 +224,14 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 <img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
 </div>
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
+<div class="card-header">[Application Support / Software Developer](http://jobs.unimelb.edu.au/caw/en/job/900700/application-support-software-developer)</div>
+
+Contribute to the operation, support and functionality developments of [Galaxy Australia](https://usegalaxy.org.au/), an award-winning publicly available platform for performing bioinformatics analyses and workflows for Australian researchers. 
+
+<img class="card-img-bottom" src="/src/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />
+</div>
 </div>
 
 
