@@ -28,7 +28,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/src/events/2019-09-incob/index.md) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
 
-In addition, **[we will also be organiziing a regional Galaxy community and platform](http://incob2019.org/breakout-session/) for Asia, Australia, and Oceania at INCOB**. Interested? We hope to see you in Jakarta.
+In addition, **[we will also be taking first steps towards a regional Galaxy community and platform](/src/news/2019-08-incob-building/index.md) for the INCOB community**. Interested? We hope to see you in Jakarta.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
@@ -257,70 +257,62 @@ Contribute to the operation, support and functionality developments of [Galaxy A
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Introduction to image analysis using Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/image-analyze-screen-workflow.png" alt="Image analysis in Galaxy" />
-<div class="card-body">
+
 <p class="card-text">
 By [Thomas Wollman](https://github.com/thomaswollmann)</p>
 
 <p class="card-text">How to segment and extract features from cell nuclei Galaxy for image analysis.</p>
 </div>
-</div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Analyse HeLa fluorescence siRNA screen](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/viz_segmentation_mask.png" alt="Viz segmentation" />
-<div class="card-body">
 <p class="card-text">
 By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/topics/instructors/philosophies/#shiltemann)</p>
 
 <p class="card-text">How to use Galaxy to perform basic image analysis tasks such as format conversion, image enhancement, segmentation, and feature extraction.</p>
+<br />
 </div>
-</div>
-
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Automation with Jenkins](https://training.galaxyproject.org/training-material/topics/admin/tutorials/jenkins/tutorial.html)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/jenkins-09-permissions.png" alt="Jenkins security" />
-<div class="card-body">
+
 <p class="card-text">
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche)</p>
 
 <p class="card-text">Continuous integration with Jenkins to make your Galaxy admin life easier.</p>
 </div>
-</div>
 
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Help for Differential Expression Analysis](/src/support/diff-expression/index.md)</div>
-<div class="card-body">
 <p class="card-text">
 By [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)</p>
 
 <p class="card-text">
 A new support page for one of Galaxy's most popular applications: differential gene expression analysis.</p>
 </div>
-</div>
 
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/src/admin/tools/external-display-applications-tutorial/index.md)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
-<div class="card-body">
 <p class="card-text">
 By [Dan Blankenberg](/src/people/dan/index.md)</p>
 
 <p class="card-text">How to add a new external display application (UCSC genome browser, GeneTrack, JBrowse, etc. to Galaxy.</p>
-</div>
+<br />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[TIaaS Upgrades](https://galaxyproject.eu/tiaas.html)</div>
-<img class="card-img-top" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-<div class="card-body">
-<p class="card-text">[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) is just one service that the European UseGalaxy project is providing.   TIaaS got a lot of updates this summer thanks to [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche). [Read more about it](https://galaxyproject.eu/tiaas.html).
-</p>
-</div>
-</div>
 
+<img class="card-img-top" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+
+<p class="card-text">[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) is just one service that the European UseGalaxy project is providing.   TIaaS got a lot of updates this summer thanks to [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche). [Read more about it](https://galaxyproject.eu/tiaas.html).</p>
+<br />
+</div>
 
 </div>
 
