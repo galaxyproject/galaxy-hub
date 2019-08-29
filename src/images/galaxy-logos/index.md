@@ -37,7 +37,7 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
     [<img src="/src/images/galaxy-logos/galaxy_project_logo_square.png" alt="Galaxy Project Logo, Square, transparent background" width=150 />](/src/images/galaxy-logos/galaxy_project_logo_square.png)
 
-# UseGalaxy Logos
+# UseGalaxy and Communities Logos
 
 ## UseGalaxy.*
 
@@ -47,6 +47,16 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
   * [SVG](/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
 
     [<img src="/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg" alt="UseGalaxy.* Logo, transparent background" width=300 />](/src/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
+
+## Galaxy Africa
+
+* Transparent background
+  * [PNG](/src/images/galaxy-logos/galaxy-africa-logo-big.png), [1247x1247 pixels](/src/images/galaxy-logos/galaxy-africa-logo-big.png)
+
+
+## Galaxy Australia
+
+## Galaxy Europe
 
 
 # Component Logos
