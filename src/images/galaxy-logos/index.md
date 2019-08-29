@@ -53,11 +53,24 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 * Transparent background
   * [PNG](/src/images/galaxy-logos/galaxy-africa-logo-big.png), [1247x1247 pixels](/src/images/galaxy-logos/galaxy-africa-logo-big.png)
 
+    [<img src="/src/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width=300 />](/src/images/galaxy-logos/galaxy-africa-logo-big.png)
 
 ## Galaxy Australia
 
+* Blue background, rectangle
+  * [PNG](/src/images/galaxy-logos/galaxy-australia.png), [400x170 pixels](/src/images/galaxy-logos/galaxy-australia.png)
+
+    [<img src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia Logo, blue background" width=300 />](/src/images/galaxy-logos/galaxy-australia.png)
+
+* Blue background, square
+  * [JPG](/src/images/galaxy-logos/galaxy-australia-square.jpg), [400x400 pixels](/src/images/galaxy-logos/galaxy-australia-square.jpg)
+
+    [<img src="/src/images/galaxy-logos/galaxy-australia-square.jpg" alt="Galaxy Australia Logo, blue background" width=300 />](/src/images/galaxy-logos/galaxy-australia-square.jpg)
+
+
 ## Galaxy Europe
 
+* See [Galaxy Europe branding resources](https://github.com/usegalaxy-eu/branding).
 
 # Component Logos
 
