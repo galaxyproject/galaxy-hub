@@ -17,4 +17,4 @@ Galaxy Africa will target 2 audience groups:
 This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects. Abstracts should be [submitted as Oral Presentations to the main conference](https://www.iscb.org/iscbafrica2019-call/iscbafrica2019-oral-submission) with their use of Galaxy clearly marked. 
 
 We hope to see you in Ghana!<br />
-[Alan Christoffels](https://www.uwc.ac.za/Biography/Pages/Prof-Alan-Christoffels.aspx), [Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden), [Ziphozakhe Mashologu](https://www.researchgate.net/profile/Ziphozakhe_Mashologu)
+[Alan Christoffels](https://www.uwc.ac.za/Biography/Pages/Prof-Alan-Christoffels.aspx), [Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden), and Thoba Lose
