@@ -37,9 +37,15 @@ In addition, **[we will also be taking first steps towards a regional Galaxy com
 
 Learn how to increase the ease with which others can install and use your bioinformatics software.
 
-[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/src/toolshed/index.md), and [Bioconda](https://bioconda.github.io/).
+[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/src/toolshed/index.md), and [Bioconda](https://bioconda.github.io/). *Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.*
 
-Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.
+</div>
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="GalaxyAfrica 2019" />
+<div class="card-header">Galaxy Africa 2019</div>
+
+[GalaxyAfrica 2019](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) will be 14-15 November, in collaboration with the [ASBCB/ISCB Africa](https://www.iscb.org/iscbafrica2019) conference in Kumasi, Ghana. We will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects.
 
 </div>
 
