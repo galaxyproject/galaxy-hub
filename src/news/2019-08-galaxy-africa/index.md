@@ -1,15 +1,14 @@
 ---
 title: "Galaxy Africa 2019"
 tease: "14-15 November, in conjunction with ASBCB/ISCB Africa"
-date: ""
+date: "2019-08-29"
 ---
 
 [<img class="float-right img-responsive" style="max-width: 14rem;" src="/src/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa 2019" />](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy)
 
 After a successful [Galaxy Africa 2018 in South Africa](http://galaxyafrica.sanbi.ac.za/), we are pleased to announce the **[next Galaxy Africa workshop](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy)** will be held 14-15 November, in collaboration with the [ASBCB/ISCB Africa 2019 conference](https://www.iscb.org/iscbafrica2019) in Kumasi, Ghana. Building on the previous event, we will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. 
 
-**Intended audience and level**
-
+**Intended audience and level**<br />
 Galaxy Africa will target 2 audience groups:
 
 * Those aiming to do bioinformatics on the Galaxy platform. The content for this group will be aimed at an introductory level for prospective bioinformaticians.
