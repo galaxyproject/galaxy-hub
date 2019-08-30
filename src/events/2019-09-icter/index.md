@@ -6,7 +6,7 @@ tease: ""
 continent: AS
 location: "
 International Conference on Advances in ICT for Emerging Regions (ICTer), Colombo, Sri Lanka"
-external_url: "http://www.icter.org/conference/workshops/"
+external_url: "http://www.icter.org/conference/workshops-2019/"
 location_url: "http://www.icter.org/conference/"
 image: 
 gtn: false
