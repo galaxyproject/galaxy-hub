@@ -26,9 +26,9 @@ Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org
 
 **Breakout Session, Thursday, 9:45-10:15 and 11:00-12:00**
 
-This [breakout](http://incob2019.org/breakout-session/) will present a vision for a regional Galaxy community and platform for *Asia, Australia, and Oceania* that proposes broadening the compute infrastructure underpinning the service to include regional resources. Furthermore the vision will highlight the control afforded to each contributing country in fair-use of contributing resources. 
+This [breakout's](http://incob2019.org/breakout-session/) goal is to kickstart the building a regional Galaxy communities and platforms in Asia and Oceania.  This breakout will describe existing regional Galaxy communities and platforms, and hopefully start to create them in this part of the world.
 
-Galaxy supports *regional communities and resources* including a large [Australian community](https://usegalaxy.org,au/). Galaxy Australia already supports users regionally from: China, India, Indonesia, Japan, Malaysia, New Zealand, Philippines, Singapore, South Korea, Sri Lanka, Thailand and Vietnam. Galaxy Australia operates a nationally distributed federation of compute resources, where individual researcher analysis requests are assigned according to a sophisticated rules system optimised for rapid result generation.
+Several regional communities and resources already exist in the Galaxy ecosystem. [Galaxy Australia](https://usegalaxy.org,au/) operates a nationally distributed federation of compute resources, where individual researcher analysis requests are assigned according to a sophisticated rules system optimised for rapid result generation.  [Galaxy Europe](https://galaxyproject.eu/) operates an international infrastructure to support the research needs of life scientists in Europe.  Other efforts (such as Galaxy Africa) are in the works.  These efforts also serve as community hubs for their regions.
 
 This breakout is split into two sessions, both on Thursday morning.  The first session, from 9:45 to 10:15, will feature three short talks to introduce the Galaxy regional community landscape:
 
@@ -46,3 +46,9 @@ The second session, from 11:00 to 12:00 will be a moderated discussion on the be
 * Regional branding on the Galaxy service
 
 The session will conclude with a commitment to grow a community of interested parties and agree on a time frame to resourcing the regional Galaxy service.
+
+**About Galaxy** <br />
+Galaxy is a widely used and deployed open-source platform that integrates thousands of analysis tools, and supports data integration and analysis, workflow creation, data visualization, and sharing and publishing your analyses and pipelines. Galaxy is also *a global community* of researchers, programmers, trainers, and users all doing and supporting data intensive research.
+
+Interested? Then we hope to see you at INCOB.<br />
+[Dave Clements](/src/people/dave-clements/index.md), [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), and [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/index.md)

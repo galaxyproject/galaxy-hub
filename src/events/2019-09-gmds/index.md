@@ -6,7 +6,7 @@ tease: "A joint GMDS and de.NBI tutorial"
 continent: EU
 location: "GMDS-Jahrestagung, Dortmund, Germany"
 location_url: "https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/"
-external_url: "https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/"
+external_url: "https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/#tut9"
 gtn: true
 contact: "Markus Wolfien"
 image: 
