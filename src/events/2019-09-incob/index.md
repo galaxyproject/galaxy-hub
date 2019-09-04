@@ -20,23 +20,23 @@ Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org
 | ---- | ---: | --- | --- |
 | Tue | 2:00-2:15 | Galaxy Australia - a truly national open-source bioinformatics platform | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
 | Wed | 1:30-5:00 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://incob2019.org/workshop2/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
-| Thu | 9:45-10:15<br />11:00-12:00 | [Building a regional Galaxy Community and Platform](http://incob2019.org/breakout-session/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
+| Thu | 11:00-12:00 | [Building a regional Galaxy Community and Platform](http://incob2019.org/breakout-session/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
 
 ## Building a regional Galaxy Community and Platform
 
-**Breakout Session, Thursday, 9:45-10:15 and 11:00-12:00**
+**Breakout Session, Thursday, 11:00-12:00**
 
-This [breakout's](http://incob2019.org/breakout-session/) goal is to kickstart the building a regional Galaxy communities and platforms in Asia and Oceania.  This breakout will describe existing regional Galaxy communities and platforms, and hopefully start to create them in this part of the world.
+This [breakout's](http://incob2019.org/breakout-session/) goal is to kickstart the building regional Galaxy communities and platforms in Asia and Oceania.  This breakout will describe existing regional Galaxy communities and platforms, and hopefully start to create them in this part of the world.
 
 Several regional communities and resources already exist in the Galaxy ecosystem. [Galaxy Australia](https://usegalaxy.org,au/) operates a nationally distributed federation of compute resources, where individual researcher analysis requests are assigned according to a sophisticated rules system optimised for rapid result generation.  [Galaxy Europe](https://galaxyproject.eu/) operates an international infrastructure to support the research needs of life scientists in Europe.  Other efforts (such as Galaxy Africa) are in the works.  These efforts also serve as community hubs for their regions.
 
-This breakout is split into two sessions, both on Thursday morning.  The first session, from 9:45 to 10:15, will feature three short talks to introduce the Galaxy regional community landscape:
+This breakout features three short talks to introduce the Galaxy regional community landscape:
 
 * Global Galaxy communities and services, [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project, [Johns Hopkins University](https://jhu.edu/)
 * Galaxy Australia as a usegalaxy.* public service, [Gareth Price](https://qfab.org/team-member/dr-gareth-price), Galaxy Australia, [QFAB Bioinformatics](https://qfab.org/), Brisbane
 * Future Galaxy developments for distributed data access, [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), Galaxy Australia, [University of Melbourne](https://www.unimelb.edu.au/)
 
-The second session, from 11:00 to 12:00 will be a moderated discussion on the benefits of growing a Galaxy service to support a greater number and diversity of researchers regionally. Topics covered will include but are not limited to:
+This will be followed by a moderated discussion on the benefits of growing a Galaxy service to support a greater number and diversity of researchers regionally. Topics covered will include but are not limited to:
 
 * What could a regional service look like?
 * The benefits for contributing institute / organisation
