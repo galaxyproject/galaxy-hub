@@ -114,6 +114,7 @@ A [collaboration fest will be held in Freiburg and elsewhere](https://galaxyproj
 There are several *registration* deadlines this month:
 
 * **[ELIXIR Belgium All Hands Meeting 2019](https://www.elixir-belgium.org/events/elixir-belgium-all-hands-meeting-2019)**, Brussels, Belgium. *Registration: September 6*
+* **[Gateways 2019](https://sciencegateways.org/web/gateways2019/welcome)**, San Diego, California, United States.  *Regular registration: September 9*
 * **[AISES 2019](https://conference.aises.org/agenda)**, Milwaukee, Wisconsin, United States: *Regular registration: September 29*
 * **[SACNAS 2019](https://www.2019sacnas.org/)**, Honolulu, Hawai'i, United States. *Regular registration: September 30*
 </div>
