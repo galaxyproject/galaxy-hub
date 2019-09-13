@@ -18,8 +18,8 @@ Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org
 
 | Date | Time | Topic / Title | Presenter(s) |
 | ---- | ---: | --- | --- |
-| Tue | 2:00-2:15 | Galaxy Australia - a truly national open-source bioinformatics platform | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
-| Wed | 1:30-5:00 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://incob2019.org/workshop2/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
+| Tue | 2:00-2:15 | [Galaxy Australia - a truly national open-source bioinformatics platform](https://depot.galaxyproject.org/hub/attachments/events/2019-09-incob/galaxy-australia-open.pdf) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
+| Wed | 1:30-5:00 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
 | Thu | 11:00-12:00 | [Building a regional Galaxy Community and Platform](http://incob2019.org/breakout-session/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
 
 ## Building a regional Galaxy Community and Platform
@@ -32,9 +32,9 @@ Several regional communities and resources already exist in the Galaxy ecosystem
 
 This breakout features three short talks to introduce the Galaxy regional community landscape:
 
-* Global Galaxy communities and services, [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project, [Johns Hopkins University](https://jhu.edu/)
-* Galaxy Australia as a usegalaxy.* public service, [Gareth Price](https://qfab.org/team-member/dr-gareth-price), Galaxy Australia, [QFAB Bioinformatics](https://qfab.org/), Brisbane
-* Future Galaxy developments for distributed data access, [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), Galaxy Australia, [University of Melbourne](https://www.unimelb.edu.au/)
+* [Global Galaxy communities and services](https://depot.galaxyproject.org/hub/attachments/events/2019-09-incob/global-galaxy-communities.pdf), [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project, [Johns Hopkins University](https://jhu.edu/)
+* [Galaxy Australia as a usegalaxy.* public service](https://depot.galaxyproject.org/hub/attachments/events/2019-09-incob/galaxy-australia-open.pdf), [Gareth Price](https://qfab.org/team-member/dr-gareth-price), Galaxy Australia, [QFAB Bioinformatics](https://qfab.org/), Brisbane
+* [Future Galaxy developments for distributed data access](https://depot.galaxyproject.org/hub/attachments/events/2019-09-incob/future-galaxy-developments-for-distributed-data-access.pdf), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), Galaxy Australia, [University of Melbourne](https://www.unimelb.edu.au/)
 
 This will be followed by a moderated discussion on the benefits of growing a Galaxy service to support a greater number and diversity of researchers regionally. Topics covered will include but are not limited to:
 
