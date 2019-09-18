@@ -19,8 +19,9 @@ Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org
 | Date | Time | Topic / Title | Presenter(s) |
 | ---- | ---: | --- | --- |
 | Tue | 2:00-2:15 | [Galaxy Australia - a truly national open-source bioinformatics platform](https://depot.galaxyproject.org/hub/attachments/events/2019-09-incob/galaxy-australia-open.pdf) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
+| | 3:00-3:15 | [EpiMOLAS: An Intuitive Web-based Framework for Genome-Wide DNA Methylation Analysis](https://www.slideshare.net/daniel0523/epimolas-an-intuitive-webbased-framework-for-genomewide-dna-methylation-analysis) | Sheng-Yao Su |
 | Wed | 1:30-5:00 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
-| Thu | 11:00-12:00 | [Building a regional Galaxy Community and Platform](http://incob2019.org/breakout-session/) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
+| Thu | 11:00-12:00 | [Building a regional Galaxy Community and Platform](#building-a-regional-galaxy-community-and-platform) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), [Dave Clements](/src/people/dave-clements/index.md) |
 
 ## Building a regional Galaxy Community and Platform
 
