@@ -15,7 +15,7 @@ quotas:
   - "None"
 citations:
   - "An Intuitive Web-based Framework for Genome-wide DNA Methylation Analysis, Sheng-Yao Su, I-Hsuan Lu, Wen-Chih Cheng, Wei-Chun Chung, Pao-Yang Chen, Jan-Ming Ho, Shu-Hwa Chen, Chung-Yen Lin, (in preparation)."
-  - "[EpiMOLAS: a web-based system for genome-wide DNA methylation analysis](http://www.icsb2018-france.com/images/ICSB-2018---Abstract-book---Posters.pdf#page=68), Sheng-Yao Su, Shu-Hwa Chen, Yi-Hsun Lu, Chung-Yen Lin, ICSB 2018, Lyon France"
+  - "[EpiMOLAS: a web-based system for genome-wide DNA methylation analysis](http://www.ens-lyon.fr/LBMC/icsb2018/pdf/icsb-2018---abstract-book---posters.pdf#page=68), Sheng-Yao Su, Shu-Hwa Chen, Yi-Hsun Lu, Chung-Yen Lin, ICSB 2018, Lyon France"
 pub_libraries:
 sponsors:
   - "[Institute of Information Science, Academia Sinica](http://eln.iis.sinica.edu.tw), Taipei, Taiwan"
