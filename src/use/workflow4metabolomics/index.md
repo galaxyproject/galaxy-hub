@@ -13,7 +13,7 @@ platforms:
 summary: "A collaborative portal dedicated to metabolomics data processing, analysis and annotation. "
 image: "/src/use/workflow4metabolomics/workflow4metabolomics.png"
 comments:
-  - "[Request an account](http://abims.sb-roscoff.fr/account)"
+  - "[Request an account](https://workflow4metabolomics.org/account)"
   - "[Workflow4metabolomics.org](http://workflow4metabolomics.org/)"
   - "[LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided."
 user_support:
