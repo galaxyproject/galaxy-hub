@@ -28,6 +28,8 @@ If you have anything to include to next month's newsletter, then please send it 
 
 [GalaxyAfrica 2019](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) will be 14-15 November, in collaboration with the [ASBCB/ISCB Africa](https://www.iscb.org/iscbafrica2019) conference in Kumasi, Ghana. We will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects.
 
+*Early registration ends 20 October.*
+
 </div>
 
 
@@ -169,7 +171,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/use/idenap/idenap-slice.png" alt="IDENAP" />
 
-The [Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http://mem.rcees.ac.cn:8081/) models, analyzes and manages the *[Inter-Domain Ecological Networks (IDENs)](https://doi.org/10.1111/1755-0998.13081)* from metagenomic datasets, e.g. GeoChip and Sequencing, and synchronous plant surveys.
+The **[Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http://mem.rcees.ac.cn:8081/)** models, analyzes and manages the *[Inter-Domain Ecological Networks (IDENs)](https://doi.org/10.1111/1755-0998.13081)* from metagenomic datasets, e.g. GeoChip and Sequencing, and synchronous plant surveys.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -177,7 +179,7 @@ The [Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http://m
 
 <img class="card-img-top" src="/src/use/usegalaxy-be/usegalaxy-be-logo.png" alt="UseGalaxy.be" />
 
-The [ELIXIR Belgium Galaxy server](https://usegalaxy.be/) has been launched.  This server focuses on serving researchers in Belgium, provides a wealth of tools, and reference data for plant species from the [PLAZA data warehouse](https://usegalaxy-be.github.io/posts/2019/07/01/PLAZA-reference-data/plain.html). 
+The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.  This server focuses on serving researchers in Belgium, provides a wealth of tools, and reference data for plant species from the [PLAZA data warehouse](https://usegalaxy-be.github.io/posts/2019/07/01/PLAZA-reference-data/plain.html). 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -185,7 +187,7 @@ The [ELIXIR Belgium Galaxy server](https://usegalaxy.be/) has been launched.  Th
 
 <img class="card-img-top" src="/src/use/lebanese-university/lebanese-university-logo-trimmed.jpg" alt="Lebanese University Galaxy" />
 
-[Lebanese University](http://www.ul.edu.lb/) has launched the [first public Galaxy server in the Middle East](http://galaxy.ul.edu.lb/).  The server features the [SpCLUST tool set](https://doi.org/10.1016/j.compbiomed.2019.103439) for fast and reliable clustering of potentially divergent biological sequences.  It also supports the CD-Hit and DNAClust tool sets.
+[Lebanese University](http://www.ul.edu.lb/) has launched the **[first public Galaxy server in the Middle East](http://galaxy.ul.edu.lb/)**.  The server features the [SpCLUST tool set](https://doi.org/10.1016/j.compbiomed.2019.103439) for fast and reliable clustering of potentially divergent biological sequences.  It also supports the CD-Hit and DNAClust tool sets.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -193,7 +195,7 @@ The [ELIXIR Belgium Galaxy server](https://usegalaxy.be/) has been launched.  Th
 
 <img class="card-img-top" src="/src/use/ng-tax/ngtax-workflow.png" alt="NG-Tax workflow" />
 
-The [NG-Tax server](https://www.systemsbiology.nl/ngtax/) provides a wemantic framework for high-throughput marker gene (amplicon) analysis.  The server requires that you create a login, but anyone can create a login.  Supports both NG-Tax versions 1 & 2.
+The **[NG-Tax server](https://www.systemsbiology.nl/ngtax/)** provides a semantic framework for high-throughput marker gene (amplicon) analysis.  The server requires that you create a login, but anyone can create a login.  Supports both NG-Tax versions 1 & 2.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -201,7 +203,7 @@ The [NG-Tax server](https://www.systemsbiology.nl/ngtax/) provides a wemantic fr
 
 <img class="card-img-top" src="/src/use/ecology/map-prediction-slice.png" alt="Galaxy for Ecology: Mapped prediction" />
 
-[Galaxy for Ecology](https://ecology.usegalaxy.eu/)is a web platform to get, process, analyze and visualize ecological data, including species occurrence data, protocoled data from Vigie-Nature, and climatic data from Worldclim. 
+**[Galaxy for Ecology](https://ecology.usegalaxy.eu/)** is a web platform to get, process, analyze and visualize ecological data, including species occurrence data, protocoled data from Vigie-Nature, and climatic data from Worldclim. 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -273,13 +275,11 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Introduction to image analysis using Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/image-analyze-screen-workflow.png" alt="Image analysis in Galaxy" />
+<div class="card-header">[Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-rna-seq-revised.png" alt="Slice of overall workflow" />
 
 <p class="card-text">
-By [Thomas Wollman](https://github.com/thomaswollmann)</p>
-
-<p class="card-text">How to segment and extract features from cell nuclei Galaxy for image analysis.</p>
+The [Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html) has been expanded by [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Anika Erxleben](https://training.galaxyproject.org/training-material/hall-of-fame#erxleben), and [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo) to provide more details about DGE, GO and KEGG analysis, and visualization.</p>
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
