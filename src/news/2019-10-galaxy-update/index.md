@@ -110,20 +110,9 @@ There are several *registration* deadlines this month:
 
 # Publications
 
-**143 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were 9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added.
+**143 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were 9 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and four of those are open access:
 
 <div class="card-deck">
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[SpCLUST: Towards a fast and reliable clustering for potentially divergent biological sequences](https://doi.org/10.1016/j.compbiomed.2019.103439)</div>
-
-Johny Matar, Hicham EL. Khoury, et al. *Computers in Biology and Medicine* Volume 114, 2019, 103439, ISSN 0010-4825, doi: 10.1016/j.compbiomed.2019.103439
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Accessing Cryptosporidium Omic and Isolate Data via CryptoDB.org](https://doi.org/10.1007/978-1-4939-9748-0_10)</div>
-
-Susanne Warrenfeltz, Jessica C. Kissinger, On Behalf of the EuPathDB Team.  In: Mead J., Arrowood M. (eds) Cryptosporidium. Methods in Molecular Biology, vol 2052. Humana, New York, NY
-</div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[BioExcel Building Blocks, a software library for interoperable biomolecular simulation workflows](https://www.nature.com/articles/s41597-019-0177-4)</div>
@@ -143,31 +132,13 @@ Andersen, Thea Os. 2019. Thesis, Norwegian University of Life Sciences.
 Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/s13059-019-1794-0. 2019. 
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Inter-domain ecological networks between plants and microbes](https://doi.org/10.1111/1755-0998.13081)</div>
-
-Feng K, Zhang Y, et al. *Molecular Ecology Resources* (September 3, 2019). doi: 10.1111/1755-0998.13081.
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[DNA Transposon Invasion and Microsatellite Accumulation Guide W Chromosome Differentiation in a Neotropical Fish Genome](https://doi.org/10.1007/s00412-019-00721-9)</div>
-
-Schemberger, Michelle Orane, et al. *Chromosoma,* August 2019. doi: 10.1007/s00412-019-00721-9.
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[BioTest - Remote Platform for Hypothesis Testing and Analysis of Biomedical Data](https://doi.org/10.1007/978-3-030-29885-2_14)</div>
-
-Psiuk-Maksymowicz, Krzysztof, Roman Jaksik, et al. 2020. In Current Trends in Biomedical Engineering and Bioimages Analysis, edited by Józef Korbicz, et al., 152–65. Advances in Intelligent Systems and Computing. Springer International Publishing.
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 14rem;">
 <div class="card-header">[You Wrote It, Now Get It Used: Publishing Your Software with Galaxy and Bioconda](http://doi.acm.org/10.1145/3307339.3343178)</div>
 
 [Daniel Blankenberg](/src/people/dan/index.md), [Martin Cech](/src/people/martenson/index.md). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
 </div>
 
-<div class="card border-info" style="min-width: 10rem;">
+<div class="card border-info" style="min-width: 18rem;">
 <div class="card-header">Publication Topics</div>
 
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
@@ -190,15 +161,47 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There were are many new platforms this month:
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Climate Science Workbench](/src/use/climate-science-workbench/index.md)</div>
+<div class="card-header">[IDENAP](/src/use/idenap/index.md)</div>
 
-<img class="card-img-top" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
+<img class="card-img-top" src="/src/use/idenap/idenap-slice.png" alt="IDENAP" />
 
-Features a comprehensive set of analysis tools and consolidated workflows for climate science data analysis and visualization.  [This server](https://climate.usegalaxy.eu/) supports general GIS data handling tools and climate analysis-specific tools.  It is hosted by by the UesGalaxy.eu team. This work was [presented at GCC2019](https://gcc2019.sched.com/event/PSGY/climate-analysis-with-galaxy) by [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/).
+The [Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http://mem.rcees.ac.cn:8081/) models, analyzes and manages the *[Inter-Domain Ecological Networks (IDENs)](https://doi.org/10.1111/1755-0998.13081)* from metagenomic datasets, e.g. GeoChip and Sequencing, and synchronous plant surveys.
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[ELIXIR Belgium Galaxy](/src/use/usegalaxy-be/index.md)</div>
+
+<img class="card-img-top" src="/src/use/usegalaxy-be/usegalaxy-be-logo.png" alt="UseGalaxy.be" />
+
+The [ELIXIR Belgium Galaxy server](https://usegalaxy.be/) has been launched.  This server focuses on serving researchers in Belgium, provides a wealth of tools, and reference data for plant species from the [PLAZA data warehouse](https://usegalaxy-be.github.io/posts/2019/07/01/PLAZA-reference-data/plain.html). 
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Lebanese University Galaxy](/src/use/lebanese-university/index.md)</div>
+
+<img class="card-img-top" src="/src/use/lebanese-university/lebanese-university-logo-trimmed.jpg" alt="Lebanese University Galaxy" />
+
+[Lebanese University](http://www.ul.edu.lb/) has launched the [first public Galaxy server in the Middle East](http://galaxy.ul.edu.lb/).  The server features the [SpCLUST tool set](https://doi.org/10.1016/j.compbiomed.2019.103439) for fast and reliable clustering of potentially divergent biological sequences.  It also supports the CD-Hit and DNAClust tool sets.
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[NG-Tax](/src/use/ng-tax/index.md)</div>
+
+<img class="card-img-top" src="/src/use/ng-tax/ngtax-workflow.png" alt="NG-Tax workflow" />
+
+The [NG-Tax server](https://www.systemsbiology.nl/ngtax/) provides a wemantic framework for high-throughput marker gene (amplicon) analysis.  The server requires that you create a login, but anyone can create a login.  Supports both NG-Tax versions 1 & 2.
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Galaxy for Ecology](/src/use/ecology/index.md)</div>
+
+<img class="card-img-top" src="/src/use/ecology/map-prediction-slice.png" alt="Galaxy for Ecology: Mapped prediction" />
+
+[Galaxy for Ecology](https://ecology.usegalaxy.eu/)is a web platform to get, process, analyze and visualize ecological data, including species occurrence data, protocoled data from Vigie-Nature, and climatic data from Worldclim. 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
