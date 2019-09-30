@@ -32,19 +32,6 @@ If you have anything to include to next month's newsletter, then please send it 
 
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/upcoming-events-2019-10.png" alt="Upcoming Events" />
-<div class="card-header">Upcoming Events</div>
-
-There are
-
-* [xx upcoming events](/src/events/index.md)
-* on xxx continents (plus online)
-* in xxxxxx
-* on 
-
-</div>
-
-<div class="card border-primary" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header">GalaxyNL Face2Face Meeting</div>
 
@@ -59,10 +46,27 @@ Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have an
 </div>
 
 <div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
-<img class="card-img-top" src="/src/images/logos/bioconda.png" alt="Bioconda" />
-<div class="card-header">[Bioconda Collaboration Fest](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/)</div>
+<img class="card-img-top" src="/src/use/workflow4metabolomics/workflow4metabolomics-banner.png" alt="W4M" />
+<div class="card-header">[Workflow4Experimenters international course (W4E2020)](https://workflow4metabolomics.org/w4e2020)</div>
 
-A [collaboration fest will be held in Freiburg and elsewhere](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/) on 30 September through 1 October for [Bioconda](https://bioconda.github.io/) and its ecosystem. This CoFest is organised globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.
+Brussels, Belgium. Monday 3th to Friday February 7th 2020.
+
+This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in English), Learn to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data. Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring. 
+
+**Preregister by 3 November.**
+</div>
+
+<div class="card border-primary" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/upcoming-events-2019-10.png" alt="Upcoming Events" />
+<div class="card-header">Upcoming Events</div>
+
+There are
+
+* [xx upcoming events](/src/events/index.md)
+* on xxx continents (plus online)
+* in xxxxxx
+* on 
+
 </div>
 
 <div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
