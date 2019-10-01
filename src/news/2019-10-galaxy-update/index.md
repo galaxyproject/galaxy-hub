@@ -28,7 +28,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 [GalaxyAfrica 2019](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) will be 14-15 November, in collaboration with the [ASBCB/ISCB Africa](https://www.iscb.org/iscbafrica2019) conference in Kumasi, Ghana. We will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects.
 
-*Early registration ends 20 October.*
+**Early registration ends 20 October.**
 
 </div>
 
@@ -237,6 +237,15 @@ Platforms that were referenced at least twice in the past month's publications:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Specialist, Bioinformatician](https://jobs.gsk.com/en-gb/jobs/226415)</div>
+
+Full-Time, . Rixensart, Belgium.
+
+Develop core bioinformatics pipelines using a variety of environments (incl. Linux, Galaxy, DNA-Nexus) for base-calling, demultiplexing, data quality control, sequence alignment, variant calling, quantifying gene expression...
+
+<img class="card-img-bottom" src="/src/images/logos/glaxosmithkline-thin.jpg" alt="GSK Logo" />
+</div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Grad Students: Plant Computational Genomics](http://plantcompgenomics.com/graduate-students/)</div>
@@ -251,6 +260,14 @@ The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Dep
 [AbSci](http://www.absci.com/), Vancouver, Washington, United States
 
 <img class="card-img-bottom" src="/src/images/logos/absci-logo.svg" alt="AbSci" />
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Galaxy-focused opportunity with core team members](https://galactic-core.com/)</div>
+
+Interested in an exciting new Galaxy-focused opportunity with core team members?  Contact recruiting@galactic-core.com today.
+
+<img class="card-img-bottom" src="/src/images/logos/galactic-core-logo-small.png" alt="Galactic Core Logo" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -283,52 +300,51 @@ The [Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/t
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Analyse HeLa fluorescence siRNA screen](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/viz_segmentation_mask.png" alt="Viz segmentation" />
+<div class="card-header">[EWAS data analysis of 450k data](https://training.galaxyproject.org/topics/epigenetics/tutorials/ewas-suite/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-ewas-viz.png" alt="Visualizing results at UCSC" />
 <p class="card-text">
-By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/topics/instructors/philosophies/#shiltemann)</p>
+By [Katarzyna Murat](https://training.galaxyproject.org/training-material/hall-of-fame#kpbioteam) and [Krzysztof Poterlowicz](https://training.galaxyproject.org/training-material/hall-of-fame#kpoterlowicz)</p>
 
-<p class="card-text">How to use Galaxy to perform basic image analysis tasks such as format conversion, image enhancement, segmentation, and feature extraction.</p>
-<br />
+<p class="card-text">This tutorial identifies differentially methylated regions and positions associated with treatment resistant melanomas.</p>
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Automation with Jenkins](https://training.galaxyproject.org/training-material/topics/admin/tutorials/jenkins/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/jenkins-10-permissions.png" alt="Jenkins security" />
+<div class="card-header">[Quality Control](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/quality-score-encoding.png" alt="Quality Score Encoding" />
 
 <p class="card-text">
-By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche)</p>
-
-<p class="card-text">Continuous integration with Jenkins to make your Galaxy admin life easier.</p>
-</div>
-
-
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Help for Differential Expression Analysis](/src/support/diff-expression/index.md)</div>
-<p class="card-text">
-By [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)</p>
-
-<p class="card-text">
-A new support page for one of Galaxy's most popular applications: differential gene expression analysis.</p>
-</div>
-
-
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/src/admin/tools/external-display-applications-tutorial/index.md)</div>
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/2019-10-geda.png" alt="GEDA example config" />
-<p class="card-text">
-By [Dan Blankenberg](/src/people/dan/index.md)</p>
-
-<p class="card-text">How to add a new external display application (UCSC genome browser, GeneTrack, JBrowse, etc. to Galaxy.</p>
-<br />
+The [Quality Control  tutorial](https://training.galaxyproject.org/topics/sequence-analysis/tutorials/quality-control/tutorial.html) has been updated by [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Saskia Hiltemann](https://shiltemann.github.io/), [Anup Kumar](https://github.com/anuprulez), Matthias (which one, we ask?) and [Anika Erxleben](https://github.com/erxleben). It provides more details about FastQC reports and clarifies the trimming approach and paired-end explanation.</p>
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[TIaaS Upgrades](https://galaxyproject.eu/tiaas.html)</div>
+<div class="card-header">Chat support in [Admin](https://training.galaxyproject.org/training-material/topics/admin/) & [Dev](https://training.galaxyproject.org/training-material/topics/dev/) tutorials</div>
+<img class="card-img-top" src="/src/images/screenshots/start-chatting.png" alt="Start Chatting" />
+<p class="card-text">
+[Galaxy Admin](https://training.galaxyproject.org/training-material/topics/admin/) & [Dev](https://training.galaxyproject.org/training-material/topics/dev/) topics now include Gitter chat rooms embedded into the tutorials. Ask your questions or just start a discussion about the training topics with fellow learners and tutorial authors.</p>
+<br />
+</div>
 
-<img class="card-img-top" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<div class="card border-info"  style="min-width: 16rem;">
+<div class="card-header">[Pre-processing of 10X Single-Cell RNA Datasets](https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-10x.png" alt="CelSeq and 10x" />
 
-<p class="card-text">[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) is just one service that the European UseGalaxy project is providing.   TIaaS got a lot of updates this summer thanks to [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche). [Read more about it](https://galaxyproject.eu/tiaas.html).</p>
+<p class="card-text">
+By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame#mtekman), [Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame#hrhotz), and [Daniel Blankenberg](https://training.galaxyproject.org/training-material/hall-of-fame#blankenberg)</p>
+
+<p class="card-text">
+Map and quantify scRNA-seq FASTQ data via RNA STARsolo, and reproduce a Cell Ranger workflow using the DropletUtils suite.  Explore the use of barcode rankings to determine better filtering thresholds to generate a high quality count matrix.</p>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[ATAC-Seq data analysis](https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-atac-pygenometracks-output.png" alt="Visualizing output in pyGenomeTracks" />
+<p class="card-text">
+By [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame#lldelisle), [Maria Doyle](https://training.galaxyproject.org/training-material/hall-of-fame#mblue9), [Florian Heyl](https://training.galaxyproject.org/training-material/hall-of-fame#heylf)</p>
+
+<p class="card-text">
+
+Learn ATAC-Seq analysis with data from the study of [Buenrostro et al. 2013](https://training.galaxyproject.org/topics/epigenetics/tutorials/atac-seq/tutorial.html#Buenrostro2013), the first paper on the ATAC-Seq method.  Compare predicted open chromatin regions to known binding sites.
+</p>
 <br />
 </div>
 
@@ -354,7 +370,31 @@ See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/relea
 
 # Other News
 
-* From Peter van Heusden:
-  * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.0174)
-* From [Marius van den Beek](https://github.com/mvdbeek):
-  * Are you using #usegalaxy dataset collections? Is there something that just doesn't work for you or that could be easier? [Please let us know on GitHub](https://github.com/galaxyproject/galaxy/issues/8403)
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">HacktoberFest 2019</div>
+
+Galaxy is [participating in Hacktoberfest](/src/news/2019-10-hacktoberfest/index.md), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy github repositories](https://github.com/galaxyproject/) to earn free github and digitalocean swag.
+
+<img class="card-img-bottom" src="/src/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="Hacktoberfest Logo" />
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">GenomeSpace shuts down November 15</div>
+
+The [GenomeSpace](http://www.genomespace.org/) project [ends on November 15, 2019](http://www.genomespace.org/news/the-genomespace-project-is-ending) due to expiration of its NHGRI funding and we will be shutting down the GenomeSpace servers on that date.  Galaxy was a [GenomeSpace-enabled tool](http://www.genomespace.org/support/tools) from the beginning of GenomeSpace and worked closely to maintain that connection over the years.
+
+<img class="card-img-bottom" src="/src/images/logos/GenomeSpaceLogo.png" alt="GenomeSpace" />
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">Galaxy integration in InterMine 4.1.0</div>
+
+The [latest release](https://intermineorg.wordpress.com/2019/09/24/intermine-4-1-0/) of [InterMine](http://intermine.org/) adds [configuration free data import/export with Galaxy](https://intermine.readthedocs.io/en/latest/webapp/third-party-tools/galaxy/).  An InterMine tutorial in the Galaxy Training Network is coming...
+
+See the [full release announcement](https://intermineorg.wordpress.com/2019/09/24/intermine-4-1-0/) and [release notes](https://github.com/intermine/intermine/releases) for more on this release.
+
+<img class="card-img-bottom" src="/src/images/logos/intermine-logo-wide-trans.png" alt="InterMine" />
+</div>
+</div>
+
