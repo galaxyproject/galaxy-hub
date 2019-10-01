@@ -1,7 +1,7 @@
 ---
 title: 'October 2019 Galactic News'
 tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news too."
-date: ""
+date: "2019-10-02"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
@@ -133,7 +133,7 @@ Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/
 <div class="card border-info" style="min-width: 14rem;">
 <div class="card-header">[You Wrote It, Now Get It Used: Publishing Your Software with Galaxy and Bioconda](http://doi.acm.org/10.1145/3307339.3343178)</div>
 
-[Daniel Blankenberg](/src/people/dan/index.md), [Martin Cech](/src/people/martenson/index.md). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
+[Daniel Blankenberg](/src/people/dan/index.md), [Martin Cech](/src/people/marten/index.md). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
 </div>
 
 <div class="card border-info" style="min-width: 18rem;">
@@ -366,9 +366,9 @@ Learn ATAC-Seq analysis with data from the study of [Buenrostro et al. 2013](htt
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">HacktoberFest 2019</div>
 
-Galaxy is [participating in Hacktoberfest](/src/news/2019-10-hacktoberfest/index.md), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy github repositories](https://github.com/galaxyproject/) to earn free github and digitalocean swag.
+Galaxy is [participating in HacktoberFest](/src/news/2019-10-hacktoberfest/index.md), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy GitHub repositories](https://github.com/galaxyproject/) to earn free GitHub and digitalocean swag.
 
-<img class="card-img-bottom" src="/src/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="Hacktoberfest Logo" />
+<img class="card-img-bottom" src="/src/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="HacktoberFest Logo" />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
