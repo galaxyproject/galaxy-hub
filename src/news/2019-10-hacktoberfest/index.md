@@ -1,6 +1,6 @@
 ---
 title: "Hacktoberfest 2019"
-tease: ""
+tease: "Please join us"
 date: "2019-10-01"
 ---
 
