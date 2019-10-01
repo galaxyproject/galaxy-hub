@@ -4,17 +4,15 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other 
 date: ""
 ---
 
-[<img class="float-right" src="/src/news/2019-10-galaxy-update/2019-10-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
 
 The *October 2019 Galactic News*  includes Galactic news under this or any other sun:
 
-* [xx Upcoming Events](/src/news/2019-10-galaxy-update/index.md#events)
-* [xx new publications](/src/news/2019-10-galaxy-update/index.md#publications)
-* [xx new Galactic Blog posts](/src/news/2019-10-galaxy-update/index.md#galactic-blog-activity)
+* [20 Upcoming Events](/src/news/2019-10-galaxy-update/index.md#events)
+* [143 new publications](/src/news/2019-10-galaxy-update/index.md#publications)
 * [Galaxy Platform News](/src/news/2019-10-galaxy-update/index.md#galaxy-platforms-news)
-* [xx Openings](/src/news/2019-10-galaxy-update/index.md#whos-hiring) 
+* [6 Openings](/src/news/2019-10-galaxy-update/index.md#whos-hiring) 
 * [Training material and doc updates](/src/news/2019-10-galaxy-update/index.md#doc-hub-and-training-updates)
-* [New release](/src/news/2019-10-galaxy-update/index.md#releases)
 * [Other news](/src/news/2019-10-galaxy-update/index.md#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -22,7 +20,7 @@ If you have anything to include to next month's newsletter, then please send it 
 # Events
 
 <div class="card-deck">
-<div class="card border-primary" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="GalaxyAfrica 2019" />
 <div class="card-header">Galaxy Africa 2019</div>
 
@@ -33,7 +31,7 @@ If you have anything to include to next month's newsletter, then please send it 
 </div>
 
 
-<div class="card border-primary" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header">GalaxyNL Face2Face Meeting</div>
 
@@ -43,11 +41,9 @@ This year's Galaxy Netherlands Face2Face meeting will take place at:
 * Location: GROW room, DTL offices, JIM 6th floor, Jaarbeursplein 6, 3521 AL Utrecht
 
 **Interested? Please [register for the meeting](https://forms.gle/fn36wXwM55iHKsAz9).**
-
-Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have any agenda items you would like to raise for discussion, or if you would like to present any Galaxy-related work/plans you have.
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/use/workflow4metabolomics/workflow4metabolomics-banner.png" alt="W4M" />
 <div class="card-header">[Workflow4Experimenters international course (W4E2020)](https://workflow4metabolomics.org/w4e2020)</div>
 
@@ -58,48 +54,48 @@ This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in E
 **Preregister by 3 November.**
 </div>
 
-<div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-10-galaxy-update/upcoming-events-2019-10.png" alt="Upcoming Events" />
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/upcoming-continents.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
 There are
 
-* [xx upcoming events](/src/events/index.md)
-* on xxx continents (plus online)
-* in xxxxxx
-* on 
+* [20 upcoming events](/src/events/index.md)
+* on 5 continents
+* in Italy, Germany, the Netherlands, Greece, Estonia, Belgium, US, France, Taiwan, Ghana, Australia, and UK.
+* on RNA-Seq, bisulfite sequencing, reproducibility, CWL, cancer, single cell, metabarcoding, and metabolomics!
 
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/images/logos/fli-logo-big.png" alt="FLI" />
 <div class="card-header">[Galaxy for linking bisulfite sequencing with RNA sequencing](https://www.denbi.de/training/663-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing)</div>
 
-Galaxy, differential gene expression analysis, bisulfite sequencing analysis, and Nanopore data exploration and usage.  Three days in Freiburg.
+Galaxy, differential gene expression analysis, bisulfite sequencing analysis, and Nanopore data exploration and usage.  Three days in Freiburg starting 9 October.
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/events/2019-10-aises/aises-2019-banner.png" alt="Galaxy @ AISES" />
 <div class="card-header">[Galaxy @ AISES 2019](/src/events/2019-10-aises/index.md)</div>
 
 **[Reproducible Genomic Data Analysis with the Galaxy Workbench](https://conference.aises.org/agenda)**, 9:30 - 11:20,  Friday, October 11. 
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/events/2019-ashg/ashg-2019-logo.png" alt="Galaxy @ ASHG" />
 <div class="card-header">[Galaxy @ ASHG 2019](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy)</div>
 
-**[Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy)**, Tuesday, October 15, 1:30 - 3:00
+**[Reproducible and Transparent Genomic Analysis with Galaxy](http://www.ashg.org/2019meeting/asp/soe/webroot/soe.shtml#?search=galaxy)**, Tuesday, October 15, 1:30 - 3:00.  *Register now, as space is limited.*
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/events/2019-10-cnrs/labri-cgfb.png" alt="Analyse avancée de séquences" />
 <div class="card-header">[Analyse avancée de séquences](https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.html?axe=98)</div>
 
-Savoir utiliser l'environnement Galaxy 
+Savoir utiliser l'environnement Galaxy, à partir du 29 octobre.
 </div>
 
-<div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <div class="card-header">Deadlines this month</div>
 
 There are several *registration* deadlines this month:
@@ -291,6 +287,7 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 # Doc, Hub, and Training Updates
 
 <div class="card-deck">
+
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Reference-based RNA-Seq data analysis](https://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html)</div>
 <img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-rna-seq-revised.png" alt="Slice of overall workflow" />
@@ -324,6 +321,18 @@ The [Quality Control  tutorial](https://training.galaxyproject.org/topics/sequen
 <br />
 </div>
 
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Annotating a protein list identified by LC-MS/MS experiments](https://training.galaxyproject.org/topics/proteomics/tutorials/proteome_annotation/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-proteore-annot-venn.png" alt="Slice of overall workflow" />
+
+<p class="card-text">
+By [Valentin Loux](https://training.galaxyproject.org/training-material/hall-of-fame#vloux), [Florence Combes](https://training.galaxyproject.org/training-material/hall-of-fame#combesf), [David Christiany](https://training.galaxyproject.org/training-material/hall-of-fame#davidchristiany), [Yves Vandenbrouck](https://training.galaxyproject.org/training-material/hall-of-fame#yvandenb).</p>
+
+<p class="card-text">
+Annotate a protein list identified by LC-MS/MS experiments using the [ProteoRE Galaxy instance](http://www.proteore.org/).</p>
+<br />
+</div>
+
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[Pre-processing of 10X Single-Cell RNA Datasets](https://training.galaxyproject.org/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html)</div>
 <img class="card-img-top" src="/src/news/2019-10-galaxy-update/gtn-10x.png" alt="CelSeq and 10x" />
@@ -350,23 +359,6 @@ Learn ATAC-Seq analysis with data from the study of [Buenrostro et al. 2013](htt
 
 </div>
 
-
-# Releases
-
-New additions (and editions) in the Galaxy Ecosystem.
-
-<div class="card-deck">
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">BioBlend v 0.13.0</div>
-
-[BioBlend](https://bioblend.readthedocs.io/en/latest/) is a Python library for interacting with CloudMan and the Galaxy API.  Conceptually, it makes it possible to
-
-* to run analyses on Galaxy using a programmatic interface.
-* script and automate the process of cloud infrastructure provisioning and scaling via CloudMan.
-
-See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/releases/tag/v0.13.0) for more. 
-</div>
-</div>
 
 # Other News
 
