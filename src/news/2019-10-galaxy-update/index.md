@@ -1,6 +1,6 @@
 ---
 title: 'October 2019 Galactic News'
-tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other news too."
+tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too."
 date: "2019-10-02"
 ---
 
@@ -27,15 +27,14 @@ If you have anything to include to next month's newsletter, then please send it 
 [GalaxyAfrica 2019](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) will be 14-15 November, in collaboration with the [ASBCB/ISCB Africa](https://www.iscb.org/iscbafrica2019) conference in Kumasi, Ghana. We will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects.
 
 **Early registration ends 20 October.**
-
 </div>
 
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
-<div class="card-header">GalaxyNL Face2Face Meeting</div>
+<div class="card-header">[GalaxyNL Face2Face Meeting](/src/events/2019-10-galaxynl/index.md)</div>
 
-This year's Galaxy Netherlands Face2Face meeting will take place at:
+This year's [Galaxy Netherlands Face2Face meeting](/src/events/2019-10-galaxynl/index.md) will take place at:
 
 * Time: October 3, 13:30-16:00, with drinks afterwards
 * Location: GROW room, DTL offices, JIM 6th floor, Jaarbeursplein 6, 3521 AL Utrecht
@@ -236,7 +235,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Specialist, Bioinformatician](https://jobs.gsk.com/en-gb/jobs/226415)</div>
 
-Full-Time, . Rixensart, Belgium.
+Full-Time, Rixensart, Belgium.
 
 Develop core bioinformatics pipelines using a variety of environments (incl. Linux, Galaxy, DNA-Nexus) for base-calling, demultiplexing, data quality control, sequence alignment, variant calling, quantifying gene expression...
 
