@@ -335,7 +335,7 @@ Let's click in this "display at UCSC main" link. This open a new tab within your
 |![](/src/tutorials/g101/browser.png)|
 |<small>**Figure 24**. UCSC Genome browser displaying dataset #8 as a "User Track". Make sure that you can see the entire chromosome by using zoom settings of the browser.</small>|
 
-The above figure shows out five exons widely spread out across chromosome 22. But which one contains the highest number of SNPs? Since the know that the highest number is 40 we can filter visible regions of the "User track" to show only those that have number 40 in their score field (see Fig. 21). To do this click on a browser area highlighted with red rectangle in Fig. 24 above:
+The above figure shows out five exons widely spread out across chromosome 22. But which one contains the highest number of SNPs? Since we know that the highest number is 40 we can filter visible regions of the "User track" to show only those that have number 40 in their score field (see Fig. 21). To do this click on a browser area highlighted with red rectangle in Fig. 24 above:
 
 |        |
 |--------|
