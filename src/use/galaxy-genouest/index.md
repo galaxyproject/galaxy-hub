@@ -12,7 +12,7 @@ image: "/src/use/galaxy-genouest/galaxy-genouest.png"
 comments:
   - "[Request a GenOuest account](https://my.genouest.org)"
 user_support:
-  - "[Email](mailto:support AT genouest DOT org)"
+  - "Email: support AT genouest DOT org"
 quotas:
   - "You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org)."
   - "The default quota for new users is 50GB."
