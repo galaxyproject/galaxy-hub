@@ -1,10 +1,10 @@
 ---
 title: "BitLAB"
-url: "http://www.bitlab-es.com/bitlab/"
+url: "https://pistacho.ac.uma.es/galaxy-bitlab"
 scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://pistacho.ac.uma.es/galaxy/"
+    platform_url: "https://pistacho.ac.uma.es/galaxy-bitlab"
     platform_text: "BitLAB Galaxy"
     platform_location: ES
 summary: "Detailed analysis of metagenomes. "

@@ -18,6 +18,7 @@ user_support:
   - "[Account creation](http://bipaa.genouest.org/account/)"
   - "[Contact BIPAA](mailto:bipaa@inra.fr)"
 quotas:
+  - "Accessible for any academic user. [Request an account](https://bipaa.genouest.org/account/)."
   - "Default quota is low (<10Go), but can be increased on request."
 citations:
 pub_libraries:
