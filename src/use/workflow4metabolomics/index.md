@@ -4,7 +4,7 @@ url: "http://workflow4metabolomics.org/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://galaxy.workflow4metabolomics.org/"
+    platform_url: "https://galaxy.workflow4metabolomics.org"
     platform_text: "workflow4metabolomics Galaxy server"
     platform_location: FR
   - platform_group: "container"
