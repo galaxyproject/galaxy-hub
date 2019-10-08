@@ -388,7 +388,7 @@ No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [th
 
 <div class='right'><br />
 <div class='center'>
-<img src="/src/images/logos/gvl-300.png" alt="GVL" width="80" /> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/use/pl-grid/pl-grid-logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
+<img src="/src/images/logos/gvl-300.png" alt="GVL" width="80" /> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/use/archive/pl-grid/pl-grid-logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
 <a href='https://www.genap.ca/'><img src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" width="120" /></a><br />
 <img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="200" />
 </div></div>
