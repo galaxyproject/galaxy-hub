@@ -8,7 +8,7 @@ platforms:
     platform_text: "ZBIT Bioinformatics Toolbox"
     platform_location: DE
 summary: "This customized version of the Galaxy webservice framework was set up to allow the public access of our bioinformatics tools. These tools were developed and implemented by members of the [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/). "
-image: "/src/use/zbit-bioinformatics-toolbox/zbit.png"
+image: "/src/use/archive/zbit-bioinformatics-toolbox/zbit.png"
 comments:
   - "Includes these tools developed at Tübingen:"
   - "[TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors"
@@ -18,7 +18,6 @@ comments:
   - "[SBMLsqueezer](http://www.cogsys.cs.uni-tuebingen.de/software/SBMLsqueezer/): Generate kinetic rate equations for biochemical networks"
   - "[EDISA](http://www.cogsys.cs.uni-tuebingen.de/software/EDISA/welcome_e.html): Extracting biclusters from multiple time-series of gene expression profiles"
   - "[ModuleMaster](http://www.cogsys.cs.uni-tuebingen.de/software/ModuleMaster/welcome_e.html): Finding *cis*-regulatory modules using promoter analysis and microarray expression data regression."
-  - "[Deployment page](/src/community/deployment/zbit-bioinformatics-toolbox/index.md) in the [Galaxy Deployment Catalog](/src/community/deployment/index.md)"
 user_support:
   - "[Mailing List](https://listserv.uni-tuebingen.de/mailman/listinfo/galaxy)"
 quotas:

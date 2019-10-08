@@ -40,13 +40,13 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 ## NGS-QC Generator
 
-<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/use/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/use/archive/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
 
 [NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php). 
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/ngs-qc/index.md) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/archive/ngs-qc/index.md) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 

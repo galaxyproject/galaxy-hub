@@ -51,7 +51,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 
 ## ZBIT Bioinformatics Toolbox
 
-<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/use/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
+<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/use/archive/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors
