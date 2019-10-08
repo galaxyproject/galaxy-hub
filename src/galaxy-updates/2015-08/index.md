@@ -353,7 +353,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/use/ab-openlab/frog.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
 <a href='http://aspendb.uga.edu/ageseq'><img src="/src/use/ageseq-aspendb/aspen-db-300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
 <a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/use/biomas/biomas-logo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
-<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/use/sifted/sifted-landing-page.png" alt="SIFTED" width="160" /></a><br />
+<a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/use/archive/sifted/sifted-landing-page.png" alt="SIFTED" width="160" /></a><br />
 <a href='http://mississippi.fr/'><img src="/src/use/mississippi/mississippi-logo.png" alt="MISSIPPI" width="160" /></a><br />
 <a href='/src/use/index.md'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
 </div>
@@ -375,8 +375,7 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
   * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/use/mississippi/index.md) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
-  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.  See the [server description](/src/use/sifted/index.md) for more.
-
+  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins. 
 <br />
 
 <div class='left'><br /><a href='https://github.com/galaxyproject/galaxy/pull/314'><img src="/src/images/CommunityCommitters1.png" alt="Community Committers" width="160" /></a>
