@@ -21,7 +21,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <br />
 
-<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
+<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/archive/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
 
 **[Pathogen Portal](http://www.pathogenportal.org)** supports comparative analysis of host response to pathogens.  It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.  See "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.* 
 

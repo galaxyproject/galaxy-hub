@@ -370,7 +370,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ## Pathogen Portal RNA-Rocket seeking funding
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/rna-rocket-pathogen-portal/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/archive/rna-rocket-pathogen-portal/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
 
 Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.pathogenportal.org/) supports RNA-Seq analysis for literally thousands of microbial reference genomes.  If you use, have used, or are going to start using RNA-Rocket, then the folks behind RNA-Rocket ask that you "please consider writing a brief statement of support to [pathporthelp@vbi.vt.edu](mailto:pathporthelp@vbi.vt.edu)."
 
