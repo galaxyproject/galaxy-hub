@@ -43,7 +43,7 @@ See
 
 ## MBAC Metabiome Portal
 
-<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/use/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
+<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
 
 The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. 
 
