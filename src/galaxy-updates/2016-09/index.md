@@ -437,7 +437,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 
 No new entries were added in August, but a new virtual appliance was added to the VA directory:
 
-* **[RNAcommender](/src/use/rnacommender/index.md)**
+* **RNAcommender**
     A tool for genome-wide recommendation of RNA-protein interactions. 
 
 ----
