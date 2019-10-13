@@ -9,5 +9,5 @@ location_url:
 external_url: "https://faes.org/biotech82"
 image: "/src/images/logos/faes.png"
 gtn: false
-contact: "registration@faes.org"
+contact: "registration @ faes . org"
 ---

@@ -5,7 +5,7 @@ date: '2019-06-11'
 days: 2
 continent: EU
 external_url: "https://galaxy-carpentries.github.io/gallantries/event/2019-03-25-first-galantries-workshop/"
-contact: 'berenice.batut@gmail.com'
+contact: 'Berenice Batut'
 gtn: true
 ---
 

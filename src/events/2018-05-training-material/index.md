@@ -9,5 +9,5 @@ location_url: "http://www.earlham.ac.uk/"
 external_url: "http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement"
 image: 
 gtn: false
-contact: "training@earlham.ac.uk"
+contact: "training @ earlham . ac.uk"
 ---

@@ -8,6 +8,6 @@ location: "Chicago, Illinois, United States"
 location_url: ""
 external_url: "https://sciencegateways.org/engage/focus-week"
 gtn: false
-contact: "help @ sciencegateways.org"
+contact: "help @ sciencegateways . org"
 image: 
 ---

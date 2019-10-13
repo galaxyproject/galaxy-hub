@@ -8,6 +8,6 @@ location: Melbourne Bioinformatics, Carlton, Victoria, Australia
 location_url: https://www.melbournebioinformatics.org.au/
 image: /images/logos/melbourne-bioinformatics.png
 external_url: https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-galaxy-the-gvl-registration-36300315220
-contact: 'enquiries@ melbournebioinformatics.org.au'
+contact: 'enquiries @ melbourne bio informatics . org . au'
 gtn: true
 ---

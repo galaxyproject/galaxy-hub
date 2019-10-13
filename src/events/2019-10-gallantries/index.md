@@ -7,7 +7,7 @@ continent: EU
 location: "Rotterdam, Netherlands; Thessaloniki, Greece; Tartu, Estonia"
 location_url:
 external_url: "https://galaxy-carpentries.github.io/gallantries/event/2019-08-27-second-gallantries-workshop/"
-contact: 'berenice.batut@gmail.com'
+contact: 'Berenice Bbatut'
 gtn: true
 ---
 
