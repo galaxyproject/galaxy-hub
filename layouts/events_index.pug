@@ -3,7 +3,7 @@ extends layout.pug
 mixin renderEventRow(item)
     +renderEventJSONLD(item)     
     tr
-        td: span.text-nowrap #{moment(item.date).format("MMMM Do YYYY")}
+        td: | #{moment(item.date).format("MMMM Do YYYY")}
         td
             if item.external_url
                 a( href=item.external_url ) #{item.title}

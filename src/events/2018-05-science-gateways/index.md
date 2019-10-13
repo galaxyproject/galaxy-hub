@@ -9,5 +9,5 @@ location_url: "https://www.tacc.utexas.edu/"
 external_url: "https://sciencegateways.org/engage/bootcamp"
 image: 
 gtn: false
-contact: "help@sciencegateways.org"
+contact: "help @ sciencegateways . org"
 ---

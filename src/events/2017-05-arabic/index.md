@@ -9,7 +9,7 @@ image: /images/logos/tanta-faculty-of-medicine.png
 location_url: http://med.tanta.edu.eg/
 external_url: https://www.facebook.com/events/1836526683279672/
 gtn: true
-contact: Abdelazeem_Abdelhameed2015505 @ yahoo.com
+contact: Abdelazeem Abdelhameed
 ---
 <div class='left'><img src="/src/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
