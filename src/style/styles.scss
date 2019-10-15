@@ -81,7 +81,7 @@ body {
 #maincontainer {
     background: white;
     padding-top: 15px;
-    a {
+    a:not(.btn) {
         color: #2882dc;
     }
     a:hover {
