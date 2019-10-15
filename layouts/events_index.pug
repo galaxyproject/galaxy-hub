@@ -63,6 +63,7 @@ mixin renderEventJSONLD(item)
 
 block content
     - var events_malleable = events.slice().reverse()
+
     div.col-md-12
         section.section-content
             h1 !{title}
@@ -81,7 +82,8 @@ block content
                         if item.date != undefined
                             if moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
-            h2 Past Events
+            h2 Recent Events
+            p Events in the past 12 months:
             table.table.table-striped
                 thead
                     tr
@@ -92,13 +94,16 @@ block content
                 tbody
                     each item in events_malleable.reverse()
                         if item.date != undefined
-                            if moment(item.date) < moment(new Date()).subtract((item.days || 1), 'days')
+                            if moment(item.date) < moment(new Date()).subtract((item.days || 1), 'days') && moment(item.date) > moment(new Date()).subtract((item.days + 365), 'days')
                                 +renderEventRow(item)
+
+            p See the 
+                a(href="/events/archive") events archive
+                |  for events more than a year old.
 
             h2 Other Calendars
             ul
-                li: a(href="http://iann.pro/iannviewer") iAnn Events Calendar
-                li: a(href="http://blueseq.com/knowledgebank/ngs-conferences-and-meetings/") BlueSEQ NGS Conferences and Meetings List
+                li: a(href="https://tess.elixir-europe.org/events") TESS Events Calendar
                 li: a(href="http://www.embo.org/events/calendar.html") EMBO Events Calendar
                 li: a(href="http://www.iscb.org/iscb-conference-events") International Society for Computational Biology Calendar
                 li: a(href="http://www.genomeweb.com/eventlisting") GenomeWeb Events Listing
