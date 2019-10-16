@@ -25,4 +25,4 @@ For log files of individual services running within the system, see the page spe
 
 ### Connect to Galaxy database
 
-Your cloud cluster is configured with a PostgreSQL database for use by Galaxy. By default, the database is stored in `/mnt/galaxy/db` and is available on port 5930. To connect to the database, switch to the *galaxy* system user and connect to it with the following command: `psql -p 5930`
+Your cloud cluster is configured with a PostgreSQL database for use by Galaxy. By default, the database is stored in `/mnt/galaxy/db` and is available on port 5950. To connect to the database, switch to the *galaxy* system user and connect to it with the following command: `psql -p 5950`
