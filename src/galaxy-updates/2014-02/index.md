@@ -298,7 +298,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## PIPE-CLIP
 
-<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/use/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/use/archive/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)

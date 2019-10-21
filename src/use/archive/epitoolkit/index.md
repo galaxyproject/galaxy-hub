@@ -8,7 +8,7 @@ platforms:
     platform_text: "EpiToolKit Galaxy"
     platform_location: DE
 summary: "Computational immunology for the development of novel epitope-based vaccines. "
-image: "/src/use/epitoolkit/epitoolkit-molecule-peptide.png"
+image: "epitoolkit-molecule-peptide.png"
 comments:
   - '[EpiToolKit](http://www.epitoolkit.de/) "provides a collection of methods from computational immunology for the development of novel epitope-based vaccines including HLA ligand or potential T-Cell epitope prediction, an epitope selection framework for vaccine design, and a method to design optimal string-of-beads vaccines. Additionally, [EpiToolKit](http://www.epitoolkit.de/) provides several other tools ranging from HLA typing based on NGS data, to prediction of polymorphic peptides."'
 user_support:

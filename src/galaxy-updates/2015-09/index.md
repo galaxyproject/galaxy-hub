@@ -25,7 +25,7 @@ Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a
     Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges, Oliver Kohlbacher, *Bioinformatics*, Vol. 31, No. 13. (01 July 2015), pp. 2211-2213, doi:10.1093/bioinformatics/btv116
 
 * [Experimental validation of methods for differential gene expression analysis and sample pooling in RNA-seq](https://doi.org/10.1186/s12864-015-1767-y)
-    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/src/people/fubar/index.md), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. BÃ¸rglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
+    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/src/people/fubar/index.md), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. Børglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
 
 * [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](https://doi.org/10.1074/mcp.o115.048777)
     Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews, Conrad Bessant, *Molecular & Cellular Proteomics* (12 August 2015), mcp.O115.048777, doi:10.1074/mcp.o115.048777
@@ -329,7 +329,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## EpiToolKit
 
-<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/use/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
+<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/use/archive/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
   * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
