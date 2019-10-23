@@ -9,6 +9,10 @@ Related topics
   *  [Load into a Data Library (Admin)](/src/data-libraries/index.md)
   *  [Local Galaxy? Configure FTP Upload (Admin)](/src/admin/config/#ftp)
 
+Tutorials
+
+  * [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+
 # Loading Data
 
 ## Video Tutorials
