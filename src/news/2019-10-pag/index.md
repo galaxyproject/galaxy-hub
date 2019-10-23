@@ -18,7 +18,7 @@ If you work in agricultural research, then PAG is a very effective way to get th
 
 * [Poster](https://www.intlpag.org/2020/abstracts/poster-submission) deadline: Friday, October 27
 * [Digital Tools and Resources](https://www.intlpag.org/2020/abstracts/digital-tools-and-resources-abstract-info) deadline: Friday, October 27
-* [Early Registration](https://www.intlpag.org/2020/attend/registration-and-fees) deadline:  Friday, November 21
+* [Early Registration](https://www.intlpag.org/2020/attend/registration-and-fees) deadline:  Friday, November 1
 
 We particularly encourage you to submit an abstract to the [Digital Tools and Resources](https://www.intlpag.org/2020/abstracts/digital-tools-and-resources-abstract-info) track.  This is a great way to demonstrate your Galaxy (and non-Galaxy) resources to the ag research community.
 
