@@ -1,7 +1,7 @@
 ---
 title: "Galaxy, PAG, and GMOD Codefest"
 tease: "PAG Deadlines are this week"
-date: ""
+date: "2019-10-23"
 ---
 
 [<img class="float-right" style="max-width: 24rem" src="/src/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />](/src/events/2020-pag/index.md)
@@ -28,9 +28,9 @@ The [GMOD Project](http://gmod.org/) (which Galaxy is a member of) will be holdi
 
 If you have any project ideas for this event, then [please add them here](https://docs.google.com/document/d/1_CnUW_W4tNyl7lSlihCwZDKT45VQQxcI3I-VgjnC2Dc/edit). 
 
-**NCBI Codeathon ?**
+**Post-PAG Codeathon ?**
 
-There are also rumors of an [NCBI Codeathon](https://ncbi-codeathons.github.io/) happening after PAG.  If and when this event is confirmed, we will describe it here.
+There are also rumors of a general bioinformatics Codeathon *after* PAG as well, possibly (or possibly not) sponsored by [NCBI](https://ncbi-codeathons.github.io/).  If and when this event is confirmed, we will describe it here.
 
 <br />
 Hope to see you in San Diego,<br />
