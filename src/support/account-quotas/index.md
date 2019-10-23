@@ -3,6 +3,14 @@ title: Account quotas
 ---
 [Back to Support Hub](/src/support/index.md)
 
+ Related topic: 
+  
+   * [Delete versus Delete Permanently](/src/learn/managing-datasets/#delete-vs-delete-permanently)
+    
+Tutorials
+
+  * [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+
 ## How account quotas work
 
 Each Galaxy server is independent. How much disk space to allocate for users is determined by the administrators of the instance.
@@ -41,8 +49,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    * Review the contents.
    * **Copy** those you still want to work with.
    * **Unshare** any on the list not needed (once copied, unshare and you will still have your own copy).
- 
- Also see: [Delete versus Delete Permanently](/src/learn/managing-datasets/#delete-vs-delete-permanently)
+
 
 ## I purged but still need more space!
  
