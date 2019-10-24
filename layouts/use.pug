@@ -6,9 +6,9 @@ mixin renderResource()
         div(class="float-right" style="margin: 0px 0px 5px 10px; padding: 2px; border: 1px solid #ccc")
             a(href=url)
                 if image.startsWith("/src")
-                    img.img-responsive(src=image.substring(4))
+                    img.img-responsive(src=image.substring(4) style="max-width: 100%")
                 else
-                    img.img-responsive(src=image)
+                    img.img-responsive(src=image style="max-width: 100%")
     table(class="table table-striped" style="width: auto")
         each platform in platforms
             tr
