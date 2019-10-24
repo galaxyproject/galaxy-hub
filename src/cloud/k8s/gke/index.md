@@ -216,32 +216,32 @@ for a multi-node setup.
 # Delete Resources and GKE cluster
 1. You may `uninstall` the Galaxy helm chart release using the following command:
 
-```
-$ helm del --purge my-gxy
-```
+    ```
+    $ helm del --purge my-gxy
+    ```
 
-If you also deployed the CVMFS-CSI Chart, you may also delete that release:
+    If you also deployed the CVMFS-CSI Chart, you may also delete that release:
 
-```
-$ helm del --purge gxy-cvmfs
-```
+    ```
+    $ helm del --purge gxy-cvmfs
+    ```
 
 2. If the `reclaimPolicy` of PVCs is `delete`, all resources deployed will be
 deleted with the exception of the `Postgres` data PVC and Volume.
 If you wish to delete this volume as well, use:
 
-```
-kubectl --namespace mynamespace get pvc
-kubectl delete pvc data-my-gxy-galaxy-postgres-0 --namespace mynamespace
-```
+    ```
+    kubectl --namespace mynamespace get pvc
+    kubectl delete pvc data-my-gxy-galaxy-postgres-0 --namespace mynamespace
+    ```
 
 3. Delete cluster: 
 
-You can delete the cluster either through the GKE dahsboard, or by using the
-following command:
+    You can delete the cluster either through the GKE dahsboard, or by using the
+    following command:
 
-```
-gcloud container clusters delete [CLUSTER_NAME]
-```
+    ```
+    gcloud container clusters delete [CLUSTER_NAME]
+    ```
 
-More info on deleting a GKE cluster can be found at the [GKE docs](https://cloud.google.com/kubernetes-engine/docs/how-to/deleting-a-cluster).
+    More info on deleting a GKE cluster can be found at the [GKE docs](https://cloud.google.com/kubernetes-engine/docs/how-to/deleting-a-cluster).
