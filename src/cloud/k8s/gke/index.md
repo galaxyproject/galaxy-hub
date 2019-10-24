@@ -3,11 +3,11 @@ title: Deploy an Instance of Galaxy on Google Kubernetes Engine
 highlight: true
 ---
 
-We break the steps of deploying Galaxy on 
+We break the steps of deploying a Galaxy instance on
 [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/)
 to the following sections:
 
-- [Create a k8s cluster](#create-a-cluster);
+- [Create a K8s cluster](#create-a-cluster);
 - [Set the current context to your cluster](#set-the-current-context);
 - [Install Helm](#install-helm);
 - [Initialize Helm](#initialize-helm);
@@ -15,23 +15,75 @@ to the following sections:
 - [Delete cluster](#delete-resources-and-gke-cluster). 
 
 > Note that all the commands given in this tutorial have been tested in 
-[_Cloud shell_](https://cloud.google.com/shell/), although they can 
-theoretically be run in any shell where the `kubectl` command exists and the
-the Kubernetes context is properly pointing to a running cluster.
+[_Cloud shell_](https://cloud.google.com/shell/); however, they may be
+applicable to any console where the
+[K8s command-line tool (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+is installed and configured.
 
 
 # Create a Cluster
-While you may deploy Galaxy on a k8s cluster with multiple nodes, in the 
-following we discuss how to deploy on a cluster with a single node, 
-as there are additional steps for deployment on a multi-node cluster, 
-which will be discussed separately.
 
-To create a cluster on GKE, you may follow 
-[this](https://cloud.google.com/kubernetes-engine/docs/quickstart) tutorial.
+To create a GKE cluster, you may follow tutorials such as
+[this](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-a-cluster) or
+[this](https://cloud.google.com/kubernetes-engine/docs/quickstart).
+Alternatively, you may run the following steps:
 
-> Note that not all `helm` versions will be compatible with all GKE Kubernetes
-versions. The most recent tested versions are `Kubernetes v1.13.7-gke.8`
-(obtained by running `kubectl version`) with `helm v2.14.1`.
+1- Goto [K8s Engine page](https://console.cloud.google.com/projectselector/kubernetes?_ga=2.101714888.-830640031.1571682936);
+2- Select a project, or create one if you already do not have one;
+3- On the top-right, click on the `Activate Cloud Shell [>_]` button;
+4- Run the following commands in the opened shell:
+    4.1- Configure project name:
+        ```shell
+        $ gcloud config set project <PROJECT NAME>
+        ```
+
+        Replace `<PROJECT_NAME>` with your selected project name.
+
+    4.2- Configure zone (e.g., us-central1-a):
+
+        ```shell
+        $ gcloud config set compute/zone <ZONE>
+        ```
+
+        Replace `<ZONE>` with your zone preference; you may get a list of
+        available zones using the following command:
+
+        ```shell
+        gcloud compute zones list
+        ```
+
+    4.3- Create cluster:
+
+        ```shell
+        $ gcloud container clusters create <CLUSTER_NAME> --cluster-version=1.13.7-gke.24 --num-nodes=1 --machine-type=n1-standard-32
+        ```
+
+        The specific arguments are:
+            - Replace `<CLUSTER_NAME>` with your name preference.
+
+            - `cluster-version`: the instructions on this page are tested using
+            `--cluster-version=1.13.7-gke.24` for their compatibility
+            (with `helm`, discussed later on this page).
+
+            - `num-nodes`: the instructions on this page are compatible with a
+            single-node cluster (i.e., `--num-nodes=1`). A multi-node
+            cluster setup requires additional steps [discussed here](#multi-node-cluster);
+            therefore, if you increment the number of nodes, make sure the multi-node cluster
+            requirements are met.
+
+            - `machine-type`: the default machine type (i.e., `n1-standard-1`) can be considered
+            suboptimal for Galaxy requirements, hence we set the machine type to `n1-standard-32`
+            in this example. You may choose a machine type that serves best your requirements and
+            zone selection. You may obtain a list of available machine type using the following
+            command:
+
+                ```shell
+                $ gcloud compute machine-types list
+                ```
+
+            You may refer to [this page](https://cloud.google.com/sdk/gcloud/reference/container/clusters/create)
+            for a complete list of the `gcloud` command arguments.
+
 
 
 # Set the current context
@@ -41,110 +93,69 @@ environment is pointing to the correct cluster.
 For GKE Cloud Shell, you may use the `Connect` button next to your cluster in
 the `Kubernetes clusters` list in the GKE dashboard, which will start a new
 Cloud Shell tab with a pre-written line of the following form:
-```bash
-gcloud container clusters get-credentials [cluster-name] --zone [cluster-zone] --project [project-name]
-```
-hit the `Return` key to set the proper `kubectl` configurations.
 
-Additionally, you may use the following command to get the current context:
 ```bash
-kubectl config current-context
+gcloud container clusters get-credentials <CLUSTER_NAME> --zone <ZONE> --project <PROJECT_NAME>
 ```
-which should return a line of the form:
-```bash
-gke_[project-name]_[cluster-zone]_[cluster-name]
-```
-
 
 # Install Helm
 
-Before runnning these commands, you may first want to check whether `helm` is
-already installed in your environment. You may do so by running the following:
+[`Helm`](https://helm.sh) is a K8s package manager, which is composed of two
+components: client ([`helm`](https://helm.sh/docs/install/)) and
+server ([`Tiller`](https://helm.sh/docs/glossary/#tiller)).
+
+In order to deploy a Galaxy instance on a K8s cluster, a `helm` and `tiller`
+installations on the cluster are required. You may already have `helm` and `tiller`
+installed on the cluster; you may run the following command to ensure they are
+properly installed:
 
 ```bash
 $ helm version
 ```
 
-The helm client is properly installed if this command outputs the following:
-`Client: &version.Version{SemVer:"v2.14.1", GitCommit:"5270352a09c7e8b6e8c9593002a73535276507c0", GitTreeState:"clean"}`
-In this case, you may want to skip this installation part, unless you are
-aiming to manually change the `helm` client version.
+If the output is as the following, you would need to configure `tiller`:
 
-> Note that not all `helm` versions will be compatible with all GKE Kubernetes
-versions. The most recent tested versions are `helm v2.14.1` with
-`Kubernetes v1.13.7-gke.8` (obtained by running `kubectl version`).
+```shell
+Client: &version.Version{SemVer:"v2.14.1", GitCommit:"5270352a09c7e8b6e8c9593002a73535276507c0", GitTreeState:"clean"}
+Error: could not find tiller
+```
 
-Additionally, when running `helm version` it is expected to get the second
-line indicating an `i/o timeout error`. This means that the `tiller` (i.e.
-server-side helm) is not running. You should also skip the initialization
-section, if instead you see the following second line:
-`Server: &version.Version{SemVer:"v2.14.1", GitCommit:"5270352a09c7e8b6e8c9593002a73535276507c0", GitTreeState:"clean"}`
+In order to install `helm` and `tiller`, run the following commands
+in the [_Cloud shell_](https://cloud.google.com/shell/):
 
-In order to install [`Helm`](https://helm.sh), we have compiled this list
-of commands that have been tested on GKE. Given that the Cloud Shell storage
-is persistent by default, *this only needs to be done a single time per shell 
-environment* in order to install the `helm` client.
 
 ```bash
 $ wget https://storage.googleapis.com/kubernetes-helm/helm-v2.14.1-linux-amd64.tar.gz
 $ tar zxfv helm-v2.14.1-linux-amd64.tar.gz
-$ # This will put helm on the path, if you do not wish to run it from the local binary
 $ sudo cp linux-amd64/helm /usr/local/bin/helm
-$ # Alternatively, you may run helm from the local binary using: ./linux-amd64/helm
-```
-
-If you have copied the `helm` binary to the path, you may cleanup the files
-previously downloaded and unpacked, as you can now use the `helm` command
-will persist in the shell environment. In order to do so, you may run
-the following commands:
-
-```bash
-$ rm helm-v2.14.1-linux-amd64.tar.gz
-$ rm -r linux-amd64/
-```
-
-
-# Initialize Helm
-
-The previous commands only need to be run once per shell environment, as the
-`helm` binary will persist and can be re-used. However, the following
-initialization needs to be run once for each new kubernetes cluster. This will
-initialize the `tiller` (i.e. server-side `helm`) pod, which is needed for
-`helm` to install a chart. Before running these commands 
-
-
-```bash
 $ kubectl create clusterrolebinding user-admin-binding --clusterrole=cluster-admin --user=$(gcloud config get-value account)
 $ kubectl create serviceaccount tiller --namespace kube-system
 $ kubectl create clusterrolebinding tiller-admin-binding --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
 $ helm init --service-account=tiller
-$ helm update
+$ helm repo update
+$ rm helm-v2.14.1-linux-amd64.tar.gz
+$ rm -r linux-amd64/
 ```
 
-You may use the following command to ensure the `Tiller` is running:
+You may re-run the following command to ensure Helm client and server successful installation:
 
-```bash
-$ kubectl -n kube-system get pods
-``` 
-
-and check if a pod with the prefix `tiller-deploy` is in the displayed list:
-
-```bash
-tiller-deploy-95d654d46-6pjn5     1/1     Running     0     13m
-```
-
-However, the state of the `tiller` pod may appear as `Running` even when
-it silently fails on some GKE versions. In order to ensure that `helm` is
-properly configured, you should also run `helm version` and make sure that
-both the `Client` and `Server` versions appear:
-
-```bash
+```shell
+$ helm version
 Client: &version.Version{SemVer:"v2.14.1", GitCommit:"5270352a09c7e8b6e8c9593002a73535276507c0", GitTreeState:"clean"}
 Server: &version.Version{SemVer:"v2.14.1", GitCommit:"5270352a09c7e8b6e8c9593002a73535276507c0", GitTreeState:"clean"}
 ```
 
-If the pod is not properly running, you may run the following commands to
-uninstall and re-install the helm `tiller` pod:
+Additionally, you may run the following command to ensure a `tiller`
+[pod](https://kubernetes.io/docs/concepts/workloads/pods/pod/) is running:
+
+```shell
+$ kubectl -n kube-system get pods
+NAME                                READY   STATUS    RESTARTS   AGE
+tiller-deploy-6d65d78679-xr9f4      1/1     Running   0          3m17s
+```
+
+If the helm `tiller` pod is not running, you may re-install it using the
+following commands:
 
 ```bash
 $ helm reset
@@ -158,28 +169,49 @@ $ helm update
 
 # Deploy Galaxy on the Cluster
 
-The deployment of Galaxy on a k8s cluster consists of two steps: 
+The deployment of Galaxy on a K8s cluster consists of two steps discussed as it follows.
 
 1. [Optional] Deploy the [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem)
-through the [CVMFS-CSI chart](https://github.com/CloudVE/galaxy-cvmfs-csi-chart).
+service using [CVMFS-CSI chart](https://github.com/CloudVE/galaxy-cvmfs-csi-chart).
 You may run the following commands for this deployment: 
 
-```bash
-$ git clone https://github.com/CloudVE/galaxy-cvmfs-csi-chart.git
-$ helm install galaxy-cvmfs-csi-chart/galaxy-cvmfs-csi/ --namespace=cvmfs --name=gxy-cvmfs
-```
+    ```bash
+    $ git clone https://github.com/CloudVE/galaxy-cvmfs-csi-chart.git
+    $ helm install galaxy-cvmfs-csi-chart/galaxy-cvmfs-csi/ --namespace=cvmfs --name=gxy-cvmfs
+    ```
 
-2. Deploy Galaxy chart, using the following commands:
+    If you get an error saying `Error: no available release name found`,
+    you may take the following steps:
 
-```bash
-$ git clone https://github.com/galaxyproject/galaxy-helm.git
-$ cd galaxy-helm/galaxy
-$ helm dependency update
-$ helm install . --set persistence.accessMode=ReadWriteOnce --set service.type=LoadBalancer --set service.port=80 --set ingress.enabled=false -f values-cvmfs.yaml --name my-gxy --namespace mynamespace
-```
+    - first [reset `helm`](https://helm.sh/docs/helm/#helm-reset), then
+    re-run the aforementioned `helm install` command.
 
-At this point, wait for about 8 minutes, and then check the status of the pods
-if all are scheduled and running.
+    - if resetting `helm` does not resolve the error, you may run the following commands:
+    ```bash
+    $ kubectl create serviceaccount --namespace kube-system tiller
+    $ kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+    $ kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
+    ```
+
+2. Deploy Galaxy chart using the following commands:
+
+    ```bash
+    $ git clone https://github.com/galaxyproject/galaxy-helm.git
+    $ cd galaxy-helm/galaxy
+    $ helm dependency update
+    $ helm install . --set persistence.accessMode=ReadWriteOnce --set service.type=LoadBalancer --set service.port=80 --set ingress.enabled=false -f values-cvmfs.yaml --name gxy --namespace gxy-namespace
+    $ kubectl config set-context --current --namespace=gxy-namespace
+    ```
+
+    At this point, wait for about 8 minutes, and then check the status of the pods
+    if all are scheduled and running using the following command:
+
+    ```bash
+    $ kubectl get pods
+
+    ```
+
+## Multi-node Cluster
 
 The cluster's default `storageClass` (which is usually supports `ReadWriteOnce`
 access mode) will be used. If you set-up a cluster with multiple nodes, a 
