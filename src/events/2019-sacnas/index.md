@@ -22,15 +22,15 @@ There will be a full day pre-conference workshop at [2019 SACNAS](http://www.201
 
 
 **Wednesday, October 30, 9am- 6pm**<br />
-**Room TBA**
+**Room 318AB**
 
 [<img class="float-left" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)
 
 Workshop attendees will be introduced to practical examples of how genomic data is used in research and clinical applications, highlighting techniques, technologies, and platforms used in genomic analysis. The current state of genomic science will be discussed, with emphasis on large scale sequencing projects of [NHGRI](https://www.genome.gov/) involving hundreds of thousands of individuals ([CCDG](https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Common-Disease-Genomics), [CMG](https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Mendelian-Genomics-CMG), [AnVIL](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL)). 
 
-Workshop participants will work with genomic data using the Galaxy workbench. Through guided hands-on exercises, attendees will learn best practices in data science using the Galaxy data integration and analysis framework, with emphasis on components that enable reproducibility, transparency, and accessibility. Participants will work through sample pipelines analyzing population level human variation (using Genome Wide Association Studies, [GWAS](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies?id=91)), characterization of disease variants, and data visualization with [RStudio](https://www.rstudio.com/).
+Workshop participants will work with genomic data using the Galaxy workbench. Through guided hands-on exercises, attendees will learn best practices in data science using the Galaxy data integration and analysis framework, with emphasis on components that enable reproducibility, transparency, and accessibility. Participants will work through sample pipelines analyzing how genes are expressed at different levels in different conditions, individuals and cell types, and data visualization with [RStudio](https://www.rstudio.com/).
 
-Participants of this workshop will achieve an understanding of Genomic Data Science. The presentations and hands-on exercises will provide practical exposure to the field of Genomics for young scholars. 
+Participants of this workshop will achieve a basic understanding of Genomic Data Science. The presentations and hands-on exercises will provide practical exposure to the field of Genomics for young scholars. 
 
 **Workshop goals**
 
@@ -48,10 +48,10 @@ The goals of this workshop are to
 | 11 am | **Human Genomics at scale (presentation)** <br /> GSP - scaling, logistics <br /> CCDG, CMG - discoveries, challenges, caveats <br /> AnVIL - opportunities |
 | 12 pm | **Data Science - Galaxy** (hands-on) <br /> Data management <br /> Data access, sharing <br /> Job processing + reproducibility |
 | 1 pm | **Lunch** (provided)
-| 2 pm | **Data Science - Galaxy GWAS analysis** (hands-on) <br /> GWAS <br /> Non coding variation is important |
-| 3 pm | **Data Science - Galaxy , variant characterization/viz** (hands-on) <br /> Simple/complex variants <br /> Multi-omic variant resolution <br /> Genome browser viz  |
+| 2 pm | **Data Science - Galaxy analysis with RNA-Seq** (hands-on) <br /> Mapping data to genomes |
+| 3 pm | **Data Science - Galaxy for Differential Gene Expression** (hands-on) <br /> Compare how genes are expressed at different time and levels |
 | 4 pm | **Data Science - RStudio interactive viz** (hands-on) <br /> [ggplot2](https://ggplot2.tidyverse.org/) (for scripting figures + layouts) <br /> Heatmaps |
-| 5 pm | **Data Science - Galaxy/RStudio - advanced exercises** (hands-on) <br /> Transcriptome reconstruction <br /> ChIP-seq analysis <br /> Metagenomics |
+| 5 pm | **Data Science - Galaxy/RStudio - advanced exercises** (hands-on) <br /> ChIP-seq analysis <br /> Metagenomics |
 | 6 pm | *Fin* |
 
 ## Instructors
