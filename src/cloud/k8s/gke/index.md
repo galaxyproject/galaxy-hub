@@ -10,6 +10,7 @@ to the following sections:
 - [Create a K8s cluster](#create-a-cluster);
 - [Install and configure Helm](#install-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
+- [Access Galaxy](#access-galaxy);
 - [Delete cluster](#delete-resources-and-gke-cluster). 
 
 > Note that all the commands given in this tutorial have been tested in 
@@ -208,6 +209,31 @@ You may run the following commands for this deployment:
     gxy-galaxy-web-555db6bcfb-2gwkh   1/1     Running   2          9m
     ```
 
+# Access Galaxy
+
+The deployed Galaxy can be accessed after the load balancer is ready,
+which may take few minutes to be ready. The load balancer status can be
+checked using the following command:
+
+```
+$ kubectl get svc gxy-galaxy
+NAME         TYPE           CLUSTER-IP     EXTERNAL-IP     PORT(S)        AGE
+gxy-galaxy   LoadBalancer   10.43.245.53   104.198.225.7   80:30597/TCP   15m
+```
+
+The deployed Galaxy instance can be accessed from the following address:
+
+```
+http://<EXTERNAL-IP>:80
+```
+
+The `EXTERNAL-IP` address can be obtained from the output of the previous command.
+For instance, the deployed Galaxy instance of this tutorial is accessible from the
+following IP address:
+
+```
+http://104.198.225.7:80
+```
 
 # Delete Resources and GKE cluster
 1. You may `uninstall` the Galaxy helm chart release using the following command:
