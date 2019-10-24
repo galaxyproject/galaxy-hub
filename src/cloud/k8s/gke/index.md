@@ -8,8 +8,7 @@ We break the steps of deploying a Galaxy instance on
 to the following sections:
 
 - [Create a K8s cluster](#create-a-cluster);
-- [Install Helm](#install-helm);
-- [Initialize Helm](#initialize-helm);
+- [Install and configure Helm](#install-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
 - [Delete cluster](#delete-resources-and-gke-cluster). 
 
@@ -67,10 +66,18 @@ __keep this shell open as all the following commands are executed in this window
 
         - `num-nodes`: the instructions on this page are compatible with a
         single-node cluster (i.e., `--num-nodes=1`). A multi-node
-        cluster setup requires additional steps [discussed here](#multi-node-cluster);
-        therefore, __if you increment the number of nodes, make sure the
-        [multi-node cluster requirements](#multi-node-cluster) are met
-        (otherwise the Galaxy deployment may not start).__
+        cluster setup requires additional steps discussed in the following,
+        __if you increment the number of nodes, make sure these configuration
+        are implemented__.
+
+        **Multi-node cluster**: The cluster's default `storageClass` (which is
+        usually supports `ReadWriteOnce` access mode) will be used. If you
+        set-up a cluster with multiple nodes, a `storageClass` that supports
+        `ReadWriteMany` access mode should be available on the cluster, and
+        should be set using `--set presistence.storageClass=[storageClassName]`
+        (leaving `accessMode=ReadWriteMany`). We recommend using the
+        [NFS-Provisioner](https://github.com/helm/charts/tree/master/stable/nfs-server-provisioner)
+        for a multi-node setup.
 
         - `machine-type`: the default machine type (i.e., `n1-standard-1`) can be considered
         suboptimal for Galaxy requirements, hence we set the machine type to `n1-standard-32`
@@ -200,17 +207,6 @@ You may run the following commands for this deployment:
     gxy-galaxy-postgres-0             1/1     Running   0          9m
     gxy-galaxy-web-555db6bcfb-2gwkh   1/1     Running   2          9m
     ```
-
-## Multi-node Cluster
-
-The cluster's default `storageClass` (which is usually supports `ReadWriteOnce`
-access mode) will be used. If you set-up a cluster with multiple nodes, a 
-`storageClass` that supports `ReadWriteMany` access mode should be available 
-on the cluster, and should be set using `--set 
-presistence.storageClass=[storageClassName]` (leaving 
-`accessMode=ReadWriteMany`). We recommend using the
-[NFS-Provisioner](https://github.com/helm/charts/tree/master/stable/nfs-server-provisioner)
-for a multi-node setup.
 
 
 # Delete Resources and GKE cluster
