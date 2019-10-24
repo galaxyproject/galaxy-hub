@@ -8,7 +8,6 @@ We break the steps of deploying a Galaxy instance on
 to the following sections:
 
 - [Create a K8s cluster](#create-a-cluster);
-- [Set the current context to your cluster](#set-the-current-context);
 - [Install Helm](#install-helm);
 - [Initialize Helm](#initialize-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
@@ -28,9 +27,10 @@ To create a GKE cluster, you may follow tutorials such as
 [this](https://cloud.google.com/kubernetes-engine/docs/quickstart).
 Alternatively, you may run the following steps:
 
-1. Goto [K8s Engine page](https://console.cloud.google.com/projectselector/kubernetes?_ga=2.101714888.-830640031.1571682936);
-2. Select a project, or create one if you already do not have one;
-3. On the top-right, click on the `Activate Cloud Shell [>_]` button;
+1. Goto [K8s Engine page](https://console.cloud.google.com/projectselector/kubernetes?_ga=2.101714888.-830640031.1571682936).
+2. Select a project, or create one if you already do not have one.
+3. On the top-right, click on the `Activate Cloud Shell [>_]` button, and
+__keep this shell open as all the following commands are executed in this window__.
 4. Run the following commands in the opened shell:
     1. Configure project name:
         ```
@@ -68,8 +68,9 @@ Alternatively, you may run the following steps:
         - `num-nodes`: the instructions on this page are compatible with a
         single-node cluster (i.e., `--num-nodes=1`). A multi-node
         cluster setup requires additional steps [discussed here](#multi-node-cluster);
-        therefore, if you increment the number of nodes, make sure the multi-node cluster
-        requirements are met.
+        therefore, __if you increment the number of nodes, make sure the
+        [multi-node cluster requirements](#multi-node-cluster) are met
+        (otherwise the Galaxy deployment may not start).__
 
         - `machine-type`: the default machine type (i.e., `n1-standard-1`) can be considered
         suboptimal for Galaxy requirements, hence we set the machine type to `n1-standard-32`
@@ -83,20 +84,6 @@ Alternatively, you may run the following steps:
 
         You may refer to [this page](https://cloud.google.com/sdk/gcloud/reference/container/clusters/create)
         for a complete list of the `gcloud` command arguments.
-
-
-
-# Set the current context
-
-After creating a cluster, ensure that the `kubectl` context in your shell
-environment is pointing to the correct cluster.
-For GKE Cloud Shell, you may use the `Connect` button next to your cluster in
-the `Kubernetes clusters` list in the GKE dashboard, which will start a new
-Cloud Shell tab with a pre-written line of the following form:
-
-```
-gcloud container clusters get-credentials <CLUSTER_NAME> --zone <ZONE> --project <PROJECT_NAME>
-```
 
 # Install Helm
 
