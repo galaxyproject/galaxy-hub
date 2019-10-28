@@ -18,6 +18,6 @@ These presentations at [eResearch Australasia](https://conference.eresearch.edu.
 
 | Date | Time | Title | Where | Presenter |
 | ---| ---: | --- | --- |
-| 23 October | 16:10 | [Galaxy Australia – the Bring Your Own Data platform enabling multi-omics analysis for biology researchers](https://conference.eresearch.edu.au/wp-content/uploads/2019/08/2019_eResearch_96_Galaxy-Australia-%E2%80%93-the-Bring-Your-Own-Data-platform.pdf) | Boulevard | Gareth Price |
+| 23 October | 16:10 | [Galaxy Australia – the Bring Your Own Data platform enabling multi-omics analysis for biology researchers](https://conference.eresearch.edu.au/wp-content/uploads/2019/08/2019_eResearch_96_Galaxy-Australia-%E2%80%93-the-Bring-Your-Own-Data-platform.pdf) ([Slides](https://depot.galaxyproject.org/hub/attachments/events/2019-10-eresearch-australasia/2019-era-galaxy-australia.pdf)) | Boulevard | Gareth Price |
 | 24 October | 14:45 | Keynote: The Development of ASEAN Federated Identity and Login Management, and Galaxy ASEAN Community | Boulevard | Muhammad Farhan Sjaugi |
 
