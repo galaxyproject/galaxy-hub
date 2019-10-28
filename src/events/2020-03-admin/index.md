@@ -97,3 +97,7 @@ The [two Barcelona Train Stations](https://www.thetrainline.com/en/stations/barc
 # Lodging
 
 Working on it...
+
+# Sponsors
+
+This workshop is generously supported by [ELIXIR Europe](https://elixir-europe.org/) and the [Barcelona Supercomputing Center](https://www.bsc.es/).  And we mean *generously*.  Registration will be very affordable.
