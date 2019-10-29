@@ -1,6 +1,6 @@
 ---
 title: "2020 Galaxy Admin Training"
-date: '2020-03-04'
+date: '2020-03-02'
 days: 5
 tease: "The ins and outs of setting up your own production quality Galaxy server. Plus, Barcelona!"
 continent: EU
@@ -12,7 +12,7 @@ contact: Instructors
 image:
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered 4-8 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
 This [workshop](https://github.com/galaxyproject/dagobah-training) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
