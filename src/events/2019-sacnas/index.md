@@ -47,7 +47,7 @@ The goals of this workshop are to
 | 10 am | **Practical Human Genomics** (presentation) <br /> Techniques <br />Analysis <br /> Tools |
 | 11 am | **Human Genomics at scale (presentation)** <br /> GSP - scaling, logistics <br /> CCDG, CMG - discoveries, challenges, caveats <br /> AnVIL - opportunities |
 | 12 pm | **Data Science - Galaxy** (hands-on) <br /> Data management <br /> Data access, sharing <br /> Job processing + reproducibility |
-| 1 pm | **Lunch** (provided)
+| 1 pm | **Lunch** (on your own)
 | 2 pm | **Data Science - Galaxy analysis with RNA-Seq** (hands-on) <br /> Mapping data to genomes |
 | 3 pm | **Data Science - Galaxy for Differential Gene Expression** (hands-on) <br /> Compare how genes are expressed at different time and levels |
 | 4 pm | **Data Science - RStudio interactive viz** (hands-on) <br /> [ggplot2](https://ggplot2.tidyverse.org/) (for scripting figures + layouts) <br /> Heatmaps |
