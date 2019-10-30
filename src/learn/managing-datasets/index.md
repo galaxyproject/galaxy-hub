@@ -13,7 +13,7 @@ You have multiple options how to get your files into Galaxy thus making them dat
 
 <div class='right'>![Upload Modal Icon](/src/learn/managing-datasets/upload_icon.png)</div>
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
-* **FTP upload** - In case of large files (the upload modal has ~2GB browser limit) or unpredictable connection (support for pausing and resuming) you might want to use FTP. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
+* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
 
 # Dataset Icons & Text
 
