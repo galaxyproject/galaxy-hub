@@ -86,7 +86,7 @@ In the tool XML, there would need to be a parameter such as:
   </param>
 ```
 
-This would give the user a dropdown listing all of the values in the name column supplied in the loc file (in our example, "User-friendly phiX174 Description"). The value stored as the value of the parameter `index` would be "phiX\_ID". The script or binary will need the actual path in the command, and since the ID is the value, some work will need to be done to extract the path. The following line would do the trick: `--ref="${ filter( lambda x: str( x[0] ) == str( $index ), $ __app__.tool_data_tables['bowtie_indexes'].get_fields() )[0][-1] }"` In this line, `str( x[0] )` refers to the unique ID in column 0 and the -1 in `[0][-1]` gets the path in the last column.
+This would give the user a dropdown listing all of the values in the name column supplied in the loc file (in our example, "User-friendly phiX174 Description"). The value stored as the value of the parameter `index` would be "phiX\_ID". The script or binary will need the actual path in the command, and since the value returned is a row object from the data table, you can access it like this: `--ref="${index.fields.path}`.  Currently, select lists where `multiple=true` are not supported, but you can wrap the single-item select list in a repeat to achieve the same result.  The old way of supporting multiple select lists involved using galaxy internals (which is discouraged): `--ref="${ filter( lambda x: str( x[0] ) == str( $index ), $ __app__.tool_data_tables['bowtie_indexes'].get_fields() )[0][-1] }"`, where `str( x[0] )` refers to the unique ID in column 0 and the -1 in `[0][-1]` gets the path in the last column.
 
 ## When Converting from Old-style Approach to Data Tables
 
