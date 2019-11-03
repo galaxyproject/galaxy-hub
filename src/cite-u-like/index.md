@@ -1,5 +1,5 @@
 ---
-title: "Galaxy's CiteULike library has moved to Zotero
+title: "Galaxy's CiteULike library has moved to Zotero"
 ---
 
 ![Zotero](/src/images/logos/zotero-logo-small-trans.png)
