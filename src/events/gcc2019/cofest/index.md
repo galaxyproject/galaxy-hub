@@ -1,5 +1,5 @@
 ---
-title: "GCC2019 CollaborationFest: Core and Encore
+title: "GCC2019 CollaborationFest: Core and Encore"
 ---
 
 {{> Events/GCC2019/Header }}

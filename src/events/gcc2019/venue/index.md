@@ -1,5 +1,5 @@
 ---
-title: "GCC2019 Venue: Freiburg Germany
+title: "GCC2019 Venue: Freiburg Germany"
 ---
 
 {{> Events/GCC2019/Header }}
