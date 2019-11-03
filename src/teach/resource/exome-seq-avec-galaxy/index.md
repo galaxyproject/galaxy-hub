@@ -1,5 +1,5 @@
 ---
-title: [Analyse de données ExomeSeq avec Galaxy](https://youtu.be/HyQCUWmgx84)
+title: Analyse de données ExomeSeq avec Galaxy
 ---
 <div class='center'>
 <a href='http://linkToResourceOrOrg'><img src="/src/teach/resource/exome-seq-avec-galaxy/ExomeSeqVideo.png" alt="Analyse de données ExomeSeq avec Galaxy" height="200" /></a>

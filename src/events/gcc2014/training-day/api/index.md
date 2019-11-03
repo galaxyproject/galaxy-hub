@@ -1,5 +1,5 @@
 ---
-title: Galaxy Automation: Using the API
+title: "Galaxy Automation: Using the API"
 ---
 {{> Events/GCC2014/Header }}
 <br /><br />

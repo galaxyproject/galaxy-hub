@@ -1,5 +1,5 @@
 ---
-title: [GalaxyScientists](/src/galaxy-scientists/index.md)
+title: GalaxyScientists
 ---
 {{> Events/GCC2015/Header }}
 

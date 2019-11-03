@@ -1,5 +1,5 @@
 ---
-title: 2018 GCCBOSC2018 Conferences: Training
+title: "2018 GCCBOSC2018 Conferences: Training"
 ---
 
 {{> Events/GCCBOSC2018/Header }}
