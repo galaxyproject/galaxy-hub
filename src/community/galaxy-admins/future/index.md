@@ -1,5 +1,5 @@
 ---
-title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
+title: GalaxyAdmins Future Directions
 ---
 <div class='center'>
 ![GalaxyAdmins](/src/images/logos/GalaxyAdmins.png)

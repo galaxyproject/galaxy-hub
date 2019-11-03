@@ -1,5 +1,5 @@
 ---
-title: [GalaxyAt](/src/GalaxyAt/index.md)UIowa
+title: Galaxy at UIowa
 ---
 <div class='center'>
 <a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/images/logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>

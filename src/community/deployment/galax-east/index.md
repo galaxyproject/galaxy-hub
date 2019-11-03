@@ -1,5 +1,5 @@
 ---
-title: [GalaxyEast](http://www.galaxeast.fr)
+title: GalaxyEast
 ---
 <div class='center'>
 <a href='http://www.galaxeast.fr'><img src="/src/use/galaxeast/galaxeast.png" alt="GalaxEast" height="200" /></a>

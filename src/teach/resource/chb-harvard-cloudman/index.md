@@ -1,5 +1,5 @@
 ---
-title: [Running your own Galaxy instance (in the cloud)](http://hbc.github.io/ngs-workshops/courses/running-your-own-galaxy-instance/)
+title: "Running your own Galaxy instance (in the cloud)"
 ---
 <div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/images/logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 

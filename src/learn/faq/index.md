@@ -1,5 +1,5 @@
 ---
-title: [Frequently Asked Questions](/src/faqs/index.md) for Using Galaxy
+title: Frequently Asked Questions for Using Galaxy
 ---
 {{> Learn/LinkBox }}
 {{> FAQs/LinkBox }}

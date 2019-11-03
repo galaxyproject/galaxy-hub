@@ -1,5 +1,5 @@
 ---
-title: [ChIP-Seq avec Galaxy](https://youtu.be/qgiH4h52HYc)
+title: ChIP-Seq avec Galaxy
 ---
 <div class='center'>
 <a href='https://youtu.be/qgiH4h52HYc'><img src="/src/teach/resource/chip-seq-avec-galaxy/ChIP-SeqAvecGalaxyVideo.png" alt="ChIP-Seq avec Galaxy" height="200" /></a>
