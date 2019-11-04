@@ -28,7 +28,6 @@ Member | Joined | GitHub
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute | 2014-08-25 | [@nsoranzo](https://github.com/nsoranzo)
 **Helena Rasche**, University of Freiburg | 2014-08-25 | [@erasche](https://github.com/erasche)
-**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate)
 **Marius van den Beek**, Galaxy Team, Penn State University | 2015-10-12 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | 2016-05-11 | [@abretaud](https://github.com/abretaud)
@@ -46,3 +45,5 @@ Member | Joined | GitHub
 ------ | ------ | ------
 **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
 **Edward Kirton**, U.S. Department of Energy | founding member |
+**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate)
+
