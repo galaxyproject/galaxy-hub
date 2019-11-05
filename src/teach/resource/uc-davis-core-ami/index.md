@@ -1,5 +1,5 @@
 ---
-title: [UC Davis Bioinformatics Core Galaxy AMI](http://bioinformatics.ucdavis.edu/software/)
+title: UC Davis Bioinformatics Core Galaxy AMI
 ---
 <div class='center'>
 <a href='http://bioinformatics.ucdavis.edu/'><img src="/src/images/logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core" height="100" /></a>

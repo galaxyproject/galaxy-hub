@@ -1,5 +1,5 @@
 ---
-title: Galaxy Admin Training: Help spread the word
+title: "Galaxy Admin Training: Help spread the word"
 ---
 {{> Events/AdminTraining2016/Header }}
 

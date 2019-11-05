@@ -1,5 +1,5 @@
 ---
-title: [Détection de variants structuraux](https://youtu.be/aNPDObmX2ho)
+title: "Détection de variants structuraux"
 ---
 <div class='center'>
 <a href='https://youtu.be/aNPDObmX2ho'><img src="/src/teach/resource/detection-de-variants-structuraux/DétectionVariantsStructurauxVideo.png" alt="Détection de variants structuraux" height="200" /></a>

@@ -1,5 +1,5 @@
 ---
-title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM)
+title: "GVL Variant Detection Advanced Tutorial"
 ---
 <div class='center'>
 <a href='https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM'><img src="/src/images/logos/gvl-300.png" alt="Variant Detection Advanced Tutorial" height="200" /></a>

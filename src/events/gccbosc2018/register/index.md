@@ -1,5 +1,5 @@
 ---
-title: 2018 GCCBOSC2018 Conferences: Register
+title: "2018 GCCBOSC2018 Conferences: Register"
 ---
 
 {{> Events/GCCBOSC2018/Header }}

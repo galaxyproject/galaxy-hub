@@ -1,5 +1,5 @@
 ---
-title: [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote)
+title: Carrie Ganote
 ---
 <div class='right'><img src="/src/events/gcc2014/abstracts/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
 

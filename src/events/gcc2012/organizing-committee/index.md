@@ -1,5 +1,5 @@
 ---
-title: [GCC2012](/src/events/gcc2012/index.md) Organizing Committee
+title: GCC2012 Organizing Committee
 ---
 {{> Events/GCC2012/PageHeader }}
 

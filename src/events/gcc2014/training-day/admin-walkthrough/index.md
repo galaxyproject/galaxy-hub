@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Galaxy Installation and Administration
+title: "Tutorial: Galaxy Installation and Administration"
 ---
 {{> Events/GCC2014/Header }}
 <br /><br />
