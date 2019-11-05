@@ -1,5 +1,5 @@
 ---
-title: Teaching with Galaxy: Materials
+title: "Teaching with Galaxy: Materials"
 ---
 {{> Teach/Header }}
 

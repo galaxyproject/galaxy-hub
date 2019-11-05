@@ -1,5 +1,5 @@
 ---
-title: Galaxy-Admins
+title: "Galaxy-Admins"
 ---
 <div class='center'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
 

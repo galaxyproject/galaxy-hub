@@ -1,5 +1,5 @@
 ---
-title: [GalaxyCzars](/src/community/galaxy-admins/index.md) [GCC2012 Breakout Session](/src/events/gcc2012/index.md)
+title: GalaxyCzars GCC2012 Breakout Session
 ---
 <div class='center'>
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;

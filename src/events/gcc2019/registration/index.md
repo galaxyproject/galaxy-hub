@@ -1,5 +1,5 @@
 ---
-title: "GCC2019 Registration
+title: "GCC2019 Registration"
 ---
 
 {{> Events/GCC2019/Header }}

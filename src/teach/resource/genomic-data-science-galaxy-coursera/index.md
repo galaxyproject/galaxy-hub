@@ -1,5 +1,5 @@
 ---
-title: [Genomic Data Science with Galaxy on Coursera](https://www.coursera.org/course/gengalaxy)
+title: Genomic Data Science with Galaxy on Coursera
 ---
 <div class='center'><a href='https://www.coursera.org/course/gengalaxy'><img src="/src/images/logos/CourseraGBDS.png" alt="Genomic Data Science with Galaxy"  /></a>
 </div>

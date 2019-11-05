@@ -1,5 +1,5 @@
 ---
-title: [DataProviders](/src/dataProvider/index.md) Cookbook
+title: DataProviders Cookbook
 ---
 <div class='left'></div>
 
