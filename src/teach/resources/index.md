@@ -1,5 +1,5 @@
 ---
-title: Galaxy Training: Resources
+title: "Galaxy Training: Resources"
 ---
 {{> Teach/Header }}
 

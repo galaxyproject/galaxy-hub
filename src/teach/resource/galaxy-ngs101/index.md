@@ -1,5 +1,5 @@
 ---
-title: [Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md)
+title: Galaxy NGS 101
 ---
 <div class='center'>
 <a href='https://vimeo.com/album/3456159'><img src="/src/images/ngs101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>

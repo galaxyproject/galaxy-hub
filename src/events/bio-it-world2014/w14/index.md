@@ -1,5 +1,5 @@
 ---
-title: Workshop 14: Running a Local Galaxy Instance
+title: "Workshop 14: Running a Local Galaxy Instance"
 ---
 [Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/src/people/nate/index.md), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
 
