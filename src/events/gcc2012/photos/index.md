@@ -1,5 +1,5 @@
 ---
-title: [GCC2012](/src/events/gcc2012/index.md) Photos
+title: GCC2012 Photos
 ---
 {{> Events/GCC2012/PageHeader }}
 

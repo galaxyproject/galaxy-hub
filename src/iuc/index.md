@@ -26,19 +26,24 @@ Member | Joined | GitHub
 **Nate Coraor**, Galaxy Team, Penn State University | founding member | [@natefoo](https://github.com/natefoo)
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
-**Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
-**Helena Rasche**, University of Freiburg |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
-**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
-**Marius van den Beek**, Institut Curie | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
+**Nicola Soranzo**, Earlham Institute | 2014-08-25 | [@nsoranzo](https://github.com/nsoranzo)
+**Helena Rasche**, University of Freiburg | 2014-08-25 | [@erasche](https://github.com/erasche)
+**Marius van den Beek**, Galaxy Team, Penn State University | 2015-10-12 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
-**Anthony Bretaudeau**, GenOuest BioInformatics Platform | May 11, 2016 | [@abretaud](https://github.com/abretaud)
-**Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
-**Lance Parsons**, Princeton University | Oct 28, 2016 | [@lparsons](https://github.com/lparsons)
-**Bérénice Batut**, University of Freiburg | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
-**Maria Doyle**, Peter MacCallum Cancer Centre | Nov 11, 2017 | [@mblue9](https://github.com/mblue9)
-**Simon Gladman**, University of Melbourne | Nov 11, 2017 | [@Slugger70](https://github.com/slugger70)
-**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | Jul 20, 2018 | [@bernt-matthias](https://github.com/bernt-matthias)
+**Anthony Bretaudeau**, GenOuest BioInformatics Platform | 2016-05-11 | [@abretaud](https://github.com/abretaud)
+**Saskia Hiltemann**, Erasmus University Medical Center | 2016-06-14 | [@shiltemann](https://github.com/shiltemann)
+**Lance Parsons**, Princeton University | 2016-10-28 | [@lparsons](https://github.com/lparsons)
+**Bérénice Batut**, University of Freiburg | 2017-02-14 | [@bebatut](https://github.com/bebatut)
+**Maria Doyle**, Peter MacCallum Cancer Centre | 2017-11-11 | [@mblue9](https://github.com/mblue9)
+**Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70)
+**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | 2018-07-20 | [@bernt-matthias](https://github.com/bernt-matthias)
+**Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
 
-Inactive members
-- **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
-- **Edward Kirton**, U.S. Department of Energy | founding member |
+### Former members
+
+Member | Joined | GitHub
+------ | ------ | ------
+**Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
+**Edward Kirton**, U.S. Department of Energy | founding member |
+**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate)
+

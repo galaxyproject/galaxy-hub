@@ -1,5 +1,5 @@
 ---
-title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) GCC2015 Meetup
+title: GalaxyAdmins GCC2015 Meetup
 ---
 {{> Events/GCC2015/Header }}
 

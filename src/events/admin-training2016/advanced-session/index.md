@@ -1,5 +1,5 @@
 ---
-title: Galaxy Admin Training: Advanced Topics
+title: "Galaxy Admin Training: Advanced Topics"
 ---
 {{> Events/AdminTraining2016/Header }}
 
