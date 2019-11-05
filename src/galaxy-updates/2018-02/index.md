@@ -283,7 +283,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including two new public servers:
 
-[<img class="float-right" src="/src/use/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
+[<img class="float-right" src="/src/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
 
 ## A-Game
 
@@ -294,7 +294,7 @@ A-Game is supported by [BEACON](https://bioscienzebio.unimi.it/gruppo.php?id=26)
 
 ## Splicescope
 
-[<img class="float-left" src="/src/use/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
+[<img class="float-left" src="/src/use/archive/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
 
 [Splicescope](http://galaxy.splicebase.net/) is a tool-publishing server for predicting neuronal maturation using splicing profiles. Splicescope takes either an exon inclusion ratio matrix file or junction bed files from multiple samples as input and outputs a zip file including prediction results, PCA analysis results and a PCA plot based on reference samples and an html file to summarize the prediction.
 

@@ -464,7 +464,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 
 ### Galaxy-CEFAP
 
-<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/use/galaxy-cefap/cefap-logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
+<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/use/archive/galaxy-cefap/cefap-logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
 
 [Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) offers a set of tools to perform RNA-Seq and miRNA. User support is available via [Email](mailto:geninfo AT icb DOT usp DOT br), and there is an [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf) as well.  Anyone can use the server, but it is necessary to create a login first.  Email [geninfo AT icb DOT usp DOT br](mailto:geninfo AT icb DOT usp DOT br) to request an account. There is a storage quota for all users.
 

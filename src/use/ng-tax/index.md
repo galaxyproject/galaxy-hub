@@ -22,6 +22,7 @@ quotas:
 citations:
   - "[NG-Tax, a highly accurate and validated pipeline for analysis of 16S rRNA amplicons from complex biomes](https://doi.org/10.12688/f1000research.9227.2), Ramiro-Garcia J, Hermes GDA, Giatsis C et al. *F1000Research* 2018, 5:1791 "
 pub_libraries:
+  - "NG-Tax"
 sponsors:
   - "[Laboratory of Systems and Synthetic Biology - Wageningen University & Research](https://www.wur.nl/en/Research-Results/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Systems-and-Synthetic-Biology.htm)"
 ---
