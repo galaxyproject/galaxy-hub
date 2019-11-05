@@ -8,9 +8,8 @@ platforms:
     platform_text: "kmer-SVM server"
     platform_location: US
 summary: "Tool suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay.  "
-image: "/src/use/kmer-svm/kmer-svm.png"
+image: "kmer-svm.png"
 comments:
-  - "[Deployment page](/src/community/deployment/kmer-svm/index.md)"
   - "Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
   - "A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a [Galaxy Tool Shed repository](http://toolshed.g2.bx.psu.edu/view/cafletezbrant/kmersvm) are also available."
 user_support:

@@ -8,7 +8,7 @@ platforms:
     platform_text: "A-Game server"
     platform_location: IT
 summary: "A Galaxy suite for tArgeted MEtagenomics"
-image: "/src/use/a-game/agame-logo.png"
+image: "agame-logo.png"
 comments:
   - "A web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data."
 user_support:

@@ -30,7 +30,7 @@ No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the 
 
 ## kmer-SVM
 
-<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/use/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
+<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/use/archive/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
 
 [kmer-SVM](http://kmersvm.beerlab.org/) is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
 

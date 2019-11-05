@@ -8,7 +8,7 @@ platforms:
     platform_text: "Splicescope"
     platform_location: US
 summary: "Prediction of neuronal maturation using splicing profiles"
-image: "/src/use/splicescope/zhang-lab.png"
+image: "zhang-lab.png"
 comments:
   - "Takes either an exon inclusion ratio matrix file or junction bed files from multiple samples as input and outputs a zip file including prediction results, PCA analysis results and a PCA plot based on reference samples and an html file to summarize the prediction."
 user_support:
