@@ -9,12 +9,12 @@ location_url: "https://www.bsc.es/"
 external_url:
 gtn: true
 contact: Instructors
-image:
+image: "2020-admin-banner.png"
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training/tree/2020-barcelona) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
-This [workshop](https://github.com/galaxyproject/dagobah-training) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
+This [workshop](https://github.com/galaxyproject/dagobah-training/tree/2020-barcelona) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
 Galaxy is an open web based platform for biomedical data integration and analysis. It is deployed at large and small organizations around the world and used in a broad range of biomedical research domains, and across the tree of life.
 
@@ -50,7 +50,7 @@ You don’t need to be an expert at Linux package management, but you do need to
 
 We’ll be using Ubuntu based images during the workshop, which means we’ll be using **[apt](https://help.ubuntu.com/community/AptGet/Howto)** to do package management.  Get to know it.
 
-# Laptop Requirements
+## Laptop Requirements
 
 All participants should bring a wifi-enabled laptop with 
 
@@ -60,33 +60,34 @@ All participants should bring a wifi-enabled laptop with
   * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
-# Instructors
-
-We currently have four confirmed (and highly experienced!) instructors:
-
-* [Nate Coraor](/src/people/nate/index.md), lead sysadmin of [usegalaxy.org](https://usegalaxy.org) and a software engineer for the Galaxy Project
-* [Saskia Hiltemann](https://github.com/shiltemann), administrator of [Galaxian](https://bioinf-galaxian.erasmusmc.nl/galaxy/) the Galaxy server hosted by Erasmus MC, longtime tool developer, and co-founder of the Galaxy Training Network
-* [Helena Rasche](https://github.com/erasche), managed and setup much of the [Galaxy Europe](https://usegalaxy.eu) and [CPT Galaxy](https://cpt.tamu.edu/galaxy-pub/) infrastructure, plus much, much more.
-* [Marius van den Beek](https://github.com/mvdbeek), Galaxy community contributor extraordinaire, and the newest member of the US Galaxy Team.
-
-
 # Registration
 
 **Registration will open in November** and will be available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.
 
 Space is limited and the 2016 and 2018 admin training workshops sold out.
 
-| | Early <br /> by 15 Jan | Advance <br /> by 7 Feb  | Full |
-| ---- | ---- | ---- | ---- |
-| Non-profit / academic |   € | € | € |
-| Industry                        | € | € | € |
+| | Early: by 15 Jan | Advance: by 7 Feb  | Full |
+| ---- | :----: | :----: | :----: |
+| Non-profit / academic |   €40 | €80 | €160 |
+| Industry                        | €100 | €200 | €400 |
 
+(Costs are tentative.)
 
 ## Cancellations
 
 * Cancellations received before the early registration deadline (15 January) will receive a full refund.
 * Cancellations received after early registration closes, but before Advance registration closes (7 February) will receive a 50% refund.
 * Cancellations received after 7 February will not receive a refund.
+
+# Instructors
+
+We currently have four confirmed (and highly experienced!) instructors:
+
+* [Nate Coraor](/src/people/nate/index.md), lead sysadmin of [usegalaxy.org](https://usegalaxy.org), a software engineer for the Galaxy Project, ...
+* [Saskia Hiltemann](https://github.com/shiltemann), administrator of [Galaxian](https://bioinf-galaxian.erasmusmc.nl/galaxy/) the Galaxy server hosted by Erasmus MC, longtime tool developer, co-founder of the Galaxy Training Network, ...
+* [Helena Rasche](https://github.com/erasche), managed and setup much of the [Galaxy Europe](https://usegalaxy.eu) and [CPT Galaxy](https://cpt.tamu.edu/galaxy-pub/) infrastructure, ...
+* [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Galaxy Platform Development Officer at the [Earlham Institute](https://www.earlham.ac.uk/), Intergalactic Utilities Commission member, ... 
+* [Marius van den Beek](https://github.com/mvdbeek), Galaxy community contributor extraordinaire, the newest member of the US Galaxy Team, ...
 
 # Transportation
 
@@ -97,6 +98,11 @@ The [two Barcelona Train Stations](https://www.thetrainline.com/en/stations/barc
 # Lodging
 
 Working on it...
+
+<div class="float-right">
+[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 12rem" />](https://elixir-europe.org/)
+[<img src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 20rem" />](https://www.bsc.es/)
+</div>
 
 # Sponsors
 
