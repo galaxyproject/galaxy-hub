@@ -12,6 +12,7 @@ image: "pepsimili-workflow.png"
 comments:
   - "PepSimili provides a systems-level interpretation of the mechanisms impacted by the cumulative effect of multiple mimicking peptides on protein networks. It shortlists and ranks candidate target proteins derived from Phage Display experiments, according to their functional impact."
 user_support:
+  - "Email support: avek @ me . com"
 quotas:
   - "You need an account to run analyses.  Anyone can create an account."
 citations:
