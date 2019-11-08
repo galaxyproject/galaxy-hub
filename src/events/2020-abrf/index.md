@@ -7,9 +7,9 @@ continent: NA
 location: "ABRF 2020, Palm Springs, California, United States"
 location_url: http://conf.abrf.org/
 external_url:
-image: /src/images/logos/ABRFLogoSquareSmall.png
+image: "/src/images/logos/abrf-logo-color-text.png"
 gtn: true
-contact: Pratik Jagtap
+contact: "Pratik Jagtap"
 ---
 
 There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  The day focuses on two topics: 
