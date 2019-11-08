@@ -1,5 +1,5 @@
 ---
-title: "Become an Ambassador for the Open Life Science Program"
+title: "Join the Open Life Science Program and become an Ambassador for Openness in Lile Science"
 tease: "Apply by 8 December"
 date: ""
 ---
@@ -14,7 +14,8 @@ This program gives an unique opportunity to develop an Open Science project that
 
 The first cohort will run from **January to April 2020**. [Applications are open](https://easychair.org/cfp/ols-2020) until **8 December 2019** (midnight in any part of the world). 
 
-To answer any questions related to this program, an online information session (webinar) will be held on X November 2019 at [TBD](https://arewemeetingyet.com/something) via this [Zoom room](zoomlink).
+To answer any questions related to this program, an online information session (webinar) will be held on [27 November 2019 at 4pm GMT](https://arewemeetingyet.com/Berlin/2019-11-27/17:00/OpenLifeSci%20&%20eLife%20Application%20Webinar) via this [Zoom room](https://zoom.us/j/653381208). Agenda and notes can be found [there](https://docs.google.com/document/d/1EIDzZi5mgRiWR7cJQl0up470C87GsbcoTR_6-cs-SeE/edit?usp=sharing).
 
-We strongly encourage you to apply,<br />
+We strongly encourage members of the Galaxy Community to apply,
+
 [Bérénice Batut](https://research.bebatut.fr/), [Malvika Sharan](https://github.com/malvikasharan), and [Yo Yehudi](https://github.com/yochannah)
