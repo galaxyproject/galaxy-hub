@@ -1,5 +1,5 @@
 ---
-title: "Join the Open Life Science Program and become an Ambassador for Openness in Lile Science"
+title: "Join the Open Life Science Program and become an Ambassador for Openness in Life Science"
 tease: "Apply by 8 December"
 date: ""
 ---
