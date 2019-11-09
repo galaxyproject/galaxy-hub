@@ -53,6 +53,15 @@ And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before*
 [Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about using Galaxy with your *single cell and microbiome* data.  ABRF bills itself as "**the** annual conference for technology-enabled multidisciplinary research."
 </div>
 
+<div class="card border-info" style="min-width: 15rem; max-width: 18rem;">
+<img class="card-img-top" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Galaxy Admin Training 2020" />
+<div class="card-header">2-6 March: Galaxy Admin Training 2020</div>
+
+Save these dates!  The next **[Galaxy Admin Training](/src/events/2020-03-admin/index.md) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+
+This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server.  Registration will open later this month.
+</div>
+
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem">
 <img class="card-img-top" src="/src/news/2019-11-galaxy-update/upcoming-continents.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>

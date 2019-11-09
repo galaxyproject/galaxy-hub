@@ -178,9 +178,11 @@ hr {
 
 /* Card overrides */
 div.card {
-    margin: 0.75rem;
-    margin-top: 0.75rem;
     line-height: 1.2;
+} 
+
+div.card-deck .card {
+    margin: 0.75rem 0.75rem 0 0;
 }
 
 div.card p {
