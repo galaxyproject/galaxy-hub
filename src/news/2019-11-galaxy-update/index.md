@@ -1,18 +1,19 @@
 ---
 title: 'November 2019 Galactic News'
-tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too."
-date: ""
+tease: "Events! Pubs! Platforms! Jobs! Releases!"
+date: "2019-11-12"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
 
 The *November 2019 Galactic News*  includes Galactic news under this or any other sun:
 
-* [xxxxxx Upcoming Events](/src/news/2019-11-galaxy-update/index.md#events)
-* [xxxxxxx new publications](/src/news/2019-11-galaxy-update/index.md#publications)
+* [19 Upcoming Events](/src/news/2019-11-galaxy-update/index.md#events)
+* [208 new publications](/src/news/2019-11-galaxy-update/index.md#publications)
+* [2 new blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](/src/news/2019-11-galaxy-update/index.md#galaxy-platforms-news)
-* [xxxxxx Openings](/src/news/2019-11-galaxy-update/index.md#whos-hiring) 
-* [Training material and doc updates](/src/news/2019-11-galaxy-update/index.md#doc-hub-and-training-updates)
+* [Openings](/src/news/2019-11-galaxy-update/index.md#whos-hiring) with 5 organizations 
+* [Releases](#releases)
 * [Other news](/src/news/2019-11-galaxy-update/index.md#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -174,7 +175,7 @@ A general purpose Galaxy server optimized for microbiological genomics applicati
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Excelence in Breeding](/src/use/eib/index.md)</div>
+<div class="card-header">[Excellence in Breeding](/src/use/eib/index.md)</div>
 
 <img class="card-img-top" src="/src/use/eib/eib-logo.png" alt="Excellence in Breeding (EIB)" />
 
@@ -196,7 +197,7 @@ Mapping of massive peptide repertoires on whole proteomes and delivering streaml
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[RNA Modification Calling](/srcuse/rna-modification-calling/index.md)</div>
+<div class="card-header">[RNA Modification Calling](/src/use/rna-modification-calling/index.md)</div>
 
 <img class="card-img-top" src="/src/use/rna-modification-calling/figure3.jpg" alt="RNA Modification Calling" />
 
@@ -283,7 +284,35 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 </div>
 </div>
 
+# Releases
 
+<div class="card-deck">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">Tripal Galaxy Module 1.1</div>
+
+<img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal" />
+
+[Tripal Galaxy](https://tripal-galaxy.readthedocs.io/en/latest/) is a [Drupal](https://www.drupal.org/) module is designed to support integration of the [Tripal online database construction toolkit](http://tripal.info/) with Galaxy. It uses the [blend4php](https://github.com/galaxyproject/blend4php) library.
+
+[Release 1.1](https://github.com/tripal/tripal_galaxy/releases) features bug fixes, simplified results pages, and the results list now honors the Galaxy workflow star icons that indicates when intermediate files should be hidden. It's cleaner and more simple.
+</div>
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">Galaxy-Helm 3.0.0</div>
+
+<img class="card-img-top" src="/src/images/logos/helm-logo-transparent.png" alt="Helm" />
+
+A new version of the [Galaxy Helm chart is available](https://github.com/galaxyproject/galaxy-helm). The Galaxy [Helm](https://helm.sh/) chart focuses on production-ready Galaxy deployments for [Kubernetes](https://kubernetes.io/) that are easy to deploy and manage. Give it a try and help us make it better.
+</div>
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">Planemo 0.62.0</div>
+
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+</div>
+</div>
 
 
 # Other News
