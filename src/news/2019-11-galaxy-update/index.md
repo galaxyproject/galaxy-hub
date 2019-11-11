@@ -12,6 +12,7 @@ The *November 2019 Galactic News*  includes Galactic news under this or any othe
 * [208 new publications](/src/news/2019-11-galaxy-update/index.md#publications)
 * [2 new blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](/src/news/2019-11-galaxy-update/index.md#galaxy-platforms-news)
+* [Training material and doc updates](/src/news/2019-11-galaxy-update/index.md#doc-hub-and-training-updates)
 * [Openings](/src/news/2019-11-galaxy-update/index.md#whos-hiring) with 5 organizations 
 * [Releases](#releases)
 * [Other news](/src/news/2019-11-galaxy-update/index.md#other-news)
@@ -236,6 +237,36 @@ Platforms that were referenced at least twice in the past month's publications:
 *Note: This is the first time, since the beginning of time, that the Huttenhower server was not the most referenced server in the previous month.*
 </div>
 </div>
+
+# Doc, Hub, and Training Updates
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Protein-ligand docking](https://galaxyproject.github.io/training-material/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-11-galaxy-update/gtn-protein-ligand.gif" alt="Active site" />
+
+<p class="card-text">
+By [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray). In this tutorial, you will perform docking of ligands into the N-terminus of Hsp90 (heat shock protein 90). The tools used for docking are based on the open-source software [AutoDock Vina](http://vina.scripps.edu/) ([Trott and Olson 2009](https://galaxyproject.github.io/training-material/topics/computational-chemistry/tutorials/cheminformatics/tutorial.html#Trott2009)).<br /><br /></p>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Single-cell quality control with scater](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-11-galaxy-update/gtn-scater-workflow.jpg" alt="scater workflow" />
+
+<p class="card-text">
+By [Graham Etherington](https://training.galaxyproject.org/training-material/hall-of-fame#ethering) and [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo). Learn to use scater ([McCarthy et al. 2017](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scater-qc/tutorial.html#10.1093/bioinformatics/btw777)) to visualise scRNA-seq data, filter out low-quality cells, confirm that filtering has worked, and then look at confounding factors such as batch effect to see if the data is biased to any technical artifacts.</p>
+</div>
+
+<div class="card border-info"  style="min-width: 12rem;">
+<div class="card-header">[Data: Downloading and Deleting Data in Galaxy](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/download-delete-data/tutorial.html)</div>
+<img class="card-img-top" src="/src/news/2019-11-galaxy-update/gtn-show-deleted.png" alt="show deleted" />
+
+<p class="card-text">
+By [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-fame#slugger70), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche).  This tutorial outlines the process to get your data out of Galaxy and to delete it from Galaxy afterwards.</p>
+</div>
+</div>
+
 
 # Who's Hiring
 
