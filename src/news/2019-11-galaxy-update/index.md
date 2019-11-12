@@ -187,7 +187,8 @@ Hosts tools for the [GOBii project](http://gobiiproject.org/), [HTPG project](ht
 
 <img class="card-img-top" src="/src/use/migale/migale-orange.png" alt="Migale Galaxy" />
 
-A general purpose genomics server with an emphasis on metagenomics, including FROGS and several Migale developed tools. *GeDI* maps shotgun metagenomes on reference genomes for estimating microbial ecosystems; and *MetaFoldScan* scans metagenomes and identifies fold hits associated to a structurally characterized target protein.</div>
+A general purpose genomics server with an emphasis on metagenomics, including FROGS and several Migale developed tools. *GeDI* maps shotgun metagenomes on reference genomes for estimating microbial ecosystems; and *MetaFoldScan* scans metagenomes and identifies fold hits associated to a structurally characterized target protein. See the [Migale newsletter](https://migale.inra.fr/sites/default/files/Migazette/Migazette_20.pdf) for more.
+</div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[PepSimili](/src/use/pepsimili/index.md)</div>
