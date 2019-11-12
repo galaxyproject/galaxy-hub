@@ -13,6 +13,10 @@ title: Galaxy Updates
 
 ## 2019 Updates
 
+* [2019-11](/src/news/2019-11-galaxy-update/index.md)
+* [2019-10](/src/news/2019-10-galaxy-update/index.md)
+* [2019-09](/src/news/2019-09-galaxy-update/index.md)
+* [2019-08](/src/news/2019-08-galaxy-update/index.md)
 * [2019-07](/src/news/2019-07-galaxy-update/index.md)
 * [2019-06](/src/news/2019-06-galaxy-update/index.md)
 * [2019-05](/src/news/2019-05-galaxy-update/index.md)
