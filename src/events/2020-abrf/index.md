@@ -12,7 +12,15 @@ gtn: true
 contact: "Pratik Jagtap"
 ---
 
-There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  The day focuses on two topics: 
+
+There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  The day focuses on two topics:
+
+# Registration 
+
+Registration is open.  Space is limited, so early registration is strongly encouraged.
+
+<button type="button" class="btn btn-light" style="font-size: larger">[Register now](https://conf.abrf.org/program/registration-schedule/)</button>
+
 
 # SW5a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
