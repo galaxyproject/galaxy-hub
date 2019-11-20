@@ -24,7 +24,7 @@ The error and usage help in this FAQ applies to:
 * Deseq2
 * Limma
 * edgeR
-* DexSeq
+* DEXSeq
 * Diffbind
 * StringTie
 * Featurecounts
@@ -40,7 +40,7 @@ Expect odd errors or content problems if any of the usage requirements below are
 
 1. Differential expression tools all require count dataset replicates when used in Galaxy. At least two per factor level and the same number per factor level. These must all contain unique content.
 1. Factor/Factor level names should only contain alphanumeric characters and optionally underscores. Avoid starting these with a number and do not include spaces.
-1. If the tool uses `Conditions`, the same naming requirements apply. `DiffBind` additionally requires that the first Condition is labeled as `Condition`.
+1. If the tool uses `Conditions`, the same naming requirements apply. `DEXSeq` additionally requires that the first Condition is labeled as `Condition`.
 1. Reference annotation should be in [GTF](/src/learn/datatypes/#gtf) format for most of these tools, with no header/comment lines. Remove all [GTF](/src/learn/datatypes/#gtf) header lines with the tool `Remove beginning of a file`. If any are comment lines are internal to the file, those should be removed. The tool `Select` can be used.
 1. Make sure that if a [GTF](/src/learn/datatypes/#gtf) dataset is used, and tool form settings are expecting particular attributes, those are actually in your annotation file (example: gene_id).
 1. [GFF3](/src/learn/datatypes/#gff3) data (when accepted by a tool) should have single `#` comment line and any others (at the start or internal) that usually start with a `##` should be removed. The tool `Select` can be used.
