@@ -22,6 +22,13 @@ Tutorials
  * Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
  * FTP/FTPS tutorial: [**FTP Upload**](/src/ftp-upload/index.md)
 
+## GTN Tutorials
+
+Most tutorials from the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) include one or more data upload steps. 
+
+ * Start with this tutorial, section "Getting Data In", for a quick overview: [NGS Logistics](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html)
+ * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+ * All Tutorials: https://training.galaxyproject.org/
 
 ## Supplimental Step-by-Step
 
@@ -30,13 +37,15 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Each file loaded creates one dataset in the history.
 *   The maximum size limit is 50G (uncompressed).
 *   Most individual file compression formats are supported, but multi-file archives are not (`.tar`, `.zip`).
+*   If a `.tar` archive contains multiple datasets, only the first dataset inside the archive will upload.
+*   If your compressed data does not load correctly, try loading an uncompressed version. 
 
 ### Get Data: Upload
 
-*   Load by "browsing" for a local file. Only good for **very small** [datasets](/learn/managing-datasets). ( < 2G, but often works best for smaller). If you are having problems with this method, try FTP.
-*   Load using an **HTTP URL** or **FTP URL**.
-*   Load a few lines of plain text.
-*   Load using FTP. Either line command or with a desktop client.
+1.   Load by "browsing" for a local file. Best for small [datasets](/learn/managing-datasets). Some servers will support load data that is 2 GB or larger.If you are having problems with this method, try FTP.
+2.   Load using an **HTTP URL** or **FTP URL**.
+3.   Load a few lines of plain text.
+4.   Load using FTP. Either line command or with a desktop client.
 
 ### Get Data: EBI-SRA
 
@@ -66,6 +75,10 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 If you DO NOT see any files, **load data using FTP first**, then come back to the _Upload_ tool. 
 
+Make sure that the FTP transfer is completed before moving files into a History.
+
+If you already moved a partial or truncated dataset into a History, you will need to FTP upload the data again.
+
 
 ### Upload tips
 
@@ -79,14 +92,10 @@ If you DO NOT see any files, **load data using FTP first**, then come back to th
 *   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/src/learn/managing-datasets/index.md) for help or watch the screencast above for a how-to example.
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 
-### GenomeSpace Importer/Exporter
+### Deprecated: GenomeSpace Importer/Exporter
 
-Create your GenomeSpace OpenID token at the Galaxy server you are working at. Not all public Galaxy servers will have this option enabled, but it is available at **Galaxy Main** [https://usegalaxy.org](https://usegalaxy.org). 
+The [GenomeSpace](http://www.genomespace.org/) project no longer supports data transfers as of November 15, 2019. 
 
-_Note:_ GS OpenID tokens can become stale over time. If your account is not connecting properly when using these tools in Galaxy, resetting the token is the first thing to try when troubleshooting.
+The GenomeSpace Importer/Exporter tools and OpenID token functions will be removed from the public Galaxy Main server at https://usegalaxy.org and from the Galaxy Release.
 
-Steps:
-*   Open a browser window at http://www.genomespace.org/, log into your account, and leave that window open
-*   Log into your Galaxy Account and go to _User > Preferences > 	Manage OpenIDs_
-*   Delete the existing GS OpenID and create a new one, or just create a new one if you don't have one already
-
+Notice: [The GenomeSpace project is ending](http://www.genomespace.org/news/the-genomespace-project-is-ending)
