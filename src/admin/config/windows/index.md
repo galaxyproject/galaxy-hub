@@ -1,7 +1,3 @@
----
-title: Galaxy on Windows
----
-
 # Running Galaxy on Windows
 
 <div class="well well-sm">
@@ -14,7 +10,7 @@ Running Galaxy on Windows requires the use of [Windows Subsystem for Linux](http
 
 There is also a Virtual machine for tools development which comes preinstalled with Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova). The virtual machine is updated once per year and is suitable for tools development while the below process is more suited for running a local production server or develop the source code for Galaxy.
 
-To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) you need to set up your Windows environment, nstall Galaxy in your Linux distribution, and for development you can either use a text editor such as EMACS or use a remote development plugin for an IDE as the Linux distributions on Windows does not support graphical user interfaces. Below we describe how to use Microsoft Visual Studio on Windows as your IDE.
+To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) you need to set up your Windows environment, install Galaxy in your Linux distribution, and for development you can either use a text editor such as EMACS or use a remote development plugin for an IDE as the Linux distributions on Windows does not support graphical user interfaces. Below we describe how to use Microsoft Visual Studio on Windows as your IDE.
 
 ## Setting up your Windows environment
 
@@ -33,7 +29,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 Open the Microsoft store and select your desired Linux distribution. *This instruction was tested on Ubuntu 18.04 LTS but any distribution known to work with Galaxy should work.*
 
 **Step 3**
-During the installation of Galaxy we ran into issues with Yarn throwing a "Error: ENOENT: no such file or directory,". The cause of this error remains unclear according to [Github issues](https://github.com/yarnpkg/yarn/issues/5275) but installing Yarn in Windows allowed us to install Galaxy successfully in the Ubuntu subsystem. You can download Yarn for Windows from the [Yarn website](https://yarnpkg.com/lang/en/docs/install/#windows-stable).
+During the installation of Galaxy we ran into issues with Yarn throwing a "Error: ENOENT: no such file or directory,". The cause of this error remains unclear according to [Github issues](https://github.com/yarnpkg/yarn/issues/5275). During our first test installing Yarn in Windows allowed us to install Galaxy successfully in the Ubuntu subsystem. You can download Yarn for Windows from the [Yarn website](https://yarnpkg.com/lang/en/docs/install/#windows-stable). The error does however seem to be very hard to pin down and we have seen similar issues later even with this error but were still able to run Galaxy and the client.
 
 ## Installing and running Galaxy.
 
@@ -61,7 +57,7 @@ The Client build system is described in the Galaxy repository [here](https://git
 For development purposes the following three commands gives you a Galaxy server which runs and is automatically updated when you make any changes to the galaxy client source files.
 ~~~~
 GALAXY_CLIENT_SKIP_BUILD=1 sh run.sh
-source venv/bin/activate
+source .venv/bin/activate
 make client-watch
 ~~~~
 The first row runs the shellscript without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated. 
