@@ -28,9 +28,12 @@ The [GMOD Project](http://gmod.org/) (which Galaxy is a member of) will be holdi
 
 If you have any project ideas for this event, then [please add them here](https://docs.google.com/document/d/1_CnUW_W4tNyl7lSlihCwZDKT45VQQxcI3I-VgjnC2Dc/edit). 
 
-**Post-PAG Codeathon ?**
+**Pangenome metadata scopeathon, January 16-17**<br />
+*(Updated 2019-11-25)*
 
-There are also rumors of a general bioinformatics Codeathon *after* PAG as well, possibly (or possibly not) sponsored by [NCBI](https://ncbi-codeathons.github.io/).  If and when this event is confirmed, we will describe it here.
+NCBI is organizing a [Pangenome metadata scopeathon](https://ncbiinsights.ncbi.nlm.nih.gov/2019/11/19/metadata-scopeathon/) on January 16-17, immediately following PAG.  This event is about planning and designing software to extract value from organismal and genera-level graph genomes by dynamically labeling with metadata.
+
+Interested? [Apply now](https://support.nlm.nih.gov/Pan_Meta_Scopeathon/).
 
 <br />
 Hope to see you in San Diego,<br />
