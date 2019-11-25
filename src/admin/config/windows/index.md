@@ -1,7 +1,3 @@
----
-title: Galaxy on Windows
----
-
 # Running Galaxy on Windows
 
 <div class="well well-sm">
@@ -10,22 +6,75 @@ title: Galaxy on Windows
 
 </div>
 
+Running Galaxy on Windows requires the use of [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10 or running Linux on a Virtual Machine. You can find a tutorial on using Virtual Machines to run Galaxy at [http://getgalaxy.org](http://getgalaxy.org) while the below instructions describe running Galaxy on Windows subsystem for Linux.
 
-Running Galaxy under Windows was possible at one point, with a bit of effort. After recent changes to dependency management (using Python Wheels instead of Eggs) we have no tutorial or proof of concept how to do it. If you really need to run Galaxy on Windows platform please consider running a Virtual Machine with a Linux on it and then follow tutorial at [http://getgalaxy.org](http://getgalaxy.org)
+There is also a Virtual machine for tools development which comes pre-installed with Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova). The virtual machine is updated once per year and is suitable for tools development while the below process is more suited for running a local production server or develop the source code for Galaxy.
 
-If you want to develop Galaxy tools please consider using the following image with preinstalled Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova)
+To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) you need to set up your Windows environment, install Galaxy in your Linux distribution, and for development you can either use a text editor such as EMACS or use a remote development plugin for an IDE as the Linux distributions on Windows does not support graphical user interfaces. Below we describe how to use Microsoft Visual Studio on Windows as your IDE.
 
-## Running Windows Tools
+## Setting up your Windows environment
 
-If instead of running a Windows based Galaxy instance, you wish to just run a handful of tools on a Windows server but host Galaxy on a traditional \*nix-based system, the [Pulsar](/src/admin/config/pulsar/index.md) can used to accomplish this.
+1. Enable Linux Subsystem for Windows.
+2. Install your preferred Linux Distribution.
+3. (Optional) Install Yarn directly in Windows.
 
-## Deprecated Instructions
+**Step 1**
+Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled. Open Windows PowerShell and run:
+~~~~
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+~~~~
+(Hitting the windows button on your keyboard and writing PowerShell in the menu is the quickest way to open it).
 
-If you were able to set up Galaxy on Windows with Python Wheels please share your experience.
+**Step 2**
+Open the Microsoft store and select your desired Linux distribution. *This instruction was tested on Ubuntu 18.04 LTS but any distribution known to work with Galaxy should work.*
 
-**The text below is outdated.**
+**Step 3**
+During the installation of Galaxy we ran into issues with Yarn throwing a "Error: ENOENT: no such file or directory,". The cause of this error remains unclear according to [GitHub issues](https://github.com/yarnpkg/yarn/issues/5275). During our first test installing Yarn in Windows allowed us to install Galaxy successfully in the Ubuntu subsystem. You can download Yarn for Windows from the [Yarn website](https://yarnpkg.com/lang/en/docs/install/#windows-stable). The error does however seem to be very hard to pin down and we have seen similar issues later even with this error but were still able to run Galaxy and the client.
+
+## Installing and running Galaxy.
+
+1. Start your Linux application
+2. Install git and clone the Galaxy repository from GitHub.
+3. Start Galaxy for production or development.
+
+**Step 1**
+Open your Linux distribution from Windows (press windows key and write the name of your installed distribution). This will open a Terminal window which allows you to manage your Linux distribution exactly like on a computer with a Linux operating system installed. The files are stored on your computer and can even be accessed through Windows. Changing Linux files directly from Windows is however something you really *should not do* due to issues with metadata and corruption. 
+
+**Step 2**
+Install git, if using Ubuntu:
+~~~~
+sudo apt install git.
+~~~~
+
+Clone the Galaxy GitHub repository to a folder of your choice.
+~~~~
+git clone https://github.com/galaxyproject/galaxy.git
+~~~~
+
+**Step 3**
+The Client build system is described in the Galaxy repository [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md). 
+
+For development purposes the following three commands gives you a Galaxy server which runs and is automatically updated when you make any changes to the galaxy client source files.
+~~~~
+GALAXY_CLIENT_SKIP_BUILD=1 sh run.sh
+source .venv/bin/activate
+make client-watch
+~~~~
+The first row runs the shell script without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated. 
+
+Just running `sh run.sh` instead builds a client suitable for local development.
+
+## Setting up an IDE on Windows accessing Linux files
+
+All files in the Linux subsystem are accessible on the Windows file system but directly altering them *will most likely cause a mess*. If you wish to use an IDE such as Microsoft Visual Studio it is therefore necessary to use an extension to connect to the files. The guide for doing it with Microsoft Visual Studio is excellent and can be read in full [here](https://code.visualstudio.com/docs/remote/wsl) but summarised below.
+
+*First install Microsoft Visual studio in Windows.
+*Then install the [Remote Development Extension pack](https://aka.ms/vscode-remote/download/extension)
+
+Finally enter the linux environment and write `code`in the terminal which will launch Visual Student configured to access the files in your Linux file system.
 
 ### Running old Galaxy (pre 16.01) on Windows
+*These instructions allow you to recreate old Galaxy set ups and should not be used for new projects.*
 
 The effort required involves building architecture specific “eggs” (think of these as python’s version of Java’s jar files). Eggs are created using the setuptools package, [http://peak.telecommunity.com/DevCenter/setuptools](http://peak.telecommunity.com/DevCenter/setuptools). Galaxy has been run in Windows using both MinGW/MSYS ( [http://www.mingw.org/](http://www.mingw.org/)) and CYGWIN ( [http://www.cygwin.com/](http://www.cygwin.com/)).
 
@@ -35,7 +84,7 @@ If you choose to continue, to understand Eggs and how they work in Galaxy, read 
 
 ### Building Eggs
 
-Most eggs are platform-inspecific (e.g. Pure Python), and thus you can use the pre-built versions of these (from [http://eggs.g2.bx.psu.edu](http://eggs.g2.bx.psu.edu)). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
+Most eggs are platform-agnostic (e.g. Pure Python), and thus you can use the pre-built versions of these (from [http://eggs.g2.bx.psu.edu](http://eggs.g2.bx.psu.edu)). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
 
 - bx-python 
 - Cheetah 
@@ -43,7 +92,7 @@ Most eggs are platform-inspecific (e.g. Pure Python), and thus you can use the p
 - pysqlite 
 - numpy 
 
-You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download URLs. The remaining eggs are required for a number of tools, as well as for some development/debuging purposes.
+You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download URLs. The remaining eggs are required for a number of tools, as well as for some development/debugging purposes.
 
 Galaxy's egg building script, `scramble.py` may or may not work for certain eggs under Windows. If not, scramble's build scripts, located at `galaxy_dist/scripts/scramble/scripts/` can be used as reference for building eggs.
 
