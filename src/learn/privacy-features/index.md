@@ -12,7 +12,7 @@ Privacy controls are only enabled if desired. Otherwise, datasets remain public 
 
 ## How is the server I'm working at configured?
 
-On the public Galaxy Main server at https://usegalaxy.org, datasets are public but unlisted by default. End-users are in full control of specifying more privacy for there data. Read below for how.
+On the public Galaxy Main server at https://usegalaxy.org, datasets are public but unlisted by default. End-users are in full control of specifying more privacy for their own data. Read below for how.
 
 When working at a different Galaxy server, contact the administrators for clarification. Contact information is commonly found on the home page of a Galaxy server and/or included on known public Galaxy Server's [directory pages](/src/use/index.md).
 
