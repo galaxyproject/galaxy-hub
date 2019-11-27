@@ -69,7 +69,7 @@ block content
             h1 !{title}
             div !{ contents }
 
-            h2 Upcoming Events
+            h2(id="upcoming-events") Upcoming Events
             table.table.table-striped
                 thead
                     tr
@@ -82,7 +82,7 @@ block content
                         if item.date != undefined
                             if moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
-            h2 Recent Events
+            h2(id="recent-events") Recent Events
             p Events in the past 12 months:
             table.table.table-striped
                 thead
@@ -101,7 +101,7 @@ block content
                 a(href="/events/archive") events archive
                 |  for events more than a year old.
 
-            h2 Other Calendars
+            h2(id="other-calndars") Other Calendars
             ul
                 li: a(href="https://tess.elixir-europe.org/events") TESS Events Calendar
                 li: a(href="http://www.embo.org/events/calendar.html") EMBO Events Calendar
