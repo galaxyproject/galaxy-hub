@@ -2,7 +2,7 @@
 title: Data Privacy in Galaxy
 ---
 
-[Back to the Support Hub](/src/galaxyproject.org/support/index.md)
+[Back to the Support Hub](/src/support/index.md)
 
 ## Premise
 
