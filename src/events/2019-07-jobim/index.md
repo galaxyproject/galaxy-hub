@@ -19,3 +19,8 @@ Galaxy will be presented at [JOBIM 2019](https://jobim2019.sciencesconf.org/), i
 | **Thursday, 4 July** |  15:50-16:10 | **[ProteoRE](http://www.proteore.org/), a Galaxy-based platform for the annotation and the interpretation of proteomics data in biomedical research** | Room 200 | | David Christiany |
 | | 15:55-16:10 | **Shiny and Galaxy interactive software for multi-source data analysis** | Auditorium 450 | | Etienne Camenen |
 
+## Posters
+
+| Topic | Links | Contact |
+| ---- | ---- | ---- |
+| Metagenomic analysis of an african beer ecosystem using Food Microbiome Transfert application | [Poster](http://migale.jouy.inra.fr/sites/migale.jouy.inra.fr.drupal7.migale.jouy.inra.fr/files/poster_jobim2019_FMT.pdf) | Sam Ah-Lone, et al. |
