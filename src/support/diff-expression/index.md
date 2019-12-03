@@ -24,6 +24,7 @@ The error and usage help in this FAQ applies to:
 * Deseq2
 * Limma
 * edgeR
+* goseq
 * DEXSeq
 * Diffbind
 * StringTie
