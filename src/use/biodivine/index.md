@@ -1,10 +1,10 @@
 ---
 title: "BioDivine Toolset"
-url: "http://pithya.ics.muni.cz/galaxy"
+url: "http://biodivine.fi.muni.cz/"
 scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://pithya.ics.muni.cz/galaxy"
+    platform_url: "http://biodivine.fi.muni.cz/"
     platform_text: "Galaxy server. "
     platform_location: CZ
 summary: "Systems biology tools implemented by the Sybila team."
