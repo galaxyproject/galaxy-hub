@@ -47,7 +47,7 @@ Participants will perform hands-on guided exercises analyzing and visualizing sc
 
 # SW5b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
 
-<div class="float-right">
+<div class="float-right"><br />
 [<img src="saskia-hiltemann.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Saskia_Hiltemann) &nbsp; [<img src="pratik-jagtap.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Pratik_Jagtap2) &nbsp; [<img src="subina-mehta.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Subina_Mehta)
 </div>
 
