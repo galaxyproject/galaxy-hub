@@ -23,7 +23,11 @@ Registration is open.  Space is limited, so early registration is strongly encou
 
 # SW5a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
-Instructors:
+<div class="float-right">
+[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/src/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/src/people/dave-clements/index.md)
+</div>
+
+**Instructors:**
 
 * [Mehmet Tekman](https://www.researchgate.net/profile/Mehmet_Tekman), [University of Freiburg](https://www.uni-freiburg.de/?set_language=en)
 * [Dave Clements](/src/people/dave-clements/index.md), [Johns Hopkins University](https://www.jhu.edu/)
@@ -43,7 +47,11 @@ Participants will perform hands-on guided exercises analyzing and visualizing sc
 
 # SW5b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
 
-Instructors:
+<div class="float-right">
+[<img src="saskia-hiltemann.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Saskia_Hiltemann) &nbsp; [<img src="pratik-jagtap.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Pratik_Jagtap2) &nbsp; [<img src="subina-mehta.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Subina_Mehta)
+</div>
+
+**Instructors:**
 
 * [Saskia Hiltemann](https://www.researchgate.net/profile/Saskia_Hiltemann), [Erasmus Medical Center](https://www.erasmusmc.nl/en/research) & [Erasmus University Rotterdam](https://www.eur.nl/en)
 * [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2), [University of Minnesota Twin Cities](https://twin-cities.umn.edu/)
