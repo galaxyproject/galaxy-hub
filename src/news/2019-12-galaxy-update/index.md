@@ -318,9 +318,9 @@ The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Dep
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Galaxy-focused opportunity with core team members](https://galactic-core.com/)</div>
+<div class="card-header">[DevOps engineer for large scale Galaxy](https://galactic-core.com/)</div>
 
-DevOps engineer for large scale Galaxy. Body: Take the Galaxy deployments to the next level with the core team members at [Galactic Core](https://galactic-core.com/).  Contact recruiting@galactic-core.com today.
+Take the Galaxy deployments to the next level with the core team members at [Galactic Core](https://galactic-core.com/).  Email recruiting@galactic-core.com.
 
 <img class="card-img-bottom" src="/src/images/logos/galactic-core-logo.png" alt="Galactic Core Logo" />
 </div>
