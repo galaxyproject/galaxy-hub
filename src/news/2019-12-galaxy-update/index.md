@@ -8,14 +8,20 @@ date: ""
 
 The *December 2019 Galactic News* is out:
 
-* [12 Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)
-* [191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)
-* [Two new blog posts](#galactic-blog-activity)
-* [Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)
-* [Training material and doc updates](/src/news/2019-12-galaxy-update/index.md#doc-hub-and-training-updates)
-* [Openings](/src/news/2019-12-galaxy-update/index.md#whos-hiring) with 5 organizations 
-* [Releases](#releases)
-* [Other news](/src/news/2019-12-galaxy-update/index.md#other-news)
+* **[12 Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)**
+  * India, PAG, HTS, single cell/microbiome, Barcelona, and more
+* **[191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)**
+* **[Two new blog posts](#galactic-blog-activity)**
+  * g:Profiler, GalaxyP
+* **[Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)**
+  * Systems biology, Laniakea, OpenRefine, ...
+* **[Training material and doc updates](/src/news/2019-12-galaxy-update/index.md#doc-hub-and-training-updates)**
+  * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
+* **[Openings](/src/news/2019-12-galaxy-update/index.md#whos-hiring)**
+  *  with 5 organizations in Denmark, France, US, US, Germany
+* **[Releases](#releases)**
+  * Galaxy 19.09 is out
+* And **[other news too](/src/news/2019-12-galaxy-update/index.md#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -49,16 +55,16 @@ This [week-long Galaxy workshop in Freiburg](https://galaxyproject.eu/event/2019
 </div>
 
 
-<div class="card border-info" style="min-width: 15rem; max-width: 18rem;">
+<div class="card border-info" style="min-width: 15rem">
 <img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
 [Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
 
-[Registration is now open](https://conf.abrf.org/program/registration-schedule/), but space is limited so early registration is strongly encouraged.
+[Registration is now open](https://conf.abrf.org/program/registration-schedule/), **but space is limited**.
 </div>
 
-<div class="card border-info" style="min-width: 15rem; max-width: 18rem;">
+<div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Galaxy Admin Training 2020" />
 <div class="card-header">2-6 March: Galaxy Admin Training 2020</div>
 
