@@ -9,7 +9,7 @@ location_url: http://conf.abrf.org/
 external_url:
 image: "/src/images/logos/abrf-logo-color-text.png"
 gtn: true
-contact: "Pratik Jagtap, Dave Clements, Saskia Hiltemann, Submina Mehta, Mehmet Tekman"
+contact: "Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta, Mehmet Tekman"
 ---
 
 There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  The day focuses on two topics:
@@ -78,4 +78,4 @@ The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)
 
 We hope to see you Palm Springs,
 
-[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/src/people/dave-clements/index.md)
+[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Tim](https://cbs.umn.edu/contacts/timothy-j-griffin),  [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/src/people/dave-clements/index.md)
