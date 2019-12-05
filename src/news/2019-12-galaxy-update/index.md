@@ -10,7 +10,7 @@ The *December 2019 Galactic News* is out:
 
 * [XX Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)
 * [191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)
-* [XXX new blog posts](#galactic-blog-activity)
+* [Two new blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)
 * [Training material and doc updates](/src/news/2019-12-galaxy-update/index.md#doc-hub-and-training-updates)
 * [Openings](/src/news/2019-12-galaxy-update/index.md#whos-hiring) with 5 organizations 
@@ -245,7 +245,7 @@ And the ProteoRE group is hiring too.  [See below](#whos-hiring).
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Defining Data Types in Galaxy</div>
 
-New comprehensive documentation on [how to define data types for Galaxy](https://docs.galaxyproject.org/en/latest/dev/data_types.html).
+New comprehensive documentation by [@selten](https://github.com/selten) on [how to define data types for Galaxy](https://docs.galaxyproject.org/en/latest/dev/data_types.html).
 
 <img class="card-img-bottom" src="new-datatype.png" alt="Guide to creating new datatypes" />
 </div>
