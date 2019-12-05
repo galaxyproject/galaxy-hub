@@ -250,6 +250,7 @@ New comprehensive documentation by [@selten](https://github.com/selten) on [how 
 <img class="card-img-bottom" src="new-datatype.png" alt="Guide to creating new datatypes" />
 </div>
 
+
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Cite GTN Tutorials</div>
 
@@ -274,7 +275,18 @@ The account creation documentation was expanded by [Jennifer Hillman-Jackson](/s
 <img class="card-img-bottom" src="accounts-help.png" alt="Accounts help" />
 </div>
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem">
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">Metatranscriptomics analysis using microbiome RNA-seq data</div>
+
+By [Pratik Jagtap](https://training.galaxyproject.org/training-material/hall-of-fame#pratikdjagtap), [Subina Mehta](https://training.galaxyproject.org/training-material/hall-of-fame#subinamehta), [Ray Sajulga](https://training.galaxyproject.org/training-material/hall-of-fame#jraysajulga), [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Emma Leith](https://training.galaxyproject.org/training-material/hall-of-fame#emmaleith), [Praveen Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#pravs3683)
+
+Metatranscriptomics analysis examines how the microbiome responds to the environment by studying the functional analysis of genes expressed by the microbiome. This tutorial uses the ASaiM workflow ([Batut et al. 2018](https://doi.org/10.1093/gigascience/giy057)) to study a time-series analysis of a microbial community from ([Kunath et al. 2018](https://doi.org/10.1038/s41396-018-0290-y)).
+
+<img class="card-img-bottom" src="gtn-asaim-slice.png" alt="ASAIM Workflow" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Galaxy 101 for everyone](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html)</div>
 
 By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou), [Nadia Goué](https://training.galaxyproject.org/training-material/hall-of-fame#nagoue), [Christopher Barnett](https://training.galaxyproject.org/training-material/hall-of-fame#chrisbarnettster), [Michele Maroni](https://training.galaxyproject.org/training-material/hall-of-fame#michelemaroni89), [Olha Nahorna](https://training.galaxyproject.org/training-material/hall-of-fame#olanag1), [Dave Clements](), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann). Familiarize yourself with Galaxy, even if you aren't working in life sciences.
@@ -305,7 +317,7 @@ Maintain, update, upgrade and provide user support for a local version of a Gala
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[Conception et évaluation de workflow d'analyse proteogénomique d’intérêt biomédical sous Galaxy](https://www.sfbi.fr/node/12163)</div>
 
-CEA/INSERM/UGA, Grenoble, France. Conception d’un workflow protéogénomiques: identifiez, optimisez, et le cas échéant, développez les outils necessaires dans Galaxy; ils seront déployés sur le serveur [ProteoRE](http://www.proteore.org/). Idéalement,  le workflow  sera documenté sous la forme de leçons intégrées dans le [Galaxy Training Network](https://training.galaxyproject.org/)”.
+CEA/INSERM/UGA, Grenoble, France. Conception d’un workflow protéogénomiques: identifiez, optimisez, et le cas échéant, développez les outils necessaires dans Galaxy; ils seront déployés sur le serveur [ProteoRE](http://www.proteore.org/). Idéalement,  le workflow  sera documenté sous la forme de leçons intégrées dans le "[Galaxy Training Network](https://training.galaxyproject.org/)".
 
 <img class="card-img-bottom" src="/src/use/proteore/proteore-slice.png" alt="ProteoRE" />
 </div>
@@ -337,30 +349,25 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 # Releases
 
 <div class="card-deck">
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">Tripal Galaxy Module 1.1</div>
 
-<img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal" />
+<div class="card border-info"  style="min-width: 28rem; max-width: 16rem;">
+<div class="card-header">Galaxy 19.09</div>
 
-[Tripal Galaxy](https://tripal-galaxy.readthedocs.io/en/latest/) is a [Drupal](https://www.drupal.org/) module is designed to support integration of the [Tripal online database construction toolkit](http://tripal.info/) with Galaxy. It uses the [blend4php](https://github.com/galaxyproject/blend4php) library.
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo.jpg" alt="Galaxy" />
 
-[Release 1.1](https://github.com/tripal/tripal_galaxy/releases) features bug fixes, simplified results pages, and the results list now honors the Galaxy workflow star icons that indicates when intermediate files should be hidden. It's cleaner and more simple.
-</div>
+The [19.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html) is out and full of new features:
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">Galaxy-Helm 3.0.0</div>
+* [Embedded reports in workflows](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#highlights)
+* [New visualizations](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-visualizations)
+  * free style image annotation, allowing you to make notes on images in Galaxy and save these annotations (from [Anup Kumar](https://github.com/anuprulez))
+  * OpenLayers based map visualization, allowing you to visualize your GIS data in Galaxy (also from [Anup Kumar](https://github.com/anuprulez))
+  * And *HyPhy-Vision* (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
+* Lots of [new datatypes](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-datatypes).
+* A [new type of interactive Galaxy tool](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights) has been implemented
+* A [New Toolshed Client Interface](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights)
 
-<img class="card-img-top" src="/src/images/logos/helm-logo-transparent.png" alt="Helm" />
+Want the details?  See the [developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html) and the [user release announcement](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html).
 
-A new version of the [Galaxy Helm chart is available](https://github.com/galaxyproject/galaxy-helm). The Galaxy [Helm](https://helm.sh/) chart focuses on production-ready Galaxy deployments for [Kubernetes](https://kubernetes.io/) that are easy to deploy and manage. Give it a try and help us make it better.
-</div>
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">Planemo 0.62.0</div>
-
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
-
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 </div>
 </div>
 
@@ -391,6 +398,8 @@ The [Galaxy Help online forum](https://help.galaxyproject.org/) turned one year 
 <div class="card-header">Platypi (?) Spotted at Galaxy Africa!</div>
 
 [<img class="card-img-bottom" src="platypus.jpg" alt="Platypus!" />](https://twitter.com/DomAnderson83/status/1194613282453250049)
+
+And now, everybody wants one.
 </div>
 
 </div>
