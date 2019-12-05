@@ -8,7 +8,7 @@ date: ""
 
 The *December 2019 Galactic News* is out:
 
-* [XX Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)
+* [12 Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)
 * [191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)
 * [Two new blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)
@@ -27,7 +27,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/2019-12-insyb/insyb-2019.png" alt="Galaxy @ InSyB 2019" />
 <div class="card-header">Galaxy @ InSyB 2019</div>
 
-Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/src/events/2019-12-insyb/index.md) at the [International Symposum on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
+Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/src/events/2019-12-insyb/index.md) at the [International Symposium on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
 </div>
 
 
@@ -68,13 +68,13 @@ This week-long hands-on training will feature what you need to know to set up yo
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem">
-<img class="card-img-top" src="/src/news/2019-12-galaxy-update/upcoming-continents.png" alt="Upcoming Events" />
+<img class="card-img-top" src="/src/news/2019-12-galaxy-update/upcoming-events.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
 There are
 
 * [12 upcoming events](/src/events/index.md)
-* on 4 continents, plus online
+* on 3 continents, plus online
 * in India, US, Belgium, Germany, France, Spain, and the UK.
 
 </div>
@@ -289,7 +289,7 @@ Metatranscriptomics analysis examines how the microbiome responds to the environ
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Galaxy 101 for everyone](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-101-everyone/tutorial.html)</div>
 
-By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou), [Nadia Goué](https://training.galaxyproject.org/training-material/hall-of-fame#nagoue), [Christopher Barnett](https://training.galaxyproject.org/training-material/hall-of-fame#chrisbarnettster), [Michele Maroni](https://training.galaxyproject.org/training-material/hall-of-fame#michelemaroni89), [Olha Nahorna](https://training.galaxyproject.org/training-material/hall-of-fame#olanag1), [Dave Clements](), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann). Familiarize yourself with Galaxy, even if you aren't working in life sciences.
+By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou), [Nadia Goué](https://training.galaxyproject.org/training-material/hall-of-fame#nagoue), [Christopher Barnett](https://training.galaxyproject.org/training-material/hall-of-fame#chrisbarnettster), [Michele Maroni](https://training.galaxyproject.org/training-material/hall-of-fame#michelemaroni89), [Olha Nahorna](https://training.galaxyproject.org/training-material/hall-of-fame#olanag1), [Dave Clements](https://training.galaxyproject.org/training-material/hall-of-fame#tnabtaf), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann). Familiarize yourself with Galaxy, even if you aren't working in life sciences.
 
 <img class="card-img-bottom" src="gtn-everyone.png" alt="Galaxy for everyone" />
 </div>
@@ -350,10 +350,10 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 28rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 32rem;">
 <div class="card-header">Galaxy 19.09</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo.jpg" alt="Galaxy" />
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png" alt="Galaxy" />
 
 The [19.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html) is out and full of new features:
 
@@ -361,7 +361,7 @@ The [19.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/
 * [New visualizations](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-visualizations)
   * free style image annotation, allowing you to make notes on images in Galaxy and save these annotations (from [Anup Kumar](https://github.com/anuprulez))
   * OpenLayers based map visualization, allowing you to visualize your GIS data in Galaxy (also from [Anup Kumar](https://github.com/anuprulez))
-  * And *HyPhy-Vision* (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
+  * And HyPhy-Vision (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
 * Lots of [new datatypes](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-datatypes).
 * A [new type of interactive Galaxy tool](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights) has been implemented
 * A [New Toolshed Client Interface](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights)
