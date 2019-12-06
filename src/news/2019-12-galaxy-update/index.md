@@ -1,7 +1,7 @@
 ---
 title: 'December 2019 Galactic News'
-tease: "Events! Pubs! Platforms! Jobs! Releases!"
-date: ""
+tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Platypi too."
+date: "2019-12-09"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
