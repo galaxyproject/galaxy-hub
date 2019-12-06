@@ -112,7 +112,7 @@ Methods
   * Datasets can be associated with one or more History, but are only considered once.
   * All copies of a dataset must be permanently deleted for it to not be considered.
   * Histories/datasets that are shared with you are *only partially considered* unless you import them.
-  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br /><img src="/src/learn/managing-datasets/saved_histories_view_all.png" alt="View all saved histories" width="500" />
+  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*.
   
 * ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
   * Name a dataset:
