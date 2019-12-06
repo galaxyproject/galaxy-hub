@@ -101,9 +101,9 @@ Methods
   * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/src/main/index.md) and [Test](/src/test/index.md), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted within a History. 
-  * Links to show/hide deleted (and hidden) datasets are at the top of the History panel.
-  * For an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with a link to purge it: *This dataset has been deleted. Click _here_ to undelete or _here_ to immediately remove it from disk.*
-  * To review datasets in batch, click on the "checked box" icon for "Operations on Mulitple Datasets". Several options to show, hide, delete, and purge datasets are available. A box will be available for each dataset. Check the datasets you want to modify and chose your option. 
+  * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
+  * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with a links to recover or to purge it: *This dataset has been deleted*. Click on *Undelete it* to make the dataset active and accessible to tools again. Click on *Permenently remove it from disk* to purge the dataset and remove it from the account quota calculation.
+  * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, purge, and group datasets are available. A box will be available for each dataset. Check the datasets you want to modify and chose your option. 
     
 * [Quotas](/src/admin/disk-quotas/index.md) for Datasets and Histories
   * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/src/main/index.md) or [Test](/src/test/index.md).
