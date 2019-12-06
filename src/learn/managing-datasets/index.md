@@ -102,9 +102,10 @@ Methods
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted within a History. 
   * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
-  * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with a links to recover or to purge it: *This dataset has been deleted*. Click on *Undelete it* to make the dataset active and accessible to tools again. Click on *Permenently remove it from disk* to purge the dataset and remove it from the account quota calculation.
-  * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, purge, and group datasets are available. A box will be available for each dataset. Check the datasets you want to modify and chose your option. 
-    
+  * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with links to recover or to purge: *This dataset has been deleted*. Click on *Undelete it* to recover the dataset, making it active and accessible to tools again. Click on *Permenently remove it from disk* to purge the dataset and remove it from the account quota calculation.
+  * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and chose your option. 
+  
+  
 * [Quotas](/src/admin/disk-quotas/index.md) for Datasets and Histories
   * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/src/main/index.md) or [Test](/src/test/index.md).
   * **Permanently deleted** datasets and **permanently deleted** histories containing datasets **are not considered**.
@@ -112,29 +113,30 @@ Methods
   * Datasets can be associated with one or more History, but are only considered once.
   * All copies of a dataset must be permanently deleted for it to not be considered.
   * Histories/datasets that are shared with you are *only partially considered* unless you import them.
-  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*.
+  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. 
+  * To review or change the status for an individual History, click on the History name and choose an option from the pull-down menu. *Peremenently delete* will purge an entire History and all Datasets it includes.
+  * To review or change the status for multiple Histories, check the boxes for the Histories to be discarded and then click on one of the the buttons at the bottom of the form. *Permanently delete* will purge entire Histories and all Datasets included.
+  * Note: A History must be *Unshared* before it can be *Deleted* or *Permenently deleted*. Adjust the sharing state for a History on the *User &rarr; Histories* form or from the History menu on the *Share or Publish* form.
   
-* ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
+* ***WARNING*** **Permanently deleted (purged)** datasets and histories **cannot be recovered** by the end user or an administrator. The best way to avoid losing important data by accident is to clearly name all important histories and datasets.
   * Name a dataset:
     * Click on the *pencil icon* ![](/src/images/icons/pencil.png) on the top right of a Dataset to reach the *Edit Attributes* form. A dataset's primary *Name, Info , Annotation, and Notes* can be adjusted on the first tab, and other metadata attributes can be adjusted on the other tabs.
     * ***TIP*** Copying the Galaxy default *Name* into the "Info: field, then adding in a custom *Name* is one way to preserve the tool output original *Name* while still distinguishing one similarly named dataset from another. This can be useful when reviewing analysis steps and choosing which datasets to retain and which to remove when an analysis is under review or completed.
   * Name a history:
-    * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and *save*.
+    * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and and press "enter/return".
     * From *User &rarr; Saved Histories*, check the histories (one or more) to be renamed, then click on the bottom button *Rename*. On the *Rename* form, *Current Name* is on the left, *New Name* is on the right. Edit *New Name* for each history then click on the button *Rename Histories*.
 
 # Searching Datasets
 
-[As of commit 11591](https://bitbucket.org/galaxy/galaxy-central/commits/a6044ab1ffe717adc08eb6e43eb1febdc8a265f3),
-you can ***search your datasets*** in a number of ways:
+You can ***search your datasets*** in a number of ways:
 
-* *Open* the **search** by clicking the *magnifying glass* next to the right of the *history name*. A search bar will open allowing you to enter your search terms. 
-* *Type* any text in the search bar that may help to narrow your search (advanced options are described below) and press enter/return. The list of datasets below the history title will change to include only those that match the search term and exclude those that don't. 
-* *Clear* the search by removing the text in the bar and pressing enter, pressing the ESC key while the bar is highlighted or in focus, or by pressing the clear search button on the right of the bar. 
-* *Close* the search bar by pressing the magnifying glass button again.
+* A search bar is at the top of every History. 
+* *Type* text into the field (advanced options are described below) and press "enter/return". The list of Datasets in the History will change to include only those that match the search term, excluding those that don't. 
+* *Clear* the search by removing the text in the bar and pressing enter, or by highlighting the text and and pressing on "esc", or by clicking on the "clear search" button on the right side of the bar. 
 
 Some notes:
 * Searches are case insensitive: 'some' will match both 'some' *and* 'Some'.
-* Searches will persist until cleared. If you switch histories while searching, the list of datasets will still be
+* *Searches will persist until cleared*. If you switch histories while searching, the list of datasets will still be
     narrowed to what matches your search terms.
 * Terms are space separated. For example, to search for an interval datatype dataset named *~MyDataset* when more than
     one interval dataset is present and more than one dataset is named ~MyDataset, use `interval MyDataset` (or
