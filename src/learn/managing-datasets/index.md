@@ -116,7 +116,7 @@ Methods
   
 * ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
   * Name a dataset:
-    * Click on the *pencil icon* ![](/src/images/icons/pencil.png) in the right History pane) to reach the *Edit Attributes* form. Here a dataset's primary *Name, Info , Annotation, and Notes* can be adjusted.
+    * Click on the *pencil icon* ![](/src/images/icons/pencil.png) on the top right of a Dataset to reach the *Edit Attributes* form. A dataset's primary *Name, Info , Annotation, and Notes* can be adjusted on the first tab, and other metadata attributes can be adjusted on the other tabs.
     * ***TIP*** Copying the Galaxy default *Name* into the "Info: field, then adding in a custom *Name* is one way to preserve the tool output original *Name* while still distinguishing one similarly named dataset from another. This can be useful when reviewing analysis steps and choosing which datasets to retain and which to remove when an analysis is under review or completed.
   * Name a history:
     * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and *save*.
