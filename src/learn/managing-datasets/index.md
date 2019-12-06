@@ -100,8 +100,10 @@ Methods
   * **Watch how it works in the [Managing Histories](http://vimeo.com/galaxyproject/managehistories) video.**
   * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/src/main/index.md) and [Test](/src/test/index.md), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
-  * Deleted datsets can be undeleted or permanently deleted using from the History pane *gear icon &rarr; Include Deleted Datasets*, and then: *This dataset has been deleted. Click _here_ to undelete or _here_ to immediately remove it from disk.*
-    * Check for hidden datasets and delete as needed (see section above *Hidden* for more details)
+  * Deleted datsets can be undeleted or permanently deleted within a History. 
+  * Links to show/hide deleted (and hidden) datasets are at the top of the History panel.
+  * For an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with a link to purge it: *This dataset has been deleted. Click _here_ to undelete or _here_ to immediately remove it from disk.*
+  * To review datasets in batch, click on the "checked box" icon for "Operations on Mulitple Datasets". Several options to show, hide, delete, and purge datasets are available. A box will be available for each dataset. Check the datasets you want to modify and chose your option. 
     
 * [Quotas](/src/admin/disk-quotas/index.md) for Datasets and Histories
   * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/src/main/index.md) or [Test](/src/test/index.md).
@@ -110,7 +112,7 @@ Methods
   * Datasets can be associated with one or more History, but are only considered once.
   * All copies of a dataset must be permanently deleted for it to not be considered.
   * Histories/datasets that are shared with you are *only partially considered* unless you import them.
-  * **Active** and **Deleted** histories can be **permanently deleted** using from the History pane *Options &rarr; Saved Histories*, then click on *Advanced Search*, then click on *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br /><img src="/src/learn/managing-datasets/saved_histories_view_all.png" alt="View all saved histories" width="500" />
+  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br /><img src="/src/learn/managing-datasets/saved_histories_view_all.png" alt="View all saved histories" width="500" />
   
 * ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
   * Name a dataset:
@@ -118,7 +120,7 @@ Methods
     * ***TIP*** Copying the Galaxy default *Name* into the "Info: field, then adding in a custom *Name* is one way to preserve the tool output original *Name* while still distinguishing one similarly named dataset from another. This can be useful when reviewing analysis steps and choosing which datasets to retain and which to remove when an analysis is under review or completed.
   * Name a history:
     * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and *save*.
-    * From the History pane use *Options &rarr; Saved Histories*, check the histories (one or more) to be renamed, then click on the bottom button *Rename*. On the *Rename* form, *Current Name* is on the left, *New Name* is on the right. Edit *New Name* for each history then click on the button *Rename Histories*.
+    * From *User &rarr; Saved Histories*, check the histories (one or more) to be renamed, then click on the bottom button *Rename*. On the *Rename* form, *Current Name* is on the left, *New Name* is on the right. Edit *New Name* for each history then click on the button *Rename Histories*.
 
 # Searching Datasets
 
