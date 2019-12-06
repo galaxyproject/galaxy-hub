@@ -132,7 +132,7 @@ You can ***search your datasets*** in a number of ways:
 
 * A search bar is at the top of every History. 
 * *Type* text into the field (advanced options are described below) and press "enter/return". The list of Datasets in the History will change to include only those that match the search term, excluding those that don't. 
-* *Clear* the search by removing the text in the bar and pressing enter, or by highlighting the text and and pressing on "esc", or by clicking on the "clear search" button on the right side of the bar. 
+* *Clear* the search by removing the text in the bar and pressing enter, or by pressing the ESC key while the text is highlighted, or by clicking on the "clear search" button on the right side of the bar. 
 
 Some notes:
 * Searches are case insensitive: 'some' will match both 'some' *and* 'Some'.
