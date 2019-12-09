@@ -29,6 +29,8 @@ Galaxy will be featured at [BioHackathon-Europe 2019](https://www.biohackathon-e
   * Organizers: Yo Yehudi
 * **[Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8)**
   * Organizers: [Helena Rasche](/src/people/helena-rasche/index.md), Saskia Hiltemann, Bérénice Batut
+* **Gallantries Project: Galaxy + Carpentries for Scalable Training**
+  * Organizers: Helena Rasche, Saskia Hiltemann, Bérénice Batut
 * **[Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17)**
   * Organizers: Gianmauro Cuccuru, Marco Antonio Tangaro
 * **[Updating the Galaksio workflow management interface for Galaxy and migrating it to Vue.js](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/19)**
