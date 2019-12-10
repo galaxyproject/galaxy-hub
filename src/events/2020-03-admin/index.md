@@ -68,10 +68,8 @@ Space is limited and the 2016 and 2018 admin training workshops sold out.
 
 | | Early: by 15 Jan | Advance: by 7 Feb  | Full |
 | ---- | :----: | :----: | :----: |
-| Non-profit / academic |   €40 | €80 | €160 |
+| Non-profit / academic |   €40 | €70 | €100 |
 | Industry                        | €100 | €200 | €400 |
-
-(Costs are tentative.)
 
 ## Cancellations
 
@@ -81,7 +79,7 @@ Space is limited and the 2016 and 2018 admin training workshops sold out.
 
 # Instructors
 
-We currently have four confirmed (and highly experienced!) instructors:
+We currently have these confirmed (and highly experienced!) instructors:
 
 * [Nate Coraor](/src/people/nate/index.md), lead sysadmin of [usegalaxy.org](https://usegalaxy.org), a software engineer for the Galaxy Project, ...
 * [Saskia Hiltemann](https://github.com/shiltemann), administrator of [Galaxian](https://bioinf-galaxian.erasmusmc.nl/galaxy/) the Galaxy server hosted by Erasmus MC, longtime tool developer, co-founder of the Galaxy Training Network, ...
