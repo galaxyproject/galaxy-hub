@@ -8,7 +8,7 @@ location: "PAG, San Diego, California, United States"
 location_url: http://www.intlpag.org/2020/
 gtn: true
 contact: Presenters
-image: pag2020.png
+image: pag-2020-splash.png
 ---
 
 Galaxy will be at [Plant and Animal Genome XXVII (PAG 2020](http://www.intlpag.org/), in San Diego, California, United States, January 11-15. This includes a Galaxy Workshop as well as other talks and posters featuring Galaxy.
