@@ -1,21 +1,27 @@
-<div class='center'>
-<table>
-  <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src="/src/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src="/src/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a> </td>
-  </tr>
-</table>
+---
+title: "Introduction to Galaxy Workshop"
+date: '2016-07-21'
+days: 1
+tease: ""
+continent: NA
+location: "BTI & Cornell University, Ithaca, New York, United States"
+location_url: "http://bti.cornell.edu/"
+external_url: ""
+gtn: true
+contact: "Dave Clements, Lukas Mueller, Surya Saha"
+image:
+---
 
-
-<div class='title'>Introduction to Galaxy<br />July 21, 2016</div>
-
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
-
-9:00-5:00<br /><br />
-Location <br />
-[Room B30A](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/b30a-computer-lab), Mann library<br />
-Cornell University
-**
+<div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/src/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br /> 
+<img src="/src/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a>
 </div>
+
+**Instructor: [Dave Clements](/src/people/dave-clements/index.md)**
+
+**9:00-5:00<br />
+Location: [Room B30A](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/b30a-computer-lab), Mann library<br />
+Cornell University**
+
 
 ## Registration
 
@@ -40,7 +46,7 @@ No programming or Linux command line experience is required.
 
 *The agenda below is tentative and should be considered a work in progress.*
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Time </th>
     <th> Topic </th>
@@ -87,11 +93,9 @@ No programming or Linux command line experience is required.
   </tr>
 </table>
 
-
-
-<div class='right'><br />
+<div class='float-right'><br />
 <a href='http://www.nih.gov/'><img src="/src/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
+<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div>
 
 ## Support
 
