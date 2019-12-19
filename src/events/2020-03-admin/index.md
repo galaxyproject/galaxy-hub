@@ -12,9 +12,9 @@ contact: Instructors
 image: "2020-admin-banner.png"
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training/tree/2020-barcelona) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+**[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
-This [workshop](https://github.com/galaxyproject/dagobah-training/tree/2020-barcelona) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
+This [workshop](https://github.com/galaxyproject/dagobah-training) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
 Galaxy is an open web based platform for biomedical data integration and analysis. It is deployed at large and small organizations around the world and used in a broad range of biomedical research domains, and across the tree of life.
 
@@ -62,9 +62,9 @@ All participants should bring a wifi-enabled laptop with
 
 # Registration
 
-**Registration will open in November** and will be available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register.
+**[Register now](https://galaxy-admin-training-2020.eventbrite.com/)**
 
-Space is limited and the 2016 and 2018 admin training workshops sold out.
+Space is available on a first come, first served basis. Rates depend on your organization's non-profit status and when you register. Space is limited.
 
 | | Early: by 15 Jan | Advance: by 7 Feb  | Full |
 | ---- | :----: | :----: | :----: |
@@ -104,4 +104,4 @@ Working on it...
 
 # Sponsors
 
-This workshop is generously supported by [ELIXIR Europe](https://elixir-europe.org/) and the [Barcelona Supercomputing Center](https://www.bsc.es/).  And we mean *generously*.  Registration will be very affordable.
+This workshop is generously supported by [ELIXIR Europe](https://elixir-europe.org/) and the [Barcelona Supercomputing Center](https://www.bsc.es/).  And we mean *generously*.  Registration is very affordable.
