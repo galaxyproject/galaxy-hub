@@ -26,11 +26,11 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 # Conferences
 
-GCC has met annually since 2010 and the program has grown and transformed each year.  [GCC2019](/src/events/gcc2019/index.md) will feature two days of training, a two day conference, and ending with a CollaborationFest. 
+GCC has met annually since 2010 and the program has grown and transformed each year.  This year the  [Bioinformatics Community Conference 2020 (BCC2020)](/src/events/gcc2019/index.md) will again bring together the Galaxy and BOSC communities into a single event, featuring eight days  of training, presentations, networking, and a CollaborationFest. 
 
 | Dates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Event | Where | Hosts | # |
 | ---- | ---- | ---- | ----|
-| July 18-25, 2020 | BCC2020 | Toronto, Ontario, Canada | [Ontario Institute for Cancer Research](https://oicr.on.ca/) | |
+| July 18-25, 2020 | [BCC2020](https://bcc2020.github.io/) | Toronto, Ontario, Canada | [Ontario Institute for Cancer Research](https://oicr.on.ca/) | |
 | July 1-6, 2019 | [GCC2019](https://galaxyproject.org/gcc2019) | Freiburg, Germany | [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/) | 231 |
 | June 25-30, 2018 | [GCCBOSC 2018](https://gccbosc2018.sched.com/) | Portland, Oregon, United States | [Oregon Health & Science University](https://www.ohsu.edu/) | 306 |
 | June 26-30, 2017 | [GCC2017](https://gcc2017.sciencesconf.org/) | Montpellier, France | [IFB](http://www.france-bioinformatique.fr/), [CNRS](http://www.cnrs.fr/index.php), [INRA](http://www.inra.fr/en), [Inria](http://www.inria.fr/en/), [INSERM](http://english.inserm.fr/), [CEA](http://english.cea.fr/english-portal), [CIRAD](http://www.cirad.fr/en/home-page), [IRD](https://en.ird.fr/ird.fr), [Montpellier Events](http://www.montpellier-events.com/en) | 205 |
