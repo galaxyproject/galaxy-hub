@@ -24,5 +24,5 @@ The [abstract deadline is 19th December](https://easychair.org/cfp/InSyB2019).
 
 | Date | Time | Topic | Contact |
 | ---- | ----: | ---- | ---- |
-| TBA | TBA | Plenary: TBA | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
-| 22 December | TBA | NGS Data Analysis using GALAXY Platform Workshop | [Sonika Tyagi](https://www.monash.edu/science/schools/biological-sciences/staff/sonika-tyagi) |
+| 22 December | 10:30 | Plenary: [Galaxy Australia - lessons learnt from running a nationally resourced service](https://depot.galaxyproject.org/hub/attachments/events/2019-12-insyb/galaxy-australia.pdf) | [Gareth Price](https://qfab.org/team-member/dr-gareth-price) |
+| 22 December | 13:30 | NGS Data Analysis using GALAXY Platform Workshop | [Sonika Tyagi](https://www.monash.edu/science/schools/biological-sciences/staff/sonika-tyagi) |
