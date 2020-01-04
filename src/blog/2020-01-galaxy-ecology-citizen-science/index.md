@@ -81,6 +81,7 @@ Classifications results for the first week on MMOS developer portal:
     - Scratch3 WIP https://github.com/yvanlebras/Scratch3Galaxy
     - NGPhylogeny planned for September 2020
 - Massive Open Online Data Analysis: MNHN SPIPOLL citizen science project Galaxy webhook
-  - Developmental repository https://github.com/yvanlebras/GAPARS_Galaxy
+  - Developmental initial repository https://github.com/yvanlebras/GAPARS_Galaxy
+  - Up-to-date dev repository https://github.com/galaxyecology/webhook_SPIPOLL_Flash/
   - Production repository https://github.com/usegalaxy-eu/infrastructure-playbook
   - Standalone webapp https://usegalaxy.eu/gapars-experiment/
