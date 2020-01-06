@@ -14,7 +14,7 @@ user_support:
 quotas:
   - "None."
 citations:
-  - "Payá-Milans, M., Poza-Viejo, L., Martín-Uriz, P. S., Lara-Astiaso, D., Wilkinson, M. D., & Crevillén, P. (2019). [Genome-wide analysis of the H3K27me3 epigenome and transcriptome in Brassica rapa]( https://doi.org/10.1093/gigascience/giz147). *GigaScience*, 8(12). doi: /10.1093/gigascience/giz147"
+  - "Payá-Milans, M., Poza-Viejo, L., Martín-Uriz, P. S., Lara-Astiaso, D., Wilkinson, M. D., & Crevillén, P. (2019). [Genome-wide analysis of the H3K27me3 epigenome and transcriptome in Brassica rapa]( https://academic.oup.com/gigascience/article/8/12/giz147/5652252). *GigaScience*, 8(12). doi: /10.1093/gigascience/giz147"
 pub_libraries:
   - "EpigenomicsGalaxy"
 sponsors:
