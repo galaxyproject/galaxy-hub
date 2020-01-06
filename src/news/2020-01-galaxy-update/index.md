@@ -276,15 +276,6 @@ This tutorial adapt [the Carpentries](https://carpentries.org/) “[Intro to R a
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">Managing Datasets Help</div>
-
-The [Managing Datasets hub page](/src/learn/managing-datasets/index.md) was revamped by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) this month.
-
-<img class="card-img-bottom" src="managing-datasets.png" alt="Managing Datasets Help" />
-</div>
-
-
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[ATAC-Seq data analysis tutorial update](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
 
