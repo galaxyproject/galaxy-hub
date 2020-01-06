@@ -17,6 +17,7 @@ user_support:
 quotas:
 citations:
 pub_libraries:
+  - "EiB"
 sponsors:
   - "[GOBii project](http://gobiiproject.org/), [HTPG project](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/) and [EiB platform](http://excellenceinbreeding.org/)"
 ---
