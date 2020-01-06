@@ -1,6 +1,6 @@
 ---
 title: 'January 2020 Galactic News'
-tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Platypi too."
+tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
 date: ""
 ---
 
@@ -8,19 +8,11 @@ date: ""
 
 The *January 2020 Galactic News* is out:
 
-* **[12 Upcoming Events](/src/news/2020-01-galaxy-update/index.md#events)**
-  * India, PAG, HTS, single cell/microbiome, Barcelona, and more
+* **[13 Upcoming Events](/src/news/2020-01-galaxy-update/index.md#events)**
 * **[191 new publications](/src/news/2020-01-galaxy-update/index.md#publications)**
 * **[Two new blog posts](#galactic-blog-activity)**
-  * g:Profiler, GalaxyP
 * **[Galaxy Platform News](/src/news/2020-01-galaxy-update/index.md#galaxy-platforms-news)**
-  * Systems biology, Laniakea, OpenRefine, ...
 * **[Training material and doc updates](/src/news/2020-01-galaxy-update/index.md#doc-hub-and-training-updates)**
-  * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
-* **[Openings](/src/news/2020-01-galaxy-update/index.md#whos-hiring)**
-  *  with 5 organizations in Denmark, France, US, US, Germany
-* **[Releases](#releases)**
-  * Galaxy 19.09 is out
 * And **[other news too](/src/news/2020-01-galaxy-update/index.md#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -203,23 +195,23 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 14rem;">
+<div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[GASLINI Server](/src/use/gaslini/index.md)</div>
 
 <img class="card-img-top" src="/src/use/gaslini/fig-1-slice.png" alt="Figure 1: PIPE-T Process" />
 
-The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool for Reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) analysis. Requires an account, but anyone can create an account.
+The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool for reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) analysis. Requires an account, but anyone can create an account.
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Shapiro Lab VM](/src/use/shapiro-lab/index.md")</div>
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[Shapiro Lab VM](/src/use/shapiro-lab/index.md)</div>
 
 <img class="card-img-top" src="/src/use/shapiro-lab/shapiro-lab.gif" alt="Shapiro Lab" />
 
 The [Shapiro Lab at NCI](https://binkley2.ncifcrf.gov/users/bshapiro/) provides RNA structure and design tools, including RNA2D3D and StructureLab, on a [Galaxy virtual machine image](https://binkley2.ncifcrf.gov/users/bshapiro/software.html).</div>
 
-<div class="card border-info"  style="min-width: 12rem;">
+<div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[Epigenomics Docker](/src/use/epigenomics/index.md)</div>
 
 <img class="card-img-top" src="/src/use/epigenomics/epigenomics-galaxy-fig1-slice.png" alt="Epigenomics with Galaxy and Jupyter" />
@@ -227,20 +219,13 @@ The [Shapiro Lab at NCI](https://binkley2.ncifcrf.gov/users/bshapiro/) provides 
 This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy) contains tools and workflows aimed at the analysis of epigenomics data, both ChIP-Seq and RNA-Seq.</div>
 
 
-<div class="card border-info"  style="min-width: 12rem;">
+<div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* UseGalaxy.org.Au is expanding its range of tools to better support different communities
-  * [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) 
+* UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data 
 * [Galaxy Australia upgraded to Galaxy version 19.09](https://usegalaxy-au.github.io/posts/2019/12/11/galaxy-australia-to-galaxy-version-19-09/plain.html)
-  * and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data 
-
-
-* [UseGalaxy.eu: 10,000 users, 6,370,000 jobs and 11,900,000 datasets](https://galaxyproject.eu/posts/2019/12/02/10000user/)
-* UseGalaxy.eu Tool Updates for [10th](https://galaxyproject.eu/posts/2019/11/10/tool-update/), [15th](https://galaxyproject.eu/posts/2019/11/15/tool-update/), [23rd](https://galaxyproject.eu/posts/2019/11/22/tool-update/), and [30th](https://galaxyproject.eu/posts/2019/11/30/tool-update/) of November.
-* Also see [recent blog posts](#galactic-blog-activity)
 </div>
 
 <div class="card border-info"  style="min-width: 17rem;">
@@ -281,7 +266,7 @@ We believe that every learner can **achieve competency with R.**  Give it a try.
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[RStudo in Galaxy](https://training.galaxyproject.org/topics/galaxy-ui/tutorials/rstudio/tutorial.html)</div>
+<div class="card-header">[RStudio in Galaxy](https://training.galaxyproject.org/topics/galaxy-ui/tutorials/rstudio/tutorial.html)</div>
 
 By [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Fotis E. Psomopoulos](https://training.galaxyproject.org/training-material/hall-of-fame#fpsom), [Toby Hodges](https://training.galaxyproject.org/training-material/hall-of-fame#tobyhodges).
 
@@ -330,47 +315,6 @@ This webinar video highlights Galaxy interface for single cell analysis. Specifi
 <img class="card-img-bottom" src="single-cell-video.png" alt="Single cell webcast video" />
 </div>
 
-</div>
-
-
-# Who's Hiring
-
-Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).)
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[Software engineer, system analysts / administrators, data analyst, and a community and/or research manager](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/)</div>
-
-The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
-
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
-</div>
-</div>
-
-# Releases
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 32rem;">
-<div class="card-header">Galaxy 19.09</div>
-
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent_transparent.png" alt="Galaxy" />
-
-The [19.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html) is out and full of new features:
-
-* [Embedded reports in workflows](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#highlights)
-* [New visualizations](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-visualizations)
-  * free style image annotation, allowing you to make notes on images in Galaxy and save these annotations (from [Anup Kumar](https://github.com/anuprulez))
-  * OpenLayers based map visualization, allowing you to visualize your GIS data in Galaxy (also from [Anup Kumar](https://github.com/anuprulez))
-  * And HyPhy-Vision (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
-* Lots of [new datatypes](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-datatypes).
-* A [new type of interactive Galaxy tool](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights) has been implemented
-* A [New Toolshed Client Interface](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights)
-
-Want the details?  See the [developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html) and the [user release announcement](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html).
-
-</div>
 </div>
 
 
