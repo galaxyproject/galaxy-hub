@@ -1,7 +1,7 @@
 ---
 title: 'January 2020 Galactic News'
 tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
-date: ""
+date: "2020-01-08"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
@@ -9,10 +9,15 @@ date: ""
 The *January 2020 Galactic News* is out:
 
 * **[13 Upcoming Events](/src/news/2020-01-galaxy-update/index.md#events)**
-* **[191 new publications](/src/news/2020-01-galaxy-update/index.md#publications)**
+  * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes. 
+* **[172 new publications](/src/news/2020-01-galaxy-update/index.md#publications)**
+  * Six highlighted pubs from RT-qPCR to functional genomics
 * **[Two new blog posts](#galactic-blog-activity)**
+  * PGP-UK and Crowdsourcing Science
 * **[Galaxy Platform News](/src/news/2020-01-galaxy-update/index.md#galaxy-platforms-news)**
+  * Three new platforms, UseGalaxy.* news, and platforms in pubs
 * **[Training material and doc updates](/src/news/2020-01-galaxy-update/index.md#doc-hub-and-training-updates)**
+  * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
 * And **[other news too](/src/news/2020-01-galaxy-update/index.md#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -24,12 +29,11 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/victoria-college-banner-1000.jpg" alt="Call for Guidance & Tutorials" />
-<div class="card-header">BCC2020: Call for Guidance and Tutorial Nominations</div>
+<img class="card-img-top" src="/src/events/bcc2020/victoria-college-banner-1000.jpg" alt="Call for Tutorials" />
+<div class="card-header">BCC2020: Call for Tutorial Nominations</div>
 
 The **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** needs
-* **[Your input on scheduling choices](https://bcc2020.github.io/blog/poll) by January 7**
-* **[Training Topic Nominations](https://bcc2020.github.io/blog/training-nom) ) by January 17**
+* **[Nominate Training Topics](https://bcc2020.github.io/blog/training-nom) by January 17**
 
 BCC is [GCC](/src/gcc/index.md) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
 </div>
@@ -322,7 +326,7 @@ Including a report about usegalaxy.eu and this year's community conference in Fr
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[NCI ITCR Informatics Tools](https://itcr.cancer.gov/informatics-tools)</div>
 
 Galaxy is a prominent part of the NCI ITCR Program that funds tools that support the analysis of –omics, imaging, and clinical data, as well as network biology and data standards.  
@@ -331,7 +335,7 @@ Galaxy is a prominent part of the NCI ITCR Program that funds tools that support
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header">[Investing in a shared resource for scientific software sustainability in computational chemistry](https://www.paperturn-view.com/uctresearchoffice/uct-eresearch-report-2018-2019?pid=NjY66984&p=33&v=1.1)</div>
 
 Dr Chris Barnett has invested in the research cloud-computing platform ilifu to create a central resource where a like-minded research community can come together and share these tools and expertise, using the opensource platform Galaxy.
