@@ -5,7 +5,7 @@ title: "Galaxy Community UK (GCUK)"
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **[Galaxy UK Community (GCUK)](http://galaxy-community.org.uk/)** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Galaxy UK Community (GCUK)** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 When:: Wednesday, 8th July. 18:00 (6pm)
 
@@ -16,11 +16,11 @@ Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
 
 ## Description
 
-This is a BoF for the [Galaxy Community from the United Kingdom and Ireland](http://galaxy-community.org.uk/).
+This is a BoF for the Galaxy Community from the United Kingdom and Ireland.
 
 ## Audience
 
-Local events/issues of the [GCUK](http://galaxy-community.org.uk/).
+Local events/issues of the GCUK.
 
 
 ## When and Where
@@ -43,7 +43,7 @@ If you are interested, please add your name below and/or send an email to [Chris
 
 ## Discussion
 
-* What do people want [GCUK](http://galaxy-community.org.uk/) to do? 
+* What do people want GCUK to do? 
   * Support
     * Get quicker answers, or just get answers.  
   * help locate complementary trainers.
@@ -74,5 +74,5 @@ If you are interested, please add your name below and/or send an email to [Chris
 
 ## Call for Participation
 
-If you are interested in becoming active in [GCUK](http://galaxy-community.org.uk/) then please send an email to 
+If you are interested in becoming active in GCUK then please send an email to 
 [Christian Schudoma TSL](mailto:christian.schudoma AT tsl DOT ac DOT uk).

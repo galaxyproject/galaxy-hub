@@ -8,11 +8,9 @@ Welcome to the October 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a s
 # Galaxy Needs Your Input!
 
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  There are two questionnaires, each with a different focus, based on how you interact with Galaxy:
-**
+
 1. [Galaxy User Questionnaire](https://docs.google.com/forms/d/1NT3ma2g7rR-mWA_vgOg2Ia_6VTFiZ86um2JhX2SecCk/formResponse)
 1. [Galaxy Admin, Tool Developer, and Galaxy Developer Questionnaire](https://docs.google.com/forms/d/1lszXJ2lDJ2dYCWKXBk1qT1jO7XdDDfxXmGRCUMZFX2U/viewform)
-
-**
 
 Please take a few minutes and fill out whichever surveys apply to you.  The questionnaires are structured so you can skip topics that don't apply to you, and every question is optional.
 
@@ -52,7 +50,7 @@ Galaxy had a strong presence at [ECCB'14](/src/events/eccb2014/index.md).  Galax
 
 There are [upcoming events](/src/events/index.md) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<table>
+<table class="table">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -155,7 +153,7 @@ The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) of publications reach
 
 The new papers were tagged in many different areas:
 
-<table>
+<table class="table">
   <tr>
     <th> # </th>
     <th> Tag </th>
@@ -390,6 +388,6 @@ In no particular order:
 * Updated [wiki page about dynamically discovering output datasets at runtime](/src/admin/tools/multiple-output-files/index.md#number-of-output-datasets-cannot-be-determined-until-tool-run). 
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
-* [Galaxy Community UK](http://galaxy-community.org.uk/) launches at Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)
+* Galaxy Community UK launches a Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)
 * [BOSC 2015 will be in Dublin with ISMB/ECCB 2015](http://news.open-bio.org/news/2014/09/bosc-2015-will-be-in-dublin/).  *We should have voted more often!*
 * [Supporting Enhanced Reproducibility for Platforms like Galaxy](https://github.com/Homebrew/homebrew-science/issues/1191), discussion on [GitHub](https://github.com/Homebrew/homebrew-science/issues/1191).
