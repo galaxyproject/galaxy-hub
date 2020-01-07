@@ -79,7 +79,7 @@ By making complex applications easier to deploy and doing so reproducibly, the o
 
 ## Fostering Bioconductor Collaborations
 
-The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.html) [Bioconductor](http://www.bioconductor.org/) package allows one to markup [R](http://www.r-project.org/) functions and then to automatically create Galaxy tools from these functions. This is an exciting project that provides the dual benefits of allowing Galaxy users to easily leverage the complex and cutting edge tools developed in R while allowing R authors to easily create and disseminate accessible web interfaces for their modules through Galaxy. It would be great to determine if this idea could be taken further and make this process more seamless - lowering the barrier to entry. Specifically it would be great if one could leverage the existing Bioconductor documentation to build these tools instead of requiring the functions to be built for Galaxy or at least provide a higher-level intermediary to bridge existing functions more easily. Additionally, once tools are created it would be great if the process of publishing them to the Galaxy Tool Shed could be automated as well for maximum impact. An example of a project that leverages existing structures this is [gxargparse](https://github.com/erasche/gxargparse) for Python.
+The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.html) [Bioconductor](http://www.bioconductor.org/) package allows one to markup [R](http://www.r-project.org/) functions and then to automatically create Galaxy tools from these functions. This is an exciting project that provides the dual benefits of allowing Galaxy users to easily leverage the complex and cutting edge tools developed in R while allowing R authors to easily create and disseminate accessible web interfaces for their modules through Galaxy. It would be great to determine if this idea could be taken further and make this process more seamless - lowering the barrier to entry. Specifically it would be great if one could leverage the existing Bioconductor documentation to build these tools instead of requiring the functions to be built for Galaxy or at least provide a higher-level intermediary to bridge existing functions more easily. Additionally, once tools are created it would be great if the process of publishing them to the Galaxy Tool Shed could be automated as well for maximum impact. An example of a project that leverages existing structures this is [gxargparse](https://github.com/hexylena/argparse2tool) for Python.
 
 **Expected Outcomes**
 
@@ -122,11 +122,11 @@ Furthermore, since workflow annotations for Refinery are currently stored in gen
 
 ## Visualization Plugin for Proteomics
 
-Implement Galaxy [data providers](/src/data-providers/index.md) and [visualization plugins](/src/visualizations-registry/index.md) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit. 
+Implement Galaxy [data providers](/src/data-providers/index.md) and [visualization plugins](/src/visualizations-registry/index.md) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit.
 
 **Expected Outcomes**
 
-* Galaxy visualization plugin that provides filterable list of peptide-spectrum-matches and spectral viewer for a single dataset ran through an open source tool such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) ([galaxy tools](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker)) or [OpenMS](http://open-ms.sourceforge.net/). 
+* Galaxy visualization plugin that provides filterable list of peptide-spectrum-matches and spectral viewer for a single dataset ran through an open source tool such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) ([galaxy tools](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker)) or [OpenMS](http://open-ms.sourceforge.net/).
 
 **Stretch Goals**
 
@@ -149,7 +149,7 @@ The Galaxy proteomics community maintains Galaxy tools for [building PeptideShak
 **Expected Outcomes**
 
 * Modify PeptideShaker to allow it to listen on a port for a URL to a file to open (like IGV)
-* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).  
+* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).
 
 **Stretch Goals**
 
@@ -165,7 +165,7 @@ The Galaxy proteomics community maintains Galaxy tools for [building PeptideShak
 
 ## Linking Galaxy with Google Drive
 
-The Galaxy application implements the notion of an Object Store - a pluggable file management interface that acts as a layer between Galaxy and any user dataset. This Object Store interface allows datasets to be ‘physically’ disconnected from a particular instance of Galaxy while the application can still access and interact with them. This opens the door for providing various storage mediums where the data is actually stored. Ultimately, thus allows a user to associate self-provisioned external storage resources with their Galaxy account and move beyond the imposed quota or limitations on any given Galaxy instance. Thus far, an abstract hierarchical store, Amazon S3, iRODS, and various local disk object stores have been implemented. However, use of an Object Store within Galaxy is an application-wide setting instead of being a per-user setting allowing users to specify their own back-end storage medium. Additionally, linking with the Google Drive is highly desirable allowing user to leverage the [Google Drive for Education](http://googleforeducation.blogspot.com/2014/09/announcing-drive-for-education-21st.html) program. 
+The Galaxy application implements the notion of an Object Store - a pluggable file management interface that acts as a layer between Galaxy and any user dataset. This Object Store interface allows datasets to be ‘physically’ disconnected from a particular instance of Galaxy while the application can still access and interact with them. This opens the door for providing various storage mediums where the data is actually stored. Ultimately, thus allows a user to associate self-provisioned external storage resources with their Galaxy account and move beyond the imposed quota or limitations on any given Galaxy instance. Thus far, an abstract hierarchical store, Amazon S3, iRODS, and various local disk object stores have been implemented. However, use of an Object Store within Galaxy is an application-wide setting instead of being a per-user setting allowing users to specify their own back-end storage medium. Additionally, linking with the Google Drive is highly desirable allowing user to leverage the [Google Drive for Education](http://googleforeducation.blogspot.com/2014/09/announcing-drive-for-education-21st.html) program.
 
 **Expected Outcomes**
 
@@ -260,7 +260,7 @@ Galaxy has basic functionality allowing users to export their history (the compl
 **Stretch Outcomes**
 
 * Extend documentation to include explicit instructions about how to transfer analysis histories on public sites such usegalaxy.org to cloud instances using CloudLaunch.
-* Simplify history export to allow users to just copy a URL that can be used to target the API for history export 
+* Simplify history export to allow users to just copy a URL that can be used to target the API for history export
 
 that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
@@ -287,7 +287,7 @@ Galaxy already runs well on the Debian platform and derivatives (eg. Ubuntu) eit
 
 Initial packaging has already been accomplished by Tim Booth as part of the [Bio-Linux](http://environmentalomics.org/bio-linux/) project. This project would involve updating this package for the latest Galaxy versions and make changes to Galaxy itself with the goal of one day being able to include Galaxy in Debian directly.
 
-The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's handling of Python dependencies. Galaxy resolves its own fixed (often older) versions of dependencies - a properly packaged Debian Galaxy would have to use the system versions of dependencies which will require updating Galaxy dependencies. 
+The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's handling of Python dependencies. Galaxy resolves its own fixed (often older) versions of dependencies - a properly packaged Debian Galaxy would have to use the system versions of dependencies which will require updating Galaxy dependencies.
 
 **Expected Outcomes**
 
@@ -316,7 +316,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 ## Improved Authentication Framework including OAuth and Google+ Sign-in
 
-[OAuth2.0](https://developers.google.com/accounts/docs/OAuth2) is the latest third party authentication mechanism that allows a single identity to be used across multiple applications. This project would enable OAuth and [Google+ sign-in](https://developers.google.com/+/features/sign-in) based authentication within Galaxy. The implication would be that a user no longer has to register at each Galaxy instance but could instead use their single identity (eg: Google ID) to authenticate. 
+[OAuth2.0](https://developers.google.com/accounts/docs/OAuth2) is the latest third party authentication mechanism that allows a single identity to be used across multiple applications. This project would enable OAuth and [Google+ sign-in](https://developers.google.com/+/features/sign-in) based authentication within Galaxy. The implication would be that a user no longer has to register at each Galaxy instance but could instead use their single identity (eg: Google ID) to authenticate.
 
 **Expected Outcomes**
 
@@ -324,7 +324,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 **Stretch Goals**
 
-* Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services). 
+* Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services).
 
 **Possible Mentors** [Martin Cech](/src/people/marten/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [Nitesh Turaga](/src/people/nitesh-turaga/index.md)
 
@@ -335,7 +335,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 ## Public Galaxy Server Tools Registry and Search
 
-There are [over 60 publicly accessible Galaxy servers](/src/use/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.  
+There are [over 60 publicly accessible Galaxy servers](/src/use/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.
 
 The Galaxy Tool bar search could additionally be modified to to show an item at the bottom of the matching tools to say something like
 
@@ -369,9 +369,9 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 **Stretch Goals**
 
-* Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/erasche/vagrant-galaxy-casperjs) exists but it's not very generic).
+* Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/hexylena/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [E. Rasche](/src/people/helena-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
+**Possible Mentors** [Helena Rasche](/src/people/helena-rasche/index.md), [John Chilton](/src/people/john-chilton/index.md)
 
 **Required Skills** Docker, NodeJS
 

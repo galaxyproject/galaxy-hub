@@ -183,7 +183,7 @@ Getting started with the code base
 
 ## Björn Grüning
 
-## E. Rasche
+## Helena Rasche
 
 ## Nicola Soranzo
 

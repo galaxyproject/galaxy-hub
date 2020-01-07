@@ -9,7 +9,7 @@ date: 2030-03-04
     </a>
   </div>
   <div class="col-xs-2 col-md-1">
-    <a href="https://github.com/erasche">
+    <a href="https://github.com/hexylena">
       <img class="img-thumbnail mb-4" src="https://avatars3.githubusercontent.com/u/458683?v=3&s=60">
     </a>
   </div>

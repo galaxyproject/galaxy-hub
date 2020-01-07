@@ -11,7 +11,7 @@ to the Docker images.
 There are currently nine IEs built into Galaxy, including:
 
 * [IPython](https://github.com/bgruening/galaxy-ipython/)
-* [RStudio](https://github.com/erasche/galaxy-rstudio/)
+* [RStudio](https://github.com/hexylena/docker-rstudio-notebook)
 
 
 ## Set up IEs on your server

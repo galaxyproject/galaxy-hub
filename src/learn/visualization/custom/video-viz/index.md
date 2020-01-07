@@ -20,4 +20,4 @@ Any mp4 video file uploaded may be viewed through the visualization "Video". Cur
 
 Links to any useful datasets or information.
 
-* **[Github Page](https://github.com/erasche/galaxy-video-viz-plugin)**
+* **[Github Page](https://github.com/hexylena/galaxy-video-viz-plugin)**

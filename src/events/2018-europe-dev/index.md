@@ -69,7 +69,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 10:45 - 11:00 |  Coffee Break  |   |   |
 | 11:00 - 11:35 |  Marco Tangaro ([IBIOM](http://www.ibiom.cnr.it/))  | [*Providing Galaxy based bioinformatic environments through cloud technologies*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marco-tangaro) (plus demo)  | [slides](https://drive.google.com/file/d/1N1omjcB2cjhVbdDpi-amM_wLTWBIGNdB/view?usp=sharing) |
 | 11:35 - 12:00 | Sveinung Gundersen ([UiO](https://www.usit.uio.no/))   |  *Proposed infrastructure to search, fetch and analyze FAIRified genomic tracks in Galaxy*  |  [slides](https://drive.google.com/open?id=1W90ypRMG6IVrYxT35PR5dYpHMjQQ24Kn)  |
-| 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | [State of the European Galaxy Project](https://github.com/erasche/presentations/blob/master/2018-11-egd/main.pdf) | [slides](https://github.com/erasche/presentations/blob/master/2018-11-egd/main.pdf) |
+| 12:00 - 12:25 |  [Helena Rasche](/people/helena-rasche/) | [State of the European Galaxy Project](https://github.com/hexylena/presentations/blob/master/2018-11-egd/main.pdf) | [slides](https://github.com/hexylena/presentations/blob/master/2018-11-egd/main.pdf) |
 | 12:25 - 13:35 |  Lunch Break  |   |   |
 | 13:35 - 13:45 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  Update on the [Galaxy Training Network](/src/teach/gtn/index.md)  | [slides](http://bebatut.fr/talks/18/11_20_egd/#/1) | 
 | 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) | [slides](https://drive.google.com/open?id=1Hdi9cV49FJ7eL4XrnJXs5kNIs68y4HJ3) |

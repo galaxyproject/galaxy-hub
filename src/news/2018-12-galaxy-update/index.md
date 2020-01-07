@@ -311,7 +311,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
   * [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html)
 * New [Mass spectrometry imaging 1: Loading and exploring MSI data](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
 * New [Introduction to Metabolomics slides](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) by [Gildas Le Corguillé](https://github.com/lecorguille) and Cécile Canlet
-* New Tutorials on [how to Teach and Host Galaxy Training](https://galaxyproject.github.io/training-material/topics/instructors/) by [Bérénice Batut](https://github.com/bebatut), [Helena Rasche](https://github.com/erasche), and [Saskia Hiltemann](https://github.com/shiltemann):
+* New Tutorials on [how to Teach and Host Galaxy Training](https://galaxyproject.github.io/training-material/topics/instructors/) by [Bérénice Batut](https://github.com/bebatut), [Helena Rasche](https://github.com/hexylena), and [Saskia Hiltemann](https://github.com/shiltemann):
   * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html)
   * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
   * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
@@ -322,7 +322,7 @@ And a few enhancements to the [training materials website](https://galaxyproject
 
 * **[Automatic translation of tutorials](https://github.com/galaxyproject/training-material/pull/1131) into 5 languages** (français, 日本語, Español, Português, and العربية), by [Bérénice Batut](https://github.com/bebatut).
 * A new [Learning Paths](https://github.com/galaxyproject/training-material/pull/1149) feature was implemented by [Bérénice Batut](https://github.com/bebatut) to show a list of recommended follow-up tutorials at the end of the hands-on training manuals.
-* [Training Philosophies](https://github.com/galaxyproject/training-material/pull/1146) added by [Helena Rasche](https://github.com/erasche). We all teach Galaxy in different ways depending on our audience, surroundings, culture and preferences. Instructors can now share their own training stories and read about those of others. Add your own [here](https://github.com/galaxyproject/training-material/issues/1056)!
+* [Training Philosophies](https://github.com/galaxyproject/training-material/pull/1146) added by [Helena Rasche](https://github.com/hexylena). We all teach Galaxy in different ways depending on our audience, surroundings, culture and preferences. Instructors can now share their own training stories and read about those of others. Add your own [here](https://github.com/galaxyproject/training-material/issues/1056)!
 * More flexible [training material hosting and incremental build support](https://github.com/galaxyproject/training-material/pull/968) by [Mehmet Tekman](https://github.com/mtekman)
 * Site search [searches the entire TeSS catalog of training materials](https://github.com/galaxyproject/training-material/pull/1137) (which includes all of the Galaxy Training materials).
 

@@ -17,7 +17,7 @@ More Colorful Tags
 ------------------
 Use consistently hashed randomized colors for history dataset name tags to increase visual
 distinction between tags, making it easier to track data flow in complex histories.
-Thanks to [@erasche](https://github.com/erasche).
+Thanks to [@erasche](https://github.com/hexylena).
 
 Extensive Workflow Enhancements (continued)
 -------------------------------------------

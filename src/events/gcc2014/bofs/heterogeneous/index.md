@@ -44,7 +44,7 @@ If you are interested, please add your name below and/or send an email to [Your 
 * [Philip Blood](mailto:blood AT psc DOT edu)
 * [John Chilton](/src/people/john-chilton/index.md)
 * [nate Coraor](/src/people/nate/index.md)
-* [E. Rasche](/src/people/helena-rasche/index.md)
+* [Helena Rasche](/src/people/helena-rasche/index.md)
 * Ben Busby
 * Aaron Gardner
 * [Dan Blankenberg](/src/people/dan/index.md)
