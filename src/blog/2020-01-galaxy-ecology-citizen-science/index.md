@@ -64,6 +64,9 @@ Classifications results for the first week on MMOS developer portal:
 ![Alt text](MMOS_developer_portal.PNG)
 
 
+"This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr 732703”
+
+
 #### References
 
 
