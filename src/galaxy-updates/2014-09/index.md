@@ -7,24 +7,24 @@ Welcome to the September 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a
 
 # Galaxy-UK Community Launched
 
-[Galaxy-UK](http://galaxy-community.org.uk/), a new [Galaxy Community](/src/community/index.md) was launched in August.  The [Galaxy-UK Community](http://galaxy-community.org.uk/) aims to:  
+Galaxy-UK, a new [Galaxy Community](/src/community/index.md) was launched in August.  The Galaxy-UK Community aims to:  
 
 * Bring the Galaxy community in the United Kingdom closer together
 * Identify and address the needs of the community
 * Encourage interaction and collaboration.
 
 Galaxy-UK is also an information hub for events such as:
-* [UK based Galaxy training courses](http://galaxy-community.org.uk/category/galaxy-timeline/training/)
-* [UK based talks involving Galaxy](http://galaxy-community.org.uk/news/)
-* Information on the [location of UK Galaxy servers](http://galaxy-community.org.uk/galaxy-servers/)
+* UK based Galaxy training courses
+* UK based talks involving Galaxy
+* Information on the location of UK Galaxy servers
 * Anything else that might be pertinent to bring the UK Galaxy users/admins/trainers together as a community
 
-The community will also have both online meetings and physical meetings, so keep an eye on the [site](http://galaxy-community.org.uk/) for these events. 
+The community will also have both online meetings and physical meetings, so keep an eye open for these events. 
 
 
 ## Other Galaxy Communities
 
-Don't fret if you want to join a community but you are not in the UK.  [Galaxy-UK](http://galaxy-community.org.uk/) is just one of several [Galaxy communities](/src/community/index.md) you can join.  (And there are rumors of a German language community in the works.)
+Don't fret if you want to join a community but you are not in the UK.  Galaxy-UK is just one of several [Galaxy communities](/src/community/index.md) you can join.  (And there are rumors of a German language community in the works.)
 
 # Events
 

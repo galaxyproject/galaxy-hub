@@ -11,7 +11,7 @@ Several [Galaxy communities](/src/community/index.md) also have a presence on Tw
     * [@GalaxyAustralia](http://twitter.com/galaxyaustralia)
  * [Pitagora Galaxy (Japan)](http://www.pitagora-galaxy.org/):
     * [#usegalaxyjp](https://twitter.com/hashtag/usegalaxyjp)
- * [Galaxy UK](http://galaxy-community.org.uk/):
+ * Galaxy UK:
     * [@GalaxyUKFriends](http://twitter.com/galaxyukfriends)
  * [Galaxy Arabic](https://ar.wikipedia.org/wiki/%D9%85%D8%B4%D8%B1%D9%88%D8%B9_%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9):
     * [@Galaxy_Arabic](https://twitter.com/Galaxy_Arabic)
