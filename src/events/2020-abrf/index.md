@@ -21,7 +21,7 @@ Registration is open.  Space is limited, so early registration is strongly encou
 <button type="button" class="btn btn-light" style="font-size: larger">[Register now](https://conf.abrf.org/program/registration-schedule/)</button>
 
 
-# SW5a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
+# SW4a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
 <div class="float-right">
 [<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/src/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/src/people/dave-clements/index.md)
@@ -45,7 +45,7 @@ Due to technological advances, single cell RNA-seq (scRNA-seq) analysis has emer
 
 Participants will perform hands-on guided exercises analyzing and visualizing scRNA-seq data generated using the 10x Genomics platform, using both workflow execution and interactive tools. The workshop will introduce the Galaxy workbench with guided exercises to familiarize participants with the diverse set of available tools, data management features, collaborative infrastructure, and workflow generation/execution. Participants will also be introduced to scRNA-seq assay technology, analysis and visualization strategies, and examples of scRNA-seq applications. Using guided hands-on exercises, attendees will process 10x Genomics scRNA-seq data using workflows to achieve count matrices from raw barcoded reads using workflows in Galaxy. Participants will visualize and interact with processed scRNA-seq data using interactive tools in Galaxy. The generated workflows and analyses could also then be shared and published to demonstrate collaborative infrastructure. The overall goal of this workshop is to introduce core facility managers and technicians to the Galaxy workbench as an analysis and collaborative platform.
 
-# SW5b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
+# SW4b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
 
 <div class="float-right"><br />
 [<img src="saskia-hiltemann.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Saskia_Hiltemann) &nbsp; [<img src="pratik-jagtap.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Pratik_Jagtap2) &nbsp; [<img src="subina-mehta.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Subina_Mehta)
