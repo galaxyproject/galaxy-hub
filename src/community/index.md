@@ -51,7 +51,7 @@ Member | Joined | GitHub
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
 **Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
-**E. Rasche**, University of Freiburg |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
+**Helena Rasche**, University of Freiburg |  Aug 25, 2014 | [@erasche](https://github.com/hexylena)
 **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
 **Marius van den Beek**, Institut Curie | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
@@ -110,7 +110,7 @@ Member | Joined | GitHub
 
 | Region | Info | Links |
 |--------|------|-------|
-| [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) | 
+| [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) |
 | Australia | Australian Galaxy community | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyaustralia) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://www.embl-abr.org.au/galaxyaustralia/) |
 | France | Galaxy in French Speaking World | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://www.france-bioinformatique.fr/fr/groupes-de-travail/galaxy) |
 | Western France | The GUGGO group is a collaborative space for scientists, biologists, and bioinformaticians based in Western France who are interested in data analysis and the Galaxy platform. GUGGO facilitates the transfer of information in western France about Galaxy. | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://www.e-biogenouest.org/groups/guggo/) |

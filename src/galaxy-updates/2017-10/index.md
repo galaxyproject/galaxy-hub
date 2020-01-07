@@ -279,7 +279,7 @@ This set of revisions includes:
 * Updated CWL utilities.
 * Remove command lint check that is no longer valid.
 * Bring in various Galaxy updates including numerous Conda fixes and changes (thanks to [@nsoranzo](https://github.com/noranzo).
-* Improved error handling when parsing tool reStructuredText (thanks to [@erasche](https://github.com/erasche)).
+* Improved error handling when parsing tool reStructuredText (thanks to [@erasche](https://github.com/hexylena)).
 
 ## Planemo 0.45 - 0.46.1
 

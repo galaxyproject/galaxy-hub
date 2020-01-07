@@ -20,7 +20,7 @@ If you are interested, please add your name below and/or send an email to [Micha
 
 * Michael R. Crusoe
 * Bjoern Gruening
-* E. Rasche
+* Helena Rasche
 
 ## Questions?
 

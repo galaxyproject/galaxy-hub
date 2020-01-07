@@ -12,7 +12,7 @@ title: The August 2015 Galactic News!
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the August 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the August 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # Events
@@ -22,12 +22,12 @@ Welcome to the August 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a su
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015" width="170" /></a>
 </div>
 
-The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** was held 4-8 July 2015, in Norwich, UK. 
+The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** was held 4-8 July 2015, in Norwich, UK.
 GCC2015 was hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK.  By all measures, the meeting was a tremendous success.
 
 GCC2015 registrations reached an all-time high, and GC2015 featured more events than any previous GCC:
 * A record **230 researchers** signed up for one or more GCC2015 events:
-  * 41 registered for the 2nd Annual [GCC Coding Hackathon](http://gcc2015.tsl.ac.uk/Hackathon/), held at TGAC, 4-5 July, 
+  * 41 registered for the 2nd Annual [GCC Coding Hackathon](http://gcc2015.tsl.ac.uk/Hackathon/), held at TGAC, 4-5 July,
   * 17 registered for the first ever [GCC Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/data-hackathon/), held simultaneously at TGAC,
   * 72 registered for the first ever (and sold out) [Training Sunday](http://gcc2015.tsl.ac.uk/Training-Day/) on 5 July.
   * 178 registered for [Training Day](http://gcc2015.tsl.ac.uk/Training-Day/) on 6 July,
@@ -66,11 +66,11 @@ If you work in data-intensive biomedical research, there is no better place than
 <a href='http://www.irida.ca/'><img src="/src/images/logos/IRIDA.png" alt="IRIDA" width="200" /></a>
 </div>
 
-Please join us for the [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) when [Aaron Petkau](https://github.com/apetkau) will cover 
+Please join us for the [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) when [Aaron Petkau](https://github.com/apetkau) will cover
 
  *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy*
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
 
 <div class='left'><br /><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Meetup_2015-07'><img src="/src/images/logos/PitagoraBoXLogo.png" alt="meetup on 23 July 2015" width="65" /></a>
@@ -94,7 +94,7 @@ The [Pitagora-Galaxy](http://www.pitagora-galaxy.org/) community in Japan had a 
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 </div>
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
@@ -102,7 +102,7 @@ The [Pitagora-Galaxy](http://www.pitagora-galaxy.org/) community in Japan had a 
 There are [upcoming events](/src/events/index.md) in four countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'><img src="/src/images/logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/images/logos/BioSBResearchSchool.png" alt="RNA-seq data analysis NGS Course" height="80" /></a>
 <a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'><img src="/src/images/logos/UCDavisGenomeCenter.png" alt="Using Galaxy for Analysis of High Throughput Sequence Data" height="50" /></a> &nbsp;
@@ -208,7 +208,7 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [The Plant Genome Integrative Explorer Resource: PlantGenIE.org](http://bit.ly/1IguksS), Sundell *et al,*
 
-* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](http://bit.ly/1LE6QDp), Fuller *et al* 
+* [Genome-wide analysis of signatures of selection in populations of African honey bees (Apis mellifera) using new web-based tools](http://bit.ly/1LE6QDp), Fuller *et al*
 
 * [Enabling Data-Intensive Biomedical Studies](http://bit.ly/leophd), Simone Leo
 
@@ -226,7 +226,7 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [Compact graphical representation of phylogenetic data and metadata with GraPhlAn](https://doi.org/10.7717/peerj.1029), Asnicar *et al.*
 
-* [ARC Control Tower A flexible generic distributed job management framework](http://bit.ly/1ROmd1q), Nilsen *et al.* 
+* [ARC Control Tower A flexible generic distributed job management framework](http://bit.ly/1ROmd1q), Nilsen *et al.*
 
 The new papers were tagged with:
 
@@ -328,7 +328,7 @@ The videos join over 60 other videos on the [Galaxy Project Vimeo Channel](https
 
 A [Genomic Data Science with Galaxy](https://www.coursera.org/course/gengalaxy) course was launched on the online teaching platform [Coursera](https://www.coursera.org/) in July.  The course is part of the [Genomic Data Science Specialization](https://www.coursera.org/specialization/genomics/41).  A new session starts every month from now through at least the end of 2015.  Coursera courses can be taken for free, or you can pay the course fee and receive a certificate upon completion.
 
-The [video lectures for the Galaxy material is on Vimeo](http://vimeo.com/album/3456144). 
+The [video lectures for the Galaxy material is on Vimeo](http://vimeo.com/album/3456144).
 
 ----
 
@@ -338,9 +338,9 @@ The [video lectures for the Galaxy material is on Vimeo](http://vimeo.com/album/
 
 The Galaxy is expanding! Please help it grow.
 
-* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
+* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium
 
- * 
+ *
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -349,7 +349,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ----
 
-<div class='right solid blue'> 
+<div class='right solid blue'>
 <a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/use/ab-openlab/frog.png" alt="FingeRprinting Ontology of Genomic variations (FROG)" width="160" /></a><br />
 <a href='http://aspendb.uga.edu/ageseq'><img src="/src/use/ageseq-aspendb/aspen-db-300.png" alt="AGEseq Galaxy @ AspenDB" width="160" /></a><br />
 <a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/use/biomas/biomas-logo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
@@ -375,7 +375,7 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
   * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/use/mississippi/index.md) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
-  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins. 
+  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.
 <br />
 
 <div class='left'><br /><a href='https://github.com/galaxyproject/galaxy/pull/314'><img src="/src/images/CommunityCommitters1.png" alt="Community Committers" width="160" /></a>
@@ -384,7 +384,7 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
 
 # Community Committers!
 
-Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [E. Rasche](https://github.com/erasche)** are now committers.
+Galaxy now has a formal and open policy for managing the project source code - including for how to add and remove committers. Anyone can issue pull requests and join in the conversation, but committers are trusted to decide how these pull requests are integrated and can participate in formal voting. Read more in ([Pull Request 314](https://github.com/galaxyproject/galaxy/pull/314)). Based on their frequent contributions both in terms of code written and contribution to discussions - the Galaxy Project added three new contributors as part of this process. **[Nicola Soranzo](https://github.com/nsoranzo), [Björn Grüning](https://github.com/bgruening), and [Helena Rasche](https://github.com/hexylena)** are now committers.
 
 
 # Galaxy Community Hubs
@@ -480,14 +480,14 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 ## Others
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
  **May 2015 Galaxy Release (v 15.05)**
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
  **[CloudMan](/src/cloudman/index.md) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
 
@@ -499,7 +499,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # Other News
 
-* [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) created a [checklist for Galaxy DataSource docs](/src/admin/internals/data-sources/index.md#adding-a-new-datasource) 
+* [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) created a [checklist for Galaxy DataSource docs](/src/admin/internals/data-sources/index.md#adding-a-new-datasource)
 * [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) is also working on supporting the [Open Science Framework](https://osf.io/) as a [data source in Galaxy](https://osf.io/en2ak/).
 * The [main Galaxy Project repository on GitHub](https://github.com/galaxyproject/galaxy) has over 100 forks! Thank you very much for all the contributions!
 * [Samuel Lampa's](http://bionics.it/) created a blog post on [Workflow tool makers: Allow defining data flow, not just task dependencies](http://bionics.it/posts/workflows-dataflow-not-task-deps)

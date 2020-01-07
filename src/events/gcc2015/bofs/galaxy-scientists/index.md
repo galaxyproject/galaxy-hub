@@ -46,7 +46,7 @@ If you are interested, please add your name below.
 * Hans-Rudolf Hotz, 
 * Frederik Coppens
 * Rob Davidson
-* E. Rasche
+* Helena Rasche
 * Maria Doyle
 * Peter van Heusden
 * Daniel Blankenberg
