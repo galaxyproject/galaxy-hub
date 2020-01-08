@@ -260,6 +260,14 @@ Platforms that were referenced *at least twice* in the past month's publications
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Do you use Galaxy for training?](https://forms.gle/Uc8Qs23TsVcAYfCD8)</div>
+
+**Then the Galaxy Training Network [wants your feedback](https://forms.gle/Uc8Qs23TsVcAYfCD8).**  Please take a few minutes to let us know about your training experiences.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/GTNLogo1000.png" alt="Help! We need it!" />
+</div>
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[R basics in Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html)</div>
 
 By [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Fotis E. Psomopoulos](https://training.galaxyproject.org/training-material/hall-of-fame#fpsom), [Toby Hodges](https://training.galaxyproject.org/training-material/hall-of-fame#tobyhodges).
