@@ -16,7 +16,6 @@ To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com
 
 1. Enable Linux Subsystem for Windows.
 2. Install your preferred Linux Distribution.
-3. (Optional) Install Yarn directly in Windows.
 
 **Step 1**
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled. Open Windows PowerShell and run:
@@ -27,9 +26,6 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 **Step 2**
 Open the Microsoft store and select your desired Linux distribution. *This instruction was tested on Ubuntu 18.04 LTS but any distribution known to work with Galaxy should work.*
-
-**Step 3**
-During the installation of Galaxy we ran into issues with Yarn throwing a "Error: ENOENT: no such file or directory,". The cause of this error remains unclear according to [GitHub issues](https://github.com/yarnpkg/yarn/issues/5275). During our first test installing Yarn in Windows allowed us to install Galaxy successfully in the Ubuntu subsystem. You can download Yarn for Windows from the [Yarn website](https://yarnpkg.com/lang/en/docs/install/#windows-stable). The error does however seem to be very hard to pin down and we have seen similar issues later even with this error but were still able to run Galaxy and the client.
 
 ## Installing and running Galaxy.
 
@@ -63,6 +59,9 @@ make client-watch
 The first row runs the shell script without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated. 
 
 Just running `sh run.sh` instead builds a client suitable for local development.
+
+**NOTE**
+During the installation of Galaxy we ran into issues with Yarn throwing a "Error: ENOENT: no such file or directory,". The cause of this error remains unclear according to [GitHub issues](https://github.com/yarnpkg/yarn/issues/5275). During our first test, installing Yarn in Windows allowed us to install Galaxy successfully in the Ubuntu subsystem (downloadable from the [Yarn website](https://yarnpkg.com/lang/en/docs/install/#windows-stable)). It does however seem that this is a random error with different packages failing to install each time, running the `GALAXY_CLIENT_SKIP_BUILD=1 sh run.s` step again when failing will after a few runs mean that all packages have been installed and the Galaxy server will launch successfully.
 
 ## Setting up an IDE on Windows accessing Linux files
 
