@@ -18,10 +18,10 @@ Each Galaxy server is independent. How much disk space to allocate for end users
 If you are working at [Galaxy Main](/src/main/index.md) (http://usegalaxy.org), each registered account is granted 250 GB of quota space (disk usage for data storage). Review full details [here (account and job quotas)](/src/main/#user-data-and-job-quotas) and [here (account terms)](/src/support/account/index.md).
 
 Should you have questions after reviewing the options below, this is how to get help: 
-* Review prior Q&A or ask a novel question at the Galaxy Help forum https://help.galaxyproject.org/.
-* Chat will us at Gitter https://gitter.im/galaxyproject/Lobby/.
-* Send an email to [galaxy-bugs@lists.galaxyproject.org](mailto:galaxy-bugs@lists.galaxyproject.org) from your registered account email address.
-* All options https://galaxyproject.org/support/#help-resources.
+* Review prior Q&A or ask a novel question at the **Galaxy Help** forum https://help.galaxyproject.org/.
+* Chat with us at **Gitter** https://gitter.im/galaxyproject/Lobby/.
+* Send an **email** to [galaxy-bugs@lists.galaxyproject.org](mailto:galaxy-bugs@lists.galaxyproject.org) from your registered account email address.
+* **All options** https://galaxyproject.org/support/#help-resources.
 
 Working at a different Public Galaxy server? If you question is general, try the Galaxy Help forum. If server specific or account related, that server's home page or directory page usually contains contact and other information concerning account terms, questions, issues, and quota policies: [Galaxy Platform Directory](/src//use/index.md). If you cannot find the contact information, or are not sure about what the problem is exactly, ask for advice at the Galaxy Help forum or at Gitter. The more context you provide (server URL, problem details), the quicker our community will be able to assist you.
 
