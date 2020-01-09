@@ -72,7 +72,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    
  4. Reduce quota usage while still retaining prior work (data, tools, methods).
    * *There are several options to preserve data/work while also reducing your quota usage.* Some examples are below. 
-   * **Download** Datasets as indiviual files or entire Histories as an archive. Then *purge* them from the public server. 
+   * **Download** Datasets as individual files or entire Histories as an archive. Then *purge* them from the public server. 
    * **Copy** Datasets or Histories to another Galaxy server, including your own Galaxy. Then purge. 
    * **Copy** your most important Datasets into a new/other History (inputs, results), then purge the original full History. This can be a quicker alternative if the orignal History is very large or complex to review/purge dataset-by-dataset. 
    * Extract a **Workflow** from the History, then purge it. Workflows do not consume quota space as they do not contain any datasets, only tools/parameters. IF you first saved back the original inputs and final result datasets, the analysis can be rerun to recreate the intermediate datasets and to compare the new result with your original. Be aware that minor differences are expected over time, as tools and Galaxy itself are updated.
