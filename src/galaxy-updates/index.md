@@ -5,14 +5,19 @@ title: Galaxy Updates
 
 ## See also
 
-* The [News](/src/news/index.md) 
+* The [News](/src/news/index.md)
 * [Galaxy Development News Briefs](/src/docs/index.md)
 * [Galactic Blog](/src/blog/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 * [Mailing Lists](/src/mailing-lists/index.md)
 
+## 2020 Updates
+
+* [2020-01](/src/news/2020-01-galaxy-update/index.md)
+
 ## 2019 Updates
 
+* [2019-12](/src/news/2019-12-galaxy-update/index.md)
 * [2019-11](/src/news/2019-11-galaxy-update/index.md)
 * [2019-10](/src/news/2019-10-galaxy-update/index.md)
 * [2019-09](/src/news/2019-09-galaxy-update/index.md)
