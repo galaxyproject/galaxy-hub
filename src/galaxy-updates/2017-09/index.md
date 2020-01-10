@@ -38,7 +38,7 @@ Some highlights from the recently added pubs:
   Geir K. Sandve, Boris Simovski, Sveinung Gundersen, Diana Domanska, Christin Lund-Andersen. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114523.1
 
 * [Making Galaxy user Interface Pluggable with Webhooks](https://doi.org/10.7490/f1000research.1114475.1)
-  Evgeny Anatskiy, Anup Kumar, Eric Rasche, et al. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114475.1
+  Evgeny Anatskiy, Anup Kumar, Helena Rasche, et al. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114475.1
 
 * [mzML2ISA & nmrML2ISA: generating enriched ISA-Tab metadata files from metabolomics XML data](https://doi.org/10.1093/bioinformatics/btx169)
   Martin Larralde, Thomas N. Lawson, Ralf J. M. Weber, et al. *Bioinformatics* (07 April 2017), doi:10.1093/bioinformatics/btx169
@@ -66,11 +66,11 @@ Some highlights from the recently added pubs:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 62 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 27 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 14 | [tools](http://www.citeulike.org/group/16008/tag/tools) | 
-| 13 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 9 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | 
-| 4 | [project](http://www.citeulike.org/group/16008/tag/project) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 3 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 2 | [other](http://www.citeulike.org/group/16008/tag/other) | 
+| 62 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 27 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 14 | [tools](http://www.citeulike.org/group/16008/tag/tools) |
+| 13 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 9 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) |
+| 4 | [project](http://www.citeulike.org/group/16008/tag/project) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 3 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 2 | [other](http://www.citeulike.org/group/16008/tag/other) |
 | 2 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 2 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | | |
 
 ----
@@ -244,7 +244,7 @@ No new resources were added to community directories in January or February.
 
 ## CloudBridge 0.3.3
 
-[CloudBridge](https://github.com/gvlproject/cloudbridge) aims to provide a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud. It is currently under development and is in an Alpha state.  
+[CloudBridge](https://github.com/gvlproject/cloudbridge) aims to provide a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud. It is currently under development and is in an Alpha state.
 
 ## Earlier Releases
 
@@ -289,8 +289,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/src/people/john-chilton/index.md):
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
