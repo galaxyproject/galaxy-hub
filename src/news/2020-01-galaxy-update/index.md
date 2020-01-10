@@ -311,7 +311,7 @@ Clustering single-cell data from 10x Genomics, including preprocessing, clusteri
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Single Cell RNA-seq Analysis using Galaxy](https://www.youtube.com/watch?v=1w4sA-qyO3g)</div>
 
-By [Wendy Baker](https://www.researchgate.net/scientific-contributions/38176747_Wendy_Baker), EMBL-EBI.
+By [Wendi Bacon](https://www.ebi.ac.uk/about/people/wendi-bacon), EMBL-EBI.
 
 This webinar video highlights Galaxy interface for single cell analysis. Specifically it highlights Scanpy (which would otherwise require Python programming skills) to analyse a Drop-seq dataset located in EMBL-EBI's Single Cell Expression Atlas.
 
