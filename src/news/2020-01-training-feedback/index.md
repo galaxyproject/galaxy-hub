@@ -1,6 +1,6 @@
 ---
-title: 'January 2020 Galactic News'
-tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
+title: 'Galaxy Training Survey'
+tease: "We need your input on preparing and giving Galaxy Trainings"
 date: "2020-01-08"
 ---
 
