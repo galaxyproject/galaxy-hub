@@ -465,7 +465,7 @@ Planemo saw [one major and several minor](https://pypi.python.org/pypi/planemo/0
 
 * Fix for `shed_init` producing non-standard type hints. [Issue 243](https://github.com/galaxyproject/planemo/issues/243), [f0610d7](https://github.com/galaxyproject/planemo/commit/f0610d7)
 * Fix tool linting for parameters that define an `argument` but not a `name`. [Issue 245](https://github.com/galaxyproject/planemo/issues/245), [aad1eed](https://github.com/galaxyproject/planemo/commit/aad1eed)
-* Many doc updates including a tutorial for developing tools in a test-driven fashion and instructions for using the planemo appliance through Kitematic (with Kitematic screenshots from Eric Rasche).
+* Many doc updates including a tutorial for developing tools in a test-driven fashion and instructions for using the planemo appliance through Kitematic (with Kitematic screenshots from Helena Rasche).
 * If planemo cannot find a Galaxy root, it will now automatically fetch one (specifying `--galaxy_install` will still force a fetch). [Pull Request 235](https://github.com/galaxyproject/planemo/pull/235)
 * [Documentation](http://planemo.readthedocs.org/en/latest/appliance.html) has been updated to reflect new and vastly improved Docker and Vagrant virtual appliances are now available, as well as a new VirtualBox OVA variant.
 * Update linting for new tool XML features (including `detect_errors` and output collections). [Issue 233](https://github.com/galaxyproject/planemo/issues/233), [334f2d4](https://github.com/galaxyproject/planemo/commit/334f2d4)
