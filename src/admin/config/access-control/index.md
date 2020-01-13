@@ -149,7 +149,7 @@ There are several different types of filters:
 
 * tool
 
-Each of these passes appropriate variables to the python function when they're called, and as such their declaration in the main configuration is slightly different. To activate a filter, you will need to modify your `config/galaxy.ini` file. The syntax for each of them is spread across several examples in the `examples.py` file that is provided. These are reproduced below for clarity
+Each of these passes appropriate variables to the python function when they're called, and as such their declaration in the main configuration is slightly different. To activate a filter, you will need to modify your `config/galaxy.yml` file. The syntax for each of them is spread across several examples in the `examples.py` file that is provided. These are reproduced below for clarity
 
 * `tool_filters = examples:restrict_upload_to_admins`
 
@@ -157,7 +157,7 @@ Each of these passes appropriate variables to the python function when they're c
 
 * `tool_label_filters = examples:label_filter`
 
-Simply add the appropriate string to your `config/galaxy.ini` in the `[app:main]` section to activate a tool filter. 
+Simply add the appropriate string to your `config/galaxy.yml` in the `[app:main]` section to activate a tool filter. 
 
 # Conclusion
 
@@ -167,7 +167,7 @@ With this, you should have restricted a tool's use to a specific role, and hidde
 
 ## Multiple Worker Threads running local jobs
 
-If you have not used the job_conf before and are using multiple worker threads for running galaxy (e.g., `server:handler0` entries in your `config/galaxy.ini`), please be sure to note you'll have to modify your `<handlers>` section to look something like:
+If you have not used the job_conf before and are using multiple worker threads for running galaxy (e.g., `server:handler0` entries in your `config/galaxy.yml`), please be sure to note you'll have to modify your `<handlers>` section to look something like:
 
 ```xml
 <handlers default="handlers">
