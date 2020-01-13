@@ -151,13 +151,13 @@ There are several different types of filters:
 
 Each of these passes appropriate variables to the python function when they're called, and as such their declaration in the main configuration is slightly different. To activate a filter, you will need to modify your `config/galaxy.yml` file. The syntax for each of them is spread across several examples in the `examples.py` file that is provided. These are reproduced below for clarity
 
-* `tool_filters = examples:restrict_upload_to_admins`
+* `tool_filters: 'examples:restrict_upload_to_admins'`
 
-* `tool_section_filters = examples:explicit_user_mapping`
+* `tool_section_filters: 'examples:explicit_user_mapping'`
 
-* `tool_label_filters = examples:label_filter`
+* `tool_label_filters: 'examples:label_filter'`
 
-Simply add the appropriate string to your `config/galaxy.yml` in the `[app:main]` section to activate a tool filter. 
+Simply add the appropriate string to your `config/galaxy.yml` to activate a tool filter. 
 
 # Conclusion
 
