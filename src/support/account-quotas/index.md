@@ -38,7 +38,8 @@ The options are included under the **User** menu in the top masthead.
 
 If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/index.md):
 
- 1. Find all Histories and *purge* (aka permenently delete) those not needed.
+### Find all Histories and *purge* (aka permenently delete) those not needed
+
    * All account Histories can be reviewed under **User > Histories**.
    * Only *active* histories are displayed by default.
    * Click on **Advanced Search**, then choose **status = all** to review all *active*, *deleted*, and *purged* histories.
@@ -48,7 +49,8 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    * **Histories in a *deleted* state are still part of your quota usage.**
    * **Histories must be *purged* (permenently deleted) to not count toward quota.**
 
- 2. Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed.
+### Find all Datasets or just review those in the active history and *purge* (aka permenently delete) those not needed
+
    * All account Datasets can be reviewed under **User > Datasets**.
    * Within a History, deleted/permenently deleted Datasets can be reviewed by toggling the *deleted* link at the top of the History panel, found immediately under the History name.
    * Both *active* (shown by default) and *hidden* (the other toggle link, next to the *deleted* link) datasets can be reviewed the same way.
@@ -57,7 +59,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    * **Datasets in a *deleted* state are still part of your quota usage.**
    * **Datasets must be *purged* (permenently deleted) to not count toward quota.**
    
- 3. Find Histories that have been shared with you, and unshare those not needed.
+### Find Histories that have been shared with you, and unshare those not needed 
    * All account Histories owned by others, but shared with you, can be reviewed under **User > Histories shared with me**. 
    * Review the list. There may be none!
    * Only a small fraction of the data content in "Histories shared with me" are part of your own quota usage, and *unsharing* will not significantly reduce quota usage for most end-users. However, if there are hundreds (or more!), or many large histories shared with you, clearing these up periodically (*unsharing*) could be worth it.
@@ -70,7 +72,8 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/src/main/
    * **Shared Histories must be *unshared* to not count toward quota usage.** 
    * If you *share* a History with someone else, that does not increase OR decrease *your* own quota usage.
    
- 4. Reduce quota usage while still retaining prior work (data, tools, methods).
+### Reduce quota usage while still retaining prior work (data, tools, methods)
+
    * *There are several options to preserve data/work while also reducing your quota usage.* Some examples are below. 
    * **Download** Datasets as individual files or entire Histories as an archive. Then *purge* them from the public server. 
    * **Copy** Datasets or Histories to another Galaxy server, including your own Galaxy. Then purge. 
