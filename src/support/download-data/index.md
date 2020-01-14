@@ -63,6 +63,10 @@ or
 $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
 
-# GenomeSpace Importer/Exporter
+### Deprecated: GenomeSpace Importer/Exporter
 
-Please see: https://galaxyproject.org/support/loading-data/#genomespace-importerexporter
+The [GenomeSpace](http://www.genomespace.org/) project no longer supports data transfers as of November 15, 2019. 
+
+The GenomeSpace Importer/Exporter tools and OpenID token functions will be removed from the public Galaxy Main server at https://usegalaxy.org and from the Galaxy Release in early 2020.
+
+Notice: [The GenomeSpace project is ending](http://www.genomespace.org/news/the-genomespace-project-is-ending)
