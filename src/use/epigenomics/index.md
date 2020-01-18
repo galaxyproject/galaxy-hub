@@ -9,7 +9,7 @@ platforms:
 summary: "Galaxy Docker image for epigenomics analysis"
 image: "epigenomics-galaxy-fig1.jpeg"
 comments:
-  - "This galaxy instance contains tools and workflows aimed at the analysis of epigenomics data, both ChIP-Seq and RNA-Seq. A script is provided to install Brassica rapa genome version 3 and run the data analysis from our paper (see below)"
+  - "This galaxy instance contains tools and workflows aimed at the analysis of epigenomics data, both ChIP-Seq and RNA-Seq, from any source. A script is provided to install Brassica rapa genome version 3 and run the data analysis from our paper (see below)"
 user_support:
 quotas:
   - "None."
@@ -19,5 +19,4 @@ pub_libraries:
   - "EpigenomicsGalaxy"
 sponsors:
   - "Centro de Biotecnología y Genómica de Plantas (CBGP), Universidad Politécnica de Madrid (UPM) - Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA), Campus de Montegancedo, 28223, Pozuelo de Alarcón (Madrid), Spain"
-  - "Centro de Investigación Médica Aplicada (CIMA), Universidad de Navarra, Avenida Pío XII 55, 31008, Pamplona, Spain"
 ---
