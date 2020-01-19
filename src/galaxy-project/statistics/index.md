@@ -42,21 +42,20 @@ Here's membership in both channels since they were launched.
 
 # Communities
 
-Several domain-specific and regional/language-based Galaxy Communities also exist.  Here are their numbers as of June 2019.
+Several domain-specific and regional/language-based Galaxy Communities also exist.  Here are their numbers as of January 2020.
 
-| Geography/Language-based Community / Channel | Membership / Followers|
-|---|---|
-| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 358 |
-| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 275 |
-| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 61 |
-| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 48 |
-
-| Topic-Based Community / Channel | Membership / Followers|
-|---|---|
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 124 |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 126 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 122 |
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 85 |
+| Geography/Language-based Community / Channel | Membership / Followers |
+|---|---:|
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 458 |
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 321 |
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 69 |
+| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 50 |
+| | |
+| **Topic-Based Community / Channel** |  |
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 136 |
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 151 |
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 135 |
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 88 |
 
 
 # Publications / Citations
@@ -500,7 +499,7 @@ Galaxy is available in a number of ways.  While most [installations of Galaxy](/
 
 ## Platforms in Publications
 
-In late 2017 the project started tracking which specific [platforms](/src/use/index.md) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 20 publications since we started tracking this. 
+In late 2017 the project started tracking which specific [platforms](/src/use/index.md) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of December 2019
 
 <table class="table">
   <tr>
@@ -508,81 +507,94 @@ In late 2017 the project started tracking which specific [platforms](/src/use/in
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">Hutten-hower</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">Repeat-Explorer</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">Workflow4-Metabolomics</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">ARGs-OAP</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">Galaxy-P</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">Cis-trome</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">deep-Tools</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Globus Genomics">Globus Genomics</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">Ribo-Galaxy</a> </th>
     <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>CPT">CPT</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">ARGs-OAP</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">Galaxy- P</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">Cis-trome</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">UseGalaxy .eu</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">deep-Tools</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">Ribo-Galaxy</a> </th>
   </tr>
   <tr>
     <th> Pre 2017 </th>
     <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
-    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
-    <td  style="text-align: right; background-color: #eaf7ea;" > 2 </td>
-    <td  style="text-align: right; background-color: #daf1da;" > 6 </td>
-    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #d3eed3;" > 10 </td>
     <td  style="text-align: right; background-color: #ebf7eb;" > 2 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
-    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td > </td>
     <td >  </td>
+    <td  style="text-align: right; background-color: #ebf7eb;" > 2 </td>
+    <td  style="text-align: right; background-color: #d9f1d9;" > 7 </td>
+    <td  style="text-align: right; background-color: #e1f4e1;" > 4 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #ebf7eb;" > 2 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
   </tr>
   <tr>
     <th> 2017 </th>
-    <td  style="text-align: right; background-color: #b8e4b8;" > 45 </td>
-    <td  style="text-align: right; background-color: #c4e9c4;" > 23 </td>
-    <td  style="text-align: right; background-color: #c9ebc9;" > 17 </td>
-    <td  style="text-align: right; background-color: #def2de;" > 5 </td>
-    <td  style="text-align: right; background-color: #cfedcf;" > 12 </td>
-    <td  style="text-align: right; background-color: #dbf1db;" > 6 </td>
-    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
-    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
+    <td  style="text-align: right; background-color: #b9e4b9;" > 45 </td>
+    <td  style="text-align: right; background-color: #c5e9c5;" > 23 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 17 </td>
     <td >  </td>
+    <td  style="text-align: right; background-color: #def3de;" > 5 </td>
+    <td  style="text-align: right; background-color: #d0edd0;" > 12 </td>
+    <td  style="text-align: right; background-color: #dbf2db;" > 6 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #e6f5e6;" > 3 </td>
   </tr>
   <tr>
     <th> 2018 </th>
-    <td  style="text-align: right; background-color: #a0dba0;" > 161 </td>
-    <td  style="text-align: right; background-color: #b3e2b3;" > 59 </td>
-    <td  style="text-align: right; background-color: #bbe5bb;" > 38 </td>
-    <td  style="text-align: right; background-color: #c8eac8;" > 18 </td>
-    <td  style="text-align: right; background-color: #c8eac8;" > 18 </td>
-    <td  style="text-align: right; background-color: #c9ebc9;" > 17 </td>
+    <td  style="text-align: right; background-color: #a1dca1;" > 162 </td>
+    <td  style="text-align: right; background-color: #b4e3b4;" > 59 </td>
+    <td  style="text-align: right; background-color: #bce6bc;" > 38 </td>
+    <td  style="text-align: right; background-color: #dbf2db;" > 6 </td>
+    <td  style="text-align: right; background-color: #c9ebc9;" > 18 </td>
+    <td  style="text-align: right; background-color: #c9ebc9;" > 18 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 17 </td>
+    <td  style="text-align: right; background-color: #d3eed3;" > 10 </td>
     <td  style="text-align: right; background-color: #cdeccd;" > 14 </td>
-    <td  style="text-align: right; background-color: #d2eed2;" > 10 </td>
-    <td  style="text-align: right; background-color: #c8eac8;" > 18 </td>
-    <td  style="text-align: right; background-color: #dbf1db;" > 6 </td>
+    <td  style="text-align: right; background-color: #c9ebc9;" > 18 </td>
   </tr>
   <tr>
     <th> 2019 </th>
-    <td  style="text-align: right; background-color: #a7dea7;" > 113 </td>
-    <td  style="text-align: right; background-color: #bfe7bf;" > 30 </td>
-    <td  style="text-align: right; background-color: #c0e7c0;" > 29 </td>
-    <td  style="text-align: right; background-color: #c2e8c2;" > 26 </td>
-    <td  style="text-align: right; background-color: #cfedcf;" > 12 </td>
-    <td  style="text-align: right; background-color: #d4efd4;" > 9 </td>
+    <td  style="text-align: right; background-color: #9cda9c;" > 223 </td>
+    <td  style="text-align: right; background-color: #b3e2b3;" > 61 </td>
+    <td  style="text-align: right; background-color: #b5e3b5;" > 56 </td>
+    <td  style="text-align: right; background-color: #b3e2b3;" > 63 </td>
+    <td  style="text-align: right; background-color: #bce6bc;" > 38 </td>
+    <td  style="text-align: right; background-color: #c6eac6;" > 21 </td>
+    <td  style="text-align: right; background-color: #c6eac6;" > 21 </td>
+    <td  style="text-align: right; background-color: #bee6be;" > 34 </td>
+    <td  style="text-align: right; background-color: #caebca;" > 17 </td>
     <td  style="text-align: right; background-color: #d1eed1;" > 11 </td>
-    <td  style="text-align: right; background-color: #e5f5e5;" > 3 </td>
-    <td  style="text-align: right; background-color: #ebf7eb;" > 2 </td>
+  </tr>
+  <tr>
+    <th> 2020 </th>
     <td  style="text-align: right; background-color: #cdeccd;" > 14 </td>
+    <td  style="text-align: right; background-color: #f2faf2;" > 1 </td>
+    <td  style="text-align: right; background-color: #e6f5e6;" > 3 </td>
+    <td >  </td>
+    <td  style="text-align: right; background-color: #e6f5e6;" > 3 </td>
+    <td  style="text-align: right; background-color: #ebf7eb;" > 2 </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
+    <td >  </td>
   </tr>
   <tr>
     <th> Total </th>
-    <th  style="text-align: right; background-color: #94d694;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">320</a> </th>
-    <th  style="text-align: right; background-color: #a5dda5;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">122</a> </th>
-    <th  style="text-align: right; background-color: #ace0ac;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">86</a> </th>
-    <th  style="text-align: right; background-color: #b5e3b5;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">51</a> </th>
-    <th  style="text-align: right; background-color: #b7e4b7;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">48</a> </th>
-    <th  style="text-align: right; background-color: #bce6bc;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">35</a> </th>
-    <th  style="text-align: right; background-color: #c0e7c0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">28</a> </th>
-    <th  style="text-align: right; background-color: #c3e8c3;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Globus Genomics">24</a> </th>
-    <th  style="text-align: right; background-color: #c3e8c3;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">24</a> </th>
-    <th  style="text-align: right; background-color: #c6eac6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>CPT">20</a> </th>
+    <th  style="text-align: right; background-color: #8fd58f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">445</a> </th>
+    <th  style="text-align: right; background-color: #a2dca2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">154</a> </th>
+    <th  style="text-align: right; background-color: #a8dea8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">116</a> </th>
+    <th  style="text-align: right; background-color: #b1e2b1;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>CPT">69</a> </th>
+    <th  style="text-align: right; background-color: #b2e2b2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">66</a> </th>
+    <th  style="text-align: right; background-color: #b4e3b4;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">60</a> </th>
+    <th  style="text-align: right; background-color: #b8e4b8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">48</a> </th>
+    <th  style="text-align: right; background-color: #b9e5b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">44</a> </th>
+    <th  style="text-align: right; background-color: #bee6be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">34</a> </th>
+    <th  style="text-align: right; background-color: #bee7be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">33</a> </th>
   </tr>
 </table>
+
 
 
 # Code
