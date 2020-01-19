@@ -62,8 +62,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * This indicates either an input has a problem or that you have [exceeded disk quota](/src/main/#user-data-and-job-quotas) set by the administrator of the Galaxy instance you are working on.
   * If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". 
   * You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
-  * Running out of disk space? [Permanently delete unneeded data](/src/learn/managing-datasets/#delete-vs-delete-permanently).
-  * More how-to: [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/data-status/index.md).
+  * Running out of disk space? [Permanently delete unneeded data](/src/support/account-quotas/index.md).
   
 ### Grey, Yellow, Grey again ???
 
