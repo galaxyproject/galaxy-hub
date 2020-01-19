@@ -23,7 +23,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * When work is urgent during peak-usage times on the public **[Main](/src/main/index.md)** Galaxy instance, a **[CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. 
   * For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)** each have advantages as a longer-term solution. 
   * [Read more about Using Galaxy Choices...](/src/choices/index.md)
-  * [Scientific user guide to running a personal Galaxy server](/src/support/sci-user-galaxies/index.md) _(comming soon!)_
+  * [UseGalaxy Directory](/src/use.index.md)
 
 ## Dataset States
 
@@ -41,7 +41,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * Some tools are more compute intensive than others and significant resources are dedicated to job processing. 
   * Jobs have a set amount of time to complete. Should they run longer, they will fail with a "wall-time" error and turn _red_. 
   * Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. 
-  * If that is not appropriate or does not succeed, [a personal Galaxy with sufficient resources may be the solution](/src/support/sci-user-galaxies/index.md).
+  * If that is not appropriate or does not succeed, setting up your own Galaxy with sufficient resources may be the solution. See: [Using Galaxy Choices](/src/choices/index.md) and the [UseGalaxy Directory](/src/use.index.md)
 
 ### Grey
 
@@ -71,7 +71,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * First, see the descriptions for **grey** and **yellow** jobs above.
   * The job was first submitted to the default cluster, but did not finished within the "wall-time" quota. Instead of failing, the job was automatically submitted to the long-running cluster **Stampede**. This cluster offers more execution time resource to the job. The wait may be longer since jobs running on this cluster by other users are also executing for a longer time period.
   * Stopping (deleting) the job and then restarting places it back at the end of the first queue, where the cycle will begin again, extending wait time even further. Please do not do this. Allow the job to process.
-  * If the job fails after running on Stampede, then it is too large to run on [http://usegalaxy.org](http://usegalaxy.org), also known as "Main". [Choose](/src/choices/index.md) another strategy to execute your job on a different Galaxy platform or consider modifying inputs/parameters to make the job less compute intensive.
+  * If the job fails after running on Stampede, then it is too large to run on [http://usegalaxy.org](http://usegalaxy.org), also known as "Main". [Choose](/src/choices/index.md) another strategy to execute your job on a different Galaxy platform or consider modifying inputs/parameters to make the job less compute intensive. This may include downsampling very large `fastq` inputs.
   * Read more about the details of different clusters here: **[Main](/src/main/index.md)**.
 
 ### Bright blue with moving arrow (deprecated)
@@ -79,4 +79,4 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * May be found in earlier Galaxy versions.
   * Applies to "Get Data → Upload File" tool only - the upload job is queuing or running
   * The job may run immediately, or may turn _grey_ if the server is busy, meaning that **guidelines for grey jobs apply**, and these _grey_ datasets should never be deleted/re-run, for the same reasons explained above.
-  * An upload job that seems to stay in the "_bright blue with moving arrow_" state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/src/learn/Upload%20via%20FTP) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
+  * An upload job that seems to stay in the "_bright blue with moving arrow_" state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and FTP should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
