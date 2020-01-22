@@ -489,6 +489,10 @@ Here are the tags on papers in the Galaxy Publications Library as of December 20
 
 [![](/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1403468135&format=interactive)
 
+The **Tags** graph highlights several trends.
+
+* **Methods**: The number of methods papers continues to grow every year.
+* **UsePublic**: UsePublic papers (papers that use a publicly accessible Galaxy server other than UseGalaxy.org) is the fastest growing category, and there have been more UsePublic papers than UseMain (main = UseGalaxy.org) since 2015.
 
 # Galaxy Platforms
 
