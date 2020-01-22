@@ -18,19 +18,13 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 ## Mailing Lists
 
-Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.md) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
+Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/src/mailing-lists/index.md) remain the only frequently active mailing lists. Here's the history:
 
 * 2011/12: Galaxy-Announce list launched.
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy BioStar online forum](https://biostar.usegalaxy.org).
 * 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy BioStar
 * 2018/11: [Galaxy Help Forum launched](https://help.galaxyproject.org/), superseding Galaxy BioStar site
-
-### Membership
-
-[![](/src/galaxy-project/statistics/MailingListMemberships.png)](https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1250178895&format=interactive)
-
-This graph will be replaced in the next update with one that integrates Gitter and Galaxy Help membership as well.
 
 # Communication Channels
 
@@ -601,56 +595,15 @@ In late 2017 the project started tracking which specific [platforms](/src/use/in
 
 
 
-# Code
+# Code: Commits and Committers
 
-Two measures of how vibrant a project is the number of code commits, and the number of people committing code to the project.  **[Open HUB](https://www.openhub.net/p/galaxybx/) provides nice summaries of [commits](https://www.openhub.net/p/galaxybx/commits/summary) and [committers](https://www.openhub.net/p/galaxybx/contributors)** that span [all of the Galaxy Project repos on GitHub](https://github.com/galaxyproject/). Open HUB also has [lines of code over time, broken down by programming language](https://www.openhub.net/p/galaxybx/analyses/latest/languages_summary) and an interesting [Factoids page](https://www.openhub.net/p/galaxybx/factoids).
-
-## Commits
-
-From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/commits/summary):
-
-| Date       | Past 30 days | past 12 months |   Ever |
-|------------|-------------:|---------------:|-------:|
-| 2016-02-02 |          184 |          7,854 | 28,216 |
-| 2016-08-16 |          149 |          7,189 | 32,193 |
-| 2017-01-19 |          144 |          6,675 | 34,451 |
-| 2017-07-12 |          587 |          9,549 | 43,001 |
-| 2018-01-15 |          225 |          9,843 | 48,522 |
-| 2019-07-17 |          371 |          8,291 | 64,215 |
-
-## Committers
-
-From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/contributors):
-
-| Date       | Past 30 days | past 12 months |   Ever |
-|------------|-------------:|---------------:|-------:|
-| 2016-02-02 |           24 |            120 |    218 |
-| 2016-08-16 |           18 |            123 |    282 |
-| 2017-07-12 |           36 |            162 |    357 |
-| 2018-01-15 |           35 |            158 |    405 |
-| 2019-07-17 |           26 |            186 |    546 |
+We are planning a thorough update of this section in 2020.
 
 [According to Open Hub](https://www.openhub.net/p/galaxybx/factoids#FactoidTeamSizeVeryLarge):
 
 <div class="blockquote">
 This is one of the largest open-source teams in the world, and is in the top 2% of all project teams on Open Hub.
 </div>
-
-## Galaxy Clones
-
-The [Galaxy server repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **GitHub exposes the number of clones and cloners in the most recent 14 day period.**
-
-| Date       | Clones | Unique Cloners |
-|------------|-------:|---------------:|
-| 2015-11-26 |  2,090 |            358 |
-| 2015-12-14 |  2,885 |            322 |
-| 2016-02-02 |  2,978 |            414 |
-| 2016-08-16 |  3,408 |            339 |
-| 2017-01-19 |  2,742 |            318 |
-| 2017-07-12 |  2.665 |            481 |
-| 2018-01-15 |  2,609 |            579 |
-| 2018-07-24 |  2,982 |            246 |
-| 2019-07-17 |  2,828 |            355 |
 
 # Tools
 
@@ -662,7 +615,7 @@ The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed soft
 
 # Events
 
-As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) since the 2012 meeting.
+As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) every year since 2012.
 
 
 ## Want the underlying numbers?
