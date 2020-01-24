@@ -60,7 +60,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### External Display Applications
 
-* [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**. *bioRxiv* 642280; doi: 10.1101/642280 
+* [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](https://rdcu.be/b0xnC)**. *Nat Methods* (2020). doi:10.1038/s41592-019-0727-x
 
 ### Interactive Environments
 
@@ -101,6 +101,11 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
 ## Galaxy Project Publications by Year
 
 Papers about or using Galaxy with [core team members](/src/galaxy-team/index.md) as authors.
+
+### 2020
+
+1. [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](https://rdcu.be/b0xnC)**. *Nat Methods* (2020). doi:10.1038/s41592-019-0727-x
+
 
 ### 2019
 
