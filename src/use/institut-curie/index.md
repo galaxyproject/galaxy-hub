@@ -24,6 +24,7 @@ quotas:
   - "This service comes with absolutely no warranty. The data are not backed up."
 citations:
 pub_libraries:
+  - "Curie"
 sponsors:
   - "[Institut Curie](http://www.curie.fr/)"
 ---

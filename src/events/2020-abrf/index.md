@@ -12,7 +12,9 @@ gtn: true
 contact: "Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Mehta, Mehmet Tekman"
 ---
 
-There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  The day focuses on two topics:
+**Mequite D Room, 8am - 4pm**
+
+There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  
 
 # Registration 
 
@@ -20,6 +22,7 @@ Registration is open.  Space is limited, so early registration is strongly encou
 
 <button type="button" class="btn btn-light" style="font-size: larger">[Register now](https://conf.abrf.org/program/registration-schedule/)</button>
 
+The day focuses on two topics:
 
 # SW4a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
@@ -67,6 +70,14 @@ Functional microbiome analysis which estimates the functional groups expressed b
 | 4:00 pm | SW4 Concludes |
 
 * [Tutorial](http://z.umn.edu/abrf18doc)
+
+## Sponsors
+
+These workshops are generously supported by
+
+<div class="text-center">
+[<img src="/src/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" />](https://sciex.com/) &nbsp; [<img src="/src/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" />](https://www.thermofisher.com/) &nbsp; [<img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" />](https://illumina.com/) &nbsp; [<img src="/src/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" />](https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php) &nbsp;&nbsp; [<img src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" />](https://galaxyworks.io/) &nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" />](https://www.denbi.de/) 
+</div>
 
 ## About ABRF
 
