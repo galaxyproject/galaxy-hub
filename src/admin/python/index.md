@@ -1,10 +1,10 @@
 ### Check your Python version
 
-Galaxy's core functionality is compatible with **Python** version **2.7**. (Version 2.6 support was last included in the 16.01 release). Before reporting bugs, please ensure that `python --version` reports version 2.7. If this is not the case, a simple solution is to manipulate your shell's `$PATH` variable to place the correct version first. This can be done for only Python by creating a new directory at the front of `$PATH` and creating a symbolic link to python in that directory: 
+Galaxy's core functionality is currently supported on Python **2.7** (although deprecated) and **>=3.5** . Before reporting bugs, please ensure that `python --version` reports a supported version. If this is not the case, a simple solution is to manipulate your shell's `$PATH` variable to place the correct version first. This can be done for only Python by creating a new directory at the front of `$PATH` and creating a symbolic link to python in that directory: 
 
 ```sh
 % mkdir ~/galaxy-python
-% ln -s /path/to/python2.7 ~/galaxy-python/python
+% ln -s /path/to/python ~/galaxy-python/python
 % export PATH=~/galaxy-python:$PATH
 ```
 
