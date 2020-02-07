@@ -9,7 +9,6 @@ If your interest lies in the development of tools for Galaxy please see the [Add
 ## Source code
 
 * [Source Code](/src/develop/source-code/index.md) - Where is the source code and how to contribute.
-* [Contributing](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md) - Describes how to contribute to the core galaxy project.
 
 ## Documentation
 
@@ -28,7 +27,7 @@ The generated documentation will be in `doc/build/html/` and can be viewed in a 
 
 ## Code Practices
 
-* [Best Practices](/src/develop/best-practices/index.md) - Best practices used in Galaxy software development.
+* [Contributing](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md) - Describes how to contribute to the core galaxy project.
 * [CSS Practices](/src/develop/css/index.md) - How we generate and manage stylesheets.
 
 ## Graphics
