@@ -4,34 +4,11 @@
 
 This page is a combination walk through guide and list of links meant to help new developers become acquainted with the Galaxy development ecosystem and how to contribute in a wide variety of ways.
 
-## Learn Galaxy
-
-If you are unfamiliar with Galaxy - the best way to start by using Galaxy, for instance by  walking through a simple analysis. [The Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101) on [usegalaxy.org](https://usegalaxy.org/) is such a place to start. Those wishing to dive deeper into using Galaxy - checkout the following resources.
-
-* The [Learn](/src/learn/index.md) wiki section
-* Our [videos on vimeo](http://vimeo.com/galaxyproject/channels) (and the [usegalaxy channel](http://vimeo.com/73486255) in particular)
-
 ## Develop a Tool
 
 Once familiar with Galaxy, every developer should write at least one Galaxy tool - it is the most common way to extend Galaxy with new functionality. A "tool" wraps an external application, script, or shell command - describing both the user interface and how to translate it into a command-line via a simple XML file.
 
 * [Tutorial: Developing a Tool](/src/admin/tools/add-tool-tutorial/index.md)
-
-For those particularly interested in tool development the following section provides many more resources to read through and opportunities for contribution.
-
-{{> Develop/ResourcesTools }}
-
-## Using the API
-
-After tool development the second most common way to develop extensions to Galaxy - is not to writing extensions at all - but instead to write scripts or applications that leverage the Galaxy API.
-
-The easiest and best documented way to consume the Galaxy API is using the Python library [bioblend](http://bioblend.readthedocs.org/). Documentation for the alternative library for Java [blend4j](https://github.com/jmchilton/blend4j) can be found [here](http://jmchilton.github.io/blend4j/apidocs/).
-
-While this wiki contains additional documentation, it is quite dated and in some ways represents less than best practices. For more information it is probably best to review the [source code documentation](https://galaxy-central.readthedocs.org/en/latest/lib/galaxy.webapps.galaxy.api.html) for the API or the [source code itself](https://github.com/galaxyproject/galaxy/tree/dev/lib/galaxy/webapps/galaxy/api).
-
-## Contributing to the Galaxy Core
-
-See https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md
 
 ## Contributing to the Extended Galaxy Ecosystem
 
