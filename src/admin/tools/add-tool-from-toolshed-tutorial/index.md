@@ -31,6 +31,8 @@ However you can add as many Tool Sheds as you want to the configuration file of 
     <OTHER TOOL SHED>
 </tool_sheds>
 ```
+<div class="alert alert-success" role="alert">To install tools from a Tool Shed you need to have [Mercurial](https://www.mercurial-scm.org/) available on the system that runs Galaxy.
+</div>
 
 ## Open the Tool Shed
 
