@@ -2,11 +2,17 @@ extends layout.pug
 
 
 mixin renderSplash(item)
-   h1.display-4 !{item.title}
+   h1 !{item.title}
    p.lead !{item.contents}
 
 
 block content
+    section.section-content
+        div.row#splash-row
+            div.col-sm-12
+                h1.display-4
+                    | Galaxy Community Hub
+                p.lead !{contents}
     section.section-content
         div.row.mb-3#splash-row
             div.col-sm-12
@@ -16,7 +22,7 @@ block content
                             li(data-target="#splash-box" data-slide-to=`${index}`)
                     div.carousel-inner(role="listbox")
                         each item, index in splash
-                            div.item.carousel-item.jumbotron
+                            div.item.carousel-item
                                 +renderSplash(item)
                     a.carousel-control-prev(href="#splash-box" role="button" data-slide="prev")
                         span.icon-prev(aria-hidden="true")
