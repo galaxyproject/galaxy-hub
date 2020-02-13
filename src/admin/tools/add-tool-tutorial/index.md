@@ -56,7 +56,7 @@ Although `toolExample.pl` now resides within the `tools/myTools/` directory, Gal
 ```xml
 <tool id="fa_gc_content_1" name="Compute GC content" version="0.1.0">
   <description>for each sequence in a file</description>
-  <command interpreter="perl">toolExample.pl $input $output</command>
+  <command>perl '${__tool_directory__}/toolExample.pl' '$input' '$output'</command>
   <inputs>
     <param format="fasta" name="input" type="data" label="Source file"/>
   </inputs>
