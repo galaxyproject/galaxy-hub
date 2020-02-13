@@ -3,14 +3,13 @@ title: Galaxy Community Hub
 layout: homepage.pug
 ---
 Galaxy is an open, web-based platform for accessible, reproducible, and
-transparent computational biomedical research.
+transparent computational research.
 
-- **Accessible:** Users without programming experience can easily specify
-  parameters and run tools and workflows.
-- **Reproducible:** Galaxy captures information so that any user can repeat and
-  understand a complete computational analysis.
-- **Transparent:** Users share and publish analyses via the web and create
-  Pages, interactive, web-based documents that describe a complete analysis.
+- **Accessible:** programming experience is not required to easily upload data, run complex tools and workflows, and visualize data.
+- **Reproducible:** Galaxy captures information so that you don't have to; any user can repeat and
+  understand a complete computational analysis, from tool parameters to the tool dependency tree.
+- **Transparent:** Users share and publish their histories, workflows, and visualisations via the web.
+- **Community centered:** Our inclusive and diverse users (developers, educators, researchers, clinicians, etc.) are empowered to share their findings.
 
 
 Welcome to the Galaxy Community Hub, where you'll find community curated documentation of all things Galaxy.
