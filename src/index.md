@@ -7,7 +7,7 @@ transparent computational research.
 
 - **Accessible:** programming experience is not required to easily upload data, run complex tools and workflows, and visualize results.
 - **Reproducible:** Galaxy captures information so that you don't have to; any user can repeat and
-  understand a complete computational analysis, from tool parameters to the tool dependency tree.
+  understand a complete computational analysis, from tool parameters to the dependency tree.
 - **Transparent:** Users share and publish their histories, workflows, and visualisations via the web.
 - **Community centered:** Our inclusive and diverse users (developers, educators, researchers, clinicians, etc.) are empowered to share their findings.
 
