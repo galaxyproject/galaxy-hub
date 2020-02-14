@@ -7,8 +7,6 @@ image: "/src/blog/2020-02-gvl5-beta/gvl5.png"
 highlight: true
 ---
 
-# With Love: The All-new GVL 5.0-beta
-
 ## tl; dr
 We don't want to discourage you from reading the entire document. There is a lot of good material there so this summary is intended more for reference than a replacement. So, keep on reading.
 
@@ -23,10 +21,10 @@ We don't want to discourage you from reading the entire document. There is a lot
 ## Intro
 Today, we proudly announce the all-new Genomics Virtual Lab (GVL) v5.0 (beta), offering the latest version of Galaxy (20.01), and built on a robust, cloud-native platform. Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable.
 
-The 5.0 release marks a new era in the evolution and capabilities of the GVL. GVL v5.0 is a ground-up rewrite of the platform based on containerization technologies, primarily Kubernetes, providing a great boost in reliability, portability, and reproducibility. The GVL also makes a philosophical departure from its previous incarnations, working towards a cleaner separation between the roles of the administrator of the GVL and its end-users (see section “Looking Ahead”). Together, the new platform enables a more robust deployment process, a more reliable Galaxy service, improved system security, and new user features.
+The 5.0 release marks a new era in the evolution and capabilities of the GVL. GVL v5.0 is a ground-up rewrite of the platform based on containerization technologies, primarily [Kubernetes](https://kubernetes.io/), providing a great boost in reliability, portability, and reproducibility. The GVL also makes a philosophical departure from its previous incarnations, working towards a cleaner separation between the roles of the administrator of the GVL and its end-users (see section “Looking Ahead”). Together, the new platform enables a more robust deployment process, a more reliable Galaxy service, improved system security, and new user features.
 
-<div class="center"><a href="/src/blog/2020-01-gvl5-beta/gvl-login.png">
-    <img src="/src/blog/2020-01-gvl5-beta/gvl-login.png"
+<div class="center"><a href="/src/blog/2020-02-gvl5-beta/gvl-login.png">
+    <img src="/src/blog/2020-02-gvl5-beta/gvl-login.png"
      alt="GVL login" width="80%" />
 </a></div>
 
@@ -37,42 +35,42 @@ Getting access to a GVL instance is accomplished by launching your own instance 
 
 A key feature of the GVL v5.0 is its uniform availability on at least 4 cloud providers, up from just 2 supported by the previous GVL. By combining the [CloudBridge library](http://cloudbridge.cloudve.org/), which provides an abstraction over differences in cloud providers, with software containers, it is now possible to launch an identical version of the GVL on Amazon, Google, Jetstream, and NeCTAR clouds (Azure support is pending). Choosing which provider you want to use is as simple as selecting the appropriate provider from the Cloud dropdown in CloudLaunch.
 
-<div class="center"><a href="/src/blog/2020-01-gvl5-beta/five-clouds.png">
-    <img src="/src/blog/2020-01-gvl5-beta/five-clouds.png"
+<div class="center"><a href="/src/blog/2020-02-gvl5-beta/five-clouds.png">
+    <img src="/src/blog/2020-02-gvl5-beta/five-clouds.png"
      alt="Multi-cloud selection" width="80%" />
 </a></div>
 
 ## Management and Configurability
-The GVL v5.0 also comes with an all-new implementation of CloudMan. CloudMan is a cloud resource and application manager. allowing applications to be deployed and configured while it manages the underlying cloud infrastructure. The new implementation is application agnostic, with applications other than Galaxy readily installable via Helm (a package manager for Kubernetes applications).
+The GVL v5.0 also comes with an all-new implementation of CloudMan. CloudMan is a cloud resource and application manager. allowing applications to be deployed and configured while it manages the underlying cloud infrastructure. The new implementation is application agnostic, with applications other than Galaxy readily installable via [Helm](https://helm.sh/) (a package manager for Kubernetes applications).
 
 Specifically for Galaxy, CloudMan offers a graphical management interface for Galaxy configuration files. Changing values of `galaxy.yml` or `job_conf.xml` for example can now be accomplished with a visual editor made available within the web browser. Adding new configuration files is also supported. Importantly, all configuration changes are performed with zero-downtime, so when you change a configuration value that requires a process restart, Galaxy will continue to be available and serve user requests during this entire period without users experiencing service disruption. An erroneous configuration can also be rolled back with the click of a button, as all configuration changes are versioned and tracked. Overall, we believe this makes Galaxy administration more accessible while retaining the benefits of a scripted configuration management approach. With this setup, for example, it is possible to manually edit a configuration file without having to setup and use a tool such as Ansible. Meanwhile, Helm will ensure the changes are tracked and can be reversed in case of an undesirable change.
 
-<div class="center"><a href="/src/blog/2020-01-gvl5-beta/cm-galaxy-configs.png">
-    <img src="/src/blog/2020-01-gvl5-beta/cm-galaxy-configs.png"
+<div class="center"><a href="/src/blog/2020-02-gvl5-beta/cm-galaxy-configs.png">
+    <img src="/src/blog/2020-02-gvl5-beta/cm-galaxy-configs.png"
      alt="Visual Galaxy configuration via CloudMan" width="80%" />
 </a></div>
 
-Each GVL instance also connects to the Galaxy Project’s CVMFS. This CVMFS is a global, read-only file system that houses over 5TB of indexed reference data, as well as configuration files from [usegalaxy.org](https://usegalaxy.org). The GVL connects to this global CVMFS to deliver the same setup for cloud installations, providing the same breadth of tools as [usegalaxy.org](https://usegalaxy.org). Internal to the GVL, the CVMFS is configured to pre-cache common files in a global cache shared among all nodes in the cluster, further improving system performance.
+Each GVL instance also connects to the [Galaxy Project’s CVMFS](https://galaxyproject.org/admin/reference-data-repo/). This CVMFS is a global, read-only file system that houses over 5TB of indexed reference data, as well as configuration files from [usegalaxy.org](https://usegalaxy.org). The GVL connects to this global CVMFS to deliver the same setup for cloud installations, providing the same breadth of tools as [usegalaxy.org](https://usegalaxy.org). Internal to the GVL, the CVMFS is configured to pre-cache common files in a global cache shared among all nodes in the cluster, further improving system performance.
 
 ## Controlled Performance and Monitoring
 Since cloud computing became available, the ability to dynamically scale available resources has been a flagship feature. CloudMan allows you to leverage this feature by supporting dynamic cluster scaling to improve the performance of your jobs. Adding a new worker node to expand the capacity in your Galaxy cloud cluster takes only a few minutes and can be accomplished from within the web browser itself. The new nodes are provisioned from the underlying cloud provider and can just as easily be removed when the system load drops.
 
-When should you scale? CloudMan now comes with a customizable status dashboard that monitors system status and allows you to react to the current load. By default, there are two dashboards: a system dashboard and a Galaxy dashboard. The system dashboard provides an overview of system resources, such as CPU and memory usage while the Galaxy dashboard provides insight into Galaxy metrics, such as the number of currently running jobs and distribution of tools used. The dashboard can be customized via Grafana so the world is your oyster.
+When should you scale? CloudMan now comes with a customizable status dashboard that monitors system status and allows you to react to the current load. By default, there are two dashboards: a system dashboard and a Galaxy dashboard. The system dashboard provides an overview of system resources, such as CPU and memory usage while the Galaxy dashboard provides insight into Galaxy metrics, such as the number of currently running jobs and distribution of tools used. The dashboard can be customized via [Grafana](https://grafana.com/) so the world is your oyster.
 
-<div class="center"><a href="/src/blog/2020-01-gvl5-beta/cluster-metrics.png">
-    <img src="/src/blog/2020-01-gvl5-beta/cluster-metrics.png"
+<div class="center"><a href="/src/blog/2020-02-gvl5-beta/cluster-metrics.png">
+    <img src="/src/blog/2020-02-gvl5-beta/cluster-metrics.png"
      alt="CloudMan cluster metrics dashboard" width="80%" />
 </a></div>
 
 The new GVL can also be stopped overnight when not in use. This allows occasional users to reduce their server costs by stopping the VM overnight, and resuming it in the morning with all the services automatically becoming available within minutes.
 
 ## Security
-GVL v5.0 also implements improved security practices. The authentication to the instance is predominantly managed via Keycloak, a dedicated identity and access management service from RedHat that is now bundled with CloudMan. With Keycloak, you, as the administrator of this GVL instance, can create additional users for the system and allow them access to the CloudMan cluster controls only if they need it. Access to Galaxy is also simplified so the same username can be used to login to Galaxy without having to create or enter the password again. Access to Grafana can similarly use the same identity so you do not need to create a separate account for each service. Keycloak can also be easily configured to talk to GitHub, Twitter, Google, or any OpenID or SAML based service, making it easy to integrate institutional logins for the GVL. It additionally offers an option to provide Two-Factor Authentication that may be manually enabled.
+GVL v5.0 also implements improved security practices. The authentication to the instance is predominantly managed via [Keycloak](https://www.keycloak.org/), a dedicated identity and access management service from RedHat that is now bundled with CloudMan. With Keycloak, you, as the administrator of this GVL instance, can create additional users for the system and allow them access to the CloudMan cluster controls only if they need it. Access to Galaxy is also simplified so the same username can be used to login to Galaxy without having to create or enter the password again. Access to Grafana can similarly use the same identity so you do not need to create a separate account for each service. Keycloak can also be easily configured to talk to GitHub, Twitter, Google, or any OpenID or SAML based service, making it easy to integrate institutional logins for the GVL. It additionally offers an option to provide Two-Factor Authentication that may be manually enabled.
 
 It is now possible to launch GVL instances on any supported cloud with an automatically signed SSL certificate so all the traffic to and from the instance is encrypted. The only requirements are you either have cloud DNS available on your cloud, in which case a DNS name can be automatically assigned for you, or you can pre-map a DNS name to the instance IP address yourself. During launch, select the “Cloud DNS” option and assign a domain name, or if your cloud provider does not support it, select the “Manually Specify” option, in which case you must map the DNS to a floating IP yourself before launching the cluster. CloudMan will take care of the rest to setup a valid SSL certificate that will be automatically renewed before it expires.
 
-<div class="center"><a href="/src/blog/2020-01-gvl5-beta/ssl.png">
-    <img src="/src/blog/2020-01-gvl5-beta/ssl.png"
+<div class="center"><a href="/src/blog/2020-02-gvl5-beta/ssl.png">
+    <img src="/src/blog/2020-02-gvl5-beta/ssl.png"
      alt="SSL certificate" width="80%" />
 </a></div>
 
