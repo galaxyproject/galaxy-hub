@@ -21,7 +21,15 @@ We don't want to discourage you from reading the entire document. There is a lot
 ## Intro
 Today, we proudly announce the all-new Genomics Virtual Lab (GVL) v5.0 (beta), offering the latest version of Galaxy (20.01), and built on a robust, cloud-native platform. Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable.
 
-The 5.0 release marks a new era in the evolution and capabilities of the GVL. GVL v5.0 is a ground-up rewrite of the platform based on containerization technologies, primarily [Kubernetes](https://kubernetes.io/), providing a great boost in reliability, portability, and reproducibility. The GVL also makes a philosophical departure from its previous incarnations, working towards a cleaner separation between the roles of the administrator of the GVL and its end-users (see section “Looking Ahead”). Together, the new platform enables a more robust deployment process, a more reliable Galaxy service, improved system security, and new user features.
+The 5.0 release marks a new era in the evolution and capabilities of the GVL.
+GVL v5.0 is a ground-up rewrite of the platform based on containerization
+technologies, primarily [Kubernetes](https://kubernetes.io/), providing a great
+boost in reliability, portability, and reproducibility. The GVL also makes a
+philosophical departure from its previous incarnations, working towards a
+cleaner separation between the roles of the administrator of the GVL and its
+end-users, or researchers (see section “Looking Ahead”). Together, the new
+platform enables a more robust deployment process, a more reliable Galaxy
+service, improved system security, and new user features.
 
 <div class="center"><a href="/src/blog/2020-02-gvl5-beta/gvl-login.png">
     <img src="/src/blog/2020-02-gvl5-beta/gvl-login.png"
@@ -33,7 +41,7 @@ This release was developed through a close collaboration among members of the Ga
 ## Availability
 Getting access to a GVL instance is accomplished by launching your own instance on a cloud provider. Typically, we would expect a systems administrator to perform the launch and make the system available to the researchers in their group. The launch process, performed in a web browser via [CloudLaunch](https://launch.usegalaxy.org/), takes about 15 to 25 minutes (depending on the Cloud), after which a production-grade Galaxy instance is ready to be used. The entire platform is API driven, so it is now also possible to launch an instance via command line, REST API, or Python API, if you would like to automate the process.
 
-A key feature of the GVL v5.0 is its uniform availability on at least 4 cloud providers, up from just 2 supported by the previous GVL. By combining the [CloudBridge library](http://cloudbridge.cloudve.org/), which provides an abstraction over differences in cloud providers, with software containers, it is now possible to launch an identical version of the GVL on Amazon, Google, Jetstream, and NeCTAR clouds (Azure support is pending). Choosing which provider you want to use is as simple as selecting the appropriate provider from the Cloud dropdown in CloudLaunch.
+A key feature of the GVL v5.0 is its uniform availability on at least 4 cloud providers, up from just 2 supported by the previous GVL. By combining the [CloudBridge library](http://cloudbridge.cloudve.org/), which provides an abstraction over differences in cloud providers, with software containers, it is now possible to launch an identical version of the GVL on Amazon, Google, Jetstream, and NeCTAR clouds (Azure support is pending). Choosing which provider you want to use is as simple as selecting the appropriate provider from the _Target_ dropdown in CloudLaunch.
 
 <div class="center"><a href="/src/blog/2020-02-gvl5-beta/five-clouds.png">
     <img src="/src/blog/2020-02-gvl5-beta/five-clouds.png"
@@ -92,12 +100,34 @@ The tutorials selected for validation were as follows (note that some tutorials 
 Of course, [Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html) works as well!
 
 ## How to Get Started?
-Launching a GVL instance starts at CloudLaunch: https://launch.usegalaxy.org/catalog/appliance/genomics-virtual-lab. Select the 5.0 beta version and desired cloud provider, supply your cloud credentials, and click Next, type your desired password for the admin user and click Launch. It will take several minutes for the launch to build and, once available, you will be resented with an access link to the instance. Note that even after the link becomes available and you can access CloudMan, it will take a few more minutes for Galaxy to start.
+Launching a GVL instance starts at CloudLaunch:
+https://launch.usegalaxy.org/catalog/appliance/genomics-virtual-lab. Select the
+_GVL 5.0 beta_ version and desired cloud provider, supply your cloud
+credentials, and click _Next_, type your desired password for the admin user
+and click _Launch_. It will take several minutes for the launch to build and,
+once available, you will be presented with an access link to the instance. Note
+that even after the link becomes available and you can access CloudMan, it will
+take a few more minutes for Galaxy to start.
 
-If you would like to personalize your launch, you can choose the name for your virtual machine, the type of hardware to use, the size of disk available for Galaxy data (default is 100GB), and a custom domain name. Assuming you have chosen to store your cloud credentials on CloudLaunch, you can always go to your appliances page and see an up-to-date status of the instance. When you no longer need the instance, just click the Delete button.
+If you would like to personalize your launch, you can choose the name for your
+virtual machine, the type of hardware to use, the size of disk available for
+Galaxy data (default is 100GB), and a custom domain name before initiating the launch. Assuming you have
+chosen to store your cloud credentials on CloudLaunch, you can always go to
+your appliances page and see an up-to-date status of the instance. When you no
+longer need the instance, just click the _Delete_ icon.
 
 ## Looking Ahead
-As you may have noticed, this release is tagged as beta. Why beta? It’s a big release, a really big one. The biggest to date for the GVL since its initial release in 2014. The latest release has been in the making for over 3 years and there are many moving, novel parts. With that in mind, it will take some time to see how it behaves in the wild and ensure the supporting infrastructure exists (eg, containerized tools). There are also some improvements planned, such as better resource cleanup when a cluster is terminated, improved UI for CloudMan, linking the authentication to CILogon and Custos, documentation, Continuous Integration, and many more. (Did anyone say, “I want to be a part of this and help!”)
+As you may have noticed, this release is tagged as `beta`. Why `beta`? It’s a
+big release, a really big one. The biggest to date for the GVL since its
+initial release in 2014. This release has been in the making for over 3 years
+and there are many moving, novel parts. With that in mind, it will take some
+time to see how it behaves in the wild and ensure the supporting infrastructure
+exists (eg, containerized tools). There are also some improvements planned,
+such as better resource cleanup when a cluster is terminated, improved UI for
+CloudMan, linking the authentication to [CILogon](https://www.cilogon.org/) and
+Custos, documentation, Continuous Integration, and many more. (Did anyone say,
+“I want to be a part of this and help!” If that's you, please [reach
+out](https://gitter.im/galaxyproject/FederatedGalaxy).)
 
 There are plans beyond the immediate 5.0 release to add major new functionality, most notably the ability to add multiple applications and projects into the same GVL by logically partitioning it and isolating projects from one another. For example, two different labs can share the same underlying cloud infrastructure to reduce costs while keeping their Galaxy installations completely separate. This is already partially functional in the current release. For example, Jupyter can be added to the current project by clicking the ‘Add Application’ link. Going forward, we plan to make it easy to extend the GVL with additional applications by simply writing a standard Helm Chart, which can then be plugged in. Both Galaxy and Jupyter have already been done this way. Overall, the concept of a project goes back to the topic of cleanly separating the roles of GVL users (ie, researchers) and systems administrator. The administrator will be able to restrict the quota and set of applications a given project has access to and isolate project users from infrastructure-level administrative details. This allows GVL users to focus on their problem domain, instead of having to worry about managing the GVL itself.
 
