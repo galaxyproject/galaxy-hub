@@ -59,10 +59,10 @@ Member | Joined | GitHub
 **Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
 **Lance Parsons**, Princeton University | Oct 28, 2016 | [@lparsons](https://github.com/lparsons)
 **Bérénice Batut**, University of Freiburg | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
-**Maria Doyle**, Peter MacCallum Cancer Centre | 2017-11-11 | [@mblue9](https://github.com/mblue9)
-**Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70)
-**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | 2018-07-20 | [@bernt-matthias](https://github.com/bernt-matthias)
-**Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
+**Maria Doyle**, Peter MacCallum Cancer Centre | Nov 11, 2017 | [@mblue9](https://github.com/mblue9)
+**Simon Gladman**, University of Melbourne | Nov 11, 2017 | [@Slugger70](https://github.com/slugger70)
+**Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | Jul 20, 2018 | [@bernt-matthias](https://github.com/bernt-matthias)
+**Wolfgang Maier**, University of Freiburg | Nov 4, 2019 | [@wm75](https://github.com/wm75)
 
 # Galaxy Training Network
 
