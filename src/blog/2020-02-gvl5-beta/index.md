@@ -11,7 +11,7 @@ highlight: true
 We don't want to discourage you from reading the entire document. There is a lot of good material there so this summary is intended more for reference than a replacement. So, keep on reading.
 
 - The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies
-- Production grade out of the box, with scalability, zero downtime configuration changes, better security, fully integrated Grafana metrics,containerized tools, as well as near equivalent toolset and reference data to usegalaxy.org
+- Production grade out of the box, with scalability, zero downtime configuration changes, better security, fully integrated Grafana metrics, containerized tools, as well as near equivalent toolset and reference data to usegalaxy.org
 - Easily launchable on 4 cloud providers - Amazon, Google, Jetstream, and NeCTAR, and can be manually installed in other Kubernetes environments
 - Launches with auto renewing SSL certificates and cloud DNS support
 - Unified authentication through KeyCloak
