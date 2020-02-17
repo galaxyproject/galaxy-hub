@@ -79,7 +79,20 @@ These workshops are generously supported by
 [<img src="/src/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" />](https://sciex.com/) &nbsp; [<img src="/src/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" />](https://www.thermofisher.com/) &nbsp; [<img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" />](https://illumina.com/) &nbsp; [<img src="/src/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" />](https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php) &nbsp;&nbsp; [<img src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" />](https://galaxyworks.io/) &nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" />](https://www.denbi.de/) 
 </div>
 
-## About ABRF
+
+# Plus
+
+* **Poster 105: Using the Galaxy Training Network tutorial library for bioinformatics training programs**
+* Monday, March 2, Poster Session I, 11:30-12:30
+* Dave Clements
+
+*Abstract*
+
+Does your facility do bioinformatics training?  Would your facility like to do bioinformatics training? The [Galaxy Training Network library](https://training.galaxyproject.org/) is an easy way to offer bioinformatics training at your facility with minimal preparation time and startup cost.  These materials feature slides, hands-on-tutorials, and training data sets.  The library features well over 100 slide sets and hands-on tutorials, created by over 130 Galaxy community members, and covering a wide range of bioinformatics topics.  [Galaxy](https://galaxyproject.org) is a widely adopted platform for bioinformatics analysis and training, allowing trainers, learners, and researchers to focus on concepts and tools, rather than Linux systems administration and learning command line interfaces.  The library of materials are free to use and adapt as needed.  The GTN community is supportive and responsive to community needs.  All materials are kept in GitHub and are managed in a transparent, community driven manner.
+
+
+
+# About ABRF
 
 The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)](http://conf.abrf.org/) will bring together 500 decision makers (and over 250 exhibitors) from core life science research facilities from around the world.  ABRF is the largest international organization in this field, and this meeting is an ideal opportunity to reach this worldwide community. *(Note: Most workshop instructors are also attending the rest of the conference, providing an ideal opportunity to find out how Galaxy can be used in your core facility.)*
 
