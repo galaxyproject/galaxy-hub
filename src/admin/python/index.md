@@ -15,3 +15,6 @@ If Galaxy complains about the version of Python you are using:
     If you've compiled your own Python interpreter from source, please ensure that the `ssl, sqlite3, curses` and `bz2` modules build and can be imported after installation.  These "extra" modules are built at the end of the compilation process and are required by the Galaxy framework.  If building on Linux, you may need to install the appropriate `-dev` packages for OpenSSL and Bzip2. You may also need to build Python with shared libraries (`--enable-shared`).
 
 2. Completely remove the virtualenv used by Galaxy (e.g. with `rm -rf /path/to/galaxy/.venv` ) and start Galaxy again.
+
+2b. If using Galaxy with a conda environment, remove conda environment (e.g. `rm -rf /path/to/conda/__galaxy__`) and start Galaxy again.
+
