@@ -16,5 +16,5 @@ If Galaxy complains about the version of Python you are using:
 
 2. Completely remove the virtualenv used by Galaxy (e.g. with `rm -rf /path/to/galaxy/.venv` ) and start Galaxy again.
 
-2b. If using Galaxy with a conda environment, remove conda environment (e.g. `rm -rf /path/to/conda/__galaxy__`) and start Galaxy again.
+3. If using Galaxy with a conda environment, remove conda environment (e.g. `rm -rf /path/to/conda/__galaxy__`) and start Galaxy again.
 
