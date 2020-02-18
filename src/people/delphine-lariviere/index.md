@@ -1,4 +1,7 @@
-<div class='right'><a href='/src/people/delphine-lariviere/index.md'><img src="/src/galaxy-team/DelphineLariviere.jpg" alt="DelphineLariviere" width="200",height="150" /></a>
+<div class='float-right'>
+<a href='/src/people/delphine-lariviere/index.md'>
+<img src="/src/galaxy-team/DelphineLariviere.jpg" alt="Delphine Lariviere" width="200" height="150" />
+</a>
 </div>
 
 # Delphine Lariviere
