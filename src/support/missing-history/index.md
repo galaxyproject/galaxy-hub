@@ -34,6 +34,7 @@ When logged into your account, these are located under **_Histories Shared with 
  * Unshare histories that you no longer want shared with you or that you have already made a copy of.
  * Shared Histories (where copied or not) do count in portion toward your [total account data quota](https://galaxyproject.org/main/#user-data-and-job-quotas) at http://usegalaxy.org.
  * Copies of histories from others count in full toward your total account data quota. This is the same as all of your other [active/deleted but not permemenently deleted/purged histories]().
+ * More details about how data shared with you, or that you share with others, works with respect to account quota usage [is included in this FAQ](/src/support/account-quotas/#find-histories-that-have-been-shared-with-you-and-unshare-those-not-needed).
         
 # Related resources
 
