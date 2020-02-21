@@ -4,7 +4,7 @@ title: Sharing Your Galaxy Items with Other People
 ---
 
 * **Watch** a [short video tutorial](http://vimeo.com/galaxyproject/sharepublish) for how to **Share or Publish** within Galaxy.
-* **Review** a summary of sharing and data privacy functions this [Galaxy Help post](https://help.galaxyproject.org/t/how-to-share-or-publish-your-work-in-galaxy-datasets-histories-workflows-visualizations/3022?u=jennaj).
+* **Review** a summary of sharing and data privacy functions in a [Galaxy Help post](https://help.galaxyproject.org/t/how-to-share-or-publish-your-work-in-galaxy-datasets-histories-workflows-visualizations/3022?u=jennaj).
 * **Learn** how to share a History by following the short GTN Introduction [Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/) tutorial.
 
 You can share your Galaxy items - histories, workflows, visualizations, and pages - with other people in three different ways:
