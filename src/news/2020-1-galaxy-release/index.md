@@ -15,10 +15,10 @@ This menu can be reached from the User menu -> Workflow Invocations and lists yo
 
 Enhanced workflow functionality
 -------------------------------
+
 Workflows can now make use of optional datasets and optional parameters, optional parameter default values and dataset inputs can now be restricted to
 user-defined datatypes. The workflow editor and execution engine have been enhanced to allow defining options to choose from, and these options can be
 connected to compatible text, integer, float, color and select tool parameters for more flexible and universally re-usable workflows
-
 
 Galay Markdown Pages and Workflow Reports as PDF
 ------------------------------------------------
