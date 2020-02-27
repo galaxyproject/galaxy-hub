@@ -1,7 +1,7 @@
 ---
 title: 'Galaxy Release 20.01'
 tease: Workflow Reporting, Workflow Executions, Screenreader-friendly navigation
-date: '2019-02-27'
+date: '2020-02-27'
 ---
 
 We are pleased to announce the release of Galaxy
