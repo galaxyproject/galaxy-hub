@@ -18,14 +18,14 @@ Enhanced workflow functionality
 
 Workflows can now make use of optional datasets and optional parameters, optional parameter default values and dataset inputs can now be restricted to
 user-defined datatypes. The workflow editor and execution engine have been enhanced to allow defining options to choose from, and these options can be
-connected to compatible text, integer, float, color and select tool parameters for more flexible and universally re-usable workflows
+connected to compatible text, integer, float, color and select tool parameters for more flexible and universally reusable workflows
 
 Galay Markdown Pages and Workflow Reports as PDF
 ------------------------------------------------
 
 An additional link has been added to Galaxy Markdown Pages and Workflow reports that exports your document as a standalone PDF.
 
-Screenreader-friendly Navigation
+Screen Reader friendly Navigation
 --------------------------------
 
 The top menu and the Workflow Editor have been improved for easier navigation using Screenreaders and the Keyboard.
