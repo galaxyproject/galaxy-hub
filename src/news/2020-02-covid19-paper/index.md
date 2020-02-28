@@ -24,6 +24,7 @@ For more information, see
 
 * **[Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)](https://github.com/galaxyproject/SARS-CoV-2)**, a GitHub repository describing the analyses used in this paper, with links to Galaxy workflows and histories, and to the Bioconda repos that were used.
 * **[Open collaborative infrastructure to tackle public health emergencies](https://elixir-europe.org/news/COVID-19-data-open-analysis)**, news item from ELIXIR Europe on this research
+* **[Galaxy Australia contributes to global research effort into COVID-19](https://www.biocommons.org.au/galaxy-covid-19)**, news item from the Australian BioCommons
 * **[Coronavirus Data Analysis](https://www.pr.uni-freiburg.de/pm-en/press-releases-2020/coronavirus-data-analysis)**, news item from the University of Freiburg.
 
 We believe this paper makes a powerful and transformative argument for reshaping the way biomedical research is done.
