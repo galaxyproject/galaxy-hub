@@ -21,7 +21,7 @@ user_support:
 - "[Github issue](https://github.com/Laniakea-elixir-it/laniakea/issues)"
 - "[Demo Video](https://www.youtube.com/watch?v=cq-68-2On3Y)"
 quotas:
-- 'Ascientific and technical evaluation board appointed by ELIXIR-Italy will assess the scientific soundness and technical feasibility of applications for the Laniakea@ReCaS call. Projects will be evaluated with a “first come, first served” policy until the total available resource annual budget will be assigned.
+- 'A scientific and technical evaluation board appointed by ELIXIR-Italy will assess the scientific soundness and technical feasibility of applications for the Laniakea@ReCaS call. Projects will be evaluated with a “first come, first served” policy until the total available resource annual budget will be assigned.
 The call is available [here](https://tinyurl.com/sqwk4fy).
 All applications must be submitted using this [form](ttps://tinyurl.com/wnhvx9e).'
 citations:
