@@ -22,8 +22,8 @@ having access to the same histories, workflows, datasets, libraries, etc.
 Currently, Galaxy supports the following identity providers (the list of enabled/configured identity providers on
 different Galaxy instances can be different):
 
-- Custos: see [this page](/src/authnz/use/oidc/idps/custos/index.md) on how to use it
 - Google: see [this page](/src/authnz/use/oidc/idps/google/index.md) on how to use it
-- Globus: see [this page](/src/authnz/use/oidc/idps/globus/index.md) on how to use it
 - Elixi AII: see [this page](/src/authnz/use/oidc/idps/elixir-aai/index.md) on how to use it
+- Globus: see [this page](/src/authnz/use/oidc/idps/globus/index.md) on how to use it
+- Custos: see [this page](/src/authnz/use/oidc/idps/custos/index.md) on how to use it
 
