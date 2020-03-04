@@ -21,10 +21,10 @@ to configure their Galaxy instance as well as obtain the necessary registrations
 from the Identity Providers (IdP).The IdP needs to support the OIDC protocol and
 Galaxy currently supports the following OIDC IdPs:
 
-- Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
 - Google: [how to configure Google](/src/authnz/config/oidc/idps/google/index.md)
-- Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
 - Elixir AAI: [how to configure Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
+- Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
+- Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
 
 # Enable OIDC-based Login
 
