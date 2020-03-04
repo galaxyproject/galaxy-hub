@@ -8,7 +8,7 @@ to login to Galaxy, and securely delegate Galaxy to access their cloud-based res
 
 
 **Related publications:**
-- Jalili, Vahid, et al. ["Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/content/10.1101/506238v1) bioRxiv (2018): 506238.
+- Jalili, Vahid, et al. ["Cloud bursting galaxy: federated identity and access management."](https://doi.org/10.1093/bioinformatics/btz472) Bioinformatics 36.1 (2020): 1-9.
 
 
 # User Authentication and Authorization
