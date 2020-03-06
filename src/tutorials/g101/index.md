@@ -13,7 +13,7 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a g
 
 ### The Galaxy software framework
 
-Galaxy software framework is an open-source application (distributed under the permissive [Academic Free License](http://getgalaxy.org). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
+Galaxy software framework is an open-source application (distributed under the permissive [Academic Free License](http://getgalaxy.org)). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
 
 |        |
 |--------|
