@@ -45,14 +45,14 @@ Galaxy specific tags all start with "+":
 
 ### Public Platform tags (">")
 
-Publications that mention or use a [public Galaxy platform](/src/use/index.md) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Publications that mention or use a [public Galaxy platform](/src/use/index.md) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 *Note: We only started using ">" tags after the move to Zotero in September 2017.  Publications before that might have these tags, but most won't.*
 
 
 ## 2. Automatically Added Tags
 
-Zotero is configured to also add any keywords it can detect automatically when the paper is added.  These tags are listed after Galaxy Specific tags, and there is no particular rhyme or reason to them.  These tend to describe the research topic or domain. [Prosapip1](https://www.zotero.org/groups/1732893/galaxy/items/tag/Prosapip1) and [Genome evolution](https://www.zotero.org/groups/1732893/galaxy/items/tag/Genome%20evolution) are examples.
+Zotero is configured to also add any keywords it can detect automatically when the paper is added.  These tags are listed after Galaxy Specific tags, and there is no particular rhyme or reason to them.  These tend to describe the research topic or domain. [Prosapip1](https://www.zotero.org/groups/1732893/galaxy/tags/Prosapip1) and [Genome evolution](https://www.zotero.org/groups/1732893/galaxy/tags/Genome%20evolution) are examples.
 
 *Note: only papers added after the library was moved to Zotero in September 2017 have automatically added tags.*
 

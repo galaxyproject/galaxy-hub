@@ -246,7 +246,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 
 ## Highlighted Publications
 
-April added three *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications:
+April added three *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications:
 
 * [IRProfiler – a software toolbox for high throughput immune receptor profiling](https://doi.org/10.1186/s12859-018-2144-z), Christos Maramis, Athanasios Gkoufas, Anna Vardi, Evangelia Stalika, Kostas Stamatopoulos, Anastasia Hatzidimitriou, Nicos Maglaveras and Ioanna Chouvarda. *BMC Bioinformatics* (2018) 19:144, doi:10.1186/s12859-018-2144-z
 * [SECIMTools: a suite of metabolomics data analysis tools](https://doi.org/10.1186/s12859-018-2134-1), 
@@ -258,10 +258,10 @@ Alexander S. Kirpich, Miguel Ibarra, Oleksandr Moskalenko, Justin M. Fear, Josep
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 79 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 29 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 16 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
-| 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | 
-| 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | | | | |
+| 79 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
+| 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | 
+| 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | | | | |
 
 
 ----
@@ -305,11 +305,11 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 13 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 8 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | 
-| 2 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PRABI) | | 1 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NCGAS) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | 
-| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>NGS-QC) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 1 | [>PlantGenie](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PlantGenie) | 
-| 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Osiris) | | 1 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IRProfiler) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | 
-| 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Jetstream) | | 1 | [>Alveo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Alveo) | | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RNA Workbench) | | | | |
+| 13 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
+| 2 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/tags/>PRABI) | | 1 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/tags/>NCGAS) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | 
+| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/tags/>NGS-QC) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>PlantGenie](https://www.zotero.org/groups/1732893/galaxy/tags/>PlantGenie) | 
+| 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/tags/>IRProfiler) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | 
+| 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | | 1 | [>Alveo](https://www.zotero.org/groups/1732893/galaxy/tags/>Alveo) | | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | | | | |
 
 ----
 

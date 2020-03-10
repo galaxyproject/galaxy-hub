@@ -196,7 +196,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ## Highlighted Publications
 
-Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications.
+Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications.
 
 * [ゲノム情報解析の再現性と再利用性を向上させる情報基盤の設計](https://repository.dl.itc.u-tokyo.ac.jp/index.php?active_action=repository_view_main_item_detail&page_id=28&block_id=31&item_id=47940&item_no=1), thesis by 山中 遼太
 * [次世代シーケンサーデータの解析手法 第 11 回 統合データ解析環境 Galaxy](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_11_kadota.pdf), by , 大田 達郎, 寺田 朋子, 清水 謙多郎
@@ -208,9 +208,9 @@ Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAd
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 41 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 13 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | 
-| 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 5 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 2 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | 
+| 41 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | 
+| 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
+| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | 
 
 ----
 
@@ -267,11 +267,11 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 4 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 3 | [>Ballaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Ballaxy) | | 3 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DBCLS) | 
-| 3 | [>GrAPPA](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GrAPPA) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>epiGeEC) | 
-| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EpiToolKit) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GenAP) | | 1 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Cloud) | | 1 | [>IAPTK](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IAPTK) | 
-| 1 | [>Kmer-SVM](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Kmer-SVM) | | 1 | [>MetaCentrum](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>MetaCentrum) | | 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Oqtans) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Osiris) | 
-| 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pitagora) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | | | |
+| 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Ballaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>Ballaxy) | | 3 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) | 
+| 3 | [>GrAPPA](https://www.zotero.org/groups/1732893/galaxy/tags/>GrAPPA) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/tags/>epiGeEC) | 
+| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 1 | [>IAPTK](https://www.zotero.org/groups/1732893/galaxy/tags/>IAPTK) | 
+| 1 | [>Kmer-SVM](https://www.zotero.org/groups/1732893/galaxy/tags/>Kmer-SVM) | | 1 | [>MetaCentrum](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaCentrum) | | 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/tags/>Oqtans) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | 
+| 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/tags/>Pitagora) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | | | |
 
 ----
 

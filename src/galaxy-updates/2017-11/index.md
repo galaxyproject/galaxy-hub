@@ -52,10 +52,10 @@ Published: 18 October 2017
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 16 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | 
-| 15 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 4 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | 
-| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | | | | | | | |
+| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | 
+| 15 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 4 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | | | | | | | |
 
 We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-octobers-publications) for this list.
 
@@ -222,11 +222,11 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 | # | Server | | # | Server | | # | Server | | # | Server | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>VirAmp) | | 2 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | 
-| 2 | [>WUR](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>WUR) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | | 1 | [>Whale Shark](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Whale Shark) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Jetstream) | 
-| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>BF2I-MAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BF2I-MAP) | | 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GIO) | 
-| 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioCiphers) | | 1 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DeepTools) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | 
-| 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Oqtans) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>BioMaS) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ABiMS) | | | | |
+| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | | 2 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | 
+| 2 | [>WUR](https://www.zotero.org/groups/1732893/galaxy/tags/>WUR) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>Whale Shark](https://www.zotero.org/groups/1732893/galaxy/tags/>Whale Shark) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | 
+| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>BF2I-MAP](https://www.zotero.org/groups/1732893/galaxy/tags/>BF2I-MAP) | | 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | 
+| 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | 
+| 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/tags/>Oqtans) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/tags/>BioMaS) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | | | |
 
 ## Citation sections added to Public servers directory
 
@@ -241,7 +241,7 @@ The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally de
 **Citations**
 
 * [ThreaDNA: predicting DNA mechanics’ contribution to sequence selectivity of proteins along whole genomes](https://doi.org/10.1093/bioinformatics/btx634) by Jasmin Cevost, Cédric Vaillant and Sam Meyer, *Bioinformatics*, btx634, doi: 10.1093/bioinformatics/btx634, Published: 09 October 2017
-* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EBF2I-MAP) in [Galaxy Publication library](/src/publication-library/index.md).
+* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 

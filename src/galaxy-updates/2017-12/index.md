@@ -206,10 +206,10 @@ The *Galactic* and *Stellar* publications added in October were:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 83 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 29 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 28 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | 
-| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 3 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | 
-| 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | | | | | | |
+| 83 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 28 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
+| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 3 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
+| 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | | | | | | |
 
 ----
 # Who's Hiring
@@ -243,9 +243,9 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | 
-| 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AGEseq) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGalaxy) | 
-| 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GIO) | | | | | | | | | | |
+| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | 
+| 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/tags/>AGEseq) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | 
+| 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | | | | | | | | | |
 
 
 ----

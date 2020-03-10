@@ -168,7 +168,7 @@ See you in Freiburg!
 
 ## Highlighted Publications
 
-There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and all of them are open access:
+There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and all of them are open access:
 
 * **[Computational Linguistics Applications for Multimedia Services](https://www.aclweb.org/anthology/W19-2512)**, Kyeongmin Rim, Kelley Lynch, James  Pustejovsky. Proceedings of the 3rd Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature.
 * **[BioUML: an integrated environment for systems biology and collaborative analysis of biomedical data](https://doi.org/10.1093/nar/gkz440)**, Fedor Kolpakov, Ilya Akberdin, Timur Kashapov, llya Kiselev, Semyon Kolmykov, Yury Kondrakhin, Elena Kutumova, Nikita Mandrik, Sergey Pintus, Anna Ryabova, Ruslan Sharipov, Ivan Yevshin, Alexander Kel. *Nucleic Acids Research*, gkz440, doi: 10.1093/nar/gkz440
@@ -183,10 +183,10 @@ There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/orde
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 21 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 20 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | 
-| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | 
-| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
-| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseCloud) | 
+| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 21 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 20 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | 
+| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
+| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
+| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | 
 
 ----
 
@@ -221,8 +221,8 @@ Platforms that were referenced at least twice in the past month's publications:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
-| 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Genomic Hyperbrowser) | 
+| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
+| 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | 
 
 ----
 

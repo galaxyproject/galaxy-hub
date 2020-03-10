@@ -259,10 +259,10 @@ The *Galactic* and *Stellar* publications added in January were:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | 
-| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
-| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | 
-| 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | | | | | | |
+| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
+| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
+| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | |
 
 ----
 # Who's Hiring
@@ -310,10 +310,10 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | 
-| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Splicescope) | 
-| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>GVL-QLD) | 
-| 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | | | | | | | | | |
+| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
+| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/tags/>Splicescope) | 
+| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | 
+| 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | | | | | | | | | |
 
 
 ----

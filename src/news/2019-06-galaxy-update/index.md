@@ -169,7 +169,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 ## Highlighted Publications
 
-There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and 9 of those are open access:
+There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and 9 of those are open access:
 
 * **[Accessible and reproducible mass spectrometry imaging data analysis in Galaxy]( https://doi.org/10.1101/628719)**, Melanie Christine Föll, Lennart Moritz, Thomas Wollmann, Maren Nicole Stillger, Niklas Vockert, Martin Werner, Peter Bronsert, Karl Rohr, Björn Andreas Grüning, Oliver Schilling. *bioRxiv* 628719; doi: 10.1101/628719
 * **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
@@ -185,10 +185,10 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/ord
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 95 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 43 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 18 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | 
-| 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | 
-| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Project) | 
-| 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | | | | | | |
+| 95 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 43 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 18 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
+| 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
+| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
+| 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | | | | | | |
 
 ----
 
@@ -240,9 +240,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 9 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | 
-| 3 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 3 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools) | 
-| 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Globus Genomics) | | 2 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>IRProfiler) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | |  | | |
+| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | 
+| 3 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | 
+| 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 2 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/tags/>IRProfiler) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | |  | | |
 
 ----
 
