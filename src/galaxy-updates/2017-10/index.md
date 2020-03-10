@@ -24,7 +24,7 @@ After residing on CiteULike since 2011, the Galaxy Publication Library has moved
 
 ## Highlighted Publications
 
-With the [move to Zotero](/src/news/2017-09-publication-lib-on-zotero/index.md), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Galactic)"):
+With the [move to Zotero](/src/news/2017-09-publication-lib-on-zotero/index.md), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic)"):
 
 The *Galactic* and *Stellar* publications added in September were:
 
@@ -52,10 +52,10 @@ The *Galactic* and *Stellar* publications added in September were:
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 58 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Methods) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Workbench) | | 21 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items//tag/+UsePublic) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items//tag/+UseLocal) | 
-| 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items//tag/+UseMain) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items//tag/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Tools) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items//tag/+IsGalaxy) | 
-| 5 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Other) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Cloud) | 
-| 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items//tag/+Unknown) | | | | | | | | | | |
+| 58 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 21 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
+| 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
+| 5 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | | | | |
 
 We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-september-s-publications) for this list.
 
@@ -210,9 +210,9 @@ As mentioned above, as part of the move to Zotero, we have started tagging paper
 
 | # | Server | | # | Server | | # | Server | | # | Server | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 14 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items//tag/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items//tag/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items//tag/>Workflow4Metabolomics) | | 3 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items//tag/>RiboGalaxy) | 
-| 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/items//tag/>GVL-QLD) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/items//tag/>PreSTIGE) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/items//tag/>BioCiphers) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/items//tag/>PhenoMeNal) | 
-| 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items//tag/>Galaxy-P) | | 1 | [>Codon Harmonizer](https://www.zotero.org/groups/1732893/galaxy/items//tag/>Codon Harmonizer) | | | | | | | |
+| 14 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 3 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
+| 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | 
+| 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 1 | [>Codon Harmonizer](https://www.zotero.org/groups/1732893/galaxy/tags/>Codon Harmonizer) | | | | | | | |
 
 ## Public Server Directory Rebuilt
 

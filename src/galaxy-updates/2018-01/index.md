@@ -252,10 +252,10 @@ https://doi.org/10.1142/9789813229150_0005
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 96 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods) | | 32 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic) | | 18 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench) | | 14 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal) | 
-| 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility) | 
-| 5 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization) | 
-| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo) | | | | |
+| 96 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 32 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 18 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 14 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
+| 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | 
+| 5 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | | | |
 
 
 ----
@@ -287,7 +287,7 @@ The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/gal
 * All [EuPathDB](http://eupathdb.org/) genomes are pre-loaded.
 * [Pre-configured workflows](https://eupathdb.globusgenomics.org/workflow/list_published) are available.
 * Powered by [Globus Genomics](https://www.globus.org/genomics)
-* [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EEuPathDB) in [Galaxy Publication library](/src/publication-library/index.md).
+* [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EEuPathDB) in [Galaxy Publication library](/src/publication-library/index.md).
 
 User support is available via a [web form](http://eupathdb.org/eupathdb/contact.do). The service is supported by [EuPathDB](http://eupathdb.org/), University of Georgia, University of Pennsylvania, and University of Liverpool.
 
@@ -303,7 +303,7 @@ See:
 
 * [Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences](https://www.nature.com/articles/nbt.2676), Morgan G I Langille et al. *Nature Biotechnology* 31, 814–821 (2013)
 doi:10.1038/nbt.2676
-* [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ELangille) in [Galaxy Publication library](/src/publication-library/index.md).
+* [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3ELangille) in [Galaxy Publication library](/src/publication-library/index.md).
 
 
 ## Public Servers in Publications
@@ -312,10 +312,10 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 17 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower) | | 8 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P) | | 4 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics) | 
-| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>EuPathDB) | 
-| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>APOSTL) | | 1 | [>OSDD MPDS](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>OSDD MPDS) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy) | | 1 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RNA-Rocket) | 
-| 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Nebula) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PIA) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CBIB) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Langille) | 
+| 17 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 4 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | 
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/tags/>EuPathDB) | 
+| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>OSDD MPDS](https://www.zotero.org/groups/1732893/galaxy/tags/>OSDD MPDS) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA-Rocket) | 
+| 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/tags/>Nebula) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/tags/>CBIB) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | 
 
 # Commercial Support: Intero Life Sciences and Galaxy Enterprise
 

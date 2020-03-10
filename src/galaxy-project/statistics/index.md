@@ -65,24 +65,24 @@ Here are the tags on papers in the Galaxy Publications Library as of December 20
     <th> Year </th>
     <th> # Pubs </th>
     <th> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Me-thods</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">Use-Pub-lic</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">Use-Main</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">Ref-Pub-lic</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">Use-Local</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">Tools</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">Is-Galaxy</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">Repro-duci-bility</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">Cloud</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">Oth-er</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">Shar-ed</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">Un-known</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">How-To</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">Pro-ject</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">Visu-aliza-tion</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Education">Edu-ca-tion</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">Use-Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods">Me-thods</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench">Work-bench</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic">Use-Pub-lic</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain">Use-Main</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic">Ref-Pub-lic</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal">Use-Local</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools">Tools</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy">Is-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility">Repro-duci-bility</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud">Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other">Oth-er</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared">Shar-ed</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown">Un-known</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo">How-To</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project">Pro-ject</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization">Visu-aliza-tion</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Education">Edu-ca-tion</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">Use-Cloud</a> </th>
   </tr>
   <tr>
     <th> 2005 </th>
@@ -456,24 +456,24 @@ Here are the tags on papers in the Galaxy Publications Library as of December 20
     <th> Total </th>
     <th  style="text-align: right; background-color: #58c058;" > 8927 </th>
     <th> </th>
-    <th  style="text-align: right; background-color: #62c462;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">5125</a> </th>
-    <th  style="text-align: right; background-color: #75cb75;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1829</a> </th>
-    <th  style="text-align: right; background-color: #77cc77;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">1662</a> </th>
-    <th  style="text-align: right; background-color: #81d081;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">951</a> </th>
-    <th  style="text-align: right; background-color: #89d289;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">618</a> </th>
-    <th  style="text-align: right; background-color: #8bd38b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">557</a> </th>
-    <th  style="text-align: right; background-color: #8ed48e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">481</a> </th>
-    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">386</a> </th>
-    <th  style="text-align: right; background-color: #94d794;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">342</a> </th>
-    <th  style="text-align: right; background-color: #9ad99a;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">248</a> </th>
-    <th  style="text-align: right; background-color: #9eda9e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">200</a> </th>
-    <th  style="text-align: right; background-color: #9fdb9f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">183</a> </th>
-    <th  style="text-align: right; background-color: #a6dea6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">125</a> </th>
-    <th  style="text-align: right; background-color: #a9dfa9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">108</a> </th>
-    <th  style="text-align: right; background-color: #afe1af;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">78</a> </th>
-    <th  style="text-align: right; background-color: #b7e4b7;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">50</a> </th>
-    <th  style="text-align: right; background-color: #bee7be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Education">33</a> </th>
-    <th  style="text-align: right; background-color: #cbebcb;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">16</a> </th>
+    <th  style="text-align: right; background-color: #62c462;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods">5125</a> </th>
+    <th  style="text-align: right; background-color: #75cb75;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench">1829</a> </th>
+    <th  style="text-align: right; background-color: #77cc77;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic">1662</a> </th>
+    <th  style="text-align: right; background-color: #81d081;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain">951</a> </th>
+    <th  style="text-align: right; background-color: #89d289;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic">618</a> </th>
+    <th  style="text-align: right; background-color: #8bd38b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal">557</a> </th>
+    <th  style="text-align: right; background-color: #8ed48e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools">481</a> </th>
+    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy">386</a> </th>
+    <th  style="text-align: right; background-color: #94d794;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility">342</a> </th>
+    <th  style="text-align: right; background-color: #9ad99a;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud">248</a> </th>
+    <th  style="text-align: right; background-color: #9eda9e;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other">200</a> </th>
+    <th  style="text-align: right; background-color: #9fdb9f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared">183</a> </th>
+    <th  style="text-align: right; background-color: #a6dea6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown">125</a> </th>
+    <th  style="text-align: right; background-color: #a9dfa9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo">108</a> </th>
+    <th  style="text-align: right; background-color: #afe1af;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project">78</a> </th>
+    <th  style="text-align: right; background-color: #b7e4b7;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization">50</a> </th>
+    <th  style="text-align: right; background-color: #bee7be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Education">33</a> </th>
+    <th  style="text-align: right; background-color: #cbebcb;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">16</a> </th>
   </tr>
 </table>
 
@@ -502,16 +502,16 @@ In late 2017 the project started tracking which specific [platforms](/src/use/in
 <table class="table">
   <tr>
     <th> Year </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">Hutten-hower</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">Repeat-Explorer</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">Workflow4-Metabolomics</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>CPT">CPT</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">ARGs-OAP</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">Galaxy- P</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">Cis-trome</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">UseGalaxy .eu</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">deep-Tools</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">Ribo-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower">Hutten-hower</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer">Repeat-Explorer</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics">Workflow4-Metabolomics</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT">CPT</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP">ARGs-OAP</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P">Galaxy- P</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome">Cis-trome</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu">UseGalaxy .eu</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools">deep-Tools</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy">Ribo-Galaxy</a> </th>
   </tr>
   <tr>
     <th> Pre 2017 </th>
@@ -580,16 +580,16 @@ In late 2017 the project started tracking which specific [platforms](/src/use/in
   </tr>
   <tr>
     <th> Total </th>
-    <th  style="text-align: right; background-color: #8fd58f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Huttenhower">445</a> </th>
-    <th  style="text-align: right; background-color: #a2dca2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RepeatExplorer">154</a> </th>
-    <th  style="text-align: right; background-color: #a8dea8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Workflow4Metabolomics">116</a> </th>
-    <th  style="text-align: right; background-color: #b1e2b1;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>CPT">69</a> </th>
-    <th  style="text-align: right; background-color: #b2e2b2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>ARGs-OAP">66</a> </th>
-    <th  style="text-align: right; background-color: #b4e3b4;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Galaxy-P">60</a> </th>
-    <th  style="text-align: right; background-color: #b8e4b8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>Cistrome">48</a> </th>
-    <th  style="text-align: right; background-color: #b9e5b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>UseGalaxy.eu">44</a> </th>
-    <th  style="text-align: right; background-color: #bee6be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>deepTools">34</a> </th>
-    <th  style="text-align: right; background-color: #bee7be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/>RiboGalaxy">33</a> </th>
+    <th  style="text-align: right; background-color: #8fd58f;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower">445</a> </th>
+    <th  style="text-align: right; background-color: #a2dca2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer">154</a> </th>
+    <th  style="text-align: right; background-color: #a8dea8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics">116</a> </th>
+    <th  style="text-align: right; background-color: #b1e2b1;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT">69</a> </th>
+    <th  style="text-align: right; background-color: #b2e2b2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP">66</a> </th>
+    <th  style="text-align: right; background-color: #b4e3b4;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P">60</a> </th>
+    <th  style="text-align: right; background-color: #b8e4b8;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome">48</a> </th>
+    <th  style="text-align: right; background-color: #b9e5b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu">44</a> </th>
+    <th  style="text-align: right; background-color: #bee6be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools">34</a> </th>
+    <th  style="text-align: right; background-color: #bee7be;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy">33</a> </th>
   </tr>
 </table>
 

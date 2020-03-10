@@ -58,7 +58,7 @@ mixin renderResource()
         if pub_libraries > ""
             each pub_lib in pub_libraries
                 li
-                    a( href=("https://www.zotero.org/groups/1732893/galaxy/items/tag/%3E" + pub_lib ) ) #{pub_lib} tagged publications
+                    a( href=("https://www.zotero.org/groups/1732893/galaxy/tags/%3E" + pub_lib ) ) #{pub_lib} tagged publications
                     |  in the 
                     a( href="/publication-library/" ) Galaxy Publication library
 

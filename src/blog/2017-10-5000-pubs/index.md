@@ -21,23 +21,23 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th> Year </th>
     <th> # Pubs </th>
     <th> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">Meth-ods</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">Work-bench</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">Use-Public</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">Use-Main</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">Tools</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">Ref-Public</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">Use-Local</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">Is-Galaxy</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">Cloud</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">Repro-duci-bility</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">Oth-er</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">Shar-ed</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">Un-known</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">How-To</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">Pro-ject</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">Visu-aliza-tion</a> </th>
-    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">Use-Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods">Meth-ods</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench">Work-bench</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic">Use-Public</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain">Use-Main</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools">Tools</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic">Ref-Public</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal">Use-Local</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy">Is-Galaxy</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud">Cloud</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility">Repro-duci-bility</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other">Oth-er</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared">Shar-ed</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown">Un-known</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo">How-To</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project">Pro-ject</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization">Visu-aliza-tion</a> </th>
+    <th> <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">Use-Cloud</a> </th>
   </tr>
   <tr>
     <th> 2005 </th>
@@ -351,23 +351,23 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th> Total </th>
     <th  style="text-align: right; background-color: #58c058;" > 5000 </th>
     <th> </th>
-    <th  style="text-align: right; background-color: #65c565;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Methods">2553</a> </th>
-    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Workbench">1280</a> </th>
-    <th  style="text-align: right; background-color: #81cf81;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UsePublic">629</a> </th>
-    <th  style="text-align: right; background-color: #84d184;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseMain">529</a> </th>
-    <th  style="text-align: right; background-color: #8dd48d;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Tools">339</a> </th>
-    <th  style="text-align: right; background-color: #91d591;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+RefPublic">274</a> </th>
-    <th  style="text-align: right; background-color: #91d591;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseLocal">274</a> </th>
-    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+IsGalaxy">261</a> </th>
-    <th  style="text-align: right; background-color: #99d999;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Cloud">181</a> </th>
-    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Reproducibility">165</a> </th>
-    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Other">165</a> </th>
-    <th  style="text-align: right; background-color: #a0dba0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Shared">126</a> </th>
-    <th  style="text-align: right; background-color: #a6dda6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Unknown">92</a> </th>
-    <th  style="text-align: right; background-color: #abdfab;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+HowTo">73</a> </th>
-    <th  style="text-align: right; background-color: #aee0ae;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Project">61</a> </th>
-    <th  style="text-align: right; background-color: #b9e4b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+Visualization">35</a> </th>
-    <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tag/+UseCloud">9</a> </th>
+    <th  style="text-align: right; background-color: #65c565;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods">2553</a> </th>
+    <th  style="text-align: right; background-color: #73ca73;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench">1280</a> </th>
+    <th  style="text-align: right; background-color: #81cf81;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic">629</a> </th>
+    <th  style="text-align: right; background-color: #84d184;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain">529</a> </th>
+    <th  style="text-align: right; background-color: #8dd48d;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools">339</a> </th>
+    <th  style="text-align: right; background-color: #91d591;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic">274</a> </th>
+    <th  style="text-align: right; background-color: #91d591;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal">274</a> </th>
+    <th  style="text-align: right; background-color: #92d692;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy">261</a> </th>
+    <th  style="text-align: right; background-color: #99d999;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud">181</a> </th>
+    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility">165</a> </th>
+    <th  style="text-align: right; background-color: #9bd99b;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other">165</a> </th>
+    <th  style="text-align: right; background-color: #a0dba0;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared">126</a> </th>
+    <th  style="text-align: right; background-color: #a6dda6;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown">92</a> </th>
+    <th  style="text-align: right; background-color: #abdfab;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo">73</a> </th>
+    <th  style="text-align: right; background-color: #aee0ae;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project">61</a> </th>
+    <th  style="text-align: right; background-color: #b9e4b9;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization">35</a> </th>
+    <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">9</a> </th>
   </tr>
 </table>
 
@@ -381,13 +381,13 @@ The most obvious "trend" is that **there are a lot of pubs using Galaxy in their
 
 ## UseMain, UsePublic, UseLocal, and UseCloud
 
-Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BMethods)* paper say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
+Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
 
 **The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy servers.**  In 2013-2014, there are 2 1/2 times as many *UseMain* pubs as *UsePublic* pubs.  In 2015 they were about the same, and in 2016-2017, there are nearly twice as many *UsePublic* pubs as there are *UseMain* pubs. This rise reflects the increase in available [public servers](/src/use/index.md) from 21 servers at the start of 2012 to over 90 servers, and 6 services today.
 
 ## Reproducibility Rising
 
-The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time. 
+The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/tags/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time. 
 
 ## Publications per year
 
@@ -432,7 +432,7 @@ The 5,000th pub is
 
 > [Variations in oral microbiota associated with oral cancer](https://www.nature.com/articles/s41598-017-11779-9), Hongsen Zhao, Min Chu, Zhengwei Huang, Xi Yang, Shujun Ran, Bin Hu, Chenping Zhang & Jingping Liang. *Scientific Reports* 7, Article number: 11773 (2017) doi:10.1038/s41598-017-11779-9
 
-Which is an exemplar 5,000th publication: It's a *[Methods](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BMethods)* paper, by far the [most popular topic tag](#methods); a *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/items/tag/%2BUsePublic)* paper, an [ascendant topic tag](#usemain-usepublic-uselocal-and-usecloud); and a *[>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3EHuttenhower)* paper, the [most frequently referenced public server tag](#public-server-and-services-tags).  And it's open access too. See the [paper's zotero entry](https://www.zotero.org/groups/1732893/galaxy/items/itemKey/64ZDZVVI) for more.
+Which is an exemplar 5,000th publication: It's a *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper, by far the [most popular topic tag](#methods); a *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)* paper, an [ascendant topic tag](#usemain-usepublic-uselocal-and-usecloud); and a *[>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/%3EHuttenhower)* paper, the [most frequently referenced public server tag](#public-server-and-services-tags).  And it's open access too. See the [paper's zotero entry](https://www.zotero.org/groups/1732893/galaxy/items/itemKey/64ZDZVVI) for more.
 
 # The Future
 
@@ -486,11 +486,11 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Public server and services tags
 
-The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/items/tag/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
 
 ## Publisher Tags
 
-Zotero is configured to also add any keywords it can detect automatically when the publication is added.  These tags are not rationalized in any way, and tend to describe the research topic or domain. [Prosapip1](https://www.zotero.org/groups/1732893/galaxy/items/tag/Prosapip1) and [Genome evolution](https://www.zotero.org/groups/1732893/galaxy/items/tag/Genome%20evolution) are examples.
+Zotero is configured to also add any keywords it can detect automatically when the publication is added.  These tags are not rationalized in any way, and tend to describe the research topic or domain. [Prosapip1](https://www.zotero.org/groups/1732893/galaxy/tags/Prosapip1) and [Genome evolution](https://www.zotero.org/groups/1732893/galaxy/tags/Genome%20evolution) are examples.
 
 ## Retroactive Tagging?
 

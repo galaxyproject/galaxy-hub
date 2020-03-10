@@ -90,7 +90,7 @@ There are
 
 # Publications
 
-**191 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were seven *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, *and all seven of them are open access:*
+**191 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were seven *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, *and all seven of them are open access:*
 
 <div class="card-deck">
 
@@ -141,19 +141,19 @@ Monnerie, S., Petera, M., Lyan, B., Gaudreau, P., Comte, B., & Pujos-Guillot, E.
 
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
 
-<a class="btn"  style="text-align: right; background-color: #63c463;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods"> 136 : <strong>+Methods</strong></a>
- <a class="btn"  style="text-align: right; background-color: #7acd7a;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic"> 64 : <strong>+UsePublic</strong></a>
- <a class="btn"  style="text-align: right; background-color: #99d899;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench"> 24 : <strong>+Workbench</strong></a>
- <a class="btn"  style="text-align: right; background-color: #a0dba0;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal"> 19 : <strong>+UseLocal</strong></a>
- <a class="btn"  style="text-align: right; background-color: #a0dba0;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain"> 19 : <strong>+UseMain</strong></a>
- <a class="btn"  style="text-align: right; background-color: #a9dfa9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic"> 14 : <strong>+RefPublic</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b0e1b0;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools"> 11 : <strong>+Tools</strong></a>
- <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy"> 4 : <strong>+IsGalaxy</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d3eed3;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility"> 3 : <strong>+Reproducibility</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Education"> 2 : <strong>+Education</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Unknown"> 2 : <strong>+Unknown</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Visualization"> 2 : <strong>+Visualization</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e9f7e9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared"> 1 : <strong>+Shared</strong></a>
+<a class="btn"  style="text-align: right; background-color: #63c463;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 136 : <strong>+Methods</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #7acd7a;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 64 : <strong>+UsePublic</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #99d899;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 24 : <strong>+Workbench</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a0dba0;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 19 : <strong>+UseLocal</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a0dba0;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 19 : <strong>+UseMain</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a9dfa9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 14 : <strong>+RefPublic</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b0e1b0;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 11 : <strong>+Tools</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 4 : <strong>+IsGalaxy</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d3eed3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 3 : <strong>+Reproducibility</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Education"> 2 : <strong>+Education</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown"> 2 : <strong>+Unknown</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization"> 2 : <strong>+Visualization</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #e9f7e9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 1 : <strong>+Shared</strong></a>
  </div>
 </div>
 
@@ -229,16 +229,16 @@ Version 2 of [Laniakea](/src/use/laniakea-indigo-datacloud/index.md) announced a
 
 Platforms that were referenced at least twice in the past month's publications:
 
-<a class="btn"  style="text-align: right; background-color: #98d898;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower"> 25 : <strong>Huttenhower</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b6e3b6;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu"> 9 : <strong>UseGalaxy.eu</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b9e5b9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT"> 8 : <strong>CPT</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b9e5b9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer"> 8 : <strong>RepeatExplorer</strong></a>
- <a class="btn"  style="text-align: right; background-color: #c6eac6;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics"> 5 : <strong>Workflow4Metabolomics</strong></a>
- <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Cistrome"> 4 : <strong>Cistrome</strong></a>
- <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Galaxy-P"> 4 : <strong>Galaxy-P</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d3eed3;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au"> 3 : <strong>UseGalaxy.org.au</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP"> 2 : <strong>ARGs-OAP</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Orione"> 2 : <strong>Orione</strong></a>
+<a class="btn"  style="text-align: right; background-color: #98d898;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 25 : <strong>Huttenhower</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b6e3b6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 9 : <strong>UseGalaxy.eu</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b9e5b9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT"> 8 : <strong>CPT</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b9e5b9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 8 : <strong>RepeatExplorer</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #c6eac6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics"> 5 : <strong>Workflow4Metabolomics</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome"> 4 : <strong>Cistrome</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #cceccc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P"> 4 : <strong>Galaxy-P</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d3eed3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 3 : <strong>UseGalaxy.org.au</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 2 : <strong>ARGs-OAP</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dcf2dc;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Orione"> 2 : <strong>Orione</strong></a>
 </div>
 </div>
 

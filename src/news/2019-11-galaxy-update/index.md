@@ -81,7 +81,7 @@ There are
 
 # Publications
 
-**208 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were eight *[Galactic](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/%2BStellar)* publications added, and six of those are open access:
+**208 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in the last month.  There were eight *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and six of those are open access:
 
 <div class="card-deck">
 
@@ -126,19 +126,19 @@ Silva, B. S. M. L., Heringer, P., Dias, G. B., Svartman, M., & Kuhn, G. C. S. (2
 
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
 
-<a class="btn"  style="text-align: right; background-color: #64c464;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Methods"> 142 : <strong>Methods</strong></a>
-<a class="btn"  style="text-align: right; background-color: #78cc78;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UsePublic"> 75 : <strong>UsePublic</strong></a>
-<a class="btn"  style="text-align: right; background-color: #99d999;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseMain"> 25 : <strong>UseMain</strong></a>
-<a class="btn"  style="text-align: right; background-color: #9ad99a;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Workbench"> 24 : <strong>Workbench</strong></a>
-<a class="btn"  style="text-align: right; background-color: #a8dea8;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+RefPublic"> 15 : <strong>RefPublic</strong></a>
-<a class="btn"  style="text-align: right; background-color: #b4e3b4;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+UseLocal"> 10 : <strong>UseLocal</strong></a>
-<a class="btn"  style="text-align: right; background-color: #bee6be;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Reproducibility"> 7 : <strong>Reproducibility</strong></a>
-<a class="btn"  style="text-align: right; background-color: #c2e8c2;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Tools"> 6 : <strong>Tools</strong></a>
-<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Other"> 5 : <strong>Other</strong></a>
-<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Shared"> 5 : <strong>Shared</strong></a>
-<a class="btn"  style="text-align: right; background-color: #d4efd4;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+IsGalaxy"> 3 : <strong>IsGalaxy</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+Cloud"> 2 : <strong>Cloud</strong></a>
-<a class="btn"  style="text-align: right; background-color: #e9f7e9;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/+HowTo"> 1 : <strong>HowTo</strong></a>
+<a class="btn"  style="text-align: right; background-color: #64c464;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 142 : <strong>Methods</strong></a>
+<a class="btn"  style="text-align: right; background-color: #78cc78;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 75 : <strong>UsePublic</strong></a>
+<a class="btn"  style="text-align: right; background-color: #99d999;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 25 : <strong>UseMain</strong></a>
+<a class="btn"  style="text-align: right; background-color: #9ad99a;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 24 : <strong>Workbench</strong></a>
+<a class="btn"  style="text-align: right; background-color: #a8dea8;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 15 : <strong>RefPublic</strong></a>
+<a class="btn"  style="text-align: right; background-color: #b4e3b4;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 10 : <strong>UseLocal</strong></a>
+<a class="btn"  style="text-align: right; background-color: #bee6be;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 7 : <strong>Reproducibility</strong></a>
+<a class="btn"  style="text-align: right; background-color: #c2e8c2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 6 : <strong>Tools</strong></a>
+<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other"> 5 : <strong>Other</strong></a>
+<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 5 : <strong>Shared</strong></a>
+<a class="btn"  style="text-align: right; background-color: #d4efd4;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 3 : <strong>IsGalaxy</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud"> 2 : <strong>Cloud</strong></a>
+<a class="btn"  style="text-align: right; background-color: #e9f7e9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo"> 1 : <strong>HowTo</strong></a>
 </div>
 </div>
 
@@ -221,19 +221,19 @@ A Galaxy Docker image for RNA analysis and modification calling, from the [Helm 
 
 Platforms that were referenced at least twice in the past month's publications:
 
-<a class="btn"  style="text-align: right; background-color: #98d898;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>CPT"> 26 : <strong>CPT</strong></a>
-<a class="btn"  style="text-align: right; background-color: #a6dea6;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Huttenhower"> 16 : <strong>Huttenhower</strong></a>
-<a class="btn"  style="text-align: right; background-color: #b7e4b7;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RepeatExplorer"> 9 : <strong>RepeatExplorer</strong></a>
-<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.eu"> 5 : <strong>UseGalaxy.eu</strong></a>
-<a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Workflow4Metabolomics"> 4 : <strong>Workflow4Metabolomics</strong></a>
-<a class="btn"  style="text-align: right; background-color: #d4efd4;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>deepTools"> 3 : <strong>deepTools</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>AmrPlusPlus"> 2 : <strong>AmrPlusPlus</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>ARGs-OAP"> 2 : <strong>ARGs-OAP</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>DDBJ"> 2 : <strong>DDBJ</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>Pasteur"> 2 : <strong>Pasteur</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>PhenoMeNal"> 2 : <strong>PhenoMeNal</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>RiboGalaxy"> 2 : <strong>RiboGalaxy</strong></a>
-<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/items/order/dateAdded/sort/desc/tag/>UseGalaxy.org.au"> 2 : <strong>UseGalaxy.org.au</strong></a>
+<a class="btn"  style="text-align: right; background-color: #98d898;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT"> 26 : <strong>CPT</strong></a>
+<a class="btn"  style="text-align: right; background-color: #a6dea6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 16 : <strong>Huttenhower</strong></a>
+<a class="btn"  style="text-align: right; background-color: #b7e4b7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 9 : <strong>RepeatExplorer</strong></a>
+<a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 5 : <strong>UseGalaxy.eu</strong></a>
+<a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics"> 4 : <strong>Workflow4Metabolomics</strong></a>
+<a class="btn"  style="text-align: right; background-color: #d4efd4;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools"> 3 : <strong>deepTools</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>AmrPlusPlus"> 2 : <strong>AmrPlusPlus</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 2 : <strong>ARGs-OAP</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>DDBJ"> 2 : <strong>DDBJ</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 2 : <strong>Pasteur</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal"> 2 : <strong>PhenoMeNal</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy"> 2 : <strong>RiboGalaxy</strong></a>
+<a class="btn"  style="text-align: right; background-color: #ddf2dd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 2 : <strong>UseGalaxy.org.au</strong></a>
 
 *Note: This is the first time, since the beginning of time, that the Huttenhower server was not the most referenced server in the previous month.*
 </div>
