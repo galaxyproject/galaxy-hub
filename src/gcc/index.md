@@ -3,6 +3,7 @@ title: Galaxy Community Conferences (GCCs)
 ---
 
 <div class="text-center">
+
 [<img src="/src/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" />](https://bcc2020.github.io) &nbsp;&nbsp;
 [<img src="/src/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" />](https://galaxyproject.org/gcc2019) &nbsp;&nbsp;
 [<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="2018 Galaxy Community and BOSC  Conference (GCCBOSC 2018)" width="140" />](https://gccbosc2018.sched.com/) &nbsp;&nbsp;
@@ -13,6 +14,7 @@ title: Galaxy Community Conferences (GCCs)
 [<img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" />](/src/events/gcc2013/index.md) &nbsp;&nbsp;
 [<img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="170" />](/src/events/gcc2012/index.md) &nbsp;&nbsp;
 [<img src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="185" />](https://galaxyproject.org/gcc2011/)
+
 </div>
 
 ----
