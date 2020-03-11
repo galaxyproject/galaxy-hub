@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    mode: "production",
+    mode: "development",
     entry: "./src/js/index.js",
     output: {
         path: __dirname + "/build/js",
@@ -19,7 +19,7 @@ module.exports = {
                 options: {
                     cacheDirectory: true,
                     cacheCompression: false,
-                    presets: [["@babel/preset-env", { modules: false }]]
+                    presets: ["@babel/preset-env"]
                 }
             },
             {
@@ -64,7 +64,7 @@ module.exports = {
                 use: [
                     {
                         loader: "expose-loader",
-                        options: "zoteroSearchOnLoad"
+                        options: "hubFunctions"
                     }
                 ]
             },
