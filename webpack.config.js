@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: "./src/js/index.js",
     output: {
         path: __dirname + "/build/js",
@@ -19,7 +19,7 @@ module.exports = {
                 options: {
                     cacheDirectory: true,
                     cacheCompression: false,
-                    presets: ["@babel/preset-env"]
+                    presets: [["@babel/preset-env", { modules: false }]]
                 }
             },
             {
