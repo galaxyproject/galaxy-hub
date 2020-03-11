@@ -78,10 +78,10 @@ markdownRenderer.heading = function(text, level, raw) {
         ${text}
         </h${level + 1}>
 `;
-}
+};
 
 markdownRenderer.table = function(header, body) {
-        return `<table class="table table-striped">
+    return `<table class="table table-striped">
     <thead>
     ${header}
     </thead>
@@ -89,7 +89,7 @@ markdownRenderer.table = function(header, body) {
     ${body}
     </tbody>
     </table>`;
-}
+};
 
 markdownRenderer.image = function(href, title, text) {
     let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
@@ -98,7 +98,7 @@ markdownRenderer.image = function(href, title, text) {
     }
     out += "/>";
     return out;
-}
+};
 
 markdownRenderer.link = function(href, title, text) {
     if (href.startsWith("/src/")) {
@@ -135,10 +135,10 @@ markdownRenderer.link = function(href, title, text) {
     }
     out += ">" + text + "</a>";
     return out;
-}
+};
 
 function getMarkedWithRenderer(stuff) {
-    return marked(stuff, { renderer: markdownRenderer});
+    return marked(stuff, { renderer: markdownRenderer });
 }
 
 global.marked = getMarkedWithRenderer;
@@ -361,9 +361,7 @@ let ms = metalsmith(__dirname)
     .use(timer("subs"))
     .use(
         require("metalsmith-markdown")({
-            renderer: markdownRenderer,
-            tables: true,
-            gfm: true
+            renderer: markdownRenderer
         })
     )
     .use(timer("metalsmith-markdown"))
