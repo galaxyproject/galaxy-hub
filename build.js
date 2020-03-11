@@ -69,74 +69,76 @@ function resolveUrl(base, href) {
 }
 
 /* EXTENSION FOR MARKED RENDERER */
-class Renderer extends marked.Renderer {
-    heading(text, level, raw) {
-        var h_slug = this.options.headerPrefix + slug(raw.toLowerCase());
-        return `<h${level + 1} id="${h_slug}">
-            <a class="heading-anchor" href="#${h_slug}"><span></span></a>
-            ${text}
-            </h${level + 1}>
+markdownRenderer = new marked.Renderer();
+
+markdownRenderer.heading = function(text, level, raw) {
+    var h_slug = this.options.headerPrefix + slug(raw.toLowerCase());
+    return `<h${level + 1} id="${h_slug}">
+        <a class="heading-anchor" href="#${h_slug}"><span></span></a>
+        ${text}
+        </h${level + 1}>
 `;
-    }
-    table(header, body) {
+}
+
+markdownRenderer.table = function(header, body) {
         return `<table class="table table-striped">
-<thead>
-${header}
-</thead>
-<tbody>
-${body}
-</tbody>
-</table>`;
+    <thead>
+    ${header}
+    </thead>
+    <tbody>
+    ${body}
+    </tbody>
+    </table>`;
+}
+
+markdownRenderer.image = function(href, title, text) {
+    let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
+    if (title) {
+        out += ` title="${title}"`;
     }
-    image(href, title, text) {
-        let out = `<img class="img-fluid" src="${href}" alt="${text}"`;
-        if (title) {
-            out += ` title="${title}"`;
-        }
-        out += "/>";
-        return out;
+    out += "/>";
+    return out;
+}
+
+markdownRenderer.link = function(href, title, text) {
+    if (href.startsWith("/src/")) {
+        href = href.substring(4);
     }
-    link(href, title, text) {
-        if (href.startsWith("/src/")) {
-            href = href.substring(4);
-        }
-        if (href.includes("/index.md")) {
-            href = href.substring(0, href.indexOf("/index.md")) + href.substring(href.indexOf("/index.md") + 9);
-        }
-        if (this.options.sanitize) {
-            try {
-                var prot = decodeURIComponent(unescape(href))
-                    .replace(/[^\w:]/g, "")
-                    .toLowerCase();
-            } catch (e) {
-                return text;
-            }
-            if (prot.indexOf("javascript:") === 0 || prot.indexOf("vbscript:") === 0 || prot.indexOf("data:") === 0) {
-                return text;
-            }
-        }
-        if (this.options.baseUrl && !originIndependentUrl.test(href)) {
-            href = resolveUrl(this.options.baseUrl, href);
-        }
+    if (href.includes("/index.md")) {
+        href = href.substring(0, href.indexOf("/index.md")) + href.substring(href.indexOf("/index.md") + 9);
+    }
+    if (this.options.sanitize) {
         try {
-            href = encodeURI(href).replace(/%25/g, "%");
+            var prot = decodeURIComponent(unescape(href))
+                .replace(/[^\w:]/g, "")
+                .toLowerCase();
         } catch (e) {
             return text;
         }
-        //var out = '<a href="' + escape(href) + '"';
-        //TODO: That should be escaped?
-        var out = '<a href="' + href + '"';
-        if (title) {
-            out += ' title="' + title + '"';
+        if (prot.indexOf("javascript:") === 0 || prot.indexOf("vbscript:") === 0 || prot.indexOf("data:") === 0) {
+            return text;
         }
-        out += ">" + text + "</a>";
-        return out;
     }
+    if (this.options.baseUrl && !originIndependentUrl.test(href)) {
+        href = resolveUrl(this.options.baseUrl, href);
+    }
+    try {
+        href = encodeURI(href).replace(/%25/g, "%");
+    } catch (e) {
+        return text;
+    }
+    //var out = '<a href="' + escape(href) + '"';
+    //TODO: That should be escaped?
+    var out = '<a href="' + href + '"';
+    if (title) {
+        out += ' title="' + title + '"';
+    }
+    out += ">" + text + "</a>";
+    return out;
 }
 
-// Cache renderer between marked invocations.
 function getMarkedWithRenderer(stuff) {
-    return marked(stuff, { renderer: new Renderer() });
+    return marked(stuff, { renderer: markdownRenderer});
 }
 
 global.marked = getMarkedWithRenderer;
@@ -359,8 +361,9 @@ let ms = metalsmith(__dirname)
     .use(timer("subs"))
     .use(
         require("metalsmith-markdown")({
-            gfm: true,
-            renderer: new Renderer()
+            renderer: markdownRenderer,
+            tables: true,
+            gfm: true
         })
     )
     .use(timer("metalsmith-markdown"))
