@@ -27,21 +27,21 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 # Conferences
 
-GCC has met annually since 2010 and the program has grown and transformed each year.  This year the  [Bioinformatics Community Conference 2020 (BCC2020)](/src/events/gcc2019/index.md) will again bring together the Galaxy and BOSC communities into a single event, featuring eight days  of training, presentations, networking, and a CollaborationFest. 
+GCC has met annually since 2010 and the program has grown and transformed each year.  This year the  [Bioinformatics Community Conference 2020 (BCC2020)](/src/events/gcc2019/index.md) will again bring together the Galaxy and BOSC communities into a single event, featuring eight days  of training, presentations, networking, and a CollaborationFest.
 
-| Dates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Event | Where | Hosts | # |
-| ---- | ---- | ---- | ----|
-| July 18-25, 2020 | [BCC2020](https://bcc2020.github.io/) | Toronto, Ontario, Canada | [Ontario Institute for Cancer Research](https://oicr.on.ca/) | |
-| July 1-6, 2019 | [GCC2019](https://galaxyproject.org/gcc2019) | Freiburg, Germany | [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/) | 231 |
-| June 25-30, 2018 | [GCCBOSC 2018](https://gccbosc2018.sched.com/) | Portland, Oregon, United States | [Oregon Health & Science University](https://www.ohsu.edu/) | 306 |
-| June 26-30, 2017 | [GCC2017](https://gcc2017.sciencesconf.org/) | Montpellier, France | [IFB](http://www.france-bioinformatique.fr/), [CNRS](http://www.cnrs.fr/index.php), [INRA](http://www.inra.fr/en), [Inria](http://www.inria.fr/en/), [INSERM](http://english.inserm.fr/), [CEA](http://english.cea.fr/english-portal), [CIRAD](http://www.cirad.fr/en/home-page), [IRD](https://en.ird.fr/ird.fr), [Montpellier Events](http://www.montpellier-events.com/en) | 205 |
-| June 25-29, 2016 | [GCC2016](https://gcc2016.iu.edu/) | Bloomington, Indiana, United States | [Indiana Universtiy](https://iu.edu/) | 206 |
-| July 6-8, 2015 | [GCC2015](http://gcc2015.tsl.ac.uk/) | Norwich, England, United Kingdom | [The Sainsbury Laboratory](http://tsl.ac.uk/) | 230 |
-| June 30 - July 2, 2014 | [GCC2014](/src/events/gcc2014/index.md) | Baltimore, Maryland, United States | [Dept of Biological Chemistry, Johns Hopkins University](http://biolchem.bs.jhmi.edu/) | 217 |
-| June 30 - July 2, 2013 | [GCC2013](/src/events/gcc2013/index.md) | Oslo, Norway | [University of Oslo](http://www.uio.no/) | 219 |
-| July 25-27, 2012 | [GCC2012](/src/events/gcc2012/index.md) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202 | 
-| May 25-26, 2011 | [GCC2011](https://galaxyproject.org/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
-| May 15-17, 2010 | [GDC2010](https://galaxyproject.org/dev2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
+Dates | Event | Where | Hosts | #
+---- | ---- | ---- | ---- | ----
+July 18-25, 2020 | [BCC2020](https://bcc2020.github.io/) | Toronto, Ontario, Canada | [Ontario Institute for Cancer Research](https://oicr.on.ca/) |
+July 1-6, 2019 | [GCC2019](https://galaxyproject.org/gcc2019) | Freiburg, Germany | [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/) | 231
+June 25-30, 2018 | [GCCBOSC 2018](https://gccbosc2018.sched.com/) | Portland, Oregon, United States | [Oregon Health & Science University](https://www.ohsu.edu/) | 306
+June 26-30, 2017 | [GCC2017](https://gcc2017.sciencesconf.org/) | Montpellier, France | [IFB](http://www.france-bioinformatique.fr/), [CNRS](http://www.cnrs.fr/index.php), [INRA](http://www.inra.fr/en), [Inria](http://www.inria.fr/en/), [INSERM](http://english.inserm.fr/), [CEA](http://english.cea.fr/english-portal), [CIRAD](http://www.cirad.fr/en/home-page), [IRD](https://en.ird.fr/ird.fr), [Montpellier Events](http://www.montpellier-events.com/en) | 205
+June 25-29, 2016 | [GCC2016](https://gcc2016.iu.edu/) | Bloomington, Indiana, United States | [Indiana Universtiy](https://iu.edu/) | 206
+July 6-8, 2015 | [GCC2015](http://gcc2015.tsl.ac.uk/) | Norwich, England, United Kingdom | [The Sainsbury Laboratory](http://tsl.ac.uk/) | 230
+June 30 - July 2, 2014 | [GCC2014](/src/events/gcc2014/index.md) | Baltimore, Maryland, United States | [Dept of Biological Chemistry, Johns Hopkins University](http://biolchem.bs.jhmi.edu/) | 217
+June 30 - July 2, 2013 | [GCC2013](/src/events/gcc2013/index.md) | Oslo, Norway | [University of Oslo](http://www.uio.no/) | 219
+July 25-27, 2012 | [GCC2012](/src/events/gcc2012/index.md) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202
+May 25-26, 2011 | [GCC2011](https://galaxyproject.org/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148
+May 15-17, 2010 | [GDC2010](https://galaxyproject.org/dev2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69
 
 # Interested in hosting a future GCC?
 
