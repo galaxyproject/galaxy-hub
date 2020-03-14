@@ -4,22 +4,16 @@ title: Dave Clements
 
 <img class="float-right" src="/src/galaxy-team/Clements.jpg" />
 
-I work on the [Galaxy Project](http://galaxyproject.org) for [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)), where I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, wiki, and web presence.  I'm also hoping to touch the (Python!) code.
+I work on the [Galaxy Project](http://galaxyproject.org) for [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)), where I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, wiki, and web presence.
 
-Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD Help Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. From 2007 through 2012 I telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) at the [University of Oregon](http://uoregon.edu).  (That was the first time I got to stay in the same office while changing employers!)  Since 2013 I have telecommuted from the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Geological Sciences](http://geology.uoregon.edu/), also at the University of Oregon. 
+Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD Help Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu)/, and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
 
 ## Details
 
-<table class="table">
-  <tr>
-    <th> E-mail </th>
-    <td> <a href="mailto:clements AT galaxyproject DOT org">clements AT galaxyproject DOT org</a> </td>
-  </tr>
-  <tr>
-    <th> <a href='http://orcid.org/'>ORCID ID</a> </th>
-    <td> <a href='http://orcid.org/0000-0002-9970-6657'>orcid.org/0000-0002-9970-6657</a> </td>
-  </tr>
-</table>
+| Thing | Thing value |
+| --- | --- |
+| E-mail |  clements AT galaxyproject DOT org |
+| [ORCID ID](http://orcid.org/) | [orcid.org/0000-0002-9970-6657](http://orcid.org/0000-0002-9970-6657) |
 
 
 ## Background
@@ -44,6 +38,8 @@ My pre-bioinformatics career included
 
 ## Publications
 
+* [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379) [Enis Afgan](/src/people/enis-afgan/index.md), *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379. [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md).
+* [Community-Driven Data Analysis Training for Biology](https://doi.org/10.1016/j.cels.2018.05.012), *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1. [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate,  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/src/people/james-taylor/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md).
 * [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full). *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343. [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/people/dan/index.md), [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Greg Von Kuster](/src/people/greg_vonkuster/index.md), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/people/nitesh-turaga/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Jeremy Goecks](/src/people/jeremy-goecks/index.md)
 * [Using Galaxy to Perform Large-Scale Interactive Data Analyses](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), in  *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5. [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Daniel Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Galaxy Team](/src/galaxy-team/index.md)
 * [The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](http://database.oxfordjournals.org/content/2011/bar051.full), in *[Database](http://database.oxfordjournals.org/)*, 2011; doi: 10.1093/database/bar051, Sook Jung; Naama Menda; Seth Redmond; Robert M. Buels; Maren Friesen; Yuri Bendana; Lacey-Anne Sanderson; Hilmar Lapp; Taein Lee; Bob MacCallum; Kirstin E. Bett; Scott Cain; Dave Clements; Lukas A. Mueller; Dorrie Main
@@ -61,6 +57,9 @@ My pre-bioinformatics career included
 
 ### 2010's
 
+* [2020 Bioinformatics Community Conference](https://bcc2020.github.io/), July 18-25, 2020, Toronto, Ontario, Canada
+* [2019 Galaxy Community Conference](/src/events/gcc2019/index.md), July 1-8, 2020, Freiburg, Germany.
+* [GCCBOSC 2018](/src/events/gccbosc2018), , Portland, Oregon, United States
 * [2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/), June 26-30, 2017, Montpellier, France
 * [Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017), February 3-9, 2017, Melbourne, Australia
 * [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md), November 7-11, 2016, Salt Lake City, Utah, United States
@@ -99,6 +98,36 @@ My pre-bioinformatics career included
 * [2008 GMOD Summer School](http://gmod.org/wiki/2008_GMOD_Summer_School), July 11-13, 2008, Durham, North Carolina, United States
 
 ## Presentations, Tutorials, Workshops, Demos and Posters
+
+### 2020
+
+| Date | Topic / Event | Venue / Location | Links |
+| --- | --- | --- | --- |
+| March 2 | Using the Galaxy Training Network tutorial library for bioinformatics training programs | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | [Poster]() |
+| February 29 | [Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/src/events/2020-abrf/index.md) | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | |
+| February 13 | The Path from Galaxy Team to Galaxy Community | [NCI ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), online | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-02-itcr-tow/itcr-tow-2020-02-galaxy-community-efforts.pdf) |
+| January 14 | [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2020/event/a8f1e9dbae7dc0d6d1e5f05d4657f89d) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-intro-slides.pdf) |
+| January 14 | [Galaxy Demo: Genomic Selection and Genome Wide Association Study (GWAS) Analysis with Excellence in Breeding Tools](https://plan.core-apps.com/pag_2020/event/959619631bade74d533994f26e218d04) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [History](http://galaxy-demo.excellenceinbreeding.org/u/clements/h/pag-2020-3k-rgp) |
+| January 13 | [Galaxy: A Global Platform & Community for Life Science Data Integration & Analysis](https://plan.core-apps.com/pag_2020/abstract/d58894cb3c5f7a1019a50c969c59cd70) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-galaxy-poster.pdf) |
+
+
+### 2019
+
+| Date | Topic / Event | Venue / Location | Links |
+| --- | --- | --- | --- |
+| December 16 | Galaxy for Genomics-enabled Breeding | GOBii Project, Monthly meeting, Online | [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0) |
+| October 30 | [Genomic data science with the Galaxy workbench](/src/events/2019-sacnas/index.md) | [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States | |
+| October 11 | [Reproducible Genomic Data Analysis with the Galaxy Workbench](/src/events/2019-10-aises/index.md) | [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda) | |
+| September 24 | [Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM) | [Gateways 2019]( Gateways 2019, San Diego, California, United States) | |
+| September 12 | [Building a regional Galaxy Community and Platform](/src/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform/index.md) | [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
+| September 11 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19) |  [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
+| July 4 | [Use Galaxy, Right Now!](https://sched.co/PSOt) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf) |
+| July 4 | [Galaxy Publication Library](https://sched.co/QMv4) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf) |
+| April 19 | Recent Developments in Galaxy | [CGRB Spring Conference 2019](https://cgrb.oregonstate.edu/spring-conference), Oregon State University, Corvallis, Oregon, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2019-04-osu/2019-04-cgrb-lightning.pdf) |
+
+### 2018 & 2017
+
+Are coming, the next time I need to do a biosketch.
 
 ### 2016
 
