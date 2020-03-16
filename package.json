@@ -39,7 +39,7 @@
     "metalsmith-serve": "^0.0.7",
     "metalsmith-timer": "0.0.2",
     "metalsmith-watch": "^1.0.3",
-    "minimist": "^1.1.1",
+    "minimist": "^1.2.2",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "popper.js": "^1.15.0",
