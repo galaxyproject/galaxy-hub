@@ -18,7 +18,7 @@ There are several Galaxy related presentations at [Gateways 2019](https://scienc
 | ---- | ----: | ---- | ---- | ---- |
 | Tues Sept 24 | 8:30 | [Workshop on Research Objects 2019 (RO2019)](https://researchobject.github.io/ro2019/) | Cockatoo Room ([Part of E-Science](https://sched.co/UuQL)) | Frederik Coppens | 
 |  | 9:00 | [Keynote - Galaxy: from Genomic Science Gateway to Global Community](https://sched.co/RaHj) ([Slides](https://speakerdeck.com/jxtx/galaxy-dot-dot-dot-from-genomic-data-science-gateway-to-global-community), [Video](https://youtu.be/GBYhmq-CJuE)) | Kon Tiki Room | [James Taylor](/src/people/james-taylor/index.md) | 
-|  | 4:15 | [Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM) | Kon Tiki Room | Sandra Gesing, Marlon Pierce,  Maytal Dahan, Shawn Rice, Kyle Chard, Mark Miller, [Dave Clements](/src/people/dave-clements/index.md) |
+|  | 4:15 | [Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)  ([Video](https://www.youtube.com/watch?v=iQHX_y7_Ghw)) | Kon Tiki Room | Sandra Gesing, Marlon Pierce,  Maytal Dahan, Shawn Rice, Kyle Chard, Mark Miller, [Dave Clements](/src/people/dave-clements/index.md) |
 
 ## Find out more
 
