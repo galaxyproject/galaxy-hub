@@ -2,7 +2,7 @@
 
 # Anton Nekrutenko
 
-Associate Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/) at [Penn State University](http://psu.edu), and a PI for the [Galaxy Project](http://galaxyproject.org).
+Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/) at [Penn State University](http://psu.edu), and a PI for the [Galaxy Project](http://galaxyproject.org).
 
 ## Contact
 
