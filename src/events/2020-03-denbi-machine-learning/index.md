@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Machine Learning using Galaxy"
+title: "Introduction to Machine Learning using Galaxy - CANCELLED"
 date: "2020-03-30"
 days: 3
 tease: "in Freiburg"

@@ -1,5 +1,5 @@
 ---
-title: "Galaxy @ C3DIS 2020"
+title: "Galaxy @ C3DIS 2020 - CANCELLED"
 date: "2020-03-16"
 days: 5
 tease: "Galaxy Australia"

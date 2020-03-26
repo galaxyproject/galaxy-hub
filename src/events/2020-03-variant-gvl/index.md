@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Variant Calling with Galaxy & Genomics Virtual Laboratory"
+title: "Introduction to Variant Calling with Galaxy & Genomics Virtual Laboratory - CANCELLED"
 date: '2020-03-24'
 days: 1
 tease: "from Melbourne Bioinformatics"

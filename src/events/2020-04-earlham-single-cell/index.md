@@ -1,5 +1,5 @@
 ---
-title: "Single-Cell RNAseq Training Course 2020"
+title: "Single-Cell RNAseq Training Course 2020 - POSTPONED"
 date: '2020-04-20'
 days: 5
 tease: "For bench-based researchers planning a single-cell project."

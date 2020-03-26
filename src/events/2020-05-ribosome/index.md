@@ -1,5 +1,5 @@
 ---
-title: "Measuring Translational Dynamics by Ribosome Profiling"
+title: "Measuring Translational Dynamics by Ribosome Profiling - POSTPONED"
 date: "2020-05-03"
 days: 7
 tease: "Learn more about RiboGalaxy at this EMBO Practical Course"

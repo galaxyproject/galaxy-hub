@@ -1,5 +1,5 @@
 ---
-title: "Galaxy single cell RNA-seq data analysis workshop"
+title: "Galaxy single cell RNA-seq data analysis workshop -CANCELLED"
 date: "2020-03-23"
 days: 5
 tease: "in Freiburg"

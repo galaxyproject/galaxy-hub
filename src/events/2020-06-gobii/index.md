@@ -1,5 +1,5 @@
 ---
-title: "GWAS and Genomic selection analysis using Galaxy"
+title: "GWAS and Genomic selection analysis using Galaxy - POSTPONED"
 date: '2020-06-05'
 days: 1
 tease: "Genomic-assisted breeding in routine breeding applications in under-resourced breeding programs"
