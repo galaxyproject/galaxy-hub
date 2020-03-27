@@ -26,4 +26,4 @@ different Galaxy instances can be different):
 - Elixi AII: see [this page](/src/authnz/use/oidc/idps/elixir-aai/index.md) on how to use it
 - Globus: see [this page](/src/authnz/use/oidc/idps/globus/index.md) on how to use it
 - Custos: see [this page](/src/authnz/use/oidc/idps/custos/index.md) on how to use it
-
+- Okta: see [this page](/src/authnz/use/oidc/idps/okta/index.md) on how to use it
