@@ -23,6 +23,7 @@ citations:
   - "[UseGalaxy.be
 platform for data-intensive research](https://frederikcoppens.github.io/slidedecks/ELIXIR_Belgium_usegalaxy_20190916/), Frederik Coppens, ELIXIR Belgium All Hands 2019"
 pub_libraries:
+  - "UseGalaxy.be"
 sponsors:
   - "[ELIXIR Belgium](https://www.elixir-belgium.org/)"
   - "[Flemish Supercomputer Center](https://www.vscentrum.be/)"

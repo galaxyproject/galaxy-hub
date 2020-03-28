@@ -20,6 +20,7 @@ user_support:
 quotas:
   - "Requires login, anyone can create a login."
 citations:
+  - "[NG-Tax 2.0: A Semantic Framework for High-Throughput Amplicon Analysis](https://doi.org/10.3389/fgene.2019.01366), Wasin Poncheewin, Gerben D. A. Hermes, Jesse C. J. van Dam, Jasper J. Koehorst, Hauke Smidt and Peter J. Schaap, *Frontiers in Genetics*, 23 January 2020"
   - "[NG-Tax, a highly accurate and validated pipeline for analysis of 16S rRNA amplicons from complex biomes](https://doi.org/10.12688/f1000research.9227.2), Ramiro-Garcia J, Hermes GDA, Giatsis C et al. *F1000Research* 2018, 5:1791 "
 pub_libraries:
   - "NG-Tax"
