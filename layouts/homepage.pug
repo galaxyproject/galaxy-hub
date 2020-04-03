@@ -8,28 +8,19 @@ mixin renderSplash(item)
 
 block content
     section.section-content
+        div.row.mb-3#splash-row
+            h1.display-4
+                | Galaxy Community Hub
+            div.row.text-center
+                div.col-sm-8.my-auto
+                    p(style="font-size:1.5em;")
+                        | We have just lost James Taylor (1979-2020).<br/><br/> His legacy -- open, reproducible science -- will continue.
+                div.col-sm-4
+                    img.img-fluid(src="news/2020-04-james-taylor/james.jpg")
+    section.section-content
         div.row#splash-row
             div.col-sm-12
-                h1.display-4
-                    | Galaxy Community Hub
                 p.lead !{contents}
-    section.section-content
-        div.row.mb-3#splash-row
-            div.col-sm-12
-                div.carousel.slide(data-ride="carousel" id="splash-box")
-                    ol.carousel-indicators
-                        each item, index in splash
-                            li(data-target="#splash-box" data-slide-to=`${index}`)
-                    div.carousel-inner(role="listbox")
-                        each item, index in splash
-                            div.item.carousel-item
-                                +renderSplash(item)
-                    a.carousel-control-prev(href="#splash-box" role="button" data-slide="prev")
-                        span.icon-prev(aria-hidden="true")
-                        span.sr-only: Previous
-                    a.carousel-control-next(href="#splash-box" role="button" data-slide="next")
-                        span.icon-next(aria-hidden="true")
-                        span.sr-only: Next
         div.row
             div.col-sm-4
                 h2: a( href="/news/" ) News
