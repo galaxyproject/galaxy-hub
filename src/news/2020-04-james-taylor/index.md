@@ -9,7 +9,7 @@ date: "2020-04-03"
 
 # We just lost James Taylor (1979-2020). His legacy &mdash; open, reproducible science &mdash; will continue.
 
-Please [share your thoughts here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform).  We will add them here.
+Please [share your thoughts here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform), and we will add them here.
 
 
 ## A man who wanted to live forever: James Taylor
