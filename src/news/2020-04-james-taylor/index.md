@@ -148,3 +148,96 @@ I am shocked. A supremely talented scientist and a wonderful collaborator gone w
 <footer class="blockquote-footer">Sergei Pond, Temple University</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+Devastating news. James had such a large impact on how we work in and teach bioinformatics. He was a great person to work with and had great enthusiasm.
+<footer class="blockquote-footer">Dan MacLean, The Sainsbury Lab</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I've had tremendous respect for James and his dedication to open science and, to sum it up briefly, making the world a better place for everyone. He was an amazing human and a scientist and will be missed dearly.
+<footer class="blockquote-footer">Monika Cechova Mich, Czechia</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is shocking. James was an inspiration and admired vision and community building, above all. Was lucky to get to know him, and will be terribly missed, RIP
+<footer class="blockquote-footer">Suresh Marru, Indiana University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Some lead from above, but the best leaders lead from within by lifting up everyone around them into a strong community. I will miss you dearly my friend and leader James.
+<footer class="blockquote-footer">Michael Schatz, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was a trailblazer and wonderful person. What a terrible loss.
+<footer class="blockquote-footer">Anshul Kundaje, Stanford University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am heartbroken. Sincere condolences to James' family and everyone in the Galaxy community from SANBI and myself.
+<footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+My heart goes out to his wife, his family, his lab, and to our scientific community. He was an exceptional person in every way that matters.
+
+2020 is now officially cancelled.
+<footer class="blockquote-footer">Karen Reddy, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I learned galaxy from you, sir. Your legacy will be continued. Rest in peace.
+<footer class="blockquote-footer">Yousef Ali, Bangladesh</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+He came to UIUC back on the job hunt, gave an awesome presentation. Sadly I didn't know him well but met him many times through GCC and BOSC (I hazily recall late night laughs w/ beers involved). He was nice, amazing, awesome. I am so sorry for your loss Galaxy community. This hurts
+<footer class="blockquote-footer">Chris Fields, University of Illinois Urbana-Champaign</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+My friend James Taylor is dead. I'm heartbroken and thinking of all of his family and friends. He is leaving a hole that cannot be filled.
+
+I met James when I started grad school at Penn State. I had no idea what to expect (I'd only learned of PhD programs within the previous year). We were both students, but he was clearly in a league of his own.
+
+James was one of the smartest people I've ever known, in a way that wasn't (as) intimidating. Talking with James was easy and enlightening. He advocated and put in the work for better science, in all aspects.
+
+James supported my science and my career in ways I don't think I can ever fully communicate. As a colleague, he believed in me. As a friend, he expected me to do good. He supported my growth, selflessly.
+
+Most of all, James was an advocate. 
+
+He advocated for his students, for trainees, for open science, for open data, for making this world a better place. 
+
+I will miss him so terribly.
+<footer class="blockquote-footer">Melissa A. Wilson, Arizona State University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The first time I saw James was at ISMB 2007 in Vienna when he gave a Demonstration on Galaxy's tool integration framework - the room was packed and everyone was deadly silent whilst he live xml'ed.
+
+We are all poorer for this today.<br />
+valé James.
+<footer class="blockquote-footer">Jim Proctor, University of Dundee</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+A great visionary and a lovely person too. We are all shocked and saddened. Such a loss to us all. Thoughts are with his family and friends.
+<footer class="blockquote-footer">Carole Goble, University of Manchester</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Terribly sad news. He was kind enough to let my high school daughter tour his lab and was so supportive of her interest in science. My sympathies to his family and colleagues.
+<footer class="blockquote-footer">Sally C. Morton, Virginia Tech</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Very sad news and a great loss for the scientific community. James Taylor was a visionary leader in open science and reproducible research. My condolences to his family.
+<footer class="blockquote-footer">Nils Gehlenborg, Harvard University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Completely in shock and saddened by this. He will be so missed.
+<footer class="blockquote-footer">Jason Stajich, UC Riverside</footer>
+</blockquote>
+
+More to come... The response has been overwhelming.
