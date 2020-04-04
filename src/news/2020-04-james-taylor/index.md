@@ -280,4 +280,9 @@ Many aspects of what we are going through right now will pass with time. James' 
 <footer class="blockquote-footer">Sean Davis</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+Almost every project I've worked on since entering the field of bioinformatics has referenced Galaxy Project directly or indirectly. Sad for the loss of a great scientist, but inspired by the camaraderie of the community around good science, especially given current events. RIP.
+<footer class="blockquote-footer">H M Dingerdissen</footer>
+</blockquote>
+
 More to come... The response has been overwhelming.
