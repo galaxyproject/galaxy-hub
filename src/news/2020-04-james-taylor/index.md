@@ -265,4 +265,19 @@ As an undergrad, tinkering with pipelines and tutorials on Galaxy was how I star
 <footer class="blockquote-footer">Sam Bogan</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+I just do not know what to say. My thoughts go to his family, friends, and to the great Galaxy Project community to which he was a father. Sincere condolences.
+<footer class="blockquote-footer">Hervé Ménager, France</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is so heartbreaking. I didn't interact with James that many times IRL, but those few moments witnessed strongly about his generosity and humbleness. This puts tears to my eyes and a makes my heart heavy. Rest in peace dear fellow human!
+<footer class="blockquote-footer">Samuel Lampa</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Many aspects of what we are going through right now will pass with time. James' impact on many of us personally and on how science is done will live on and I suspect grow with time.
+<footer class="blockquote-footer">Sean Davis</footer>
+</blockquote>
+
 More to come... The response has been overwhelming.
