@@ -240,4 +240,29 @@ Completely in shock and saddened by this. He will be so missed.
 <footer class="blockquote-footer">Jason Stajich, UC Riverside</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+I still remember the nice after meeting time we had with Nate in Collioure. I had nothing but the greatest respect for him and his work. Hope you rest in peace James.
+<footer class="blockquote-footer">Tuto</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+We will miss you James. Thank you for all you contributed. My sincere condolences to his family and friends. This loss is a burden that will be shared by many.
+<footer class="blockquote-footer">John Fonner</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was a great force for openness, community, and science. He was truly a lovely man as well. Heartbroken. My condolences to the entire Galaxy community.
+<footer class="blockquote-footer">Simon Gladman, Australia</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The bioinformatics community has produced many stars; James was a galaxy.
+<footer class="blockquote-footer">Andrew Stuart</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+As an undergrad, tinkering with pipelines and tutorials on Galaxy was how I started to learn about bioinformatics. James Taylor’s work to make these resources accessible and free changed my life.
+<footer class="blockquote-footer">Sam Bogan</footer>
+</blockquote>
+
 More to come... The response has been overwhelming.
