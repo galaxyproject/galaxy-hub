@@ -285,4 +285,15 @@ Almost every project I've worked on since entering the field of bioinformatics h
 <footer class="blockquote-footer">H M Dingerdissen</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+James has been a part of our community since 2003 and this devastating news is hitting us hard, and doesn't feel possible. His brilliance and positive energy were undeniable and affected everyone lucky to have met and work with him. We we will miss you James.
+<footer class="blockquote-footer">CSHL Courses</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+We are deeply saddened by the loss of a wonderful person that was part of our CSHL courses family for many years. Im just heartbroken with the news. We will miss you Dr. Taylor, thank you for all your kindness. It was an honor working with you.
+<footer class="blockquote-footer">Alicia Vanessa Franco</footer>
+</blockquote>
+
+
 More to come... The response has been overwhelming.
