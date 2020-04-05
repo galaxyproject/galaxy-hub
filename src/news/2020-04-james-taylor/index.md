@@ -2,15 +2,20 @@
 title: 'James Taylor'
 tease: ""
 external_url: ""
-date: "2020-04-03"
+date: "2020-04-05"
 ---
 
 <img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 20rem" />
 
 # We just lost James Taylor (1979-2020). His legacy &mdash; open, reproducible science &mdash; will continue.
 
+James Taylor, one of the original members of Galaxy and a leader of the Galaxy Project passed away on April 2, 2020.
+
 Please [share your thoughts here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform), and we will add them below.
 
+<blockquote class="blockquote">
+Originally posted 2020-04-03.
+</blockquote>
 
 ## A man who wanted to live forever: James Taylor
 
@@ -418,6 +423,52 @@ I am shocked and heartbroken at losing a friend and mentor. James was a visionar
 I am a researcher in Genetics, and took a series of Coursera Genomic Analysis courses, in which Prof. Taylor was the instructor. As a teacher I am passing on what I learned there, and by coincidence this week I am teaching an on-line version of his course for students and researchers at the Federal University of Rio de Janeiro, helping us to have some intellectual activity during this quarentine. Two or three days ago I was reviewing some of his lectures !!! That is a real global influencer. We are here in Rio de Janeiro in the middle of a crisis, and still we are learning from his. I thank him a lot.
 <footer class="blockquote-footer">Ana Coelho, Federal University of Rio de Janeiro</footer>
 </blockquote>
+
+<blockquote class="blockquote">
+Such a huge loss. James made huge contributions to open-source, accessibility, and reproducibility. Anyone who runs a bioinformatics tool on the cloud does so thanks to James's work.
+<footer class="blockquote-footer">Andrew Carroll. Google</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+RIP to a Real One.
+<footer class="blockquote-footer">Ikenna Okafor, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+My deepest condolences to his family and the Galaxy family. This is an incredibly loss for the bioinformatics community, we have lost an advocate for open and reproducible science.
+<footer class="blockquote-footer">Radhika Khetani, Harvard University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The bioinformatics open source community has lost a visionary. Condolences for the family. This is terrible news.
+<footer class="blockquote-footer">Sumaira Zaman, UConn</footer>
+</blockquote>
+
+<div class="float-right">
+<img src="cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" /><br />
+<img src="cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />
+</div>
+
+<blockquote class="blockquote">
+James Taylor always wore the **coolest** shoes. He inspired me to buy my own sparkly shoes, as he inspired me & my cohort of grad students to push our own boundaries of knowledge. He was a generous & kind collaborator. I will miss him.
+<footer class="blockquote-footer">Sarah Hadynick, Johns Hopkins</footer>
+<br />
+<blockquote class="blockquote">
+Damn right he did!
+<footer class="blockquote-footer">Martin Cech, Penn State University</footer>
+</blockquote>
+</blockquote>
+
+<blockquote class="blockquote">
+James Taylor's passing leaves a galaxy-sized void in the world of computational biology. An inspirational colleague and a brilliant, unselfishly kind mind.
+<footer class="blockquote-footer">Alex Bortvin, Carnegie Institution for Science</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Terrible news in a world where I was starting to get immune to bad news.
+<footer class="blockquote-footer">Rita Strack, Nature Methods</footer>
+</blockquote>
+
 
 
 More to come... The response has been overwhelming.
