@@ -52,7 +52,7 @@ OBF joins many others in mourning the loss of a pillar of the bioinformatics com
 
 ---
 
-And a small portion of the thoughts shared about James elsewhere online from his community:
+And a small sample of what's been shared about James elsewhere online from his community:
 
 <blockquote class="blockquote">
 James was a cornerstone of the department and of the scientific community.  But most of all he was the exemplar of a colleague and just a wonderful human being
@@ -323,6 +323,29 @@ We are deeply saddened by the loss of a wonderful person that was part of our CS
 <footer class="blockquote-footer">Alicia Vanessa Franco</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+This makes no sense. So incredibly sad to hear this. My heart goes out to all who knew and loved him
+<footer class="blockquote-footer">Scott Edmunds, GigaScience</footer>
+</blockquote>
 
+<blockquote class="blockquote">
+His course on Galaxy is part of what inspired me to enter this field. Years later I felt honored to work with him. A great mind, gone too soon. This is devastating news... sincerest condolences to his family and colleagues.
+<footer class="blockquote-footer">Stephen Shank </footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is devastating and shocking. What a terrible loss for the community and humanity. Deepest condolences to his loved ones.
+<footer class="blockquote-footer">Malachi Griffith, Washington University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+what a shock.  he was a great collaborator, always generous and a pleasure to work with, and he made a huge impact on the field.  what a loss, I can't believe it.
+<footer class="blockquote-footer">Ben Berman</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+&lt;expletives deleted /&gt;
+<footer class="blockquote-footer">Matthew Links, University of Saskatchewan</footer>
+</blockquote>
 
 More to come... The response has been overwhelming.
