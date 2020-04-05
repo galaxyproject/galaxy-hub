@@ -64,11 +64,9 @@ James was a cornerstone of the department and of the scientific community.  But 
 </blockquote>
 
 <blockquote class="blockquote">
-My graduate co-advisor James Taylor was an amazing person and mentor. When I was struggling and looking for a computational lab to co-mentor me he agreed to take me on, and was patient as I got into the swing of working on computational biology. I'll miss him deeply.
+James was a truly wonderful mentor, scientist, and human being. He was so brilliant, but so approachable. He was a giant in the field and I was so lucky to have the chance to work with him. He will be deeply missed.
 <footer class="blockquote-footer">Nathan Roach, Johns Hopkins</footer>
 </blockquote>
-
-
 
 <blockquote class="blockquote">
 I am in shock and saddened over the horrible news that James Taylor has passed away.<br /> 
@@ -96,6 +94,13 @@ You were a hero James &mdash; we'll do our best to carry on your work.   RIP, we
 <blockquote class="blockquote">
 This is devastating news. James Taylor will be missed by our entire community and well beyond. All my condolences to his family
 <footer class="blockquote-footer">Cedric Notredame, CRG</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is just such devastating news. I have known James for the best part of seven years, as we set up Galaxy in Australia and James, of course, immediately agreed to visit in 2013 to help make that happen. He was visionary, looking to create free, open platforms for global science. <br /><br />
+He was also enormously good company, going out for beers and in depth discussions on any and all topics. I thoroughly enjoyed James' company in social and academic forums...but far more importantly than that, he both led and built software and data science communities that will define community-focussed global bioscience from here on. <br /><br />
+Personally, it's crushing - I am so sorry for his family and friends, of which of course I count myself - but the loss to the world of science eclipses that. We are all the poorer for losing James. If it is any consolation, he accomplished so much - the world of science is changed because of James.
+<footer class="blockquote-footer">Andrew Lonie, University of Melbourne</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -138,7 +143,6 @@ James was a scientific giant, dedicated to sharing what he knew with everyone no
 I am so shocked and saddened by the news of James's death. This is such a huge loss to the bioinformatics community. Galaxy has been an inspiration to our Cistrome project. James will be sorely missed!
 <footer class="blockquote-footer">Xiaole Shirley Liu, Dana-Farber Cancer Institute</footer>
 </blockquote>
-
 
 <blockquote class="blockquote">
 James was, simply put, an amazing person. He was certainly an amazing scientist, but so much more than that. He was what we all hope to be as scientists, mentors, colleagues, and friends. 
@@ -224,25 +228,19 @@ He came to UIUC back on the job hunt, gave an awesome presentation. Sadly I didn
 </blockquote>
 
 <blockquote class="blockquote">
-My friend James Taylor is dead. I'm heartbroken and thinking of all of his family and friends. He is leaving a hole that cannot be filled.
-
-I met James when I started grad school at Penn State. I had no idea what to expect (I'd only learned of PhD programs within the previous year). We were both students, but he was clearly in a league of his own.
-
-James was one of the smartest people I've ever known, in a way that wasn't (as) intimidating. Talking with James was easy and enlightening. He advocated and put in the work for better science, in all aspects.
-
-James supported my science and my career in ways I don't think I can ever fully communicate. As a colleague, he believed in me. As a friend, he expected me to do good. He supported my growth, selflessly.
-
-Most of all, James was an advocate. 
-
-He advocated for his students, for trainees, for open science, for open data, for making this world a better place. 
+My friend James Taylor is dead. I'm heartbroken and thinking of all of his family and friends. He is leaving a hole that cannot be filled.<br /><br />
+I met James when I started grad school at Penn State. I had no idea what to expect (I'd only learned of PhD programs within the previous year). We were both students, but he was clearly in a league of his own.<br /><br />
+James was one of the smartest people I've ever known, in a way that wasn't (as) intimidating. Talking with James was easy and enlightening. He advocated and put in the work for better science, in all aspects.<br /><br />
+James supported my science and my career in ways I don't think I can ever fully communicate. As a colleague, he believed in me. As a friend, he expected me to do good. He supported my growth, selflessly.<br /><br />
+Most of all, James was an advocate. <br /><br />
+He advocated for his students, for trainees, for open science, for open data, for making this world a better place. <br /><br />
 
 I will miss him so terribly.
 <footer class="blockquote-footer">Melissa A. Wilson, Arizona State University</footer>
 </blockquote>
 
 <blockquote class="blockquote">
-The first time I saw James was at ISMB 2007 in Vienna when he gave a Demonstration on Galaxy's tool integration framework - the room was packed and everyone was deadly silent whilst he live xml'ed.
-
+The first time I saw James was at ISMB 2007 in Vienna when he gave a Demonstration on Galaxy's tool integration framework - the room was packed and everyone was deadly silent whilst he live xml'ed.<br /><br />
 We are all poorer for this today.<br />
 valé James.
 <footer class="blockquote-footer">Jim Proctor, University of Dundee</footer>
@@ -251,6 +249,11 @@ valé James.
 <blockquote class="blockquote">
 A great visionary and a lovely person too. We are all shocked and saddened. Such a loss to us all. Thoughts are with his family and friends.
 <footer class="blockquote-footer">Carole Goble, University of Manchester</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was so approachable. Though we never got the chance to collaborate directly, when I first met *the* James Taylor I remember feeling that approachability in that someone so famous in our field would always take the time out to talk to me about science or about whatever the topic of the moment was. We had many conversations - some just a glance across a busy crowd at a conference where that would be our only acknowledgement, some,  hours long chats. The first memory that came to mind thinking back now was the many weeks he spent at CSHL instructing at courses in the fall. There were months when he was on campus more than I was. The particular memory that flashed when I heard this news was finishing a beer with him around 2 am in the cold outside the bar at Blackford. The bar had long closed, but we were having a crazy conversation along with one other course instructor about awful American TV shows. The conversation was of course punctuated with thoughts on comparative genomics. James was brilliant, but it wasn’t this that made him a star, helped him build a global community, or an enduring vision. He was a lovable and decent human being who will be fondly remembered. His work and the community he helped to create will live on. For every researcher who continues his legacy and works to live up to his achievements, don’t forget to bring along also his charm, curiosity, compassion, and love. 
+<footer class="blockquote-footer">Jason Williams, CSHL</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -264,8 +267,28 @@ Very sad news and a great loss for the scientific community. James Taylor was a 
 </blockquote>
 
 <blockquote class="blockquote">
+Rest in peace. I will always remember you.
+<footer class="blockquote-footer">Min Hyung Cho, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I feel very lucky to have been taught computational biology by James Taylor throughout this first year at Hopkins. Wish this could have continued and will miss him greatly.
+<footer class="blockquote-footer">Sara Debic, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Deeply saddened by this. Such a tremendous loss for science! 
+<footer class="blockquote-footer">Mihaela Pertea, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
 Completely in shock and saddened by this. He will be so missed.
 <footer class="blockquote-footer">Jason Stajich, UC Riverside</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I was fortunate to be introduced to James via the IU/TACC Jetstream project, where he promised to consume large quantities of CPU time on behalf of the Galaxy project. His vision and his plans for achieving it were both straightforward and clear. In short: Give us a key to your system (an API key, in this case), and we will make sure it's used for good. And he delivered, spectacularly! While this straightforward approach might at first appear naive, he articulated his plans clearly and proved soundly that he could do it. He was always ready to share examples of discoveries that had been enabled by Galaxy. In later visits on other topics, I was impressed by his astute understanding of how the research community works and how to make (important, substantive) things happen. People like him are rare and special, and a joy to encounter and work with. This is a heavy loss for the research community.
+<footer class="blockquote-footer">Lee Liming, University of Chicago</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -279,13 +302,19 @@ We will miss you James. Thank you for all you contributed. My sincere condolence
 </blockquote>
 
 <blockquote class="blockquote">
-James was a great force for openness, community, and science. He was truly a lovely man as well. Heartbroken. My condolences to the entire Galaxy community.
+James was a great force for openness, community, and science.  He was a truly lovely man. I first met him in Oslo in 2013 and he was immediately welcoming even though he had no idea who I was. Over the years that followed we shared beers, meals, conversations, games and laughs. The thing I'll most remember about him is the glint of pride he got in his eye whenever he saw the wonderful Galaxy community get together. He and Anton created something amazing.<br /><br />
+My sincere condolences to James' family, his colleagues and the rest of the Galaxy world.
 <footer class="blockquote-footer">Simon Gladman, Australia</footer>
 </blockquote>
 
 <blockquote class="blockquote">
 The bioinformatics community has produced many stars; James was a galaxy.
 <footer class="blockquote-footer">Andrew Stuart</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Extraordinarily sad news in these already troubling times. This is an enormous loss for the field and for the community. Virtual hugs to those who need one from me. Vale James.
+<footer class="blockquote-footer">Ross Lazarus, Australia</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -301,6 +330,17 @@ I just do not know what to say. My thoughts go to his family, friends, and to th
 <blockquote class="blockquote">
 This is so heartbreaking. I didn't interact with James that many times IRL, but those few moments witnessed strongly about his generosity and humbleness. This puts tears to my eyes and a makes my heart heavy. Rest in peace dear fellow human!
 <footer class="blockquote-footer">Samuel Lampa</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was my PhD advisor. For 6 years he patiently helped me become a better scientist and supported me for years after. <br /><br />
+James you are one of the smartest and kindest person I have ever met and I will miss you very much!
+<footer class="blockquote-footer">Olgert Denas, Adobe Research</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+What tragic news. My heart goes out to all those who loved him, his family, friends, colleagues, the Galaxy team and community.
+<footer class="blockquote-footer">Maria Doyle, Peter MacCallum Cancer Center</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -321,6 +361,11 @@ James has been a part of our community since 2003 and this devastating news is h
 <blockquote class="blockquote">
 We are deeply saddened by the loss of a wonderful person that was part of our CSHL courses family for many years. Im just heartbroken with the news. We will miss you Dr. Taylor, thank you for all your kindness. It was an honor working with you.
 <footer class="blockquote-footer">Alicia Vanessa Franco</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+As I write this from Colombo, Sri Lanka, one can only think of the impact that James has had across the entire world at such a young age, and how his untimely loss has taken away so much from it. The software and community that James was a chief architect of, has positively affected hundreds of thousands of scientists around the world. The loss felt by all of us in this vibrant, welcoming world-wide community that he helped to create, cannot be captured in words. Rest in peace James, the community and impact you have created will live on in your name.
+<footer class="blockquote-footer">Nuwan Goonasekera, University of Melboune</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -347,5 +392,32 @@ what a shock.  he was a great collaborator, always generous and a pleasure to wo
 &lt;expletives deleted /&gt;
 <footer class="blockquote-footer">Matthew Links, University of Saskatchewan</footer>
 </blockquote>
+
+<blockquote class="blockquote">
+James was visionary. And he had this rare quality of making you want to follow him. It is called charisma. It really changed my priorities and I don't regret any of these changes. His disappearance is a heartbreak
+<footer class="blockquote-footer">Christophe Antoniewski, ARTbio @ Sorbonne-Universite</footer>
+</blockquote>
+
+
+<blockquote class="blockquote">
+I remember James from when we met at GCC in Portland 2018. He was thoughtful with an edge. He had a mystique to him. We shared a conversation about the craziness of skate bombing mountains in Vermont. His Coursera Galaxy courses made a big impact on my early training as the whole Galaxy project is for us; impacting. It's just so crazy to lose him so soon. 
+<footer class="blockquote-footer">Jean-Paul Courneya, University of Maryland</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+What a terrible loss for the Galaxy Project and the open source/access community - it is so sad. The Best we can do is to continue working with even more dedication on all the great projects he has been part of.
+<footer class="blockquote-footer">Hans-Rudolf Hotz, FMI</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am shocked and heartbroken at losing a friend and mentor. James was a visionary scientist, and he exemplified the values of collaboration and community. He inspired everyone around him to be the best scientist and human being they could be. My heart breaks for his wife and family, his lab, colleagues, collaborators, trainees, and all the scientific communities touched by his passion. James - we will all miss you terribly.
+<footer class="blockquote-footer">Mallory Freeberg, EMBL-EBI</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am a researcher in Genetics, and took a series of Coursera Genomic Analysis courses, in which Prof. Taylor was the instructor. As a teacher I am passing on what I learned there, and by coincidence this week I am teaching an on-line version of his course for students and researchers at the Federal University of Rio de Janeiro, helping us to have some intellectual activity during this quarentine. Two or three days ago I was reviewing some of his lectures !!! That is a real global influencer. We are here in Rio de Janeiro in the middle of a crisis, and still we are learning from his. I thank him a lot.
+<footer class="blockquote-footer">Ana Coelho, Federal University of Rio de Janeiro</footer>
+</blockquote>
+
 
 More to come... The response has been overwhelming.
