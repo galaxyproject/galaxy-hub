@@ -26,7 +26,33 @@ Enis
 
 ---
 
-Here are some of the thought shared about James from his community:
+Memorials to James from the web
+
+<blockquote class="blockquote">
+<div class="lead">[In Memoriam, Professor James Taylor](https://bio.jhu.edu/2020/04/03/in-memoriam-professor-james-taylor/), Johns Hopkins Department of Biology</div>
+Professor Taylor was a trailblazer in computational biology and genomics research. He had an enormous impact as a scientist, teacher, and colleague, and his loss is devastating to many – both here in our Hopkins community and around the globe.<br />...<br />
+Vince Hilser, chair of the biology department, describes Professor Taylor as a bedrock of the department. “He came in 2014, and it was transformational. He was this catalyst for change, with a huge positive impact.” His presence in the department opened up many areas for research, as he was able to help other faculty members uncover new insights by revealing similarities between the proteins they were studying and those in other organisms.
+</blockquote>
+
+<blockquote class="blockquote">
+<div class="lead">[Professor James Taylor](https://support.bioconductor.org/p/129652/),  [Bioconductor](http://bioconductor.org/)</div>
+We in the Bioconductor community knew James as a Galaxy project leader, a strong advocate for open and reproducible science, and an enthusiastic and inspirational colleague. James recognized Bioconductor as a kindred spirit, and bridged the relationship between Galaxy and Bioconductor through his leadership of the NHGRI AnVIL project. James' leadership has deep consequences for the way Bioconductor now navigates toward large-scale cloud-based computing.<br />...<br />
+James' work and personality touched many of us, and we share a deep sense of loss from his passing. On behalf of the Bioconductor community, we offer our deepest condolences to James’ family, friends, trainees, and colleagues.
+<footer class="blockquote-footer">Martin Morgan, Roswell Park Comprehensive Cancer Center</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+<div class="lead">[In Memoriam: Galaxy’s co-founder, James Taylor](https://www.open-bio.org/2020/04/03/james-taylor-in-memoriam/), [Open Bioinformatics Foundation (OBF)](https://www.open-bio.org/)</div>
+The Open Bioinformatics Foundation was shocked and saddened to learn that our colleague and collaborator James Taylor, a professor of biology and computer science at Johns Hopkins University, died on April 2, 2020. James was one of the creators and PIs of the Galaxy Project, which is among the most widely used platforms in open bioinformatics. <br />...<br />
+OBF joins many others in mourning the loss of a pillar of the bioinformatics community.
+<footer class="blockquote-footer">Nomi Harris, Lawrence Berkeley National Laboratory</footer>
+</blockquote>
+
+
+
+---
+
+And a small portion of the thoughts shared about James elsewhere online from his community:
 
 <blockquote class="blockquote">
 James was a cornerstone of the department and of the scientific community.  But most of all he was the exemplar of a colleague and just a wonderful human being
@@ -41,6 +67,8 @@ James was a cornerstone of the department and of the scientific community.  But 
 My graduate co-advisor James Taylor was an amazing person and mentor. When I was struggling and looking for a computational lab to co-mentor me he agreed to take me on, and was patient as I got into the swing of working on computational biology. I'll miss him deeply.
 <footer class="blockquote-footer">Nathan Roach, Johns Hopkins</footer>
 </blockquote>
+
+
 
 <blockquote class="blockquote">
 I am in shock and saddened over the horrible news that James Taylor has passed away.<br /> 
@@ -294,6 +322,7 @@ James has been a part of our community since 2003 and this devastating news is h
 We are deeply saddened by the loss of a wonderful person that was part of our CSHL courses family for many years. Im just heartbroken with the news. We will miss you Dr. Taylor, thank you for all your kindness. It was an honor working with you.
 <footer class="blockquote-footer">Alicia Vanessa Franco</footer>
 </blockquote>
+
 
 
 More to come... The response has been overwhelming.
