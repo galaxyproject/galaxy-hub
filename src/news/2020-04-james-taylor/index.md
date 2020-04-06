@@ -9,13 +9,22 @@ date: "2020-04-05"
 
 # We just lost James Taylor (1979-2020). His legacy &mdash; open, reproducible science &mdash; will continue.
 
-James Taylor, one of the original members of Galaxy and a leader of the Galaxy Project passed away on April 2, 2020.
+James Taylor, a leader of the Galaxy Project, and one of its original members, passed away on April 2, 2020.
 
 Please [share your thoughts here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform), and we will add them below.
 
-<blockquote class="blockquote">
-Originally posted 2020-04-03.
-</blockquote>
+The community response (see below) has been tremendous, which reflects the breadth and depth of his impact.  If you have something you would like to add then please [share your thoughts here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform), and we will add them below.
+
+The cause of James' death is not yet known, and given how overwhelmed the medical profession is in Baltimore, we may never know.  Given how quickly this overtook him it is very unlikely to have been COVID-19.  We will add any new information here as learn it.
+
+Thank you for your support during this awful time,<br />
+The Galaxy Project
+
+
+<small>Originally posted April 3, 2020.
+</small>
+
+---
 
 ## A man who wanted to live forever: James Taylor
 
@@ -378,6 +387,21 @@ This makes no sense. So incredibly sad to hear this. My heart goes out to all wh
 <footer class="blockquote-footer">Scott Edmunds, GigaScience</footer>
 </blockquote>
 
+<div class="float-right">
+<img src="cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" /><br />
+<img src="cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />
+</div>
+
+<blockquote class="blockquote">
+James Taylor always wore the **coolest** shoes. He inspired me to buy my own sparkly shoes, as he inspired me & my cohort of grad students to push our own boundaries of knowledge. He was a generous & kind collaborator. I will miss him.
+<footer class="blockquote-footer">Sarah Hadynick, Johns Hopkins</footer>
+<br />
+<blockquote class="blockquote">
+Damn right he did!
+<footer class="blockquote-footer">Martin Cech, Penn State University</footer>
+</blockquote>
+</blockquote>
+
 <blockquote class="blockquote">
 His course on Galaxy is part of what inspired me to enter this field. Years later I felt honored to work with him. A great mind, gone too soon. This is devastating news... sincerest condolences to his family and colleagues.
 <footer class="blockquote-footer">Stephen Shank </footer>
@@ -442,21 +466,6 @@ My deepest condolences to his family and the Galaxy family. This is an incredibl
 <blockquote class="blockquote">
 The bioinformatics open source community has lost a visionary. Condolences for the family. This is terrible news.
 <footer class="blockquote-footer">Sumaira Zaman, UConn</footer>
-</blockquote>
-
-<div class="float-right">
-<img src="cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" /><br />
-<img src="cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />
-</div>
-
-<blockquote class="blockquote">
-James Taylor always wore the **coolest** shoes. He inspired me to buy my own sparkly shoes, as he inspired me & my cohort of grad students to push our own boundaries of knowledge. He was a generous & kind collaborator. I will miss him.
-<footer class="blockquote-footer">Sarah Hadynick, Johns Hopkins</footer>
-<br />
-<blockquote class="blockquote">
-Damn right he did!
-<footer class="blockquote-footer">Martin Cech, Penn State University</footer>
-</blockquote>
 </blockquote>
 
 <blockquote class="blockquote">
