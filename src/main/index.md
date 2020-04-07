@@ -1,7 +1,7 @@
 ---
 title: Galaxy Main public site
 ---
-The main Galaxy site at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/src/galaxy-project/statistics)). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
+The main Galaxy site at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/src/galaxy-project/statistics)). It is sustained by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
 
 Anyone can use the public servers, with or without an account, but Galaxy user accounts are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). 
 
@@ -17,36 +17,25 @@ Our public site utilizes multiple computational resources distributed across the
 
 ![Public Site](gxy_map.png)
 
-Most jobs initially run on the TACC Galaxy cluster. They can be automatically "resubmitted" to [Stampede](https://portal.tacc.utexas.edu/user-guides/stampede) if they exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool. Below are average runtimes for some of the most frequently used tools:
+Most jobs are allocated 1 core and 8 GB of memory and run on the dedicated Galaxy cluster at TACC. Some tools that regularly use slightly more memory are allocated 16 GB of memory. Tools that utilize multiple cores (which also typically use larger amounts of memory) can run with either 6 cores and 30 GB of memory on the dedicated Galaxy cluster at TACC or with 10 cores and 30 GB of memory on *m1.xlarge* [Jetstream](https://jetstream-cloud.org/) cloud instances at Indiana University.
 
-| Tool      | Walltime            |
-|-----------|---------------------|
-| BWA       | 3 hours, 41 minutes |
-| BWA-MEM   | 4 hours, 55 minutes |
-| Bowtie    | 2 hours, 35 minutes |
-| Tophat    | 6 hours, 11 minutes |
-| Cufflinks | 4 hours, 5 minutes  |
-| Cuffdiff  | 8 hours, 11 minutes |
-| Cuffmerge | 1 hour, 6 minutes   |
-
-
-When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
-
-Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/main/#user-data-and-job-quotas) section below for more on concurrency limits.
+In addition to these typical cases, some jobs (involving tools for genome and transcriptome assembly) are submitted to [Bridges](https://www.psc.edu/index.php/resources/computing/bridges) at the Pittsburgh Supercomputing Center or [Stampede2](https://portal.tacc.utexas.edu/user-guides/stampede2) at TACC.
 
 ### Choosing computational resources
 
-Tools in the previous section can also be manually submitted directly to Stampede. This is a good idea if you know (or strongly suspect) that a tool will exceed the walltime on the local cluster. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The options for this parameter are:
+Tools that can run on more than one computational resource are, by default, automatically directed to the most suitable and readily available resource automatically by Galaxy. However, these tools also have the option for you to manually select the resource. Although not designed for typical usage, manual selection can be a good idea if you know (or strongly suspect) that a tool will exceed the allocation (time limit or memory) on a given resource. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The possible options (not all are available for every tool) for this parameter are:
 
-| Resource                                    | Characteristics                                         |
-|---------------------------------------------|---------------------------------------------------------|
-| Galaxy cluster (default)                    | variable walltime, 6 cores, 32 GB memory, no/short wait |
-| TACC Stampede                               | 48 hour walltime, 16 cores, 32 GB memory, variable wait |
-| Galaxy cluster test/development             | 30 minute walltime, 2 cores, 16 GB, no/short wait       |
-| TACC Stampede test/development              | 1 hour walltime, 16 cores, 32 GB, variable wait         |
-| Jetstream                                   | N hour walltime, N cores, N GB, N wait                  |
+| Resource                                    | Characteristics                                                            |
+|---------------------------------------------|----------------------------------------------------------------------------|
+| Galaxy cluster                              | 36 hour walltime, 6 cores, 30 GB memory, short/moderate wait               |
+| Jetstream                                   | 36 hour walltime, 10 cores, 30 GB memory, short/moderate wait              |
+| TACC Stampede2 normal (KNL) partition       | 48 hour walltime, 64 low-frequency cores, 96 GB memory, moderate/long wait |
+| TACC Stampede2 SKX partition                | 48 hour walltime, 48 cores, 192 GB memory, long/very long wait             |
+| PSC Bridges                                 | variable walltime, variable cores, variable memory, moderate/long wait     |
 
-In addition to these resources some jobs (involving tools for genome and transcriptome assembly) are submitted to [Bridges](https://www.psc.edu/index.php/resources/computing/bridges) at Pittsburgh Supercomputing Center. In addition, jobs are also being submitted to [Jetstream](https://jetstream-cloud.org/) resource at Indiana University.   
+[Bridges](https://www.psc.edu/index.php/resources/computing/bridges) is a unique *large shared memory* system. The amount of memory allocated varies from 240 GB to 960 GB depending on the tool, inputs, and tool parameters. The walltime also varies from 24 to 96 hours and the cores vary from 5 to 20.
+
+Each resource also offers a *test/development* option, which submits jobs with a very short (30 minute) walltime, often to a dedicated test/development partition. This allows you to test your parameters and a small subset of input data in order to ensure proper tool use before submitting a regular job that may have to wait a substantial time in the queue for full resources. The Galaxy cluster test/development option restricts jobs to 2 cores and 10 GB of memory, whereas all other test/development options are allocated the full amount of cores and memory for the standard resource.
 
 ## User data and job quotas
 
@@ -59,15 +48,14 @@ Jobs that have low memory and CPU requirements are subject to the following limi
 
 Tools utilizing multiple CPUs and over 8 Gb of RAM are subject to stricted limits:
 
-
 | Resource                        | Per-resource job concurrency quotas    |
 |---------------------------------|----------------------------------------|
 | Increased memory tools          | 1 registered/unregistered              |
-| Galaxy cluster                  | 2 registered, unregistered not allowed | 
-| TACC Stampede                   | 4 registered, unregistered not allowed | 
-| Galaxy cluster test/development | 1 registered, unregistered not allowed | 
-| TACC Stampede test/development  | 1 registered, unregistered not allowed |
+| Galaxy cluster                  | 2 registered, unregistered not allowed |
+| Jetstream                       | 4 registered, unregistered not allowed |
+| TACC Stampede                   | 4 registered, unregistered not allowed |
 
+All test/development resources are limited to 1 registered, unregistered not allowed.
 
 ## Galaxy Web Portal Service Agreement
 
