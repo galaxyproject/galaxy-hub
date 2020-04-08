@@ -1,3 +1,10 @@
+---
+redirect: "/jxtx/"
+---
+
+
+
+
 <div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src="/src/galaxy-team/james.jpg" /></a></div>
 
 # James Taylor
