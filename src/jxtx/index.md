@@ -570,6 +570,48 @@ Terrible news in a world where I was starting to get immune to bad news.
 <footer class="blockquote-footer">Rita Strack, Nature Methods</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+So sad to hear this &mdash; the impact of his work and thought leadership on bringing genomics into the cloud computing age cannot be overstated. It just feels really wrong to lose such an amazing talent.
+<footer class="blockquote-footer">Jeffrey G Reid, Regeneron</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Deeply saddened to hear about the loss of James Taylor. My clearest memory is from him offering a very friendly & encouraging comment on a simple lighting talk I gave as a young engineer at a Galaxy conference years ago. Meant lots to me and a testament to his generosity.
+I didn't interact with James that many times in real life, but those few moments witnessed strongly about his generosity and humbleness. This puts tears to my eyes and a makes my heart heavy. Rest in peace dear fellow human!
+<footer class="blockquote-footer">Samuel Lampa, Sweden</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was a wonderful mentor to me. We will all deeply miss you. Such a huge loss to the community. RIP
+<footer class="blockquote-footer">Sheng Chih Jin, Washington University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Had the pleasure of working with James on the AnVIL project. A great scientist and a greater human being. Condolences to his family, friends, and colleagues.
+<footer class="blockquote-footer">Rob Fullem</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+My world feels vastly diminished. James we will miss you.
+<footer class="blockquote-footer">Dave Clements, Johns Hopkins</footer>
+<br />
+<blockquote class="blockquote">
+The truth is, the world *is* diminished without him in it. 
+<footer class="blockquote-footer">Karen Reddy, Johns Hopkins</footer>
+</blockquote>
+</blockquote>
+
+<blockquote class="blockquote">
+We are proud to have collaborated with James for many years.  Our hearts go out to the Galaxy team and his family.  He will be missed.  He already is.
+<footer class="blockquote-footer">UCSC Genome Browser Team</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+He made an impact on scientists (and scientists-in-training!) all over the world, and will be deeply missed. <br />
+He also had *the coolest* stickers on his laptop.
+<footer class="blockquote-footer">Lauren Shunkwiler, Medical University of South Carolina</footer>
+</blockquote>
+
 
 
 More to come... The response has been overwhelming.
