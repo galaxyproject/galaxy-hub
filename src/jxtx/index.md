@@ -343,6 +343,12 @@ He advocated for his students, for trainees, for open science, for open data, fo
 
 I will miss him so terribly.
 <footer class="blockquote-footer">Melissa A. Wilson, Arizona State University</footer>
+<br />
+<blockquote class="blockquote">
+What a beautiful tribute, Melissa. James was my colleague in the Hopkins Biology department. His loss has left us reeling.
+<footer class="blockquote-footer">Rejji Kuruvilla, Johns Hopkins</footer>
+</blockquote>
+
 </blockquote>
 
 <blockquote class="blockquote">
@@ -610,6 +616,71 @@ We are proud to have collaborated with James for many years.  Our hearts go out 
 He made an impact on scientists (and scientists-in-training!) all over the world, and will be deeply missed. <br />
 He also had *the coolest* stickers on his laptop.
 <footer class="blockquote-footer">Lauren Shunkwiler, Medical University of South Carolina</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Deepest condolences to friends/family. Cant even describe the scale of impact of contributions to the bioinformatics community. He will be missed greatly.
+<footer class="blockquote-footer">Sasikanth Manne, Unniversity of Pennsylvania</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I was using Galaxy when I found out... 2020 sucks. I want a redo.
+<footer class="blockquote-footer">Alexis Norris, Bloomsburg University of Pennsylvania</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+No words
+<footer class="blockquote-footer">Manuel Corpas, Cambridge Precision Medicine</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+We will miss you James. Thank you for all you contributed. My sincere condolences to his family and friends. This loss is a burden that will be shared by many.
+<footer class="blockquote-footer">John Fonner, TACC</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am so shocked and sad to learn that James Taylor, a pioneer in cloud and open-source genomics is dead. I feel privileged to have been one of many whose professional lives he transformed teaching the CSHL genomics course. I will miss his kindness and generosity the most.
+<footer class="blockquote-footer">Marcus Alexander, Yale University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The bioinformatics community has produced many stars; James Taylor was a galaxy.
+<footer class="blockquote-footer">Andrew Stewart, FeedMob & Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I had the chance to hang out with Jamesx for the first time at a dinner after a seminar talk I gave at JHU's IDIES.  I had the pleasure of hanging out with him multiple times since.  He was kind, funny, brilliant & cool as f&%k; and despite it all, so down-to-earth. I will miss him.
+<footer class="blockquote-footer">Rob Patro, University of Maryland</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+We are so sorry to hear of James Taylor's death. As co-lead Galaxy, a professor of biology and computer science at Johns Hopkins and a treasured member of the international Galaxy community, his legacy will continue have profound impacts around the world 
+<footer class="blockquote-footer">Galaxy Australia Team</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Shocked to hear this. Always looked forward to a good talk with a drink whenever our paths crossed. His impact on the field is immense. My condolences to his family...
+<footer class="blockquote-footer">Jan Aerts, University of Hasselt</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Sending a big hug to James's family and loved ones. He had such a positive impact on so many of us.
+<footer class="blockquote-footer">Erik Garrison, UCSC</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Condolences to all touched by James. As a user of Galaxy, I hope his star shines on brightly in our community.
+<footer class="blockquote-footer">Bruce Nash, CSHL DNA Learning Center</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Whatever bioinformatics I know today, it all started with the help of Galaxy during my PhD years. Even though I didn't know James personally, I've been following his fascinating research.  A huge loss for everybody...
+<footer class="blockquote-footer">Rasim Barutcu, University of Toronto</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Thank you James Taylor for teaching me and so many others Galaxy. Meaningful and life-saving work will come from your genomics efforts. RIP
+<footer class="blockquote-footer">Megan Longcor, D8A Institute</footer>
 </blockquote>
 
 
