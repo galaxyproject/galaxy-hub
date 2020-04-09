@@ -729,5 +729,10 @@ I worked with James Taylor from 2000-2002 when he was in Vermont. I got him into
 <footer class="blockquote-footer">Arkon Bey, Vermont</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+James Taylor was an NHGRI-funded investigator who made significant contributions to the field of genomics &mdash; having developed the Galaxy data-analysis platform, having worked as an AnVIL PI, and having participated in ENCODE. He will be missed by us at NHGRI.
+<footer class="blockquote-footer">National Human Genome Research Institute</footer>
+</blockquote>
+
 
 More to come... The response has been overwhelming.
