@@ -734,5 +734,28 @@ James Taylor was an NHGRI-funded investigator who made significant contributions
 <footer class="blockquote-footer">National Human Genome Research Institute</footer>
 </blockquote>
 
+<img src="james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />
+
+<blockquote class="blockquote">
+So sad to learn of the passing of James Taylor. Met James long ago via the OBF/Galaxy/WormBase. A truly  positive an inspiring force. Quick snap of James (with Greg von Kuster) at the 2009 Biohackathon on Okinawa.
+<footer class="blockquote-footer">Todd Harris, Wormbase</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+As someone who began their bioinformatics genomics journey by using Galaxy's ultra-friendly user interface, I am very sad to find out that one of its founders, Dr. James Taylor, died this week at just 40. Thanks for making my first assemblies so much less intimidating!
+<footer class="blockquote-footer">E. Sally Chang, Washington, DC</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I did not know you, but your influences on me has been great. Galaxy laid the bioinformatics foundation for myself and the rest of my lab.
+Your contribution to science has been immense and I am sad that it has been cut short. RIP James Taylor
+<footer class="blockquote-footer">Christopher Ne Ville, CSUSB</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I'm so sorry to hear this. James' influence and work has enabled so many people and discoveries, and will continue to do so for many years to come. We share your loss and our thoughts are with you all.
+<footer class="blockquote-footer">Leighton Pritchard, University of Strathclyde</footer>
+</blockquote>
+
 
 More to come... The response has been overwhelming.
