@@ -154,6 +154,17 @@ OBF joins many others in mourning the loss of a pillar of the bioinformatics com
 <footer class="blockquote-footer">Nomi Harris, Lawrence Berkeley National Laboratory</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+<div class="lead">[In Memoriam, James Taylor](https://elixir-belgium.org/news/memoriam-james-taylor), [ELIXIR Belgium](https://elixir-belgium.org/)</div>
+...<br />
+When I’m writing this I’m cautious of not exaggerating. I gave up on that. James made an enormous impact in the bioinformatics community. With Galaxy, he co-founded a platform that enabled many thousands of researchers to do reproducible analysis. Much of what I’m doing now, builds on his legacy. But even more importantly, his vision on Open Science touched many more people, most of them will never be aware of it. It fits his generosity.
+<br />
+James, you wanted Galaxy to belong to its Community, not just to the founders. This reflects your style of leadership, and the Community is in a good shape to face the future because of it. But having to write this now wasn’t part of the deal. I expected and looked forward to keep on working with you throughout my career.
+<br />
+We’ll find a way forward with the Galaxy Community. I’m not sure how yet, but I do know we’ll often refer back to you. And with time, the sorrow will dampen and we’ll think fondly back, glad to have known you.
+<footer class="blockquote-footer">Frederik Coppens</footer>
+</blockquote>
+
 ---
 
 # Community
