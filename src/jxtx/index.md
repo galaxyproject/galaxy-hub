@@ -683,6 +683,40 @@ Thank you James Taylor for teaching me and so many others Galaxy. Meaningful and
 <footer class="blockquote-footer">Megan Longcor, D8A Institute</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+I am still shocked by this. James was such a great person and scientist. I got to know him through the course at CSHL. In addition to being passionate about science, he was just as passionate about teaching and bringing computational biology to the masses.
+<footer class="blockquote-footer">R. David Hawkins, University of Washington</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Hard to overstate the outsized impact he had on the biological sciences. And he was a lovely person.
+<footer class="blockquote-footer">Jeremy Ash, North Carolina State University</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+he was indeed ageless, & im so sad that he is gone, I am a big fan of James & Anton & the Galaxy Project. A visionary project, democratizing open bioinformatics. The Gaalaxy community is large, and will continue and do well, but we will all miss James!
+<footer class="blockquote-footer">Francis Ouellette, Bioinformatics.ca</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Okay google. Play James Taylor. Missing you James. (He didn’t actually like JT the singer, although I think it captures his introspective reflective personality.)
+<footer class="blockquote-footer">Michael Schatz, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is so tragic, I'm so sorry to James and his family and colleagues. Working on Galaxy in the early days was one of the best things in bioinformatics. I will always cherish that.
+<footer class="blockquote-footer">Mary Mangan</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+09/06/2014 - Dr. James Taylor and I realized we had a mutual love for the Canadian show Trailer Park Boys at a happy hour post-bootcamp during my first week of grad school. His first email to me was to let me know the new season of TPB was on netflix. Will miss him greatly.
+<footer class="blockquote-footer">Diego Rivera Gelsinger, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I worked with James Taylor from 2000-2002 when he was in Vermont. I got him into mountain biking and he turned me on to Modest Mouse. He was a wonderful human and the smartest person I've ever known. I am not surprised at the lives he's touched.
+<footer class="blockquote-footer">Arkon Bey, Vermont</footer>
+</blockquote>
 
 
 More to come... The response has been overwhelming.
