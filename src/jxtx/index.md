@@ -9,7 +9,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as ‘BX’—a contraction of BioinformatiX. The name stuck; ‘BX’ is still a part of many URLs (e.g. the original Galaxy URL at http://g2.bx.psu.edu) and is the origin for the name of the [bx-python software package](https://github.com/bxlab/bx-python). The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko.  This group became the core of James’ academic family, a family that has now lost its most brilliant and prolific child.
 
 <figure class="figure">
-  <img src="james-at-gcc2019.jpg" class="figure-img img-fluid rounded" alt="James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut">
+  [<img src="james-at-gcc2019.jpg" class="figure-img img-fluid rounded" alt="James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut">](james-at-gcc2019.jpg)
   <figcaption class="figure-caption">James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ April 5, 2020
 
 ---
 
-<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 20rem" />
+[<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 20rem" />](james.jpg)
 
 ## Initial announcement
 
@@ -110,7 +110,7 @@ April 3, 2020
 
 ## A man who wanted to live forever: James Taylor
 
-By Enis Afgan,
+By Enis Afgan, Johns Hopkins
 
 I met James on Friday, Feb 13, 2009. Perhaps that was a sign for what’s to come. It was a job interview for my postdoc. Preparing for the interview, I had searched for a picture of James to know who to look for but I had no success. He was quite concerned about privacy and the social web of the time had not undermined his efforts. When I finally walked into his office, I saw James for the first time: a person about my age wearing jeans, a button-up shirt with top two buttons undone, and a sport coat with elbow patches. It had a somewhat raggedy appearance but elegant at the same time. I guess you’d call it edgy today. Having had a very traditional educational upbringing where faculty was referred to as Dr. This or Professor That and generally wearing professional attire, I was a bit surprised with his appearance (as you may be able to tell given I remember it a decade later). We proceeded to chat about my work and some of the Galaxy efforts he was spearheading that continue to be worked on to this day. The point of this is that James left a long-term impression on me, and it didn’t take long. He had the special ability to be concise and impactful.
 
@@ -122,13 +122,28 @@ Instead, here we are. Roughly a decade later, I’m writing a eulogy to the man 
 
 ## “Keep Going Until We Get Bored or the Money Runs Out”
 
-By Jeremy Goecks
+By Jeremy Goecks, OHSU
 
 I enjoyed our conversations the most. All across the world for more than a decade, James and I would find each other at the same conferences and meetings, and we’d head out in the afternoon or evening and have wide-ranging conversations about science, politics, software engineering, medicine, lifelong goals, academia, food, alcohol, and more. He was easy to talk with, no matter how long it had been since we last spoke. He made you feel heard, and he had an intelligence and earnestness, mixed with a slightly smartass sense of humor, that was unique. When I sat down with James, I always knew I’d learn something new or come to appreciate a topic in a different way. And I’d leave the conversation with the feeling that comes when you connect with such an amazing human being. As I remember James, the feelings I had after our conversations will be the ones that I hold onto.
 
 James was a tremendous academic scientist, which is much more impressive than it sounds. Research, teaching, and service obligations are all required of professors. Most of us do some of these things well; James did them all well and enjoyed them to boot. As you’ll hear time and again when others talk about James, he inspired people in all his roles as an academic scientist. The Galaxy Project will likely be James’ greatest professional legacy, and it is a testament to his ability to inspire. The Galaxy community of users, developers, and trainers, which is now worldwide and numbers in the tens of thousands, reflect his vision for open science and education. Through the efforts of this community, James' vision will continue to be developed and have impact far into the future.
 
 Years ago, I asked James how long we should keep working on the Galaxy Project. At the time, Galaxy was a big deal, but there were other interesting projects we had started as well. His response was brief: “we should keep going until we get bored or the money runs out.” I didn’t really get it at the time, but now I think he may have been sharing one of his key principles for how to live. James just didn’t do stuff he wasn’t interested in, but he worked tirelessly to develop the resources he needed to live the life and do the work that he wanted. He seemed genuinely happy with his life and work, a man who was happy with what he’d accomplished but nonetheless had big plans for the future. My dear friend James, we did not get bored and the money did not run out. It’s difficult to accept that we won’t be able to keep going together, but I’m so grateful for our friendship and the time we had.
+
+---
+
+## In the beginning, we decided to take a chance on each other
+
+By Michael Sauria, Johns Hopkins
+
+James Taylor was such a vital and energetic force, I am still at a complete loss for words for this unthinkable tragedy. James and I have known each other for more than a decade, as mentor, boss, colleague, and friend. In the beginning, we decided to take a chance on each other, me as his first student, he as my advisor. I have never looked back. James was an inspiring person, showing you the breadcrumbs leading down an interesting path, and then watching you follow them with encouragement and confidence to a place neither of you had been before. I think one of his most amazing traits was to maintain his sense of wonder and excitement well past when most of us begin to lose it. The outpouring of love and support in the wake of this show just how many people he has inspired and helped with his boundless enthusiasm and vision.
+
+But more than losing an amazing boss and scientific juggernaut, I am going to miss the James that many fewer people got to see or know. There were special moments, on a long ride to a conference, chatting over a beer, or sometimes in the most unexpected situations when "Science James" would slip away and playful geek would come out on full display, whether discussing comic books, the singularity, Doctor Who, music, books, and anything else in his extensive catalog of personal interests. He always felt like the coolest and nicest person that you wanted nothing more than to please and be liked by.
+
+The graduate students at his first professorship nicknamed him 'the rock star'. I don't know if they ever realized how accurate and far from the truth at the same time this was. If anyone had an amazing sense of style and presence, from the shoes up, it was James. But he was also a humble and soft-spoke person, never looking to steal the spotlight or dominate. Instead, he was an advocate, both for those he personally worked with, and for all of the scientific community, pushing for honesty, fairness, transparency, responsibility, accessibility, and reproducibility.
+
+While his loss is a wound that may never heal, I am immeasurably enriched for having known, learned from, worked with, and shared so much of my life with James. Thank you for everything.
+
 
 ---
 
@@ -167,7 +182,7 @@ We’ll find a way forward with the Galaxy Community. I’m not sure how yet, bu
 
 ---
 
-# Community
+## Community
 
 And a small sample of what's been shared about James elsewhere online from his community:
 
@@ -240,7 +255,7 @@ I am utterly shocked and terribly saddened to hear this. James has been a wonder
 <footer class="blockquote-footer">Steven Salzberg, Johns Hopkins</footer>
 </blockquote>
 
-<img src="james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />
+[<img src="james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](james-and-alvey.png)
 
 <blockquote class="blockquote">
 Our hearts are heavy.  James Taylor has passed away.
@@ -320,11 +335,6 @@ Some lead from above, but the best leaders lead from within by lifting up everyo
 <blockquote class="blockquote">
 James was a trailblazer and wonderful person. What a terrible loss.
 <footer class="blockquote-footer">Anshul Kundaje, Stanford University</footer>
-</blockquote>
-
-<blockquote class="blockquote">
-I am heartbroken. Sincere condolences to James' family and everyone in the Galaxy community from SANBI and myself.
-<footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
 </blockquote>
 
 <blockquote class="blockquote">
@@ -497,8 +507,8 @@ This makes no sense. So incredibly sad to hear this. My heart goes out to all wh
 </blockquote>
 
 <div class="float-right">
-<img src="cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" /><br />
-<img src="cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />
+[<img src="cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" />](cool-shoes-1.jpg)<br />
+[<img src="cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />](cool-shoes-2.png)
 </div>
 
 <blockquote class="blockquote">
@@ -734,7 +744,7 @@ James Taylor was an NHGRI-funded investigator who made significant contributions
 <footer class="blockquote-footer">National Human Genome Research Institute</footer>
 </blockquote>
 
-<img src="james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />
+[<img src="james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />](james-okinawa.jpg)
 
 <blockquote class="blockquote">
 So sad to learn of the passing of James Taylor. Met James long ago via the OBF/Galaxy/WormBase. A truly  positive an inspiring force. Quick snap of James (with Greg von Kuster) at the 2009 Biohackathon on Okinawa.
@@ -757,5 +767,72 @@ I'm so sorry to hear this. James' influence and work has enabled so many people 
 <footer class="blockquote-footer">Leighton Pritchard, University of Strathclyde</footer>
 </blockquote>
 
+<blockquote class="blockquote">
+I met James over five years ago though the Galaxy Community, and I believe that his personality and role as co-founder helped shape that positive and welcoming atmosphere. Looking back it is clear that he and Anton convinced funders of the importance of community building, evident in how the Galaxy Project funded and has continued to fund dedicated staff for community, outreach and training. James cared both about people and principles - he was also vocal on open science and open data, embodied in the Galaxy platform's ethos of reproducible research. Just days ago, he was tweeting complaints about how in a pandemic so much new covid19 viral sequence data was not being shared openly (as in the NCBI/INSDC), but instead under restricted terms in the GISAID database. It is clear from the posts of his students, mentees, collaborators and friends, that while he would have achieved much more, he has already built a legacy we can all be proud of.
+<footer class="blockquote-footer">Peter Cock, James Hutton Institute</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I'm just a citizen scientist active in human genome analysis especially regarding Y-DNA J2 and ancestral and relatives haplotype clusters. I cheer and am thankful of public science services like Galaxy Project and hereby would like to send my thanks to James Taylor et al for what they provided to every interested person. 
+<footer class="blockquote-footer">Chris R., Tyrol, Alps</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am heartbroken.
+When I think of James I remember him relaxing in the sun during one of the GCC hackathons. At the time I was attending as a lowly delegate from Africa, and engaging with a Galaxy project PI was quite a leap. We got talking and got to know each other over meetings and beers over the years. I cannot believe he is gone. His family and friends are left with a gaping hole in their lives. My strength to you (us) all.  Sincere condolences to James' family and everyone in the Galaxy community from SANBI and myself.
+<footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I remember James as embodying an uncompromising commitment to community-driven science to the point of making it feel like a family; how do we help each other to move science forward. It was noticeable in each conversation we had and this imprint he made will always stick with me. When you stop and think about how much scientific progress was made because he had a strong hand in breaking down silos and building global bridges, that impact is both lasting and expanding.
+<footer class="blockquote-footer">Anushka Brownley, 10X Genomics</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I never knew James personally but I just wanted to say that I saw him from afar many times during my academic career and he was always surrounded by laughing and joy. We will not soon forget the joy and spirit he left with us all.
+<footer class="blockquote-footer">Matt Velinder, University of Utah</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was an incredibly kind teacher and friend.  You could tell he was truly passionate about teaching and building others up around him.  He cared deeply for his students and was willing to invest in anyone who wanted help.  It was clear he was truly passionate about making computational tools and skills accessible to as many people as possible and I suspect that this will be one of his greatest gifts to the world.<br /><br />
+
+I still remember going up to James during one of his lectures and expressing that I was skeptical of many of the available bioinformatic tools.  I was a bit shocked when he replied, "You should be incredibly skeptical.  You should use most of them and trust none of them."   I really admired this intellectual honesty, how he was able to teach and rely on many tools while still being highly objective and critical of them.  That is something I will always remember about him and carry with me as a guiding principle in the years to come.<br /<br />
+
+One of the privileges of being an academic is the opportunity to meet truly remarkable people, those who not only possess incredible intelligence but also incredible character.  James was undoubtedly one of those individuals and his passing is a true loss.
+<footer class="blockquote-footer">Cole Wunderlich, CSHL</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+What sad news! He will be dearly missed, especially by the Galaxy
+ community. My condolences to his family, his friends and the team.
+<footer class="blockquote-footer">Bérénice Batut, University of Freiburg</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am so saddened to hear this.  I felt a bond with James over his commitment to reproducible science.  I admired his drive and integrity.  This is a great loss.
+<footer class="blockquote-footer">Cricket Sloan, UCSC</footer>
+</blockquote>
+
+[<img src="james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](james-at-apachecon.jpg)
+
+<blockquote class="blockquote">
+I met James in November 2002 at an open-source software conference. He was working professionally as a software developer and was speaking of his desire to go back to school to study bioinformatics. I’ve watched his career from afar as he’s done amazing work. I know he will be missed. 
+<footer class="blockquote-footer">Peter Royal</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I am feeling a deep sadness knowing that a true scientist has passed away. I have not met Dr Taylor, but I felt him like my friend I learnt a lot from his participation in Galaxy and online courses and I am sure his legacy will never ever be forgotten. My condolences to his family and colleagues. 
+<footer class="blockquote-footer">Adnan A. Lahuf, University of Kerbala, Iraq</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I was lucky to have conversation with him a couple of times during GCC 2019,  His legacy will be remembered in the complete path of the Galaxy Project.
+<footer class="blockquote-footer">Kiran K Telukunta, VIB</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+James was so helpful to various projects I've been involved in over the years. and lately he was a valuable voice of technical and educational experience in various NIH-driven projects. Beyond his obvious talent as a scientist,  and a supportive colleague, he was a thoughtful and considerate person. It was always a pleasure to work with him. My thoughts go out to his family, trainees, close colleagues, and the entire community on this terrible loss.
+<footer class="blockquote-footer">Deanne Taylor, Children's Hospital of Philadelphia</footer>
+</blockquote>
 
 More to come... The response has been overwhelming.
