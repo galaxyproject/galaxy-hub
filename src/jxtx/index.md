@@ -783,6 +783,17 @@ When I think of James I remember him relaxing in the sun during one of the GCC h
 <footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
 </blockquote>
 
+[<img src="leek-laptop-stickers.jpg" alt="Jeff Leek's laptop stickers: 60% James and Company" class="float-right" style="max-width: 10rem;" />](leek-laptop-stickers.jpg)
+
+<blockquote class="blockquote">
+60 percent of my laptop stickers are due to @jxtx and team. Glad to be with them during this.
+<footer class="blockquote-footer">Jeff Leek, Johns Hopkins</footer><br />
+<blockquote class="blockquote">
+Jeff, and we are really glad to have you.
+<footer class="blockquote-footer">Galaxy Project</footer>
+</blockquote>
+</blockquote>
+
 <blockquote class="blockquote">
 I remember James as embodying an uncompromising commitment to community-driven science to the point of making it feel like a family; how do we help each other to move science forward. It was noticeable in each conversation we had and this imprint he made will always stick with me. When you stop and think about how much scientific progress was made because he had a strong hand in breaking down silos and building global bridges, that impact is both lasting and expanding.
 <footer class="blockquote-footer">Anushka Brownley, 10X Genomics</footer>
