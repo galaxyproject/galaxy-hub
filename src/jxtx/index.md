@@ -542,7 +542,7 @@ what a shock.  he was a great collaborator, always generous and a pleasure to wo
 </blockquote>
 
 <blockquote class="blockquote">
-James was visionary. And he had this rare quality of making you want to follow him. It is called charisma. It really changed my priorities and I don't regret any of these changes. His disappearance is a heartbreak
+James was visionary. And he had this rare quality of making you want to follow him. It is called charisma. It really changed my priorities and I don't regret any of these changes. His disappearance is a heartbreak.
 <footer class="blockquote-footer">Christophe Antoniewski, ARTbio @ Sorbonne-Universite</footer>
 </blockquote>
 
@@ -845,5 +845,28 @@ I was lucky to have conversation with him a couple of times during GCC 2019,  Hi
 James was so helpful to various projects I've been involved in over the years. and lately he was a valuable voice of technical and educational experience in various NIH-driven projects. Beyond his obvious talent as a scientist,  and a supportive colleague, he was a thoughtful and considerate person. It was always a pleasure to work with him. My thoughts go out to his family, trainees, close colleagues, and the entire community on this terrible loss.
 <footer class="blockquote-footer">Deanne Taylor, Children's Hospital of Philadelphia</footer>
 </blockquote>
+
+<blockquote class="blockquote">
+People who interacted with James in any capacity thought the world of him.
+<footer class="blockquote-footer">Debashis Ghosh, University of Colorado, Denver</footer>
+</blockquote>
+
+[<img src="growing.jpg" alt="From Björn Grüning" class="float-right" style="max-height: 10rem;" />](growing.jpg)
+
+<blockquote class="blockquote">
+Community building is so hard and so important. If we are talking about sustainability, this almost never means to maintain and grow a community. Galaxy will be soon 15 years old. You and your team did it! Thanks for everything that you have given us James. I will miss you.
+<footer class="blockquote-footer">Björn Grüning, University of Freiburg</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The world of genomics, bioinformatics, and to a great extent, current biology has lost a pioneer. Galaxy has been there for almost a decade and a half and was so ahead of its time. Your work has advanced science significantly and will be carried on. RIP & condolences to family
+<footer class="blockquote-footer">Pierre Cauchy</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is truly very sad, my deepest condolences to his family, friends and to the Galaxy community. I had the chance of meeting James briefly during the last GCC, a very nice person and true advocate of open science and open source. RIP James.
+<footer class="blockquote-footer">Pablo Moreno, EMBL-EBI</footer>
+</blockquote>
+
 
 More to come... The response has been overwhelming.
