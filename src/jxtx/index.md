@@ -854,7 +854,7 @@ People who interacted with James in any capacity thought the world of him.
 [<img src="growing.jpg" alt="From Björn Grüning" class="float-right" style="max-height: 10rem;" />](growing.jpg)
 
 <blockquote class="blockquote">
-Community building is so hard and so important. If we are talking about sustainability, this almost never means to maintain and grow a community. Galaxy will be soon 15 years old. You and your team did it! Thanks for everything that you have given us James. I will miss you.
+Community building is so hard and so important. If we are talking about sustainability, this almost ever means to maintain and grow a community. Galaxy will be soon 15 years old. You and your team did it! Thanks for everything that you have given us James. I will miss you.
 <footer class="blockquote-footer">Björn Grüning, University of Freiburg</footer>
 </blockquote>
 
