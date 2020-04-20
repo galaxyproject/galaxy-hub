@@ -66,6 +66,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
 *   **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](/src/ftp-upload/#upload-from-client).
 * Working at Galaxy EU https://usegalaxy.eu? Read the server-specific FTP help here: https://galaxyproject.eu/ftp/
+* More help for FTP is at Galaxy Help https://help.galaxyproject.org. Search with the keyword "ftp". Example post: https://help.galaxyproject.org/t/ftp-help-guides-tutorials-and-troubleshooting/3449
  
 
 ### Upload tool location
