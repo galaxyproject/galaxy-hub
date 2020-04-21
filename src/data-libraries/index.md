@@ -60,7 +60,7 @@ You save space on the Galaxy instance as every dataset in the library is stored 
 ### User folder
 
 As an admin you can allow users to import datasets to libraries from a configured folder. This is enabled by setting
-`user_library_import_dir` in the `config/galaxy.ini` to a path accessible by the user that runs the Galaxy process.
+`user_library_import_dir` in the `config/galaxy.yml` to a path accessible by the user that runs the Galaxy process.
 Galaxy expects the folder to contain subfolders named after email addresses of your instance's users. Each user will only see the contents of their folder. A common setup is that the value for `user_library_import_dir` is the same as for `ftp_upload_dir` allowing users to [upload files via FTP](/src/ftp-upload/index.md) and then import them either in history or data library. This assumes you have an FTP server [running and configured](/src/admin/config/upload-via-ftp/index.md) to work with Galaxy.
 
 Example structure with `user_library_import_dir = ftp_upload`.
@@ -77,7 +77,7 @@ ftp_upload/
 
 ### Path paste
 
-By setting `allow_library_path_paste = True` in the `config/galaxy.ini` you enable administrators to import from any path entered. This feature is not available to non-admin users.
+By setting `allow_library_path_paste = True` in the `config/galaxy.yml` you enable administrators to import from any path entered. This feature is not available to non-admin users.
 
 ## Permissions
 
@@ -95,3 +95,11 @@ The default behavior is for no permissions to be applied to a data library item,
 downward (with the exception of the "access library" permission, which is only available on the data library itself).
 Because of this, it is important to set desired permissions on a new data library when it is created.  When this is done,
 new folders and datasets added to the data library will automatically inherit those permissions.
+
+## Additional resources
+
+The Galaxy Adminstration Docs have even more configuration help plus admin scripts to help manage data libraries.
+
+* Configuration details (release specific): Search with the configuration option tag for more details here https://docs.galaxyproject.org
+* Scripts & Tricks: [Uploading a directory into a Data Library](https://docs.galaxyproject.org/en/latest/admin/useful_scripts.html#uploading-a-directory-into-a-data-library)
+
