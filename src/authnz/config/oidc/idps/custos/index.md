@@ -26,7 +26,7 @@ your Galaxy instance:
 
 1. The _Domain_ should be the main address that users will use to get to your instance of Galaxy.
 
-2. For the Redirect URIs\_ field, you need to enter
+2. For the _Redirect URIs_ field, you need to enter
    your instance’s OIDC redirect URI, which is in the following template:
 
    ```
