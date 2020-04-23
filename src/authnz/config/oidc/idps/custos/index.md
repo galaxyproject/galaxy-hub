@@ -16,18 +16,35 @@ to link their institutional identities with a Galaxy account.
 
 The required steps are described in the following sections.
 
-# Tenant Registration
+# Client Registration
 
-<!--Client or Tenant Registration? -->
+Take the following steps in order to register a client with Custos on its OAuth2.0 authorization server:
 
-<!-- Talk with Isuru about details for here
-Client registration vs tenant registration
-
--->
-
-Visit the [Custos Tenant Registration page](https://custos.scigap.org:32036/tenant-management/v1.0.0/oauth2/tenant)
+Visit the [Custos OIDC Client Registration page](https://custos.scigap.org:32036/tenant-management/v1.0.0/oauth2/tenant)
 and fill out the form with the appropriate information according to
 your Galaxy instance:
+
+1. The _Domain_ should be the main address that users will use to get to your instance of Galaxy.
+
+2. For the Redirect URIs\_ field, you need to enter
+   your instance’s OIDC redirect URI, which is in the following template:
+
+   ```
+   <Host URI>/authnz/custos/callback
+   ```
+
+   For instance:
+
+   ```
+   http://localhost:8080/authnz/custos/callback
+   ```
+
+   See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
+
+3. After filling out the form, hit submit and wait for approval from the Custos team.
+   Upon approval, the notification email will include your OAuth `Client ID`, `Client Secret`
+   and Keycloak `Client ID`, `Client Secret`;
+   note this info! You will need it for the Galaxy configuration.
 
 # Galaxy Configuration
 
