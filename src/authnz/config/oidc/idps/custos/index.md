@@ -42,8 +42,7 @@ your Galaxy instance:
    See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
 
 3. After filling out the form, hit submit and wait for approval from the Custos team.
-   Upon approval, the notification email will include your OAuth `Client ID`, `Client Secret`
-   and Keycloak `Client ID`, `Client Secret`;
+   Upon approval, the notification email will include your OAuth `Client ID`, `Client Secret`;
    note this info! You will need it for the Galaxy configuration.
 
 # Galaxy Configuration
@@ -61,7 +60,6 @@ For Custos specifically, provide the following values in the
         <url>https://custos.scigap.org:32036/identity-management/v1.0.0/token</url>
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
-        <iam_client_secret> ... </iam_client_secret>
         <redirect_uri>http://localhost:8080/authnz/custos/callback</redirect_uri>
         <realm>master</realm>
     </provider>
