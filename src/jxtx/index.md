@@ -868,5 +868,19 @@ This is truly very sad, my deepest condolences to his family, friends and to the
 <footer class="blockquote-footer">Pablo Moreno, EMBL-EBI</footer>
 </blockquote>
 
+[<img src="office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](office.jpg)
 
-More to come... The response has been overwhelming.
+<blockquote class="blockquote">
+I came in today and found this in front of James’ office.
+<footer class="blockquote-footer">John Kim, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I met James at a Galaxy Community developers conference in the first year of my PhD and was taken aback by how friendly he and his team were and welcoming to all as equals.  A great admirer and user of his work and saddened by this loss. 
+<footer class="blockquote-footer">Craig Monger, Trinity College Dublin</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+It's been a couple weeks now, and I still feel like it is so surreal that this could have happened. I didn't know James super well but he will always be the voice I hear announcing the state of the Galaxy during the community conference. He had a hand in so many initiatives and was so central to the communities I'm a part of, I'm left wondering how the world will possibly go on without his leadership.
+<footer class="blockquote-footer">Carrie Ganote, Indiana University</footer>
+</blockquote>
