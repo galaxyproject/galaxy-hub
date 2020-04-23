@@ -881,6 +881,11 @@ I met James at a Galaxy Community developers conference in the first year of my 
 </blockquote>
 
 <blockquote class="blockquote">
+Your kind words about James bring tears. Our family thanks you all.
+<footer class="blockquote-footer">Laurie Taylor Gates</footer>
+</blockquote>
+
+<blockquote class="blockquote">
 It's been a couple weeks now, and I still feel like it is so surreal that this could have happened. I didn't know James super well but he will always be the voice I hear announcing the state of the Galaxy during the community conference. He had a hand in so many initiatives and was so central to the communities I'm a part of, I'm left wondering how the world will possibly go on without his leadership.
 <footer class="blockquote-footer">Carrie Ganote, Indiana University</footer>
 </blockquote>
