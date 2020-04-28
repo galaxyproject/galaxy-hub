@@ -20,7 +20,7 @@ The required steps are described in the following sections.
 
 Take the following steps in order to register a client with Custos on its OAuth2.0 authorization server:
 
-Visit the [Custos OIDC Client Registration page](https://custos.scigap.org:32036/tenant-management/v1.0.0/oauth2/tenant)
+Visit the [Custos OIDC Client Registration page](https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant)
 and fill out the form with the appropriate information according to
 your Galaxy instance:
 
@@ -57,12 +57,12 @@ For Custos specifically, provide the following values in the
 <?xml version="1.0"?>
 <OIDC>
     <provider name="Custos">
-        <url>https://custos.scigap.org:32036/identity-management/v1.0.0/token</url>
+        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/.well-known/openid-configuration</url>
+        <credential_url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/credentials</credential_url>
         <client_id> ... </client_id>
         <client_secret> ... </client_secret>
         <redirect_uri>http://localhost:8080/authnz/custos/callback</redirect_uri>
         <realm>master</realm>
-    </provider>
     </provider>
 </OIDC>
 ```
