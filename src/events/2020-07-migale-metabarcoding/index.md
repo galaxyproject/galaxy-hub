@@ -1,6 +1,6 @@
 ---
 title: "Analyse de données de métabarcoding"
-date: '2020-05-04'
+date: '2020-07-06'
 days: 4
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'
 continent: EU

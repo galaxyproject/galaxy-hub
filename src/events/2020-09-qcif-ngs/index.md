@@ -1,0 +1,13 @@
+---
+title: "An Introduction to NGS Platforms and Bioinformatics Analysis"
+date: "2020-09-08"
+days: 1
+tease: "Hands-on practical workshop: an introduction to next generation sequencing technologies and how they work, providers, common bioinformatics workflows, standardised file types, quality control and an introduction to Galaxy Australia."
+continent: GL
+location: "QCIF, Online"
+image: 
+location_url: "https://www.qcif.edu.au/training/training-courses/"
+external_url: "https://www.qcif.edu.au/trainingcourses/ngs-platforms-how-data-generation-impacts-bioinformatics-analysis/"
+gtn: true
+contact: "QCIF"
+---

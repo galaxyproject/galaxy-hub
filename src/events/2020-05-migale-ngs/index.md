@@ -1,5 +1,5 @@
 ---
-title: "Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy"
+title: "Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy - POSTPONED"
 date: '2020-05-15'
 days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'

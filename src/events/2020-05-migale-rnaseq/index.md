@@ -1,5 +1,5 @@
 ---
-title: "Analyse Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy"
+title: "Analyse Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy - POSTPONED"
 date: '2020-05-27'
 days: 3
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'

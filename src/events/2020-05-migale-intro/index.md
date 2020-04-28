@@ -1,5 +1,5 @@
 ---
-title: "Initiation à l’utilisation de Galaxy"
+title: "Initiation à l’utilisation de Galaxy - POSTPONED"
 date: '2020-05-14'
 days: 1
 tease: 'Part of Cycle "Bioinformatique par la pratique" 2020'
