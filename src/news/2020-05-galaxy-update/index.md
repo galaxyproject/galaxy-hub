@@ -140,12 +140,14 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/victoria-college-banner-1000.jpg" alt="Registration not open yet." />
-<div class="card-header">BCC2020: Registration postponed</div>
+<img class="card-img-top" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy-ELIXIR webinar series" />
+<div class="card-header">[Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19)</div>
 
-Early registration for the **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** was to have opened by now.  However, because of the COVID-19 outbreak, **we have postponed opening early registration for the conference.**  See [the announcement](https://bcc2020.github.io/blog/postponement) for details, and options being considered.
+**FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
 
-However, thanks to everyone who voted on training topics, we now [have a training schedule for BCC2020](https://bcc2020.github.io/training/).  Keep your fingers crossed.
+This [webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) demonstrates how open access and open science are fundamental for fast and efficient response to public health crises. The focus will be on research reproducibility and transparency, using exclusively open source tools and the Galaxy platform.
+
+The first session was held on 30 April.  Subsequent sessions are on 7 May, 14 May, 20 May, and 28 May.
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem">
