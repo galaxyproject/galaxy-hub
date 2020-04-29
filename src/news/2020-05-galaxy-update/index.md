@@ -24,7 +24,7 @@ Dave Clements, on behalf of the Galaxy Community
 * **[BCC2020]() will be online, global, affordable, and accessible**
   * **All abstracts are due May 8**
 * **[Galaxy and COVID-19]()**
-* [Other upcoming events]()
+* [Upcoming events]()
 * [New publications](/src/news/2020-05-galaxy-update/index.md#publications): Hundreds of them
 * **[Xxxxx new blog posts](#galactic-blog-activity)**
   * 
@@ -47,13 +47,67 @@ We are also [starting a foundation to continue and commemorate James' work](/src
 Galaxy will go on and we will continue to support his legacy of open reproducible science.
 
 
-# BCC2020 will be online, global, affordable, and accessible
+# BCC2020 will be Online, Global, Affordable, and Accessible
+
+<div class="card-deck">
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
+<div class="card-header">[BOSC + GCC = BCC2020]((https://bcc2020.github.io/)</div>
+
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/opening-laptop.jpg" alt="BCC2020 is online" />
+<div class="card-header">[BCC2020 is Online](https://bcc2020.github.io/blog/going-virtual)</div>
+
+All BCC2020 events [will be held online](https://bcc2020.github.io/blog/going-virtual).  Training will be live and interactive.  The meeting will feature keynotes, accepted talks, lightning talks, posters, demos, and birds-of-a-feather and other networking opportunities.  Talks (with the possible exception of keynotes) will be pre-recorded.  Posters, demos, and BoFs will be live and interactive.  The CoFest will also be live and interactive.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/maps-math.png" alt="BCC2020 is Global" />
+<div class="card-header">[BCC2020 is Global](https://bcc2020.github.io/blog/going-global)</div>
+
+[BCC2020 events will be held twice](https://bcc2020.github.io/blog/going-global): once in the [originally scheduled Toronto time zone (BCC West/Americas)](https://bcc2020.sched.com/venue/West), and then [again 12 hours later in the Eastern hemisphere (BCC East/Asia-Australia)](https://bcc2020.sched.com/venue/East).  Training will differ between East and West, with enrollment open to all, regardless of where you are. The main conference content will be presented in both East and West.  We are striving to have the CoFest run continuously, with participants from every part of the world.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/affordable-slice.png" alt="BCC2020 is Affordable" />
+<div class="card-header">[BCC2020 is Affordable](https://bcc2020.github.io/Registration/)</div>
+
+We have slashed [registration rates for BCC2020](https://bcc2020.github.io/Registration/), and are offering even larger discounts to participants based in low and lower-middle income countries.  Pricing starts at US$3 per training session, and $12 for the 3 day meeting.  The CoFest is free.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="" alt="BCC2020 is Accessible" />
+<div class="card-header">BCC2020 is Accessible</div>
+
+Going online and global, combined with the low registration rates this enables, **makes this the most accessible Galaxy or BOSC conference ever.**  If you work in open source bioinformatics, *anywhere in the world*, then this is 2020’s best opportunity to share your work and learn from others.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/may-8.png" alt="Abstracts due May 8" />
+<div class="card-header">[Abstracts due May 8](https://bcc2020.github.io/submit/)</div>
+
+BCC2020 is seeking oral presentations, lightning talks, posters, and demos, from researchers working in bioinformatics, and all over the world.  Abstracts are due May 8 (and that deadline will not be extended). Please [submit your work](https://bcc2020.github.io/submit/) today.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<div class="card-header">[Register Now](https://bcc2020.github.io/Registration/)</div>
+
+BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Registering early saves 50% off of the full rates.
+</div>
+
+</div>
+
+# Galaxy and COVID-19
 
 
 
-# Events
+# Upcoming Events
 
-The coronavirus outbreak has been the big news in Galaxy events for the next few months.  Nevertheless, there a [number of events](/src/events/index.md) scheduled for the rest of the year.
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
