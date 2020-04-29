@@ -23,7 +23,7 @@ Dave Clements, on behalf of the Galaxy Community
 * **[James Peter Taylor]()**, 1979-2020
 * **[BCC2020]() will be online, global, affordable, and accessible**
   * **All abstracts are due May 8**
-* **[Galaxy and COVID-19]()**
+* **[Galaxy COVID-19 Response]()**
 * [Upcoming events]()
 * [New publications](/src/news/2020-05-galaxy-update/index.md#publications): Hundreds of them
 * **[Xxxxx new blog posts](#galactic-blog-activity)**
@@ -46,6 +46,7 @@ We are also [starting a foundation to continue and commemorate James' work](/src
 
 Galaxy will go on and we will continue to support his legacy of open reproducible science.
 
+We miss you James.
 
 # BCC2020 will be Online, Global, Affordable, and Accessible
 
@@ -101,9 +102,36 @@ BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Re
 
 </div>
 
-# Galaxy and COVID-19
+[<img class="float-right" src="covid19-contributors.png" style="max-width: 18rem;" alt="Contributing Organizations" />](https://covid19.galaxyproject.org/)
 
+# Galaxy COVID-19 Response
 
+A wide variety of Galaxy community member organizations are collaborating to [help address the coronavirus pandemic](https://covid19.galaxyproject.org/). This effort uses entirely open source tools using open access data, on public cyberinfrastructure.  Galaxy workflows and histories are provided by all analyses (in both  , making this work easily accessible and reusable by all.  The work produced by this consortium is documented and runnable in the UseGalaxy.* servers, and available in Zenodo as well.
+
+These efforts focus on three areas:
+
+<div class="card-deck">
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="covid19-genomics.png" alt="Genomics" />
+<div class="card-header">[Genomics](https://covid19.galaxyproject.org/genomics/)</div>
+
+There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and 95%). Twenty nine samples have fixed differences at 39 sites from the published reference. Variant lists and VCF files are updated daily. 
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="covid19-evolution.png" alt="Evolution" />
+<div class="card-header">[Evolution](https://covid19.galaxyproject.org/evolution/)</div>
+
+We are using comparative evolutionary techniques to run daily analyses identify potential candidates using genomes from GISAID. At present, ~5 genomic positions may merit further investigation because they may be subject to diversifying positive selection. See live results presented as continuously updated notebooks. </div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="covid19-cheminformatics.png" alt="Cheminformatics" />
+<div class="card-header">[Cheminformatics](https://covid19.galaxyproject.org/cheminformatics/)</div>
+
+Computational analyses using protein-ligand docking to identify potentially inhibitory compounds that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000 compounds considered to be likely to bind, which were chosen based on recently published X-ray crystal structures, and identified 500 high scoring compounds.
+</div>
+</div>
 
 # Upcoming Events
 
