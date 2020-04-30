@@ -102,9 +102,10 @@ BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Re
 
 </div>
 
-[<img class="float-right" src="covid19-contributors.png" style="max-width: 18rem;" alt="Contributing Organizations" />](https://covid19.galaxyproject.org/)
 
 <br />
+
+[<img class="float-right" src="covid19-contributors.png" style="max-width: 18rem;" alt="Contributing Organizations" />](https://covid19.galaxyproject.org/)
 
 # Galaxy COVID-19 Response
 
@@ -134,6 +135,9 @@ We are using comparative evolutionary techniques to run daily analyses identify 
 Computational analyses using protein-ligand docking to identify potentially inhibitory compounds that can bind to MPro and can be used to control viral proliferation. This work analyzed over 40,000 compounds considered to be likely to bind, which were chosen based on recently published X-ray crystal structures, and identified 500 high scoring compounds.
 </div>
 </div>
+
+In addition the MRC CLIMB project has been [providing compute and storage for the COVID-19 Genomics UK Consortium (COG-UK)](https://www.climb.ac.uk/climb-provides-computing-resources-and-storage-capacity-to-the-cog-uk/).  (And see below for more CLIMB news.)
+
 
 # Upcoming Events
 
@@ -437,26 +441,56 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[GASLINI Server](/src/use/gaslini/index.md)</div>
+<div class="card-header">[CLIMB becomes CLIMB-BIG-DATA](https://quadram.ac.uk/funding-boost-for-cloud-computing-supporting-microbial-bioinformatics/)</div>
 
-<img class="card-img-top" src="/src/use/gaslini/fig-1-slice.png" alt="Figure 1: PIPE-T Process" />
+<img class="card-img-top" src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
 
-The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool for reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) analysis. Requires an account, but anyone can create an account.
+The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
 </div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">Mississippi Server Upgraded</div>
+
+<img class="card-img-top" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />
+
+The [Mississippi server was upgraded](/src/news/2020-03-mississippi/index.md), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
+</div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[Laniakea@ReCaS: resource allocation call](https://laniakea-elixir-it.github.io/laniakea_at_recas)</div>
+
+<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
+
+The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
+</div>
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[ProteoRE 2.1 Launched](/src/news/2020-02-proteore/index.md)</div>
+
+<img class="card-img-top" src="/src/use/proteore/proteore.png" alt="ProteoRE" />
+
+[ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/). 
+</div>
+
 
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data 
-* [Galaxy Australia upgraded to Galaxy version 19.09](https://usegalaxy-au.github.io/posts/2019/12/11/galaxy-australia-to-galaxy-version-19-09/plain.html)
+* [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
+* [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
+URL
+* [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
 </div>
+
 
 <div class="card border-info"  style="min-width: 17rem;">
 <div class="card-header">Galaxy Platforms in Publications</div>
 
-Platforms that were referenced *at least twice* in the past month's publications:
+Platforms that were referenced *at least three times* in recent publications:
 
 <a class="btn"  style="text-align: right; background-color: #88d288;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 103 : <strong>Huttenhower</strong></a>
  <a class="btn"  style="text-align: right; background-color: #ace0ac;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 24 : <strong>RepeatExplorer</strong></a>
@@ -477,15 +511,6 @@ Platforms that were referenced *at least twice* in the past month's publications
  <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 3 : <strong>Pasteur</strong></a>
  <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal"> 3 : <strong>PhenoMeNal</strong></a>
  <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy"> 3 : <strong>RiboGalaxy</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Alveo"> 2 : <strong>Alveo</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy"> 2 : <strong>ARGalaxy</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit"> 2 : <strong>EpiToolKit</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>FreeBioinfo"> 2 : <strong>FreeBioinfo</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser"> 2 : <strong>Genomic Hyperbrowser</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi"> 2 : <strong>Mississippi</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Orione"> 2 : <strong>Orione</strong></a>
- <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris"> 2 : <strong>Osiris</strong></a>
-
 </div>
 </div>
 
@@ -496,13 +521,14 @@ Platforms that were referenced *at least twice* in the past month's publications
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[R basics in Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/r-basics/tutorial.html)</div>
+<div class="card-header">[TIaaS Calendar and Stats site](https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/)</div>
 
-By [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame#bebatut), [Fotis E. Psomopoulos](https://training.galaxyproject.org/training-material/hall-of-fame#fpsom), [Toby Hodges](https://training.galaxyproject.org/training-material/hall-of-fame#tobyhodges).
+We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback. Helena Rasche has added two new features to get a general information about the TIaaS service.
 
-We believe that every learner can **achieve competency with R.**  Give it a try.
+* A [calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
+* [Some Statistics](https://usegalaxy.eu/tiaas/stats/) about the TIaaS events
 
-<img class="card-img-bottom" src="gtn-r.png" alt="R Basics in Galaxy" />
+<img class="card-img-bottom" src="tiaas-stats.png" alt="TIaaS Statistics" />
 </div>
 
 </div>
