@@ -23,7 +23,7 @@
     "file-loader": "^4.2.0",
     "handlebars": "^4.4.0",
     "highlight.js": "^9.15.10",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jstransformer-pug": "^0.3.0",
     "lodash": "^4.17.15",
     "marked": "0.6.1",
