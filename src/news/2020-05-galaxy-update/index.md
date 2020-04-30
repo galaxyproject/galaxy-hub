@@ -192,20 +192,167 @@ And material from some recent past events is now available:
 
 # Publications
 
-**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January, February, and March.  There were XXXX *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and five of them are open access:
+**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January, February, and March.  There were over 25 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **twenty** of them are open access:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[User-friendly, scalable tools and workflows for single-cell analysis](https://doi.org/10.1101/2020.04.08.032698)</div>
+
+Moreno, P., Huang, N., Manning, J. R., Mohammed, S., Solovyev, A., Polanski, K., Chazarra, R., Talavera-Lopez, C. A., Doyle, M., Marnier, G., Gruening, B. A., Rasche, H., Bacon, W., Perez-Riverol, Y., Haeussler, M., Meyer, K. B., Teichmann, S., & Papatheodorou, I. (2020). *BioRxiv*, 2020.04.08.032698. https://doi.org/10.1101/2020.04.08.032698
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Machine learning of reverse transcription signatures of variegated polymerases allows mapping and discrimination of methylated purines in limited transcriptomes](https://doi.org/10.1093/nar/gkaa113)</div>
+
+Werner, S., Schmidt, L., Marchand, V., Kemmer, T., Falschlunger, C., Sednev, M. V., Bec, G., Ennifar, E., Höbartner, C., Micura, R., Motorin, Y., Hildebrandt, A., & Helm, M. (2020). *Nucleic Acids Research*. https://doi.org/10.1093/nar/gkaa113
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Survey of metaproteomics software tools for functional microbiome analysis](https://doi.org/10.1101/2020.01.07.897561)</div>
+
+Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020). *BioRxiv*, 2020.01.07.897561. https://doi.org/10.1101/2020.01.07.897561
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1093/gigascience/giz150)</div>
+
+Miladi, M., Sokhoyan, E., Houwaart, T., Heyne, S., Costa, F., Grüning, B., & Backofen, R. (2019). GigaScience, 8(12). https://doi.org/10.1093/gigascience/giz150
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Visualizing Omics Data from Spaceflight Samples using the NASA GeneLab Platform](https://doi.org/10.29007/rh7n)</div>
+
+Berrios, D., Weitz, E., Grigorev, K., Costes, S., Gebre, S., & Beheshti, A. (2020). EPiC Series in Computing, 70, 89–98. https://doi.org/10.29007/rh7n
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Koala: Sistema para integração de métodos de predição e análise de estruturas de proteína](https://doi.org/10.11606/D.82.2016.tde-22062016-102823)</div>
+
+Defelicibus, A. (2016).  [Thesis, Universidade de São Paulo]. https://doi.org/10.11606/D.82.2016.tde-22062016-102823
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)</div>
+
+Galaxy and HyPhy developments teams, Nekrutenko, A., & Pond, S. L. K. (2020). *BioRxiv*, 2020.02.21.959973. https://doi.org/10.1101/2020.02.21.959973
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Influenza Classification Suite: An automated Galaxy workflow for rapid influenza sequence analysis](https://doi.org/10.1111/irv.12722)</div>
+
+Eisler, D., Fornika, D., Tindale, L. C., Chan, T., Sabaiduc, S., Hickman, R., Chambers, C., Krajden, M., Skowronski, D. M., Jassem, A., & Hsiao, W. (2020). *Influenza and Other Respiratory Viruses*. https://doi.org/10.1111/irv.12722
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Family reunion via error correction: An efficient analysis of duplex sequencing data](https://doi.org/10.1186/s12859-020-3419-8)</div>
+
+Stoler, N., Arbeithuber, B., Povysil, G., Heinzl, M., Salazar, R., Makova, K. D., Tiemann-Boege, I., & Nekrutenko, A. (2020). *BMC Bioinformatics*, 21(1), 96. https://doi.org/10.1186/s12859-020-3419-8
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[VINYL: Variant prIoritizatioN bY survivaL analysis](https://doi.org/10.1101/2020.01.23.917229)</div>
 
-Chiara, M., Mandreoli, P., Tangaro, M. A., D’Erchia, A. M., Sorrentino, S., Forleo, C., … Pesole, G. (2020). *BioRxiv*, 2020.01.23.917229. DOI: 10.1101/2020.01.23.917229
+Chiara, M., Mandreoli, P., Tangaro, M. A., D’Erchia, A. M., Sorrentino, S., Forleo, C., Horner, D. S., Zambelli, F., & Pesole, G. (2020). *BioRxiv*, 2020.01.23.917229. https://doi.org/10.1101/2020.01.23.917229
+
 </div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Computational Infrastructures for biomolecular research](http://diposit.ub.edu/dspace/handle/2445/149802)</div>
+
+Codó Tarraubella, L. (2019). [Thesis, Universitat de Barcelona]. http://diposit.ub.edu/dspace/handle/2445/149802
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[A workflow-based algorithm for tracing Computational Synteny Blocks along different species](https://riuma.uma.es/xmlui/handle/10630/19060)</div>
+
+Holthausen Bermejo, R. (2019).  [Thesis, Universidad de Malaga]. https://riuma.uma.es/xmlui/handle/10630/19060
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Infrastructure for Semantic Annotation in the Genomics Domain](https://eprints.lancs.ac.uk/id/eprint/142283/)</div>
+
+El-Haj, M., Rutherford, N., Rayson, P., Knight, J., Piao, S., Coole, M., Mariani, J., Ezeani, I., Prentice, S., Ide, N., & Suderman, K. (2020, March 11). LREC 2020, Twelfth International Conference on Language Resources and Evaluation. https://eprints.lancs.ac.uk/id/eprint/142283/
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[A benchmark of hemoglobin blocking during library preparation for mRNA-Sequencing of human blood samples](https://doi.org/10.1038/s41598-020-62637-0)</div>
+
+Uellendahl-Werth, F., Wolfien, M., Franke, A., Wolkenhauer, O., & Ellinghaus, D. (2020). *Scientific Reports*, 10(1), 1–10. https://doi.org/10.1038/s41598-020-62637-0
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Uncovering informative content in metabolomics data: From pre-processing of 1H NMR spectra to biomarkers discovery in multifactorial designs](https://dial.uclouvain.be/pr/boreal/object/boreal:227671)</div>
+
+Martin, M. (2020).  [Thesis, UCL - Université Catholique de Louvain]. https://dial.uclouvain.be/pr/boreal/object/boreal:227671
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[NG-Tax 2.0: A Semantic Framework for High-Throughput Amplicon Analysis](https://doi.org/10.3389/fgene.2019.01366)</div>
+
+Poncheewin, W., Hermes, G. D. A., van Dam, J. C. J., Koehorst, J. J., Smidt, H., & Schaap, P. J. (2020). *Frontiers in Genetics*, 10. https://doi.org/10.3389/fgene.2019.01366
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Design of Bacterial Strain-Specific qPCR Assays Using NGS Data and Publicly Available Resources and Its Application to Track Biocontrol Strains](https://doi.org/10.3389/fmicb.2020.00208)</div>
+
+Hernández, I., Sant, C., Martínez, R., & Fernández, C. (2020). *Frontiers in Microbiology*, 11. https://doi.org/10.3389/fmicb.2020.00208
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[STAGdb: A 30K SNP genotyping array and Science Gateway for Acropora corals and their dinoflagellate symbionts](https://doi.org/10.1101/2020.01.21.914424)</div>
+
+Kitchen, S. A., Kuster, G. V., Kuntz, K. L. V., Reich, H. G., Miller, W., Griffin, S., Fogarty, N. D., & Baums, I. B. (2020). *BioRxiv*, 2020.01.21.914424. https://doi.org/10.1101/2020.01.21.914424
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Genome-Wide Search for Candidate Drivers of Adaptation Reveals Genes Enriched for Shifts in Purifying Selection (SPurS)](https://doi.org/10.1101/2020.01.11.902759)</div>
+
+Popejoy, A. B., Domanska, D. E., & Thomas, J. H. (2020). *BioRxiv*, 2020.01.11.902759. https://doi.org/10.1101/2020.01.11.902759
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Genome size, chromosome number determination, and analysis of the repetitive elements in *Cissus quadrangularis*](https://doi.org/10.7717/peerj.8201)</div>
+
+Gichuki, D. K., Ma, L., Zhu, Z., Du, C., Li, Q., Hu, G., Zhong, Z., Li, H., Wang, Q., & Xin, H. (2019). . PeerJ, 7, e8201. https://doi.org/10.7717/peerj.8201
+
+</div>
+
 
 <div class="card border-info" style="min-width: 20rem;">
 <div class="card-header">Publication Topics</div>
 
-Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
+Publications are tagged with how they use, extend or reference Galaxy.  This batch of pubs were tagged as:
 
 <a class="btn"  style="text-align: right; background-color: #61c361;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 468 : <strong>Methods</strong></a>
  <a class="btn"  style="text-align: right; background-color: #75cb75;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 214 : <strong>UsePublic</strong></a>
