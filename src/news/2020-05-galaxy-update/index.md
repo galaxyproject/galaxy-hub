@@ -519,7 +519,6 @@ Platforms that were referenced *at least three times* in recent publications:
 
 <div class="card-deck">
 
-
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[TIaaS Calendar and Stats site](https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/)</div>
 
@@ -531,6 +530,58 @@ We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a 
 <img class="card-img-bottom" src="tiaas-stats.png" alt="TIaaS Statistics" />
 </div>
 
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">My History is Missing! And other  updated support doc</div>
+
+By Jennifer Hillman-Jackson.
+
+* [How to find hard-to-locate histories and datasets](src/support/missing-history/index.md b/src/support/missing-history/index.md)
+* [New guidelines for downloading large datasets and troubleshooting downloads](/src/support/download-data/index.md)
+* [Account quotas](/src/support/account-quotas/index.md)
+
+<img class="card-img-bottom" src="hub-download.png" alt="Hub Downloading datasets updated " />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">Updated info on UseGalaxy.org</div>
+
+By Nate Coraor.
+
+Find out the latest about how the [UseGalaxy.org server is set up](/src/main/index.md).
+
+<img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">New OIDC Doc</div>
+
+* [Configure Your Galaxy Instance as a CILogon OIDC Client](/src/authnz/config/oidc/idps/cilogon/index.md), by Juleen Graham.
+* [Login to Galaxy Using Your Organization's Okta identity](/src/authnz/use/oidc/idps/okta/index.md), by Peter Selten
+* [Configure Your Galaxy Instance as an OIDC Client for your organization's Okta Infrastructure](/src/authnz/config/oidc/idps/okta/index.md), by Peter Selten
+
+<img class="card-img-bottom" src="hub-cilogin-doc.png" alt="CILogin" />
+</div>
+
+</div>
+
+
+# Releases
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
+
+Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly navigation!
+
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
+
+<img class="card-img-bottom" src="gcc2019-group-slice.jpg" alt="GCC2019" />
+</div>
+
 </div>
 
 
@@ -539,11 +590,11 @@ We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[Auf das richtige Werkzeug kommt es an](https://www.laborjournal.de/epaper/LJ_19_12.pdf#page50)</div>
+<div class="card-header">[Galaxy Community Statistics Update](/src/galaxy-project/statistics/index.md)</div>
 
-Including a report about usegalaxy.eu and this year's community conference in Freiburg.
+The semi-annual update of the [Galaxy Statistics Page](/src/galaxy-project/statistics/index.md) happened.  Stuff is up!
 
-<img class="card-img-bottom" src="gcc2019-group-slice.jpg" alt="GCC2019" />
+<img class="card-img-bottom" src="stats-slice.png" alt="Stats" />
 </div>
 
 
