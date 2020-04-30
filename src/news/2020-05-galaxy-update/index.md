@@ -142,7 +142,7 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19)</div>
 
 **FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
@@ -192,7 +192,7 @@ And material from some recent past events is now available:
 
 # Publications
 
-**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January, February, and March.  There were over 25 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **twenty** of them are open access:
+**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in January, February, and March.  There were over 25 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **20 of them are open access**:
 
 <div class="card-deck">
 
@@ -220,6 +220,14 @@ Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, 
 
 
 <div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Influenza Classification Suite: An automated Galaxy workflow for rapid influenza sequence analysis](https://doi.org/10.1111/irv.12722)</div>
+
+Eisler, D., Fornika, D., Tindale, L. C., Chan, T., Sabaiduc, S., Hickman, R., Chambers, C., Krajden, M., Skowronski, D. M., Jassem, A., & Hsiao, W. (2020). *Influenza and Other Respiratory Viruses*. https://doi.org/10.1111/irv.12722
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[GraphClust2: Annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1093/gigascience/giz150)</div>
 
 Miladi, M., Sokhoyan, E., Houwaart, T., Heyne, S., Costa, F., Grüning, B., & Backofen, R. (2019). GigaScience, 8(12). https://doi.org/10.1093/gigascience/giz150
@@ -228,18 +236,19 @@ Miladi, M., Sokhoyan, E., Houwaart, T., Heyne, S., Costa, F., Grüning, B., & Ba
 
 
 <div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Family reunion via error correction: An efficient analysis of duplex sequencing data](https://doi.org/10.1186/s12859-020-3419-8)</div>
+
+Stoler, N., Arbeithuber, B., Povysil, G., Heinzl, M., Salazar, R., Makova, K. D., Tiemann-Boege, I., & Nekrutenko, A. (2020). *BMC Bioinformatics*, 21(1), 96. https://doi.org/10.1186/s12859-020-3419-8
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Visualizing Omics Data from Spaceflight Samples using the NASA GeneLab Platform](https://doi.org/10.29007/rh7n)</div>
 
 Berrios, D., Weitz, E., Grigorev, K., Costes, S., Gebre, S., & Beheshti, A. (2020). EPiC Series in Computing, 70, 89–98. https://doi.org/10.29007/rh7n
 
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Koala: Sistema para integração de métodos de predição e análise de estruturas de proteína](https://doi.org/10.11606/D.82.2016.tde-22062016-102823)</div>
-
-Defelicibus, A. (2016).  [Thesis, Universidade de São Paulo]. https://doi.org/10.11606/D.82.2016.tde-22062016-102823
-
-</div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1101/2020.02.21.959973)</div>
@@ -249,17 +258,9 @@ Galaxy and HyPhy developments teams, Nekrutenko, A., & Pond, S. L. K. (2020). *B
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Influenza Classification Suite: An automated Galaxy workflow for rapid influenza sequence analysis](https://doi.org/10.1111/irv.12722)</div>
+<div class="card-header">[Koala: Sistema para integração de métodos de predição e análise de estruturas de proteína](https://doi.org/10.11606/D.82.2016.tde-22062016-102823)</div>
 
-Eisler, D., Fornika, D., Tindale, L. C., Chan, T., Sabaiduc, S., Hickman, R., Chambers, C., Krajden, M., Skowronski, D. M., Jassem, A., & Hsiao, W. (2020). *Influenza and Other Respiratory Viruses*. https://doi.org/10.1111/irv.12722
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Family reunion via error correction: An efficient analysis of duplex sequencing data](https://doi.org/10.1186/s12859-020-3419-8)</div>
-
-Stoler, N., Arbeithuber, B., Povysil, G., Heinzl, M., Salazar, R., Makova, K. D., Tiemann-Boege, I., & Nekrutenko, A. (2020). *BMC Bioinformatics*, 21(1), 96. https://doi.org/10.1186/s12859-020-3419-8
+Defelicibus, A. (2016).  [Thesis, Universidade de São Paulo]. https://doi.org/10.11606/D.82.2016.tde-22062016-102823
 
 </div>
 
@@ -378,14 +379,52 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 # Galactic Blog Activity
 
 <div class="card-deck">
+<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
+<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
+
+By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
+
+GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
+
+* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
+* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
+
+Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
+
+<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
+</div>
+
+
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Reaching for the stars: PGP-UK multi-omics data now also available on Galaxy Europe](https://pgpukblog.wordpress.com/2019/12/18/reaching-for-the-stars-pgp-uk-multi-omics-data-now-also-available-on-galaxy-europe/)</div>
+<div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
 
-By Stephan Beck.
+By Björn Grüning.
 
-Includes [genetic, methylome, and transcriptome data](https://usegalaxy.eu/library/list#/folders/F43c642051145b1b6).
+A visualization plug-in that extends Galaxy-P’s advantages into the visualization of large, complex datasets.
 
-<img class="card-img-bottom" src="/src/images/logos/pgp-uk-logo.svg" alt="Personal Genome Project UK Logo" />
+<img class="card-img-bottom" src="mvp-blog-fig1.png" alt="MVP" />
+</div>
+
+
+<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card-header">[Galaxy Admin 2020 and beyond](https://www.open-bio.org/2020/04/14/galaxy-admin-2020/)</div>
+
+By Michael Thompson.
+
+Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.T) describes his experience at the 2020 Galaxy Admin Training in Barcelona.
+
+<img class="card-img-bottom" src="/events/2020-03-admin/2020-galaxy-admin-participants.jpg " alt="Galaxy Admin 2020 Participants" />
+</div>
+
+
+<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card-header">[Integrative meta-omics analysis ](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
+
+By Magnus Ø. Arntzen.
+
+Adaption of a repertoire of commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics into the Galaxy framework, in order to generate a user-accessible, scalable and robust analytical pipeline for integrated meta-omics analysis.
+
+<img class="card-img-bottom" src="metagenomics-blog.png" alt="Integrative" />
 </div>
 
 </div>
