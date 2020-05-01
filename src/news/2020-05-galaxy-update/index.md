@@ -157,6 +157,13 @@ The MRC CLIMB project has been [providing compute and storage for the COVID-19 G
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="gtn-mpro-slice.png" alt="MPro" />
+<div class="card-header">[Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html)</div>
+
+This new Galaxy Training Network tutorial from [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) is a companion tutorial for the cheminformatics work described above that performs virtual screening on candidate ligands for the SARS-CoV-2 main protease (MPro). 
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="gtn-unicycler.png" alt="Unicycler SARS-CoV-2" />
 <div class="card-header">[Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html)</div>
 
@@ -219,6 +226,7 @@ There are
 
 And material from some recent past events is now available:
 
+* [Galaxy: much more than a workflow management system](https://drive.google.com/file/d/1j_AYy7Jn0WXL5BZxtVGVU1qMGVHxf954/preview): Video
 * [Galaxy @ PAG 2020](/src/events/2020-pag/index.md): Slides and posters
 * [Development of BioCompute Objects for Integration into Galaxy in a Cloud Computing Environment](https://youtu.be/8pwss1SY8Tg): on video
 * [Intro to Circos, its applications & use within Galaxy Australia](https://www.youtube.com/watch?v=j2R10doH5_4): on video
@@ -647,12 +655,41 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[Galaxy has migrated to Python 3](https://github.com/galaxyproject/galaxy/issues/1715)</div>
+
+And so has the Galaxy ToolShed.  And we are darn happy about it.  Many thanks to [Nicola Soranzo](https://github.com/nsoranzo) and [Marius van den Beek](https://github.com/mvdbeek) for leading this years-long community wide effort.
+
+<img class="card-img-bottom" src="/src/images/logos/python-logo.png" alt="Python 3" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[Galaxy Community Statistics Update](/src/galaxy-project/statistics/index.md)</div>
 
 The semi-annual update of the [Galaxy Statistics Page](/src/galaxy-project/statistics/index.md) happened.  Stuff is up...
 
 <img class="card-img-bottom" src="stats-slice.png" alt="Stats" />
 </div>
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[Based in the UK? Computational resources for bioinformatics at home](https://www.earlham.ac.uk/newsroom/computational-resources-power-your-bioinformatics-analysis-while-working-home)</div>
+
+If you’re a UK-based researcher working from home, you might require some additional computing power. The Earlham Institute offers Galaxy and CyVerse UK cloud-based bioinformatics resources to help.
+
+<img class="card-img-bottom" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Earlham Institute" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[Multiplying science: Tool-sharing platform for genomics analysis becomes so much more](https://sciencenode.org/feature/Multiplying%20science.php)</div>
+
+Read ScienceNode's [writeup](https://sciencenode.org/feature/Multiplying%20science.ph) on Galaxy and watch their interview with James Taylor at Gateways 2019.
+
+<img class="card-img-bottom" src="scinode-video.jpg" alt="ScienceNode" />
+</div>
+
+
+
 
 
 </div>
