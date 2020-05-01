@@ -15,17 +15,19 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <h3> JTech: Junior Training and Educational Connections Hotspot </h3>
 
-**The James Taylor Foundation**
+**The James Taylor Foundation: Big shoes to fill**
 
 </div>
 
-<br />
 
 <blockquote class="blockquote">
 The most important job of senior faculty is to mentor junior faculty and students.
 </blockquote>
 
 These are the words that James Taylor (JT) said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
+
+
+<img class="float-right" src="jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 20rem" />
 
 In its early stages, JTech will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JTech will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.
 
