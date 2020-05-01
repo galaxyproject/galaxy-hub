@@ -27,7 +27,6 @@ Dave Clements, on behalf of the Galaxy Community
 * [Upcoming events]()
 * [New publications](/src/news/2020-05-galaxy-update/index.md#publications): Hundreds of them
 * **[Xxxxx new blog posts](#galactic-blog-activity)**
-  * 
 * **[Galaxy Platform News](/src/news/2020-05-galaxy-update/index.md#galaxy-platforms-news)**
   * Three new platforms, UseGalaxy.* news, and platforms in pubs
 * **[Training material and doc updates](/src/news/2020-05-galaxy-update/index.md#doc-hub-and-training-updates)**
@@ -109,7 +108,9 @@ BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Re
 
 # Galaxy COVID-19 Response
 
-A wide variety of Galaxy community member organizations are collaborating to [help address the coronavirus pandemic](https://covid19.galaxyproject.org/). This effort uses entirely open source tools using open access data, on public cyberinfrastructure.  Galaxy workflows and histories are provided by all analyses (in both  , making this work easily accessible and reusable by all.  The work produced by this consortium is documented and runnable in the UseGalaxy.* servers, and available in Zenodo as well.
+A wide variety of Galaxy community member organizations are contributing and collaborating to help address the coronavirus pandemic.
+
+[Several prominent efforts](https://covid19.galaxyproject.org/) uses entirely open source tools using open access data, on public cyberinfrastructure.  Galaxy workflows and histories are provided by all analyses (in both Galaxy and Zenodo), making this work easily accessible and reusable by all.  The work produced by this consortium is documented and runnable in the UseGalaxy.* servers, and available in Zenodo as well.
 
 These efforts focus on three areas:
 
@@ -136,8 +137,41 @@ Computational analyses using protein-ligand docking to identify potentially inhi
 </div>
 </div>
 
-In addition the MRC CLIMB project has been [providing compute and storage for the COVID-19 Genomics UK Consortium (COG-UK)](https://www.climb.ac.uk/climb-provides-computing-resources-and-storage-capacity-to-the-cog-uk/).  (And see below for more CLIMB news.)
+And some additional posts, information, and efforts related to COVID-19 research using Galaxy.
 
+<div class="card-deck">
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/logos/tacc-logo.png" alt="TACC" />
+<div class="card-header">[COVID-19 Analysis Performed With Galaxy Bioinformatics Platform](https://www.tacc.utexas.edu/-/covid-19-analysis-performed-with-galaxy-bioinformatics-platform)</div>
+
+The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) provides large-scale compute infrastructure for the analysis of thousands of genomes, [including Galaxy's work on SARS-CoV-2](https://www.tacc.utexas.edu/-/covid-19-analysis-performed-with-galaxy-bioinformatics-platform).
+</div>
+
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="cog-uk-logo.jpg" alt="COG UK" />
+<div class="card-header">[MRC CLIMB supports COG-UK efforts](https://www.climb.ac.uk/climb-provides-computing-resources-and-storage-capacity-to-the-cog-uk/)</div>
+
+The MRC CLIMB project has been [providing compute and storage for the COVID-19 Genomics UK Consortium (COG-UK)](https://www.climb.ac.uk/climb-provides-computing-resources-and-storage-capacity-to-the-cog-uk/).  (See below for more CLIMB news.)
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="gtn-unicycler.png" alt="Unicycler SARS-CoV-2" />
+<div class="card-header">[Unicycler assembly of SARS-CoV-2 genome with preprocessing to remove human genome reads](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/assembly-with-preprocessing/tutorial.html)</div>
+
+This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame#wm75) guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence.
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
+<div class="card-header">[Galaxy Australia on Nimbus Cloud](https://pawsey.org.au/covid19announcement/)</div>
+
+Galaxy Australia relies on distributed deployments using Pulsar to increase the range and number of jobs that can be run on the service. The team has been allocated resources on the Nimbus cloud to deploy a dedicated COVID-19 Pulsar as part of Galaxy Australia at the Pawsey Centre that allows Galaxy users to rapidly analyse their data on published tools/workflows to further research into SARS-CoV-2.
+</div>
+
+
+</div>
 
 # Upcoming Events
 
@@ -189,6 +223,234 @@ And material from some recent past events is now available:
 * [Development of BioCompute Objects for Integration into Galaxy in a Cloud Computing Environment](https://youtu.be/8pwss1SY8Tg): on video
 * [Intro to Circos, its applications & use within Galaxy Australia](https://www.youtube.com/watch?v=j2R10doH5_4): on video
 
+</div>
+
+</div>
+
+
+
+# Galactic Blog Activity
+
+<div class="card-deck">
+<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
+<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
+
+By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
+
+GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
+
+* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
+* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
+
+Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
+
+<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
+</div>
+
+
+<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
+
+By Björn Grüning.
+
+A visualization plug-in that extends Galaxy-P’s advantages into the visualization of large, complex datasets.
+
+<img class="card-img-bottom" src="mvp-blog-fig1.png" alt="MVP" />
+</div>
+
+
+<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card-header">[Galaxy Admin 2020 and beyond](https://www.open-bio.org/2020/04/14/galaxy-admin-2020/)</div>
+
+By Michael Thompson.
+
+Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.T) describes his experience at the 2020 Galaxy Admin Training in Barcelona.
+
+<img class="card-img-bottom" src="/events/2020-03-admin/2020-galaxy-admin-participants.jpg " alt="Galaxy Admin 2020 Participants" />
+</div>
+
+
+<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card-header">[Integrative meta-omics analysis ](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
+
+By Magnus Ø. Arntzen.
+
+Adaption of a repertoire of commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics into the Galaxy framework, in order to generate a user-accessible, scalable and robust analytical pipeline for integrated meta-omics analysis.
+
+<img class="card-img-bottom" src="metagenomics-blog.png" alt="Integrative" />
+</div>
+
+</div>
+
+
+# Galaxy Platforms News
+
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 16rem;">
+<div class="card-header">[CLIMB becomes CLIMB-BIG-DATA](https://quadram.ac.uk/funding-boost-for-cloud-computing-supporting-microbial-bioinformatics/)</div>
+
+<img class="card-img-top" src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
+
+The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
+</div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">Mississippi Server Upgraded</div>
+
+<img class="card-img-top" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />
+
+The [Mississippi server was upgraded](/src/news/2020-03-mississippi/index.md), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
+</div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[Laniakea@ReCaS: resource allocation call](https://laniakea-elixir-it.github.io/laniakea_at_recas)</div>
+
+<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
+
+The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
+</div>
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[ProteoRE 2.1 Launched](/src/news/2020-02-proteore/index.md)</div>
+
+<img class="card-img-top" src="/src/use/proteore/proteore.png" alt="ProteoRE" />
+
+[ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/). 
+</div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+
+<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+
+* [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
+* [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
+URL
+* [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
+</div>
+
+
+<div class="card border-info"  style="min-width: 17rem;">
+<div class="card-header">Galaxy Platforms in Publications</div>
+
+Platforms that were referenced *at least three times* in recent publications:
+
+<a class="btn"  style="text-align: right; background-color: #88d288;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 103 : <strong>Huttenhower</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #ace0ac;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 24 : <strong>RepeatExplorer</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b1e2b1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics"> 20 : <strong>Workflow4Metabolomics</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #b8e4b8;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 15 : <strong>UseGalaxy.eu</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #bae5ba;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 14 : <strong>ARGs-OAP</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #bfe7bf;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT"> 11 : <strong>CPT</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P"> 8 : <strong>Galaxy-P</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 7 : <strong>UseGalaxy.org.au</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome"> 6 : <strong>Cistrome</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics"> 5 : <strong>Globus Genomics</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid"> 5 : <strong>LAPPS Grid</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d6efd6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org"> 4 : <strong>UseGalaxy.org</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools"> 3 : <strong>deepTools</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified"> 3 : <strong>GVL-Unspecified</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>HiCExplorer"> 3 : <strong>HiCExplorer</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Langille"> 3 : <strong>Langille</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 3 : <strong>Pasteur</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal"> 3 : <strong>PhenoMeNal</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy"> 3 : <strong>RiboGalaxy</strong></a>
+</div>
+</div>
+
+
+# Doc, Hub, and Training Updates
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Visualize Climate data with Panoply netCDF viewer](https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html )</div>
+
+By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou)
+
+Familiarze yourself with the [Panoply](https://www.giss.nasa.gov/tools/panoply/) Galaxy interactive environment. Panoply is among the most popular tools to visualize geo-referenced data stored in [Network Common Data Form (netCDF)](https://en.wikipedia.org/wiki/NetCDF). 
+
+<img class="card-img-bottom" src="gtn-panoply-slice.png" alt="It's getting hot" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[TIaaS Calendar and Stats site](https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/)</div>
+
+We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback. Helena Rasche has added two new features to get a general information about the TIaaS service.
+
+* A [calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
+* [Some Statistics](https://usegalaxy.eu/tiaas/stats/) about the TIaaS events
+
+<img class="card-img-bottom" src="tiaas-stats.png" alt="TIaaS Statistics" />
+</div>
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">My History is Missing! And other  updated support doc</div>
+
+By Jennifer Hillman-Jackson.
+
+* [How to find hard-to-locate histories and datasets](src/support/missing-history/index.md b/src/support/missing-history/index.md)
+* [New guidelines for downloading large datasets and troubleshooting downloads](/src/support/download-data/index.md)
+* [Account quotas](/src/support/account-quotas/index.md)
+
+<img class="card-img-bottom" src="hub-download.png" alt="Hub Downloading datasets updated " />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">Updated info on UseGalaxy.org</div>
+
+By Nate Coraor.
+
+Find out the latest about how the [UseGalaxy.org server is set up](/src/main/index.md).
+
+<img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">New OIDC Doc</div>
+
+OIDC is [OpenID Connect](https://openid.net/connect/), a simple identity layer on top of the [OAuth 2.0 authorization protocol](https://oauth.net/).  Galaxy supports it.
+
+* [Configure Your Galaxy Instance as a CILogon OIDC Client](/src/authnz/config/oidc/idps/cilogon/index.md), by Juleen Graham.
+* [Login to Galaxy Using Your Organization's Okta identity](/src/authnz/use/oidc/idps/okta/index.md), by Peter Selten
+* [Configure Your Galaxy Instance as an OIDC Client for your organization's Okta Infrastructure](/src/authnz/config/oidc/idps/okta/index.md), by Peter Selten
+
+<img class="card-img-bottom" src="hub-cilogin-doc.png" alt="CILogin" />
+</div>
+
+</div>
+
+
+# Releases
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
+
+Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly navigation!
+
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[nebulizer 0.50](https://pypi.org/project/nebulizer/0.5.0/)</div>
+
+Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.
+
+<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 </div>
@@ -380,211 +642,6 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 </div>
 
 
-# Galactic Blog Activity
-
-<div class="card-deck">
-<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
-
-By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
-
-GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
-
-* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
-* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
-
-Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
-
-<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
-</div>
-
-
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
-
-By Björn Grüning.
-
-A visualization plug-in that extends Galaxy-P’s advantages into the visualization of large, complex datasets.
-
-<img class="card-img-bottom" src="mvp-blog-fig1.png" alt="MVP" />
-</div>
-
-
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Galaxy Admin 2020 and beyond](https://www.open-bio.org/2020/04/14/galaxy-admin-2020/)</div>
-
-By Michael Thompson.
-
-Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.T) describes his experience at the 2020 Galaxy Admin Training in Barcelona.
-
-<img class="card-img-bottom" src="/events/2020-03-admin/2020-galaxy-admin-participants.jpg " alt="Galaxy Admin 2020 Participants" />
-</div>
-
-
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Integrative meta-omics analysis ](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
-
-By Magnus Ø. Arntzen.
-
-Adaption of a repertoire of commonly used omics tools spanning metagenomics, -transcriptomics and -proteomics into the Galaxy framework, in order to generate a user-accessible, scalable and robust analytical pipeline for integrated meta-omics analysis.
-
-<img class="card-img-bottom" src="metagenomics-blog.png" alt="Integrative" />
-</div>
-
-</div>
-
-
-# Galaxy Platforms News
-
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[CLIMB becomes CLIMB-BIG-DATA](https://quadram.ac.uk/funding-boost-for-cloud-computing-supporting-microbial-bioinformatics/)</div>
-
-<img class="card-img-top" src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
-
-The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
-</div>
-
-
-<div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">Mississippi Server Upgraded</div>
-
-<img class="card-img-top" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />
-
-The [Mississippi server was upgraded](/src/news/2020-03-mississippi/index.md), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
-</div>
-
-
-<div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[Laniakea@ReCaS: resource allocation call](https://laniakea-elixir-it.github.io/laniakea_at_recas)</div>
-
-<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
-
-The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
-</div>
-
-<div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[ProteoRE 2.1 Launched](/src/news/2020-02-proteore/index.md)</div>
-
-<img class="card-img-top" src="/src/use/proteore/proteore.png" alt="ProteoRE" />
-
-[ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/). 
-</div>
-
-
-<div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
-
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
-
-* [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
-* [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
-URL
-* [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
-</div>
-
-
-<div class="card border-info"  style="min-width: 17rem;">
-<div class="card-header">Galaxy Platforms in Publications</div>
-
-Platforms that were referenced *at least three times* in recent publications:
-
-<a class="btn"  style="text-align: right; background-color: #88d288;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 103 : <strong>Huttenhower</strong></a>
- <a class="btn"  style="text-align: right; background-color: #ace0ac;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 24 : <strong>RepeatExplorer</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b1e2b1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics"> 20 : <strong>Workflow4Metabolomics</strong></a>
- <a class="btn"  style="text-align: right; background-color: #b8e4b8;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 15 : <strong>UseGalaxy.eu</strong></a>
- <a class="btn"  style="text-align: right; background-color: #bae5ba;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 14 : <strong>ARGs-OAP</strong></a>
- <a class="btn"  style="text-align: right; background-color: #bfe7bf;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>CPT"> 11 : <strong>CPT</strong></a>
- <a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P"> 8 : <strong>Galaxy-P</strong></a>
- <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 7 : <strong>UseGalaxy.org.au</strong></a>
- <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome"> 6 : <strong>Cistrome</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics"> 5 : <strong>Globus Genomics</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid"> 5 : <strong>LAPPS Grid</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d6efd6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org"> 4 : <strong>UseGalaxy.org</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools"> 3 : <strong>deepTools</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified"> 3 : <strong>GVL-Unspecified</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>HiCExplorer"> 3 : <strong>HiCExplorer</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Langille"> 3 : <strong>Langille</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 3 : <strong>Pasteur</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal"> 3 : <strong>PhenoMeNal</strong></a>
- <a class="btn"  style="text-align: right; background-color: #dbf2db;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy"> 3 : <strong>RiboGalaxy</strong></a>
-</div>
-</div>
-
-
-# Doc, Hub, and Training Updates
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[TIaaS Calendar and Stats site](https://galaxyproject.eu/posts/2020/02/27/TIaaS-update/)</div>
-
-We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a lot of positive feedback. Helena Rasche has added two new features to get a general information about the TIaaS service.
-
-* A [calendar](https://usegalaxy.eu/tiaas/calendar/) that shows when TIaaS trainings are booked
-* [Some Statistics](https://usegalaxy.eu/tiaas/stats/) about the TIaaS events
-
-<img class="card-img-bottom" src="tiaas-stats.png" alt="TIaaS Statistics" />
-</div>
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">My History is Missing! And other  updated support doc</div>
-
-By Jennifer Hillman-Jackson.
-
-* [How to find hard-to-locate histories and datasets](src/support/missing-history/index.md b/src/support/missing-history/index.md)
-* [New guidelines for downloading large datasets and troubleshooting downloads](/src/support/download-data/index.md)
-* [Account quotas](/src/support/account-quotas/index.md)
-
-<img class="card-img-bottom" src="hub-download.png" alt="Hub Downloading datasets updated " />
-</div>
-
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">Updated info on UseGalaxy.org</div>
-
-By Nate Coraor.
-
-Find out the latest about how the [UseGalaxy.org server is set up](/src/main/index.md).
-
-<img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
-</div>
-
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">New OIDC Doc</div>
-
-* [Configure Your Galaxy Instance as a CILogon OIDC Client](/src/authnz/config/oidc/idps/cilogon/index.md), by Juleen Graham.
-* [Login to Galaxy Using Your Organization's Okta identity](/src/authnz/use/oidc/idps/okta/index.md), by Peter Selten
-* [Configure Your Galaxy Instance as an OIDC Client for your organization's Okta Infrastructure](/src/authnz/config/oidc/idps/okta/index.md), by Peter Selten
-
-<img class="card-img-bottom" src="hub-cilogin-doc.png" alt="CILogin" />
-</div>
-
-</div>
-
-
-# Releases
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
-
-Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly navigation!
-
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
-
-<img class="card-img-bottom" src="gcc2019-group-slice.jpg" alt="GCC2019" />
-</div>
-
-</div>
-
-
 # Other News
 
 <div class="card-deck">
@@ -592,7 +649,7 @@ Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly nav
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[Galaxy Community Statistics Update](/src/galaxy-project/statistics/index.md)</div>
 
-The semi-annual update of the [Galaxy Statistics Page](/src/galaxy-project/statistics/index.md) happened.  Stuff is up!
+The semi-annual update of the [Galaxy Statistics Page](/src/galaxy-project/statistics/index.md) happened.  Stuff is up...
 
 <img class="card-img-bottom" src="stats-slice.png" alt="Stats" />
 </div>
