@@ -87,6 +87,14 @@ Going online and global, combined with the low registration rates this enables, 
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/keynotes-banner.png" alt="Keynote speakers" />
+<div class="card-header">[Keynotes](https://bcc2020.github.io/blog/keynotes/)</div>
+
+We are pleased to announce that Abigail Cabunoc Mayes of the Mozilla Foundation, and Lincoln Stein of OICR will be keynote speakers at BCC2020.
+
+</div>
+
+<div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/bcc2020/may-8.png" alt="Abstracts due May 8" />
 <div class="card-header">[Abstracts due May 8](https://bcc2020.github.io/submit/)</div>
 
@@ -96,7 +104,7 @@ BCC2020 is seeking oral presentations, lightning talks, posters, and demos, from
 <div class="card border-info" style="min-width: 15rem;">
 <div class="card-header">[Register Now](https://bcc2020.github.io/Registration/)</div>
 
-BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Registering early saves 50% off of the full rates.
+BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Registering early saves 50% off of the full rates and starts $3 per training session and $12 for the three day meeting.
 </div>
 
 </div>
@@ -110,7 +118,9 @@ BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Re
 
 A wide variety of Galaxy community member organizations are contributing and collaborating to help address the coronavirus pandemic.
 
-[Several prominent efforts](https://covid19.galaxyproject.org/) uses entirely open source tools using open access data, on public cyberinfrastructure.  Galaxy workflows and histories are provided by all analyses (in both Galaxy and Zenodo), making this work easily accessible and reusable by all.  The work produced by this consortium is documented and runnable in the UseGalaxy.* servers, and available in Zenodo as well.
+## UseGalaxy.* COVID-19 Efforts
+
+[Several prominent efforts](https://covid19.galaxyproject.org/) use entirely open source tools using open access data, on public cyberinfrastructure.  Galaxy workflows and histories are provided by all analyses (in both Galaxy and Zenodo), making this work easily accessible and reusable by all.  The work produced by this consortium is documented and runnable in the UseGalaxy.* servers, and available in Zenodo as well.
 
 These efforts focus on three areas:
 
@@ -137,7 +147,9 @@ Computational analyses using protein-ligand docking to identify potentially inhi
 </div>
 </div>
 
-And some additional posts, information, and efforts related to COVID-19 research using Galaxy.
+## Other Efforts
+
+**And there are many additional efforts and posts about COVID-19 research using Galaxy:**
 
 <div class="card-deck">
 
@@ -169,6 +181,15 @@ This new Galaxy Training Network tutorial from [Simon Bray](https://training.gal
 
 This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame#wm75) guides you through the preprocessing of sequencing data of bronchoalveolar lavage fluid (BALF) samples obtained from early COVID-19 patients in China. Since such samples are expected to be contaminated signficantly with human sequenced reads, the goal is to enrich the data for SARS-CoV-2 reads by identifying and discarding reads of human origin before trying to assemble the viral genome sequence.
 </div>
+
+
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
+<div class="card-header">[Laniakea SARS-CoV-2 flavour available](https://laniakea-elixir-it.github.io/2020/03/27/covid19-docker-flavor.html)</div>
+
+A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. It is based on the GalaxyProject covid-19 analysis and it is continuously updated. Due to the current Covid-19 outbreak, the flavour is made available to Laniakea users without the usual test routine. 
+</div>
+
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
@@ -433,6 +454,31 @@ OIDC is [OpenID Connect](https://openid.net/connect/), a simple identity layer o
 
 <img class="card-img-bottom" src="hub-cilogin-doc.png" alt="CILogin" />
 </div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">RNA-RNA interactome data analysis</div>
+
+By [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame#pavanvidem).
+
+This [GTN tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html) presents the analysis of a CLEAR-CLIP data set using the ChiRA tool suite.
+
+<img class="card-img-bottom" src="gtn-chira.png" alt="RNA-RNA Interactome" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Introduction to deep learning](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/intro_deep_learning/tutorial.html)</div>
+
+By [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez) and [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori)
+
+What are deep learning and neural networks? Why is it useful? How to create a neural network architecture for classification?  This tutorial presents basic principles of deep learning.
+
+<img class="card-img-bottom" src="gtn-neural-network.svg" alt="Neural network" />
+</div>
+
+
+
 
 </div>
 
