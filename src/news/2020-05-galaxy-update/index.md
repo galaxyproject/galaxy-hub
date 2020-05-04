@@ -251,6 +251,7 @@ And material from some recent past events is now available:
 * [Galaxy @ PAG 2020](/src/events/2020-pag/index.md): Slides and posters
 * [Development of BioCompute Objects for Integration into Galaxy in a Cloud Computing Environment](https://youtu.be/8pwss1SY8Tg): on video
 * [Intro to Circos, its applications & use within Galaxy Australia](https://www.youtube.com/watch?v=j2R10doH5_4): on video
+* [Galaxy-based Multi-omic Informatics Hub for Cancer Researchers](https://datascience.cancer.gov/news-events/events/galaxy-based-multi-omic-informatics-hub-cancer-researchers): on video
 
 </div>
 
@@ -358,6 +359,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
+* [Galaxy Australia processed its one millionth job in January](https://usegalaxy-au.github.io/posts/2020/01/29/one-millionth-job/).
 * [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
 * [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
 URL
@@ -398,6 +400,17 @@ Platforms that were referenced *at least three times* in recent publications:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Galaxy Server Admin Training Library](https://training.galaxyproject.org/training-material/topics/admin/)</div>
+
+By a [whole team of authors](https://training.galaxyproject.org/training-material/topics/admin/#maintainers)
+
+The Galaxy Training Netowork library has been entirely updated to reflect current best practices and new features implemented in the last year.  If you are learning Galaxy admin, this is where you should start.
+
+<img class="card-img-bottom" src="gtn-ansible-galaxy-intro-6-slice.png" alt="Moving parts, lots of them" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Visualize Climate data with Panoply netCDF viewer](https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html )</div>
 
 By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou)
@@ -417,6 +430,16 @@ We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a 
 * [Some Statistics](https://usegalaxy.eu/tiaas/stats/) about the TIaaS events
 
 <img class="card-img-bottom" src="tiaas-stats.png" alt="TIaaS Statistics" />
+</div>
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Training Infrastructure as a Service Tutorial!](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tiaas/tutorial.html)</div>
+
+By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann).
+
+How to set up your own *[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html)*  service to support Galaxy training compute infrastructure. 
+
+<img class="card-img-bottom" src="tiaas_intro.png" alt="TIaaS plumbing" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
@@ -478,10 +501,35 @@ What are deep learning and neural networks? Why is it useful? How to create a ne
 </div>
 
 
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Regression in Machine Learning](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html)</div>
+
+By [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori), [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez) and [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray)
+
+How to use regression techniques to create predictive models from biological datasets.
+
+<img class="card-img-bottom" src="gtn-regression.png" alt="Regressing!" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Metatranscriptomics analysis using microbiome RNA-seq data (short)](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics-short/tutorial.html)</div>
+
+By Pratik Jagtap, Subina Mehta, Ray Sajulga, Bérénice Batut, Emma Leith, Praveen Kumar, and Saskia Hiltemann.
+
+This is a shortened version of an [existing tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html). Instead of running each tool individually, this tutorial employs workflows to run groups of analysis steps (e.g. data cleaning) at once. 
+
+<img class="card-img-bottom" src="gtn-krona.png" alt="Krona" />
+</div>
 
 
 </div>
 
+# Who's Hiring
+
+* [Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003), Black Canyon Consulting, Bethesda, Maryland, United States
+* [Bioinformatics Software Developer](https://absci.bamboohr.com/jobs/view.php?id=52), AbSci, Vancouver, Washington, United States
+* [Data Scientist](https://neb.wd5.myworkdayjobs.com/en-US/NEB_Careers/job/Ipswich-MA-United-States/Data-Scientist_1193), New England Biolabs, Ipswich, Massachusetts, United States
 
 # Releases
 
@@ -701,7 +749,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[Galaxy has migrated to Python 3](https://github.com/galaxyproject/galaxy/issues/1715)</div>
+<div class="card-header">[Galaxy has migrated to Python 3.6](https://github.com/galaxyproject/galaxy/issues/1715)</div>
 
 And so has the Galaxy ToolShed.  And we are darn happy about it.  Many thanks to [Nicola Soranzo](https://github.com/nsoranzo) and [Marius van den Beek](https://github.com/mvdbeek) for leading this years-long community wide effort.
 
@@ -734,6 +782,14 @@ Read ScienceNode's [writeup](https://sciencenode.org/feature/Multiplying%20scien
 <img class="card-img-bottom" src="scinode-video.jpg" alt="ScienceNode" />
 </div>
 
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[ABLS20 #UseGalaxy Poster Prizes awarded](https://www.vibconferences.be/news/the-3rd-sold-out-edition-of-abls20-showcases-the-power-of-bioinformatics)</div>
+
+[Sema Elif Eski](https://www.researchgate.net/profile/Sema_Eski) (ULB, BE) and [Simon van Heeringen](https://molbio.science.ru.nl/about/molecular-developmental-biology/simon-van-heeringen/) (Radboud Universiteit, NL) received the #UseGalaxy poster prizes at the 
+Applied Bioinformatics in Life Sciences (3rd edition). 
+
+<img class="card-img-bottom" src="abls20-prizes.png" alt="ABLS20 Poster Prizes" />
+</div>
 
 
 
