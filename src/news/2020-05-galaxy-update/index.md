@@ -1,41 +1,50 @@
 ---
 title: 'May 2020 Galactic News'
-tease: "James Taylor, BCC2020, and more"
+tease: "James Taylor, BCC2020, COVID-19 Response, and more"
 date: ""
+---
+
 ---
 
 # From the editor
 
-This is our first newsletter since January. It has been an eventful and sorrowful four months for the world, and for the Galaxy Community too: *This newsletter starts with the [tragic loss of James Taylor](), one of Galaxy's founders and leaders.*  We lost James at the beginning of April. This community, I suspect, will always feel that loss.
+[<img class="float-right" src="/src/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/src/jxtx/i-love-you-so-much.jpg)
 
-This newsletter also covers [how Galaxy is addressing the international COVID-19 crises](), and [how the pandemic pushed BCC2020 organizers to shift from an in-person event in Toronto, to a truly global, affordable, and accessible conference, where any researcher in the world can now participate]().  Even in the darkest of times, there is some sunlight.
+This is our first newsletter since January. It has been an eventful and sorrowful four months for the world, and for the Galaxy Community too: *This newsletter starts with the [tragic loss of James Taylor](#james-peter-taylor-1979-2020), one of Galaxy's founders and leaders.*  We lost James at the beginning of April. This community, I suspect, will always feel that loss.
+
+This newsletter also covers [how Galaxy is addressing the international COVID-19 crises](#galaxy-covid-19-response), and [how the pandemic pushed BCC2020 organizers to shift from an in-person event in Toronto, to a truly global, affordable, and accessible conference, where any researcher in the world can now participate](#bcc2020-will-be-online-global-affordable-and-accessible).  Even in the darkest of times, there is some sunlight.
 
 The mix of news this month reflects our times.  Our support of each other, no matter what, reflects the strength of this community.
 
 Thanks for everything, and please continue to support each other,<br />
 Dave Clements, on behalf of the Galaxy Community
 
+---
 
 # In the May 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[James Peter Taylor]()**, 1979-2020
-* **[BCC2020]() will be online, global, affordable, and accessible**
+* **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
+* **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
   * **All abstracts are due May 8**
-* **[Galaxy COVID-19 Response]()**
-* [Upcoming events]()
-* [New publications](/src/news/2020-05-galaxy-update/index.md#publications): Hundreds of them
-* **[Xxxxx new blog posts](#galactic-blog-activity)**
-* **[Galaxy Platform News](/src/news/2020-05-galaxy-update/index.md#galaxy-platforms-news)**
-  * Three new platforms, UseGalaxy.* news, and platforms in pubs
-* **[Training material and doc updates](/src/news/2020-05-galaxy-update/index.md#doc-hub-and-training-updates)**
-  * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
-* And **[other news too](/src/news/2020-05-galaxy-update/index.md#other-news)**
+* **[Galaxy COVID-19 Response](#galaxy-covid-19-response)**
+* [Upcoming events](#upcoming-events)
+* [Blog posts](#galactic-blog-activity)
+* [Galaxy Platform News](#galaxy-platforms-news)
+* [Training material and doc updates](/src/news/2020-05-galaxy-update/index.md#doc-hub-and-training-updates)
+* [Who's Hiring](#whos-hiring)
+* [New Releases](#releases)
+* [New publications](/src/news/2020-05-galaxy-update/index.md#publications) (671 of them)
+* And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
+---
+
 # James Peter Taylor, 1979-2020
+
+[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/src/jxtx/index.md)
 
 James Taylor, one of the founders and leaders of the Galaxy Project died of natural causes on April 2.  One day he was online tweeting about open access to data, and the next day he was not.  News of his passing spread around the world, and the response has been overwhelming.
 
@@ -46,6 +55,8 @@ We are also [starting a foundation to continue and commemorate James' work](/src
 Galaxy will go on and we will continue to support his legacy of open reproducible science.
 
 We miss you James.
+
+---
 
 # BCC2020 will be Online, Global, Affordable, and Accessible
 
@@ -80,7 +91,7 @@ We have slashed [registration rates for BCC2020](https://bcc2020.github.io/Regis
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="" alt="BCC2020 is Accessible" />
+<img class="card-img-top" src="time-zones-slice.png" alt="BCC2020 is Accessible" />
 <div class="card-header">BCC2020 is Accessible</div>
 
 Going online and global, combined with the low registration rates this enables, **makes this the most accessible Galaxy or BOSC conference ever.**  If you work in open source bioinformatics, *anywhere in the world*, then this is 2020’s best opportunity to share your work and learn from others.
@@ -88,9 +99,9 @@ Going online and global, combined with the low registration rates this enables, 
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/bcc2020/keynotes-banner.png" alt="Keynote speakers" />
-<div class="card-header">[Keynotes](https://bcc2020.github.io/blog/keynotes/)</div>
+<div class="card-header">[Keynotes Announced](https://bcc2020.github.io/blog/keynotes/)</div>
 
-We are pleased to announce that Abigail Cabunoc Mayes of the Mozilla Foundation, and Lincoln Stein of OICR will be keynote speakers at BCC2020.
+We are pleased to announce that **Abigail Cabunoc Mayes** of the Mozilla Foundation, and **Lincoln Stein** of OICR will be keynote speakers at BCC2020.
 
 </div>
 
@@ -102,7 +113,8 @@ BCC2020 is seeking oral presentations, lightning talks, posters, and demos, from
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<div class="card-header">[Register Now](https://bcc2020.github.io/Registration/)</div>
+<a href="https://bcc2020.github.io/Registration/"><img class="card-img-top" src="register-now.png" alt="Abstracts due May 8" /></a>
+<div class="card-header">[Save 50% with Early Registration Now](https://bcc2020.github.io/Registration/)</div>
 
 BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Registering early saves 50% off of the full rates and starts $3 per training session and $12 for the three day meeting.
 </div>
@@ -112,9 +124,9 @@ BCC2020 registration is [now open](https://bcc2020.github.io/Registration/).  Re
 
 <br />
 
-[<img class="float-right" src="covid19-contributors.png" style="max-width: 18rem;" alt="Contributing Organizations" />](https://covid19.galaxyproject.org/)
-
 # Galaxy COVID-19 Response
+
+[<img class="float-right" src="covid19-contributors.png" style="max-width: 18rem;" alt="Contributing Organizations" />](https://covid19.galaxyproject.org/)
 
 A wide variety of Galaxy community member organizations are contributing and collaborating to help address the coronavirus pandemic.
 
@@ -147,7 +159,7 @@ Computational analyses using protein-ligand docking to identify potentially inhi
 </div>
 </div>
 
-## Other Efforts
+## Additional Efforts
 
 **And there are many additional efforts and posts about COVID-19 research using Galaxy:**
 
@@ -183,7 +195,7 @@ This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training
 </div>
 
 
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
 <img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
 <div class="card-header">[Laniakea SARS-CoV-2 flavour available](https://laniakea-elixir-it.github.io/2020/03/27/covid19-docker-flavor.html)</div>
 
@@ -191,7 +203,7 @@ A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. I
 </div>
 
 
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
 <div class="card-header">[Galaxy Australia on Nimbus Cloud](https://pawsey.org.au/covid19announcement/)</div>
 
@@ -223,7 +235,7 @@ The first session was held on 30 April.  Subsequent sessions are
 * [Behind the scenes: Global Open Infrastructures at work, 28 May](https://attendee.gotowebinar.com/register/7607010086065649936), TBA
 </div>
 
-<div class="card border-info" style="min-width: 10rem; max-width: 18rem">
+<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/sgci-logo-trans-big.png" alt="Galaxy @ SGCI" />
 <div class="card-header">Galaxy on SGCI Webinars</div>
 
@@ -236,7 +248,7 @@ Want to learn the Galaxy community and platform big picture?  Attend the next tw
 
 
 
-<div class="card border-info" style="min-width: 10rem; max-width: 18rem">
+<div class="card border-info" style="min-width: 10rem; max-width: 24rem">
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
@@ -262,21 +274,6 @@ And material from some recent past events is now available:
 # Galactic Blog Activity
 
 <div class="card-deck">
-<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
-
-By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
-
-GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
-
-* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
-* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
-
-Since 2012, the GVL has made dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively for training workshops, large-scale research studies, and other customized instances when public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
-
-<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
-</div>
-
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
 <div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
@@ -327,6 +324,14 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
 </div>
 
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[CoralSNP](/use/coral-snop/index.md)</div>
+
+<img class="card-img-top" src="/src/use/coral-snp/coral.jpg" alt="Coral!" />
+
+The [CoralSNP server](https://coralsnp.science.psu.edu/galaxy/) implements *Standard Tools for Acroporid Genotyping (STAG)*. In STAG the user’s data is compared to the database of previously genotyped samples and generates a report of genet identification. A login is required, but anyone can create a login.
+</div>
 
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">Mississippi Server Upgraded</div>
@@ -535,15 +540,40 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
 
-Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly navigation!
-
+See 
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
 
+Features:
+* Easily list and review recently invoked workflows.
+* Galaxy Markdown Pages and Workflow Reports as PDF
+* Screenreader-friendly Navigation
+* Email notification for completed jobs
+* Workflows can now make use of optional datasets and optional parameters 
+* Major update to container and dependency management interface
+Extended job metadata collection
+
 <img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+</div>
+
+<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
+<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
+
+By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
+
+GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
+
+* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
+* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
+
+The GVL makes dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively whenever public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
+
+[Galaxy Helm 3.1.0](https://github.com/galaxyproject/galaxy-helm) was also released simultaneously.
+
+<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL" />
 </div>
 
 
@@ -553,6 +583,13 @@ Featuring Workflow Reporting, Workflow Executions, and Screenreader-friendly nav
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.
 
 <img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
+</div>
+
+<div class="card border-info"  style="min-width: 10rem; max-width: 16rem;">
+<div class="card-header">[sequence-utils 1.1.5](https://github.com/galaxyproject/sequence_utils)</div>
+
+Galaxy's sequence utilities are a set of Python modules for reading, analyzing, and converting sequence formats.
+
 </div>
 
 </div>
@@ -786,7 +823,7 @@ Read ScienceNode's [writeup](https://sciencenode.org/feature/Multiplying%20scien
 <div class="card-header">[ABLS20 #UseGalaxy Poster Prizes awarded](https://www.vibconferences.be/news/the-3rd-sold-out-edition-of-abls20-showcases-the-power-of-bioinformatics)</div>
 
 [Sema Elif Eski](https://www.researchgate.net/profile/Sema_Eski) (ULB, BE) and [Simon van Heeringen](https://molbio.science.ru.nl/about/molecular-developmental-biology/simon-van-heeringen/) (Radboud Universiteit, NL) received the #UseGalaxy poster prizes at the 
-Applied Bioinformatics in Life Sciences (3rd edition). 
+[Applied Bioinformatics in Life Sciences Conference](https://www.vibconferences.be/events/applied-bioinformatics-in-life-sciences-3rd-edition) in Leuven. 
 
 <img class="card-img-bottom" src="abls20-prizes.png" alt="ABLS20 Poster Prizes" />
 </div>
