@@ -416,6 +416,16 @@ The Galaxy Training Netowork library has been entirely updated to reflect curren
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Label-free data analysis using MaxQuant](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
+
+By [Melanie Foell](https://training.galaxyproject.org/training-material/hall-of-fame#foellmelanie) and [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame#matthias313).
+
+Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software.
+
+<img class="card-img-bottom" src="gtn-maxquant.png" alt="It's getting hot" />
+</div>
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Visualize Climate data with Panoply netCDF viewer](https://training.galaxyproject.org/training-material/topics/climate/tutorials/panoply/tutorial.html )</div>
 
 By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou)
@@ -540,7 +550,7 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
 
 See 
@@ -559,7 +569,7 @@ Extended job metadata collection
 <img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
-<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 24rem; max-width: 50%;">
 <div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
@@ -577,7 +587,7 @@ The GVL makes dedicated, production-grade installations of Galaxy available on c
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 8rem; max-width: 16rem;">
 <div class="card-header">[nebulizer 0.50](https://pypi.org/project/nebulizer/0.5.0/)</div>
 
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.
@@ -585,7 +595,7 @@ Command-line utilities to help with managing users, data libraries and tools in 
 <img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
-<div class="card border-info"  style="min-width: 10rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 8rem; max-width: 16rem;">
 <div class="card-header">[sequence-utils 1.1.5](https://github.com/galaxyproject/sequence_utils)</div>
 
 Galaxy's sequence utilities are a set of Python modules for reading, analyzing, and converting sequence formats.
