@@ -409,7 +409,7 @@ Platforms that were referenced *at least three times* in recent publications:
 
 By a [whole team of authors](https://training.galaxyproject.org/training-material/topics/admin/#maintainers)
 
-The Galaxy Training Netowork library has been entirely updated to reflect current best practices and new features implemented in the last year.  If you are learning Galaxy admin, this is where you should start.
+The Galaxy Training Network library has been entirely updated to reflect current best practices and new features implemented in the last year.  If you are learning Galaxy admin, this is where you should start.
 
 <img class="card-img-bottom" src="gtn-ansible-galaxy-intro-6-slice.png" alt="Moving parts, lots of them" />
 </div>
