@@ -39,9 +39,9 @@ In its later stages, JTech will sponsor in-person visits from students (high sch
 
 **Please consider contributing to continue James Taylor's legacy.**
 
-<div class=" text-center lead">
-<button type="button" class="btn btn-secondary">
-[**Donate now**](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
 </div>
 
 <br />
