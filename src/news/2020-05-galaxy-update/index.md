@@ -298,7 +298,7 @@ Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.
 
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Integrative meta-omics analysis ](https://galaxyproject.eu/posts/2020/04/23/mvp/)</div>
+<div class="card-header">[Integrative meta-omics analysis ](https://galaxyproject.eu/posts/2020/04/14/integrative-meta-omics/)</div>
 
 By Magnus Ø. Arntzen.
 
