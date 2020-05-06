@@ -18,11 +18,31 @@ The required steps are described in the following sections.
 
 # Client Registration
 
-Take the following steps in order to register a client with Custos on its OAuth2.0 authorization server:
+A public website for registering a new client on Custos is currently in progress. However, for now you can still register a client through a REST API call using a platform such as Postman. Make a POST request to (https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant)[https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant] with the following body:
 
-Visit the [Custos OIDC Client Registration page](https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant)
-and fill out the form with the appropriate information according to
-your Galaxy instance:
+URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
+Method : POST
+Body : 
+{
+    "client_name":"John Doe University",
+    "requester_email":"johndoe@university.edu",
+    "admin_username":"johndoe",
+    "admin_first_name":"John",
+    "admin_last_name":"Doe",
+    "admin_email":"johndoe@university.edu",
+    "contacts":["1234567890"],
+    "redirect_uris":["https://jduniversity.edu/authnz/custos/callback"],
+    "domain":"jduniversity.edu",
+    "admin_password":"1234",
+    "client_uri":"jduniversity.edu",
+    "scope":"email profile openId org.cilogon.userinfo",
+    "logo_uri":" ",
+    "application_type":"web",
+    "comment":" "
+}
+
+For example:
+![image](/src/authnz/config/oidc/idps/custos/Custos-post-request.png)
 
 1. The _Domain_ should be the main address that users will use to get to your instance of Galaxy.
 
@@ -41,9 +61,11 @@ your Galaxy instance:
 
    See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
 
-3. After filling out the form, hit submit and wait for approval from the Custos team.
-   Upon approval, the notification email will include your OAuth `Client ID`, `Client Secret`;
+3. After making the POST request, you should get a reponse containing your `Client ID` and `Client Secret`;
    note this info! You will need it for the Galaxy configuration.
+   ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
+
+   To have your client activated, send an email to [custos@airavata.apache.org](mail-to:custos@airavata.apache.org) with your `Client ID`.
 
 # Galaxy Configuration
 
