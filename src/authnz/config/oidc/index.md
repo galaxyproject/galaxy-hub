@@ -24,6 +24,7 @@ Galaxy currently supports the following OIDC IdPs:
 - Google: [how to configure Google](/src/authnz/config/oidc/idps/google/index.md)
 - Elixir AAI: [how to configure Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
 - Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
+- CILogon: [how to configure Custos](/src/authnz/config/oidc/idps/cilogon/index.md)
 - Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
 - Okta: [how to configure Okta](/src/authnz/config/oidc/idps/okta/index.md)
 
