@@ -5,7 +5,8 @@ highlight: true
 
 _This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/custos/index.md) page._
 
-Custos is an [NSF-funded project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false), backed by open source software, that will provide science gateways such as Galaxy
+Custos is an [NSF-funded project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false), 
+backed by open source software, that will provide science gateways such as Galaxy
 with federated authentication, single sign-on across multiple science gateway
 user environments, group management, and management of secrets such as access
 keys and OAuth2 access tokens. With Galaxy, Custos allows users to login to
@@ -18,28 +19,30 @@ The required steps are described in the following sections.
 
 # Client Registration
 
-A public website for registering a new client on Custos is currently in progress. However, for now you can still register a client through a REST API call using a platform such as Postman. Make a POST request to (https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant)[https://custos.scigap.org/apiserver/tenant-management/v1.0.0/oauth2/tenant] with the following body:
+A public website for registering a new client on Custos is currently in progress. However, for now you can still register a client through a REST API call using a platform such as Postman. Make a POST request with the following body:
 
-URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
-Method : POST
-Body : 
-{
-    "client_name":"John Doe University",
-    "requester_email":"johndoe@university.edu",
-    "admin_username":"johndoe",
-    "admin_first_name":"John",
-    "admin_last_name":"Doe",
-    "admin_email":"johndoe@university.edu",
-    "contacts":["1234567890"],
-    "redirect_uris":["https://jduniversity.edu/authnz/custos/callback"],
-    "domain":"jduniversity.edu",
-    "admin_password":"1234",
-    "client_uri":"jduniversity.edu",
-    "scope":"email profile openId org.cilogon.userinfo",
-    "logo_uri":" ",
-    "application_type":"web",
-    "comment":" "
-}
+* URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
+* Method : POST
+* Body : 
+    ```
+    {
+        "client_name":"John Doe University",
+        "requester_email":"johndoe@university.edu",
+        "admin_username":"johndoe",
+        "admin_first_name":"John",
+        "admin_last_name":"Doe",
+        "admin_email":"johndoe@university.edu",
+        "contacts":["1234567890"],
+        "redirect_uris":["https://jduniversity.edu/authnz/custos/callback"],
+        "domain":"jduniversity.edu",
+        "admin_password":"1234",
+        "client_uri":"jduniversity.edu",
+        "scope":"email profile openId org.cilogon.userinfo",
+        "logo_uri":" ",
+        "application_type":"web",
+        "comment":" "
+    }
+    ```
 
 For example:
 ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request.png)
