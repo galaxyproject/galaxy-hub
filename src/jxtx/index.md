@@ -26,7 +26,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 These are the words that James Taylor (JT) said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
 
 <div class="float-right">
-<img  src="jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 20rem" /><br /><br />
+<img  src="jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 16rem" /><br />
 <div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 
