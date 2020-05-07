@@ -10,6 +10,8 @@ date: "2020-05-07"
 <div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 
-James Taylor believed that scientific progress can best be sustained through mentoring of students and junior faculty. To ensure implementation of this vision, the Galaxy community has established a foundation—**Junior Training and Educational Connections Hotspot (JTech)**. JTech’s mission is to (1) assist graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings.
+The recent passing of [Dr. James Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
 
-To make this happen we are accepting contributions [here](/src/jxtx/index.md). Please, help us continue what James has started.
+James believed that scientific progress can best be sustained through mentoring of students and junior faculty. The Junior Training and Educational Connections Hotspot (JTech) foundation will ensure implementation of this vision. To begin, JTech will  (1) support  graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings. JTech will later expand its reach as a platform for academic mentorship including high school through college age students.
+
+To make this happen we are [accepting contributions here](https://galaxyproject.org/jxtx/). Please, help us continue what James has started.
