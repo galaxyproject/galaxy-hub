@@ -45,7 +45,7 @@ assigned a project ID, such as *TG-CCR160022*.
 In this step, we will create a new cluster by launching a virtual server in the
 cloud, which will act as the access point for Galaxy and the cluster.
 
-1. Head to the [CloudLaunch application](https://beta.launch.usegalaxy.org/)
+1. Head to the [CloudLaunch application](https://launch.usegalaxy.org/)
 and login through one of the available authentication providers. First time
 logging in, it will be necessary to authorize CloudLaunch application to have
 access to your basic profile information. Note that each provider will create a
@@ -61,11 +61,7 @@ separate account on CloudLaunch so remember which provider you use.
 CloudLaunch Marketplace. CloudLaunch Marketplace is similar to an app store for
 cloud-enabled applications; it allows us to discover and launch a range of
 applications on different cloud computing providers. This time, choose
-the *Galaxy CloudMan* appliance.
-
-    <div class='center'>
-    <a href='cloudlaunch-marketplace.png'><img src="cloudlaunch-marketplace.png" alt="" width=200 /></a>
-    </div>
+the *Genomics Virtual Laboratory (GVL)* appliance.
 
 1. We now need to configure the appliance launch properties. This means
 choosing one of the available appliance versions, the target cloud
@@ -87,14 +83,9 @@ use these credentials, followed by clicking *Next*.
 1. Before launching, we need to give our cluster a name. A default one is
 provided but feel free to replace it with something more suitable and
 descriptive. We also need to supply a password of choice that will protect
-access to the cluster once launched. Next is setting the size of storage to be
-associated with the cluster. The value here is in gigabytes and depends on the
-intended usage. We can also choose the type of virtual hardware our server will
+access to the cluster once launched. Currently, the amount of storage available
+is fixed at 100GB. We can also choose the type of virtual hardware our server will
 use. Then click *Launch*.
-
-    <div class='center'>
-    <a href='cloudlaunch-cloud-config.png'><img src="cloudlaunch-cloud-config.png" alt="" width=200 /></a>
-    </div>
 
 1. Initiating the launch process will take us to the *My appliances* page,
 which is a log of all instances we have launched. Now we just wait for the
@@ -113,26 +104,17 @@ allows you to *ssh* into the instance via the command prompt without a
 password, so keep it safe. **Note** that this key is available for download
 only the very first time you use a given cloud account. If you have missed to
 download the key, delete the key from within the cloud's management console (by
-default, called *cloudlaunch_key_pair*) and it will be automatically recreated
+default, called *cloudlaunch-key-pair*) and it will be automatically recreated
 the next time you start a cluster.
 
 ## Step 2: Access CloudMan and Galaxy
 
 After the cluster has started, we can access it by clicking the provided URL.
-For the case of CloudMan, log in with username *ubuntu* and the password you
-chose during the launch process. It may take a few more minutes to setup the
-cluster and start Galaxy. Once the cluster is ready, a message will be shown
-saying so. At that point, click *Access Galaxy* and start using Galaxy. You
-will probably want to register a new account (Login or Register > Register)
-first - after all, this is your own cluster. Keep in mind that the account you
-create on your cloud cluster is separate from an account you might have created
-on another Galaxy server.
+Log in with username *admin* and the password you
+chose during the launch process. It may take a few more minutes to start Galaxy
+after the interface becomes available but clicking on the link under _Access Address_
+will lead you to Galaxy. 
 
-<div class='center'>
-<a href='cm-login.png'><img src="cm-login.png" alt="" width=200 /></a>
-<a href='cm-ready.png'><img src="cm-ready.png" alt="" width=200 /></a>
-<a href='cm-galaxy.png'><img src="cm-galaxy.png" alt="" width=200 /></a>
-</div>
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
@@ -141,9 +123,3 @@ Depending on your interest, the documentation contains a wealth of information. 
 * [Sharing and publishing a cluster](/src/cloudman/sharing/index.md)
 * [Customizing your cluster](/src/cloudman/customizing/index.md)
 * [Troubleshooting](/src/cloudman/troubleshooting/index.md)
-
-Getting started guide for the *cloudlaunch interface* prior to March 2017
-can be found [here](/src/cloudman/getting-started/pre201703/index.md).
-
-Getting started guide for the *cloudlaunch interface* prior to September 2015
-can be found [here](/src/cloudman/getting-started/pre201509/index.md).
