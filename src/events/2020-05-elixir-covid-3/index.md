@@ -8,6 +8,6 @@ location: "Galaxy-ELIXIR webinar series, Online"
 external_url: "https://attendee.gotowebinar.com/register/4607898607259954448"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
-contact: "TBD"
+contact: "Tim Dudgeon, Simon Bray"
 image: 
 ---
