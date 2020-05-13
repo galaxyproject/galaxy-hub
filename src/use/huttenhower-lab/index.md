@@ -18,7 +18,7 @@ comments:
   - "MaAsLin - Multivariate Analysis by Linear Models"
   - "[PICRUSt](http://picrust.github.com/) - Phylogenetic Investigation of Communities by Reconstruction of Unobserved States"
 user_support:
-  - "If you have any comments, questions, or suggestions, please contact [Dr. Huttenhower](http://huttenhower.sph.harvard.edu/contact)."
+  - "If you have any comments, questions, or suggestions, please contact the lab's dedicated forum at https://forum.biobakery.org/"
 quotas:
   - "The tools are available without account creation. However, you are strongly invited to create an account for having access to the history, saved analyses, datasets and workflows."
 citations:
