@@ -7,7 +7,7 @@ continent: GL
 location: "SGCI Webinar Series, Online"
 image: 
 location_url: "https://sciencegateways.org/engage/webinars"
-external_url: "https://sciencegateways.org/engage/webinars#p_p_id_101_INSTANCE_b7INfhQBwyLp_"
+external_url: "https://depot.galaxyproject.org/hub/attachments/events/2020-05-sgci/2020-05-sgci-community.pdf"
 gtn: false
 contact: "Dave Clements"
 ---
