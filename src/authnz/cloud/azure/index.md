@@ -45,7 +45,7 @@ To setup Galaxy to use a service principal, you need to `POST` a payload as the 
 }
 ```
 
-You can obtain `authn_id` by submitting a `GET` request to the `/api/authnz/` API. 
+You can obtain `authn_id` by submitting a `GET` request to the `/authnz/` controller (e.g., `http://127.0.0.1:8080/authnz/` . 
 
 See the following figure as an example, which uses [Postman](https://www.getpostman.com) to send the API requests.
 
