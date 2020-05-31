@@ -51,11 +51,11 @@ Identifying which category an object belongs to.
 Tool | Description | Reference
 --- | --- | ---
 [SVM Classifier](https://ml.usegalaxy.eu/root?tool_id=sklearn_svm_classifier) | Support vector machines (SVMs) for classification| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[NN Classifier](https://ml.usegalaxy.eu/root?tool_id=NN%20Classifier) | Nearest Neighbors Classification | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Ensemble classification](https://ml.usegalaxy.eu/root?tool_id=Ensemble%20classification) | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Discriminant Classifier](https://ml.usegalaxy.eu/root?tool_id=Discriminant%20Classifier) | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Generalized linear](https://ml.usegalaxy.eu/root?tool_id=Generalized%20linear) | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[CLF Metrics](https://ml.usegalaxy.eu/root?tool_id=CLF%20Metrics) | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[NN Classifier](https://ml.usegalaxy.eu/root?tool_id=sklearn_nn_classifier) | Nearest Neighbors Classification | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Ensemble classification](https://ml.usegalaxy.eu/root?tool_id=sklearn_ensemble) | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Discriminant Classifier](https://ml.usegalaxy.eu/root?tool_id=sklearn_discriminant_classifier) | Linear and Quadratic Discriminant Analysis| [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Generalized linear](https://ml.usegalaxy.eu/root?tool_id=sklearn_generalized_linear) | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[CLF Metrics](https://ml.usegalaxy.eu/root?tool_id=sklearn_clf_metrics) | Calculate metrics for classification performance  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Regression
@@ -64,9 +64,9 @@ Predicting a continuous-valued attribute associated with an object.
 
 Tool | Description | Reference
 --- | --- | ---
-[Ensemble regression](https://ml.usegalaxy.eu/root?tool_id=Ensemble%20regression) | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Generalized linear](https://ml.usegalaxy.eu/root?tool_id=Generalized%20linear) | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Regression metrics](https://ml.usegalaxy.eu/root?tool_id=Regression%20metrics) | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Ensemble regression](https://ml.usegalaxy.eu/root?tool_id=sklearn_ensemble) | Ensemble methods for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Generalized linear](https://ml.usegalaxy.eu/root?tool_id=sklearn_generalized_linear) | Generalized linear models for classification and regression | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Regression metrics](https://ml.usegalaxy.eu/root?tool_id=sklearn_regression_metrics) | Calculate metrics for regression performance | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Clustering
@@ -75,7 +75,7 @@ Automatic grouping of similar objects into sets.
 
 Tool | Description | Reference
 --- | --- | ---
-[Numeric clustering](https://ml.usegalaxy.eu/root?tool_id=Numeric%20clustering) | Different numerical clustering algorithms | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Numeric clustering](https://ml.usegalaxy.eu/root?tool_id=sklearn_numeric_clustering) | Different numerical clustering algorithms | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Model building
@@ -84,10 +84,10 @@ Building general machine learning models.
 
 Tool | Description | Reference
 --- | --- | ---
-[Estimator Attributes](https://ml.usegalaxy.eu/root?tool_id=Estimator%20Attributes) | Estimator attributes to get all attributes from an estimator or scikit object | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Stacking Ensemble Models](https://ml.usegalaxy.eu/root?tool_id=Stacking%20Ensemble%20Models) | Stacking Ensembles to build stacking, voting ensemble models with numerous base options | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Search CV](https://ml.usegalaxy.eu/root?tool_id=Search%20CV) | Hyperparameter Search performs hyperparameter optimization using various SearchCVs  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Build Pipeline](https://ml.usegalaxy.eu/root?tool_id=Build%20Pipeline) | Pipeline Builder as an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Estimator Attributes](https://ml.usegalaxy.eu/root?tool_id=sklearn_estimator_attributes) | Estimator attributes to get all attributes from an estimator or scikit object | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Stacking Ensemble Models](https://ml.usegalaxy.eu/root?tool_id=sklearn_stacking_ensemble_models) | Stacking Ensembles to build stacking, voting ensemble models with numerous base options | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Search CV](https://ml.usegalaxy.eu/root?tool_id=sklearn_searchcv) | Hyperparameter Search performs hyperparameter optimization using various SearchCVs  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Build Pipeline](https://ml.usegalaxy.eu/root?tool_id=sklearn_build_pipeline) | Pipeline Builder as an all-in-one platform to build pipeline, single estimator, preprocessor and custom wrappers | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Model evaluation
@@ -96,12 +96,12 @@ Evaluation, validating and choosing parameters and models.
 
 Tool | Description | Reference
 --- | --- | ---
-[Model validation](https://ml.usegalaxy.eu/root?tool_id=Model%20validation) | Model Validation includes cross_validate, cross_val_predict, learning_curve, and more | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Pairwise Metrics](https://ml.usegalaxy.eu/root?tool_id=Pairwise%20Metrics) | Evaluate pairwise distances or compute affinity or kernel for sets of samples | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Train/Test evaluation](https://ml.usegalaxy.eu/root?tool_id=Train/Test%20evaluation) | Train, Test and Evaluation to fit a model using part of dataset and evaluate using the rest | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Model Prediction](https://ml.usegalaxy.eu/root?tool_id=Model%20Prediction) | Model Prediction predicts on new data using a preffited model | [Chollet et al. 2011](https://keras.io)
-[Fitted model evaluation](https://ml.usegalaxy.eu/root?tool_id=Fitted%20model%20evaluation) | Evaluate a Fitted Model using a new batch of labeled data | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Model fitting](https://ml.usegalaxy.eu/root?tool_id=Model%20fitting) | Fit a Pipeline, Ensemble or other models using a labeled dataset | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Model validation](https://ml.usegalaxy.eu/root?tool_id=sklearn_model_validation) | Model Validation includes cross_validate, cross_val_predict, learning_curve, and more | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Pairwise Metrics](https://ml.usegalaxy.eu/root?tool_id=sklearn_pairwise_metrics) | Evaluate pairwise distances or compute affinity or kernel for sets of samples | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Train/Test evaluation](https://ml.usegalaxy.eu/root?tool_id=sklearn_train_test_eval) | Train, Test and Evaluation to fit a model using part of dataset and evaluate using the rest | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Model Prediction](https://ml.usegalaxy.eu/root?tool_id=model_prediction) | Model Prediction predicts on new data using a preffited model | [Chollet et al. 2011](https://keras.io)
+[Fitted model evaluation](https://ml.usegalaxy.eu/root?tool_id=sklearn_fitted_model_eval) | Evaluate a Fitted Model using a new batch of labeled data | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Model fitting](https://ml.usegalaxy.eu/root?tool_id=sklearn_model_fit) | Fit a Pipeline, Ensemble or other models using a labeled dataset | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Preprocessing and feature selection
@@ -110,8 +110,8 @@ Feature selection and preprocessing.
 
 Tool | Description | Reference
 --- | --- | ---
-[Data preprocessing](https://ml.usegalaxy.eu/root?tool_id=Data%20preprocessing) | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Feature selection](https://ml.usegalaxy.eu/root?tool_id=Feature%20selection) | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Data preprocessing](https://ml.usegalaxy.eu/root?tool_id=sklearn_data_preprocess) | Preprocess raw feature vectors into standardized datasets  | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Feature selection](https://ml.usegalaxy.eu/root?tool_id=sklearn_feature_selection) | Feature Selection module, including univariate filter selection methods and recursive feature elimination algorithm | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Deep learning
@@ -120,10 +120,10 @@ Build and use deep neural networks.
 
 Tool | Description | Reference
 --- | --- | ---
-[Batch Models](https://ml.usegalaxy.eu/root?tool_id=Batch%20Models) | Build Deep learning Batch Training Models with online data generator for Genomic/Protein sequences and images | [Chollet et al. 2011](https://keras.io)
-[Model Builder](https://ml.usegalaxy.eu/root?tool_id=Model%20Builder) | Create deep learning model with an optimizer, loss function and fit parameters | [Chollet et al. 2011](https://keras.io)
-[Model Config](https://ml.usegalaxy.eu/root?tool_id=Model%20Config) | Create a deep learning model architecture using Keras | [Chollet et al. 2011](https://keras.io)
-[Train and evaluation](https://ml.usegalaxy.eu/root?tool_id=Train%20and%20evaluation) | Deep learning training and evaluation either implicitly or explicitly  | [Chollet et al. 2011](https://keras.io)
+[Batch Models](https://ml.usegalaxy.eu/root?tool_id=keras_batch_models) | Build Deep learning Batch Training Models with online data generator for Genomic/Protein sequences and images | [Chollet et al. 2011](https://keras.io)
+[Model Builder](https://ml.usegalaxy.eu/root?tool_id=keras_model_builder) | Create deep learning model with an optimizer, loss function and fit parameters | [Chollet et al. 2011](https://keras.io)
+[Model Config](https://ml.usegalaxy.eu/root?tool_id=keras_model_config) | Create a deep learning model architecture using Keras | [Chollet et al. 2011](https://keras.io)
+[Train and evaluation](https://ml.usegalaxy.eu/root?tool_id=keras_train_and_eval) | Deep learning training and evaluation either implicitly or explicitly  | [Chollet et al. 2011](https://keras.io)
 
 
 ## Visualization
@@ -132,9 +132,9 @@ Plotting and visualization.
 
 Tool | Description | Reference
 --- | --- | ---
-[Regression performance plots](https://ml.usegalaxy.eu/root?tool_id=Regression%20performance%20plots) | Plot actual vs predicted curves and residual plots of tabular data |
-[ML performance plots](https://ml.usegalaxy.eu/root?tool_id=ML%20performance%20plots) | Plot confusion matrix, precision, recall and ROC and AUC curves of tabular data |
-[Visualization](https://ml.usegalaxy.eu/root?tool_id=Visualization) | Machine Learning Visualization Extension includes several types of plotting for machine learning | [Chollet et al. 2011](https://keras.io)
+[Regression performance plots](https://ml.usegalaxy.eu/root?tool_id=plotly_regression_performance_plots) | Plot actual vs predicted curves and residual plots of tabular data |
+[ML performance plots](https://ml.usegalaxy.eu/root?tool_id=plotly_ml_performance_plots) | Plot confusion matrix, precision, recall and ROC and AUC curves of tabular data |
+[Visualization](https://ml.usegalaxy.eu/root?tool_id=ml_visualization_ex) | Machine Learning Visualization Extension includes several types of plotting for machine learning | [Chollet et al. 2011](https://keras.io)
 
 
 ## Utilities
@@ -143,11 +143,11 @@ General data and table manipulation tools.
 
 Tool | Description | Reference
 --- | --- | ---
-[Table compute](https://ml.usegalaxy.eu/root?tool_id=Table%20compute) | The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices. |
-[Datamash operations](https://ml.usegalaxy.eu/root?tool_id=Datamash%20operations) | Datamash operations on tabular data |
-[Datamash transpose](https://ml.usegalaxy.eu/root?tool_id=Datamash%20transpose) | Transpose rows/columns in a tabular file |
-[Sample Generator](https://ml.usegalaxy.eu/root?tool_id=Sample%20Generator) | Generate random samples with controlled size and complexity | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
-[Train/Test splitting](https://ml.usegalaxy.eu/root?tool_id=Train/Test%20splitting) | Split Dataset into training and test subsets | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Table compute](https://ml.usegalaxy.eu/root?tool_id=table_compute) | The power of the pandas data library for manipulating and computing expressions upon tabular data and matrices. |
+[Datamash operations](https://ml.usegalaxy.eu/root?tool_id=datamash_ops) | Datamash operations on tabular data |
+[Datamash transpose](https://ml.usegalaxy.eu/root?tool_id=datamash_transpose) | Transpose rows/columns in a tabular file |
+[Sample Generator](https://ml.usegalaxy.eu/root?tool_id=sklearn_sample_generator) | Generate random samples with controlled size and complexity | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+[Train/Test splitting](https://ml.usegalaxy.eu/root?tool_id=sklearn_train_test_split) | Split Dataset into training and test subsets | [Pedregosa et al. 2011](http://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
 
 ## Interactive Environments
@@ -168,5 +168,6 @@ Tool | Description | Reference
 - [Bjoern Gruening](https://github.com/bgruening)
 - [Alireza Khanteymoori](https://github.com/khanteymoori)
 - [Simon Bray](https://github.com/simonbray)
+- [Vahid Jalili](https://github.com/VJalili)
 
 
