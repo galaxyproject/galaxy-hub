@@ -18,6 +18,7 @@ quotas:
   - "Can be used anonymously, or you can create and account."
 citations:
   - "Damiani, C., Rovida, L., Maspero, D., Sala, I., Rosato, L., Di Filippo, M., Pescini, D., Graudenzi, A., Antoniotti, M., & Mauri, G. (2020). [MaREA4Galaxy: Metabolic reaction enrichment analysis and visualization of RNA-seq data within Galaxy](https://doi.org/10.1016/j.csbj.2020.04.008). *Computational and Structural Biotechnology Journal*, 18, 993–999. https://doi.org/10.1016/j.csbj.2020.04.008"
+  - "Graudenzi, A., Maspero, D., Di Filippo, M., Gnugnoli, M., Isella, C., Mauri, G., ... & Damiani, C. (2018). [Integration of transcriptomic data and metabolic networks in cancer samples reveals highly significant prognostic power](https://doi.org/10.1016/j.jbi.2018.09.010). *Journal of biomedical informatics*, 87, 37-49. https://doi.org/10.1016/j.jbi.2018.09.010"
 pub_libraries:
   - "MaREA4Galaxy" 
 sponsors:
