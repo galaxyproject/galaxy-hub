@@ -13,10 +13,10 @@
 * [A discussion](/src/admin/tools/multiple-output-files/index.md) on outputing multiple individual datasets
 * [Tips on writing secure tools](/src/develop/security-tool-tips/index.md).
 * Tool conversion and generation efforts:
-  * A tool interface generator is maintained at [http://cli-mate.lumc.nl](http://cli-mate.lumc.nl).
   * [argparse2tool](https://github.com/hexylena/argparse2tool) - a drop in replacement of Python's argparse to generate Galaxy tools by Helena Rasche.
   * A [discussion](https://groups.google.com/forum/#!searchin/common-workflow-language/galaxy/common-workflow-language/xa7HeDfIhw4/oAfg2Dk7ZHMJ) on converting common workflow language tool descriptions into Galaxy tools - with prototype by Peter Amstutz.
   * If you need to run an arbitrary working script (Python, Perl, R or Bash currently supported), and optionally turn it into a proper Galaxy tool, the [Tool Factory](https://bitbucket.org/fubar/galaxytoolfactory) can be installed in a local Galaxy from the Main Tool Shed to instantly wrap arbitrary scripts. It will turn these into Tool Shed archives ready to upload to a new repository from where they can be automagically installed into any Galaxy. **Only runs for administrative users** - exposes insecure unrestricted scripting, so only install in private development clones please. Generated tools are as secure as any other Galaxy tools.
+  * Unavailable June 2020: A tool interface generator at [http://cli-mate.lumc.nl](http://cli-mate.lumc.nl). Github last update Aug 15, 2014  [https://git.lumc.nl/humgen/cli-mate](https://git.lumc.nl/humgen/cli-mate).
 * Popular tool repositories on [github](https://github.com/) to contribute to and serve as best practice examples:
   * [tools-iuc](https://github.com/galaxyproject/tools-iuc) - A collection of tools developed and maintained by the the Intergalactic Utilities Commission (the IUC). ([Contributing to tools-iuc](https://github.com/galaxyproject/tools-devteam/blob/master/CONTRIBUTING.md))
   * [tools-devteam](https://github.com/galaxyproject/tools-devteam) - A collection of tools developed and maintained by the 'devteam'. ([Contributing to tools-devteam](https://github.com/galaxyproject/tools-devteam/blob/master/CONTRIBUTING.md))
