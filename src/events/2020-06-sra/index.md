@@ -12,13 +12,13 @@ contact: "Dan Blankenberg, Marius van den Beek, Dave Clements"
 image: "galaxy-sra.png"
 ---
 
-[NCBI's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) is now an integrated data source on [UseGalaxy.org](https://usegalaxy.org), an this functionality is built in to the 20.05 release of Galaxy.  You can go from Galaxy to SRA and then ship selected data directly back to the Galaxy you came from.
+[NCBI's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to go from Galaxy to SRA and then ship selected data directly back to the Galaxy instance you came from.
 
-This webinar will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be on June 24, at Noon, Eastern US time (GMT -4).
+This webinar will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).
 
 **About SRA**
 
-The SRA is NIH's primary archive of high-throughput sequencing data and is part of the International Nucleotide Sequence Database Collaboration (INSDC) that includes at the NCBI Sequence Read Archive (SRA), the European Bioinformatics Institute (EBI), and the DNA Database of Japan (DDBJ). Data submitted to any of the three organizations are shared among them. The [SRA is enormous, and growing exponentially](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?).
+The [SRA](https://www.ncbi.nlm.nih.gov/sra) is NIH's primary archive of high-throughput sequencing data and is part of the International Nucleotide Sequence Database Collaboration (INSDC) that includes at the NCBI Sequence Read Archive (SRA), the European Bioinformatics Institute (EBI), and the DNA Database of Japan (DDBJ). Data submitted to any of the three organizations are shared among them. The SRA is a superb resource for genomics data, and it [is growing exponentially](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?).
 
 **About Galaxy**
 
