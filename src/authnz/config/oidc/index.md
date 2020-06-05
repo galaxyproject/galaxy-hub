@@ -3,11 +3,15 @@ title: User Authentication Using Social and Institutional Identities
 highlight: true
 ---
 
-_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/index.md) page._
+_This page explains how to configure this feature as an administrator,
+for user-specific docs, please refer to the [Use page](/src/authnz/use/oidc/index.md)._
 
-Leveraging the OpenID Connect (OIDC) protocol users can login to Galaxy using their social and institutional
-identities (e.g., their Google account). This method allows for new user registration or linking of an existing
-Galaxy user account with external identities.
+Leveraging the [OpenID Connect (OIDC)
+protocol](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
+users can login to Galaxy using their social and institutional identities
+(e.g., their University or Google account). This method allows for new user
+registration or linking of an existing Galaxy user account with external
+identities.
 
 
 **Related publications:**
@@ -16,27 +20,31 @@ Galaxy user account with external identities.
 
 # Supported Identity Providers
 
-Before using OIDC-based login, it is necessary for a Galaxy system administrator
-to configure their Galaxy instance as well as obtain the necessary registrations
-from the Identity Providers (IdP).The IdP needs to support the OIDC protocol and
-Galaxy currently supports the following OIDC IdPs:
+Before using OIDC-based login, it is necessary for a Galaxy system
+administrator to configure their Galaxy instance (see below) as well as obtain
+the necessary registrations from the Identity Providers (IdP).The IdP needs to
+support the OIDC protocol and Galaxy currently supports the following OIDC
+IdPs:
 
-- Google: [how to configure Google](/src/authnz/config/oidc/idps/google/index.md)
-- Elixir AAI: [how to configure Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
-- Globus: [how to configure Globus](/src/authnz/config/oidc/idps/globus/index.md)
-- CILogon: [how to configure CILogon](/src/authnz/config/oidc/idps/cilogon/index.md)
-- Custos: [how to configure Custos](/src/authnz/config/oidc/idps/custos/index.md)
-- Okta: [how to configure Okta](/src/authnz/config/oidc/idps/okta/index.md)
+- [CILogon](/src/authnz/config/oidc/idps/cilogon/index.md)
+- [Custos](/src/authnz/config/oidc/idps/custos/index.md)
+- [Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
+- [Globus](/src/authnz/config/oidc/idps/globus/index.md)
+- [Google](/src/authnz/config/oidc/idps/google/index.md)
+- [Okta](/src/authnz/config/oidc/idps/okta/index.md)
+
 
 # Enable OIDC-based Login
 
-The OIDC-based login is disabled by default, and to enable it take the following steps:
+The OIDC-based login in Galaxy is disabled by default, and to enable it take
+the following steps:
 
-1. In your Galaxy instance directory, go to the `/config` folder and create a copy
-of `galaxy.yml.sample` and name it `galaxy.yml`; if you have not done that yet.
+1. In your Galaxy home directory, go to the `config` folder and create a copy
+of `galaxy.yml.sample` and name it `galaxy.yml` if you have not done that yet.
 
-2. Open the `/config/galaxy.yml` file, and uncomment `enable_oidc`, `oidc_config_file`, and `oidc_backends_config_file`
-attributes and set them as the following:
+2. Open the `config/galaxy.yml` file, and uncomment `enable_oidc`,
+   `oidc_config_file`, and `oidc_backends_config_file` attributes and set them
+   as follows:
 
     ```
     # Enables and disables OpenID Connect (OIDC) support.
@@ -49,161 +57,42 @@ attributes and set them as the following:
     oidc_backends_config_file: config/oidc_backends_config.xml
     ```
 
-3. Create the `config/oidc_config.xml` and `config/oidc_backends_config.xml` using their sample. See the following
-section on how to set each of these files.
+3. Create the `config/oidc_config.xml` and `config/oidc_backends_config.xml`
+   files by copying their `.sample` files. The following sections describe the
+   attributes of those files while the IdP-specific pages listed above provide
+   details on setting up the specific provider. Make sure to refer to the
+   provider-specific documentation because each provider requires and supports
+   a slightly different set of attributes.
 
-
-# Configure OIDC Backends
-
-The OIDC IdPs are configured in the `config/oidc_backends_config.xml`, via a `provider` block per IdP.
-There could be multiple providers defined in this file, and each provider is configured with settings specific
-to that IdP. The following default configurations currently exist:
-
-```xml
-<?xml version="1.0"?>
-<OIDC>
-    <provider name="Custos">
-        <url> ... </url>
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8000/authnz/custos/callback</redirect_uri>
-        <realm> ... </realm>
-    </provider>
-    <provider name="Google">
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8080/authnz/google/callback</redirect_uri>
-        <prompt>consent</prompt>
-    </provider>
-    <provider name="Globus">
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8080/authnz/globus/callback</redirect_uri>
-        <prompt>consent</prompt>
-    </provider>
-    <provider name="Elixir">
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost:8080/authnz/elixir/callback</redirect_uri>
-        <prompt>consent</prompt>
-    </provider>
-    <provider name="Okta">
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
-        <redirect_uri>http://localhost;8080/authnz/okta/callback</redirect_uri>
-        <api_url>https://organization.okta.com/oauth2</api_url>
-    </provider>
-</OIDC>
-```
-
-Since all providers are OIDC-based IdPs, they have mostly common configuration keys
-(e.g., `client_id` and `client_secret`). In the following we explain the most common
-configuration keys, and you may visit aforementioned provider configuration pages for
-their specific configuration keys.
-
-Also note that you may define multiple **different** IdPs, but you cannot define
-multiple instances of same IdP (e.g., you cannot have multiple `Google` configurations).
-
-## Client ID
-
-The **Client ID** attribute is a string that identifies your Galaxy instance to the IdP, and it is unique to the IdP:
-
-> A unique string representing the registration information provided by the client.
-The client identifier is not a secret; it is exposed to the resource owner and MUST NOT be used
-alone for client authentication. The [client identifier](https://tools.ietf.org/html/rfc6749#section-2.2)
-is unique to the authorization server.
-
-You obtain this ID when registering your Galaxy instance with the IdP (see the aforementioned links on how to
-register your Galaxy instance (aka client) with different providers). Having obtained the **Client ID** attribute,
-you may set it using the following configuration option:
-
-```xml
-<client_id> ... </client_id>
-```
-
-## Client Secret
-
-The **Client Secret** attribute is a string generated by IdP for your client upon its registration
-with the IdP. You may use the following configuration option for client secret:
-
-```xml
-<client_secret> ... </client_secret>
-```
-
-## Redirect URI
-
-The **Redirect URI** is the absolute endpoint that you provide it to the IdP when registering your
-Galaxy instance, and the IdP will your Galaxy instance at that URI upon successful user authentication:
-
-
-> After completing its interaction with the resource owner, the authorization server
-directs the resource owner's user-agent back to the client. The authorization server
-redirects the user-agent to the client's redirection endpoint previously established
-with the authorization server during the client registration process or when making
-the authorization request.
-The [redirection endpoint URI MUST be an absolute URI](https://tools.ietf.org/html/rfc6749#section-3.1.2).
-
-This URL for your Galaxy instance is composed as:
-
-```
-<Host URI>/authnz/<provider>/callback
-```
-
-For instance:
-
-- using localhost to authenticate with Google:
-
-    ```
-    http://localhost:8080/authnz/google/callback
-    ```
-
-- using localhost to authenticate with Globus:
-
-    ```
-    http://localhost:8080/authnz/globus/callback
-    ```
-
-- using an instance hosted at `https://usegalaxy.org` with Google:
-
-    ```
-    https://usegalaxy.org/authnz/google/callback
-    ```
-
-Please mind `http` and `https`.
-
-Having defined your instance URI for an IdP following the aforementioned template,
-set it as the following Galaxy, and use the same URI for your client registration.
-
-```xml
-<redirect_uri> ... </redirect_uri>
-```
-
-For instance:
-
-```xml
-<redirect_uri>http://localhost:8080/authnz/google/callback</redirect_uri>
-```
 
 # Global OIDC Configuration
 
-Some configurations are common between all the IdPs, these configurations are set in the `oidc_config.xml` file.
-Currently, the following properties are set in via this file:
+Some configurations are common between all the IdPs. These configurations are
+set in the `config/oidc_config.xml` file. Currently, the following properties
+are set via this file:
 
-- **Verify SSL**: sets whether the hosts SSL certificates for HTTPS requests shall be verified, or not. See
-[this documentation](http://docs.python-requests.org/en/v1.0.4/user/advanced/#ssl-cert-verification) for details.
+- **Verify SSL**: sets whether the hosts SSL certificates for HTTPS requests
+  shall be verified or not. See [this
+  documentation](http://docs.python-requests.org/en/v1.0.4/user/advanced/#ssl-cert-verification)
+  for details.
 
-- **Requests Timeout**: sets the maximum number of seconds Galaxy should wait for a response from the IdP.
-See [this documentation](http://docs.python-requests.org/en/master/user/advanced/#timeouts) for details.
+- **Requests Timeout**: sets the maximum number of seconds Galaxy should wait
+  for a response from the IdP. See [this
+  documentation](http://docs.python-requests.org/en/master/user/advanced/#timeouts)
+  for details.
 
-- **ID Token Max Age**: sets the duration of time, in seconds, starting from the token issue time, during which
-the token must be valid. This number will be sent to IdP, requesting for token valid for the given seconds. Note that
-this number set the **maximum** duration for token validity; however, a token can be invalidated by IdP upon the
-resource owner's request, even before the expiration time has reached.
+- **ID Token Max Age**: sets the duration of time, in seconds, starting from
+  the token issue time, during which the token must be valid. This number will
+  be sent to IdP, requesting the token to be valid for the number of given
+  seconds. Note that this number set the **maximum** duration for token
+  validity. A token may be invalidated by an IdP upon the resource owner's
+  request, even before the expiration time has reached.
 
 
-To configure OIDC IdPs with these attributes, you would need to add a `Setter` in the `oidc_config.xml` file.
-The `setter` takes the a `Property` (e.g., `VERIFY_SSL`), a `Value` for that property, and the `Type` of that
-value. For instance:
+To configure OIDC IdPs with these attributes, you would need to add a `Setter`
+tag in the `oidc_config.xml` file. The `Setter` tag takes `Property` (e.g.,
+`VERIFY_SSL`), `Value`, and `Type` attributes that define the desired property.
+For instance:
 
 ```xml
 <Setter Property="VERIFY_SSL" Value="False" Type="bool"/>
@@ -229,3 +118,109 @@ The following is an example on how to setup this file:
 </OIDC>
 ```
 
+
+# OIDC configuration options for Identity Providers
+
+Which OIDC IdPs are enabled and configured is defined in the
+`config/oidc_backends_config.xml` file. Each `provider` block enables and
+defines an IdP. There could be multiple providers defined in this file and each
+provider needs to be configured with settings specific to that IdP. Note that you may
+define multiple **different** IdPs, but you cannot define multiple instances of
+same IdP (e.g., you cannot have multiple `Google` configurations).
+
+The following is a sample configuration for a provider. Configuration
+attributes required by all providers are described below. Each provider
+supports additional attributes, some required and some optional so make sure to
+look at the provider-specific pages for how to configure it.
+
+```xml
+<?xml version="1.0"?>
+<OIDC>
+    <provider name="Custos">
+        <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
+        <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
+        <redirect_uri>http://localhost:8000/authnz/custos/callback</redirect_uri>
+        <realm>master</realm>
+        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/.well-known/openid-configuration</url>
+    </provider>
+</OIDC>
+```
+
+## Client ID
+
+The **client_id** is a required string attribute that identifies your Galaxy
+instance to the IdP. It is obtained from the IdP and it is unique to the IdP.
+The [client identifier](https://tools.ietf.org/html/rfc6749#section-2.2) is not
+a secret; it is exposed to the resource owner and must not be used alone for
+client authentication.
+
+You need to obtain this ID by registering your Galaxy instance with an IdP. See
+the aforementioned links on how to register your Galaxy instance (aka client)
+with the specific providers. Having obtained the ID, set it using the following
+attribute:
+
+```xml
+<client_id> ... </client_id>
+```
+
+## Client Secret
+
+The **client_secret** is a required string attribute generated by IdP for your
+Galaxy client upon its registration with the IdP. You may use the following
+configuration option for client secret:
+
+```xml
+<client_secret> ... </client_secret>
+```
+
+## Redirect URI
+
+The **redirect_uri** is a required attribute representing the absolute endpoint
+of your Galaxy instance. You provide the [redirect
+URI](https://tools.ietf.org/html/rfc6749#section-3.1.2) to the IdP when
+registering your Galaxy instance and the IdP will call back your Galaxy
+instance at that URI upon successful user authentication.
+
+In the case of Galaxy, this redirect URI has the following structure:
+
+```
+<Host URI>/authnz/<provider>/callback
+```
+
+where the `Host URI` is the domain name of your Galaxy server and the
+`provider` is one of the OIDC provider names supported by Galaxy, as listed
+above. For instance:
+
+- When using `localhost` to authenticate with Google:
+
+    ```
+    http://localhost:8080/authnz/google/callback
+    ```
+
+- When using `localhost` to authenticate with Globus:
+
+    ```
+    http://localhost:8080/authnz/globus/callback
+    ```
+
+- When using an instance hosted at `https://usegalaxy.org` with Google:
+
+    ```
+    https://usegalaxy.org/authnz/google/callback
+    ```
+
+Please mind `http` and `https`.
+
+Having defined your instance URI for an IdP following the aforementioned
+template, set it as the following configuration attribute and use the same URI
+for when registering your Galaxy as a client with an IdP.
+
+```xml
+<redirect_uri> ... </redirect_uri>
+```
+
+For instance:
+
+```xml
+<redirect_uri>http://localhost:8080/authnz/google/callback</redirect_uri>
+```
