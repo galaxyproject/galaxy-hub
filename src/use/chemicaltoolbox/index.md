@@ -13,6 +13,8 @@ comments:
   - "Almost a hundred different tools for cheminformatics and molecular dynamics have been integrated into the ChemicalToolbox"
   - "The public server is hosted by the UesGalaxy.eu team."
 user_support:
+  - "[Training materials](https://galaxyproject.github.io/training-material/topics/computational-chemistry)"
+  - "Documentation for our most recent project using the ChemicalToolbox, [Virtual screening of the SARS-CoV-2 main protease](https://covid19.galaxyproject.org/cheminformatics)."
   - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
 quotas:
