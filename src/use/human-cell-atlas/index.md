@@ -19,7 +19,9 @@ user_support:
 quotas:
   - "Storage and computational quotas."
 citations:
+  - "Moreno, P., Huang, N., Manning, J. R., Mohammed, S., Solovyev, A., Polanski, K., Chazarra, R., Talavera-Lopez, C. A., Doyle, M., Marnier, G., Gruening, B. A., Rasche, H., Bacon, W., Perez-Riverol, Y., Haeussler, M., Meyer, K. B., Teichmann, S., & Papatheodorou, I. (2020). [User-friendly, scalable tools and workflows for single-cell analysis](https://doi.org/10.1101/2020.04.08.032698). *BioRxiv*, 2020.04.08.032698. https://doi.org/10.1101/2020.04.08.032698"  
 pub_libraries:
+  - "Human Cell Atlas"
 sponsors:
   - "Tools available under HCA-Single Cell section were mainly brought to Galaxy by the [Gene Expression Team](https://www.ebi.ac.uk/about/people/irene-papatheodorou) at [EMBL-EBI](https://www.ebi.ac.uk/) and the [Teichmann Team](https://www.sanger.ac.uk/science/groups/teichmann-group) at the [Wellcome Sanger Institute](https://www.sanger.ac.uk/)."
 ---
