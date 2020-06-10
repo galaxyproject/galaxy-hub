@@ -1,7 +1,7 @@
 ---
 title: 'June 2020 Galactic News'
 tease: "James Taylor Foundation, BCC2020, "
-date: ""
+date: "2020-06-11"
 ---
 
 # In the June 2020 issue
@@ -161,10 +161,10 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 
 June is an active month for the Scientific Gateways Community Institute:
 
-* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor
 * **[Jumpstart Your Sustainability Plan mini-course](https://sciencegateways.org/engage/focus-week/jumpstart)**
   * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
-  * Register by June 12, 2020:
+  * **Register by June 12, 2020**
+* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor
 </div>
 
 
@@ -197,14 +197,13 @@ so far.  Look for more as the schedule comes online.
 
 There are
 
-* [Over 20 upcoming events](/src/events/index.md) (most of them virtual)
-* covering proteomics and mass-spec, COVID-19, variant detection, assembly, machine learning, metagenomics, RNA-Seq and more.
+* [20 upcoming events](/src/events/index.md) (most of them virtual)
+* covering COVID-19, variant detection, assembly, machine learning, accessing SRA, metabarcoding, bioinformatics education, RNA-Seq and more.
 
 And material from some recent past events is now available:
 
-* Videos of all 5 sessions in the [Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) are now available on the workshop series page.
+* **Videos of all 5 sessions in the [Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) are now available**.
 * Slides and video for the webinar [Galaxy Project—Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community?inheritRedirect=true&redirect=%2Fengage%2Fwebinar-archive) are online.
-
 </div>
 </div>
 
