@@ -53,7 +53,7 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
 <img class="card-img-top" src="/src/events/bcc2020/maps-math.png" alt="BCC2020 is Accessible" />
 <div class="card-header">BCC2020 is Accessible</div>
 
-Going [online](https://bcc2020.github.io/blog/going-virtual) and [global](https://bcc2020.github.io/blog/going-global)), combined with [low registration rates]()https://bcc2020.github.io/Registration/, **makes this the most accessible Galaxy or BOSC conference ever.**  If you work in open source bioinformatics, *anywhere in the world*, then this is 2020’s best opportunity to share your work and learn from others.
+Going [online](https://bcc2020.github.io/blog/going-virtual) and [global](https://bcc2020.github.io/blog/going-global)), combined with [low registration rates](https://bcc2020.github.io/Registration/), **makes this the most accessible Galaxy or BOSC conference ever.**  If you work in open source bioinformatics, *anywhere in the world*, then this is 2020’s best opportunity to share your work and learn from others.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -104,9 +104,9 @@ Please welcome Broad Institute's Data Sciences Platform as a **Silver Level spon
 <img class="card-img-top" src="/src/images/logos/ssi-logo.png" alt="Software Sustainability Institute (SSI)" />
 <div class="card-header"></div>
 
-The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The SSI provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”. 
+The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The Institute provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”. 
 
-Please welcome the Software Sustainability Iinstitute as a **Gold Level sponsor of BCC2020**.
+Please welcome the Software Sustainability Institute as a **Gold Level sponsor of BCC2020**.
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
@@ -169,7 +169,7 @@ June is an active month for the Scientific Gateways Community Institute:
 
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-06-ml/ml-workshop-flyer.png" alt="Workshop Flyer for Machine Learning Using Galaxy Workshop this month. Register by June 16." />
+<img class="card-img-top" src="/src/events/2020-06-ml/ml-workshop-flyer.png" alt="Workshop Flier for Machine Learning Using Galaxy Workshop this month. Register by June 16." />
 <div class="card-header"></div>
 
 [This workshop](https://galaxyproject.eu/event/2020-05-27-Machine-Learning-Elixir/) will be held online 22-26 June.  **Registration deadline is 16 June!**
@@ -285,7 +285,7 @@ Platforms that were referenced/used *at least twice* in recent publications:
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Galaxy Machine Learning Community Hub Page](/src/community/machine-learning/index.md)</div>
 
-Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](community/machine-learning/index.md) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
+Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/src/community/machine-learning/index.md) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
 
 <img class="card-img-bottom" src="/images/communities/machine_learning_logo.png" alt="Galaxy Machine Learning Community Hub" />
 </div>
@@ -369,7 +369,7 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
 <div class="card-header">[blend4php release v0.1](https://github.com/galaxyproject/blend4php)</div>
 
-The first full stable realease of the [blend4php package](https://github.com/galaxyproject/blend4php) is out. blend4*php* is a PHP wrapper for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
+The first full stable release of the [blend4php package](https://github.com/galaxyproject/blend4php) is out. blend4*php* is a PHP wrapper for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
 <img class="card-img-bottom" src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" />
 </div>
@@ -512,7 +512,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header">[Apply for Open Life Science cohort 2 by 30 June](https://openlifesci.org/posts/2020/05/27/ols1-wrapup/#announcing-ols-2---please-share-with-your-networks)</div>
 
-[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If youare an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2). 
+[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If you are an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2). 
 
 <img class="card-img-bottom" src="/src/images/logos/open-life-science-logo.png" alt="Open Life Science" />
 

@@ -64,7 +64,7 @@ We miss you James.
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
-<div class="card-header">[BOSC + GCC = BCC2020]((https://bcc2020.github.io/)</div>
+<div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
 The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
@@ -293,7 +293,7 @@ By Michael Thompson.
 
 Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.T) describes his experience at the 2020 Galaxy Admin Training in Barcelona.
 
-<img class="card-img-bottom" src="/events/2020-03-admin/2020-galaxy-admin-participants.jpg " alt="Galaxy Admin 2020 Participants" />
+<img class="card-img-bottom" src="/src/events/2020-03-admin/2020-galaxy-admin-participants.jpg" alt="Galaxy Admin 2020 Participants" />
 </div>
 
 
@@ -326,7 +326,7 @@ The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[CoralSNP](/use/coral-snop/index.md)</div>
+<div class="card-header">[CoralSNP](/use/coral-snp/index.md)</div>
 
 <img class="card-img-top" src="/src/use/coral-snp/coral.jpg" alt="Coral!" />
 
@@ -462,7 +462,7 @@ How to set up your own *[Training Infrastructure as a Service (TIaaS)](https://g
 
 By Jennifer Hillman-Jackson.
 
-* [How to find hard-to-locate histories and datasets](src/support/missing-history/index.md b/src/support/missing-history/index.md)
+* [How to find hard-to-locate histories and datasets](/src/support/missing-history/index.md)
 * [New guidelines for downloading large datasets and troubleshooting downloads](/src/support/download-data/index.md)
 * [Account quotas](/src/support/account-quotas/index.md)
 
@@ -551,7 +551,7 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release/index.md)</div>
+<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release-20-01/index.md)</div>
 
 See 
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
