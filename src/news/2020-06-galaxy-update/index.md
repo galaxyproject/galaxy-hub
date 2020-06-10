@@ -1,6 +1,6 @@
 ---
 title: 'June 2020 Galactic News'
-tease: "James Taylor, BCC2020, COVID-19 Response, and more"
+tease: "James Taylor Foundation, BCC2020, "
 date: ""
 ---
 
@@ -8,17 +8,15 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
+* **[James Taylor Foundation](#jtech-the-james-taylor-foundation)**
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
-  * **All abstracts are due May 8**
-* **[Galaxy COVID-19 Response](#galaxy-covid-19-response)**
-* [Upcoming events](#upcoming-events)
-* [Blog posts](#galactic-blog-activity)
+* **[Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)**
+* [Upcoming events](#more-upcoming-events)
 * [Galaxy Platform News](#galaxy-platforms-news)
-* [Training material and doc updates](/src/news/2020-06-galaxy-update/index.md#doc-hub-and-training-updates)
+* [Training material and doc updates](#doc-hub-and-training-updates)
 * [Who's Hiring](#whos-hiring)
 * [New Releases](#releases)
-* [New publications](/src/news/2020-06-galaxy-update/index.md#publications) (671 of them)
+* [New publications](#publications) (255 of them)
 * And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -177,7 +175,6 @@ June is an active month for the Scientific Gateways Community Institute:
 [This workshop](https://galaxyproject.eu/event/2020-05-27-Machine-Learning-Elixir/) will be held online 22-26 June.  **Registration deadline is 16 June!**
 
 *The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/src/people/bjoern-gruening/index.md).*
-
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -313,29 +310,21 @@ Introduces the data analysis from raw data files to protein identification and q
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
+<div class="card-header">[Galaxy Code Architecture Slide Deck](https://training.galaxyproject.org/training-material/topics/dev/tutorials/architecture/slides.html#1)</div>
 
-<img class="card-img-bottom" src="" alt="" />
+This extensive overview slide deck on how Galaxy Code is architected received a major update from [John Chilton](https://training.galaxyproject.org/training-material/hall-of-fame#jmchilton), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena), and [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo).
+
+<img class="card-img-bottom" src="gtn-arch-slice.png" alt="Branches" />
 </div>
 
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
+<div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
+<div class="card-header">Updated: [Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html)</div>
 
-<img class="card-img-bottom" src="" alt="" />
+[Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) posted a major update to this COVID-19 related tutorial. (He added *Frankenstein*.)
+
+<img class="card-img-bottom" src="/src/news/2020-05-galaxy-update/gtn-mpro-slice.png" alt="MPro" />
+
 </div>
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
-
-<img class="card-img-bottom" src="" alt="" />
-</div>
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
-
-<img class="card-img-bottom" src="" alt="" />
-</div>
-
 
 </div>
 
@@ -491,20 +480,12 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[]()</div>
+<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<div class="card-header">[Apply for Open Life Science cohort 2 by 30 June](https://openlifesci.org/posts/2020/05/27/ols1-wrapup/#announcing-ols-2---please-share-with-your-networks)</div>
 
-<img class="card-img-bottom" src="/src/images/logos/python-logo.png" alt="Python 3" />
-</div>
+[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If youare an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2). 
 
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[]()</div>
-
-<img class="card-img-bottom" src="/src/images/logos/python-logo.png" alt="Python 3" />
-</div>
+<img class="card-img-bottom" src="/src/images/logos/open-life-science-logo.png" alt="Open Life Science" />
 
 </div>
 
