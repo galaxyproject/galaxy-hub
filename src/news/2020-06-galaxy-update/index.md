@@ -248,11 +248,7 @@ The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online versio
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * UseGalaxy.eu has surpassed 100,000 *workflow* invocations.
-* [Galaxy Australia processed its one millionth job in January](https://usegalaxy-au.github.io/posts/2020/01/29/one-millionth-job/).
-* [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
-* [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
-URL
-* [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
 </div>
 
 
