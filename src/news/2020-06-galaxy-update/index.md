@@ -59,6 +59,14 @@ Going [online](https://bcc2020.github.io/blog/going-virtual) and [global](https:
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/bcc2020/prash-keynote-banner.png" alt="Prash Suravajhala" />
+<div class="card-header">Our 3rd Keynote Speaker</div>
+
+We are pleased to announce that **Prash Suravajhala** of [BioClues](https://bioclues.org) and the [Birla Institute of Scientific Research](https://bisr.res.in/) will give a keynote address at BCC2020.  Prash is a founder of BioClues, India’s largest bioinformatics society.
+</div>
+
+
+<div class="card border-info" style="min-width: 15rem;">
 <a href="https://bcc2020.github.io/Registration/"><img class="card-img-top" src="bcc2020-half.png" alt="Half off" /></a>
 <div class="card-header">[Save 50% with Early Registration](https://bcc2020.github.io/Registration/)</div>
 
@@ -120,7 +128,7 @@ Interested in helping BCC2020 happen?  See the [sponsorship opportunities page](
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 10rem; max-width: 30rem">
 <img class="card-img-top" src="/src/events/2020-06-sra/galaxy-sra-slice.png" alt="Galaxy ⇄ SRA" />
 <div class="card-header">Webinar: Using the new Galaxy-SRA Connector</div>
 
@@ -155,7 +163,7 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 
 June is an active month for the Scientific Gateways Community Institute:
 
-* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 10, Nate Coraor
+* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor
 * **[Jumpstart Your Sustainability Plan mini-course](https://sciencegateways.org/engage/focus-week/jumpstart)**
   * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
   * Register by June 12, 2020:
@@ -243,6 +251,7 @@ The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online versio
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
+* UseGalaxy.eu has surpassed 100,000 *workflow* invocations.
 * [Galaxy Australia processed its one millionth job in January](https://usegalaxy-au.github.io/posts/2020/01/29/one-millionth-job/).
 * [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
 * [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
@@ -284,15 +293,23 @@ Machine Learning has had an active Galaxy community for a while now, and now tha
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
+<div class="card-header">[Clustering in Machine Learning](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html)</div>
 
-<img class="card-img-bottom" src="" alt="" />
+By [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori) and [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez).
+
+Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering. 
+
+<img class="card-img-bottom" src="gtn-cluster-slice.png" alt="DBSCAN versus the world" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[]()</div>
+<div class="card-header">[Label-free data analysis using MaxQuant](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
-<img class="card-img-bottom" src="" alt="" />
+By [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame#foellmelanie) and [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame#matthias313)
+
+Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software. 
+
+<img class="card-img-bottom" src="gtn-maxquant.jpg" alt="Quantitative serum composition" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
@@ -324,11 +341,35 @@ Machine Learning has had an active Galaxy community for a while now, and now tha
 
 # Who's Hiring
 
-* [Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer), VIB-UGent Center for Plant Systems Biology, Ghent, Belgium
+<div class="card-deck">
 
-* [Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003), Black Canyon Consulting, Bethesda, Maryland, United States
-* [Bioinformatics Software Developer](https://absci.bamboohr.com/jobs/view.php?id=52), AbSci, Vancouver, Washington, United States
-* [Data Scientist](https://neb.wd5.myworkdayjobs.com/en-US/NEB_Careers/job/Ipswich-MA-United-States/Data-Scientist_1193), New England Biolabs, Ipswich, Massachusetts, United States
+<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
+<div class="card-header">[Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer)</div>
+
+[VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
+
+... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis. 
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+</div>
+
+<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
+<div class="card-header">[Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003)</div>
+
+[Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States
+
+<img class="card-img-bottom" src="black-canyon.png" alt="Black Canyon Consulting at NCBI" />
+</div>
+
+<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
+<div class="card-header">[Data Scientist](https://neb.wd5.myworkdayjobs.com/en-US/NEB_Careers/job/Ipswich-MA-United-States/Data-Scientist_1193)</div>
+
+[New England Biolabs](https://www.neb.com/), Ipswich, Massachusetts, United States
+
+<img class="card-img-bottom" src="/src/images/logos/neb-wide.jpg" alt="NEB" />
+</div>
+
+</div>
 
 # Releases
 
@@ -347,7 +388,7 @@ The first full stable realease of the [blend4php package](https://github.com/gal
 
 # Publications
 
-**255 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in April and May.  There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **9 of them are open access**:
+**255 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in April and May.  There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **9 of them are open access**.
 
 <div class="card-deck">
 
