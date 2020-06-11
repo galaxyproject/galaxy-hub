@@ -130,7 +130,7 @@ Interested in helping BCC2020 happen?  See the [sponsorship opportunities page](
 <img class="card-img-top" src="/src/events/2020-06-sra/galaxy-sra-slice.png" alt="Galaxy ⇄ SRA" />
 <div class="card-header">Webinar: Using the new Galaxy-SRA Connector</div>
 
-Galaxy and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework  This webinar will talk about the connection and demonstrate how to use it to get SRA data into Galaxy.
+Galaxy and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework. This webinar will talk about the connection and demonstrate how to use it to get SRA data into Galaxy.
 
 [NIH's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to work with SRA data available from NCBI more easily within the Galaxy framework.
 
@@ -164,7 +164,7 @@ June is an active month for the Scientific Gateways Community Institute:
 * **[Jumpstart Your Sustainability Plan mini-course](https://sciencegateways.org/engage/focus-week/jumpstart)**
   * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
   * **Register by June 12, 2020**
-* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor
+* **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor.
 </div>
 
 
@@ -220,7 +220,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
   - Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
-  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN 
+  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN. 
   - Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
 </div>
 
