@@ -1,6 +1,6 @@
 ---
 title: 'June 2020 Galactic News'
-tease: "James Taylor Foundation, BCC2020, "
+tease: "James Taylor Foundation, BCC2020, Galaxy+SRA, Events, Platforms, ..."
 date: "2020-06-11"
 ---
 
@@ -58,7 +58,7 @@ Going [online](https://bcc2020.github.io/blog/going-virtual) and [global](https:
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/bcc2020/prash-keynote-banner.png" alt="Prash Suravajhala" />
-<div class="card-header">Our 3rd Keynote Speaker</div>
+<div class="card-header">Keynote Speaker: Prash Suravajhala</div>
 
 We are pleased to announce that **Prash Suravajhala** of [BioClues](https://bioclues.org) and the [Birla Institute of Scientific Research](https://bisr.res.in/) will give a keynote address at BCC2020.  Prash is a founder of BioClues, India’s largest bioinformatics society.
 </div>
