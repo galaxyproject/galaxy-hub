@@ -45,23 +45,19 @@ following body, replacing information with your relevant data:
 * Method : POST
 * Body :
     ```
-    {
-        "client_name":"John Doe University",
-        "requester_email":"johndoe@university.edu",
-        "admin_username":"johndoe",
-        "admin_first_name":"John",
-        "admin_last_name":"Doe",
-        "admin_email":"johndoe@university.edu",
-        "contacts":["1234567890"],
-        "redirect_uris":["https://jduniversity.edu/galaxy/authnz/custos/callback"],
-        "domain":"jduniversity.edu",
-        "admin_password":"1234",
-        "client_uri":"jduniversity.edu",
-        "scope":"email profile openId org.cilogon.userinfo",
-        "logo_uri":" ",
-        "application_type":"web",
-        "comment":" "
-    }
+    client_name:John Doe University
+    requester_email:johndoe@university.edu
+    admin_username:johndoe
+    admin_first_name:John
+    admin_last_name:Doe
+    admin_email:johndoe@university.edu
+    contacts:[1234567890]
+    redirect_uris:[https://jduniversity.edu/galaxy/authnz/custos/callback]
+    domain:jduniversity.edu
+    admin_password:1234
+    client_uri:jduniversity.edu
+    scope:email profile openId org.cilogon.userinfo
+    application_type:web
     ```
 
 For example:
