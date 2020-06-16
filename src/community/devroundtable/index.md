@@ -25,4 +25,4 @@ These meetings are intended to be lightweight and informal, these sessions will 
 
 | Date | Presentations | Recording Link |
 | --- | --- | --- |
-| 6-11-2020 | Mason - New History | Link |
+| 6-11-2020 | Mason - New History | [Recording Link](devroundtable001.mp4)|
