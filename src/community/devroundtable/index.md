@@ -23,6 +23,5 @@ These meetings are intended to be lightweight and informal, these sessions will 
 
 ## Past Meetings
 
-| Date | Presentations | Recording Link |
-| --- | --- | --- |
-| 6-11-2020 | Mason - New History | [Recording Link](devroundtable001.mp4)|
+### 6-11-2020:  The New History by Mason
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yR67bFB6W38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
