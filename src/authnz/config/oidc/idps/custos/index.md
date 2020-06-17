@@ -31,7 +31,7 @@ configure Custos as an IdP provider in Galaxy by editing
 `config/oidc_backends_config.xml`. An example file is provided below.
 
 
-## Register your Galaxy instance as a Custos client
+## 1. Register your Galaxy instance with Custos
 
 Development of a portal for registering new Custos clients is currently in
 progress. In the meantime, you can register a client directly through a REST
@@ -86,7 +86,8 @@ For example:
 
 4. Finally, to have your client activated, send an email to [custos@airavata.apache.org](mail-to:custos@airavata.apache.org) with your `Client ID`.
 
-## Configure Galaxy
+
+## 2. Configure Galaxy
 
 Once we have an activated client ID and client secret from Custos, we need to
 configure Galaxy. As a first step, make sure to [enable OIDC
@@ -94,8 +95,10 @@ login](/src/authnz/config/oidc/#enable-oidc-based-login). After setting up
 `config/oidc_config.xml`, which is common to multiple IdPs, you need to
 configure `config/oidc_backends_config.xml`. The following is an example of a
 configuration. Note that the **redirect_uri** must match what as included as
-the callback URL during your Custos client registration. The client ID and
-client secret are unique to your installation of Galaxy and were obtained
+the callback URL during your Custos client registration. Also note that
+`localhost` and `127.0.0.1` are not the same; if you register `127.0.0.1` and
+access your Galaxy via `localhost`, the redirect will not work. The client ID
+and client secret are unique to your installation of Galaxy and were obtained
 during client registration.
 
 ```xml
@@ -103,17 +106,39 @@ during client registration.
 <OIDC>
     <provider name="Custos">
         <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/.well-known/openid-configuration</url>
-        <credential_url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/credentials</credential_url>
-        <client_id> ... </client_id>
-        <client_secret> ... </client_secret>
+        <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
+        <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
         <redirect_uri>http://jduniversity.edu/galaxy/authnz/custos/callback</redirect_uri>
-        <realm>master</realm>
     </provider>
 </OIDC>
 ```
 
-Having set this configuration, (re)start Galaxy to have the option of login to
-Galaxy with Custos. The login page should look as follows:
+The above configuration includes the [default OIDC configuration
+tags](/src/authnz/config/oidc/#oidc-configuration-options-for-identity-providers)
+as we as the required `url` tag.
+
+### URL
+
+The `url` tag is a required Custos configuration. It provides a unique url
+for the Custos service. The hosted public Custos service is available at the
+URL included in the sample configuration above.
+
+### CA bundle
+
+The `ca_bundle` tag is optional. The value for this tag is an absolute path
+to a trusted CA certificate file or directory to use when verifying Custos
+authorization server.
+
+### Well-known OIDC config URI
+
+The `well_known_oidc_config_uri` tag is optional and allows you to override the
+default Custos well-known URL to point to a different instance.
+
+
+## 3. (re)Start Galaxy
+
+Having set this configuration, (re)start Galaxy and the `Sign in with Custos`
+feature will become available. The login page should look as follows:
 
 <div class="center">
     <img src="/src/authnz/config/oidc/idps/custos/custos-login-button2.png"
