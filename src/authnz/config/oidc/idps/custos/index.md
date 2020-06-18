@@ -63,7 +63,8 @@ following body, replacing information with your relevant data:
 For example:
 ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request.png)
 
-1. The _Domain_ should be the main address that users will use to get to your instance of Galaxy.
+1. The _Domain_ should be the main address that users will use to get to your
+   instance of Galaxy.
 
 2. For the _Redirect URIs_ field, you need to enter
    your instance’s OIDC redirect URI, which is in the following template:
@@ -80,11 +81,14 @@ For example:
 
    See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
 
-3. After making the POST request, you should get a response containing your `Client ID` and `Client Secret`;
-   note this info! You will need it for the Galaxy configuration.
+3. After making the POST request, you should get a response containing your
+   `Client ID` and `Client Secret`; note this info! You will need it for the
+   Galaxy configuration.
    ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
 
-4. Finally, to have your client activated, send an email to [custos@airavata.apache.org](mail-to:custos@airavata.apache.org) with your `Client ID`.
+4. Finally, to have your client activated, send an email to
+   [custos@airavata.apache.org](mail-to:custos@airavata.apache.org) with your
+   `Client ID`.
 
 
 ## 2. Configure Galaxy
@@ -105,7 +109,7 @@ during client registration.
 <?xml version="1.0"?>
 <OIDC>
     <provider name="Custos">
-        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/.well-known/openid-configuration</url>
+        <url>https://custos.scigap.org/apiserver/identity-management/v1.0.0/</url>
         <client_id>custos-xmn3092m8tkh7546hv76-10000001</client_id>
         <client_secret>15Ur37stVGwvONALNjjq89ezRXxoKuunFzvEeTDY</client_secret>
         <redirect_uri>http://jduniversity.edu/galaxy/authnz/custos/callback</redirect_uri>
@@ -127,12 +131,22 @@ URL included in the sample configuration above.
 
 The `ca_bundle` tag is optional. The value for this tag is an absolute path
 to a trusted CA certificate file or directory to use when verifying Custos
-authorization server.
+authorization server. If this option is used, it is also necessary to set the
+value of `VERIFY_SSL` to `True` in `oidc_config.xml`.
 
 ### Well-known OIDC config URI
 
 The `well_known_oidc_config_uri` tag is optional and allows you to override the
 default Custos well-known URL to point to a different instance.
+
+### Enable IdP logout
+
+The `enable_idp_logout` is an optional boolean tag. If set, Galaxy will log out
+the user from the IdP (eg, if a user used Google so authenticate, the user will
+be logged out of Google as well as Galaxy). For this option to work, the
+`redirect_url` during the [client registration
+above](#1-register-your-galaxy-instance-with-custos) needs to specify a wild
+card instead of the specific path (eg, `https://jduniversity.edu/galaxy/*`).
 
 
 ## 3. (re)Start Galaxy
@@ -148,4 +162,3 @@ feature will become available. The login page should look as follows:
 For the end-user documentation of how to use the Custos login now that it has
 been configured, take a look at the
 [end-user](/src/authnz/use/oidc/idps/custos/index.md) page.
-
