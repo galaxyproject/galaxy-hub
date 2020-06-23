@@ -35,7 +35,7 @@ In this section we will look at practical aspects of manipulation of next-genera
 
 # Set your Galaxy to begin
 
-- If you are new Galaxy &#8594; start with the [Galaxy 101 tutorual](/tutorials/g101/)
+- If you are new Galaxy &#8594; start with the [Galaxy 101 tutorial](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
 - Import the following four datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
 
