@@ -16,6 +16,9 @@ image: "galaxy-sra.png"
 
 This webinar will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).
 
+**&rarr; [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-slides.pdf)**<br/>
+**&rarr; [Video](https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-webinar.mp4)**
+
 **About SRA**
 
 The [SRA](https://www.ncbi.nlm.nih.gov/sra) is NIH's primary archive of high-throughput sequencing data and is part of the International Nucleotide Sequence Database Collaboration (INSDC) that includes the NCBI (and the Sequence Read Archive), the European Bioinformatics Institute (EBI), and the DNA Database of Japan (DDBJ). Data submitted to any of the three organizations are shared among them. The SRA is a superb resource for genomic data, [is now on the cloud on AWS and GCP]( https://ncbiinsights.ncbi.nlm.nih.gov/2020/02/24/sra-cloud/), and [is growing exponentially](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?).
