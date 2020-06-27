@@ -1,10 +1,11 @@
 ---
 title: 'GalaxyWorks'
 tease: "A New Company for Providing Commercial Services for Galaxy"
-date: "2020-06-26"
+date: "2020-06-29"
 ---
 
-We are announcing the formation of **GalaxyWorks** (_galaxyworks.io_), a
+[<img class="float-right" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 14rem;" />](https://galaxyworks.io/)
+We are announcing the formation of **GalaxyWorks** (_[galaxyworks.io](https://galaxyworks.io/)_), a
 company providing commercial services and support for Galaxy. Our goal is to
 broaden the reach of Galaxy into new sectors by simplifying access to the
 Galaxy software and providing enterprise-level services. Simplifying access to
@@ -24,8 +25,8 @@ GalaxyWorks builds upon the existing Galaxy code base by advocating adoption of
 Galaxy in the commercial space and creating new markets and users for Galaxy.
 GalaxyWorks will be contributing software products developed through the
 company back to the open-source community and provide help and support to all
-Galaxy users. We are absolutely committed to helping maintain and grow the
-Galaxy open source community.
+Galaxy users. *We are absolutely committed to helping maintain and grow the
+Galaxy open source community.*
 
 In summary:
 
@@ -36,7 +37,7 @@ In summary:
   that public Galaxy servers do not plan to support, such as improved privacy,
   security enhancements, and resource capabilities as well as professional
   services and support. This product is provided by subscription.
-* **GalaxyWorks** (_galaxyworks.io_): the company selling Galaxy Pro, and which
+* **GalaxyWorks** (_galaxyworks.io_): the company behind Galaxy Pro, and which
   will also contribute software features and user support to the broader Galaxy
   community.
 
@@ -62,7 +63,7 @@ Goecks, Nuwan Goonasekera, Aysam Guerler, Anton Nekrutenko, Stephanie Pond, and
 the late James Taylor. In the future, we will explore options for interested
 members of the Galaxy community to join as well. To help bootstrap the
 development of the initial product, the company applied for and received
-federal funding from the NIH in the form of a STTR grant (R41 HG010982).
+federal funding from the NIH in the form of an STTR grant (R41 HG010982).
 
 
 # How will GalaxyWorks interact and contribute to the Galaxy Community?
