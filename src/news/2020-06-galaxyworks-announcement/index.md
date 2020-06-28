@@ -44,15 +44,13 @@ In summary:
 
 # Why GalaxyWorks?
 
-Our research shows that there is demand from commercial organizations for using
-Galaxy servers for their data analyses. Commercial organizations recognize the
-power and usability of Galaxy, but they are also aware of the resource and time
-commitments needed to run the platform. GalaxyWorks will improve adoption of
+Our research shows that there is demand from organizations for using
+Galaxy servers with commercial support. GalaxyWorks will improve adoption of
 the Galaxy platform in new segments by offering users a managed, commercial
-service that frees them from the burden of stitching together tools and
-maintaining infrastructure. By providing a unified service that allows a user
-to focus on analyzing the data without the need to manage the Galaxy server,
-GalaxyWorks will provide an important service for the broader Galaxy community.
+service that frees them from maintaining infrastructure and tools. By providing
+a unified service that allows a user to focus on analyzing the data without the
+need to manage the Galaxy server, GalaxyWorks will provide an important service
+for the broader Galaxy community.
 
 
 # Who is GalaxyWorks?
