@@ -1,6 +1,6 @@
 ---
 title: 'Galaxy Release 20.05'
-tease: Workflow Reporting, Workflow Executions, Screenreader-friendly navigation
+tease: Interactive Tools, refgenie support, Workflow components in vue.js
 date: '2020-06-30'
 ---
 
