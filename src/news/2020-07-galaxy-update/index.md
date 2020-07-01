@@ -10,6 +10,9 @@ date: "2020-07-01"
 
 * **[BCC2020](##bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
+  * BoF proposals due July 10 
+  * Fellowships due July 5 
+  * Full training, talk, and poster/demo schedules are online
 * [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
 * [Upcoming events](#more-upcoming-events)
 * [Galaxy Platform News](#galaxy-platforms-news)
@@ -236,6 +239,17 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 <img class="card-img-bottom" src="https://user-images.githubusercontent.com/2563865/86033585-752ce480-ba39-11ea-9235-dc93046788ff.gif" alt="Search in the new GTN!" />
 </div>
 
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Nucleoli segmentation and feature extraction using CellProfiler](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html)</div>
+
+By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
+
+Create a workflow that downloads a selection of images from the Image Data Resource, and uses CellProfiler to segment the nuclei and nucleoli. And then extract and export features at three different levels: image, nucleus, nucleolus.
+
+<img class="card-img-bottom" src="gtn-idr-cp.png" alt="IDR to Cell Profiler" />
+</div>
+
+
 <!-- Profiles -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[GTN Profiles](https://training.galaxyproject.org/training-material/hall-of-fame/)</div>
@@ -262,6 +276,7 @@ Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/tra
 
 <img class="card-img-bottom" src="open-chat.png" alt="Seeking chat?" />
 </div>
+
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: ATAC-Seq data analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
