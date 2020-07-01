@@ -8,8 +8,8 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[James Taylor Foundation](#jtech-the-james-taylor-foundation)**
-* **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
+* **[BCC2020](##bcc2020-starts-july-17) starts July 17**
+  * **Early registration ends July 10**
 * **[Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)**
 * [Upcoming events](#more-upcoming-events)
 * [Galaxy Platform News](#galaxy-platforms-news)
@@ -20,21 +20,6 @@ date: ""
 * And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
-
----
-
-# JTech, the James Taylor Foundation
-
-<div class="float-right">
-<img  src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
-<div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
-</div>
-
-The recent passing of [Dr. James Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
-
-James believed that scientific progress can best be sustained through mentoring of students and junior faculty. The Junior Training and Educational Connections Hotspot (JTech) foundation will ensure implementation of this vision. To begin, JTech will  (1) support  graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings. JTech will later expand its reach as a platform for academic mentorship including high school through college age students.
-
-To make this happen we are [accepting contributions here](https://galaxyproject.org/jxtx/). Please, help us continue what James has started.
 
 ---
 
@@ -130,7 +115,7 @@ The full BCC2020 talk schedule is now online
 UseGalaxy.org and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework. This connection was presented in a webinar on June 24.  [Slides and video](/src/events/2020-06-sra/index.md) from the webinar and a GTN tutorial (see below) are now available.  This functionality will be included in the 2020.05 release.
 </div>
 
-<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 10rem; max-width: 24rem">
 <img class="card-img-top" src="../2020-06-galaxy-update/sra-rfi.jpg" alt="RFI on new SRA formats" />
 <div class="card-header">RFI: Use of Cloud Resources and New File Formats for SRA</div>
 
@@ -149,8 +134,15 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
+<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+
+This [new bi-weekly forum](/src/community/devroundtable/index.md) is an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. If you have something you want to present then please submit your idea at least a day in advance.  See you (every other) Thursday.
+</div>
+
+<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
-<div class="card-header"></div>
+<div class="card-header">[Galaxy @ ISMB 2020](/src/events/2020-ismb/index.md))</div>
 
 [ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and **[Galaxy is going with it](/src/events/2020-ismb/index.md): Check out**
 
@@ -180,7 +172,7 @@ There are
 
 And material from some recent past events is now available:
 
-*
+* 
 
 </div>
 </div>
@@ -236,40 +228,27 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Clustering in Machine Learning](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/clustering_machinelearning/tutorial.html)</div>
+<div class="card-header">[Updated: Galaxy Server Administration Tutorials](https://training.galaxyproject.org/training-material/topics/admin/)</div>
 
-By [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori) and [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez).
+This set of tutorials was updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) to incorporate feedback from the most recent Galaxy Administration Training in March 2020. The updates covered topics including Ansible, using clusters, CVMFS, external authentication, distributed compute, tool management, quotas, and job metrics, monitoring, and troubleshooting.
 
-Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering. 
-
-<img class="card-img-bottom" src="gtn-cluster-slice.png" alt="DBSCAN versus the world" />
+<img class="card-img-bottom" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Thank you for the feedback!" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Label-free data analysis using MaxQuant](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
+<div class="card-header">[Gitter Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
-By [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame#foellmelanie) and [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame#matthias313)
+Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, of default to the main GTN room.
 
-Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software. 
-
-<img class="card-img-bottom" src="gtn-maxquant.jpg" alt="Quantitative serum composition" />
+<img class="card-img-bottom" src="open-chat.png" alt="Seeking chat?" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Galaxy Code Architecture Slide Deck](https://training.galaxyproject.org/training-material/topics/dev/tutorials/architecture/slides.html#1)</div>
+<div class="card-header">[Updated: ATAC-Seq data analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
 
-This extensive overview slide deck on how Galaxy Code is architected received a major update from [John Chilton](https://training.galaxyproject.org/training-material/hall-of-fame#jmchilton), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena), and [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame#nsoranzo).
+This tutorial was upgraded by []() to use the latest version of pyGenomeTracks to make publication-quality figures.
 
-<img class="card-img-bottom" src="gtn-arch-slice.png" alt="Branches" />
-</div>
-
-<div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
-<div class="card-header">Updated: [Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html)</div>
-
-[Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) posted a major update to this COVID-19 related tutorial. (He added *Frankenstein*.)
-
-<img class="card-img-bottom" src="/src/news/2020-05-galaxy-update/gtn-mpro-slice.png" alt="MPro" />
-
+<img class="card-img-bottom" src="/src/news/2019-10-galaxy-update/gtn-atac-pygenometracks-output.png" alt="pyGenomeTrack output" />
 </div>
 
 </div>
@@ -324,7 +303,7 @@ The GVL Beta 3 release features complete analysis on one platform, including tra
 
 By [Emily Lescak](https://eventfund.codeforscience.org/author/emily/) of [Code for Science & Society](https://codeforscience.org/)
 
-A conversation with [Dave Clements](/src/people/dave-clements/index.md) about moving BCC2020 form an in-person to a virtual event, and the opportunities that move enabled.
+A conversation with [Dave Clements](/src/people/dave-clements/index.md) about moving BCC2020 from an in-person to a virtual event, and the opportunities that move enabled.
 
 <img class="card-img-bottom" src="/src/images/logos/c4sas.png" alt="Code for Science & Society" />
 </div>
