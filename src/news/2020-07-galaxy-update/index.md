@@ -242,7 +242,7 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Nucleoli segmentation and feature extraction using CellProfiler](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html)</div>
 
-By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
+By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/).
 
 Create a workflow that downloads a selection of images from the Image Data Resource, and uses CellProfiler to segment the nuclei and nucleoli. And then extract and export features at three different levels: image, nucleus, nucleolus.
 
