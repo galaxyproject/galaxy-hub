@@ -80,7 +80,7 @@ All BCC2020 events [will be held online](https://bcc2020.github.io/blog/going-vi
 <img class="card-img-top" src="/src/events/bcc2020/maps-math.png" alt="BCC2020 is Global" />
 <div class="card-header">[BCC2020 is Global](https://bcc2020.github.io/blog/going-global)</div>
 
-[BCC2020 events will be held twice](https://bcc2020.github.io/blog/going-global): once in the [originally scheduled Toronto time zone (BCC West/Americas)](https://bcc2020.sched.com/venue/West), and then [again 12 hours later in the Eastern hemisphere (BCC East/Asia-Australia)](https://bcc2020.sched.com/venue/East).  Training will differ between East and West, with enrollment open to all, regardless of where you are. The main conference content will be presented in both East and West.  We are striving to have the CoFest run continuously, with participants from every part of the world.
+[BCC2020 events will be held twice](https://bcc2020.github.io/blog/going-global): once in the [originally scheduled Toronto time zone (BCC West/Americas)](https://bcc2020.sched.com/overview/area/West%3A+Americas), and then [again 12 hours later in the Eastern hemisphere (BCC East/Asia-Australia)](https://bcc2020.sched.com/overview/area/East%3A+Asia+%26+Australia).  Training will differ between East and West, with enrollment open to all, regardless of where you are. The main conference content will be presented in both East and West.  We are striving to have the CoFest run continuously, with participants from every part of the world.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">

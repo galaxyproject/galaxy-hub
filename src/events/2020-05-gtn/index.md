@@ -19,7 +19,7 @@ Every 3 months the Galaxy Training Network organises one day dedicated to the co
 # CoFest
 
 This CoFest's topic is: **Online Training & BCC2020 Workshop materials**
-Due to COVID-19, a lot of training activities are moving online. We would love to hear everybody's experiences with this. Furthermore, The [Bioinformatics Community Conference](https://bcc2020.github.io/), is going fully online this year, with a [strong Galaxy training program](https://bcc2020.sched.com/overview/type/Training), scheduled across in multiple time zones. We invite anybody to help us test and update the materials needed for this online conference. As always, if you already have something else in mind you would like to work on during the CoFest we are more than happy to help in any way we can as well!
+Due to COVID-19, a lot of training activities are moving online. We would love to hear everybody's experiences with this. Furthermore, The [Bioinformatics Community Conference](https://bcc2020.github.io/), is going fully online this year, with a [strong Galaxy training program](https://bcc2020.sched.com/overview/subject/Training), scheduled across in multiple time zones. We invite anybody to help us test and update the materials needed for this online conference. As always, if you already have something else in mind you would like to work on during the CoFest we are more than happy to help in any way we can as well!
 
 
 Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
