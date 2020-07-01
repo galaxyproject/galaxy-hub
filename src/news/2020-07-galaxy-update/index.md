@@ -8,7 +8,7 @@ date: "2020-07-01"
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[BCC2020](##bcc2020-starts-july-17) starts July 17**
+* **[BCC2020](#bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
   * BoF proposals due July 10 
   * Fellowships due July 5 
@@ -253,7 +253,7 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Nucleoli segmentation and feature extraction using CellProfiler](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/tutorial-CP/tutorial.html)</div>
 
-By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/).
+By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1).
 
 Create a workflow that downloads a selection of images from the Image Data Resource, and uses CellProfiler to segment the nuclei and nucleoli. And then extract and export features at three different levels: image, nucleus, nucleolus.
 
