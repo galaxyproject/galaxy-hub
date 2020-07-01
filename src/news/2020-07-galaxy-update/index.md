@@ -1,7 +1,7 @@
 ---
 title: 'July 2020 Galactic News'
 tease: "BCC2020, SRA, Events, Platforms, Training, Jobs, ..."
-date: ""
+date: "2020-07-01"
 ---
 
 # In the July 2020 issue
