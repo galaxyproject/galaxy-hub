@@ -247,7 +247,7 @@ Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/tra
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: ATAC-Seq data analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
 
-This tutorial was upgraded by [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame#lldelisle) to use the latest version of pyGenomeTracks to make publication-quality figures.
+This tutorial was upgraded by [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame#lldelisle) to use the latest version of pyGenomeTracks to make publication-quality figures and successfully used in the first official [SIB galaxy Training course](https://www.sib.swiss/training/course/2020-06-galaxy).
 
 <img class="card-img-bottom" src="/src/news/2019-10-galaxy-update/gtn-atac-pygenometracks-output.png" alt="pyGenomeTrack output" />
 </div>
