@@ -272,15 +272,7 @@ This tutorial was upgraded by []() to use the latest version of pyGenomeTracks t
 
 [Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States
 
-<img class="card-img-bottom" src="black-canyon.png" alt="Black Canyon Consulting at NCBI" />
-</div>
-
-<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
-<div class="card-header">[Data Scientist](https://neb.wd5.myworkdayjobs.com/en-US/NEB_Careers/job/Ipswich-MA-United-States/Data-Scientist_1193)</div>
-
-[New England Biolabs](https://www.neb.com/), Ipswich, Massachusetts, United States
-
-<img class="card-img-bottom" src="/src/images/logos/neb-wide.jpg" alt="NEB" />
+<img class="card-img-bottom" src="/src/news/2020-06-galaxy-update/black-canyon.png" alt="Black Canyon Consulting at NCBI" />
 </div>
 
 </div>
@@ -314,7 +306,27 @@ A conversation with [Dave Clements](/src/people/dave-clements/index.md) about mo
 
 See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/index.md) (and above).
 
-And Galaxy 20.05 is coming....
+And Galaxy 20.05 is ~~coming...~~ here.
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Galaxy 20.05](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+
+See 
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**.
+
+Features:
+* Many new Interactive Tools
+* Data Tables can now be backed by refgenie
+* Tool Shed is now Python3 ready, ending a 4 year effort to get to Python 3.
+* The Workflow Editor and Workflow Run Form have been re-written in Vue.js. 
+* Faster startup: Galaxy now caches expanded tool documents, delays creating the tool search index until after startup and creates search indexes incrementally.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+</div>
+</div>
 
 
 # Publications
