@@ -30,7 +30,7 @@ enabled/configured identity providers on different Galaxy instances may be
 different):
 
 - [Custos](/src/authnz/use/oidc/idps/custos/index.md)
-- [Elixir AII](/src/authnz/use/oidc/idps/elixir-aai/index.md)
+- [Elixir AAI](/src/authnz/use/oidc/idps/elixir-aai/index.md)
 - [Globus](/src/authnz/use/oidc/idps/globus/index.md)
 - [Google](/src/authnz/use/oidc/idps/google/index.md)
 - [Okta](/src/authnz/use/oidc/idps/okta/index.md)
