@@ -57,7 +57,7 @@ If the registration rates for BCC2020 are a barrier to your participation, and y
 
 Birds of a Feather (BoFs) are informal, self-organized meetups focused on specific topics. They are a great way to meet other like-minded community members and have an in-depth discussion on a topic of interest.
 
-**Any BCC2020 participant is welcome to [propose a BoF by July 10](https://docs.google.com/forms/d/e/1FAIpQLSdMv8CEKNVGsnwM0S6G2fXWU256hfyhttaKn6az754OoUXXPQ/viewform)!**  BoFs will be scheduled right before and after the main meeting day in both hemispheres. 
+**Any BCC2020 participant is welcome to [propose a BoF by July 10](https://docs.google.com/forms/d/e/1FAIpQLSdMv8CEKNVGsnwM0S6G2fXWU256hfyhttaKn6az754OoUXXPQ/viewform)!**  BoFs will be scheduled right before and after the main meeting day in both hemispheres.
 </div>
 
 <div class="card border-info" style="min-width: 18rem; max-width: 40rem">
@@ -219,7 +219,7 @@ The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suit
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Custos doc update](/src/community/machine-learning/index.md)</div>
 
-The [documentation for using Custos in Galaxy](/src/authnz/config/oidc/idps/custos/index.md ) got a major update from Juleen Graham and Enis Afgan. 
+The [documentation for using Custos in Galaxy](/src/authnz/config/oidc/idps/custos/index.md ) got a major update from Juleen Graham and Enis Afgan.
 
 [Custos](https://airavata.apache.org/custos/) is an [NSF-funded
 project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false) that provides science gateways such as Galaxy with single sign-on, group management, and secret management. Custos authentication for Galaxy is now live on [test.galaxyproject.org](https://test.galaxyproject.org/).
@@ -233,6 +233,7 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 
 [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann) has added the much requested site-wide search to the Galaxy Training Materials. Find everything you are interested in, e.g. [all covid19 tutorials](https://training.galaxyproject.org/search?query=covid)
 
+<img class="card-img-bottom" src="https://user-images.githubusercontent.com/2563865/86033585-752ce480-ba39-11ea-9235-dc93046788ff.gif" alt="Search in the new GTN!" />
 </div>
 
 <!-- Profiles -->
@@ -241,7 +242,7 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 
 [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena) implemented GTN trainer profile pages, which document their contributions to the Galaxy Training Materials. Check [yours](https://training.galaxyproject.org/training-material/hall-of-fame/) out!
 
-<img class="card-img-bottom" src="https://user-images.githubusercontent.com/458683/86037727-20d93300-ba40-11ea-842e-ba0d2c9426af.png" alt="Thank you for the feedback!" />
+<img class="card-img-bottom" src="https://user-images.githubusercontent.com/458683/86037727-20d93300-ba40-11ea-842e-ba0d2c9426af.png" alt="Picture of a GTN profile" />
 </div>
 
 <!-- GAT -->
@@ -340,7 +341,7 @@ See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Galaxy 20.05](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
 
-See 
+See
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**.
 
@@ -348,7 +349,7 @@ Features:
 * Many new Interactive Tools
 * Data Tables can now be backed by refgenie
 * Tool Shed is now Python3 ready, ending a 4 year effort to get to Python 3.
-* The Workflow Editor and Workflow Run Form have been re-written in Vue.js. 
+* The Workflow Editor and Workflow Run Form have been re-written in Vue.js.
 * Faster startup: Galaxy now caches expanded tool documents, delays creating the tool search index until after startup and creates search indexes incrementally.
 
 <img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
@@ -357,7 +358,7 @@ Features:
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Galaxy Workflow Executor 0.2.1](https://pypi.org/project/galaxy-workflow-executor/0.2.1/)</div>
 
-Execute workflows on Galaxy using a command line interface, and YAML to specify inputs and parameters.  
+Execute workflows on Galaxy using a command line interface, and YAML to specify inputs and parameters.
 
 <img class="card-img-bottom" src="galaxy-workflow-executor.png" alt="Galaxy Workflow Executor" />
 </div>
