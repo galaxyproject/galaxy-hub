@@ -20,7 +20,6 @@ date: "2020-07-01"
 * [Who's Hiring](#whos-hiring)
 * [New blog posts](#galactic-blog-activity)
 * [New Releases](#releases)
-* And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -62,6 +61,18 @@ Birds of a Feather (BoFs) are informal, self-organized meetups focused on specif
 
 **Any BCC2020 participant is welcome to [propose a BoF by July 10](https://docs.google.com/forms/d/e/1FAIpQLSdMv8CEKNVGsnwM0S6G2fXWU256hfyhttaKn6az754OoUXXPQ/viewform)!**  BoFs will be scheduled right before and after the main meeting day in both hemispheres.
 </div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
+<div class="card-header">[Silver Sponsor: GalaxyWorks](https://galaxyworks.io/)</div>
+
+[GalaxyWorks](https://galaxyworks.io/) is a new company providing commercial support, hosting and management, and tool wrapping and custom development for Galaxy. See their [announcement to the Galaxy Community](/src/news/2020-06-galaxyworks-announcement/) for more. If you are in the business of life science, GalaxyWorks is here to help.
+
+Please welcome GalaxyWorks as a new Silver Sponsor of BCC2020.
+</div>
+
+
 
 <div class="card border-info" style="min-width: 18rem; max-width: 40rem">
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-9000-minutes.png" alt="Galaxy Training at BCC2020" />
@@ -385,17 +396,4 @@ Execute workflows on Galaxy using a command line interface, and YAML to specify 
 
 We did not curate recent publications this month.  We just ran out of time.  We probably won't get to them until after BCC either.  However, the next time we curate papers, we will hit 10,000 publications.  *Thanks for using (and citing) Galaxy.*
 
-
-# Other News
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
-<div class="card-header">[GalaxyWorks](/src/news/2020-06-galaxyworks-announcement/index.md)</div>
-
-GalaxyWorks is a new company providing commercial support, hosting and management, and tool wrapping and custom development for Galaxy. If you are in the business of life science, GalaxyWorks is here to help.
-
-<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
-
-</div>
 
