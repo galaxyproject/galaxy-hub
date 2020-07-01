@@ -227,15 +227,33 @@ project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwar
 <img class="card-img-bottom" src="custos-stripe.png" alt="Custos" />
 </div>
 
+<!-- Search -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Galaxy Training Search](https://training.galaxyproject.org/training-material/search)</div>
 
+[Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann) has added the much requested site-wide search to the Galaxy Training Materials. Find everything you are interested in, e.g. [all covid19 tutorials](https://training.galaxyproject.org/search?query=covid)
+
+</div>
+
+<!-- Profiles -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[GTN Profiles](https://training.galaxyproject.org/training-material/hall-of-fame/)</div>
+
+[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena) implemented GTN trainer profile pages, which document their contributions to the Galaxy Training Materials. Check [yours](https://training.galaxyproject.org/training-material/hall-of-fame/) out!
+
+<img class="card-img-bottom" src="https://user-images.githubusercontent.com/458683/86037727-20d93300-ba40-11ea-842e-ba0d2c9426af.png" alt="Thank you for the feedback!" />
+</div>
+
+<!-- GAT -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: Galaxy Server Administration Tutorials](https://training.galaxyproject.org/training-material/topics/admin/)</div>
 
-This set of tutorials was updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) to incorporate feedback from the most recent Galaxy Administration Training in March 2020. The updates covered topics including Ansible, using clusters, CVMFS, external authentication, distributed compute, tool management, quotas, and job metrics, monitoring, and troubleshooting.
+This set of tutorials was updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) to incorporate feedback and discussion with students, during the most recent Galaxy Administration Training in March 2020. The updates covered topics including Ansible, using clusters, CVMFS, external authentication, distributed compute, tool management, quotas, and job metrics, monitoring, and troubleshooting.
 
 <img class="card-img-bottom" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Thank you for the feedback!" />
 </div>
 
+<!-- Gitter -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Gitter Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
@@ -273,7 +291,7 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
 
-... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis. 
+... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
@@ -297,7 +315,7 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan.
 
-The GVL Beta 3 release features complete analysis on one platform, including training and collaboration. 
+The GVL Beta 3 release features complete analysis on one platform, including training and collaboration.
 <img class="card-img-bottom" src="/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 3" />
 </div>
 
