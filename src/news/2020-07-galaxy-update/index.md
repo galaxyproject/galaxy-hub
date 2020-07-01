@@ -226,11 +226,10 @@ The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suit
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Custos doc update](/src/community/machine-learning/index.md)</div>
 
-The [documentation for using Custos in Galaxy](/src/authnz/config/oidc/idps/custos/index.md ) got a major update from [Enis Afgan](/src/people/afgan/index.md). 
+The [documentation for using Custos in Galaxy](/src/authnz/config/oidc/idps/custos/index.md ) got a major update from Juleen Graham and Enis Afgan. 
 
 [Custos](https://airavata.apache.org/custos/) is an [NSF-funded
-project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false), that provides science gateways such as Galaxy with single sign-on, group management, and management of secrets such as access
-keys and OAuth2 access tokens. 
+project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false) that provides science gateways such as Galaxy with single sign-on, group management, and secret management. Custos authentication for Galaxy is now live on [test.galaxyproject.org](https://test.galaxyproject.org/).
 
 <img class="card-img-bottom" src="custos-stripe.png" alt="Custos" />
 </div>
