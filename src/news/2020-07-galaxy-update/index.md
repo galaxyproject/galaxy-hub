@@ -1,6 +1,6 @@
 ---
 title: 'July 2020 Galactic News'
-tease: "James Taylor Foundation, BCC2020, Galaxy+SRA, Events, Platforms, ..."
+tease: "BCC2020, SRA, Events, Platforms, Training, Jobs, ..."
 date: ""
 ---
 
@@ -10,13 +10,13 @@ date: ""
 
 * **[BCC2020](##bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
-* **[Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)**
+* [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
 * [Upcoming events](#more-upcoming-events)
 * [Galaxy Platform News](#galaxy-platforms-news)
 * [Training material and doc updates](#doc-hub-and-training-updates)
 * [Who's Hiring](#whos-hiring)
+* [New blog posts](#galactic-blog-activity)
 * [New Releases](#releases)
-* [New publications](#publications)
 * And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -96,7 +96,7 @@ You can also [learn about](https://bcc2020.sched.com/) *Git & GitHub, Reactome, 
 The full BCC2020 talk schedule is now online
 * [Keynotes](https://bcc2020.sched.com/subject/Keynote) from [Lincoln Stein](https://bcc2020.sched.com/speaker/lincoln.stein), [Prashanth N Suravajhala](https://bcc2020.sched.com/speaker/prash1), and [Abigail Cabunoc Mayes](https://bcc2020.sched.com/speaker/abbycabs)
 * [70 long and lightning talks](https://bcc2020.sched.com/overview/subject/Talk) covering the full spectrum of open source bioinformatics.
-* [Posters and demos](https://bcc2020.sched.com/overview/subject/Poster-Demo) are not there yet, but will show up shortly.
+* [Posters and demos](https://bcc2020.sched.com/overview/subject/Poster-Demo) too
 </div>
 
 </div>
@@ -172,7 +172,8 @@ There are
 
 And material from some recent past events is now available:
 
-* 
+* [Machine Learning using Galaxy](https://elixir-europe.org/events/machine-learning-using-galaxy-webinar-workshop-series), slides and video for this week long course supported by ELIXIR.
+* [Galaxy—Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/-/galaxy-powering-science-from-the-desktop-to-global-cyberinfrastructure), slides and video.  A talk presented by Nate Coraor at SGCI June webinar.
 
 </div>
 </div>
@@ -238,7 +239,7 @@ This set of tutorials was updated by [Helena Rasche](https://training.galaxyproj
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Gitter Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
-Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, of default to the main GTN room.
+Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, or default to the main GTN room.
 
 <img class="card-img-bottom" src="open-chat.png" alt="Seeking chat?" />
 </div>
@@ -246,7 +247,7 @@ Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/tra
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: ATAC-Seq data analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
 
-This tutorial was upgraded by []() to use the latest version of pyGenomeTracks to make publication-quality figures.
+This tutorial was upgraded by [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame#lldelisle) to use the latest version of pyGenomeTracks to make publication-quality figures.
 
 <img class="card-img-bottom" src="/src/news/2019-10-galaxy-update/gtn-atac-pygenometracks-output.png" alt="pyGenomeTrack output" />
 </div>
@@ -257,7 +258,17 @@ This tutorial was upgraded by []() to use the latest version of pyGenomeTracks t
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
+
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d)</div>
+
+The [US Food and Drug Administration](https://www.fda.gov/home) has an opening for a [Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d) in Silver Spring, Maryland.
+
+<img class="card-img-bottom" src="/src/images/logos/fda-logo-wide.png" alt="FDA" />
+</div>
+
+
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer)</div>
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
@@ -267,7 +278,7 @@ This tutorial was upgraded by []() to use the latest version of pyGenomeTracks t
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
-<div class="card border-info" style="min-width: 18rem; max-width: 33%;">
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003)</div>
 
 [Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States
@@ -306,8 +317,6 @@ A conversation with [Dave Clements](/src/people/dave-clements/index.md) about mo
 
 See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/index.md) (and above).
 
-And Galaxy 20.05 is ~~coming...~~ here.
-
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
@@ -326,6 +335,15 @@ Features:
 
 <img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Galaxy Workflow Executor 0.2.1](https://pypi.org/project/galaxy-workflow-executor/0.2.1/)</div>
+
+Execute workflows on Galaxy using a command line interface, and YAML to specify inputs and parameters.  
+
+<img class="card-img-bottom" src="galaxy-workflow-executor.png" alt="Galaxy Workflow Executor" />
+</div>
+
 </div>
 
 
