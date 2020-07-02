@@ -263,9 +263,9 @@ Create a workflow that downloads a selection of images from the Image Data Resou
 
 <!-- Profiles -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[GTN Profiles](https://training.galaxyproject.org/training-material/hall-of-fame/)</div>
+<div class="card-header">[GTN Profiles](https://training.galaxyproject.org/training-material/hall-of-fame)</div>
 
-[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena) implemented GTN trainer profile pages, which document their contributions to the Galaxy Training Materials. Check [yours](https://training.galaxyproject.org/training-material/hall-of-fame/) out!
+[Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena) implemented GTN trainer profile pages, which document their contributions to the Galaxy Training Materials. Check [yours](https://training.galaxyproject.org/training-material/hall-of-fame) out!
 
 <img class="card-img-bottom" src="https://user-images.githubusercontent.com/458683/86037727-20d93300-ba40-11ea-842e-ba0d2c9426af.png" alt="Picture of a GTN profile" />
 </div>
@@ -274,7 +274,7 @@ Create a workflow that downloads a selection of images from the Image Data Resou
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: Galaxy Server Administration Tutorials](https://training.galaxyproject.org/training-material/topics/admin/)</div>
 
-This set of tutorials was updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) to incorporate feedback and discussion with students, during the most recent Galaxy Administration Training in March 2020. The updates covered topics including Ansible, using clusters, CVMFS, external authentication, distributed compute, tool management, quotas, and job metrics, monitoring, and troubleshooting.
+This set of tutorials was updated by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena) to incorporate feedback and discussion with students, during the most recent Galaxy Administration Training in March 2020. The updates covered topics including Ansible, using clusters, CVMFS, external authentication, distributed compute, tool management, quotas, and job metrics, monitoring, and troubleshooting.
 
 <img class="card-img-bottom" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Thank you for the feedback!" />
 </div>
@@ -283,7 +283,7 @@ This set of tutorials was updated by [Helena Rasche](https://training.galaxyproj
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Gitter Chat Support in GTN](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/maxquant-label-free/tutorial.html)</div>
 
-Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, or default to the main GTN room.
+Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann), GTN tutorials now show a link to Gitter chat help at the bottom of the screen.  Authors can configure this to go to topic or tutorial specific chat rooms, or default to the main GTN room.
 
 <img class="card-img-bottom" src="open-chat.png" alt="Seeking chat?" />
 </div>
@@ -292,7 +292,7 @@ Thanks to an update by [Saskia Hiltemann](https://training.galaxyproject.org/tra
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Updated: ATAC-Seq data analysis](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
 
-This tutorial was upgraded by [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame#lldelisle) to use the latest version of pyGenomeTracks to make publication-quality figures and successfully used in the first official [SIB galaxy Training course](https://www.sib.swiss/training/course/2020-06-galaxy).
+This tutorial was upgraded by [Lucille Delisle](https://training.galaxyproject.org/training-material/hall-of-fame/lldelisle) to use the latest version of pyGenomeTracks to make publication-quality figures and successfully used in the first official [SIB galaxy Training course](https://www.sib.swiss/training/course/2020-06-galaxy).
 
 <img class="card-img-bottom" src="/src/news/2019-10-galaxy-update/gtn-atac-pygenometracks-output.png" alt="pyGenomeTrack output" />
 </div>
