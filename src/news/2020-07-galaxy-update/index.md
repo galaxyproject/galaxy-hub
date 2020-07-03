@@ -10,6 +10,7 @@ date: "2020-07-01"
 
 * **[BCC2020](#bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
+  * **All registration ends July 15**
   * BoF proposals due July 10 
   * Fellowships due July 5 
   * Full training, talk, and poster/demo schedules are online
@@ -41,6 +42,8 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
 <div class="card-header">[Register by July 10 and Save 50%](https://bcc2020.github.io/Registration/)</div>
 
 **BCC2020 early registration [ends July 10](https://bcc2020.github.io/Registration/).**  Registering early saves 50% off of the full rates and starts $3 per training session and $12 for the three day meeting.
+
+**All registration ends on July 15.**
 
 So *get on it.*
 </div>
