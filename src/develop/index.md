@@ -15,13 +15,7 @@ If your interest lies in the development of tools for Galaxy please see the [Add
 We use [Sphinx](http://sphinx-doc.org/) to generate documentation on classes and methods (and much more) in the code base.  It also includes [Python docstrings](http://www.python.org/dev/peps/pep-0257/) from the code.
 Sphinx uses [reStructured Text (RST)](http://sphinx-doc.org/rest.html) with some [Sphinx-specific additions](http://sphinx-doc.org/markup/index.html) for markup.
 You can generate your own copy of the documentation. You might want to do this if you have made local modifications/extensions to the code, or if you are adding documentation that will be merged back.
-Contribution of documentation is very welcome. To generate the documentation:
-
-1. Install Sphinx
-2. Go to the `doc` directory and run Sphinx with `make html`
-3. Install missing dependencies, and rerun Sphinx until you get working output.
-
-The generated documentation will be in `doc/build/html/` and can be viewed in a web browser.
+Contribution of documentation is very welcome. To generate the documentation simply execute `make docs` from Galaxy's root directory. The generated documentation will be in `doc/build/html/` and can be viewed in a web browser.
 
 {{> Develop/ResourcesAPI }}
 
