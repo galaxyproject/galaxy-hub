@@ -10,6 +10,30 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <br />
 
+<div class="alert alert-warning text-primary lead" role="alert">
+
+<h2> JTech 2020 Scholarship: CSHL Biological Data Science </h2>
+
+</div>	
+
+JTech Foundation and Cold Spring Harbor Laboratory announce JTech 2020 Scholarship. JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend <a href="https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20" target="_blank">the 2020 CSHL Biological Data Science Conference</a>. 
+
+<figure class="figure">
+  [<img src="cshl_jtech.png" class="figure-img img-fluid rounded" alt="JTech 2020 Scholarship: CSHL Biological Data Science">](cshl_jtech.png)
+</figure>
+
+Application deadline is August 1, 2020 (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSHL+JTech+Deadline&iso=20200801T00&p1=3705" target="_blank">Midnight EST</a>). Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.   
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Submit Application](https://forms.gle/RzNx1rUc6rqh2fYr8)</button>
+<br />
+<br />
+</div>
+
+---
+
+<br />
 
 <div class="alert alert-secondary text-primary lead" role="alert">
 
