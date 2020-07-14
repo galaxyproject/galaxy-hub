@@ -23,5 +23,9 @@ These meetings are intended to be lightweight and informal, these sessions will 
 
 ## Past Meetings
 
+### 7-9-2020:  COVID Work by Anton
+
+<a href="https://psu.zoom.us/rec/share/5v1TA6z--GVOTaPs9H70V4FmRKDCX6a8gSEf8vsPmRlB2qI5sw8OS31uML70Yz48">Zoom Recording</a>
+
 ### 6-11-2020:  The New History by Mason
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yR67bFB6W38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
