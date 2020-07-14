@@ -35,7 +35,7 @@ In this section we will look at practical aspects of manipulation of next-genera
 
 # Set your Galaxy to begin
 
-- If you are new Galaxy &#8594; start with the [Galaxy 101 tutorual](/tutorials/g101/)
+- If you are new Galaxy &#8594; start with the [Galaxy 101 tutorial](/tutorials/g101/)
 - Create a new Galaxy history at http://usegalaxy.org (don't forget to log in).
 - Import the following four datasets by cutting and pasting these URLs into Galaxy's upload tool (for help see URL upload option in [upload tutorial](/tutorials/upload/)):
 
@@ -165,7 +165,7 @@ HHHHHHHHHHHHHGHHHHHHGHHHHHHHHHHHFHHHFHHHHHHHHHHH
 Here the first and the second reads are identified with `/1` and `/2` tags (but even without these tags we know that odd reads are in *forward* orientation and even are in *reverse*).
 
 <div class="alert alert-warning" role="alert">
-Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/books/NBK242622/) for more information.
+Fastq format is not strictly defined and its variations will always cause headache for you. See [this page](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/#fastq-files) for more information.
 </div>
 
 ## What are base qualities?

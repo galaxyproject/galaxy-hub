@@ -6,6 +6,77 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <br />
 
+---
+
+<br />
+
+<div class="alert alert-warning text-primary lead" role="alert">
+
+<h2> JTech 2020 Scholarship: CSHL Biological Data Science </h2>
+
+</div>	
+
+JTech Foundation and Cold Spring Harbor Laboratory announce JTech 2020 Scholarship. JTech and CSHL will provide support to 10 outstanding graduate students in genomics and data sciences to attend <a href="https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20" target="_blank">the 2020 CSHL Biological Data Science Conference</a>. 
+
+<figure class="figure">
+  [<img src="cshl_jtech.png" class="figure-img img-fluid rounded" alt="JTech 2020 Scholarship: CSHL Biological Data Science">](cshl_jtech.png)
+</figure>
+
+Application deadline is August 1, 2020 (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSHL+JTech+Deadline&iso=20200801T00&p1=3705" target="_blank">Midnight EST</a>). Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.   
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Submit Application](https://forms.gle/RzNx1rUc6rqh2fYr8)</button>
+<br />
+<br />
+</div>
+
+---
+
+<br />
+
+<div class="alert alert-secondary text-primary lead" role="alert">
+
+<h3> JTech: Junior Training and Educational Connections Hotspot </h3>
+
+**The James Taylor Foundation: Big shoes to fill**
+
+</div>
+
+<div class="text-right"> *The most important job of senior faculty is to mentor junior faculty and students. (@jxtx)*</div>
+
+<br />
+
+These are the words that James Taylor (JT) said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
+
+<div class="float-right">
+<img  src="jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 16rem" /><br />
+<div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
+</div>
+
+In its early stages, JTech will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JTech will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.
+
+
+JTech will later expand its reach as a platform for academic mentorship. First, it will operate to spark mentoring relationships among the larger computational biology and data science community. As part of membership in JTech, faculty and students will have an opportunity to participate in periodic mentorship meetings (virtually). We expect an enthusiastic response to this opportunity, and will recruit additional team members to provide organizational structure if necessary. 
+
+In its later stages, JTech will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
+
+**Please consider contributing to continue James Taylor's legacy.**
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
+</div>
+
+<br />
+
+
+---
+
+<br />
+
+## James Taylor
+
 James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as ‘BX’—a contraction of BioinformatiX. The name stuck; ‘BX’ is still a part of many URLs (e.g. the original Galaxy URL at http://g2.bx.psu.edu) and is the origin for the name of the [bx-python software package](https://github.com/bxlab/bx-python). The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko.  This group became the core of James’ academic family, a family that has now lost its most brilliant and prolific child.
 
 <figure class="figure">
@@ -542,7 +613,7 @@ what a shock.  he was a great collaborator, always generous and a pleasure to wo
 </blockquote>
 
 <blockquote class="blockquote">
-James was visionary. And he had this rare quality of making you want to follow him. It is called charisma. It really changed my priorities and I don't regret any of these changes. His disappearance is a heartbreak
+James was visionary. And he had this rare quality of making you want to follow him. It is called charisma. It really changed my priorities and I don't regret any of these changes. His disappearance is a heartbreak.
 <footer class="blockquote-footer">Christophe Antoniewski, ARTbio @ Sorbonne-Universite</footer>
 </blockquote>
 
@@ -846,4 +917,46 @@ James was so helpful to various projects I've been involved in over the years. a
 <footer class="blockquote-footer">Deanne Taylor, Children's Hospital of Philadelphia</footer>
 </blockquote>
 
-More to come... The response has been overwhelming.
+<blockquote class="blockquote">
+People who interacted with James in any capacity thought the world of him.
+<footer class="blockquote-footer">Debashis Ghosh, University of Colorado, Denver</footer>
+</blockquote>
+
+[<img src="growing.jpg" alt="From Björn Grüning" class="float-right" style="max-height: 10rem;" />](growing.jpg)
+
+<blockquote class="blockquote">
+Community building is so hard and so important. If we are talking about sustainability, this almost ever means to maintain and grow a community. Galaxy will be soon 15 years old. You and your team did it! Thanks for everything that you have given us James. I will miss you.
+<footer class="blockquote-footer">Björn Grüning, University of Freiburg</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+The world of genomics, bioinformatics, and to a great extent, current biology has lost a pioneer. Galaxy has been there for almost a decade and a half and was so ahead of its time. Your work has advanced science significantly and will be carried on. RIP & condolences to family
+<footer class="blockquote-footer">Pierre Cauchy</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+This is truly very sad, my deepest condolences to his family, friends and to the Galaxy community. I had the chance of meeting James briefly during the last GCC, a very nice person and true advocate of open science and open source. RIP James.
+<footer class="blockquote-footer">Pablo Moreno, EMBL-EBI</footer>
+</blockquote>
+
+[<img src="office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](office.jpg)
+
+<blockquote class="blockquote">
+I came in today and found this in front of James’ office.
+<footer class="blockquote-footer">John Kim, Johns Hopkins</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+I met James at a Galaxy Community developers conference in the first year of my PhD and was taken aback by how friendly he and his team were and welcoming to all as equals.  A great admirer and user of his work and saddened by this loss. 
+<footer class="blockquote-footer">Craig Monger, Trinity College Dublin</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+Your kind words about James bring tears. Our family thanks you all.
+<footer class="blockquote-footer">Laurie Taylor Gates</footer>
+</blockquote>
+
+<blockquote class="blockquote">
+It's been a couple weeks now, and I still feel like it is so surreal that this could have happened. I didn't know James super well but he will always be the voice I hear announcing the state of the Galaxy during the community conference. He had a hand in so many initiatives and was so central to the communities I'm a part of, I'm left wondering how the world will possibly go on without his leadership.
+<footer class="blockquote-footer">Carrie Ganote, Indiana University</footer>
+</blockquote>

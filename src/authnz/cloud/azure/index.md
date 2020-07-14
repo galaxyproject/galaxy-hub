@@ -9,7 +9,7 @@ that *service principal*.
 ## Step 1: Create an Azure Service Principal
 
 1. Goto [portal.azure.com](https://portal.azure.com) and login with your Azure credentials. 
-2. Select **Azure Active Directory > App registrations (Preview)**, then click **New registration** 
+2. Select **Azure Active Directory > App registrations**, then click **New registration** 
 (as shown on the following figure).
 
   ![image](/src/authnz/cloud/azure/01.png)
@@ -45,7 +45,7 @@ To setup Galaxy to use a service principal, you need to `POST` a payload as the 
 }
 ```
 
-You can obtain `authn_id` by submitting a `GET` request to the `/api/authnz/` API. 
+You can obtain `authn_id` by submitting a `GET` request to the `/authnz/` controller (e.g., `http://127.0.0.1:8080/authnz/` . 
 
 See the following figure as an example, which uses [Postman](https://www.getpostman.com) to send the API requests.
 

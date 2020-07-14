@@ -5,7 +5,11 @@ Galaxy tool panel is located in the left of the 'Analysis page' and offers the f
 
 ## Adding labels to tools
 
-You can add `labels="text"` to the <tool> XML element to render a label next to the tool in the tool panel.
+You can add `labels="text"` to the <tool> XML element to render a label next to the tool in the tool panel. Example:
+
+```xml
+<tool file="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/3fb01a8c902d/hisat2/hisat2.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.1.0+galaxy4" labels="updated">
+```
 
 ## XML configuration files used to populate tool panel
 

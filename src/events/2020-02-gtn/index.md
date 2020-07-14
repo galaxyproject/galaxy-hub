@@ -9,7 +9,7 @@ image:
 location_url:
 external_url:
 contact: "Helena Rasche & Saskia Hiltemann"
-gtn: false
+gtn: true
 ---
 
 <img class="float-right" style="max-width: 500px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>

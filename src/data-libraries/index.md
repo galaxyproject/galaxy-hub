@@ -95,3 +95,11 @@ The default behavior is for no permissions to be applied to a data library item,
 downward (with the exception of the "access library" permission, which is only available on the data library itself).
 Because of this, it is important to set desired permissions on a new data library when it is created.  When this is done,
 new folders and datasets added to the data library will automatically inherit those permissions.
+
+## Additional resources
+
+The Galaxy Adminstration Docs have even more configuration help plus admin scripts to help manage data libraries.
+
+* Configuration details (release specific): Search with the configuration option tag for more details here https://docs.galaxyproject.org
+* Scripts & Tricks: [Uploading a directory into a Data Library](https://docs.galaxyproject.org/en/latest/admin/useful_scripts.html#uploading-a-directory-into-a-data-library)
+

@@ -22,6 +22,7 @@ although generally a warning will be published with some advance on the ARIES si
 quotas:
   - "An account is required.  Contact aries@iss.it to request an account."
 citations:
+  - "Knijn, A., Michelacci, V., Orsini, M., & Morabito, S. (2020). [Advanced Research Infrastructure for Experimentation in genomicS (ARIES): A lustrum of Galaxy experience](https://doi.org/10.1101/2020.05.14.095901). *BioRxiv*, 2020.05.14.095901. https://doi.org/10.1101/2020.05.14.095901"
   - "[Advanced Research Infrastructure for Experimentation in Genomics (ARIES): A concept of a bioinformatics framework for the analysis of genomic data from zoonotic agents](https://w3.iss.it/site/aries/ARIES_MVN_2015.pdf), Valeria Michelacci, Arnold Knijn, Massimiliano Orsini, Stefano Morabito, [4th Med-Vet-Net Association International Conference](https://www.anses.fr/en/content/4th-med-vet-net-association-international-conference)."
 pub_libraries:
   - "ARIES"

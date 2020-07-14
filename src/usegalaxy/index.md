@@ -35,3 +35,13 @@ The uptime status of all UseGalaxy servers, as well as other key Galaxy resource
 
 This effort was launched in March 2018 and is very much a work in progress.  Support for a synchronized set of core tools and reference genomes is not yet implemented.  (It is one of our first goals.)  We also have long term goals that include welcoming other servers, and (really long term) things like integrated login and federation support.
 
+# Membership
+
+We want to see servers meeting several loose requirements to be considered part of the `usegalaxy.*` group.
+
+- *Updated*: These servers commit to updating Galaxy quickly after new releases.
+- *Freely accessible*: these servers may not place restrictions on access or registration, anonymous usage must be permitted.
+- *Public infrastructure configuration*: we hold ourselves to a very high standard. Everyone should be able to reproduce what we do, and we commit ourselves to securing our infrastructure using best practices and in the eye of the public.
+- *Common Tools & Reference Data*: once work in progress finishes, these servers will share a common set of tools and join in automated cross-usegalaxy testing initiatives.
+
+We're excited to see new services join us!
