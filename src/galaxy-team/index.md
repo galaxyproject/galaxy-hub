@@ -102,8 +102,8 @@ Luke Sargent<br />
 [OHSU](http://www.ohsu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='http://nstoler.com/'><img src="/src/galaxy-team/nstoler.jpg" alt="Nick Stoler" height="150" /></a><br />
-[Nick Stoler](http://nstoler.com/)<br />
+<a href='https://nstoler.com/'><img src="/src/galaxy-team/nstoler.jpg" alt="Nick Stoler" height="150" /></a><br />
+[Nick Stoler](https://nstoler.com/)<br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
