@@ -77,7 +77,7 @@ ftp_upload/
 
 ### Path paste
 
-By setting `allow_library_path_paste = True` in the `config/galaxy.yml` you enable administrators to import from any path entered. This feature is not available to non-admin users.
+By setting `allow_path_paste = True` in the `config/galaxy.yml` you enable administrators to import from any path entered (beginning with `file://`) in the "Paste/Fetch data" menu of the Galaxy Upload Manager. This feature is not available to non-admin users.
 
 ## Permissions
 
