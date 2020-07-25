@@ -22,7 +22,7 @@ JTech Foundation and Cold Spring Harbor Laboratory announce JTech 2020 Scholarsh
   [<img src="cshl_jtech.png" class="figure-img img-fluid rounded" alt="JTech 2020 Scholarship: CSHL Biological Data Science">](cshl_jtech.png)
 </figure>
 
-Application deadline is August 1, 2020 (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSHL+JTech+Deadline&iso=20200801T00&p1=3705" target="_blank">Midnight EST</a>). Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.   
+Application deadline is August 1, 2020 (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=CSHL+JTech+Deadline&iso=20200801T00&p1=3705" target="_blank">Midnight EST</a>). You do not need to be affiliated with Galaxy to apply. Applicants will be notified by August 8, 2020. Selected individuals will then be able to register for the conference free of charge.
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
