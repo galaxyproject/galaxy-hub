@@ -8,6 +8,10 @@ This getting started guide will guide you through creating their own
 also a video version of this documentation available
 <a href="https://youtu.be/E-e2A8tRVDA" target="_blank">here</a>.
 
+<div class="alert alert-danger" role="danger">
+We recommend being familiar with cloud systems administration in general and the specific costs associated with your target provider before launching an instance. Cloud instances can be costly, and the minimum instance size needed for Galaxy on the cloud often exceeds free tier allowances. It is entirely possible for your bill to range from several hundred to a several thousand dollars depending on the size and number of instances launched. Make sure to inspect your cloud provider dashboard to ensure that you have no unwanted instances running.
+</div>
+
 ## Step 0: Get your cloud credentials
 
 Before you can start using cloud resources, you need to get your API access credentials for the given cloud. This step needs to be done only once for each
