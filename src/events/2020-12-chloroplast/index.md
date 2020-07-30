@@ -1,7 +1,7 @@
 ---
 title: "Plant genomics: chloroplast genome assembly using Galaxy Australia"
 date: '2020-12-10'
-days: 2
+days: 1
 tease: "Webinar"
 continent: AU
 location: "Online"
