@@ -960,3 +960,4 @@ Your kind words about James bring tears. Our family thanks you all.
 It's been a couple weeks now, and I still feel like it is so surreal that this could have happened. I didn't know James super well but he will always be the voice I hear announcing the state of the Galaxy during the community conference. He had a hand in so many initiatives and was so central to the communities I'm a part of, I'm left wondering how the world will possibly go on without his leadership.
 <footer class="blockquote-footer">Carrie Ganote, Indiana University</footer>
 </blockquote>
+&nbsp;&nbsp;

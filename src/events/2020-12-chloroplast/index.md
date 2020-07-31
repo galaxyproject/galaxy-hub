@@ -2,7 +2,7 @@
 title: "Plant genomics: chloroplast genome assembly using Galaxy Australia"
 date: '2020-12-10'
 days: 1
-tease: "Webinar"
+tease: "Webinar&nbsp;"
 continent: AU
 location: "Online"
 location_url: "https://unimelb.zoom.us/webinar/register/WN_N7o065f8QG60ZRFw2_JxYg"
