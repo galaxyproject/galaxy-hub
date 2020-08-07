@@ -8,7 +8,7 @@ platforms:
     platform_text: "AmrPlusPlus Docker"
     platform_location: US
 summary: "A Galaxy-based metagenomics pipeline that is intuitive and easy to use."
-image: "/src/use/amrplusplus/amrplusplus-flowchart.png"
+image: "amrplusplus-flowchart.png"
 comments:
   - "AmrPlusPlus takes advantage of current and new tools to help identify and characterize resistance genes within metagenomic sequence data."
   - "The pipeline can be used under a local instance of Galaxy and installed via Galaxy's Main Tool Shed. It is also available as a Galaxy-based Docker Image, using base images developed by Björn Grüning at the University of Freiburg."

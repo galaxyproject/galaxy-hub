@@ -224,7 +224,7 @@ Use the G-OnRamp output to visualize large genomics datasets, and can utilize th
 - [Virtual Machine Installation Walkthrough](https://wustl.app.box.com/s/9626q6n2mjnd3vuas26j20w419f5v0fc)
 - [CloudLaunch Deployment Walkthrough](https://wustl.app.box.com/s/rg7xaezf22p75d8yardsooa2izbdlkd5) (using the AMI)
 
-[<img class="float-right" style="max-width: 200px" src="/src/use/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />](/src/use/amrplusplus/index.md)
+<img class="float-right" style="max-width: 200px" src="/src/use/archive/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />
 
 G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/) and [Oregon Health & Science University](https://ohsu.edu/)
 
