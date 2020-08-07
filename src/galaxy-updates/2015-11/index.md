@@ -107,7 +107,7 @@ The new papers were tagged with:
 # Events
 
 <div class='left'><br />
-<a href='/src/events/gcc2016/training/index.md'><img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a><br />
+<img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /><br />
 <table>
   <tr>
     <th> &nbsp; <a href='http://bit.ly/gcc2016trnvote'>Vote now!</a> &nbsp; </th>
@@ -118,7 +118,7 @@ The new papers were tagged with:
 
 ## GCC2016 Training Topic Vote Ends This Friday
 
-Thanks to everyone who nominated topics for [GCC2016 Training](/src/events/gcc2016/training/index.md).  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
+Thanks to everyone who nominated topics for GCC2016 Training.  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
 
 The [2016 Galaxy Community Conference (GCC2016)](/src/events/gcc2016/index.md) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
@@ -515,7 +515,7 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at MyExperiment.
 
-* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/events/gcc2016/index.md).  However, we have [nominated a topic on Best Practices and Resources for Galaxy Training](/src/events/gcc2016/training/index.md#galactically-speaking-best-practices-and-resources-for-galaxy-training).  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
+* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/events/gcc2016/index.md).  However, we have nominated a topic on Best Practices and Resources for Galaxy Training.  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
 
 ## Galaxy Codebase Reaches 20 000 Commits
 

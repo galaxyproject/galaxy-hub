@@ -1,3 +1,3 @@
 ---
-redirect: "/use/abims-tools/"
+redirect: "/use/abims/"
 ---
