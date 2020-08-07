@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/bgruening/galaxy-deeptools"
     platform_text: "Galaxy deepTools Docker"
 summary: "deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments."
-image: "/src/use/deeptools/deeptools.png"
+image: "deeptools.png"
 comments:
   - "[deepTools home page at GitHub](https://github.com/deeptools/deepTools)"
   - "deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control)."

@@ -275,14 +275,14 @@ One new [public Galaxy servers](/src/use/index.md) was added to the published li
 
 ## deepTools
 
-<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/use/deeptools/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
+<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/use/archive/deeptools/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
 
 * *Links:*
   * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
   * [deepTools home page at GitHub](http://deeptools.github.io/)
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
   * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/events/gcc2014/abstracts/talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/events/gcc2014/index.md)
-  * [deepTools deployment description](/src/community/deployment/deep-tools/index.md)
+  * deepTools deployment description
 * *Domain/Purpose:* 
     deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
 * *Comments:*
@@ -321,7 +321,7 @@ The most recent version of CloudMan was [released in January 2014](/src/news/clo
 <br /><br />
 
 One new [deployment description](/src/community/deployment/index.md) was added in May:
-* [deepTools](/src/community/deployment/deep-tools/index.md)
+* deepTools
 
 The *[Community Log Board](/src/blog/index.md)* and  *[Deployment Catalog](/src/community/deployment/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/community/deployment/index.md), or [experience](/src/blog/index.md) you want to share then please publish them.
 
