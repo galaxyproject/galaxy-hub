@@ -16,6 +16,13 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 [![](/src/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
 
 
+## Galaxy on Gitter Chat
+
+The Galaxy community uses Gitter.im for chat support, and there are many different channels, depending upon topic.  Here are the channels with 30 or more members.
+
+[![](/src/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
+
+
 ## Mailing Lists
 
 Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/src/mailing-lists/index.md) remain the only frequently active mailing lists. Here's the history:
@@ -40,16 +47,19 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 | Geography/Language-based Community / Channel | Membership / Followers |
 |---|---:|
-| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 458 |
-| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 321 |
-| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 69 |
-| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 50 |
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 564 |
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 380 |
+| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 248 |
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 73 |
+| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 52 |
 | | |
 | **Topic-Based Community / Channel** |  |
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 136 |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 151 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 135 |
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 88 |
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 200 |
+| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 113 |
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 144 |
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 140 |
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 89 |
+| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 65 |
 
 
 # Publications / Citations
