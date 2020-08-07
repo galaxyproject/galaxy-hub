@@ -8,7 +8,7 @@ platforms:
     platform_url: "https://marketplace.egi.eu/applications-on-demand-beta/57-galaxy.html"
     platform_text: "EGI Marketplace"
 summary: "Galaxy instances on a European wide federation of research cloud providers."
-image: "/src/use/egi/egi.png"
+image: "egi.png"
 comments:
   - "Galaxy is available under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program"
   - "EGI supports [compute infrastructure for training](https://marketplace.egi.eu/29-training-infrastructure)."

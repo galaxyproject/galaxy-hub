@@ -240,7 +240,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 ## EGI Marketplace
 
-[<img class="float-left" style="max-width: 400px" src="/src/use/egi/egi.png" alt="EGI Marketplace" />](/src/use/egi/index.md)
+<img class="float-left" style="max-width: 400px" src="/src/use/archive/egi/egi.png" alt="EGI Marketplace" />
 
 [EGI](https://www.egi.eu/) is a [federation of hundreds of data and compute centres worldwide and tens of cloud providers](https://marketplace.egi.eu/content/4-about-us) united by a mission to support research activities.  Galaxy instances are available to users worldwide under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program. You need to create an account and then apply for an allocation.
 
