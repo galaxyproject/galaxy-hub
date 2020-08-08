@@ -199,9 +199,9 @@ The BioDivine server hosts tools for systems biology, developed by the [Systems 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Laniakea 2 Launched](https://laniakea-elixir-it.github.io/)</div>
 
-<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea.png" alt="Laniakea" />
+<img class="card-img-top" src="/src/use/laniakea/laniakea.png" alt="Laniakea" />
 
-Version 2 of [Laniakea](/src/use/laniakea-indigo-datacloud/index.md) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
+Version 2 of [Laniakea](/src/use/laniakea/index.md) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
 </div>
 
 

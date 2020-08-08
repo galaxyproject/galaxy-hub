@@ -1,16 +1,16 @@
 ---
-title: "Laniakea/INDIGO-DataCloud"
-url: "https://elixir-italy-science-gateway.cloud.ba.infn.it"
+title: "Laniakea"
+url: "https://laniakea-elixir-it.github.io/"
 scope: "general"
 platforms:
   - platform_group: "academic-cloud"
     platform_purview: "Italy"
-    platform_url: "https://www.indigo-datacloud.eu/"
-    platform_text: "INDIGO-DataCloud"
-summary: '[Laniakea](https://laniakea-elixir-it.github.io) provides the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.'
+    platform_url: "https://laniakea-dashboard.cloud.ba.infn.it/login"
+    platform_text: "Laniakea"
+summary: 'Laniakea provides the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.'
 image: "laniakea_logo_def_white_background.png"
 comments:
-- 'Laniakea enables researchers to configure and deploy personal Galaxy instances, exploiting the [INDIGO-DataCloud](https://www.indigo-datacloud.eu/) software catalogue. Each Galaxy instance is customizable in terms of virtual CPUs, RAM and storage through the web front-end, and deployable with different sets of pre installed tools. Each instance comes with reference data (e.g. genomic sequences) already available for many species, shared among all the instances.'
+- 'Laniakea enables researchers to configure and deploy personal Galaxy instances. Each Galaxy instance is customizable in terms of virtual CPUs, RAM and storage through the web front-end, and deployable with different sets of pre installed tools. Each instance comes with reference data (e.g. genomic sequences) already available for many species, shared among all the instances.'
 - 'Each Galaxy instance can be provided with an encrypted external storage volume to protect users research data from any unauthorized access attempts and linked to a repository of standard reference data (e.g., genomic sequences).'
 - 'The service is scalable and both users and service providers can choose among a full range of different computational capabilities: from limited ones to serve e.g. small research groups, Galaxy developers or for didactic and training purposes, to instances with elasticity cluster support to deliver enough computational power.'
 - 'Laniakea can also be employed as a tool publishing platform. That is, tools developers can choose to publish and make new tools available embedding them in a personalized Galaxy instance. See for example [PITE-T](http://igg.cloud.ba.infn.it/galaxy) and [VINYL](http://beaconlab.it/vinyl).'

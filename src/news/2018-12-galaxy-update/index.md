@@ -211,11 +211,11 @@ The [Galaxy Platform Directory](/src/use/index.md) was launched lat month.  It l
 
 The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/src/use/biobix/index.md) for more details.
 
-[<img class="float-right" src="/src/use/laniakea-indigo-datacloud/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/src/use/laniakea-indigo-datacloud/index.md)
+[<img class="float-right" src="/src/use/laniakea/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/src/use/laniakea/index.md)
 
 ## Laniakea / INDIGO-DataCloud
 
-[Laniakea](https://www.indigo-datacloud.eu/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea-indigo-datacloud/index.md) for full details.
+[Laniakea](https://laniakea-elixir-it.github.io/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea/index.md) for full details.
 
 [<img class="float-left" src="/src/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
 

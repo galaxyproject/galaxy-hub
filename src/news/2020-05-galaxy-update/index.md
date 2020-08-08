@@ -196,7 +196,7 @@ This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training
 
 
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
+<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 <div class="card-header">[Laniakea SARS-CoV-2 flavour available](https://laniakea-elixir-it.github.io/2020/03/27/covid19-docker-flavor.html)</div>
 
 A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. It is based on the GalaxyProject covid-19 analysis and it is continuously updated. Due to the current Covid-19 outbreak, the flavour is made available to Laniakea users without the usual test routine. 
@@ -345,7 +345,7 @@ The [Mississippi server was upgraded](/src/news/2020-03-mississippi/index.md), a
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[Laniakea@ReCaS: resource allocation call](https://laniakea-elixir-it.github.io/laniakea_at_recas)</div>
 
-<img class="card-img-top" src="/src/use/laniakea-indigo-datacloud/laniakea_logo_def_white_background.png" alt="Laniakea" />
+<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 
 The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
 </div>
