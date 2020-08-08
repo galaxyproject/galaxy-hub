@@ -4,7 +4,7 @@ url: "http://treegenesdb.org/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://treegenes.cam.uchc.edu/galaxy"
+    platform_url: "https://treegenes.cam.uchc.edu/"
     platform_text: "TreeGenes Galaxy"
     platform_location: US
 summary: " TreeGenes integrates genotype, phenotype, and environmental data that can be processed for association mapping and landscape genomics, with a focus on forest trees. This functionality is provided by [Tripal Galaxy](https://github.com/tripal/tripal_galaxy), a module for [Tripal](http://tripal.info) that provides seamless support for running Galaxy workflows directly in the site. Users can analyze data provided by TreeGenes or their own."

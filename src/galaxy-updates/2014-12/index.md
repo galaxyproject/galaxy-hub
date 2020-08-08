@@ -268,7 +268,7 @@ Two new [public Galaxy servers](/src/use/index.md) were announced in November:
 
 ## Pitagora-Galaxy
 
-<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/use/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/use/archive/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)

@@ -7,11 +7,8 @@ platforms:
     platform_url: "https://galaxy.ncgas-trinity.indiana.edu/"
     platform_text: "Trinity CTAT Galaxy"
     platform_location: US
-  - platform_group: "container"
-    platform_url: "https://github.com/NCIP/Trinity_CTAT_galaxy/wiki/Intro"
-    platform_text: "Docker-ctat-galaxy"
 summary: "The Trinity CTAT Galaxy provides users with access to large memory resources required for *de novo* transcriptome assembly and downstream analysis."
-image: "/src/use/trinity-ctat/trinity-pti-logo.jpg"
+image: "trinity-pti-logo.jpg"
 comments:
   - "Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki)."
 user_support:
