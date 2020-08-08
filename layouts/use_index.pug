@@ -10,7 +10,7 @@ mixin renderResourceRow(item, platform_tag, with_purview)
                     each platform in item.platforms
                         - var platform_info = use_platforms.get(platform.platform_group)
                         if platform_info.column == platform_column
-                            a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text}
+                            a( href=deGitUrl(platform.platform_url) ) #{platform_info.short_text} 
         else
             td
                 - var platform_info = use_platforms.get(platform_tag)
