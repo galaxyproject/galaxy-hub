@@ -1,20 +1,20 @@
 ---
 title: "ImmPort Galaxy"
-url: "http://immportgalaxy.org/"
+url: "https://www.immportgalaxy.org/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://immportgalaxy.org/"
+    platform_url: "https://www.immportgalaxy.org/"
     platform_text: "ImmPort Galaxy"
     platform_location: US
 summary: "Flow Cytometry Analysis. "
 image: "/src/use/immport-galaxy/immport.png"
 comments:
-  - "[ImmPort Galaxy](http://immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools."
+  - "[ImmPort Galaxy](https://www.immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools."
   - "See [FlowGalaxy: Developing a workflow for Flow Cytometry Analysis in Galaxy](http://sched.co/745G), presented by [Cristel Thomas](http://twitter.com/crstlthms) at [GCC2016](https://gcc16.sched.org/)."
   - "[ImmPort on Twitter](http://twitter.com/ImmPort)"
 user_support:
-  - "[Help page](http://immportgalaxy.org/static/immportgalaxyhelp.html)"
+  - "[Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html)"
   - "[Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA)"
   - "[Email](mailto:immport-galaxy@immport.org)"
   - "Tutorials to come."

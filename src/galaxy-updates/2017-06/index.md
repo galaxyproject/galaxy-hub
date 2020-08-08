@@ -251,9 +251,9 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ## ImmPort Galaxy Update
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
+<div class='right solid'><a href='https://www.immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
 
-A new release of [ImmPort Galaxy](http://immportgalaxy.org/) is out:
+A new release of [ImmPort Galaxy](https://www.immportgalaxy.org/) is out:
 
 * R is all up to date logicle trans, 
 * Added a transformation algorithm to the Automated gating

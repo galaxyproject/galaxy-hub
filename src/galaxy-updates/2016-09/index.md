@@ -374,18 +374,18 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 
 ### ImmPort Galaxy
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='https://www.immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport.png" alt="ImmPort Galaxy" width="300" /></a></div>
 * *Links:*
-  * [ImmPort Galaxy](http://immportgalaxy.org/)
+  * [ImmPort Galaxy](https://www.immportgalaxy.org/)
 * *Domain/Purpose:*
   * Flow Cytometry Analysis.
 * *Comments:*
-  * [ImmPort Galaxy](http://immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools.
+  * [ImmPort Galaxy](https://www.immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools.
   * See [FlowGalaxy: Developing a workflow for Flow Cytometry Analysis in Galaxy](http://sched.co/745G), presented by [Cristel Thomas](http://twitter.com/crstlthms) at [GCC2016](https://gcc16.sched.org/).
   * [ImmPort on Twitter](http://twitter.com/ImmPort)
 
 * *User Support:*
-  * [Help page](http://immportgalaxy.org/static/immportgalaxyhelp.html) 
+  * [Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html) 
   * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA) 
   * [Email](mailto:immport-galaxy@immport.org)
   * Tutorials to come.

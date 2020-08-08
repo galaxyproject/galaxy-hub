@@ -80,7 +80,7 @@ Here's a sample:
 | ----- | ----- | ---- |
 | [<img style="max-width: 40px" src="/src/images/logos/GalaxyAustralia-square.jpg" />](https://twitter.com/GalaxyAustralia) |  [@GalaxyAustralia](https://twitter.com/GalaxyAustralia) | [UseGalaxy.org.au](https://usegalaxy.org.au/) |
 | [<img style="max-width: 40px" src="/src/images/logos/GalaxyPLogo.png" />](https://twitter.com/usegalaxyp) | [@usegalaxyp](https://twitter.com/usegalaxyp) | [Galaxy for Proteomics project](http://galaxyp.org/) |
-| [<img style="max-width: 40px" src="/src/use/immport-galaxy/immport-project-logo-symbol.png" />](https://twitter.com/immportdb) | [@ImmPortDB](https://twitter.com/immportdb) | [ImmPort](http://immportgalaxy.org/) |
+| [<img style="max-width: 40px" src="/src/use/immport-galaxy/immport-project-logo-symbol.png" />](https://twitter.com/immportdb) | [@ImmPortDB](https://twitter.com/immportdb) | [ImmPort](https://www.immportgalaxy.org/) |
 | [<img style="max-width: 40px" src="/src/use/mississippi/artbio-logo-square.jpg" />](https://twitter.com/artbio_ibps) | [@artbio_ibps](https://twitter.com/artbio_ibps) | [Mississippi](https://mississippi.snv.jussieu.fr/) |
 | [<img style="max-width: 40px" src="/src/use/phenomenal/phenomenal-logo-square.png" />](https://twitter.com/phnmlh2020) | [@PhnmlH2020](https://twitter.com/phnmlh2020) | [PhenoMeNal](http://public.phenomenal-h2020.eu/) | 
 | [<img style="max-width: 40px" src="/src/use/south-green/south-green-twitter.jpg" />](https://twitter.com/green_bioinfo) | [@green_bioinfo](https://twitter.com/green_bioinfo) | [South Green](https://southgreen.fr/) |
