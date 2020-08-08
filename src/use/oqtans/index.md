@@ -7,9 +7,6 @@ platforms:
     platform_url: "http://galaxy.inf.ethz.ch"
     platform_text: "Oqtans Galaxy Server"
     platform_location: CH
-  - platform_group: "commercial-cloud"
-    platform_url: "http://www.oqtans.org/instantiate"
-    platform_text: "Oqtans on AWS"
 summary: "Customized Galaxy, extended with machine learning based tools for sequence and tiling array data analysis. "
 image: "/src/use/oqtans/oqtans.png"
 comments:
@@ -17,7 +14,6 @@ comments:
   - "as a [public Galaxy instance](http://galaxy.inf.ethz.ch)"
   - "as a [git repository](http://oqtans.org/git)"
   - "most of these tools are moreover available from the Galaxy Toolshed"
-  - "a preconfigured Amazon Machine Image (AMI, `ami-65376a0c`) and share string (`cm-ba5c56b95144e564f70e5762dc5fa177/shared/2013-11-07--22-16/`) to launch Galaxy CloudMan using sharing instance functionality."
   - "Oqtans capabilities are shown with [Galaxy Pages](http://oqtans.org/usecases) for which all data, parameters, intermediate output, and final results are made public.<br />"
 user_support:
   - "For problems with any of the non-standard tools, please contact the [MLB Galaxy Support Team](mailto:galaxy AT raetschlab DOT org)."
