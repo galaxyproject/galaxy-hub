@@ -4,7 +4,7 @@ url: "http://www.cellorganizer.org/public-galaxy-server/"
 scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://galaxy3.compbio.cs.cmu.edu:9000"
+    platform_url: "http://galaxy3.compbio.cs.cmu.edu:9001"
     platform_text: "CellOrganizer for Galaxy"
     platform_location: US
 summary: "Create generative models of the spatial organization of cells from microscope images and automatically provide geometries for spatial simulations of cell processes and behaviors"

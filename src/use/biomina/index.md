@@ -1,14 +1,14 @@
 ---
 title: "Biomina"
-url: "http://biominavm-galaxy.biomina.be/galaxy/"
+url: "http://143.169.238.104/galaxy/"
 scope: "general"
 platforms:
   - platform_group: "public-server"
-    platform_url: "http://biominavm-galaxy.biomina.be/galaxy/"
+    platform_url: "http://143.169.238.104/galaxy/"
     platform_text: "Biomina Galaxy"
     platform_location: BE
 summary: "A general purpose Galaxy instance that includes most standard tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis. "
-image: "/src/use/biomina/biomina-300.png"
+image: "biomina-300.png"
 comments:
   - "Includes a number of workflows, including workflow from [A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html), by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899"
 user_support:
