@@ -8,7 +8,7 @@ platforms:
     platform_text: "Antigen Receptor Galaxy (ARGalaxy)"
     platform_location: NL
 summary: "Automate the analysis and visual reporting of T- and B-cell receptor repertoire sequencing data. "
-image: "/src/use/argalaxy/argalaxy-logo.png"
+image: "argalaxy-logo.png"
 comments:
   - "Consists of four parts: the demultiplex tool, the IMGT concatenate tool, the immune repertoire pipeline and the SHM&CSR pipeline. Together they allow the analysis of all different aspects of the immune repertoire. All pipelines can be run independently or combined, dependent on the available data and the question of interest"
   - "The demultiplex tool allows data trimming and demultiplexing of samples"

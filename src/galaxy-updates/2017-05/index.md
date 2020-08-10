@@ -307,7 +307,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ### Antigen Receptor Galaxy (ARGalaxy)
 	
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/src/use/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/src/use/archive/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Antigen Receptor Galaxy (ARGalaxy)](https://bioinf-galaxian.erasmusmc.nl/argalaxy/)
