@@ -8,7 +8,7 @@ platforms:
     platform_text: "Erasmus MC Bioinformatics Galaxy Server"
     platform_location: NL
 summary: "General purpose genomics analysis, featuring many standard tools plus many additional tools. "
-image: "/src/use/erasmus-mc/erasmus-mc-bioinf-300.png"
+image: "erasmus-mc-bioinf-300.png"
 comments:
   - "This server supports a wealth of RNA-Seq tasks, including: quantify gene expression (featureCounts, edgeR, experimental design module) determine and prioritize fusion genes (star-fusion, Fuma, ifuse) determine variants and annotate small variants (BAM to varscan2, Annovar) detect small ncRNA derived RNAs in small RNA-seq alignments (Flaimapper) Generate html user defined workflow (iReport) All tools are also available in the Tool Shed."
 user_support:

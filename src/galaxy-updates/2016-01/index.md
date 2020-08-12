@@ -225,7 +225,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> June 25-29 </th>
     <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/events/gcc2016/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/events/gcc2016/organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -288,7 +288,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/archive/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
