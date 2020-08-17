@@ -11,7 +11,7 @@ summary: "Kinetic Re-Epithelialization Analysis Pipeline"
 comments:
   - "This service is available for downloads as a virtual machine as a Galaxy service."
   - "Available in OVA and VMDK formats."
-image: "/src/use/kreap/kreap-figure-6.png"
+image: "kreap-figure-6.png"
 user_support:
   - "[Plate Zip and Index files](https://erasmusmc-bioinformatics.github.io/KREAP/file_formats) (needed to run KREAP)"
   - "[Uploading file to Galaxy KREAP](https://erasmusmc-bioinformatics.github.io/KREAP/use_kreap_upload)"

@@ -11,7 +11,7 @@ comments:
   - "This service is available for downloads as a virtual machine as a Galaxy service."
   - "Tools include igBLASTn, igBLASTparser, and IMGT Loader"
   - "Provides experimental design and report generation support"
-image: "/src/use/iggalaxy/iggalaxy-wiki-400.png"
+image: "iggalaxy-wiki-400.png"
 user_support:
   - "[Installation and User Guide](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy)"
   - "Email support."

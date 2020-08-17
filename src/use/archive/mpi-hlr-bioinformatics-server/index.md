@@ -8,7 +8,7 @@ platforms:
     platform_text: "MPI-HLR Bioinformatics Server"
     platform_location: DE
 summary: "Hosts the MIRPIPE, ADMIRE, and LimiTT tools "
-image: "/src/use/mpi-hlr-bioinformatics-server/mpi-hlr-home-page.png"
+image: "mpi-hlr-home-page.png"
 comments:
   - "The tools are"
   - "MIRPIPE: Quantification of microRNA based on smallRNA sequencing reads"

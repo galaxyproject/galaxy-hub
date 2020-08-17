@@ -247,7 +247,7 @@ See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data
 
 ## MIRPIPE
 
-<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/use/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/use/archive/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
 
 [MIRPIPE](https://bioinformatics.mpi-bn.mpg.de/) focuses on quantification of microRNA based on smallRNA sequencing reads.  From the home page:
  In opposition to present algorithms that generally rely on genomic data to identify miRNAs, MIRPIPE focuses on niche model organisms that lack such information. Among the MIRPIPE features are automatic trimming and adapter removal of raw RNA-Seq reads originating from various sequencing instruments, clustering of isomiRs, and quantification of detected miRNAs by homology search versus public or user uploaded reference databases.

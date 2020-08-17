@@ -8,7 +8,7 @@ platforms:
     platform_text: "ChimeRScope Galaxy Server"
     platform_location: US
 summary: "Fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. "
-image: "/src/use/chimerscope/chimerscope.png"
+image: "chimerscope.png"
 comments:
   - "ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods."
 user_support:

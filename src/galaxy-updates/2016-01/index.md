@@ -262,7 +262,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/use/mpi-hlr-bioinformatics-server/index.md).
+[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded MPI-HLR Bioinformatics Server.
 
 ## Dintor
 
