@@ -510,6 +510,7 @@ Here are the tags on papers in the Galaxy Publications Library as of August 2020
   </tr>
 </table>
 
+<br />
 
 [![](/src/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
 
