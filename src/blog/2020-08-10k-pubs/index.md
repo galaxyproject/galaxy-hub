@@ -507,31 +507,31 @@ The library contains any type of academic publication, including theses, confere
 
 Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the library are:
 
-| Rank | (Rank 2017/10) | Journal | # |
-| ----: | ----: | ---- | ----: |
-| 1 | 1 | *PLOS ONE* | 381 |
-| 2 | 6 | *Scientific Reports* | 300 |
-| 3 | 3 | *Nucleic Acids Research* | 263 |
-| 4 | 2 | *BMC Genomics* | 243 |
-| 5 | 4 | *Bioinformatics* | 228 |
-| 6 | 8 | *Microbiology Resource Announcements* <sup>*</sup> | 171 |
-| 7 | 5 | *BMC Bioinformatics* | 167 |
-| 8 | 11 | *Nature Communications* | 141 |
-| 9 | 25 | *BioRxiv* | 86 |
-| 10 | 30 | *Frontiers in Microbiology* | 81
-| 11 | 18 | *Cell Reports* | 80 |
-| 12 | 7 | *PLOS Genetics* | 78 |
-| 13 | 8 | *Genome Biology* | 76 |
-| 14 | 27 | *GigaScience* | 72 |
-| 15 | 28 | *PeerJ* | 70 | 
-| 16 | 12 | *Briefings in Bioinformatics* | 68 |
-| 17 | 14 | *Molecular Ecology* | 64 |
-| 17 | 13 | *Proceedings of the National Academy of Sciences* | 64 |
-| 19 | 8 | *Genome Research* | 62 |
-| 20 | 24 | *eLife* | 58 |
-| 20 | 22 | *F1000Research* | 58 |
-| 20 | 16 | *Future Generation Computer Systems* | 58 |
-| 20 | 17 | *PLOS Computational Biology* | 58 |
+| Rank | Journal | # |
+| ----: | ---- | ----: |
+| 1 | *PLOS ONE* | 381 |
+| 2 | *Scientific Reports* | 300 |
+| 3 | *Nucleic Acids Research* | 263 |
+| 4 | *BMC Genomics* | 243 |
+| 5 | *Bioinformatics* | 228 |
+| 6 | *Microbiology Resource Announcements* <sup>*</sup> | 171 |
+| 7 | *BMC Bioinformatics* | 167 |
+| 8 | *Nature Communications* | 141 |
+| 9 | *BioRxiv* | 86 |
+| 10 | *Frontiers in Microbiology* | 81
+| 11 | *Cell Reports* | 80 |
+| 12 | *PLOS Genetics* | 78 |
+| 13 | *Genome Biology* | 76 |
+| 14 | *GigaScience* | 72 |
+| 15 | *PeerJ* | 70 | 
+| 16 | *Briefings in Bioinformatics* | 68 |
+| 17 | *Molecular Ecology* | 64 |
+| 17 | *Proceedings of the National Academy of Sciences* | 64 |
+| 19 | *Genome Research* | 62 |
+| 20 | *eLife* | 58 |
+| 20 | *F1000Research* | 58 |
+| 20 | *Future Generation Computer Systems* | 58 |
+| 20 | *PLOS Computational Biology* | 58 |
 
 <sup>*</sup> *Genome Announcements* was retitled *Microbiology Resource Announcements* in July 2018.
 
