@@ -1,16 +1,16 @@
 ---
-date: ''
+date: '2020-08-26'
 title: "Galaxy: the first 10,000 pubs "
 tease: "The Galaxy Publication Library hits a milestone"
 image: /src/images/logos/zotero-logo-small-trans.png
 authors: "Dave Clements"
 ---
 
-We reached 10,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) this month.  The library tracks publications that use, extend, implement or reference Galaxy or a Galaxy server.  It includes journal articles, theses, and a couple of odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going too.
+We reached 10,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) this month.  This library tracks publications that use, extend, implement or reference Galaxy or Galaxy-based platforms.  It includes journal articles, theses, book chapters, preprints, and a couple more odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going as well.
 
-The library was started December 2011, when the first 168 galaxy related publications were added and classified using 8 tags.  This included all project publications plus every pub that *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/src/news/2017-09-publication-lib-on-zotero/). The library grew to 4500 papers during that time.
+The library was started December 2011, when the first 168 galaxy related publications were added and classified using [8 tags](#more-on-tags).  This included all project publications plus every pub that our *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/src/news/2017-09-publication-lib-on-zotero/). The library had 4500 publications by the time we moved to Zotero.
 
-The library uses *tags* to indicate how the publication relates to Galaxy.  See below for an [explanation and history of the tags](#more-on-tags).
+The library uses *tags* to indicate how publications relate to Galaxy.  See below for an [explanation and history of the tags](#more-on-tags).
 
 <br />
 
@@ -457,26 +457,30 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
 </table>
 
 
-
-# Trends
-
-Trends in the publication library reflect the trajectory of the Galaxy Project over the last 6 years.
+Trends in the publication library reflect the trajectory of the Galaxy Project.  Here are some trends that stand out in this data.
 
 ## Up, Up, Up
 
-From 2013 through 2019 the number of pubs each year went up by an average of 25% each year.  If trends for the first 7 months of 2020 continue, we will end up with 2400 new publications this year.
+From 2013 through 2019 the number of pubs per year increased by an average of 25% each year.  This year the trend is even steeper, and if it continues, we will end up with 2400 new publications in 2020.
 
-Note that it took [over three and a half years to reach 2,500 publications](/src/news/first2500-papers/index.md), a little over two more years to add the next 2,500 publications, and almost three years to add the next 5000 pubs.  If trends continue, we will hit 20,000 pubs by 2024.
+Note that it took
+
+* [44 months to reach 2,500 publications](/src/news/first2500-papers/index.md),
+* [26 months to add the next 2,500 publications](/src/blog/2017-10-5000-pubs/index.md),
+* 18 months to add the next 2,500 (data not shown), and
+* 16 months to add the most recent 2,500 pubs.
+
+If trends continue, we will hit 20,000 pubs by 2024.
 
 ## Methods
 
-The most obvious "trend" is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of the pubs [in the first 5000 pubs](/src/blog/2017-10-5000-pubs/index.md).  In 2020, methods pubs are 72% of all pubs.
+The most obvious trend is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of [the first 5000 pubs](/src/blog/2017-10-5000-pubs/index.md).  So far in 2020, 72% of all pubs are tagged *Methods*.
 
 This trend doesn't show any sign of slowing down.
 
 ## UsePublic and UseMain
 
-Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
+Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* papers say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
 
 **The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy platforms.**
 
@@ -490,11 +494,11 @@ This rise reflects the increase in available [public platforms](/src/use/index.m
 
 ## UseLocal ... dropping?
 
-The number of pubs reporting using local / non-public instances of Galaxy increases every year, up from 58 in 2015 to 144 in 2019.  However, the percentage of Methods papers that report using local installs is dropping slightly most years, from 12% of Methods papers in 2015 to 9% in 2020.
+The number of pubs reporting using local / non-public instances of Galaxy increases every year, up from 58 in 2015 to 144 in 2019.  However, in most years the percentage of *Methods* papers that report using local installs is dropping slightly, from 12% of Methods papers in 2015 to 9% in 2020.
 
 We aren't sure what to make of this, as we believe that *by far* the largest group of Galaxy installations are *UseLocal*.  Some possible explanations:
 
-1. Researchers using local Galaxy instances are less like to report that they are using Galaxy, or which Galaxy they are using.
+1. Researchers using local Galaxy instances are less like to report that they are using Galaxy.
 1. Most local installs aren't used in research that ends up being published.
 1. There are far fewer local installs than we think.
 
@@ -507,7 +511,7 @@ The library contains any type of academic publication, including theses, confere
 
 Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the library are:
 
-| Rank | Journal | # |
+| Rank | Journal | # Pubs |
 | ----: | ---- | ----: |
 | 1 | *PLOS ONE* | 381 |
 | 2 | *Scientific Reports* | 300 |
@@ -533,40 +537,47 @@ Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the 
 | 20 | *Future Generation Computer Systems* | 58 |
 | 20 | *PLOS Computational Biology* | 58 |
 
-<sup>*</sup> *Genome Announcements* was retitled *Microbiology Resource Announcements* in July 2018.
+<sup>* </sup> *Genome Announcements* was retitled *Microbiology Resource Announcements* in July 2018.
 
-Note that there are 6 journals in the top 20 that weren't there when we hit 5000 pubs.  All 6 newcomers are open access.
+There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/src/blog/2017-10-5000-pubs/index.md#journals).  All 6 newcomers are open access.
 
 ## Open Access is Rising
 
-In fact this highlights a general trend towards adoption of open access journals by the Galaxy community:
+This highlights a general trend towards adoption of open access journals by the Galaxy community:
 
 [<img src="top-20-journals-over-time.svg" alt="Top 20 journals over time" />](https://docs.google.com/spreadsheets/d/e/2PACX-1vTRjbgItTVkHTZAx3OMXACf7sHZoIWEB1r1jcW-GRdZv_EvnEWo77kcLMWGG86QqbCnRf3pqoAa-bC1/pubchart?oid=497224389&format=interactive)
 
 This shows the top 20 journals in the library at 4 points in time over the past 5 years.  A couple of things to note:
 
-* The graph shows the top 20 journals in the entire library at that point in time, not just the pubs added since the last point in time.
+* The graph shows the top 20 journals *in the entire library* at each point in time, not just in the pubs added since the last point in time. (That graph would show the last two points here even more starkly.)
 * Points, 1, 2, and 4 correspond to reaching 2500, 5000, and 10,000 pubs.
-* With the exception of *Bioinformatics*, all paid access journals have seen a significant drop in their relative rank.
-* Although not shown on the graph, the absolute number of papers published in these formerly high-ranking journals (including *Cell* and *Nature*) has remained relatively constant.  It is their relative ranking that has dropped as the number of pubs in other journals has increased.
+* With the exception of *Bioinformatics*, the rankings of paid access journals have been on a clear downward trend since at least 2018.
+* Although not shown on the graph, the *absolute* number of papers published in these formerly high-ranking paid access journals (including *Cell* and *Nature*) has remained relatively constant.  It is their relative ranking that has dropped as the number of pubs in other journals has increased.
 
-### Preprints & *BioRxiv*
 
-Note that *BioRxiv* is both over and under-represented because of how we handle preprints:  When a paper shows up as a preprint we add it as a preprint.  Once or twice a year, we check all pubs currently in preprint form to see if they have been published in a peer-reviewed journal.  If they have, then we delete the preprint version, and add the peer-reviewed pub.
+## Preprints & *BioRxiv*
+
+*BioRxiv* is both over-counted and under-counted because of how we handle preprints:  When a paper shows up as a preprint we add it as a preprint.  Once or twice a year, we check all pubs currently in preprint form to see if they have been published in a peer-reviewed journal.  If they have, then we delete the preprint version, and add the peer-reviewed pub.
 
 This has two implications:
 
-* The total number of articles published in *BioRxiv* is actually much higher.
-* At most points in time, the number of pubs shown in *BioRxiv* is likely an overcount of Galaxy-related pubs that still don't exist in a peer-reviewed journal.
+* The total number of articles that have been published in *BioRxiv* is actually much higher than shown.
+* At most points in time, the number of pubs shown in *BioRxiv* is an overcount of Galaxy-related pubs that still don't exist in a peer-reviewed journal.
 
 
 # The 10,000th Pub?
 
 The 10,000th pub is
 
-> Dai, W., Xiong, J., Zheng, H., Ni, S., Ye, Y., & Wang, C. (2020). Effect of Rhizophora apiculata plantation for improving water quality, growth, and health of mud crab. Applied Microbiology and Biotechnology, 104(15), 6813–6824. https://doi.org/10.1007/s00253-020-10716-7
+* Dai, W., Xiong, J., Zheng, H., Ni, S., Ye, Y., & Wang, C. (2020). Effect of Rhizophora apiculata plantation for improving water quality, growth, and health of mud crab. *Applied Microbiology and Biotechnology*, 104(15), 6813–6824. https://doi.org/10.1007/s00253-020-10716-7
 
-Which is an exemplar 10,000th publication: It's a *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper, by far the [most popular topic tag](#methods); a *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)* paper, an ascendant topic tag; and a *[Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/%3EHuttenhower)* paper, the [most frequently referenced public platform tag](#public-server-and-services-tags).  And it's open access too.
+Which is an exemplar 10,000th publication: It's
+
+* a *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper, by far the [most popular topic tag](#topic-tags);
+* a *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)* paper, an ascendant topic tag;
+* and a *[Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/%3EHuttenhower)* paper, the [most frequently referenced public platform tag](#platform-tags).
+
+However, in one way it going against trends: It's in a paid access journal.
 
 
 
@@ -574,37 +585,41 @@ Which is an exemplar 10,000th publication: It's a *[Methods](https://www.zotero.
 
 The future of Galaxy being referenced, used, and extended in journals, theses, books, and preprints is bright.  However, the future of curating all those pubs is a wee bit murky.  Above I said:
 
-> If trends continue, we will hit 20,000 pubs by 2024.
+<blockquote class="blockquote">
+If trends continue, we will hit 20,000 pubs by 2024.
+</blockquote>
 
-which is about 3000 pubs per year.  Lately, we have been *reviewing* over 250 publications per month.  This is not scalable with current methods, and how we do, and how much we do, paper curation in the future is uncertain.  Right now every paper that automatic searches can identify as possibly referencing Galaxy is scanned by me, and either flagged as irrelevant or added to the library.  Easy papers take a 1-2 minutes.  Most papers take 2-4 minutes, and some take much longer.  If we assume 3 minutes per pub, and 300 pubs a month going forward, that is 180 hours per year, or a full work-month.  if 4 minutes per pub is a more accurate guess then we go to 240 hours per year.  
+Which means adding about 3000 pubs per year.  Lately we have knocked the false positive rate for our pub searches down to around 20%, which means we will be *reviewing* about 3600 pubs per year, or 300 per month.
+
+This is not scalable with current methods.
+
+How we do, and how much we do, paper curation in the future is uncertain.  Right now every paper that automatic searches can identify is scanned by me, and either flagged as irrelevant or added to the library.  Easy papers take a 1-2 minutes.  Most papers take 2-4 minutes, and some take much longer.  If we assume 3 minutes per pub, and 300 pubs a month going forward, that is 180 hours per year, or a full work-month.  if 4 minutes per pub is a more accurate guess then we go to 240 hours per year.
 
 
 ## Why go through the trouble?
 
-**Or: why not just use a purely automated process like Google Scholar citation alerts?**
-
-Oh, let me count the ways...
+*Or: why not just use a purely automated process like Google Scholar citation alerts?*
 
 **Most papers that use Galaxy don't formally reference it**
 
-Getting tools and platforms cited is a common challenge for bioinformatics software.  The more popular / ubiquitous the platform is, the less likely it is that researchers will think of citing it in their methods sections.  Galaxy faces this challenge constantly.  (It could be worse.  Imagine trying to track references to PubMed, Python, or R.)  We are grateful when we papers mention Galaxy at all.  Expecting everyone to also include formal citations would just be frustrating.
+Getting tools and platforms cited is a common challenge for bioinformatics software.  The more popular / ubiquitous the platform is, the less likely it is that researchers will think of citing it in their methods sections.  Galaxy faces this challenge constantly.  (It could be worse.  I imagine even fewer researchers cite PubMed, Python, or R.)  We are grateful when we papers mention Galaxy at all.  Expecting everyone to also include formal citations would just be frustrating, *and is just not going to happen.*
 
 Using just formal references, we would miss out on the bulk of Galaxy papers.
 
 
-**The tools on many public platforms are also available as command line tools**
+**The tools on many public Galaxy platforms are also available as command line tools**
 
-Many public Galaxy platforms are *tool-publishing* platforms.  These make a lab's tools accessible to researchers via the web.  These labs often also make their tools available as command line tools that can be locally installed.  The challenge is that both the Galaxy platform for the tools, and the command line tools often have the same base citation.
+Many public Galaxy platforms are *[tool publishing](/src/use/#tool-publishing)* platforms.  These platforms make a lab's tools easily accessible to researchers via a web interface (Galaxy).  These labs often also make their tools available as command line tools that can be locally installed.  The challenge is that both the Galaxy platform with the tools, and the command line tools often have the same base citation.
 
-Blindly counting any publication that references these papers would result in overcounting papers, and include a large number of irrelevant papers in the Galaxy pub library, thus greatly reducing its value.
+Blindly counting any publication that references these papers would result in overcounting papers, and include a large number of irrelevant papers in the Galaxy pub library, thus greatly reducing the value of the library.
 
 **Annotation would not be possible**
 
-The tags (see below) add significant value to the library.  With them we can track trends over time, and identify, for instance, papers about using Galaxy in education.  Without them, we have a few numbers.
+The tags (see below) add significant value to the library.  With them we can track trends over time, and identify, for instance, papers about using Galaxy in education.  Without them, we have pubss per year and that's it.
 
 **This is how we discover a lot of cool work by the community**
 
-Finally, by looking at all these papers (albeit, not very deeply) we have found all sorts of cool work done by the Galaxy community.  The monthly process of curation is a great way to find out about community developments that might go unnoticed otherwise.
+Finally, by looking at all these papers (albeit, not very deeply) we have found all sorts of cool work done by the Galaxy community.  The monthly process of curation is a great way to find out about community developments that might otherwise go unnoticed.
 
 ## Can we make this tractable?
 
@@ -612,27 +627,28 @@ Well, maybe.  We do have a large training dataset (10,000 pubs!), and access to 
 
 ## Next steps
 
-For now, we are stepping back from the monthly curation effort to figure out what to do going forward.   If we do return with manual or automatic or a hybrid technique then we will likely also adjust how we tag publications.  Specifically, the *UseMain* and *UseCloud* tags are no longer meaningful:
+For now, we are stepping back from the monthly curation effort to figure out what to do going forward.   If we do return with manual or automatic or a hybrid technique then we will likely also adjust how we tag publications.  Specifically, the *UseMain* and *UseCloud* tags are no longer meaningful.
 
-*UseMain:* When this was introduced the UseGalaxy.org server stood alone as by far the largest publicly accessible platform.  It is still a large platform, but it no longer stands alone.  Giving it special emphasis is no longer useful, and sends exactly the wrong message too.
+** *UseMain* and *UseCloud* tags are past their expiration date**
 
-*UseCloud:* When introduced this meant (and still means) that a custom instance was launched on public or private cloud infrastructure, used for analysis, and then shut down.  In 2020, this tag is more confusing than enlightening.  Several public Galaxy platforms now support launching private instances in a way that is seamless and transparent to the researcher.  Several other platforms use public and private cloud infrastructures (including the big 3 UseGalaxy.* servers), again in ways the end user is never aware of.
+*UseMain:* When this was introduced the UseGalaxy.org server stood alone as by far the largest publicly accessible platform.  It is still a large platform, but it no longer stands alone.  Giving it special emphasis is no longer useful. All *UseMain* tags may get replaced with a couplet of *UsePublic* and *>UseGalaxy.org* tags.
+
+*UseCloud:* When introduced this meant (and still means) that a custom instance was launched on public or private cloud infrastructure, used for analysis, and then shut down.  In 2020, this tag is more confusing than enlightening.  Several public Galaxy platforms now support launching private instances in a way that is seamless and transparent to the researcher.  Several other platforms use public and private cloud infrastructures (including the big 3 UseGalaxy.* servers), again in ways the end user is never aware of.  We may just drop this tag.
 
 <br />
 
-I/we look forward to continuing to track what the world is doing with Galaxy.  However we decide to do that, you'll learn about it here.
+Galaxy has had an interesting journey over the past 15 years, and the Galaxy Publications Library reflects that.  We look forward to continuing to track where we go in the future.
 
 *Thanks for using Galaxy (and for saying that you are using Galaxy!),* 
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-----
 
 ----
 
 # More on Tags
 
-We've used *[Topic Tags](#topic-tags)* since the beginning of the library to track how publications relate to Galaxy. Since the move to Zotero, we've also added *[Galaxy Featured Tags](#galaxy-featured-tags)*, *[Public Server Tags](#public-server-and-services-tags)*, and *[Publisher Tags](#publisher-tags)*.  They are all explained here.
+We've used *[Topic Tags](#topic-tags)* since the beginning of the library to track how publications relate to Galaxy. Since the move to Zotero, we've also added *[Galaxy Featured Tags](#galaxy-featured-tags)*, *[Platform Tags](#platfrom-tags)*, and *[Publisher Tags](#publisher-tags)*.
 
 ## Topic Tags
 
@@ -668,9 +684,9 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 | **[+Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/)** | Publication is about Galaxy. |
 | **[+Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/)** | Publication features Galaxy prominently. |
 
-## Public server and services tags
+## Platform tags
 
-The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which [public Galaxy platform](/src/use/index.md) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
 
 ## Publisher Tags
 
@@ -681,9 +697,9 @@ Zotero is configured to also add any keywords it can detect automatically when t
 These tags were added over an 8 year period.  Are older papers back-tagged when new tags are added?  *Mostly not, but there are some exceptions:*
 
 * **Galaxy Featured Tags** exist back to the beginning of time.  (These were converted from CiteULike's *priority* feature.)
-* **Topic and Public Server/Service tags** have been applied to older publications on a selected basis.
+* **Topic and platform tags** have been applied to older publications on a selected basis.
 
-Therefore, don't look for a lot of **+UseMain** or **+Cloud** tagged papers from before 2013. 
+Therefore, don't look for a lot of **+UsePublic** or **+Cloud** tagged papers from before 2013. 
 
 
 
