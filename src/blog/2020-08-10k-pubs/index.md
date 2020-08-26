@@ -537,7 +537,7 @@ Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the 
 | 20 | *Future Generation Computer Systems* | 58 |
 | 20 | *PLOS Computational Biology* | 58 |
 
-<sup>* </sup> *Genome Announcements* was retitled *Microbiology Resource Announcements* in July 2018.
+<sup>* </sup> *Genome Announcements* was re-titled *Microbiology Resource Announcements* in July 2018.
 
 There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/src/blog/2017-10-5000-pubs/index.md#journals).  All 6 newcomers are open access.
 
@@ -562,7 +562,7 @@ This shows the top 20 journals in the library at 4 points in time over the past 
 This has two implications:
 
 * The total number of articles that have been published in *BioRxiv* is actually much higher than shown.
-* At most points in time, the number of pubs shown in *BioRxiv* is an overcount of Galaxy-related pubs that still don't exist in a peer-reviewed journal.
+* At most points in time, the number of pubs shown in *BioRxiv* is an over-count of Galaxy-related pubs that still don't exist in a peer-reviewed journal.
 
 
 # The 10,000th Pub?
@@ -611,11 +611,11 @@ Using just formal references, we would miss out on the bulk of Galaxy papers.
 
 Many public Galaxy platforms are *[tool publishing](/src/use/#tool-publishing)* platforms.  These platforms make a lab's tools easily accessible to researchers via a web interface (Galaxy).  These labs often also make their tools available as command line tools that can be locally installed.  The challenge is that both the Galaxy platform with the tools, and the command line tools often have the same base citation.
 
-Blindly counting any publication that references these papers would result in overcounting papers, and include a large number of irrelevant papers in the Galaxy pub library, thus greatly reducing the value of the library.
+Blindly counting any publication that references these papers would result in over-counting papers, and include a large number of irrelevant papers in the Galaxy pub library, thus greatly reducing the value of the library.
 
 **Annotation would not be possible**
 
-The tags (see below) add significant value to the library.  With them we can track trends over time, and identify, for instance, papers about using Galaxy in education.  Without them, we have pubss per year and that's it.
+The tags (see below) add significant value to the library.  With them we can track trends over time, and identify, for instance, papers about using Galaxy in education.  Without them, we have pubs per year and that's it.
 
 **This is how we discover a lot of cool work by the community**
 
@@ -648,7 +648,7 @@ Galaxy has had an interesting journey over the past 15 years, and the Galaxy Pub
 
 # More on Tags
 
-We've used *[Topic Tags](#topic-tags)* since the beginning of the library to track how publications relate to Galaxy. Since the move to Zotero, we've also added *[Galaxy Featured Tags](#galaxy-featured-tags)*, *[Platform Tags](#platfrom-tags)*, and *[Publisher Tags](#publisher-tags)*.
+We've used *[Topic Tags](#topic-tags)* since the beginning of the library to track how publications relate to Galaxy. Since the move to Zotero, we've also added *[Galaxy Featured Tags](#galaxy-featured-tags)*, *[Platform Tags](#platform-tags)*, and *[Publisher Tags](#publisher-tags)*.
 
 ## Topic Tags
 
