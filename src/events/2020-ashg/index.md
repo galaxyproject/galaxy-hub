@@ -7,7 +7,7 @@ continent: GL
 location: "ASHG 2020, Online"
 external_url: "https://www.abstractsonline.com/pp8/#!/9070/session/146"
 location_url: "https://www.ashg.org/meetings/2020meeting/"
-contact: 'Dave Clements'
+contact: 'Dave Clements, Alex Ostrovsky'
 image: ""
 gtn: true
 ---
