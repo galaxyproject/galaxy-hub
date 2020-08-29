@@ -400,20 +400,125 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena R
 </div>
 </div>
 
+
 # Publications
 
-**665 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were XX *[Galactic](https://www.zotero.org/grou
-ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and **XX of them are open access**.
+**665 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload of<sup>1</sup>* *[Galactic](https://www.zotero.org/grou
+ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[In memory of James Taylor: The birth of Galaxy](https://doi.org/10.1186/s13059-020-02016-0)</div>
+<div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
 
-Nekrutenko, A., & Schatz, M. C. (2020). *Genome Biology*, 21(1), 105. https://doi.org/10.1186/s13059-020-02016-0
+Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID. https://openreview.net/forum?id=WQwNh1RShX
 </div>
 
-<div class="card border-info" style="min-width: 20rem;">
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033)</div>
+
+Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa033
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Galactic Circos: User-friendly Circos plots within the Galaxy platform](https://doi.org/10.1093/gigascience/giaa065)</div>
+
+Rasche, H., & Hiltemann, S. (2020). *GigaScience*, 9(6). https://doi.org/10.1093/gigascience/giaa065
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Training Infrastructure as a Service](https://doi.org/10.1101/2020.08.23.263509)</div>
+
+Rasche, H., & Gruening, B. A. (2020). *BioRxiv*, 2020.08.23.263509. https://doi.org/10.1101/2020.08.23.263509
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[pyGenomeTracks: Reproducible plots for multivariate genomic data sets](https://doi.org/10.1093/bioinformatics/btaa692)</div>
+
+Lopez-Delisle, L., Rabbani, L., Wolff, J., Bhardwaj, V., Backofen, R., Grüning, B., Ramírez, F., & Manke, T. (2020). *Bioinformatics*. https://doi.org/10.1093/bioinformatics/btaa692
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://doi.org/10.1093/gigascience/giaa025)</div>
+
+McGowan, T., Johnson, J. E., Kumar, P., Sajulga, R., Mehta, S., Jagtap, P. D., & Griffin, T. J. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa025
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Galaxy-SynBioCAD: Synthetic Biology Design Automation tools in Galaxy workflows](https://doi.org/10.1101/2020.06.14.145730
+)</div>
+
+Lac, M. du, Duigou, T., Herisson, J., Carbonell, P., Swainston, N., Zulkower, V., Shah, F., Faure, L., Mahdy, M., Soudier, P., & Faulon, J.-L. (2020). *BioRxiv*, 2020.06.14.145730. https://doi.org/10.1101/2020.06.14.145730
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[G-OnRamp: Generating genome browsers to facilitate undergraduate-driven collaborative genome annotation](https://doi.org/10.1371/journal.pcbi.1007863)</div>
+
+Sargent, L., Liu, Y., Leung, W., Mortimer, N. T., Lopatto, D., Goecks, J., & Elgin, S. C. R. (2020). *PLOS Computational Biology*, 16(6), e1007863. https://doi.org/10.1371/journal.pcbi.1007863
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2020 update](https://doi.org/10.1093/nar/gkaa434)</div>
+
+Jalili, V., Afgan, E., Gu, Q., Clements, D., Blankenberg, D., Goecks, J., Taylor, J., & Nekrutenko, A. (2020). *Nucleic Acids Research*, 48(W1), W395–W402. https://doi.org/10.1093/nar/gkaa434
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Tripal and Galaxy: Supporting reproducible scientific workflows for community biological databases](https://doi.org/10.1093/database/baaa032)</div>
+
+Spoor, S., Wytko, C., Soto, B., Chen, M., Almsaeed, A., Condon, B., Herndon, N., Hough, H., Jung, S., Staton, M., Wegrzyn, J., Main, D., Feltus, F. A., & Ficklin, S. P. (2020). *Database*, 2020. https://doi.org/10.1093/database/baaa032
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Exploring Non-Coding RNAs in RNAcentral](https://doi.org/10.1002/cpbi.104)</div>
+
+Sweeney, B. A., Tagmazian, A. A., Ribas, C. E., Finn, R. D., Bateman, A., & Petrov, A. I. (2020). *Current Protocols in Bioinformatics*, 71(1), e104. https://doi.org/10.1002/cpbi.104
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Epiviz File Server: Query, Transform and Interactively Explore Data from Indexed Genomic Files](https://doi.org/10.1093/bioinformatics/btaa591)</div>
+
+Kancherla, J., Yang, Y., Chae, H., & Bravo, H. C. (2020). *Bioinformatics*. https://doi.org/10.1093/bioinformatics/btaa591
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Quantifying the RNA cap epitranscriptome reveals novel caps in cellular and viral RNA](https://doi.org/10.1093/nar/gkz751)</div>
+
+Wang, J., Alvin Chew, B. L., Lai, Y., Dong, H., Xu, L., Balamkundu, S., Cai, W. M., Cui, L., Liu, C. F., Fu, X.-Y., Lin, Z., Shi, P.-Y., Lu, T. K., Luo, D., Jaffrey, S. R., & Dedon, P. C. (2019). *Nucleic Acids Research*, 47(20), e130–e130. https://doi.org/10.1093/nar/gkz751
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[*De novo* identification of satellite DNAs in the sequenced genomes of *Drosophila virilis* and *D. americana* using the RepeatExplorer and TAREAN pipelines](https://doi.org/10.1371/journal.pone.0223466)</div>
+
+Silva, B. S. M. L., Heringer, P., Dias, G. B., Svartman, M., & Kuhn, G. C. S. (2019). *PLOS ONE*, 14(12), e0223466. https://doi.org/10.1371/journal.pone.0223466
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Differential Genome Size and Repetitive DNA Evolution in Diploid Species of *Melampodium sect. Melampodium* (Asteraceae)](https://doi.org/10.3389/fpls.2020.00362)</div>
+
+McCann, J., Macas, J., Novák, P., Stuessy, T. F., Villaseñor, J. L., & Weiss-Schneeweiss, H. (2020). *Frontiers in Plant Science*, 11. https://doi.org/10.3389/fpls.2020.00362
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Environmental enrichment during forced abstinence from cocaine self-administration opposes gene network expression changes associated with the incubation effect](https://doi.org/10.1038/s41598-020-67966-8)</div>
+
+Powell, G. L., Vannan, A., Bastle, R. M., Wilson, M. A., Dell’Orco, M., Perrone-Bizzozero, N. I., & Neisewander, J. L. (2020). *Scientific Reports*, 10(1), 11291. https://doi.org/10.1038/s41598-020-67966-8
+</div>
+
+
+<div class="card border-info" style="min-width: 62%;">
 <div class="card-header">Publication Topics</div>
 
 Publications are tagged with how they use, extend or reference Galaxy.  This batch of pubs were tagged as:
@@ -440,11 +545,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
  </div>
 </div>
 
-
-
-
-
-</div>
+ <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
 
 # Who's Hiring
 
