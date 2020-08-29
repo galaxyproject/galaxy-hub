@@ -16,17 +16,17 @@ date: ""
   * Full training, talk, and poster/demo schedules are online
 * [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
 * [Upcoming events](#more-upcoming-events)
-* [Galaxy Platform News](#galaxy-platforms-news)
+* [Galaxy platform news](#galaxy-platforms-news)
 * [Training material and doc updates](#doc-hub-and-training-updates)
-* [Who's Hiring](#whos-hiring)
+* [Who's hiring](#whos-hiring)
 * [New blog posts](#galactic-blog-activity)
-* [New Releases](#releases)
+* [New releases](#releases)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
 
-# BCC2020 is Done; *GCC2021 is coming*
+# BCC2020 is Done; *GCC2021 is Coming*
 
 <div class="card-deck">
 
@@ -34,7 +34,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  There are several writeups of the event:
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/src/gcc/index.md). There are several writeups of the event:
 
  * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
 </div>
@@ -122,9 +122,9 @@ There are [two upcoming Galaxy Australia workshops offered by QCIF](https://www.
 
 There are
 
-* [15 events](/src/events/index.md) in the next 4 months.
-* 5 are online.
-* The remaining 10 are in France (6), Australia (2), and the United States (2).
+* [15 events](/src/events/index.md) in the next 4 months
+* 5 are online
+* The remaining 10 are in France (6), Australia (2), and the United States (2)
 
 </div>
 </div>
@@ -140,7 +140,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/use/pirate/pirate-brand-line.png" alt="PiRATE" />
 
-[PiRATE, a **Pi**peline to **R**etrieve and **A**nnotate **T**ransposable **E**lements](https://www.seanoe.org/data/00406/51795/), is a Galaxy VM for detecting, classifying and annotating TEs of non-model organisms.  It has a [tutorial](https://archimer.ifremer.fr/doc/00412/52373/) and user support.  PiRATE is supported by [IFREMER](https://wwz.ifremer.fr/en/)
+[PiRATE, a **Pi**peline to **R**etrieve and **A**nnotate **T**ransposable **E**lements](https://www.seanoe.org/data/00406/51795/), is a Galaxy VM for detecting, classifying and annotating TEs of non-model organisms.  It has a [tutorial](https://archimer.ifremer.fr/doc/00412/52373/) and user support.  PiRATE is supported by [IFREMER](https://wwz.ifremer.fr/en/).
 </div>
 
 
@@ -149,9 +149,9 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
 
-The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflows4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
+The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflows4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
 
-User support is provided through [a Discourse based forum](https://community.france-bioinformatique.fr/c/galaxy).
+User support is provided through [a discourse-based forum](https://community.france-bioinformatique.fr/c/galaxy).
 </div>
 
 
@@ -160,7 +160,7 @@ User support is provided through [a Discourse based forum](https://community.fra
 
 <img class="card-img-top" src="/src/use/deepts/deepts-overview-slice.png" alt="deepTS" />
 
-[deepTS](https://github.com/cma2015/deepTS)  is a Galaxy platform for identifying, visualizing and analyzing transcriptional switch (TS) events from pairwise, temporal and population transcriptome data.  A [tutorial](https://github.com/cma2015/DeepTS) and user support are provided.  deepTS is available as both a [server](https://deepts.nwafu.edu.cn/) and a [Docker container](https://hub.docker.com/r/malab/deepts).  It is supported by [Northwest A&F University](http://en.nwsuaf.edu.cn/index.htm)
+[deepTS](https://github.com/cma2015/deepTS)  is a Galaxy platform for identifying, visualizing and analyzing Transcriptional Switch (TS) events from pairwise, temporal and population transcriptome data. A [tutorial](https://github.com/cma2015/DeepTS) and user support are provided. deepTS is available as both a [server](https://deepts.nwafu.edu.cn/) and a [Docker container](https://hub.docker.com/r/malab/deepts). It is supported by [Northwest A&F University](http://en.nwsuaf.edu.cn/index.htm).
 </div>
 
 <div class="card border-info"  style="min-width: 14rem;">
@@ -372,7 +372,7 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena R
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d)</div>
 
-The [US Food and Drug Administration](https://www.fda.gov/home) has an opening for a [Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d) in Silver Spring, Maryland.
+The [US Food and Drug Administration](https://www.fda.gov/home) has an opening for a [Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d) in Silver Spring, Maryland, United States.
 
 <img class="card-img-bottom" src="/src/images/logos/fda-logo-wide.png" alt="FDA" />
 </div>
@@ -381,7 +381,7 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer)</div>
 
-[VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
+[VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium.
 
 ... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
@@ -391,7 +391,7 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003)</div>
 
-[Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States
+[Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States.
 
 <img class="card-img-bottom" src="/src/news/2020-06-galaxy-update/black-canyon.png" alt="Black Canyon Consulting at NCBI" />
 </div>
@@ -410,12 +410,12 @@ See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/
 
 See
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**.
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**
 
 Features:
 * Many new Interactive Tools
 * Data Tables can now be backed by refgenie
-* Tool Shed is now Python3 ready, ending a 4 year effort to get to Python 3.
+* Tool Shed is now Python 3 ready, ending a 4-year effort to get to Python 3.
 * The Workflow Editor and Workflow Run Form have been re-written in Vue.js.
 * Faster startup: Galaxy now caches expanded tool documents, delays creating the tool search index until after startup and creates search indexes incrementally.
 
