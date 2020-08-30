@@ -86,7 +86,7 @@ Watch this space for details, and we hope to see you there.
 
 <br />
 
-# More Upcoming Events
+# More Event News
 
 Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
@@ -120,11 +120,15 @@ There are [two upcoming Galaxy Australia workshops offered by QCIF](https://www.
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are
+There are [15 events](/src/events/index.md) in the next 4 months
 
-* [15 events](/src/events/index.md) in the next 4 months
 * 5 are online
 * The remaining 10 are in France (6), Australia (2), and the United States (2)
+
+And material from some recent past events is now available:
+
+* [End user open source bioinformatics tools](https://youtu.be/ItTjJjzMrig), by Peter van Heusden at [Bioinformatics Hub of Kenya](https://bioinformaticshubofkenya.wordpress.com/upcoming-event/)
+* [MPDS and Open Source Tools for Computer Aided Drug Discovery](https://www.youtube.com/watch?v=lWWPTA7JyJ0&feature=youtu.be&t=183), by Lijo John, S Nagamani, Himakshi Sarma at [DDH2020 Training Program](http://www.neist.res.in/ddh2020/)
 
 </div>
 </div>
@@ -178,11 +182,11 @@ User support is provided through [a discourse-based forum](https://community.fra
 Platforms that were referenced/used *at least twice* in recent publications:
 
 <a class="btn"  style="text-align: right; background-color: #8cd48c;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 86 : <strong>Huttenhower</strong></a>
- <a class="btn"  style="text-align: right; background-color: #ade0ad;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 23 : <strong>UseGalaxy.eu</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #ade0ad;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 24 : <strong>UseGalaxy.eu</strong></a>
  <a class="btn"  style="text-align: right; background-color: #aee1ae;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 22 : <strong>RepeatExplorer</strong></a>
  <a class="btn"  style="text-align: right; background-color: #b2e2b2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 19 : <strong>ARGs-OAP</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 8 : <strong>UseGalaxy.org.au</strong></a>
  <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P"> 7 : <strong>Galaxy-P</strong></a>
- <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 7 : <strong>UseGalaxy.org.au</strong></a>
  <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome"> 6 : <strong>Cistrome</strong></a>
  <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 5 : <strong>Pasteur</strong></a>
  <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics"> 5 : <strong>Workflow4Metabolomics</strong></a>
@@ -217,7 +221,7 @@ Platforms that were referenced/used *at least twice* in recent publications:
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
 
 By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
@@ -249,7 +253,7 @@ July has been a very busy month for Galaxy Climate.
 </div>
 
 
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[3 steps to get your tool into Galaxy](https://galaxyproject.eu/posts/2020/08/22/three-steps-to-galaxify-your-tool/)</div>
 
 By Björn Grüning and Beatriz Serrano-Solano
@@ -260,13 +264,27 @@ How you can get your software tool into a Galaxy server and thus, exposed to tho
 
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Galaxy: the first 10,000 pubs ](/src/blog/2020-08-10k-pubs/index.md)</div>
+<div class="card-header">[Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md)</div>
 
 By Dave Clements
 
 Trends revealed by the Galaxy Publication Library.
 
 <img class="card-img-bottom" src="/src/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
+</div>
+
+
+<div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
+<div class="card-header">[A resource for comparing SARS-CoV2 to other coronaviruses: Coordinate mapping and residue annotation](https://virological.org/t/a-resource-for-comparing-sars-cov2-to-other-coronaviruses-coordinate-mapping-and-residue-annotation/534)</div>
+
+By Delphine Lariviere, Sergei Kosakovsky Pond, Anton Nekrutenko + HyPhy and Galaxy Teams
+
+An on-line, curated resource that serves two functions:
+
+* Provide a [coordinate conversion table between amino-acid coordinates](https://observablehq.com/@delphine-l/coordinate-conversion-between-species-of-coronavirus) in SARS-CoV-2 and a set of well-studied coronaviruses;
+* Annotate [amino acid residues of SARS-CoV-2](https://observablehq.com/@delphine-l/annotation-of-sars-2-coronavirus-genome) using available coronavirus literature.
+
+<img class="card-img-bottom" src="corona-comparison.png" alt="Comparing Coronaviruses" />
 </div>
 
 </div>
@@ -403,7 +421,7 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena R
 
 # Publications
 
-**665 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload of<sup>1</sup>* *[Galactic](https://www.zotero.org/grou
+**666 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload of<sup>1</sup>* *[Galactic](https://www.zotero.org/grou
 ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
 
 <div class="card-deck">
@@ -445,6 +463,13 @@ Lopez-Delisle, L., Rabbani, L., Wolff, J., Bhardwaj, V., Backofen, R., Grüning,
 <div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://doi.org/10.1093/gigascience/giaa025)</div>
 
 McGowan, T., Johnson, J. E., Kumar, P., Sajulga, R., Mehta, S., Jagtap, P. D., & Griffin, T. J. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa025
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1371/journal.ppat.1008643)</div>
+
+Baker, D., Beek, M. van den, Blankenberg, D., Bouvier, D., Chilton, J., Coraor, N., Coppens, F., Eguinoa, I., Gladman, S., Grüning, B., Keener, N., Larivière, D., Lonie, A., Pond, S. K., Maier, W., Nekrutenko, A., Taylor, J., & Weaver, S. (2020). *PLOS Pathogens*, 16(8), e1008643. https://doi.org/10.1371/journal.ppat.1008643
 </div>
 
 
@@ -518,26 +543,26 @@ Powell, G. L., Vannan, A., Bastle, R. M., Wilson, M. A., Dell’Orco, M., Perron
 </div>
 
 
-<div class="card border-info" style="min-width: 62%;">
+<div class="card border-info" style="min-width: 58%;">
 <div class="card-header">Publication Topics</div>
 
 Publications are tagged with how they use, extend or reference Galaxy.  This batch of pubs were tagged as:
 
-<a class="btn"  style="text-align: right; background-color: #62c462;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 447 : <strong>Methods</strong></a>
- <a class="btn"  style="text-align: right; background-color: #79cc79;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 184 : <strong>UsePublic</strong></a>
+<a class="btn"  style="text-align: right; background-color: #62c462;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 448 : <strong>Methods</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #79cc79;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 185 : <strong>UsePublic</strong></a>
  <a class="btn"  style="text-align: right; background-color: #8fd58f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 78 : <strong>Workbench</strong></a>
- <a class="btn"  style="text-align: right; background-color: #8fd58f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 76 : <strong>UseMain</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #8fd58f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 77 : <strong>UseMain</strong></a>
  <a class="btn"  style="text-align: right; background-color: #9edb9e;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 42 : <strong>RefPublic</strong></a>
- <a class="btn"  style="text-align: right; background-color: #a2dca2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 37 : <strong>Reproducibility</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a2dca2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 38 : <strong>Reproducibility</strong></a>
  <a class="btn"  style="text-align: right; background-color: #a2dca2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 36 : <strong>UseLocal</strong></a>
  <a class="btn"  style="text-align: right; background-color: #abdfab;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 25 : <strong>Tools</strong></a>
- <a class="btn"  style="text-align: right; background-color: #aee1ae;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 22 : <strong>IsGalaxy</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #aee1ae;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 23 : <strong>IsGalaxy</strong></a>
  <a class="btn"  style="text-align: right; background-color: #bde6bd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Education"> 12 : <strong>Education</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 8 : <strong>Shared</strong></a>
  <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud"> 7 : <strong>Cloud</strong></a>
- <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 7 : <strong>Shared</strong></a>
  <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization"> 6 : <strong>Visualization</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project"> 6 : <strong>Project</strong></a>
  <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other"> 5 : <strong>Other</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project"> 5 : <strong>Project</strong></a>
  <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo"> 2 : <strong>HowTo</strong></a>
  <a class="btn"  style="text-align: right; background-color: #edf8ed;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown"> 1 : <strong>Unknown</strong></a>
  <a class="btn"  style="text-align: right; background-color: #edf8ed;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud"> 1 : <strong>UseCloud</strong></a>
@@ -551,13 +576,40 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 
 <div class="card-deck">
 
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
+
+Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
+
+<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
+</div>
 
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d)</div>
+<div class="card-header">[Postdoctoral Scholar – Computational Genomics – Deep Learning for Genome Annotation](http://plantcompgenomics.com/postdocs/)</div>
 
-The [US Food and Drug Administration](https://www.fda.gov/home) has an opening for a [Postdoctoral Pharmacology Fellowship](https://www.indeed.com/viewjob?jk=9cd29813c250492d) in Silver Spring, Maryland, United States.
+The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at the University of Connecticut (Storrs, CT) has an opening for a Postdoctoral Scholar, developing mechanisms for cross-platform data/application sharing that builds on existing efforts with Galaxy, the [Tripal platform](https://tripal.info), and cloud-based HPC.
 
-<img class="card-img-bottom" src="/src/images/logos/fda-logo-wide.png" alt="FDA" />
+<img class="card-img-bottom" src="/src/images/logos/uconn-pcg.png" alt="UConn" />
+</div>
+
+
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
+
+The Schatz Lab  at Johns Hopkins University is looking for
+* self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
+* ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
+
+<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+</div>
+
+
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Bioinformatics Data Management Specialist (RE2)](https://www.bsc.es/join-us/job-opportunities/22720lsinbre2) and [Bioinformatics Technician (RE3)](https://www.bsc.es/join-us/job-opportunities/10420lsinbre2)</div>
+
+The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS)](https://www.bsc.es/) is hiring.
+
+<img class="card-img-bottom" src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" />
 </div>
 
 
@@ -616,8 +668,36 @@ Execute workflows on Galaxy using a command line interface, and YAML to specify 
 </div>
 
 
-# Publications
+# Other news
 
-We did not curate recent publications this month.  We just ran out of time.  We probably won't get to them until after BCC either.  However, the next time we curate papers, we will hit 10,000 publications.  *Thanks for using (and citing) Galaxy.*
 
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Fostering Collaborative Tools for Science](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9)</div>
+
+This writeup by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
+
+<img class="card-img-bottom" src="/src/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Improved workflow layout engine](https://github.com/galaxyproject/galaxy/pull/10045)</div>
+
+Galaxy's graphical workflow editor includes an automatic/default workflow layout algorithm that is 10 years old.  A replacement based on [elkjs](https://github.com/kieler/elkjs)is on the way, thanks to [work by Helena Rasche](https://github.com/galaxyproject/galaxy/pull/10045).
+
+<img class="card-img-bottom" src="workflow-elkjs.png" alt="Workflow layout with elkjs" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Improved workflow layout engine](https://github.com/galaxyproject/galaxy/pull/10045)</div>
+
+Galaxy's graphical workflow editor includes an automatic/default workflow layout algorithm that is 10 years old.  A replacement based on [elkjs](https://github.com/kieler/elkjs)is on the way, thanks to [work by Helena Rasche](https://github.com/galaxyproject/galaxy/pull/10045).
+
+<img class="card-img-bottom" src="workflow-elkjs.png" alt="Workflow layout with elkjs" />
+</div>
+
+</div>
 
