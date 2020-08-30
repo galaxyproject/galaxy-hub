@@ -160,12 +160,31 @@ User support is provided through [a discourse-based forum](https://community.fra
 
 
 <div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[Machine Learning Workbench](/src/use/ml-workbench/index.md)</div>
+
+<img class="card-img-top" src="/src/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
+
+A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.  [This workbench](https://ml.usefalaxy.eu/) includes scikit-learn, Keras (a deep learning library based on TensorFlow) and various other tools to transform, learn and predict and plot your data.  The server is supported by the [Goecks Lab](https://goeckslab.org/) at OHSU and the [Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/).
+</div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[deepTS](/src/use/deepts/index.md)</div>
 
 <img class="card-img-top" src="/src/use/deepts/deepts-overview-slice.png" alt="deepTS" />
 
 [deepTS](https://github.com/cma2015/deepTS)  is a Galaxy platform for identifying, visualizing and analyzing Transcriptional Switch (TS) events from pairwise, temporal and population transcriptome data. A [tutorial](https://github.com/cma2015/DeepTS) and user support are provided. deepTS is available as both a [server](https://deepts.nwafu.edu.cn/) and a [Docker container](https://hub.docker.com/r/malab/deepts). It is supported by [Northwest A&F University](http://en.nwsuaf.edu.cn/index.htm).
 </div>
+
+
+<div class="card border-info"  style="min-width: 14rem;">
+<div class="card-header">[BioCompute Object Galaxy](/src/use/biocompute-object/index.md)</div>
+
+<img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Object Galaxy" />
+
+[BioCompute Objects](https://biocomputeobject.org/) and [BioCompute Object Galaxy server](https://galaxy.aws.biochemistry.gwu.edu/1) supports the [IEEE 2791-2020 standard](https://gitlab.com/IEEE-SA/2791/ieee-2791-schema) for bioinformatics pipelines/workflows in the High-Throughput Sequencing (HTS) space.  This effort is supported by the [FDA](https://smhs.gwu.edu/news/gw-led-consortium-receives-22m-grant-fund-biocompute-object-specification-project) and the [HIVE Lab at George Washington University](https://hive.biochemistry.gwu.edu/home).
+</div>
+
 
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
@@ -176,16 +195,16 @@ User support is provided through [a discourse-based forum](https://community.fra
 </div>
 
 
-<div class="card border-info"  style="min-width: 18rem;">
+<div class="card border-info"  style="min-width: 50%;">
 <div class="card-header">Galaxy Platforms in Publications</div>
 
 Platforms that were referenced/used *at least twice* in recent publications:
 
 <a class="btn"  style="text-align: right; background-color: #8cd48c;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower"> 86 : <strong>Huttenhower</strong></a>
- <a class="btn"  style="text-align: right; background-color: #ade0ad;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 24 : <strong>UseGalaxy.eu</strong></a>
- <a class="btn"  style="text-align: right; background-color: #aee1ae;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 22 : <strong>RepeatExplorer</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #ace0ac;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu"> 24 : <strong>UseGalaxy.eu</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #afe1af;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer"> 22 : <strong>RepeatExplorer</strong></a>
  <a class="btn"  style="text-align: right; background-color: #b2e2b2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP"> 19 : <strong>ARGs-OAP</strong></a>
- <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 8 : <strong>UseGalaxy.org.au</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #c7eac7;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au"> 8 : <strong>UseGalaxy.org.au</strong></a>
  <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P"> 7 : <strong>Galaxy-P</strong></a>
  <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome"> 6 : <strong>Cistrome</strong></a>
  <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur"> 5 : <strong>Pasteur</strong></a>
@@ -421,7 +440,7 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena R
 
 # Publications
 
-**666 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload of<sup>1</sup>* *[Galactic](https://www.zotero.org/grou
+**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/grou
 ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
 
 <div class="card-deck">
@@ -432,10 +451,11 @@ ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/group
 Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID. https://openreview.net/forum?id=WQwNh1RShX
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033)</div>
 
-Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa033
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Accessible, Reproducible, and Scalable Machine Learning for Biomedicine](https://doi.org/10.1101/2020.06.25.172445)</div>
+
+Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. https://doi.org/10.1101/2020.06.25.172445
 </div>
 
 
@@ -460,9 +480,23 @@ Lopez-Delisle, L., Rabbani, L., Wolff, J., Bhardwaj, V., Backofen, R., Grüning,
 
 
 <div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033)</div>
+
+Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa033
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Multi-omics Visualization Platform: An extensible Galaxy plug-in for multi-omics data visualization and exploration](https://doi.org/10.1093/gigascience/giaa025)</div>
 
 McGowan, T., Johnson, J. E., Kumar, P., Sajulga, R., Mehta, S., Jagtap, P. D., & Griffin, T. J. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa025
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Accessible, Reproducible, and Scalable Machine Learning for Biomedicine](https://doi.org/10.1101/2020.06.25.172445)</div>
+
+Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. https://doi.org/10.1101/2020.06.25.172445
 </div>
 
 
@@ -543,6 +577,13 @@ Powell, G. L., Vannan, A., Bastle, R. M., Wilson, M. A., Dell’Orco, M., Perron
 </div>
 
 
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[CandiMeth: Powerful yet simple visualization and quantification of DNA methylation at candidate genes](https://doi.org/10.1093/gigascience/giaa066)</div>
+
+Thursby, S.-J., Lobo, D. K., Pentieva, K., Zhang, S.-D., Irwin, R. E., & Walsh, C. P. (2020). *GigaScience*, 9(6). https://doi.org/10.1093/gigascience/giaa066
+</div>
+
+
 <div class="card border-info" style="min-width: 58%;">
 <div class="card-header">Publication Topics</div>
 
@@ -553,20 +594,19 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
  <a class="btn"  style="text-align: right; background-color: #8fd58f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 78 : <strong>Workbench</strong></a>
  <a class="btn"  style="text-align: right; background-color: #8fd58f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 77 : <strong>UseMain</strong></a>
  <a class="btn"  style="text-align: right; background-color: #9edb9e;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 42 : <strong>RefPublic</strong></a>
- <a class="btn"  style="text-align: right; background-color: #a2dca2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 38 : <strong>Reproducibility</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a1dca1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 38 : <strong>Reproducibility</strong></a>
  <a class="btn"  style="text-align: right; background-color: #a2dca2;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 36 : <strong>UseLocal</strong></a>
- <a class="btn"  style="text-align: right; background-color: #abdfab;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 25 : <strong>Tools</strong></a>
- <a class="btn"  style="text-align: right; background-color: #aee1ae;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 23 : <strong>IsGalaxy</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #a9dea9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 28 : <strong>Tools</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #abdfab;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy"> 25 : <strong>IsGalaxy</strong></a>
  <a class="btn"  style="text-align: right; background-color: #bde6bd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Education"> 12 : <strong>Education</strong></a>
- <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 8 : <strong>Shared</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #c4e9c4;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Shared"> 9 : <strong>Shared</strong></a>
  <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud"> 7 : <strong>Cloud</strong></a>
+ <a class="btn"  style="text-align: right; background-color: #caebca;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project"> 7 : <strong>Project</strong></a>
  <a class="btn"  style="text-align: right; background-color: #cdeccd;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization"> 6 : <strong>Visualization</strong></a>
- <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Project"> 6 : <strong>Project</strong></a>
  <a class="btn"  style="text-align: right; background-color: #d1eed1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Other"> 5 : <strong>Other</strong></a>
  <a class="btn"  style="text-align: right; background-color: #e3f4e3;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo"> 2 : <strong>HowTo</strong></a>
  <a class="btn"  style="text-align: right; background-color: #edf8ed;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown"> 1 : <strong>Unknown</strong></a>
  <a class="btn"  style="text-align: right; background-color: #edf8ed;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud"> 1 : <strong>UseCloud</strong></a>
-
  </div>
 </div>
 
@@ -636,33 +676,23 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 # Releases
 
-See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/index.md) (and above).
-
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.05](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+<div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
 
-See
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**
+Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.  This release features new commands (search toolsheds, delete users, uninstall tools), fixes & updates, and newly extended documentation.
 
-Features:
-* Many new Interactive Tools
-* Data Tables can now be backed by refgenie
-* Tool Shed is now Python 3 ready, ending a 4-year effort to get to Python 3.
-* The Workflow Editor and Workflow Run Form have been re-written in Vue.js.
-* Faster startup: Galaxy now caches expanded tool documents, delays creating the tool search index until after startup and creates search indexes incrementally.
-
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
+
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy Workflow Executor 0.2.1](https://pypi.org/project/galaxy-workflow-executor/0.2.1/)</div>
+<div class="card-header">[BioBlend 0.14.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.14.0)</div>
 
-Execute workflows on Galaxy using a command line interface, and YAML to specify inputs and parameters.
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
 
-<img class="card-img-bottom" src="galaxy-workflow-executor.png" alt="Galaxy Workflow Executor" />
+See the [release notes](https://github.com/galaxyproject/bioblend/releases) for what's new in release 0.14.0.
 </div>
 
 </div>
@@ -679,15 +709,6 @@ Execute workflows on Galaxy using a command line interface, and YAML to specify 
 This writeup by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
 
 <img class="card-img-bottom" src="/src/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
-</div>
-
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Improved workflow layout engine](https://github.com/galaxyproject/galaxy/pull/10045)</div>
-
-Galaxy's graphical workflow editor includes an automatic/default workflow layout algorithm that is 10 years old.  A replacement based on [elkjs](https://github.com/kieler/elkjs)is on the way, thanks to [work by Helena Rasche](https://github.com/galaxyproject/galaxy/pull/10045).
-
-<img class="card-img-bottom" src="workflow-elkjs.png" alt="Workflow layout with elkjs" />
 </div>
 
 
