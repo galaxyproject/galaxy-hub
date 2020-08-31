@@ -1,6 +1,6 @@
 ---
 title: 'September 2020 Galactic News'
-tease: "BCC2020, SRA, Events, Platforms, Training, Jobs, ..."
+tease: "BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases, obs ..."
 date: ""
 ---
 
@@ -8,19 +8,15 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[BCC2020](#bcc2020-starts-july-17) starts July 17**
-  * **Early registration ends July 10**
-  * **All registration ends July 15**
-  * BoF proposals due July 10 
-  * Fellowships due July 5 
-  * Full training, talk, and poster/demo schedules are online
-* [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
-* [Upcoming events](#more-upcoming-events)
+* [BCC2020 Wrapup and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
+* [More event news](#more-event-news)
 * [Galaxy platform news](#galaxy-platforms-news)
+* [Blog posts (lots of them)](#galactic-blog-activity)
 * [Training material and doc updates](#doc-hub-and-training-updates)
+* [Publications](#publications) (a *boatload* of them)
 * [Who's hiring](#whos-hiring)
-* [New blog posts](#galactic-blog-activity)
 * [New releases](#releases)
+* [Other news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -36,7 +32,9 @@ If you have anything to include to next month's newsletter, then please send it 
 
 The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/src/gcc/index.md). There are several writeups of the event:
 
- * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
+  * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
+  * [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
+  * [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizerss
 </div>
 
 
@@ -287,7 +285,7 @@ How you can get your software tool into a Galaxy server and thus, exposed to tho
 
 By Dave Clements
 
-It took 15 years, but with half of those publications appeared in the last 3 years.  See what people are saying about Galaxy, and what that says about Galaxy and the Galaxy community.
+Ten thousand publications have used, referenced, extended and implemented Galaxy in the past 15 years.  Half of those pubs appeared in just the last 3 years.  Learn about this and other trends in the Galaxy community, as revealed by what we are publishing.
 
 <img class="card-img-bottom" src="/src/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
 </div>
@@ -317,14 +315,14 @@ An on-line, curated resource that serves two functions:
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
 
-This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. 
+This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis. 
 
 <img class="card-img-bottom" src="gtn-chira-slice.png" alt="ChiRA" />
 </div>
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[M. tuberculosis Variant Analysis](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html)</div>
+<div class="card-header">[*M. tuberculosis* Variant Analysis](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html)</div>
 
 By [Peter van Heusden](https://training.galaxyproject.org/training-material/hall-of-fame/pvanheus/), [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/), and [Thoba Lose](https://training.galaxyproject.org/training-material/hall-of-fame/thobalose/)
 
@@ -335,7 +333,7 @@ A tutorial on variant calling in *M. tuberculosis*. This was first conceived at 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Running molecular dynamics simulations using GROMACS](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/md-simulation-gromacs/tutorial.html)</div>
 
-This tutorial was updated and expanded by [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/).
+This tutorial was updated and expanded by [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/).  An introductory guide to using [GROMACS](https://doi.org/10.1016/j.softx.2015.06.001) (Abraham et al. 2015) in Galaxy to prepare and perform molecular dynamics on a small protein.
 
 <img class="card-img-bottom" src="gtn-gromacs-slice.png" alt="GROMACS " />
 </div>
@@ -353,12 +351,10 @@ Sections on job configuration in Ansible were added to the [Galaxy Installation 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)</div>
 
-This tutorial saw a major revamp by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/). 
+This tutorial saw a major revamp by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/).  Learn how to use Ansible for your deployment recipes.
 
 <img class="card-img-bottom" src="/src/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
 </div>
-
-
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
@@ -366,7 +362,7 @@ This tutorial saw a major revamp by [Helena Rasche](https://training.galaxyproje
 
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
 
-The new GTN in Galaxy Webhook enables trainees to view training directly within Galaxy. This has been well received:
+The new *GTN in Galaxy Webhook* enables trainees to view training directly within Galaxy. This has been well received:
 
 <blockquote class="blockquote">
 This is awesome! Magic @hexylena!
@@ -389,11 +385,11 @@ The GTN in Galaxy Webhook enables trainees to view training directly within Gala
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[RNA-Seq analysis with AskOmics Interactive Tool](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)</div>
+<div class="card-header">[RNA-Seq analysis with AskOmics Interactive Tool](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/tutorial.htmll)</div>
 
 By Xavier Garnier, Anthony Bretaudeau, Anne Siegel, and Olivier Dameron
 
-This tutorial uses data from the [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial.
+This new tutorial (and matching [slides]())uses data from the [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial in the AskOmics web application to do data integration and querying using the semantic web technologies
 
 <img class="card-img-bottom" src="gtn-askomics.png" alt="Using semantic web and RNA-Seq" />
 </div>
@@ -404,7 +400,7 @@ This tutorial uses data from the [RNA-seq counts to genes](https://training.gala
 
 By [Marius van den Beek](https://training.galaxyproject.org/training-material/hall-of-fame/mvdbeek/)
 
-Learn how to use Galaxy's Workflow Editor to construct multiple variations of a simple workflow.
+Learn how to use Galaxy's Workflow Editor to construct different reusable workflows.
 
 <img class="card-img-bottom" src="gtn-workflow_editor_connect_inputs.png" alt="make a connection" />
 </div>
@@ -413,7 +409,7 @@ Learn how to use Galaxy's Workflow Editor to construct multiple variations of a 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)</div>
 
-These slides were updated by by [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/) to reflect the 14.0 release of BioBlend.
+These slides were updated by by [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/) to reflect the [14.0 release of BioBlend](#releases).  BiolBlend is a Python library for interacting with Galaxy programmatically.
 
 <img class="card-img-bottom" src="gtn-bioblend.png" alt="Tool details with BioBlend" />
 </div>
@@ -422,10 +418,20 @@ These slides were updated by by [Nicola Soranzo](https://training.galaxyproject.
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Searching Your History](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/search/tutorial.html)</div>
 
-This tutorial got a major update from [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/).
+This tutorial got a major update from [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/).  Feeling overwhelmed by all the work you have done in Galaxy?  Don't be.  Use History search to find what you are looking for.
 
 <img class="card-img-bottom" src="gtn-basic-search.png" alt="Searching histories" />
 </div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Galaxy Code Architecture Slides](https://training.galaxyproject.org/training-material/topics/dev/tutorials/architecture/slides.html#1)</div>
+
+This slide deck and related resources got a thorough update from [John Chilton](https://training.galaxyproject.org/training-material/hall-of-fame/jmchilton/).  John also [created several videos on this topic](https://bit.ly/gx-arch-vids) as well.
+
+<img class="card-img-bottom" src="gtn-code-arch-slice.png" alt="Galaxy Code Architecture" />
+</div>
+
 
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
