@@ -8,7 +8,7 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* [BCC2020 Wrapup and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
+* [BCC2020 Wrap up and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
 * [More event news](#more-event-news)
 * [Galaxy platform news](#galaxy-platforms-news)
 * [Blog posts (lots of them)](#galactic-blog-activity)
@@ -30,11 +30,11 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/src/gcc/index.md). There are several writeups of the event:
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/src/gcc/index.md). There are several write ups of the event:
 
   * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
   * [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
-  * [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizerss
+  * [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizers
 </div>
 
 
@@ -147,7 +147,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
 
-The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflows4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
+The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
 
 User support is provided through [a discourse-based forum](https://community.france-bioinformatique.fr/c/galaxy).
 </div>
@@ -389,7 +389,7 @@ The GTN in Galaxy Webhook enables trainees to view training directly within Gala
 
 By Xavier Garnier, Anthony Bretaudeau, Anne Siegel, and Olivier Dameron
 
-This new tutorial (and matching [slides]())uses data from the [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial in the AskOmics web application to do data integration and querying using the semantic web technologies
+This new tutorial (and matching [slides](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-analysis-with-askomics-it/slides.html))uses data from the [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) tutorial in the AskOmics web application to do data integration and querying using the semantic web technologies
 
 <img class="card-img-bottom" src="gtn-askomics.png" alt="Using semantic web and RNA-Seq" />
 </div>
@@ -409,7 +409,7 @@ Learn how to use Galaxy's Workflow Editor to construct different reusable workfl
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)</div>
 
-These slides were updated by by [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/) to reflect the [14.0 release of BioBlend](#releases).  BiolBlend is a Python library for interacting with Galaxy programmatically.
+These slides were updated by by [Nicola Soranzo](https://training.galaxyproject.org/training-material/hall-of-fame/nsoranzo/) to reflect the [14.0 release of BioBlend](#releases).  BioBlend is a Python library for interacting with Galaxy programmatically.
 
 <img class="card-img-bottom" src="gtn-bioblend.png" alt="Tool details with BioBlend" />
 </div>
@@ -437,7 +437,7 @@ This slide deck and related resources got a thorough update from [John Chilton](
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[GTN Stats Dashboard](https://training.galaxyproject.org/stats)</div>
 
-Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena Rasche]() there is now a GTN statistics page, listing all sorts of cool information about the state of the GTN library.
+Ask and you shall receive.  Thanks to work by [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/) and [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/) there is now a GTN statistics page, listing all sorts of cool information about the state of the GTN library.
 
 <img class="card-img-bottom" src="gtn-stats-slice.png" alt="What's going on" />
 </div>
@@ -499,14 +499,6 @@ Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G
 
 McGowan, T., Johnson, J. E., Kumar, P., Sajulga, R., Mehta, S., Jagtap, P. D., & Griffin, T. J. (2020). *GigaScience*, 9(4). https://doi.org/10.1093/gigascience/giaa025
 </div>
-
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Accessible, Reproducible, and Scalable Machine Learning for Biomedicine](https://doi.org/10.1101/2020.06.25.172445)</div>
-
-Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. https://doi.org/10.1101/2020.06.25.172445
-</div>
-
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[No more business as usual: Agile and effective responses to emerging pathogen threats require open data and open analytics](https://doi.org/10.1371/journal.ppat.1008643)</div>
@@ -713,7 +705,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Fostering Collaborative Tools for Science](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9)</div>
 
-This writeup by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
+This write up by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
 
 <img class="card-img-bottom" src="/src/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
 </div>
