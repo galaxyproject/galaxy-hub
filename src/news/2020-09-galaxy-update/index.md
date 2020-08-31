@@ -456,34 +456,38 @@ ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/group
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
 
-Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID. https://openreview.net/forum?id=WQwNh1RShX
+Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID.
+<span class="badge" style="background-color: LightGreen;">LAPPS Grid</span>
 </div>
-
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Accessible, Reproducible, and Scalable Machine Learning for Biomedicine](https://doi.org/10.1101/2020.06.25.172445)</div>
 
-Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. https://doi.org/10.1101/2020.06.25.172445
+Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. [doi: 10.1101/2020.06.25.172445](https://doi.org/10.1101/2020.06.25.172445)
+<span class="badge" style="background-color: LightGreen;">ML Workbench</span>
 </div>
 
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Galactic Circos: User-friendly Circos plots within the Galaxy platform](https://doi.org/10.1093/gigascience/giaa065)</div>
 
-Rasche, H., & Hiltemann, S. (2020). *GigaScience*, 9(6). https://doi.org/10.1093/gigascience/giaa065
+Rasche, H., & Hiltemann, S. (2020). *GigaScience*, 9(6). [doi: 10.1093/gigascience/giaa065](https://doi.org/10.1093/gigascience/giaa065)
+<span class="badge" style="background-color: PaleTurquoise;">Tools</span>
 </div>
+
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Training Infrastructure as a Service](https://doi.org/10.1101/2020.08.23.263509)</div>
 
-Rasche, H., & Gruening, B. A. (2020). *BioRxiv*, 2020.08.23.263509. https://doi.org/10.1101/2020.08.23.263509
+Rasche, H., & Gruening, B. A. (2020). *BioRxiv*, 2020.08.23.263509. [doi: 10.1101/2020.08.23.263509](https://doi.org/10.1101/2020.08.23.263509)
+<span class="badge" style="background-color: Gold;">Education</span>
 </div>
 
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[pyGenomeTracks: Reproducible plots for multivariate genomic data sets](https://doi.org/10.1093/bioinformatics/btaa692)</div>
 
-Lopez-Delisle, L., Rabbani, L., Wolff, J., Bhardwaj, V., Backofen, R., Grüning, B., Ramírez, F., & Manke, T. (2020). *Bioinformatics*. https://doi.org/10.1093/bioinformatics/btaa692
+Lopez-Delisle, L., Rabbani, L., Wolff, J., Bhardwaj, V., Backofen, R., Grüning, B., Ramírez, F., & Manke, T. (2020). *Bioinformatics*. [doi: 10.1093/bioinformatics/btaa692](https://doi.org/10.1093/bioinformatics/btaa692)
 </div>
 
 
