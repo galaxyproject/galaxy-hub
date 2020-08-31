@@ -177,6 +177,14 @@ hr {
 }
 
 /* Card overrides */
+
+div.card-deck {
+    margin-bottom: 2rem;
+    padding-left: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+
 div.card {
     line-height: 1.2;
 } 

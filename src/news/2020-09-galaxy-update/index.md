@@ -28,7 +28,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # BCC2020 is Done; *GCC2021 is Coming*
 
-<div class="card-deck">
+<div class="card-deck bg-info">
 
 <div class="card border-info" style="min-width: 12rem;">
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
@@ -80,23 +80,19 @@ If you presented a talk or poster/demo then please upload your slides and PDFs t
 
 Watch this space for details, and we hope to see you there.
 </div>
-
-
 </div>
-
-<br />
 
 # More Event News
 
 Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
-<div class="card-deck">
+<div class="card-deck bg-info">
 
-<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
-This [new bi-weekly forum](/src/community/devroundtable/index.md) is an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. If you have something you want to present then please submit your idea at least a day in advance.  See you (every other) Thursday.
+The next two [roundtables](/src/community/devroundtable/index.md) are September 3 (this Thursday) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -116,7 +112,7 @@ There are [two upcoming Galaxy Australia workshops offered by QCIF](https://www.
 </div>
 
 
-<div class="card border-info" style="min-width: 10rem; max-width: 24rem">
+<div class="card border-info" style="min-width: 24rem; max-width: 24rem">
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
@@ -125,7 +121,7 @@ There are [15 events](/src/events/index.md) in the next 4 months
 * 5 are online
 * The remaining 10 are in France (6), Australia (2), and the United States (2)
 
-And material from some recent past events is now available:
+And material from some recent events is now available:
 
 * [End user open source bioinformatics tools](https://youtu.be/ItTjJjzMrig), by Peter van Heusden at [Bioinformatics Hub of Kenya](https://bioinformaticshubofkenya.wordpress.com/upcoming-event/)
 * [MPDS and Open Source Tools for Computer Aided Drug Discovery](https://www.youtube.com/watch?v=lWWPTA7JyJ0&feature=youtu.be&t=183), by Lijo John, S Nagamani, Himakshi Sarma at [DDH2020 Training Program](http://www.neist.res.in/ddh2020/)
@@ -137,7 +133,7 @@ And material from some recent past events is now available:
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
-<div class="card-deck">
+<div class="card-deck bg-success">
 
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[PiRATE](/src/use/pirate/index.md)</div>
@@ -192,6 +188,8 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
+* Galaxy Europe [is joining the NFDI-DataPLANT consortiu]m](https://galaxyproject.eu/posts/2020/08/22/DataPLANT/)
+
 </div>
 
 
@@ -238,9 +236,11 @@ Platforms that were referenced/used *at least twice* in recent publications:
 
 # Galactic Blog Activity
 
-<div class="card-deck">
+Here's what people are saying right now:
 
-<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card-deck bg-primary">
+
+<div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
 <div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
 
 By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
@@ -251,7 +251,7 @@ A data browser, project-level isolation, and the latest release of Galaxy.
 </div>
 
 
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[The landscape of SARS-CoV-2 RNA modifications](https://galaxyproject.eu/posts/2020/07/19/drs_sars-cov-2-paper/)</div>
 
 By StreetScience
@@ -266,7 +266,7 @@ Studying the RNA modifications of SARS-CoV-2 to improve understanding of SARS vi
 
 By Anne Fouilloux
 
-July has been a very busy month for Galaxy Climate.
+July has been a very busy month for Galaxy Climate ending with several sessions dedicated to Climate Science at BCC2020.
 
 <img class="card-img-bottom" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
 </div>
@@ -282,12 +282,12 @@ How you can get your software tool into a Galaxy server and thus, exposed to tho
 </div>
 
 
-<div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md)</div>
 
 By Dave Clements
 
-Trends revealed by the Galaxy Publication Library.
+It took 15 years, but with half of those publications appeared in the last 3 years.  See what people are saying about Galaxy, and what that says about Galaxy and the Galaxy community.
 
 <img class="card-img-bottom" src="/src/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
 </div>
@@ -312,7 +312,7 @@ An on-line, curated resource that serves two functions:
 
 # Doc, Hub, and Training Updates
 
-<div class="card-deck">
+<div class="card-deck bg-warning">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
@@ -443,7 +443,9 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann]() and [Helena R
 **671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/grou
 ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
 
-<div class="card-deck">
+ <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
+
+<div class="card-deck bg-success">
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
@@ -610,11 +612,10 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
  </div>
 </div>
 
- <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
 
 # Who's Hiring
 
-<div class="card-deck">
+<div class="card-deck bg-secondary">
 
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
@@ -676,7 +677,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 # Releases
 
-<div class="card-deck">
+<div class="card-deck bg-primary">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
@@ -701,7 +702,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 # Other news
 
 
-<div class="card-deck">
+<div class="card-deck bg-info">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Fostering Collaborative Tools for Science](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9)</div>
