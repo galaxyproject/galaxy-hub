@@ -446,8 +446,7 @@ Ask and you shall receive.  Thanks to work by [Saskia Hiltemann](https://trainin
 
 # Publications
 
-**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/grou
-ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
+**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
 
  <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
 
