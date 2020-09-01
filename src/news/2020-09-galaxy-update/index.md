@@ -1,7 +1,7 @@
 ---
 title: 'September 2020 Galactic News'
 tease: "BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases, obs ..."
-date: ""
+date: "2020-09-01"
 ---
 
 # In the  September 2020 issue
@@ -24,7 +24,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # BCC2020 is Done; *GCC2021 is Coming*
 
-<div class="card-deck bg-info">
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
@@ -84,7 +84,7 @@ Watch this space for details, and we hope to see you there.
 
 Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
-<div class="card-deck bg-info">
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
@@ -131,7 +131,7 @@ And material from some recent events is now available:
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
-<div class="card-deck bg-success">
+<div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[PiRATE](/src/use/pirate/index.md)</div>
@@ -236,7 +236,7 @@ Platforms that were referenced/used *at least twice* in recent publications:
 
 Here's what people are saying right now:
 
-<div class="card-deck bg-primary">
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
 <div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
@@ -310,7 +310,7 @@ An on-line, curated resource that serves two functions:
 
 # Doc, Hub, and Training Updates
 
-<div class="card-deck bg-warning">
+<div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
@@ -451,20 +451,18 @@ ps/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/group
 
  <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
 
-<div class="card-deck bg-success">
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
 
 Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID.
-<span class="badge" style="background-color: LightGreen;">LAPPS Grid</span>
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Accessible, Reproducible, and Scalable Machine Learning for Biomedicine](https://doi.org/10.1101/2020.06.25.172445)</div>
 
 Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2020). *BioRxiv*, 2020.06.25.172445. [doi: 10.1101/2020.06.25.172445](https://doi.org/10.1101/2020.06.25.172445)
-<span class="badge" style="background-color: LightGreen;">ML Workbench</span>
 </div>
 
 
@@ -472,7 +470,6 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 <div class="card-header">[Galactic Circos: User-friendly Circos plots within the Galaxy platform](https://doi.org/10.1093/gigascience/giaa065)</div>
 
 Rasche, H., & Hiltemann, S. (2020). *GigaScience*, 9(6). [doi: 10.1093/gigascience/giaa065](https://doi.org/10.1093/gigascience/giaa065)
-<span class="badge" style="background-color: PaleTurquoise;">Tools</span>
 </div>
 
 
@@ -480,7 +477,6 @@ Rasche, H., & Hiltemann, S. (2020). *GigaScience*, 9(6). [doi: 10.1093/gigascien
 <div class="card-header">[Training Infrastructure as a Service](https://doi.org/10.1101/2020.08.23.263509)</div>
 
 Rasche, H., & Gruening, B. A. (2020). *BioRxiv*, 2020.08.23.263509. [doi: 10.1101/2020.08.23.263509](https://doi.org/10.1101/2020.08.23.263509)
-<span class="badge" style="background-color: Gold;">Education</span>
 </div>
 
 
@@ -617,7 +613,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 
 # Who's Hiring
 
-<div class="card-deck bg-secondary">
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
@@ -679,7 +675,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 # Releases
 
-<div class="card-deck bg-primary">
+<div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
@@ -704,7 +700,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 # Other news
 
 
-<div class="card-deck bg-info">
+<div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Fostering Collaborative Tools for Science](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9)</div>
