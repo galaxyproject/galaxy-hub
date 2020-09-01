@@ -8,7 +8,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ## Who
 
-Anyone is welcome to attend. If you would like to present, please fill out this form https://bit.ly/gxdevroundtablepresent by midday Wednesday of that week.
+Anyone is welcome to attend. If you would like to present, please [fill out this form](https://bit.ly/gxdevroundtablepresent) by midday Wednesday of that week.
 
 ## What
 
@@ -22,11 +22,14 @@ These are just some initial ideas and time allocation doesn’t need to map clea
 
 These meetings are intended to be lightweight and informal, these sessions will be cancelled if no one volunteers to present. We expect some weeks no one will have anything to present and this is fine. We won’t track down people to present for the sake of consistency - this is an opportunity for presenters not an obligation for developers generally - the Galaxy committers group may however encourage presentations for large, disruptive PRs to facilitate interactive pull request reviews by more committers.
 
-## Past Meetings
+## Meetings
 
-### 7-9-2020:  COVID Work by Anton
+**[2020-09-03: Interactive PR Commands and Workflow Updates](/src/events/2020-09-03-dev-roundtable/index.md)**
+<br />Presenters: Alexandru Mahmoud and John Chilton
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xQHcceFBBTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**[2020-07-09: COVID work](/src/events/2020-07-09-dev-roundtable/index.md)**
+<br />Presenter: Anton Nekrutenko,  [Video](https://youtu.be/xQHcceFBBTs?t=104)
 
-### 6-11-2020:  The New History by Mason
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yR67bFB6W38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**[2020-06-11: The New History](/src/events/2020-06-11-dev-roundtable/index.md)**
+<br />Presenter Mason Houtz, [Video](https://youtu.be/yR67bFB6W38)
+

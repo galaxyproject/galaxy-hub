@@ -90,7 +90,7 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are September 3 (this Thursday) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
+The next two [roundtables](/src/community/devroundtable/index.md) are [September 3 (this Thursday)](/src/events/2020-09-03-dev-roundtable/index.md) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
