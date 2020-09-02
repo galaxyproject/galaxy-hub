@@ -281,6 +281,17 @@ How you can get your software tool into a Galaxy server and thus, exposed to tho
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card-header">[Bioinformatics training in Africa during the COVID-19 pandemic](https://depot.galaxyproject.org/hub/attachments/blog/2020-08-training/sasbi-newsletter-202008.pdf#page=3)</div>
+
+By Peter van Heusden
+
+The COVID-19 pandemic has forced a rapid - and unplanned - shift towards online events instead of the usual roster of face-to-face seminars and conferences.
+
+<img class="card-img-bottom" src="/src/images/logos/sasbi-logo-with-text.png" alt="BCC2020 training and more" />
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md)</div>
 
 By Dave Clements
@@ -291,7 +302,7 @@ Ten thousand publications have used, referenced, extended and implemented Galaxy
 </div>
 
 
-<div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 24rem; max-width: 28rem;">
 <div class="card-header">[A resource for comparing SARS-CoV2 to other coronaviruses: Coordinate mapping and residue annotation](https://virological.org/t/a-resource-for-comparing-sars-cov2-to-other-coronaviruses-coordinate-mapping-and-residue-annotation/534)</div>
 
 By Delphine Lariviere, Sergei Kosakovsky Pond, Anton Nekrutenko + HyPhy and Galaxy Teams
