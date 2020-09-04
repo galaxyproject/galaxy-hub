@@ -41,7 +41,7 @@
     "metalsmith-watch": "^1.0.3",
     "minimist": "^1.2.3",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.15.0",
     "pug": "^2.0.4",
     "sass-loader": "^8.0.0",
