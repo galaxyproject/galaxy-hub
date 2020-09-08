@@ -5,9 +5,25 @@ days: 1
 tease: ""
 continent: GL
 location: "ISB Workshop, Online"
-image: 
-location_url: ""
-external_url: "https://www.biocuration.org/biocuration-2020-online-workshops/"
+image: "/src/use/biocompute-object/biocompute-objects-logo.png"
+location_url: "https://www.biocuration.org/biocuration-2020-online-workshops/"
+external_url: ""
 gtn: true
 contact: "Charles Hadley King, Raja Mazumder, Jonathon Keeney"
 ---
+
+The workshop features an intro talk, then 3 brief tool demos, show examples from [data.glygen.org](http://data.glygen.org/) and [data.oncomx.org](http://data.oncomx.org/), briefly discuss how they are used, and then show the [Portal tool](http://portal.biochemistry.gwu.edu/) that can be used for making them. We will then do the same for the AWS [HIVE instance](http://hive.aws.biochemistry.gwu.edu/) and the AWS [Galaxy instance](http://galaxy.aws.biochemistry.gwu.edu/).
+
+After that we will have breakout sessions for live discussion.
+
+Schedule:
+
+* 10-15 min Intro
+* 15 min Portal Platform
+* 15 min HIVE Platform
+* 15 min Galaxy Platform
+* 45 min Breakout sessions
+
+**Interested?**
+
+There is a Slack workspace set up to facilitate communication between organizers and participants. *If you are interested in attending any of these workshops please email biocuration2020 @ gmail.com and we will send you an invite to the Slack workspace.*
