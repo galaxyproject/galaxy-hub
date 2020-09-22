@@ -21,7 +21,7 @@ We are pleased to announce the first group of scholarship awardees for the [Jame
   * *Cell type signatures of brain-region specific splicing in postnatal development*
 * **[John Lawson](https://j-lawson.github.io/)**, Center for Public Health Genomics and Department of Biomedical Engineering, University of Virginia
   * *COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity*
-* **[Jens Luebeck](https://jluebeck.github.io/)**, UCSD
+* **[Jens Luebeck](https://jluebeck.github.io/)**, Bioinformatics & Systems Biology, University of California, San Diego
   * *AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications*
 * **[David Twesigomwe](https://about.me/twesidave)**, Sydney Brenner Institute for Molecular Bioscience, University of the Witwatersrand
   * *CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes*
