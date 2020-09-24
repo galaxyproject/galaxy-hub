@@ -29,6 +29,13 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2020-10-gateways/gateways2020logo.png" alt="Gateways 2020" />
+<div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
+
+[Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5.  Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
+</div>
+
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
