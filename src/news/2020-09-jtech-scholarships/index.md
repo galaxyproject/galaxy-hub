@@ -1,6 +1,6 @@
 ---
 title: "JTech awards 10 scholarships to attend Biological Data Sceince"
-tease: "Continueing James Taylor's legacy of open science"
+tease: "Continuing James Taylor's legacy of open science"
 external_url:
 date: "2020-09-22"
 ---
