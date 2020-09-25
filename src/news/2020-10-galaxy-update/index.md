@@ -75,11 +75,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[PiRATE](/src/use/pirate/index.md)</div>
+<div class="card-header">[BRIDGE](/src/use/bridge/index.md)</div>
 
-<img class="card-img-top" src="/src/use/pirate/pirate-brand-line.png" alt="PiRATE" />
+<img class="card-img-top" src="/src/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
 
-[PiRATE, a **Pi**peline to **R**etrieve and **A**nnotate **T**ransposable **E**lements](https://www.seanoe.org/data/00406/51795/), is a Galaxy VM for detecting, classifying and annotating TEs of non-model organisms.  It has a [tutorial](https://archimer.ifremer.fr/doc/00412/52373/) and user support.  PiRATE is supported by [IFREMER](https://wwz.ifremer.fr/en/).
+[BRIDGE (Biomolecular Reaction and Interaction Dynamics Global Environment)](https://galaxy-compchem.ilifu.ac.za/) is a Computational Chemistry flavour of Galaxy - a webserver for preparing, simulating and analysing and visualising molecular simulations, especially molecular dynamics and free energies. Includes NAMD, GROMACS and CHARMM. Offers tutorials and a [Gitter support channel](https://gitter.im/galaxycomputationalchemistry/Lobby).
 </div>
 
 
