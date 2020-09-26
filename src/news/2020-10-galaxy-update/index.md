@@ -173,23 +173,44 @@ Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30).
 
 <div class="card-deck">
 
+
+
+
+
+<!-- NCGAS -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
+<div class="card-header">[Bioinformatics Analyst](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=292187&PostingSeq=1)</div>
+
+Supports genomics and other ‘omics research at Indiana University and for the national audience served by NSF-funded [NCGAS](https://ncgas.org/).
+
+<img class="card-img-bottom" src="/src/images/logos/NCGAS_Logo300.png" alt="NCGAS" />
+</div>
+
+
+
+<!-- UConn -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Postdoctoral Scholar – Computational Genomics – Deep Learning for Genome Annotation](http://plantcompgenomics.com/postdocs/)</div>
+
+The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at the University of Connecticut has a Postdoctoral Scholar  opening, for developing mechanisms for cross-platform data/application sharing that builds on existing efforts with Galaxy, the [Tripal platform](https://tripal.info), and cloud-based HPC.
+
+**Applications due October 9.**
+
+<img class="card-img-bottom" src="/src/images/logos/uconn-pcg.png" alt="UConn" />
+</div>
+
+
+<!-- Pasteur -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[4 Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
 
 Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
 
 <img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
 </div>
 
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Postdoctoral Scholar – Computational Genomics – Deep Learning for Genome Annotation](http://plantcompgenomics.com/postdocs/)</div>
 
-The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at the University of Connecticut (Storrs, CT) has an opening for a Postdoctoral Scholar, developing mechanisms for cross-platform data/application sharing that builds on existing efforts with Galaxy, the [Tripal platform](https://tripal.info), and cloud-based HPC.
-
-<img class="card-img-bottom" src="/src/images/logos/uconn-pcg.png" alt="UConn" />
-</div>
-
-
+<!-- Hopkins -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
@@ -201,31 +222,15 @@ The Schatz Lab  at Johns Hopkins University is looking for
 </div>
 
 
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Bioinformatics Data Management Specialist (RE2)](https://www.bsc.es/join-us/job-opportunities/22720lsinbre2) and [Bioinformatics Technician (RE3)](https://www.bsc.es/join-us/job-opportunities/10420lsinbre2)</div>
-
-The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS)](https://www.bsc.es/) is hiring.
-
-<img class="card-img-bottom" src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" />
-</div>
-
-
+<!-- VIB -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer)</div>
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium.
 
-... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
+We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
 <img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
-</div>
-
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Senior Software Developer](https://boards.greenhouse.io/blackcanyonconsulting/jobs/4013069003)</div>
-
-[Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States.
-
-<img class="card-img-bottom" src="/src/news/2020-06-galaxy-update/black-canyon.png" alt="Black Canyon Consulting at NCBI" />
 </div>
 
 </div>
