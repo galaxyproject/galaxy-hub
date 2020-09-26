@@ -83,17 +83,23 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 </div>
 
 
+<div class="card border-info"  style="min-width: 16rem;">
+<div class="card-header">[BioCompute Object](/src/use/biocompute-object/index.md)</div>
+
+<img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
+
+Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) standard for communication of High-throughput Sequencing (HTS) analysis results, data set creation and curation, and bioinformatics verification protocols within a Galaxy server.  Extensive [documentation](https://github.com/biocompute-objects/BCO_Specification) and [chat support](https://gitter.im/biocompute-objects/community) are available.
+</div>
+
+
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
-* Galaxy Europe [is joining the NFDI-DataPLANT consortiu]m](https://galaxyproject.eu/posts/2020/08/22/DataPLANT/)
-
+* 
 </div>
-
-
 
 </div>
 
