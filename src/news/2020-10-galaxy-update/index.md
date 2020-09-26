@@ -36,6 +36,16 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 </div>
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
+<div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
+
+The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scholarships/index.md) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
+
+**Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
+</div>
+
+
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
@@ -110,14 +120,16 @@ Here's what people are saying right now:
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Remote Training Using Galaxy](https://docs.google.com/document/d/1_sQocj98DxhgnyvtXbRvcXlV84T_I3K1rFmWrMuw6x0/preview#)</div>
 
-By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
+*Lessons learned from our [ELIXIR Galaxy Machine Learning Workshop](https://elixir-europe.org/events/machine-learning-using-galaxy-webinar-workshop-series)*
 
-A data browser, project-level isolation, and the latest release of Galaxy.
+By Alireza Khanteymoori, Björn Grüning, and Beatriz Serrano-Solano
 
-<img class="card-img-bottom" src="/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 5" />
+Lessons learned along with a description of the methodology applied in the workshop.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="Galaxy Europe" />
 </div>
 
 
