@@ -75,10 +75,10 @@ There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualizat
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 4 months
+There are [7 events](/src/events/index.md) in October:
 
-* 5 are online
-* The remaining 10 are in France (6), Australia (2), and the United States (2)
+* 3 are online
+* The remaining 4 are in France (3) and the United States (1)
 
 And material from some recent events is now available:
 
