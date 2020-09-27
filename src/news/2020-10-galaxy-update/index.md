@@ -29,13 +29,6 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-10-gateways/gateways2020logo.png" alt="Gateways 2020" />
-<div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
-
-[Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5.  Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
-</div>
-
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
 <div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
 
@@ -44,13 +37,13 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 **Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
 </div>
 
-
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<img class="card-img-top" src="/src/events/2020-10-gateways/Gateways2020logo.png" alt="Gateways 2020" />
+<div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [September 3 (this Thursday)](/src/events/2020-09-03-dev-roundtable/index.md) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
+[Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5.  Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
 </div>
+
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/migale-logo-orange.png" alt="MIGALE" />
@@ -59,6 +52,8 @@ The next two [roundtables](/src/community/devroundtable/index.md) are [September
 Five workshops this fall, all in Jouy-en-Josas and in French, and starting September 10.  Oui.
 
 </div>
+
+
 
 
 <div class="card border-info" style="min-width: 24rem; max-width: 24rem">
@@ -130,6 +125,18 @@ By Alireza Khanteymoori, Björn Grüning, and Beatriz Serrano-Solano
 Lessons learned along with a description of the methodology applied in the workshop.
 
 <img class="card-img-bottom" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="Galaxy Europe" />
+</div>
+
+
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[EOSC-Life Open Calls](https://galaxyproject.eu/posts/2020/09/23/eosc-life-open-calls/)</div>
+
+Two funding opportunities are now open within the EU project [EOSC-Life](https://www.eosc-life.eu/).
+
+* [Digital Life Sciences Open Call](https://www.eosc-life.eu/services/open-call/), deadline: **22.12.2020**.
+* [Training Open Call](https://www.eosc-life.eu/services/open-call-training/), deadline: **13.11.2020**.
+
+<img class="card-img-bottom" src="/src/images/logos/eosc_life.png" alt="EOSC-Life" />
 </div>
 
 
