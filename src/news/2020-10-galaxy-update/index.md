@@ -41,7 +41,7 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 <img class="card-img-top" src="/src/events/2020-10-gateways/Gateways2020logo.png" alt="Gateways 2020" />
 <div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
 
-[Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5.  Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
+[Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5. Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
 </div>
 
 
@@ -49,7 +49,22 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 <img class="card-img-top" src="/src/images/logos/migale-logo-orange.png" alt="MIGALE" />
 <div class="card-header">[Cycle "Bioinformatique par la pratique"](https://migale.inra.fr/trainings)</div>
 
-Five workshops this fall, all in Jouy-en-Josas and in French, and starting September 10.  Oui.
+Two more workshops in October in Jouy-en-Josas and in French.
+
+* Initiation à l’utilisation de Galaxy, October 15.
+* Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy, October 16.
+
+</div>
+
+
+
+<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/ashg2020-logo.png" alt="ASHG2020" />
+<div class="card-header">[ASHG 2020](https://www.ashg.org/meetings/2020meeting/)</div>
+
+As many other events, the American Society of Human Genetics Meeting is going virtual this year. 
+
+There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)](https://www.abstractsonline.com/pp8/#!/9070/session/146).
 
 </div>
 
