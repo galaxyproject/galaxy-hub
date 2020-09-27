@@ -176,16 +176,14 @@ This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.o
 
 # Publications
 
-**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
-
- <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
+Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
+<div class="card-header">[BRIDGE: An Open Platform for Reproducible Protein-Ligand Simulations and Free Energy of Binding Calculations](https://doi.org/10.21769/BioProtoc.3731)</div>
 
-Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID.
+Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e3731–e3731. [doi: 10.21769/BioProtoc.3731](https://doi.org/10.21769/BioProtoc.3731)
 </div>
 
 </div>
@@ -196,11 +194,30 @@ Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30).
 <div class="card-deck">
 
 
+<!-- Cleveland Clinic -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235)</div>
 
+The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute has Postdoctoral Fellowships available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
+
+<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+</div>
+
+
+<!-- ARTbio -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Genomic Data Analyst](https://www.artbio.fr/home/job-offers)</div>
+
+A 3-year position of genomic data analyst is available to work within the "COllaborative NEtwork on research for Children and Teenagers with Acute Myeloblastic Leukemia" CONECT-AML framework.
+
+The project is funded by the Institut National de Recherche sur le Cancer (INCA) and the Fight Kids Cancer programme. It involves 10 participant teams across France, with clinical or fundamental approaches.
+
+<img class="card-img-bottom" src="/src/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
+</div>
 
 
 <!-- NCGAS -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Bioinformatics Analyst](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=292187&PostingSeq=1)</div>
 
 Supports genomics and other ‘omics research at Indiana University and for the national audience served by NSF-funded [NCGAS](https://ncgas.org/).
@@ -209,9 +226,8 @@ Supports genomics and other ‘omics research at Indiana University and for the 
 </div>
 
 
-
 <!-- UConn -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Postdoctoral Scholar – Computational Genomics – Deep Learning for Genome Annotation](http://plantcompgenomics.com/postdocs/)</div>
 
 The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at the University of Connecticut has a Postdoctoral Scholar  opening, for developing mechanisms for cross-platform data/application sharing that builds on existing efforts with Galaxy, the [Tripal platform](https://tripal.info), and cloud-based HPC.
@@ -223,7 +239,7 @@ The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at 
 
 
 <!-- Pasteur -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[4 Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
 
 Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
@@ -233,7 +249,7 @@ Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institu
 
 
 <!-- Hopkins -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab  at Johns Hopkins University is looking for
@@ -245,7 +261,7 @@ The Schatz Lab  at Johns Hopkins University is looking for
 
 
 <!-- VIB -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem;">
 <div class="card-header">[Data Management Usability Officer](https://vibvzw.jobsoid.com/j/27205/data-management-usability-officer)</div>
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium.
