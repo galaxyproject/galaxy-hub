@@ -154,16 +154,14 @@ This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.o
 
 # Publications
 
-**671 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in June, July and August.  There were a *boatload<sup>1</sup>* of *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and a *truckload<sup>1</sup>* of them **are open access**:
-
- <sup>1</sup> Who needs a [Units of Measurement Ontology](https://bioportal.bioontology.org/ontologies/UO)!
+Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[AskMe: A LAPPS Grid-based NLP Query and Retrieval System for Covid-19 Literature](https://openreview.net/forum?id=WQwNh1RShX)</div>
+<div class="card-header">[BRIDGE: An Open Platform for Reproducible Protein-Ligand Simulations and Free Energy of Binding Calculations](https://doi.org/10.21769/BioProtoc.3731)</div>
 
-Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30). ACL 2020 Workshop NLP-COVID.
+Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e3731–e3731. [doi: 10.21769/BioProtoc.3731](https://doi.org/10.21769/BioProtoc.3731)
 </div>
 
 </div>
@@ -172,10 +170,6 @@ Suderman, K., Ide, N., Marc, V., Cochran, B., & Pustejovsky, J. (2020, June 30).
 # Who's Hiring
 
 <div class="card-deck">
-
-
-
-
 
 <!-- NCGAS -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
