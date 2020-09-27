@@ -865,7 +865,7 @@ sponsors:
       hub page, please check there for up-to-date references to tutorials.
       ```
 
-- :chicken: When deleting, consolidating, or renaming pages, please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/galaxyenv/templates/nginx/galaxyproject.j2#L46) in the infrastructure playbook.
+- :chicken: When deleting, consolidating, or renaming pages, please save the urls by adding redirects to the [rewrite file](https://github.com/galaxyproject/infrastructure-playbook/blob/master/env/galaxy/templates/nginx/galaxyproject.j2) in the infrastructure playbook.
 
 # Edit a local copy on your laptop
 
