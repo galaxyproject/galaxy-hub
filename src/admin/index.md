@@ -59,6 +59,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Admin/DataIntegration](/src/admin/data-integration/index.md)
 * [Admin/DataPreparation](/src/admin/data-preparation/index.md)
 * [Admin/ReferenceMAFs](/src/admin/reference-mafs/index.md)
+* [Admin/refgenie](/src/admin/refgenie/index.md)
 
 
 ## Other
