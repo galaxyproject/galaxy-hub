@@ -208,7 +208,7 @@ The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Le
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Computational Biologist](https://euraxess.ec.europa.eu/jobs/557466)</div>
 
-The [Cluster of Excellence on Cellular Stress Responses in Aging-Associated Diseases (CECAD)](https://www.cecad.uni-koeln.de/home/) at the University Hospital of Cologne is expanding its bioinformatics core facility in close collaboration with the Institute for Medical Statistics and Bioinformatics (IMSB).
+The [Cluster of Excellence on Cellular Stress Responses in Aging-Associated Diseases (CECAD)](https://www.cecad.uni-koeln.de/home/) at the University Hospital of Cologne is expanding its bioinformatics core facility in close collaboration with the Institute for Medical Statistics and Bioinformatics (IMSB).  **Apply by 18 October.**
 
 <img class="card-img-bottom" src="/src/images/logos/cecad-logo-wide.svg" alt="DECAD" />
 </div>
