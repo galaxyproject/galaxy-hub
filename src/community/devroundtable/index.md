@@ -24,6 +24,9 @@ These meetings are intended to be lightweight and informal, these sessions will 
 
 ## Meetings
 
+**[2020-10-01: Machine learning tools in Galaxy, and enabling per-objectstore quotas in Galaxy](/src/events/2020-10-01-dev-roundtable/index.md)**
+<br />Presenters: Kaivan Kamali and  John Chilton
+
 **[2020-09-03: Interactive PR Commands and Workflow Updates](/src/events/2020-09-03-dev-roundtable/index.md)**
 <br />Presenters: Alexandru Mahmoud and John Chilton
 
