@@ -196,11 +196,41 @@ Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e
 
 <!-- Cleveland Clinic -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235)</div>
+<div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235) and [Software Engineer](https://twitter.com/DBlankenberg/status/1310586405282885632)</div>
 
-The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute has Postdoctoral Fellowships available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
+The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
 
 <img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+</div>
+
+
+<!-- University Hospital of Cologne  -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Computational Biologist](https://euraxess.ec.europa.eu/jobs/557466)</div>
+
+The [Cluster of Excellence on Cellular Stress Responses in Aging-Associated Diseases (CECAD)](https://www.cecad.uni-koeln.de/home/) at the University Hospital of Cologne is expanding its bioinformatics core facility in close collaboration with the Institute for Medical Statistics and Bioinformatics (IMSB).
+
+<img class="card-img-bottom" src="/src/images/logos/cecad-logo-wide.svg" alt="DECAD" />
+</div>
+
+
+<!-- NCGAS -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Bioinformatics Analyst](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=292187&PostingSeq=1)</div>
+
+Supports genomics and other ‘omics research at Indiana University and for the national audience served by NSF-funded [NCGAS](https://ncgas.org/).
+
+<img class="card-img-bottom" src="/src/images/logos/NCGAS_Logo300.png" alt="NCGAS" />
+</div>
+
+
+<!-- Pasteur -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[4 Bioinformaticiens / Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
+
+Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
+
+<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
 </div>
 
 
@@ -216,16 +246,6 @@ The project is funded by the Institut National de Recherche sur le Cancer (INCA)
 </div>
 
 
-<!-- NCGAS -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Bioinformatics Analyst](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=292187&PostingSeq=1)</div>
-
-Supports genomics and other ‘omics research at Indiana University and for the national audience served by NSF-funded [NCGAS](https://ncgas.org/).
-
-<img class="card-img-bottom" src="/src/images/logos/NCGAS_Logo300.png" alt="NCGAS" />
-</div>
-
-
 <!-- UConn -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Postdoctoral Scholar – Computational Genomics – Deep Learning for Genome Annotation](http://plantcompgenomics.com/postdocs/)</div>
@@ -235,16 +255,6 @@ The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at 
 **Applications due October 9.**
 
 <img class="card-img-bottom" src="/src/images/logos/uconn-pcg.png" alt="UConn" />
-</div>
-
-
-<!-- Pasteur -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[4 Bioinformaticiens/Biostatisticiens](https://www.sfbi.fr/node/12708)</div>
-
-Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
-
-<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
 </div>
 
 
