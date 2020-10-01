@@ -194,6 +194,16 @@ Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e
 <div class="card-deck">
 
 
+<!-- Galaxy P -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Application Developer]( https://hr.myu.umn.edu/jobs/ext/337630)</div>
+
+Help with Galaxy-P tools and workflow development, and general support for Galaxy implementation at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
+
+<img class="card-img-bottom" src="/src/images/logos/minnesota-d2d.png" alt="University of Minnesota" />
+</div>
+
+
 <!-- Cleveland Clinic -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235) and [Software Engineer](https://twitter.com/DBlankenberg/status/1310586405282885632)</div>
