@@ -1,6 +1,6 @@
 ---
 title: 'October 2020 Galactic News'
-tease: "BCC2020 & GCC2021, events, platforms, blog posts, tutorials, pubs, releases, obs ..."
+tease: "Events & JTech, platforms, blog posts, tutorials, pubs, releases, ..."
 date: ""
 ---
 
@@ -8,15 +8,14 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* [BCC2020 Wrap up and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
-* [More event news](#more-event-news)
-* [Galaxy platform news](#galaxy-platforms-news)
-* [Blog posts (lots of them)](#galactic-blog-activity)
-* [Training material and doc updates](#doc-hub-and-training-updates)
-* [Publications](#publications) (a *boatload* of them)
-* [Who's hiring](#whos-hiring)
-* [New releases](#releases)
-* [Other news too](#other-news)
+* **[Event news & JTech Scholarships](#event-news)**
+* **[Galaxy platform news](#galaxy-platforms-news):** BRIDGE, BioCompute Object, French Galaxies, PhagePromoter, and UseGalaxy.*
+* **[Blog posts](#galactic-blog-activity):** Remote training, EOSC-Life calls
+* **[Training material and doc updates](#doc-hub-and-training-updates):** refgenie magic
+* **[Publications](#publications)** 
+* **Q: Who's hiring? [A: Nine different groups](#whos-hiring)**
+* **[New releases](#releases)**
+* **[Other news too](#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -42,7 +41,7 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 
 <!-- Gateways -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-10-gateways/Gateways2020logo.png" alt="Gateways 2020" />
+<img class="card-img-top" src="/src/events/2020-10-gateways/gateways2020logo.png" alt="Gateways 2020" />
 <div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
 
 [Registration for Gateways 2020](https://sciencegateways.org/web/gateways2020/attend/register) ends October 5. Conference events start on October 12 with a week of tutorials, including [Securing Science Gateways with Custos Services](https://sched.co/dca6) on Wednesday October 14.
@@ -64,8 +63,7 @@ Two more workshops in October in Jouy-en-Josas and in French.
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Gala
-xy Developer Roundtable" />
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
 )</div>
 
@@ -280,7 +278,7 @@ The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Le
 
 The [Cluster of Excellence on Cellular Stress Responses in Aging-Associated Diseases (CECAD)](https://www.cecad.uni-koeln.de/home/) at the University Hospital of Cologne is expanding its bioinformatics core facility in close collaboration with the Institute for Medical Statistics and Bioinformatics (IMSB).  **Apply by 18 October.**
 
-<img class="card-img-bottom" src="/src/images/logos/cecad-logo-wide.svg" alt="DECAD" />
+<img class="card-img-bottom" src="/src/images/logos/cecad-logo-wide.svg" alt="CECAD" />
 </div>
 
 
@@ -359,20 +357,11 @@ We are building on the internationally used platform [FAIRDOMhub](https://fairdo
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+<div class="card-header">[Pulsar 0.14.0](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst)</div>
 
-Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.  This release features new commands (search toolsheds, delete users, uninstall tools), fixes & updates, and newly extended documentation.
+[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
-</div>
-
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[BioBlend 0.14.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.14.0)</div>
-
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
-
-See the [release notes](https://github.com/galaxyproject/bioblend/releases) for what's new in release 0.14.0.
+<img class="card-img-bottom" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" />
 </div>
 
 </div>
@@ -382,7 +371,6 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 
 <div class="card-deck">
-
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Euro-BioImaging contributes to cloud-based biological image analysis workflow tools](https://www.eurobioimaging.eu/news/euro-bioimaging-contributes-to-cloud-based-biological-image-analysis-workflow-tools-/)</div>
