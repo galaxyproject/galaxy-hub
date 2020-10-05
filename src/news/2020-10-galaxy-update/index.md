@@ -209,11 +209,12 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
+<div class="card-header">[refgenie for Local Instances](/src/admin/refgenie/index.md)</div>
 
-This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis. 
+By [Dan Blankenberg](/src/people/dan/index.md).
 
-<img class="card-img-bottom" src="gtn-chira-slice.png" alt="ChiRA" />
+How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
+<img class="card-img-bottom" src="/src/images/logos/refgenie_logo.svg" alt="refgenie" />
 </div>
 
 </div>
