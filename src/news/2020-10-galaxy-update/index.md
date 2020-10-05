@@ -99,8 +99,8 @@ Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/eve
 
 There are [13 events](/src/events/index.md) in the next 3 months:
 
-* 7 are online
-* The remaining 6 are in France (4) and the United States (2)
+* 7 are online.
+* The remaining 6 are in France (4) and the United States (2).
 
 </div>
 </div>
@@ -157,10 +157,9 @@ PhagePromoter predicts promoter sequences in phage genomes, using machine learni
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/) 
-* [CellProfiler implemented on UseGalaxy.eu](#other-news).
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
-* 
+* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
+
 </div>
 
 </div>
@@ -176,9 +175,9 @@ Here's what people are saying right now:
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Remote Training Using Galaxy](https://docs.google.com/document/d/1_sQocj98DxhgnyvtXbRvcXlV84T_I3K1rFmWrMuw6x0/preview#)</div>
 
-*Lessons learned from our [ELIXIR Galaxy Machine Learning Workshop](https://elixir-europe.org/events/machine-learning-using-galaxy-webinar-workshop-series)*
+*Lessons learned from our [ELIXIR Galaxy Machine Learning Workshop](https://elixir-europe.org/events/machine-learning-using-galaxy-webinar-workshop-series).*
 
-By Alireza Khanteymoori, Björn Grüning, and Beatriz Serrano-Solano
+By Alireza Khanteymoori, Björn Grüning, and Beatriz Serrano-Solano.
 
 Lessons learned along with a description of the methodology applied in the workshop.
 
