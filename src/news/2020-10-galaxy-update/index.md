@@ -28,6 +28,8 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 
 <div class="card-deck">
 
+
+<!-- JTech -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
 <div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
@@ -37,6 +39,8 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 **Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
 </div>
 
+
+<!-- Gateways -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-10-gateways/Gateways2020logo.png" alt="Gateways 2020" />
 <div class="card-header">[Gateways 2020](https://sciencegateways.org/web/gateways2020/)</div>
@@ -45,6 +49,7 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 </div>
 
 
+<!-- MIGALE -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/migale-logo-orange.png" alt="MIGALE" />
 <div class="card-header">[Cycle "Bioinformatique par la pratique"](https://migale.inra.fr/trainings)</div>
@@ -57,7 +62,18 @@ Two more workshops in October in Jouy-en-Josas and in French.
 </div>
 
 
+<!-- Galaxy Dev Round Table -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Gala
+xy Developer Roundtable" />
+<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
+)</div>
 
+The next two [roundtables](/src/community/devroundtable/index.md) are [October 15](/src/events/2020-10-15-dev-roundtable/index.md) and [October 29](/src/events/2020-10-29-dev-roundtable/index.md).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
+</div>
+
+
+<!-- ASHG -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/ashg2020-logo.png" alt="ASHG2020" />
 <div class="card-header">[ASHG 2020](https://www.ashg.org/meetings/2020meeting/)</div>
@@ -69,21 +85,24 @@ There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualizat
 </div>
 
 
+<!-- BioHackathon-Europe -->
+<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon Europe" />
+<div class="card-header">[Galaxy @ BioHackathon Europe 2020](https://www.ashg.org/meetings/2020meeting/)</div>
+
+Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+</div>
 
 
-<div class="card border-info" style="min-width: 24rem; max-width: 24rem">
+<!-- All events -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem">
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [7 events](/src/events/index.md) in October:
+There are [13 events](/src/events/index.md) in the next 3 months:
 
-* 3 are online
-* The remaining 4 are in France (3) and the United States (1)
-
-And material from some recent events is now available:
-
-* [End user open source bioinformatics tools](https://youtu.be/ItTjJjzMrig), by Peter van Heusden at [Bioinformatics Hub of Kenya](https://bioinformaticshubofkenya.wordpress.com/upcoming-event/)
-* [MPDS and Open Source Tools for Computer Aided Drug Discovery](https://www.youtube.com/watch?v=lWWPTA7JyJ0&feature=youtu.be&t=183), by Lijo John, S Nagamani, Himakshi Sarma at [DDH2020 Training Program](http://www.neist.res.in/ddh2020/)
+* 7 are online
+* The remaining 6 are in France (4) and the United States (2)
 
 </div>
 </div>
@@ -94,7 +113,8 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 16rem;">
+<!-- BRIDGE -->
+<div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[BRIDGE](/src/use/bridge/index.md)</div>
 
 <img class="card-img-top" src="/src/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
@@ -103,7 +123,8 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 </div>
 
 
-<div class="card border-info"  style="min-width: 16rem;">
+<!-- BioCompute Object -->
+<div class="card border-info"  style="min-width: 11em;">
 <div class="card-header">[BioCompute Object](/src/use/biocompute-object/index.md)</div>
 
 <img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
@@ -112,11 +133,34 @@ Implements the [BioCompute Objects](https://biocomputeobject.org/about.html) sta
 </div>
 
 
-<div class="card border-info"  style="min-width: 14rem;">
+<!-- French Instances -->
+<div class="card border-info"  style="min-width: 11rem;">
+<div class="card-header">[A Quick Tour of French Galaxy Instances](http://eepurl.com/hcRat1)</div>
+
+<img class="card-img-top" src="/src/images/logos/ifb-logo-text.jpg" alt="IFB" />
+
+The [24 September IFB newsletter highlights 10 Galaxy resources](http://eepurl.com/hcRat1) in France (believe it or not, there are more), including a few public servers.
+</div>
+
+
+<!-- PhagePromoter -->
+<div class="card border-info"  style="min-width: 11rem;">
+<div class="card-header">[PhagePromoter](/src/use/phagepromoter/index.md)</div>
+
+<img class="card-img-top" src="/src/use/phagepromoter/cbe-logo.png" alt="Centre of Biological Engineering" />
+
+PhagePromoter predicts promoter sequences in phage genomes, using machine learning models.  This server is hosted by the [Centre of Biological Engineering](https://www.ceb.uminho.pt/), School of Engineering at the University of Minho &mdash; our first public server in Portugal.
+</div>
+
+
+<!-- UseGalaxy.* -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
+* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/) 
+* [CellProfiler implemented on UseGalaxy.eu](#other-news).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
 * 
 </div>
@@ -130,6 +174,7 @@ Here's what people are saying right now:
 
 <div class="card-deck">
 
+<!-- Remote Training Lessons -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Remote Training Using Galaxy](https://docs.google.com/document/d/1_sQocj98DxhgnyvtXbRvcXlV84T_I3K1rFmWrMuw6x0/preview#)</div>
 
@@ -143,6 +188,7 @@ Lessons learned along with a description of the methodology applied in the works
 </div>
 
 
+<!-- EOSC-Life -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[EOSC-Life Open Calls](https://galaxyproject.eu/posts/2020/09/23/eosc-life-open-calls/)</div>
 
@@ -153,7 +199,6 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 
 <img class="card-img-bottom" src="/src/images/logos/eosc_life.png" alt="EOSC-Life" />
 </div>
-
 
 </div>
 
@@ -176,7 +221,7 @@ This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.o
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway:
+Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
 
 <div class="card-deck">
 
@@ -184,6 +229,20 @@ Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/ind
 <div class="card-header">[BRIDGE: An Open Platform for Reproducible Protein-Ligand Simulations and Free Energy of Binding Calculations](https://doi.org/10.21769/BioProtoc.3731)</div>
 
 Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e3731–e3731. [doi: 10.21769/BioProtoc.3731](https://doi.org/10.21769/BioProtoc.3731)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Capacity building for whole genome sequencing of Mycobacterium tuberculosis and bioinformatics in high TB burden countries](https://doi.org/10.1093/bib/bbaa246)</div>
+
+Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., Heusden, P., Warren, R., Meehan, C. J., & Van Rie, A. (2020). *Briefings in Bioinformatics*. [doi: 10.1093/bib/bbaa246](https://doi.org/10.1093/bib/bbaa246)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457)</div>
+
+Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020). *Preprints*. [doi: 10.20944/preprints202009.0457](https://doi.org/10.20944/preprints202009.0457)
 </div>
 
 </div>
@@ -323,12 +382,23 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 <div class="card-deck">
 
+
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Fostering Collaborative Tools for Science](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9)</div>
+<div class="card-header">[Euro-BioImaging contributes to cloud-based biological image analysis workflow tools](https://www.eurobioimaging.eu/news/euro-bioimaging-contributes-to-cloud-based-biological-image-analysis-workflow-tools-/)</div>
 
-This write up by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
+[Euro-BioImaging](https://www.eurobioimaging.eu/) and [ELIXIR](https://elixir-europe.org/), in collaboration with the [Image Data Resource (IDR)](https://idr.openmicroscopy.org/) and [Galaxy Europe](https://galaxyproject.eu/), have facilitated the use and re-analysis of publicly available datasets by integrating [CellProfiler](https://cellprofiler.org/), an image analysis software with a focus on recognizing cellular components, into Galaxy, a key cloud workflow tool.
 
-<img class="card-img-bottom" src="/src/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
+<img class="card-img-bottom" src="/src/images/logos/cell-profiler-logo.png" alt="CellProfiler" />
+</div>
+
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[CINECA Project Profiles Saskia Hiltemann](https://www.cineca-project.eu/blog-all/connect-with-cineca-saskia-hiltemann)</div>
+
+Saskia is a core member of the [Intergalactic Utilities Commission](/src/iuc/index.md), and one of the creators of the [Galaxy Training Network](https://training.galaxyproject.org/).  Within the [CINECA project](https://www.cineca-project.eu/) Saskia is co-Lead on Work Package 6, dissemination and outreach work, and a major contributor to Work Package 5 - Healthcare Interoperability and Clinical Applications.
+
+<img class="card-img-bottom" src="/src/images/logos/cineca-logo-text.png" alt="CINECA" />
 </div>
 
 </div>
