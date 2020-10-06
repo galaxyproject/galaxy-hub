@@ -13,7 +13,7 @@ date: ""
 * **[Blog posts](#galactic-blog-activity):** Remote training, EOSC-Life calls
 * **[Training material and doc updates](#doc-hub-and-training-updates):** refgenie magic
 * **[Publications](#publications)** 
-* **Q: Who's hiring? [A: Nine different groups](#whos-hiring)**
+* **Q: Who's hiring? [A: Ten different groups](#whos-hiring)**
 * **[New releases](#releases)**
 * **[Other news too](#other-news)**
 
@@ -251,9 +251,21 @@ Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., 
 <div class="card-deck">
 
 
+<!-- QUT -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Research Associate in Bioinformatics](https://www.appsnet.org/Careers/pdf/Research%20Associate%20in%20Bioinformatics.pdf)</div>
+
+Queensland University of Technology, Mickleham, *Victoria*.
+
+"Lead the implementation, testing and validation of a virus diagnostics bioinformatics workflow within Galaxy Australia"
+
+<img class="card-img-bottom" src="/src/images/logos/qut-logo-text-wide.png" alt="Queensland University of Technology" />
+</div>
+
+
 <!-- Galaxy P -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Application Developer]( https://hr.myu.umn.edu/jobs/ext/337630)</div>
+<div class="card-header">[Application Developer](https://hr.myu.umn.edu/jobs/ext/337630)</div>
 
 Help with Galaxy-P tools and workflow development, and general support for Galaxy implementation at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
 
