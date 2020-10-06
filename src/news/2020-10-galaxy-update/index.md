@@ -401,5 +401,16 @@ Saskia is a core member of the [Intergalactic Utilities Commission](/src/iuc/ind
 <img class="card-img-bottom" src="/src/images/logos/cineca-logo-text.png" alt="CINECA" />
 </div>
 
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[GalaxyWorks is starting a webinar series](https://galaxyworks.io/)</div>
+
+[GalaxyWorks](https://galaxyworks.io/), a commercial branch of Galaxy, will be starting a webinar series to showcase analysis capabilities of [Galaxy Pro](https://galaxyworks.io/product). If you have topics you would like to see covered, please suggest them by emailing to info@galaxyworks.io.
+Separately, GalaxyWorks subbmitted a Phase II STTR funding application to the NIH last month.
+
+<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
+</div>
+
+
 </div>
 
