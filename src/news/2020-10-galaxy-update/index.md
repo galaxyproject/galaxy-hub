@@ -71,6 +71,16 @@ The next two [roundtables](/src/community/devroundtable/index.md) are [October 1
 </div>
 
 
+<!-- eResearch Down Under -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2020-10-eresearch-australasia/eresearch-australasia-logo.png" alt="eResearch Australasia" />
+<div class="card-header">[eResearch Australasia](/src/events/2020-10-eresearch-australasia/index.md
+)</div>
+
+Galaxy [is featured in talks, a BoF, and a poster](/src/events/2020-10-eresearch-australasia/index.md) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
+</div>
+
+
 <!-- ASHG -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/ashg2020-logo.png" alt="ASHG2020" />
@@ -97,9 +107,9 @@ Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/eve
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [13 events](/src/events/index.md) in the next 3 months:
+There are [14 events](/src/events/index.md) in the next 3 months:
 
-* 7 are online.
+* 8 are online.
 * The remaining 6 are in France (4) and the United States (2).
 
 </div>

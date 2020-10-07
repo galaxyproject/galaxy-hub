@@ -8,7 +8,7 @@ location: "Australia, Online"
 location_url: "https://conference.eresearch.edu.au/"
 external_url:
 gtn: true
-contact: "Gareth Price, M. Farhan Sjaugi"
+contact: "Simon Gladman, Gareth Price, Idris Sulaiman, Nuwan Goonasekara, Derek Benson"
 image: "eresearch-australasia-logo.png"
 ---
 
