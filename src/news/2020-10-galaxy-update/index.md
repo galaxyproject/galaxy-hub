@@ -74,10 +74,18 @@ The next two [roundtables](/src/community/devroundtable/index.md) are [October 1
 <!-- eResearch Down Under -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-10-eresearch-australasia/eresearch-australasia-logo.png" alt="eResearch Australasia" />
-<div class="card-header">[eResearch Australasia](/src/events/2020-10-eresearch-australasia/index.md
-)</div>
+<div class="card-header">[eResearch Australasia](/src/events/2020-10-eresearch-australasia/index.md)</div>
 
 Galaxy [is featured in talks, a BoF, and a poster](/src/events/2020-10-eresearch-australasia/index.md) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
+</div>
+
+
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="irritating.png" alt="Paper Cuts are irritating" />
+<div class="card-header">Paper Cuts: 21 October</div>
+
+Paper cuts are annoying but easy to fix bugs. We plan to have a one-day contribution fest, dedicated to reducing Paper cuts in Galaxy and its ecosystem. It will be a 24-hours event to span all time zones with our worldwide community. The first one will be on October 21. Please save the date! It's an ideal opportunity for newcomers to get started. And remember it's still [Hacktoberfest](https://hacktoberfest.digitalocean.com/)!
 </div>
 
 
