@@ -1,5 +1,3 @@
- 
-
 ## refgenie for Local Instances
 
 Built-in data files are critical for many Galaxy tools. This page will describe how to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
@@ -54,3 +52,17 @@ and then restart the Galaxy server.
 For information on installing tools from the ToolShed, follow these [directions](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). Search for "refgenie", to find the relevant tool.
 
 To access and run Data Manager tools, follow these [directions](/src/admin/tools/data-managers/index.md).
+
+## Figure 1. Extending Galaxy’s reference data with refgenie.
+
+![Figure 1. Extending Galaxy’s reference data with refgenie](galaxy-refgenie-figure-1.png)
+**Figure 1. Extending Galaxy’s reference data with refgenie.** (A) Setting the value of ‘refgenie_config_file’ to the previously chosen genome configuration file path within the primary Galaxy configuration file (e.g. ‘galaxy.yml’). (B) Example data table mapping between refgenie assets and Galaxy data tables for the BWA tool. Cheetah templating language is used to specify mappings between values, with several pre-populated refgenie variables available as shown. (C) refgenie assets are available for users to select and use in the Galaxy BWA tool. (D) A dynamically generated list of available remote refgenie assets are listed for an administrator to select in the ‘refgenie pull’ Galaxy Data Manager tool.
+
+
+## Table 1. Comparison of Galaxy and refgenie features
+
+  |refgenie | Galaxy | refgenie+Galaxy
+- |-------- | ------ | ---------------
+features that refgenie has, but Galaxy does not have | X |   | X
+features that Galaxy has, but refgenie does not have |   | X | X
+**Table 1. Comparison of Galaxy and refgenie features.** As indicated, refgenie+Galaxy contains the union of features of Galaxy and refgenie.
