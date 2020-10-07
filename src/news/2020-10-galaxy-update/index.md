@@ -1,7 +1,7 @@
 ---
 title: 'October 2020 Galactic News'
 tease: "Events & JTech, platforms, blog posts, tutorials, pubs, releases, ..."
-date: ""
+date: "2020-10-07"
 ---
 
 # In the  October 2020 issue
@@ -115,9 +115,9 @@ Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/eve
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [14 events](/src/events/index.md) in the next 3 months:
+There are [15 events](/src/events/index.md) in the next 3 months:
 
-* 8 are online.
+* 9 are online.
 * The remaining 6 are in France (4) and the United States (2).
 
 </div>
