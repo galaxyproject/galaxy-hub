@@ -1,15 +1,61 @@
 ---
-title: "Paper Cuts Day"
+title: "Galaxy Paper Cuts Day"
 date: '2020-10-21'
 days: 1
-tease: 'Help make the Galaxy a better place'
+tease: 'A community contribution day'
 continent: GL
 location: 'Global, online'
-image: /src/news/2020-10-galaxy-update/irritating.png
+image: "papercuts-2020-10-21.png"
 location_url: ""
 external_url:
 gtn: false
 contact: Community
 ---
 
-*Paper cuts* are annoying but easy to fix bugs. We plan to have a one-day contribution fest, dedicated to reducing Paper cuts in Galaxy and its ecosystem. It will be a 24-hours event to span all time zones with our worldwide community. The first one will be on October 21. Please save the date! It's an ideal opportunity for newcomers to get started. And remember it's still [Hacktoberfest](https://hacktoberfest.digitalocean.com/)!
+*Paper cuts are annoying but easy to fix bugs.*
+
+Our aim is to improve the Galaxy experience by fixing them, and we need your help, *and we would like to grow the Galaxy contributor community.*
+
+We will meet once a month, for a one-day collaboration fest, dedicated to reducing Papercuts in the Galaxy ecosystem.  *And this is our first event.*
+
+There are several goals:
+
+* Make the Galaxy experience be a pleasure and productive by removing and reducing irritants.
+* Grow the Galaxy contributor community by holding regular events and identify easy but informative things to fix.
+* Work together and enjoy the community.
+* Dedicate time together for bug-fixing.
+* Make reducing Papercuts fun.
+
+This is the first Papercuts collaboration fest and is fortuitously part of [Hacktoberfest](https://hacktoberfest.digitalocean.com)! This will be a 24h event, spanning all time zones with our worldwide community.  We'll start at 9am Sydney time, and end at 6pm Portland time.
+
+
+## Interested?
+
+Interested?  Please let us know by registering your interest.  We'll send you information before and after the event.
+
+<button type="button" class="btn btn-light"> **[Sign up](https://docs.google.com/forms/d/e/1FAIpQLSd2FbMMXB8cVSo6pAVafA13XhW1ZFChMV9wmXZJ4Dz0jd9m8Q/viewform)**
+ </button></a>
+
+
+### Before the event
+
+If you are a Galaxy user or admin, you can create (or tag) GitHub issues for any irritating, but likely easily fixed bugs (make a guess).  These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.  If you don't have a GitHub or Gitter account yet, then set them up (in that order).
+
+If you have time, and want to learn more about contributing you are encouraged to review:
+
+* [Development in Galaxy tutorials](https://training.galaxyproject.org/training-material/topics/dev/)
+* [Contributing to the Galaxy Training Material tutorials](https://training.galaxyproject.org/training-material/topics/contributing/)
+* [Galaxy on GitHub](https://github.com/galaxyproject) - see what projects are supported and find the one that speaks to you.  Pay particular attention to each project's CONTIBUTING.md files
+
+### During the event
+
+We will have video calls throughout the day and be on Gitter for chat all day long.  Please take advantage of both to communicate with your collaborators around the world.
+
+### After the event
+
+*Get those pull requests in!  And address anything from the review! And become more involved in the Galaxy code, training, and documentation base!*
+
+### Communication
+
+Communication will happen through GitHub, Gitter channels and Zoom.  Links will be posted here before the event.  If you register your interest (see above), we'll send you email too.
+
