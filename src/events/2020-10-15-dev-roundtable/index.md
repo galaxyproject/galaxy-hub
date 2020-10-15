@@ -12,7 +12,7 @@ gtn: false
 contact: "Dannon Baker, John Chilton"
 ---
 
-This week's topics are **to be determined**.
+This week's topics are **Gaalxy release testing and publishing workflows to Dockstore and Workflowhub**.
 
 Have something you want to talk about? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
