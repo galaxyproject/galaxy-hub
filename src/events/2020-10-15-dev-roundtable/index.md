@@ -13,6 +13,7 @@ contact: "Dannon Baker, John Chilton"
 ---
 
 This week's topics are **Gaalxy release testing and publishing workflows to Dockstore and Workflowhub**.
+We'll be using [this Zoom link](https://psu.zoom.us/j/92752763386)
 
 Have something you want to talk about? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
