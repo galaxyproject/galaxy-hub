@@ -13,8 +13,7 @@ comments:
   - "Open-source bioinformatics for public health"
 user_support:
   - "[User Guide](https://s3.amazonaws.com/cfsan-genometrakr-docs/user+guide/Galaxy+Genome+Trakr+User+Guide.pdf), [FAQ](https://cfsan-genometrakr-docs.s3.amazonaws.com/user+guide/FAQs+for+GalaxyTrakr.pdf), and [Videos](https://www.youtube.com/channel/UCxuzusNRSpnw3qG6dQDDzGw)."
-  - "[Email](mailto:genomeTrakr_at_fda.hhs.gov) support"
-  - "Issue reporting and tracking via [Redmine](http://genomelc.jifsan.org/projects/genome-learning-community/boards/12)"
+  - "[Email](mailto:GalaxyTrakrSupport_at_fda.hhs.gov) support"
 quotas:
   - "Available to any public health lab in any country working on foodborne pathogens. We also support researchers and educational programs/classes focused on foodborne pathogens. We also will consider supporting other public health needs as makes sense."
   - "A login is required.  Anyone in public health can apply for a login."
