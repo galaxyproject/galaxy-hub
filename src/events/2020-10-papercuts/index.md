@@ -37,6 +37,17 @@ Here are links to the issues identified as potential targets for papercuts day:
 * [Cloudman](https://github.com/galaxyproject/cloudman) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a>: tag.
 * [IUC Tools](https://github.com/galaxyproject/tools-iuc) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
 
+## Join us in our regular video calls
+
+* 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-9am-sydney
+* 12:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-sydney
+* 15:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**:
+* 18:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**:
+* 21:00 (Melbourne, UTC +11), 09.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-09am-berlin
+* 06:00 (EDT, UTC -4), 12.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12am-berlin
+* 09:00 (EDT, UTC -4), 15.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-03pm-berlin
+* 12:00 (EDT, UTC -4), 18.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-06pm-berlin
+
 
 
 
