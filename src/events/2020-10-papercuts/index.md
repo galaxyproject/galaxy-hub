@@ -82,5 +82,5 @@ We will have video calls throughout the day and be on Gitter for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, Gitter channels and Zoom.  Links will be posted here before the event.  If you register your interest (see above), we'll send you email too.
+Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and Zoom.  Links will be posted here before the event.  If you register your interest (see above), we'll send you email too.
 
