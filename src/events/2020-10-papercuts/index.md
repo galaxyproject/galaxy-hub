@@ -42,9 +42,8 @@ Here are links to the issues identified as potential targets for papercuts day:
 **Asia-Pacific-Australia**:
 
 * 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-9am-sydney
-* 12:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-sydney
-* 15:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**:
-* 18:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**:
+* 12:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-sydney
+* 15:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-3pm-sydney
 
 **Europe-Middle East-Africa**
 
@@ -57,7 +56,6 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 * 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-03pm-new-york
 * 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-06pm-new-york
-
 
 
 ## Interested?
