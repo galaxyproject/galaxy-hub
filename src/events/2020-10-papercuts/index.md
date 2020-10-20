@@ -33,22 +33,30 @@ This is the first Papercuts collaboration fest and is fortuitously part of [Hack
 Here are links to the issues identified as potential targets for papercuts day:
 
 * [Galaxy Server](https://github.com/galaxyproject/galaxy): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/labels/little%20annoyances" role="button">little annoyances</a> and <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> tags. (Um, yeah, we'll consolidate those, but maybe not this week.)
-* [Galaxy Training Network](https://github.com/galaxyproject/training-material): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a>, <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> tag.
-* [Cloudman](https://github.com/galaxyproject/cloudman) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a>: tag.
-* [IUC Tools](https://github.com/galaxyproject/tools-iuc) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
+* [Galaxy Training Network](https://github.com/galaxyproject/training-material): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> and <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> tags.
+* [Cloudman](https://github.com/galaxyproject/cloudman): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> tag.
+* [IUC Tools](https://github.com/galaxyproject/tools-iuc): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
 
 ## Join us in our regular video calls
+
+**Asia-Pacific-Australia**:
 
 * 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-9am-sydney
 * 12:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-sydney
 * 15:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**:
 * 18:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**:
+
+**Europe-Middle East-Africa**
+
 * 21:00 (Melbourne, UTC +11), 09.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-09am-berlin
 * 06:00 (EDT, UTC -4), 12.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-berlin
 * 09:00 (EDT, UTC -4), 15.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-03pm-berlin
 * 12:00 (EDT, UTC -4), 18.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-06pm-berlin
-* 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**:
-* 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) **Zoom Link**:
+
+**Americas**
+
+* 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-03pm-new-york
+* 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-06pm-new-york
 
 
 
