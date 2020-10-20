@@ -28,6 +28,17 @@ There are several goals:
 
 This is the first Papercuts collaboration fest and is fortuitously part of [Hacktoberfest](https://hacktoberfest.digitalocean.com)! This will be a 24h event, spanning all time zones with our worldwide community.  We'll start at 9am Sydney time, and end at 6pm Portland time.
 
+## Issues to work on
+
+Here are links to the issues identified as potential targets for papercuts day:
+
+* [Galaxy Server](https://github.com/galaxyproject/galaxy): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/labels/little%20annoyances" role="button">little annoyances</a> and <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> tags. (Um, yeah, we'll consolidate those, but maybe not this week.)
+* [Galaxy Training Network](https://github.com/galaxyproject/training-material): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> tag.
+* [Cloudman](https://github.com/galaxyproject/cloudman) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a>: tag.
+* [IUC Tools](https://github.com/galaxyproject/tools-iuc) <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
+
+
+
 
 ## Interested?
 
@@ -39,7 +50,9 @@ Interested?  Please let us know by registering your interest.  We'll send you in
 
 ### Before the event
 
-If you are a Galaxy user or admin, you can create (or tag) GitHub issues for any irritating, but likely easily fixed bugs (make a guess).  These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.  If you don't have a GitHub or Gitter account yet, then set them up (in that order).
+If you are a Galaxy user or admin, you can create, or tag existing, GitHub issues for any irritating, but likely easily fixed bugs (make a guess). These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.
+
+If you don't have a GitHub or Gitter account yet, then set them up (in that order).
 
 If you have time, and want to learn more about contributing you are encouraged to review:
 
