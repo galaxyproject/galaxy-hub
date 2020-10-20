@@ -53,7 +53,7 @@ Here are links to the issues identified as potential targets for papercuts day:
 * 09:00 (EDT, UTC -4), 15.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-03pm-berlin
 * 12:00 (EDT, UTC -4), 18.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-06pm-berlin
 
-**Americas**
+**Americas (⬆ and ⬇)**
 
 * 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-03pm-new-york
 * 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) **Zoom Link**: http://bit.ly/papercuts1-06pm-new-york
