@@ -44,7 +44,7 @@ Here are links to the issues identified as potential targets for papercuts day:
 * 15:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**:
 * 18:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**:
 * 21:00 (Melbourne, UTC +11), 09.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-09am-berlin
-* 06:00 (EDT, UTC -4), 12.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12am-berlin
+* 06:00 (EDT, UTC -4), 12.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-12pm-berlin
 * 09:00 (EDT, UTC -4), 15.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-03pm-berlin
 * 12:00 (EDT, UTC -4), 18.00 (CEST, UTC +2) **Zoom Link**: https://tinyurl.com/papercuts1-06pm-berlin
 * 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**:
