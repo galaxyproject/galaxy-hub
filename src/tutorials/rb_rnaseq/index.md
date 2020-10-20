@@ -1,5 +1,6 @@
 ---
 title: RNAseq - an introduction
+redirect: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html"
 ---
 # RNAseq: Reference-based
 
@@ -8,7 +9,7 @@ This tutorial is inspired by an exceptional [RNAseq course](http://chagall.med.c
 RNAseq can be roughly divided into two "types":
 
  * **Reference genome-based** - an assembled genome exists for a species for which an RNAseq experiment is performed. It allows reads to be aligned against the reference genome and significantly improves our ability to reconstruct transcripts. This category would obviously include humans and most model organisms but excludes the majority of truly biologically interesting species (e.g., [Hyacinth macaw](https://en.wikipedia.org/wiki/Hyacinth_macaw));
- * **Reference genome-free** - no genome assembly for the species of interest is available. In this case one would need to assemble the reads into transcripts using *de novo* approaches. This type of RNAseq is as much of an art as well as science because assembly is heavily parameter-dependent and difficult to do well. 
+ * **Reference genome-free** - no genome assembly for the species of interest is available. In this case one would need to assemble the reads into transcripts using *de novo* approaches. This type of RNAseq is as much of an art as well as science because assembly is heavily parameter-dependent and difficult to do well.
 
 In this lesson we will focus on the **Reference genome-based** type of RNA seq.
 
@@ -40,7 +41,7 @@ Reverse Transcriptase (RT) requires a primer. One can leverage the fact that the
 >**Oligo-dT vs. random priming**<br>
 >Oligo-dT (**A**) and random priming (**B**)
 
-Depending on the choice of the approach one would have different types of RNAs included in the final sequencing outcome. For example, if one attempts to study RNAs that are not polyadenylated or not fully processed, it would be unwise to use oligo-dT priming approach. 
+Depending on the choice of the approach one would have different types of RNAs included in the final sequencing outcome. For example, if one attempts to study RNAs that are not polyadenylated or not fully processed, it would be unwise to use oligo-dT priming approach.
 
 ### Strand-specific RNAseq
 
@@ -145,10 +146,10 @@ To further optimize and speed up spliced read alignment Kim at al. [2015](http:/
 
 >![](/src/tutorials/rb_rnaseq/star.png)
 >
->**STAR's seed search**<br> 
+>**STAR's seed search**<br>
 >Here a read is split between two consecutive exons. STAR starts to look for a *maximum mappable prefix* (MMP) from the beginning of the read until it can no longer match continuously. After this point it start to MMP for the unmatched portion of the read (**a**). In the case of mismatches (**b**) and unalignable regions (**c**) MMPs serve as anchors from which to extend alignments. Image from [Dobin:2013](http://bioinformatics.oxfordjournals.org/content/early/2012/10/25/bioinformatics.bts635.full.pdf+html).
 
-At the second stage STAR stitches MMPs to generate read-level alignments that (contrary to MMPs) can contain mismatches and indels. A scoring scheme is used to evaluate and prioritize stitching combinations and to evaluate reads that map to multiple locations. STAR is extremely fast but requires a substantial amount of RAM to run efficiently. 
+At the second stage STAR stitches MMPs to generate read-level alignments that (contrary to MMPs) can contain mismatches and indels. A scoring scheme is used to evaluate and prioritize stitching combinations and to evaluate reads that map to multiple locations. STAR is extremely fast but requires a substantial amount of RAM to run efficiently.
 
 ## Transcript reconstruction
 
@@ -159,9 +160,9 @@ The previous step - mapping - assigns RNAseq reads to genomic locations and iden
 >**Comparison of transcript reconstruction approaches**<br>
 >Here *recall* (the number of correctly constructed forms divided by the total number of real forms) versus *precision* (true positives divided by the sum of true positives and false positives) are plotted for seven transcript assemblers tested on two simulated datasets: *EnsemblPerfect* and *EnsemblRealistic*. The shaded region is indicating suboptimal performance (i.e., the white, unshaded region is "good"). The figure is from [Hayer:2015](http://bioinformatics.oxfordjournals.org/content/early/2015/09/03/bioinformatics.btv488.full.pdf+html).
 
-Based on these results [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) and [StringTie](https://ccb.jhu.edu/software/stringtie/) have satisfactory performance. The following discussion is based on inner workings of StringTie. 
+Based on these results [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/) and [StringTie](https://ccb.jhu.edu/software/stringtie/) have satisfactory performance. The following discussion is based on inner workings of StringTie.
 
-### Transcriptome assembly with StringTie 
+### Transcriptome assembly with StringTie
 
 [StringTie](https://ccb.jhu.edu/software/stringtie/) assembles transcripts from spliced read alignments produced by tools such as STAR, TopHat, or HISAT and simultaneously estimates their abundances using counts of reads assigned to each transcript. The following images illustrates details of StringTie workflow:
 
@@ -170,15 +171,15 @@ Based on these results [Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/
 >**StringTie workflow**<br>
 >Image from [Pertea:2015](http://www.nature.com/nbt/journal/v33/n3/full/nbt.3122.html)
 
-In essence StringTie builds an alternative splice graph from overlapping reads in a given locus. In such a graph nodes correspond to exons (or, rather, contiguous regions of genome covered by reads; colored regions on the figure above), while edges are represented by reads connecting these exons. Next, it identifies a path within the splice graph that has the highest weight (largest number of reads on edges). Such path would correspond to an assembled transcript at this iteration of the algorithm. Because the edge weight is equal to the number of the reads StringTie estimates the coverage level for this transcript (see below) which can be used to estimate the transcript's abundance. Reads that are associated with the transcript that was just assembled are then removed and the graph is updated to perform the next iteration of the algorithm. 
+In essence StringTie builds an alternative splice graph from overlapping reads in a given locus. In such a graph nodes correspond to exons (or, rather, contiguous regions of genome covered by reads; colored regions on the figure above), while edges are represented by reads connecting these exons. Next, it identifies a path within the splice graph that has the highest weight (largest number of reads on edges). Such path would correspond to an assembled transcript at this iteration of the algorithm. Because the edge weight is equal to the number of the reads StringTie estimates the coverage level for this transcript (see below) which can be used to estimate the transcript's abundance. Reads that are associated with the transcript that was just assembled are then removed and the graph is updated to perform the next iteration of the algorithm.
 
 ## Transcript quantification
 
-Transcriptome quantification attempts to estimate expression levels of individuals transcripts. This is performed by assigning RNAseq reads to transcripts, counting, and normalization. 
+Transcriptome quantification attempts to estimate expression levels of individuals transcripts. This is performed by assigning RNAseq reads to transcripts, counting, and normalization.
 
 ### Assigning reads to transcripts
 
-To associate reads with transcripts they (the reads) need to be aligned to the transcriptome. Tools like Cufflinks and StringTie reconstruct transcripts from spliced read alignments generated by other programs (TopHat, HISAT, STAR), so they already have the information about which reads belong to each reconstructed transcript. Other tools such as [Sailfish](http://www.cs.cmu.edu/~ckingsf/software/sailfish/), [Kallisto](http://pachterlab.github.io/kallisto/), and [Salmon](http://combine-lab.github.io/salmon/) perform *lightweight* alignment of RNAseq reads against existing transcriptome sequences. The goal of lightweight alignment is to quickly distribute the reads across transcripts they likely originate from without worrying too much about producing high quality alignments. The upside of this is that the entire procedure can be performed very quickly. The downside is that these tools require high quality transcriptome as input, which is not a problem if you work with humans or mice, but is a problem if you are studying Hyacinth macaw or any other brilliantly colored creatures. 
+To associate reads with transcripts they (the reads) need to be aligned to the transcriptome. Tools like Cufflinks and StringTie reconstruct transcripts from spliced read alignments generated by other programs (TopHat, HISAT, STAR), so they already have the information about which reads belong to each reconstructed transcript. Other tools such as [Sailfish](http://www.cs.cmu.edu/~ckingsf/software/sailfish/), [Kallisto](http://pachterlab.github.io/kallisto/), and [Salmon](http://combine-lab.github.io/salmon/) perform *lightweight* alignment of RNAseq reads against existing transcriptome sequences. The goal of lightweight alignment is to quickly distribute the reads across transcripts they likely originate from without worrying too much about producing high quality alignments. The upside of this is that the entire procedure can be performed very quickly. The downside is that these tools require high quality transcriptome as input, which is not a problem if you work with humans or mice, but is a problem if you are studying Hyacinth macaw or any other brilliantly colored creatures.
 
 #### Lightweight alignment
 
@@ -203,7 +204,7 @@ The current version of Sailfish uses [quasi-alignment](http://biorxiv.org/conten
 >**Assigning reads to transcripts: Kallisto**<br>
 >Here a black read is being associated with a set consisting of red, blue, and green transcripts (**a**). First, a graph is built from transcriptome (**b**). Next, by finding common *k*-mers between the read and the graph the read is "threaded" along a path (**c** and **d**). The colors along that path would indicate which transcripts it is likely derived from. Specifically, this is done by taking intersection of "colors" (**c**). It this case the read is assigned to two transcripts: red and blue. Image from [Bray:2015](http://arxiv.org/pdf/1505.02710v2.pdf)
 
-[Salmon](https://combine-lab.github.io/salmon/about/) does not use *k*-mer matching approach. Instead it creates [bwa](https://github.com/lh3/bwa)-like [FM-index](https://en.wikipedia.org/wiki/FM-index) and uses it to finds chains of *Maximal Exact Matches* (MEMs) and *Super Maximal Exact Matches* (SMEMs) between a read and the transcriptome.   
+[Salmon](https://combine-lab.github.io/salmon/about/) does not use *k*-mer matching approach. Instead it creates [bwa](https://github.com/lh3/bwa)-like [FM-index](https://en.wikipedia.org/wiki/FM-index) and uses it to finds chains of *Maximal Exact Matches* (MEMs) and *Super Maximal Exact Matches* (SMEMs) between a read and the transcriptome.
 [Patro:2015](http://biorxiv.org/content/biorxiv/early/2015/06/27/021592.full.pdf) define a MEM as "*a substring that is shared by the query (read) and reference (transcript) that cannot be extended in either direction without introducing a mismatch*". Similarly, a SMEM is defined as a "*MEM that is not contained within any other MEM on the query.*" One of the advantages of utilizing the FM-index is that a new index does not need to re-generated for a search with different set of parameters. In the case of Sailfish and Kallisto an index is dependent on *k*-mer length and has to be recomputed every time the *k* is changed. The overall schematics of Salmon operation is as follows:
 
 >![](/src/tutorials/rb_rnaseq/salmon.png)
@@ -236,7 +237,7 @@ The Expectation/Maximization framework (EM) is utilized in a number of tools suc
 \color{green}{green} =  \frac{0.33 + 0.5 + 0.0 + 0.0 + 0.5}{2.33 + 1.33 + 1.33} = 0.27\\
 
 \color{blue}{blue}  =  \frac{0.33 + 0.5 + 0.5 + 0.0 + 0.0}{2.33 + 1.33 + 1.33} = 0.27
-   
+
     $$
 </div>
 
@@ -252,7 +253,7 @@ During next expectation stage read are re-apportioned across transcripts and the
 As we've seen above quantification for a transcript is estimated using the number of associated reads. Yet the count is not a very good measure as it will be severely biased by multiple factors such as, for example, transcript length. Thus these counts need to be normalized. Normalization strategies can be roughly divided into two groups:
 
  * Normalization for comparison within a **single** sample;
- * Normalization for comparison among **multiple** samples/conditions. 
+ * Normalization for comparison among **multiple** samples/conditions.
 
 In their [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/) Dündar et al. have compiled a table summarizing various metrics. Below is description of normalization technique for within sample comparisons (between sample comparison can be found in the next section on differential expression analysis):
 
@@ -261,9 +262,9 @@ In their [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/) Dündar et al.
 >**RNAseq normalization metrics: Within sample comparisons**<br>
 >Table from Dündar et al. [2015](http://chagall.med.cornell.edu/RNASEQcourse/)
 
-In addition, an excellent overview of these metrics can be found [here](https://haroldpimentel.wordpress.com/2014/05/08/what-the-fpkm-a-review-rna-seq-expression-units/). 
+In addition, an excellent overview of these metrics can be found [here](https://haroldpimentel.wordpress.com/2014/05/08/what-the-fpkm-a-review-rna-seq-expression-units/).
 
-#### <span style="color: red;">&#9888; You should NEVER EVER use RPKM, FPKM, or TPM to compare expression levels <em>across</em> samples. These are RELATIVE measures! Consider yourself warned!</span> 
+#### <span style="color: red;">&#9888; You should NEVER EVER use RPKM, FPKM, or TPM to compare expression levels <em>across</em> samples. These are RELATIVE measures! Consider yourself warned!</span>
 
 ## Finding expression differences
 
@@ -300,7 +301,7 @@ to test for differential gene expression.
 
 ### The data
 
-In this example we will use a downsampled version of simulated *Drosophila melanogaster* RNA-seq data used by Trapnell et al. [2012](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html). These include two conditions (**C1** and **C2**), each containing three replicates (**R1**, **R2**, and **R3**) sequenced as a paired end library. Thus in total there are 12 fastq datasets.  
+In this example we will use a downsampled version of simulated *Drosophila melanogaster* RNA-seq data used by Trapnell et al. [2012](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html). These include two conditions (**C1** and **C2**), each containing three replicates (**R1**, **R2**, and **R3**) sequenced as a paired end library. Thus in total there are 12 fastq datasets.
 
 Here is what to do to load the data:
 
@@ -327,7 +328,7 @@ We will map the reads with TopHat2. Select **TopHat** from **NGS: RNA Analysis**
 >In this case the input to TopHat is **not** individual datasets, but a collection instead. The [video](https://vimeo.com/163625221) above shows how to generate collection. Since we have created two collection as was described above, we will used them as inputs (note that **Is this single-end or paired-end data?** is set to `Paired-end (as collection)`). Make sure that the top part of TopHat interface looks like in the image below. Here the following parameters are set:
 >
 >* **Mean Inner Distance between Mate Pairs** = `28` This is because paired reads are 100 bp and mean insert size is 228 bp so that 228 - (100 + 100) = 28
->* **Use a built in reference genome or own from your history** = `Use a build-in genome` and `dm3` is selected. This is because the reads are from *D. melanogaster*. 
+>* **Use a built in reference genome or own from your history** = `Use a build-in genome` and `dm3` is selected. This is because the reads are from *D. melanogaster*.
 >* **TopHat settings to use** = `Full parameter list` This is done to be able to specify the strandedness of the library.
 >* **Library Type** = `FR First Strand`
 >
@@ -337,7 +338,7 @@ We will map the reads with TopHat2. Select **TopHat** from **NGS: RNA Analysis**
 >
 >![](/src/tutorials/rb_rnaseq/tophat_output.png)
 
-Let's now take a look at some of the alignments. We will use IGV for this purpose. 
+Let's now take a look at some of the alignments. We will use IGV for this purpose.
 
 >First, let's drill down to actual alignments produced by TopHat. For example, in figure shown above simply click on **TopHat on collection 14: accepted_hits** and you will see a list of datasets corresponding to alignments of reads derived from each conditions:
 >
@@ -368,7 +369,7 @@ Using mapped reads produced by TopHat we will perform analysis of differential g
 >**`HTseq-count` read/feature overlap modes**<br>
 >The `htseq-count` script of the HTSeq suite offers three different modes to handle details of read–feature overlaps that are depicted here. The default of featureCounts is the behavior of the union option. Image is from [HTseq documentation](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html); Caption by [Dündar:2015](http://chagall.med.cornell.edu/RNASEQcourse/)
 
-Before we can use `HTseq-count` we need to download gene annotations for version `dm3` of the *Drosophila melanogaster* genome. We use version `dm3` because it is the same genome we have mapped reads against during the TopHat step. 
+Before we can use `HTseq-count` we need to download gene annotations for version `dm3` of the *Drosophila melanogaster* genome. We use version `dm3` because it is the same genome we have mapped reads against during the TopHat step.
 
 #### Getting *Drosophila malanogaster* gene annotation from UCSC
 
