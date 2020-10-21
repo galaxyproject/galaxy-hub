@@ -8,6 +8,8 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
+<img src="/src/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James.">
+
 ## Community
 
 A small sample of what's been shared about James online, from his community:
