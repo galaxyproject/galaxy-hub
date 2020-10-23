@@ -1,12 +1,12 @@
 ---
-title: "The James P. Taylor Foundation Awards the First Annual JTech Scholarships"
-tease: "Ten awardees will be attending Biological Data Science 2020"
+title: "JXTX Foundation Awards First Ten Scholarships"
+tease: "Awardees will be attending Biological Data Science 2020"
 external_url: ""
 date: "2020-10-23"
 ---
 
 
-The **[James P. Taylor Foundation for Open Science](/src/jxtx/foundation)** is pleased to announce the recipients of the 2020 JTech Scholarships.  JTech, the Junior Training and Educational Connections Hotspot, provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. 
+**[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation)** is pleased to announce the recipients of the 2020 JTech Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. 
 
 Ten genomics and data sciences graduate students from around the globe were awarded the first annual JTech scholarship.  These awardees will present their work at the [2020 Cold Spring Harbor Laboratory (CSHL) Biological Data Science Conference](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20) being held virtually November 4-6.  Awardees represent ten institutions and are presenting a wide range of research at the meeting.
 
@@ -125,10 +125,11 @@ University of Connecticut
 
 </div>
 
-## About JTech
+## About JXTX: The James P. Taylor Foundation for Open Science
 
 “The most important job of senior faculty is to mentor junior faculty and students.” These are the words that Professor [James P. Taylor](https://galaxyproject.org/jxtx/), the Ralph S. O’Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
-Towards the goal of advancing mentorship, JTech will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.  JTech also aims to attract new scholars, including high school and undergrad students, to computational biology and data science, and to form connections and opportunities for members of underrepresented minority populations.
+
+Towards the goal of advancing mentorship, the JXTX Foundation will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.  JTech also aims to attract new scholars, including high school and undergrad students, to computational biology and data science, and to form connections and opportunities for members of underrepresented minority populations.
 
 According to his colleagues, James hated self-promotion. But the community would be done a grave disservice if the seeds planted by Dr.Taylor were not nourished to grow and flourish.  Thank you to those who have generously contributed.
 
