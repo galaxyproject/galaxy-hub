@@ -13,7 +13,7 @@ There are many services available that allow users to upload their own data for 
 
 ## Citation
 
-If you add a new external display application to Galaxy in your published work, please cite: [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**. *bioRxiv* 642280; doi: 10.1101/642280.
+If you add a new external display application to Galaxy in your published work, please cite: [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](https://rdcu.be/b0xnC)**. *Nat Methods* (2020). doi:10.1038/s41592-019-0727-x
 
 * * *
 
