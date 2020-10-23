@@ -1,5 +1,5 @@
 ---
-title: 'James P. Taylor Foundation'
+title: 'JXTX: The James P. Taylor Foundation for Open Science'
 ---
 
 <div class="text-right"> *The most important job of senior faculty is to mentor junior faculty and students. (@jxtx)*</div>
@@ -10,14 +10,13 @@ These are the words that James Taylor (JT) said and lived by. This, he believed,
 
 ## Recent Foundation Activity and News
 
-[<img class="float-right" src="/src/news/2020-10-jtech/awardees-thumb.png" alt="James Taylor Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/src/news/2020-10-jtech/index.md)
+[<img class="float-right" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/src/news/2020-10-jxtx-awardees/index.md)
 
+The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and and we are delighted with our first round of scholarships:
 
-The Foundation's first activity has been to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and and we are delighted with our first round of scholarships:
-
-* **[The James P. Taylor Foundation Awards the First Annual JTech Scholarships](/src/news/2020-10-jtech/index.md)**, October 22, 2020
+* **[JXTX Foundation Awards First Ten Scholarships](/src/news/2020-10-jxtx-awardees/index.md)**, October 23, 2020
 * [Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/index.md), July 8, 2020
-* [JTech, The James Taylor Foundation](/news/2020-05-jtech/index.md), May 7, 2020
+* [The James Taylor Foundation](/news/2020-05-jtech/index.md), May 7, 2020
 
 <br />
 
@@ -29,19 +28,20 @@ The Foundation's first activity has been to sponsor 10 graduate students to atte
 <br />
 
 
-## About JTech: Junior Training and Educational Connections Hotspot
+## About the JXTX Foundation
 
-<div class="float-right">
-  <img src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 12rem" /><br />
-  <div class="small text-right">Big shoes to fill. <br />Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
+<div class="float-left">
+<br />
+  <img src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
+  <div class="small text-left">Big shoes to fill. <br />Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 
-In its early stages, JTech will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JTech will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.
+In its early stages, the JXTX Foundation will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JXTX will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.
 
-JTech will later expand its reach as a platform for academic mentorship. First, it will operate to spark mentoring relationships among the larger computational biology and data science community. As part of membership in JTech, faculty and students will have an opportunity to participate in periodic mentorship meetings (virtually). We expect an enthusiastic response to this opportunity, and will recruit additional team members to provide organizational structure if necessary.
+The Foundation will later expand its reach as a platform for academic mentorship. First, it will operate to spark mentoring relationships among the larger computational biology and data science community. As part of membership, faculty and students will have an opportunity to participate in periodic mentorship meetings (virtually). We expect an enthusiastic response to this opportunity, and will recruit additional team members to provide organizational structure if necessary.
 
-In its later stages, JTech will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
+In its later stages, the Foundation will sponsor in-person visits from students (high school or college age) to its hotspots, which currently include Johns Hopkins and Penn State. These visits are meant to attract new scholars to computational biology and data science, and in particular to form connections and opportunities for members of underrepresented minorities.
 
-**Please consider contributing to continue James Taylor's legacy.**
+**Please consider [contributing](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to continue James Taylor's legacy.**
 
 
