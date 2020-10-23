@@ -20,6 +20,9 @@ title: 'James Peter Taylor | 1979 - 2020'
 * [Memorials](/src/jxtx/memorials/index.md)
 * [Community response](/src/jxtx/we-miss-you/index.md)
 
+
+## The James Taylor Foundation
+
 **You can help continue James's legacy of open and reproducible science by contributing to the [James Taylor Foundation](/src/jxtx/foundation/index.md).**
 
 
