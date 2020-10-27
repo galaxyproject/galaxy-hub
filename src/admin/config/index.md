@@ -29,7 +29,6 @@ title: Galaxy Configuration for Admins
 
 ## Other
 
-* [GenomeSpace](/src/admin/config/genome-space/index.md)
 * [User Information (Collecting information during registration)](/src/admin/config/User Information/index.md)
 * [Running on Windows](/src/admin/config/windows/index.md)
 * [Access Control (ACLs)](/src/admin/config/access-control/index.md)

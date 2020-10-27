@@ -39,7 +39,8 @@ Some example DataSources:
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/hexylena/galaxy-data_source-examples
 
-A custom downloader can be used for advanced interaction. Example: The GenomeSpace data_tools use a custom script to handle lots more than just multiple files: handles the GenomeSpace username+token transactions, and also attempts to make use of GenomeSpace's metadata, etc; all by interacting via the GenomeSpace API.
+A custom downloader can be used for advanced interaction.
+
 
 ## Data Connection Protocols
 
