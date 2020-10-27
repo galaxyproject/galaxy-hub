@@ -121,7 +121,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 <div class='right'><a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
-The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a [proteomics wiki page](/src/proteomics/index.md). 
+The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a proteomics wiki page. 
 
 See [the complete list of mailing lists](/src/mailing-lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 

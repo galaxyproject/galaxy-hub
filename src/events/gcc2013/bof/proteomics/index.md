@@ -40,11 +40,10 @@ BoF participants introduced themselves and gave some statement about their inter
 
 ### Resources for Proteomics
 
-There was a strong feeling that Proteomics needed a presence on the Galaxy wiki. As a start to this John Chilton created two new pages;
-	
-A [landing page for Proteomics](/src/proteomics/index.md)
- 
-A [ proteomics use cases](/src/proteomics/use-cases/index.md) page to help tool developers focus their efforts and new users to learn about what tools exist and what common proteomics workflows are covered by galaxy.
+There was a strong feeling that Proteomics needed a presence on the Galaxy wiki. As a start to this John Chilton created two new pages:
+
+* A landing page for Proteomics.
+* A proteomics use cases page to help tool developers focus their efforts and new users to learn about what tools exist and what common proteomics workflows are covered by galaxy.
 
 Both users and tool developers were encouraged to use the [galaxy-proteomics mailing list](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) for discussion.
 
