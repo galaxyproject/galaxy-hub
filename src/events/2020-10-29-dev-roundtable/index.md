@@ -12,11 +12,11 @@ gtn: false
 contact: "Dannon Baker, John Chilton"
 ---
 
-This week's topics are **to be determined**.
+Super informal meeting this week **including a discussion of tool testing and tool deployment issues.**
 
-Have something you want to talk about? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
+Have something you want to talk about at a future roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
-Please [join us](https://calendar.google.com/calendar/embed?src=36q4nj52l0ps2l7jt1t4srl9e0%40group.calendar.google.com).
+Please [join us](https://psu.zoom.us/j/92752763386).
 
 ---
 
