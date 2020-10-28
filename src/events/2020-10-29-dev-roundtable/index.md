@@ -2,7 +2,7 @@
 title: "Galaxy Developer Roundtable"
 date: '2020-10-29'
 days: 1
-tease: ""
+tease: "Tool testing and tool deployment discussion"
 continent: GL
 location: "Online"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
@@ -14,9 +14,9 @@ contact: "Dannon Baker, John Chilton"
 
 Super informal meeting this week **including a discussion of tool testing and tool deployment issues.**
 
-Have something you want to talk about at a future roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
+Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20201029T12&p1=179&ah=1)).
 
-Please [join us](https://psu.zoom.us/j/92752763386).
+Have something you want to talk about at a future roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
 ---
 

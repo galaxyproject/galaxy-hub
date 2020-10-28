@@ -12,6 +12,8 @@ gtn: false
 contact: "Kaivan Kamali, John Chilton"
 ---
 
+**[Video](https://youtu.be/osbRh36-4dc)**
+
 This week's topics are a longer presentation by Kaivan Kamali discussing his experimenting with machine learning tools in Galaxy, and John Chilton will briefly discuss [enabling per-objectstore quotas in Galaxy](https://github.com/galaxyproject/galaxy/pull/10221). 
 
 Please [join us](https://calendar.google.com/calendar/embed?src=36q4nj52l0ps2l7jt1t4srl9e0%40group.calendar.google.com).
