@@ -42,7 +42,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   <tr>
     <th rowspan=4> Saturday July&nbsp;14 </th>
     <td> 10:45-11:00 </td>
-    <td> <em><a href="/src/genome-space/index.md">GenomeSpace</a>: An open source environment for frictionless bioinformatics</em>,  Michael Reich, Broad Institute </td>
+    <td> <em>GenomeSpace: An open source environment for frictionless bioinformatics</em>,  Michael Reich, Broad Institute </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_BOSC_GenomeSpace.pptx'>slides</a> </td>
   </tr>
   <tr>

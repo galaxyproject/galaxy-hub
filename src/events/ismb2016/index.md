@@ -22,7 +22,7 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
   <tr>
     <th rowspan=5> July 8 </th>
     <th> 10:45 </th>
-    <td> <em><a href="/src/genome-space/index.md">GenomeSpace</a>: Open source interoperability platform with crowd-sourced analysis recipes</em> <div class='indent'> Ted Liefeld </div> </td>
+    <td> <em>GenomeSpace: Open source interoperability platform with crowd-sourced analysis recipes</em> <div class='indent'> Ted Liefeld </div> </td>
     <td> <a href='http://f1000research.com/slides/5-1633'>Slides</a>, <a href='http://f1000research.com/posters/5-1634'>Poster</a>, <a href='https://youtu.be/EpHn_WhXlI8'>Video</a> </td>
   </tr>
   <tr>

@@ -94,10 +94,3 @@ If you already moved a partial or truncated dataset into a History, you will nee
 *   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/src/learn/managing-datasets/index.md) for help or watch the screencast above for a how-to example.
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 
-### Deprecated: GenomeSpace Importer/Exporter
-
-The [GenomeSpace](http://www.genomespace.org/) project no longer supports data transfers as of November 15, 2019. 
-
-The GenomeSpace Importer/Exporter tools and OpenID token functions will be removed from the public Galaxy Main server at https://usegalaxy.org and from the Galaxy Release in early 2020.
-
-Notice: [The GenomeSpace project is ending](http://www.genomespace.org/news/the-genomespace-project-is-ending)
