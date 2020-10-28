@@ -2,10 +2,11 @@ extends layout.pug
 
 mixin renderEventTitle(item)
     if item.rtl
-        span(style="direction: rtl")
+        div(style="direction: rtl")
             | #{item.title}
     else
-        | #{item.title}
+        div
+            | #{item.title}
 
 mixin renderEventRow(item)
     +renderEventJSONLD(item)
