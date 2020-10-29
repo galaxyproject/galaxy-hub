@@ -88,6 +88,27 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 
+<!-- GalaxyTrakr -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[GalaxyTrakr](/src/use/galaxytrakr/index.md)</div>
+
+<img class="card-img-top" src="/src/use/galaxytrakr/galaxytrakr-logo.jpg" alt="GalaxyTrakr" />
+
+The [GalaxyTrakr server](https://www.galaxytrakr.org/) is provided by the [US Food and Drug Administration](https://www.fda.gov/) to support food-borne pathogen research worldwide. A [User Guide](https://s3.amazonaws.com/cfsan-genometrakr-docs/user+guide/Galaxy+Genome+Trakr+User+Guide.pdf), [FAQ](https://cfsan-genometrakr-docs.s3.amazonaws.com/user+guide/FAQs+for+GalaxyTrakr.pdf), [Videos](https://www.youtube.com/channel/UCxuzusNRSpnw3qG6dQDDzGw), and [Email support](mailto:GalaxyTrakrSupport_at_fda.hhs.gov) are available.  An account is required and anyone working in public health can apply.
+</div>
+
+
+<!-- Galaxy Africa -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[Galaxy Africa](/src/use/galaxy-africa/index.md)</div>
+
+<img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="Galaxy Africa" />
+
+Devoted to assisting researchers on the African continent accelerate their genomics research and analyses.  This [public server](https://africa.usegalaxy.eu/) is configured by the Galaxy Africa team, and hosted by the UesGalaxy.eu team.
+</div>
+
+
+
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
