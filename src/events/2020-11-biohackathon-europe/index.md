@@ -7,7 +7,7 @@ continent: GL
 location: "Barcelona, Spain, Online"
 location_url: "https://www.biohackathon-europe.org/index.html"
 external_url: ""
-image: 
+image: bh-eu-2020.jpg
 gtn: False
 contact: "Project organizers"
 ---
@@ -35,5 +35,5 @@ Galaxy will be featured at [BioHackathon-Europe 2020](https://www.biohackathon-e
 
 Join us to learn from and work with experts of the Open Source Life Science community, and discuss the future of the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
 
-Interested? Registration is available on a first come, first serve basis. Registration is free, *but space is limited.*  **[Register now](https://www.biohackathon-europe.org/registration.html).**
+Interested? Registration is available on a first come, first serve basis. Registration is free, *but space is limited.*  ~~**[Register now](https://www.biohackathon-europe.org/registration.html).**~~ (Registration is now closed.)
 
