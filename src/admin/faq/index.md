@@ -45,7 +45,7 @@ There are scripts available in the Galaxy distribution that make this process ve
 
 **What versions of the Python language do you support with your downloadable Galaxy source distribution?**
 
-We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](/src/admin/config/Eggs/index.md) for more information.
+We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](/src/admin/config/eggs/index.md) for more information.
 
 ----
 
@@ -53,7 +53,7 @@ We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance
 
 **How do I connect an external datasource to Galaxy?**
 
-Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](/src/admin/internals/Data Sources/index.md).
+Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](/src/admin/internals/data-sources/index.md).
 
 ----
 
@@ -61,7 +61,7 @@ Adding an external datasource is quite easy, and only requires minimal work on t
 
 **How do I implement support for a new data type in Galaxy?**
 
-For complete details on how to support a new data type, see our [AddingDatatypes page](/src/admin/datatypes/Adding Datatypes/index.md).
+For complete details on how to support a new data type, see our [Adding Datatypes page](/src/admin/datatypes/adding-datatypes/index.md).
 
 ----
 
@@ -87,7 +87,7 @@ Via a proxy connection in Apache.  Instructions can be found on the [Admin/Confi
 
 ## Including HTTP links in a tool's help text
 
-**Is there a way to include an http link (eg <a href='foo'>foo</a> in the help text in a tool's xml file?**
+**Is there a way to include an http link (eg ```<a href='foo'>foo</a>```) in the help text in a tool's xml file?**
 
 This is done using a restructured text syntax similar to the following line.
 
