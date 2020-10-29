@@ -15,7 +15,7 @@ What are the disk usage quotas when using Galaxy?
 
 Total disk space reserved per user is noted on the [Main](/src/main/index.md) and [Test](/src/test/index.md) home pages under the section "Quotas". 
 
-When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. Please see: [Big Picture/Choices](/src/Big Picture/Choices/index.md).
+When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. 
 
 For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/learn/managing-datasets/index.md).
 

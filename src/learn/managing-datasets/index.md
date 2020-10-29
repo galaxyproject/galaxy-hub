@@ -41,7 +41,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 
 # Data size and disk Quotas
 
-* The size limit for a file loaded using [FTP](/src/ftp-upload//index.md) is 50G.
+* The size limit for a file loaded using [FTP](/src/ftp-upload/index.md) is 50G.
 * The size limit for a job's output is (unrelated to quotas):
   * 50G on the [Test](/src/test/index.md) server
   * 200G on the [Main](/src/main/index.md) server

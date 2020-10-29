@@ -193,7 +193,7 @@ Galaxy has a number of display applications allowing visualization of various da
 [Galaxy RNA-seq workshop slides](https://speakerdeck.com/nekrut/structure-workshop)<br />
 [Galaxy history containing the entire analysis](https://test.galaxyproject.org/u/anton/h/rna-seq-tophatcufflinks)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">[TopHat](/src/TopHat/index.md)/Cufflinks workflow by Trapnell et al.</span></div><div class='center'><img src="/src/images/ngs101/rnaSeqWorkFlow.png" alt="CuffLinks workflow" height="450" /></div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">TopHat/Cufflinks workflow by Trapnell et al.</span></div><div class='center'><img src="/src/images/ngs101/rnaSeqWorkFlow.png" alt="CuffLinks workflow" height="450" /></div></div>
 
 There is a number of established strategies for performing RNA-seq analyses when the reference genome of an organism in question is available (for a recent comprehensive comparison see [an assement of spliced aligners](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2722.html) and [an evaluation of transcript reconstruction methods](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2714.html)).
 

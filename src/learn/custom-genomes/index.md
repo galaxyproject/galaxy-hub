@@ -34,7 +34,7 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 
 # Sources
 
-* UCSC, Ensembl, NCBI[/GenBank](/src/learn/custom-genomes/GenBank/index.md)
+* UCSC, Ensembl, NCBI/GenBank
 * Other Research project associated with specific genome projects
 * Internal research projects
 * Selected genomes can be found in "Data Libraries" on [Main](/src/main/index.md) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.

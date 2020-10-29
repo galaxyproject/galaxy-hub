@@ -45,7 +45,7 @@ Understanding the layout and basic usage options of the workflow editor are powe
 
 A special option of advanced editing, making use of variables to control dataset names can be used to improve clarity in output results. **Note that this functionality is undergoing active changes and may not work exactly as in the example at this time**
 
-**[Details here...](/src/learn/advanced-workflow/variables-edit/index.md)**
+**[Details here...](/src/learn/advanced-workflow/variables/index.md)**
 
 <br />
 ## Turn your workflow into a tool?
