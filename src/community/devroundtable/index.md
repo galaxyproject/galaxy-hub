@@ -2,13 +2,7 @@
 title: Galaxy Developer Roundtable
 ---
 
-## When
-
-Every other Thursday at Noon ET (4pm UTC) as long as there are one or more presenters for that week.
-
-## Who
-
-Anyone is welcome to attend. If you would like to present, please [fill out this form](https://bit.ly/gxdevroundtablepresent) by midday Wednesday of that week.
+<img class="float-right" style="max-width: 12rem;" src="/src/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
 
 ## What
 
@@ -22,17 +16,30 @@ These are just some initial ideas and time allocation doesn’t need to map clea
 
 These meetings are intended to be lightweight and informal, these sessions will be cancelled if no one volunteers to present. We expect some weeks no one will have anything to present and this is fine. We won’t track down people to present for the sake of consistency - this is an opportunity for presenters not an obligation for developers generally - the Galaxy committers group may however encourage presentations for large, disruptive PRs to facilitate interactive pull request reviews by more committers.
 
+## Who
+
+Anyone is welcome to attend. If you would like to present, please [fill out this form](https://bit.ly/gxdevroundtablepresent) by midday Wednesday of that week.
+
+## When
+
+Every other Thursday at Noon ET (4pm UTC) as long as there are one or more presenters for that week.
+
 ## Meetings
 
-**[2020-10-01: Machine learning tools in Galaxy, and enabling per-objectstore quotas in Galaxy](/src/events/2020-10-01-dev-roundtable/index.md)**
-<br />Presenters: Kaivan Kamali and  John Chilton
+### 2020
 
-**[2020-09-03: Interactive PR Commands and Workflow Updates](/src/events/2020-09-03-dev-roundtable/index.md)**
-<br />Presenters: Alexandru Mahmoud and John Chilton
-
-**[2020-07-09: COVID work](/src/events/2020-07-09-dev-roundtable/index.md)**
-<br />Presenter: Anton Nekrutenko,  [Video](https://youtu.be/xQHcceFBBTs?t=104)
-
-**[2020-06-11: The New History](/src/events/2020-06-11-dev-roundtable/index.md)**
-<br />Presenter Mason Houtz, [Video](https://youtu.be/yR67bFB6W38)
-
+* **2020-11-26: No Meeting**
+* **[2020-11-12: TBD](/src/events/2020-11-12-dev-roundtable/index.md)**
+  * Presenters: TBD
+* **[2020-10-29: Tool testing and tool deployment](/src/events/2020-10-29-dev-roundtable/index.md)**
+  * Presenters: General discussion
+* **[2020-10-15: Galaxy release testing and publishing workflows to Dockstore and Workflowhub](/src/events/2020-10-15-dev-roundtable/index.md/)**
+  * Presenters: Sergey Golitsynskiy, Marius van den Beek, [video](https://youtu.be/lGEBWXu6Lvw) 
+* **[2020-10-01: Machine learning tools in Galaxy, and enabling per-objectstore quotas in Galaxy](/src/events/2020-10-01-dev-roundtable/index.md)**
+  * Presenters: Kaivan Kamali and  John Chilton, [video](https://youtu.be/osbRh36-4dc)
+* **[2020-09-03: Interactive PR Commands and Workflow Updates](/src/events/2020-09-03-dev-roundtable/index.md)**
+  * Presenters: Alexandru Mahmoud and John Chilton
+* **[2020-07-09: COVID work](/src/events/2020-07-09-dev-roundtable/index.md)**
+  * Presenter: Anton Nekrutenko,  [Video](https://youtu.be/xQHcceFBBTs?t=104)
+* **[2020-06-11: The New History](/src/events/2020-06-11-dev-roundtable/index.md)**
+  * Presenter Mason Houtz, [Video](https://youtu.be/yR67bFB6W38)

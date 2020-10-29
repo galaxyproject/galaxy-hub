@@ -96,10 +96,3 @@ $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd45
 * How to adjust or check current share status for your own data with a History? On the _Share or Publish_ form, toggle sharing off/on. If you want Datasets to be fully shared with others, make sure the the box for the option "Also make all objects within the History accessible" is checked. 
 * Don't see the "Also make all objects within the History accessible" box on the _Share or Publish_ form? This means that you modified your own default sharing permissions under _User > Preferences > Set dataset permissions for new histories_. You can change this.
 
-# Deprecated: GenomeSpace Importer/Exporter
-
-The [GenomeSpace](http://www.genomespace.org/) project no longer supports data transfers as of November 15, 2019. 
-
-The GenomeSpace Importer/Exporter tools and OpenID token functions will be removed from the public Galaxy Main server at https://usegalaxy.org and from the Galaxy Release in early 2020.
-
-Notice: [The GenomeSpace project is ending](http://www.genomespace.org/news/the-genomespace-project-is-ending)

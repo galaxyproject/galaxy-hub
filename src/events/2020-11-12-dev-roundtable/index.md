@@ -1,25 +1,22 @@
 ---
 title: "Galaxy Developer Roundtable"
-date: '2020-10-15'
+date: '2020-11-12'
 days: 1
-tease: ""
+tease: "TBD"
 continent: GL
 location: "Online"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Sergey Golitsynskiy, Marius van den Beek"
+contact: "Dannon Baker, John Chilton"
 ---
 
-**[Video](https://youtu.be/lGEBWXu6Lvw)**
-
-This week's topics are **Galaxy release testing and publishing workflows to Dockstore and Workflowhub**.
-We'll be using [this Zoom link](https://psu.zoom.us/j/92752763386)
+**Topic: TBD**
 
 Have something you want to talk about? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
-Please [join us](https://calendar.google.com/calendar/embed?src=36q4nj52l0ps2l7jt1t4srl9e0%40group.calendar.google.com).
+Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20201112T12&p1=179&ah=1)).
 
 ---
 
