@@ -46,26 +46,18 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
 )</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [October 15](/src/events/2020-10-15-dev-roundtable/index.md) and [October 29](/src/events/2020-10-29-dev-roundtable/index.md).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
+There will be one roundtable meetup this month, on [November 12](/src/events/2020-11-12-dev-roundtable/index.md). Discussion will focus on working with the Galaxy Training Network.
 </div>
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="irritating.png" alt="Paper Cuts are irritating" />
-<div class="card-header">Paper Cuts: 21 October</div>
+<img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts November" />
+<div class="card-header">[Paper Cuts: 18 November](/src/events/2020-11-papercuts/index.md)</div>
 
-Paper cuts are annoying but easy to fix bugs. We plan to have a one-day contribution fest, dedicated to reducing Paper cuts in Galaxy and its ecosystem. It will be a 24-hours event to span all time zones with our worldwide community. The first one will be on October 21. Please save the date! It's an ideal opportunity for newcomers to get started. And remember it's still [Hacktoberfest](https://hacktoberfest.digitalocean.com/)!
+Paper cuts are annoying but easy to fix bugs. Our second one-day papercuts contribution fest will be held November 18.  This will be a 24-hour event spanning all time zones with our worldwide community. Please save the date! It's an ideal opportunity for newcomers to get started. 
 </div>
 
-
-<!-- BioHackathon-Europe -->
-<div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon Europe" />
-<div class="card-header">[Galaxy @ BioHackathon Europe 2020](https://www.ashg.org/meetings/2020meeting/)</div>
-
-Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
-</div>
 
 
 <!-- All events -->
