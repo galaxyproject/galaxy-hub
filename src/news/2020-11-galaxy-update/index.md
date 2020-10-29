@@ -59,6 +59,26 @@ Paper cuts are annoying but easy to fix bugs. Our second one-day papercuts contr
 </div>
 
 
+<!-- Du Novo -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2020-11-du-novo/du-novo-workshop.png" alt="du novo Webinar" />
+<div class="card-header">[Ultra-Low Variant Detection: Du Novo Sequencing](https://depot.galaxyproject.org/hub/attachments/events/2020-11-du-novo/du-novo-webinar.pdf)</div>
+
+This November 10 webinar by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
+</div>
+
+
+<!-- Down Under -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
+<div class="card-header">Workshops Down Under</div>
+
+Two Galaxy Australia workshops are being offered by in November:
+
+* [Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), 11 Nov, from Australian BioCommons
+* [Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), 30 Nov, from Melbourne Bioinformatics
+
+</div>
 
 <!-- All events -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem">
