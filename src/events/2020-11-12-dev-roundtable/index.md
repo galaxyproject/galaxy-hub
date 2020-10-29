@@ -9,7 +9,7 @@ image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Dannon Baker, John Chilton"
+contact: "Dannon Baker, John Chilton, Marius van den Beek"
 ---
 
 **Topic: TBD**
