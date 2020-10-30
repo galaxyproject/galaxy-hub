@@ -57,9 +57,10 @@ In order to configure ObjectStore you may take the following steps:
 following.
 
     ```
-    # Configuration file for the object store If this is set and exists,
-    # it overrides any other objectstore settings.
-    object_store_config_file: config/object_store_conf.xml
+    # Configuration file for the object store. If this is set and exists,
+    # it overrides any other objectstore settings. The value of this option 
+    # will be resolved with respect to <config_dir>.
+    object_store_config_file: object_store_conf.xml
     ```
     
 2. Create the `config/object_store_conf.xml` file (you may 
