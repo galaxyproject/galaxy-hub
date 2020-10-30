@@ -1,8 +1,8 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Galaxy Developer Roundtable: GTN"
 date: '2020-11-12'
 days: 1
-tease: "TBD"
+tease: "Galaxy Training Network"
 continent: GL
 location: "Online"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
