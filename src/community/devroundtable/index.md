@@ -29,8 +29,8 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 ### 2020
 
 * **2020-11-26: No Meeting**
-* **[2020-11-12: TBD](/src/events/2020-11-12-dev-roundtable/index.md)**
-  * Presenters: TBD
+* **[2020-11-12: Galaxy Training Network](/src/events/2020-11-12-dev-roundtable/index.md)**
+  * Leaders: Helena Rasche and Saskia Hiltemann
 * **[2020-10-29: Tool testing and tool deployment](/src/events/2020-10-29-dev-roundtable/index.md)**
   * Presenters: General discussion
 * **[2020-10-15: Galaxy release testing and publishing workflows to Dockstore and Workflowhub](/src/events/2020-10-15-dev-roundtable/index.md/)**
