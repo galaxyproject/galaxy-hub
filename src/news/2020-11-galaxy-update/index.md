@@ -21,24 +21,48 @@ If you have anything to include to next month's newsletter, then please send it 
 
 ---
 
+# JXTX: The James P. Taylor Foundation for Open Science
+
+<div class="card-deck">
+
+<!-- New Name -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/jxtx/james.jpg" alt="James Taylor" />
+<div class="card-header">New name, same mission</div>
+
+The foundation continuing James's legacy of supporting open science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*, The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the open science James was decicated to.
+</div>
+
+<!-- First 10 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="Meet the first class" />
+<div class="card-header">[Meet the first recipients](/src/news/2020-10-jxtx-awardees/index.md)</div>
+
+The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory. Awards were competitive and we are delighted to support this first cohort of awardees.
+</div>
+
+<!-- Donate -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/jxtx/jtech-shoes-400.png" alt="Big shoes to fill" />
+<div class="card-header">Help move open science forward</div>
+
+**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).**
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
+</div><br />
+</div>
+
+</div>
+
+---
+
 # Event News
 
 Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
-
-
-<!-- JTech -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
-<div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
-
-The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scholarships/index.md) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
-
-**Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
-</div>
-
-
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
@@ -203,6 +227,7 @@ Leighton reports on the University of Strarhclyde's experience teach Advanced Mi
 
 <div class="card-deck">
 
+<!-- metaQuantome -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">Metaproteomics analysis with metaQuantome</div>
 
@@ -218,6 +243,7 @@ A three part series on doing metaproteomics analysis with metaQuantome:
 </div>
 
 
+<!-- non-dip var -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Calling variants in non-diploid systems](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/non-dip/tutorial.html)</div>
 
@@ -227,6 +253,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 </div>
 
 
+<!-- video -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Adding auto-generated video to your slides](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/slides-with-video/tutorial.html)</div>
 
@@ -238,10 +265,14 @@ Based on the work by Delphine Larivière and James Taylor with their [COVID-19 L
 </div>
 
 
+<!-- somatic -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html)</div>
 
+This tutorial got a thorough update from [Mallory Freeberg](https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/).
 
-
-
+<img class="card-img-bottom" src="gtn-somatic.png" alt="VarScan somatic" />
+</div>
 
 </div>
 

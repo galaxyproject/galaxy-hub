@@ -12,7 +12,7 @@ These are the words that James Taylor (JT) said and lived by. This, he believed,
 
 [<img class="float-right" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/src/news/2020-10-jxtx-awardees/index.md)
 
-The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and and we are delighted with our first round of scholarships:
+The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and we are delighted with our first round of scholarships:
 
 * **[JXTX Foundation Awards First Ten Scholarships](/src/news/2020-10-jxtx-awardees/index.md)**, October 23, 2020
 * [Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/index.md), July 8, 2020
