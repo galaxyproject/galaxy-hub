@@ -1,6 +1,6 @@
 ---
 title: "Galaxy Developer Roundtable"
-date: '2021-01-21
+date: '2021-01-21'
 days: 1
 tease: "TBD"
 continent: GL
@@ -9,7 +9,7 @@ image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "John Chilton, Marius van den Beek, Dannon Baker"
+contact: "Marius van den Beek, Dannon Baker, John Chilton"
 ---
 
 **Topic: TBD**
