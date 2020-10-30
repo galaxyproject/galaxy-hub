@@ -204,13 +204,44 @@ Leighton reports on the University of Strarhclyde's experience teach Advanced Mi
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[refgenie for Local Instances](/src/admin/refgenie/index.md)</div>
+<div class="card-header">Metaproteomics analysis with metaQuantome</div>
 
-By [Dan Blankenberg](/src/people/dan/index.md).
+By [Subina Mehta](https://training.galaxyproject.org/training-material/hall-of-fame/subinamehta/), [Timothy J. Griffin](https://training.galaxyproject.org/training-material/hall-of-fame/timothygriffin/), [Pratik Jagtap](https://training.galaxyproject.org/training-material/hall-of-fame/pratikdjagtap/), [Emma Leith](https://training.galaxyproject.org/training-material/hall-of-fame/emmaleith/), [Marie Crane](https://training.galaxyproject.org/training-material/hall-of-fame/mariecrane/), and [Praveen Kumar](https://training.galaxyproject.org/training-material/hall-of-fame/pravs3683/)
 
-How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
-<img class="card-img-bottom" src="/src/images/logos/refgenie_logo.svg" alt="refgenie" />
+A three part series on doing metaproteomics analysis with metaQuantome:
+
+1. [Data Creation](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-data-creation/tutorial.html)
+1. [Function](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-function/tutorial.html)
+1. [Taxonomy](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-taxonomy/tutorial.html)
+
+<img class="card-img-bottom" src="gtn-metaquantome.png" alt="metaQuantome" />
 </div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Calling variants in non-diploid systems](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/non-dip/tutorial.html)</div>
+
+This tutorial got a thorough update from [Mallory Freeberg](https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/).
+
+<img class="card-img-bottom" src="gtn-non-dip.png" alt="VCFfilter" />
+</div>
+
+
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card-header">[Adding auto-generated video to your slides](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/slides-with-video/tutorial.html)</div>
+
+By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
+
+Based on the work by Delphine Larivière and James Taylor with their [COVID-19 Lectures](https://github.com/galaxyproject/video-lectures/) we have implemented a similar feature in the Galaxy Training Network.  Learn how to use it.
+
+<img class="card-img-bottom" src="gtn-sound-wave.png" alt="Video" />
+</div>
+
+
+
+
+
+
 
 </div>
 
