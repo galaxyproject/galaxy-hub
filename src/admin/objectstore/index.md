@@ -63,8 +63,8 @@ following.
     object_store_config_file: object_store_conf.xml
     ```
     
-2. Create the `config/object_store_conf.xml` file (you may 
-use `config/object_store_conf.xml.sample` as template/reference), and 
+2. Create the `object_store_conf.xml` file (you may 
+use `<config_dir>/object_store_conf.xml.sample` as template/reference), and 
 set it as the following: 
 
     ```xml
