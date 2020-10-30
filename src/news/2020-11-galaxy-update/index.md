@@ -46,7 +46,7 @@ The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scho
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
 )</div>
 
-There will be one roundtable meetup this month, on [November 12](/src/events/2020-11-12-dev-roundtable/index.md). Discussion will focus on working with the Galaxy Training Network.
+There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the Galaxy Training Network.
 </div>
 
 
@@ -55,7 +55,7 @@ There will be one roundtable meetup this month, on [November 12](/src/events/202
 <img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts November" />
 <div class="card-header">[Paper Cuts: 18 November](/src/events/2020-11-papercuts/index.md)</div>
 
-Paper cuts are annoying but easy to fix bugs. Our second one-day papercuts contribution fest will be held November 18.  This will be a 24-hour event spanning all time zones with our worldwide community. Please save the date! It's an ideal opportunity for newcomers to get started. 
+Paper cuts are annoying but easy to fix bugs. The [first paper cuts event](/src/events/2020-10-papercuts/index.md) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/src/events/2020-11-papercuts/index.md). Our second one-day papercuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
 
 
@@ -64,21 +64,65 @@ Paper cuts are annoying but easy to fix bugs. Our second one-day papercuts contr
 <img class="card-img-top" src="/src/events/2020-11-du-novo/du-novo-workshop.png" alt="du novo Webinar" />
 <div class="card-header">[Ultra-Low Variant Detection: Du Novo Sequencing](https://depot.galaxyproject.org/hub/attachments/events/2020-11-du-novo/du-novo-webinar.pdf)</div>
 
-This November 10 webinar by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
+This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
 </div>
 
 
 <!-- Down Under -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
-<div class="card-header">Workshops Down Under</div>
+<div class="card-header">Whats Up Down Under?</div>
 
-Two Galaxy Australia workshops are being offered by in November:
+Three Galaxy Australia events are being offered by in November:
 
-* [Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), 11 Nov, from Australian BioCommons
-* [Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), 30 Nov, from Melbourne Bioinformatics
+* [Webinar: Galaxy Australia: enabling online data analysis for the research community](https://www.biocommons.org.au/events/galaxy-aust-mass-spec), 4 Nov, from Australian BioCommons
+* [Workshop: Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), 11 Nov, from Australian BioCommons
+* [Workshop: Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), 30 Nov, from Melbourne Bioinformatics
 
 </div>
+
+
+<!-- GTN -->
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Galaxy Training Network day - (online) CoFest and community call" />
+<div class="card-header">[Galaxy Training Network Day: CoFest and community call](/src/events/2020-11-gtn/index.md)</div>
+
+**19th of November, Online**
+
+A [dedicated day of collaborative work](/src/events/2020-11-gtn/index.md) on the training content and calls with the Galaxy training community. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
+</div>
+
+
+<!-- DDA and DIA -->
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/images/logos/vib-training.png" alt="VIB Training" />
+<div class="card-header">[DDA and DIA proteomic analysis in Galaxy](https://training.vib.be/all-trainings/dda-and-dia-proteomic-analysis-galaxy)</div>
+
+**3rd of December, Online**
+
+This hands-on workshop will familiarize you with the Galaxy user interface & execute (label-free) proteomics data-analysis. Taught by Melanie Föll and Matthias Fahrner from the University of Freiburg.
+</div>
+
+<!--sur les outils -->
+<div class="card border-info" style="min-width: 15rem;">
+<img class="card-img-top" src="/src/events/2020-12-tools-hack/event-sponsors.png" alt="Sponsors" />
+<div class="card-header">[Hackathon sur les outils interactifs de Galaxy (GxIT)](https://forgemia.inra.fr/geoc/hackaton2020)</div>
+
+**7 au 10 décembre 2020, en visio**
+
+Un Hackathon pour partager des compétences en terme du développement logiciel et d'administration système des Interactive Tools de Galaxy.  **Limité à 25 participants.**
+
+</div>
+
+
+<!--Galaxy Admin Training -->
+<div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
+<img class="card-img-top" src="/src/events/2020-12-tools-hack/event-sponsors.png" alt="Sponsors" />
+<div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
+
+Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Gitter channels for the announcement.
+</div>
+
 
 <!-- All events -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem">
@@ -131,27 +175,24 @@ Devoted to assisting researchers on the African continent accelerate their genom
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
-
 </div>
 
 
 # Galactic Blog Activity
 
-Here's what people are saying right now:
-
 <div class="card-deck">
 
-<!-- Remote Training Lessons -->
+<!-- Strathclyde -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Remote Training Using Galaxy](https://docs.google.com/document/d/1_sQocj98DxhgnyvtXbRvcXlV84T_I3K1rFmWrMuw6x0/preview#)</div>
+<div class="card-header">[Teaching Advanced Microbiology with Galaxy and TIaaS](https://galaxyproject.eu/posts/2020/10/14/tiaas_feedback_Leighton/)</div>
 
-*Lessons learned from our [ELIXIR Galaxy Machine Learning Workshop](https://elixir-europe.org/events/machine-learning-using-galaxy-webinar-workshop-series).*
+By Leighton Pritchard.
 
-By Alireza Khanteymoori, Björn Grüning, and Beatriz Serrano-Solano.
+Leighton reports on the University of Strarhclyde's experience teach Advanced Microbiology using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS).
 
-Lessons learned along with a description of the methodology applied in the workshop.
+*Spoiler: It went well.*
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="Galaxy Europe" />
+<img class="card-img-bottom" src="/src/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg" alt="SARS in JBrowse" />
 </div>
 
 </div>
@@ -176,16 +217,41 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
+Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[BRIDGE: An Open Platform for Reproducible Protein-Ligand Simulations and Free Energy of Binding Calculations](https://doi.org/10.21769/BioProtoc.3731)</div>
+<div class="card-header">[Capacity building for whole genome sequencing of Mycobacterium tuberculosis and bioinformatics in high TB burden countries](https://doi.org/10.1093/bib/bbaa246)</div>
 
-Senapathi, T., Barnett, C. B., & Naidoo, K. J. (2020). *Bio-Protocol*, 10(17), e3731–e3731. [doi: 10.21769/BioProtoc.3731](https://doi.org/10.21769/BioProtoc.3731)
+Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., Heusden, P., Warren, R., Meehan, C. J., & Van Rie, A. (2020). *Briefings in Bioinformatics*. [doi: doi.org/10.1093/bib/bbaa246](https://doi.org/10.1093/bib/bbaa246)
 </div>
 
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457.v1)</div>
+
+Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020).  *Preprints.* [doi: doi.org/10.20944/preprints202009.0457.v1](https://doi.org/10.20944/preprints202009.0457.v1)
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Expanding the Galaxy’s reference data](https://doi.org/10.1101/2020.10.09.327114)</div>
+
+VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2020). *BioRxiv*, 2020.10.09.327114. [doi: 10.1101/2020.10.09.327114](https://doi.org/10.1101/2020.10.09.327114)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[Assessing sequence quality in GalaxyTrakr](https://doi.org/dx.doi.org/10.17504/protocols.io.bdvfi63n)</div>
+
+Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020). *Protocols.io.* [doi: 10.17504/protocols.io.bdvfi63n](https://doi.org/dx.doi.org/10.17504/protocols.io.bdvfi63n)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy](https://doi.org/10.1093/gigascience/giaa105)</div>
+
+de Koning, W., Miladi, M., Hiltemann, S., Heikema, A., Hays, J. P., Flemming, S., van den Beek, M., Mustafa, D. A., Backofen, R., Grüning, B., & Stubbs, A. P. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa105](https://doi.org/10.1093/gigascience/giaa105)
+</div>
 
 </div>
 
