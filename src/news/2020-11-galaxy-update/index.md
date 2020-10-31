@@ -429,11 +429,15 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Pulsar 0.14.0](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst)</div>
+<div class="card-header">[Galaxy Language Server 0.1.2](https://github.com/galaxyproject/galaxy-language-server)</div>
 
-[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
+[Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) to assist in the development of [Galaxy tool wrappers](https://docs.galaxyproject.org/en/latest/dev/schema.html) inside modern code editors.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" />
+It provides realtime XML validation, code completion, help/documentation and other smart features to help in following best practices during the development process of XML tool wrappers for Galaxy.
+
+The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
+
+<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " />
 </div>
 
 </div>
