@@ -363,7 +363,7 @@ Roche, Bay Area, California, United States.
 * Use these tools & workflows for R&D projects.
 * Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
-<img class="card-img-bottom" src="src/images/logos/roche-logo.png" alt="Roche" />
+<img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
 <!-- AnVIL -->
