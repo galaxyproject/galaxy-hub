@@ -8,12 +8,13 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[Event news & JTech Scholarships](#event-news)**
-* **[Galaxy platform news](#galaxy-platforms-news):** BRIDGE, BioCompute Object, French Galaxies, PhagePromoter, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Remote training, EOSC-Life calls
-* **[Training material and doc updates](#doc-hub-and-training-updates):** refgenie magic
+* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
+* **[Event news](#event-news)**
+* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
+* **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS
+* **[Training material and doc updates](#doc-hub-and-training-updates)** 
 * **[Publications](#publications)** 
-* **Q: Who's hiring? [A: Ten different groups](#whos-hiring)**
+* **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
 * **[New releases](#releases)**
 * **[Other news too](#other-news)**
 
