@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/jxtx/james.jpg" alt="James Taylor" />
 <div class="card-header">New name, same mission</div>
 
-The foundation continuing James's legacy of supporting open science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*, The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the open science James was decicated to.
+The foundation continuing James's legacy of supporting open science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the open science James was decicated to.
 </div>
 
 <!-- First 10 -->
@@ -322,6 +322,60 @@ de Koning, W., Miladi, M., Hiltemann, S., Heikema, A., Hays, J. P., Flemming, S.
 
 <div class="card-deck">
 
+, open #UseGalaxy position at @unibait in collaboration with @RegionePuglia & @MIsocialTW euraxess.ec.europa.eu/jobs/570194
+
+
+<!-- Puglia -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Development of a bioinformatic platform for Precision Medicine](https://euraxess.ec.europa.eu/jobs/570194)</div>
+
+Università degli Studi di Bari Aldo Moro, Regione Puglia
+Italy.
+
+Development and implementation of a computing platform in a cloud environment with a web interface based on the Galaxy workflow management system to provide access to computational tools for Precision Medicine compliant with GDPR directives.
+
+**Applications close 14 November.**
+
+<img class="card-img-bottom" src="/src/images/logos/uniba-logo-wide.jpg" alt="Università degli Studi di Bari Aldo Moro" />
+</div>
+
+<!-- ELIXIR Norway -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Senior Engineer](https://no.neuvoo.com/view/?id=2d3aa44730bc)</div>
+
+ELIXIR Norway Team, University of Oslo, Norway
+
+Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md)
+
+<img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
+</div>
+
+<!-- Roche -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Principle Scientist II, Bioinformatics](https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Pleasanton/Principle-Scientist-II--Bioinformatics_202010-126228-1)</div>
+
+Roche, Bay Area, California, United States
+
+* Lead data mining for biomarker discovery for medical conditions of interest 
+* Develop Agile Assay Design (AAD) tools for qPCR tests
+* NGS data analysis tools and/or workflows
+* Use these tools & workflows for R&D projects
+* Deploy these tools on Roche intranet (Galaxy) and train scientists to use them
+
+<img class="card-img-bottom" src="src/images/logos/roche-logo.png" alt="Roche" />
+</div>
+
+<!-- AnVIL -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[AnVIL Project Manager](https://jobs.jhu.edu/job/Baltimore-AnVIL-Project-Manager-MD-21218/682125700/)</div>
+
+Johns Hopkins University, Baltimore, Maryland, United States
+
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud based software ecosystem for genomic data analysis. 
+
+<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+</div>
+
 
 <!-- Galaxy P -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
@@ -390,11 +444,11 @@ The Schatz Lab  at Johns Hopkins University is looking for
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Euro-BioImaging contributes to cloud-based biological image analysis workflow tools](https://www.eurobioimaging.eu/news/euro-bioimaging-contributes-to-cloud-based-biological-image-analysis-workflow-tools-/)</div>
+<div class="card-header">[The Community Against Covid-19](https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19)</div>
 
-[Euro-BioImaging](https://www.eurobioimaging.eu/) and [ELIXIR](https://elixir-europe.org/), in collaboration with the [Image Data Resource (IDR)](https://idr.openmicroscopy.org/) and [Galaxy Europe](https://galaxyproject.eu/), have facilitated the use and re-analysis of publicly available datasets by integrating [CellProfiler](https://cellprofiler.org/), an image analysis software with a focus on recognizing cellular components, into Galaxy, a key cloud workflow tool.
+A group of Freiburg researchers provide global, open access to data on the SARS-CoV-2 genome which could hold the key for a new approach to treating the virus.
 
-<img class="card-img-bottom" src="/src/images/logos/cell-profiler-logo.png" alt="CellProfiler" />
+<img class="card-img-bottom" src="/src/images/logos/uni-freiburg-wide.png" alt="Uni Freiburg" />
 </div>
 
 
