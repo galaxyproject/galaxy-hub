@@ -190,6 +190,28 @@ Devoted to assisting researchers on the African continent, accelerate their geno
 </div>
 
 
+<!-- Galaxy Australia -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[Galaxy Australia](https://usegalaxy.org.au/)</div>
+
+<img class="card-img-top" src="AU_10K_users.jpg" alt="Galaxy Australia" />
+
+Galaxy Australia is now officially supporting 10,000 researchers to analyse their valuable data. 
+It's rapidly becoming the essential research tool for so many around the world.
+
+</div>
+
+<!-- Galaxy Europe -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[Galaxy Europe](https://usegalaxy.eu/)</div>
+
+<img class="card-img-top" src="EU_20K_users.jpg" alt="Galaxy Europe" />
+
+Galaxy EU has surpassed 20,000 users! 
+
+5 continents, 100 countries, more than 100 industry companies, 4,000 users trained using TIaaS, 11 million jobs, 12 jobs per minute... 
+
+</div>
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
