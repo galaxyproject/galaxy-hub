@@ -314,12 +314,6 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457.v1)</div>
-
-Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020).  *Preprints.* [doi: doi.org/10.20944/preprints202009.0457.v1](https://doi.org/10.20944/preprints202009.0457.v1)
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Expanding the Galaxy’s reference data](https://doi.org/10.1101/2020.10.09.327114)</div>
 
 VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2020). *BioRxiv*, 2020.10.09.327114. [doi: 10.1101/2020.10.09.327114](https://doi.org/10.1101/2020.10.09.327114)
@@ -337,6 +331,20 @@ Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020)
 <div class="card-header">[NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy](https://doi.org/10.1093/gigascience/giaa105)</div>
 
 de Koning, W., Miladi, M., Hiltemann, S., Heikema, A., Hays, J. P., Flemming, S., van den Beek, M., Mustafa, D. A., Backofen, R., Grüning, B., & Stubbs, A. P. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa105](https://doi.org/10.1093/gigascience/giaa105)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[GalaxyCloudRunner: enhancing scalable computing for Galaxy](https://doi.org/10.1093/bioinformatics/btaa860)</div>
+
+Goonasekera, N., Mahmoud, A., Chilton, J., Afgan, E. (2020). *Bioinformatics*. [doi: 10.1093/bioinformatics/btaa860](https://doi.org/10.1093/bioinformatics/btaa860)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[A single-cell RNA-sequencing training and analysis suite using the Galaxy framework](https://doi.org/10.1093/gigascience/giaa102)</div>
+
+Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F., Etherington, G. J., Hotz, H.-R., Scholtalbers, J., Manning, J. R., Bellenger, L., Doyle, M. A. , Heydarian, M., Huang, N., Soranzo, N., Moreno, P., Mautner, S., Papatheodorou, I., Nekrutenko, A., Taylor, J., Blankenberg, D., Backofen, R., Grüning, B. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa102](https://doi.org/10.1093/gigascience/giaa102)
 </div>
 
 </div>
