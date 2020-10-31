@@ -152,13 +152,13 @@ Galaxy Admin Training is coming in January.  It will be online and global, and r
 
 <!-- All events -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem">
-<img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
+<img class="card-img-top" src="events-slice.jpg" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 3 months:
+There are more than [16 events](/src/events/index.md) before the end of the year:
 
-* 9 are online.
-* The remaining 6 are in France (4) and the United States (2).
+* workshops, CoFests, talks, ...
+* all of them are online.
 
 </div>
 </div>
