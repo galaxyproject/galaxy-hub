@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/jxtx/james.jpg" alt="James Taylor" />
 <div class="card-header">New name, same mission</div>
 
-The foundation continuing James's legacy of supporting open science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the open science James was decicated to.
+The foundation continuing James's legacy of supporting Open Science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the Open Science James was dedicated to.
 </div>
 
 <!-- First 10 -->
@@ -38,13 +38,13 @@ The foundation continuing James's legacy of supporting open science has been ren
 <img class="card-img-top" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="Meet the first class" />
 <div class="card-header">[Meet the first recipients](/src/news/2020-10-jxtx-awardees/index.md)</div>
 
-The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory. Awards were competitive and we are delighted to support this first cohort of awardees.
+The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20). Awards were competitive and we are delighted to support this first cohort of awardees.
 </div>
 
 <!-- Donate -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/jxtx/jtech-shoes-400.png" alt="Big shoes to fill" />
-<div class="card-header">Help move open science forward</div>
+<div class="card-header">Help move Open Science forward</div>
 
 **You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).**
 
@@ -67,10 +67,10 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
+<div class="card-header">[Galaxy Developer Roundtable: 12 November](/src/community/devroundtable/index.md
 )</div>
 
-There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the Galaxy Training Network.
+There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/).
 </div>
 
 
@@ -79,7 +79,9 @@ There will be one roundtable meetup this month, on **[November 12](/src/events/2
 <img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts November" />
 <div class="card-header">[Paper Cuts: 18 November](/src/events/2020-11-papercuts/index.md)</div>
 
-Paper cuts are annoying but easy to fix bugs. The [first paper cuts event](/src/events/2020-10-papercuts/index.md) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/src/events/2020-11-papercuts/index.md). Our second one-day papercuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
+Paper Cuts are annoying but easy to fix bugs. The [first Paper Cuts event](/src/events/2020-10-papercuts/index.md) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/src/events/2020-11-papercuts/index.md). Our second one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+
+Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
 
 
@@ -88,7 +90,7 @@ Paper cuts are annoying but easy to fix bugs. The [first paper cuts event](/src/
 <img class="card-img-top" src="/src/events/2020-11-du-novo/du-novo-workshop.png" alt="du novo Webinar" />
 <div class="card-header">[Ultra-Low Variant Detection: Du Novo Sequencing](https://depot.galaxyproject.org/hub/attachments/events/2020-11-du-novo/du-novo-webinar.pdf)</div>
 
-This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
+This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will present *Du Novo Sequencing*, a method that can achieve <1% variant detection,​ by removing the reliance on a reference sequence, preserving a higher proportion of the input reads, and being available for Galaxy.
 </div>
 
 
@@ -99,9 +101,9 @@ This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will p
 
 Three Galaxy Australia events are being offered by in November:
 
-* [Webinar: Galaxy Australia: enabling online data analysis for the research community](https://www.biocommons.org.au/events/galaxy-aust-mass-spec), 4 Nov, from Australian BioCommons
-* [Workshop: Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), 11 Nov, from Australian BioCommons
-* [Workshop: Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), 30 Nov, from Melbourne Bioinformatics
+* [Webinar: Galaxy Australia: enabling online data analysis for the research community](https://www.biocommons.org.au/events/galaxy-aust-mass-spec), **4 Nov**, from Australian BioCommons.
+* [Workshop: Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), **11 Nov**, from Australian BioCommons.
+* [Workshop: Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), **30 Nov**, from Melbourne Bioinformatics.
 
 </div>
 
@@ -184,7 +186,7 @@ The [GalaxyTrakr server](https://www.galaxytrakr.org/) is provided by the [US Fo
 
 <img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="Galaxy Africa" />
 
-Devoted to assisting researchers on the African continent accelerate their genomics research and analyses.  This [public server](https://africa.usegalaxy.eu/) is configured by the Galaxy Africa team, and hosted by the UesGalaxy.eu team.
+Devoted to assisting researchers on the African continent, accelerate their genomics research and analyses. This [public server](https://africa.usegalaxy.eu/) is configured by the Galaxy Africa team, and hosted by the UseGalaxy.eu team.
 </div>
 
 
@@ -212,7 +214,7 @@ Devoted to assisting researchers on the African continent accelerate their genom
 
 By Leighton Pritchard.
 
-Leighton reports on the University of Strarhclyde's experience teach Advanced Microbiology using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS).
+Leighton reports on the University of Strathclyde's experience teach Advanced Microbiology using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS).
 
 *Spoiler: It went well.*
 
@@ -259,7 +261,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
 
-Based on the work by Delphine Larivière and James Taylor with their [COVID-19 Lectures](https://github.com/galaxyproject/video-lectures/) we have implemented a similar feature in the Galaxy Training Network.  Learn how to use it.
+Based on the work by Delphine Larivière and James Taylor with their [COVID-19 Lectures](https://github.com/galaxyproject/video-lectures/), we have implemented a similar feature in the Galaxy Training Network.  Learn how to use it.
 
 <img class="card-img-bottom" src="gtn-sound-wave.png" alt="Video" />
 </div>
@@ -322,15 +324,14 @@ de Koning, W., Miladi, M., Hiltemann, S., Heikema, A., Hays, J. P., Flemming, S.
 
 <div class="card-deck">
 
-, open #UseGalaxy position at @unibait in collaboration with @RegionePuglia & @MIsocialTW euraxess.ec.europa.eu/jobs/570194
+<!-- , open #UseGalaxy position at @unibait in collaboration with @RegionePuglia & @MIsocialTW euraxess.ec.europa.eu/jobs/570194 -->
 
 
 <!-- Puglia -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Development of a bioinformatic platform for Precision Medicine](https://euraxess.ec.europa.eu/jobs/570194)</div>
 
-Università degli Studi di Bari Aldo Moro, Regione Puglia
-Italy.
+Università degli Studi di Bari Aldo Moro, Regione Puglia, Italy.
 
 Development and implementation of a computing platform in a cloud environment with a web interface based on the Galaxy workflow management system to provide access to computational tools for Precision Medicine compliant with GDPR directives.
 
@@ -343,9 +344,9 @@ Development and implementation of a computing platform in a cloud environment wi
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Senior Engineer](https://no.neuvoo.com/view/?id=2d3aa44730bc)</div>
 
-ELIXIR Norway Team, University of Oslo, Norway
+ELIXIR Norway Team, University of Oslo, Norway.
 
-Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md)
+Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md).
 
 <img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
 </div>
@@ -354,13 +355,13 @@ Join the ELIXIR development / operations team at the University of Oslo (UiO), p
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Principle Scientist II, Bioinformatics](https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Pleasanton/Principle-Scientist-II--Bioinformatics_202010-126228-1)</div>
 
-Roche, Bay Area, California, United States
+Roche, Bay Area, California, United States.
 
-* Lead data mining for biomarker discovery for medical conditions of interest 
-* Develop Agile Assay Design (AAD) tools for qPCR tests
-* NGS data analysis tools and/or workflows
-* Use these tools & workflows for R&D projects
-* Deploy these tools on Roche intranet (Galaxy) and train scientists to use them
+* Lead data mining for biomarker discovery for medical conditions of interest.
+* Develop Agile Assay Design (AAD) tools for qPCR tests.
+* NGS data analysis tools and/or workflows.
+* Use these tools & workflows for R&D projects.
+* Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
 <img class="card-img-bottom" src="src/images/logos/roche-logo.png" alt="Roche" />
 </div>
@@ -369,9 +370,9 @@ Roche, Bay Area, California, United States
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[AnVIL Project Manager](https://jobs.jhu.edu/job/Baltimore-AnVIL-Project-Manager-MD-21218/682125700/)</div>
 
-Johns Hopkins University, Baltimore, Maryland, United States
+Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
 
 <img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
@@ -391,7 +392,7 @@ Help with Galaxy-P tools and workflow development, and general support for Galax
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235) and [Software Engineer](https://twitter.com/DBlankenberg/status/1310586405282885632)</div>
 
-The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
+The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as Next-Generation Sequencing, and data-intensive computing to explore biomedical research questions.
 
 <img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>
@@ -413,9 +414,9 @@ The project is funded by the Institut National de Recherche sur le Cancer (INCA)
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
-The Schatz Lab  at Johns Hopkins University is looking for
-* self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
-* ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
+The Schatz Lab at Johns Hopkins University is looking for:
+* Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
+* Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
 <img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
@@ -444,7 +445,7 @@ The Schatz Lab  at Johns Hopkins University is looking for
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[The Community Against Covid-19](https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19)</div>
+<div class="card-header">[The Community Against COVID-19](https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19)</div>
 
 A group of Freiburg researchers provide global, open access to data on the SARS-CoV-2 genome which could hold the key for a new approach to treating the virus.
 
