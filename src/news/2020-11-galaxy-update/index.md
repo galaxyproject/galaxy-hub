@@ -8,12 +8,13 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[Event news & JTech Scholarships](#event-news)**
-* **[Galaxy platform news](#galaxy-platforms-news):** BRIDGE, BioCompute Object, French Galaxies, PhagePromoter, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Remote training, EOSC-Life calls
-* **[Training material and doc updates](#doc-hub-and-training-updates):** refgenie magic
+* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
+* **[Event news](#event-news)**
+* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
+* **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS
+* **[Training material and doc updates](#doc-hub-and-training-updates)** 
 * **[Publications](#publications)** 
-* **Q: Who's hiring? [A: Ten different groups](#whos-hiring)**
+* **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
 * **[New releases](#releases)**
 * **[Other news too](#other-news)**
 
@@ -152,13 +153,13 @@ Galaxy Admin Training is coming in January.  It will be online and global, and r
 
 <!-- All events -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem">
-<img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
+<img class="card-img-top" src="events-slice.jpg" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 3 months:
+There are more than [16 events](/src/events/index.md) before the end of the year:
 
-* 9 are online.
-* The remaining 6 are in France (4) and the United States (2).
+* workshops, CoFests, talks, ...
+* all of them are online.
 
 </div>
 </div>
@@ -190,6 +191,28 @@ Devoted to assisting researchers on the African continent, accelerate their geno
 </div>
 
 
+<!-- Galaxy Australia -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[Galaxy Australia](https://usegalaxy.org.au/)</div>
+
+<img class="card-img-top" src="AU_10K_users.jpg" alt="Galaxy Australia" />
+
+Galaxy Australia is now officially supporting 10,000 researchers to analyse their valuable data. 
+It's rapidly becoming the essential research tool for so many around the world.
+
+</div>
+
+<!-- Galaxy Europe -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[Galaxy Europe](https://usegalaxy.eu/)</div>
+
+<img class="card-img-top" src="EU_20K_users.jpg" alt="Galaxy Europe" />
+
+Galaxy EU has surpassed 20,000 users! 
+
+5 continents, 100 countries, more than 100 industry companies, 4,000 users trained using TIaaS, 11 million jobs, 12 jobs per minute... 
+
+</div>
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
@@ -292,12 +315,6 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Fostering Accessible Online Education Using Galaxy as an e-learning Platform](https://doi.org/10.20944/preprints202009.0457.v1)</div>
-
-Serrano-Solano, B., Erxleben, A., Gallardo-Alba, C., Rasche, H., Hiltemann, S., Föll, M., Fahrner, M., Dunning, M. J., Schulz, M., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. (2020).  *Preprints.* [doi: doi.org/10.20944/preprints202009.0457.v1](https://doi.org/10.20944/preprints202009.0457.v1)
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Expanding the Galaxy’s reference data](https://doi.org/10.1101/2020.10.09.327114)</div>
 
 VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2020). *BioRxiv*, 2020.10.09.327114. [doi: 10.1101/2020.10.09.327114](https://doi.org/10.1101/2020.10.09.327114)
@@ -315,6 +332,20 @@ Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020)
 <div class="card-header">[NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy](https://doi.org/10.1093/gigascience/giaa105)</div>
 
 de Koning, W., Miladi, M., Hiltemann, S., Heikema, A., Hays, J. P., Flemming, S., van den Beek, M., Mustafa, D. A., Backofen, R., Grüning, B., & Stubbs, A. P. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa105](https://doi.org/10.1093/gigascience/giaa105)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[GalaxyCloudRunner: enhancing scalable computing for Galaxy](https://doi.org/10.1093/bioinformatics/btaa860)</div>
+
+Goonasekera, N., Mahmoud, A., Chilton, J., Afgan, E. (2020). *Bioinformatics*. [doi: 10.1093/bioinformatics/btaa860](https://doi.org/10.1093/bioinformatics/btaa860)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[A single-cell RNA-sequencing training and analysis suite using the Galaxy framework](https://doi.org/10.1093/gigascience/giaa102)</div>
+
+Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F., Etherington, G. J., Hotz, H.-R., Scholtalbers, J., Manning, J. R., Bellenger, L., Doyle, M. A. , Heydarian, M., Huang, N., Soranzo, N., Moreno, P., Mautner, S., Papatheodorou, I., Nekrutenko, A., Taylor, J., Blankenberg, D., Backofen, R., Grüning, B. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa102](https://doi.org/10.1093/gigascience/giaa102)
 </div>
 
 </div>
@@ -363,7 +394,7 @@ Roche, Bay Area, California, United States.
 * Use these tools & workflows for R&D projects.
 * Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
-<img class="card-img-bottom" src="src/images/logos/roche-logo.png" alt="Roche" />
+<img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
 <!-- AnVIL -->
@@ -429,11 +460,15 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Pulsar 0.14.0](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst)</div>
+<div class="card-header">[Galaxy Language Server 0.1.2](https://github.com/galaxyproject/galaxy-language-server)</div>
 
-[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
+[Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) to assist in the development of [Galaxy tool wrappers](https://docs.galaxyproject.org/en/latest/dev/schema.html) inside modern code editors.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" />
+It provides realtime XML validation, code completion, help/documentation and other smart features to help in following best practices during the development process of XML tool wrappers for Galaxy.
+
+The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
+
+<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " />
 </div>
 
 </div>
