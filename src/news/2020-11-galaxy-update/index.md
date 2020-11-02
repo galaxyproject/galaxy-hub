@@ -1,7 +1,7 @@
 ---
 title: 'November 2020 Galactic News'
-tease: ""
-date: ""
+tease: "JXTX Foundation, Events, Platforms, Jobs, Pubs, ..."
+date: "2020-11-03"
 ---
 
 # In the November 2020 issue
@@ -27,9 +27,9 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card-deck">
 
 <!-- New Name -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 13rem; max-width: 15rem">
 <img class="card-img-top" src="/src/jxtx/james.jpg" alt="James Taylor" />
-<div class="card-header">New name, same mission</div>
+<div class="card-header">Same mission, new name</div>
 
 The foundation continuing James's legacy of supporting Open Science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the Open Science James was dedicated to.
 </div>
@@ -43,7 +43,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 </div>
 
 <!-- Donate -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 15rem; max-width: 17rem">
 <img class="card-img-top" src="/src/jxtx/jtech-shoes-400.png" alt="Big shoes to fill" />
 <div class="card-header">Help move Open Science forward</div>
 
@@ -52,7 +52,9 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 [Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
-</div><br />
+</div>
+
+
 </div>
 
 </div>
@@ -110,7 +112,7 @@ Three Galaxy Australia events are being offered by in November:
 
 
 <!-- GTN -->
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Galaxy Training Network day - (online) CoFest and community call" />
 <div class="card-header">[Galaxy Training Network Day: CoFest and community call](/src/events/2020-11-gtn/index.md)</div>
 
@@ -121,7 +123,7 @@ A [dedicated day of collaborative work](/src/events/2020-11-gtn/index.md) on the
 
 
 <!-- DDA and DIA -->
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/vib-training.png" alt="VIB Training" />
 <div class="card-header">[DDA and DIA proteomic analysis in Galaxy](https://training.vib.be/all-trainings/dda-and-dia-proteomic-analysis-galaxy)</div>
 
@@ -131,7 +133,7 @@ This hands-on workshop will familiarize you with the Galaxy user interface & exe
 </div>
 
 <!--sur les outils -->
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-12-tools-hack/event-sponsors.png" alt="Sponsors" />
 <div class="card-header">[Hackathon sur les outils interactifs de Galaxy (GxIT)](https://forgemia.inra.fr/geoc/hackaton2020)</div>
 
@@ -143,7 +145,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 
 
 <!--Galaxy Admin Training -->
-<div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2021-01-admin-training/2021-admin-slice.png" alt="Admin Training" />
 <div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
 
@@ -152,7 +154,7 @@ Galaxy Admin Training is coming in January.  It will be online and global, and r
 
 
 <!-- All events -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="events-slice.jpg" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
@@ -253,7 +255,7 @@ Leighton reports on the University of Strathclyde's experience teach Advanced Mi
 <div class="card-deck">
 
 <!-- metaQuantome -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">Metaproteomics analysis with metaQuantome</div>
 
 By [Subina Mehta](https://training.galaxyproject.org/training-material/hall-of-fame/subinamehta/), [Timothy J. Griffin](https://training.galaxyproject.org/training-material/hall-of-fame/timothygriffin/), [Pratik Jagtap](https://training.galaxyproject.org/training-material/hall-of-fame/pratikdjagtap/), [Emma Leith](https://training.galaxyproject.org/training-material/hall-of-fame/emmaleith/), [Marie Crane](https://training.galaxyproject.org/training-material/hall-of-fame/mariecrane/), and [Praveen Kumar](https://training.galaxyproject.org/training-material/hall-of-fame/pravs3683/)
@@ -269,7 +271,7 @@ A three part series on doing metaproteomics analysis with metaQuantome:
 
 
 <!-- non-dip var -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card border-info"  style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Calling variants in non-diploid systems](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/non-dip/tutorial.html)</div>
 
 This tutorial got a thorough update from [Mallory Freeberg](https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/).
@@ -279,7 +281,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 
 <!-- video -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card border-info"  style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Adding auto-generated video to your slides](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/slides-with-video/tutorial.html)</div>
 
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/)
@@ -291,7 +293,7 @@ Based on the work by Delphine Larivière and James Taylor with their [COVID-19 L
 
 
 <!-- somatic -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card border-info"  style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html)</div>
 
 This tutorial got a thorough update from [Mallory Freeberg](https://training.galaxyproject.org/training-material/hall-of-fame/malloryfreeberg/).
@@ -320,6 +322,11 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2020). *BioRxiv*, 2020.10.09.327114. [doi: 10.1101/2020.10.09.327114](https://doi.org/10.1101/2020.10.09.327114)
 </div>
 
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">[A single-cell RNA-sequencing training and analysis suite using the Galaxy framework](https://doi.org/10.1093/gigascience/giaa102)</div>
+
+Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F., Etherington, G. J., Hotz, H.-R., Scholtalbers, J., Manning, J. R., Bellenger, L., Doyle, M. A. , Heydarian, M., Huang, N., Soranzo, N., Moreno, P., Mautner, S., Papatheodorou, I., Nekrutenko, A., Taylor, J., Blankenberg, D., Backofen, R., Grüning, B. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa102](https://doi.org/10.1093/gigascience/giaa102)
+</div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Assessing sequence quality in GalaxyTrakr](https://doi.org/dx.doi.org/10.17504/protocols.io.bdvfi63n)</div>
@@ -342,12 +349,6 @@ Goonasekera, N., Mahmoud, A., Chilton, J., Afgan, E. (2020). *Bioinformatics*. [
 </div>
 
 
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[A single-cell RNA-sequencing training and analysis suite using the Galaxy framework](https://doi.org/10.1093/gigascience/giaa102)</div>
-
-Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F., Etherington, G. J., Hotz, H.-R., Scholtalbers, J., Manning, J. R., Bellenger, L., Doyle, M. A. , Heydarian, M., Huang, N., Soranzo, N., Moreno, P., Mautner, S., Papatheodorou, I., Nekrutenko, A., Taylor, J., Blankenberg, D., Backofen, R., Grüning, B. (2020). *GigaScience*, 9(10). [doi: 10.1093/gigascience/giaa102](https://doi.org/10.1093/gigascience/giaa102)
-</div>
-
 </div>
 
 
@@ -359,7 +360,7 @@ Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F.
 
 
 <!-- Puglia -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Development of a bioinformatic platform for Precision Medicine](https://euraxess.ec.europa.eu/jobs/570194)</div>
 
 Università degli Studi di Bari Aldo Moro, Regione Puglia, Italy.
@@ -371,19 +372,8 @@ Development and implementation of a computing platform in a cloud environment wi
 <img class="card-img-bottom" src="/src/images/logos/uniba-logo-wide.jpg" alt="Università degli Studi di Bari Aldo Moro" />
 </div>
 
-<!-- ELIXIR Norway -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Senior Engineer](https://no.neuvoo.com/view/?id=2d3aa44730bc)</div>
-
-ELIXIR Norway Team, University of Oslo, Norway.
-
-Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md).
-
-<img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
-</div>
-
 <!-- Roche -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Principle Scientist II, Bioinformatics](https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Pleasanton/Principle-Scientist-II--Bioinformatics_202010-126228-1)</div>
 
 Roche, Bay Area, California, United States.
@@ -397,8 +387,19 @@ Roche, Bay Area, California, United States.
 <img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
+<!-- ELIXIR Norway -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Senior Engineer](https://no.neuvoo.com/view/?id=2d3aa44730bc)</div>
+
+ELIXIR Norway Team, University of Oslo, Norway.
+
+Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md).
+
+<img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
+</div>
+
 <!-- AnVIL -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[AnVIL Project Manager](https://jobs.jhu.edu/job/Baltimore-AnVIL-Project-Manager-MD-21218/682125700/)</div>
 
 Johns Hopkins University, Baltimore, Maryland, United States.
@@ -410,7 +411,7 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 
 
 <!-- Galaxy P -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Application Developer](https://hr.myu.umn.edu/jobs/ext/337630)</div>
 
 Help with Galaxy-P tools and workflow development, and general support for Galaxy implementation at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
@@ -420,7 +421,7 @@ Help with Galaxy-P tools and workflow development, and general support for Galax
 
 
 <!-- Cleveland Clinic -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Postdoctoral Fellow](https://postdocjobs.com/posting/7070235) and [Software Engineer](https://twitter.com/DBlankenberg/status/1310586405282885632)</div>
 
 The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as Next-Generation Sequencing, and data-intensive computing to explore biomedical research questions.
@@ -430,7 +431,7 @@ The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Le
 
 
 <!-- ARTbio -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Genomic Data Analyst](https://www.artbio.fr/home/job-offers)</div>
 
 A 3-year position of genomic data analyst is available to work within the "COllaborative NEtwork on research for Children and Teenagers with Acute Myeloblastic Leukemia" CONECT-AML framework.
@@ -442,7 +443,7 @@ The project is funded by the Institut National de Recherche sur le Cancer (INCA)
 
 
 <!-- Hopkins -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
