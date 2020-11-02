@@ -9,7 +9,7 @@ location_url: ""
 external_url:
 gtn: true
 contact: Instructors
-image: ""
+image: "2021-admin-200.png"
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training) will be offered online and asynchronously January 25-29.**

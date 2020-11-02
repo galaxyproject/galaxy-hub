@@ -144,7 +144,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/events/2020-12-tools-hack/event-sponsors.png" alt="Sponsors" />
+<img class="card-img-top" src="/src/events/2021-01-admin-training/2021-admin-slice.png" alt="Admin Training" />
 <div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
 
 Galaxy Admin Training is coming in January.  It will be online and global, and registration will open this month.  Watch Twitter, this web site, and Galaxy Gitter channels for the announcement.
