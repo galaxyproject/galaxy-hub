@@ -329,9 +329,9 @@ Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F.
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Assessing sequence quality in GalaxyTrakr](https://doi.org/dx.doi.org/10.17504/protocols.io.bdvfi63n)</div>
+<div class="card-header">[Assessing sequence quality in GalaxyTrakr]https://dx.doi.org/10.17504/protocols.io.bdvfi63n)</div>
 
-Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020). *Protocols.io.* [doi: 10.17504/protocols.io.bdvfi63n](https://doi.org/dx.doi.org/10.17504/protocols.io.bdvfi63n)
+Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020). *Protocols.io.* [doi: 10.17504/protocols.io.bdvfi63n](https://dx.doi.org/10.17504/protocols.io.bdvfi63n)
 </div>
 
 
