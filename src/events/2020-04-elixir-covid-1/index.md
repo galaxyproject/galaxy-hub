@@ -9,5 +9,6 @@ external_url: "https://register.gotowebinar.com/register/2484378815187103504"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
 contact: "Anton Nekrutenko, Frederik Coppens"
+tags: [ webinar ]
 image: 
 ---

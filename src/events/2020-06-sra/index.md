@@ -9,6 +9,7 @@ location_url: "https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imP
 external_url: ""
 gtn: true
 contact: "Dan Blankenberg, Marius van den Beek, Dave Clements"
+tags: [ webinar ]
 image: "galaxy-sra.png"
 ---
 

@@ -9,5 +9,6 @@ external_url: "https://attendee.gotowebinar.com/register/4607898607259954448"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
 contact: "Tim Dudgeon, Simon Bray"
+tags: [ webinar ]
 image: 
 ---

@@ -9,5 +9,6 @@ location_url: "https://galaxyworks.io/webinars/"
 external_url: "https://depot.galaxyproject.org/hub/attachments/events/2020-11-du-novo/du-novo-webinar.pdf"
 gtn: false
 contact: "Barbara Arbeithuber, Nick Stoler "
+tags: [ webinar ]
 image: 
 ---
