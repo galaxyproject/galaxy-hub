@@ -465,6 +465,8 @@ The Schatz Lab at Johns Hopkins University is looking for:
 
 [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) to assist in the development of [Galaxy tool wrappers](https://docs.galaxyproject.org/en/latest/dev/schema.html) inside modern code editors.
 
+*Please note this is still an early work in progress and bugs and issues are expected.*
+
 It provides realtime XML validation, code completion, help/documentation and other smart features to help in following best practices during the development process of XML tool wrappers for Galaxy.
 
 The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
