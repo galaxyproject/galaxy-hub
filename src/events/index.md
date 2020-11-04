@@ -10,6 +10,11 @@ Calendar](http://bit.ly/gxyothercal) lists additional events that are relevant
 to the Galaxy Community, but that are not known to feature significant Galaxy
 content.
 
+Some events are part of a series:
+
+* [Galaxy Developer Round Table meetups](/src/community/devroundtable/index.md)
+* [Galaxy Webinar Series](/src/events/webinars/index.md)
+
 If you know of any event that should be added to this page and/or to the Galaxy
 Event Calendar, please add it here or send it to outreach@galaxyproject.org.
 For events prior to this year, see the [Events

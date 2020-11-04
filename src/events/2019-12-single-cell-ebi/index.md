@@ -9,5 +9,6 @@ location_url: ""
 external_url: "https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-using-galaxy-interface"
 gtn: false
 contact: "Anna Swan"
+tags: [ webinar ]
 image: 
 ---

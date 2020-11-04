@@ -9,5 +9,6 @@ location_url: "https://unimelb.zoom.us/webinar/register/WN_N7o065f8QG60ZRFw2_JxY
 external_url: "https://www.biocommons.org.au/events/chloroplastgenomeassembly"
 gtn: true
 contact: "Anna Syme"
+tags: [ webinar ]
 image: 
 ---

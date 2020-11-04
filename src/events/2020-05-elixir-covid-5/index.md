@@ -9,5 +9,6 @@ external_url: "https://attendee.gotowebinar.com/register/7607010086065649936"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
 contact: "TBD"
+tags: [ webinar ]
 image: 
 ---

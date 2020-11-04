@@ -9,5 +9,6 @@ external_url: "https://attendee.gotowebinar.com/register/6993001011673446160"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
 contact: "Anton Nekrutenko, Wolfgang Maier"
+tags: [ webinar ]
 image: 
 ---

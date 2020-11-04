@@ -9,6 +9,7 @@ image: /src/images/logos/niaid-logo.png
 location_url: ""
 external_url: ""
 gtn: false
+tags: [ webinar ]
 contact: "Dave Clements, Steven Weaver"
 ---
 

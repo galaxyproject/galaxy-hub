@@ -8,6 +8,7 @@ location: "Australian BioCommons, Australia, Online"
 location_url: ""
 external_url: "https://www.biocommons.org.au/events/galaxy-aust-mass-spec"
 gtn: false
+tags: [ webinar ]
 contact: "Gareth Price, Johan Gustafsson"
 image: 
 ---

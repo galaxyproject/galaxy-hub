@@ -9,5 +9,6 @@ external_url: "https://attendee.gotowebinar.com/register/3263865489071323920"
 location_url: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
 gtn: true
 contact: "Sergei Pond"
+tags: [ webinar ]
 image: 
 ---

@@ -9,5 +9,6 @@ image:
 location_url: "https://sciencegateways.org/engage/webinars"
 external_url: "https://sciencegateways.org/engage/webinars"
 gtn: false
+tags: [ webinar ]
 contact: "Nate Coraor"
 ---
