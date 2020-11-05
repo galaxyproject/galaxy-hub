@@ -7,7 +7,7 @@ The Galaxy Webinar Series features short online talks that have Galaxy as a focu
 
 See the [Galaxy Event Horizon](/src/events/index.md) for a complete list of upcoming events.
 
-If you know of any webinar that should be added to this page then please send it to outreach@galaxyproject.org.
+If you know of a webinar that should be added to this page then please send it to outreach@galaxyproject.org.
 
 <div class='center'>
 </div>
