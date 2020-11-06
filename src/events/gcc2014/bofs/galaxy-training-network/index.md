@@ -7,13 +7,13 @@ title: Galaxy Training Network
 
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **[Galaxy Training Network](/src/teach/gtn/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **[Galaxy Training Network](https://training.galaxyproject.org/)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
 
 When: Tuesday, July 1, 5:45pm
 
 Where: Multipurpose Room 324
 
-Contact: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/teach/index.md)
+Contact: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](https://training.galaxyproject.org/)
 
 
 # Description
@@ -22,7 +22,7 @@ The plan is to have a discussion surrounding:
 * Types of training
 * Available materials and their format
 * Infrastructure requirements
-* [Galaxy Training Network](/src/teach/gtn/index.md)
+* [Galaxy Training Network](https://training.galaxyproject.org/)
 
 # Audience
 
@@ -75,9 +75,9 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 
 ## GTN Resources Directory
 
-<div class='right'><a href='/src/teach/gtn/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
+<div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
 
-[This has been created](/src/teach/resources/index.md).  
+This has been created.
 
 Some aspirations for the resource directory:
 
@@ -91,7 +91,7 @@ Some aspirations for the resource directory:
 
 # Best Practices
 
-The list below was created during this BoF.  A [published list of best practices now exists](/src/teach/best-practices/index.md), and it incorporates many of these practices.
+The list below was created during this BoF.  A published list of best practices now exists, and it incorporates many of these practices.
 
 * Suggest starting with an hour of hand-holding where students are told exactly what to do.  Then, open it up to give them an opportunity to try things themselves
 
@@ -128,7 +128,7 @@ Is it possible to have a persistent training server?  Some ideas:
 * Create a galaxy-teach or galaxy-train mailing list / forum
   * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
-  * [Resource Directory](/src/teach/resources/index.md) and [Trainer Directory](/src/teach/trainers/index.md) are up.
+  * Resource Directory and Trainer Directory are up.
 * Push these best practices to the GTN Best Practices area.
-  * [Done](/src/teach/best-practices/index.md)
+  * Done
 * Include a video training directory

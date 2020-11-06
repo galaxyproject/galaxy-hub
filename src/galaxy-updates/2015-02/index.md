@@ -146,7 +146,7 @@ Finally, please welcome [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.u
 
 <div class='right'><a href='http://www.tgac.ac.uk/'><img src="/src/images/logos/TGACLogoWSupport300.jpg" alt="The Genome Analysis Centre" width="185" /></a></div>
 
- [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) is a world-class research institute focusing on the development of genomics and computational biology. TGAC is based on the [Norwich Research Park](http://www.norwichresearchpark.com/home.aspx) and receives strategic funding from the [Biotechnology and Biological Science Research Council (BBSRC)](http://www.bbsrc.com/home/home.aspx) as well as from other research funders. TGAC offers a state of the art DNA sequencing facility, unique by its operation of multiple complementary technologies for data generation. The Institute hosts one of the largest computing hardware facilities dedicated to life science research in Europe. It is also actively involved in developing novel platforms to provide access to computational tools and processing capacity for academic and industrial users and promoting applications of computational Bioscience. Additionally, the Institute is a member of the [Galaxy Training Network](/src/teach/trainers/index.md#tgac-the-genome-analysis-centre) and offers a [Training programme](http://www.tgac.ac.uk/361_Division/) through courses and workshops, and has an [Education and Public Engagement programme](http://www.tgac.ac.uk/education-public-engagement/) targeting schools, teachers and the general public. 
+ [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) is a world-class research institute focusing on the development of genomics and computational biology. TGAC is based on the [Norwich Research Park](http://www.norwichresearchpark.com/home.aspx) and receives strategic funding from the [Biotechnology and Biological Science Research Council (BBSRC)](http://www.bbsrc.com/home/home.aspx) as well as from other research funders. TGAC offers a state of the art DNA sequencing facility, unique by its operation of multiple complementary technologies for data generation. The Institute hosts one of the largest computing hardware facilities dedicated to life science research in Europe. It is also actively involved in developing novel platforms to provide access to computational tools and processing capacity for academic and industrial users and promoting applications of computational Bioscience. Additionally, the Institute is a member of the [Galaxy Training Network](https://training.galaxyproject.org/) and offers a [Training programme](http://www.tgac.ac.uk/361_Division/) through courses and workshops, and has an [Education and Public Engagement programme](http://www.tgac.ac.uk/education-public-engagement/) targeting schools, teachers and the general public. 
 
 #### Call for Sponsors
 
@@ -232,7 +232,7 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
   <tr>
     <th> March 2 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
@@ -260,7 +260,7 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
   <tr>
     <th> April 20-21 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
@@ -276,7 +276,7 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
   <tr>
     <th> July 6-8 </th>
     <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
 </table>
@@ -284,8 +284,8 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -350,12 +350,12 @@ CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.t
 <div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
@@ -369,7 +369,7 @@ CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.t
 
 ## New GTN Member: Ruđer Bošković Institute
 
-We are pleased to welcome the [Ruđer Bošković Institute](http://www.irb.hr/) in Zagreb, Croatia as the [newest member](/src/teach/trainers/index.md#ruđer-bošković-institute-rbi) of [Galaxy Training Network (GTN)](/src/teach/gtn/index.md). Dobrodošli!
+We are pleased to welcome the [Ruđer Bošković Institute](http://www.irb.hr/) in Zagreb, Croatia as the newest member of [Galaxy Training Network (GTN)](https://training.galaxyproject.org/). Dobrodošli!
 
 
 # New Releases

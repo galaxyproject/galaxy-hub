@@ -8,7 +8,7 @@ There are many approaches to learning how to *use* Galaxy. The most popular is p
 
 ## Tutorials by Galaxy Training Network
 
-Thanks to a large [group of wonderful contributors](https://github.com/galaxyproject/training-material/graphs/contributors) there is a constantly growing [set of tutorials](https://training.galaxyproject.org/) maintained by the [Galaxy Training Network](/src/teach/gtn). These include:
+Thanks to a large [group of wonderful contributors](https://github.com/galaxyproject/training-material/graphs/contributors) there is a constantly growing [set of tutorials](https://training.galaxyproject.org/) maintained by the [Galaxy Training Network](https://training.galaxyproject.org/). These include:
 
 Introductory Tutorials
 

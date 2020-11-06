@@ -92,7 +92,7 @@ Add these before the BoF to aid in focusing our discussion. We'll create a [http
 
 The Galaxy Scientists Community represents Galaxy end-users and gives them a voice to interact with the core team. However, **the activities of the Galaxy Scientists Community shall not interfere with core team activities, priorities, and current user support, or feedback loops. **
 
-The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](/src/teach/gtn/index.md).**
+The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](https://training.galaxyproject.org/).**
 
 
 ### Action Items:

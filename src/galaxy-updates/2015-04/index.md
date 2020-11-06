@@ -195,7 +195,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> April 7 </th>
     <td> <em><a href='https://www.e-biogenouest.org/events/details/45//'>5th GUGGO meeting</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy_user_group_grand_ouest_28guggo29'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
   </tr>
   <tr>
@@ -213,7 +213,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> April 20-21 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
@@ -238,7 +238,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> April&nbsp;27 - May 3 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#bioinformaticsca'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> New York City, New York, United States </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> New York City, New York, United States </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
@@ -264,7 +264,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> May 13 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
@@ -300,13 +300,13 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> June 3 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
     <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
     <td> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
@@ -316,7 +316,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   <tr>
     <th> July 6-8 </th>
     <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
@@ -330,8 +330,8 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -384,12 +384,12 @@ One new [public Galaxy server](/src/use/index.md) was added in March:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>

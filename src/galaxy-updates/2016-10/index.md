@@ -60,7 +60,7 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 <div class='right'><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy training contribution fest, 6-7 October, Online" width="170" /></a></div>
 
-The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is planning **[a contribution fest](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3)** to consolidate our training material and improve the overall training  experience in Galaxy on the 6.-7th October 2016!
+The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is planning **[a contribution fest](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3)** to consolidate our training material and improve the overall training  experience in Galaxy on the 6.-7th October 2016!
 
 More information about the project can be found [here](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3) and a [small presentation here](http://bgruening.github.io/training-material/shared/slides/project_presentation#/).  Registration (which is entirely optional - you can just show up) can be done via [this GitHub issue](https://github.com/bgruening/training-material/issues/58).  There is also a [list of potential issues to work on as well](https://github.com/bgruening/training-material/issues) (and more are welcome).
 
@@ -187,7 +187,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 10-13 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'>Metagenomic: amplicon analysis</a></em> <div class='indent red'> Registration closes 4 October</div> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> INRA Auzeville, Auzeville, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
   </tr>
   <tr>
     <th> October 13 </th>
@@ -199,7 +199,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 18-20 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'>Galaxy4Bioinformatics</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Lyon, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
   </tr>
   <tr>
     <th> October 20 </th>
@@ -244,7 +244,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 7-8 </th>
     <td> <strong><a href='/src/events/admin-training2016/basics-session/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 7-9 </th>
@@ -256,13 +256,13 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 8-20 </th>
     <td> <em><a href='https://meetings.cshl.edu/courses.aspx?course=c-seqtec&year=16'>Advanced Sequencing Technologies & Applications</a></em> <div class='indent'>Application deadline is July 15</div> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='https://cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
     <td> <strong><a href='/src/events/admin-training2016/advanced-session/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 15-16 </th>
@@ -274,7 +274,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 20-25 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/evenements/EBA2016'>Ecole Bioinformatique AVIESAN</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:ecole-bioinfo@aviesan.fr">Email</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:ecole-bioinfo@aviesan.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 21-23 </th>
@@ -286,7 +286,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 28 - December 2 </th>
     <td> <em><a href='http://workflow4metabolomics.org/training/w4mcourse2016'>Traitement des donnéesmétabolomiques sous Galaxy</a></em> <div class='indent red'>Les pré-inscriptions sont ouvertes jusqu'au 15 juillet 2016</div> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' />  <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -304,7 +304,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> University of Melbourne, Victoria, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -313,15 +313,15 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Montpellier, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -512,12 +512,12 @@ For those looking to perform de novo transcriptome assembly of RNA-seq data, we 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
@@ -527,7 +527,7 @@ For those looking to perform de novo transcriptome assembly of RNA-seq data, we 
 
 One new trainng resource was added in September:
 
-* [Microbial data analysis with Orione](/src/teach/resource/microbial-with-orione/index.md), by 鈴木 治夫 (Haruo Suzuki).
+* Microbial data analysis with Orione, by 鈴木 治夫 (Haruo Suzuki).
 
 ----
 
