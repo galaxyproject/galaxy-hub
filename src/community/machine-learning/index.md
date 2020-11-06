@@ -20,11 +20,11 @@ The project is a community effort, please jump in, ask questions, and contribute
 # Training
 
 We are passionate about training. So we are working in close collaboration with the
-[Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) to develop training materials of data analyses
+[Galaxy Training Network (GTN)](https://training.galaxyproject.org/) to develop training materials of data analyses
 based on Galaxy. These materials hosted on the GTN GitHub
 repository are available online at [https://training.galaxyproject.org](https://training.galaxyproject.org).
 
-Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials, developed together with the [GTN community](https://galaxyproject.org/teach/gtn/).
+Want to learn more about machine learning? Take one of our guided tours or check out the following hands-on tutorials, developed together with the [GTN community](https://training.galaxyproject.org/).
 
 Lesson | Slides | Hands-on | Input dataset | Workflows | Galaxy tour | Galaxy History
 --- | --- | --- | --- | --- | --- | ---

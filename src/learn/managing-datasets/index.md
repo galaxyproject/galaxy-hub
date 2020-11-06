@@ -92,7 +92,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 
 Tutorials
 
-  * [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+  * [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 
 Methods
 

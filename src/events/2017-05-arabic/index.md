@@ -78,7 +78,6 @@ Biochemistry department , Faculty of medicine ,Tanta University
 * For Reservation Contact : Abdelazeem_Abdelhameed2015505@yahoo.com
 * Website for Galaxy Project : galaxyproject.org
 * Announcement  for the Arabic Community Foundation : https://biostar.usegalaxy.org/p/20343/
-* Webpage for trainers  around the world (Abdelazeem with affiliation to Tanta University) : https://galaxyproject.org/teach/trainers/
 * Website for Galaxy arabic : https://galaxyproject.org/community/arabic/
 * Facebook : Galaxy Community Arabic(Group)
 * Twitter : @Galaxy_Arabic

@@ -130,7 +130,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">January 8th 2019</span></td>
   <td><a href="/events/2019-01-gwu">Introduction to Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/>Washington, DC</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dr. Ian Toma (itoma at gwu dot edu)</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Dr. Ian Toma (itoma at gwu dot edu)</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">January 12th 2019</span></td>
@@ -154,19 +154,19 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">January 28th 2019</span></td>
   <td><a href="/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">February 4th 2019</span></td>
   <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733">Traitement de données de séquences par Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.agrocampus-ouest.fr/ecole/implantations/campus-de-rennes">AGROCAMPUS OUEST, Rennes, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sandrine Lagarrigue</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sandrine Lagarrigue</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">February 25th 2019</span></td>
   <td><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/">Galaxy HTS data analysis workshop</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://usegalaxy-eu.github.io/event/2018-11-22-Galaxy-workshop-February2019/#venue">University of Freiburg, Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact at usegalaxy.eu</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">February 28th 2019</span></td>
@@ -178,7 +178,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">March 6th 2019</span></td>
   <td><a href="https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing">Galaxy for linking bisulfite sequencing with RNA sequencing</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/>University of Rostock, Rostock, Germany</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>destair [at] leibniz-fli.de</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>destair [at] leibniz-fli.de</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 18th 2019</span></td>
@@ -196,7 +196,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">July 1st 2019</span></td>
   <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 </tbody>
 </table>

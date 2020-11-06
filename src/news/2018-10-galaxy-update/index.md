@@ -92,13 +92,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">October 2nd 2018</span></td>
   <td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-2-3-october-2018">Genome assembly using Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 4th 2018</span></td>
   <td><a href="https://www.elixir-czech.cz/events/elixir-cz-proteomics-workshop-oct-2018">ELIXIR CZ Proteomics Workshop 2018</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.uochb.cz/">IOCB AS CR, Prague, Czech Republic</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Björn Grüning</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Björn Grüning</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 5th 2018</span></td>
@@ -110,25 +110,25 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">October 8th 2018</span></td>
   <td><a href="https://www.linkedin.com/pulse/workflow4experimenters-2018-course-analyze-your-lcms-gcms-giacomoni/?published=t">Workflow4Experimenters 2018 Course</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.pasteur.fr/">Pasteur Institute, Paris, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gildas Le Corguillé</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gildas Le Corguillé</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 10th 2018</span></td>
   <td> **<a href="/events/2018-sacnas">SACNAS 2018 Pre-Conference Workshops</a>** </td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.2018sacnas.org/">2018 SACNAS, San Antonio, Texas, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 15th 2018</span></td>
   <td> **<a href="/events/2018-eresearch">Galaxy @ eResearch Australasia</a>** </td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://conference.eresearch.edu.au/">Melbourne, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 15th 2018</span></td>
   <td><a href="http://www.fc.upmc.fr/fr/catalogue-de-formations-2017-2018/formation-qualifiante-FC6/sciences-technologies-sante-STS/analyse-rnaseq-sous-galaxy-program-analyse-rnaseq-sous-galaxy-2.html?search-keywords=rnaseq">Analyse RNAseq sous Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.sb-roscoff.fr/en">Station marine de Roscoff, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>christine.mantecon @upmc.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>christine.mantecon @upmc.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 16th 2018</span></td>
@@ -140,19 +140,19 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">October 17th 2018</span></td>
   <td><a href="https://www.biosb.nl/education/course-portfolio/bioinformatics-for-translational-medicine-using-galaxy/">Bioinformatics for Translational Medicine using Galaxy: see it, do it, teach it</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.vu.nl/en">VU, Amsterdam, The Netherlands</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Celia van Gelder</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Celia van Gelder</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 18th 2018</span></td>
   <td><a href="https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-18-oct-registration-47203476870">Introduction to Galaxy &amp; the Genomics Virtual Laboratory</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/>University of Melbourne, Melbourne, Victoria, Australia</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Melbourne Bioinformatics</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Melbourne Bioinformatics</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 23rd 2018</span></td>
   <td><a href="https://www.eventbrite.com.au/o/embl-abr-10948923698">Introduction to Galaxy Australia: Differential Gene Expression from Bacterial RNA-seq Data</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/>Universities: Melbourne, Queensland, Southern Queensland, Sydney, New South Wales, Adelaide, James Cook, Monash, Tasmania; Australia</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr>
 <tr>
   <td> **<span class="text-nowrap">November 12th 2018</span>** </td>
@@ -170,7 +170,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">November 14th 2018</span></td>
   <td><a href="https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/">Analyse des données RNA-Seq sous l'environnement Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/>Lyon, France</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 19th 2018</span></td>
@@ -200,13 +200,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
   <td><span class="text-nowrap">January 28th 2019</span></td>
   <td> **<a href="https://galaxyproject.org/events/2019-admin-training">2019 Galaxy Admin Training</a>** </td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 1st 2019</span></td>
   <td> **<a href="https://galaxyproject.org/gcc2019">2019 Galaxy Community Conference (GCC2019)</a>** </td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 </tbody></table>
 

@@ -75,19 +75,19 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><span class="text-nowrap">October 3rd 2017</span></td>
   <td><a href="https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-registration-36300240998">Introduction to Galaxy &amp; the Genomics Virtual Laboratory</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 4th 2017</span></td>
   <td><a href="https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-galaxy-the-gvl-registration-36300315220">RNA-Seq Differential Gene Expression Analysis using Galaxy &amp; the GVL</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 4th 2017</span></td>
   <td><a href="https://www.eventbrite.com.au/e/introduction-to-galaxy-the-genomics-virtual-laboratory-4-oct-registration-37299824780">Introduction to Galaxy &amp; the Genomics Virtual Laboratory</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 4th 2017</span></td>
@@ -99,19 +99,19 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><span class="text-nowrap">October 5th 2017</span></td>
   <td><a href="https://www.eventbrite.com.au/e/variant-calling-with-galaxy-the-gvl-for-beginners-registration-36300355340">Variant Calling with Galaxy &amp; the GVL for beginners</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>enquiries@ melbournebioinformatics.org.au</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 18th 2017</span></td>
   <td><a href="/events/2017-sacnas">SACNAS 2017 Pre-Conference Workshops</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.2017sacnas.org/">2017 SACNAS, Salt Lake City, Utah, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Amanda Cooksey, Tracy Teal, Joslynn Lee, Dave Clements</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Amanda Cooksey, Tracy Teal, Joslynn Lee, Dave Clements</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 20th 2017</span></td>
   <td><a href="/events/2017-sacnas-session">Resources and Techniques for Training Students in Computational Skills</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://www.2017sacnas.org/">2017 SACNAS, Salt Lake City, Utah, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Camille Avestruz, Tracy Teal, Joslynn Lee, Dave Clements</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">October 23rd 2017</span></td>
@@ -135,49 +135,49 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><span class="text-nowrap">November 1st 2017</span></td>
   <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=INFO&amp;year=17">Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=INFO&amp;year=17">Genome Informatics, CSHL, New York, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko</td>
   </tr>
 <tr>
   <td><span class="text-nowrap">November 1st 2017</span></td>
   <td><a href="https://meetings.cshl.edu/abstracts.aspx?meet=INFO&amp;year=17">Hybrid assembly of small genomes in Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/meetings.aspx?meet=INFO&amp;year=17">Genome Informatics, CSHL, New York, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Delphine Lariviere</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Delphine Lariviere</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 6th 2017</span></td>
   <td><a href="http://biosb.nl/education/course-portfolio/rna-seq/">RNA-seq data analysis (7th edition)</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.lumc.nl/">Leiden University Medical Center, Leiden, The Netherlands</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Peter-Bram 't Hoen,  Leon Mei, Jan Oosting, Szymon Kielbasa</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Peter-Bram 't Hoen,  Leon Mei, Jan Oosting, Szymon Kielbasa</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 20th 2017</span></td>
   <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Quality_Control_2017.pdf">Quality Control of Next Generation Sequencing Reads</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 29th 2017</span></td>
   <td><a href="https://meetings.cshl.edu/courses.aspx?course=C-ECG&amp;year=17">Foundations of Computational Genomics Course</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/">CSHL, Cold Spring Harbor, New York, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>James Taylor</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>James Taylor</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 30th 2017</span></td>
   <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Genome_Assembly_2017.pdf">Genome	Assembly	and	Annotation</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">January 8th 2018</span></td>
   <td><a href="https://www.elixir-europe.org/events/european-galaxy-administrator-workshop">European Galaxy Administrator Workshop</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/>Oslo, Norway</td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://gccbosc2018.sched.com">GCC2018 &amp; BOSC 2018</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr></tbody></table>
 
 

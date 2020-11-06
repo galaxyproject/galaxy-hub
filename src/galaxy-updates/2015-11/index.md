@@ -225,13 +225,13 @@ There are [upcoming events](/src/events/index.md) on 3 continents in 4 countries
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/#galaxy--prabi-project'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/#galaxy--prabi-project'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 18 </th>

@@ -107,7 +107,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
     <td><span class="text-nowrap">November 4th 2018</span></td>
     <td><a href="https://agtaconference.org/pre-conference-workshops/">Galaxy Australia – The Free Genetics and Genomics Analysis Platform</a></td>
     <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://agtaconference.org/">AGTA, Adelaide, Australia</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gareth Price</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Gareth Price</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">November 5th 2018</span></td>
@@ -149,13 +149,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
     <td><span class="text-nowrap">November 14th 2018</span></td>
     <td><a href="https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/">Analyse des données RNA-Seq sous l'environnement Galaxy</a></td>
     <td><img style="float:right;" src="/images/icons/EU.png"/>Lyon, France</td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>contact@biosciencesco.fr</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">November 14th 2018</span></td>
     <td><a href="http://www.embl-abr.org.au/about/events/">Introduction to Galaxy Australia – Metagenomics</a></td>
     <td><img style="float:right;" src="/images/icons/AU.png"/>Universities: Melbourne, Queensland, Southern Queensland, Sydney, New South Wales, Adelaide, James Cook, Monash, Tasmania; Australia</td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
   </tr>
   <tr>
     <td><span class="text-nowrap">November 15th 2018</span></td>
@@ -179,7 +179,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
     <td><span class="text-nowrap">November 28th 2018</span></td>
     <td><a href="https://meetings.cshl.edu/courses.aspx?course=C-ECG&amp;year=18">Computational Genomics</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://meetings.cshl.edu/index.aspx">CSHL, Cold Spring Harbor, New York, United States</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>James Taylor</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>James Taylor</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">December 6th 2018</span></td>
@@ -191,13 +191,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
     <td><span class="text-nowrap">January 28th 2019</span></td>
     <td><a href="/events/2019-admin-training">2019 Galaxy Admin Training</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.psu.edu/">Penn State University, State College, Pennsylvania, United States</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Instructors</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">July 1st 2019</span></td>
     <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
     <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
   </tr>
 </tbody>
 </table>

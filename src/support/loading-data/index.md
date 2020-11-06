@@ -11,7 +11,7 @@ Related topics
 
 Tutorials
 
-  * [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+  * [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 
 # Loading Data
 
@@ -24,7 +24,7 @@ Tutorials
 
 ## GTN Tutorials
 
-Most tutorials from the [Galaxy Training Network (GTN)](https://galaxyproject.org/teach/gtn/) include one or more data upload steps. 
+Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) include one or more data upload steps. 
 
  * Start with this tutorial, section "Getting Data In", for a quick overview: [NGS Logistics](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html)
  * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
