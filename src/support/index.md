@@ -5,7 +5,7 @@ title: Galaxy Support
 
 * [NGS 101](/src/tutorials/g101/index.md)
 * [Tutorials](/src/learn/index.md)
-* [Teaching with Galaxy](/src/teach/index.md)
+* [Teaching with Galaxy](https://training.galaxyproject.org/)
 * [Using Galaxy Choices](/src/choices/index.md)
 * [Galaxy Project Highlights](https://galaxyproject.github.io/)
 

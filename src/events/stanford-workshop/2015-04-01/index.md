@@ -29,7 +29,7 @@ This hands-on Galaxy workshop will cover several common analysis pathways with a
 ### Event Details
 
 * [Agenda](https://docs.google.com/document/d/1VllhRCALRLvEAhcfiAou0c_p4bVlobBY-Rx3xB9UwzY/edit?usp=sharing)
-* [Wiki Galaxy Project Workshop 2015](/src/teach/resource/galaxy-project-workshop2015/index.md)
+* Wiki Galaxy Project Workshop 2015
 
 ### Suggested Prerequisites
 

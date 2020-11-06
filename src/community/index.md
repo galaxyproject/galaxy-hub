@@ -68,7 +68,7 @@ Member | Joined | GitHub
 
 <div class="media">
   <div class="media-body">
-    The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) for training-related news.
+    The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) for training-related news.
   </div>
   <div class="media-right media-middle">
     <a href="#">

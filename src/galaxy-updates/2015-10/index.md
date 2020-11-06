@@ -229,13 +229,13 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th> October 28-29 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -245,7 +245,7 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th rowspan=2> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=2> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/single-cell-sequencing-analysis-visualisation-of-copy-number-variations/'>Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations Workshop</a></em> </td>
@@ -255,13 +255,13 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy--prabi-project'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy--prabi-project'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
@@ -284,8 +284,8 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -362,7 +362,7 @@ If you think we should (or should not) offer this training at GCC2016, please co
 <a href='http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town'><img src="/src/images/logos/GobletLogo.png" alt="2015 GOBLET Meeting" height="100" /></a>
 </div>
 
-[GTN](/src/teach/gtn/index.md) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/src/news/gtn-joins-goblet/index.md).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/teach/trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
+[GTN](https://training.galaxyproject.org/) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/src/news/gtn-joins-goblet/index.md).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the Centre for Bioinformatics and Computational Biology at the University of Pretoria will be representing GTN at GOBLET 2015.
 
 If you have anything you'd like to have discussed at the meeting, then please [join this conversation](http://bit.ly/1iM6T5r).
 
@@ -451,12 +451,12 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
@@ -464,9 +464,9 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 <br />
 
-1 new **[Galaxy Training Network member](/src/teach/trainers/index.md)** was added in September:
+1 new **[Galaxy Training Network member](https://training.galaxyproject.org/)** was added in September:
 
-* **[The Centre for Bioinformatics and Computational Biology, University of Pretoria](/src/teach/trainers/index.md#the-centre-for-bioinformatics-and-computational-biology)**
+* **The Centre for Bioinformatics and Computational Biology, University of Pretoria**
     The Centre offers training in general usage, analysing and comparing protein and nucleic acid sequences, annotating genomes, gene expression patterns, investigating molecular structures, and simulating metabolic pathways.  Please welcome the first GTN member in Africa.  *(Now we just need Antartica.)*
 
 ----

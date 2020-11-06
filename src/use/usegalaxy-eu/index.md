@@ -24,7 +24,7 @@ pub_libraries:
   - "UseGalaxy.eu"
 sponsors:
   - "[Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/)"
-  - "[Galaxy Training Network](/src/teach/gtn/index.md)"
+  - "[Galaxy Training Network](https://training.galaxyproject.org/)"
   - "[DFG](http://www.dfg.de/)"
   - "[German Federal Ministry of Education and Research](https://www.bmbf.de/)"
   - "[ELIXIR](https://www.elixir-europe.org/)"
