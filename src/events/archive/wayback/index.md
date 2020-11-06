@@ -798,7 +798,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   <tr>
     <th> March 29 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/icons/EU.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/EU.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
@@ -1087,7 +1087,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/#galaxy--prabi-project'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
     <td> </td>
   </tr>
   <tr>

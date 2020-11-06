@@ -121,31 +121,31 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><span class="text-nowrap">May 14th 2018</span></td>
   <td><a href="https://wwz.ifremer.fr/Recherche-Technologie/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Activites/Bioinformatique/Formation-metabarcoding-2018">Formation metabarcoding 2018</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.sb-roscoff.fr/">Station Biologique de Roscoff, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Intervenants</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Intervenants</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 14th 2018</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module17.pdf">Initiation à Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 15th 2018</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module8bis.pdf">Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 15th 2018</span></td>
   <td><a href="https://qfab.org/workshops/rna-seq-analysis-using-galaxy-1-2-may-2018">Variant detection using Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://www.qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 16th 2018</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module18bis.pdf">Traitement bioinformatique des données RNA-seq sous Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 21st 2018</span></td>
@@ -174,7 +174,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><span class="text-nowrap">May 29th 2018</span></td>
   <td><a href="https://qfab.org/workshops/genome-assembly-using-galaxy-29-30-may-2018">Genome assembly using Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="http://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 6th 2018</span></td>
@@ -186,7 +186,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><span class="text-nowrap">June 12th 2018</span></td>
   <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 13th 2018</span></td>
@@ -204,19 +204,19 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><span class="text-nowrap">June 19th 2018</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2018/module23.pdf">Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2018, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>formation.migale @ inra.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://www.genopole.fr/spip.php?page=rubrique_event&amp;id_rubrique=1108&amp;event=1108">Genopole Summer School</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="https://www.genopole.fr/spip.php?page=rubrique_event&amp;id_rubrique=1111&amp;event=1108">Campus des Berges de Seine, Seine-Port, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Roxane Brachet </td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Roxane Brachet </td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://gccbosc2018.sched.com">**GCCBOSC 2018**</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 27th 2018</span></td>
@@ -228,7 +228,7 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
   <td><span class="text-nowrap">July 16th 2018</span></td>
   <td><a href="http://gonramp.wustl.edu/?page_id=724">G-OnRamp Workshop</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">November 22nd 2018</span></td>

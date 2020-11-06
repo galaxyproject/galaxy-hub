@@ -110,13 +110,13 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td><span class="text-nowrap">June 20th 2017</span></td>
     <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">June 26th 2017</span></td>
     <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/events/2017-gcc">hub page</a>]</td>
     <td><img style="float:right;" src="/images/icons/EU.png"/>Montpellier, Fance</td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">June 29th 2017</span></td>
@@ -128,7 +128,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td><span class="text-nowrap">July 2nd 2017</span></td>
     <td><a href="http://www.smbe2017.org/symposia/">Computation and reproducibility in molecular evolution</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="http://www.smbe2017.org/">SMBE 2017, Austin, Texas, United States</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">July 6th 2017</span></td>
@@ -146,25 +146,25 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td><span class="text-nowrap">July 21st 2017</span></td>
     <td><a href="/events/2017-ismb-bosc">Galaxy @ ISMB/ECCB 2017 &amp; BOSC 2017 </a></td>
     <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.iscb.org/ismbeccb2017">Prague, Czechia</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Presenters</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">July 25th 2017</span></td>
     <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
     <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">September 1st 2017</span></td>
     <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/events/2017-genome-10k">hub page</a>]</td>
     <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Nicola Soranzo, Graham Etherington</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Nicola Soranzo, Graham Etherington</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">September 25th 2017</span></td>
     <td><a href="http://compgen.mdc-berlin.de/">Computational Genomics and RNA Biology</a></td>
     <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://www.mdc-berlin.de/bimsb">Berlin Institute for Medical Systems Biology, Max Delbrück Center, Berlin, Germany</a></td>
-    <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>compgen@mdc-berlin.de</td>
+    <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>compgen@mdc-berlin.de</td>
   </tr>
   <tr>
     <td><span class="text-nowrap">October 23rd 2017</span></td>

@@ -73,7 +73,7 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <div class="card-header">[Galaxy Developer Roundtable: 12 November](/src/community/devroundtable/index.md
 )</div>
 
-There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the [Galaxy Training Network](https://galaxyproject.org/teach/gtn/).
+There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the [Galaxy Training Network](https://training.galaxyproject.org/).
 </div>
 
 

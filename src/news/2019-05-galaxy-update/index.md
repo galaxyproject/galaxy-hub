@@ -106,7 +106,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
   <td><span class="text-nowrap">May 13th 2019</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module17.pdf">Initiation à l’utilisation de Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 13th 2019</span></td>
@@ -118,13 +118,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
   <td><span class="text-nowrap">May 14th 2019</span></td>
   <td><a href="https://cnrsformation.cnrs.fr/stage-19019-Analyse-avancee-de-sequences.html?axe=98">Analyse avancée de séquences</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/>Bordeaux, France</td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Macha Nikolski</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Macha Nikolski</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 14th 2019</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module8bis.pdf">Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 16th 2019</span></td>
@@ -136,13 +136,13 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
   <td><span class="text-nowrap">May 17th 2019</span></td>
   <td><a href="https://southgreenplatform.github.io/trainings//files/formation-plateformeSG-2019.pdf#page=9">Initiation aux analyses de données transcriptomiques</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://southgreenplatform.github.io/trainings/trainings2019/">IRD, Montpellier, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 23rd 2019</span></td>
   <td><a href="https://southgreenplatform.github.io/trainings//files/formation-plateformeSG-2019.pdf#page=10">Initiation aux analyses de données metabarcoding</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://southgreenplatform.github.io/trainings/trainings2019/">IRD, Montpellier, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Formateurs</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 2nd 2019</span></td>
@@ -160,55 +160,55 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
   <td><span class="text-nowrap">June 12th 2019</span></td>
   <td><a href="http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2019/module23.pdf">Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://migale.jouy.inra.fr/?q=formations">Cycle &quot;Bioinformatique par la pratique&quot; 2019, INRA, Jouy-en-Josas, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Véronique Martin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 1st 2019</span></td>
   <td><a href="/events/gcc2019/">2019 Galaxy Community Conference (GCC2019)</a></td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.konzerthaus.freiburg.de/">Freiburg, Germany</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 3rd 2019</span></td>
   <td><a href="http://bioinformatics.org.au/winterschool/program/">An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="http://bioinformatics.org.au/winterschool/">2019 Winter School in Mathematical &amp; Computational Biology, Brisbane, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Igor Makunin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Igor Makunin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 29th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Getting started with Galaxy and NGS Platforms</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 30th 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Genome assembly using Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 31st 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Variant detection using Galaxy</a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 1st 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">RNA Seq analysis using Galaxy </a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 1st 2019</span></td>
   <td><a href="/events/2019-asmcue">&quot;Teaching undergraduate genomics with Galaxy” and “Resources and recommendations for teaching undergraduate genomics with Galaxy&quot;</a></td>
   <td><img style="float:right;" src="/images/icons/NA.png"/><a href="https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home">ASMCUE 2019, Tyson, Virginia, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mohammad Heydarian, Anton Nekrutenko</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Mohammad Heydarian, Anton Nekrutenko</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">August 2nd 2019</span></td>
   <td><a href="https://qfab.org/training#NGS_Workshops">Metagenomics analysis using Galaxy </a></td>
   <td><img style="float:right;" src="/images/icons/AU.png"/><a href="https://qfab.org/">QFAB, St Lucia, Queensland, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>training@qfab.org</td>
 </tr>
 </tbody>
 </table>

@@ -139,19 +139,19 @@ Plenty of materials for Galaxy administration are now [up to date and available 
   <td><span class="text-nowrap">February 21st 2018</span></td>
   <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/RNA_Sequencing_2018.pdf">RNA Sequencing and Differential Expression</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">February 26th 2018</span></td>
   <td><a href="http://www.denbi.de/22-training-cat/training-courses/460-galaxy5">5th Galaxy high-throughput sequencing (HTS) data analysis workshop</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/>University of Freiburg, Freiburg Germany</td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Freiburg Galaxy Team</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Freiburg Galaxy Team</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 7th 2018</span></td>
   <td><a href="http://www.denbi.de/22-training-cat/training-courses/469-introduction-to-rna-seq-data-analysis-with-galaxy">Introduction to RNA-Seq data analysis with Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/>Am Botanischen Garten, Kiel, Germany</td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Andrea Bagnacani, Markus Wolfien</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Andrea Bagnacani, Markus Wolfien</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 14th 2018</span></td>
@@ -163,43 +163,43 @@ Plenty of materials for Galaxy administration are now [up to date and available 
   <td><span class="text-nowrap">March 20th 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/rna-seq-dge-analysis-galaxy-gvl/#more-1720">RNA-Seq Differential Gene Expression Analysis using Galaxy and the GVL</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 20th 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/intro-galaxy-gvl/">Introduction to Galaxy and the GVL</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 21st 2018</span></td>
   <td><a href="https://www.melbournebioinformatics.org.au/training-events/variant-calling-galaxy-gvl/#more-1012">Variant Calling with Galaxy &amp; the GVL for beginners</a></td>
   <td><img style="float:right" src="/images/icons/AU.png"/><a href="https://www.melbournebioinformatics.org.au/training-and-events/">Melbourne Bioinformatics, Carlton, Victoria, Australia</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christina Hall</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">March 21st 2018</span></td>
   <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Alignment_2018.pdf">Alignment, Visualisation and Variant Calling</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">April 3rd 2018</span></td>
   <td><a href="http://galaxyafrica.sanbi.ac.za/">Galaxy Africa</a></td>
   <td><img style="float:right" src="/images/icons/AF.png"/><a href="http://www.sanbi.ac.za/">SANBI, University of the Western Cape, Cape Town, South Africa</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>galaxyafrica@sanbi.ac.za</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>galaxyafrica@sanbi.ac.za</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">April 10th 2018</span></td>
   <td><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/toutes-sessions/programme?idModule=733&amp;nomModule=Galaxy--Traitement-de-donnees-de-sequences-par-Galaxy-module-7/8">Galaxy : Traitement de données de séquences par Galaxy</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://formationcontinue.agrocampus-ouest.fr/infoglueDeliverLive/zoom?contentId=12699">AGROCAMPUS OUEST, Campus de Rennes, France</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Yvan Le Bras, Sandrine LAGARRIGUE, formco@agrocampus-ouest.fr</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Yvan Le Bras, Sandrine LAGARRIGUE, formco@agrocampus-ouest.fr</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">April 22nd 2018</span></td>
   <td><a href="http://conf.abrf.org/sw2-galaxy-platform-accessible-core-laboratory-solution-proteogenomic-analysis-and-informatics">The Galaxy Platform as an Accessible, Core Laboratory Solution for Proteogenomic Analysis and Informatics</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="http://conf.abrf.org/">ABRF 2018, Myrtle Beach, South Carolina, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Pratik Jagtap</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Pratik Jagtap</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 14th 2018</span></td>
@@ -217,7 +217,7 @@ Plenty of materials for Galaxy administration are now [up to date and available 
   <td><span class="text-nowrap">June 25th 2018</span></td>
   <td><a href="https://gccbosc2018.sched.com">GCC2018 &amp; BOSC 2018</a></td>
   <td><img style="float:right" src="/images/icons/NA.png"/><a href="/events/gccbosc2018/venue/">Reed College, Portland, Oregon, United States</a></td>
-  <td><a href="/teach/gtn/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Organizers</td>
 </tr>
 </tbody>
 </table>
