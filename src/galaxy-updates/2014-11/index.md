@@ -19,18 +19,18 @@ This was [proposed](/src/news/irc-public-log-proposal/index.md) and then [discus
 
 # Galaxy Training Network
 
-<div class='left'><a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
+<div class='left'><a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 
-The *[Galaxy Training Network (GTN)](/src/teach/gtn/index.md)* was [launched October 16](/src/news/galaxy-training-network/index.md) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/src/teach/trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/teach/resources/index.md), a [trainer directory](/src/teach/trainers/index.md), [best practices](/src/teach/best-practices/index.md), and [guidance on computing platforms](/src/teach/computing-platforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+The *[Galaxy Training Network (GTN)](https://training.galaxyproject.org/)* was [launched October 16](/src/news/galaxy-training-network/index.md) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find Galaxy trainers, and to share and discover the wealth of training resources available for Galaxy.  This includes training materials, a trainer directory, best practices, and guidance on computing platforms for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
-If you teach with Galaxy, then please consider adding [your organization](/src/teach/trainers/index.md#add-a-trainer), [materials](/src/teach/resources/index.md#add-a-training-resource), and [best practices](/src/teach/best-practices/index.md). Since the GTN launched two weeks ago, 4 new organizations have joined:
+If you teach with Galaxy, then please consider adding your organization, materials, and best practices. Since the GTN launched two weeks ago, 4 new organizations have joined:
 
-* [Alberta Children's Hospital Research Institute](http://bit.ly/gxytrnACHRI), Calgary, Canada
-* [Memorial Sloan Kettering Cancer Center, Rätsch Laboratory](http://bit.ly/gxytrnRaetsch), New York City, United States
-* [MMG@IICT](http://bit.ly/gxytrnMMG), Hyderabad, India
-* [South Green Platform](http://bit.ly/gxytrnSouth_Green), Montpellier, France
+* Alberta Children's Hospital Research Institute, Calgary, Canada
+* Memorial Sloan Kettering Cancer Center, Rätsch Laboratory, New York City, United States
+* MMG@IICT, Hyderabad, India
+* South Green Platform, Montpellier, France
 
-This brings the total to [20 training organizations on 5 continents](http://bit.ly/gxytrnmap).
+This brings the total to 20 training organizations on 5 continents.
 
 # Events
 

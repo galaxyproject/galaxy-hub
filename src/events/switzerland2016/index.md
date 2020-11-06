@@ -25,7 +25,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 10:30 - 11:00 |  Coffee Break  | 
 | 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/src/iuc/index.md) and the Galaxy tool ecosystem  |   | 
 | 11:20 - 11:40 |  [Björn Grüning](/src/people/bjoern-gruening/index.md)  |  Fixing Bioinformatic Infrastructure  |   | 
-| 11:40 - 12:00 |  Bérénice Batut  |  [Galaxy Training Network](/src/teach/gtn/index.md) - rebooted  |   | 
+| 11:40 - 12:00 |  Bérénice Batut  |  [Galaxy Training Network](https://training.galaxyproject.org/) - rebooted  |   | 
 | 12:00 - 13:30 |  Lunch Break in nearby restaurants  | 
 | 13:30 - 13:50 |  TBA  |  Debian Med - Debian for medicine and life sciences  |   | 
 | 13:50 - 14:10 |  Wolfgang Maier  |  CosmicNotes - Documenting your work in Galaxy  |   | 

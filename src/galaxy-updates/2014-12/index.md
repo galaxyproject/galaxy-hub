@@ -250,11 +250,11 @@ The prior bx.psu.edu list posting email addresses will continue to accept email,
 
 # New Galaxy-Training Mailing List
 
-The [Galaxy-Training mailing list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/src/teach/gtn/index.md), a [world-wide](/src/teach/trainers/index.md) group of training organizations that give Galaxy-based training.
+The [Galaxy-Training mailing list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](https://training.galaxyproject.org/), a world-wide group of training organizations that give Galaxy-based training.
 
 If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/). Messages to this list are publicly archived and will be included in the [Galaxy search engine](/src/search/index.md) as well.
 
-<div class='right'><a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
+<div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 
 *And please welcome the latest member of the Galaxy Training Network:*
 

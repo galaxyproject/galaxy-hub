@@ -274,8 +274,8 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   <tr>
     <th> March 29 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/icons/EU.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><img src="/src/images/icons/EU.png" alt="" /></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -329,19 +329,19 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> June 9-10 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'>Informatics on High-throughput Sequencing Data</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Montreal, Quebec, Canada </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 13-17 </th>
     <td> <em><a href='http://bioinformatics.ucdavis.edu/2016-bioinformatics-training-program-preview/'>Using Galaxy For Analysis of High Throughput Sequence Data</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Davis, California, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
     <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>
@@ -354,8 +354,8 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -595,12 +595,12 @@ The 0.6.x release includes these changes:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>

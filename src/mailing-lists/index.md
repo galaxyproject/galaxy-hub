@@ -51,7 +51,7 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
   </tr>
   <tr>
     <th> <a href='https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/'>galaxy-training</a> </th>
-    <td> If you have a question about <a href='/src/teach'>teaching bioinformatics with Galaxy, or about teaching Galaxy itself</a>, then this is a good place to find an answer. This is also the official mailing list of the <a href='/src/teach/gtn'>Galaxy Training Network (GTN)</a>. </td>
+    <td> If you have a question about <a href='https://training.galaxyproject.org/'>teaching bioinformatics with Galaxy, or about teaching Galaxy itself</a>, then this is a good place to find an answer. This is also the official mailing list of the <a href='https://training.galaxyproject.org/'>Galaxy Training Network (GTN)</a>. </td>
     <td> galaxy-training AT lists DOT galaxyproject DOT org </td>
     <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/'>Mailman</a> </td>
   </tr>

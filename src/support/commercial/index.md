@@ -57,20 +57,3 @@ The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is 
 [CloudMan](/src/cloudman/index.md) and [Globus Genomics](/src/cloud/index.md#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 See the Galaxy [Cloud](/src/cloud/index.md) page for more and specific offerings..
-
-
-# Training
-
-Training on how to use Galaxy is offered by several companies around the world:
-
-* **[Geneclat Technologies](/src/teach/trainers/index.md#geneclat-technologies)**
-  * Based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
-
-* **[Intero Life Sciences](https://www.galaxyinformatics.com/training)**
-  * Offers a certification program for those seeking verified expertise in [Galaxy Enterprise](https://www.galaxyinformatics.com/). Based in North Carolina (US Headquarters) and Freiburg, Germany (EU Headquarters)
-
-* **[Noor Biotechnologies Ltd.](/src/teach/trainers/index.md#noor-biotechnologies-ltd)**
-  * Based in Malaysia and Saudi Arabia. We are available to train around the world.
-
-* **[OpenHelix](/src/teach/trainers/index.md#openhelix)**
-  * Based in North America, but available globally and via webinar.

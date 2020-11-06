@@ -127,7 +127,7 @@ Galaxy will have a [strong presence](/src/events/asms2016/index.md) at the [64th
 <div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data" width="200" /></a>
 </div>
 
-The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/src/teach/trainers/index.md#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
+The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](https://training.galaxyproject.org/), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
 
 This workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will explore the basics of high throughput sequencing technologies, focusing on Illumina data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data, utilizing computing power of the Amazon Cloud.
 
@@ -157,13 +157,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> May 5 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-genome-assembly-using-gvl/'>De novo genome assembly using Genomics Virtual Lab Workshop</a></em> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> University of Queensland, St Lucia, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
   </tr>
   <tr>
     <th> May 6 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-2-2/'>Variant detection using Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> University of Queensland, St Lucia, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training@qfab.org">QFAB Training</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training@qfab.org">QFAB Training</a> </td>
   </tr>
   <tr>
     <th> May 10-14 </th>
@@ -181,25 +181,25 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> May 12-13 </th>
     <td> <em><a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'>RNA-Seq and DNA-Seq Cancer Analyses</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Rotterdam, The Netherlands </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
   </tr>
   <tr>
     <th> May 17 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=80'>Galaxy First Step</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
   </tr>
   <tr>
     <th> May 18-19 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=81'>Galaxy: Reads alignment and SNP calling</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Philippe Bardou </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Philippe Bardou </td>
   </tr>
   <tr>
     <th> May 19-20 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=82'>Galaxy : RNAseq alignment and transcripts assemblies</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Celine Noirot, Cédric Cabau </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Celine Noirot, Cédric Cabau </td>
   </tr>
   <tr>
     <th> May 18-20 </th>
@@ -244,19 +244,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> June 5-9 </th>
     <td> <em><a href='/src/events/asms2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> San Antonio, Texas, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/events/asms2016/index.md'>Presenters</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/events/asms2016/index.md'>Presenters</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'>Informatics on High-throughput Sequencing Data</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Montreal, Quebec, Canada </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 13-17 </th>
     <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Davis, California, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
@@ -268,7 +268,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> June 25-29 </th>
     <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>
@@ -314,8 +314,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -541,12 +541,12 @@ There are [two new publicly accessible Galaxy servers](/src/use/index.md):
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/\'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
@@ -554,9 +554,9 @@ There are [two new publicly accessible Galaxy servers](/src/use/index.md):
 
 <br />
 
-One new [training resource](/src/teach/resources/index.md) was added in April:
+One new [training resource](https://training.galaxyproject.org/) was added in April:
 
-* [Freiburg hands-on training collection](/src/teach/resource/freiburg-hands-on-training/index.md).
+* Freiburg hands-on training collection.
 
 ----
 

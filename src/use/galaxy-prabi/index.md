@@ -15,7 +15,7 @@ comments:
 user_support:
   - "[galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French)"
   - "Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr)"
-  - "We also provide galaxy [training courses](/src/teach/trainers/index.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis."
+  - "We also provide galaxy [training courses](https://training.galaxyproject.org/) for RNA-seq and ChIP-seq data analysis."
 quotas:
   - "Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB."
   - "Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space."

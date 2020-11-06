@@ -120,7 +120,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><span class="text-nowrap">May 29th 2017</span></td>
   <td><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a> [<a href="/src/events/2017-05-w4e">hub page</a>]</td>
   <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.france-bioinformatique.fr/fr">Pasteur Institute, Paris, France</a></td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christophe Caron</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christophe Caron</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 29th 2017</span></td>
@@ -144,31 +144,31 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <td><span class="text-nowrap">June 20th 2017</span></td>
   <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
   <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">June 26th 2017</span></td>
   <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/src/events/2017-gcc">hub page</a>]</td>
   <td><img style="float:right;" src="/src/images/icons/EU.png"/>Montpellier, Fance</td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 2nd 2017</span></td>
   <td><a href="http://www.smbe2017.org/symposia/">Computation and reproducibility in molecular evolution</a></td>
   <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="http://www.smbe2017.org/">SMBE 2017, Austin, Texas, United States</a></td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Anton Nekrutenko, Sergei Kosakovsky Pond</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">July 25th 2017</span></td>
   <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
   <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">September 1st 2017</span></td>
   <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/src/events/2017-genome-10k">hub page</a>]</td>
   <td><img style="float:right;" src="/src/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
-  <td><a href="/src/teach/gtn/index.md"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
+  <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr></tbody></table>
 
 
@@ -328,12 +328,12 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 
 <table class="table table-striped">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>

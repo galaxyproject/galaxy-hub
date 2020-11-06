@@ -119,7 +119,7 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
     <th> August 6-7 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><img src="/src/images/icons/AU.png" alt="" /></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#qfab-bioinformatics'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -129,7 +129,7 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
     <th> September 7-9 </th>
     <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a></em> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="" /></div> Leiden University Medical Center, The Netherlands </td>
-    <td> <div class='right'> <a href='/src/teach/trainers/index.md#lumc-erasmusmc-dtl-learning-programme'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
+    <td> <div class='right'> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
   </tr>
   <tr>
     <th> September 14-18 </th>
@@ -167,7 +167,7 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="" /></div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md#galaxy--prabi-project'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -184,8 +184,8 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -391,12 +391,12 @@ Galaxy now has a formal and open policy for managing the project source code - i
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
@@ -415,12 +415,12 @@ Three new **[Community Log Board](/src/blog/index.md)** entries were added in Ju
 * **[Exposing Galaxy reports via nginx in a production instance](http://galacticengineer.blogspot.co.uk/2015/06/exposing-galaxy-reports-via-nginx-in.html)**
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 
-And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **[Teaching Resources Directory](/src/teach/resources/index.md)**:
+And the new Galaxy NGS 101 set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **Teaching Resources Directory**:
 
-* **[Galaxy NGS 101](/src/teach/resource/galaxy-ngs101/index.md)**
+* **Galaxy NGS 101**
     by [Anton Nekrutenko](/src/people/anton/index.md)
 
-* **[Genomic Data Science with Galaxy on Coursera](/src/teach/resource/genomic-data-science-galaxy-coursera/index.md)**
+* **Genomic Data Science with Galaxy on Coursera**
     by [James Taylor](/src/people/james-taylor/index.md)
 
 ----

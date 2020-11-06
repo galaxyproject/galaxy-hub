@@ -112,7 +112,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
      <th class="th" > December&nbsp;15-16 </th>
      <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
      <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Freiburg, Germany </td>
-     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
+     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
    </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -127,7 +127,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <th> January 16-19 </th>
     <td> <strong><a href='/src/events/2017-egdw/index.md'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="Europe" /></div> Strasbourg, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
     <th> January 30 </th>
@@ -142,13 +142,13 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> <div class='right'><img src="/src/images/icons/AU.png" alt="Australia" /></div> University of Melbourne, Victoria, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <th> February 13-17 </th>
     <td> <strong><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></strong> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="Europe" /></div> Freiburg, Germany </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -157,15 +157,15 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="Europe" /></div> Montpellier, France </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -320,12 +320,12 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/teach/resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/teach/trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
   </tr>
