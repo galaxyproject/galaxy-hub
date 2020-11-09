@@ -1,6 +1,6 @@
 ---
 title: "Online data analysis for biologists"
-date: '2020-11-11'
+date: '2020-11-12'
 days: 1
 tease: "Get a hands-on introduction to Galaxy, an online platform for data analysis"
 continent: GL
