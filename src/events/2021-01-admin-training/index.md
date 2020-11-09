@@ -9,7 +9,7 @@ location_url: ""
 external_url:
 gtn: true
 contact: Instructors
-image: "2021-admin-200.png"
+image: "/src/images/galaxy-logos/admin-training-logo.jpg"
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**
@@ -20,7 +20,7 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 
 # Prerequisites
 
-**Please review the prerequisites carefully before registering.**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
+**Please review the prerequisites carefully before applying.**  If you don't meet the prerequisites then this workshop will be a frustrating experience.
 
 ## Comfortable with the Unix/Linux command line
 
