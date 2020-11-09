@@ -63,7 +63,7 @@ My pre-bioinformatics career included
 * [2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/), June 26-30, 2017, Montpellier, France
 * [Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017), February 3-9, 2017, Melbourne, Australia
 * [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md), November 7-11, 2016, Salt Lake City, Utah, United States
-* [2016 Galaxy Community Conference (GCC2016)](https://gcc2016.iu.edu/index.php), June 25-29, 2016, Bloomington, Indiana, United States
+* [2016 Galaxy Community Conference (GCC2016)](https://web.archive.org/web/http://gcc2016.iu.edu/index.php), June 25-29, 2016, Bloomington, Indiana, United States
 * [International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/), Computer Demonstration Track, January 9-13, 2016, San Diego, California, United States
 * [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), Norwich, United Kingdom
 * [International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/), Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States

@@ -28,7 +28,7 @@ The [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) group has bi-m
 * [2016/10/20](/src/events/switzerland2016/index.md) in person Meetup at the [Swiss Galaxy workshop](/src/events/switzerland2016/index.md) 
 * [2016-08-18 Web Meetup](/src/community/galaxy-admins/meetups/2016-08-18/index.md)
   *  [Olivia Choudhury](https://engineering.nd.edu/profiles/colivia), [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), and [Scott Emrich](https://www3.nd.edu/~semrich/) of the [University of Notre Dame](http://www.nd.edu/) present on MakeFlow.
-* [2016/06/28](https://gcc16.sched.org/event/7KLn/galaxyadmins-birds-of-a-feather) in person Meetup at [GCC2016](https://gcc2016.iu.edu/)
+* [2016/06/28](https://gcc16.sched.org/event/7KLn/galaxyadmins-birds-of-a-feather) in person Meetup at [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/)
 * [2016-06-16 Web Meetup](/src/community/galaxy-admins/meetups/2016-06-16/index.md)
   *  [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will present *Galaxy in Production at the University of Minnesota*.
 * [2016-04-21 Web Meetup](/src/community/galaxy-admins/meetups/2016-04-21/index.md)

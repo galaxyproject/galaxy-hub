@@ -22,7 +22,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016 presentations and training are online
 
 <div class='right'>
-<a href='https://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
 </div>
 
 Slides for [accepted](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks) and [lightning](https://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning) talks are online, as are [the posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters).  They have also been posted to the new [F1000Research Galaxy Channel](http://f1000research.com/channels/galaxy). Video of training and talks will also be posted online in the coming month.

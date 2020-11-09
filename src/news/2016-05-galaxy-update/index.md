@@ -28,6 +28,6 @@ Some highlights from the **[May Galaxy News](/src/galaxy-updates/2016-05/index.m
 * A new [Galaxy Community Hub](/src/galaxy-updates/2016-05/index.md#galaxy-community-hubs) training resource
 * New [Releases](/src/galaxy-updates/2016-05/index.md#releases): [Planemo](/src/galaxy-updates/2016-05/index.md#planemo-0242), and [galaxy-lib](/src/galaxy-updates/2016-05/index.md#galaxy-lib-1670) and [Pulsar](/src/galaxy-updates/2016-05/index.md#pulsar)
 
-Don't miss those deadlines, and [see you in June](https://gcc2016.iu.edu/),
+Don't miss those deadlines, and [see you in June](https://web.archive.org/web/http://gcc2016.iu.edu/),
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
