@@ -25,4 +25,4 @@ Nominated topics will be published as they come in.  **Topic nomination closes F
 
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
-[GCC2016 Exec Committee](/src/events/gcc2016/Organizers/index.md)
+[GCC2016 Exec Committee](https://web.archive.org/web/http://gcc2016.iu.edu/organizers/index.php)

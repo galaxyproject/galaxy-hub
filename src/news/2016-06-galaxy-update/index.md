@@ -26,6 +26,6 @@ Some highlights from the **[June Galaxy News](/src/galaxy-updates/2016-06/index.
 * New [Releases](/src/galaxy-updates/2016-06/index.md#releases): [Galaxy v16.04](/src/galaxy-updates/2016-06/index.md#galaxy-v1604), [CloudMan 16.04](/src/galaxy-updates/2016-06/index.md#cloudman-1604), [Planemo](/src/galaxy-updates/2016-06/index.md#planemo-0250---0260), and [galaxy-lib](/src/galaxy-updates/2016-06/index.md#galaxy-lib-1671---1677).
 * [April and May ToolShed Contributions](/src/galaxy-updates/2016-06/index.md#toolshed-contributions), and [other news](/src/galaxy-updates/2016-06/index.md#other-news) too.
 
-Hope to [see you in Bloomington](https://gcc2016.iu.edu/),
+Hope to [see you in Bloomington](https://web.archive.org/web/http://gcc2016.iu.edu/),
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)

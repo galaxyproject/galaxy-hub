@@ -20,7 +20,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016
 
 <div class='center'>
-<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="300" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="300" /></a>
 </div>
 
 ## Complete Schedule Online
@@ -29,24 +29,24 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://gcc2016.iu.edu'><img src="/src/images/screenshots/GCC2016SchedHomeThumb.png" alt="2016 Galaxy Community Conference complete schedule" width="170" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/src/events/gcc2016/bofs/index.md), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/src/events/gcc2016/bofs/index.md), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
 
 ## Registration: June 4
 
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='https://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='https://web.archive.org/web/http://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
 </div>
 
-**[On-time registration for GCC2016](https://gcc2016.iu.edu/registration/) ends June 4**.  *(After that costs go up 100%.  You don't want that.)* Registration rates depend on which events you register for, and your career stage & affiliation. On-time registration starts at less than $65 / day for students and postdocs, and at less than $90 / day for attendees from non-profits.
+**[On-time registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) ends June 4**.  *(After that costs go up 100%.  You don't want that.)* Registration rates depend on which events you register for, and your career stage & affiliation. On-time registration starts at less than $65 / day for students and postdocs, and at less than $90 / day for attendees from non-profits.
 
-You can also sign up for [conference housing](https://gcc2016.iu.edu/location) during registration.  
+You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
 
-You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://gcc2016.iu.edu/location) options before beginning the registration process.
+You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) options before beginning the registration process.
 
 ## Posters: There is still space!
 
@@ -65,7 +65,7 @@ Other types of late abstract submissions can also be submitted and will be consi
 
 And, please remember that all accepted presentations are eligible for consideration for publication in the journal *[GigaScience](http://gigascience.biomedcentral.com/)'s* [Galaxy series](http://www.gigasciencejournal.com/series/Galaxy). **Published papers will receive a 15% discount in the [article-processing charge](http://gigascience.biomedcentral.com/frequently-asked-questions)** if you flag GCC2016 on submission.
 
-Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://gcc2016.iu.edu/abstracts/index.php) for full details.
+Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://web.archive.org/web/http://gcc2016.iu.edu/abstracts/index.php) for full details.
 
 <div class='right'><br />
 <a href='http://jetstream-cloud.org/'><img src="/src/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="240" /></a><br />
@@ -78,14 +78,14 @@ Topics should be of interest to those working in high-throughput data analysis a
 
 ## Sponsors
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ### Bloomington Life Sciences Partnership
 
 <div class='right'><a href='http://bloomingtonlifesciences.com/'><img src="/src/images/logos/BloomingtonLifeSciencesPartnership.png" alt="Bloomington Life Sciences Partnership (BLSP)" width="200" /></a>
 </div>
 
-Please welcome the **[Bloomington Life Sciences Partnership (BLSP)](http://bloomingtonlifesciences.com/)** as a [GCC2016 Sponsor](https://gcc2016.iu.edu/sponsors/index.php). BLSP is a collaborative effort dedicated to continued life sciences business growth in greater Bloomington, Indiana - a nationally recognized leading metro area in medical devices, contract pharma, biotechnology, basic research and life sciences workforce development. The BLSP continues to carry out its mission of attracting quality jobs to Bloomington and Monroe County. We are fortunate to have a vibrant, diverse and accepting community with a strong academic, advanced manufacturing, life sciences and technology base that add to and support our extraordinary quality of life. With assets like Indiana University and Ivy Tech Community College, we will continue to attract the highly skilled and talented workforce our local employers and community need. The BLSP posts open life sciences jobs, information on local resources and equipment for public use at the university, and posts news and events in the area.
+Please welcome the **[Bloomington Life Sciences Partnership (BLSP)](http://bloomingtonlifesciences.com/)** as a [GCC2016 Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php). BLSP is a collaborative effort dedicated to continued life sciences business growth in greater Bloomington, Indiana - a nationally recognized leading metro area in medical devices, contract pharma, biotechnology, basic research and life sciences workforce development. The BLSP continues to carry out its mission of attracting quality jobs to Bloomington and Monroe County. We are fortunate to have a vibrant, diverse and accepting community with a strong academic, advanced manufacturing, life sciences and technology base that add to and support our extraordinary quality of life. With assets like Indiana University and Ivy Tech Community College, we will continue to attract the highly skilled and talented workforce our local employers and community need. The BLSP posts open life sciences jobs, information on local resources and equipment for public use at the university, and posts news and events in the area.
 
 ----
 
@@ -112,7 +112,7 @@ There will be two [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetups
 
 1. **An [online meetup on June 16](/src/community/galaxy-admins/meetups/2016-06-16/index.md)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
 
-1. **[An in person birds-of-a-feather meetup](http://sched.co/7KLn)** at [GCC2016](https://gcc2016.iu.edu/) in Bloomington, Indiana.
+1. **[An in person birds-of-a-feather meetup](http://sched.co/7KLn)** at [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/) in Bloomington, Indiana.
 
 ## June, July, and August Events
 
@@ -125,7 +125,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
 <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='https://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoSquareBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="120" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoSquareBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="120" /></a>
 </div>
 
 <table>
@@ -185,9 +185,9 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>

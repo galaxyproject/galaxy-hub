@@ -20,7 +20,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016
 
 <div class='left'>
-<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
 [GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
@@ -30,18 +30,18 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <div class='right'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='https://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='https://web.archive.org/web/http://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
 </div>
 
-**[Early registration for GCC2016](https://gcc2016.iu.edu/registration/) is now open**. 
+**[Early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**. 
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
-You can also sign up for [conference housing](https://gcc2016.iu.edu/location) during registration.  
+You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
 
-You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://gcc2016.iu.edu/location) options before beginning the registration process.
+You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) options before beginning the registration process.
 
 ## GCC2016 Abstract Submission Deadlines!
 
@@ -58,7 +58,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 **[Poster and Demo abstract submission](http://bit.ly/gcc2016abssub) closes May 20, 2016** (or earlier depending on poster space availability).  Poster and demo submissions are reviewed on a rolling basis, and submitters will be notified of acceptance status no later than two weeks after the abstract is submitted.  You may submit similar content for oral presentations, posters, and demos. 
 
-Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://gcc2016.iu.edu/abstracts/index.php) for full details.
+Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://web.archive.org/web/http://gcc2016.iu.edu/abstracts/index.php) for full details.
 
 ## Scholarships: International application deadline is March 20
 
@@ -82,7 +82,7 @@ See the [full announcement](/src/news/gcc2016-scholarships/index.md) for details
 
 <div class='left'><br /><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="130" /></a></div>
 
-We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://gcc2016.iu.edu/sponsors) for this annual event.  BioTeam is a professional services and products company at the intersection of science and information technology. BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.   
+We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors) for this annual event.  BioTeam is a professional services and products company at the intersection of science and information technology. BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.   
 
 The **[BioTeam Appliance Galaxy Edition](http://bioteam.net/bioteam-appliance/galaxy-edition/)** is a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers can install whatever tools they need and use the server as their own high-performance informatics infrastructure along side Galaxy.  BioTeam provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.  For more information:  http://bioteam.net/bioteam-appliance/galaxy-edition/
 
@@ -90,7 +90,7 @@ This is the fourth year in a row that BioTeam has been a GCC Sponsor.
 
 
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ----
 
@@ -339,9 +339,9 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>

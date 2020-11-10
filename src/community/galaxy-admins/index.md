@@ -13,4 +13,4 @@ Galaxy-Admins was started with [this email thread in April 2012](https://lists.g
 
 ## Meetups
 
-The group [meets](/src/community/galaxy-admins/meetups/index.md) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/src/events/index.md), such as [GCC2016](https://gcc2016.iu.edu/).
+The group [meets](/src/community/galaxy-admins/meetups/index.md) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/src/events/index.md), such as [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/).

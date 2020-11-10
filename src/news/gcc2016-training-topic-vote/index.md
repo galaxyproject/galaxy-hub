@@ -30,4 +30,4 @@ As always, please let us know if you have any questions.
 
 Thanks,
 
-The [GCC2016 Exec](https://gcc2016.iu.edu/Oorganizers)
+The [GCC2016 Exec](https://web.archive.org/web/http://gcc2016.iu.edu/Oorganizers)

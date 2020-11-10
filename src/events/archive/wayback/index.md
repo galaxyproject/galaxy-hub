@@ -37,7 +37,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
 <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='https://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" height="100" /></a> &nbsp;&nbsp;&nbsp; 
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" height="100" /></a> &nbsp;&nbsp;&nbsp; 
 <a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src="/src/images/logos/GMOD2016.png" alt="GMOD Meeting" height="80" /></a>
 <a href='/src/events/ismb2016/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2015" width="100" /></a>
 <a href='/src/events/ismb2016/index.md'><img src="/src/images/logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="100" /></a>
@@ -542,9 +542,9 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers'>Organizers</a> </td>
     <td> </td>
   </tr>
   <tr>

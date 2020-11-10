@@ -3,7 +3,7 @@ title: "GCC2016 Scholarships: Apply Now!"
 date: "2016-02-18"
 ---
 <div class='right'>
-<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
 We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform) for the [2016 Galaxy Community Conference](http://gcc2016.iu.edu/), being held in Bloomington, Indiana, United States, June 25-29.  Scholarships are available to students and post-docs in historically under-represented groups, and to those from or based in Low and Lower-Middle Income Economies, [as defined by the World Bank](http://bit.ly/1nO82wD).  If this describes you or one of your students then we hope to receive an application.

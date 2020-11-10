@@ -20,10 +20,10 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016 is done!
 
 <div class='right'>
-<a href='https://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
 </div>
 
-And it was again a smashing success!  For the 5th year in a row we had over 200 participants signed up for GCC events, including [hackathons](https://gcc2016.iu.edu/hacks/index.php), [training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [the two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All). The [meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featured [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), [posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos), [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), and [birds-of-a-feather meetups](/src/events/gcc2016/bofs/index.md).
+And it was again a smashing success!  For the 5th year in a row we had over 200 participants signed up for GCC events, including [hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [the two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All). The [meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featured [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), [posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos), [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), and [birds-of-a-feather meetups](/src/events/gcc2016/bofs/index.md).
 
 [GCC2016](http://gcc2016.iu.edu/) was held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This was the 7th annual gathering of the Galaxy community.  
 

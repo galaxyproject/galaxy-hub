@@ -102,7 +102,7 @@ The new papers were tagged with:
 ## GCC2016 Website is online
 
 <div class='right'>
-<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference"  /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference"  /></a>
 </div>
 
 The **[2016 Galaxy Community Conference website is now online](http://gcc2016.iu.edu/)** and includes [registration information](http://gcc2016.iu.edu/registration/index.php) and the full [training schedule](https://gcc16.sched.org/grid-full#2016-06-26).
@@ -114,14 +114,14 @@ The **[2016 Galaxy Community Conference website is now online](http://gcc2016.iu
 The [training schedule](https://gcc16.sched.org/grid-full#2016-06-26) includes session titles, descriptions, prerequisites, and instructors. Many thanks to everyone who nominated and voted on topics, and especially to the many [instructors](https://gcc16.sched.org/directory/artists) who are contributing their time and effort to make GCC2016 a success.
 
 <div class='right'>
-<a href='https://pti.iu.edu/'><img src="https://gcc2016.iu.edu/img/PTI_signature_small.jpg" alt="Indiana University Pervasive Technology Institute (PTI)" /></a>
+<a href='https://pti.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/PTI_signature_small.jpg" alt="Indiana University Pervasive Technology Institute (PTI)" /></a>
 </div>
 
-Thanks also go to **the [Indiana University Pervasive Technology Institute (PTI)](https://pti.iu.edu/)**, who are supporting  GCC2016 as a **[Platinum Sponsor](https://gcc2016.iu.edu/sponsors/index.php)**.  PTI is home to the [National Center for Genome Analysis Support](http://ncgas.org/) ([for which NSF funding was recently renewed](https://itnews.iu.edu/articles/2015/iu-genome-analysis-center-wins-national-science-foundation-funding-renewal.php)), and the [Galaxy Trinity instance](https://galaxy.ncgas-trinity.indiana.edu/root), and is a long time supporter of the Galaxy Community. PTI pairs fundamental academic computational research with the widely known strengths of Indiana University through innovations and service delivery in networking and high performance computing.  See the [PTI website](http://pti.iu.edu/) for more information.
+Thanks also go to **the [Indiana University Pervasive Technology Institute (PTI)](https://pti.iu.edu/)**, who are supporting  GCC2016 as a **[Platinum Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)**.  PTI is home to the [National Center for Genome Analysis Support](http://ncgas.org/) ([for which NSF funding was recently renewed](https://itnews.iu.edu/articles/2015/iu-genome-analysis-center-wins-national-science-foundation-funding-renewal.php)), and the [Galaxy Trinity instance](https://galaxy.ncgas-trinity.indiana.edu/root), and is a long time supporter of the Galaxy Community. PTI pairs fundamental academic computational research with the widely known strengths of Indiana University through innovations and service delivery in networking and high performance computing.  See the [PTI website](http://pti.iu.edu/) for more information.
 
 ### Seeking Sponsors
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ### Registration will open this month
 
@@ -225,7 +225,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> June 25-29 </th>
     <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/events/gcc2016/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/index.php'>Organizers</a> </td>
   </tr>
 </table>
 

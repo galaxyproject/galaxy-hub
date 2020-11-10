@@ -20,7 +20,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016
 
 <div class='left'>
-<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
 [GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
@@ -30,18 +30,18 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <div class='right'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='https://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='https://web.archive.org/web/http://gcc2016.iu.edu/registration/'>Register Now</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
 </div>
 
-We are pleased to announce that **[early registration for GCC2016](https://gcc2016.iu.edu/registration/) is now open**. 
+We are pleased to announce that **[early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**. 
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
-You can also sign up for [conference housing](https://gcc2016.iu.edu/location) during registration.  
+You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
 
-You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://gcc2016.iu.edu/location) options before beginning the registration process.
+You are strongly encouraged to review the [training](https://gcc16.sched.org/grid-full#2016-06-26) and [housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) options before beginning the registration process.
 
 
 ## GCC2016 Abstract Submission is Open
@@ -59,7 +59,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 **The deadline for oral presentation abstracts is March 25, 2016**.  Abstracts will be reviewed and submitters will be notified of acceptance status no later than April 11, 2016.
 
-**Poster and Demo abstract submission closes May 20, 2016** (or earlier depending on poster space availability).  Poster and demo submissions are reviewed on a rolling basis, and submitters will be notified of acceptance status no later than two weeks after the abstract is submitted.  Please see the [abstracts page](https://gcc2016.iu.edu/abstracts/index.php) for full details.
+**Poster and Demo abstract submission closes May 20, 2016** (or earlier depending on poster space availability).  Poster and demo submissions are reviewed on a rolling basis, and submitters will be notified of acceptance status no later than two weeks after the abstract is submitted.  Please see the [abstracts page](https://web.archive.org/web/http://gcc2016.iu.edu/abstracts/index.php) for full details.
 
 This is an ideal time to share your work with the community.  
 
@@ -69,17 +69,17 @@ This is an ideal time to share your work with the community.
 <a href='http://www.lenovo.com/systems'><img src="/src/images/logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
 </div>
 
-And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
+And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
 
 <br />
 
 <div class='left'><a href='http://www.globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="140" /></a></div>
 
-Also, please welcome **[Globus Genomics](https://www.globus.org/genomics)** as a [GCC sponsor](https://gcc2016.iu.edu/sponsors/index.php) **for the 4th year in a row.**  Globus Genomics is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org/) with flexible, intuitive workflow/pipeline creation capabilities of the Galaxy framework and high throughput computing capabilities on Amazon Web Services. Using Globus Genomics, researchers can easily transfer large amounts of sequence data from various sequencing centers and analyze the data either interactively or using one of the pre-defined best practice analytical pipelines with the familiar Galaxy interface.
+Also, please welcome **[Globus Genomics](https://www.globus.org/genomics)** as a [GCC sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) **for the 4th year in a row.**  Globus Genomics is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org/) with flexible, intuitive workflow/pipeline creation capabilities of the Galaxy framework and high throughput computing capabilities on Amazon Web Services. Using Globus Genomics, researchers can easily transfer large amounts of sequence data from various sequencing centers and analyze the data either interactively or using one of the pre-defined best practice analytical pipelines with the familiar Galaxy interface.
 
 
 <br />
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the GCC2016 Exec for more information.
 
 ----
 
@@ -267,9 +267,9 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
