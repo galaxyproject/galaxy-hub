@@ -12,6 +12,8 @@ gtn: false
 contact: "Dannon Baker, John Chilton, Marius van den Beek"
 ---
 
+**[Video](https://youtu.be/coKgWylWqNU)**
+
 Super informal meeting this week **including a discussion of tool testing and tool deployment issues.**
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20201029T12&p1=179&ah=1)).
