@@ -41,7 +41,7 @@ We can be reached at *GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org
 * *[Krzysztof Poterlowicz](https://www.bradford.ac.uk/life-sciences/chemistry-and-biosciences/our-staff/dr-krzysztof-poterlowicz.php)*, [University of Bradford](https://bradford.ac.uk/external/)
 * *[Helena Rasche](/src/people/helena-rasche/index.md)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Devon Ryan](https://www.researchgate.net/profile/Devon_Ryan)*, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/)
-* *[Beata Scholz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
+* *[Beata Scholtz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
 * *[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)*, [Earlham Institute](http://www.earlham.ac.uk/)
 * *[Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden)*, [University of the Western Cape](https://www.uwc.ac.za/), [South African National Bioinformatics Institute (SANBI)](https://www.sanbi.ac.za/)
 * *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/) 
