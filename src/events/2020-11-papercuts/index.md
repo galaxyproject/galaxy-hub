@@ -37,6 +37,7 @@ Here are links to the issues identified as potential targets for paper cuts day:
 * [Galaxy Training Network](https://github.com/galaxyproject/training-material): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a>, <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> and <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> tags.
 * [Cloudman](https://github.com/galaxyproject/cloudman): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> tag.
 * [IUC Tools](https://github.com/galaxyproject/tools-iuc): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
+* [BioBlend](https://github.com/galaxyproject/bioblend): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
 
 ## Join us in our regular onboarding video calls
 
