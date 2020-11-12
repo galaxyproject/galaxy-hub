@@ -33,6 +33,13 @@ mixin renderEvent()
                 li
                     strong Contact: 
                     | !{contact}
+            if links
+                li
+                    strong Links: 
+                    each link in links
+                        a( href=link.url )
+                            | #{link.text}
+                        | . 
         div: p !{ contents }
 
 block content

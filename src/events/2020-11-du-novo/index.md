@@ -10,5 +10,8 @@ external_url: "https://depot.galaxyproject.org/hub/attachments/events/2020-11-du
 gtn: false
 contact: "Barbara Arbeithuber, Nick Stoler "
 tags: [ webinar ]
+links:
+  - text: "Video"
+    url: "https://www.youtube.com/watch?v=yP8noF2fyMs"
 image: 
 ---
