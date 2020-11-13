@@ -24,6 +24,15 @@ mixin renderEventRow(item)
             else
                 a( href=item.link )
                     +renderEventTitle(item)
+            span( class="small")
+                if item.tease != ''
+                    | #{item.tease} 
+                if item.links
+                    | ( 
+                    each link in item.links
+                        a( href=link.url )
+                            | #{link.text}. 
+                    | )
         td
             if item.continent
                 img(style="float:right;" src='/images/icons/' + item.continent + '.png')
