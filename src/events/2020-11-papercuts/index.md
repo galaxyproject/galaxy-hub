@@ -33,11 +33,17 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 Here are links to the issues identified as potential targets for paper cuts day:
 
-* [Galaxy Server](https://github.com/galaxyproject/galaxy): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> tag.
-* [Galaxy Training Network](https://github.com/galaxyproject/training-material): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a>, <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> and <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> tags.
-* [Cloudman](https://github.com/galaxyproject/cloudman): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> tag.
-* [IUC Tools](https://github.com/galaxyproject/tools-iuc): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
-* [BioBlend](https://github.com/galaxyproject/bioblend): <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> tag.
+
+| Repo / Project | What is it? | Tags |
+| --- | --- | --- |
+| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> | 
+| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> | 
+| **[Cloudman](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> | 
+| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  | 
+| **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> | 
+| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> | 
+| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> | 
+
 
 ## Join us in our regular onboarding video calls
 
