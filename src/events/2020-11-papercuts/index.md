@@ -43,7 +43,7 @@ Here are links to the issues identified as potential targets for paper cuts day:
 | **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> | 
 | **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> | 
 | **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> | 
-
+| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> | 
 
 ## Join us in our regular onboarding video calls
 
