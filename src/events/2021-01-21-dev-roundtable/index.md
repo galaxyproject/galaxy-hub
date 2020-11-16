@@ -4,7 +4,7 @@ date: '2021-01-21'
 days: 1
 tease: "TBD"
 continent: GL
-location: "Online"
+location: "Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:

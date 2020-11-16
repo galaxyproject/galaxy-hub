@@ -4,7 +4,7 @@ date: '2020-09-04'
 days: 1
 tease: ''
 continent: NA
-location: 'Online, NIAID, United States'
+location: 'NIAID, Online, United States'
 image: /src/images/logos/niaid-logo.png
 location_url: ""
 external_url: ""

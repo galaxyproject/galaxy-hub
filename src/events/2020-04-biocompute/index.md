@@ -4,11 +4,11 @@ Galaxy in a Cloud Computing Environment"
 date: '2020-04-01'
 days: 2
 tease: ""
-continent: GL
-location: "Exploring Clouds for Acceleration of Science (E-CAS), Online"
+continent: NA
+location: "Exploring Clouds for Acceleration of Science (E-CAS), Online, United States"
 location_url: 
-external_url: "https://www.internet2.edu/blogs/detail/17595"
+external_url: "https://www.youtube.com/watch?v=8pwss1SY8Tg"
 gtn: false
-contact: "Presenters"
+contact: "Raja Mazumder, Jonathon Keeney, Charles Hadley King, Janisha Patel"
 image: 
 ---

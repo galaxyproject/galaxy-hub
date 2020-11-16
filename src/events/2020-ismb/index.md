@@ -3,8 +3,8 @@ title: 'Galaxy @ ISMB 2020'
 date: '2020-07-12'
 days: 5
 tease: ""
-continent: GL
-location: "ISMB 2020, Online"
+continent: NA
+location: "ISMB 2020, Online, Montreal, Quebec, Canada"
 image: "ismb-2020-logo-wide.jpg"
 location_url: "https://www.iscb.org/ismb2020/"
 external_url:

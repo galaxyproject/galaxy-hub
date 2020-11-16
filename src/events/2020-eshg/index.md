@@ -3,8 +3,8 @@ title: "Reproducible and Transparent Analysis of SARS/Cov-2 intra-host variants 
 date: '2020-06-06'
 days: 4
 tease: ""
-continent: GL
-location: "ESHG 2020, Online"
+continent: EU
+location: "ESHG 2020, Online, Berlin, Germany"
 location_url: "https://2020.eshg.org/"
 external_url: "https://2020.eshg.org/index.php/programme/monday/#accordion-3224-5"
 gtn: true
