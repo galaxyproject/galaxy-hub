@@ -4,7 +4,7 @@ date: '2020-10-29'
 days: 1
 tease: "Tool testing and tool deployment discussion"
 continent: GL
-location: "Online"
+location: "Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:

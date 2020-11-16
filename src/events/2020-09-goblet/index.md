@@ -3,8 +3,8 @@ title: "Galaxy @ GOBLET 2020 AGM"
 tease: "Galaxy for learning, education, and training"
 date: '2020-09-14'
 days: 3
-continent: GL
-location: "Online"
+continent: EU
+location: "Online, Sweden"
 location_url: "https://mygoblet.org/goblet-agm2020/"
 external_url: ""
 contact: "Fotis Psomopoulos, Gareth Price"

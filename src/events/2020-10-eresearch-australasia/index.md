@@ -3,8 +3,8 @@ title: "Galaxy @ eResearch Australasia 2020"
 date: '2020-10-19'
 days: 5
 tease: "a whole lot of Galaxy Australia"
-continent: GL
-location: "Australia, Online"
+continent: AU
+location: "Online, Australia"
 location_url: "https://conference.eresearch.edu.au/"
 external_url:
 gtn: true
