@@ -1,6 +1,6 @@
 ---
 title: 'Galaxy Release 20.09'
-tease: GTN in Galaxy, Upload from Dropbox, Workflow enhancements, better performance!
+tease: GTN in Galaxy, upload from Dropbox, workflow enhancements, better performance!
 date: '2020-06-30'
 ---
 
@@ -8,7 +8,7 @@ We are pleased to announce the release of Galaxy
 20.09 - **[developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)** and **[user release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**.
 A few release highlights are:
 
-GTN In Galaxy
+GTN in Galaxy
 -------------
 The Galaxy Training Network tutorials can now be accessed from within Galaxy
 using the graduation cap icon. For updated tutorials, tools will be
@@ -20,7 +20,7 @@ Plugin framework for uploading datasets
 ---------------------------------------
 Galaxy administrators can now configure different sources
 from which users may upload files. These include global or
-user-specifc webdav servers, dropbox accounts as well as
+user-specific WebDAV servers, dropbox accounts as well as
 FTP and regular filesystem locations. Developers can add
 new types of sources by adding [PyFileSystem2](https://docs.pyfilesystem.org/en/latest/introduction.html)
 compatible plugins.
