@@ -49,8 +49,8 @@ Here are links to the issues identified as potential targets for paper cuts day:
 
 **Asia-Pacific-Australia**:
 
-* 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) **Zoom Link**
-* 12:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) **Zoom Link**
+* 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
+* 12:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
 * 15:00 (Melbourne, UTC +11), 06.00 (CEST, UTC +2) **Zoom Link**
 
 **Europe-Middle East-Africa**
@@ -62,8 +62,8 @@ Here are links to the issues identified as potential targets for paper cuts day:
 
 **Americas (⬆ and ⬇)**
 
-* 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) **Zoom Link**
-* 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) **Zoom Link**
+* 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
+* 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
 
 
 ## Interested?
