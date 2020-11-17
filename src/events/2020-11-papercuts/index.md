@@ -45,24 +45,30 @@ Here are links to the issues identified as potential targets for paper cuts day:
 | **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> | 
 | **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> | 
 
+
+## Developer Quick Dive Videos
+
+[Developer Quick Dives](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n) are short videos (2 minutes or less) that demonstrate how to do common tasks in Galaxy development.  Take a peek.
+
+
 ## Join us in our regular onboarding video calls
 
 **Asia-Pacific-Australia**:
 
-* 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
-* 12:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
+* 09:00 (Melbourne, UTC +11), 24.00 (CEST, UTC +1) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
+* 12:00 (Melbourne, UTC +11), 03.00 (CEST, UTC +1) [**Zoom Link**](https://zoom.us/j/98437529229?pwd=NkJKYTNta2pyZldYVVRSbkw4Z0NoZz09)
 
 **Europe-Middle East-Africa**
 
-* 21:00 (Melbourne, UTC +11), 09.00 (CEST, UTC +2) [**Zoom Link**](https://us02web.zoom.us/j/87522083149?pwd=YlRQYnVraTV6NkpaSHFvNCtwNVgxdz09)
-* 06:00 (EDT, UTC -4), 12.00 (CEST, UTC +2) [**Zoom Link**](https://us02web.zoom.us/j/87122599526?pwd=OFl1V2piL1ZnVDRqY1BBVy9NakFMZz09)
-* 09:00 (EDT, UTC -4), 15.00 (CEST, UTC +2) [**Zoom Link**](https://us02web.zoom.us/j/88003094806?pwd=RC85MDlKS3psTXZjdG1yaDQrU0dQUT09)
-* 12:00 (EDT, UTC -4), 18.00 (CEST, UTC +2) [**Zoom Link**](https://us02web.zoom.us/j/89646488078?pwd=R0trSTNGV3ZyQnlLZUFpb01kK01odz09)
+* 21:00 (Melbourne, UTC +11), 09.00 (CET, UTC +1) [**Zoom Link**](https://us02web.zoom.us/j/87522083149?pwd=YlRQYnVraTV6NkpaSHFvNCtwNVgxdz09)
+* 06:00 (Eastern US, UTC -5), 12.00 (CET, UTC +1) [**Zoom Link**](https://us02web.zoom.us/j/87122599526?pwd=OFl1V2piL1ZnVDRqY1BBVy9NakFMZz09)
+* 09:00 (Eastern US, UTC -5), 15.00 (CET, UTC +1) [**Zoom Link**](https://us02web.zoom.us/j/88003094806?pwd=RC85MDlKS3psTXZjdG1yaDQrU0dQUT09)
+* 12:00 (Eastern US, UTC -5), 18.00 (CET, UTC +1) [**Zoom Link**](https://us02web.zoom.us/j/89646488078?pwd=R0trSTNGV3ZyQnlLZUFpb01kK01odz09)
 
 **Americas (⬆ and ⬇)**
 
-* 15:00 (EDT, UTC -4), 21.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
-* 18:00 (EDT, UTC -4), 24.00 (CEST, UTC +2) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
+* 15:00 (Eastern US, UTC -5), 21.00 (CET, UTC +1) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
+* 18:00 (Eastern US, UTC -5), 24.00 (CET, UTC +1) [**Zoom Link**](https://zoom.us/j/94262634718?pwd=ZitJM1JBMGxlbExnZWxOOFJmbnB6UT09)
 
 
 ## Interested?
