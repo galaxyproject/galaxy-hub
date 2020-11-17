@@ -23,4 +23,4 @@ In one hour (or less !) this webinar will cover:
 * Research and commercial cloud platforms, from Australia (Nectar) to the US (Jetstream, AnVIL), and everywhere in between (CloudLaunch) 
 * On your laptop, using pre-packaged containers and virtual machines.
 
-**Please join us, [on Zoom](https://zoom.us/j/94470387208?pwd=M3MvdEJjZmIrV0NvRDVRMmRyTENUQT09), Wednesday. December 9 at 11am, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55)) to learn about the myriad ways to use Galaxy.**
+**Please join us, [online](https://zoom.us/j/96701808168?pwd=K2trVG1HVUR1THJua1JOZG9MOWd1UT09), Wednesday. December 9 at 11am, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55)) to learn about the myriad ways to use Galaxy.**
