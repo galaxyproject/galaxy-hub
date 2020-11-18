@@ -26,7 +26,7 @@ We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar
 
 The idea of these meetings is to share news about Galaxy and Training, but also just talk together. *Everyone is welcome to join!*
 
-To accommodate different time zones and schedules, there will be 2 calls (with similar discussions) at [8am (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-05-28/08:00/GTN%20meeting) and [4pm (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-05-28/16:00/GTN%20meeting) via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id).
+To accommodate different time zones and schedules, there will be 2 calls (with similar discussions) at [8am (UTC + 1)](https://arewemeetingyet.com/Berlin/2020-11-19/08:00/GTN%20meeting) and [4pm (UTC + 1)](https://arewemeetingyet.com/Berlin/2020-11-19/16:00/GTN%20meeting) via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id).
 
 Agenda and minutes document in [this Google Doc](https://docs.google.com/document/d/1BA4TYe5snFd5866ZeF3OtuV9quhpvvfrIMn6qD2qxl0/edit?usp=sharing), please feel free to suggest your agenda items here if there is anything you would like to discuss or learn about!
 
