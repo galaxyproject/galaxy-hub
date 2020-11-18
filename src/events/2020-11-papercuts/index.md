@@ -38,7 +38,7 @@ Here are links to the issues identified as potential targets for paper cuts day:
 | --- | --- | --- |
 | **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> | 
 | **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> | 
-| **[Cloudman](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> | 
+| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> | 
 | **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  | 
 | **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> | 
 | **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> | 
@@ -83,7 +83,7 @@ If you don't have a GitHub or Gitter account yet, then set them up (in that orde
 
 If you have time, and want to learn more about contributing you are encouraged to review:
 
-* A collection of short videos, highlighting how to do common useful tasks during Paper Cuts.
+* [A collection of short videos](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), highlighting how to do common useful tasks during Paper Cuts and beyond.
 * [Development in Galaxy tutorials](https://training.galaxyproject.org/training-material/topics/dev/).
 * [Contributing to the Galaxy Training Material tutorials](https://training.galaxyproject.org/training-material/topics/contributing/).
 * [Galaxy on GitHub](https://github.com/galaxyproject) - see what projects are supported and find the one that speaks to you. Pay particular attention to each project's CONTIBUTING.md files.
