@@ -12,7 +12,7 @@ contact: Instructors
 image: "/src/images/galaxy-logos/admin-training-logo.jpg"
 ---
 
-**[Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**
+**The next [Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**
 
 This [workshop](https://github.com/galaxyproject/admin-training) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
@@ -57,8 +57,11 @@ Linux has several text editors available in it.  You’ll need to be competent i
     * If you are running Windows than you’ll need to get something like putty installed before the workshop.
   * A recent version of either the Chrome or Firefox web browser installed.
 
-# Applications
+# Apply Now
 
-We will likely start accepting applications in November.  As of this writing we are expecting this workshop to be free.
+**This workshop is *free*.  However, space is limited and applications are expected to be competitive. Please submit an application by the end of December 18.  **
 
-
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Apply now](https://forms.gle/vpAzUybJnAZBf9qj6)</button>
+</div>
