@@ -9,7 +9,7 @@ title: GCC2014 Program
 
 <div class='float-right'>**[Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/program/GCC2014Program.pdf)** &nbsp; </div>
 
-The [2014 Galaxy Community Conference](/src/events/gcc2014/index.md) will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2014/lightning/index.md), [poster sessions](/src/events/gcc2014/abstracts/posters/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/events/gcc2014/bofs/index.md), and networking time.
+The [2014 Galaxy Community Conference](/src/events/gcc2014/index.md) will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2014/lightning/index.md), [poster sessions](/src/events/gcc2014/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2014/bofs/index.md), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  Talks will be grouped and scheduled in sessions focusing on particular topics.
 
@@ -97,7 +97,7 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
 
 # Day 1: Main Meeting, July 1
 
-The first day of the conference will feature [accepted talks](/src/events/gcc2014/abstracts/talks/index.md#talk_abstracts) and [posters](/src/events/gcc2014/abstracts/posters/index.md#poster-abstracts).  The first day will also include a [lightning talk session](/src/events/gcc2014/lightning/index.md).
+The first day of the conference will feature [accepted talks](/src/events/gcc2014/abstracts/talks/index.md) and [posters](/src/events/gcc2014/abstracts/posters/index.md#poster-abstracts).  The first day will also include a [lightning talk session](/src/events/gcc2014/lightning/index.md).
 
 <table class="table">
   <tr class="th" >
@@ -285,7 +285,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
 
 # Day 2: Main Meeting, July 2
 
-The second and final day of the conference will feature more [accepted talks](/src/events/gcc2014/abstracts/index.md#talk_abstracts) and [posters](/src/events/gcc2014/abstracts/index.md#poster-abstracts).  The second day will also have a [lightning talk session](/src/events/gcc2014/lightning/index.md), and the conference dinner
+The second and final day of the conference will feature more [accepted talks](/src/events/gcc2014/abstracts/index.md) and [posters](/src/events/gcc2014/abstracts/posters/index.md).  The second day will also have a [lightning talk session](/src/events/gcc2014/lightning/index.md), and the conference dinner
 
 <table class="table">
   <tr class="th" >

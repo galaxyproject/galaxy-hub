@@ -414,7 +414,7 @@ One new [Community Log Board](/src/blog/index.md) entry was added in March:
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#release_versioning)**
+ **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#-versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
@@ -422,7 +422,7 @@ One new [Community Log Board](/src/blog/index.md) entry was added in March:
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool_redesign)**
+ **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool-redesign)**
 
   Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
 

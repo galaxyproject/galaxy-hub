@@ -101,7 +101,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 **This release includes *Galaxy Tool Migration Stage 8*, which contains *48 tools* that have been migrated from the Galaxy distribution**.  The Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file (or whatever it has been named in your local Galaxy instance) for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#Migrating_tools_from_the_Galaxy_distribution_to_the_Galaxy_Main_tool_shed) are now automatically eliminated during the migration process.  It is no longer necessary to manually edit the `tool_conf.xml` file to eliminate entries for migrated tools.  A back-up copy of the original `tool_conf.xml` file is made.
 
-[More Tool Shed related enhancements and upgrades below.](/src/archive/dev-news-briefs/2013-11-04/index.md#tool_shed)
+[More Tool Shed related enhancements and upgrades below.](/src/archive/dev-news-briefs/2013-11-04/index.md#tool-shed)
 
 <br />
 # Tools

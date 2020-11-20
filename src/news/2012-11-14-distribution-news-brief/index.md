@@ -11,7 +11,7 @@ date: "2012-11-14"
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
 * **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
 * Multiple **enhancements** to the **[API](/src/archive/dev-news-briefs/2012-11-14/index.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security-fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
 
