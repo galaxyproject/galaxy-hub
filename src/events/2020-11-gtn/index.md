@@ -20,15 +20,19 @@ Every 3 months the Galaxy Training Network organises one day dedicated to the co
 
 Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 
-We will coordinate via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id) (drop-in channel we will keep open the whole day) and the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
+We will coordinate via Zoom and the [GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby).
 
 # GTN Call
 
 The idea of these meetings is to share news about Galaxy and Training, but also just talk together. *Everyone is welcome to join!*
 
-To accommodate different time zones and schedules, there will be 2 calls (with similar discussions) at [8am (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-05-28/08:00/GTN%20meeting) and [4pm (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-05-28/16:00/GTN%20meeting) via [Hangout](https://hangouts.google.com/hangouts/_/calendar/Z2FsYXh5dW5pZnJlaWJ1cmdAZ21haWwuY29t.6n6fbpoqj6s81h9aokvtim69id).
+To accommodate different time zones and schedules, there will be 2 calls (with similar discussions) at [8am (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-11-19/08:00/GTN%20meeting) and [4pm (UTC + 2)](https://arewemeetingyet.com/Berlin/2020-11-19/16:00/GTN%20meeting).
 
-Agenda and minutes document in [this Google Doc](https://docs.google.com/document/d/1BA4TYe5snFd5866ZeF3OtuV9quhpvvfrIMn6qD2qxl0/edit?usp=sharing), please feel free to suggest your agenda items here if there is anything you would like to discuss or learn about!
+## Links
+
+- [**Zoom**](https://us02web.zoom.us/j/82379441247) (passcode GTNGTN)
+- [**Agenda and minutes**](https://docs.google.com/document/d/1BA4TYe5snFd5866ZeF3OtuV9quhpvvfrIMn6qD2qxl0/edit?usp=sharing), please feel free to suggest your agenda items here if there is anything you would like to discuss or learn about!
+
 
 ---
 
