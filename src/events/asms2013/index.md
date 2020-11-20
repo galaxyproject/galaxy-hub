@@ -23,14 +23,13 @@ Tuesday evening (June 11th 5:45 - 7:00 PM) there is a workshop titled "[The Gala
 community where new informatics solutions are urgently needed.  Galaxy usage is driven by its unique and powerful features, not offered by other current solutions.  This workshop seeks to inform current users of Galaxy on the newest developments, and introduce the framework to interested  new users. Top developers of Galaxy for MS-based
 informatics will give short informal presentations on their work, followed by a panel discussion and an open question and answer period from the audience."
 
-```wiki comment
-**Note:** The workshop features a broad spectrum of the Galaxy community that is interested in proteomics:
-* Minnesota participants will talk about [Galaxy-P](http://getgalaxyp.org/)
-* An [NBIC](http://nbic.nl) representative
-* [Ira Cooke](/src/events/gcc2012/abstracts/index.md#proteomics_tools_for_galaxy) of La Trobe University
-* A member of the [Science For Life Laboratory](http://www.scilifelab.se/) will talk about Adapt, a cloud-based proteomics platform implemented on top of Galaxy.
+wiki comment:
+> **Note:** The workshop features a broad spectrum of the Galaxy community that is interested in proteomics:
+> * Minnesota participants will talk about [Galaxy-P](http://getgalaxyp.org/)
+> * An [NBIC](http://nbic.nl) representative
+> * [Ira Cooke](/src/events/gcc2012/abstracts/index.md#proteomics-tools-for-galaxy) of La Trobe University
+> * A member of the [Science For Life Laboratory](http://www.scilifelab.se/) will talk about Adapt, a cloud-based proteomics platform implemented on top of Galaxy.
 
-```
 
 
 </div>

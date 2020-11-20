@@ -139,7 +139,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 * *Enhancements*
   * The Tool Shed is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**.
-  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/updating-installed-repositories/index.md#)
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
@@ -161,7 +161,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
-  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run_cluster_jobs_as_the_real_user).
+  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.

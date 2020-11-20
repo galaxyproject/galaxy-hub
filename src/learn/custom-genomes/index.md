@@ -48,7 +48,7 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 
 # Custom Builds
 
-Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tools **Featurecounts**, **Extract Genomic DNA**, certain **Picard** tools, and the functions under  **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/src/support/datatypes-and-tools/index.md) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tools **Featurecounts**, **Extract Genomic DNA**, certain **Picard** tools, and the functions under  **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 
@@ -119,7 +119,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 7. Unassigned database
   * **Symptoms include**: Tools report that no build is available for the assigned reference genome.
   * **Solution** This occurs with tools that require an assigned <em>database</em> metadata attribute. **SAMTools** and **Picard** often require this assignment.
-  * **How**: Create a <a href='/src/learn/custom-genomes/index.md#custom_builds'>Custom Build</a> and assign it to the dataset 
+  * **How**: Create a <a href='/src/learn/custom-genomes/index.md#custom-builds'>Custom Build</a> and assign it to the dataset 
 
 # A problem or not a problem?
 Certain job errors with RNA-seq tools can at first appear to look like a format problem with a custom reference genome, but are actually a bit more complicated...

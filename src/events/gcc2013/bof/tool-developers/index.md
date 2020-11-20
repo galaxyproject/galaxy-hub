@@ -44,7 +44,7 @@ If you are interested, please add your name below and/or send an email to the [I
 
 ## Other Tool and Tool Shed Content at GCC2013
 
-* "[Introduction to Tool and Data Source Configuration](/src/events/gcc2013/training-day/index.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/events/gcc2013/training-day/index.md) session
+* "[Introduction to Tool and Data Source Configuration](/src/events/gcc2013/training-day/index.md#introduction-to-tool-and-data-source-configuration)" [Training Day](/src/events/gcc2013/training-day/index.md) session
 * "[Advanced Tool and Data Source Configuration"](/src/events/gcc2013/training-day/index.md#advanced-tool-and-data-source-configuration) [Training Day](/src/events/gcc2013/training-day/index.md) session
 * "[Galaxy Tool Shed](/src/events/gcc2013/training-day/index.md#galaxy-toolshed)" [Training Day](/src/events/gcc2013/training-day/index.md) session
 * "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/src/events/gcc2013/abstracts/index.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk

@@ -273,7 +273,7 @@ The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House (
 
 # Day 2: Main Meeting, 2 July
 
-The second and final day of the conference will feature  [accepted talks](/src/events/gcc2013/abstracts/talks/index.md#talk_abstracts) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a bioinformatics and informatics emphasis.  The second day will have a [lightning talk session](/src/events/gcc2013/lightning/index.md), and the conference dinner
+The second and final day of the conference will feature  [accepted talks](/src/events/gcc2013/abstracts/talks/index.md#talk-abstracts) and [posters](/src/events/gcc2013/abstracts/posters/index.md) with a bioinformatics and informatics emphasis.  The second day will have a [lightning talk session](/src/events/gcc2013/lightning/index.md), and the conference dinner
 
 <div class='center'><br /><span style="font-size: larger;">**Day 2: Extending and customizing the Galaxy system**</span><br /></div>
 

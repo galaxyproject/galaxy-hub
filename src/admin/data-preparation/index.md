@@ -337,7 +337,7 @@ Place a relative symbolic link to the original FASTA file in the same location a
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * You can make sure the file was created correctly by restarting the server and a tool from the **SAM Tools** tool set. Input datasets should have a database assigned that corresponds to a database having a sam index.
-* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset_icons)). 
+* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
 
 ### LASTZ and EXTRACT Genomic DNA
 
@@ -371,7 +371,7 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * Restarting the server 
 * You can make sure the `lastz_seqs.loc` is correct by opening up the LASTZ tool, and checking the dropdown menu of genomes. Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
-* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset_icons)). 
+* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
 
 ### Megablast
 
