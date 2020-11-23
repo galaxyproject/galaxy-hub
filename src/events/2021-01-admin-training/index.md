@@ -18,6 +18,12 @@ This [workshop](https://github.com/galaxyproject/admin-training) will cover intr
 
 Galaxy is an open web based platform for biomedical data integration and analysis. It is deployed at large and small organizations around the world and used in a broad range of biomedical research domains, and across the tree of life.
 
+# Format
+
+This admin training will be presented as a series of instructional lectures and hands-on materials you can follow *at your own pace*. 
+
+Given that we are targetting a global audience, participants will be able to complete materials at their convenience during the week, and instructors will be continuously available for students to check in with and discuss progress and questions. Instructors will also be available for one-on-one debugging when needed.
+
 # Prerequisites
 
 **Please review the prerequisites carefully before applying.**  If you don't meet the prerequisites then this workshop will be a frustrating experience.
