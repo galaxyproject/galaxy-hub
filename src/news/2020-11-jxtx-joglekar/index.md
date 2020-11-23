@@ -1,5 +1,5 @@
 ---
-title: "Anoushka Joglekar on the impact of the JXTX Foundation"
+title: "Anoushka Joglekar: Making Connections with the JXTX Foundation"
 tease: "Connected us to some incredible scientists who ... are passionate about mentoring students and eager to see us succeed."
 external_url: ""
 date: ""
