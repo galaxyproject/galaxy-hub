@@ -1,8 +1,8 @@
 ---
-title: "Anoushka Joglekar: Making Connections with the JXTX Foundation"
+title: "Anoushka Joglekar: Making Connections via the JXTX Foundation"
 tease: "Connected us to some incredible scientists who ... are passionate about mentoring students and eager to see us succeed."
 external_url: ""
-date: ""
+date: "2020-11-24"
 ---
 
 The [JXTX Foundation](/src/jxtx/foundation/index.md)'s first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/src/news/2020-10-jxtx-awardees/index.md) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
