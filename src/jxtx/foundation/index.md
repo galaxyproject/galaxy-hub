@@ -14,6 +14,7 @@ These are the words that James Taylor (JT) said and lived by. This, he believed,
 
 The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and we are delighted with our first round of scholarships:
 
+* **[Sumaira Zaman: JXTX Foundation and Unique Opportunities](/src/news/2020-11-jxtx-zaman/index.md)**, November 25, 2020
 * **[Anoushka Joglekar: Making Connections via the JXTX Foundation](/src/news/2020-11-jxtx-joglekar/index.md)**, November 24, 2020
 * **[David Twesigomwe on the impact of the JXTX Foundation](/src/news/2020-11-jxtx-twesigomwe/index.md)**, November 20, 2020
 * **[JXTX Foundation Awards First Ten Scholarships](/src/news/2020-10-jxtx-awardees/index.md)**, October 23, 2020

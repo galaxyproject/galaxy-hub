@@ -2,7 +2,7 @@
 title: "Sumaira Zaman: JXTX Foundation and Unique Opportunities"
 tease: "Discussing my research confidently with experts in the field"
 external_url: ""
-date: ""
+date: "2020-11-25"
 ---
 
 The [JXTX Foundation's](/src/jxtx/foundation/index.md) first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/src/news/2020-10-jxtx-awardees/index.md) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
