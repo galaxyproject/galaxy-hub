@@ -10,7 +10,7 @@ platforms:
 summary: "The CLIP-Explorer is a webserver to process, analyse and visualise CLIP-Seq data."
 image: "/src/use/singlecell/logo_clipseq.png"
 comments:
-  - "The public server is hosted by the UesGalaxy.eu team."
+  - "The public server is hosted by the UseGalaxy.eu team."
 user_support:
   - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
