@@ -8,7 +8,7 @@ platforms:
     platform_text: "CLIP-Explorer"
     platform_location: DE
 summary: "The CLIP-Explorer is a webserver to process, analyse and visualise CLIP-Seq data."
-image: "/src/use/singlecell/logo_clipseq.png"
+image: "logo_clipseq.png"
 comments:
   - "The public server is hosted by the UseGalaxy.eu team."
 user_support:
@@ -20,7 +20,7 @@ quotas:
 citations:
   - "Heyl, F., Maticzka, D., Uhl, M., Backofen, R., [Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108), GigaScience, Volume 9, Issue 11, November 2020, giaa108, https://doi.org/10.1093/gigascience/giaa108"
 pub_libraries:
-  - "clipseq"
+  - "CLIP-Explorer"
 sponsors:
   - "The server is part of the European Galaxy server and is maintained by the [RNA Bioinformatics Center (RBC)](https://www.denbi.de/network/rna-bioinformatics-center-rbc) as part of [de.NBI](https://www.denbi.de/) and [ELIXIR](http://elixir-europe.org/)."
 ---
