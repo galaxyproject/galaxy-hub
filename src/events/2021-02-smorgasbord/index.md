@@ -20,9 +20,9 @@ The program covers a general **introduction to the Galaxy platform**, **NGS Anal
 
 # Practical Information
 
-**When:** February 15-19, 2021 (all time zones) \\
-**Who:** Open for everybody \\
-**Cost:** Free \\
+**When:** February 15-19, 2021 (all time zones) <br/>
+**Who:** Open for everybody <br/>
+**Cost:** Free <br/>
 **Format:** Virtual event, all training session are pre-recorded, you can work through these at your own pace, with instructors available online for support \\
 
 # Course Information and Registration
