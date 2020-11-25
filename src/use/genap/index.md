@@ -16,7 +16,8 @@ comments:
   - "GenAP is planning to release a fully public Galaxy instance by the end of the summer."
 user_support:
   - "GenAP has a ticketing system that can be reached by emailing support@genap.ca"
-  - "Tutorial, FAQs and Manuals can be found [in our wiki page](https://bitbucket.org/genap/genap_central/wiki/Galaxy)."
+  - "[Using Galaxy on GenAP](https://genap.ca/p/help/galaxy-in-genap)"
+  - "[Single-cell tools & workflows in Galaxy](https://genap.ca/static/subsections/help/tutorials/GenAP_Online_Tutorials__Single-cell_Galaxy_workflows_general.pdf)"
 quotas:
   - "The default allocation of each project is 500GB"
 citations:
