@@ -30,14 +30,14 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 * **[2021-01-21: TBD](/src/events/2021-01-21-dev-roundtable/index.md)**
   * Leaders: TBD
-* **[2021-01-07: TBD](/src/events/2021-01-07-dev-roundtable/index.md)**
-  * Leaders: TBD
+* **[2021-01-07: Galaxy Developer Training](/src/events/2021-01-07-dev-roundtable/index.md)**
+  * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements
 
 ### 2020
 
 * **2020-12-24: No Meeting**
-* **[2020-12-10: Galaxy Developer Training](/src/events/2020-12-10-dev-roundtable/index.md)**
-  * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements
+* **[2020-12-10: Galaxy Working Groups: Distributing project guidance to the community](/src/events/2020-12-10-dev-roundtable/index.md)**
+  * Leaders: Björn Grüning, Anton Nekrutenko
 * **2020-11-26: No Meeting**
 * **[2020-11-12: Galaxy Training Network](/src/events/2020-11-12-dev-roundtable/index.md)**
   * Leaders: Helena Rasche and Saskia Hiltemann
