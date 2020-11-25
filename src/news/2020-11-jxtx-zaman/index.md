@@ -7,7 +7,7 @@ date: "2020-11-25"
 
 The [JXTX Foundation's](/src/jxtx/foundation/index.md) first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/src/news/2020-10-jxtx-awardees/index.md) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
 
-**[Sumaira Zaman](https://sumairazaman.weebly.com/)**, a scholarship awardee and graduate student at the [University of Connecticut](https://uconn.edu/):
+**[Sumaira Zaman](https://sumairazaman.weebly.com/)**, a scholarship awardee and graduate student at the [University of Connecticut](https://uconn.edu/) summarized her experience:
 
 <blockquote class="blockquote">
 
