@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Developer Roundtable: Developer Training"
+title: "Galaxy Developer Roundtable: Distributing Galaxy Guidance"
 date: '2020-12-10'
 days: 1
 tease: "Distributing Galaxy Guidance: Working Groups"
