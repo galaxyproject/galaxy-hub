@@ -15,6 +15,7 @@ comments:
   - "Visualize your results in JBrowse"
   - "Powered by [Globus Genomics](https://www.globus.org/genomics)"
 user_support:
+  - "From a May 14th Webiner on *Running a Galaxy workflow and integrating data into VEuPathDB*: [Video](https://youtu.be/k15AJlZpNH8), [How to set up an account in VEuPathDB Galaxy](https://community.eupathdb.org/documents/14May2020_How-to-set-an-account-in-VEuPathDB-Galaxy.pdf), [RNA sequence data analysis in VEuPathDB Galaxy Part 1](https://community.eupathdb.org/documents/14May2020_RNA-sequence-data-analysis-in-VEuPathDB-Galaxy-Part-1.pdf) and [Part 2](https://community.eupathdb.org/documents/14May2020_RNA-sequence-data-analysis-in-VEuPathDB-Galaxy-Part-2.pdf)"
   - "[Pre-configured workflows](https://veupathdb.globusgenomics.org/workflow/list_published)"
   - "[Web form](https://veupathdb.org/veupathdb/app/contact-us)"
 quotas:

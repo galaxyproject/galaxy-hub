@@ -7,10 +7,16 @@ continent: NA
 location: "Online, University of Georgia, Athens, Georgia, United States"
 image: 
 location_url: ""
-external_url: "https://calendar.uga.edu/event/veupathdb_webinar_-_running_a_galaxy_workflow_and_integrating_data_into_veupathdb#.X68c-dt7nUI"
+external_url: "https://vectorbase.org/vectorbase/app/static-content/webinars.html#galaxy"
 gtn: false
 links:
   - text: "Video"
     url: "https://youtu.be/k15AJlZpNH8"
+  - text: "Account setup"
+    url: "https://community.eupathdb.org/documents/14May2020_How-to-set-an-account-in-VEuPathDB-Galaxy.pdf"
+  - text: "RNA sequence data analysis Part 1"
+    url: "https://community.eupathdb.org/documents/14May2020_RNA-sequence-data-analysis-in-VEuPathDB-Galaxy-Part-1.pdf"
+  - text: "Part 2"
+    url: "https://community.eupathdb.org/documents/14May2020_RNA-sequence-data-analysis-in-VEuPathDB-Galaxy-Part-2.pdf"
 contact: "Instructors"
 ---
