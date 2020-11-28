@@ -1,3 +1,3 @@
 ---
-redirect: "/use/eu-path-db/"
+redirect: "/use/veupathdb/"
 ---

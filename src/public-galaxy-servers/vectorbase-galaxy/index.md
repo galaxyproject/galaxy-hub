@@ -1,3 +1,3 @@
 ---
-redirect: "/use/vectorbase-galaxy/"
+redirect: "/use/veupathdb/"
 ---
