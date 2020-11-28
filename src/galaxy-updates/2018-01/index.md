@@ -280,7 +280,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ## EuPathDB Galaxy Data Analysis Service
 
-[<img class="float-right" src="/src/use/eu-path-db/eupathdb-logo.png" alt="EuPathDB Galaxy Data Analysis Service" width="240" />](http://eupathdb.org/eupathdb/app/galaxy-orientation)
+[<img class="float-right" src="/src/images/logos/eupathdb-logo.png" alt="EuPathDB Galaxy Data Analysis Service" width="240" />](http://eupathdb.org/eupathdb/app/galaxy-orientation)
 
 The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/galaxy-orientation) is a free Galaxy server for large-scale data analysis focused on eukaryotic pathogens.
 
