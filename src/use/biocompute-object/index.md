@@ -22,7 +22,7 @@ citations:
   - "[Implementation of the IEEE-2791-2020 standard (BioCompute Objects) in Galaxy via workflow invocations](https://sched.co/clAB), presentation by Hadley King at BCC2020."
   - "[Development of BioCompute Objects for Integration into Galaxy in a Cloud Computing Environment](https://www.youtube.com/watch?v=8pwss1SY8Tg&list=PLLIsQFBBoJG8EWC0DDwehjCn56mejEtCA&index=2&t=1276s) presented by Raja Mazumder, Jonathon Keeney, Hadley King, and Janisha Patel during the Exploring Clouds for Acceleration of Science (E-CAS) panel at the 2020 Internet2 Global Summit."
 pub_libraries:
-  - ""
+  - "BioCompute"
 sponsors:
   - "[U.S. Food and Drug Administration](https://smhs.gwu.edu/news/gw-led-consortium-receives-22m-grant-fund-biocompute-object-specification-project)"
   - "The [HIVE Lab at George Washington University](https://hive.biochemistry.gwu.edu/home)."
