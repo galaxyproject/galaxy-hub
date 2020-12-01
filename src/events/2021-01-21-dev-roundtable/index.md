@@ -1,23 +1,24 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Galaxy Developer Roundtable: FastAPI"
 date: '2021-01-21'
 days: 1
-tease: "TBD"
+tease: ""
 continent: GL
 location: "Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Marius van den Beek, Dannon Baker, John Chilton"
+contact: "Marius van den Beek"
 ---
 
-**Topic: TBD**
+**Topic: [FastAPI](https://fastapi.tiangolo.com/)**
 
-*Have something you want to talk about at this roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
-
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210121T12&p1=179&ah=1)) for an open discussion about ...
+
+*Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
 
 ---
 
