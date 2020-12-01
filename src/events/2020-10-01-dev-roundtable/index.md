@@ -10,9 +10,12 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Kaivan Kamali, John Chilton"
+links:
+  - text: "Video"
+    url: "https://youtu.be/osbRh36-4dc"
 ---
 
-**[Video](https://youtu.be/osbRh36-4dc)**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/osbRh36-4dc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This week's topics are a longer presentation by Kaivan Kamali discussing his experimenting with machine learning tools in Galaxy, and John Chilton will briefly discuss [enabling per-objectstore quotas in Galaxy](https://github.com/galaxyproject/galaxy/pull/10221). 
 

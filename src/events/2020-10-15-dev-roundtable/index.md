@@ -10,9 +10,12 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Sergey Golitsynskiy, Marius van den Beek"
+links:
+  - text: "Video"
+    url: "https://youtu.be/lGEBWXu6Lvw"
 ---
 
-**[Video](https://youtu.be/lGEBWXu6Lvw)**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lGEBWXu6Lvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This week's topics are **Galaxy release testing and publishing workflows to Dockstore and Workflowhub**.
 We'll be using [this Zoom link](https://psu.zoom.us/j/92752763386)

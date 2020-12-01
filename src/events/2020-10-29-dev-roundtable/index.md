@@ -10,9 +10,12 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Dannon Baker, John Chilton, Marius van den Beek"
+links:
+  - text: "Video"
+    url: "https://youtu.be/coKgWylWqNU"
 ---
 
-**[Video](https://youtu.be/coKgWylWqNU)**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/coKgWylWqNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Super informal meeting this week **including a discussion of tool testing and tool deployment issues.**
 
