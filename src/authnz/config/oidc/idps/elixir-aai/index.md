@@ -21,7 +21,7 @@ Take the following steps to register your Galaxy instance (RP) to the ELIXIR AAI
 
 1. [Create an ELIXIR identity](https://elixir-europe.org/register), if you do not already have it.
 
-2. [Click here to start register your client](https://login.elixir-czech.org/oidc/manage/dev/dynreg) 
+2. [Click here to start register your client](https://spreg.aai.elixir-czech.cz/spreg/auth) 
 and you'll see a dashboard as the following: 
 
     ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-1.png)
