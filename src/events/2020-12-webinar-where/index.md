@@ -10,7 +10,10 @@ external_url: ""
 gtn: false
 tags: [ webinar ]
 contact: "Enis Afgan, Anton Nekrutenko, Michael Schatz"
-image: 
+image:
+links:
+  - text: "Sign up"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSckxsyURPvbZATc-ZbK3Zwd05zb6IPVTg__7aO6cPzR-m8VEQ/viewform"
 ---
 
 **11am-Noon, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55))**
@@ -24,3 +27,8 @@ In one hour (or less !) this webinar will cover:
 * On your laptop, using pre-packaged containers and virtual machines.
 
 **Please join us, [online](https://zoom.us/j/96701808168?pwd=K2trVG1HVUR1THJua1JOZG9MOWd1UT09), Wednesday. December 9 at 11am, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55)) to learn about the myriad ways to use Galaxy.**
+
+<div class="text-center">
+<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+[Sign up now](https://docs.google.com/forms/d/e/1FAIpQLSckxsyURPvbZATc-ZbK3Zwd05zb6IPVTg__7aO6cPzR-m8VEQ/viewform)</button>
+</div>
