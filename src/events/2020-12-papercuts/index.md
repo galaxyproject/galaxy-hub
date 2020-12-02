@@ -5,7 +5,7 @@ days: 1
 tease: 'A community contribution day'
 continent: GL
 location: 'Online, Global'
-image: "papercuts-2020-12.png"
+image: "papercuts-2020-12.gif"
 location_url: ""
 external_url:
 gtn: false

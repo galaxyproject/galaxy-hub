@@ -34,14 +34,14 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <div class="card-header">[Galaxy Developer Roundtable: 10 December](/src/community/devroundtable/index.md
 )</div>
 
-There will be one roundtable meetup this month, on **[December 10](/src/events/2020-12-10-dev-roundtable/index.md)**. Discussion will focus on a restructuring of how development groups are gathered and coordinated.
+There will be one roundtable meetup this month, on **[December 10](/src/events/2020-12-10-dev-roundtable/index.md)**. Discussion will focus on a restructuring of how development and other Galaxy groups are gathered and coordinated.
 </div>
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts November" />
-<div class="card-header">[Paper Cuts: 18 November](/src/events/2020-12-papercuts/index.md)</div>
+<img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts December" />
+<div class="card-header">[Papercuts CollaborationFest: December](/src/events/2020-12-papercuts/index.md)</div>
 
 Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/src/events/2020-12-papercuts/index.md). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
 
@@ -49,17 +49,37 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 </div>
 
 
-<!-- Down Under -->
+<!-- Galaxy Webinars -->
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<img class="card-img-top" src="galaxy-in-monitor-x3.png" alt="Galaxy Webinar" />
+<div class="card-header">[Galaxy Webinars](/src/events/webinars/index.md)</div>
+
+Interested in learning more about Galaxy [in a webinar](/src/events/webinars/index.md)?  Here's two offered this month:
+
+**[Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/index.md)** <br />
+There are *many* ways that researchers can access Galaxy. [This webinar](/src/events/2020-12-webinar-where/index.md) on Wednesday, December 9, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
+
+**[Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/chloroplastgenomeassembly)** <br />
+You can also see Galaxy, in action, in another webinar 12 hours later:  Anna Syme of Australian BioCommons will present a webinar on plant genomics and genome assembly](https://www.biocommons.org.au/events/chloroplastgenomeassembly).
+</div>
+
+
+<!--Galaxy Admin Training -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
+<div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
+
+Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and **being accepted through 18 December.**  This week-long workshop will be online, global, and free.  Apply now.  And applications are competitive
+
+</div>
+
+
+<!-- Metabolomics Call -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
-<div class="card-header">Whats Up Down Under?</div>
+<div class="card-header">[Galaxy Metabolomics Community Call](https://galaxyproject.eu/event/2020-11-24-metabolomics/)</div>
 
-Three Galaxy Australia events are being offered by in November:
-
-* [Webinar: Galaxy Australia: enabling online data analysis for the research community](https://www.biocommons.org.au/events/galaxy-aust-mass-spec), **4 Nov**, from Australian BioCommons.
-* [Workshop: Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-november-2020-tickets-123259172503), **11 Nov**, from Australian BioCommons.
-* [Workshop: Hybrid de novo genome assembly - Nanopore and Illumina](https://www.eventbrite.com.au/e/hybrid-de-novo-genome-assembly-nanopore-and-illumina-online-tickets-125568852819), **30 Nov**, from Melbourne Bioinformatics.
-
+The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See [the announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
 </div>
 
 
@@ -74,13 +94,6 @@ This hands-on workshop will familiarize you with the Galaxy user interface & exe
 </div>
 
 
-<!--Galaxy Admin Training -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
-<div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
-
-Applications to attend the 2021 Galaxy Admin Training in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.
-</div>
 
 
 <!-- All events -->
