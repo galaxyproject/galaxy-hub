@@ -28,39 +28,39 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 
 <div class="card-deck">
 
-<!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable: 10 December](/src/community/devroundtable/index.md
-)</div>
-
-There will be one roundtable meetup this month, on **[December 10](/src/events/2020-12-10-dev-roundtable/index.md)**. Discussion will focus on a restructuring of how development and other Galaxy groups are gathered and coordinated.
-</div>
-
-
-<!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/news/2020-10-galaxy-update/irritating.png" alt="Paper Cuts December" />
-<div class="card-header">[Papercuts CollaborationFest: December](/src/events/2020-12-papercuts/index.md)</div>
-
-Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/src/events/2020-12-papercuts/index.md). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
-
-Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
-</div>
 
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="galaxy-in-monitor-x3.png" alt="Galaxy Webinar" />
-<div class="card-header">[Galaxy Webinars](/src/events/webinars/index.md)</div>
+<div class="card-header">[Galaxy Webinars](/src/events/webinars/index.md) Dec 9 & 10</div>
 
 Interested in learning more about Galaxy [in a webinar](/src/events/webinars/index.md)?  Here's two offered this month:
 
 **[Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/index.md)** <br />
-There are *many* ways that researchers can access Galaxy. [This webinar](/src/events/2020-12-webinar-where/index.md) on Wednesday, December 9, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
+There are *many* ways that researchers can access Galaxy. [This webinar](/src/events/2020-12-webinar-where/index.md) on **Wednesday, December 9**, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
 
 **[Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/chloroplastgenomeassembly)** <br />
-You can also see Galaxy, in action, in another webinar 12 hours later:  Anna Syme of Australian BioCommons will present a webinar on plant genomics and genome assembly](https://www.biocommons.org.au/events/chloroplastgenomeassembly).
+You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna Syme of Australian BioCommons will present a [webinar on plant genomics and genome assembly](https://www.biocommons.org.au/events/chloroplastgenomeassembly).
+</div>
+
+
+<!-- Metabolomics Call -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="metabolomics.png" alt="Metabolomics" />
+<div class="card-header">[Galaxy Metabolomics Community Call](https://galaxyproject.eu/event/2020-11-24-metabolomics/)</div>
+
+The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See [the announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
+</div>
+
+<!-- Galaxy Dev Round Table -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<div class="card-header">[Galaxy Developer Roundtable: 10 December](/src/community/devroundtable/index.md)</div>
+
+There will be one roundtable meetup this month, on **[December 10](/src/events/2020-12-10-dev-roundtable/index.md)**. Discussion will focus on a restructuring of how development and other Galaxy groups are gathered and coordinated.
+
+**Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. *(A gentle shout from the editors.)*
 </div>
 
 
@@ -73,27 +73,30 @@ Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admi
 
 </div>
 
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
+<div class="card-header">[Papercuts CollaborationFest: December 17](/src/events/2020-12-papercuts/index.md)</div>
 
-<!-- Metabolomics Call -->
+Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/src/events/2020-12-papercuts/index.md). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+
+Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
+</div>
+
+
+
+<!-- Aus: Intro -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
-<div class="card-header">[Galaxy Metabolomics Community Call](https://galaxyproject.eu/event/2020-11-24-metabolomics/)</div>
 
-The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See [the announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
+<div class="card-header">[Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-december-2020-tickets-123610812267)</div>
+
+**8 December, Online**
+
+This interactive beginners workshop will provide an introduction to the Galaxy interface, histories and available tools. The material covered in this workshop is freely available through the Galaxy Training Network. Presented by Simon Gladman of Australian BioCommons.
+
+*Note: If you are on the North American west coast, this runs at 7-10pm Pacific time on Dec 7. If you are (almost) anywhere in Asia, this is during your workday.*
 </div>
-
-
-<!-- DDA and DIA: This is almost sold out.  Drop if it does sell out. -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/vib-training.png" alt="VIB Training" />
-<div class="card-header">[DDA and DIA proteomic analysis in Galaxy](https://training.vib.be/all-trainings/dda-and-dia-proteomic-analysis-galaxy)</div>
-
-**3rd of December, Online**
-
-This hands-on workshop will familiarize you with the Galaxy user interface & execute (label-free) proteomics data-analysis. Taught by Melanie Föll and Matthias Fahrner from the University of Freiburg.
-</div>
-
-
 
 
 <!-- All events -->
