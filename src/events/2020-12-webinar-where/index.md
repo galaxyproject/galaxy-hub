@@ -10,7 +10,7 @@ external_url: ""
 gtn: false
 tags: [ webinar ]
 contact: "Enis Afgan, Anton Nekrutenko, Michael Schatz"
-image:
+image: 2020-12-webinar-banner.png
 links:
   - text: "Sign up"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSckxsyURPvbZATc-ZbK3Zwd05zb6IPVTg__7aO6cPzR-m8VEQ/viewform"
