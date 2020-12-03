@@ -29,6 +29,6 @@ The initial proposal includes these topic areas:
 * **User support and documentation**: help, Hub, user & dev docs
 * ** Usegalaxy.* **: running services, synchronization
 
-Thanks, and hope to see you on December 10<br />
+Thanks, and hope to see you on December 10,<br />
 Björn Grüning and Anton Nekrutenko
 
