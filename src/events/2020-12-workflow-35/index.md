@@ -1,6 +1,6 @@
 ---
 title: "35th Workflow Meetup"
-date: '2020-12-07'
+date: '2020-12-04'
 days: 1
 tease: "今回は、完全オンラインミートアップのため、全世界同時開催です。"
 continent: AS
