@@ -27,16 +27,16 @@ The *[Galaxy Community Log Board](/src/blog/index.md)* is a place to share how y
 
 </div>
 
-The [Galaxy Community Log Board](/src/blog/index.md) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *[Galaxy Deployments Catalog](/src/community/deployment/index.md)*, which describes different Galaxy installations.  Both the [Log Board](/src/blog/index.md) and the [Deployments Catalog](/src/community/deployment/index.md) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/src/blog/index.md).
+The [Galaxy Community Log Board](/src/blog/index.md) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/src/blog/index.md) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/src/blog/index.md).
 
 ## Galaxy Deployment Catalog
 
-<div class='left'><a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></a></div> 
+<div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></div> 
 
 <div class='right'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/src/community/deployment/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/blog/index.md'>now</a></em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp;  &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -45,9 +45,9 @@ The [Galaxy Community Log Board](/src/blog/index.md) describes how things can be
 
 </div>
 
-The [Galaxy Deployment Catalog](/src/community/deployment/index.md) is a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
+The Galaxy Deployment Catalog is a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
 
-If you have a Galaxy deployment then please [take a few minutes to describe your instance to the community](/src/community/deployment/index.md).
+If you have a Galaxy deployment then please take a few minutes to describe your instance to the community.
 <br />
 
 

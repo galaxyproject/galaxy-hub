@@ -1,6 +1,6 @@
 ---
 title: 'December 2020 Galactic News'
-tease: "JXTX Foundation, Events, Platforms, Jobs, Pubs, ..."
+tease: "Events, Platforms, Jobs, Pubs, ..."
 date: ""
 ---
 
@@ -8,14 +8,13 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
-* **[Event news](#event-news)**
-* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS
+* **[Event news](#event-news)**: webinars, community events and training.
+* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, CLIP-Explorer, and UseGalaxy.*
+* **[Blog posts](#galactic-blog-activity):** Outcom of the Biohackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
 * **[Training material and doc updates](#doc-hub-and-training-updates)** 
 * **[Publications](#publications)** 
 * **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
-* **[New releases](#releases)**
+* **[New releases](#releases)**: 20.09, ENA submission, OMERO accessible from Galaxy.
 * **[Other news too](#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -24,7 +23,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on. Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -60,7 +59,7 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 
 There will be one roundtable meetup this month, on **[December 10](/src/events/2020-12-10-dev-roundtable/index.md)**. Discussion will focus on a restructuring of how development and other Galaxy groups are gathered and coordinated.
 
-**Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. *(A gentle shout from the editors.)*
+**Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. *(A gentle shout from the editors).*
 </div>
 
 
@@ -69,7 +68,7 @@ There will be one roundtable meetup this month, on **[December 10](/src/events/2
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
 <div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
 
-Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and **being accepted through 18 December.**  This week-long workshop will be online, global, and free.  Apply now.  And applications are competitive
+Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and **being accepted through 18 December.**  This week-long workshop will be online, global, and free.  Apply now.  And applications are competitive.
 
 </div>
 
@@ -95,22 +94,10 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 This interactive beginners workshop will provide an introduction to the Galaxy interface, histories and available tools. The material covered in this workshop is freely available through the Galaxy Training Network. Presented by Simon Gladman of Australian BioCommons.
 
-*Note: If you are on the North American west coast, this runs at 7-10pm Pacific time on Dec 7. If you are (almost) anywhere in Asia, this is during your workday.*
-</div>
-
-
-<!-- All events -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="events-slice.jpg" alt="Upcoming Events" />
-<div class="card-header">Upcoming Events</div>
-
-There are more than [16 events](/src/events/index.md) before the end of the year:
-
-* workshops, CoFests, talks, ...
-* all of them are online.
-
+*Note: If you are on the North American west coast, this runs at 7-10 pm Pacific time on Dec 7. If you are (almost) anywhere in Asia, this is during your workday.*
 </div>
 </div>
+
 
 # Galaxy Platforms News
 
@@ -128,6 +115,16 @@ The [GalaxyTrakr server](https://www.galaxytrakr.org/) is provided by the [US Fo
 </div>
 
 
+<!-- CLIP Seq -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
+
+<img class="card-img-top" src="/src/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
+
+The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
+</div>
+
+
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
@@ -135,27 +132,67 @@ The [GalaxyTrakr server](https://www.galaxytrakr.org/) is provided by the [US Fo
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
+* Wanna know what has happened in the last 5 years in the Freiburg Galaxy Team? [Here is the 5-years report!](https://docs.google.com/document/d/1qZjFADy3opMM5l6nEAMMeYzdf2gpBVCD0Kgglo8ZFj4/preview#)
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
 </div>
+
 
 
 # Galactic Blog Activity
 
 <div class="card-deck">
 
-<!-- Strathclyde -->
+<!-- Biohackathon Europe 2020 -->
 <div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
-<div class="card-header">[Teaching Advanced Microbiology with Galaxy and TIaaS](https://galaxyproject.eu/posts/2020/10/14/tiaas_feedback_Leighton/)</div>
+<div class="card-header">[Outcome of the Biohackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
 
-By Leighton Pritchard.
+The Galaxy community participated in 8 different projects during the Biohackathon Europe 2020:
 
-Leighton reports on the University of Strathclyde's experience teach Advanced Microbiology using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS).
+- [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
+- [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
+- [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
+- [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
+- [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
+- [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
+- [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
+- [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
 
-*Spoiler: It went well.*
+<img class="card-img-bottom" src="/events/2019-11-biohackathon-europe/bhlogo.png" alt="BH2020" />
+</div>
 
-<img class="card-img-bottom" src="/src/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg" alt="SARS in JBrowse" />
+<!-- New Hardware -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[UseGalaxy.eu gets new hardware: More storage and GPUs](https://galaxyproject.eu/posts/2020/11/17/new-compute-nodes/)</div>
+
+
+The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server by providing new computational infrastructure.
+
+If you have some special needs that we should consider in our next purchase, let us know! And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
+
+</div>
+
+
+<!-- TIaaS -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Teaching reads inspection to genome assembly, annotation and reads mapping](https://galaxyproject.eu/posts/2020/11/27/tiaas_feedback_Ambre/)</div>
+
+By Ambre Jousselin.
+
+Ambre reports on the Université de Toulouse Paul Sabatier's experience teaching Genomics using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS).
+</div>
+
+
+<!-- EOSC-Nordic -->
+<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card-header">[Insights from the first cross-training between EOSC-Life and EOSC-Nordic](https://www.eosc-nordic.eu/insights-from-the-first-cross-training-between-eosc-life-and-eosc-nordic/)</div>
+
+By Anne Fouilloux, Research Software Engineer at NeIC.
+
+This training covered modelling with ‘FATES’ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
+
+<img class="card-img-bottom" src="/src/images/logos/eosc_nordic.png" alt="EOSC-Nordic" />
 </div>
 
 </div>
@@ -273,20 +310,52 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy Language Server 0.1.2](https://github.com/galaxyproject/galaxy-language-server)</div>
+<div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
 
-[Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) implements the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/) to assist in the development of [Galaxy tool wrappers](https://docs.galaxyproject.org/en/latest/dev/schema.html) inside modern code editors.
+See
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**.
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**.
 
-*Please note this is still an early work in progress and bugs and issues are expected.*
+Features:
+* GTN in Galaxy.
+* Plugin framework for uploading datasets.
+* Upload directly from the Tool Form.
+* Workflow import from GA4GH TRS servers.
+* Simplified workflow submission form.
+* Accelerated batch job creation and workflow step scheduling.
 
-It provides realtime XML validation, code completion, help/documentation and other smart features to help in following best practices during the development process of XML tool wrappers for Galaxy.
-
-The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
-
-<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " />
+<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
+
+
+<!-- Submission to ENA -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Simplified submission of SARS-CoV-2 data to open databases](https://galaxyproject.eu/posts/2020/11/20/elixir-post/)</div>
+
+[ELIXIR Belgium](https://www.elixir-belgium.org/), in collaboration with the European Galaxy project (de.NBI) and the [European COVID-19 Data Platform](https://www.covid19dataportal.org/), have developed a tool to simplify the submission of viral sequencing data to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home), an ELIXIR Core Data Resource providing open access to nucleotide sequences. The new submission tool offers an easy-to-use interface, guides researchers through the submission process and verifies the data format and description. Read more in the [official ELIXIR press release](https://elixir-europe.org/news/ENA-new-tool-COVID-19-data).
+
+<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/src/images/news-graphics/ENA.jpeg" alt="ENA submission tool" />
 </div>
+
+
+
+<!-- OMERO -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[Images stored in local OMERO instances are now accessible from Galaxy](https://galaxyproject.eu/posts/2020/11/23/OMERO-post/)</div>
+
+Good news for the imaging community! The [IDR Download tool](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/idr_download_by_ids/idr_download_by_ids/) can now download images from a local OMERO instance.
+
+This is an important step towards the accessibility of bioimage data. Now, images stored in local OMERO databases that are not publicly available are accessible from either public or private Galaxy instances. Imaging facilities that are running their local instance and want to perform image analysis in Galaxy can directly benefit from this new feature.
+
+<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/src/images/screenshots/omero.png" alt="OMERO upload tool" />
+</div>
+
+
+
+</div>
+
+
 
 
 # Other news

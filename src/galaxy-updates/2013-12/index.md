@@ -322,7 +322,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 <div class='right'>
 <a href='https://usegalaxy.org/'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
-<br />
+
 **Highlights:**
 
 * A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/archive/dev-news-briefs/2013-11-04/index.md#security-fix-now)**

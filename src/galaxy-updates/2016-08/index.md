@@ -333,24 +333,24 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
 
 <br />
 
 <div class='right'>
-<a href='/src/community/deployment/phacnml/index.md'><img src="/src/community/deployment/phacnml/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" /></a>
+<img src="/src/images/logos/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" />
 </div>
 
-New [Galaxy Deployment Catalog](/src/community/deployment/index.md) and [Community Log Board](/src/blog/index.md) entries were added:
+New Galaxy Deployment Catalog and [Community Log Board](/src/blog/index.md) entries were added:
 
-* The [Public Health Agency of Canada - National Microbiology Laboratory Galaxy](/src/community/deployment/phacnml/index.md) server helps identify, prevent and control infectious diseases.
+* The Public Health Agency of Canada - National Microbiology Laboratory Galaxy server helps identify, prevent and control infectious diseases.
 
 * [Moving data between Galaxy instances](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
