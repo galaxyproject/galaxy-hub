@@ -257,12 +257,12 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 # Galaxy Community Hubs
 
 <div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
@@ -272,9 +272,9 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The [deployment details](/src/community/deployment/galax-east/index.md) for the [GalaxEast public server](/src/use/galaxeast/index.md) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
+The deployment details for the [GalaxEast public server](/src/use/galaxeast/index.md) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
 
-The *[Deployment Catalog](/src/community/deployment/index.md)* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/community/deployment/index.md), or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
+The *Deployment Catalog* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 

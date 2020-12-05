@@ -326,13 +326,13 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 **This update brings a large number of updates and new features.**  See the [release announcement](/src/news/cloudman-release201401/index.md) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
 <div class='right'><br /><div class='right'><a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
-<a href='/src/community/deployment/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /></a><br /><br /></div>
+<img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /><br /><br /></div>
 <table>
   <tr>
     <td> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
-    <td> &nbsp;&nbsp; <a href='/src/community/deployment/index.md'>Describe your instance</a> <em><a href='/src/community/deployment/index.md'>now</a></em> &nbsp;&nbsp; </td>
+    <td> &nbsp;&nbsp;  &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -343,11 +343,11 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/src/blog/index.md)* and  *[Deployment Catalog](/src/community/deployment/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  January saw several additions:
+The *[Community Log Board](/src/blog/index.md)* and  *Deployment Catalog* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  January saw several additions:
 
-**New [Galaxy Deployment Catalog](/src/community/deployment/index.md) entries:**
-* [CSIRO Galaxy Service](/src/community/deployment/csiro-service/index.md)
-* [UIUC-Galaxy](/src/community/deployment/uiuc/index.md)
+**New Galaxy Deployment Catalog entries:**
+* CSIRO Galaxy Service
+* UIUC-Galaxy
 
 bringing the number of deployment descriptions to 10.
 
