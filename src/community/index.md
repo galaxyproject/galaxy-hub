@@ -24,6 +24,8 @@ The [Intergalactic Utilities Commission](/src/iuc/index.md) (IUC) was establishe
 	<small>[Code contributions](https://github.com/galaxyproject/tools-iuc/graphs) to [tools-iuc](https://github.com/galaxyproject/tools-iuc) repository</small>
 </div>
 
+<br />
+
 **Activities**
 
 * Maintains a set of high quality Galaxy tools in the GitHub [repository](https://github.com/galaxyproject/tools-iuc). This repo serves as an excellent example and inspiration to all Galaxy tool developers.
