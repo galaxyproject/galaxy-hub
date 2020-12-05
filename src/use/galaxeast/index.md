@@ -15,7 +15,6 @@ comments:
   - "[GalaxEast](http://www.galaxeast.fr) provides access to workflows developed for: Motif search, Repetitive element analyses, ChIP-seq data analysis"
   - "[GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses."
   - "The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives: 1) Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support. 2) Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed) 3) Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages)."
-  - "[GalaxEast deployment details](/src/community/deployment/galax-east/index.md)"
 user_support:
   - "[Email](mailto:galaxy AT igbmc DOT fr)"
 quotas:

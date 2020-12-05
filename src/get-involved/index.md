@@ -69,14 +69,6 @@ If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md)
 
 The [Galactic Blog](/src/blog/index.md) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
-<div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div>
-
-The [Galaxy Deployment Catalog](/src/community/deployment/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/community/deployment/index.md).
-
-<div class='right'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
-
-If you have implemented a particular feature or have addressed a particular challenge with a certain Galaxy deployment, you can describe and/or link it on the [Galaxy Blog](/src/blog/index.md).  Log board entries describe specific implementation and solutions for specific situations.  Got some experience that would be useful for others to know?  Please [share it](/src/blog/index.md).
-
 # Documentation
 
 This site contains a large amount of documentation about using and administering Galaxy.  You can help keep this site current and relevant by maintaining it and by addressing gaps in the current documentation.  See the  [CONTRIBUTING.md file](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) for more on updating this site.
