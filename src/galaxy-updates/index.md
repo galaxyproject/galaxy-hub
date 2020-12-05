@@ -13,6 +13,12 @@ title: Galaxy Updates
 
 ## 2020 Updates
 
+* [2020-11](/src/news/2020-11-galaxy-update/index.md)
+* [2020-10](/src/news/2020-10-galaxy-update/index.md)
+* [2020-09](/src/news/2020-09-galaxy-update/index.md)
+* [2020-07](/src/news/2020-07-galaxy-update/index.md)
+* [2020-06](/src/news/2020-06-galaxy-update/index.md)
+* [2020-05](/src/news/2020-05-galaxy-update/index.md)
 * [2020-01](/src/news/2020-01-galaxy-update/index.md)
 
 ## 2019 Updates
