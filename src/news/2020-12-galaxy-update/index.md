@@ -10,7 +10,7 @@ date: ""
 
 * **[Event news](#event-news)**: webinars, community events and training.
 * **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, CLIP-Explorer, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Outcom of the Biohackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
+* **[Blog posts](#galactic-blog-activity):** Outcome of the BioHackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
 * **[Training material and doc updates](#doc-hub-and-training-updates)** 
 * **[Publications](#publications)** 
 * **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
@@ -65,7 +65,7 @@ You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna 
 
 **10 December, Online**
 
-The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See [the announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
+The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See the [announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
 </div>
 
 <!-- Galaxy Dev Round Table -->
@@ -84,7 +84,7 @@ There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roun
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
-<div class="card-header">[Decmber Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
+<div class="card-header">[December Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
 
 **17 December, Online**
 
@@ -100,20 +100,20 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 **Application Deadline: 18 December**
 
-Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Aapplications are competitive.)
+Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Applications are competitive).
 
 </div>
 
 <!-- Tripal Codefest 2021 -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Codefest 2021" />
-<div class="card-header">[Tripal Codefest 2021](http://tripal.info/events/codefest_2021)</div>
+<div class="card-header">[Tripal CodeFest 2021](http://tripal.info/events/codefest_2021)</div>
 
 **11-15 January, Online**
 
 *Calling all Tripal Core, Extension Module and Tool Integration Developers!*
 
-[Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [Blend4Php](https://github.com/galaxyproject/blend4php).
+[Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc.), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [blend4php](https://github.com/galaxyproject/blend4php).
 
 </div>
 
@@ -156,7 +156,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server by providing new computational infrastructure.
 
-If you have some special needs that we should consider in our next purchase, let us know! And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
+If you have some special needs that we should consider in our next purchase, [let us know!](galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
 
 <img class="card-img-top" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
 
@@ -184,11 +184,11 @@ If you have some special needs that we should consider in our next purchase, let
 
 <div class="card-deck">
 
-<!-- Biohackathon Europe 2020 -->
+<!-- BioHackathon Europe 2020 -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Outcome of the Biohackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
+<div class="card-header">[Outcome of the BioHackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
 
-The Galaxy community participated in 8 different projects during the Biohackathon Europe 2020:
+The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
 
 - [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
 - [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
@@ -209,7 +209,7 @@ The Galaxy community participated in 8 different projects during the Biohackatho
 
 By Peter Bickerton.
 
-“I wanted to step away from the command line,” Graham Etherington explains. “It takes a long time and it causes confusion, whereas everybody knows how to use a web browser."
+_“I wanted to step away from the command line”_, Graham Etherington explains. _“It takes a long time and it causes confusion, whereas everybody knows how to use a web browser."_
 
 <img class="card-img-bottom" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Earlham" />
 
@@ -233,7 +233,7 @@ Ambre reports on the Université de Toulouse Paul Sabatier's experience teaching
 
 By Anne Fouilloux, Research Software Engineer at NeIC.
 
-This training covered modelling with ‘FATES’ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
+This training covered modelling with _FATES_ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
 
 <img class="card-img-bottom" src="/src/images/logos/eosc_nordic.png" alt="EOSC-Nordic" />
 </div>
@@ -304,7 +304,7 @@ Directly participate in various experiments in developmental biology and epigene
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -384,9 +384,9 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
 
 See
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**.
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**.
-* **[Release summary video](https://youtu.be/dIeXVW_eoJk)
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
+* **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
 
 Features:
 * GTN in Galaxy.
