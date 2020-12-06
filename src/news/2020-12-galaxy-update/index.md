@@ -11,7 +11,7 @@ date: ""
 * **[Event news](#event-news)**: webinars, community events and training.
 * **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, CLIP-Explorer, and UseGalaxy.*
 * **[Blog posts](#galactic-blog-activity):** Outcome of the BioHackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
-* **[Training material and doc updates](#doc-hub-and-training-updates)** 
+* **[Training material and doc updates](#doc-hub-and-training-updates)**: Chloroplast genome assembly, Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite, 16S Microbial analysis with Nanopore data.
 * **[Publications](#publications)** 
 * **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
 * **[New releases](#releases)**: 20.09, ENA submission, OMERO accessible from Galaxy.
@@ -246,20 +246,48 @@ This training covered modelling with _FATES_ (Functionally Assembled Terrestrial
 
 <div class="card-deck">
 
-<!-- metaQuantome -->
+
+<!-- Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">Metaproteomics analysis with metaQuantome</div>
+<div class="card-header">[Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)</div>
 
-By [Subina Mehta](https://training.galaxyproject.org/training-material/hall-of-fame/subinamehta/), [Timothy J. Griffin](https://training.galaxyproject.org/training-material/hall-of-fame/timothygriffin/), [Pratik Jagtap](https://training.galaxyproject.org/training-material/hall-of-fame/pratikdjagtap/), [Emma Leith](https://training.galaxyproject.org/training-material/hall-of-fame/emmaleith/), [Marie Crane](https://training.galaxyproject.org/training-material/hall-of-fame/mariecrane/), and [Praveen Kumar](https://training.galaxyproject.org/training-material/hall-of-fame/pravs3683/)
+By [Coline Royaux](https://training.galaxyproject.org/training-material/hall-of-fame/colineroyaux/) and [Yvan Le Bras](https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/).
 
-A three part series on doing metaproteomics analysis with metaQuantome:
+This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute Essential Biodiversity Variables (EBV) from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.
 
-1. [Data Creation](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-data-creation/tutorial.html)
-1. [Function](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-function/tutorial.html)
-1. [Taxonomy](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-taxonomy/tutorial.html)
-
-<img class="card-img-bottom" src="gtn-metaquantome.png" alt="metaQuantome" />
+<img class="card-img-bottom" src="PAMPA_workflow.png" alt="PAMPA workflow" />
 </div>
+
+
+<!-- Chloroplast genome assembly -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html)</div>
+
+By [Anna Syme](https://training.galaxyproject.org/training-material/hall-of-fame/annasyme/).
+
+This tutorial shows genome assembly for the plant chloroplast genome with a subset of a real data set from sweet potato.
+
+<img class="card-img-bottom" src="chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
+
+</div>
+
+
+<!-- 16S Microbial analysis with Nanopore data -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[16S Microbial analysis with Nanopore data](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html)</div>
+
+By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/).
+
+This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives: 
+
+1) evaluate the health status of soil samples,
+2) study how microbial populations are modified by their interaction with plant roots.
+
+<img class="card-img-bottom" src="taxonomical_classification.png" alt="taxonomical classification" />
+</div>
+
+
+
 
 </div>
 
