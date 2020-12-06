@@ -77,7 +77,7 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 
 There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roundtable/index.md). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
 
-**Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. *(A gentle shout from the editors).*
+*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. 
 </div>
 
 
@@ -103,16 +103,39 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Aapplications are competitive.)
 
 </div>
+
+<!-- Tripal Codefest 2021 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Codefest 2021" />
+<div class="card-header">[Tripal Codefest 2021](http://tripal.info/events/codefest_2021)</div>
+
+**11-15 January, Online**
+
+*Calling all Tripal Core, Extension Module and Tool Integration Developers!*
+
+[Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [Blend4Php](https://github.com/galaxyproject/blend4php).
+
+</div>
+
+
+<!-- GTN Smörgåsbord -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
+<div class="card-header">[GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/)</div>
+
+**15-19 February, Online; Register by 1 February**
+
+This week-long workshop on how to use Galaxy will be online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
+
+</div>
+
+
 </div>
 
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
-
-*Note: these platforms will feature prominently in the [December 9 webinar](/src/events/2020-12-webinar-where/index.md).*
-
-Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -128,13 +151,14 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 </div>
 
 <!-- New Hardware -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.eu gets new hardware: More storage and GPUs](https://galaxyproject.eu/posts/2020/11/17/new-compute-nodes/)</div>
-
 
 The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server by providing new computational infrastructure.
 
 If you have some special needs that we should consider in our next purchase, let us know! And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
+
+<img class="card-img-top" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
 
 </div>
 
@@ -145,12 +169,14 @@ If you have some special needs that we should consider in our next purchase, let
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
 * Wanna know what has happened in the last 5 years in the Freiburg Galaxy Team? [Here is the 5-years report!](https://docs.google.com/document/d/1qZjFADy3opMM5l6nEAMMeYzdf2gpBVCD0Kgglo8ZFj4/preview#)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
+
 </div>
+
+*Note: these platforms will feature prominently in the [December 9 webinar](/src/events/2020-12-webinar-where/index.md).*
 
 
 
@@ -159,7 +185,7 @@ If you have some special needs that we should consider in our next purchase, let
 <div class="card-deck">
 
 <!-- Biohackathon Europe 2020 -->
-<div class="card border-info" style="min-width: 16rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
 <div class="card-header">[Outcome of the Biohackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
 
 The Galaxy community participated in 8 different projects during the Biohackathon Europe 2020:
@@ -258,6 +284,34 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 
 <div class="card-deck">
 
+
+
+<!-- EMBL Rome -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Research Technician](https://euraxess.ec.europa.eu/jobs/581427)</div>
+
+Boskkovic Lab, EMBL Rome, Italy.
+
+Directly participate in various experiments in developmental biology and epigenetics to meet the research goals of the laboratory.
+
+**Apply by 27 December.**
+
+<img class="card-img-bottom" src="/images/logos/EMBLLogo151.png " alt="EMBL Rome" />
+</div>
+
+
+<!-- Hopkins AnVIL / ITCR -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
+
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University 
+
+Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
+
+<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+</div>
+
+
 <!-- Roche -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Principle Scientist II, Bioinformatics](https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Pleasanton/Principle-Scientist-II--Bioinformatics_202010-126228-1)</div>
@@ -332,6 +386,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 See
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**.
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**.
+* **[Release summary video](https://youtu.be/dIeXVW_eoJk)
 
 Features:
 * GTN in Galaxy.
@@ -369,6 +424,15 @@ This is an important step towards the accessibility of bioimage data. Now, image
 </div>
 
 
+<!-- CloudBridge -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[CloudBridge 2.1.0](http://cloudbridge.cloudve.org/en/latest/)</div>
+
+[CloudBridge version 2.1.0](https://pypi.org/project/cloudbridge/) is a Python library that provides a consistent layer of abstraction over different Infrastructure-as-a-Service cloud providers, reducing or eliminating the need to write conditional code for each cloud. 2.1.0 adds new services and improved robustness.  See the [full documentation](http://cloudbridge.cloudve.org/en/latest/) for more.
+
+<a href="https://pypi.org/project/cloudbridge/"><img class="card-img-bottom" src="cloudbridge-2-1-0.png" alt="CloudBridge 2.1.0" />
+</div>
+
 
 </div>
 
@@ -377,17 +441,28 @@ This is an important step towards the accessibility of bioimage data. Now, image
 
 # Other news
 
-
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[The Community Against COVID-19](https://www.pr.uni-freiburg.de/pm-en/online-magazine/research-and-discover/the-community-against-covid-19)</div>
+<div class="card-header">[Extending Galaxy for Large-scale and Integrative Biomedical Analyses](/src/news/2020-11-czi/index.md)</div>
 
-A group of Freiburg researchers provide global, open access to data on the SARS-CoV-2 genome which could hold the key for a new approach to treating the virus.
+The Chan Zuckerberg Initiative's (CZI)  [Essential Open
+Source Software for
+Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program is [funding work to extend Galaxy](https://chanzuckerberg.com/eoss/proposals/extending-galaxy-for-large-scale-and-integrative-biomedical-analyses/).  See [the announcement for details](/src/news/2020-11-czi/index.md).
 
-<img class="card-img-bottom" src="/src/images/logos/uni-freiburg-wide.png" alt="Uni Freiburg" />
+<img class="card-img-bottom" src="/src/images/logos/czi-320.png" alt="Chan Zuckerberg Initiative" />
 </div>
 
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<img class="card-img-top" src="/src/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
+<div class="card-header">JXTX Foundation Impact</div>
+
+The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate students](/src/news/2020-10-jxtx-awardees/index.md) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
+
+* [David Twesigomwe on the impact of the JXTX Foundation](/src/news/2020-11-jxtx-twesigomwe/index.md)
+* [Anoushka Joglekar: Making Connections via the JXTX Foundation](/src/news/2020-11-jxtx-joglekar/index.md)
+* [Sumaira Zaman: JXTX Foundation and Unique Opportunities](/src/news/2020-11-jxtx-zaman/index.md)
+* [Georgia Doing on the JXTX Foundation: Funding + Community](/src/news/2020-11-jxtx-doing/index.md)
 
 </div>
 
