@@ -3,8 +3,8 @@ title: "Structural Variant Detection using ONT Data"
 date: '2021-01-26'
 days: 1
 tease: "A GalaxyPro Webinar"
-continent: NA
-location: "GalaxyWorks, Online, United States"
+continent: GL
+location: "GalaxyWorks, Online, Global"
 location_url: "https://galaxyworks.io/webinars/"
 external_url: "/events/2021-01-sv-wtih-ont/sv-with-ont.pdf"
 gtn: false
