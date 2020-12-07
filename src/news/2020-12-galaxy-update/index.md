@@ -106,7 +106,7 @@ Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admi
 
 <!-- Tripal Codefest 2021 -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Codefest 2021" />
+<img class="card-img-top" src="/src/events/2021-01-tripal-codefest/tripal-codefest.png" alt="Tripal Codefest 2021" />
 <div class="card-header">[Tripal CodeFest 2021](http://tripal.info/events/codefest_2021)</div>
 
 **11-15 January, Online**
@@ -149,6 +149,16 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
 </div>
+
+
+<!-- GenAP -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">CANARIE funds GenAP expansion</div>
+<img class="card-img-top" src="/src/use/genap/genap-text-logo.png" alt="GenAP" />
+
+GenAP, a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+</div>
+
 
 <!-- New Hardware -->
 <div class="card border-info" style="min-width: 11rem; max-width: 16rem;">
@@ -340,18 +350,18 @@ This 3-year postdoc position will collaborate closely with the Oslo bioinformati
 </div>
 
 
-<!-- NMBU -->
+<!-- Hannover -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[PhD or postdoc project Spring/Summer  2021](https://www.nmbu.no/en/research/groups/memo/join-us-)</div>
+<div class="card-header">[Experienced specialist in Next Generation Sequencing data analysis](https://mhh.hr4you.org/job/view/559/experienced-specialist-in-next-generation-sequencing-data-analysis-f-d-m?page_lang=en)</div>
 
-[MEMO Group](https://www.nmbu.no/en/research/groups/memo), [Norwegian University of Life Science](https://www.nmbu.no/en), Ås, Norway
+[Research Core Unit Genomics (RCUG)](https://www.mhh.de/genomics), Hannover Medical School, Hannover, Germany
 
-Interested in host-microbiome interactions and multi-omic data? We have multiple positions starting in 2021. Projects have fun and interesting EU partners. Will be hiring after Christmas.
+A full position is available for 2 years in the Research Core Unit Genomics (RCUG), Germany, starting at the earliest timepoint possible. This includes working with and running training on the internal Galaxy instance.
 
-<img class="card-img-bottom" src="/images/logos/nmbu-logo.png" alt="Norwegian University of Life Science" />
+**Apply by 16 December.**
+
+<img class="card-img-bottom" src="/images/logos/hannover-mh-rcu-logo.jpg" alt="" />
 </div>
-
-
 
 
 <!-- EMBL Rome -->
@@ -365,6 +375,18 @@ Directly participate in various experiments in developmental biology and epigene
 **Apply by 27 December.**
 
 <img class="card-img-bottom" src="/images/logos/EMBLLogo151.png " alt="EMBL Rome" />
+</div>
+
+
+<!-- NMBU -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[PhD or postdoc project Spring/Summer  2021](https://www.nmbu.no/en/research/groups/memo/join-us-)</div>
+
+[MEMO Group](https://www.nmbu.no/en/research/groups/memo), [Norwegian University of Life Science](https://www.nmbu.no/en), Ås, Norway
+
+Interested in host-microbiome interactions and multi-omic data? We have multiple positions starting in 2021. Projects have fun and interesting EU partners. Will be hiring after Christmas.
+
+<img class="card-img-bottom" src="/images/logos/nmbu-logo.png" alt="Norwegian University of Life Science" />
 </div>
 
 
