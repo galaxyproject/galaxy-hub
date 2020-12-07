@@ -6,50 +6,83 @@ date: "2020-12-08"
 
 <div class="card border-info">
 <div class="card-header">In this ssue:</div>
+<div class="card-body">
+<br />
 
-* **[Event news](#event-news)**:
-  * Webinars: Use Galaxy Anywhere, and Right Now; Chloroplast Genome Assembly: *December 9 & 10*
-  * First Metabolomics Community Call, *December 10*
-  * Galaxy Developer Round Table: Working Groups, *December 10*
-  * Papercuts CollaborationFest: *December 17*
-  * Galaxy Admin Training: *Apply by December 18*
-  * Tripal CodeFest 2021: *January 11-15*
-  * GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*
-* **[Galaxy platform news](#galaxy-platforms-news):**
-  * CLIP-Explorer, a new server for CLIP-Seq data 
-  * GenAP expansion funded by CANARIE (Canada!)
-  * UseGalaxy.eu gets more storage and GPUs through deNBI-Cloud
-  * Plus more UseGalaxy.* news
-* **[Blog posts](#galactic-blog-activity):**
-  * Outcome of the BioHackathon Europe
-  * Accessible single-cell RNA-sequencing bioinformatics training using Galaxy
-  * TIaaS and training feedback...
-* **[Training material and doc updates](#doc-hub-and-training-updates)**:
-  * Chloroplast genome assembly
-  * Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite
-  * 16S Microbial analysis with Nanopore data
-* **[Publications](#publications)** 
-  * Metaproteomics, CLIP-Explorer, GIANT, and package management is your friend
-* **[Q: Who's hiring?](#whos-hiring)**
-  * Max Planck IIE,
-  * University of Oslo
-  * Hannover Medical School
-  * EMBL Rome
-  * Norwegian University of Life Science
-  * Roche
-  * Johns Hopkins (AnVIL, 2 positions)
-  * Cleveland Clinic
-  * Sorbonne-Université
-  * Johns Hopkins (Galaxy, 2 positions).
-  * *A: Everyone, it seems.*
-* **[New releases](#releases)**:
-  * Galaxy 20.09
-  * ENA submission
-  * OMERO accessible from Galaxy
-  * CloudLaunch
-* **[Other news too](#other-news)**
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+
+<ul style="font-size: 1.2rem;">
+  <li>**[Event news](#event-news)**:
+    <ul>
+      <li>Webinars:
+        <ul>
+          <li>Use Galaxy anywhere, right now, *December 9*</li>
+          <li>Chloroplast Genome Assembly, *December 10*</li>
+        </ul>
+      </li>
+      <li>First Metabolomics Community Call, *December 10*</li>
+      <li>Galaxy Developer Round Table: Working Groups, *December 10*</li>
+      <li>Papercuts CollaborationFest: *December 17*</li>
+      <li>Galaxy Admin Training: *Apply by December 18*</li>
+      <li>Tripal CodeFest 2021: *January 11-15*</li>
+      <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*</li>
+    </ul>
+  <li>**[Galaxy platform news](#galaxy-platforms-news):**
+    <ul>
+      <li>CLIP-Explorer, a new server for CLIP-Seq data </li>
+      <li>GenAP expansion funded by CANARIE (Canada!)</li>
+      <li>UseGalaxy.eu gets more storage and GPUs through deNBI-Cloud</li>
+      <li>Plus more UseGalaxy.\* news</li>
+    </ul>
+  </li>
+  <li>**[Blog posts](#galactic-blog-activity):**
+    <ul>
+      <li>Outcome of the BioHackathon Europe</li>
+      <li>Accessible single-cell RNA-sequencing bioinformatics training using Galaxy</li>
+      <li>TIaaS and training feedback</li>
+    </ul>
+  </li>
+  <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
+    <ul>
+      <li>Chloroplast genome assembly</li>
+      <li>Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite</li>
+      <li>16S Microbial analysis with Nanopore data</li>
+    </ul>
+  </li>
+  <li>**[Publications](#publications)**
+    <ul>
+      <li>Metaproteomics, CLIP-Explorer, GIANT, and package management is your friend</li>
+    </ul>
+  </li>
+  <li>**[Q: Who's hiring?](#whos-hiring)**
+    <ul>
+      <li>Max Planck IIE</li>
+      <li>University of Oslo</li>
+      <li>Hannover Medical School</li>
+      <li>EMBL Rome</li>
+      <li>Norwegian University of Life Science</li>
+      <li>Roche</li>
+      <li>Johns Hopkins (AnVIL, 2 positions)</li>
+      <li>Cleveland Clinic</li>
+      <li>Sorbonne-Université</li>
+      <li>Johns Hopkins (Galaxy, 2 positions).</li>
+      <li>*A: Everyone, it seems.* </li>
+    </ul>
+  </li>
+  <li>**[New releases](#releases)**:
+    <ul>
+      <li>Galaxy 20.09</li>
+      <li>ENA submission</li>
+      <li>OMERO accessible from Galaxy</li>
+      <li>CloudLaunch</li>
+    </ul>
+  </li>
+  <li>**[Other news too](#other-news)**</li>
+</ul>
+
 </div>
-
+</div>
+<br />
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
