@@ -312,6 +312,46 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 
 <div class="card-deck">
 
+<!-- MPI -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Bioinformaticians](https://www.ie-freiburg.mpg.de/5407142/job_full_offer_16014663)</div>
+
+Bioinformatics Unit, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/), Freiburg, Germany
+
+Work in an interdisciplinary team with close links to different departments, research groups, and other core facilities.
+
+**Apply by 11 December.**
+
+<img class="card-img-bottom" src="/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" />
+</div>
+
+
+<!-- Oslo-->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Postdoctoral Research Fellow in Informatics/Bioinformatics](https://arbeidsplassen.nav.no/stillinger/stilling/cb7fba1d-9b7d-4a1f-b17f-26ad56693f96)</div>
+
+Centre for Bioinformatics (SBI), Department of Informatics, University of Oslo (UiO), Oslo, Norway.
+
+This 3-year postdoc position will collaborate closely with the Oslo bioinformatics ELIXIR team, which is the Oslo node of the [ELIXIR Norway project](https://elixir.no/). Work on [Genomic HyperBrowser](https://hyperbrowser.uio.no), [GTrack](https://gtrack.no), [FAIRtracks](https://fairtracks.github.io), [TrackFind](http://trackfind.elixir.no), [Galaxy ProTo](https://github.com/elixir-oslo/proto), and the [Norwegian Federated European EGA (European Genome-Phenome Archive) node](https://ega.elixir.no).
+
+**Apply by 11 December.**
+
+<img class="card-img-bottom" src="/images/logos/UiOLogo.png" alt="Norwegian University of Life Science" />
+</div>
+
+
+<!-- NMBU -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[PhD or postdoc project Spring/Summer  2021](https://www.nmbu.no/en/research/groups/memo/join-us-)</div>
+
+[MEMO Group](https://www.nmbu.no/en/research/groups/memo), [Norwegian University of Life Science](https://www.nmbu.no/en), Ås, Norway
+
+Interested in host-microbiome interactions and multi-omic data? We have multiple positions starting in 2021. Projects have fun and interesting EU partners. Will be hiring after Christmas.
+
+<img class="card-img-bottom" src="/images/logos/nmbu-logo.png" alt="Norwegian University of Life Science" />
+</div>
+
+
 
 
 <!-- EMBL Rome -->
