@@ -1,21 +1,54 @@
 ---
 title: 'December 2020 Galactic News'
-tease: "Events, Platforms, Jobs, Pubs, ..."
-date: ""
+tease: "And what a month it is"
+date: "2020-12-08"
 ---
 
-# In the December 2020 issue
+<div class="card border-info">
+<div class="card-header">In this ssue:</div>
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
-
-* **[Event news](#event-news)**: webinars, community events and training.
-* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, CLIP-Explorer, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Outcome of the BioHackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
-* **[Training material and doc updates](#doc-hub-and-training-updates)**: Chloroplast genome assembly, Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite, 16S Microbial analysis with Nanopore data.
+* **[Event news](#event-news)**:
+  * Webinars: Use Galaxy Anywhere, and Right Now; Chloroplast Genome Assembly: *December 9 & 10*
+  * First Metabolomics Community Call, *December 10*
+  * Galaxy Developer Round Table: Working Groups, *December 10*
+  * Papercuts CollaborationFest: *December 17*
+  * Galaxy Admin Training: *Apply by December 18*
+  * Tripal CodeFest 2021: *January 11-15*
+  * GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*
+* **[Galaxy platform news](#galaxy-platforms-news):**
+  * CLIP-Explorer, a new server for CLIP-Seq data 
+  * GenAP expansion funded by CANARIE (Canada!)
+  * UseGalaxy.eu gets more storage and GPUs through deNBI-Cloud
+  * Plus more UseGalaxy.* news
+* **[Blog posts](#galactic-blog-activity):**
+  * Outcome of the BioHackathon Europe
+  * Accessible single-cell RNA-sequencing bioinformatics training using Galaxy
+  * TIaaS and training feedback...
+* **[Training material and doc updates](#doc-hub-and-training-updates)**:
+  * Chloroplast genome assembly
+  * Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite
+  * 16S Microbial analysis with Nanopore data
 * **[Publications](#publications)** 
-* **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
-* **[New releases](#releases)**: 20.09, ENA submission, OMERO accessible from Galaxy.
+  * Metaproteomics, CLIP-Explorer, GIANT, and package management is your friend
+* **[Q: Who's hiring?](#whos-hiring)**
+  * Max Planck IIE,
+  * University of Oslo
+  * Hannover Medical School
+  * EMBL Rome
+  * Norwegian University of Life Science
+  * Roche
+  * Johns Hopkins (AnVIL, 2 positions)
+  * Cleveland Clinic
+  * Sorbonne-Université
+  * Johns Hopkins (Galaxy, 2 positions).
+  * *A: Everyone, it seems.*
+* **[New releases](#releases)**:
+  * Galaxy 20.09
+  * ENA submission
+  * OMERO accessible from Galaxy
+  * CloudLaunch
 * **[Other news too](#other-news)**
+</div>
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -26,20 +59,6 @@ If you have anything to include to next month's newsletter, then please send it 
 Despite COVID-19, there is still a lot going on. Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
-
-<!-- Aus: Intro -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
-
-<div class="card-header">[Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-december-2020-tickets-123610812267)</div>
-
-**8 December, Online**
-
-This interactive beginners workshop will provide an introduction to the Galaxy interface, histories and available tools. The material covered in this workshop is freely available through the Galaxy Training Network. Presented by Simon Gladman of Australian BioCommons.
-
-*Note: If you are on the North American west coast, this runs at 7-10 pm Pacific time on Dec 7. If you are (almost) anywhere in Asia, this is during your workday.*
-</div>
-
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
