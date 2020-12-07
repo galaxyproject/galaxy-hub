@@ -139,8 +139,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-
-
 <!-- CLIP Seq -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
@@ -154,9 +152,12 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 <!-- GenAP -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">CANARIE funds GenAP expansion</div>
-<img class="card-img-top" src="/src/use/genap/genap-text-logo.png" alt="GenAP" />
 
-GenAP, a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+[GenAP](/src/use/genap/index.md), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+
+<img class="card-img-bottom" src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" />
+
+
 </div>
 
 
@@ -168,7 +169,7 @@ The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the E
 
 If you have some special needs that we should consider in our next purchase, [let us know!](galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
 
-<img class="card-img-top" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
+<img class="card-img-bottom" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
 
 </div>
 
@@ -309,9 +310,30 @@ Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/ind
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Capacity building for whole genome sequencing of Mycobacterium tuberculosis and bioinformatics in high TB burden countries](https://doi.org/10.1093/bib/bbaa246)</div>
+<div class="card-header"> [Survey of metaproteomics software tools for functional microbiome analysis](https://doi.org/10.1371/journal.pone.0241503)</div>
 
-Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., Heusden, P., Warren, R., Meehan, C. J., & Van Rie, A. (2020). *Briefings in Bioinformatics*. [doi: doi.org/10.1093/bib/bbaa246](https://doi.org/10.1093/bib/bbaa246)
+Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B. A., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020).  *PLOS ONE*, 15(11), e0241503. [doi: 10.1371/journal.pone.0241503](https://doi.org/10.1371/journal.pone.0241503)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Galaxy CLIP-Explorer: A web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
+
+Heyl, F., Maticzka, D., Uhl, M., & Backofen, R. (2020). *GigaScience*, 9(11). [doi: 10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [GIANT: Galaxy-based tool for interactive analysis of transcriptomic data](https://doi.org/10.1038/s41598-020-76769-w)</div>
+
+Vandel, J., Gheeraert, C., Staels, B., Eeckhoute, J., Lefebvre, P., & Dubois-Chevalier, J. (2020). *Scientific Reports*, 10(1), 19835. [doi: 10.1038/s41598-020-76769-w](https://doi.org/10.1038/s41598-020-76769-w)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)</div>
+
+Jalili, V., Clements, D., Gruning, B., Blankenberg, D., & Goecks, J. (2020). *BioRxiv*, 2020.11.16.385211. [doi: 10.1101/2020.11.16.385211](https://doi.org/10.1101/2020.11.16.385211)
 </div>
 
 
