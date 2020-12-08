@@ -55,16 +55,15 @@ date: "2020-12-08"
   </li>
   <li>**[Q: Who's hiring?](#whos-hiring)**
     <ul>
-      <li>Max Planck IIE</li>
-      <li>University of Oslo</li>
-      <li>Hannover Medical School</li>
-      <li>EMBL Rome</li>
-      <li>Norwegian University of Life Science</li>
-      <li>Roche</li>
-      <li>Johns Hopkins (AnVIL, 2 positions)</li>
-      <li>Cleveland Clinic</li>
-      <li>Sorbonne-Université</li>
-      <li>Johns Hopkins (Galaxy, 2 positions).</li>
+      <li> Europe:
+        <ul>
+          <li>Max Planck IIE, University of Oslo, Hannover Medical School, EMBL Rome, Norwegian University of Life Science, Sorbonne-Université</li>
+        </ul>
+      </li>
+      <li>North America:
+        <ul>
+          <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions), Cleveland Clinic</li>
+        </ul>
       <li>*A: Everyone, it seems.* </li>
     </ul>
   </li>
