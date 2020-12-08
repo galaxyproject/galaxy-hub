@@ -5,13 +5,12 @@ date: "2020-12-08"
 ---
 
 <div class="card border-info">
-<div class="card-header">In this ssue:</div>
+<div class="card-header">In this issue:</div>
 <div class="card-body">
-<br />
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-<ul style="font-size: 1.2rem;">
+<ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
     <ul>
       <li>Webinars:
@@ -82,7 +81,9 @@ date: "2020-12-08"
 
 </div>
 </div>
+
 <br />
+
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
