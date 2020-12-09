@@ -15,7 +15,7 @@ links:
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1vcXpctBe4ED_XQxKQNzPjkAjRuNZiqAsBXe5ws4CCHE/edit?usp=sharing"
   - text: "Video"
-    url: "https://zoom.us/rec/share/KCbVu91tKKgbLhKNVYI13PUiFUdmkkTZUEYCOcXwD6vHGKFnJEMJzXQYPyOQl9k-.sYk7unRusaRxrt8h"
+    url: "https://youtu.be/srUg7O318PA"
 ---
 
 **11am-Noon, Eastern US time ([see your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Webinar%3A+Use+Galaxy+everywhere&iso=20201209T11&p1=419&am=55))**
