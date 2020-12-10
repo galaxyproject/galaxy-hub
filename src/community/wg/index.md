@@ -17,21 +17,32 @@ Please [join us](https://psu.zoom.us/j/92752763386) on December 10, 2020, at Noo
 
 The initial proposal includes these topic areas:
 
+* **Admin**: running services, synchronization
 * **Backend**: APIs, core framework, performance
+* **Cancer Informatics**: federated analysis of widely distributed cancer datasets
 * **Deployment**: Ansible, K8s, cloud
+* **Human Genetics**: support the analysis of protected human datasets
 * **Outreach/training**: GTN, content, events
 * **Scientific applications**: using Galaxy, publications
 * **Testing and hardening**: release and deployment testing
 * **Tools**: wrapping, installation, and maintenance
 * **UI/UX**: scale, accessibility, consistency
 * **User support and documentation**: help, Hub, user & dev docs
-* ** Usegalaxy.* **: running services, synchronization
+
+* **AnVIL**: Maintain and improve the AnVIL deployment of Galaxy on Kubernetes and continue to integrate it more tightly with Terra and other AnVIL components.
+* **Main**: Identify priorities for usegalaxy.org (Main)
+
 
 Contact and other information for these groups:
 
 *Note this list will be updated after the 2020/12/10 Call.*
 
+### Admin
+
+
 ### Backend
+
+* [Gitter Channel](https://gitter.im/galaxyproject/backend)
 
 
 ### Deployment
@@ -51,6 +62,8 @@ Contact and other information for these groups:
 
 ### Testing and Hardening
 
+* [Gitter Channel](https://gitter.im/galaxyproject/testing-hardening)
+
 
 ### Tools
 
@@ -61,5 +74,8 @@ Contact and other information for these groups:
 ### UI / UX
 
 
-### Use Support and Documentation
+### User Support and Documentation
+
+* [Gitter Channel](https://gitter.im/galaxyproject/support-organizing)
+
 
