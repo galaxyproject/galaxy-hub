@@ -27,3 +27,39 @@ The initial proposal includes these topic areas:
 * **User support and documentation**: help, Hub, user & dev docs
 * ** Usegalaxy.* **: running services, synchronization
 
+Contact and other information for these groups:
+
+*Note this list will be updated after the 2020/12/10 Call.*
+
+### Backend
+
+
+### Deployment
+
+* [Deployment Working Group Charter and Priorities](https://docs.google.com/document/d/1ZxmBHwKZEc1QZ-xQP3fYcbjH01myGfjzQ9RfhJwl2jo/edit#heading=h.9cp679lig0rf)
+  * Lists membership, priorities and timeline.
+  * Contact a member to get edit access.
+
+
+### Outreach & Training
+
+* [Discord Server invite](https://discord.gg/KCJMRjEhJM), for chat.
+* [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
+
+### Scientific Applications
+
+
+### Testing and Hardening
+
+
+### Tools
+
+* [Gitter Chat Channel](https://gitter.im/galaxyproject/tools)
+* [Tools Working Group Assignments](https://docs.google.com/spreadsheets/d/1jPhMF5VwoO1jW_ejdx9ZEs-DZ2bkCHezybFjfuorZeM/edit#gid=0)
+
+
+### UI / UX
+
+
+### Use Support and Documentation
+
