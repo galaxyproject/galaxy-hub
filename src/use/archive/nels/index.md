@@ -9,7 +9,7 @@ platforms:
     platform_text: "Norwegian e-Infrastructure for Life Sciences (NeLS)"
     platform_location: NO
 summary: "Life Science platform for Norwegian academic researchers."
-image: "/src/use/nels/nels-logo-300.png"
+image: "nels-logo-300.png"
 comments:
   - "Life Science researchers from Norwegian academic institutions can log in with their FEIDE accounts (federation of home institution credentials). Other research collaborators can apply for a NeLS account."
   - "The Norwegian e-Infrastructure for Life Sciences (NeLS) consists of a network of Galaxy servers at five Norwegian universities accessible via single sign-on."

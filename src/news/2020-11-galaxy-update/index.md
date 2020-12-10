@@ -393,7 +393,7 @@ Roche, Bay Area, California, United States.
 
 ELIXIR Norway Team, University of Oslo, Norway.
 
-Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including UseGalaxy.no and [NeLS](/src/use/nels/index.md).
+Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including [UseGalaxy.no](/src/use/usegalaxy-no/index.md) and NeLS.
 
 <img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
 </div>

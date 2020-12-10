@@ -8,12 +8,12 @@ platforms:
     platform_url: "https://usegalaxy.no"
     platform_text: "Free for Norwegian researchers and affiliates"
     platform_location: NO
-summary: "A central, joint & free usegalaxy.no instance with ~2000 bioinformatics tools, 200GB short-term storage and project storage on nels.bioinfo.no."
+summary: "A central, joint & free Galaxy instance for Norway-based researchers and their collaborators, with ~2000 bioinformatics tools, 200GB short-term storage and project storage on nels.bioinfo.no."
 image: "usegalaxy-no-logo.jpg"
 comments:
   - "Life Science researchers from Norwegian academic institutions can log in with their FEIDE accounts (federation of home institution credentials). Other research collaborators can apply for a NeLS account."
 user_support:
-  - "The [Norwegian Bioinformatics Platform](http://www.bioinfo.no) has a help desk that can be reached by emailing contact@bioinfo.no"
+  - "[Elixir Norway Helpdesk](https://elixir.no/helpdesk)"
 quotas:
   - "UseGalaxy.no has 200GB of temporary storage available per user. Bulk volumes of data are managed through the NeLS centralized storage and the Norwegian national storage services."
 citations:
