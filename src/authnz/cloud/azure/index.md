@@ -45,8 +45,32 @@ To setup Galaxy to use a service principal, you need to `POST` a payload as the 
 }
 ```
 
-You can obtain `authn_id` by submitting a `GET` request to the `/authnz/` controller (e.g., `http://127.0.0.1:8080/authnz/` . 
+You may send the API request using `curl` as the following: 
 
-See the following figure as an example, which uses [Postman](https://www.getpostman.com) to send the API requests.
+```shell
+ curl --header "Content-Type: application/json" \
+ --request POST \
+ --data '{"provider": "azure", "config": {"tenant_id": "...","client_id": "...","client_secret": "..."}}' \
+ https://usegalaxy.org/api/cloud/authz?key=...
+```
 
-  ![image](/src/authnz/cloud/azure/05.png)
+This API call with respond with the created Azure authnz record as the following: 
+
+```json
+{
+    "model_class": "CloudAuthz",
+    "config": {
+    "client_id": "...",
+    "client_secret": "...",
+    "tenant_id": "..."
+    },
+    "user_id": "...",
+    "last_activity": "2020-12-15 15:37:56.123303",
+    "create_time": "2020-12-15 21:37:56.125248",
+    "description": "",
+    "last_update": "2020-12-15 15:37:56.123284",
+    "id": "...",
+    "provider": "azure",
+    "authn_id": null
+}
+```
