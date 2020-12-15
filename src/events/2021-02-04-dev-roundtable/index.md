@@ -1,23 +1,30 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Galaxy Developer Training & Onbarding"
 date: '2021-02-04'
 days: 1
-tease: "TBD"
+tease: "How to grow the Galaxy Developer community?"
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Dannon Baker, Marius van den Beek, John Chilton"
+contact: "Dannon Baker, Beatriz Serrano-Solano, Dave Clements"
+links:
+  - text: "Zoom"
+    url: "https://psu.zoom.us/j/92752763386"
 ---
 
-**Topic: TBD**
-
-*Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
-
+**Topic: How to grow the Galaxy Developer community**, including a discussion of a new Galaxy Developer Training Course, and other ways we can make it easier for new developers.
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210204T12&p1=179&ah=1)) for an open discussion about ...
+
+We are hoping to offer a new *Galaxy Developer Training Course* in 2021.  We hope to gather input on what should be covered, as well as insights on how this should be presented.  In addition, we would like to discuss other ways to make it easier for new code contributors to come on-board.
+
+Please bring your ideas.
+
+Have something you want to talk about at a future round table? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
+
 
 
 ---

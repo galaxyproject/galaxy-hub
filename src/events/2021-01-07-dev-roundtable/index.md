@@ -1,28 +1,27 @@
 ---
-title: "Galaxy Developer Roundtable: Developer Training"
+title: "Galaxy Working Groups Follow Up and Discussion"
 date: '2021-01-07'
 days: 1
-tease: "What should be covered in Galaxy Developer Training?"
+tease: "How are we doing after a month?"
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Dannon Baker, Beatriz Serrano-Solano, Dave Clements"
+contact: "Björn Grüning, Anton Nekrutenko"
 ---
 
-**Topic: What should be covered in the new Galaxy Developer training**, and other ways we can make it easier for new developers.
+This is a followup to discussion to the [December 2020 roundtable](/src/events/2020-12-10/dev-roundtable/index.md), where [Galaxy Working Groups](/src/community/wb/index.md) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
 
-Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210107T12&p1=179&ah=1)) for an open discussion about ...
+This call will be a followup to see how our first month has gone, and how goal setting and tracking fro 2021Q1 is going.
 
-We are hoping to offer a new *Galaxy Developer Training Course* in 2021.  We hope to gather input on what should be covered, as well as insights on how this should be presented.  In addition, we would like to discuss other ways to make it easier for new code contributors to come on-board.
+If you are interested and are potentially willing to contribute some of your time and effort to helping the global Galaxy effort, then please attend this roundtable.  If you can't make it, the gathering will be recorded and published shortly after the event.
 
-Please bring your ideas.
+Please **[join us](https://psu.zoom.us/j/92752763386)** at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210107T12&p1=179&ah=1)).
+
+---
 
 Have something you want to talk about at a future round table? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
-
-
----
 
 The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 

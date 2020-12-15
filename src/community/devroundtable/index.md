@@ -34,12 +34,12 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders:
 * **[2021-02-18: TBD](/src/events/2021-02-18-dev-roundtable/index.md)**
   * Leaders:
-* **[2021-02-04: TBD](/src/events/2021-02-04-dev-roundtable/index.md)**
-  * Leaders:
+* **[2021-02-04:Galaxy Developer Training & Onbarding](/src/events/2021-02-04-dev-roundtable/index.md)**
+  * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements
 * **[2021-01-21: FastAPI](/src/events/2021-01-21-dev-roundtable/index.md)**
   * Leaders: Marius van den Beek
-* **[2021-01-07: Galaxy Developer Training](/src/events/2021-01-07-dev-roundtable/index.md)**
-  * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements
+* **[2021-01-07: Galaxy Working Groups Follow Up and Discussion](/src/events/2021-01-07-dev-roundtable/index.md)**
+  * Leaders: Björn Grüning, Anton Nekrutenko
 
 ### 2020
 
