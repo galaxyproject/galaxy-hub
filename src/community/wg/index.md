@@ -24,6 +24,11 @@ The initial proposal includes these topic areas:
 
 Contact and other information for these groups:
 
+### All Working Groups
+
+* [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
+  * Please condsider joining if you are involved in any working group.
+
 ### Admin
 
 * [Google Drive](https://drive.google.com/drive/folders/1wUWo3n3dS40Gqu_G60scEGyI37KEhvrp)
@@ -90,8 +95,9 @@ Contact and other information for these groups:
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-ui-ux)
 * Leadership: Dannon Baker
 
-## History
+## Timeline
 
+In reverse chronological order:
 
 ### 2021-01-07: Launch follow up
 
