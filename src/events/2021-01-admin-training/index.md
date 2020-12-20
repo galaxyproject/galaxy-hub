@@ -67,3 +67,4 @@ Linux has several text editors available in it.  You’ll need to be competent i
 
 This workshop is *free*.  However, space is limited and applications are expected to be competitive. The deadline for applications was the end of December 18.
 
+**If you are interested in being notified about future Galaxy Admin Training opportunities, then [please register your interest here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform), and we will notify you.**
