@@ -63,11 +63,8 @@ Linux has several text editors available in it.  You’ll need to be competent i
     * If you are running Windows than you’ll need to get something like putty installed before the workshop.
   * A recent version of either the Chrome or Firefox web browser installed.
 
-# Apply Now
+# Applications are closed
 
-**This workshop is *free*.  However, space is limited and applications are expected to be competitive. Please submit an application by the end of December 18.  **
+This workshop is *free*.  However, space is limited and applications are expected to be competitive. The deadline for applications was the end of December 18.
 
-<div class="text-center">
-<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](https://forms.gle/vpAzUybJnAZBf9qj6)</button>
-</div>
+**If you are interested in being notified about future Galaxy Admin Training opportunities, then [please register your interest here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform), and we will notify you.**

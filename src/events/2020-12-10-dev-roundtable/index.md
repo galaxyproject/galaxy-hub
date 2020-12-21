@@ -1,18 +1,21 @@
 ---
-title: "Galaxy Developer Roundtable: Distributing Galaxy Guidance"
+title: "Galaxy Working Groups: Distributing project guidance to the community"
 date: '2020-12-10'
 days: 1
 tease: "Distributing Galaxy Guidance: Working Groups"
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Björn Grüning, Anton Nekrutenko"
+links:
+  - text: "Video"
+    url: "https://youtu.be/V87OdtdRLJM"
 ---
 
-**Topic: Galaxy Working Groups: Distributing project guidance to the community**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V87OdtdRLJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20201210T12&p1=179&ah=1)).
 

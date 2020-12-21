@@ -43,14 +43,14 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ### 2020
 
-* **2020-12-24: No Meeting**
+* 2020-12-24: No Meeting
 * **[2020-12-10: Galaxy Working Groups: Distributing project guidance to the community](/src/events/2020-12-10-dev-roundtable/index.md)**
-  * Leaders: Björn Grüning, Anton Nekrutenko
-* **2020-11-26: No Meeting**
-* **[2020-11-12: Galaxy Training Network](/src/events/2020-11-12-dev-roundtable/index.md)**
-  * Leaders: Helena Rasche and Saskia Hiltemann
+  * Leaders: Björn Grüning, Anton Nekrutenko, [video](https://youtu.be/V87OdtdRLJM)
+* 2020-11-26: No Meeting
+* **[2020-11-12: Working with the Galaxy Training Network](/src/events/2020-11-12-dev-roundtable/index.md)**
+  * Leaders: Helena Rasche and Saskia Hiltemann, [video](https://youtu.be/D8GCuQMjjpw)
 * **[2020-10-29: Tool testing and tool deployment](/src/events/2020-10-29-dev-roundtable/index.md)**
-  * Presenters: General discussion [video](https://youtu.be/coKgWylWqNU)
+  * Presenters: General discussion, [video](https://youtu.be/coKgWylWqNU)
 * **[2020-10-15: Galaxy release testing and publishing workflows to Dockstore and Workflowhub](/src/events/2020-10-15-dev-roundtable/index.md/)**
   * Presenters: Sergey Golitsynskiy, Marius van den Beek, [video](https://youtu.be/lGEBWXu6Lvw) 
 * **[2020-10-01: Machine learning tools in Galaxy, and enabling per-objectstore quotas in Galaxy](/src/events/2020-10-01-dev-roundtable/index.md)**
