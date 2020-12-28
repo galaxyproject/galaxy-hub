@@ -23,7 +23,7 @@ Oh yeah, and bring your ideas.
 
 ## Galaxy Working Groups
 
-Galaxy has grown a lot of the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **It is past time to push this global model to other areas of Galaxy as well.**
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **It is past time to push this global model to other areas of Galaxy as well.**
 
 **This roundtable will introduce *[Galaxy Working Groups](/src/community/wg/index.md)* as a means for the community to help manage *and contribute to* key parts of the Galaxy ecosystem.**
 
