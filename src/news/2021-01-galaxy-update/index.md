@@ -95,42 +95,40 @@ Despite COVID-19, there is still a lot going on. Some of it is virtual, but live
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="galaxy-in-monitor-x3.png" alt="Galaxy Webinar" />
-<div class="card-header">[Galaxy Webinars](/src/events/webinars/index.md)</div>
+<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
-**9 & 10 December, Online**
+**20 January - 24 February**
+<br />
+*Open Data Infrastructures to tackle COVID-19 pandemic*
 
-Interested in learning more about Galaxy [in a webinar](/src/events/webinars/index.md)?  Here's two offered this month:
+This series of [six webinar sessions](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series) features experts from ELIXIR and the global Galaxy community demonstrating how open access and open science are fundamental for fast and efficient response to public health crises. The first two webinars are:
 
-**[Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/index.md)** <br />
-There are *many* ways that researchers can access Galaxy. [This webinar](/src/events/2020-12-webinar-where/index.md) on **Wednesday, December 9**, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
-
-**[Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/chloroplastgenomeassembly)** <br />
-You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna Syme of Australian BioCommons will present a [webinar on plant genomics and genome assembly](https://www.biocommons.org.au/events/chloroplastgenomeassembly).
+1. **COVID-19 analysis in Galaxy: Lessons learned and introduction to the series, 20 January**
+2. **Importance of (open) infrastructures in responding to a pandemic, 27 January**
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable: Working Groups](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtables](/src/community/devroundtable/index.md)</div>
 
-**10 December, Online**
+There are two roundtable meetups this month:
 
-There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roundtable/index.md). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
-
-*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. 
+* **[Galaxy Working Groups Follow Up and Discussion](/src/events/2021-01-07-dev-roundtable/index.md), January 7**, Björn Grüning, Anton Nekrutenko
+* **[FastAPI](/src/events/2021-01-21-dev-roundtable/index.md), January 21**, Marius van den Beek
 </div>
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
-<div class="card-header">[December Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
+<img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01-slice.png" alt="Paper Cuts January" />
+<div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-11-papercuts/index.md)</div>
 
-**17 December, Online**
+**21 January, Online**
 
-Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/src/events/2020-12-papercuts/index.md). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Our one-day January Paper Cuts contribution fest is a 24-hour event spanning all time zones with our worldwide community. 
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -138,11 +136,12 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
-<div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
+<div class="card-header">[Future Galaxy Admin Trainings](/src/events/2021-01-admin-training/index.md)</div>
 
-**Application Deadline: 18 December**
+The application deadline for the [January 2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
 
-Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Applications are competitive).
+1. More than a day of Admin Training will be offered as [part of GCC20201](https://www.vibconferences.be/events/gcc2021) in July.
+1. You can [register your interest in future Galaxy Admin Trainings here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform).  *If we get enough interest, we will try to hold another online training sometime this year.*
 
 </div>
 
@@ -157,6 +156,17 @@ Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admi
 
 [Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc.), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [blend4php](https://github.com/galaxyproject/blend4php).
 
+</div>
+
+
+<!-- SV with ONT -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2021-01-sv-wtih-ont/sv-with-ont-workshop.png" alt="Structural Variant Detection using ONT Data" />
+<div class="card-header">[Structural Variant Detection using ONT Data](/events/2021-01-sv-wtih-ont/sv-with-ont.pdf)</div>
+
+**January 26, Online**
+
+In this Webinar Nathan Roach​ ([GalaxyWorks](https://galaxyworks.io/)) will demonstrate analysis methods of long read data using the Oxford Nanopore(ONT) tool suite in Galaxy Pro. [Michael Alonge](https://michaelalonge.com/)​ (Johns Hopkins University) will highlight the application of these methods.
 </div>
 
 
