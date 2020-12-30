@@ -8,6 +8,11 @@ platforms:
     platform_url: "http://globusgenomics.org/"
     platform_text: "Globus Genomics"
     platform_location: US
+  - platform_group: "commercial-cloud"
+    platform_purview: "Global"
+    platform_url: "http://globusgenomics.org/"
+    platform_text: "Globus Genomics"
+    platform_location: US
 summary: "Globus Genomics provides hardened high-performance Galaxy servers running with Globus on AWS."
 image: "/src/use/globus-genomics/globus-genomics-logo.png"
 comments:
@@ -17,7 +22,7 @@ user_support:
   - "Globus Genomics offers service level agreements."
   - "[Globus World](https://www.globusworld.org/) annual conference."
 quotas:
-  - "Globus Genomics uses a use-based model to determine charging."
+  - "Globus Genomics is classified as both an academic cloud and commercial cloud platform.  It is definitely a *research* cloud platform, but it is built on a *commercial cloud* platform and uses a use-based model to determine charging."
 citations:
   - "[The Globus Galaxies platform: delivering science gateways as a service](https://doi.org/10.1002/cpe.3486), Ravi Madduri, Kyle Chard, Ryan Chard, Lukasz Lacinski, Alex Rodriguez, Dinanath Sulakhe, David Kelly, Utpal Dave, Ian Foster. *Concurrency and Computation: Practice and Experience* 29 April 2015 doi: /10.1002/cpe.3486"
   - "[Experiences in building a next-generation sequencing analysis service using galaxy, globus online and Amazon web service](https://doi.org/10.1145/2484762.2484827), Ravi K. Madduri, Paul Dave, Dinanath Sulakhe, Lukasz Lacinski, Bo Liu, Ian T. Foster. XSEDE '13 Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery, doi: 10.1145/2484762.2484827"

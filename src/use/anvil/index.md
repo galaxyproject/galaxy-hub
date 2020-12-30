@@ -3,9 +3,14 @@ title: "AnVIL"
 url: "https://anvilproject.org/"
 scope: "general"
 platforms:
+  - platform_group: "academic-cloud"
+    platform_url: "https://anvilproject.org/"
+    platform_text: "Galaxy on AnVIL"
+    platform_purview: "Global"
   - platform_group: "commercial-cloud"
     platform_url: "https://anvilproject.org/"
     platform_text: "Galaxy on AnVIL"
+    platform_purview: "Global"
 summary: "Run Galaxy inside the secure AnVIL environment on Google Cloud Platform."
 image: "/src/images/logos/anvil-logo-text.png"
 comments:
@@ -19,6 +24,7 @@ user_support:
   - "[Getting Started with Galaxy (in AnVIL)](https://anvilproject.org/learn/getting-started/getting-started-with-galaxy)"
   - "[Video: Galaxy on AnVIL Walkthrough](https://www.youtube.com/watch?v=-Q4SjLEd99s)"
 quotas:
+  - "AnVIL is classified as both an *academic cloud* and a *commercial cloud* platform.  It is definitely a *research cloud* platform (funded [by NHGRI](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL#awards)), but it is built on a *commercial cloud* platform and is a pay-per-use platform."
 citations:
 pub_libraries:
 sponsors:
