@@ -8,7 +8,7 @@ So, how can you do that?  It depends on your research:
 
 | If you are | then please |
 | ---- | ---- |
-| **Referring to the Galaxy Project in general** | Cite the [primary publication](#primary-publication) |
+| **Referring to the Galaxy Project in general** | Cite the [primary publication](#primary-publication). |
 | **Referring to specific [public Galaxy platforms](/src/use/index.md) or using them in your methods** | Cite [that platform's primary publication](#which-galaxy). |
 | **Using a local or temporary cloud instance** | Cite the [primary publication](#primary-publication) and mention that a local or cloud based Galaxy was used.  (Note: We suspect that this is the most under-reported use of Galaxy.) |
 | **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components-features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) <br />&bull; [Training](#training) |
