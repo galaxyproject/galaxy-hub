@@ -14,7 +14,7 @@ links:
   - text: "Slides"
     url: "https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-slides.pdf"
   - text: "Video"
-    url: "https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-webinar.mp4"
+    url: "https://youtu.be/DIhgjTOdfqE"
 image: "galaxy-sra.png"
 ---
 

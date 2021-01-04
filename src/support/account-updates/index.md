@@ -15,6 +15,14 @@
   1. Some changes will require email confirmation. Be sure to use a valid email address
   1. If an email confirmation is needed, it may be in your email Spam or Trash folders, depending on your filters
   
+### Example: How to update your account's registered email address
+
+  1. Log in to Galaxy using the current email address
+  1. Go to **User > Preferences > Manage Information**
+  1. Update your email address and click on `SAVE`
+  1. An account change notification email will be sent and you'll need to confirm the change before it takes effect
+  1. Note: The change confirmation link in that email expires after 6 hours. If you miss that time window, repeat the steps to generate another account change email with a new link.
+  
 ## Forgotten password reset
  
   1. Go to the Galaxy server you are using

@@ -1,18 +1,21 @@
 ---
-title: "Galaxy Developer Roundtable: Distributing Galaxy Guidance"
+title: "Galaxy Working Groups: Distributing project guidance to the community"
 date: '2020-12-10'
 days: 1
 tease: "Distributing Galaxy Guidance: Working Groups"
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Björn Grüning, Anton Nekrutenko"
+links:
+  - text: "Video"
+    url: "https://youtu.be/V87OdtdRLJM"
 ---
 
-**Topic: Galaxy Working Groups: Distributing project guidance to the community**
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V87OdtdRLJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20201210T12&p1=179&ah=1)).
 
@@ -20,9 +23,9 @@ Oh yeah, and bring your ideas.
 
 ## Galaxy Working Groups
 
-Galaxy has grown a lot of the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **It is past time to push this global model to other areas of Galaxy as well.**
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **It is past time to push this global model to other areas of Galaxy as well.**
 
-**This roundtable will introduce *Galaxy Working Groups* as a means for the community to help manage *and contribute to* key parts of the Galaxy ecosystem.**
+**This roundtable will introduce *[Galaxy Working Groups](/src/community/wg/index.md)* as a means for the community to help manage *and contribute to* key parts of the Galaxy ecosystem.**
 
 If you are interested and are potentially willing to contribute some of your time and effort to helping the global Galaxy effort, then please attend this roundtable on December 10.  If you can't make it, the gathering will be recorded and published shortly after the event.
 

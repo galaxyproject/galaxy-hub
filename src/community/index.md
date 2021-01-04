@@ -15,6 +15,10 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/src/gcc/index.md)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
 
+# Working Groups
+
+[Galaxy Working Groups](/src/community/wg/index.md) are a means for the community to help manage and contribute to key parts of the Galaxy ecosystem.  They were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
+
 # IUC: Keepers of Galaxy Tools
 
 The [Intergalactic Utilities Commission](/src/iuc/index.md) (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
@@ -62,6 +66,7 @@ Anyone is welcome to attend. If you would like to present, please [fill out this
 |--------|------|-------|
 | [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) |
 | Australia | Australian Galaxy community | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyaustralia) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://usegalaxy.org.au/) |
+| Czech Republic | Česká komunita Galaxy / Czech Galaxy Community | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/) |
 | Europe | [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) <br /> [Galaxy Europe](https://galaxyproject.eu/) | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://elixir-europe.org/communities/galaxy) <br /> [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://galaxyproject.eu/) [<i class="fab fa-gitter" aria-hidden="true"></i>](https://gitter.im/usegalaxy-eu)|
 | France | Galaxy in French Speaking World | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://community.france-bioinformatique.fr/c/galaxy/8) |
 | Japan | Pitagora Galaxy Community | [<i class="fab fa-twitter" aria-hidden="true"></i>](https://twitter.com/hashtag/usegalaxyjp) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](http://wiki.pitagora-galaxy.org) |

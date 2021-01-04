@@ -10,5 +10,8 @@ external_url: "https://www.biocommons.org.au/events/galaxy-aust-mass-spec"
 gtn: false
 tags: [ webinar ]
 contact: "Gareth Price, Johan Gustafsson"
-image: 
+image:
+links:
+  - text: "Video"
+    url: "https://youtu.be/0IzmfebWtUU"
 ---

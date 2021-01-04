@@ -22,7 +22,6 @@
     "expose-loader": "^0.7.5",
     "file-loader": "^4.2.0",
     "handlebars": "^4.5.3",
-    "highlight.js": "^9.15.10",
     "jquery": "^3.5.0",
     "jstransformer-pug": "^0.3.0",
     "lodash": "^4.17.19",
@@ -47,7 +46,7 @@
     "sass-loader": "^8.0.0",
     "slug": "^1.1.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.41.0",
+    "webpack": "4.44.2",
     "webpack-cli": "^3.3.9"
   },
   "scripts": {

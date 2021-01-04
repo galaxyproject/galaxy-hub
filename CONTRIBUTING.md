@@ -891,9 +891,15 @@ An example clone command, using the authenticated URL would be:
 git clone git@github.com:galaxyproject/galaxy-hub.git
 ```
 
+Note: Once you have cloned the repository (and installed LFS) you may also need to run this command to get copies of image files managed by LFS:
+
+```
+git lfs pull
+```
+
+
 The only other dependency you should need is [node.js](https://nodejs.org/en/).
-Most modern versions should work fine, but follow the instructions [on
-nodejs.org](https://nodejs.org) if you would like to update.
+Favor the most recent Long Term Support version (LTS) of Node.js.
 
 
 ## Generate local website

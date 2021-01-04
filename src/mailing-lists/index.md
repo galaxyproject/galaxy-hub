@@ -3,70 +3,32 @@ title: Galaxy Mailing Lists
 ---
 Mailing lists play a vital role in the Galaxy community:
 
+1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) and Galaxy Chat channels.** If you prefer a forum or chat interface, then use those instead.
 1. They are a key part of [Galaxy's overall support efforts](/src/support/index.md).
-1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) (and formerly the [Galaxy Biostar forum](/src/support/biostar/index.md)).**
 1. They are a place where the community *[can ask and answer](/src/mailing-lists/index.md#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
 1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/mailing-lists/index.md#searching)*.  
 1. Finally, they are a great way to learn what is going on in the Galaxy Community.  
 
-# Galaxy Help Forum
-
-If you prefer an online forum to a mailing list, or if you have a question about *using Galaxy* then please use the [online Galaxy Help Forum](https://help.galaxyproject.org/).
-
-# BioStar (deprecated)
-
-***Note: [Galaxy BioStar](https://biostar.usegalaxy.org/)) was deprecated in November 2018.  The old site and questions and answers are still online, but all new questions should go to the [online Galaxy Help Forum](https://help.galaxyproject.org/).***
-
-(The Galaxy-User mailing was migrated to the [Galaxy Biostar forum](https://biostar.usegalaxy.org/) in Spring 2014.  All posts to Galaxy-User were migrated to Galaxy BioStar at that time.) 
-
 # The lists
 
 Galaxy has several active mailing lists, each for a different purpose in the Galaxy community.
 
-<table class="table table-striped">
-  <tr class="th" >
-    <th> List Link </th>
-    <th> Description </th>
-    <th> List Email Address </th>
-    <th> Archives (see <a href='/src/mailing-lists#searching'>Searching</a>) </th>
-  </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/'>galaxy-announce</a> </th>
-    <td> Announcements of interest to the Galaxy community.  <em>Moderated and low volume.</em> </td>
-    <td> </td>
-    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/'>Mailman</a> </td>
-  </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/'>galaxy-dev</a> </th>
-    <td> Local installation, configuration, and tool integration help, or to propose new features. <em><a href='/src/galaxy-project/statistics#mailing-lists'>High volume</a>.</em> </td>
-    <td> galaxy-dev AT lists DOT galaxyproject DOT org </td>
-    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/'>Mailman</a> </td>
-  </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'>galaxy-proteomics</a> </th>
-    <td> Proteomics related questions, announcements, and anything else of interest to the Galaxy proteomics community.<em> <a href='/src/galaxy-project/statistics#mailing-lists'>Low volume</a>.</em> </td>
-    <td> galaxy-proteomics AT lists DOT galaxyproject DOT org </td>
-    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-proteomics@lists.galaxyproject.org/'>Mailman</a> </td>
-  </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/'>galaxy-training</a> </th>
-    <td> If you have a question about <a href='https://training.galaxyproject.org/'>teaching bioinformatics with Galaxy, or about teaching Galaxy itself</a>, then this is a good place to find an answer. This is also the official mailing list of the <a href='https://training.galaxyproject.org/'>Galaxy Training Network (GTN)</a>. </td>
-    <td> galaxy-training AT lists DOT galaxyproject DOT org </td>
-    <td> <a href='https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/'>Mailman</a> </td>
-  </tr>
-  <tr>
-    <th> <a href='https://lists.galaxyproject.org/lists/galaxy-public-servers.lists.galaxyproject.org/'>galaxy-public-servers</a> </th>
-    <td> List is for system administrators, software developers, and principal investigators that are responsible for Galaxy servers that are publicly accessible. By "publicly accessible" we mean that anyone on the web can create an account, upload data, and perform analyses on the server. It does not mean that there are no limits on the server.  The list is used mainly to communicate security concerns a day or two before public announcements.  *Anyone associated with any platfomr that is listed in the [Galaxy Platform Directory](/src/use/index.md) is eligible and encouraged to be on this list.*  </td>
-    <td> galaxy-public-servers AT lists DOT galaxyproject DOT org </td>
-    <td> </td>
-  </tr>
-</table>
 
+| List Link | Description | List Email Address | Archives (see [Searching](#searching) |
+| ---- | ---- | ---- | ---- |
+| **[Galaxy-Announce](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)** | Announcements of interest to the Galaxy community.  *Moderated and low volume.* | | [Mailman](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/) |
+| **[Galaxy-Dev](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/)** | Local installation, configuration, and tool integration help, or to propose new features. *Low volume.* | galaxy-dev AT lists DOT galaxyproject DOT org | [Mailman](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/) |
+| **[Webinars](https://lists.galaxyproject.org/lists/webinars.lists.galaxyproject.org/)** | Announcements about [Galaxy Webinars](/src/events/webinars/index.md). *Low volume.* | |  [Mailman](https://lists.galaxyproject.org/archives/list/webinars@lists.galaxyproject.org/) |
+| **[Galaxy-Training](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)** | If you have a question about [teaching bioinformatics with Galaxy](https://training.galaxyproject.org/), or about teaching Galaxy itself, then this is a good place to find an answer. This is also the official mailing list of the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) | galaxy-training AT lists DOT galaxyproject DOT org | [Mailman](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/) |
+|** [Galaxy-Public-Servers](https://lists.galaxyproject.org/lists/galaxy-public-servers.lists.galaxyproject.org/)** | List is for system administrators, software developers, and principal investigators that are responsible for Galaxy servers that are publicly accessible. By "publicly accessible" we mean that anyone on the web can create an account, upload data, and perform analyses on the server. It does not mean that there are no limits on the server.  The list is used mainly to communicate security concerns a day or two before public announcements.  *Anyone associated with any platform that is listed in the [Galaxy Platform Directory](/src/use/index.md) is eligible and encouraged to be on this list.*  | | |
+| **[Metabolomics](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/)** | Announcements of the bi-monthly Galaxy Metabolomics community meetings, other announcements and discussions. | metabolomics AT lists DOT galaxyproject DOT org | [Mailman](https://lists.galaxyproject.org/archives/list/metabolomics@lists.galaxyproject.org/) |
+| **[Galaxy-Proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/)** | Proteomics related questions, announcements, and anything else of interest to the Galaxy proteomics community. *Low volume.* | galaxy-proteomics AT lists DOT galaxyproject DOT org | [Mailman](https://lists.galaxyproject.org/archives/list/galaxy-proteomics@lists.galaxyproject.org/) |
 
-<div class='right'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all" width="150" /></a></div>
 
 # Searching
+
+<div class='right'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all" width="150" /></a></div>
 
 You can search all lists at any of the archives above.  We recommend using [Galaxy Search](/src/search/index.md) to search all mailing list archives and [online forum posts](https://help.galaxyproject.org/).
 
@@ -102,10 +64,6 @@ If you are brand new to programming mailing lists please read
 **[How To Ask Questions The Smart Way by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)** for practical tips on writing programming questions to this or any other open source mailing list. 
 
 <span style="font-size: smaller;"> Hint for those too lazy to click: only you know useful information about the problem context such as the software packages and versions involved. A good question includes the bare minimum context detail, allowing someone who is skilled in the art and reading the list to understand the problem. </span>
-
-# Mailing List Traffic
-
-We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/src/galaxy-project/statistics/index.md#traffic) page for more information.
 
 # See Also
 

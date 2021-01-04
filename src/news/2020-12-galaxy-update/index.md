@@ -1,21 +1,87 @@
 ---
 title: 'December 2020 Galactic News'
-tease: "Events, Platforms, Jobs, Pubs, ..."
-date: ""
+tease: "And what a month it is"
+date: "2020-12-08"
 ---
 
-# In the December 2020 issue
+<div class="card border-info">
+<div class="card-header">In this issue:</div>
+<div class="card-body">
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[Event news](#event-news)**: webinars, community events and training.
-* **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, CLIP-Explorer, and UseGalaxy.*
-* **[Blog posts](#galactic-blog-activity):** Outcom of the Biohackathon Europe, new hardware for UseGalaxy.eu, TIaaS and training feedback...
-* **[Training material and doc updates](#doc-hub-and-training-updates)** 
-* **[Publications](#publications)** 
-* **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
-* **[New releases](#releases)**: 20.09, ENA submission, OMERO accessible from Galaxy.
-* **[Other news too](#other-news)**
+<ul style="font-size: 1.1rem;">
+  <li>**[Event news](#event-news)**:
+    <ul>
+      <li>Webinars:
+        <ul>
+          <li>Use Galaxy anywhere, right now, *December 9*</li>
+          <li>Chloroplast Genome Assembly, *December 10*</li>
+        </ul>
+      </li>
+      <li>First Metabolomics Community Call, *December 10*</li>
+      <li>Galaxy Developer Round Table: Working Groups, *December 10*</li>
+      <li>Papercuts CollaborationFest: *December 17*</li>
+      <li>Galaxy Admin Training: *Apply by December 18*</li>
+      <li>Tripal CodeFest 2021: *January 11-15*</li>
+      <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*</li>
+    </ul>
+  <li>**[Galaxy platform news](#galaxy-platforms-news):**
+    <ul>
+      <li>CLIP-Explorer, a new server for CLIP-Seq data </li>
+      <li>GenAP expansion funded by CANARIE (Canada!)</li>
+      <li>UseGalaxy.eu gets more storage and GPUs through deNBI-Cloud</li>
+      <li>Plus more UseGalaxy.\* news</li>
+    </ul>
+  </li>
+  <li>**[Blog posts](#galactic-blog-activity):**
+    <ul>
+      <li>Outcome of the BioHackathon Europe</li>
+      <li>Accessible single-cell RNA-sequencing bioinformatics training using Galaxy</li>
+      <li>TIaaS and training feedback</li>
+    </ul>
+  </li>
+  <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
+    <ul>
+      <li>Chloroplast genome assembly</li>
+      <li>Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite</li>
+      <li>16S Microbial analysis with Nanopore data</li>
+    </ul>
+  </li>
+  <li>**[Publications](#publications)**
+    <ul>
+      <li>Metaproteomics, CLIP-Explorer, GIANT, and package management is your friend</li>
+    </ul>
+  </li>
+  <li>**[Q: Who's hiring?](#whos-hiring)**
+    <ul>
+      <li> Europe:
+        <ul>
+          <li>Max Planck IIE, University of Oslo, Hannover Medical School, EMBL Rome, Norwegian University of Life Science, Sorbonne-Université</li>
+        </ul>
+      </li>
+      <li>North America:
+        <ul>
+          <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions), Cleveland Clinic</li>
+        </ul>
+      <li>*A: Everyone, it seems.* </li>
+    </ul>
+  </li>
+  <li>**[New releases](#releases)**:
+    <ul>
+      <li>Galaxy 20.09</li>
+      <li>ENA submission</li>
+      <li>OMERO accessible from Galaxy</li>
+      <li>CloudLaunch</li>
+    </ul>
+  </li>
+  <li>**[Other news too](#other-news)**</li>
+</ul>
+
+</div>
+</div>
+
+<br />
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -26,20 +92,6 @@ If you have anything to include to next month's newsletter, then please send it 
 Despite COVID-19, there is still a lot going on. Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
-
-<!-- Aus: Intro -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
-
-<div class="card-header">[Online data analysis for biologists](https://www.eventbrite.com.au/e/online-data-analysis-for-biologists-december-2020-tickets-123610812267)</div>
-
-**8 December, Online**
-
-This interactive beginners workshop will provide an introduction to the Galaxy interface, histories and available tools. The material covered in this workshop is freely available through the Galaxy Training Network. Presented by Simon Gladman of Australian BioCommons.
-
-*Note: If you are on the North American west coast, this runs at 7-10 pm Pacific time on Dec 7. If you are (almost) anywhere in Asia, this is during your workday.*
-</div>
-
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
@@ -65,7 +117,7 @@ You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna 
 
 **10 December, Online**
 
-The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See [the announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
+The first call of the Galaxy Metabolomics Community will be held on the 10th of December at 2 PM CET. The bi-monthly community calls aim to bring together Galaxy metabolomics researchers -including users and developers- to discuss needs, ideas, and scientific problems, and to find new collaborators and synergies in the community. See the [announcement for details](https://galaxyproject.eu/event/2020-11-24-metabolomics/).
 </div>
 
 <!-- Galaxy Dev Round Table -->
@@ -84,7 +136,7 @@ There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roun
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
-<div class="card-header">[Decmber Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
+<div class="card-header">[December Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
 
 **17 December, Online**
 
@@ -100,20 +152,20 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 **Application Deadline: 18 December**
 
-Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Aapplications are competitive.)
+Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Applications are competitive).
 
 </div>
 
 <!-- Tripal Codefest 2021 -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Codefest 2021" />
-<div class="card-header">[Tripal Codefest 2021](http://tripal.info/events/codefest_2021)</div>
+<img class="card-img-top" src="/src/events/2021-01-tripal-codefest/tripal-codefest.png" alt="Tripal Codefest 2021" />
+<div class="card-header">[Tripal CodeFest 2021](http://tripal.info/events/codefest_2021)</div>
 
 **11-15 January, Online**
 
 *Calling all Tripal Core, Extension Module and Tool Integration Developers!*
 
-[Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [Blend4Php](https://github.com/galaxyproject/blend4php).
+[Tripal](http://tripal.info/) is a toolkit for construction of online biological (genetics, genomics, breeding, etc.), community database web portals. Tripal includes [Tripal Galaxy](https://github.com/tripal/tripal_galaxy) and [blend4php](https://github.com/galaxyproject/blend4php).
 
 </div>
 
@@ -139,8 +191,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-
-
 <!-- CLIP Seq -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
@@ -150,15 +200,28 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
 </div>
 
+
+<!-- GenAP -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">CANARIE funds GenAP expansion</div>
+
+[GenAP](/src/use/genap/index.md), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+
+<img class="card-img-bottom" src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" />
+
+
+</div>
+
+
 <!-- New Hardware -->
 <div class="card border-info" style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.eu gets new hardware: More storage and GPUs](https://galaxyproject.eu/posts/2020/11/17/new-compute-nodes/)</div>
 
 The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server by providing new computational infrastructure.
 
-If you have some special needs that we should consider in our next purchase, let us know! And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
+If you have some special needs that we should consider in our next purchase, [let us know!](galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
 
-<img class="card-img-top" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
+<img class="card-img-bottom" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
 
 </div>
 
@@ -184,11 +247,11 @@ If you have some special needs that we should consider in our next purchase, let
 
 <div class="card-deck">
 
-<!-- Biohackathon Europe 2020 -->
+<!-- BioHackathon Europe 2020 -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Outcome of the Biohackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
+<div class="card-header">[Outcome of the BioHackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
 
-The Galaxy community participated in 8 different projects during the Biohackathon Europe 2020:
+The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
 
 - [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
 - [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
@@ -209,7 +272,7 @@ The Galaxy community participated in 8 different projects during the Biohackatho
 
 By Peter Bickerton.
 
-“I wanted to step away from the command line,” Graham Etherington explains. “It takes a long time and it causes confusion, whereas everybody knows how to use a web browser."
+_“I wanted to step away from the command line”_, Graham Etherington explains. _“It takes a long time and it causes confusion, whereas everybody knows how to use a web browser."_
 
 <img class="card-img-bottom" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Earlham" />
 
@@ -233,7 +296,7 @@ Ambre reports on the Université de Toulouse Paul Sabatier's experience teaching
 
 By Anne Fouilloux, Research Software Engineer at NeIC.
 
-This training covered modelling with ‘FATES’ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
+This training covered modelling with _FATES_ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
 
 <img class="card-img-bottom" src="/src/images/logos/eosc_nordic.png" alt="EOSC-Nordic" />
 </div>
@@ -246,20 +309,48 @@ This training covered modelling with ‘FATES’ (Functionally Assembled Terrest
 
 <div class="card-deck">
 
-<!-- metaQuantome -->
+
+<!-- Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">Metaproteomics analysis with metaQuantome</div>
+<div class="card-header">[Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)</div>
 
-By [Subina Mehta](https://training.galaxyproject.org/training-material/hall-of-fame/subinamehta/), [Timothy J. Griffin](https://training.galaxyproject.org/training-material/hall-of-fame/timothygriffin/), [Pratik Jagtap](https://training.galaxyproject.org/training-material/hall-of-fame/pratikdjagtap/), [Emma Leith](https://training.galaxyproject.org/training-material/hall-of-fame/emmaleith/), [Marie Crane](https://training.galaxyproject.org/training-material/hall-of-fame/mariecrane/), and [Praveen Kumar](https://training.galaxyproject.org/training-material/hall-of-fame/pravs3683/)
+By [Coline Royaux](https://training.galaxyproject.org/training-material/hall-of-fame/colineroyaux/) and [Yvan Le Bras](https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/).
 
-A three part series on doing metaproteomics analysis with metaQuantome:
+This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute Essential Biodiversity Variables (EBV) from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.
 
-1. [Data Creation](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-data-creation/tutorial.html)
-1. [Function](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-function/tutorial.html)
-1. [Taxonomy](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/metaquantome-taxonomy/tutorial.html)
-
-<img class="card-img-bottom" src="gtn-metaquantome.png" alt="metaQuantome" />
+<img class="card-img-bottom" src="PAMPA_workflow.png" alt="PAMPA workflow" />
 </div>
+
+
+<!-- Chloroplast genome assembly -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html)</div>
+
+By [Anna Syme](https://training.galaxyproject.org/training-material/hall-of-fame/annasyme/).
+
+This tutorial shows genome assembly for the plant chloroplast genome with a subset of a real data set from sweet potato.
+
+<img class="card-img-bottom" src="chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
+
+</div>
+
+
+<!-- 16S Microbial analysis with Nanopore data -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[16S Microbial analysis with Nanopore data](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/nanopore-16S-metagenomics/tutorial.html)</div>
+
+By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/).
+
+This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives: 
+
+1) evaluate the health status of soil samples,
+2) study how microbial populations are modified by their interaction with plant roots.
+
+<img class="card-img-bottom" src="taxonomical_classification.png" alt="taxonomical classification" />
+</div>
+
+
+
 
 </div>
 
@@ -271,9 +362,30 @@ Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/ind
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">[Capacity building for whole genome sequencing of Mycobacterium tuberculosis and bioinformatics in high TB burden countries](https://doi.org/10.1093/bib/bbaa246)</div>
+<div class="card-header"> [Survey of metaproteomics software tools for functional microbiome analysis](https://doi.org/10.1371/journal.pone.0241503)</div>
 
-Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., Heusden, P., Warren, R., Meehan, C. J., & Van Rie, A. (2020). *Briefings in Bioinformatics*. [doi: doi.org/10.1093/bib/bbaa246](https://doi.org/10.1093/bib/bbaa246)
+Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B. A., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020).  *PLOS ONE*, 15(11), e0241503. [doi: 10.1371/journal.pone.0241503](https://doi.org/10.1371/journal.pone.0241503)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Galaxy CLIP-Explorer: A web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
+
+Heyl, F., Maticzka, D., Uhl, M., & Backofen, R. (2020). *GigaScience*, 9(11). [doi: 10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [GIANT: Galaxy-based tool for interactive analysis of transcriptomic data](https://doi.org/10.1038/s41598-020-76769-w)</div>
+
+Vandel, J., Gheeraert, C., Staels, B., Eeckhoute, J., Lefebvre, P., & Dubois-Chevalier, J. (2020). *Scientific Reports*, 10(1), 19835. [doi: 10.1038/s41598-020-76769-w](https://doi.org/10.1038/s41598-020-76769-w)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)</div>
+
+Jalili, V., Clements, D., Gruning, B., Blankenberg, D., & Goecks, J. (2020). *BioRxiv*, 2020.11.16.385211. [doi: 10.1101/2020.11.16.385211](https://doi.org/10.1101/2020.11.16.385211)
 </div>
 
 
@@ -284,6 +396,46 @@ Rivière, E., Heupink, T. H., Ismail, N., Dippenaar, A., Clarke, C., Abebe, G., 
 
 <div class="card-deck">
 
+<!-- MPI -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Bioinformaticians](https://www.ie-freiburg.mpg.de/5407142/job_full_offer_16014663)</div>
+
+Bioinformatics Unit, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/), Freiburg, Germany
+
+Work in an interdisciplinary team with close links to different departments, research groups, and other core facilities.
+
+**Apply by 11 December.**
+
+<img class="card-img-bottom" src="/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" />
+</div>
+
+
+<!-- Oslo-->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Postdoctoral Research Fellow in Informatics/Bioinformatics](https://arbeidsplassen.nav.no/stillinger/stilling/cb7fba1d-9b7d-4a1f-b17f-26ad56693f96)</div>
+
+Centre for Bioinformatics (SBI), Department of Informatics, University of Oslo (UiO), Oslo, Norway.
+
+This 3-year postdoc position will collaborate closely with the Oslo bioinformatics ELIXIR team, which is the Oslo node of the [ELIXIR Norway project](https://elixir.no/). Work on [Genomic HyperBrowser](https://hyperbrowser.uio.no), [GTrack](https://gtrack.no), [FAIRtracks](https://fairtracks.github.io), [TrackFind](http://trackfind.elixir.no), [Galaxy ProTo](https://github.com/elixir-oslo/proto), and the [Norwegian Federated European EGA (European Genome-Phenome Archive) node](https://ega.elixir.no).
+
+**Apply by 11 December.**
+
+<img class="card-img-bottom" src="/images/logos/UiOLogo.png" alt="Norwegian University of Life Science" />
+</div>
+
+
+<!-- Hannover -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Experienced specialist in Next Generation Sequencing data analysis](https://mhh.hr4you.org/job/view/559/experienced-specialist-in-next-generation-sequencing-data-analysis-f-d-m?page_lang=en)</div>
+
+[Research Core Unit Genomics (RCUG)](https://www.mhh.de/genomics), Hannover Medical School, Hannover, Germany
+
+A full position is available for 2 years in the Research Core Unit Genomics (RCUG), Germany, starting at the earliest timepoint possible. This includes working with and running training on the internal Galaxy instance.
+
+**Apply by 16 December.**
+
+<img class="card-img-bottom" src="/images/logos/hannover-mh-rcu-logo.jpg" alt="" />
+</div>
 
 
 <!-- EMBL Rome -->
@@ -300,11 +452,23 @@ Directly participate in various experiments in developmental biology and epigene
 </div>
 
 
+<!-- NMBU -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[PhD or postdoc project Spring/Summer  2021](https://www.nmbu.no/en/research/groups/memo/join-us-)</div>
+
+[MEMO Group](https://www.nmbu.no/en/research/groups/memo), [Norwegian University of Life Science](https://www.nmbu.no/en), Ås, Norway
+
+Interested in host-microbiome interactions and multi-omic data? We have multiple positions starting in 2021. Projects have fun and interesting EU partners. Will be hiring after Christmas.
+
+<img class="card-img-bottom" src="/images/logos/nmbu-logo.png" alt="Norwegian University of Life Science" />
+</div>
+
+
 <!-- Hopkins AnVIL / ITCR -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -384,9 +548,9 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
 
 See
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**.
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**.
-* **[Release summary video](https://youtu.be/dIeXVW_eoJk)
+* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
+* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
+* **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
 
 Features:
 * GTN in Galaxy.

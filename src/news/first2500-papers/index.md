@@ -4,15 +4,15 @@ date: "2015-08-12"
 ---
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/new-galaxy-group-cite-u-like/index.md) and [reached 1000 papers 18 months later](/src/news/galaxy-cite-u-like-paper1000/index.md). 
+The [Galaxy CiteULike library](/src/publication-library/index.md) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/src/news/new-galaxy-group-cite-u-like/index.md) and [reached 1000 papers 18 months later](/src/news/galaxy-cite-u-like-paper1000/index.md). 
 
 To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/citing-galaxy/index.md).
 
 Here's a review of those first 2500 papers.
 
-<span style="font-size: larger;">**[The Tags](/src/cite-u-like/index.md#citeulike-tags)**</span>
+<span style="font-size: larger;">**[The Tags](/src/publication-library/index.md#tags)**</span>
 
-Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/cite-u-like/index.md#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
+Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/publication-library/index.md#tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
 <table class="table">
   <tr>
@@ -31,7 +31,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <th> # </th>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> </th>
+    <th> methods </th>
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
@@ -46,7 +46,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>1224</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/workbench'>workbench</a> </th>
+    <th> workbench </th>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
@@ -61,7 +61,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>748</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/usemain'>usemain</a> </th>
+    <th> usemain </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -76,7 +76,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>253</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/tools'>tools</a> </th>
+    <th> tools </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -91,7 +91,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>180</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/usepublic'>usepublic</a> </th>
+    <th> usepublic </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -106,7 +106,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>150</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/isgalaxy'>isgalaxy</a> </th>
+    <th> isgalaxy </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -121,7 +121,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>135</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/cloud'>cloud</a> </th>
+    <th> cloud </th>
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
@@ -136,7 +136,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>100</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/uselocal'>uselocal</a> </th>
+    <th> uselocal </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -151,7 +151,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>98</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/shared'>shared</a> </th>
+    <th> shared </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -166,7 +166,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>84</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/other'>other</a> </th>
+    <th> other </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -181,7 +181,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>77</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/refpublic'>refpublic</a> </th>
+    <th> refpublic </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -196,7 +196,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>64</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/reproducibility'>reproducibility</a> </th>
+    <th> reproducibility </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -211,7 +211,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>57</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/unknown'>unknown</a> </th>
+    <th> unknown </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -226,7 +226,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>53</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/project'>project</a> </th>
+    <th> project </th>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
@@ -241,7 +241,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>47</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/howto'>howto</a> </th>
+    <th> howto </th>
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
@@ -256,7 +256,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>45</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/visualization'>visualization</a> </th>
+    <th> visualization </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -271,7 +271,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right;"> <strong>16</strong> </td>
   </tr>
   <tr>
-    <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usecloud</a> </th>
+    <th> usecloud </th>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -292,9 +292,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
 
 A couple of trends stand out in the tag data:
 
-* *[methods](http://www.citeulike.org/group/16008/tag/methods)* and *[workbench](http://www.citeulike.org/group/16008/tag/workbench)* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
-* The numbers of *[usepublic](http://www.citeulike.org/group/16008/tag/usepublic)* and *[refpublic](http://www.citeulike.org/group/16008/tag/refpublic)* publications are climbing rapidly.  Respectively, these are *[methods](http://www.citeulike.org/group/16008/tag/methods)* studies that did their analyses on a [public Galaxy server](/src/use/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *[isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy)* numbers), and their increased visibility.
-* *[reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility)* became a hot topic (finally) in 2014.  
+* *methods* and *workbench* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
+* The numbers of *usepublic* and *refpublic* publications are climbing rapidly.  Respectively, these are *methods* studies that did their analyses on a [public Galaxy server](/src/use/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *isgalaxy* numbers), and their increased visibility.
+* *reproducibility* became a hot topic (finally) in 2014.
 
 <br />
 <span style="font-size: larger;">**The Journals**</span>
@@ -304,27 +304,27 @@ Information on where the papers appeared is also available.  Galaxy-related pape
 
 | Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  | 
 | ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | 
-| *[Plos One](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"plos one")* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  | 
-| *[Nucleic Acids Research](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"nucleic acids research")* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  | 
-| *[Bmc Genomics](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"bmc genomics")* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  | 
-| *[Bioinformatics](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"bioinformatics")* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  | 
-| *[Bmc Bioinformatics](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"bmc bioinformatics")* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  | 
-| *[Genome Research](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"genome research")* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  | 
-| *[Genome Biology](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"genome biology")* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  | 
-| *[Plos Genet](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"plos genet")* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  | 
-| *[Briefings in Bioinformatics](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"briefings in bioinformatics")* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  | 
-| *[Genome Announcements](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"genome announcements")* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  | 
-| *[Concurrency and Computation: Practice and Experience](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"concurrency and computation: practice and experience")* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  | 
-| *[Proceedings of the National Academy of Sciences](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"proceedings of the national academy of sciences")* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  | 
-| *[Cell](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"cell")* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  | 
-| *[Plos Comput Biol](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"plos comput biol")* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  | 
-| *[Molecular Biology and Evolution](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"molecular biology and evolution")* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  | 
-| *[Nature Communications](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"nature communications")* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  | 
-| *[Molecular Ecology](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"molecular ecology")* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  | 
-| *[Database](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"database")* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  | 
-| *[Genome Biology and Evolution](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"genome biology and evolution")* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  | 
-| *[Nature](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"nature")* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  | 
-| *[Cell Reports](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"cell reports")* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  | 
+| *Plos One* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  | 
+| *Nucleic Acids Research* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  | 
+| *Bmc Genomics* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  | 
+| *Bioinformatics* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  | 
+| *Bmc Bioinformatics* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  | 
+| *Genome Research* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  | 
+| *Genome Biology* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  | 
+| *Plos Genet* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  | 
+| *Briefings in Bioinformatics* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  | 
+| *Genome Announcements* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  | 
+| *Concurrency and Computation: Practice and Experience* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  | 
+| *Proceedings of the National Academy of Sciences* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  | 
+| *Cell* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  | 
+| *Plos Comput Biol* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  | 
+| *Molecular Biology and Evolution* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  | 
+| *Nature Communications* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  | 
+| *Molecular Ecology* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  | 
+| *Database* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  | 
+| *Genome Biology and Evolution* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  | 
+| *Nature* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  | 
+| *Cell Reports* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  | 
 
 <br />
 There are also many unexpected publications in the list:
@@ -375,7 +375,7 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/src/galaxy-updates/index.md).  New [tags](/src/cite-u-like/index.md#citeulike-tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/src/galaxy-updates/index.md).  New [tags](/src/publication-library/index.md#tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 
