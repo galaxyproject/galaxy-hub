@@ -206,7 +206,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Wanna know what has happened in the last 5 years in the Freiburg Galaxy Team? [Here is the 5-years report!](https://docs.google.com/document/d/1qZjFADy3opMM5l6nEAMMeYzdf2gpBVCD0Kgglo8ZFj4/preview#)
+* Wanna know what has happened in the European Galaxy community in 2020? The Freiburg Galaxy Team has summarised the activities in a [blog post](https://galaxyproject.eu/posts/2020/12/31/balance-2020/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
