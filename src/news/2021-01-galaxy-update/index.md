@@ -140,7 +140,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 The application deadline for the [January 2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
 
-1. More than a day of Admin Training will be offered as [part of GCC20201](https://www.vibconferences.be/events/gcc2021) in July.
+1. More than a day of Admin Training will be offered as [part of GCC2021](https://www.vibconferences.be/events/gcc2021) in July.
 1. You can [register your interest in future Galaxy Admin Trainings here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform).  *If we get enough interest, we will try to hold another online training sometime this year.*
 
 </div>
@@ -166,7 +166,7 @@ The application deadline for the [January 2021 Galaxy Admin Training](/src/event
 
 **January 26, Online**
 
-In this Webinar Nathan Roach​ ([GalaxyWorks](https://galaxyworks.io/)) will demonstrate analysis methods of long read data using the Oxford Nanopore(ONT) tool suite in Galaxy Pro. [Michael Alonge](https://michaelalonge.com/)​ (Johns Hopkins University) will highlight the application of these methods.
+In this Webinar Nathan Roach​ ([GalaxyWorks](https://galaxyworks.io/)) will demonstrate analysis methods of long read data using the Oxford Nanopore (ONT) tool suite in Galaxy Pro. [Michael Alonge](https://michaelalonge.com/)​ (Johns Hopkins University) will highlight the application of these methods.
 </div>
 
 
