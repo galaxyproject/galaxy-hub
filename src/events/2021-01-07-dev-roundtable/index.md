@@ -12,7 +12,7 @@ gtn: false
 contact: "Björn Grüning, Anton Nekrutenko"
 ---
 
-This is a followup to discussion to the [December 2020 roundtable](/src/events/2020-12-10/dev-roundtable/index.md), where [Galaxy Working Groups](/src/community/wg/index.md) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
+This is a followup to discussion to the [December 2020 roundtable](/src/events/2020-12-10-dev-roundtable/index.md), where [Galaxy Working Groups](/src/community/wg/index.md) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
 
 This call will be a followup to see how our first month has gone, and how goal setting and tracking fro 2021Q1 is going.
 
