@@ -366,22 +366,15 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
+<div class="card-header">[CloudBridge 2.1.0](/src/news/2020-12-cloudbridge-210/)</div>
+
+CloudBridge is a Python library that provides a consistent layer of abstraction over different Infrastructure-as-a-Service cloud providers, reducing or eliminating the need to write conditional code for each cloud.
 
 See
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
-* **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
+* **[Documentation](http://cloudbridge.cloudve.org/en/latest/)**
+* **[Python library](https://pypi.org/project/cloudbridge/)**
 
-Features:
-* GTN in Galaxy.
-* Plugin framework for uploading datasets.
-* Upload directly from the Tool Form.
-* Workflow import from GA4GH TRS servers.
-* Simplified workflow submission form.
-* Accelerated batch job creation and workflow step scheduling.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
 </div>
