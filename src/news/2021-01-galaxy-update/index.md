@@ -207,7 +207,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Wanna know what has happened in the European Galaxy community in 2020? The Freiburg Galaxy Team has summarised the activities in a [blog post](https://galaxyproject.eu/posts/2020/12/31/balance-2020/).
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
 
@@ -218,22 +218,27 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 <div class="card-deck">
 
-<!-- BioHackathon Europe 2020 -->
+<!-- OLS-3 -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Outcome of the BioHackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
+<div class="card-header">[Involvement of the Galaxy community in OLS-2 and invitation to apply to the next cohort](https://galaxyproject.eu/posts/2020/12/22/ols/)</div>
 
-The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
+The Galaxy Project has been involved in the second cohort of the [Open Life Science (OLS)](https://openlifesci.org/) program with two projects, _Growing the Galaxy Community_ and _Creating a single pipeline for metagenome classification_. 
 
-- [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
-- [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
-- [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
-- [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
-- [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
-- [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
-- [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
-- [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
+[Applications for the 3rd cohort (OLS-3)](https://openlifesci.org/ols-3) that will take place from February to May 2021 are open until __January 11__.
 
-<img class="card-img-bottom" src="/events/2019-11-biohackathon-europe/bhlogo.png" alt="BH2020" />
+
+<img class="card-img-bottom" src="logo-OLS.png" alt="OLS" />
+</div>
+
+
+<!-- TIaaS -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[DDA and DIA proteomic analysis in Galaxy](https://galaxyproject.eu/posts/2020/12/08/tiaas_feedback_Melanie-Matthias/)</div>
+
+By [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame/matthias313/) & [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/).
+
+At the beginning of December, Melanie and Matthias ran a 2-day Proteomics data analysis workshop organized by ELIXIR Belgium.
+
 </div>
 
 </div>
@@ -257,7 +262,7 @@ This tutorial aims to present the PAMPA Galaxy workflow, how to use it to comput
 </div>
 
 </div>
-
+ 
 
 # Publications
 
