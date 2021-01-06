@@ -395,6 +395,17 @@ The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatiqu
 </div>
 
 
+<!-- VIB -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Communications and Community Outreach Officer](https://jobs.vib.be/j/32498/communications-and-community-outreach-officer) and [Research Software Engineer](https://jobs.vib.be/j/32497/research-software-engineer)</div>
+
+VIB-UGent Center for Plant Systems Biology has two open positions to work on the [ELIXIR Belgium](https://www.elixir-belgium.org/) research data analysis team, both for an initial duration of 2 years.
+
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="Johns Hopkins" />
+</div>
+
+
 </div>
 
 
