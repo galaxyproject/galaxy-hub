@@ -123,7 +123,7 @@ There are two roundtable meetups this month:
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01-slice.png" alt="Paper Cuts January" />
+<img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01.png" alt="Paper Cuts January" />
 <div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-11-papercuts/index.md)</div>
 
 **21 January, Online**
@@ -140,7 +140,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 The application deadline for the [January 2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
 
-1. More than a day of Admin Training will be offered as [part of GCC20201](https://www.vibconferences.be/events/gcc2021) in July.
+1. More than a day of Admin Training will be offered as [part of GCC2021](https://www.vibconferences.be/events/gcc2021) in July.
 1. You can [register your interest in future Galaxy Admin Trainings here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform).  *If we get enough interest, we will try to hold another online training sometime this year.*
 
 </div>
@@ -166,7 +166,7 @@ The application deadline for the [January 2021 Galaxy Admin Training](/src/event
 
 **January 26, Online**
 
-In this Webinar Nathan Roach​ ([GalaxyWorks](https://galaxyworks.io/)) will demonstrate analysis methods of long read data using the Oxford Nanopore(ONT) tool suite in Galaxy Pro. [Michael Alonge](https://michaelalonge.com/)​ (Johns Hopkins University) will highlight the application of these methods.
+In this Webinar Nathan Roach​ ([GalaxyWorks](https://galaxyworks.io/)) will demonstrate analysis methods of long read data using the Oxford Nanopore (ONT) tool suite in Galaxy Pro. [Michael Alonge](https://michaelalonge.com/)​ (Johns Hopkins University) will highlight the application of these methods.
 </div>
 
 
@@ -190,13 +190,14 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<!-- CLIP Seq -->
+<!-- Center for Phage Technology (CPT) -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
+<div class="card-header">[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)</div>
 
-<img class="card-img-top" src="/src/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
+<img class="card-img-top" src="/src/use/center-for-phage-technology-cpt/cpt-logo.png" alt="Center for Phage Technology (CPT)" />
 
-The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
+The upgraded and improved Galaxy-Apollo phage annotation platform is now ready to use at https://cpt.tamu.edu/galaxy-pub. Free, web-based, gold standard phage annotation.
+
 </div>
 
 
@@ -206,8 +207,8 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Wanna know what has happened in the last 5 years in the Freiburg Galaxy Team? [Here is the 5-years report!](https://docs.google.com/document/d/1qZjFADy3opMM5l6nEAMMeYzdf2gpBVCD0Kgglo8ZFj4/preview#)
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
+* Wanna know what has happened in the European Galaxy community in 2020? The Freiburg Galaxy Team has summarised the activities in a [blog post](https://galaxyproject.eu/posts/2020/12/31/balance-2020/).
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
 
@@ -218,23 +219,40 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 <div class="card-deck">
 
-<!-- BioHackathon Europe 2020 -->
+<!-- OLS-3 -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Outcome of the BioHackathon Europe 2020](https://galaxyproject.eu/posts/2020/11/16/biohackathon/)</div>
+<div class="card-header">[Involvement of the Galaxy community in OLS-2 and invitation to apply to the next cohort](https://galaxyproject.eu/posts/2020/12/22/ols/)</div>
 
-The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
+The Galaxy Project has been involved in the second cohort of the [Open Life Science (OLS)](https://openlifesci.org/) program with two projects, _Growing the Galaxy Community_ and _Creating a single pipeline for metagenome classification_. 
 
-- [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
-- [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
-- [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
-- [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
-- [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
-- [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
-- [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
-- [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
+[Applications for the 3rd cohort (OLS-3)](https://openlifesci.org/ols-3) that will take place from February to May 2021 are open until __January 11__.
 
-<img class="card-img-bottom" src="/events/2019-11-biohackathon-europe/bhlogo.png" alt="BH2020" />
+<img class="card-img-bottom" src="logo-OLS.png" alt="OLS" />
 </div>
+
+
+<!-- TIaaS -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[DDA and DIA proteomic analysis in Galaxy](https://galaxyproject.eu/posts/2020/12/08/tiaas_feedback_Melanie-Matthias/)</div>
+
+By [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame/matthias313/) & [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/).
+
+At the beginning of December, Melanie and Matthias ran a 2-day Proteomics data analysis workshop organized by ELIXIR Belgium.
+
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+<!-- Plant tutorials -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[GTN Plant-related trainings](https://galaxyproject.eu/posts/2021/01/04/plant-trainings/)</div>
+
+Good news for the plant community! Recently two new trainings of interest to the plant research community have been incorporated to the GTN tutorial collection. 
+
+A common feature shared by both tutorials is the use of sequencing data generated by nanopore technology, a third-generation plataform which provides the possibility fo sequencing long reads.
+
+<img class="card-img-bottom" src="plant-tutorials.png" alt="plants" />
+</div>
+
 
 </div>
 
@@ -245,19 +263,26 @@ The Galaxy community participated in 8 different projects during the BioHackatho
 <div class="card-deck">
 
 
-<!-- Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite -->
+<!-- Galactic Introductions -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)</div>
+<div class="card-header">[Videos: Galactic Introductions](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)</div>
 
-By [Coline Royaux](https://training.galaxyproject.org/training-material/hall-of-fame/colineroyaux/) and [Yvan Le Bras](https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/).
+New series of Galaxy videos about Galaxy features.
 
-This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute Essential Biodiversity Variables (EBV) from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.
+<img class="card-img-bottom" src="galactic-introductions.png" alt="Galactic Introductions" />
+</div>
 
-<img class="card-img-bottom" src="PAMPA_workflow.png" alt="PAMPA workflow" />
+<!-- Quick Tips -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Videos: Quick Tips](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)</div>
+
+Learn your way through Galaxy interface and functionalities with automatically generated videos under 3 minutes.
+
+<img class="card-img-bottom" src="quick-tips.png" alt="Galactic Introductions" />
 </div>
 
 </div>
-
+ 
 
 # Publications
 
@@ -269,6 +294,38 @@ Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/ind
 <div class="card-header"> [Survey of metaproteomics software tools for functional microbiome analysis](https://doi.org/10.1371/journal.pone.0241503)</div>
 
 Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B. A., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020).  *PLOS ONE*, 15(11), e0241503. [doi: 10.1371/journal.pone.0241503](https://doi.org/10.1371/journal.pone.0241503)
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
+
+Heyl, F., Maticzka, D., Uhl, M., Backofen, R. (2020).  *GigaScience*, Volume 9, Issue 11. [doi: 10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>
+
+Thuy-Boun P.S., Mehta, S., Gruening, B., McGowan, T., Nguyen, A. Rajczewski, A.T., Johnson, J.E., Griffin, T.J., Wolan, D.W., and Jagtap, P.D. (2020).  *Journal of Proteome Research*. [doi: 10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [CorGAT: a tool for the functional annotation of SARS-CoV-2 genomes](https://doi.org/10.1093/bioinformatics/btaa1047)</div>
+
+Chiara, M., Zambelli, F., Tangaro, M.A., Mandreoli, P., Horner, D.S., Pesole, G. (2020). *Bioinformatics*. [doi: 10.1093/bioinformatics/btaa1047](https://doi.org/10.1093/bioinformatics/btaa1047)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [GAIT-GM: Galaxy tools for modeling metabolite changes as a function of gene expression](https://doi.org/10.1101/2020.12.25.424407)</div>
+
+McIntyre, L.M., Huertas, F., Moskalenko, O., Llansola, M., Felipo, V., Morse, A.M., Conesa, A. (2020). *bioRxiv*. [doi: 10.1101/2020.12.25.424407](https://doi.org/10.1101/2020.12.25.424407)
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)</div>
+
+Jalili, V., Clements, D., Grüning, B., Blankenberg, D., Goecks, J. (2020). *bioRxiv*. [doi: 10.1101/2020.11.16.385211](https://doi.org/10.1101/2020.11.16.385211)
 </div>
 
 </div>
@@ -353,6 +410,28 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
+
+<!-- IFB -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Engineer Developer / DevOps](https://www.france-bioinformatique.fr/ingenieure-developpeur-devops/)</div>
+
+The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/) is offering a 1-year position for a developer to work on [usegalaxy.fr](https://usegalaxy.fr/), focused on the contribution to the development, evolution, deployment and maintenance of the French infrastructure.
+
+<img class="card-img-bottom" src="/src/images/logos/ifb-logo-text.jpg" alt="IFB" />
+</div>
+
+
+<!-- VIB -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Communications and Community Outreach Officer](https://jobs.vib.be/j/32498/communications-and-community-outreach-officer) and [Research Software Engineer](https://jobs.vib.be/j/32497/research-software-engineer)</div>
+
+VIB-UGent Center for Plant Systems Biology has two open positions to work on the [ELIXIR Belgium](https://www.elixir-belgium.org/) research data analysis team, both for an initial duration of 2 years.
+
+
+<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="Johns Hopkins" />
+</div>
+
+
 </div>
 
 
@@ -361,22 +440,15 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
+<div class="card-header">[CloudBridge 2.1.0](/src/news/2020-12-cloudbridge-210/)</div>
+
+CloudBridge is a Python library that provides a consistent layer of abstraction over different Infrastructure-as-a-Service cloud providers, reducing or eliminating the need to write conditional code for each cloud.
 
 See
-* **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
-* **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
-* **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
+* **[Documentation](http://cloudbridge.cloudve.org/en/latest/)**
+* **[Python library](https://pypi.org/project/cloudbridge/)**
 
-Features:
-* GTN in Galaxy.
-* Plugin framework for uploading datasets.
-* Upload directly from the Tool Form.
-* Workflow import from GA4GH TRS servers.
-* Simplified workflow submission form.
-* Accelerated batch job creation and workflow step scheduling.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
 </div>
