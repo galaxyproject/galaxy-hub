@@ -25,10 +25,7 @@ quotas:
 The call is available [here](https://tinyurl.com/sqwk4fy).
 All applications must be submitted using this [form](ttps://tinyurl.com/wnhvx9e).'
 citations:
-- '[Laniakea: an open solution to provide Galaxy "on-demand" instances over heterogeneous cloud infrastructures]( https://doi.org/10.1101/472464).
-Marco Antonio Tangaro, Giacinto Donvito, Marica Antonacci, Matteo Chiara, Pietro Mandreoli, Graziano Pesole, Federico Zambelli. *bioRxiv* 472464; doi: 10.1101/472464 (manuscript accepted for publication on GigaScience)'
-- '[INDIGO-DataCloud: a Platform to Facilitate Seamless Access to E-Infrastructures
-](https://doi.org/10.1007/s10723-018-9453-3), Salomoni, D., Campos, I., Gaido, L. et al. *J Grid Computing* (2018) 16: 381. doi:10.1007/s10723-018-9453-3'
+  - 'Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). [Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033). *GigaScience*, 9(4). doi:10.1093/gigascience/giaa033'
 pub_libraries:
 - "Laniakea"
 sponsors:
