@@ -190,13 +190,14 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<!-- CLIP Seq -->
+<!-- Center for Phage Technology (CPT) -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
+<div class="card-header">[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)</div>
 
-<img class="card-img-top" src="/src/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
+<img class="card-img-top" src="/src/use/center-for-phage-technology-cpt/cpt-logo.png" alt="Center for Phage Technology (CPT)" />
 
-The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
+The upgraded and improved Galaxy-Apollo phage annotation platform is now ready to use at https://cpt.tamu.edu/galaxy-pub. Free, web-based, gold standard phage annotation.
+
 </div>
 
 
