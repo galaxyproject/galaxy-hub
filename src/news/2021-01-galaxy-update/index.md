@@ -298,9 +298,34 @@ Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header"> [Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
 
-Heyl, F., Maticzka, D., Uhl, M., Backofen, R. (2020).  *GigaScience*, Volume 9, Issue 11. [10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
+Heyl, F., Maticzka, D., Uhl, M., Backofen, R. (2020).  *GigaScience*, Volume 9, Issue 11. [doi: 10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
 </div>
 
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>
+
+Thuy-Boun P.S., Mehta, S., Gruening, B., McGowan, T., Nguyen, A. Rajczewski, A.T., Johnson, J.E., Griffin, T.J., Wolan, D.W., and Jagtap, P.D. (2020).  *Journal of Proteome Research*. [doi: 10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [CorGAT: a tool for the functional annotation of SARS-CoV-2 genomes](https://doi.org/10.1093/bioinformatics/btaa1047)</div>
+
+Chiara, M., Zambelli, F., Tangaro, M.A., Mandreoli, P., Horner, D.S., Pesole, G. (2020). *Bioinformatics*. [doi: 10.1093/bioinformatics/btaa1047](https://doi.org/10.1093/bioinformatics/btaa1047)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [GAIT-GM: Galaxy tools for modeling metabolite changes as a function of gene expression](https://doi.org/10.1101/2020.12.25.424407)</div>
+
+McIntyre, L.M., Huertas, F., Moskalenko, O., Llansola, M., Felipo, V., Morse, A.M., Conesa, A. (2020). *bioRxiv*. [doi: 10.1101/2020.12.25.424407](https://doi.org/10.1101/2020.12.25.424407)
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)</div>
+
+Jalili, V., Clements, D., Grüning, B., Blankenberg, D., Goecks, J. (2020). *bioRxiv*. [doi: 10.1101/2020.11.16.385211](https://doi.org/10.1101/2020.11.16.385211)
+</div>
 
 </div>
 
