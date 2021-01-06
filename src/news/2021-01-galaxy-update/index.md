@@ -237,6 +237,8 @@ The Galaxy Project has been involved in the second cohort of the [Open Life Scie
 By [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame/matthias313/) & [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/).
 
 At the beginning of December, Melanie and Matthias ran a 2-day Proteomics data analysis workshop organized by ELIXIR Belgium.
+
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
 
 <!-- Plant tutorials -->
@@ -260,15 +262,22 @@ A common feature shared by both tutorials is the use of sequencing data generate
 <div class="card-deck">
 
 
-<!-- Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite -->
+<!-- Galactic Introductions -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite](https://training.galaxyproject.org/training-material/topics/ecology/tutorials/PAMPA-toolsuite-tutorial/tutorial.html)</div>
+<div class="card-header">[Videos: Galactic Introductions](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)</div>
 
-By [Coline Royaux](https://training.galaxyproject.org/training-material/hall-of-fame/colineroyaux/) and [Yvan Le Bras](https://training.galaxyproject.org/training-material/hall-of-fame/yvanlebras/).
+New series of Galaxy videos about Galaxy features.
 
-This tutorial aims to present the PAMPA Galaxy workflow, how to use it to compute Essential Biodiversity Variables (EBV) from species abundance data and analyse it through generalized linear (mixed) models (GLM and GLMM). This workflow made up of 5 tools will allow you to process temporal series data that include at least year, location and species sampled along with abundance value and, finally, generate article-ready data products.
+<img class="card-img-bottom" src="galactic-introductions.png" alt="Galactic Introductions" />
+</div>
 
-<img class="card-img-bottom" src="PAMPA_workflow.png" alt="PAMPA workflow" />
+<!-- Quick Tips -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Videos: Quick Tips](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)</div>
+
+Learn your way through Galaxy interface and functionalities with automatically generated videos under 3 minutes.
+
+<img class="card-img-bottom" src="quick-tips.png" alt="Galactic Introductions" />
 </div>
 
 </div>
@@ -285,6 +294,13 @@ Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/ind
 
 Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B. A., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020).  *PLOS ONE*, 15(11), e0241503. [doi: 10.1371/journal.pone.0241503](https://doi.org/10.1371/journal.pone.0241503)
 </div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
+
+Heyl, F., Maticzka, D., Uhl, M., Backofen, R. (2020).  *GigaScience*, Volume 9, Issue 11. [10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
+</div>
+
 
 </div>
 
@@ -367,6 +383,17 @@ The Schatz Lab at Johns Hopkins University is looking for:
 
 <img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
+
+
+<!-- IFB -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Engineer Developer / DevOps](https://www.france-bioinformatique.fr/ingenieure-developpeur-devops/)</div>
+
+The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/) is offering a 1-year position for a developer to work on [usegalaxy.fr](https://usegalaxy.fr/), focused on the contribution to the development, evolution, deployment and maintenance of the French infrastructure.
+
+<img class="card-img-bottom" src="/src/images/logos/ifb-logo-text.jpg" alt="IFB" />
+</div>
+
 
 </div>
 
