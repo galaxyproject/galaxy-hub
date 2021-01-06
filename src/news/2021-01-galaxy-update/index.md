@@ -181,6 +181,17 @@ This week-long workshop on how to use Galaxy will be online, global, and free.  
 
 </div>
 
+
+<!-- EBI Single Cell -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/embl-ebi-logo.png" alt="EMBL EBI" />
+<div class="card-header">[Single-cell RNA-seq & network analysis using Galaxy and Cytoscape](https://www.ebi.ac.uk/training-beta/events/single-cell-rna-seq-network-analysis-using-galaxy-and-cytoscape/)</div>
+
+**26-30 April, Online; Apply by 26 February**
+
+"This course utilises Galaxy pipelines, an online open-access resource that allows *even the most computer-phobic bench scientists to analyse their biological data.* Participants will be guided through the droplet-based scRNA-seq analysis pipelines from raw reads to cell cluster comparisons."
+</div>
+
 </div>
 
 
@@ -189,6 +200,25 @@ This week-long workshop on how to use Galaxy will be online, global, and free.  
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
+
+<!-- UseGalaxy.No -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[UseGalaxy.no](/src/use/usegalaxy-no/index.md)</div>
+
+<img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo.jpg" alt="UseGalaxy.NO" />
+
+A central, joint & free [Galaxy instance for Norway-based researchers and their collaborators](https://usegalaxy.no/), with ~2000 bioinformatics tools, 200GB short-term storage and project storage on nels.bioinfo.no.
+</div>
+
+
+<!-- VINYL -->
+<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card-header">[VINYL on Laniakea](/src/use/vinyl/index.md)</div>
+
+<img class="card-img-top" src="/src/use/vinyl/vinyl-logo-slice.png" alt="VINYL: Variant prIoritizatioN bY survivaL analysis" />
+
+A flexible and fully automated system for the functional annotation and prioritization of genetic variants. The [VINYL server](http://www.beaconlab.it/VINYL) runs on the [Laniakea research cloud](/src/use/laniakea/index.md).  A [VINYL manual](http://90.147.75.93/galaxy/static/manual/), including a tutorial is provided.
+</div>
 
 <!-- Center for Phage Technology (CPT) -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
@@ -288,20 +318,6 @@ Learn your way through Galaxy interface and functionalities with automatically g
 
 Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
-<div class="card-deck">
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [Survey of metaproteomics software tools for functional microbiome analysis](https://doi.org/10.1371/journal.pone.0241503)</div>
-
-Sajulga, R., Easterly, C., Riffle, M., Mesuere, B., Muth, T., Mehta, S., Kumar, P., Johnson, J., Gruening, B. A., Schiebenhoefer, H., Kolmeder, C. A., Fuchs, S., Nunn, B. L., Rudney, J., Griffin, T. J., & Jagtap, P. D. (2020).  *PLOS ONE*, 15(11), e0241503. [doi: 10.1371/journal.pone.0241503](https://doi.org/10.1371/journal.pone.0241503)
-</div>
-
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis](https://doi.org/10.1093/gigascience/giaa108)</div>
-
-Heyl, F., Maticzka, D., Uhl, M., Backofen, R. (2020).  *GigaScience*, Volume 9, Issue 11. [doi: 10.1093/gigascience/giaa108](https://doi.org/10.1093/gigascience/giaa108)
-</div>
-
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>
 
@@ -322,11 +338,13 @@ Chiara, M., Zambelli, F., Tangaro, M.A., Mandreoli, P., Horner, D.S., Pesole, G.
 McIntyre, L.M., Huertas, F., Moskalenko, O., Llansola, M., Felipo, V., Morse, A.M., Conesa, A. (2020). *bioRxiv*. [doi: 10.1101/2020.12.25.424407](https://doi.org/10.1101/2020.12.25.424407)
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)</div>
 
-Jalili, V., Clements, D., Grüning, B., Blankenberg, D., Goecks, J. (2020). *bioRxiv*. [doi: 10.1101/2020.11.16.385211](https://doi.org/10.1101/2020.11.16.385211)
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [A Constructivist-Based Proposal for Teaching Practices During Lock-Down](https://doi.org/10.20944/preprints202008.0532.v1)</div>
+
+Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2020).  *Preprints.* [doi: 10.20944/preprints202008.0532.v1](https://doi.org/10.20944/preprints202008.0532.v1)
 </div>
+
 
 </div>
 
@@ -384,18 +402,6 @@ Johns Hopkins University, Baltimore, Maryland, United States.
 Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
 
 <img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
-</div>
-
-
-<!-- ARTbio -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Genomic Data Analyst](https://www.artbio.fr/home/job-offers)</div>
-
-A 3-year position of genomic data analyst is available to work within the "COllaborative NEtwork on research for Children and Teenagers with Acute Myeloblastic Leukemia" CONECT-AML framework.
-
-The project is funded by the Institut National de Recherche sur le Cancer (INCA) and the Fight Kids Cancer programme. It involves 10 participant teams across France, with clinical or fundamental approaches.
-
-<img class="card-img-bottom" src="/src/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
 </div>
 
 
