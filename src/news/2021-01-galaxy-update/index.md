@@ -340,9 +340,9 @@ McIntyre, L.M., Huertas, F., Moskalenko, O., Llansola, M., Felipo, V., Morse, A.
 
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [A Constructivist-Based Proposal for Teaching Practices During Lock-Down](https://doi.org/10.20944/preprints202008.0532.v1)</div>
+<div class="card-header"> [A Constructivist-based Proposal for Bioinformatics Teaching Practices During Lock-down](https://www.preprints.org/manuscript/202008.0532/v2)</div>
 
-Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2020).  *Preprints.* [doi: 10.20944/preprints202008.0532.v1](https://doi.org/10.20944/preprints202008.0532.v1)
+Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2020).  *Preprints.* [doi: 10.20944/preprints202008.0532.v2](https://www.preprints.org/manuscript/202008.0532/v2)
 </div>
 
 
