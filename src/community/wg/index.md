@@ -87,6 +87,7 @@ Contact and other information for these groups:
 
 ### Tools
 
+* [Charter](https://docs.google.com/document/d/1E8adM1xvtI1USKOOIfK9kj6u4HcU4F3dLl1CYG0qoZA/edit#)
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/13)
 * [Google Drive](https://drive.google.com/drive/folders/1P_kRiBMSixkNiTRu0A4VZYPgg1TLxqlL)
 * [Gitter Chat Channel](https://gitter.im/galaxyproject/tools)
