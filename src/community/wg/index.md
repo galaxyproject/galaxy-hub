@@ -87,6 +87,7 @@ Contact and other information for these groups:
 
 ### Tools
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/13)
 * [Google Drive](https://drive.google.com/drive/folders/1P_kRiBMSixkNiTRu0A4VZYPgg1TLxqlL)
 * [Gitter Chat Channel](https://gitter.im/galaxyproject/tools)
 * [Tools Working Group Assignments](https://docs.google.com/spreadsheets/d/1jPhMF5VwoO1jW_ejdx9ZEs-DZ2bkCHezybFjfuorZeM/edit#gid=0)
