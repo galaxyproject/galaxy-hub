@@ -53,7 +53,7 @@ date: "2021-01-07"
     <ul>
       <li> Europe:
         <ul>
-          <li>Norwegian University of Life Science, IFB, VIB</li>
+          <li>MPI, Norwegian University of Life Science, IFB, VIB</li>
         </ul>
       </li>
       <li>North America:
@@ -351,6 +351,21 @@ Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2020).  *Preprints.* [doi
 # Who's Hiring
 
 <div class="card-deck">
+
+<!-- MPI -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Bioinformaticians](https://www.ie-freiburg.mpg.de/5439833/job_full_offer_16204637)</div>
+
+Bioinformatics Unit, [Max Planck Institute of Immunobiology and Epigenetics](https://www.ie-freiburg.mpg.de/), Freiburg, Germany
+
+Work in an interdisciplinary team with close links to different departments, research groups, and other core facilities.
+
+**Apply by 22 January.**
+
+<img class="card-img-bottom" src="/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" />
+</div>
+
+
 
 <!-- NMBU -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
