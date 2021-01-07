@@ -30,7 +30,7 @@ Some excellent examples (*emphasis added*):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
 
-     Which publication should you cite when using public accessible Galaxy platform?  Most of the [platform descriptions](/src/use/index.md) include a *Citation(s)* section.
+     Which publication should you cite when using public accessible Galaxy platform?  Most of the platform descriptions include a *Citation(s)* section.
 
 * Used a non-public server, from [de Carvalho Augusto *et al*](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005789):
      

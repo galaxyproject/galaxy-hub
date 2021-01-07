@@ -202,7 +202,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <!-- UseGalaxy.No -->
-<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.no](/src/use/usegalaxy-no/index.md)</div>
 
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo.jpg" alt="UseGalaxy.NO" />
@@ -212,7 +212,7 @@ A central, joint & free [Galaxy instance for Norway-based researchers and their 
 
 
 <!-- VINYL -->
-<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[VINYL on Laniakea](/src/use/vinyl/index.md)</div>
 
 <img class="card-img-top" src="/src/use/vinyl/vinyl-logo-slice.png" alt="VINYL: Variant prIoritizatioN bY survivaL analysis" />
@@ -220,8 +220,19 @@ A central, joint & free [Galaxy instance for Norway-based researchers and their 
 A flexible and fully automated system for the functional annotation and prioritization of genetic variants. The [VINYL server](http://www.beaconlab.it/VINYL) runs on the [Laniakea research cloud](/src/use/laniakea/index.md).  A [VINYL manual](http://90.147.75.93/galaxy/static/manual/), including a tutorial is provided.
 </div>
 
+
+<!-- W4M -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[W4M on UseGalaxy.fr](https://workflow4metabolomics.usegalaxy.fr/)</div>
+
+<img class="card-img-top" src="/src/use/workflow4metabolomics/workflow4metabolomics-banner.png" alt="W4M" />
+
+The [Workflow4Metabolomics (W4M) server](https://workflow4metabolomics.usegalaxy.fr/) has completed it's move to [UseGalaxy.fr](https://usegalaxy.fr/), the French national Galaxy server supported by [IFB](https://www.france-bioinformatique.fr/).
+</div>
+
+
 <!-- Center for Phage Technology (CPT) -->
-<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)</div>
 
 <img class="card-img-top" src="/src/use/center-for-phage-technology-cpt/cpt-logo.png" alt="Center for Phage Technology (CPT)" />
@@ -232,7 +243,7 @@ The upgraded and improved Galaxy-Apollo phage annotation platform is now ready t
 
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
@@ -343,9 +354,6 @@ McIntyre, L.M., Huertas, F., Moskalenko, O., Llansola, M., Felipo, V., Morse, A.
 <div class="card-header"> [A Constructivist-based Proposal for Bioinformatics Teaching Practices During Lock-down](https://www.preprints.org/manuscript/202008.0532/v2)</div>
 
 Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2020).  *Preprints.* [doi: 10.20944/preprints202008.0532.v2](https://www.preprints.org/manuscript/202008.0532/v2)
-</div>
-
-
 </div>
 
 
