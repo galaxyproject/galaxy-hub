@@ -95,6 +95,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/10)
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-ui-ux)
+* [Google Drive](https://drive.google.com/drive/folders/1L5XGq4dF9fn99TXhKXD3NKCmCoS_uQz6)
 * Leadership: Dannon Baker
 
 ## Timeline
