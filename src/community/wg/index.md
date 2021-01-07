@@ -33,6 +33,7 @@ Contact and other information for these groups:
 
 * [Google Drive](https://drive.google.com/drive/folders/1wUWo3n3dS40Gqu_G60scEGyI37KEhvrp)
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-admin)
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/16)
 * Leadership: (rotating) Helena Rasche, Gianmauro Cuccuru
 
 ### Backend
