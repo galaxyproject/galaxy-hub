@@ -45,7 +45,9 @@ Contact and other information for these groups:
 
 ### Cancer Informatics
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
 * [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-cancer-informatics)
 * Leadership: Luke Sargent
 
 ### Deployment
