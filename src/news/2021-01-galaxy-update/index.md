@@ -1,7 +1,7 @@
 ---
 title: 'January 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
-date: ""
+date: "2021-01-07"
 ---
 
 <div class="card border-info">
@@ -60,7 +60,6 @@ date: ""
         <ul>
           <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)</li>
         </ul>
-      <li>*A: Everyone, it seems.* </li>
     </ul>
   </li>
   <li>**[New releases](#releases)**:
