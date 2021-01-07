@@ -462,27 +462,25 @@ See
 * **[Documentation](http://cloudbridge.cloudve.org/en/latest/)**
 * **[Python library](https://pypi.org/project/cloudbridge/)**
 
+</div>
 
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">Planemo 0.70-0.74.1</div>
+
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of
+command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some major changes
+
+* `gxwf` functionality integrated, greatly expanding workflow development support.
+* Finished migration to Python 3
+* Testing infrastructure improvements.
+
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 </div>
 
 </div>
 
 
 
-
-# Other news
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Extending Galaxy for Large-scale and Integrative Biomedical Analyses](/src/news/2020-11-czi/index.md)</div>
-
-The Chan Zuckerberg Initiative's (CZI)  [Essential Open
-Source Software for
-Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program is [funding work to extend Galaxy](https://chanzuckerberg.com/eoss/proposals/extending-galaxy-for-large-scale-and-integrative-biomedical-analyses/).  See [the announcement for details](/src/news/2020-11-czi/index.md).
-
-<img class="card-img-bottom" src="/src/images/logos/czi-320.png" alt="Chan Zuckerberg Initiative" />
-</div>
-
-</div>
 
