@@ -1,6 +1,6 @@
 ---
 title: 'January 2021 Galactic News'
-tease: "And what a month it is"
+tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
 date: ""
 ---
 
@@ -13,69 +13,61 @@ date: ""
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
     <ul>
-      <li>Webinars:
-        <ul>
-          <li>Use Galaxy anywhere, right now, *December 9*</li>
-          <li>Chloroplast Genome Assembly, *December 10*</li>
-        </ul>
-      </li>
-      <li>First Metabolomics Community Call, *December 10*</li>
-      <li>Galaxy Developer Round Table: Working Groups, *December 10*</li>
-      <li>Papercuts CollaborationFest: *December 17*</li>
-      <li>Galaxy Admin Training: *Apply by December 18*</li>
+      <li>2nd Galaxy-ELIXIR webinar series, *starts January 20*</li>
+      <li>Galaxy Developer Roundtables, *January 7 & 21*</li>
+      <li>Papercuts CollaborationFest: *January 21*</li>
+      <li>Future Galaxy Admin Trainings, *Register your interest*</li>
       <li>Tripal CodeFest 2021: *January 11-15*</li>
+      <li>Structural Variant Detection using ONT Data, *January 26*</li>
       <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*</li>
+      <li>Single-cell RNA-seq & network analysis using Galaxy and Cytoscape, *Apply by 26 February*
     </ul>
   <li>**[Galaxy platform news](#galaxy-platforms-news):**
     <ul>
-      <li>CLIP-Explorer, a new server for CLIP-Seq data </li>
-      <li>GenAP expansion funded by CANARIE (Canada!)</li>
-      <li>UseGalaxy.eu gets more storage and GPUs through deNBI-Cloud</li>
+      <li>UseGalaxy.no</li>
+      <li>VINYL on Laniakea</li>
+      <li>WM4 on UseGalaxy.fr</li>
+      <li>Center for Phage Technology server upgraded and improved</li>
       <li>Plus more UseGalaxy.\* news</li>
     </ul>
   </li>
   <li>**[Blog posts](#galactic-blog-activity):**
     <ul>
-      <li>Outcome of the BioHackathon Europe</li>
-      <li>Accessible single-cell RNA-sequencing bioinformatics training using Galaxy</li>
-      <li>TIaaS and training feedback</li>
+      <li>Involvement of the Galaxy community in OLS-2 and invitation to apply to the next cohort</li>
+      <li>DDA and DIA proteomic analysis in Galaxy</li>
+      <li>GTN Plant-related trainings</li>
     </ul>
   </li>
   <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
     <ul>
-      <li>Chloroplast genome assembly</li>
-      <li>Compute and analyze Essential Biodiversity Variables with PAMPA toolsuite</li>
-      <li>16S Microbial analysis with Nanopore data</li>
+      <li>Videos: Galactic Introductions</li>
+      <li>Videos: Quick Tips</li>
     </ul>
   </li>
   <li>**[Publications](#publications)**
     <ul>
-      <li>Metaproteomics, CLIP-Explorer, GIANT, and package management is your friend</li>
+      <li>Metaproteomics, CorGAT (SARS-CoV-2), GAIT-GM (metabolites), and training</li>
     </ul>
   </li>
   <li>**[Q: Who's hiring?](#whos-hiring)**
     <ul>
       <li> Europe:
         <ul>
-          <li>Max Planck IIE, University of Oslo, Hannover Medical School, EMBL Rome, Norwegian University of Life Science, Sorbonne-Université</li>
+          <li>Norwegian University of Life Science, IFB, VIB</li>
         </ul>
       </li>
       <li>North America:
         <ul>
-          <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions), Cleveland Clinic</li>
+          <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)</li>
         </ul>
       <li>*A: Everyone, it seems.* </li>
     </ul>
   </li>
   <li>**[New releases](#releases)**:
     <ul>
-      <li>Galaxy 20.09</li>
-      <li>ENA submission</li>
-      <li>OMERO accessible from Galaxy</li>
-      <li>CloudLaunch</li>
+      <li>Planemo 0.74.1</li>
     </ul>
   </li>
-  <li>**[Other news too](#other-news)**</li>
 </ul>
 
 </div>
@@ -452,17 +444,6 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 # Releases
 
 <div class="card-deck">
-
-<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[CloudBridge 2.1.0](/src/news/2020-12-cloudbridge-210/)</div>
-
-CloudBridge is a Python library that provides a consistent layer of abstraction over different Infrastructure-as-a-Service cloud providers, reducing or eliminating the need to write conditional code for each cloud.
-
-See
-* **[Documentation](http://cloudbridge.cloudve.org/en/latest/)**
-* **[Python library](https://pypi.org/project/cloudbridge/)**
-
-</div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
 <div class="card-header">Planemo 0.70-0.74.1</div>
