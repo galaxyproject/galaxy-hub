@@ -49,6 +49,7 @@ Contact and other information for these groups:
 
 ### Deployment
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
 * [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
 * Leadership: Nate Coraor
  
