@@ -115,7 +115,7 @@ There are two roundtable meetups this month:
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01.png" alt="Paper Cuts January" />
-<div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-11-papercuts/index.md)</div>
+<div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-01-papercuts/index.md)</div>
 
 **21 January, Online**
 
