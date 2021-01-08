@@ -1,5 +1,5 @@
 ---
-title: "CWL Miini-Conference"
+title: "CWL Mini-Conference"
 date: '2021-02-08'
 days: 3
 tease: "Three sets of calls, reaching the world"
