@@ -215,23 +215,221 @@ block content
             h2( id="about-this-directory" ) About This Directory
 
             p
-                | The Galaxy Project's public server 
-                a( href="http://usegalaxy.org/" ) usegalaxy.org
-                |  can meet many needs, but it is not suitable for everything (see 
-                a( href="/choices/" ) Choices
-                |  for why). Fortunately the Galaxy 
+                | The Galaxy 
                 a( href="/community/" ) Community
-                |  has created Galaxy instances in many different forms and for many different applications.
-
-            p
-                | This directory lists publicly accessible
+                |  has created Galaxy instances in many different forms and for many different applications. This directory lists the options we know about, including:
             ul
                 li Galaxy servers,
                 li cloud services that support Galaxy instances, and
                 li virtual machines and containers that can be easily deployed for your own server.
 
+            h2(id="which-platform-platform-type-to-choose") Which Platform / Platform Type to Choose?
             p
-                strong If you want to use Galaxy with little or no effort creating an instance, this is where you should start.
+                | Your choices depends upon your needs. If you want to use Galaxy with a minimum of setup work, then try starting with a 
+                em UseGalaxy 
+                | or
+                em Public Server. 
+                | There are over 125 of these platforms to pcik from all of which can be use with little or no setup on your part. However if none of those meet your needs then here are some guidelines for other cases.
+
+            table( class="table table-striped" )
+                tr
+                    th
+                    th
+                        | UseGalaxy Servers
+                    th
+                        | Public Servers
+                    th
+                        a( href="https://galaxyproject.eu/tiaas.html" ) TIaaS
+                    th
+                        | Academic Clouds
+                    th
+                        | Commercial Clouds
+                    th
+                        | Containers
+                    th
+                        | VMs
+                    th
+                        | Local
+                tr
+                    th
+                        | Free to use
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                        sup 1
+                    td
+                        | No
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                tr
+                    th
+                        | Uses your local compute infrastructure
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | Yes
+                        sup 2
+                    td
+                        | Yes
+                        sup 2
+                    td
+                        | Yes
+                tr
+                    th
+                        | Datasets (including intermediate) total > 250GB
+                    td
+                        | No
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                        sup 3
+                    td
+                        | Yes
+                        sup 3
+                    td
+                        | Yes
+                tr
+                    th
+                        | Computational requirements are similarly large
+                    td
+                        | No
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                        sup 3
+                    td
+                        | Yes
+                        sup 3
+                    td
+                        | Yes
+                tr
+                    th
+                        | Share Galaxy objects outside your organization
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                        sup 4
+                    td
+                        | Yes
+                        sup 4
+                    td
+                        | Yes
+                        sup 5
+                tr
+                    th
+                        | Install custom tools and reference genomces
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | Yes
+                        sup 5
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                    td
+                        | Yes
+                tr
+                    th
+                        | Have absolute data security requirements
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | No
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | ?
+                        sup 5
+                    td
+                        | Yes
+            p
+                sup 1 
+                | Depends on provider, and if you are eligible for the service
+                br
+                sup 2 
+                | These technologies can be deployed on clouds or locally.
+                br
+                sup 3 
+                | Depends on the size of the system you are running it on.
+                br
+                sup 4 
+                | With these technologies you can save the server and share the entire platform with them.
+                br
+                sup 5 
+                | Depends on configuration.
+
+            p
+                | Most of these platform types are defined above (click on each tab), but two aren't:
+
+            h3( id="tiaas") TIaaS 
+            p
+                | Training Infrastructure as a Service (TIaaS) is a service offered by some UseGalaxy servers to specifically support training use cases.  See 
+                a( href="https://galaxyproject.eu/tiaas.html") TIaaS
+                |  for more information.
+
+            h3( id="local") Local 
+            p
+                | Finally, you can install your own local instance of Galaxy from scratch. See 
+                a( href="getgalaxy/") Get Galaxy
+                |  for details on how to do this. This has become much easier to do in recent years.
 
             h2(id="resource-keywords") Resource Keywords
             p
@@ -247,7 +445,7 @@ block content
 
             h4(id="usegalaxy") UseGalaxy
             p
-                | UseGalaxy servers implement a common core set of tools and reference genomes, and are open to anyone to use. See the [UseGalaxy directory below](#usegalaxy-dir).
+                | UseGalaxy servers implement a common core set of tools and reference genomes, and are open to anyone to use.
 
             h4(id="genomics") Genomics
             p
