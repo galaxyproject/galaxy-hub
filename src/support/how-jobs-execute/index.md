@@ -22,7 +22,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * [Processing rules for jobs on Galaxy Main (http://usegalaxy.org)](/src/main/index.md)
   * When work is urgent during peak-usage times on the public **[Main](/src/main/index.md)** Galaxy instance, a **[CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. 
   * For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)** each have advantages as a longer-term solution. 
-  * [Read more about Using Galaxy Choices...](/src/use/index.md#which-platform-platform-type-to-choose) in the [Galaxy Platforms Directory](/src/use.index.md).
+  * [Read more about Using Galaxy Choices...](/src/use/index.md#which-platform-platform-type-to-choose) in the [Galaxy Platforms Directory](/src/use/index.md).
 
 ## Dataset States
 
