@@ -161,12 +161,63 @@ Training Topics are added here within a few days of being nominated.
 
   <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header"> Introduction to Genomics and Galaxy </div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+   </p>
+   <p class="card-text">
+   This practical aims to familiarize you with the Galaxy user interface. It will teach you how to perform basic tasks such as importing data, running tools, working with histories, creating workflows, and sharing your work.
+   </p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header"> Mapping </div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)
+   </p>
+   <p class="card-text">
+   Sequencing produces a collection of sequences without genomic context. We do not know to which part of the genome the sequences correspond to. Mapping the reads of an experiment to a reference genome is a key step in modern genomic data analysis. With the mapping the reads are assigned to a specific location in the genome and insights like the expression level of genes can be gained.
+   </p>
+  </div><!-- end nomination -->
+
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header"> Analyses of metagenomics data - The global picture</div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html)
+   </p>
+
+   <p class="card-text">
+   In metagenomics, information about micro-organisms in an environment can be extracted with two main techniques:
+    <ul>
+    <li>**Amplicon sequencing**, which sequences only the rRNA or ribosomal DNA of organisms</li>
+    <li>**Shotgun sequencing**, which sequences full genomes of the micro-organisms in the environment</li>
+    </ul>
+    </p>
+   <p class="card-text">
+    In this tutorial, we will introduce the two main types of analyses with their general principles and differences. For a more in-depth look at these analyses, we recommend our detailed tutorials on each analysis.
+   </p>
+
+  </div><!-- end nomination -->
+
+
+
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
 
   </div><!-- end nomination -->
 
 
 </div>
+
+
+
+
 
 
 ## Admin / Development Topics
@@ -255,4 +306,15 @@ Training Topics are added here within a few days of being nominated.
 
 </div>
 
+## Other
 
+<div class="card-deck">
+
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header"> Interface between synthetic biology and Biosecurity </div>
+
+  </div><!-- end nomination -->
+
+
+</div>
