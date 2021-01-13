@@ -83,12 +83,41 @@ Training Topics are added here within a few days of being nominated.
    </p>
    </div><!-- end nomination -->
 
-    <!-- nomination -->
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header"> Variant Calling and Analysis </div>
+   <p class="card-text>">
+   Introduction to variant calling, annotation and analysis in Galaxy.
+
+   Suggested GTN tutorials:
+   <ul>
+   <li> [Identification of somatic and germline variants from tumor and normal sample pairs](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/somatic-variants/tutorial.html)</li>
+   </ul>
+   </p>
+  </div><!-- end nomination -->
+
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">16S Microbial Analysis with mothur</div>
+   <p class="card-text"> [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html
+)</p>
+   <p class="card-text">
+    Analysis of the 16S gene allows for the efficient profiling of microbial communities, without contamination from the host genome.
+   <p class="card-text">
+   In this tutorial, we will cover the mothur MiSeq Standard Operating Procedure (SOP) step-by-step in Galaxy.
+   </p>
+  </div><!-- end nomination -->
+
+
+
+
+  <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
 
   </div><!-- end nomination -->
-
 
 
 
@@ -159,6 +188,25 @@ Training Topics are added here within a few days of being nominated.
    This tutorial will teach you how to use Pulsar to distribute a Galaxy server's workload to multiple compute resources.
    </p>
   </div><!-- end nomination -->
+
+
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Workflow execution on the command line</div>
+   <p class="card-text">
+   Introduction to running workflows using command line tools such as planemo
+   </p>
+   <p class="card-text">
+   **Possibly multiple sessions** e.g. in conjunction with other workflow-related trainings, e.g. as a follow up to an introduction to using workflows in the UI.
+   </p>
+   <p class="card-text">
+   **Prerequisites:** basic knowledge of Linux command line
+  </p>
+
+  </div><!-- end nomination -->
+
+
+
 
 </div>
 
