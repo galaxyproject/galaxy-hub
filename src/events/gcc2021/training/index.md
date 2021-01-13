@@ -111,9 +111,43 @@ Training Topics are added here within a few days of being nominated.
   </div><!-- end nomination -->
 
 
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Climate Science: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) with Galaxy Climate JupyterLab </div>
+  <p class="card-text">
+  [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates-jupyterlab/tutorial.html)
+  </p>
+  <p class="card-text">
+  FATES is the “Functionally Assembled Terrestrial Ecosystem Simulator”. FATES needs what we call a “Host Land Model” (HLM) to run and in this tutorial we will be using the Community Land Model of the Community Terrestrial Systems Model (CLM-CTSM). FATES was derived from the CLM Ecosystem Demography model (CLM(ED)), which was documented in Taking off the training wheels: the properties of a dynamic vegetation model without climate envelopes, CLM4.5(ED) 2015. and this technical note was first published as an appendix to that paper. The FATES documentation will provide some more insight on FATES too.
+  </p>
+  </div><!-- end nomination -->
 
 
   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Inroduction to Deep Learning</div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/intro_deep_learning/tutorial.html)
+   </p>
+   <p class="card-text">
+   **Deep learning**, a branch of artificial intelligence, provides a collection of learning methods to model data with complex architectures to perform different non-linear transformations of data. Using these transformations, patterns are recognised in large volumes of data and new data can be categorised using these patterns extracted on existing data. These patterns are learned by computational models devised using different architectures of neural networks. In the recent years, the neural network architectures such as convolutional, long short-term memory networks, deep belief networks have become increasingly popular as machine learning tools in the fields of computer vision, image analysis, bioinformatics, speech recognition, natural language processing and so on achieving state-of-the-art performance, sometimes exceeding human performance.
+
+   </p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Regression in Machine Learning</div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/regression_machinelearning/tutorial.html)
+   </p>
+   <p class="card-text">
+   In this tutorial you will learn how to use Galaxy tools to solve regression problems. First, we will introduce the concept of regression briefly, and then examine linear regression, which models the relationship between a target variable and some explanatory variables (also known as independent variables). Next, we will discuss gradient boosting regression, an more advanced regressor model which can model nonlinear relationships between variables. Then, we will show how to visualize the results in each step. Finally, we will discuss how to train our models by finding the values of their parameters that minimize a cost function. We will work through a real problem to learn how the models and learning algorithms work.
+   </p>
+  </div><!-- end nomination -->
+
+<!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
 
