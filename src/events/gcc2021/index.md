@@ -1,5 +1,5 @@
 ---
-title: "2021 Galaxy Community Conference (BCC2021)"
+title: "2021 Galaxy Community Conference (GCC2021)"
 date: "2021-07-05"
 days: 8
 tease: "Galaxy's annual community gathering"
