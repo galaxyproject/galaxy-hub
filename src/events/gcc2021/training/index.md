@@ -45,26 +45,51 @@ Training Topics are added here within a few days of being nominated.
   <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header"> Deep Neural Networks Demystified </div>
-
    <p class="card-text">
    Give a brief history of Neural Networks (NN), describe various NN   architectures (Feed-forward, Recurrent, and Convolutional), discuss NN applications (specially in Bioinformatics), and do a hands-on Galaxy lab where a NN is used to solve an example problem.</p>
-
    <p class="card-text">
    **Two sessions:** One for theory, and the other for hands-on Galaxy lab.
    </p>
-
    <p class="card-text">
    **Intended audience:** Researchers/practitioners who want to use NN in their research/tasks. Basic understanding of Linear Algebra and Calculus required.
-
    </p>
   </div><!-- end nomination -->
 
 
-  <!-- nomination -->
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Single-cell analysis:  Clustering 3K PBMCs with Scanpy </div>
+   <p class="card-text"> [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-scanpy-pbmc3k/tutorial.html) </p>
+   <p class="card-text">
+   Single-cell RNA-seq analysis is a rapidly evolving field at the forefront of transcriptomic research, used in high-throughput developmental studies and rare transcript studies to examine cell heterogeneity within a populations of cells. The cellular resolution and genome wide scope make it possible to draw new conclusions that are not otherwise possible with bulk RNA-seq.
+   </p>
+   <p class="card-text">**Two sessions:** Possibly in combiniaton with a second tutorial, such as the [10X workflow](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html) </p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+   <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Transcriptomics</div>
+   <p class="card-text">
+   Multiple sessions, covering one or more of the following GTN tutorials:
+   <ul>
+   <li> [GO Enrichment Analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html)</li>
+   <li> [RNA-seq counts to genes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-counts-to-genes/tutorial.html) </li>
+   <li> [RNA-seq genes to pathways](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-genes-to-pathways/tutorial.html)</li>
+   <li> [Visualization of RNA-Seq results with heatmap2](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html) </li>
+   <li> [Visualization of RNA-Seq results with Volcano Plot](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html)</li>
+   </ul>
+   </p>
+   </div><!-- end nomination -->
+
+    <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
 
   </div><!-- end nomination -->
+
+
 
 
 </div>
