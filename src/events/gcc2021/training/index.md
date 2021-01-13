@@ -148,11 +148,22 @@ Training Topics are added here within a few days of being nominated.
   </div><!-- end nomination -->
 
 <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;i">
+   <div class="card-header"> DNA Methylation Analysis </div>
+   <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/methylation-seq/tutorial.html)
+   </p>
+   <p class="card-text">
+   DNA methylation is a biological process by which methyl groups are added to the DNA molecule. Methylation can change the activity of a DNA segment without changing the sequence.
+   </p>
+
+  </div><!-- end nomination -->
+
+  <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
 
   </div><!-- end nomination -->
-
 
 
 </div>
