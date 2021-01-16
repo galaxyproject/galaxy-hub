@@ -8,7 +8,7 @@ platforms:
     platform_text: "Hunter College Server"
     platform_location: US
 summary: "A general purpose genomics server"
-image: "/src/use/hunter/hunter-college-logo-trans.png"
+image: "hunter-college-logo-trans.png"
 comments:
   - "Tools and workflows from the the [Krampis Lab](http://krampis.bioweb.hunter.cuny.edu/)"
 user_support:
