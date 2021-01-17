@@ -8,7 +8,7 @@ platforms:
     platform_text: "Stem Cell Discovery Engine (SCDE)"
     platform_location: US
 summary: "Database of curated cancer stem cell experiments coupled to Galaxy. "
-image: "/src/use/stem-cell-discovery-engine/scde.png"
+image: "scde.png"
 comments:
   - "Includes tools for stem cell gene list comparisons. From the web site:"
   - "Compare your genes to curated experiments from the [SCDE Bioinvestigation Index](http://discovery.hsci.harvard.edu/bioinvindex/)"
