@@ -8,7 +8,7 @@ platforms:
     platform_text: "VarCap Galaxy"
     platform_location: AT
 summary: "Reliable prediction of different types of variants even at low frequencies. "
-image: "/src/use/varcap/varcap-workflow.png"
+image: "varcap-workflow.png"
 comments:
   - "VarCap currently uses paired end read files for variant calling"
 user_support:

@@ -303,11 +303,11 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
 
 # New Public Servers
 
-One new [public Galaxy server](/src/use/index.md), [PGTB](/src/use/galaxy-pgtb-virtual-biodiversity-lab/index.md) was added, and the NELLY server is back.
+One new [public Galaxy server](/src/use/index.md), PGTB was added, and the NELLY server is back.
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
-<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/use/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png" alt="PGTB Galaxy"  /></a></div>
+<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/use/archive/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
   * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**

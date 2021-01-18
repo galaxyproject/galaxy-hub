@@ -257,7 +257,7 @@ The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) suppor
 
 ## ChIP-Seq Docker
 
-This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](/src/use/chip-seq-docker/index.md).
+This isn't new in the world, but it is new in the Galaxy Platform Directory: A [Galaxy Docker instance for ChIP-Seq analysis](https://hub.docker.com/r/iguigon/galaxy_docker_chipseq/).
 
 ## Other Platform News
 

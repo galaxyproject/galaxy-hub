@@ -472,7 +472,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 
 ### VarCap
 
-<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/use/varcap/varcap-workflow.png" alt="VarCap" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/use/archive/varcap/varcap-workflow.png" alt="VarCap" width="200" /></a></div>
 
 [VarCap Galaxy](http://galaxy.csb.univie.ac.at:8080/) performs reliable prediction of different types of variants even at low frequencies. See
  Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2016) [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/). *PeerJ Preprints* 4:e2449v1 doi: 10.7287/peerj.preprints.2449v1

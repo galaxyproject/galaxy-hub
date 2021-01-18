@@ -8,7 +8,7 @@ platforms:
     platform_text: "PGTB Galaxy - Virtual Biodiversity Lab"
     platform_location: FR
 summary: "This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis."
-image: "/src/use/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png"
+image: "pgtb.png"
 comments:
   - "[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)"
 user_support:
