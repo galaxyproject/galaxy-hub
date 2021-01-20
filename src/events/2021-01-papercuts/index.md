@@ -34,7 +34,7 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 ## Win a Galaxy Calendar!
 
-To encourage participation, **the Nekrutenko Lab is offering [a free Galaxy calendar](https://www.mixbook.com/photo-calendars/all/full-photo-layout-24406570?vk=nKjxwLomt9n7SYB3b91U) to 10 contributors who open a Papercuts-related pull request this week.**  Ten awardees will be randomly selected on Saturday from the pool of submitters.  The calendar features 14 stunning and high-resolution pictures of living things from across the tree of life.  Be the first on your block to own one.
+To encourage participation, **we are offering [a free Galaxy calendar](https://www.mixbook.com/photo-calendars/all/full-photo-layout-24406570?vk=nKjxwLomt9n7SYB3b91U) to 10 contributors who open a Papercuts-related pull request this week.**  Ten awardees will be randomly selected on Saturday from the pool of submitters.  The calendar features 14 stunning and high-resolution pictures of living things from across the tree of life.  Be the first on your block to own one.
 
 
 ## Issues to work on
