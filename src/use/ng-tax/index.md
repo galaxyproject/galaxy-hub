@@ -4,7 +4,7 @@ url: "http://wurssb.gitlab.io/ngtax/index.html"
 scope: "tool-publishing"
 platforms:
   - platform_group: "public-server"
-    platform_url: "https://www.systemsbiology.nl/ngtax/"
+    platform_url: "https://ngtax.systemsbiology.nl/"
     platform_text: "NG-Tax Server"
     platform_location: NL
   - platform_group: "container"

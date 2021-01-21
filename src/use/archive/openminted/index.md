@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://services.openminted.eu"
     platform_text: "OpenMinTeD"
 summary: "Human Communication Science (HCS)."
-image: "/src/use/openminted/OpenMINTED_Tag_Color.png"
+image: "OpenMINTED_Tag_Color.png"
 comments:
   - "[OpenMinTeD](http://openminted.eu) is dedicated to offering advanced high-quality TDM-related services to researchers, TDM experts, SMEs and industry – anyone interested in making sense and extracting hidden knowledge from the huge bulks of scientific and scholarly content. Galaxy is used to build and execute workflows on the platform. Sign in to [the platform](https://services.openminted.eu), choose *Add* in the menu and then *Applications*. Then choose *Build an application with existing components* to access the Galaxy-based workflow editor. To run a workflow use the *Process* menu item."
 user_support: 

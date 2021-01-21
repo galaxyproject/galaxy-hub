@@ -190,7 +190,7 @@ The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.
 
 <img class="card-img-top" src="/src/use/ng-tax/ngtax-workflow.png" alt="NG-Tax workflow" />
 
-The **[NG-Tax server](https://www.systemsbiology.nl/ngtax/)** provides a semantic framework for high-throughput marker gene (amplicon) analysis.  The server requires that you create a login, but anyone can create a login.  Supports both NG-Tax versions 1 & 2.
+The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic framework for high-throughput marker gene (amplicon) analysis.  The server requires that you create a login, but anyone can create a login.  Supports both NG-Tax versions 1 & 2.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
