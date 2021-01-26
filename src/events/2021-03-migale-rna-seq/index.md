@@ -2,7 +2,7 @@
 title: "Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy"
 date: '2021-03-17'
 days: 3
-tease: 'Part of Cycle "Bioinformatique par la pratique" 2021'
+tease: 'Full. Part of Cycle "Bioinformatique par la pratique" 2021'
 continent: EU
 location: Cycle "Bioinformatique par la pratique" 2021, INRAE, Jouy-en-Josas, France
 image: /images/logos/MIGALELogo.png

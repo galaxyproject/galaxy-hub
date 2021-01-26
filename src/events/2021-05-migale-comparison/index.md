@@ -2,7 +2,7 @@
 title: "Comparaison de génomes microbiens"
 date: '2021-05-28'
 days: 1
-tease: 'Part of Cycle "Bioinformatique par la pratique" 2021'
+tease: 'Full. Part of Cycle "Bioinformatique par la pratique" 2021'
 continent: EU
 location: 'Cycle "Bioinformatique par la pratique" 2021, INRAE, Jouy-en-Josas, France'
 image: /src/images/logos/MIGALELogo.png
