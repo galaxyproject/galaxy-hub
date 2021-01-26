@@ -205,12 +205,43 @@ Training Topics are added here within a few days of being nominated.
   </div><!-- end nomination -->
 
 
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Epigenetics: ATAC-Seq data analysis</div>
+   <p class="card-text">
+
+ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. In this tutorial we give a basic introduction on how to analyze an ATAC-Seq experiment in Galaxy. The visualization of ATAC-seq data using the Galaxy implementation of deepTools (https://deeptools.readthedocs.io/en/develop/) and pyGenomeTracks (https://pygenometracks.readthedocs.io/en/latest/) will be a major part of this training.
+   </p>
+  </div><!-- end nomination -->
+
+
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Proteomics</div>
+   <p class="card-text">
+     Proteomics is the large-scale study of proteomes. A proteome is a set of proteins produced in an organism, system, or biological context. The proteome is not constant; it differs from cell to cell and changes over time. To some degree, the proteome reflects the underlying transcriptome. However, protein activity is also modulated by many factors in addition to the expression level of the relevant gene.
+
+   </p>
+  </div><!-- end nomination -->
+
+
+  <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Climate: Functionally Assembled Terrestrial Ecosystem Simulator (FATES) </div>
+   <p class="card-text">[GTN Tutorial](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/tutorial.html)</p>
+   <p class="card-text">Terrestrial ecosystem models have been widely used to study the impact of climate changes on vegetation and terrestrial biogeochemical cycles in climate modelling community. They are also more and more applied in ecological studies to help ecologists to better understand the processes. But the technical challenges are still too high for most of the ecologists to use them. This practical aims at familiarizing you (especially ecologists) with running a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and analyzing the model results. It will also teach you on how to create Galaxy workflow for your site-level CLM-FATES simulations to make your research fully reproducible</p>
+  </div><!-- end nomination -->
+
+
 
   <!-- nomination -->
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Gene Predictions with Galaxy </div>
-
+   <p class="card-text"></p>
   </div><!-- end nomination -->
+
+
+
 
 
 </div>
@@ -301,6 +332,50 @@ Training Topics are added here within a few days of being nominated.
 
   </div><!-- end nomination -->
 
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Galaxy Visualization Integration
+ </div>
+   <p class="card-text">Learn how to develop Visualisation components for Galaxy.</p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Scripting Galaxy using the API and BioBlend
+ </div>
+   <p class="card-text">Learn how to interact with Galaxy programmatically using the API and [BioBlend](https://bioblend.readthedocs.io/en/latest/)</p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Galaxy Tool Development
+ </div>
+   <p class="card-text">Learn how to create Galaxy tools and make them available in the Galaxy Tool Shed.</p>
+  </div><!-- end nomination -->
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Galaxy Interactive Tools (GxIT)
+ </div>
+   <p class="card-text">Learn how to develop Galaxy Interactive Tools.</p>
+  </div><!-- end nomination -->
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Advanced customisation of a Galaxy instance
+ </div>
+   <p class="card-text">[GTN Material](https://training.galaxyproject.org/training-material/topics/admin/tutorials/advanced-galaxy-customisation/slides.html)</p>
+  </div><!-- end nomination -->
+
+
+   <!-- nomination -->
+  <div class="card border-primary" style="min-width: 15rem;">
+   <div class="card-header">Managing Galaxy on Kubernetes</div>
+   <p class="card-text">[GTN Tutorial](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</p>
+   <p class="card-text">A primary advantage of Galaxy on Kubernetes is the ease with which common administrative tasks can be performed reliably and without disruption of service. In particular, because of containerization, Kubernetes provides a significant advantage over managing individual virtual machines, where updates to system libraries or components can cause unexpected breakage of dependent components. With containerization, this becomes a simpler problem of swapping out a container and replacing it with an updated version. It also reduces reliance on the underlying operating system, allowing the OS to be upgraded and have the latest security patches applied without having to worry about how it will affect the applications running within.</p>
+ </div><!-- end nomination -->
 
 
 
@@ -315,6 +390,5 @@ Training Topics are added here within a few days of being nominated.
    <div class="card-header"> Interface between synthetic biology and Biosecurity </div>
 
   </div><!-- end nomination -->
-
 
 </div>
