@@ -10,5 +10,6 @@ external_url: "https://training.csx.cam.ac.uk/bioinformatics/event/3123756"
 contact: ''
 image: ""
 gtn: false
+tags: [ cofest ]
 ---
 

@@ -10,5 +10,6 @@ external_url: https://gccbosc2018.sched.com
 image: /images/logos/gcc-bosc-2018-banner.png
 gtn: true
 contact: Organizers
+tags: [ cofest ]
 ---
 

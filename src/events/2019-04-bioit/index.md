@@ -11,6 +11,7 @@ image: /src/events/2019-04-bioit/bioitworld19.png
 gtn: false
 contact: "Presenters"
 contact_url: "/src/people/jeremy-goecks/index.md"
+tags: [ cofest ]
 ---
 
 Going to [BioIT World 2019](https://www.bio-itworldexpo.com/)?  Galaxy is there too:

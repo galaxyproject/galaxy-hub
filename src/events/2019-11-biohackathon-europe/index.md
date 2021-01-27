@@ -10,6 +10,7 @@ external_url: ""
 image: 
 gtn: False
 contact: "Project organizers"
+tags: [ cofest ]
 ---
 
 <div class="float-right">
