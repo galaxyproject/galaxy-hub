@@ -209,6 +209,10 @@ Training Topics are added here within a few days of being nominated.
   <div class="card border-primary" style="min-width: 15rem;">
    <div class="card-header">Epigenetics: ATAC-Seq data analysis</div>
    <p class="card-text">
+   [GTN Tutorial](https://training.galaxyproject.org/training-material/topics/epigenetics/tutorials/atac-seq/tutorial.html)
+   </p>
+
+   <p class="card-text">
 
 ATAC-Seq (Assay for Transposase-Accessible Chromatin using sequencing) is a method to investigate the accessibility of chromatin and thus a method to determine regulatory mechanisms of gene expression. In this tutorial we give a basic introduction on how to analyze an ATAC-Seq experiment in Galaxy. The visualization of ATAC-seq data using the Galaxy implementation of deepTools (https://deeptools.readthedocs.io/en/develop/) and pyGenomeTracks (https://pygenometracks.readthedocs.io/en/latest/) will be a major part of this training.
    </p>
