@@ -27,5 +27,5 @@ The program covers a general **introduction to the Galaxy platform**, **NGS Anal
 
 # Course Information and Registration
 
-More information about this event and the registration form can be found on the [**course webpage**](https://shiltemann.github.io/global-galaxy-course/)
+More information about this event and the registration form can be found on the [**course webpage**](https://shiltemann.github.io/global-galaxy-course/). **Please register by 12 February.**
 
