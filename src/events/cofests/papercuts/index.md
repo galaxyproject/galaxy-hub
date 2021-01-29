@@ -12,7 +12,12 @@ Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address
 * Dedicate time together for bug-fixing.
 * Make reducing paper cuts fun.
 
-### How to get involved with Papercuts CoFests?
+<div class="text-center">
+<img src="/src/events/2020-10-papercuts/papercuts-2020-10-21.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2020-11-papercuts/papercuts-2020-11-18.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2020-12-papercuts/papercuts-2020-12.gif" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2021-01-papercuts/papercuts-2021-01.png" style="max-height: 6rem;" /> 
+</div>
+
+
+# How to get involved with Papercuts CoFests?
 
 Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
 
@@ -32,13 +37,11 @@ Papercuts CoFests are held regularly (see below), and it's easy to get involved 
   * Tell everyone you meet that you are now a Galaxy Project contributor.
   * Join us again for the next Papercuts.
 
-### Papercuts for Students?
-
-**Hell yes.**
+# Papercuts for Students?
 
 If you are a **learner** and you want to learn how a global open source, open science project operates (and *become a contributor)*, then we strongly encourage you to get involved with Galaxy through Papercuts CoFests.  See above for how to get started.
 
-### Papercuts for Teachers and Student Leaders
+## Papercuts for Teachers and Student Leaders
 
 If you are a **teacher, professor, or student leader**, and you want to get your students exposed to open source software development in a globally distributed project then *we really want to help you do that.*  [Send us an email](mailto:coutreach@galaxyproject.org), and we will work with you to welcome and integrate your group in to Galaxy during the next event.
 

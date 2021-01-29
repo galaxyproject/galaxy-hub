@@ -5,6 +5,10 @@ layout: events_index_cofests.pug
 
 **CollaborationFests**, also known as **CoFests** (and sometimes as "hackathons" - see below), are collaborative work events where we expand and improve the Galaxy community and the Galaxy ecosystem. Sometimes these gatherings are focused on Galaxy, and sometimes they are part of larger communities.
 
+<div class="text-center">
+<img src="/src/events/2020-10-papercuts/papercuts-2020-10-21.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/images/galaxy-logos/gtn-cofests.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2019-11-biohackathon-europe/bhlogo.png" style="max-height: 6rem;" /> 
+</div>
+
 ## What's in a name: CollaborationFests and Hackathons
 
 **We collaborate.**
@@ -29,3 +33,4 @@ Papercut events are CoFests that address annoying, but easy to fix bugs ("paper 
 Want to know when CoFests are coming?  Follow [@GalaxyProject on  Twitter](https://twitter.com/galaxyproject) or subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md). See the [Galaxy Event Horizon](/src/events/index.md) for a complete list of upcoming events.
 
 If you know of a CoFest that should be added to this page then please send it to outreach@galaxyproject.org.
+

@@ -13,6 +13,7 @@ content.
 Some events are part of a series:
 
 * [Galaxy Developer Round Table meetups](/src/community/devroundtable/index.md)
+* [CollaborationFests](/src/events/cofests/index.md) and [Papercuts CoFests](/src/events/cofests/papercuts/index.md)
 * [Galaxy Webinar Series](/src/events/webinars/index.md)
 
 If you know of any event that should be added to this page and/or to the Galaxy
