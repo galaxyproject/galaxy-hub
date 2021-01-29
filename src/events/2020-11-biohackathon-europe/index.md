@@ -10,6 +10,7 @@ external_url: ""
 image: bh-eu-2020.jpg
 gtn: False
 contact: "Project organizers"
+tags: [ cofest ]
 ---
 
 <div class="float-right">

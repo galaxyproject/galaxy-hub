@@ -10,6 +10,7 @@ location_url: ""
 external_url:
 gtn: false
 contact: Community
+tags: [ cofest, papercuts ]
 ---
 
 *Paper cuts are annoying but easy to fix bugs.*

@@ -10,4 +10,5 @@ location_url: "https://vib.be/"
 external_url: "https://www.vibconferences.be/events/gcc2021"
 gtn: true
 contact: "Organizers"
+tags: [ cofest ]
 ---

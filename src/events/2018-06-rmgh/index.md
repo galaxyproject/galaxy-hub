@@ -10,4 +10,5 @@ location_url: https://hackathon.colorado.edu/
 external_url: https://hackathon.colorado.edu/
 contact: "James Taylor"
 gtn: false
+tags: [ cofest ]
 ---

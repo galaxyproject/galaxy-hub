@@ -10,5 +10,6 @@ external_url: "https://bcc2020.github.io/"
 image: 
 gtn: true
 contact: "Organizers"
+tags: [ cofest ]
 ---
 

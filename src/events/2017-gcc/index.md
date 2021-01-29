@@ -9,6 +9,7 @@ image: gcc2017.png
 external_url: https://gcc2017.sciencesconf.org/
 gtn: true
 contact: Galaxy community
+tags: [ cofest ]
 ---
 [GCC2017](https://gcc2017.sciencesconf.org/) is the 8th annual gathering of the
 Galaxy community. The conference will include keynotes and accepted talks,

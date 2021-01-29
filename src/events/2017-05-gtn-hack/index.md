@@ -9,4 +9,5 @@ image: /images/logos/elixir-uk-trans-440.png
 location_url: http://www.cam.ac.uk/
 external_url: https://docs.google.com/document/d/1dLCL5-2pkWTvmGTz7GyQkb5LEIZ3FBkPvCBoqUPGUOg/edit
 contact: Frederik Coppens
+tags: [ cofest ]
 ---

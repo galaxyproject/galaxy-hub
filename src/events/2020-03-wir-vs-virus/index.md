@@ -10,5 +10,6 @@ external_url: "https://galaxyproject.eu/posts/2020/03/19/wirvsvirus/"
 image: 
 gtn: true
 contact: "Organizers"
+tags: [ cofest ]
 ---
 

@@ -10,5 +10,6 @@ external_url: "/events/gcc2019/"
 image: 
 gtn: true
 contact: Organizers
+tags: [ cofest ]
 ---
 
