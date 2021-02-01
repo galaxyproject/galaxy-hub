@@ -11,7 +11,7 @@ gtn: false
 contact: "Nathan Roach, Michael Alonge"
 tags: [ webinar ]
 links:
-  - text: "Register"
-    url: "https://galaxyworks.io/webinars/"
+  - text: "Video"
+    url: "https://youtu.be/sofOu4iOnTs"
 image: 
 ---
