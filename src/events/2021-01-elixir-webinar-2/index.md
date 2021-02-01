@@ -11,7 +11,9 @@ gtn: false
 contact: "Christina Hall, Andrew Lonie, Guy Cochrane, Björn Grüning, Frederik Coppens"
 tags: [ webinar ]
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_RVlDaaZiTu-CPtiVxlmsCQ"
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1LPDldMDbfj21Um7ElFrd3rad8A79YGoBy67W-ob4svA"
+  - text: "Video"
+    url: "https://youtu.be/LyEV1CCIuGQ"
 image: 
 ---
