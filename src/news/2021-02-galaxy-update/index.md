@@ -84,23 +84,12 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 
 <div class="card-deck">
 
-<!-- GTN Smörgåsbord -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
-<div class="card-header">[GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/)</div>
-
-**15-19 February, Online; Register by 1 February**
-
-This week-long workshop on how to use Galaxy will be online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
-
-</div>
-
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
-**20 January - 24 February**
+**3, 10, 17, 24 February**
 <br />
 *Open Data Infrastructures to tackle COVID-19 pandemic*
 
@@ -113,21 +102,67 @@ This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-web
 </div>
 
 
+<!-- GTN Smörgåsbord -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
+<div class="card-header">[GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/)</div>
+
+**15-19 February, Online, Global**
+
+This week-long workshop on how to use Galaxy will be online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
+
+**[Register by 12 February.](https://shiltemann.github.io/global-galaxy-course/)**
+
+</div>
+
+
+<!-- Paper Cuts & GTN Cofest -->
+<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN Cofest and Community Call + Paper Cuts February" />
+<div class="card-header">[February Papercuts + GTN: CoFests & Community Calls](/src/events/2021-02-gtn/index.md)</div>
+
+**25 February, Online, Global**
+
+The February GTN CoFest & Community calls are joining forces with the February Papercuts Cofest day for a concurrent, 24 hour long event, starting in Melbourne, Australia, and following the sun all the way to Portland, Oregon.
+
+Both events will feature community calls throughout the day with community engagement on chat throughout the day.  This is an excellent opportunity to become a contributor to the global open science, open source, and open access Galaxy community.
+
+* [Galaxy Training Network day -  CoFest and community call](/src/events/2021-02-gtn/index.md)
+* [Galaxy February Papercuts CoFest day](/src/events/2021-02-papercuts/index.md)
+
+Please join us online on 25 February, wherever you are in the world.
+</div>
+
+
+<!-- CWL MiniConf -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/cwl-logo-small-trans.png" alt="CWL" />
+<div class="card-header">[CWL Mini Conference](https://github.com/common-workflow-language/common-workflow-language/wiki/2021-CWL-Mini-Conference)</div>
+
+**8-10 February, Online, Global**
+
+Three half days of talks, discussions and co-working time, all about the [Common Workflow Language](https://www.commonwl.org/).
+
+**[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfls3QLbjqNCn4a0bE8ICjlmza3h93Sq-zV81VC_OxNybSAxA/viewform).**
+
+</div>
+
+
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtables](/src/community/devroundtable/index.md)</div>
 
 There are two roundtable meetups this month:
 
-**[Galaxy Developer Onboarding: How can we make this easier?](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano*
+**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion the just finished Admin training, and where Galaxy training is going in 2021.
 
 **[February 18: You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
-
 </div>
 
+
 <!-- Aus RNA-Seq -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
 <div class="card-header">[RNA-seq: from reads to differentially expressed genes](https://www.biocommons.org.au/events/rnaseq)</div>
 
@@ -136,19 +171,6 @@ There are two roundtable meetups this month:
 An introduction to RNA-seq analysis using the [Galaxy Australia](https://usegalaxy.org.au/) web platform.  This practical workshop provides a hands-on introduction to RNA-seq analysis from reads to counts, to differential expression. 
 </div>
 
-
-
-<!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01.png" alt="Paper Cuts January" />
-<div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-01-papercuts/index.md)</div>
-
-**21 January, Online**
-
-Our one-day January Paper Cuts contribution fest is a 24-hour event spanning all time zones with our worldwide community. 
-
-Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
-</div>
 
 
 <!-- EBI Single Cell -->
