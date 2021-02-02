@@ -202,14 +202,17 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 </div>
 
 
-<!-- StreetScience, Virology, COVID-19, metabolomics, metagenomics -->
+<!-- CorGAT -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[VINYL on Laniakea](/src/use/vinyl/index.md)</div>
+<div class="card-header">[CorGAT](/src/use/corgat/index.md)</div>
 
-<img class="card-img-top" src="/src/use/vinyl/vinyl-logo-slice.png" alt="VINYL: Variant prIoritizatioN bY survivaL analysis" />
+<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="CorGAT on Laniakea" />
 
-A flexible and fully automated system for the functional annotation and prioritization of genetic variants. The [VINYL server](http://www.beaconlab.it/VINYL) runs on the [Laniakea research cloud](/src/use/laniakea/index.md). A [VINYL manual](http://90.147.75.93/galaxy/static/manual/), including a tutorial is provided.
+[CorGAT](http://corgat.cloud.ba.infn.it/galaxy) aligns complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.  See the [CorGAT Manual](https://corgat.readthedocs.io/en/latest/) for more.  CorGAT is one of several servers that runs on [Laniakea](/src/use/laniakea/index.md).
 </div>
+
+
+<!-- StreetScience, Virology, COVID-19, metabolomics, metagenomics -->
 
 
 <!-- UseGalaxy.* -->
@@ -299,6 +302,20 @@ Thuy-Boun P.S., Mehta, S., Gruening, B., McGowan, T., Nguyen, A. Rajczewski, A.T
 # Who's Hiring
 
 <div class="card-deck">
+
+<!-- SynBioData -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Software and Galaxy Workflow Developers](http://www.jfaulon.com/wp-content/uploads/galaxy-engineer-positions_20210125.pdf)</div>
+
+[Galaxy-SynBioCAD team](https://www.jfaulon.com/galaxy-synbiocad-portal/), MICALIS Institute, INRAE & AgroParisTech, ,Jouy-en-Josas, France
+
+Design solutions to synthesize molecules in microorganisms & to implement the sesolutions on robotized workstations.
+
+**Apply by 1 March.**
+
+<img class="card-img-bottom" src="/src/use/synbiocad/synbiocad-visual.png" alt="SynBioCAD" />
+</div>
+
 
 <!-- NMBU -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
