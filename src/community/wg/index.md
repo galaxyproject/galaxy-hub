@@ -59,6 +59,7 @@ Contact and other information for these groups:
 ### Human Genetics
 
 * [Google Drive](https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H)
+* [Goals Slide](https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing)
 * Leadership: Alexandru Mahmoud
 
 
