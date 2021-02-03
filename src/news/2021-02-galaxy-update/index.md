@@ -89,16 +89,15 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
-**3, 10, 17, 24 February**
+**10, 17, 24 February**
 <br />
 *Open Data Infrastructures to tackle COVID-19 pandemic*
 
 This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series) features experts from ELIXIR and the global Galaxy community demonstrating how open access and open science are fundamental for fast and efficient response to public health crises. The last 4 webinars in the series are this month:
 
-1. *Supporting the COVID-19 Data portal: viral data cleaning from human reads and submission to ENA*, 3 February
-2. *Insights from selection analysis of complete genomes and read-level data*, 10 February
-3. *Viral Beacon and Galaxy variant workflows*, 17 February
-4. *DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments*, 24 February
+1. *Insights from selection analysis of complete genomes and read-level data*, 10 February
+2. *Viral Beacon and Galaxy variant workflows*, 17 February
+3. *DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments*, 24 February
 </div>
 
 
@@ -155,7 +154,7 @@ Three half days of talks, discussions and co-working time, all about the [Common
 
 There are two roundtable meetups this month:
 
-**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion the just finished Admin training, and where Galaxy training is going in 2021.
+**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion about the just finished Admin training, and where Galaxy training is going in 2021.
 
 **[February 18: You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
@@ -221,7 +220,6 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Wanna know what has happened in the European Galaxy community in 2020? The Freiburg Galaxy Team has summarised the activities in a [blog post](https://galaxyproject.eu/posts/2020/12/31/balance-2020/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -243,6 +241,19 @@ Continuous tracking of viral evolution through genome sequencing.
 
 <img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
 </div>
+
+<!-- Major update to SearchGUI and PeptideShaker -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Major update to SearchGUI and PeptideShaker](https://galaxyproject.eu/posts/2021/01/18/sg-ps-update/)</div>
+
+By Carlos Horro Marcos.
+
+After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
+
+<img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
+</div>
+
+
 
 </div>
 
