@@ -285,10 +285,23 @@ By Wolfgang Maier.
 
 Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Copy Number Variation (CNV).
 
-<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 15rem" />
+<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 19rem" />
 </div>
 
 
+<!-- Three articles related to COVID-19 research using Galaxy in the de.NBI brochure -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Three articles related to COVID-19 research using Galaxy in the de.NBI brochure](https://www.denbi.de/images/Downloads/deNBI_COVID19_brochure.pdf)</div>
+
+Three articles using Galaxy have been included in the de.NBI brochure Data analysis for the COVID-19 Research.
+
+- __RNA Bioinformatics to Analyze SARS-CoV-2 – The Causative Agent of COVID-19__, by Wolfgang R. Hess, Steffen C. Lott, Steve Hoffmann and Rolf Backofen.
+
+- __Open Data, Software and Analytics as a response to emerging pathogen threats__, by Beatriz Serrano-Solano, Wolfgang Maier, Simon Bray, Gianmauro Cuccuru, Anika Erxleben, Bérénice Batut, Mehmet Tekman, Rolf Backofen and Björn Grüning.
+
+- __Virtual Screening for SARS-CoV-2 Drug Development using Open Research and Compute Infrastructures__, by Simon Bray, Beatriz Serrano-Solano and Björn Grüning.
+
+</div>
 
 </div>
 
