@@ -340,6 +340,17 @@ Learn your way through Galaxy interface and functionalities with automatically g
 <img class="card-img-bottom" src="quick-tips.png" alt="Galactic Introductions" />
 </div>
 
+
+<!-- Gallantries Implements Automated TTS for Slides -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Gallantries implements automated text to speech for slides](https://gallantries.github.io/posts/2021/02/02/tts/)</div>
+
+By Helena Rasche.
+
+This new feature will help the GTN contributors, as they will only need to add the video and opt-in to automatic video production. The video will be re-built anytime a contributor update their slide decks in a completely automatic way.
+
+<img class="card-img-bottom" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
+</div>
 </div>
  
 
