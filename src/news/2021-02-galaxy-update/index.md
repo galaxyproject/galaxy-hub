@@ -266,6 +266,17 @@ Nora will be included in the next Galaxy release 21.01.
 </div>
 
 
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Analysis of RNA-seq data from neurodegenerative disease](https://galaxyproject.eu/posts/2021/01/28/tiaas_Lachlan/)</div>
+
+By Lachlan Gray.
+
+Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
 
 
 </div>
