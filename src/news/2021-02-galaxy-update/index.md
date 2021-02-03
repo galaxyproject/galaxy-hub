@@ -250,7 +250,6 @@ By Carlos Horro Marcos.
 
 After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
 
-<img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
 </div>
 
 
@@ -275,6 +274,18 @@ By Lachlan Gray.
 Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
 
 <img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- New and updated CNV and Variant Calling tools -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[New and updated CNV and Variant Calling tools](https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/)</div>
+
+By Wolfgang Maier.
+
+Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Copy Number Variation (CNV).
+
+<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 15rem" />
 </div>
 
 
