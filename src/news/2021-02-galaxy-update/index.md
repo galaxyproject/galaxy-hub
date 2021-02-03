@@ -89,16 +89,15 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
-**3, 10, 17, 24 February**
+**10, 17, 24 February**
 <br />
 *Open Data Infrastructures to tackle COVID-19 pandemic*
 
 This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series) features experts from ELIXIR and the global Galaxy community demonstrating how open access and open science are fundamental for fast and efficient response to public health crises. The last 4 webinars in the series are this month:
 
-1. *Supporting the COVID-19 Data portal: viral data cleaning from human reads and submission to ENA*, 3 February
-2. *Insights from selection analysis of complete genomes and read-level data*, 10 February
-3. *Viral Beacon and Galaxy variant workflows*, 17 February
-4. *DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments*, 24 February
+1. *Insights from selection analysis of complete genomes and read-level data*, 10 February
+2. *Viral Beacon and Galaxy variant workflows*, 17 February
+3. *DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments*, 24 February
 </div>
 
 
@@ -155,7 +154,7 @@ Three half days of talks, discussions and co-working time, all about the [Common
 
 There are two roundtable meetups this month:
 
-**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion the just finished Admin training, and where Galaxy training is going in 2021.
+**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion about the just finished Admin training, and where Galaxy training is going in 2021.
 
 **[February 18: You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
@@ -221,7 +220,6 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Wanna know what has happened in the European Galaxy community in 2020? The Freiburg Galaxy Team has summarised the activities in a [blog post](https://galaxyproject.eu/posts/2020/12/31/balance-2020/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -242,6 +240,65 @@ By Wolfgang Maier and Björn Grüning.
 Continuous tracking of viral evolution through genome sequencing.
 
 <img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
+</div>
+
+<!-- Major update to SearchGUI and PeptideShaker -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Major update to SearchGUI and PeptideShaker](https://galaxyproject.eu/posts/2021/01/18/sg-ps-update/)</div>
+
+By Carlos Horro Marcos.
+
+After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
+
+</div>
+
+
+<!-- Nora, the new visualisation in Galaxy -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Nora, the new visualisation in Galaxy](https://galaxyproject.eu/posts/2021/01/18/nora-available-in-Galaxy/)</div>
+
+A new framework for medical imaging research, Nora, has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the Department of Radiology from the University Medical Center of Freiburg.
+
+Nora will be included in the next Galaxy release 21.01.
+
+<img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
+</div>
+
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Analysis of RNA-seq data from neurodegenerative disease](https://galaxyproject.eu/posts/2021/01/28/tiaas_Lachlan/)</div>
+
+By Lachlan Gray.
+
+Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- New and updated CNV and Variant Calling tools -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[New and updated CNV and Variant Calling tools](https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/)</div>
+
+By Wolfgang Maier.
+
+Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Copy Number Variation (CNV).
+
+<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 19rem" />
+</div>
+
+
+<!-- Three articles related to COVID-19 research using Galaxy in the de.NBI brochure -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Three articles related to COVID-19 research using Galaxy in the de.NBI brochure](https://www.denbi.de/images/Downloads/deNBI_COVID19_brochure.pdf)</div>
+
+Three articles using Galaxy have been included in the de.NBI brochure Data analysis for the COVID-19 Research.
+
+- __RNA Bioinformatics to Analyze SARS-CoV-2 – The Causative Agent of COVID-19__, by Wolfgang R. Hess, Steffen C. Lott, Steve Hoffmann and Rolf Backofen.
+- __Open Data, Software and Analytics as a response to emerging pathogen threats__, by Beatriz Serrano-Solano, Wolfgang Maier, Simon Bray, Gianmauro Cuccuru, Anika Erxleben, Bérénice Batut, Mehmet Tekman, Rolf Backofen and Björn Grüning.
+- __Virtual Screening for SARS-CoV-2 Drug Development using Open Research and Compute Infrastructures__, by Simon Bray, Beatriz Serrano-Solano and Björn Grüning.
+
 </div>
 
 </div>
@@ -283,6 +340,17 @@ Learn your way through Galaxy interface and functionalities with automatically g
 <img class="card-img-bottom" src="quick-tips.png" alt="Galactic Introductions" />
 </div>
 
+
+<!-- Gallantries Implements Automated TTS for Slides -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Gallantries implements automated text to speech for slides](https://gallantries.github.io/posts/2021/02/02/tts/)</div>
+
+By Helena Rasche.
+
+This new feature will help the GTN contributors, as they will only need to add the video and opt-in to automatic video production. The video will be re-built anytime a contributor update their slide decks in a completely automatic way.
+
+<img class="card-img-bottom" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
+</div>
 </div>
  
 
@@ -410,18 +478,11 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">Planemo 0.70-0.74.1</div>
+<div class="card-header">Galaxy Language Server 0.3.2</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.3.2) assist in the development fo Galaxy tools wrappers inside modern code editors.
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some major changes
-
-* `gxwf` functionality integrated, greatly expanding workflow development support.
-* Finished migration to Python 3.
-* Testing infrastructure improvements.
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+The release 0.3.2. includes fixes and new features. See the [GitHub repository for details](https://github.com/galaxyproject/galaxy-language-server).
 </div>
 
 </div>
