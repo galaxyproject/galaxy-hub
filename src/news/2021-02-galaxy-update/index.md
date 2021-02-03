@@ -296,9 +296,7 @@ Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Cop
 Three articles using Galaxy have been included in the de.NBI brochure Data analysis for the COVID-19 Research.
 
 - __RNA Bioinformatics to Analyze SARS-CoV-2 – The Causative Agent of COVID-19__, by Wolfgang R. Hess, Steffen C. Lott, Steve Hoffmann and Rolf Backofen.
-
 - __Open Data, Software and Analytics as a response to emerging pathogen threats__, by Beatriz Serrano-Solano, Wolfgang Maier, Simon Bray, Gianmauro Cuccuru, Anika Erxleben, Bérénice Batut, Mehmet Tekman, Rolf Backofen and Björn Grüning.
-
 - __Virtual Screening for SARS-CoV-2 Drug Development using Open Research and Compute Infrastructures__, by Simon Bray, Beatriz Serrano-Solano and Björn Grüning.
 
 </div>
@@ -469,18 +467,11 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">Planemo 0.70-0.74.1</div>
+<div class="card-header">Galaxy Language Server 0.3.2</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.3.2) assist in the development fo Galaxy tools wrappers inside modern code editors.
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some major changes
-
-* `gxwf` functionality integrated, greatly expanding workflow development support.
-* Finished migration to Python 3.
-* Testing infrastructure improvements.
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+The release 0.3.2. includes fixes and new features. See the [GitHub repository for details](https://github.com/galaxyproject/galaxy-language-server).
 </div>
 
 </div>
