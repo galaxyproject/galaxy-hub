@@ -213,6 +213,23 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 <!-- StreetScience, Virology, COVID-19, metabolomics, metagenomics -->
 
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">StreetScience / Virology / COVID-19 / Metabolomics / Metagenomics / ...</div>
+
+<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="StreetScience, Virology, COVID-19, Metabolomics, and Metagenomics Servers, all running on UseGalaxy.eu" />
+
+The Galaxy Europe team has been busy creating more customized Galaxy instances:
+
+* [StreetScience](https://streetscience.usegalaxy.eu/)
+* [Virology](https://virology.usegalaxy.eu/)
+* [COVID-19](https://covid19.usegalaxy.eu/)
+* [Metabolomics](https://metabolomics.usegalaxy.eu/), and
+* [Metagenomics](https://metagenomics.usegalaxy.eu/)
+
+These are just a few of the [large number of specialty subdomains hosted by UseGalaxy.eu](https://galaxyproject.eu/posts/2020/12/28/subdomains/).
+</div>
+
+
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
@@ -264,6 +281,16 @@ Nora will be included in the next Galaxy release 21.01.
 <img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
 </div>
 
+<!-- Galaxy in Terra via AnVIL -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Try out Galaxy in Terra via AnVIL](https://terra.bio/try-out-galaxy-in-terra/)</div>
+
+By Geraldine Van der Auwera.
+
+Run your own personal, and customizable Galaxy server in the secure (FISMA moderate) AnVIL environment.
+<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+</div>
+
 
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
@@ -309,19 +336,6 @@ Three articles using Galaxy have been included in the de.NBI brochure Data analy
 
 <div class="card-deck">
 
-<!--Galaxy Admin Training -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
-<div class="card-header">[Future Galaxy Admin Trainings](/src/events/2021-01-admin-training/index.md)</div>
-
-The application deadline for the [January 2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
-
-1. More than a day of Admin Training will be offered as [part of GCC2021](https://www.vibconferences.be/events/gcc2021) in July.
-1. You can [register your interest in future Galaxy Admin Trainings here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform).  *If we get enough interest, we will try to hold another online training sometime this year.*
-
-</div>
-
-
 <!-- Galactic Introductions -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Videos: Galactic Introductions](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)</div>
@@ -351,6 +365,21 @@ This new feature will help the GTN contributors, as they will only need to add t
 
 <img class="card-img-bottom" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
 </div>
+
+<!--Prokka -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<img class="card-img-top" src="prokka-speaker-notes.png" alt="Prokka Speaker Notes" />
+<div class="card-header">Update: Genome Annotation with Prokka</div>
+
+By Anthony Bretaudeau.
+ 
+The [Genome Annotation with Prokka tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) and accompanying [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html) have been around for a while, but the tutorial got two shiny new features this month:
+ 
+* [Presenter Notes](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html#p1) were added to the [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html).  Presenter notes can be added to any slide deck and can be viewed by pressing `p` while viewing the slides.
+* A [video recording](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka) of the slides is now available.  This uses the text-to-speech capability added by the Gallantries..
+ </div>
+
+
 </div>
  
 
