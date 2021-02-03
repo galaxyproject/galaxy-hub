@@ -254,6 +254,19 @@ After 3 years of work, SearchGUI (SG), a tool that performs protein identificati
 </div>
 
 
+<!-- Nora, the new visualisation in Galaxy -->
+<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card-header">[Nora, the new visualisation in Galaxy](https://galaxyproject.eu/posts/2021/01/18/nora-available-in-Galaxy/)</div>
+
+A new framework for medical imaging research, Nora, has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the Department of Radiology from the University Medical Center of Freiburg.
+
+Nora will be included in the next Galaxy release 21.01.
+
+<img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
+</div>
+
+
+
 
 </div>
 
