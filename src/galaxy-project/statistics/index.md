@@ -5,22 +5,26 @@ This page contains statistics about the [Galaxy Project](/src/galaxy-project/ind
 
 
 
-# Support Channels
-
-## Galaxy Help Forum
+# Galaxy Support: Help Forum & Gitter Chat
 
 The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from our old BioStar site were copied over.
 
-[![](/src/galaxy-project/statistics/discourse-posts.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=762163567&format=interactive)
-
 [![](/src/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
 
+**Average monthly page views** has doubled in the most recent 12 months. During this same time period, the number of new questions and new answers averaged about 75 and 150, respectively, throughout the year.  The fact that page views doubled, but questions and answers held steady over 2020 may indicate that the site hit a critical mass of responses: When people visit, they are now much more likely to find that someone has already asked and answered their question.
 
-## Galaxy on Gitter Chat
 
-The Galaxy community uses Gitter.im for chat support, and there are many different channels, depending upon topic.  Here are the channels with 30 or more members.
+[![](/src/galaxy-project/statistics/discourse-accounts-total.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=623403796&format=interactive)
+
+<br />
+
+**The number of accounts** in Galaxy Help during any month.  It reflects newly created and deleted accounts.  Note that you don't have to create an account to search the site.  You only need an account to engage in some way, such as asking a question, posting an answer, or voting on an a thread.  The number of active accounts (accounts that login) each month floats between 150 and 200.
+
+<br />
 
 [![](/src/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
+
+The Galaxy community uses Gitter.im for chat support, and there are many different channels, depending upon topic.  Here are the channels with 35 or more members.
 
 
 ## Mailing Lists
@@ -47,19 +51,19 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 | Geography/Language-based Community / Channel | Membership / Followers |
 |---|---:|
-| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 564 |
-| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 380 |
-| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 248 |
-| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 73 |
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 665 |
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 408 |
+| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 299 |
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 75 |
 | [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 52 |
 | | |
 | **Topic-Based Community / Channel** |  |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 200 |
-| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 113 |
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 144 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 140 |
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 89 |
-| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 65 |
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 261 |
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 152 |
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 150 |
+| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 132 |
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 91 |
+| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 72 |
 
 
 # Publications / Citations

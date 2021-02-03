@@ -10,6 +10,7 @@ external_url:
 gtn: false
 contact: Organizers
 image: /src/images/logos/GCC2014LogoWide400.png
+tags: [ cofest ]
 ---
 
 <div class="text-center">

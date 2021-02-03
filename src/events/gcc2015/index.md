@@ -10,6 +10,7 @@ external_url: http://gcc2015.tsl.ac.uk/
 gtn: true
 contact: Organisers
 image: /src/images/logos/GCC2015LogoSimple300.png
+tags: [ cofest ]
 ---
 
  <span style="font-size: larger;">[GCC2015 is done](http://gcc2015.tsl.ac.uk/). *[GCC2018 is coming](https://gccbosc2018.sched.com/)*</span>

@@ -1,5 +1,5 @@
 ---
-title: "2021 Galaxy Community Conference (BCC2021)"
+title: "2021 Galaxy Community Conference (GCC2021)"
 date: "2021-07-05"
 days: 8
 tease: "Galaxy's annual community gathering"
@@ -10,4 +10,5 @@ location_url: "https://vib.be/"
 external_url: "https://www.vibconferences.be/events/gcc2021"
 gtn: true
 contact: "Organizers"
+tags: [ cofest ]
 ---

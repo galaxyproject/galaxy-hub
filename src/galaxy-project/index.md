@@ -10,7 +10,7 @@ See the [Learn](/src/learn/index.md) page for help on using Galaxy, and the [Adm
 
 You can take a look at the current members of the core project [team](/src/galaxy-team/index.md). We are funded by NIH, NSF, Penn State, Johns Hopkins, and the Pennsylvania Department of Public Health.
 
-* [Choices](/src/choices/index.md)
+* [Galaxy Platform Directory](/src/use/index.md)
 * [Citing Galaxy](/src/citing-galaxy/index.md)
 * [News](/src/news/index.md)
 * [Events](/src/events/index.md)

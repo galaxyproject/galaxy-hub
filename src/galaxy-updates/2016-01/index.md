@@ -288,7 +288,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/archive/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/use/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)

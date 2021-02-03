@@ -21,15 +21,15 @@ See [Copyrights and Licenses](/src/admin/license/index.md).
 
 ## Using Galaxy
 
-Galaxy can be used through a **free public [Main](/src/main/index.md) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](/src/admin/get-galaxy/index.md) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/cloudman/index.md)**. 
+The Galaxy Community has created Galaxy instances in many different forms and for many different applications. The [Galaxy Platform Directory](/src/use/index.md) lists the options we know about, including:
 
-Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/community/index.md) worldwide) are served through the **[ Main ToolShed](/src/toolshed/index.md)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
+* Free public Galaxy servers,
+* cloud services that support Galaxy instances, and
+* virtual machines and containers that can be easily deployed for your own server.
 
-*Which is **right** for you?*
-* Review the **[Big Picture](/src/choices/index.md)**
-* Explore **Community [Public Galaxy Servers](/src/use/index.md)**
-* Watch a screencast about **setting up a [EC2 Cloud](http://screencast.g2.bx.psu.edu//cloud/)**
-* Or, follow the ***galaxy-dev@bx.psu.edu* [mailing list](/src/mailing-lists/index.md)** to find out **[more...](http://galaxyproject.org)**
+Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/src/use/index.md#which-platform-platform-type-to-choose/).
+
+Tools and workflows contributed by [community members](/src/community/index.md) worldwide) are served through the **[Main ToolShed](/src/toolshed/index.md)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
 
 ----
 

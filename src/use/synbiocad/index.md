@@ -1,6 +1,6 @@
 ---
 title: "Galaxy-SynBioCAD"
-url: "https://galaxy-synbiocad.org/"
+url: "https://www.jfaulon.com/galaxy-synbiocad-portal/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
@@ -21,7 +21,8 @@ user_support:
 quotas:
   - "You need to create an account.  Anyone can create an account."
 citations:
-  - "Lac, M. du, Duigou, T., Herisson, J., Carbonell, P., Swainston, N., Zulkower, V., Shah, F., Faure, L., Mahdy, M., Soudier, P., & Faulon, J.-L. (2020). [Galaxy-SynBioCAD: Synthetic Biology Design Automation tools in Galaxy workflows](https://doi.org/10.1101/2020.06.14.145730). *BioRxiv*, 2020.06.14.145730. https://doi.org/10.1101/2020.06.14.145730"
+  - "Lac, M. du, Duigou, T., Herisson, J., Carbonell, P., Swainston, N., Zulkower, V., Shah, F., Faure, L., Mahdy, M., Soudier, P., & Faulon, J.-L. (2020). [Galaxy-SynBioCAD: Synthetic Biology Design Automation tools in Galaxy workflows](https://doi.org/10.1101/2020.06.14.145730). *BioRxiv*, 2020.06.14.145730. DOI: 10.1101/2020.06.14.145730"
+  - "Faulon, JL, du Lac, M, Duigou, T., Carbonell, P., Herisson, J. [Design Automation Workflows for Synthetic Biology and Metabolic Engineering: The Galaxy SynBioCAD portal](https://www.iwbdaconf.org/2020/docs/IWBDA2020Proceedings.pdf#page=25) ([Video](https://drive.google.com/file/d/1aTrUJvdExaVR8KHcKJzTQpPPzNlcBSx7/view?usp=sharing)), of 12th [IWBDA-2020](https://www.iwbdaconf.org/2020/#proceedings), 25-26, 2020."
 pub_libraries:
   - "SynBioCAD"
 sponsors:

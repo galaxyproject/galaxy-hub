@@ -11,7 +11,9 @@ gtn: false
 contact: "Anton Nekrutenko, Marius  van den Beek"
 tags: [ webinar ]
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_4SM_qg8sTkizTtODviMnNg"
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1EdJrhRnfrsTpzb7hbp6XR_HWJCP2r-eVgU5LpG-DH7g/edit#slide=id.gb7c12e366a_0_80"
+  - text: "Video"
+    url: "https://youtu.be/ubBnfcPJup0"
 image: 
 ---

@@ -9,7 +9,6 @@ platforms:
     platform_text: "Globus Genomics"
     platform_location: US
   - platform_group: "commercial-cloud"
-    platform_purview: "Global"
     platform_url: "http://globusgenomics.org/"
     platform_text: "Globus Genomics"
     platform_location: US

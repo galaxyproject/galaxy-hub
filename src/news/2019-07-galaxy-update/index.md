@@ -207,7 +207,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 ## OpenMinTeD: Open Mining Infrastructure for Text & Data
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/openminted/OpenMINTED_Tag_Color.png" alt="GCC2019" />](/src/use/openminted/index.md)
+<img class="float-right" style="max-width: 300px" src="/src/use/archive/openminted/OpenMINTED_Tag_Color.png" alt="GCC2019" />
 
 [OpenMinTeD](http://openminted.eu) is dedicated to offering advanced high-quality TDM-related services to researchers, TDM experts, SMEs and industry – anyone interested in making sense and extracting hidden knowledge from the huge bulks of scientific and scholarly content. Galaxy is used to build and execute workflows on the platform. Sign in to [the platform](https://services.openminted.eu), choose *Add* in the menu and then *Applications*. Then choose *Build an application with existing components* to access the Galaxy-based workflow editor. To run a workflow use the *Process* menu item.
 

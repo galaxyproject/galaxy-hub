@@ -195,7 +195,7 @@ The [GraphClust2 server](/src/use/graphclust/index.md) is a workflow for scalabl
 
 ## Language Analysis Portal
 
-The [language analysis portal (LAP)](/src/use/lap/index.md) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
+The language analysis portal (LAP) provides an intuitive and easy-to-use [web interface](https://www.mn.uio.no/ifi/english/research/projects/clarino/) to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster.  Users are able to compose and run workflows using an in-browser graphical interface, with multiple tools and resources chained together in potentially complex pipelines.  Although the project reaches out to a diverse set of user groups, it particularly aims to facilitate use of language analysis in the social sciences, humanities, and other fields without strong computational traditions.
 
 ## CAFU
 

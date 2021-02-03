@@ -33,6 +33,7 @@ Contact and other information for these groups:
 
 * [Google Drive](https://drive.google.com/drive/folders/1wUWo3n3dS40Gqu_G60scEGyI37KEhvrp)
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-admin)
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/16)
 * Leadership: (rotating) Helena Rasche, Gianmauro Cuccuru
 
 ### Backend
@@ -44,22 +45,27 @@ Contact and other information for these groups:
 
 ### Cancer Informatics
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
 * [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-cancer-informatics)
 * Leadership: Luke Sargent
 
 ### Deployment
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
 * [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
 * Leadership: Nate Coraor
  
 ### Human Genetics
 
 * [Google Drive](https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H)
+* [Goals Slide](https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing)
 * Leadership: Alexandru Mahmoud
 
 
 ### Outreach & Training
 
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Discord Server invite](https://discord.gg/KCJMRjEhJM), for chat.
 * Leadership: Delphine Lariviere
@@ -84,6 +90,8 @@ Contact and other information for these groups:
 
 ### Tools
 
+* [Charter](https://docs.google.com/document/d/1E8adM1xvtI1USKOOIfK9kj6u4HcU4F3dLl1CYG0qoZA/edit#)
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/13)
 * [Google Drive](https://drive.google.com/drive/folders/1P_kRiBMSixkNiTRu0A4VZYPgg1TLxqlL)
 * [Gitter Chat Channel](https://gitter.im/galaxyproject/tools)
 * [Tools Working Group Assignments](https://docs.google.com/spreadsheets/d/1jPhMF5VwoO1jW_ejdx9ZEs-DZ2bkCHezybFjfuorZeM/edit#gid=0)
@@ -93,6 +101,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/10)
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-ui-ux)
+* [Google Drive](https://drive.google.com/drive/folders/1L5XGq4dF9fn99TXhKXD3NKCmCoS_uQz6)
 * Leadership: Dannon Baker
 
 ## Timeline

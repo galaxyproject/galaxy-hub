@@ -10,7 +10,12 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Björn Grüning, Anton Nekrutenko"
+links:
+  - text: "Video"
+    url: "https://youtu.be/OuxyMWuUBpQ"
 ---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OuxyMWuUBpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This is a followup to discussion to the [December 2020 roundtable](/src/events/2020-12-10-dev-roundtable/index.md), where [Galaxy Working Groups](/src/community/wg/index.md) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
 

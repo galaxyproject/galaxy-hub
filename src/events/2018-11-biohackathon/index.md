@@ -10,6 +10,7 @@ external_url: ""
 image: "/src/events/2018-11-biohackathon/biohack2018.png"
 gtn: False
 contact: "Bérénice Batut, Hervé Ménager"
+tags: [ cofest ]
 ---
 
 Galaxy will be among the topics covered at [BioHackathon 2018 Paris](http://bh2018paris.info/):

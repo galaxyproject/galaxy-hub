@@ -10,4 +10,5 @@ external_url: "https://forgemia.inra.fr/geoc/hackaton2020"
 gtn: false
 contact: "Animateurs"
 image: 
+tags: [ cofest ]
 ---

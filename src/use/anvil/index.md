@@ -10,7 +10,6 @@ platforms:
   - platform_group: "commercial-cloud"
     platform_url: "https://anvilproject.org/"
     platform_text: "Galaxy on AnVIL"
-    platform_purview: "Global"
 summary: "Run Galaxy inside the secure AnVIL environment on Google Cloud Platform."
 image: "/src/images/logos/anvil-logo-text.png"
 comments:

@@ -231,7 +231,7 @@ The head node for [UseGalaxy.eu](https://usegalaxy.eu/) was [upgraded on 12 Nove
 
 This month several containers were added to the directory.  These aren't actually new containers, but they are new in the platform directory:
 
-* [Constructive Solid Geometry](/src/use/csg/index.md)
+* [Constructive Solid Geometry](https://github.com/gregvonkuster/galaxy-csg)
 * deepTools
 * [Exome-Seq](/src/use/exome-seq/index.md)
 * [Galaxy BLAST+](/src/use/blast/index.md)

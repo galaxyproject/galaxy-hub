@@ -4,7 +4,7 @@ url: "https://github.com/cma2015/CAFU"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "https://cafu.nwafu.edu.cn/"
+    platform_url: "http://omicstudio.cloud:4001/"
     platform_text: "CAFU Server"
     platform_location: CN
   - platform_group: "container"

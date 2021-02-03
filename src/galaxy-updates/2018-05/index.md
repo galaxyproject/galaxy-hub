@@ -291,7 +291,7 @@ There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [
 
 ## IRProfiler
 
-[<img class="float-right" src="/src/use/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />](http://irprofiler.med.auth.gr:8080/)
+<img class="float-right" src="/src/use/archive/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />
 
 [Immune Repertoire Profiler (IRProfiler)](http://irprofiler.med.auth.gr:8080/) is a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data. IRProfiler can be used anonymously or through an account.
 

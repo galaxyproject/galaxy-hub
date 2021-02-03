@@ -240,7 +240,7 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 
 ## Trinity
 
-[<img class="float-left" style="max-width: 300px" src="/src/use/trinity-ctat/trinity-pti-logo.jpg" alt="Trinity CTAT" />](/src/use/trinity-ctat/index.md)
+<img class="float-left" style="max-width: 300px" src="/src/use/archive/trinity-ctat/trinity-pti-logo.jpg" alt="Trinity CTAT" />
 
 [Trinity CTAT Galaxy](https://galaxy.ncgas-trinity.indiana.edu/) is a [public server](https://galaxy.ncgas-trinity.indiana.edu/) and [Docker container](https://github.com/NCIP/Trinity_CTAT_galaxy/wiki/Intro) providing users with access to large memory resources required for *de novo* transcriptome assembly and downstream analysis.  Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki). The resource has slides available for tasks such as moving data, and help can be reached at trinity@ncgas.org. There are no quotas, however, there is an aggressive purge policy for the disk usage. Files over 60 days old are removed by the system. An account is needed to access the resource and users are asked to fill out a registration form about your research (this helps us stay funded).
 

@@ -104,7 +104,7 @@ Account quotas are generally fixed at 250 Gb for [Galaxy Main](/src/main/index.m
 
 *Important*: Increased working space (quota size) is unrelated to the computational resouces used to process analysis jobs. If your jobs are failing because they are exceeding resources, there is either an input/usage problem or the work is actually too large to process at the server. Not sure? Check here: [My job ended with an error. What can I do?](/src/support/tool-error/index.md).
  
-  * Some work is simply too large for the public resource. How to know? Review the [Using Galaxy choices explained here](/src/choices/index.md) and the [Webinar: Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/).
+  * Some work is simply too large for the public resource. How to know? Review the [Using Galaxy choices explained here](/src/use/index.md#which-platform-platform-type-to-choose) and the [Webinar: Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/).
   * If your work is academic research based and additional short-term space is needed at Galaxy Main (https://usegalaxy.org), please send an email to galaxy-bugs@lists.galaxyproject.org from your registered account email address, briefly explaining your project and we may be able to help.
   * Also include this information in your email or we will request it, delaying action: 1) your primary academic email address 2) how much space you need 3) how long you need the extra space. 
   * Double-check that you are actually purging old work correctly. We will check first before granting any extra quota. 
