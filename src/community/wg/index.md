@@ -54,6 +54,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
 * [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-deployment)
 * Leadership: Nate Coraor
  
 ### Human Genetics
