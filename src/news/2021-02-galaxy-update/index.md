@@ -1,7 +1,7 @@
 ---
 title: 'February 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
-date: ""
+date: "1900-01-01"
 ---
 
 <div class="card border-info">
@@ -336,25 +336,6 @@ Three articles using Galaxy have been included in the de.NBI brochure Data analy
 
 <div class="card-deck">
 
-<!-- Galactic Introductions -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Videos: Galactic Introductions](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)</div>
-
-New series of Galaxy videos about Galaxy features.
-
-<img class="card-img-bottom" src="galactic-introductions.png" alt="Galactic Introductions" />
-</div>
-
-<!-- Quick Tips -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Videos: Quick Tips](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)</div>
-
-Learn your way through Galaxy interface and functionalities with automatically generated videos under 3 minutes.
-
-<img class="card-img-bottom" src="quick-tips.png" alt="Galactic Introductions" />
-</div>
-
-
 <!-- Gallantries Implements Automated TTS for Slides -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Gallantries implements automated text to speech for slides](https://gallantries.github.io/posts/2021/02/02/tts/)</div>
@@ -377,8 +358,7 @@ The [Genome Annotation with Prokka tutorial](https://training.galaxyproject.org/
  
 * [Presenter Notes](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html#p1) were added to the [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html).  Presenter notes can be added to any slide deck and can be viewed by pressing `p` while viewing the slides.
 * A [video recording](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka) of the slides is now available.  This uses the text-to-speech capability added by the Gallantries..
- </div>
-
+</div>
 
 </div>
  

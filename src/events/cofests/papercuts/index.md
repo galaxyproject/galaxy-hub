@@ -43,5 +43,5 @@ If you are a **learner** and you want to learn how a global open source, open sc
 
 ## Papercuts for Teachers and Student Leaders
 
-If you are a **teacher, professor, or student leader**, and you want to get your students exposed to open source software development in a globally distributed project then *we really want to help you do that.*  [Send us an email](mailto:coutreach@galaxyproject.org), and we will work with you to welcome and integrate your group in to Galaxy during the next event.
+If you are a **teacher, professor, or student leader**, and you want to get your students exposed to open source software development in a globally distributed project then *we really want to help you do that.*  [Send us an email](mailto:outreach@galaxyproject.org), and we will work with you to welcome and integrate your group in to Galaxy during the next event.
 

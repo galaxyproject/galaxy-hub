@@ -98,6 +98,12 @@ We will have video calls throughout the day and be on Gitter for chat all day lo
 
 *Get those pull requests in! And address anything from the review! And become more involved in the Galaxy code, training, and documentation base!*
 
+[<img class="float-right" src="papercuts-2021-02-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2021-02-papercuts/2021-02-papercuts-flyer.pdf)
+
 ### Communication
 
-Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.  
+Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and [Zoom](#join-us-in-our-regular-video-calls). Links will be posted here before the event.
+
+## Get the word out
+
+Know someone or a group that might benefit from participating?  Then please help get the word out.  A [handy flier](https://depot.galaxyproject.org/hub/attachments/events/2021-02-papercuts/2021-02-papercuts-flyer.pdf) is available to help advertise.
