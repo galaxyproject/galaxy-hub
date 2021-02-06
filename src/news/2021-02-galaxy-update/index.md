@@ -702,9 +702,12 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
 <div class="card-header">Galaxy Language Server 0.3.2</div>
 
+<iframe width="255" src="https://www.youtube.com/embed/MpPrgtNrEcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.3.2) assist in the development fo Galaxy tools wrappers inside modern code editors.
 
-The release 0.3.2. includes fixes and new features. See the [release video](https://youtu.be/MpPrgtNrEcQ) and the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
+The release 0.3.2. includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
+
 </div>
 
 </div>
