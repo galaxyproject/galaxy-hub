@@ -286,6 +286,8 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 * UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
 
+* The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
+
 </div>
 
 </div>
@@ -387,6 +389,7 @@ Lachlan tells the training experience or the SciX program at the University of N
 
 <img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
+
 
 
 </div>
