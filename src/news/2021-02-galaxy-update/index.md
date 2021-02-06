@@ -1,7 +1,7 @@
 ---
 title: 'February 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
-date: "1900-01-01"
+date: ""
 ---
 
 <div class="card border-info">
