@@ -214,7 +214,7 @@ Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and 
 
 There next roundtable meetup will be:
 
-**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the East, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
 
 
