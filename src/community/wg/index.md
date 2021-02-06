@@ -68,7 +68,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
-* [Discord Server invite](https://discord.gg/KCJMRjEhJM), for chat.
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-goat)
 * Leadership: Delphine Lariviere
 
 ### Support
