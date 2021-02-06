@@ -84,20 +84,19 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 
 <div class="card-deck">
 
-<!-- Galaxy Webinars -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-<div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
+<!-- GCC2021 Goes Virtual -->
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021 goes virtual" />
+<div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
 
-**10, 17, 24 February**
-<br />
-*Open Data Infrastructures to tackle COVID-19 pandemic*
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be virtual, affordable, and globally accessible.**
 
-This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series) features experts from ELIXIR and the global Galaxy community demonstrating how open access and open science are fundamental for fast and efficient response to public health crises. The last 4 webinars in the series are this month:
+Things are just too uncertain to continue to plan an in person event for early July. GCC2021 won't be in person, but it will be more accessible and affordable because of it:
 
-1. *Insights from selection analysis of complete genomes and read-level data*, 10 February
-2. *Viral Beacon and Galaxy variant workflows*, 17 February
-3. *DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments*, 24 February
+* **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
+* **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
+
+Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virtual/index.md) for details.
 </div>
 
 
@@ -108,10 +107,33 @@ This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-web
 
 **15-19 February, Online, Global**
 
-This week-long workshop on how to use Galaxy will be online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
-
 **[Register by 12 February.](https://shiltemann.github.io/global-galaxy-course/)**
 
+This week-long workshop on how to use Galaxy will be online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
+
+**Instructors and Instructor Support Wanted**
+
+Are you interested in teaching with Galaxy, and would you like to be involved in this event?  **[Then we want your help](https://shiltemann.github.io/global-galaxy-course/instructors.html)**.
+
+</div>
+
+
+<!-- Galaxy Webinars -->
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
+
+**10, 17, 24 February**
+<br />
+*Open Data Infrastructures to tackle COVID-19 pandemic*
+
+This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series) features experts from ELIXIR and the global Galaxy community demonstrating how open access and open science are fundamental for fast and efficient response to public health crises. This webinar series wraps up this month:
+
+**Insights from selection analysis of complete genomes and read-level data**, *10 February*
+
+**Viral Beacon and Galaxy variant workflows**, *17 February*
+
+**DRS, long-read-sequencing, proteomics and more — an update to recent COVID-19 workflow developments**, *24 February*
 </div>
 
 
@@ -147,29 +169,28 @@ Three half days of talks, discussions and co-working time, all about the [Common
 </div>
 
 
+<!-- MassSpec Meetup -->
+<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/2021-02-mass-spec/fig1.png" alt="Tools & Workflows for mass spec.  Fig 1 from doi: 10.1007/978-1-4939-9232-4_16" />
+<div class="card-header">[Mass Spectrometry Meetup](https://z.umn.edu/celestialmasses)</div>
+
+**18 February, Online, Global**
+
+Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and the next meetup is February 18.  The meeting will include a panel discussion on *Tools and Workflows for Mass Spec in Galaxy and GTN.*  Please join us.
+
+</div>
+
+
+
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtables](/src/community/devroundtable/index.md)</div>
 
-There are two roundtable meetups this month:
+There next roundtable meetup will be:
 
-**[Galaxy Developer Onboarding; and GTN Update](/src/events/2021-02-04-dev-roundtable/index.md), February 4**, *Dannon Baker, Dave Clements, Beatriz Serrano-Solano, Saskia Hiltemann, Helena Rasche* leading a discussion about the just finished Admin training, and where Galaxy training is going in 2021.
-
-**[February 18: You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
-
-
-<!-- Aus RNA-Seq -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
-<div class="card-header">[RNA-seq: from reads to differentially expressed genes](https://www.biocommons.org.au/events/rnaseq)</div>
-
-**23-24 February, Online<br />Application Deadline 5 February**
-
-An introduction to RNA-seq analysis using the [Galaxy Australia](https://usegalaxy.org.au/) web platform.  This practical workshop provides a hands-on introduction to RNA-seq analysis from reads to counts, to differential expression. 
-</div>
-
 
 
 <!-- EBI Single Cell -->
@@ -248,30 +269,8 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 <div class="card-deck">
 
-<!-- Variant Analysis of SARS-CoV-2 Sequencing Data, Jan 2021 update -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update](https://galaxyproject.eu/posts/2021/01/22/sars-cov-2-variant-analysis/)</div>
-
-By Wolfgang Maier and Björn Grüning.
-
-Continuous tracking of viral evolution through genome sequencing.
-
-<img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
-</div>
-
-<!-- Major update to SearchGUI and PeptideShaker -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Major update to SearchGUI and PeptideShaker](https://galaxyproject.eu/posts/2021/01/18/sg-ps-update/)</div>
-
-By Carlos Horro Marcos.
-
-After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
-
-</div>
-
-
 <!-- Nora, the new visualisation in Galaxy -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
 <div class="card-header">[Nora, the new visualisation in Galaxy](https://galaxyproject.eu/posts/2021/01/18/nora-available-in-Galaxy/)</div>
 
 A new framework for medical imaging research, Nora, has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the Department of Radiology from the University Medical Center of Freiburg.
@@ -281,43 +280,9 @@ Nora will be included in the next Galaxy release 21.01.
 <img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
 </div>
 
-<!-- Galaxy in Terra via AnVIL -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Try out Galaxy in Terra via AnVIL](https://terra.bio/try-out-galaxy-in-terra/)</div>
-
-By Geraldine Van der Auwera.
-
-Run your own personal, and customizable Galaxy server in the secure (FISMA moderate) AnVIL environment.
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
-</div>
-
-
-<!-- TIaaS feedback -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[Analysis of RNA-seq data from neurodegenerative disease](https://galaxyproject.eu/posts/2021/01/28/tiaas_Lachlan/)</div>
-
-By Lachlan Gray.
-
-Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- New and updated CNV and Variant Calling tools -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
-<div class="card-header">[New and updated CNV and Variant Calling tools](https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/)</div>
-
-By Wolfgang Maier.
-
-Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Copy Number Variation (CNV).
-
-<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 19rem" />
-</div>
-
 
 <!-- Three articles related to COVID-19 research using Galaxy in the de.NBI brochure -->
-<div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
 <div class="card-header">[Three articles related to COVID-19 research using Galaxy in the de.NBI brochure](https://www.denbi.de/images/Downloads/deNBI_COVID19_brochure.pdf)</div>
 
 Three articles using Galaxy have been included in the de.NBI brochure Data analysis for the COVID-19 Research.
@@ -328,6 +293,76 @@ Three articles using Galaxy have been included in the de.NBI brochure Data analy
 
 </div>
 
+
+<!-- Trusted CI -->
+<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
+<div class="card-header">[Trusted CI and SGCI Collaborate to Secure the Galaxy Platform](https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/)</div>
+
+By Kelli Shute.
+
+[Trusted CI](https://trustedci.org/) and Galaxy reviewed the security of a new Galaxy software distribution being developed as a containerized package, with an eye toward its use with sensitive information such as protected health information (PHI). See the [announcement](https://blog.trustedci.org/2021/02/trusted-ci-and-sgci-collaborate-to.html) and the [report](http://hdl.handle.net/2022/26262) for details.
+
+<img class="card-img-bottom" src="/src/images/logos/trusted-ci-logo.jpg" alt="Trusted CI logo" />
+</div>
+
+<!-- New and updated CNV and Variant Calling tools -->
+<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
+<div class="card-header">[New and updated CNV and Variant Calling tools](https://galaxyproject.eu/posts/2021/01/30/cnv-and-vc-updates/)</div>
+
+By Wolfgang Maier.
+
+Wolfgang highlights a wide variety (14!) of tools useful for the analysis of Copy Number Variation (CNV).
+
+<img class="card-img-bottom" src="hCNV_icon.png" alt="Human CNV" style="max-width: 19rem" />
+</div>
+
+
+<!-- Variant Analysis of SARS-CoV-2 Sequencing Data, Jan 2021 update -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update](https://galaxyproject.eu/posts/2021/01/22/sars-cov-2-variant-analysis/)</div>
+
+By Wolfgang Maier and Björn Grüning.
+
+Continuous tracking of viral evolution through genome sequencing.
+
+<img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
+</div>
+
+<!-- Major update to SearchGUI and PeptideShaker -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Major update to SearchGUI and PeptideShaker](https://galaxyproject.eu/posts/2021/01/18/sg-ps-update/)</div>
+
+By Carlos Horro Marcos.
+
+After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
+
+</div>
+
+
+
+<!-- Galaxy in Terra via AnVIL -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Try out Galaxy in Terra via AnVIL](https://terra.bio/try-out-galaxy-in-terra/)</div>
+
+By Geraldine Van der Auwera.
+
+Run your own personal, and customizable Galaxy server in the secure (FISMA moderate) AnVIL environment.
+<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+</div>
+
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Analysis of RNA-seq data from neurodegenerative disease](https://galaxyproject.eu/posts/2021/01/28/tiaas_Lachlan/)</div>
+
+By Lachlan Gray.
+
+Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
 </div>
 
 
@@ -336,29 +371,101 @@ Three articles using Galaxy have been included in the de.NBI brochure Data analy
 
 <div class="card-deck">
 
+<!-- GAT Summary -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="gat-map-slice.png" alt="Participant map" />
+<div class="card-header">[Galaxy Admin Training Report](https://gallantries.github.io/posts/2021/02/01/gat/)</div>
+
+By Helena Rasche.
+
+Galaxy Admin Training was held online for the first time and running a global course for 88 participants required us to develop a large number of innovations we’re very excited to share with everyone.  Here is what we learned and future directions.
+</div>
+
+<!-- Server Admin Update -->
+<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<div class="card-header">[Galaxy Server Administration Update](https://training.galaxyproject.org/training-material/topics/admin/)</div>
+
+By Galaxy Admin Training Instructors.
+
+As a result of the recently completed Admin Training course, most [Galaxy Server Admin topics](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html) were updated:
+
+* [Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
+* [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)
+* [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html)
+* [Data Libraries](https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html)
+* [Distributed Object Storage](https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html)
+* [Galaxy Monitoring with Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html)
+* [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)
+* [Galaxy Tool Management with Ephemeris](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html)
+* [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
+* plus at least 6 more hands on examples and at least 13 slide decks.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" />
+</div>
+
+
+<!-- Intro to scRNA Slides -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-intro/slides.html)</div>
+
+By Mehmet Tekman.
+
+This new slide deck (and accompanying video, see next) provide a broad introduction to single-cell RNA-seq analsys concepts.
+
+Mehmet updated the **[Pre-processing of 10X Single-Cell RNA Datasets](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html)** tutorial as well.
+
+<img class="card-img-bottom" src="gtn-scrna-slice.png" alt="GTN scRNA Clustering example" />
+</div>
+
+
 <!-- Gallantries Implements Automated TTS for Slides -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
 <div class="card-header">[Gallantries implements automated text to speech for slides](https://gallantries.github.io/posts/2021/02/02/tts/)</div>
 
 By Helena Rasche.
 
-This new feature will help the GTN contributors, as they will only need to add the video and opt-in to automatic video production. The video will be re-built anytime a contributor update their slide decks in a completely automatic way.
+This new feature will help the GTN contributors, as they will only need to enable video and opt-in to automatic video production. The video will be re-built anytime a contributor updates their slide decks in a completely automatic way.
 
 <img class="card-img-bottom" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
 </div>
 
-<!--Prokka -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="prokka-speaker-notes.png" alt="Prokka Speaker Notes" />
-<div class="card-header">Update: Genome Annotation with Prokka</div>
 
-By Anthony Bretaudeau.
- 
-The [Genome Annotation with Prokka tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html) and accompanying [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html) have been around for a while, but the tutorial got two shiny new features this month:
- 
-* [Presenter Notes](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html#p1) were added to the [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/slides.html).  Presenter notes can be added to any slide deck and can be viewed by pressing `p` while viewing the slides.
-* A [video recording](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka) of the slides is now available.  This uses the text-to-speech capability added by the Gallantries..
+<!--Videos -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">Videos!</div>
+
+A number of tutorials have already created videos using the new text to speech capability:
+
+* [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
+* [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
+*  [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
+* **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
+* [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
+
+<img class="card-img-bottom" src="gtn-videos.png" alt="GTN Videos" />
 </div>
+
+
+<!-- Proteogenomics db -->
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card-header">[Proteogenomics 2: Database Search](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)</div>
+
+This tutorial on proteogenomic database searching using mass spectrometry data got a major update from Subina Mehta and JJ Johnson.
+
+<img class="card-img-bottom" src="gtn-db.png" alt="Database search workflow" />
+</div>
+
+
+<!-- Chloroplast Assembly -->
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card-header">[Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html)</div>
+
+This genome assembly tutorial got an update from Anna Syme.
+
+<img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
+</div>
+
+
 
 </div>
  
