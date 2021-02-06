@@ -11,11 +11,13 @@ external_url:
 gtn: false
 contact: "Dannon Baker, Beatriz Serrano-Solano, Dave Clements, Saskia Hiltemann, Helena Rasche"
 links:
-  - text: "Zoom"
-    url: "https://psu.zoom.us/j/92752763386"
   - text: "Slides"
     url: "https://docs.google.com/presentation/d/1JUQPWET5cPX3l6eLySuLzjQqC_lyuyf_kjBhCHGGL6Y/edit#slide=id.p"
+  - text: "Video"
+    url: "https://youtu.be/OEKV6GFlD_s"
 ---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OEKV6GFlD_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Topic: How to grow the Galaxy Developer community**: a discussion of a new Galaxy Developer Training Course, and other ways we can make it easier for new developers.
 
@@ -30,7 +32,6 @@ We'll also be discussing what we learned at the recently completed Admin trainin
 Please bring your ideas.
 
 Have something you want to talk about at a future round table? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
-
 
 
 ---

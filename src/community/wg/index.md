@@ -40,7 +40,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/11)
 * [Google Drive](https://drive.google.com/drive/folders/1wPjD6j0ERp_XRCvrtFQ7cF8XwojJkm6k)
-* [Gitter Channel](https://gitter.im/galaxyproject/backend)
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-backend)
 * Leadership: Marius van den Beek
 
 ### Cancer Informatics
@@ -54,6 +54,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
 * [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-deployment)
 * Leadership: Nate Coraor
  
 ### Human Genetics
@@ -67,7 +68,7 @@ Contact and other information for these groups:
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
-* [Discord Server invite](https://discord.gg/KCJMRjEhJM), for chat.
+* [Gitter Channel](https://gitter.im/galaxyproject/wg-goat)
 * Leadership: Delphine Lariviere
 
 ### Support
