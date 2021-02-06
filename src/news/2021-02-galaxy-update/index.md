@@ -39,6 +39,7 @@ date: "2021-02-08"
       <li>Major update to SearchGUI and PeptideShaker</li>
       <li>Try out Galaxy in Terra via AnVIL</li>
       <li>Analysis of RNA-seq data from neurodegenerative disease</li>
+      <li>Galaxy Metabolomics Mini-Symposium report</li>
     </ul>
   </li>
   <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
@@ -391,6 +392,18 @@ Lachlan tells the training experience or the SciX program at the University of N
 </div>
 
 
+<!-- Galaxy Metabolomics Mini-Symposium report -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Galaxy Metabolomics Mini-Symposium report](https://galaxyproject.eu/posts/2021/02/06/metabo-symposium/)</div>
+
+By Melanie C. Föll.
+
+The past 29th of January, the Galaxy Metabolomics community had the first Mini-Symposium in which users as well as developers had the chance to present their work and discuss the fuure integration into Galaxy.
+
+To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
+
+<img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/metabolomics.png" alt="metabolomics" />
+</div>
 
 </div>
 
