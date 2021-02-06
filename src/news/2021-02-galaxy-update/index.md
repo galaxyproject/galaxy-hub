@@ -407,6 +407,7 @@ As a result of the recently completed Admin Training course, most [Galaxy Server
 
 <!-- Intro to scRNA Slides -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="gtn-scrna-slice.png" alt="GTN scRNA Clustering example" />
 <div class="card-header">[An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-intro/slides.html)</div>
 
 By Mehmet Tekman.
@@ -414,8 +415,6 @@ By Mehmet Tekman.
 This new slide deck (and accompanying video, see next) provide a broad introduction to single-cell RNA-seq analsys concepts.
 
 Mehmet updated the **[Pre-processing of 10X Single-Cell RNA Datasets](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html)** tutorial as well.
-
-<img class="card-img-bottom" src="gtn-scrna-slice.png" alt="GTN scRNA Clustering example" />
 </div>
 
 
@@ -457,6 +456,18 @@ The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes,
 </div>
 
 
+<!-- It's FATES! -->
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card-header">[Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/tutorial.html)</div>
+
+By Anne Fouilloux and Hui Tang.
+
+Familiarize yourself (**especially you ecologists**) with how to run a terrestrial ecosystem model (i.e., CLM-FATES) at site-level in Galaxy and then analyze the model results.
+
+<img class="card-img-bottom" src="gtn-fates-slice.png" alt="FATES Workflow" />
+</div>
+
+
 <!-- Proteogenomics db -->
 <div class="card border-info" style="min-width: 16rem; max-width: 22rem">
 <div class="card-header">[Proteogenomics 2: Database Search](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)</div>
@@ -487,9 +498,10 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data](https://doi.org/10.1101/2021.01.16.425365)</div>
 
-Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S. (2021). *BioRxiv*, 2021.01.16.425365. [DOI: 10.1101/2021.01.16.42536](https://doi.org/10.1101/2021.01.16.425365)
+<div class="card-header"> [Tool recommender system in Galaxy using deep learning](https://doi.org/10.1093/gigascience/giaa152)</div>
+
+Kumar, A., Rasche, H., Grüning, B., & Backofen, R. (2021). *GigaScience*, 10(giaa152). [DOI: 10.1093/gigascience/giaa152](https://doi.org/10.1093/gigascience/giaa152)
 </div>
 
 
@@ -534,7 +546,11 @@ Lu, R. J.-H., Liu, Y.-T., Huang, C. W., Yen, M.-R., Lin, C.-Y., & Chen, P.-Y. (2
 Gaignard, A., Belhajjame, K., & Skaf-Molli, H. (2017, May). SeWeBMeDA 2017 : Semantic Web Solutions for Large-Scale BioMedical Data Analtics.
 </div>
 
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data](https://doi.org/10.1101/2021.01.16.425365)</div>
 
+Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S. (2021). *BioRxiv*, 2021.01.16.425365. [DOI: 10.1101/2021.01.16.42536](https://doi.org/10.1101/2021.01.16.425365)
+</div>
 
 </div>
 
@@ -664,12 +680,29 @@ The release 0.3.2. includes fixes and new features. See the [GitHub repository f
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
-</div>
+<div class="card-header">Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research</div>
 
 This [news item from the Australian Research Data Commons (ADRC)](https://ardc.edu.au/news/chan-zuckerberg-initiative-injects-funds-into-galaxy-platform-for-biomedical-research/) highlights the recent grant to extend Galaxy, and Galaxy Australia's role in the effort.
 
-Also see the [Nuwan Goonasekera shares in Chan Zuckerberg Initiative grant for the Galaxy Project](https://uat.melbournebioinformatics.org.au/news/czigrant/) news item from Melbourne Bioinformatics.
+Also see [Nuwan Goonasekera shares in Chan Zuckerberg Initiative grant for the Galaxy Project](https://uat.melbournebioinformatics.org.au/news/czigrant/) from Melbourne Bioinformatics.
 </div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[Nuovo software per l’analisi genomica del Covid](https://www.corrierenazionale.it/2021/01/31/nuovo-software-per-analisi-genomica-del-covid/)</div>
+
+Cnr e Statale di Milano hanno realizzato un nuovo software per l’analisi genomica del SARS-CoV-2: lo studio è stato pubblicato sulla rivista Bioinformatics.
+
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[EMBL COVID-19 Data Platform](https://twitter.com/embl/status/1354718579866955781)</div>
+
+As the EMBL COVID19 Data Platform expands, it has enabled our partners at ELIXIR Belgium, Galaxy Project and Open Targets to build useful infectious disease tools and services on top of it.
+
+[Watch the short video](https://twitter.com/embl/status/1354718579866955781).
+</div>
+
 
 </div>
