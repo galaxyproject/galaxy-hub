@@ -487,10 +487,55 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>
+<div class="card-header"> [SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data](https://doi.org/10.1101/2021.01.16.425365)</div>
 
-Thuy-Boun P.S., Mehta, S., Gruening, B., McGowan, T., Nguyen, A. Rajczewski, A.T., Johnson, J.E., Griffin, T.J., Wolan, D.W., and Jagtap, P.D. (2020).  *Journal of Proteome Research*. [doi: 10.1021/acs.jproteome.0c00822](https://doi.org/10.1021/acs.jproteome.0c00822)
+Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S. (2021). *BioRxiv*, 2021.01.16.425365. [DOI: 10.1101/2021.01.16.42536](https://doi.org/10.1101/2021.01.16.425365)
 </div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding](https://doi.org/10.3762/bjoc.16.206)</div>
+
+Barnett, C. B., Senapathi, T., & Naidoo, K. J. (2020). *Beilstein Journal of Organic Chemistry*, 16(1), 2540–2550. [DOI: 10.3762/bjoc.16.206](https://doi.org/10.3762/bjoc.16.206)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling](https://doi.org/10.1101/2021.02.02.429203)</div>
+
+Joshi, J., & Blankenberg, D. (2021). *BioRxiv*, 2021.02.02.429203. [DOI: 10.1101/2021.02.02.429203](https://doi.org/10.1101/2021.02.02.429203)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes](https://doi.org/10.1093/bioinformatics/btaa1047)</div>
+
+Chiara, M., Zambelli, F., Tangaro, M. A., Mandreoli, P., Horner, D. S., & Pesole, G. (2020). *Bioinformatics*, btaa1047. [DOI: 10.1093/bioinformatics/btaa1047](https://doi.org/10.1093/bioinformatics/btaa1047)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [Deep Learning for Detection and Segmentation in High-Content Microscopy Images](https://archiv.ub.uni-heidelberg.de/volltextserver/28827/)</div>
+
+Wollmann, T. S. (2020). [Dissertation, Heidelberg University]. [DOI: 10.11588/heidok.00028827](https://doi.org/10.11588/heidok.00028827)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq](https://doi.org/10.3389/fgene.2020.618478)</div>
+
+Lu, R. J.-H., Liu, Y.-T., Huang, C. W., Yen, M.-R., Lin, C.-Y., & Chen, P.-Y. (2021). *Frontiers in Genetics*, 11. [DOI: 10.3389/fgene.2020.618478](https://doi.org/10.3389/fgene.2020.618478)
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [SHARP: Harmonizing Galaxy and Taverna workflow provenance](https://hal.archives-ouvertes.fr/hal-01768401)</div>
+
+Gaignard, A., Belhajjame, K., & Skaf-Molli, H. (2017, May). SeWeBMeDA 2017 : Semantic Web Solutions for Large-Scale BioMedical Data Analtics.
+</div>
+
+
+
 </div>
 
 # Who's Hiring
