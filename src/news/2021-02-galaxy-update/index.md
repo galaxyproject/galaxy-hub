@@ -284,6 +284,8 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
+* UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
+
 </div>
 
 </div>
