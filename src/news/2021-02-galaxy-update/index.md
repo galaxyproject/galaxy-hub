@@ -371,6 +371,7 @@ Lachlan tells the training experience or the SciX program at the University of N
 
 <div class="card-deck">
 
+
 <!-- GAT Summary -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="gat-map-slice.png" alt="Participant map" />
@@ -446,6 +447,16 @@ A number of tutorials have already created videos using the new text to speech c
 </div>
 
 
+<!-- Life Science Trainers -->
+<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card-header">[Life Science Trainers Questionnaire](https://lifescitrainers.org/2021/01/18/global-trainers-survey/)</div>
+
+The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.
+
+<img class="card-img-bottom" src="/src/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
+</div>
+
+
 <!-- Proteogenomics db -->
 <div class="card border-info" style="min-width: 16rem; max-width: 22rem">
 <div class="card-header">[Proteogenomics 2: Database Search](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)</div>
@@ -464,7 +475,6 @@ This genome assembly tutorial got an update from Anna Syme.
 
 <img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
 </div>
-
 
 
 </div>
@@ -604,5 +614,17 @@ The release 0.3.2. includes fixes and new features. See the [GitHub repository f
 </div>
 
 
+# Other News
 
+<div class="card-deck">
 
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
+</div>
+
+This [news item from the Australian Research Data Commons (ADRC)](https://ardc.edu.au/news/chan-zuckerberg-initiative-injects-funds-into-galaxy-platform-for-biomedical-research/) highlights the recent grant to extend Galaxy, and Galaxy Australia's role in the effort.
+
+Also see the [Nuwan Goonasekera shares in Chan Zuckerberg Initiative grant for the Galaxy Project](https://uat.melbournebioinformatics.org.au/news/czigrant/) news item from Melbourne Bioinformatics.
+</div>
+
+</div>
