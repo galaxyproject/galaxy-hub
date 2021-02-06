@@ -13,58 +13,82 @@ date: ""
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
     <ul>
-      <li>2nd Galaxy-ELIXIR webinar series, *starts January 20*</li>
-      <li>Galaxy Developer Roundtables, *January 7 & 21*</li>
-      <li>Papercuts CollaborationFest: *January 21*</li>
-      <li>Future Galaxy Admin Trainings, *Register your interest*</li>
-      <li>Tripal CodeFest 2021: *January 11-15*</li>
-      <li>Structural Variant Detection using ONT Data, *January 26*</li>
-      <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 1*</li>
+      <li>GCC2021 will be virtual, affordable, and globally accessible.</li>
+      <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*</li>
+      <li>2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24*</li>
+      <li>Papercuts and GTN CollaborationFest: *February 25*</li>
+      <li>CWL Mini Conference, *Starts Today*</li>
+      <li>Galaxy Developer Roundtable, *February 18. We need your topics*</li>
       <li>Single-cell RNA-seq & network analysis using Galaxy and Cytoscape, *Apply by 26 February*
     </ul>
   <li>**[Galaxy platform news](#galaxy-platforms-news):**
     <ul>
-      <li>UseGalaxy.no</li>
-      <li>VINYL on Laniakea</li>
-      <li>W4M on UseGalaxy.fr</li>
-      <li>Center for Phage Technology server upgraded and improved</li>
+      <li>ATACgraph</li>
+      <li>CorGAT on Laniakea</li>
+      <li><em>Everything</em> on UseGalaxy.eu</li>
       <li>Plus more UseGalaxy.\* news</li>
     </ul>
   </li>
   <li>**[Blog posts](#galactic-blog-activity):**
     <ul>
-      <li>Involvement of the Galaxy community in OLS-2 and invitation to apply to the next cohort</li>
-      <li>DDA and DIA proteomic analysis in Galaxy</li>
-      <li>GTN plant-related trainings</li>
+      <li>Nora, the new visualisation in Galaxy</li>
+      <li>Three articles related to COVID-19 research using Galaxy in the de.NBI brochure</li>
+      <li>Trusted CI and SGCI Collaborate to Secure the Galaxy Platform</li>
+      <li>New and updated CNV and Variant Calling tools</li>
+      <li>Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update</li>
+      <li>Major update to SearchGUI and PeptideShaker</li>
+      <li>Try out Galaxy in Terra via AnVIL</li>
+      <li>Analysis of RNA-seq data from neurodegenerative disease</li>
     </ul>
   </li>
   <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
     <ul>
-      <li>Videos: Galactic Introductions</li>
-      <li>Videos: Quick Tips</li>
+      <li>Report on 2021 Galaxy Admin Training</li>
+      <li>Galaxy Server Administration Tutorials Update</li>
+      <li>An introduction to scRNA-seq data analysis</li>
+      <li>Gallantries implements automated text to speech for slides ...</li>
+      <li>... resulting in lots of new videos!</li>
+      <li>Life Science Trainers Questionnaire</li>
+      <li>Functionally Assembled Terrestrial Ecosystem Simulator (FATES)</li>
+      <li>Proteogenomics 2: Database Search</li>
+      <li>Chloroplast genome assembly</li>
     </ul>
   </li>
   <li>**[Publications](#publications)**
     <ul>
-      <li>Metaproteomics, CorGAT (SARS-CoV-2), GAIT-GM (metabolites), and training</li>
+      <li>Tool recommender system in Galaxy using deep learning</li>
+      <li>Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding</li>
+      <li>PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling</li>
+      <li>CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes</li>
+      <li>Deep Learning for Detection and Segmentation in High-Content Microscopy Images</li>
+      <li>ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq</li>
+      <li>SHARP: Harmonizing Galaxy and Taverna workflow provenance</li>
+      <li>SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data</li>
     </ul>
   </li>
-  <li>**[Q: Who's hiring?](#whos-hiring)**
+  <li>**[Who's hiring?](#whos-hiring)**
     <ul>
       <li> Europe:
         <ul>
-          <li>MPI, Norwegian University of Life Science, IFB, VIB</li>
+          <li>INRAE & AgroParisTech, Norwegian University of Life Science, IFB, VIB</li>
         </ul>
       </li>
       <li>North America:
         <ul>
-          <li>Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)</li>
+          <li>Cleveland Clinic, Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)</li>
         </ul>
     </ul>
   </li>
   <li>**[New releases](#releases)**:
     <ul>
-      <li>Planemo 0.74.1</li>
+      <li>Galaxy Language Server 0.3.2</li>
+    </ul>
+  </li>
+  <li>**[Other News](#other-news)**:
+    <ul>
+      <li>Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research</li>
+      <li>Nuovo software per l’analisi genomica del Covid</li>
+      <li>EMBL COVID-19 Data Platform</li>
     </ul>
   </li>
 </ul>
@@ -185,7 +209,7 @@ Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtables](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
 There next roundtable meetup will be:
 
@@ -383,8 +407,8 @@ Galaxy Admin Training was held online for the first time and running a global co
 </div>
 
 <!-- Server Admin Update -->
-<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
-<div class="card-header">[Galaxy Server Administration Update](https://training.galaxyproject.org/training-material/topics/admin/)</div>
+<div class="card border-info" style="min-width: 18rem; max-width: 22rem">
+<div class="card-header">[Galaxy Server Administration Tutorials Updated](https://training.galaxyproject.org/training-material/topics/admin/)</div>
 
 By Galaxy Admin Training Instructors.
 
@@ -431,7 +455,7 @@ This new feature will help the GTN contributors, as they will only need to enabl
 
 
 <!--Videos -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <div class="card-header">Videos!</div>
 
 A number of tutorials have already created videos using the new text to speech capability:
@@ -447,7 +471,7 @@ A number of tutorials have already created videos using the new text to speech c
 
 
 <!-- Life Science Trainers -->
-<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem">
 <div class="card-header">[Life Science Trainers Questionnaire](https://lifescitrainers.org/2021/01/18/global-trainers-survey/)</div>
 
 The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.
@@ -457,7 +481,7 @@ The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes,
 
 
 <!-- It's FATES! -->
-<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem">
 <div class="card-header">[Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/tutorials/fates/tutorial.html)</div>
 
 By Anne Fouilloux and Hui Tang.
@@ -469,7 +493,7 @@ Familiarize yourself (**especially you ecologists**) with how to run a terrestri
 
 
 <!-- Proteogenomics db -->
-<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem">
 <div class="card-header">[Proteogenomics 2: Database Search](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)</div>
 
 This tutorial on proteogenomic database searching using mass spectrometry data got a major update from Subina Mehta and JJ Johnson.
@@ -479,7 +503,7 @@ This tutorial on proteogenomic database searching using mass spectrometry data g
 
 
 <!-- Chloroplast Assembly -->
-<div class="card border-info" style="min-width: 16rem; max-width: 22rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem">
 <div class="card-header">[Chloroplast genome assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/chloroplast-assembly/tutorial.html)</div>
 
 This genome assembly tutorial got an update from Anna Syme.
@@ -546,7 +570,7 @@ Lu, R. J.-H., Liu, Y.-T., Huang, C. W., Yen, M.-R., Lin, C.-Y., & Chen, P.-Y. (2
 Gaignard, A., Belhajjame, K., & Skaf-Molli, H. (2017, May). SeWeBMeDA 2017 : Semantic Web Solutions for Large-Scale BioMedical Data Analtics.
 </div>
 
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 16rem;">
 <div class="card-header"> [SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data](https://doi.org/10.1101/2021.01.16.425365)</div>
 
 Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S. (2021). *BioRxiv*, 2021.01.16.425365. [DOI: 10.1101/2021.01.16.42536](https://doi.org/10.1101/2021.01.16.425365)
@@ -558,11 +582,22 @@ Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S
 
 <div class="card-deck">
 
+<!-- Cleveland Clinic -->
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
+<div class="card-header">[Postdoctoral Fellowships](https://blankenberglab.org/jobs)</div>
+
+[Blankenberg Lab](https://blankenberglab.org/), Genomic Medicine Institute, Cleveland Clinic Lerner Research Institute, Cleveland, Ohio, United States
+
+Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions
+
+<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" /></div>
+
+
 <!-- SynBioData -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Software and Galaxy Workflow Developers](http://www.jfaulon.com/wp-content/uploads/galaxy-engineer-positions_20210125.pdf)</div>
 
-[Galaxy-SynBioCAD team](https://www.jfaulon.com/galaxy-synbiocad-portal/), MICALIS Institute, INRAE & AgroParisTech, ,Jouy-en-Josas, France
+[Galaxy-SynBioCAD team](https://www.jfaulon.com/galaxy-synbiocad-portal/), MICALIS Institute, INRAE & AgroParisTech, Jouy-en-Josas, France
 
 Design solutions to synthesize molecules in microorganisms & to implement the sesolutions on robotized workstations.
 
@@ -669,7 +704,7 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.3.2) assist in the development fo Galaxy tools wrappers inside modern code editors.
 
-The release 0.3.2. includes fixes and new features. See the [GitHub repository for details](https://github.com/galaxyproject/galaxy-language-server).
+The release 0.3.2. includes fixes and new features. See the [release video](https://youtu.be/MpPrgtNrEcQ) and the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
 </div>
 
 </div>
