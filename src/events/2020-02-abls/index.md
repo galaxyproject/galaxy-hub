@@ -7,7 +7,7 @@ continent: EU
 location: "Leuven, Belgium"
 location_url: ""
 external_url: "https://www.vibconferences.be/events/applied-bioinformatics-in-life-sciences-3rd-edition"
-gtn: galse
+gtn: false
 contact: "Frederik Coppens"
 image: 
 ---
