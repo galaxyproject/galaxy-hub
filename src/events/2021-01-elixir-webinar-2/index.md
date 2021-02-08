@@ -8,7 +8,7 @@ location: "2nd Galaxy-ELIXIR webinar series, Online, Europe"
 external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series#session2"
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
-contact: "Christina Hall, Andrew Lonie, Guy Cochrane, Björn Grüning, Frederik Coppens"
+contact: "Andrew Lonie, Guy Cochrane, Björn Grüning, Frederik Coppens"
 tags: [ webinar ]
 links:
   - text: "Slides"

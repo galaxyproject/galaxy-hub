@@ -8,7 +8,7 @@ location: "2nd Galaxy-ELIXIR webinar series, Online, Europe"
 external_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series#session5"
 location_url: "https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series"
 gtn: false
-contact: "Bjoern Gruening, Beatriz Serrano-Solano, Babita Singh"
+contact: "Bjoern Gruening, Babita Singh"
 tags: [ webinar ]
 links:
   - text: "Register"

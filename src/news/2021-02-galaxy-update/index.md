@@ -1,7 +1,7 @@
 ---
 title: 'February 2021 Galactic News'
 tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
-date: ""
+date: "2021-02-08"
 ---
 
 <div class="card border-info">
@@ -15,13 +15,13 @@ date: ""
     <ul>
       <li>GCC2021 will be virtual, affordable, and globally accessible.</li>
       <li>GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*</li>
-      <li>2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24*</li>
-      <li>Papercuts and GTN CollaborationFest: *February 25*</li>
-      <li>CWL Mini Conference, *Starts Today*</li>
-      <li>Galaxy Developer Roundtable, *February 18. We need your topics*</li>
-      <li>Single-cell RNA-seq & network analysis using Galaxy and Cytoscape, *Apply by 26 February*
+      <li>2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24.*</li>
+      <li>Papercuts and GTN CollaborationFest: *February 25.*</li>
+      <li>CWL Mini Conference. *Starts Today.*</li>
+      <li>Galaxy Developer Roundtable. *February 18, we need your topics.*</li>
+      <li>Single-cell RNA-seq & network analysis using Galaxy and Cytoscape. *Apply by 26 February.*
     </ul>
-  <li>**[Galaxy platform news](#galaxy-platforms-news):**
+  <li>**[Galaxy platform news](#galaxy-platforms-news)**:
     <ul>
       <li>ATACgraph</li>
       <li>CorGAT on Laniakea</li>
@@ -29,7 +29,7 @@ date: ""
       <li>Plus more UseGalaxy.\* news</li>
     </ul>
   </li>
-  <li>**[Blog posts](#galactic-blog-activity):**
+  <li>**[Blog posts](#galactic-blog-activity)**:
     <ul>
       <li>Nora, the new visualisation in Galaxy</li>
       <li>Three articles related to COVID-19 research using Galaxy in the de.NBI brochure</li>
@@ -39,6 +39,7 @@ date: ""
       <li>Major update to SearchGUI and PeptideShaker</li>
       <li>Try out Galaxy in Terra via AnVIL</li>
       <li>Analysis of RNA-seq data from neurodegenerative disease</li>
+      <li>Galaxy Metabolomics Mini-Symposium report</li>
     </ul>
   </li>
   <li>**[Training material and doc updates](#doc-hub-and-training-updates)**:
@@ -46,7 +47,7 @@ date: ""
       <li>Report on 2021 Galaxy Admin Training</li>
       <li>Galaxy Server Administration Tutorials Update</li>
       <li>An introduction to scRNA-seq data analysis</li>
-      <li>Gallantries implements automated text to speech for slides ...</li>
+      <li>Gallantries implements automated text to speech for slides...</li>
       <li>... resulting in lots of new videos!</li>
       <li>Life Science Trainers Questionnaire</li>
       <li>Functionally Assembled Terrestrial Ecosystem Simulator (FATES)</li>
@@ -54,7 +55,7 @@ date: ""
       <li>Chloroplast genome assembly</li>
     </ul>
   </li>
-  <li>**[Publications](#publications)**
+  <li>**[Publications](#publications)**:
     <ul>
       <li>Tool recommender system in Galaxy using deep learning</li>
       <li>Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding</li>
@@ -145,7 +146,7 @@ Are you interested in teaching with Galaxy, and would you like to be involved in
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-<div class="card-header">[2nd Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
+<div class="card-header">[2nd Galaxy-ELIXIR Webinar Series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
 **10, 17, 24 February**
 <br />
@@ -213,7 +214,7 @@ Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and 
 
 There next roundtable meetup will be:
 
-**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you are based in the east, and have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
 
 
@@ -284,6 +285,10 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
+* UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
+
+* The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
+
 </div>
 
 </div>
@@ -299,7 +304,7 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 A new framework for medical imaging research, Nora, has been added to the Galaxy visualisations. Nora has been developed by Dr. Marco Reisert and Dr. Elias Kellner at the Department of Radiology from the University Medical Center of Freiburg.
 
-Nora will be included in the next Galaxy release 21.01.
+Nora will be included in the next Galaxy release, 21.01.
 
 <img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
 </div>
@@ -387,6 +392,19 @@ Lachlan tells the training experience or the SciX program at the University of N
 </div>
 
 
+<!-- Galaxy Metabolomics Mini-Symposium report -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Galaxy Metabolomics Mini-Symposium report](https://galaxyproject.eu/posts/2021/02/06/metabo-symposium/)</div>
+
+By Melanie C. Föll.
+
+The past 29th of January, the Galaxy Metabolomics community had the first Mini-Symposium in which users as well as developers had the chance to present their work and discuss the fuure integration into Galaxy.
+
+To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
+
+<img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/metabolomics.png" alt="metabolomics" />
+</div>
+
 </div>
 
 
@@ -436,7 +454,7 @@ As a result of the recently completed Admin Training course, most [Galaxy Server
 
 By Mehmet Tekman.
 
-This new slide deck (and accompanying video, see next) provide a broad introduction to single-cell RNA-seq analsys concepts.
+This new slide deck (and accompanying video, see next) provide a broad introduction to single-cell RNA-seq analysis concepts.
 
 Mehmet updated the **[Pre-processing of 10X Single-Cell RNA Datasets](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-preprocessing-tenx/tutorial.html)** tutorial as well.
 </div>
@@ -588,7 +606,7 @@ Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S
 
 [Blankenberg Lab](https://blankenberglab.org/), Genomic Medicine Institute, Cleveland Clinic Lerner Research Institute, Cleveland, Ohio, United States
 
-Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions
+Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
 
 <img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" /></div>
 
@@ -702,9 +720,12 @@ VIB-UGent Center for Plant Systems Biology has two open positions to work on the
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
 <div class="card-header">Galaxy Language Server 0.3.2</div>
 
+<iframe width="255" src="https://www.youtube.com/embed/MpPrgtNrEcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.3.2) assist in the development fo Galaxy tools wrappers inside modern code editors.
 
-The release 0.3.2. includes fixes and new features. See the [release video](https://youtu.be/MpPrgtNrEcQ) and the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
+The release 0.3.2. includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
+
 </div>
 
 </div>
@@ -737,6 +758,7 @@ Cnr e Statale di Milano hanno realizzato un nuovo software per l’analisi genom
 As the EMBL COVID19 Data Platform expands, it has enabled our partners at ELIXIR Belgium, Galaxy Project and Open Targets to build useful infectious disease tools and services on top of it.
 
 [Watch the short video](https://twitter.com/embl/status/1354718579866955781).
+
 </div>
 
 
