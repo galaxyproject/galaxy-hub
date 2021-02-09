@@ -27,5 +27,5 @@ citations:
 pub_libraries:
   - "ARIES"
 sponsors:
-  - "Set up and maintained at the [Istituto Superiore di Sanità (ISS Rome)] by a collaboration between the European Union [Reference Laboratory for VTEC](http://www.iss.it/vtec/index.php?lang=2) and the Data Management Sector."
+  - "Set up and maintained at the [Istituto Superiore di Sanità (ISS Rome)](https://www.iss.it/web/iss-en) by a collaboration between the European Union [Reference Laboratory for VTEC](http://www.iss.it/vtec/index.php?lang=2) and the Data Management Sector."
 ---
