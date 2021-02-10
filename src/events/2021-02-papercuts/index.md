@@ -30,6 +30,16 @@ Want to improve Galaxy, and get involved with Galaxy? Please join us on February
 
 This will be a 24h event, spanning all time zones with our worldwide community. We'll start at 09:00 Melbourne time, and end at 15:30 Portland time.
 
+## Interested?
+
+Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.  You can also just show up.)
+
+<button type="button" class="btn btn-light"> **[Sign up](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
+ </button></a>
+
+
+
+
 
 ## Issues to work on
 
