@@ -1,24 +1,23 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Custos in Galaxy - authentication and future directions"
 date: '2021-02-18'
 days: 1
-tease: "TBD"
+tease: "Security, security, security."
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Dannon Baker, Marius van den Beek, John Chilton"
+contact: "Enis Afgan"
 ---
 
-**Topic: TBD**
+Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210218T12&p1=179&ah=1)) for an open discussion about **Custos in Galaxy - authentication and future directions.**  [Custos](https://airavata.apache.org/custos/) supports user identity and access management, tenant profile management, resource secrets management, and groups and sharing management for scientific gateways.
 
-*Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
+And, if you are interested in learning more about security in Galaxy, see this [recently completed evaluation of the security of Galaxy's Kubernetes Deployment model](https://scholarworks.iu.edu/dspace/bitstream/handle/2022/26262/Trusted%20CI%20Galaxy%20Engagement%20Final%20Report.pdf?sequence=1&isAllowed=y) by the Trustd CI and Galaxy teams.
 
 
-Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210218T12&p1=179&ah=1)) for an open discussion about ...
-
+*Have something you want to talk about at a future roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
 
 ---
 
