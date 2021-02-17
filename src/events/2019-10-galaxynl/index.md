@@ -4,7 +4,7 @@ date: '2019-10-03'
 days: 1
 tease: ""
 continent: EU
-location: "Utrecht, the Netherlands"
+location: "Utrecht, The Netherlands"
 location_url: ""
 external_url:
 gtn: false
