@@ -32,12 +32,25 @@ This will be a 24h event, spanning all time zones with our worldwide community. 
 
 ## Interested?
 
-Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.  You can also just show up.)
+Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.) Please join us on a call (and on [Gitter](https://gitter.im/galaxyproject/Lobby)) and we will get you on board.
 
 <button type="button" class="btn btn-light"> **[Sign up](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
  </button></a>
 
+## Hey Learners!
 
+<div class="center">
+[<img src="/src/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/src/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
+</div>
+<br />
+
+The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/src/events/cofests/papercuts/index.md#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
+
+* [James Cooke University](https://www.jcu.edu.au/), Townsville, Cairns & Brisbane, Australia
+* [Heriot-Watt University](https://www.hw.ac.uk/), Edinburgh, United Kingdom
+* [Lock Haven University](https://lockhaven.edu/), Lock Haven & Clearfield, Pennsylvania, United States.
+
+Don't worry if you aren't at one of these universitites. You should still join us, and we will get you on board.  (And we'll also talk to you about bringing your uni on board next month.)
 
 
 
@@ -82,10 +95,6 @@ We have calls spread throughout the day.  Calls last for 30 minutes.  The rest o
 
 **Calls between 8am and 6pm are shown in bold.**  No matter where you are in the world there should be 3 calls during your workday.
 
-
-## Interested?
-
-Interested? Then please join us on a call (and on [Gitter](https://gitter.im/galaxyproject/Lobby)) and we will get you on board.
 
 ### Before the event
 
