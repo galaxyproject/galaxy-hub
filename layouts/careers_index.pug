@@ -8,42 +8,6 @@ mixin renderJobTitle(item)
         div
             | #{item.title}
 
-mixin renderJobRow(item)
-    tr
-        td: | #{moment(item.date).format("MMMM Do YYYY")}
-        td
-            if item.external_url
-                a( href=item.external_url )
-                    +renderJobTitle(item)
-                if item.contents != ''
-                    |  [
-                    a( href=item.link )
-                        | hub page
-                    | ]
-            else
-                a( href=item.link )
-                    +renderJobTitle(item)
-            span( class="small")
-                if item.summary != ''
-                    | #{item.summary} 
-                if item.links
-                    | ( 
-                    each link in item.links
-                        a( href=link.url )
-                            | #{link.text}. 
-                    | )
-        td
-            if item.continent
-                img(style="float:right;" src='/images/icons/' + item.continent + '.png')
-            if item.location_url
-                a(href=item.location_url)
-                    | #{item.location}
-            else
-                | #{item.location}
-
-        td
-            | #{item.contact}
-
 mixin renderJobCard(item)
     div( class="card border-info" style="min-width: 14rem; max-width: 20rem" )
         div( class="card-header" )
@@ -69,14 +33,14 @@ mixin renderJobCard(item)
                     | #{item.location}
 
         p
-            | Posted: #{moment(item.date).format("MMMM Do YYYY")}
-            br
-            if item.closes
-               strong
-                   | Closes: #{moment(item.closes).format("MMMM Do YYYY")}
+            strong
+                | Posted: #{moment(item.date).format("MMMM Do YYYY")}
+                br
+                if item.closes
+                    | Closes: #{moment(item.closes).format("MMMM Do YYYY")}
         if item.summary != ''
             p
-                | #{item.summary} 
+                != marked(item.summary).replace("<p>","").replace("</p>","")
         if item.links
             | ( 
             each link in item.links
@@ -85,7 +49,8 @@ mixin renderJobCard(item)
             | )
         if item.contact
             p
-                | Contact: #{item.contact}
+                | Contact: 
+                != marked(item.contact).replace("<p>","").replace("</p>","")
 
         if item.image
             p
@@ -105,17 +70,6 @@ block content
 
             h2(id="open-positions") Open Positions
             
-            table.table.table-striped
-                thead
-                    tr
-                        th Date Posted
-                        th Opening(s)
-                        th Where
-                        th Contact
-                tbody
-                    each item in jobs_malleable
-                        if item.date != undefined
-                            +renderJobRow(item)
             div( class="card-deck" )
                 each item in jobs_malleable
                     +renderJobCard(item)

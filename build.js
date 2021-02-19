@@ -346,7 +346,7 @@ let ms = metalsmith(__dirname)
             careers: {
                 pattern: "careers/*/*.md",
                 sortBy: "date",
-                reverse: true
+                reverse: false
             },
             publications: {
                 pattern: "publications/*/*.md",
