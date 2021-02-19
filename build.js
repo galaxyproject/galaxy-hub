@@ -183,6 +183,13 @@ let set_metadata_defaults = function(files, metalsmith, done) {
                 if (files[k].autotoc === undefined) {
                     files[k].autotoc = false;
                 }
+            } else if (Array.from(v.collection).includes("careers")) {
+                if (files[k].layout === undefined) {
+                    files[k].layout = "careers.pug";
+                }
+                if (files[k].autotoc === undefined) {
+                    files[k].autotoc = false;
+                }
             } else {
                 if (files[k].autotoc === undefined) {
                     files[k].autotoc = true;
@@ -335,6 +342,11 @@ let ms = metalsmith(__dirname)
                 pattern: "use/*/*.md",
                 sortBy: "title",
                 reverse: false
+            },
+            careers: {
+                pattern: "careers/*/*.md",
+                sortBy: "date",
+                reverse: true
             },
             publications: {
                 pattern: "publications/*/*.md",
