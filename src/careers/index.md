@@ -1,5 +1,5 @@
 ---
-title: Galaxy Career Hub
+title: Galactic Career Center
 layout: careers_index.pug
 ---
 

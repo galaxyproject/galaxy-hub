@@ -11,6 +11,8 @@ mixin renderJobTitle(item)
 mixin renderJobCard(item)
     div( class="card border-info" style="min-width: 14rem; max-width: 20rem" )
         div( class="card-header" )
+            if item.continent
+                img( class="float-right" style="max-width: 40px;" src='/images/icons/' + item.continent + '.png')
             if item.external_url
                 a( href=item.external_url )
                     +renderJobTitle(item)
@@ -23,8 +25,6 @@ mixin renderJobCard(item)
                 a( href=item.link )
                     +renderJobTitle(item)
         p
-            if item.continent
-                img( class="float-right" style="max-width: 40px;" src='/images/icons/' + item.continent + '.png')
             strong
                 if item.location_url
                     a(href=item.location_url)
@@ -38,6 +38,7 @@ mixin renderJobCard(item)
                 br
                 if item.closes
                     | Closes: #{moment(item.closes).format("MMMM Do YYYY")}
+                    br
         if item.summary != ''
             p
                 != marked(item.summary).replace("<p>","").replace("</p>","")
@@ -49,8 +50,9 @@ mixin renderJobCard(item)
             | )
         if item.contact
             p
-                | Contact: 
-                != marked(item.contact).replace("<p>","").replace("</p>","")
+                em
+                    | Contact: 
+                    != marked(item.contact).replace("<p>","").replace("</p>","")
 
         if item.image
             p
