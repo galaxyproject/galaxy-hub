@@ -37,8 +37,9 @@ mixin renderJobCard(item)
                 | Posted: #{moment(item.date).format("MMMM Do YYYY")}
                 br
                 if item.closes
-                    | Closes: #{moment(item.closes).format("MMMM Do YYYY")}
-                    br
+                    span( class="text-warning" )
+                        | Closes: #{moment(item.closes).format("MMMM Do YYYY")}
+                        br
         if item.summary != ''
             p
                 != marked(item.summary).replace("<p>","").replace("</p>","")
