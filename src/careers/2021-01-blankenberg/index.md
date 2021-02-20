@@ -1,6 +1,6 @@
 ---
 title: "Postdoctoral Fellowships"
-date: '2020/09/23'
+date: '2021/01/15'
 closes: 
 summary: "Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions."
 continent: NA
