@@ -376,7 +376,7 @@ bringing the number of log entries to 12.
 
 <a href='http://www.psu.edu/'><img src="/src/images/logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
 
-<a href='http://www.gwu.edu/'><img src="/src/galaxy-is-hiring/gwlogo.png" alt="George Washington University" width="160" /></a>
+<a href='http://www.gwu.edu/'><img src="/src/images/logos/gwlogo.png" alt="George Washington University" width="160" /></a>
 </div>
 
 # Galaxy is now at Johns Hopkins and GWU (and Penn State!)
