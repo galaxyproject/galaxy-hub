@@ -8,5 +8,5 @@ location: "ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Be
 image: /src/images/logos/vib-logo-large.jpg
 location_url: "https://vib.be/vib-ugent-center-plant-systems-biology"
 external_url: "https://jobs.vib.be/j/32498/communications-and-community-outreach-officer"
-contact: "Frederik Coppens"
+contact: ""
 ---
