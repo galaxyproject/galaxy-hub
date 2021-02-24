@@ -19,7 +19,9 @@ The winners are:
 * Helena Rasche, ErasmusMC
 * Anthony Bretaudeau, INRIA
 * Oleg Zharkov, University of Freiburg
-* And 6 people who have chosen to remain anonymous (perhaps to avoid the crowds that the calendars would draw during these pandemic times?)
+* Saskia Hiltemann, ErasmusMC
+* Estelle Ancelet, INRIA
+* And 4 people who have chosen to remain anonymous (perhaps to avoid the crowds that the calendars would draw during these pandemic times?)
 
 Thanks to everyone who participated.  The [February Papercuts CoFest](/src/events/2021-02-papercuts/indesx.md) is on Thursday, Feburary 25.  We aren't offering prizes in February, but they will return in the future.
 
