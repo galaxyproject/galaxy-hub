@@ -10,7 +10,12 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Enis Afgan"
+links:
+  - text: "Video"
+    url: "https://youtu.be/Gjrt_raGAuI"
 ---
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gjrt_raGAuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210218T12&p1=179&ah=1)) for an open discussion about **Custos in Galaxy - authentication and future directions.**  [Custos](https://airavata.apache.org/custos/) supports user identity and access management, tenant profile management, resource secrets management, and groups and sharing management for scientific gateways.
 

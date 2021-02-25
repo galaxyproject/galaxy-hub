@@ -44,6 +44,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders:
 * **[2021-02-18: Custos in Galaxy - authentication and future directions](/src/events/2021-02-18-dev-roundtable/index.md)**
   * Leaders: Enis Afgan
+  * [Video](https://youtu.be/Gjrt_raGAuI)
 * **[2021-02-04:Galaxy Developer Training & Onbarding](/src/events/2021-02-04-dev-roundtable/index.md)**
   * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements, Saskia Hiltemann, Helena Rasche
   * [Video](https://youtu.be/OEKV6GFlD_s)
