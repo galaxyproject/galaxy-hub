@@ -11,7 +11,5 @@ gtn: false
 contact: "Sergei Pond"
 tags: [ webinar ]
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_RiK9XoUzQA-nYIHHF5qtcQ"
 image: 
 ---

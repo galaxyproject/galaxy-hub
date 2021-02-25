@@ -11,7 +11,9 @@ gtn: false
 contact: "Ignacio Eguinoa, Bert Droeskbeke, Frederik Coppens"
 tags: [ webinar ]
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_DsdNLDMxTGOmmqn0uDW7_A"
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1eiZ5sgqLwmJutkWVKPiQelRqlEPUPSMdWJcMtQkb5rA/edit?ts=60190257#slide=id.gb76fb8d52f_1_415"
+  - text: "Video"
+    url: "https://www.youtube.com/J0t02gPSkvU"
 image: 
 ---
