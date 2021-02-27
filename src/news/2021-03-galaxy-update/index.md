@@ -123,7 +123,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<!-- You name it -->
+<!-- Meet & Join the Galaxy Community -->
 <div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
 <div class="card-header">[Meet & Join the Galaxy Community](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
 
@@ -183,6 +183,18 @@ After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and O
 In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
 
 <img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+</div>
+
+<!-- GTN video -->
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<div class="card-header">New GTN welcome video</div>
+
+Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced an astonishing video introduction to the GTN features.
+
+<!-- this does not work
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ -->
+
 </div>
 
 
