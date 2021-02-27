@@ -72,6 +72,8 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 <img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Papercuts CoFest February" />
 <div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
 
+18 or 25 Mar?
+
 </div>
 
 <!-- Galaxy Dev Round Table -->
@@ -81,7 +83,8 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 
 There next roundtable meetup will be:
 
-**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj, Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+
 </div>
 
 </div>
