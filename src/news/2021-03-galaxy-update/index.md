@@ -125,14 +125,36 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <!-- You name it -->
 <div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
-<div class="card-header">[]()</div>
+<div class="card-header">[Meet & Join the Galaxy Community](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
 
-<img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
+The Galaxy community has recorded different ways of joining us, with suggestions for newcomers.
+
+<iframe width="290" height="180" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
+<!-- ELIXIR-AAI -->
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<div class="card-header">[Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD](https://galaxyproject.eu/posts/2021/02/20/elixir-aai-login/)</div>
+
+The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai) enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google) to sign in and access Galaxy.
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 </div>
 
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[RNA-Seq analysis](https://galaxyproject.eu/posts/2021/02/22/tiaas-Mali-Salmon/)</div>
+
+By Mali Salmon-Divon.
+
+Mali shares the feedback of two workshops run using TIaaS: one or graduate students and another one for medical doctors.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+</div>
 
 
 
