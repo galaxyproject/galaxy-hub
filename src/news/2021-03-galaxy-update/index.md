@@ -46,9 +46,25 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-<div class="card-header">[]()</div>
+<div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
+
+**3, 10, 17, 24 March**
+<br />
+*Galaxy-ELIXIR webinars series: Advanced Features*
+
+With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
+
+
+**Advanced Galaxy workflow features**, *3 March*
+
+**Processing thousands of datasets simultaneously**, *10 March*
+
+**Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
+
+**Speed up your data analysis with Galaxy: Features no one knows about**, *24 March*
 
 </div>
+
 
 
 <!-- Paper Cuts -->
