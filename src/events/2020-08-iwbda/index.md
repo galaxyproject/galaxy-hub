@@ -1,8 +1,8 @@
 ---
-title: "Design Automation Workflows for Synthetic Biology and Metabolic Engineering: The Galaxy SynBioCAD portal​"
+title: "Design Automation Workflows for Synthetic Biology and Metabolic Engineering: The Galaxy SynBioCAD portal"
 date: "2020-08-03"
 days: 3
-tease: "Online, hands on workshop"
+tease: ""
 continent: NA
 location: "12th International Workshop on Bio-Design Automation (ISBDA2020), Online, Worcester, Massachusetts, United States"
 image: 

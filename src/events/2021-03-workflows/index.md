@@ -8,7 +8,7 @@ location: "Galaxy-ELIXIR Advanced Features webinar series, Online, Europe"
 image: 
 location_url: 
 external_url: "https://galaxyproject.eu/event/2021-01-15-webinars-adv-features-session1/"
-contact: "Marius van der Beek, Aysam Guerler"
+contact: "Marius van den Beek, Aysam Guerler"
 tags: [ webinar ]
 gtn: false
 ---

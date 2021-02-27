@@ -28,12 +28,23 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ### 2021
 
-* **[2021-03-18: TBD](/src/events/2021-03-18-dev-roundtable/index.md)**
+* **[2021-05-27: TBD](/src/events/2021-05-27-dev-roundtable/index.md)**
   * Leaders:
+* **[2021-05-13: TBD](/src/events/2021-05-13-dev-roundtable/index.md)**
+  * Leaders:
+* **[2021-04-29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**
+  * Leaders:
+* **[2021-04-15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**
+  * Leaders:
+* **[2021-04-01: TBD](/src/events/2021-04-01-dev-roundtable/index.md)**
+  * Leaders:
+* **[2021-03-18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**
+  * Leaders: Jashwant Raj, Gulsum Gudukbay
 * **[2021-03-04: TBD](/src/events/2021-03-04-dev-roundtable/index.md)**
   * Leaders:
-* **[2021-02-18: TBD](/src/events/2021-02-18-dev-roundtable/index.md)**
-  * Leaders:
+* **[2021-02-18: Custos in Galaxy - authentication and future directions](/src/events/2021-02-18-dev-roundtable/index.md)**
+  * Leaders: Enis Afgan
+  * [Video](https://youtu.be/Gjrt_raGAuI)
 * **[2021-02-04:Galaxy Developer Training & Onbarding](/src/events/2021-02-04-dev-roundtable/index.md)**
   * Leaders: Dannon Baker, Beatriz Serrano-Solano, Dave Clements, Saskia Hiltemann, Helena Rasche
   * [Video](https://youtu.be/OEKV6GFlD_s)

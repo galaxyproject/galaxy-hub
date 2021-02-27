@@ -20,6 +20,7 @@ quotas:
   - "A login is required.  Anyone in public health can [apply for a login](https://account.galaxytrakr.org/Account/Register)."
   - "250 GB of storage is allocated for each user."
 citations:
+  - "Gangiredla, J., Rand, H., Benisatto, D., Payne, J., Strittmatter, C., Sanders, J., Wolfgang, W. J., Libuit, K., Herrick, J. B., Prarat, M., Toro, M., Farrell, T., & Strain, E. (2021). [GalaxyTrakr: A distributed analysis tool for public health whole genome sequence data accessible to non-bioinformaticians](https://doi.org/10.1186/s12864-021-07405-8). *BMC Genomics*, 22(1), 114. DOI: 10.1186/s12864-021-07405-8"
   - "Timme, R., Laxmi, S., Balkey, M., Randolf, R., Wolfgang, W., & Strain, E. (2020). [Assessing sequence quality in GalaxyTrakr v1](https://doi.org/10.17504/protocols.io.babuianw). In *Protocols.io*. doi: 10.17504/protocols.io.babuianw"
 pub_libraries:
   - "GalaxyTrakr"

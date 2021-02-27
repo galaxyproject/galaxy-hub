@@ -19,6 +19,11 @@ Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address
 
 # How to get involved with Papercuts CoFests?
 
+First, you can register your interest.  We'll send you information and a reminder before the next event.  (Registering your interest is optional.  You can also just show up.)
+
+<button type="button" class="btn btn-light"> **[I'm interested!](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
+ </button></a>
+
 Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
 
 * **Before**

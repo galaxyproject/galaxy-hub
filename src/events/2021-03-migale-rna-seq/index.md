@@ -1,5 +1,5 @@
 ---
-title: "Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy"
+title: "Analyse Traitement bioinformatique et analyse différentielle de données d'expression RNA-seq sous Galaxy"
 date: '2021-03-17'
 days: 3
 tease: 'Full. Part of Cycle "Bioinformatique par la pratique" 2021'

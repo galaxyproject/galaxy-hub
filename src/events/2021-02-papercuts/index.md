@@ -30,6 +30,49 @@ Want to improve Galaxy, and get involved with Galaxy? Please join us on February
 
 This will be a 24h event, spanning all time zones with our worldwide community. We'll start at 09:00 Melbourne time, and end at 15:30 Portland time.
 
+## Interested?
+
+Interested?  Please let us know by registering your interest.  We'll send you information before the event.  (Registering your interest is optional.) Please join us on a call (and on [Gitter](https://gitter.im/galaxyproject/Lobby)) and we will get you on board.
+
+<button type="button" class="btn btn-light"> **[Sign up](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
+ </button></a>
+
+## Join us in our regular onboarding video calls
+
+We have calls spread throughout the day.  Calls last for 30 minutes.  The rest of our time is spent communicating via chat, and small group video as needed.
+
+
+| Link | Melbourne<br />(UTC +11) | Kuala Lumpur<br />(UTC +8) | India<br />(UTC +5:30) | Freiburg<br />(UTC +1) | Cleveland<br />(UTC -5) | Portland<br />(UTC -8) | Your<br />Time |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [**Zoom**](https://zoom.us/j/95839308432?pwd=TTV5c2VhNjVCOXF6dnRjSHB0czFqZz09) | **Thu<br />09:00** | Thu<br />06:00 | Thu<br />03:30 | Wed<br />23:00 | **Wed<br />17:00** | **Wed<br />14:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T09&p1=152&am=30) |
+| [**Zoom**](https://zoom.us/j/95839308432?pwd=TTV5c2VhNjVCOXF6dnRjSHB0czFqZz09) | **Thu<br />12:00** | **Thu<br />09:00** | Thu<br />06:30 | Thu<br />02:00 | Wed<br />20:00 | **Wed<br />17:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=152&am=30) |
+| [**Zoom**](https://zoom.us/j/95839308432?pwd=TTV5c2VhNjVCOXF6dnRjSHB0czFqZz09) | **Thu<br />15:00** | **Thu<br />12:00** | **Thu<br />09:30** | Thu<br />05:00 | Wed<br />23:00 | Wed<br />20:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T15&p1=152&am=30) |
+| [**Zoom**](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Thu<br />19:00 | **Thu<br />16:00** | **Thu<br />13:30** | **Thu<br />09:00** | Thu<br />03:00 | Thu<br />00:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210225T09&p1=980&am=30) |
+| [**Zoom**](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Thu<br />22:00 | Thu<br />19:00 | **Thu<br />16:30** | **Thu<br />12:00** | Thu<br />06:00 | Thu<br />03:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=980&am=30) |
+| [**Zoom**](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Fri<br />01:00 | Thu<br />22:00 | Thu<br />19:30 | **Thu<br />15:00** | **Thu<br />09:00** | Thu<br />06:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Freiburg+Galaxy+Papercuts+Cofest+Call&iso=20210225T14&p1=%3A&am=30) |
+| [**Zoom**](https://zoom.us/j/92878690218?pwd=UitCQnZaUVRWaStvY05GUlVkUi8zdz09) | Fri<br />04:00 | Fri<br />01:00 | Thu<br />22:30 | Thu<br />18:00 | **Thu<br />12:00** | **Thu<br />09:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=3705&am=30) |
+| [**Zoom**](https://zoom.us/j/92878690218?pwd=UitCQnZaUVRWaStvY05GUlVkUi8zdz09) | Fri<br />07:00 | Fri<br />04:00 | Fri<br />01:30 | Thu<br />21:00 | **Thu<br />15:00** | **Thu<br />12:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210225T15&p1=3705&am=30) |
+| [**Zoom**](https://zoom.us/j/92878690218?pwd=UitCQnZaUVRWaStvY05GUlVkUi8zdz09) | **Fri<br />10:00** | Fri<br />07:00 | Fri<br />04:30 | Fri<br />00:00 | Thu<br />18:00 | **Thu<br />15:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Portland+Galaxy+Papercuts+Cofest+Call&iso=20210225T15&p1=202&am=30) |
+
+**Calls between 8am and 6pm local time are shown in bold.**  No matter where you are in the world there should be 3 calls during your workday.
+
+
+## Hey Learners!
+
+<div class="center">
+[<img src="/src/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/src/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
+</div>
+<br />
+
+The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/src/events/cofests/papercuts/index.md#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
+
+* [James Cooke University](https://www.jcu.edu.au/), Townsville, Cairns & Brisbane, Australia
+* [Heriot-Watt University](https://www.hw.ac.uk/), Edinburgh, United Kingdom
+* [Lock Haven University](https://lockhaven.edu/), Lock Haven & Clearfield, Pennsylvania, United States.
+
+Don't worry if you aren't at one of these universitites. You should still join us, and we will get you on board.  (And we'll also talk to you about bringing your uni on board next month.)
+
+
 
 ## Issues to work on
 
@@ -52,30 +95,6 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 [Developer Quick Dives](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n) are short videos (2 minutes or less) that demonstrate how to do common tasks in Galaxy development.  Take a peek.
 
-
-## Join us in our regular onboarding video calls
-
-We have calls spread throughout the day.  Calls last for 30 minutes.  The rest of our time is spent communicating via chat, and small group video as needed.
-
-
-| Call | Melbourne<br />(UTC +11) | Kuala Lumpur<br />(UTC +8) | India<br />(UTC +5:30) | Freiburg<br />(UTC +1) | Cleveland<br />(UTC -5) | Portland<br />(UTC -8) | Your<br />Time |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Link | **Thu<br />09:00** | Thu<br />06:00 | Thu<br />03:30 | Wed<br />23:00 | **Wed<br />17:00** | **Wed<br />14:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T09&p1=152&am=30) |
-| Link | **Thu<br />12:00** | **Thu<br />09:00** | Thu<br />06:30 | Thu<br />02:00 | Wed<br />20:00 | **Wed<br />17:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=152&am=30) |
-| Link | **Thu<br />15:00** | **Thu<br />12:00** | **Thu<br />09:30** | Thu<br />05:00 | Wed<br />23:00 | Wed<br />20:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210225T15&p1=152&am=30) |
-| [Link](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Thu<br />19:00 | **Thu<br />16:00** | **Thu<br />13:30** | **Thu<br />09:00** | Thu<br />03:00 | Thu<br />00:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210225T09&p1=980&am=30) |
-| [Link](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Thu<br />22:00 | Thu<br />19:00 | **Thu<br />16:30** | **Thu<br />12:00** | Thu<br />06:00 | Thu<br />03:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=980&am=30) |
-| [Link](https://us02web.zoom.us/j/87627971674?pwd=VERJQWJTV293MlBDY1dleUY5WUVFQT09) | Fri<br />01:00 | Thu<br />22:00 | Thu<br />19:30 | **Thu<br />15:00** | **Thu<br />09:00** | Thu<br />06:00 | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Freiburg+Galaxy+Papercuts+Cofest+Call&iso=20210225T14&p1=%3A&am=30) |
-| Link | Fri<br />04:000 | Fri<br />01:00 | Thu<br />22:30 | Thu<br />18:00 | **Thu<br />12:00** | **Thu<br />09:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210225T12&p1=3705&am=30) |
-| Link | Fri<br />07:00 | Fri<br />04:00 | Fri<br />01:30 | Thu<br />21:00 | **Thu<br />15:00** | **Thu<br />12:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210225T15&p1=3705&am=30) |
-| Link | **Fri<br />10:00** | Fri<br />07:00 | Fri<br />04:30 | Fri<br />00:00 | Thu<br />18:00 | **Thu<br />15:00** | [See](https://www.timeanddate.com/worldclock/fixedtime.html?msg=15%3A00+Portland+Galaxy+Papercuts+Cofest+Call&iso=20210225T15&p1=202&am=30) |
-
-**Calls between 8am and 6pm are shown in bold.**  No matter where you are in the world there should be 3 calls during your workday.
-
-
-## Interested?
-
-Interested? Then please join us on a call (and on [Gitter](https://gitter.im/galaxyproject/Lobby)) and we will get you on board.
 
 ### Before the event
 
