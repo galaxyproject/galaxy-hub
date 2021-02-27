@@ -139,7 +139,7 @@ The Galaxy community has recorded different ways of joining us, with suggestions
 
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai) enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google) to sign in and access Galaxy.
 
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="ELIXIR" />
 </div>
 
 
@@ -170,6 +170,19 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 <div class="card-header">[GTN Smörgåsbord Report](https://shiltemann.github.io/global-galaxy-course/)</div>
 
 This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
+</div>
+
+
+
+<!-- Galaxy-ELIXIR webinar series -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic](https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/)</div>
+
+After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on [‘Open Data Infrastructures to tackle COVID-19 pandemic’](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series).
+
+In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 </div>
 
 
