@@ -46,15 +46,33 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-<div class="card-header">[]()</div>
+<div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
+
+**3, 10, 17, 24 March**
+<br />
+*Galaxy-ELIXIR webinars series: Advanced Features*
+
+With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
+
+
+**Advanced Galaxy workflow features**, *3 March*
+
+**Processing thousands of datasets simultaneously**, *10 March*
+
+**Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
+
+**Speed up your data analysis with Galaxy: Features no one knows about**, *24 March*
 
 </div>
+
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 18rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Papercuts CoFest February" />
 <div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
+
+18 or 25 Mar?
 
 </div>
 
@@ -65,7 +83,8 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 
 There next roundtable meetup will be:
 
-**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj, Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+
 </div>
 
 </div>
@@ -94,9 +113,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
-* UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
-
-* The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
 
 </div>
 
@@ -107,15 +123,41 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<!-- You name it -->
+<!-- Meet & Join the Galaxy Community -->
 <div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
-<div class="card-header">[]()</div>
+<div class="card-header">[Meet & Join the Galaxy Community](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
 
-<img class="card-img-bottom" src="2021-01-15-nora.png" alt="Nora" />
+The Galaxy community has recorded different ways of joining us, with suggestions for newcomers.
+
+<iframe width="290" height="180" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
+<!-- ELIXIR-AAI -->
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<div class="card-header">[Login via ELIXIR-AAI, Google, LinkedIn, or your ORCID iD](https://galaxyproject.eu/posts/2021/02/20/elixir-aai-login/)</div>
+
+The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai) enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google) to sign in and access Galaxy.
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="ELIXIR" />
 </div>
+
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[RNA-Seq analysis](https://galaxyproject.eu/posts/2021/02/22/tiaas-Mali-Salmon/)</div>
+
+By Mali Salmon-Divon.
+
+Mali shares the feedback of two workshops run using TIaaS: one or graduate students and another one for medical doctors.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+</div>
+
+
+
 
 
 # Doc, Hub, and Training Updates
@@ -128,6 +170,31 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-header">[GTN Smörgåsbord Report](https://shiltemann.github.io/global-galaxy-course/)</div>
 
 This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
+</div>
+
+
+
+<!-- Galaxy-ELIXIR webinar series -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic](https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/)</div>
+
+After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on [‘Open Data Infrastructures to tackle COVID-19 pandemic’](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series).
+
+In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+</div>
+
+<!-- GTN video -->
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<div class="card-header">New GTN welcome video</div>
+
+Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced an astonishing video introduction to the GTN features.
+
+<!-- this does not work
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ -->
+
 </div>
 
 
