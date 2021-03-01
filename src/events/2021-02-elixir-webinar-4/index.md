@@ -11,5 +11,7 @@ gtn: false
 contact: "Sergei Pond"
 tags: [ webinar ]
 links:
+  - text: "Video"
+    url: "https://youtu.be/CiMJlQ8F3q8"
 image: 
 ---

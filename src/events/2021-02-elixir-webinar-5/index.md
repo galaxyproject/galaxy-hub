@@ -15,6 +15,7 @@ links:
     url: "https://docs.google.com/presentation/d/1HN3hZXeD74SkhfbSo-QlnUgYjWsX1RS__uRjBXzXhxE/edit#slide=id.gb76fb8d52f_1_415"
   - text: "Viral Beacons Slides"
     url: "https://youtu.be/MTivOoPYMwQ"
-
+  - text: "Video"
+    url: "https://youtu.be/MTivOoPYMwQ"
 image: 
 ---

@@ -11,6 +11,8 @@ gtn: false
 contact: "Wolfgang Maier, Nathan Roach, Pratik Jagtap, Subina Mehta"
 tags: [ webinar ]
 links:
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1wcf1rkui8MZurMatpiJiWyt-cjkhIkO2Cx2lHlpTZE8"
   - text: "Video"
     url: "https://youtu.be/HCNNUSlL73k"
 image: 
