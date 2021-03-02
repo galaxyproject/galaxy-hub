@@ -1,6 +1,6 @@
 ---
 title: "AnVIL Project Manager"
-date: '2020/10/15'
+date: '2020-10-15'
 closes: 
 summary: "Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. "
 continent: NA

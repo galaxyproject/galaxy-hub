@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatics Developer and Trainer"
-date: "2021/02/18"
-closes: "2021/03/07"
+date: "2021-02-18"
+closes: "2021-03-07"
 summary: "Be part of the [Darwin Tree of Life Project](https://www.darwintreeoflife.org/) to sequence all UK eukaryote species, and work with 100s of [Natural History Museum](https://nhm.ac.uk/) scientists"
 continent: EU
 location: "Natural History Museum, London, United Kingdom"
