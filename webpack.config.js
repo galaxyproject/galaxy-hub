@@ -42,7 +42,7 @@ module.exports = {
                 use: [
                     {
                         loader: "expose-loader",
-                        options: { exposes: "_" },
+                        options: { exposes: { globalName: "_", override: true } },
                     },
                 ],
             },
