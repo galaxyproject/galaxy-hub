@@ -42,7 +42,7 @@
     "moment": "^2.24.0",
     "node-sass": "^4.13.1",
     "popper.js": "^1.15.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.2",
     "sass-loader": "^8.0.0",
     "slug": "^1.1.0",
     "style-loader": "^1.0.0",
