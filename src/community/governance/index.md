@@ -2,11 +2,11 @@
 
 [Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community. This is our first attempt.
 
-Several community groups have been formed to have project governance truly reflect the global community that Galaxy has become:
+Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become:
 
 ## Galaxy Executive Board
 
-The *[Galaxy Exec](/src/community/exec/index.md)* is a group of principal investigators from around the world.  Initially, Exec members run large grants that have Galaxy as a core part of their aims. The first iteration of this was formed at the _Galaxy Directions Summit_ in 2019, which gathered together ~20 PIs from around the world.
+The *[Galaxy Exec](/src/community/exec/index.md)* is a group of principal investigators from around the world.  The first iteration of this was formed at the _Galaxy Directions Summit_ in 2019, which gathered together ~20 PIs from around the world.
 
 ## Galaxy Global Steering Committee (GGSC)
 
@@ -14,11 +14,11 @@ The Galaxy Exec formed the *[Global Galaxy Steering Committee (GGSC)](/src/commu
 
 ## Galaxy Working Groups
 
-*[Galaxy Working Groups](/src/community/wg/index.md)* are community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks.  Working groups are those who do the work in Galaxy. Working Groups were launched in late 2020.
+*[Galaxy Working Groups](/src/community/wg/index.md)* are community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.
 
 ## Committers Groups
 
-Cutting across all Working Groups, *[Committers Groups](/src/community/committers/index.md)* are responsible for what goes into the project repositories, and in Galaxy *everything* goes into repositories, including training materials and web sites.  Each repo has its own committers group, and is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005, but have been community-driven since 2015.
+Cutting across all Working Groups, *[Committers Groups](/src/community/committers/index.md)* are responsible for what goes into the project repositories, and in Galaxy *everything* goes into repositories, including training materials and web sites.  Each repo has its own committers group, and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005, and have been community-driven since 2015.
 
 # Code of Conduct
 
@@ -28,11 +28,12 @@ Cutting across all Working Groups, *[Committers Groups](/src/community/committer
 
 ![Galaxy Community Governance Model](/src/community/governance/governance.svg)
 
-**Proposed governance workflow.** 
-[Galaxy Board](/src/community/exec/index.md): group of PIs including Frederick Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz. 
-[Global Steering Committee](/src/community/steering/index.md): collaborators from active Galaxy communities. 
-[Working groups](/src/community/wg/index.md): groups of community members responsible for various parts of the Galaxy ecosystem.  
-Idea = Björn Grüning. 
+**Proposed governance workflow:**
+
+* [Galaxy Board](/src/community/exec/index.md): group of PIs including Frederick Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz. 
+* [Global Steering Committee](/src/community/steering/index.md): collaborators from active Galaxy communities. 
+* [Working groups](/src/community/wg/index.md): groups of community members responsible for various parts of the Galaxy ecosystem.  
+* Idea = Björn Grüning. 
 
 The overall idea is:
 
