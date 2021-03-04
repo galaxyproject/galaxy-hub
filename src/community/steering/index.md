@@ -1,5 +1,7 @@
 # Global Galaxy Steering Committee
 
+**Keywords:** Strategic emphasis, medium and long term planning, international opportunities
+
 [Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/src/community/governance/index.md) are needed to help adapt to increasing complexity.
 
 <div class="lead">
@@ -63,3 +65,7 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
   * [University of Minnesota](https://umn.edu/), United States
 
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
+
+## Contact
+
+You can reach the Galaxy Steering Committee [via email](mailto:steering@lists.galaxyproject.org).
