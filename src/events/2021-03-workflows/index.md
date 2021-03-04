@@ -12,6 +12,8 @@ contact: "Marius van den Beek, Aysam Guerler"
 tags: [ webinar ]
 gtn: false
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_P5bwskN0RZa_t4rAxJ20nw"
+  - text: "Slides"
+    url: "https://docs.google.com/presentation/d/1EdJrhRnfrsTpzb7hbp6XR_HWJCP2r-eVgU5LpG-DH7g/edit#slide=id.gb7c12e366a_0_80"
+  - text: "Video"
+    url: "https://youtu.be/ubBnfcPJup0"
 ---
