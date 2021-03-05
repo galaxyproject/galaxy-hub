@@ -44,3 +44,4 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
 * Maria Doyle, Australia
 * Simon Gladman, Australia
 * Tim Griffin, United States
+* Enis Afgan, United States
