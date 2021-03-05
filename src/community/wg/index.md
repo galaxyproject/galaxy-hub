@@ -57,7 +57,7 @@ This *domain-focused* working group emphasizes applying Galaxy in cancer researc
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-primary text-white">Deployment WG</div>
 
-Focuses on installing Gaalxy and where Galaxy meets the bare or virtual metal.
+Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
 * [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
