@@ -44,7 +44,7 @@ Cutting across all Working Groups, *[Committers Groups](/src/community/committer
 * [Galaxy Exec](/src/community/exec/index.md): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz. 
 * [Global Steering Committee](/src/community/steering/index.md): collaborators from active Galaxy communities. 
 * [Working groups](/src/community/wg/index.md): groups of community members responsible for various parts of the Galaxy ecosystem.  
-* Idea = Björn Grüning. 
+* Idea by Björn Grüning, Hans-Rudolf Hotz and others. 
 
 The overall idea is:
 

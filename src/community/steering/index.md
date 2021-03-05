@@ -47,7 +47,9 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
   * [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/), United States
 * **[David Morais](https://ca.linkedin.com/in/david-morais-phd)**
   * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
-* **[Frederick Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
+* **[Enis Afgan](https://www.linkedin.com/in/afgane)**
+  * [Johns Hopkins University](https://jhu.edu)
+* **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
   * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium 
 * **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
   * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
