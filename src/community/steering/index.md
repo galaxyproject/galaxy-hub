@@ -1,5 +1,7 @@
 # Global Galaxy Steering Committee
 
+**Keywords:** Strategic emphasis, medium and long term planning, international opportunities
+
 [Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/src/community/governance/index.md) are needed to help adapt to increasing complexity.
 
 <div class="lead">
@@ -27,21 +29,45 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
 
 ## Members
 
-* Ross Lazarus, Australia, Chair
-* Anne Fouilloux, Norway
-* Alan Christoffels, South Africa
-* Andrew Lonie, Australia
-* Bérénice Batut, Germany
-* Björn Grüning, Germany
-* Brad Langhorst, United States
-* Dan Blankenberg, United States
-* David Morais, Canada
-* Frederik Coppens, Belgium
-* Hans-Rudolf Hotz, Switzerland
-* Hervé Menager, France
-* Nancy Ide, United States
-* Jeremy Goecks, United States
-* Maria Doyle, Australia
-* Simon Gladman, Australia
-* Tim Griffin, United States
-* Enis Afgan, United States
+* **[Ross Lazarus](https://github.com/fubar2)**
+  * Retired*, Australia, Chair
+* **[Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)**
+  * [University of Oslo](https://www.uio.no/), Norway
+* **[Alan Christoffels](https://www.sanbi.ac.za/alan-christoffels/)**
+  * [SANBI](https://www.sanbi.ac.za/), South Africa
+* **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
+  * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+* **[Bérénice Batut](https://research.bebatut.fr/)**
+  * [University of Freiburg](https://uni-freiburg.de/en/), Germany
+* **[Björn Grüning](https://github.com/bgruening)**
+  * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
+* **[Brad Langhorst](https://scholar.google.com/citations?user=_TMrigoAAAAJ&hl=en)**
+  * [New England Biolabs](https://www.neb.com/), United States
+* **[Dan Blankenberg](http://dblankenberg.org/)**
+  * [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/), United States
+* **[David Morais](https://ca.linkedin.com/in/david-morais-phd)**
+  * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
+* **[Enis Afgan](https://www.linkedin.com/in/afgane)**
+  * [Johns Hopkins University](https://jhu.edu)
+* **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
+  * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium 
+* **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
+  * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
+* **[Hervé Menager](https://research.pasteur.fr/en/member/herve-menager/)**
+  * [Institut Pasteur](https://pasteur.fr/), France
+* **[Nancy Ide](https://www.cs.vassar.edu/~ide/)**
+  * [Vassar College](https://www.vassar.edu/), United States
+* **[Jeremy Goecks](https://goeckslab.org/people/jeremy.html)**
+  * [Oregon Health and Science University](https://www.ohsu.edu/), United States
+* **[Maria Doyle](https://au.linkedin.com/in/maria-doyle-11220739)**
+  * [Peter MacCallum Cancer Centre](https://www.petermac.org/), Australia
+* **[Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/)**
+  * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+* **[Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin)**
+  * [University of Minnesota](https://umn.edu/), United States
+
+<sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
+
+## Contact
+
+You can reach the Galaxy Steering Committee [via email](mailto:steering@lists.galaxyproject.org).

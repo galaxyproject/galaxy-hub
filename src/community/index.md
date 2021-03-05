@@ -17,7 +17,7 @@ In 2010 the National Science Foundation initiated a yearly gathering of Galaxy u
 
 # Working Groups
 
-[Galaxy Working Groups](/src/community/wg/index.md) are a means for the community to help manage and contribute to key parts of the Galaxy ecosystem.  They were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
+[Galaxy Working Groups](/src/community/wg/index.md) are a means for the community to help manage and contribute to key parts of the Galaxy ecosystem.  They were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.  *Working Groups are a key component of the [Galaxy Governance Model](/src/community/governance/index.md), which also includes the [Galaxy Steering Committee](/src/community/steering/index.md) and the [Galaxy Exec](/src/community/exec/index.md).*
 
 # IUC: Keepers of Galaxy Tools
 
