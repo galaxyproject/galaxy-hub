@@ -1,7 +1,7 @@
 ---
 title: "Communications and Community Outreach Officer"
 date: "2021-01-22"
-closes: 
+closes: "2021-03-04"
 summary: "Efficient and clear communication, and sustainable outreach towards the life sciences community."
 continent: EU
 location: "ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium"
