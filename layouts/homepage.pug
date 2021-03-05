@@ -113,10 +113,10 @@ block content
                                     |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4.bg-warning
                 h2: a( href="/careers/" ) Careers
-                - var events_counter = 0
+                - var jobs_counter = 0
                 each item in careers.slice().reverse()
-                    if events_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
-                        - events_counter += 1
+                    if jobs_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
+                        - jobs_counter += 1
                         p
                             if item.external_url
                                 strong
@@ -164,20 +164,20 @@ block content
                     small
                         |  - Align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.
 
-            div.col-sm-8
-                h2: a( href="/https://www.zotero.org/groups/galaxy" ) Recent Pubs
+            div.col-sm-8.bg-primary
+                h2: a.text-white( href="/https://www.zotero.org/groups/galaxy" ) Recent Pubs
                 p
                     strong
-                        a( href="https://doi.org/10.1002/cpz1.31" ) Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update
-                    small
+                        a.text-white( href="https://doi.org/10.1002/cpz1.31" ) Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update
+                    small.text-secondary
                         |  - Ostrovsky, A., Hillman‐Jackson, J., Bouvier, D., Clements, D., Afgan, E., Blankenberg, D., Schatz, M. C., Nekrutenko, A., Taylor, J., the Galaxy Team, & Lariviere, D. (2021).
                         em
                             |  Current Protocols,
                         |  1(2), e31. 
                 p
                     strong
-                        a( href="https://doi.org/10.12688/f1000research.28608.1" ) ASaiM-MT: A validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework
-                    small
+                        a.text-white( href="https://doi.org/10.12688/f1000research.28608.1" ) ASaiM-MT: A validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework
+                    small.text-secondary
                         |  - Mehta, S., Crane, M., Leith, E., Batut, B., Hiltemann, S., Arntzen, M. Ø., Kunath, B. J., Delogu, F., Sajulga, R., Kumar, P., Johnson, J. E., Griffin, T. J., & Jagtap, P. D. (2021).  
 
                         em
@@ -185,16 +185,16 @@ block content
                         |  10, 103.
                 p
                     strong
-                        a( href="https://doi.org/10.1016/j.jmb.2020.09.015" ) Galaxy InteractoMIX: An Integrated Computational Platform for the Study of Protein–Protein Interaction Data
-                    small
+                        a.text-white( href="https://doi.org/10.1016/j.jmb.2020.09.015" ) Galaxy InteractoMIX: An Integrated Computational Platform for the Study of Protein–Protein Interaction Data
+                    small.text-secondary
                         |  - Mirela-Bota, P., Aguirre-Plans, J., Meseguer, A., Galletti, C., Segura, J., Planas-Iglesias, J., Garcia-Garcia, J., Guney, E., Oliva, B., & Fernandez-Fuentes, N. (2020).
                         em
                             |  Journal of Molecular Biology,
                         |  166656. 
                 p
                     strong
-                        a( href="https://doi.org/10.1186/s12864-021-07405-8" ) GalaxyTrakr: A distributed analysis tool for public health whole genome sequence data accessible to non-bioinformaticians
-                    small
+                        a.text-white( href="https://doi.org/10.1186/s12864-021-07405-8" ) GalaxyTrakr: A distributed analysis tool for public health whole genome sequence data accessible to non-bioinformaticians
+                    small.text-secondary
                         |  - Gangiredla, J., Rand, H., Benisatto, D., Payne, J., Strittmatter, C., Sanders, J., Wolfgang, W. J., Libuit, K., Herrick, J. B., Prarat, M., Toro, M., Farrell, T., & Strain, E. (2021).
                         em
                             |  BMC Genomics,
