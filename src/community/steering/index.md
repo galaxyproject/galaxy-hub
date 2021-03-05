@@ -36,7 +36,7 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
 * Brad Langhorst, United States
 * Dan Blankenberg, United States
 * David Morais, Canada
-* Frederick Coppens, Belgium
+* Frederik Coppens, Belgium
 * Hans-Rudolf Hotz, Switzerland
 * Hervé Menager, France
 * Nancy Ide, United States
