@@ -49,8 +49,8 @@ block content
                         if item.tease
                             small
                                 |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
-            div.col-sm-4 
-                h2: a( href="/events/" ) Events
+            div.col-sm-4.bg-primary 
+                h2: a.text-white( href="/events/" ) Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
                     if events_counter < 5 && item.date != undefined && moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
@@ -58,24 +58,24 @@ block content
                         p
                             if item.external_url
                                 strong
-                                    a( href=item.external_url ) #{item.title}
+                                    a.text-white( href=item.external_url ) #{item.title}
                                 if item.contents != ''
                                     |  [
-                                    a( href=item.link )
+                                    a.text-white( href=item.link )
                                         | hub page
                                     | ] 
                             else
                                 strong
-                                    a( href=item.link ) #{item.title}
+                                    a.text-white( href=item.link ) #{item.title}
 
-                            small
+                            small.text-secondary
                                 em
                                     | - !{moment(item.date).format(" MMM D.")}
                                 if item.tease
                                     |  !{marked(item.tease).replace("<p>","").replace("</p>","")}
 
-            div.col-sm-4.bg-secondary
-                div#twitter_timeline( style="height:400px" )
+            div.col-sm-4
+                div#twitter_timeline
                     h2
                         a(href="http://twitter.com/galaxyproject") @galaxyproject
                         a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
@@ -88,8 +88,8 @@ block content
                 br
 
         div.row
-            div.col-sm-4
-                h2: a( href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA" ) Videos
+            div.col-sm-4.bg-danger
+                h2: a.text-white( href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA" ) Videos
                 p
                     iframe( width="100%" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
                         | Meet and join the Galaxy Community
@@ -98,19 +98,20 @@ block content
                         a( href="https://training.galaxyproject.org/" )
                             | Galaxy Training Network
 
-            div.col-sm-4.bg-warning
-                h2: a( href="/blog/" ) Blog
+            div.col-sm-4.bg-info
+                h2: a.text-white( href="/blog/" ) Blog
                 each item in blog.slice(0,5)
                     p
                         strong
                             if item.external_url
-                                a( href=item.external_url ) #{item.title}
+                                a.text-white( href=item.external_url ) #{item.title}
                             else
-                                a( href=item.link ) #{item.title}
+                                a.text-white( href=item.link ) #{item.title}
                         small
                             if item.tease
-                                |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
-            div.col-sm-4
+                                span.text-dark
+                                    |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
+            div.col-sm-4.bg-warning
                 h2: a( href="/careers/" ) Careers
                 - var events_counter = 0
                 each item in careers.slice().reverse()
