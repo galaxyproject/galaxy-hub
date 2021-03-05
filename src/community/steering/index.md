@@ -5,7 +5,7 @@
 [Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/src/community/governance/index.md) are needed to help adapt to increasing complexity.
 
 <div class="lead">
-The [Galaxy Executive Committee](/src/community/governance/exec/index.md) has formed the Global Galaxy Steering Committee (GGSC) to represent the interests of communities engaged with the project, and to implement efficient consultative project governance structures for that purpose.
+The [Galaxy Executive Board](/src/community/governance/exec/index.md) has formed the Global Galaxy Steering Committee (GGSC) to represent the interests of communities engaged with the project, and to implement efficient consultative project governance structures for that purpose.
 </div>
 
 <br />
