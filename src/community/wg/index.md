@@ -16,7 +16,7 @@ The initial proposal includes these areas:
 
 <!-- Admin -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Admin WG</div>
+<div class="card-header bg-primary text-white">Admin</div>
 
 Focus on Galaxy administration and maintenance.
 
@@ -29,7 +29,7 @@ Focus on Galaxy administration and maintenance.
 
 <!-- Backend -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Backend WG</div>
+<div class="card-header bg-primary text-white">Backend</div>
 
 Focus on the Galaxy server code and architecture.
 
@@ -42,7 +42,7 @@ Focus on the Galaxy server code and architecture.
 
 <!-- Cancer -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Cancer Informatics WG</div>
+<div class="card-header bg-info text-white">Cancer Informatics</div>
 
 This *domain-focused* working group emphasizes applying Galaxy in cancer research.
 
@@ -55,7 +55,7 @@ This *domain-focused* working group emphasizes applying Galaxy in cancer researc
 
 <!-- Deployment -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Deployment WG</div>
+<div class="card-header bg-primary text-white">Deployment</div>
 
 Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
 
@@ -68,7 +68,7 @@ Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
 
 <!-- Human Genetics -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Human Genetics WG</div>
+<div class="card-header bg-info text-white">Human Genetics</div>
 
 This *domain-focused* working group emphasizes applying Galaxy in human research.
 
@@ -80,7 +80,7 @@ This *domain-focused* working group emphasizes applying Galaxy in human research
 
 <!-- Outreach & Training -->
 <div class="card border-dark" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-dark text-white">Outreach & Training WG</div>
+<div class="card-header bg-dark text-white">Outreach & Training</div>
 
 Coordinate and guide Galaxy's Outreach & Training efforts.
 
@@ -93,7 +93,7 @@ Coordinate and guide Galaxy's Outreach & Training efforts.
 
 <!-- Scientific Applications -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Scientific Applications WG</div>
+<div class="card-header bg-info text-white">Scientific Applications</div>
 
 This group emphasizes Galaxy support for scientific domains that are not already covered by other *domain-focused* working groups.
 </div>
@@ -101,7 +101,7 @@ This group emphasizes Galaxy support for scientific domains that are not already
 
 <!-- Support -->
 <div class="card border-dark" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-dark text-white">Support WG</div>
+<div class="card-header bg-dark text-white">Support</div>
 
 User, admin, and developer support and documentation.
 
@@ -113,9 +113,9 @@ User, admin, and developer support and documentation.
 
 <!-- Testing and Hardening -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Testing and Hardening WG</div>
+<div class="card-header bg-primary text-white">Testing and Hardening</div>
 
-Making the Galaxy ecosystem less buggy and error-prone, and more robust.
+Testing and hardening the Galaxy ecosystem, developing and maintaining test infrastructure.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
@@ -126,7 +126,7 @@ Making the Galaxy ecosystem less buggy and error-prone, and more robust.
 
 <!-- Tools -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Tools WG</div>
+<div class="card-header bg-primary text-white">Tools</div>
 
 Tool use is what Galaxy enables.  This group works on improving Galaxy's tools ecosystem.
 
@@ -141,7 +141,7 @@ Tool use is what Galaxy enables.  This group works on improving Galaxy's tools e
 
 <!-- UI / UX -->
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">User Interface / User Experience WG</div>
+<div class="card-header bg-primary text-white">User Interface / User Experience</div>
 
 The UI / UX group focuses on the Galaxy user interface and experience.  We work on the parts of Galaxy that end users see.
 

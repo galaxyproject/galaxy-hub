@@ -30,30 +30,25 @@ block content
 
     section.section-content
         div.row#splash-row
-            div.col-sm-12
-                p.lead !{contents}
+            div.col-sm-12.lead
+                p !{contents}
         div.row
-            div.col-sm-4
+            div.col-sm-12
+                br
+        div.row
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
                 h2: a( href="/news/" ) News
-                each item in news.slice(0,3)
+                each item in news.slice(0,5)
                     p
-                        if item.external_url
-                            a( href=item.external_url ) #{item.title}
-                        else
-                            a( href=item.link ) #{item.title}
+                        strong
+                            if item.external_url
+                                a( href=item.external_url ) #{item.title}
+                            else
+                                a( href=item.link ) #{item.title}
                         if item.tease
-                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
-                h2: a( href="/blog/" ) Blog
-                each item in blog.slice(0,2)
-                    p
-                        if item.external_url
-                            a( href=item.external_url ) #{item.title}
-                        else
-                            a( href=item.link ) #{item.title}
-                        if item.tease
-                            |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
-
-            div.col-sm-4
+                            small
+                                |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
                 h2: a( href="/events/" ) Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
@@ -61,21 +56,143 @@ block content
                         - events_counter += 1
                         p
                             if item.external_url
-                                a( href=item.external_url ) #{item.title}
+                                strong
+                                    a( href=item.external_url ) #{item.title}
                                 if item.contents != ''
                                     |  [
                                     a( href=item.link )
                                         | hub page
-                                    | ]
+                                    | ] 
                             else
-                                a( href=item.link ) #{item.title}
-                            if item.tease
-                                |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
+                                strong
+                                    a( href=item.link ) #{item.title}
 
-            div.col-sm-4
-                div#twitter_timeline( style="height:400px" )
+                            small
+                                em
+                                    | - !{moment(item.date).format(" MMM D.")}
+                                if item.tease
+                                    |  !{marked(item.tease).replace("<p>","").replace("</p>","")}
+
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
+                div#twitter_timeline
                     h2
                         a(href="http://twitter.com/galaxyproject") @galaxyproject
                         a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
                     script(type='text/javascript').
                         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+        div.row
+            div.col-sm-12
+                br
+
+        div.row
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
+                h2: a( href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA" ) Videos
+                p
+                    iframe( width="100%" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
+                        | Meet and join the Galaxy Community
+                    iframe( width="100%" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
+                        | Introduction to the 
+                        a( href="https://training.galaxyproject.org/" )
+                            | Galaxy Training Network
+
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
+                h2: a( href="/blog/" ) Blog
+                each item in blog.slice(0,5)
+                    p
+                        strong
+                            if item.external_url
+                                a( href=item.external_url ) #{item.title}
+                            else
+                                a( href=item.link ) #{item.title}
+                        small
+                            if item.tease
+                                span.text-dark
+                                    |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
+                h2: a( href="/careers/" ) Careers
+                - var jobs_counter = 0
+                each item in careers.slice().reverse()
+                    if jobs_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
+                        - jobs_counter += 1
+                        p
+                            if item.external_url
+                                strong
+                                    a( href=item.external_url ) #{item.title}
+                                if item.contents != ''
+                                    |  [
+                                    a( href=item.link )
+                                        | hub page
+                                    | ] 
+                            else
+                                strong
+                                    a( href=item.link ) #{item.title}
+                            small
+                                |  – !{marked(item.location).replace("<p>","").replace("</p>","")}
+                                if item.closes
+                                    em
+                                        | . Apply by !{moment(item.closes).format(" MMM D")}.
+
+        div.row
+            div.col-sm-12
+                br
+                
+        div.row
+            div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
+                h2: a( href="/use/" ) New Platforms
+                p
+                    strong
+                        a( href="/use/asaim/" ) ASaiM Docker Image
+                    small
+                        |  - Tools for metagenomic and metatranscriptomic studies, hierarchically organized to orient user choice toward the best tool for a given task. 
+                p
+                    strong
+                        a( href="/use/interactomix/") InteractoMIX
+                    small
+                        |  - One-stop resource offering a wide range of computational analyses from proteome-wide interactomes to structure of protein complexes.
+                p
+                    strong
+                        a( href="/use/atacgraph/") ATACgraph
+                    small
+                        |  - Profile accessible chromatin regions and provide ATAC-seq-specific information including definitions of nucleosome-free regions (NFRs) and nucleosome-occupied regions.
+                p
+                    strong
+                        a( href="/use/corgat/") CorGAT
+                    small
+                        |  - Align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.
+
+            div.col-sm-8( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
+                h2: a( href="https://www.zotero.org/groups/galaxy" ) Recent Pubs
+                p
+                    strong
+                        a( href="https://doi.org/10.1002/cpz1.31" ) Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update
+                    small
+                        |  - Ostrovsky, A., Hillman‐Jackson, J., Bouvier, D., Clements, D., Afgan, E., Blankenberg, D., Schatz, M. C., Nekrutenko, A., Taylor, J., the Galaxy Team, & Lariviere, D. (2021).
+                        em
+                            |  Current Protocols,
+                        |  1(2), e31. 
+                p
+                    strong
+                        a( href="https://doi.org/10.12688/f1000research.28608.1" ) ASaiM-MT: A validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework
+                    small
+                        |  - Mehta, S., Crane, M., Leith, E., Batut, B., Hiltemann, S., Arntzen, M. Ø., Kunath, B. J., Delogu, F., Sajulga, R., Kumar, P., Johnson, J. E., Griffin, T. J., & Jagtap, P. D. (2021).  
+
+                        em
+                            |  F1000Research,
+                        |  10, 103.
+                p
+                    strong
+                        a( href="https://doi.org/10.1016/j.jmb.2020.09.015" ) Galaxy InteractoMIX: An Integrated Computational Platform for the Study of Protein–Protein Interaction Data
+                    small
+                        |  - Mirela-Bota, P., Aguirre-Plans, J., Meseguer, A., Galletti, C., Segura, J., Planas-Iglesias, J., Garcia-Garcia, J., Guney, E., Oliva, B., & Fernandez-Fuentes, N. (2020).
+                        em
+                            |  Journal of Molecular Biology,
+                        |  166656. 
+                p
+                    strong
+                        a( href="https://doi.org/10.1186/s12864-021-07405-8" ) GalaxyTrakr: A distributed analysis tool for public health whole genome sequence data accessible to non-bioinformaticians
+                    small
+                        |  - Gangiredla, J., Rand, H., Benisatto, D., Payne, J., Strittmatter, C., Sanders, J., Wolfgang, W. J., Libuit, K., Herrick, J. B., Prarat, M., Toro, M., Farrell, T., & Strain, E. (2021).
+                        em
+                            |  BMC Genomics,
+                        |  22(1), 114.
