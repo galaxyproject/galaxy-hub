@@ -1,7 +1,7 @@
 ---
 title: "Research Engineer Bioinformatics"
-date: "2021/02/18"
-closes: "2021/04/01"
+date: "2021-02-18"
+closes: "2021-04-01"
 summary: "A full position is available for 2 years, and starting at the earliest timepoint possible. This includes working with and running training on the internal Galaxy instance."
 continent: EU
 location: "INSERM - Institut Pasteur de Lille, Lille, France"

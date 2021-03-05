@@ -1,5 +1,5 @@
 ---
-title: "Galaxy and Jupiter for RNA-Seq and complex data analyses"
+title: "Galaxy and Jupyter for RNA-Seq and complex data analyses"
 date: '2021-04-12'
 days: 5
 tease: "Next generation sequencing for RNA-Seq and Epigenetics"

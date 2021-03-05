@@ -1,6 +1,6 @@
 DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/tmp/hub -w /tmp/hub
 DOCKER_NOUSER=docker run -v `pwd`:/tmp/hub -w /tmp/hub
-BUILD_IMAGE=node:lts-jessie
+BUILD_IMAGE=node:lts-buster-slim
 
 node_modules: package.json
 	npm install

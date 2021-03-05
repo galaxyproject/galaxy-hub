@@ -1,6 +1,6 @@
 ---
 title: "Sr. Programmer Analyst"
-date: '2020/10/15'
+date: '2020-10-15'
 closes: 
 summary: "The Schatz Lab at Johns Hopkins University is looking for self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project; and Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects."
 continent: NA
