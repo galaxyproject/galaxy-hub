@@ -115,7 +115,7 @@ User, admin, and developer support and documentation.
 <div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-primary text-white">Testing and Hardening WG</div>
 
-Making the Galaxy ecosystem less buggy and error-prone, and more robust.
+Testing and hardening the Galaxy ecosystem, developing and maintaining test infrastructure.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
