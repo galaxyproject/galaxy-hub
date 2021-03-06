@@ -15,8 +15,8 @@ The initial proposal includes these areas:
 <div class="card-deck">
 
 <!-- Admin -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Admin</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Admin</div>
 
 Focus on Galaxy administration and maintenance.
 
@@ -28,8 +28,8 @@ Focus on Galaxy administration and maintenance.
 
 
 <!-- Backend -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Backend</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Backend</div>
 
 Focus on the Galaxy server code and architecture.
 
@@ -41,8 +41,8 @@ Focus on the Galaxy server code and architecture.
 
 
 <!-- UI / UX -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">User Interface / User Experience</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">User Interface / User Experience</div>
 
 The UI / UX group focuses on the Galaxy user interface and experience.  We work on the parts of Galaxy that end users see.
 
@@ -54,8 +54,8 @@ The UI / UX group focuses on the Galaxy user interface and experience.  We work 
 
 
 <!-- Testing and Hardening -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Testing and Hardening</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Testing & Hardening</div>
 
 Testing and hardening the Galaxy ecosystem, developing and maintaining test infrastructure.
 
@@ -67,8 +67,8 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 
 
 <!-- Deployment -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Deployment</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Deployment</div>
 
 Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
 
@@ -79,8 +79,8 @@ Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
 </div>
 
 <!-- Tools -->
-<div class="card border-primary" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-primary text-white">Tools</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Tools</div>
 
 Tool use is what Galaxy enables.  This group works on improving Galaxy's tools ecosystem.
 
@@ -94,8 +94,8 @@ Tool use is what Galaxy enables.  This group works on improving Galaxy's tools e
 
 
 <!-- Outreach & Training -->
-<div class="card border-dark" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-dark text-white">Outreach & Training</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-goats text-white">Outreach & Training</div>
 
 Coordinate and guide Galaxy's Outreach & Training efforts.
 
@@ -107,8 +107,8 @@ Coordinate and guide Galaxy's Outreach & Training efforts.
 
 
 <!-- Support -->
-<div class="card border-dark" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-dark text-white">Support</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-goats text-white">Support</div>
 
 User, admin, and developer support and documentation.
 
@@ -119,16 +119,16 @@ User, admin, and developer support and documentation.
 
 
 <!-- Scientific Applications -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Scientific Applications</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-applied text-white">Scientific Applications</div>
 
 This group emphasizes Galaxy support for scientific domains that are not already covered by other *domain-focused* working groups.
 </div>
 
 
 <!-- Cancer -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Cancer Informatics</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-applied text-white">Cancer Informatics</div>
 
 This *domain-focused* working group emphasizes applying Galaxy in cancer research.
 
@@ -140,8 +140,8 @@ This *domain-focused* working group emphasizes applying Galaxy in cancer researc
 
 
 <!-- Human Genetics -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-info text-white">Human Genetics</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-applied text-white">Human Genetics</div>
 
 This *domain-focused* working group emphasizes applying Galaxy in human research.
 
@@ -152,7 +152,7 @@ This *domain-focused* working group emphasizes applying Galaxy in human research
 
 
 <!-- More to Come -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card" style="min-width: 12rem; max-width: 20rem; opacity: 0.95">
 <div class="card-header">More to Come</div>
 
 This is an initial, but by no means exhaustive or final list of working groups.  New working groups will be added as needs are identified.
@@ -160,8 +160,8 @@ This is an initial, but by no means exhaustive or final list of working groups. 
 </div>
 
 <!-- All -->
-<div class="card border-warning" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-warning">All Working Groups</div>
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-all text-white">All Working Groups</div>
 
 Communications across working groups.
 
@@ -178,13 +178,10 @@ In reverse chronological order:
 
 ### 2021-01-07: Launch follow up
 
-This call will be a followup to see how our first month has gone, and how goal setting and tracking fro 2021Q1 is going.
-
-Please **[join us](https://psu.zoom.us/j/92752763386)** at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210107T12&p1=179&ah=1)).
-
+This call was a follow up to see how our first month went, and how goal setting and tracking from 2021-Q1 was going. The [recording of that call](https://www.youtube.com/watch?v=OuxyMWuUBpQ) is available.
 
 ### 2020-12-10: Launch
 
-Galaxy Working Groups were launched on the [December 10, 2020 Galaxy Developer Roundtable call](/src/events/2020-12-10-dev-roundtable/index.md). (A [recording of that call](https://youtu.be/V87OdtdRLJM) is available.)
+Galaxy Working Groups were launched on the [December 10, 2020 Galaxy Developer Roundtable call](/src/events/2020-12-10-dev-roundtable/index.md). The [recording of that call](https://youtu.be/V87OdtdRLJM) is available.
 
 
