@@ -53,24 +53,13 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
 
 
-**Advanced Galaxy workflow features**, *3 March*, watch the video 
+**Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE) 
 
 **Processing thousands of datasets simultaneously**, *10 March*
 
 **Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
 
 **Speed up your data analysis with Galaxy: Features no one knows about**, *24 March*
-
-</div>
-
-
-
-<!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Papercuts CoFest February" />
-<div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
-
-18 or 25 Mar?
 
 </div>
 
@@ -87,6 +76,17 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 </div>
 
 
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
+
+**18 March**
+
+Please join us for the [6th Papercuts CoFest day on March 18](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+
+</div>
+
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
@@ -94,7 +94,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 There next roundtable meetup will be:
 
-**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj, Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj and Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
 
 </div>
 
@@ -297,105 +297,16 @@ Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da
 
 </div>
 
-# Who's Hiring
+# Galaxy Career Center
 
-<div class="card-deck">
+[<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>](/src/careers/index.md)
 
-<!-- Cleveland Clinic -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Postdoctoral Fellowships](https://blankenberglab.org/jobs)</div>
+The recently opened **[Galaxy Career Center](http://localhost:8080/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 11 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
-[Blankenberg Lab](https://blankenberglab.org/), Genomic Medicine Institute, Cleveland Clinic Lerner Research Institute, Cleveland, Ohio, United States
-
-Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
-
-<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" /></div>
-
-
-<!-- SynBioData -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Software and Galaxy Workflow Developers](http://www.jfaulon.com/wp-content/uploads/galaxy-engineer-positions_20210125.pdf)</div>
-
-[Galaxy-SynBioCAD team](https://www.jfaulon.com/galaxy-synbiocad-portal/), MICALIS Institute, INRAE & AgroParisTech, Jouy-en-Josas, France
-
-Design solutions to synthesize molecules in microorganisms & to implement the sesolutions on robotized workstations.
-
-**Apply by 1 March.**
-
-<img class="card-img-bottom" src="/src/use/synbiocad/synbiocad-visual.png" alt="SynBioCAD" />
-</div>
-
-
-<!-- NMBU -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[PhD or postdoc project Spring/Summer  2021](https://www.nmbu.no/en/research/groups/memo/join-us-)</div>
-
-[MEMO Group](https://www.nmbu.no/en/research/groups/memo), [Norwegian University of Life Science](https://www.nmbu.no/en), Ås, Norway
-
-Interested in host-microbiome interactions and multi-omic data? We have multiple positions starting in 2021. Projects have fun and interesting EU partners. Will be hiring after Christmas.
-
-<img class="card-img-bottom" src="/images/logos/nmbu-logo.png" alt="Norwegian University of Life Science" />
-</div>
-
-
-<!-- Hopkins AnVIL / ITCR -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
-
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
-
-Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
-
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
-</div>
-
-
-<!-- AnVIL -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[AnVIL Project Manager](https://jobs.jhu.edu/job/Baltimore-AnVIL-Project-Manager-MD-21218/682125700/)</div>
-
-Johns Hopkins University, Baltimore, Maryland, United States.
-
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
-
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
-</div>
-
-
-<!-- Hopkins -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
-
-The Schatz Lab at Johns Hopkins University is looking for:
-* Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
-* Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
-
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
-</div>
-
-
-<!-- IFB -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Engineer Developer / DevOps](https://www.france-bioinformatique.fr/ingenieure-developpeur-devops/)</div>
-
-The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/) is offering a 1-year position for a developer to work on [usegalaxy.fr](https://usegalaxy.fr/), focused on the contribution to the development, evolution, deployment and maintenance of the French infrastructure.
-
-<img class="card-img-bottom" src="/src/images/logos/ifb-logo-text.jpg" alt="IFB" />
-</div>
-
-
-<!-- VIB -->
-<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<div class="card-header">[Communications and Community Outreach Officer](https://jobs.vib.be/j/32498/communications-and-community-outreach-officer) and [Research Software Engineer](https://jobs.vib.be/j/32497/research-software-engineer)</div>
-
-VIB-UGent Center for Plant Systems Biology has two open positions to work on the [ELIXIR Belgium](https://www.elixir-belgium.org/) research data analysis team, both for an initial duration of 2 years.
-
-
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="Johns Hopkins" />
-</div>
-
-
-</div>
+* North America
+  * GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions), 
+* Europe
+  * INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB
 
 
 # Releases
