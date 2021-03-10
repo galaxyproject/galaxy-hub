@@ -40,8 +40,9 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders:
 * **[2021-03-18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**
   * Leaders: Jashwant Raj, Gulsum Gudukbay
-* **[2021-03-04: TBD](/src/events/2021-03-04-dev-roundtable/index.md)**
-  * Leaders:
+* **[2021-03-04: Release Testing](/src/events/2021-03-04-dev-roundtable/index.md)**
+  * Leaders: Sergey Golitsynskiy, David López, Assunta DeSanto, Keith Suderman, John Chilton
+  * [Video](https://youtu.be/H4oPneXH5hI)
 * **[2021-02-18: Custos in Galaxy - authentication and future directions](/src/events/2021-02-18-dev-roundtable/index.md)**
   * Leaders: Enis Afgan
   * [Video](https://youtu.be/Gjrt_raGAuI)
