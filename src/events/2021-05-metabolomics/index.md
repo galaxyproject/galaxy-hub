@@ -14,4 +14,4 @@ links:
 image: "/src/news/2020-12-galaxy-update/metabolomics.png"
 ---
 
-Watch this space for details.
+Watch this space for details.  Or subscribe to the [metabolomics mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) get notified via email.
