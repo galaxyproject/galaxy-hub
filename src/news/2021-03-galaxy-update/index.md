@@ -76,12 +76,24 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 </div>
 
 
+<!-- Czechia! -->
+<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
+<div class="card-header">[Introduction to Galaxy & Proteomics online workshop](https://www.elixir-czech.cz/events/introduction-to-galaxy-and-proteomics-online-workshop-mar-2021)</div>
+
+**March 22**
+
+This workshop is open to everybody interested in Galaxy and has two independent parts (Intro, and Proteomics-specific). Please feel free to join any or both.  *But you do need to register as space is limited.*
+</div>
+
+
+
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 18rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
 
-**18 March**
+**18 March, Online, Global**
 
 Please join us for the [6th Papercuts CoFest day on March 18](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
@@ -106,6 +118,16 @@ There next roundtable meetup will be:
 **Deadline: 1 April**
 
 Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tradition will continue in November 2021. [Get your proposals in now](https://biohackathon-europe.org/projects.html).
+</div>
+
+<!-- Mass Spec -->
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<div class="card-header">[Galaxy For Mass Spectrometry-based Research Meetup](https://z.umn.edu/celestialmasses)</div>
+
+**1 April**
+
+Please join this [online meetup](https://z.umn.edu/celestialmasses) of the Galaxy Mass Spec community. We meet every 6 weeks.
+
 </div>
 
 </div>
@@ -322,7 +344,7 @@ The recently opened **[Galaxy Career Center](http://localhost:8080/careers/index
 </div>
 
 
-# Other News
+# Other Community News
 
 <div class="card-deck">
 
