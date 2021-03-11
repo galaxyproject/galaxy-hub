@@ -103,7 +103,7 @@ block content
                                 span.text-dark
                                     |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
-                h2: a( href="/careers/" ) <i class="fas fa-certificate"></i> &nbsp; Careers
+                h2: a( href="/careers/" ) <i class="fas fa-user-astronaut"></i> &nbsp; Careers
                 - var jobs_counter = 0
                 each item in careers.slice().reverse()
                     if jobs_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
