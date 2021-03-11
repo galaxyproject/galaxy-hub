@@ -37,7 +37,7 @@ block content
                 br
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/news/" ) News
+                h2: a( href="/news/" ) <i class="fas fa-bullhorn"></i> &nbsp; News
                 each item in news.slice(0,5)
                     p
                         strong
@@ -49,7 +49,7 @@ block content
                             small
                                 |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/events/" ) Events
+                h2: a( href="/events/" ) <i class="far fa-calendar-alt"></i> &nbsp; Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
                     if events_counter < 5 && item.date != undefined && moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
@@ -76,7 +76,7 @@ block content
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
                 div#twitter_timeline
                     h2
-                        a(href="http://twitter.com/galaxyproject") @galaxyproject
+                        a(href="http://twitter.com/galaxyproject") <i class="fab fa-twitter"></i> &nbsp; @galaxyproject
                         a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
                     script(type='text/javascript').
                         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -87,13 +87,10 @@ block content
 
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA" ) Recent Videos
-                p
-                    iframe( width="100%" src="https://www.youtube.com/embed/H4oPneXH5hI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
-                    iframe( width="100%" src="https://www.youtube.com/embed/7atWvOoMQwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
+                include ../partials/HomepageVideos.html
 
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/blog/" ) Blog
+                h2: a( href="/blog/" ) <i class="fas fa-pencil-alt"></i> &nbsp; Blog
                 each item in blog.slice(0,5)
                     p
                         strong
@@ -106,7 +103,7 @@ block content
                                 span.text-dark
                                     |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
-                h2: a( href="/careers/" ) Careers
+                h2: a( href="/careers/" ) <i class="fas fa-user-astronaut"></i> &nbsp; Careers
                 - var jobs_counter = 0
                 each item in careers.slice().reverse()
                     if jobs_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
@@ -135,7 +132,7 @@ block content
                 
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/use/" ) New Platforms
+                h2: a( href="/use/" ) <i class="fas fa-server"></i> &nbsp; New Platforms
                 p
                     strong
                         a( href="/use/immuneml/" ) immuneML
@@ -158,7 +155,7 @@ block content
                         |  - Profile accessible chromatin regions and provide ATAC-seq-specific information including definitions of nucleosome-free regions (NFRs) and nucleosome-occupied regions.
 
             div.col-sm-8( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
-                h2: a( href="https://www.zotero.org/groups/galaxy" ) Recent Pubs
+                h2: a( href="https://www.zotero.org/groups/galaxy" ) <i class="fas fa-book-open"></i> &nbsp; Recent Pubs
                 p
                     strong
                         a( href="https://doi.org/10.1101/2021.03.08.433891" ) immuneML: An ecosystem for machine learning analysis of adaptive immune receptor repertoires
