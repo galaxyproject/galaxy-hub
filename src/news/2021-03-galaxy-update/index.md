@@ -19,15 +19,97 @@ If you have anything to include to next month's newsletter, then please send it 
 
 ---
 
+# Featured news
+
+This new section highlights some things that are particularly important to the community.
+
+<div class="card-deck lead">
+
+<!-- Videos -->
+<div class="card border-info" style="min-width: 70%; max-width: 100%">
+<img class="card-img-top" src="video-banner.png" alt="Video ... explosion: Screenshot from youtube." />
+<div class="card-header">[Galaxy Videos](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)</div>
+
+When Galaxy started, *screencasts* were a big part of our documentation and training.  Fifteen years later videos have returned to Galaxy with a vengeance.  This is partly due to the pandemic, and partly due to a long term global shift towards recording events, and towards creating short demonstration and introduction videos.
+
+A number of notable videos and video collections have recently been published:
+
+* **[Galaxy Smorgasbord Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=2)**
+  * This collection of 43 videos was created for the recently compled Galaxy Smorgasbord training event.  They cover a huge sample of the Galaxy Training Network materials.
+* **[Galaxy Admin Training Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=3)**
+  * This collection of 27 videos was created for the also recently completed 2021 Galaxy Admin Training event.  Everything you ever wanted to know about administering your own Galaxy instance (well, almost).
+* **[Quick Tips](https://youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)**
+  * Nine videos (and growing), each under 3 minutes, providing brief introductions to commonly used features of Galaxy.
+* **[Galactic Introductions](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)**
+  * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
+* **[Developer resources]()**
+  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/src/community/dev-roundtable/index.md) calls.
+* **[Webinars](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
+  * Recordings of Galaxy Webinars are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
+* **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
+  * Videos that introduce the Galaxy community.
+</div>
+
+
+<!-- Governance  -->
+<div class="card border-info" style="min-width: 30%; max-width: 50%">
+<img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
+<div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
+
+In December Galaxy introduced [Working Groups](/src/community/wg/index.md), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
+
+This month we are introducing the first draft of a [Galaxy Governance Model](/src/community/governance/index.md) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/src/community/exec/index.md), the [Global Galaxy Steering Committee](/src/community/steering/index.md), and incorporates the longstanding [Committers Groups](/src/community/committers/index.md).
+
+Our hope is that this framework will enable us to become a truly global community.
+</div>
+
+
+<!-- Galaxy Career Center -->
+<div class="card border-info" style="min-width: 30%; max-width: 50%">
+<img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
+<div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
+
+The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 12 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
+
+* **North America**
+  * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)** 
+* **Europe**
+  * **Incliva (24 March), INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB**
+</div>
+
+
+</div>
+
 # Event News
 
-Despite COVID-19, there is still a lot going on, although online. We have updated our [list of events](/src/events/index.md) to reflect what we know. Some highlights:
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
 
 <div class="card-deck">
 
+<!-- Galaxy Webinars -->
+<div class="card border-info" style="min-width: 28rem; max-width: 32rem">
+<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
+
+**3, 10, 17, 24 March**
+<br />
+*Galaxy-ELIXIR webinars series: Advanced Features*
+
+With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
+
+**Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE) 
+
+**Processing thousands of datasets simultaneously**, *10 March*
+
+**Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
+
+**Speed up your data analysis with Galaxy: Features no one knows about**, *24 March*
+</div>
+
+
 <!-- GCC2021 Goes Virtual -->
-<div class="card border-info" style="min-width: 20rem; max-width: 24rem">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021 goes virtual" />
+<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 goes virtual" />
 <div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be virtual, affordable, and globally accessible.**
@@ -41,31 +123,8 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 </div>
 
 
-<!-- Galaxy Webinars -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-<div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
-
-**3, 10, 17, 24 March**
-<br />
-*Galaxy-ELIXIR webinars series: Advanced Features*
-
-With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
-
-
-**Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE) 
-
-**Processing thousands of datasets simultaneously**, *10 March*
-
-**Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
-
-**Speed up your data analysis with Galaxy: Features no one knows about**, *24 March*
-
-</div>
-
-
 <!-- UseGalaxy.No -->
-<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)</div>
 
@@ -77,7 +136,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 
 <!-- Czechia! -->
-<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Introduction to Galaxy & Proteomics online workshop](https://www.elixir-czech.cz/events/introduction-to-galaxy-and-proteomics-online-workshop-mar-2021)</div>
 
@@ -89,7 +148,7 @@ This workshop is open to everybody interested in Galaxy and has two independent 
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 18rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
 
@@ -100,7 +159,7 @@ Please join us for the [6th Papercuts CoFest day on March 18](/src/events/2021-0
 </div>
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
@@ -111,7 +170,7 @@ There next roundtable meetup will be:
 </div>
 
 <!-- biohack deadline -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="Biohackathon Europe" />
 <div class="card-header">[Biohackathon Europe Call for Proposals](https://biohackathon-europe.org/projects.html)</div>
 
@@ -121,13 +180,80 @@ Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tr
 </div>
 
 <!-- Mass Spec -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="proteomics-metabolomics.png" alt="Galaxy Mass Spec Community" />
 <div class="card-header">[Galaxy For Mass Spectrometry-based Research Meetup](https://z.umn.edu/celestialmasses)</div>
 
 **1 April**
 
-Please join this [online meetup](https://z.umn.edu/celestialmasses) of the Galaxy Mass Spec community. We meet every 6 weeks.
+Feel charged up while discussing mass spec and proteomics? Please join us on this call to learn more about the Galaxy Mass Spec Community. The next meeting is on April 1st (not a fool’s joke) at 1 PM UTC / 12 noon GMT.  See [the agenda](https://z.umn.edu/celestial masses) for details and joining instructions.
 
+</div>
+
+</div>
+
+
+# Community News
+
+<div class="card-deck">
+
+<!-- EOSC-LIFE -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[EOSC-Life Use Cases](https://galaxyproject.eu/posts/2021/03/10/eosc-life-d6/)</div>
+
+The first round of EOSC-Life demonstrators has driven eight successful use cases, three of them using Galaxy:
+
+* European Open Science Cloud resources for Chemical Biology and Structure-Based Drug Discovery workflows
+* Marine Eukaryote Genomics Portal – access to tools and data-flows for marine genome annotation
+* Image Repository and Scaleable Mining
+
+<img class="card-img-bottom" src="eosc-life-demonstrators.png" alt="EOSC Life Demonstrators Slide" />
+</div>
+
+
+<!-- Czechia! -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
+
+Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)!  If you are part of the Czech computational analysis community then please consider getting involved by:
+
+* Filling out the [Czech Galaxy Community Questionnaire](https://bit.ly/czech-gxy)
+* Signing up for the [Galaxy Czech community mailing list](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
+</div>
+
+
+<!-- Papercuts awards -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[January Papercuts Award Winners](/src/news/2021-02-papercuts-awards/index.md)</div>
+
+The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors. The winners are:
+
+* Catherine Bromhead, University of Melbourne
+* Helena Rasche, ErasmusMC
+* Anthony Bretaudeau, INRIA
+* Oleg Zharkov, University of Freiburg
+* Saskia Hiltemann, ErasmusMC
+* Estelle Ancelet, INRIA
+* And 4 anonymous
+
+The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
+
+<img class="card-img-bottom" style="max-width: 50%;" src="/src/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
+</div>
+
+<!-- Community Videos -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[Community Videos]()</div>
+
+Just in case you missed it above (at the bottom of the *Galaxy Videos* item), two excellent, short, and community centric videos were published this month:
+
+* [Meet and Join the Galaxy Communty](https://youtu.be/-1MPdxmRs8U), created by Beatriz Serrano-Solano, with a large supporting cast!
+* [Welcome to the Galaxy Training Network](https://youtu.be/lDqWxzWNk1k), created by Geert Bonamie of the VIB Bioinformatics Core, with guidance from GTN members.
+
+Take a look.
+<img class="card-img-bottom" src="community-videos.png" alt="Community videos playlist" />
 </div>
 
 </div>
@@ -148,6 +274,17 @@ ASaiM integrates and hierarchically organizes metagenomic and metatranscriptomic
 <img class="card-img-bottom" src="/src/use/asaim/asaim-figure1.png" alt="ASaiM paper, figure 1, showing workflow" />
 
 </div>
+
+<!-- immuneML -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[immuneML](/src/use/immuneml/index.md)</div>
+
+immuneML is an open-source collaborative ecosystem for machine learning-based (ML) analyses of adaptive immune [receptors](https://docs.immuneml.uio.no/galaxy/galaxy_simple_receptors.html) and [repertoires](https://docs.immuneml.uio.no/galaxy/galaxy_simple_repertoires.html) (AIRR).  It comes with extensive help, and is supported by the University of Oslo.
+
+<img class="card-img-bottom" src="/src/use/immuneml/immuneml-logo.png" alt="immuneML logo" />
+
+</div>
+
 
 <!-- InteractoMIX -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
@@ -173,6 +310,9 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 </div>
 
 </div>
+
+
+
 
 
 # Galactic Blog Activity
@@ -228,9 +368,6 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 </div>
 
 
-
-
-
 # Doc, Hub, and Training Updates
 
 <div class="card-deck">
@@ -243,6 +380,14 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
 </div>
 
+
+<!-- Updated Hub landing page -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="hub-landing.png" alt="New Hub landing" />
+<div class="card-header">[Hub Landing Page Update](/src/index.md)</div>
+
+We updated the bottom part of the [hub landing page](/src/index.md).  In addition to highlighting *News, Blog posts, Events,* and *Twitter,* we added summary sections for *Recent Videos, Careers, New Platforms,* and *Recent Pubs.* We also expanded the News and Blog sections.
+</div>
 
 
 <!-- Galaxy-ELIXIR webinar series -->
@@ -267,8 +412,6 @@ Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced
  -->
 
 </div>
-
-
 
 </div>
  
@@ -319,17 +462,6 @@ Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da
 
 </div>
 
-# Galaxy Career Center
-
-[<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>](/src/careers/index.md)
-
-The recently opened **[Galaxy Career Center](http://localhost:8080/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 11 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
-
-* North America
-  * GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions), 
-* Europe
-  * INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB
-
 
 # Releases
 
@@ -338,18 +470,6 @@ The recently opened **[Galaxy Career Center](http://localhost:8080/careers/index
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
 <div class="card-header"></div>
 
-
-</div>
-
-</div>
-
-
-# Other Community News
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header"></div>
 
 </div>
 
