@@ -77,8 +77,75 @@ The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists ever
   * **Incliva (24 March), INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB**
 </div>
 
+</div>
+
+
+# Community News
+
+<div class="card-deck">
+
+<!-- EOSC-LIFE -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[EOSC-Life Use Cases](https://galaxyproject.eu/posts/2021/03/10/eosc-life-d6/)</div>
+
+The first round of EOSC-Life demonstrators has driven eight successful use cases, three of them using Galaxy:
+
+* European Open Science Cloud resources for Chemical Biology and Structure-Based Drug Discovery workflows
+* Marine Eukaryote Genomics Portal – access to tools and data-flows for marine genome annotation
+* Image Repository and Scaleable Mining
+
+<img class="card-img-bottom" src="eosc-life-demonstrators.png" alt="EOSC Life Demonstrators Slide" />
+</div>
+
+
+<!-- Czechia! -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
+
+Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)!  If you are part of the Czech computational analysis community then please consider getting involved by:
+
+* Filling out the [Czech Galaxy Community Questionnaire](https://bit.ly/czech-gxy)
+* Signing up for the [Galaxy Czech community mailing list](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
+</div>
+
+
+<!-- Papercuts awards -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[January Papercuts Award Winners](/src/news/2021-02-papercuts-awards/index.md)</div>
+
+The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors. The winners are:
+
+* Catherine Bromhead, University of Melbourne
+* Helena Rasche, ErasmusMC
+* Anthony Bretaudeau, INRIA
+* Oleg Zharkov, University of Freiburg
+* Saskia Hiltemann, ErasmusMC
+* Estelle Ancelet, INRIA
+* And 4 anonymous
+
+The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
+
+<img class="card-img-bottom" style="max-width: 50%;" src="/src/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
+</div>
+
+<!-- Community Videos -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[Community Videos]()</div>
+
+Just in case you missed it above (at the bottom of the *Galaxy Videos* item), two excellent, short, and community centric videos were published this month:
+
+* [Meet and Join the Galaxy Communty](https://youtu.be/-1MPdxmRs8U), created by Beatriz Serrano-Solano, with a large supporting cast!
+* [Welcome to the Galaxy Training Network](https://youtu.be/lDqWxzWNk1k), created by Geert Bonamie of the [VIB Bioinformatics Core](https://www.bits.vib.be/), with guidance from GTN members.
+
+Take a look.
+<img class="card-img-bottom" src="community-videos.png" alt="Community videos playlist" />
+</div>
 
 </div>
+
+
 
 # Event News
 
@@ -87,7 +154,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy Webinars -->
-<div class="card border-info" style="min-width: 28rem; max-width: 32rem">
+<div class="card border-info" style="min-width: 28rem; max-width: 36rem">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
 
@@ -187,76 +254,10 @@ Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tr
 **1 April**
 
 Feel charged up while discussing mass spec and proteomics? Please join us on this call to learn more about the Galaxy Mass Spec Community. The next meeting is on April 1st (not a fool’s joke) at 1 PM UTC / 12 noon GMT.  See [the agenda](https://z.umn.edu/celestial masses) for details and joining instructions.
-
 </div>
-
-</div>
-
-
-# Community News
-
-<div class="card-deck">
-
-<!-- EOSC-LIFE -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">[EOSC-Life Use Cases](https://galaxyproject.eu/posts/2021/03/10/eosc-life-d6/)</div>
-
-The first round of EOSC-Life demonstrators has driven eight successful use cases, three of them using Galaxy:
-
-* European Open Science Cloud resources for Chemical Biology and Structure-Based Drug Discovery workflows
-* Marine Eukaryote Genomics Portal – access to tools and data-flows for marine genome annotation
-* Image Repository and Scaleable Mining
-
-<img class="card-img-bottom" src="eosc-life-demonstrators.png" alt="EOSC Life Demonstrators Slide" />
 </div>
 
 
-<!-- Czechia! -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
-
-Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)!  If you are part of the Czech computational analysis community then please consider getting involved by:
-
-* Filling out the [Czech Galaxy Community Questionnaire](https://bit.ly/czech-gxy)
-* Signing up for the [Galaxy Czech community mailing list](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/).
-
-<img class="card-img-bottom" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
-</div>
-
-
-<!-- Papercuts awards -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
-<div class="card-header">[January Papercuts Award Winners](/src/news/2021-02-papercuts-awards/index.md)</div>
-
-The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors. The winners are:
-
-* Catherine Bromhead, University of Melbourne
-* Helena Rasche, ErasmusMC
-* Anthony Bretaudeau, INRIA
-* Oleg Zharkov, University of Freiburg
-* Saskia Hiltemann, ErasmusMC
-* Estelle Ancelet, INRIA
-* And 4 anonymous
-
-The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
-
-<img class="card-img-bottom" style="max-width: 50%;" src="/src/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
-</div>
-
-<!-- Community Videos -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
-<div class="card-header">[Community Videos]()</div>
-
-Just in case you missed it above (at the bottom of the *Galaxy Videos* item), two excellent, short, and community centric videos were published this month:
-
-* [Meet and Join the Galaxy Communty](https://youtu.be/-1MPdxmRs8U), created by Beatriz Serrano-Solano, with a large supporting cast!
-* [Welcome to the Galaxy Training Network](https://youtu.be/lDqWxzWNk1k), created by Geert Bonamie of the VIB Bioinformatics Core, with guidance from GTN members.
-
-Take a look.
-<img class="card-img-bottom" src="community-videos.png" alt="Community videos playlist" />
-</div>
-
-</div>
 
 
 # Galaxy Platforms News
@@ -380,6 +381,27 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
 </div>
 
+<!-- Generating a cell matrix using Alevin -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="gtn-alevin-slice.png" alt="Alevin Workflow" />
+<div class="card-header">[Generating a cell matrix using Alevin](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html)</div>
+
+By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/) and [Jonathan Manning](https://training.galaxyproject.org/training-material/hall-of-fame/pinin4fjords/)
+
+This new tutorial will take you from raw FASTQ files to a cell x gene data matrix in AnnData format. What’s a data matrix, and what’s AnnData format? Well you’ll find out! Importantly, this is the first step in processing single cell data in order to start analysing it.
+</div>
+
+
+<!-- Introduction to recurrent neural networks (RNN) -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="gtn-dog-on-the-couch.png" alt="Dog on the couch, an example from tutorial" />
+<div class="card-header">[Introduction to recurrent neural networks (RNN)](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/RNN/tutorial.html)</div>
+
+By [Kaivan Kamali](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/)
+
+In this tutorial, we discuss recurrent neural networks, which model sequential data, and have been successfully applied to language generation, machine translation, speech recognition, image description, and text summarization.
+</div>
+
 
 <!-- Updated Hub landing page -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
@@ -390,8 +412,19 @@ We updated the bottom part of the [hub landing page](/src/index.md).  In additio
 </div>
 
 
+<!-- From small to large-scale genome comparison -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<img class="card-img-top" src="gtn-comparison.png" alt="Comparison" />
+<div class="card-header">[From small to large-scale genome comparison](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/tutorial.html)</div>
+
+By [Esteban Perez-Wohlfeil](https://training.galaxyproject.org/training-material/hall-of-fame/estebanpw/)
+
+This new [tutorial](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/tutorial.html) and [slide deck](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/slides.html) cover how to compare both small and large sequences using both seed-based alignment methods and alignment-free methods, and how to post-process our comparisons to refine our results. Plus the theoretical background of sequence comparison, including why some tools are suitable for some jobs and others are not.
+</div>
+
+
 <!-- Galaxy-ELIXIR webinar series -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 20rem; max-width: 28rem;">
 <div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic](https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/)</div>
 
 After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on [‘Open Data Infrastructures to tackle COVID-19 pandemic’](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series).
@@ -399,18 +432,6 @@ After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and O
 In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
 
 <img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-</div>
-
-<!-- GTN video -->
-<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
-<div class="card-header">New GTN welcome video</div>
-
-Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced an astonishing video introduction to the GTN features.
-
-<!-- this does not work
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- -->
-
 </div>
 
 </div>
