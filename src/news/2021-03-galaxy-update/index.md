@@ -181,7 +181,7 @@ Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tr
 
 <!-- Mass Spec -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="proteomics-metabolomics.png" alt="Galaxy Mass Spec Community" />
+<img class="card-img-top" src="mass-spec.png" alt="Galaxy Mass Spec Community" />
 <div class="card-header">[Galaxy For Mass Spectrometry-based Research Meetup](https://z.umn.edu/celestialmasses)</div>
 
 **1 April**
@@ -453,8 +453,23 @@ Gangiredla, J., Rand, H., Benisatto, D., Payne, J., Strittmatter, C., Sanders, J
 Ramsey, J., Rasche, H., Maughmer, C., Criscione, A., Mijalis, E., Liu, M., Hu, J. C., Young, R., & Gill, J. J. (2020). *PLOS Computational Biology*, 16(11), e1008214. https://doi.org/10.1371/journal.pcbi.1008214
 </div>
 
+
 <div class="card border-info" style="min-width: 12rem;">
 
+<div class="card-header"> [immuneML: An ecosystem for machine learning analysis of adaptive immune receptor repertoires](https://doi.org/10.1101/2021.03.08.433891)</div>
+
+Pavlovic, M., Scheffer, L., Motwani, K., Kanduri, C., Kompova, R., Vazov, N., Waagan, K., Bernal, F. L. M., Costa, A. A., Corrie, B., Akbar, R., Hajj, G. S. A., Balaban, G., Brusko, T. M., Chernigovskaya, M., Christley, S., Cowell, L. G., Frank, R., Grytten, I., … Sandve, G. K. (2021). *BioRxiv*, 2021.03.08.433891. https://doi.org/10.1101/2021.03.08.433891
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [ChiRA: An integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data](https://doi.org/10.1093/gigascience/giaa158)</div>
+
+Videm, P., Kumar, A., Zharkov, O., Grüning, B. A., & Backofen, R. (2021). *GigaScience*, 10(giaa158). https://doi.org/10.1093/gigascience/giaa158
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
 <div class="card-header"> [Galaxy and MEAN Stack to Create a User-Friendly Workflow for the Rational Optimization of Cancer Chemotherapy](https://doi.org/10.3389/fgene.2021.624259)</div>
 
 Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da Silva, F. A. B., & Carels, N. (2021). *Frontiers in Genetics*, 12. https://doi.org/10.3389/fgene.2021.624259
@@ -467,10 +482,39 @@ Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
-<div class="card-header"></div>
+<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
 
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
 
+There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
 </div>
 
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">Planemo 0.74.2-3</div>
+
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of
+command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some notable changes
+
+* Better handling of `virtualenv`
+* Display live logs when Galaxy is run in the background.
+* Container register for GitHub workflows fixes
+
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
+</div>
+
+
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card-header">Galaxy Language Server 0.4.0-1</div>
+
+[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development fo Galaxy tools 
+wrappers inside modern code editors.
+
+The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
+
+</div>
 </div>
