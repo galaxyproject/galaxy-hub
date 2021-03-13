@@ -35,15 +35,15 @@ When Galaxy started, *screencasts* were a big part of our documentation and trai
 A number of notable videos and video collections have recently been published:
 
 * **[Galaxy Smorgasbord Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=2)**
-  * This collection of 43 videos was created for the recently compled Galaxy Smorgasbord training event.  They cover a huge sample of the Galaxy Training Network materials.
+  * This collection of 43 videos was created for the recently completed Galaxy Smorgasbord training event.  They cover a huge sample of the Galaxy Training Network materials.
 * **[Galaxy Admin Training Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=3)**
   * This collection of 27 videos was created for the also recently completed 2021 Galaxy Admin Training event.  Everything you ever wanted to know about administering your own Galaxy instance (well, almost).
 * **[Quick Tips](https://youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)**
   * Nine videos (and growing), each under 3 minutes, providing brief introductions to commonly used features of Galaxy.
 * **[Galactic Introductions](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)**
   * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
-* **[Developer resources]()**
-  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/src/community/dev-roundtable/index.md) calls.
+* **[Developer resources](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7)**
+  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/src/community/devroundtable/index.md) calls.
 * **[Webinars & Workshops](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
   * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
 * **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
@@ -435,7 +435,7 @@ This new [tutorial](https://training.galaxyproject.org/training-material/topics/
 
 After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic’](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) last spring, the Galaxy community has been running a second Galaxy-ELIXIR webinar series on [‘Open Data Infrastructures to tackle COVID-19 pandemic’](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series).
 
-In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available osn the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
+In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
 
 <img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 </div>
@@ -546,7 +546,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 <div class="card border-info"  style="min-width: 25%; max-width: 100%;">
 <div class="card-header">Galaxy Language Server 0.4.0-1</div>
 
-[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development fo Galaxy tools 
+[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 
 wrappers inside modern code editors.
 
 The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
