@@ -6,7 +6,7 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-It is a very busy time in the Galaxy. 2021 is young, but we have already had two large training events, including the largest Galaxy event ever - the GTN Smorgasbord (with an amazing 1100+ people registered). We are ramping up for GCC2021, which will be online, global, and affordable, and will be more accessible (and likely much larger) than an in-person Galaxy Community Conference.
+It is a very busy time in the Galaxy. 2021 is young, but we have already had two large training events, including the largest Galaxy event ever - the GTN Smörgåsbord (with an amazing 1100+ people registered). We are ramping up for GCC2021, which will be online, global, and affordable, and will be more accessible (and likely much larger) than an in-person Galaxy Community Conference.
 
 Galaxy is also shifting with the times, and to reflect how our community has grown.  This newsletter includes a new **[Featured News](#featured-news)** section highlighting 1) the **recent explosion of videos** related to Galaxy, 2) a draft **global governance model for Galaxy**, and 3) the new **Galaxy Career Center.**
 
@@ -34,8 +34,8 @@ When Galaxy started, *screencasts* were a big part of our documentation and trai
 
 A number of notable videos and video collections have recently been published:
 
-* **[Galaxy Smorgasbord Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=2)**
-  * This collection of 43 videos was created for the recently completed Galaxy Smorgasbord training event.  They cover a huge sample of the Galaxy Training Network materials.
+* **[Galaxy Smörgåsbord Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=2)**
+  * This collection of 43 videos was created for the recently completed Galaxy Smörgåsbord training event.  They cover a huge sample of the Galaxy Training Network materials.
 * **[Galaxy Admin Training Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=3)**
   * This collection of 27 videos was created for the also recently completed 2021 Galaxy Admin Training event.  Everything you ever wanted to know about administering your own Galaxy instance (well, almost).
 * **[Quick Tips](https://youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)**
