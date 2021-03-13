@@ -6,22 +6,22 @@ date: ""
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[Event news](#event-news)**
-* **[Galaxy platform news](#galaxy-platforms-news)**
-* **[Blog posts](#galactic-blog-activity)**
-* **[Training material and doc updates](#doc-hub-and-training-updates)**
-* **[Publications](#publications)**
-* **[Who's hiring?](#whos-hiring)**
-* **[New releases](#releases)**
-* **[Other News](#other-news)**
+It is a very busy time in the Galaxy. 2021 is young, but we have already had two large training events, including the largest Galaxy event ever - the GTN Smorgasbord (with an amazing 1100+ people registered). We are ramping up for GCC2021, which will be online, global, and affordable, and will be more accessible (and likely much larger) than an in-person Galaxy Community Conference.
 
-If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Galaxy is also shifting with the times, and to reflect how our community has grown.  This newsletter includes a new **[Featured News](#featured-news)** section highlighting 1) the **recent explosion of videos** related to Galaxy, 2) a draft **global governance model for Galaxy**, and 3) the new **Galaxy Career Center.**
+
+That's followed by another new section highlighting **["community" news](#community-news).** Arguably, *everything* here is community news, but items listed here particularly emphasize the community aspects of Galaxy.
+
+The newsletter still includes sections on **[upcoming events](#event-news)**, news about **[public Galaxy platforms](#galaxy-platforms-news)**, recent **[blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**, recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**  It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
+
+Enjoy,
+
+Dave Clements and Beatriz Serrano-Solano, Editors
+
 
 ---
 
 # Featured news
-
-This new section highlights some things that are particularly important to the community.
 
 <div class="card-deck lead">
 
@@ -44,15 +44,15 @@ A number of notable videos and video collections have recently been published:
   * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
 * **[Developer resources]()**
   * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/src/community/dev-roundtable/index.md) calls.
-* **[Webinars](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
-  * Recordings of Galaxy Webinars are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
+* **[Webinars & Workshops](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
+  * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
 * **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
   * Videos that introduce the Galaxy community.
 </div>
 
 
 <!-- Governance  -->
-<div class="card border-info" style="min-width: 30%; max-width: 50%">
+<div class="card border-info" style="min-width: 30%; max-width: 100%">
 <img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
 <div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
 
@@ -65,7 +65,7 @@ Our hope is that this framework will enable us to become a truly global communit
 
 
 <!-- Galaxy Career Center -->
-<div class="card border-info" style="min-width: 30%; max-width: 50%">
+<div class="card border-info" style="min-width: 30%; max-width: 100%">
 <img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
 <div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
 
@@ -100,14 +100,13 @@ The first round of EOSC-Life demonstrators has driven eight successful use cases
 
 <!-- Czechia! -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
 
 Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)!  If you are part of the Czech computational analysis community then please consider getting involved by:
 
 * Filling out the [Czech Galaxy Community Questionnaire](https://bit.ly/czech-gxy)
 * Signing up for the [Galaxy Czech community mailing list](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/).
-
-<img class="card-img-bottom" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 </div>
 
 
@@ -130,17 +129,13 @@ The calendars actually start in March 2021.  You [can order one too](https://www
 <img class="card-img-bottom" style="max-width: 50%;" src="/src/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
 </div>
 
-<!-- Community Videos -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
-<div class="card-header">[Community Videos]()</div>
+<!-- Meet & Join the Galaxy Community -->
+<div class="card border-info" style="min-width: 290px; max-width: 290px;">
+<iframe width="290" height="180" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="card-header">[Meet & Join the Galaxy Community](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
 
-Just in case you missed it above (at the bottom of the *Galaxy Videos* item), two excellent, short, and community centric videos were published this month:
+The Galaxy community has recorded different ways of joining us, with suggestions for newcomers.
 
-* [Meet and Join the Galaxy Communty](https://youtu.be/-1MPdxmRs8U), created by Beatriz Serrano-Solano, with a large supporting cast!
-* [Welcome to the Galaxy Training Network](https://youtu.be/lDqWxzWNk1k), created by Geert Bonamie of the [VIB Bioinformatics Core](https://www.bits.vib.be/), with guidance from GTN members.
-
-Take a look.
-<img class="card-img-bottom" src="community-videos.png" alt="Community videos playlist" />
 </div>
 
 </div>
@@ -154,7 +149,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy Webinars -->
-<div class="card border-info" style="min-width: 28rem; max-width: 36rem">
+<div class="card border-info" style="min-width: 50%; max-width: 100%">
 <img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
 
@@ -175,7 +170,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 
 
 <!-- GCC2021 Goes Virtual -->
-<div class="card border-info" style="min-width: 20rem; max-width: 24rem;">
+<div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 goes virtual" />
 <div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
 
@@ -314,20 +309,9 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 
 
-
-
 # Galactic Blog Activity
 
 <div class="card-deck">
-
-<!-- Meet & Join the Galaxy Community -->
-<div class="card border-info" style="min-width: 21rem; max-width: 24rem;">
-<div class="card-header">[Meet & Join the Galaxy Community](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
-
-The Galaxy community has recorded different ways of joining us, with suggestions for newcomers.
-
-<iframe width="290" height="180" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 
 <!-- GalaxyWorks Blog Posts -->
@@ -352,6 +336,18 @@ The Galaxy community has recorded different ways of joining us, with suggestions
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai) enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google) to sign in and access Galaxy.
 
 <img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="ELIXIR" />
+</div>
+
+
+<!-- Global framework for SARS-CoV-2 data analysis: Application to intrahost variation -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">Global framework for SARS-CoV-2 data analysis: Application to intrahost variation</div>
+
+By Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko, and the Galaxy Team in US, EU, and AU 
+
+This analysis of intrahost variation in the COVID pandemic is split into two postings (**[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**).
+
+<img class="card-img-bottom" src="/src/blog/2021-02-covid-intrahost/spatial-density.png" alt="Part of figure 8, Spatial density of variants per gene/product" />
 </div>
 
 
@@ -380,6 +376,16 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 
 This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
 </div>
+
+
+<!-- GTN video -->
+<div class="card border-info" style="min-width: 290px; max-width: 290px;">
+<iframe width="290" height="180" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="card-header">New GTN welcome video</div>
+
+Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced an astonishing video introduction to the GTN features.
+</div>
+
 
 <!-- Generating a cell matrix using Alevin -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
@@ -496,6 +502,14 @@ Videm, P., Kumar, A., Zharkov, O., Grüning, B. A., & Backofen, R. (2021). *Giga
 Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da Silva, F. A. B., & Carels, N. (2021). *Frontiers in Genetics*, 12. https://doi.org/10.3389/fgene.2021.624259
 </div>
 
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header"> [A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19)](https://doi.org/10.1101/2021.02.09.21251427)</div>
+
+Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E., McGowan, T., Griffin, T. J., & Jagtap, P. D. (2021). . *MedRxiv*, 2021.02.09.21251427. https://doi.org/10.1101/2021.02.09.21251427
+
+</div>
+
 </div>
 
 
@@ -503,7 +517,7 @@ Pires, J. G., da Silva, G. F., Weyssow, T., Conforte, A. J., Pagnoncelli, D., da
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
+<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
 <div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
 
 [BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
@@ -513,7 +527,7 @@ There were a lot of improvements in this release. See the [release notes](https:
 
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card border-info"  style="min-width: 25%; max-width: 100%">
 <div class="card-header">Planemo 0.74.2-3</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
@@ -529,7 +543,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 </div>
 
 
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
 <div class="card-header">Galaxy Language Server 0.4.0-1</div>
 
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development fo Galaxy tools 
