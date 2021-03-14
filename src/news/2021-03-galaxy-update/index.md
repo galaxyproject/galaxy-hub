@@ -1,7 +1,7 @@
 ---
 title: 'March 2021 Galactic News'
 tease: "Check out the new Featured News and Community News sections."
-date: ""
+date: "2021-03-15"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
