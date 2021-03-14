@@ -56,7 +56,7 @@ A number of notable videos and video collections have recently been published:
 <img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
 <div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
 
-In December Galaxy introduced [Working Groups](/src/community/wg/index.md), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
+In December, Galaxy introduced [Working Groups](/src/community/wg/index.md), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
 
 This month we are introducing the first draft of a [Galaxy Governance Model](/src/community/governance/index.md) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/src/community/exec/index.md), the [Global Galaxy Steering Committee](/src/community/steering/index.md), and incorporates the longstanding [Committers Groups](/src/community/committers/index.md).
 
@@ -187,7 +187,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 
 **Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE) 
 
-**Processing thousands of datasets simultaneously**, *10 March*
+**Processing thousands of datasets simultaneously**, *10 March* [watch the video](https://youtu.be/7DN8hbI87PE) 
 
 **Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
 
