@@ -10,7 +10,7 @@ It is a very busy time in the Galaxy. 2021 is young, but we have already had two
 
 Galaxy is also shifting with the times, and to reflect how our community has grown.  This newsletter includes a new **[Featured News](#featured-news)** section highlighting 1) the **recent explosion of videos** related to Galaxy, 2) a draft **global governance model for Galaxy**, and 3) the new **Galaxy Career Center.**
 
-That's followed by another new section highlighting **["community" news](#community-news).** Arguably, *everything* here is community news, but items listed here particularly emphasize the community aspects of Galaxy.
+That's followed by another new section highlighting **[community news](#community-news).** Arguably, *everything* here is community news, but items listed here particularly emphasize the community aspects of Galaxy.
 
 The newsletter still includes sections on **[upcoming events](#event-news)**, news about **[public Galaxy platforms](#galaxy-platforms-news)**, recent **[blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**, recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**  It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
 
@@ -118,6 +118,20 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 We would like to reintroduce the newly updated [F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy).  This gateway offers a place to publish your Galaxy-related presentations for free, and has been the recommended venue for publishing [GCC](/src/gcc/index.md) slides and posters since GCC2016.  It's a great way to make your work more visible and to get a DOI too.
 
 F1000 Research is also an open access journal, and any Galaxy-focused publications in it are also featured in the gateway, including [one of this month's highlighted papers](https://doi.org/10.12688/f1000research.28608.1) (see [platforms](#galaxy-platforms-news) and [publications](#publications) below).
+</div>
+
+
+<!-- Papercuts awards -->
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
+<div class="card-header">[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)</div>
+
+The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
+
+*And we need your help!*
+
+1. Please [add suggestions for projects here](http://gmod.org/wiki/GSOC_Project_Ideas_2021) (or send them to Dave Clements).
+2. Please apply to work on Galaxy projects between March 29 and April 12.
 </div>
 
 
@@ -380,15 +394,6 @@ Mali shares the feedback of two workshops run using TIaaS: one or graduate stude
 
 <div class="card-deck">
 
-<!-- GTN Smörgåsbord -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
-<div class="card-header">[GTN Smörgåsbord Report](https://shiltemann.github.io/global-galaxy-course/)</div>
-
-This week-long workshop on how to use Galaxy was online, global, and free.  The [program](https://shiltemann.github.io/global-galaxy-course/#program) covers a general introduction to the Galaxy platform, NGS Analysis (DNA-seq and RNA-seq), Proteomics, and also features a *Choose your own adventure* day (!?).
-</div>
-
-
 <!-- GTN video -->
 <div class="card border-info" style="min-width: 290px; max-width: 290px;">
 <iframe width="290" height="180" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -399,7 +404,7 @@ Geert Bonamie ([VIB Bioinformatics Core](https://www.bits.vib.be/)) has produced
 
 
 <!-- Generating a cell matrix using Alevin -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="gtn-alevin-slice.png" alt="Alevin Workflow" />
 <div class="card-header">[Generating a cell matrix using Alevin](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html)</div>
 
@@ -410,7 +415,7 @@ This new tutorial will take you from raw FASTQ files to a cell x gene data matri
 
 
 <!-- Introduction to recurrent neural networks (RNN) -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="gtn-dog-on-the-couch.png" alt="Dog on the couch, an example from tutorial" />
 <div class="card-header">[Introduction to recurrent neural networks (RNN)](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/RNN/tutorial.html)</div>
 
@@ -421,7 +426,7 @@ In this tutorial, we discuss recurrent neural networks, which model sequential d
 
 
 <!-- Updated Hub landing page -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="hub-landing.png" alt="New Hub landing" />
 <div class="card-header">[Hub Landing Page Update](/src/index.md)</div>
 
@@ -430,7 +435,7 @@ We updated the bottom part of the [hub landing page](/src/index.md).  In additio
 
 
 <!-- From small to large-scale genome comparison -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="gtn-comparison.png" alt="Comparison" />
 <div class="card-header">[From small to large-scale genome comparison](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/hpc-for-lsgc/tutorial.html)</div>
 
@@ -441,7 +446,7 @@ This new [tutorial](https://training.galaxyproject.org/training-material/topics/
 
 
 <!-- Life Science Trainers -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <div class="card-header">[Life Science Trainers Questionnaire](https://lifescitrainers.org/2021/01/18/global-trainers-survey/)</div>
 
 The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. **If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.**
