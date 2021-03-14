@@ -429,6 +429,17 @@ This new [tutorial](https://training.galaxyproject.org/training-material/topics/
 </div>
 
 
+<!-- Life Science Trainers -->
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header">[Life Science Trainers Questionnaire](https://lifescitrainers.org/2021/01/18/global-trainers-survey/)</div>
+
+The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. **If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.**
+
+<img class="card-img-bottom" src="/src/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
+</div>
+
+
+
 <!-- Galaxy-ELIXIR webinar series -->
 <div class="card border-info" style="min-width: 20rem; max-width: 28rem;">
 <div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Open Data Infrastructures to tackle COVID-19 pandemic](https://galaxyproject.eu/posts/2021/02/25/2nd-elixir-webinar-series-covid/)</div>
