@@ -1,6 +1,6 @@
 ---
 title: 'March 2021 Galactic News'
-tease: "Events, platform news, blog posts, videos, pubs, jobs and releases"
+tease: "Check out the new Featured News and Community News sections."
 date: ""
 ---
 
