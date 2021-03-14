@@ -85,7 +85,7 @@ The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists ever
 <div class="card-deck">
 
 <!-- EOSC-LIFE -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card border-info"  style="min-width: 16rem; max-width: 100%;">
 <div class="card-header">[EOSC-Life Use Cases](https://galaxyproject.eu/posts/2021/03/10/eosc-life-d6/)</div>
 
 The first round of EOSC-Life demonstrators has driven eight successful use cases, three of them using Galaxy:
@@ -99,7 +99,7 @@ The first round of EOSC-Life demonstrators has driven eight successful use cases
 
 
 <!-- Czechia! -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem">
+<div class="card border-info"  style="min-width: 16rem; max-width: 100%;">
 <img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
 
@@ -110,8 +110,20 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 </div>
 
 
+<!-- F1000 -->
+<div class="card border-info"  style="min-width: 20rem; max-width: 100%">
+<img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000 Research" />
+<div class="card-header">[F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy)</div>
+
+We would like to reintroduce the newly updated [F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy).  This gateway offers a place to publish your Galaxy-related presentations for free, and has been the recommended venue for publishing [GCC](/src/gcc/index.md) slides and posters since GCC2016.  It's a great way to make your work more visible and to get a DOI too.
+
+F1000 Research is also an open access journal, and any Galaxy-focused publications in it are also featured in the gateway, including [one of this month's highlighted papers](https://doi.org/10.12688/f1000research.28608.1) (see [platforms](#galaxy-platforms-news) and [publications](#publications) below).
+</div>
+
+
+
 <!-- Papercuts awards -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[January Papercuts Award Winners](/src/news/2021-02-papercuts-awards/index.md)</div>
 
 The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors. The winners are:
@@ -186,19 +198,18 @@ Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virt
 
 
 <!-- UseGalaxy.No -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 18rem; max-width: 100%;">
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)</div>
 
 **23 March, 7 April, or 13 April**
 
 ELIXIR Norway is pleased to announce the first online course on using the [Norwegian e-infrastructure for Life Science (NeLS)](https://nels.bioinfo.no/) and the nationally supported [usegalaxy.no](https://usegalaxy.no/). There are 3 identical events. Please register for only one of them.
-
 </div>
 
 
 <!-- Czechia! -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Introduction to Galaxy & Proteomics online workshop](https://www.elixir-czech.cz/events/introduction-to-galaxy-and-proteomics-online-workshop-mar-2021)</div>
 
@@ -210,18 +221,18 @@ This workshop is open to everybody interested in Galaxy and has two independent 
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
 
 **18 March, Online, Global**
 
 Please join us for the [6th Papercuts CoFest day on March 18](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
-
 </div>
 
+
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
 
@@ -232,7 +243,7 @@ There next roundtable meetup will be:
 </div>
 
 <!-- biohack deadline -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="Biohackathon Europe" />
 <div class="card-header">[Biohackathon Europe Call for Proposals](https://biohackathon-europe.org/projects.html)</div>
 
@@ -242,7 +253,7 @@ Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tr
 </div>
 
 <!-- Mass Spec -->
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem">
+<div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="mass-spec.png" alt="Galaxy Mass Spec Community" />
 <div class="card-header">[Galaxy For Mass Spectrometry-based Research Meetup](https://z.umn.edu/celestialmasses)</div>
 
