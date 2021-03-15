@@ -552,10 +552,8 @@ There were a lot of improvements in this release. See the [release notes](https:
 </div>
 
 
-
 <div class="card border-info"  style="min-width: 25%; max-width: 100%">
 <div class="card-header">Planemo 0.74.2-3</div>
-
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
@@ -578,4 +576,18 @@ wrappers inside modern code editors.
 The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
 
 </div>
+</div>
+
+
+# Other News
+
+<div class="card-deck">
+
+<div class="card border-info"  style="min-width: 25%; max-width: 33%;">
+<img class="card-img-top" src="yvan-rad-seq.png" alt="RAD-Seq goes well with baby care" />
+<div class="card-header">[RADseq data analysis](https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/)</div>
+
+...on mobile phone, while baby is sleeping.
+
+Yvan Le Bras reminded us of several very cool things.
 </div>
