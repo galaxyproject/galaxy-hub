@@ -112,12 +112,12 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 
 <!-- F1000 -->
 <div class="card border-info"  style="min-width: 20rem; max-width: 100%">
-<img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000 Research" />
+<img class="card-img-top" src="/src/images/logos/f1000research-logo-wide.png" alt="F1000 Research" />
 <div class="card-header">[F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy)</div>
 
-We would like to reintroduce the newly updated [F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy).  This gateway offers a place to publish your Galaxy-related presentations for free, and has been the recommended venue for publishing [GCC](/src/gcc/index.md) slides and posters since GCC2016.  It's a great way to make your work more visible and to get a DOI too.
+We would like to reintroduce the newly updated [Galaxy Gateway](https://f1000research.com/gateways/galaxy) powered by [F1000Research](https://f1000research.com/). This Gateway offers an accessible home for all research outputs. You can [rapidly publish your Galaxy-related presentations for free](https://f1000research.com/gateways/galaxy/for-authors/publish-your-research). The Gateway has been the recommended venue for publishing [GCC](/src/gcc/index.md) slides and posters since GCC2016. It's a great way to improve the visibility and accessibility of your research, and you will receive a DOI too.
 
-F1000 Research is also an open access journal, and any Galaxy-focused publications in it are also featured in the gateway, including [one of this month's highlighted papers](https://doi.org/10.12688/f1000research.28608.1) (see [platforms](#galaxy-platforms-news) and [publications](#publications) below).
+[F1000Research](https://f1000research.com/) is an open access publishing platform supporting data deposition and sharing. The [Galaxy Gateway](https://f1000research.com/gateways/galaxy/about-this-gateway) enables you to accelerate the impact of your work. Discover this month's [highlighted paper](https://doi.org/10.12688/f1000research.28608.1) (and see [Platforms](#galaxy-platforms-news) and [Publications](#publications) below too).
 </div>
 
 
