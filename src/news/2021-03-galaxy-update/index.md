@@ -197,17 +197,16 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 
 <!-- GCC2021 Goes Virtual -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 goes virtual" />
-<div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be virtual, affordable, and globally accessible.**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
-Things are just too uncertain to continue to plan an in person event for early July. GCC2021 won't be in person, but it will be more accessible and affordable because of it:
+*GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: Lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
-* **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
-* **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
+We also expect to open registration and abstract submission shortly.  Registration discounts will be available to researchers from low and lower-middle income countries.  For everyone else, registration will be downright cheap too.  We will reuse the BCC2020 model for talks, posters, and demos: Posters and demos will be live (sometimes in both hemispheres), and talks will be prerecorded.
 
-Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virtual/index.md) for details.
+Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
 
 
