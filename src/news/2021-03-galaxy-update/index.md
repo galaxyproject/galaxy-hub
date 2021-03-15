@@ -273,7 +273,7 @@ Galaxy has always had a strong presence at Biohackathon Europe.  We hope this tr
 
 **1 April**
 
-Feel charged up while discussing mass spec and proteomics? Please join us on this call to learn more about the Galaxy Mass Spec Community. The next meeting is on April 1st (not a fool’s joke) at 1 PM UTC / 12 noon GMT.  See [the agenda](https://z.umn.edu/celestial masses) for details and joining instructions.
+Feel charged up while discussing mass spec and proteomics? Please join us on this call to learn more about the Galaxy Mass Spec Community. The next meeting is on April 1st (not a fool’s joke) at 1 PM UTC / 12 noon GMT.  See [the agenda](https://z.umn.edu/celestialmasses) for details and joining instructions.
 </div>
 </div>
 
