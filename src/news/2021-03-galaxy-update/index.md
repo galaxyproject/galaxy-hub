@@ -69,12 +69,12 @@ Our hope is that this framework will enable us to become a truly global communit
 <img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
 <div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
 
-The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 12 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
+The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
 * **North America**
   * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)** 
 * **Europe**
-  * **Incliva (24 March), INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB**
+  * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
 </div>
 
 </div>
