@@ -593,7 +593,7 @@ There were a lot of improvements in this release. See the [release notes](https:
 
 
 <div class="card border-info"  style="min-width: 25%; max-width: 100%">
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.2-3</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
