@@ -1,7 +1,7 @@
 ---
 title: 'March 2021 Galactic News'
 tease: "Check out the new Featured News and Community News sections."
-date: "2021-03-15"
+date: ""
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
@@ -318,6 +318,23 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 </div>
 
+
+<!-- GalaxyWorks -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[A new Galaxy Pro Service is Coming](https://galaxyworks.io/blog/researcher-beta-users)</div>
+
+[GalaxyWorks](https://galaxyworks.io/) is a company that offers commercial-grade support for Galaxy instances, and they are looking for beta testers for a new service.  Galaxy Pro Researcher will offer:
+
+* A self sign-up option with a low subscription fee
+* Access to fast and versatile Galaxy Pro without usage quotas
+* No need to manage your own Galaxy server
+
+Interested in being an early adopter? See the [full announcement](https://galaxyworks.io/blog/researcher-beta-users).
+
+<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo."  />
+</div>
+
+
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
@@ -344,12 +361,10 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 <img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
 
-[GalaxyWorks](https://galaxyworks.io/) is a company that offers commercial-grade support for Galaxy instances.  They have started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month:
+[GalaxyWorks](https://galaxyworks.io/) has also started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month are:
 
 * [Change a datatype on multiple datasets](https://galaxyworks.io/blog/change-datatype-on-many-datasets), Feb 8, by Dan Blankenberg
 * [How to choose the Galaxy that works for you](https://galaxyworks.io/blog/choose-your-galaxy), Mar 1, by Enis Afgan
-
-
 </div>
 
 
