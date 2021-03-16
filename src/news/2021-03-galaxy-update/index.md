@@ -12,7 +12,16 @@ Galaxy is also shifting with the times, and to reflect how our community has gro
 
 That's followed by another new section highlighting **[community news](#community-news).** Arguably, *everything* here is community news, but items listed here particularly emphasize the community aspects of Galaxy.
 
-The newsletter still includes sections on **[upcoming events](#event-news)**, news about **[public Galaxy platforms](#galaxy-platforms-news)**, recent **[blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**, recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**  It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
+The newsletter still includes sections on
+
+* **[upcoming events](#event-news)**,
+* news about **[public Galaxy platforms](#galaxy-platforms-news)**,
+* recent **[blog posts](#galactic-blog-activity)**,
+* **[training and doc updates](#doc-hub-and-training-updates)**,
+* recent **[open-access Galaxy-related publications](#publications)**, and
+* **[new releases](#releases).**
+
+It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
 
 Enjoy,
 
@@ -52,7 +61,7 @@ A number of notable videos and video collections have recently been published:
 
 
 <!-- Governance  -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%">
+<div class="card border-info" style="min-width: 40%; max-width: 100%">
 <img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
 <div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
 
@@ -64,8 +73,25 @@ Our hope is that this framework will enable us to become a truly global communit
 </div>
 
 
+<!-- Smorgasbord -->
+<div class="card border-info" style="min-width: 25%; max-width: 100%">
+<img class="card-img-top" src="/src/blog/2021-03-smorgasbord/slack-themes.png" alt="Themes in Slack over time" />
+<div class="card-header">[GTN Smörgåsbord Report](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/)</div>
+
+*The recently completed GTN Smörgåsbord course was the largest Galaxy event ever, and it was absolutely incredible.*
+
+* 1,189 people from 76 countries
+* 583 people on slack
+* 60+ instructors
+* 25 hours of video, all with closed captioning, which were used by 45% of participants
+* 24 hour coverage for a week
+
+We strongly encourage you to read the full [event report](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/).  It's amazing.
+</div>
+
+
 <!-- Galaxy Career Center -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%">
+<div class="card border-info" style="min-width: 20%; max-width: 100%">
 <img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
 <div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
 
@@ -76,7 +102,6 @@ The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists ever
 * **Europe**
   * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
 </div>
-
 </div>
 
 
