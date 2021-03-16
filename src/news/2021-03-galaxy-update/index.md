@@ -1,7 +1,7 @@
 ---
 title: 'March 2021 Galactic News'
-tease: "Check out the new Featured News and Community News sections."
-date: ""
+tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
+date: "2021-03-17"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
@@ -220,7 +220,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 </div>
 
 
-<!-- GCC2021 Goes Virtual -->
+<!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
@@ -230,6 +230,8 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 *GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: Lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 We also expect to open registration and abstract submission shortly.  Registration discounts will be available to researchers from low and lower-middle income countries.  For everyone else, registration will be downright cheap too.  We will reuse the BCC2020 model for talks, posters, and demos: Posters and demos will be live (sometimes in both hemispheres), and talks will be prerecorded.
+
+**And [GCC2021 is looking for sponsors](http://bit.ly/gcc2021_prospectus_v1) too!**
 
 Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
@@ -583,16 +585,25 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E.,
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
-<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
+<div class="card border-info"  style="min-width: 45%; max-width: 100%">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<div class="card-header">Galaxy 21.01</div>
 
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+We are pleased to [announce the 20.01 Galaxy release](/src/news/2021-03-galaxy-release-21-01/index.md).  As the announcement says:
 
-There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
+<blockquote class="blockquote">
+**Workflows are the absolute ✨star✨ of Galaxy v21.01**
+</blockquote>
+
+This include support for a workflow best practices checker, workflow reports, and tracking your workflow invocations.
+
+The new [Remote Files interface](news/2021-03-galaxy-release-21-01/#remote-files) is an absolutely fantastic new way to browse your data. Browse files on many remote file services, from your Dropbox to TCGA.
+
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.01_announce_user.html) and the [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.01_announce.html) release announcements.**
 </div>
 
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%">
+<div class="card border-info"  style="min-width: 30%; max-width: 100%">
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.2-3</div>
 
@@ -607,7 +618,16 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 </div>
 
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
+<div class="card border-info"  style="min-width: 10rem; max-width: 100%;">
+<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
+
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+
+There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
+</div>
+
+
+<div class="card border-info"  style="min-width: 15%; max-width: 100%;">
 <div class="card-header">Galaxy Language Server 0.4.0-1</div>
 
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 

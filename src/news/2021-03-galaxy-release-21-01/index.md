@@ -7,14 +7,12 @@ date: '2021-03-16'
 We are pleased to announce the release of Galaxy
 21.01 - **[developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/21.01_announce.html)** and **[user release announcement](https://docs.galaxyproject.org/en/master/releases/21.01_announce_user.html)**.
 
-Highlights
-==========
+# Highlights
 
 Workflows are the absolute ✨star✨ of Galaxy v21.01, they have seen huge
 improvements.
 
-Workflows: Best Practices, Reports, Invocations
------------------------------------------------
+## Workflows: Best Practices, Reports, Invocations
 
 Workflows have seen huge improvements this release! The workflow report
 editor is easier than ever to use providing you with a list of common
@@ -24,23 +22,21 @@ visualizations directly in your workflow reports making summarizing your
 analyses easier than ever. And, once your reports are produced, you can
 export them directly to pages to share your reports with colleagues.
 
-[![](http://img.youtube.com/vi/TmZzfaKf1V0/0.jpg)](http://www.youtube.com/watch?v=TmZzfaKf1V0 "workflow report")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TmZzfaKf1V0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you're building advanced workflows utilizing Galaxy's powerful
 sub-workflows for reusable workflow components, then you'll be pleased
 to know you can now automatically update those to the latest version
 
-[![](http://img.youtube.com/vi/2gHvmy_tIVc/0.jpg)](http://www.youtube.com/watch?v=2gHvmy_tIVc "subworkflow update")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2gHvmy_tIVc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Furthermore when you're making workflows to share with others, a new
 "Best Practices" checker has been included which helps you discover easy
 things which make your workflows more shareable.
 
-[![](http://img.youtube.com/vi/pfNqAkzvKj8/0.jpg)](http://www.youtube.com/watch?v=pfNqAkzvKj8 "best practice panel")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pfNqAkzvKj8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-Remote Files
-------------
+## Remote Files
 
 There was tough competition for top feature to highlight from 21.01 but
 the **Remote Files** interface is an absolutely fantastic new way to
@@ -70,8 +66,7 @@ the bottom is the user's FTP directory.*
 But the addition of the Remote Files browser didn't stop there! Several
 other interfaces received updates to use this new framework:
 
-History Import & Export
------------------------
+## History Import & Export
 
 Histories can now be exported directly to your FTP folders, Dropbox, or
 any other configured remote file storage.
@@ -91,16 +86,14 @@ histories between Galaxy, and make your analyses more reproducible!
 a remote file" which provides access to the remote file interface.*
 
 
-Rule Builder
-------------
+## Rule Builder
 
 Likewise the Rule-Builder now has access to the remote files interface.
 Sample sheets with identifiers can easily be found in many FTP servers
 and other locations, and then loaded directly into the Rule Builder via
 this new interface. So easy!
 
-Beta History Panel
-------------------
+## Beta History Panel
 
 The History panel is getting a refresh and a huge performance boost in
 the latest code. Does this sound exciting to you? Try it out now with
@@ -116,8 +109,7 @@ dataset title!
 collections, and a textbox shown where the dataset title is being edited
 directly.*
 
-User-friendliness Improvements
-------------------------------
+## User-friendliness Improvements
 
 This is a new section covering smaller improvements that just make your
 life easier and your interactions with Galaxy faster.
@@ -134,8 +126,7 @@ life easier and your interactions with Galaxy faster.
     looking at if the Galaxy page gets refreshed. Go forth and learn
     without distraction!
 
-New Visualizations
-==================
+# New Visualizations
 
 NORA, a medical image viewer and annotation tool
 
@@ -145,8 +136,7 @@ NORA, a medical image viewer and annotation tool
 OpenSeadragon viewer for deep zoom images
 
 
-Release Notes
-=============
+# Release Notes
 
 Please see the [full release notes](https://docs.galaxyproject.org/en/latest/releases/21.01_announce.html) for more
 details.
