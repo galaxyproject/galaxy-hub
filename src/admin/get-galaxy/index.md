@@ -6,7 +6,7 @@ Here you will find information on obtaining and setting up a Galaxy instance wit
 # Requirements
 
 * UNIX/Linux or Mac OSX
-* [Python 3.6 or 3.5](/src/admin/python/index.md)
+* [Python 3.6 or newer](/src/admin/python/index.md)
 
 # Get Started
 
@@ -19,14 +19,14 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_20.09 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_21.01 https://github.com/galaxyproject/galaxy.git
 ```
 ### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_20.09 && git pull --ff-only origin release_20.09
+$ git fetch origin && git checkout release_21.01 && git pull --ff-only origin release_21.01
 ```
 
 
