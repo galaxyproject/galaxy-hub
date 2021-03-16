@@ -593,8 +593,8 @@ There were a lot of improvements in this release. See the [release notes](https:
 
 
 <div class="card border-info"  style="min-width: 25%; max-width: 100%">
-<div class="card-header">Planemo 0.74.2-3</div>
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
+<div class="card-header">Planemo 0.74.2-3</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
 command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some notable changes
