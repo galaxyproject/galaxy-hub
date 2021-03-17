@@ -169,10 +169,10 @@ The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered p
 
 * Catherine Bromhead, University of Melbourne
 * Helena Rasche, ErasmusMC
-* Anthony Bretaudeau, INRIA
+* Anthony Bretaudeau, INRAE
 * Oleg Zharkov, University of Freiburg
 * Saskia Hiltemann, ErasmusMC
-* Estelle Ancelet, INRIA
+* Estelle Ancelet, INRAE
 * And 4 anonymous
 
 The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
