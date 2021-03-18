@@ -1,7 +1,7 @@
 ---
 title: 'March 2021 Galactic News'
-tease: "Check out the new Featured News and Community News sections."
-date: "2021-03-15"
+tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
+date: "2021-03-17"
 ---
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
@@ -12,7 +12,16 @@ Galaxy is also shifting with the times, and to reflect how our community has gro
 
 That's followed by another new section highlighting **[community news](#community-news).** Arguably, *everything* here is community news, but items listed here particularly emphasize the community aspects of Galaxy.
 
-The newsletter still includes sections on **[upcoming events](#event-news)**, news about **[public Galaxy platforms](#galaxy-platforms-news)**, recent **[blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**, recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**  It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
+The newsletter still includes sections on
+
+* **[upcoming events](#event-news)**,
+* news about **[public Galaxy platforms](#galaxy-platforms-news)**,
+* recent **[blog posts](#galactic-blog-activity)**,
+* **[training and doc updates](#doc-hub-and-training-updates)**,
+* recent **[open-access Galaxy-related publications](#publications)**, and
+* **[new releases](#releases).**
+
+It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
 
 Enjoy,
 
@@ -52,7 +61,7 @@ A number of notable videos and video collections have recently been published:
 
 
 <!-- Governance  -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%">
+<div class="card border-info" style="min-width: 40%; max-width: 100%">
 <img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
 <div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
 
@@ -64,19 +73,35 @@ Our hope is that this framework will enable us to become a truly global communit
 </div>
 
 
+<!-- Smorgasbord -->
+<div class="card border-info" style="min-width: 25%; max-width: 100%">
+<img class="card-img-top" src="/src/blog/2021-03-smorgasbord/slack-themes.png" alt="Themes in Slack over time" />
+<div class="card-header">[GTN Smörgåsbord Report](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/)</div>
+
+*The recently completed GTN Smörgåsbord course was the largest Galaxy event ever, and it was absolutely incredible.*
+
+* 1,189 people from 76 countries
+* 583 people on slack
+* 60+ instructors
+* 25 hours of video, all with closed captioning, which were used by 45% of participants
+* 24 hour coverage for a week
+
+We strongly encourage you to read the full [event report](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/).  It's amazing.
+</div>
+
+
 <!-- Galaxy Career Center -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%">
+<div class="card border-info" style="min-width: 20%; max-width: 100%">
 <img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
 <div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
 
-The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 12 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
+The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
 * **North America**
   * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)** 
 * **Europe**
-  * **Incliva (24 March), INSERM (1 April), NMBU (13 March), Hannover Medical School, and VIB**
+  * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
 </div>
-
 </div>
 
 
@@ -144,10 +169,10 @@ The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered p
 
 * Catherine Bromhead, University of Melbourne
 * Helena Rasche, ErasmusMC
-* Anthony Bretaudeau, INRIA
+* Anthony Bretaudeau, INRAE
 * Oleg Zharkov, University of Freiburg
 * Saskia Hiltemann, ErasmusMC
-* Estelle Ancelet, INRIA
+* Estelle Ancelet, INRAE
 * And 4 anonymous
 
 The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
@@ -195,7 +220,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 </div>
 
 
-<!-- GCC2021 Goes Virtual -->
+<!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
@@ -205,6 +230,8 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 *GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: Lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 We also expect to open registration and abstract submission shortly.  Registration discounts will be available to researchers from low and lower-middle income countries.  For everyone else, registration will be downright cheap too.  We will reuse the BCC2020 model for talks, posters, and demos: Posters and demos will be live (sometimes in both hemispheres), and talks will be prerecorded.
+
+**And [GCC2021 is looking for sponsors](http://bit.ly/gcc2021_prospectus_v1) too!**
 
 Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
@@ -318,6 +345,23 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 </div>
 
+
+<!-- GalaxyWorks -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card-header">[A new Galaxy Pro Service is Coming](https://galaxyworks.io/blog/researcher-beta-users)</div>
+
+[GalaxyWorks](https://galaxyworks.io/) is a company that offers commercial-grade support for Galaxy instances, and they are looking for beta testers for a new service.  Galaxy Pro Researcher will offer:
+
+* A self sign-up option with a low subscription fee
+* Access to fast and versatile Galaxy Pro without usage quotas
+* No need to manage your own Galaxy server
+
+Interested in being an early adopter? See the [full announcement](https://galaxyworks.io/blog/researcher-beta-users).
+
+<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo."  />
+</div>
+
+
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
@@ -344,12 +388,10 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 <img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
 
-[GalaxyWorks](https://galaxyworks.io/) is a company that offers commercial-grade support for Galaxy instances.  They have started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month:
+[GalaxyWorks](https://galaxyworks.io/) has also started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month are:
 
 * [Change a datatype on multiple datasets](https://galaxyworks.io/blog/change-datatype-on-many-datasets), Feb 8, by Dan Blankenberg
 * [How to choose the Galaxy that works for you](https://galaxyworks.io/blog/choose-your-galaxy), Mar 1, by Enis Afgan
-
-
 </div>
 
 
@@ -543,18 +585,27 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E.,
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
-<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
+<div class="card border-info"  style="min-width: 45%; max-width: 100%">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<div class="card-header">Galaxy 21.01</div>
 
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+We are pleased to [announce the 21.01 Galaxy release](/src/news/2021-03-galaxy-release-21-01/index.md).  As the announcement says:
 
-There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
+<blockquote class="blockquote">
+**Workflows are the absolute ✨star✨ of Galaxy v21.01**
+</blockquote>
+
+This include support for a workflow best practices checker, workflow reports, and tracking your workflow invocations.
+
+The new [Remote Files interface](news/2021-03-galaxy-release-21-01/#remote-files) is an absolutely fantastic new way to browse your data. Browse files on many remote file services, from your Dropbox to TCGA.
+
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.01_announce_user.html) and the [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.01_announce.html) release announcements.**
 </div>
 
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%">
+<div class="card border-info"  style="min-width: 30%; max-width: 100%">
+<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.2-3</div>
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" style="max-width: 12rem" />
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
 command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some notable changes
@@ -567,7 +618,16 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 </div>
 
 
-<div class="card border-info"  style="min-width: 25%; max-width: 100%;">
+<div class="card border-info"  style="min-width: 10rem; max-width: 100%;">
+<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
+
+[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
+
+There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
+</div>
+
+
+<div class="card border-info"  style="min-width: 15%; max-width: 100%;">
 <div class="card-header">Galaxy Language Server 0.4.0-1</div>
 
 [Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 

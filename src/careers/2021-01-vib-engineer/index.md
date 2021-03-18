@@ -1,7 +1,7 @@
 ---
 title: "Research Software Engineer"
 date: "2021-01-22"
-closes: 
+closes: "2021-03-11"
 summary: "Implementation of specific data analysis workflows in the framework of our national and international activities..."
 continent: EU
 location: "ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium"
