@@ -589,7 +589,7 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E.,
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header">Galaxy 21.01</div>
 
-We are pleased to [announce the 20.01 Galaxy release](/src/news/2021-03-galaxy-release-21-01/index.md).  As the announcement says:
+We are pleased to [announce the 21.01 Galaxy release](/src/news/2021-03-galaxy-release-21-01/index.md).  As the announcement says:
 
 <blockquote class="blockquote">
 **Workflows are the absolute ✨star✨ of Galaxy v21.01**
