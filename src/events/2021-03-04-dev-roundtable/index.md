@@ -11,7 +11,7 @@ external_url:
 gtn: false
 contact: "Sergey Golitsynskiy, David López, Assunta DeSanto, Keith Suderman, John Chilton"
 links:
-  - test: "Slides"
+  - text: "Slides"
     url: "https://docs.google.com/presentation/d/1RzRukgRw_8v4_W9X2HNUTL7sBK6Y3wBS0f73BTFfVUc/edit#slide=id.gc2a6ff74d4_0_0"
   - text: "Video"
     url: "https://youtu.be/H4oPneXH5hI"

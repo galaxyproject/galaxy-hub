@@ -12,6 +12,8 @@ contact: "Daniel Blankenberg, Bérénice Batut, Helena Rasche"
 tags: [ webinar ]
 gtn: false
 links:
-  - text: "Register"
-    url: "https://us02web.zoom.us/webinar/register/WN_Okwj3OW1SVShXskpgqVUjQ"
+- text: "Video"
+  url: "https://youtu.be/eEpuA5oltrA"
+- text: "Slides"
+  url: "https://docs.google.com/presentation/d/18OXzLnbGBWHeoCCCCcyta_K4HjQQpSJcnDzVCH18UrM/edit#slide=id.gb34215f4b3_0_0"
 ---
