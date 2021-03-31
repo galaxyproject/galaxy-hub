@@ -52,14 +52,12 @@ Here are links to the issues identified as potential targets for papercuts day:
 | **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | **[paper-cut](https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut)** | 
 
 
-
-
 ## Developer Quick Dive Videos
 
 [Developer Quick Dives](https://www.youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n) are short videos (2 minutes or less) that demonstrate how to do common tasks in Galaxy development.  Take a peek.
 
 
-### Before the event
+## Before the event
 
 If you are a Galaxy user or admin, you can create, or tag existing GitHub issues for any irritating, but likely easily fixed bugs (make a guess). These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.
 
@@ -72,21 +70,21 @@ If you have time, and want to learn more about contributing you are encouraged t
 * [Contributing to the Galaxy Training Material tutorials](https://training.galaxyproject.org/training-material/topics/contributing/).
 * [Galaxy on GitHub](https://github.com/galaxyproject) - see what projects are supported and find the one that speaks to you. Pay particular attention to each project's CONTIBUTING.md files.
 
-### During the event
+## During the event
 
-We will have video calls throughout the day and be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls held throughout the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Call 1: Oceania, Australia, Asia**
+  * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210415T14&p1=152&am=30).
   * [Zoom Link]()
-  * 10:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210415T09&p1=152&am=30).
 * **Call 2: Middle East, Europe, Africa**
+  * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210415T10&p1=980&am=30).
   * [Zoom Link]()
-  * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210415T09&p1=980&am=30).
 * **Call 3: Americas**
+  * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=11%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210415T11&p1=3705&am=30).
   * [Zoom Link]()
-  * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=11%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210415T12&p1=3705&am=30).
 
-### After the event
+## After the event
 
 *Get those pull requests in! And address anything from the review! And become more involved in the Galaxy code, training, and documentation base!*
 
