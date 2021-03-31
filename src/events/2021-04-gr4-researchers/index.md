@@ -23,4 +23,4 @@ Wondering how to get started, or how to do a particular type of analysis, or how
 
 ## Please Register
 
-IPlease **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeM__PCTmdpTDXxS-ArgDVmhSJLV9ij1qRan7emOFzAOXn9OQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
+Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeM__PCTmdpTDXxS-ArgDVmhSJLV9ij1qRan7emOFzAOXn9OQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.

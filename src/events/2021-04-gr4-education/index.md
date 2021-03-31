@@ -6,7 +6,7 @@ tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location: "Galaxy Resources Webinar Series, Online, Global"
 image: "/src/events/webinars/gr4-webinars-300.png"
-location_url: "/src/events/webinars/index.md"
+location_url: "/events/webinars/"
 external_url:
 contact: "Galaxy Training Network"
 tags: [ webinar ]
@@ -29,4 +29,4 @@ This webinar will highlight
 
 ## Please Register
 
-IPlease **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeM__PCTmdpTDXxS-ArgDVmhSJLV9ij1qRan7emOFzAOXn9OQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
+Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSfdfAxMw3ER-XSQJxDNRF60we3sNcDDL1toENmUlGxuNPqIhQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
