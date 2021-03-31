@@ -41,7 +41,7 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 | Repo / Project | [Working Group](https://galaxyproject.org/community/wg/) | What is it? | Tags |
 | --- | --- | --- | --- |
-| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** | 
+| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend, User Interface / User Experience | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** | 
 | **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Admin | Training materials for Galaxy Admin Training. | **[paper-cut](https://github.com/galaxyproject/admin-training/labels/paper-cuts)** | 
 | **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Outreach & Training | Training materials. | **[Collaboration Fest ideas](https://github.com/galaxyproject/training-material/issues/2070), [newcomer-friendly](https://github.com/galaxyproject/training-material/labels/newcomer-friendly), [paper-cut](https://github.com/galaxyproject/training-material/labels/paper-cut)** | 
 | **[CloudMan](https://github.com/galaxyproject/cloudman)** | Deployment | Managing instances on cloud infrastructures. | **[good first issue](https://github.com/galaxyproject/cloudman/labels/good%20first%20issue)** | 
