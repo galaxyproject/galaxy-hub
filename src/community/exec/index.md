@@ -8,7 +8,7 @@ The Galaxy Exec was formed at the _Galaxy Directions Summit_ in 2019, which gath
 
 ## Members
 
-* **[Frederick Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
+* **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
   * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium 
 * **[Björn Grüning](https://github.com/bgruening)**
   * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
