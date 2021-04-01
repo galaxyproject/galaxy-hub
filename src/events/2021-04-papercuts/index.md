@@ -39,7 +39,7 @@ On Papercuts Day, please join us on [Gitter](https://gitter.im/galaxyproject/Lob
 
 Here are links to the issues identified as potential targets for papercuts day:
 
-| Repo / Project | [Working Group](https://galaxyproject.org/community/wg/) | What is it? | Tags |
+| Repo / Project | [Working Group](/src/community/wg/index.md) | What is it? | Tags |
 | --- | --- | --- | --- |
 | **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend, User Interface / User Experience | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** | 
 | **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Admin | Training materials for Galaxy Admin Training. | **[paper-cut](https://github.com/galaxyproject/admin-training/labels/paper-cuts)** | 
