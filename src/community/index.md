@@ -1,11 +1,11 @@
 ---
 title: The Galaxy Community
 ---
-A vibrant community of contributors is the reason this project exists. The [Galaxy team](/src/galaxy-team/index.md) alone cannot possibly [maintain enough servers](/src/use/index.md), [wrap enough tools](https://toolshed.g2.bx.psu.edu/), [teach enough workshops](/src/events/index.md), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/src/support/index.md) on its own. This is why community is vital to our core mission - enabling reproducible research in life sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
+A vibrant community of contributors is the reason this project exists. The [Galaxy team](/src/galaxy-team/index.md) alone cannot possibly [maintain enough servers](/src/use/index.md), [wrap enough tools](https://toolshed.g2.bx.psu.edu/), [teach enough workshops](/src/events/index.md), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/src/support/index.md) on its own. This is why community is vital to our core mission - enabling reproducible research in data-rich sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
 
 <div>
-	<img src="/src/events/gcc2019/gcc2019-grouppicture.jpg" class="img-fluid mx-auto" alt="Responsive image">
-	<small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
+    <img src="/src/events/gcc2019/gcc2019-grouppicture.jpg" class="img-fluid mx-auto" alt="Responsive image">
+    <small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
 </div>
 
 # Galaxy Community Conferences
@@ -15,17 +15,19 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/src/gcc/index.md)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
 
-# Working Groups
+# Working Groups and Project Governance
 
-[Galaxy Working Groups](/src/community/wg/index.md) are a means for the community to help manage and contribute to key parts of the Galaxy ecosystem.  They were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.  *Working Groups are a key component of the [Galaxy Governance Model](/src/community/governance/index.md), which also includes the [Galaxy Steering Committee](/src/community/steering/index.md) and the [Galaxy Exec](/src/community/exec/index.md).*
+[Galaxy Working Groups](/src/community/wg/index.md) are how the community manages and contributes to key parts of the Galaxy ecosystem.  Working Groups were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
+
+*Working Groups are a key component of the [Galaxy Governance Model](/src/community/governance/index.md), which also includes the [Galaxy Steering Committee](/src/community/steering/index.md) and the [Galaxy Exec](/src/community/exec/index.md).*
 
 # IUC: Keepers of Galaxy Tools
 
 The [Intergalactic Utilities Commission](/src/iuc/index.md) (IUC) was established in 2012 to enable the pervasive use of the main Galaxy Tool Shed by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to Galaxy tool developers so that they can improve the quality of their repositories.
 
 <div>
-	<img src="/src/iuc/iuc-commits.png" class="img-fluid mx-auto" alt="Responsive image">
-	<small>[Code contributions](https://github.com/galaxyproject/tools-iuc/graphs) to [tools-iuc](https://github.com/galaxyproject/tools-iuc) repository</small>
+    <img src="/src/iuc/iuc-commits.png" class="img-fluid mx-auto" alt="Responsive image">
+    <small>[Code contributions](https://github.com/galaxyproject/tools-iuc/graphs) to [tools-iuc](https://github.com/galaxyproject/tools-iuc) repository</small>
 </div>
 
 <br />

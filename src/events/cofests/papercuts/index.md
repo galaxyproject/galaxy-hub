@@ -6,7 +6,7 @@ layout: events_index_papercuts.pug
 Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
 
 * **Making the Galaxy experience be a pleasure and be productive by removing and reducing irritants.**
-* **Growing the Galaxy contributor community by holding regular events.**
+* **Growing the Galaxy *contributor* community by holding regular events.**
 * Identify easy but informative things to fix.
 * Work together and enjoy the community.
 * Dedicate time together for bug-fixing.
@@ -21,7 +21,7 @@ Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address
 
 First, you can register your interest.  We'll send you information and a reminder before the next event.  (Registering your interest is optional.  You can also just show up.)
 
-<button type="button" class="btn btn-light"> **[I'm interested!](https://docs.google.com/forms/d/e/1FAIpQLSekStDOirT2EFO4DBtAV5pJvj15xdiYrpFHS1KhEtZh3_Cfuw/viewform)**
+<button type="button" class="btn btn-light"> **[I'm interested!](https://docs.google.com/forms/d/e/1FAIpQLSc-OUa9s-L9DO1RMuSeiOWts1am0eWXI9VKM9dHfKxExBS-ag/viewform)**
  </button></a>
 
 Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
@@ -32,8 +32,8 @@ Papercuts CoFests are held regularly (see below), and it's easy to get involved 
   * Do some (even a little bit is useful) on that project.
   * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
 * **During**
-  * Start by joining a Papercuts conference call.  These are hosted by experienced (and friendly!) community members from each part of the world.
-  * People on each call will provide guidance and resources, and help connect you folks who specialize in the area you are interested in.
+  * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
+  * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
   * Before the next call, followup with others on Galaxy chat channels.
   * Be on the next call for a follow up.
 * **After**

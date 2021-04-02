@@ -13,20 +13,21 @@ block content
                 | Galaxy Community Hub
     section.section-content
         div.row.text-center
+            div.col-1
+            div.col-5( style="max-width: 26rem;" )
+                a( href="/jxtx/" )
+                    img.img-fluid( src="/jxtx/james.jpg" alt="James Taylor" )
             div.col-6
-                h2.display-5
-                    iframe( width="100%" height="314" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
-                    | Meet and join the Galaxy Community
-                p
-                    | Video by created by Beatriz Serrano-Solano (with a large supporting cast!)
-            div.col-6
-                h2.display-5
-                    iframe( width="100%" height="314" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
-                    | Introduction to the 
-                    a( href="https://training.galaxyproject.org/" )
-                        | Galaxy Training Network
-                p
-                    | Video by created by Geert Bonamie (VIB Bioinformatics Core)
+                h3.display-4
+                    a( href="/jxtx/" )
+                        | James Taylor
+                h3.display-5
+                    | 1979-2020
+                    br
+                    | It's been a year.
+                    br
+                    a( href="/jxtx/" )
+                        |  Please help us celebrate James on May 18, his birthday.
 
     section.section-content
         div.row#splash-row
@@ -37,7 +38,7 @@ block content
                 br
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/news/" ) News
+                h2: a( href="/news/" ) <i class="fas fa-bullhorn"></i> &nbsp; News
                 each item in news.slice(0,5)
                     p
                         strong
@@ -49,7 +50,7 @@ block content
                             small
                                 |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/events/" ) Events
+                h2: a( href="/events/" ) <i class="far fa-calendar-alt"></i> &nbsp; Events
                 - var events_counter = 0
                 each item in events.slice().reverse()
                     if events_counter < 5 && item.date != undefined && moment(item.date) >= moment(new Date()).subtract((item.days || 1), 'days')
@@ -76,7 +77,7 @@ block content
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
                 div#twitter_timeline
                     h2
-                        a(href="http://twitter.com/galaxyproject") @galaxyproject
+                        a(href="http://twitter.com/galaxyproject") <i class="fab fa-twitter"></i> &nbsp; @galaxyproject
                         a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
                     script(type='text/javascript').
                         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -87,17 +88,10 @@ block content
 
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA" ) Videos
-                p
-                    iframe( width="100%" src="https://www.youtube.com/embed/-1MPdxmRs8U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
-                        | Meet and join the Galaxy Community
-                    iframe( width="100%" src="https://www.youtube.com/embed/lDqWxzWNk1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen )
-                        | Introduction to the 
-                        a( href="https://training.galaxyproject.org/" )
-                            | Galaxy Training Network
+                include ../partials/HomepageVideos.html
 
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/blog/" ) Blog
+                h2: a( href="/blog/" ) <i class="fas fa-pencil-alt"></i> &nbsp; Blog
                 each item in blog.slice(0,5)
                     p
                         strong
@@ -110,7 +104,7 @@ block content
                                 span.text-dark
                                     |  – !{marked(item.tease).replace("<p>","").replace("</p>","")}
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
-                h2: a( href="/careers/" ) Careers
+                h2: a( href="/careers/" ) <i class="fas fa-user-astronaut"></i> &nbsp; Careers
                 - var jobs_counter = 0
                 each item in careers.slice().reverse()
                     if jobs_counter < 5 && (item.closes == undefined || (moment(item.closes) > moment(new Date()).subtract((item.days || 1), 'days')))
@@ -139,7 +133,17 @@ block content
                 
         div.row
             div.col-sm-4( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" ) 
-                h2: a( href="/use/" ) New Platforms
+                h2: a( href="/use/" ) <i class="fas fa-server"></i> &nbsp; New Platforms
+                p
+                    strong
+                        a( href="/use/ipk-blast/") IPK Blast
+                    small
+                        |  - BLAST for barley, wheat, and rye.  Part of IPK Crop Analysis Tools Suite (CATS).
+                p
+                    strong
+                        a( href="/use/immuneml/" ) immuneML
+                    small
+                        |  - Machine learning-based analysis and classification of adaptive immune receptors and repertoires (AIRR). 
                 p
                     strong
                         a( href="/use/asaim/" ) ASaiM Docker Image
@@ -155,44 +159,47 @@ block content
                         a( href="/use/atacgraph/") ATACgraph
                     small
                         |  - Profile accessible chromatin regions and provide ATAC-seq-specific information including definitions of nucleosome-free regions (NFRs) and nucleosome-occupied regions.
-                p
-                    strong
-                        a( href="/use/corgat/") CorGAT
-                    small
-                        |  - Align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.
+
 
             div.col-sm-8( style="background-color: #E0EAF2; border: 3px solid white; border-radius: 10px;" )  
-                h2: a( href="https://www.zotero.org/groups/galaxy" ) Recent Pubs
+                h2: a( href="https://www.zotero.org/groups/galaxy" ) <i class="fas fa-book-open"></i> &nbsp; Recent Pubs
                 p
                     strong
-                        a( href="https://doi.org/10.1002/cpz1.31" ) Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update
+                        a( href="https://doi.org/10.1101/2021.03.25.437046" ) Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring
                     small
-                        |  - Ostrovsky, A., Hillman‐Jackson, J., Bouvier, D., Clements, D., Afgan, E., Blankenberg, D., Schatz, M. C., Nekrutenko, A., Taylor, J., the Galaxy Team, & Lariviere, D. (2021).
+                        |  - Maier, W., Bray, S., Beek, M. van den, Bouvier, D., Coraor, N., Miladi, M., Singh, B., Argila, J. R. D., Baker, D., Roach, N., Gladman, S., Coppens, F., Martin, D., Lonie, A., Gruning, B., Pond, S. K., & Nekrutenko, A. (2021)
                         em
-                            |  Current Protocols,
-                        |  1(2), e31. 
+                            |  BioRxiv,
+                        |  2021.03.25.437046.
                 p
                     strong
-                        a( href="https://doi.org/10.12688/f1000research.28608.1" ) ASaiM-MT: A validated and optimized ASaiM workflow for metatranscriptomics analysis within Galaxy framework
+                        a( href="https://doi.org/10.1101/2021.03.17.435706" ) Fast and accurate genome-wide predictions and structural modeling of protein-protein interactions using Galaxy
                     small
-                        |  - Mehta, S., Crane, M., Leith, E., Batut, B., Hiltemann, S., Arntzen, M. Ø., Kunath, B. J., Delogu, F., Sajulga, R., Kumar, P., Johnson, J. E., Griffin, T. J., & Jagtap, P. D. (2021).  
-
+                        |  - Guerler, A., Baker, D., Beek, M. van den, Bouvier, D., Coraor, N., Schatz, M. C., & Nekrutenko, A. (2021).
                         em
-                            |  F1000Research,
-                        |  10, 103.
+                            |  BioRxiv,
+                        |  2021.03.17.435706.
                 p
                     strong
-                        a( href="https://doi.org/10.1016/j.jmb.2020.09.015" ) Galaxy InteractoMIX: An Integrated Computational Platform for the Study of Protein–Protein Interaction Data
+                        a( href="https://doi.org/10.1101/2021.02.09.21251427" ) A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19)
                     small
-                        |  - Mirela-Bota, P., Aguirre-Plans, J., Meseguer, A., Galletti, C., Segura, J., Planas-Iglesias, J., Garcia-Garcia, J., Guney, E., Oliva, B., & Fernandez-Fuentes, N. (2020).
+                        |  - Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E., McGowan, T., Griffin, T. J., & Jagtap, P. D. (2021).
                         em
-                            |  Journal of Molecular Biology,
-                        |  166656. 
+                            |  MedRxiv,
+                        |  2021.02.09.21251427.
                 p
                     strong
-                        a( href="https://doi.org/10.1186/s12864-021-07405-8" ) GalaxyTrakr: A distributed analysis tool for public health whole genome sequence data accessible to non-bioinformaticians
+                        a( href="https://doi.org/10.1101/2021.03.08.433891" ) immuneML: An ecosystem for machine learning analysis of adaptive immune receptor repertoires
                     small
-                        |  - Gangiredla, J., Rand, H., Benisatto, D., Payne, J., Strittmatter, C., Sanders, J., Wolfgang, W. J., Libuit, K., Herrick, J. B., Prarat, M., Toro, M., Farrell, T., & Strain, E. (2021).
+                        |  - Pavlovic, M., Scheffer, L., Motwani, K., Kanduri, C., Kompova, R., Vazov, N., Waagan, K., Bernal, F. L. M., Costa, A. A., Corrie, B., Akbar, R., Hajj, G. S. A., Balaban, G., Brusko, T. M., Chernigovskaya, M., Christley, S., Cowell, L. G., Frank, R., Grytten, I., … Sandve, G. K. (2021)
                         em
-                            |  BMC Genomics,
-                        |  22(1), 114.
+                            |  BioRxiv,
+                        |  2021.03.08.433891.
+                p
+                    strong
+                        a( href="https://doi.org/10.1093/gigascience/giaa158" ) ChiRA: An integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data
+                    small
+                        |  - Videm, P., Kumar, A., Zharkov, O., Grüning, B. A., & Backofen, R. (2021).
+                        em
+                            |  GigaScience,
+                        |  10(giaa158).
