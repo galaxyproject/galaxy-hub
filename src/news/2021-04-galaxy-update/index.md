@@ -263,6 +263,18 @@ Simon shares his experience with training workshops in Australia using TIaaS use
 
 <div class="card-deck">
 
+<!-- GTN video -->
+<div class="card border-info" style="min-width: 290px; max-width: 290px;">
+<iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="card-header">How to import a workflow from the Workflow Hub and run it on remote COVID-19 data</div>
+
+Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
+it is also possible to import a
+workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.ga4gh.org/) API [TRS](https://github.com/ga4gh/tool-registry-service-schemas).
+
+</div>
+
+
 <!-- Generating a cell matrix using Alevin -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="gtn-alevin-slice.png" alt="Alevin Workflow" />
