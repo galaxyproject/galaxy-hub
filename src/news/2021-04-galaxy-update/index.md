@@ -196,7 +196,7 @@ Text
 
 <!-- TIaaS feedback Tuan -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq analysis](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
+<div class="card-header">[RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
 
 By Dr. Tuan Leng Tay.
 
@@ -225,6 +225,19 @@ ELIXIR Czech Republic has run an afternoon-long workshop comprised of a general 
 By Dr. Ricardo Gonzalo Sanz.
 
 The Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) in Spain gave an introductory workshop to master students of the Bioinformatics Course for Biomedical Research, covering Quality control of NGS data, RNAseq and Variant data analysis.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- TIaaS feedback Fotis -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/)</div>
+
+Dr. Fotis Psomopoulos.
+
+Fotis gave a lecture on RNA-Seq data analysis in the context of the graduate program on Precision Medicine of the School of Medicine at the Aristotle University of Thessaloniki
+
 
 <img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
