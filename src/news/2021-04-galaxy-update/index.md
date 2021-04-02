@@ -194,15 +194,32 @@ Text
 
 <div class="card-deck">
 
-
-<!-- GalaxyWorks Blog Posts -->
+<!-- TIaaS feedback Tuan -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[GalaxyWorks Blog Posts](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
+<div class="card-header">[RNA-Seq analysis](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
 
-<img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
+Master students of the University of Freiburg from different backgrounds were trained in analysing RNA-Seq data.
 
-Text
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
+
+
+
+
+
+
+<!-- TIaaS feedback Simon -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/)</div>
+
+By Simon Gladman.
+
+Simon shares his experience with training workshops in Australia using TIaaS usegalaxy.eu. He loved the TIaaS dashboard and they are working on setting up TIaaS on Galaxy Australia!
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
 
 </div>
 
