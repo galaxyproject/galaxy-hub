@@ -37,7 +37,7 @@ Please share your favorite story about James in ~ 30 seconds. We will combine yo
 
 Here is what we will need you to do **by April 30**:
 
-1. Think of your favorite story/interaction/even involving James.
+1. Think of your favorite story/interaction/event involving James.
 1. Pick a nice location and record the video!
 1. The video should be:
   * in a high-resolution
