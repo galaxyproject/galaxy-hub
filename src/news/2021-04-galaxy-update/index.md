@@ -159,6 +159,24 @@ There next roundtable meetup will be:
 </div>
 
 
+<!-- Plant Transcriptomics workshop -->
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<img class="card-img-top" src="plant_transcriptomics_workshop.png" />
+<div class="card-header">[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)</div>
+
+**19-23 April, Online, Global**
+
+The purpose of this workshop is to gain knowledge on Next Generation Sequencing (NGS) with a special focus on bulk and single-cell RNA-Seq data analysis in Arabidopsis thaliana. Although it is designed to deal with plant transcriptome data analysis, most of the analysis can be adapted to other organisms too.
+
+[Register here!](https://docs.google.com/forms/d/e/1FAIpQLSdZZ0-_8BhZgcOdUm1jPZNpGPjN9tFlBfrd-sMptO24nXkS-Q/viewform)
+
+</div>
+
+
+
+
+plant_transcriptomics_workshop
+
 </div>
 
 
