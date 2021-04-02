@@ -30,9 +30,11 @@ One last thing. Some of us know your birthday date despite your best effort to h
 
 So, as you can see, we are trying … we’ll be keeping you in the loop. Just not on April 2. We think May 18 is better!
 
-<br />
+<div class="text-center lead">
 
-**Have a remembrance of James you want to share?  Please see [here](https://docs.google.com/forms/d/e/1FAIpQLScFe-Sk-NGUjR18LnwwWqjpUpxK3Xy30G_11oIPALHECSMngw/viewform) for how you can do that.**
+**Have a memory of James to share? [Please do](https://docs.google.com/forms/d/e/1FAIpQLScFe-Sk-NGUjR18LnwwWqjpUpxK3Xy30G_11oIPALHECSMngw/viewform).**
+
+</div>
 
 <br />
 
