@@ -152,7 +152,9 @@ We will be on Gitter for chat all day long, and on 3 calls spread across the day
 
 There next roundtable meetup will be:
 
-**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj and Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+**[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**, X will
+
+**[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**, Y will
 
 </div>
 
