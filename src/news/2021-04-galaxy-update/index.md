@@ -134,11 +134,14 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
-<div class="card-header">[April Papercuts CoFest](/src/events/2021-04-papercuts/index.md)</div>
+<div class="card-header">[April Papercuts CoFest](/src/events/2021-05-papercuts/index.md)</div>
 
 **15 April, Online, Global**
 
 Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+
+We will be on Gitter for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+
 </div>
 
 
@@ -149,10 +152,30 @@ Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-0
 
 There next roundtable meetup will be:
 
-**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj and Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+**[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**, X will
+
+**[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**, Y will
 
 </div>
 
+
+<!-- Plant Transcriptomics workshop -->
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<img class="card-img-top" src="plant_transcriptomics_workshop.png" />
+<div class="card-header">[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)</div>
+
+**19-23 April, Online, Global**
+
+The purpose of this workshop is to gain knowledge on Next Generation Sequencing (NGS) with a special focus on bulk and single-cell RNA-Seq data analysis in Arabidopsis thaliana. Although it is designed to deal with plant transcriptome data analysis, most of the analysis can be adapted to other organisms too.
+
+[Register here!](https://docs.google.com/forms/d/e/1FAIpQLSdZZ0-_8BhZgcOdUm1jPZNpGPjN9tFlBfrd-sMptO24nXkS-Q/viewform)
+
+</div>
+
+
+
+
+plant_transcriptomics_workshop
 
 </div>
 
@@ -194,15 +217,67 @@ Text
 
 <div class="card-deck">
 
-
-<!-- GalaxyWorks Blog Posts -->
+<!-- TIaaS feedback Tuan -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[GalaxyWorks Blog Posts](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
+<div class="card-header">[RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
 
-<img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
+By Dr. Tuan Leng Tay.
 
-Text
+Master students of the University of Freiburg from different backgrounds were trained in analysing RNA-Seq data.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
+
+
+<!-- TIaaS feedback Martin -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/)</div>
+
+By Martin Čech.
+
+ELIXIR Czech Republic has run an afternoon-long workshop comprised of a general introduction to Galaxy with hands-on parts and later a specialized session (cheminformatics/proteomics).
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- TIaaS feedback Ricardo -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/)</div>
+
+By Dr. Ricardo Gonzalo Sanz.
+
+The Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) in Spain gave an introductory workshop to master students of the Bioinformatics Course for Biomedical Research, covering Quality control of NGS data, RNAseq and Variant data analysis.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- TIaaS feedback Fotis -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/)</div>
+
+Dr. Fotis Psomopoulos.
+
+Fotis gave a lecture on RNA-Seq data analysis in the context of the graduate program on Precision Medicine of the School of Medicine at the Aristotle University of Thessaloniki
+
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
+<!-- TIaaS feedback Simon -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/)</div>
+
+By Simon Gladman.
+
+Simon shares his experience with training workshops in Australia using TIaaS usegalaxy.eu. He loved the TIaaS dashboard and they are working on setting up TIaaS on Galaxy Australia!
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
 
 </div>
 
@@ -210,6 +285,31 @@ Text
 # Doc, Hub, and Training Updates
 
 <div class="card-deck">
+
+<!-- GTN video -->
+<div class="card border-info" style="min-width: 290px; max-width: 290px;">
+<iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
+
+Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
+it is also possible to import a
+workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.ga4gh.org/) API [TRS](https://github.com/ga4gh/tool-registry-service-schemas).
+
+</div>
+
+
+<!-- Galaxy-ELIXIR webinar series -->
+<div class="card border-info" style="min-width: 20rem; max-width: 28rem;">
+<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
+
+Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
+
+If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+</div>
+
+
 
 <!-- Generating a cell matrix using Alevin -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
