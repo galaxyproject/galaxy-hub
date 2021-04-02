@@ -208,7 +208,7 @@ Master students of the University of Freiburg from different backgrounds were tr
 
 <!-- TIaaS feedback Martin -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq analysis](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/)</div>
+<div class="card-header">[Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/)</div>
 
 By Martin Čech.
 
@@ -218,7 +218,16 @@ ELIXIR Czech Republic has run an afternoon-long workshop comprised of a general 
 </div>
 
 
+<!-- TIaaS feedback Ricardo -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">[Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/)</div>
 
+By Dr. Ricardo Gonzalo Sanz.
+
+The Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) in Spain gave an introductory workshop to master students of the Bioinformatics Course for Biomedical Research, covering Quality control of NGS data, RNAseq and Variant data analysis.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
 
 
 <!-- TIaaS feedback Simon -->
