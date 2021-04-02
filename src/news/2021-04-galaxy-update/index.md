@@ -275,6 +275,19 @@ workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.
 </div>
 
 
+<!-- Galaxy-ELIXIR webinar series -->
+<div class="card border-info" style="min-width: 20rem; max-width: 28rem;">
+<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
+
+Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
+
+If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
+
+<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+</div>
+
+
+
 <!-- Generating a cell matrix using Alevin -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="gtn-alevin-slice.png" alt="Alevin Workflow" />
