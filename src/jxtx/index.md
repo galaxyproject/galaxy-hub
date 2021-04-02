@@ -26,15 +26,28 @@ There is also [AnVIL](https://anvilproject.org/). Shaped by your vision from the
 
 [We used your sudden absence as an excuse to raise money](/src/jxtx/foundation/index.md). Our goal was to fund a program that would make it possible for graduate students to attend key genomics meetings. The response was amazing! We tested this approach at CSHL Biological Data Science past year and funded [10 graduate students](https://galaxyproject.org/news/2020-10-jxtx-awardees/). We will be doing this regularly once life returns to post-COVID normal and meetings are again of the "in-person" kind.
 
-One last thing. Some of us know your birthday date despite your best effort to hide it. So from now on, we will be celebrating each May 18 as the JXTX/Galaxy day. This year the Galaxy community members will come together to [produce short videos in which they describe their interactions with you or the impact you’ve had on them](https://docs.google.com/forms/d/e/1FAIpQLScFe-Sk-NGUjR18LnwwWqjpUpxK3Xy30G_11oIPALHECSMngw/viewform) - we’ll then assemble the videos into a modern poster. I just wanted to warn you ahead of time as you may find videos about yourself a bit weird. 
+One last thing. Some of us know your birthday date despite your best effort to hide it. So from now on, we will be celebrating each May 18 as the JXTX/Galaxy day. This year the Galaxy community members will come together to produce short videos in which they describe their interactions with you or the impact you’ve had on them - we’ll then assemble the videos into a modern poster. I just wanted to warn you ahead of time as you may find videos about yourself a bit weird. 
 
 So, as you can see, we are trying … we’ll be keeping you in the loop. Just not on April 2. We think May 18 is better!
 
-<div class="text-center lead">
 
-**Have a memory of James to share? [Please do](https://docs.google.com/forms/d/e/1FAIpQLScFe-Sk-NGUjR18LnwwWqjpUpxK3Xy30G_11oIPALHECSMngw/viewform).**
+**Have a memory of James to share?**
 
-</div>
+Please share your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
+
+Here is what we will need you to do **by April 30**:
+
+1. Think of your favorite story/interaction/even involving James.
+1. Pick a nice location and record the video!
+1. The video should be:
+  * in a high-resolution
+  * without background noise
+  * in a horizontal orientation (not vertical!)
+  * ≲ 30 seconds in length
+1. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
+1. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
+
+Thank you all in advance and please feel free to send this email to other friends of James.
 
 <br />
 
