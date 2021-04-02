@@ -289,7 +289,7 @@ Simon shares his experience with training workshops in Australia using TIaaS use
 <!-- GTN video -->
 <div class="card border-info" style="min-width: 290px; max-width: 290px;">
 <iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="card-header">How to import a workflow from the Workflow Hub and run it on remote COVID-19 data</div>
+<div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
 
 Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
 it is also possible to import a
