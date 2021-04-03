@@ -108,9 +108,11 @@ Please watch Galaxy channels for the registration and abstract submission announ
 
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 50%; max-width: 100%">
+<div class="card border-info" style="min-width: 40%; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">[ISMB/ECCB/BOSC Deadlines](https://www.iscb.org/ismbeccb2021)</div>
+
+**Submissions due May 6.**
 
 [ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence at it.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
 
@@ -132,7 +134,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 30%; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[April Papercuts CoFest](/src/events/2021-05-papercuts/index.md)</div>
 
@@ -144,6 +146,21 @@ We will be on Gitter for chat all day long, and on 3 calls spread across the day
 
 </div>
 
+
+<!-- Webinars -->
+<div class="card border-info" style="min-width: 30%; max-width:  100%;">
+<img class="card-img-top" src="/src/events/webinars/gr4-webinars-wide-600.png" alt="Galaxy Resources for You Webinars" />
+<div class="card-header">[Galaxy Resources for ... You Webinars](/src/events/webinars/index.md)</div>
+
+Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
+
+**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April 14**
+
+**[Galaxy Resources for Educators and Trainers](/src/events/2021-04-gr4-education/index.md), April 28**
+
+Space is, um, unlimited!  But sign up today anyway.
+
+</div>
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
@@ -159,8 +176,24 @@ There next roundtable meetup will be:
 </div>
 
 
+<!-- DE.STAIR TRAINING COURSE: Bioinformatics carpentry utilizing Galaxy -->
+<div class="card border-info" style="min-width: 18%; max-width:  100%;">
+<img class="card-img-top" src="/src/images/logos/fli-logo-big.png" />
+<div class="card-header">
+[Bioinformatics carpentry utilizing Galaxy](https://www.leibniz-fli.de/news-events/seminars/detailpage/denbi-destair-training-course)
+</div>
+
+**12-16 April, Online, Global**
+
+Interactive lectures followed by hands-on sessions. Each day will start with an optional discussion about the previous hands-on.
+
+[Register here!](https://www.leibniz-fli.de/application-for-workshop)
+
+</div>
+
+
 <!-- Plant Transcriptomics workshop -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 30%; max-width:  100%;">
 <img class="card-img-top" src="plant_transcriptomics_workshop.png" />
 <div class="card-header">[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)</div>
 
@@ -173,9 +206,16 @@ The purpose of this workshop is to gain knowledge on Next Generation Sequencing 
 </div>
 
 
+<!-- Analyse avancée de séquences -->
+<div class="card border-info" style="min-width: 18%; max-width:  30%;">
+<img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
+<div class="card-header">[Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)</div>
 
+**4-6 May, Bordeaux, France**
 
-plant_transcriptomics_workshop
+Savoir rechercher des informations dans les banques de données. Maîtriser les outils d'analyse de séquences tels que les alignements et savoir interpréter les résultats. Maîtriser les formats et les analyses des nouvelles données issues du séquençage (NGS).
+
+</div>
 
 </div>
 
