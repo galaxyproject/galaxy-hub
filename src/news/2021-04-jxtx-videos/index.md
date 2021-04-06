@@ -11,7 +11,7 @@ It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remem
 
 Here is what we will need you to do before April 30:
 
-1. Think of your favorite story/interaction/even involving James.
+1. Think of your favorite story/interaction/event involving James.
 2. Pick a nice location and record the video!
 3. The video should be:
   * in a high-resolution

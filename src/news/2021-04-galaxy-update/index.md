@@ -4,7 +4,7 @@ tease: "New Featured and Community News sections; new events, releases, training
 date: ""
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 The newsletter still includes sections on
 
@@ -28,22 +28,43 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 <div class="card-deck lead">
 
-<!-- Lead -->
+<!-- James -->
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
-<img class="card-img-top" src="video-banner.png" alt="Video ... explosion: Screenshot from youtube." />
-<div class="card-header">[Galaxy Videos](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)</div>
+<img class="card-img-top" src="" alt="James Taylor" />
+<div class="card-header">Share your favorite James Taylor story</div>
 
-Text
+It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
+
+Here is what we will need you to do before April 30:
+
+1. Think of your favorite story/interaction/event involving James.
+2. Pick a nice location and record the video!
+3. The video should be:
+  * in a high-resolution
+  * without background noise
+  * in a horizontal orientation (not vertical!)
+  * ≲ 30 seconds in length
+4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
+5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
+
+Thank you all in advance and please feel free to send this to other friends of James.
+</div>
+
+<!-- James -->
+<div class="card border-info" style="min-width: 25%; max-width: 100%">
+<img class="card-img-top" src="" alt="James Taylor" />
+<div class="card-header">
+
+[A note to James, one year after his passing](/src/jxtx/index.md)
 
 </div>
 
+The project leadership marked the one year anniversary of James's passing with [a letter to him](/src/jxtx/index.md) summarizing the year he missed.  It starts with
 
-<!-- Next  -->
-<div class="card border-info" style="min-width: 40%; max-width: 100%">
-<img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
-<div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
+  "What a year. It was difficult."
 
-Text
+and then goes on to describe the community's progress and perseverance over the year.  It's a powerful reflection on James, this community, and the past year.  Please take a look.
+
 </div>
 
 </div>
@@ -53,33 +74,19 @@ Text
 
 <div class="card-deck">
 
-<!-- Lead -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 100%;">
-<div class="card-header">[EOSC-Life Use Cases](https://galaxyproject.eu/posts/2021/03/10/eosc-life-d6/)</div>
-
-Text
-<img class="card-img-bottom" src="eosc-life-demonstrators.png" alt="EOSC Life Demonstrators Slide" />
-</div>
-
-
-<!-- Next -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 100%;">
-<img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
-<div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
-
-</div>
-
-
 <!-- GSOC -->
-<div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
+<div class="card border-info"  style="min-width: 20%; max-width: 40%">
 <img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
-<div class="card-header">[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)</div>
+<div class="card-header">
+
+[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
+
+</div>
 
 The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
 
 Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
 </div>
-
 </div>
 
 
@@ -93,7 +100,11 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
+<div class="card-header">
+
+[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)
+
+</div>
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
@@ -110,7 +121,11 @@ Please watch Galaxy channels for the registration and abstract submission announ
 <!-- Galaxy @ ISMB? -->
 <div class="card border-info" style="min-width: 40%; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
-<div class="card-header">[ISMB/ECCB/BOSC Deadlines](https://www.iscb.org/ismbeccb2021)</div>
+<div class="card-header">
+
+[ISMB/ECCB/BOSC Deadlines](https://www.iscb.org/ismbeccb2021)
+
+</div>
 
 **Submissions due May 6.**
 
@@ -125,7 +140,11 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 <!-- UseGalaxy.No -->
 <div class="card border-info" style="min-width: 18rem; max-width: 100%;">
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
-<div class="card-header">[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)</div>
+<div class="card-header">
+
+[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)
+
+</div>
 
 **7 April, or 13 April**
 
@@ -150,7 +169,11 @@ We will be on Gitter for chat all day long, and on 3 calls spread across the day
 <!-- Webinars -->
 <div class="card border-info" style="min-width: 30%; max-width:  100%;">
 <img class="card-img-top" src="/src/events/webinars/gr4-webinars-wide-600.png" alt="Galaxy Resources for You Webinars" />
-<div class="card-header">[Galaxy Resources for ... You Webinars](/src/events/webinars/index.md)</div>
+<div class="card-header">
+
+[Galaxy Resources for ... You Webinars](/src/events/webinars/index.md)
+
+</div>
 
 Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
 
@@ -165,13 +188,19 @@ Space is, um, unlimited!  But sign up today anyway.
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">
 
-There next roundtable meetup will be:
+[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
 
-**[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**, X will
+</div>
 
-**[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**, Y will
+The next roundtable meetups will be:
+
+**[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**
+
+**[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**
+
+That is, they will be *[if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).*
 
 </div>
 
@@ -180,7 +209,9 @@ There next roundtable meetup will be:
 <div class="card border-info" style="min-width: 18%; max-width:  100%;">
 <img class="card-img-top" src="/src/images/logos/fli-logo-big.png" />
 <div class="card-header">
+
 [Bioinformatics carpentry utilizing Galaxy](https://www.leibniz-fli.de/news-events/seminars/detailpage/denbi-destair-training-course)
+
 </div>
 
 **12-16 April, Online, Global**
@@ -195,7 +226,11 @@ Interactive lectures followed by hands-on sessions. Each day will start with an 
 <!-- Plant Transcriptomics workshop -->
 <div class="card border-info" style="min-width: 30%; max-width:  100%;">
 <img class="card-img-top" src="plant_transcriptomics_workshop.png" />
-<div class="card-header">[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)</div>
+<div class="card-header">
+
+[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)
+
+</div>
 
 **19-23 April, Online, Global**
 
@@ -209,7 +244,11 @@ The purpose of this workshop is to gain knowledge on Next Generation Sequencing 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 18%; max-width:  30%;">
 <img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
-<div class="card-header">[Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)</div>
+<div class="card-header">
+
+[Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
+
+</div>
 
 **4-6 May, Bordeaux, France**
 
@@ -226,14 +265,47 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
+
 <div class="card-deck">
 
-<!-- ASaiM -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[ASaiM](/src/use/asaim/index.md)</div>
+<!-- IPK BLAST -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/use/ipk-blast/consortia.png" alt="IPK Blast Consortia" />
+<div class="card-header">
 
-Text
-<img class="card-img-bottom" src="/src/use/asaim/asaim-figure1.png" alt="ASaiM paper, figure 1, showing workflow" />
+[IPK Blast](/src/use/ipk-blast/index.md)
+
+</div>
+
+The [IPK Galaxy Blast Suite](https://galaxy-web.ipk-gatersleben.de) is part of the IPK Crop Analysis Tools Suite (CATS). Offers access to genomic references published by IPK and collaborative projects. Provides BLAST for Barley, Wheat, and Rye data.  Comes with [an introduction](https://galaxy-web.ipk-gatersleben.de/static/galaxyweb/intro.html), [tutorials](https://galaxy-web.ipk-gatersleben.de/static/galaxyweb/tutorials.html), and [email support](mailto:galaxyadmin@ipk-gatersleben.de).
+
+</div>
+
+
+<!-- Human Cell Atlas -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+
+[Single-cell RNAseq analysis made easy](https://www.ebi.ac.uk/about/news/announcements/SCiAp)
+
+</div>
+
+... on the [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) of course.  This [write-up from EMBL-EBI](https://www.ebi.ac.uk/about/news/announcements/SCiAp) discusses both the user interface and the back end implementation of this server.
+
+<img class="card-img-bottom" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />
+</div>
+
+
+<!-- Australia Job 2M -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
+<div class="card-header">
+
+[Better plant quarantine enabled by Galaxy Australia’s two millionth job](https://www.biocommons.org.au/news/galaxy-au-two-millionth-job)
+
+</div>
+
+We asked the submitter for some background on what research they were doing. We found a fascinating story.
 
 </div>
 
@@ -256,6 +328,41 @@ Text
 # Galactic Blog Activity
 
 <div class="card-deck">
+
+<!-- Tips and Tricks -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+
+[Tips and Tricks for Galaxy](https://thewoods.blog/Galaxy-tips/)
+
+</div>
+
+By [Nolan Woods](https://www.linkedin.com/in/nolan-woods).
+
+Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
+
+<img class="card-img-bottom" src="/src/blog/2021-03-tips-and-tricks/conditional-flow-control.png" alt="Flow Control: Conditional" />
+</div>
+
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<div class="card-header">TIaaS Feedback</div>
+
+We heard from a lot [Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) users this month:
+
+* [RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/), from Tuan Leng Tay.
+* [Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/), from Martin Čech
+* [Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/), from Ricardo Gonzalo Sanz.
+* [RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/), from Fotis Psomopoulos.
+* [TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/), from Simon Gladman.
+
+TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space for updates.
+
+<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+</div>
+
+
 
 <!-- TIaaS feedback Tuan -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
