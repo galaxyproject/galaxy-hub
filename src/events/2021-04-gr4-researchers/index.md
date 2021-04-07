@@ -5,7 +5,7 @@ days: 1
 tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location: "Galaxy Resources Webinar Series, Online, Global"
-image: "/src/events/webinars/gr4-webinars-300.png"
+image: "gr4-resources.png"
 location_url: "/events/webinars/"
 external_url:
 contact: "Dave Clements"

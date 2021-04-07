@@ -21,6 +21,7 @@ quotas:
 citations:
   - 'Please thank the facility in your acknowledgements "We are grateful to the INRA MIGALE bioinformatics facility (MIGALE, INRA, 2018. Migale bioinformatics Facility, doi: [10.15454/1.5572390655343293E12](http://doi.org/10.15454/1.5572390655343293E12)) for providing providing help and support."'
 pub_libraries:
+  - "Migale"
 sponsors:
   - "[Migale bioinformatics Facility](http://doi.org/10.15454/1.5572390655343293E12)"
 ---
