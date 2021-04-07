@@ -525,7 +525,7 @@ Guerler, A., Baker, D., Beek, M. van den, Bouvier, D., Coraor, N., Schatz, M. C.
 </div>
 
 
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 15rem;">
 <div class="card-header">
 
 [Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring](https://doi.org/10.1101/2021.03.25.437046)
@@ -560,7 +560,7 @@ Topal, S., Van, C., Xue, Y., Carey, M. F., & Peterson, C. L. (2020). *Cell Repor
 </div>
 
 
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 10rem;">
 <div class="card-header">
 
 [Intuitive, reproducible high-throughput molecular dynamics in Galaxy: A tutorial](https://doi.org/10.1186/s13321-020-00451-6)
@@ -569,6 +569,17 @@ Topal, S., Van, C., Xue, Y., Carey, M. F., & Peterson, C. L. (2020). *Cell Repor
 
 Bray, S. A., Senapathi, T., Barnett, C. B., & Grüning, B. A. (2020). *Journal of Cheminformatics*, 12(1), 54. https://doi.org/10.1186/s13321-020-00451-6
 
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
+[Investigating RNF43 Mutations as Biomarkers for ctDNA Surveillance of Colorectal Cancer](https://ourarchive.otago.ac.nz/handle/10523/10560)
+
+</div>
+
+Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.nz/handle/10523/10560 (and see [this article](https://www.otago.ac.nz/biochemistry/news/otago747094.html) for more about the author and her research)
 </div>
 
 </div>
