@@ -551,6 +551,18 @@ Patel, J. A., Dean, D. A., King, C. H., Xiao, N., Koc, S., Minina, E., Golikov, 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">
 
+[JBrowse Connect: A server API to connect JBrowse instances and users](https://doi.org/10.1371/journal.pcbi.1007261)
+
+</div>
+
+Yao, E., Buels, R., Stein, L., Sen, T. Z., & Holmes, I. (2020). *PLOS Computational Biology*, 16(8), e1007261. https://doi.org/10.1371/journal.pcbi.1007261
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
 [INO80C Remodeler Maintains Genomic Stability by Preventing Promiscuous Transcription at Replication Origins](https://doi.org/10.1016/j.celrep.2020.108106)
 
 </div>
