@@ -1,7 +1,7 @@
 ---
 title: 'April 2021 Galactic News'
 tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
-date: ""
+date: "2021-04-08"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
