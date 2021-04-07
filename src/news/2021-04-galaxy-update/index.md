@@ -74,30 +74,6 @@ and then goes on to describe the community's progress and perseverance over the 
 
 <div class="card-deck">
 
-<!-- GSOC -->
-<div class="card border-info"  style="min-width: 20%; max-width: 40%">
-<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
-<div class="card-header">
-
-[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
-
-</div>
-
-The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
-
-Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
-</div>
-
-</div>
-
-
-
-# Event News
-
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
-
-<div class="card-deck">
-
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
@@ -118,6 +94,30 @@ We also expect to open registration and abstract submission shortly.  Registrati
 Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
 
+<!-- GSOC -->
+<div class="card border-info"  style="min-width: 20%; max-width: 40%">
+<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
+<div class="card-header">
+
+[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
+
+</div>
+
+The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
+
+Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
+</div>
+
+
+</div>
+
+
+
+# Event News
+
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+
+<div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
 <div class="card border-info" style="min-width: 40%; max-width: 100%">
