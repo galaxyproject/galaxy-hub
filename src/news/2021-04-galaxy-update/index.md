@@ -1,7 +1,7 @@
 ---
 title: 'April 2021 Galactic News'
 tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
-date: ""
+date: "2021-04-08"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -33,11 +33,11 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <img class="card-img-top" src="" alt="James Taylor" />
 <div class="card-header">Share your favorite James Taylor story</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do before April 30:
 
-1. Think of your favorite story/interaction/event involving James.
+1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
   * in a high-resolution
@@ -47,7 +47,7 @@ Here is what we will need you to do before April 30:
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 
-Thank you all in advance and please feel free to send this to other friends of James.
+Thank you all in advance and please feel free to invite other friends of James to participate.
 </div>
 
 <!-- James -->
@@ -74,30 +74,6 @@ and then goes on to describe the community's progress and perseverance over the 
 
 <div class="card-deck">
 
-<!-- GSOC -->
-<div class="card border-info"  style="min-width: 20%; max-width: 40%">
-<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
-<div class="card-header">
-
-[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
-
-</div>
-
-The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
-
-Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
-</div>
-
-</div>
-
-
-
-# Event News
-
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
-
-<div class="card-deck">
-
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
@@ -118,6 +94,30 @@ We also expect to open registration and abstract submission shortly.  Registrati
 Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
 
+<!-- GSOC -->
+<div class="card border-info"  style="min-width: 20%; max-width: 40%">
+<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
+<div class="card-header">
+
+[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
+
+</div>
+
+The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
+
+Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
+</div>
+
+
+</div>
+
+
+
+# Event News
+
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+
+<div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
 <div class="card border-info" style="min-width: 40%; max-width: 100%">
@@ -366,69 +366,6 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 </div>
 
 
-
-<!-- TIaaS feedback Tuan -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
-
-By Dr. Tuan Leng Tay.
-
-Master students of the University of Freiburg from different backgrounds were trained in analysing RNA-Seq data.
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Martin -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/)</div>
-
-By Martin Čech.
-
-ELIXIR Czech Republic has run an afternoon-long workshop comprised of a general introduction to Galaxy with hands-on parts and later a specialized session (cheminformatics/proteomics).
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Ricardo -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/)</div>
-
-By Dr. Ricardo Gonzalo Sanz.
-
-The Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) in Spain gave an introductory workshop to master students of the Bioinformatics Course for Biomedical Research, covering Quality control of NGS data, RNAseq and Variant data analysis.
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Fotis -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/)</div>
-
-Dr. Fotis Psomopoulos.
-
-Fotis gave a lecture on RNA-Seq data analysis in the context of the graduate program on Precision Medicine of the School of Medicine at the Aristotle University of Thessaloniki
-
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Simon -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/)</div>
-
-By Simon Gladman.
-
-Simon shares his experience with training workshops in Australia using TIaaS usegalaxy.eu. He loved the TIaaS dashboard and they are working on setting up TIaaS on Galaxy Australia!
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-
 </div>
 
 
@@ -601,49 +538,22 @@ Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 30%; max-width: 100%">
+<div class="card border-info"  style="min-width: 30%; max-width: 30%">
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
-<div class="card-header">Planemo 0.74.2-3</div>
+<div class="card-header">Planemo 0.74.4</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some notable changes
+command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  This release includes: 
 
-* Better handling of `virtualenv`
-* Display live logs when Galaxy is run in the background.
-* Container register for GitHub workflows fixes
+* New flag `--download_outputs` for the run command.
+* Simultaneous file upload configurable for the run and test commands.
+* Add option to add tags to a history with the run command.
+* Revise Allure reporting experience for workflows. 
+
 
 See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 </div>
 
 
-<div class="card border-info"  style="min-width: 10rem; max-width: 100%;">
-<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
-
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
-
-There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
 </div>
 
-
-<div class="card border-info"  style="min-width: 15%; max-width: 100%;">
-<div class="card-header">Galaxy Language Server 0.4.0-1</div>
-
-[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 
-wrappers inside modern code editors.
-
-The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
-
-</div>
-</div>
-
-
-# Other News
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 25%; max-width: 33%;">
-<img class="card-img-top" src="yvan-rad-seq.png" alt="RAD-Seq goes well with baby care" />
-<div class="card-header">[RADseq data analysis](https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/)</div>
-
-Text
-</div>
