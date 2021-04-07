@@ -538,28 +538,22 @@ Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 30%; max-width: 100%">
+<div class="card border-info"  style="min-width: 30%; max-width: 30%">
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
-<div class="card-header">Planemo 0.74.2-3</div>
+<div class="card-header">Planemo 0.74.4</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  These releases included numerous fixes and enhancements. Some notable changes
+command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  This release includes: 
 
-* Better handling of `virtualenv`
-* Display live logs when Galaxy is run in the background.
-* Container register for GitHub workflows fixes
+* New flag `--download_outputs` for the run command.
+* Simultaneous file upload configurable for the run and test commands.
+* Add option to add tags to a history with the run command.
+* Revise Allure reporting experience for workflows. 
+
 
 See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 </div>
 
-
-<div class="card border-info"  style="min-width: 10rem; max-width: 100%;">
-<div class="card-header">[BioBlend 0.15.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.15.0)</div>
-
-[BioBlend](http://bioblend.readthedocs.org/) is a Python library for interacting with CloudMan and Galaxy‘s API.  BioBlend makes it possible to script and automate the process of cloud infrastructure provisioning and scaling via CloudMan, and running of analyses via Galaxy.
-
-There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
-</div>
 
 </div>
 
