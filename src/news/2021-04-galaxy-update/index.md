@@ -33,11 +33,11 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <img class="card-img-top" src="" alt="James Taylor" />
 <div class="card-header">Share your favorite James Taylor story</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do before April 30:
 
-1. Think of your favorite story/interaction/event involving James.
+1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
   * in a high-resolution
@@ -47,7 +47,7 @@ Here is what we will need you to do before April 30:
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 
-Thank you all in advance and please feel free to send this to other friends of James.
+Thank you all in advance and please feel free to invite other friends of James to participate.
 </div>
 
 <!-- James -->
