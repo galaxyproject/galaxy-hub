@@ -366,69 +366,6 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 </div>
 
 
-
-<!-- TIaaS feedback Tuan -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq analysis at the University of Freiburg (Germany)](https://galaxyproject.eu/posts/2021/03/19/tiaas-Tuan/)</div>
-
-By Dr. Tuan Leng Tay.
-
-Master students of the University of Freiburg from different backgrounds were trained in analysing RNA-Seq data.
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Martin -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[Introduction to Galaxy by ELIXIR Czech Republic](https://galaxyproject.eu/posts/2021/03/22/tiaas-martin-cech/)</div>
-
-By Martin Čech.
-
-ELIXIR Czech Republic has run an afternoon-long workshop comprised of a general introduction to Galaxy with hands-on parts and later a specialized session (cheminformatics/proteomics).
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Ricardo -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[Bioinformatics Course for Biomedical Research](https://galaxyproject.eu/posts/2021/03/25/tiaas-Ricardo-Gonzalo-Sanz/)</div>
-
-By Dr. Ricardo Gonzalo Sanz.
-
-The Statistics and Bioinformatics Unit from Vall d’Hebron Institute of Research (VHIR) in Spain gave an introductory workshop to master students of the Bioinformatics Course for Biomedical Research, covering Quality control of NGS data, RNAseq and Variant data analysis.
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Fotis -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[RNA-Seq data analysis at the Aristotle University of Thessaloniki (Greece)](https://galaxyproject.eu/posts/2021/03/28/tiaas-Fotis-Psomopoulos/)</div>
-
-Dr. Fotis Psomopoulos.
-
-Fotis gave a lecture on RNA-Seq data analysis in the context of the graduate program on Precision Medicine of the School of Medicine at the Aristotle University of Thessaloniki
-
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-<!-- TIaaS feedback Simon -->
-<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<div class="card-header">[TIaaS feedback from Galaxy Australia](https://galaxyproject.eu/posts/2021/04/03/tiaas-Simon-Gladman/)</div>
-
-By Simon Gladman.
-
-Simon shares his experience with training workshops in Australia using TIaaS usegalaxy.eu. He loved the TIaaS dashboard and they are working on setting up TIaaS on Galaxy Australia!
-
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
-</div>
-
-
-
 </div>
 
 
