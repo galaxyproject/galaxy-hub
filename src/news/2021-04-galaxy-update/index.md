@@ -563,14 +563,3 @@ There were a lot of improvements in this release. See the [release notes](https:
 
 </div>
 
-
-# Other News
-
-<div class="card-deck">
-
-<div class="card border-info"  style="min-width: 25%; max-width: 33%;">
-<img class="card-img-top" src="yvan-rad-seq.png" alt="RAD-Seq goes well with baby care" />
-<div class="card-header">[RADseq data analysis](https://galaxyproject.eu/posts/2021/03/13/radseq-analysis/)</div>
-
-Text
-</div>
