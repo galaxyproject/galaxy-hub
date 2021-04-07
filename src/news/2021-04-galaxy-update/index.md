@@ -87,6 +87,7 @@ The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Gal
 
 Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
 </div>
+
 </div>
 
 
@@ -316,7 +317,9 @@ We asked the submitter for some background on what research they were doing. We 
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
+* [March 2021 Australian BioCommons Newsletter](https://mailchi.mp/0ff74a85c2a3/ausbiocommons-mar-2021-update) features several stories on Galaxy Australia.
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+* Galaxy Australia is [hiring](http://jobs.unimelb.edu.au/caw/en/job/904562/academic-specialist-bioinformatician).  **Apply by 19 Apr.**
 
 
 </div>
@@ -433,7 +436,23 @@ Simon shares his experience with training workshops in Australia using TIaaS use
 
 <div class="card-deck">
 
-<!-- GTN video -->
+<!-- Single cell  -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+
+[Filter, Plot and Explore Single-cell RNA-seq Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html)
+
+</div>
+
+By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+
+Fully process single cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
+
+<img class="card-img-bottom" src="gtn-single-cell.jpg" alt="Figure 12: Appearance is everything" />
+</div>
+
+
+<!-- Workflow Hub -->
 <div class="card border-info" style="min-width: 290px; max-width: 290px;">
 <iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
@@ -446,7 +465,7 @@ workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.
 
 
 <!-- Galaxy-ELIXIR webinar series -->
-<div class="card border-info" style="min-width: 20rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
 <div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
 
 Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
@@ -458,12 +477,31 @@ If you missed them, the recordings are now available on the [ELIXIR Europe YouTu
 
 
 
-<!-- Generating a cell matrix using Alevin -->
-<div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="gtn-alevin-slice.png" alt="Alevin Workflow" />
-<div class="card-header">[Generating a cell matrix using Alevin](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/droplet-quantification-preprocessing/tutorial.html)</div>
+<!-- Genome assembly of a MRSA genome  -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
+<div class="card-header">
 
-Text
+[Genome assembly of a MRSA genome](https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html)
+
+</div>
+
+By [Bazante Sanders](https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/), [Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
+
+Two new assembly tutorials have been added to the GTN. in one you [perform this analysis on Nanopore MinION data](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html), and in the other you [perform a similar analysis on Illlumina-sequenced datasets](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html).
+</div>
+
+
+<!-- Genome assembly of a MRSA genome  -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
+<div class="card-header">
+
+[GTN has FAQs!](https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html)
+
+</div>
+
+The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](https://training.galaxyproject.org/training-material/faqs/) that is automatically populated from reusable snippets that are already in the GTN.
 </div>
 
 </div>
@@ -476,12 +514,62 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
 
-<div class="card-header"> [Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update]( https://doi.org/10.1002/cpz1.31)</div>
+[Fast and accurate genome-wide predictions and structural modeling of protein-protein interactions using Galaxy](https://doi.org/10.1101/2021.03.17.435706)
 
-Ostrovsky, A., Hillman‐Jackson, J., Bouvier, D., Clements, D., Afgan, E., Blankenberg, D., Schatz, M. C., Nekrutenko, A., Taylor, J., Team,  the G., & Lariviere, D. (2021). *Current Protocols*, 1(2), e31. https://doi.org/10.1002/cpz1.31
 </div>
 
+Guerler, A., Baker, D., Beek, M. van den, Bouvier, D., Coraor, N., Schatz, M. C., & Nekrutenko, A. (2021). *BioRxiv*, 2021.03.17.435706. https://doi.org/10.1101/2021.03.17.435706
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
+[Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring](https://doi.org/10.1101/2021.03.25.437046)
+
+</div>
+
+Maier, W., Bray, S., Beek, M. van den, Bouvier, D., Coraor, N., Miladi, M., Singh, B., Argila, J. R. D., Baker, D., Roach, N., Gladman, S., Coppens, F., Martin, D., Lonie, A., Gruning, B., Pond, S. K., & Nekrutenko, A. (2021). *BioRxiv*, 2021.03.25.437046. https://doi.org/10.1101/2021.03.25.437046
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
+[Bioinformatics tools developed to support BioCompute Objects](https://doi.org/10.1093/database/baab008)
+
+</div>
+
+Patel, J. A., Dean, D. A., King, C. H., Xiao, N., Koc, S., Minina, E., Golikov, A., Brooks, P., Kahsay, R., Navelkar, R., Ray, M., Roberson, D., Armstrong, C., Mazumder, R., & Keeney, J. (2021). *Database*, 2021(baab008). https://doi.org/10.1093/database/baab008
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
+[INO80C Remodeler Maintains Genomic Stability by Preventing Promiscuous Transcription at Replication Origins](https://doi.org/10.1016/j.celrep.2020.108106)
+
+</div>
+
+Topal, S., Van, C., Xue, Y., Carey, M. F., & Peterson, C. L. (2020). *Cell Reports*, 32(10), 108106. https://doi.org/10.1016/j.celrep.2020.108106
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem;">
+<div class="card-header">
+
+[Intuitive, reproducible high-throughput molecular dynamics in Galaxy: A tutorial](https://doi.org/10.1186/s13321-020-00451-6)
+
+</div>
+
+Bray, S. A., Senapathi, T., Barnett, C. B., & Grüning, B. A. (2020). *Journal of Cheminformatics*, 12(1), 54. https://doi.org/10.1186/s13321-020-00451-6
+
+</div>
 
 </div>
 

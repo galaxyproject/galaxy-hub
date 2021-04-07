@@ -26,6 +26,7 @@ quotas:
   - "AnVIL is classified as both an *academic cloud* and a *commercial cloud* platform.  It is definitely a *research cloud* platform (funded [by NHGRI](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL#awards)), but it is built on a *commercial cloud* platform and is a pay-per-use platform."
 citations:
 pub_libraries:
+- "AnVIL"
 sponsors:
 - "[NHGRI](https://www.genome.gov/) supports AnVIL through [cooperative agreement awards](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL#awards) to the [Broad Institute](https://projectreporter.nih.gov/project_info_description.cfm?aid=9788512&icde=46222930&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=) (#5U24HG010262) and [Johns Hopkins University](https://projectreporter.nih.gov/project_info_description.cfm?aid=9789931&icde=46222940&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball=) (#5U24HG010263)."
 ---
