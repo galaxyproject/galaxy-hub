@@ -561,16 +561,6 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 There were a lot of improvements in this release. See the [release notes](https://github.com/galaxyproject/bioblend/releases) for details
 </div>
 
-
-<div class="card border-info"  style="min-width: 15%; max-width: 100%;">
-<div class="card-header">Galaxy Language Server 0.4.0-1</div>
-
-[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 
-wrappers inside modern code editors.
-
-The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.
-
-</div>
 </div>
 
 
