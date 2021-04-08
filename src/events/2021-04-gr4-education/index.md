@@ -8,7 +8,7 @@ location: "Galaxy Resources Webinar Series, Online, Global"
 image: "/src/events/webinars/gr4-webinars-400.png"
 location_url: "/events/webinars/"
 external_url:
-contact: "Galaxy Training Network"
+contact: "Saskia Hiltemann, ..."
 tags: [ webinar ]
 gtn: false
 links:
