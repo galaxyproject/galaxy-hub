@@ -160,7 +160,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 **15 April, Online, Global**
 
-Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-04-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
