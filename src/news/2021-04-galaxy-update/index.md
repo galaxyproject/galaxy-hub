@@ -30,7 +30,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 <!-- James -->
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
-<img class="card-img-top" src="" alt="James Taylor" />
+<img class="card-img-top" src="/src/jxtx/jxtx-stripe.jpg" alt="James Taylor" />
 <div class="card-header">Share your favorite James Taylor story</div>
 
 It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
@@ -52,7 +52,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 <!-- James -->
 <div class="card border-info" style="min-width: 25%; max-width: 100%">
-<img class="card-img-top" src="" alt="James Taylor" />
+<img class="card-img-top" src="/src/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
 <div class="card-header">
 
 [A note to James, one year after his passing](/src/jxtx/index.md)
@@ -120,7 +120,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 40%; max-width: 100%">
+<div class="card border-info" style="min-width: 35%; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
@@ -130,31 +130,44 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 **Submissions due May 6.**
 
-[ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence at it.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
+[ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
+
+**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities. 
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
-<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" />
+<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
 </div>
 
 
-<!-- UseGalaxy.No -->
-<div class="card border-info" style="min-width: 18rem; max-width: 100%;">
-<img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
+<!-- Webinars -->
+<div class="card border-info" style="min-width: 20%; max-width:  100%;">
+<img class="card-img-top" src="/src/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
 <div class="card-header">
 
-[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)
+[Webinars](/src/events/webinars/index.md)
 
 </div>
 
-**7 April, or 13 April**
+Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
 
-ELIXIR Norway is pleased to announce the first online course on using the [Norwegian e-infrastructure for Life Science (NeLS)](https://nels.bioinfo.no/) and the nationally supported [usegalaxy.no](https://usegalaxy.no/). There are 3 identical events. Please register for only one of them.
+**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April 14**
+
+**[Galaxy Resources for Educators and Trainers](/src/events/2021-04-gr4-education/index.md), April 28**
+
+Space is, um, unlimited!  But sign up today anyway and we will send you a reminder.
+
+In addition, there are two more webinars this month:
+
+**[ELIXIR & Galaxy Project](https://www.elixir-czech.cz/events/elixir-cz-friday-coffee-16-april-2021), April 16**
+
+**[Building a bioinformatics platform: Lessons learned from immuneML](https://docs.google.com/forms/d/e/1FAIpQLSd7pNc4x-ONjNW9-_ybf5cHz3OvgB6SLo3iL9qDwIzRHwh_Cw/viewform), April 28**
+
 </div>
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 30%; max-width:  100%;">
+<div class="card border-info" style="min-width: 20%; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[April Papercuts CoFest](/src/events/2021-05-papercuts/index.md)</div>
 
@@ -167,24 +180,20 @@ We will be on Gitter for chat all day long, and on 3 calls spread across the day
 </div>
 
 
-<!-- Webinars -->
-<div class="card border-info" style="min-width: 30%; max-width:  100%;">
-<img class="card-img-top" src="/src/events/webinars/gr4-webinars-wide-600.png" alt="Galaxy Resources for You Webinars" />
+<!-- UseGalaxy.No -->
+<div class="card border-info" style="min-width: 15%; max-width: 100%;">
+<img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">
 
-[Galaxy Resources for ... You Webinars](/src/events/webinars/index.md)
+[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)
 
 </div>
 
-Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
+**13 April**
 
-**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April 14**
-
-**[Galaxy Resources for Educators and Trainers](/src/events/2021-04-gr4-education/index.md), April 28**
-
-Space is, um, unlimited!  But sign up today anyway.
-
+ELIXIR Norway is pleased to announce the first online course on using the [Norwegian e-infrastructure for Life Science (NeLS)](https://nels.bioinfo.no/) and the nationally supported [usegalaxy.no](https://usegalaxy.no/). There are 3 identical events. Please register for only one of them.
 </div>
+
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
@@ -201,25 +210,25 @@ The next roundtable meetups will be:
 
 **[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**
 
-That is, they will be *[if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).*
+That is, *they will be [if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).*
 
 </div>
 
 
-<!-- DE.STAIR TRAINING COURSE: Bioinformatics carpentry utilizing Galaxy -->
+<!-- Plant genomics: chloroplast genome assembly using Galaxy Australia -->
 <div class="card border-info" style="min-width: 18%; max-width:  100%;">
-<img class="card-img-top" src="/src/images/logos/fli-logo-big.png" />
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">
 
-[Bioinformatics carpentry utilizing Galaxy](https://www.leibniz-fli.de/news-events/seminars/detailpage/denbi-destair-training-course)
+[Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/plant-genomics-galaxy)
 
 </div>
 
-**12-16 April, Online, Global**
+**21 April, Online, Australia**
 
-Interactive lectures followed by hands-on sessions. Each day will start with an optional discussion about the previous hands-on.
+Step through genome assembly using chloroplast sequencing data and the Galaxy Australia web platform.
 
-[Register here!](https://www.leibniz-fli.de/application-for-workshop)
+[Register here!](https://plant-genomics-galaxy.eventbrite.com.au/)
 
 </div>
 
@@ -413,7 +422,6 @@ If you missed them, the recordings are now available on the [ELIXIR Europe YouTu
 </div>
 
 
-
 <!-- Genome assembly of a MRSA genome  -->
 <div class="card border-info" style="min-width: 20%; max-width: 100%;">
 <img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
@@ -429,8 +437,39 @@ Two new assembly tutorials have been added to the GTN. in one you [perform this 
 </div>
 
 
-<!-- Genome assembly of a MRSA genome  -->
-<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<!-- Downstream Single-cell RNA Plant analysis with ScanPy  -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="gtn-scrna-stripe.png" alt="scRNA" />
+<div class="card-header">
+
+[Downstream Single-cell RNA Plant analysis with ScanPy](https://training.galaxyproject.org/training-material/news/2021/03/30/tutorial_scrna_plant.html)
+
+</div>
+
+By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/).
+
+Single cell RNA-seq analysis provides a great level of detail in understanding the underlying dynamic processes within tissues. This tutorial uses scRNA-Seq to highlight some of the key differentiation pathways that plant root cells undergo.
+
+</div>
+
+
+<!-- Object tracking using CellProfiler   -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="https://training.galaxyproject.org/training-material/topics/imaging/images/object-tracking-using-cell-profiler/Dividing_nuclei.gif" alt="CellProfiler" />
+<div class="card-header">
+
+[Object tracking using CellProfiler](https://training.galaxyproject.org/training-material/news/2021/03/18/tutorial_imaging_cell_profiler.html)
+
+</div>
+
+By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/), [Yi Sun](https://training.galaxyproject.org/training-material/hall-of-fame/sunyi000/), and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
+
+This tutorial tracks dividing nuclei in a short time-lapse recording of one mitosis of a syncytial blastoderm stage *Drosophila* embryo expressing a GFP-histone gene that labels chromatin.
+</div>
+
+
+<!-- FAQs  -->
+<div class="card border-info" style="min-width: 20%; max-width: 24rem;">
 <img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
 <div class="card-header">
 

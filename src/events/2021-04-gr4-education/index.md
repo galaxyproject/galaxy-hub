@@ -22,6 +22,7 @@ links:
 * **[Saskia Hiltemann](http://shiltemann.github.io/)**, Erasmus MC
 * **[Subina Mehta](https://www.researchgate.net/profile/Subina-Mehta)**, University of Minnesota
 * **[Christine Cucinotta](https://www.cecucinotta.co/)**, Fred Hutchinson Cancer Center
+* **[Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/)**, Avans University
 
 This webinar will highlight Galaxy resources for educators and trainers.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 
