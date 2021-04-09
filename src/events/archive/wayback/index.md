@@ -542,7 +542,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href="https://web.archive.org/web/http://gcc2016.iu.edu/">2016 Galaxy Community Conference (GCC2016)</a></em></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers'>Organizers</a> </td>
     <td> </td>
@@ -1131,7 +1131,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> </td>
   </tr>
   <tr>
-    <td> <em>Common Workflow Language on Galaxy</em><div class='indent'>Part of <em><a href='http://bit.ly/1POcrKL'>Portable Bioinformatics Workshop</a></em> </td>
+    <td> <em>Common Workflow Language on Galaxy</em><div class="indent">Part of <em><a href="http://bit.ly/1POcrKL">Portable Bioinformatics Workshop</a></em></div> </td>
     <td> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
     <td> </td>
   </tr>
@@ -1195,14 +1195,14 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> October 29 </th>
-    <td> <em><a href='https://www.eventbrite.com.au/e/introduction-to-proteomics-with-galaxy-tickets-18772848094'>Introduction to Proteomics with Galaxy</a> </td>
+    <td> <em><a href='https://www.eventbrite.com.au/e/introduction-to-proteomics-with-galaxy-tickets-18772848094'>Introduction to Proteomics with Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> VLSCI, Carlton, VIC, Australia </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> VLSCI </td>
     <td> </td>
   </tr>
   <tr>
     <th> October 28-29 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
@@ -1488,24 +1488,24 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th rowspan=2> July 4-5 </th>
-    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></strong></div> </td>
     <td> Data Hackathon Organisers </td>
     <td> </td>
   </tr>
   <tr>
-    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div></strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></strong></div> </td>
     <td> Coding Hackathon Organisers </td>
     <td> </td>
   </tr>
   <tr>
     <th> July 5 </th>
-    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></strong></div> </td>
     <td rowspan=2> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> GCC2015 Organisers  </td>
     <td> </td>
   </tr>
   <tr>
     <th> July 6 </th>
-    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div></strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></strong></div> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2298,7 +2298,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <a href='http://qbrc.swmed.edu/portfolio/beibei-chenpostdoctoral-researcher/'>Beibei Chen</a> </td>
   </tr>
   <tr>
-    <td> P82: <em>Building Galaxy Japan community</em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>) </td>
+    <td> P82: <em>Building Galaxy Japan community</em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/posters/2014PitagoraYanamaka.pdf'>Poster</a> </td>
     <td> Ryota Yamanaka </td>
   </tr>
@@ -3571,7 +3571,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></em></strong> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> </td>
     <td> <a href='/src/events/gcc2013/organizers/index.md'>Organizers</a> </td>
@@ -4194,7 +4194,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><em><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></em></strong> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
     <td> <a href='/src/events/gcc2012/index.md'>Program</a> </td>
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
@@ -4215,7 +4215,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th rowspan=1 style=" text-align:center;"> July 13-17 </th>
-    <td> <strong><em><a href='/src/events/ismb2012/index.md'>ISMB 2012 and BOSC 2012</a></strong></em><div class='indent'><a href='/src/events/ismb2012/index.md'>Eight presentations, one Codefest, thirteen posters, and counting</a> </td>
+    <td> <strong><em><a href='/src/events/ismb2012/index.md'>ISMB 2012 and BOSC 2012</a></em></strong><div class='indent'><a href='/src/events/ismb2012/index.md'>Eight presentations, one Codefest, thirteen posters, and counting</a></div> </td>
     <td> Long Beach, California, United States </td>
     <td> <a href='/src/events/ismb2012/index.md'>Galaxy @ ISMB, BOSC</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
@@ -4257,7 +4257,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> May 28 - June 1 </th>
-    <td> <strong><em><a href='/src/events/galaxy-tour-de-france2012/index.md'>Galaxy Tour de France 2012</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/galaxy-tour-de-france2012/index.md'>Galaxy Tour de France 2012</a></em></strong> </td>
     <td> <a href='/src/events/archive/index.md#itinerary'>Perpignan</a>, <a href='/src/events/archive/index.md#itinerary'>Montpellier</a>, <a href='/src/events/archive/index.md#itinerary'>Lyon</a>, <a href='/src/events/archive/index.md#itinerary'>Paris</a> </td>
     <td> </td>
     <td> <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, JamesTaylor </td>
@@ -4464,42 +4464,42 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
   </tr>
   <tr>
     <th> October 25 </th>
-    <td> Exploit your Data: Galaxy and the GMOD Tool Suite<em><br /> This workshop will both cover Galaxy and provide an overview of the GMOD tool suite. </td>
+    <td> Exploit your Data: Galaxy and the GMOD Tool Suite<br /> <em>This workshop will both cover Galaxy and provide an overview of the GMOD tool suite.</em> </td>
     <td> University of Tasmania, Hobart, Australia </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011UTasmania.pdf'>Slides</a> </td>
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 23-24 </th>
-    <td> </em><a href='http://www.biovis.net/papers_abstracts/papers/111.html'>The Galaxy Track Browser: Transforming the Genome Browser from Visualization Tool to Analysis Tool</a><em> </td>
+    <td> <em><a href='http://www.biovis.net/papers_abstracts/papers/111.html'>The Galaxy Track Browser: Transforming the Genome Browser from Visualization Tool to Analysis Tool</a></em> </td>
     <td> <a href='http://www.biovis.net/'>BioVis 2011</a>, Providence, Rhode Island, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011BioVizTrackster.pdf'>Slides</a> </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> October 12-14 </th>
-    <td> </em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Galaxy Update</a> and <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting#Galaxy_Workshop'>Galaxy Workshop</a><em><br />The workshop will cover an introduction to Galaxy, including analyzing data with tools and visualizations, using Galaxy in the cloud, and running your own instance and adding new tools.  </td>
+    <td> <em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Galaxy Update</a> and <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting#Galaxy_Workshop'>Galaxy Workshop</a></em><br />The workshop will cover an introduction to Galaxy, including analyzing data with tools and visualizations, using Galaxy in the cloud, and running your own instance and adding new tools.  </td>
     <td> <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>October 2011 GMOD Meeting</a>, Ontario Institute for Cancer Research (OICR), Toronto, Canada </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctTalk.pdf'>Talk slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011GMODOctWorkshop.pdf'>Workshop slides</a>  </td>
     <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 9-12 </th>
-    <td> </em><a href='http://www.amata.org.au/index.php/2011-conference/workshops'>Exploit your Data: Galaxy and the GMOD Tool Suite</a><em><br /> This workshop will both cover Galaxy and provide an overview of the GMOD tool suite.  This workshop is sponsored by <a href='http://www.csiro.au/'>CSIRO</a> and <a href='http://www.amata.org.au/'>AMATA</a>. </td>
+    <td> <em><a href='http://www.amata.org.au/index.php/2011-conference/workshops'>Exploit your Data: Galaxy and the GMOD Tool Suite</a></em><br /> This workshop will both cover Galaxy and provide an overview of the GMOD tool suite.  This workshop is sponsored by <a href='http://www.csiro.au/'>CSIRO</a> and <a href='http://www.amata.org.au/'>AMATA</a>. </td>
     <td> <a href='http://www.amata.org.au/index.php/2011-conference'>AMATA 2011</a>, Canberra, Australia </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011AMATA.pdf'>Slides</a> </td>
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 3-7 </th>
-    <td> </em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Workshop on Genomics</a><em><br />Includes the half-day </em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Galaxy: Introduction and Introductory Laboratory</a><em> session</td>
+    <td> <em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Workshop on Genomics</a></em><br />Includes the half-day <em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Galaxy: Introduction and Introductory Laboratory</a></em> session</td>
     <td> <a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Smithsonian Institution</a>, Washington, DC, United States </td>
     <td> </td>
     <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> September 22 </th>
-    <td> </em><a href='http://bcbio.wordpress.com/2011/08/19/distributed-exome-analysis-pipeline-with-cloudbiolinux-and-cloudman/'>Developing distributed analysis pipelines with shared community resources using CloudBioLinux and Cloudman</a><em> </td>
+    <td> <em><a href='http://bcbio.wordpress.com/2011/08/19/distributed-exome-analysis-pipeline-with-cloudbiolinux-and-cloudman/'>Developing distributed analysis pipelines with shared community resources using CloudBioLinux and Cloudman</a></em> </td>
     <td> <a href='http://aws.amazon.com/genomicsevent/'>AWS Genomics Event</a>, Seattle, Washington, United States </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2011AWSGenomicsChapman.pdf'>Slides</a>  </td>
     <td> Brad Chapman </td>
