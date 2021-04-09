@@ -5,4 +5,4 @@ For admins wishing to have more information on the status of their galaxy instan
 
 Setup details can be found in the [admin section](https://docs.galaxyproject.org/en/latest/admin/reports.html) of the code documentation.
 
-![reports overview](reports-overview.png)
+![reports overview](./reports-overview.png)

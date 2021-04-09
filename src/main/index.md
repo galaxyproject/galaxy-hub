@@ -15,7 +15,7 @@ The status page with the current state of the Main Server, Test Server, and Tool
 
 Our public site utilizes multiple computational resources distributed across the US:
 
-![Public Site](gxy_map.png)
+![Public Site](./gxy_map.png)
 
 Most jobs are allocated 1 core and 8 GB of memory and run on the dedicated Galaxy cluster at TACC. Some tools that regularly use slightly more memory are allocated 16 GB of memory. Tools that utilize multiple cores (which also typically use larger amounts of memory) can run with either 6 cores and 30 GB of memory on the dedicated Galaxy cluster at TACC or with 10 cores and 30 GB of memory on *m1.xlarge* [Jetstream](https://jetstream-cloud.org/) cloud instances at Indiana University.
 

@@ -21,10 +21,10 @@ Given you have the permissions you can create folders and import datasets into a
 ## from history
 
 Select the `Add datasets/from History` at the folder toolbar.
-![import menu](import-menu.png)
+![import menu](./import-menu.png)
 
 Choose history and select datasets you want to import into current folder. Hit `Add`.
-![history import modal](history-import-modal.png)
+![history import modal](./history-import-modal.png)
 
 <div class="alert alert-info" role="alert">
 You can select dataset collections in this interface. It will flatten its contents and import it as individual datasets.
@@ -35,13 +35,13 @@ You can select dataset collections in this interface. It will flatten its conten
 This option is available only if admin of the Galaxy instance configured it.
 
 Select the `Add datasets/from User Directory` at the folder toolbar.
-![import menu](import-menu.png)
+![import menu](./import-menu.png)
 
 Select files you want to import. You can set `Type` and `Genome` if applicable.
-![file import](file-import.png)
+![file import](./file-import.png)
 
 Select folders to be imported. You can choose whether to `preserve directory structure` (otherwise it fill be flattened) and if you want to `link instead of copying`. Talk to your administrator whether to use linking to files instead of copying - it depends on your file preservation policy.
-![folder import](folder-import.png)
+![folder import](./folder-import.png)
 
 <div class="alert alert-warning" role="alert">
 For Galaxy [Main](/src/main/index.md) linking is discouraged since FTP folders are periodically cleaned up.

@@ -28,23 +28,23 @@ Thanks to the [H2020 GAPARS project](http://gapars.mmos.ch/), we deploy 2 small 
 The gamified interface and scenarios increase the interest of the participants and lift some of the common constraints linked with data literacy education such as complex tools, long formation of the teachers and stimulate the interest for the students and participant as they can directly interact and ‘play’ with the data. The ease of use allows teachers of fields where the use of computer is rare to rapidly adapt and to build bridges between fields. Data collection and input can be done during ecology class and data analysis during mathematics and the output of these analyses can be used again in ecology class.
 
 Summary of validated activities:
-![Activity workflow](activityWorkflow.png)
+![Activity workflow](./activityWorkflow.png)
 
 We investigated different existing solutions in order to test a first version of our platform and reduce the time needed for the development. We compared Scratch, BioBlocks, WAVE, Galaksio and NGPhylogeny.
 Scratch is a programming language already used to learn how to code in high schools. Users assemble graphical blocks of code together and form programs such as interactive stories, games or animations. This makes it a good candidate to adapt galaxy-E. As the concept of block of code is already present and the interface is already known by teachers and students. We were able to create an extension and we are now in the development phase to link the API of galaxy and scratch.
 
 Scratch3 based wireframe:
-![Scratch3 based wireframe](scratch.PNG)
+![Scratch3 based wireframe](./scratch.PNG)
 
 Others tested solutions were developed for research purpose and already included a link with galaxy and a simplified interface that we can modify toward our GGUI project. The solutions we tested are WAVES, Galaksio and NGPhylogeny.fr. We chose NGPhylogeny.fr and started a collaboration with the development team in the ‘Institut Pasteur’ and deployed our own NGPhylogeny.fr instance.
 
 NGPhylogeny.fr based wireframe:
-![NGPhylogeny.fr based wireframe](galaxybricks.PNG)
+![NGPhylogeny.fr based wireframe](./galaxybricks.PNG)
 
 We propose a simplified activity using our citizen science program [SPIPoll](https://www.spipoll.org/) (Photographic monitoring of pollinators). In this example, we will import biodiversity data and then climatic data linked to the location of our initial data. We will perform a small data treatment (calculate mean and standard deviation), plot the data and use linear regression to test the relation between two variables.
 
 Focus on the citizen science SPIPOLL project for a first operationalization:
-![Alt text](spipoll_protocol.PNG)
+![Alt text](./spipoll_protocol.PNG)
 
 #### Massive Open Online Data Analysis using Galaxy
 
@@ -53,7 +53,7 @@ In this small-scale experiment, connections have been established between usegal
 
 
 SPIPOLL datasets and first MMOS task:
-![Alt text](webhook1.PNG)
+![Alt text](./webhook1.PNG)
 
 Thanks to the major contributions of Galaxy community and particularly Rémi Planel ([GitHub rplanel](https://github.com/rplanel/)) and Héléna Rasche ([GitHub hexylena](https://github.com/hexylena/)) at GCC2019 CoFest, we now have a first galaxy.eu working implementation.
 You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
@@ -61,7 +61,7 @@ You want to classify hoverflies pictures ? Let's go to use usegalaxy.eu!
 [![Alt text](https://img.youtube.com/vi/U6mu3QrK9Ao/0.jpg)](https://www.youtube.com/watch?v=U6mu3QrK9Ao)
 
 Classifications results for the first week on MMOS developer portal:
-![Alt text](MMOS_developer_portal.PNG)
+![Alt text](./MMOS_developer_portal.PNG)
 
 
 "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement Nr 732703”
