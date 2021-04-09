@@ -315,7 +315,7 @@ Here is what to do to load the data:
 >
 >![](/src/tutorials/rb_rnaseq/rnaseq_data_in_history.png)
 >
->Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. Also, see this [tutorial](collections.html) for yet another explanation of dataset collections.
+>Twelve datasets make a lot of clicking necessary. To avoid this annoyance we will combine them into two collections - **c1** and **c2** as shown in the video below. Also, see this [tutorial](/tutorials/collections/) for yet another explanation of dataset collections.
 > <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/163625221" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 >
 

@@ -93,7 +93,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 1. **[Cloning a repository using hg from the command line](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)**
 
-  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
+  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
 
 2. **[Pushing changes to a repository using hg from the command line](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)**
 

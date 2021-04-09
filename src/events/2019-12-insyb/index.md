@@ -14,7 +14,7 @@ image: insyb-2019.png
 
 The [International Symposum on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) will be held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.
 
-This is a collaborative effort between [APBioNET](https:apbionet.org/) and one of the India's leading womens' colleges, Hans Raj Mahila Maha Vidyalaya (HMV), Jalandhar located in North of India in Punjab State. The conference is also supported by [BioClues](http://bioclues.org/), [ISCB](https://iscb.org/), and [Galaxy Australia](https://usegalaxy.org.au/).
+This is a collaborative effort between [APBioNET](https://apbionet.org/) and one of the India's leading womens' colleges, Hans Raj Mahila Maha Vidyalaya (HMV), Jalandhar located in North of India in Punjab State. The conference is also supported by [BioClues](http://bioclues.org/), [ISCB](https://iscb.org/), and [Galaxy Australia](https://usegalaxy.org.au/).
 
 The [abstract deadline is 19th December](https://easychair.org/cfp/InSyB2019).
 

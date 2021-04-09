@@ -42,7 +42,7 @@ Sure that communities behind Ecology force to explore new ways! A part of these 
 
 Missions of the PNDB e-infrastructure project are:
 
-[<img class="float-right" src="concarneau-pet.jpg" style="max-width: 200px" alt='Concarneau "pet" ;) with marine station in background' />](concarneau-pet.jpg)
+<a href="concarneau-pet.jpg"><img class="float-right" src="concarneau-pet.jpg" style="max-width: 200px" alt='Concarneau "pet" ;) with marine station in background' /></a>
 
 1. Providing access to datasets and metadata, related services and derived products from the analysis.
 2. Promoting scientific animation to identify gaps and promote the emergence of initiatives carried by communities of users and producers.

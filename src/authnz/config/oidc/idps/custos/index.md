@@ -87,7 +87,7 @@ For example:
    ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
 
 4. Finally, to have your client activated, send an email to
-   [custos@airavata.apache.org](mail-to:custos@airavata.apache.org) with your
+   [custos@airavata.apache.org](mailto:custos@airavata.apache.org) with your
    `Client ID`.
 
 

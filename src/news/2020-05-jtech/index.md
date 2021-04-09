@@ -17,4 +17,4 @@ James believed that scientific progress can best be sustained through mentoring 
 To make this happen we are [accepting contributions here](/src/jxtx/foundation/index.md). Please, help us continue what James has started.
 
 
-*October 23, 2020 Update: JTech has been renamed "[JXTX: The James P. Taylor Foundation for Open Science](](/src/jxtx/foundation/index.md))"*
+*October 23, 2020 Update: JTech has been renamed "[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)"*
