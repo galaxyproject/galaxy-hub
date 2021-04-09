@@ -1,6 +1,5 @@
 ---
 title: Searching the Galaxy
-layout: search.pug
 ---
 Welcome to the comprehensive Galaxy search interface.  This page contains two
 queries, which run concurrently.  The first one is a Google Custom Search
