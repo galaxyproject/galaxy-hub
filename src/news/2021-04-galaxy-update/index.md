@@ -85,7 +85,7 @@ and then goes on to describe the community's progress and perseverance over the 
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
-*GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: Lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
+*GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 We also expect to open registration and abstract submission shortly.  Registration discounts will be available to researchers from low and lower-middle income countries.  For everyone else, registration will be downright cheap too.  We will reuse the BCC2020 model for talks, posters, and demos: Posters and demos will be live (sometimes in both hemispheres), and talks will be prerecorded.
 
@@ -128,7 +128,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 </div>
 
-**Submissions due May 6.**
+**Submissions due May 6**
 
 [ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
 
@@ -169,13 +169,13 @@ In addition, there are two more webinars this month:
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 20%; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
-<div class="card-header">[April Papercuts CoFest](/src/events/2021-05-papercuts/index.md)</div>
+<div class="card-header">[April Papercuts CoFest](/src/events/2021-04-papercuts/index.md)</div>
 
 **15 April, Online, Global**
 
 Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-04-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-We will be on Gitter for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 </div>
 
@@ -349,7 +349,7 @@ We asked the submitter for some background on what research they were doing. We 
 
 </div>
 
-By [Nolan Woods](https://www.linkedin.com/in/nolan-woods).
+By [Nolan Woods](https://www.linkedin.com/in/nolan-woods)
 
 Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
 
@@ -392,7 +392,7 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 
 By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
 
-Fully process single cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
+Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
 
 <img class="card-img-bottom" src="gtn-single-cell.jpg" alt="Figure 12: Appearance is everything" />
 </div>
@@ -404,7 +404,7 @@ Fully process single cell data, remove low quality cells, reduce the many dimens
 <div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
 
 Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
-it is also possible to import a
+it is possible to import a
 workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.ga4gh.org/) API [TRS](https://github.com/ga4gh/tool-registry-service-schemas).
 
 </div>
@@ -433,7 +433,7 @@ If you missed them, the recordings are now available on the [ELIXIR Europe YouTu
 
 By [Bazante Sanders](https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/), [Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
 
-Two new assembly tutorials have been added to the GTN. in one you [perform this analysis on Nanopore MinION data](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html), and in the other you [perform a similar analysis on Illlumina-sequenced datasets](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html).
+Two new assembly tutorials have been added to the GTN. In one, you [perform this analysis on Nanopore MinION data](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html), and in the other, you [perform a similar analysis on Illlumina-sequenced datasets](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html).
 </div>
 
 
@@ -446,7 +446,7 @@ Two new assembly tutorials have been added to the GTN. in one you [perform this 
 
 </div>
 
-By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/).
+By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
 
 Single cell RNA-seq analysis provides a great level of detail in understanding the underlying dynamic processes within tissues. This tutorial uses scRNA-Seq to highlight some of the key differentiation pathways that plant root cells undergo.
 
@@ -462,11 +462,27 @@ Single cell RNA-seq analysis provides a great level of detail in understanding t
 
 </div>
 
-By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/), [Yi Sun](https://training.galaxyproject.org/training-material/hall-of-fame/sunyi000/), and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
+By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/), [Yi Sun](https://training.galaxyproject.org/training-material/hall-of-fame/sunyi000/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
 
 This tutorial tracks dividing nuclei in a short time-lapse recording of one mitosis of a syncytial blastoderm stage *Drosophila* embryo expressing a GFP-histone gene that labels chromatin.
 </div>
 
+<!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+
+[Whole transcriptome analysis of Arabidopsis thaliana](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html)
+
+</div>
+
+By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
+
+Brassinosteroids are phytohormones that have the ability to stimulate plant growth and confer resistance against abiotic and biotic stresses.
+This tutorial details the necessary steps to identify potential targets of brassinosteroid-induced miRNAs.  
+
+<img class="card-img-bottom" src="a-thaliana.png" alt="Arabidopsis thaliana" style="max-width: 90%"/>
+
+</div>
 
 <!-- FAQs  -->
 <div class="card border-info" style="min-width: 20%; max-width: 24rem;">
