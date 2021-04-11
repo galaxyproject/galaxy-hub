@@ -105,7 +105,7 @@ Please watch Galaxy channels for the registration and abstract submission announ
 
 The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
 
-Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) and apply to GSoC by April 12.  Questions? Please contact the mentor(s) for each proposal.
+Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) **and apply to GSoC by April 12.**  Questions? Please contact the mentor(s) for each proposal.
 </div>
 
 
