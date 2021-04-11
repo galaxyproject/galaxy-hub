@@ -75,7 +75,7 @@ and then goes on to describe the community's progress and perseverance over the 
 <div class="card-deck">
 
 <!-- GCC2021 -->
-<div class="card border-info" style="min-width: 45%; max-width: 100%;">
+<div class="card border-info" style="min-width: 50%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
@@ -85,16 +85,71 @@ and then goes on to describe the community's progress and perseverance over the 
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
-*GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
+GCC2021 will start on 28 June with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
-We also expect to open registration and abstract submission shortly.  Registration discounts will be available to researchers from low and lower-middle income countries.  For everyone else, registration will be downright cheap too.  We will reuse the BCC2020 model for talks, posters, and demos: Posters and demos will be live (sometimes in both hemispheres), and talks will be prerecorded.
+We will reuse the BCC2020 model for talks, posters, and demos: __posters and demos__ will be live (sometimes in both hemispheres), and __talks__ will be prerecorded.
 
 **And [GCC2021 is looking for sponsors](http://bit.ly/gcc2021_prospectus_v1) too!**
 
-Please watch Galaxy channels for the registration and abstract submission announcements.
 </div>
 
-<!-- GSOC -->
+
+<!-- Registration -->
+<div class="card border-info" style="min-width: 15%; max-width: 100%;">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<div class="card-header">
+
+[GCC2021 Registration Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)
+
+</div>
+
+__June 25__ 
+
+GCC2021 registration is open until June 25. 
+
+Registering before __May 24__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference. The CoFest is free.
+
+</div>
+
+<!-- Fellowships -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<div class="card-header">
+
+[GCC2021 Fellowships](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform)
+
+</div>
+
+__May 7__ 
+
+The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in lower, lower-middle and upper-middle income countries who will benefit from attending GCC2021, and for whom the cost of registration is a barrier.
+
+It will cover the full registration for any GCC2021 events. [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform).
+
+</div>
+
+
+<!-- Abstracts -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<div class="card-header">
+
+[GCC2021 Abstracts Submission Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)
+
+</div>
+
+__Submissions due May 7__ 
+
+GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers using Galaxy, and __all over the world__. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition) by May 7!
+
+</div>
+
+
+
+
+
+
+<!-- GSoC -->
 <div class="card border-info"  style="min-width: 20%; max-width: 40%">
 <img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
 <div class="card-header">
