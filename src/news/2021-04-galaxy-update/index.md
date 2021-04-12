@@ -8,7 +8,7 @@ date: "2021-04-12"
 
 This newsletter coincides with the [anniversary of James Taylor's death](#featured-news) on April 2, 2020.  James was a Galaxy Project founder and PI, and losing him at the same time as the global COVID-19 shutdown made for a tough month, and then a tough year for the Galaxy Community.  To mark this, there are two items about James below.  First, *a call to share your favorite story about James* via a 30 second video (by April 30).  Second, there is a link to *a note to James* written by project leadership (mainly Anton).
 
-The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 6.
+The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 7.
 
 And as always there are sections on 
 * **[upcoming events](#event-news)**,
