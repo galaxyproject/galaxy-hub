@@ -1,13 +1,16 @@
 ---
 title: 'April 2021 Galactic News'
-tease: "New Featured and Community News sections; new events, releases, training, and lots of videos"
-date: ""
+tease: "GCC2021 Abstracts and Registration are open, plus lots more."
+date: "2021-04-12"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-The newsletter still includes sections on
+This newsletter coincides with the [anniversary of James Taylor's death](#featured-news) on April 2, 2020.  James was a Galaxy Project founder and PI, and losing him at the same time as the global COVID-19 shutdown made for a tough month, and then a tough year for the Galaxy Community.  To mark this, there are two items about James below.  First, *a call to share your favorite story about James* via a 30 second video (by April 30).  Second, there is a link to *a note to James* written by project leadership (mainly Anton).
 
+The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 6.
+
+And as always there are sections on 
 * **[upcoming events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
 * recent **[blog posts](#galactic-blog-activity)**,
@@ -15,9 +18,9 @@ The newsletter still includes sections on
 * recent **[open-access Galaxy-related publications](#publications)**, and
 * **[new releases](#releases).**
 
-It's a lot to take in, but it all highlights the breadth and depth of the Galaxy Community.
+It's been a memorable twelve months.  It would have been easy to curl up and hide, but we kept going, addressed gaps, and helped address the global pandemic as well.
 
-Enjoy,
+Thanks for supporting each other,
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
@@ -51,7 +54,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 </div>
 
 <!-- James -->
-<div class="card border-info" style="min-width: 25%; max-width: 100%">
+<div class="card border-info" style="min-width: 10rem; max-width: 100%">
 <img class="card-img-top" src="/src/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
 <div class="card-header">
 
@@ -95,7 +98,7 @@ We will reuse the BCC2020 model for talks, posters, and demos: __posters and dem
 
 
 <!-- Registration -->
-<div class="card border-info" style="min-width: 15%; max-width: 100%;">
+<div class="card border-info" style="min-width: 10rem; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
@@ -112,7 +115,7 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 </div>
 
 <!-- Fellowships -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
@@ -146,11 +149,8 @@ GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from
 
 
 
-
-
-
 <!-- GSoC -->
-<div class="card border-info"  style="min-width: 20%; max-width: 40%">
+<div class="card border-info"  style="min-width: 20%; max-width: 55%">
 <img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
 <div class="card-header">
 
@@ -175,7 +175,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 35%; max-width: 100%">
+<div class="card border-info" style="min-width: 18rem; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
@@ -196,7 +196,7 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 
 
 <!-- Webinars -->
-<div class="card border-info" style="min-width: 20%; max-width:  100%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
 <div class="card-header">
 
@@ -222,7 +222,7 @@ In addition, there are two more webinars this month:
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 20%; max-width:  100%;">
+<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[April Papercuts CoFest](/src/events/2021-04-papercuts/index.md)</div>
 
@@ -236,7 +236,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 
 <!-- UseGalaxy.No -->
-<div class="card border-info" style="min-width: 15%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">
 
@@ -271,7 +271,7 @@ That is, *they will be [if anyone volunteers to lead discussions on topics of in
 
 
 <!-- Plant genomics: chloroplast genome assembly using Galaxy Australia -->
-<div class="card border-info" style="min-width: 18%; max-width:  100%;">
+<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">
 
@@ -289,7 +289,7 @@ Step through genome assembly using chloroplast sequencing data and the Galaxy Au
 
 
 <!-- Plant Transcriptomics workshop -->
-<div class="card border-info" style="min-width: 30%; max-width:  100%;">
+<div class="card border-info" style="min-width: 16rem; max-width:  100%;">
 <img class="card-img-top" src="plant_transcriptomics_workshop.png" />
 <div class="card-header">
 
@@ -307,7 +307,7 @@ The purpose of this workshop is to gain knowledge on Next Generation Sequencing 
 
 
 <!-- Analyse avancée de séquences -->
-<div class="card border-info" style="min-width: 18%; max-width:  30%;">
+<div class="card border-info" style="min-width: 10rem; max-width:  50%;">
 <img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header">
 
@@ -438,7 +438,7 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 <div class="card-deck">
 
 <!-- Single cell  -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-header">
 
 [Filter, Plot and Explore Single-cell RNA-seq Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html)
@@ -466,7 +466,7 @@ workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.
 
 
 <!-- Galaxy-ELIXIR webinar series -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 14rem; max-width: 100%;">
 <div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
 
 Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
@@ -478,7 +478,7 @@ If you missed them, the recordings are now available on the [ELIXIR Europe YouTu
 
 
 <!-- Genome assembly of a MRSA genome  -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
 <div class="card-header">
 
@@ -493,7 +493,7 @@ Two new assembly tutorials have been added to the GTN. In one, you [perform this
 
 
 <!-- Downstream Single-cell RNA Plant analysis with ScanPy  -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 13rem; max-width: 100%;">
 <img class="card-img-top" src="gtn-scrna-stripe.png" alt="scRNA" />
 <div class="card-header">
 
@@ -509,7 +509,7 @@ Single cell RNA-seq analysis provides a great level of detail in understanding t
 
 
 <!-- Object tracking using CellProfiler   -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="https://training.galaxyproject.org/training-material/topics/imaging/images/object-tracking-using-cell-profiler/Dividing_nuclei.gif" alt="CellProfiler" />
 <div class="card-header">
 
@@ -523,7 +523,7 @@ This tutorial tracks dividing nuclei in a short time-lapse recording of one mito
 </div>
 
 <!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-header">
 
 [Whole transcriptome analysis of Arabidopsis thaliana](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html)
@@ -540,7 +540,7 @@ This tutorial details the necessary steps to identify potential targets of brass
 </div>
 
 <!-- FAQs  -->
-<div class="card border-info" style="min-width: 20%; max-width: 24rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
 <img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
 <div class="card-header">
 
@@ -648,7 +648,7 @@ Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 30%; max-width: 30%">
+<div class="card border-info"  style="min-width: 14rem; max-width: 30rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.4</div>
 
