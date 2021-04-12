@@ -1,11 +1,14 @@
 ---
 title: "Galaxy Admin Training: Basic Topics"
 ---
+
 {{> Events/AdminTraining2016/Header }}
 
+<div class='right'>
 
+{{> Events/AdminTraining2016/LinkBox }}
 
-<div class='right'>{{> Events/AdminTraining2016/LinkBox }}</div>
+</div>
 
 **November 7-8, Salt Lake City Library**
 

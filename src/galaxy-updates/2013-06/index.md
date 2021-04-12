@@ -119,7 +119,11 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) w
 
 <br />
 
-<div class='right'><br />{{> Events/GCC2013/BoF/LinkBox }}</div>
+<div class='right'><br />
+
+{{> Events/GCC2013/BoF/LinkBox }}
+
+</div>
 
 ### Birds of a Feather Sessions
 

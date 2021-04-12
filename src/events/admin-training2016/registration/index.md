@@ -1,6 +1,7 @@
 ---
 title: Galaxy Admin Training Registration
 ---
+
 {{> Events/AdminTraining2016/Header }}
 
 <br />
@@ -13,7 +14,11 @@ title: Galaxy Admin Training Registration
 
 </div>
 
-<div class='right'><br />{{> Events/AdminTraining2016/LinkBox }}</div>
+<div class='right'><br />
+
+{{> Events/AdminTraining2016/LinkBox }}
+
+</div>
 
 
 

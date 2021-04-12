@@ -1,11 +1,14 @@
 ---
 title: Galaxy Admin Training Logistics
 ---
+
 {{> Events/AdminTraining2016/Header }}
 
+<div class='right'>
 
+{{> Events/AdminTraining2016/LinkBox }}
 
-<div class='right'>{{> Events/AdminTraining2016/LinkBox }} </div>
+</div>
 
 <div class='left'>
 <a href='https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing'><img src="/src/events/admin-training2016/logistics/AdminTrainingEventMapThumb.png" alt="Online Event Map" width="80" /></a>
