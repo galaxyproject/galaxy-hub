@@ -206,7 +206,7 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 
 Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
 
-**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April 14**
+**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April ~~14~~ 21** (postponed one week)
 
 **[Galaxy Resources for Educators and Trainers](/src/events/2021-04-gr4-education/index.md), April 28**
 
