@@ -2,7 +2,7 @@
 title: "GCC2019 CollaborationFest: Core and Encore"
 ---
 
-{{> Events/GCC2019/Header }}
+<slot name="Events/GCC2019/Header" />
 
 <img class="float-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 

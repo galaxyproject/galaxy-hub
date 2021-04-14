@@ -2,7 +2,7 @@
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-{{> Community/GalaxyAdmins/LinkBox }}
+<slot name="Community/GalaxyAdmins/LinkBox" />
 
 The [GalaxyAdmins group (formerly GalaxyCzars)](/src/community/galaxy-admins/index.md) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/news/galaxy-czars-survey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 

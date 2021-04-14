@@ -1,4 +1,4 @@
-{{> Admin/LinkBox }}
+<slot name="Admin/LinkBox" />
 
 Hub page for *GalaxyOps*
 

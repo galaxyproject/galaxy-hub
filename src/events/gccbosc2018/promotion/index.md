@@ -1,4 +1,4 @@
-{{> Events/GCCBOSC2018/Header }}
+<slot name="Events/GCCBOSC2018/Header" />
 
 Help get the word out about the joint GCC2018 & BOSC 2018 conference.
 

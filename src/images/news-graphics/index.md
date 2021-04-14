@@ -1,4 +1,4 @@
-{{> Images/LinkBox }}
+<slot name="Images/LinkBox" />
 
 Common place to store supplemental graphics used in communications, such as [News Briefs](/src/docs/index.md). May have a date stamp.
 

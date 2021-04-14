@@ -1,4 +1,4 @@
-{{> Documents/LinkBox }}
+<slot name="Documents/LinkBox" />
 
 Common page structure for attached documents that are likely to be linked to from more than one page.  See also [Images](/src/images/index.md).
 

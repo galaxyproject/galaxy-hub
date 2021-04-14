@@ -1,4 +1,4 @@
-{{> Learn/LinkBox }}
+<slot name="Learn/LinkBox" />
 # Workflow Variables
 
 [Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)

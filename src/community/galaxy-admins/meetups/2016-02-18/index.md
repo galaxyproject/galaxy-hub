@@ -3,7 +3,7 @@
 
 </div></div>
 
-{{> Community/GalaxyAdmins/LinkBox }}
+<slot name="Community/GalaxyAdmins/LinkBox" />
 
 <table>
   <tr>

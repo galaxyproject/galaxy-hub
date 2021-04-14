@@ -1,4 +1,4 @@
-{{> Events/GCC2019/Header }}
+<slot name="Events/GCC2019/Header" />
 
 # GCC2019 Frequently Asked questions
 

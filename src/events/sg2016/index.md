@@ -1,9 +1,9 @@
 ---
 title: Swiss German Galaxy Tour/Day 2016
 ---
-{{> Events/SG2016/Header }}
+<slot name="Events/SG2016/Header" />
 
-{{> Events/SG2016/LinkBox }}
+<slot name="Events/SG2016/LinkBox" />
 
 
 

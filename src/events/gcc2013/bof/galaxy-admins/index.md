@@ -1,9 +1,9 @@
 
-{{> Events/GCC2013/Header }}
+<slot name="Events/GCC2013/Header" />
 
-{{> Events/GCC2013/LinkBox }}
-{{> Events/GCC2013/BoF/LinkBox }}
-{{> Community/GalaxyAdmins/LinkBox }}
+<slot name="Events/GCC2013/LinkBox" />
+<slot name="Events/GCC2013/BoF/LinkBox" />
+<slot name="Community/GalaxyAdmins/LinkBox" />
 
 # [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
 

@@ -1,11 +1,11 @@
 ---
 title: Organizers
 ---
-{{> Events/GCC2013/Header }}
+<slot name="Events/GCC2013/Header" />
 
 
 
-{{> Events/GCC2013/LinkBox }}
+<slot name="Events/GCC2013/LinkBox" />
 
 
 
@@ -41,4 +41,4 @@ The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DO
 * **[James Taylor](/src/people/james-taylor/index.md)**, Committee Chair
    * [Emory University](http://emory.edu)
 
-{{> Events/GCC2013/Footer }}
+<slot name="Events/GCC2013/Footer" />

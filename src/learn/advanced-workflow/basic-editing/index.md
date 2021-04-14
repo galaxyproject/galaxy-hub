@@ -1,7 +1,7 @@
 ---
 title: Basic Workflow Editing
 ---
-{{> Learn/LinkBox }}
+<slot name="Learn/LinkBox" />
 
 
 <br />

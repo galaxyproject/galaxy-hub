@@ -1,4 +1,4 @@
-{{> Admin/LinkBox }}
+<slot name="Admin/LinkBox" />
 
 # Data management: accounting and disk quotas
 

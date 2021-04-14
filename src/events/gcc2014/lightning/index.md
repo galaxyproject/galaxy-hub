@@ -1,13 +1,13 @@
 ---
 title: Lightning Talks
 ---
-{{> Events/GCC2014/Header }}
+<slot name="Events/GCC2014/Header" />
 
 <br /><br />
 
 
 
-{{> Events/GCC2014/LinkBox }}
+<slot name="Events/GCC2014/LinkBox" />
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/src/events/gcc2014/program/index.md#day-1-main-meeting-july-1) and [Session 8 on Wednesday](/src/events/gcc2014/program/index.md#day-2-main-meeting-july-2).
 
@@ -247,4 +247,4 @@ Proposals will be solicited during the meeting.  If you wish to give a lightning
 
 A proposal consists, of a title, and a short description of the topic. 
 
-{{> Events/GCC2014/Footer }}
+<slot name="Events/GCC2014/Footer" />

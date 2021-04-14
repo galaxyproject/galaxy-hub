@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Galaxy on Jetstream
 ---
-{{> Cloud/Jetstream/LinkBox }}
+<slot name="Cloud/Jetstream/LinkBox" />
 
 <div class='left'></div>
 

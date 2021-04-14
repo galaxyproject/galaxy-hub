@@ -1,7 +1,7 @@
 ---
 title: Cloning and sharing CloudMan clusters
 ---
-{{> CloudMan/LinkBoxHorizontal }}
+<slot name="CloudMan/LinkBoxHorizontal" />
 
 You can customize any cluster you launch with your own datasets,
 configurations, Galaxy tools, or genomic reference data. After you complete

@@ -1,12 +1,12 @@
 ---
 title: Galaxy Professionals
 ---
-{{> Events/GCC2013/Header }}
+<slot name="Events/GCC2013/Header" />
 
 
 
-{{> Events/GCC2013/LinkBox }}
-{{> Events/GCC2013/BoF/LinkBox }}
+<slot name="Events/GCC2013/LinkBox" />
+<slot name="Events/GCC2013/BoF/LinkBox" />
 
 <div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 

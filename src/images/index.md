@@ -1,4 +1,4 @@
-{{> Images/LinkBox }}
+<slot name="Images/LinkBox" />
 
 Common place to store images that are likely to be shared across pages.
 

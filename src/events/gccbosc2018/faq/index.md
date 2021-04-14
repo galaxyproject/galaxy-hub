@@ -1,4 +1,4 @@
-{{> Events/GCCBOSC2018/Header }}
+<slot name="Events/GCCBOSC2018/Header" />
 
 # Frequently Asked Questions (FAQs) about GCCBOSC 2018
 

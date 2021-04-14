@@ -1,4 +1,4 @@
-{{> Events/GCC2019/Header }}
+<slot name="Events/GCC2019/Header" />
 
 Doing work in data-intensive science?  There is no better place than GCC2019 to present your work and to learn from others.
 

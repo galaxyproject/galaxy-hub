@@ -1,4 +1,4 @@
-{{> Develop/LinkBox }}
+<slot name="Develop/LinkBox" />
 
 # Getting Started with Galaxy Development
 

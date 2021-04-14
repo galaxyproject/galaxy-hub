@@ -1,9 +1,9 @@
 ---
 title: GCC2012 Training Day
 ---
-{{> Events/GCC2012/PageHeader }}
+<slot name="Events/GCC2012/PageHeader" />
 
-{{> Events/GCC2012/LinkBox }}
+<slot name="Events/GCC2012/LinkBox" />
 
 <img class="float-left" src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
 
@@ -204,4 +204,4 @@ This workshop is supported by an AWS in Education teaching grant award.
 
 This workshop is supported by an AWS in Education teaching grant award.
 
-{{> Events/GCC2012/AsktheOrganizers }}
+<slot name="Events/GCC2012/AsktheOrganizers" />

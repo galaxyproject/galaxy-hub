@@ -1,4 +1,4 @@
-{{> Events/GCCBOSC2018/Header }}
+<slot name="Events/GCCBOSC2018/Header" />
 
 
 # Sponsors

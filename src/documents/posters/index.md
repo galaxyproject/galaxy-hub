@@ -1,4 +1,4 @@
-{{> Documents/LinkBox }}
+<slot name="Documents/LinkBox" />
 
 Common place to attach posters in the [Documents](/src/documents/index.md) hierarchy.
 

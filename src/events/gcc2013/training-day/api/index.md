@@ -1,8 +1,8 @@
 ---
 ---
-{{> Events/GCC2013/Header }}
+<slot name="Events/GCC2013/Header" />
 
-{{> Events/GCC2013/LinkBox }}
+<slot name="Events/GCC2013/LinkBox" />
 
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
@@ -883,4 +883,4 @@ happens some amount of core changes need to take place to make this as easy and 
 * BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
 * Thanks for coming!
 
-{{> Events/GCC2013/Footer }}
+<slot name="Events/GCC2013/Footer" />

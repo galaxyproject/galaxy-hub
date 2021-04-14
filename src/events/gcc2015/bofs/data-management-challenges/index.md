@@ -1,7 +1,7 @@
 ---
 title: Data management challenges for larger Galaxy installations
 ---
-{{> Events/GCC2015/Header }}
+<slot name="Events/GCC2015/Header" />
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 

@@ -22,7 +22,7 @@ Galaxy Community Conference is an opportunity to participate in [two full days](
 
 GCC2013 will continue the [best of previous meetings](/src/gcc/index.md), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
-{{> Events/GCC2013/LinkBox }}
+<slot name="Events/GCC2013/LinkBox" />
 
 ## Meeting Reports
 
@@ -121,4 +121,4 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2013/sponsorships/index.md).*
 
-{{> Events/GCC2013/Footer }}
+<slot name="Events/GCC2013/Footer" />

@@ -3,7 +3,7 @@ title: 2012-09-19 Conference Call
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-{{> Community/GalaxyAdmins/LinkBox }}
+<slot name="Community/GalaxyAdmins/LinkBox" />
 
 
 

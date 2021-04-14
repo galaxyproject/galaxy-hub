@@ -5,7 +5,7 @@ title: Galaxy CloudMan
 
 <br />
 
-{{> CloudMan/LinkBoxHorizontal }}
+<slot name="CloudMan/LinkBoxHorizontal" />
 
 There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see the [Galaxy Platform Directory](/src/use/index.md) and [Cloud](/src/cloud/index.md).
 

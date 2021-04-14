@@ -1,4 +1,4 @@
-{{> Cloud/Jetstream/LinkBox }}
+<slot name="Cloud/Jetstream/LinkBox" />
 
 ## Requesting an allocation
 

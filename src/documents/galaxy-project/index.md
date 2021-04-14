@@ -1,4 +1,4 @@
-{{> Documents/LinkBox }}
+<slot name="Documents/LinkBox" />
 
 Documents about the [Galaxy Project](/src/galaxy-project/index.md).
 

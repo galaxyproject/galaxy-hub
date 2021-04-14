@@ -1,9 +1,9 @@
 ---
 title: Key Dates
 ---
-{{> Events/GCC2012/PageHeader }}
+<slot name="Events/GCC2012/PageHeader" />
 
-{{> Events/GCC2012/LinkBox }}
+<slot name="Events/GCC2012/LinkBox" />
 
 <table>
   <tr class="th" >
@@ -75,4 +75,4 @@ title: Key Dates
 
 
 
-{{> Events/GCC2012/AsktheOrganizers }}
+<slot name="Events/GCC2012/AsktheOrganizers" />

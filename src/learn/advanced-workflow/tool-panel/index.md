@@ -1,7 +1,7 @@
 ---
 title: Workflows as Custom Tools
 ---
-{{> Learn/LinkBox }}
+<slot name="Learn/LinkBox" />
 
 <br />
 [Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)

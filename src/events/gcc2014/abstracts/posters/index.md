@@ -1,9 +1,9 @@
 ---
 title: GCC2014 Poster Abstracts
 ---
-{{> Events/GCC2014/Header }}
+<slot name="Events/GCC2014/Header" />
 
-{{> Events/GCC2014/LinkBox }}
+<slot name="Events/GCC2014/LinkBox" />
 
 There will be two poster sessions:
 

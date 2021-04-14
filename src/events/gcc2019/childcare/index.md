@@ -2,7 +2,7 @@
 title: "Childcare at GCC2019"
 ---
 
-{{> Events/GCC2019/Header }}
+<slot name="Events/GCC2019/Header" />
 
 **Childcare will be offered at GCC2019!**
 

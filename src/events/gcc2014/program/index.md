@@ -1,11 +1,11 @@
 ---
 title: GCC2014 Program
 ---
-{{> Events/GCC2014/Header }}
+<slot name="Events/GCC2014/Header" />
 
 <br />
 
-{{> Events/GCC2014/LinkBox }}
+<slot name="Events/GCC2014/LinkBox" />
 
 <div class='float-right'>**[Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/program/GCC2014Program.pdf)** &nbsp; </div>
 
@@ -498,4 +498,4 @@ If you have an idea for a Birds-of-a-Feather gathering then please add it to the
 
 <br /><br />
 
-{{> Events/GCC2014/Footer }}
+<slot name="Events/GCC2014/Footer" />

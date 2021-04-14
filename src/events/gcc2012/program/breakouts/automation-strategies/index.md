@@ -1,9 +1,9 @@
 ---
 title: Automation strategies for Data, Tools, & Config
 ---
-{{> Events/GCC2012/PageHeader }}
+<slot name="Events/GCC2012/PageHeader" />
 
-{{> Events/GCC2012/LinkBox }}
+<slot name="Events/GCC2012/LinkBox" />
 
 
 

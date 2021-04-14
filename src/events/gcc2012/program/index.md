@@ -1,9 +1,9 @@
 ---
 title: Program
 ---
-{{> Events/GCC2012/PageHeader }}
+<slot name="Events/GCC2012/PageHeader" />
 
-{{> Events/GCC2012/LinkBox }}
+<slot name="Events/GCC2012/LinkBox" />
 
 The [2012 Galaxy Community Conference](/src/events/gcc2012/program//index.md) included two full days of accepted talks, [lightning talks](/src/events/gcc2012/program/LightningTalks/index.md), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
 
@@ -146,4 +146,4 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 | **3:15-5:00** | **Session 8: Breakouts**<br />Moderator: Dave Clements, [Emory University](http://www.emory.edu/) <br /> [Breakouts](/src/eents/gcc2012/program/breakouts/index.md) |
 | **5:00** | **[2012 Galaxy Community Conference](/src/events/gcc2012/index.md) ends** |
 
-{{> Events/GCC2012/AsktheOrganizers }}
+<slot name="Events/GCC2012/AsktheOrganizers" />

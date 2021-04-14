@@ -1,6 +1,6 @@
-{{> Events/GCC2016/Header }}
+<slot name="Events/GCC2016/Header" />
 
-{{> Events/GCC2016/LinkBox }}
+<slot name="Events/GCC2016/LinkBox" />
 
 There is no better place than a [Galaxy Community Conference](/src/gcc/index.md) to meet and learn from others doing data-intensive biology.  [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/) will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 

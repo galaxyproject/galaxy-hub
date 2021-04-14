@@ -1,4 +1,4 @@
-{{> Events/GCC2019/Header }}
+<slot name="Events/GCC2019/Header" />
 
 # GCC 2019 Code of Conduct
 

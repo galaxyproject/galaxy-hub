@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions (FAQs) about Galaxy
 ---
-{{> FAQs/LinkBox }}
+<slot name="FAQs/LinkBox" />
 
 
 * [Main/FAQ](/src/main/faq/index.md) - Questions about Galaxy's free public server, [Main](/src/main/index.md).

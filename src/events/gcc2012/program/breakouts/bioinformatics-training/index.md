@@ -1,13 +1,13 @@
 ---
 title: Bioinformatics Training and Teaching with Galaxy
 ---
-{{> Events/GCC2012/PageHeader }}
+<slot name="Events/GCC2012/PageHeader" />
 
 
 
 **A [GCC22012](/src/events/gcc2012/index.md) [Breakout Session](/src/events/gcc2012/program/breakouts/index.md)**
 
-{{> Events/GCC2012/LinkBox }}
+<slot name="Events/GCC2012/LinkBox" />
 # Participants
 
 * Hans-Rudolf Hotz

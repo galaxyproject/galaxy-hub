@@ -1,5 +1,5 @@
-{{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
+<slot name="Admin/LinkBox" />
+<slot name="Develop/LinkBox" />
 
 TODO: Describe data model.  For now, have a picture!
 
