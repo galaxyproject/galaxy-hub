@@ -2,7 +2,7 @@
 title: "GCC2021 Conference Fellowships"
 tease: "Apply by May 7"
 external_url: ""
-date: ""
+date: "2021-04-14"
 ---
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
