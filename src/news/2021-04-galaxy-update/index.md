@@ -263,9 +263,9 @@ The next roundtable meetups will be:
 
 **[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**
 
-**[April 29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**
+**[April 29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**, led by Aysam Guerler
 
-That is, *they will be [if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).*
+That is, *they will be [if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).* (Kudos to Sam!)
 
 </div>
 
