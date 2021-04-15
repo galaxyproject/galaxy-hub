@@ -118,7 +118,7 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
 <table>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 9:20 </td>
-            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/StoddenComputationalReproducibility.pdf'>Slides</a>, <a href='https://vimeo.com/74878594'>Vimeo</a></em></div> <strong>Keynote:</strong> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#computational-reproducibility-is-crucial-for-scientific-software-platforms'>Computational Reproducibility is Crucial for Scientific Software Platforms</a></strong></em> <div class='indent'> <strong><a href='http://www.stanford.edu/~vcs/Bio.html'>Victoria Stodden</a></strong>, <a href='http://idse.columbia.edu/victoria-stodden'>Institute for Data Sciences and Engineering</a>, and Assistant Professor, <a href='http://www.stat.columbia.edu/'>Department of Statistics</a>, <a href='http://www.columbia.edu/'>Columbia University</a></div> </td>
+            <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/StoddenComputationalReproducibility.pdf'>Slides</a>, <a href='https://vimeo.com/74878594'>Vimeo</a></em></div> <strong>Keynote:</strong> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#computational-reproducibility-is-crucial-for-scientific-software-platforms'>Computational Reproducibility is Crucial for Scientific Software Platforms</a></em></strong> <div class='indent'> <strong><a href='http://www.stanford.edu/~vcs/Bio.html'>Victoria Stodden</a></strong>, <a href='http://idse.columbia.edu/victoria-stodden'>Institute for Data Sciences and Engineering</a>, and Assistant Professor, <a href='http://www.stat.columbia.edu/'>Department of Statistics</a>, <a href='http://www.columbia.edu/'>Columbia University</a></div> </td>
           </tr>
           <tr>
             <td rowspan=3 style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
@@ -163,7 +163,7 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:15 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></strong></em><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
+            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></em></strong><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -217,7 +217,7 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
 <table class="table">
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
-            <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></strong></em><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
+            <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></em></strong><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
             <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
           </tr>
           <tr>
@@ -292,12 +292,12 @@ The second and final day of the conference will feature  [accepted talks](/src/e
   </tr>
   <tr>
     <th> 9:10-10:40 </th>
-    <td style=" text-align: center;"> <strong>Session 5: Interacting with Galaxy</strong> <br />Moderator: <a href='http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343'>Karen Reddy</a>, <a href='http://www.hopkinsmedicine.org/'>Johns Hopkins
+    <td style=" text-align: center;"> <strong>Session 5: Interacting with Galaxy</strong> <br />Moderator: <a href='http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343'>Karen Reddy</a>, <a href='http://www.hopkinsmedicine.org/'>Johns Hopkins</a>
 
 <table class="table">
            <tr>
              <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-             <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
+             <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
            </tr>
            <tr>
              <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 9:40 </td>
@@ -325,7 +325,7 @@ The second and final day of the conference will feature  [accepted talks](/src/e
   </tr>
   <tr>
     <th> 11:10-12:30 </th>
-    <td style=" text-align: center;"> <strong>Session 6: Extending Galaxy</strong> <br />Moderator: <a href='/src/people/jennifer-jackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a>
+    <td style=" text-align: center;"> <strong>Session 6: Extending Galaxy</strong> <br />Moderator: <a href='/src/people/jennifer-jackson/index.md'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a></td>
 
 <table class="table">
           <tr>
@@ -346,7 +346,7 @@ The second and final day of the conference will feature  [accepted talks](/src/e
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:10 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></strong></em><br /><a href='/src/people/sanjay-joshi/index.md'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
+            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></em></strong><br /><a href='/src/people/sanjay-joshi/index.md'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -358,7 +358,7 @@ The second and final day of the conference will feature  [accepted talks](/src/e
   </tr>
   <tr>
     <th> 13:30-14:35 </th>
-    <td style=" text-align: center;"> <strong>Session 7: Exploiting Galaxy</strong> <br />Moderator: <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a>
+    <td style=" text-align: center;"> <strong>Session 7: Exploiting Galaxy</strong> <br />Moderator: <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a></td>
 
 <table class="table">
           <tr>

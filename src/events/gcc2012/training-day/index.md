@@ -1,6 +1,7 @@
 ---
 title: GCC2012 Training Day
 ---
+
 <slot name="events/gcc2012/page-header" />
 
 <slot name="events/gcc2012/linkbox" />
@@ -28,7 +29,7 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div></td>
     <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> & <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
   </tr>
@@ -48,7 +49,7 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em> </td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div> </td>
   </tr>
@@ -88,7 +89,7 @@ These workshops require a running Galaxy instance that you have root/admin acces
 
 While you can use any running Galaxy instance, **we strongly recommend that you use the [conference provided virtual machine image](/src/events/gcc2012/training-day/vms/index.md), and that you have it installed and running before arriving at the conference.**
 
-See the [Virtual Machine page](](/src/events/gcc2012/training-day/vms/index.md)) for instructions on how to do this.
+See the [Virtual Machine page](/src/events/gcc2012/training-day/vms/index.md) for instructions on how to do this.
 
 
 ## WS1

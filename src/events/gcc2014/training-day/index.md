@@ -1,7 +1,9 @@
 ---
 title: Training Day
 ---
+
 <slot name="events/gcc2014/header" />
+
 <br />
 
 <slot name="events/gcc2014/linkbox" />
@@ -450,6 +452,7 @@ Training Day topics were selected by the Galaxy Community.  Topic were first nom
 
 <div class='center'>
 <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
+</div>
 
 <br />
 

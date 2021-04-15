@@ -74,7 +74,9 @@ Accessed by clicking on the gear icon on the right side of the center *Workflow 
 
 <div class='center'><img src="/src/images/learn/workflow_editor_menu_close.png" alt="workflow editor menu pop-up" width="500" /> <br /> 
 
-*save changes or don't save?*</div>
+*save changes or don't save?*
+
+</div>
 <br />
 
 ### Left Tools Panel
@@ -191,12 +193,16 @@ Example:
 
 <div class='center'><img src="/src/images/learn/workflow_editor_datatype_before.png" alt="workflow editor datatype before" width="650" /> <br /> 
 
-before *datatype* reassignment, no connection</div>
+before *datatype* reassignment, no connection
+
+</div>
 
 
 <div class='left'><img src="/src/images/learn/workflow_editor_datatype_edit.png" alt="workflow editor datatype edit" width="200" /> <br /> 
 
-editing *datatype*</div>
+editing *datatype*
+
+</div>
 <br />
 **How to edit the *datatype* assignment:**
 
@@ -216,7 +222,8 @@ editing *datatype*</div>
 When changes are complete, click on any other tool to internally refresh the setting for this tool, then try the *noodle* connection again. 
 <div class='center'><img src="/src/images/learn/workflow_editor_datatype_after.png" alt="workflow editor datatype after" width="600" /> <br /> 
 
-after *datatype* reassignment, **connected!!**</div>
+after *datatype* reassignment, **connected!!**
 
+</div>
 <br />
 <br />

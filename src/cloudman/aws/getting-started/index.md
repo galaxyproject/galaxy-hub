@@ -6,11 +6,9 @@ title: Getting Started with Galaxy CloudMan
 ## This is an old and currently outdated guide only kept for historical reasons. Do not use the instructions on this page. Use the new getting started guide available here: https://wiki.galaxyproject.org/CloudMan/GettingStarted
 
 
-
 <slot name="cloudman/aws/linkbox" />
 
 This page provides a step-by-step instructions on how to start your own instance of Galaxy on [Amazon Web Services (AWS)](http://aws.amazon.com/) [Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). More general information and instructions about Galaxy CloudMan can be found [here](/src/cloudman/index.md). 
-
 
 
 ## Screencast
@@ -44,7 +42,7 @@ This page provides a step-by-step instructions on how to start your own instance
 
 </div></div>
 
-1. Because AWS services implement pay-as-you-go access model for compute resources, it is necessary for every user of the service to *[register with Amazon](http://aws.amazon.com/)*. <div class='red'>You will need a credit card to register.</span>  (You can apply for a [AWS Education Grant](http://aws.amazon.com/education) after you register). 
+1. Because AWS services implement pay-as-you-go access model for compute resources, it is necessary for every user of the service to *[register with Amazon](http://aws.amazon.com/)*. <span class='red'>You will need a credit card to register.</span>  (You can apply for a [AWS Education Grant](http://aws.amazon.com/education) after you register). 
 
 2. Once your account has been approved by Amazon (note that this may take up to one business day), *log into the [EC2 AWS Management Console](http://console.aws.amazon.com/ec2)* and set your AWS Region to *US East (Virginia)*. This is the only region Galaxy CloudMan is fully supported in at this time (see [screenshot 1.2](/src/cloudman/aws/getting-started/AWSSetRegion.png)).
 

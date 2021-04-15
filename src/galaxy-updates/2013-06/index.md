@@ -221,7 +221,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></em></strong> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/events/gcc2013/organizers/index.md'>Organizers</a> </td>
   </tr>

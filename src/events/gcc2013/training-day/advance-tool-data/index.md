@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day
 ---
+
 <slot name="events/gcc2013/header" />
 
-
-
 <slot name="events/gcc2013/linkbox" />
+
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
@@ -340,7 +340,7 @@ Create a new location file tool-data/hello_world.loc, and add several entries, e
 greeting_hello	Hello	/path/to/file.png	Earth
 ```
 
-**Be sure to check that white space between fields are <TABS> and not spaces (double check, some editors automatically replace tab with space).**
+**Be sure to check that white space between fields are `<TABS>` and not spaces (double check, some editors automatically replace tab with space).**
 
 Edit your tool_data_tables_conf.xml file and define the structure of the data table:
 ```xml
@@ -1036,7 +1036,7 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 * Dynamic Select parameters
 * Customizing output attributes
   * Labels
-  * output <actions> (e.g. see tools/filters/cutWrapper.xml)
+  * output `<actions>` (e.g. see tools/filters/cutWrapper.xml)
 
 ## 17:00 session ends
 

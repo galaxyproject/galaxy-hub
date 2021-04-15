@@ -5,13 +5,11 @@ title: Frequently Asked Questions for CloudMan
 
 See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance and [CloudMan](/src/cloudman/index.md) page for general information about CloudMan.
 
-
-
 ----
 
 ## Accessing CloudMan
 
-CloudMan console on your cluster is available at *<cluster IP address>/cloud*. To login, you need to use *ubuntu* user name and a password you used when starting the cluster via [Cloud Launch](https://launch.usegalaxy.org/launch).
+CloudMan console on your cluster is available at *`<cluster IP address>/cloud`*. To login, you need to use *ubuntu* user name and a password you used when starting the cluster via [Cloud Launch](https://launch.usegalaxy.org/launch).
 
 ----
 
@@ -53,7 +51,7 @@ To add a new file system, go to CloudMan Admin page, and click *Add new* under *
 * *New volume*: a new block storage volume. You need to specify a desired size for the volume and a new one will be created.
 * *NFS*: an existing NFS server to connect to. This NFS server needs to be accessible on the local network to the cluster.
 
-Once you have chosen the device type and provided the necessary device information, you need to give the file system a name. After you click *Add new file system*, CloudMan will attempt to add/create the file system and make it available under */mnt/<file system name>*. After you click the button, it will take a up to a minute for the file system to be added.
+Once you have chosen the device type and provided the necessary device information, you need to give the file system a name. After you click *Add new file system*, CloudMan will attempt to add/create the file system and make it available under *`/mnt/<file system name>`*. After you click the button, it will take a up to a minute for the file system to be added.
 
 ----
 

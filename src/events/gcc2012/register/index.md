@@ -60,7 +60,7 @@ There are different registration levels, depending on your career stage and your
 
 You may also arrange your [lodging](/src/events/gcc2012/logistics/index.md#lodging) when registering.  There are two official lodging options:
 
-* On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <div class='red'>**The James Stuckel Towers are now sold out.**</span>
+* On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <span class='red'>**The James Stuckel Towers are now sold out.**</span>
 * At the [Crowne Plaza Chicago Metro Downtown](/src/events/gcc2012/logistics/index.md#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
 
 There are a limited number of rooms in each.  You are encouraged to register/reserve early.

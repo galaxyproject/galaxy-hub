@@ -1,6 +1,7 @@
 ---
 title: Program
 ---
+
 <slot name="events/gcc2012/page-header" />
 
 <slot name="events/gcc2012/linkbox" />
@@ -34,7 +35,7 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div></td>
     <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> & <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
   </tr>
@@ -54,7 +55,7 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em> </td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div> </td>
   </tr>
@@ -107,7 +108,7 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 | 4:20  | <div class="float-right"> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Reddy.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Reddy.pptx), [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=a6208a4628164b7) (starts @ 35:30), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=6b93204632704bd)* </div> *[NGS analysis for Biologists: experiences from the cloud](/src/events/gcc2012/abstracts/index.md#ngs-analysis-for-biologists-experiences-from-the-cloud)* <div class='indent'> Karen Reddy, Johns Hopkins University </div>  |
 | 4:40  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Goecks.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=6b93204632704bd) (starts @ 8:40)* </div> *[The Galaxy Visualization Framework](/src/events/gcc2012/abstracts/index.md#the-galaxy-visualization-framework)* <div class='indent'> [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Emory University </div>  |
 | **5:00-5:15** | **Break** |
-| **5:15-6:15** | ***[Ion Torrent](http://www.lifetechnologies.com/): [Open, Accessible, Enabling](Events/GCC2012/Abstracts#Ion Torrent: Open, Accessible, Enabling)*** <br /> <div class="indent"> Mike Lelivelt, Ion Torrent, Director of Bioinformatics and Software Products<br />[Ion Torrent](http://www.lifetechnologies.com/) Sponsor Presentation<br /> *[PDF](attachment:Documents/Presentations/GCC2012/Lelivelt.pdf), [PPT](attachment:Documents/Presentations/GCC2012/Lelivelt.ppt), [Video](https://uic.sharestream.net/ssdcms/i.do?u=66878bd05a11401)* </div> |
+| **5:15-6:15** | ***[Ion Torrent](http://www.lifetechnologies.com/): [Open, Accessible, Enabling](Events/GCC2012/Abstracts#Ion Torrent: Open, Accessible, Enabling)*** <br /> <div class="indent"> Mike Lelivelt, Ion Torrent, Director of Bioinformatics and Software Products<br />[Ion Torrent](http://www.lifetechnologies.com/) Sponsor Presentation<br /> *[PDF](/attachment:Documents/Presentations/GCC2012/Lelivelt.pdf), [PPT](/attachment:Documents/Presentations/GCC2012/Lelivelt.ppt), [Video](https://uic.sharestream.net/ssdcms/i.do?u=66878bd05a11401)* </div> |
 | **7pm** | ***Conference Dinner @ [Haymarket Pub & Brwery](http://www.haymarketbrewing.com/)<br />Sponsored by [Ion Torrent](http://www.lifetechnologies.com/)*** |
 
 ### Day 2: July 27, Friday
@@ -141,7 +142,7 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 |  |<div class='float-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt), Video*</div> *Galaxy-P* <div class='indent'> Pratik Jagtap, University of Minnesota  </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421)*</div> *The Genomic Hyperbrowser: Prove Your Point* <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/src/chemical-tool-box/index.md)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
-| **2:45**| <div class="float-right"> *[Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 12:35)* </div>  **Closing Remarks**<div class="indent"> [Anton Nekrutenko](/src/people/anton/index.md), Penn State University, [James Taylor](/src/people/james-taylor/index.md), Emory University |
+| **2:45**| <div class="float-right"> *[Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 12:35)* </div>  **Closing Remarks**<div class="indent"> [Anton Nekrutenko](/src/people/anton/index.md), Penn State University, [James Taylor](/src/people/james-taylor/index.md), Emory University</div> |
 | **2:55-3:15** | **Break** |
 | **3:15-5:00** | **Session 8: Breakouts**<br />Moderator: Dave Clements, [Emory University](http://www.emory.edu/) <br /> [Breakouts](/src/eents/gcc2012/program/breakouts/index.md) |
 | **5:00** | **[2012 Galaxy Community Conference](/src/events/gcc2012/index.md) ends** |

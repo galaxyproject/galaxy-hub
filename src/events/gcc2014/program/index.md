@@ -123,7 +123,7 @@ Moderator:  [Karen Reddy](http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?F
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong>Keynote:</strong> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#transcriptomes-and-exomes-computational-challenges-of-ngs-data'>Transcriptomes and Exomes: Computational Challenges of NGS Data</a></strong></em> <div class='indent'> <strong><a href='http://ccb.jhu.edu/people/salzberg/'>Steven Salzberg</a></strong>, <a href='http://www.biostat.jhsph.edu/'>Biostatistics</a> and <a href='http://www.cs.jhu.edu/'>Computer Science</a> at the <a href='http://www.hopkinsmedicine.org/som/'>Johns Hopkins University School of Medicine</a></div> </td>
+    <td colspan=2 style=" border: none; width: 100%;"> <strong>Keynote:</strong> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#transcriptomes-and-exomes-computational-challenges-of-ngs-data'>Transcriptomes and Exomes: Computational Challenges of NGS Data</a></em></strong> <div class='indent'> <strong><a href='http://ccb.jhu.edu/people/salzberg/'>Steven Salzberg</a></strong>, <a href='http://www.biostat.jhsph.edu/'>Biostatistics</a> and <a href='http://www.cs.jhu.edu/'>Computer Science</a> at the <a href='http://www.hopkinsmedicine.org/som/'>Johns Hopkins University School of Medicine</a></div> </td>
   </tr>
   <tr>
     <td rowspan=3 style=" vertical-align: top; text-align: right; border: none;"> 10:00 </td>
@@ -162,7 +162,7 @@ Moderator: [Hailiang (Leon) Mei](http://wiki.data.dtls.nl/index.php/User:Leon_Me
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:00 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#galaxy-deployment-on-heterogenous-hardware</a>Galaxy Deployment on Heterogenous Hardware</em> <div class='indent'> Carrie Ganote, <a href='http://ncgas.org'>National Center for Genome Analysis Support</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#galaxy-deployment-on-heterogenous-hardware'>Galaxy Deployment on Heterogenous Hardware</a></em> <div class='indent'> Carrie Ganote, <a href='http://ncgas.org'>National Center for Genome Analysis Support</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:20 </td>
@@ -174,7 +174,7 @@ Moderator: [Hailiang (Leon) Mei](http://wiki.data.dtls.nl/index.php/User:Leon_Me
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:55 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#enabling-dynamic-science-with-flexible-infrastructure'>Enabling Dynamic Science with Flexible Infrastructure</a></strong></em> <br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Product Manager and Senior Scientific Consultant<br /><a href='http://bioteam.net/company-leadership/'>Aaron Gardner</a>, Senior Scientific Consultant<br /> <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation  </td>
+    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#enabling-dynamic-science-with-flexible-infrastructure'>Enabling Dynamic Science with Flexible Infrastructure</a></em></strong> <br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Product Manager and Senior Scientific Consultant<br /><a href='http://bioteam.net/company-leadership/'>Aaron Gardner</a>, Senior Scientific Consultant<br /> <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation  </td>
   </tr>
 </table>
 
@@ -197,11 +197,11 @@ Moderator: [Liisa Koski](https://www.linkedin.com/pub/liisa-koski/70/164/b0b), [
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
+    <td colspan=2 style=" border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></em></strong> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:50 </td>
-    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#update-on-ion-torrent-sequencing--accurate-long-reads'>Update on Ion Torrent Sequencing – Accurate, Long Reads</a></strong></em><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a><br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
+    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#update-on-ion-torrent-sequencing--accurate-long-reads'>Update on Ion Torrent Sequencing – Accurate, Long Reads</a></em></strong><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a><br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
     <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a> </td>
   </tr>
 </table>
@@ -327,7 +327,7 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:05 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><br /><a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#an-appliance-for-life-science-research-isilon-penguin-and-galaxy'>An Appliance for Life Science Research: Isilon, Penguin and Galaxy</a></strong></em><br /><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'>Patrick Combes</a> <br /> Senior Solution Architect for <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br /> Gold Sponsor Presentation </td>
+    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'><br /><a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#an-appliance-for-life-science-research-isilon-penguin-and-galaxy'>An Appliance for Life Science Research: Isilon, Penguin and Galaxy</a></em></strong<br /><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'>Patrick Combes</a> <br /> Senior Solution Architect for <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br /> Gold Sponsor Presentation </td>
   </tr>
 </table>
 </div>
@@ -368,7 +368,7 @@ Moderator: [Tom Bair](http://www.medicine.uiowa.edu/humangenetics/biostatistics/
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:55 </td>
-    <td colspan=2 style=" vertical-align: top; text-align: center; border: none;"> <div class='right'><a href='http://www.sgi.com/solutions/genomics/'><img src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="100" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#sgi-uv--harnessing-the-big-brain-platform-for-galaxy'>SGI UV:  Harnessing the Big Brain Platform for Galaxy</a></strong></em> <br /> <a href='http://www.sgi.com/solutions/genomics/'>James Reaney</a><br />Senior Director, Research Markets, <a href='http://www.sgi.com'>SGI</a> <br /> Gold Sponsor Presentation </div> </td>
+    <td colspan=2 style=" vertical-align: top; text-align: center; border: none;"> <div class='right'><a href='http://www.sgi.com/solutions/genomics/'><img src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="100" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#sgi-uv--harnessing-the-big-brain-platform-for-galaxy'>SGI UV:  Harnessing the Big Brain Platform for Galaxy</a></em></strong> <br /> <a href='http://www.sgi.com/solutions/genomics/'>James Reaney</a><br />Senior Director, Research Markets, <a href='http://www.sgi.com'>SGI</a> <br /> Gold Sponsor Presentation </td>
   </tr>
 </table>
 </div>
@@ -409,7 +409,7 @@ Moderator: [Jessica Kissinger](http://mango.ctegd.uga.edu/jkissingLab/), [Univer
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 2:15 </td>
-    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="140" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#bioinformatics-on-aws-new-and-noteworthy-features'>Bioinformatics on AWS: New and Noteworthy Features</a></strong></em> <br /> <a href='https://www.linkedin.com/in/angelpizarro'>Angel Pizarro</a> <br /> Senior Solutions Architect, <a href='http://aws.amazon.com/'>Amazon Web Services</a><br /> <a href='/src/events/gcc2014/training-day/index.md'>Training Day</a> Sponsor Presentation </div> </td>
+    <td colspan=2 style=" text-align: center; vertical-align: top; border: none;"> <div class='right'> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="140" /></a></div> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#bioinformatics-on-aws-new-and-noteworthy-features'>Bioinformatics on AWS: New and Noteworthy Features</a></em></strong <br /> <a href='https://www.linkedin.com/in/angelpizarro'>Angel Pizarro</a> <br /> Senior Solutions Architect, <a href='http://aws.amazon.com/'>Amazon Web Services</a><br /> <a href='/src/events/gcc2014/training-day/index.md'>Training Day</a> Sponsor Presentation </td>
   </tr>
 </table>
 
@@ -484,7 +484,7 @@ Moderator: [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [George Washingt
   </tr>
   <tr>
     <th> 7:00 </th>
-    <td style=" text-align: center;"> <div class='right'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a></div>  <br /> <strong>Conference Dinner</strong><br /> Sponsored by <strong><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent</a>  </td>
+    <td style=" text-align: center;"> <div class='right'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a></div>  <br /> <strong>Conference Dinner</strong><br /> Sponsored by <strong><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent</a></strong> </td>
   </tr>
 </table>
 

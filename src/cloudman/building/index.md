@@ -1,6 +1,7 @@
 ---
 title: Building Galaxy CloudMan components
 ---
+
 <slot name="cloudman/linkbox-horizontal" />
 
 Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy on the Cloud](/src/cloudman/index.md) is a pretty straightforward process. [The underlying system](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full), however, is more complex and consists of a number of components. This page describes the steps required to build your own version of the components and deploy the system. You may want to do this if you are deploying the system on your own Cloud. If you would just like to have a custom version of the existing system on AWS, perhaps [cluster sharing & cloning](/src/cloudman/sharing/index.md) can help?
@@ -22,7 +23,7 @@ The process of building the system consists of a number of steps. Each step crea
 
 Throughout this process we will require access to an installation of the Cloud Launch application. This application simplifies the process of launching instances during the build phase and is later used by your users to launch instances of the complete system. A public instance of Cloud Launch is available at https://launch.usegalaxy.org/ but it is limited for use with the official Galaxy project cloud releases. It is hence necessary for you to install your own version of the application and populate it with the information for your cloud.
 
-The installation process is detailed in the [Cloud Launch README](https://github.com/galaxyproject/cloudlaunch) so we won't be repeating it here. Once the application is installed, login to the Admin side of it (*<ip>/admin*) and add a new entry to the *Cloud* table with the details about your cloud and instances types available on that cloud. [Here is a screenshot](http://i.imgur.com/FAn3ERV.png) of what that looks like for one OpenStack cloud. One particular field to note in that form is the *Bucket default* field - see the next section for more details about it.
+The installation process is detailed in the [Cloud Launch README](https://github.com/galaxyproject/cloudlaunch) so we won't be repeating it here. Once the application is installed, login to the Admin side of it (*`<ip>/admin`*) and add a new entry to the *Cloud* table with the details about your cloud and instances types available on that cloud. [Here is a screenshot](http://i.imgur.com/FAn3ERV.png) of what that looks like for one OpenStack cloud. One particular field to note in that form is the *Bucket default* field - see the next section for more details about it.
 
 ### Get your own bucket
 
