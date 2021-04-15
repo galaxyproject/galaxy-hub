@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Galaxy Installation and Administration"
 ---
-<slot name="events/gcc2014/header" />
+<slot name="/events/gcc2014/header" />
 <br /><br />
 
 
 
-<slot name="events/gcc2014/linkbox" />
+<slot name="/events/gcc2014/linkbox" />
 
 <div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 

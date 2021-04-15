@@ -1,7 +1,7 @@
 ---
 title: Galaxy Capacity Planning
 ---
-<slot name="admin/linkbox" />
+<slot name="/admin/linkbox" />
 
 
 

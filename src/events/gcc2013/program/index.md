@@ -1,6 +1,6 @@
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 
 The 2013 Galaxy Community Conference will start with a [Training Day](/src/events/gcc2013/training-day/index.md) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/gcc2013/lightning/index.md), [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [birds-of-a-feather sessions](/src/events/gcc2013/bof/index.md), and networking time.
 
@@ -458,4 +458,4 @@ There is no better place than a Galaxy Community Conference to meet and learn fr
 
 If you have an idea for a BoF, then you are *[strongly encouraged to start one](/src/events/gcc2013/bof/index.md#want-to-plan-a-bof).*
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

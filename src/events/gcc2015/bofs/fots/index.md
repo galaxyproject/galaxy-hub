@@ -1,7 +1,7 @@
 ---
 title: Friends of the Tool Shed
 ---
-<slot name="events/gcc2015/header" />
+<slot name="/events/gcc2015/header" />
 
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>

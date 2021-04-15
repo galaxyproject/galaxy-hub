@@ -1,11 +1,11 @@
 ---
 title: Lightning Talks
 ---
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/src/people/fubar/index.md)) and [Session 8 on Tuesday](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
@@ -378,4 +378,4 @@ From [Ross Lazarus](/src/people/fubar/index.md), *Benevolent Lightning Session M
 * If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in. 
 * You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake. 
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

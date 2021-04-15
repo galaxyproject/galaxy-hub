@@ -1,12 +1,12 @@
 ---
 title: Proteomics BoF
 ---
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 
 
-<slot name="events/gcc2013/linkbox" />
-<slot name="events/gcc2013/bof/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/bof/linkbox" />
 
 <div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 

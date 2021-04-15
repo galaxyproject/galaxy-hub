@@ -1,7 +1,7 @@
 ---
 title: Basic Workflow Editing
 ---
-<slot name="learn/linkbox" />
+<slot name="/learn/linkbox" />
 
 
 <br />

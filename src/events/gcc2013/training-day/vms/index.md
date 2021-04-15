@@ -1,9 +1,9 @@
 ---
 title: GCC2013 Training Day Virtual Machines
 ---
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 
 <div class='left'><a href='/src/events/gcc2013/training-day/vms/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
@@ -61,4 +61,4 @@ There are two VMs to pick from.
 The VM is now installed.
 
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Galaxy on Jetstream
 ---
-<slot name="cloud/jetstream/linkbox" />
+<slot name="/cloud/jetstream/linkbox" />
 
 <div class='left'></div>
 

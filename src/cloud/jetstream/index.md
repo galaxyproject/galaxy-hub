@@ -1,7 +1,7 @@
 ---
 title: Galaxy on Jetstream
 ---
-<slot name="cloud/jetstream/linkbox" />
+<slot name="/cloud/jetstream/linkbox" />
 
 Want your own Galaxy server, for free? You can easily create Galaxy servers on the [NSF Jetstream cloud](http://jetstream-cloud.org/).
 

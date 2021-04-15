@@ -1,7 +1,7 @@
 ---
 title: Bitbucket repositories
 ---
-<slot name="develop/linkbox" />
+<slot name="/develop/linkbox" />
 
 
 Galaxy Team maintains two main repositories of Galaxy for different purposes:

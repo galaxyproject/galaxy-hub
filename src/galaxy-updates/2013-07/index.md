@@ -252,7 +252,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) s
 
 <div class='right'><br />
 
-<slot name="events/gcc2013/bof/linkbox" />
+<slot name="/events/gcc2013/bof/linkbox" />
 
 </div>
 

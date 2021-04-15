@@ -1,7 +1,7 @@
 ---
 title: Customizing Galaxy CloudMan
 ---
-<slot name="cloudman/linkbox-horizontal" />
+<slot name="/cloudman/linkbox-horizontal" />
 
 ## Adding system users to the cluster
 

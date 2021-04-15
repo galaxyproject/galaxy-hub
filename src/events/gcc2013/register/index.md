@@ -1,9 +1,9 @@
 ---
 title: Registration
 ---
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 
 *Save 55% off Training Day registration when you register for it and the meeting at the same time.* 
 
@@ -174,4 +174,4 @@ Interested in the [Training Day](/src/events/gcc2013/training-day/index.md), but
 
 See [Key Dates](/src/events/gcc2013/key-dates/index.md) for a full timeline.
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

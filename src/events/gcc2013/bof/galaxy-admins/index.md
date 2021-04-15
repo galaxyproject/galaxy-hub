@@ -1,9 +1,9 @@
 
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
-<slot name="events/gcc2013/linkbox" />
-<slot name="events/gcc2013/bof/linkbox" />
-<slot name="community/galaxy-admins/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/bof/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 # [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
 

@@ -2,9 +2,9 @@
 title: GCC2013 Training Day
 ---
 
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
@@ -1040,4 +1040,4 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 
 ## 17:00 session ends
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

@@ -2,11 +2,11 @@
 title: Training Day
 ---
 
-<slot name="events/gcc2014/header" />
+<slot name="/events/gcc2014/header" />
 
 <br />
 
-<slot name="events/gcc2014/linkbox" />
+<slot name="/events/gcc2014/linkbox" />
 
 <img class="float-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
 
@@ -456,4 +456,4 @@ Training Day topics were selected by the Galaxy Community.  Topic were first nom
 
 <br />
 
-<slot name="events/gcc2014/footer" />
+<slot name="/events/gcc2014/footer" />

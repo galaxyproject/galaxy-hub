@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions for Galaxy Administration
 ---
-<slot name="admin/linkbox" />
-<slot name="faqs/linkbox" />
+<slot name="/admin/linkbox" />
+<slot name="/faqs/linkbox" />
 
 
 See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/main/faq/index.md) for questions specifically about using Galaxy's free public server [Main](/src/main/index.md).

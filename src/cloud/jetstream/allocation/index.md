@@ -1,4 +1,4 @@
-<slot name="cloud/jetstream/linkbox" />
+<slot name="/cloud/jetstream/linkbox" />
 
 ## Requesting an allocation
 

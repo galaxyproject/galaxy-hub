@@ -1,4 +1,4 @@
-<slot name="develop/linkbox" />
+<slot name="/develop/linkbox" />
 
 An overview of using the Mercurial revision control system with Galaxy.
 

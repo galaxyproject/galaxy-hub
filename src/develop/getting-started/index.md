@@ -1,4 +1,4 @@
-<slot name="develop/linkbox" />
+<slot name="/develop/linkbox" />
 
 # Getting Started with Galaxy Development
 

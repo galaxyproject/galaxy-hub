@@ -1,4 +1,4 @@
-<slot name="datafiles/linkbox" />
+<slot name="/datafiles/linkbox" />
 
 Hub page for example data files that are hung off this wiki.  See [Documents](/src/documents/index.md) and [Images](/src/images/index.md) for those types of files.
 

@@ -1,13 +1,13 @@
 ---
 title: Hackathon
 ---
-<slot name="events/gcc2014/header" />
+<slot name="/events/gcc2014/header" />
 
 <br /><br />
 
 <div class='left'><img src="/src/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></div>
 
-<slot name="events/gcc2014/linkbox" />
+<slot name="/events/gcc2014/linkbox" />
 
 
 
@@ -161,4 +161,4 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/src/events/gcc2014/organizers/index.md#hackathon-committee).  
 
 
-<slot name="events/gcc2014/footer" />
+<slot name="/events/gcc2014/footer" />

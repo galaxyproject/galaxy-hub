@@ -6,7 +6,7 @@ title: GalaxyAdmins Future Directions
 </div>
 
 
-<slot name="community/galaxy-admins/linkbox" />
+<slot name="/community/galaxy-admins/linkbox" />
 
 
 

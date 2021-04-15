@@ -1,4 +1,4 @@
-<slot name="admin/linkbox" />
+<slot name="/admin/linkbox" />
 
 Hub page for [administering](/src/admin/index.md) Galaxy data types.
 

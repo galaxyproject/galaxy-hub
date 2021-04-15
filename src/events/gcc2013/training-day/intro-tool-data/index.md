@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day
 ---
-<slot name="events/gcc2013/header" />
+<slot name="/events/gcc2013/header" />
 
 
 
-<slot name="events/gcc2013/linkbox" />
+<slot name="/events/gcc2013/linkbox" />
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Introduction to tools and data sources
@@ -354,4 +354,4 @@ grep sanitizer tools
 
 1. If you figure something out that was not sufficiently clear (or worse, completely wrong!) in the tool syntax documentation, please contribute it! Send your suggested clarifications to the galaxy-dev list and we'll make sure it gets added. We need all the help we can get to make the documentation better so every little bit you can provide will help the whole community.
 
-<slot name="events/gcc2013/footer" />
+<slot name="/events/gcc2013/footer" />

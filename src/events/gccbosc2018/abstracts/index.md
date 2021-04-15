@@ -1,4 +1,4 @@
-<slot name="events/gccbosc2018/header" />
+<slot name="/events/gccbosc2018/header" />
 
 # GCCBOSC Abstracts and Key Dates
 

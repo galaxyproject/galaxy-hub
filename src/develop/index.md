@@ -17,7 +17,7 @@ Sphinx uses [reStructured Text (RST)](http://sphinx-doc.org/rest.html) with some
 You can generate your own copy of the documentation. You might want to do this if you have made local modifications/extensions to the code, or if you are adding documentation that will be merged back.
 Contribution of documentation is very welcome. To generate the documentation simply execute `make docs` from Galaxy's root directory. The generated documentation will be in `doc/build/html/` and can be viewed in a web browser.
 
-<slot name="develop/resources-api" />
+<slot name="/develop/resources-api" />
 
 ## Code Practices
 
@@ -29,7 +29,7 @@ Contribution of documentation is very welcome. To generate the documentation sim
 * [Graphics Documentation](/src/develop/graphics/index.md) - What graphical elements we use and their meaning.
 * [Visualization tutorial](/src/develop/visualizations/index.md) - How to write a custom visualization for Galaxy.
 
-<slot name="develop/resources-tools" />
+<slot name="/develop/resources-tools" />
 
 ## Architecture
 
