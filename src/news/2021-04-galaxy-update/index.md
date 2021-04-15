@@ -261,7 +261,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 The next roundtable meetups will be:
 
-**[April 15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**
+~~April 15: TBD~~
 
 **[April 29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**, led by Aysam Guerler
 
