@@ -32,10 +32,9 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders:
 * **[2021-05-13: TBD](/src/events/2021-05-13-dev-roundtable/index.md)**
   * Leaders:
-* **[2021-04-29: TBD](/src/events/2021-04-29-dev-roundtable/index.md)**
-  * Leaders:
-* **[2021-04-15: TBD](/src/events/2021-04-15-dev-roundtable/index.md)**
-  * Leaders:
+* **[2021-04-29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**
+  * Leaders: Aysam Guerler
+* 2021-04-15: No meeting
 * 2021-04-01: No meeting
 * **[2021-03-18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**
   * Leaders: Jashwant Raj, Gulsum Gudukbay

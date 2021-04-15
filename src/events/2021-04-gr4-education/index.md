@@ -8,7 +8,7 @@ location: "Galaxy Resources Webinar Series, Online, Global"
 image: "/src/events/webinars/gr4-webinars-400.png"
 location_url: "/events/webinars/"
 external_url:
-contact: "Galaxy Training Network"
+contact: "Saskia Hiltemann, Subina Mehta, Christine Cucinotta, Miaomiao Zhou"
 tags: [ webinar ]
 gtn: false
 links:
@@ -16,6 +16,13 @@ links:
 
 * **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210428T10&p1=419&ah=1).**
 * **Zoom Link**
+
+**Presenters**
+
+* **[Saskia Hiltemann](http://shiltemann.github.io/)**, Erasmus MC
+* **[Subina Mehta](https://www.researchgate.net/profile/Subina-Mehta)**, University of Minnesota
+* **[Christine Cucinotta](https://www.cecucinotta.co/)**, Fred Hutchinson Cancer Center
+* **[Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/)**, Avans University
 
 This webinar will highlight Galaxy resources for educators and trainers.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 

@@ -1,24 +1,20 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Scalability and Challenges"
 date: '2021-04-29'
 days: 1
-tease: "TBD"
+tease: ""
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Dannon Baker, Marius van den Beek, John Chilton"
+contact: "Aysam Guerler"
 ---
 
-**Topic: TBD**
+Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210429T12&p1=179&ah=1)) for an open discussion on *Scalability and Challenges*, led by Asysam Guerler.
 
 *Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
-
-
-Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210429T12&p1=179&ah=1)) for an open discussion about ...
-
 
 ---
 

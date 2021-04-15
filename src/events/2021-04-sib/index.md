@@ -8,6 +8,6 @@ location: "SIB Training, Lausanne, Switzerland"
 location_url: "https://www.sib.swiss/training/upcoming-training-courses"
 external_url: "https://www.sib.swiss/training/course/20210428_GALXY"
 gtn: true
-contact: "Lucille Delisle, Hans-Rudolf Hotz"
+contact: "Lucille Delisle, Hans-Rudolf Hotz, Florian Heyl"
 image: 
 ---

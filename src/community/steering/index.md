@@ -27,7 +27,11 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
 </div>
 <br />
 
-## Members
+## Subcommittees
+
+Subcommittees will be added here as they are formed.
+
+## Committee Members
 
 * **[Ross Lazarus](https://github.com/fubar2)**
   * Retired*, Australia, Chair
