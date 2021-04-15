@@ -2,7 +2,7 @@
 title: "2018 GCCBOSC2018 Conferences: Register"
 ---
 
-<slot name="Events/GCCBOSC2018/Header" />
+<slot name="events/gccbosc2018/header" />
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) was held 25-30 June in Portland, Oregon, United States.
 

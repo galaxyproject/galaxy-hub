@@ -1,4 +1,4 @@
-<slot name="Documents/LinkBox" />
+<slot name="documents/linkbox" />
 
 Common place to attach presentations in the [Documents](/src/documents/index.md) hierarchy.
 

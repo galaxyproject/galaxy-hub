@@ -1,4 +1,4 @@
-<slot name="Develop/LinkBox" />
+<slot name="develop/linkbox" />
 
 ## Galaxy Architecture
 

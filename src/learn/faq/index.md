@@ -1,8 +1,8 @@
 ---
 title: Frequently Asked Questions for Using Galaxy
 ---
-<slot name="Learn/LinkBox" />
-<slot name="FAQs/LinkBox" />
+<slot name="learn/linkbox" />
+<slot name="faqs/linkbox" />
 
 
 Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/main/faq/index.md) for questions that are specifically about using [Main](/src/main/index.md), Galaxy's free public server.  See [Admin/FAQ](/src/admin/faq/index.md) for questions about [administering](/src/admin/index.md) Galaxy.

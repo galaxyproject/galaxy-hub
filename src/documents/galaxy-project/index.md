@@ -1,4 +1,4 @@
-<slot name="Documents/LinkBox" />
+<slot name="documents/linkbox" />
 
 Documents about the [Galaxy Project](/src/galaxy-project/index.md).
 

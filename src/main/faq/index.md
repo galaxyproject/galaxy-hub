@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions about Main
 ---
-<slot name="FAQs/LinkBox" />
+<slot name="faqs/linkbox" />
 
 
  

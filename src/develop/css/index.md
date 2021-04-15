@@ -1,7 +1,7 @@
 ---
 title:  CSS Practices 
 ---
-<slot name="Develop/LinkBox" />
+<slot name="develop/linkbox" />
 
 
 We write styles in [LESS](http://lesscss.org/) and use Bootstrap CSS library as a cornerstone of all the styles. To build the LESS file into the css files please read the `static/style/README` included with the distribution.

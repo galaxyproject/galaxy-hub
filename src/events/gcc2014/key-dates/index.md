@@ -1,13 +1,13 @@
 ---
 title: Key Dates
 ---
-<slot name="Events/GCC2014/Header" />
+<slot name="events/gcc2014/header" />
 
 <br /><br />
 
 
 
-<slot name="Events/GCC2014/LinkBox" />
+<slot name="events/gcc2014/linkbox" />
 
 <table>
   <tr class="th" >
@@ -112,4 +112,4 @@ title: Key Dates
 
 
 
-<slot name="Events/GCC2014/Footer" />
+<slot name="events/gcc2014/footer" />

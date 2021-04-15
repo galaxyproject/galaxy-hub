@@ -1,6 +1,6 @@
-<slot name="CloudMan/Header" />
+<slot name="cloudman/header" />
 
-<slot name="CloudMan/LinkBoxHorizontal" />
+<slot name="cloudman/linkbox-horizontal" />
 
 This page will provide details on how HTCondor has been integrated into CloudMan. Examples on how to use HTCondor through CloudMan will be provided for the enduser.
 

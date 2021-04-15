@@ -1,4 +1,4 @@
-<slot name="Events/GCC2019/Header" />
+<slot name="events/gcc2019/header" />
 
 # Training at GCC2019
 

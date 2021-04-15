@@ -1,9 +1,9 @@
 ---
 title: GCC2012 Photos
 ---
-<slot name="Events/GCC2012/PageHeader" />
+<slot name="events/gcc2012/page-header" />
 
-<slot name="Events/GCC2012/LinkBox" />
+<slot name="events/gcc2012/linkbox" />
 
 
 

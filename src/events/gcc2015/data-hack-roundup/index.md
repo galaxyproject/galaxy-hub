@@ -1,7 +1,7 @@
 ---
 title: DataHack Roundup
 ---
-<slot name="Events/GCC2015/Header" />
+<slot name="events/gcc2015/header" />
 
 
 

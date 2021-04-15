@@ -3,7 +3,7 @@ title: Frequently Asked Questions for Galaxy on Jetstream
 ---
 See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance.  
 
-<slot name="Cloud/Jetstream/LinkBox" />
+<slot name="cloud/jetstream/linkbox" />
 
 <div class='left'></div>
 

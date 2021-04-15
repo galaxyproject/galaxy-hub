@@ -1,11 +1,11 @@
 ---
 title:  2nd Swiss Galaxy Workshop, Wednesday, October 1st, Bern 
 ---
-<slot name="Events/SG2014/Header" />
+<slot name="events/sg2014/header" />
 
 
 
-<slot name="Events/SG2014/LinkBox" />
+<slot name="events/sg2014/linkbox" />
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/src/events/switzerland2012/index.md), we are going to organize a similar event again in fall 2014.
 

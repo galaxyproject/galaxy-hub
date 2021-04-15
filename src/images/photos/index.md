@@ -1,4 +1,4 @@
-<slot name="Images/LinkBox" />
+<slot name="images/linkbox" />
 
 Common place to store photographs that don't belong elsewhere.
 

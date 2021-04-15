@@ -1,7 +1,7 @@
 ---
 title: Galaxy End-Users
 ---
-<slot name="Events/GCC2014/Header" />
+<slot name="events/gcc2014/header" />
 
 <table>
   <tr>
@@ -9,7 +9,7 @@ title: Galaxy End-Users
   </tr>
 </table>
 
-<slot name="Events/GCC2014/LinkBox" />
+<slot name="events/gcc2014/linkbox" />
 
 <div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  

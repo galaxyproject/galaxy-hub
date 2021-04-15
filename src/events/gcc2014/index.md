@@ -23,7 +23,7 @@ The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus]
 
 The conference also included a [Training Day](/src/events/gcc2014/training-day/index.md) offering in-depth topic coverage, across several concurrent sessions.  
 
-<slot name="Events/GCC2014/LinkBox" />
+<slot name="events/gcc2014/linkbox" />
 
 ## Meeting Reports
 
@@ -146,4 +146,4 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-<slot name="Events/GCC2014/Footer" />
+<slot name="events/gcc2014/footer" />

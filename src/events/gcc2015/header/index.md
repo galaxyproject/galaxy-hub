@@ -7,6 +7,6 @@
 
 <div class='right'><br />
 
-<slot name="Events/GCC2015/LinkBox" />
+<slot name="events/gcc2015/linkbox" />
 
 </div>

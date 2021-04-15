@@ -4,7 +4,7 @@
 
 <br />
 
-<slot name="Community/GalaxyAdmins/LinkBox" />
+<slot name="community/galaxy-admins/linkbox" />
 
 <table>
   <tr>

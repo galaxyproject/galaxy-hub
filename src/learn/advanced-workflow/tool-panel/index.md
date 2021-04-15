@@ -1,7 +1,7 @@
 ---
 title: Workflows as Custom Tools
 ---
-<slot name="Learn/LinkBox" />
+<slot name="learn/linkbox" />
 
 <br />
 [Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)

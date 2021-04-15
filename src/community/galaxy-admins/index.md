@@ -3,7 +3,7 @@ title: "Galaxy-Admins"
 ---
 <div class='center'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
 
-<slot name="Community/GalaxyAdmins/LinkBox" />
+<slot name="community/galaxy-admins/linkbox" />
 
 
 

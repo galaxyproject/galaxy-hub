@@ -1,11 +1,11 @@
 ---
 title: Organizers
 ---
-<slot name="Events/GCC2014/Header" />
+<slot name="events/gcc2014/header" />
 
 
 
-<slot name="Events/GCC2014/LinkBox" />
+<slot name="events/gcc2014/linkbox" />
 
 ## Organizing Committee
 
@@ -54,4 +54,4 @@ The GCC2014 Hackathon Organizing Committee is responsible for making the [accomp
 
 The Hackathon Organizing Committee can [be reached via email](mailto:gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org).
 
-<slot name="Events/GCC2014/Footer" />
+<slot name="events/gcc2014/footer" />

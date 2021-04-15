@@ -1,4 +1,4 @@
-<slot name="Learn/LinkBox" />
+<slot name="learn/linkbox" />
 
 # Basic Workflow Editing: Workflow Editor View Unannotated
 

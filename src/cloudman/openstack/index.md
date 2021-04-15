@@ -1,4 +1,4 @@
-<slot name="CloudMan/LinkBox" />
+<slot name="cloudman/linkbox" />
 
 Details on running [CloudMan](/src/cloudman/index.md) on OpenStack-based cloud infrastructures. This is an active area of development for the [CloudMan Team](/src/cloudman/team/index.md).
 

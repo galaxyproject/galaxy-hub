@@ -2,11 +2,11 @@
 title: "Galaxy Admin Training: Help spread the word"
 ---
 
-<slot name="Events/AdminTraining2016/Header" />
+<slot name="events/admin-training2016/header" />
 
 <div class='right'>
 
-<slot name="Events/AdminTraining2016/LinkBox" />
+<slot name="events/admin-training2016/linkbox" />
 
 </div>
 

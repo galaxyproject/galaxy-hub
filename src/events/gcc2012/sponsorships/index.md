@@ -1,7 +1,7 @@
-<slot name="Events/GCC2012/PageHeader" />
+<slot name="events/gcc2012/page-header" />
 
 
-<slot name="Events/GCC2012/LinkBox" />
+<slot name="events/gcc2012/linkbox" />
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a [2012 Galaxy Community Conference](/src/events/gcc2012/sponsorships//index.md) Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
 
@@ -86,7 +86,7 @@ Sponsorships are available at four different levels.
 
 If your organization is interested in participating in [GCC 2012](/src/events/gcc2012/sponsorships//index.md) as a sponsor then please contact Dave Clements at [outreach@galaxyproject.org](mailto:outreach@galaxyproject.org).
 
-<slot name="Events/GCC2012/AsktheOrganizers" />
+<slot name="events/gcc2012/ask-the-organizers" />
 
 ## About GCC 2012
 

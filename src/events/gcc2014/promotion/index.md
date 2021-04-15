@@ -1,9 +1,9 @@
 ---
 title: Promotion and Outreach
 ---
-<slot name="Events/GCC2014/Header" />
+<slot name="events/gcc2014/header" />
 
-<slot name="Events/GCC2014/LinkBox" />
+<slot name="events/gcc2014/linkbox" />
 
 
 

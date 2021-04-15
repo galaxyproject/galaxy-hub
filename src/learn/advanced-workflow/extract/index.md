@@ -1,7 +1,7 @@
 ---
 title: Extract Workflow from a History
 ---
-<slot name="Learn/LinkBox" />
+<slot name="learn/linkbox" />
 
 
 <br />

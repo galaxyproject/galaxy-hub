@@ -1,13 +1,13 @@
 ---
 title: Abstracts
 ---
-<slot name="Events/GCC2013/Header" />
+<slot name="events/gcc2013/header" />
 
 <br /><br />
 
 
 
-<slot name="Events/GCC2013/LinkBox" />
+<slot name="events/gcc2013/linkbox" />
 
 
 

@@ -1,4 +1,4 @@
-<slot name="Events/GCCBOSC2018/Header" />
+<slot name="events/gccbosc2018/header" />
 
 # CollaborationFest!
 

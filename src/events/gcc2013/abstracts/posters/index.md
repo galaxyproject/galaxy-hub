@@ -1,9 +1,9 @@
 ---
 title: Poster Abstracts
 ---
-<slot name="Events/GCC2013/Header" />
+<slot name="events/gcc2013/header" />
 
-<slot name="Events/GCC2013/LinkBox" />
+<slot name="events/gcc2013/linkbox" />
 
 ## Abstracts
 

@@ -1,4 +1,4 @@
-<slot name="Images/LinkBox" />
+<slot name="images/linkbox" />
 
 Common place to store images that are likely to be shared across pages.
 

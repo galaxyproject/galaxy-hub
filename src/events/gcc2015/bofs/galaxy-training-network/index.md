@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Network Meetup
 ---
-<slot name="Events/GCC2015/Header" />
+<slot name="events/gcc2015/header" />
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
 <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>

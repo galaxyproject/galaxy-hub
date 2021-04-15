@@ -1,11 +1,11 @@
 ---
 title: Photos
 ---
-<slot name="Events/GCC2013/Header" />
+<slot name="events/gcc2013/header" />
 
 
 
-<slot name="Events/GCC2013/LinkBox" />
+<slot name="events/gcc2013/linkbox" />
 
 If you have some you would like to have posted here, plase send them to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  To see a larger version of any picture, right click it.
 
