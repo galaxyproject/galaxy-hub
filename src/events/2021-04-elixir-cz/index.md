@@ -13,5 +13,5 @@ image:
 tags: [ webinar ]
 links:
 - text: "Slides"
-  url: "https://bit.ly/galaxy_coffee"
+  url: "http://bit.ly/galaxy_coffee"
 ---
