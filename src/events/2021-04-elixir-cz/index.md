@@ -11,4 +11,7 @@ gtn: false
 contact: "Martin Čech"
 image:
 tags: [ webinar ]
+links:
+- text: "Slides"
+  url: "https://bit.ly/galaxy_coffee"
 ---
