@@ -10,6 +10,9 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Aysam Guerler"
+links:
+- text: "Slides"
+  url: "https://docs.google.com/presentation/d/1_KVlgGOQ3Vccd4Gfx0tbdidkj5PlAYMvfF1qAxbllbM/edit#"
 ---
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210429T12&p1=179&ah=1)) for an open discussion on *Scalability and Challenges*, led by Asysam Guerler.
