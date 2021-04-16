@@ -319,7 +319,7 @@ Are coming, the next time I need to do a biosketch.
     <th> March 7 </th>
     <td> <em><a href='/src/events/uga2014/index.md'>Galaxy Workshop</a></em> <div class='indent'>with  <a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a>, <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, <a href='http://plantbio.uga.edu/directory/raj-ayyampalayam'>Raj Ayyampalayam</a> </td>
     <td> <a href='http://uga.edu'>University of Georgia</a>, Athens, Georgia, United States </td>
-    <td> <a href='/src/events/uga2014/index.md#slides'>Slides</a> </td>
+    <td> <a href='/src/events/uga2014/index.md#slides'>Slides</a></div> </td>
   </tr>
   <tr>
     <th> February 26-28 </th>
