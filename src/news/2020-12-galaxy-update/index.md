@@ -219,7 +219,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the European Galaxy Server by providing new computational infrastructure.
 
-If you have some special needs that we should consider in our next purchase, [let us know!](galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
+If you have some special needs that we should consider in our next purchase, [let us know!](mailto:galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
 
 <img class="card-img-bottom" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
 
@@ -571,7 +571,7 @@ Features:
 
 [ELIXIR Belgium](https://www.elixir-belgium.org/), in collaboration with the European Galaxy project (de.NBI) and the [European COVID-19 Data Platform](https://www.covid19dataportal.org/), have developed a tool to simplify the submission of viral sequencing data to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home), an ELIXIR Core Data Resource providing open access to nucleotide sequences. The new submission tool offers an easy-to-use interface, guides researchers through the submission process and verifies the data format and description. Read more in the [official ELIXIR press release](https://elixir-europe.org/news/ENA-new-tool-COVID-19-data).
 
-<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/src/images/news-graphics/ENA.jpeg" alt="ENA submission tool" />
+<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/src/images/news-graphics/ENA.jpeg" alt="ENA submission tool" /></a>
 </div>
 
 
@@ -584,7 +584,7 @@ Good news for the imaging community! The [IDR Download tool](https://usegalaxy.e
 
 This is an important step towards the accessibility of bioimage data. Now, images stored in local OMERO databases that are not publicly available are accessible from either public or private Galaxy instances. Imaging facilities that are running their local instance and want to perform image analysis in Galaxy can directly benefit from this new feature.
 
-<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/src/images/screenshots/omero.png" alt="OMERO upload tool" />
+<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/src/images/screenshots/omero.png" alt="OMERO upload tool" /></a>
 </div>
 
 
@@ -594,7 +594,7 @@ This is an important step towards the accessibility of bioimage data. Now, image
 
 [CloudBridge version 2.1.0](https://pypi.org/project/cloudbridge/) is a Python library that provides a consistent layer of abstraction over different Infrastructure-as-a-Service cloud providers, reducing or eliminating the need to write conditional code for each cloud. 2.1.0 adds new services and improved robustness.  See the [full documentation](http://cloudbridge.cloudve.org/en/latest/) for more.
 
-<a href="https://pypi.org/project/cloudbridge/"><img class="card-img-bottom" src="cloudbridge-2-1-0.png" alt="CloudBridge 2.1.0" />
+<a href="https://pypi.org/project/cloudbridge/"><img class="card-img-bottom" src="cloudbridge-2-1-0.png" alt="CloudBridge 2.1.0" /></a>
 </div>
 
 
@@ -629,4 +629,4 @@ The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate stude
 * [Georgia Doing on the JXTX Foundation: Funding + Community](/src/news/2020-11-jxtx-doing/index.md)
 
 </div>
-
+</div>

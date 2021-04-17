@@ -23,7 +23,7 @@ user_support:
 quotas:
 - 'A scientific and technical evaluation board appointed by ELIXIR-Italy will assess the scientific soundness and technical feasibility of applications for the Laniakea@ReCaS call. Projects will be evaluated with a “first come, first served” policy until the total available resource annual budget will be assigned.
 The call is available [here](https://tinyurl.com/sqwk4fy).
-All applications must be submitted using this [form](ttps://tinyurl.com/wnhvx9e).'
+All applications must be submitted using this [form](https://tinyurl.com/wnhvx9e).'
 citations:
   - 'Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). [Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033). *GigaScience*, 9(4). doi:10.1093/gigascience/giaa033'
 pub_libraries:

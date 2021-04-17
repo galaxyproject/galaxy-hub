@@ -157,7 +157,7 @@ Now we'll click on the dataset name to view the information about it, and here i
 
 Galaxy keeps track of all versions of a library dataset, and clicking on the link for the expired version will display it's information.
 
-![](Admin/DataLibraries/Libraries/dataset_info3.png)
+![](/Admin/DataLibraries/Libraries/dataset_info3.png)
 
 ### Deleting datasets
 
@@ -171,13 +171,13 @@ When we confirm that we want to delete the dataset, it will disappear from the d
 
 Clicking the pop-up menu for the deleted dataset shows us that the only actions that can be performed on a deleted dataset is "View information" and "Undelete this dataset".
 
-When a library dataset has been marked deleted in this way, the script /<galaxy install dir>/scripts/cleanup\_datasets/cleanup\_datasets.py will manage the process of deleting the disk file. This script should always be used to manage disk files, and no file should ever be manually deleted from disk.
+When a library dataset has been marked deleted in this way, the script `/<galaxy install dir>/scripts/cleanup_datasets/cleanup_datasets.py` will manage the process of deleting the disk file. This script should always be used to manage disk files, and no file should ever be manually deleted from disk.
 
 ### Deleting data libraries
 
 Similar to folders and datasets, it is also possible to mark a data library as deleted. Selecting "Delete this data library from the data library's pop-up menu produces the following pop-up dialog.
 
-![](7DataLibraries/delete_library1.png)
+![](/DataLibraries/delete_library1.png)
 
 After we confirm the deletion, the library disappears from the data libraries browser, but clicking on the "Advanced search" link shows us that we can search for deleted libraries. Clicking on the "deleted" link in "Advanced search" displays our deleted data library.
 

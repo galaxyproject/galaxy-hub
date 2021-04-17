@@ -8,7 +8,7 @@ date: "2020-11-03"
 
 [<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
 
-* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
+* **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p-taylor-foundation-for-open-science)**
 * **[Event news](#event-news)**
 * **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
 * **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS
@@ -471,7 +471,7 @@ It provides realtime XML validation, code completion, help/documentation and oth
 
 The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " />
+<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " /></a>
 </div>
 
 </div>
