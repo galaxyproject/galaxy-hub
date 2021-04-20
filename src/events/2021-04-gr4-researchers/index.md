@@ -19,7 +19,7 @@ This webinar has been moved to April 21, one week later than originally schedule
 </div><br />
 
 * **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210421T10&p1=419&ah=1).**
-* **Zoom Link**
+* **[Zoom Link](https://zoom.us/j/98491085195?pwd=MFRkM3E4UnRoZUxERXFHNEsvYnMzdz09)**
 
 This webinar will highlight Galaxy resources for researchers who want to use Galaxy to integrate, analyze, share, and visualize your data.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 
@@ -27,4 +27,4 @@ Wondering how to get started, or how to do a particular type of analysis, or how
 
 ## Please Register
 
-Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeM__PCTmdpTDXxS-ArgDVmhSJLV9ij1qRan7emOFzAOXn9OQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
+Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeM__PCTmdpTDXxS-ArgDVmhSJLV9ij1qRan7emOFzAOXn9OQ/viewform)** in attending. We will send you a reminder and the link prior to the webinar.
