@@ -41,11 +41,11 @@ It occurred to me while I was typing up the [Galaxy Admin Training announcement]
 ## Plus more events around the world
 
 <div class="float-left">
-<img src="/src/images/icons/AF.png" "In Africa!" /> &nbsp; 
-<img src="/src/images/icons/AS.png" "In Asa!" /> &nbsp; 
-<img src="/src/images/icons/AU.png" "In Australia!" /> &nbsp; 
-<img src="/src/images/icons/EU.png" "In Europe!" /> &nbsp; 
-<img src="/src/images/icons/NA.png" "In North America!" /> 
+<img src="/src/images/icons/AF.png" alt="In Africa!" /> &nbsp;
+<img src="/src/images/icons/AS.png" alt="In Asia!" /> &nbsp;
+<img src="/src/images/icons/AU.png" alt="In Australia!" /> &nbsp;
+<img src="/src/images/icons/EU.png" alt="In Europe!" /> &nbsp;
+<img src="/src/images/icons/NA.png" alt="In North America!" />
 </div>
 
 In addition to these events, there are many others offered this year, and around the world (Africa, Asia, Australia, Europe, North America) that are less than 3 days long (and are even sometimes in French).  See the [Galaxy Events Horizon](/src/events/index.md) for a complete listing. 

@@ -48,7 +48,7 @@ We are happy to have [sponsors](/src/events/gccbosc2018/sponsors/index.html) con
 
 ### Advanced HPC
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt-"Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
+[<img class="float-right" src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
 
 Life sciences is an ideal domain to take full advantage of all the things that HPC technology can do. Universities, research organizations, and biotechnology companies are embracing predictive analytics, machine learning and artificial intelligence to make major gains in fighting cancer, personalizing medicine and regenerating organs. The technology is paying huge dividends. For example, research institutions that are using Illumina’s<sup>®</sup> DNA sequence and array-based technologies for genotyping and epigenetic applications are leveraging our compute and parallel solutions to get better and faster results.
 

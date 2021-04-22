@@ -31,7 +31,7 @@ date: 2011-10-25
   * [Galaxy News](/src/news/index.md) Items and RSS feed.
 
 ----
-<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="width="600px"" /></a>
+<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
 ----
 
 

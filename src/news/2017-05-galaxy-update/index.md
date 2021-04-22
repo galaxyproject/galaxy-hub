@@ -4,7 +4,7 @@ tease: 'GCC2017 deadlines, ISMB/ECCB Tutorial, and lots of new stuff'
 date: '2017-05-02'
 ---
 <div class='right'><a href='/src/galaxy-updates/2017-05/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" /></a><br />
-<a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="170" /></a>
+<a href="https://gcc2017.sciencesconf.org/"><img src='/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="170" /></a>
 </div>
 
 The [May 2017 Galaxy News](/src/galaxy-updates/2017-05/index.md) is out!  

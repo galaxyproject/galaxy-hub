@@ -32,7 +32,7 @@ We are happy to have announced several [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 ### PeerJ
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
+[<img class="float-right" src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
 
 ***[PeerJ](https://peerj.com/)*** is proud to sponsor GCCBOSC 2018 and support the unified event for bioinformatics developers and practitioners. PeerJ's mission is to make Open Access affordable, fast, and easier for researchers and institutions, and central to this mission is our open source ethos. We publish two peer-reviewed journals, *[PeerJ](https://peerj.com/)* and *[PeerJ Computer Science](https://peerj.com/computer-science/)* and we also host a free *[PeerJ Preprints](https://peerj.com/preprints/)* server. *PeerJ* requires code to be open and accessible, hence readers can be assured that they can access the tools appropriately. We also provide [open source tools](https://github.com/PeerJ) helpful to both academics and general software development professionals.
 

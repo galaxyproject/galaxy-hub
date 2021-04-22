@@ -8,9 +8,9 @@ date: '2018-05-18'
 You may not be aware that [childcare](/src/events/gccbosc2018/childcare/index.md) is available for the upcoming [GCCBOSC 2018 Conference](https://gccbosc2018.sched.com/), or **that the cost of childcare has recently dropped significantly due to sponsorship from [eLife(https://elifesciences.org/) and a microgrant from [ISB](https://www.biocuration.org/)**.
 
 <div class="float-left">
-[<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="180" />](https://elifesciences.org/)
+[<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife: an open-access journal for promising research in the life and biomedical sciences" width="180" />](https://elifesciences.org/)
 <br /><br />
-[<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="180" />](https://www.biocuration.org/)
+[<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt="International Society for Biocuration" width="180" />](https://www.biocuration.org/)
 </div>
 
 Childcare is provided by [Little Vikings](http://www.littlevikings.org/) child care in the [Smith Memorial Student Union](https://www.pdx.edu/student-union/) on the [Portland State University](https://www.pdx.edu/) campus in downtown Portland.  It is available for kids ages 6 weeks through 12 years old.

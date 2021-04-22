@@ -18,7 +18,7 @@ Thanks for using Galaxy, all 100,000 of you.
 
 # 2017 Galaxy Community Conference
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
 
 ## Registration & abstract submission are open
 

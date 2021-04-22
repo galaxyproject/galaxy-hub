@@ -83,7 +83,7 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 ### Technology Association of Oregon
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+[<img class="float-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt="Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
 
 [Technology Association of Oregon](http://www.techoregon.org/) is the force behind the Oregon tech industry. Supporting entrepreneurs, connecting peers and decision makers, and helping grow the Northwest as a global hub for innovation. We are proud to be a leader in the regional technology community and offer many ways for individuals, companies, and community organizations to partner with us in Oregon and SW Washington.
 
