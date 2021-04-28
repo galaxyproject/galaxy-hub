@@ -12,10 +12,15 @@ contact: "Saskia Hiltemann, Subina Mehta, Christine Cucinotta, Miaomiao Zhou, BÃ
 tags: [ webinar ]
 gtn: false
 links:
+- text: "Video"
+  url: "https://youtu.be/AXynJtPXgRQ"
+- text: "Slides 1"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-1.pdf"
+- text: "Slides 2"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-04-gr4-education/gr4-education-slides-2.pdf"
 ---
 
 * **10am Eastern US / 4pm Central European. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Researchers+Webinar&iso=20210428T10&p1=419&ah=1).**
-* **[Zoom Link](https://zoom.us/j/93604390833?pwd=OFBQa1VlUVhraE1TZjM3WEFVWTc3UT09)**
 
 **Presenters**
 
@@ -34,7 +39,3 @@ This webinar will highlight
 * **Galaxy features that support learning and teaching.**  These include the ability to share datasets, analysis, and reusable workflows with everyone or specific users; visualization tools for understanding both analysis structure and the results the produce.
 * **The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/).** The GTN provides and maintains a huge library of training materials covering a large percentage of the most popular topics in bioinformatics, and in other areas Galaxy has been applied as well.  These materials are ready to use, and are backed by a vibrant online community.
 
-
-## Please Register
-
-Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSfdfAxMw3ER-XSQJxDNRF60we3sNcDDL1toENmUlGxuNPqIhQ/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
