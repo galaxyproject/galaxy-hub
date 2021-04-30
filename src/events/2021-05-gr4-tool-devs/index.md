@@ -8,13 +8,13 @@ location: "Galaxy Resources Webinar Series, Online, Global"
 image: "/src/events/webinars/gr4-webinars-400.png"
 location_url: "/events/webinars/"
 external_url:
-contact: "Dan Blankenberg"
+contact: "Dan Blankenberg, Anthony Bretaudeau, Petr Novak"
 tags: [ webinar ]
 gtn: false
 links:
 ---
 
-* **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1).**
+* **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**
 * **Zoom Link**
 
 This webinar will highlight Galaxy resources for **tool developers**.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
