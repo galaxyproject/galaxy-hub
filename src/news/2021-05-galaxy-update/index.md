@@ -352,7 +352,7 @@ In preparation for the workshop [Plant Transcriptome Analysis using Galaxy](http
 </div>
 
 <!-- 30K users EU -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 15%; max-width: 30%;">
 <img class="card-img-top" src="30K_users_eu.jpg" alt="30K users EU" />
 <div class="card-header">
 
@@ -363,7 +363,6 @@ In preparation for the workshop [Plant Transcriptome Analysis using Galaxy](http
 The European Galaxy Server has surpassed the 30,000 registered users, has around 3,000 active users per month and a total of 18 million jobs has been run since its opening in 2018.
 
 </div>
-
 
 
 
@@ -388,20 +387,38 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 <div class="card-deck">
 
-<!-- Tips and Tricks -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<!-- Covid monitoring -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header">
+[Monitoring of raw open data for SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/)
+</div>
+
+By Simon Bray, Wolfgang Maier
+
+UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrasctuture is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
+
+<img class="card-img-bottom" src="covid-monitoring.png" alt="COVID-19 monitoring" />
+</div>
+
+
+
+<!-- Plants workshop report -->
+<div class="card border-info" style="min-width: 15%; max-width: 40%;">
+<div class="card-header">
+[Plant Transcriptomics Workshop: A Summary](https://galaxyproject.eu/posts/2021/04/30/plant-summary/)
+</div>
+
+By Mehmet Tekman, Beatriz Serrano-Solano
+
+The outcome of the [Plant Transcriptome Analysis using Galaxy](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) workshop has been summarised in a report.
+
+A huge shout out to all the participants, instructors and helpers for their support during the training week!
+
+<img class="card-img-bottom" src="plants_workshop_worldmap.png" alt="Worldmap of the participation in the plants workshop" />
+</div>
 
 </div>
 
-By 
-
-xxx
-
-<img class="card-img-bottom" src="/src/blog/" alt="" />
-</div>
-
-</div>
 
 
 # Doc, Hub, and Training Updates
