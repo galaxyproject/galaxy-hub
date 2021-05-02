@@ -140,7 +140,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 18rem; max-width: 100%">
+<div class="card border-info" style="min-width: 20rem; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
@@ -186,7 +186,7 @@ Recordings of the two earlier webinars in the series are now available:
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">
 
@@ -225,7 +225,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 
 <!--Variant calling -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">Variant Calling Workshop Series</div>
 
