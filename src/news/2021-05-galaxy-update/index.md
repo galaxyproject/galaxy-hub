@@ -180,7 +180,7 @@ Space is, um, unlimited!  But sign up today anyway and we will send you a remind
 Recordings of the two earlier webinars in the series are now available:
 
 * [Galaxy Resources for Researchers](https://youtu.be/cFN_WPGz9qk)
-* Galaxy Resources for Educators and Trainers
+* [Galaxy Resources for Educators and Trainers](https://www.youtube.com/watch?v=AXynJtPXgRQ)
 
 </div>
 
