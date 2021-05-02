@@ -140,7 +140,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 18rem; max-width: 100%">
+<div class="card border-info" style="min-width: 20rem; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
@@ -180,13 +180,13 @@ Space is, um, unlimited!  But sign up today anyway and we will send you a remind
 Recordings of the two earlier webinars in the series are now available:
 
 * [Galaxy Resources for Researchers](https://youtu.be/cFN_WPGz9qk)
-* Galaxy Resources for Educators and Trainers
+* [Galaxy Resources for Educators and Trainers](https://www.youtube.com/watch?v=AXynJtPXgRQ)
 
 </div>
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">
 
@@ -225,9 +225,11 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 
 <!--Variant calling -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">Variant Calling Workshop Series</div>
+
+**Apply by 12 May**
 
 This series of online workshops covers variant calling across the tree of life.
 
@@ -237,7 +239,7 @@ This series of online workshops covers variant calling across the tree of life.
 
 **[Bacterial variant calling with Galaxy](https://biocommons.org.au/events/variants-bacteria), 27 May**
 
-All 3 workshops will be run by Gareth Price and Igor Makunin.  **Apply by 12 May.**
+All 3 workshops will be run by Gareth Price and Igor Makunin.
 
 </div>
 
@@ -338,6 +340,31 @@ Protologger and CPT are not the only Galaxy platforms creating videos.  We have 
 
 </div>
 
+<!-- Plants subdomain -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+[New Plants flavour in UseGalaxy.eu](https://plants.usegalaxy.eu/)
+</div>
+
+In preparation for the workshop [Plant Transcriptome Analysis using Galaxy](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) that took place in mid April, a new flavour of the European Galaxy Server has been set up, filtering the tools by their relevance to the plant research field.
+
+<img class="card-img-bottom" src="plants_subdomain.png" alt="Plants subdomain" />
+</div>
+
+<!-- 30K users EU -->
+<div class="card border-info"  style="min-width: 15%; max-width: 30%;">
+<img class="card-img-top" src="30K_users_eu.jpg" alt="30K users EU" />
+<div class="card-header">
+
+[30,000 registered users in usegalaxy.eu](https://galaxyproject.eu/posts/2021/04/25/30000user/)
+
+</div>
+
+The European Galaxy Server has surpassed the 30,000 registered users, has around 3,000 active users per month and a total of 18 million jobs has been run since its opening in 2018.
+
+</div>
+
+
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
@@ -346,6 +373,7 @@ Protologger and CPT are not the only Galaxy platforms creating videos.  We have 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [March 2021 Australian BioCommons Newsletter](https://mailchi.mp/0ff74a85c2a3/ausbiocommons-mar-2021-update) features several stories on Galaxy Australia.
+* The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * Galaxy Australia is [hiring](http://jobs.unimelb.edu.au/caw/en/job/904562/academic-specialist-bioinformatician).  **Apply by 19 Apr.**
 
@@ -359,139 +387,58 @@ Protologger and CPT are not the only Galaxy platforms creating videos.  We have 
 
 <div class="card-deck">
 
-<!-- Tips and Tricks -->
-<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<!-- COVID monitoring -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header">
+[Monitoring of raw open data for SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/)
+</div>
+
+By Simon Bray, Wolfgang Maier
+
+UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrasctuture is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
+
+<img class="card-img-bottom" src="covid-monitoring.png" alt="COVID-19 monitoring" />
+</div>
+
+
+
+<!-- Plants workshop report -->
+<div class="card border-info" style="min-width: 15%; max-width: 40%;">
+<div class="card-header">
+[Plant Transcriptomics Workshop: A Summary](https://galaxyproject.eu/posts/2021/04/30/plant-summary/)
+</div>
+
+By Mehmet Tekman, Beatriz Serrano-Solano
+
+The outcome of the [Plant Transcriptome Analysis using Galaxy](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) workshop has been summarised in a report.
+
+A huge shout out to all the participants, instructors and helpers for their support during the training week!
+
+<img class="card-img-bottom" src="plants_workshop_worldmap.png" alt="Worldmap of the participation in the plants workshop" />
+</div>
 
 </div>
 
-By 
-
-xxx
-
-<img class="card-img-bottom" src="/src/blog/" alt="" />
-</div>
-
-</div>
 
 
 # Doc, Hub, and Training Updates
 
-<div class="card-deck">
-
-<!-- Single cell  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
+<!-- Text-mining with the SimText toolset  -->
+<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
 
-[Filter, Plot and Explore Single-cell RNA-seq Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html)
+[Text-mining with the SimText toolset](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/text-mining_simtext/tutorial.html)
 
 </div>
 
-By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
+By [Marie Gramm](https://training.galaxyproject.org/training-material/hall-of-fame/mgramm1/), [Dennis Lal group](https://training.galaxyproject.org/training-material/hall-of-fame/dlalgroup/) and [Daniel Blankenberg](https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/)
 
-Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
+This tutorial is based on a proof-of-concept example given in Gramm et al. 2020. It uses SimText, a toolset for literature research to collect text from PubMed for any given set of biomedical entities, extract associated terms, and analyze similarities among them and their key characteristics in an interactive tool.
 
-<img class="card-img-bottom" src="gtn-single-cell.jpg" alt="Figure 12: Appearance is everything" />
-</div>
-
-
-<!-- Workflow Hub -->
-<div class="card border-info" style="min-width: 290px; max-width: 290px;">
-<iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
-
-Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
-it is possible to import a
-workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.ga4gh.org/) API [TRS](https://github.com/ga4gh/tool-registry-service-schemas).
+<img class="card-img-bottom" src="simtext_overview_tutorial.png" alt="Schematic presentation of the workflow" style="max-width: 90%"/>
 
 </div>
 
-
-<!-- Galaxy-ELIXIR webinar series -->
-<div class="card border-info" style="min-width: 14rem; max-width: 100%;">
-<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
-
-Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
-
-If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
-
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-</div>
-
-
-<!-- Genome assembly of a MRSA genome  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
-<div class="card-header">
-
-[Genome assembly of a MRSA genome](https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html)
-
-</div>
-
-By [Bazante Sanders](https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/), [Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
-
-Two new assembly tutorials have been added to the GTN. In one, you [perform this analysis on Nanopore MinION data](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html), and in the other, you [perform a similar analysis on Illlumina-sequenced datasets](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html).
-</div>
-
-
-<!-- Downstream Single-cell RNA Plant analysis with ScanPy  -->
-<div class="card border-info" style="min-width: 13rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-scrna-stripe.png" alt="scRNA" />
-<div class="card-header">
-
-[Downstream Single-cell RNA Plant analysis with ScanPy](https://training.galaxyproject.org/training-material/news/2021/03/30/tutorial_scrna_plant.html)
-
-</div>
-
-By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
-
-Single cell RNA-seq analysis provides a great level of detail in understanding the underlying dynamic processes within tissues. This tutorial uses scRNA-Seq to highlight some of the key differentiation pathways that plant root cells undergo.
-
-</div>
-
-
-<!-- Object tracking using CellProfiler   -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="https://training.galaxyproject.org/training-material/topics/imaging/images/object-tracking-using-cell-profiler/Dividing_nuclei.gif" alt="CellProfiler" />
-<div class="card-header">
-
-[Object tracking using CellProfiler](https://training.galaxyproject.org/training-material/news/2021/03/18/tutorial_imaging_cell_profiler.html)
-
-</div>
-
-By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/), [Yi Sun](https://training.galaxyproject.org/training-material/hall-of-fame/sunyi000/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
-
-This tutorial tracks dividing nuclei in a short time-lapse recording of one mitosis of a syncytial blastoderm stage *Drosophila* embryo expressing a GFP-histone gene that labels chromatin.
-</div>
-
-<!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
-
-[Whole transcriptome analysis of Arabidopsis thaliana](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html)
-
-</div>
-
-By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
-
-Brassinosteroids are phytohormones that have the ability to stimulate plant growth and confer resistance against abiotic and biotic stresses.
-This tutorial details the necessary steps to identify potential targets of brassinosteroid-induced miRNAs.  
-
-<img class="card-img-bottom" src="a-thaliana.png" alt="Arabidopsis thaliana" style="max-width: 90%"/>
-
-</div>
-
-<!-- FAQs  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
-<div class="card-header">
-
-[GTN has FAQs!](https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html)
-
-</div>
-
-The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](https://training.galaxyproject.org/training-material/faqs/) that is automatically populated from reusable snippets that are already in the GTN.
-</div>
 
 </div>
  
