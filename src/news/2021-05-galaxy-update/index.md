@@ -349,8 +349,22 @@ Protologger and CPT are not the only Galaxy platforms creating videos.  We have 
 In preparation for the workshop [Plant Transcriptome Analysis using Galaxy](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) that took place in mid April, a new flavour of the European Galaxy Server has been set up, filtering the tools by their relevance to the plant research field.
 
 <img class="card-img-bottom" src="plants_subdomain.png" alt="Plants subdomain" />
+</div>
+
+<!-- 30K users EU -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<img class="card-img-top" src="30K_users_eu.jpg" alt="30K users EU" />
+<div class="card-header">
+
+[30,000 registered users in usegalaxy.eu](https://galaxyproject.eu/posts/2021/04/25/30000user/)
 
 </div>
+
+The European Galaxy Server has surpassed the 30,000 registered users, has around 3,000 active users per month and a total of 18 million jobs has been run since its opening in 2018.
+
+</div>
+
+
 
 
 <!-- UseGalaxy.* -->
