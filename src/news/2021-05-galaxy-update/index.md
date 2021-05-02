@@ -229,6 +229,8 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">Variant Calling Workshop Series</div>
 
+**Apply by 12 May**
+
 This series of online workshops covers variant calling across the tree of life.
 
 **[Variant calling in humans, animals and plants with Galaxy](https://www.biocommons.org.au/events/variants-polyploid), 25 May**
@@ -237,7 +239,7 @@ This series of online workshops covers variant calling across the tree of life.
 
 **[Bacterial variant calling with Galaxy](https://biocommons.org.au/events/variants-bacteria), 27 May**
 
-All 3 workshops will be run by Gareth Price and Igor Makunin.  **Apply by 12 May.**
+All 3 workshops will be run by Gareth Price and Igor Makunin.
 
 </div>
 
