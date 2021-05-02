@@ -129,6 +129,21 @@ __Submissions due May 7__
 GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers using Galaxy, and __all over the world__. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition) by May 7!
 
 </div>
+
+
+<!-- hiring -->
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<div class="card-header">
+
+[Open Galaxy Positions](/src/careers/index,md)
+
+</div>
+
+There are two new positions in the [Galaxy Career Center](/src/careers/index,md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+</div>
+
+
 </div>
 
 
@@ -204,6 +219,24 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 </div>
 
 
+
+<!-- RepeatExplorer -->
+<div class="card border-info" style="min-width: 10rem; max-width:  50%;">
+<img class="card-img-top" src="/src/use/repeatexplorer/repeatexplorer-wide.png" />
+<div class="card-header">
+
+[RepeatExplorer Workshop](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
+
+</div>
+
+**25 May - June 11, Institute of Plant Molecular Biology, Online, Ceske Budejovice, Czech Republic**
+
+The workshop will focus on theoretical and practical aspects of using next generation sequencing (NGS) data for analyzing repeat composition of plant genomes. Special emphasis will be given to repeat characterization methods implemented in the RepeatExplorer pipeline, including practical training in using the pipeline. Participants are also encouraged to make short presentations of their research related to the workshop topic.
+
+[Register now](http://repeatexplorer.org/?page_id=19). The workshop is free.
+</div>
+
+
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
@@ -215,7 +248,7 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 
 The next roundtable meetups will be:
 
-**May 13: TBD, Alex Ostrovsky**
+**[May 13: Custimizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
 
 **May 27: TBD**
 

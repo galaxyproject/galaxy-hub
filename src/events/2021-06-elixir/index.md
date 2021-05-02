@@ -1,8 +1,8 @@
 ---
-title: "ELIXIR Galaxy Community & Tools Platform Workshop"
+title: "Strengthening the integration of Galaxy in the Tools Ecosystem"
 date: '2021-06-03'
 days: 11
-tease: ""
+tease: "Latest developments and plans, and discussion of current and future collaborations within ELIXIR."
 continent: EU
 location: "ELIXIR All Hands 2021, Online, Europe"
 location_url: "https://elixir-europe.org/events/elixir-all-hands-2021"
