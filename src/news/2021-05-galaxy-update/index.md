@@ -387,7 +387,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 <div class="card-deck">
 
-<!-- Covid monitoring -->
+<!-- COVID monitoring -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header">
 [Monitoring of raw open data for SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/)
@@ -423,93 +423,6 @@ A huge shout out to all the participants, instructors and helpers for their supp
 
 # Doc, Hub, and Training Updates
 
-<div class="card-deck">
-
-<!-- Single cell  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
-
-[Filter, Plot and Explore Single-cell RNA-seq Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html)
-
-</div>
-
-By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
-
-Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
-
-<img class="card-img-bottom" src="gtn-single-cell.jpg" alt="Figure 12: Appearance is everything" />
-</div>
-
-
-<!-- Workflow Hub -->
-<div class="card border-info" style="min-width: 290px; max-width: 290px;">
-<iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
-
-Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
-it is possible to import a
-workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.ga4gh.org/) API [TRS](https://github.com/ga4gh/tool-registry-service-schemas).
-
-</div>
-
-
-<!-- Galaxy-ELIXIR webinar series -->
-<div class="card border-info" style="min-width: 14rem; max-width: 100%;">
-<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
-
-Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
-
-If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
-
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
-</div>
-
-
-<!-- Genome assembly of a MRSA genome  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
-<div class="card-header">
-
-[Genome assembly of a MRSA genome](https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html)
-
-</div>
-
-By [Bazante Sanders](https://training.galaxyproject.org/training-material/hall-of-fame/bazante1/), [Miaomiao Zhou](https://training.galaxyproject.org/training-material/hall-of-fame/miaomiaozhou88/), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame/shiltemann/)
-
-Two new assembly tutorials have been added to the GTN. In one, you [perform this analysis on Nanopore MinION data](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-nanopore/tutorial.html), and in the other, you [perform a similar analysis on Illlumina-sequenced datasets](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/mrsa-illumina/tutorial.html).
-</div>
-
-
-<!-- Downstream Single-cell RNA Plant analysis with ScanPy  -->
-<div class="card border-info" style="min-width: 13rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-scrna-stripe.png" alt="scRNA" />
-<div class="card-header">
-
-[Downstream Single-cell RNA Plant analysis with ScanPy](https://training.galaxyproject.org/training-material/news/2021/03/30/tutorial_scrna_plant.html)
-
-</div>
-
-By [Mehmet Tekman](https://training.galaxyproject.org/training-material/hall-of-fame/mtekman/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
-
-Single cell RNA-seq analysis provides a great level of detail in understanding the underlying dynamic processes within tissues. This tutorial uses scRNA-Seq to highlight some of the key differentiation pathways that plant root cells undergo.
-
-</div>
-
-
-<!-- Object tracking using CellProfiler   -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="https://training.galaxyproject.org/training-material/topics/imaging/images/object-tracking-using-cell-profiler/Dividing_nuclei.gif" alt="CellProfiler" />
-<div class="card-header">
-
-[Object tracking using CellProfiler](https://training.galaxyproject.org/training-material/news/2021/03/18/tutorial_imaging_cell_profiler.html)
-
-</div>
-
-By [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/), [Yi Sun](https://training.galaxyproject.org/training-material/hall-of-fame/sunyi000/) and [Jean-Karim Hériché](https://training.galaxyproject.org/training-material/hall-of-fame/jkh1/)
-
-This tutorial tracks dividing nuclei in a short time-lapse recording of one mitosis of a syncytial blastoderm stage *Drosophila* embryo expressing a GFP-histone gene that labels chromatin.
-</div>
-
 <!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-header">
@@ -527,17 +440,6 @@ This tutorial details the necessary steps to identify potential targets of brass
 
 </div>
 
-<!-- FAQs  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
-<div class="card-header">
-
-[GTN has FAQs!](https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html)
-
-</div>
-
-The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](https://training.galaxyproject.org/training-material/faqs/) that is automatically populated from reusable snippets that are already in the GTN.
-</div>
 
 </div>
  
