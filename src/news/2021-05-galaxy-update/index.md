@@ -423,20 +423,19 @@ A huge shout out to all the participants, instructors and helpers for their supp
 
 # Doc, Hub, and Training Updates
 
-<!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
+<!-- Text-mining with the SimText toolset  -->
+<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
 
-[Whole transcriptome analysis of Arabidopsis thaliana](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html)
+[Text-mining with the SimText toolset](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/text-mining_simtext/tutorial.html)
 
 </div>
 
-By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/), [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) and [Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)
+By [Marie Gramm](https://training.galaxyproject.org/training-material/hall-of-fame/mgramm1/), [Dennis Lal group](https://training.galaxyproject.org/training-material/hall-of-fame/dlalgroup/) and [Daniel Blankenberg](https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/)
 
-Brassinosteroids are phytohormones that have the ability to stimulate plant growth and confer resistance against abiotic and biotic stresses.
-This tutorial details the necessary steps to identify potential targets of brassinosteroid-induced miRNAs.  
+This tutorial is based on a proof-of-concept example given in Gramm et al. 2020. It uses SimText, a toolset for literature research to collect text from PubMed for any given set of biomedical entities, extract associated terms, and analyze similarities among them and their key characteristics in an interactive tool.
 
-<img class="card-img-bottom" src="a-thaliana.png" alt="Arabidopsis thaliana" style="max-width: 90%"/>
+<img class="card-img-bottom" src="simtext_overview_tutorial.png" alt="Schematic presentation of the workflow" style="max-width: 90%"/>
 
 </div>
 
