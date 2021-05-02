@@ -338,6 +338,18 @@ Protologger and CPT are not the only Galaxy platforms creating videos.  We have 
 
 </div>
 
+<!-- Plants subdomain -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<div class="card-header">
+[New Plants flavour in UseGalaxy.eu](https://plants.usegalaxy.eu/)
+</div>
+
+In preparation for the workshop [Plant Transcriptome Analysis using Galaxy](https://docs.google.com/document/d/1Y5MqYmMxFCy7PDImYYuHLhgCKVV7MjoGMr22G2U68Ec/preview) that took place in mid April, a new flavour of the European Galaxy Server has been set up, filtering the tools by their relevance to the plant research field.
+
+<img class="card-img-bottom" src="plants_subdomain.png" alt="Plants subdomain" />
+
+</div>
+
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
