@@ -19,7 +19,6 @@ quotas:
 citations:
 - "Bolyen, E., Rideout, J.R., Dillon, M.R. et al. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. *Nature Biotechnology* 37, 852–857 (2019). https://doi.org/10.1038/s41587-019-0209-9"
 pub_libraries:
-- ""
 sponsors:
 - "The [QIIME 2 Project](https://qiime2.org/)"
 ---
