@@ -30,7 +30,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 * **[2021-05-27: TBD](/src/events/2021-05-27-dev-roundtable/index.md)**
   * Leaders:
-* **[2021-05-13: Custimizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md)**
+* **[2021-05-13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md)**
   * Leaders: Alex Ostrovsky
 * **[2021-04-29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**
   * Leaders: Aysam Guerler
