@@ -346,6 +346,20 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 </div>
 
 
+<!-- QIIME 2 -->
+<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<img class="card-img-top" src="/src/images/logos/qiime2.svg" alt="QIIME 2" />
+<div class="card-header">
+
+[q2Galaxy](/src/use/qiime2/index.md)
+
+</div>
+
+Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-now-available/19340) of [QIIME 2](https://qiime2.org/) (see releases below), this [Docker image](https://quay.io/repository/qiime2/q2galaxy) is automatically updated as QIIME 2 is updated. It contains the full set of QIIME 2 actions as Galaxy tools, and is maintained by the [QIIME 2 community](https://github.com/orgs/qiime2/people). QIIME 2 is a next-generation microbiome bioinformatics platform that is extensible, free, and open source. QIIME 2 has [extensive documentation](https://docs.qiime2.org/), an [online (and free) workshop](https://workshops.qiime2.org/microbiome-bioinformatics-qiime-2-free-online-work/), and a [support forum](https://forum.qiime2.org/). There is also a [video](https://youtu.be/pjVJ0ncBRsM) describing how to launch the QIIME 2 Galaxy Docker image (on Windows!).
+
+</div>
+
+
 <!-- CPT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 <img class="card-img-top" src="/src/use/center-for-phage-technology-cpt/cpt-logo.png" alt="CPT Galaxy" />
@@ -456,6 +470,8 @@ A huge shout out to all the participants, instructors and helpers for their supp
 
 # Doc, Hub, and Training Updates
 
+<div class="card-deck">
+
 <!-- Text-mining with the SimText toolset  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
@@ -472,6 +488,19 @@ This tutorial is based on a proof-of-concept example given in Gramm et al. 2020.
 
 </div>
 
+<!-- Plates Batches Barcodes  -->
+<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
+<div class="card-header">
+
+[Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides)
+
+</div>
+
+This [slide deck](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html) about single-cell RNA-Seq experiments is [now available as a video](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides).
+
+<img class="card-img-bottom" src="wablanesgood.png" alt="Treatments and lanes"/>
+
+</div>
 
 </div>
  
@@ -485,13 +514,25 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">
 
-[]()
+[RNA-Seq Data Analysis in Galaxy](https://doi.org/10.1007/978-1-0716-1307-8_20)
 
 </div>
 
+Batut, B., van den Beek, M., Doyle, M. A., & Soranzo, N. (2021). In E. Picardi (Ed.), RNA Bioinformatics (pp. 367–392). Springer US. https://doi.org/10.1007/978-1-0716-1307-8_20
+
 </div>
 
 
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
+<div class="card-header">
+
+[Inverting the model of genomics data sharing with the NHGRI Genomic Data Science Analysis, Visualization, and Informatics Lab-space (AnVIL)](https://doi.org/10.1101/2021.04.22.436044)
+
+</div>
+
+Schatz, M. C., Philippakis, A. A., Afgan, E., Banks, E., Carey, V. J., Carroll, R. J., Culotti, A., Ellrott, K., Goecks, J., Grossman, R. L., Hall, I., Hansen, K. D., Lawson, J., Leek, J. T., Luria, A. O., Mosher, S., Morgan, M., Nekrutenko, A., O’Connor, B. D., … Team, A. (2021). *BioRxiv*, 2021.04.22.436044. https://doi.org/10.1101/2021.04.22.436044
+
+</div>
 
 </div>
 
@@ -500,22 +541,31 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 <div class="card-deck">
 
-<div class="card border-info"  style="min-width: 14rem; max-width: 30rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
-<div class="card-header">Planemo 0.74.4</div>
+<!-- QIIME 2 -->
+<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
+<div class="card-header">
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  This release includes: 
+[QIIME 2 2021.4](https://forum.qiime2.org/t/qiime-2-2021-4-is-now-available/19340)
 
-* New flag `--download_outputs` for the run command.
-* Simultaneous file upload configurable for the run and test commands.
-* Add option to add tags to a history with the run command.
-* Revise Allure reporting experience for workflows. 
-
-
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 </div>
 
+The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github.com/qiime2/q2galaxy) (see Platform News above), for generating Galaxy tool descriptions automatically from QIIME 2 actions. This means that as plugins are created and evolve, the QIIME 2 team can automatically generate complete Galaxy tools in a few seconds, rather than developing them by hand as is typically done.
+
+<img class="card-img-bottom" src="/src/images/logos/qiime2.svg" alt="QIIME2" />
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
+<div class="card-header">
+
+[Pulsar 0.14.5](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst)
+
+</div>
+
+[Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
+
+<img class="card-img-bottom" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" />
+</div>
 
 </div>
 
