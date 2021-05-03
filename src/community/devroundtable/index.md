@@ -34,6 +34,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders: Alex Ostrovsky
 * **[2021-04-29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**
   * Leaders: Aysam Guerler
+  * [Video](https://youtu.be/b4fL9fJbIbI), [Slides](https://docs.google.com/presentation/d/1_KVlgGOQ3Vccd4Gfx0tbdidkj5PlAYMvfF1qAxbllbM/edit#)
 * 2021-04-15: No meeting
 * 2021-04-01: No meeting
 * **[2021-03-18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**

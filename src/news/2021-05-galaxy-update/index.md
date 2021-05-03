@@ -6,23 +6,33 @@ date: ""
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-This newsletter coincides with the [anniversary of James Taylor's death](#featured-news) on April 2, 2020.  James was a Galaxy Project founder and PI, and losing him at the same time as the global COVID-19 shutdown made for a tough month, and then a tough year for the Galaxy Community.  To mark this, there are two items about James below.  First, *a call to share your favorite story about James* via a 30 second video (by April 30).  Second, there is a link to *a note to James* written by project leadership (mainly Anton).
+<div class="lead">
+<p>Hello all,</p>
 
-The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 7.
+<p><strong>Hey! Pay attention!  <em>The abstract submission deadline for the 2021 Galaxy Community Conference is this Friday. The deadline for fellowship applications is also this Friday.</em></strong></p>
 
-And as always there are sections on 
-* **[upcoming events](#event-news)**,
+</div>
+
+And there are other upcoming deadlines too:
+
+* The **[deadline for submitting James Taylor videos](#featured-news) has been extended to this Friday**.
+* **[ISMB/ECCB and BOSC 2021 abstracts](#event-news) are due this Thursday.**
+* **Apply for the [Galaxy Australia Variant Calling Workshops](#event-news) by May 12.**
+
+We also have
+* **[open positions](#community-news)**
+* **[webinars, CoFests, workshops, community meetups, and other events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
 * recent **[blog posts](#galactic-blog-activity)**,
 * **[training and doc updates](#doc-hub-and-training-updates)**,
 * recent **[open-access Galaxy-related publications](#publications)**, and
 * **[new releases](#releases).**
 
-It's been a memorable twelve months.  It would have been easy to curl up and hide, but we kept going, addressed gaps, and helped address the global pandemic as well.
-
-Thanks for supporting each other,
+As always, thanks for using Galaxy,
 
 Dave Clements and Beatriz Serrano-Solano, Editors
+
+
 
 
 ---
@@ -34,20 +44,33 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <!-- James -->
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
 <img class="card-img-top" src="/src/jxtx/jxtx-stripe.jpg" alt="James Taylor" />
-<div class="card-header">Share your favorite James Taylor story</div>
+<div class="card-header">Share your favorite James Taylor story: Deadline extended to May 7</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. 
+It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we are creating a community video, *and we have extended the deadline for contributions to this Friday, May 7*.  We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
+
+Here is what we will need you to do by the end of Friday, May 7:
+
+1. Think of your favorite story/interaction/event involving James
+2. Pick a nice location and record the video!
+3. The video should be:
+  * in a high-resolution
+  * without background noise
+  * in a horizontal orientation (not vertical!)
+  * ≲ 30 seconds in length
+4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
+5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
+
+Thank you all in advance and please feel free to invite other friends of James to participate.
 </div>
 
 </div>
-
 
 # Community News
 
 <div class="card-deck">
 
 <!-- GCC2021 Registration -->
-<div class="card border-info" style="min-width: 40%; max-width: 100%;">
+<div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
@@ -70,7 +93,7 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 
 
 <!-- GCC Abstracts submission & Fellowships -->
-<div class="card border-info" style="min-width: 40%; max-width: 100%;">
+<div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
@@ -88,7 +111,7 @@ __May 7__
 
 
 <!-- hiring -->
-<div class="card border-info" style="min-width: 20%; max-width: 50%;">
+<div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header">
 
@@ -111,7 +134,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card-deck">
 
 <!-- Galaxy @ ISMB? -->
-<div class="card border-info" style="min-width: 20rem; max-width: 100%">
+<div class="card border-info" style="min-width: 22rem; max-width: 100%">
 <img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
@@ -175,46 +198,8 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 </div>
 
 
-
-<!-- RepeatExplorer -->
-<div class="card border-info" style="min-width: 10rem; max-width:  50%;">
-<img class="card-img-top" src="/src/use/repeatexplorer/repeatexplorer-wide.png" />
-<div class="card-header">
-
-[RepeatExplorer Workshop](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
-
-</div>
-
-**25 May - June 11, Institute of Plant Molecular Biology, Online, Ceske Budejovice, Czech Republic**
-
-The workshop will focus on theoretical and practical aspects of using next generation sequencing (NGS) data for analyzing repeat composition of plant genomes. Special emphasis will be given to repeat characterization methods implemented in the RepeatExplorer pipeline, including practical training in using the pipeline. Participants are also encouraged to make short presentations of their research related to the workshop topic.
-
-[Register now](http://repeatexplorer.org/?page_id=19). The workshop is free.
-</div>
-
-
-<!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">
-
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
-
-</div>
-
-The next roundtable meetups will be:
-
-**[May 13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
-
-**May 27: TBD**
-
-We still [need a volunteer to lead a discussions on a topic of interest on May 27](https://bit.ly/gxdevroundtablepresent).
-
-</div>
-
-
 <!--Variant calling -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 16rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">Variant Calling Workshop Series</div>
 
@@ -233,8 +218,62 @@ All 3 workshops will be run by Gareth Price and Igor Makunin.
 </div>
 
 
+<!-- RepeatExplorer -->
+<div class="card border-info" style="min-width: 14rem; max-width:  50%;">
+<img class="card-img-top" src="/src/use/repeatexplorer/repeatexplorer-wide.png" />
+<div class="card-header">
+
+[RepeatExplorer Workshop](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
+
+</div>
+
+**25 May - June 11, Online**
+
+The workshop will focus on theoretical and practical aspects of using next generation sequencing (NGS) data for analyzing repeat composition of plant genomes. Special emphasis will be given to repeat characterization methods implemented in the RepeatExplorer pipeline, including practical training in using the pipeline. Participants are also encouraged to make short presentations of their research related to the workshop topic.
+
+[Register now](http://repeatexplorer.org/?page_id=19). The workshop is free.
+</div>
+
+
+<!-- Galaxy Dev Round Table -->
+<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<div class="card-header">
+
+[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+
+</div>
+
+The next roundtable meetups will be:
+
+**[May 13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
+
+**May 27: TBD**
+
+We still [need a volunteer to lead a discussions on a topic of interest on May 27](https://bit.ly/gxdevroundtablepresent).
+
+</div>
+
+
+<!-- Metabolomics -->
+<div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
+<img class="card-img-top" src="/src/news/2020-12-galaxy-update/metabolomics.png" alt="metabolomics" />
+<div class="card-header">
+
+[Galaxy Metabolomics Community Call](/src/events/2021-05-metabolomics/index.md)
+
+</div>
+
+**6 May, 14:00 CET**
+
+The call features a guest speaker, Amrita Cheema, Georgetown University School of Medicine in Washington DC, presenting her work in radiometabolomics. We'll also discuss GCC CoFest work, and training and standardization in metabolomics.
+
+To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
+
+</div>
+
 <!-- Analyse avancée de séquences -->
-<div class="card border-info" style="min-width: 10rem; max-width:  50%;">
+<div class="card border-info" style="min-width: 12rem; max-width:  50%;">
 <img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header">
 
@@ -250,7 +289,7 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 
 <!-- Metatranscriptomes -->
-<div class="card border-info" style="min-width: 10rem; max-width:  50%;">
+<div class="card border-info" style="min-width: 14rem; max-width:  20rem;">
 <img class="card-img-top" src="/src/images/logos/vib-training.png" />
 <div class="card-header">
 
@@ -265,7 +304,7 @@ An introduction basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT pr
 </div>
 
 <!-- Galaxy NL -->
-<div class="card border-info" style="min-width: 15rem;">
+<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
 <img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header">
 
@@ -303,15 +342,15 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 
 
 <!-- QIIME 2 -->
-<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<div class="card border-info"  style="min-width: 30%; max-width: 100%;">
 <img class="card-img-top" src="/src/images/logos/qiime2.svg" alt="QIIME 2" />
 <div class="card-header">
 
-[q2Galaxy](/src/use/qiime2/index.md)
+[q2Galaxy](/src/use/qiime2/index.md) (Alpha)
 
 </div>
 
-Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-now-available/19340) of [QIIME 2](https://qiime2.org/) (see releases below), this [Docker image](https://quay.io/repository/qiime2/q2galaxy) is automatically updated as QIIME 2 is updated. It contains the full set of QIIME 2 actions as Galaxy tools, and is maintained by the [QIIME 2 community](https://github.com/orgs/qiime2/people). QIIME 2 is a next-generation microbiome bioinformatics platform that is extensible, free, and open source. QIIME 2 has [extensive documentation](https://docs.qiime2.org/), an [online (and free) workshop](https://workshops.qiime2.org/microbiome-bioinformatics-qiime-2-free-online-work/), and a [support forum](https://forum.qiime2.org/). There is also a [video](https://youtu.be/pjVJ0ncBRsM) describing how to launch the QIIME 2 Galaxy Docker image (on Windows!).
+Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-now-available/19340) of [QIIME 2](https://qiime2.org/) (see releases below), this [Docker image](https://quay.io/repository/qiime2/q2galaxy) is automatically updated as QIIME 2 is updated. It contains the full set of QIIME 2 actions as Galaxy tools, and is maintained by the [QIIME 2 community](https://github.com/orgs/qiime2/people). QIIME 2 is a next-generation microbiome bioinformatics platform that is extensible, free, and open source. QIIME 2 has [extensive documentation](https://docs.qiime2.org/), an [online (and free) workshop](https://workshops.qiime2.org/microbiome-bioinformatics-qiime-2-free-online-work/), and a [support forum](https://forum.qiime2.org/). There is also a [video](https://youtu.be/pjVJ0ncBRsM) describing how to launch the QIIME 2 Galaxy Docker image (on Windows!).  Finally, this is an *Alpha* release. Please report any issues you notice on the [forum](https://forum.qiime2.org/).
 
 </div>
 
@@ -467,7 +506,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 12rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
 <div class="card-header">
 
 [RNA-Seq Data Analysis in Galaxy](https://doi.org/10.1007/978-1-0716-1307-8_20)
