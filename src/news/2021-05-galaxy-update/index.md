@@ -440,7 +440,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 [Monitoring of raw open data for SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/04/29/sars-cov-2-monitoring/)
 </div>
 
-By Simon Bray, Wolfgang Maier
+By Simon Bray, Wolfgang Maier, Beatriz Serrano-Solano and Björn Grüning
 
 UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrasctuture is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
 
@@ -452,7 +452,7 @@ UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data 
 <!-- Plants workshop report -->
 <div class="card border-info" style="min-width: 15%; max-width: 40%;">
 <div class="card-header">
-[Plant Transcriptomics Workshop: A Summary](https://galaxyproject.eu/posts/2021/04/30/plant-summary/)
+[Plant Transcriptomics Workshop: A Summary](https://galaxyproject.eu/posts/2021/05/03/plant-summary/)
 </div>
 
 By Mehmet Tekman, Beatriz Serrano-Solano
