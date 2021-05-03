@@ -15,6 +15,8 @@ tags: [ cofest, papercuts ]
 
 *Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
+**The May 2021 Papercuts CoFest will be held concurrently with the [Galaxy Training Network day](/src/events/2021-05-gtn/index.md)**, which like Papercuts is a CoFest featuring community calls throughout participating time zones. You are encouraged to participate in both.
+
 Want to improve Galaxy, and get involved with Galaxy? Please join us on May 20.
 
 **Goals**
