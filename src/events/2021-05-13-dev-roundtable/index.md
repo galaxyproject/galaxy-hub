@@ -1,5 +1,5 @@
 ---
-title: "Custimizeable welcome and introduction page for new Galaxy users"
+title: "Customizeable welcome and introduction page for new Galaxy users"
 date: '2021-05-13'
 days: 1
 tease: "Giving new users some obvious guidance when they first arrive."
