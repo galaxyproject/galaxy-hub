@@ -248,7 +248,7 @@ The workshop will focus on theoretical and practical aspects of using next gener
 
 The next roundtable meetups will be:
 
-**[May 13: Custimizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
+**[May 13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
 
 **May 27: TBD**
 
