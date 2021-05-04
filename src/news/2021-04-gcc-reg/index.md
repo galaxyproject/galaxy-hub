@@ -21,7 +21,7 @@ Registration rates depend on where you are in your career, and where you are in 
 
 If you are a student or researcher based in a [low, lower-middle, or upper-middle income country](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) as defined by the World Bank, then you are eligible for these rates:
 
-| Dates | Event | Career Stage | Early (by May 24) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 1) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €3.25 | €6.50 |
 | | | *Academic* | €6.50 | €13.00 |
@@ -46,7 +46,7 @@ To receive these rates please contact [VIB Conferences](mailto:conferences@vib.b
 
 ## Participants Based in High Income Countries and In Industry
 
-| Dates | Event | Career Stage | Early (by May 24) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 1) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €15.00 | €30.00 |
 | | | *Academic* | €25.00 | €40.00 |
