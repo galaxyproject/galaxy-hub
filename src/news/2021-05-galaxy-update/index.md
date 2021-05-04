@@ -1,7 +1,7 @@
 ---
 title: 'May 2021 Galactic News'
-tease: "GCC2021 Abstracts and Registration are open, plus lots more."
-date: ""
+tease: "GCC2021 Abstracts and Fellowship Applications due 7 May, plus lots more."
+date: "2021-05-04"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -191,7 +191,7 @@ Recordings of the two earlier webinars in the series are now available:
 
 **20 May, Online, Global**
 
-Please join us for the [8th Papercuts CoFest day](/src/events/2021-05-papercuts/index.md) and the [Galaxy Training Network CoFest day]((/src/events/2021-05-gtn/index.md) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [8th Papercuts CoFest day](/src/events/2021-05-papercuts/index.md) and the [Galaxy Training Network CoFest day](/src/events/2021-05-gtn/index.md) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
@@ -437,7 +437,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 By Simon Bray, Wolfgang Maier, Beatriz Serrano-Solano and Björn Grüning
 
-UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrasctuture is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
+UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrastructure is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
 
 <img class="card-img-bottom" src="covid-monitoring.png" alt="COVID-19 monitoring" />
 </div>
