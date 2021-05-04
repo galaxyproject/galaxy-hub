@@ -28,9 +28,6 @@ As always, thanks for using Galaxy,
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
-
-
-
 ---
 
 # Featured news
