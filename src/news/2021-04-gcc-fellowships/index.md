@@ -7,6 +7,13 @@ date: "2021-04-14"
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
+<p class="lead">
+
+**Note: The fellowship application deadline has been extended.  See [the announcement](/src/news/2021-05-gcc-extended/index.md) for the new date.**
+
+</p>
+
+
 **[2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
 **[Registration](/src/news/2021-04-gcc-reg/index.md) and [abstract submission](/src/news/2021-04-gcc-abstract/index.md) are now open.**

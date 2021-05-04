@@ -7,6 +7,12 @@ date: "2021-04-14"
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
+<p class="lead">
+
+**Note: The GCC2021 abstract submission deadlines have been extended.  See [the announcement](/src/news/2021-05-gcc-extended/index.md) for the new dates.**
+
+</p>
+
 **Abstract submission is now open for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition).  GCC2021 events will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
 
 GCC2021 features a 3 day conference, 6-8 July, with talks, Q&A, posters, demos, bird-of-a-feather, and plenty of networking networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.

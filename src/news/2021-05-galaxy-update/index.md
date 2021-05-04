@@ -1,21 +1,17 @@
 ---
 title: 'May 2021 Galactic News'
-tease: "GCC2021 Abstracts and Fellowship Applications due 7 May, plus lots more."
-date: ""
+tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more."
+date: "2021-05-04"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-<div class="lead">
-<p>Hello all,</p>
+Hello all,
 
-<p><strong>Hey! Pay attention!  <em>The abstract submission deadline for the 2021 Galaxy Community Conference is this Friday. The deadline for fellowship applications is also this Friday.</em></strong></p>
-
-</div>
+Welcome to May 2021 edition of Galaxy News.  The big news is that **[several deadlines for the 2021 Galaxy Community Conference](#community-news) have been extended, and the [deadline for submitting James Taylor videos](#featured-news) has been extended to this Friday.**
 
 And there are other upcoming deadlines too:
 
-* The **[deadline for submitting James Taylor videos](#featured-news) has been extended to this Friday**.
 * **[ISMB/ECCB and BOSC 2021 abstracts](#event-news) are due this Thursday.**
 * **Apply for the [Galaxy Australia Variant Calling Workshops](#event-news) by May 12.**
 
@@ -83,9 +79,9 @@ Thank you all in advance and please feel free to invite other friends of James t
 GCC2021 will start with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week. This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 
-__Registrations due June 25__ 
+__Registration closes June 25__ 
 
-Registering before __May 24__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference. The CoFest is free.
+Registering before __June 1__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). The CoFest is free.
 
 **And [GCC2021 is looking for sponsors](http://bit.ly/gcc2021_prospectus_v1) too!**
 
@@ -93,19 +89,36 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 
 
 <!-- GCC Abstracts submission & Fellowships -->
-<div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
+<div class="card border-info" style="min-width: 40%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
-[GCC2021 Fellowships & Abstracts submission](https://www.vibconferences.be/events/gcc2021-virtual-edition)
+[GCC2021 Fellowships & Abstract Submission Deadlines Extended](/src/news/2021-05-gcc-extended/index.md)
 
 </div>
 
-__May 7__ 
+Several deadlines for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) have been extended. See below.
 
-- __Fellowships__: The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in lower, lower-middle and upper-middle income countries who will benefit from attending GCC2021, and for whom the cost of registration is a barrier. It will cover the full registration for any GCC2021 events. [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform).
+GCC2021 talk and poster/demo presentations will be selected from abstract submissions. We welcome submissions that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
-- __Abstracts submission__: GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers using Galaxy, and all over the world. __Posters and demos__ will be live (sometimes in both hemispheres), and __talks__ will be prerecorded. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition) by May 7!
+**Talk Abstracts: 17 May**
+
+Talks can be either long (15-20 minutes) or lightning (5-7 minutes). **Talks** will be pre-recorded, with live Q&A. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+
+**Poster/Demo Abstracts: 14 June**
+
+(However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+
+**GCC2021 Community Fellowships: 17 May**
+
+The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/src/news/2021-04-gcc-reg/index.md) is a barrier.
+
+Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May 17.
+
+**Early Registration: 1 June**
+
+Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/index.md).
+
 </div>
 
 
