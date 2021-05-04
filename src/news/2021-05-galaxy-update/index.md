@@ -115,11 +115,11 @@ __May 7__
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header">
 
-[Open Galaxy Positions](/src/careers/index,md)
+[Open Galaxy Positions](/src/careers/index.md)
 
 </div>
 
-There are two new positions in the [Galaxy Career Center](/src/careers/index,md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are two new positions in the [Galaxy Career Center](/src/careers/index.md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
