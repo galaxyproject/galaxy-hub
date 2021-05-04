@@ -7,11 +7,9 @@ date: "2021-05-04"
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
-We are pleased to announce that several deadlines for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) have been extended.
+We are pleased to announce that several deadlines for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) have been extended.  See below.
 
 GCC2021 Talks and poster/demo presentations will be selected from abstract submissions. We welcome submissions that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
-
-The new deadlines are
 
 **Talk Abstracts: 17 May**
 
