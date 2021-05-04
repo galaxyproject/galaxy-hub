@@ -35,7 +35,7 @@ So, as you can see, we are trying … we’ll be keeping you in the loop. Just n
 
 Please share your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
 
-Here is what we will need you to do **by April 30**:
+Here is what we will need you to do **by May 7**:
 
 1. Think of your favorite story/interaction/event involving James.
 1. Pick a nice location and record the video!
