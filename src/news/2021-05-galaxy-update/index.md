@@ -1,7 +1,7 @@
 ---
 title: 'May 2021 Galactic News'
 tease: "GCC2021 Abstracts and Fellowship Applications due 7 May, plus lots more."
-date: "2021-05-04"
+date: ""
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
