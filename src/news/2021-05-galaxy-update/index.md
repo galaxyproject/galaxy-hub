@@ -8,7 +8,7 @@ date: "2021-05-04"
 
 Hello all,
 
-Welcome to May 2021 edition of Galaxy News.  The big news is that **[several deadlines for the 2021 Galaxy Community Conference](#community-news) have been extended, and the [deadline for submitting James Taylor videos](#featured-news) has been extended to this Friday.**
+Welcome to the May 2021 edition of Galaxy News.  The big news is that **[several deadlines for the 2021 Galaxy Community Conference](#community-news) have been extended, and the [deadline for submitting James Taylor videos](#featured-news) has been extended to this Friday.**
 
 And there are other upcoming deadlines too:
 
