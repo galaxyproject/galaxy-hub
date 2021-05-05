@@ -424,10 +424,8 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* [March 2021 Australian BioCommons Newsletter](https://mailchi.mp/0ff74a85c2a3/ausbiocommons-mar-2021-update) features several stories on Galaxy Australia.
 * The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
-* Galaxy Australia is [hiring](http://jobs.unimelb.edu.au/caw/en/job/904562/academic-specialist-bioinformatician).  **Apply by 19 Apr.**
 
 </div>
 
