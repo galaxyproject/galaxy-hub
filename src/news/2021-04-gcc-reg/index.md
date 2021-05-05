@@ -68,6 +68,6 @@ To receive these rates please contact [VIB Conferences](mailto:conferences@vib.b
 </div>
 
 
-# Abstract Submission Closes 7 May
+# Abstract Submission Closes ~~7~~ 17 May
 
 Abstract submission is also open.  Please [see the announcement](/src/news/2021-04-gcc-abstracts/index.md) for information.

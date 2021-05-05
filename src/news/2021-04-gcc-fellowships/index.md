@@ -1,6 +1,6 @@
 ---
 title: "GCC2021 Conference Fellowships"
-tease: "Apply by May 7"
+tease: "Apply by May 17"
 external_url: ""
 date: "2021-04-14"
 ---
@@ -9,7 +9,7 @@ date: "2021-04-14"
 
 <p class="lead">
 
-**Note: The fellowship application deadline has been extended.  See [the announcement](/src/news/2021-05-gcc-extended/index.md) for the new date.**
+**Note: The fellowship application deadline has been extended.  See [the announcement](/src/news/2021-05-gcc-extended/index.md).**
 
 </p>
 
@@ -26,4 +26,4 @@ But is only an excellent opportunity if you can participate.  Events will either
 
 The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/src/news/2021-04-gcc-reg/index.md) is a barrier.
 
-Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May 7.
+Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May ~~7~~ 17.
