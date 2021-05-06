@@ -5,6 +5,8 @@ external_url: ""
 date: "2021-04-14"
 ---
 
+<small>Updated May 6th 2021</small>
+
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
 **[2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition)  will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
@@ -16,6 +18,10 @@ GCC2021 features a 3 day conference, 6-8 July, with talks, Q&A, posters, demos, 
 The move to virtual has allowed the conference to slash registration rates to a fraction of what an in-person event would cost.  The virtual format also makes the conference globally accessible.
 
 Registration rates depend on where you are in your career, and where you are in the world.
+
+## Fellowships
+
+If you are based in a developing economy, then please consider [applying for a GCC2021 Conference Fellowship](/src/news/2021-04-gcc-fellowships/index.md).  If you are a student or post-doc, anywhere in the world, please consider applying for a [GCC2021 James Taylor Conference Fellowship](/src/news/2021-05-gcc-jxtx/index.md).
 
 ## Participants Based in Low, Lower-Middle, and Upper-Middle Income Countries
 
@@ -32,8 +38,6 @@ If you are a student or researcher based in a [low, lower-middle, or upper-middl
 | **9-10 July** | **CoFest** | *All* | Free | Free |
 
 To receive these rates please contact [VIB Conferences](mailto:conferences@vib.be)  to obtain a discount code you can use when you register.
-
-*In addition, please also consider [applying for a GCC2021 Conference Fellowship](/src/news/2021-04-gcc-fellowships/index.md).*
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
