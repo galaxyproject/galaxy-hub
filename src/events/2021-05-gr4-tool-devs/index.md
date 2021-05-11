@@ -15,7 +15,7 @@ links:
 ---
 
 * **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**
-* **Zoom Link**
+* **[Zoom Link](https://zoom.us/j/94900373440?pwd=UmNWTjdPU3ZDUTdZcWM1YXIvQVVOZz09)**
 
 This webinar will highlight Galaxy resources for **tool developers**.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 
@@ -31,4 +31,4 @@ This webinar will highlight
 
 ## Please Register
 
-Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeFkWEiUrJtB47smJGiVGdYZArfqHR0X6HlvLc1m7IMssdVLw/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
+Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeFkWEiUrJtB47smJGiVGdYZArfqHR0X6HlvLc1m7IMssdVLw/viewform)** in attending. We will send you a reminder and the link prior to the webinar.
