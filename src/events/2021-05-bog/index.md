@@ -14,7 +14,11 @@ image: "/src/images/logos/CSHLLogo.jpg"
 
 Two Galaxy PIs will present large-scale Galaxy efforts during poster sessions at the [2021 Biology of Genomes](https://meetings.cshl.edu/abstracts.aspx?meet=GENOME&year=21) conference:
 
-| Date | Time | Topic | Presenter |
-| --- | --- | --- | --- | 
-| | | Genome assembly on global scale—Democratizing VGP workflows | Anton Nekrutenko |
-| | | Streamlining accessibility and computability of large-scale genomic datasets with the NHGRI genome data science Analysis, Visualization, and Informatics Lab-Space (ANVIL) | Michael Schatz |
+* **[Poster 242: Genome assembly on global scale—Democratizing VGP workflows](https://depot.galaxyproject.org/hub/attachments/events/2021-05-bog/vgp-poster.pdf), Anton Nekrutenko**
+* **Poster 290: Streamlining accessibility and computability of large-scale genomic datasets with the NHGRI genome data science Analysis, Visualization, and Informatics Lab-Space (ANVIL), Michael Schatz**
+
+Posters are presented on 3 days:
+
+* Tuesday 1-2
+* Wednesday 1-2
+* Friday 12:30-2
