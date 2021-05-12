@@ -12,10 +12,18 @@ contact: "Dan Blankenberg, Anthony Bretaudeau, Petr Novak"
 tags: [ webinar ]
 gtn: false
 links:
+- text: "Video"
+  url: "https://youtu.be/MdQyltMAocg"
+- text: "Ecosystem slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-ecosystem.pdf "
+- text: "Docker slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf "
+- text: "Server slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf "
 ---
 
 * **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**
-* **[Zoom Link](https://zoom.us/j/94900373440?pwd=UmNWTjdPU3ZDUTdZcWM1YXIvQVVOZz09)**
+* **[Recording](https://youtu.be/MdQyltMAocg)**
 
 This webinar will highlight Galaxy resources for **tool developers**.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 
