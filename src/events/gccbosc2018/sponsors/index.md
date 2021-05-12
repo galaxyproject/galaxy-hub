@@ -22,7 +22,7 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Bronze Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt-"PeerJ, the award-winning biological, medical and environmental sciences journal" width="160" />](https://peerj.com/)
+[<img src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="160" />](https://peerj.com/)
 
 # CollaborationFest Sponsors
 
@@ -32,22 +32,22 @@ Is your organization interested in playing a prominent role in the first joint g
 
 ## Giga Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt-"Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt="Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
 
 # Other Sponsors
 
 <table>
   <tr style="text-align: center">
     <td>
-      [<img src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt-"Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
+      [<img src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
     </td>
     <td style="width: 5%"> </td>
     <td>
-      [<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt-"eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
+      [<img src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
     </td>
     <td style="width: 8%"> </td>
     <td>
-      [<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt-"International Society for Biocuration" width="200" />](https://www.biocuration.org/)
+      [<img src="/src/events/gccbosc2018/sponsors/isb-logo-wide.jpg" alt="International Society for Biocuration" width="200" />](https://www.biocuration.org/)
     </td>
   </tr>
   <tr style="text-align: center">
@@ -68,11 +68,11 @@ Is your organization interested in playing a prominent role in the first joint g
   </tr>
   <tr style="text-align: center">
     <td>
-      [<img src="/src/images/logos/jetstream-logo-332.png" alt-"NSF Jetstream" width="200" />](https://jetstream-cloud.org/)
+      [<img src="/src/images/logos/jetstream-logo-332.png" alt="NSF Jetstream" width="200" />](https://jetstream-cloud.org/)
     </td>
     <td style="width: 5%"> </td>
     <td>
-      [<img src="/src/images/logos/iscb_logo.png" alt-"ISCB" width="200" />](https://www.iscb.org/)
+      [<img src="/src/images/logos/iscb_logo.png" alt="ISCB" width="200" />](https://www.iscb.org/)
     </td>
     <td style="width: 8%"> </td>
     <td>

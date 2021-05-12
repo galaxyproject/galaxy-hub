@@ -37,7 +37,7 @@ Cutting across all Working Groups, *[Committers Groups](/src/community/committer
 
 # Proposed Galaxy governance and planning structure
 
-![Galaxy Community Governance Model](/src/community/governance/governance.svg)
+![Galaxy Community Governance Model](./governance.svg)
 
 **Proposed governance workflow:**
 

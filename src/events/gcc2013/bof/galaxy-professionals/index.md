@@ -1,9 +1,8 @@
 ---
 title: Galaxy Professionals
 ---
+
 <slot name="/events/gcc2013/header" />
-
-
 
 <slot name="/events/gcc2013/linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
