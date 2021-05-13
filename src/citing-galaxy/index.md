@@ -84,7 +84,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ### Training
 
-* [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate,  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Torsten Houwaart, Pratik Jagtap, [Delphine Lariviere](/src/people/delphine-lariviere/index.md), Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/src/people/james-taylor/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). **[Community-Driven Data Analysis Training for Biology](https://doi.org/10.1016/j.cels.2018.05.012)**, *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
+* Serrano-Solano, B., Föll, M. C., Gallardo-Alba, C., Erxleben, A., Rasche, H., Hiltemann, S., Fahrner, M., Dunning, M. J., Schulz, M. H., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. A. (2021). **[Fostering accessible online education using Galaxy as an e-learning platform](https://doi.org/10.1371/journal.pcbi.1008923)**. *PLOS Computational Biology*, 17(5), e1008923. doi: 10.1371/journal.pcbi.1008923
 
 ## Galaxy Publication Library
 
