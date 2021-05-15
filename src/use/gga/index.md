@@ -24,6 +24,7 @@ quotas:
   - "Server: Unregistered users' data will only be accessible during one browser session, using a cookie to identify your data. This cookie is not used for any other purposes (e.g. tracking or analytics.) If UseGalaxy.eu service is not accessed for 90 days, those datasets will be permanently deleted."
 citations:
 pub_libraries:
+- "GGA"
 sponsors:
   - "Community project.  See [GitHub](https://github.com/galaxy-genome-annotation) for specific components."
   - "The server is part of the European Galaxy server."
