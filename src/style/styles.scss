@@ -216,6 +216,19 @@ card-img-top {
     font-weight: 500;
 }
 
+.video-variable {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video-variable iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* 
    Button overrides; 
 

@@ -8,6 +8,15 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
+<div class="video-variable">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oGOF3r3SmDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p class="h1 text-center"> Happy Birthday James. </p>
+
+
+---
+
 <br />
 
 [<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 15rem" />](/src/jxtx/james.jpg)
