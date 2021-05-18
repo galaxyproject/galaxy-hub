@@ -8,5 +8,5 @@ location: "San Martino Hospital, Genoa, Italy"
 image: "/src/careers/2021-05-san-martino/logo_smartino.png"
 location_url: "https://www.ospedalesanmartino.it/"
 external_url: "https://www.ospedalesanmartino.it/bandi-e-gare/incarichi-professionali/publiccompetition/1457895-21lp_bioinfo_proteo.html"
-contact: ""
+contact: "Paolo Romano"
 ---
