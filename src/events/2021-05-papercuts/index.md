@@ -78,13 +78,13 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 * **Call 1: Oceania, Australia, Asia**
   * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210520T14&p1=152&am=30).
-  * [Zoom Link]()
+  * [Zoom Link](https://zoom.us/j/92485151380?pwd=R0g1Q3VWVzE3Q1BMUlBFZlh1QlZDUT09)
 * **Call 2: Middle East, Europe, Africa**
   * 09:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210520T09&p1=980&am=30).
   * [Zoom Link](https://us02web.zoom.us/j/87450464856?pwd=NU5lbzFDUDlEaktkUEpsQVc2dXprdz09)
 * **Call 3: Americas**
   * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=11%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210520T11&p1=3705&am=30).
-  * [Zoom Link]()
+  * [Zoom Link](https://zoom.us/j/93796569437?pwd=cUN2eGdkL2o1a2JxMW5XV3RDRU0wUT09)
 
 ## After the event
 
