@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-04-14"
 ---
 
-<small>Updated May 6th 2021</small>
+<small>Updated May 19th 2021</small>
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
@@ -18,6 +18,8 @@ GCC2021 features a 3 day conference, 6-8 July, with talks, Q&A, posters, demos, 
 The move to virtual has allowed the conference to slash registration rates to a fraction of what an in-person event would cost.  The virtual format also makes the conference globally accessible.
 
 Registration rates depend on where you are in your career, and where you are in the world.
+
+**Please note: VAT is not included in these prices.  VAT will be added at registration time.**
 
 ## Fellowships
 
