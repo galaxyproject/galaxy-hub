@@ -83,7 +83,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
   * 09:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210520T09&p1=980&am=30).
   * [Zoom Link](https://us02web.zoom.us/j/87450464856?pwd=NU5lbzFDUDlEaktkUEpsQVc2dXprdz09)
 * **Call 3: Americas**
-  * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=11%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210520T11&p1=3705&am=30).
+  * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210520T12&p1=3705&am=30).
   * [Zoom Link](https://zoom.us/j/93796569437?pwd=cUN2eGdkL2o1a2JxMW5XV3RDRU0wUT09)
 
 ## After the event
