@@ -105,6 +105,57 @@ There are two new positions in the [Galaxy Career Center](/src/careers/index.md)
 </div>
 
 
+# GCC2021 Sponsorships!
+
+We are pleased to announce the [first three sponsors for GCC2021](https://gcc2021.sched.com/directory/sponsors): F1000Research (Silver), GigaScience Press (Bronze), and KWS SAAT (Bronze).  Sponsors are potential research partners, and their sponsorships are key to making GCC2021 accessible and affordable.
+
+<div class="card-deck">
+
+<!-- F1000Research -->
+<div class="card border-info"  style="min-width: 30%; max-width: 24rem;">
+<img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
+<div class="card-header">
+
+[F1000Research](https://gcc2021.sched.com/sponsor/f1000research1)
+
+</div>
+
+
+</div>
+
+
+<!-- GigaScience Press -->
+<div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
+<img class="card-img-top" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" />
+<div class="card-header">
+
+[GigaScience Press](https://gcc2021.sched.com/sponsor/gigascience3)
+
+</div>
+
+
+</div>
+
+
+<!-- KWS SAAT -->
+<div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
+<img class="card-img-top" src="/src/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
+<div class="card-header">
+
+[KWS SAAT](https://gcc2021.sched.com/sponsor/kws1)
+
+</div>
+
+**Plant tomorrow’s ideas.**
+
+[We](https://kws.com/) strive for new, fresh ideas and pioneering perspectives. We foster entrepreneurial spirit to set standards in our market and to create sustainable solutions for today’s and future challenges of our planet. We use Galaxy to support our research and breeding.
+
+</div>
+
+</div>
+
+If your organization wants to reach hundreds of researchers working in data-intensive science and help GCC2021 succeed then please take a look at the [sponsorship prospectus](http://bit.ly/gcc2021_prospectus_v1) and the [list of sponsorship packages](http://bit.ly/gcc2021_packages).
+
 
 # Event News
 
@@ -194,7 +245,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 
-<!-- Protologger -->
+<!-- VVV! -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 <img class="card-img-top" src="/src/use/vvv/vvv.png" alt="Viral Variant Visualizer (VVV)" />
 <div class="card-header">
