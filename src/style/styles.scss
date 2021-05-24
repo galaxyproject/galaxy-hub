@@ -216,6 +216,8 @@ card-img-top {
     font-weight: 500;
 }
 
+
+/* Video: as wide as container. */
 .video-variable {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -227,6 +229,12 @@ card-img-top {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Bold in Lead is hard to notice. Fix that. */
+
+.lead strong {
+    font-weight: 600;
 }
 
 /* 
