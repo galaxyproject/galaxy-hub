@@ -29,45 +29,68 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 <div class="card-deck lead">
 
-<!-- GCC2021 Registration -->
-<div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+
+
+<!-- GCC Starts Soon -->
+<div class="card lead border-info" style="min-width: 65%; max-width: 100%;">
 <div class="card-header">
 
-[GCC2021 Registration](https://www.vibconferences.be/events/gcc2021)
+[GCC2021 Dates: Training Starts June 28](https://www.vibconferences.be/events/gcc2021)
 
 </div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is almost upon us.  GCC2021 will be held 28 June through July 10.    Here are the dates you need to know over the next 5 weeks:**
 
-GCC2021 will start with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week. This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
+**June 1: Early registration closes**
 
+[Register by __June 1__ and save 50% off of the full rates](/src/news/2021-04-gcc-reg/index.md). Registration [discounts are available to researchers from low and lower-middle income countries](/src/news/2021-04-gcc-reg/index.md#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The CoFest is free.*
 
-__Registration closes June 25__ 
+**June 14: Poster/Demo Abstracts Due**
 
-Registering before __June 1__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). The CoFest is free.
-
-**And [GCC2021 is looking for sponsors](http://bit.ly/gcc2021_prospectus_v1) too!**
-
-</div>
-
-
-<!-- GCC Poster Abstracts submissions -->
-<div class="card border-info" style="min-width: 40%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">
-
-[GCC2021 Poster / Demo Abstracts Deadline is June 14](/src/news/2021-05-gcc-extended/index.md)
-
-</div>
-
-The poster / demo deadline  for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) is June 14.
-
-GCC2021 poster/demo presentations will be selected from abstract submissions. We welcome submissions that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
+We welcome submissions that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
 Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
 
+
+**June 25: All Registration Closes**
+
+So, [register](https://www.vibconferences.be/events/gcc2021) by then, ok?
+
+**June 28: Training Week Starts**
+
+GCC2021 [Training Week](https://galaxyproject.org/events/gcc2021/training) runs from June 28 through July 2. [Galaxy for Scientists](https://galaxyproject.org/events/gcc2021/training/science-track), [Galaxy for Developers](https://galaxyproject.org/events/gcc2021/training/dev-track), and [Galaxy for Admins](https://galaxyproject.org/events/gcc2021/training/admin-track) tracks are offered (and you can swap back forth between the Scientists and Developers tracks).  Lectures will be prerecorded, with live help available on chat for the week. This enables participants to learn at their own pace, avoids scheduling conflicts that are inherent with multi-track training, and enables those with low bandwidth internet connections to fully participate.  Training Week requires a separate registration from the meeting.
+
+**July 7: Three Day Conference Starts**
+
+Featuring accepted full and lightning talks, poster/demo presentations, sponsors, birds-of-a-feather gatherings, and plenty of time for networking, the GCC2021 meeting is a three day event that brings the Galaxy Community together to share our work and address common challenges in data intensive science.   I
+
+The meeting is [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md) no matter what time zone or country you live in.
+
+**July 9: Two Day CollaborationFest Starts**
+
+GCC2021 wraps up with [a two-day collaborative work event](https://sched.co/iLKn) that aims to broaden the Galaxy contributor community, and to extend and improve all aspects of the Galaxy ecosystem.  The CoFest includes training, documentation, best practice workflows, community infrastructure, tools, and of course code.
+
 </div>
+
+
+
+<!-- GCC2021 Confirmed Speakers -->
+<div class="card lead border-info" style="min-width: 30%; max-width: 100%;">
+<div class="card-header">
+
+[Confirmed Speakers and Topics](https://gcc2021.sched.com/)
+
+</div>
+
+We have a [growing list of confirmed speakers and topics](https://gcc2021.sched.com/) for GCC2021 (and we expect to have them placed in the schedule by the end of this week).  Topics are wide-ranging, and reflect the breadth and depth of the Galaxy community and ecosystem.
+
+Some highlights from the speaker list so far:
+
+*
+
+</div>
+
 
 </div>
 
@@ -75,13 +98,15 @@ Poster/Demos will be presented live at Remo.co tables and will not be limited to
 
 <div class="card-deck">
 
+
 <!-- James -->
-<div class="card border-info" style="min-width: 70%; max-width: 100%">
-<img class="card-img-top" src="/src/jxtx/jxtx-stripe.jpg" alt="James Taylor" />
+<div class="card lead border-info" style="min-width: 60%; max-width: 100%">
+<div class="video-variable">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/oGOF3r3SmDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <div class="card-header">James Taylor's Birthday Video</div>
 
-To help commemorate [James Taylor's](/src/jxtx/index.md) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video:
-
+To help commemorate [James Taylor's](/src/jxtx/index.md) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
 
 Happy birthday James. We miss you.
 
@@ -98,7 +123,7 @@ Happy birthday James. We miss you.
 
 </div>
 
-There are two new positions in the [Galaxy Career Center](/src/careers/index.md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (and one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -154,12 +179,12 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 
 </div>
 
-If your organization wants to reach hundreds of researchers working in data-intensive science and help GCC2021 succeed then please take a look at the [sponsorship prospectus](http://bit.ly/gcc2021_prospectus_v1) and the [list of sponsorship packages](http://bit.ly/gcc2021_packages).
+**If your organization wants to reach hundreds of researchers working in data-intensive science and help GCC2021 succeed then please take a look at the [sponsorship prospectus](http://bit.ly/gcc2021_prospectus_v1) and the [list of sponsorship packages](http://bit.ly/gcc2021_packages).**
 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+There is a lot going onin the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
 
 <div class="card-deck">
 
