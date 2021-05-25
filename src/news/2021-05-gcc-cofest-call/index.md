@@ -15,6 +15,8 @@ CoFest embraces all types of contribution including documentation, testing, tool
 
 Have an idea, or wondering what others have already proposed? Clusters can be added and expanded before, during and after the event (but sooner is better).
 
+We know a cofest can be a bit intimidating for newcomers so this year we created a project specially suited for new people. If this is your first time at the CoFest and you are not sure about what you can work on, register your name under the CoFest Tour (aka CoFest 101) project in the proposals doc and we will make sure you get the most out of it.
+
 Interested?  We would love to have you.
 
 Ignacio Eguinoa, GCC2021 CoFest Chair
