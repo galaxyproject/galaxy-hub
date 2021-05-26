@@ -6,7 +6,7 @@ tease: ""
 continent: EU
 location: "Belgrade Bioinformatics Conference 2021 (BELBI), Online, Belgrade, Serbia"
 location_url: "https://belbi.bg.ac.rs/"
-external_url: "https://belbi.bg.ac.rs/?page_id=1261"
+external_url: "https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html"
 gtn: true
 contact: "Gallantries"
 image: 
