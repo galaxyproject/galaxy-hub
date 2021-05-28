@@ -40,10 +40,10 @@ Here is what we will need you to do **by April 30**:
 1. Think of your favorite story/interaction/event involving James.
 1. Pick a nice location and record the video!
 1. The video should be:
-  * in a high-resolution
-  * without background noise
-  * in a horizontal orientation (not vertical!)
-  * ≲ 30 seconds in length
+    * in a high-resolution
+    * without background noise
+    * in a horizontal orientation (not vertical!)
+    * ≲ 30 seconds in length
 1. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 1. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 
