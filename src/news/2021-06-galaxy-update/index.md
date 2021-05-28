@@ -123,7 +123,7 @@ Happy birthday James. We miss you.
 
 </div>
 
-There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (and one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -137,7 +137,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 <div class="card-deck">
 
 <!-- F1000Research -->
-<div class="card border-info"  style="min-width: 30%; max-width: 24rem;">
+<div class="card border-info"  style="min-width: 35%; max-width: 26rem;">
 <img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
 <div class="card-header">
 
@@ -145,20 +145,29 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 
 </div>
 
+**Publish your research fast and openly in [F1000Research's Galaxy Gateway](https://f1000research.com/gateways/galaxy), an open platform dedicated to the Galaxy project.**
+
+*Maximise the impact of your research, publishing a range of outputs such as a new Galaxy workflow or an update to an existing method or software tool. [F1000Research](https://f1000research.com/) is an Open Research publishing platform for scientists, scholars and clinicians offering rapid publication of articles and other research outputs without editorial bias.*
 
 </div>
 
 
 <!-- GigaScience Press -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" />
 <div class="card-header">
 
 [GigaScience Press](https://gcc2021.sched.com/sponsor/gigascience3)
 
 </div>
 
+BGI's Open Access Publishing division **[GigaScience Press](http://gigasciencepress.com/)** is offering discounts to GCC2021 presenters in our two journals:
 
+* **[*GigaScience:*](https://gigasciencejournal.com/)** 15% APC discount for the [*GigaScience* Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
+* **[*GigaByte:*](https://gigabytejournal.com/)** Less-complex workflow driven work is eligible for a free-APC discount.
+
+We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/). 
+
+<img class="card-img-bottom" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" />
 </div>
 
 
@@ -191,7 +200,7 @@ There is a lot going onin the Galaxy, with [10 events this week alone](/src/even
 
 <!-- Webinars -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
+<img class="card-img-top" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" />
 <div class="card-header">
 
 [Webinars](/src/events/webinars/index.md)
@@ -207,20 +216,18 @@ Keep your eyes open for new webinars as they are scheduled.
 </div>
 
 
-<!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<!-- GAT CoFEST -->
+<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
+<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
 <div class="card-header">
 
-[June Papercuts](/src/events/2021-06-papercuts/index.md)
+[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
 
 </div>
 
-**17 June, Online, Global**
+**1-4 June, Online**
 
-Please join us for the [9th Papercuts CoFest day](/src/events/2021-05-papercuts/index.md) on June 17 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
-
-We will be on Gitter for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
+As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
 
 </div>
 
@@ -244,21 +251,25 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 </div>
 
-
-<!-- Galaxy NL -->
-<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<img class="card-img-top" src="/src/events/2021-06-papercuts/papercuts-cofest-prep.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
 <div class="card-header">
 
-[Galaxy-NL Meeting 2021](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit)
+[Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
 
 </div>
 
-**28 May, Online**
+**17 June, Online, Global**
 
-This year's [Galaxy Netherlands meeting](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit) will take place on 28 May, from 10:00-12:00.  Interested in meeting with the Dutch Galaxy community? Please [add your name and join the conversation](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit).
+The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
 
+If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
+
+<small> <sup>*</sup> And if you aren't participating, then <em>we urge you to reconsider your life choices!</em>  Participation is free but you need to register by June 25.</small>
 </div>
+
+
 
 </div>
 
@@ -322,7 +333,7 @@ video, new stuff
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
+* [New high memory servers for Galaxy Australia](https://www.biocommons.org.au/news/unimelb-server-galaxy-au)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -342,34 +353,40 @@ video, new stuff
 
 <div class="card-deck">
 
-<!-- Text-mining with the SimText toolset  -->
+<!-- Contributing to BioBlend as a developer  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
 
-[Text-mining with the SimText toolset](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/text-mining_simtext/tutorial.html)
+[Contributing to BioBlend as a developer](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-dev/tutorial.html)
 
 </div>
 
-By [Marie Gramm](https://training.galaxyproject.org/training-material/hall-of-fame/mgramm1/), [Dennis Lal group](https://training.galaxyproject.org/training-material/hall-of-fame/dlalgroup/) and [Daniel Blankenberg](https://training.galaxyproject.org/training-material/hall-of-fame/blankenberg/)
+By [Erik Schill](https://training.galaxyproject.org/training-material/hall-of-fame/rikeshi/) and [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/)
 
-This tutorial is based on a proof-of-concept example given in Gramm et al. 2020. It uses SimText, a toolset for literature research to collect text from PubMed for any given set of biomedical entities, extract associated terms, and analyze similarities among them and their key characteristics in an interactive tool.
+BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-dev/tutorial.html#Sloggett2013)) is a Python library to enable simple interaction with Galaxy via the command line or scripts. This tutorial covers the basics behind BioBlend and the Galaxy API from a developer perspective, and demonstrates how to implement a simple method in BioBlend.
 
-<img class="card-img-bottom" src="simtext_overview_tutorial.png" alt="Schematic presentation of the workflow" style="max-width: 90%"/>
+**This is the 200th tutorial in the Galaxy Training Network Library.**
+
+<img class="card-img-bottom" src="gtn-bioblend-slice.png" alt="BioBlend.objects" />
 
 </div>
 
-<!-- Plates Batches Barcodes  -->
+
+<!-- Curated -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
 
-[Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides)
+[Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html)
 
 </div>
 
-This [slide deck](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html) about single-cell RNA-Seq experiments is [now available as a video](https://training.galaxyproject.org/training-material/videos/watch.html?v=transcriptomics/tutorials/scrna-plates-batches-barcodes/slides).
+**¿Hablas español?: The first curated tutorial in Spanish!**
 
-<img class="card-img-bottom" src="wablanesgood.png" alt="Treatments and lanes"/>
+Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
 
+The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
+
+<img class="card-img-bottom" src="gtn-que-aspecto-slice.png" alt="¿Qué aspecto tiene Galaxy?" />
 </div>
 
 </div>
@@ -452,6 +469,19 @@ Sherafat, E., Force, J., & Măndoiu, I. I. (2020). *BMC Bioinformatics*, 21(18),
 
 </div>
 
+
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
+<div class="card-header">
+
+[A Systematic Evaluation of Semispecific Peptide Search Parameter Enables Identification of Previously Undescribed N-Terminal Peptides and Conserved Proteolytic Processing in Cancer Cell Lines](https://doi.org/10.3390/proteomes9020026)
+
+</div>
+
+Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). *Proteomes*, 9(2), 26. https://doi.org/10.3390/proteomes9020026
+
+
+</div>
+
 </div>
 
 
@@ -467,11 +497,25 @@ Sherafat, E., Force, J., & Măndoiu, I. I. (2020). *BMC Bioinformatics*, 21(18),
 
 </div>
 
-By Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, Enis Afgan
-
 The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
 
+See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
+
 <img class="card-img-bottom" src="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png" alt="Galaxy Helm" />
+</div>
+
+
+<!-- Nebulizer -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<div class="card-header">
+
+[Nebulizer 0.7.0](https://pypi.org/project/nebulizer/0.7.0/)
+
+</div>
+
+[Nebulizer](https://nebulizer.readthedocs.io/en/latest/) is a Python utility which provides a high-level interactive command-line interface to remotely administer Galaxy servers.  It is built on top of the [BioBlend library](https://bioblend.readthedocs.io/en/stable/index.html) and offers an interface and range of functionality that complements the lower-level interfaces offered by [Ephemeris](https://ephemeris.readthedocs.io/en/latest/index.html) and [Parsec](https://parsec.readthedocs.io/en/latest/index.html).
+
+<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 </div>
