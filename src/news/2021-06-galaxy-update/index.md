@@ -42,20 +42,26 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is almost upon us.  GCC2021 will be held 28 June through July 10.    Here are the dates you need to know over the next 5 weeks:**
 
-**June 1: Early registration closes**
+**June ~~1~~ 8: Early registration closes**
 
-[Register by __June 1__ and save 50% off of the full rates](/src/news/2021-04-gcc-reg/index.md). Registration [discounts are available to researchers from low and lower-middle income countries](/src/news/2021-04-gcc-reg/index.md#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The CoFest is free.*
+[Register by __June 8__ and save 50% off of the full rates](/src/news/2021-05-gcc-reg/index.md). Registration [discounts are available to researchers from low and lower-middle income countries](/src/news/2021-05-gcc-reg/index.md#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The [CoFest](https://sched.co/iLKn) is free.*
 
 **June 14: Poster/Demo Abstracts Due**
 
-We welcome submissions that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
+We welcome [poster/demo submissions](/src/news/2021-05-gcc-posterdemo/index.md) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
 Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+
+
+**June 17: CoFest Prep Day**
+
+The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md) for CoFest participants to create plans for the [GCC2021 CoFest](https://sched.co/iLKn). The CoFest will loosely organized around *clusters* -- shared areas of interest. [Find, propose, or guide your cluster ahead of time](/src/news/2021-05-gcc-cofest-call/index.md), and at prep day.
 
 
 **June 25: All Registration Closes**
 
 So, [register](https://www.vibconferences.be/events/gcc2021) by then, ok?
+
 
 **June 28: Training Week Starts**
 
@@ -223,8 +229,7 @@ There is a lot going onin the Galaxy, with [10 events this week alone](/src/even
 
 
 <!-- Webinars -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" />
+<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <div class="card-header">
 
 [Webinars](/src/events/webinars/index.md)
@@ -237,11 +242,12 @@ The [*Galaxy Resources* webinar series]() wrapped up in May.  All webinars are a
 
 Keep your eyes open for new webinars as they are scheduled.
 
+<img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" />
 </div>
 
 
 <!-- GAT CoFEST -->
-<div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
+<div class="card border-info" style="min-width: 10rem; max-width: 100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
 <div class="card-header">
 
@@ -257,7 +263,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
@@ -276,7 +282,7 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 </div>
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 14rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 16rem; max-width:  24rem;;">
 <img class="card-img-top" src="/src/events/2021-06-papercuts/papercuts-cofest-prep.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
 <div class="card-header">
 

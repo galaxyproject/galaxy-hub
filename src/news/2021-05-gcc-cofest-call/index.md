@@ -2,7 +2,7 @@
 title: "Call for GCC2021 CollaborationFest Cluster Ideas"
 tease: "Join the Galaxy Contributor Community"
 external_url: ""
-date: ""
+date: "2021-05-29"
 ---
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 20rem" /></a>
@@ -17,7 +17,9 @@ Have an idea, or wondering what others have already proposed? Clusters can be ad
 
 We know a cofest can be a bit intimidating for newcomers so this year we created a project specially suited for new people. If this is your first time at the CoFest and you are not sure about what you can work on, register your name under the CoFest Tour (aka CoFest 101) project in the proposals doc and we will make sure you get the most out of it.
 
-Interested?  We would love to have you.
+**Interested?  Please add your ideas, register for the CoFest, and please join us on June 17, for the (completely optional) [GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md).**
+
+We would love to have you.
 
 Ignacio Eguinoa, GCC2021 CoFest Chair
 
