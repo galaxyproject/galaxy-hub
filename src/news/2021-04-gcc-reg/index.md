@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-04-14"
 ---
 
-<small>Updated May 19th 2021</small>
+<small>Updated May 29th 2021</small>
 
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
@@ -29,7 +29,7 @@ If you are based in a developing economy, then please consider [applying for a G
 
 If you are a student or researcher based in a [low, lower-middle, or upper-middle income country](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) as defined by the World Bank, then you are eligible for these rates:
 
-| Dates | Event | Career Stage | Early (by June 1) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 8) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €3.25 | €6.50 |
 | | | *Academic* | €6.50 | €13.00 |
@@ -52,7 +52,7 @@ To receive these rates please contact [VIB Conferences](mailto:conferences@vib.b
 
 ## Participants Based in High Income Countries and In Industry
 
-| Dates | Event | Career Stage | Early (by June 1) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 8) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €15.00 | €30.00 |
 | | | *Academic* | €25.00 | €40.00 |
