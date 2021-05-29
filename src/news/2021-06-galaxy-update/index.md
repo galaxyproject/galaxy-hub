@@ -27,7 +27,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 # Featured news
 
-<div class="card-deck lead">
+<div class="card-deck">
 
 <img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 
@@ -61,7 +61,7 @@ So, [register](https://www.vibconferences.be/events/gcc2021) by then, ok?
 
 GCC2021 [Training Week](https://galaxyproject.org/events/gcc2021/training) runs from June 28 through July 2. [Galaxy for Scientists](https://galaxyproject.org/events/gcc2021/training/science-track), [Galaxy for Developers](https://galaxyproject.org/events/gcc2021/training/dev-track), and [Galaxy for Admins](https://galaxyproject.org/events/gcc2021/training/admin-track) tracks are offered (and you can swap back forth between the Scientists and Developers tracks).  Lectures will be prerecorded, with live help available on chat for the week. This enables participants to learn at their own pace, avoids scheduling conflicts that are inherent with multi-track training, and enables those with low bandwidth internet connections to fully participate.  Training Week requires a separate registration from the meeting.
 
-**July 7: Three Day Conference Starts**
+**July 7: Three Day Meeting Starts**
 
 Featuring accepted full and lightning talks, poster/demo presentations, sponsors, birds-of-a-feather gatherings, and plenty of time for networking, the GCC2021 meeting is a three day event that brings the Galaxy Community together to share our work and address common challenges in data intensive science.   I
 
@@ -76,7 +76,7 @@ GCC2021 wraps up with [a two-day collaborative work event](https://sched.co/iLKn
 
 
 <!-- GCC2021 Confirmed Speakers -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 100%;">
+<div class="card border-info" style="min-width: 30%; max-width: 100%;">
 <div class="card-header">
 
 [Confirmed Speakers and Topics](https://gcc2021.sched.com/)
@@ -85,10 +85,34 @@ GCC2021 wraps up with [a two-day collaborative work event](https://sched.co/iLKn
 
 We have a [growing list of confirmed speakers and topics](https://gcc2021.sched.com/) for GCC2021 (and we expect to have them placed in the schedule by the end of this week).  Topics are wide-ranging, and reflect the breadth and depth of the Galaxy community and ecosystem.
 
-Some highlights from the speaker list so far:
+Some highlights from the confirmed presentations list so far:
 
-*
-
+* **Galaxy Training Network (GTN) Community Update**
+  * *Saskia Hiltemann*
+* **Introducing the Intergalactic Workflow Commission**
+  * *Marius van den Beek*
+* **Bridging Natural Language Processing and Biomedical Data Analysis**
+  * *Nancy Ide*
+* **Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed**
+  * *David López*
+* **Analysis of Microscopy Data in Galaxy**
+  * *Beatriz Serrano-Solano*
+* **Open Life Science: An Open Research mentoring and training program**
+  * *Muhammet Celik*
+* **Using the Galaxy (Australia) Database to Aid an Undergraduate Investigation of RNF43 Mutations as Biomarkers for ctDNA Surveillance of Colorectal Cancer**
+  * *Jordon Lima*
+* **Designing a comprehensive workflow for detection and functional annotation of lncRNA**
+  * *Bianca Pasat*
+* **MaxQuant and MSstats in Galaxy enable reproducible quantitative high-throughput proteomics for everyone**
+  * *Melanie Föll*
+* **Modernizing the Galaxy Backend - Typing and the API**
+  * *David López*
+* **Modernizing the Galaxy Backend - Data Model**
+  * *Sergey Golitsynskiy*
+* **Fostering Public Health Bioinformatics and Collaboration with GalaxyTrakr**
+  * *Justin Payne*
+* ...
+  
 </div>
 
 
