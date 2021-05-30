@@ -82,7 +82,7 @@ GCC2021 wraps up with [a two-day collaborative work event](https://sched.co/iLKn
 
 
 <!-- GCC2021 Confirmed Speakers -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-header">
 
 [Confirmed Speakers and Topics](https://gcc2021.sched.com/)
@@ -117,6 +117,16 @@ Some highlights from the confirmed presentations list so far:
   * *Sergey Golitsynskiy*
 * **Fostering Public Health Bioinformatics and Collaboration with GalaxyTrakr**
   * *Justin Payne*
+* **Updates from the Single-Cell Community**
+  * *Mehmet Tekman*
+* ****
+  * **
+* ****
+  * **
+* ****
+  * **
+* ****
+  * **
 * ...
   
 </div>
@@ -167,7 +177,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 <div class="card-deck">
 
 <!-- F1000Research -->
-<div class="card border-info"  style="min-width: 35%; max-width: 26rem;">
+<div class="card border-info"  style="min-width: 40%; max-width: 26rem;">
 <img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
 <div class="card-header">
 
@@ -229,7 +239,7 @@ There is a lot going onin the Galaxy, with [10 events this week alone](/src/even
 
 
 <!-- Webinars -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
 <div class="card-header">
 
 [Webinars](/src/events/webinars/index.md)
@@ -246,24 +256,24 @@ Keep your eyes open for new webinars as they are scheduled.
 </div>
 
 
-<!-- GAT CoFEST -->
-<div class="card border-info" style="min-width: 10rem; max-width: 100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
+<!-- OME -->
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-header">
 
-[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
+[Imaging in Galaxy](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/)
 
 </div>
 
-**1-4 June, Online**
+**11 June, Online**
 
-As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
+As part of the [2021 OME Community Meeeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
 
+<img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" />
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 10rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
@@ -281,8 +291,54 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 </div>
 
+
+<!-- Belbi 2021 -->
+<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
+<div class="card-header">
+
+[Galaxy Training @ BelBI 2021](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html)
+
+</div>
+
+Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
+
+<img class="card-img-bottom" src="/src/events/2021-06-belbi/belbi-2021-logo.png" alt="BelBi 2021" />
+</div>
+
+
+<!-- Traitement de données de séquences par Galaxy -->
+<div class="card border-info" style="min-width: 12rem; max-width:  14rem;">
+<div class="card-header">
+
+[Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
+
+</div>
+
+Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
+
+<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
+</div>
+
+
+
+<!-- GAT CoFEST -->
+<div class="card border-info" style="min-width: 12rem; max-width: 14rem;">
+<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
+<div class="card-header">
+
+[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
+
+</div>
+
+**1-4 June, Online**
+
+As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
+
+</div>
+
+
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 16rem; max-width:  24rem;;">
+<div class="card border-info" style="min-width: 25%; max-width:  24rem;;">
 <img class="card-img-top" src="/src/events/2021-06-papercuts/papercuts-cofest-prep.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
 <div class="card-header">
 
@@ -312,7 +368,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <!-- VVV! -->
-<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="/src/use/vvv/vvv.png" alt="Viral Variant Visualizer (VVV)" />
 <div class="card-header">
 
@@ -328,7 +384,7 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 
 
 <!-- SHAMAN -->
-<div class="card border-info"  style="min-width: 30%; max-width: 100%;">
+<div class="card border-info"  style="min-width: 16rem;; max-width: 100%;">
 <img class="card-img-top" src="/src/use/shaman/shaman-logo.png" alt="SHAMAN" />
 <div class="card-header">
 
@@ -344,21 +400,23 @@ SHAMAN is a shiny application for differential analysis of metagenomic data (16S
 
 
 <!-- IMAGING -->
-<div class="card border-info"  style="min-width: 20%; max-width: 100%;">
-<img class="card-img-top" src="/src/use/imaging/imaging-150.png" alt="Imaging" />
+<div class="card border-info"  style="min-width: 40%; max-width: 100%;">
+<div class="video-variable">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/K-Mxjd-hI_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <div class="card-header">
 
 [Imaging EU Server](/src/use/imaging/index.md)
 
 </div>
 
-video, new stuff
+The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of training materials and tools that you can assemble into workflows to perform image analysis.
 
 </div>
 
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
@@ -375,6 +433,19 @@ video, new stuff
 # Galactic Blog Activity
 
 <div class="card-deck">
+
+<!-- WR4 summary  -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<img class="card-img-top" src="/src/events/webinars/gr4-webinars.png" alt="Galaxy Resources Webinars" />
+<div class="card-header">
+
+[Galaxy Resources for ... Webinars Summary](https://galaxyproject.eu/posts/2021/05/28/webinar-series-gr4/)
+
+</div>
+
+The Galaxy ecosystem is very broad in scope and reaches many audiences, each one with different needs. To provide those different profiles with the resources available, four webinars have taken place during April and May for researchers, trainers & educators, tool developers and admins & infrastructure providers.  [You can watch them all now](https://galaxyproject.eu/posts/2021/05/28/webinar-series-gr4/).
+
+</div>
 
 </div>
 
