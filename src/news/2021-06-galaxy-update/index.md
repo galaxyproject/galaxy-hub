@@ -1,6 +1,6 @@
 ---
 title: 'June 2021 Galactic News'
-tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more."
+tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
 date: ""
 ---
 
@@ -8,20 +8,16 @@ date: ""
 
 Hello all,
 
-Welcome to the June 2021 edition of Galaxy News.
+Welcome to the June 2021 edition of Galaxy News.  GCC2021 is upon us, **[with deadlines and events starting this month](#featured-news)**.  It's not too late to register (register by June 8 and get 50% off) and to submit Poster/Demo abstracts.  Training week starts on June 28. We also started getting confirmations from speakers and are **[publishing confirmed presenters](#featured-news)** as we get them. We are also pleased to **[announce our first three sponsors for GCC2021: F1000Research, GigaScience Press and KWS-SAAT](#gcc2021-sponsorships)**.
 
-We also have
-* **[open positions](#community-news)**
-* **[webinars, CoFests, workshops, community meetups, and other events](#event-news)**,
-* news about **[public Galaxy platforms](#galaxy-platforms-news)**,
-* recent **[blog posts](#galactic-blog-activity)**,
-* **[training and doc updates](#doc-hub-and-training-updates)**,
-* recent **[open-access Galaxy-related publications](#publications)**, and
-* **[new releases](#releases).**
+In addition to GCC news, we also released the **[James Taylor birthday video](#community-news)**, and have several **[new open positions](#community-news)**, lots of **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
+recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**
 
 As always, thanks for using Galaxy,
 
 Dave Clements and Beatriz Serrano-Solano, Editors
+
+PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) to receive an email whenever this newsletter is published.
 
 ---
 
@@ -128,7 +124,9 @@ Some highlights from the confirmed presentations list so far:
 * ****
   * **
 * ...
-  
+
+See the [GCC2021 schedule](](https://gcc2021.sched.com/) for the most current list of confirmed presenters.
+
 </div>
 
 
@@ -454,6 +452,42 @@ The Galaxy ecosystem is very broad in scope and reaches many audiences, each one
 
 <div class="card-deck">
 
+<!-- Curated -->
+<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
+<div class="card-header">
+
+[Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html)
+
+</div>
+
+**¿Hablas español?: The first curated tutorial in Spanish!**
+
+Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
+
+The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
+
+<img class="card-img-bottom" src="gtn-que-aspecto-slice.png" alt="¿Qué aspecto tiene Galaxy?" />
+</div>
+
+
+<!-- Convolutional neural networks (CNN) -->
+<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
+<div class="card-header">
+
+[Convolutional neural networks (CNN)](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1)
+
+</div>
+
+By [Kaivan Kamali](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
+
+There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/). 
+
+Convolutional neural networks are specifically tailored to image and video processing tasks. This material explains what convolutional neural networks are, discusses their architecture, and solves an image classification problem using a CNN in Galaxy.
+
+<img class="card-img-bottom" src="gtn-cnn.png" alt="CNN: A 3 by 3 filter applied to a 4 by 4 image, resulting in a 2 by 2 image" />
+</div>
+
+
 <!-- Contributing to BioBlend as a developer  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
@@ -473,21 +507,18 @@ BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-mat
 </div>
 
 
-<!-- Curated -->
+<!-- New organization for dev tutorials -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
 <div class="card-header">
 
-[Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html)
+[New Organization for Developer Tutorials](https://training.galaxyproject.org/training-material/topics/dev/)
 
 </div>
 
-**¿Hablas español?: The first curated tutorial in Spanish!**
+Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend tutorial is an example. So is the new [Galaxy for Developers track](https://galaxyproject.org/events/gcc2021/training/dev-track) at GCC2021.  Reflecting these and other *develop*ments, the [Development in Galaxy]() topic in the GTN now has subsections for areas from **Core** to **Viz**.
 
-Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
+<img class="card-img-bottom" src="gtn-dev.png" alt="GTN Dev API section" />
 
-The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
-
-<img class="card-img-bottom" src="gtn-que-aspecto-slice.png" alt="¿Qué aspecto tiene Galaxy?" />
 </div>
 
 </div>
