@@ -1,7 +1,7 @@
 ---
 title: 'June 2021 Galactic News'
 tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
-date: ""
+date: "2021-05-31"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -56,7 +56,7 @@ The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/src/events/2021
 
 **June 25: All Registration Closes**
 
-So, [register](https://www.vibconferences.be/events/gcc2021) by then, ok?
+So, [register](https://www.vibconferences.be/events/gcc2021) by then, OK?
 
 
 **June 28: Training Week Starts**
@@ -115,17 +115,9 @@ Some highlights from the confirmed presentations list so far:
   * *Justin Payne*
 * **Updates from the Single-Cell Community**
   * *Mehmet Tekman*
-* ****
-  * **
-* ****
-  * **
-* ****
-  * **
-* ****
-  * **
 * ...
 
-See the [GCC2021 schedule](](https://gcc2021.sched.com/) for the most current list of confirmed presenters.
+See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list of confirmed presenters.
 
 </div>
 
@@ -231,7 +223,7 @@ We also publish data, software, and other research objects via our database, [Gi
 
 # Event News
 
-There is a lot going onin the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
+There is a lot going on in the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
 
 <div class="card-deck">
 
@@ -244,7 +236,7 @@ There is a lot going onin the Galaxy, with [10 events this week alone](/src/even
 
 </div>
 
-The [*Galaxy Resources* webinar series]() wrapped up in May.  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
+The [*Galaxy Resources* webinar series](/src/events/webinars/index.md) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
 
 **[Analyzing your own data in VectorBase](https://vectorbase.org/vectorbase/app/static-content/webinars.html#vect4), June 10**
 
@@ -264,7 +256,7 @@ Keep your eyes open for new webinars as they are scheduled.
 
 **11 June, Online**
 
-As part of the [2021 OME Community Meeeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
+As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
 
 <img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" />
 </div>
@@ -374,7 +366,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 </div>
 
-Use the [VVV Galaxy server]() to determine the composition of a viral population.  Uses a novel bioinformatic tool for rapid and simple visualization of viral genetic diversity.
+Use the [VVV Galaxy server](https://viralvariant.anses.fr/) to determine the composition of a viral population.  Uses a novel bioinformatic tool for rapid and simple visualization of viral genetic diversity.
 
 VVV is supported by Agence National de Sécurité Sanitaire, de l’environnement et du travail (ANSES) Laboratory of Ploufragan-Plouzané-Niort, Université Bretagne Loire (UBL), France.
 
@@ -515,7 +507,7 @@ BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-mat
 
 </div>
 
-Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend tutorial is an example. So is the new [Galaxy for Developers track](https://galaxyproject.org/events/gcc2021/training/dev-track) at GCC2021.  Reflecting these and other *develop*ments, the [Development in Galaxy]() topic in the GTN now has subsections for areas from **Core** to **Viz**.
+Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend tutorial is an example. So is the new [Galaxy for Developers track](https://galaxyproject.org/events/gcc2021/training/dev-track) at GCC2021.  Reflecting these and other *develop*ments, the [Development in Galaxy](https://training.galaxyproject.org/training-material/topics/dev/) topic in the GTN now has subsections for areas from **Core** to **Viz**.
 
 <img class="card-img-bottom" src="gtn-dev.png" alt="GTN Dev API section" />
 
