@@ -115,6 +115,12 @@ Some highlights from the confirmed presentations list so far:
   * *Justin Payne*
 * **Updates from the Single-Cell Community**
   * *Mehmet Tekman*
+* **Galaxy Australia - the influx state of a national eResearch service**
+  * *Gareth Price*
+* **Community engagement and how it influences Galaxy Australia Innovation**
+  * *Johan Gustafsson*
+* **The “ARIES Genomics” Italian public health surveillance system**
+  * *Arnold Knijn*
 * ...
 
 See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list of confirmed presenters.
