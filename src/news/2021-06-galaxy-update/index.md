@@ -296,6 +296,8 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 </div>
 
+**21-25 June, Online**
+
 Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
 
 <img class="card-img-bottom" src="/src/events/2021-06-belbi/belbi-2021-logo.png" alt="BelBi 2021" />
@@ -309,6 +311,8 @@ Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.i
 [Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
 
 </div>
+
+**2 juillet**
 
 Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
 
