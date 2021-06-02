@@ -30,6 +30,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 * **[2021-05-27: Release testing](/src/events/2021-05-27-dev-roundtable/index.md)**
   * Leaders: Keith Suderman, Dave Bouvier, David López, Qiang Gu, Vijay Nagampal, Marius van den Beek
+  * [Video](https://youtu.be/b35qKpahQYw),  [Slides](https://depot.galaxyproject.org/hub/attachments/events/2021-05-27-dev-roundtable//21-05-release-testing-slides.pdf)
 * **[2021-05-13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md)**
   * Leaders: Alex Ostrovsky
 * **[2021-04-29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**

@@ -6,8 +6,8 @@ tease: "Latest developments and plans, and discussion of current and future coll
 continent: EU
 location: "ELIXIR All Hands 2021, Online, Europe"
 location_url: "https://elixir-europe.org/events/elixir-all-hands-2021"
-external_url: "https://drive.google.com/file/d/1CD8QP2d2SoUMvea3e_BXPQsJ2UPfQOq3/view"
+external_url: "https://docs.google.com/document/d/1vmOwdlfHTERJudwhs9F6v3oYIAMi0wc5bJWsHDSqWRM/edit#heading=h.8yacamuak08k"
 gtn: false
-contact: "Frederik Coppens, Björn Grüning and Nicola Soranzo"
+contact: "Frederik Coppens, Hervé Ménager, Björn Grüning, Salva Capella, Nicola Soranzo"
 image: 
 ---
