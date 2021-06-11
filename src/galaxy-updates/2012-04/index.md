@@ -135,7 +135,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ### GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
 * The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago.  
 * **The [abstract submission deadline is April 16](/src/events/gcc2012/abstracts/index.md).**

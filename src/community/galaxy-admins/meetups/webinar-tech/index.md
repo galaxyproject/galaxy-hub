@@ -43,15 +43,24 @@ If you are running any moderately recent version of OS X, you may need to take s
 
 These two situations are known to be fixed with this solution:
 
-1. If the `meeting.jnlp` file downloads but doesn't launch automatically, or even after you double click on it then<div class='indent'>
+1. If the `meeting.jnlp` file downloads but doesn't launch automatically, or even after you double click on it then
+
+<div class='indent'>
+
   Start a shell, go to your downloads directory and type
 
   `javaws meeting.jnlp`
 
  if you see 
 
-  `Java Web Start splash screen process exiting .....`<br /><div class='right'><img src="/src/community/galaxy-admins/meetups/webinar-tech/BlackboardHang1.png" alt="Blackboard Hang" width="300" /></div>
-  `Bad installation. No JRE found in configuration file`</div>
+  `Java Web Start splash screen process exiting .....`
+
+<div class='right'><img src="/src/community/galaxy-admins/meetups/webinar-tech/BlackboardHang1.png" alt="Blackboard Hang" width="300" /></div>
+
+  `Bad installation. No JRE found in configuration file`
+
+</div>
+
 1. Blackboard Collaborate launches, says loading, gets to 3 of 5 dots on the status indicator and then throws up a blank gray window
 
 then

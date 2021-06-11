@@ -19,7 +19,7 @@ Welcome to the May 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md
 
 ### Training Day: We Need Your Help!
 
-<div class='left'><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='left'><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
 ***[GCC2012 Training Day](/src/events/gcc2012/training-day/index.md) needs your help!***  We are adding several new sessions to the [GCC2012 Training Day](/src/events/gcc2012/training-day/index.md) that will cover how to *use* Galaxy to perform several common kinds of analysis, such as ChIP-Seq, RNA-Seq, Metagenomics, and others.  However, before we can to do that, *[we need your input on which topics there is the most interest in](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)!*
 

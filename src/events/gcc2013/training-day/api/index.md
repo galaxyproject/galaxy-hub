@@ -92,7 +92,7 @@ scripts/api directory, BioBlend, and !Blend4j and relatively easy for python, an
 
 ## The concepts of resources, verbs, and the REST model
 
-A common way to construct an API command is to view it as a simple (imperative) sentence: &lt;verb&gt; &lt;a resource&gt;
+A common way to construct an API command is to view it as a simple (imperative) sentence: [verb]  [a resource]
 
 * What are resources? The datasets you upload and generate from tools, the tools themselves, jobs, histories,
   libraries, even you (a `galaxy_user`) - essentially any *thing* in Galaxy that is recorded in the database.
@@ -317,7 +317,7 @@ recently added functionality.)
 
 Again:
 * **index**: histories_1.py: GET api/histories &rarr; a list of histories for the current user
-* **show**: histories_2.py: GET api/histories/&lt;a history id&gt; &rarr; a single, specific history
+* **show**: histories_2.py: GET api/histories/[a history id] &rarr; a single, specific history
 
 Many resources in the Galaxy API will have index and show methods for reading and retrieving information.
 

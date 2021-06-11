@@ -1,6 +1,6 @@
 ---
 ---
-<div class='right'><a href='/src/events/gcc2012/training-day/vms/index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
+<div class='right'><a href='/src/events/gcc2012/training-day/vms/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
 If you are planning on attending any of these [GCC2012](/src/events/gcc2012/index.md) [Training Day](/src/events/gcc2012/training-day/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 

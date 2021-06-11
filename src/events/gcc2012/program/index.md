@@ -16,7 +16,7 @@ The [2012 Galaxy Community Conference](/src/events/gcc2012/program//index.md) in
 
 ### Day 0: July 25, Wednesday, Training Day
 
-[<img class="float-left" src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" />](/src/events/gcc2012/training-day/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" />](/src/events/gcc2012/training-day/index.md)
 
 The [2012 Galaxy Community Conference](/src/events/gcc2012/program/index.md) was preceded by a *[Training Day](/src/events/gcc2012/training-day/index.md)*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics. 
 

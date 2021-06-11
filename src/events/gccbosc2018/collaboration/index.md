@@ -91,7 +91,7 @@ You register for CollaborationFest at the same time you [register](/src/events/g
 
 # Venue
 
-[<img class="float-right" src="/src/events/gccbosc2018/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
+[<img class="float-right" src="/src/events/gccbosc2018/collaboration/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
 
 CollaborationFest will be at Reed College, the same location as other GCCBOSC 2018 events.  CollaborationFest will take place in the Performing Arts Building, which features multiple meeting rooms, common spaces, and a unique 3 storey atrium that we will make maximal use of for gathering and collaborating.
 

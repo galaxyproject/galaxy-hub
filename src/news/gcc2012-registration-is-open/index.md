@@ -10,7 +10,7 @@ date: "2012-03-20"
 
 The conference will also include talks from the [Galaxy Team](/src/galaxy-team/index.md) on future project direction, and is a chance to *affect and contribute to Galaxy's future direction.*  If you are a bioinformatics tool developer, data provider, workflow developer, power bioinformatics user, sequencing or bioinformatics core staff, a data and analysis archival specialist, or are otherwise neck-deep in *data-intensive biology* then [GCC2012](/src/events/gcc2012/index.md) is for you.
 
-<div class='left'><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" /></a></div>
+<div class='left'><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" /></a></div>
 There are several [registration levels](/src/events/gcc2012/register/index.md), with discounts of over 50% for students and post-docs.  Early registration saves an additional 40% and is $95-$195 for the [conference only](/src/events/gcc2012/program/index.md), and $130-$270 for the conference + [Training Day](/src/events/gcc2012/training-day/index.md). [Early registration](/src/events/gcc2012/register/index.md) ends June 11.  [Lodging in dorms or a nearby hotel](/src/events/gcc2012/logistics/index.md) can also be booked at registration time.
 
 [Abstracts](/src/events/gcc2012/abstracts/index.md) are being accepted for oral presentations are being accepted until April 16. Submissions on any topics of interest to the Galaxy community are encouraged.  (See the [GCC2011 program](/src/events/gcc2011/index.md) for an idea of the breadth of topics.)

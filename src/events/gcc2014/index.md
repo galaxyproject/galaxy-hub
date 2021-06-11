@@ -106,7 +106,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 [<img class="mx-auto" src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
 '
-[<img class="mx-auto" src="/src/cloud/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
+[<img class="mx-auto" src="/src/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
 
 [<img class="mx-auto" src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
 
