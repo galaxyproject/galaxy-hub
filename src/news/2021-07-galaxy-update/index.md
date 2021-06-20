@@ -10,16 +10,14 @@ Hello all,
 
 The 2021 Galaxy Community Conference has started and we are now halfway through Training Week.  It is too late to register for the 3 day conference next week.  It is also officially too late to sign up for the CoFest on 9-10 July, but if you follow this link, you just mind find yourself invited anyway.
 
-In addition to GCC news, we also released the **[James Taylor birthday video](#community-news)**, and have several **[new open positions](#community-news)**, lots of **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
-recent **[open-access Galaxy-related publications](#publications)**, and **[new releases](#releases).**
-
-To us, it feels like everything is GCC right now, but even during this crazy time of year there is a lot more going on (see above, and below). 
+This is one of our thinner newsletters, but there are still **[open positions](#community-news)**, **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
+recent **[open-access Galaxy-related publications](#publications)**, **[new releases](#releases), and [other news too](#other-news).**
 
 We hope we to see you at GCC events this week and next.
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
-PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) to receive an email whenever this newsletter is published.
+PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
 ---
 
