@@ -110,7 +110,7 @@ An agricultural cooperative held by French farmers, and an international seed gr
 
 </div>
 
-There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There is one new positions in the [Galaxy Career Center](/src/careers/index.md), in Freiburg, **and the application deadline is 30 June.**  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -121,47 +121,12 @@ There are three new positions in the [Galaxy Career Center](/src/careers/index.m
 
 # Event News
 
-There is a lot going on in the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
+There is a lot going on in the Galaxy, with [XXXXYYYYYZZZZZZZZZZ](/src/events/index.md). Some upcoming highlights:
 
 <div class="card-deck">
 
-
-<!-- Webinars -->
-<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<div class="card-header">
-
-[Webinars](/src/events/webinars/index.md)
-
-</div>
-
-The [*Galaxy Resources* webinar series](/src/events/webinars/index.md) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
-
-**[Analyzing your own data in VectorBase](https://vectorbase.org/vectorbase/app/static-content/webinars.html#vect4), June 10**
-
-Keep your eyes open for new webinars as they are scheduled.
-
-<img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" />
-</div>
-
-
-<!-- OME -->
-<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
-
-[Imaging in Galaxy](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/)
-
-</div>
-
-**11 June, Online**
-
-As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
-
-<img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" />
-</div>
-
-
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
+<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
@@ -169,35 +134,17 @@ As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/event
 
 </div>
 
-The next roundtable meetups will be:
+We are skipping the Galaxy Developer Round Table during GCC (although we could [meet as a BoF](https://gcc2021.sched.com/area/BoF)).  The lone July round table will be:
 
-**June 10: TBD:**
+**July 22: TBD:**
 
-**June 24: TBD**
+We still [need volunteers to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 
-We still [need volunteers to lead discussions on a topic of interest on June 10 and 24](https://bit.ly/gxdevroundtablepresent).
-
-</div>
-
-
-<!-- Belbi 2021 -->
-<div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<div class="card-header">
-
-[Galaxy Training @ BelBI 2021](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html)
-
-</div>
-
-**21-25 June, Online**
-
-Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
-
-<img class="card-img-bottom" src="/src/events/2021-06-belbi/belbi-2021-logo.png" alt="BelBi 2021" />
 </div>
 
 
 <!-- Traitement de données de séquences par Galaxy -->
-<div class="card border-info" style="min-width: 12rem; max-width:  14rem;">
+<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
 <div class="card-header">
 
 [Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
@@ -212,26 +159,9 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 </div>
 
 
-
-<!-- GAT CoFEST -->
-<div class="card border-info" style="min-width: 12rem; max-width: 14rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
-<div class="card-header">
-
-[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
-
-</div>
-
-**1-4 June, Online**
-
-As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
-
-</div>
-
-
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 25%; max-width:  24rem;;">
-<img class="card-img-top" src="/src/events/2021-06-papercuts/papercuts-cofest-prep.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
+<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
 <div class="card-header">
 
 [Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
@@ -248,7 +178,6 @@ If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us J
 </div>
 
 
-
 </div>
 
 
@@ -258,54 +187,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 
 <div class="card-deck">
-
-<!-- VVV! -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="/src/use/vvv/vvv.png" alt="Viral Variant Visualizer (VVV)" />
-<div class="card-header">
-
-[Viral Variant Visualizer (VVV)](/src/use/vvv/index.md)
-
-</div>
-
-Use the [VVV Galaxy server](https://viralvariant.anses.fr/) to determine the composition of a viral population.  Uses a novel bioinformatic tool for rapid and simple visualization of viral genetic diversity.
-
-VVV is supported by Agence National de Sécurité Sanitaire, de l’environnement et du travail (ANSES) Laboratory of Ploufragan-Plouzané-Niort, Université Bretagne Loire (UBL), France.
-
-</div>
-
-
-<!-- SHAMAN -->
-<div class="card border-info"  style="min-width: 16rem;; max-width: 100%;">
-<img class="card-img-top" src="/src/use/shaman/shaman-logo.png" alt="SHAMAN" />
-<div class="card-header">
-
-[SHAMAN](/src/use/shaman/index.md)
-
-</div>
-
-[SHAMAN](https://shaman.pasteur.fr/) is a user-friendly website for metataxonomic analysis from raw reads to statistical analysis. SHAMAN does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution.
-
-SHAMAN is a shiny application for differential analysis of metagenomic data (16S, 18S, 23S, 28S, ITS and WGS) including bioinformatics treatment of raw reads for targeted metagenomics, statistical analysis and results visualization with a large variety of plots (barplot, boxplot, heatmap, …).
-
-</div>
-
-
-<!-- IMAGING -->
-<div class="card border-info"  style="min-width: 40%; max-width: 100%;">
-<div class="video-variable">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/K-Mxjd-hI_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div class="card-header">
-
-[Imaging EU Server](/src/use/imaging/index.md)
-
-</div>
-
-The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of training materials and tools that you can assemble into workflows to perform image analysis.
-
-</div>
-
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
@@ -326,16 +207,21 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 
 <div class="card-deck">
 
-<!-- WR4 summary  -->
+<!-- Galaxy on Terra -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<img class="card-img-top" src="/src/events/webinars/gr4-webinars.png" alt="Galaxy Resources Webinars" />
 <div class="card-header">
 
-[Galaxy Resources for ... Webinars Summary](https://galaxyproject.eu/posts/2021/05/28/webinar-series-gr4/)
+[A Galaxy of tools at your fingertips](https://terra.bio/a-galaxy-of-tools-at-your-fingertips/")
 
 </div>
 
-The Galaxy ecosystem is very broad in scope and reaches many audiences, each one with different needs. To provide those different profiles with the resources available, four webinars have taken place during April and May for researchers, trainers & educators, tool developers and admins & infrastructure providers.  [You can watch them all now](https://galaxyproject.eu/posts/2021/05/28/webinar-series-gr4/).
+By Meaghan McConlogue.
+
+Galaxy is now available in all flavors of the Terra platform.
+
+"Today, we released an update that makes Galaxy available through the other “faces” of Terra, i.e. the project-agnostic [Terra Community Workbench](https://app.terra.bio/) and the [NHLBI BioData Catalyst](https://terra.biodatacatalyst.nhlbi.nih.gov/)..."  Galaxy has been available on the [AnVIL Terra Portal](https://anvil.terra.bio/) since last year.
+
+<img class="card-img-bottom" src="galaxy-on-terra.png" alt="Galaxy in AnVIL AND Terra" />
 
 </div>
 
@@ -346,74 +232,6 @@ The Galaxy ecosystem is very broad in scope and reaches many audiences, each one
 
 <div class="card-deck">
 
-<!-- Curated -->
-<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
-
-[Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html)
-
-</div>
-
-**¿Hablas español?: The first curated tutorial in Spanish!**
-
-Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
-
-The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
-
-<img class="card-img-bottom" src="gtn-que-aspecto-slice.png" alt="¿Qué aspecto tiene Galaxy?" />
-</div>
-
-
-<!-- Convolutional neural networks (CNN) -->
-<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
-
-[Convolutional neural networks (CNN)](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1)
-
-</div>
-
-By [Kaivan Kamali](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
-
-There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/). 
-
-Convolutional neural networks are specifically tailored to image and video processing tasks. This material explains what convolutional neural networks are, discusses their architecture, and solves an image classification problem using a CNN in Galaxy.
-
-<img class="card-img-bottom" src="gtn-cnn.png" alt="CNN: A 3 by 3 filter applied to a 4 by 4 image, resulting in a 2 by 2 image" />
-</div>
-
-
-<!-- Contributing to BioBlend as a developer  -->
-<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
-
-[Contributing to BioBlend as a developer](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-dev/tutorial.html)
-
-</div>
-
-By [Erik Schill](https://training.galaxyproject.org/training-material/hall-of-fame/rikeshi/) and [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/)
-
-BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-dev/tutorial.html#Sloggett2013)) is a Python library to enable simple interaction with Galaxy via the command line or scripts. This tutorial covers the basics behind BioBlend and the Galaxy API from a developer perspective, and demonstrates how to implement a simple method in BioBlend.
-
-**This is the 200th tutorial in the Galaxy Training Network Library.**
-
-<img class="card-img-bottom" src="gtn-bioblend-slice.png" alt="BioBlend.objects" />
-
-</div>
-
-
-<!-- New organization for dev tutorials -->
-<div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
-
-[New Organization for Developer Tutorials](https://training.galaxyproject.org/training-material/topics/dev/)
-
-</div>
-
-Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend tutorial is an example. So is the new [Galaxy for Developers track](https://galaxyproject.org/events/gcc2021/training/dev-track) at GCC2021.  Reflecting these and other *develop*ments, the [Development in Galaxy](https://training.galaxyproject.org/training-material/topics/dev/) topic in the GTN now has subsections for areas from **Core** to **Viz**.
-
-<img class="card-img-bottom" src="gtn-dev.png" alt="GTN Dev API section" />
-
-</div>
 
 </div>
  
@@ -427,84 +245,11 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
 <div class="card-header">
 
-[Fostering accessible online education using Galaxy as an e-learning platform](https://doi.org/10.1371/journal.pcbi.1008923)
+[Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine](https://doi.org/10.1371/journal.pcbi.1009014)
 
 </div>
 
-Serrano-Solano, B., Föll, M. C., Gallardo-Alba, C., Erxleben, A., Rasche, H., Hiltemann, S., Fahrner, M., Dunning, M. J., Schulz, M. H., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. A. (2021). *PLOS Computational Biology*, 17(5), e1008923. https://doi.org/10.1371/journal.pcbi.1008923
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[A constructivist-based proposal for bioinformatics teaching practices during lockdown](https://doi.org/10.1371/journal.pcbi.1008922)
-
-</div>
-
-Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2021). *PLOS Computational Biology*, 17(5), e1008922. https://doi.org/10.1371/journal.pcbi.1008922
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[SHAMAN: A user-friendly website for metataxonomic analysis from raw reads to statistical analysis](https://doi.org/10.1186/s12859-020-03666-4)
-
-</div>
-
-Volant, S., Lechat, P., Woringer, P., Motreff, L., Campagne, P., Malabat, C., Kennedy, S., & Ghozlane, A. (2020). *BMC Bioinformatics*, 21(1), 345. https://doi.org/10.1186/s12859-020-03666-4
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19)](https://doi.org/10.1186/s12014-021-09321-1)
-
-</div>
-
-Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B., Johnson, J. E., McGowan, T., Griffin, T. J., & Jagtap, P. D. (2021). *Clinical Proteomics*, 18(1), 15. https://doi.org/10.1186/s12014-021-09321-1
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[Precursor Intensity-Based Label-Free Quantification Software Tools for Proteomic and Multi-Omic Analysis within the Galaxy Platform](https://doi.org/10.3390/proteomes8030015)
-
-</div>
-
-Mehta, S., Easterly, C. W., Sajulga, R., Millikin, R. J., Argentini, A., Eguinoa, I., Martens, L., Shortreed, M. R., Smith, L. M., McGowan, T., Kumar, P., Johnson, J. E., Griffin, T. J., & Jagtap, P. D. (2020). *Proteomes*, 8(3), 15. https://doi.org/10.3390/proteomes8030015
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[Semi-supervised learning for somatic variant calling and peptide identification in personalized cancer immunotherapy](https://doi.org/10.1186/s12859-020-03813-x)
-
-</div>
-
-Sherafat, E., Force, J., & Măndoiu, I. I. (2020). *BMC Bioinformatics*, 21(18), 498. https://doi.org/10.1186/s12859-020-03813-x
-
-</div>
-
-
-<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
-
-[A Systematic Evaluation of Semispecific Peptide Search Parameter Enables Identification of Previously Undescribed N-Terminal Peptides and Conserved Proteolytic Processing in Cancer Cell Lines](https://doi.org/10.3390/proteomes9020026)
-
-</div>
-
-Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). *Proteomes*, 9(2), 26. https://doi.org/10.3390/proteomes9020026
-
+Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., & Goecks, J. (2021). *PLOS Computational Biology*, 17(6), e1009014. https://doi.org/10.1371/journal.pcbi.1009014
 
 </div>
 
@@ -515,34 +260,16 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 
 <div class="card-deck">
 
-<!-- Helm Charts -->
+<!-- BioBlend -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header">
 
-[Galaxy Helm Chart v4.0](/src/blog/2021-05-galaxy-helm-chart-v4/index.md)
+[BioBlend]()
 
 </div>
 
-The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
-
-See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
-
-<img class="card-img-bottom" src="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png" alt="Galaxy Helm" />
 </div>
 
-
-<!-- Nebulizer -->
-<div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<div class="card-header">
-
-[Nebulizer 0.7.0](https://pypi.org/project/nebulizer/0.7.0/)
-
-</div>
-
-[Nebulizer](https://nebulizer.readthedocs.io/en/latest/) is a Python utility which provides a high-level interactive command-line interface to remotely administer Galaxy servers.  It is built on top of the [BioBlend library](https://bioblend.readthedocs.io/en/stable/index.html) and offers an interface and range of functionality that complements the lower-level interfaces offered by [Ephemeris](https://ephemeris.readthedocs.io/en/latest/index.html) and [Parsec](https://parsec.readthedocs.io/en/latest/index.html).
-
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
-</div>
 
 </div>
 
