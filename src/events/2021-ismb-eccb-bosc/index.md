@@ -28,7 +28,7 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- |
-
+| 11:35 | Experiences from the Galaxy Training Network | Saskia Hiltemann | [WEB (Workshop on Education for Bioinformatics)](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/web) | &nbsp; |
 
 ## 26 July, Monday
 
@@ -40,6 +40,8 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
+| 12:00 | MaxQuant and MSstats in Galaxy enable reproducible quantitative proteomics in the cloud for everyone | Melanie Föll | [CompMS COSI](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/compms) | &nbsp; | 
+
 
 ## 28 July, Wednesday
 

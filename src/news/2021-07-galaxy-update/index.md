@@ -47,7 +47,7 @@ If you didn't get registered then here is some hopefully consoling news:
 * Training videos and materials are now available for free in the Galaxy Training Network library
 * Videos of all talks presented at GCC2021 will be made available online, for free later this summer
 * All slides and poster PDFs will be made available online this summer as well.
-* The CoFest registration is officially closed, but you can still sign up!  Just click here...
+* The CoFest registration is officially closed, but you can still sneak in!  Just click this link here...
 
 </div>
 
@@ -61,7 +61,7 @@ If you didn't get registered then here is some hopefully consoling news:
 
 </div>
 
-**[PeerJ](https://peerj.com/)** is an Open Access publisher of seven peer-reviewed journals. Our mission is to give researchers the publishing tools and services they want with a unique and exciting experience. PeerJ offers a unique [Lifetime Membership model](https://www.youtube.com/watch?v=Cv3ooRV7dcY) for Open Access, allowing authors to **pay once and publish for life.** PeerJ’s journal portfolio includes *PeerJ Computer Science* and *PeerJ - the journal of Life & Environment*.  PeerJ is sponsoring the [Best Poster/Demo presentation award](https://gcc2021.sched.com/sponsor/peerj) at GCC2021.
+**[PeerJ](https://peerj.com/)** is an Open Access publisher of seven peer-reviewed journals. Our mission is to give researchers the publishing tools and services they want with a unique and exciting experience. PeerJ offers a unique [Lifetime Membership model](https://www.youtube.com/watch?v=Cv3ooRV7dcY) for Open Access, allowing authors to **pay once and publish for life.**  PeerJ is sponsoring the [Best Poster/Demo presentation award](https://gcc2021.sched.com/sponsor/peerj) at GCC2021.
 </div>
 
 
@@ -102,7 +102,7 @@ An agricultural cooperative held by French farmers, and an international seed gr
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
+<div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header">
 
@@ -117,13 +117,29 @@ There is one new positions in the [Galaxy Career Center](/src/careers/index.md),
 </div>
 
 
-
-
 # Event News
 
-There is a lot going on in the Galaxy, with [XXXXYYYYYZZZZZZZZZZ](/src/events/index.md). Some upcoming highlights:
+Did we mention that the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is under way?  Just checking...
+
+But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community  Here are some other [upcoming events highlights](/src/events/index.md):
 
 <div class="card-deck">
+
+<!-- Galaxy E at Sortee -->
+<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
+<img class="card-img-top" src="/src/events/2021-07-sortee/sortee-logo.png" alt="Galaxy-E at SORTEE" />
+<div class="card-header">
+
+[Galaxy-E @ SORTEE 2021](/src/events/2021-07-sortee/index.md)
+
+</div>
+
+**12-14 July, Online, Global**
+
+SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/src/use/ecology/index,nd) will have a workshop, a talk, and a hackathon at this event.
+
+</div>
+
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 25%; max-width:  18rem;">
@@ -158,26 +174,6 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 <img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
 </div>
 
-
-<!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 25%; max-width:  24rem;;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
-<div class="card-header">
-
-[Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
-
-</div>
-
-**17 June, Online, Global**
-
-The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
-
-If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
-
-<small> <sup>*</sup> And if you aren't participating, then <em>we urge you to reconsider your life choices!</em>  Participation is free but you need to register by June 25.</small>
-</div>
-
-
 </div>
 
 
@@ -194,7 +190,6 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* [New high memory servers for Galaxy Australia](https://www.biocommons.org.au/news/unimelb-server-galaxy-au)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -232,6 +227,56 @@ Galaxy is now available in all flavors of the Terra platform.
 
 <div class="card-deck">
 
+<!-- Visualization of RNA-Seq results with Volcano Plot in R -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card-header">
+
+[Visualization of RNA-Seq results with Volcano Plot in R](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html)
+
+</div>
+
+By [Maria Doyle](https://training.galaxyproject.org/training-material/hall-of-fame/mblue9/)
+
+In this tutorial we show how you can customise a plot using the R script output from the tool.
+
+<img class="card-img-bottom" src="gtn_volcano_labels_size.png" alt="A customized Volcano Plot" />
+
+</div>
+
+<!-- Genome Annotation with Apollo -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<img class="card-img-top" src="gtn-change-start.gif" alt="Change start position" />
+<div class="card-header">
+
+[Refining Genome Annotations with Apollo](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/apollo/tutorial.html)
+
+</div>
+
+By [Anthony Bretaudeau](https://training.galaxyproject.org/training-material/hall-of-fame/abretaud/), [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/), [Nathan Dunn](https://training.galaxyproject.org/training-material/hall-of-fame/nathandunn/), [Mateo Boudet](https://training.galaxyproject.org/training-material/hall-of-fame/mboudet/)
+
+After automatically annotating your genome using Prokka or Maker, it is important to visualize your results so you can understand what your organism looks like, and then to manually refine these annotations along with any additional data you might have.
+
+</div>
+
+
+
+<!-- Automating Galaxy workflows using the command line -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card-header">
+
+[Automating Galaxy workflows using the command line](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html)
+
+</div>
+
+By [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame/simonbray/) and [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame/wm75/)
+
+Trigger workflow execution via the command line using Planemo, and some tips on how to write scripts to automate the process. The result is a bot which takes care of the the whole analysis process for you.
+
+<img class="card-img-bottom" src="gtn-workflows.png" alt="Command line Galaxy Workflows" />
+
+</div>
+
+
 
 </div>
  
@@ -260,16 +305,61 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 
 <div class="card-deck">
 
+
+<!-- Galaxy -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<div class="card-header">
+
+[Galaxy 21.05](/src/news/2021-06-galaxy-release-21-05/index.md)
+
+</div>
+
+We are pleased to [announce the 21.05 Galaxy release](/src/news/2021-06-galaxy-release-21-05/index.md).
+
+A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
+
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https:
+//docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
+
+</div>
+
+
+
 <!-- BioBlend -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header">
 
-[BioBlend]()
+[BioBlend 0.16.0](https://bioblend.readthedocs.io/en/latest/)
 
 </div>
 
+[BioBlend](https://bioblend.readthedocs.io/en/latest/) is a Python library for interacting with Galaxy and CloudMan APIs. [BioBlend 0.16.0](https://github.com/galaxyproject/bioblend/releases/tag/v0.16.0) supports the latest 21.05 release of Galaxy, and has the largest number of added features for some time.
+
 </div>
 
+
+</div>
+
+
+# Other News
+
+<div class="card-deck">
+
+<!-- Tool Templates -->
+<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<div class="card-header">
+
+[Galaxy tool repository template](https://github.com/galaxyproject/galaxy-tool-repository-template)
+
+</div>
+
+This template repository from Matthias Berndt can be used to create IUC style tool repositories. It offers:
+
+* the same structure as the IUC repository
+* CI for pull requests and weekly CI for all tools
+
+</div>
 
 </div>
 
