@@ -6,7 +6,7 @@ tease: "NGS data analysis harnessing the power of Galaxy"
 continent: AS
 location: "GeneSpectrum, Online, India"
 location_url: "https://genespectrum.co.in/bioinformatics-training/"
-external_url: "https://genespectrum.co.in/bioinformatics-training/ngs-data-analysis-with-galaxy/"
+external_url: "https://genespectrum.co.in/bioinformatics-training/ngs-data-analysis-workshop/"
 gtn: false
 contact: "contact @ genespectrum.co.in"
 image: 

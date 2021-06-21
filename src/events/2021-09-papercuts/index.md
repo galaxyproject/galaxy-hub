@@ -1,6 +1,6 @@
 ---
 title: "Galaxy Papercuts CoFest Day"
-date: '2021-09-19'
+date: '2021-09-16'
 days: 1
 tease: 'A community contribution day'
 continent: GL
@@ -15,7 +15,7 @@ tags: [ cofest, papercuts ]
 
 *Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
-Want to improve Galaxy, and get involved with Galaxy? Please join us on September 19.
+Want to improve Galaxy, and get involved with Galaxy? Please join us on September 16.
 
 **Goals**
 
@@ -75,13 +75,13 @@ If you have time, and want to learn more about contributing you are encouraged t
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Call 1: Oceania, Australia, Asia**
-  * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210919T14&p1=152&am=30).
+  * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210916T14&p1=152&am=30).
   * Zoom Link
 * **Call 2: Middle East, Europe, Africa**
-  * 09:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210919T09&p1=980&am=30).
+  * 09:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=09%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210916T09&p1=980&am=30).
   * Zoom Link
 * **Call 3: Americas**
-  * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210919T12&p1=3705&am=30).
+  * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210916T12&p1=3705&am=30).
   * Zoom Link
 
 ## After the event
