@@ -1,6 +1,6 @@
 ---
 title: 'July 2021 Galactic News'
-tease: "GCC2021 Is under way."
+tease: "GCC2021 is under way."
 date: ""
 ---
 
@@ -42,8 +42,8 @@ GCC2021 [Training Week](https://galaxyproject.org/events/gcc2021/training) is un
 
 If you didn't get registered then here is some hopefully consoling news:
 
-* Training videos and materials are now available for free in the Galaxy Training Network library
-* Videos of all talks presented at GCC2021 will be made available online, for free later this summer
+* Training videos and materials are now available for free in the Galaxy Training Network library.
+* Videos of all talks presented at GCC2021 will be made available online, for free later this summer.
 * All slides and poster PDFs will be made available online this summer as well.
 * The CoFest registration is officially closed, but you can still sneak in!  Just click this link here...
 
@@ -119,12 +119,28 @@ There is one new positions in the [Galaxy Career Center](/src/careers/index.md),
 
 Did we mention that the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is under way?  Just checking...
 
-But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community  Here are some other [upcoming events highlights](/src/events/index.md):
+But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/src/events/index.md):
 
 <div class="card-deck">
 
+<!-- Traitement de données de séquences par Galaxy -->
+<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
+<div class="card-header">
+
+[Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
+
+</div>
+
+**2 juillet**
+
+Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
+
+<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
+</div>
+
+
 <!-- Galaxy E at Sortee -->
-<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
+<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <img class="card-img-top" src="/src/events/2021-07-sortee/sortee-logo.png" alt="Galaxy-E at SORTEE" />
 <div class="card-header">
 
@@ -140,7 +156,7 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
+<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
@@ -148,29 +164,32 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 
 </div>
 
-We are skipping the Galaxy Developer Round Table during GCC (although we could [meet as a BoF](https://gcc2021.sched.com/area/BoF)).  The lone July round table will be:
+We are skipping the Galaxy Developer Round Table during GCC (although we could [meet as a BoF](https://gcc2021.sched.com/area/BoF)). The lone July round table will be:
 
-**July 22: TBD:**
+**July 22: TBD**
 
 We still [need volunteers to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 
 </div>
 
-
-<!-- Traitement de données de séquences par Galaxy -->
-<div class="card border-info" style="min-width: 25%; max-width:  18rem;">
+<!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
+<div class="card border-info" style="min-width: 20%; max-width: 37%;">
+<img class="card-img-bottom" src="sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header">
 
-[Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
+[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
 
 </div>
 
-**2 juillet**
+**9-12 August**
 
-Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
+The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+
+
 </div>
+
 
 </div>
 
