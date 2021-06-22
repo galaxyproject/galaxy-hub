@@ -33,7 +33,7 @@ These are working groups, similar to the technical groups. They are open to inte
 Please contact the committee member leading the project if you would like to learn more about participating in their work.
 
 * Membership - Dan Blankenberg
-* Correcting misconceptions - Hans-Rudolph Hotz
+* Correcting misconceptions - Hans-Rudolf Hotz
 * Propeller onboarding cookbook - Anne Fouilloux
 * Global Science - Andrew Lonie
 
