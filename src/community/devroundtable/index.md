@@ -34,8 +34,6 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders: 
 * **[2021-07-22: TBD](/src/events/2021-07-22-dev-roundtable/index.md)**
   * Leaders: 
-* **[2021-06-24: TBD](/src/events/2021-06-24-dev-roundtable/index.md)**
-  * Leaders: 
 * **[2021-06-10: Galaxy Development Environments](/src/events/2021-06-10-dev-roundtable/index.md)**
   * Leaders: Alexandru Mahmoud, Marius van den Beek
 * **[2021-05-27: Release testing](/src/events/2021-05-27-dev-roundtable/index.md)**
