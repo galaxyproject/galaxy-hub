@@ -29,12 +29,19 @@ See the [Galaxy Governance Model](/src/community/governance/index.md) for how th
 
 ## Subcommittees
 
-Subcommittees will be added here as they are formed.
+These are working groups, similar to the technical groups. They are open to interested community members willing to add their contribution.
+Please contact the committee member leading the project if you would like to learn more about participating in their work.
+
+* Membership - Dan Blankenberg
+* Misconceptions - Hans-Rudolf Hotz
+* Propeller onboarding cookbook - Anne Fouilloux
+* Global Science - Andrew Lonie
+* Small scale servers - Hans-Rudolf Hotz
 
 ## Committee Members
 
 * **[Ross Lazarus](https://github.com/fubar2)**
-  * Retired*, Australia, Chair
+  * Galaxy emeritus, Australia, Chair
 * **[Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)**
   * [University of Oslo](https://www.uio.no/), Norway
 * **[Alan Christoffels](https://www.sanbi.ac.za/alan-christoffels/)**
@@ -54,7 +61,7 @@ Subcommittees will be added here as they are formed.
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**
   * [Johns Hopkins University](https://jhu.edu), United States
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
-  * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium 
+  * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
   * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
 * **[Hervé Menager](https://research.pasteur.fr/en/member/herve-menager/)**
@@ -70,7 +77,6 @@ Subcommittees will be added here as they are formed.
 * **[Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin)**
   * [University of Minnesota](https://umn.edu/), United States
 
-<sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>
 
 ## Contact
 
