@@ -74,6 +74,8 @@ Please contact the committee member leading the project if you would like to lea
   * [Peter MacCallum Cancer Centre](https://www.petermac.org/), Australia
 * **[Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/)**
   * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+* **[Sveinung Gundersen](https://www.mn.uio.no/ifi/english/people/adm/sveinugu/index.html)**
+  * [University of Oslo](https://www.uio.no/english/), Norway
 * **[Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin)**
   * [University of Minnesota](https://umn.edu/), United States
 
