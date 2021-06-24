@@ -83,9 +83,9 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
 ## Escape (to the) Pub!
 
 <div class='left'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/events/gcc2013/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
+<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
 <div class='right'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/events/gcc2013/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
+<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
 </div>
 
 The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/src/events/gcc2013/logistics/index.md)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/src/events/gcc2013/bof/index.md)), then please do drop in.  
@@ -218,7 +218,7 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
             <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2013/abstracts/talks/index.md#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></em></strong><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
-            <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
+            <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
           </tr>
           <tr>
             <td rowspan=9 style=" vertical-align: top; text-align: right; border: none;"> 16:30 </td>
@@ -262,9 +262,9 @@ The first day of the conference will feature [accepted talks](/src/events/gcc201
 ## Escape (to the) Pub, Again!
 
 <div class='left'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/events/gcc2013/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
+<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
 <div class='right'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/events/gcc2013/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
+<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
 </div>
 
 The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/src/events/gcc2013/logistics/index.md)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/src/events/gcc2013/bof/index.md)), then please do drop in.  

@@ -20,7 +20,7 @@ date: 2011-11-18
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
+<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
 **We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 

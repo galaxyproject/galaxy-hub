@@ -54,4 +54,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
 
 You can ask questions by *typing the question in the chat box.*
 
-<div class='center'><img src="/src/community/galaxy-admins/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

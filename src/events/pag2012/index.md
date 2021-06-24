@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ PAG 2012
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/events/pag2012/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
 
 
 

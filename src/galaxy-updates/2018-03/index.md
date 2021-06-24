@@ -51,7 +51,7 @@ The second day has five parallel track, and covers a full spectrum of topics of 
 
 We are pleased to announce two of our keynote speakers:
 
-[<img class="float-right" src="/src/events/gccbosc2018/keynotes/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
+[<img class="float-right" src="/src/images/people/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
 
 **BOSC / GCC Joint Keynote: [Fernando Pérez](/src/events/gccbosc2018/keynotes/index.md#bosc-gcc-joint-keynote-fernando-perez)**
 
@@ -60,7 +60,7 @@ We are pleased to announce two of our keynote speakers:
 
 [Dr. Pérez](https://bids.berkeley.edu/people/fernando-perez) is an assistant professor in Statistics at UC Berkeley and a Faculty Scientist in the Department of Data Science and Technology at Lawrence Berkeley National Laboratory.  He also created IPython while a graduate student and co-founded its successor, [Project Jupyter](http://jupyter.org/).
 
-[<img class="float-right" src="/src/events/gccbosc2018/keynotes/teal.jpg" alt="Tracy Teal" width="110" />](http://www.datacarpentry.org/people/)
+[<img class="float-right" src="/src/images/people/teal.jpg" alt="Tracy Teal" width="110" />](http://www.datacarpentry.org/people/)
 
 **BOSC 2018 Keynote: [Tracy K. Teal](http://www.datacarpentry.org/people/)**
 
@@ -83,14 +83,14 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 ### Technology Association of Oregon
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt="Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
+[<img class="float-right" src="/src/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="200" />](http://www.techoregon.org/)
 
 [Technology Association of Oregon](http://www.techoregon.org/) is the force behind the Oregon tech industry. Supporting entrepreneurs, connecting peers and decision makers, and helping grow the Northwest as a global hub for innovation. We are proud to be a leader in the regional technology community and offer many ways for individuals, companies, and community organizations to partner with us in Oregon and SW Washington.
 
 
 <div class="float-right">
 <br />
-[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 
 

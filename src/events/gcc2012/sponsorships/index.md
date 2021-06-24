@@ -26,7 +26,7 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.emc.com/isilon'><img src="/src/events/gcc2012/sponsorships/EMCLogo260.png" alt="EMC Isilon" width="250" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCLogo260.png" alt="EMC Isilon" width="250" /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none; text-align: center;"> <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><br />GCC Representatives: <br /><a href='/src/people/sanjay-joshi/index.md'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>

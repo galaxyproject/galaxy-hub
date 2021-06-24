@@ -55,4 +55,4 @@ The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadm
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/community/galaxy-admins/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

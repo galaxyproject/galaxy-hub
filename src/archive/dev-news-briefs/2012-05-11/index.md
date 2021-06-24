@@ -208,7 +208,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/adm
 
 ## GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a></div>
+<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/src/events/gcc2012/training-day/index.md) has been added this year.
 

@@ -32,7 +32,7 @@ We are happy to have announced several [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 ### PeerJ
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
+[<img class="float-right" src="/src/images/logos/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
 
 ***[PeerJ](https://peerj.com/)*** is proud to sponsor GCCBOSC 2018 and support the unified event for bioinformatics developers and practitioners. PeerJ's mission is to make Open Access affordable, fast, and easier for researchers and institutions, and central to this mission is our open source ethos. We publish two peer-reviewed journals, *[PeerJ](https://peerj.com/)* and *[PeerJ Computer Science](https://peerj.com/computer-science/)* and we also host a free *[PeerJ Preprints](https://peerj.com/preprints/)* server. *PeerJ* requires code to be open and accessible, hence readers can be assured that they can access the tools appropriately. We also provide [open source tools](https://github.com/PeerJ) helpful to both academics and general software development professionals.
 
@@ -42,7 +42,7 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 
 <div class="float-right">
 <br />
-[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 

@@ -16,7 +16,7 @@ date: 2012-07-20
 <br />
 # GCC2012
 
-<div class='center'><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
+<div class='center'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) is a few short days away. Late registration is still open.
 

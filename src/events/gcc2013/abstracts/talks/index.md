@@ -37,7 +37,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 ### Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy
 
-<div class='right'><a href='/src/people/fubar/index.md'><img src="/src/galaxy-team/ross.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/fubar/index.md'><img src="/src/images/people/team/ross.jpg" alt="" width="120" /></a></div>
 
 **[Ross Lazarus](/src/people/fubar/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/galaxy-team/index.md) <sup>2</sup>.
 
@@ -79,7 +79,7 @@ Currently, the system is in its testing phase and is on schedule to be in produc
 
 ### A Galaxy of learning: Bioinformatics tutorials based on Galaxy
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/SimonGladman.jpg" alt="Simon Gladman"  /></div>
+<div class='right'><img src="/src/images/people/SimonGladman.jpg" alt="Simon Gladman"  /></div>
 
 **Simon Gladman**<sup>1,2</sup>, Mahtab Mirmomeni<sup>1</sup>, Andrew Lonie<sup>1</sup>
 
@@ -255,7 +255,7 @@ We show examples of spatial co-localization of chromatin states and fusion trans
 ### Ion Torrent Semiconductor Sequencing Update
 
  
-<div class='right'><img src="/src/people/mike-lelivelt/pic.png" alt="" width="90" /></div>
+<div class='right'><img src="/src/images/people/mike-lelivelt.png" alt="" width="90" /></div>
 
 **[Mike Lelivelt](/src/people/mike-lelivelt/index.md)<sup>1</sup>**
 
@@ -269,7 +269,7 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 ### State of the Galaxy
 
-<div class='right'><img src="/src/galaxy-team/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/galaxy-team/james.jpg" alt="" width="120" /></div>
+<div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
 
 **[Anton Nekrutenko](/src/people/anton/index.md)<sup>1</sup> and [James Taylor](/src/people/james-taylor/index.md)<sup>2</sup>**
 
@@ -350,7 +350,7 @@ GTrack is fully supported by [The Genomic HyperBrowser (hyperbrowser.uio.no)](ht
 
 ### Globus Genomics - An Integrated End to End Sequencing Analysis Platform Powered by Globus Online and Galaxy
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
+<div class='right'><img src="/src/images/people/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
 
 Paul Dave,<sup>1</sup> **Ravi Madduri,**<sup>2</sup> Dina Sulakhe,<sup>1</sup> Alex Rodriguez<sup>1</sup>
 
@@ -384,7 +384,7 @@ Galaxy has traditionally been geared toward interacting with a small, fixed numb
 
 ### DevOps Ignition to reach Galaxy continuous integration
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/OlivierInizan.png" alt="Olivier Inizan" width="100" /></div>
+<div class='right'><img src="/src/images/people/OlivierInizan.png" alt="Olivier Inizan" width="100" /></div>
 
 **Michael Loaec, Olivier Inizan**, Jonathan Kreplak, Hadi Quesneville 
 
@@ -408,7 +408,7 @@ The experience gave us new perspectives to improve our development and productio
 
 ### The Clinical Galaxy: A validated platform initiative
 
-<div class='right'><img src="/src/people/sanjay-joshi/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
+<div class='right'><img src="/src/images/people/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
 
 **[Sanjay Joshi](/src/people/sanjay-joshi/index.md)**
 
@@ -428,7 +428,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 ### Enhancing the Galaxy Tool Shed
 
-<div class='right'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/greg.jpg" alt="Greg Von Kuster" width="120" /></a></div>
+<div class='right'><a href='/src/people/dan/index.md'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></a></div>
 
 **[Greg von Kuster](/src/people/greg_vonkuster/index.md)**, [Daniel Blankenberg](/src/people/dan/index.md)
  Penn State / Galaxy Team
@@ -449,7 +449,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 ### How to Create Your Own Web-based, Interactive Visualizations for Galaxy
 
-<div class='right'><a href='/src/people/carl-eberhard/index.md'><img src="/src/galaxy-team/carl.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/carl-eberhard/index.md'><img src="/src/images/people/carl.jpg" alt="" width="120" /></a></div>
 
 **[Carl Eberhard](/src/people/carl-eberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/src/people/anton/index.md)<sup>2</sup>, and [James Taylor](/src/people/james-taylor/index.md)<sup>1</sup>
 
@@ -466,7 +466,7 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 ### Managing Galaxy's Built-in Data
 
-<div class='right'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/dan/index.md'><img src="/src/images/people/dan.jpg" alt="" width="120" /></a></div>
 
 **[Daniel Blankenberg](/src/people/dan/index.md)**
 
@@ -484,7 +484,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 ### Contributing to Galaxy
 
-<div class='right'><a href='/src/people/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/dannon-baker/index.md'><img src="/src/images/people/dannon.jpg" alt="" width="120" /></a></div>
 
 **[Dannon Baker](/src/people/dannon-baker/index.md)**<sup>1</sup>, [Nate Coraor](/src/people/nate/index.md)<sup>2</sup>, [John Chilton](/src/people/john-chilton/index.md)<sup>3</sup> 
 

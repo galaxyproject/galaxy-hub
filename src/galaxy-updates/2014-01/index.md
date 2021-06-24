@@ -152,7 +152,7 @@ This brings the total number of papers to 1330.
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -206,7 +206,7 @@ Also please welcome three new [Silver Sponsors](/src/events/gcc2014/sponsor-exhi
     <td style=" border: none; width: 5%; text-align: center;"> </td>
     <td style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="130" /></a> <span style="font-size: smaller;"> <br />&nbsp;<br /> </span> <a href='http://www.biomedcentral.com/'><img src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="130" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/src/cloud/ABgenomicaLogo.jpg" alt="ABgenomica" width="150" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/src/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica" width="150" /></a> </td>
   </tr>
 </table>
 

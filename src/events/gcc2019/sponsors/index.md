@@ -95,11 +95,11 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</span>
 <table>
   <tr style="text-align: center">
     <td style="vertical-align: middle;">
-      [<img style="max-width: 260px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
+      [<img style="max-width: 260px" src="/src/images/logos/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
     </td>
     <td style="width: 5%"> </td>
     <td style="vertical-align: middle;">
-      [<img style="padding-bottom: 1em" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
+      [<img style="padding-bottom: 1em" src="/src/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
     </td>
     <td style="width: 8%"> </td>
   </tr>

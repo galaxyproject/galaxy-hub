@@ -115,7 +115,7 @@ Contact us at
 
 ## Giga Sponsors
 
-[<img src="/src/events/gccbosc2018/sponsors/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
+[<img src="/src/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
 
 ## CollaborationFest Sponsorship Opportunities
 

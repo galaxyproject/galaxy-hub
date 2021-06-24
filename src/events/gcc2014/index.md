@@ -66,7 +66,7 @@ Several meeting reports have been created online:
   * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
 * when and how to use *Galaxy on the Cloud*
 
-<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/events/gcc2014/abstracts/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
+<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
 
 ## Keynote Speaker
 

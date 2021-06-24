@@ -8,7 +8,7 @@ GCCBOSC will be bigger than any BOSC or GCC before it.  This creates more opport
 
 ## The details
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt="Advanced HPC" width="300" />](https://www.advancedhpc.com/industries/life-sciences/)
+[<img class="float-right" src="/src/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="300" />](https://www.advancedhpc.com/industries/life-sciences/)
 
 When you check in you'll be given a sheet with ~15 questions on it.  Each question will require you to find a fellow GCCBOSC 2018 participant who meets a certain requirement.  *Everyone's sheet will have a mix of easy to difficult questions, and each sheet will have a different set of questions.*  Some examples:
 

@@ -13,7 +13,7 @@ Welcome to the June 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 
 ### ODoSE
 
-<div class='left'><a href='http://www.odose.nl/'><img src="/src/public-galaxy-servers/archive/odose-scatter-plot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
+<div class='left'><a href='http://www.odose.nl/'><img src="/src/images/logos/odose-scatter-plot.png" alt="ODoSE: Ortholog Direction of Selection Engine" width="200" /></a></div>
 
 The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) supports genome-wide calculation of adaptive divergence in prokaryotes:
 
@@ -21,7 +21,7 @@ The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) suppo
 
 See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
 
-<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/use/cbib-galaxy/cbib-logo-300.png" alt="CBiB Galaxy" width="200" /></a></div>
+<div class='right'><br />[[<a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/images/logos/cbib-logo-300.png" alt="CBiB Galaxy" width="200" /></a></div>
 
 ### CBiB Galaxy
 
@@ -85,7 +85,7 @@ There are now almost [1000 papers in the Galaxy CiteULike Group](http://www.cite
 
 ## Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -272,7 +272,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 </table>
 
 
-<div class='left'><br /><a href='http://rnaseq.pathogenportal.org/'><img src="/src/community/galaxy-admins/meetups/2013-05-15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" height="120" /></a></div>
+<div class='left'><br /><a href='http://rnaseq.pathogenportal.org/'><img src="/src/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" height="120" /></a></div>
 
 ## GalaxyAdmins
 

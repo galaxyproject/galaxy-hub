@@ -3,7 +3,7 @@ title: "May 2013 GalaxyAdmins Meetup"
 date: "2013-05-08"
 ---
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
-<a href='http://rnaseq.pathogenportal.org/'><img src="/src/community/galaxy-admins/meetups/2013-05-15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
+<a href='http://rnaseq.pathogenportal.org/'><img src="/src/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 
 
 The [next meeting](/src/community/galaxy-admins/meetups/2013-05-15/index.md) of the [GalaxyAdmins Group](/src/community/galaxy-admins/index.md) will be held on [May 15, 2013, at 10 AM Central US time](/src/community/galaxy-admins/meetups/2013-05-15/index.md). 

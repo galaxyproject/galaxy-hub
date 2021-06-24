@@ -9,7 +9,7 @@ skip_title_render: true
 ## Location
 
 <div class="float-right">
-[<img src="/src/events/gcc2019/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
+[<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>
 
 [Freiburg](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)! Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*

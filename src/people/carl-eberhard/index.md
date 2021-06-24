@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/carl.jpg)</div>
+<div class='right'>![](/src/images/people/carl.jpg)</div>
 
 # Carl Eberherd
 

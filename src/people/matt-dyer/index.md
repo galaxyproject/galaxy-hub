@@ -1,5 +1,5 @@
 
-<div class='right'><a href='http://lifetech.com'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo320.png" alt="Ion Torrent" height="100" /></a></div>
+<div class='right'><a href='http://lifetech.com'><img src="/src/images/logos/IonTorrentLogo320.png" alt="Ion Torrent" height="100" /></a></div>
 
 # Matt Dyer
 

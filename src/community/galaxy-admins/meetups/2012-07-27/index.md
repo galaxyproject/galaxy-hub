@@ -3,7 +3,7 @@ title: GalaxyCzars GCC2012 Breakout Session
 ---
 <div class='center'>
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
-<a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
+<a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
 </div>
 
 <slot name="/community/galaxy-admins/linkbox" />

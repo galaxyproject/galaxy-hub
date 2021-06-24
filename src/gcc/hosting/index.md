@@ -51,7 +51,7 @@ Needed facilities
 
 ## Lodging
 
-[<img class="float-right" src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" style="max-width: 150px" />](/src/events/gcc2012/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" style="max-width: 150px" />](/src/events/gcc2012/index.md)
 
 Affordable (think dorm) housing is a big plus and goes a long way towards lowering attendees costs.  The conference can also have official hotels, or just list ones that the organizers recommend.
 

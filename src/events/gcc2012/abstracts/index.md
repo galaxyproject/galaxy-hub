@@ -16,7 +16,7 @@ Abstracts for talks that were presented at the [GCC2012 main sessions](/src/even
 
 ## State of the Galaxy
 
-<div class='right'><img src="/src/galaxy-team/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/galaxy-team/james.jpg" alt="" width="120" /></div>
+<div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
 
 **[Anton Nekrutenko](/src/people/anton/index.md)<sup>1</sup> and [James Taylor](/src/people/james-taylor/index.md)<sup>2</sup>**
 
@@ -168,7 +168,7 @@ The intersection of the established Galaxy Research community with the requireme
 
 ## Establishing a National Genomics Virtual Laboratory with Galaxy CloudMan
 
-<div class='right'><img src="/src/galaxy-team/EnisAfgan.jpg" alt="" width="120" /></div>
+<div class='right'><img src="/src/images/people/EnisAfgan.jpg" alt="" width="120" /></div>
 
 **[Enis Afgan](/src/people/enis-afgan/index.md)<sup>1,2</sup>**
 
@@ -292,7 +292,7 @@ As the cost of next generation sequencing decreases and the accessibility increa
 
 ## The Galaxy Visualization Framework
 
-<div class='right'><img src="/src/galaxy-team/jgoecks-banff-small.png" alt="" width="120" /></div>
+<div class='right'><img src="/src/images/people/jgoecks-banff-small.png" alt="" width="120" /></div>
 
 **[Jeremy Goecks](/src/people/jeremy-goecks/index.md)<sup>1</sup>**
 
@@ -308,7 +308,7 @@ The Galaxy team is building a framework for Web-based visualization of next-gene
 
 ## Ion Torrent: Open, Accessible, Enabling
 
-<div class='right'><img src="/src/people/mike-lelivelt/pic.png" alt="" width="100" /></div>
+<div class='right'><img src="/src/images/people/mike-lelivelt.png" alt="" width="100" /></div>
 
 **[Mike Lelivelt](/src/people/mike-lelivelt/index.md)<sup>1</sup>**
 
@@ -450,7 +450,7 @@ GenomeSpace is a software environment that provides a connection layer between b
 
 ## Tool Shed and Changes to Galaxy Distributions
 
-<div class='right'><img src="/src/galaxy-team/greg.jpg" alt="" width="120" /></div>
+<div class='right'><img src="/src/images/people/greg.png" alt="" width="120" /></div>
 
 **[Greg von Kuster](/src/people/greg_vonkuster/index.md)<sup>1</sup>**
 

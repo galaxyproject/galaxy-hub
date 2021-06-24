@@ -41,7 +41,7 @@ And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
 
 We are pleased to announce our third [keynote speaker](/src/events/gccbosc2018/keynotes/index.md):
 
-[<img class="float-right" src="/src/events/gccbosc2018/keynotes/peixoto.jpg" alt="Lucia Peixoto"  width="110"  />](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/)
+[<img class="float-right" src="/src/images/people/peixoto.jpg" alt="Lucia Peixoto"  width="110"  />](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/)
 
 **GCC2018 Keynote: [Lucia Peixoto](/src/events/gccbosc2018/keynotes/index.md#galaxy-community-conference-2018-keynote-lucia-peixoto)**
 
@@ -67,7 +67,7 @@ So c'mon, register already:
 
 ## Childcare at GCCBOSC
 
-[<img class="float-left" src="/src/events/gccbosc2018/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/src/events/gccbosc2018/childcare/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/src/events/gccbosc2018/childcare/index.md)
 
 Subsidized childcare for children 6 weeks to 12 years old is available at Portland State University for $7-10 / hour. If you want, you can also bring your infant with you to the conference.  A nursing room will be available on any day it is requested.
 
@@ -86,7 +86,7 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 <div class="float-right">
 <br />
-[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 

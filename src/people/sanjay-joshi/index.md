@@ -1,5 +1,5 @@
 
-<div class='right'> <img src="/src/people/sanjay-joshi/SanjayJoshi.png" alt="" width="120px" /><br /><a href='http://emc.com'><img src="/src/events/gcc2012/sponsorships/EMCLogo260.png" alt="EMC Isilon" width="120px" /></a></div>
+<div class='right'> <img src="/src/images/people/SanjayJoshi.png" alt="" width="120px" /><br /><a href='http://emc.com'><img src="/src/images/logos/EMCLogo260.png" alt="EMC Isilon" width="120px" /></a></div>
 
 # Sanjay Joshi
 

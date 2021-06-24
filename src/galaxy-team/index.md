@@ -5,15 +5,15 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 ## Core Team
 <div class="row row-fluid text-center">
-<div class='col-md-3'><a href='/src/people/enis-afgan/index.md'><img src="/src/galaxy-team/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br />
+<div class='col-md-3'><a href='/src/people/enis-afgan/index.md'><img src="/src/images/people/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br />
 [Enis Afgan](/src/people/enis-afgan/index.md) <br />
 [Johns Hopkins](http://www.jhu.edu) <br /><br />
 </div>
-<div class='col-md-3'><a href='/src/people/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="Dannon Baker" height="150" /></a><br />
+<div class='col-md-3'><a href='/src/people/dannon-baker/index.md'><img src="/src/images/people/dannon.jpg" alt="Dannon Baker" height="150" /></a><br />
 [Dannon Baker](/src/people/dannon-baker/index.md) <br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
-<div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
+<div class='col-md-3'><a href='/src/people/dan/index.md'><img src="/src/images/people/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
 [Dan Blankenberg](/src/people/dan/index.md) <br />
 [The Cleveland Clinic](https://www.lerner.ccf.org/) <br /> <br />
 </div>
@@ -22,12 +22,12 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/marten/index.md'><img src="/src/galaxy-team/marten.jpg" alt="Marten Cech" height="150" /></a><br />
+<a href='/src/people/marten/index.md'><img src="/src/people/marten/marten.jpg" alt="Marten Cech" height="150" /></a><br />
 [Martin Cech](/src/people/marten/index.md) <br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/john-chilton/index.md'><img src="/src/galaxy-team/JohnChiltonSmaller.jpg" alt="John Chilton" height="150" /></a><br />
+<a href='/src/people/john-chilton/index.md'><img src="/src/images/people/JohnChiltonSmaller.jpg" alt="John Chilton" height="150" /></a><br />
 [John Chilton](/src/people/john-chilton/index.md)<br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
@@ -42,7 +42,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/jeremy-goecks/index.md'><img src="/src/galaxy-team/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
+<a href='/src/people/jeremy-goecks/index.md'><img src="/src/images/people/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<br />
 [OHSU](http://www.ohsu.edu) <br /> <br />
 </div>
@@ -87,7 +87,7 @@ Qiang Gu<br />
 [Johns Hopkins](http://www.jhu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/anton/index.md'><img src="/src/galaxy-team/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
+<a href='/src/people/anton/index.md'><img src="/src/images/people/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/people/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)  <br /> <br />
 </div>
@@ -107,7 +107,7 @@ Luke Sargent<br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>
 <div class='col-md-3'>
-<a href='/src/people/james-taylor/index.md'><img src="/src/galaxy-team/james.jpg" alt="James Taylor" height="150" /></a><br />
+<a href='/src/people/james-taylor/index.md'><img src="/src/images/people/james.jpg" alt="James Taylor" height="150" /></a><br />
 [James Taylor](/src/people/james-taylor/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu)  <br /> <br />
 </div>
@@ -165,12 +165,12 @@ Luke Sargent<br />
 [HSPH](http://www.hsph.harvard.edu/) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="/src/galaxy-team/nuwan.jpg" alt="Nuwan Goonasekera" height="150" /><br />
+<img src="/src/images/people/nuwan.jpg" alt="Nuwan Goonasekera" height="150" /><br />
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)<br />
 [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/) <br /> <br />
 </div>
 <div class='col-md-3'>
-<img src="/src/galaxy-team/greg.jpg" alt="Greg von Kuster" height="150" /><br />
+<img src="/src/images/people/greg.png" alt="Greg von Kuster" height="150" /><br />
 [Greg von Kuster](/src/people/greg_vonkuster/index.md) <br />
 [Penn State](http://www.bx.psu.edu) <br /> <br />
 </div>

@@ -41,14 +41,14 @@ We are happy to have [sponsors](/src/events/gccbosc2018/sponsors/index.html) con
 
 ### GigaScience and Oxford University Press
 
-[<img class="float-left" src="/src/events/gccbosc2018/sponsors/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
+[<img class="float-left" src="/src/images/logos/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
 
 **[GigaScience](https://academic.oup.com/gigascience)** is an online open access, open data, open peer-review journal published by **[Oxford University Press](https://academic.oup.com/)** and **[BGI](https://www.bgi.com/us/)**. The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net](http://gigagalaxy.net/) server, novel work presented at the meeting utilising Galaxy is eligible to a 15% APC if it is submitted to our [Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
 
 
 ### Advanced HPC
 
-[<img class="float-right" src="/src/events/gccbosc2018/sponsors/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
+[<img class="float-right" src="/src/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
 
 Life sciences is an ideal domain to take full advantage of all the things that HPC technology can do. Universities, research organizations, and biotechnology companies are embracing predictive analytics, machine learning and artificial intelligence to make major gains in fighting cancer, personalizing medicine and regenerating organs. The technology is paying huge dividends. For example, research institutions that are using Illumina’s<sup>®</sup> DNA sequence and array-based technologies for genotyping and epigenetic applications are leveraging our compute and parallel solutions to get better and faster results.
 
@@ -59,7 +59,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/src/events/
 
 <div class="float-right">
 <br />
-[<img src="/src/events/gccbosc2018/sponsors/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/events/gccbosc2018/sponsors/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 

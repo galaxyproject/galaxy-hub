@@ -30,7 +30,7 @@ We are very pleased to announce that **[eLife](https://elifesciences.org/)** and
 
 ## eLife
 
-[<img class="float-right img-fluid mx-auto" style="max-width: 240px" src="/src/events/gccbosc2018/sponsors/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/) 
+[<img class="float-right img-fluid mx-auto" style="max-width: 240px" src="/src/images/logos/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/)
 
 ***[eLife](https://elifesciences.org/)*** is a non-profit open access journal, publishing research from across the life and biomedical sciences. We also invest heavily in software development, new product design, collaboration and outreach. This includes the development of open-source tools, with extensible capabilities, that can be used, adopted and modified by any interested party to help move towards an ecosystem that serves science and scientists as efficiently and as cost-effectively as possible.
 
@@ -42,7 +42,7 @@ Through this Initiative, we’re always on the lookout for opportunities to enga
 
 ## The Galaxy Gateway on F1000Research
 
-[<img class="float-right img-fluid mx-auto" style="max-width: 200px" src="/src/events/gccbosc2018/sponsors/f1000-logo-wide.png" alt="F1000Research: Open for Science" />](https://f1000research.com/) 
+[<img class="float-right img-fluid mx-auto" style="max-width: 200px" src="/src/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" />](https://f1000research.com/)
 
 [F1000Research](https://f1000research.com/) is proud this year to be sponsoring childcare for GCC2019, which we feel is vital for inclusivity. F1000Research is an Open Access publishing platform for the life sciences that publishes a range of different article types, from traditional research articles, to method articles and software tools. The platform is particularly well suited to publishing software tool articles as our versioning system allows small updates at any time, we have proper syntax highlighting and we can support LaTeX and markdown submissions.
 

@@ -4,7 +4,7 @@ date: "2012-03-20"
 ---
 <div class='red'>**Hey! This page is under construction.  Registration ain't open yet!**</div>
 
-<div class='right'><a href='/src/events/gcc2012/register/index.md'><img src="/src/events/gcc2012/GCC2012LogoWide400.png" alt="GCC2012 Early Registration is Open" width="350px" /></a></div>
+<div class='right'><a href='/src/events/gcc2012/register/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="GCC2012 Early Registration is Open" width="350px" /></a></div>
 
 [Registration](/src/events/gcc2012/register/index.md) is now open for the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md).  This annual event will be held [July 25-27](/src/events/gcc2012/program/index.md) in [Chicago, Illinois](/src/events/gcc2012/logistics/index.md). The 2012 conference features [two full days](/src/events/gcc2012/program/index.md) of presentations, breakouts, and lightning talks about extending, developing, deploying, and best practices for Galaxy.  A [day long training event](/src/events/gcc2012/training-day/index.md) has also been added, covering 7 different topics in multiple tracks. 
 

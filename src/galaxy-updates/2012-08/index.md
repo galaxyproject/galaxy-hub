@@ -58,7 +58,7 @@ These papers were among [29 papers added to the Galaxy CiteULike group](http://w
 
 ## GCC2012 & GCC2013
 
-<a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/src/events/gcc2013/index.md'><img src="/src/events/gcc2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
+<a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/src/events/gcc2013/index.md'><img src="/src/events/gcc2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
 </div>
 
 <br />

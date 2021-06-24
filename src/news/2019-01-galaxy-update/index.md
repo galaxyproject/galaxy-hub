@@ -286,7 +286,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/events/gcc2013/abstracts/talks/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
 
 There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
