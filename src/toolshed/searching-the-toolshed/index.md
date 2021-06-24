@@ -22,7 +22,7 @@ Clicking the **Search repositories** button will display a list of all tool shed
 
 The **Search** section of the left tool shed menu panel includes an option labeled **Search for workflows**. Clicking on the **Search for workflows** menu item will display the following page. You can search repositories for workflows by entering a workflow name. Here we are searching for all workflows whose name contains the string **genome** (we are not matching on the exact strings).
 
-![](/src/toolshed/searching-the-toolshed/find_workflows.png)
+![](/src/toolshed/workflow-sharing/find_workflows.png)
 
 Clicking the **Search repositories** button will display a list of all tool shed repositories that matched our criteria (i.e., the repository contains at least 1 exported workflow whose name contains the string **genome**).
 

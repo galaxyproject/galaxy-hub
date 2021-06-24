@@ -16,7 +16,7 @@ This document refers to two Galaxy "perspectives"; the Admin perspective which i
 
 When a data library is first created, it is considered public because anyone (even users that have not logged in) can access it from the "Data Libraries" perspective. So by default, data libraries are open to the public. Let's inspect the permissions settings on a new data library. To do this, create a new data library, browse to it in the data libraries browser and select the "Edit permissions" option in the data library's pop-up menu (click the downward-pointing triangle just right of the data library name).
 
-![](/admin/data-libraries/library_popup_menu.png)
+`![](/admin/data-libraries/library_popup_menu.png)`
 
 Something similar to the following page is displayed. In our case, we have 4 Galaxy users as follows:
 
@@ -27,7 +27,7 @@ Something similar to the following page is displayed. In our case, we have 4 Gal
 
 Each Galaxy user is associated with a private role which is the same as their login (email address), and these roles are displayed in the boxes labeled "Roles not associated" for each of the permissions on the data library. All roles that exist in your Galaxy instance, whether private or not, will be displayed here. In our case we have 1 non-private role named role1, and both users **test1@bx.psu.edu** and **test2@bx.psu.edu** have that role.
 
-![](/data-libraries/library_permissions1.png)
+`![](/data-libraries/library_permissions1.png)`
 
 With the exception of **access library** , each of these permissions is also available on the data library's contained folders and datasets. We'll describe this in more detail later, but for now our discussion is restricted to the data library itself.
 
@@ -56,7 +56,7 @@ As mentioned above, if any roles are associated with the **access library** perm
 
 Now we'll save the changes by clicking the "Save" button at the bottom of the page and the following page will be displayed.
 
-![](/data-libraries/library_permissions2.png)
+`![](/data-libraries/library_permissions2.png)`
 
 Note that the private roles **test@bx.psu.edu** and **test3@bx.psu.edu** are no longer displayed in any of the permissions boxes. They have been eliminated because users that have those roles do not have access to the data library (i.e., neither of the users with those private roles will see the data library from the Data Libraries perspective), so they will not be able to perform any actions on it.
 
@@ -66,21 +66,21 @@ We'll browse the data library (by clicking on it's name in the data libraries br
 
 Another important point to note is that the "Add datasets" and "Add folder" buttons are not displayed in the upper right corner of the page. This is because the user **test1@bx.psu.edu** does not have a role associated with the **add library item** permission on the data library.
 
-![](/data-libraries/library_popup_menu1.png)
+`![](/data-libraries/library_popup_menu1.png)`
 
 To further demonstrate data library permissions, we'll log out again and log back in as user **test2@bx.psu.edu** , and browse this same data library. When we click the pop-up menu now, nothing is displayed, but notice that the "Add datasets" and "Add folder" buttons are displayed. This is because this user's **test2@bx.psu.edu** private role is associated with the **add library item** permission on the data library, but the user does not have a role associated with any of the permissions required to perform the actions available in the pop-up menu.
 
-![](/admin/data-libraries/library-security/library_popup_menu2.png)
+`![](/admin/data-libraries/library-security/library_popup_menu2.png)`
 
 ### Permissions on folders
 
 By default, folders added to the top level of the data library hierarchy inherit the data library permissions settings. To demonstrate this, we'll log back out and log in again as **test@bx.psu.edu** (an admin user), go to the Admin perspective, and select "Manage data libraries" from the Administrator menu. This will display the data libraries browser from which we'll browse the data library named "My first data library". We'll add a folder named "My first folder" to the data library. Clicking the folder popup-menu just to the right of the folder name (or folder description, if one exists) will display the following menu.
 
-![](/data-libraries/folder_popup_menu1.png)
+`![](/data-libraries/folder_popup_menu1.png)`
 
 Selecting "Edit permissions" will display the following page. Notice that the "Roles associated" settings have all been inherited from the data library. Also notice that the **library access** permission is not displayed. That permission is a special case in that it is only relevant to the data library (so it is only available at the data library level).
 
-![](/data-libraries/folder_permissions1.png)
+`![](/data-libraries/folder_permissions1.png)`
 
 These security settings affect the actions that can be performed on this folder by the 2 users the same way that the settings on the data library affect them. If we login as user **test1@bx.psu.edu** , browse to this data library from the Data Libraries perspective and click the folder's pop-up menu, we see that we can "Edit information", "Add template" and "Edit permissions". If we login as user **test2@bx.psu.edu** , we find that we can only "Add datasets" and "Add sub-folders" to the folder.
 
@@ -96,15 +96,15 @@ Like folders, datasets inherit their data library permissions settings from thei
 
 Let's log in as **test@bx.psu.edu** (the admin user) again, and add a dataset to the data library. The following page is displayed when the "Add datasets" button is clicked. We've selected a file for upload (1.bed) and set the genome to hg18.
 
-![](/admin/data-libraries/upload_dataset1.png)
+`![](/admin/data-libraries/upload_dataset1.png)`
 
 Note the select list labeled "Restrict dataset access to specific roles". If the data library is public, this list will include every role, but if the data library is not public, the list of roles is derived from the set of users that have access to the data library (i.e., the list consists of only the unique set of roles associated with all users that can access the data library). If no roles are selected in this list (for now we'll not select any), the dataset is considered public (more on this in a minute). After clicking the "Upload to data library" button, the following page is displayed.
 
-![](/admin/data-libraries/browse_library2.png)
+`![](/admin/data-libraries/browse_library2.png)`
 
 Notice that the just-uploaded dataset is selected, and the default action that we can perform on it is "Edit permissions". Clicking the "Go" button displays the following page.
 
-![](/admin/data-libraries/dataset_permissions1.png)
+`![](/admin/data-libraries/dataset_permissions1.png)`
 
 The settings for the 3 data library permissions ( **modify library item** , **add library item** and **manage library permissions** ) have all been inherited from the containing folder.
 
@@ -123,13 +123,13 @@ Another very important point to note on public datasets: being public implies th
 
 We'll leave the above permission settings as they are for now (the dataset is public) in order to demonstrate the behavior the settings produce in the Data Libraries perspective. We'll first logout and then log in as user **test1@bx.psu.edu** , visit the Data Libraries perspective, browse the data library, and click on the dataset's pop-up menu. Here is what we see:
 
-![](/admin/data-libraries/dataset_popup_menu1.png)
+`![](/admin/data-libraries/dataset_popup_menu1.png)`
 
 Since the private role for user **test1@bx.psu.edu** is associated with the **modify library item** permission, they are allowed to edit the information about the dataset, add a template to the dataset or edit the template layout if one is already associated, and upload a new version of the dataset. Since the same private role is associated with the **manage library permissions** permission, they are also allowed to edit the permissions on the dataset. Any user that can access a dataset can import it into their history for analysis or download it.
 
 Next we'll log in as user **test2@bx.psu.edu** , browse to the same dataset, and click the pop-up menu. Here is what we now see:
 
-![](/admin/data-libraries/dataset_popup_menu2.png)
+`![](/admin/data-libraries/dataset_popup_menu2.png)`
 
 Since the private role for user **test2@bx.psu.edu** is only associated with the **add library item** permission (which is not applicable to datasets), they are only allowed to view the information about the dataset, import it into their history or download it.
 
@@ -140,13 +140,13 @@ To further demonstrate how permission settings on datasets affect the behavior o
 
 The image below shows what we now have. Dataset 1.bed is a public dataset contained in the (now public) data library, and dataset 2.bed is a public dataset contained in the folder named "My first folder".
 
-![](/admin/data-libraries/browse_library3.png)
+`![](/admin/data-libraries/browse_library3.png)`
 
 We'll now log out and browse the data library from the Data Libraries perspective wiithout logging back in. We find that we can access the data library (since it is public), and we can see both dataset 1.bed and 2.bed, just as in the above image.
 
 Next we'll login as **test@bx.psu.edu** (the admin user) and associate the private role for the user **test2@bx.psu.edu** with the **access** permission on dataset 2.bed. We'll then log out and again browse the data library from the Data Libraries perspective wiithout logging back in. Here is what we now see:
 
-![](/admin/data-libraries/browse_library4.png)
+`![](/admin/data-libraries/browse_library4.png)`
 
 Notice that the folder named "My first folder" is no longer displayed, This is because it has no contents that are publically accessible. In fact, the only user that will currently see this folder is **test2@bx.psu.edu** since all of the current contents of the folder are only accessible to that user.
 
@@ -158,17 +158,17 @@ As mentioned earlier, if any roles are associated with the **access** permission
 
 To demonstrate, we'll login as **test@bx.psu.edu** (the admin user) and browse to the library from the Admin perspective. We'll edit permissions on dataset 1.bed, attempting to associate both private roles **test1@bx.psu.edu** and **test2@bx.psu.edu** with the **access** permission. Note that this would render the dataset in-accessible, since no user has both of these roles. Here is the result of our attempt:
 
-![](/admin/data-libraries/dataset_permissions2.png)
+`![](/admin/data-libraries/dataset_permissions2.png)`
 
 In fact, since there is a 1-to-1 mapping between users and private roles, we should not be allowed to associate more than 1 role with the **access** permission on the dataset if any of the roles are private. Here is what we get if we try to do this by associating both non-private role **role1** and private role **test1@bx.psu.edu** with the **access** permission on the dataset:
 
-![](/admin/data-libraries/dataset_permissions3.png)
+`![](/admin/data-libraries/dataset_permissions3.png)`
 
 ### Displaying private roles
 
 As you have been made aware, private roles are the same as the user's Galaxy login (their email address). Because of this, private roles are displayed in permission forms only within the Admin perspective. The one exception to this is the current user's private role. To demonstrate this, we'll login as user **test1@bx.psu.edu** and browse to the data library from the Data Libraries perpsective. Remember that this user's private role is associated with the **manage library permissions** on the data library, so they are allowed to edit the permissions forms for the data library and some or all of it's contents. When we choose "Edit permissions" from the data library's pop-up menu, we see the following page. As you can see, with the exception of the current user's private role, no private roles are displayed in any of the permissions boxes.
 
-![](/admin/data-libraries/library_permissions3.png)
+`![](/admin/data-libraries/library_permissions3.png)`
 
 ### Notes on security from Admin Page
 

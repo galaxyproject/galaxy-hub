@@ -306,8 +306,8 @@ two specific places in the [usegalaxy.org](https://usegalaxy.org/) interface:
 
 **Example: dbkey 'Tcas_3.0'**
 
-* *On **Get Data -> Upload File** tool:* <br />![](/src/admin/use-galaxy-rsync/dbkey_UploadFile.png)
-* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](/src/admin/use-galaxy-rsync/dbkey_EditAttributes.png)
+* *On **Get Data -> Upload File** tool:* <br />![](./dbkey_UploadFile.png)
+* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](./dbkey_EditAttributes.png)
 
 ## Location (*.loc) Files
 
