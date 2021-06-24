@@ -5,17 +5,25 @@ days: 1
 tease: "Part of the Galaxy Resources Webinar Series"
 continent: GL
 location: "Galaxy Resources Webinar Series, Online, Global"
-image: "/src/events/webinars/gr4-webinars-400.png"
+image: "gr4-tools-webinar.png"
 location_url: "/events/webinars/"
 external_url:
-contact: "Dan Blankenberg"
+contact: "Dan Blankenberg, Anthony Bretaudeau, Petr Novak"
 tags: [ webinar ]
 gtn: false
 links:
+- text: "Video"
+  url: "https://youtu.be/MdQyltMAocg"
+- text: "Ecosystem slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-ecosystem.pdf "
+- text: "Docker slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf "
+- text: "Server slides"
+  url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-server.pdf "
 ---
 
-* **10am Eastern US. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1).**
-* **Zoom Link**
+* **10am Eastern US / 4pm Central European / [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Resources+for+Tool+Developers+Webinar&iso=20210512T10&p1=419&ah=1)**
+* **[Recording](https://youtu.be/MdQyltMAocg)**
 
 This webinar will highlight Galaxy resources for **tool developers**.  It's part of the *Galaxy Resources Webinar Series*.  Each webinar in that series highlights resources for a different audience.
 
@@ -31,4 +39,4 @@ This webinar will highlight
 
 ## Please Register
 
-Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeFkWEiUrJtB47smJGiVGdYZArfqHR0X6HlvLc1m7IMssdVLw/viewform)** in attending. We will send you a reminder and a link prior to the webinar.
+Please **[register your interest](https://docs.google.com/forms/d/e/1FAIpQLSeFkWEiUrJtB47smJGiVGdYZArfqHR0X6HlvLc1m7IMssdVLw/viewform)** in attending. We will send you a reminder and the link prior to the webinar.

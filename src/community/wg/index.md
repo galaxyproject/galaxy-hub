@@ -92,6 +92,20 @@ Tool use is what Galaxy enables.  This group works on improving Galaxy's tools e
 * Leadership: Alex Ostrovsky, Dave Bouvier
 </div>
 
+<!-- Workflows -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-primary text-white">Workflows</div>
+
+This group builds the standards and ecosystem for execution, testing, publishing and improving workflows, workflow features and workflow performance.
+
+* [GitHub Project](https://github.com/orgs/galaxyproject/projects/20)
+* [Google Drive](https://drive.google.com/drive/folders/1E8xG5u8mInGr5-GgfpKVTQYeo5xkRkAx?usp=sharing)
+* [Gitter Channel](https://gitter.im/galaxyproject/iwc)
+* Leadership: Marius van den Beek
+
+</div>
+
+
 
 <!-- Outreach & Training -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">

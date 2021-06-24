@@ -1,0 +1,16 @@
+---
+title: "Strengthening the integration of Galaxy in the Tools Ecosystem"
+date: '2021-06-03'
+days: 11
+tease: "Latest developments and plans, and discussion of current and future collaborations within ELIXIR."
+continent: EU
+location: "ELIXIR All Hands 2021, Online, Europe"
+location_url: "https://elixir-europe.org/events/elixir-all-hands-2021"
+external_url: "https://docs.google.com/document/d/1vmOwdlfHTERJudwhs9F6v3oYIAMi0wc5bJWsHDSqWRM/edit#heading=h.8yacamuak08k"
+gtn: false
+contact: "Frederik Coppens, Hervé Ménager, Björn Grüning, Salva Capella, Nicola Soranzo"
+image:
+links:
+- text: "Slides"
+  url: "https://docs.google.com/document/d/1vmOwdlfHTERJudwhs9F6v3oYIAMi0wc5bJWsHDSqWRM/edit#heading=h.8yacamuak08k"
+---

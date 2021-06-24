@@ -4,32 +4,32 @@
     </a>
 </h2>
 <p>
-    <strong><a href="https://youtu.be/IUCgUHCixxc">
-        ELIXIR Webinar: Speed up your data analysis with Galaxy:
+    <strong><a href="https://youtu.be/vx2icgaU_h0">
+        Webinar: Galaxy Resources for System Administrators and Infrastructure Providers
     </a></strong>
-    <span class="small">- Little know features (lots of them)</span>
+    <span class="small">- Gianmaruo Cuccuru and Lucille Delisle wrap up the series</span>
 </p>
 <p>
-    <strong><a href="https://youtu.be/eU1753h6NIs">
-        Running workflows in Galaxy from the Workflow Hub
+    <strong><a href="https://youtu.be/oGOF3r3SmDY">
+        Happy 42nd Birthday James Taylor
     </a></strong>
-    <span class="small">- Galaxy workflows available in the <a href="https://workflowhub.eu/">Workflow Hub</a> can be directly run on <a href="https://usegalaxy.eu/">usegalaxy.eu</a></span>
+    <span class="small">- James was one of the founders and principal investigators of the Galaxy Project.  May 18 would have been his 42nd birthday.</span>
 </p>
 <p>
-    <strong><a href="https://youtu.be/7DN8hbI87PE">
-        ELIXIR Webinar: Galaxy Bridge to Jupyter Notebooks and RStudio
+    <strong><a href="https://youtu.be/MSUt-F9Jib4">
+        Customizeable welcome and introduction page for new Galaxy users
     </a></strong>
-    <span class="small">- Interactive tools in Galaxy</span>
+    <span class="small">- Galaxy Developer Round Table call</span>
 </p>
 <p>
-    <strong><a href="https://youtu.be/7DN8hbI87PE">
-        ELIXIR Webinar: Processing thousands of datasets simultaneously
+    <strong><a href="https://youtu.be/MdQyltMAocg">
+        Webinar: Galaxy Resources for Tool Developers
     </a></strong>
-    <span class="small">- From SRA/ENA import and metadata annotation to parallel processing</span>
+    <span class="small">- Galaxy resources for getting your tools used.</span>
 </p>
 <p>
-    <strong><a href="https://youtu.be/cuCbkvvxmzQ">
-        immuneML Quickstart in Galaxy
+    <strong><a href="https://youtu.be/uKTjVWU5Kg4">
+        Webinar: Building a bioinformatics platform: Lessons learned from immuneML
     </a></strong>
-    <span class="small">- Simplified interfaces for immune receptor and repertoire classification in the immuneML server</span>
+    <span class="small">- immuneML is a platform for the analysis of adaptive immune receptors through machine learning</span>
 </p>

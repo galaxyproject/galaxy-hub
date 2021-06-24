@@ -8,6 +8,15 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
+<div class="video-variable">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oGOF3r3SmDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<p class="h1 text-center"> Happy Birthday James. </p>
+
+
+---
+
 <br />
 
 [<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 15rem" />](/src/jxtx/james.jpg)
@@ -35,7 +44,7 @@ So, as you can see, we are trying … we’ll be keeping you in the loop. Just n
 
 Please share your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
 
-Here is what we will need you to do **by April 30**:
+Here is what we will need you to do **by May 7**:
 
 1. Think of your favorite story/interaction/event involving James.
 1. Pick a nice location and record the video!

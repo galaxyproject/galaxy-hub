@@ -5,6 +5,8 @@ external_url: ""
 date: "2021-04-14"
 ---
 
+<small>Updated May 29th 2021</small>
+
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
 **[2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition)  will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
@@ -17,11 +19,17 @@ The move to virtual has allowed the conference to slash registration rates to a 
 
 Registration rates depend on where you are in your career, and where you are in the world.
 
+**Please note: VAT is not included in these prices.  VAT will be added at registration time.**
+
+## Fellowships
+
+If you are based in a developing economy, then please consider [applying for a GCC2021 Conference Fellowship](/src/news/2021-04-gcc-fellowships/index.md).  If you are a student or post-doc, anywhere in the world, please consider applying for a [GCC2021 James Taylor Conference Fellowship](/src/news/2021-05-gcc-jxtx/index.md).
+
 ## Participants Based in Low, Lower-Middle, and Upper-Middle Income Countries
 
 If you are a student or researcher based in a [low, lower-middle, or upper-middle income country](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) as defined by the World Bank, then you are eligible for these rates:
 
-| Dates | Event | Career Stage | Early (by May 24) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 8) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €3.25 | €6.50 |
 | | | *Academic* | €6.50 | €13.00 |
@@ -32,8 +40,6 @@ If you are a student or researcher based in a [low, lower-middle, or upper-middl
 | **9-10 July** | **CoFest** | *All* | Free | Free |
 
 To receive these rates please contact [VIB Conferences](mailto:conferences@vib.be)  to obtain a discount code you can use when you register.
-
-*In addition, please also consider [applying for a GCC2021 Conference Fellowship](/src/news/2021-04-gcc-fellowships/index.md).*
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
@@ -46,7 +52,7 @@ To receive these rates please contact [VIB Conferences](mailto:conferences@vib.b
 
 ## Participants Based in High Income Countries and In Industry
 
-| Dates | Event | Career Stage | Early (by May 24) | Full (by June 25) |
+| Dates | Event | Career Stage | Early (by June 8) | Full (by June 25) |
 | --- | --- | --- | --- | --- |
 | **28 June - 2 July** | **Scientist & Developer Training** | *Student* | €15.00 | €30.00 |
 | | | *Academic* | €25.00 | €40.00 |
@@ -68,6 +74,6 @@ To receive these rates please contact [VIB Conferences](mailto:conferences@vib.b
 </div>
 
 
-# Abstract Submission Closes 7 May
+# Abstract Submission Closes ~~7~~ 17 May
 
 Abstract submission is also open.  Please [see the announcement](/src/news/2021-04-gcc-abstracts/index.md) for information.

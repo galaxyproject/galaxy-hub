@@ -28,12 +28,22 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ### 2021
 
-* **[2021-05-27: TBD](/src/events/2021-05-27-dev-roundtable/index.md)**
-  * Leaders:
-* **[2021-05-13: TBD](/src/events/2021-05-13-dev-roundtable/index.md)**
-  * Leaders:
+* **[2021-08-19: TBD](/src/events/2021-08-19-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-08-05: TBD](/src/events/2021-08-05-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-07-22: TBD](/src/events/2021-07-22-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-06-10: Galaxy Development Environments](/src/events/2021-06-10-dev-roundtable/index.md)**
+  * Leaders: Alexandru Mahmoud, Marius van den Beek
+* **[2021-05-27: Release testing](/src/events/2021-05-27-dev-roundtable/index.md)**
+  * Leaders: Keith Suderman, Dave Bouvier, David López, Qiang Gu, Vijay Nagampal, Marius van den Beek
+  * [Video](https://youtu.be/b35qKpahQYw),  [Slides](https://depot.galaxyproject.org/hub/attachments/events/2021-05-27-dev-roundtable//21-05-release-testing-slides.pdf)
+* **[2021-05-13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md)**
+  * Leaders: Alex Ostrovsky
 * **[2021-04-29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**
   * Leaders: Aysam Guerler
+  * [Video](https://youtu.be/b4fL9fJbIbI), [Slides](https://docs.google.com/presentation/d/1_KVlgGOQ3Vccd4Gfx0tbdidkj5PlAYMvfF1qAxbllbM/edit#)
 * 2021-04-15: No meeting
 * 2021-04-01: No meeting
 * **[2021-03-18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**

@@ -33,7 +33,7 @@ Cutting across all Working Groups, *[Committers Groups](/src/community/committer
 
 # Code of Conduct
 
-**All of these groups, and all aspects of the Galaxy Community, are bound by the [Galaxy Code of Conduct](https://github.com/galaxyproject/galaxy/blob/57d6a3857d397fedf9fbed724241584fd031033b/CODE_OF_CONDUCT.md).**  Look for an update to that, and much more prominent placement across the Galaxy Ecosystem, before GCC2021 starts in June.
+**All of these groups, and all aspects of the Galaxy Community, are bound by the [Galaxy Code of Conduct](/src/community/coc/index.md).**  Look for an update to that, and much more prominent placement across the Galaxy Ecosystem, sometime in 2021.
 
 # Proposed Galaxy governance and planning structure
 

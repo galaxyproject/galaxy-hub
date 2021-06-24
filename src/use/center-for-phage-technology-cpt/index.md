@@ -14,6 +14,7 @@ comments:
   - "Server includes many genbank and gff3 processing tools, largely focused on annotation of phages."
 user_support:
   - "[FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/)"
+  - "[Videos](https://www.youtube.com/channel/UCSg8OW817LvhnjU3grTgRNQ)"
   - "Email: [Cory Maughmer](mailto:cory.maughmer@tamu.edu)"
 quotas:
   - "An account will bump your quota from 50 Mb to 10 Gb. The administrator can increase your quota on request."

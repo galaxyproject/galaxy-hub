@@ -12,4 +12,6 @@ contact: "Frederik Coppens, Miguel Roncoroni, Ignacio Eguino"
 tags: [ webinar ]
 gtn: false
 links:
+- text: "Video"
+  url: "https://youtu.be/cNoAo-mDKAY"
 ---
