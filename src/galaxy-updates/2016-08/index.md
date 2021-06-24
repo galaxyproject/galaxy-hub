@@ -37,7 +37,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
-<div class='left'><a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=140" /></a></div>
+<div class='left'><a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
 
 The first ever [Galaxy Project Admin Training workshop](/src/events/admin-training2016/index.md) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 

@@ -51,8 +51,8 @@ If you have some you would like to have posted here, please send them to [Galaxy
 
 <table>
   <tr>
-    <td style=" text-align: center;"> <img src="/src/events/gcc2014/photos/Posters1.jpg" alt="Poster Session; Photo by David van Enckevort, licensed as CC-BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/4.0/)" height=250" /><br />Poster session<sup>1</sup> </td>
-    <td style=" text-align: center;"> <img src="/src/events/gcc2014/photos/Posters2.jpg" alt="Poster Session; Photo by David van Enckevort, licensed as CC-BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/4.0/)" width=250" /><br />Poster session<sup>1</sup> </td>
+    <td style=" text-align: center;"> <img src="/src/events/gcc2014/photos/Posters1.jpg" alt="Poster Session; Photo by David van Enckevort, licensed as CC-BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/4.0/)" height="250" /><br />Poster session<sup>1</sup> </td>
+    <td style=" text-align: center;"> <img src="/src/events/gcc2014/photos/Posters2.jpg" alt="Poster Session; Photo by David van Enckevort, licensed as CC-BY-NC-SA (http://creativecommons.org/licenses/by-nc-sa/4.0/)" width="250" /><br />Poster session<sup>1</sup> </td>
   </tr>
 </table>
 

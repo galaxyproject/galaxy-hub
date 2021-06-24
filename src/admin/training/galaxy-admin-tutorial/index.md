@@ -1,6 +1,6 @@
 # Galaxy Tutorial
 
-See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy Tutorial) at the [GMOD web site](http://gmod.org/wiki/) for the most recent version of this tutorial.
+See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy%20Tutorial) at the [GMOD web site](http://gmod.org/wiki/) for the most recent version of this tutorial.
 
 # Other Links
 

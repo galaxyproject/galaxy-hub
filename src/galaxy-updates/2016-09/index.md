@@ -22,7 +22,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
 <div class='left solid center'>
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=200" /></a><br />
+<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
 November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Early registration ends Sept 19](/src/events/admin-training2016/registration/index.md) 
 </div>
 
@@ -73,7 +73,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
 <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/src/images/logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="80" /></a>
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/images/logos/BioSBResearchSchool.png" alt="NGS Course: RNA-seq data analysis" height="80" /></a>
 <a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'><img src="/src/images/logos/IIBMP2016Logo.png" alt="GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)" height="80" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=120" /></a>
+<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
 </div>
 
 <table>

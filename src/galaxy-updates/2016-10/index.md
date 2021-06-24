@@ -74,7 +74,7 @@ Ciao,
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
 <div class='left solid center'>
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=200" /></a><br />
+<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
 November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Register by October 16](/src/events/admin-training2016/registration/index.md) 
 </div>
 
@@ -157,7 +157,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
 <a href='https://www.facebook.com/events/1593583060947735/'><img src="/src/images/logos/CBioVikingsTrans.png" alt="Galaxy Workshop" height="80" /></a>
 <a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'><img src="/src/images/logos/IFBGalaxyWG.png" alt=" Galaxy4Bioinformatics"  /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=120" /></a>
+<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
 </div>
 
 <table>

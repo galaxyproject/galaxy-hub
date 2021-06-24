@@ -13,7 +13,7 @@
     <strong><a href="https://youtu.be/eU1753h6NIs">
         Running workflows in Galaxy from the Workflow Hub
     </a></strong>
-    <span class="small">- Galaxy workflows available in the <a href="https://workflowhub.eu/">Workflow Hub</a> can be directly run on <a href="https://usegalaxy.eu/">usegalaxy.eu<a/></span>
+    <span class="small">- Galaxy workflows available in the <a href="https://workflowhub.eu/">Workflow Hub</a> can be directly run on <a href="https://usegalaxy.eu/">usegalaxy.eu</a></span>
 </p>
 <p>
     <strong><a href="https://youtu.be/7DN8hbI87PE">
