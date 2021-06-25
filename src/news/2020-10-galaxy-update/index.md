@@ -103,7 +103,7 @@ There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualizat
 
 <!-- BioHackathon-Europe -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon Europe" />
+<img class="card-img-top" src="/src/images/logos/bhlogo.png" alt="BioHackathon Europe" />
 <div class="card-header">[Galaxy @ BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md)</div>
 
 Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).

@@ -284,7 +284,7 @@ There next roundtable meetup will be:
 
 <!-- biohack deadline -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="Biohackathon Europe" />
+<img class="card-img-top" src="/src/images/logos/bhlogo.png" alt="Biohackathon Europe" />
 <div class="card-header">[Biohackathon Europe Call for Proposals](https://biohackathon-europe.org/projects.html)</div>
 
 **Deadline: 1 April**

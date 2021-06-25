@@ -21,7 +21,7 @@ tags: [ cofest ]
 [<img style="max-width: 160px" src="/src/images/logos/bioconda.png" alt="Bioconda" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)<br />
 </div>
 <div class="float-right">
-[<img style="max-width: 160px" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon-Europe 2019" />](https://www.biohackathon-europe.org/index.html)<br /><br />
+[<img style="max-width: 160px" src="/src/images/logos/bhlogo.png" alt="BioHackathon-Europe 2019" />](https://www.biohackathon-europe.org/index.html)<br /><br />
 [<img style="max-width: 160px" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8)<br /><br />
 <img style="max-width: 160px" src="/src/events/2019-11-biohackathon-europe/bouncy.jpg" alt="Comes with interesting seating" /><br />
 [<img style="max-width: 160px" src="/src/images/logos/cwl-logo-small-trans.png" alt="CWL" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)<br />

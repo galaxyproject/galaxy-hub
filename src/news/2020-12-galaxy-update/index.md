@@ -262,7 +262,7 @@ The Galaxy community participated in 8 different projects during the BioHackatho
 - [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
 - [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
 
-<img class="card-img-bottom" src="/events/2019-11-biohackathon-europe/bhlogo.png" alt="BH2020" />
+<img class="card-img-bottom" src="/images/logos/bhlogo.png" alt="BH2020" />
 </div>
 
 
