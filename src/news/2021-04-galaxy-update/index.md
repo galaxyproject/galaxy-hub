@@ -33,7 +33,11 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 
 <!-- James -->
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
-<img class="card-img-top" src="/src/jxtx/jxtx-stripe.jpg" alt="James Taylor" />
+<div class="card-img-top trim-p">
+
+![James Taylor](/src/images/jxtx/jxtx-stripe.jpg)
+
+</div>
 <div class="card-header">Share your favorite James Taylor story</div>
 
 It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
