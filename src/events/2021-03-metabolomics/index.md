@@ -11,5 +11,5 @@ gtn: false
 contact: "Mélanie Petera, Melanie Föll"
 tags: []
 links:
-image: "/src/news/2020-12-galaxy-update/metabolomics.png"
+image: "/src/images/communities/metabolomics.png"
 ---

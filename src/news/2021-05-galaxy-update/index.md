@@ -267,7 +267,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 <!-- Metabolomics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/news/2020-12-galaxy-update/metabolomics.png" alt="metabolomics" />
+<img class="card-img-top" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
 <div class="card-header">
 
 [Galaxy Metabolomics Community Call](/src/events/2021-05-metabolomics/index.md)

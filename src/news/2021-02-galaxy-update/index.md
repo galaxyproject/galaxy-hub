@@ -402,7 +402,7 @@ The past 29th of January, the Galaxy Metabolomics community had the first Mini-S
 
 To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
 
-<img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/metabolomics.png" alt="metabolomics" />
+<img class="card-img-bottom" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
 </div>
 
 </div>
