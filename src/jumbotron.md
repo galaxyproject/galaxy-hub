@@ -2,26 +2,22 @@
 title: James Taylor
 ---
 
-<div class="col-1"></div>
-<div class="col-5" style="max-width: 26rem;">
-
-[![James Taylor](./jxtx/james.jpg)](/jxtx/)
-
-</div>
+[![GCC2021: June 28 - July 10](events/gcc2021/gcc2021-banner-global.png)](https://www.vibconferences.be/events/gcc2021-virtual-edition)
 
 <div class="col-6">
-
-<h1 class="display-4">
-
-[James Taylor](/jxtx/)
-
-</h1>
-
-<div class="display-5" style="font-size: 150%; font-weight: 300">
-
-1979-2020  
-It's been a year.  
-[Please help us celebrate James on May 18, his birthday.](/jxtx/)  
-
+  <strong><h2 class="display-5"><div style="font-size: 150%;">
+    <a href="/news/2021-02-gcc-virtual/">
+      Virtual, Global &amp; Affordable
+      <br>
+      <div style="font-size: 80%;"> June 28 - July 10 2021</div>
+    </a>
+  </div></h2></strong>
 </div>
-</div>
+<h2 class="col-6 display-5">
+  <div style="font-size: 120%">
+
+[Registration ends June 25](/news/2021-05-gcc-reg/)  
+[Conference Schedule](https://gcc2021.sched.com/)
+
+  </div>
+</h2>
