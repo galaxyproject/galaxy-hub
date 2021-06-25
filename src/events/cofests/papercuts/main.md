@@ -12,8 +12,13 @@ Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address
 * Dedicate time together for bug-fixing.
 * Make reducing paper cuts fun.
 
-<div class="text-center">
-<img src="/src/events/2020-10-papercuts/papercuts-2020-10-21.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2020-11-papercuts/papercuts-2020-11-18.png" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2020-12-papercuts/papercuts-2020-12.gif" style="max-height: 6rem;" /> &nbsp; <img src="/src/events/2021-01-papercuts/papercuts-2021-01.png" style="max-height: 6rem;" /> 
+<div class="text-center img-sizer autowidth" style="height: 6rem">
+
+![](/src/events/2020-10-papercuts/papercuts-2020-10-21.png)
+![](/src/events/2020-11-papercuts/papercuts-2020-11-18.png)
+![](/src/events/2020-12-papercuts/papercuts-2020-12.gif)
+![](/src/events/2021-01-papercuts/papercuts-2021-01.png)
+
 </div>
 
 
