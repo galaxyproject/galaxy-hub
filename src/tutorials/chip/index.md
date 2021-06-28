@@ -64,7 +64,7 @@ There are four datasets:
   	</div>
 </div>
 
-These datasets are deposited in a [Galaxy library](https://usegalaxy.org/library/list#folders/F050cbba300e2dbed) (watch <a href="#" data-toggle="modal" data-target="#lib_video">Video</a> on how to import data from a library):
+These datasets are deposited in a [Galaxy library](https://usegalaxy.org/libraries/folders/F050cbba300e2dbed) (watch <a href="#" data-toggle="modal" data-target="#lib_video">Video</a> on how to import data from a library):
 
 |      |
 |------|
