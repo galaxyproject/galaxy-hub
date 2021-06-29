@@ -20,11 +20,18 @@ From a pool of extraordinary applicants, I am honored that the organizers chose 
 
 <br />
 
-Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md). <br /><br />
-
+Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Learn more](/src/jxtx/foundation/index.md)</button>
+
+[Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
+
+</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+
+[Learn more](/src/jxtx/foundation/index.md)
+
+</button>
 </div>
+
+<br />

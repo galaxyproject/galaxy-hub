@@ -16,7 +16,11 @@ In addition to covering conference registration, awardees will also be paired wi
 
 <!-- Emily -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="emily.jpg" alt="Emily Davis-Marcisak" />
+<div class="card-img-top trim-p">
+
+![Emily Davis-Marcisak](./emily.jpg)
+
+</div>
 <div class="card-header">Emily Davis-Marcisak</div>
 
 Johns Hopkins University
@@ -26,7 +30,11 @@ Johns Hopkins University
 
 <!-- Georgia -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="georgia.jpg" alt="Georgia Doing" />
+<div class="card-img-top trim-p">
+
+![Georgia Doing](./georgia.jpg)
+
+</div>
 <div class="card-header">Georgia Doing</div>
 
 [Hogan Lab](https://sites.dartmouth.edu/hoganlab/), Geisel School of Medicine at Dartmouth
@@ -38,7 +46,11 @@ Johns Hopkins University
 
 <!-- Kwame -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="kwame.jpg" alt="Kwame Forbes" />
+<div class="card-img-top trim-p">
+
+![Kwame Forbes](./kwame.jpg)
+
+</div>
 <div class="card-header">Kwame Forbes</div>
 
 University of North Carolina Chapel Hill
@@ -49,7 +61,11 @@ University of North Carolina Chapel Hill
 
 <!-- Yuhan -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="yuhan.jpg" alt="Yuhan Hao" />
+<div class="card-img-top trim-p">
+
+![Yuhan Hao](./yuhan.jpg)
+
+</div>
 <div class="card-header">Yuhan Hao</div>
 
 New York Genome Center and New York University
@@ -60,8 +76,16 @@ New York Genome Center and New York University
 
 <!-- Anoushka Joglekar -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="anoushka.jpg" alt="Anoushka Joglekar" />
-<div class="card-header">[Anoushka Joglekar](https://twitter.com/noush_joglekar)</div>
+<div class="card-img-top trim-p">
+
+![Anoushka Joglekar](./anoushka.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Anoushka Joglekar](https://twitter.com/noush_joglekar)
+
+</div>
 
 Weill Cornell Medicine
 
@@ -71,8 +95,16 @@ Weill Cornell Medicine
 
 <!-- John -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="john.jpg" alt="John Lawson" />
-<div class="card-header">[John Lawson](https://j-lawson.github.io/)</div>
+<div class="card-img-top trim-p">
+
+![John Lawson](./john.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[John Lawson](https://j-lawson.github.io/)
+
+</div>
 
 Center for Public Health Genomics and Department of Biomedical Engineering, University of Virginia
 
@@ -82,8 +114,16 @@ Center for Public Health Genomics and Department of Biomedical Engineering, Univ
 
 <!-- Jens  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="jens.jpg" alt="Jens Luebeck" />
-<div class="card-header">[Jens Luebeck](https://jluebeck.github.io/)</div>
+<div class="card-img-top trim-p">
+
+![Jens Luebeck](./jens.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Jens Luebeck](https://jluebeck.github.io/)
+
+</div>
 
 Bioinformatics & Systems Biology, University of California, San Diego
 
@@ -93,8 +133,16 @@ Bioinformatics & Systems Biology, University of California, San Diego
 
 <!--  David -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="david.jpg" alt="David Twesigomwe" />
-<div class="card-header">[David Twesigomwe](https://about.me/twesidave)</div>
+<div class="card-img-top trim-p">
+
+![David Twesigomwe](./david.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[David Twesigomwe](https://about.me/twesidave)
+
+</div>
 
 Sydney Brenner Institute for Molecular Bioscience, University of the Witwatersrand
 
@@ -104,8 +152,16 @@ Sydney Brenner Institute for Molecular Bioscience, University of the Witwatersra
 
 <!-- Loan -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="loan.jpg" alt="Loan Vulliard" />
-<div class="card-header">[Loan Vulliard](http://vulliard.loan/)</div>
+<div class="card-img-top trim-p">
+
+![Loan Vulliard](./loan.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Loan Vulliard](http://vulliard.loan/)
+
+</div>
 
 Department of Biochemistry and Cell Biology, Max Perutz Labs, University of Vienna
 
@@ -115,7 +171,11 @@ Department of Biochemistry and Cell Biology, Max Perutz Labs, University of Vien
 
 <!-- Sumaira -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="sumaira.jpg" alt="Sumaira Zaman" />
+<div class="card-img-top trim-p">
+
+![Sumaira Zaman](./sumaira.jpg)
+
+</div>
 <div class="card-header">Sumaira Zaman</div>
 
 University of Connecticut

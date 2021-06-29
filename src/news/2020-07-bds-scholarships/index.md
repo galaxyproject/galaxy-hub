@@ -12,5 +12,10 @@ The [JTech Foundation](https://give.communityfunded.com/o/eberly/i/eberly-colleg
 <br />
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](https://forms.gle/RzNx1rUc6rqh2fYr8)</button>
+
+[Apply now](https://forms.gle/RzNx1rUc6rqh2fYr8)
+
+</button>
 </div>
+
+<br />

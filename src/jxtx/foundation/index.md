@@ -2,7 +2,11 @@
 title: 'JXTX: The James P. Taylor Foundation for Open Science'
 ---
 
-<div class="text-right"> *The most important job of senior faculty is to mentor junior faculty and students. (@jxtx)*</div>
+<div class="text-right">
+
+*The most important job of senior faculty is to mentor junior faculty and students. (@jxtx)*
+
+</div>
 
 <br />
 
@@ -25,7 +29,9 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+
 [Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button>
+
 </div>
 
 <br />
@@ -33,10 +39,15 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 ## About the JXTX Foundation
 
-<div class="float-left">
-<br />
-  <img src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
-  <div class="small text-left">Big shoes to fill. <br />Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
+<div class="float-left img-sizer" style="max-width: 10rem">
+
+![James Taylor Foundation: Big Shoes to Fill](/src/jxtx/jtech-shoes-400.png)
+
+<div class="small text-left">Big shoes to fill.
+
+Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)
+
+</div>
 </div>
 
 In its early stages, the JXTX Foundation will provide support for graduate students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. Towards the goal of advancing mentorship, JXTX will organize and host mentoring sessions between senior and junior faculty members at select high-profile meetings.

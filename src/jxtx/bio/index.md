@@ -2,7 +2,11 @@
 title: 'James Peter Taylor | 1979 - 2020'
 ---
 
-<div class="text-right"> *Good ideas don’t have owners—they belong to everyone (@jxtx)*</div>
+<div class="text-right">
+
+*Good ideas don’t have owners—they belong to everyone (@jxtx)*
+
+</div>
 
 <br />
 
@@ -13,9 +17,11 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 James Taylor started his professional path at the University of Vermont, where he received a BS in Computer Science in 2000. In 2003, after working as a software engineer in the private sector, he found that his real purpose in life was elsewhere. That year he began his graduate studies in Computer Science at Penn State and joined the nascent Center for Comparative Genomics and Bioinformatics. He used to refer to the Center as ‘BX’—a contraction of BioinformatiX. The name stuck; ‘BX’ is still a part of many URLs (e.g. the original Galaxy URL at http://g2.bx.psu.edu) and is the origin for the name of the [bx-python software package](https://github.com/bxlab/bx-python). The interdisciplinary faculty of the Center included Francesca Chiaromonte, Ross Hardison, Kateryna Makova, Webb Miller, and Anton Nekrutenko.  This group became the core of James’ academic family, a family that has now lost its most brilliant and prolific child.
 
-<figure class="figure">
-  [<img src="/src/jxtx/james-at-gcc2019.jpg" class="figure-img img-fluid rounded" alt="James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut">](/src/jxtx/james-at-gcc2019.jpg)
-  <figcaption class="figure-caption">James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
+<figure class="figure figure-img img-fluid rounded">
+
+[![James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut](/src/jxtx/james-at-gcc2019.jpg)](/src/jxtx/james-at-gcc2019.jpg)
+
+<figcaption class="figure-caption">James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
 </figure>
 
 James concluded his PhD work under the supervision of Webb Miller and Francesca Chiaromointe in just three years—during which he blossomed as a methods developer and as a scientist. He published extensively on comparative genome analysis, gene regulation and molecular evolution—a total of eleven papers<sup>1–11</sup> which were hugely instrumental in advancing the research of the Center.  Ross Hardison, former head of the Center, remembers:
@@ -46,7 +52,7 @@ Vince Hilser, chair of the Johns Hopkins Biology department, [describes](https:/
 He came in 2014, and it was transformational. He was this catalyst for change, with a huge positive impact. His presence in the department opened up many areas for research, as he was able to help other faculty members uncover new insights by revealing similarities between the proteins they were studying and those in other organisms. 
 </blockquote>
 
-People who worked for James thought the world of him, and many people in his group followed him from Emory to Johns Hopkins, and are still in his group today. When a new employee asked him and Anton whether it was "better to ask for permission or forgiveness" James's response was "Don't let us be a bottleneck." That was typical—always thinking of a third option where everyone else only saw two.  Enis Afgan, [in his memoriam](#a-man-who-wanted-to-live-forever-james-taylor), describes James:
+People who worked for James thought the world of him, and many people in his group followed him from Emory to Johns Hopkins, and are still in his group today. When a new employee asked him and Anton whether it was "better to ask for permission or forgiveness" James's response was "Don't let us be a bottleneck." That was typical—always thinking of a third option where everyone else only saw two.  Enis Afgan, [in his memoriam](/jxtx/stories/#a-man-who-wanted-to-live-forever-james-taylor), describes James:
 
 <blockquote class="blockquote">
 He ran his lab not as a boss but as a friend and a colleague that inspired each individual to do their best work. He was an enabler. He was someone you tried your best not to disappoint.
@@ -55,7 +61,7 @@ He ran his lab not as a boss but as a friend and a colleague that inspired each 
 While we celebrate James’ transformative vision of computational biology and bioinformatics, he was also just a lot of fun to be with. He had a finely tuned palate for good beer, he was an energetic and inquisitive conversationalist, and he had an uncanny ability to stay up late talking about science, politics, and all things related, but still be at his best the next morning. 
 James met his future wife, Meredith Greif, when they were graduate students at Penn State. They were married in 2009. They have pursued their careers in a mutually supportive manner, him holding a faculty appointment at Emory University, and Meredith at Georgia State University. Both then moved to Johns Hopkins University. We extend our deepest sympathy to her on this shattering loss.
 
-This memoriam can only hint at how remarkable James was as a human being. We could not capture who he was even if we were given volumes to fill. Comments have come in ([and continue to come in](#community) from all over the world, and they touch on both his humanity and his intellect. Melissa Wilson, an associate professor at Arizona State and a fellow PhD student, captures this perfectly:
+This memoriam can only hint at how remarkable James was as a human being. We could not capture who he was even if we were given volumes to fill. Comments have come in ([and continue to come in](/jxtx/we-miss-you/) from all over the world, and they touch on both his humanity and his intellect. Melissa Wilson, an associate professor at Arizona State and a fellow PhD student, captures this perfectly:
 
 <blockquote class="blockquote">
 He is leaving a hole that cannot be filled. I met James when I started grad school at Penn State. I had no idea what to expect. We were both students, but he was clearly in a league of his own. James was one of the smartest people I've ever known, in a way that wasn't (as) intimidating. Talking with James was easy and enlightening. He advocated and put in the work for better science, in all aspects. James supported my science and my career in ways I don't think I can ever fully communicate. As a colleague, he believed in me. As a friend, he expected me to do good. He supported my growth, selflessly. Most of all, James was an advocate. He advocated for his students, for trainees, for open science, for open data, for making this world a better place.

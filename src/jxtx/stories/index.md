@@ -2,7 +2,11 @@
 title: 'James Peter Taylor | 1979 - 2020'
 ---
 
-<div class="text-right"> *Good ideas don’t have owners—they belong to everyone (@jxtx)*</div>
+<div class="text-right">
+
+*Good ideas don’t have owners—they belong to everyone (@jxtx)*
+
+</div>
 
 <br />
 

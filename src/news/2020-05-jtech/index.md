@@ -5,9 +5,15 @@ external_url: ""
 date: "2020-05-07"
 ---
 
-<div class="float-right">
-<img  src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
-<div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
+<div class="float-right" style="max-width: 10rem">
+
+![James Taylor Foundation: Big Shoes to Fill](/src/jxtx/jtech-shoes-400.png)
+
+<div class="small float-right">
+
+Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)
+
+</div>
 </div>
 
 The recent passing of [Dr. James Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.

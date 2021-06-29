@@ -2,7 +2,11 @@
 title: 'James Peter Taylor | 1979 - 2020'
 ---
 
-<div class="text-right"> *Good ideas don’t have owners—they belong to everyone (@jxtx)*</div>
+<div class="text-right">
+
+*Good ideas don’t have owners—they belong to everyone (@jxtx)*
+
+</div>
 
 <br />
 
@@ -329,18 +333,23 @@ As I write this from Colombo, Sri Lanka, one can only think of the impact that J
 <footer class="blockquote-footer">Nuwan Goonasekera, University of Melboune</footer>
 </blockquote>
 
-<blockquote class="blockquote">
+<blockquote class="blockquote trim-p">
 This makes no sense. So incredibly sad to hear this. My heart goes out to all who knew and loved him
 <footer class="blockquote-footer">Scott Edmunds, GigaScience</footer>
 </blockquote>
 
-<div class="float-right">
-[<img src="/src/jxtx/cool-shoes-1.jpg" alt="Sarah's James-inspired shoes" class="float-right" style="max-width: 10rem;" />](/src/jxtx/cool-shoes-1.jpg)<br />
-[<img src="/src/jxtx/cool-shoes-2.png" alt="James' shoes, an example " class="float-right" style="max-width: 10rem;" />](/src/jxtx/cool-shoes-2.png)
+<div class="float-right img-sizer" style="max-width: 10rem;">
+
+[![Sarah's James-inspired shoes](/src/jxtx/cool-shoes-1.jpg)](/src/jxtx/cool-shoes-1.jpg)
+
+[![James' shoes, an example](/src/jxtx/cool-shoes-2.png)](/src/jxtx/cool-shoes-2.png)
+
 </div>
 
 <blockquote class="blockquote">
+
 James Taylor always wore the **coolest** shoes. He inspired me to buy my own sparkly shoes, as he inspired me & my cohort of grad students to push our own boundaries of knowledge. He was a generous & kind collaborator. I will miss him.
+
 <footer class="blockquote-footer">Sarah Hadynick, Johns Hopkins</footer>
 <br />
 <blockquote class="blockquote">
@@ -679,7 +688,11 @@ People who interacted with James in any capacity thought the world of him.
 <footer class="blockquote-footer">Debashis Ghosh, University of Colorado, Denver</footer>
 </blockquote>
 
-[<img src="/src/jxtx/growing.jpg" alt="From Björn Grüning" class="float-right" style="max-height: 10rem;" />](/src/jxtx/growing.jpg)
+<div class="float-right img-sizer" style="width: 5.53rem">
+
+[![From Björn Grüning](/src/jxtx/growing.jpg)](/src/jxtx/growing.jpg)
+
+</div>
 
 <blockquote class="blockquote">
 Community building is so hard and so important. If we are talking about sustainability, this almost ever means to maintain and grow a community. Galaxy will be soon 15 years old. You and your team did it! Thanks for everything that you have given us James. I will miss you.
