@@ -35,7 +35,7 @@ Ignacio Eguinoa, GCC2021 CoFest Chair
 
 ## About GCC2021
 
-GCC2021 events will be held 28 June through July 10, and **will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).** GCC2021 features a 3 day conference, 6-8 July, with talks, Q&A, posters, demos, bird-of-a-feather, and plenty of networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.
+GCC2021 events will be held 28 June through July 10, and **will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).** GCC2021 features a 3 day conference, 6-8 July, with talks, Q`&`A, posters, demos, bird-of-a-feather, and plenty of networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.
 
 Early conference registration [ends 1 June](/src/news/2021-04-gcc-reg/index.md), after which registration costs for training and the meeting will go up (but CoFest will still be free).
 

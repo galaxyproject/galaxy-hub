@@ -30,7 +30,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- GCC Starts Soon -->
 <div class="card lead border-info" style="min-width: 65%; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Dates: Training Starts June 28](https://www.vibconferences.be/events/gcc2021)
 
@@ -79,7 +79,7 @@ GCC2021 wraps up with [a two-day collaborative work event](https://sched.co/iLKn
 
 <!-- GCC2021 Confirmed Speakers -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Confirmed Speakers and Topics](https://gcc2021.sched.com/)
 
@@ -140,7 +140,7 @@ See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list
 <div class="video-variable">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/oGOF3r3SmDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="card-header">James Taylor's Birthday Video</div>
+<div class="card-header trim-p">James Taylor's Birthday Video</div>
 
 To help commemorate [James Taylor's](/src/jxtx/index.md) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
 
@@ -153,7 +153,7 @@ Happy birthday James. We miss you.
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Open Galaxy Positions](/src/careers/index.md)
 
@@ -175,7 +175,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 <!-- F1000Research -->
 <div class="card border-info"  style="min-width: 40%; max-width: 26rem;">
 <img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [F1000Research](https://gcc2021.sched.com/sponsor/f1000research1)
 
@@ -190,7 +190,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 
 <!-- GigaScience Press -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GigaScience Press](https://gcc2021.sched.com/sponsor/gigascience3)
 
@@ -203,14 +203,14 @@ BGI's Open Access Publishing division **[GigaScience Press](http://gigasciencepr
 
 We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/). 
 
-<img class="card-img-bottom" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" />
+<p><img class="card-img-bottom" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
 </div>
 
 
 <!-- KWS SAAT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
 <img class="card-img-top" src="/src/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [KWS SAAT](https://gcc2021.sched.com/sponsor/kws1)
 
@@ -236,7 +236,7 @@ There is a lot going on in the Galaxy, with [10 events this week alone](/src/eve
 
 <!-- Webinars -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Webinars](/src/events/webinars/index.md)
 
@@ -248,13 +248,13 @@ The [*Galaxy Resources* webinar series](/src/events/webinars/index.md) wrapped u
 
 Keep your eyes open for new webinars as they are scheduled.
 
-<img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" />
+<p><img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" /></p>
 </div>
 
 
 <!-- OME -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Imaging in Galaxy](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/)
 
@@ -264,14 +264,14 @@ Keep your eyes open for new webinars as they are scheduled.
 
 As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
 
-<img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" />
+<p><img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" /></p>
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
 
@@ -290,7 +290,7 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 <!-- Belbi 2021 -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Training @ BelBI 2021](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html)
 
@@ -300,13 +300,14 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
 
-<img class="card-img-bottom" src="/src/events/2021-06-belbi/belbi-2021-logo.png" alt="BelBi 2021" />
+![BelBi 2021](/src/events/2021-06-belbi/belbi-2021-logo.png)
+
 </div>
 
 
 <!-- Traitement de données de séquences par Galaxy -->
 <div class="card border-info" style="min-width: 12rem; max-width:  14rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
 
@@ -324,7 +325,7 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 <!-- GAT CoFEST -->
 <div class="card border-info" style="min-width: 12rem; max-width: 14rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
 
@@ -338,9 +339,13 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 25%; max-width:  24rem;;">
-<img class="card-img-top" src="/src/events/2021-06-papercuts/papercuts-cofest-prep.png" alt="Papercuts CoFest seized by GCC2021 CoFest" />
-<div class="card-header">
+<div class="card border-info" style="min-width: 25%; max-width: 24rem;">
+<div class="card-img-top trim-p">
+
+![Papercuts CoFest seized by GCC2021 CoFest](/src/events/2021-06-papercuts/papercuts-cofest-prep.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
 
@@ -368,9 +373,13 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <!-- VVV! -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="/src/use/vvv/vvv.png" alt="Viral Variant Visualizer (VVV)" />
-<div class="card-header">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
+<div class="card-img-top trim-p">
+
+![Viral Variant Visualizer (VVV)](/src/use/vvv/vvv.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Viral Variant Visualizer (VVV)](/src/use/vvv/index.md)
 
@@ -384,9 +393,13 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 
 
 <!-- SHAMAN -->
-<div class="card border-info"  style="min-width: 16rem;; max-width: 100%;">
-<img class="card-img-top" src="/src/use/shaman/shaman-logo.png" alt="SHAMAN" />
-<div class="card-header">
+<div class="card border-info" style="min-width: 16rem; max-width: 100%;">
+<div class="card-img-top trim-p">
+
+![SHAMAN](/src/use/shaman/shaman-logo.png)
+
+</div>
+<div class="card-header trim-p">
 
 [SHAMAN](/src/use/shaman/index.md)
 
@@ -404,7 +417,7 @@ SHAMAN is a shiny application for differential analysis of metagenomic data (16S
 <div class="video-variable">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/K-Mxjd-hI_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Imaging EU Server](/src/use/imaging/index.md)
 
@@ -417,9 +430,13 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header trim-p">
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+[UseGalaxy.*](/src/usegalaxy/index.md) News
+
+</div>
+
+<p><img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" /></p>
 
 * [New high memory servers for Galaxy Australia](https://www.biocommons.org.au/news/unimelb-server-galaxy-au)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -429,15 +446,18 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 </div>
 
 
-
 # Galactic Blog Activity
 
 <div class="card-deck">
 
 <!-- WR4 summary  -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<img class="card-img-top" src="/src/events/webinars/gr4-webinars.png" alt="Galaxy Resources Webinars" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Galaxy Resources Webinars](/src/events/webinars/gr4-webinars.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Galaxy Resources for ... Webinars Summary](https://galaxyproject.eu/posts/2021/05/28/webinar-series-gr4/)
 
@@ -456,7 +476,7 @@ The Galaxy ecosystem is very broad in scope and reaches many audiences, each one
 
 <!-- Curated -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html)
 
@@ -468,13 +488,14 @@ Galaxy has always had Google-translated tutorials, but we are now embarking on a
 
 The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
 
-<img class="card-img-bottom" src="gtn-que-aspecto-slice.png" alt="¿Qué aspecto tiene Galaxy?" />
+![¿Qué aspecto tiene Galaxy?](./gtn-que-aspecto-slice.png)
+
 </div>
 
 
 <!-- Convolutional neural networks (CNN) -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Convolutional neural networks (CNN)](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1)
 
@@ -486,13 +507,14 @@ There is a new [slide deck](https://training.galaxyproject.org/training-material
 
 Convolutional neural networks are specifically tailored to image and video processing tasks. This material explains what convolutional neural networks are, discusses their architecture, and solves an image classification problem using a CNN in Galaxy.
 
-<img class="card-img-bottom" src="gtn-cnn.png" alt="CNN: A 3 by 3 filter applied to a 4 by 4 image, resulting in a 2 by 2 image" />
+![CNN: A 3 by 3 filter applied to a 4 by 4 image, resulting in a 2 by 2 image](./gtn-cnn.png)
+
 </div>
 
 
 <!-- Contributing to BioBlend as a developer  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Contributing to BioBlend as a developer](https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-dev/tutorial.html)
 
@@ -504,14 +526,14 @@ BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-mat
 
 **This is the 200th tutorial in the Galaxy Training Network Library.**
 
-<img class="card-img-bottom" src="gtn-bioblend-slice.png" alt="BioBlend.objects" />
+![BioBlend.objects](./gtn-bioblend-slice.png)
 
 </div>
 
 
 <!-- New organization for dev tutorials -->
 <div class="card border-info" style="min-width: 12rem; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [New Organization for Developer Tutorials](https://training.galaxyproject.org/training-material/topics/dev/)
 
@@ -519,7 +541,7 @@ BioBlend ([Sloggett et al. 2013](https://training.galaxyproject.org/training-mat
 
 Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend tutorial is an example. So is the new [Galaxy for Developers track](https://galaxyproject.org/events/gcc2021/training/dev-track) at GCC2021.  Reflecting these and other *develop*ments, the [Development in Galaxy](https://training.galaxyproject.org/training-material/topics/dev/) topic in the GTN now has subsections for areas from **Core** to **Viz**.
 
-<img class="card-img-bottom" src="gtn-dev.png" alt="GTN Dev API section" />
+![GTN Dev API section](./gtn-dev.png)
 
 </div>
 
@@ -533,7 +555,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Fostering accessible online education using Galaxy as an e-learning platform](https://doi.org/10.1371/journal.pcbi.1008923)
 
@@ -545,7 +567,7 @@ Serrano-Solano, B., Föll, M. C., Gallardo-Alba, C., Erxleben, A., Rasche, H., H
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A constructivist-based proposal for bioinformatics teaching practices during lockdown](https://doi.org/10.1371/journal.pcbi.1008922)
 
@@ -557,7 +579,7 @@ Gallardo-Alba, C., Grüning, B., & Serrano-Solano, B. (2021). *PLOS Computationa
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [SHAMAN: A user-friendly website for metataxonomic analysis from raw reads to statistical analysis](https://doi.org/10.1186/s12859-020-03666-4)
 
@@ -569,7 +591,7 @@ Volant, S., Lechat, P., Woringer, P., Motreff, L., Campagne, P., Malabat, C., Ke
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19)](https://doi.org/10.1186/s12014-021-09321-1)
 
@@ -581,7 +603,7 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B., Johnson, J. E., Mc
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Precursor Intensity-Based Label-Free Quantification Software Tools for Proteomic and Multi-Omic Analysis within the Galaxy Platform](https://doi.org/10.3390/proteomes8030015)
 
@@ -593,7 +615,7 @@ Mehta, S., Easterly, C. W., Sajulga, R., Millikin, R. J., Argentini, A., Eguinoa
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Semi-supervised learning for somatic variant calling and peptide identification in personalized cancer immunotherapy](https://doi.org/10.1186/s12859-020-03813-x)
 
@@ -605,7 +627,7 @@ Sherafat, E., Force, J., & Măndoiu, I. I. (2020). *BMC Bioinformatics*, 21(18),
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A Systematic Evaluation of Semispecific Peptide Search Parameter Enables Identification of Previously Undescribed N-Terminal Peptides and Conserved Proteolytic Processing in Cancer Cell Lines](https://doi.org/10.3390/proteomes9020026)
 
@@ -625,7 +647,7 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 
 <!-- Helm Charts -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Helm Chart v4.0](/src/blog/2021-05-galaxy-helm-chart-v4/index.md)
 
@@ -635,13 +657,14 @@ The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single 
 
 See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-<img class="card-img-bottom" src="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png" alt="Galaxy Helm" />
+![Galaxy Helm](/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+
 </div>
 
 
 <!-- Nebulizer -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Nebulizer 0.7.0](https://pypi.org/project/nebulizer/0.7.0/)
 

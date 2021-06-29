@@ -45,9 +45,13 @@ interesting to explore options for retrieving reference data using a similar
 approach and entirely eliminate the dependency on CVMFS.
 
 <div class="center">
-    <a href="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png">
-        <img src="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png" width="80%" />
-    </a>
+  <a href="/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png">
+    <div class="img-sizer" style="width: 80%">
+
+![](./no-cvmfs.png)
+
+</div>
+  </a>
 </div>
 
 

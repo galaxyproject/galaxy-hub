@@ -30,7 +30,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- GCC! -->
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 has started!](https://www.vibconferences.be/events/gcc2021)
 
@@ -53,7 +53,7 @@ If you didn't get registered then here is some hopefully consoling news:
 <!-- PeerJ -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
 <img class="card-img-top" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [PeerJ](https://peerj.com/)
 
@@ -65,7 +65,7 @@ If you didn't get registered then here is some hopefully consoling news:
 
 <!-- GalaxyWorks -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GalaxyWorks](https://galaxyworks.io/)
 
@@ -80,7 +80,7 @@ Need more Galaxy? **[Galaxy Pro](https://galaxyworks.io/product/)** is a managed
 <!-- Limagrain -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
 <img class="card-img-top" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Limagrain](https://www.limagrain.com/en/limagrain-home)
 
@@ -102,7 +102,7 @@ An agricultural cooperative held by French farmers, and an international seed gr
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Open Galaxy Positions](/src/careers/index.md)
 
@@ -125,7 +125,7 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 
 <!-- Traitement de données de séquences par Galaxy -->
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
 
@@ -141,8 +141,12 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 
 <!-- Galaxy E at Sortee -->
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
-<img class="card-img-top" src="/src/events/2021-07-sortee/sortee-logo.png" alt="Galaxy-E at SORTEE" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Galaxy-E at SORTEE](/src/events/2021-07-sortee/sortee-logo.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Galaxy-E @ SORTEE 2021](/src/events/2021-07-sortee/index.md)
 
@@ -158,7 +162,7 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
 
@@ -174,8 +178,12 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 37%;">
-<img class="card-img-bottom" src="sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![sars-cov-2-data-analysis-monitoring-training](./sars-cov-2-data-analysis-monitoring-training.png)
+
+</div>
+<div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
 
@@ -203,8 +211,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header trim-p">
 
+[UseGalaxy.*](/src/usegalaxy/index.md) News
+
+</div>
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -221,7 +232,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <!-- Galaxy on Terra -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A Galaxy of tools at your fingertips](https://terra.bio/a-galaxy-of-tools-at-your-fingertips/")
 
@@ -246,7 +257,7 @@ Galaxy is now available in all flavors of the Terra platform.
 
 <!-- Visualization of RNA-Seq results with Volcano Plot in R -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Visualization of RNA-Seq results with Volcano Plot in R](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot-r/tutorial.html)
 
@@ -262,8 +273,12 @@ In this tutorial we show how you can customise a plot using the R script output 
 
 <!-- Genome Annotation with Apollo -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<img class="card-img-top" src="gtn-change-start.gif" alt="Change start position" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Change start position](./gtn-change-start.gif)
+
+</div>
+<div class="card-header trim-p">
 
 [Refining Genome Annotations with Apollo](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/apollo/tutorial.html)
 
@@ -279,7 +294,7 @@ After automatically annotating your genome using Prokka or Maker, it is importan
 
 <!-- Automating Galaxy workflows using the command line -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Automating Galaxy workflows using the command line](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-automation/tutorial.html)
 
@@ -305,7 +320,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine](https://doi.org/10.1371/journal.pcbi.1009014)
 
@@ -326,7 +341,7 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 <!-- Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy 21.05](/src/news/2021-06-galaxy-release-21-05/index.md)
 
@@ -336,8 +351,7 @@ We are pleased to [announce the 21.05 Galaxy release](/src/news/2021-06-galaxy-r
 
 A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
 
-**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https:
-//docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
 
 </div>
 
@@ -345,7 +359,7 @@ A new development stack (featuring FastAPI, Celery and Circus) is coming, a job 
 
 <!-- BioBlend -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [BioBlend 0.16.0](https://bioblend.readthedocs.io/en/latest/)
 
@@ -365,7 +379,7 @@ A new development stack (featuring FastAPI, Celery and Circus) is coming, a job 
 
 <!-- Tool Templates -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy tool repository template](https://github.com/galaxyproject/galaxy-tool-repository-template)
 
