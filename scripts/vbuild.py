@@ -103,10 +103,10 @@ def main(argv):
   logging.warning(f'Using {node_mem} MB memory limit for node.')
 
   if args.action == 'build':
-    subprocess.run(['gridsome', 'build'])
+    subprocess.run(['yarn', 'run', 'build'])
   elif args.action == 'develop':
     try:
-      subprocess.run(['gridsome', 'develop'])
+      subprocess.run(['yarn', 'run', 'develop'])
     except KeyboardInterrupt:
       pass
 
