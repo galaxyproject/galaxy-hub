@@ -8,18 +8,19 @@ The framework does contain all the dynamic pages used by the [galaxy-hub](/galax
 
 ## Getting started
 
+First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+
 You can get the site running locally by first cloning this repo:
+\- The `-b gridhub` tells it to check out the `gridhub` branch, where this prototype lives for now.
 ```sh
-$ git clone 'https://github.com/NickSto/gridhub.git'
+$ git clone -b gridhub 'https://github.com/galaxyproject/galaxy-hub.git'
 ```
 
 Then install the dependencies:
 ```sh
-$ cd gridhub
+$ cd galaxy-hub
 $ yarn install
 ```
-
-Then you'll have to create a `content` directory in the root of the repo and create some initial pages. See the [Creating static pages](#creating-static-pages) section below for details.
 
 Then you can build the site in development mode to run it in a local server (at http://localhost:8080) and see your content:
 ```sh

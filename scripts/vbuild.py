@@ -30,7 +30,8 @@ def make_argparser():
       'here. Default: %(default)s')
   options.add_argument('-K', '--keep-old-build', dest='clean', action='store_false', default=True,
     help="Keep the existing build files instead of wiping out the build directories first.")
-  options.add_argument('-f', '--fix-markdown', action='store_true',
+  options.add_argument('-F', '--no-fix-markdown', dest='fix_markdown', action='store_false',
+    default=True,
     help='Modify Markdown files before copying them into the build directories.')
   options.add_argument('-m', '--node-mem', type=float,
     help='How much memory to allow node to take (the --max-old-space-size option). By default, '
@@ -94,6 +95,7 @@ def main(argv):
     command = add_verbosity([PROJECT_ROOT/'scripts/hotreloader.py', args.config])
     subprocess.Popen(command)
     #TODO: Also start mdfixer.mjs in watch mode for the two build directories.
+    #TODO: Make sure child processes are killed when this dies.
 
   if args.node_mem:
     node_mem = args.node_mem
