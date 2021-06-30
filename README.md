@@ -8,12 +8,6 @@ The framework does contain all the dynamic pages used by the [galaxy-hub](/galax
 
 ## Getting started
 
-First, you'll want to install the Gridsome command line tool:  
-\- These examples will use `yarn`, but there are equivalent commands for `npm`.
-```sh
-$ yarn global add @gridsome/cli
-```
-
 You can get the site running locally by first cloning this repo:
 ```sh
 $ git clone 'https://github.com/NickSto/gridhub.git'
