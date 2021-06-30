@@ -1,6 +1,7 @@
 node_modules
 bower_components
 build
+dist
 package-lock.json
 src/.temp
 *.DS_Store
