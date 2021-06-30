@@ -4,4 +4,5 @@ build
 dist
 package-lock.json
 src/.temp
+.cache
 *.DS_Store
