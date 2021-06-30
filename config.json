@@ -1,0 +1,25 @@
+{
+  "contentDir": "content",
+  "collections": {
+    "Platform": "/use/"
+  },
+  "categories": {
+    "/blog":  "blog",
+    "/events": "events",
+    "/news": "news",
+    "/careers": "careers"
+  },
+  "build": {
+    "dirs": {
+      "md": "build/content-md",
+      "vue": "build/content-vue"
+    }
+  },
+  "redirects": {
+    "/events/gtn.html": "/events/gtn/",
+    "/admin/internals/galaxy-ops/Help Info.html": "/admin/internals/galaxy-ops/help-info/",
+    "/admin/internals/galaxy-ops/Python.html": "/admin/internals/galaxy-ops/python/",
+    "/admin/internals/galaxy-ops/C.html": "/admin/internals/galaxy-ops/c/",
+    "/cloudman/CustomizeGalaxyCloud.html": "/cloudman/customize-galaxy-cloud/"
+  }
+}
