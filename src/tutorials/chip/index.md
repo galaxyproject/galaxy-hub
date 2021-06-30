@@ -5,7 +5,9 @@ title: Analysis of ChIP-seq data
 
 <blockquote class="blockquote">
 <small>
+
 This tutorial was inspired by efforts of [Mo Heydarian](https://galaxyproject.org/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg). Tools higlighted here have been wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](https://galaxyproject.org/iuc/) members. [Dave Bouvier](https://github.com/davebx) and [Martin Cech](https://github.com/martenson) helped fine tuning and deploying tools to Galaxy's public server. 
+
 </small>
 </blockquote>
 
@@ -105,7 +107,7 @@ In this particular case the data is of very high quality and do not need to be t
 |![](/src/tutorials/chip/mapping.png)|
 |<small>**Mapping all data at once**. Note that **Select input type** is set to `Single fastq` and by selecting folder (<i class="far fa-folder" aria-hidden="true"></i>) button you can select as entire collection of fastq datasets. **Important**: here we also set readgroups automatically by toggling **Set readgroups information** dropdown to `Set readgroups (SAM/BAM specification)` and setting all **Auto-assign** button to `Yes`. </small>
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running `BWA` on a collection will generate another collection of BAM files. Name this collection `mapped data` (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video)</a>.</div>
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Running <code>BWA</code> on a collection will generate another collection of BAM files. Name this collection <code>mapped data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 <!-- Modal for Renaming collection video -->
 <div class="modal fade" id="collection_rename_video" tabindex="-1" role="dialog" aria-labelledby="collection_rename_Vid">
@@ -134,7 +136,7 @@ For post-processing we will remove all non-uniquely mapped reads. This can be do
 |![](/src/tutorials/chip/bam_filter.png)|
 |<small>**Filtering multi-mapped reads** by restricting the data to reads with mapping quality above 20. Note that by selecting folder (<i class="far fa-folder" aria-hidden="true"></i>) button you can select as entire collection of BAM datasets to filter at once.</small>
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running `Filter SAM or BAM` on a collection will generate another collection of BAM files. Name this collection `filtered data` (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video)</a>.</div>
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running <code>Filter SAM or BAM</code> on a collection will generate another collection of BAM files. Name this collection <code>filtered data</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 # Assessment of ChIP quality
 
@@ -269,7 +271,7 @@ We will use **NGS: DeepTools &rarr; bamCoverage**:
 |![](/src/tutorials/chip/bam_cov_3.png)|
 |<small>Finally we set **Extend reads to the given average fragment size** to `150`. This is because in this particular experiment DNA was size selected to be between 120 and 170 bp for library preparation.</small>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running `bamCoverage` on a collection of BAM datasets will generate a collection of bigWig datasets. Name this collection `coverage` (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
+<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Running <code>bamCoverage</code> on a collection of BAM datasets will generate a collection of bigWig datasets. Name this collection <code>coverage</code> (for help on how to rename a collection <a href="#" data-toggle="modal" data-target="#collection_rename_video">see this video</a>).</div>
 
 ## Displaying coverage tracks in a browser
 
@@ -411,13 +413,13 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 |![](/src/tutorials/chip/macs3.png)|
 |<small>**Calling peaks with `MACS2` on R1** With the exception of selecting only R1 datasets, all other parameters should be set as in the previous figure.</small>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
+<div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
 <hr>
-	<ul>
-	    <li>rename resulting datasets as `R1 summits` and `R1 peaks`</li>
-		<li>run `MACS2` run on Replicate 2</li>
-		<li>rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.</li>
-	</ul>
+
+* rename resulting datasets as `R1 summits` and `R1 peaks`
+* run `MACS2` run on Replicate 2
+* rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
+
 </div>
 
 In the end you should have something like this:
@@ -434,7 +436,7 @@ In the end you should have something like this:
 Looking at MACS2 data we have gotten the following numbers of peaks:
 
 | Pooled | Replicate 1 | Replicate 2 |
-|-------:|------------:|------------:|
+|--------|-------------|-------------|
 |  974   |  955        |  784        |
 
 Peaks data is generated in the following format:
@@ -465,7 +467,11 @@ where columns  are:
 
 To see how many peaks are common between the pooled datasets and the two replicates we will use **Operate on Genomic Intervals &rarr; Join** tool twice.
 
-<div class="alert alert-danger" role="alert">Galaxy main has two tools called **Join**. Don't confuse them! Here we are using the one from **Operate on Genomic Intervals** section. </div>
+<div class="alert alert-danger trim-p" role="alert">
+
+Galaxy main has two tools called **Join**. Don't confuse them! Here we are using the one from **Operate on Genomic Intervals** section.
+
+</div>
 
 First we will join `Peaks pooled` with `Peaks R1`:
 
@@ -488,9 +494,17 @@ This results in 723 regions are shared among polled, R1, and R2 peaks. Let's cal
 |![](/src/tutorials/chip/cut.png)|
 |<small>**Cutting columns** from `Join` output.</small>|
 
-<div class="alert alert-warning">Rename the last dataset as `High confidence set`. This will make it easy to find as we continue.</div>
+<div class="alert alert-warning trim-p">
 
-<div class="alert alert-danger" role="alert">Using `Cut columns` tool produces a dataset of tabular type. However, by cutting the first ten columns we have created a dataset in BED format. Thus we need to let Galaxy know about that by resetting metadata as shown below.</div>
+Rename the last dataset as `High confidence set`. This will make it easy to find as we continue.
+
+</div>
+
+<div class="alert alert-danger trim-p" role="alert">
+
+Using `Cut columns` tool produces a dataset of tabular type. However, by cutting the first ten columns we have created a dataset in BED format. Thus we need to let Galaxy know about that by resetting metadata as shown below.
+
+</div>
 
 Next we need to make sure that output of `Cut columns` tool has the type `BED`. To do this we will edit its metadata as show below:
 
@@ -554,7 +568,11 @@ To generate the heatmap we must first produce normalized datasets for the two re
 |![](/src/tutorials/chip/bamCompare1.png)|
 |<small>**Running `bamCompare`** on replicate 1. Here we set **Method to use for scaling the largest sample to the smallest** to `SES` (although you may want to try other methods as well. SES was briefly discussed [above](/tutorials/chip/#assessing-signal-strength).</small>|
 
-<div class="alert alert-warning">Perform the same analysis on Replicate 2 datasets and rename the two resulting items as `R1 normalized` and `R2 normalized`.</div>
+<div class="alert alert-warning trim-p">
+
+Perform the same analysis on Replicate 2 datasets and rename the two resulting items as `R1 normalized` and `R2 normalized`.
+
+</div>
 
 Because we want to plot enrichment around genes we need to download gene annotation. We will use **Get Data &rarr; UCSC Main** for this:
 
