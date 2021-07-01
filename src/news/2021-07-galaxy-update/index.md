@@ -1,14 +1,14 @@
 ---
 title: 'July 2021 Galactic News'
 tease: "GCC2021 is under way."
-date: ""
+date: "2021-07-02"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
-The 2021 Galaxy Community Conference has started and we are now halfway through Training Week.  It is too late to register for the 3 day conference next week.  It is also officially too late to sign up for the CoFest on 9-10 July, but if you follow this link, you just mind find yourself invited anyway.
+The 2021 Galaxy Community Conference has started and we are now almost done with Training Week.  It is too late to register for the 3 day conference next week.  It is also officially too late to sign up for the CoFest on 9-10 July, but if you [follow this link](https://docs.google.com/forms/d/e/1FAIpQLScdJHTzw7LWVxFaqGI30COZlcxGPksjGL_UDSwDNsQK1FVFCw/viewform), you just mind find yourself invited anyway.
 
 This is one of our thinner newsletters, but there are still **[open positions](#community-news)**, **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
 recent **[open-access Galaxy-related publications](#publications)**, **[new releases](#releases), and [other news too](#other-news).**
@@ -23,13 +23,14 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 # Featured news
 
+This month our featured news is all about GCC2021, including several new sponsors: **PeerJ, GalaxyWorks**, and **Limagrain**:
+
+
 <div class="card-deck">
-
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-
 
 <!-- GCC! -->
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
+<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
 [GCC2021 has started!](https://www.vibconferences.be/events/gcc2021)
@@ -45,10 +46,9 @@ If you didn't get registered then here is some hopefully consoling news:
 * Training videos and materials are now available for free in the Galaxy Training Network library.
 * Videos of all talks presented at GCC2021 will be made available online, for free later this summer.
 * All slides and poster PDFs will be made available online this summer as well.
-* The CoFest registration is officially closed, but you can still sneak in!  Just click this link here...
+* The CoFest registration is officially closed, but you can still sneak in!  Just [click this link here...](https://docs.google.com/forms/d/e/1FAIpQLScdJHTzw7LWVxFaqGI30COZlcxGPksjGL_UDSwDNsQK1FVFCw/viewform)
 
 </div>
-
 
 <!-- PeerJ -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
@@ -91,26 +91,37 @@ An agricultural cooperative held by French farmers, and an international seed gr
 
 </div>
 
-**If your organization wants to reach hundreds of researchers working in data-intensive science and help GCC2021 succeed then please take a look at the [sponsorship prospectus](http://bit.ly/gcc2021_prospectus_v1) and the [list of sponsorship packages](http://bit.ly/gcc2021_packages).**
-
-
 # Community News
 
 <div class="card-deck">
-
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header">
 
-[Open Galaxy Positions](/src/careers/index.md)
+[Galaxy Career Center](/src/careers/index.md)
 
 </div>
 
-There is one new positions in the [Galaxy Career Center](/src/careers/index.md), in Freiburg, **and the application deadline is 30 June.**  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are new positions in the [Galaxy Career Center](/src/careers/index.md), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
+
+<!-- OLS -->
+<div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
+<img class="card-img-top" src="/src/../images/logos/open-life-science-logo.png" alt="Open Life Sciences" />
+<div class="card-header">
+
+[Open Life Science program & the Galaxy community](https://galaxyproject.eu/posts/2021/06/28/ols/)
+
+</div>
+
+**Involvement in OLS-3 and invitation to apply to the next cohort**
+
+Open Life Science (OLS) is an online mentoring & training program to help individuals and stakeholders in research to become Open Science ambassadors.  Galaxy was involved in the first 3 cohorts, and the call for the 4th cohort is now open.
+
+</div>
 
 </div>
 
@@ -122,21 +133,6 @@ Did we mention that the [2021 Galaxy Community Conference](https://www.vibconfer
 But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/src/events/index.md):
 
 <div class="card-deck">
-
-<!-- Traitement de données de séquences par Galaxy -->
-<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
-<div class="card-header">
-
-[Traitement de données de séquences par Galaxy](https://www.omic-rennes.com/modules/galaxy/)
-
-</div>
-
-**2 juillet**
-
-Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
-
-<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
-</div>
 
 
 <!-- Galaxy E at Sortee -->
@@ -152,6 +148,21 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 
 SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/src/use/ecology/index,nd) will have a workshop, a talk, and a hackathon at this event.
 
+</div>
+
+
+<!-- Galaxy at ISMB -->
+<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
+<img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy at ISMB" />
+<div class="card-header">
+
+[Galaxy @ ISMB/ECCB/BOSC 2021](/src/events/2021-ismb-eccb-bosc/index.md)
+
+</div>
+
+**25-31 July, Online, Global**
+
+Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/src/events/2021-ismb-eccb-bosc/index.md).
 </div>
 
 
@@ -202,12 +213,15 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card-deck">
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+* And two new use cases were described for UseGalaxy.eu:
+  * [Zika virus effects on brain and brain tumours](https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/)
+  * [Genetics research on dairy cattle](https://galaxyproject.eu/posts/2021/06/25/use-case-tomas-klingstrom/)
 
 </div>
 
@@ -295,6 +309,22 @@ Trigger workflow execution via the command line using Planemo, and some tips on 
 
 
 
+<!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card-header">
+
+[Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html)
+
+</div>
+
+By [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame/wm75/) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/)
+
+How to obtain, run and combine these workflows appropriately for different types of input data.
+
+<img class="card-img-bottom" src="gtn-covid.png" alt="Workflow" />
+
+</div>
+
 </div>
  
 
@@ -344,7 +374,7 @@ A new development stack (featuring FastAPI, Celery and Circus) is coming, a job 
 
 
 <!-- BioBlend -->
-<div class="card border-info" style="min-width: 20%; max-width: 40%;">
+<div class="card border-info" style="min-width: 20%; max-width: 25%;">
 <div class="card-header">
 
 [BioBlend 0.16.0](https://bioblend.readthedocs.io/en/latest/)

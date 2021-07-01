@@ -2,7 +2,7 @@
 title: "Technisch Onderwijsassistent Dry Lab"
 date: "2021-06-29"
 closes: "2021-08-22"
-summary: "Contribute to the practical training of new professionals in the biomedical, biotechnological, and forensic fields with data handling, analysis, and visualization skills. Wwork includes maintaining the dry-lab environment (Linux and Galaxy servers)."
+summary: "Contribute to the practical training of new professionals in the biomedical, biotechnological, and forensic fields with data handling, analysis, and visualization skills. Work includes maintaining the dry-lab environment (Linux and Galaxy servers)."
 continent: EU
 location: "Avans Hogeschool, Breda, The Netherlands"
 image: "/src/images/logos/avans-hogeschool-logo.png"
