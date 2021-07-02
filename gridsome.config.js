@@ -98,8 +98,8 @@ function logAndReturn(...values) {
 }
 
 module.exports = {
-  siteName: 'Galaxy Community Hub: The Squeakquel',
-  siteDescription: 'All about Galaxy and its community',
+  siteName: 'Galaxy Community Hub',
+  siteDescription: 'All about Galaxy and its community.',
   templates: mkTemplates(CONFIG['collections']),
   plugins: mkPlugins(CONFIG['collections']),
   transformers: {
