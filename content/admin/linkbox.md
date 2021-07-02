@@ -1,14 +1,18 @@
-<div class='linkbox'>
+<div class="linkbox trim-p">
+
 **[Admin](/src/admin/index.md)**
-<hr />
-[Get Galaxy](/src/admin/get-galaxy/index.md)<br />
-[Config](/src/admin/config/index.md)<br />
-[Tool Shed](/src/toolshed/index.md)<br />
-[Data Libs](/src/admin/data-libraries/index.md)<br />
-[Datatypes](/src/admin/datatypes/index.md)<br />
-[Develop](/src/develop/index.md)<br />
-[Quotas](/src/admin/disk-quotas/index.md)<br />
-[FAQ](/src/admin/faq/index.md)<br />
-[Tutorials](/src/admin/training/index.md)<br />
-[CloudMan](/src/cloudman/index.md)<br />
+
+---
+
+[Get Galaxy](/src/admin/get-galaxy/index.md)  
+[Config](/src/admin/config/index.md)  
+[Tool Shed](/src/toolshed/index.md)  
+[Data Libs](/src/admin/data-libraries/index.md)  
+[Datatypes](/src/admin/datatypes/index.md)  
+[Develop](/src/develop/index.md)  
+[Quotas](/src/admin/disk-quotas/index.md)  
+[FAQ](/src/admin/faq/index.md)  
+[Tutorials](/src/admin/training/index.md)  
+[CloudMan](/src/cloudman/index.md)  
+
 </div>

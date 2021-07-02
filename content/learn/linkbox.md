@@ -1,13 +1,15 @@
 <div class='linkbox'>
-[Screencasts](/learn/screencasts/)<br />
-[FAQ](/learn/faq/)<br />
-[Interval Ops](/learn/interval-operations/)<br />
-[Datasets](/learn/managing-datasets/)<br />
-[Pages](/learn/galaxy-pages/)<br />
-[Share](/learn/share/)<br />
-[FTP Upload](/ftp-upload/)<br />
-[Accounts](/learn/user-accounts/)<br />
-[Support](/support/)<br />
-[Data Privacy](/learn/privacy-features/)<br />
+
+[Screencasts](/learn/screencasts/)  
+[FAQ](/learn/faq/)  
+[Interval Ops](/learn/interval-operations/)  
+[Datasets](/learn/managing-datasets/)  
+[Pages](/learn/galaxy-pages/)  
+[Share](/learn/share/)  
+[FTP Upload](/ftp-upload/)  
+[Accounts](/learn/user-accounts/)  
+[Support](/support/)  
+[Data Privacy](/learn/privacy-features/)  
 [Search](/search/)
+
 </div>

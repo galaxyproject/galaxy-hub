@@ -1,8 +1,12 @@
-<div class='linkbox'>
+<div class="linkbox trim-p">
+
 **[FAQs](/src/faqs/index.md)**
-<hr />
-[Main](/src/main/faq/index.md)<br />
-[Learn](/src/learn/faq/index.md)<br />
-[Admin](/admin/faq/index.md)<br />
+
+---
+
+[Main](/src/main/faq/index.md)  
+[Learn](/src/learn/faq/index.md)  
+[Admin](/admin/faq/index.md)  
+
 </div>
 
