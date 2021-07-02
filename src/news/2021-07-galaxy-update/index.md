@@ -8,12 +8,12 @@ date: "2021-07-02"
 
 Hello all,
 
-The 2021 Galaxy Community Conference has started and we are now almost done with Training Week.  It is too late to register for the 3 day conference next week.  It is also officially too late to sign up for the CoFest on 9-10 July, but if you [follow this link](https://docs.google.com/forms/d/e/1FAIpQLScdJHTzw7LWVxFaqGI30COZlcxGPksjGL_UDSwDNsQK1FVFCw/viewform), you just mind find yourself invited anyway.
+The 2021 Galaxy Community Conference has started!  It is too late to register for the 3 day conference next week.  It is also officially too late to sign up for the CoFest on 9-10 July, but if you [follow this link](https://docs.google.com/forms/d/e/1FAIpQLScdJHTzw7LWVxFaqGI30COZlcxGPksjGL_UDSwDNsQK1FVFCw/viewform), you just mind find yourself invited anyway.
 
 This is one of our thinner newsletters, but there are still **[open positions](#community-news)**, **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
 recent **[open-access Galaxy-related publications](#publications)**, **[new releases](#releases), and [other news too](#other-news).**
 
-We hope we to see you at GCC events this week and next.
+We hope to see you at GCC events this week and next.
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
