@@ -3,8 +3,10 @@ title: Galaxy FTP Upload
 ---
 # File Upload via FTP
 
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success trim-p" role="alert">
+
 The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email and password as for Galaxy.
+
 </div>
 
 Uploading data directly from the browser can be unreliable and cumbersome.
@@ -14,7 +16,7 @@ Compression types .gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are al
 
 ## Introduction
 
-If you are completely new to FTP transfers you might benefit from reading a [wikihow](http://www.wikihow.com/Use-FTP) page about it.
+If you are completely new to FTP transfers you might benefit from reading a [wikihow](https://www.wikihow.com/Use-FTP) page about it.
 
 To get started using FTP with Galaxy, you'll need to have registered a regular Galaxy account. Once registered, you can initiate an FTP connection in your preferred FTP
 client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_FTP_client_software) of available FTP clients.
@@ -24,8 +26,10 @@ client. Please see the [comparison](https://en.wikipedia.org/wiki/Comparison_of_
 In this example, FileZilla for MacOS is used. Point your client to the FTP server hostname provided in the upload modal window (`usegalaxy.org` for Galaxy Main).
 ![FTP client connection details](./ftp-connect.png)
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning trim-p" role="alert">
+
 If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling FTP with `passive` mode in your client. Please connect using `FTP`, `FTPS`, or `FTP-TLS` type of connections. All `SFTP` connections will be rejected.
+
 </div>
 
 In most clients, when a connection is made with `FTP` or `FTPS`, a pop-up server certificate authentication will need to be accepted.

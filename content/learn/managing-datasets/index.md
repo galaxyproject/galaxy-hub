@@ -1,7 +1,7 @@
 ---
 title: Managing Datasets in Galaxy
 ---
-***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
+***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](https://vimeo.com/galaxyproject/datasets1)***
 
 The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/src/learn/advanced-workflow/index.md)**, making an analysis pathway transparent, reproducible, and *reusable*.
 
@@ -11,13 +11,18 @@ Effectively managing datasets is important for general organization, collaborati
 
 You have multiple options how to get your files into Galaxy thus making them datasets:
 
-<div class='right'>![Upload Modal Icon](/src/learn/managing-datasets/upload_icon.png)</div>
+<div class='right'>
+
+![Upload Modal Icon](/src/learn/managing-datasets/upload_icon.png)
+
+</div>
+
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
 * **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
 
 # Dataset Icons & Text
 
-Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/src/main/index.md)** server **[usegalaxy.org](http://usegalaxy.org)**.
+Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/src/main/index.md)** server **[usegalaxy.org](https://usegalaxy.org)**.
 * Upper right corner
   * ![](/src/images/icons/eye.png) Display data in browser "eye icon"
   * ![](/src/images/icons/pencil.png) Edit attributes "pencil icon"
@@ -97,7 +102,7 @@ Tutorials
 Methods
 
 * Deleting Datasets and Histories
-  * **Watch how it works in the [Managing Histories](http://vimeo.com/galaxyproject/managehistories) video.**
+  * **Watch how it works in the [Managing Histories](https://vimeo.com/galaxyproject/managehistories) video.**
   * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/src/main/index.md) and [Test](/src/test/index.md), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted within a History. 

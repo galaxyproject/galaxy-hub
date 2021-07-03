@@ -124,12 +124,16 @@ If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a l
 ```
 $ git pull
 ```
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info trim-p" role="alert">
+
 **Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/src/admin/config/performance/production-server/index.md).
+
 </div>
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning trim-p" role="alert">
+
 **Note**: Occasionally, updated Galaxy code includes structural changes to the database tables. The release notes will alert you if a release contains a database change. After updating and restarting Galaxy, Galaxy will refuse to load and will output an error message indicating that your database has the wrong version. The error message indicates that you should backup your database and run `sh manage_db.sh upgrade`. Follow those instructions carefully, especially the part about backing up your database safely. Database updates are carefully tested before release, but it is good practice to be able to back out if something goes wrong during an update.
+
 </div>
 
 In the unlikely event that something goes wrong with updated code, you can return to an older release by using the release tag name from the [release list](https://docs.galaxyproject.org/en/master/releases/) page and the `git checkout` command. For example, to return to the latest version of the January 2015 release, use:

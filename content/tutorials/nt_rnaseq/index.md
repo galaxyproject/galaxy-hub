@@ -199,7 +199,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 
 ## Is this a stranded RNAseq experiment?
 
-RNAseq data is often [stranded](/tutorials/rb_rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets. 
+RNAseq data is often [stranded](/tutorials/rb-rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets. 
 
 ### Map subset of data
 
@@ -310,7 +310,7 @@ To make sense of the reads, their positions within mouse genome must be determin
 - Reads contained within mature exons - these align perfectly to the reference genome
 - Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
-Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb_rnaseq/). 
+Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/). 
     
 ## Spliced mapping with HISAT
 

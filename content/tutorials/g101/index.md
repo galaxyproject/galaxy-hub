@@ -13,7 +13,7 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a g
 
 ### The Galaxy software framework
 
-Galaxy software framework is an open-source application (distributed under the permissive [Academic Free License](http://getgalaxy.org)). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
+Galaxy software framework is an open-source application (distributed under the permissive [Academic Free License](https://getgalaxy.org)). Its goal is to develop and maintain a system that enables researchers without informatics expertise to perform computational analyses through the web. A user interacts with Galaxy through the web by uploading and analyzing the data. Galaxy interacts with underlying computational infrastructure (servers that run the analyses and disks that store the data) without exposing it to the user.
 
 |        |
 |--------|
@@ -49,16 +49,18 @@ To make this demonstration smooth we would recommend setting up your workspace a
 
 ### Getting your display sorted out
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning trim-p" role="alert">
+
 **Note**: Some screenshots shown here may appear slightly different from the ones you will see on your screen. Galaxy is quickly evolving and as a result some discrepancies are possible.
+
 </div>
 
-To get the most of this tutorial open two browser windows. The first is the one you already have (this page). To open the other, **right** click [this link](http://usegalaxy.org) and choose "Open in a New Window" (or something similar depending on your operating system and browser):
+To get the most of this tutorial open two browser windows. The first is the one you already have (this page). To open the other, **right** click [this link](https://usegalaxy.org) and choose "Open in a New Window" (or something similar depending on your operating system and browser):
 
 |        |
 |--------|
 |![open in a new window](/src/tutorials/g101/newWindow.png)|
-|<small>**Figure 2. Open a new window** by right clicking [this link](http://usegalaxy.org).</small>|
+|<small>**Figure 2. Open a new window** by right clicking [this link](https://usegalaxy.org).</small>|
 
 Then organize your windows as something like this (depending on the size of your monitor you may or may not be able to organize things this way, but you get the idea):
 
@@ -140,8 +142,10 @@ where you do not need to change anything (make sure that **Whole Gene** is selec
 
 ### Tidying up
 
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success trim-p" role="alert">
+
 History keeps the entire record of your analysis. To find more about histories take a look at this [tutorial](/tutorials/histories).
+
 </div>
 
 Now we will rename the two history items to "Exons" and "SNPs" by clicking on the Pencil icon <i class="fas fa-pencil-alt" aria-hidden="true"></i> adjacent to each item. You will see middle pane of the interface changing. There (in the middle pane) you will have the opportunity to rename datasets. After changing the name scroll down and click **Save**.  Also we will rename history to "my example" (or whatever you want) by clicking on **Unnamed history** so everything looks like this:
@@ -269,8 +273,10 @@ Thus the highest number of SNPs per exon on chromosome 22 is 40!
 
 Now we know that in this dataset the five top exons contain between 25 and 40 SNPs. But what else can we learn about these? To know more we need to get back the positional information (coordinates) of these exons. This information was lost at the grouping step and now all we have is just two columns with IDs and counts. To get coordinates back we will match the names of exons in dataset #6 (column 1) against names of the exons in the original dataset #1 (column 4). This can be done with **Join, Subtract and Group &#8594; Join** tool (note the settings of the tool in the middle pane):
 
-<div class="alert alert-danger" role="alert">
+<div class="alert alert-danger trim-p" role="alert">
+
 Note that there are two kinds of join in Galaxy. One is to join genomic features based on positional information: if start and end coordinates of one feature overlap with start and end coordinates of the other, they are joined. This type of join is found in **Operate on Genomics Intervals &#8594; Join**. We used it before to join exons and SNPs (see Fig. 13). Here we use a **different kind** of join. It joins lines from two datasets is they share a common field. It can be found in **Join, Subtract and Group &#8594; Join**.
+
 </div>
 
 |        |

@@ -1,11 +1,10 @@
-[Getting Started](/cloudman/getting-started)<br />
-[Cluster Types](/cloudman/cluster-types)<br />
-[Capacity Planning](/cloudman/capacity-planning)<br />
-[Application Services](/cloudman/services)<br />
-[Cluster Sharing](/cloudman/sharing)<br />
-[Instance User Data](/cloudman/userdata)<br />
-[Customizing](/cloudman/customizing)<br />
-[Building on a private cloud](/cloudman/building)<br />
-[Troubleshooting](/cloudman/troubleshooting)<br />
-[FAQ](/cloudman/faq)<br />
-</div>
+[Getting Started](/cloudman/getting-started)  
+[Cluster Types](/cloudman/cluster-types)  
+[Capacity Planning](/cloudman/capacity-planning)  
+[Application Services](/cloudman/services)  
+[Cluster Sharing](/cloudman/sharing)  
+[Instance User Data](/cloudman/userdata)  
+[Customizing](/cloudman/customizing)  
+[Building on a private cloud](/cloudman/building)  
+[Troubleshooting](/cloudman/troubleshooting)  
+[FAQ](/cloudman/faq)

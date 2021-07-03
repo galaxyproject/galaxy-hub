@@ -12,7 +12,7 @@ Related topics
 * [Choices](/src/use/index.md#which-platform-platform-type-to-choose)
 * [Ecosystem](https://galaxyproject.github.io/)
 * [Galaxy Help](https://help.galaxyproject.org/)
-* [Search all Prior Q&A and Galaxy Resources](https://galaxyproject.org/search/)
+* [Search all Prior `Q&A` and Galaxy Resources](https://galaxyproject.org/search/)
 
 Known Issues
 

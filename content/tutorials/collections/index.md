@@ -3,13 +3,14 @@ autotoc: true
 title: Processing many samples at once with collections
 ---
 
-<div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that the person reading this tutorial
-<hr>
-	<ul>
-	    <li>has a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101) tutorial)</li>
-		<li>has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)</li>
-		<li>has their browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)</li>
-	</ul>
+<div class="alert alert-info trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>Note: we assume that the person reading this tutorial
+
+---
+
+* has a basic understanding of how Galaxy works (if you don't, please see [Galaxy 101](/tutorials/g101/) tutorial)
+* has an account in Galaxy ([see this](/tutorials/g101/#setting-up-galaxy-account) if you don't)
+* has their browser configured as described [here](/tutorials/g101/#getting-your-display-sorted-out)
+
 </div>
 
 In Galaxy you perform data analyses and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. However, in most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and **Collections** help manage your data to minimize the amount of clicking you have to do. 
@@ -195,7 +196,7 @@ Going forward collections will become the dominant way to represent and manage d
 |      |
 |------|
 |![](/src/tutorials/collections/collection_rna.png)|
-|<small>**Figure 15. Example of RNA-seq analysis**. This example starts with multiple paired end datasets representing two conditions with several replicates. The analysis proceeds by creating two collections that are analyzed in parallel (the tagging feature described above should make this analysis very straightforward), where reads are mapped to a genome and the mapped reads are then counted upstream of the DeSeq2 tool, whcih reduces the collections into a single table listing changes in gene expression between the two conditions (see [RNA seq tutorial](/tutorials/nt_rnaseq/) for a comprehensive explanation).</small>|
+|<small>**Figure 15. Example of RNA-seq analysis**. This example starts with multiple paired end datasets representing two conditions with several replicates. The analysis proceeds by creating two collections that are analyzed in parallel (the tagging feature described above should make this analysis very straightforward), where reads are mapped to a genome and the mapped reads are then counted upstream of the DeSeq2 tool, whcih reduces the collections into a single table listing changes in gene expression between the two conditions (see [RNA seq tutorial](/tutorials/nt-rnaseq/) for a comprehensive explanation).</small>|
 
 The next analysis highlights main steps if initial processing of ChIP-seq data:
 

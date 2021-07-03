@@ -1,15 +1,19 @@
 ---
 title: Galaxy Main public site
 ---
-The main Galaxy site at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/src/galaxy-project/statistics)). It is sustained by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
+The main Galaxy site at https://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/galaxy-project/statistics/)). It is sustained by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](https://www.cyverse.org/) project.  
 
 Anyone can use the public servers, with or without an account, but Galaxy user accounts are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). 
 
-<div class="alert alert-warning" role="alert"></span>**Note**: Galaxy's *Terms and Conditions* (see below) specifically declare a "one-account per user" requirement.</div>
+<div class="alert alert-warning trim-p" role="alert">
+
+**Note**: Galaxy's *Terms and Conditions* (see below) specifically declare a "one-account per user" requirement.
+
+</div>
 
 ## Status of the public site
 
-The status page with the current state of the Main Server, Test Server, and ToolShed is available at [http://status.galaxyproject.org/](http://status.galaxyproject.org/).
+The status page with the current state of the Main Server, Test Server, and ToolShed is available at [https://status.galaxyproject.org/](https://status.galaxyproject.org/).
 
 ## Resouces available to main site
 

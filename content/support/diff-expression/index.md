@@ -3,7 +3,7 @@ title: Help for Differential Expression Analysis
 ---
 [Back to Support Hub](/src/support/index.md)
 
-FAQs and Galaxy Help Q&A. Most tool errors have been discussed or have existing help:
+FAQs and Galaxy Help Q`&`A. Most tool errors have been discussed or have existing help:
 
 * [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
 * [Support FAQs](/src/support/inde.md)

@@ -39,8 +39,10 @@ In some cases you may need to upload public datasets from the Internet. These da
 
 Finally, if the data you are uploading has been deposited to the Short Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) at [NCBI](https://www.ncbi.nlm.nih.gov/) use the following approach:
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning trim-p" role="alert">
+
 Note: SRA approach downloads individual datasets into [collections](/tutorials/collections/). Galaxy uses collections to combine similar datasets in order to streamline interface and minimize the amount of clicking you need to do. Please, take a look a collections [tutorial](/tutorials/collections/) to understand this useful concept.
+
 </div>
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/217216264?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>

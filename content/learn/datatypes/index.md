@@ -40,7 +40,7 @@ required fields.
 ## BAM
 
 A binary file compressed in the `BGZF` format with a `'.bam'` file extension.
-Also see **[SAM](/learn/datatypes#SAM)**.
+Also see **[SAM](#sam)**.
 [http://samtools.sourceforge.net/samtools.shtml](http://samtools.sourceforge.net/samtools.shtml)
 
 ## Bed
@@ -302,20 +302,18 @@ GAGTTCTCGTCGCCTGTAGGCACCATCAATCGTATG
 *   frame
 *   group
 
-`GFF` format is also known as
-`[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
-1` or `GFF1`. The official specification is at
+`GFF` format is also known as [General Feature Format 1](https://en.wikipedia.org/wiki/General_feature_format) or `GFF1`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
-(notes in the [GFF2](/learn/datatypes#GTF) specification describe
-[GFF1](/learn/datatypes#GFF)).
+(notes in the [GFF2](#gtf) specification describe
+[GFF1](#gff)).
 
 The [UCSC](http://genome.ucsc.edu) Genome Browser `GFF`
-specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
+specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.ucsc.edu/FAQ/FAQformat.html#format3)
 
 ## GTF
 
 `GTF` lines have nine required fields that must be tab-separated.  (Similar to
-[GFF](/learn/datatypes#GFF) format)
+[GFF](#gff) format)
 
 *   Fields are:
 *   seqname
@@ -328,14 +326,12 @@ specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome.
 *   frame
 *   attribute
 
-`GTF` format is also known as
-`[[http://en.wikipedia.org/wiki/General_feature_format|General Feature Format
-2` or `GFF2`. The official specification is at
+`GTF` format is also known as [General Feature Format 2](https://en.wikipedia.org/wiki/General_feature_format) or `GFF2`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
-([GFF2](/learn/datatypes#GTF) specification).
+([GFF2](#gtf) specification).
 
 The [UCSC](http://genome.ucsc.edu) Genome Browser `GTF`
-specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
+specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.ucsc.edu/FAQ/FAQformat.html#format4)
 
 
 **TIP** When using `GTF` datasets in Galaxy, the dataset should not contain any header lines or blank lines. Extra comment lines (usually staring with a #) or blank lines at the start and sometimes internal to the file should be removed before using the data.
@@ -347,7 +343,7 @@ specification:[http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome.
 
 ## GFF3
 
-Similar to [GFF](/learn/datatypes#GFF) and [GTF](/learn/datatypes#GTF) in
+Similar to [GFF](#gff) and [GTF](#gtf) in
 having nine tab-seperated columns of data at the core of file and having a
 1-based start coordinate. However, `GFF3` format has data that is grouped
 differently between lines (and sets of lines), can be hierarchically ordered,
@@ -368,22 +364,22 @@ The official specification is at
 [GMOD](http://gmod.org) also has a nice specification at
 [GFF3_Format](http://gmod.org/wiki/GFF#GFF3_Format).
 
-**[GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF)/[GFF3](/learn/datatypes#GFF3)**
+**[GFF](#gff)/[GTF](#gtf)/[GFF3](#gff3)**
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
-*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](https://galaxyproject.org/support/chrom-identifiers/#any-mixed-sourced-data) 
+*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data) 
 *   The public [Main](/src/main/index.md) Galaxy instance contains tools to examine and
-    manipulate [GFF](/learn/datatypes#GFF)/[GTF](/learn/datatypes#GTF) files
+    manipulate [GFF](#gff)/[GTF](#gtf) files
     under the tool group **Filter and Sort**.
 *   The public Galaxy instance at:
     [http://galaxy.raetschlab.org](http://galaxy.raetschlab.org) contains tools
-    to examine [GFF](/learn/datatypes#GFF) files or convert various formats to
-    [GFF3](/learn/datatypes#GFF3) under the tool group **GFF Toolkit**.
-*   The [Tool Shed](/toolshed) contains a repository named `fml_gff3togtf`
+    to examine [GFF](#gff) files or convert various formats to
+    [GFF3](#gff3) under the tool group **GFF Toolkit**.
+*   The [Tool Shed](/toolshed/) contains a repository named `fml_gff3togtf`
     that houses a collection of tools to convert various formats into
-    [GFF3](/learn/datatypes#GFF3) format.
-*   New tools are continually added to the [Tool Shed](/toolshed) - search
+    [GFF3](#gff3) format.
+*   New tools are continually added to the [Tool Shed](/toolshed/) - search
     with a phase like "GFF" to see if others are available.
 
 ## Interval
