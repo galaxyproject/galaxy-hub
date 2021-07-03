@@ -11,5 +11,7 @@ gtn: false
 contact: "Bérénice Batut"
 tags: []
 links:
+- text: "Video"
+  url: "https://youtu.be/Il84WUPVaxc"
 image: 
 ---
