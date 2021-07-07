@@ -1,10 +1,10 @@
-# Community site prototype
+# The New Galaxy Community Hub
 
-This repository contains the framework - the code that generates the site.
+This is a prototype of the replacement for the current community hub at [galaxyproject.org](https://galaxyproject.org). To experience it right now, visit [preview.galaxyproject.org](https://preview.galaxyproject.org).
 
-It contains no static content, only dynamically generated pages. To add content, clone this, then create a `content` directory in the root. All your Markdown files go in there. For images and other static files, create a `static` directory in the root and put them there.
+For a summary of the why and how, our poster from GCC2021 might help:
 
-The framework does contain all the dynamic pages used by the [galaxy-hub](/galaxyproject/galaxy-hub). These can serve as examples or just be deleted. See the explanation of [dynamic pages](#creating-dynamic-pages) below.
+![Poster summary of the new hub](doc/poster.svg)
 
 ## Getting started
 
@@ -48,7 +48,7 @@ For static pages (normal, informational pages), you create a directory, whose na
 
 ### Writing the Markdown
 
-See the [Authoring Guide](AUTHORING.md)
+See the [Authoring Guide](doc/AUTHORING.md)
 
 ### Custom layouts for static pages
 
