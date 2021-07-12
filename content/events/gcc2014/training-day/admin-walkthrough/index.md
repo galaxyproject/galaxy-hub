@@ -2,9 +2,8 @@
 title: "Tutorial: Galaxy Installation and Administration"
 ---
 <slot name="/events/gcc2014/header" />
+
 <br /><br />
-
-
 
 <slot name="/events/gcc2014/linkbox" />
 
@@ -13,10 +12,10 @@ title: "Tutorial: Galaxy Installation and Administration"
 [Nate Coraor](/src/people/nate/index.md) and [John Chilton](/src/people/john-chilton/index.md)
 
 <br />
+
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy
 
 This this follow-along page assumes you have already installed and started a [Training Day VM](https://wiki.galaxyproject.org/Events/GCC2014/TrainingDay/VMs) - please do this before arriving.
-
 
 
 **This tool assumes you are using Firefox bundled with the VM.** Galaxy is compatible with all modern versions of Firefox, Chrome, Safari, and Internet Explorer. However, for the purposes of this tutorial it will help us when assisting people encountering problems if they are only using Firefox.
