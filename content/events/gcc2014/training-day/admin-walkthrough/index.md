@@ -63,7 +63,7 @@ galaxy@gcc2014:~/galaxy-dist$
 
 ## Start Galaxy
 
-```console
+```
 galaxy@gcc2014:~/galaxy-dist$ cp -r ../galaxy-central/eggs eggs  # cache dependencies to speed up deploy (optional)
 galaxy@gcc2014:~/galaxy-dist$ sh run.sh
 Initializing datatypes_conf.xml from datatypes_conf.xml.sample
@@ -788,7 +788,7 @@ We only have one VM for this workshop - so we are going to simulate this by ship
 
 ### Installing Pulsar with Ansible
 
-```console
+```
 galaxy@gcc2014:~$ . ansible/bin/activate
 (ansible)galaxy@gcc2014:~$ hg clone https://bitbucket.org/natefoo/galaxy-ansible
 (ansible)galaxy@gcc2014:~$ cd galaxy-ansible
