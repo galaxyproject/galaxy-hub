@@ -30,15 +30,13 @@ You can include images in your `.md` files with Markdown syntax (`![alt text](./
 
 If the image is a one-off that's only used for this page, then you can just put it right in the same directory as the `index.md` file. Then reference it with a relative path: `![one-off](./oneoff.jpg)`. **Note** that the `./` is necessary!
 
-It *is* possible sometimes to use images from directories other than the current one or `static/images/`. In those situations you'd just use a relative path like `![nonlocal](./subdir/image.jpg)` or even `![alt text](../sibling/image.jpg)`. But this is not recommended and may not work.
+It *is* possible sometimes to use images from directories other than the current one or `static/images/`. In those situations you'd just use a relative path like `![alt text](./subdir/image.jpg)` or even `![alt text](../sibling/image.jpg)`. But this is not recommended and may not work.
 
 ### Resizing images
 
-This framework uses the [remark-attr](https://www.npmjs.com/package/remark-attr) plugin, which allows adding attributes to Markdown images. However, it currently only works for the `width` attribute in pages not requiring `vue-remark`. In that circumstance, you can use this syntax: `![alt text](./image.jpg){width="50"}` (where `50` is the image width in pixels).
+This framework uses the [remark-attr](https://www.npmjs.com/package/remark-attr) plugin, which allows adding attributes to Markdown images. However, it currently only works for the `width` attribute. It uses this syntax: `![alt text](./image.jpg){width="50"}` (where `50` is the image width in pixels).
 
-Otherwise, you'll have to use a [`<div>` wrapper](#html-wrappers). Add the class `img-sizer` to the `<div>`, then resize it using the `style` attribute. Setting a width should work well, but heights can be tricky.
-
-If you run into issues, try setting the `width` instead of the `max-width` (or `height` instead of `max-height`). If `height` still doesn't work, you might have to calculate the equivalent `width` for your image and set that instead.
+If you'd like to resize your image in any other way (percentages, `max-width`, `height`, etc), you'll need to use a [`<div>` wrapper](#html-wrappers). Add the class `img-sizer` to the `<div>`, then resize it using the `style` attribute. Some CSS properties will work better than others: widths are the most reliable, `max-` or `min-` prefixes usually work, but heights can be tricky.
 
 Example:
 ```

@@ -7,6 +7,7 @@
 const nodePath = require('path');
 const fs = require('fs');
 const { rmPrefix, rmSuffix, rmPathPrefix } = require('./src/utils.js');
+const REMARK_PLUGINS = ['remark-attr'];
 
 const CONFIG = JSON.parse(fs.readFileSync('config.json','utf8'));
 const MD_CONTENT_DIR = CONFIG.build.dirs.md;
@@ -48,7 +49,8 @@ function mkPlugins(collections) {
         baseDir: VUE_CONTENT_DIR,
         pathPrefix: '/',
         ignore: [],
-        template: 'src/templates/VueArticle.vue'
+        template: 'src/templates/VueArticle.vue',
+        plugins: REMARK_PLUGINS
       }
     },
   ];
@@ -109,7 +111,7 @@ module.exports = {
       externalLinksRel: ['noopener', 'noreferrer'],
       slug: true,
       autolinkHeadings: true,
-      plugins: ['remark-attr'],
+      plugins: REMARK_PLUGINS,
     }
   },
   // This was required to solve an error thrown by importing `fs` into `src/util.js`.
