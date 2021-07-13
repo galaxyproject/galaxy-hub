@@ -84,4 +84,12 @@ block content
             
             div( class="card-deck" )
                 each item in jobs_malleable
-                    +renderJobCard(item)
+                    if !item.closes || moment(item.closes) >= moment(new Date())
+                        +renderJobCard(item)
+
+            h2(id="previous-openings") Previous Openings
+
+            div( class="card-deck" )
+                each item in jobs_malleable
+                    if item.closes && moment(item.closes) < moment(new Date())
+                        +renderJobCard(item)
