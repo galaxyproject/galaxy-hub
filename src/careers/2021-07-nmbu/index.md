@@ -2,7 +2,7 @@
 title: "PhD scholarship on functional and evolutionary genomics"
 date: "2021-07-14"
 closes: "2021-08-15"
-summary: "Explore how the genome shapes diverse traits with the computational analysis"
+summary: "Explore how the genome shapes diverse traits with the computational analysis. Watch the [video about this position](https://www.youtube.com/watch?v=KNLIX3asTiE)."
 continent: EU
 location: "CIGENE, Norwegian University of Life Science, Ås, Norway"
 image: /src/images/logos/nmbu-logo.png
