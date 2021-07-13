@@ -168,15 +168,23 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Sciensano](/src/use/sciensano/index.md)</div>
+<div class="card-header">
 
-<img class="card-img-top" src="/src/use/sciensano/sciensano-logo.jpg" alt="Sciensano" />
+[Sciensano](/src/use/sciensano/index.md)
+
+</div>
+
+<img class="card-img-top" src="/src/images/logos/sciensano-logo.jpg" alt="Sciensano" />
 
 A general purpose Galaxy server optimized for microbiological genomics applications of interest for public health.   Support analysis of Illumina and IonTorrent data.  A set of YouTube videos will be released in the beginning of 2020. 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Excellence in Breeding](/src/use/eib/index.md)</div>
+<div class="card-header">
+
+[Excellence in Breeding](/src/use/eib/index.md)
+
+</div>
 
 <img class="card-img-top" src="/src/use/eib/eib-logo.png" alt="Excellence in Breeding (EIB)" />
 
