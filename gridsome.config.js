@@ -121,4 +121,9 @@ module.exports = {
       fs: "empty"
     }
   },
+  images: {
+    // Disable image compression. This greatly reduces build time, but not memory usage.
+    compress: false,
+    defaultQuality: 100
+  }
 }
