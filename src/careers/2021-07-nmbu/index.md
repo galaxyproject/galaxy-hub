@@ -7,6 +7,6 @@ continent: EU
 location: "CIGENE, Norwegian University of Life Science, Ås, Norway"
 image: /src/images/logos/nmbu-logo.png
 location_url: "https://cigene.no/"
-external_url: "https://www.jobbnorge.no/en/available-jobs/job/199862/postdoctoral-research-fellow-within-meta-omics-analysis-of-microbial-communities"
+external_url: "https://www.jobbnorge.no/en/available-jobs/job/209643/phd-scholarship-on-functional-and-evolutionary-genomics"
 contact: ""
 ---
