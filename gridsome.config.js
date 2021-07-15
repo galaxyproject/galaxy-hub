@@ -102,6 +102,7 @@ function logAndReturn(...values) {
 module.exports = {
   siteName: 'Galaxy Community Hub',
   siteDescription: 'All about Galaxy and its community.',
+  icon: './src/favicon.png',
   templates: mkTemplates(CONFIG['collections']),
   plugins: mkPlugins(CONFIG['collections']),
   transformers: {
