@@ -87,7 +87,7 @@ class EventHandler:
     self.build_dirs = {}
     for key, rel_dir in config['build']['dirs'].items():
       self.build_dirs[key] = project_root/rel_dir
-    self.placers = {'md':link, 'vue':copy, 'insert':link, 'resource':link}
+    self.placers = {'md':link, 'vue':link, 'insert':link, 'resource':link}
     if placers is not None:
       self.placers.update(placers)
 

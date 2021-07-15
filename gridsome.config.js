@@ -115,6 +115,11 @@ module.exports = {
       plugins: REMARK_PLUGINS,
     }
   },
+  images: {
+    // Disable image compression. This greatly reduces build time, but not memory usage.
+    compress: false,
+    defaultQuality: 100
+  },
   // This was required to solve an error thrown by importing `fs` into `src/util.js`.
   // https://github.com/nuxt-community/dotenv-module/issues/11#issuecomment-619958699
   configureWebpack: {
@@ -122,9 +127,9 @@ module.exports = {
       fs: "empty"
     }
   },
-  images: {
-    // Disable image compression. This greatly reduces build time, but not memory usage.
-    compress: false,
-    defaultQuality: 100
+  // Fix bug in vue-remark that breaks it if a Markdown file is a symlink to one outside the content
+  // directory: https://github.com/gridsome/gridsome/issues/1251#issuecomment-652931137
+  chainWebpack(config) {
+    config.resolve.set('symlinks', false)
   }
 }
