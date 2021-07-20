@@ -53,7 +53,7 @@ function main(inputPath, opts) {
     .use(remarkParse)
     .use(keepNewlineBeforeHtml)
     .use(htmlImgToMd, {limit:opts.limit})
-    .use(fixLinks, {base:base, debug:opts.debug})
+    .use(fixLinks, {bases:[base], debug:opts.debug})
     .use(remarkFrontmatter, {type:'yaml', marker:'-'})
     .use(remarkStringify, REMARK_STRINGIFY_OPTIONS);
 

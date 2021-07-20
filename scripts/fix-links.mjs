@@ -22,7 +22,7 @@ const DUMMY_DOMAIN = 'http://dummy.invalid';
 const LINK_PROPS = {img:'src', a:'href'};
 const LINK_FIXERS = {img:fixImageLink, a:fixHyperLink};
 
-export default function(options) {
+export default function attacher(options) {
   if (options === undefined) {
     options = {};
   }
@@ -34,16 +34,43 @@ export default function(options) {
     // console.log(`Path: ${file.path}`);
     // console.log(`Base: ${options.base}`);
     globals.filePathRaw = file.path;
-    if (options.base) {
-      let filePath = getRelFilePath(file.cwd, globals.filePathRaw, options.base);
-      globals.dirPath = nodePath.dirname(filePath);
-    }
-    // console.log(`Found file dirname ${globals.dirPath}`);
+    globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
+    // console.log(`Found file dirnames ${globals.dirPath}`);
     visit(tree, 'link', node => { node.url = fixHyperLink(node.url) });
     visit(tree, 'image', node => { node.url = fixImageLink(node.url) });
     visit(tree, 'html', fixHtmlLinks);
   }
   return transformer
+}
+
+function getDirPath(bases, cwd, filePathRaw) {
+  /** Get the relative path of this file from the base directory.
+   *  Multiple bases can be given and this will chose the one which results in the shortest
+   *  relative path.
+   */
+  let dirPaths = [];
+  for (let base of bases) {
+    // console.log(`Trying ${base} on ${filePathRaw}`);
+    let filePath = getRelFilePath(cwd, filePathRaw, base);
+    // console.log(`  Result: ${filePath}`);
+    dirPaths.push(nodePath.dirname(filePath));
+  }
+  return pickShortest(dirPaths);
+}
+
+function pickShortest(items) {
+  let minLen = null;
+  let shortest;
+  for (let item of items) {
+    if (minLen === null) {
+      minLen = item.length;
+      shortest = item;
+    } else if (item.length < minLen) {
+      minLen = item.length;
+      shortest = item;
+    }
+  }
+  return shortest;
 }
 
 function getRelFilePath(cwd, rawPath, base) {
