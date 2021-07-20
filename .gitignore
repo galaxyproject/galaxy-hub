@@ -4,5 +4,8 @@ build
 dist
 package-lock.json
 src/.temp
+__pycache__
 .cache
 *.DS_Store
+testing
+meta
