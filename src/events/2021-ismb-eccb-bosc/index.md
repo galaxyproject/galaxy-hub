@@ -46,6 +46,7 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 | 15:20 | Dockstore - 2021 update | Denis Yuen | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
 | 15:20 | PDAUG: A Galaxy based toolset for the machine learning modeling, visualization and analysis of peptide libraries | Jayadev Joshi | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
 | 15:20 | Rice SNP-seek database version 3.0 | Lord Hendrix Barboza | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
+| 15:20 | Open Life Science to inspire culture change in Bioinformatics communities: a case study at Bezmialem University | Muhammet Celik | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | &nbsp; |
 | 15:20 | WorkflowHub | Carole Goble | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | &nbsp; |
 
 
