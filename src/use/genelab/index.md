@@ -4,7 +4,7 @@ url: "https://genelab.nasa.gov/"
 scope: "general"
 platforms:
   - platform_group: "public-server"
-    platform_url: "https://genelab-data.ndc.nasa.gov/glxy-sso-login/"
+    platform_url: "https://galaxy.genelab.nasa.gov/"
     platform_text: "GeneLab"
     platform_location: US
 summary: "NASA GeneLab is a comprehensive space-related omics database in which users can upload, download, share, store, and analyze spaceflight and corresponding model organism data."

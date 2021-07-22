@@ -179,7 +179,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <img class="card-img-top" src="/src/use/galaxytrakr/galaxytrakr-logo.jpg" alt="GalaxyTrakr" />
 
-The [GalaxyTrakr server](https://www.galaxytrakr.org/) is provided by the [US Food and Drug Administration](https://www.fda.gov/) to support food-borne pathogen research worldwide. A [User Guide](https://s3.amazonaws.com/cfsan-genometrakr-docs/user+guide/Galaxy+Genome+Trakr+User+Guide.pdf), [FAQ](https://cfsan-genometrakr-docs.s3.amazonaws.com/user+guide/FAQs+for+GalaxyTrakr.pdf), [Videos](https://www.youtube.com/channel/UCxuzusNRSpnw3qG6dQDDzGw), and [Email support](mailto:GalaxyTrakrSupport_at_fda.hhs.gov) are available.  An account is required and anyone working in public health can apply.
+The [GalaxyTrakr server](https://galaxytrakr.org/) is provided by the [US Food and Drug Administration](https://www.fda.gov/) to support food-borne pathogen research worldwide. A [User Guide](https://s3.amazonaws.com/cfsan-genometrakr-docs/user+guide/Galaxy+Genome+Trakr+User+Guide.pdf), [FAQ](https://cfsan-genometrakr-docs.s3.amazonaws.com/user+guide/FAQs+for+GalaxyTrakr.pdf), [Videos](https://www.youtube.com/channel/UCxuzusNRSpnw3qG6dQDDzGw), and [Email support](mailto:GalaxyTrakrSupport_at_fda.hhs.gov) are available.  An account is required and anyone working in public health can apply.
 </div>
 
 
