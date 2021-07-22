@@ -51,9 +51,9 @@ And there are several new platforms for running Galaxy this month too:
 
 ### SMAGEXP
 
-[<img src="/src/use/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="300" />](/src/use/smagexp/index.md)
+<img src="/src/use/archive/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="300" />
 
-[SMAGEXP (Statistical Meta-Analysis for Gene EXPression)](/src/use/smagexp/index.md) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. A Galaxy instance is provided in a Docker container.  SMAGEXP comes with an [Installation and user guide, including two step-by-step examples](https://github.com/sblanck/smagexp#table-of-contents-).  It is supported by Univ. Lille Droit et Santé, Lille, France and Inria Lille-Nord Europe, MODAL, Lille, France.
+SMAGEXP (Statistical Meta-Analysis for Gene EXPression) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. A Galaxy instance is provided in a Docker container.  SMAGEXP comes with an [Installation and user guide, including two step-by-step examples](https://github.com/sblanck/smagexp#table-of-contents-).  It is supported by Univ. Lille Droit et Santé, Lille, France and Inria Lille-Nord Europe, MODAL, Lille, France.
 
 ### SNIC Science Cloud (SSC)
 

@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://github.com/sblanck/smagexp"
     platform_text: "Docker"
 summary: "SMAGEXP (Statistical Meta-Analysis for Gene EXPression) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities."
-image: "/src/use/smagexp/smagexp-flowchart.png"
+image: "smagexp-flowchart.png"
 comments:
   - "Handles microarray data from Gene Expression Omnibus (GEO) database or custom data from affymetrix microarrays. These data are then combined to carry out meta-analysis using metaMA package. SMAGEXP also offers to combine Next Generation Sequencing (NGS) RNA-seq analysis from DESeq2 results thanks to metaRNASeq package. In both cases, key values, independent from the technology type, are reported to judge the quality of the meta-analysis."
   - "SMAGEXP is [available in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/view/sblanck/smagexp/58052f8bc987) as well."

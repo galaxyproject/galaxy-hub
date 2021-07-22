@@ -7,9 +7,6 @@ platforms:
     platform_url: "http://ribogalaxy.ucc.ie/"
     platform_text: "RiboGalaxy"
     platform_location: IE
-  - platform_group: "container"
-    platform_url: "https://hub.docker.com/r/riboseq/ribogalaxy"
-    platform_text: "RiboGalaxy on Docker Hub"
 summary: "Tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. "
 image: "/src/use/ribogalaxy/ribogalaxy-logo.png"
 comments:

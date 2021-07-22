@@ -8,7 +8,7 @@ platforms:
     platform_text: "Wageningen UR Galaxy"
     platform_location: NL
 summary: "Includes microarray tools, the MUMmer suite, and many conversion tools. Strong focus on multi-omics: next to genomics tools it also contains proteomics and metabolomics tools "
-image: "/src/use/wageningen-ur/wageningen.png"
+image: "wageningen.png"
 comments:
   - "Also links to [Plant Research International ChIP-seq Analysis Tool (PRI-CAT)](http://www.ab.wur.nl/pricat/#Galaxy)."
 user_support:
