@@ -40,6 +40,11 @@ function slugify(string) {
 }
 module.exports.slugify = slugify;
 
+function splitlines(text) {
+  return text.split(/\r\n|\r|\n/);
+}
+module.exports.splitlines = splitlines;
+
 function dateToStr(date) {
   /** Turn a `Date` object into a string like "2021-03-12". */
   return date.toISOString().slice(0,10);
@@ -77,6 +82,7 @@ function getImage(imagePath, images) {
 module.exports.getImage = getImage;
 
 function mdToHtml(md) {
+  //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
   let rawHtml;
   remark().use(remarkHtml).process(md, (err, file) => {
     if (err) {
@@ -250,3 +256,94 @@ function logTree(root, depth, indent) {
   }
 }
 module.exports.logTree = logTree;
+
+class PathInfo {
+  constructor(path) {
+    //TODO: `cache` option to tell it to cache results of system calls.
+    //      This will prevent it from updating as the filesystem state changes, though.
+    this.path = path;
+  }
+  exists() {
+    /** Does the path exist?
+     *  Note: This returns `true` for broken symlinks (the link exists, but its targets does not).
+     */
+    if (fs.existsSync(this.path)) {
+      return true;
+    } else {
+      try {
+        fs.lstatSync(this.path);
+        return true;
+      } catch (error) {
+        return false;
+      }
+    }
+  }
+  type() {
+    /** Get the type of filesystem object this path points to.
+     *  If the path does not exist, return `'nonexistent'`.
+     *  If the path is a symbolic link, return the type of its target. If the target is missing,
+     *  return `'brokenlink'`.
+     */
+    if (! this.exists()) {
+      return 'nonexistent';
+    }
+    let stats;
+    try {
+      stats = fs.statSync(this.path);
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        // fs.statSync() will throw an error on a broken link.
+        // We defined those as "existing" in this.exists(), but fs.statSync() does not agree.
+        if (this.isLink()) {
+          return 'brokenlink';
+        } else {
+          console.error(`Unexpected filesystem entry ${this.path}`);
+          throw error;
+        }
+      } else {
+        throw error;
+      }
+    }
+    if (stats.isFile()) {
+      return 'file';
+    } else if (stats.isDirectory()) {
+      return 'dir';
+    } else if (stats.isSocket()) {
+      return 'socket';
+    } else if (stats.isBlockDevice()) {
+      return 'block';
+    } else if (stats.isCharacterDevice()) {
+      return 'char';
+    } else if (stats.isFIFO()) {
+      return 'fifo';
+    } else {
+      throw `Unexpected path type: ${this.path}`;
+    }
+  }
+  isLink() {
+    if (this.exists()) {
+      let stats = fs.lstatSync(this.path);
+      if (stats.isSymbolicLink()) {
+        return true;
+      }
+    }
+    return false;
+  }
+  mtime() {
+    if (this.exists()) {
+      let stats = fs.lstatSync(this.path);
+      return stats.mtimeMs;
+    } else {
+      return null;
+    }
+  }
+  size() {
+    if (this.exists()) {
+      let stats = fs.lstatSync(this.path);
+      return stats.size;
+    } else {
+      return null;
+    }
+  }
+}
+module.exports.PathInfo = PathInfo;
