@@ -282,7 +282,7 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 ## MGS-FAST
 
-[<img class="float-right" style="max-width: 200px" src="/src/use/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />](/src/use/mgs-fast/index.md)
+<img class="float-right" style="max-width: 200px" src="/src/use/archive/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />
 
 [MGS-Fast](https://github.com/BCIL/MGS-Fast) is an analysis approach to rapidly map a metagenomics shotgun sequencing (MGS) data set and assign known functions to reads originating from microbial genes, producing counts of KEGG gene orthologs as output. This rapid annotation method is freely available as a [Galaxy workflow within a Docker image](https://hub.docker.com/r/bcil/metagenome).
 
