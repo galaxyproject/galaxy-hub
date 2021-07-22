@@ -182,11 +182,11 @@ A general purpose Galaxy server optimized for microbiological genomics applicati
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">
 
-[Excellence in Breeding](/src/use/eib/index.md)
+[Excellence in Breeding](/src/use/cropgalaxy/index.md)
 
 </div>
 
-<img class="card-img-top" src="/src/use/eib/eib-logo.png" alt="Excellence in Breeding (EIB)" />
+<img class="card-img-top" src="/src/use/cropgalaxy/eib-logo.png" alt="Excellence in Breeding (EIB)" />
 
 Hosts tools for the [GOBii project](http://gobiiproject.org/), [HTPG project](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/) and [EiB platform](http://excellenceinbreeding.org/), including genomic selection, marker selection, GWAS, imputation, file conversion, and cluster analysis. [CGIAR](https://cgiar.org/) supports EiB to help modernize breeding programs targeting the developing world for greater impact on food and nutrition security, climate change adaptation and development.</div>
 

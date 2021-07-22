@@ -41,7 +41,7 @@ Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featur
 <img class="card-img-top" src="/src/events/2020-pag/pag-2020-splash.png" alt="Galaxy @ PAG 2020" />
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/eib/index.md)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/cropgalaxy/index.md)) and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
