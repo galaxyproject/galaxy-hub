@@ -22,7 +22,7 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 * 3 June: Late poster (and Late-Breaking Lightning Talk) submission deadline for BOSC
 
 
-*Note: all times are Central European Time.*
+*Note: all times are in UTC.*
 
 ## 25 July, Sunday
 
@@ -30,10 +30,12 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 | ---- | ---- | ---- | ---- |
 | 11:35 | Experiences from the Galaxy Training Network | Saskia Hiltemann | [WEB (Workshop on Education for Bioinformatics)](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/web) | &nbsp; |
 
+
 ## 27 July, Tuesday
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
+| 11:56 | Modeling the computing requirements and costs for genomics analysis in the cloud | Michael Schatz | [Special Track: NIH/OD Office of Data Science Strategy (ODSS)](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/odss) | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2021-ismb-eccb-bosc/2021-ismb-cloud-costs.pdf) |
 | 12:00 | MaxQuant and MSstats in Galaxy enable reproducible quantitative proteomics in the cloud for everyone | Melanie Föll | [CompMS COSI](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/compms) | &nbsp; | 
 
 
