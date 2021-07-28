@@ -7,7 +7,9 @@
 const nodePath = require('path');
 const fs = require('fs');
 const { rmPrefix, rmSuffix, rmPathPrefix } = require('./src/utils.js');
-const REMARK_PLUGINS = ['remark-attr'];
+const REMARK_PLUGINS = [];
+const REMARK_VUE_PLUGINS = REMARK_PLUGINS;
+const REMARK_MD_PLUGINS = REMARK_PLUGINS.concat('remark-attr');
 
 const CONFIG = JSON.parse(fs.readFileSync('config.json','utf8'));
 const MD_CONTENT_DIR = CONFIG.build.dirs.md;
@@ -50,7 +52,7 @@ function mkPlugins(collections) {
         pathPrefix: '/',
         ignore: [],
         template: 'src/templates/VueArticle.vue',
-        plugins: REMARK_PLUGINS
+        plugins: REMARK_VUE_PLUGINS
       }
     },
   ];
@@ -112,7 +114,7 @@ module.exports = {
       externalLinksRel: ['noopener', 'noreferrer'],
       slug: true,
       autolinkHeadings: true,
-      plugins: REMARK_PLUGINS,
+      plugins: REMARK_MD_PLUGINS,
     }
   },
   images: {
