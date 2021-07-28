@@ -13,6 +13,7 @@
     "@gridsome/vue-remark": "^0.2.6",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "commander": "^8.1.0",
     "gridsome": "^0.7.0",
     "jquery": "^3.6.0",
     "rehype-parse": "^7.0.1",
