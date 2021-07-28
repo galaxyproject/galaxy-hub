@@ -1,13 +1,16 @@
 import fs from 'fs';
 import nodePath from 'path';
 import grayMatter from 'gray-matter';
-import { rmPrefix, splitlines, PathInfo } from '../utils.js';
+import { rmPrefix, splitlines, repr, PathInfo } from '../utils.js';
 
+/** Types of files recognized by this module. */
+export const CONTENT_TYPES = ['md', 'vue', 'insert', 'resource'];
 const SCRIPT_DIR = nodePath.dirname(rmPrefix(import.meta.url, 'file://'));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
 
 export function preprocess(options) {
   let {simulate, clear} = updateValues({simulate:true, clear:false}, options || {});
+  simulate = !!simulate;
   let partitioner = new Partitioner(options);
   // Make sure the build directories exist.
   for (let dirPath of Object.values(partitioner.buildDirs)) {
@@ -23,70 +26,94 @@ export function preprocess(options) {
 }
 
 export class Partitioner {
-  constructor(options) {
+  /** Create a `Partitioner`.
+   * @param {Object}  [options]               Optional parameters.
+   * @param {string}  [options.configPath]    Path to the `config.json` file.
+   * @param {string}  [options.projectRoot]   Path to the site root directory (where files like
+   *   `config.json`, `gridsome.config.js`, and `package.json` live).
+   * @param {boolean} [options.simulate=true] If `true`, do not make any actual changes to the
+   *   filesystem.
+   * @param {boolean} [options.verbose=false] Whether to print extra messages to the console.
+   * @param {string}  [options.placer='copy'] The name of a placer function to use for every
+   *   content type. Must be one of: `'copy'`, `'link'`.
+   * @param {Object}  [options.placers]       A map of content types to placer functions to use.
+   *   The keys must be one of the `CONTENT_TYPES` defined here. Values can be either a function
+   *   or a string - see the `placer` parameter for valid string values.
+   *   These will override the function given in the `placer` option, allowing you to give a
+   *   default `placer` then use `placers` to specify an alternate function for specific types.
+   */
+  constructor(options={}) {
     let {
-      configPath, projectRoot, simulate, placers, verbose
-    } = updateValues({projectRoot:PROJECT_ROOT, simulate:true, verbose:false}, options || {});
+      configPath, projectRoot, simulate, verbose, placer, placers
+    } = updateValues(
+      {projectRoot:PROJECT_ROOT, simulate:true, verbose:false, placer:'copy'}, options
+    );
+    this.simulate = !!simulate;
+    this.verbose = !!verbose;
+    this.projectRoot = projectRoot;
     if (! configPath) {
       configPath = nodePath.join(PROJECT_ROOT, 'config.json');
     }
     const config = JSON.parse(fs.readFileSync(configPath,'utf8'));
-    this.simulate = simulate;
     this.contentDir = nodePath.join(projectRoot, config.contentDir);
     this.buildDirs = {};
     for (let [key, relPath] of Object.entries(config.build.dirs)) {
       this.buildDirs[key] = nodePath.join(projectRoot, relPath);
     }
-    this.placers = {'md':link, 'vue':link, 'insert':link, 'resource':link};
-    if (placers) {
-      updateValues(this.placers, placers);
-    }
+    this.placers = assignPlacers(placer, placers, CONTENT_TYPES);
   }
 
   placeDirFiles(dirPath, recursive=false) {
     if (! nodePath.isAbsolute(dirPath)) {
-      throw `dirPath must be absolute. Received: ${dirPath}`;
+      throw repr`dirPath must be absolute. Received: ${dirPath}`;
     }
     let [dirs, indexPath, inserts, resources] = getChildrenByType(dirPath);
     if (recursive) {
       // Execute depth-first - take care of bottom-most directories before their parents.
       for (let childDir of dirs) {
-        this.placeDirFiles(childDir, recursive=recursive);
+        this.placeDirFiles(childDir, recursive);
       }
     }
     let plan = makeDirPlan(indexPath, inserts, resources, this.placers);
     this.executeDirPlan(dirPath, plan);
-    if (recursive) {
-      // Delete empty directories.
-      // Because we've taken care of the child directories already (recursively), everything below
-      // should already be in the intended final state.
-      deleteEmptyDirs(dirPath);
+    // Delete empty directories.
+    // At this point all contents of this directory (all the way down) should already be in the
+    // intended final state. So we can delete any directory that doesn't contain any files.
+    for (let buildPath of this.getBuildPaths(dirPath)) {
+      if (new PathInfo(buildPath).exists()) {
+        deleteEmptyDirs(buildPath);
+      }
     }
   }
 
+  /** Create the state described in the `plan` in the directory given with `dirPath`.
+   *  Delete files not present in the final state.
+   *  Directories are not touched.
+   */
   executeDirPlan(dirPath, plan) {
-    /** Create the state described in the `plan` in the directory given with `dirPath`.
-     *  Delete files not present in the final state.
-     *  Directories are not touched.
-     */
-    let childPaths = {vue:new Set(), md:new Set()};
+    // The full set of child paths which should exist in each build directory.
+    let childPaths = {};
+    for (let contentType of Object.keys(this.buildDirs)) {
+      childPaths[contentType] = new Set();
+    }
+    // Place the files that should exist in the build directory.
     for (let action of plan) {
       let childPath = nodePath.relative(this.contentDir, action.path);
       childPaths[action.dest].add(childPath);
       this.placeContentFile(action.placer, action.path, this.buildDirs[action.dest]);
     }
-    let relDir = nodePath.relative(this.contentDir, dirPath);
-    for (let [contentType, buildDirRoot] of Object.entries(this.buildDirs)) {
-      let buildDir = nodePath.join(buildDirRoot, relDir);
+    // Remove any files which should no longer exist in a given build directory.
+    for (let [contentType, buildDir] of this.getBuildPaths(dirPath, true)) {
       let dirInfo = new PathInfo(buildDir);
       let buildDirContents;
       if (dirInfo.type() === 'dir') {
         buildDirContents = fs.readdirSync(buildDir).map(name => nodePath.join(buildDir, name));
       } else if (dirInfo.exists()) {
-        throw `Path ${buildDir} exists but is not a directory.`;
+        throw repr`Path ${buildDir} exists but is not a directory.`;
       } else {
         buildDirContents = [];
       }
+      let buildDirRoot = this.buildDirs[contentType];
       for (let buildChildPath of buildDirContents) {
         if (new PathInfo(buildChildPath).type() === 'dir') {
           // Directories are handled outside this function.
@@ -94,6 +121,11 @@ export class Partitioner {
         }
         let relPath = nodePath.relative(buildDirRoot, buildChildPath);
         if (! childPaths[contentType].has(relPath)) {
+          if (this.verbose) {
+            console.log(
+              repr`Removing file no longer needed in ${contentType} directory:\n  ${buildChildPath}`
+            );
+          }
           fs.unlinkSync(buildChildPath);
         }
       }
@@ -101,6 +133,9 @@ export class Partitioner {
   }
 
   handleEvent(eventType, path) {
+    if (this.verbose) {
+      console.log(repr`Received ${eventType} on ${path}`);
+    }
     // The `path` is the full path of the target in the content directory.
     let dirsToCheck = {shallow:[], deep: []};
     if (eventType === 'update') {
@@ -119,9 +154,9 @@ export class Partitioner {
       } else if (pathInfo.type() === 'dir') {
         dirsToCheck.deep.push(path);
       } else if (pathInfo.exists()) {
-        throw `Encountered unexpected special file ${path}`;
+        throw repr`Encountered unexpected special file ${path}`;
       } else {
-        throw `Received an ${eventType} event on nonexistent path ${path}`;
+        throw repr`Received an ${eventType} event on nonexistent path ${path}`;
       }
     } else if (eventType === 'remove') {
       /* A `remove` could be:
@@ -134,9 +169,8 @@ export class Partitioner {
       // to get info about what it was. If it was a file, then the build directory will contain
       // either a file or a (broken) link, depending on the placer. If it was a directory, then
       // it should always be directory, not a link.
-      let buildPath = this.getBuildPath(path);
+      let buildPath = this.findBuildPath(path);
       let buildInfo = new PathInfo(buildPath);
-      this.deleteFromBuild(path);
       if (buildInfo.type() === 'file' || buildInfo.type() === 'brokenlink') {
         if (nodePath.extname(path).toLowerCase() === '.md') {
           // It's a Markdown file, so removing it could affect where its directory should be in the
@@ -146,17 +180,23 @@ export class Partitioner {
       } else if (buildInfo.type() === 'dir') {
         // Don't need to do anything extra.
       } else if (buildInfo.exists()) {
-        throw `Encountered unexpected special file ${path}`;
+        throw repr`Encountered unexpected special file ${path}`;
       } else {
-        throw `Received a ${eventType} event on a path which doesn't exist in the build directory: 
-          ${path}`;
+        // Don't throw an error because it could have been a directory which doesn't contain any
+        // files. These can legitimately exist in the content directory with no equivalent in the
+        // build directories. If one is removed or renamed, we'll end up here.
+        console.error(
+          repr`Received a ${eventType} event on a path which doesn't exist in the build directory:
+  ${path}`
+        );
       }
+      this.deleteFromBuild(path);
     }
     for (let dirPath of dirsToCheck.shallow) {
-      this.placeDirFiles(dirPath)
+      this.placeDirFiles(dirPath);
     }
     for (let dirPath of dirsToCheck.deep) {
-      this.placeDirFiles(dirPath, recursive=true)
+      this.placeDirFiles(dirPath, true);
     }
   }
 
@@ -167,16 +207,14 @@ export class Partitioner {
     fs.mkdirSync(dstFileDir, {recursive:true});
     let dstFileInfo = new PathInfo(dstFilePath);
     if (dstFileInfo.exists() && dstFileInfo.type() !== 'file' && dstFileInfo.type() !== 'brokenlink') {
-      console.error(`Path already exists but is not a file: ${dstFilePath}`);
+      console.error(repr`Path already exists but is not a file: ${dstFilePath}`);
       return
     }
-    placer(srcFilePath, dstFilePath, this.simulate);
+    placer(srcFilePath, dstFilePath, this.simulate, this.verbose);
   }
 
   deleteFromBuild(path) {
-    let relPath = nodePath.relative(this.contentDir, path);
-    for (let buildDir of Object.values(this.buildDirs)) {
-      let buildPath = nodePath.join(buildDir, relPath);
+    for (let buildPath of this.getBuildPaths(path)) {
       let buildPathInfo = new PathInfo(buildPath);
       let buildPathType = buildPathInfo.type();
       if (buildPathType === 'file' || buildPathType === 'brokenlink') {
@@ -188,11 +226,11 @@ export class Partitioner {
           fs.rmSync(buildPath, {recursive:true});
         }
       } else if (buildPathType !== 'nonexistent') {
-        throw `Cannot remove special file ${buildPath}`;
+        throw repr`Cannot remove special file ${buildPath}`;
       }
       if (buildPathType !== 'nonexistent') {
         if (this.verbose) {
-          console.log(`rm ${buildPath}`);
+          console.log(repr`rm ${buildPath}`);
         }
         // Now that we deleted it, is its parent directory empty? If so, delete that.
         if (! this.simulate) {
@@ -202,26 +240,41 @@ export class Partitioner {
     }
   }
 
-  getBuildPath(path) {
-    /** Find the equivalent path in the build directory.
-     * `path` should be an absolute path in the content directory.
-     */
-    let relPath = nodePath.relative(this.contentDir, path);
-    for (let buildDir of Object.values(this.buildDirs)) {
-      let buildPath = nodePath.join(buildDir, relPath);
+  /** Find the equivalent path in the build directory.
+   *  `path` should be an absolute path in the content directory.
+   *  Tries the equivalent path in each build directory until it finds one that exists.
+   *  Returns `undefined` if none exist.
+   */
+  findBuildPath(path) {
+    for (let buildPath of this.getBuildPaths(path)) {
       if (new PathInfo(buildPath).exists()) {
         return buildPath;
       }
     }
   }
+
+  /** Translate a path in the content directory into its equivalents in the build directories. */
+  getBuildPaths(path, withTypes=false) {
+    let buildPaths = [];
+    let relPath = nodePath.relative(this.contentDir, path);
+    for (let [type, buildDir] of Object.entries(this.buildDirs)) {
+      let buildPath = nodePath.join(buildDir, relPath);
+      if (withTypes) {
+        buildPaths.push([type, buildPath]);
+      } else {
+        buildPaths.push(buildPath);
+      }
+    }
+    return buildPaths;
+  }
 }
 
 
+/** Determine what the final state of the files in this directory should be.
+ *  What files should be present in which destination directories, and should they be links or
+ *  copies?
+ */
 function makeDirPlan(indexPath, inserts, resources, placers) {
-  /** Determine what the final state of the files in this directory should be.
-   *  What files should be present in which destination directories, and should they be links or
-   *  copies?
-   */
   let plan = [];
   let vue = indexPath && fileRequiresVue(indexPath);
   // index.md
@@ -265,7 +318,7 @@ function getChildrenByType(dirPath) {
     let childPath = nodePath.join(dirPath, childName);
     let fileInfo = new PathInfo(childPath);
     if (! fileInfo.exists()) {
-      console.error(`Warning: File ${childPath} not found.`);
+      console.error(repr`Warning: File ${childPath} not found.`);
       continue;
     }
     if (fileInfo.type() === 'dir') {
@@ -279,18 +332,18 @@ function getChildrenByType(dirPath) {
         resources.push(childPath);
       }
     } else {
-      console.error(`Warning: Special file found: ${childPath}`);
+      console.error(repr`Warning: Special file found: ${childPath}`);
     }
   }
   return [dirs, indexPath, inserts, resources];
 }
 
 
+/** Read the file to see if it requires `vue-remark`.
+ *  @returns {boolean} `true` if there's a `components` key in the graymatter (whose value is
+ *    truthy) or if it finds `'<slot '` or `'<g-image '` in the file contents.
+ */
 function fileRequiresVue(filePath) {
-  /** Read the file to see if it requires `vue-remark`.
-   *  Returns `True` if there's a `components` key in the graymatter (whose value is truthy)
-   *  or if it finds `<slot ` or `<g-image ` in the file contents.
-   */
   let fileContents = fs.readFileSync(filePath, {encoding:'utf8'});
   let {data:metadata, content} = grayMatter(fileContents);
   if (metadata.components) {
@@ -319,8 +372,20 @@ function fileContainsSubstr(filePath, substr) {
   return fileContents.indexOf(substr) >= 0;
 }
 
+/** Delete any empty directories in the tree rooted at `dirPath`, including `dirPath`. */
 function deleteEmptyDirs(dirPath) {
-  /** Delete any empty directories in the tree rooted at `dirPath`, including `dirPath`. */
+  /*TODO: If `dirPath` is empty and gets deleted, check its parent, recursively.
+   *      Currently, this could be called on a directory who's the last anchor holding down the
+   *      existence of a tall chain of otherwise empty directories. If it gets deleted, now that
+   *      whole chain contains no files. They should be cleaned up.
+   *      But you don't want to just call `deleteEmptyDirs()` on the parent, because that could
+   *      cause it to recursively go into all its sibling directories and that's wasteful and
+   *      unnecessary.
+   *      Should just use a simpler algorithm that just does a shallow check: "Is this directory
+   *      empty? If yes, delete it and check its parent. If not, stop. (Don't check its children.)"
+   *      But we should also set an ancestor directory to stop at. Otherwise it could go on, above
+   *      the root build directory, deleting all the way until it encounters a non-empty one.
+   */
   for (let childName of fs.readdirSync(dirPath)) {
     let childPath = nodePath.join(dirPath, childName);
     let childInfo = new PathInfo(childPath);
@@ -341,30 +406,74 @@ function updateValues(existing, newValues) {
   return existing;
 }
 
-// Placers //
-// Each must take 3 arguments: source path, destination path, and `simulate`.
+function assignPlacers(placerOpt, placersOpt, contentTypes) {
+  let placers = {};
+  let defaultPlacer = link;
+  if (placerOpt) {
+    defaultPlacer = lookupPlacer(placerOpt);
+  }
+  for (let contentType of contentTypes) {
+    placers[contentType] = defaultPlacer;
+  }
+  if (placersOpt) {
+    for (let [name, value] of Object.entries(placersOpt)) {
+      if (contentTypes.indexOf(name) === -1) {
+        let typesList = contentTypes.join("', '");
+        throw repr`Invalid content type ${name}. Must be one of '`+typesList+"'";
+      }
+      let placer;
+      if (typeof value === 'string') {
+        placer = lookupPlacer(value);
+      } else {
+        placer = value;
+      }
+      placers[name] = placer;
+    }
+  }
+  return placers;
+}
 
-export function copy(srcFilePath, dstFilePath, simulate=true) {
+function lookupPlacer(placerName) {
+  let placer = PLACERS[placerName];
+  if (placer) {
+    return placer;
+  } else {
+    let namesList = Object.keys(PLACERS).join("', '");
+    throw repr`Invalid 'placer' value ${placerName}. Must be one of '`+namesList+"'";
+  }
+}
+
+// Placers //
+// Each must take at least 2 arguments: source path and destination path.
+// It may also take up to two optional arguments: `simulate` and `verbose`.
+
+export function copy(srcFilePath, dstFilePath, simulate=true, verbose=false) {
   // If the file already exists, only overwrite if the source file was last modified later than
   // the existing file.
   //TODO: Check if this makes a big speed difference.
   let dstFileInfo = new PathInfo(dstFilePath);
   if (! dstFileInfo.exists() || dstFileInfo.isLink() ||
-      new PathInfo(srcFilePath).mtime() > dstFileInfo.mtime) {
-    // if (verbose) {
-    //   console.log(`copy ${srcFilePath} -> ${dstFilePath}`);
-    // }
+      new PathInfo(srcFilePath).mtime() > dstFileInfo.mtime()) {
+    if (verbose) {
+      console.log(repr`copy ${srcFilePath} -> ${dstFilePath}`);
+    }
     if (! simulate) {
       fs.copyFileSync(srcFilePath, dstFilePath);
     }
+  } else if (verbose) {
+    console.log(
+      repr`Skipping copy() because dstFilePath does not exist (${!dstFileInfo.exists()}), it's a \
+link (${dstFileInfo.isLink()}), or its mtime (${dstFileInfo.mtime()}) is ≤ the srcFilePath's mtime \
+(${new PathInfo(srcFilePath).mtime()}).`
+    );
   }
 }
 
-export function link(srcFilePath, dstFilePath, simulate=true) {
+export function link(srcFilePath, dstFilePath, simulate=true, verbose=false) {
   let linkPath = nodePath.relative(nodePath.dirname(dstFilePath), srcFilePath);
-  // if (verbose) {
-  //   console.log(`link ${dstFilePath} -> ${linkPath}`);
-  // }
+  if (verbose) {
+    console.log(repr`link ${dstFilePath} -> ${linkPath}`);
+  }
   if (! simulate) {
     // If it already exists, overwrite it, to make sure the link points to the right file.
     if (new PathInfo(dstFilePath).exists()) {
@@ -373,3 +482,5 @@ export function link(srcFilePath, dstFilePath, simulate=true) {
     fs.symlinkSync(linkPath, dstFilePath);
   }
 }
+
+const PLACERS = {copy:copy, link:link};
