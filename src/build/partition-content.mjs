@@ -1,12 +1,14 @@
 import fs from 'fs';
 import nodePath from 'path';
+import { fileURLToPath } from 'url';
 import grayMatter from 'gray-matter';
-import { rmPrefix, splitlines, repr, PathInfo } from '../utils.js';
+import { splitlines, repr, PathInfo } from '../utils.js';
 
 /** Types of files recognized by this module. */
 export const CONTENT_TYPES = ['md', 'vue', 'insert', 'resource'];
-const SCRIPT_DIR = nodePath.dirname(rmPrefix(import.meta.url, 'file://'));
+const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
+
 
 export class Partitioner {
   /** Create a `Partitioner`.
@@ -435,20 +437,29 @@ export function copy(srcFilePath, dstFilePath, simulate=true, verbose=false) {
   // the existing file.
   //TODO: Check if this makes a big speed difference.
   let dstFileInfo = new PathInfo(dstFilePath);
-  if (! dstFileInfo.exists() || dstFileInfo.isLink() ||
-      new PathInfo(srcFilePath).mtime() > dstFileInfo.mtime()) {
+  if (
+    dstFileInfo.exists() && ! dstFileInfo.isLink() &&
+    dstFileInfo.mtime() >= new PathInfo(srcFilePath).mtime()
+  ) {
+    if (verbose) {
+      console.log(
+        repr`Skipping copy() because ${dstFilePath} already exists (${dstFileInfo.exists()}), it's\
+ not a link (${! dstFileInfo.isLink()}), and its mtime (${dstFileInfo.mtime()}) is >= the\
+ srcFilePath's mtime (${new PathInfo(srcFilePath).mtime()}).`
+      );
+    }
+  } else {
+    if (dstFileInfo.isLink()) {
+      // If the destination exists and is a symlink, `fs.copyFileSync()` will overwrite the target
+      // file, not replace the link. So we need to manually remove it first.
+      fs.unlinkSync(dstFilePath);
+    }
     if (verbose) {
       console.log(repr`copy ${srcFilePath} -> ${dstFilePath}`);
     }
     if (! simulate) {
       fs.copyFileSync(srcFilePath, dstFilePath);
     }
-  } else if (verbose) {
-    console.log(
-      repr`Skipping copy() because dstFilePath does not exist (${!dstFileInfo.exists()}), it's a \
-link (${dstFileInfo.isLink()}), or its mtime (${dstFileInfo.mtime()}) is ≤ the srcFilePath's mtime \
-(${new PathInfo(srcFilePath).mtime()}).`
-    );
   }
 }
 
