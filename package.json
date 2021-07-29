@@ -2,9 +2,8 @@
   "name": "gridhub",
   "private": true,
   "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "build": "src/build/run.mjs build",
+    "develop": "src/build/run.mjs develop"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -25,7 +24,8 @@
     "remark-parse": "^9.0.0",
     "sharp": "^0.28.3",
     "unified-args": "^8.1.0",
-    "unist-util-visit": "^3.1.0"
+    "unist-util-visit": "^3.1.0",
+    "which": "^2.0.2"
   },
   "devDependencies": {
     "node-sass": "^5.0.0",

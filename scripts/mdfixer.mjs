@@ -53,6 +53,7 @@ export default function main(inputPath, opts) {
     console.error(`No base identified. Can't fix relative img src paths unless a --base is given.`);
   }
   // Fix up process.argv so `unified-args` will be happy.
+  let originalArgv = process.argv.slice();
   process.argv = fixArgv(process.argv, [inputPath], opts);
 
   // Parse Markdown with remark-parse, parse the frontmatter, modify it with our plugins, then
@@ -81,6 +82,9 @@ export default function main(inputPath, opts) {
     packageField: 'none',
     pluginPrefix: 'none',
   });
+
+  // Restore original argv to avoid affecting other modules/scripts.
+  process.argv = originalArgv;
 }
 
 // `unified-args` does its own inspection of `process.argv`.

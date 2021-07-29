@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 import nodePath from 'path';
 import nodeWatch from 'node-watch';
 import { Command } from 'commander';
@@ -19,7 +20,7 @@ const WATCH_PLACERS = {md:'copy', vue:'copy', insert:'copy', resource:'copy'};
 const MDFIX_PREPROCESS_PLACERS = {md:'copy', vue:'copy', insert:'copy', resource:'link'};
 
 // Define command line arguments.
-let program = new Command();
+export const program = new Command();
 program
   .description(
     "Process the files in the content directory and set up the build directories so they're ready\n"
@@ -57,7 +58,12 @@ for (let contentType of CONTENT_TYPES) {
     repr`Set the method of placing ${contentType} files. Overrides default --placer.`
   );
 }
-program.parse(process.argv);
+
+// If the current script is being executed as a command, parse the arguments and run.
+// Otherwise, we're being imported as a module.
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  program.parse(process.argv);
+}
 
 
 function main(command, opts) {
