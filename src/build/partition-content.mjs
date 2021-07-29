@@ -8,23 +8,6 @@ export const CONTENT_TYPES = ['md', 'vue', 'insert', 'resource'];
 const SCRIPT_DIR = nodePath.dirname(rmPrefix(import.meta.url, 'file://'));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
 
-export function preprocess(options) {
-  let {simulate, clear} = updateValues({simulate:true, clear:false}, options || {});
-  simulate = !!simulate;
-  let partitioner = new Partitioner(options);
-  // Make sure the build directories exist.
-  for (let dirPath of Object.values(partitioner.buildDirs)) {
-    if (! simulate) {
-      if (clear) {
-        fs.rmSync(dirPath, {recursive:true});
-      }
-      fs.mkdirSync(dirPath, {recursive:true});
-    }
-  }
-  // Arrange the content in the build directories.
-  partitioner.placeDirFiles(partitioner.contentDir, true);
-}
-
 export class Partitioner {
   /** Create a `Partitioner`.
    * @param {Object}  [options]               Optional parameters.
