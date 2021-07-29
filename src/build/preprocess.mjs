@@ -5,7 +5,7 @@ import nodePath from 'path';
 import nodeWatch from 'node-watch';
 import { Command } from 'commander';
 import { Partitioner, CONTENT_TYPES } from './partition-content.mjs';
-import mdfixer from '../../scripts/mdfixer.mjs';
+import mdfixer from './mdfixer.mjs';
 import { repr, PathInfo } from '../utils.js';
 
 // When running `gridsome build` or `develop`, links are sufficient for it to do the right thing

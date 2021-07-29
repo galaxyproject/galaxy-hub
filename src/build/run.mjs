@@ -4,12 +4,12 @@ import process from 'process';
 import childProcess from 'child_process';
 import { fileURLToPath } from 'url';
 import which from 'which';
-import * as preprocessor from './preprocessor.mjs';
+import * as preprocess from './preprocess.mjs';
 import { repr, PathInfo } from '../utils.js';
 
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
-const PREPROCESSOR_PATH = nodePath.join(SCRIPT_DIR, 'preprocessor.mjs');
+const PREPROCESSOR_PATH = nodePath.join(SCRIPT_DIR, 'preprocess.mjs');
 const PREPROCESSOR_RELPATH = nodePath.relative(process.cwd(), PREPROCESSOR_PATH);
 
 let command = process.argv[2];
@@ -23,7 +23,7 @@ if (command !== 'develop' && command !== 'build') {
 let argv = process.argv.slice();
 argv[2] = 'preprocess';
 console.log(`$ ${PREPROCESSOR_RELPATH} `+argv.slice(2).join(' '));
-preprocessor.program.parse(argv);
+preprocess.program.parse(argv);
 
 // Start hot reloader, if running developer server.
 if (command === 'develop') {

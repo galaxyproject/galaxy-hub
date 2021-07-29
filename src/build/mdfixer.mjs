@@ -10,7 +10,7 @@ import { Command } from 'commander';
 import keepNewlineBeforeHtml from './keep-newline-before-html.mjs';
 import htmlImgToMd from './html-img-to-md.mjs';
 import fixLinks from './fix-links.mjs';
-import { repr } from '../src/utils.js';
+import { repr } from '../utils.js';
 
 const REMARK_STRINGIFY_OPTIONS = {
   fences:true, rule:'-', listItemIndent:'one', setext:true,
