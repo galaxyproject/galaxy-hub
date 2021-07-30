@@ -10,7 +10,7 @@ For a summary of the why and how, our poster from GCC2021 might help:
 
 First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
 
-You can get the site running locally by first cloning this repo:
+You can get the site running locally by first cloning this repo:  
 \- The `-b gridhub` tells it to check out the `gridhub` branch, where this prototype lives for now.
 ```sh
 $ git clone -b gridhub 'https://github.com/galaxyproject/galaxy-hub.git'
@@ -24,12 +24,13 @@ $ yarn install
 
 Then you can build the site in development mode to run it in a local server (at http://localhost:8080) and see your content:
 ```sh
-$ scripts/build.sh develop
+$ yarn develop
 ```
+This command includes a hot reloader which will update the site automatically each time you edit a file.
 
-To generate the static files for the entire site, you just run `build.sh` without the `develop` argument:
+To generate the static files for the entire site, just run `build` instead:
 ```sh
-$ scripts/build.sh
+$ yarn build
 ```
 The static files can then be found in the `dist` directory.
 
