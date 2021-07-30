@@ -315,7 +315,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## ABiMS Tools
 
-<div class='float-right'><a href='http://webtools.sb-roscoff.fr/'><img src="/src/use/archive/abims-tools/abims-tools-logos.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
+<div class='float-right'><a href='http://webtools.sb-roscoff.fr/'><img src="/src/images/logos/ABiMSLogo.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
 
 * *Link:*
   * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)
