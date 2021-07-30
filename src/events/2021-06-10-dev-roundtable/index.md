@@ -10,7 +10,17 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Alexandru Mahmoud, Marius van den Beek"
+links:
+- text: "Video"
+  url: "https://youtu.be/3e71DFg3gsw"
 ---
+
+<div class="video-variable">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3e71DFg3gsw" frameborder="0" allow="accelerome
+ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br />
+
 
 Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210610T12&p1=179&ah=1)) for an open discussion about development environments for Galaxy.
 
