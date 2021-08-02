@@ -10,5 +10,8 @@ location_url: "https://www.ashg.org/meetings/2020meeting/"
 contact: 'Dave Clements, Alex Ostrovsky'
 image: ""
 gtn: true
+links:
+- text: "Tutorial - only open to ASHG members"
+  url: "https://www.pathlms.com/ashg/courses/25102"
 ---
 

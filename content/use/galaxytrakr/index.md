@@ -1,10 +1,10 @@
 ---
 title: "GalaxyTrakr"
-url: "https://www.galaxytrakr.org/"
+url: "https://galaxytrakr.org/"
 scope: "domain"
 platforms:
   - platform_group: "public-server"
-    platform_url: "https://www.galaxytrakr.org/"
+    platform_url: "https://galaxytrakr.org/"
     platform_text: "GalaxyTrakr Server"
     platform_location: US
 summary: "Supporting food-borne pathogen research"

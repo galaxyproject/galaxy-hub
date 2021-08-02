@@ -22,7 +22,7 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 * 3 June: Late poster (and Late-Breaking Lightning Talk) submission deadline for BOSC
 
 
-*Note: all times are Central European Time.*
+*Note: all times are in UTC.*
 
 ## 25 July, Sunday
 
@@ -30,29 +30,27 @@ Galaxy has always had a significant presence at [ISMB/ECCB](https://www.iscb.org
 | ---- | ---- | ---- | ---- |
 | 11:35 | Experiences from the Galaxy Training Network | Saskia Hiltemann | [WEB (Workshop on Education for Bioinformatics)](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/web) | &nbsp; |
 
-## 26 July, Monday
-
-| Time | Topic | Presenter(s) | Where | Links |
-| ---- | ---- | ---- | ---- | ---- |
-
 
 ## 27 July, Tuesday
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
+| 11:56 | Modeling the computing requirements and costs for genomics analysis in the cloud | Michael Schatz | [Special Track: NIH/OD Office of Data Science Strategy (ODSS)](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/odss) | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2021-ismb-eccb-bosc/2021-ismb-cloud-costs.pdf) |
 | 12:00 | MaxQuant and MSstats in Galaxy enable reproducible quantitative proteomics in the cloud for everyone | Melanie Föll | [CompMS COSI](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/tracks/compms) | &nbsp; | 
 
-
-## 28 July, Wednesday
-
-| Time | Topic | Presenter(s) | Where | Links |
-| ---- | ---- | ---- | ---- | ---- |
 
 ## 29 July, Thursday
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
 | All Day | [BOSC 2021](https://www.open-bio.org/events/bosc-2021/) | | | &nbsp; |
+| 15:20 | CropGalaxy: GWAS, Genomic selection beyond rice | Venice Margarette Juanillas | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
+| 15:20 | Dockstore - 2021 update | Denis Yuen | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
+| 15:20 | PDAUG: A Galaxy based toolset for the machine learning modeling, visualization and analysis of peptide libraries | Jayadev Joshi | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
+| 15:20 | Rice SNP-seek database version 3.0 | Lord Hendrix Barboza | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | |
+| 15:20 | Open Life Science to inspire culture change in Bioinformatics communities: a case study at Bezmialem University | Muhammet Celik | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | &nbsp; |
+| 15:20 | WorkflowHub | Carole Goble | [Poster Session E, BOSC Section](https://www.iscb.org/cms_addon/conferences/ismbeccb2021/posters.php?track=BOSC&session=E#search) | &nbsp; |
+
 
 ## 30 July, Friday
 

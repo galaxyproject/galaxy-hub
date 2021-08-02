@@ -8,7 +8,7 @@ platforms:
     platform_text: "Image Analysis and Processing Toolkit Server"
     platform_location: AU
 summary: "Image analysis and processing. "
-image: "/src/use/iaptk/image-analysis-toolkit.png"
+image: "image-analysis-toolkit.png"
 comments:
   - "[Project blog](http://cloudimaging.blogspot.com.au/)"
   - "This service provides a novel way of carrying out image analysis, reconstruction and processing tasks using cloud based service provided on the Australian [National eResearch Collaboration Tools and Resources (NeCTAR](http://www.nectar.org.au)) infrastructure. The toolbox allows access to a wide range of useful blocks of functionalities (imaging functions) that can be connected together in workflows allowing creation of even more complex algorithms that can be re-run on different data sets, shared with others or additionally adjusted. The functions given are in the area of cellular imaging, advanced X-ray image analysis, computed tomography and 3D medical imaging and visualisation. The service is currently available [on the website](http://www.cloudimaging.net.au)."

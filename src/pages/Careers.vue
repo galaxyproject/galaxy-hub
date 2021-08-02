@@ -4,7 +4,11 @@
     <div class="markdown" v-html="$page.main.content" />
     <h2 id="open-positions">Open Positions</h2>
     <div class="card-deck">
-      <CardCareers v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
+      <CardCareers v-for="edge in $page.openings.edges" :key="edge.node.id" :article="edge.node" />
+    </div>
+    <h2 id="previous-openings">Previous Openings</h2>
+    <div class="card-deck">
+      <CardCareers v-for="edge in $page.previous.edges" :key="edge.node.id" :article="edge.node" />
     </div>
     <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
   </Layout>
@@ -36,7 +40,32 @@ query {
     title
     content
   }
-  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "careers"}}) {
+  openings: allArticle(sortBy: "date", order: DESC, filter: {
+    category: {eq: "careers"}, closed: {eq: false}
+  }) {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        date (format: "D MMM YYYY")
+        closes (format: "D MMM YYYY")
+        closed
+        continent
+        location
+        location_url
+        external_url
+        contact
+        summary
+        images
+        image
+        path
+      }
+    }
+  }
+  previous: allArticle(sortBy: "date", order: DESC, filter: {
+    category: {eq: "careers"}, closed: {eq: true}
+  }) {
     totalCount
     edges {
       node {

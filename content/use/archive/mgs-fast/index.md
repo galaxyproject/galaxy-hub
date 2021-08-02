@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/bcil/metagenome"
     platform_text: "MGS-Fast Docker Image"
 summary: "Shotgun whole-genome metagenomic analysis using DNA-DNA alignment"
-image: "/src/use/mgs-fast/mgs-fast-fig2.png"
+image: "mgs-fast-fig2.png"
 comments:
   - "MGS-Fast is an analysis approach for shotgun whole-genome metagenomic data that is an alternative to using the integrated catalog of reference genes database of well-annotated genes compiled from human microbiome data."
   - "This rapid annotation method is freely available as a Galaxy workflow within a Docker image."

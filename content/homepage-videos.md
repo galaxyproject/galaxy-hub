@@ -4,6 +4,18 @@
     </a>
 </h2>
 <p>
+    <strong><a href="https://youtu.be/D5HgJWdfOWw">
+        Galaxy 101 (updated)
+    </a></strong>
+    <span class="small">- An introduction to basic Galaxy functionality</span>
+</p>
+<p>
+    <strong><a href="https://youtu.be/Il84WUPVaxc">
+        ASaiM: From a local project to a global effort to support microbiome data analysis
+    </a></strong>
+    <span class="small">- Bérénice Batut at the "Holistic Bioinformatic Approaches used in Microbiome Research" conference</span>
+</p>
+<p>
     <strong><a href="https://youtu.be/vx2icgaU_h0">
         Webinar: Galaxy Resources for System Administrators and Infrastructure Providers
     </a></strong>
@@ -20,16 +32,4 @@
         Customizeable welcome and introduction page for new Galaxy users
     </a></strong>
     <span class="small">- Galaxy Developer Round Table call</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/MdQyltMAocg">
-        Webinar: Galaxy Resources for Tool Developers
-    </a></strong>
-    <span class="small">- Galaxy resources for getting your tools used.</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/uKTjVWU5Kg4">
-        Webinar: Building a bioinformatics platform: Lessons learned from immuneML
-    </a></strong>
-    <span class="small">- immuneML is a platform for the analysis of adaptive immune receptors through machine learning</span>
 </p>

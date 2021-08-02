@@ -16,11 +16,11 @@ image: sortee-logo.png
 
 [Galaxy-E](/src/use/ecology/index.md) is a web platform to get, process, analyze and visualize ecological data, and it will have 3 events at SORTEE 2021:
 
-| Date | EU Central | US Eastern | Topic | Contact |
-| --- | --- | --- | --- | --- |
-| TBD | | | Workshop: FAIRness for Biodiversity data and analysis | Yvan Le Bras |
-| TBD | | | Talk: Galaxy-E : A practical way to propose accessible, reproducible and transparent analysis of Ecology data | Yvan Le Bras |
-| TBD | | | Hackathon: Galaxy-E : Develop new tools and/or e-learning material | Yvan Le Bras |
+| Date | EU Central | US Eastern | Topic | Contact | Links |
+| --- | --- | --- | --- | --- | --- |
+| Mon 12 July | 12:30 | 06:30 | Workshop: FAIRness for Biodiversity data and analysis | Yvan Le Bras | &nbsp; |
+| Mon 12 July | 16:30 | 10:30 | [Talk: Galaxy-E : A practical way to propose accessible, reproducible and transparent analysis of Ecology data](https://osf.io/frk5v/) | Yvan Le Bras | [Video](http://data-access.cesgo.org/index.php/s/F3rEJlgK1wZmLQQ/download), [Slides](https://osf.io/n7d5p/) |
+| Tue 13 July | 12:30 | 06:30 | Hackathon: Galaxy-E : Develop new tools and/or e-learning material | Yvan Le Bras | &nbsp; |
 
 **[Registration for SORTEE 2021 is free](https://www.eventbrite.co.uk/e/sortee-conference-2021-registration-154693776249).**
 

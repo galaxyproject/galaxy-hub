@@ -8,7 +8,7 @@ platforms:
     platform_text: "SymD Galaxy Server"
     platform_location: US
 summary: "a platform for detecting internally symmetric protein structures"
-image: "/src/use/symd/symd.png"
+image: "symd.png"
 comments:
   - "SymD works through an *alignment scan* procedure in which a protein structure is aligned to itself after circularly permuting the second copy by all possible number of residues."
   - "Input to SymD is a PDB format coordinate file. SymD reports T‐score, Zscore, transformed structure at the position of the best Z‐score, as well as the symmetry axis, the rotation angle and any translation along the symmetry axis (for helical symmetry)."
