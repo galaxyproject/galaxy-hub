@@ -1,3 +1,0 @@
----
-redirect: "/use/south-green/"
----

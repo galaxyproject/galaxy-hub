@@ -8,7 +8,7 @@ platforms:
     platform_text: "South Green Galaxy"
     platform_location: FR
 summary: "Genomic resource analysis of southern and Mediterranean plants. "
-image: "/src/use/south-green/south-green-home-page.png"
+image: "south-green-home-page.png"
 comments:
   - '"[South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/) is a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."'
   - "Supports many custom tools and data sources."
