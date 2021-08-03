@@ -26,16 +26,18 @@ export default function attacher(options) {
   if (options === undefined) {
     options = {};
   }
-  globals.debug = options.debug
+  globals.debug = options.debug;
   // Implement the Transformer interface:
   // https://github.com/unifiedjs/unified#function-transformernode-file-next
   function transformer(tree, file) {
-    // console.log(`Cwd:  ${file.cwd}`);
-    // console.log(`Path: ${file.path}`);
-    // console.log(`Base: ${options.base}`);
     globals.filePathRaw = file.path;
-    globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
-    // console.log(`Found file dirnames ${globals.dirPath}`);
+    if (options.bases && options.bases.reduce((a,b) => a || b)) {
+      globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
+    } else {
+      console.error(
+        'No `bases` option received. Will not be able to convert image src paths to relative paths.'
+      );
+    }
     visit(tree, 'link', node => { node.url = fixHyperLink(node.url) });
     visit(tree, 'image', node => { node.url = fixImageLink(node.url) });
     visit(tree, 'html', fixHtmlLinks);
@@ -49,10 +51,8 @@ function getDirPath(bases, cwd, filePathRaw) {
    *  relative path.
    */
   let dirPaths = [];
-  for (let base of bases) {
-    // console.log(`Trying ${base} on ${filePathRaw}`);
+  for (let base of bases.filter(b => b)) {
     let filePath = getRelFilePath(cwd, filePathRaw, base);
-    // console.log(`  Result: ${filePath}`);
     dirPaths.push(nodePath.dirname(filePath));
   }
   return pickShortest(dirPaths);
