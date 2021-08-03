@@ -278,6 +278,10 @@ class PathInfo {
       }
     }
   }
+  static exists(path) {
+    let pathInfo = new this(path);
+    return pathInfo.exists();
+  }
   type() {
     /** Get the type of filesystem object this path points to.
      *  If the path does not exist, return `'nonexistent'`.
@@ -320,6 +324,10 @@ class PathInfo {
       throw `Unexpected path type: ${this.path}`;
     }
   }
+  static type(path) {
+    let pathInfo = new this(path);
+    return pathInfo.type();
+  }
   isLink() {
     if (this.exists()) {
       let stats = fs.lstatSync(this.path);
@@ -329,6 +337,10 @@ class PathInfo {
     }
     return false;
   }
+  static isLink(path) {
+    let pathInfo = new this(path);
+    return pathInfo.isLink();
+  }
   mtime() {
     if (this.exists()) {
       let stats = fs.lstatSync(this.path);
@@ -337,6 +349,10 @@ class PathInfo {
       return null;
     }
   }
+  static mtime(path) {
+    let pathInfo = new this(path);
+    return pathInfo.mtime();
+  }
   size() {
     if (this.exists()) {
       let stats = fs.lstatSync(this.path);
@@ -344,6 +360,10 @@ class PathInfo {
     } else {
       return null;
     }
+  }
+  static size(path) {
+    let pathInfo = new this(path);
+    return pathInfo.size();
   }
 }
 module.exports.PathInfo = PathInfo;

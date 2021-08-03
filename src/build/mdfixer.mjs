@@ -10,7 +10,7 @@ import { Command } from 'commander';
 import keepNewlineBeforeHtml from './keep-newline-before-html.mjs';
 import htmlImgToMd from './html-img-to-md.mjs';
 import fixLinks from './fix-links.mjs';
-import { repr } from '../utils.js';
+import { repr, PathInfo } from '../utils.js';
 
 const REMARK_STRINGIFY_OPTIONS = {
   fences:true, rule:'-', listItemIndent:'one', setext:true,
@@ -24,6 +24,11 @@ program
   .option(
     '-o, --output [path]',
     'Specify output location. Give without a path to overwrite the original file(s).'
+  )
+  .option(
+    '-w, --watch',
+    'Watch the given directory for changes in Markdown files and update the output. Only works if '
+    +'an --output is given which is different from the <input>.'
   )
   .option(
     '-b, --base <path>',
@@ -44,11 +49,13 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 }
 
 export default function main(inputPath, opts) {
-  let base;
+  let bases;
   if (opts.base) {
-    base = opts.base;
+    bases = [opts.base];
   } else if (opts.output === true) {
-    base = inputPath;
+    bases = [inputPath];
+  } else if (opts.output && PathInfo.type(opts.output) === 'dir') {
+    bases = [opts.output];
   } else if (opts.quiet !== true) {
     console.error(`No base identified. Can't fix relative img src paths unless a --base is given.`);
   }
@@ -67,7 +74,7 @@ export default function main(inputPath, opts) {
     .use(remarkParse)
     .use(keepNewlineBeforeHtml)
     .use(htmlImgToMd, {limit:opts.limit})
-    .use(fixLinks, {bases:[base], debug:opts.debug})
+    .use(fixLinks, {bases:bases, debug:opts.debug})
     .use(remarkFrontmatter, {type:'yaml', marker:'-'})
     .use(remarkStringify, REMARK_STRINGIFY_OPTIONS);
 
