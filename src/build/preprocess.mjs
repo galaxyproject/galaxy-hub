@@ -107,6 +107,7 @@ function main(command, opts) {
     function handleEvent(eventType, path) {
       partitioner.handleEvent(eventType, path);
       if (opts.fixMarkdown) {
+        //TODO: Use mdfixer.mjs -w for this.
         fixMdOnEvent(partitioner, path, partitioner.verbose, partitioner.simulate);
       }
     }
@@ -127,7 +128,14 @@ function main(command, opts) {
 
 
 function fixMdOnEvent(partitioner, path, verbose, simulate) {
-  let buildPath = partitioner.findBuildPath(path);
+  let buildPath, buildDir;
+  for (let [contentType, candidatePath] of partitioner.getBuildPaths(path, true)) {
+    if (new PathInfo(candidatePath).exists()) {
+      buildPath = candidatePath;
+      buildDir = partitioner.buildDirs[contentType];
+      break;
+    }
+  }
   if (! buildPath) {
     return;
   }
@@ -141,7 +149,7 @@ function fixMdOnEvent(partitioner, path, verbose, simulate) {
     console.log(repr`Fixing Markdown in ${buildPathDir}`);
   }
   if (! simulate) {
-    mdfixer(buildPathDir, {quiet:!partitioner.verbose, output:true});
+    mdfixer(buildPathDir, {quiet:!partitioner.verbose, output:true, base:buildDir});
   }
 }
 
