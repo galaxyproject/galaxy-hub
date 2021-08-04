@@ -103,7 +103,7 @@ We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) w
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
 <div class="card-header">
 
-[Galaxy India Community](/src/use/galaxy-india/index.md)
+[Galaxy India Community](https://www.galaxyproject.in/)
 
 </div>
 
@@ -115,8 +115,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Webinars and community calls
 * In person gatherings, once these become prudent
 * [Communications channels](/src/community/#regional-communities), including chat and a mailing list
-* An India-focused server hosted by the European Galaxy Team
-* And, later this year, an India-based UseGalaxy server
+* An [India-focused server](/src/use/galaxy-india/index.md) hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
 
@@ -165,7 +164,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 <div class="card-deck">
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
-<div class="card border-info" style="min-width: 20%; max-width: 45%;">
+<div class="card border-info" style="min-width: 45%;">
 <img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header">
 
@@ -182,8 +181,22 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 
 
+<!-- BioHackathon -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon 2021" />
+<div class="card-header">
+
+[Galaxy @ BioHackathon 2021](/src/events/2021-11-biohackathon-europe/index.md)
+
+</div>
+
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/src/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+
+</div>
+
+
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 32%; max-width:  18rem;">
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
@@ -191,9 +204,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 </div>
 
-August has two Galaxy Developer Round Table meetups on the schedule:
-
-**August 5: TBD**
+August's Galaxy Developer Round Table meetup is:
 
 **August 19: TBD**
 
