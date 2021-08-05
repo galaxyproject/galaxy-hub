@@ -65,7 +65,7 @@ export class Partitioner {
     // At this point all contents of this directory (all the way down) should already be in the
     // intended final state. So we can delete any directory that doesn't contain any files.
     for (let buildPath of this.getBuildPaths(dirPath)) {
-      if (new PathInfo(buildPath).exists()) {
+      if (PathInfo.exists(buildPath)) {
         deleteEmptyDirs(buildPath);
       }
     }
@@ -88,27 +88,28 @@ export class Partitioner {
       this.placeContentFile(action.placer, action.path, this.buildDirs[action.dest]);
     }
     // Remove any files which should no longer exist in a given build directory.
-    for (let [contentType, buildDir] of this.getBuildPaths(dirPath, true)) {
-      let dirInfo = new PathInfo(buildDir);
-      let buildDirContents;
+    for (let buildPathData of this.getBuildPaths(dirPath, true)) {
+      let buildPath = buildPathData.path;
+      let dirInfo = new PathInfo(buildPath);
+      let buildPathContents;
       if (dirInfo.type() === 'dir') {
-        buildDirContents = fs.readdirSync(buildDir).map(name => nodePath.join(buildDir, name));
+        buildPathContents = fs.readdirSync(buildPath).map(name => nodePath.join(buildPath, name));
       } else if (dirInfo.exists()) {
-        throw repr`Path ${buildDir} exists but is not a directory.`;
+        throw repr`Path ${buildPath} exists but is not a directory.`;
       } else {
-        buildDirContents = [];
+        buildPathContents = [];
       }
-      let buildDirRoot = this.buildDirs[contentType];
-      for (let buildChildPath of buildDirContents) {
-        if (new PathInfo(buildChildPath).type() === 'dir') {
+      for (let buildChildPath of buildPathContents) {
+        if (PathInfo.type(buildChildPath) === 'dir') {
           // Directories are handled outside this function.
           continue;
         }
-        let relPath = nodePath.relative(buildDirRoot, buildChildPath);
-        if (! childPaths[contentType].has(relPath)) {
+        let relPath = nodePath.relative(buildPathData.root, buildChildPath);
+        if (! childPaths[buildPathData.type].has(relPath)) {
           if (this.verbose) {
             console.log(
-              repr`Removing file no longer needed in ${contentType} directory:\n  ${buildChildPath}`
+              repr`Removing file no longer needed in ${buildPathData.type} directory:\n`
+              +repr`  ${buildChildPath}`
             );
           }
           fs.unlinkSync(buildChildPath);
@@ -191,7 +192,9 @@ export class Partitioner {
     let dstFileDir = nodePath.dirname(dstFilePath);
     fs.mkdirSync(dstFileDir, {recursive:true});
     let dstFileInfo = new PathInfo(dstFilePath);
-    if (dstFileInfo.exists() && dstFileInfo.type() !== 'file' && dstFileInfo.type() !== 'brokenlink') {
+    if (
+      dstFileInfo.exists() && dstFileInfo.type() !== 'file' && dstFileInfo.type() !== 'brokenlink'
+    ) {
       console.error(repr`Path already exists but is not a file: ${dstFilePath}`);
       return
     }
@@ -200,8 +203,7 @@ export class Partitioner {
 
   deleteFromBuild(path) {
     for (let buildPath of this.getBuildPaths(path)) {
-      let buildPathInfo = new PathInfo(buildPath);
-      let buildPathType = buildPathInfo.type();
+      let buildPathType = PathInfo.type(buildPath);
       if (buildPathType === 'file' || buildPathType === 'brokenlink') {
         if (! this.simulate) {
           fs.unlinkSync(buildPath);
@@ -230,22 +232,29 @@ export class Partitioner {
    *  Tries the equivalent path in each build directory until it finds one that exists.
    *  Returns `undefined` if none exist.
    */
-  findBuildPath(path) {
-    for (let buildPath of this.getBuildPaths(path)) {
-      if (new PathInfo(buildPath).exists()) {
-        return buildPath;
+  findBuildPath(path, extraData=false) {
+    for (let buildPathData of this.getBuildPaths(path, extraData)) {
+      let buildPath;
+      if (extraData) {
+        buildPath = buildPathData.path;
+      } else {
+        buildPath = buildPathData;
+      }
+      if (PathInfo.exists(buildPath)) {
+        return buildPathData;
       }
     }
   }
 
   /** Translate a path in the content directory into its equivalents in the build directories. */
-  getBuildPaths(path, withTypes=false) {
+  getBuildPaths(path, extraData=false) {
     let buildPaths = [];
     let relPath = nodePath.relative(this.contentDir, path);
-    for (let [type, buildDir] of Object.entries(this.buildDirs)) {
+    for (let [contentType, buildDir] of Object.entries(this.buildDirs)) {
       let buildPath = nodePath.join(buildDir, relPath);
-      if (withTypes) {
-        buildPaths.push([type, buildPath]);
+      if (extraData) {
+        let pathData = {path:buildPath, type:contentType, root:buildDir};
+        buildPaths.push(pathData);
       } else {
         buildPaths.push(buildPath);
       }
@@ -373,8 +382,7 @@ function deleteEmptyDirs(dirPath) {
    */
   for (let childName of fs.readdirSync(dirPath)) {
     let childPath = nodePath.join(dirPath, childName);
-    let childInfo = new PathInfo(childPath);
-    if (childInfo.type() === 'dir') {
+    if (PathInfo.type(childPath) === 'dir') {
       deleteEmptyDirs(childPath);
     }
   }
@@ -439,13 +447,13 @@ export function copy(srcFilePath, dstFilePath, simulate=true, verbose=false) {
   let dstFileInfo = new PathInfo(dstFilePath);
   if (
     dstFileInfo.exists() && ! dstFileInfo.isLink() &&
-    dstFileInfo.mtime() >= new PathInfo(srcFilePath).mtime()
+    dstFileInfo.mtime() >= PathInfo.mtime(srcFilePath)
   ) {
     if (verbose) {
       console.log(
         repr`Skipping copy() because ${dstFilePath} already exists (${dstFileInfo.exists()}), it's\
  not a link (${! dstFileInfo.isLink()}), and its mtime (${dstFileInfo.mtime()}) is >= the\
- srcFilePath's mtime (${new PathInfo(srcFilePath).mtime()}).`
+ srcFilePath's mtime (${PathInfo.mtime(srcFilePath)}).`
       );
     }
   } else {
@@ -470,7 +478,7 @@ export function link(srcFilePath, dstFilePath, simulate=true, verbose=false) {
   }
   if (! simulate) {
     // If it already exists, overwrite it, to make sure the link points to the right file.
-    if (new PathInfo(dstFilePath).exists()) {
+    if (PathInfo.exists(dstFilePath)) {
       fs.unlinkSync(dstFilePath);
     }
     fs.symlinkSync(linkPath, dstFilePath);
