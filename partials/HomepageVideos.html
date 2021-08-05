@@ -4,32 +4,38 @@
     </a>
 </h2>
 <p>
+    <strong><a href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3">
+        GCC2021 Presentations
+    </a></strong>
+    <span class="small">- Missed GCC2021? You can still catch over 50 presentations.</span>
+</p>
+<p>
+    <strong><a href="https://www.youtube.com/c/GalaxyProject/playlists?view=50&sort=dd&shelf_id=4">
+        GCC2021 Training Week Videos
+    </a></strong>
+    <span class="small">- Almost 200 videos from the <a href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz">Science</a>, <a href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc">Developer</a> and <a href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y">Admin tracks</a>.</span>
+</p>
+<p>
+    <strong><a href="https://youtu.be/uZUt9XIHUQo">
+        Collections 101
+    </a></strong>
+    <span class="small">- Got complex experiments? Use Collections.</span>
+</p>
+<p>
     <strong><a href="https://youtu.be/D5HgJWdfOWw">
         Galaxy 101 (updated)
     </a></strong>
     <span class="small">- An introduction to basic Galaxy functionality</span>
 </p>
 <p>
+    <strong><a href="https://youtu.be/n2uwDaU-L8s">
+        Restricting the Galaxy Tool Panel
+    </a></strong>
+    <span class="small">- July 22 Galaxy Developer Round Table call</span>
+</p>
+<p>
     <strong><a href="https://youtu.be/Il84WUPVaxc">
         ASaiM: From a local project to a global effort to support microbiome data analysis
     </a></strong>
     <span class="small">- Bérénice Batut at the "Holistic Bioinformatic Approaches used in Microbiome Research" conference</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/vx2icgaU_h0">
-        Webinar: Galaxy Resources for System Administrators and Infrastructure Providers
-    </a></strong>
-    <span class="small">- Gianmaruo Cuccuru and Lucille Delisle wrap up the series</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/oGOF3r3SmDY">
-        Happy 42nd Birthday James Taylor
-    </a></strong>
-    <span class="small">- James was one of the founders and principal investigators of the Galaxy Project.  May 18 would have been his 42nd birthday.</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/MSUt-F9Jib4">
-        Customizeable welcome and introduction page for new Galaxy users
-    </a></strong>
-    <span class="small">- Galaxy Developer Round Table call</span>
 </p>

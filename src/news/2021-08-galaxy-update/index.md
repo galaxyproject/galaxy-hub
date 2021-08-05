@@ -8,12 +8,8 @@ date: ""
 
 Hello all,
 
-The first newsletter after a Galaxy Community Conference is a chance to catch our breath, and look forward to what's coming.  XXXXXX
-
-
-This is one of our thinner newsletters, but there are still **[open positions](#community-news)**, **[event news](#event-news)**, **[Galaxy platform news](#galaxy-platforms-news)**, **[Galactic blog posts](#galactic-blog-activity)**, **[training and doc updates](#doc-hub-and-training-updates)**,
-recent **[open-access Galaxy-related publications](#publications)**, **[new releases](#releases), and [other news too](#other-news).**
-
+The August newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[Galactic blog posts](#galactic-blog-activity)**; **[training and doc updates](#doc-hub-and-training-updates)**;
+recent **[open-access Galaxy-related publications](#publications)**; and [other news too](#other-news).**
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
@@ -24,7 +20,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 # Featured news
 
 
-<div class="card-deck">
+<div class="card-deck lead">
 
 <!-- GCC banner image -->
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
@@ -33,31 +29,52 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 
 <!-- GCC Meeting Summary -->
-<div class="card border-info"  style="min-width: 30%; max-width: 26rem;">
+<div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
 <div class="card-header">
 
 [GCC2021 Highlights and Summary](https://galaxyproject.eu/posts/2021/07/13/gcc2021/)
 
 </div>
 
-Beatriz Serrano-Solano compiled a [summary of GCC2021](https://galaxyproject.eu/posts/2021/07/13/gcc2021/).  Also, see the [slides from the conference's closing session](https://static.sched.com/hosted_files/gcc2021/01/GCC2021%20-%20Closing.pdf).  In total, we had 399 participants from 55 countries attend events spread over 10 days.
+GCC2021 was our second virtual Galaxy Community Conference. This year we had 399 participants from 55 countries attend events spread over 10 days. **See Beatriz Serrano-Solano's great [summary of GCC2021](https://galaxyproject.eu/posts/2021/07/13/gcc2021/) and the [slides from the conference's closing session](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf) for more.**
 
 <a href="https://twitter.com/Birthae/status/1413145200495448077"><img class="card-img-bottom" src="gcc2021-word-cloud.jpg" alt="all the talk, poster and BoF titles at GCC2021" /></a>
 
 </div>
 
 
-<!-- GCC Videos / Slides / Posters -->
-<div class="card border-info"  style="min-width: 30%; max-width: 24rem;">
+<!-- Training Videos -->
+<div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
 <div class="card-header">
 
-[Videos, slides and posters are online](https://gcc2021.sched.com/)
+[GCC2021 Training Materials and Videos](https://galaxyproject.org/events/gcc2021/training/)
+
+</div>
+
+The complete set of training materials, including many new videos, and a whole new Galaxy Development track, are now available for free and online:
+
+* **GCC2021 Science Track**: How to use Galaxy to get science done.
+  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
+* **GCC2021 Developer Track**: *A brand new set of tutorials on how to contribute to Galaxy development.*
+  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
+* **GCC2021 Administrator Track**: How to deploy, configure and maintain your own Galaxy instance.
+  * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
+
+Many, many thanks to the instructors and helpers who contributed their time and effort to make GCC2021 Training a success.  And a huge thanks to Helena Rasche and Saskia Hiltemann for managing GCC2021 Training Week.
+
+</div>
+
+<!-- GCC Videos / Slides / Posters -->
+<div class="card border-info"  style="min-width: 20rem; max-width: 24rem;">
+<div class="card-header">
+
+[Presentations Videos, Slides and Posters](https://gcc2021.sched.com/)
 
 </div>
 
 Videos of all talks are now linked to from the [conference talk pages](https://gcc2021.sched.com/overview/area/Talk). Videos are also [available on a YouTube platlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3).  Most talks also have their slides uploaded, and [PDFs for poster/demo presentations have also been uploaded](https://gcc2021.sched.com/overview/area/Poster+Demo) (when they exist).
 
-<a href="https://youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3"><img class="card-img-bottom" src="gcc2021-videos.png" alt="GCC2021 Playlist" /></a>
+<a href="https://gcc2021.sched.com/"><img class="card-img-bottom" src="gcc2021-videos.png" alt="GCC2021" /></a>
 </div>
 
 
@@ -151,6 +168,24 @@ If you are working in data intensive science in India then please consider getti
 * Germany, closes 31 August
 
 There are also "open until filled" positions in the US (x7) and Belgium. Take a look.
+
+</div>
+
+<!-- New Videos -->
+<div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
+<img class="card-img-top" src="new-videos.png" alt="New videos" />
+<div class="card-header">
+
+[New Galaxy Videos](https://www.youtube.com/c/GalaxyProject)
+
+</div>
+
+In addition to the GCC2021 talks (54 of them, see above) and the GCC2021 Training Week Videos (almost 200 of them, see above) several other videos have also been published recently. Here's a sample.
+
+* **[Galaxy 101](https://youtu.be/D5HgJWdfOWw)**, our basic tutorial gets an update
+* **[Collections 101](https://youtu.be/uZUt9XIHUQo)**, a new [Galactic Introduction](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE) video
+* **[Restricting the Galaxy Tool Panel](https://youtu.be/n2uwDaU-L8s)**, a recording of the July 22 Developer Round Table call.
+* **[ASaiM: From a local project to a global effort to support microbiome data analysis](https://youtu.be/Il84WUPVaxc)**, Bérénice Batut at the "Holistic Bioinformatic Approaches used in Microbiome Research" conference
 
 </div>
 
@@ -261,6 +296,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
   * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
   * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
   * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
+
 </div>
 
 </div>
@@ -278,6 +314,89 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 <div class="card-deck">
 
+<!-- Accessibility Improvements -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<div class="card-header">
+
+[GTN Accessibility Improvements](https://training.galaxyproject.org/training-material/news/2021/07/27/a11y.html)
+
+</div>
+
+We are now supporting alternative formats for accessing our JavaScript based slides, as this could be difficult when using screen readers. We’ve now added support for "plain text slides", where we render the slide decks as a single long document. And [there are many more improvements](https://training.galaxyproject.org/training-material/news/2021/07/27/a11y.html) too.
+
+</div>
+
+
+<!-- Removal of humans -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<img class="card-img-top" src="gtn-covid-stripe.jpeg" alt="COVID" /><div class="card-header">
+
+[Removal of human reads from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
+
+</div>
+
+By [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame/wm75/).
+
+This tutorial guides you through a typical workflow for clearing human sequences from any kind (ampliconic or not) of viral sequenced sample, which retains non-human reads in a format ready to be submitted to public databases.
+
+</div>
+
+
+<!-- Data Independent Acquisition -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<img class="card-img-top" src="gtn-dia-analysis-sum.png" alt="DIA analysis summary" />
+<div class="card-header">Data Independent Acquisition Analysis (DIA)</div>
+
+By [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame/matthias313/) and [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/)
+
+Three new tutorials from the Fahrner & Föll team teach you how to do Data Independent Acquisition analysis within Galaxy:
+
+* [Library Generation for DIA Analysis](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_lib_OSW/tutorial.html):
+* [Statistical analysis of DIA data](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_MSstats/tutorial.html)
+* [DIA Analysis using OpenSwathWorkflow](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_OSW/tutorial.html)
+ 
+</div>
+
+<!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<img class="card-img-top" src="gtn-variant-frequency.svg" alt="Variant Frequency" /><div class="card-header">
+
+[Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html)
+
+</div>
+
+By [Wolfgang Maier](https://training.galaxyproject.org/training-material/hall-of-fame/wm75/) and [Bérénice Batut](https://training.galaxyproject.org/training-material/hall-of-fame/bebatut/).
+
+This tutorial got a major update, including many improvements based on feedback from GCC2021 training.
+
+</div>
+
+
+<!-- Galaxy 101 -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<img class="card-img-bottom" src="gtn-101.png" alt="Overlapping features workflow" /><div class="card-header">
+
+[Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html)
+
+</div>
+
+The venerable *Galaxy 101* tutorial is still venerable, but it is now also state of the art, thanks to an update from [Anton Nekrutenko](https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/). 
+</div>
+
+
+<!-- Feedback summary page -->
+<div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
+<div class="card-header">
+
+[GTN Feedback Summary Page](https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html)
+
+</div>
+
+We have [created a page](https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html) which aggregates all GTN feedback, displays them globally, and also by topic and tutorial, including the free text.  Take a look and see what the community is saying.
+
+<img class="card-img-bottom" src="gtn-feedback.png" alt="Summary feedback" />
+
+</div>
 
 </div>
  
@@ -303,6 +422,18 @@ Bogaerts, B., Delcourt, T., Soetaert, K., Boarbi, S., Ceyssens, P.-J., Winand, R
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
 <div class="card-header">
 
+[Approaches for containerized scientific workflows in cloud environments with applications in life science](https://doi.org/10.12688/f1000research.53698.1)
+
+</div>
+
+Spjuth, O., Capuccini, M., Carone, M., Larsson, A., Schaal, W., Novella, J. A., Stein, O., Ekmefjord, M., Tommaso, P. D., Floden, E., Notredame, C., Moreno, P., Hellander, A., Khoonsari, P. E., Herman, S., Kultima, K., & Lampa, S. (2021). *F1000Research*, 10, 513. https://doi.org/10.12688/f1000research.53698.1
+
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
+<div class="card-header">
+
 [A Trace-Based Validation Study of OpenDC](https://atlarge-research.com/pdfs/2020-12-02_bsc_thesis_jaro_final.pdf)
 
 </div>
@@ -315,7 +446,40 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 # Other News
 
-<div class="card-deck">
+<div class="card-deck"> 
+
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card-header">
+
+[Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy)
+
+</div>
+
+[ELIXIR funded seven new life science data projects](https://elixir-europe.org/news/elixir-funds-seven-new-life-science-data-projects), including [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy).  This project will enhance Galaxy's data management features to provide additional provenance information and improve the integration of Galaxy in the existing data management ecosystem. 
+</div>
+
+
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card-header">
+
+[For better patient care: Cooperation between MIRACUM and the German Network for Bioinformatics Infrastructure (de.NBI)](https://www.denbi.de/news/1279-for-better-patient-care-cooperation-between-miracum-and-the-german-network-for-bioinformatics-infrastructure-de-nbi)
+
+</div>
+
+The European Galaxy Project turns out to be the glue between many scientific projects. 
+
+</div>
+
+<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card-header">
+
+[galaxy-pulsar-dev](https://github.com/natefoo/galaxy-pulsar-dev/)
+
+</div>
+
+From Nate Coraor: a [Docker Compose](https://docs.docker.com/compose/)-based solution for easing the development and testing of [Pulsar](https://github.com/galaxyproject/pulsar/) with Galaxy.
+
+</div>
 
 </div>
 
