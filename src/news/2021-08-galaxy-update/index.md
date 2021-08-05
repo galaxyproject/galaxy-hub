@@ -72,7 +72,7 @@ Many, many thanks to the instructors and helpers who contributed their time and 
 
 </div>
 
-Videos of all talks are now linked to from the [conference talk pages](https://gcc2021.sched.com/overview/area/Talk). Videos are also [available on a YouTube platlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3).  Most talks also have their slides uploaded, and [PDFs for poster/demo presentations have also been uploaded](https://gcc2021.sched.com/overview/area/Poster+Demo) (when they exist).
+Videos of all talks are now linked to from the [conference talk pages](https://gcc2021.sched.com/overview/area/Talk). Videos are also [available on a YouTube playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3).  Most talks also have their slides uploaded, and [PDFs for poster/demo presentations have also been uploaded](https://gcc2021.sched.com/overview/area/Poster+Demo) (when they exist).
 
 <a href="https://gcc2021.sched.com/"><img class="card-img-bottom" src="gcc2021-videos.png" alt="GCC2021" /></a>
 </div>
@@ -106,7 +106,7 @@ GCC2022: July 16-23, Minneapolis
 
 </div>
 
-We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) will take place in Minneapolis, Minnesota, United States, from July 16 through July 23.  GCC2022 is hosted by the [Minnesota Supercomputer Institute](https://www.msi.umn.edu/) and the [Galaxy-P Project](http://galaxyp.org/) at the [University of Minnesota](https://twin-cities.umn.edu/).  It will be live and in person with talks broadcast around the world.  GCC2021 starts two days after [ISMB 2022](https://www.iscb.org/ismb2022) ends in Madison, Wisconsin, a 5 hour drive away.  See the [meeting announcement](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf#page=19) for full details.
+We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) will take place in Minneapolis, Minnesota, United States, from July 16 through July 23.  GCC2022 is hosted by the [Minnesota Supercomputer Institute](https://www.msi.umn.edu/) and the [Galaxy-P Project](http://galaxyp.org/) at the [University of Minnesota](https://twin-cities.umn.edu/).  It will be live and in person with talks broadcast around the world.  GCC2022 starts two days after [ISMB 2022](https://www.iscb.org/ismb2022) ends in Madison, Wisconsin, a 5 hour drive away.  See the [meeting announcement](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf#page=19) for full details.
 
 </div>
 </div>
