@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+import fs from 'fs';
+import nodePath from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
 import unified from 'unified';
@@ -50,7 +52,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   program.parse(process.argv);
 }
 
-export default function main(inputPath, opts) {
+export function main(inputPath, opts) {
   // Set options in `opts` to defaults, in case they were missing.
   // Can occur if this is executed as a module, not as a script from the command line.
   let defaults = getDefaults(program.options);
@@ -102,6 +104,28 @@ export default function main(inputPath, opts) {
 
   // Restore original argv to avoid affecting other modules/scripts.
   process.argv = originalArgv;
+}
+
+/** Fix all Markdown files that are direct children of `dirPath`, but do not recurse into
+ *  subdirectories.
+ *  @param {string} dirPath The directory containing the Markdown files to be fixed.
+ *  @param {Object} [opts]  Options to pass directly to `main()`.
+ */
+export function shallowPass(dirPath, opts={}) {
+  let ext = MD_EXT;
+  if (opts && opts.ext) {
+    ext = opts.ext;
+  }
+  // Find every Markdown file and fix it.
+  // Set both the input and output paths to the same file to overwrite it.
+  // The caller has to worry about the `base` and other options.
+  for (let filename of fs.readdirSync(dirPath)) {
+    if (nodePath.extname(filename) === '.'+ext) {
+      let mdPath = nodePath.join(dirPath,filename);
+      main(mdPath, {...opts, output:mdPath});
+    }
+  }
+
 }
 
 // `unified-args` does its own inspection of `process.argv`.

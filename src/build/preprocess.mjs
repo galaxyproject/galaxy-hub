@@ -5,7 +5,7 @@ import nodePath from 'path';
 import nodeWatch from 'node-watch';
 import { Command } from 'commander';
 import { Partitioner, CONTENT_TYPES } from './partition-content.mjs';
-import mdfixer from './mdfixer.mjs';
+import * as mdfixer from './mdfixer.mjs';
 import { repr, PathInfo } from '../utils.js';
 
 // When running `gridsome build` or `develop`, links are sufficient for it to do the right thing
@@ -107,8 +107,7 @@ function main(command, opts) {
     function handleEvent(eventType, path) {
       partitioner.handleEvent(eventType, path);
       if (opts.fixMarkdown) {
-        //TODO: Use mdfixer.mjs -w for this.
-        fixMdOnEvent(partitioner, path, partitioner.verbose, partitioner.simulate);
+        fixMdOnEvent(eventType, path, partitioner, partitioner.verbose, partitioner.simulate);
       }
     }
     let watcher = nodeWatch(partitioner.contentDir, {recursive:true}, handleEvent);
@@ -120,36 +119,63 @@ function main(command, opts) {
     if (opts.fixMarkdown) {
       console.log('Fixing Markdown files..');
       for (let buildDir of Object.values(partitioner.buildDirs)) {
-        mdfixer(buildDir, {quiet:!partitioner.verbose, output:true});
+        mdfixer.main(buildDir, {quiet:!partitioner.verbose, output:true});
       }
     }
   }
 }
 
 
-function fixMdOnEvent(partitioner, path, verbose, simulate) {
-  let buildPath, buildDir;
-  for (let [contentType, candidatePath] of partitioner.getBuildPaths(path, true)) {
-    if (new PathInfo(candidatePath).exists()) {
-      buildPath = candidatePath;
-      buildDir = partitioner.buildDirs[contentType];
-      break;
+function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
+  //TODO: Maybe the only time we need to do anything is if it's a .md file? Are there even scenarios
+  //      where a modification to a directory itself requires fixing Markdown?
+  // Find the path in the build directory.
+  let buildPathData = partitioner.findBuildPath(path, true);
+  if (buildPathData) {
+    if (eventType === 'remove') {
+      console.error(
+        repr`Warning: Received a ${eventType} event on ${path}, but build path ${buildPathData.path}`
+        +' exists.'
+      );
     }
-  }
-  if (! buildPath) {
+  } else {
+    // Path does not exist anymore. Nothing to be done with it.
+    if (eventType !== 'remove' && PathInfo.type(path) !== 'dir') {
+      console.error(
+        repr`Warning: received a ${eventType} event on ${path}, but it was not found in the build `
+        +'directory.'
+      )
+    }
     return;
   }
-  let buildPathDir;
-  if (new PathInfo(buildPath).type() === 'dir') {
-    buildPathDir = buildPath;
+  // Determine the directory to examine and the course of action.
+  let buildPathDir, recursive;
+  if (PathInfo.type(buildPathData.path) === 'dir') {
+    buildPathDir = buildPathData.path;
+    recursive = true;
+  } else if (nodePath.extname(buildPathData.path).toLowerCase() === '.md') {
+    buildPathDir = nodePath.dirname(buildPathData.path);
+    recursive = false;
   } else {
-    buildPathDir = nodePath.dirname(buildPath);
+    // Not a directory or Markdown file. No Markdown to correct.
+    return;
   }
+  // Log action.
   if (verbose) {
-    console.log(repr`Fixing Markdown in ${buildPathDir}`);
+    if (recursive) {
+      console.log(repr`Fixing Markdown (recursively) in ${buildPathDir}`);
+    } else {
+      console.log(repr`Fixing Markdown (shallowly) in ${buildPathDir}`);
+    }
   }
+  // Take action.
   if (! simulate) {
-    mdfixer(buildPathDir, {quiet:!partitioner.verbose, output:true, base:buildDir});
+    let opts = {quiet:!partitioner.verbose, base:buildPathData.root};
+    if (recursive) {
+      mdfixer.main(buildPathDir, {output:true, ...opts});
+    } else {
+      mdfixer.shallowPass(buildPathDir, opts);
+    }
   }
 }
 
