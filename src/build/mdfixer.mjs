@@ -10,8 +10,9 @@ import { Command } from 'commander';
 import keepNewlineBeforeHtml from './keep-newline-before-html.mjs';
 import htmlImgToMd from './html-img-to-md.mjs';
 import fixLinks from './fix-links.mjs';
-import { repr, PathInfo } from '../utils.js';
+import { repr, PathInfo, rmPrefix } from '../utils.js';
 
+const MD_EXT = 'md';
 const REMARK_STRINGIFY_OPTIONS = {
   fences:true, rule:'-', listItemIndent:'one', setext:true,
   handlers: {break: _ => '  \n'}
@@ -30,6 +31,7 @@ program
     'Watch the given directory for changes in Markdown files and update the output. Only works if '
     +'an --output is given which is different from the <input>.'
   )
+  .option('-e, --ext <ext>', 'Markdown file extension to recognize.', MD_EXT)
   .option(
     '-b, --base <path>',
     'The root content directory for this input file. Only needed when working on a single input '
@@ -49,6 +51,14 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 }
 
 export default function main(inputPath, opts) {
+  // Set options in `opts` to defaults, in case they were missing.
+  // Can occur if this is executed as a module, not as a script from the command line.
+  let defaults = getDefaults(program.options);
+  for (let [key, value] of Object.entries(defaults)) {
+    if (!opts.hasOwnProperty(key)) {
+      opts[key] = defaults[key];
+    }
+  }
   let bases;
   if (opts.base) {
     bases = [opts.base];
@@ -83,7 +93,7 @@ export default function main(inputPath, opts) {
     name: 'mdfixer',
     description: 'Fix Markdown.',
     version: 0.1,
-    extensions: ['md'],
+    extensions: [opts.ext],
     ignoreName: '.mdfixer.ignore',
     rcName: '.mdfixerc',
     packageField: 'none',
@@ -148,4 +158,20 @@ function constructArgv(positionals, opts) {
     }
   }
   return argv;
+}
+
+function getDefaults(options) {
+  let defaults = {};
+  for (let option of options) {
+    let varName;
+    if (option.long) {
+      varName = rmPrefix(option.long, '--').replace(/-/g, '_');
+    } else {
+      varName = rmPrefix(option.short, '-');
+    }
+    if (option.defaultValue !== undefined) {
+      defaults[varName] = option.defaultValue;
+    }
+  }
+  return defaults;
 }
