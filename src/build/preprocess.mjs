@@ -127,10 +127,16 @@ function main(command, opts) {
 
 
 function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
-  //TODO: Maybe the only time we need to do anything is if it's a .md file? Are there even scenarios
-  //      where a modification to a directory itself requires fixing Markdown?
-  // Find the path in the build directory.
+  // Check if the path looks like a Markdown file. Exit if not (no Markdown to correct).
+  if (nodePath.extname(path).toLowerCase() !== '.md' || PathInfo.type(path) === 'dir') {
+    if (verbose) {
+      console.log(repr`Path ${path} not a Markdown file. No fixing necessary.`);
+    }
+    return;
+  }
+  // Find the path in the build directory,
   let buildPathData = partitioner.findBuildPath(path, true);
+  // Check for unexpected states, exit if no action needed.
   if (buildPathData) {
     if (eventType === 'remove') {
       console.error(
@@ -148,34 +154,17 @@ function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
     }
     return;
   }
-  // Determine the directory to examine and the course of action.
-  let buildPathDir, recursive;
-  if (PathInfo.type(buildPathData.path) === 'dir') {
-    buildPathDir = buildPathData.path;
-    recursive = true;
-  } else if (nodePath.extname(buildPathData.path).toLowerCase() === '.md') {
-    buildPathDir = nodePath.dirname(buildPathData.path);
-    recursive = false;
-  } else {
-    // Not a directory or Markdown file. No Markdown to correct.
-    return;
-  }
+  let buildPathDir = nodePath.dirname(buildPathData.path);
   // Log action.
   if (verbose) {
-    if (recursive) {
-      console.log(repr`Fixing Markdown (recursively) in ${buildPathDir}`);
-    } else {
-      console.log(repr`Fixing Markdown (shallowly) in ${buildPathDir}`);
-    }
+    console.log(repr`Fixing Markdown in ${buildPathDir}`);
   }
-  // Take action.
+  // Take action: Fix all Markdown in `path`'s directory (but not subdirectories).
+  // Why touch files other than `path` itself? The partitioner operates on a per-directory basis.
+  // So it's already replaced the other Markdown files that might exist in this directory with fresh
+  // copies from the content dir. They need to be fixed again.
   if (! simulate) {
-    let opts = {quiet:!partitioner.verbose, base:buildPathData.root};
-    if (recursive) {
-      mdfixer.main(buildPathDir, {output:true, ...opts});
-    } else {
-      mdfixer.shallowPass(buildPathDir, opts);
-    }
+    mdfixer.shallowPass(buildPathDir, {base:buildPathData.root, quiet:!partitioner.verbose});
   }
 }
 
