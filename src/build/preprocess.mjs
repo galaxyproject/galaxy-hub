@@ -1,7 +1,9 @@
 #!/usr/bin/env node
+const SCRIPT_START = Date.now();
 import fs from 'fs';
-import { fileURLToPath } from 'url';
 import nodePath from 'path';
+import process from 'process';
+import { fileURLToPath } from 'url';
 import nodeWatch from 'node-watch';
 import { Command } from 'commander';
 import { Partitioner, CONTENT_TYPES } from './partition-content.mjs';
@@ -101,6 +103,7 @@ function main(command, opts) {
     {simulate:opts.simulate, verbose:opts.verbose, placer:opts.placer, placers:placers}
   );
   // Execute command.
+  let start;
   if (command === 'watch') {
     //TODO: If `opts.fixMarkdown`, first walk the build dir to make sure there are no links to
     //      Markdown files. That'd dangerous, since running `mdfixer` could overwrite the sources.
@@ -113,16 +116,33 @@ function main(command, opts) {
     let watcher = nodeWatch(partitioner.contentDir, {recursive:true}, handleEvent);
     //TODO: Wait for a gridsome develop process to appear, then exit once it dies.
   } else if (command === 'preprocess') {
-    console.log('Placing files into build directories..');
+    process.stdout.write('Placing files into build directories.. ');
+    start = Date.now();
     doPrePartitioning(partitioner, opts.clear, partitioner.simulate, partitioner.verbose);
+    let elapsed = Date.now() - start;
+    console.log(`${elapsed/1000} sec`);
     partitioner.placeDirFiles(partitioner.contentDir, true);
     if (opts.fixMarkdown) {
-      console.log('Fixing Markdown files..');
+      process.stdout.write('Fixing Markdown files..                ');
+      start = Date.now();
       for (let buildDir of Object.values(partitioner.buildDirs)) {
         mdfixer.main(buildDir, {quiet:!partitioner.verbose, output:true});
       }
     }
   }
+  // Log how long the last step and the overall script took.
+  // This must be done in an event handler right before exit because mdfixer runs async and returns
+  // immediately, before it's actually done.
+  process.on(
+    'beforeExit',
+    _ => {
+      let end = Date.now();
+      if (opts.fixMarkdown) {
+        console.log(`${(end-start)/1000} sec`);
+      }
+      console.log(`Total preprocessing time:              ${(end-SCRIPT_START)/1000} sec`);
+    }
+  );
 }
 
 

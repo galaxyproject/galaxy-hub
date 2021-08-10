@@ -23,24 +23,20 @@ if (command !== 'develop' && command !== 'build') {
 let argv = process.argv.slice();
 argv[2] = 'preprocess';
 console.log(`$ ${PREPROCESSOR_RELPATH} `+argv.slice(2).join(' '));
-preprocess.program.parse(argv);
+childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), {stdio:'inherit'});
 
 // Start hot reloader, if running developer server.
 if (command === 'develop') {
   let args = ['watch', ...process.argv.slice(3)];
   console.log(`$ ${PREPROCESSOR_RELPATH} `+args.join(' ')+' &');
-  let watcher = childProcess.spawn(PREPROCESSOR_PATH, args);
-  watcher.stdout.on('readable', function() { logStdout(this); });
-  watcher.stderr.on('readable', function() { logStderr(this); });
+  let watcher = childProcess.spawn(PREPROCESSOR_PATH, args, {stdio:'inherit'});
 }
 
 // Start Gridsome.
 let gridsomeExe = findGridsome();
 console.log(`$ ${gridsomeExe} ${command}`);
-let gridsome = childProcess.spawn(gridsomeExe, [command]);
-//TODO: Connect straight to our stdout/err, allow colors and curses interface.
-gridsome.stdout.on('readable', function() { logStdout(this); });
-gridsome.stderr.on('readable', function() { logStderr(this); });
+let gridsome = childProcess.spawn(gridsomeExe, [command], {stdio:'inherit'});
+//TODO: Get Gridsome's colors working in stdout again.
 
 /** Find the correct command to execute Gridsome. */
 function findGridsome() {
@@ -57,20 +53,5 @@ function findGridsome() {
         }
       }
     }
-  }
-}
-
-function logStdout(stream) {
-  logOutput(stream, string => process.stdout.write(string));
-}
-
-function logStderr(stream) {
-  logOutput(stream, string => process.stderr.write(string));
-}
-
-function logOutput(stream, logger) {
-  let data;
-  while (data = stream.read()) {
-    logger(data.toString());
   }
 }
