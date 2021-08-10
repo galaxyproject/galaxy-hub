@@ -3,8 +3,8 @@ import fs from 'fs';
 import nodePath from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
-import unified from 'unified';
-import unifiedArgs from 'unified-args';
+import { unified } from 'unified';
+import * as unifiedArgs from 'unified-args';
 import remarkParse from 'remark-parse';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkStringify from 'remark-stringify';
@@ -90,7 +90,7 @@ export function main(inputPath, opts) {
     .use(remarkFrontmatter, {type:'yaml', marker:'-'})
     .use(remarkStringify, REMARK_STRINGIFY_OPTIONS);
 
-  unifiedArgs({
+  unifiedArgs.args({
     processor: processor,
     name: 'mdfixer',
     description: 'Fix Markdown.',

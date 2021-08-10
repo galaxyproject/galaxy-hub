@@ -1,7 +1,7 @@
 /* This replaces raw `<img>` tags with Markdown `![image](syntax.jpg)`, preserving attributes and
  * styling as much as possible.
  */
-import unified from 'unified';
+import { unified } from 'unified';
 import rehypeParse from 'rehype-parse';
 import hastUtilToHtml from 'hast-util-to-html';
 import { visit } from 'unist-util-visit';

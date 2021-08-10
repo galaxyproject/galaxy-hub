@@ -5,7 +5,7 @@
  */
 
 import nodePath from 'path';
-import unified from 'unified';
+import { unified } from 'unified';
 import rehypeParse from 'rehype-parse';
 import { visit } from "unist-util-visit";
 import { rmPrefix, rmSuffix, matchesPrefixes } from '../utils.js';
