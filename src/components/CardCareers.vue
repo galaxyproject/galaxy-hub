@@ -2,7 +2,7 @@
   <div :class="['card', article.closed ? 'border-muted text-muted closed' : 'border-primary']">
     <div class="card-header">
       <Continent :continent="article.continent" />
-      <a :class="article.closed ? 'text-muted' : ''" :href="article.external_url">
+      <a :class="'title' + (article.closed ? ' text-muted' : '')" :href="article.external_url">
         {{ article.title }}
       </a>
     </div>
@@ -51,6 +51,9 @@ export default {
 .card {
   min-width: 14rem;
   max-width: 20rem;
+}
+.title {
+  padding-right: 18px;
 }
 .location, .posted {
   font-weight: bolder;

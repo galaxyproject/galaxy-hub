@@ -5,12 +5,21 @@ days: 1
 tease: "How can we make the tool panel more tractable?"
 continent: GL
 location: "Galaxy Developer Roundtable, Online, Global"
-image: "/images/galaxy-logos/galaxy-developer-roundtable-300.png"
+image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Anton Nekrutenko"
+links:
+- text: "Video"
+  url: "https://youtu.be/n2uwDaU-L8s"
 ---
+
+<div class="video-variable">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/n2uwDaU-L8s" frameborder="0" allow="accelerome
+ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br />
 
 *Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
 

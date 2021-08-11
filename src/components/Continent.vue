@@ -8,4 +8,9 @@ export default {
 };
 </script>
 
-
+<style scoped>
+.continent {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+</style>
