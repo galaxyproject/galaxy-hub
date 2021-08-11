@@ -51,6 +51,12 @@ query {
   padding: 0;
   margin: 0;
 }
+.markdown .inline-p p {
+  display: inline-block;
+}
+.markdown .expand-img img {
+  width: 100%;
+}
 /* Replacement for .table and .table-striped on Markdown tables.
  * Until we can get those classes inserted into the table elements themselves.
  */

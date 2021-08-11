@@ -10,16 +10,24 @@ external_url: ""
 
 The recent addition of a [new Twitter account for the Galaxy Training Network](https://twitter.com/gxytraining) makes this a good time to talk about Galaxy's presence on Twitter.  Why might this matter?  Let's start with two quotes that nicely sum up the usefulness of Twitter in bioinformatics:
 
-<div class="blockquote">
+<div class="blockquote trim-p">
+
 **Twitter** is one of the most important bioinformatics tools you can use.
-<footer class="blockquote-footer">[Jason Williams](https://www.dnalc.org/about/staff/williams.html), CSHL & CyVerse</footer>
+
+<footer class="blockquote-footer trim-p inline-p">
+
+[Jason Williams](https://www.dnalc.org/about/staff/williams.html), CSHL & CyVerse
+
+</footer>
 </div>
 
 and
 
-<div class="blockquote">
+<div class="blockquote trim-p">
+
 **Twitter** is the world's largest lab meeting.
-<footer class="blockquote-footer">Someone at PAG, several years ago*</footer>
+
+<footer class="blockquote-footer trim-p">Someone at PAG, several years ago*</footer>
 </div>
 
 Twitter is a great way to keep current with what's happening in the Galaxy community (as well as in science in general). Twitter is instantaneous, and it is often the first place where news and information is posted.  It is also *voluminous* and this can also make it overwhelming.  So, to help you get the most out of Twitter, here is a quick guide to *Galaxy on Twitter*.
@@ -76,8 +84,8 @@ Several [Galaxy Platforms](/src/use) have Twitter accounts for news about those 
 
 Here's a sample:
 
-| | Twitter | Platform |
-| ----- | ----- | ---- |
+|       | Twitter | Platform |
+| ----- | ------- | -------- |
 | [<img style="max-width: 40px" src="/src/images/logos/GalaxyAustralia-square.jpg" />](https://twitter.com/GalaxyAustralia) |  [@GalaxyAustralia](https://twitter.com/GalaxyAustralia) | [UseGalaxy.org.au](https://usegalaxy.org.au/) |
 | [<img style="max-width: 40px" src="/src/images/logos/GalaxyPLogo.png" />](https://twitter.com/usegalaxyp) | [@usegalaxyp](https://twitter.com/usegalaxyp) | [Galaxy for Proteomics project](http://galaxyp.org/) |
 | [<img style="max-width: 40px" src="/src/use/immport-galaxy/immport-project-logo-symbol.png" />](https://twitter.com/immportdb) | [@ImmPortDB](https://twitter.com/immportdb) | [ImmPort](https://www.immportgalaxy.org/) |

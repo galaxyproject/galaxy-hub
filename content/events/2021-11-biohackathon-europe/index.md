@@ -7,7 +7,7 @@ continent: EU
 location: "Barcelona + Online, Spain"
 location_url: "https://www.biohackathon-europe.org/index.html"
 external_url: ""
-image: "/src/events/2019-11-biohackathon-europe/bhlogo.png"
+image: "/images/logos/bhlogo.png"
 gtn: False
 contact: "Project organizers"
 tags: [ cofest ]

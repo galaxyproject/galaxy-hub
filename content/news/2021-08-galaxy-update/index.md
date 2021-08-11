@@ -24,13 +24,17 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- GCC banner image -->
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<div class="trim-p">
+
+![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+
+</div>
 </div>
 
 
 <!-- GCC Meeting Summary -->
 <div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Highlights and Summary](https://galaxyproject.eu/posts/2021/07/13/gcc2021/)
 
@@ -38,14 +42,18 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 GCC2021 was our second virtual Galaxy Community Conference. This year we had 399 participants from 55 countries attend events spread over 10 days. **See Beatriz Serrano-Solano's great [summary of GCC2021](https://galaxyproject.eu/posts/2021/07/13/gcc2021/) and the [slides from the conference's closing session](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf) for more.**
 
-<a href="https://twitter.com/Birthae/status/1413145200495448077"><img class="card-img-bottom" src="gcc2021-word-cloud.jpg" alt="all the talk, poster and BoF titles at GCC2021" /></a>
+<a href="https://twitter.com/Birthae/status/1413145200495448077">
+
+![all the talk, poster and BoF titles at GCC2021](./gcc2021-word-cloud.jpg)
+
+</a>
 
 </div>
 
 
 <!-- Training Videos -->
 <div class="card border-info"  style="min-width: 20rem; max-width: 26rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Training Materials and Videos](https://galaxyproject.org/events/gcc2021/training/)
 
@@ -66,7 +74,7 @@ Many, many thanks to the instructors and helpers who contributed their time and 
 
 <!-- GCC Videos / Slides / Posters -->
 <div class="card border-info"  style="min-width: 20rem; max-width: 24rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Presentations Videos, Slides and Posters](https://gcc2021.sched.com/)
 
@@ -74,13 +82,17 @@ Many, many thanks to the instructors and helpers who contributed their time and 
 
 Videos of all talks are now linked to from the [conference talk pages](https://gcc2021.sched.com/overview/area/Talk). Videos are also [available on a YouTube playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3).  Most talks also have their slides uploaded, and [PDFs for poster/demo presentations have also been uploaded](https://gcc2021.sched.com/overview/area/Poster+Demo) (when they exist).
 
-<a href="https://gcc2021.sched.com/"><img class="card-img-bottom" src="gcc2021-videos.png" alt="GCC2021" /></a>
+<a href="https://gcc2021.sched.com/">
+
+![GCC2021](./gcc2021-videos.png)
+
+</a>
 </div>
 
 
 <!-- PeerJ Best Poster -->
 <div class="card border-info"  style="min-width: 30%; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [PeerJ GCC2021 Best Poster / Demo Presentation Award](https://peerj.com/)
 
@@ -94,13 +106,14 @@ The [PeerJ Best Poster/Demonstration Award](https://gcc2021.sched.com/sponsor/pe
 Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal. 
 
 <img class="card-img-bottom" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
+
 </div>
 
 
 <!-- GCC2022 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 26rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 GCC2022: July 16-23, Minneapolis
 
@@ -118,7 +131,7 @@ We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) w
 <!-- Indian Community -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy India Community](https://www.galaxyproject.in/)
 
@@ -136,7 +149,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
 
-<div class="text-center lead">
+<p class="text-center lead">
 <a href="https://www.galaxyproject.in/"><i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 <a href="https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 <a href="https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
@@ -145,7 +158,7 @@ If you are working in data intensive science in India then please consider getti
 <a href="http://twitter.com/useGalaxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 <a href="https://github.com/usegalaxy-in/"><i class="fab fa-github" aria-hidden="true"></i></a>
 <a href="https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-</div>
+</p>
 
 </div>
 
@@ -153,7 +166,7 @@ If you are working in data intensive science in India then please consider getti
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Career Center](/src/careers/index.md)
 
@@ -173,8 +186,12 @@ There are also "open until filled" positions in the US (x7) and Belgium. Take a 
 
 <!-- New Videos -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
-<img class="card-img-top" src="new-videos.png" alt="New videos" />
-<div class="card-header">
+<div class="trim-p">
+
+![New videos](./new-videos.png)
+
+</div>
+<div class="card-header trim-p">
 
 [New Galaxy Videos](https://www.youtube.com/c/GalaxyProject)
 
@@ -201,7 +218,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 45%;">
 <img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
 
@@ -218,8 +235,12 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 <!-- BioHackathon -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-<img class="card-img-top" src="/src/events/2019-11-biohackathon-europe/bhlogo.png" alt="BioHackathon 2021" />
-<div class="card-header">
+<div class="trim-p expand-img">
+
+![BioHackathon 2021](/images/logos/bhlogo.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Galaxy @ BioHackathon 2021](/src/events/2021-11-biohackathon-europe/index.md)
 
@@ -233,7 +254,7 @@ Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/src/eve
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
 
@@ -260,7 +281,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <!-- Galaxy India -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
-<div class="card-header">[Galaxy India](/src/use/galaxy-india/index.md)</div>
+<div class="card-header trim-p">
+
+[Galaxy India](/src/use/galaxy-india/index.md)
+
+</div>
 
 
 Welcome to the India Galaxy workbench; a comprehensive set of tools and workflows dedicated to accelerate your bioinformatics analyses focusing on Bharat. Thanks to Galaxy Europe we are hosting the seeds of Indian Galaxy to facilitate more wider user base.
@@ -269,8 +294,12 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 
 <!-- CropGalaxy -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/use/cropgalaxy/eib-logo.png" alt="CropGalaxy.*" />
-<div class="card-header">
+<div class="trim-p">
+
+![CropGalaxy.*](/src/use/cropgalaxy/eib-logo.png)
+
+</div>
+<div class="card-header trim-p">
 
 [CropGalaxy](/src/use/cropgalaxy/index.md)
 
@@ -282,7 +311,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [UseGalaxy.*](/src/usegalaxy/index.md) News
 
@@ -316,7 +345,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 <!-- Accessibility Improvements -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GTN Accessibility Improvements](https://training.galaxyproject.org/training-material/news/2021/07/27/a11y.html)
 
@@ -329,7 +358,12 @@ We are now supporting alternative formats for accessing our JavaScript based sli
 
 <!-- Removal of humans -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<img class="card-img-top" src="gtn-covid-stripe.jpeg" alt="COVID" /><div class="card-header">
+<div class="trim-p">
+
+![COVID](./gtn-covid-stripe.jpeg)
+
+</div>
+<div class="card-header trim-p">
 
 [Removal of human reads from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/human-reads-removal/tutorial.html)
 
@@ -344,7 +378,11 @@ This tutorial guides you through a typical workflow for clearing human sequences
 
 <!-- Data Independent Acquisition -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<img class="card-img-top" src="gtn-dia-analysis-sum.png" alt="DIA analysis summary" />
+<div class="trim-p">
+
+![DIA analysis summary](./gtn-dia-analysis-sum.png)
+
+</div>
 <div class="card-header">Data Independent Acquisition Analysis (DIA)</div>
 
 By [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame/matthias313/) and [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/)
@@ -359,7 +397,12 @@ Three new tutorials from the Fahrner & Föll team teach you how to do Data Indep
 
 <!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<img class="card-img-top" src="gtn-variant-frequency.svg" alt="Variant Frequency" /><div class="card-header">
+<div class="trim-p">
+
+![Variant Frequency](./gtn-variant-frequency.svg)
+
+</div>
+<div class="card-header trim-p">
 
 [Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html)
 
@@ -374,7 +417,12 @@ This tutorial got a major update, including many improvements based on feedback 
 
 <!-- Galaxy 101 -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<img class="card-img-bottom" src="gtn-101.png" alt="Overlapping features workflow" /><div class="card-header">
+<div class="trim-p">
+
+![Overlapping features workflow](./gtn-101.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html)
 
@@ -386,7 +434,7 @@ The venerable *Galaxy 101* tutorial is still venerable, but it is now also state
 
 <!-- Feedback summary page -->
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GTN Feedback Summary Page](https://training.galaxyproject.org/training-material/news/2021/07/28/feedback.html)
 
@@ -408,7 +456,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A Bioinformatics Whole-Genome Sequencing Workflow for Clinical Mycobacterium tuberculosis Complex Isolate Analysis, Validated Using a Reference Collection Extensively Characterized with Conventional Methods and In Silico Approaches](https://doi.org/10.1128/JCM.00202-21)
 
@@ -420,7 +468,7 @@ Bogaerts, B., Delcourt, T., Soetaert, K., Boarbi, S., Ceyssens, P.-J., Winand, R
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Approaches for containerized scientific workflows in cloud environments with applications in life science](https://doi.org/10.12688/f1000research.53698.1)
 
@@ -432,7 +480,7 @@ Spjuth, O., Capuccini, M., Carone, M., Larsson, A., Schaal, W., Novella, J. A., 
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A Trace-Based Validation Study of OpenDC](https://atlarge-research.com/pdfs/2020-12-02_bsc_thesis_jaro_final.pdf)
 
@@ -449,7 +497,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 <div class="card-deck"> 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy)
 
@@ -460,7 +508,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [For better patient care: Cooperation between MIRACUM and the German Network for Bioinformatics Infrastructure (de.NBI)](https://www.denbi.de/news/1279-for-better-patient-care-cooperation-between-miracum-and-the-german-network-for-bioinformatics-infrastructure-de-nbi)
 
@@ -471,7 +519,7 @@ The European Galaxy Project turns out to be the glue between many scientific pro
 </div>
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [galaxy-pulsar-dev](https://github.com/natefoo/galaxy-pulsar-dev/)
 
