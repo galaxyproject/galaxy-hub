@@ -36,6 +36,12 @@ query {
 .text-nowrap {
   white-space: nowrap !important;
 }
+.static-footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
 .markdown img {
   max-width: 100%;
   max-height: 100%;
