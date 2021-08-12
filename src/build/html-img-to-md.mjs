@@ -143,9 +143,11 @@ function makeImgWrapper(img) {
   if (img.properties.style) {
     //TODO: Double-check if any types of styles need special handling.
     styleStrs.push(img.properties.style);
+    wrapperNeeded = true;
   }
   if (Object.keys(styles).length > 0) {
     styleStrs.push(stringifyStyles(styles));
+    wrapperNeeded = true;
   }
   if (! wrapperNeeded) {
     return;
