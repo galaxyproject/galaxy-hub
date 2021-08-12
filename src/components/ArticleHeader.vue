@@ -35,7 +35,7 @@
       <p class="authors" v-if="article.authors">
         By {{ article.authors }}
       </p>
-      <p class="date">
+      <p class="date" v-if="article.date">
         {{ dateToStr(strToDate(article.date), 'D MMMM YYYY') }}
       </p>
     </section>
