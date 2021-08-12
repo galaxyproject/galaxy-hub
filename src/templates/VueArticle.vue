@@ -8,6 +8,7 @@
         </template>
       </VueRemarkContent>
     </article>
+    <ArticleFooter :article="$page.article" />
   </Layout>
 </template>
 
@@ -19,15 +20,26 @@ query VueArticle($path: String!) {
     tease
     category
     date (format: "D MMMM YYYY")
+    days
     contact
+    contact_url
     authors
+    location
+    location_url
+    source_blog
+    source_blog_url
     skip_title_render
+    links {
+      url
+      text
+    }
     image
     images
     inserts {
       name
       content
     }
+    external_url
     content
   }
 }
@@ -35,10 +47,11 @@ query VueArticle($path: String!) {
 
 <script>
 import ArticleHeader from '@/components/ArticleHeader';
+import ArticleFooter from '@/components/ArticleFooter';
 import { mdToHtml } from '~/utils.js';
 export default {
   components: {
-    ArticleHeader,
+    ArticleHeader, ArticleFooter
   },
   metaInfo() {
     return {

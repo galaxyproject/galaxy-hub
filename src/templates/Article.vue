@@ -2,6 +2,7 @@
   <Layout>
     <ArticleHeader :article="$page.article" />
     <div class="content markdown" v-html="$page.article.content" />
+    <ArticleFooter :article="$page.article" />
   </Layout>
 </template>
 
@@ -12,12 +13,23 @@ query Article ($path: String!) {
     title
     tease
     category
-    date (format: "D MMMM YYYY")
+    date (format: "YYYY-MM-DD")
+    days
     contact
+    contact_url
     authors
+    location
+    location_url
+    source_blog
+    source_blog_url
     skip_title_render
+    links {
+      url
+      text
+    }
     image
     images
+    external_url
     content
   }
 }
@@ -25,9 +37,10 @@ query Article ($path: String!) {
 
 <script>
 import ArticleHeader from '@/components/ArticleHeader';
+import ArticleFooter from '@/components/ArticleFooter';
 export default {
   components: {
-    ArticleHeader,
+    ArticleHeader, ArticleFooter
   },
   metaInfo() {
     return {

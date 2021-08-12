@@ -45,9 +45,30 @@ function splitlines(text) {
 }
 module.exports.splitlines = splitlines;
 
-function dateToStr(date) {
-  /** Turn a `Date` object into a string like "2021-03-12". */
-  return date.toISOString().slice(0,10);
+function strToDate(dateStr) {
+  /** Turn a string containing only a date in ISO 8601 format into a `Date` in the local system's
+   *  timezone.
+   *  @param {string} dateStr A date in ISO 8601 (YYYY-MM-DD) format.
+   */
+  return new Date(dateStr+'T00:00:00');
+}
+module.exports.strToDate = strToDate;
+
+function dateToStr(date, format='iso') {
+  /** Turn a `Date` object into a string showing only the date portion.
+   *  @param {Date} date       A Javascript `Date`. This should be produced using `strToDate()`.
+   *  @param {string} [format='iso'] The style of string representation for the `date`:
+   *    `'iso'`: `"2021-03-12"`
+   *    `'long'`: `"March 3, 2021"`
+   *    `'D MMMM YYYY'`: `"3 March 2021"`
+   */
+  if (format === 'iso') {
+    return date.toISOString().slice(0,10);
+  } else if (format === 'long') {
+    return date.toLocaleDateString('en-US', {year:'numeric', month:'long', day:'numeric'});
+  } else if (format === 'D MMMM YYYY') {
+    return date.toLocaleDateString('en-GB', {year:'numeric', month:'long', day:'numeric'});
+  }
 }
 module.exports.dateToStr = dateToStr;
 
@@ -55,8 +76,8 @@ function dateStrDiff(date1, date2) {
   /** Get the difference, in whole days, between two date strings.
    *  E.g. `dateStrDiff('2021-04-16', '2021-04-14') === 2`
    */
-  let date1date = new Date(date1);
-  let date2date = new Date(date2);
+  let date1date = strToDate(date1);
+  let date2date = strToDate(date2);
   return Math.round((date1date-date2date)/1000/60/60/24);
 }
 module.exports.dateStrDiff = dateStrDiff;
