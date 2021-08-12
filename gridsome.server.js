@@ -144,6 +144,16 @@ class nodeModifier {
       // configurations, so we have to exclude them here.
       return null;
     }
+    // Categorize by path.
+    let pathParts = node.path.split("/");
+    node.category = categorize(pathParts);
+    if (node.category === 'careers') {
+      if (node.closes && dateStrDiff(COMPILE_DATE, node.closes) > 0) {
+        node.closed = true;
+      } else {
+        node.closed = false;
+      }
+    }
     // Label ones with dates.
     // This gets around the inability of the GraphQL schema to query on null/empty dates.
     if (node.date) {
@@ -156,16 +166,7 @@ class nodeModifier {
   }
   static collectionProcessors = {
     Article: function(node) {
-      // Categorize by path.
-      let pathParts = node.path.split("/");
-      node.category = categorize(pathParts);
-      if (node.category === 'careers') {
-        if (node.closes && dateStrDiff(COMPILE_DATE, node.closes) > 0) {
-          node.closed = true;
-        } else {
-          node.closed = false;
-        }
-      }
+      // Currently nothing Article-specific.
       return node;
     },
     VueArticle: function(node, collection) {
