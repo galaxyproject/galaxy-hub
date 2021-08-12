@@ -11,11 +11,13 @@ query Article ($path: String!) {
     id
     title
     tease
+    category
+    date (format: "D MMMM YYYY")
+    contact
+    authors
+    skip_title_render
     image
     images
-    category
-    contact
-    date (format: "D MMMM YYYY")
     content
   }
 }

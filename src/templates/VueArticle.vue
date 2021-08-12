@@ -17,16 +17,17 @@ query VueArticle($path: String!) {
     id
     title
     tease
+    category
+    date (format: "D MMMM YYYY")
+    contact
+    authors
     skip_title_render
     image
     images
-    contact
-    category
     inserts {
       name
       content
     }
-    date (format: "D MMMM YYYY")
     content
   }
 }
