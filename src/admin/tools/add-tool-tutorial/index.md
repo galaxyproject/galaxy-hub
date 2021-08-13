@@ -39,7 +39,7 @@ This tool has been tested outside of Galaxy and functions as expected.
 
 ### 2. Put the tool into Galaxy's tools directory.
 
-To begin the tool integration process, we need to add our Perl script to the `tools/` directory, where all tool-related files are stored, within our Galaxy installation. In this example we have create a new subdirectory called `myTools` within `tools/` and then moved to this subdirectory.
+To begin the tool integration process, we need to add our Perl script to the `tools/` directory, where all tool-related files are stored, within our Galaxy installation. In this example we have created a new subdirectory called `myTools` within `tools/` and then moved to this subdirectory.
 
 ```sh
 cd tools
