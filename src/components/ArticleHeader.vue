@@ -1,9 +1,9 @@
 <template>
   <header :class="article.category">
     <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
-      &larr; {{ article.category }}
+      &larr; Back to {{ titlecase(article.category) }}
     </g-link>
-    <g-link v-else to="/" class="link"> &larr; Home</g-link>
+    <g-link v-else to="/" class="link">&larr; Back to Home</g-link>
     <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
     <h1 class="title" v-if="! article.skip_title_render">{{ article.title }}</h1>
     <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
@@ -39,11 +39,17 @@
         {{ dateToStr(strToDate(article.date), 'D MMMM YYYY') }}
       </p>
     </section>
+    <p class="outlink" v-if="article.external_url">
+      See <a :href="article.external_url">(external) blog entry</a>
+    </p>
+    <p class="blogref" v-if="article.source_blog">
+      From <a :href="article.source_blog_url">{{ article.source_blog }}</a>
+    </p>
   </header>
 </template>
 
 <script>
-import { getImage, strToDate, dateToStr } from '~/utils.js';
+import { getImage, titlecase, strToDate, dateToStr } from '~/utils.js';
 export default {
   props: ["article"],
   methods: {
@@ -60,6 +66,7 @@ export default {
         return dateToStr(startDate, format);
       }
     },
+    titlecase,
     strToDate,
     dateToStr,
   }
@@ -98,5 +105,11 @@ export default {
 }
 .blog .date {
   font-weight: bolder;
+}
+.outlink {
+  font-weight: bolder;
+}
+.blogref a {
+  font-style: italic;
 }
 </style>
