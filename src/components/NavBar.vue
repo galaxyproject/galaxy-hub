@@ -106,15 +106,19 @@
 <script>
 export default {
   mounted() {
-    const dropdowns = document.querySelectorAll(".nav-item.dropdown");
+    const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+    const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+    function hideAll() {
+      dropdownMenus.forEach(dropdownMenu => dropdownMenu.classList.remove('show'));
+    }
     dropdowns.forEach(dropdown => {
-      let toggle = dropdown.querySelector(".dropdown-toggle");
-      let menu = dropdown.querySelector(".dropdown-menu");
-      toggle.addEventListener("click", event => {
-        if (menu.classList.contains("show")) {
-          menu.classList.remove("show");
-        } else {
-          menu.classList.add("show");
+      let toggle = dropdown.querySelector('.dropdown-toggle');
+      let menu = dropdown.querySelector('.dropdown-menu');
+      toggle.addEventListener('click', event => {
+        let wasShowing = menu.classList.contains('show');
+        hideAll();
+        if (! wasShowing) {
+          menu.classList.add('show');
         }
       });
     });
