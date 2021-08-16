@@ -173,7 +173,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 ## Get Galaxy without Git
 
-If you don't have [Git](http://git-scm.com/) (and thus cannot run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).
+If you don't have [Git](https://git-scm.com/) (and thus cannot run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).
 
 Be aware that using archives makes it more difficult to stay up-to-date with Galaxy code because there is no simple way to update the copy.
 

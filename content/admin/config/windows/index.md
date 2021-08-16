@@ -6,7 +6,7 @@
 
 </div>
 
-Running Galaxy on Windows requires the use of [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10 or running Linux on a Virtual Machine. You can find a tutorial on using Virtual Machines to run Galaxy at [http://getgalaxy.org](http://getgalaxy.org) while the below instructions describe running Galaxy on Windows subsystem for Linux.
+Running Galaxy on Windows requires the use of [Windows Subsystem for Linux](https://msdn.microsoft.com/commandline/wsl/about) on 64-bit Windows 10 or running Linux on a Virtual Machine. You can find a tutorial on using Virtual Machines to run Galaxy at [https://getgalaxy.org](https://getgalaxy.org) while the below instructions describe running Galaxy on Windows subsystem for Linux.
 
 There is also a Virtual machine for tools development which comes pre-installed with Galaxy, Planemo and other useful tools: [http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova](http://planemo.readthedocs.org/en/latest/appliance.html#launching-the-appliance-virtualbox-ova). The virtual machine is updated once per year and is suitable for tools development while the below process is more suited for running a local production server or develop the source code for Galaxy.
 

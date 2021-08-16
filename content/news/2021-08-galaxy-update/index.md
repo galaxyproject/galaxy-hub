@@ -154,8 +154,8 @@ If you are working in data intensive science in India then please consider getti
 <a href="https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 <a href="https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 <a href="https://gitter.im/usegalaxy-in/adda"><i class="fab fa-gitter" aria-hidden="true"></i></a>
-<a href="http://twitter.com/GxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-<a href="http://twitter.com/useGalaxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+<a href="https://twitter.com/GxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+<a href="https://twitter.com/useGalaxyIndia"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 <a href="https://github.com/usegalaxy-in/"><i class="fab fa-github" aria-hidden="true"></i></a>
 <a href="https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 </p>
@@ -305,7 +305,7 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 
 </div>
 
-The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy](https://galaxy.irri.org/), [GOBii](http://gobiiproject.org/), [HTPG](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/), and [EIB](http://excellenceinbreeding.org/).
+The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy](https://galaxy.irri.org/), [GOBii](http://gobiiproject.org/), [HTPG](https://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/), and [EIB](https://excellenceinbreeding.org/).
 
 </div>
 

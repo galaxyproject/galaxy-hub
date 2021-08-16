@@ -25,7 +25,7 @@
         </div>
         <div class="pseudo-card col-sm-4">
           <h2>
-            <a href="http://twitter.com/galaxyproject">
+            <a href="https://twitter.com/galaxyproject">
               <span class="fab fa-twitter"></span>@galaxyproject
             </a>
             <a class="twitter-timeline" href="https://twitter.com/galaxyproject" data-dnt="true"

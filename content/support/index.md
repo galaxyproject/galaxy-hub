@@ -22,7 +22,7 @@ title: Galaxy Support
 
 ### Basics
 
-* [Getting an account at Galaxy Main (http://usegalaxy.org)](/src/support/account/index.md)
+* [Getting an account at Galaxy Main (https://usegalaxy.org)](/src/support/account/index.md)
 * [Loading Data](/src/support/loading-data/index.md)
 * [Downloading Data](/src/support/download-data/index.md)
 * [Finding tools](/src/support/finding-tools/index.md)

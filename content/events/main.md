@@ -5,8 +5,8 @@ layout: events_index.pug
 Upcoming (and past) events with Galaxy-related content.
 
 The events listed here are also available in the [Galaxy Events Google
-Calendar](http://bit.ly/gxycal).  The [Galaxy Other Events Google
-Calendar](http://bit.ly/gxyothercal) lists additional events that are relevant
+Calendar](https://bit.ly/gxycal).  The [Galaxy Other Events Google
+Calendar](https://bit.ly/gxyothercal) lists additional events that are relevant
 to the Galaxy Community, but that are not known to feature significant Galaxy
 content.
 

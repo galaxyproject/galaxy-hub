@@ -11,7 +11,7 @@ authors: Jose and me
 location: Strong Badia
 location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
 external_url: https://zombo.com
-source_blog_url: "http://blogs.nature.com/naturejobs/"
+source_blog_url: "https://blogs.nature.com/naturejobs/"
 source_blog: "Naturejobs Blog"
 tags: [ papercuts, cofest ]
 gtn: true
