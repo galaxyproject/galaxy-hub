@@ -33,6 +33,15 @@
       <h2 :key="series.name+':h2'">{{ series.name }}</h2>
       <ul :key="series.name+':ul'">
         <li class="markdown" v-for="item in series.values" :key="item" v-html="item" />
+        <template v-if="series.key === 'citations'">
+          <li class="zotero" v-for="tag in $page.platform.pub_libraries" :key="tag">
+            <a :href="'https://www.zotero.org/groups/1732893/galaxy/tags/%3E'+tag">
+              {{ tag }} tagged publications
+            </a>
+            in the
+            <a href="/publication-library/">Galaxy Publication library</a>
+          </li>
+        </template>
       </ul>
     </template>
   </Layout>
@@ -55,6 +64,7 @@ query Platform($path: String!) {
     summary
     comments
     user_support
+    pub_libraries
     quotas
     citations
     sponsors
@@ -98,6 +108,7 @@ export default {
       let serieses = [];
       for (let key of ['comments', 'user_support', 'quotas', 'citations', 'sponsors']) {
         let series = {
+          key: key,
           values: this.$page.platform[key].map(mdToHtml),
           name: key.split('_').map(titlecase).join(' '),
         }
