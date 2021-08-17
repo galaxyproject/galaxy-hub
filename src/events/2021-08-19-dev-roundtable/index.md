@@ -9,7 +9,7 @@ image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Victor Wen, Bridgett Carr"
+contact: "Victor Wen, Bridget Carr"
 links:
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1-KzEgD8xJK4fv9VyYD8PTEOtcgUYRC7YY6BnwNXLY00/edit#slide=id.ge915f2a5c6_0_15"

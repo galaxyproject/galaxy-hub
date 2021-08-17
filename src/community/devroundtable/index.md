@@ -29,7 +29,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 ### 2021
 
 * **[2021-08-19: Galaxy for AnVIL Cloud Cost Analysis](/src/events/2021-08-19-dev-roundtable/index.md)**
-  * Leaders: Victor Wen, Bridgett Carr 
+  * Leaders: Victor Wen, Bridget Carr 
 * 2021-08-05: No meeting
 * **[2021-07-22: Restricting the Galaxy Tool Panel](/src/events/2021-07-22-dev-roundtable/index.md)**
   * Leaders: Anton Nekrutenko
