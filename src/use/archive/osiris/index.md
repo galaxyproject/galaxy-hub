@@ -8,7 +8,7 @@ platforms:
     platform_text: "Osiris Galaxy"
     platform_location: US
 summary: "Phylogenetics "
-image: "/src/use/osiris/osiris-logo.jpg"
+image: "osiris-logo.jpg"
 comments:
   - "[Osiris code in Bitbucket](https://bitbucket.org/osiris_phylogenetics)"
   - '"This server aims to demonstrate Osiris, a set of phylogenetics tools for the Galaxy Bioinformatics platform. Because it is only a demo, some computationally intensive tools are disabled. Other tools will be slow because this is a public, shared resource."'

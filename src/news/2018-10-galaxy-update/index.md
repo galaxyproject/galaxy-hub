@@ -298,13 +298,13 @@ In October the venerable [Public Galaxy Server list](/src/use/index.md) and the 
 
 Here's what's new:
 <div class="twocol">
-    <p><a href="/use/mpdsdm/"><img class="float-right" src="/use/mpdsdm/mpdsdm.png" alt="Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)" width="150" /></a></p>
+    <p><img class="float-right" src="/use/archive/mpdsdm/mpdsdm.png" alt="Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)" width="150" /></p>
     <h3 id="mpds-dm">
                 <a class="heading-anchor" href="#mpds-dm"><span></span></a>
                 MPDS-DM
                 </h3>
     <p>The <a href="http://www.mpds-diabetes.in/">Molecular Property Diagnostic Suite for Diabetes Mellitus (MPDS-DM)</a> is a Galaxy web portal that serves as an open access data repository containing available chemical and gene-level information on diabetes. MPDS-DM tools allow users to identify, explore, and characterize drug:gene relationships. </p>
-    <p>See the <a href="/use/mpdsdm/">MPDS-DM directory entry</a> for more. </p>
+    <p>See the MPDS-DM directory entry for more. </p>
     <h3 id="cravat-p">
                 <a class="heading-anchor" href="#cravat-p"><span></span></a>
                 CRAVAT-P

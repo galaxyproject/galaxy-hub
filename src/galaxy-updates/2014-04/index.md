@@ -307,7 +307,7 @@ Three [public Galaxy servers](/src/use/index.md) were added to the published lis
 
 ## Osiris
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/src/use/osiris/osiris-logo.jpg" alt="Osiris" /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/src/use/archive/osiris/osiris-logo.jpg" alt="Osiris" /></a></div>
 
 * *Links:*
   * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)

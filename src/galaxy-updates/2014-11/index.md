@@ -311,7 +311,7 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/use/mpdstb/mpdstb.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/use/archive/mpdstb/mpdstb.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
 
 The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 

@@ -8,7 +8,7 @@ platforms:
     platform_text: "PIA Galaxy"
     platform_location: US
 summary: "Phylogenetics and gene interaction "
-image: "/src/use/pia/pia-image.jpg"
+image: "pia-image.jpg"
 comments:
   - "[PIA code in Bitbucket](https://bitbucket.org/osiris_phylogenetics/pia/)"
   - "PIA (Phylogenetically Informed Annotation) is a set of tools for the Galaxy Bioinformatics Platform. In general, PIA uses BLAST, an alignment program, and RAxML's read placement algorithm to put unknown sequences into pre-calculated phylogenetic trees. We provide 102 genes called LIT (Light Interaction Toolkit) - vision genes like phototransduction genets - for use in PIA."
