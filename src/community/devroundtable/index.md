@@ -28,6 +28,22 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ### 2021
 
+
+
+* 2021-11-25: No Meeting
+  * Leaders: 
+* **[2021-11-11: TBD ](/src/events/2021-11-11-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-10-28: TBD ](/src/events/2021-10-28-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-10-14: TBD ](/src/events/2021-10-14-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-09-30: TBD ](/src/events/2021-09-30-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-09-16: TBD ](/src/events/2021-09-16-dev-roundtable/index.md)**
+  * Leaders: 
+* **[2021-09-02: TBD ](/src/events/2021-09-02-dev-roundtable/index.md)**
+  * Leaders: 
 * **[2021-08-19: Galaxy for AnVIL Cloud Cost Analysis](/src/events/2021-08-19-dev-roundtable/index.md)**
   * Leaders: Victor Wen, Bridget Carr 
 * 2021-08-05: No meeting
