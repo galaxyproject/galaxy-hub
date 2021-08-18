@@ -35,9 +35,11 @@ external drive on the user’s local laptop to interact with it as if it was a
 local folder. Think of the GVL as your data repository in the cloud.
 
 <div class="center">
-    <a href="/src/blog/2020-07-gvl5-beta4/gvl-data-browser.png">
-        <img src="/src/blog/2020-07-gvl5-beta4/gvl-data-browser.png" width="60%" />
-    </a>
+<div style="width: 60%; display: inline-block">
+
+[![](./gvl-data-browser.png)](/src/blog/2020-07-gvl5-beta4/gvl-data-browser.png)
+
+</div>
 </div>
 
 The data browser also provides the ability to connect buckets from AWS S3 or
@@ -48,10 +50,12 @@ be copied or moved to a bucket for persistence and further sharing. The
 screenshot below captures the contents of an S3 bucket viewed through the AWS
 web console and the content of that same bucket linked to a GVL instance.
 
-<div class="center" style="padding-bottom: 2em">
-    <a href="/src/blog/2020-07-gvl5-beta4/gvl-s3-mount.png">
-        <img src="/src/blog/2020-07-gvl5-beta4/gvl-s3-mount.png" width="100%" />
-    </a>
+<div class="center">
+<div style="display: inline-block; padding-bottom: 2em">
+
+[![](./gvl-s3-mount.png)](/src/blog/2020-07-gvl5-beta4/gvl-s3-mount.png)
+
+</div>
 </div>
 
 Finally, the project folders available on the GVL are automatically backed up

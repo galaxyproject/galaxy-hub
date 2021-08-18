@@ -232,7 +232,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
-    <td> Advanced tool definition: data types and data sources</div> </td>
+    <td> Advanced tool definition: data types and data sources </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30pm </th>

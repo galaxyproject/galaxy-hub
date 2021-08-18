@@ -3,14 +3,18 @@ title: Finding and quantifying new transcripts
 ---
 <blockquote class="blockquote">
 <small>
-This tutorial is built upon efforts of [Mo Heydarian](https://galaxyproject.org/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg) and tools wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](https://galaxyproject.org/iuc/) members.
+
+This tutorial is built upon efforts of [Mo Heydarian](/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg) and tools wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](/iuc/) members.
+
 </small>
 </blockquote>
 
 # Introduction
 
-<div class="alert alert-success" role="alert">
+<div class="alert alert-success trim-p" role="alert">
+
 **Objective**: To compare RNAseq data from two distinct cell types in order to identify and quantify differentially expressed transcripts.
+
 </div>
 
 We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1101/gr.164830.113](http://genome.cshlp.org/content/early/2014/10/12/gr.164830.113.abstract). The goal of this study was to investigate "*the dynamics of occupancy and the role in gene regulation of the transcription factor Tal1, a critical regulator of hematopoiesis, at multiple stages of hematopoietic differentiation.*" To this end, RNA-seq libraries were constructed from multiple mouse cell types including G1E - a GATA-null immortalized cell line derived from targeted disruption of GATA-1 in mouse embryonic stem cells - and megakaryocytes. This RNA-seq data was used to determine differential gene expression between G1E and megakaryocytes and later correlated with Tal1 occupancy. This dataset (GEO Accession: [GSE51338](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51338)) consists of biological replicate, paired-end, poly(A) selected, stranded (dUTP) RNA-seq libraries. Because of the long processing time for the large original files, we have down-sampled the original raw data files to include only reads that align to chromosome 19 and a subset of interesting genomic loci identified by Wu *et al*.
@@ -74,51 +78,58 @@ The data is structured in the following way:
 ## How to upload the data into Galaxy
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  	<div class="panel panel-default">
-    	<div class="panel-heading" role="tab" id="headingOne">
-      		<h4 class="panel-title">
-        		<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          			Data upload from Galaxy Library (**recommended** if using http://usegalaxy.org)
-        		</a>
-      		</h4>
-    	</div>
-    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-    		<div class="panel-body">
-        		1. Right click on [this link](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) and use "Open link in a new tab" option<br>
- 				2. Select `reads` folder by clicking on it<br>
- 				3. Click checkboxes for all datasets<br>
- 				4. Click **to History button**<br>
- 				5. Select an existing history or create a new one by naming it.<br><br>
- 				![](/src/tutorials/nt_rnaseq/toHist.png)<br>
-    		</div>
-  		</div>
-  	</div>	
-  	<div class="panel panel-default">
-   		<div class="panel-heading" role="tab" id="headingTwo">
-      		<h4 class="panel-title">
-        		<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          			Data upload from Zenodo
-        		</a>
-      		</h4>
-    	</div>
-    	<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      		<div class="panel-body">
-        		1. Create a new history for this RNA-seq exercise<br>
- 				2. Open the data upload manager (Get Data -> Upload file)<br>
- 				3. Copy and paste the links for the reads and annotation file <br>
- 				4. Select **Paste/Fetch Data**<br>
- 				5. Paste the link(s) into the text field<br>
- 				6. Change the datatype of the read files to **fastqsanger**<br>
- 				7. Change the datatype of the annotation file to **gtf** and assign the Genome as **mm10**<br>
- 				8. Press **Start**<br>
- 				9. Rename the files in your history to retain just the necessary information (*e.g.* "G1E R1 forward reads")
-      		</div>
-    	</div>
- 	</div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+
+Data upload from Galaxy Library (**recommended** if using http://usegalaxy.org)
+
+</a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+
+1. Right click on [this link](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) and use "Open link in a new tab" option
+2. Select `reads` folder by clicking on it
+3. Click checkboxes for all datasets
+4. Click **to History button**
+5. Select an existing history or create a new one by naming it.
+![](/src/tutorials/nt_rnaseq/toHist.png)
+
+</div>
+    </div>
+  </div>	
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+Data upload from Zenodo
+
+</a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+
+1. Create a new history for this RNA-seq exercise
+2. Open the data upload manager (Get Data -> Upload file)
+3. Copy and paste the links for the reads and annotation file
+4. Select **Paste/Fetch Data**
+5. Paste the link(s) into the text field
+6. Change the datatype of the read files to **fastqsanger**
+7. Change the datatype of the annotation file to **gtf** and assign the Genome as **mm10**
+8. Press **Start**
+9. Rename the files in your history to retain just the necessary information (*e.g.* "G1E R1 forward reads")
+
+</div>
+    </div>
+  </div>
 </div>
 
 Once you upload data into a new history you Galaxy interface should look like this:
-
 
 |      |
 |------|
@@ -154,7 +165,7 @@ This will generate the following quality value distributions:
      		<i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
     	</a>
   	</div>
-  	<div class="panel-body collapse" id="qc">
+  	<div class="panel-body collapse show" id="qc">
         - The read length is 99 bp<br>
         - The quality of base calls declines throughout a sequencing run.
   	</div>
@@ -192,7 +203,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
      		<i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
     	</a>
   	</div>
-  	<div class="panel-body collapse" id="qc_after_trim">
+  	<div class="panel-body collapse show" id="qc_after_trim">
         The average quality of base calls does not drop off as sharply at the 3' ends of reads.
   	</div>
 </div>
@@ -259,26 +270,41 @@ Once all datasets are copied it will look something like this:
 
 We will create two dataset collections: one containing data for G1E cells and the other for megakaryocytes (you may want to review features of Galaxy's history system explained in this [tutorial](/tutorials/histories)):
 
-|      |
-|------|
-|![](/src/tutorials/nt_rnaseq/create_col_1.png)|
-|<small>Make history items selectable by clicking checkbox (<i class="far fa-check-square" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_2.png)|
-|<small>Show only G1E data by typing `G1E` in the search box.</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_3.png)|
-|<small>Select all shown datasets by clicking `All`.</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_4.png)|
-|<small>Use `For all selected` dropdown and select option `Build List of Dataset Pairs` to start collection builder.</small>
-|![](/src/tutorials/nt_rnaseq/create_col_5.png)|
-|<small>In the collection builder enter `_f_` and `_r_` in the two search boxes. Because datasets in out history are named as, for example, `G1E_R1_f_ds_SRR549355`, the `_f_` and `_r_` diffrentiate forward and reverse reads. Click `Pair these datasets` button.</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_6.png)|
-|<small>Datasets will become paired.</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_7.png)|
-|<small>Scroll down, name the collection `G1E` and click `Create list`.</small>
-|![](/src/tutorials/nt_rnaseq/create_col_8.png)|
-|<small>You will get a new item in the history representing that collectio.n</small>|
-|![](/src/tutorials/nt_rnaseq/create_col_9.png)|
-|<small>Repeat these steps for Megakarycytes datasets and you should get a history that looks like the one above.</small>
+![](/src/tutorials/nt_rnaseq/create_col_1.png)
+
+<small>Make history items selectable by clicking checkbox (<i class="far fa-check-square" aria-hidden="true"></i>) icon. This will allow individual datasets to be selected.</small>|
+
+![](/src/tutorials/nt_rnaseq/create_col_2.png)
+
+<small>Show only G1E data by typing `G1E` in the search box.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_3.png)
+
+<small>Select all shown datasets by clicking `All`.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_4.png)
+
+<small>Use `For all selected` dropdown and select option `Build List of Dataset Pairs` to start collection builder.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_5.png)
+
+<small>In the collection builder enter `_f_` and `_r_` in the two search boxes. Because datasets in out history are named as, for example, `G1E_R1_f_ds_SRR549355`, the `_f_` and `_r_` diffrentiate forward and reverse reads. Click `Pair these datasets` button.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_6.png)
+
+<small>Datasets will become paired.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_7.png)
+
+<small>Scroll down, name the collection `G1E` and click `Create list`.</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_8.png)
+
+<small>You will get a new item in the history representing that collectio.n</small>
+
+![](/src/tutorials/nt_rnaseq/create_col_9.png)
+
+<small>Repeat these steps for Megakarycytes datasets and you should get a history that looks like the one above.</small>
 
 
 # Pre-processing, mapping, and post-processing
@@ -294,7 +320,11 @@ Now that we have collections let's use `Trimmomatic` to trim all datasets in our
 |![](/src/tutorials/nt_rnaseq/trim_col.png)|
 |<small>**Trimming an entire collection**. Note that `Single-end or paired-end reads?` is set to `Paired-end (as collection)`. This allows select collections (such `G1E`) as inputs.</small>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Repeat this on `Mk` collection as well.</div>
+<div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+
+Repeat this on `Mk` collection as well.
+
+</div>
 
 This should be repeated for `Mk` collection as well (do it on your own). Note that `Trimmomatic` produces two output collection: one contained paired reads (labeled as `paired`; the one we want) and the one containing singletons (labeled as `unpaired`; the one we do not want in this case). We can simply delete collections that have `unpaired` in their names.
 It will be easier down the line if we rename collections to make easier to identify as analysis is progressing (collection tagging, which is currently in development, will alleviate this need in the near future). To rename a collection:
@@ -409,7 +439,11 @@ To compare the abundance of transcripts between different cellular states, the f
 |![](/src/tutorials/nt_rnaseq/fCount3.png)|
 |<small>Finally expand **Advanced options**, set **GFF gene identifier** to `transcript_id`, Strand specificity of the protocol to `Stranded (reverse)` and hit Enter.</small>|
 
-<div class="alert alert-warning" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as well. Rename output collections as shown below.</div>
+<div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+
+Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as well. Rename output collections as shown below.
+
+</div>
 
 |       |
 |-------|
@@ -487,10 +521,12 @@ The last four columns are normalized reads counts for two megakarycyte and two G
      		<i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
     	</a>
   	</div>
-  	<div class="panel-body collapse" id="upreg">
-        - Filter `DeSeq2` output using `c3 < 0 and c7 < 0.01` expression.<br>
-        - There will be around 40 genes.
-  	</div>
+  	<div class="panel-body collapse show" id="upreg">
+
+\- Filter `DeSeq2` output using `c3 < 0 and c7 < 0.01` expression.  
+\- There will be around 40 genes.
+
+</div>
 </div>
 
 

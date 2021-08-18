@@ -7,3 +7,5 @@ location: Nantes, France
 image: /images/logos/IFBSmallTransLogo.png
 external_url: http://www.france-bioinformatique.fr/en/evenements/G4I
 contact: Comité d'organisation
+---
+
