@@ -450,11 +450,7 @@ export function copy(srcFilePath, dstFilePath, simulate=true, verbose=false) {
     dstFileInfo.mtime() >= PathInfo.mtime(srcFilePath)
   ) {
     if (verbose) {
-      console.log(
-        repr`Skipping copy() because ${dstFilePath} already exists (${dstFileInfo.exists()}), it's\
- not a link (${! dstFileInfo.isLink()}), and its mtime (${dstFileInfo.mtime()}) is >= the\
- srcFilePath's mtime (${PathInfo.mtime(srcFilePath)}).`
-      );
+      console.log(getCopyDebugMsg(srcFilePath, dstFilePath));
     }
   } else {
     if (dstFileInfo.isLink()) {
@@ -486,3 +482,22 @@ export function link(srcFilePath, dstFilePath, simulate=true, verbose=false) {
 }
 
 const PLACERS = {copy:copy, link:link};
+
+function getCopyDebugMsg(srcFilePath, dstFilePath) {
+  let dstFileInfo = new PathInfo(dstFilePath);
+  let srcMTime = PathInfo.mtime(srcFilePath);
+  let dstMTime = dstFileInfo.mtime();
+  let relation;
+  if (dstMTime === srcMTime) {
+    relation = 'equal to';
+  } else if (dstMTime > srcMTime) {
+    relation = 'later than';
+  } else {
+    relation = 'earlier than';
+  }
+  return (
+    repr`Skipping copy() because ${dstFilePath} already exists (${dstFileInfo.exists()}), it's`
+    +repr` not a link (${!dstFileInfo.isLink()}), and its mtime (${dstMTime}) is `+relation
+    +repr` the srcFilePath's mtime (${srcMTime}).`
+  );
+}
