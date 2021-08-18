@@ -33,8 +33,28 @@ query {
 </static-query>
 
 <style>
+/***** Generally useful styles *****/
 .text-nowrap {
   white-space: nowrap !important;
+}
+/***** Table of Contents *****/
+.toc-wrapper {
+  float: right;
+}
+.toc-wrapper ul {
+  list-style: none;
+  line-height: 170%;
+}
+.toc-wrapper > ul > li > p, .toc-wrapper > ul > li > a {
+  font-weight: bold;
+}
+.toc-wrapper > ul ul {
+  padding-left: 15px;
+}
+/***** Page sections *****/
+.body-wrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 .static-footer {
   position: absolute;
@@ -42,6 +62,7 @@ query {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+/***** Markdown styling helpers *****/
 .markdown img {
   max-width: 100%;
   max-height: 100%;

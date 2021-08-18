@@ -12,6 +12,7 @@ import { Command } from 'commander';
 import keepNewlineBeforeHtml from './keep-newline-before-html.mjs';
 import htmlImgToMd from './html-img-to-md.mjs';
 import fixLinks from './fix-links.mjs';
+import tocAdd from './toc-add.mjs';
 import { repr, PathInfo, rmPrefix } from '../utils.js';
 
 const MD_EXT = 'md';
@@ -58,7 +59,7 @@ export function main(inputPath, opts) {
   let defaults = getDefaults(program.options);
   for (let [key, value] of Object.entries(defaults)) {
     if (!opts.hasOwnProperty(key)) {
-      opts[key] = defaults[key];
+      opts[key] = value;
     }
   }
   let bases;
@@ -77,8 +78,7 @@ export function main(inputPath, opts) {
 
   // Parse Markdown with remark-parse, parse the frontmatter, modify it with our plugins, then
   // serialize it right back to Markdown with remark-stringify.
-  // Note: unified-engine is made to make filesystem traversal easy:
-  //       https://github.com/unifiedjs/unified-engine
+  //TODO: Use unified-engine directly. Could avoid the argv munging.
   //TODO: Both htmlImgToMd and fixLinks parse the HTML of each `html` node. If it's a performance
   //      issue, we could cache the parsed `hast` tree in a property on the node. Then maybe a
   //      separate plugin at the end could handle stringifying it back into HTML.
@@ -87,6 +87,7 @@ export function main(inputPath, opts) {
     .use(keepNewlineBeforeHtml)
     .use(htmlImgToMd, {limit:opts.limit})
     .use(fixLinks, {bases:bases, debug:opts.debug})
+    .use(tocAdd, {position:'start', onlyIfHeadings:true, includeFilename:'index.md'})
     .use(remarkFrontmatter, {type:'yaml', marker:'-'})
     .use(remarkStringify, REMARK_STRINGIFY_OPTIONS);
 
