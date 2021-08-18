@@ -1,7 +1,8 @@
 ---
  title: NCBI SRA Fastq
 ---
-[Back to Support Hub](http://wiki.galaxyproject.org/support/)
+
+[Back to Support Hub](/support/)
 
 # Data retrieval with “NCBI SRA Tools” (fastq-dump)
 
