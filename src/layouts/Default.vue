@@ -84,6 +84,14 @@ query {
 .markdown .expand-img img {
   width: 100%;
 }
+.markdown .no-header thead {
+  display: none;
+}
+.markdown .compact th, .markdown .compact td {
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  line-height: 1.3em;
+}
 /* Replacement for .table and .table-striped on Markdown tables.
  * Until we can get those classes inserted into the table elements themselves.
  */
