@@ -1,3 +1,8 @@
+// The index (in root's children) of the first node of the table of contents.
+const TOC_START = 0;
+// The number of top-level nodes (children of root) that comprise the table of contents (excluding
+// the ending header).
+const TOC_SIZE = 2;
 const HEADING_TEXT = 'table-of-contents';
 const HEADING_ENDING = 'end-table-of-contents';
 
@@ -18,9 +23,9 @@ export default function attacher(opts) {
       removeNode(tree, 'heading', HEADING_TEXT);
       removeNode(tree, 'heading', HEADING_ENDING);
       // Wrap the ToC
-      wrapNodes(tree, 0, 1, opts.tocAttrs);
+      wrapNodes(tree, TOC_START, TOC_SIZE-1, opts.tocAttrs);
       // Wrap the body
-      wrapNodes(tree, 3, tree.children.length, opts.bodyAttrs);
+      wrapNodes(tree, TOC_START+TOC_SIZE+1, tree.children.length, opts.bodyAttrs);
     }
   }
   return transformer;
