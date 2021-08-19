@@ -1,7 +1,7 @@
 ---
 title: "AnVIL Project Manager"
 date: '2020-10-15'
-closes: 
+closes: "2021-08-15"
 summary: "Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. "
 continent: NA
 location: "Johns Hopkins University, Baltimore, Maryland, United States"
