@@ -99,6 +99,20 @@
           </g-link>
         </li>
       </ul>
+      <ul class="navbar-nav ml-auto">
+        <li>
+          <form class="my-2 navbar-form" method="get" action="/search/">
+            <div class="input-group">
+              <input id="search-input" class="form-control" name="q" placeholder="Search Galaxy">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="submit">
+                  <span class="fa fa-search"></span>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+      </ul>
     </div>
   </nav>
 </template>
