@@ -1,11 +1,22 @@
 ---
 title: Managing Datasets in Galaxy
 ---
+
+# Quotas
+
+Please review for the most current information about **how to find and manage all of your data** in Galaxy.
+
+* **[Account Quotas](/src/support/account-quotas/)**
+
+# Datasets
+
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 
-The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/src/learn/advanced-workflow/index.md)**, making an analysis pathway transparent, reproducible, and *reusable*.
+Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server. 
 
-Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [Main](/src/main/index.md), [Test](/src/test/index.md), and other host instances.
+Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/src/use/index.md) where you are working for server-specific details, including contact information and supplimental resources.
+
+The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
 
 # Getting Datasets in Galaxy
 
