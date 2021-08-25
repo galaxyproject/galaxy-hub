@@ -6,7 +6,7 @@ title: Managing Datasets in Galaxy
 
 Please review for the most current information about **how to find and manage all of your data** in Galaxy.
 
-* **[Account Quotas](/src/support/account-quotas/)**
+* **[Account Quotas](/src/support/account-quotas/index.md)**
 
 # Datasets
 
