@@ -1,141 +1,47 @@
 <template>
-  <nav class="container navbar navbar-expand-lg navbar-dark justify-content-center">
-    <g-link to="/" class="navbar-brand">
-      <img id="masthead-logo" src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" height="30">
-    </g-link>
-    <div id="navbarToggleWrapper" class="collapse navbar-collapse mx-auto">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <g-link class="nav-link dropdown" to="/use/" role="button" aria-expanded="false">
-            Use
-          </g-link>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false">
-            Learn
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <g-link class="dropdown-item" to="/learn/">How to use Galaxy</g-link>
-            </li>
-            <li>
-              <a class="dropdown-item" href="https://training.galaxyproject.org/">Teach with Galaxy</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button">
-            Community
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <g-link class="dropdown-item" to="/community/">About</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/events/">Events</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/news/">News</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/blog/">Blog</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/publication-library/">Publications</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/galaxy-project/statistics/">Stats</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/careers/">Careers</g-link>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button">
-            Deploy &amp; Develop
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <g-link class="dropdown-item" to="/admin/get-galaxy/">Install Galaxy</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/admin/">Server administration</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/tools/">Tools</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/develop/api/">Working with the API</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/develop/">Contributing</g-link>
-            </li>
-            <li>
-              <g-link class="dropdown-item" to="/docs/">Code documentation</g-link>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button">
-            Support
-            <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <g-link class="dropdown-item" to="/support/">FAQ</g-link>
-            </li>
-            <li>
-              <a class="dropdown-item" href="https://help.galaxyproject.org/">Galaxy Help Forum</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <g-link class="nav-link dropdown" to="/jxtx/" role="button" aria-expanded="false">
-            @jxtx
-          </g-link>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li>
-          <form class="my-2 navbar-form" method="get" action="/search/">
-            <div class="input-group">
-              <input id="search-input" class="form-control" name="q" placeholder="Search Galaxy">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="submit">
-                  <span class="fa fa-search"></span>
-                </button>
-              </span>
-            </div>
-          </form>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <b-navbar class="container justify-content-center" toggleable="lg" type="dark" variant="transparent">
+    <b-navbar-brand to="/">
+      <img id="masthead-logo" src="/images/galaxy_logo_hub_white.svg" alt="Galaxy Community Hub" height="30" />
+    </b-navbar-brand>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item to="/use/">Use</b-nav-item>
+        <b-nav-item-dropdown text="Learn">
+          <b-dropdown-item to="/learn/">How to use Galaxy</b-dropdown-item>
+          <b-dropdown-item href="https://training.galaxyproject.org/">Teach with Galaxy</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Community">
+          <b-dropdown-item to="/community/">About</b-dropdown-item>
+          <b-dropdown-item to="/events/">Events</b-dropdown-item>
+          <b-dropdown-item to="/news/">News</b-dropdown-item>
+          <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
+          <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
+          <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
+          <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Deploy &amp; Develop">
+          <b-dropdown-item to="/admin/get-galaxy/">Install Galaxy</b-dropdown-item>
+          <b-dropdown-item to="/admin/">Server administration</b-dropdown-item>
+          <b-dropdown-item to="/tools/">Tools</b-dropdown-item>
+          <b-dropdown-item to="/develop/api/">Working with the API</b-dropdown-item>
+          <b-dropdown-item to="/develop/">Contributing</b-dropdown-item>
+          <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="Support">
+          <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
+          <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
+      </b-navbar-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-form action="/search/" method="get">
+          <b-form-input id="search-input" size="sm" class="mr-sm-2" name="q" placeholder="Search Galaxy"></b-form-input>
+          <b-button size="sm" class="my-2 my-sm-0" type="submit">
+            <span class="fa fa-search"></span>
+          </b-button>
+        </b-nav-form>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
-
-<script>
-export default {
-  mounted() {
-    const dropdowns = document.querySelectorAll('.nav-item.dropdown');
-    const dropdownMenus = document.querySelectorAll('.dropdown-menu');
-    function hideAll() {
-      dropdownMenus.forEach(dropdownMenu => dropdownMenu.classList.remove('show'));
-    }
-    dropdowns.forEach(dropdown => {
-      let toggle = dropdown.querySelector('.dropdown-toggle');
-      let menu = dropdown.querySelector('.dropdown-menu');
-      toggle.addEventListener('click', event => {
-        let wasShowing = menu.classList.contains('show');
-        hideAll();
-        if (! wasShowing) {
-          menu.classList.add('show');
-        }
-      });
-    });
-  }
-}
-</script>
