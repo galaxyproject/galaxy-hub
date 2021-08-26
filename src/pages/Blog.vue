@@ -1,35 +1,35 @@
 <template>
-  <Layout>
-    <h1 class="page-title">{{ $page.main.title }}</h1>
-    <div class="markdown" v-html="$page.main.content" />
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Author(s)</th>
-          <th>Topic</th>
-        </tr>
-      </thead>
-      <tbody>
-        <ArticleTableBlog v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
-      </tbody>
-    </table>
-    <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
-  </Layout>
+    <Layout>
+        <h1 class="page-title">{{ $page.main.title }}</h1>
+        <div class="markdown" v-html="$page.main.content" />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Author(s)</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <ArticleTableBlog v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
+            </tbody>
+        </table>
+        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+    </Layout>
 </template>
 
 <script>
-import ArticleTableBlog from '@/components/ArticleTableBlog';
+import ArticleTableBlog from "@/components/ArticleTableBlog";
 export default {
-  components: {
-    ArticleTableBlog,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.main.title
-    }
-  }
-}
+    components: {
+        ArticleTableBlog,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.main.title,
+        };
+    },
+};
 </script>
 
 <page-query>

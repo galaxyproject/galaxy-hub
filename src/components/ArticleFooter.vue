@@ -1,24 +1,24 @@
 <template>
-  <footer :class="article.category">
-    <p class="backlink" v-if="article.category === 'blog'">
-      See this and other Galaxy-related posts in
-      <g-link to="/blog/">The Galactic Blog</g-link>
-    </p>
-  </footer>
+    <footer :class="article.category">
+        <p class="backlink" v-if="article.category === 'blog'">
+            See this and other Galaxy-related posts in
+            <g-link to="/blog/">The Galactic Blog</g-link>
+        </p>
+    </footer>
 </template>
 
 <script>
 export default {
-  props: ["article"],
+    props: ["article"],
 };
 </script>
 
 <style scoped>
 footer {
-  font-size: 100%;
+    font-size: 100%;
 }
 .backlink {
-  margin-top: 40px;
-  font-style: italic;
+    margin-top: 40px;
+    font-style: italic;
 }
 </style>

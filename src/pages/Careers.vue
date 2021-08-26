@@ -1,31 +1,31 @@
 <template>
-  <Layout>
-    <h1 class="page-title">{{ $page.main.title }}</h1>
-    <div class="markdown" v-html="$page.main.content" />
-    <h2 id="open-positions">Open Positions</h2>
-    <div class="card-deck">
-      <CardCareers v-for="edge in $page.openings.edges" :key="edge.node.id" :article="edge.node" />
-    </div>
-    <h2 id="previous-openings">Previous Openings</h2>
-    <div class="card-deck">
-      <CardCareers v-for="edge in $page.previous.edges" :key="edge.node.id" :article="edge.node" />
-    </div>
-    <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
-  </Layout>
+    <Layout>
+        <h1 class="page-title">{{ $page.main.title }}</h1>
+        <div class="markdown" v-html="$page.main.content" />
+        <h2 id="open-positions">Open Positions</h2>
+        <div class="card-deck">
+            <CardCareers v-for="edge in $page.openings.edges" :key="edge.node.id" :article="edge.node" />
+        </div>
+        <h2 id="previous-openings">Previous Openings</h2>
+        <div class="card-deck">
+            <CardCareers v-for="edge in $page.previous.edges" :key="edge.node.id" :article="edge.node" />
+        </div>
+        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+    </Layout>
 </template>
 
 <script>
-import CardCareers from '@/components/CardCareers';
+import CardCareers from "@/components/CardCareers";
 export default {
-  components: {
-    CardCareers,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.main.title
-    }
-  }
-}
+    components: {
+        CardCareers,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.main.title,
+        };
+    },
+};
 </script>
 
 <page-query>

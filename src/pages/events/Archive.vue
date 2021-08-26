@@ -1,38 +1,38 @@
 <template>
-  <Layout>
-    <template v-if="$page.main">
-      <h1 class="page-title">{{ $page.main.title }}</h1>
-      <div class="markdown" v-html="$page.main.content" />
-    </template>
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Topic/Event</th>
-          <th>Venue/Location</th>
-          <th>Contact</th>
-        </tr>
-      </thead>
-      <tbody>
-        <ArticleTableEvents v-for="edge in $page.events.edges" :key="edge.node.id" :article="edge.node" />
-      </tbody>
-    </table>
-    <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
-  </Layout>
+    <Layout>
+        <template v-if="$page.main">
+            <h1 class="page-title">{{ $page.main.title }}</h1>
+            <div class="markdown" v-html="$page.main.content" />
+        </template>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Topic/Event</th>
+                    <th>Venue/Location</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <ArticleTableEvents v-for="edge in $page.events.edges" :key="edge.node.id" :article="edge.node" />
+            </tbody>
+        </table>
+        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+    </Layout>
 </template>
 
 <script>
-import ArticleTableEvents from '@/components/ArticleTableEvents';
+import ArticleTableEvents from "@/components/ArticleTableEvents";
 export default {
-  components: {
-    ArticleTableEvents,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.main.title
-    }
-  }
-}
+    components: {
+        ArticleTableEvents,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.main.title,
+        };
+    },
+};
 </script>
 
 <page-query>

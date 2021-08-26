@@ -1,9 +1,9 @@
 <template>
-  <Layout>
-    <ArticleHeader :article="$page.article" />
-    <div class="content markdown" v-html="$page.article.content" />
-    <ArticleFooter :article="$page.article" />
-  </Layout>
+    <Layout>
+        <ArticleHeader :article="$page.article" />
+        <div class="content markdown" v-html="$page.article.content" />
+        <ArticleFooter :article="$page.article" />
+    </Layout>
 </template>
 
 <page-query>
@@ -36,22 +36,23 @@ query Article ($path: String!) {
 </page-query>
 
 <script>
-import ArticleHeader from '@/components/ArticleHeader';
-import ArticleFooter from '@/components/ArticleFooter';
+import ArticleHeader from "@/components/ArticleHeader";
+import ArticleFooter from "@/components/ArticleFooter";
 export default {
-  components: {
-    ArticleHeader, ArticleFooter
-  },
-  metaInfo() {
-    return {
-      title: this.$page.article.title
-    }
-  }
-}
+    components: {
+        ArticleHeader,
+        ArticleFooter,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.article.title,
+        };
+    },
+};
 </script>
 
 <style scoped>
 .content {
-  font-size: 14px;
+    font-size: 14px;
 }
 </style>

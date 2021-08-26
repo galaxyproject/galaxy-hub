@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "src/build/run.mjs build",
-    "develop": "src/build/run.mjs develop"
+    "develop": "src/build/run.mjs develop",
+    "format": "prettier --write 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -18,6 +19,7 @@
     "jiti": "^1.11.0",
     "jquery": "^3.6.0",
     "node-watch": "^0.7.1",
+    "prettier": "^2.3.2",
     "rehype-parse": "^7.0.1",
     "remark": "^13.0.0",
     "remark-attr": "^0.11.1",
@@ -34,5 +36,9 @@
   "devDependencies": {
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4
   }
 }

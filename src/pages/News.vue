@@ -1,28 +1,28 @@
 <template>
-  <Layout>
-    <h1 class="page-title">{{ $page.main.title }}</h1>
-    <div class="markdown" v-html="$page.main.content" />
-    <table class="table table-striped">
-      <tbody>
-        <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
-      </tbody>
-    </table>
-    <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
-  </Layout>
+    <Layout>
+        <h1 class="page-title">{{ $page.main.title }}</h1>
+        <div class="markdown" v-html="$page.main.content" />
+        <table class="table table-striped">
+            <tbody>
+                <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
+            </tbody>
+        </table>
+        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
+    </Layout>
 </template>
 
 <script>
-import ArticleTable from '@/components/ArticleTable';
+import ArticleTable from "@/components/ArticleTable";
 export default {
-  components: {
-    ArticleTable,
-  },
-  metaInfo() {
-    return {
-      title: this.$page.main.title
-    }
-  }
-}
+    components: {
+        ArticleTable,
+    },
+    metaInfo() {
+        return {
+            title: this.$page.main.title,
+        };
+    },
+};
 </script>
 
 <page-query>

@@ -1,16 +1,16 @@
 <template>
-  <g-image v-if="continent" class="continent float-right" :src="`/images/icons/${continent}.png`"/>
+    <g-image v-if="continent" class="continent float-right" :src="`/images/icons/${continent}.png`" />
 </template>
 
 <script>
 export default {
-  props: ["continent"],
+    props: ["continent"],
 };
 </script>
 
 <style scoped>
 .continent {
-  margin-left: 0;
-  margin-bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 </style>

@@ -9,30 +9,33 @@
 //      Once you drill down through its code, it seems the heart of how `remark-gfm` extends it is:
 //      https://github.com/syntax-tree/mdast-util-gfm/blob/main/to-markdown.js
 
-import { visit } from 'unist-util-visit';
+import { visit } from "unist-util-visit";
 
-const EXCLUDED = ['heading','paragraph','list','thematicBreak','html','yaml'];
+const EXCLUDED = ["heading", "paragraph", "list", "thematicBreak", "html", "yaml"];
 
-export default function(options) {
-  // Implement the Transformer interface:
-  // https://github.com/unifiedjs/unified#function-transformernode-file-next
-  function transformer(tree, file) {
-    visit(tree, 'html', fixer);
-  }
-  return transformer;
+export default function (options) {
+    // Implement the Transformer interface:
+    // https://github.com/unifiedjs/unified#function-transformernode-file-next
+    function transformer(tree, file) {
+        visit(tree, "html", fixer);
+    }
+    return transformer;
 }
 
 function fixer(node, index, parent) {
-  let newChildren = []
-  let lastChild;
-  for (let child of parent.children) {
-    if (child.type == 'html' && lastChild && !lastChild.keepNewlineKludge
-        && EXCLUDED.indexOf(lastChild.type) === -1
-    ) {
-      newChildren.push({type:'text', value:'', keepNewlineKludge:true});
+    let newChildren = [];
+    let lastChild;
+    for (let child of parent.children) {
+        if (
+            child.type == "html" &&
+            lastChild &&
+            !lastChild.keepNewlineKludge &&
+            EXCLUDED.indexOf(lastChild.type) === -1
+        ) {
+            newChildren.push({ type: "text", value: "", keepNewlineKludge: true });
+        }
+        newChildren.push(child);
+        lastChild = child;
     }
-    newChildren.push(child);
-    lastChild = child;
-  }
-  parent.children = newChildren;
+    parent.children = newChildren;
 }
