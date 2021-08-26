@@ -1,13 +1,13 @@
 <template>
   <Layout>
     <h1 class="page-title">{{ inserts.main.title }}</h1>
-    <div class="markdown" v-html="inserts.main.content" />
+    <div class="markdown" v-html="inserts.main.content">
+    </div>
     <ul id="resource-tabs" class="nav nav-tabs nav-fill" role="tablist">
-      <li v-for="tab in tabs" :key="tab.id" class="nav-item">
+      <li v-for="tab in tabs" :key="`${tab.id}-tab`" class="nav-item">
         <a
           :id="`${tab.id}-tab`"
           :class="['nav-link', tab.active ? ' active' : '']"
-          :href="`#${tab.id}-pane`"
           data-toggle-group="use-panes"
           data-toggle="tab"
           role="tab"
@@ -22,7 +22,7 @@
     <div id="resource-tabs-content" class="tab-content">
       <div
         v-for="tab in tabs"
-        :key="tab.id"
+        :key="`${tab.id}-pane`"
         :id="`${tab.id}-pane`"
         :class="['tab-pane','fade','show', tab.active ? 'active' : '']"
         data-toggle-group="use-panes"
@@ -37,7 +37,26 @@
             {{ tab.label }}
           </template>
         </h2>
-        <p v-if="inserts[`tab-${tab.id}`]" class="markdown" v-html="inserts[`tab-${tab.id}`].content" />
+        <p
+          class="markdown"
+          v-if="inserts[`tab-${tab.id}`]"
+          v-html="inserts[`tab-${tab.id}`].content"
+        ></p>
+        <!--
+          The following <p> is a workaround for a bug where the previous Markdown element ends up
+          getting repeated (but only in the first pane). This occurs if the Markdown element is
+          followed by certain kinds of elements. So far I've identified two types: empty elements
+          and deeply nested elements. An example of the latter is a <div> inside a <div> inside a
+          <div> (3 levels). 3 seems to be sufficient to cause the issue, while 2 seems to be too few.
+          The table below is has enough levels to trigger it.
+          There is a (vague) error that appears in the console, though. Usually it's a DOMException:
+          "Node.appendChild: Cannot add children to a Text".
+          It appears to be coming from Vue itself.
+          NOTE: This only happens after a build, not in the development server!
+        -->
+        <p class="d-none">
+          dummy text
+        </p>
         <table class="table table-striped">
           <thead>
             <tr v-if="tab.columns">
@@ -54,20 +73,23 @@
           </thead>
           <tbody>
             <PlatformRow
-              v-for="platform in tab.platforms" :key="platform.id" :platform="platform"
+              v-for="platform in tab.platforms"
+              :key="platform.id"
+              :platform="platform"
               :linkType="tab.linkType || tab.id"
             />
           </tbody>
         </table>
         <p
-          v-if="inserts[`tab-${tab.id}-footer`]"
           class="markdown"
+          v-if="inserts[`tab-${tab.id}-footer`]"
           v-html="inserts[`tab-${tab.id}-footer`].content"
-        />
+        ></p>
       </div>
     </div>
     <hr>
-    <footer class="page-footer markdown" v-if="inserts.footer" v-html="inserts.footer.content" />
+    <footer class="page-footer markdown" v-if="inserts.footer" v-html="inserts.footer.content">
+    </footer>
   </Layout>
 </template>
 
@@ -183,6 +205,9 @@ query {
 </page-query>
 
 <style scoped>
+a.nav-link {
+  cursor: pointer;
+}
 footer.page-footer {
   font-size: 100%;
 }
