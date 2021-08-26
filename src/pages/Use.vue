@@ -3,14 +3,17 @@
     <h1 class="page-title">{{ inserts.main.title }}</h1>
     <div class="markdown" v-html="inserts.main.content" />
     <ul id="resource-tabs" class="nav nav-tabs nav-fill" role="tablist">
-      <li v-for="tab in tabs" :key="tab.id" :id="`${tab.id}-tab`" class="nav-item">
+      <li v-for="tab in tabs" :key="tab.id" class="nav-item">
         <a
+          :id="`${tab.id}-tab`"
           :class="['nav-link', tab.active ? ' active' : '']"
           :href="`#${tab.id}-pane`"
           data-toggle-group="use-panes"
-          data-toggle="tab" role="tab"
+          data-toggle="tab"
+          role="tab"
           :aria-controls="`${tab.id}-pane`"
           aria-selected="true"
+          @click.prevent="switchPane(tab.id, 'use-panes')"
         >
           <strong>{{ tab.label }}</strong>
         </a>
@@ -70,7 +73,7 @@
 
 <script>
 import PlatformRow from '@/components/PlatformRow';
-import { rmPrefix, rmSuffix } from '~/utils.js';
+import { rmPrefix, rmSuffix, switchPane } from '~/utils.js';
 function platformContainsGroup(platform, group) {
   let filteredPlatforms = platform.platforms.filter(p => p.platform_group === group);
   return filteredPlatforms.length > 0;
@@ -85,9 +88,10 @@ export default {
     }
   },
   methods: {
+    switchPane,
     platformsByGroup(group) {
       return this.sortedPlatforms.filter(platform => platformContainsGroup(platform, group));
-    }
+    },
   },
   computed: {
     sortedPlatforms() {
@@ -131,11 +135,11 @@ export default {
           platforms:this.platformsByGroup('commercial-cloud'),
         },
         {
-          id:'containers', label:'Containers', anchor:'container',
+          id:'containers', label:'Containers', anchor:'container', linkType:'container',
           platforms:this.platformsByGroup('container'),
         },
         {
-          id:'vms', label:'VMs', anchor:'vm',
+          id:'vms', label:'VMs', anchor:'vm', linkType:'vm',
           platforms:this.platformsByGroup('vm'),
         },
       ];
