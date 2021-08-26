@@ -70,18 +70,18 @@ Please see the [instructions for contributing](/src/publication-library/contribu
 * [7,500 pubs in library](https://twitter.com/tnabtaf/status/1121086728293343232), April 23, 2019
 * [Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md), August 26, 2020
 
-## CiteULike
+## CiteULike & Mendeley
 
 <div class="float-right">
+
 ![citeulike](/src/images/logos/CiteULikeLogo.png)
-</div>
 
-The Galaxy publication library resided in CiteULike from 2011-2017.  In that time the library went from 0 to over 4800 publications.  (That library is still [available on CiteULike](http://www.citeulike.org/group/16008/), by the way.)  In 2017 we started looking for a replacement and settled on Zotero, which has a desktop client and great collaborative features.  We made the switch from CiteULike to Zotero in September 2017.
+<br />
 
-## Mendeley
-
-<div class="float-right">
 ![Mendeley](/src/images/logos/MendeleyLogo.png)
+
 </div>
 
-The [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) was originally mirrored to a Galaxy Mendeley Group on a weekly basis.  However, in February 2013, Mendeley stopped supporting their CiteULike to Mendeley bridge, thus greatly increasing the amount of work needed to maintain the mirror. Further complicating things, later that spring Mendeley was purchased by a traditionally closed access publisher. The Mendeley Galaxy mirror stop being maintained in February 2013.
+The Galaxy publication library resided in CiteULike from 2011-2017.  In that time the library went from 0 to over 4800 publications.  In 2017 we started looking for a replacement and settled on Zotero, which has a desktop client and great collaborative features.  We made the switch from CiteULike to Zotero in September 2017.
+
+The Galaxy CiteULike Group was originally mirrored to a Galaxy Mendeley Group on a weekly basis.  However, in February 2013, Mendeley stopped supporting their CiteULike to Mendeley bridge, thus greatly increasing the amount of work needed to maintain the mirror. Further complicating things, later that spring Mendeley was purchased by a traditionally closed access publisher. The Mendeley Galaxy mirror stop being maintained in February 2013.
