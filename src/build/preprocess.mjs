@@ -129,9 +129,9 @@ function main(command, opts) {
     process.stdout.write('Placing files into build directories.. ');
     start = Date.now();
     doPrePartitioning(partitioner, opts.clear, partitioner.simulate, partitioner.verbose);
+    partitioner.placeDirFiles(partitioner.contentDir, true);
     let elapsed = Date.now() - start;
     console.log(`${elapsed/1000} sec`);
-    partitioner.placeDirFiles(partitioner.contentDir, true);
     if (opts.fixMarkdown) {
       process.stdout.write('Fixing Markdown files..                ');
       start = Date.now();
@@ -205,7 +205,7 @@ function doPrePartitioning(config, clear, simulate, verbose) {
 
 function setupBuildDirs(buildDirs, clear, simulate, verbose) {
   for (let dirPath of Object.values(buildDirs)) {
-    if (clear) {
+    if (clear && PathInfo.exists(dirPath)) {
       if (verbose) {
         console.log(repr`Clearing out existing files in build directory ${dirPath}`);
       }
@@ -241,6 +241,15 @@ function linkStaticImages(projectRoot, contentDir, simulate, verbose) {
       }
     } else {
       throw repr`Path already exists but is not a symlink: ${linkPath}`;
+    }
+  }
+  let linkDir = nodePath.dirname(linkPath);
+  if (! PathInfo.exists(linkDir)) {
+    if (verbose) {
+      console.log(repr`Creating ${linkDir}..`);
+    }
+    if (! simulate) {
+      fs.mkdirSync(linkDir, {recursive:true});
     }
   }
   if (verbose) {
