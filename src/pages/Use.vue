@@ -49,29 +49,52 @@
                     NOTE: This only happens after a build, not in the development server!
                 -->
                 <p class="d-none">dummy text</p>
-                <table class="table table-striped">
-                    <thead>
-                        <tr v-if="tab.columns">
-                            <th v-for="column in tab.columns" :key="column">
-                                {{ column }}
-                            </th>
-                        </tr>
-                        <tr v-else>
-                            <th>Resource</th>
-                            <th>Link</th>
-                            <th>Summary</th>
-                            <th>Keywords</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <PlatformRow
-                            v-for="platform in tab.platforms"
-                            :key="platform.id"
-                            :platform="platform"
-                            :linkType="tab.linkType || tab.id"
-                        />
-                    </tbody>
-                </table>
+                <b-table striped hover :items="tab.platforms" :fields="tab.columns">
+                    <template v-slot:cell(resource)="data">
+                        <a :href="data.item.path">
+                            <template v-if="data.item.title">{{ data.item.title }}</template>
+                            <template v-else>{{ data.item.path }}</template>
+                        </a>
+                    </template>
+                    <template v-slot:cell(link)="data">
+                        <a
+                            v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
+                            :key="link.text"
+                            :href="link.url"
+                        >
+                            {{ link.text }}
+                        </a>
+                    </template>
+                    <template v-slot:cell(cloud)="data">
+                        <a
+                            v-for="link of getLinks(data.item, ['academic-cloud','commercial-cloud'])"
+                            :key="link.text"
+                            :href="link.url"
+                        >
+                            {{ link.text }}
+                        </a>
+                    </template>
+                    <template v-slot:cell(deployable)="data">
+                        <a
+                            v-for="link of getLinks(data.item, ['container', 'vm'])"
+                            :key="link.text"
+                            :href="link.url"
+                        >
+                            {{ link.text }}
+                        </a>
+                    </template>
+                    <template v-slot:cell(summary)="data">
+                        <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
+                    </template>
+                    <template v-slot:cell(purview)="data">
+                        {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
+                    </template>
+                    <template v-slot:cell(keywords)="data">
+                        <g-link :to="keywords[data.item.scope].link">
+                            {{ keywords[data.item.scope].shortText }}
+                        </g-link>
+                    </template>
+                </b-table>
                 <p
                     class="markdown"
                     v-if="inserts[`tab-${tab.id}-footer`]"
@@ -85,15 +108,20 @@
 </template>
 
 <script>
-import PlatformRow from "@/components/PlatformRow";
-import { rmPrefix, rmSuffix, switchPane } from "~/utils.js";
+import { rmPrefix, rmSuffix, mdToHtml, contains, switchPane } from "~/utils.js";
+const LINK_DISP_NAMES = {
+    "academic-cloud": "Academic",
+    "commercial-cloud": "Commercial",
+    "container": "Container",
+    "vm": "VM",
+    "public-server": "Server",
+};
 function platformContainsGroup(platform, group) {
     let filteredPlatforms = platform.platforms.filter((p) => p.platform_group === group);
     return filteredPlatforms.length > 0;
 }
 export default {
     components: {
-        PlatformRow,
     },
     metaInfo() {
         return {
@@ -101,20 +129,51 @@ export default {
         };
     },
     methods: {
+        mdToHtml,
         switchPane,
         platformsByGroup(group) {
             return this.sortedPlatforms.filter((platform) => platformContainsGroup(platform, group));
         },
+        getPlatformValueByGroup(platformData, group, key) {
+            for (let platform of platformData.platforms) {
+                if (platform.platform_group === group) {
+                    return platform[key];
+                }
+            }
+        },
+        getLinks(platform, groups) {
+            let links = [];
+            for (let platformData of platform.platforms) {
+                if (contains(groups, platformData.platform_group)) {
+                    links.push({ url: platformData.platform_url, text: LINK_DISP_NAMES[platformData.platform_group] });
+                }
+            }
+            return links;
+        },
+    },
+    data() {
+        return {
+            keywords: {
+                usegalaxy: {
+                    link: "/use/#usegalaxy-dir",
+                    shortText: "UseGalaxy",
+                },
+                general: {
+                    link: "/use/#genomics",
+                    shortText: "Genomics",
+                },
+                domain: {
+                    link: "/use/#domain",
+                    shortText: "Domain",
+                },
+                "tool-publishing": {
+                    link: "/use/#tool-publishing",
+                    shortText: "Tools",
+                },
+            },
+        }
     },
     computed: {
-        sortedPlatforms() {
-            return this.$page.platforms.edges
-                .map((edge) => edge.node)
-                .sort((n1, n2) => n1.title.toLowerCase().localeCompare(n2.title.toLowerCase()));
-        },
-        platformsUsegalaxy() {
-            return this.sortedPlatforms.filter((platform) => platform.scope === "usegalaxy");
-        },
         inserts() {
             let inserts = {};
             for (let edge of this.$page.allInsert.edges) {
@@ -122,6 +181,14 @@ export default {
                 inserts[name] = edge.node;
             }
             return inserts;
+        },
+        sortedPlatforms() {
+            return this.$page.platforms.edges
+                .map((edge) => edge.node)
+                .sort((n1, n2) => n1.title.toLowerCase().localeCompare(n2.title.toLowerCase()));
+        },
+        platformsUsegalaxy() {
+            return this.sortedPlatforms.filter((platform) => platform.scope === "usegalaxy");
         },
         tabs() {
             return [
@@ -131,44 +198,49 @@ export default {
                     anchor: "usegalaxy-dir",
                     platforms: this.platformsUsegalaxy,
                     active: true,
-                    linkType: "public-server",
-                    columns: ["Resource", "Server", "Summary", "Keywords"],
+                    linkGroup: "public-server",
+                    columns: ["resource", { key:"link", label:"Server" }, "summary", "keywords"],
                 },
                 {
                     id: "all-resources",
                     label: "All",
                     platforms: this.sortedPlatforms,
-                    linkType: "all",
-                    columns: ["Resource", "Server", "Cloud", "Deployable", "Summary", "Keywords"],
+                    linkGroup: "public-server",
+                    columns: ["resource", { key:"link", label:"Server" }, "cloud", "deployable", "summary", "keywords"],
                 },
                 {
                     id: "public-server",
                     label: "Public Servers",
                     platforms: this.platformsByGroup("public-server"),
+                    columns: ["resource", "link", "summary", "keywords"],
                 },
                 {
                     id: "academic-cloud",
                     label: "Academic Clouds",
                     platforms: this.platformsByGroup("academic-cloud"),
+                    columns: ["resource", "link", "summary", "purview", "keywords"],
                 },
                 {
                     id: "commercial-cloud",
                     label: "Commercial Clouds",
                     platforms: this.platformsByGroup("commercial-cloud"),
+                    columns: ["resource", "link", "summary", "keywords"],
                 },
                 {
                     id: "containers",
                     label: "Containers",
                     anchor: "container",
-                    linkType: "container",
+                    linkGroup: "container",
                     platforms: this.platformsByGroup("container"),
+                    columns: ["resource", "link", "summary", "keywords"],
                 },
                 {
                     id: "vms",
                     label: "VMs",
                     anchor: "vm",
-                    linkType: "vm",
+                    linkGroup: "vm",
                     platforms: this.platformsByGroup("vm"),
+                    columns: ["resource", "link", "summary", "keywords"],
                 },
             ];
         },
