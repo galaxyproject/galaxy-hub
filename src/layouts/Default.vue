@@ -16,46 +16,6 @@ export default {
     components: {
         NavBar,
     },
-    mounted() {
-        // [Tab panes](https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior) aren't
-        // working right now for some reason. This is a temporary workaround.
-        let toggles = document.querySelectorAll("[data-toggle]");
-        toggles.forEach((toggle) => {
-            if (!toggle.href) {
-                console.error(`Found an element with "data-toggle" attribute no "href".`);
-                return;
-            }
-            let href = new URL(toggle.href);
-            let targetId = href.hash.slice(1);
-            if (!targetId) {
-                console.error(`Found an element with "data-toggle" attribute but malformed href hash "${href.hash}".`);
-                return;
-            }
-            let target = document.getElementById(targetId);
-            if (!target) {
-                console.error(`No element with the id "${targetId}".`);
-                return;
-            }
-            let toggleGroup = toggle.dataset.toggleGroup;
-            let togglesInGroup;
-            if (toggleGroup) {
-                togglesInGroup = document.querySelectorAll(`[data-toggle-group="${toggleGroup}"]`);
-            } else {
-                console.error(`Toggle element for "#${targetId}" has no data-toggle-group.`);
-            }
-            toggle.addEventListener("click", (event) => {
-                event.preventDefault();
-                if (togglesInGroup) {
-                    togglesInGroup.forEach((toggle) => {
-                        toggle.classList.remove("active");
-                        toggle.classList.remove("show");
-                    });
-                }
-                target.classList.add("show");
-                target.classList.add("active");
-            });
-        });
-    },
 };
 </script>
 
