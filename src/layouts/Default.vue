@@ -69,27 +69,28 @@ query {
     max-height: 100%;
     object-fit: contain;
 }
-.markdown .img-sizer p {
+.img-sizer p {
     height: 100%;
 }
 /***** Markdown styling helpers *****/
-.markdown .autowidth img {
+.autowidth img {
     width: auto;
 }
-.markdown .trim-p p,
+.trim-p p,
+p.trim-p,
 .markdown ul li p,
 .markdown ol li p,
 .markdown .btn p {
     padding: 0;
     margin: 0;
 }
-.markdown .inline-p p {
+.inline-p p {
     display: inline-block;
 }
-.markdown .expand-img img {
+.expand-img img {
     width: 100%;
 }
-.markdown .no-header thead {
+.no-header thead {
     display: none;
 }
 .markdown .compact th,
