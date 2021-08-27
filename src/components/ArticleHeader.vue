@@ -44,7 +44,9 @@
 <script>
 import { getImage, titlecase, strToDate, dateToStr } from "~/utils.js";
 export default {
-    props: ["article"],
+    props: {
+        article: { type: Object, required: true },
+    },
     methods: {
         getImage(article) {
             return getImage(article.image, article.images);

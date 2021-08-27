@@ -4,7 +4,9 @@
 
 <script>
 export default {
-    props: ["continent"],
+    props: {
+        continent: { type: String, required: true },
+    },
 };
 </script>
 

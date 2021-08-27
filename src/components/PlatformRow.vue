@@ -48,7 +48,11 @@ function getLaunchLinks(platform, groups) {
     return links;
 }
 export default {
-    props: ["platform", "linkType", "purview"],
+    props: {
+        platform: { type: Object, required: true },
+        linkType: { type: String, required: true },
+        purview: { type: String, required: false },
+    },
     methods: {
         mdToHtml,
         getPlatformValueByGroup(group, key) {

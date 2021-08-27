@@ -31,7 +31,9 @@ export default {
     components: {
         Continent,
     },
-    props: ["article"],
+    props: {
+        article: { type: Object, required: true },
+    },
 };
 </script>
 

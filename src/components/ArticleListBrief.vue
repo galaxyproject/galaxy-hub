@@ -20,7 +20,9 @@
 
 <script>
 export default {
-    props: ["article"],
+    props: {
+        article: { type: Object, required: true },
+    },
 };
 </script>
 
