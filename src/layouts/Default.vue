@@ -63,17 +63,18 @@ query {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-/***** Markdown styling helpers *****/
+/***** Markdown image sizing *****/
 .markdown img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
-.markdown .autowidth img {
-    width: auto;
-}
 .markdown .img-sizer p {
     height: 100%;
+}
+/***** Markdown styling helpers *****/
+.markdown .autowidth img {
+    width: auto;
 }
 .markdown .trim-p p,
 .markdown ul li p,

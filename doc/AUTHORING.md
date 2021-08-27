@@ -11,7 +11,7 @@ You can use HTML in your `.md` files, but it's best to avoid it when possible. I
 
 ### HTML wrappers
 
-One common use for HTML is to get the layout you want. Usually you can do thsi by surrounding a bit of Markdown with a `<div>` styled how you'd like:
+One common use for HTML is to get the layout you want. Usually you can do this by surrounding a bit of Markdown with a `<div>` styled how you'd like:
 ```markdown
 <div class="float-right">
 
@@ -22,7 +22,7 @@ One common use for HTML is to get the layout you want. Usually you can do thsi b
 
 #### Shrinkwrapping the contents
 
-One issue you can run into with an HTML wrapper is that the Markdown inside will get wrapped in `<p>` tags. Most of the time this is only a problem because of the extra padding it surrounds the Markdown with. Adding the `trim-p` class to the HTML wrapper should remove the padding.
+If you end up with extra space around your wrapped Markdown, try adding the [`trim-p`](#trim-p) class to the wrapper.
 
 ## Images
 
@@ -48,6 +48,38 @@ Example:
 ```
 
 We are planning to get `remark-attr` working in more situations and with more attributes so you no longer have to use the `<div>` wrapper workaround.
+
+## Helper classes
+
+There are several HTML classes that can be useful when trying to get your Markdown to display right. Just add the class to an HTML wrapper around the relevant Markdown.
+
+### `trim-p`
+
+One issue you can run into with an HTML wrapper is that the Markdown inside will get wrapped in a `<p>` tag. Usually the only issue this causes is it inserts extra padding around the wrapped Markdown. Adding the `trim-p` class to the HTML wrapper should remove the padding.
+
+### `inline-p`
+
+Another issue caused by Markdown getting wrapped in a `<p>` tag is that it becomes a block element. This means it ends up on its own line and can't be used in the middle of a line of text. Add `inline-p` to the wrapper to make it display inline instead.
+
+### `img-sizer`
+
+See [Resizing images](#resizing-images).
+
+### `autowidth`
+
+Use this in an image wrapper to set the `width` CSS property of the `<img>` to `auto`. This can help if you're trying to get several images to line up horizontally like in [/events/cofests/papercuts/](https://galaxyproject.org/events/cofests/papercuts/).
+
+### `expand-img`
+
+If you find that an image you're using is smaller than the area provided for it, you can use this class to make it fill that space.
+
+### `no-header`
+
+Tables in Markdown are required to have a header row, or it won't be recognized as a table. If you'd like to make a table without a header, just add an empty header and wrap it in a `<div>` with the `no-header` class. This will hide any header rows.
+
+### `compact`
+
+Use this class to tighten up the rows in a table. This will removing some of the padding above and below the text in each cell and between lines of text. This lets the table take up less vertical space.
 
 ## Escaped characters
 
