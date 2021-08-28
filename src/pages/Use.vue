@@ -37,18 +37,6 @@
                     </template>
                 </h2>
                 <p class="markdown" v-if="inserts[`tab-${tab.id}`]" v-html="inserts[`tab-${tab.id}`].content"></p>
-                <!--
-                    The following <p> is a workaround for a bug where the previous Markdown element ends up getting
-                    repeated (but only in the first pane). This occurs if the Markdown element is followed by certain
-                    kinds of elements. So far I've identified two types: empty elements and deeply nested elements. An
-                    example of the latter is a <div> inside a <div> inside a <div> (3 levels). 3 seems to be sufficient
-                    to cause the issue, while 2 seems to be too few. The table below is has enough levels to trigger it.
-                    There is a (vague) error that appears in the console, though. Usually it's a DOMException:
-                        "Node.appendChild: Cannot add children to a Text".
-                    It appears to be coming from Vue itself.
-                    NOTE: This only happens after a build, not in the development server!
-                -->
-                <p class="d-none">dummy text</p>
                 <b-table striped hover :items="tab.platforms" :fields="tab.columns">
                     <template v-slot:cell(resource)="data">
                         <a :href="data.item.path">
