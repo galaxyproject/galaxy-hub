@@ -14,7 +14,7 @@
                     role="tab"
                     :aria-controls="`${tab.id}-pane`"
                     aria-selected="true"
-                    @click.prevent="switchPane(tab.id,'use-panes')"
+                    @click.prevent="switchPane(tab.id, 'use-panes')"
                 >
                     <strong>{{ tab.label }}</strong>
                 </a>
@@ -64,7 +64,7 @@
                             <b-form-select
                                 :id="`${tab.id}-per-page-select`"
                                 v-model="perPage"
-                                :options="[10,20,40,80,{value:1000,text:'All'}]"
+                                :options="[10, 20, 40, 80, { value: 1000, text: 'All' }]"
                                 size="sm"
                             ></b-form-select>
                         </b-form-group>
@@ -93,12 +93,8 @@
                     <b-col cols="3">
                         <p>
                             Showing {{ tab.pageStart }} to {{ tab.pageEnd }} of {{ tab.displayed }}
-                            <template v-if="filter">
-                                results
-                            </template>
-                            <template v-else>
-                                total
-                            </template>
+                            <template v-if="filter"> results </template>
+                            <template v-else> total </template>
                         </p>
                     </b-col>
                 </b-row>
@@ -115,7 +111,7 @@
                     :current-page="tab.currentPage"
                     :filter="filter"
                     :filter-included-fields="['filterKey']"
-                    @filtered="(items,total) => updateDisplayed(tab,total)"
+                    @filtered="(items, total) => updateDisplayed(tab, total)"
                 >
                     <template v-slot:cell(resource)="data">
                         <a :href="data.item.path">
@@ -134,7 +130,7 @@
                     </template>
                     <template v-slot:cell(cloud)="data">
                         <a
-                            v-for="link of getLinks(data.item, ['academic-cloud','commercial-cloud'])"
+                            v-for="link of getLinks(data.item, ['academic-cloud', 'commercial-cloud'])"
                             :key="link.text"
                             :href="link.url"
                         >
@@ -181,27 +177,15 @@ import { rmPrefix, rmSuffix, mdToHtml, contains, switchPane } from "~/utils.js";
 const LINK_DISP_NAMES = {
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",
-    "container": "Container",
-    "vm": "VM",
+    container: "Container",
+    vm: "VM",
     "public-server": "Server",
 };
 const KEYWORDS = {
-    usegalaxy: {
-        link: "/use/#usegalaxy-dir",
-        text: "UseGalaxy",
-    },
-    general: {
-        link: "/use/#genomics",
-        text: "Genomics",
-    },
-    domain: {
-        link: "/use/#domain",
-        text: "Domain",
-    },
-    "tool-publishing": {
-        link: "/use/#tool-publishing",
-        text: "Tools",
-    },
+    usegalaxy: { link: "/use/#usegalaxy-dir", text: "UseGalaxy" },
+    general: { link: "/use/#genomics", text: "Genomics" },
+    domain: { link: "/use/#domain", text: "Domain" },
+    "tool-publishing": { link: "/use/#tool-publishing", text: "Tools" },
 };
 let tabs = [
     {
@@ -210,13 +194,13 @@ let tabs = [
         label: "UseGalaxy",
         anchor: "usegalaxy-dir",
         linkGroup: "public-server",
-        columns: ["resource", { key:"link", label:"Server" }, "summary", "keywords"],
+        columns: ["resource", { key: "link", label: "Server" }, "summary", "keywords"],
     },
     {
         id: "all-resources",
         label: "All",
         linkGroup: "public-server",
-        columns: ["resource", { key:"link", label:"Server" }, "cloud", "deployable", "summary", "keywords"],
+        columns: ["resource", { key: "link", label: "Server" }, "cloud", "deployable", "summary", "keywords"],
     },
     {
         id: "public-server",
@@ -275,7 +259,7 @@ function makeFilterKey(platform) {
         key.push(KEYWORDS[platform.scope].text);
     }
     for (let platformData of platform.platforms) {
-        for (let pkey of ["platform_url","platform_text"]) {
+        for (let pkey of ["platform_url", "platform_text"]) {
             if (platformData[pkey]) {
                 key.push(platformData[pkey]);
             }
@@ -323,24 +307,24 @@ export default {
             if (tab.displayed === 0) {
                 tab.pageStart = 0;
             } else {
-                tab.pageStart = (tab.currentPage-1)*this.perPage + 1;
+                tab.pageStart = (tab.currentPage - 1) * this.perPage + 1;
             }
             // pageEnd
-            let pageEnd = tab.currentPage*this.perPage;
+            let pageEnd = tab.currentPage * this.perPage;
             if (pageEnd > tab.displayed) {
                 tab.pageEnd = tab.displayed;
             } else {
                 tab.pageEnd = pageEnd;
             }
-        }
+        },
     },
     data() {
         return {
             perPage: 20,
             filter: "",
             keywords: KEYWORDS,
-            tabs: tabs
-        }
+            tabs: tabs,
+        };
     },
     computed: {
         inserts() {
@@ -352,8 +336,8 @@ export default {
             return inserts;
         },
         platforms() {
-            let platforms = this.$page.platforms.edges.map(edge => edge.node);
-            platforms.forEach(platform => platform.filterKey = makeFilterKey(platform));
+            let platforms = this.$page.platforms.edges.map((edge) => edge.node);
+            platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
             return platforms;
         },
     },
@@ -362,9 +346,9 @@ export default {
         // The source of this data is `this.$page.platforms`, which isn't available to `data()`.
         // But we need to declare the `tabs` in `data()` in order for the page to be responsive to updates.
         for (let tab of this.tabs) {
-            if (tab.id === 'usegalaxy') {
-                tab.platforms = this.platforms.filter(platform => platform.scope === "usegalaxy");
-            } else if (tab.id === 'all-resources') {
+            if (tab.id === "usegalaxy") {
+                tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
+            } else if (tab.id === "all-resources") {
                 tab.platforms = this.platforms;
             } else {
                 tab.platforms = this.platformsByGroup(tab.anchor || tab.id);
@@ -372,7 +356,7 @@ export default {
             tab.displayed = tab.platforms.length;
             this.updatePageData(tab);
         }
-    }
+    },
 };
 </script>
 
