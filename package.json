@@ -17,7 +17,6 @@
     "commander": "^8.1.0",
     "gridsome": "^0.7.0",
     "jiti": "^1.11.0",
-    "jquery": "^3.6.0",
     "node-watch": "^0.7.1",
     "prettier": "^2.3.2",
     "rehype-parse": "^7.0.1",
