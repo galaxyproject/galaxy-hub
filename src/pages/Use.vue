@@ -77,8 +77,9 @@
                             <b-form-select
                                 :id="`${tab.id}-per-page-select`"
                                 v-model="perPage"
-                                :options="[10, 20, 40, 80, { value: 1000, text: 'All' }]"
+                                :options="perPageOptions"
                                 size="sm"
+                                @input="updatePageData(tab)"
                             ></b-form-select>
                         </b-form-group>
                     </b-col>
@@ -289,6 +290,15 @@ export default {
             title: this.inserts.main.title,
         };
     },
+    data() {
+        return {
+            perPage: 20,
+            perPageOptions: [10, 20, 40, 80, { value: 1000, text: "All" }],
+            filter: "",
+            keywords: KEYWORDS,
+            tabs: tabs,
+        };
+    },
     methods: {
         mdToHtml,
         switchPane,
@@ -330,14 +340,6 @@ export default {
                 tab.pageEnd = pageEnd;
             }
         },
-    },
-    data() {
-        return {
-            perPage: 20,
-            filter: "",
-            keywords: KEYWORDS,
-            tabs: tabs,
-        };
     },
     computed: {
         inserts() {
