@@ -14,7 +14,7 @@
                     role="tab"
                     :aria-controls="`${tab.id}-pane`"
                     aria-selected="true"
-                    @click.prevent="switchPaneWrapper(tab.id,'use-panes')"
+                    @click.prevent="switchPane(tab.id,'use-panes')"
                 >
                     <strong>{{ tab.label }}</strong>
                 </a>
@@ -79,19 +79,20 @@
                         >
                             <b-pagination
                                 :id="`${tab.id}-page-select`"
-                                v-model="currentPage"
+                                v-model="tab.currentPage"
                                 :total-rows="tab.displayed"
                                 :per-page="perPage"
                                 limit="5"
                                 first-number
                                 last-number
                                 :aria-controls="`${tab.id}-table`"
+                                @input="updatePageData(tab)"
                             ></b-pagination>
                         </b-form-group>
                     </b-col>
                     <b-col cols="3">
                         <p>
-                            Showing {{ currentStart }} to {{ currentEnd }} of {{ tab.displayed }}
+                            Showing {{ tab.pageStart }} to {{ tab.pageEnd }} of {{ tab.displayed }}
                             <template v-if="filter">
                                 results
                             </template>
@@ -111,10 +112,10 @@
                     primary-key="id"
                     sort-by="title"
                     :per-page="perPage"
-                    :current-page="currentPage"
+                    :current-page="tab.currentPage"
                     :filter="filter"
                     :filter-included-fields="['filterKey']"
-                    @filtered="(items,total) => updateDisplayed(tab.id,total)"
+                    @filtered="(items,total) => updateDisplayed(tab,total)"
                 >
                     <template v-slot:cell(resource)="data">
                         <a :href="data.item.path">
@@ -157,7 +158,7 @@
                     </template>
                     <template v-slot:cell(keywords)="data">
                         <g-link :to="keywords[data.item.scope].link">
-                            {{ keywords[data.item.scope].shortText }}
+                            {{ keywords[data.item.scope].text }}
                         </g-link>
                     </template>
                 </b-table>
@@ -187,21 +188,73 @@ const LINK_DISP_NAMES = {
 const KEYWORDS = {
     usegalaxy: {
         link: "/use/#usegalaxy-dir",
-        shortText: "UseGalaxy",
+        text: "UseGalaxy",
     },
     general: {
         link: "/use/#genomics",
-        shortText: "Genomics",
+        text: "Genomics",
     },
     domain: {
         link: "/use/#domain",
-        shortText: "Domain",
+        text: "Domain",
     },
     "tool-publishing": {
         link: "/use/#tool-publishing",
-        shortText: "Tools",
+        text: "Tools",
     },
 };
+let tabs = [
+    {
+        active: true,
+        id: "usegalaxy",
+        label: "UseGalaxy",
+        anchor: "usegalaxy-dir",
+        linkGroup: "public-server",
+        columns: ["resource", { key:"link", label:"Server" }, "summary", "keywords"],
+    },
+    {
+        id: "all-resources",
+        label: "All",
+        linkGroup: "public-server",
+        columns: ["resource", { key:"link", label:"Server" }, "cloud", "deployable", "summary", "keywords"],
+    },
+    {
+        id: "public-server",
+        label: "Public Servers",
+        columns: ["resource", "link", "summary", "keywords"],
+    },
+    {
+        id: "academic-cloud",
+        label: "Academic Clouds",
+        columns: ["resource", "link", "summary", "purview", "keywords"],
+    },
+    {
+        id: "commercial-cloud",
+        label: "Commercial Clouds",
+        columns: ["resource", "link", "summary", "keywords"],
+    },
+    {
+        id: "containers",
+        label: "Containers",
+        anchor: "container",
+        linkGroup: "container",
+        columns: ["resource", "link", "summary", "keywords"],
+    },
+    {
+        id: "vms",
+        label: "VMs",
+        anchor: "vm",
+        linkGroup: "vm",
+        columns: ["resource", "link", "summary", "keywords"],
+    },
+];
+for (let tab of tabs) {
+    tab.platforms = [];
+    tab.displayed = 0;
+    tab.currentPage = 1;
+    tab.pageStart = 0;
+    tab.pageEnd = 0;
+}
 function platformContainsGroup(platform, group) {
     let filteredPlatforms = platform.platforms.filter((p) => p.platform_group === group);
     return filteredPlatforms.length > 0;
@@ -219,7 +272,7 @@ function makeFilterKey(platform) {
         key.push(platform.summary);
     }
     if (KEYWORDS[platform.scope]) {
-        key.push(KEYWORDS[platform.scope].shortText);
+        key.push(KEYWORDS[platform.scope].text);
     }
     for (let platformData of platform.platforms) {
         for (let pkey of ["platform_url","platform_text"]) {
@@ -241,6 +294,7 @@ export default {
     },
     methods: {
         mdToHtml,
+        switchPane,
         platformsByGroup(group) {
             return this.platforms.filter((platform) => platformContainsGroup(platform, group));
         },
@@ -260,99 +314,32 @@ export default {
             }
             return links;
         },
-        switchPaneWrapper(tabId, paneGroup) {
-            switchPane(tabId, paneGroup);
-            this.activeTab = tabId;
-            let activeTabData = this.getActiveTabData();
-            if (! activeTabData) {
-                return;
-            }
-            while (this.currentStart > activeTabData.displayed && this.currentPage > 1) {
-                this.currentPage--;
-            }
+        updateDisplayed(tab, total) {
+            tab.displayed = total;
+            this.updatePageData(tab);
         },
-        getActiveTabData() {
-            let activeTabData = this.tabsById[this.activeTab];
-            if (activeTabData) {
-                return activeTabData;
+        updatePageData(tab) {
+            // pageStart
+            if (tab.displayed === 0) {
+                tab.pageStart = 0;
             } else {
-                console.error(`Could not find tab with id ${this.activeTab}.`);
+                tab.pageStart = (tab.currentPage-1)*this.perPage + 1;
             }
-        },
-        updateDisplayed(tabId, total) {
-            let tab = this.tabsById[tabId];
-            if (tab) {
-                tab.displayed = total;
+            // pageEnd
+            let pageEnd = tab.currentPage*this.perPage;
+            if (pageEnd > tab.displayed) {
+                tab.pageEnd = tab.displayed;
             } else {
-                console.error(`Could not find tab with id ${tabId}.`);
+                tab.pageEnd = pageEnd;
             }
         }
     },
     data() {
         return {
-            currentPage: 1,
             perPage: 20,
             filter: "",
             keywords: KEYWORDS,
-            activeTab: 'usegalaxy',
-            tabs: [
-                {
-                    id: "usegalaxy",
-                    label: "UseGalaxy",
-                    anchor: "usegalaxy-dir",
-                    linkGroup: "public-server",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", { key:"link", label:"Server" }, "summary", "keywords"],
-                },
-                {
-                    id: "all-resources",
-                    label: "All",
-                    linkGroup: "public-server",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", { key:"link", label:"Server" }, "cloud", "deployable", "summary", "keywords"],
-                },
-                {
-                    id: "public-server",
-                    label: "Public Servers",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", "link", "summary", "keywords"],
-                },
-                {
-                    id: "academic-cloud",
-                    label: "Academic Clouds",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", "link", "summary", "purview", "keywords"],
-                },
-                {
-                    id: "commercial-cloud",
-                    label: "Commercial Clouds",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", "link", "summary", "keywords"],
-                },
-                {
-                    id: "containers",
-                    label: "Containers",
-                    anchor: "container",
-                    linkGroup: "container",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", "link", "summary", "keywords"],
-                },
-                {
-                    id: "vms",
-                    label: "VMs",
-                    anchor: "vm",
-                    linkGroup: "vm",
-                    platforms: [],
-                    displayed: 0,
-                    columns: ["resource", "link", "summary", "keywords"],
-                },
-            ]
+            tabs: tabs
         }
     },
     computed: {
@@ -369,39 +356,12 @@ export default {
             platforms.forEach(platform => platform.filterKey = makeFilterKey(platform));
             return platforms;
         },
-        currentStart() {
-            let activeTabData = this.getActiveTabData();
-            if (activeTabData && activeTabData.displayed === 0) {
-                return 0;
-            } else {
-                return (this.currentPage-1)*this.perPage + 1;
-            }
-        },
-        currentEnd() {
-            let pageEnd = this.currentPage*this.perPage;
-            let activeTabData = this.getActiveTabData();
-            if (activeTabData && pageEnd > activeTabData.displayed) {
-                return activeTabData.displayed;
-            } else {
-                return pageEnd;
-            }
-        },
-        tabsById() {
-            let tabsById = {};
-            for (let tab of this.tabs) {
-                tabsById[tab.id] = tab;
-            }
-            return tabsById;
-        },
     },
     created() {
         // Fill in the `platforms` array for each tab (and derived attributes).
         // The source of this data is `this.$page.platforms`, which isn't available to `data()`.
         // But we need to declare the `tabs` in `data()` in order for the page to be responsive to updates.
         for (let tab of this.tabs) {
-            if (tab.id === this.activeTab) {
-                tab.active = true;
-            }
             if (tab.id === 'usegalaxy') {
                 tab.platforms = this.platforms.filter(platform => platform.scope === "usegalaxy");
             } else if (tab.id === 'all-resources') {
@@ -410,6 +370,7 @@ export default {
                 tab.platforms = this.platformsByGroup(tab.anchor || tab.id);
             }
             tab.displayed = tab.platforms.length;
+            this.updatePageData(tab);
         }
     }
 };
