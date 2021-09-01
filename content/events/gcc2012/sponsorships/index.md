@@ -9,7 +9,7 @@ Is your organization interested in being a prominent part of one of the fastest 
 
 Sponsorships are available at four different levels.
 
-![](/src/events/gcc2012/sponsorships/PlatinumBanner.png)
+![](/src/events/gcc2012/sponsorships/PlatinumBannerLeft.png)
 
 <table>
   <tr>
@@ -22,7 +22,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-![](/src/events/gcc2012/sponsorships/GoldBanner.png)
+![](/src/events/gcc2012/sponsorships/GoldBannerLeft.png)
 
 <table>
   <tr>

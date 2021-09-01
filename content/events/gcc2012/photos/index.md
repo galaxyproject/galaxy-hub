@@ -37,12 +37,12 @@ If you have some you would like to have posted here, please send them to outreac
 <div class='left'><img src="/src/events/gcc2012/photos/KarenReddy.jpg" alt="" width="300" /><br /> Karen Reddy </div>
 <div class='left'><img src="/src/events/gcc2012/photos/JeremyGoecksTree.jpg" alt="" width="300" /><br /> Jeremy Goecks </div>
 <div class='left'><img src="/src/events/gcc2012/photos/Haymarket.jpg" alt="" width="300" /><br /> Haymarket Brewery and Pub </div>
-<div class='left'><img src="/src/events/gcc2012/photos/Dinner1.jpg" alt="" width="300" /><br /> Conference dinner @ Haymarket </div>
+<div class='left'><img src="/src/events/gcc2012/photos/Dinner.jpg" alt="" width="300" /><br /> Conference dinner @ Haymarket </div>
 <div class='left'><img src="/src/events/gcc2012/photos/VipinSreedharan.jpg" alt="" width="300" /><br /> Vipin Sreedharan </div>
 <div class='left'><img src="/src/events/gcc2012/photos/IraCooke.jpg" alt="" width="300" /><br /> Ira Cooke </div>
 <div class='left'><img src="/src/events/gcc2012/photos/JayIreland.jpg" alt="" width="300" /><br /> Jay Ireland </div>
 <div class='left'><img src="/src/events/gcc2012/photos/RichLeDuc.jpg" alt="" width="300" /><br /> Rich LeDuc </div>
-<div class='left'><img src="/src/events/gcc2012/photos/GeirKjetilSandve.jpg" alt="" width="300" /><br /> Geir Kjetil Sandve </div>
+<div class='left'><img src="/src/events/gcc2012/photos/GeirKjetilSandveTalk.jpg" alt="" width="300" /><br /> Geir Kjetil Sandve </div>
 <div class='left'><img src="/src/events/gcc2012/photos/LetUsKnow.jpg" alt="" width="300" /><br /> Let us know! </div>
 <div class='left'><img src="/src/events/gcc2012/photos/GCC2013.jpg" alt="" width="300" /><br /> See you next year! </div>
 </div>

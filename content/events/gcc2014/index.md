@@ -132,7 +132,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-<img class="mx-auto" src="/src/events/gcc2013/sponsorships/HostsBanner.png" alt="Hosts and funding agencies" />
+![Hosts and Funding Agencies](/src/events/gcc2013/sponsorships/HostsBanner.png)
 
 [<img class="mx-auto" src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
 

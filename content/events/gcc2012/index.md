@@ -50,9 +50,9 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 
 <table>
   <tr>
-    <td style=" border: none; min-width: 40%;"> <img src="/src/events/gcc2012/sponsorships/PlatinumBanner.png" alt="" width=340 /> </td>
+    <td style=" border: none; min-width: 40%;"> <img src="/src/events/gcc2012/sponsorships/PlatinumBannerLeft.png" alt="" width=340 /> </td>
     <td style=" border: none;"> &nbsp;</td>
-    <td style=" border: none; text-align: center;"> <img src="/src/events/gcc2012/sponsorships/GoldBanner.png" alt="" width=340 /> </td>
+    <td style=" border: none; text-align: center;"> <img src="/src/events/gcc2012/sponsorships/GoldBannerLeft.png" alt="" width=340 /> </td>
   </tr>
   <tr>
     <td style=" border: none; height: 100px; text-align: center;"> <a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a><br /><strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong> </td>

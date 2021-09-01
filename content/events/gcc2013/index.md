@@ -106,7 +106,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/HostsBanner.png" alt="Hosts and Funding Agencies" />](/src/events/gcc2013/sponsorships/index.md)
+[![Hosts and Funding Agencies](./sponsorships/HostsBanner.png)](/src/events/gcc2013/sponsorships/index.md)
 
 [<img class="mx-auto" src="/src/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height="120" />](http://www.uio.no/english/research/interfaculty-research-areas/mls/)
 
