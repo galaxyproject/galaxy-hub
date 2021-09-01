@@ -134,6 +134,7 @@ The [following screencast](https://vimeo.com/123102338#t=1:40) shows how to add 
 ### BAM manipulation
 
 <div class='right'><div class='center'><span style="font-size: smaller;">Filtering BAM with BAMtools in Galaxy</span></div><img src="/src/images/ngs101/BAM-filter.png" alt="SAM/BAM Readgroups" height="250" /></div>
+
 [Video NGS101-9 = Tweaking BAM](https://vimeo.com/123113197) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/bam-tweaking)
 
 We support four toolsets for processing of SAM/BAM datasets:

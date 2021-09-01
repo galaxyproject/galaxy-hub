@@ -1,4 +1,6 @@
-# Supported Python versions
+---
+title: Supported Python versions
+---
 
 Galaxy's core functionality is currently supported on Python **3.5** and **3.6**.
 

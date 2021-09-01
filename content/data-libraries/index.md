@@ -34,17 +34,19 @@ You can select dataset collections in this interface. It will flatten its conten
 
 This option is available only if admin of the Galaxy instance configured it.
 
-Select the `Add datasets/from User Directory` at the folder toolbar.
+Select the `Add datasets/from User Directory` at the folder toolbar.  
 ![import menu](./import-menu.png)
 
-Select files you want to import. You can set `Type` and `Genome` if applicable.
+Select files you want to import. You can set `Type` and `Genome` if applicable.  
 ![file import](./file-import.png)
 
-Select folders to be imported. You can choose whether to `preserve directory structure` (otherwise it fill be flattened) and if you want to `link instead of copying`. Talk to your administrator whether to use linking to files instead of copying - it depends on your file preservation policy.
+Select folders to be imported. You can choose whether to `preserve directory structure` (otherwise it fill be flattened) and if you want to `link instead of copying`. Talk to your administrator whether to use linking to files instead of copying - it depends on your file preservation policy.  
 ![folder import](./folder-import.png)
 
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning trim-p" role="alert">
+
 For Galaxy [Main](/src/main/index.md) linking is discouraged since FTP folders are periodically cleaned up.
+
 </div>
 
 # Administration

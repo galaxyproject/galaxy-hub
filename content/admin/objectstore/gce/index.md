@@ -1,4 +1,6 @@
-# Google Cloud Storage
+---
+title: Google Cloud Storage
+---
 
 A Galaxy admin can configure [ObjectStore](/src/admin/objectstore/index.md) to 
 persist data on a [Google Cloud Storage](https://cloud.google.com/storage/).
