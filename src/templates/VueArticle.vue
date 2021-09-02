@@ -4,7 +4,8 @@
         <article class="content markdown">
             <VueRemarkContent>
                 <template v-for="insert of $page.article.inserts" v-slot:[insert.name]>
-                    <p class="markdown" :key="insert.name" v-html="mdToHtml(insert.content)" />
+                    <p class="markdown" :key="insert.name+':md'" v-html="mdToHtml(insert.content)" />
+                    <p class="d-none" :key="insert.name+':p'">Issue #758 workaround</p>
                 </template>
             </VueRemarkContent>
         </article>
