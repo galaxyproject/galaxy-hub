@@ -3,6 +3,7 @@
   "collections": {
     "Platform": "/use/"
   },
+  "locale": "en-US",
   "categories": {
     "/blog":  "blog",
     "/events": "events",

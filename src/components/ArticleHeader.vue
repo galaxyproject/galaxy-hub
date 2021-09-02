@@ -56,7 +56,29 @@ export default {
             if (days && days > 1) {
                 let endTimestamp = startDate.getTime() + (days - 1) * 24 * 60 * 60 * 1000;
                 let endDate = new Date(endTimestamp);
-                return dateToStr(startDate, format) + " - " + dateToStr(endDate, format);
+                let prefix = "",
+                    startDateStr,
+                    endDateStr,
+                    suffix = "";
+                if (startDate.getFullYear() === endDate.getFullYear()) {
+                    if (startDate.getMonth() === endDate.getMonth()) {
+                        // Everything the same but the day.
+                        prefix = dateToStr(startDate, "MMMM") + " ";
+                        startDateStr = String(startDate.getDate());
+                        endDateStr = String(endDate.getDate());
+                        suffix = ", " + startDate.getFullYear();
+                    } else {
+                        // Same year.
+                        startDateStr = dateToStr(startDate, "D MMMM");
+                        endDateStr = dateToStr(endDate, "D MMMM");
+                        suffix = ", " + startDate.getFullYear();
+                    }
+                } else {
+                    // Different years.
+                    startDateStr = dateToStr(startDate, format);
+                    endDateStr = dateToStr(endDate, format);
+                }
+                return `${prefix}${startDateStr} - ${endDateStr}${suffix}`;
             } else {
                 return dateToStr(startDate, format);
             }

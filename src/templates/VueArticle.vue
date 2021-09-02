@@ -20,7 +20,7 @@ query VueArticle($path: String!) {
     title
     tease
     category
-    date (format: "D MMMM YYYY")
+    date (format: "YYYY-MM-DD")
     days
     contact
     contact_url

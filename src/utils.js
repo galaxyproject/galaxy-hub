@@ -11,6 +11,11 @@ const remarkHtml = require("remark-html");
  * That's the `module.exports.slugify = slugify` pattern.
  */
 
+let CONFIG;
+if (fs && fs.existsSync && fs.existsSync("config.json")) {
+    CONFIG = JSON.parse(fs.readFileSync("config.json", "utf8"));
+}
+
 /** Template literal tag that converts all embedded values to their literal representations.
  *  Uses `util.inspect()` for the conversions.
  *  Alternatively, this can be used as a (single-argument) alias for `util.inspect`.
@@ -91,13 +96,29 @@ module.exports.strToDate = strToDate;
  *    `'D MMMM YYYY'`: `"3 March 2021"`
  */
 function dateToStr(date, format = "iso") {
-    if (format === "iso") {
-        return date.toISOString().slice(0, 10);
-    } else if (format === "long") {
-        return date.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
-    } else if (format === "D MMMM YYYY") {
-        return date.toLocaleDateString("en-GB", { year: "numeric", month: "long", day: "numeric" });
+    let locale = getLocale();
+    let fields = {};
+    switch (format) {
+        case "iso":
+            return date.toISOString().slice(0, 10);
+        case "long":
+            fields = { year: "numeric", month: "long", day: "numeric" };
+            break;
+        case "D MMMM YYYY":
+            locale = "en-GB";
+            fields = { year: "numeric", month: "long", day: "numeric" };
+            break;
+        case "D MMMM":
+            fields = { month: "long", day: "numeric" };
+            break;
+        case "MMMM":
+            fields = { month: "long" };
+            break;
+        case "MMMM YYYY":
+            fields = { year: "numeric", month: "long" };
+            break;
     }
+    return date.toLocaleDateString(locale, fields);
 }
 module.exports.dateToStr = dateToStr;
 
@@ -110,6 +131,39 @@ function dateStrDiff(date1, date2) {
     return Math.round((date1date - date2date) / 1000 / 60 / 60 / 24);
 }
 module.exports.dateStrDiff = dateStrDiff;
+
+function getLocale() {
+    // Explicitly set locale always wins.
+    if (CONFIG && CONFIG.locale) {
+        return CONFIG.locale;
+    }
+    // This should work in all modern environments now (client- and server-side).
+    if (typeof Intl !== "undefined" && Intl.DateTimeFormat) {
+        let dtf = Intl.DateTimeFormat();
+        if (dtf.resolvedOptions) {
+            let ro = dtf.resolvedOptions();
+            if (ro.locale) {
+                return ro.locale;
+            }
+        }
+    }
+    // Browser environments.
+    // https://stackoverflow.com/questions/673905/how-to-determine-users-locale-within-browser
+    if (typeof navigator !== "undefined") {
+        if (navigator.languages && navigator.languages.length > 0) {
+            return navigator.languages[0];
+        }
+        for (let prop of ["userLanguage", "browserLanguage", "systemLanguage", "language"]) {
+            if (navigator[prop]) {
+                return navigator[prop];
+            }
+        }
+    }
+    //TODO: process.env.LC_ALL, LC_MESSAGES, LANG, LANGUAGE (LANG worked on Linux, but strange format).
+    // Fallback.
+    return "en-US";
+}
+module.exports.getLocale = getLocale;
 
 function getImage(imagePath, images) {
     if (!imagePath) {
