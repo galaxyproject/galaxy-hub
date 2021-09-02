@@ -143,4 +143,40 @@ p.trim-p,
 .markdown tbody tr:nth-of-type(2n + 1) {
     background-color: rgba(0, 0, 0, 0.05);
 }
+/* Anchor link icons by headings */
+.markdown h1:hover > a[aria-hidden="true"],
+.markdown h2:hover > a[aria-hidden="true"],
+.markdown h3:hover > a[aria-hidden="true"],
+.markdown h4:hover > a[aria-hidden="true"],
+.markdown h5:hover > a[aria-hidden="true"],
+.markdown h6:hover > a[aria-hidden="true"] {
+    display: block;
+    padding-right: 6px;
+    padding-left: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    height: 100%;
+    background: transparent;
+}
+.markdown h1:hover > a > span.icon.icon-link::before,
+.markdown h2:hover > a > span.icon.icon-link::before,
+.markdown h3:hover > a > span.icon.icon-link::before,
+.markdown h4:hover > a > span.icon.icon-link::before,
+.markdown h5:hover > a > span.icon.icon-link::before,
+.markdown h6:hover > a > span.icon.icon-link::before {
+    /* link icon from FontAwesome */
+    font-family: 'Font Awesome 5 Free';
+    content: "\f0c1";
+    font-weight: 900;
+    position: absolute;
+    font-size: 70%;
+    right: 0.75em;
+    top: -2px;
+    bottom: 0;
+}
 </style>
