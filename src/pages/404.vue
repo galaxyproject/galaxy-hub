@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { gridifyPath, doRedirect } from "~/utils.js";
+import { repr, gridifyPath, doRedirect } from "~/utils.js";
 export default {
     metaInfo() {
         return {
