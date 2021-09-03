@@ -4,7 +4,8 @@
   "scripts": {
     "build": "src/build/run.mjs build",
     "develop": "src/build/run.mjs develop",
-    "format": "prettier --write 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'"
+    "format": "prettier --write 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "lint": "eslint src/**/*.{mjs,js,vue}"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
@@ -34,6 +35,8 @@
     "which": "^2.0.2"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.17.0",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1"
   },
