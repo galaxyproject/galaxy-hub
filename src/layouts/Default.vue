@@ -170,7 +170,7 @@ p.trim-p,
 .markdown h5:hover > a > span.icon.icon-link::before,
 .markdown h6:hover > a > span.icon.icon-link::before {
     /* link icon from FontAwesome */
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     content: "\f0c1";
     font-weight: 900;
     position: absolute;
