@@ -23,6 +23,7 @@ query Article ($path: String!) {
     source_blog
     source_blog_url
     skip_title_render
+    redirect
     links {
       url
       text

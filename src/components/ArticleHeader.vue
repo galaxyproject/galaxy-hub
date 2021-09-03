@@ -4,6 +4,12 @@
             &larr; Back to {{ titlecase(article.category) }}
         </g-link>
         <g-link v-else to="/" class="link">&larr; Back to Home</g-link>
+        <p v-if="article.redirect" class="redirect alert alert-warning">
+            <strong>Note</strong>
+            This content has a new home at
+            <a :href="article.redirect">{{ article.redirect }}</a>
+            .
+        </p>
         <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
         <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
         <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
@@ -34,7 +40,7 @@
                 {{ dateToStr(strToDate(article.date), "D MMMM YYYY") }}
             </p>
         </section>
-        <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) blog entry</a></p>
+        <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
         <p class="blogref" v-if="article.source_blog">
             From <a :href="article.source_blog_url">{{ article.source_blog }}</a>
         </p>
@@ -96,6 +102,9 @@ export default {
     margin: 20px 0px 5px 10px;
     padding: 2px;
     border: 1px solid #666;
+}
+.redirect {
+    margin-top: 20px;
 }
 .title {
     font-size: 28px;
