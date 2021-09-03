@@ -24,7 +24,11 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 [![](/src/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
 
-The Galaxy community uses Gitter.im for chat support, and there are many different channels, depending upon topic.  Here are the channels with 35 or more members.
+**Membership** in the two main support channels over time: [help.galaxyproject.org](https://help.galaxyproject.org/) and the [project's main Gitter/Matrix room](https://gitter.im/galaxyproject/Lobby).
+
+[![](/src/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
+
+The Galaxy community uses Gitter.im / Matrix for chat, and there are many different channels, depending upon topic.  Here are the channels with 35 or more members.
 
 
 ## Mailing Lists
