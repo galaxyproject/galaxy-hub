@@ -109,21 +109,21 @@ function main(command, opts) {
     if (command === "watch") {
         //TODO: If `opts.fixMarkdown`, first walk the build dir to make sure there are no links to
         //      Markdown files. That'd dangerous, since running `mdfixer` could overwrite the sources.
-        function handleEvent(eventType, path) {
+        // Returns a fs.FSWatcher, which can be used to watch for events or close the watcher.
+        nodeWatch(partitioner.contentDir, { recursive: true }, (eventType, path) => {
             partitioner.handleEvent(eventType, path);
             if (opts.fixMarkdown) {
-                // The delay is to avoid a race condition with Gridsome's development server.
-                // The partitioner will copy over the new Markdown file, which prompts the development
-                // server to start reloading. Often, this will happen before mdfixer gets to the newly
-                // copied file to fix it, so the un-fixed Markdown is loaded by the development server. And
-                // then if mdfixer edits the file too quickly, the development server can miss the edit
-                // event from fixing the Markdown, leaving it serving the un-fixed Markdown.
+                /* The delay is to avoid a race condition with Gridsome's development server. The partitioner will copy
+                 * over the new Markdown file, which prompts the development server to start reloading. Often, this will
+                 * happen before mdfixer gets to the newly copied file to fix it, so the un-fixed Markdown is loaded by
+                 * the development server. And then if mdfixer edits the file too quickly, the development server can
+                 * miss the edit event from fixing the Markdown, leaving it serving the un-fixed Markdown.
+                 */
                 //TODO: Instead, combine the copying and fixing by creating a placer where mdfixer reads
                 //      input from the content dir and writes output directly to the build dir.
                 setTimeout(fixMdOnEvent, 250, eventType, path, partitioner, partitioner.verbose, partitioner.simulate);
             }
-        }
-        let watcher = nodeWatch(partitioner.contentDir, { recursive: true }, handleEvent);
+        });
         //TODO: Wait for a gridsome develop process to appear, then exit once it dies.
     } else if (command === "preprocess") {
         process.stdout.write("Placing files into build directories.. ");
@@ -143,7 +143,7 @@ function main(command, opts) {
     // Log how long the last step and the overall script took.
     // This must be done in an event handler right before exit because mdfixer runs async and returns
     // immediately, before it's actually done.
-    process.on("beforeExit", (_) => {
+    process.on("beforeExit", () => {
         let end = Date.now();
         if (opts.fixMarkdown) {
             console.log(`${(end - start) / 1000} sec`);

@@ -9,13 +9,13 @@ import { visit } from "unist-util-visit";
 const htmlParser = unified().use(rehypeParse, { fragment: true });
 const globals = { visits: 0 };
 
-export default function (options) {
+export default function attacher(options) {
     if (options === undefined) {
         options = {};
     }
     // Implement the Transformer interface:
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
-    function transformer(tree, file) {
+    function transformer(tree) {
         globals.limit = options.limit;
         visit(tree, "html", replaceImgs);
     }

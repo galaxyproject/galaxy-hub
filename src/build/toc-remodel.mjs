@@ -18,7 +18,7 @@ export default function attacher(opts) {
     if (opts === undefined) {
         opts = {};
     }
-    function transformer(tree, file) {
+    function transformer(tree) {
         if (hasToc(tree)) {
             removeNode(tree, "heading", HEADING_TEXT);
             removeNode(tree, "heading", HEADING_ENDING);

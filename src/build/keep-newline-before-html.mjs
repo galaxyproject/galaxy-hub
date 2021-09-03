@@ -13,10 +13,10 @@ import { visit } from "unist-util-visit";
 
 const EXCLUDED = ["heading", "paragraph", "list", "thematicBreak", "html", "yaml"];
 
-export default function (options) {
+export default function attacher() {
     // Implement the Transformer interface:
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
-    function transformer(tree, file) {
+    function transformer(tree) {
         visit(tree, "html", fixer);
     }
     return transformer;

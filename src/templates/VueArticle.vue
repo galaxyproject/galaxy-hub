@@ -3,7 +3,13 @@
         <ArticleHeader :article="$page.article" />
         <article class="content markdown">
             <VueRemarkContent>
-                <template v-for="insert of $page.article.inserts" v-slot:[insert.name]>
+                <!--
+                    Insert the content for each `<slot>` in the Markdown.
+                    `#[insert.name]` (shorthand for `v-slot:[insert.name]`) identifies which slot each `<template>`
+                    replaces. `[insert.name]` allows the slot name to be dynamic, based on the value of the
+                    `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
+                -->
+                <template v-for="insert of $page.article.inserts" #[insert.name]>
                     <p class="markdown" :key="insert.name + ':md'" v-html="mdToHtml(insert.content)" />
                     <p class="d-none" :key="insert.name + ':p'">Issue #758 workaround</p>
                 </template>

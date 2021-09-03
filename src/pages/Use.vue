@@ -119,13 +119,13 @@
                     :filter-included-fields="['filterKey']"
                     @filtered="(items, total) => updateDisplayed(tab, total)"
                 >
-                    <template v-slot:cell(resource)="data">
+                    <template #cell(resource)="data">
                         <a :href="data.item.path">
                             <template v-if="data.item.title">{{ data.item.title }}</template>
                             <template v-else>{{ data.item.path }}</template>
                         </a>
                     </template>
-                    <template v-slot:cell(link)="data">
+                    <template #cell(link)="data">
                         <a
                             v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
                             :key="link.text"
@@ -134,7 +134,7 @@
                             {{ link.text }}
                         </a>
                     </template>
-                    <template v-slot:cell(cloud)="data">
+                    <template #cell(cloud)="data">
                         <a
                             v-for="link of getLinks(data.item, ['academic-cloud', 'commercial-cloud'])"
                             :key="link.text"
@@ -143,7 +143,7 @@
                             {{ link.text }}
                         </a>
                     </template>
-                    <template v-slot:cell(deployable)="data">
+                    <template #cell(deployable)="data">
                         <a
                             v-for="link of getLinks(data.item, ['container', 'vm'])"
                             :key="link.text"
@@ -152,13 +152,13 @@
                             {{ link.text }}
                         </a>
                     </template>
-                    <template v-slot:cell(summary)="data">
+                    <template #cell(summary)="data">
                         <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
                     </template>
-                    <template v-slot:cell(purview)="data">
+                    <template #cell(purview)="data">
                         {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
                     </template>
-                    <template v-slot:cell(keywords)="data">
+                    <template #cell(keywords)="data">
                         <g-link :to="keywords[data.item.scope].link">
                             {{ keywords[data.item.scope].text }}
                         </g-link>

@@ -4,7 +4,6 @@ import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
-import * as preprocess from "./preprocess.mjs";
 import { repr, PathInfo } from "../utils.js";
 
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
@@ -29,13 +28,14 @@ childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), { stdio: "inherit" }
 if (command === "develop") {
     let args = ["watch", ...process.argv.slice(3)];
     console.log(`$ ${PREPROCESSOR_RELPATH} ` + args.join(" ") + " &");
-    let watcher = childProcess.spawn(PREPROCESSOR_PATH, args, { stdio: "inherit" });
+    //TODO: Use the returned ChildProcess to kill the child process when the parent is killed.
+    childProcess.spawn(PREPROCESSOR_PATH, args, { stdio: "inherit" });
 }
 
 // Start Gridsome.
 let gridsomeExe = findGridsome();
 console.log(`$ ${gridsomeExe} ${command}`);
-let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
+childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
 //TODO: Get Gridsome's colors working in stdout again.
 
 /** Find the correct command to execute Gridsome. */

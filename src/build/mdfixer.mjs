@@ -21,7 +21,7 @@ const REMARK_STRINGIFY_OPTIONS = {
     rule: "-",
     listItemIndent: "one",
     setext: true,
-    handlers: { break: (_) => "  \n" },
+    handlers: { break: () => "  \n" },
 };
 
 const program = new Command();
@@ -56,7 +56,7 @@ export function main(inputPath, opts) {
     // Can occur if this is executed as a module, not as a script from the command line.
     let defaults = getDefaults(program.options);
     for (let [key, value] of Object.entries(defaults)) {
-        if (!opts.hasOwnProperty(key)) {
+        if (!Object.prototype.hasOwnProperty.call(opts, key)) {
             opts[key] = value;
         }
     }

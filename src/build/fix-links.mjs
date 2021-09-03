@@ -85,7 +85,7 @@ function getRelFilePath(cwd, rawPath, base) {
     }
 }
 
-function fixHtmlLinks(node, index, parent) {
+function fixHtmlLinks(node) {
     let html = node.value;
     let dom = htmlParser.parse(node.value);
     let elems = getElementsByTagNames(dom, ["a", "img"]);
