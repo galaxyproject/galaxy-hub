@@ -59,6 +59,6 @@ If you have questions, comments or suggestions, please let us know in our gitter
 <br />
 <div style="width:250px;margin-left: auto;margin-right: auto;">
 
-![ ](ci_logo.png)
+![ ](/src/images/logos/cancer-galaxy.png)
 
 </div>
