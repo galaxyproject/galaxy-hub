@@ -363,6 +363,11 @@ function logTree(root, depth, indent) {
 }
 module.exports.logTree = logTree;
 
+function doRedirect(url) {
+    window.location.href = url;
+}
+module.exports.doRedirect = doRedirect;
+
 /** This is a replacement for Bootstrap's [tab panes](
  * https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior).
  * Terminology: The tab is the element the user clicks to select a pane. The pane is the element

@@ -8,7 +8,7 @@
             <strong>Note</strong>
             This content has a new home at
             <a :href="article.redirect">{{ article.redirect }}</a>
-            .
+            , which you will be redirected to in 5 seconds.
         </p>
         <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
         <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import { getImage, titlecase, strToDate, dateToStr } from "~/utils.js";
+import { repr, doRedirect, titlecase, startswith, strToDate, dateToStr, getImage } from "~/utils.js";
 export default {
     props: {
         article: { type: Object, required: true },
@@ -93,7 +93,23 @@ export default {
         strToDate,
         dateToStr,
     },
+    mounted() {
+        if (this.article.redirect) {
+            let url = getRedirectUrl(this.article.redirect);
+            console.log(repr`Redirecting to ${url} in 5 seconds..`);
+            setTimeout(() => doRedirect(url), 5000);
+        }
+    },
 };
+function getRedirectUrl(target) {
+    if (startswith(target, "/")) {
+        return `${window.location.origin}${target}`;
+    } else if (startswith(target, "http://") || startswith(target, "https://")) {
+        return target;
+    } else {
+        console.error(repr`Unrecognized redirect url ${target}`);
+    }
+}
 </script>
 
 <style scoped>
