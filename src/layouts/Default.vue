@@ -18,24 +18,41 @@ export default {
     },
     mounted() {
         // Google Analytics tag.
-        //TODO: Replace with vue-gtag.
-        (function (i, s, o, g, r, a, m) {
-            i["GoogleAnalyticsObject"] = r;
-            (i[r] =
-                i[r] ||
-                function () {
-                    (i[r].q = i[r].q || []).push(arguments);
-                }),
-                (i[r].l = 1 * new Date());
-            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m);
-        })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
-        ga("create", "UA-45719423-4", "auto");
-        ga("send", "pageview");
+        addGATag();
+        // Gitter integrated #galaxyproject chat.
+        addGitterChat();
     },
 };
+function addGATag() {
+    //TODO: Replace with vue-gtag.
+    (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+            i[r] ||
+            function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }),
+            (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+    ga("create", "UA-45719423-4", "auto");
+    ga("send", "pageview");
+}
+function addGitterChat() {
+    window.gitter = { chat: { options: { room: "galaxyproject/Lobby" } } };
+    // This handles correct positioning when using location hashes.
+    let shiftWindow = function () {
+        scrollBy(0, -70);
+    };
+    if (location.hash) {
+        shiftWindow();
+    }
+    window.addEventListener("hashchange", shiftWindow);
+    window.addEventListener("load", shiftWindow);
+}
 </script>
 
 <static-query>
