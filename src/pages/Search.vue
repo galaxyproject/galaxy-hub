@@ -52,6 +52,7 @@
                         aria-labelledby="zotero-tab"
                     >
                         <p v-if="error">
+                            <i class="fa fa-exclamation-triangle"></i>
                             {{ error }}
                         </p>
                         <ul v-else-if="zoteroResults" class="list-group list-group-flush">
