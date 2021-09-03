@@ -3,12 +3,13 @@ const path = require("path");
 const util = require("util");
 const remark = require("remark");
 const remarkHtml = require("remark-html");
+const slugify = require("@sindresorhus/slugify");
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
  * 2) importing this into non-modules with the `require` function
  * 3) easily referencing these functions from other functions in the same file
- * That's the `module.exports.slugify = slugify` pattern.
+ * That's the `module.exports.repr = repr` pattern.
  */
 
 let CONFIG;
@@ -65,14 +66,6 @@ function getIntersection(list1, list2) {
     return [...interSet];
 }
 module.exports.getIntersection = getIntersection;
-
-function slugify(string) {
-    return string
-        .toLowerCase()
-        .replace(/[^\w\d -]/g, "")
-        .replace(/[ -]+/g, "-");
-}
-module.exports.slugify = slugify;
 
 function splitlines(text) {
     return text.split(/\r\n|\r|\n/);
@@ -200,6 +193,18 @@ function mdToHtml(md) {
     return rmPrefix(rmSuffix(rawHtml.trim(), "</p>"), "<p>");
 }
 module.exports.mdToHtml = mdToHtml;
+
+function gridifyPath(rawPath) {
+    let rawParts = rawPath.split(path.sep);
+    let lastPart = rawParts[rawParts.length - 1];
+    if (endswith(lastPart, ".html")) {
+        rawParts[rawParts.length - 1] = rmSuffix(lastPart, ".html");
+        rawParts.push("");
+    }
+    let sluggedParts = rawParts.map(slugify);
+    return sluggedParts.join(path.sep);
+}
+module.exports.gridifyPath = gridifyPath;
 
 function matchesPrefixes(string, prefixes) {
     for (let prefix of prefixes) {
