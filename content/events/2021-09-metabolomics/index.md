@@ -11,7 +11,7 @@ gtn: false
 contact: "Melanie Föll"
 tags: []
 links:
-image: "/src/news/2020-12-galaxy-update/metabolomics.png"
+image: "/images/communities/metabolomics.png"
 ---
 
 **When: 14:00 CET**
