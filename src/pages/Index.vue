@@ -56,7 +56,7 @@
                     <h2>
                         <a href="/careers/"><span class="fas fa-user-astronaut"></span>Careers</a>
                     </h2>
-                    <ArticleListBrief v-for="edge in $page.careers.edges" :key="edge.node.id" :article="edge.node" />
+                    <ArticleListBrief v-for="node in careers" :key="node.id" :article="node" />
                 </div>
             </div>
 
@@ -90,6 +90,12 @@ export default {
     },
     metaInfo: {
         title: "Home",
+    },
+    computed: {
+      careers() {
+        this.$page.careers.edges.reverse();
+        return this.$page.careers.edges.map(edge => edge.node);
+      }
     },
     mounted() {
         !(function (d, s, id) {
@@ -180,7 +186,7 @@ query {
     }
   }
   careers: allArticle(
-      limit: 5, sortBy: "date", order: DESC, filter: {
+      limit: 5, sortBy: "date", order: ASC, filter: {
         category: {eq: "careers"}, closed: {eq: false}
       }
     ) {
