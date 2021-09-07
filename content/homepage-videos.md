@@ -4,6 +4,12 @@
     </a>
 </h2>
 <p>
+    <strong><a href="https://youtu.be/DkGrrbaTPN8">
+        Galaxy for AnVIL Cloud Cost Analysis
+    </a></strong>
+    <span class="small">- August 19 Galaxy Developer Round Table call covering AWS, GCP, and Jetstream</span>
+</p>
+<p>
     <strong><a href="https://www.youtube.com/playlist?list=PLNFLKDpdM3B_Md0YUja_IjVeXywRi0Kz3">
         GCC2021 Presentations
     </a></strong>
@@ -32,10 +38,4 @@
         Restricting the Galaxy Tool Panel
     </a></strong>
     <span class="small">- July 22 Galaxy Developer Round Table call</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/Il84WUPVaxc">
-        ASaiM: From a local project to a global effort to support microbiome data analysis
-    </a></strong>
-    <span class="small">- Bérénice Batut at the "Holistic Bioinformatic Approaches used in Microbiome Research" conference</span>
 </p>

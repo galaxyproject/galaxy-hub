@@ -15,7 +15,9 @@ user_support:
 quotas:
   - "None."
 citations:
+- "Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D., Grüning, B., Backofen, R., & Coppens, F. (2021). [A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive](https://doi.org/10.1093/bioinformatics/btab421). *Bioinformatics*, btab421. https://doi.org/10.1093/bioinformatics/btab421"
 pub_libraries:
+- "ENA-Submission"
 sponsors:
   - "ELIXIR-Belgium"
 ---

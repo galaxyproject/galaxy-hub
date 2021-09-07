@@ -295,7 +295,7 @@ Two new [public Galaxy servers](/src/use/index.md) were announced in November:
 
 ## PIA
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/use/pia/pia-image.jpg" alt="PIA" /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/use/archive/pia/pia-image.jpg" alt="PIA" /></a></div>
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)

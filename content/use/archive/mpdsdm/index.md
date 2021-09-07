@@ -8,7 +8,7 @@ platforms:
     platform_text: "Molecular Property Diagnostic Suite - Diabetes Mellitus Portal (MPDSDM)"
     platform_location: IN
 summary: "A disease-specific open source web portal for Diabetes Mellitus."
-image: "/src/use/mpdsdm/mpdsdm.png"
+image: "mpdsdm.png"
 comments:
   - "G. N. Sastry’s group at Centre for Molecular Modeling, CSIR-IICT, India has been in the forefront of developing disease-specific web portals for the last 7 to 8 years. The first report is regarding tuberculosis, which was published in 2017 and is available at http://mpds.osdd.net and http://mpds.csiriict.in [1].  We also have revealed the philosophy developing the Galaxy based MPDS series of web portals last year [2]. Recently, MPDSDM has been published [3]. We are very keen to expand our work on these lines, by making more number of disease-specific web portals in the near future."
   - "We invite participants of interested groups to share or download available information."

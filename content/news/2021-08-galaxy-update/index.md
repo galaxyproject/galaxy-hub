@@ -8,8 +8,8 @@ date: "2021-08-06"
 
 Hello all,
 
-The August newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[Galactic blog posts](#galactic-blog-activity)**; **[training and doc updates](#doc-hub-and-training-updates)**;
-recent **[open-access Galaxy-related publications](#publications)**; and [other news too](#other-news).**
+The August newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[training and doc updates](#doc-hub-and-training-updates)**;
+recent **[open-access Galaxy-related publications](#publications)**; and **[other news too](#other-news).**
 
 Dave Clements and Beatriz Serrano-Solano, Editors
 
@@ -330,13 +330,6 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 </div>
 
-
-
-# Galactic Blog Activity
-
-<div class="card-deck">
-
-</div>
 
 
 # Doc, Hub, and Training Updates
