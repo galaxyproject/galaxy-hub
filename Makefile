@@ -19,10 +19,10 @@ build: npm-deps ## Builds into /build, suitable for copying to webserver.
 	npm run build
 
 serve: npm-deps ## Serve locally for viewing
-	npm run serve
+	npm run develop
 
 watch: npm-deps ## Watches/serves locally.  Useful for local development.
-	npm run watch
+	npm run develop
 
 check: npm-deps ## Check for broken links
 	npm run check
