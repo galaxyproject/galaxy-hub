@@ -196,7 +196,6 @@ function fixMdOnEvent(eventType, path, partitioner, verbose, simulate) {
 
 function doPrePartitioning(config, clear, simulate, verbose) {
     setupBuildDirs(config.buildDirs, clear, simulate, verbose);
-    linkStaticImages(config.projectRoot, config.contentDir, simulate, verbose);
 }
 
 function setupBuildDirs(buildDirs, clear, simulate, verbose) {
@@ -212,45 +211,5 @@ function setupBuildDirs(buildDirs, clear, simulate, verbose) {
         if (!simulate) {
             fs.mkdirSync(dirPath, { recursive: true });
         }
-    }
-}
-
-function linkStaticImages(projectRoot, contentDir, simulate, verbose) {
-    let linkPath = nodePath.join(projectRoot, "static/images");
-    let targetPath = nodePath.join(contentDir, "images");
-    let relativePath = nodePath.relative(nodePath.dirname(linkPath), targetPath);
-    let linkInfo = new PathInfo(linkPath);
-    if (linkInfo.exists()) {
-        if (linkInfo.isLink()) {
-            let existingRelativePath = fs.readlinkSync(linkPath);
-            if (relativePath === existingRelativePath) {
-                if (verbose) {
-                    console.log(repr`Static images link already exists.`);
-                }
-                return;
-            } else {
-                console.log(repr`Static images link already exists but is wrong: ${existingRelativePath}`);
-                if (!simulate) {
-                    fs.unlinkSync(linkPath);
-                }
-            }
-        } else {
-            throw repr`Path already exists but is not a symlink: ${linkPath}`;
-        }
-    }
-    let linkDir = nodePath.dirname(linkPath);
-    if (!PathInfo.exists(linkDir)) {
-        if (verbose) {
-            console.log(repr`Creating ${linkDir}..`);
-        }
-        if (!simulate) {
-            fs.mkdirSync(linkDir, { recursive: true });
-        }
-    }
-    if (verbose) {
-        console.log(repr`Linking to ${relativePath} from ${linkPath}..`);
-    }
-    if (!simulate) {
-        fs.symlinkSync(relativePath, linkPath);
     }
 }
