@@ -145,7 +145,7 @@ query {
     title
     content
   }
-  news: allArticle(limit: 5, filter: {category: {eq: "news" }}) {
+  news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
     totalCount
     edges {
       node {
@@ -159,7 +159,7 @@ query {
   }
   events: allArticle(
       limit: 5, sortBy: "date", order: ASC,
-      filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}}
+      filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
     ) {
     totalCount
     edges {
@@ -173,7 +173,7 @@ query {
       }
     }
   }
-  blog: allArticle(limit: 5, filter: {category: {eq: "blog"}}) {
+  blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
     totalCount
     edges {
       node {
@@ -187,7 +187,7 @@ query {
   }
   careers: allArticle(
       limit: 5, sortBy: "date", order: ASC, filter: {
-        category: {eq: "careers"}, closed: {eq: false}
+        category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
       }
     ) {
     totalCount

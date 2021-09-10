@@ -63,7 +63,7 @@ query {
   }
   upcoming: allArticle(
       sortBy: "date", order: ASC, filter: {
-        category: {eq: "events"}, tags: {contains: "webinar"},
+        category: {eq: "events"}, tags: {contains: "webinar"}, draft: {ne: true},
         has_date: {eq: true}, days_ago: {lte: 0}
       }
     ) {

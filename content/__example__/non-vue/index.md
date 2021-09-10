@@ -14,6 +14,7 @@ external_url: https://zombo.com
 source_blog_url: "https://blogs.nature.com/naturejobs/"
 source_blog: "Naturejobs Blog"
 tags: [ cofest ]
+draft: false
 gtn: false
 skip_title_render: false
 image: World40.png

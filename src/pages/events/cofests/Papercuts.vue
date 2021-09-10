@@ -63,7 +63,7 @@ query {
   }
   upcoming: allArticle(
       sortBy: "date", order: ASC, filter: {
-        category: {eq: "events"}, tags: {contains: "papercuts"},
+        category: {eq: "events"}, tags: {contains: "papercuts"}, draft: {ne: true},
         has_date: {eq: true}, days_ago: {lte: 0}
       }
     ) {
@@ -86,7 +86,7 @@ query {
   }
   recent: allArticle(
       sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, tags: {contains: "papercuts"},
+        category: {eq: "events"}, tags: {contains: "papercuts"}, draft: {ne: true},
         has_date: {eq: true}, days_ago: {between: [1, 365]}
       }
     ) {

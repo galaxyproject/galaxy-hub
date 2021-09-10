@@ -41,7 +41,7 @@ query {
     content
   }
   openings: allArticle(sortBy: "date", order: DESC, filter: {
-    category: {eq: "careers"}, closed: {eq: false}
+    category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
   }) {
     totalCount
     edges {
@@ -64,7 +64,7 @@ query {
     }
   }
   previous: allArticle(sortBy: "date", order: DESC, filter: {
-    category: {eq: "careers"}, closed: {eq: true}
+    category: {eq: "careers"}, closed: {eq: true}, draft: {ne: true}
   }) {
     totalCount
     edges {

@@ -63,7 +63,7 @@ query {
   }
   upcoming: allArticle(
       sortBy: "date", order: ASC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}
+        category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}
       }
     ) {
     totalCount
@@ -85,7 +85,7 @@ query {
   }
   recent: allArticle(
       sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {between: [1, 365]}
+        category: {eq: "events"}, has_date: {eq: true}, days_ago: {between: [1, 365]}, draft: {ne: true}
       }
     ) {
     totalCount

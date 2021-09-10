@@ -44,7 +44,7 @@ query {
     title
     content
   }
-  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "blog"}}) {
+  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
     totalCount
     edges {
       node {

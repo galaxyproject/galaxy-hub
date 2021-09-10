@@ -37,7 +37,7 @@ query {
     title
     content
   }
-  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "news"}}) {
+  articles: allArticle(sortBy: "date", order: DESC, filter: {category: {eq: "news"}, draft: {ne: true}}) {
     totalCount
     edges {
       node {

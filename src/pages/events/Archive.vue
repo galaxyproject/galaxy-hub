@@ -49,7 +49,7 @@ query {
   }
   events: allArticle(
       sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 0}
+        category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 0}, draft: {ne: true}
       }
     ) {
     totalCount
