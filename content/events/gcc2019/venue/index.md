@@ -37,8 +37,10 @@ The airport in the north is close to Karlsruhe and [Baden-Baden](https://www.bad
 
 ## Hosts
 
-<div class="center">
+<div class="center inline-div">
+
 [<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
+
 </div>
 
 <br />

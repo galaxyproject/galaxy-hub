@@ -11,7 +11,7 @@ unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also
 and ends with 2 days of CollaborationFest.
 
 Day | Event | Details
---- | --- | ---
+| --- | --- | --- |
 Mon, 1 July | Training | 3 2h training sessions for those new to Galaxy, either using it, or deploying it
 Tue, 2 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics
 Wed, 3 July | Conference | 2 parallel tracks and 1 unified track, birds-of-a-feather, poster/demo and 2 1.5 h training sessions with more specialized topics

@@ -79,8 +79,10 @@ Contact us at
 
 ## Giga Sponsors
 
-<div class="center">
-[<img style="max-height: 9.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
+<div class="center img-sizer" style="height: 9.5em">
+
+[![ELIXIR: uniting Europe’s leading life science organisations](/src/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
+
 </div>
 
 ## CollaborationFest Sponsorship Opportunities

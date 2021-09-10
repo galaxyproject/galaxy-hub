@@ -15,10 +15,10 @@ There are several options for presentations at GCC2019:
   * Deadline: 10 June
   * Presented during one of three hour-long poster/demo sessions.
   * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.
-* ~~Oral presentations~~
+* <del>Oral presentations</del>
   * 15 to 20 minutes long.
   * Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md). Authors notified by 9 May
-* ~~Lightning talks~~
+* <del>Lightning talks</del>
   * 5 to 7 minutes long 
   * Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md). Authors notified by 9 May
 
@@ -27,5 +27,11 @@ You can submit the same abstract as a long talk, a lightning talk, a poster and 
 **Please use the [GCC2019 Abstract Template](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/abstracts/gcc2019-abstract-template.docx) to format your abstract.**
 
 <br />
-<a href="https://easychair.org/conferences/?conf=gcc2019"><button type="button" class="btn btn-success">**Submit an Abstract for GCC 2019 Now**</button></a>
+<a href="https://easychair.org/conferences/?conf=gcc2019">
+<button type="button" class="btn btn-success">
+
+**Submit an Abstract for GCC 2019 Now**
+
+</button>
+</a>
 

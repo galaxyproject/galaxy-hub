@@ -6,7 +6,7 @@ title: "Childcare at GCC2019"
 
 **Childcare will be offered at GCC2019!**
 
-GCC2019 aims to make events accessible to parents. We encourage people to bring their kids and to please take advantage of the services that GCC2019 offers. We will provide an inhouse childcare from Monday (1st July 2019) until Thursday (4th July 2019) between 8:30-17:00 by the [TagesmütterVerein Freiburg e.V.](http://www.kinder-freiburg.de). Please contact us (gcc2019-org@lists.galaxyproject.org) if you are interested in child care during GCC2019! 
+GCC2019 aims to make events accessible to parents. We encourage people to bring their kids and to please take advantage of the services that GCC2019 offers. We will provide an inhouse childcare from Monday (1st July 2019) until Thursday (4th July 2019) between 8:30-17:00 by the [TagesmütterVerein Freiburg e.V.](https://www.kinder-freiburg.de). Please contact us (gcc2019-org@lists.galaxyproject.org) if you are interested in child care during GCC2019! 
 
 **Registration for childcare is separate from registration for conference events, and will open shortly.**
 
