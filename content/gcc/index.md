@@ -2,7 +2,8 @@
 title: Galaxy Community Conferences (GCCs)
 ---
 
-<div class="text-center">
+<div class="text-center inline-div">
+
 [<img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="2021 Galaxy Community Conference" width="150" />](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) &nbsp;&nbsp;
 [<img src="/src/events/bcc2020/bcc2020-logo-white-wide-1000.png" alt="2020 Bioinformatics Community Conference" width="200" />](https://bcc2020.github.io) &nbsp;&nbsp;
 [<img src="/src/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" width="220" />](https://galaxyproject.org/gcc2019) &nbsp;&nbsp;
@@ -14,6 +15,7 @@ title: Galaxy Community Conferences (GCCs)
 [<img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" />](/src/events/gcc2013/index.md) &nbsp;&nbsp;
 [<img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="170" />](/src/events/gcc2012/index.md) &nbsp;&nbsp;
 [<img src="/src/events/GCC2011Logo400.png" alt="GCC2011" width="185" />](https://galaxyproject.org/gcc2011/)
+
 </div>
 
 <br />

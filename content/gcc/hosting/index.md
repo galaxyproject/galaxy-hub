@@ -2,14 +2,18 @@
 title: Hosting a Galaxy Community Conference (GCC)
 ---
 
-<div class="alert alert-info">
+<div class="alert alert-info trim-p">
+
 [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community.  GCCs gather together researchers, bioinformaticians, service and infrastructure providers, and research data publishers for a week-long event all about data-intensive biology.
+
 </div>
 
 <div class="float-right">
+
 [<img src="/src/events/gcc2019/gcc2019-logo-big.png" alt="2019 Galaxy Community Conference (GCC2019)" style="max-width: 180px" />](https://galaxyproject.org/gcc2019)<br /><br />
 [<img src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" style="max-width: 180px" />](https://gcc2017.sciencesconf.org/)<br /><br />
 [<img class="float-right" src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" style="max-width: 180px" />](https://web.archive.org/web/http://gcc2016.iu.edu/)
+
 </div>
 
 Thanks for considering hosting a [GCC](/src/gcc/index.md).  These events are vital to the success of the community, and the success of these events is driven by GCC hosts.
@@ -23,6 +27,8 @@ There are many things that go into a productive, collaborative, and memorable GC
 Here's what matters for hosting GCC:
 
 ## Institutional support
+
+<div class="clearfix"></div>
 
 [<img class="float-right" src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" style="max-width: 160px" />](http://gcc2015.tsl.ac.uk/)
 
