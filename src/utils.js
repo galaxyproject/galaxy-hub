@@ -373,47 +373,6 @@ function doRedirect(url) {
 }
 module.exports.doRedirect = doRedirect;
 
-/** This is a replacement for Bootstrap's [tab panes](
- * https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior).
- * Terminology: The tab is the element the user clicks to select a pane. The pane is the element
- * which should be shown or hidden based on the user's selection. The `id` is an identifier for
- * each tab/pane.
- * Setup: The tab element's `id` attribute should be `${id}-tab`. The pane element's `id` attr
- * should be `${id}-pane`. One tab and its corresponding pane should initially have the class
- * `active`, and the pane should also have `show`. Also, all tabs and panes in a set should have
- * a `data-toggle-group` attribute with the same value: the `paneGroup`. A "set" is a set of tabs
- * and panes where only one is shown at a time and the rest are hidden. This allows multiple
- * tab/pane sets in the same page.
- * @param {string} id
- * @param {string} paneGroup
- */
-function switchPane(id, paneGroup) {
-    let tab = document.getElementById(`${id}-tab`);
-    if (!tab) {
-        console.error(`switchPane(): No element with id "${id}-tab".`);
-    }
-    let pane = document.getElementById(`${id}-pane`);
-    if (!pane) {
-        console.error(`switchPane(): No element with id "${id}-pane".`);
-        return;
-    }
-    let panesInGroup = document.querySelectorAll(`[data-toggle-group="${paneGroup}"]`);
-    if (panesInGroup) {
-        panesInGroup.forEach((pane) => {
-            pane.classList.remove("active");
-            pane.classList.remove("show");
-        });
-    } else {
-        console.error(`switchPane(): No elements found for paneGroup ${paneGroup}`);
-    }
-    pane.classList.add("show");
-    pane.classList.add("active");
-    if (tab) {
-        tab.classList.add("active");
-    }
-}
-module.exports.switchPane = switchPane;
-
 class PathInfo {
     constructor(path) {
         //TODO: `cache` option to tell it to cache results of system calls.

@@ -5,6 +5,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 import BootstrapVue from "bootstrap-vue";
 
 import "~/assets/styles.scss";
+import "bootstrap";
 
 export default function (Vue, { router, head, isClient }) {
     head.script.push({

@@ -9,12 +9,11 @@
                 <a
                     :id="`${tab.id}-tab`"
                     :class="['nav-link', tab.active ? ' active' : '']"
-                    data-toggle-group="use-panes"
+                    :href="`#${tab.id}-pane`"
                     data-toggle="tab"
                     role="tab"
                     :aria-controls="`${tab.id}-pane`"
                     aria-selected="true"
-                    @click.prevent="switchPane(tab.id, 'use-panes')"
                 >
                     <strong>{{ tab.label }}</strong>
                 </a>
@@ -27,7 +26,6 @@
                 :key="`${tab.id}-pane`"
                 :id="`${tab.id}-pane`"
                 :class="['tab-pane', 'fade', 'show', tab.active ? 'active' : '']"
-                data-toggle-group="use-panes"
                 :aria-labelledby="`${tab.id}-tab`"
                 role="tabpanel"
             >

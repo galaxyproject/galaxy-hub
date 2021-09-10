@@ -9,12 +9,11 @@
                         <a
                             id="google-tab"
                             class="nav-link active"
+                            href="#google-pane"
                             data-toggle="tab"
-                            data-toggle-group="search-panes"
                             role="tab"
                             aria-controls="google-pane"
                             aria-selected="true"
-                            @click.prevent="switchPane('google', 'search-panes')"
                         >
                             Pan-Galactic Google Search
                         </a>
@@ -23,12 +22,11 @@
                         <a
                             id="zotero-tab"
                             class="nav-link"
+                            href="#zotero-pane"
                             data-toggle="tab"
-                            data-toggle-group="search-panes"
                             role="tab"
                             aria-controls="zotero-pane"
                             aria-selected="false"
-                            @click.prevent="switchPane('zotero', 'search-panes')"
                         >
                             Galaxy Publication Search
                         </a>
@@ -84,7 +82,6 @@
 </template>
 
 <script>
-import { switchPane } from "~/utils.js";
 import axios from "axios";
 export default {
     data() {
@@ -93,9 +90,6 @@ export default {
             zoteroResults: null,
             error: null,
         };
-    },
-    methods: {
-        switchPane,
     },
     mounted() {
         createGoogleSearch();
