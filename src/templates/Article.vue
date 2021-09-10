@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <ArticleHeader :article="$page.article" />
-        <div class="content markdown" v-html="$page.article.content" />
+        <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
         <ArticleFooter :article="$page.article" />
     </Layout>
 </template>
@@ -24,6 +24,7 @@ query Article ($path: String!) {
     source_blog_url
     skip_title_render
     redirect
+    autotoc
     links {
       url
       text
@@ -49,6 +50,17 @@ export default {
             title: this.$page.article.title,
         };
     },
+    computed: {
+        mdClasses() {
+            let classes = [];
+            if (this.$page.article.autotoc === true) {
+                classes.push("toc");
+            } else if (this.$page.article.autotoc === false) {
+                classes.push("notoc");
+            }
+            return classes;
+        }
+    }
 };
 </script>
 

@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <ArticleHeader :article="$page.article" />
-        <article class="content markdown">
+        <article :class="['content', 'markdown', ...mdClasses]">
             <VueRemarkContent>
                 <!--
                     Insert the content for each `<slot>` in the Markdown.
@@ -37,6 +37,7 @@ query VueArticle($path: String!) {
     source_blog_url
     skip_title_render
     redirect
+    autotoc
     links {
       url
       text
@@ -70,6 +71,17 @@ export default {
     methods: {
         mdToHtml,
     },
+    computed: {
+        mdClasses() {
+            let classes = [];
+            if (this.$page.article.autotoc === true) {
+                classes.push("toc");
+            } else if (this.$page.article.autotoc === false) {
+                classes.push("notoc");
+            }
+            return classes;
+        }
+    }
 };
 </script>
 

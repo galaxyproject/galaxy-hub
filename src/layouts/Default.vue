@@ -74,6 +74,12 @@ query {
     white-space: nowrap !important;
 }
 /***** Table of Contents *****/
+.markdown.notoc .toc-wrapper {
+    display: none;
+}
+.markdown.notoc .body-wrapper {
+    max-width: 100%;
+}
 .toc-wrapper {
     float: right;
 }
