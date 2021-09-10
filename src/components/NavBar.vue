@@ -16,9 +16,11 @@
                     <b-dropdown-item to="/events/">Events</b-dropdown-item>
                     <b-dropdown-item to="/news/">News</b-dropdown-item>
                     <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
+                    <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
                     <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
                     <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
-                    <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
+                    <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
+                    <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="Deploy &amp; Develop">
                     <b-dropdown-item to="/admin/get-galaxy/">Install Galaxy</b-dropdown-item>
