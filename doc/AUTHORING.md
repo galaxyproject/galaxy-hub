@@ -61,6 +61,10 @@ One issue you can run into with an HTML wrapper is that the Markdown inside will
 
 Another issue caused by Markdown getting wrapped in a `<p>` tag is that it becomes a block element. This means it ends up on its own line and can't be used in the middle of a line of text. Add `inline-p` to the wrapper to make it display inline instead.
 
+### `inline-div`
+
+In other situations, you could find yourself with a `<div>` inside your wrapper and it's messing up your layout. If making that `<div>` display inline would help, you can apply this class.
+
 ### `img-sizer`
 
 See [Resizing images](#resizing-images).

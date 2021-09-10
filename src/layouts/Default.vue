@@ -126,7 +126,7 @@ p.trim-p,
     padding: 0 !important;
     margin: 0;
 }
-.inline-p p {
+.inline-p p, .inline-div div {
     display: inline-block;
 }
 .expand-img img {
