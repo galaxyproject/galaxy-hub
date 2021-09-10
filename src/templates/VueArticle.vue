@@ -76,5 +76,6 @@ export default {
 <style scoped>
 .content {
     font-size: 14px;
+    margin-top: 20px;
 }
 </style>

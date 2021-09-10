@@ -44,6 +44,7 @@
         <p class="blogref" v-if="article.source_blog">
             From <a :href="article.source_blog_url">{{ article.source_blog }}</a>
         </p>
+        <div class="clearfix"></div>
     </header>
 </template>
 
