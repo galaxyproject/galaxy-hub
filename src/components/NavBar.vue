@@ -47,7 +47,21 @@
                         <span class="fa fa-search"></span>
                     </b-button>
                 </b-nav-form>
+                <b-nav-item :href="editUrl">
+                    <i class="fab fa-lg fa-github"></i>
+                    Edit
+                </b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
 </template>
+<script>
+export default {
+    computed: {
+        editUrl() {
+            // Bind this to article path?
+            return "https://github.com/galaxyproject/galaxy-hub/";
+        },
+    },
+};
+</script>
