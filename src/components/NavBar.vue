@@ -57,7 +57,7 @@
 </template>
 <script>
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
-const EDIT_URL = `${REPO_URL}tree/master/src/`;
+const EDIT_URL = `${REPO_URL}tree/master/content/`;
 export default {
     computed: {
         editUrl() {
