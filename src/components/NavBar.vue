@@ -56,11 +56,21 @@
     </b-navbar>
 </template>
 <script>
+const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
+const EDIT_URL = `${REPO_URL}tree/master/src/`;
 export default {
     computed: {
         editUrl() {
-            // Bind this to article path?
-            return "https://github.com/galaxyproject/galaxy-hub/";
+            // TODO: a more robust way to do this, this only works on
+            // article-based pages and we probably don't want a hacky mess of
+            // exceptions.  For now, just default to root (which has a README,
+            // etc., so is not unreasonable) for 'special' pages.
+            const articlePath = this?.$page?.article?.fileInfo?.path;
+            if (articlePath) {
+                return `${EDIT_URL}${articlePath.replace(/^build\//, "")}`;
+            } else {
+                return REPO_URL;
+            }
         },
     },
 };
