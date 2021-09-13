@@ -9,9 +9,14 @@ import BootstrapVue from "bootstrap-vue";
 export default function (Vue, { router, head, isClient }) {
     head.script.push({
         src: "//unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js",
+        async: false,
+        defer: false,
     });
     head.script.push({
         src: "//unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.min.js",
+        body: true,
+        async: false,
+        defer: false,
     });
     head.script.push({
         src: "https://sidecar.gitter.im/dist/sidecar.v1.js",
@@ -21,5 +26,5 @@ export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global component
     Vue.component("Layout", DefaultLayout);
     Vue.use(BootstrapVue);
-    Vue.config.ignoredElements = ['gcse:search', 'gcse:searchresults-only']
+    Vue.config.ignoredElements = ["gcse:search", "gcse:searchresults-only"];
 }
