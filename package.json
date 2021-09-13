@@ -20,7 +20,7 @@
     "jiti": "^1.12.0",
     "node-watch": "^0.7.1",
     "prettier": "^2.4.0",
-    "rehype-parse": "^7.0.1",
+    "rehype-parse": "^8.0.3",
     "remark": "^13.0.0",
     "remark-attr": "^0.11.1",
     "remark-frontmatter": "^3.0.0",
