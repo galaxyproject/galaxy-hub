@@ -115,6 +115,17 @@ module.exports = {
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
     plugins: mkPlugins(CONFIG["collections"]),
+
+    css: {
+        loaderOptions: {
+            scss: {
+                // options here will be passed to sass-loader
+                sassOptions: {
+                    quietDeps: true,
+                },
+            },
+        },
+    },
     transformers: {
         // Add markdown support to all filesystem sources
         remark: {
