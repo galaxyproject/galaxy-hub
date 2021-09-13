@@ -324,6 +324,11 @@ function getFilesShallow(dirPath, excludeExt = null) {
 }
 module.exports.getFilesShallow = getFilesShallow;
 
+function doRedirect(url) {
+    window.location.href = url;
+}
+module.exports.doRedirect = doRedirect;
+
 function describeObject(obj, indent = "", maxWidth = 100) {
     for (let [name, value] of Object.entries(obj)) {
         let type = typeof value;
@@ -348,6 +353,70 @@ function describeObject(obj, indent = "", maxWidth = 100) {
 }
 module.exports.describeObject = describeObject;
 
+const TO_STRING = {}.toString;
+/** A better alternative to `typeof`.
+ * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
+ * @param {*} value Any value, including `null` and `undefined`.
+ * @returns A string indicating the type of value passed:
+ *   undefined  "Undefined"
+ *   null       "Null"
+ *   1          "Number"
+ *   NaN        "Number" (sorry)
+ *   Infinity   "Number"
+ *   false      "Boolean"
+ *   'string'   "String"
+ *   []         "Array"
+ *   {}         "Object"
+ *   isNaN      "Function"
+ *   _ => {}    "Function"
+ *   new Date() "Date"
+ */
+function getType(value) {
+    let rawToString = TO_STRING.call(value);
+    let fields = rawToString.split(" ");
+    if (fields.length !== 2) {
+        console.error(repr`Wrong number of fields in toString: ${fields}`);
+        return null;
+    }
+    if (!endswith(fields[1], "]")) {
+        console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
+        return null;
+    }
+    return fields[1].slice(0, fields[1].length - 1);
+}
+module.exports.getType = getType;
+
+/** Search for an object key in an object, recursively.
+ * Descend into every value whose `getType()` is "Object" or "Array".
+ * @param {Object} obj       The object to search.
+ * @param {String} query     The key to search for.
+ * @param {Number} maxLevels The maximum number of levels to descend into the object. Default: 100.
+ *   This is mainly to prevent an infinite loop in the case of a self-reference.
+ * @returns The value of the key, if found. Otherwise, returns `undefined`.
+ */
+function findKey(obj, query, maxLevels = 100) {
+    if (maxLevels <= 0) {
+        return;
+    }
+    for (let [key, value] of Object.entries(obj)) {
+        if (key === query) {
+            return value;
+        } else {
+            if (getType(value) === "Object") {
+                return findKey(value, query, maxLevels - 1);
+            } else if (getType(value) === "Array") {
+                for (let item of value) {
+                    let result = findKey(item, query, maxLevels - 1);
+                    if (getType(result) !== "Undefined") {
+                        return result;
+                    }
+                }
+            }
+        }
+    }
+}
+module.exports.findKey = findKey;
+
 function logTree(root, depth, indent) {
     let idStr = "";
     if (root.id) {
@@ -367,11 +436,6 @@ function logTree(root, depth, indent) {
     }
 }
 module.exports.logTree = logTree;
-
-function doRedirect(url) {
-    window.location.href = url;
-}
-module.exports.doRedirect = doRedirect;
 
 class PathInfo {
     constructor(path) {
