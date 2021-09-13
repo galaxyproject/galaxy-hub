@@ -49,7 +49,31 @@
                         <span class="fa fa-search"></span>
                     </b-button>
                 </b-nav-form>
+                <b-nav-item :href="editUrl">
+                    <i class="fab fa-lg fa-github"></i>
+                    Edit
+                </b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
 </template>
+<script>
+const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
+const EDIT_URL = `${REPO_URL}tree/master/content/`;
+export default {
+    computed: {
+        editUrl() {
+            // TODO: a more robust way to do this, this only works on
+            // article-based pages and we probably don't want a hacky mess of
+            // exceptions.  For now, just default to root (which has a README,
+            // etc., so is not unreasonable) for 'special' pages.
+            const articlePath = this?.$page?.article?.fileInfo?.path;
+            if (articlePath) {
+                return `${EDIT_URL}${articlePath.replace(/^build\//, "")}`;
+            } else {
+                return REPO_URL;
+            }
+        },
+    },
+};
+</script>

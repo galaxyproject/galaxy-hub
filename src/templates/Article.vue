@@ -17,6 +17,9 @@ query Article ($path: String!) {
     days
     contact
     contact_url
+    fileInfo {
+        path
+    }
     authors
     location
     location_url
