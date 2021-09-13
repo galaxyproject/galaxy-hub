@@ -4,7 +4,7 @@
   "scripts": {
     "build": "src/build/run.mjs build",
     "develop": "src/build/run.mjs develop",
-    "format": "prettier --write '{*.js}' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "format": "prettier --write '*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "lint": "eslint src/**/*.{mjs,js,vue}"
   },
   "dependencies": {
