@@ -8,7 +8,9 @@ For a summary of the why and how, our poster from GCC2021 might help:
 
 ## Getting started
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+
+<sup>*</sup> <small>Do not use Yarn 2.</small>
 
 You can get the site running locally by first cloning this repo:  
 \- The `-b gridhub` tells it to check out the `gridhub` branch, where this prototype lives for now.

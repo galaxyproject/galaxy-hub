@@ -49,7 +49,7 @@ The UI / UX group focuses on the Galaxy user interface and experience.  We work 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/10)
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-ui-ux)
 * [Google Drive](https://drive.google.com/drive/folders/1L5XGq4dF9fn99TXhKXD3NKCmCoS_uQz6)
-* Leadership: Dannon Baker
+* Leadership: Dannon Baker, Aysam Guerler
 </div>
 
 
