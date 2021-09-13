@@ -177,7 +177,7 @@
 </template>
 
 <script>
-import { rmPrefix, rmSuffix, mdToHtml, contains, switchPane } from "~/utils.js";
+import { rmPrefix, rmSuffix, mdToHtml, contains } from "~/utils.js";
 const LINK_DISP_NAMES = {
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",
@@ -291,7 +291,6 @@ export default {
     },
     methods: {
         mdToHtml,
-        switchPane,
         platformsByGroup(group) {
             return this.platforms.filter((platform) => platformContainsGroup(platform, group));
         },
