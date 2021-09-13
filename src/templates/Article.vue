@@ -59,8 +59,8 @@ export default {
                 classes.push("notoc");
             }
             return classes;
-        }
-    }
+        },
+    },
 };
 </script>
 

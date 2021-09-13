@@ -334,7 +334,7 @@ function getChildrenByType(dirPath) {
 function fileRequiresVue(filePath) {
     let fileContents = fs.readFileSync(filePath, { encoding: "utf8" });
     let { data: metadata, content } = grayMatter(fileContents);
-    if (Object.prototype.hasOwnProperty.call(metadata, 'components')) {
+    if (Object.prototype.hasOwnProperty.call(metadata, "components")) {
         return !!metadata.components;
     }
     if (fileContainsTags(content, ["slot", "g-image"])) {
