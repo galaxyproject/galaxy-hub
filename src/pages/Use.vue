@@ -142,11 +142,7 @@
                         </a>
                     </template>
                     <template #cell(deployable)="data">
-                        <a
-                            v-for="link of getLinks(data.item, ['container', 'vm'])"
-                            :key="link.text"
-                            :href="link.url"
-                        >
+                        <a v-for="link of getLinks(data.item, ['container', 'vm'])" :key="link.text" :href="link.url">
                             {{ link.text }}
                         </a>
                     </template>
