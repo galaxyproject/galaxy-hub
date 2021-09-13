@@ -28,6 +28,7 @@
     "remark-html": "^13.0.1",
     "remark-parse": "^9.0.0",
     "remark-toc": "^8.0.0",
+    "sass": "^1.39.2",
     "sharp": "^0.28.3",
     "unified": "^10.1.0",
     "unified-args": "^9.0.2",
@@ -37,7 +38,6 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.17.0",
-    "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1"
   },
   "prettier": {
