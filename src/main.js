@@ -21,4 +21,5 @@ export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global component
     Vue.component("Layout", DefaultLayout);
     Vue.use(BootstrapVue);
+    Vue.config.ignoredElements = ['gcse:search', 'gcse:searchresults-only']
 }
