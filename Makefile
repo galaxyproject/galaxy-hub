@@ -33,7 +33,4 @@ docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
 docker-build: docker-npm-deps ## [Docker] Single endpoint for docker install
 	$(DOCKER) $(BUILD_IMAGE) npm run build
 
-gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
-	$(DOCKER) dannon/gitlfs git lfs pull
-
-.PHONY: gitlfs-pull docker-build docker-npm-deps check watch serve build
+.PHONY: docker-build docker-npm-deps check watch serve build
