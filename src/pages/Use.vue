@@ -3,32 +3,9 @@
         <!-- Page name and description. -->
         <h1 class="page-title">{{ inserts.main.title }}</h1>
         <div class="markdown" v-html="inserts.main.content"></div>
-        <!-- Tabs for switching between panes (tables). -->
-        <ul id="resource-tabs" class="nav nav-tabs nav-fill" role="tablist">
-            <li v-for="tab in tabs" :key="`${tab.id}-tab`" class="nav-item">
-                <a
-                    :id="`${tab.id}-tab`"
-                    :class="['nav-link', tab.active ? ' active' : '']"
-                    :href="`#${tab.id}-pane`"
-                    data-toggle="tab"
-                    role="tab"
-                    :aria-controls="`${tab.id}-pane`"
-                    aria-selected="true"
-                >
-                    <strong>{{ tab.label }}</strong>
-                </a>
-            </li>
-        </ul>
-        <!-- Panes (each containing a table). -->
-        <div id="resource-tabs-content" class="tab-content">
-            <div
-                v-for="tab in tabs"
-                :key="`${tab.id}-pane`"
-                :id="`${tab.id}-pane`"
-                :class="['tab-pane', 'fade', 'show', tab.active ? 'active' : '']"
-                :aria-labelledby="`${tab.id}-tab`"
-                role="tabpanel"
-            >
+
+        <b-tabs nav-class="font-weight-bold">
+            <b-tab v-for="tab in tabs" :key="tab.id" :title="tab.label">
                 <!-- Table name. -->
                 <h2 :id="tabs.anchor || tabs.id" class="nav-item">
                     <template v-if="inserts[`tab-${tab.id}`]">
@@ -142,11 +119,7 @@
                         </a>
                     </template>
                     <template #cell(deployable)="data">
-                        <a
-                            v-for="link of getLinks(data.item, ['container', 'vm'])"
-                            :key="link.text"
-                            :href="link.url"
-                        >
+                        <a v-for="link of getLinks(data.item, ['container', 'vm'])" :key="link.text" :href="link.url">
                             {{ link.text }}
                         </a>
                     </template>
@@ -168,8 +141,9 @@
                     v-if="inserts[`tab-${tab.id}-footer`]"
                     v-html="inserts[`tab-${tab.id}-footer`].content"
                 ></p>
-            </div>
-        </div>
+            </b-tab>
+        </b-tabs>
+
         <hr />
         <!-- Footer. -->
         <footer class="page-footer markdown" v-if="inserts.footer" v-html="inserts.footer.content"></footer>

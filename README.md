@@ -1,21 +1,32 @@
-# The New Galaxy Community Hub
+# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
 
-This is a prototype of the replacement for the current community hub at [galaxyproject.org](https://galaxyproject.org). To experience it right now, visit [preview.galaxyproject.org](https://preview.galaxyproject.org).
+Source for the [Galaxy Hub Website
+(galaxyproject.org)](https://galaxyproject.org/).  The Galaxy Hub is the
+community and documentation hub for the Galaxy Project.  It is maintained by
+the community through this GitHub repository.
 
-For a summary of the why and how, our poster from GCC2021 might help:
+## About the Galaxy Project.
 
-![Poster summary of the new hub](doc/poster.svg)
+We could describe it here, but really, see the web site that is generated from
+this repository: [galaxyproject.org](https://galaxyproject.org).  That will
+save a lot of typing.
+
+## Should I access the Galaxy Hub website through GitHub or  galaxyproject.org?
+
+The only reason to navigate through the GitHub is if you are making updates to
+the web site, and for that you will find instructions below.  If you just want to
+read and explore the web site, then you should absolutely do that through
+[galaxyproject.org](https://galaxyproject.org).
 
 ## Getting started
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
+First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).  If you prefer the [Makefile](Makefile) targets (like `make watch`) those will also work and handle dependency management for you.
 
 <sup>*</sup> <small>Do not use Yarn 2.</small>
 
 You can get the site running locally by first cloning this repo:  
-\- The `-b gridhub` tells it to check out the `gridhub` branch, where this prototype lives for now.
 ```sh
-$ git clone -b gridhub 'https://github.com/galaxyproject/galaxy-hub.git'
+$ git clone 'https://github.com/galaxyproject/galaxy-hub.git'
 ```
 
 Then install the dependencies:
@@ -29,7 +40,7 @@ Then you can build the site in development mode to run it in a local server (at 
 $ yarn develop
 ```
 This command includes a hot reloader which will update the site automatically each time you edit a file.  
-Note: There's a [known issue](https://github.com/galaxyproject/galaxy-hub/issues/748) that can occur when you're renaming/moving/deleting directories or image files. If you're finding the development server crashes too often, try adding the arguments `--resource copy` to the `yarn develop` command. This fixes the issue, at the cost of a far larger build directory (because all images are copied to it instead of linked).
+Note: There's a [minor known issue](https://github.com/galaxyproject/galaxy-hub/issues/748) that can occur when you're renaming/moving/deleting directories or image files. If you're finding the development server crashes too often, try adding the arguments `--resource copy` to the `yarn develop` command. This fixes the issue, at the cost of a far larger build directory (because all images are copied to it instead of linked).
 
 To generate the static files for the entire site, just run `build` instead:
 ```sh
