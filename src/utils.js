@@ -182,7 +182,7 @@ function mdToHtml(md) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     let rawHtml;
     remark()
-        .use(remarkHtml)
+        .use(remarkHtml, { sanitize: false })
         .process(md, (err, file) => {
             if (err) {
                 console.error(err);
@@ -190,8 +190,6 @@ function mdToHtml(md) {
                 rawHtml = String(file);
             }
         });
-    // Real dumb, but works.
-    rawHtml = rawHtml.trim() || md;
     return rmPrefix(rmSuffix(rawHtml.trim(), "</p>"), "<p>");
 }
 module.exports.mdToHtml = mdToHtml;
