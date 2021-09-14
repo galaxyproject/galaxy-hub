@@ -190,6 +190,8 @@ function mdToHtml(md) {
                 rawHtml = String(file);
             }
         });
+    // Real dumb, but works.
+    rawHtml = rawHtml.trim() || md;
     return rmPrefix(rmSuffix(rawHtml.trim(), "</p>"), "<p>");
 }
 module.exports.mdToHtml = mdToHtml;
