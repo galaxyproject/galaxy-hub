@@ -10,7 +10,7 @@
                     `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
                 -->
                 <template v-for="insert of $page.article.inserts" #[insert.name]>
-                    <p class="markdown" :key="insert.name + ':md'" v-html="mdToHtml(insert.content)" />
+                    <p class="markdown" :key="insert.name + ':md'" v-html="insert.content" />
                     <p class="d-none" :key="insert.name + ':p'">Issue #758 workaround</p>
                 </template>
             </VueRemarkContent>
@@ -57,7 +57,6 @@ query VueArticle($path: String!) {
 <script>
 import ArticleHeader from "@/components/ArticleHeader";
 import ArticleFooter from "@/components/ArticleFooter";
-import { mdToHtml } from "~/utils.js";
 export default {
     components: {
         ArticleHeader,
@@ -67,9 +66,6 @@ export default {
         return {
             title: this.$page.article.title,
         };
-    },
-    methods: {
-        mdToHtml,
     },
     computed: {
         mdClasses() {
