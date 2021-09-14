@@ -1,6 +1,6 @@
 ---
 title: "Metabolomics Community Call"
-date: '2021-11-11'
+date: '2021-11-25'
 days: 1
 tease: "Recent developments and future plans in the Galaxy Metabolomics community"
 continent: EU
@@ -18,7 +18,7 @@ image: "/images/communities/metabolomics.png"
 
 **Zoom Link**
 
-This Galaxy Metabolomics Community call will be held aa November at 14:00 CET.
+This Galaxy Metabolomics Community call will be held 25 November at 14:00 CET.
 
 Please join us.
 
