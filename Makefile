@@ -15,7 +15,7 @@ help:
 	@echo "There are no default actions for this Makefile, you must choose an option from the following:"
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-build: yarn-deps ## Builds into /build, suitable for copying to webserver.
+build: yarn-deps ## Builds into /dist/, suitable for copying to webserver.
 	yarn run build
 
 serve: yarn-deps ## Serve locally for viewing
