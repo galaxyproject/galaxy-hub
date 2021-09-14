@@ -1,0 +1,32 @@
+{
+    "contentDir": "content",
+    "collections": {
+        "Platform": "/use/"
+    },
+    "locale": "en-US",
+    "categories": {
+        "/blog": "blog",
+        "/events": "events",
+        "/news": "news",
+        "/careers": "careers"
+    },
+    "build": {
+        "dirs": {
+            "md": "build/content-md",
+            "vue": "build/content-vue"
+        }
+    },
+    "redirects": {
+        "/events/gtn.html": "/events/gtn/",
+        "/admin/internals/galaxy-ops/Help Info.html": "/admin/internals/galaxy-ops/help-info/",
+        "/admin/internals/galaxy-ops/Python.html": "/admin/internals/galaxy-ops/python/",
+        "/admin/internals/galaxy-ops/C.html": "/admin/internals/galaxy-ops/c/",
+        "/blog/2017-10-16-UnicyclerTutorial/": "/blog/2017-10-16-unicycler-tutorial/",
+        "/cloudman/CustomizeGalaxyCloud.html": "/cloudman/customize-galaxy-cloud/",
+        "/tutorials/nt_rnaseq/": "/tutorials/nt-rnaseq/",
+        "/tutorials/pt_gfam/": "/tutorials/pt-gfam/",
+        "/tutorials/rb_rnaseq/": "/tutorials/rb-rnaseq/",
+        "/tutorials/var_dip/": "/tutorials/var-dip/",
+        "/tutorials/var_hap/": "/tutorials/var-hap/"
+    }
+}

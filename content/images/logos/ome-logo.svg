@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 3568 896" style="enable-background:new 0 0 3568 896;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DF283F;}
+	.st1{fill:#1C4A87;}
+	.st2{fill:#128669;}
+	.st3{fill:#1D8DCD;}
+	.st4{display:none;}
+	.st5{display:inline;fill:#E6E6E6;}
+</style>
+<g id="logo_-_color">
+	<g>
+		<g>
+			<circle class="st0" cx="128" cy="448" r="128"/>
+			<circle class="st1" cx="896" cy="448" r="128"/>
+			<circle class="st2" cx="704" cy="128" r="128"/>
+			<circle class="st1" cx="320" cy="128" r="128"/>
+			<circle class="st3" cx="704" cy="768" r="128"/>
+			<circle class="st1" cx="320" cy="768" r="128"/>
+		</g>
+		<g>
+			<path class="st0" d="M1880.8,202.9c-67.1-65.5-150.1-98.3-248.9-98.3s-181.8,32.8-248.9,98.3S1282.3,350.1,1282.3,448     c0,97.8,33.6,179.5,100.7,245.1s150.1,98.3,248.9,98.3s181.8-32.8,248.9-98.3c67.1-65.6,100.7-147.2,100.7-245.1     S1947.9,268.4,1880.8,202.9z M1866.6,448c0,66.8-22.7,123.7-67.9,170.5c-45.3,46.9-100.9,70.3-166.7,70.3     c-65.9,0-121.5-23.4-166.7-70.3c-45.3-46.9-67.9-103.7-67.9-170.5s22.6-123.6,67.9-170.5s100.8-70.3,166.7-70.3     c65.9,0,121.4,23.4,166.7,70.3C1843.9,324.3,1866.6,381.1,1866.6,448z"/>
+			<polygon class="st2" points="2707.3,127.3 2506.8,544.4 2306.4,127.3 2132,127.3 2132,791.3 2244,791.3 2244,272.7 2474.5,733.3      2537.2,733.3 2769,272.7 2769,791.3 2881,791.3 2881,127.3    "/>
+			<polygon class="st3" points="3202,685.3 3202,508.3 3520,508.3 3520,408.3 3202,408.3 3202,232.3 3557,232.3 3557,127.3      3090,127.3 3090,791.3 3568,791.3 3568,685.3    "/>
+		</g>
+	</g>
+</g>
+<g id="spacing_guides" class="st4">
+	<circle class="st5" cx="320" cy="-127.7" r="128"/>
+	<circle class="st5" cx="-128" cy="448.3" r="128"/>
+	<circle class="st5" cx="1154" cy="448.3" r="128"/>
+	<circle class="st5" cx="3696" cy="459.3" r="128"/>
+	<circle class="st5" cx="-128" cy="1023.3" r="128"/>
+</g>
+</svg>

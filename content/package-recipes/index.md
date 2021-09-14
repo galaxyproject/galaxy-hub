@@ -1,0 +1,3 @@
+---
+redirect: "/toolshed/package-recipes/"
+---

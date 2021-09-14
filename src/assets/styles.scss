@@ -1,0 +1,514 @@
+@import "variables.scss";
+/* hub-specific overrides to variables */
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 300;
+
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 0.875rem;
+$line-height-base: 1.6;
+$headings-line-height: 1.6;
+
+$h1-font-size: $font-size-base * 2; // default 2.5
+$h2-font-size: $font-size-base * 1.75; // default 2
+$h3-font-size: $font-size-base * 1.5; // default 1.75
+$h4-font-size: $font-size-base * 1.25; // default 1.5
+$h5-font-size: $font-size-base; // default 1.25
+$h6-font-size: $font-size-base * 0.85; // default 1
+$blockquote-font-size: $font-size-base;
+
+$brand-primary: #336699;
+$headings-small-color: inherit;
+
+$body-bg: white;
+$navbar-default-bg: rgb(255, 255, 255);
+$navbar-default-border: none;
+
+$navbar-inverse-bg: rgb(44, 49, 67);
+
+$grid-float-breakpoint: 1000px;
+
+// splashpage carousel styling
+$jumbotron-bg: white;
+$carousel-indicator-border-color: gray;
+$carousel-indicator-active-bg: $navbar-inverse-bg;
+$carousel-control-width: 5%;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+//@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+@import "overrides.scss";
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.gitter-chat-embed,
+.gitter-open-chat-button {
+    /* This is used for the gitter chat box */
+    z-index: 1500 !important;
+}
+
+.container-fluid {
+    max-width: 1200px;
+}
+
+.table {
+    margin-top: 1.5rem;
+}
+
+.navbar-static-bottom {
+    @extend .fixed-bottom;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+#maincontainer {
+    background: white;
+    padding-top: 15px;
+    a:not(.btn) {
+        color: #2882dc;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    code {
+        color: black;
+        background-color: #f5f5f5;
+    }
+    pre {
+        border: none;
+    }
+}
+
+#sidebar {
+    line-height: 140%;
+    a {
+        padding: 3px 15px;
+    }
+    & > ul > li > a {
+        font-weight: bold;
+    }
+    & > ul ul > li > a {
+        padding-left: 30px;
+    }
+    & > ul ul ul > li > a {
+        padding-left: 45px;
+    }
+    & > ul ul ul ul > li > a {
+        padding-left: 60px;
+    }
+}
+
+#edit_page {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    a,
+    a:visited {
+        color: white;
+    }
+}
+
+.section-content {
+    width: 100%;
+    padding-bottom: 24px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+div.post {
+    margin-bottom: 1em;
+}
+
+footer {
+    font-size: 85%;
+}
+
+// Masthead
+#masthead {
+    background-color: $base-color-1;
+}
+
+/* Custom CSS for Galaxy wiki doc
+   Most of this was initially copied from old wiki
+   https://moin.galaxyproject.org/moin_static198/mandaring/style.custom.css
+
+   Classes should probably stay the same.
+   Setting for classes can change quite a bit.
+*/
+
+/* override bootstrap blockquote styling */
+
+.blockquote {
+    border-left: 1rem solid #f5f5f5; // same as code
+    padding-left: 1rem;
+}
+
+/* override bootstrap float-left and float-right styling */
+
+.float-right {
+    margin: 0em 0em 1em 1em;
+}
+
+.float-left {
+    margin: 0em 1em 1em 0em;
+}
+
+/* Redefine HR; Default HR is quite subtle. */
+hr {
+    background-color: #405080;
+    height: 2px;
+    border-radius: 1px;
+    margin: 0.6em 0em;
+}
+
+/* Card overrides */
+
+div.card-deck {
+    margin-bottom: 2rem;
+    padding-left: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+div.card {
+    line-height: 1.2;
+}
+
+div.card-deck .card {
+    margin: 0.75rem 0.75rem 0 0;
+}
+
+div.card p {
+    padding: 0.75rem 1.25rem 0rem 1.25rem;
+}
+
+div.card p + p,
+div.card ul + p {
+    padding: 0.3rem 1.25rem 0rem 1.25rem;
+}
+
+div.card ul li {
+    padding-right: 1.25rem;
+}
+
+card-img-top {
+    margin: 0rem 0rem 0.75rem 0rem;
+}
+
+.card-header {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+/* Video: as wide as container. */
+.video-variable {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video-variable iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Bold in Lead is hard to notice. Fix that. */
+
+.lead strong {
+    font-weight: 600;
+}
+
+/* 
+   Button overrides; 
+
+   more space between buttons on multiple consecutive lines 
+   overall line-height is unchanged.
+*/
+
+.btn {
+    margin-top: 0.075rem;
+    margin-bottom: 0.075rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+/* *******
+   Leftovers from MoinMoin.  Only used these because they were already in Moin.
+ * *******/
+
+.red {
+    background: #fcc;
+}
+.green {
+    background: #cfc;
+}
+.blue {
+    background: #ccf;
+}
+
+div.solid,
+div.dashed,
+div.dotted {
+    border: 2px solid #000;
+    padding: 0.5em;
+}
+div.solid {
+    border-style: solid;
+}
+div.dashed {
+    border-style: dashed;
+}
+div.dotted {
+    border-style: dotted;
+}
+div.light {
+    border-width: 1px;
+    border-color: gray;
+}
+
+/* *******
+   Custom styles for this site.
+ * *******/
+
+/* right justified items */
+div.right {
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+}
+
+/* right justified items */
+div.left {
+    float: left;
+    margin: 0 1.5em 1em 0;
+}
+
+div.indent {
+    margin-left: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Link Boxes are like infobox's at wikipedia.  They are a list of links, in a box. */
+div.linkbox {
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
+    border: 1px solid #ddd;
+    background-color: #dfe5f9;
+    font-size: 90%;
+    text-align: center;
+}
+
+div.linkbox hr {
+    padding: 0;
+    margin: 0 0 0 0;
+    color: #bbb;
+    border: 1px solid #ddd;
+    background-color: #bbb;
+    border-color: #bbb;
+    text-align: center;
+}
+
+div.linkbox-horizontal {
+    margin-bottom: 15px;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    color: #ddd;
+    background-color: #efeff9;
+    text-align: center;
+}
+
+div.linkbox p {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+div.linkbox a:link {
+}
+
+div.linkbox a:visited {
+}
+
+/* CSS for News Items */
+div.newsItemHeader,
+div.noteItemHeader {
+    font-size: 140%;
+    margin-bottom: 1em;
+}
+div.newsItemHeader a,
+div.noteItemHeader a {
+    color: #273040;
+}
+div.newsItemFooter,
+div.noteItemFooter {
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Used on News page */
+div.newsItemList div.newsItemHeader,
+div.noteItemList div.noteItemHeader {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    padding: 0.5em;
+    margin: 1em 0 0.7em 0;
+}
+
+/* CSS for Deployment pages */
+div.dictbox,
+div.deploymentbox,
+div.logbox {
+    background-color: #36c;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
+    border: 1px solid gray;
+    color: white;
+    font-size: 90%;
+    width: 25%;
+    line-height: 110%;
+}
+
+div.dictbox dt,
+div.deploymentbox dt,
+div.logbox dt {
+    margin-bottom: 0.2em;
+}
+div.dictbox dd,
+div.deploymentbox dd,
+div.logbox dd {
+    margin-left: 1em;
+}
+
+div.dictbox p,
+div.deploymentbox p,
+div.logbox p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.dictbox a:link,
+div.dictbox a:visited,
+div.deploymentbox a:link,
+div.deploymentbox a:visited,
+div.logbox a:link,
+div.logbox a:visited {
+    color: #ccc;
+}
+
+div.linkbox a:visited {
+    color: #ddd;
+}
+
+#splash-box {
+    .carousel-item,
+    .carousel-inner {
+        height: 420px;
+    }
+    .carousel-control.left,
+    .carousel-control.right {
+        background-image: none;
+    }
+}
+.carousel .carousel-control {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control {
+    visibility: visible;
+}
+
+h1.pageTitle {
+    margin-top: 0px;
+}
+
+/* headingsidentifier */
+.heading-anchor {
+    display: block;
+    padding-right: 6px;
+    padding-left: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0;
+    left: 0;
+    text-decoration: none;
+    height: 100%;
+    background: transparent;
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 0.5rem;
+}
+h1:hover .heading-anchor span:before,
+h2:hover .heading-anchor span:before,
+h3:hover .heading-anchor span:before,
+h4:hover .heading-anchor span:before,
+h5:hover .heading-anchor span:before,
+h6:hover .heading-anchor span:before {
+    content: fa-content($fa-var-link);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    font-size: 14px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+h1:hover .heading-anchor span:before {
+    top: 8px;
+}
+h4:hover .heading-anchor span:before,
+h5:hover .heading-anchor span:before,
+h6:hover .heading-anchor span:before {
+    font-size: 12px;
+}
+
+.twocol {
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.bg-wg-primary {
+    background-color: #6286a6 !important;
+}
+
+.bg-wg-goats {
+    background-color: #61ad90 !important;
+}
+
+.bg-wg-applied {
+    background-color: #8886b3 !important;
+}
+
+.bg-wg-all {
+    background-color: #d87e55 !important;
+}

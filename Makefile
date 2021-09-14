@@ -19,21 +19,18 @@ build: npm-deps ## Builds into /build, suitable for copying to webserver.
 	npm run build
 
 serve: npm-deps ## Serve locally for viewing
-	npm run serve
+	npm run develop
 
 watch: npm-deps ## Watches/serves locally.  Useful for local development.
-	npm run watch
+	npm run develop
 
 check: npm-deps ## Check for broken links
 	npm run check
 
 docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
-	$(DOCKER_NOUSER) $(BUILD_IMAGE) /bin/bash -c "yarn install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
+	$(DOCKER_NOUSER) $(BUILD_IMAGE) /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
 
 docker-build: docker-npm-deps ## [Docker] Single endpoint for docker install
-	$(DOCKER) $(BUILD_IMAGE) yarn run build
+	$(DOCKER) $(BUILD_IMAGE) npm run build
 
-gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
-	$(DOCKER) dannon/gitlfs git lfs pull
-
-.PHONY: gitlfs-pull docker-build docker-npm-deps check watch serve build
+.PHONY: docker-build docker-npm-deps check watch serve build
