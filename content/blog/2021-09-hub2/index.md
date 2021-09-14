@@ -1,12 +1,11 @@
 ---
 title: "The New Galaxy Community Hub"
-date: "2021-09-10"
+date: "2021-09-14"
 authors: "Nick Stoler, Dannon Baker"
 components: false
-draft: true
 ---
 
-You may not have noticed, but things have changed a lot around here! Today we are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the site you're reading right now.
+You may not have noticed, but things have changed a lot around here! Today we are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now.
 
 Under the hood, the biggest change is that we've moved from the [Metalsmith](https://metalsmith.io/) static site generator to [Gridsome](https://gridsome.org/). Gridsome is also a static site generator, but an advanced one built on [Vue](https://vuejs.org/) and focused on a fast browsing experience and the ability to pull content from anywhere.
 
@@ -90,7 +89,7 @@ The benefit is that the Markdown we write in the future will be portable to any 
 
 ### Bug reporting
 
-The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [gitter](https://gitter.im/galaxyproject/hub2), [Github](https://github.com/galaxyproject/galaxy-hub/issues), or [email](mailto:galaxy-bugs@galaxyproject.org).
+The new Hub features all the major functionality of the old one. But there are some minor features still being added and some rough corners here and there. So if you notice something broken, don't be too surprised, but *do* let us know on [Github](https://github.com/galaxyproject/galaxy-hub/issues), [gitter](https://gitter.im/galaxyproject/hub2),  or [email](mailto:outreach@galaxyproject.org?subject=Community%20Hub%20issue).
 
 ## Extensibility
 
