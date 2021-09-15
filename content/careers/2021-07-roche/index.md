@@ -1,7 +1,7 @@
 ---
 title: "Senior Scientist, Bioinformatics"
 date: '2021-07-01'
-closes: ""
+closes: "2021-09-10"
 summary: "research and development of qPCR tests for cobas® x800, cobas® Liat®, and digital PCR. Deploy these tools on Roche intranet (Galaxy) and train scientists to use them."
 continent: NA
 location: "Roche, Bay Area, California, United States"
