@@ -269,12 +269,11 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 
 </div>
 
-**23 October, Online**
+**23 September, Online**
 
 microGalaxy is a [new community focusing on microbial analysis with Galaxy](https://docs.google.com/document/d/1btaPVcrE9Hr6gLQUsqdxHKX9IvtWaWINkLZ3_NcOhe8/edit). The second meeting of microGalaxy will happen on [September 23rd at 2 pm CEST](https://arewemeetingyet.com/Berlin/2021-09-23/14:00/microGalaxy) and will last for 2 hours. The topic will be “Citizen-led science and education”, with 2 talks and discussions around and beyond this topic. Anyone interested is welcome to join: details will be added to the [meeting minutes](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit).
 
 </div>
-
 
 
 <!-- Galaxy Dev Round Table -->
@@ -293,8 +292,26 @@ Galaxy Developer Round Table meetups in September are:
 **[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
 
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
+</div>
+
+<!-- covid workshop -->
+<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+
+![microGalaxy](covid.png)
+
+<div class="card-header">
+
+[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
 
 </div>
+
+**20 October, Online**
+
+Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+ Registration will open soon, stay tuned!
+
+</div>
+
 
 </div>
 
