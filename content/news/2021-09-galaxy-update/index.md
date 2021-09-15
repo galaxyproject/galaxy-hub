@@ -531,14 +531,13 @@ The standalone version of the language server is available as a [PyPI package](h
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="https://github.com/galaxyproject/galaxy-language-server#extract-macro">
+<a href="https://github.com/galaxyproject/galaxy-language-server/blob/assets/feature.extract.macro.gif">
 
-![GLS](gls-improve-macros-support.gif)
+![GLS](gls-feature-extract-macro.gif)
 
 </a>
 
 </div>
-
 </div>
 
 
