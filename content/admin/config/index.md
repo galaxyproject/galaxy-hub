@@ -29,6 +29,6 @@ title: Galaxy Configuration for Admins
 
 ## Other
 
-* [User Information (Collecting information during registration)](/src/admin/config/User Information/index.md)
+* [User Information (Collecting information during registration)](/src/admin/config/user-information/index.md)
 * [Running on Windows](/src/admin/config/windows/index.md)
 * [Access Control (ACLs)](/src/admin/config/access-control/index.md)
