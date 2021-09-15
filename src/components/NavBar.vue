@@ -67,9 +67,11 @@ export default {
             // article-based pages and we probably don't want a hacky mess of
             // exceptions.  For now, just default to root (which has a README,
             // etc., so is not unreasonable) for 'special' pages.
-            const articlePath = this?.$page?.article?.fileInfo?.path;
+            let articlePath = this?.$page?.article?.fileInfo?.path;
             if (articlePath) {
-                return `${EDIT_URL}${articlePath.replace(/^build\//, "")}`;
+                articlePath = articlePath.replace(/^build\//, "");
+                articlePath = articlePath.replace(/^content-md\//, "");
+                return `${EDIT_URL}${articlePath}`;
             } else {
                 return REPO_URL;
             }
