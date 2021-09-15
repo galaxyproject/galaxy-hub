@@ -297,7 +297,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 </div>
 
-The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics.  It is supported by the Zhang Lab](https://medfaculty.slu.edu/details/1581/jinsong-zhang) at The [Department of Pharmacology and Physiology](https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/index.php), [Saint Louis University School of Medicine](https://www.slu.edu/medicine/index.php).
+The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics. It is supported by the [Zhang Lab](https://medfaculty.slu.edu/details/1581/jinsong-zhang) at the [Department of Pharmacology and Physiology](https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/index.php), [Saint Louis University School of Medicine](https://www.slu.edu/medicine/index.php).
 
 </div>
 
