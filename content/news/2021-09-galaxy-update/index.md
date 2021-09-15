@@ -518,7 +518,7 @@ Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D.
 <div class="card-deck"> 
 
 <!-- GLS -->
-<div class="card border-info" style="min-width: 20%; max-width: 25%;">
+<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
 
 [Galaxy Language Server 0.6.0](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.0)
@@ -531,7 +531,11 @@ The standalone version of the language server is available as a [PyPI package](h
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="galaxy_language_server.gif"><img class="card-img-bottom" src="gls-feature.expanded.macros.gif" alt="Galaxy Language Server" /></a>
+<a href="https://github.com/galaxyproject/galaxy-language-server#extract-macro">
+
+![GLS](gls-improve-macros-support.gif)
+
+</a>
 
 </div>
 
