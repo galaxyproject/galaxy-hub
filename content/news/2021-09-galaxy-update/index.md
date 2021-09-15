@@ -207,7 +207,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 </div>
 
-**Registration closes 17 September.**
+**Registration closes 17 September**
 
 Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
@@ -274,6 +274,7 @@ Galaxy Developer Round Table meetups in September areare:
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 
 </div>
+
 </div>
 
 
@@ -396,7 +397,7 @@ Researchers in all career stages (PhD students, senior researchers…) and diffe
 </div>
 
 
-<!-- TIaaS flyer - Dave, feel free to remove -->
+<!-- TIaaS flyer -->
 <div class="card border-info" style="min-width: 45%; max-width: 24rem;">
 
 <a href="https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/"><img class="card-img-top" src="TIaaS-flyer.png" alt="TIaaS - flyer" style="width: 100%; display: block; margin: 0 auto;" /></a>
@@ -511,6 +512,35 @@ Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D.
 
 
 </div>
+
+# Releases
+
+<div class="card-deck"> 
+
+<!-- GLS -->
+<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Galaxy Language Server 0.6.0](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.0)
+
+</div>
+
+This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
+
+The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
+
+The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
+
+<a href="https://github.com/galaxyproject/galaxy-language-server#extract-macro">
+
+![GLS](gls-improve-macros-support.gif)
+
+</a>
+
+</div>
+
+</div>
+
 
 
 
