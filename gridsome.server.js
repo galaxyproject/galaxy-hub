@@ -266,19 +266,31 @@ module.exports = function (api) {
           }`);
     })
 
+    api.configureServer(async (app) => {
+        // Serve /use/feed.json from develop server.
+        app.get("/use/feed.json", (request, response) => {
+            response.set("Content-Type", "application/json");
+            response.send(makePlatformsJson(platformsData));
+        });
+    });
+
     api.afterBuild(async () => {
         // Write all Platforms to /use/feed.json.
-        let platforms = platformsData.data.platforms.edges.map(edge => {
-            // Massage fields a little for backward compatibility.
-            let node = edge.node;
-            node.link = rmSuffix(node.path, "/");
-            node.path = path.join(rmPrefix(node.path, "/"), "index.md");
-            return node;
-        });
         let outDir = path.join(__dirname, "dist", "use");
         fs.mkdirSync(outDir, { recursive: true });
         let feedPath = path.join(outDir, "feed.json");
-        fs.writeFile(feedPath, JSON.stringify(platforms, null, '  '), error => {if (error) throw error});
+        fs.writeFile(feedPath, makePlatformsJson(platformsData), error => {if (error) throw error});
     });
 
 };
+
+function makePlatformsJson(platformsData) {
+    let platforms = platformsData.data.platforms.edges.map(edge => {
+        // Massage fields a little for backward compatibility.
+        let node = edge.node;
+        node.link = rmSuffix(node.path, "/");
+        node.path = path.join(rmPrefix(node.path, "/"), "index.md");
+        return node;
+    });
+    return JSON.stringify(platforms, null, '  ');
+}
