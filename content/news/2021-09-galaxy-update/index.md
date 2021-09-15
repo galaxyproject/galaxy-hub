@@ -267,7 +267,7 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 
 </div>
 
-Galaxy Developer Round Table meetups in September areare:
+Galaxy Developer Round Table meetups in September are:
 
 **[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
 
