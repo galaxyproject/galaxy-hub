@@ -207,7 +207,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 </div>
 
-**Registration closes 17 September.**
+**Registration closes 17 September**
 
 Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
@@ -274,6 +274,7 @@ Galaxy Developer Round Table meetups in September areare:
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 
 </div>
+
 </div>
 
 
