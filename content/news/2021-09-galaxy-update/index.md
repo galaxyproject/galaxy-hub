@@ -2,13 +2,14 @@
 title: 'September 2021 Galactic News'
 tease: ""
 date: ""
+draft: true
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
-The August newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[training and doc updates](#doc-hub-and-training-updates)**;
+The September newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[training and doc updates](#doc-hub-and-training-updates)**;
 recent **[open-access Galaxy-related publications](#publications)**; and **[other news too](#other-news).**
 
 Dave Clements and Beatriz Serrano-Solano, Editors
@@ -16,48 +17,6 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
 ---
-
-# Featured news
-
-
-<div class="card-deck lead">
-
-
-<!-- GCC2022 -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 50%;">
-
-![GCC2022 image]()
-
-<div class="card-header">
-
-[GCC2022]()
-
-</div>
-
-[GCC2022]()
-
-</div>
-
-
-<!-- GCC2022 -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 50%;">
-
-<div class="card-header">
-
-
-Hub2 
-
-</div>
-
-Text 
-
-</div>
-
-
-
-</div>
-
-
 
 # Community News
 
@@ -93,7 +52,7 @@ Scientists from all over the world are using [UseGalaxy.eu](https://usegalaxy.eu
 
 
 <!-- GGSC Misconceptions -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 35%;">
+<div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
 
 ![Participate](misconceptions.png)
 
@@ -113,29 +72,66 @@ of Galaxy have made their rounds in the scientific communities. The
 </div>
 
 
+<!-- HUB2 -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 18rem;">
+
+![Powered by Gridsome](/images/logos/gridsome-green-wide.png)
+
+<div class="card-header">
+New Galaxy Community Hub Implementation
+</div>
+
+You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/index.md).
+
+</div>
+
+
 <!-- ELIXIR-Galaxy Community -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 35%;">
+<div class="card lead border-info" style="min-width: 35%; max-width: 20
+rem;">
 
 ![elixir](/images/logos/ElixirNoTextLogo.png)
 
 <div class="card-header">
 
-[Updates from the ELIXIR Galaxy Community](https://galaxyproject.eu/posts/2021/08/24/new-elixir-galaxy-community-website/
-)
+[Updates from the ELIXIR Galaxy Community](https://galaxyproject.eu/posts/2021/08/24/new-elixir-galaxy-community-website/)
 
 </div>
 
-The ELIXIR Galaxy Community has updated the ELIXIR website including the goals with a special emphasis on the interactions with the local, domain-specific and global communities. The new website also lists the recent accomplishments, training, SARS-CoV-2 related resources and much more!
+The ELIXIR Galaxy Community has updated the ELIXIR website including the goals with a special emphasis on the interactions with the local, domain-specific and global communities. The new website also lists the recent accomplishments, training, SARS-CoV-2 related resources and much more!  [Read more](https://elixir-europe.org/communities/galaxy).
 
-Check out all the news at https://elixir-europe.org/communities/galaxy
+</div>
+
+
+<!-- hiring -->
+<div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
+
+![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
+
+<div class="card-header">
+
+[Galaxy Career Center](/careers/index.md)
+
+</div>
+
+The [Galaxy Career Center](/careers/index.md) lists any open Galaxy related positions that we know about.  Currently there are openings at
+
+* Sciensano in Belgium
+* GSK in Italy
+* NEB in Massachusetts, US
+* GalaxyWorks in the US
+* Cleveland Clinic in Ohio, US
+* Johns Hopkins University in Maryland, US
 
 </div>
 
 
 <!-- Galaxy Arabic -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 35%;">
+<div class="card lead border-info" style="min-width: 25%; max-width: 16rem;">
 
-![elixir](/images/logos/galaxy-arabic.jpg)
+<div class="video-variable">
+<iframe src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
 
 <div class="card-header">
 
@@ -143,18 +139,13 @@ Check out all the news at https://elixir-europe.org/communities/galaxy
 
 </div>
 
-Engy Nasr and Abdulrahman Yahia Azab have recorded a video introducing Galaxy to the arabic-speaking community.
-
-<iframe width="260" src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+Engy Nasr and Abdulrahman Yahia Azab have recorded a video introducing Galaxy to the Arabic-speaking community.
 
 </div>
 
 
 <!-- 500 subscribers YT -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 35%;">
-
-![logo youtube channel](/images/logos/) <!-- can't find it Dave -->
-
+<div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
 <div class="card-header">
 
 [We reached 500 subscribers on Youtube!](https://www.youtube.com/c/GalaxyProject)
@@ -164,30 +155,6 @@ Engy Nasr and Abdulrahman Yahia Azab have recorded a video introducing Galaxy to
 The Youtube channel of the Galaxy project has reached 500 subscribers, thank you all!
 
 ![500 subscribers](500-subscribers.png)
-
-</div>
-
-
-<!-- hiring -->
-<div class="card lead border-info" style="min-width: 20%; max-width: 35%;">
-
-![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
-
-<div class="card-header">
-
-[Galaxy Career Center - NOT UPDATED](/careers/index.md)
-
-</div>
-
-**Ten new positions were added to the [Galaxy Career Center](/careers/index.md) in the last month.**  Many of them close soon:
-
-* Australia, closes 11 August
-* Norway, closes 15 August
-* France x 3, 1 closes 22 August, 2 close 1 September
-* the Netherlands, 22 August
-* Germany, closes 31 August
-
-There are also "open until filled" positions in the US (x7) and Belgium. Take a look.
 
 </div>
 </div>
@@ -210,37 +177,17 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 </div>
 
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+**Registration closes 17 September.**
 
-</div>
-
-
-<!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-
-![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
-
-<div class="card-header">
-
-[Galaxy Developer Roundtable](/community/devroundtable/index.md)
-
-</div>
-
-September's Galaxy Developer Round Table meetups are:
-
-**September 16: TBD**
-
-**September 30: TBD**
-
-As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 30%; max-width: 100%;">
+<div class="card border-info" style="min-width: 30%; max-width: 18rem;">
 
-![BioHackathon 2021](/events/cofests/papercuts/papercuts.png)
+![September Papercuts](/events/cofests/papercuts/papercuts.png)
 
 <div class="card-header">
 
@@ -258,9 +205,46 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 </div>
 
+
+<!-- Hybrid Assembly -->
+<div class="card border-info" style="min-width: 30%; max-width: 18rem;">
+
+![Offered by Australian BioCommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
+
+<div class="card-header">
+
+[Hybrid de novo genome assembly](https://www.biocommons.org.au/events/hybrid-assembly)
+
+</div>
+
+**7 October, Online, Australia**
+
+Learn to create and assess genome assemblies from Illumina and Nanopore reads using data from a *Bacillus Subtilis* strain.
+
+**Apply by 29 September.**
+
 </div>
 
 
+<!-- Galaxy Dev Round Table -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+
+![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
+
+<div class="card-header">
+
+[Galaxy Developer Roundtable](/community/devroundtable/index.md)
+
+</div>
+
+Galaxy Developer Round Table meetups in September areare:
+
+**[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
+
+As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
+
+</div>
+</div>
 
 
 
@@ -271,9 +255,41 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
+<!-- Galaxy @ SLU -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+
+![Galaxy @ St Louis University](/images/logos/slu-left-blue.png)
+
+<div class="card-header">
+
+[Galaxy@SLU](/use/galaxy-slu/index.md)
+
+</div>
+
+The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics.  It is supported by the Zhang Lab](https://medfaculty.slu.edu/details/1581/jinsong-zhang) at The [Department of Pharmacology and Physiology](https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/index.php), [Saint Louis University School of Medicine](https://www.slu.edu/medicine/index.php).
+
+</div>
+
+
+<!-- COVID19 France -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+
+![COVID-19 focused instance on UseGalaxy.fr](/use/covid-19-fr/ifb-banner-covid.jpg)
+
+<div class="card-header">
+
+[COVID19.UseGalaxy.fr](/use/covid-19-fr/index.md)
+
+</div>
+
+A COVID-19 focused version of the UseGalaxy.fr server.  This server provides numerous workflows for COVID-19 analysis.
+
+</div>
+
+
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header">
 
 [UseGalaxy.*](/usegalaxy/index.md) News
@@ -282,11 +298,53 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
+* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+
 </div>
 </div>
 
 
+# Galactic Blog Posts
+
+<div class="card-deck">
+
+<!-- Cancer Informatics -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header">
+
+[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-updates/)
+
+</div>
+
+By Luke Sargent
+
+An update on some of our work in our NCII TCR project and our  NCI HTAN center: multiplex tissue image analysis and the beautiful [iobio applications](https://iobio.io/) are coming to Galaxy.
+
+![MCMICRO on GVL](/blog/2021-09-cancer-informatics-wg-update/mcmicro.png)
+
+</div>
+
+
+<!-- Galaxy 21.05 upgrade and cluster_venv -->
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
+
+<div class="card-header">
+
+[Galaxy 21.05 upgrade and cluster_venv](http://pvh.wp.sanbi.ac.za/2021/08/28/galaxy-21-05-upgrade-and-cluster_venv/)
+
+</div>
+
+By Peter van Heusden.
+
+Using a specific venv for running on the cluster that is *configured* on the cluster.
+
+![SANBI](/images/logos/sanbi-uwc-logo.png)
+
+</div>
+
+</div>
 
 
 # Doc, Hub, and Training Updates
@@ -335,15 +393,54 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
 <div class="card-header">
 
-[paper title](link)
+[GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation](https://doi.org/10.1002/cpz1.242)
+
+</div>
+
+Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi.org/10.1002/cpz1.242
 
 </div>
 
 
+<div class="card border-info" style="min-width: 18rem; max-width: 28rem;">
+<div class="card-header">
+
+[Interplay between probe design and test performance: Overlap between genomic regions of interest, capture regions and high quality reference calls influence performance of WES-based assays](https://doi.org/10.1007/s00439-020-02201-y)
+
 </div>
+
+Pranckeviciene, E., Racacho, L., Ghani, M., Nfonsam, L., Potter, R., Sinclair-Bourque, E., Mettler, G., Smith, A., Bronicki, L., Huang, L., & Jarinova, O. (2021). *Human Genetics*, 140(2), 289–297. https://doi.org/10.1007/s00439-020-02201-y
+
+</div>
+
+
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card-header">
+
+[CryptoGenotyper: A new bioinformatics tool for rapid Cryptosporidium identification](https://doi.org/10.1016/j.fawpar.2021.e00115)
+
+</div>
+
+Yanta, C. A., Bessonov, K., Robinson, G., Troell, K., & Guy, R. A. (2021). *Food and Waterborne Parasitology*, 23, e00115. https://doi.org/10.1016/j.fawpar.2021.e00115
+
+</div>
+
+
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card-header">
+
+[A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive](https://doi.org/10.1093/bioinformatics/btab421)
+
+</div>
+
+Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D., Grüning, B., Backofen, R., & Coppens, F. (2021). *Bioinformatics*, btab421. https://doi.org/10.1093/bioinformatics/btab421
+
+</div>
+
+
 </div>
 
 
@@ -361,8 +458,21 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 </div>
 
-
 The [ELIXIR](https://elixir-europe.org/sites/default/files/documents/annual-report-2020.pdf) and [IFB](https://www.france-bioinformatique.fr/en/activity-reports/) annual reports for 2020 are out, take a look at them and find out how Galaxy is involved.
+
+</div>
+
+<!-- SANBI GCC Leadership -->
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
+<div class="card-header">
+
+[SANBI provides leadership at Galaxy Community Conference](https://www.sanbi.ac.za/sanbi-provides-leadership-at-galaxy-community-conference/)
+
+</div>
+
+An excellent summary of GCC2021 by Peter van Heusden, including many highlights.
+
+![SANBI](/images/logos/sanbi-uwc-logo.png)
 
 </div>
 
