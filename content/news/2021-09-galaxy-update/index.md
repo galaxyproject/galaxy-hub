@@ -196,23 +196,6 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 <div class="card-deck">
 
-<!-- BioHackathon -->
-<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-
-![BioHackathon 2021](/images/logos/bhlogo.png)
-
-<div class="card-header">
-
-[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
-
-</div>
-
-**Registration closes 17 September**
-
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
-
-</div>
-
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
@@ -232,6 +215,24 @@ Please join us for the [CoFest day](/events/2021-09-papercuts/index.md) on Septe
 This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+
+</div>
+
+
+<!-- BioHackathon -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+
+![BioHackathon 2021](/images/logos/bhlogo.png)
+
+<div class="card-header">
+
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
+
+</div>
+
+**Registration closes 17 September**
+
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
@@ -256,6 +257,25 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 </div>
 
 
+
+<!-- microGalaxy -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+
+![microGalaxy](microbes.png)
+
+<div class="card-header">
+
+[microGalaxy Community call]([/community/devroundtable/index.md](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri))
+
+</div>
+
+**23 September, Online**
+
+microGalaxy is a [new community focusing on microbial analysis with Galaxy](https://docs.google.com/document/d/1btaPVcrE9Hr6gLQUsqdxHKX9IvtWaWINkLZ3_NcOhe8/edit). The second meeting of microGalaxy will happen on [September 23rd at 2 pm CEST](https://arewemeetingyet.com/Berlin/2021-09-23/14:00/microGalaxy) and will last for 2 hours. The topic will be “Citizen-led science and education”, with 2 talks and discussions around and beyond this topic. Anyone interested is welcome to join: details will be added to the [meeting minutes](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit).
+
+</div>
+
+
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
 
@@ -267,13 +287,31 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 
 </div>
 
-Galaxy Developer Round Table meetups in September areare:
+Galaxy Developer Round Table meetups in September are:
 
 **[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
 
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
+</div>
+
+<!-- covid workshop -->
+<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+
+![microGalaxy](covid.png)
+
+<div class="card-header">
+
+[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
 
 </div>
+
+**20 October, Online**
+
+Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+ Registration will open soon, stay tuned!
+
+</div>
+
 
 </div>
 
@@ -297,7 +335,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 </div>
 
-The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics.  It is supported by the Zhang Lab](https://medfaculty.slu.edu/details/1581/jinsong-zhang) at The [Department of Pharmacology and Physiology](https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/index.php), [Saint Louis University School of Medicine](https://www.slu.edu/medicine/index.php).
+The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics. It is supported by the [Zhang Lab](https://medfaculty.slu.edu/details/1581/jinsong-zhang) at the [Department of Pharmacology and Physiology](https://www.slu.edu/medicine/medical-education/graduate-programs/pharmacology-physiology/index.php), [Saint Louis University School of Medicine](https://www.slu.edu/medicine/index.php).
 
 </div>
 
@@ -531,14 +569,13 @@ The standalone version of the language server is available as a [PyPI package](h
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="https://github.com/galaxyproject/galaxy-language-server#extract-macro">
+<a href="https://github.com/galaxyproject/galaxy-language-server/blob/assets/feature.extract.macro.gif">
 
-![GLS](gls-improve-macros-support.gif)
+![GLS](gls-feature-extract-macro.gif)
 
 </a>
 
 </div>
-
 </div>
 
 
