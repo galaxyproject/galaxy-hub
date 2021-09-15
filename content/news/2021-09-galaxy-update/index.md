@@ -196,23 +196,6 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 <div class="card-deck">
 
-<!-- BioHackathon -->
-<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-
-![BioHackathon 2021](/images/logos/bhlogo.png)
-
-<div class="card-header">
-
-[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
-
-</div>
-
-**Registration closes 17 September**
-
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
-
-</div>
-
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
@@ -236,6 +219,24 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 </div>
 
 
+<!-- BioHackathon -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+
+![BioHackathon 2021](/images/logos/bhlogo.png)
+
+<div class="card-header">
+
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
+
+</div>
+
+**Registration closes 17 September**
+
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
+
+</div>
+
+
 <!-- Hybrid Assembly -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
 
@@ -254,6 +255,26 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 **Apply by 29 September.**
 
 </div>
+
+
+
+<!-- microGalaxy -->
+<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+
+![microGalaxy](microbes.png)
+
+<div class="card-header">
+
+[microGalaxy Community call]([/community/devroundtable/index.md](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri))
+
+</div>
+
+**23 October, Online**
+
+microGalaxy is a [new community focusing on microbial analysis with Galaxy](https://docs.google.com/document/d/1btaPVcrE9Hr6gLQUsqdxHKX9IvtWaWINkLZ3_NcOhe8/edit). The second meeting of microGalaxy will happen on [September 23rd at 2 pm CEST](https://arewemeetingyet.com/Berlin/2021-09-23/14:00/microGalaxy) and will last for 2 hours. The topic will be “Citizen-led science and education”, with 2 talks and discussions around and beyond this topic. Anyone interested is welcome to join: details will be added to the [meeting minutes](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit).
+
+</div>
+
 
 
 <!-- Galaxy Dev Round Table -->
