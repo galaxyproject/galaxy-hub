@@ -1,18 +1,32 @@
 ---
 title: 'September 2021 Galactic News'
 tease: ""
-date: ""
-draft: true
+date: "2021-09-15"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
-The September newsletter brings news of GCC2021 (just finished) and GCC2022 (in Minneapolis); **[the launch of the Galaxy India community, and open positions in 7 countries](#community-news)**; **[event news](#event-news)**; **[Galaxy platform news](#galaxy-platforms-news)**; **[training and doc updates](#doc-hub-and-training-updates)**;
-recent **[open-access Galaxy-related publications](#publications)**; and **[other news too](#other-news).**
+The September newsletter brings what feels like a lot of news, including
 
-Dave Clements and Beatriz Serrano-Solano, Editors
+* A list of 12 recent use cases for UseGalaxy.eu, covering a broad spectrum of research.
+* Want to help address misconceptions about Galaxy?
+* The Galaxy Community Hub is now using Gridsome.
+* ELIXIR community updates
+* JXTX Foundation 2021 Awards
+* 7 open positions in Belgium, Italy, and the US
+* The Galaxy YouTube channel is growing up
+* Upcoming events
+* Galaxy Platforms News
+* Recent Blog Posts
+* Doc, Hub, and Training Updates
+* Recent Publications
+* and other news too.
+
+Sit back, get comfortable, and explore the Galaxy...
+
+Beatriz Serrano-Solano and Dave Clements, Editors
 
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
@@ -99,6 +113,22 @@ rem;">
 </div>
 
 The ELIXIR Galaxy Community has updated the ELIXIR website including the goals with a special emphasis on the interactions with the local, domain-specific and global communities. The new website also lists the recent accomplishments, training, SARS-CoV-2 related resources and much more!  [Read more](https://elixir-europe.org/communities/galaxy).
+
+</div>
+
+
+<!-- JXTX Foundation -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 18rem;">
+
+![2021 JXTX Awardees](jxtx-awardees-2021.png)
+
+<div class="card-header">
+
+[JXTX Foundation Awards Scholarships for Genome Informatics 2021](https://jxtxfoundation.org/news/2021-08-jxtx-awardees/)
+
+</div>
+
+[JXTX: The James P. Taylor Foundation for Open Science](https://jxtxfoundation.org/about) is pleased to [announce the recipients of the 2021 JXTX Scholarships](https://jxtxfoundation.org/news/2021-08-jxtx-awardees/). The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
 </div>
 
@@ -311,14 +341,13 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 
 <!-- Cancer Informatics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-
 <div class="card-header">
 
 [Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-updates/)
 
 </div>
 
-By Luke Sargent
+By Luke Sargent.
 
 An update on some of our work in our NCII TCR project and our  NCI HTAN center: multiplex tissue image analysis and the beautiful [iobio applications](https://iobio.io/) are coming to Galaxy.
 
@@ -329,7 +358,6 @@ An update on some of our work in our NCII TCR project and our  NCI HTAN center: 
 
 <!-- Galaxy 21.05 upgrade and cluster_venv -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
-
 <div class="card-header">
 
 [Galaxy 21.05 upgrade and cluster_venv](http://pvh.wp.sanbi.ac.za/2021/08/28/galaxy-21-05-upgrade-and-cluster_venv/)
@@ -343,7 +371,6 @@ Using a specific venv for running on the cluster that is *configured* on the clu
 ![SANBI](/images/logos/sanbi-uwc-logo.png)
 
 </div>
-
 </div>
 
 
@@ -352,7 +379,7 @@ Using a specific venv for running on the cluster that is *configured* on the clu
 <div class="card-deck">
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
-<div class="card border-info" style="max-width: 45%;">
+<div class="card border-info" style="min-width: 45%; max-width: 24rem;">
 
 ![sars-cov-2-data-analysis-monitoring-training](training-sars-cov-2-worldstats.png)
 
@@ -369,18 +396,60 @@ Researchers in all career stages (PhD students, senior researchers…) and diffe
 </div>
 
 
- <!-- TIaaS flyer - Dave, feel free to remove -->
-<div class="card border-info" style="max-width: 50%;">
+<!-- TIaaS flyer - Dave, feel free to remove -->
+<div class="card border-info" style="min-width: 45%; max-width: 24rem;">
+
+<a href="https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/"><img class="card-img-top" src="TIaaS-flyer.png" alt="TIaaS - flyer" style="width: 100%; display: block; margin: 0 auto;" /></a>
+
 <div class="card-header">
 
-[Training Infrastructure as a Service (TIaaS) in UseGalaxy.eu sponsored by EOSC-Life](https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/)
+[Sponsored by EOSC-Life](https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/)
 
 </div>
 
-<img class="card-img-top" src="TIaaS-flyer.png" alt="TIaaS - flyer" style="width: 60%; display: block; margin: 0 auto;" />
+</div>
+
+<!-- How to reproduce -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+
+![Reproduce](gtn-reproduce-slice.png)
+
+<div class="card-header">
+
+[How to reproduce published Galaxy analyses](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html)
 
 </div>
 
+By [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) and [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame/annefou/)
+
+How to reproduce analyses performed in the Galaxy framework:
+
+* load published data into Galaxy
+* run a published Galaxy workflow
+* how histories can be inspected and re-used
+
+</div>
+
+
+<!-- How to reproduce -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+
+![Reproduce](gtn-ena.png)
+
+<div class="card-header">
+
+Submitting raw sequencing reads to ENA
+
+</div>
+
+By [Miguel Roncoroni](https://training.galaxyproject.org/training-material/hall-of-fame/roncoronimiguel/)
+
+How to submit raw viral sequence reads to the European Nucleotide Archive using Galaxy's **ENA upload tool**.  See the 
+
+* [Slides](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides.html#1)
+* [Tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html)
+
+</div>
 
 </div>
  
@@ -408,11 +477,11 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 <div class="card border-info" style="min-width: 18rem; max-width: 28rem;">
 <div class="card-header">
 
-[Interplay between probe design and test performance: Overlap between genomic regions of interest, capture regions and high quality reference calls influence performance of WES-based assays](https://doi.org/10.1007/s00439-020-02201-y)
+[Moving translational mass spectrometry imaging towards transparent and reproducible data analyses: A case study of an urothelial cancer cohort analyzed in the Galaxy framework](https://doi.org/10.1101/2021.08.09.455649)
 
 </div>
 
-Pranckeviciene, E., Racacho, L., Ghani, M., Nfonsam, L., Potter, R., Sinclair-Bourque, E., Mettler, G., Smith, A., Bronicki, L., Huang, L., & Jarinova, O. (2021). *Human Genetics*, 140(2), 289–297. https://doi.org/10.1007/s00439-020-02201-y
+Föll, M. C., Volkmann, V., Enderle-Ammour, K., Wilhelm, K., Guo, D., Vitek, O., Bronsert, P., & Schilling, O. (2021). *BioRxiv*, 2021.08.09.455649. https://doi.org/10.1101/2021.08.09.455649
 
 </div>
 
