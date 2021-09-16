@@ -2,17 +2,17 @@
     <Layout>
         <g-link to="/use/" class="link"> &larr; Platform Directory</g-link>
         <header>
-            <h1 class="pageTitle">{{ $page.platform.title }}</h1>
+            <h1 class="pageTitle">{{ $page.main.title }}</h1>
         </header>
         <div class="float-right image-box">
-            <a :href="$page.platform.url">
-                <g-image v-if="$page.platform.image" class="img-responsive" :src="getImage($page.platform.image)" />
-                <template v-else>{{ $page.platform.title }}</template>
+            <a :href="$page.main.url">
+                <g-image v-if="$page.main.image" class="img-responsive" :src="getImage($page.main.image)" />
+                <template v-else>{{ $page.main.title }}</template>
             </a>
         </div>
         <table class="table table-striped summary">
             <tbody>
-                <tr v-for="platform of $page.platform.platforms">
+                <tr v-for="platform of $page.main.platforms">
                     <th>{{ groupNames.get(platform.platform_group) }}:</th>
                     <td>
                         <a :href="platform.platform_url">{{ platform.platform_text }}</a>
@@ -21,12 +21,12 @@
                 <tr>
                     <th>Scope:</th>
                     <td>
-                        <a :href="`/use/#${$page.platform.scope}`">{{ scopeNames.get($page.platform.scope) }}</a>
+                        <a :href="`/use/#${$page.main.scope}`">{{ scopeNames.get($page.main.scope) }}</a>
                     </td>
                 </tr>
                 <tr>
                     <th>Summary:</th>
-                    <td class="markdown" v-html="mdToHtml($page.platform.summary)" />
+                    <td class="markdown" v-html="mdToHtml($page.main.summary)" />
                 </tr>
             </tbody>
         </table>
@@ -35,7 +35,7 @@
             <ul :key="series.name + ':ul'">
                 <li class="markdown" v-for="item in series.values" :key="item" v-html="item" />
                 <template v-if="series.key === 'citations'">
-                    <li class="zotero" v-for="tag in $page.platform.pub_libraries" :key="tag">
+                    <li class="zotero" v-for="tag in $page.main.pub_libraries" :key="tag">
                         <a :href="'https://www.zotero.org/groups/1732893/galaxy/tags/%3E' + tag">
                             {{ tag }} tagged publications
                         </a>
@@ -50,7 +50,7 @@
 
 <page-query>
 query Platform($path: String!) {
-   platform(path: $path) {
+   main: platform(path: $path) {
     id
     title
     url
@@ -69,6 +69,9 @@ query Platform($path: String!) {
     quotas
     citations
     sponsors
+    fileInfo {
+        path
+    }
   }
 }
 </page-query>
@@ -78,13 +81,13 @@ import { mdToHtml, titlecase, getImage } from "~/utils.js";
 export default {
     metaInfo() {
         return {
-            title: this.$page.platform.title,
+            title: this.$page.main.title,
         };
     },
     methods: {
         mdToHtml,
         getImage(imagePath) {
-            return getImage(imagePath, this.$page.platform.images);
+            return getImage(imagePath, this.$page.main.images);
         },
     },
     data() {
@@ -110,7 +113,7 @@ export default {
             for (let key of ["comments", "user_support", "quotas", "citations", "sponsors"]) {
                 let series = {
                     key: key,
-                    values: this.$page.platform[key].map(mdToHtml),
+                    values: this.$page.main[key].map(mdToHtml),
                     name: key.split("_").map(titlecase).join(" "),
                 };
                 serieses.push(series);

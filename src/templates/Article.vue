@@ -1,14 +1,14 @@
 <template>
     <Layout>
-        <ArticleHeader :article="$page.article" />
-        <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.article.content" />
-        <ArticleFooter :article="$page.article" />
+        <ArticleHeader :article="$page.main" />
+        <div :class="['content', 'markdown', ...mdClasses]" v-html="$page.main.content" />
+        <ArticleFooter :article="$page.main" />
     </Layout>
 </template>
 
 <page-query>
 query Article ($path: String!) {
-   article: article (path: $path) {
+   main: article (path: $path) {
     id
     title
     tease
@@ -17,9 +17,6 @@ query Article ($path: String!) {
     days
     contact
     contact_url
-    fileInfo {
-        path
-    }
     authors
     location
     location_url
@@ -32,9 +29,12 @@ query Article ($path: String!) {
       url
       text
     }
+    external_url
     image
     images
-    external_url
+    fileInfo {
+        path
+    }
     content
   }
 }
@@ -50,15 +50,15 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.$page.article.title,
+            title: this.$page.main.title,
         };
     },
     computed: {
         mdClasses() {
             let classes = [];
-            if (this.$page.article.autotoc === true) {
+            if (this.$page.main.autotoc === true) {
                 classes.push("toc");
-            } else if (this.$page.article.autotoc === false) {
+            } else if (this.$page.main.autotoc === false) {
                 classes.push("notoc");
             }
             return classes;

@@ -1,6 +1,6 @@
 <template>
     <Layout>
-        <ArticleHeader :article="$page.article" />
+        <ArticleHeader :article="$page.main" />
         <article :class="['content', 'markdown', ...mdClasses]">
             <VueRemarkContent>
                 <!--
@@ -9,19 +9,19 @@
                     replaces. `[insert.name]` allows the slot name to be dynamic, based on the value of the
                     `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
                 -->
-                <template v-for="insert of $page.article.inserts" #[insert.name]>
+                <template v-for="insert of $page.main.inserts" #[insert.name]>
                     <p class="markdown" :key="insert.name + ':md'" v-html="insert.content" />
                     <p class="d-none" :key="insert.name + ':p'">Issue #758 workaround</p>
                 </template>
             </VueRemarkContent>
         </article>
-        <ArticleFooter :article="$page.article" />
+        <ArticleFooter :article="$page.main" />
     </Layout>
 </template>
 
 <page-query>
 query VueArticle($path: String!) {
-   article: vueArticle(path: $path) {
+   main: vueArticle(path: $path) {
     id
     title
     tease
@@ -42,13 +42,16 @@ query VueArticle($path: String!) {
       url
       text
     }
+    external_url
     image
     images
+    fileInfo {
+        path
+    }
     inserts {
       name
       content
     }
-    external_url
     content
   }
 }
@@ -64,15 +67,15 @@ export default {
     },
     metaInfo() {
         return {
-            title: this.$page.article.title,
+            title: this.$page.main.title,
         };
     },
     computed: {
         mdClasses() {
             let classes = [];
-            if (this.$page.article.autotoc === true) {
+            if (this.$page.main.autotoc === true) {
                 classes.push("toc");
-            } else if (this.$page.article.autotoc === false) {
+            } else if (this.$page.main.autotoc === false) {
                 classes.push("notoc");
             }
             return classes;
