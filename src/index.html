@@ -3,6 +3,12 @@
   <head>
     ${head}
     <script src="//unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js"></script>
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'galaxyproject/Lobby'
+      };
+    </script>
+    <script async defer src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script>
   </head>
   <body ${bodyAttrs}>
     ${app}

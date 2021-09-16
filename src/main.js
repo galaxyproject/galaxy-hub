@@ -7,11 +7,6 @@ import DefaultLayout from "~/layouts/Default.vue";
 import BootstrapVue from "bootstrap-vue";
 
 export default function (Vue, { router, head, isClient }) {
-    head.script.push({
-        src: "https://sidecar.gitter.im/dist/sidecar.v1.js",
-        async: true,
-        defer: true,
-    });
     // Set default layout as a global component
     Vue.component("Layout", DefaultLayout);
     Vue.use(BootstrapVue);
