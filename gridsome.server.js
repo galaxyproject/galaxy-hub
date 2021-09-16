@@ -192,7 +192,6 @@ class nodeModifier {
 }
 
 module.exports = function (api) {
-
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
         // Add derived `category` field.
@@ -235,36 +234,37 @@ module.exports = function (api) {
     let platformsData;
     api.createPages(async ({ graphql }) => {
         platformsData = await graphql(`
-        query {
-            platforms: allPlatform(sortBy: "title", order: ASC) {
-              totalCount
-              edges {
-                node {
-                  id
-                  url
-                  path
-                  title
-                  image
-                  scope
-                  summary
-                  comments
-                  user_support
-                  quotas
-                  citations
-                  pub_libraries
-                  sponsors
-                  platforms {
-                    platform_group
-                    platform_url
-                    platform_text
-                    platform_location
-                    platform_purview
-                  }
+            query {
+                platforms: allPlatform(sortBy: "title", order: ASC) {
+                    totalCount
+                    edges {
+                        node {
+                            id
+                            url
+                            path
+                            title
+                            image
+                            scope
+                            summary
+                            comments
+                            user_support
+                            quotas
+                            citations
+                            pub_libraries
+                            sponsors
+                            platforms {
+                                platform_group
+                                platform_url
+                                platform_text
+                                platform_location
+                                platform_purview
+                            }
+                        }
+                    }
                 }
-              }
             }
-          }`);
-    })
+        `);
+    });
 
     api.configureServer(async (app) => {
         // Serve /use/feed.json from develop server.
@@ -279,18 +279,19 @@ module.exports = function (api) {
         let outDir = path.join(__dirname, "dist", "use");
         fs.mkdirSync(outDir, { recursive: true });
         let feedPath = path.join(outDir, "feed.json");
-        fs.writeFile(feedPath, makePlatformsJson(platformsData), error => {if (error) throw error});
+        fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
+            if (error) throw error;
+        });
     });
-
 };
 
 function makePlatformsJson(platformsData) {
-    let platforms = platformsData.data.platforms.edges.map(edge => {
+    let platforms = platformsData.data.platforms.edges.map((edge) => {
         // Massage fields a little for backward compatibility.
         let node = edge.node;
         node.link = rmSuffix(node.path, "/");
         node.path = path.join(rmPrefix(node.path, "/"), "index.md");
         return node;
     });
-    return JSON.stringify(platforms, null, '  ');
+    return JSON.stringify(platforms, null, "  ");
 }
