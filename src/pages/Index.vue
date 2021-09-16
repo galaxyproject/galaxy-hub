@@ -4,7 +4,7 @@
             <h1 class="display-4">{{ $page.main.title }}</h1>
         </header>
 
-        <section class="section-content jumbotron" v-if="$page.jumbotron">
+        <section class="section-content jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
             <div class="row text-center markdown" v-html="$page.jumbotron.content" />
         </section>
 
