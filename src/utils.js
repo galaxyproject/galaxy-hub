@@ -162,9 +162,9 @@ function getImage(imagePath, images) {
     if (!imagePath) {
         return imagePath;
     }
-    if (startswith(imagePath, "/src/images/")) {
+    if (imagePath.startsWith("/src/images/")) {
         return imagePath.substring(4);
-    } else if (startswith(imagePath, "/images/")) {
+    } else if (imagePath.startsWith("/images/")) {
         return imagePath;
     }
     let fields = imagePath.split("/");
@@ -243,11 +243,6 @@ function rmSuffix(rawString, suffix) {
     }
 }
 module.exports.rmSuffix = rmSuffix;
-
-function startswith(string, query) {
-    return string.indexOf(query) === 0;
-}
-module.exports.startswith = startswith;
 
 function endswith(string, query) {
     return string.indexOf(query) === string.length - query.length;

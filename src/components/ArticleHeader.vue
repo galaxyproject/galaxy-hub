@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import { repr, doRedirect, titlecase, startswith, strToDate, dateToStr, getImage } from "~/utils.js";
+import { repr, doRedirect, titlecase, strToDate, dateToStr, getImage } from "~/utils.js";
 export default {
     props: {
         article: { type: Object, required: true },
@@ -103,9 +103,9 @@ export default {
     },
 };
 function getRedirectUrl(target) {
-    if (startswith(target, "/")) {
+    if (target.startsWith("/")) {
         return `${window.location.origin}${target}`;
-    } else if (startswith(target, "http://") || startswith(target, "https://")) {
+    } else if (target.startsWith("http://") || target.startsWith("https://")) {
         return target;
     } else {
         console.error(repr`Unrecognized redirect url ${target}`);
