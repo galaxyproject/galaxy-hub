@@ -93,8 +93,8 @@ export default {
     },
     computed: {
         careers() {
-            this.$page.careers.edges.reverse();
-            return this.$page.careers.edges.map((edge) => edge.node);
+            const reversedCareers = this.$page.careers.edges.slice().reverse();
+            return reversedCareers.map((edge) => edge.node);
         },
     },
     mounted() {
