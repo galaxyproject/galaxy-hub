@@ -222,7 +222,7 @@ function ensurePrefix(string, char) {
 module.exports.ensurePrefix = ensurePrefix;
 
 function rmPrefix(rawString, prefix) {
-    if (rawString.indexOf(prefix) === 0) {
+    if (prefix && rawString.indexOf(prefix) === 0) {
         return rawString.slice(prefix.length);
     } else {
         return rawString;
@@ -231,6 +231,9 @@ function rmPrefix(rawString, prefix) {
 module.exports.rmPrefix = rmPrefix;
 
 function rmSuffix(rawString, suffix) {
+    if (! suffix) {
+        return rawString;
+    }
     let suffixIndex = rawString.length - suffix.length;
     if (rawString.slice(suffixIndex) === suffix) {
         return rawString.slice(0, suffixIndex);

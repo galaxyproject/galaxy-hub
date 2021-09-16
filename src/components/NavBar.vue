@@ -57,24 +57,30 @@
         </b-collapse>
     </b-navbar>
 </template>
+
 <script>
+import path from "path";
+import { rmPrefix } from "~/utils.js";
+import CONFIG from "~/../config.json";
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
-const EDIT_URL = `${REPO_URL}tree/master/content/`;
+const EDIT_PATH = "tree/master/content";
 export default {
     computed: {
         editUrl() {
-            // TODO: a more robust way to do this, this only works on
-            // article-based pages and we probably don't want a hacky mess of
-            // exceptions.  For now, just default to root (which has a README,
-            // etc., so is not unreasonable) for 'special' pages.
-            let articlePath = this?.$page?.article?.fileInfo?.path;
-            if (articlePath) {
-                articlePath = articlePath.replace(/^build\//, "");
-                articlePath = articlePath.replace(/^content-md\//, "");
-                return `${EDIT_URL}${articlePath}`;
+            let sourcePath;
+            if (this.$page.main?.fileInfo?.path) {
+                // Each Collection should have a `$page.main`.
+                // `fileInfo.path` for VueArticles already omits the build directory: `"events/gcc2019/index.md"`.
+                // For Articles it looks like `"build/content-md/community/index.md"`.
+                sourcePath = rmPrefix(this.$page.main.fileInfo.path, CONFIG?.build?.dirs?.md);
             } else {
-                return REPO_URL;
+                // Otherwise, this must be a dynamic page.
+                // Almost every dynamic page has a `main.md` Insert.
+                //TODO: 404.vue doesn't have a `main.md`, so that Github link will (perhaps appropriately) 404.
+                //      Not sure what the best fix is.
+                sourcePath = path.join(this.$route.path, "main.md");
             }
+            return path.join(REPO_URL, EDIT_PATH, sourcePath);
         },
     },
 };
