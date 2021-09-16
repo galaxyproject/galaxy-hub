@@ -5,7 +5,7 @@
         </header>
 
         <section class="section-content jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
-            <div class="row text-center markdown" v-html="$page.jumbotron.content" />
+            <div class="text-center markdown" v-html="$page.jumbotron.content" />
         </section>
 
         <section class="section-content main-content">
@@ -206,16 +206,17 @@ query {
 </page-query>
 
 <style scoped>
+.header {
+    margin-bottom: 2.5rem;
+}
 .jumbotron {
-    padding-top: 2.5rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
 }
 .jumbo-image {
     background-color: lightyellow;
     padding-top: 100px;
     border: 4px solid black;
-}
-.header + .main-content {
-    margin-top: 40px;
 }
 .pseudo-card {
     background-color: #e0eaf2;
