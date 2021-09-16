@@ -19,8 +19,6 @@ export default {
     mounted() {
         // Google Analytics tag.
         addGATag();
-        // Gitter integrated #galaxyproject chat.
-        addGitterChat();
     },
 };
 function addGATag() {
@@ -40,18 +38,6 @@ function addGATag() {
     })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
     ga("create", "UA-45719423-4", "auto");
     ga("send", "pageview");
-}
-function addGitterChat() {
-    window.gitter = { chat: { options: { room: "galaxyproject/Lobby" } } };
-    // This handles correct positioning when using location hashes.
-    let shiftWindow = function () {
-        scrollBy(0, -70);
-    };
-    if (location.hash) {
-        shiftWindow();
-    }
-    window.addEventListener("hashchange", shiftWindow);
-    window.addEventListener("load", shiftWindow);
 }
 </script>
 
