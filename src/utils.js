@@ -4,6 +4,7 @@ const util = require("util");
 const remark = require("remark");
 const remarkHtml = require("remark-html");
 const slugify = require("@sindresorhus/slugify");
+const CONFIG = require("../config.json");
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
@@ -11,11 +12,6 @@ const slugify = require("@sindresorhus/slugify");
  * 3) easily referencing these functions from other functions in the same file
  * That's the `module.exports.repr = repr` pattern.
  */
-
-let CONFIG;
-if (fs && fs.existsSync && fs.existsSync("config.json")) {
-    CONFIG = JSON.parse(fs.readFileSync("config.json", "utf8"));
-}
 
 /** Template literal tag that converts all embedded values to their literal representations.
  *  Uses `util.inspect()` for the conversions.
