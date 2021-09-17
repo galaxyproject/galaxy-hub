@@ -7,11 +7,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const dayjs = require("dayjs");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, dateToStr, dateStrDiff, matchesPrefixes } = require("./src/utils.js");
+const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
 const CONFIG = require("./config.json");
 
-const COMPILE_DATE = dateToStr(new Date());
+const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
 const IMAGE_PREFIX_WHITELIST = ["images/", "https://", "http://"];
 
@@ -145,7 +146,7 @@ class nodeModifier {
         let pathParts = node.path.split("/");
         node.category = categorize(pathParts);
         if (node.category === "careers") {
-            if (node.closes && dateStrDiff(COMPILE_DATE, node.closes) > 0) {
+            if (node.closes && COMPILE_DATE.diff(node.closes, "day") > 0) {
                 node.closed = true;
             } else {
                 node.closed = false;
@@ -154,7 +155,7 @@ class nodeModifier {
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
-            node.days_ago = dateStrDiff(COMPILE_DATE, node.date);
+            node.days_ago = COMPILE_DATE.diff(node.date, "day");
             node.has_date = true;
         } else {
             node.has_date = false;

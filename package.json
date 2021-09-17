@@ -16,6 +16,7 @@
     "bootstrap": "<5.0",
     "bootstrap-vue": "^2.21.2",
     "commander": "^8.2.0",
+    "dayjs": "^1.10.7",
     "gridsome": "^0.7.0",
     "jiti": "^1.12.0",
     "node-watch": "^0.7.1",
