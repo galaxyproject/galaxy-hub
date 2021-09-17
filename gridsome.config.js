@@ -10,6 +10,7 @@ const jiti = require("jiti")(__filename);
 const remarkToc = jiti("remark-toc").default;
 const tocRemodel = jiti("./src/build/toc-remodel.mjs").default;
 const { rmPrefix, rmSuffix, rmPathPrefix } = require("./src/utils.js");
+const CONFIG = require("./config.json");
 const REMARK_PLUGINS = [
     [remarkToc, { skip: "end-table-of-contents" }],
     [tocRemodel, { tocAttrs: { class: "toc-wrapper col-md-3" }, bodyAttrs: { class: "body-wrapper col-md-9" } }],
@@ -17,7 +18,6 @@ const REMARK_PLUGINS = [
 const REMARK_VUE_PLUGINS = REMARK_PLUGINS;
 const REMARK_MD_PLUGINS = REMARK_PLUGINS.concat("remark-attr");
 
-const CONFIG = JSON.parse(fs.readFileSync("config.json", "utf8"));
 const MD_CONTENT_DIR = CONFIG.build.dirs.md;
 const VUE_CONTENT_DIR = CONFIG.build.dirs.vue;
 const CONTENT_DIR_DEPTH = rmSuffix(MD_CONTENT_DIR, "/").split("/").length;
@@ -115,7 +115,6 @@ module.exports = {
     icon: "./src/favicon.png",
     templates: mkTemplates(CONFIG["collections"]),
     plugins: mkPlugins(CONFIG["collections"]),
-
     css: {
         loaderOptions: {
             scss: {

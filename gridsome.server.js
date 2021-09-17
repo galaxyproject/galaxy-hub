@@ -8,9 +8,9 @@
 const fs = require("fs");
 const path = require("path");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, dateToStr, dateStrDiff, matchesPrefixes } = require("./src/utils");
+const { repr, rmPrefix, rmSuffix, dateToStr, dateStrDiff, matchesPrefixes } = require("./src/utils.js");
+const CONFIG = require("./config.json");
 
-const CONFIG = JSON.parse(fs.readFileSync(path.join(__dirname, "config.json"), "utf8"));
 const COMPILE_DATE = dateToStr(new Date());
 const IMAGE_REGISTRY = new Set();
 const IMAGE_PREFIX_WHITELIST = ["images/", "https://", "http://"];
