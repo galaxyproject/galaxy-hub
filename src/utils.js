@@ -149,6 +149,11 @@ function gridifyPath(rawPath) {
 }
 module.exports.gridifyPath = gridifyPath;
 
+/** Does the given string start with any of the given prefixes?
+ * @param {String} string  String that may or may not contain the prefixes.
+ * @param {Array} prefixes An array of strings - the prefixes.
+ * @returns {Boolean} `true` if `string` starts with any of the given `prefixes`, `false` otherwise.
+ */
 function matchesPrefixes(string, prefixes) {
     for (let prefix of prefixes) {
         if (string.startsWith(prefix)) {
@@ -333,8 +338,8 @@ module.exports.logTree = logTree;
 const TO_STRING = {}.toString;
 /** A better alternative to `typeof`.
  * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
- * @param {*} value Any value, including `null` and `undefined`.
- * @returns A string indicating the type of value passed:
+ * @param {*} value  Any value, including `null` and `undefined`.
+ * @returns {String} The type of value passed:
  *   undefined  "Undefined"
  *   null       "Null"
  *   1          "Number"
