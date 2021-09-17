@@ -5,7 +5,8 @@
     "build": "src/build/run.mjs build",
     "develop": "src/build/run.mjs develop",
     "format": "prettier --write '*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
-    "lint": "eslint src/**/*.{mjs,js,vue}"
+    "lint": "eslint src/**/*.{mjs,js,vue}",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
