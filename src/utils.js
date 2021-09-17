@@ -245,11 +245,6 @@ function endswith(string, query) {
 }
 module.exports.endswith = endswith;
 
-function titlecase(rawString) {
-    return rawString.charAt(0).toUpperCase() + rawString.substring(1, rawString.length);
-}
-module.exports.titlecase = titlecase;
-
 /** Create the same effect as adding a tab to the string, except use spaces. */
 function spaceTab(rawStr, tabWidth = 8) {
     let tabStop = tabWidth * (1 + Math.floor(rawStr.length / tabWidth));

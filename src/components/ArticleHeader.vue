@@ -1,7 +1,7 @@
 <template>
     <header :class="article.category">
         <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
-            &larr; Back to {{ titlecase(article.category) }}
+            &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
         <g-link v-else to="/" class="link">&larr; Back to Home</g-link>
         <p v-if="article.redirect" class="redirect alert alert-warning">
