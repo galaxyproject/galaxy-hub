@@ -111,7 +111,7 @@ export default {
                 let series = {
                     key: key,
                     values: this.$page.platform[key].map(mdToHtml),
-                    name: key.split("_").join(" "),
+                    name: key.replace(/_/g, " "),
                 };
                 serieses.push(series);
             }
