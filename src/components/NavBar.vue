@@ -57,25 +57,38 @@
         </b-collapse>
     </b-navbar>
 </template>
+
 <script>
+import path from "path";
+import { rmPrefix } from "~/utils.js";
+import CONFIG from "~/../config.json";
 const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
-const EDIT_URL = `${REPO_URL}tree/master/content/`;
+const EDIT_PATH = "tree/master/content";
 export default {
     computed: {
         editUrl() {
-            // TODO: a more robust way to do this, this only works on
-            // article-based pages and we probably don't want a hacky mess of
-            // exceptions.  For now, just default to root (which has a README,
-            // etc., so is not unreasonable) for 'special' pages.
-            let articlePath = this?.$page?.article?.fileInfo?.path;
-            if (articlePath) {
-                articlePath = articlePath.replace(/^build\//, "");
-                articlePath = articlePath.replace(/^content-md\//, "");
-                return `${EDIT_URL}${articlePath}`;
+            // This will only point to the exact Github source url for Collections which include a "fileInfo { path }"
+            // in their GraphQL query. Otherwise, (like for dynamic pages) it'll default to pointing to the repo home
+            // page (which has a README, etc., so is not unreasonable).
+            let sourcePath = getPath(this.$page);
+            if (sourcePath) {
+                sourcePath = rmPrefix(sourcePath, CONFIG.build.dirs.md);
+                return path.join(REPO_URL, EDIT_PATH, sourcePath);
             } else {
                 return REPO_URL;
             }
         },
     },
 };
+
+function getPath(page) {
+    if (page) {
+        for (let child of Object.values(page)) {
+            let path = child?.fileInfo?.path;
+            if (path) {
+                return path;
+            }
+        }
+    }
+}
 </script>
