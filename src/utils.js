@@ -68,59 +68,6 @@ function splitlines(text) {
 }
 module.exports.splitlines = splitlines;
 
-/** Turn a string containing only a date in ISO 8601 format into a `Date` in the local system's
- *  timezone.
- *  @param {string} dateStr A date in ISO 8601 (YYYY-MM-DD) format.
- */
-function strToDate(dateStr) {
-    return new Date(dateStr + "T00:00:00");
-}
-module.exports.strToDate = strToDate;
-
-/** Turn a `Date` object into a string showing only the date portion.
- *  @param {Date} date       A Javascript `Date`. This should be produced using `strToDate()`.
- *  @param {string} [format='iso'] The style of string representation for the `date`:
- *    `'iso'`: `"2021-03-12"`
- *    `'long'`: `"March 3, 2021"`
- *    `'D MMMM YYYY'`: `"3 March 2021"`
- */
-function dateToStr(date, format = "iso") {
-    let locale = getLocale();
-    let fields = {};
-    switch (format) {
-        case "iso":
-            return date.toISOString().slice(0, 10);
-        case "long":
-            fields = { year: "numeric", month: "long", day: "numeric" };
-            break;
-        case "D MMMM YYYY":
-            locale = "en-GB";
-            fields = { year: "numeric", month: "long", day: "numeric" };
-            break;
-        case "D MMMM":
-            fields = { month: "long", day: "numeric" };
-            break;
-        case "MMMM":
-            fields = { month: "long" };
-            break;
-        case "MMMM YYYY":
-            fields = { year: "numeric", month: "long" };
-            break;
-    }
-    return date.toLocaleDateString(locale, fields);
-}
-module.exports.dateToStr = dateToStr;
-
-/** Get the difference, in whole days, between two date strings.
- *  E.g. `dateStrDiff('2021-04-16', '2021-04-14') === 2`
- */
-function dateStrDiff(date1, date2) {
-    let date1date = strToDate(date1);
-    let date2date = strToDate(date2);
-    return Math.round((date1date - date2date) / 1000 / 60 / 60 / 24);
-}
-module.exports.dateStrDiff = dateStrDiff;
-
 function getLocale() {
     // Explicitly set locale always wins.
     if (CONFIG && CONFIG.locale) {
@@ -366,6 +313,28 @@ function getType(value) {
     return fields[1].slice(0, fields[1].length - 1);
 }
 module.exports.getType = getType;
+
+/** Human readable format of a date span
+ * @param {Object} dayjs startDate
+ * @param {Object} dayjs endDate
+ */
+function humanDateSpan(startDate, endDate) {
+    if (startDate.year() === endDate.year()) {
+        if (startDate.month() === endDate.month()) {
+            // Same month
+            // January 5 - 8, 2021
+            return `${startDate.format("MMMM DD")} - ${endDate.format("DD")}, ${endDate.format("YYYY")}`;
+        } else {
+            // Same year.
+            // January 5 - February 8, 2021
+            return `${startDate.format("MMMM D")} - ${endDate.format("MMMM D")}, ${endDate.format("YYYY")}`;
+        }
+    } else {
+        // January 5 2021 - February 8, 2022
+        return `${startDate.format("MMMM D YYYY")} - ${endDate.format("MMMM D YYYY")}`;
+    }
+}
+module.exports.humanDateSpan = humanDateSpan;
 
 /** Search for an object key in an object, recursively.
  * Descend into every value whose `getType()` is "Object" or "Array".

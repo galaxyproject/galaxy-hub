@@ -14,7 +14,7 @@
         <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
         <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
-            <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan(article.date, article.days) }}</li>
+            <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
             <li v-if="article.location">
                 <span class="metakey">Location: </span>
                 <a v-if="article.location_url" :href="article.location_url">{{ article.location }}</a>
@@ -37,7 +37,7 @@
             <p class="contact" v-if="article.contact">Contact: {{ article.contact }}</p>
             <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
             <p class="date" v-if="article.date">
-                {{ dateToStr(strToDate(article.date), "D MMMM YYYY") }}
+                {{ articleDateStr }}
             </p>
         </section>
         <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
@@ -49,49 +49,31 @@
 </template>
 
 <script>
-import { repr, doRedirect, strToDate, dateToStr, getImage } from "~/utils.js";
+import { repr, doRedirect, getImage, humanDateSpan } from "~/utils.js";
+import * as dayjs from "dayjs";
+
 export default {
     props: {
         article: { type: Object, required: true },
+    },
+    computed: {
+        dateSpan() {
+            if (this.article?.days > 1) {
+                const startDate = dayjs(this.article.start);
+                const endDate = dayjs(this.article.start).add(this.article.days, "day");
+                return humanDateSpan(startDate, endDate);
+            } else {
+                return this.articleDateStr;
+            }
+        },
+        articleDateStr() {
+            return dayjs(this.article.date).format("MMMM D YYYY");
+        },
     },
     methods: {
         getImage(article) {
             return getImage(article.image, article.images);
         },
-        dateSpan(start, days, format = "D MMMM YYYY") {
-            let startDate = strToDate(start);
-            if (days && days > 1) {
-                let endTimestamp = startDate.getTime() + (days - 1) * 24 * 60 * 60 * 1000;
-                let endDate = new Date(endTimestamp);
-                let prefix = "",
-                    startDateStr,
-                    endDateStr,
-                    suffix = "";
-                if (startDate.getFullYear() === endDate.getFullYear()) {
-                    if (startDate.getMonth() === endDate.getMonth()) {
-                        // Everything the same but the day.
-                        prefix = dateToStr(startDate, "MMMM") + " ";
-                        startDateStr = String(startDate.getDate());
-                        endDateStr = String(endDate.getDate());
-                        suffix = ", " + startDate.getFullYear();
-                    } else {
-                        // Same year.
-                        startDateStr = dateToStr(startDate, "D MMMM");
-                        endDateStr = dateToStr(endDate, "D MMMM");
-                        suffix = ", " + startDate.getFullYear();
-                    }
-                } else {
-                    // Different years.
-                    startDateStr = dateToStr(startDate, format);
-                    endDateStr = dateToStr(endDate, format);
-                }
-                return `${prefix}${startDateStr} - ${endDateStr}${suffix}`;
-            } else {
-                return dateToStr(startDate, format);
-            }
-        },
-        strToDate,
-        dateToStr,
     },
     mounted() {
         if (this.article.redirect) {
