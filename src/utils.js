@@ -193,7 +193,7 @@ module.exports.mdToHtml = mdToHtml;
 function gridifyPath(rawPath) {
     let rawParts = rawPath.split(path.sep);
     let lastPart = rawParts[rawParts.length - 1];
-    if (endswith(lastPart, ".html")) {
+    if (lastPart.endsWith(".html")) {
         rawParts[rawParts.length - 1] = rmSuffix(lastPart, ".html");
         rawParts.push("");
     }
@@ -239,11 +239,6 @@ function rmSuffix(rawString, suffix) {
     }
 }
 module.exports.rmSuffix = rmSuffix;
-
-function endswith(string, query) {
-    return string.indexOf(query) === string.length - query.length;
-}
-module.exports.endswith = endswith;
 
 /** Create the same effect as adding a tab to the string, except use spaces. */
 function spaceTab(rawStr, tabWidth = 8) {
@@ -364,7 +359,7 @@ function getType(value) {
         console.error(repr`Wrong number of fields in toString: ${fields}`);
         return null;
     }
-    if (!endswith(fields[1], "]")) {
+    if (!fields[1].endsWith("]")) {
         console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
         return null;
     }
