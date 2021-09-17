@@ -59,10 +59,9 @@
 </template>
 
 <script>
-import path from "path";
 import { rmPrefix } from "~/utils.js";
 import CONFIG from "~/../config.json";
-const REPO_URL = "https://github.com/galaxyproject/galaxy-hub/";
+const REPO_URL = "https://github.com/galaxyproject/galaxy-hub";
 const EDIT_PATH = "tree/master/content";
 export default {
     computed: {
@@ -72,10 +71,14 @@ export default {
             // page (which has a README, etc., so is not unreasonable).
             let sourcePath = getPath(this.$page);
             if (sourcePath) {
+                // Remove build directory prefix (e.g. "build/content-md").
+                // `Article`s contain the prefix (e.g. "build/content-md/galaxy-project/statistics/index.md").
+                // `VueArticle`s lack it (e.g. "events/gcc2019/index.md").
                 sourcePath = rmPrefix(sourcePath, CONFIG.build.dirs.md);
-                return path.join(REPO_URL, EDIT_PATH, sourcePath);
+                sourcePath = rmPrefix(sourcePath, "/");
+                return `${REPO_URL}/${EDIT_PATH}/${sourcePath}`;
             } else {
-                return REPO_URL;
+                return REPO_URL+"/";
             }
         },
     },
