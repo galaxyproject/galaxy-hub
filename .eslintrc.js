@@ -1,11 +1,9 @@
 module.exports = {
-    extends: [
-        // add more generic rulesets here, such as:
-        "eslint:recommended",
-        "plugin:vue/strongly-recommended", // Use this if you are using Vue.js 2.x.
-    ],
+    plugins: ["cypress"],
+    extends: ["eslint:recommended", "plugin:vue/strongly-recommended", "plugin:cypress/recommended"],
     env: {
         node: true,
+        "cypress/globals": true,
     },
     rules: {
         // Prettier compromises/workarounds -- mostly #wontfix?
