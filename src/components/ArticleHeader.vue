@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import { repr, doRedirect, titlecase, strToDate, dateToStr, getImage } from "~/utils.js";
+import { repr, doRedirect, strToDate, dateToStr, getImage } from "~/utils.js";
 export default {
     props: {
         article: { type: Object, required: true },
@@ -90,7 +90,6 @@ export default {
                 return dateToStr(startDate, format);
             }
         },
-        titlecase,
         strToDate,
         dateToStr,
     },
