@@ -41,6 +41,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/events/archive/footer/") {
     id

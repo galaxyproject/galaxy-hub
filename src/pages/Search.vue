@@ -94,6 +94,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/search/footer/") {
     id

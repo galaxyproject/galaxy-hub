@@ -124,6 +124,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   videos: insert(path: "/insert:/homepage-videos/") {
     id
