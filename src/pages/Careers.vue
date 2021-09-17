@@ -34,6 +34,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/careers/footer/") {
     id

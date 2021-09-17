@@ -37,6 +37,7 @@ query VueArticle($path: String!) {
     source_blog_url
     skip_title_render
     redirect
+    external_url
     autotoc
     links {
       url
@@ -44,11 +45,13 @@ query VueArticle($path: String!) {
     }
     image
     images
+    fileInfo {
+        path
+    }
     inserts {
       name
       content
     }
-    external_url
     content
   }
 }

@@ -32,6 +32,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
 }
 </page-query>

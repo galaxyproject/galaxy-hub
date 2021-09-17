@@ -340,6 +340,11 @@ export default {
 
 <page-query>
 query {
+  main: insert(path: "/insert:/use/main/") {
+    fileInfo {
+      path
+    }
+  }
   allInsert(filter: {path: {regex: "^/insert:/use/[^/]+/$"}}) {
     totalCount
     edges {

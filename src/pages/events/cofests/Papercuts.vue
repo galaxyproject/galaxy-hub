@@ -55,6 +55,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/events/cofests/papercuts/footer/") {
     id

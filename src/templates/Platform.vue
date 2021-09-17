@@ -69,6 +69,9 @@ query Platform($path: String!) {
     quotas
     citations
     sponsors
+    fileInfo {
+        path
+    }
   }
 }
 </page-query>

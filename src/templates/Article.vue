@@ -17,9 +17,6 @@ query Article ($path: String!) {
     days
     contact
     contact_url
-    fileInfo {
-        path
-    }
     authors
     location
     location_url
@@ -27,6 +24,7 @@ query Article ($path: String!) {
     source_blog_url
     skip_title_render
     redirect
+    external_url
     autotoc
     links {
       url
@@ -34,7 +32,9 @@ query Article ($path: String!) {
     }
     image
     images
-    external_url
+    fileInfo {
+        path
+    }
     content
   }
 }
