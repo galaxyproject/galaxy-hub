@@ -2,9 +2,9 @@
 title: ""
 ---
 
-<div class="h1 text-center">
+<div class="h1 text-center" style="text-transform: uppercase;">
 
-Analysis of Functions Expressed by Microbiomes
+**Analysis of Functions Expressed by Microbiomes**
 
 </div>
 
@@ -42,7 +42,7 @@ All times are [India Standard Time](https://www.timeanddate.com/worldclock/conve
 | | 9:05-10:00 AM | **Inaugural Lecture** by Dr. Robert Hettich (Oak Ridge National Laboratory, Oak Ridge, TN)  on introduction to microbiome research |
 | | 10:05-11:00 AM | **Introduction to Galaxy Video Tutorials**  - Dave Clements (Galaxy Project, Johns Hopkins University) and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
 | | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work on assignments based on the Galaxy video tutorials** |
-| | 3:30-4:30 PM | **Applications within Galaxy - Dr. Anshu Bhardwaj (CSIR-IMTech, Chandigarh) |
+| | 3:30-4:30 PM | **Applications within Galaxy** - Dr. Anshu Bhardwaj (CSIR-IMTech, Chandigarh) |
 | | 5:30-6:30 PM | **Ice-Breaker Session** (Interaction amongst attendees) |
 | | 6:30-7:30 PM | **Hands-on session to answer questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
 | **Nov 16** | 8:30-9:00 AM | **Microbiome/Galaxy Kahoot!** |
