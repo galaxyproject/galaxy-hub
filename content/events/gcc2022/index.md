@@ -62,8 +62,6 @@ Campus is a city within a city, close to engaging neighborhoods, cultural attrac
 
 The University of Minnesota is located in the heart of the Twin Cities of [Minneapolis](https://www.minneapolis.org/) and [St. Paul](https://www.visitsaintpaul.com/) Minnesota.  The two downtowns are less than 10 miles apart and are connected by rapid transit that goes right through campus.  The Twin Cities offer a vibrant cultural, music, sports, and entertainment scene, with great access to the outdoors.  The Twin Cites are one of the most livable metro areas in the United States.
 
-GCC2022 is hosted by the **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/)**  The Twin Cities (St. Paul is the other twin) is one of the most livable metropolitan areas in the US.
-
 <small>Photo: Chad Davis, Flickr, CC-BY NC SA 2.0</small>
     </div>
   </div>
