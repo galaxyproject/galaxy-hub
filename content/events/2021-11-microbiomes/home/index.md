@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Analysis of Functions Expressed by Microbiomes"
+skip_title_render: true
 ---
 
 <div class="h1 text-center" style="text-transform: uppercase;">
