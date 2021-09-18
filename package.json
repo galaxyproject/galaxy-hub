@@ -6,7 +6,9 @@
     "develop": "src/build/run.mjs develop",
     "format": "prettier --write '*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "lint": "eslint src/**/*.{mjs,js,vue}",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "start-server-and-test develop http://localhost:8080 cypress:run"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -41,7 +43,8 @@
     "eslint": "^7.32.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^7.17.0",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.1.1",
+    "start-server-and-test": "^1.14.0"
   },
   "prettier": {
     "printWidth": 120,
