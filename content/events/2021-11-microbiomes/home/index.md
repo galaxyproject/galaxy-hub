@@ -68,5 +68,5 @@ All times are [India Standard Time](https://www.timeanddate.com/worldclock/conve
 | | 10:05-10:30 AM | **Introduction to presentation formats for attendees** - Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
 | **Nov 22** | 8:30-11:00 AM | **Talks by participants.** |
 | **Nov&nbsp;23** | 8:30-11:00 AM | **Talks by participants.** |
-| **Nov&nbsp;24** | 9:05-10:00 AM | **Concluding Talk** by Dr. Sharmila Mande (Distinguished Chief Scientist & Head, Bio-Sciences R&D at the Tata Consultancy Services) |
+| **Nov&nbsp;24** | 9:05-10:00 AM | **Concluding Talk** by Dr. Sharmila Mande (Distinguished Chief Scientist, TCS Research, Tata Consultancy Services Ltd.) |
 | | 10:05-11:00 AM | **Results, conclusion and feedback form.** |
