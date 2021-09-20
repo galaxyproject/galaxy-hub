@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-05-29"
 ---
 
-<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 20rem" /></a>
+<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 20rem" /></a>
 
 The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition) wraps up with a two-day CollaborationFest, 9-10 July.  CoFest will run 24 hours a day, following the sun for two days.  It is a superb way to get involved with the Galaxy contributor community, and to improve the Galaxy ecosystem at the same time.
 

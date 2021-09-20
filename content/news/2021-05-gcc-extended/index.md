@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-05-04"
 ---
 
-<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
+<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 24rem" /></a>
 
 We are pleased to announce that several deadlines for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) have been extended.  See below.
 

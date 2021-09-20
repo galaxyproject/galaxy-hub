@@ -70,7 +70,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 <div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">
@@ -97,7 +97,7 @@ Registering before __June 1__ saves 50% off of the full rates. Registration disc
 <div class="card border-info" style="min-width: 40%; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">

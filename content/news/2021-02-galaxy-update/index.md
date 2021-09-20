@@ -111,7 +111,7 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 
 <!-- GCC2021 Goes Virtual -->
 <div class="card border-info" style="min-width: 20rem; max-width: 24rem">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021 goes virtual" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021 goes virtual" />
 <div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be virtual, affordable, and globally accessible.**
