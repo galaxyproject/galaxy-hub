@@ -16,11 +16,11 @@ components: true
 <div class="h3 text-center">
 
 July 16-23, 2022<br />
-University of Minnesota Twin Cities <br />
+University of Minnesota, Twin Cities <br />
 Minneapolis, Minnesota, United States
 
 </div>
-</div>
+
 
 <div class="card-deck lead">
 
@@ -42,11 +42,11 @@ This annual gathering of the Galaxy community includes **training, talks, poster
   <div class="card" style="min-width: 25%; max-width: 20rem;">
     <img src="/images/events/gcc2022/umn-northrup-mall.jpg" class="card-img-top" alt="University of Minnesota Northrup Mall" />
     <div class="card-header">
-      <p class="card-title"> University of Minnesota Twin Cities </p>
+      <p class="card-title"> University of Minnesota, Twin Cities </p>
     </div>
     <div class="card-body">
 
-GCC2022 will be held at the **[University of Minnesota Twin Cities](https://twin-cities.umn.edu/)** campus in Minneapolis, Minnesota, United States.
+GCC2022 will be held at the **[University of Minnesota, Twin Cities](https://twin-cities.umn.edu/)** campus in Minneapolis, Minnesota, United States.
 
 Campus is a city within a city, close to engaging neighborhoods, cultural attractions, public art and greenspace, restaurants, and much more. Campus straddles the Mississippi River and no matter where you are, you're never far from nature with parks, trails, and waterways just a short walk away.
     </div>
@@ -98,7 +98,7 @@ For over 30 years the **[Minnesota Supercomputing Institute (MSI)](https://www.m
 </div>
 
 
-# What else is happening?
+# July 16 - July 23
 
 GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *ideal* window:
 
@@ -111,7 +111,9 @@ GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *
     </div>
     <div class="card-body">
 
-**[ISMB 2022](https://www.iscb.org/ismb2022), which will include BOSC 2022** runs July 10-14 in nearby Madison, Wisconsin, just a 70 minute plane ride, or a 4 hour drive away.  If you attend ISMB/BOSC, you will have Friday, July 14 for travel from Madison.  (Madison is another great upper Midwestern city, with lots of water and activity.)
+**July 10-14, Madison**
+
+**[ISMB 2022](https://www.iscb.org/ismb2022), which will include BOSC 2022** runs July 10-14 in nearby Madison, Wisconsin, just a 70 minute plane ride, or a 4 hour drive away.  If you attend ISMB/BOSC, you will have Friday, July 15 for travel from Madison.  (Madison is another great upper Midwestern city, with lots of water and activity.)
     </div>
   </div>
 
@@ -122,6 +124,8 @@ GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *
       <p class="card-title"> Twin Cities Beach Blast </p>
     </div>
     <div class="card-body">
+
+**July 17, Minneapolis**
 
 **[Twin Cities Beach Blast](https://www.tcbeachblast.com/)**, July 17, featuring *Milk Carton Boat Races* (really) and a *Sand Castle Competition* on Bde Maka Ska (formerly Lake Calhoun).
     </div>
@@ -135,7 +139,9 @@ GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *
     </div>
     <div class="card-body">
 
-**[Aquatennial](https://www.aquatennial.com/)** the biggest celebration in Minneapolis's summer, is held July 20-23, nicely overlapping with the last half of GCC2022.  Aquatennial includes parades, concerts, water ski shows (!), Major League Baseball (go Twins), [Carifest](https://carifest.org/), and fireworks (to mark the end of GCC!).
+**July 20-23, Minneapolis**
+
+**[Aquatennial](https://www.aquatennial.com/)** the biggest celebration in Minneapolis's summer, is held July 20-23, nicely overlapping with the last half of GCC2022.  Aquatennial includes parades, concerts, water ski shows (!), Major League Baseball (go Twins), [**Carifest**](https://carifest.org/), and fireworks (to mark the end of GCC!).
     </div>
   </div>
 
@@ -153,7 +159,7 @@ GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *
     </div>
     <div class="card-body">
 
-The [Minneapolis St. Paul Airport (MSP)](https://www.mspairport.com/) is a major domestic and international airport, a hub for Delta Airlines, and is [served by 18 airlines](https://www.mspairport.com/flights-airlines/direct-route-map) with direct flights to 44 US states, Europe and Mexico.
+The [Minneapolis St. Paul Airport (MSP)](https://www.mspairport.com/) is a major domestic and international airport, a hub for Delta Airlines, and is [served by 18 airlines](https://www.mspairport.com/flights-airlines/direct-route-map) with direct flights to 44 US states, Canada, Europe and Mexico.
     </div>
   </div>
 
@@ -166,9 +172,9 @@ The [Minneapolis St. Paul Airport (MSP)](https://www.mspairport.com/) is a major
     <div class="card-body">
 <p>If you are coming from ISMB in Madison, you have several options:</p>
 <ul>
-<li>Fly 70 minutes, direct.</li>
+<li><a href="https://www.kayak.com/flights/MSN-MSP/2022-07-15?sort=bestflight_a">Fly 70 minutes, direct</a>.</li>
 <li>Drive 4 hours through the rolling hills of western Wisconsin.</li>
-<li>Bus, 6 hours, and let someone else do the driving (between $1 and $50).</li>
+<li>Bus, 6 hours, and let someone else do the driving (between $1 and $50, see <a href="https://www.wanderu.com/en-us/depart/Madison%2C WI%2C USA/Minneapolis%2C MN%2C USA/2022-07-15/">Wanderu</a> and <a href="https://us.megabus.com/route-guides/madison-to-minneapolis-bus">MegaBus</a> ).</li>
 </ul>
     </div>
   </div>
