@@ -59,8 +59,8 @@ export default {
     computed: {
         dateSpan() {
             if (this.article?.days > 1) {
-                const startDate = dayjs(this.article.start);
-                const endDate = dayjs(this.article.start).add(this.article.days, "day");
+                const startDate = dayjs(this.article.date);
+                const endDate = startDate.add(this.article.days, "day");
                 return humanDateSpan(startDate, endDate);
             } else {
                 return this.articleDateStr;
