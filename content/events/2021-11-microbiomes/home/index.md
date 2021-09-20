@@ -18,15 +18,15 @@ Online Workshop <br />
 
 <div class="h4 text-center">
 
-Funded by American Society of Microbiology (ASM) and  Indo-United States Science and Technology Forum (IUSSTF).
+Funded by [American Society of Microbiology (ASM)](https://asm.org/) and [Indo-United States Science and Technology Forum (IUSSTF)](https://www.iusstf.org/).
 
-Hosted by CSIR-IMTech, Chandigarh and Galaxy-P Team, Minneapolis
+Hosted by [CSIR-IMTech](https://www.imtech.res.in/), Chandigarh and [Galaxy-P Team](http://galaxyp.org/), Minneapolis.
 
 ![Sponsors and Hosts](/images/events/2021-11-microbiomes/sponsors-hosts.png)
 
 </div>
 
-Speakers from across the world and instructors from Galaxy community will teach online courses on microbiome analysis through recorded videos and interactive resources.
+Microbiome experts and instructors from Galaxy community will teach online courses on microbiome analysis via interactive resources.
 
 ## Registration
 
