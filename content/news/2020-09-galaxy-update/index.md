@@ -71,7 +71,7 @@ If you presented a talk or poster/demo then please upload your slides and PDFs t
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-food-drink.png" alt="BCC2021 will be in Ghent" /></a>
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-food-drink.png" alt="BCC2021 will be in Ghent" /></a>
 <div class="card-header">BCC2021: Pack your bags for Ghent</div>
 
 **The 2021 Galaxy Community Conference (GCC2021) will be held in Ghent, Belgium, 5-12 July.**  We are hoping to be back in person next year. GCC2021 will end shortly before the [The Ghent Festivities](https://visit.gent.be/en/calendar/ghent-festivities), 10 days of varied and free offer (music) performances, (street) theatre, exhibitions, animation for children, fairs, parades and much more.

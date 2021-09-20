@@ -5,7 +5,7 @@ days: 13
 tease: "Galaxy's annual community gathering"
 continent: GL
 location: "Online, Global"
-image: "gcc2021-logo-wide.png"
+image: "/images/events/gcc2021/gcc2021-logo-wide.png"
 location_url: "https://vib.be/"
 external_url: "https://www.vibconferences.be/events/gcc2021"
 gtn: true

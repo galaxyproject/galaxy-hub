@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-02-04"
 ---
 
-[<img src="/src/events/gcc2021/gcc2021-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)
+[<img src="/images/events/gcc2021/gcc2021-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)
 
 **The [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021) is moving to a virtual format.** Things are just too uncertain to continue to plan an in person event for early July.  Moving online presents many challenges, but also offers opportunities for making this event more accessible and affordable than an in-person event.  GCC2021 is embracing those opportunities and we are pleased to announce 
 

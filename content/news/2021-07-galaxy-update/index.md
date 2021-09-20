@@ -32,7 +32,7 @@ This month our featured news is all about GCC2021, including several new sponsor
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
 <div class="trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">

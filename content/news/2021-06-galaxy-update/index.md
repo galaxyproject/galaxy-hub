@@ -25,7 +25,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 
 
 <!-- GCC Starts Soon -->

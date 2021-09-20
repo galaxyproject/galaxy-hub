@@ -83,7 +83,7 @@ and then goes on to describe the community's progress and perseverance over the 
 
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 50%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
 [GCC2021 Update](https://www.vibconferences.be/events/gcc2021)
@@ -103,7 +103,7 @@ We will reuse the BCC2020 model for talks, posters, and demos: __posters and dem
 
 <!-- Registration -->
 <div class="card border-info" style="min-width: 10rem; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
 [GCC2021 Registration Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)
@@ -120,7 +120,7 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 
 <!-- Fellowships -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
 [GCC2021 Fellowships](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform)
@@ -138,7 +138,7 @@ It will cover the full registration for any GCC2021 events. [Apply here](https:/
 
 <!-- Abstracts -->
 <div class="card border-info" style="min-width: 20%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">
 
 [GCC2021 Abstracts Submission Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)

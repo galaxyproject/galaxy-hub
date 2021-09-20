@@ -222,7 +222,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 45%; max-width: 100%;">
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
