@@ -78,7 +78,7 @@ export default {
                 sourcePath = rmPrefix(sourcePath, "/");
                 return `${REPO_URL}/${EDIT_PATH}/${sourcePath}`;
             } else {
-                return REPO_URL+"/";
+                return REPO_URL + "/";
             }
         },
     },
