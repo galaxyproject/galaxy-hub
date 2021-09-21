@@ -8,7 +8,7 @@
             <strong>Note</strong>
             This content has a new home at
             <a :href="article.redirect">{{ article.redirect }}</a>
-            , which you will be redirected to in 5 seconds.
+            , which you will be redirected to in {{ redirectDelay }} seconds.
         </p>
         <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
         <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
@@ -56,6 +56,11 @@ export default {
     props: {
         article: { type: Object, required: true },
     },
+    data() {
+        return {
+            redirectDelay: 5,
+        }
+    },
     computed: {
         dateSpan() {
             if (this.article?.days > 1) {
@@ -78,8 +83,9 @@ export default {
     mounted() {
         if (this.article.redirect) {
             let url = getRedirectUrl(this.article.redirect);
-            console.log(repr`Redirecting to ${url} in 5 seconds..`);
-            setTimeout(() => doRedirect(url), 5000);
+            console.log(repr`Redirecting to ${url} in ${this.redirectDelay} seconds..`);
+            let currentPath = window.location.pathname;
+            setTimeout(() => doRedirect(currentPath, url), this.redirectDelay*1000);
         }
     },
 };

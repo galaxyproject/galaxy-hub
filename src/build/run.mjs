@@ -55,7 +55,6 @@ function main(rawArgv) {
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
     gridsome.on("exit", (code, signal) => {
-        console.log(`${cmd3} received code ${code}, signal ${signal}`);
         if (signal) {
             console.error(`${cmd3} exited due to signal ${signal}`);
         }
