@@ -5,7 +5,7 @@
     "build": "src/build/run.mjs build",
     "serve": "http-server ./dist/",
     "develop": "src/build/run.mjs develop",
-    "format": "prettier --write '*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "format": "prettier --write '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "lint": "eslint src/**/*.{mjs,js,vue}",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
@@ -41,6 +41,7 @@
     "which": "^2.0.2"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
     "axe-core": "^4.3.3",
     "cypress": "8.4.1",
     "cypress-axe": "^0.13.0",
