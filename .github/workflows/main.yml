@@ -20,6 +20,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
+      - name: Lint
+        run: yarn lint
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
