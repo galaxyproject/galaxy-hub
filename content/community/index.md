@@ -12,7 +12,7 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 
 # Galaxy Community Conferences
 
-<img class="float-right" style="max-width: 16rem;" src="/events/gcc2021/gcc2021-logo-wide-trans.png">
+<img class="float-right" style="max-width: 16rem;" src="/images/events/gcc2021/gcc2021-logo-wide-trans.png">
 
 In 2010 the National Science Foundation initiated a yearly gathering of Galaxy users and developers by providing the project with a grant supplement. Since then this gathering has grown into an annual event known as the **[Galaxy Community Conference (GCC)](/src/gcc/index.md)**. GCC alternates between North America and elsewhere, and provides a forum for sharing knowledge and building collaborations. There have been over 200 participants every year since 2012.
 
