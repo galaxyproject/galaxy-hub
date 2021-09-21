@@ -19,6 +19,35 @@ describe("Test insert functionality", () => {
     });
 });
 
+describe("Use Page Tests", () => {
+    it("Visits the Use index, exercises controls", () => {
+        cy.visit("/use/");
+        cy.get("#masthead-logo").should("be.visible");
+        cy.findByRole("tablist").within(() => {
+            cy.findByText(/Public Servers/i).should("be.visible");
+            cy.findByText(/Public Servers/i).click();
+        });
+        cy.get(".tab-pane.active").within(() => {
+            cy.get("#public-server-filter-input").should("be.visible");
+            cy.get("#public-server-filter-input").type("Galaxy Test");
+            cy.findByText(/Beta version of Galaxy Main/i).should("be.visible");
+            cy.findByText(/Showing 1 to 1 of 1 results/i).should("be.visible");
+            cy.get("#public-server-filter-input").clear();
+            cy.findByText(/Showing .+ total/i).should("be.visible");
+        });
+    });
+
+    it("Tries to visit another page after /use/, via the masthead", () => {
+        // Of course this works, it's the develop server...
+        // TODO: test against the simple production server after a build?
+        cy.visit("/use/");
+        cy.get("#masthead-logo").should("be.visible");
+        cy.findByRole("button", { name: /Community/i }).click();
+        cy.findByRole("menuitem", { name: /Stats/i }).click();
+        cy.findByText(/Galaxy Project Stats/i).should("be.visible");
+    });
+});
+
 describe("Bootstrap component tests", () => {
     it("Tests the video popup on /tutorials/chip/", () => {
         cy.visit("/tutorials/chip/");
