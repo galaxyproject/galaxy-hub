@@ -36,11 +36,6 @@ function repr(strParts, ...values) {
 }
 module.exports.repr = repr;
 
-function contains(iterable, element) {
-    return !!(iterable.indexOf(element) > -1);
-}
-module.exports.contains = contains;
-
 // Set operations from https://exploringjs.com/impatient-js/ch_sets.html#missing-set-operations
 
 /** Get the union of two arrays (or any other spreadable iterable).
@@ -258,8 +253,13 @@ function getFilesShallow(dirPath, excludeExt = null) {
 }
 module.exports.getFilesShallow = getFilesShallow;
 
-function doRedirect(url) {
-    window.location.href = url;
+function doRedirect(currentPath, destUrl) {
+    if (window.location.pathname === currentPath) {
+        window.location.href = destUrl;
+    } else {
+        // Cancel redirect if the user has navigated away already.
+        console.log(`Skipping redirect: user navigated away from ${currentPath}`);
+    }
 }
 module.exports.doRedirect = doRedirect;
 

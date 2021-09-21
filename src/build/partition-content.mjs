@@ -348,7 +348,7 @@ function fileContainsTags(fileContents, tags) {
     let queryStrings = tags.map((tag) => `<${tag} `);
     for (let line of splitlines(fileContents)) {
         for (let query of queryStrings) {
-            if (line.indexOf(query) >= 0) {
+            if (line.includes(query)) {
                 return true;
             }
         }
@@ -358,7 +358,7 @@ function fileContainsTags(fileContents, tags) {
 
 function fileContainsSubstr(filePath, substr) {
     let fileContents = fs.readFileSync(filePath, { encoding: "utf8" });
-    return fileContents.indexOf(substr) >= 0;
+    return fileContents.includes(substr);
 }
 
 /** Delete any empty directories in the tree rooted at `dirPath`, including `dirPath`. */
@@ -405,7 +405,7 @@ function assignPlacers(placerOpt, placersOpt, contentTypes) {
     }
     if (placersOpt) {
         for (let [name, value] of Object.entries(placersOpt)) {
-            if (contentTypes.indexOf(name) === -1) {
+            if (!contentTypes.includes(name)) {
                 let typesList = contentTypes.join("', '");
                 throw repr`Invalid content type ${name}. Must be one of '` + typesList + "'";
             }

@@ -26,12 +26,7 @@ function fixer(node, index, parent) {
     let newChildren = [];
     let lastChild;
     for (let child of parent.children) {
-        if (
-            child.type == "html" &&
-            lastChild &&
-            !lastChild.keepNewlineKludge &&
-            EXCLUDED.indexOf(lastChild.type) === -1
-        ) {
+        if (child.type == "html" && lastChild && !lastChild.keepNewlineKludge && !EXCLUDED.includes(lastChild.type)) {
             newChildren.push({ type: "text", value: "", keepNewlineKludge: true });
         }
         newChildren.push(child);
