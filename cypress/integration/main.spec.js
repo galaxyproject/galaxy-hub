@@ -18,3 +18,12 @@ describe("Test insert functionality", () => {
         cy.get(".alert.alert-info  > p > a[href='/events/gcc2013/program/']").should("be.visible");
     });
 });
+
+describe("Bootstrap component tests", () => {
+    it("Tests the video popup on /tutorials/chip/", () => {
+        cy.visit("/tutorials/chip/");
+        cy.get("h4.modal-title").should("not.be.visible");
+        cy.get('[data-target="#lib_video"]').first().click();
+        cy.get("h4.modal-title").should("be.visible");
+    });
+});
