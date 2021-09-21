@@ -21,21 +21,49 @@ if (command !== "develop" && command !== "build") {
 // Preprocess content.
 let argv = process.argv.slice();
 argv[2] = "preprocess";
-console.log(`$ ${PREPROCESSOR_RELPATH} ` + argv.slice(2).join(" "));
-childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), { stdio: "inherit" });
+let cmd1 = [PREPROCESSOR_RELPATH, ...argv.slice(2)].join(" ");
+console.log(`$ ${cmd1}`);
+let { status: code, signal} = childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), { stdio: "inherit" });
+if (code) {
+    console.error(`${cmd1} exited with code ${code}`);
+}
+if (signal) {
+    console.error(`${cmd1} exited due to signal ${signal}`);
+}
+if (code !== 0) {
+    process.exit(code);
+}
 
 // Start hot reloader, if running developer server.
 if (command === "develop") {
     let args = ["watch", ...process.argv.slice(3)];
-    console.log(`$ ${PREPROCESSOR_RELPATH} ` + args.join(" ") + " &");
-    //TODO: Use the returned ChildProcess to kill the child process when the parent is killed.
-    childProcess.spawn(PREPROCESSOR_PATH, args, { stdio: "inherit" });
+    let cmd2 = [PREPROCESSOR_RELPATH, ...args].join(" ");
+    console.log(`$ ${cmd2} &`);
+    let watcher = childProcess.spawn(PREPROCESSOR_PATH, args, { stdio: "inherit" });
+    watcher.on('exit', (code, signal) => {
+        if (code) {
+            console.error(`${cmd2} exited with code ${code}`);
+        }
+        if (signal) {
+            console.error(`${cmd2} exited due to signal ${signal}`);
+        }
+        process.exit(code);
+    });
 }
 
 // Start Gridsome.
 let gridsomeExe = findGridsome();
-console.log(`$ ${gridsomeExe} ${command}`);
-childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
+let cmd3 = `${gridsomeExe} ${command}`;
+console.log(`$ ${cmd3}`);
+let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
+gridsome.on('exit', (code, signal) => {
+    if (signal) {
+        console.error(`${cmd3} exited due to signal ${signal}`);
+    }
+    if (code !== null) {
+        process.exitCode = code;
+    }
+});
 //TODO: Get Gridsome's colors working in stdout again.
 
 /** Find the correct command to execute Gridsome. */
