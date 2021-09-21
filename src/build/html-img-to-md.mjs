@@ -55,12 +55,12 @@ function replaceImgs(rootNode, index, parent) {
     parent.children.splice(index, 1, ...replacements);
 }
 
+/** Does this HTML fragment contain only `<img>` elements?
+ * `imgElems`: The `<img>` elements parsed from the HTML using `rehype-parse`
+ *   (the output of `findImgElems()`).
+ * `htmlLength`: The length of the HTML string parsed by `rehype-parse`.
+ */
 function containsOnlyImgs(imgElems, htmlLength) {
-    /** Does this HTML fragment contain only `<img>` elements?
-     * `imgElems`: The `<img>` elements parsed from the HTML using `rehype-parse`
-     *   (the output of `findImgElems()`).
-     * `htmlLength`: The length of the HTML string parsed by `rehype-parse`.
-     */
     let lastImgEnd = 0;
     for (let imgElem of imgElems) {
         if (imgElem.position.start.offset !== lastImgEnd) {

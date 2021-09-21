@@ -70,7 +70,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 
 function main(command, opts) {
     // Check if command is valid.
-    if (["preprocess", "watch"].indexOf(command) === -1) {
+    if (!(command === "preprocess" || command === "watch")) {
         let preamble;
         if (command) {
             preamble = repr`Invalid command ${command}. `;

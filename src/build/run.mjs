@@ -29,7 +29,7 @@ function main(rawArgv) {
     argv[2] = "preprocess";
     let cmd1 = [PREPROCESSOR_RELPATH, ...argv.slice(2)].join(" ");
     console.log(`$ ${cmd1}`);
-    let { status: code, signal} = childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), { stdio: "inherit" });
+    let { status: code, signal } = childProcess.spawnSync(PREPROCESSOR_RELPATH, argv.slice(2), { stdio: "inherit" });
     if (code) {
         console.error(`${cmd1} exited with code ${code}`);
     }
@@ -55,7 +55,7 @@ function main(rawArgv) {
     let cmd3 = `${gridsomeExe} ${command}`;
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
-    gridsome.on('exit', (code, signal) => {
+    gridsome.on("exit", (code, signal) => {
         console.log(`${cmd3} received code ${code}, signal ${signal}`);
         if (signal) {
             console.error(`${cmd3} exited due to signal ${signal}`);
@@ -67,7 +67,7 @@ function main(rawArgv) {
 
     // Die if there is a watcher and it dies.
     if (watcher) {
-        watcher.on('exit', (code, signal) => {
+        watcher.on("exit", (code, signal) => {
             if (code) {
                 console.error(`${cmd2} exited with code ${code}`);
             }

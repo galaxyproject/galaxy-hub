@@ -47,11 +47,11 @@ export default function attacher(options) {
     return transformer;
 }
 
+/** Get the relative path of this file from the base directory.
+ *  Multiple bases can be given and this will chose the one which results in the shortest
+ *  relative path.
+ */
 function getDirPath(bases, cwd, filePathRaw) {
-    /** Get the relative path of this file from the base directory.
-     *  Multiple bases can be given and this will chose the one which results in the shortest
-     *  relative path.
-     */
     let dirPaths = [];
     for (let base of bases.filter((b) => b)) {
         let filePath = getRelFilePath(cwd, filePathRaw, base);
@@ -108,12 +108,12 @@ function fixHtmlLinks(node) {
     node.value = html;
 }
 
+/** Replace the value of HTML property `propName` in `elem` with the value `value` by directly
+ *  editing `htmlStr`.
+ *  Note: This requires `elem` to be parsed from `htmlStr` using `rehype-parse` with `verbose` set
+ *  to `true`.
+ */
 function editProperty(htmlStr, elem, propName, value) {
-    /** Replace the value of HTML property `propName` in `elem` with the value `value` by directly
-     *  editing `htmlStr`.
-     *  Note: This requires `elem` to be parsed from `htmlStr` using `rehype-parse` with `verbose` set
-     *  to `true`.
-     */
     // Note: This does not check if there are double-quotes in `value`.
     // That would result in invalid HTML.
     let propData = elem.data.position.properties[propName];
@@ -123,12 +123,12 @@ function editProperty(htmlStr, elem, propName, value) {
     return prefix + replacement + suffix;
 }
 
+/** Find all the elements of a given type in a `hast` tree rooted at `elem`.
+ * NOTE: `elem` should be of type `element` or `root`. This does not check that.
+ */
 function getElementsByTagNames(elem, tagNames) {
-    /** Find all the elements of a given type in a `hast` tree rooted at `elem`.
-     * NOTE: `elem` should be of type `element` or `root`. This does not check that.
-     */
     let results = [];
-    if (tagNames.indexOf(elem.tagName) >= 0) {
+    if (tagNames.includes(elem.tagName)) {
         results.push(elem);
     }
     for (let child of elem.children) {
@@ -139,8 +139,8 @@ function getElementsByTagNames(elem, tagNames) {
     return results;
 }
 
+/** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
 function fixHyperLink(rawUrl) {
-    /** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
     // Full parsing is needed to take care of situations like a trailing url #fragment.
     if (matchesPrefixes(rawUrl, PREFIX_WHITELIST)) {
         return rawUrl;
@@ -158,8 +158,8 @@ function fixHyperLink(rawUrl) {
     return url;
 }
 
+/** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
 function fixImageLink(rawPath) {
-    /** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
     let path = rmPrefix(rawPath, "/src");
     if (globals.dirPath) {
         path = toRelImagePath(globals.dirPath, path, PREFIX_WHITELIST);
