@@ -36,11 +36,6 @@ function repr(strParts, ...values) {
 }
 module.exports.repr = repr;
 
-function contains(iterable, element) {
-    return !!(iterable.indexOf(element) > -1);
-}
-module.exports.contains = contains;
-
 // Set operations from https://exploringjs.com/impatient-js/ch_sets.html#missing-set-operations
 
 /** Get the union of two arrays (or any other spreadable iterable).

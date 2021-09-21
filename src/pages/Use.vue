@@ -151,7 +151,7 @@
 </template>
 
 <script>
-import { rmPrefix, rmSuffix, mdToHtml, contains } from "~/utils.js";
+import { rmPrefix, rmSuffix, mdToHtml } from "~/utils.js";
 const LINK_DISP_NAMES = {
     "academic-cloud": "Academic",
     "commercial-cloud": "Commercial",
@@ -278,7 +278,7 @@ export default {
         getLinks(platform, groups) {
             let links = [];
             for (let platformData of platform.platforms) {
-                if (contains(groups, platformData.platform_group)) {
+                if (groups.includes(platformData.platform_group)) {
                     links.push({ url: platformData.platform_url, text: LINK_DISP_NAMES[platformData.platform_group] });
                 }
             }

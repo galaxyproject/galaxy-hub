@@ -70,7 +70,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 
 function main(command, opts) {
     // Check if command is valid.
-    if (["preprocess", "watch"].indexOf(command) === -1) {
+    if (!(command === "preprocess" || command === "watch")) {
         let preamble;
         if (command) {
             preamble = repr`Invalid command ${command}. `;
@@ -125,7 +125,6 @@ function main(command, opts) {
                 setTimeout(fixMdOnEvent, 250, eventType, path, partitioner, partitioner.verbose, partitioner.simulate);
             }
         });
-        //TODO: Wait for a gridsome develop process to appear, then exit once it dies.
     } else if (command === "preprocess") {
         process.stdout.write("Placing files into build directories.. ");
         start = Date.now();
@@ -137,7 +136,7 @@ function main(command, opts) {
             process.stdout.write("Fixing Markdown files..                ");
             start = Date.now();
             for (let buildDir of Object.values(partitioner.buildDirs)) {
-                mdfixer.main(buildDir, { quiet: !partitioner.verbose, output: true });
+                mdfixer.main(buildDir, { quiet: !partitioner.verbose, overwrite: true });
             }
         }
     }
