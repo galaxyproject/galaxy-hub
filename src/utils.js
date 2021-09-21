@@ -258,8 +258,11 @@ function getFilesShallow(dirPath, excludeExt = null) {
 }
 module.exports.getFilesShallow = getFilesShallow;
 
-function doRedirect(url) {
-    window.location.href = url;
+function doRedirect(currentPath, destUrl) {
+    // Cancel redirect if the user has navigated away already.
+    if (window.location.pathname === currentPath) {
+        window.location.href = destUrl;
+    }
 }
 module.exports.doRedirect = doRedirect;
 

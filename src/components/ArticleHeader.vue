@@ -79,7 +79,8 @@ export default {
         if (this.article.redirect) {
             let url = getRedirectUrl(this.article.redirect);
             console.log(repr`Redirecting to ${url} in 5 seconds..`);
-            setTimeout(() => doRedirect(url), 5000);
+            let currentPath = window.location.pathname;
+            setTimeout(() => doRedirect(currentPath, url), 5000);
         }
     },
 };
