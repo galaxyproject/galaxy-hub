@@ -149,9 +149,14 @@ function gridifyPath(rawPath) {
 }
 module.exports.gridifyPath = gridifyPath;
 
+/** Does the given string start with any of the given prefixes?
+ * @param {String} string  String that may or may not contain the prefixes.
+ * @param {Array} prefixes An array of strings - the prefixes.
+ * @returns {Boolean} `true` if `string` starts with any of the given `prefixes`, `false` otherwise.
+ */
 function matchesPrefixes(string, prefixes) {
     for (let prefix of prefixes) {
-        if (string.indexOf(prefix) === 0) {
+        if (string.startsWith(prefix)) {
             return true;
         }
     }
@@ -169,7 +174,7 @@ function ensurePrefix(string, char) {
 module.exports.ensurePrefix = ensurePrefix;
 
 function rmPrefix(rawString, prefix) {
-    if (rawString.indexOf(prefix) === 0) {
+    if (rawString.startsWith(prefix)) {
         return rawString.slice(prefix.length);
     } else {
         return rawString;
@@ -257,63 +262,6 @@ function doRedirect(url) {
 }
 module.exports.doRedirect = doRedirect;
 
-function describeObject(obj, indent = "", maxWidth = 100) {
-    for (let [name, value] of Object.entries(obj)) {
-        let type = typeof value;
-        let valueStr;
-        if (type === "string") {
-            valueStr = util.inspect(value);
-        } else if (type === "number" || type === "boolean" || value === null) {
-            valueStr = value;
-        } else {
-            valueStr = `(${type})`;
-        }
-        let nameStr = spaceTab(name + ":");
-        let rawLine = `${indent}${nameStr}${valueStr}`;
-        let line;
-        if (rawLine.length > maxWidth) {
-            line = rawLine.substring(0, maxWidth - 1) + "…";
-        } else {
-            line = rawLine;
-        }
-        console.log(line);
-    }
-}
-module.exports.describeObject = describeObject;
-
-const TO_STRING = {}.toString;
-/** A better alternative to `typeof`.
- * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
- * @param {*} value Any value, including `null` and `undefined`.
- * @returns A string indicating the type of value passed:
- *   undefined  "Undefined"
- *   null       "Null"
- *   1          "Number"
- *   NaN        "Number" (sorry)
- *   Infinity   "Number"
- *   false      "Boolean"
- *   'string'   "String"
- *   []         "Array"
- *   {}         "Object"
- *   isNaN      "Function"
- *   _ => {}    "Function"
- *   new Date() "Date"
- */
-function getType(value) {
-    let rawToString = TO_STRING.call(value);
-    let fields = rawToString.split(" ");
-    if (fields.length !== 2) {
-        console.error(repr`Wrong number of fields in toString: ${fields}`);
-        return null;
-    }
-    if (!fields[1].endsWith("]")) {
-        console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
-        return null;
-    }
-    return fields[1].slice(0, fields[1].length - 1);
-}
-module.exports.getType = getType;
-
 /** Human readable format of a date span
  * @param {Object} dayjs startDate
  * @param {Object} dayjs endDate
@@ -387,113 +335,35 @@ function logTree(root, depth, indent) {
 }
 module.exports.logTree = logTree;
 
-class PathInfo {
-    constructor(path) {
-        //TODO: `cache` option to tell it to cache results of system calls.
-        //      This will prevent it from updating as the filesystem state changes, though.
-        this.path = path;
+const TO_STRING = {}.toString;
+/** A better alternative to `typeof`.
+ * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
+ * @param {*} value  Any value, including `null` and `undefined`.
+ * @returns {String} The type of value passed:
+ *   undefined  "Undefined"
+ *   null       "Null"
+ *   1          "Number"
+ *   NaN        "Number" (sorry)
+ *   Infinity   "Number"
+ *   false      "Boolean"
+ *   'string'   "String"
+ *   []         "Array"
+ *   {}         "Object"
+ *   isNaN      "Function"
+ *   _ => {}    "Function"
+ *   new Date() "Date"
+ */
+function getType(value) {
+    let rawToString = TO_STRING.call(value);
+    let fields = rawToString.split(" ");
+    if (fields.length !== 2) {
+        console.error(repr`Wrong number of fields in toString: ${fields}`);
+        return null;
     }
-    /** Does the path exist?
-     *  Note: This returns `true` for broken symlinks (the link exists, but its targets does not).
-     */
-    exists() {
-        if (fs.existsSync(this.path)) {
-            return true;
-        } else {
-            try {
-                fs.lstatSync(this.path);
-                return true;
-            } catch (error) {
-                return false;
-            }
-        }
+    if (!fields[1].endsWith("]")) {
+        console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
+        return null;
     }
-    static exists(path) {
-        let pathInfo = new this(path);
-        return pathInfo.exists();
-    }
-    /** Get the type of filesystem object this path points to.
-     *  If the path does not exist, return `'nonexistent'`.
-     *  If the path is a symbolic link, return the type of its target. If the target is missing,
-     *  return `'brokenlink'`.
-     */
-    type() {
-        if (!this.exists()) {
-            return "nonexistent";
-        }
-        let stats;
-        try {
-            stats = fs.statSync(this.path);
-        } catch (error) {
-            if (error.code === "ENOENT") {
-                // fs.statSync() will throw an error on a broken link.
-                // We defined those as "existing" in this.exists(), but fs.statSync() does not agree.
-                if (this.isLink()) {
-                    return "brokenlink";
-                } else {
-                    console.error(`Unexpected filesystem entry ${this.path}`);
-                    throw error;
-                }
-            } else {
-                throw error;
-            }
-        }
-        if (stats.isFile()) {
-            return "file";
-        } else if (stats.isDirectory()) {
-            return "dir";
-        } else if (stats.isSocket()) {
-            return "socket";
-        } else if (stats.isBlockDevice()) {
-            return "block";
-        } else if (stats.isCharacterDevice()) {
-            return "char";
-        } else if (stats.isFIFO()) {
-            return "fifo";
-        } else {
-            throw `Unexpected path type: ${this.path}`;
-        }
-    }
-    static type(path) {
-        let pathInfo = new this(path);
-        return pathInfo.type();
-    }
-    isLink() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            if (stats.isSymbolicLink()) {
-                return true;
-            }
-        }
-        return false;
-    }
-    static isLink(path) {
-        let pathInfo = new this(path);
-        return pathInfo.isLink();
-    }
-    mtime() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            return stats.mtimeMs;
-        } else {
-            return null;
-        }
-    }
-    static mtime(path) {
-        let pathInfo = new this(path);
-        return pathInfo.mtime();
-    }
-    size() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            return stats.size;
-        } else {
-            return null;
-        }
-    }
-    static size(path) {
-        let pathInfo = new this(path);
-        return pathInfo.size();
-    }
+    return fields[1].slice(0, fields[1].length - 1);
 }
-module.exports.PathInfo = PathInfo;
+module.exports.getType = getType;

@@ -8,7 +8,8 @@ import nodeWatch from "node-watch";
 import { Command } from "commander";
 import { Partitioner, CONTENT_TYPES } from "./partition-content.mjs";
 import * as mdfixer from "./mdfixer.mjs";
-import { repr, PathInfo } from "../utils.js";
+import { repr } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 // When running `gridsome build` or `develop`, links are sufficient for it to do the right thing
 // (except in the case of `vue-remark`, of course).

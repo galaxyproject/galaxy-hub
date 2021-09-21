@@ -2,7 +2,8 @@ import fs from "fs";
 import nodePath from "path";
 import { fileURLToPath } from "url";
 import grayMatter from "gray-matter";
-import { splitlines, repr, PathInfo } from "../utils.js";
+import { splitlines, repr } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 /** Types of files recognized by this module. */
 export const CONTENT_TYPES = ["md", "vue", "insert", "resource"];

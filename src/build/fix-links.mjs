@@ -176,7 +176,7 @@ function fixImageLink(rawPath) {
 
 function toRelImagePath(src, dst, whitelist) {
     for (let prefix of whitelist) {
-        if (dst.indexOf(prefix) === 0) {
+        if (dst.startsWith(prefix)) {
             return dst;
         }
     }

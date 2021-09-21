@@ -4,7 +4,8 @@ import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
-import { repr, PathInfo } from "../utils.js";
+import { repr } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));

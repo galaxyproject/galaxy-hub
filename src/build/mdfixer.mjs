@@ -13,7 +13,8 @@ import keepNewlineBeforeHtml from "./keep-newline-before-html.mjs";
 import htmlImgToMd from "./html-img-to-md.mjs";
 import fixLinks from "./fix-links.mjs";
 import tocAdd from "./toc-add.mjs";
-import { repr, PathInfo, rmPrefix } from "../utils.js";
+import { repr, rmPrefix } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 const MD_EXT = "md";
 const REMARK_STRINGIFY_OPTIONS = {
