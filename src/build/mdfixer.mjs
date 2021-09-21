@@ -4,6 +4,7 @@ import nodePath from "path";
 import process from "process";
 import { fileURLToPath } from "url";
 import { unified } from "unified";
+//TODO: Move away from unified-args. Merely importing it causes preprocess.mjs' exit code to be masked.
 import * as unifiedArgs from "unified-args";
 import remarkParse from "remark-parse";
 import remarkFrontmatter from "remark-frontmatter";
