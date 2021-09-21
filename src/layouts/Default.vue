@@ -3,10 +3,10 @@
         <header id="masthead">
             <NavBar />
         </header>
-        <section id="maincontainer" class="container">
+        <main id="maincontainer" class="container">
             <slot />
-            <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
-        </section>
+        </main>
+        <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
     </div>
 </template>
 
