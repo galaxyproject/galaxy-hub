@@ -12,7 +12,7 @@
         </div>
         <table class="table table-striped summary">
             <tbody>
-                <tr v-for="platform of $page.platform.platforms">
+                <tr :key="pKey" v-for="(platform, pKey) of $page.platform.platforms">
                     <th>{{ groupNames.get(platform.platform_group) }}:</th>
                     <td>
                         <a :href="platform.platform_url">{{ platform.platform_text }}</a>
