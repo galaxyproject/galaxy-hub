@@ -1,9 +1,9 @@
-name: Cypress Tests
+name: Code Quality Checks
 
 on: [push, pull_request]
 
 jobs:
-  cypress-run:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,19 +20,5 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
-        with:
-          build: yarn build
-          start: yarn serve
-          wait-on: 'http://localhost:8080'
-      - uses: actions/upload-artifact@v1
-        if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
-      - uses: actions/upload-artifact@v1
-        if: always()
-        with:
-          name: cypress-videos
-          path: cypress/videos
+      - name: Lint
+        run: yarn lint
