@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-01-12"
 ---
 
-[<img src="/src/events/gcc2021/gcc2021g-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)
+[<img src="/images/events/gcc2021/gcc2021g-logo-wide.png" class="float-right" style="max-width: 14rem;" />](https://www.vibconferences.be/events/gcc2021)
 
 The [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021) will be held July 5-12, 2021 in Ghent, Belgium. Like other years, the conference will feature training workshops throughout the event. **The training topics that are offered are determined by you**.
 
@@ -27,7 +27,9 @@ Thanks for helping to make GCC2021 a success!<br />
 GTN Leadership and GCC2021 Organizers
 
 <div class="text-center">
-<button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
+<button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
+
 [Nominate a topic](https://tinyurl.com/gcc2021-topic-nomination)
+
 </button>
 </div>
