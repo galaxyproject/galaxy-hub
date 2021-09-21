@@ -138,14 +138,15 @@ function mdToHtml(md) {
 module.exports.mdToHtml = mdToHtml;
 
 function gridifyPath(rawPath) {
-    let rawParts = rawPath.split(path.sep);
+    let decodedPath = decodeURI(rawPath);
+    let rawParts = decodedPath.split("/");
     let lastPart = rawParts[rawParts.length - 1];
     if (lastPart.endsWith(".html")) {
         rawParts[rawParts.length - 1] = rmSuffix(lastPart, ".html");
         rawParts.push("");
     }
     let sluggedParts = rawParts.map(slugify);
-    return sluggedParts.join(path.sep);
+    return sluggedParts.join("/");
 }
 module.exports.gridifyPath = gridifyPath;
 
