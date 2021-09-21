@@ -50,7 +50,6 @@ function main(rawArgv) {
     }
 
     // Start Gridsome.
-    //TODO: Get Gridsome's colors working in stdout again.
     let gridsomeExe = findGridsome();
     let cmd3 = `${gridsomeExe} ${command}`;
     console.log(`$ ${cmd3}`);
