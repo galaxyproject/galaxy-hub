@@ -7,9 +7,9 @@
             <p class="tease small">
                 {{ article.tease }}
                 <template v-if="article.links.length">
-                    (<template v-for="(link, i) of article.links">
-                        <a :href="link.url">{{ link.text }}</a>
-                        <template v-if="i < article.links.length - 1">, </template> </template
+                    (<template v-for="(link, index) of article.links">
+                        <a :href="link.url" :key="index">{{ link.text }}</a>
+                        <template v-if="index < article.links.length - 1">, </template> </template
                     >)
                 </template>
             </p>
