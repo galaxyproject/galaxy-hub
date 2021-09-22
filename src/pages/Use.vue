@@ -5,7 +5,7 @@
         <div class="markdown" v-html="inserts.main.content"></div>
 
         <b-tabs nav-class="font-weight-bold">
-            <b-tab v-for="tab in tabs" :key="tab.id" :title="tab.label">
+            <b-tab v-for="tab in tabs" :data-tab="tab.id" :key="tab.id" :title="tab.label">
                 <!-- Table name. -->
                 <h2 :id="tabs.anchor || tabs.id" class="nav-item">
                     <template v-if="inserts[`tab-${tab.id}`]">

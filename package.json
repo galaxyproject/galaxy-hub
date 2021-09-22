@@ -3,9 +3,16 @@
   "private": true,
   "scripts": {
     "build": "src/build/run.mjs build",
+    "serve": "http-server ./dist/",
     "develop": "src/build/run.mjs develop",
-    "format": "prettier --write '*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
-    "lint": "eslint src/**/*.{mjs,js,vue}"
+    "format": "prettier --write '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "format:check": "prettier --check '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "lint": "eslint src/**/*.{mjs,js,vue}",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "build-and-serve": "yarn build && yarn serve",
+    "test": "start-server-and-test build-and-serve http://localhost:8080 cypress:run",
+    "test:interactive": "start-server-and-test develop http://localhost:8080 cypress:open"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -36,9 +43,16 @@
     "which": "^2.0.2"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.1",
+    "axe-core": "^4.3.3",
+    "cypress": "8.4.1",
+    "cypress-axe": "^0.13.0",
     "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^7.17.0",
-    "sass-loader": "^10.1.1"
+    "http-server": "^13.0.2",
+    "sass-loader": "^10.1.1",
+    "start-server-and-test": "^1.14.0"
   },
   "prettier": {
     "printWidth": 120,

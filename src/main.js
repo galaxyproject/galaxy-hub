@@ -6,6 +6,7 @@ import "~/assets/styles.scss";
 import DefaultLayout from "~/layouts/Default.vue";
 import BootstrapVue from "bootstrap-vue";
 
+//eslint-disable-next-line no-unused-vars
 export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global component
     Vue.component("Layout", DefaultLayout);

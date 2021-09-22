@@ -3,10 +3,10 @@
         <header id="masthead">
             <NavBar />
         </header>
-        <section id="maincontainer" class="container">
+        <main id="maincontainer" class="container">
             <slot />
-            <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
-        </section>
+        </main>
+        <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
     </div>
 </template>
 
@@ -36,6 +36,7 @@ function addGATag() {
         a.src = g;
         m.parentNode.insertBefore(a, m);
     })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+    /* global ga */
     ga("create", "UA-45719423-4", "auto");
     ga("send", "pageview");
 }

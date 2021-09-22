@@ -45,7 +45,7 @@
                         name="q"
                         placeholder="Search Galaxy"
                     ></b-form-input>
-                    <b-button size="sm" class="my-2 my-sm-0" type="submit">
+                    <b-button aria-label="Search" size="sm" class="my-2 my-sm-0" type="submit">
                         <span class="fa fa-search"></span>
                     </b-button>
                 </b-nav-form>
