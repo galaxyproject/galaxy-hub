@@ -9,7 +9,8 @@
     "lint": "eslint src/**/*.{mjs,js,vue}",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test": "start-server-and-test develop http://localhost:8080 cypress:run",
+    "build-and-serve": "yarn build && yarn serve",
+    "test": "start-server-and-test build-and-serve http://localhost:8080 cypress:run",
     "test:interactive": "start-server-and-test develop http://localhost:8080 cypress:open"
   },
   "dependencies": {
