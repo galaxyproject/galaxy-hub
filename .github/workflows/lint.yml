@@ -23,3 +23,5 @@ jobs:
         run: yarn --prefer-offline
       - name: Lint
         run: yarn lint
+      - name: Formatting
+        run: yarn format:check

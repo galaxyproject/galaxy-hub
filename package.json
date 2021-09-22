@@ -6,6 +6,7 @@
     "serve": "http-server ./dist/",
     "develop": "src/build/run.mjs develop",
     "format": "prettier --write '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
+    "format:check": "prettier --check '*.js' 'cypress/**/*.js' 'src/**/{*.js,*.mjs,*.scss,*.vue}' '!src/.temp/**'",
     "lint": "eslint src/**/*.{mjs,js,vue}",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
