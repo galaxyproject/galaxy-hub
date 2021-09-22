@@ -1,7 +1,8 @@
 name: Cypress Tests
-
 on: [push, pull_request]
-
+concurrency: 
+  group: cypress-${{ github.head_ref }}
+  cancel-in-progress: true
 jobs:
   cypress-run:
     runs-on: ubuntu-latest

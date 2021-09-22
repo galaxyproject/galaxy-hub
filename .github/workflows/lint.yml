@@ -1,9 +1,10 @@
 name: Code Quality Checks
-
 on: [push, pull_request]
-
+concurrency: 
+  group: lint-${{ github.head_ref }}
+  cancel-in-progress: true
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
