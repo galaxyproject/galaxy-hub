@@ -4,7 +4,15 @@
         <td class="title">
             <a v-if="article.external_url" :href="article.external_url">{{ article.title }}</a>
             <g-link v-else :to="article.path" class="read">{{ article.title }}</g-link>
-            <p class="tease">{{ article.tease }}</p>
+            <p class="tease small">
+                {{ article.tease }}
+                <template v-if="article.links.length">
+                    (<template v-for="(link, index) of article.links">
+                        <a :href="link.url" :key="index">{{ link.text }}</a>
+                        <template v-if="index < article.links.length - 1">, </template> </template
+                    >)
+                </template>
+            </p>
         </td>
         <td class="location">
             <Continent :continent="article.continent" />
