@@ -81,6 +81,10 @@ query {
         contact
         external_url
         gtn
+        links {
+          text
+          url
+        }
         date (format: "D MMMM YYYY")
         path
       }
@@ -103,6 +107,10 @@ query {
         contact
         external_url
         gtn
+        links {
+          text
+          url
+        }
         date (format: "D MMMM YYYY")
         path
       }
