@@ -9,8 +9,8 @@
                 <template v-if="article.links.length">
                     (<template v-for="(link, i) of article.links">
                         <a :href="link.url">{{ link.text }}</a>
-                        <template v-if="i < article.links.length-1">, </template>
-                    </template>)
+                        <template v-if="i < article.links.length - 1">, </template> </template
+                    >)
                 </template>
             </p>
         </td>
