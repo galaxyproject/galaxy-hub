@@ -23,10 +23,7 @@ describe("Use Page Tests", () => {
     it("Visits the Use index, exercises controls", () => {
         cy.visit("/use/");
         cy.get("#masthead-logo").should("be.visible");
-        cy.findByRole("tablist").within(() => {
-            cy.findByText(/Public Servers/i).should("be.visible");
-            cy.findByText(/Public Servers/i).click();
-        });
+        cy.findByRole("tab", {name: /Public Servers/i}).click();
         cy.get(".tab-pane.active").within(() => {
             cy.get("#public-server-filter-input").should("be.visible");
             cy.get("#public-server-filter-input").type("Galaxy Test");
