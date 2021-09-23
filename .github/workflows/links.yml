@@ -1,9 +1,8 @@
 name: Check Links
 
 on:
-  pull_request
-  #schedule:
-  #  - cron: '0 12 * * 0'
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   check_links:
