@@ -25,27 +25,27 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
-      - name: Build and Serve
+      - name: Build static
         run: yarn build
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.0.8
         with:
           args: >
             --verbose
-            "/index.html"
-            "/use/index.html"
-            "/support/account-quotas/index.html"
-            "/learn/index.html"
-            "/admin/get-galaxy/index.html"
-            "/search/index.html"
-            "/support/index.html"
-            "/tutorials/g101/index.html"
-            "/tutorials/chip/index.html"
-            "/tutorials/rb_rnaseq/index.html"
-            "/admin/tools/add-tool-from-toolshed-tutorial/index.html"
-            "/tutorials/ngs/index.html"
-            "/use/usegalaxy-org/index.html"
-            "/learn/visualization/custom/lefse/index.html"
-            "/jxtx/index.html"
+            "./dist/index.html"
+            "./dist/use/index.html"
+            "./dist/support/account-quotas/index.html"
+            "./dist/learn/index.html"
+            "./dist/admin/get-galaxy/index.html"
+            "./dist/search/index.html"
+            "./dist/support/index.html"
+            "./dist/tutorials/g101/index.html"
+            "./dist/tutorials/chip/index.html"
+            "./dist/tutorials/rb_rnaseq/index.html"
+            "./dist/admin/tools/add-tool-from-toolshed-tutorial/index.html"
+            "./dist/tutorials/ngs/index.html"
+            "./dist/use/usegalaxy-org/index.html"
+            "./dist/learn/visualization/custom/lefse/index.html"
+            "./dist/jxtx/index.html"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
