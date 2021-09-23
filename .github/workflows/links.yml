@@ -26,26 +26,26 @@ jobs:
       - name: Install project dependencies
         run: yarn --prefer-offline
       - name: Build and Serve
-        run: yarn build-and-serve
+        run: yarn build
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.0.4
+        uses: lycheeverse/lychee-action@v1.0.8
         with:
           args: >
             --verbose
-            "http://localhost:8080/"
-            "http://localhost:8080/use/"
-            "http://localhost:8080/support/account-quotas/"
-            "http://localhost:8080/learn/"
-            "http://localhost:8080/admin/get-galaxy/"
-            "http://localhost:8080/search/"
-            "http://localhost:8080/support/"
-            "http://localhost:8080/tutorials/g101/"
-            "http://localhost:8080/tutorials/chip/"
-            "http://localhost:8080/tutorials/rb_rnaseq/"
-            "http://localhost:8080/admin/tools/add-tool-from-toolshed-tutorial/"
-            "http://localhost:8080/tutorials/ngs/"
-            "http://localhost:8080/use/usegalaxy-org/"
-            "http://localhost:8080/learn/visualization/custom/lefse/"
-            "http://localhost:8080/jxtx/"
+            "/index.html"
+            "/use/index.html"
+            "/support/account-quotas/index.html"
+            "/learn/index.html"
+            "/admin/get-galaxy/index.html"
+            "/search/index.html"
+            "/support/index.html"
+            "/tutorials/g101/index.html"
+            "/tutorials/chip/index.html"
+            "/tutorials/rb_rnaseq/index.html"
+            "/admin/tools/add-tool-from-toolshed-tutorial/index.html"
+            "/tutorials/ngs/index.html"
+            "/use/usegalaxy-org/index.html"
+            "/learn/visualization/custom/lefse/index.html"
+            "/jxtx/index.html"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
