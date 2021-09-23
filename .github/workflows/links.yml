@@ -1,0 +1,40 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: '*/3 * * * *'
+
+jobs:
+  check_links:
+    name: Check Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.8
+        with:
+          args: >
+            --verbose
+            "https://galaxyproject.org/"
+            "https://galaxyproject.org/use/"
+            "https://galaxyproject.org/support/account-quotas/"
+            "https://galaxyproject.org/learn/"
+            "https://galaxyproject.org/admin/get-galaxy/"
+            "https://galaxyproject.org/search/"
+            "https://galaxyproject.org/support/"
+            "https://galaxyproject.org/tutorials/g101/"
+            "https://galaxyproject.org/tutorials/chip/"
+            "https://galaxyproject.org/tutorials/rb_rnaseq/"
+            "https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/"
+            "https://galaxyproject.org/tutorials/ngs/"
+            "https://galaxyproject.org/use/usegalaxy-org/"
+            "https://galaxyproject.org/learn/visualization/custom/lefse/"
+            "https://galaxyproject.org/jxtx/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v3
+        with:
+          issue-number: 851
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
