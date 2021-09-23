@@ -1,5 +1,15 @@
 <template>
     <Layout>
+        <div v-if="this.redirectUrl" class="redirect alert alert-warning trim-p">
+            <p>
+                This url is no longer valid. Perhaps you meant
+                <a :href="this.redirectUrl">{{ this.redirectUrl }}</a>
+                ?
+            </p>
+            <p>
+                You will be redirected in {{ redirectDelay }} seconds.
+            </p>
+        </div>
         <h1 class="page-title">{{ $page.main.title }}</h1>
         <div class="markdown" v-html="$page.main.content" />
     </Layout>
@@ -13,14 +23,22 @@ export default {
             title: this.$page.main.title,
         };
     },
+    data() {
+        return {
+            redirectDelay: 5,
+            redirectUrl: undefined,
+        };
+    },
     mounted() {
-        // Try seeing if the url is different under Gridsome's slugification rules.
-        // If so, try redirecting to that.
-        let url = new URL(window.location.href);
+        // If the url is different under Gridsome's slugification rules, redirect to that.
+        let currentUrl = window.location.href;
+        let url = new URL(currentUrl);
         url.pathname = gridifyPath(url.pathname);
-        if (window.location.href !== url.href) {
-            console.log(repr`Redirecting to slugified url ${url.href}`);
-            doRedirect(url.href);
+        if (url.href !== currentUrl) {
+            this.redirectUrl = url.href;
+            console.log(repr`Redirecting to slugified url ${this.redirectUrl} in ${this.redirectDelay} seconds.`);
+            let currentPath = window.location.pathname;
+            setTimeout(() => doRedirect(this.redirectUrl, currentPath), this.redirectDelay * 1000);
         }
     },
 };
