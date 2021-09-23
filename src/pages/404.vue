@@ -6,9 +6,7 @@
                 <a :href="this.redirectUrl">{{ this.redirectUrl }}</a>
                 ?
             </p>
-            <p>
-                You will be redirected in {{ redirectDelay }} seconds.
-            </p>
+            <p>You will be redirected in {{ redirectDelay }} seconds.</p>
         </div>
         <h1 class="page-title">{{ $page.main.title }}</h1>
         <div class="markdown" v-html="$page.main.content" />
