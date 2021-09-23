@@ -5,9 +5,9 @@ category: events
 date: 2021-04-25
 days: 1
 continent: EU
-contact: people
+contact: Strong Mad
 contact_url: https://example.com
-authors: Juan and me
+authors: Marzipan
 location: Strong Badia
 location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
 external_url: https://zombo.com
@@ -22,7 +22,7 @@ image: World40.png
 links:
 - text: "Video"
   url: "https://youtu.be/bQFv4EVunWw"
-redirect: /somewhere/else/
+redirect: "/"
 ---
 
 This also serves to provide a page with all the metadata fields present. If you have a dynamic page with a GraphQL query for a metadata field, there must be at least one page with that field present. Otherwise Gridsome throws an error.
