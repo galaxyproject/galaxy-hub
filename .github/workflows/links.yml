@@ -1,0 +1,49 @@
+name: Check Links
+
+on:
+  # Uncomment the 'pull_request' line below to trigger the workflow in PR
+  push:
+  #schedule:
+  #  - cron: '0 12 * * 0'
+
+jobs:
+  check_links:
+    name: Check Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v1
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Build and Serve
+        run: yarn build-and-serve
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.4
+        with:
+          args: >
+            --verbose
+            "http://localhost:8080/"
+            "http://localhost:8080/use/"
+            "http://localhost:8080/support/account-quotas/"
+            "http://localhost:8080/learn/"
+            "http://localhost:8080/admin/get-galaxy/"
+            "http://localhost:8080/search/"
+            "http://localhost:8080/support/"
+            "http://localhost:8080/tutorials/g101/"
+            "http://localhost:8080/tutorials/chip/"
+            "http://localhost:8080/tutorials/rb_rnaseq/"
+            "http://localhost:8080/admin/tools/add-tool-from-toolshed-tutorial/"
+            "http://localhost:8080/tutorials/ngs/"
+            "http://localhost:8080/use/usegalaxy-org/"
+            "http://localhost:8080/learn/visualization/custom/lefse/"
+            "http://localhost:8080/jxtx/"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
