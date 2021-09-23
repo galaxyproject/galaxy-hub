@@ -83,7 +83,7 @@ The data is structured in the following way:
       <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-Data upload from Galaxy Library (**recommended** if using http://usegalaxy.org)
+Data upload from Galaxy Library (**recommended** if using usegalaxy.org)
 
 </a>
       </h4>
