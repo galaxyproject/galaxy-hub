@@ -2,7 +2,7 @@ name: Check Links
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/3 * * * *'
 
 jobs:
   check_links:
