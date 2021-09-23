@@ -33,9 +33,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Issue From File
-        if: github.repository == ‘galaxyproject/galaxy-hub’
         uses: peter-evans/create-issue-from-file@v3
         with:
+          issue-number: 851
           title: Link Checker Report
           content-filepath: ./lychee/out.md
           labels: report, automated issue
