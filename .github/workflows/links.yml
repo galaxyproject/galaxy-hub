@@ -11,41 +11,25 @@ jobs:
     name: Check Links
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v1
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Install project dependencies
-        run: yarn --prefer-offline
-      - name: Build static
-        run: yarn build
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.0.8
         with:
           args: >
             --verbose
-            "./dist/index.html"
-            "./dist/use/index.html"
-            "./dist/support/account-quotas/index.html"
-            "./dist/learn/index.html"
-            "./dist/admin/get-galaxy/index.html"
-            "./dist/search/index.html"
-            "./dist/support/index.html"
-            "./dist/tutorials/g101/index.html"
-            "./dist/tutorials/chip/index.html"
-            "./dist/tutorials/rb_rnaseq/index.html"
-            "./dist/admin/tools/add-tool-from-toolshed-tutorial/index.html"
-            "./dist/tutorials/ngs/index.html"
-            "./dist/use/usegalaxy-org/index.html"
-            "./dist/learn/visualization/custom/lefse/index.html"
-            "./dist/jxtx/index.html"
+            "https://galaxyproject.org/"
+            "https://galaxyproject.org/use/"
+            "https://galaxyproject.org/support/account-quotas/"
+            "https://galaxyproject.org/learn/"
+            "https://galaxyproject.org/admin/get-galaxy/"
+            "https://galaxyproject.org/search/"
+            "https://galaxyproject.org/support/"
+            "https://galaxyproject.org/tutorials/g101/"
+            "https://galaxyproject.org/tutorials/chip/"
+            "https://galaxyproject.org/tutorials/rb_rnaseq/"
+            "https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial/"
+            "https://galaxyproject.org/tutorials/ngs/"
+            "https://galaxyproject.org/use/usegalaxy-org/"
+            "https://galaxyproject.org/learn/visualization/custom/lefse/"
+            "https://galaxyproject.org/jxtx/"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
