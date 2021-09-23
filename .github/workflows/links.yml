@@ -1,8 +1,9 @@
 name: Check Links
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '30 23 * * *'
 
 jobs:
   check_links:
@@ -35,6 +36,6 @@ jobs:
         uses: peter-evans/create-issue-from-file@v3
         with:
           issue-number: 851
-          title: Link Checker Report
+          title: Link Checker Report (updated daily)
           content-filepath: ./lychee/out.md
           labels: report, automated issue
