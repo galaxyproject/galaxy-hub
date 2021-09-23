@@ -1,5 +1,5 @@
 name: Code Quality Checks
-on: [push, pull_request]
+on: pull_request
 concurrency: 
   group: lint-${{ github.head_ref }}
   cancel-in-progress: true
