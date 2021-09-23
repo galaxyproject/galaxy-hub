@@ -15,6 +15,8 @@ jobs:
         with:
           args: >
             --verbose
+            --exclude-all-private
+            --exclude "localhost:8080"
             "https://galaxyproject.org/"
             "https://galaxyproject.org/use/"
             "https://galaxyproject.org/support/account-quotas/"
