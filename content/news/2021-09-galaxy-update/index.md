@@ -284,7 +284,7 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 </div>
 <div class="card-header trim-p">
 
-[microGalaxy Community call]([/community/devroundtable/index.md](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri))
+[microGalaxy Community call](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri)
 
 </div>
 
@@ -407,7 +407,7 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-updates/)
+[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-update/)
 
 </div>
 

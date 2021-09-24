@@ -154,7 +154,7 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 
 **12-14 July, Online, Global**
 
-SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/src/use/ecology/index,nd) will have a workshop, a talk, and a hackathon at this event.
+SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/use/ecology/) will have a workshop, a talk, and a hackathon at this event.
 
 </div>
 

@@ -423,7 +423,7 @@ However, since we have ran `Stringtie` on each collection (`G1E` and `Mk`) indep
 |![](/src/tutorials/nt_rnaseq/merge_col.png)|
 |<small>**Merging collection** into a single collection. This assumes that you have renamed collections produced by `Stringtie` as `Stringtie on G1E` and `Stringtie on Mk`.</small>|
 
-Now that the two collections are merged we will rename resulting collection `Transcriptome`. We are almost ready to run `Stringtie merge` on it. But in order to distinguish between novel and existing transcripts we will need provide `Stringtie merge` with a list of known annotated transcripts. For mouse genome version used in this tutorial (`mm10`) such a list can be downloaded from a [Galaxy Library](https://usegalaxy.org/library/list#folders/F59bc5dbe6dfc6d4c) as was [described above](/tutorials/nt_rnaseq/#how-to-upload-the-data-into-galaxy). Now we can finally run `Stringtie merge`:
+Now that the two collections are merged we will rename resulting collection `Transcriptome`. We are almost ready to run `Stringtie merge` on it. But in order to distinguish between novel and existing transcripts we will need provide `Stringtie merge` with a list of known annotated transcripts. For mouse genome version used in this tutorial (`mm10`) such a list can be downloaded from a [Galaxy Library](https://usegalaxy.org/library/list#folders/F59bc5dbe6dfc6d4c) as was [described above](/tutorials/nt-rnaseq/#how-to-upload-the-data-into-galaxy). Now we can finally run `Stringtie merge`:
 
 |       |
 |-------|
@@ -585,14 +585,14 @@ To start IGV expand the merged dataset we have just generated:
 |![](/src/tutorials/nt_rnaseq/startIGV.png)|
 |<small>Click on `Mouse mm10` link (on Linux systems you may need to install IGV separately and use `local` link). This action will download and start IGV.</small>|
 
-After IGV has started we will add to GTF files containing merged transcripts (the one produced [here](/tutorials/nt_rnaseq/#creating-unified-transcriptome-assembly)):
+After IGV has started we will add to GTF files containing merged transcripts (the one produced [here](/tutorials/nt-rnaseq/#creating-unified-transcriptome-assembly)):
 
 |                                 |
 |---------------------------------|
 |![](/src/tutorials/nt_rnaseq/gffToIgv.png)|
 |<small>To display GFF with merged transcripts click on `local` IGV link.</small>
 
-Finally, direct IGV to the locus of interest by typing `MSTRG.78.1` in the IGV's location box. `MSTRG.78.1` is novel transcript which significantly overexpressed in G1E according to [our `DeSeq2` analysis](/tutorials/nt_rnaseq/#making-sense-of-the-results):
+Finally, direct IGV to the locus of interest by typing `MSTRG.78.1` in the IGV's location box. `MSTRG.78.1` is novel transcript which significantly overexpressed in G1E according to [our `DeSeq2` analysis](/tutorials/nt-rnaseq/#making-sense-of-the-results):
 
 |                                 |
 |---------------------------------|
