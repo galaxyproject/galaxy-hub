@@ -4,7 +4,7 @@ tease: "GCC2019 is here! (And other new stuff too)"
 date: "2019-06-28"
 ---
 
-[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md)
 
 The *July 2019 Galactic News* is here!
 
