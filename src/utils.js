@@ -1,8 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
-const remark = require("remark");
-const remarkHtml = require("remark-html");
+const jiti = require('jiti')(__filename);
+const { unified } = jiti('unified');
+const remarkParse = require('remark-parse');
+const remarkRehype = jiti('remark-rehype').default;
+const rehypeStringify = jiti('rehype-stringify').default;
 const slugify = require("@sindresorhus/slugify");
 const CONFIG = require("../config.json");
 
@@ -119,8 +122,10 @@ module.exports.getImage = getImage;
 function mdToHtml(md) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     let rawHtml;
-    remark()
-        .use(remarkHtml, { sanitize: false })
+    unified()
+        .use(remarkParse)
+        .use(remarkRehype)
+        .use(rehypeStringify)
         .process(md, (err, file) => {
             if (err) {
                 console.error(err);
