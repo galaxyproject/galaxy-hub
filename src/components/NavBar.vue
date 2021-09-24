@@ -5,7 +5,7 @@
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav>
+            <b-navbar-nav id="navbar-menu">
                 <b-nav-item to="/use/">Use</b-nav-item>
                 <b-nav-item-dropdown text="Learn">
                     <b-dropdown-item to="/learn/">How to use Galaxy</b-dropdown-item>
@@ -36,7 +36,7 @@
                 </b-nav-item-dropdown>
                 <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
-            <b-navbar-nav class="ml-auto">
+            <b-navbar-nav id="navbar-misc" class="ml-auto">
                 <b-nav-form action="/search/" method="get">
                     <b-form-input
                         id="search-input"
