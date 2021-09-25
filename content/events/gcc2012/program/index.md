@@ -77,7 +77,7 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
 
 ### Day 1: July 26, Thursday
 
-The main meeting started on Thursday, July 26, and featured submitted talks from the Galaxy Community and [Galaxy Team](/src/galaxy-team/index.md).
+The main meeting started on Thursday, July 26, and featured submitted talks from the Galaxy Community and [Galaxy Team](/galaxy-team/).
 
 | Time | Topic |
 | ----: | ---- |

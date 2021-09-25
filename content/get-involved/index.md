@@ -43,7 +43,7 @@ engines](https://galaxyproject.org/search/).
 # Develop Tools and Tool Definitions
 
 <div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
-There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/main/index.md) server (and the [Galaxy Team](/src/galaxy-team/index.md)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
+There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/main/index.md) server (and the [Galaxy Team](/galaxy-team/)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
 The Galaxy [Tool Shed](/src/toolshed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/toolshed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/admin/tools/add-tool-tutorial/index.md) for you.
 

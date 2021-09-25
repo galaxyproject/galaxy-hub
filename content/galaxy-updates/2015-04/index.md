@@ -457,7 +457,7 @@ One new [Community Log Board](/src/blog/index.md) entry was added in March:
 
 <br /><br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)
 
 ## BioBlend v0.5.3 Released
 

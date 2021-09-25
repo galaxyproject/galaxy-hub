@@ -35,4 +35,4 @@ We hope you will like the change and look forward to any feedback you may have.
 
 *Thank you for using Galaxy!*
 
-[Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Team](/galaxy-team/)

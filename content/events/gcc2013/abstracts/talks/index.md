@@ -470,7 +470,7 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 **[Daniel Blankenberg](/people/dan/)**
 
- [Galaxy Team](/src/galaxy-team/index.md) and Penn State University
+ [Galaxy Team](/galaxy-team/) and Penn State University
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BlankenbergBuiltInData.pdf), [Vimeo](https://vimeo.com/74265510)*
 

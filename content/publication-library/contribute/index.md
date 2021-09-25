@@ -9,7 +9,7 @@ title: "Contribute to the Galaxy Publication Library"
 It takes a fair amount of work to keep track of publications that reference
 Galaxy in some way: There are now over 1000 papers per year that do so.  The
 bulk of this curation is currently done by [Galaxy
-Team](/src/galaxy-team/index.md) members using (quite possibly hundreds) of
+Team](/galaxy-team/) members using (quite possibly hundreds) of
 email alerts and custom software.
 
 If you want to help curate papers then here's how you can help.

@@ -116,7 +116,7 @@ The [GalaxyCzars group](/src/community/GalaxyCzars/index.md) was launched and ha
 ## Galaxy is Hiring!
 
 <div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
-**The [Galaxy Team](/src/galaxy-team/index.md) Wants You!**
+**The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
 <br />

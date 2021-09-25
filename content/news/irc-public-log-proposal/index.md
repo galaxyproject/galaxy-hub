@@ -27,4 +27,4 @@ Starting sometime after community discussion ends (and assuming that discussion 
 
 The project's IRC channel came up at the [GalaxyAdmins BoF meetup](/src/events/gcc2014/bofs/galaxy-admins/index.md) at [GCC2014](/src/events/gcc2014/index.md), where it was lauded as both a great resource, *and cursed because it is not archived anywhere.*  An action item from that meetup is to propose this change.
 
-The [Galaxy Team](/src/galaxy-team/index.md)
+The [Galaxy Team](/galaxy-team/)

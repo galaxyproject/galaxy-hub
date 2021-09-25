@@ -15,4 +15,4 @@ The **[January Galaxy News](/src/galaxy-updates/2017-01/index.md)** is hot off t
 * [Galaxy Community Hub Update](/src/galaxy-updates/2017-01/index.md#galaxy-community-hub-update)
 * And [99 new publications](/src/galaxy-updates/2017-01/index.md#new-publications), [three open positions](/src/galaxy-updates/2017-01/index.md#who-s-hiring), [two new public servers and one new service](/src/galaxy-updates/2017-01/index.md#public-galaxy-server-news), [new releases](/src/galaxy-updates/2017-01/index.md#releases), and new [ToolShed contributions](/src/galaxy-updates/2017-01/index.md#toolshed-contributions) too.
 
-Dave Clements and the [Galaxy Team](/src/galaxy-team/index.md)
+Dave Clements and the [Galaxy Team](/galaxy-team/)

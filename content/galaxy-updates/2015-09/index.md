@@ -101,7 +101,7 @@ The new papers were tagged with:
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/src/publication-library/index.md#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/galaxy-team/index.md) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/src/publication-library/index.md#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
 
 ----
 

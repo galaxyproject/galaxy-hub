@@ -32,7 +32,7 @@ The [tentative time and location](/src/events/gcc2013/bof/index.md#bof-schedule)
 If you are interested, please add your name below and/or send an email to [Dave Clements](mailto:clements AT galaxyproject DOT org).
 
 * [Dave Clements](/people/dave-clements/), Galaxy Project
-* [Dorine Francheteau](/src/galaxy-team/index.md), Galaxy Project
+* [Dorine Francheteau](/galaxy-team/), Galaxy Project
 * Eric Kuyt, Central Veterinary Institute of Wageningen UR (CVI)
 * Jacqueline Lee, University of Calgary
 * Ron Horst, University of Queensland, Australia

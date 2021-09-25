@@ -244,7 +244,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 7-8 </th>
     <td> <strong><a href='/src/events/admin-training2016/basics-session/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 7-9 </th>
@@ -262,7 +262,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 9-11 </th>
     <td> <strong><a href='/src/events/admin-training2016/advanced-session/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/galaxy-team/index.md'>Galaxy Team</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 15-16 </th>

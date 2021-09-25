@@ -153,7 +153,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <td> </td>
     <td style=" class="green" "> <strong>Y</strong> </td>
     <td> </td>
-    <td> The <a href='/src/galaxy-team/index.md'>Galaxy Team</a> uses this head node in workshops that run TopHat.  It can support ~30 concurrent TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
+    <td> The <a href='/galaxy-team/'>Galaxy Team</a> uses this head node in workshops that run TopHat.  It can support ~30 concurrent TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
   </tr>
   <tr>
     <th rowspan=2> Com-<br />pute </th>

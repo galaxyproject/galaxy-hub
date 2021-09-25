@@ -135,7 +135,7 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 The very first [Galaxy Project Hackathon](/src/events/gcc2014/hackathon/index.md) will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/src/events/gcc2014/index.md) from June 28th-30th.
 
-Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/events/gcc2014/hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/src/galaxy-team/index.md) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/events/gcc2014/index.md) afterward.
+Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/events/gcc2014/hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/galaxy-team/) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/events/gcc2014/index.md) afterward.
 
 Participation in the hackathon itself is completely free, but there's limited space so if you're interested and would like to participate please go ahead and book both your lodging and hackathon seat at [EventBrite](http://bit.ly/gcc2014hackreg).
 

@@ -8,7 +8,7 @@ Galaxy is an open, web-based platform for accessible, reproducible, and	transpar
  
 See the [Learn](/src/learn/index.md) page for help on using Galaxy, and the [Admin](/src/admin/index.md) page for help on setting up your own instance.
 
-You can take a look at the current members of the core project [team](/src/galaxy-team/index.md). We are funded by NIH, NSF, Penn State, Johns Hopkins, and the Pennsylvania Department of Public Health.
+You can take a look at the current members of the core project [team](/galaxy-team/). We are funded by NIH, NSF, Penn State, Johns Hopkins, and the Pennsylvania Department of Public Health.
 
 * [Galaxy Platform Directory](/src/use/index.md)
 * [Citing Galaxy](/src/citing-galaxy/index.md)

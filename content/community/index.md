@@ -1,7 +1,7 @@
 ---
 title: The Galaxy Community
 ---
-A vibrant community of contributors is the reason this project exists. The [Galaxy team](/src/galaxy-team/index.md) alone cannot possibly [maintain enough servers](/src/use/index.md), [wrap enough tools](https://toolshed.g2.bx.psu.edu/), [teach enough workshops](/src/events/index.md), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/src/support/index.md) on its own. This is why community is vital to our core mission - enabling reproducible research in data-rich sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
+A vibrant community of contributors is the reason this project exists. The [Galaxy team](/galaxy-team/) alone cannot possibly [maintain enough servers](/src/use/index.md), [wrap enough tools](https://toolshed.g2.bx.psu.edu/), [teach enough workshops](/src/events/index.md), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/src/support/index.md) on its own. This is why community is vital to our core mission - enabling reproducible research in data-rich sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
 
 <div class="img-fluid mx-auto trim-p">
 

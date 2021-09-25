@@ -14,7 +14,7 @@ Galaxy Biostars has been retired and is available as an archived resource at the
 
 
 
-As a result of joint efforts of the [Galaxy Team](/src/galaxy-team/index.md) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
+As a result of joint efforts of the [Galaxy Team](/galaxy-team/) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
 
 Galaxy Biostars is at **[https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/)**
 

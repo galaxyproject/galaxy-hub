@@ -417,7 +417,7 @@ VirAmp includes [Documentation](http://docs.viramp.com/en/latest/) and is suppor
 The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)**. We hope that you like the new format as much as we do!
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)
 
 ## Pulsar 0.5.0
 

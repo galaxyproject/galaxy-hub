@@ -20,4 +20,4 @@ date: "2016-01-13"
 * **[Github](https://github.com/galaxyproject)**
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

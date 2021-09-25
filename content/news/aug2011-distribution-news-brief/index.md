@@ -24,4 +24,4 @@ upgrade: % hg pull -u -r 949e4f5fa03a
 
 [Jennifer Jackson](/people/jennifer-jackson/)
 
-[Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Team](/galaxy-team/)

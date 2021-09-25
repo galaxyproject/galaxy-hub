@@ -660,7 +660,7 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. | 2011 |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. | 2011 |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. | 2011 |
-| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. | 2011 |
+| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. | 2011 |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. | 2011 |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. | 2011 |
 | [+Workbench](https://www.zotero.org/groups/galaxy/items/tag/+Workbench/) | Publication mentions Galaxy as a platform. | 2011 |

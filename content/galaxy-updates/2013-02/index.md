@@ -132,7 +132,7 @@ There are still several [sponsorships](/src/events/gcc2013/sponsorships/index.md
 
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
 
-A [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-01-16/index.md) was held on January 16, 2013.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) presented "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  Greg Von Kuster of the [Galaxy Team](/src/galaxy-team/index.md) gave an update on recent Tool Shed enhancements.  Slides and a screencast are now available.
+A [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-01-16/index.md) was held on January 16, 2013.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) presented "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  Greg Von Kuster of the [Galaxy Team](/galaxy-team/) gave an update on recent Tool Shed enhancements.  Slides and a screencast are now available.
 
 The next [GalaxyAdmins meetup](/src/community/galaxy-admins/index.md) will be Wednesday, March 20th
 

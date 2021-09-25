@@ -295,7 +295,7 @@ and ...
 
 ## The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update
 
-The [project and the developer community](/src/galaxy-team/index.md) has published a new paper, 
+The [project and the developer community](/galaxy-team/) has published a new paper, 
 
   [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 

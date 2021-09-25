@@ -15,4 +15,4 @@ date: "2015-09-03"
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

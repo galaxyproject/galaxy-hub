@@ -11,7 +11,7 @@ To subscribe to the galaxy-proteomics list please add your email address to the 
 
 See [the complete list of mailing lists](/src/mailing-lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
-Many thanks to Dave C. and the [Galaxy team](/src/galaxy-team/index.md) for setting this up.
+Many thanks to Dave C. and the [Galaxy team](/galaxy-team/) for setting this up.
 
 Thanks
 

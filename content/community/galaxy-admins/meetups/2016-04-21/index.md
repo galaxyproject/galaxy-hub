@@ -51,7 +51,7 @@ Galaxy Portal is provided free of charge.
 
 ## Tool Development Developments
 
-[Galaxy Team](/src/galaxy-team/index.md) member [John Chilton](/people/john-chilton/) will discuss recent  tool development developments including Conda, tool version profiles, and Planemo enhancements.
+[Galaxy Team](/galaxy-team/) member [John Chilton](/people/john-chilton/) will discuss recent  tool development developments including Conda, tool version profiles, and Planemo enhancements.
 
 ## Call Technology
 

@@ -12,4 +12,4 @@ In the meantime, feel free to use the [more than 90 public Galaxy servers](/src/
 
 We apologize for any inconvenience this causes.
 
-The [Galaxy Team](/src/galaxy-team/index.md)
+The [Galaxy Team](/galaxy-team/)

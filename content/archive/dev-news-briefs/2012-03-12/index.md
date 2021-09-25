@@ -186,7 +186,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 ## Galaxy is Hiring!
 
 <div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
-**The [Galaxy Team](/src/galaxy-team/index.md) Wants You!**
+**The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
 
@@ -202,4 +202,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
 ----
-</div> Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-03-12</div>
+</div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-03-12</div>

@@ -220,7 +220,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 Several new repositories were added to, and existing repositories updated in the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in the past month.
 
 * `bsmap`: A short read mapping tool for bisulfite sequencing reads
-* `bowtie_wrappers, bowtie_color_wrappers, lastz, lastz_paired_ends`: Wrappers all created by the [Galaxy Team](/src/galaxy-team/index.md)
+* `bowtie_wrappers, bowtie_color_wrappers, lastz, lastz_paired_ends`: Wrappers all created by the [Galaxy Team](/galaxy-team/)
 * `semweb_tools`: A collection of Semantic Web tools, including a (pure python) SPARQL-to-tabular format tool
 * `ea_utils`: FASTQ processing utilities; sam-stats added
 * `regex_replace`: Regular expression replacement using the Python 

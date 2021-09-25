@@ -37,7 +37,7 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
   * for storage (S3)
 * General Comments
   * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments. 
-  * "Galaxy better than commercial software" (the [Galaxy Team](/src/galaxy-team/index.md) says "thank-you"!!)
+  * "Galaxy better than commercial software" (the [Galaxy Team](/galaxy-team/) says "thank-you"!!)
   * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
   * New end user community to be aware of: Mass spec
 

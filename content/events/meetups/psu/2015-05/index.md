@@ -14,7 +14,7 @@ Hey Everyone,
 This meeting is open to anyone interested in RNA-Seq analysis and biology workflows.
 [Anton Nekrutenko](/people/anton/) of the [Galaxy team](/src/galaxy-team/) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint. 
 
-[Galaxy Team members](/src/galaxy-team/index.md) will be available for any additional questions.
+[Galaxy Team members](/galaxy-team/) will be available for any additional questions.
 
 Thanks and hope to see you there!
 

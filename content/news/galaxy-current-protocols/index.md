@@ -17,4 +17,4 @@ Both papers feature hands-on, step by step protocols, accompanied by numerous an
 
 We would like to thank [Wiley](http://wiley.com) for making both of these publications be *open access.*
 
-[Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Team](/galaxy-team/)
