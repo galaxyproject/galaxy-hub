@@ -64,7 +64,7 @@ You [register](/src/events/gcc2013/register/index.md) for the Training Day (and 
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
     <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Dan Blankenberg</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-toolshed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/people/greg_vonkuster/'>Greg Von Kuster</a>, <a href='/people/dave-bouvier/'>Dave Bouvier</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-toolshed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/people/greg-vonkuster/'>Greg Von Kuster</a>, <a href='/people/dave-bouvier/'>Dave Bouvier</a> </div> </td>
     <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a></strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </div> </td>
     <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
     <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
@@ -405,7 +405,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/greg_vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/greg-vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>

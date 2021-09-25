@@ -49,7 +49,7 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/'>Greg von Kuster</a> & <a href='/people/nate/'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg-vonkuster/'>Greg von Kuster</a> & <a href='/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>

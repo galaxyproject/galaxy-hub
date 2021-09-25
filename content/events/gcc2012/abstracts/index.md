@@ -452,7 +452,7 @@ GenomeSpace is a software environment that provides a connection layer between b
 
 <div class='right'><img src="/src/images/people/greg.png" alt="" width="120" /></div>
 
-**[Greg von Kuster](/people/greg_vonkuster/)<sup>1</sup>**
+**[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)
 

@@ -4627,7 +4627,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <strong><a href='http://conf.abrf.org/'>Galaxy Next Generation Sequencing Functionality from Sample Tracking to SNP Calling</a></strong><br />ABRF 2011 </td>
     <td> San Antonio, Texas, United States </td>
     <td> </td>
-    <td> <a href='/people/greg_vonkuster/'>Greg von Kuster</a> </td>
+    <td> <a href='/people/greg-vonkuster/'>Greg von Kuster</a> </td>
   </tr>
   <tr>
     <th> February 2-5 </th>

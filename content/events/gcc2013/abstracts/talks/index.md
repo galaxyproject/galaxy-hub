@@ -430,7 +430,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 <div class='right'><a href='/people/dan/'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></a></div>
 
-**[Greg von Kuster](/people/greg_vonkuster/)**, [Daniel Blankenberg](/people/dan/)
+**[Greg von Kuster](/people/greg-vonkuster/)**, [Daniel Blankenberg](/people/dan/)
  Penn State / Galaxy Team
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*

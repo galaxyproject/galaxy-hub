@@ -33,7 +33,7 @@ If you are interested, please add your name below and/or send an email to the [I
 * [Björn Grüning](mailto:bjoern.gruening AT pharmazie DOT uni-freiburg DOT de)
 * [JJ Johnson](mailto:jj AT umn DOT edu)
 * Peter Cock
-* [Greg Von Kuster](/people/greg_vonkuster/)
+* [Greg Von Kuster](/people/greg-vonkuster/)
 * [Dave Bouvier](/people/dave-bouvier/)
 * [Dan Blankenberg](/people/dan/)
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)

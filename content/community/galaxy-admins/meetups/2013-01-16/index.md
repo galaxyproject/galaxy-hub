@@ -6,7 +6,7 @@
 
 The January 2013 [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-01-16/index.md) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."   
 
-[Greg Von Kuster](/people/greg_vonkuster/) also gave a Galaxy Project update.
+[Greg Von Kuster](/people/greg-vonkuster/) also gave a Galaxy Project update.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ The January 2013 [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013
   </tr>
   <tr>
     <th> Presenter </th>
-    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a><br /><a href='/people/greg_vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a>  </td>
+    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a><br /><a href='/people/greg-vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a>  </td>
   </tr>
   <tr>
     <th> Links </th>

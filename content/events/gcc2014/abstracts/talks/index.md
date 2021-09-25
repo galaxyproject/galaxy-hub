@@ -167,7 +167,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 <div class='right'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></div>
 
-**[Greg von Kuster](/people/greg_vonkuster/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
+**[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu/), State College, Pennsylvania, United States<br />
  

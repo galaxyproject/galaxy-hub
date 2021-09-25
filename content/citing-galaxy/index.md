@@ -63,7 +63,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ## DataSource Tools
 
-* [Daniel Blankenberg](/people/dan/), [Nate Coraor](/people/nate/), [Gregory Von Kuster](/people/greg_vonkuster/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and The [Galaxy Team](/src/galaxy-team/). **[Integrating diverse databases into an unified analysis framework: a Galaxy approach](https://academic.oup.com/database/article/doi/10.1093/database/bar011/463445)**. *Database (Oxford)*. 2011 Apr 29;2011:bar011. doi:10.1093/database/bar011.
+* [Daniel Blankenberg](/people/dan/), [Nate Coraor](/people/nate/), [Gregory Von Kuster](/people/greg-vonkuster/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and The [Galaxy Team](/src/galaxy-team/). **[Integrating diverse databases into an unified analysis framework: a Galaxy approach](https://academic.oup.com/database/article/doi/10.1093/database/bar011/463445)**. *Database (Oxford)*. 2011 Apr 29;2011:bar011. doi:10.1093/database/bar011.
 
 ## External Display Applications
 
@@ -80,7 +80,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ## ToolShed
 
-* [Daniel Blankenberg](/people/dan/), [Gregory Von Kuster](/people/greg_vonkuster/), [Emil Bouvier](/people/dave-bouvier/), [Dannon Baker](/people/dannon-baker/), [Enis Afgan](/people/enis-afgan/), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/galaxy-team/), [James Taylor](/people/james-taylor/) and [Anton Nekrutenko](/people/anton/). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
+* [Daniel Blankenberg](/people/dan/), [Gregory Von Kuster](/people/greg-vonkuster/), [Emil Bouvier](/people/dave-bouvier/), [Dannon Baker](/people/dannon-baker/), [Enis Afgan](/people/enis-afgan/), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/galaxy-team/), [James Taylor](/people/james-taylor/) and [Anton Nekrutenko](/people/anton/). **[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.biomedcentral.com/articles/10.1186/gb4161)**. *Genome Biology* (2014) 15:403 doi:10.1186/gb4161
 
 ## Training & Education
 

@@ -77,7 +77,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td rowspan=1> 3:00-3:25 </td>
-    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a></em>, <a href='/people/greg_vonkuster/'>Greg von Kuster</a>, Penn State University </td>
+    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a></em>, <a href='/people/greg-vonkuster/'>Greg von Kuster</a>, Penn State University </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_ISMB_ToolShed.pdf'>Slides</a> </td>
   </tr>
   <tr>

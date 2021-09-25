@@ -242,7 +242,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 ![Greg von Kuster](/src/images/people/greg.png)
-[Greg von Kuster](/people/greg_vonkuster/) 
+[Greg von Kuster](/people/greg-vonkuster/) 
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
